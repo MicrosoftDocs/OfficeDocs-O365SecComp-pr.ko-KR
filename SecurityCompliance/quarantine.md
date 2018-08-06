@@ -1,0 +1,35 @@
+---
+title: 격리
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 6/16/2017
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+ms.assetid: e9eecdde-dcc2-4283-a820-98d1e740e4f1
+description: Exchange Online 및 Exchange Online 보호 호스팅되는 격리에 알아봅니다.
+ms.openlocfilehash: 58bd7d6f191f3a331cb387ae326153b4649571d2
+ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "22027435"
+---
+# <a name="quarantine"></a>격리
+
+다음 항목에서는 Exchange Online 및 EOP(Exchange Online Protection) 관리자와 최종 사용자에게 적용되는 호스팅된 격리에 대해 알아봅니다.
+  
+- [격리 FAQ](quarantine-faq.md) - 관리자와 최종 사용자 모두에게 적용되는 격리에 대한 일반적인 질문과 대답을 제공합니다. 
+    
+- [관리자로 격리된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md) - 관리자가 EAC(Exchange 관리 센터)의 격리에 상주하는 메시지를 찾아서 릴리스하고, 필요한 경우 이를 가양성(정크 메일 아님) 메시지로 Microsoft에 보고하는 방법에 대해 설명합니다. 
+    
+- [Find and Release Quarantined Messages (최종 사용자)](http://technet.microsoft.com/library/e439b560-827a-4807-abd3-6b861c1ff786.aspx) -방법에 대해 설명 최종 사용자 수 및 스팸 격리 사용자 인터페이스에서 자신의 스팸 격리 된 메시지를 릴리스하고 정크 메일 아님으로 Microsoft에 보고 합니다. 
+    
+    > [!IMPORTANT]
+    > 최종 사용자 스팸 격리에 액세스 하기 위해 유효한 Office 365 사용자 ID와 암호를 최종 사용자가 있어야 합니다. 온-프레미스 사서함을 보호 하는 EOP 고객 디렉터리 동기화 또는 EAC를 통해 만든 유효한 전자 메일 사용자 여야 합니다. 사용자를 관리 하는 방법에 대 한 자세한 내용은 EOP 관리자의 [EOP의 메일 사용자 관리를](eop/manage-mail-users-in-eop.md)참조할 수 있습니다. EOP 독립 실행형 고객을 위한 것이 좋습니다 디렉터리 동기화를 사용 하 고 디렉터리 기반 Edge 차단; 사용 하도록 설정 자세한 내용은 다음을 [사용 하 여 디렉터리 기반 Edge 차단 거부 잘못 된 받는 사람에 게 보낸 메시지를](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)을 참조 하십시오. 
+  
+    
+
