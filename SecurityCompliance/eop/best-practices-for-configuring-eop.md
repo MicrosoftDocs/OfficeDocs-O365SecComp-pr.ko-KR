@@ -1,0 +1,113 @@
+---
+title: EOP 구성을 위한 모범 사례
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 12/9/2016
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
+description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
+ms.openlocfilehash: ef58e2cd5a3ffdbbeb02124442c355974d174073
+ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "22027275"
+---
+# <a name="best-practices-for-configuring-eop"></a><span data-ttu-id="f0ef6-103">EOP 구성을 위한 모범 사례</span><span class="sxs-lookup"><span data-stu-id="f0ef6-103">Best practices for configuring EOP</span></span>
+  
+<span data-ttu-id="f0ef6-p101">일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요. 일반적으로는 기본 구성 설정을 사용하는 것이 좋습니다. 이 항목에서는 설정 프로세스를 이미 완료했다고 가정합니다. EOP 설정을 완료하지 않은 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p101">Follow these best-practice recommendations for Exchange Online Protection (EOP) in order to set yourself up for success and avoid common configuration errors. We recommend using the default configuration settings as a general rule. This topic assumes that you've already completed the setup process. If you haven't completed EOP setup, see [Set up your EOP service](set-up-your-eop-service.md).</span></span>
+  
+## <a name="use-a-test-domain"></a><span data-ttu-id="f0ef6-108">테스트 도메인 사용</span><span class="sxs-lookup"><span data-stu-id="f0ef6-108">Use a test domain</span></span>
+
+<span data-ttu-id="f0ef6-109">볼륨이 큰 프로덕션 도메인에서 구현하기 전에 테스트 도메인, 하위 도메인 또는 볼륨이 작은 도메인을 사용하여 서비스 기능을 시험적으로 사용해 보는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-109">We recommend that you use a test domain, subdomain, or low volume domain for trying out service features before implementing them on your higher-volume, production domains.</span></span>
+  
+## <a name="synchronize-recipients"></a><span data-ttu-id="f0ef6-110">받는 사람 동기화</span><span class="sxs-lookup"><span data-stu-id="f0ef6-110">Synchronize recipients</span></span>
+
+<span data-ttu-id="f0ef6-p102">조직의 온-프레미스 Active Directory 환경에 기존 사용자 계정이 있는 경우 클라우드의 Azure Active Directory에 해당 계정을 동기화할 수 있습니다. 디렉터리 동기화를 사용하는 것이 좋습니다. 디렉터리 동기화를 사용할 경우의 이점 및 이를 설정하기 위해 수행해야 하는 단계에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p102">If your organization has existing user accounts in an on-premisesActive Directory environment, you can synchronize those accounts to Azure Active Directory in the cloud. Using directory synchronization is recommended. To learn more about the benefits of using directory synchronization, and the steps for setting it up, see [Manage mail users in EOP](manage-mail-users-in-eop.md).</span></span>
+  
+## <a name="spf-record-customization-to-help-prevent-spoofing"></a><span data-ttu-id="f0ef6-114">스푸핑을 방지하기 위한 SPF 레코드 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="f0ef6-114">SPF record customization to help prevent spoofing</span></span>
+
+<span data-ttu-id="f0ef6-p103">EOP를 설정 하는 경우 추가 하는 SPF (보낸 사람이 정책 프레임 워크) 레코드 EOP에 대 한 DNS 레코드를 했습니다. SPF 레코드는 위조를 방지 합니다. SPF 레코드 스푸핑 수 없도록 하 고 SPF 레코드를 온-프레미스 IP 주소를 추가 하는 방법을 하는 방법에 대 한 자세한 내용은 [SPF 스푸핑을 방지 하기 위해 Office 365에서 설정](../set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p103">When you set up EOP, you added an SPF (sender policy framework) record for EOP to your DNS records. The SPF record helps prevent spoofing. For more information about how an SPF record prevents spoofing and how you can add your on-premises IP addresses to the SPF record, see [Set up SPF in Office 365 to help prevent spoofing](../set-up-spf-in-office-365-to-help-prevent-spoofing.md).</span></span> 
+  
+## <a name="set-anti-spam-options"></a><span data-ttu-id="f0ef6-118">스팸 방지 옵션 설정</span><span class="sxs-lookup"><span data-stu-id="f0ef6-118">Set anti-spam options</span></span>
+
+<span data-ttu-id="f0ef6-p104">관리 연결을 필터 설정 하 고 가양성 (스팸으로 분류 하는 효율적인 메일)의 수를 줄일 해야 하 고 **수신 허용 목록 사용** 옵션을 선택 하 여 IP 허용 및 IP 차단 목록에 IP 주소를 추가 하 여 표시 합니다. 자세한 내용은 [연결 필터 정책 구성](../configure-the-connection-filter-policy.md)합니다. 조직 전체에 적용 하는 자세한 스팸 설정에 대 한 [메시지를 스팸으로 표시 되지 않습니다을 보장 하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224) 또는 [false 이면 음수 문제를 방지 하기 위해 Office 365 스팸 필터와 스팸 차단 전자 메일](https://go.microsoft.com/fwlink/p/?LinkId=534225)에 대 한 정보를 수행 합니다. 다음은 관리자 수준의 제어 있고 가양성 또는 잘못 된 음수가 되지 않도록 하려는 경우에 유용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p104">Mange your connection filter settings by adding IP addresses to IP Allow and IP Block lists, and by selecting the **Enable safe list** option, which should reduce the number of false positives (good mail that's classified as spam) you receive. Learn more at [Configure the connection filter policy](../configure-the-connection-filter-policy.md). For more spam settings that apply to the whole organization, take a look at [How to help ensure that a message isn't marked as spam](https://go.microsoft.com/fwlink/p/?LinkId=534224) or [Block email spam with the Office 365 spam filter to prevent false negative issues](https://go.microsoft.com/fwlink/p/?LinkId=534225). These are helpful if you have administrator-level control and you want to prevent false positives or false negatives.</span></span>
+  
+<span data-ttu-id="f0ef6-p105">콘텐츠 필터를 검토 하 고 필요에 따라 기본 설정을 변경 하 여 관리 합니다. 예, 스팸 감지 메시지에 수행 하는 작업에 대 한 동작을 변경할 수 있습니다. 스팸 필터링 하는 전체 업그레이드 방법을 따라야 하려는 경우에 고급 스팸 필터링 옵션을 구성할 수 있습니다. 먼저 전에 구현 하기 프로덕션 환경의 (켜서 해당) 옵션 것이 좋습니다 피싱이 우려되는 조직 설정 하는 이러한를 테스트 하는 것이 좋습니다는 **SPF 레코드: 영구 실패** 옵션입니다. [스팸 필터 정책 구성](../configure-your-spam-filter-policies.md) 및 [고급 스팸 필터링 옵션에](../advanced-spam-filtering-asf-options.md)자세히 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p105">Manage your content filters by reviewing and optionally changing the default settings. For example, you can change the action for what happens to spam-detected messages. If you want to pursue an aggressive approach to spam filtering, you can configure advanced spam filtering  options. We recommend that you test these options first before implementing them in your production environment (by turning them on) It's recommended that organizations who are concerned about phishing turn on the **SPF record: hard fail** option. Learn more at [Configure your spam filter policies](../configure-your-spam-filter-policies.md) and [Advanced spam filtering  options](../advanced-spam-filtering-asf-options.md).</span></span>
+  
+> [!IMPORTANT]
+> <span data-ttu-id="f0ef6-p106">**정크 메일 폴더로 메시지 이동**, 기본 콘텐츠 필터 동작을 온-프레미스 사서함이 있는이 작업을이 수행 작동 하는지 확인 하기 위해 사용 하는 경우에 Exchange 메일 흐름 규칙, 라고도 함 온-프레미스에서 전송 규칙을 구성 해야 EOP에서 추가 된 스팸 헤더를 감지 하는 서버입니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p106">If you are using the default content filter action, **Move message to Junk Email folder**, in order to ensure that this action will work with on-premises mailboxes, you must configure Exchange mail flow rules, also called transport rules, on your on-premises servers to detect spam headers added by EOP. For details, see [Ensure that spam is routed to each user's Junk Email folder](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md).</span></span> 
+  
+<span data-ttu-id="f0ef6-130">[스팸 방지 보호 FAQ](../anti-spam-protection-faq.md)비롯 한 아웃 바운드 우편물 모범 사례 섹션의 아웃 바운드 메일이 배달 되 고 있는지 확인 하는 데 도움이 됩니다를 검토 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-130">We recommend that you review the [Anti-spam protection FAQ](../anti-spam-protection-faq.md), including the outbound mailing best practices section, which will help ensure that your outbound mail is delivered.</span></span>
+  
+<span data-ttu-id="f0ef6-p107">잘못 된 음수가 (스팸) 및 가양성 (스팸이 아닌) Microsoft에 여러가지 방법으로 분석을 위해 제출할 수 있습니다. 자세한 내용은 [전송 스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지를](../submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p107">You can submit false negatives (spam) and false positives (non-spam) to Microsoft for analysis in several ways. For details, see [Submit spam, non-spam, and phishing scam messages to Microsoft for analysis](../submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).</span></span>
+  
+## <a name="set-anti-malware-options"></a><span data-ttu-id="f0ef6-133">맬웨어 방지 옵션 설정</span><span class="sxs-lookup"><span data-stu-id="f0ef6-133">Set anti-malware options</span></span>
+
+<span data-ttu-id="f0ef6-p108">검토 하 고 Exchange 관리자 center(EAC)에서 맬웨어 필터 설정을 미세 조정 합니다. 자세한 내용은 [맬웨어 방지 정책을 구성](../configure-anti-malware-policies.md)합니다. 기타 자주 묻는 질문 및 답변 사용해 [맬웨어 방지 보호 FAQ에서 ](../anti-malware-protection-faq-eop.md)에서 맬웨어 방지 보호와 관련 된 하는 방법에 대 한 읽기를 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p108">Review and fine tune your malware filter settings in the Exchange admin center(EAC). Learn more at [Configure anti-malware policies](../configure-anti-malware-policies.md). We also recommend reading about other frequently asked questions and answers pertaining to anti-malware protection in our [Anti-malware protection FAQ ](../anti-malware-protection-faq-eop.md).</span></span>
+  
+<span data-ttu-id="f0ef6-p109">맬웨어가 포함된 실행 파일이 우려되는 경우 실행 파일이 있는 모든 전자 메일 첨부 파일을 차단하는 Exchange 메일 흐름 규칙을 만들 수 있습니다. [Use mail flow rules to inspect message attachments](https://support.microsoft.com/kb/2959596)의 "전송 규칙 검사에 지원되는 실행 파일 형식"에 나열된 파일 형식을 차단하려면 [Exchange Online Protection에서 첨부 파일 차단을 통해 맬웨어 위협을 줄이는 방법](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx)의 단계를 따르세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p109">If you're concerned about executable files containing malware, you can create an Exchange mail flow rule that blocks any email attachment that has executable content. Follow the steps in [How to reduce malware threats through file attachment blocking in Exchange Online Protection](https://support.microsoft.com/kb/2959596) in order to block the file types listed under "Supported executable file types for transport rule inspection" in [Use mail flow rules to inspect message attachments](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx).</span></span>
+  
+<span data-ttu-id="f0ef6-p110">EAC의 일반 첨부 파일 유형 필터를 사용할 수 있습니다. **보호** \> **맬웨어 필터**를 선택하세요. 실행 가능 콘텐츠가 있는 모든 전자 메일 첨부 파일을 차단하는 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p110">You can use the Common Attachment Types Filter in the EAC. Select **protection** \> **malware filters**. You can create an Exchange mail flow rule, also known as transport rule, that blocks any email attachment that has executable content.</span></span> 
+  
+<span data-ttu-id="f0ef6-p111">또한 보호 수준을 높이려면 메일 흐름 규칙을 사용하여 ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh 확장명을 일부 또는 전부를 차단하는 것이 좋습니다. **모든 첨부 파일 확장명에 다음 단어 포함** 조건을 사용하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p111">For increased protection, we also recommend using mail flow rules to block some or all of the following extensions: ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh. This can be done by using the **Any attachment file extension includes these words** condition.</span></span> 
+  
+<span data-ttu-id="f0ef6-p112">관리자와 최종 사용자는 분석을 위해 Microsoft로 보내 필터를 통과하게 만든 맬웨어를 제출하거나 맬웨어로 잘못 식별된 파일을 제출하여 Microsoft로 보내 분석하도록 할 수 있습니다. 자세한 내용은 [Submitting malware and non-malware to Microsoft for analysis](../submitting-malware-and-non-malware-to-microsoft-for-analysis.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p112">Administrators and end users can submit malware that made it past the filters, or submit a file that you think was incorrectly identified as malware, by sending it to Microsoft for analysis. For more information, see [Submitting malware and non-malware to Microsoft for analysis](../submitting-malware-and-non-malware-to-microsoft-for-analysis.md).</span></span>
+  
+## <a name="create-mail-flow-rules"></a><span data-ttu-id="f0ef6-146">메일 흐름 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="f0ef6-146">Create mail flow rules</span></span>
+
+<span data-ttu-id="f0ef6-147">비즈니스 요구를 충족하기 위해 전송 규칙이라고도 하는 메일 흐름 규칙 또는 사용자 지정 필터를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-147">Create mail flow rules, also called transport rules or custom filters, to meet your business needs.</span></span>
+  
+<span data-ttu-id="f0ef6-p113">새 규칙을 프로덕션 환경으로 배포할 때는 먼저 테스트 모드 중 하나를 선택하여 규칙의 효과를 확인합니다. 규칙이 원하는 방식으로 작동하면 규칙 모드를 **적용**으로 변경합니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p113">When you deploy a new rule to production, select one of the test modes first to see the effect of the rule. Once you are satisfied that the rule is working in the manner intended, change the rule mode to **Enforce**.</span></span>
+  
+<span data-ttu-id="f0ef6-150">새 규칙을 배포할 때는 적용된 규칙을 모니터링하기 위해 **문제 보고서 생성** 동작을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-150">When you deploy new rules, consider adding the additional action of **Generate Incident Report** to monitor the rule in action.</span></span> 
+  
+<span data-ttu-id="f0ef6-p114">조직의 일부는 온-프레미스에 있고 나머지는 Office 365에 있는 하이브리드 배포 구성에서는 전체 조직에 적용되는 규칙을 만들 수 있습니다. 이렇게 하려면 온-프레미스와 Office 365에서 모두 사용 가능한 조건을 사용합니다. 대부분의 조건은 두 배포에서 모두 사용할 수 있지만, 일부 항목은 특정 배포 시나리오에서만 사용 가능합니다. 자세한 내용은 [Mail flow or Transport rules](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p114">If you are in a hybrid deployment configuration, with part of your organization on-premises and part in Office 365, you can create rules that apply to the entire organization. To do this, use conditions that are available both on-premises and in Office 365. While most conditions are available in both deployments, there is a small set that is specific to a particular deployment scenario. Learn more at [Mail flow or Transport rules](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx).</span></span>
+  
+<span data-ttu-id="f0ef6-p115">조직 내에서 전송되는 메시지의 전자 메일 첨부 파일을 조사하려는 경우 메일 흐름 규칙을 설정하면 됩니다. 그런 후 해당 첨부 파일의 내용이나 특성에 따라 조사한 메시지에 대해 작업을 수행할 수 있습니다. 자세한 내용은 [Use mail flow rules to inspect message attachments](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p115">If you want to inspect email attachments for messages in-transit within your organization, you can do this by setting up mail flow rules. Then, take action on the messages that were inspected based on the content or characteristics of those attachments. Learn more at [Use mail flow rules to inspect message attachments](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx).</span></span>
+  
+### <a name="phishing-and-spoofing-prevention"></a><span data-ttu-id="f0ef6-158">피싱 및 스푸핑 방지</span><span class="sxs-lookup"><span data-stu-id="f0ef6-158">Phishing and Spoofing Prevention</span></span>
+
+<span data-ttu-id="f0ef6-p116">개인 정보가 조직을 벗어날 때 전자 메일을 검색하여 피싱 방지 보호를 향상시킬 수 있습니다. 예를 들어 메일 흐름 규칙에서 다음 정규식을 사용하면 개인 재무 데이터 또는 개인 정보를 노출할 수 있는 정보의 전송을 감지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p116">You can improve anti-phishing protection by the detecting when personal information exits the organization in email. For example, you can use the following regular expressions in mail flow rules to detect transmission of personal financial data or information that may compromise privacy:</span></span>
+  
+- <span data-ttu-id="f0ef6-161">\d\d\d\d\s\d\d\d\d\s\d\d\d\d\s\d\d\d\d(MasterCard/Visa)</span><span class="sxs-lookup"><span data-stu-id="f0ef6-161">\d\d\d\d\s\d\d\d\d\s\d\d\d\d\s\d\d\d\d (MasterCard Visa)</span></span>
+    
+- <span data-ttu-id="f0ef6-162">\d\d\d\d\s\d\d\d\d\d\d\s\d\d\d\d\d (American Express)</span><span class="sxs-lookup"><span data-stu-id="f0ef6-162">\d\d\d\d\s\d\d\d\d\d\d\s\d\d\d\d\d (American Express)</span></span>
+    
+- <span data-ttu-id="f0ef6-163">\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d(임의의 16자리 숫자)</span><span class="sxs-lookup"><span data-stu-id="f0ef6-163">\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d (any 16-digit number)</span></span>
+    
+- <span data-ttu-id="f0ef6-164">\d\d\d\-\d\d\-\d\d\d\d(주민 등록 번호)</span><span class="sxs-lookup"><span data-stu-id="f0ef6-164">\d\d\d\-\d\d\-\d\d\d\d (Social Security Numbers)</span></span>
+    
+<span data-ttu-id="f0ef6-p117">자체 도메인에서 보낸 것으로 표시되는 악의적인 인바운드 전자 메일을 차단하여 스팸 및 피싱을 줄일 수도 있습니다. 예를 들어 회사 도메인에서 동일한 회사 도메인으로 보내는 메시지를 거부하는 메일 흐름 규칙을 만들어 이러한 유형의 보낸 사람 위조를 방지할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p117">Successful spam and phishing campaigns can also be reduced by blocking inbound, malicious emails that appear to have been sent from your own domain. For example, you can create a mail flow rule that rejects messages from your company domain sent to the same company domain to block this type of sender forgery.</span></span>
+  
+> [!CAUTION]
+> <span data-ttu-id="f0ef6-p118">도메인의 적법한 전자 메일을 인터넷에서 메일 서버로 보내는 경우가 전혀 없는 경우에만 이 거부 규칙을 만드는 것이 좋습니다. 이는 조직의 사용자가 외부 받는 사람에게 보낸 메시지가 조직 내의 다른 받는 사람에게 전달되는 경우에는 발생할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p118">We recommend creating this reject rule only in cases where you are certain that no legitimate email from your domain is sent from the Internet to your mail server. This can happen in cases where a message is sent from a user in your organization to an outside recipient and subsequently forwarded to another recipient in your organization.</span></span> 
+  
+### <a name="extension-blocking"></a><span data-ttu-id="f0ef6-169">확장명 차단</span><span class="sxs-lookup"><span data-stu-id="f0ef6-169">Extension Blocking</span></span>
+
+<span data-ttu-id="f0ef6-p119">맬웨어를 포함 하는 실행 파일에 대 한 관심이 있다면 맬웨어 방지 정책 실행 가능한 콘텐츠가 포함 된 전자 메일 첨부 파일을 차단 하도록 구성할 수 있습니다. [맬웨어 방지 정책 구성의](../configure-anti-malware-policies.md)에서 단계를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p119">If you're concerned about executable files containing malware, you can configure anti-malware policies to block any email attachment that has executable content. Follow the steps in [Configure anti-malware policies](../configure-anti-malware-policies.md).</span></span>
+  
+<span data-ttu-id="f0ef6-172">보호 수준을 높이려면 ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh 확장명도 일부 또는 모두 차단하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-172">For increased protection, we also recommend that you block some or all of the following extensions: ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh.</span></span>
+  
+## <a name="reporting-and-troubleshooting"></a><span data-ttu-id="f0ef6-173">보고 및 문제 해결</span><span class="sxs-lookup"><span data-stu-id="f0ef6-173">Reporting and troubleshooting</span></span>
+
+<span data-ttu-id="f0ef6-p120">Office 365 관리 센터의 보고서를 사용하여 일반적인 문제 및 추세와 관련된 문제를 해결합니다. 메시지 추적 도구를 사용하면 메시지에 대한 단일 지점 관련 데이터를 찾을 수 있습니다. 보고에 대한 자세한 내용은 [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md)을 참조하세요. 메시지 추적 도구에 대한 자세한 내용은 [Trace an Email Message](http://technet.microsoft.com/library/0c83cde6-5b09-4106-8587-c200cdc59094.aspx)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f0ef6-p120">Troubleshoot general issues and trends by using the reports in the Office 365 admin center. Find single point specific data about a message by using the message trace tool. Learn more about reporting at [Reporting and message trace in Exchange Online Protection](reporting-and-message-trace-in-exchange-online-protection.md). Learn more about the message trace tool at [Trace an Email Message](http://technet.microsoft.com/library/0c83cde6-5b09-4106-8587-c200cdc59094.aspx).</span></span>
+  
+## <a name="for-more-information"></a><span data-ttu-id="f0ef6-178">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="f0ef6-178">For more information</span></span>
+
+[<span data-ttu-id="f0ef6-179">EOP 관련 일반 FAQ(질문과 대답)</span><span class="sxs-lookup"><span data-stu-id="f0ef6-179">EOP general FAQ</span></span>](eop-general-faq.md)
+  
+[<span data-ttu-id="f0ef6-180">EOP에 대한 도움말 및 지원</span><span class="sxs-lookup"><span data-stu-id="f0ef6-180">Help and support for EOP</span></span>](help-and-support-for-eop.md)
+  
+[<span data-ttu-id="f0ef6-181">EOP 시작을 위한 비디오</span><span class="sxs-lookup"><span data-stu-id="f0ef6-181">Videos for getting started with EOP</span></span>](videos-for-getting-started-with-eop.md)
+  
+[<span data-ttu-id="f0ef6-182">메시지가 스팸으로 표시되지 않는지 확인하는 방법</span><span class="sxs-lookup"><span data-stu-id="f0ef6-182">How to help ensure that a message isn't marked as spam</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=534224)
+  
+[<span data-ttu-id="f0ef6-183">Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지</span><span class="sxs-lookup"><span data-stu-id="f0ef6-183">Block email spam with the Office 365 spam filter to prevent false negative issues</span></span>](https://go.microsoft.com/fwlink/p/?LinkId=534225)
+  
+
