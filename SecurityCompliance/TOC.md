@@ -410,6 +410,5 @@
 ### [Office 365에 메일 보내기](sending-mail-to-office-365.md)
 ### [비 고객에 대 한 서비스](services-for-non-customers.md)
 
-# 
-  [Office 365 Enterprise](https://docs.microsoft.com/Office365/Enterprise)
+# [Office 365 Enterprise](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 비즈니스 에디션](https://support.office.com/office365admin)
