@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: eb14f38b-7b55-4a47-84a0-4a56a59e4111
 description: 다음 Microsoft 데이터 센터 IP 주소를 선택 하 여 Microsoft Online 보호 EOP (Exchange) 전자 메일을 보낼 때 전자 메일을 수신 또는 Exchange Online Protection 포털 및 관리 서비스에 대 한 사용 됩니다. 보내기 및 EOP에서 메시지를 받을 또는 관리 서비스를 사용 하 여, 네트워크에 있는지 확인 하기 위해 이러한 IP 주소에서 연결을 허용 합니다.
-ms.openlocfilehash: 1b5dad69fb300f36bc94c9d264492f9c9be8948f
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 853b64410969fcc2f3c9ef238d2e9f4a4bb36e7b
+ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026325"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23230010"
 ---
 # <a name="exchange-online-protection-ip-addresses"></a>Exchange Online Protection IP 주소
 
@@ -26,8 +26,6 @@ ms.locfileid: "22026325"
 > Microsoft는 IP 주소와 FQDN 항목을이 페이지에 대 한 REST 기반 웹 서비스를 개발 하 고 있습니다. 이 새로운 서비스를 구성 하 고 방화벽 및 프록시 서버와 같은 네트워크 경계 장치를 업데이트 하는데 도움이 됩니다. 끝점, 목록 또는 특정 변경의 현재 버전의 목록을 다운로드할 수 있습니다. 이 서비스는 XML 문서, RSS 피드, IP 주소 및 FQDN 항목을이 페이지에 결국 대체할 수 있습니다. 이 새로운 서비스를 실행 하려면 [웹 서비스](https://support.office.com/article/managing-office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a#webservice)로 이동 합니다. 
  
 ## <a name="eop-ip-address-ranges"></a>EOP IP 주소 범위
-
-다음은 전체 목록은 **7/2/2018**이후로 EOP IP 주소 범위입니다. 
 
 ||||
 |:-----|:-----|:-----|
@@ -91,3 +89,4 @@ Exchange Online Protection 고객에 게이 계약 규정 준수를 유지 관�
 | 216.32.180.0/23 |  | |
 | 2a01:111:f400:7 c 00:: 54 / |  | |
 ||||
+
