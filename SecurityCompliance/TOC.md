@@ -147,7 +147,7 @@
 ## [콘텐츠 검색 사용](content-search.md)
 ### [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
 ### [콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)
-### [콘텐츠 검색 결과 내보내기](content-search.md#export-search-results)
+### [콘텐츠 검색 결과 내보내기](export-search-results.md)
 ### [콘텐츠 검색 보고서 내보내기](export-a-content-search-report.md)
 ### [전자 메일 메시지 검색 및 삭제](search-for-and-delete-messagesadmin-help.md)
 ### [Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
@@ -169,11 +169,11 @@
 ### [콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정](disable-reports-when-you-export-content-search-results.md)
 ## PowerShell 스크립트를 사용하여 콘텐츠 검색
 ### [대상 지정 컬렉션을 위해 콘텐츠 검색 사용](use-content-search-for-targeted-collections.md)
-### [콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색](https://support.office.com/article/5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0)
+### [콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md)
 ### [여러 콘텐츠 검색 만들기, 보고하기 및 삭제](create-report-on-and-delete-multiple-content-searches.md)
 ### [콘텐츠 검색 복제](clone-a-content-search.md)
 
-# 법적 조사 관리
+# [법적 조사 관리](manage-legal-investigations.md)
 ## [eDiscovery 사례 만들기 및 관리](ediscovery-cases.md)
 ## [eDiscovery 권한 할당](assign-ediscovery-permissions.md)
 ## [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](set-up-compliance-boundaries.md)
@@ -183,6 +183,7 @@
 ## [스크립트를 사용하여 보류 eDiscovery 사례에 사용자 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
 ## [EDiscovery 사례의 보존 보고서 만들기](create-a-report-on-holds-in-ediscovery-cases.md)
 ## 보존 관리
+### [eDiscovery 보존 만들기](ediscovery-cases.md#step-4-place-content-locations-on-hold)
 ### [소송 보존 만들기](create-a-litigation-hold.md)
 ### [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [보류된 사물함의 복구 가능한 항목 할당량 증가](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
