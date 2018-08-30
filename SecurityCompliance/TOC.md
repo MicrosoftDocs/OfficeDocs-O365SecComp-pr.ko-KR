@@ -10,11 +10,9 @@
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
 ## [보안 및 준수 센터의 탐색기 사용](use-explorer-in-security-and-compliance.md)
-
 # 데이터 및 서비스에 대한 액세스 보호
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
 ## [MDM과 Intune 중에서 선택](choose-between-mdm-and-intune.md)
-
 # [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
 ## [DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852300)
 ## DLP 설정
@@ -34,7 +32,6 @@
 ### [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 ### [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
-
 # 데이터 거버넌스 관리        
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
 ### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
@@ -68,7 +65,6 @@
 ### [감독 보고서](supervision-reports.md)
 ## 데이터 거버넌스에 대한 추가 정보
 ### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
-
 # [위협으로부터 보호](protect-against-threats.md)
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
 ### [Office 365의 피싱 방지 보호 기능](anti-phishing-protection.md)
@@ -142,8 +138,7 @@
 ### [사용자로 격리된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)
 ### [Office 365에 대한 격리 FAQ](quarantine-faq.md)
 ### [Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고](use-spam-notifications-to-release-and-report-quarantined-messages.md)
-
-# 콘텐츠 검색
+# [콘텐츠 검색](search-for-content.md)
 ## [콘텐츠 검색 사용](content-search.md)
 ### [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
 ### [콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)
@@ -172,7 +167,6 @@
 ### [콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md)
 ### [여러 콘텐츠 검색 만들기, 보고하기 및 삭제](create-report-on-and-delete-multiple-content-searches.md)
 ### [콘텐츠 검색 복제](clone-a-content-search.md)
-
 # [법적 조사 관리](manage-legal-investigations.md)
 ## [eDiscovery 사례 만들기 및 관리](ediscovery-cases.md)
 ## [eDiscovery 권한 할당](assign-ediscovery-permissions.md)
@@ -223,14 +217,12 @@
 ### [Office 365 Advanced eDiscovery에서 분석 고급 설정](set-analyze-options-in-advanced-ediscovery.md)
 ### [Office 365 Advanced eDiscovery에서 관련성 평가 이해](assessment-in-relevance-in-advanced-ediscovery.md)
 ### [태그 지정 및 검색](search-and-tagging.md)
-
 # [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 ## [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)
 ## [사서함 감사 사용](enable-mailbox-auditing.md)
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
 ## [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
-
 # 보안 및 규정 준수 모니터링
 ## [알림 정책](alert-policies.md)
 ### [활동 알림 만들기](create-activity-alerts.md)
@@ -245,7 +237,6 @@
 #### [기존 보고서 다운로드](download-existing-reports.md)
 ## [Office 365에서 보안 팁 사용 여부 설정](enable-or-disable-safety-tips.md)
 ## [보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)
-
 # 보안 솔루션
 ## [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](https://docs.microsoft.com/Office365/Enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)
 ### [정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성](https://docs.microsoft.com/Office365/Enterprise/configure-groups-and-users-for-a-political-campaign-dev-test-environment)
@@ -264,27 +255,26 @@
 # 준수 솔루션
 ## [Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [DSR 사례 도구로 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
-## [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/Office365/Enterprise/office-365-information-protection-for-gdpr)
-### [개요: GDPR에 대한 Office 365 보호](https://docs.microsoft.com/Office365/Enterprise/office-365-info-protection-for-gdpr-overview)
-### [개인 데이터 검색 및 찾기](https://docs.microsoft.com/Office365/Enterprise/search-for-and-find-personal-data)
-### [GDPR에 대한 중요한 정보 유형 사용자 지정 또는 새로 만들기](https://docs.microsoft.com/Office365/Enterprise/customize-or-create-a-new-sensitive-information-type)
-### [개인 계획에 대한 분류 스키마 설계](https://docs.microsoft.com/Office365/Enterprise/architect-a-classification-schema-for-personal-data)
-### [Office 365의 개인 데이터에 레이블 적용](https://docs.microsoft.com/Office365/Enterprise/apply-labels-to-personal-data-in-office-365)
-### [Office 365의 개인 데이터에 보호 적용](https://docs.microsoft.com/Office365/Enterprise/apply-protection-to-personal-data-in-office-365)
-### [개인 데이터 누수 모니터링](https://docs.microsoft.com/Office365/Enterprise/monitor-for-leaks-of-personal-data)
-### [Office 365 GDPR 개발/테스트 환경](https://docs.microsoft.com/Office365/Enterprise/gdpr-discovery-protection-reporting-in-office365-dev-test-environment)
+## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)
+### [개요: GDPR에 대한 Office 365 보호](office-365-info-protection-for-gdpr-overview.md)
+### [개인 데이터 검색 및 찾기](search-for-and-find-personal-data.md)
+### [GDPR에 대한 중요한 정보 유형 사용자 지정 또는 새로 만들기](customize-or-create-a-new-sensitive-information-type.md)
+### [개인 계획에 대한 분류 스키마 설계](architect-a-classification-schema-for-personal-data.md)
+### [Office 365의 개인 데이터에 레이블 적용](apply-labels-to-personal-data-in-office-365.md)
+### [Office 365의 개인 데이터에 보호 적용](apply-protection-to-personal-data-in-office-365.md)
+### [개인 데이터 누수 모니터링](monitor-for-leaks-of-personal-data.md)
+### [Office 365 GDPR 개발/테스트 환경](gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md)
 ## 온-프레미스 Office 서버에 대한 GDPR
-### [SharePoint Server에 대한 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-sharepoint-server)
-### [Exchange Server에 대한 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-exchange-server)
-### [비즈니스용 Skype 서버 및 Lync Server GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-skype-for-business-server)
-### [Project Server에 대한 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-project-server)
-### [Office Web Apps Server 및 Office Online Server GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-office-online-server)
-### [온-프레미스 Windows Server 파일 공유](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-on-premises-file-shares)
+### [SharePoint Server에 대한 GDPR](gdpr-for-sharepoint-server.md)
+### [Exchange Server에 대한 GDPR](gdpr-for-exchange-server.md)
+### [비즈니스용 Skype 서버 및 Lync Server GDPR](gdpr-for-skype-for-business-server.md)
+### [Project Server에 대한 GDPR](gdpr-for-project-server.md)
+### [Office Web Apps Server 및 Office Online Server GDPR](gdpr-for-office-online-server.md)
+### [온-프레미스 Windows Server 파일 공유](gdpr-for-on-premises-file-shares.md)
 # 보안 사고 관리
-## [Office 365 보안 사고 대응](https://docs.microsoft.com/Office365/Enterprise/office365-security-incident-response-overview)
-## [Office 365에서 불법 동의 권한 부여 검색 및 교정](https://docs.microsoft.com/Office365/Enterprise/detect-and-remediate-illicit-consent-grants)
-## [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](https://docs.microsoft.com/Office365/Enterprise/detect-and-remediate-outlook-rules-forms-attack)
-
+## [Office 365 보안 사고 대응](office365-security-incident-response-overview.md)
+## [Office 365에서 불법 동의 권한 부여 검색 및 교정](detect-and-remediate-illicit-consent-grants.md)
+## [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 # 서비스 보증
 ## [Office 365 보안 및 준수 센터의 서비스 보증](service-assurance.md)
 ## [Office 365에서 테넌트 격리](office-365-tenant-isolation-overview.md)
@@ -331,7 +321,6 @@
 ### [Office 365 엔지니어링에 대한 내부 로깅](office-365-internal-logging.md)
 ### [Office 365 사서함 마이그레이션](office-365-mailbox-migrations.md)
 ### [Office 365 관리 작업 API](office-365-management-activity-api.md)
-
 # [Exchange Online Protection](eop/exchange-online-protection-overview.md)
 ## [EOP 기능](eop/eop-features.md)
 ## [EOP의 기능 사용 권한](eop/feature-permissions-in-eop.md)
@@ -410,6 +399,5 @@
 ### [장애인을 위한 내게 필요한 옵션](eop/accessibility-for-people-with-disabilities.md)
 ### [Office 365에 메일 보내기](sending-mail-to-office-365.md)
 ### [비 고객에 대한 서비스](services-for-non-customers.md)
-
 # [Office 365 Enterprise](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 비즈니스 에디션](https://support.office.com/office365admin)
