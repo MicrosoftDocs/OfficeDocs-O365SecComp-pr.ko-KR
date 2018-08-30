@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 description: 후방 분산 메시지는 수신 스팸의 결과 일반적으로 메일 서버에서 전송 되는 자동화 된 튀어오르 메시지입니다. Backscatterer 이해는 목록 후방 분산 메시지를 보낼 수 있는 IP 주소입니다. 발신자 목록 없으며 Backscatterer 이해에서이 서버를 제거 하려고 하지 않습니다.
-ms.openlocfilehash: 8f8a60715f9fb12ca53ffddc6d4fca6e9fab2ede
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 2ab5c6a3bec347446452acd3bdfd8c5d309994a9
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22028175"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002689"
 ---
 # <a name="backscatter-messages-and-eop"></a>후방 분산 메시지 및 EOP
 

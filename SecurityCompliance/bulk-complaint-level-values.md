@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 description: 대량 우편물 보내는 패턴, 콘텐츠 제작 및 목록 입수 방식에는 다릅니다. 일부는 자신의 구독자에 관련 콘텐츠가 포함 된 메시지는 이와 더불어 보내는 좋은 대량 우편물입니다. 이러한 메시지의 받는 몇 불만 생성합니다. 다른 대량 우편물 밀접 하 게 스팸 유사 하 고 받는 사람에 게에서 많은 불만 생성 하는 원치 않는 메시지를 보냅니다. 이러한 유형의 대량 우편물을 구별 하기 위해 대량 우편물에서 메시지를 대량 불만 수준 (BCL) 등급을 할당 됩니다. BCL 등급 범위는 1에서 9 가능성 벌크 메일 발송에 따라 불만 생성 하는 것입니다. BCL 3의 등급은 많은 불만 생성 하지 않을 BCL 9의 등급이 있는 보낸 사람이 받는 사람에서 많은 불만 생성 하는 것 같습니다. Microsoft 내부 및 제 3 자 소스를 사용 하 여 대량 메일을 파악 하 고 적절 한 BCL를 결정 합니다. 이 등급은 모든 메시지의 스팸 방지 Microsoft-X-헤더에 노출 됩니다. 이 메시지 머리글에 대 한 자세한 내용은 스팸 방지 메시지 헤더를 참조 하십시오.
-ms.openlocfilehash: adf179ba4a309f2ed22275179013b576888960c6
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: c4100b0d289398d9333369071c9886309f2abcb4
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026265"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003057"
 ---
 # <a name="bulk-complaint-level-values"></a>대량 불만 수준 값
 

@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 description: 이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다.
-ms.openlocfilehash: 198d7b86b39318361a174395bc460b4a4bd35847
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 82eed73797cfb4ade04bfeed9118d8466c5c5480
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027375"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002793"
 ---
-# <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스를 사용 하도록 IRM 구성 AD RMS 서버
+# <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   
 온-프레미스 배포에 사용 하기 위한 Exchange Online의 정보 권한 관리 (IRM) Active Directory Rights Management Services (AD RMS), Windows Server 2008에서 이동 하 고 나중에 정보 보호 기술을 사용합니다. IRM 보호 전자 메일 메시지에 AD RMS 권한 정책 템플릿을 적용 하 여 전자 메일에 적용 됩니다. 권한 보호 온라인 및 오프 라인에서 내부 및 조직의 방화벽 외부에서 발생 하는 메시지 자체에 첨부 됩니다.
   
@@ -163,6 +165,6 @@ TPD를 가져오고 IRM을 사용하도록 설정했는지 확인하려면 다�
   
 - **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [Test-IRMConfiguration](http://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx)의 "예 1"을 참조하십시오.
     
-- Outlook Web App에서 새 메시지를 작성하고 확장된 메뉴(**** 기타 옵션 아이콘![)에서 ](media/ITPro-EAC-MoreOptionsIcon.png) 옵션을 선택하여 이 메시지가 IRM으로 보호되도록 합니다.
+- Outlook Web App에서 새 메시지를 작성하고 확장된 메뉴(**** 기타 옵션 아이콘![)에서 ](media/ITPro-EAC-MoreOptionsIcon.gif) 옵션을 선택하여 이 메시지가 IRM으로 보호되도록 합니다.
     
 

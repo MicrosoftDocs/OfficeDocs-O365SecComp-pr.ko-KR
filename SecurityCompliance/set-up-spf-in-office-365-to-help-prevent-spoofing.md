@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 SPF 스푸핑 방지 설정
+title: 스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 description: 요약:이 문서에서는 Office 365에서 사용자 지정 도메인으로 보낸 사람이 정책 프레임 워크 (SPF)를 사용할 수 있도록 서비스 DNS (Domain Name) 레코드를 업데이트 하는 방법에 설명 합니다. SPF을 사용 하면 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 합니다.
-ms.openlocfilehash: 1670e646d4eb847c72159e0b8b730ae08ea285a8
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 9c03f69cfd0c962214a3adc722690a4288940541
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026365"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002887"
 ---
-# <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>Office 365에서 SPF 스푸핑 방지 설정
+# <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정
 
  **요약:** 이 문서에서는 Office 365에서 사용자 지정 도메인으로 보낸 사람이 정책 프레임 워크 (SPF)를 사용할 수 있도록 서비스 DNS (Domain Name) 레코드를 업데이트 하는 방법에 설명 합니다. SPF을 사용 하면 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 합니다. 
   

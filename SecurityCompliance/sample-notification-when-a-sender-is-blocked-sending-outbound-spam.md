@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: c33fd406-a4c8-4ac8-ad85-123996c5cded
 description: 보낸 사람이 보내는 아웃 바운드 스팸으로 인해 서비스에서 차단 되 면 도메인 관리자 아웃 바운드 스팸 정책 구성이 나타나면 다음과 비슷한 알림 전자 메일을 지정 합니다.
-ms.openlocfilehash: c9954d3ea16582a66185d574bcb5fc8a1aeebbf9
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b9fcdf9c2f44a4446a678ca4b22a0a12b24b6fd4
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027465"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003247"
 ---
 # <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>보낸 사람이 보내는 아웃 바운드 스팸 차단 되 면 샘플 알림
 

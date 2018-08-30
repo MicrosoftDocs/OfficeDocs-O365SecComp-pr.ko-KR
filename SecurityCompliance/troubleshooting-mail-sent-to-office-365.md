@@ -1,5 +1,5 @@
 ---
-title: Office 365로 전송 메일 문제해결
+title: Office 365로 전송한 문제 해결 메일
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: troubleshooting
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 description: 이 문서에서는 Office 365 및 Office 365 고객에 게 대량 메일로 대 한 모범 사례에 받은 편지함에 전자 메일을 보내려고 할 때 문제를 발생 하는 발신자에 대 한 문제해결 정보를 제공 합니다.
-ms.openlocfilehash: 29c30787f493c69eb7d42b8025b25c86acddfff9
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 3d8c0a05d096da87b9f686222055d76a6ae96ff2
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026415"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003207"
 ---
-# <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송 메일 문제해결
+# <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
 
 이 문서에서는 Office 365 및 Office 365 고객에 게 대량 메일로 대 한 모범 사례에 받은 편지함에 전자 메일을 보내려고 할 때 문제를 발생 하는 발신자에 대 한 문제해결 정보를 제공 합니다.
   

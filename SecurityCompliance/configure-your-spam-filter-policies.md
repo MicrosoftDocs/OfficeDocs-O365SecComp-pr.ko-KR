@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 description: 기본 스팸 필터 설정에는 스팸으로 식별 되는 메시지에 대해 수행할 작업을 선택 하 고 특정 언어로 작성 된 또는 특정 국가 또는 지역에서 보낸 메시지를 필터링 할 것인지 선택이 포함 됩니다.
-ms.openlocfilehash: b0a5fa1a5640bd0baab68c29d8098059a6025f7d
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 3e24a69dacc18272baa710c18492759f67583f4f
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026535"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002967"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
   
@@ -26,7 +28,6 @@ ms.locfileid: "22026535"
 > Exchange Online Protection (EOP) 독립 실행형 고객을 위한: 기본적으로 EOP 스팸 필터 각 받는 사람의 정크 메일 폴더로 감지 된 스팸 메시지를 보낼 합니다. 그러나 온-프레미스 사서함에 대 한 **정크 메일 폴더로 메시지 이동** 작업 작동 하는지 확인 합니다 EOP에서 추가 된 스팸 헤더를 검색 하 여 온-프레미스 서버에서 Exchange 전송 규칙을 구성 해야 있습니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조 하십시오. 
   
 ## <a name="what-you-must-know-before-you-begin"></a>알고 있어야 시작 하기 전에
-<a name="sectionSection0"> </a>
 
 예상 완료 시간: 30분
   
@@ -35,7 +36,6 @@ ms.locfileid: "22026535"
 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
   
 ## <a name="use-the-exchange-admin-center-eac-to-configure-spam-filter-policies"></a>Exchange 관리 센터 (EAC)를 사용 하 여 스팸 필터 정책을 구성 하려면
-<a name="sectionSection1"> </a>
 
 1. Exchange 관리 센터 (EAC)에서 **보호** 로 이동 \> **스팸 필터**입니다.
     
@@ -43,7 +43,7 @@ ms.locfileid: "22026535"
     
   - 이 회사 차원의 정책을 편집하려면 기본 정책을 두 번 클릭합니다.
     
-  - 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.png) 사용자, 그룹 및 조직에서 도메인에 적용할 수 있는 사용자 지정 스팸 필터 정책을 새로 만들려면 **새로 만들기** 아이콘. 또한 두 번 클릭 하 여 기존 사용자 지정 정책을 편집할 수 있습니다. 
+  - 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) 사용자, 그룹 및 조직에서 도메인에 적용할 수 있는 사용자 지정 스팸 필터 정책을 새로 만들려면 **새로 만들기** 아이콘. 또한 두 번 클릭 하 여 기존 사용자 지정 정책을 편집할 수 있습니다. 
     
 3. 사용자 지정 정책에만 해당,이 정책에 대 한 이름을 지정 합니다. 필요에 따라 더 자세한 설명을 지정할 수 있습니다. 기본 정책 이름을 바꿀 수 없습니다.
     
@@ -85,27 +85,27 @@ ms.locfileid: "22026535"
     
 6. **차단 목록** 페이지에서 항상 스팸으로 표시될 항목(예: 보낸 사람 또는 도메인)을 지정할 수 있습니다. 서비스는 이러한 항목과 일치하는 전자 메일에 구성된 높은 정확도 스팸 작업을 적용합니다. 
     
-  - 원하지 않는 보낸사람 보낸 사람이 차단 목록에 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.png), 하 고 선택 대화 상자에서 차단할 보낸사람 주소를 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **확인** **차단 목록** 페이지로 돌아가려면를 클릭 합니다. 
+  - 원하지 않는 보낸사람 보낸 사람이 차단 목록에 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 하 고 선택 대화 상자에서 차단할 보낸사람 주소를 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **확인** **차단 목록** 페이지로 돌아가려면를 클릭 합니다. 
     
-  - 도메인 차단 목록에 원치 않는 도메인을 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.png), 하 고 선택 대화 상자에서 차단할 도메인을 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **확인** **차단 목록** 페이지로 돌아가려면를 클릭 합니다. 
+  - 도메인 차단 목록에 원치 않는 도메인을 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 하 고 선택 대화 상자에서 차단할 도메인을 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **확인** **차단 목록** 페이지로 돌아가려면를 클릭 합니다. 
     
     > [!CAUTION]
     > 최상위 도메인을 차단 하는 경우에는 원하는 전자 메일 스팸으로 표시 되어야 하는 것 같습니다. 
   
 7. **허용 목록** 페이지에서 받은 편지함에 항상 배달될 항목(예: 보낸 사람 또는 도메인)을 지정할 수 있습니다. 이러한 항목의 전자 메일은 스팸 필터에 의해 처리되지 않습니다. 
     
-  - 신뢰할 수 있는 보낸 사람이 보낸 사람에 게 허용 된 대화 상대를 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.png), 하 고 선택 대화 상자에서 허용 하려는 보낸사람 주소를 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **허용 목록을** 페이지로 돌아가려면 확인을 클릭 합니다. 
+  - 신뢰할 수 있는 보낸 사람이 보낸 사람에 게 허용 된 대화 상대를 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 하 고 선택 대화 상자에서 허용 하려는 보낸사람 주소를 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **허용 목록을** 페이지로 돌아가려면 확인을 클릭 합니다. 
     
-  - 신뢰할 수 있는 도메인의 도메인을 허용 된 대화 상대를 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.png), 하 고 선택 대화 상자에서 허용 하려는 도메인을 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **허용 목록을** 페이지로 돌아가려면 확인을 클릭 합니다. 
+  - 신뢰할 수 있는 도메인의 도메인을 허용 된 대화 상대를 추가 합니다. **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 하 고 선택 대화 상자에서 허용 하려는 도메인을 추가 합니다. 세미콜론으로 또는 새 줄을 사용 하 여 여러 항목을 구분할 수 있습니다. **허용 목록을** 페이지로 돌아가려면 확인을 클릭 합니다. 
     
     > [!CAUTION]
     > 최상위 도메인을 허용 하는 경우 될 하지 않으려고 전자 메일 하는 받은 편지 함으로 배달 됩니다. 
   
 8. **국제 스팸** 페이지에서 특정 언어로 작성 된 추가 되거나 특정 국가 또는 지역에서 보낸 전자 메일 메시지를 필터링 할 수 있습니다. 최대 86 다른 언어 및 250 다른 지역 구성할 수 있습니다. 서비스 높은 정확도 스팸에 대해 구성 된 동작을 적용 됩니다. 
     
-1. 이 기능을 사용 하도록 설정 하려면 **다음 언어로 작성 된 전자 메일 메시지를 필터링** 확인란을 선택 합니다. 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.png), 다음, 선택 대화 상자에서 선택한 내용 (다중 선택이 지원)을 확인 합니다. 등의 아랍어 (월드 라는), 작성 된 메시지 필터링을 선택 하 고 **격리 메시지** 는 높은 정확도 스팸 메시지에 대해 구성 된 작업 하는 경우 아랍어로 작성 된 모든 메시지가 격리 됩니다. **확인** **국제 스팸** 창으로 돌아가려면을 클릭 합니다. 
+1. 이 기능을 사용 하도록 설정 하려면 **다음 언어로 작성 된 전자 메일 메시지를 필터링** 확인란을 선택 합니다. 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 다음, 선택 대화 상자에서 선택한 내용 (다중 선택이 지원)을 확인 합니다. 등의 아랍어 (월드 라는), 작성 된 메시지 필터링을 선택 하 고 **격리 메시지** 는 높은 정확도 스팸 메시지에 대해 구성 된 작업 하는 경우 아랍어로 작성 된 모든 메시지가 격리 됩니다. **확인** **국제 스팸** 창으로 돌아가려면을 클릭 합니다. 
     
-2. 이 기능을 사용 하도록 설정 하려면 **다음 국가 또는 지역에서 보낸 전자 메일 메시지 필터링** 확인란을 선택 합니다. 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.png), 다음, 선택 대화 상자에서 선택한 내용 (다중 선택이 지원)을 확인 합니다. 등에서 오스트레일리아 (AU)를 전송 하는 모든 메시지를 필터링 하려면 선택 하 고 **격리 메시지** 는 오스트레일리아에서 전송 된 높은 정확도 스팸 메시지 후 모든 메시지에 대해 구성 된 작업 하는 경우 격리 됩니다. **확인** **국제 스팸** 창으로 돌아가려면을 클릭 합니다. 
+2. 이 기능을 사용 하도록 설정 하려면 **다음 국가 또는 지역에서 보낸 전자 메일 메시지 필터링** 확인란을 선택 합니다. 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 다음, 선택 대화 상자에서 선택한 내용 (다중 선택이 지원)을 확인 합니다. 등에서 오스트레일리아 (AU)를 전송 하는 모든 메시지를 필터링 하려면 선택 하 고 **격리 메시지** 는 오스트레일리아에서 전송 된 높은 정확도 스팸 메시지 후 모든 메시지에 대해 구성 된 작업 하는 경우 격리 됩니다. **확인** **국제 스팸** 창으로 돌아가려면을 클릭 합니다. 
     
     > [!NOTE]
     > 다국어 스팸 옵션을 선택하지 않으면 기본적으로 모든 지역에서 모든 언어로 전송된 메시지에 대해 일반 스팸 필터링이 수행됩니다. 즉, 메시지가 분석된 후 스팸 또는 높은 스팸 지수인 것으로 확인된 경우 구성된 작업이 적용됩니다. 
@@ -143,10 +143,9 @@ ms.locfileid: "22026535"
 11. **저장**을 클릭합니다. 정책 설정의 요약이 오른쪽 창에 표시됩니다.
     
 > [!TIP]
->  선택 하거나 사용 하도록 설정 또는 정책에 사용자 지정을 사용 하지 않도록 설정 하려면 **ENABLED** 열에서 확인란의 선택을 취소 합니다. 기본적으로 모든 정책이 사용 됩니다. 기본 정책 사용 하지 않도록 설정할 수 없습니다. > 사용자 지정 정책을 삭제 하려면 정책을 선택, 클릭 하는 ![삭제 아이콘](media/ITPro-EAC-DeleteIcon.png) **삭제** 아이콘을 입력 한 다음 정책을 삭제 하려면를 확인 합니다. 기본 정책을 삭제할 수 없습니다. > 사용자 지정 정책 항상 우선 기본 정책입니다. 사용자 지정 정책을 만든으로 가장 오래 된 최신에), (에서 순서와 반대로 실행 하지만 클릭 하 여 사용자 지정 정책을 (주문 실행) 우선순위를 변경할 수는 ![화살표 아이콘을](media/ITPro-EAC-UpArrowIcon.png) 위쪽 화살표 및 ![아래쪽 화살표 아이콘](media/ITPro-EAC-DownArrowIcon.png) 아래로 화살표입니다. **1**, 다음 **2**, 이와 같은식으로 앞에 오는 **0** 의 **우선순위** 된 정책이 먼저 실행 됩니다. 
+>  선택 하거나 사용 하도록 설정 또는 정책에 사용자 지정을 사용 하지 않도록 설정 하려면 **ENABLED** 열에서 확인란의 선택을 취소 합니다. 기본적으로 모든 정책이 사용 됩니다. 기본 정책 사용 하지 않도록 설정할 수 없습니다. > 사용자 지정 정책을 삭제 하려면 정책을 선택, 클릭 하는 ![삭제 아이콘](media/ITPro-EAC-DeleteIcon.gif) **삭제** 아이콘을 입력 한 다음 정책을 삭제 하려면를 확인 합니다. 기본 정책을 삭제할 수 없습니다. > 사용자 지정 정책 항상 우선 기본 정책입니다. 사용자 지정 정책을 만든으로 가장 오래 된 최신에), (에서 순서와 반대로 실행 하지만 클릭 하 여 사용자 지정 정책을 (주문 실행) 우선순위를 변경할 수는 ![화살표 아이콘을](media/ITPro-EAC-UpArrowIcon.gif) 위쪽 화살표 및 ![아래쪽 화살표 아이콘](media/ITPro-EAC-DownArrowIcon.gif) 아래로 화살표입니다. **1**, 다음 **2**, 이와 같은식으로 앞에 오는 **0** 의 **우선순위** 된 정책이 먼저 실행 됩니다. 
   
 ## <a name="use-remote-powershell-to-configure-spam-filter-policies"></a>원격 PowerShell을 사용 하 여 스팸 필터 정책을 구성 하려면
-<a name="sectionSection2"> </a>
 
 구성 및 PowerShell에서 스팸 필터 정책을 적용할 수 있습니다. Exchange Online에 연결 하려면 Windows PowerShell을 사용 하는 방법을 알아보려면 [Exchange Online PowerShell 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조 하십시오. Exchange Online Protection에 연결 하려면 Windows PowerShell을 사용 하는 방법을 알아보려면 [Connect to Exchange Online Protection PowerShell를](https://go.microsoft.com/fwlink/p/?linkid=627290)참조 하십시오.
   
@@ -161,7 +160,6 @@ ms.locfileid: "22026535"
 사용자 지정 스팸 필터 정책 사용자, 그룹 및/또는 도메인에 적용 하려면 (사용자 지정 정책에 적용할 수 있는 새 필터 규칙을 만들려는) [New-hostedcontentfilterrule](http://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) cmdlet 또는 [Set-hostedcontentfilterrule](http://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) cmdlet을 사용 하 여 (편집 하는 기존 필터 규칙 사용자 지정 정책에 적용할 수 있는). [Enable-hostedcontentfilterrule](http://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) cmdlet 또는 [Disable-hostedcontentfilterrule](http://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx) cmdlet를 사용 하 여 사용 하도록 설정 또는 정책에 적용 되는 규칙을 사용 하지 않도록 설정 합니다. 
   
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
-<a name="sectionSection3"> </a>
 
 인식 되 고, 따라 시행 스팸이 제대로 되 고 있는지 확인 하려면 서비스를 통해 GTUBE 메시지를 보낼 수 있습니다. EICAR 바이러스 백신 테스트 파일와 마찬가지로 GTUBE를 제공 하는 하 여 확인할 수 있습니다 서비스 수신 스팸 감지 하 고 있는지 테스트 합니다. GTUBE 메시지는 스팸 필터에 의해 항상 스팸으로 감지 하는 수 및 메시지에 따라 수행 되는 작업을 구성 된 설정을 일치 해야 합니다.
   
@@ -172,23 +170,15 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 ```
 
 ## <a name="fine-tuning-your-spam-filter-policy-to-prevent-false-positives-and-false-negatives"></a>미세 조정 하 고 false 이면 네거티브 가양성을 방지 하기 위해 스팸 필터 정책
-<a name="sectionSection4"> </a>
 
 고급 스팸 필터링 옵션을 따라야 스팸 필터링 하는 전체 업그레이드 방법을 사용할 경우 사용 하도록 설정할 수 있습니다. 전체 조직에 적용 되는 일반적인 스팸 설정에 대 한 [는 수신 허용 목록 또는 기타 기술을 스팸으로 표시 false 양의 전자 메일을 방지](https://go.microsoft.com/fwlink/p/?LinkId=534224) 또는 [false 이면 음수 문제를 방지 하기 위해 Office 365 스팸 필터와 전자 메일 스팸 차단에](https://go.microsoft.com/fwlink/p/?LinkId=534225)대 한 정보를 수행 합니다. 다음은 관리자 수준의 제어 있고 가양성 또는 잘못 된 음수가 되지 않도록 하려는 경우에 유용 합니다.
-  
-## <a name="new-to-office-365"></a>Office 365의 새로운 기능
-<a name="sectionSection5"> </a>
-
-||
-|:-----|
-|![LinkedIn Learning용 단축 아이콘](media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?**         LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요. |
    
 ## <a name="for-more-information"></a>자세한 내용
 <a name="sectionSection6"> </a>
 
 [연결 필터 정책 구성](configure-the-connection-filter-policy.md)
   
-[아웃 바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
+[아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
   
 [격리](quarantine.md)
   

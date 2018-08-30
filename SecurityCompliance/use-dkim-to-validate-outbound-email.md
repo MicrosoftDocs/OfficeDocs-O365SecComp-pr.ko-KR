@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.custom: TN2DMC
+search.appverid:
+- MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 description: '요약: 사용 DomainKeys 식별 된 메일 (DKIM) Office 365를 사용 하는 방법을 확인 대상 전자 메일 시스템 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는이 문서에 설명 합니다.'
-ms.openlocfilehash: 0626a2c7bc33df3dc77d3aec8be6dbec5a96472b
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 7dccab55ab86d9ecac14b7042b5a030c2415fece
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026165"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003217"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면
 
@@ -26,7 +28,7 @@ ms.locfileid: "22026165"
   
 개인 키를 사용 하 여 도메인의 보내는 전자 메일의 헤더를 암호화 하는 기본적으로, 합니다. 받는 서버에는 서명을 디코딩할 다음 사용할 수 있는 도메인의 DNS 레코드에는 공용 키를 게시 합니다. 때 확인 하는 메시지 사용자 로부터 실제로 연결 되 고 도메인 스푸핑 사람이 보낸 것이 아니라 공용 키를 사용 합니다.
   
-Office 365 초기 도메인에 대 한 DKIM를 자동으로 설정합니다. 초기 도메인은 귀하가 등록 하면 contoso.onmicrosoft.com 등 서비스를 사용할 경우 Office 365를 생성 하는 도메인입니다. 초기 도메인에 대 한 DKIM를 설정 하는 모든 작업을 수행할 필요가 없습니다. 도메인에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
+Office 365 초기 도메인에 대 한 DKIM를 자동으로 설정합니다. 초기 도메인은 귀하가 등록 하면 contoso.onmicrosoft.com 등 서비스를 사용할 경우 Office 365를 생성 하는 도메인입니다. 초기 도메인에 대 한 DKIM를 설정 하는 모든 작업을 수행할 필요가 없습니다. 도메인에 대 한 자세한 내용은 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
   
 사용자 지정 도메인에 대 한 너무 DKIM 조건에 대해 수행 하도록 선택할 수 있습니다. 설정 하지 않으면 DKIM를 사용자 지정 도메인을 하는 경우 Office 365 개인 및 공용 키 쌍을 만듭니다 활성화 DKIM 서명 하 고 사용자 지정 도메인에 대 한 Office 365 기본 정책을 구성 합니다. 대부분의 Office 365 고객에 대 한 충분 한 검사가 이지만, 다음과 같은 상황에서 사용자 지정 도메인에 대 한 DKIM을 수동으로 구성 해야 합니다.
   
@@ -105,7 +107,7 @@ TTL:                3600
   contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
   ```
 
--  _initialDomain_ 은 도메인 Office 365에 등록할 수 있을 때 사용한 것입니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
+-  _initialDomain_ 은 도메인 Office 365에 등록할 수 있을 때 사용한 것입니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
     
 예는 초기 cohovineyardandwinery.onmicrosoft.com, 도메인 및 두 사용자 지정 도메인 cohovineyard.com 및 cohowinery.com을 설치한 경우에 총 4 개의 CNAME 레코드에 대 한 각 추가 도메인에 대 한 두 CNAME 레코드를 설정 해야 합니다.
   
@@ -245,7 +247,7 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
 
 ```
 
-이 예제에서는 호스트 이름 및 도메인 CNAME 도메인 관리자에 의해 활성화 되어 있던 fabrikam.com에 대 한 DKIM 서명 하는 경우에 가리키기 값이 포함 됩니다. 결국, Office 365에서 보낸 모든 단일 메시지 DKIM 서명 됩니다. 도메인에서에서 도메인 같을 수는 DKIM, 사용자가 직접 사용 하는 경우:이 사례 fabrikam.com 주소입니다. 이렇게 하지 않으면 맞추지 않습니다 하 고 대신 조직의 초기 도메인을 사용 합니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
+이 예제에서는 호스트 이름 및 도메인 CNAME 도메인 관리자에 의해 활성화 되어 있던 fabrikam.com에 대 한 DKIM 서명 하는 경우에 가리키기 값이 포함 됩니다. 결국, Office 365에서 보낸 모든 단일 메시지 DKIM 서명 됩니다. 도메인에서에서 도메인 같을 수는 DKIM, 사용자가 직접 사용 하는 경우:이 사례 fabrikam.com 주소입니다. 이렇게 하지 않으면 맞추지 않습니다 하 고 대신 조직의 초기 도메인을 사용 합니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
   
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>DKIM를 제 3 자 서비스 보내기, 또는 사용자 지정 도메인을 대신 하 여 전자 메일을 스푸핑할 수 있도록 설정
 <a name="SetUp3rdPartyspoof"> </a>

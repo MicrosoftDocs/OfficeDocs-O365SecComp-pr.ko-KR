@@ -1,5 +1,5 @@
 ---
-title: 전송 규칙을 사용 하 여 대량 전자 메일 필터링을 구성 하려면
+title: 전송 규칙을 사용하여 대량 전자 메일 필터링 구성
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 description: 기본 스팸 콘텐츠 필터 정책을 사용 하 여 스팸 및 대량 전자 메일에 대 한 회사 전체의 콘텐츠 필터를 설정할 수 있습니다. 체크아웃 구성 스팸 필터 정책 및 Set-hostedcontentfilterpolicy 콘텐츠 필터 정책을 설정 하는 방법에 있습니다.
-ms.openlocfilehash: f72fa5cc50ab6aa5447e3af9fabc365457c82973
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 8fa4ba619b55ae12207f36b7625acfaa9838e696
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027685"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002485"
 ---
-# <a name="use-transport-rules-to-configure-bulk-email-filtering"></a>전송 규칙을 사용 하 여 대량 전자 메일 필터링을 구성 하려면
+# <a name="use-transport-rules-to-configure-bulk-email-filtering"></a>전송 규칙을 사용하여 대량 전자 메일 필터링 구성
 
 기본 스팸 콘텐츠 필터 정책을 사용 하 여 스팸 및 대량 전자 메일에 대 한 회사 전체의 콘텐츠 필터를 설정할 수 있습니다. 콘텐츠 필터 정책을 설정 하는 방법에 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [Set-hostedcontentfilterpolicy](http://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) 체크아웃 합니다. 
   
@@ -34,7 +36,7 @@ ms.locfileid: "22027685"
 
 1. EAC(Exchange 관리 센터)에서 **메일 흐름** \> **규칙**으로 이동합니다.
     
-2. **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
     
 3. 규칙 이름을 지정합니다.
     
@@ -89,7 +91,7 @@ ms.locfileid: "22027685"
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
     
-2. **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
     
 3. 규칙 이름을 지정합니다.
     

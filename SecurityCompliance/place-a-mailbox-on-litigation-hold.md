@@ -1,5 +1,5 @@
 ---
-title: 전체 사서함에 소송 보존으로 설정
+title: 사서함을 소송 자료 보존으로 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: adee4621-3626-4aec-aa53-00b35ff0d0b0
 description: '사서함 삭제 된 항목 및 수정 된 항목의 원래 버전을 포함 하 여 모든 사서함 콘텐츠를 유지 하기 위해 소송 보존에 배치 합니다. '
-ms.openlocfilehash: 8f440f5fc0bc7dafd639bdf8136808aa2f3bd35f
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 9c2d5c77a604e4dbe6e1f1db75142d3bf5790618
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026445"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002847"
 ---
-# <a name="place-a-mailbox-on-litigation-hold"></a>전체 사서함에 소송 보존으로 설정
+# <a name="place-a-mailbox-on-litigation-hold"></a>사서함을 소송 자료 보존으로 설정
  
 사서함 삭제 된 항목 및 수정 된 항목의 원래 버전을 포함 하 여 모든 사서함 콘텐츠를 유지 하기 위해 소송 보존에 배치 합니다. 사용자를 배치 하는 경우 ' 사서함이 소송 보존으로 설정 합니다 (활성화 되어 있음) 하는 경우 사용자의 보관 사서함의 콘텐츠에도 대기 상태로 설정 됩니다. 항목을 삭제 하 고 수정 된 지정된 된 기간에 대 한 또는 소송 보존으로 설정에서 사서함을 제거할 때까지 유지 됩니다. 이러한 모든 사서함 항목은 [원본 위치 eDiscovery](http://technet.microsoft.com/library/6377cb7a-3416-4e15-8571-c45d2160fc6f.aspx) 검색에서 반환 됩니다. 
   
@@ -51,7 +53,7 @@ ms.locfileid: "22026445"
 
 1. **받는 사람** 에 게 이동 \> **사서함**입니다.
     
-2. 사용자 사서함 목록에서 소송 보존에 배치 하려는 사서함을 클릭 하 고 **편집**을 클릭 한 다음![편집 아이콘](media/ITPro-EAC-EditIcon.png)합니다.
+2. 사용자 사서함 목록에서 소송 보존에 배치 하려는 사서함을 클릭 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](media/ITPro-EAC-EditIcon.gif)합니다.
     
 3. 사서함 속성 페이지에서 클릭 **사서함 기능.**
     
@@ -124,7 +126,7 @@ P
     
 1. **받는 사람** 에 게 이동 \> **사서함**입니다.
     
-2. 사용자 사서함 목록에서 사서함을 소송 보존 설정을 확인 하려면을 클릭 하 고 **편집**을 클릭 한 다음![편집 아이콘](media/ITPro-EAC-EditIcon.png)합니다.
+2. 사용자 사서함 목록에서 사서함을 소송 보존 설정을 확인 하려면을 클릭 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](media/ITPro-EAC-EditIcon.gif)합니다.
     
 3. 사서함 속성 페이지에서 클릭 **사서함 기능.**
     

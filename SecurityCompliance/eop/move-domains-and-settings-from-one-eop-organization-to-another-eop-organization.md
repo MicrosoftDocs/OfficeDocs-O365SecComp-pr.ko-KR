@@ -11,19 +11,19 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다.
-ms.openlocfilehash: 87bf6a4f1e7d0fac1f98255d222693cb4910f1a6
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: f822e9e5aa91a67a15b327f73c29bf9bee2ff99e
+ms.sourcegitcommit: 380ea5b269a64bd581a225e122cbd82d2ce0bf98
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027665"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "23002226"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>EOP 조직 간에 도메인 및 설정 이동
 
 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다. EOP 조직 간의 이동은 까다로운 작업일 수 있지만 몇 가지 기본적인 원격 Windows PowerShell 스크립트를 사용하고 약간만 준비하면 비교적 적은 유지 관리 기간에 완료할 수 있습니다. 
   
 > [!NOTE]
->  EOP 독립 실행형(Standard) 조직에서 다른 EOP Standard 또는 Exchange Enterprise CAL with Services(EOP Premium) 조직으로 또는 EOP Premium 조직에서 다른 EOP Premium 조직으로 설정을 안정적으로 이동할 수 있습니다. 일부 고급 기능은 EOP Standard 조직에서 지원되지 않으므로 EOP Premium 조직 간의 이동은 실패할 수도 있습니다. >  이러한 지침은 EOP 필터링 전용 조직에 적용됩니다. Exchange Online 조직 간의 이동에는 추가적인 고려 사항이 있습니다. Exchange Online 조직은 이러한 지침의 범위에서 벗어납니다. 
+>  설정 안정적으로 EOP 독립 실행형 서비스 (EOP 프리미엄) 조직과 다른 EOP 표준 또는 Exchange Enterprise CAL (표준) 조직에서에서 또는 이동 EOP 프리미엄 조직에서 다른 EOP 프리미엄 조직에 있습니다. 일부 프리미엄 기능 EOP 표준 조직에서 지원 되지 않으므로, EOP 표준 조직에 EOP 프리미엄 조직에서 이동 성공 아닐 수도 있습니다. > 이러한 지침은 EOP 필터링 전용 조직에 대 한 것입니다. 하나의 Exchange Online 조직에서 다른 Exchange Online 조직으로 이동의 추가 고려 사항 있습니다. Exchange Online 조직에서는 이러한 지침에 대 한 범위 바깥에 있습니다. 
   
 다음 예제에서는 Contoso, Ltd.가 Contoso Suites와 병합되었습니다. 다음 그림에서는 원본 EOP 조직(contoso.onmicrosoft.com)에서 대상 EOP 조직(contososuites.onmicrosoft.com)으로 도메인, 메일 사용자 및 그룹, 설정을 이동하는 프로세스를 보여 줍니다.
   

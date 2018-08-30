@@ -8,15 +8,17 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.custom: TN2DMC
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 description: '보낸 사람이 정책 프레임 워크 (SPF) 및 DomainKeys 식별 된 메일 (DKIM) 메일 보낸사람을 인증 하 고 대상 전자 메일 시스템 도메인에서 보낸 메시지를 신뢰 확인을 사용 하 여 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) 작동 하는 . '
-ms.openlocfilehash: a95e41011e802a583ddd053d2ae4699ff46112b9
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 199ab67d17152fc0c4ed6b9f87cde66beaf913d5
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026825"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003227"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC를 사용 하 여 Office 365의 전자 메일의 유효성을 검사 하려면
 
@@ -223,7 +225,8 @@ contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 
 ```
 
-기본 MX 이며 EOP로 메일 라우팅됩니다 다음 이후 모두 또는 대부분, 전자 메일에는 mail.contoso.com 먼저 라우팅되는 합니다. 경우에 따라 전혀 MX 레코드를으로 EOP를 나열 하 고 전자 메일을 라우팅하는 커넥터를 간단 하 게 연결할 아니더라도 될 수 있습니다. EOP에는 도메인에 대해 적용 될 DMARC 오류에 대 한 순서 대로 도메인의 MX 레코드의 첫 항목 이어야 합니다.
+기본 MX 이며 EOP로 메일 라우팅됩니다 다음 이후 모두 또는 대부분, 전자 메일에는 mail.contoso.com 먼저 라우팅되는 합니다. 경우에 따라 전혀 MX 레코드를으로 EOP를 나열 하 고 전자 메일을 라우팅하는 커넥터를 간단 하 게 연결할 아니더라도 될 수 있습니다. EOP 해야할 필요가 DMARC 유효성 검사에 대 한 첫번째 항목을 사용할 필요가 없습니다. 방금 모든 온-프레미스/비-o 365 서버 DMARC 검사는 특정 수 없습니다는 유효성 검사를 보장 합니다.  DMARC는 고객의 도메인 (서버가 아님)에 대 한 적용 하 여이 가능한 경우 DMARC TXT 레코드를 설정 하지만 실제로 적용을 수행 하는 받는 서버 달려있습니다.  받는 서버와 EOP를 설정 하는 경우 EOP DMARC 적용을 수행 합니다.
+
   
 ## <a name="for-more-information"></a>자세한 내용
 <a name="sectionSection8"> </a>
@@ -243,7 +246,7 @@ DMARC 하는 방법에 대 한 자세한 내용은 지 여부 이러한 리소�
 
 [Office 365 스푸핑 방지 하기 위해 보낸 사람이 정책 프레임 워크 (SPF)을 사용 하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)
   
-[Office 365에서 SPF 스푸핑 방지 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+[스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
   
 [DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면](use-dkim-to-validate-outbound-email.md)
 

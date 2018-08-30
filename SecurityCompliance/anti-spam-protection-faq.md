@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: 21c399ed0ccf0f7a03c5396d8a594fccb0f133b8
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 77b3dc26d55f75e7476a3b52a550174a3876c56f
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026435"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003077"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
@@ -48,7 +50,7 @@ A. 제로 데가 스팸 variant 이므로 1 세대, 안함 캡처한 않거나 �
   
 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)
   
-[아웃 바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
+[아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
   
  **질문. 스팸 방지 정책을 변경하는 경우 저장한 변경 내용이 적용될 때까지 시간이 얼마나 걸립니까?**
   
@@ -120,7 +122,7 @@ A. 하는 경우 Office 365에서 스팸으로 결정 됩니다 (예: 1 시간),
     
     SPF 레코드는 도메인에서 전송된 메일이 실제로 해당 도메인에서 보낸 것이며 스푸핑되지 않았음을 검사하는 메커니즘입니다. SPF 레코드에 대한 자세한 내용은 다음 링크를 참조하십시오.
     
-    [Office 365에서 SPF 스푸핑 방지 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+    [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
     
     [Office 365용 DNS 레코드 만들기](https://go.microsoft.com/fwlink/?LinkID=275414)
     

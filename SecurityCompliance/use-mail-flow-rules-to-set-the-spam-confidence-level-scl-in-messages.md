@@ -1,5 +1,5 @@
 ---
-title: 메일 흐름 규칙을 사용 하 여 메시지에는 신뢰 scl (스팸)을 설정 하려면
+title: 메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 description: 신뢰도 scl (스팸)의 전자 메일 메시지를 설정 하는 전송 규칙을 만들 수 있습니다. SCL은 스팸일 가능성 메시지의 측정 됩니다. 스팸 원치 않는 (및 일반적으로 원치 않는) 전자 메일 메시지 수입니다. 서비스의 SCL 등급에 따라 메시지에 대해 다른 작업을 수행 합니다. 예, 다음 스팸 콘텐츠 동료에서 내부적으로 보내는 메시지 스팸을 신뢰할 수 있으므로 조직 내부에서 보낸 메시지에 대 한 필터링을 무시 하는 것이 좋습니다. 스팸 처리에 대 한 제어를 늘리기 제공 메시지의 SCL 값을 설정 하려면 전송 규칙을 사용 하 여 합니다.
-ms.openlocfilehash: ad89230dac9de668488b40090d70d2b697a86edd
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 7abd0d1881374b1f2a4bd32ee480445f7683d1b3
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026735"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002897"
 ---
-# <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용 하 여 메시지에는 신뢰 scl (스팸)을 설정 하려면
+# <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
 신뢰도 scl (스팸)의 전자 메일 메시지를 설정 하는 전송 규칙을 만들 수 있습니다. SCL은 스팸일 가능성 메시지의 측정 됩니다. 스팸 원치 않는 (및 일반적으로 원치 않는) 전자 메일 메시지 수입니다. 서비스의 SCL 등급에 따라 메시지에 대해 다른 작업을 수행 합니다. 예, 다음 스팸 콘텐츠 동료에서 내부적으로 보내는 메시지 스팸을 신뢰할 수 있으므로 조직 내부에서 보낸 메시지에 대 한 필터링을 무시 하는 것이 좋습니다. 스팸 처리에 대 한 제어를 늘리기 제공 메시지의 SCL 값을 설정 하려면 전송 규칙을 사용 하 여 합니다. 
   
@@ -34,7 +36,7 @@ ms.locfileid: "22026735"
 
 1. (EAC)의 Exchange 관리 센터에서 **메일 흐름** 선택 \> **규칙**입니다.
     
-2. **새로 만들기**를 선택![아이콘 추가](media/ITPro-EAC-AddIcon.png), 한 다음 **새 규칙 만들기**를 선택 합니다.
+2. **새로 만들기**를 선택![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 한 다음 **새 규칙 만들기**를 선택 합니다.
     
 3. 규칙 이름을 지정합니다.
     
@@ -62,7 +64,7 @@ ms.locfileid: "22026735"
     > [!TIP]
     > 추가 속성을 선택 하거나이 규칙에 대 한 지정 하는 방법에 대 한 자세한 내용은 [전송 규칙을 만들려면 EAC를 사용 하 여](http://technet.microsoft.com/library/e7a81372-b6d7-4d1f-bc9e-a845a7facac2.aspx#CreateEAC)을 참조 하십시오. 
   
-## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
+## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 
 이 절차는 올바르게 작동 하는지 확인 하려면 조직 내부의 다른 사람에 게 전자 메일 메시지 보내기 및 메시지에서 수행 되는 작업이 예상 대로 인지 확인 합니다. 예: 지정 된 받는 사람의 받은 편지함에 게 보내야 **바이패스 스팸 필터링**, 다음 메시지는 **신뢰도 scl (스팸)를 설정** 하는 경우. 그러나, **9**및 해당 콘텐츠 필터 정책에 대 한 **높은 정확도 스팸** 동작에 **는 신뢰도 scl (스팸)를 설정** 하려는 경우 정크 메일 폴더로 메시지 이동, 다음 메시지 보낼지를 지정 된 받는 사람의 정크 메일 폴더입니다. 
   

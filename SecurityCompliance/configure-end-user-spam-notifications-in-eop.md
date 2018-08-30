@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
 description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: cd1f165e54229efe7454f9662ca5880b3dd10adf
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 990fa31cc22b33d235d6e8f106511996a52212a2
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027505"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002927"
 ---
 # <a name="configure-end-user-spam-notifications-in-eop"></a>EOP에서 최종 사용자 스팸 알림 구성
   

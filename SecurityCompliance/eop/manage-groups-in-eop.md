@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 description: Exchange Online Protection (EOP)를 사용 하 여 Exchange 조직에 대 한 메일 사용이 가능한 그룹을 만들 수 있습니다. 또한 정의 또는 멤버 자격, 전자 메일 주소 및 그룹의 다른 측면을 지정 하는 그룹 속성을 업데이트 하려면 EOP를 사용할 수 있습니다.
-ms.openlocfilehash: 744a28d2003496650e7350108797cc5cc4eaad4f
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 1af39e3a55864a9a87f90e0a00957ebf1631bb45
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026345"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003177"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
@@ -41,7 +41,7 @@ Exchange 조직에 대해 다음과 같은 두 가지 유형의 그룹을 만들
     
 - 이 cmdlet은 일괄 처리 방법을 사용하므로 cmdlet 결과가 보이기 몇 분 전에 전파 지연이 발생합니다.
     
-- Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online Protection에 연결](http://technet.microsoft.com/library/054e0fd7-d465-4572-93f8-a00a9136e4d1.aspx)을 참조하세요.
+- Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online Protection에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell?view=exchange-ps)을 참조하세요.
     
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Keyboard shortcuts in Exchange 2013**을 참조하세요.
     
@@ -52,7 +52,7 @@ Exchange 조직에 대해 다음과 같은 두 가지 유형의 그룹을 만들
 
 1. EAC(Exchange 관리 센터)에서 **받는 사람** \> **그룹**으로 이동합니다.
     
-2. **새로 만들기**![아이콘 추가](../media/ITPro-EAC-AddIcon.png)를 클릭한 다음 필요에 따라 **메일 그룹** 또는 **보안 그룹**을 클릭합니다. 두 그룹의 차이점은 [메일 사용 가능 그룹의 유형](manage-groups-in-eop.md)을 참조하세요. 
+2. **새로 만들기**![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 필요에 따라 **메일 그룹** 또는 **보안 그룹**을 클릭합니다. 두 그룹의 차이점은 [메일 사용 가능 그룹의 유형](manage-groups-in-eop.md)을 참조하세요. 
     
 3. **새 메일 그룹** 또는 **새 보안 그룹** 페이지에서 다음 필드에 값을 입력합니다. 
     
@@ -62,12 +62,12 @@ Exchange 조직에 대해 다음과 같은 두 가지 유형의 그룹을 만들
     
   - **설명** 다른 사람들이 그룹의 용도를 파악할 수 있도록 그룹 설명을 입력합니다. 
     
-  - **소유자** 기본적으로 그룹을 만든 사람이 소유자입니다. **추가**![아이콘 추가](../media/ITPro-EAC-AddIcon.png)를 선택하여 소유자를 추가할 수 있습니다. 모든 그룹에는 한 명 이상의 소유자가 있어야 합니다.
+  - **소유자** 기본적으로 그룹을 만든 사람이 소유자입니다. **추가**![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 선택하여 소유자를 추가할 수 있습니다. 모든 그룹에는 한 명 이상의 소유자가 있어야 합니다.
     
     > [!NOTE]
     > 소유자는 그룹의 구성원이 아니어도 됩니다. 
   
-  - **구성원** 이 섹션을 사용하면 그룹 구성원을 추가하고 그룹에 구독하거나 그룹에서 탈퇴하려는 사용자에 대해 승인이 필요한지 여부를 지정할 수 있습니다. 그룹에 구성원을 추가하려면 **추가**![아이콘 추가](../media/ITPro-EAC-AddIcon.png)를 클릭합니다.
+  - **구성원** 이 섹션을 사용하면 그룹 구성원을 추가하고 그룹에 구독하거나 그룹에서 탈퇴하려는 사용자에 대해 승인이 필요한지 여부를 지정할 수 있습니다. 그룹에 구성원을 추가하려면 **추가**![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭합니다.
     
 4. **확인**을 클릭하여 원래 페이지로 돌아갑니다. 
     
@@ -79,9 +79,9 @@ Exchange 조직에 대해 다음과 같은 두 가지 유형의 그룹을 만들
     
 2. 다음 중 하나를 수행합니다.
     
-  - 그룹을 편집하려면 그룹 목록에서 보거나 변경할 메일 그룹 또는 보안 그룹을 클릭한 다음 **편집**![편집 아이콘](../media/ITPro-EAC-EditIcon.png)을 클릭합니다. 필요에 따라 일반 설정을 업데이트하고 그룹 소유자 및 그룹 구성원을 추가하거나 제거할 수 있습니다.
+  - 그룹을 편집 하려면: 그룹 목록에서 메일 또는 보기 또는 변경 하려는 보안 그룹을 클릭 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](../media/ITPro-EAC-EditIcon.gif)합니다. 일반 설정을 업데이트 하 게, 추가 또는 그룹 소유자를 제거 하 고 추가 하거나 수 있습니다 필요에 따라 그룹 구성원을 제거 합니다.
     
-  - 그룹을 제거하려면 그룹을 선택하고 **제거**![아이콘 제거](../media/ITPro-EAC-RemoveIcon.png)를 클릭합니다.
+  - 그룹을 제거하려면 그룹을 선택하고 **제거**![아이콘 제거](../media/ITPro-EAC-RemoveIcon.gif)를 클릭합니다.
     
 3. 변경을 마치면 **저장**을 클릭합니다.
     

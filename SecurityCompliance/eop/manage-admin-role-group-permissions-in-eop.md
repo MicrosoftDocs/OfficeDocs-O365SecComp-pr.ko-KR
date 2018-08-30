@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Microsoft EOP(Exchange Online Protection)에서는 EAC(Exchange 관리 센터)를 통해 사용자를 하나 이상의 역할 그룹 구성원으로 지정하여 해당 그룹에 특정 관리 작업을 수행하기 위한 권한을 할당할 수 있습니다. 또한 EAC를 사용하여 하나 이상의 역할 그룹에서 사용자를 제거할 수도 있습니다.
-ms.openlocfilehash: 5d50c77c97f2c345aa3994e7fa3ecd2eea93a13a
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b773b541b85288b4cb4deaa075cc0346d6bcc646
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026665"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002977"
 ---
 # <a name="manage-admin-role-group-permissions-in-eop"></a>EOP에서 관리자 역할 그룹 권한 관리
   
@@ -39,9 +39,9 @@ Microsoft EOP(Exchange Online Protection)에서는 EAC(Exchange 관리 센터)�
 
 ### <a name="use-the-eac-to-assign-members-to-admin-role-groups"></a>EAC를 사용하여 관리자 역할 그룹에 구성원 할당
 
-1. EAC에서 **사용 권한** \> **관리자 역할**로 이동하여 사용자를 한 명 이상 추가할 역할 그룹을 클릭하고 **편집**![편집 아이콘](../media/ITPro-EAC-EditIcon.png)을 클릭합니다.
+1. EAC에서 **사용 권한 관리** 로 이동 \> **관리 역할**, 사용자 또는 사용자를 추가 하려는 역할 그룹을 클릭 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](../media/ITPro-EAC-EditIcon.gif)합니다.
     
-2. 구성원에서 **추가**![아이콘 추가](../media/ITPro-EAC-AddIcon.png)를 클릭합니다. 구성원 선택 창이 나타납니다.
+2. 구성원에서 **추가**![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭합니다. 구성원 선택 창이 나타납니다.
     
 3. 추가할 사용자를 한 명 이상 검색하거나 목록에서 선택합니다.
     
@@ -54,9 +54,9 @@ Microsoft EOP(Exchange Online Protection)에서는 EAC(Exchange 관리 센터)�
   
 ### <a name="use-the-eac-to-remove-members-from-admin-role-groups"></a>EAC를 사용하여 관리자 역할 그룹에서 구성원 제거
 
-1. EAC에서 **사용 권한** \> **관리자 역할**로 이동하여 사용자를 한 명 이상 제거할 역할 그룹을 클릭하고 **편집**![편집 아이콘](../media/ITPro-EAC-EditIcon.png)을 클릭합니다.
+1. EAC에서 **사용 권한 관리** 로 이동 \> **관리 역할**, 사용자 또는 사용자를 제거 하려는 역할 그룹을 클릭 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](../media/ITPro-EAC-EditIcon.gif)합니다.
     
-2. 구성원에서 제거할 사용자를 한 명 이상 선택하고 **제거**![아이콘 제거](../media/ITPro-EAC-RemoveIcon.png)를 클릭합니다.
+2. 구성원에서 제거할 사용자를 한 명 이상 선택하고 **제거**![아이콘 제거](../media/ITPro-EAC-RemoveIcon.gif)를 클릭합니다.
     
 3. **저장**을 클릭하여 역할 그룹의 변경 내용을 저장하고 **관리자 역할** 페이지로 돌아갑니다. 사용자가 관리자 역할 그룹에서 제거되었는지 확인하려면 해당 구성원이 선택한 역할 그룹의 세부 정보 창에서 구성원 아래에 더 이상 표시되지 않는지 확인합니다. 
     

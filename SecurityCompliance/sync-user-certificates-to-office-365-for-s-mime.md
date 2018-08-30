@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 351c932e-99c1-4512-a6e8-788e90b7838f
 description: S/MIME로 보호된 메시지를 보내려면 적절한 인증서를 설정해야 합니다. Exchange Online을 통해 암호화된 메시지를 보내기 위해 보낸 사람의 전자 메일 프로그램은 받는 사람의 공용 인증서를 사용하여 메시지를 암호화합니다. 이 공용 X.509 인증서를 Office 365에 게시해야 합니다.
-ms.openlocfilehash: aa94dfa6702a25b3fc6b8b883daceddf31d2f66a
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 452b538b4515bdbcd5fcbdedad17f0450c04207a
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026195"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002389"
 ---
 # <a name="sync-user-certificates-to-office-365-for-smime"></a>S/MIME용으로 Office 365에 사용자 인증서 동기화
 
@@ -32,7 +34,7 @@ S/MIME로 보호된 메시지를 보내려면 적절한 인증서를 설정해�
   
 ## <a name="more-information"></a>추가 정보
 
-[S/MIME 메시지 서명 및 암호화에 대 한](s-mime-for-message-signing-and-encryption.md)
+[메시지 서명 및 암호화를 위한 S/MIME](s-mime-for-message-signing-and-encryption.md)
   
 [Azure Active Directory 동기화 도구](https://go.microsoft.com/fwlink/p/?LinkId=392587)
   

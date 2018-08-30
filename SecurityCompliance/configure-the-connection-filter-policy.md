@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 description: 사람을 신뢰 하에서 보낸 전자 메일 차단 되지 않습니다 있는지 확인 하십시오로 알려져는 수신 허용-보낸사람, IP 주소 목록에 신뢰할 수 있는 허용 목록을 만들려면 연결 필터 정책을 사용할 수 있습니다. 수신된 거부 목록을 만들 수도 있습니다.
-ms.openlocfilehash: d106e55779c6246b77018fef3ab9d58fa759d99e
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: cb9b73ff61b477f1c7ea0bb8da4039bebce83d1b
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027605"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003267"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
  
@@ -52,7 +54,7 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
     
 2. **연결 필터링** 메뉴 항목을 클릭한 후 원하는 목록을 만듭니다. IP 허용 목록이나 IP 차단 목록 중 하나를 만들거나 두 목록을 모두 만들 수 있습니다. 
     
-    이 목록을 만들려면 ![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭합니다. 이후 표시되는 대화 상자에서 IP 주소나 주소 범위를 지정한 후 **확인**을 클릭합니다. 주소를 추가하려면 이 프로세스를 반복합니다. 주소를 추가한 후 IP 주소를 편집하거나 제거할 수도 있습니다.
+    이 목록을 만들려면 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭합니다. 이후 표시되는 대화 상자에서 IP 주소나 주소 범위를 지정한 후 **확인**을 클릭합니다. 주소를 추가하려면 이 프로세스를 반복합니다. 주소를 추가한 후 IP 주소를 편집하거나 제거할 수도 있습니다.
     
     > [!NOTE]
     >  두 목록에 IP 주소를 추가 하는 경우에서 보내는 전자 메일 허용 됩니다. > 여기서 nnn는 0에서 255 까지의 숫자 형식 nnn.nnn.nnn.nnn에 IPV4 IP 주소를 지정 합니다. 여기서 rr는 24에서 32 사이의 숫자 형식 nnn.nnn.nnn.nnn/rr에서 도메인간 라우팅 CIDR (Classless) 범위를 지정할 수도 있습니다. 24-32 범위 외부의 범위를 지정 하려면 [IP 허용 구성 시 추가 고려 사항 목록](configure-the-connection-filter-policy.md#bkmk_addtionalconsiderationswhenconfiguringipallowlists)를 참조 합니다. > 최대 1273 항목, 항목은 단일 IP 주소 또는 CIDR의 IP 주소 범위에서 /24/32 지정할 수 있습니다. > TLS 암호화 된 메시지를 보내는 경우 IPv6 주소 및 주소 범위가 지원 되지 않습니다. 
@@ -74,13 +76,13 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
   
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
     
-2. ![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
     
 3. 규칙 이름을 지정하고 **기타 옵션**을 클릭합니다.
     
 4. **다음의 경우에 이 규칙 적용**에서 **보낸 사람**을 선택하고 **IP 주소가 이 범위에 속하거나 정확하게 일치함**을 선택합니다.
     
-5. **IP 주소 지정**에서 IP 주소 범위를 지정하고 **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **확인**을 클릭합니다.
+5. **IP 주소 지정**에서 IP 주소 범위를 지정하고 **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **확인**을 클릭합니다.
     
 6. **다음 작업 수행** 상자에서 **메시지 속성 수정**을 선택한 다음 **SCL(스팸 지수) 설정**을 선택하여 동작을 설정합니다. **SCL 지정** 상자에서 **스팸 필터링 무시**를 선택한 후 **확인**을 클릭합니다.
     
@@ -100,19 +102,19 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
   
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
     
-2. ![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
     
 3. 규칙 이름을 지정하고 **기타 옵션**을 클릭합니다.
     
 4. **다음의 경우 이 규칙 적용**에서 **보낸 사람**을 선택하고 **IP 주소가 이 범위에 속하거나 정확하게 일치함**을 선택합니다.
     
-5. **IP 주소 지정** 상자에서 IP 허용 목록에 입력한 IP 주소 또는 IP 주소 범위를 지정하고 **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **확인**을 클릭합니다.
+5. **IP 주소 지정** 상자에서 IP 허용 목록에 입력한 IP 주소 또는 IP 주소 범위를 지정하고 **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **확인**을 클릭합니다.
     
 6. **다음 작업 실행**에서 **메시지 속성 수정**을 선택한 후 **SCL(스팸 지수) 설정**을 선택하여 동작을 설정합니다. **SCL 지정** 상자에서 **0**을 선택한 후 **확인**을 클릭합니다.
     
 7. **예외 추가**를 클릭하고 **다음의 경우 제외**에서 **보낸 사람**을 선택하고 **도메인**을 선택합니다. 
     
-8. **도메인 지정** 상자에 스팸 필터링을 무시할 도메인을 입력합니다(예: **contosob.com**). **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭하여 이 도메인을 구 목록으로 이동합니다. 도메인을 예외로 더 추가하려면 이 단계를 반복하고 완료되면 **확인**을 클릭합니다. 
+8. **도메인 지정** 상자에 스팸 필터링을 무시할 도메인을 입력합니다(예: **contosob.com**). **추가**![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭하여 이 도메인을 구 목록으로 이동합니다. 도메인을 예외로 더 추가하려면 이 단계를 반복하고 완료되면 **확인**을 클릭합니다. 
     
 9. 원하는 경우 규칙을 감사하고 규칙을 테스트하며 특정 기간 동안 규칙을 활성화하는 등 기타 옵션을 지정할 수 있습니다. 옵션을 적용하기 전에 규칙을 테스트하는 것이 좋습니다. [Manage Transport Rules](http://technet.microsoft.com/library/e7a81372-b6d7-4d1f-bc9e-a845a7facac2.aspx)에는 이러한 옵션에 대한 추가 정보가 포함되어 있습니다. 
     
@@ -134,7 +136,7 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
   
 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)
   
-[아웃 바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
+[아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
   
 [메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224)
   

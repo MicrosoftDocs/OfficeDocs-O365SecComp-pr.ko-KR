@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 description: 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 6aebeadc5155cbdb8cbeeb73e29c8b8cb0d53767
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: cc8a05b575e17dbc71d4b9e214cb29a4cafe8b6b
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027085"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003197"
 ---
 # <a name="quarantine-faq"></a>격리 FAQ
 
@@ -24,7 +26,7 @@ ms.locfileid: "22027085"
   
  **질문: 격리에서 맬웨어 격리 된 메시지를 관리 하려면는 어떻게**
   
-보안을 사용 하 여 필요한 &amp; 보고 맬웨어를 포함 하기 때문에 격리로 전송 된 메시지와 함께 작업을 수행 하기 위해 준수 센터입니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 격리를](https://support.office.com/en-US/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)참조 하십시오.
+보안을 사용 하 여 필요한 &amp; 보고 맬웨어를 포함 하기 때문에 격리로 전송 된 메시지와 함께 작업을 수행 하기 위해 준수 센터입니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 격리를](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)참조 하십시오.
   
  **질문. 스팸으로 격리된 메시지를 격리로 보내도록 서비스를 구성하려면 어떻게 해야 합니까?**
   
