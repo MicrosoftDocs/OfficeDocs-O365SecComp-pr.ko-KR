@@ -1,5 +1,5 @@
 ---
-title: 메일 흐름 규칙을 사용 하 여 Microsoft에 보고 하는 사용자에 게는 참조 하려면
+title: 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 description: 사용자가 분석을 위해 Microsoft에 전자 메일 메시지를 보내지 못하도록 방지 하 고 고유한 보안 프로세스에서 사용 하는 Exchange 전송 규칙을 만들 수 있습니다.
-ms.openlocfilehash: 6c6af23e6a5f345e26c7dc09c898f2978ea51a5f
-ms.sourcegitcommit: df1e9590a9fa152fa776f16d9b25c180ba7198f3
+ms.openlocfilehash: 92acabe133ef154d880104c20aeed7572ea87d41
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22122588"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002627"
 ---
-# <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>메일 흐름 규칙을 사용 하 여 Microsoft에 보고 하는 사용자에 게는 참조 하려면
+# <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
 
 여러 가지 방법으로 분석을 위해 Microsoft에 false 양의 하 고 false 이면 음수 메시지를 보낼 수 있습니다. 관리자로 서 어떤 사용자에 게는 Microsoft에 보고를 피싱 메일, 스팸 및 스팸이 아닌와 참조를 메일 흐름 규칙을 사용할 수 있습니다. 자세한 내용은 [전송 스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지를](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하십시오. 반면, 사용자가 분석을 위해 Microsoft에 전자 메일 메시지를 보내지 못하도록 방지 하 고 고유한 보안 프로세스에서 사용 하는 Exchange 전송 규칙을 만들 수 있습니다.
   
@@ -33,16 +35,16 @@ ms.locfileid: "22122588"
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
     
-2. ![아이콘 추가](media/ITPro-EAC-AddIcon.png)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
     
 3. 규칙 이름을 지정하고 **기타 옵션**을 클릭합니다.
     
 4. **다음의 경우 이 규칙 적용**에서 **받는 사람**을 선택하고 **주소에 다음 단어 포함**을 선택합니다.
     
 5. **단어 또는 구 지정** 상자에 다음을 입력합니다. 
-    - 형식은 `abuse@messaging.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.png), 다음을 입력 하 고 `junk@office365.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.png)합니다. 이러한 전자 메일 주소는 Microsoft로 거짓 부정 메시지 전송 하는데 사용 됩니다.
-    - 형식은 `phish@office365.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.png)합니다. 이 전자 메일 주소는 Microsoft로 부재중된 피싱 메시지를 전송 하는데 사용 됩니다.
-    - 형식은 `false_positive@messaging.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.png), 다음을 입력 하 고 `not_junk@office365.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.png)합니다. 이러한 전자 메일 주소는 Microsoft로 가양성 메시지 전송 하는데 사용 됩니다.
+    - 형식은 `abuse@messaging.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 다음을 입력 하 고 `junk@office365.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)합니다. 이러한 전자 메일 주소는 Microsoft로 거짓 부정 메시지 전송 하는데 사용 됩니다.
+    - 형식은 `phish@office365.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)합니다. 이 전자 메일 주소는 Microsoft로 부재중된 피싱 메시지를 전송 하는데 사용 됩니다.
+    - 형식은 `false_positive@messaging.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif), 다음을 입력 하 고 `not_junk@office365.microsoft.com` 다음을 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)합니다. 이러한 전자 메일 주소는 Microsoft로 가양성 메시지 전송 하는데 사용 됩니다.
     - **확인**을 클릭합니다.
     
 6. **다음을 수행**을 선택 **숨은 참조 메시지를...** 위치를 하려는 사서함의 메시지를 받을 다음 하 고 다음 선택 하 고 있습니다. 

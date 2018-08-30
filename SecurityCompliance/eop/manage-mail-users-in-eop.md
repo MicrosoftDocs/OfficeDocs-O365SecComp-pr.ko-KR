@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: e985adf5659b50cf567ea798a092f809d77ca470
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 46bc63232be3ece8b9e5c6fce6bbea18dcfdf2b4
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027395"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003047"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -101,7 +101,7 @@ ms.locfileid: "22027395"
     
 ### <a name="to-edit-or-remove-a-mail-user-in-the-eac"></a>EAC에서 메일 사용자를 편집하거나 제거하려면
 
-- EAC에서 **받는 사람** \> **연락처**로 이동합니다. 사용자 목록에서 보거나 변경할 사용자를 클릭하고 **편집**![편집 아이콘](../media/ITPro-EAC-EditIcon.png)을 선택하여 사용자 설정을 필요한 대로 업데이트합니다. 사용자 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대한 상세 정보를 기록할 수 있습니다. 사용자를 선택하고 **제거**![아이콘 제거](../media/ITPro-EAC-RemoveIcon.png)를 선택하여 사용자를 제거할 수도 있습니다. 
+- EAC에서 **받는 사람** 에 게 이동 \> **연락처**입니다. 사용자의 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 **편집** 을 선택 ![편집 아이콘](../media/ITPro-EAC-EditIcon.gif) 필요에 따라 사용자 설정을 업데이트 합니다. 사용자의 이름, 별칭 또는 연락처 정보를 변경할 수 하 고 조직에서 사용자의 역할에 대 한 자세한 정보를 기록할 수 있습니다. 또한 사용자를 선택 하 고 **제거**를 선택 합니다![제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) 를 삭제 합니다. 
     
 ## <a name="use-remote-windows-powershell-to-manage-mail-users"></a>원격 Windows PowerShell을 사용하여 메일 사용자 관리
 

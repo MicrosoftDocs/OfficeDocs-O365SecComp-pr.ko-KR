@@ -9,14 +9,16 @@ ms.topic: troubleshooting
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 description: 해당 전자 메일 주소가 Office 365에 포함되는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 발생하나요? 오류 메시지가 표시되지 않아야 한다고 생각될 경우 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인을 제거할 수 있습니다.
-ms.openlocfilehash: 127b305cdb27cffadc7ad6a43a5d2db2440365ca
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 4964429f4d3aa1a585b1b543929f83c2cebfb9a4
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026235"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003257"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
 
@@ -28,7 +30,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
   
 다음과 같은 오류가 포함된 메일 메시지에 대한 응답이 수신되면 이 목록에 본인이 추가된 것입니다.
   
-액세스 거부 550 5.7.606-649 IP [ _IP 주소_]; 보내기 금지 요청을이 목록에서 제거를 참조 하십시오 https://sender.office.com/ 표시 되는 지침을 따릅니다. 자세한 내용은 [Office 365에서 전자 메일 배달 못함 보고서](http://go.microsoft.com/fwlink/?LinkID=526653)를 참조 하십시오.
+액세스 거부 550 5.7.606-649 IP [_IP 주소_]; 보내기 금지 요청을이 목록에서 제거를 참조 하십시오 https://sender.office.com/ 표시 되는 지침을 따릅니다. 자세한 내용은 [Office 365에서 전자 메일 배달 못함 보고서](http://go.microsoft.com/fwlink/?LinkID=526653)를 참조 하십시오.
   
 여기서  _IP address_는 메일 서버가 실행되는 컴퓨터의 IP 주소입니다. 
   
