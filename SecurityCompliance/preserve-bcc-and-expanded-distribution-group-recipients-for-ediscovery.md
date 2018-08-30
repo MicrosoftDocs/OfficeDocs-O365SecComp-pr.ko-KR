@@ -1,5 +1,5 @@
 ---
-title: 숨은 참조 및 eDiscovery에 대 한 확장 된 메일 그룹 받는 사람을 보존 합니다.
+title: eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: 원본 위치 유지, 소송 보존 및 Office 365 보존 정책 허용 규정 준수 및 eDiscovery 요구 사항에 맞게 사서함 콘텐츠를 유지할 수 있습니다.
-ms.openlocfilehash: 1149834181bca527bd06cea846f455e36fad283c
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: fe13884497db9e2549011815704c571c66a92476
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026395"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002837"
 ---
-# <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>숨은 참조 및 eDiscovery에 대 한 확장 된 메일 그룹 받는 사람을 보존 합니다.
+# <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   
 원본 위치 유지, 소송 보존 및 [Office 365 보존 정책](http://go.microsoft.com/fwlink/?LinkID=827811) (Office 365 보안에서 만든 &amp; 준수 센터) 규정 준수 및 eDiscovery 요구를 충족 하기 위해 사서함 콘텐츠를 유지할 수 있습니다. 받는 사람에 대 한 정보 직접에서 해결 되는 받는 사람 및 참조 필드의 메시지는 기본적으로 모든 메시지에 포함 되어 있지만 조직에 대 한 검색 하 고 메시지의 모든 받는 사람에 대 한 세부 정보를 재현 하는 기능 필요할 수 있습니다. 이는 다음이 포함 됩니다. 
   

@@ -1,5 +1,5 @@
 ---
-title: 스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지 제출
+title: 분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 description: '사용자와 함께 분석을 위해 Microsoft에 false 음수이 고 false 이면 양의 스팸 메시지를 전송할 수 있습니다. '
-ms.openlocfilehash: 1ae33fc7208ab679b7eeb148007bb3b676533e55
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 8966dcb513c727527cc809bb2fde5b3181dc94a2
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026425"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002867"
 ---
-# <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지 제출
+# <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
 조직의 사용자에에서 게 받은 편지함에 정크 메일 메시지 (스팸) 이나 피싱 사기 메시지를 받을 때 또는 정크 메일로 표시 되기 때문에 합법적인 전자 메일 메시지를 받지 않으면 문제가 될 수 있습니다. 지속적으로 더 정확 하 게를 사용해 스팸 필터를 미세 조정 하는 합니다. 사용자와 함께 분석을 위해 Microsoft에 false 이면 음수이 고 false 이면 양의 스팸 메시지를 전송 하 여이 프로세스를 도움이 수 있습니다. "False 네거티브" 었어야 지만 스팸으로 식별 되지 된 스팸 메시지가 표시 됩니다. "가양성" 스팸으로 올바르게 식별 된 합법적인 전자 메일 메시지가 표시 됩니다. 
   

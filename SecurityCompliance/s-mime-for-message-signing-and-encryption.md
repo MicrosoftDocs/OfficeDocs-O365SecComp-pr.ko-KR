@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: S/MIME을 사용 하면 전자 메일이 암호화 및 디지털 서명 수 있습니다. 전자 메일 메시지와 함께 S/MIME을 사용 하는 경우 받은 편지함에 보게 보낸 시작 하는 정확한 메시지 인지 확인 하는 메시지를 받는 사람은 하는데 도움이 됩니다.
-ms.openlocfilehash: 3ce95132476417df8949cdc12f2d825047f6b76d
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 26c50fb6e4d1b07b7dba26948ae46e7f36eeaec5
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027595"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002772"
 ---
 # <a name="smime-for-message-signing-and-encryption"></a>메시지 서명 및 암호화를 위한 S/MIME
 
@@ -54,9 +56,9 @@ Exchange 2013 SP1 또는 Exchange Online(Office 365의 일부분)에 사서함�
 
 Outlook Web App이 포함된 Exchange 2013 SP1 또는 Exchange Online에 대해 S/MIME을 설정하려면 다음 주요 단계를 수행합니다.
   
-1. [Outlook Web App에 대 한 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
+1. [Outlook Web App용 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
     
-2. [S/MIME 유효성을 검사 하려면 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
+2. [S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
     
 3. [S/MIME에 대 한 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md) 이 단계는 Exchange Online에 적용 됩니다. 
     

@@ -1,5 +1,5 @@
 ---
-title: 스팸 신뢰 수준
+title: 스팸 지수
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 description: 스팸 필터링을 통해 전자 메일 메시지를 이동할 때 스팸 점수를 할당 됩니다. 해당 점수는 개별 스팸 SCL () 등급이에 매핑된 이며 X-헤더에 스탬프 처리 합니다. 서비스는 SCL 등급의 스팸 신뢰 해석에 따라 메시지에 따라 작업을 수행 합니다. 다음 표에서 서로 다른 메시지에 SCL 등급 필터와 각 등급에 대 한 인바운드 메시지에 소요 되는 기본 작업으로 해석 되는 방법을 보여줍니다.
-ms.openlocfilehash: cd33f440828761ab8cb496d9eff07288d974514c
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 4b8eea798bc46396e06da2c6ba0573c019d7a9b7
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026285"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002907"
 ---
-# <a name="spam-confidence-levels"></a>스팸 신뢰 수준
+# <a name="spam-confidence-levels"></a>스팸 지수
 
 스팸 필터링을 통해 전자 메일 메시지를 이동할 때 스팸 점수를 할당 됩니다. 해당 점수는 개별 스팸 SCL () 등급이에 매핑된 이며 X-헤더에 스탬프 처리 합니다. 서비스는 SCL 등급의 스팸 신뢰 해석에 따라 메시지에 따라 작업을 수행 합니다. 다음 표에서 서로 다른 메시지에 SCL 등급 필터와 각 등급에 대 한 인바운드 메시지에 소요 되는 기본 작업으로 해석 되는 방법을 보여줍니다.
   
