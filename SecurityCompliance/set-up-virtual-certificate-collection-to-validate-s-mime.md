@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 04a616e6-197c-490c-ae8c-c8d5f0f0b3dd
 description: 테 넌 트 관리자의 S/MIME 인증서의 유효성을 검사 하는데 사용 되는 가상 인증서 컬렉션을 구성 해야 합니다.
-ms.openlocfilehash: 4b2d85181d95bb1f90d46412cca85c2356d98e10
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 88d12b3c1d5f36c58f278cf304237a569a8b92c4
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22028145"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003037"
 ---
 # <a name="set-up-virtual-certificate-collection-to-validate-smime"></a>S/MIME 유효성을 검사 하려면 가상 인증서 컬렉션 설정
 
@@ -39,7 +41,7 @@ Exchange 2013 SP1에서는 먼저 SST 파일을 확인한 다음 인증서 유�
 ## <a name="more-information"></a>추가 정보
 <a name="sectionSection2"> </a>
 
-[S/MIME 메시지 서명 및 암호화에 대 한](s-mime-for-message-signing-and-encryption.md)
+[메시지 서명 및 암호화를 위한 S/MIME](s-mime-for-message-signing-and-encryption.md)
   
 [Get-smimeconfig](http://technet.microsoft.com/library/4b29fa89-0840-4fe9-8885-019fcef2e02b.aspx)
   

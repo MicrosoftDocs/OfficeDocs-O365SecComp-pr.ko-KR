@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 description: 맬웨어 또는 악의적인 스팸 공격을 여는 고객의 전자 메일 시스템 암호가 손상 된 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 발송 하는 경우이 될 수 있습니다 제 3 자 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소 나열합니다.
-ms.openlocfilehash: 856db53b105379ea3e606e39bf3c2612afa803c3
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 69548488f70944a319a449bfc4ac1cb1bffd7b1c
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026625"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003137"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃 바운드 메시지 용 위험성이 높은 배달 풀
 
@@ -44,7 +46,7 @@ DSN 메시지가 갑자기 증가하는 경우의 가능한 원인은 다음과 
   
 ## <a name="for-more-information"></a>자세한 내용
 
-[아웃 바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
+[아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
   
 [스팸 방지 보호 FAQ](anti-spam-protection-faq.md)
   
