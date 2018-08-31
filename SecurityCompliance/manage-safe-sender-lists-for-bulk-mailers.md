@@ -1,5 +1,5 @@
 ---
-title: 대량 우편물에 대 한 수신 허용-보낸사람 목록 관리
+title: 대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,16 +9,18 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: d48db4a3-9fbe-45e2-bbaa-1017ffdf96f8
 description: '수신 허용-보낸사람 목록 사용 하려는 경우에 Exchange Online Protection (EOP) 하 고 Outlook으로 처리 다르게 처리 알고 있어야 합니다. Outlook 사용자의 수신 허용-보낸사람 목록에 RFC 5322.From 주소를 추가 하는 동안 RFC 5321.MailFrom 주소와 RFC 5322.From 주소를 검사 하 여 수신 허용-보낸사람 및 도메인 고려 하는 서비스입니다. (참고: 수신된 거부 하 고 도메인에 대 한 5321.MailFrom 주소와 5322.From 주소를 검사 하는 서비스입니다.)'
-ms.openlocfilehash: e5d6f8440281d527e7ea1846416b785beda25f1c
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 9442bb39e15b9db9a826472dd6110a8fa14130c6
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026545"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002997"
 ---
-# <a name="manage-safe-sender-lists-for-bulk-mailers"></a>대량 우편물에 대 한 수신 허용-보낸사람 목록 관리
+# <a name="manage-safe-sender-lists-for-bulk-mailers"></a>대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
 
 수신 허용-보낸사람 목록 사용 하려는 경우에 Exchange Online Protection (EOP) 하 고 Outlook으로 처리 다르게 처리 알고 있어야 합니다. Outlook 사용자의 수신 허용-보낸사람 목록에 RFC 5322.From 주소를 추가 하는 동안 RFC 5321.MailFrom 주소와 RFC 5322.From 주소를 검사 하 여 수신 허용-보낸사람 및 도메인 고려 하는 서비스입니다. (참고: 수신된 거부 하 고 도메인에 대 한 5321.MailFrom 주소와 5322.From 주소를 검사 하는 서비스입니다.)
   

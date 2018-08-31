@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 111ab6b0-2dd2-4a87-a928-4931df6b3c4d
 description: Exchange Online 또는 Exchange Online Protection (EOP) 관리자 권한으로 서비스를 통해 이동 하는 전자 메일 메시지를 스팸으로 표시 되지 않습니다을 하도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직에 있는 사람에 대 한 수신 허용 및 수신 차단된 보낸사람 목록을 만드는 것입니다.
-ms.openlocfilehash: fcb43f990750782788dc6f459dd5c7d296146a38
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: cbf886bdcc40044a31b285b6806aecbc95f0f97c
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22028085"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003107"
 ---
 # <a name="safe-sender-and-blocked-sender-lists-in-exchange-online"></a>수신 허용-보낸사람 및 수신된 거부 목록 Exchange Online
 
@@ -38,7 +40,7 @@ Active Directory에서 다를 Exchange Online의 수신 허용 및 차단 된 �
   
 KB 2590466 ("오류가 나타나면"정크 메일 유효성 검사 오류"Outlook Web App에서 Exchange Server 2010에 대 한")에 설명 된 오류가 발생할 수 있습니다. 이 문제를 해결 하려면 "내 연락처에서 보내는 전자 메일 신뢰" 확인란의 선택을 취소 합니다. 전자 메일 주소는 허용 되는 최대 내에서 가져올 기본 연락처 폴더에서를 제한 하는 1, 024 Exchange 온라인 "MaxSafeSenders" 특성에 대해 설정 된 시간 또는 줄이기 이 특성 및 Set-mailbox cmdlet에 대 한 자세한 내용은 다음 항목을 seethe:
   
-[Set-Mailbox](https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/Set-Mailbox?view=exchange-ps)
+[Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Set-Mailbox?view=exchange-ps)
   
 ## <a name="see-also"></a>참고 항목
 

@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 description: '요약: Office 365 사용 하는 방법 보낸 사람이 정책 프레임 워크 (SPF) TXT 레코드 DNS에서 대상 전자 메일 시스템 사용자 지정 도메인에서 보낸 메시지를 신뢰 하도록이 문서에 설명 합니다. 이 Office 365에서 보낸 아웃 바운드 메일에 적용 됩니다. Office 365 내에서 받는 사람에 게 Office 365에서 보낸 메시지는 항상 SPF를 전달 합니다.'
-ms.openlocfilehash: aea7f740a67ce282424efc409d25f3f135546ada
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b42c2528f7a6a272e11d2434cce1e1735649962a
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026465"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003287"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Office 365 스푸핑 방지 하기 위해 보낸 사람이 정책 프레임 워크 (SPF)을 사용 하는 방법
 
@@ -124,7 +126,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 이 문서의 구문 정보를 사용 하 여 사용자 지정 도메인에 대 한 SPF TXT 레코드를 형성 합니다. 다른 이지만 가장 일반적으로 여기에 언급 되지 않은 구문 옵션 옵션을 사용 합니다. 사용자의 레코드를 세운 후에 도메인 등록자에서 레코드를 업데이트 해야 합니다.
   
-Office 365에 대 한 포함 해야하는 도메인에 대 한 정보를 [SPF에 필요한 외부 DNS 레코드를](https://support.office.com/en-us/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US)참조 하십시오. 도메인 등록자에 대 한 SPF (TXT) 레코드를 업데이트 하기 위한 [단계별 지침](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) 을 사용 합니다. 등록 기관과 목록에 없는 경우에 사용자의 레코드를 업데이트 하는 방법을 설명 하는 개별적으로 연락할 해야 합니다. 
+Office 365에 대 한 포함 해야하는 도메인에 대 한 정보를 [SPF에 필요한 외부 DNS 레코드를](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US)참조 하십시오. 도메인 등록자에 대 한 SPF (TXT) 레코드를 업데이트 하기 위한 [단계별 지침](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) 을 사용 합니다. 등록 기관과 목록에 없는 경우에 사용자의 레코드를 업데이트 하는 방법을 설명 하는 개별적으로 연락할 해야 합니다. 
   
 ### <a name="spf-txt-record-syntax-for-office-365"></a>Office 365에 대 한 SPF TXT 레코드 구문
 <a name="SPFSyntaxO365"> </a>
@@ -149,7 +151,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
     
 -  _IP 주소_ 는 SPF TXT 레코드를 추가 하려면 IP 주소입니다. 일반적으로 조직에 대 한 아웃 바운드 메일 서버의 IP 주소입니다. 여러 아웃 바운드 메일 서버를 나열할 수 있습니다. 자세한 내용은 참조 [예제: 여러 아웃 바운드 온-프레미스 메일 서버 및 Office 365에 대 한 SPF TXT 기록](how-office-365-uses-spf-to-prevent-spoofing.md#ExampleSPFMultipleMailServerO365)합니다.
     
--  _도메인_ 이름은 합법적인 보낸사람으로 추가 하려는 도메인입니다. Office 365에 대 한 포함 되어야 하는 도메인 이름 목록에 대 한 [SPF에 필요한 외부 DNS 레코드를](https://support.office.com/en-us/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US)참조 합니다.
+-  _도메인_ 이름은 합법적인 보낸사람으로 추가 하려는 도메인입니다. Office 365에 대 한 포함 되어야 하는 도메인 이름 목록에 대 한 [SPF에 필요한 외부 DNS 레코드를](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US)참조 합니다.
     
 - 적용 규칙은 일반적으로 다음 중 하나입니다.
     

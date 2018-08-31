@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 description: Microsoft의 전자 메일 보안 로드맵 짝이 맞지 않는 제품 간 접근 방식을 포함 됩니다. Exchange Online Protection (EOP) 스팸 방지 및 피싱 방지 필터링 기술이 최신 스팸 방지 및 피싱 방지 도구 및 네트워크 전체에 걸쳐 혁신적인 기술을 사용 하 여 사용자가 제공 하는 Microsoft의 전자 메일 플랫폼에 걸쳐 적용 되 고 있습니다. EOP에 대 한 목표를 검색 하 고 정크 메일, 사기 전자 메일 위협 (피싱) 및 맬웨어에서 사용자를 보호 도움이 되는 포괄적이 고 사용할 수 있는 전자 메일 서비스를 제공 하는 것입니다.
-ms.openlocfilehash: dafcb827a323461936eadcd00c37fabd43005a80
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: d4047e373b7808fe4b30dd23a1e7486ee7eb5a66
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026355"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002877"
 ---
 # <a name="fighting-junk-email-sent-to-office-365"></a>Office 365로 전송 정크 메일에 대처
 

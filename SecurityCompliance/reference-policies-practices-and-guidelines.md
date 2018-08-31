@@ -9,14 +9,16 @@ ms.topic: reference
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 description: Microsoft가 다양 한 정책, 절차를 개발 하 고 악성, 악의적인 또는 원치 않는, 전자 메일에서 사용자에 게 보호를 위해 여러 업계 모범 사례를 적용 합니다.
-ms.openlocfilehash: 436f564f20d579c56197563c7bfac3ef903be750
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: e552128a06ce942383e7c5410508df61331fb874
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026275"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003087"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
   

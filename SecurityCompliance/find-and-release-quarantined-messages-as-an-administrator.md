@@ -9,20 +9,22 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 description: 이 항목 방법에 대해 설명 Exchange Online 및 Exchange Online Protection (EOP) 관리자 수, 릴리스, Exchange 관리 센터 (EAC)에서 격리 된 메시지를 보고 합니다.
-ms.openlocfilehash: 5ebe65bf703087e8ad4bace827d84833eddb038f
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: a8c450471d2fe627346b5bea8db50b91d67ffd3f
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027485"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003277"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
 이 항목 방법에 대해 설명 Exchange Online 및 Exchange Online Protection (EOP) 관리자 수, 릴리스, Exchange 관리 센터 (EAC)에서 격리 된 메시지를 보고 합니다. Office 365 중 하나를 격리로 메시지를 전달 스팸으로 식별 된 대로 또는 일치 하는 전송 규칙 때문입니다. 
   
-보안을 사용 하 여 &amp; EAC 보기 뿐 아니라 이러한 작업 중 하나를 완료 하 고 맬웨어를 포함 하기 때문에 격리로 전송 된 메시지와 함께 작동 하는 대신 준수 센터입니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 격리를](https://support.office.com/en-US/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)참조 하십시오.
+보안을 사용 하 여 &amp; EAC 보기 뿐 아니라 이러한 작업 중 하나를 완료 하 고 맬웨어를 포함 하기 때문에 격리로 전송 된 메시지와 함께 작동 하는 대신 준수 센터입니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 격리를](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)참조 하십시오.
   
 격리 된 메시지는 EAC에서 **격리** 페이지에 나열 됩니다. 기본적으로 메시지를 **받은 날짜** 에서 가장 오래 된 최신 필드에서 정렬 됩니다. 각 메시지에 대 한 **보낸사람**, **주제**및 **만료 날짜** 값도 표시 됩니다. 이러한 필드 중 하나에 해당 머리글을 클릭 하 여 정렬할 수 있습니다. 두번째 시간, 열 머리글을 클릭 하는 경우 정렬 순서를 반대로 바꿉니다. **격리** 페이지에는 최대 500 메시지를 표시 합니다. 
   
@@ -158,7 +160,7 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
     
 4. **릴리스**를 클릭합니다. 
     
-**새로고침**단추를 누르면![새로고침 아이콘](media/ITPro-EAC-RefreshIcon.png) 데이터를 새로 고치고, 메시지를 두번클릭 한 다음 아이콘 것 릴리스된 의도 한 받는 사람에 게 표시 됩니다. 
+**새로고침**단추를 누르면![새로고침 아이콘](media/ITPro-EAC-RefreshIcon.gif) 데이터를 새로 고치고, 메시지를 두번클릭 한 다음 아이콘 것 릴리스된 의도 한 받는 사람에 게 표시 됩니다. 
   
 ### <a name="release-one-or-more-quarantined-messages-to-all-recipients"></a>모든 받는 사람에 게 하나 이상의 격리 된 메시지 릴리스
 <a name="Releaseoneormorequarantinedmessagestoallrecipients"> </a>
@@ -187,7 +189,7 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
 > [!TIP]
 > 보장 [메시지가 스팸으로 표시 되지 않음 되었는지 보장 하는 방법](how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md)의 단계를 수행 하 여 메시지가 스팸으로 표시 되지 않습니다. 
   
-**새로고침**단추를 누르면![새로고침 아이콘](media/ITPro-EAC-RefreshIcon.png) 데이터를 새로 고치고, 메시지를 두번클릭 한 다음 아이콘 것 릴리스된 의도 한 받는 사람에 게 표시 됩니다. 
+**새로고침**단추를 누르면![새로고침 아이콘](media/ITPro-EAC-RefreshIcon.gif) 데이터를 새로 고치고, 메시지를 두번클릭 한 다음 아이콘 것 릴리스된 의도 한 받는 사람에 게 표시 됩니다. 
   
 ## <a name="for-more-information"></a>자세한 내용
 <a name="sectionSection4"> </a>

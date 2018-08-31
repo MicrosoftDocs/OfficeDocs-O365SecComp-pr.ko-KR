@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
 description: '다음 소개 비디오 시리즈에는 Exchange Online Protection (EOP)를 사용 하 여 사서함을 보호 하는데 도움이 됩니다. 이러한 비디오는 Exchange Server 2013, 예: 온-프레미스 사서함을 보호 하는 EOP 독립 실행형 고객에 대 한 및 기본적으로 클라우드 호스팅 사서함 EOP에 의해 보호 되는 Exchange Online 고객을 위한 적용 됩니다.'
-ms.openlocfilehash: 190362750a47ff4efae9eff1b23e1f418d450087
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 42d92b36cbfcf3261e391c8b3d74f44050f2881a
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026715"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23002917"
 ---
 # <a name="videos-for-getting-started-with-protecting-your-email"></a>전자 메일 보호 시작에 대한 비디오
 

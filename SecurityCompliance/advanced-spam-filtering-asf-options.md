@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 description: 고급 스팸 필터링 옵션 메시지의 다양 한 콘텐츠 특성을 검사 하는 기능 관리자에 게 제공 합니다. 메시지에 이러한 특성의 현재 상태 (강화할 스팸으로 식별할 수 있도록 액) 메시지의 스팸 점수 증가 또는 스팸 메시지를 표시 합니다. ASF 옵션 스팸 메시지에서 일반적으로 발견 되는 HTML 태그 및 URL 리디렉션 등의 특정 메시지 속성을 대상으로 합니다.
-ms.openlocfilehash: 4b67c3a9a79c4a51bdebed5ca1a6415cc7bd13ae
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 9a372d002717eacf9470b11b65c4b8f268f48e5a
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026575"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003067"
 ---
 # <a name="advanced-spam-filtering--options"></a>고급 스팸 필터링 옵션
 

@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 description: 원본 위치 유지 일시 삭제 된 사서함에 대 한 비활성 확인 하 고 해당 내용을 보존을 만드는 방법에 알아봅니다. 그런 다음 비활성 사서함을 검색 하려면 Microsoft eDiscovery 도구를 사용할 수 있습니다.
-ms.openlocfilehash: 226929764fe39b99f526301029d4a41e2fa486cc
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: abc0aa625a5483141f25111dc1858a3d989f32d0
+ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027615"
+ms.lasthandoff: 08/21/2018
+ms.locfileid: "23003117"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>In-place Hold 일시 삭제 된 사서함에 Exchange 온라인 상태로
 
