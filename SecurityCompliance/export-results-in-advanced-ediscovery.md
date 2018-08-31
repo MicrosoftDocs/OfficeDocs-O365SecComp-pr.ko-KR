@@ -1,0 +1,207 @@
+---
+title: Office 365 Advanced eDiscovery 결과 내보내기
+ms.author: chrfox
+author: chrfox
+manager: laurawi
+ms.date: 9/14/2017
+ms.audience: Admin
+ms.topic: article
+ms.service: o365-administration
+localization_priority: Normal
+search.appverid:
+- MOE150
+- MET150
+ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
+description: '결과 내보내기 일괄 처리에 대 한 매개 변수를 지정 하는 절차를 포함 하 여 Office 365 고급 eDiscovery에서 내보내기에 대 한 옵션을 정의 하는 방법에 알아봅니다. '
+ms.openlocfilehash: 92ee107ad096393fbccbc9a3dbe81d8e7dd28da9
+ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/27/2018
+ms.locfileid: "22534090"
+---
+# <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 결과 내보내기
+
+> [!NOTE]
+> 고급 eDiscovery 조직에 대 한 고급 준수 추가 기능 또는 e 5 구독은 Office 365 E3 필요합니다. 해당 요금제에 가입한 상태 고급 eDiscovery 시도 하려는 하지 경우에 [Office 365 Enterprise e 5의 평가판 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+  
+이 항목에서는 고급 eDiscovery 내보내기 설치 옵션에 설명 합니다.
+  
+ **이 항목의 내용:**
+  
+- [내보내기 일괄 처리 및 세션 정의](export-results-in-advanced-ediscovery.md#BK_Define)
+    
+- [증분 및 추가 내보내기](export-results-in-advanced-ediscovery.md#BK_IncrementalReports)
+    
+- [일괄 내보내기 매개 변수를 설정](export-results-in-advanced-ediscovery.md#BK_SetUpExport)
+    
+- [보고서 출력 파일 내보내기](export-results-in-advanced-ediscovery.md#BK_ExportOutputFIles)
+    
+## <a name="defining-export-batches-and-sessions"></a>내보내기 일괄 처리 및 세션 정의
+<a name="BK_Define"> </a>
+
+정의 된 매개 변수 집합을 사용 하 여 내보내기 처리를 허용 하는 내보내기 배치 합니다. 고급 eDiscovery를 사용 하면 각 내보내기 사용자 지정 하려면 일괄 처리를 정의할 수 있습니다.
+  
+매개 변수는 일괄 내보내기 당 정의 됩니다. "01 일괄 내보내기" 라는 일괄 처리의 경우 첫번째 일괄 처리에 대 한 기본적으로 만들어집니다. 일괄 처리 이름 및 설명을 편집할 수 있습니다.
+  
+내보내기 세션은 내보내기 일괄 내에서 고급 eDiscovery 내보내기를 실행 하는 세션입니다.
+  
+## <a name="incremental-and-additional-exports"></a>증분 및 추가 내보내기
+<a name="BK_IncrementalReports"> </a>
+
+동일한 내보내기 서식 파일 및 매개 변수를 기준으로 일관 된 결과 확인 하는 내보내기 일괄 처리 내의 여러 내보내기 세션을 실행할 수 있습니다. 일괄 처리 내에서 각 세션에 대해 내보낼 수 새로 사례 데이터를 처리 하 고 각 "늘립니다." 처리에 대 한 분석
+  
+다른 매개 변수 집합을 사용 하 여 내보내기, 하기 위해 먼저 해야 새 일괄 처리를 만듭니다. 새 일괄 처리의 첫번째 세션에는 이러한 파일 가져오고 하나 또는 여러 Imports를 통해 처리 된 여부에 따라 대/소문자 지금까지 처리 하는 파일에 대 한 결과가 생성 됩니다. 위치별, 다음과 비슷한, inclusives 등에 다시 계산 하는 각 일괄 처리 합니다. 세션 일괄 처리에 대해 정의 된 매개 변수를 사용 하 고 각 세션 실행에 대해 위치별, 다음과 비슷한, inclusives 등 다시 계산 하지 않습니다.
+  
+예, 해당 데이터를 분석 하 고 사례를 가져온 가정 합니다. 중복 근처 및 증분 데이터에 대 한 전자 메일 스레딩 결과 검색 하기 위해 이전에 데이터를 내보낼 때 사용한 동일한 일괄 처리의 **만들기 내보내기 세션을** 클릭 합니다. 
+  
+## <a name="set-up-batch-export-parameters"></a>일괄 내보내기 매개 변수를 설정
+<a name="BK_SetUpExport"> </a>
+
+EDiscovery 내보내기 도구는 로컬 컴퓨터에 고급 eDiscovery에서 검색 결과 내보내는 데 사용 됩니다. 데이터 전송 처리량과 인해 물거품이 내보내기 프로세스를 늘리려면 검색 결과 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성할 수 있습니다. 다운로드 속도 높입니다. 하려는 경우 내보내기 매개 변수를 설정 하기 전에 레지스트리 설정을 구성 합니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과 내보낼 때 다운로드 속도 높입니다.](increase-download-speeds-when-exporting-ediscovery-results.md)을 참조 하십시오.
+  
+1. 고급 ediscovery에서 사례를 선택 하 고 **내보내기를** 클릭 \> **설치**합니다.
+    
+  - **일괄 처리를 내보내기** 목록에서 일괄 처리 이름을 선택 하거나 내보내기 일괄 01, (기본 일괄 처리)에 결과 내보냅니다. 
+    
+  - 기존 사례에 추가한 새 파일에 대 한 결과 내보내려면 계속 하 여 현재 일괄 처리 진행 합니다. 일괄 처리의 세션을 만들려면 동일한 일괄 처리 수를 선택 하 고 **만들기 내보내기 세션을** 클릭 하는 증분 방식으로 이전 일괄 처리로 동일한 매개 변수를 내보내려면이 옵션을 사용할 수 있습니다. 
+    
+  - 새 일괄 처리를 내보내려면 **추가**클릭![추가 아이콘](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png)및 **일괄 처리 이름** 에 새 이름을 입력 (하거나 기본값을 그대로) 및 **일괄 처리 설명**에서 설명 합니다. **확인**을 클릭 합니다.
+    
+  - 일괄 처리 이름 또는 설명을 편집 하려면 **일괄 내보내기**의 이름을 선택, **편집** 을 클릭 하 ![편집 아이콘](media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png), 다음 필드를 수정 합니다.
+    
+    > [!NOTE]
+    > 내보내기 일괄 처리에 대 한 세션을 실행 했을 때 한 후에 삭제할 수 없습니다. 또한 첫번째 세션 실행 되 면 일부 매개 변수를 편집할 수 있습니다. 
+  
+  - 중복 내보내기 일괄 처리를 만들려면 **중복 내보내기 일괄 처리**를 선택![중복 내보내기 일괄 처리 아이콘을 만드는](media/3f6d5f59-e842-4946-a493-473528af0119.jpg) 하 고 패널에 이름과 중복 일괄 처리에 대 한 설명을 입력 합니다. 
+    
+  - 내보내기 일괄 처리를 삭제 하려면 **삭제**를 선택![내보내기 일괄 처리 아이콘을 삭제](media/92a9f8e0-d469-48da-addb-69365e7ffb6f.jpg)합니다.
+    
+  - 일괄 처리의 기록을 보려면, **일괄 처리 기록**선택![보기 기록 아이콘](media/a80cc320-d96c-4d91-8884-75fe2cb147e2.jpg)합니다.
+    
+2. **모집단**내보내기 일괄 처리에 대 한 설정을 세부적으로 조정 하려는 경우 **관련성 제한 점수 위에 파일만 포함** 및/또는 **구체화 내보내기 일괄 처리** 를 선택 합니다. 
+    
+3. **관련성 제한 점수 위에 파일만 포함**을 선택 하는 경우 **문제** 를 사용할 수 있습니다. 파일의 관련성 점수를 선택한 문제에 대 한 제한 점수 보다 더 높은 경우에 '검토'에 대 한 필터에 의해 제외 되는 파일이 내보내집니다. 
+  
+**구체화 내보내기 일괄 처리**선택 하는 경우는 **dupe 해제** 하 고 필터 '검토' 하 여 필드 라디오 단추를 사용할 수 있습니다. 선택 하는 경우 **취소 dupe**, 중복 파일에 정의 된 정책에 따라 필터링 됩니다 다음 [수준 (기본값) 경우: 모든 집합이 중복 파일을 사용할 수 있는 전체 대/소문자에서 하나를 제외한 모든 파일 duped 해제 됩니다. 더불어 수준: 모든 집합이 중복 파일을 동일한 더불어 중에서 하나를 제외한 모든 파일 duped 해제 됩니다.] 모든 중복 파일의 레코드를 포함 하는 내보내기 출력 합니다. **'검토용' 하 여 필터** 필드를 선택 하는 경우 **'검토용'** 필드 설정을 입력 하 **는 메타 데이터에서 수정** 선택 합니다. 패키지 콘텐츠의 원본 파일을 포함 하도록 **포함 입력된 파일** 선택 합니다. 이 설정은 내보내기 프로세스의 속도 지울 수 있습니다. 참고 네이티브 파일을 사용 하 든 내보낼 수는 있습니다. 
+    
+4. **메타 데이터**(세션) 당한 번씩 **서식 파일 내보내기** 목록에서 다음 옵션 중에서 선택 합니다. 
+    
+  - **표준**: 데이터 항목, 메타 데이터, 및 속성의 기본 설정 합니다. 데이터 가져오기 고급 eDiscovery에 이미 처리 된 및 내보내기 데이터는 이미 있는 파일을 포함 하는 시스템에 업로드 하는 경우이 옵션을 사용 합니다. 기본적으로 열을 만들고 채워야는 서식 파일을 내보냅니다.
+    
+  - **모든**: 모든 처리 데이터와 분석 및 관련성 점수를 포함 하 여 표준 메타 데이터의 전체 집합입니다. 이 서식 파일은 처리를 수행 하는 고급 eDiscovery 및 파일 데이터를 처음으로 외부 시스템에 업로드 되는 경우에 필요 합니다.
+    
+  - **문제**: **모든 문제** 를 선택 하거나 만든 특정 문제를 선택 합니다. 
+    
+5. **대상**아래에서:
+    
+  - **로컬 컴퓨터에 다운로드**
+    
+  - **사용자 정의 Azure blob로 내보내기**:이 검사 하는 경우에 컨테이너 URL 및 SAS 토큰을 지정할 수 있습니다.
+    
+    > [!NOTE]
+    > 사용자 정의 Azure blob, 고급 eDiscovery; 더이상 데이터를 관리 하는 내보내기 패키지에 저장 된 후 Azure blob 하 여이 기능을 관리 합니다. 내보낸된 파일 Azure blob에 그대로 남습니다 대/소문자를 삭제 하면 것을 의미 합니다. 
+  
+  - **향후 내보내기 세션에 대 한 저장 SAS 토큰**: SAS 토큰 선택 하는 경우 나중에 사용할 수에 대 한 고급 eDiscovery의 내부 데이터베이스에서 암호화 됩니다.
+    
+    > [!NOTE]
+    > 현재 달 후 SAS 토큰 만료 됩니다. 마지막 세션을 취소 하려면 해야 달 이상 후 다운로드 하려고 하는 경우 다시 내보내기 합니다. 
+  
+6. 설정 하려면 **수정** 을 클릭 하는 "검토를 위해 ' 필드 설정 합니다. 
+    
+> ![내보내기 배치에 대 한 검토 필드 seetings에 대 한 설정](media/39451aba-f6fe-4a01-8ed0-0be6a6ce889a.png)
+  
+    In **For review field settings** panel, in **Select scenario**, select the scenario and scope of the review. The settings are displayed based on your selection.
+    
+    **Review all** (default): All emails, attachments, and documents are selected by default. 
+    
+    **Review all unique content in a set**: Inclusives and unique inclusive copies, unique attachments in email set level, representative from every set of exact duplicates.
+    
+    **Review all unique content in a set - no inclusive copies**: Inclusives, unique attachments in email set level, representative from every set of exact duplicates.
+    
+    **Review all unique content and related family files**: Inclusives, unique attachments in email set level, representative from every set of exact duplicates, expand to include family files.
+    
+    **Custom** (allows you to define the options in the dialog): The default is to keep current selections and enable all dialog options, to allow their selection. 
+    
+    If you select custom, you can then customize the settings for emails, documents, attachments and miscellaneous.
+    
+> **전자 메일** 에서 내보낼 전자 메일을 선택 합니다. 
+    
+    **All emails**: (default) All emails are selected.
+    
+    **Inclusives**: An inclusive email is a last email of a thread, and it contains all the other emails from the thread.
+    
+    **Inclusives and unique inclusive copies**: Inclusive copies and inclusives with the same subject, body and attachments; unique inclusive copies are unique copies of these emails .
+    
+> **문서** 에서 내보낼 문서를 선택 합니다. 
+    
+    **All documents**: (default) All documents are selected.
+    
+    **Pivots**: A file chosen as representative of near-duplicates set, which is typically used as the baseline when reviewing the set.
+    
+    **Representative from every set of exact duplicates**: Unique near-duplicate files (including the pivot).
+    
+> **첨부 파일** 에 내보낼 첨부 파일을 선택 
+    
+    **All attachments**: (default) All attachments are selected.
+    
+    **Unique attachment in case level**: Unique attachment files within the specified case.
+    
+    **Unique attachment in email set level**: Unique attachment files within the specified email case.
+    
+> **Micellaneous** 에서 **문서로 첨부 파일 처리**, **전자 메일 문서도 취급**, 또는 **가족 파일을 포함 하도록 확장**하도록 선택할 수 있습니다. 검토를 위해 플래그가 지정 되는 각 파일에 대 한 **가족 파일을 포함 하도록 확장**선택 하는 경우에 동일한 제품군의 모든 파일 표시 됩니다.
+    
+    Choose **Save** to save the settings. 
+    
+7. 내보내기 매개 변수를 지정한 후 내보내기 일괄 처리를 시작 하려면 **Create 세션 내보내기**를 클릭 합니다.
+    
+    내보내기 작업 중 상태 **작업 상태**에 표시 됩니다. 결과는 **내보내기 요약**에 표시 됩니다.
+    
+8. **파일 다운로드** 창에서 내보내기 키에 복사를 **클립보드에 복사** 클릭 합니다. 
+    
+    ![파일 다운로드](media/99cf2c13-4954-479f-9741-80d7458c1a15.png)
+  
+9. **닫기**를 클릭합니다. 
+    
+    EDiscovery 내보내기 도구 시작 됩니다.
+    
+    ![eDiscovery 내보내기](media/705756ca-ee97-4d24-b70f-8b23513f6d11.gif)
+  
+10. **EDiscovery 내보내기 도구**:
+    
+1. **원본에 연결 하는데 사용할 공유 액세스 서명 붙여**에서 내보내기 키를 7 단계에서 해당 youcopied를 클립보드에 붙여넣습니다.
+    
+2. 로컬 컴퓨터에 다운로드 한 내보내기 파일을 저장 하기 위해 대상 위치를 선택 하려면 **찾아보기** 를 클릭 합니다. 
+    
+11. **시작**을 클릭 합니다. 내보내기 파일은 로컬 컴퓨터에 다운로드 됩니다. 4 단계에서 **사용자 정의 Azure blob로 내보내기** 를 선택한 경우에 적절 Blob 저장소 URL 대상에 게 세션이 내보내집니다. 
+    
+내보내기 보고서의 필드에 대 한 전체 설명을, [내보내기 보고서 필드를](export-report-fields-in-advanced-ediscovery.md)참조 하십시오.
+  
+## <a name="export-report-output-files"></a>보고서 출력 파일 내보내기
+<a name="BK_ExportOutputFIles"> </a>
+
+다음 표에서 내보내기 일괄 처리를 실행할 때 생성 되는 출력 파일을 나열 합니다.
+  
+|**파일 이름**|**파일 형식**|**설명**|
+|:-----|:-----|:-----|
+|내보내기 요약  <br/> |csv  <br/> |EDiscovery 내보내기 도구에서 생성 된 로그 파일입니다.  <br/> |
+|추적  <br/> |txt  <br/> |EDiscovery 내보내기 도구에서 생성 된 로그 파일입니다.  <br/> |
+|추출 된 텍스트 파일  <br/> |파일 폴더  <br/> |내보낸된 파일의 압축 푼된 텍스트 파일이 있는 폴더입니다.  <br/> |
+|입력 또는 네이티브 파일  <br/> |파일 폴더  <br/> |내보낸된 파일의 기본 및 입력 파일이 있는 폴더입니다.  <br/> |
+|목록 내보내기  <br/> |xlsx  <br/> |Xlsx 형식에서 메타 데이터를 내보낸된 파일입니다. 파일의 필드를 내보내려면 서식 파일 사용자 선택에 따라 다릅니다. 필요한 경우 여러 파일을 만들, 각 100-150 K 행을 포함 합니다. 특정 값을 Excel 셀 포함 될 수 있는 것 보다 더 많은 문자를 포함 하는 경우 (현재 제한 길이 32, 767 자)를 다음 값을 허용 하는 최대 길이를 잘립니다. 값은 조정이 적용 하는 경우 셀의 배경색은 사용자에 게이 나타내기 위해 빨간색입니다. " 대규모 배포에는 전자 메일 전송 된 경우 전자 메일 참가자 "은 길이 제한을 초과 하는 필드의 예입니다. 출력 필드에 대 한 자세한 내용은 [보고서 필드 내보내기](export-report-fields-in-advanced-ediscovery.md) 를 참조 하십시오.<br/> |
+|파일 로드  <br/> |csv  <br/> |다른 응용 프로그램으로 로드에 대 한 csv 형식에서 메타 데이터를 내보낸된 파일입니다. 파일의 필드를 내보내려면 서식 파일 사용자 선택에 따라 다릅니다.  <br/> |
+|성공 표시기  <br/> |txt  <br/> |타사의 Azure blob로 내보낼 때에 만들어집니다. 내보내기 성공 완전히, 파일이 만들어집니다. 오류를 발생 하는 경우 또는 부분 성공 파일이 만들어지지 않습니다. 파일에서 서로 다른 내보내기 일괄 처리/세션 상태를 확인 하는 자동화 된 추적 허용의 루트 폴더에 만들어집니다. 이 빈 파일입니다. 해당 이름은: TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime.txt 합니다.  <br/> |
+   
+## <a name="see-also"></a>참고 항목
+<a name="BK_ExportOutputFIles"> </a>
+
+[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+  
+[일괄 처리 기록 보기 및 이전 결과 내보내기](view-batch-history-and-export-past-results.md)
+  
+[Office 365 Advanced eDiscovery에 대한 빠른 설정](quick-setup-for-advanced-ediscovery.md)
+
+[내보내기 보고서 필드](export-report-fields-in-advanced-ediscovery.md)
+  
+[Office 365에서 eDiscovery 검색 결과 내보낼 때 다운로드 속도를 높입니다 합니다.](increase-download-speeds-when-exporting-ediscovery-results.md)
+

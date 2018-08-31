@@ -1,0 +1,219 @@
+---
+title: Office 365 클라우드 응용 프로그램 보안의 새로운 기능
+ms.author: deniseb
+author: denisebmsft
+manager: laurawi
+ms.date: 8/6/2018
+ms.audience: Admin
+ms.topic: reference
+ms.service: o365-administration
+localization_priority: Normal
+search.appverid:
+- MET150
+- MOE150
+ms.assetid: d674763c-a4c9-4604-8623-68c1836d27f3
+description: Office 365 클라우드 응용 프로그램 보안의 새로운 기능 보기
+ms.openlocfilehash: 484d46e9fef56e76e2f27d27b38a261c4ad19cc1
+ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/27/2018
+ms.locfileid: "22533436"
+---
+# <a name="what-is-new-in-office-365-cloud-app-security"></a>Office 365 클라우드 응용 프로그램 보안의 새로운 기능
+
+Office 365 클라우드 응용 프로그램 (이전의 Office 365 고급 보안 관리)을 보호 하는 보안 [Microsoft 클라우드 응용 프로그램 보안](https://aka.ms/whatiscas)연결 된 값의 업데이트 및 새 기능에 대 한 빠른 개요를 얻으려면이 문서를 읽어보십시오.
+  
+이 문서는 추가 되거나 개선 된 기능으로, 자주 업데이트 됩니다. Office 365 클라우드 응용 프로그램 보안 업데이트가 릴리스된 Microsoft 클라우드 응용 프로그램 보안 업데이트 한 후 약 2 주 및 Office 365 클라우드 응용 프로그램 보안에 일부 Microsoft 클라우드 응용 프로그램 보안 업데이트를 적용 합니다. 또한 새로운 기능이 Office 365 클라우드 응용 프로그램 보안 환경에 표시 되려면 해당 출시 날짜 후 1 주일 이상 걸릴 수 있습니다.
+  
+## <a name="office-365-cloud-app-security-release-128"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 128
+
+ *릴리스 2018 년 8 월 5,* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 128와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-128)릴리스**: 
+  
+- **여러 응용 프로그램 간에 app 사용 권한** 앱 사용 권한 부여 된 앱에 대 한 금지 또는 단일 작업에서 여러 앱 승인 이제 있습니다. 예는 조직의 사용자에에서 의해 권한이 부여 된 금지, 하려는 모든 앱을 선택 하 고 부여 된 사용자의 모든 동의 해지 하려면 ban 앱을 클릭 한 다음 모든 앱을 검토할 수 및 해당 앱에 대 한 권한을 부여 하는 사용자를 선택 하면 나타나지 않습니다. 
+    
+- **새 제안 된 쿼리: GDPR 준비** GDPR 준비 하는 검색 된 응용 프로그램을 식별할 수 있도록 하는 새 제안 된 쿼리 방법이 있습니다. GDPR 보안 관리자에 대 한 중요 한 과제로 목소리가 최근에 했습니다. 이 쿼리를 사용 하면 쉽게 GDPR 준비 하는 응용 프로그램을 식별 하 고 되지 않은 응용 프로그램의 위험을 평가 하 여 위협을 완화할 수 있습니다. 
+    
+## <a name="office-365-cloud-app-security-release-126"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 126
+
+ *2018 년 7 월 7, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 126와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-126)릴리스**: 
+  
+- **의심 스러운 활동에 대 한 자동 업데이트 관리** 이제 예외 탐지 정책에 의해 트리거되도록 의심 스러운 세션에 대 한 자동 업데이트 관리 작업을 설정할 수 있습니다. 이 향상 된이 기능을 사용 하면 메신저로 위반 발생 하는 경우 알림을 받을 수 및 관리 작업을 자동으로 적용와 같은 사용자 일시 중단 수 있습니다. 자세한 내용은 [Office 365 클라우드 응용 프로그램 보안에서 예외 탐지 정책](anomaly-detection-policies-in-ocas.md)을 참조 하십시오.
+    
+- **위험한 OAuth 앱의 자동 검색** 사용자 환경에 연결 된 OAuth 앱의 기존 조사, 외에도 Office 365 클라우드 앱 보안 지금 설정할 수 있습니다 자동화 된 알림 OAuth 앱 특정 조건을 만족 하는 시기를 알 수 있습니다. 예 있습니다 수 자동으로 때 알림을 받을 수 있는 앱 높은 권한 수준이 필요 하 고 50 개 이상의 사용자에 의해 권한이 부여 된 합니다. 자세한 내용은 [Office 365 클라우드 응용 프로그램 보안을 사용 하 여 앱 사용 권한 관리](manage-app-permissions-in-ocas.md)를 참조 하십시오.
+    
+- **관리 되는 보안 서비스 공급자 관리 (MSSP) 지원** 이제 office 365 클라우드 앱 보안 MSSPs, 하는 보다 편리 하 게 관리를 제공 하 고 관리자를 사용 하 여 Office 365 클라우드 응용 프로그램 보안에서 현재 사용할 수 있는 역할의 외부 파트너를 구성할 수 있습니다. 또한 둘 이상의 테 넌 트에 대 한 액세스 권한이 있는 관리자는 테 넌 트 간에 쉽게 피벗 이제 수 있습니다. 
+    
+## <a name="office-365-cloud-app-security-release-124"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 124
+
+ *2018 년 6 월 10, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 124와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-124)릴리스**: 
+  
+- **포함 된 배포** 엔터프라이즈 조직 수 그룹 구성원 자격을 기준으로 사용자를 모니터링 하 고 보호를 세부적으로 결정 됩니다. 이 기능을 사용 하면 사용자 활동을 담당 보호 된 응용 프로그램 중 하나에 대 한 표시 되지 것입니다를 선택할 수 있습니다. 범위가 지정 된 모니터링 하는 것은 규정 준수 및 라이선스에 특히 유용 합니다. 일부 준수 규정 지역 규정으로 인해 일부 국가에서 사용자를 모니터링 하지 않는 경우 필요할. 및 적은 사용자가 Office 365 클라우드 응용 프로그램 보안 라이선스의 범위 내에서 위치를 모니터링할 수 있습니다. 
+    
+- **새 전자 메일 서버** Office 365 클라우드 응용 프로그램 보안에 대 한 전자 메일 서버 변경 하 고 다른 IP 주소 범위를 사용 합니다. 알림을 받을 수 있는지를 확인, 프로그램 스팸 방지 허용 목록에 새 IP 주소를 추가 합니다. 자신의 알림을 사용자 지정 하는 조직에서는 클라우드 응용 프로그램 보안을 사용 하면이 MailChimp, 타사 전자 메일 서비스를 사용 하 여 있습니다. 메일 서버 IP 주소 및 MailChimp 작업을 사용 하도록 설정 하는 것에 대 한 지침의 목록에 대 한 [네트워크 요구 사항 (Microsoft 클라우드 응용 프로그램 보안)](https://docs.microsoft.com/cloud-app-security/network-requirements) 및 [메일 설정 (Microsoft 클라우드 응용 프로그램 보안)를](https://docs.microsoft.com/cloud-app-security/mail-settings)참조 합니다.
+    
+## <a name="office-365-cloud-app-security-release-121"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 121
+
+ *2018 5 월 6, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 121와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-121)릴리스**: 
+  
+- **예외 감지 정책 개선**합니다. Office 365 클라우드 앱 보안 예외 탐지 정책 두 새로운 유형의 점진적으로 제공 되는 위협 감지를 포함 하도록 기능이 향상 되었습니다. 
+    
+  - **Ransomware 활동.** Ransomware 검색 기능이 복잡 한 ransomware 공격에 대 한 더 포괄적인 범위를 제공 하려면 이상 탐지를 사용 하 여 확장 됩니다. 
+    
+  - **사용자 활동을 종료 합니다.** 사용자 활동 사용 하면이 했을 수 있습니다 회사 응용 프로그램에서 프로 비전이 해제 하지만 사용자는 여전히 될 수 있습니다 종료 된 사용자의 계정을 모니터링할 수 있는 특정 회사 리소스에 대 한 액세스를 종료 합니다. 
+    
+    [예외 탐지 정책](anomaly-detection-policies-in-ocas.md)에 Office 365 클라우드 응용 프로그램 보안 포털에서 보려는 **컨트롤** 선택 \> **정책**입니다.
+    
+## <a name="office-365-cloud-app-security-release-120"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 120
+
+ *2018 년 4 월 22, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 120와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-120)릴리스**: 
+  
+- **사용자 작업으로 내부 응용 프로그램**입니다. Office 365 및 Azure Active Directory (Azure AD)에 대 한 우리는 이제 점진적으로 롤아웃는 Office 365 및 Azure AD 응용 프로그램 (내부 및 외부)에 의해 수행 하는 사용자 계정 활동으로 내부 응용 프로그램을 검색 하는 기능입니다. 이 옵션을 사용 하면 응용 프로그램 예기치 않은 및 허가 되지 않은 작업을 수행 하는 경우이 경고 하는 정책을 만들 수 있습니다. 
+    
+- **앱 사용 권한 목록에서 필드를 더 내보냅니다**. Csv, publisher, 예: 필드를 추가 하는 응용 프로그램 사용 권한 목록을 내보낼 때 사용 권한 수준 및 커뮤니티 사용 현황은 규정 준수 및 조사 과정을 지원 하기 위해 포함 됩니다. 
+    
+## <a name="office-365-cloud-app-security-release-119"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 119
+
+ *2018 년 4 월 1, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 119와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-119)릴리스**: 
+  
+- **검색 클라우드 개선**합니다. 클라우드 검색 보다 쉽게 Office 365에 대 한 사용 현황 세부 정보 보기 및 다른 응용 프로그램을 상위 사용자 및 IP 주소에 대 한 자세한 정보를 제공 합니다. 자세한 내용은 [Office 365 클라우드 응용 프로그램 보안에서 검토 app 검색 결과](review-app-discovery-findings-in-ocas.md)참조 합니다.
+    
+    ![클라우드 검색 대시보드는 업데이트 된](media/12712681-c0b3-4cb3-b7fd-2cf2ad4e825f.png)
+  
+## <a name="office-365-cloud-app-security-release-118"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 118
+
+ *2018 년 3 월 18, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 118와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-118)릴리스**: 
+  
+- **Barracuda를 지원**합니다. 이제 클라우드 검색 Barracuda F 시리즈 방화벽 및 Barracuda F-시리즈 방화벽 웹 로그 스트리밍를 지원합니다. 
+    
+## <a name="office-365-cloud-app-security-release-117"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 117
+
+ *2018 년 3 월 6, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 117와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-117)릴리스**: 
+  
+- **i 필터를 지원**합니다. 이제 클라우드 검색 i 필터를 지원합니다. 
+    
+## <a name="office-365-cloud-app-security-release-116"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 116
+
+ *2018 년 2 월 18, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 116와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-116)릴리스**: 
+  
+- **예외 감지 정책 향상 된 기능**입니다. 이상 탐지 정책에서 Office 365 클라우드 앱 보안 불가능 한 출장, 의심 스러운 IP 주소에서 활동을 포함 하 여 새 시나리오 기반 감지 된 향상 된 및 여러 실패 한 로그인 시도 합니다. 새 정책은 자동으로 활성화 되 하 여 클라우드 환경에서의 기본 위협 감지를 제공 합니다. 또한 새 정책 조사 프로세스의 속도 및 진행 중인 위협 요소를 포함할 수 있도록 하는 Office 365 클라우드 응용 프로그램 보안 검색 엔진에서 더 많은 데이터를 표시 합니다. 자세한 내용은 [순간 동작 분석 및 이상 탐지](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy), Microsoft 클라우드 응용 프로그램 보안 문서를 참조 합니다.
+    
+- **검사점 형식에 대 한 로그 파서 지원**합니다. 이제 클라우드 검색 로그 파서를 두 추가 검사점 형식 지원: XML, and KPC 합니다. 
+    
+## <a name="office-365-cloud-app-security-release-114"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 114
+
+ *2018 년 1 월 21, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 114와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-114)릴리스**: 
+  
+- **서비스 상태**입니다. **도움말** 을 이동 하 여 Office 365 클라우드 응용 프로그램 보안 서비스의 현재 상태를 확인 이제 \> **시스템 상태**입니다. 
+    
+    ![도움말을 클릭 \> 시스템 상태를 확인 하려면 시스템 상태](media/2b496dac-ed9d-4480-83b6-85f9510d3aea.png)
+  
+- **활동 로그에 대 한 사용자 지정 쿼리**수 있습니다. 버전 114 부터는 만들고 작업 로그에 사용자 지정 쿼리를 저장 하는 기능은 롤아웃 점진적으로 합니다. 사용자 지정 쿼리를 사용 하 여 자세히 알아보기 조사를 위해 다시 사용할 수 있는 필터 서식 파일을 만들 수 있습니다. 또한 쿼리 된 제안 된 사용자의 작업을 필터링 하려면 서식 파일의 기본 조사를 제공 하기 위해 추가 하 고 앱을 검색 합니다. 제안 된 쿼리 약한 암호화 및 보안 위험 위험 가장 활동, 관리자 작업, 위험한 비준수 클라우드 저장소 앱, 엔터프라이즈 응용 프로그램을 식별 하는 사용자 지정 필터를 포함 합니다. 제안 된 쿼리를 사용 하 여 시작 지점으로, 필요에 따라이 수정 하 고 새 쿼리를로 저장 합니다. 
+    
+## <a name="office-365-cloud-app-security-release-113"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 113
+
+ *2018 년 1 월 8, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 113와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-113)릴리스**: 
+  
+- **일반 형식에 대 한 로그 파서 지원**합니다. 클라우드 검색 로그 파서는 이제 다음과 같은 일반 형식 지원: LEEF, CEF, 및 W3C 합니다. 
+    
+## <a name="office-365-cloud-app-security-release-112"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 112
+
+ *2017 년 12 월 24, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 112와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-112)릴리스**: 
+  
+- **필요한 정보를 관련 용지함**합니다. 이제 활동 로그 사용자 이름 또는 IP 주소를 클릭 하 여 필요한 정보를 관련 용지함을 액세스할 수 있습니다. 
+    
+    ![사용자 이름 또는 활동 로그에 필요한 정보를 관련 용지함을 참조 하려면 IP 주소를 클릭 합니다.](media/8e32b3fa-8c0c-4c5e-b248-fe7d7e1b516d.png)
+  
+- **클릭 하 여 더 많은 활동을 볼 수 있는 기능**입니다. 관련 견해 용지함에서 선택한 활동의 48 시간 내에 수행 하는 모든 작업을 보려면 시계 아이콘을 클릭 수 있습니다. 
+    
+    ![내리도록 용지함에서 선택한 작업의 48 시간 내에 수행할 작업을 표시 하려면 시계 아이콘을 클릭 수 있습니다.](media/c6c96aa0-98e5-4205-8873-45f8d6fd0843.png)
+  
+- **Juniper SRX에 대 한 로그 파서 개선**합니다. Juniper SRX에 대 한 클라우드 검색 로그 파서를 개선 되었습니다. 
+    
+## <a name="office-365-cloud-app-security-release-111"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 111
+
+ *2017 년 12 월 10, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 111와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-111)릴리스**: 
+  
+- **시간 필터 개선**합니다. 시간 필터를 사용 하기 쉽게 됩니다. 활동 로그, 정책, 경고, 고급 보기를 사용 하 여 같은 보기에서 시간 필터를 액세스 하려면 필터 목록에서 **날짜** 를 선택 합니다. 다음 옵션을 선택와 같은 이전, 이후 또는 사이 있는 시간 필터를 적용 합니다. 
+    
+    ![날짜 필터를 사용 하 여 이전, 이후 또는 날짜 사이 정보를 볼 수 있습니다.](media/9dbb2a10-f68f-413b-8b4e-88911152cb92.png)
+  
+## <a name="office-365-cloud-app-security-release-110"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 110
+
+ *2017 년 11 월 26, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 110와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-110)릴리스**: 
+  
+- **SIEM 서버 통합 이제 일반적으로 사용할 수**있습니다. Office 365 클라우드 응용 프로그램 보안에 SIEM 서버를 연결 합니다. 이제으로 보낼 수 있습니다 알림 및 작업 자동으로 선택 하 여 SIEM 서버에 SIEM 에이전트를 구성 합니다. [Office 365 클라우드 응용 프로그램 보안 사용 하 여 SIEM 서버 통합](integrate-your-siem-server-with-office-365-cas.md)을 참조 하십시오.
+    
+- **도움말 내용에 쉽게 액세스할 수**있습니다. 새 물음표를 사용 하 여 오른쪽 위 모서리에서 Office 365 클라우드 응용 프로그램 보안 포털의 페이지 내에서 도움말 콘텐츠를 액세스할 수 있습니다. 각 링크는 상황에 맞는, 라인으로 전환 하면 필요한 정보를, 없이 이동 중일 페이지를 기초로 합니다. 
+    
+- **사용자 의견 보내기**. 웃는 얼굴을 사용 하 여 오른쪽 위 모서리에서 Office 365 클라우드 응용 프로그램 보안 포털의 모든 페이지에서 사용자 의견을 지금 보낼 수 있습니다. 이 옵션을 사용 하면 버그를 보고 하 고 새 기능을 요청 하려면 Office 365 클라우드 응용 프로그램 보안 팀과 직접 사용자의 경험을 공유할 수 있습니다. 
+    
+## <a name="office-365-cloud-app-security-release-102"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 102
+
+ *2017 년 8 월 13, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 102와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-102)릴리스**: 
+  
+- **새 사용자 조사 작업** 드릴 다운 (영문)에 대 한 추가 수준의 사용 사용자 조사를 합니다. 조사 페이지는 작업, 사용자 또는 계정 위에 마우스를 가져가면 하 고를 필터로 적용 및 여기에서 관련된 작업 또는 이벤트를 볼 수 있습니다. 
+    
+## <a name="office-365-cloud-app-security-release-100"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 100
+
+ *2017 년 7 월 17, 릴리스* 
+  
+ ** [Microsoft 클라우드 앱 보안 릴리스 100와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-100)릴리스**: 
+  
+- **보안 확장** 은 Office 365 클라우드 응용 프로그램을 비롯 한 보안 토큰에 API 및 SIEM 에이전트에 대 한 모든 보안 확장 중앙에서 관리할 수 있는 새 대시보드입니다. 보안 확장 대시보드를 보려면 다음이 단계를 따릅니다. 
+    
+1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+    
+2. **경고** 로 이동 \> **관리 고급 알림**입니다.
+    
+3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.
+    
+    ![보안에서 &amp; 준수 센터 알림 선택 \> 알림 고급 관리 \> 고급 보안 관리로 이동](media/9792b121-9cd4-4faa-a6e0-81cfab4bf2f2.png)
+  
+4. **설정** 을 선택 \> **보안 확장**합니다.
+    
+    ![ASM 포털에서 설정을 선택 \> 보안 확장](media/f03d47a1-91ff-41b9-9baf-b514cffe41a8.png)
+  
+- **향상 된 구문 분석**합니다. 메커니즘을 구문 분석 하는 클라우드 검색 로그에서 개선 되었습니다. 내부 오류는 크게 발생할 가능성이 적습니다. 
+    
+- **예상 로그 형식**입니다. 이제 클라우드 검색 로그에 대 한 예상된 로그 형식 모두 Syslog 및 FTP 형식에 대 한 예제를 제공 합니다. 
+    
+## <a name="related-topics"></a>관련 항목
+
+[Office 365 클라우드 응용 프로그램 보안 도움말 콘텐츠](office-365-cas-help.md)
+  
+[Office 365 Cloud App Security 적용한 후 사용률 활동](utilization-activities-for-ocas.md)
+  
+[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
+  
+

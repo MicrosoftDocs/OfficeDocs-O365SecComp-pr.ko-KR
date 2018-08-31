@@ -1,0 +1,74 @@
+---
+title: Skype, OneDrive, SharePoint 및 Exchange에 대 한 office 365 암호화
+ms.author: robmazz
+author: robmazz
+manager: laurawi
+ms.date: 8/21/2018
+audience: ITPro
+ms.topic: article
+ms.service: Office 365 Administration
+localization_priority: None
+search.appverid:
+- MET150
+ms.collection: Strat_O365_Enterprise
+description: '요약: Skype, OneDrive, SharePoint 및 Exchange Online에 대 한 암호화의 설명입니다.'
+ms.openlocfilehash: 5b839b8d290306f2334d3ca3278d0d5dac20a56f
+ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 08/27/2018
+ms.locfileid: "22533510"
+---
+# <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스, SharePoint Online, 및 Exchange Online에 대 한 개발자를 위한 비즈니스에 대 한 Skype, OneDrive office 365 암호화
+
+Office 365는 여러 계층의 광범위 한 보호 기능을 제공 하는 보안 수준이 높은 환경: 실제 데이터 센터 보안 "," 네트워크 보안 "," 액세스 보안 "," 응용 프로그램 보안 "및" 데이터 보안 합니다.
+
+## <a name="skype-for-business"></a>비즈니스용 Skype
+Skype 비즈니스 고객 데이터에 대 한 파일 또는 모임 참가자가 업로드 되는 프레젠테이션 형식의 나머지 부분에 저장 될 수 있습니다. 웹 회의 서버 AES를 사용 하 여 256 비트 키를 사용 하는 고객 데이터를 암호화 합니다. 암호화 된 고객 데이터 파일 공유에 저장 됩니다. 고객 데이터의 각 요소가 서로 다른 임의로 생성 된 256 비트 키를 사용 하 여 암호화 됩니다. 회의에 참가 된 고객 데이터를 공유 하는 경우 HTTPS 통해 암호화 된 고객 데이터를 다운로드 하는 회의 클라이언트는 웹 회의 서버에 지시 합니다. 고객 데이터를 해독할 수 있도록 클라이언트에 해당 하는 키를 보냅니다. 웹 회의 서버는 클라이언트를 회의 고객 데이터에 대 한 액세스를 허용 하기 전에 회의 클라이언트를 인증 합니다. 웹 회의 참가 하는 경우 각 회의 클라이언트 내에서 실행 되는 프런트엔드 서버 TLS를 통한 먼저 회의 포커스가 구성 요소와 SIP 대화 상자를 설정 합니다. 웹 회의 서버에 의해 생성 되는 인증 쿠키는 회의 클라이언트에 회의 포커스가 전달 합니다. 회의 클라이언트는 다음 서버에 의해 인증 될 인증 쿠키를 발표 하는 웹 회의 서버에 연결 합니다.
+
+## <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive
+단일 테 넌 트에만 국한 항상 수 있는 고유 파일 마다 키를 기준으로 SharePoint Online에서 모든 고객 파일 보호 됩니다. 키 및 SharePoint Online 서비스에 의해 관리 되는 만들거나 만들고 고객에 의해 관리 되는 고객 키를 사용할 때 합니다. 파일 업로드 된 암호화 Azure 저장소로 전송 되기 전에 업로드 요청 컨텍스트 내에서 SharePoint Online에서 수행 됩니다. 파일을 다운로드할 때 SharePoint Online 검색 암호화 된 고객 Azure 저장소에서 데이터를 기반으로 고유한 문서 식별자 및 사용자에 게 보내기 전에 고객 데이터의 암호를 해독 합니다. Azure 저장소에 암호를 해독 합니다 또는를 식별 하거나 고객 데이터를 이해 하는 기능이 없습니다. 모든 암호화 및 암호 해독은 동일한 시스템 테 넌 트 격리를 적용 하는 Azure Active Directory 및 SharePoint Online에서 발생 합니다.
+
+Office 365에는 여러 작업에서 SharePoint Online, SharePoint Online 및 비즈니스용 OneDrive, 해당 저장소에 대 한 SharePoint Online을 사용 하는 모든 파일을 저장 하는 Microsoft 팀을 포함 하 여 데이터를 저장 합니다. SharePoint Online에 저장 된 모든 고객 데이터 (사용 하 여 하나 이상의 AES 256 비트 키) 암호화 이며 다음과 같은 데이터 센터에 분산 합니다. (이 암호화 프로세스의 모든 단계는 FIPS 140-2 수준 2 유효성을 검사입니다. FIPS 140-2 준수 하는 방법에 대 한 자세한 내용은 [FIPS 140-2 준수](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105))참조 합니다.)
+- 각 파일은 파일 크기에 따라 하나 이상의 청크도 분할 됩니다. 각 청크는 자신의 고유한 AES 256 비트 키를 사용 하 여 암호화 됩니다.
+- 이 업데이트는 동일한 방식으로 처리 하는 파일을 업데이트 될 때: 변경에서 하나 이상의 청크를 분할 하 고 각 청크를 별도 고유 키를 사용 하 여 암호화 됩니다.
+- -파일, 파일 및 업데이트 델타의 부분-이러한 청크 여러 Azure 저장소 계정에 분산 임의로 Azure 저장소에서 blob로 저장 됩니다. 
+- 이러한 청크 고객 데이터에 대 한 암호화 키 집합이 자체 암호화 됩니다.
+   - 사용 하 고 blob가 암호화 키 SharePoint Online 콘텐츠 데이터베이스에 저장 됩니다.
+   - 콘텐츠 데이터베이스는 데이터베이스 액세스 제어 및 보관 암호화로 보호 됩니다. 암호화는 [Azure SQL 데이터베이스](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)에 [투명 한 데이터 암호화](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption-tde) (TDE)를 사용 하 여 수행 됩니다. (Azure SQL 데이터베이스에는 관계형 데이터, 공간, JSON 및 XML과 같은 구조를 지 원하는 Microsoft Azure의 범용 관계형 데이터베이스 서비스입니다.) SharePoint Online에 테 넌 트 수준이 아니라 서비스 수준에서 이러한 암호는. (마스터 키 이라고 함) 이러한 비밀 키 저장소 라는 별도 보안 저장소에 저장 됩니다. TDE 활성 데이터베이스 및 데이터베이스 백업 및 트랜잭션 로그의 나머지 부분에서 보안을 제공합니다. 
+   - 선택적 키를 제공 하는 고객, Azure 키 볼트에 고객 키가 저장 하 고 서비스는 키를 사용 하 여 다음 파일 수준 키를 암호화 하는데 사용 되는 사이트 키를 암호화 하는데 사용 되는 테 넌 트 키를 암호화 하 합니다. 기본적으로, 고객 키를 제공 하는 경우 새 키 계층 구조 도입 됩니다.
+- 파일을 다시 조합에 사용 되는 맵은 해당 암호를 해독 하는 데 필요한 마스터 키와 별도로 암호화 키와 함께 콘텐츠 데이터베이스에 저장 됩니다.
+- 각 Azure 저장소 계정에 대 한 액세스 유형 (읽기, 쓰기, 열거 및 삭제) 당는 자신의 고유한 자격 증명입니다. 각 자격 증명 집합 보안 키 저장소에 보관 하 고 정기적으로 새로 고쳐집니다. 위에서 설명한 세가지 유형이 있습니다 다른 저장소 각각 고유한 함수를 사용 합니다.
+- 고객 데이터 Azure 저장소에서 암호화 된 blob로 저장 됩니다. 키 고객 데이터의 각 청크를 암호화 하 고 콘텐츠 데이터베이스에 별도로 저장 됩니다. 고객 데이터 자체 해독 방법에 대 한 없음 표시등을 포함 합니다.
+- 콘텐츠 데이터베이스는 SQL Server 데이터베이스입니다. 찾아 해당 blob를 암호화 하는 데 필요한 키를 비롯 하 여 Azure 저장소에 보관 하 고 고객 데이터 blob가 다시 조립 하는 데 필요한 맵을 보관 합니다. 그러나 키 집합은 자체 (위에서 설명한) 암호화 되 고 별도 키 저장소에 보관 합니다.
+- 키 저장소 콘텐츠 데이터베이스와 Azure 저장소 물리적으로 분리 됩니다. 콘텐츠 데이터베이스에 보관 하는 암호화 된 키 집합에 각 Azure 저장소 컨테이너와 마스터 키에 대 한 자격 증명을 저장 합니다.
+
+이러한 세 저장소 구성 요소를 각각 – Azure blob 저장소, 콘텐츠 데이터베이스 및 키 저장소-물리적으로 분리 됩니다. 구성 요소 중 하나를 보유 하는 정보는 자체에서 사용할 수 없는 합니다. 모든 3에 대 한 액세스를 하지 않고 불가능 청크를 키를 검색, 사용할 수 있도록, 키가 해당 청크 연결, 각 청크를 해독 하거나 문서 또는 해당 구성 요소 청크를 다시 생성에 대 한 키의 암호를 해독 하 합니다.
+
+데이터 센터의 컴퓨터에서 실제 디스크 볼륨을 보호 하는 BitLocker 인증서 팜 키에 의해 보호 되는 보안 저장소 (SharePoint Online 비밀 저장소)에 저장 됩니다.
+
+TDE 키 blob 당 키를 보호 하는 두 위치에 저장 됩니다.
+- BitLocker 인증서를 보유 하 고 팜 키;로 보호 되는 보안 저장소 및
+- Azure SQL 데이터베이스에 의해 관리 되는 보안 저장소입니다.
+
+Azure 저장소 컨테이너에 액세스 하는데 사용 되는 자격 증명은 SharePoint Online의 비밀 저장 하 고 필요에 따라 각 SharePoint Online 팜으로 위임에 보관 됩니다. 이러한 자격 증명이 읽기 또는 쓰기 데이터를 사용 하는 별도 자격 증명을 사용 하 고 자동-만료 되기 60 일 마다 되도록 적용 하는 정책을 사용 하 여 Azure 저장소 SAS 서명 합니다. 읽기 또는 쓰기 (둘 중 하나) 데이터를 다른 자격 증명을 사용 하 고 SharePoint Online 팜을 열거할 수 있는 권한을 제공 되지 않습니다.
+
+> 참고 사항에 대 한 Office 365 미국 정부 고객, 데이터 blob가 Azure 미국 정부 저장소에 저장 됩니다. 또한 Office 365 미국 정부 기관에서 SharePoint Online 키에 대 한 액세스는 특히 스크린 된 Office 365 직원에 게 제한 됩니다. Azure 미국 정부 운영 직원이 없는 액세스 blob 데이터를 암호화 하는데 사용 되는 SharePoint Online 키 저장소에 있습니다.
+
+SharePoint Online 및 비즈니스용 OneDrive에 대 한 데이터 암호화에 대 한 자세한 내용은 [OneDrive 비즈니스 및 SharePoint Online에서 데이터 암호화](https://technet.microsoft.com/en-us/library/dn905447.aspx)를 참조 하십시오.
+
+### <a name="list-items-in-sharepoint-online"></a>SharePoint Online에서 목록 항목
+목록 항목을 작은 크기의 고객 임시 또는 생성 되는 데이터와 같은 사용자가 만든 목록에 있는 행, SharePoint Online 블로그, 또는 SharePoint Online 위 키 페이지 내의 항목에 대 한 개별 게시 사이트 내에서 동적으로 더 live 수 있습니다. 목록 항목의 콘텐츠 데이터베이스 (Azure SQL 데이터베이스)에 저장 되며 TDE를 사용 하 여 보호 됩니다.
+
+## <a name="encryption-of-data-in-transit"></a>전송 중인 데이터 암호화
+비즈니스용 OneDrive 및 SharePoint Online에는 데이터 센터를 시작 및 종료하는 데이터에 대한 두 가지 시나리오가 있습니다.
+- **서버와 클라이언트 통신** -인터넷을 통해 비즈니스용 OneDrive에 대 한 통신 SSL/TLS 연결을 사용합니다. 모든 SSL 연결은 2048 비트 키를 사용 하 여 설정 됩니다.
+- **데이터 센터 간의 데이터 이동** -데이터 센터 간에 데이터를 이동 하는 주된 이유는 재해 복구를 사용 하도록 설정 하려면 지리적 복제입니다. 예: SQL Server 트랜잭션 로그 및 blob 저장소 델타가이 파이프를 따라 이동 합니다. 이 데이터는 이미 개인 네트워크를 사용 하 여 전송 되는, 하는 동안 추가 클래스에서 최고 암호화로 보호 됩니다.
+
+
+## <a name="exchange-online"></a>Exchange Online
+모든 사서함 데이터에 대 한 BitLocker를 사용 하 여 Exchange Online 및 BitLocker 구성 [BitLocker 암호화에 대 한](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)설명 되어있습니다. 사서함 수준에서 모든 사서함 데이터를 암호화 하는 서비스 수준 암호화 합니다. 
+
+서비스-암호화 외에도 Office 365 서비스 암호화 기반으로 구축 되는 고객 키를 지원 합니다. 고객 키에는 Microsoft의 로드맵에도 사용 되는 Exchange Online 서비스 암호화에 대 한 Microsoft에서 관리 하는 주요 옵션입니다. 이 메서드는 암호화 및 암호화 (데이터에 직접 적용 되기 때문에 서버 관리자와의 데이터를 암호 해독에 필요한 암호화 키의 분리를 제공 하기 때문에 BitLocker에서 제공 하지는 증가 보호 기능을 제공 논리 디스크 볼륨에서 암호화를 적용 하는 BitLocker와 대비) Exchange 서버에서 복사 된 모든 고객 데이터 암호화 된 상태로 유지 됩니다.
+
+Exchange Online 서비스 암호화에 대 한 범위에는 Exchange Online 내 나머지 부분에 저장 된 고객 데이터입니다. (비즈니스를 위한 Skype 거의 모든 사용자가 생성 한 콘텐츠는 사용자의 Exchange Online 사서함 내에서 저장 및 따라서 Exchange Online의 서비스 암호화 기능을 상속 합니다.)
