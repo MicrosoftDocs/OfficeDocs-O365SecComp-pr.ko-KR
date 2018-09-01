@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자를 위한: 해당 사서함이 법적 보유 중일 경우에 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이것이 Office 365에 실수로 넘어가 되는 데이터를 삭제할 수 있는 효과적인 방법입니다.'
-ms.openlocfilehash: 0519e389f05ed9952090fb9b163a05d18e3bd762
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c984bcaa35a9bc7bc30e11d68ba8f7f0ce75b64d
+ms.sourcegitcommit: 31e0d94244c76a9f5118efee8bbc93395d080f91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23014032"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23796884"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>관리자 도움말 대기-클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -110,7 +110,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더에서 실수
 
    폴더 및 보관 사서함의 복구 가능한 항목 폴더에 하위 폴더의 크기와 총 항목 수를 가져오려면 다음 명령을 실행 하는 사용자의 보관 사서함을 사용 하는 경우. 
 
-    ```
+    ```s
     Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
     ```
 
