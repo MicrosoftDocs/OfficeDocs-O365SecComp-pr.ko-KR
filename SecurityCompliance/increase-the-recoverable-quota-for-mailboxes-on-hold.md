@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장을 Office 365의 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘리려면 보관 설정 합니다. '
-ms.openlocfilehash: 2e7149ef10152a11dc638c04b61a261440b539b8
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: cd2d07e6ef1637343798ccb71870c8d436f10574
+ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533023"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23782095"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
@@ -35,11 +35,11 @@ ms.locfileid: "22533023"
 |**복구 가능한 항목 폴더 할당량** <br/> |제한 없음  <br/> |제한 없음  <br/> |
    
 > [!NOTE]
-> <sup>\*</sup>보관 사서함에 대 한 초기 저장소 할당량은 Exchange Online (계획 2) 라이선스를 사용 하는 사용자에 대 한 100GB. 하지만, 자동 확장 보관을 설정 하는 경우 사용자의 보관 및 보관 사서함의 복구 가능한 항목 폴더에 대 한 저장소 할당량 제한 되지는 않습니다. 자동 확장 하는 방법에 대 한 자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 보관 하십시오. 
+> <sup>\*</sup>보관 사서함에 대 한 초기 저장소 할당량은 Exchange Online (계획 2) 라이선스를 사용 하는 사용자에 대 한 100GB. 그러나 때 보관 자동 확장 켜져 대기 사서함, 저장소 할당량에 대 한 모두에 대 한의 보관 사서함 및 복구 가능한 항목 폴더 110 g B로 증가 되었습니다. 필요한 경우 추가 보관 저장소 공간을 구축할 무제한 금액의 보관 저장소에서 결과입니다. 자동 확장 하는 방법에 대 한 자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 보관 하십시오. 
   
 보류된 사서함의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 할당량이 한도에 도달하려는 경우 다음 항목을 수행할 수 있습니다.
   
-- **보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관 설정** -보관 사서함을 사용 하도록 설정 하 고 다음 Exchange에서 자동을 확장 하면 보관 기능을 설정 하 여 복구 가능한 항목 폴더에 대 한 사용 하 여 무제한 저장 용량이 설정할 수 있습니다 온라인. 이 기본 사서함과 사용자의 보관에서 복구할 수 있는 항목 폴더에 대 한 저장 용량에 무제한 금액의 복구 가능한 항목 폴더에 100GB에서 만들어집니다. 참조 방법: [Office 365 보안에서 보관 사서함 사용 &amp; 준수 센터](enable-archive-mailboxes.md) 고 [Office 365에서 무제한 보관을 사용](enable-unlimited-archiving.md)합니다.
+- **보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관 설정** -보관 사서함을 사용 하도록 설정 하 고 다음 Exchange에서 자동을 확장 하면 보관 기능을 설정 하 여 복구 가능한 항목 폴더에 대 한 사용 하 여 무제한 저장 용량이 설정할 수 있습니다 온라인. 이 기본 사서함과 사용자의 보관에서 복구할 수 있는 항목 폴더에 대 한 저장 용량에 무제한 금액의 복구 가능한 항목 폴더에 대 한 110 gb에서 만들어집니다. 참조 방법: [Office 365 보안에서 보관 사서함 사용 &amp; 준수 센터](enable-archive-mailboxes.md) 고 [Office 365에서 무제한 보관을 사용](enable-unlimited-archiving.md)합니다.
     
     > [!NOTE]
     > 수동으로 이동 되도록 만료 된 항목의 사서함을 처리 하는 데 길잡이 트리거하는 관리 되는 폴더 도우미가 실행 해야할 복구 가능한 항목 폴더에 대 한 저장소 할당량을 초과 하면 되는 사서함에 대 한 보관을 활성화 한 후의 보관 사서함의 복구 가능한 항목 폴더입니다. 지침에 대 한 [4 단계를](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings) 참조 하십시오. 참고 사용자의 사서함에서 다른 항목은 새 보관 사서함으로 이동할 수 있습니다. 보관 사서함을 사용 하도록 설정한 후 발생할 수 있습니다이 방향을 지시 하는 것이 좋습니다. 

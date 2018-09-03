@@ -3,7 +3,6 @@ title: Office 365 고급 위협 보호에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 08/06/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: bd02989711629cc67f7a7d5e061862a1146ff21b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 13b2a4c142a223a8a912c9017b6033b0b5a1548b
+ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533330"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23782115"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
@@ -26,7 +25,7 @@ ms.locfileid: "22533330"
   
 ![보안 &amp; 준수 센터 대시보드 도울수 위협 보호 고급가 작동 하는 위치를 참조 하십시오.](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
-ATP 보고서 [위협 보호 상태 보고서](view-reports-for-atp.md#advancedthreats), [ATP 파일 형식 보고서](view-reports-for-atp.md#atpfiletypes)및 [ATP 메시지 처리 보고서](view-reports-for-atp.md#atpmessagedisp)를 포함 합니다. 이 문서 ATP 보고서에 설명 하 고 [보려는 추가 보고서](view-reports-for-atp.md#addl)에 대 한 링크를 포함 합니다.
+ATP 보고서 위협 보호 상태 보고서, ATP 파일 형식 보고서 및 ATP 메시지 처리 보고서를 포함 합니다. 이 문서 ATP 보고서에 설명 하 고 보려는 추가 보고서에 대 한 링크를 포함 합니다.
   
 ## <a name="threat-protection-status-report"></a>위협 보호 상태 보고서
 

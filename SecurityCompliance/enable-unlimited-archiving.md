@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자를 위한: Exchange Online 사서함에 대 한 무제한으로 저장 된 사용자에 게 제공 하는 Office 365의 보관 자동 확장을 사용 하는 방법을 설명 합니다. 특정 사용자만 또는 전체 조직에 대 한 보관 자동 확장을 사용 하도록 설정할 수 있습니다.'
-ms.openlocfilehash: 6dd49433a1692d3a0ba23af57e7e2d9544f8a2b1
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 823e4ed0049e7a28a6c97c4045fb75987f43db5f
+ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532916"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23782155"
 ---
 # <a name="enable-unlimited-archiving-in-office-365---admin-help"></a>Office 365-관리자 도움말 무제한 보관을 사용 하도록 설정
 
@@ -56,9 +56,9 @@ ms.locfileid: "22532916"
   
 특정 사용자에 대 한 보관 자동 확장을 사용 하는 경우는 다음과 같은 두 구성도 변경 됩니다.
   
-- 사용자의 기본 보관 사서함에 대 한 저장소 할당량은 (110 g B에 100GB)에서 10 g B 씩 증가 합니다.
+- 사용자의 기본 보관 사서함에 대 한 저장소 할당량은 (110 g B에 100GB)에서 10 g B 씩 증가 합니다. 보관 경고 할당량은도 (100GB로 90 GB)에서 10 g B 씩 증가 합니다.
     
-- 사용자의 기본 사서함의 복구 가능한 항목 폴더에 대 한 저장소 할당량은 (도 110 g B에 100GB)에서 10 g B 씩 증가 합니다. 이 변경에 있는 사서함에서 보유 하는 경우에 적용 됩니다.
+- 사용자의 기본 사서함의 복구 가능한 항목 폴더에 대 한 저장소 할당량은 (도 110 g B에 100GB)에서 10 g B 씩 증가 합니다. 복구 가능한 항목 경고 보내기 할당량은도 (100GB로 90 GB)에서 10GB으로 증가 합니다. 이러한 변경의 사서함에 보존 또는 Office 365 보존 정책에 할당 하는 경우에 적용 됩니다.
     
 이 추가 공간 자동 확장 보관 구축 하기 전에 발생할 수 있는 저장소 문제를 방지 하기 위해 추가 됩니다. Note 해당 추가 저장 공간이 *없는* 이전 섹션에서 설명한 것 처럼 전체 조직에 대 한 보관 자동 확장을 사용 하는 경우 추가 합니다. 
   

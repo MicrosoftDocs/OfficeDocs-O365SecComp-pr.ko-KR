@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'SharePoint 또는 OneDrive 및 Exchange Online 사서함에 콘텐츠 검색 도구를 사용 하 여 Office 365 보안에서 비즈니스 사이트를 검색할 수 있는 전자 메일 및 파일 속성에 대 한 설명 &amp; 준수 센터입니다.  '
-ms.openlocfilehash: c043b6667e6847ff944b05e6bbe91df8ed2f600c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 8501743d38425cb980088d65e1dd6bd0bd45cc08
+ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533656"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23782105"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -134,7 +134,7 @@ ms.locfileid: "22533656"
 |**연산자**|**Usage**|**설명**|
 |:-----|:-----|:-----|
 |AND  <br/> |keyword1 AND keyword2  <br/> |지정 된 키워드를 포함 하는 항목을 반환 하거나 `property:value` 식입니다. 예, `from:"Ann Beebe" AND subject:northwind` Ann Beebe의 제목줄에 word northwind를 포함 하 여 보낸 모든 메시지를 반환 합니다. <sup>2</sup> <br/> |
-|+  <br/> |keyword1?? + keyword2?? + keyword3  <br/> |*중 하나* 를 포함 하는 항목을 반환`keyword2` 또는 `keyword3` *하 고* 도 포함 된 `keyword1`합니다. 따라서이 예제는 쿼리 `(keyword2 OR keyword3) AND keyword1`합니다.  <br/> 사항에 유의 쿼리 `keyword1 + keyword2` (후 공백을 사용 하 여는 **+** 기호)를 사용 하 여와 같지 않습니다는 * * AND * * 연산자입니다. 이 쿼리는 해당 것 `"keyword1 + keyword2"` 정확한 단계를 사용 하는 항목을 반환 하 고 `"keyword1 + keyword2"`합니다.<br/> |
+|+  <br/> |keyword1 + keyword2 + keyword3  <br/> |*중 하나* 를 포함 하는 항목을 반환`keyword2` 또는 `keyword3` *하 고* 도 포함 된 `keyword1`합니다. 따라서이 예제는 쿼리 `(keyword2 OR keyword3) AND keyword1`합니다.  <br/> 사항에 유의 쿼리 `keyword1 + keyword2` (후 공백을 사용 하 여는 **+** 기호)를 사용 하 여와 같지 않습니다는 * * AND * * 연산자입니다. 이 쿼리는 해당 것 `"keyword1 + keyword2"` 정확한 단계를 사용 하는 항목을 반환 하 고 `"keyword1 + keyword2"`합니다.<br/> |
 |OR  <br/> |keyword1 OR keyword2  <br/> |지정된 된 키워드 중 하나 이상을 포함 하는 항목을 반환 하거나 `property:value` 식입니다. <sup>2</sup> <br/> |
 |NOT  <br/> |keyword1 NOT keyword2  <br/> NOT from:"Ann Beebe"  <br/> 종류: im 하지  <br/> |키워드에 지정 된 항목을 제외 또는 `property:value` 식입니다. 두번째 예제 Ann Beebe가 보낸 메시지를 제외 합니다. 예제 3의 대화 내용 사서함 폴더에 저장 된 비즈니스 대화에 대 한 Skype와 같은 모든 인스턴트 메시징 대화를 제외 합니다. <sup>2</sup> <br/> |
 |-  <br/> |keyword1 -keyword2  <br/> |동일 **NOT** 연산자입니다. 이 쿼리를 포함 하는 항목을 반환 하도록 `keyword1` 포함 된 항목에서 제외 되 게 하 고 `keyword2`합니다.<br/> |
@@ -152,7 +152,7 @@ ms.locfileid: "22533656"
 |(  )  <br/> | (fair OR free) AND (from:contoso.com)  <br/>  (IPO OR initial) AND (stock OR shares)  <br/>  (quarterly financials)  <br/> |괄호를 함께 그룹화 부울 구 `property:value` 항목 및 키워드입니다. 예, `(quarterly financials)` 하 고 financials 분기별 단어를 포함 하는 항목을 반환 합니다.<br/> |
    
 > [!NOTE]
-> <sup>1</sup>??????Use 날짜 또는 숫자 값이 있는 속성에 대 한이 연산자입니다. > <sup>2</sup>??????Boolean 검색 연산자는 대문자; 여야 합니다. 예, **AND**합니다. 예: **하 고**, 소문자 연산자를 사용 하는 경우 검색 쿼리에 키워드도 처리 됩니다. 
+> 이 연산자를 사용 하 여 날짜 또는 숫자 값이 있는 속성에 대 한 <sup>1</sup> .<br/> <sup>2</sup> 부울 검색 연산자 대문자 여야 합니다. 예, **AND**합니다. 예: **하 고**, 소문자 연산자를 사용 하는 경우 검색 쿼리에 키워드도 처리 됩니다. 
   
 ## <a name="search-conditions"></a>검색 조건
 

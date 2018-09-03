@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: 콘텐츠 검색을 사용 하 여 Office 365 보안에서 &amp; 준수 센터 비즈니스 대화에 대 한 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀의, Office 365 그룹 및 Skype에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리를 사용 하 여 수 있으며 검색 조건 검색 결과 범위를 좁힐 수 있습니다. 다음 미리 볼 수 있으며 검색 결과 내보낼 수 있습니다. 콘텐츠 검색 GDPR 데이터 주체 요청에 관련 될 수 있는 콘텐츠를 검색 하는 효과적인 도구 이기도 합니다.
-ms.openlocfilehash: f0064ae08226b1b0e864b25bb845054184f1efa4
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 11e96c6a11dd66c0095b7c624413e9e39036d8d6
+ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534180"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23782085"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의에서 콘텐츠 검색
 
@@ -75,7 +75,7 @@ Office 365 보안에서 콘텐츠 검색 eDiscovery 도구를 사용할 수 있�
     
     키워드 목록을 사용 하는 이유 각 키워드를 일치 하는 얼마나 많은 항목이 표시 하는 통계를 얻을 수 있습니다. 이 키워드는는 가장 (및 최소) 효과적인를 빠르게 식별할 수 있습니다. 행에서 (괄호로 묶입니다) 키워드 구의 사용할 수도 있습니다. 검색 통계에 대 한 자세한 내용은 [콘텐츠 검색 결과 대 한 키워드 통계 보기를](view-keyword-statistics-for-content-search.md)참조 하십시오.
     
-- **조건** -검색 범위를 좁힐 하 고 보다 정교한 결과 집합이 반환 하는 검색 조건을 추가할 수 있습니다. KQL 검색 쿼리를 만들고 실행 하 여 검색을 시작 하는 경우에 절을 추가 하는 각 조건입니다. 조건 **및** 연산자 기능와 유사한 논리 연산자 ( **c:c**)에 의해 (키워드 상자에 지정 된) 키워드 쿼리를 논리적으로 연결 됩니다. 항목 키워드 쿼리 및 결과에 포함할 하나 이상의 조건을 모두 충족 해야 함을 의미 합니다. 결과 범위를 좁히려면 조건 도움이 되는 방식입니다. 목록 및 설명은 검색 쿼리에서 사용할 수 있는 조건에 대 한 [키워드 쿼리 및 콘텐츠 검색을 위한 검색 조건에서](keyword-queries-and-search-conditions.md#search-conditions)"검색 조건" 섹션을 참조 하십시오.
+- **조건** -검색 범위를 좁힐 하 고 보다 정교한 결과 집합이 반환 하는 검색 조건을 추가할 수 있습니다. 검색 쿼리를 만들고 실행 하 여 검색을 시작 하는 경우에 절을 추가 하는 각 조건입니다. 조건 **및** 연산자 기능와 유사한 논리 연산자 ( **c:c**)에 의해 (키워드 상자에 지정 된) 키워드 쿼리를 논리적으로 연결 됩니다. 항목 키워드 쿼리 및 결과에 포함할 하나 이상의 조건을 모두 충족 해야 함을 의미 합니다. 결과 범위를 좁히려면 조건 도움이 되는 방식입니다. 목록 및 설명은 검색 쿼리에서 사용할 수 있는 조건에 대 한 [키워드 쿼리 및 콘텐츠 검색을 위한 검색 조건에서](keyword-queries-and-search-conditions.md#search-conditions)"검색 조건" 섹션을 참조 하십시오.
     
 - **위치** -설치할 콘텐츠 위치를 검색 합니다.
     
