@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 Office 365 조직에서 사서함에 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 가져올 수 있습니다. 이 통해 Office 365에서 Facebook, Twitter 및 데이터 원본의 데이터를 보관할 수 있습니다. 다음을 제 3 자 데이터 (예: 법적 보유, 콘텐츠 검색 및 보존 정책) appply Office 365 규정 준수 기능을 수 있습니다.'
-ms.openlocfilehash: 3d51d9f5cb546b33fa636fab0ca319e4d24b1ad4
-ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
+ms.openlocfilehash: f5590d170986b8ae69458e69cedeb8a0ef137ef4
+ms.sourcegitcommit: 81c2fd5cd940c51bc43ac7858c7bdfa207ce401a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23230040"
+ms.lasthandoff: 09/03/2018
+ms.locfileid: "23809713"
 ---
 # <a name="archiving-third-party-data-in-office-365"></a>Office 365에서 타사 데이터 보관
 
@@ -46,6 +46,8 @@ Office 365를 제 3 자 데이터를 가져오려면 필요한 단계 및 프로
 [3단계: 타사 데이터에 대한 사용자 사서함 구성](#step-3-configure-user-mailboxes-for-third-party-data)
 
 [4단계: 파트너에게 정보 제공](#step-4-provide-your-partner-with-information)
+
+[5 단계: Azure Active Directory에 제 3 자 데이터 커넥터를 등록 합니다.](#step-5-register-the-third-party-data-connector-in-azure-active-directory)
 
 ## <a name="how-the-third-party-data-import-process-works"></a>타사 데이터 가져오기 프로세스 어떻게 작동 하는 >
 
@@ -622,8 +624,28 @@ Microsoft Lync(2010, 2013)
     ```
 
 - 자격 증명 (Office 365 사용자 ID 및 암호)의 2 단계에서에서 만든 타사 데이터 사서함에에서 로그인 합니다. 파트너 커넥터에 액세스 하 고 사용자 사서함을 제 3 자 데이터 사서함에 게 항목을 가져올 수 있도록 이러한 자격 증명이 필요 합니다.
-    
+ 
+## <a name="step-5-register-the-third-party-data-connector-in-azure-active-directory"></a>5 단계: Azure Active Directory에 제 3 자 데이터 커넥터를 등록 합니다.
 
+2018, 년 9 월 30 시작 Office 365에서 Azure 서비스를 사용 하 여 최신 인증 Exchange 온라인 데이터를 가져오려면 Office 365 조직에 대 한 연결을 시도 하는 타사 데이터 커넥터 인증 시작 됩니다. 이 변경에 대 한 이유는 현대 인증 하는 앞에서 설명한 것된 끝점을 사용 하 여 Azure 서비스에 연결할 whitelisting 타사 커넥터를 기반으로 하는 현재 방법 보다 더 많은 보안을 제공 합니다.
+
+새 현대 인증 방법을 사용 하 여 Office 365에 연결에 대 한 제 3 자 데이터 커넥터를 사용 하도록 설정 하려면 Office 365 조직에서 관리자는 Azure Active Directory에서 신뢰할 수 있는 서비스 응용 프로그램으로 커넥터를 등록 동의 해야 합니다. 이 커넥터 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 사용 권한 요청을 수락 하 여 수행 됩니다. 이 요청을 수락 하면 후 제 3 자 데이터 커넥터 Azure Active Directory는 엔터프라이즈 응용 프로그램으로 추가 되 고 서비스 사용자로 표시 합니다. 자세한 내용은 사용자의 동의 하는 프로세스에 대 한 [테 넌 트 관리 동의](https://docs.microsoft.com/en-us/skype-sdk/trusted-application-api/docs/tenantadminconsent)참조 합니다.
+
+액세스 하 고 커넥터를 등록 하려면 요청을 수락 하는 단계는 다음과 같습니다.
+
+1. [이](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 페이지로 이동 하 고 Office 365 전역 관리자의 자격 증명을 사용 하 여 로그인 합니다.<br/><br/>다음과 같은 대화 상자가 표시 됩니다. 커넥터에 할당 되는 권한 검토를 캐럿을 확장할 수 있습니다.<br/><br/>![사용 권한 요청 대화 상자가 표시 됩니다.](media/O365_ThirdPartyDataConnector_OptIn1.png)
+2. **수락**을 클릭 합니다.
+
+요청을 수락 하면 후 [Azure 포털 대시보드](https://portal.azure.com) 표시 됩니다. **Azure Active Directory**를 클릭 하면 조직에 대 한 응용 프로그램의 목록을 보려면 > **엔터프라이즈 응용 프로그램**입니다. Office 365 제 3 자 데이터 커넥터는 **엔터프라이즈 응용 프로그램** 블레이드에 표시 됩니다.
+
+> [!IMPORTANT]
+> 2018, 년 9 월 30 후 제 3 자 데이터 더이상로 가져올 것임 조직 내의 사서함에에서 Azure Active Directory에 제 3 자 데이터 커넥터를 등록 하지 하는 경우. 또한 타사 데이터 커넥터 (2018 년 9 월 30, 이전에 만들어진 이러한) 기존 참고 5 단계에서에서 절차를 수행 하 여 Azure Active Directory에 등록 되어 있어야 합니다.
+
+### <a name="revoking-consent-for-a-third-party-data-connector"></a>타사 데이터 커넥터에 대 한 사용자의 동의 해지합니다.
+
+Azure Active Directory에 제 3 자 데이터 커넥터를 등록 하기 위해 사용 권한 요청에 조직 승인을 거친, 후 조직 언제 든 지 해당 사용자의 동의 취소할 수 있습니다. 그러나 연결선에 대 한 동의 해지는 의미 제 3 자 데이터 원본에서 데이터는 더이상 Office 365로 가져올 수 없습니다.
+
+제 3 자 데이터 커넥터에 대 한 사용자의 동의 해지 하 여 삭제할 수 있습니다는 응용 프로그램을 (해당 서비스 사용자를 삭제) Azure 포털에서 또는 [를 사용 하 여 **엔터프라이즈 응용 프로그램** 블레이드를 사용 하 여 Azure Active Directory에서 제거 MsolServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/msonline/remove-msolserviceprincipal) Office 365 PowerShell에서 합니다. PowerShell Azure Active Directory에서에서 [제거 AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수도 있습니다.
   
 ## <a name="more-information"></a>추가 정보
 

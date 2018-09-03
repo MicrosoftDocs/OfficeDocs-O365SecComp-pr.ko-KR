@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자를 위한: Exchange Online 사서함에 대 한 무제한으로 저장 된 사용자에 게 제공 하는 Office 365의 보관 자동 확장을 사용 하는 방법을 설명 합니다. 특정 사용자만 또는 전체 조직에 대 한 보관 자동 확장을 사용 하도록 설정할 수 있습니다.'
-ms.openlocfilehash: 823e4ed0049e7a28a6c97c4045fb75987f43db5f
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: ede3e75a021d750160268ccf06ac4fe1637d219a
+ms.sourcegitcommit: 81c2fd5cd940c51bc43ac7858c7bdfa207ce401a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782155"
+ms.lasthandoff: 09/03/2018
+ms.locfileid: "23809703"
 ---
 # <a name="enable-unlimited-archiving-in-office-365---admin-help"></a>Office 365-관리자 도움말 무제한 보관을 사용 하도록 설정
 
@@ -54,7 +54,7 @@ ms.locfileid: "23782155"
 
 조직에서 모든 사용자에 대 한 보관 자동 확장을 사용 하는 대신 특정 사용자에 대 한 것만 설정할 수 있습니다. 일부 사용자만 매우 큰 보관 저장소에 대 한 요구가 있을 수 있으므로이 수행할 수 있습니다.
   
-특정 사용자에 대 한 보관 자동 확장을 사용 하는 경우는 다음과 같은 두 구성도 변경 됩니다.
+때 특정 사용자에 대 한 보관 자동 확장을 사용 하 고에 대 한 사용자의 사서함에 유지 또는 Office 365 보존 정책에 할당 하는 다음 두 구성 변경 됩니다.
   
 - 사용자의 기본 보관 사서함에 대 한 저장소 할당량은 (110 g B에 100GB)에서 10 g B 씩 증가 합니다. 보관 경고 할당량은도 (100GB로 90 GB)에서 10 g B 씩 증가 합니다.
     
