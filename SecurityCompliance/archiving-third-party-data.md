@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 Office 365 조직에서 사서함에 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 가져올 수 있습니다. 이 통해 Office 365에서 Facebook, Twitter 및 데이터 원본의 데이터를 보관할 수 있습니다. 다음을 제 3 자 데이터 (예: 법적 보유, 콘텐츠 검색 및 보존 정책) appply Office 365 규정 준수 기능을 수 있습니다.'
-ms.openlocfilehash: f5590d170986b8ae69458e69cedeb8a0ef137ef4
-ms.sourcegitcommit: 81c2fd5cd940c51bc43ac7858c7bdfa207ce401a
+ms.openlocfilehash: 7af88338333e90bd208d693fbfd5bb691d44b538
+ms.sourcegitcommit: 4c6c937ec51e8b754332e4c1c8d286e73e197e2c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2018
-ms.locfileid: "23809713"
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "23827092"
 ---
 # <a name="archiving-third-party-data-in-office-365"></a>Office 365에서 타사 데이터 보관
 
@@ -636,7 +636,7 @@ Microsoft Lync(2010, 2013)
 1. [이](https://login.microsoftonline.com/common/oauth2/authorize?client_id=8dfbc50b-2111-4d03-9b4d-dd0d00aae7a2&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent) 페이지로 이동 하 고 Office 365 전역 관리자의 자격 증명을 사용 하 여 로그인 합니다.<br/><br/>다음과 같은 대화 상자가 표시 됩니다. 커넥터에 할당 되는 권한 검토를 캐럿을 확장할 수 있습니다.<br/><br/>![사용 권한 요청 대화 상자가 표시 됩니다.](media/O365_ThirdPartyDataConnector_OptIn1.png)
 2. **수락**을 클릭 합니다.
 
-요청을 수락 하면 후 [Azure 포털 대시보드](https://portal.azure.com) 표시 됩니다. **Azure Active Directory**를 클릭 하면 조직에 대 한 응용 프로그램의 목록을 보려면 > **엔터프라이즈 응용 프로그램**입니다. Office 365 제 3 자 데이터 커넥터는 **엔터프라이즈 응용 프로그램** 블레이드에 표시 됩니다.
+요청을 수락 하면 후 [Azure 포털](https://portal.azure.com) 표시 됩니다. **Azure Active Directory**를 클릭 하면 조직에 대 한 응용 프로그램의 목록을 보려면 > **엔터프라이즈 응용 프로그램**입니다. Office 365 제 3 자 데이터 커넥터는 **엔터프라이즈 응용 프로그램** 블레이드에 표시 됩니다.
 
 > [!IMPORTANT]
 > 2018, 년 9 월 30 후 제 3 자 데이터 더이상로 가져올 것임 조직 내의 사서함에에서 Azure Active Directory에 제 3 자 데이터 커넥터를 등록 하지 하는 경우. 또한 타사 데이터 커넥터 (2018 년 9 월 30, 이전에 만들어진 이러한) 기존 참고 5 단계에서에서 절차를 수행 하 여 Azure Active Directory에 등록 되어 있어야 합니다.
