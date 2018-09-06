@@ -19,12 +19,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 다음 Office 문서 및 전자 메일 메시지에 하이퍼링크의 클릭 시간 확인 합니다. 피싱 및 기타 공격 으로부터 조직을 보호를 안전한 링크를 사용 합니다.
-ms.openlocfilehash: 24960aa20d2870c7aea37a4b76f1792de21f6b5b
-ms.sourcegitcommit: a8884b9675559018e1fddec1c0cc2de0bc3bdde5
+ms.openlocfilehash: 34e32038cd5718ca3399fc65aae11adfeb0f4ee0
+ms.sourcegitcommit: f8cc2c7bad31d04c99a8eca5e0f8fad72494087a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839948"
+ms.locfileid: "23848078"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
@@ -96,7 +96,7 @@ ATP 안전한 링크 기능은 다음 경우에 현재:
   
 - Word, Excel, PowerPoint 및 Visio 문서 및 전자 메일에 대 한 **ATP 안전한 링크 정책을 설정** 합니다. ( [Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)참조).
 
-- Azure Active Directory 인증 라이브러리와 **office 365 클라이언트 앱 현대 인증을 사용 하도록 구성 됩니다** . 자세한 내용은 [Office 2016에 대 한 최신 Authentication](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)을 참조 하십시오. 
+- **Office 365 클라이언트 앱 현대 인증을 사용 하도록 구성 됩니다**. 자세한 내용은 [Office 2016에 대 한 최신 Authentication](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)을 참조 하십시오. 
     
 - 사용자의 작업이 나 교육용 계정을 사용 하 여 **사용자가 Office 365에 로그인 됩니다** . ( [Office 또는 Office 365에 로그인](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426)참조).
     
