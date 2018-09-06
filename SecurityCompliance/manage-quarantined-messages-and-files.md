@@ -3,7 +3,7 @@ title: Office 365에서 관리자 권한으로 격리 된 메시지와 파일을
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 5/19/2018
+ms.date: 09/05/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 description: '관리 권한으로 볼, 릴리스, 및 Office 365에서 가양성 격리 된 메시지를 보고 수 있습니다. Office 365 메시지를 필터링 하 고 다음과 같은 몇가지 이유로 격리로 보냅니다 되도록 정책을 설정할 수: 스팸, 대량, 피싱, 맬웨어, 확인 된 대로 수 있으므로 또는 메일 흐름 규칙 일치 합니다. '
-ms.openlocfilehash: f30604da185b3455d89ae7c1206bda2149ef7778
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: be6384d8937e25aec55d82d8212c49d25b64b9a1
+ms.sourcegitcommit: d85fc77cba3a17d5ddf215e2f506f61b499e0cda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533549"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23839102"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "22533549"
   
 ## <a name="view-your-organizations-quarantined-messages"></a>조직의 격리 된 메시지 보기
 
-1. [보안 및 규정 준수 센터로 이동](go-to-the-securitycompliance-center.md)하 고 Office 365에 로그인 Office 365organization에 대 한 전역 관리자 권한이 있는 작업이 나 교육용 계정을 사용 합니다.
+1. Office 365 조직에 대 한 전역 관리자 권한이 있는 작업이 나 교육용 계정을 사용 하 여, [보안 및 규정 준수 센터로 이동](go-to-the-securitycompliance-center.md)하 고 Office 365에 로그인 합니다.
     
 2. 왼쪽에 있는 목록의 **위협 관리**를 확장 하 고 **검토**를 선택한 다음 **격리**를 선택 합니다.
     
