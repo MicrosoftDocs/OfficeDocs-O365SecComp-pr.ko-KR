@@ -5,31 +5,34 @@ author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.date: 9/5/2018
+ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: ATP 피싱 방지 보호 기능, 부분에서는 Office 365 고급 위협 보호 조직의 악의적인 가장 기반 피싱 공격 및 기타 피싱 공격 으로부터 보호할 수 있습니다. Office 365 Enterprise global 또는 보안 관리자 인 경우에 ATP 피싱 방지 정책을 설정할 수 있습니다. 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
-ms.openlocfilehash: 2f2258c4059d17410fd040782d7ee9dfca12576d
-ms.sourcegitcommit: 4c6c937ec51e8b754332e4c1c8d286e73e197e2c
+ms.openlocfilehash: 5c93ae5de7d7b021dbe1c1da682e35799938e456
+ms.sourcegitcommit: a8884b9675559018e1fddec1c0cc2de0bc3bdde5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "23827082"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23839968"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 정책 설정
 
-[ATP 피싱 방지 보호 기능](atp-anti-phishing.md) , 부분에서는 [Office 365 고급 위협 보호](office-365-atp.md)조직의 악의적인 가장 기반 피싱 공격 및 기타 피싱 공격 으로부터 보호할 수 있습니다. Office 365 Enterprise global 또는 보안 관리자 인 경우에 ATP 피싱 방지 정책을 설정할 수 있습니다. 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
+[ATP 피싱 방지 보호 기능](atp-anti-phishing.md), 부분에서는 [Office 365 고급 위협 보호](office-365-atp.md)조직의 악의적인 가장 기반 피싱 공격 및 기타 피싱 공격 으로부터 보호할 수 있습니다. Office 365 Enterprise global 또는 보안 관리자 인 경우에 ATP 피싱 방지 정책을 설정할 수 있습니다. 
+
+피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
   
 > [!NOTE]
 > ATP 피싱 방지는 에서만 고급 위협 보호, Office 365 Enterprise e 5에서 사용할 수 있는 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 고급 위협 보호 추가 기능으로 구입할 수 있습니다. (전역 관리자도 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 계획 옵션에 대 한 자세한 내용은 [비즈니스 계획에 대 한 모든 Office 365 비교](https://go.microsoft.com/fwlink/?linkid=844053)를 참조 하십시오. 조직에서 사용 하는 최신 버전의 Office 365 ProPlus Windows에서 ATP 피싱 방지 보호 기능을 완전 하 게 활용할 수 있는지 확인 합니다. 
   
 할 일:
   
-1. [필수 구성 요소를 검토 합니다.](#review-the-prerequisites)
+1. 필수 구성 요소를 검토 합니다.
     
-2. [ATP 피싱 방지 정책 옵션에 알아보기](#learn-about-atp-anti-phishing-policy-options)
+2. ATP 피싱 방지 정책 옵션에 알아봅니다.
     
-3. [ATP 피싱 방지 정책 설정](#set-up-an-atp-anti-phishing-policy)
+3. ATP 피싱 방지 정책을 설정 합니다.
     
 ## <a name="review-the-prerequisites"></a>필수 구성 요소를 검토 합니다.
 
@@ -45,7 +48,7 @@ ms.locfileid: "23827082"
     
 ## <a name="set-up-an-atp-anti-phishing-policy"></a>ATP 피싱 방지 정책 설정
 
-추가, 편집 및 Office 365 보안에서 ATP 피싱 방지 정책을 삭제 &amp; 준수 센터입니다.
+Office 365의 각 조직의 모든 사용자에 게 적용 되는 기본 피싱 방지 정책을 있습니다. 조직 내에서 특정 사용자, 그룹 또는 도메인 범위 수 있는 여러 사용자 지정 피싱 방지 정책을 만들 수도 있습니다. 만들 사용자 지정 정책을 기본 정책 보다 우선 합니다. 추가, 편집 및 Office 365 보안에서 ATP 피싱 방지 정책을 삭제 &amp; 준수 센터입니다.
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
@@ -57,7 +60,7 @@ ms.locfileid: "23827082"
     
   - 새 정책을 추가 하려면 **+ 만들기를**선택 합니다.
     
-  - 기존 정책을 편집 하려면 정책 이름을 **피싱 방지** 페이지에 표시 된 목록에서 선택 합니다. 표시 되는 페이지에서 **정책 편집**을 선택 합니다.
+  - 기존 정책을 편집 하 고 **피싱 방지** 페이지에 표시 된 목록에서 정책 이름을 선택 하거나 조직에 대 한 기본 poicy를 편집 하려면 목록 위의 **기본 정책** 을 선택 합니다. 표시 되는 페이지에서 **정책 편집**을 선택 합니다.  
     
     마법사를 시작 하 여 피싱 방지 정책 정의 단계별로 안내 하는 합니다.
     
@@ -107,7 +110,7 @@ Contoso의 보안 관리자는 이러한 요구를 충족 하는 피싱 방지 �
    
 ## <a name="delete-an-atp-anti-phishing-policy"></a>ATP 피싱 방지 정책 삭제
 
-추가 하 고 보안에서 정책을 편집할 수 &amp; 준수 센터입니다. 보안을 사용 하는 것이 좋습니다 &amp; 준수 센터를 검토 하거나 ATP 정책 중 하나를 편집 합니다.
+보안을 사용 하 여 만든 사용자 지정 정책을 삭제할 수 &amp; 준수 센터입니다. 조직에 대 한 기본 정책을 삭제할 수 없습니다. 보안을 사용 하는 것이 좋습니다 &amp; 준수 센터를 검토 하거나 ATP 정책 중 하나를 편집 합니다.
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
