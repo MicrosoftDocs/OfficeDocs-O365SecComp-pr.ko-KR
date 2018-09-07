@@ -223,7 +223,7 @@
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
 ## [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
-# 보안 및 규정 준수 모니터링
+# [보안 및 규정 준수 모니터링](monitor-security-and-compliance.md)
 ## [알림 정책](alert-policies.md)
 ### [활동 알림 만들기](create-activity-alerts.md)
 ## [보안 및 준수 센터의 똑똑한 보고서 및 분석](reports-and-insights-in-security-and-compliance.md)
@@ -264,7 +264,7 @@
 ### [Office 365의 개인 데이터에 보호 적용](apply-protection-to-personal-data-in-office-365.md)
 ### [개인 데이터 누수 모니터링](monitor-for-leaks-of-personal-data.md)
 ### [Office 365 GDPR 개발/테스트 환경](gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md)
-## 온-프레미스 Office 서버에 대한 GDPR
+## [온-프레미스 Office 서버에 대한 GDPR](gdpr-for-office-servers.md)
 ### [SharePoint Server에 대한 GDPR](gdpr-for-sharepoint-server.md)
 ### [Exchange Server에 대한 GDPR](gdpr-for-exchange-server.md)
 ### [비즈니스용 Skype 서버 및 Lync Server GDPR](gdpr-for-skype-for-business-server.md)
