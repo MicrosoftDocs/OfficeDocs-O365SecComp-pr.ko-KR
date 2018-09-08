@@ -3,7 +3,6 @@ title: Exchange Online에서 최종 사용자 스팸 알림 구성
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: da370497f78d7f253276c908061a9a80e2f74938
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: e29cc850b7f91ed4ec963a8e52e40a0044fa7f6c
+ms.sourcegitcommit: 234a22c61859133ed5e7988a9551a569781518a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002751"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23875810"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Exchange Online에서 최종 사용자 스팸 알림 구성
 
@@ -29,7 +28,19 @@ ms.locfileid: "23002751"
   
 최종 사용자 스팸 알림에는 사용자가 구성한 기간(1일부터 15일 사이의 값을 지정할 수 있음)에 최종 사용자가 받은, 스팸으로 격리된 모든 메시지의 목록이 포함됩니다. 알림 메시지를 작성하는 언어도 구성할 수 있습니다.
   
-알림 메시지를 받은 후 최종 사용자가 자신의 받은 편지함에 스팸 전자 메일을 이동 하려면 클릭 하거나, 스팸 전자 메일을 정크 메일 아님으로 경우에 해당 보고서를 Microsoft 스팸 분석 팀에 게 전송 됩니다. 
+알림 메시지를 받은 후 최종 사용자에 게는 다음 옵션 중에서 선택할 수 있습니다.
+
+**미리 보기** 콘텐츠 또는 작업을 수행 하기 전에 헤더를 미리 보기를 원하는 경우 메시지입니다.
+
+메시지를 **다운로드** 작업을 수행 하기 전에 장치에서 (해당 되는 경우)의 메시지 및 첨부 파일 검토 하려는 경우.
+
+**릴리스** 메시지 스팸을 하 고 Office 365 사서함에 메시지를 보낼 수 있습니다.
+
+**릴리스 & 허용 보낸** 메시지가 스팸 도메인이 아니고 보낸 수신 허용-보낸사람 및 향후 전자 메일 받는 사람 목록에 추가 하려면 Office 365를 원하는 경우. 사용자 관리 수신 허용-보낸사람 목록 재정의 하는 다른 조직 전체 허용/차단 구성을 수 있는 것을 염두에 두십시오.
+
+**릴리스 및 보고서**, 스팸 및 있습니다 메시지가 아닌 경우 사서함에 메시지를 보내고 분석을 위해 Microsoft에 보고 하려고 합니다.
+
+보낸 사람이 수신된 거부 목록에 추가 하려면 Office 365를 원하는 **블록** 선택 합니다.
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 

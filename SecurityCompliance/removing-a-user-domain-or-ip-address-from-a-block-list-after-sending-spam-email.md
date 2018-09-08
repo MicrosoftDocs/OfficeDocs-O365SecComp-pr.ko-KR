@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 description: 사용자는 계속 해 서 스팸으로 분류 하는 Office 365에서 전자 메일 메시지를 보내는, 모든 자세한 메시지를 보내지 못하도록 차단 됩니다.
-ms.openlocfilehash: 3f3130bec3cde4cdc1343a0140a9013deacfc519
-ms.sourcegitcommit: d85fc77cba3a17d5ddf215e2f506f61b499e0cda
+ms.openlocfilehash: ff5bb010f45b0c89e08239f0e37885bd7ae5c7cd
+ms.sourcegitcommit: 234a22c61859133ed5e7988a9551a569781518a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839112"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23875790"
 ---
 # <a name="removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email"></a>스팸 전자 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소를 제거
 
@@ -41,7 +41,7 @@ Office 365 보안 및 규정 준수 센터 (SCC)에서이 작업을 완료 합�
     > [!TIP]
     > **제한 된 사용자가** 페이지의 보안에서 직접 이동 &amp; 준수 센터가이 URL을 사용 하 여: >[https://protection.office.com/?hash=/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
 
-2. 이 페이지에는 조직 외부에 있는 메일을 보내지 못하도록 차단 된 사용자 목록이 포함 됩니다.  **차단 해제**에서 제한을 제거 하 고 다음을 클릭 하 고 싶지 사용자를 찾습니다.
+2. 이 페이지에는 조직 외부에 있는 메일을 보내지 못하도록 차단 된 사용자 목록이 포함 됩니다.  **차단 해제**에 제한을 제거 하 고 다음을 클릭 하 고 싶지 사용자를 찾습니다.
 
 3. **예** 하 여 변경 내용을 확인을 클릭 합니다. 
     
