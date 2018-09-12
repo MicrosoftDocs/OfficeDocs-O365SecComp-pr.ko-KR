@@ -14,7 +14,7 @@
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
 ## [MDM과 Intune 중에서 선택](choose-between-mdm-and-intune.md)
 # [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
-## [DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852300)
+## [DLP 확장된 개요 보기](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## DLP 설정
 ### [DLP 정책 권장 시작](get-started-with-dlp-policy-recommendations.md)
 ### [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
@@ -32,6 +32,7 @@
 ### [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 ### [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
+### [문서 핑거프린팅](document-fingerprinting.md) 
 # 데이터 거버넌스 관리        
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
 ### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
