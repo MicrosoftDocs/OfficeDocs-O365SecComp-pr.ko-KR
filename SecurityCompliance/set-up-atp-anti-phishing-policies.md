@@ -10,12 +10,12 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: ATP 피싱 방지 보호 기능, 부분에서는 Office 365 고급 위협 보호 조직의 악의적인 가장 기반 피싱 공격 및 기타 피싱 공격 으로부터 보호할 수 있습니다. Office 365 Enterprise global 또는 보안 관리자 인 경우에 ATP 피싱 방지 정책을 설정할 수 있습니다. 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
-ms.openlocfilehash: 5c93ae5de7d7b021dbe1c1da682e35799938e456
-ms.sourcegitcommit: a8884b9675559018e1fddec1c0cc2de0bc3bdde5
+ms.openlocfilehash: 9ceef88a2d60a10a8911e7559e10850858015977
+ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839968"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "23955450"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 정책 설정
 
@@ -38,7 +38,7 @@ ms.locfileid: "23839968"
 
 - **회사 관리자** 또는 **보안 관리자** 역할 그룹의 구성원 인지 확인 합니다. 
     
-- [ATP 피싱 방지 정책 옵션에 대 한 설명](set-up-atp-anti-phishing-policies.md#phishpolicyoptions) (이 문서의). 
+- [ATP 피싱 방지 정책 옵션에 대 한 설명](set-up-atp-anti-phishing-policies.md#learn-about-atp-anti-phishing-policy-options) (이 문서의). 
     
 - 아마도 조직에 대 한 여러 ATP 피싱 방지 정책을 설정 합니다. Office 365는 나열 된 순서 대로 보안에서 **ATP 피싱 방지** 페이지에서 이러한 정책을 적용 &amp; 준수 센터입니다. 정책 옵션을 검토 한 후에 각각에 대해 얼마나 많은 정책 수행 해야 하 고 우선순위를 결정 하려면 시간이 다소 걸릴 합니다. 
     

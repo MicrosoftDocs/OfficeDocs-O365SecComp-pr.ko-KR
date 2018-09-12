@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 description: '피싱을 방지 하려면 Office 365 및 Outlook.com 이제 필요에 대 한 RFC 준수에서: 주소입니다.'
-ms.openlocfilehash: 562e08aa54cb6544beccb6f0e8760735f67b834b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 8425d4ef7635c2beddcd7915daf73736432d4ca9
+ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532938"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "23955430"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365 피싱 방지 하기 위해 보낸사람 주소를 확인 하는 방법
 
@@ -35,8 +35,6 @@ Microsoft는 2017 년 11 월 9에서이 문서에 설명 된 정책 적용 롤�
 
 Office 365가 변경 From의 사용을 적용 하는 방식에 작업을 수행: 향상 하기 위해 받는 메시지에 주소 피싱 공격 으로부터 사용자를 보호 합니다. 이 문서의 내용
   
-- [모든 메시지에서 유효한 포함 해야: 주소](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
-    
 - [모든 메시지에서 유효한 포함 해야: 주소](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
     
 - [From의 형식: 표시 이름을 포함 하지 않으면 주소](how-office-365-validates-the-from-address.md#FormatNoDisplayName)

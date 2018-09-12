@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 description: 새로운 Office 365 메시지 암호화 Azure 정보 보호 조직의 위쪽에 구축 된 기능을 사용 하 여 수 내부 테두리와 조직 외부의 사용자와 전자 메일 통신을 보호 합니다. 다른 Office 365, Outlook.com, Gmail, 조직과 다른 전자 메일 서비스를 사용 하는 새 OME 기능입니다.
-ms.openlocfilehash: e59368f5854c86c04f4f0bdf376537d3f6b02d33
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c24b2f9b612b863217df8afd951424d1a89295c9
+ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534077"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "23955420"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
@@ -25,7 +25,7 @@ Azure 정보 보호의 보호 기능을 활용 하는 새로운 Office 365 메�
   
 ## <a name="get-started-with-ome-by-activating-azure-rights-management-part-of-azure-information-protection"></a>Azure 권한 관리, Azure 정보 보호의 일부를 활성화 하 여 OME 시작 하기
 
-이제 새 OME 기능을 사용 하는 것이 쉽습니다. 2 월 2018를 기준으로 자동으로 Office 365에는 데이터 센터 내에서 사용할 수 있는 조직에 대 한 새 OME 기능 수 있습니다. 새 Office 365 테 넌 트 이며 조직에 적합 한 구독 하는 경우 조직 대상이있지 않습니다. * * If * * * * Azure 권한 관리 (Azure RMS) 부분에서는 Azure 정보 보호를 사용 하도록 설정한 다음 Office 365 메시지 암호화 하면 자동으로 활성화 했습니다. * * 하면 OME 수 있도록 다른 작업을 수행할 필요가 없습니다. Azure 권한 관리를 활성화 하려면 [Azure 권한 관리 활성화](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service)를 참조 하십시오. 구독에 대 한 정보를 "어떤 구독 해야하는 새 OME capabilities?를 사용 하 여" [Office 365 메시지 암호화 FAQ](ome-faq.md)에서 참조 하십시오. Azure 정보 보호에 대 한 구독 구입 하는 방법에 대 한 정보를 [Azure 정보 보호](https://azure.microsoft.com/services/information-protection/)를 참조 하십시오.
+이제 새 OME 기능을 사용 하는 것이 쉽습니다. 2 월 2018를 기준으로 자동으로 Office 365에는 데이터 센터 내에서 사용할 수 있는 조직에 대 한 새 OME 기능 수 있습니다. 새 Office 365 테 넌 트 이며 조직에 적합 한 구독 하는 경우 조직 대상이있지 않습니다. **하는 경우 Azure 권한 관리 (Azure RMS) 부분에서는 Azure 정보 보호를 사용 하도록 설정한 다음 Office 365 메시지 암호화 하면 자동으로 활성화 했습니다.** OME를 사용 하도록 설정 하려면 다른 작업을 수행할 필요가 없습니다. Azure 권한 관리를 활성화 하려면 [Azure 권한 관리 활성화](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service)를 참조 하십시오. 구독에 대 한 정보를 "어떤 구독 해야하는 새 OME capabilities?를 사용 하 여" [Office 365 메시지 암호화 FAQ](ome-faq.md)에서 참조 하십시오. Azure 정보 보호에 대 한 구독 구입 하는 방법에 대 한 정보를 [Azure 정보 보호](https://azure.microsoft.com/services/information-protection/)를 참조 하십시오.
   
 Exchange Online Active Directory Rights Management 서비스 (AD RMS)를 사용할 경우 즉시 이러한 새 기능을 활성화할 수 없습니다. 대신, 먼저 Azure 정보 보호 AD RMS에서 마이그레이션 해야 합니다. 마이그레이션 완료 했을 때, 다음이 단계를 성공적으로 완료할 수 있습니다.
   
@@ -62,22 +62,18 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
     
 2. 다음 구문을 사용 하 여 Test-irmconfiguration cmdlet을 실행 합니다.
     
-  ```
-  Test-IRMConfiguration [-Sender <email address >]
-  ```
+    ```Test-IRMConfiguration [-Sender <email address >]```  
 
-    예를 들면 다음과 같습니다.
+   예를 들면 다음과 같습니다.
     
-  ```
-  Test-IRMConfiguration -Sender securityadmin@contoso.com
-  ```
+    ```Test-IRMConfiguration -Sender securityadmin@contoso.com```
 
     여기서 전자 메일 주소는 Office 365 조직에 있는 사용자의 전자 메일 주소입니다. 옵션, 제공 하는 동안 보낸 전자 메일 주소를 추가 검사를 수행 하려면 시스템을 강제 합니다.
     
     결과 다음과 같은 같아야 합니다.
     
-  ```
-  Results : Acquiring RMS Templates ...
+    ```
+    Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not 
             Forward.
             Verifying encryption ...
@@ -88,7 +84,7 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
                 - PASS: IRM verified successfully.
             
             OVERALL RESULT: PASS
-  ```
+    ```
 
     여기서 *Contoso* 는 Office 365 조직 이름으로 대체 됩니다. 
     
@@ -98,9 +94,7 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
     
 3. 권한 관리 서비스에서 연결을 끊으려면 Remove-pssession cmdlet을 실행 합니다.
     
-  ```
-  Remove-PSSession $session
-  ```
+    ```Remove-PSSession $session```
 
 ## <a name="next-steps-define-new-mail-flow-rules-that-use-the-new-ome-capabilities"></a>다음 단계: 새 OME 기능을 사용 하는 새 메일 흐름 규칙 정의
 <a name="Rules_1"> </a>
