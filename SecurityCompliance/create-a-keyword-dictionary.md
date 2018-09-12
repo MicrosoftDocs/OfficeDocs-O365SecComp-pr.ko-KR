@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: c8a95d1b-c3b6-4613-98ab-0331d1872cf3
 description: '경우에 따라 중요한 정보를 식별하기 위해 키워드를 검색해야 할 수 있습니다. 이러한 작업은 일반 콘텐츠(예: 의료 관련 커뮤니케이션) 또는 부적절하거나 명시적인 언어를 식별할 때 특히 필요합니다. 중요한 정보 유형에 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되며 생성하거나 편집하기 위해 XML을 수정해야 합니다. 키워드 사전은 키워드를 보다 간편하게 관리할 수 있도록 하며 사전당 최대 100,000개 용어를 지원합니다.'
-ms.openlocfilehash: 3a6557e14a3dd8bdc9e803915ea460c1fbda704b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 5dd0459c801b433b8f0a477aeb2ab4192236bd28
+ms.sourcegitcommit: 4be502d1fc6cbaef4c72d599758d51efe3a173c9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013992"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23849401"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -29,7 +29,7 @@ Office 365의 DLP(데이터 손실 방지)는 중요한 정보를 식별, 모니
 
 사전의 키워드는 다양한 원본, 파일(예:.csv 또는 .txt 목록)(대부분의 경우), cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
   
-1. **보안 및 준수 센터 PowerShell에 연결** - [이 항목](https://go.microsoft.com/fwlink/p/?linkid=799771)을 참조하세요.
+1. **보안 및 &amp;준수 센터 PowerShell에 연결** - [이 항목](https://docs.microsoft.com/ko-KR/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 참조하세요.
     
 2. **의도한 원본의 키워드 정의 또는 로드** - 키워드 사전을 만드는 cmdlet은 쉼표로 구분된 키워드 목록을 수락하므로, 이 단계는 키워드를 가져오는 원본에 따라 약간 다릅니다. 
     
@@ -39,9 +39,9 @@ Office 365의 DLP(데이터 손실 방지)는 중요한 정보를 식별, 모니
     
 ## <a name="create-a-keyword-dictionary-from-a-file"></a>파일에서 키워드 사전 만들기
 
-종종 대용량 사전 만들어야 할 경우 다른 원본에서 가져온 파일이나 목록의 키워드를 사용할 수 있습니다. 이 경우 외부 전자 메일에서 걸러내야 할 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다. 먼저 [보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=799771)해야 합니다.
+종종 대용량 사전 만들어야 할 경우 다른 원본에서 가져온 파일이나 목록의 키워드를 사용할 수 있습니다. 이 경우 외부 전자 메일에서 걸러내야 할 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다. 먼저 [Office 365 보안 &amp; 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/ko-KR/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)해야 합니다.
   
-1. 텍스트 파일에 있는 키워드를 복사합니다. 이때 각 키워드를 별도 줄로 복사해야 합니다.
+1. 키워드를 텍스트 파일에 복사합니다. 이때 각 키워드를 별도 줄에 복사해야 합니다.
     
 2. 텍스트 파일을 유니코드 인코딩으로 저장합니다. 메모장에서 \> **다른 이름으로 저장** \> **인코딩으로** \> **유니코드**를 선택합니다.
     
