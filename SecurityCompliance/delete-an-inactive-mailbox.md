@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: 더이상 Office 365 비활성 사서함의 내용을 보존 해야하는 경우에 보류를 제거 하 여 비활성 사서함을 영구적으로 삭제할 수 없습니다. 보류를 제거한 후 비활성 사서함 삭제 하도록 표시 하 고 처리 된 후에 영구적으로 삭제 됩니다.
-ms.openlocfilehash: 91b73fff6ca319735289abe7ea9351b5fba931a0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a7284be650d7ec6c89a6fdc43d8614603d6f1e19
+ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532970"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965255"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 삭제
 
@@ -104,11 +104,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. EAC에서 **규정 준수 관리** 로 이동 \> **원본 위치 eDiscovery &amp; 유지**합니다.
     
-<<<<<<< HEAD
 3. 삭제 하려는 원본 위치 유지를 선택 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)합니다.
-=======
-3. 삭제 하려는 원본 위치 유지를 선택 하 고 **편집**을 클릭 한 다음! [아이콘 편집](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)합니다.
->>>>>>> markjjo 변환
     
 4. **원본 위치 eDiscovery &amp; 유지** 속성 페이지, **원본 위치 유지**를 클릭, **선택한 사서함에서 검색 쿼리 일치에 전체 콘텐츠 유지** 확인란의 선택을 취소 한 다음 **저장**을 클릭 합니다.
     

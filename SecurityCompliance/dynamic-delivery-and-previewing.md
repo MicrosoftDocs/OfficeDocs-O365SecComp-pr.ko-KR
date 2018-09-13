@@ -3,7 +3,6 @@ title: 동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/28/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 description: ATP 안전한 첨부 파일 정책에 연결을 설정할 때 동적 배달 메시지 지연을 방지 하 고 사용자 검색 되는 첨부 파일 미리 보기를 사용 하도록 설정 하려면 선택 합니다.
-ms.openlocfilehash: 23017f4f995dfe6a90479d83af9522531d7bf96b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 23ef316ed35b89ef1fad5e9639dd10e76036a4f3
+ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532903"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965245"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기
 
@@ -65,6 +64,8 @@ ms.locfileid: "22532903"
 - 오류 상태에 있는 사용자의 사서함 검색 폴더
     
 - Exchange Online 관리자가 Exclaimer를 활성화 하는 환경입니다. (참조 [ATP 동적 배달 및 Exclaimer를 사용 하는 경우 첨부 파일이 있는 메시지 배달 되지 않습니다](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery).)
+
+- 기업이 Internet Mail Extensions ([S/MIME](s-mime-for-message-signing-and-encryption.md))를 사용 하 여 암호화 된 메시지
     
 ## <a name="related-topics"></a>관련 항목
 

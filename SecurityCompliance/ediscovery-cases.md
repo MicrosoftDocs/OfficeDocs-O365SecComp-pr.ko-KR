@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Office 365 보안을 사용 하 여 &amp; 준수 센터를 만들고 조직에서 eDiscovery 사례를 관리 합니다. 대/소문자에 구성원 할당, 콘텐츠 Searchs 실행 대기 위치에 연결 된 경우에는 내보내기 검색 결과 콘텐츠를 배치할 수 있습니다. 또한 고급 eDiscovery의 추가 분석을 위해 사례 데이터를 준비할 수 있습니다.
-ms.openlocfilehash: 6f81c4296ea7455a781b02a25d065304a2a3a087
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 3beb7dcf3e09816c1a282944767d2353f08943be
+ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533835"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965275"
 ---
 # <a name="ediscovery-cases-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 eDiscovery 사례 &amp; 준수 센터
 
@@ -76,7 +76,7 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
   
  **eDiscovery 권한을 할당하려면**
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
     
@@ -94,7 +94,7 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
 
 다음 단계에서는 새 eDiscovery 사례를 만드는 것입니다. EDiscovery 사례를 만들 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 보안에서 새 사례를 만든 후 앞부분에 설명 &amp; 준수 센터, 있습니다 (및 기타 사례 멤버) 고급 ediscovery 조직 참가 하 고 있는 경우 동일한 경우 Office 365 E5 구독에 대 한 액세스 수 있게 됩니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
     
@@ -113,7 +113,7 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
 
 새 사례를 만든 후 다음 단계에서는 대/소문자를 구성원을 추가 하는 것입니다. 검토자의 구성원 인 사용자만 같이 이전 설명 또는 대/소문자의 구성원으로 eDiscovery 관리자 역할 그룹을 추가할 수 있습니다. Note eDiscovery 사례를 만든 관리자 구성원으로 자동으로 추가 됩니다.
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 구성원을 추가 하려는 경우의 이름을 클릭 합니다.
     
@@ -124,6 +124,9 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
 3. **관리 구성원**아래에서 다음을 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) 대/소문자에 구성원을 추가 하려면 **추가** 합니다. 
     
     또한 대/소문자에 역할 그룹을 추가할 수 있습니다. **관리 역할 그룹**를 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) **추가**합니다.
+    
+    > [!NOTE]
+    > EDiscovery 사례에 구성원을 할당할 수 있는 역할 그룹 제어 합니다. 즉, 사례에 소속 된 역할 그룹에만 할당할 수 있습니다.
     
 4. 대/소문자의 구성원으로 추가할 수 있는 사용자 또는 역할 그룹의 목록에서 추가 하려는 사용자 또는 역할 그룹의 이름 옆에 있는 확인란을 클릭 합니다.
     
@@ -151,7 +154,7 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
   
 EDiscovery 사례에 대 한 보류를 만들려면:
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 보류를 만들려는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -227,7 +230,7 @@ EDiscovery 사례에 대 한 보류를 만들려면:
 
 EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians 보류에 배치 되 만들기 및 대/소문자와 연결 된 하나 이상의 콘텐츠 검색을 실행할 수 있습니다. 사례와 연결 된 검색 보안에서 **검색** 페이지에 나열 되지 않은 콘텐츠 &amp; 준수 센터입니다. 이 즉, 사례와 연결 된 콘텐츠 검색도 eDiscovery 관리자 역할 그룹의 구성원 인 경우 구성원만 액세스할 수 있습니다. 
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 콘텐츠 검색을 만들려는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -299,7 +302,7 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
   
 ### <a name="export-the-results-of-a-single-search-associated-with-a-case"></a>사례와 관련 된 단일 검색 결과 내보내기
 
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 내보낼에서 검색 하는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -333,7 +336,7 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
 > [!NOTE]
 > 모든 사례 콘텐츠를 검색 하려면 해당 검색 중 하나를 구성한 경우에 여러 검색 결과 내보낼 수 없습니다. 만 eDiscovery 사례와 연결 된 검색에 대 한 여러 검색 결과 내보냅니다. 보안에서 **콘텐츠 검색** 페이지에 나열 된 여러 검색 결과 내보낼 수는 없습니다 &amp; 준수 센터입니다. 
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 검색 결과를 내보내려는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -395,7 +398,7 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
 > [!NOTE]
 > 고급 eDiscovery를 사용 하 여 사용자의 데이터를 분석 하려면 (데이터의 더불어) 사용자는 Office 365 E5 라이선스를 할당 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자의 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 관리자 및 규정 준수 관리자의 경우에 할당 된 및 고급 eDiscovery를 사용 하 여 데이터를 분석 하 게 e 5 라이선스가 필요는 없습니다. 
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 고급 eDiscovery에 대 한 분석을 위해 검색 결과 준비 하려는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -425,9 +428,9 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
 
 보안에는 대/소문자를 만든 후 &amp; 준수 센터 고급 eDiscovery의 동일한 대/소문자도 이동할 수 있습니다.
   
-고급 ediscovery에서 사례에 이동 합니다.
+Advanced eDiscovery에서 사례로 이동하려면
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 고급 eDiscovery에 이동 하려는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -462,7 +465,7 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
     
 사례를 닫습니다.
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 닫으려는 경우의 이름을 클릭 합니다.
     
@@ -486,7 +489,7 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
 
 사례를 다시 열 때 대/소문자를 닫았을 때 전체에 있던 모든 보류 자동으로 복원할 수 없습니다. 대/소문자를 다시 후 **보류** 페이지로 이동 하 고 이전 보류를 설정 하려면 해야 합니다. 보류를 켜려면 선택한 세부 정보 창에서 **설정** 를 클릭 합니다. 
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 다시 하려는 경우의 이름을 클릭 합니다.
     
