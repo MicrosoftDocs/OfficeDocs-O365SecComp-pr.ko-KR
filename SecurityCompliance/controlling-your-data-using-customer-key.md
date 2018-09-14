@@ -3,7 +3,7 @@ title: 고객 키를 사용하여 Office 365에서 데이터 제어
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 7/2/2018
+ms.date: 8/1/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: f2cd475a-e592-46cf-80a3-1bfb0fa17697
 description: 고객 키에 대 한 설정 Office 365 개발자를 위한 Exchange Online, Skype 비즈니스, SharePoint Online 및 비즈니스용 OneDrive에 대 한 하는 방법에 알아봅니다. 고객 키를 사용 하 컨트롤 조직의 암호화 키 및 Microsoft의 데이터 센터의 나머지 부분에서 데이터를 암호화 하 고 사용 하 여 Office 365를 구성 합니다.
-ms.openlocfilehash: f8d7c12c32ca74b842f676f4a2ccde4d1c758361
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 3eeccd03b89aa5a79ceba536d3f13c7a881b6ca7
+ms.sourcegitcommit: ef0bb05a0cf7974ae5083c7551ce3fe4ab7a9544
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22559233"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965612"
 ---
 # <a name="controlling-your-data-in-office-365-using-customer-key"></a>고객 키를 사용하여 Office 365에서 데이터 제어
 
