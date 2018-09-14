@@ -3,7 +3,6 @@ title: Office 365에서 아웃 바운드 스팸 제어
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 09/13/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 description: 조직으로 표시 된 대량 메일 많은 스팸으로 보내는 경우 Office 365를 사용한 전자 메일을 보내지 못하도록 차단 될 수 있습니다. 이 문제가 발생 하는 이유 및 그에 대 한 수행할 수 있는 작업에 대 한 자세한 내용은이 문서를 읽어보십시오.
-ms.openlocfilehash: 1e416ded5a7d91376a75075e5de1de60bc8a205b
-ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
+ms.openlocfilehash: 916a062d08e01954e7736b6f22d297aea04baf28
+ms.sourcegitcommit: 17dda7ece5c9e884944a92ac0f842cf1e62ec506
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23968268"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23977583"
 ---
 # <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃 바운드 스팸 제어
 
