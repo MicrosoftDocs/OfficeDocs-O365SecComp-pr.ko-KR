@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Office 365 Enterprise 보호할 수 있는 방법을 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직에 알아봅니다.
-ms.openlocfilehash: ac4ac5d9800402c587ed52cc03905414a60471f6
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 4534e12280b5e627c2594c0365262a5c7c14a8c4
+ms.sourcegitcommit: 15dfa0c83aa88816c18e30a44a49e36e733d952c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533368"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24011270"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협으로부터 보호
 
@@ -46,7 +46,7 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 - [Microsoft에 의심 스러운 콘텐츠를 제출 합니다.](https://technet.microsoft.com/en-us/library/dn762129%28v=exchg.150%29.aspx)
     
-## <a name="advanced-threat-protection"></a>고급 위협 방지
+## <a name="advanced-threat-protection"></a>Advanced Threat Protection
 
 스푸핑 관리, 피싱 공격을 방지 하 고, 악성 Url 또는 전자 메일 메시지와 고급 위협 보호 ATP ()에 파일을 잡아 정책을 구성 합니다.
   
@@ -88,6 +88,14 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 - [Office 365 위협 인텔리전스 시작하기](get-started-with-ti.md)
     
+## <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
+
+기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 합니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후 사용자가 높은 범위가 지정 되며 시간 제한이 있는 승인 워크플로 통해 관리자 권한 및 권한 있는 작업을 완료 하려면 적시에 액세스를 요청 해야 합니다.
+  
+- [대략적으로 권한 관리에 액세스](privileged-access-management-overview.md)
+    
+- [권한 시작 액세스 관리](privileged-access-management-configuration.md)
+
 ## <a name="additional-options"></a>추가 옵션
 
 관련된 Microsoft 기술 및 위협에 대 한 보안 Office 365는 데 도움이 되는 프로세스에 대 한 자세한 정보를 봅니다.

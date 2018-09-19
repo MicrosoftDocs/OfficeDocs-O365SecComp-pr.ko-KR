@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: O365 데이터 및 서비스에 대 한 액세스를 보호 하기 위해 페이지를 방문 합니다.
-ms.openlocfilehash: 6ea617b1a7a7a34492689908d4816a851d58e776
-ms.sourcegitcommit: 0ce722533d72fa8dcc1d8a58d3c649cb345b938d
+ms.openlocfilehash: 652a14c5f1f29187aeac51355e7a924c9378806f
+ms.sourcegitcommit: 15dfa0c83aa88816c18e30a44a49e36e733d952c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/19/2018
-ms.locfileid: "24009104"
+ms.locfileid: "24011280"
 ---
 # <a name="protect-access-to-data-and-services-in-office-365"></a>Office 365에서 데이터 및 서비스에 대한 액세스 보호
 
@@ -58,7 +58,7 @@ Azure AD MFA를 사용 하는 경우 Office 365 및 환경에서 다른 SaaS 응
 
 액세스 권한 관리 Office 365에서 권한이 부여 된 관리 작업을 통해 세분화 된 액세스 제어를 허용 합니다.  기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 하는 것이 도움이 됩니다.
 
-- [권한 개요 액세스 관리](privileged-access-managment-overview.md)
+- [권한 개요 액세스 관리](privileged-access-management-overview.md)
 - [액세스 권한을된 관리 구성](privileged-access-management-configuration.md)
 
 ## <a name="step-5-configure-sharepoint-device-access-policies"></a>5 단계: SharePoint 장치 액세스 정책 구성
