@@ -3,7 +3,6 @@ title: Office 365에서 데이터 보존, 삭제 및 폐기
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration
@@ -12,12 +11,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 데이터 보존 기간, 삭제 및 폐기에 대 한 Office 365에 대 한 Microsoft의 정책 개요입니다.
-ms.openlocfilehash: 4d952058df8d0efb664f23e5495796fdb9e006f2
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: bb038f8bd8e3f0286ea7d673e5e286bdc4a9677d
+ms.sourcegitcommit: 1bccdaacf358505604c9cf422cb1e272aefae19d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533257"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999149"
 ---
 # <a name="data-retention-deletion-and-destruction-in-office-365"></a>Office 365에서 데이터 보존, 삭제 및 폐기
 
@@ -68,8 +67,8 @@ Microsoft는 재활용 및 폐기 디스크 드라이브 및 실패 한 또는 �
 항상 용어 중 구독 at 구독자는 Microsoft 기술 지원 서비스 및 긴급 요청 구독 프로 비전 해제 문의할 수 있습니다. 이 프로세스에서 데이터를 포함 하 여 SharePoint online에서 Exchange Online에서 될 수 있는 모든 사용자 데이터를 유지 또는 관리자가 Microsoft에서 제공 하는 잠금 코드를 입력 한 후 삭제 된 3 일은 비활성 사서함에 저장 합니다. 긴급 프로 비전 해제에 대 한 자세한 내용은 [Office 365 취소](https://support.office.com/article/Cancel-Office-365-for-business-b1bc0bef-4608-4601-813a-cdd9f746709a)를 참조 하십시오.
 
 ## <a name="related-links"></a>관련된 링크
-- [Exchange Online 데이터 삭제](/office365/enterprise/office-365-exchange-online-data-deletion)
-- [SharePoint Online 데이터 삭제](/office365/enterprise/office-365-sharepoint-online-data-deletion)
-- [비즈니스용 Skype 데이터 삭제](/office365/enterprise/office-365-skype-data-deletion)
-- [Office 365의 불변성](/office365/enterprise/office-365-data-immutability)
-- [데이터 폐기](/office365/enterprise/office-365-data-destruction)
+- [Exchange Online 데이터 삭제](office-365-exchange-online-data-deletion.md)
+- [SharePoint Online 데이터 삭제](office-365-sharepoint-online-data-deletion.md)
+- [비즈니스용 Skype 데이터 삭제](office-365-skype-data-deletion.md)
+- [Office 365의 불변성](office-365-data-immutability.md)
+- [데이터 폐기](office-365-data-destruction.md)
