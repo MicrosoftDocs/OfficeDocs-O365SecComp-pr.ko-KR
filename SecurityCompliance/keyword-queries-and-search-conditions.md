@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'SharePoint 또는 OneDrive 및 Exchange Online 사서함에 콘텐츠 검색 도구를 사용 하 여 Office 365 보안에서 비즈니스 사이트를 검색할 수 있는 전자 메일 및 파일 속성에 대 한 설명 &amp; 준수 센터입니다.  '
-ms.openlocfilehash: 8501743d38425cb980088d65e1dd6bd0bd45cc08
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: a797a8d6dd616616c5dc8606c3e3043530e873c3
+ms.sourcegitcommit: 7675230c9cda25cbf7ad7d4cadf4372c03789cf6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782105"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24015359"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
-이 항목에서는 Exchange Online 및 SharePoint에 저장 된 문서에서 전자 메일 항목에서 검색할 수 있는 전자 메일 및 문서 속성을 설명 하 고 비즈니스용 Office 365 보안에서 콘텐츠 검색 기능을 사용 하 여 사이트 &amp; 규정 준수 가운데 사용할 수 있습니다는 ** \*-ComplianceSearch** 보안의 cmdlet &amp; 준수 센터 PowerShell 이러한 속성에 대 한 검색 합니다. 항목에 설명 합니다. 
+이 항목에서는 Exchange Online 및 SharePoint에 저장 된 문서에서 전자 메일 항목에서 검색할 수 있는 전자 메일 및 문서 속성을 설명 하 고 비즈니스용 Office 365 보안에서 콘텐츠 검색 기능을 사용 하 여 사이트 &amp; 규정 준수 가운데 사용할 수 있습니다는 ** \*-ComplianceSearch** 보안의 cmdlet &amp; 준수 센터 PowerShell 이러한 속성에 대 한 검색 합니다. 항목에 설명 합니다.   
   
 - 부울 검색 연산자, 검색 조건 및 기타 검색 쿼리 기법을 사용 하 여 검색 결과 구체화할 수 있습니다.
     
