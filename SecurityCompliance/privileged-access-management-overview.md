@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 권한 하는 방법에 대 한 자세한 내용은 Office 365의에서 관리 기능에 액세스
-ms.openlocfilehash: 979587e68ea0cbcf255e087eaaeb38dca4fc7ca1
-ms.sourcegitcommit: 0ce722533d72fa8dcc1d8a58d3c649cb345b938d
+ms.openlocfilehash: 063d291005ec40c21e55188e4ee7c6c8ed6594e8
+ms.sourcegitcommit: d31904e81f81d0fba75309a2bc8bbfb05565a0b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24016146"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "24055263"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Office 365의에서 관리 기능에 액세스 권한
 
@@ -57,7 +57,7 @@ Office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여, �
 
 ### <a name="step-3-access-approval"></a>3 단계: 액세스 승인
 
-승인 요청을 생성 하 고 승인 그룹 대기 중인 요청을 전자 메일로 알립니다. 승인 부여 되 면 액세스 권한이 부여 된 요청이 승인으로 처리 되 하 고 작업을 완료 하도록 준비가 되었습니다. 요청이 거부 되 면 작업은 차단 하 고 액세스할 수 없습니다는 reqeustor에 부여 됩니다.
+승인 요청을 생성 하 고 승인 그룹 대기 중인 요청을 전자 메일로 알립니다. 승인 부여 되 면 액세스 권한이 부여 된 요청이 승인으로 처리 되 하 고 작업을 완료 하도록 준비가 되었습니다. 요청이 거부 되 면 작업은 차단 하 고 액세스할 수 없습니다는 reqeustor에 부여 됩니다. 검토자가 요청자의 요청 승인 또는 거부 전자 메일 메시지를 통해 알림을 받게 됩니다.
 
 ![단계 3-액세스 승인](media/pam-step3-access-approval.jpg)
 
