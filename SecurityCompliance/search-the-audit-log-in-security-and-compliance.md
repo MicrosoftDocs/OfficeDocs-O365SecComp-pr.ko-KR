@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안을 사용 하 여 &amp; 준수 센터를 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 3fe8b4ade1b82cc76fcc300284127693b7e5fc07
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: dc673b8f52bacccfa746ad258ea91d8dd2074eeb
+ms.sourcegitcommit: bf70ec8e11b3f75bf45cd4f760cd1a982593dbad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533148"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24962974"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 및 준수 센터에서 감사 로그 검색
 
@@ -94,7 +94,7 @@ Office 365에서 검색을 시작 하기 전에 다음 항목 감사 로그 읽�
 |Azure Active Directory (관리 이벤트)  <br/> ||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |Azure Active Directory (사용자 로그인 이벤트)  <br/> ||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |Exchange Online  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
-|Microsoft Teams  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
+|Microsoft 팀  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
 |Power BI  <br/> ||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> |
 |보안 &amp; 준수 센터  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
 |SharePoint Online 및 비즈니스용 OneDrive  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
@@ -122,7 +122,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 ### <a name="step-1-run-an-audit-log-search"></a>감사 로그 검색을 실행 하는 1 단계:
 
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
     > [!TIP]
     > 개인 검색 세션 (일반 세션 하지)를 사용 하 여 Office 365 보안 액세스할 &amp; 준수 센터 그러면 현재 로그온 함께 사용 하는 자격 증명을 방지할 수 있으므로 합니다. Internet Explorer 또는 Microsoft에 지는 InPrivate 탐색 세션을 열려면 CTRL + SHIFT + P를 누르십시오. 개인 검색 세션의 Google Chrome (incognito가 창 라고 함)를 열려면 CTRL + SHIFT + N 키를 누릅니다. 
@@ -647,3 +647,60 @@ Exchange 관리자 감사 로깅-Office 365에서 기본적으로 사용 하도�
     
 - Exchange 관리 센터를 사용 하 여 Exchange 관리자 감사 로그에서 이벤트를 볼 수 있습니다. 자세한 내용은 [관리자 감사 로그 보기](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx)를 참조 하십시오.
   
+## <a name="frequently-asked-questions"></a>질문과 대답
+
+**Office 365의 감사 서비스에서 제공 하는 기능에 대 한 어디서 찾을 수 있습니까?**
+
+Office 365에서 사용할 수 있는 감사 및 보고 기능에 대 한 자세한 내용은 [감사 및 Office 365의 보고 기능](office-365-auditing-and-reporting-overview.md)을 참조 하십시오. 
+
+**현재 감사 되는 다른 Office 365 서비스는 무엇입니까?**
+
+가장 사용 되는 Office 365 서비스 같은 Exchange Online, SharePoint, OneDrive, Azure Active Directory, Microsoft 팀의, CRM, 고급 위협 보호 및 데이터 손실 방지를 감사 합니다. 전체 목록은이 문서의 [소개](#search-the-audit-log-in-the-office-365-security-amp-compliance-center) 섹션을 참조 하십시오.
+
+**Office 365에서 서비스를 감사 하 여 어떤 작업을 감사 합니까?**
+
+목록 및 Office 365에서 감사 되는 작업의 설명에 대 한이 문서의 [Audited 작업](#audited-activities) 섹션을 참조 하십시오.
+
+**어떻게 걸립니까 감사 레코드의 이벤트가 발생 한 후에 사용할 수 있습니까?**
+
+30 분 이내에 대부분의 감사 데이터를 사용할 수 있지만 검색 결과에 표시 되도록 해당 감사 로그 항목에 대 한 이벤트가 발생 한 후 24 시간까지 걸릴 수 있습니다. 다른 Office 365 서비스에서 이벤트를 사용할 수에 걸리는 시간을 표시 하는이 문서의 [시작 하기 전에](#before-you-begin) 섹션에 표를 참조 합니다.
+
+**위해서만 감사 레코드는 얼마나 오래?**
+
+현재 감사 로그 레코드는 90 일 동안 보관 됩니다. Microsoft가이 한계를 늘리려면 계획에서 적극적으로 작동 됩니다. 
+
+**감사 데이터를 프로그래밍 방식으로 액세스할 수 있습니까?**
+
+예입니다. Office 365 관리 활동 API는 사용 하 여 감사 로그를 프로그래밍 방식으로 가져옵니다.  시작 하기 위해 [Office 365 관리 Api 시작 하기](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)를 참조 합니다.
+
+**Office 365 보안 및 규정 준수 센터 또는 Office 365 관리 활동 API suing 아닌 다른 로그를 감사 가져올 하는 다른 방법 있습니까?**
+
+아니요. Office 365 감사 서비스에서 데이터를 가져올 수만 두 방법은 다음과 같습니다. 
+
+**개별적으로 각 서비스에 대 한 감사 로그 캡처 하려고 하는 경우를에서 감사를 사용 하도록 설정 해야 합니까?**
+
+대부분의 Office 365 서비스에서 감사 기본적으로 사용 됩니다 (이 문서의 [시작 하기 전에](#before-you-begin) 섹션에서 설명)에 따라 Office 365 조직에 대 한 감사 처음 설정한 후 합니다. 그러나 사서함 감사 하려는 각 사서함에 대 한 Exchange Online 감사를 사용 하도록 설정 해야 합니다.   기본적으로 Office 365 조직에서 모든 사서함에 대해 사서함 감사를 사용 하면 작업 하는 것입니다. 자세한 내용은 "Exchange 사서함 감사에서 사용할 수 있고 기본적으로" [Microsoft 보안, 프라이버시 및 규정 준수 블로그 (영문)을](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Exchange-Mailbox-Auditing-will-be-enabled-by-default/ba-p/215171)참조 하십시오.
+
+**Office 365 감사 서비스 지원 중복 레코드 있습니까?**
+
+아니요. 감사 서비스 파이프라인 실시간으로 근처 이며 중복을 지원할 수 없습니다.
+ 
+**지역 Office 365 감사 데이터 흐름은?**
+
+아니요. NA (북미), EMEA (유럽, 중동 및 아프리카) 및 (아시아 태평양) APAC 지역에서 파이프라인 배포 감사 현재가 제공 됩니다. 그러나 부하 분산 하 고 라이브 사이트 문제 하는 동안에 이러한 지역 간에 데이터를 전달 될 수 있습니다는 합니다. 이러한 작업을 수행 하는 경우에 전송 중에서 데이터가 암호화 됩니다.   
+ 
+**암호화 된 데이터를 감사가?**
+
+데이터를 감사 감사 파이프라인이 배포 된 동일한 영역에서 Exchange 사서함 (보관 된 데이터)에 저장 됩니다. 이 데이터를 암호화 되지 않습니다. 그러나 데이터 전송에서 항상 암호화 됩니다. 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Office 365 보안 콘텐츠 검색 결과에서 검색 결과 내보내기 &amp; 로컬 컴퓨터에 준수 센터입니다. Emaill 전자 메일 결과 PST 파일로 내보냅니다. SharePoint와 OneDrive에서 네이티브 Office 문서로 내보냅니다 비즈니스 사이트에 대 한 콘텐츠입니다. '
-ms.openlocfilehash: a1ea1daef438225b5e65d835efbcdecdb2178da8
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 9b6db129371b234713b5504f5763ee1dc3d7d638
+ms.sourcegitcommit: bf70ec8e11b3f75bf45cd4f760cd1a982593dbad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533973"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24962964"
 ---
 # <a name="export-content-search-results-from-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 콘텐츠 검색 결과 내보낼 &amp; 준수 센터
 
@@ -86,7 +86,7 @@ ms.locfileid: "22533973"
 
 첫번째 단계에서는 내보내기 (영문)에 대 한 검색 결과 준비 하는 것입니다. 결과 준비 하는 Microsoft 클라우드에서 Azure 저장소 위치에 업로드 됩니다. 참고 사서함 및 사이트의 콘텐츠는 시간당 2GB의 최대 속도로 업로드 됩니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
     
@@ -185,7 +185,7 @@ ms.locfileid: "22533973"
   
 [내보내기 보고서](export-search-results.md#export-reports)
   
-[인덱싱되지 않은 항목 내보내기](export-search-results.md#exporting-unindexed-items)
+[부분적으로 인덱싱된 항목 내보내기 (영문)](#exporting-partially-indexed-items)
   
 [개별 메시지 또는 PST 파일 내보내기](export-search-results.md#Exporting-individual-messages-or-PST-files)
   
@@ -282,6 +282,8 @@ ms.locfileid: "22533973"
     C-모든 부분적으로 인덱싱된 항목 검색에 있는 모든 사이트에서 사이트 검색 조건과 일치 하는 항목을 포함 하는 여부에 관계 없이 내보내집니다.
     
     부분적으로 인덱싱된 항목을 내보낼 하려는 경우 **내보내기 Exchange 콘텐츠를**아래에서 선택 하는 옵션에 관계 없이 별도 PST 파일에 부분적으로 인덱싱된 사서함 항목을 내보냅니다.
+
+- 부분적으로 인덱싱된 항목은 검색에서 반환 되 면 결과 (하기 때문에 검색 조건과 일치 하는 부분적으로 인덱싱된 항목의 다른 속성), 일반 검색 결과 함께 이러한 부분적으로 인덱싱된를 내보내야 합니다. 따라서 ( **인식할 수 없는 형식 내용이 있는 원본을 비롯 하는 모든 항목은 암호화 또는 다른 이유로 인덱싱된 받지** 내보내기 옵션을 선택 하면) 하 여 인덱싱된 항목 및 부분적으로 인덱싱된 항목 모두를 내보낼 하려는 경우 부분적으로 인덱싱된 항목은 내보낸 일반 reslts 함께에서 나열 Results.csv 보고서입니다. 인덱싱되지 않은 items.csv 보고서에는 것이 나열 되지 않습니다.
     
  ### <a name="exporting-individual-messages-or-pst-files"></a>개별 메시지 또는 PST 파일 내보내기
   
