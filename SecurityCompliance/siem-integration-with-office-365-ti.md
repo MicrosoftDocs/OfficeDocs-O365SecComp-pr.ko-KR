@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb56b69b-3170-4086-82cf-ba40a530fa1b
 description: Office 365 위협 인텔리전스 및 Office 365 활동 관리 API를 사용 하 여 고급 위협 보호 조직의 SIEM 서버를 통합 합니다.
-ms.openlocfilehash: 40c84b9d7b7ec4c9b15383e3ffbbabf839294def
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: 057d8ac101b96f37846ac751645934279d45dc88
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782145"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972260"
 ---
 # <a name="siem-integration-with-office-365-threat-intelligence-and-advanced-threat-protection"></a>Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합
 
@@ -28,7 +28,7 @@ Office 365 활동 관리 API는 조직의 Office 365와 Azure Active Directory �
 SIEM 서버 또는 기타 유사한 시스템 액세스 감지 이벤트 **audit.general** 작업 부하를 폴링해야 합니다. 자세한 내용은 [Office 365 관리 Api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)합니다. 
 
 > [!IMPORTANT]
-> Office 365 전역 관리자 또는 보안 관리자 역할이 Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합을 설정 하는 보안 및 규정 준수 센터에 할당 해야 합니다.</br>감사 로깅 Office 365 환경에 대 한 설정 해야 합니다. 를 대체 되는 도움말을 보려면 [Office 365 설정 또는 해제 로그 검색 감사](turn-audit-log-search-on-or-off.md)를 참조 합니다.
+> Office 365 전역 관리자 또는 보안 관리자 역할이 Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합을 설정 하는 보안 및 규정 준수 센터에 할당 해야 합니다.<br/>감사 로깅 Office 365 환경에 대 한 설정 해야 합니다. 를 대체 되는 도움말을 보려면 [Office 365 설정 또는 해제 로그 검색 감사](turn-audit-log-search-on-or-off.md)를 참조 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 

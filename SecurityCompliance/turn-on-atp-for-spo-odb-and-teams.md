@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: SharePoint, OneDrive 및 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 팀에 대 한 ATP를 설정 하는 방법에 알아봅니다.
-ms.openlocfilehash: c29ed850257e04ba9b88745157f33a6e16948c2f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: bb99aee0887f15f065a47d691c59ce47639bdc32
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534037"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972240"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "22534037"
     
 5. 검토 (하 고 적절 하 게 편집) 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전 링크 정책](set-up-atp-safe-links-policies.md).
     
-6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true* 로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. </br></br>파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.</br></br>삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.</br></br>매개 변수를 *true로*설정 하는 것이 좋습니다. 
+6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true* 로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. <br/><br/>파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.<br/><br/>삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.<br/><br/>매개 변수를 *true로*설정 하는 것이 좋습니다. 
    
 7. 모든 Office 365 데이터 센터에 분산 하 여 변경 내용 최대 30 분까지를 허용 합니다.
     

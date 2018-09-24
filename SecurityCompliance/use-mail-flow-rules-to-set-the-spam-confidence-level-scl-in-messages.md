@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 description: 신뢰도 scl (스팸)의 전자 메일 메시지를 설정 하는 전송 규칙을 만들 수 있습니다. SCL은 스팸일 가능성 메시지의 측정 됩니다. 스팸 원치 않는 (및 일반적으로 원치 않는) 전자 메일 메시지 수입니다. 서비스의 SCL 등급에 따라 메시지에 대해 다른 작업을 수행 합니다. 예, 다음 스팸 콘텐츠 동료에서 내부적으로 보내는 메시지 스팸을 신뢰할 수 있으므로 조직 내부에서 보낸 메시지에 대 한 필터링을 무시 하는 것이 좋습니다. 스팸 처리에 대 한 제어를 늘리기 제공 메시지의 SCL 값을 설정 하려면 전송 규칙을 사용 하 여 합니다.
-ms.openlocfilehash: 7abd0d1881374b1f2a4bd32ee480445f7683d1b3
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 97b9a62e76efea134af5bb1bb7bd25a98bb466d2
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002897"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972280"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
@@ -42,7 +42,7 @@ ms.locfileid: "23002897"
     
 4. **기타 옵션**을 선택 하 고 **하는 경우이 규칙 적용**에서 (이 SCL 값을 설정 하려면)이이 규칙에 대 한 설정 하겠습니다 하는 경우 작업을 트리거하는 조건의 지정 합니다.
     
-    예 **보낸** 를 설정할 수 있습니다 \> **내부/외부가**아니면 다음 **보낸사람 위치 선택** 대화 상자에서 선택 **조직 내부**, 하 고 **확인**을 선택 합니다.</br>
+    예 **보낸** 를 설정할 수 있습니다 \> **내부/외부가**아니면 다음 **보낸사람 위치 선택** 대화 상자에서 선택 **조직 내부**, 하 고 **확인**을 선택 합니다.<br/>
     ![보낸 사람 위치 선택](media/EOP-ETR-SetSCL-1.jpg)
   
 5. **다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.

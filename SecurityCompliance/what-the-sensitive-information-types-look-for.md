@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
 description: Office 365 보안에서 데이터 손실 방지 (DLP) &amp; 준수 센터 DLP 정책에서 사용 하 여 사용할 수 있는 80 중요 한 정보 유형을 포함 합니다. 이 항목 모두 이러한 중요 한 정보 유형 및 각 종류를 감지 하는 경우의 DLP 정책을 찾아 나와 있습니다.
-ms.openlocfilehash: 064606085363ba9de972511642993277451c8ce3
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 2e59b322730ca7fa828a685ed3a80c48ebdbbfd8
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533872"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972360"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요 한 정보 형식을 찾습니다.
 
@@ -142,7 +142,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Argentina National Identity number
  
-- ID 
+- Identity 
 - 식별 국가 Id 카드 
 - DNI
  
@@ -3227,7 +3227,7 @@ Passeportn °
 ### <a name="pattern"></a>패턴
 
 다음 두 패턴 중 하나가 일치해야 합니다.
-- 두 자리 숫자 앞에 오는 공백 뒤 13 자릿수</br>
+- 두 자리 숫자 앞에 오는 공백 뒤 13 자릿수<br/>
 또는
 - 15자리 연속 숫자
 

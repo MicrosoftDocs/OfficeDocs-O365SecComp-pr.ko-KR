@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0a322724-08ca-43db-b69a-afbfa20484cd
 description: Office 365에서 가장 강력한 암호화, 프로토콜 및 사용할 수 있는 기술을 사용 하 여 전송 하 고 나머지 부분에 콘텐츠 암호화 됩니다. Office 365의 암호화의 개요를 확인 합니다.
-ms.openlocfilehash: e5c21cf456f9ccca2393b8985dd47e34745902cf
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a9f37fddf28461ee4912e0b8a1f5b922c59c009f
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533507"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972290"
 ---
 # <a name="encryption-in-office-365"></a>Office 365의 암호화
 
@@ -70,7 +70,7 @@ Office 365와 함께 여러 계층 및 데이터를 보호 하기 위해 협력 
 |내 조직에 대 한 암호화 설정  <br/> |[Office 365 Enterprise의 암호화 설정](set-up-encryption.md) <br/> |
 |인증서, 기술 및 Office 365에서 TLS 암호화 제품군에 대 한 세부 정보 보기  <br/> |[Office 365의 암호화에 대 한 기술 정보](technical-reference-details-about-encryption.md) <br/> |
 |모바일 장치에서 암호화 된 메시지와 함께 작동 합니다.  <br/> |[Android 장치에서 암호화 된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
-|암호 보호 기능을 사용 하 여 문서를 암호화  <br/></br>  현재 암호 보호 Office Online에서 지원 되지 않습니다. 암호 보호를 위한 Word, Excel 및 PowerPoint의 데스크톱 버전을 사용 합니다.           |[문서, 통합 문서 또는 프레젠테이션에 추가 또는 제거 보호](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (한 **추가 보호** 섹션을 선택 하 고 **데이터베이스 암호를** 참조)  <br/> |
+|암호 보호 기능을 사용 하 여 문서를 암호화  <br/><br/>  현재 암호 보호 Office Online에서 지원 되지 않습니다. 암호 보호를 위한 Word, Excel 및 PowerPoint의 데스크톱 버전을 사용 합니다.           |[문서, 통합 문서 또는 프레젠테이션에 추가 또는 제거 보호](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) (한 **추가 보호** 섹션을 선택 하 고 **데이터베이스 암호를** 참조)  <br/> |
 |문서에서 암호화를 제거 합니다.  <br/> |[문서, 통합 문서 또는 프레젠테이션에 추가 또는 제거 보호](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) ( **보호를 제거** 하는 섹션을 선택 하 고 **암호 암호화 제거** 를 참조)  <br/> |
    
 ## <a name="related-topics"></a>관련 항목

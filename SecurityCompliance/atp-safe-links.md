@@ -19,12 +19,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 다음 Office 문서 및 전자 메일 메시지에 하이퍼링크의 클릭 시간 확인 합니다. 피싱 및 기타 공격 으로부터 조직을 보호를 안전한 링크를 사용 합니다.
-ms.openlocfilehash: b2aa83d7958e030170bcbdc4bfb5e27578bf8b81
-ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
+ms.openlocfilehash: 35975ee58763578586b78d7d1f281fde81e1139b
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23955460"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972350"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
@@ -60,9 +60,9 @@ ATP 안전한 링크 정책이 설정 되어, 되 면 Office 365 전역 관리�
     
 ## <a name="how-atp-safe-links-works-with-office-documents"></a>ATP 안전한 링크의 Office 문서와 작동 하는 방법
 
-높은 수준의 같습니다 ATP 안전한 링크 보호 Url에 대 한 Office 365 ProPlus 응용 프로그램 (OneNote, Word, Excel 및 PowerPoint Windows 또는 Mac, iOS 또는 Android 장치, Windows 및 Office Online에서 Visio에 Office 응용 프로그램에서의 현재 버전)에서 작동 하는 방법.
+높은 수준의 같습니다 ATP 안전한 링크 보호 Url에 대 한 Office 365 ProPlus 응용 프로그램 (Word, Excel 및 PowerPoint Windows 또는 Mac, iOS 또는 Android 장치, Windows, OneNote Online 및 Office Online에서 Visio에 Office 응용 프로그램에서의 현재 버전)에서 작동 하는 방법.
   
-1. 사람들이 자신의 컴퓨터, smartphone 또는 태블릿에 Office 365 ProPlus를 설치 했습니다.
+1. 사람들이 자신의 컴퓨터, smartphone 또는 태블릿에 Office 365 ProPlus를 설치 했습니다. (또는 자신의 브라우저에서 Office Online 사용 됩니다.)
     
 2. 사용자가 Word, Excel, PowerPoint 또는 Visio를 열고 자신의 작업이 나 교육용 계정을 사용 하 여 Office 365 엔터프라이즈에 로그인 합니다. 다음은 문서 Url이 들어 있습니다.
     

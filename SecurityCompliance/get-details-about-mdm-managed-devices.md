@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 5602963c-a1f2-4c21-afb9-f66cd7dca1f0
 description: 이 문서에서는 조직에서 Office 365에 대 한 모바일 장치 관리에 대 한 설정 하는 장치에 대 한 세부 정보를 가져오는데 Windows PowerShell을 사용 하는 방법을 보여줍니다.
-ms.openlocfilehash: 2e406d3583e7892531b7c74bef0db374672956c7
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 90ee59c5afed1cd260e13134299a7cb4f17dc5bc
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272533"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972320"
 ---
 # <a name="get-details-about-devices-managed-by-mobile-device-management-mdm-for-office-365"></a>Office 365에 대 한 모바일 장치 관리 (MDM) 하 여 관리 되는 장치에 대 한 정보를 봅니다.
 
@@ -62,12 +62,12 @@ ms.locfileid: "23272533"
     
 ### <a name="step-2-connect-to-your-office-365-subscription"></a>2단계: Office 365 구독에 연결
 
-1. Windows Azure Active Directory 모듈에 대 한 Windows PowerShell을에서 다음 명령을 실행 합니다.</br>  
+1. Windows Azure Active Directory 모듈에 대 한 Windows PowerShell을에서 다음 명령을 실행 합니다.<br/>  
   `$UserCredential = Get-Credential`
 
 2. **Windows PowerShell 자격 증명 요청** 대화 상자에서 사용자 이름 및 Office 365 전역 관리자 계정에 대 한 암호를 입력 한 다음 **확인**을 클릭 합니다.
     
-3. 다음 명령을 실행합니다.</br>
+3. 다음 명령을 실행합니다.<br/>
     `
   Connect-MsolService -Credential $UserCredential
   `
@@ -81,7 +81,7 @@ ms.locfileid: "23272533"
   
 1. Windows 바탕 화면에서 **시작**을 클릭 하 고 Windows PowerShell를 입력 합니다. **Windows PowerShell**을 마우스 오른쪽 단추로 클릭 한 다음 **관리자 권한으로 실행**을 클릭 합니다.
     
-2. 다음 명령을 실행합니다.</br>
+2. 다음 명령을 실행합니다.<br/>
   `Set-ExecutionPolicy RemoteSigned`
 
 3. 대화 상자가 나타나면 입력 `Y` 한 다음 Enter 키를 누릅니다. 
@@ -90,7 +90,7 @@ ms.locfileid: "23272533"
 
 1. Windows PowerShell용 Microsoft Azure Active Directory 모듈을 엽니다.
     
-2. 다음 명령을 실행합니다.</br>
+2. 다음 명령을 실행합니다.<br/>
   ```
   Get-MsolDevice -All -ReturnRegisteredOwners | Where-Object {$_.RegisteredOwners.Count -gt 0}
   ```
@@ -101,7 +101,7 @@ ms.locfileid: "23272533"
 
 ### <a name="first-save-the-script-to-your-computer"></a>먼저, 스크립트를 컴퓨터에 저장
 
-1. 복사 하 고 메모장에 다음 텍스트를 붙여넣습니다.</br> 
+1. 복사 하 고 메모장에 다음 텍스트를 붙여넣습니다.<br/> 
   ```
   param (
       [PSObject[]]$users = @(),
@@ -166,21 +166,21 @@ ms.locfileid: "23272533"
   
   ```
 
-2. 파일 확장명 **. p s 1**을 사용 하 여 Windows PowerShell 스크립트 파일로 저장 합니다. </br>예제:</br> `Get-MsolUserDeviceComplianceStatus.ps1`.
+2. 파일 확장명 **. p s 1**을 사용 하 여 Windows PowerShell 스크립트 파일로 저장 합니다. <br/>예제:<br/> `Get-MsolUserDeviceComplianceStatus.ps1`.
     
 ### <a name="run-the-script-to-get-device-information-for-a-single-user-account"></a>단일 사용자 계정에 대 한 장치 정보를 가져오려면 스크립트 실행
 
 1. Windows PowerShell용 Microsoft Azure Active Directory 모듈을 엽니다.
     
-2. 스크립트를 저장 한 폴더로 이동 합니다. 등 C:\PS-Scripts에 저장 한 경우 다음 명령을 실행이 있습니다.</br>
+2. 스크립트를 저장 한 폴더로 이동 합니다. 등 C:\PS-Scripts에 저장 한 경우 다음 명령을 실행이 있습니다.<br/>
     `cd C:\PS-Scripts`
 
-3. 에 대 한 장치 세부 정보를 가져오는데 사용할 사용자를 식별 하려면 다음 명령을 실행 합니다. 이 예제에서는 bar@example.com에 대 한 세부 정보를 가져옵니다.</br>
+3. 에 대 한 장치 세부 정보를 가져오는데 사용할 사용자를 식별 하려면 다음 명령을 실행 합니다. 이 예제에서는 bar@example.com에 대 한 세부 정보를 가져옵니다.<br/>
   ```
   $u = Get-MsolUser -UserPrincipalName bar@example.com
   ```
 
-4. 스크립트를 시작 하려면 다음 명령을 실행 합니다.</br>
+4. 스크립트를 시작 하려면 다음 명령을 실행 합니다.<br/>
   ```
   .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
   ```
@@ -191,15 +191,15 @@ ms.locfileid: "23272533"
 
 1. Windows PowerShell용 Microsoft Azure Active Directory 모듈을 엽니다.
     
-2. 스크립트를 저장 한 폴더로 이동 합니다. 등 C:\PS-Scripts에 저장 한 경우 다음 명령을 실행이 있습니다.</br>
+2. 스크립트를 저장 한 폴더로 이동 합니다. 등 C:\PS-Scripts에 저장 한 경우 다음 명령을 실행이 있습니다.<br/>
   `cd C:\PS-Scripts`
 
-3. 장치 세부 정보를 가져올 하려는 그룹을 식별 하려면 다음 명령을 실행 합니다. 이 예제에서는 FinanceStaff 그룹에서 사용자에 대 한 세부 정보를 가져옵니다.</br>
+3. 장치 세부 정보를 가져올 하려는 그룹을 식별 하려면 다음 명령을 실행 합니다. 이 예제에서는 FinanceStaff 그룹에서 사용자에 대 한 세부 정보를 가져옵니다.<br/>
   ```
   $u = Get-MsolGroupMember -SearchString "FinanceStaff" | % { Get-MsolUser -ObjectId $_.ObjectId }
   ```
 
-4. 스크립트를 시작 하려면 다음 명령을 실행 합니다.</br>
+4. 스크립트를 시작 하려면 다음 명령을 실행 합니다.<br/>
   ```
   .\Get-MsolUserDeviceComplianceStatus.ps1 -User $u -Export
   ```

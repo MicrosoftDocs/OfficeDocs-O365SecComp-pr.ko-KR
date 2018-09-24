@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Office 365 클라우드 앱 보안이 포함 된 SIEM 서버를 통합할 수 있습니다. 작동 방식 및를 설정 하는 방법에 대 한 개요를 얻으려면이 문서를 읽어보십시오.
-ms.openlocfilehash: 6b9d51d91d4b1ae55dd0dd16a92872daa4ecef90
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a2bd75e73ddccef9359ace304faa3c8b1dd4a728
+ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23043266"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24972330"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Office 365 Cloud App Security와 SIEM 서버 통합
   
@@ -71,25 +71,25 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
     
 2. **경고** 로 이동 \> **관리 고급 알림**입니다.
     
-3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.</br>
+3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.<br/>
     ![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
   
-4. **설정** 을 클릭 \> **보안 확장**합니다.</br>
+4. **설정** 을 클릭 \> **보안 확장**합니다.<br/>
 ![설정을 선택 > 보안 확장](media/Settings-SecurityExtensions.png)
 
-5. **추가 SIEM 에이전트**를 선택 합니다.</br>![추가 SIEM 에이전트를 선택 합니다.](media/SIEMAgents.png)
+5. **추가 SIEM 에이전트**를 선택 합니다.<br/>![추가 SIEM 에이전트를 선택 합니다.](media/SIEMAgents.png)
     
-6. **마법사를 시작**을 선택 합니다.</br>![마법사를 시작 하거나 대 한 도움말 보기](media/HelpOrWizard.png) 
+6. **마법사를 시작**을 선택 합니다.<br/>![마법사를 시작 하거나 대 한 도움말 보기](media/HelpOrWizard.png) 
     
-7. **일반** 단계에서 이름 및 **SIEM 형식 선택** 지정 하 고 모든 **고급 설정** 해당 형식에 관련 된 설정입니다. **다음**을 선택 합니다.</br>![이름 및 유형 지정](media/ChooseAgentTypeAndName.png)
+7. **일반** 단계에서 이름 및 **SIEM 형식 선택** 지정 하 고 모든 **고급 설정** 해당 형식에 관련 된 설정입니다. **다음**을 선택 합니다.<br/>![이름 및 유형 지정](media/ChooseAgentTypeAndName.png)
     
-8. **원격 Syslog** 단계에서 IP 주소 또는 호스트 이름을 **원격 syslog 호스트** 및 **Syslog 포트 번호**를 지정 합니다. 원격 Syslog 프로토콜로 TCP 또는 UDP를 선택 합니다. (네트워크 관리자나 보안 관리자가 없는 경우 해당 하는 경우 이러한 세부 정보를 가져오는데 함께 작업할 수 있습니다.) **다음**을 선택 합니다.</br>![원격 Syslog 세부 정보를 지정 합니다.](media/ArcSightS1Syslog.png)
+8. **원격 Syslog** 단계에서 IP 주소 또는 호스트 이름을 **원격 syslog 호스트** 및 **Syslog 포트 번호**를 지정 합니다. 원격 Syslog 프로토콜로 TCP 또는 UDP를 선택 합니다. (네트워크 관리자나 보안 관리자가 없는 경우 해당 하는 경우 이러한 세부 정보를 가져오는데 함께 작업할 수 있습니다.) **다음**을 선택 합니다.<br/>![원격 Syslog 세부 정보를 지정 합니다.](media/ArcSightS1Syslog.png)
   
 9. **데이터 형식** 단계에서 다음 중 하나를 수행 하 고 **다음**을 클릭 합니다.
-    - **모든** 알림 기본 설정을 유지합니다</br>또는
-    - **모든 알림**을 클릭 하 고 **특정 필터**를 선택 합니다. SIEM 서버에 보낼 알림의 종류를 선택 하는 필터를 정의 합니다.</br>![마법사의 데이터 형식 단계](media/ArcSightS1ExportOptions.png)
+    - **모든** 알림 기본 설정을 유지합니다<br/>또는
+    - **모든 알림**을 클릭 하 고 **특정 필터**를 선택 합니다. SIEM 서버에 보낼 알림의 종류를 선택 하는 필터를 정의 합니다.<br/>![마법사의 데이터 형식 단계](media/ArcSightS1ExportOptions.png)
   
-10. 축 하 합니다. 화면에서 토큰을 복사 하 고 나중에 저장 합니다.</br>![SIEM 만든 에이전트 화면](media/SIEMAgentFinished.png) 
+10. 축 하 합니다. 화면에서 토큰을 복사 하 고 나중에 저장 합니다.<br/>![SIEM 만든 에이전트 화면](media/SIEMAgentFinished.png) 
 
 > [!IMPORTANT]
 > 이 시점 Office 365 클라우드 응용 프로그램 보안에서 SIEM 에이전트를 설정한 경우 SIEM 서버 통합이 아직 완료 되지 않음 SIEM 서버 통합을 계속 하려면 다음 단계를 진행 합니다.
@@ -104,7 +104,7 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
     
 2. 압축 된 폴더에서.jar 파일을 추출 하 고 서버에서 실행 합니다.
     
-3. 파일을 실행 한 후 다음을 실행: 명령 합니다.</br>
+3. 파일을 실행 한 후 다음을 실행: 명령 합니다.<br/>
   ```
   java -jar mcas-siemagent-0.87.20-signed.jar [--logsDirectory DIRNAME] [--proxy ADDRESS[:PORT]] --token TOKEN
   ```
@@ -115,7 +115,7 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
 - 서버 설치 하는 동안 서버에서 JAR 채우기를 실행 하는 것이 좋습니다.
     - **Windows**: 실행 된 예약 된 작업을 하 고 작업을 **실행 하는 사용자의 로그온 여부** 를 구성 하 고 **기간 이상 실행 하는 경우 작업을 중지** 옵션의 선택을 취소 합니다.
 
-    - **Linux**: 함께 실행된 명령을 추가 **&** 에 `rc.local` 파일입니다. </br>예제:</br> 
+    - **Linux**: 함께 실행된 명령을 추가 **&** 에 `rc.local` 파일입니다. <br/>예제:<br/> 
     ```
     java -jar mcas-siemagent-0.87.20-signed.jar [--logsDirectory DIRNAME] [--proxy ADDRESS[:PORT]] --token TOKEN &
     ```
@@ -128,7 +128,7 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
   
 ### <a name="step-3-validate-that-the-siem-agent-is-working"></a>3 단계: SIEM 에이전트 작동 하는지 확인
 
-1. Office 365 클라우드 응용 프로그램 보안 포털에서 SIEM 에이전트의 상태 **연결** 오류로 표시 되지 않거나는 없는 에이전트 알림 **Disconnected** 하 고 있는 있는지 확인 합니다.</br>예, 여기는 볼 수 SIEM 서버가 연결 된:</br>![연결 된 SIEM 서버](media/siem-connected.png)</br>및는 여기에 SIEM 서버 연결이 끊어지면 볼 수 있습니다.</br>![연결 되지 않은 SIEM 서버](media/siem-not-connected.png) 
+1. Office 365 클라우드 응용 프로그램 보안 포털에서 SIEM 에이전트의 상태 **연결** 오류로 표시 되지 않거나는 없는 에이전트 알림 **Disconnected** 하 고 있는 있는지 확인 합니다.<br/>예, 여기는 볼 수 SIEM 서버가 연결 된:<br/>![연결 된 SIEM 서버](media/siem-connected.png)<br/>및는 여기에 SIEM 서버 연결이 끊어지면 볼 수 있습니다.<br/>![연결 되지 않은 SIEM 서버](media/siem-not-connected.png) 
   
 2. 프로그램 Syslog/SIEM 서버에서 Office 365 클라우드 응용 프로그램 보안에서 알림 도착 하는 것이 표시 되는지 확인 합니다.
   
