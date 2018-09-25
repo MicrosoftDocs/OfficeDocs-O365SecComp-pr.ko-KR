@@ -9,16 +9,15 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
-- MET150
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 법적, 규정 준수로 인해 시간 기간에 대 한 문서 또는 기타 비즈니스 요구를 유지 하려면 조직 필요할 수 있습니다. 그러나 필요한 것 보다 긴 문서를 유지 하는 조직, 불필요 한 법적 위험을 만듭니다. 문서 삭제 정책을 사용 하 여 있습니다 사전 위험을 줄일 수 특정 기간 후 사이트의 문서를 삭제 하 여 — 등 비즈니스 5 년이 문서를 만든 후 사이트에 대 한 사용자의 OneDrive에서 문서 삭제할 수 있습니다.
-ms.openlocfilehash: 495dd781c56e25e884d47f72a7e48410ea340208
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 7af818dd7d9dd87eb671bdd86ef03e0b5dead1e2
+ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013662"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25002671"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 

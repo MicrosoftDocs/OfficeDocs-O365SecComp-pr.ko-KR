@@ -9,16 +9,15 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
-- MET150
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
-ms.openlocfilehash: 115e4d7df93d81e7ee5a860f20a00d9cb175f927
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 6bf4c0604708608ad7af064f4b32b57d33208a39
+ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23014002"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25002661"
 ---
 # <a name="create-a-document-deletion-policy"></a>문서 삭제 정책 만들기
 

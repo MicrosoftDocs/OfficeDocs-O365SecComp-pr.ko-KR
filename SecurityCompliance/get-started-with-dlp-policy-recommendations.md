@@ -8,17 +8,14 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
 ms.assetid: 2ea4459b-cb13-4ce2-b9d1-0619316df88c
 description: 이 필요한 정보를 기반 권장 도움이 저장 있으며에서 가능한 갭 때 사용자에 게 알리는 하 여 Office 365에서 공유 하는 경우 중요 한 콘텐츠를 안전 하 여 조직에 DLP 정책 범위입니다. 이 권장 사항은 보안의 홈 페이지에 표시 됩니다 &amp; 준수 센터, 문서는 상위 5 가장 일반적인 유형의 중요 한 정보를 포함 하 고 DLP 정책에 의해 보호 되지 않습니다.
-ms.openlocfilehash: 842387397b9b95d236660c5809174c2b356cf14a
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: fcd3a5a3a12932b22c310938c12f71fb01019411
+ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534043"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25002631"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>DLP 정책 권장 시작
 

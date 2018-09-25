@@ -6,16 +6,17 @@ manager: laurawi
 ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
+search.appverid: MET150
 ms.service: exchange-online
 localization_priority: Normal
 ms.assetid: 1e0c579c-26e0-462a-a1b0-d7506dfe05fa
 description: 정보 근로자 들이 조직에서 다양 한 종류의 일반적인 하루 동안 중요 한 정보를 처리 합니다. 문서 지 문은 보다 쉽게 조직 전체에서 사용 되는 표준 양식을 식별 하 여이 정보를 보호할 수 있습니다. 이 항목에서는 문서 지문과 PowerShell을 사용 하 여 하나를 만드는 방법을 개념을 설명 합니다.
-ms.openlocfilehash: d73b769e7a014f2642a0fcd66cc6a500c68c46c3
-ms.sourcegitcommit: 4be502d1fc6cbaef4c72d599758d51efe3a173c9
+ms.openlocfilehash: c33d7412fe4774b74efcd0928df4c99c7bcbb626
+ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23867504"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25002651"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
