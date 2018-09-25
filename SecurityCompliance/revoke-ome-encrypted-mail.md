@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365 관리자 권한으로 Office 365 메시지 암호화를 사용 하 여 암호화 된 특정 전자 메일을 취소할 수 있습니다.
-ms.openlocfilehash: b2fd3e07bec6dfedd783a8a68169fc5f990a80d3
-ms.sourcegitcommit: 2150f49cf4305b75591a238ff649c57684c7632f
+ms.openlocfilehash: 19eb874fa15a21c29a9eb2823829e81ff244a555
+ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004251"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011824"
 ---
 # <a name="office-365-message-encryption-email-revocation"></a>Office 365 메시지 암호화 전자 메일 해지
 
@@ -62,7 +62,7 @@ ms.locfileid: "25004251"
 
 해지 하려면 전자 메일의 메시지 ID를 알고 있으면 집합 OMEMessageRevocation cmdlet을 사용 하 여 전자 메일을 취소할 수 있습니다. 
 
-1. [원격 PowerShell을 사용 하 여 온라인 Exchange에 연결](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx)합니다.
+1. [원격 PowerShell을 사용 하 여 온라인 Exchange에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
     
 2. 다음과 같이 설정 OMEMessageRevocation cmdlet를 실행 합니다.
     

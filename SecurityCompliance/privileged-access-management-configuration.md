@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Office 365에서 권한이 부여 된 액세스 관리를 구성 하는 방법에 대 한 자세한 내용은이 항목을 사용 하 여
-ms.openlocfilehash: 6494505554a02f005df8f45839c9575094acbf1a
-ms.sourcegitcommit: d31904e81f81d0fba75309a2bc8bbfb05565a0b4
+ms.openlocfilehash: 47cae93a41b0fd60645021f6f299645777a9a2e1
+ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24055253"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011844"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Office 365에서 액세스 권한을된 관리 구성
 
@@ -102,6 +102,8 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 
 ## <a name="step-3---create-an-access-policy"></a>3 단계-액세스 정책 만들기
 
+만들 수 있으며 Office 365 조직에 대 한 최대 30 개의 권한이 부여 된 액세스 정책 구성.
+
 ### <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여
 
 1. 조직에서 관리 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://portal.office.com) 에 로그인 합니다.
@@ -144,6 +146,8 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
 ### <a name="requesting-elevation-authorization-to-execute-privileged-tasks"></a>권한이 부여 된 작업을 실행할 수 상승 권한 부여를 요청 합니다.
 
+권한이 부여 된 액세스에 대 한 요청은 요청을 제출 하는 최대 24 시간 동안 유효 합니다. 요청은 만료 되지 승인 또는 거부 하는 경우 및 액세스 승인 되지 않은 합니다.
+
 #### <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여
 
 1. 사용자의 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://portal.office.com) 에 로그인 합니다.
@@ -160,7 +164,7 @@ New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType 
 
     **에 대 한 요청**: 사용 가능한 정책에서 선택
 
-    **기간 (시간)**: 요청 된 액세스의 시간
+    **기간 (시간)**: 요청 된 액세스의 시간입니다. 요청할 수 있는 시간 수에 대 한 제한이 없습니다.
 
     **설명**: 액세스 요청에 관련 된 메모에 대 한 텍스트 필드
 
@@ -235,6 +239,31 @@ Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 예제:
 ```
 Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
+```
+
+## <a name="delete-a-privileged-access-policy-in-office-365"></a>Office 365에서 권한이 부여 된 액세스 정책 삭제
+조직에서 더이상 필요할 경우 권한이 부여 된 액세스 정책을 삭제할 수 없습니다.
+
+### <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터를 사용 하 여
+
+1. 조직에서 관리 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://portal.office.com) 에 로그인 합니다.
+
+2. 관리 센터에서 **설정**으로 이동 > **보안 및 개인정보** > **권한이 부여 된 액세스**합니다.
+
+3. **관리 액세스 정책 및 요청을**선택 합니다.
+
+4. **Configure 정책**을 선택 합니다.
+
+5. 삭제 하려는 정책을 선택 하 고 **정책 제거**를 선택 합니다.
+
+6. **Close**를 선택 합니다.
+
+### <a name="using-exchange-management-powershell"></a>Exchange 관리 PowerShell을 사용 하 여
+
+다음 명령을 실행 Exchange Online Powershell 권한이 부여 된 액세스 정책을 삭제 하려면:
+
+```
+Remove-ElevatedAccessApprovalPolicy -Identity <identity GUID of the policy you want to delete>
 ```
 
 ## <a name="disable-privileged-access-in-office-365"></a>Office 365에 대 한 액세스 권한을된 사용 하지 않도록 설정

@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 권한 하는 방법에 대 한 자세한 내용은 Office 365의에서 관리 기능에 액세스
-ms.openlocfilehash: 063d291005ec40c21e55188e4ee7c6c8ed6594e8
-ms.sourcegitcommit: d31904e81f81d0fba75309a2bc8bbfb05565a0b4
+ms.openlocfilehash: 07e1f9090418e4261fef188ceb109c1b8083d34c
+ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24055263"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25011864"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Office 365의에서 관리 기능에 액세스 권한
 
@@ -70,10 +70,14 @@ Office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여, �
 ## <a name="frequently-asked-questions"></a>질문과 대답
 
 ### <a name="what-skus-do-i-need-to-use-privileged-access-in-office-365"></a>Office 365에서 권한이 부여 된 액세스를 사용 하 여 어떤 Sku를 필요 합니까?
-액세스 권한이 부여 된 현재 Office 365의 관리는 e 5 및 고급 준수 Sku와 고객을 위해 사용할 수만 있습니다.
+액세스 권한이 부여 된 현재 관리는 Office 365 e 5 및 고급 준수 Sku와 고객을 위해 사용할 수만 있습니다.
 
 ### <a name="when-will-privileged-access-be-available-for-office-365-workloads-beyond-exchange"></a>액세스 권한을된 사용할 수 있게 될 Exchange 이외 Office 365 작업 부하에 대 한?
 다른 Office 365 작업에서이 기능을 곧 제공 예정입니다. 시간 표시 막대를 공유할 준비가 되었습니다, Office 365 로드맵을 통해 사용할 수 있습니다.
+
+### <a name="my-organization-needs-more-than-30-privileged-access-polices-will-this-limit-be-increased"></a>내 조직 요구 사항 둘 이상의 30 권한이 부여 된 액세스 정책,이 한도 증가 합니까?
+
+Office 365 조직 곧 당 30 권한이 부여 된 액세스 정책의 현재 한계를 늘리려면 계획 합니다.
 
 ### <a name="do-i-need-to-be-a-global-admin-to-manage-privileged-access-in-office-365"></a>Office 365에 대 한 액세스 권한을된 관리 하는 전역 관리자 되도록 필요 합니까?
 Office 365에 대 한 액세스 권한을된 관리할 수 있도록 전역 관리자 권한을 있으므로 해야 합니다. 승인자의 그룹에 포함 된 사용자 수를 검토 하 고 요청을 승인 하려면 전역 관리자 필요가 없습니다. 
