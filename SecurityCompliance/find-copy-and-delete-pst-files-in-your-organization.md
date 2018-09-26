@@ -9,17 +9,15 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Microsoft PST 컬렉션 도구를 사용 하 여 조직의 네트워크를 검색 하는 조직 전체에 걸쳐 분산 된 PST 파일의 인벤토리를 가져옵니다. PST 파일을 찾은 후에 Office 365로 가져올 수 있도록 하는 중앙 위치에 복사 하는 PST 컬렉션 도구를 사용할 수 있습니다.
-ms.openlocfilehash: 183ab968b894c824f2b23c08e98e671ef85316cc
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 0537a65a32fa25704045bd587cb20f9eee13f628
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533444"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038131"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>PST 컬렉션 도구를 사용 하 여 찾기, 복사 및 조직에서 PST 파일을 삭제 하려면
 

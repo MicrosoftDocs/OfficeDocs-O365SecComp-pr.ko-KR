@@ -11,15 +11,15 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid: MOE150
+search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자를 위한: Office 365 보안에서 가져오기 서비스를 사용 하는 방법에 대 한 설명 &amp; 전자 메일 데이터 (PST 파일)을 Exchange Online의 사용자 사서함으로 대량 가져오기에 대 한 준수 센터입니다. 이 항목 Faq를 제공 하 고 PST 가져오기 프로세스의 작동 방식에 대해 설명 합니다.'
-ms.openlocfilehash: 1cbe5627ffb906b6a87541f4c4582a2806562ca4
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 2bd58b879d9d4d1ff9d3d2c6c8680a0171d42689
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533796"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038021"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Office 365로 조직 PST 파일 가져오기 (영문)의 개요 (영문)
 

@@ -9,16 +9,14 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
-search.appverid:
-- MET150
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: 원본 위치 유지, 소송 보존 및 Office 365 보존 정책 허용 규정 준수 및 eDiscovery 요구 사항에 맞게 사서함 콘텐츠를 유지할 수 있습니다.
-ms.openlocfilehash: fe13884497db9e2549011815704c571c66a92476
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 1149834181bca527bd06cea846f455e36fad283c
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002837"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038161"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   

@@ -9,17 +9,16 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
-- MET150
 - MOE150
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 제 3 자 감사를 다운로드 하 고 어떻게 Microsoft 유지 하는 고객 데이터 안전 하 고, 확인 어떻게 수 준수할 ISO, HIPAA, FINRA, 및 FedRAMP Office 365를 사용할 때 알고 있어야 합니다.
-ms.openlocfilehash: eeb1ac1c22bfdd0063c5e1dda3515e52c1bc8d80
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 77fdc042639fb30d2c222148f3eea9f0e6470856
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533410"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038151"
 ---
 # <a name="service-assurance-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에 대 한 보증 서비스 &amp; 준수 센터
 
@@ -54,7 +53,7 @@ Office 365 보안에서 서비스 보증을 사용 하 여 &amp; 다양 한 항�
   
 보안을 사용 하 여 서비스 보증은 액세스할 수 있는 &amp; 준수 센터입니다. 여기에 방법은 다음과 같습니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다. 
     

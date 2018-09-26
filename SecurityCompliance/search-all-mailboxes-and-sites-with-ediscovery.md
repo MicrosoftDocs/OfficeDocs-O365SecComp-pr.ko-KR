@@ -8,16 +8,14 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MET150
 ms.assetid: 56e2978f-71b6-4141-b769-ad856d31bbec
 description: Office 365에서 eDiscovery 센터를 단일 eDiscovery 검색에서 비즈니스 사이트에 대 한 모든 Exchange Online 사서함, SharePoint Online 사이트 및 OneDrive을 검색할 수 있습니다. 조직에서 모든 콘텐츠 원본을 검색 하려면 eDiscovery 관리자 각 콘텐츠 원본에 대 한 적절 한 eDiscovery 권한은 할당 받아야 합니다.
-ms.openlocfilehash: b3508d5929ca2b5b7a937eb2dccf677a2968cbbc
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 5612faf6113ceef292f90b49ec70ad7b30905646
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533339"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038101"
 ---
 # <a name="search-all-mailboxes-and-sites-using-the-ediscovery-center"></a>eDiscovery 센터를 사용하여 모든 사서함 및 사이트 검색
 

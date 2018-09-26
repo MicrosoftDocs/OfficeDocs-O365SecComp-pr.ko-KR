@@ -11,17 +11,15 @@ f1_keywords:
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Office 365 보안에서 콘텐츠 검색의 결과 준비 하는 방법에 알아봅니다 &amp; 고급 eDiscovery 도구를 사용 하 여 분석 추가 대 한 준수 센터입니다.
-ms.openlocfilehash: 4e5668c88d62e99f7a5f40ed2e17f4687a7e9adb
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: f5b10ac7fcfa67f67618c936000832b9bdb7d533
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534168"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038311"
 ---
 # <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery 검색 결과 준비
 
@@ -49,7 +47,7 @@ Office 365 보안에서 eDiscovery 사례와 관련 된 검색 한 후 &amp; 준
 
 EDiscovery 사례와 관련 된 검색의 결과 준비할 수 있습니다. 고급 ediscovery 검색 결과 준비 하는 경우 데이터 업로드를 업데이트 하 고 Microsoft 클라우드에서 고유한 Windows Azure 저장소 영역에 일시적으로 저장 됩니다. 이 시점 것 OCR 기능 검색 결과에서 이미지에서 텍스트를 추출 합니다. [2 단계](#step-2-add-the-search-results-data-to-the-case-in-advanced-ediscovery),이 텍스트와 다른 검색에서 고급 eDiscovery의 대/소문자를 결과 데이터에 로드 됩니다.
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 고급 eDiscovery에 대 한 분석을 위해 검색 결과 준비 하려는 경우 다음 **열기** 를 클릭 합니다. 
     
@@ -82,11 +80,11 @@ EDiscovery 사례와 관련 된 검색의 결과 준비할 수 있습니다. 고
 > [!NOTE]
 > 보안에서 데이터에 대 한 걸리는 시간 &amp; 준수 센터의 고급 eDiscovery 사례에 추가할 수는 eDiscovery 검색 결과의 크기에 따라 달라 집니다. 
   
-1. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery** 를 조직에서 사례의 목록을 표시 합니다. 
+1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
     
 2. 고급 ediscovery에서로 데이터 로드 하려는 경우 다음 **열기** 를 클릭 합니다. 
     
-3. 대/소문자에 대 한 **홈** 페이지에서 **고급 eDiscovery**를 클릭 합니다. 
+3. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery**를 클릭합니다. 
     
     ![고급 eDiscovery의 대/소문자를 열려면 고급 ediscovery 스위치를 클릭 합니다.](media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   

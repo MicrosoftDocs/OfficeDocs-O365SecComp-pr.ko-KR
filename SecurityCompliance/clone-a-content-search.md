@@ -11,15 +11,14 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MED150
-- MET150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 description: 이 문서에서 Windows PowerShell 스크립트를 사용 하 여 신속 하 게 보안에서 기존 콘텐츠 검색을 복제 &amp; Compliane 센터 검색 합니다. 복제할 때 검색, 원래 검색 같은 속성을 포함 하는 새로운 검색 (새 이름) 만들어집니다. 그런 다음 (키워드 쿼리 또는 날짜 범위)을 변경 하 여 새 검색을 편집 하 고 스크립트를 실행 수 있습니다.
-ms.openlocfilehash: a4f801e3de281e8caf8aeb7d1c2bd48f0facb77c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: fd2ea0d8fa812d23e7479b664b13c786a62d5a38
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533370"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038051"
 ---
 # <a name="clone-a-content-search-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 콘텐츠 검색을 복제 &amp; 준수 센터
 

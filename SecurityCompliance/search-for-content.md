@@ -8,18 +8,15 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 Office 365 보안에서 &amp; SharePoint 사이트 및 OneDrive 위치와 인스턴트 메시징 비즈니스를 위한 Skype에서 대화에 있는 문서를 준수 센터 Exchange 사서함에서 전자 메일을 신속 하 게 찾을 수 있습니다.
-ms.openlocfilehash: b9595f66633cca762ea74eaa9402f50ec08c2d7c
-ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
+ms.openlocfilehash: d7ccdd8e501e38b67cc00ec457622080d6c58001
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23229980"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038231"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에 콘텐츠 검색
 

@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 Office 365에서 사서함에 제 3 자 데이터 원본에서 가져온 항목을 찾으려고 합니다. 특정 타사 데이터 형식에 대 한 검색 쿼리를 만들거나 가져온된 모든 항목에 대 한 검색 쿼리를 만들 수 있습니다. 이 문서는 Office 365로 가져올 수 있는 타사 데이터 형식을 검색 키워드 쿼리에서 사용할 수 있는 값을 나열 합니다.
-ms.openlocfilehash: 90d9dc52dcd9dba9bc273dfcf1c5f22e3913d6ba
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 6829e894ba687fb09184c32201f76394e37bbbf8
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533746"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25037971"
 ---
 # <a name="use-content-search-to-search-third-party-data-that-was-imported-to-office-365"></a>콘텐츠 검색을 사용 하 여 Office 365로 가져온 제 3 자 데이터를 검색 하려면
 

@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 규정 준수 관리자 보안에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행 하는 경우 로깅되는 이벤트를 위한 Office 365 감사 로그를 검색 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 24bd629f5576fe042e59d5cbbdecf01b3fd59cf0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a4cc3a6b5030a6412d739236e4c534f36948d57f
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533602"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038351"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Office 365 감사 로그에서 eDiscovery 활동에 대 한 검색
 
@@ -43,7 +41,7 @@ Office 365 감사 로그를 검색 하는 방법에 대 한 자세한 내용은 
 
 현재 Office 365 감사 로그에서 eDiscovery 활동을 볼 수는 몇 특정 작업을 수행 해야 합니다. 다음은 방법입니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
     

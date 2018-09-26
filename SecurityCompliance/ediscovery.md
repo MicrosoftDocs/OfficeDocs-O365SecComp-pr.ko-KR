@@ -11,15 +11,14 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
-- MET150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: Office 365에서는 다양 한 검색 하 고 Exchange 사서함, SharePoint 및 비즈니스 사이트, Office 365 그룹 및 Skype 비즈니스용 OneDrive 비즈니스 대화와 같은 다른 위치에 있는 콘텐츠를 유지 하는데 사용할 수 있는 다른 eDiscovery 도구를 제공 합니다.
-ms.openlocfilehash: 0e458e5b2ba83861e7b715ec66a30695045b2e57
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: f137454291bcdcdae6f0c61e2639b223a3e310a8
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533899"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038241"
 ---
 # <a name="ediscovery-in-office-365"></a>Office 365의 eDiscovery
 

@@ -3,7 +3,6 @@ title: Office 365 엔지니어링을 위한 office 365 내부 로깅
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/18/2018
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration
@@ -12,15 +11,15 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: Office 365 엔지니어링에 대 한 내부 어떻게 로깅에 대 한 설명을 팀 작동 합니다.
-ms.openlocfilehash: 1a613584b6b815524435acb20db7a8022d95e3bc
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 4cade759fb4c095565b4e1f85ce15ed546177082
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533206"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038191"
 ---
 # <a name="internal-logging-for-office-365-engineering"></a>Office 365 엔지니어링에 대한 내부 로깅
-이벤트와 고객을 위해 사용할 수 있는 로그 데이터 외에도 Office 365 엔지니어에 게 사용할 수 있는 내부 로그 데이터 수집 시스템도 됩니다. 다양 한 유형의 로그 데이터는 컴퓨팅 Cosmos 라는 서비스 지정 하 고 내부 큰 데이터를 Office 365 서버에서 업로드 됩니다. 각 서비스 팀 집계 및 분석을 위해 Cosmos 데이터베이스에는 해당 서버에서 감사 로그를 업로드합니다. 이 데이터 전송에 구체적으로 승인 된 포트 및 프로토콜 Office 데이터 로더 (ODL) 라는 독점 자동화 도구를 사용 하 여 FIPS 140-2-유효성을 검사 TLS 연결을 통해 발생 합니다.
+이벤트와 고객을 위해 사용할 수 있는 로그 데이터 외에도 Office 365 엔지니어에 게 사용할 수 있는 내부 로그 데이터 수집 시스템도 됩니다. 다양 한 유형의 로그 데이터는 컴퓨팅 Cosmos 라는 서비스 지정 하 고 내부 큰 데이터를 Office 365 서버에서 업로드 됩니다. 각 서비스 팀 집계 및 분석을 위해 Cosmos 데이터베이스에는 해당 서버에서 감사 로그를 업로드합니다. 이 데이터 전송에 구체적으로 승인 된 포트 및 프로토콜 Office 데이터 로더 (ODL) 라는 독점 자동화 도구를 사용 하 여 FIPS 140-2-유효성을 검사 TLS 연결을 통해 발생 합니다. 수집 하려면 Office 365에서 사용 하는 도구 및 프로세스 감사 레코드 영구 하지 않고 또는 원래 변경 내용을 취소할 수 없는 감사 기록 콘텐츠 또는 시간 순서를 지정할 합니다.
 
 서비스 팀에 중앙화 된 리포지토리로 Cosmos를 사용 하 여 응용 프로그램 사용, 시스템 및 운영 성능 측정 하 고 비정상적인 및 문제 또는 보안 문제를 나타낼 수 있는 패턴을 찾고 대 한 분석을 수행 합니다. 각 서비스 팀에 Cosmos, 분석를 검색 하는 기능에 따라 포함 된 로그 종종의 기준선을 업로드 합니다.
 - 이벤트 로그

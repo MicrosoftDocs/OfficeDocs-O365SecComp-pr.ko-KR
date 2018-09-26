@@ -11,15 +11,14 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: EDiscovery 사례를 사용 하 여 Office 365 보안에서 &amp; 준수 센터 조직의 법적 조사를 관리할 수 있습니다. E 5 구독이 있는 경우 텍스트 분석, 컴퓨터 학습 및 고급 eDiscovery의 예측 코딩 기능을 사용 하 여 추가로 사례 데이터를 분석할 수 있습니다.
-ms.openlocfilehash: ef8ff9347f7c1d604a01b70f54a1998fde91ace8
-ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
+ms.openlocfilehash: 7d00268a94613dfc0a1bef6314b5f917de5b9954
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23230030"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038271"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Office 365에서 법적 조사를 관리 합니다.
 

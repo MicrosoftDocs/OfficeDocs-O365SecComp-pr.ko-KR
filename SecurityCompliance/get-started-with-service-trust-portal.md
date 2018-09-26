@@ -8,15 +8,16 @@ ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid: MET150
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Office 365, Azure, 및 Dynamics 365 온라인 규정 준수 보고서에 대 한 타사 감사를 보려면 어떻게 Microsoft 유지 하는 고객 데이터 안전 하 고, 그리고 알아보십시오 있습니다 수 있는 방법을 ISO, HIPAA, NIST, FINRA, GDPR 및 FedRAMP 준수 이러한 온라인 서비스를 사용 하는 경우.
-ms.openlocfilehash: a924ce157b89215e3c9909d791f0e8adb4cd684d
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 886c6df96bfe0821dd277b279d5aa16d038fae18
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533340"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038221"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft 서비스를 신뢰 포털 시작 하기
 
@@ -95,7 +96,7 @@ STP 기능 및 콘텐츠 아래에 표시 된 주 메뉴에서 액세스할 수 
   
  - **스페인** Microsoft 온라인 서비스 법률을 준수 하는 스페인의 법적 의견을 제공합니다. 
   
-### <a name="privacy"></a>개인 정보
+### <a name="privacy"></a>개인 정보 취급 방침
 
 이 사이트는 GDPR GDPR 책임을 기술 하 고 조직 측정값에 대 한 이해에 게 유용한 설명서의 특정 요구를 해결 하는 사용할 수 있는 Microsoft 서비스의 기능에 대 한 정보를 제공 합니다. Microsoft는 GDPR를 지원 하기 위해 보급 했습니다.
   
@@ -121,26 +122,26 @@ STP 기능 및 콘텐츠 아래에 표시 된 주 메뉴에서 액세스할 수 
   
 ### <a name="search"></a>검색
 
-![서비스 신뢰 포털-검색 입력 필드](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
+![Service Trust Portal - 검색 입력 필드](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
   
-검색 입력된 필드를 확장 하 검색 용어를 입력 하 고 enter 키를 하 여 페이지의 오른쪽 상단 모서리에서 돋보기를 클릭 합니다. 검색 창 입력된 필드에 검색 용어가 포함 된 검색 컨트롤이 표시 됩니다 하 고 검색 결과 아래에 표시 됩니다.
+페이지의 오른쪽 위 모서리에 있는 돋보기를 클릭하여 검색 입력 필드를 확장하고, 검색 용어를 입력한 후 Enter 키를 누릅니다. 검색 컨트롤이 나타나고, 검색 창 입력 필드에는 검색 용어가 표시되며 아래에 검색 결과가 표시됩니다.
   
-기본적으로 검색 결과 얻으려면 문서를 반환 하 고 필터 기준 드롭다운 목록을 사용 하 여 추가 또는 보기에서 검색 결과 제거 하려면 표시 되는 문서 목록을 구체화할 수 있습니다. 특정 클라우드 서비스, 규정 준수 또는 보안 사례, 세계, 또는 산업 영역의 범주를 반환 하도록된 문서 범위를 좁힐 수 동시에 여러 필터 특성을 사용할 수 있습니다. 다음은 문서를 다운로드 하려면 문서 이름 링크를 클릭 합니다.
+기본적으로 검색은 문서 결과를 반환하며, 필터 기준 드롭다운 목록을 사용하여 표시되는 문서 목록을 구체화하고, 보기에서 검색 결과를 추가 또는 제거할 수 있습니다. 여러 필터 특성을 동시에 사용하여 반환되는 문서의 범위를 특정 클라우드 서비스, 준수 또는 보안 조치 범주, 지역 또는 산업 분야로 좁힐 수 있습니다. 문서를 다운로드하려면 문서 이름 링크를 클릭합니다.
   
-![서비스 신뢰 포털-적용 된 필터를 사용 하 여 문서에서 검색](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+![Service Trust Portal - 필터를 적용하여 문서 검색](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
   
 규정 준수 관리자 평가 컨트롤에 대 한 검색 결과 표시 하려면 준수 관리자 링크를 클릭 합니다. 나열 된 검색 결과 표시 날짜는 평가 만든 그룹화, 평가 해당 클라우드 서비스의 이름 및 Microsoft 또는 고객 관리 되는 컨트롤의 내용이 있는지 여부.
   
-![서비스 신뢰 포털-규정 준수 관리자 컨트롤에서 검색](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+![Service Trust Portal - 준수 관리자 컨트롤에서 검색](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
   
 > [!NOTE]
-> 서비스를 신뢰 포털 보고서 및 문서 게시 한 후 또는 새 버전의 문서 사용 가능할 때까지 적어도 12 개월에 대 한 다운로드를 나와 있습니다. 
+> Service Trust Portal 보고서 및 문서는 새 버전이 게시되고 12개월 동안 또는 새 버전의 문서가 사용 가능해질 때까지 다운로드할 수 있습니다. 
   
 ## <a name="localization-support"></a>지역화 지원
 
-포털을 신뢰 하는 서비스를 사용 하면 다른 언어로 페이지 콘텐츠를 볼 수 있습니다. 페이지 언어를 변경 하려면 페이지의 왼쪽된 아래 모서리에서 지구본 아이콘을 클릭 하 고 사용자가 선택한 언어를 선택 합니다. 
+Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 있습니다. 페이지 언어를 변경하려면 페이지의 왼쪽 아래 모서리에서 지구본 아이콘을 클릭 하고 원하는 언어를 선택합니다. 
   
-![포털을 신뢰 하는 서비스-콘텐츠 옵션은 지역화](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+![Service Trust Portal - 지역화된 콘텐츠 옵션](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
 ## <a name="feedback"></a>사용자 의견
 

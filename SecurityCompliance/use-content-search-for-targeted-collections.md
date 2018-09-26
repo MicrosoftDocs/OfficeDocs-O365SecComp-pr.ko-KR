@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 콘텐츠 검색을 사용 하 여 Office 365 보안에서 &amp; 준수 센터를 대상으로 지정 된 모음을 수행 합니다. 대상된 컬렉션 사례에 응답 하는 항목 또는 권한 있는 항목은 한 특정 사서함 이나 사이트 폴더에 있는 판단 하 것을 의미 합니다. 이 문서에서 스크립트를 사용 하 여 폴더 ID 또는 검색 하려면 특정 사이트 또는 사서함 폴더에 대 한 경로 가져옵니다.
-ms.openlocfilehash: 3ff0ca00915bce53e9e932316c5ab47884f346b2
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: bb808e38f24ebf09a975b3082ef1dc61bc6344c4
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533021"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038301"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Office 365에서 콘텐츠 검색을 사용 하 여 대상된 컬렉션에 대 한
 
@@ -210,7 +208,7 @@ Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈
 > [!NOTE]
 > 사용 하 여 `path` 속성 OneDrive 위치를 검색 하려면 검색 결과에서.png,.tiff, 또는.wav 파일을 등의 미디어 파일을 반환 하지 않습니다. 
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 계정 및 1 단계에서에서 스크립트를 실행 하는데 사용 되는 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
     

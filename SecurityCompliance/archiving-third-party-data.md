@@ -9,17 +9,15 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_IP
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 Office 365 조직에서 사서함에 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 가져올 수 있습니다. 이 통해 Office 365에서 Facebook, Twitter 및 데이터 원본의 데이터를 보관할 수 있습니다. 다음을 제 3 자 데이터 (예: 법적 보유, 콘텐츠 검색 및 보존 정책) appply Office 365 규정 준수 기능을 수 있습니다.'
-ms.openlocfilehash: 7af88338333e90bd208d693fbfd5bb691d44b538
-ms.sourcegitcommit: 4c6c937ec51e8b754332e4c1c8d286e73e197e2c
+ms.openlocfilehash: 5e8fe94e0c3e8b39aec479f4755a263438513d35
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2018
-ms.locfileid: "23827092"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038111"
 ---
 # <a name="archiving-third-party-data-in-office-365"></a>Office 365에서 타사 데이터 보관
 
@@ -651,7 +649,7 @@ Azure Active Directory에 제 3 자 데이터 커넥터를 등록 하기 위해 
 
 - 같이 이전 설명의 경우, 항목에서 타사 데이터 원본 전자 메일 메시지로 Exchange 사서함으로 가져옵니다. 파트너 커넥터는 Office 365 API에 필요한 스키마를 사용 하 여 항목을 가져옵니다. 다음 표에서 Exchange 사서함으로 전자 메일 메시지를 가져온 후 타사 데이터 원본에서 항목의 메시지 속성을 설명 합니다. 또한 표에 메시지 속성이 필수 인지를 나타냅니다. 필수 속성을 채워야 합니다. 항목 속성을 필수로 없으면 Office 365로 가져올 수 없습니다. 가져오기 프로세스에는 항목을 가져온 되지 않은 및 어느 속성이 없는 이유를 설명 하는 오류 메시지가 반환 됩니다.
     
-    |**메시지 속성**|**필수 여부**|**설명**|**예제 값**|
+    |**메시지 속성**|**필수?**|**설명**|**예제 값**|
     |:-----|:-----|:-----|:-----|
     |**FROM** <br/> |예  <br/> |사용자가 원래 만든 또는 타사 데이터 원본에서 항목을 전송 합니다. 파트너 커넥터는 모든 참가자에 게 (FROM 및 TO 필드의 사용자)에 대 한 Office 365 사용자 계정에 원본 항목 (예: Twitter 핸들)에서 사용자 ID를 매핑할 하려고 합니다. 모든 참가자의 사서함에 메시지의 복사본을 가져옵니다. Office 365 사용자 계정에 매핑될 수 없는 항목에서 참가자를 Office 365에서 타사 보관 사서함에 항목을 가져옵니다.<br/> <br/> 참가자에 게 보낸 사람이 항목으로 식별 되는 활성 사서함 항목을 가져오는 Office 365 조직에 있어야 합니다. 보낸 사람이 중인 사서함이 있는 없으면 다음 오류가 반환 됩니다.<br/><br/>  `One or more messages in the Request failed to be delivered to either From or Sender email address. You will need to resend your entire Request. Error: The request failed. The remote server returned an error: (401) Unauthorized.`  | `bob@contoso.com` <br/> |
     |**TO** <br/> |예  <br/> |데이터 원본의 항목을 받은 사람입니다(해당되는 경우).  <br/> | `bob@contoso.com` <br/> |

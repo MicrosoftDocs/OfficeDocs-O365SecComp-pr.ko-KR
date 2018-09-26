@@ -8,17 +8,15 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
+search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Office 365 사서함 비활성 이루어진 후 보류 또는 비활성 사서함에 할당 하는 Office 365 보존 정책의 기간을 변경할 수 있습니다. 보류 기간 폴더에 보관 된 복구 가능한 항목에 얼마나 오래 항목을 정의 합니다.
-ms.openlocfilehash: 22bd9f9294b625a38d243f6235097d1aee437121
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: e3d1d6c7ec0311813dfa1144cc960d2fed9e160d
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533534"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038061"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함에 대 한 보존 기간 변경
 
@@ -35,7 +33,7 @@ ms.locfileid: "22533534"
     
   - [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)
     
-  - [Office 365 보안 연결할 &amp; 준수 센터 PowerShell](https://go.microsoft.com/fwlink/?linkid=799771)
+  - [Office 365 보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=799771)
     
 - EDiscovery 사례와 관련 된 메모를 포함 하는 변경할 수 있는 보존 기간이 없는 것을 의미 하는 무한 보존 됩니다. 항목 보류에서 제거 되 고 비활성 사서함 삭제 될 때까지 또는 무제한 보관 됩니다.
     

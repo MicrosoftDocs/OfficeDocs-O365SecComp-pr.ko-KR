@@ -10,17 +10,14 @@ f1_keywords:
 - ms.o365.cc.ComplianceSearch
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- MOE150
-- MET150
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: '콘텐츠 검색을 사용 하 여 Office 365 보안에서 &amp; 준수 센터 비즈니스 위치에 대 한 사서함, SharePoint Online 사이트 및 OneDrive를 검색 합니다. '
-ms.openlocfilehash: 61c6c3933a75567acb04f793cb6815322fb3fada
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: d480579db1c39d51d4fa8b0931106f135c5339d2
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533341"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038321"
 ---
 # <a name="run-a-content-search-in-the-office-365-security-amp-compliance-center"></a>콘텐츠 검색을 실행 하는 Office 365 보안에서 &amp; 준수 센터
 
@@ -77,7 +74,7 @@ Office 365 보안에서 콘텐츠 검색 eDiscovery 도구를 사용할 수 있�
 ## <a name="create-a-search"></a>검색 만들기
 <a name="create"> </a>
 
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
     

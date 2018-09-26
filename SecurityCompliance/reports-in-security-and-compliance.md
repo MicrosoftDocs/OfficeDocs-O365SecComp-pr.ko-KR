@@ -10,17 +10,14 @@ f1_keywords:
 - ms.o365.cc.AuditingHelp
 ms.service: o365-administration
 localization_priority: Normal
-search.appverid:
-- SPO160
-- MOE150
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Office 365 보안을 사용 하 여 &amp; SharePoint Online 및 Exchange Online 조직에 대 한 다양 한 보고서를 가져올 준수 센터 + Azure Active Directory를 보고 합니다.  '
-ms.openlocfilehash: 0b633583e14a18c7cf579d10462cf41714397812
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 019ccc49352db1aaf392287f62fa63f66913e293
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532978"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038341"
 ---
 # <a name="reports-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 보고서 &amp; 준수 센터
 
@@ -41,7 +38,7 @@ ms.locfileid: "22532978"
   
  **보안에서 보기 보고서 페이지를 열려면 &amp; 준수 센터:**
   
-1. 이동 [https://protection.office.com/#/viewreports](https://protection.office.com/#/viewreports)합니다.
+1. [https://protection.office.com/#/viewreports](https://protection.office.com/#/viewreports)으로 이동합니다.
     
 2. Office 365 조직에서 사용자 계정에 대 한 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
     

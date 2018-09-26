@@ -11,15 +11,14 @@ localization_priority: Normal
 search.appverid:
 - SPO160
 - MOE150
-- MET150
 ms.assetid: 422858ff-917b-46d4-9e5b-3397f60eee4d
 description: 특정 키워드, 중요 한 정보 및 기타 검색 조건에 대 한 조직에서 비즈니스 사이트에 대 한 모든 OneDrive를 검색 하려면 SharePoint Online에서 eDiscovery 센터를 사용할 수 있습니다. 조직에서 각 사용자가 자신의 OneDrive 이름이 지정 된 사이트 모음에 있는 비즈니스 사이트의 소유자 https://domain-my.sharepoint.com합니다. 기본적으로 Office 365 전역 관리자 또는 규정 준수 관리자는 비즈니스 사이트에 대 한 모든 OneDrive를 검색 하려면 SharePoint Online에서 eDiscovery 센터를 사용할 수 없습니다. 비즈니스 사이트, 관리자 또는 규정 준수 관리자에 대 한 OneDrive를 검색 하려면 해당 onedrive 비즈니스 사이트에 대 한 사이트 모음 관리자 여야 합니다.
-ms.openlocfilehash: 48f84dfe21f0f99913ba2c27123d6c0e1f8bc03f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 61f068a03bcce599d9f1b7eb62d7b317b7feab68
+ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533520"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25038091"
 ---
 # <a name="assign-ediscovery-permissions-to-onedrive-for-business-sites"></a>비즈니스용 OneDrive 사이트에 eDiscovery 사용 권한 할당
 
