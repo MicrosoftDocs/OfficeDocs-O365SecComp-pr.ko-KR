@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 description: '관리 권한으로 볼, 릴리스, 및 Office 365에서 가양성 격리 된 메시지를 보고 수 있습니다. Office 365 메시지를 필터링 하 고 다음과 같은 몇가지 이유로 격리로 보냅니다 되도록 정책을 설정할 수: 스팸, 대량, 피싱, 맬웨어, 확인 된 대로 수 있으므로 또는 메일 흐름 규칙 일치 합니다. '
-ms.openlocfilehash: be6384d8937e25aec55d82d8212c49d25b64b9a1
-ms.sourcegitcommit: d85fc77cba3a17d5ddf215e2f506f61b499e0cda
+ms.openlocfilehash: 67fb4ac8e3a5fd443efb04d4f74e9844d2fa8c86
+ms.sourcegitcommit: f7fff49ae0b1c3056faa58d73c1070cb4e638fbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839102"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018882"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "23839102"
   
 또한 특정 메시지를 확인 하기 위해 결과 필터링 할 수 있습니다. 팁에 대 한이 문서의 [결과 필터링 하 고 격리 된 메시지를 찾아 파일을](manage-quarantined-messages-and-files.md#BKMK_AdvSearch) 참조 합니다. 
   
-격리 된 특정 메시지를 찾은 후,에 대 한 세부 정보를 보려면 메시지를 클릭 하 고 다른 사용자의 받은 편지함에 메시지를 해제 하는 다음과 같은 작업을 수행 합니다.
+격리 된 특정 메시지를 찾은 후,에 대 한 세부 정보를 보려면 메시지를 클릭 하 고 다른 사용자의 사서함에 메시지를 해제 하는 다음과 같은 작업을 수행 합니다.
   
 ## <a name="view-your-organizations-quarantined-files"></a>조직의 격리 된 파일을 보려면
 
