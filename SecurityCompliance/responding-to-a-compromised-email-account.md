@@ -15,12 +15,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: 인식 하 고 Office 365에서 손상 된 전자 메일 계정에 응답 하는 방법을 설명 합니다.
-ms.openlocfilehash: bf3350da88804639356100fb5be2403c76cbcec6
-ms.sourcegitcommit: 17dda7ece5c9e884944a92ac0f842cf1e62ec506
+ms.openlocfilehash: b10bf58aaebc46938e3962494ff30dfb1e226130
+ms.sourcegitcommit: 411713004251ee62d29b550eabea04c08a87e41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "23977593"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "25341423"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
 
@@ -72,7 +72,7 @@ Office 365 사서함, 데이터 및 기타 서비스에 대 한 액세스, 사�
 - 온-프레미스 사용자의 id는 Office 365와 페더레이션 되어있는지, 암호에서 온-프레미스를 변경 해야 하 고 손상의 관리자에 게 문의 알려야 합니다.
 
 > [!TIP]
-> 관리 권한 가진 계정에 대 한 특히 손상을 방지 하기 위해 다단계 인증 (MFA)를 사용 하는 것이 좋습니다.  자세한 내용은 [여기](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)합니다.
+> 관리자 권한 가진 계정에 대 한 특히 손상을 방지 하기 위해 다단계 인증 (MFA)를 사용 하는 것이 좋습니다.  자세한 내용은 [여기](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)합니다.
 
 ### <a name="step-2-remove-suspicious-email-forwarding-addresses"></a>단계 2 제거 의심 스러운 전자 메일 전달 주소
 1. 열기는 **Office 365 관리 센터 > 활성 사용자**합니다.

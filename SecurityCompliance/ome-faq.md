@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화 FAQ
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 8/28/2018
+ms.date: 09/27/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365에서 새 메시지 보호 기능이 작동 하는 방법에 대 한 질문이 있습니까? 여기에 대 한 답변을 확인 합니다.
-ms.openlocfilehash: 8fc3fa2378dfc8dba6ed17c042269f726235bc58
-ms.sourcegitcommit: a8884b9675559018e1fddec1c0cc2de0bc3bdde5
+ms.openlocfilehash: c580ef701f6ee98ea2fc71df792256b1792c73cd
+ms.sourcegitcommit: 411713004251ee62d29b550eabea04c08a87e41f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839958"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "25341433"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -121,6 +121,10 @@ BYOK 하는 방법에 대 한 자세한 내용은 [계획 및 구현 하 여 Azu
 
 현재 설정할 수 있습니다만 메일 흐름 규칙을 Exchange Online. 암호화 현재 보안을 통해 DLP에서 지원 되지 않습니다 &amp; 준수 센터입니다.
   
+## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>공유 사서함에 전송 된 암호화 된 메시지를 열 수 있습니까?
+
+공유 사서함에 대 한 현재 암호화 된 메시지를 사용 하는 것이 없습니다.
+
 ## <a name="can-i-customize-encrypted-messages-with-my-company-branding"></a>사용자 지정 하는 암호화 된 메시지 브랜딩 내 회사와?
 
 예! 전자 메일 메시지와 OME 포털을 사용자 지정에 대 한 자세한 내용은 참조 하십시오. 조직의 브랜드를 암호화 된 메시지에 추가 합니다. 참조 [조직의 브랜드 암호화 된 메시지에 추가할.](add-your-organization-brand-to-encrypted-messages.md)
