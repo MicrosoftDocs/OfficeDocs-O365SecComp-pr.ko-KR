@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: e08a1772a7e04f459b80762e3da17600ef84c95a
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 6c47f48a773b3b3078a5d4c83b01b5300ce82eda
+ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013752"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25002681"
 ---
 # <a name="overview-of-labels"></a>레이블 개요
 
@@ -267,11 +267,20 @@ Office 365 그룹에 레이블을 게시하면 웹용 Outlook의 그룹 사이�
     
 ![중요한 정보 유형을 식별하기 위한 옵션](media/de255881-f596-4c8d-8359-e974e3a0819a.png)
   
-### <a name="auto-apply-labels-to-content-with-specific-keywords"></a>특정 키워드가 있는 콘텐츠에 레이블 자동 적용
+### <a name="auto-apply-labels-to-content-with-specific-keywords-or-searchable-properties"></a>특정 키워드 또는 검색 가능 속성이 있는 콘텐츠에 레이블 자동 적용
 
-특정 조건을 충족하는 콘텐츠에 레이블을 자동으로 적용할 수 있습니다. 현재 사용 가능한 조건은 특정 단어 또는 구를 포함하는 콘텐츠에만 레이블을 적용하도록 지원합니다. AND, OR 및 NOT과 같은 검색 연산자를 사용하여 쿼리를 구체화할 수 있습니다. 연산자에 대한 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
+특정 조건을 충족하는 콘텐츠에 레이블을 자동으로 적용할 수 있습니다. 현재 사용 가능한 조건은 특정 단어, 구 또는 검색 가능 속성을 포함하는 콘텐츠에만 레이블을 적용하도록 지원합니다. AND, OR 및 NOT과 같은 검색 연산자를 사용하여 쿼리를 구체화할 수 있습니다. 연산자 및 쿼리 구문에 대한 자세한 내용은 다음을 참조하세요.
+
+- [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
+- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
   
-검색 가능한 속성(예: **제목:**)을 추가하는 기능이 곧 지원될 예정입니다. 
+예제 쿼리:
+
+- Exchange
+    - subject:"Quarterly Financials"
+- SharePoint 및 비즈니스용 OneDrive
+    - contenttype:contract
+    - 사이트:`https://contoso.sharepoint.com/sites/teams/procurement` AND contenttype:contract
   
 쿼리 기반 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다.
   
