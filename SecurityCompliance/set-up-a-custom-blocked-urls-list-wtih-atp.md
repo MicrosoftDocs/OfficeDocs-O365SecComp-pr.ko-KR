@@ -3,7 +3,6 @@ title: Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법을 알아보려면이 문서를 읽어보십시오. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: cd1e7858c8929bf468b2a4d5e09ccde9d5adc7b1
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 36d295e6924d2e9972c185657885fa25bd96bf08
+ms.sourcegitcommit: 7032830867eb3fc71760e04b8342aff174c5d757
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533542"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353254"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
 
@@ -56,9 +55,9 @@ ms.locfileid: "22533542"
     
 |**예제 항목**|**기능**|
 |:-----|:-----|
-|`contoso.com`또는`\*contoso.com\*`  <br/> |도메인, 하위 도메인, 및 경로 같은 차단 `https://www.contoso.com`, `http://sub.contoso.com`, 및`http://contoso.com/abc`  <br/> |
+|`contoso.com`또는`*contoso.com*`  <br/> |도메인, 하위 도메인, 및 경로 같은 차단 `https://www.contoso.com`, `http://sub.contoso.com`, 및`http://contoso.com/abc`  <br/> |
 |`http://contoso.com/a`  <br/> |사이트를 차단 `http://contoso.com/a` 이지만 하지 추가 하위 경로`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a\*`  <br/> |사이트를 차단 `http://contoso.com/a` 추가 하위 경로 같은 및`http://contoso.com/a/b`  <br/> |
+|`http://contoso.com/a*`  <br/> |사이트를 차단 `http://contoso.com/a` 추가 하위 경로 같은 및`http://contoso.com/a/b`  <br/> |
    
 5. 화면 오른쪽 아래 모서리에서 Url을 추가 (영문)이 끝나면 **저장**을 선택 합니다.
     
