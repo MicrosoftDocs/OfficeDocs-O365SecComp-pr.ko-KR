@@ -3,7 +3,7 @@ title: Office 365에서 사서함 감사 사용
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/19/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: Office 365에서 사서함 감사 로깅 사서함 소유자, 대리인 및 관리자의 사서함 액세스를 기록 하도록 켤 수 있습니다. 기본적으로 Office 365에서 사서함 감사 설정 되지 않은 합니다. 사서함에 대 한 로깅 사서함 감사를 사용 하도록 설정한 후에 사서함에 수행 하는 작업에 대 한 Office 365 감사 로그를 검색할 수 있습니다.
-ms.openlocfilehash: a31a96c8c5c65965746a3a31bc924731289795f0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 9952cc94fe48e289e6eaf8de665a82cb3da4746d
+ms.sourcegitcommit: b6473cd6ba3f9ac79dc6a2040fc148020dfbe464
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533324"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358387"
 ---
 # <a name="enable-mailbox-auditing-in-office-365"></a>Office 365에서 사서함 감사 사용
   
@@ -103,7 +103,7 @@ Set-Mailbox "Don Hall" -AuditEnabled $true -AuditOwner MailboxLogin
 Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -AuditOwner @{Add="MailboxLogin","HardDelete","SoftDelete"}
 ```
   
-## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
+## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
 사서함에 대한 사서함 감사 로깅이 사용하도록 설정되었는지 확인하려면 **Get-Mailbox** cmdlet을 사용하여 해당 사서함에 대한 감사 설정을 검색합니다. 
   
@@ -129,14 +129,14 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 |:-----|:-----|:-----|:-----|:-----|
 |**복사** <br/> |메시지가 다른 폴더에 복사되었습니다.  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
 |**만들기** <br/> |사서함, 일정, 연락처, 메모 또는 작업 폴더에서 항목을 만들 예, 새 모임 요청을 생성 됩니다. 참고는 만들기, 보내기 또는 메시지를 받는 감사 되지 않습니다. 또한 사서함 폴더 만들기 (영문)을 감사 하지 않습니다.  <br/> |예\*  <br/> |예\*  <br/> |예  <br/> |
-|**FolderBind** <br/> |사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.  <br/> |예\*  <br/> |예\*\*  <br/> |아니요  <br/> |
+|**FolderBind** <br/> |사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.  <br/> |예  <br/> |예\*\*  <br/> |아니요  <br/> |
 |**HardDelete** <br/> |메시지가 복구 가능한 항목 폴더에서 제거되었습니다.  <br/> |예\*  <br/> |예\*  <br/> |예  <br/> |
 |**MailboxLogin** <br/> |사용자가 자신의 사서함에 로그인했습니다.  <br/> |아니요  <br/> |아니요  <br/> |예  <br/> |
 |**MessageBind** <br/> |메시지가 미리 보기 창에 표시되거나 열렸습니다.  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
-|**Move** <br/> |메시지가 다른 폴더로 이동했습니다.  <br/> |예\*  <br/> |예  <br/> |예  <br/> |
-|**MoveToDeletedItems** <br/> |메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.  <br/> |예\*  <br/> |예  <br/> |예  <br/> |
+|**Move** <br/> |메시지가 다른 폴더로 이동했습니다.  <br/> |예  <br/> |예  <br/> |예  <br/> |
+|**MoveToDeletedItems** <br/> |메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.  <br/> |예\*  <br/> |예\*  <br/> |예  <br/> |
 |**SendAs** <br/> |메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.  <br/> |예\*  <br/> |예\*  <br/> |아니요  <br/> |
-|**SendOnBehalf** <br/> |메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.  <br/> |예\*  <br/> |예  <br/> |아니요  <br/> |
+|**SendOnBehalf** <br/> |메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.  <br/> |예\*  <br/> |예\*  <br/> |아니요  <br/> |
 |**SoftDelete** <br/> |메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.  <br/> |예\*  <br/> |예\*  <br/> |예  <br/> |
 |**업데이트** <br/> |메시지 또는 해당 속성이 변경되었습니다.  <br/> |예\*  <br/> |예\*  <br/> |예  <br/> |
 |**UpdateCalendarDelegation** <br/> |일정 위임 사서함에 할당 합니다. 일정 위임에 사서함 소유자의 일정을 관리 하는 동일한 조직 권한을에서 다른 사용자를 제공 합니다.  <br/> |예\*  <br/> |아니요  <br/> |예\*  <br/> |
@@ -144,7 +144,7 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 |**UpdateInboxRules** <br/> |받은 편지함 규칙 추가, 제거 또는 변경 되었음을 합니다. 받은 편지함 규칙을 지정 된 조건에 따라 사용자의 받은 편지함의 메시지를 처리 하는 데 사용 되 하 고 지정 된 폴더로 메시지 이동 하거나 삭제 하는 메시지와 같은 규칙의 조건이 충족 되 면 작업을 수행 합니다.  <br/> |예\*  <br/> |예\*  <br/> |예\*  <br/> |
    
 > [!NOTE]
-> <sup>\*</sup>사서함에 대 한 감사 사용 하도록 설정 하는 경우 기본적으로 감사 됩니다. > <sup> \* </sup> 대리자에 의해 수행 되는 폴더 바인딩 작업에 대해 항목 통합 됩니다. 하나의 로그 항목은 24 시간의 시간 범위 내에서 개별 폴더 액세스에 대 한 생성 됩니다. > <sup> \* \* </sup> 관리자에 게 사용자의 사서함에 대 한 전체 액세스 권한을 할당 된 대리인 사용자로 간주 됩니다. 
+> <sup>\*</sup>사서함에 대 한 감사 사용 하도록 설정 하는 경우 기본적으로 감사 됩니다.<br/><br/>  <sup>\*\*</sup>대리자에 의해 수행 되는 폴더 바인딩 작업에 대 한 항목 통합 됩니다. 하나의 로그 항목은 24 시간의 시간 범위 내에서 개별 폴더 액세스에 대 한 생성 됩니다.<br/><br/><sup>\*\*\*</sup>관리자에 게 사용자의 사서함에 대 한 전체 액세스 권한을 할당 된 대리인 사용자로 간주 됩니다. 
   
 특정 유형의 사서함 감사 하기 위한 작업을 더이상 필요 하는 경우에 이러한 작업을 사용 하지 않도록 설정 하는 사서함 감사 로깅 구성을 수정 해야 합니다. 기존 로그 항목의 외에 감사 로그 항목에 대 한는 90 일 기간 한도 도달할 때까지 삭제 되지 않습니다.
   
