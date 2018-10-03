@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안을 사용 하 여 &amp; 준수 센터를 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 4c56f6f0c5f5a1ace7b94fab63d839760045c66f
-ms.sourcegitcommit: 6562a0d171dacdcdb945d192f45ea1a4c0c1c0c3
+ms.openlocfilehash: 79aa544d7243a4f3a81aebea3ffce92e2ad057f8
+ms.sourcegitcommit: 09d34bf058c0afce2c3800f207d64020ca984d57
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974688"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "25363151"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 및 준수 센터에서 감사 로그 검색
 
@@ -50,9 +50,9 @@ ms.locfileid: "24974688"
 
 - Dynamics 365 사용자 및 관리자 작업
     
-- Microsoft 흐름에서 사용자 및 관리자 작업
-
 - Yammer의 사용자 및 관리자 작업
+ 
+- Microsoft 흐름에서 사용자 및 관리자 작업
     
 - Microsoft Stream에서 사용자 및 관리자 작업
     
@@ -71,6 +71,15 @@ Office 365에서 검색을 시작 하기 전에 다음 항목 감사 로그 읽�
     > [!IMPORTANT]
     > 사용자 보안에서 **사용 권한** 페이지에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 하는 경우 &amp; 준수 센터 수는 없습니다 Office 365 감사 로그를 검색 합니다. Exchange Online에서 사용 권한을 할당 해야 합니다. 감사 로그를 검색 하는 데 사용 하는 원본으로 사용 cmdlet은 Exchange Online cmdlet 때문입니다. 
   
+- 감사 된 활동 사용자 또는 관리자에 의해 수행 되 면 감사 레코드 생성 되 고 조직에 대 한 Office 365 감사 로그에 저장 합니다. 지정 된 시간이 감사 레코드를 보관 함 (및 감사 로그에서 검색 가능한)의 길이 Office 365 구독에 따라 다릅니다.
+
+     - **Office 365 E3** -감사 레코드 90 일 동안 보관 됩니다. 즉, 지난 90 일 동안 수행 된 활동에 대 한 감사 로그를 검색할 수 있습니다.
+
+     - **Office 365 e 5** -365 일 (1 년)에 대 한 레코드를 보존 해야하는 감사 합니다. 즉, 지난 연도 내에 수행 된 활동에 대 한 감사 로그를 검색할 수 있습니다. 1 년에 대 한 감사 레코드를 보존 E3 구독 및는 Office 365 고급 준수 추가 기능 등록 하는 조직에 사용할 수도 있습니다.
+
+        > [!NOTE]
+        > 1 년 보존 기간 감사 레코드를 현재 사용할 수에 대 한 프로그램 Office 365 미리 보기의 일부로 사용할 수 있으며 e 5에 가입가 미리 보기 프로그램에 등록 하는 조직입니다. 또한, 10 월 2018 여전히만 90 일 동안 보존하기 전에 수행 된 활동에 대 한 레코드를 감사 합니다. 10 월 2018 부터는 새 감사 레코드 유지 됩니다 조직에 e 5 구독에 대 한 1 년 또는 E3 구독 및는 준수 고급 추가 기능 구독 내용이 있는 합니다.
+
 - 조직에 대 한 Office 365에서 감사 로그 검색을 해제 하려는 경우 Exchange Online 조직에 연결 된 원격 PowerShell에서 다음 명령을 실행할 수 있습니다.
     
   ```
@@ -89,8 +98,6 @@ Office 365에서 검색을 시작 하기 전에 다음 항목 감사 로그 읽�
     
 - 프로그래밍 방식으로 Office 365 감사 로그에서 데이터를 다운로드 하려면 PowerShell 스크립트를 사용 하는 대신 Office 365 관리 활동 API를 사용 하는 것이 좋습니다. Office 365 관리 활동 API는 작업, 보안 및 규정 준수 조직에 대 한 모니터링 솔루션을 개발 하는 데 사용할 수 있는 REST 웹 서비스. 자세한 내용은 [Office 365 관리 활동 API 참조 (영문)을](https://go.microsoft.com/fwlink/?linkid=852309)참조 하십시오.
     
-- 지난 90 일 동안 수행 된 활동에 대 한 Office 365 감사 로그를 검색할 수 있습니다.
-    
 - 최대 30 분까지 걸릴 수 있습니다 하 또는을 24 시간 이벤트가 발생 한 후에 발생 검색 결과에 표시 되도록 해당 감사 로그 항목에 대 한 합니다. 다음 표에서 Office 365에서 서로 다른 서비스에 대 한 걸리는 시간을 보여줍니다.
     
 |**Office 365 서비스**|**30분**|**24시간**|
@@ -107,7 +114,7 @@ Office 365에서 검색을 시작 하기 전에 다음 항목 감사 로그 읽�
 |Microsoft Forms  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
 |Microsoft Project  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
 |Microsoft Stream  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
-|Microsoft 팀  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
+|Microsoft Teams  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
 |Power BI  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
 |보안 &amp; 준수 센터  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
 |SharePoint Online 및 비즈니스용 OneDrive  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
@@ -287,7 +294,8 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |[활동 라](#sway-activities) <br/> |[사용자 관리 작업](#user-administration-activities) <br/> |[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |
 |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/> |
 |[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 팀의 활동](#microsoft-teams-activities) <br/> |
-|[Yammer 활동](#yammer-activities) <br/> |[Microsoft Stream](#microsoft-stream) <br/> |[Exchange 관리자 감사 로그](#exchange-admin-audit-log) <br/> |
+|[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft Stream](#microsoft-stream) <br/>|
+|[Exchange 관리자 감사 로그](#exchange-admin-audit-log) <br/> |
    
   
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -640,6 +648,11 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |업데이트 된 파일 이름  <br/> |FileUpdateName  <br/> |파일의 이름을 변경 하는 사용자입니다.  <br/> |
 |본된 파일  <br/> |FileVisited  <br/> |사용자는 파일을 봅니다.  <br/> |
    
+### <a name="microsoft-flow"></a>Microsoft Flow
+
+Microsoft 흐름에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 활동 만들기, 편집 및 흐름, 삭제 및 흐름 사용 권한 변경를 포함 합니다. 흐름 활동에 대 한 감사 하는 방법에 대 한 정보를 [Microsoft 흐름 이제 Office 365 보안 및 규정 준수 센터에서 사용할 수 있는 이벤트를 감사](https://flow.microsoft.com/blog/security-and-compliance-center)블로그를 참조 하십시오.
+
+
 ### <a name="microsoft-stream"></a>Microsoft Stream
   
 Microsoft Stream의 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 활동 사용자, 그룹 채널 활동 및 사용자 관리, 조직 설정 관리 및 보고서 내보내기 (영문)와 같은 관리 작업에 의해 수행 되는 비디오 활동을 포함 합니다. 이러한 작업에 대 한 [Microsoft Stream에서 감사 로그](https://docs.microsoft.com/stream/audit-logs)에서 "Microsoft Stream에 활동 기록" 섹션을 참조 하십시오.
@@ -678,9 +691,16 @@ Office 365에서 사용할 수 있는 감사 및 보고 기능에 대 한 자세
 
 30 분 이내에 대부분의 감사 데이터를 사용할 수 있지만 검색 결과에 표시 되도록 해당 감사 로그 항목에 대 한 이벤트가 발생 한 후 24 시간까지 걸릴 수 있습니다. 다른 Office 365 서비스에서 이벤트를 사용할 수에 걸리는 시간을 표시 하는이 문서의 [시작 하기 전에](#before-you-begin) 섹션에 표를 참조 합니다.
 
-**위해서만 감사 레코드는 얼마나 오래?**
+**에 대 한 감사 레코드를 보존 하는 기간**
 
-현재 감사 로그 레코드는 90 일 동안 보관 됩니다. Microsoft가이 한계를 늘리려면 계획에서 적극적으로 작동 됩니다. 
+앞에서 설명한 것 처럼 감사 레코드에 대 한 보존 기간 조직의 Office 365 구독에 따라 달라 집니다.  
+
+- **Office 365 E3** -감사 레코드 90 일 동안 보관 됩니다.
+
+- **Office 365 e 5** -365 일 (1 년)에 대 한 레코드를 보존 해야하는 감사 합니다. 1 년에 대 한 감사 레코드를 보존 E3 구독 및는 Office 365 고급 준수 추가 기능 등록 하는 조직에 사용할 수도 있습니다.
+
+     > [!NOTE]
+     > 감사 레코드에 대 한 1 년 보존 기간은 현재 Office 365 미리 보기 프로그램에 등록 된 조직에만 사용할 수 있습니다.
 
 **감사 데이터를 프로그래밍 방식으로 액세스할 수 있습니까?**
 
