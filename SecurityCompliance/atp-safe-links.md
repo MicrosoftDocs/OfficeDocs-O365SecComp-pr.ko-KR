@@ -19,16 +19,16 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 다음 Office 문서 및 전자 메일 메시지에 하이퍼링크의 클릭 시간 확인 합니다. 피싱 및 기타 공격 으로부터 조직을 보호를 안전한 링크를 사용 합니다.
-ms.openlocfilehash: 35975ee58763578586b78d7d1f281fde81e1139b
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: 9199c69d73a1585d76181c7a5feba79e465289db
+ms.sourcegitcommit: e14dec9bed0c0009acbc1f1cb80b4d0794ad5739
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972350"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25435115"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
-Office 365 ATP 안전한 링크 (ATP 안전 링크) (과 함께 [Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md))은 엔터프라이즈 조직에 대 한 [Office 365 고급 위협 보호](office-365-atp.md) 의 일부분으로 제공 되는 보안 기능 집합입니다. ATP 안전한 링크 보호 하는 조직 클릭 시간 확인의 웹 주소 (Url)를 제공 하 여 Office 문서 및 전자 메일 메시지에 있습니다. Office 365 보안 팀에 의해 설정 된 [ATP 안전한 링크 정책](set-up-atp-safe-links-policies.md) 을 통해 보호 정의 됩니다. 
+Office 365 ATP 안전한 링크 (ATP 안전 링크) (과 함께 [Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md))은 엔터프라이즈 조직에 대 한 [Office 365 고급 위협 보호](office-365-atp.md) 의 일부분으로 제공 되는 보안 기능 집합입니다. ATP 안전한 링크는 클릭 시간 확인 [전자 메일 메시지](#how-atp-safe-links-works-with-email) 및 [Office 문서](#how-atp-safe-links-works-with-office-documents)에서 웹 주소 (Url)를 제공 하 여 조직을 보호할 수 있습니다. Office 365 보안 팀에 의해 설정 된 [ATP 안전한 링크 정책](set-up-atp-safe-links-policies.md) 을 통해 보호 정의 됩니다. 
   
 ATP 안전한 링크 정책이 설정 되어, 되 면 Office 365 전역 관리자, 보안 관리자 및 보안 독자 [고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)수 있습니다. 이러한 보고서의 정보에는 조직을 보호 하거나 보안 문제를 조사 하는 추가 단계를 수행 하 여 보안 팀 데 도움이 됩니다.
          
@@ -84,13 +84,15 @@ ATP 안전한 링크에 새 기능 추가를 계속 합니다. 다음은 몇가�
   
 - 가능한 가장 늦은 년 10 월 2017 부터는 ATP 안전한 링크 보호에 적용할 Url Url를 비롯 하 여 전자 메일에 Office 365 ProPlus 문서, Word, Excel, PowerPoint, Visio 등의 Office와 함께 Windows, iOS 및 Android 장치에서 앱까지 확장 됩니다. ( [Office에 대 한 최신 인증](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)을 사용 하는 있는지 확인 합니다.)
     
-- 년 3 월 2018 부터는 ATP 안전한 링크 보호 조직의 사용자 간에 보낸 전자 메일에 적용할까지 확장 됩니다.
+- 년 3 월 2018 부터는 ATP 안전한 링크 보호 조직의 사용자 간에 보낸 전자 메일에 적용할까지 확장 됩니다. (있는지 확인 검토 하 [고 ATP 안전한 링크 정책을 편집](set-up-atp-safe-links-policies.md)합니다.)
 
-- ATP 안전한 링크 원래 Url을 렌더링 하 고 다시 쓴된 Url을 표시 하지 년 6 월 2018, 사람들이 웹 응용 프로그램 OWA (Outlook)을 사용 하는 경우에 시작 합니다. 이렇게 하면 사용자가 전자 메일에 원래 링크를 볼 수 있습니다. (이 기능은 아직 사용할 수 없는 경우 Outlook 클라이언트 응용 프로그램에 대 한)
-    
-- 2018의 후반부에서 시작, ATP 안전한 링크 보호 Office Online (Word 온라인, Excel, PowerPoint 온라인 온라인과 OneNote 온라인) 및 Mac.에서 Office 365 ProPlus의 Url에 적용 하기 위해 확장
-    
+- ATP 안전한 링크 원래 Url을 렌더링 하 고 다시 쓴된 Url을 표시 하지 년 6 월 2018, 사람들이 웹 응용 프로그램 OWA (Outlook)을 사용 하는 경우에 시작 합니다. 이렇게 하면 사용자가 전자 메일에 원래 링크를 볼 수 있습니다. (이 네이티브 링크 visbility 호출합니다.)
+
 - 년 9 월 2018에서 시작 하는 "," [Office 365 ATP 경고 페이지](atp-safe-links-warning-pages.md) 기능 새 색 구성표를 "," 자세한 내용은 "및" 불구 하 고 사이트에 계속 하는 기능 제공 경고 및 권장 사항. 
+  
+- 2018의 후반부에서 시작, ATP 안전한 링크 보호 Office Online (Word 온라인, Excel, PowerPoint 온라인 온라인과 OneNote 온라인) 및 Mac.에서 Office 365 ProPlus의 Url에 적용 하기 위해 확장 (있는지 확인 검토 하 [고 ATP 안전한 링크 정책을 편집](set-up-atp-safe-links-policies.md)합니다.)
+   
+- 가능한 가장 늦은 2018 부터는 네이티브 링크 표시 유형 Outlook에서 제공 됩니다. 사용자가 OWA 또는 Outlook을 사용 하 든 여부를 전자 메일, 원래 Url (하지 다시 쓴된 Url)를 볼 수 있습니다.
     
 ## <a name="how-to-get-atp-safe-links-protection"></a>ATP 안전한 링크 보호 하는 방법
 

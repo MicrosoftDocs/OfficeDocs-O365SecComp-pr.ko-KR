@@ -3,7 +3,7 @@ title: 보고서 메시지 추가 기능을 사용하도록 설정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/28/2018
+ms.date: 10/04/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,44 +13,46 @@ search.appverid:
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 description: Outlook 및 Outlook에서 개별 사용자에 대 한 웹 또는 전체 조직에 대 한 보고서 메시지 추가 기능을 사용 하는 방법에 알아봅니다.
-ms.openlocfilehash: 68b70cdb138ad38216f188116e576a24304a3769
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: 2eb12bd14f92e2d4ee26fbef817578d32e737b85
+ms.sourcegitcommit: e14dec9bed0c0009acbc1f1cb80b4d0794ad5739
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972270"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25435095"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
-보고서 메시지에서 추가 기능 Outlook에 대 한 사람들이 쉽게 misclassified 전자 메일 안전 또는 악의적인, 여부를 보고 Microsoft 및 그 계열사 분석을 위해 수 있도록 합니다. Microsoft의 전자 메일 보호 기술 효율성을 향상 시키기 위해 이러한 제출을 사용 합니다.
+보고서 메시지에서 추가 기능 Outlook에 대 한 사람들이 쉽게 misclassified 전자 메일 안전 또는 악의적인, 여부를 보고 Microsoft 및 그 계열사 분석을 위해 수 있도록 합니다. Microsoft의 전자 메일 보호 기술 효율성을 향상 시키기 위해 이러한 제출을 사용 합니다. 또한 조직에서 [Office 365 고급 위협 보호](office-365-atp.md) 또는 [위협 인텔리전스](office-365-ti.md)를 포함 하는 Microsoft 클라우드 서비스를 사용 하 고, 하는 경우 보고서 메시지 추가 기능에서 제공 조직의 보안 팀 유용한 정보 검토 하 여 보안 정책 업데이트를 사용할 수 있습니다. 
+
+등 사용자가 피싱으로 많은 메시지를 보고 하는 것으로 가정 합니다. 이 정보는 [보안 대시보드](security-dashboard.md) 및 기타 보고서에서 월등 합니다. 조직의 보안 팀이이 정보를 사용 하 여 피싱 방지 정책 업데이트 해야할 수도 있음을으로 수 있습니다. 또는 사용자는 많은 보고서 메시지 추가 기능을 사용 하 여 정크 메일 아님으로 정크 메일으로 플래그가 지정 된 메시지를 보고, 조직의 보안 팀 [스팸 방지 정책](configure-the-anti-spam-policies.md)을 조정 하려면 필요할 수 있습니다.  
   
-개별 사용자 인 경우에 보고서 메시지 용 추가 기능에 사용자가 직접 설정할 수 있습니다. 
+개별 사용자 인 경우에 [자신에 대 한 보고서 메시지 추가 기능을 사용](#get-the-report-message-add-in-for-yourself)할 수 있습니다. 
   
-Exchange Online의 관리자 인 경우 조직에 대 한 보고서 메시지 추가 기능에서 사용할 수 있습니다.
+Exchange Online의 관리자 인 경우에 [조직에 대 한 보고서 메시지 추가 기능을 사용](#get-and-enable-the-report-message-add-in-for-your-organization)할 수 있습니다.
     
 ## <a name="get-the-report-message-add-in-for-yourself"></a>메시지가 표시 되는 보고서 추가 기능에서 자신에 대 한
 
-1. 이동 [https://store.office.com](https://store.office.com), 및 보고서 메시지 추가 기능에 대 한 검색 합니다.
+1. [Office를 저장](https://appsource.microsoft.com/product/office/WA104381180?src=office), 추가 기능에서 보고서 메시지 가져옵니다.
     
-2. **지금** (또는 **추가** )를 선택 합니다. 
+2. 선택 **가져올 이제 IT**합니다.<br/>![메시지를 보고-지금 신청](media/ReportMessageGETITNOW.png)<br/> 
     
 3. 사용 및 개인정보 보호 정책 약관을 검토 합니다. 다음 **계속**을 선택 합니다. 
     
 4. 진행 중인 작업 또는 학교 계정 (업무용) 또는 Microsoft 계정 (개인용)를 사용 하 여 Office 365 전자 메일에 로그인 합니다.
     
+
 추가 기능에 설치 및 활성화, 후 다음과 같은 아이콘이 표시 됩니다. 
 
 - Outlook에서 아이콘은 다음과 같습니다. <br/> ![Outlook에 대 한 보고서에서 메시지 추가 아이콘](media/OutlookReportMessageIcon.png)<br/>
 - Outlook Web App에서 아이콘은 다음과 같습니다.<br/>![Outlook에서 웹 보고서 메시지 추가 아이콘](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
 
-  
 다음 단계에 대해 알아봅니다 [보고서 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하는 방법입니다.
   
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>조직에 대 한 보고서 메시지 추가 기능을 사용 하 고 확인
 
 > [!IMPORTANT]
-> 이 작업을 수행 하려면 Exchange Online 관리자 여야 합니다.
-  
+> 이 작업을 완료 하려면 Office 365 전역 관리자 또는 Exchange Online 관리자 여야 합니다.
+
 1. 이동 [https://portal.office.com](https://portal.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. **관리자** 가 관리 센터로 이동을 선택 합니다. 
@@ -59,40 +61,49 @@ Exchange Online의 관리자 인 경우 조직에 대 한 보고서 메시지 �
     
 4. **조직** 선택 \> **추가 기능**입니다. 
     
-5. 선택 **+** \> **Office 스토어에서 추가**합니다. 
+5. 선택 **+**  >  **Office 스토어에서 추가**합니다.<br/>![선택 Office 스토어에서 추가](media/EAC-Org-AddFromOfficeStore.png)<br/>그러면 Office 스토어 웹 브라우저에서 열립니다.
     
-6. 보고서 메시지를 검색 합니다.
+6. 보고서 메시지를 검색 합니다.<br/>![보고서 메시지에 대 한 검색](media/ReportMessageSearchOfficeStore.png)<br/>
     
-7. **App 결과** 목록에서 **보고서 메시지**를 찾은 다음 **지금** (또는 **추가** )를 선택 합니다. 
+7. **앱** 목록에서 **보고서 메시지**를 선택 하 고 **IT 가져오기 시작**을 선택 합니다.<br/>![선택 하면 이제 IT](media/ReportMessageGETITNOW.png)<br/> 
     
 8. 사용 및 개인정보 보호 정책 약관을 검토 합니다. 다음 **계속**을 선택 합니다. 
     
-    ![개인정보 보호 정책 계약에 동의 하려면 계속을 클릭](media/3c813cd6-1601-4791-97dc-f8edbbd3fb6b.png)
+    ![개인정보 보호 정책 계약에 동의 하려면 계속을 클릭](media/ReportMessageTermsAndConditions.png)
   
-9. 확인 화면에서 **예**를 선택 합니다. 
+9. 보고서 메시지 추가 기능 검토의 정보를 구성 하 고 계속 하려면 **다음** 을 선택 하는데 도움이 되는 마법사가 열립니다.<br/>![Office 365에 대 한 마법사 추가 기능에서 메시지를 보고 합니다.](media/ReportMessageAdminInstallUI.png)<br/> 
+
+10. 보고서 메시지 추가 기능에 대 한 사용자가 원하는 기본 설정을 지정 합니다.<br/>![보고서 메시지 추가 기능에 대 한 기본 설정 지정](media/ReportMessageUserOptionsAdminsSet.png)<br/>
     
-10. 보고서 메시지 추가 기능을 설치한 후에 활성화 해야 합니다. 이렇게 하려면 다음이 단계를 따릅니다.
-    
-1. EAC를 돌아간 다음 브라우저 창을 새로 고쳐서 합니다.
-    
-2. **조직** 선택 \> **추가 기능**입니다. 
-    
-3. 추가 기능 목록에서 **보고서 메시지**를 선택 합니다. 
-    
-    ![EAC에서 보고서 메시지에서 추가 기능 Outlook을 설정할 수 있습니다.](media/b496743c-55fa-4cdb-aa06-0b2a7aec6dab.png)
-  
-4. **편집**을 선택 하 고 추가 기능을 활성화 하는 옵션을 선택 합니다. 
-    
-    ![EAC에서 보고서 메시지 추가 기능을 사용합니다](media/578b1b66-3620-4a8a-9819-1c9cc6836f37.png)
-  
-5. **저장**을 선택합니다. 
-    
-> [!TIP]
-> 추가 기능에 설치 후 사용 하도록 설정, 조직의 사용자는 다음과 같은 아이콘이 표시 됩니다. 
-  
+11. 추가 기능에서 보고서 메시지를 누가 지정 합니다. <br/>![추가 기능에서 보고서 메시지를 누가 지정](media/ReportMessageChooseWhoGetsItAdminSettings.png)<br/>
+
+12. **저장**을 선택합니다.
+
+어떤 사용자가 선택한 마법사를 사용 하 여를 따라 조직의 사용자는 보고서 메시지 추가 기능에서 사용할 수 있는 갖습니다. 조직의 사용자는 다음과 같은 아이콘이 표시 됩니다. 
+
+- Outlook에서 아이콘은 다음과 같습니다. <br/> ![Outlook에 대 한 보고서에서 메시지 추가 아이콘](media/OutlookReportMessageIcon.png)<br/>
+- Outlook Web App에서 아이콘은 다음과 같습니다.<br/>![Outlook에서 웹 보고서 메시지 추가 아이콘](media/d9326d0b-1769-4bc2-ae58-51f0ebc69a17.png)<br/>
+
+
 다음으로, 설명 보고 된 전자 메일 메시지를 보려면 [보고서 메시지 추가 기능을 사용 하 여](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2), 및 규칙을 설정 하는 방법입니다.
+
+## <a name="review-or-edit-the-default-settings-for-the-report-message-add-in"></a>검토 또는 보고서 메시지 추가 기능에 대 한 기본 설정 편집
+
+검토 수 있으며 보고서 메시지에서 추가 기능 관리 센터를 사용 하 여 기본 설정을 편집할 수 있습니다. 
+
+> [!IMPORTANT]
+> 이 작업을 완료 하려면 Office 365 전역 관리자 또는 Exchange Online 관리자 여야 합니다.
+    
+1. 방금 설치한 경우 보고서 메시지 추가 기능에서 조직에 대 한, 이미 수 서비스 및 추가 기능 페이지에서. 이동 하 고, [여기서](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) 와 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다.
+
+2. **보고서 메시지**찾아 선택 합니다.<br/>![Office 365에 대 한 추가 기능 및 서비스](media/ReportMessage-o365servicesaddins.png)<br/> 
+    
+3. 창에는 배포 중에 보고서 메시지 추가 기능에 대해 선택 하는 설정을 표시 하는 열립니다.<br/>![보고서 메시지 추가 기능에 대 한 설정](media/ReportMessage-reviewaddinsettings.png)<br/> 
+
+4. 검토 하 고 필요한 경우는 보고서 메시지에 추가 기능에 대 한 설정을 편집 하 고 변경 내용을 저장 합니다.
+    
   
-### <a name="set-up-a-rule-to-get-a-copy-of-email-messages-reported-by-your-users"></a>사용자가 보고 하는 전자 메일 메시지의 복사본을 가져오시겠습니까 규칙을 설정 합니다.
+## <a name="set-up-a-rule-to-get-a-copy-of-email-messages-reported-by-your-users"></a>사용자가 보고 하는 전자 메일 메시지의 복사본을 가져오시겠습니까 규칙을 설정 합니다.
 
 > [!IMPORTANT]
 > 이 작업을 수행 하려면 Exchange Online 관리자 여야 합니다.
@@ -131,6 +142,10 @@ Exchange Online의 관리자 인 경우 조직에 대 한 보고서 메시지 �
 
 [보고서 메시지 추가 기능을 사용 하 여](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
   
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터](view-email-security-reports.md)
+
+[Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
+
+[탐색기를 사용 하 여 보안에서 &amp; 준수 센터](use-explorer-in-security-and-compliance.md)
   
 
