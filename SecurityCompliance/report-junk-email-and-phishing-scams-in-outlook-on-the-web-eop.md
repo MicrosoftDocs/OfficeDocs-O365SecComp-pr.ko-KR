@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 description: 웹 사용자에 게 Microsoft Outlook 옵션을 보고 하는 기본 제공 전자 메일을 사용 하 여 정크 (스팸) 및 피싱 메일을 보고할 수 있습니다. 또한 Microsoft에 전자 메일 정크 (스팸)로 올바르게으로 식별 된 경우 알리고 하도록 할 수 있습니다.
-ms.openlocfilehash: 4dab3013f2ca9918dc8529cb67113469ea945015
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: d495f5648d4e4ac7ee7335d58a4268bdfecb6109
+ms.sourcegitcommit: 4a7d7717f0da05cf5a3c506df2989a9d02f33dfa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972300"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450073"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹에 있는 Outlook에서 정크 메일 및 피싱 사기를 보고 합니다. 
 
@@ -59,6 +59,8 @@ Microsoft에 피싱 사기 메시지를 전송 합니다.
 ## <a name="for-more-information"></a>자세한 내용
 
 [정크 메일 및 피싱에 대한 자세한 정보](https://go.microsoft.com/fwlink/p/?LinkId=270068)
+
+[Microsoft Outlook 용 추가 기능에 보고 하는 정크 메일](https://docs.microsoft.com/en-us/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
   
   
 
