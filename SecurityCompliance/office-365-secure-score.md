@@ -1,7 +1,7 @@
 ---
 title: Office 365 보안 점수 소개
-ms.author: brendonb
-author: brendonb
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 6/23/2018
 ms.audience: Admin
@@ -13,34 +13,22 @@ search.appverid:
 - MET150
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
 description: 얼마나 안전한 Office 365 조직 정말 지 궁금한 적이 있습니까? 앱으로 중지할 수 있는 시간을-Office 365 보안 점수를 위해 여기 됩니다. 일반 작업 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다. 것으로 생각 하면 보안에 대 한 신용 점수입니다.
-ms.openlocfilehash: 02f958ec4b9b9287f5db8ddbb5cd83f3cef68007
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 958744696e0d9d8c7e8f29b9bdc460c5aa05eb3a
+ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532980"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450753"
 ---
 # <a name="introducing-the-office-365-secure-score"></a>Office 365 보안 점수 소개
 
 얼마나 안전한 Office 365 조직 정말 지 궁금한 적이 있습니까? 앱으로 중지할 수 있는 시간을-Office 365 보안 점수를 위해 여기 됩니다. 일반 작업 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다. 것으로 생각 하면 보안에 대 한 신용 점수입니다.
   
-## <a name="in-this-article"></a>이 문서의 내용
-
-[보안 점수를 합니까?](office-365-secure-score.md#howtoaccess)
-  
-[어떻게 작동 합니까?](office-365-secure-score.md#HowWorks)
-  
-[해당 사항을 있나요?](office-365-secure-score.md#HowHelps)
-  
-[FAQ](office-365-secure-score.md#FAQ)
-  
 ## <a name="how-do-i-get-to-secure-score"></a>보안 점수를 합니까?
-<a name="howtoaccess"> </a>
 
 Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세스할 수에 대 한 관리자 권한 (전역 관리자 또는 사용자 지정 관리 역할)을 가진 모든 사용자가 [https://securescore.office.com](https://securescore.office.com)합니다. 관리 역할 할당 되지 않은 사용자에 게 보안 점수에 액세스할 수 없습니다. 그러나 관리자가 조직에서 다른 사람들과 자신의 결과 공유 하 도구를 사용 수 있습니다.
   
 ## <a name="how-does-it-work"></a>작동 방식
-<a name="HowWorks"> </a>
 
 어떤 Office 365 서비스 보안 점수 수치 있습니다 (OneDrive, SharePoint, Exchange 등)를 사용 하는 한 다음 설정 및 작업을 확인 하 고 Microsoft에 의해 설정 된 초기 계획을 비교 합니다. 최상의 보안 방법으로는 어떻게 정렬 기준으로 점수를 얻을 수 있습니다.
   
@@ -63,7 +51,6 @@ Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세�
 ![탭의 점수 분석기 선택 된 데이터 요소를 보여주는 그래프](media/b8427837-2ed9-4319-ba71-7d03bd99129c.png)
   
 ## <a name="how-will-it-help-me"></a>해당 사항을 있나요?
-<a name="HowHelps"> </a>
 
 보안 점수를 사용 하 여 장려 Office 365 (대부분의 이미 구입한 있지만 인식 되지 않을 수)의 기본 제공 보안 기능을 사용 하 여 조직의 보안을 강화 하는데 도움이 됩니다. 사용 하면 도움이 되는 도구를 사용 하 여 이러한 기능에 대해 자세히 안심할 조직 위협 으로부터 보호 하기 위해 오른쪽 단계를 수행 하는 요소가 있습니다.
   
@@ -75,7 +62,6 @@ Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세�
 > 보안 점수 절대 측정 하는 express 하지 않는 도달 하기에 어떻게 가능성이의 합니다. 도달 되 고 위험을 오프셋할 수 있는 제어 채택 범위를 나타냅니다. 서비스가 없습니다 있습니다를 위반 하지 않습니다, 하 고 보안 점수 보장 어떤 방식에서으로 해석 하지 않아야 보장할 수 있습니다. 
   
 ## <a name="faqs"></a>FAQ
-<a name="FAQ"> </a>
 
 ### <a name="who-can-use-secure-score"></a>보안 점수를 사용할 수 있는 사람?
 
@@ -118,5 +104,9 @@ Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세�
 ### <a name="my-organization-only-has-certain-security-features-does-this-affect-my-score"></a>만 내 조직에 특정 보안 기능이 있습니다. 내 점수 영향은이?
 
 구입한 서비스에 따라 점수를 계산 하는 보안 점수입니다. 예는 Exchange Online 계획을만 구입한 경우 SharePoint Online 보안 기능에 대 한 획득 수 없습니다. 점수의 분모는 구입 제품에 적용 되는 컨트롤에 대 한 모든 초기 계획의 합입니다. 분자는 합계를 모든 컨트롤의 완료 되 면 하면 또는를 부분적으로 완료 되 면이 행 해야할 임무가 제어 하는 작업입니다.
+
+## <a name="related-topics"></a>관련 항목
+
+[보안 대시보드 개요 (영문)](security-dashboard.md)
   
 

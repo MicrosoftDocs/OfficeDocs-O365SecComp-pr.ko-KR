@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Office 365 클라우드 앱 보안이 포함 된 SIEM 서버를 통합할 수 있습니다. 작동 방식 및를 설정 하는 방법에 대 한 개요를 얻으려면이 문서를 읽어보십시오.
-ms.openlocfilehash: a2bd75e73ddccef9359ace304faa3c8b1dd4a728
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: d8603d53e156e89c53f13153cd90d400b1312538
+ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972330"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450763"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Office 365 Cloud App Security와 SIEM 서버 통합
   
@@ -25,11 +25,13 @@ ms.locfileid: "24972330"
 |:-----|:-----|:-----|:-----|
 |[평가 시작 합니다.](office-365-cas-overview.md) <br/> |[계획을 시작합니다](get-ready-for-office-365-cas.md) <br/> |여기는!  <br/> [다음 단계](utilization-activities-for-ocas.md) <br/> |[활용 하 여 시작](utilization-activities-for-ocas.md) <br/> |
    
+## <a name="overview-and-prerequisites"></a>개요 및 필수 구성 요소
+
 [Office 365 클라우드 앱 보안](get-ready-for-office-365-cas.md) 알림 중앙 집중화 된 모니터링을 활성화 하려면 보안 정보 및 이벤트 (SIEM) 관리 서버와 통합할 수 있습니다. 이것은 클라우드 서비스를 사용 하는 조직에 특히 유용 하 고 온-프레미스 서버 응용 프로그램입니다. SIEM 서버와 통합 보안 팀이 더 잘 특정 보안 절차를 자동화 하 고 클라우드 기반 간의 상호 연관 시키는 함으로써 일반적인 보안 워크플로 사용 하 여 유지 관리 하는 동안 Office 365 응용 프로그램을 보호할 수 있도록 온-프레미스 및 이벤트입니다.  
   
 Office 365 클라우드 응용 프로그램 보안 SIEM 서버에 부합 먼저 때 마지막 2 일에서 알림은 전달 됩니다 모든 알림을 SIEM 서버를 다음에서에서 (선택한 필터 기준). 또한 오랫동안 때 클래스를 활성화 하면 다시이 기능을 해제 하는 경우 지난 2 일의 알림 및 모든 알림을 다음 그 보냅니다.
- 
-## <a name="siem-integration-architecture"></a>SIEM 통합 아키텍처
+
+### <a name="siem-integration-architecture"></a>SIEM 통합 아키텍처
 
 SIEM 에이전트 조직의 네트워크에 설정 됩니다. SIEM 에이전트 구성 된 데이터 형식 가져오는 배포 하 고 구성 하는 경우 Office 365 클라우드 앱 보안 RESTful Api를 사용 하 여 (경고). 트래픽이 포트 443에서 암호화 된 HTTPS 채널을 통해 전송 됩니다.
   
@@ -37,13 +39,13 @@ Office 365 클라우드 응용 프로그램 보안에서 데이터를 검색 하
 
 ![SIEM 및 클라우드 응용 프로그램 보안 아키텍처](media/siem-architecture.png)
 
-## <a name="supported-siem-servers"></a>지원 되는 SIEM 서버
+### <a name="supported-siem-servers"></a>지원 되는 SIEM 서버
 
 Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
 - 마이크로 포커스 ArcSight
 - 일반 CEF
 
-## <a name="prerequisites"></a>필수 구성 요소
+### <a name="prerequisites"></a>필수 구성 요소
 
 - 이 문서에서 설명 하는 작업을 수행 하려면 전역 관리자 또는 보안 관리자 여야 합니다. 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
 
@@ -63,9 +65,7 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
 
 - [파일을 병](https://go.microsoft.com/fwlink/?linkid=838596) SIEM 서버에 통합 하는데 필요한을 다운로드 하려면 [소프트웨어 사용 조건](https://go.microsoft.com/fwlink/?linkid=862491) 에 동의 해야 합니다.
  
-## <a name="integrate-office-365-cloud-app-security"></a>Office 365 클라우드 앱 보안 통합
-    
-### <a name="step-1-set-it-up-in-the-office-365-cloud-app-security-portal"></a>1 단계: Office 365 클라우드 응용 프로그램 보안 포털에서 설정
+## <a name="step-1-set-it-up-a-siem-agent-in-office-365-cloud-app-security"></a>1 단계: Office 365 클라우드 앱 보안에서 SIEM 에이전트를 설정
 
 1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
     
@@ -98,21 +98,22 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
 
 ![만든 SIEM 에이전트](media/SIEMAgentCreated.png)
     
-### <a name="step-2-download-the-jar-file-and-run-it-on-your-server"></a>2 단계: JAR 파일을 다운로드 하 고 서버에서 실행
+## <a name="step-2-download-a-jar-file-and-run-it-on-your-siem-server"></a>2 단계: JAR 파일을 다운로드 하 고 SIEM 서버에서 실행
 
 1. [Microsoft 클라우드 응용 프로그램 보안 SIEM 에이전트](https://go.microsoft.com/fwlink/?linkid=838596) 를 다운로드 하 고 폴더 압축을 풉니다. (동의 해야 [소프트웨어 사용 조건](https://go.microsoft.com/fwlink/?linkid=862491) 에 진행 하기 위해.) 
     
-2. 압축 된 폴더에서.jar 파일을 추출 하 고 서버에서 실행 합니다.
+2. 압축 된 폴더에서.jar 파일 압축을 풀고 SIEM 서버에서 실행 합니다.
     
 3. 파일을 실행 한 후 다음을 실행: 명령 합니다.<br/>
   ```
   java -jar mcas-siemagent-0.87.20-signed.jar [--logsDirectory DIRNAME] [--proxy ADDRESS[:PORT]] --token TOKEN
   ```
-#### <a name="important-notes"></a>중요 한 참고 사항
+### <a name="important-notes"></a>중요 한 참고 사항
 
 - 파일 이름 SIEM 에이전트의 버전에 따라 다를 수 있습니다. 
 
-- 서버 설치 하는 동안 서버에서 JAR 채우기를 실행 하는 것이 좋습니다.
+- 서버 설치 하는 동안 SIEM 서버에서 JAR 파일을 실행 하는 것이 좋습니다.
+
     - **Windows**: 실행 된 예약 된 작업을 하 고 작업을 **실행 하는 사용자의 로그온 여부** 를 구성 하 고 **기간 이상 실행 하는 경우 작업을 중지** 옵션의 선택을 취소 합니다.
 
     - **Linux**: 함께 실행된 명령을 추가 **&** 에 `rc.local` 파일입니다. <br/>예제:<br/> 
@@ -126,31 +127,13 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
     - **토큰** 은 첫번째 절차에서 복사한 SIEM 에이전트 토큰입니다.
     - 도움말을 보려면 다음을 입력 `-h`합니다. 
   
-### <a name="step-3-validate-that-the-siem-agent-is-working"></a>3 단계: SIEM 에이전트 작동 하는지 확인
+## <a name="step-3-validate-that-the-siem-agent-is-working"></a>3 단계: SIEM 에이전트 작동 하는지 확인
 
 1. Office 365 클라우드 응용 프로그램 보안 포털에서 SIEM 에이전트의 상태 **연결** 오류로 표시 되지 않거나는 없는 에이전트 알림 **Disconnected** 하 고 있는 있는지 확인 합니다.<br/>예, 여기는 볼 수 SIEM 서버가 연결 된:<br/>![연결 된 SIEM 서버](media/siem-connected.png)<br/>및는 여기에 SIEM 서버 연결이 끊어지면 볼 수 있습니다.<br/>![연결 되지 않은 SIEM 서버](media/siem-not-connected.png) 
   
 2. 프로그램 Syslog/SIEM 서버에서 Office 365 클라우드 응용 프로그램 보안에서 알림 도착 하는 것이 표시 되는지 확인 합니다.
   
-## <a name="regenerating-your-token"></a>사용자 토큰을 다시 생성
-
-사용자 토큰을 분실 하면 항상 재생성 수 있습니다. 테이블에서 SIEM 에이전트에 대 한 행을 찾습니다. 있는 줄임표를 클릭 하 고 **토큰을 다시 생성**을 선택 합니다.
-
-![SIEM 에이전트에 대 한 줄임표를 클릭 하 여 토큰을 다시 생성](media/04de368a-b88e-4a9c-a830-58025cb98db6.png)
-  
-## <a name="editing-your-siem-agent"></a>SIEM 에이전트를 편집합니다.
-
-테이블에서 SIEM 에이전트를 편집 하려면 SIEM 에이전트에 대 한 행을 찾습니다. 있는 줄임표를 클릭 하 고 **편집**을 선택 합니다. .Jar 파일;를 다시 실행 하지 필요가 SIEM 에이전트를 편집 하는 경우 자동으로 업데이트합니다.
-
-![SIEM 에이전트를 편집 하려면 타원을 선택한 다음 편집을 선택 합니다.](media/96d0b362-3e0c-4dff-b2b4-d7af5b1bfb91.png)
-  
-## <a name="deleting-your-siem-agent"></a>SIEM 에이전트를 삭제합니다.
-
-테이블에서 SIEM 에이전트를 삭제 하려면 SIEM 에이전트에 대 한 행을 찾습니다. 있는 줄임표를 클릭 한 다음 **삭제**를 선택 합니다.
-
-![SIEM 에이전트를 삭제 하려면 타원을 선택한 다음 삭제를 선택 합니다.](media/540b5bdf-5574-4ecc-a7b0-92a499a387d7.png)
-
-## <a name="sample-logfiles"></a>샘플 로그 파일
+## <a name="what-the-logfiles-look-like"></a>로그 파일의 모양을
 
 SIEM 서버로 전송 될 수 있는 알림 로그 파일 예는 다음과 같습니다.
 
@@ -168,7 +151,7 @@ SIEM 서버로 전송 될 수 있는 알림 로그 파일 예는 다음과 같�
 2017-07-16T09:41:04.369Z CEF:0|MCAS|SIEM_Agent|0.102.17|ALERT_CABINET_EVENT_MATCH_AUDIT|test-activity-policy2|3|externalId=596b34b10c204203a33a5240 start=1500198064369 end=1500198064369 msg=Activity policy ''test-activity-policy2'' was triggered by ''user2@test15-adallom.com'' suser=user2@test15-adallom.com destinationServiceName=Google cn1Label=riskScore cn1= cs1Label=portalURL cs1=https://cloud-app-security.com/#/alerts/596b34b10c204203a33a5240 cs2Label=uniqueServiceAppIds cs2=APPID_33626 cs3Label=relatedAudits cs3=1500197996117_fd71f265-1e46-4f04-b372-2e32ec874cd3 cs4Label=policyIDs cs4=
 ```
 
-다음은 샘플 CEF 형식 및
+그리고 다른 샘플 CEF 형식에서이 시간 합니다.
 
 
 |CEF 필드 이름  | 설명  |
@@ -181,6 +164,37 @@ SIEM 서버로 전송 될 수 있는 알림 로그 파일 예는 다음과 같�
 |destinationServiceName     | Office 365, SharePoint, 또는 OneDrive와 같은 응용 프로그램에서 들어오는 경고        |
 |csLabel     | 다름 (레이블에 다음과 같은 의미). 일반적으로 레이블이 targetObjects 같은 쉽게 이해할 수 있습니다.        |
 |cs     | 정보에 해당 하는 레이블 (예: 레이블 예제에 따라 알림의 대상 사용자)        |
+
+## <a name="additional-tasks-as-needed"></a>(필요한)로 추가 작업
+
+SIEM 서버를 구성 하 고 Office 365 클라우드 응용 프로그램 보안와 통합 하였습니다, 후 토큰을 다시 생성, SIEM 에이전트를 편집 하거나 SIEM 에이전트를 삭제 하는 필요할수도 있습니다. 다음 섹션에서는 이러한 작업을 수행 하는 방법에 설명 합니다.
+
+### <a name="regenerate-a-token"></a>토큰을 다시 생성
+
+사용자 토큰을 손실 된 경우에 하나 다시 만들 수 있습니다. 
+
+1. Office 365 클라우드 응용 프로그램 보안 포털에서 **설정**을 선택 > **보안 확장**합니다.
+
+2. 테이블에서 SIEM 에이전트에 대 한 행을 찾습니다. 
+
+3. 있는 줄임표를 클릭 하 고 **토큰을 다시 생성**을 선택 합니다.<br/>![SIEM 에이전트에 대 한 줄임표를 클릭 하 여 토큰을 다시 생성](media/04de368a-b88e-4a9c-a830-58025cb98db6.png)
+  
+### <a name="edit-a-siem-agent"></a>SIEM 에이전트를 편집 합니다.
+
+1. Office 365 클라우드 응용 프로그램 보안 포털에서 **설정**을 선택 > **보안 확장**합니다.
+
+2. SIEM 에이전트에 대 한 행을 찾습니다. 
+
+3. 있는 줄임표를 클릭 하 고 **편집**을 선택 합니다. (SIEM 에이전트를 편집 하는 경우에.jar 파일을 실행 하는 다시 필요가 없습니다; 자동으로 업데이트 하는 것입니다.)<br/>![SIEM 에이전트를 편집 하려면 타원을 선택한 다음 편집을 선택 합니다.](media/96d0b362-3e0c-4dff-b2b4-d7af5b1bfb91.png)
+  
+### <a name="delete-a-siem-agent"></a>SIEM 에이전트를 삭제 합니다.
+
+1. Office 365 클라우드 응용 프로그램 보안 포털에서 **설정**을 선택 > **보안 확장**합니다.
+
+2. SIEM 에이전트에 대 한 행을 찾습니다. 
+
+3. 있는 줄임표를 클릭 한 다음 **삭제**를 선택 합니다.<br/>![SIEM 에이전트를 삭제 하려면 타원을 선택한 다음 삭제를 선택 합니다.](media/540b5bdf-5574-4ecc-a7b0-92a499a387d7.png)
+
   
 ## <a name="next-steps"></a>다음 단계
 

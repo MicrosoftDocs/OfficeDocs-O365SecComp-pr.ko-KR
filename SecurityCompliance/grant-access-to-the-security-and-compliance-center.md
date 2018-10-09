@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자가 Office 365 보안에 대 한 사용 권한을 할당할 필요가 &amp; 준수 센터 전에 해당 보안 또는 규정 준수 기능 중 하나를 관리할 수 있습니다.
-ms.openlocfilehash: c612c99f7d72b19d072d728eb4851532d4012414
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: e0c8b655b1b3300e4ffa9aba1d94e65a9ef26121
+ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013802"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450743"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>사용자가 Office 365 보안에 액세스할 &amp; 준수 센터
 
@@ -41,11 +41,7 @@ ms.locfileid: "23013802"
 
 1. [Office 365 및 관리 센터로 이동에 로그인](https://go.microsoft.com/fwlink/p/?LinkId=525275)합니다.
     
-<<<<<<< HEAD
 2. Office 365 관리 센터에서 **관리 센터** 를 열고 하 고 다음을 클릭 **보안 &amp; 준수**합니다. 
-=======
-2. Office 365 관리 센터에서 **관리 센터** 를 열고 하 고 다음을 클릭 **보안 &amp; 준수**합니다. 
->>>>>>> master
     
 3. 보안에서 &amp; 준수 센터, **사용 권한 관리**로 이동 하십시오.
     
@@ -57,7 +53,7 @@ ms.locfileid: "23013802"
     
 7. **저장**을 클릭하여 역할 그룹에 대한 변경 내용을 저장합니다. 
     
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
+### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
 1. 보안에서 &amp; 준수 센터, **사용 권한 관리**로 이동 하십시오.
     
@@ -84,7 +80,7 @@ ms.locfileid: "23013802"
     
 구문과 매개 변수에 대 한 자세한 정보를 [Add-rolegroupmember](https://go.microsoft.com/fwlink/p/?LinkId=510859)을 참조 하십시오.
   
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
+### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
 사용자가 액세스에 제공한 보안을 확인 하려면 &amp; 준수 센터 다음 예제와 같이 조직 관리 역할 그룹의 구성원을 볼 수 **Get-rolegroupmember** cmdlet을 사용 합니다. 
   
