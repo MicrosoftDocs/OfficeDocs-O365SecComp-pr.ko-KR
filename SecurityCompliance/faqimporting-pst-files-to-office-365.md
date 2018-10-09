@@ -3,7 +3,7 @@ title: Office 365에 PST 파일 가져오기 (영문) 하는 방법에 대 한 F
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 1/3/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: '질문과 대답 관리자를 위한 Office 365 사서함으로 프로그램 organizaiton PST 파일을 가져오려면 Office 365 가져오기 서비스를 사용 하는 방법에 대 한 합니다. '
-ms.openlocfilehash: 35080106f92b38e944ba31f74d5564e65ba1f752
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 7230e68f896766df643f12b2a132f987670e9afa
+ms.sourcegitcommit: eecf6f3aafbf460ee2ff9988f2b055e62b1fdb9d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534176"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454055"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>Office 365에 PST 파일 가져오기 (영문) 하는 방법에 대 한 FAQ
 
@@ -48,7 +48,7 @@ ms.locfileid: "22534176"
   
  **네트워크 업로드는 사용할 수 있는 어디 입니까?**
   
-네트워크 업로드는 미국, 캐나다, 브라질, 영국, 유럽, 인도, 한국, 남동쪽 아시아, 일본, 대한민국, 및 오스트레일리아에서 현재 사용할 수 있습니다. 네트워크 업로드 곧 사용할 수 있는 더 많은 지역에서 합니다.
+네트워크 업로드는 미국, 캐나다, 브라질, 영국, 프랑스, 유럽, 인도, 한국, 남동쪽 아시아, 일본, 대한민국, 및 오스트레일리아에서 현재 사용할 수 있습니다. 네트워크 업로드 곧 사용할 수 있는 더 많은 지역에서 합니다.
   
  **네트워크 업로드를 사용 하 여 PST 파일을 가져오기 위한 가격 이란 무엇입니까?**
   
