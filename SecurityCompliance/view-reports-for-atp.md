@@ -12,20 +12,20 @@ search.appverid:
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 13b2a4c142a223a8a912c9017b6033b0b5a1548b
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: 4a76c6a5b888142dc4c35af432fa61916145d648
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782115"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454305"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
-보안에서 여러 ATP 보고서를 사용할 수 조직에 [Office 365 고급 위협 보호](office-365-atp.md) (ATP) 하는 경우 필요한 권한을 &amp; 준수 센터입니다. ( **보고서** 로 이동 \> **대시보드**.)
+조직에 [Office 365 고급 위협 보호](office-365-atp.md) (ATP) 하는 경우 [필요한 사용 권한](#what-permissions-are-needed-to-view-these-reports)을 가진 사용자는 보안에서 여러 ATP 보고서를 사용할 수 있습니다 &amp; 준수 센터입니다. ( **보고서** 로 이동 \> **대시보드**.)
   
 ![보안 &amp; 준수 센터 대시보드 도울수 위협 보호 고급가 작동 하는 위치를 참조 하십시오.](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
-ATP 보고서 위협 보호 상태 보고서, ATP 파일 형식 보고서 및 ATP 메시지 처리 보고서를 포함 합니다. 이 문서 ATP 보고서에 설명 하 고 보려는 추가 보고서에 대 한 링크를 포함 합니다.
+ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report), [ATP 파일 형식 보고서](#atp-file-types-report)및 [ATP 메시지 처리 보고서](#atp-message-disposition-report)를 포함 합니다. 이 문서 ATP 보고서에 설명 하 고 [보려는 추가 보고서](#additional-reports-to-view)에 대 한 링크를 포함 합니다.
   
 ## <a name="threat-protection-status-report"></a>위협 보호 상태 보고서
 
@@ -77,9 +77,9 @@ ATP 보고서 위협 보호 상태 보고서, ATP 파일 형식 보고서 및 AT
   
 및 조직에 [Office 365 위협 인텔리전스](office-365-ti.md)있으면 수도 있습니다 [보안에서 사용 하 여 탐색기 &amp; 준수 센터](use-explorer-in-security-and-compliance.md)합니다.
   
-## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 보려면 사용 권한은 필요 합니까?
+## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>사용 권한은 ATP 보고서를 보려면 필요 합니까?
 
-본이 문서에서 설명 하는 전자 메일 보안 보고서를 사용 하기 위해 보안에서 할당 하는 적절 한 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터에 있습니다.
+본이 문서에서 설명 하는 보고서를 사용 하기 위해 보안에서 할당 하는 적절 한 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터에 있습니다.
   
 |**Default management role assignments for this role**|**할당 된 경우**|**자세한 정보**|
 |:-----|:-----|:-----|

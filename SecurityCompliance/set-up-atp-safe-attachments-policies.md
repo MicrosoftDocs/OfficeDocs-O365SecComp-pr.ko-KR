@@ -3,7 +3,6 @@ title: Office 365 ATP 안전한 첨부 정책 설정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/8/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: 조직에서 전자 메일의 악의적인 파일 보호 하기 위해 안전한 첨부 파일 정책을 정의 합니다.
-ms.openlocfilehash: bc52522a45071776835efe20f57cf37c415d2436
-ms.sourcegitcommit: 9826013c3e0532ae5d01b3d88a14691f8dd0f6b7
+ms.openlocfilehash: c57f9320c7cd2b8b75bc2dc58d1f72ce136acbb6
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25092944"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454285"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 정책 설정
 
@@ -43,9 +42,6 @@ ms.locfileid: "25092944"
 - 모든 Office 365 데이터 센터에 분산 하 여 신규 또는 업데이트 된 정책에 대 한 최대 30 분을 허용 합니다.
     
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>2 단계: 설정 (또는 편집) ATP 안전한 첨부 파일 정책
-
-> [!TIP]
-> 하면 정책을 설정할 수는 ATP 안전한 첨부 파일 중 하나를 사용 하 여 Office 365 보안 &amp; 준수 센터 또는 Exchange 관리 센터 (EAC). **Office 365 보안을 사용 하는 것이 좋습니다 &amp; 준수 센터**합니다. 
   
 1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     

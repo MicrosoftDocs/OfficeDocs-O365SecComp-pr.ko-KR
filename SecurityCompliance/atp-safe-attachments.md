@@ -3,7 +3,6 @@ title: Office 365 ATP 안전 하 게 보호 첨부 파일
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 08/03/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -14,20 +13,22 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 description: 안전한 첨부 파일 기능이 전자 메일 첨부 파일의 클릭 시간 증명 정보를 제공 합니다. 조직 파일 악의적인 사용자 로부터 보호 하기 위해 사용 하 여 안전한 첨부 파일 보내기 또는 전자 메일을 받을 합니다.
-ms.openlocfilehash: 0a28923bff8aa2cd987159edd3cad77ed42f80f4
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 44a7aa56db6b19ac948184988c930841fc7ffb89
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533497"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454315"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP 안전 하 게 보호 첨부 파일
 
+## <a name="overview-of-office-365-atp-safe-attachments"></a>Office 365 ATP 안전 하 게 보호 첨부 파일의 개요 (영문)
+
 [ATP 안전한 링크](atp-safe-links.md)) (함께 ATP 안전한 첨부 파일에는 [Office 365 고급 위협 보호](office-365-atp.md) (ATP)의 일부입니다. ATP 안전한 첨부 파일 기능이 악의적인, 전자 메일 첨부 파일이 있는지 확인 하 고 조직을 보호 하는 작업을 수행 합니다. ATP 안전한 첨부 파일 기능이 Office 365 전역 또는 보안 관리자가 설정 된 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 에 따라 조직을 보호 합니다. 
   
-늦은 년 3 월 2018에서 하 고 다음 여러 주 동안 부터는 ATP 보호 확장 되 SharePoint Online, OneDrive의 파일에 비즈니스 및 팀이 Microsoft에 대 한 합니다. 자세한 내용은, [SharePoint, OneDrive 및 팀이 Microsoft Office 365 고급 위협 보호](atp-for-spo-odb-and-teams.md)를 참조 합니다.
+최근에, ATP 보호 하도록 확장 되었습니다 SharePoint Online, OneDrive에서 파일, 비즈니스 및 Microsoft 팀의 합니다. 자세한 내용은, [SharePoint, OneDrive 및 팀이 Microsoft Office 365 고급 위협 보호](atp-for-spo-odb-and-teams.md)를 참조 합니다.
        
-## <a name="how-it-works"></a>작업 방법
+### <a name="how-it-works"></a>작업 방법
 
 ATP 안전한 첨부 파일 기능이 조직의 사용자에 대 한 전자 메일 첨부 파일을 확인합니다. ATP 안전한 첨부 파일 정책이 적용 된 하 고 정책에서는 Office 365 수 있는 전자 메일에서 다루는 다른 사용자를 자신의 전자 메일 첨부 파일을 확인 하 고 ATP 안전한 첨부 파일 정책에 따라 적절 한 동작이 수행 됩니다. 정책에 정의 되는 방법에 따라 사용자를 몰라도 전혀 악의적인 파일 전송 되었는지 작업을 계속할 수 있습니다.
   
@@ -41,7 +42,7 @@ ATP 안전한 첨부 파일 정책은 특정 사용자 또는 조직 전체에�
   
 ## <a name="how-to-get-atp-safe-attachments"></a>ATP 안전한 첨부 파일을 얻는 방법
 
-ATP 안전한 첨부 파일 기능에는 Office 365 Enterprise e 5에 포함 된 고급 위협 보호의 일부입니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 고급 위협 보호 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다.
+ATP 안전한 첨부 파일 기능은 Microsoft 365 Enterprise, Office 365 Enterprise E5, 및 Microsoft 365 비즈니스에 포함 된 고급 위협 보호의 일부입니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 고급 위협 보호 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다.
   
 ATP 안전한 첨부 파일 기능을 적용 하는 경우:
   
@@ -49,7 +50,7 @@ ATP 안전한 첨부 파일 기능을 적용 하는 경우:
     
 - 사용자가 자신의 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 됩니다. ( [Office 또는 Office 365에 로그인](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426)참조).
     
-## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>ATP 안전한 첨부 파일 보호 전체에서 인지 확인 하는 방법
+### <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>ATP 안전한 첨부 파일 보호 전체에서 인지 확인 하는 방법
 
  원본 위치에 있는 것으로 ATP 안전한 첨부 파일 보호에 대 한 순서로 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 정의 되어야 합니다. 
   
@@ -67,7 +68,9 @@ ATP 안전한 첨부 파일 기능을 적용 하는 경우:
    
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석을 위해 파일 전송
 
-분석 하는 Microsoft를 요청 하려는 파일을 받은 경우 [제출을 맬웨어 분석을 위해 파일을](https://aka.ms/wdsi/submit)참고 하십시오.
+- 분석 하는 Microsoft를 요청 하려는 파일을 받은 경우 [제출을 맬웨어 분석을 위해 파일을](https://aka.ms/wdsi/submit)참고 하십시오.
+
+- 분석을 위해 Microsoft에 전송 하려는 전자 메일 메시지 (또는 없는 첨부 파일)을 수신 하는 경우에 사용 [보고서 메시지의 추가 기능](enable-the-report-message-add-in.md).
   
 ## <a name="related-topics"></a>관련 항목
 

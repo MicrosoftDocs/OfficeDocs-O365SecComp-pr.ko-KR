@@ -12,18 +12,18 @@ search.appverid:
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 description: Word, Excel, PowerPoint 및 Visio 파일에는 물론 전자 메일 메시지에 악의적인 링크를 통해 조직을 보호 하기 위해 안전한 링크 정책을 설정 합니다.
-ms.openlocfilehash: 94ad3a5d497a5fe97144e3aad29ba25d2073cde1
-ms.sourcegitcommit: 9826013c3e0532ae5d01b3d88a14691f8dd0f6b7
+ms.openlocfilehash: 9110fce9a6eb53832707de6235b79100e10c9b8a
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25092954"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454335"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
 [ATP 안전한 링크](atp-safe-links.md) , [Office 365 고급 위협 보호](office-365-atp.md) (ATP)의 기능으로는 피싱 및 기타 공격에 사용 되는 악의적인 링크를 통해 조직을 보호할 수 있습니다. 필요한 경우 [Office 365 보안에 할당 된 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md), 않도록 하기 위한 사용자 웹 주소 (Url)를 클릭 하는 경우 ATP 안전한 링크 정책을 설정할 수 있습니다, 조직 보호 됩니다. ATP 안전한 링크 정책에는 전자 메일에 Url 및 Office 문서에서 Url을 검사 하도록 구성할 수 있습니다.
   
-[새로운 기능 ATP 안전 링크를 지속적으로 추가 되는](atp-safe-links.md#new-features-added-to-atp-safe-links). 새로운 기능 추가 될 때 기존 ATP 안전한 링크 정책에 따라 조정 해야할 수 있습니다.
+[새로운 기능 ATP 안전 링크를 지속적으로 추가 되는](atp-safe-links.md#new-features-are-continually-being-added-to-atp-safe-links). 새로운 기능 추가 될 때 기존 ATP 안전한 링크 정책에 따라 조정 해야할 수 있습니다.
 
 ## <a name="what-to-do"></a>수행할 작업 
   
@@ -50,9 +50,6 @@ ms.locfileid: "25092954"
 ## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>2 단계: 정의 (또는 검토) 모든 사람에 게 적용 되는 ATP 안전한 링크 정책
 
 Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직에서 모든 사용자에 게 적용 되는 기본 ATP 안전한 링크 정책을 해야 합니다. 
-
-> [!TIP]
-> 두 보안에서 사용자 정책을 편집할 수 &amp; 준수 센터 또는 Exchange 관리 센터입니다. **보안을 사용 하는 것이 좋습니다 &amp; 검토 하거나 ATP 정책 중 하나를 편집 하려면 준수 센터**합니다.
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
@@ -71,9 +68,6 @@ Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직�
 ## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>3 단계: 추가 (또는 편집) 특정 전자 메일 받는 사람에 게 적용 되는 ATP 안전한 링크 정책
 
 모든 사용자에 대 한 ATP 안전한 링크 정책의 검토 한 후에 전자 메일 받는 사람에 게의 특정 그룹에 대 한 추가 정책을 정의 하는 것이 좋습니다. 이 옵션을 사용 하면 기본 정책에 대 한 예외를 지정할 수 있습니다. 
-
-> [!TIP]
-> 보안을 중 하나를 사용 하 여 정책을 추가할 수 &amp; 준수 센터 (권장) 또는 Exchange 관리 센터입니다. **보안을 사용 하는 것이 좋습니다 &amp; 검토 하거나 ATP 정책 중 하나를 편집 하려면 준수 센터**합니다.
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
@@ -81,13 +75,9 @@ Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직�
     
 3. **안전한 링크**를 선택 합니다.
     
-4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로 만들기** 를 선택 (새로 만들기 단추 유사한 더하기 기호 ( **+**)).
-    
-    ![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로 만들기** 를 선택 (새로 만들기 단추 유사한 더하기 기호 ( **+**)).<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
   
-5. 정책에 대한 이름, 설명 및 설정을 지정합니다.
-    
-    **예제:** ATP 안전한 링크 보호 하지 않고 특정 웹사이트를 통해 클릭 하 여 조직에서 특정 그룹에 사용자를 허용 하지 않는 "를 통해 직접 클릭 없음" 이라는 정책을 설정 하려면 지정할 수 있습니다는 다음과 같은 권장 설정: 
+5. 정책에 대한 이름, 설명 및 설정을 지정합니다.<br/>**예제:** ATP 안전한 링크 보호 하지 않고 특정 웹사이트를 통해 클릭 하 여 조직에서 특정 그룹에 사용자를 허용 하지 않는 "를 통해 직접 클릭 없음" 이라는 정책을 설정 하려면 지정할 수 있습니다는 다음과 같은 권장 설정: 
     
   - **이름** 상자에 없는 직접 클릭 방문을 입력 합니다.
     
@@ -111,8 +101,7 @@ Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직�
 
 를 설정 하거나 ATP 안전한 링크 정책을 편집 하는 사용할 수 있는 여러 옵션이 표시 됩니다. 이러한 옵션을 모르는 경우 다음 표에 각 하나 및 영향을 주기를 설명 합니다. 
 
-> [!NOTE]
-> 두 종류가 주 정의 또는 편집 하려면 정책: 모든 사용자에 적용 되는 기본 정책 및 특정 받는 사람에 대해 정의 된 정책 추가 합니다. 다음 표에 ""이이 정책에 대 한 열에 다르게 지정 하는 것입니다.
+두 종류가 주 정의 또는 편집 하려면 정책: 모든 사용자에 적용 되는 기본 정책 및 특정 받는 사람에 대해 정의 된 정책 추가 합니다. 다음 표에서 **이 정책에 대 한** 열에 다르게 지정 하는 것입니다.
   
 |**이 정책에 대 한**|**이 옵션**|**기능**|
 |:-----|:-----|:-----|

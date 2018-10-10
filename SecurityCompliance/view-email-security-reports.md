@@ -3,7 +3,6 @@ title: 보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 08/06/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,16 +12,16 @@ search.appverid:
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 description: 찾기 및 Office 365 엔터프라이즈와 조직에 대 한 전자 메일 보안 보고서를 사용 하는 방법에 알아봅니다. 전자 메일 보안 보고서는 보안에서 사용할 수 있는 &amp; 준수 센터입니다.
-ms.openlocfilehash: 81716a3ecc506d36c786d53068f7d2cce8a44a9a
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 0dd0c2ee7090e488d8619e71c6e4931f1934e9b0
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534169"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454345"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터
 
-다양 한 전자 메일 보안을 보고 하는 보안에서 사용할 수 있는 &amp; 준수 센터 Office 365의 스팸 방지 및 맬웨어 방지 기능 조직을 보호 하는 방법을 확인할 수 있도록 합니다. 필요한 사용 권한이 하는 경우 보안에서 이러한 보고서를 볼 수 있습니다 &amp; **보고서** 로 이동 하 여 준수 센터 \> **대시보드**합니다.
+다양 한 전자 메일 보안을 보고 하는 보안에서 사용할 수 있는 &amp; 준수 센터 Office 365의 스팸 방지 및 맬웨어 방지 기능 조직을 보호 하는 방법을 확인할 수 있도록 합니다. 보안에서 이러한 보고서를 볼 수는 [필요한 사용 권한](#what-permissions-are-needed-to-view-these-reports)을가 &amp; **보고서** 로 이동 하 여 준수 센터 \> **대시보드**합니다.
   
 ![보안 &amp; 준수 센터 대시보드 도울수 위협 보호 고급가 작동 하는 위치를 참조 하십시오.](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
@@ -186,7 +185,7 @@ ms.locfileid: "22534169"
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 전자 메일 스팸 방지 보호 기능](anti-spam-protection.md)
+[Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)
   
 [보고서 및 Office 365 보안에 대 한 의견 &amp; 준수 센터](reports-and-insights-in-security-and-compliance.md)
   

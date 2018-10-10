@@ -3,7 +3,6 @@ title: SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,19 +12,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 description: SharePoint, OneDrive, 또는 팀에서 감지 된 악의적인 파일에 대 한 정보를 보려면 이동할 위치를 하 고 해당 파일에서 작업을 수행 하는 방법에 알아봅니다.
-ms.openlocfilehash: e9a68c1cee1f2f3fb7fba148365449f0136fe637
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 370e5e3d4d7fd5f35caa8ef993f6245d15ee9999
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533481"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454275"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기
 
 문서 라이브러리 및 팀 사이트의 악의적인 파일을 통해 조직을 보호 하는 [SharePoint, OneDrive 및 팀이 Microsoft office 365 ATP](atp-for-spo-odb-and-teams.md) 입니다. 악의적인 파일 감지 되 면 해당 파일 열기, 복사, 이동 또는 조직의 보안 팀에 의해 추가 조치가 때까지 공유할 수 있는 아무도 있도록 차단 됩니다. 검색 된 파일에 대 한 정보를 확인 하는 방법 및 수행할 동작을 자세히 알아보려면이 문서를 읽어보십시오. 
-  
-> [!TIP]
-> 이 문서에서 설명 하는 작업을 수행 하기 위해 필요한 있어야 [Office 365 보안에 할당 된 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
+
+이 문서에서 설명 하는 작업을 수행 하기 위해 필요한 있어야 [Office 365 보안에 할당 된 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
   
 ## <a name="view-reports-with-information-about-detected-files"></a>검색 된 파일에 대 한 정보가 포함 된 보고서 보기
 
@@ -40,9 +38,6 @@ ms.locfileid: "22533481"
 4. 자세한 내용은 다음을 수행 하는 작업을 포함 하 여, 파일 이름, 파일 경로 등을 보려면 목록에서 항목을 선택 합니다.
     
 5. 같은 관찰 된 동작 및 분석 세부 정보를 보려면 **고급 분석** 탭을 선택 합니다. 
-    
-> [!TIP]
-> 사용 가능한 보고서에 대 한 자세한 내용은, [Office 365 고급 위협 보호에 대 한 보고서 보기를](view-reports-for-atp.md)참조 하십시오. 
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>격리에서 파일에 대해 조치를 취할 및 보기
 
@@ -63,9 +58,6 @@ ms.locfileid: "22533481"
   - 격리 된 항목의 목록에서 파일을 제거 하려면 **삭제** 를 선택 합니다. 이 옵션을 선택 하는 경우 비즈니스, 또는 Microsoft 팀의 SharePoint Online, OneDrive에서 해당 라이브러리에서 파일을도 삭제 해야 있습니다. 이 옵션 못 파일 차단을 해제 하지 열거나 공유 합니다. 
     
 5. 선택한 항목에 대 한 세부 정보를 닫으려면 **닫기** 를 선택 합니다. 
-    
-> [!TIP]
-> 격리 된 파일을 관리 하는 방법에 대 한 자세한 내용은, [관리 격리 메시지 및 Office 365에서 관리자 권한으로 파일을](manage-quarantined-messages-and-files.md)참조 합니다. 
   
 ## <a name="related-topics"></a>관련 항목
 
@@ -74,5 +66,7 @@ ms.locfileid: "22533481"
 [Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
   
 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
+
+[Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.](manage-quarantined-messages-and-files.md)
   
 

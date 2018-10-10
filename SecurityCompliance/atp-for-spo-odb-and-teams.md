@@ -3,7 +3,6 @@ title: SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/18/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,21 +12,20 @@ search.appverid:
 - MOE150
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 description: SharePoint Online, 조직에 대 한 안전 하 게 공동 작업을 통해 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive의 파일을 Office 365 고급 위협 보호를 확장 합니다.
-ms.openlocfilehash: ea1c77273be70ce27f60bfaeae3544d605553a32
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: ff07d88a150d3f059681556feec9a5e89b5875a8
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533921"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454325"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 
-파일 공유를 정기적으로 사용자 및 SharePoint, OneDrive 및 Microsoft 팀을 사용 하 여 공동 작업을 수행 합니다. [Office 365 고급 위협 보호](office-365-atp.md) ATP ()와 함께 조직 보다 안전한 방식으로 공동 작업할 수 있습니다. ATP를 검색 하 고 팀 사이트 및 문서 라이브러리에서 악성으로 식별 되는 파일을 차단 합니다. 비즈니스 및 Microsoft 팀에 대 한 개발자를 위한 SharePoint Online, OneDrive ATP 대 한 개요를 가져올이 문서를 참조 하 고에서는 다음 단계를 수행 하십시오. 
+## <a name="overview-of-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP의 개요 (영문)
+
+파일 공유를 정기적으로 사용자 및 SharePoint, OneDrive 및 Microsoft 팀을 사용 하 여 공동 작업을 수행 합니다. [Office 365 고급 위협 보호](office-365-atp.md) ATP ()와 함께 조직 보다 안전한 방식으로 공동 작업할 수 있습니다. ATP를 검색 하 고 팀 사이트 및 문서 라이브러리에서 악성으로 식별 되는 파일을 차단 합니다.  
   
-> [!TIP]
-> 이 문서에서 설명 하는 작업을 수행 하기 위해 Office 365 전역 관리자 또는 보안 관리자 여야 합니다. 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
-  
-## <a name="how-it-works"></a>작업 방법
+### <a name="how-it-works"></a>작업 방법
 
 SharePoint Online에서 파일, 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive 악성으로 확인 되었습니다, 그리고 ATP 직접 해당 파일을 잠그는 파일 저장소와 통합 됩니다. 다음 그림 라이브러리에서 감지 된 악의적인 파일의 예를 보여줍니다.
   
@@ -46,6 +44,8 @@ Office 365를 구성 하는 방법에 따라 사용자 수도 있고 차단 된 
 ### <a name="keep-the-following-points-in-mind"></a>다음 사항을 염두합니다
 
 - ATP는 회사 또는 팀이 Microsoft에 대 한 SharePoint Online, OneDrive에서 모든 단일 파일을 검색 하지 않습니다. 의도적인 것입니다. 파일에서 스마트 한 추론 방식 및 위협 신호 함께 공유 및 관람객 활동 이벤트를 사용 하 여 악의적인 파일을 식별 하는 프로세스를 통해 비동기적으로 검색 됩니다.
+
+- SharePoint 사이트에 [현대 경험](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)을 사용 하도록 구성 되었는지 확인 합니다. 악의적인 및 차단 된 파일을 식별 되는 사용자 되었다는 현대 경험 하지만 하지 클래식 보기에서 볼 수 있습니다. ATP 보호 적용 현대 경험 나 기본 보기, 사용 여부 그러나 파일이 차단 되는 시각적 표시기는 현대 환경에만 존재 합니다.
     
 - SharePoint Online에서 악의적으로 식별 되는 파일, 회사 또는 Microsoft 팀의 비즈니스용 OneDrive 위협 탐색기 ( [Office 365 위협 인텔리전스](office-365-ti.md)의 일부) 및 [Office 365 고급 위협 보호에 대 한 보고서](view-reports-for-atp.md) 에서 표시 됩니다.
     
@@ -53,11 +53,11 @@ Office 365를 구성 하는 방법에 따라 사용자 수도 있고 차단 된 
     
 - SharePoint Online 관리자가 악성으로 검색 되는 파일을 다운로드 하는 사용자의 사용 여부를 확인할 수 있습니다. 이 DisallowInfectedFileDownload 매개 변수를 사용 하 여 Set-spotenant PowerShell cmdlet을 실행 하 여 작업은 수행 ( [SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정](turn-on-atp-for-spo-odb-and-teams.md)참조).
     
-## <a name="new-quarantine-in-atp-for-sharepoint-online-onedrive-for-business-and-microsoft-teams"></a>(새!) 온라인 격리 SharePoint에 대 한 ATP에, 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive
+## <a name="quarantine-in-atp-for-sharepoint-online-onedrive-for-business-and-microsoft-teams"></a>온라인 격리 SharePoint에 대 한 ATP에, 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive
 
- * * 시작 지연 년 5 월 2018, 보안에서 [격리](quarantine-email-messages.md) 기능에에서 &amp; 준수 센터는 하기 위해 확장 된 ATP SharePoint에 대 한 온라인으로 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive 합니다. **
+ 가능한 가장 늦은 년 5 월 2018, 보안에서 [격리](quarantine-email-messages.md) 기능에에서 시작 &amp; 준수 센터는 하기 위해 확장 된 ATP SharePoint에 대 한 온라인으로 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive 합니다.
   
-때 SharePoint Online에서 파일, 회사 또는 Microsoft 팀의 비즈니스용 OneDrive 열거나 공유에서 파일을 차단 하는 ATP 외에도 악의적인으로 식별 된, 격리 된 항목 목록에 해당 파일이 포함 됩니다. (보안에서 &amp; 준수 센터, **위협 관리로** 이동 \> **검토** \> **격리** 및 콘텐츠에 대 한 필터입니다.) 
+때 SharePoint Online에서 파일, 회사 또는 Microsoft 팀의 비즈니스용 OneDrive 열거나 공유에서 파일을 차단 하는 ATP 외에도 악의적인으로 식별 된, 격리 된 항목 목록에 해당 파일이 포함 됩니다. (보안에서 &amp; 준수 센터, **위협 관리로** 이동 \> **검토** \> **격리** 하 고 **콘텐츠**에 대 한 필터입니다.) 
   
 조직의 Office 365 보안 팀의 일부 이며는 데 필요한 경우 [Office 365 보안에 할당 된 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md), 다운로드, 릴리스, 보고 및 ATP 하 여 악성으로 검색 되는 파일을 삭제할 수 있습니다 격리 됩니다.
   

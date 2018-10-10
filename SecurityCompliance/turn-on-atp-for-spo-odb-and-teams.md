@@ -3,7 +3,6 @@ title: SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
 ms.author: derng
 author: derng
 manager: laurawi
-ms.date: 5/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,19 +12,18 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: SharePoint, OneDrive 및 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 팀에 대 한 ATP를 설정 하는 방법에 알아봅니다.
-ms.openlocfilehash: bb99aee0887f15f065a47d691c59ce47639bdc32
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: eb3687f6afd2e7f9a3698944019bcdb8dcbff5ae
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972240"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454295"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
 
 [SharePoint, OneDrive 및 팀이 Microsoft office 365 ATP](atp-for-spo-odb-and-teams.md) 실수로 악의적인 파일 공유에서 조직을 보호 합니다. 악의적인 파일 감지 되 면 해당 파일 열기, 복사, 이동 또는 조직의 보안 팀에 의해 추가 조치가 때까지 공유할 수 있는 아무도 있도록 차단 됩니다. SharePoint에 대 한 ATP를 설정 하는이 문서를 읽기, OneDrive 및 팀 검색 된 파일에 대 한 알림을 받으려면 경고를 설정 하 고에서는 다음 단계를 수행 합니다. 
   
-> [!TIP]
-> 이 문서에서 설명 하는 작업을 수행 하기 위해 필요한 사용 권한을 보안 및 Office 365에 할당 된 있어야 &amp; 준수 센터입니다.
+이 문서에서 설명 하는 작업을 수행 하기 위해 필요한 사용 권한을 보안 및 Office 365에 할당 된 있어야 &amp; 준수 센터입니다.
   
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기
 
@@ -45,14 +43,13 @@ ms.locfileid: "24972240"
     
 5. 검토 (하 고 적절 하 게 편집) 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전 링크 정책](set-up-atp-safe-links-policies.md).
     
-6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true* 로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. <br/><br/>파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.<br/><br/>삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.<br/><br/>매개 변수를 *true로*설정 하는 것이 좋습니다. 
+6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true* 로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. <br/>파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.<br/>삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.<br/>매개 변수를 *true로*설정 하는 것이 좋습니다. 
    
 7. 모든 Office 365 데이터 센터에 분산 하 여 변경 내용 최대 30 분까지를 허용 합니다.
     
 8. (권장) 검색 된 파일에 대 한 알림을 설정으로 이동 합니다.
     
-> [!TIP]
-> PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자세한 내용은, [PowerShell 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)를 참조 하십시오. > 자세히 알아보려면 사용자 환경에 대 한 악의적인으로 파일에서 발견 하는 경우, [악의적인 파일을 SharePoint Online, OneDrive, 또는 팀이 Microsoft에서 발견 되 면 수행할 작업을](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)참조 합니다. 
+PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자세한 내용은, [PowerShell 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)를 참조 하십시오. > 자세히 알아보려면 사용자 환경에 대 한 악의적인으로 파일에서 발견 하는 경우, [악의적인 파일을 SharePoint Online, OneDrive, 또는 팀이 Microsoft에서 발견 되 면 수행할 작업을](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)참조 합니다. 
   
 ## <a name="set-up-alerts-for-detected-files"></a>검색 된 파일에 대 한 알림 설정
 
@@ -76,8 +73,7 @@ ms.locfileid: "24972240"
     
 7. **저장**을 클릭합니다.
     
-> [!TIP]
-> 경고에 대 한 자세한 내용은 참조 하십시오. [Office 365 보안에서 활동 알림을 만들 &amp; 준수 센터](create-activity-alerts.md)합니다. 
+경고에 대 한 자세한 내용은 참조 하십시오. [Office 365 보안에서 활동 알림을 만들 &amp; 준수 센터](create-activity-alerts.md)합니다. 
   
 ## <a name="next-steps"></a>다음 단계
 

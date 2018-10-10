@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법을 알아보려면이 문서를 읽어보십시오. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: 36d295e6924d2e9972c185657885fa25bd96bf08
-ms.sourcegitcommit: 7032830867eb3fc71760e04b8342aff174c5d757
+ms.openlocfilehash: 0429546e521bf3f6b7144342ab0997e924c2f616
+ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353254"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454365"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
 
@@ -61,7 +61,7 @@ ms.locfileid: "25353254"
    
 5. 화면 오른쪽 아래 모서리에서 Url을 추가 (영문)이 끝나면 **저장**을 선택 합니다.
     
-## <a name="what-if-i-want-to-define-exceptions-for-certain-users-in-my-organization"></a>조직 내에서 특정 사용자에 대 한 예외를 정의 하려면 어떻게 해야 합니까?
+## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직에서 특정 사용자에 대 한 예외를 정의 하는 방법
 
 다른 사용자에 대 한 차단 되었을 수 있는 Url을 볼 수 있도록 특정 그룹을 하려는 경우에 특정 받는 사람에 게 적용 되는 ATP 안전한 링크 정책을 지정할 수 있습니다. [ATP 안전 링크를 사용 하는 사용자 지정 "rewrite 수행" Url 목록 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)을 참조 하십시오.
   
