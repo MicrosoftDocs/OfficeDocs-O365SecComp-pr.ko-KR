@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 9295e396-e53d-49b9-ae9b-0b5828cdedc3
 description: 이러한 권장된 모범 사례를 수행 하 여 데이터 위반 또는 손상 된 계정의 가능성을 최소화 합니다.
-ms.openlocfilehash: 245302af0b08a4ee8183345fc386fe47985c93dd
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 63bda11afdd1e02e9e12e8c505aca7100c4deade
+ms.sourcegitcommit: a36d2692396786f49c8765c65145e5093578e9a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534060"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25498094"
 ---
 # <a name="security-best-practices-for-office-365"></a>Office 365에 대한 보안 모범 사례
 
@@ -46,7 +46,7 @@ MFA는 사용자를 전화 통화, 텍스트 메시지 또는 올바르게 자�
   
 - [Office 365 배포에 대 한 다중 요소 인증에 대 한 계획](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
     
-- [Office 365 사용자에 게 다단계 인증 설정](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
+- [Office 365에 대한 다단계 인증 설정](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하려면
     
 ## <a name="use-office-365-cloud-app-security"></a>Office 365 클라우드 응용 프로그램 보안을 사용 하 여
 
@@ -70,9 +70,9 @@ MFA는 사용자를 전화 통화, 텍스트 메시지 또는 올바르게 자�
     
 - Office 365의 조직에 대 한 사용자 지정 도메인을 사용 중인 경우 조직에서 보낸 메일의 유효성을 검사 하 고 스푸핑을 방지 하는 데 도움이 SPF, DKIM, 및 DMARC를 설정 합니다.
     
-  - [SPF 스푸핑을 방지 하기 위해 Office 365에서 설정](https://technet.microsoft.com/en-us/library/dn789058%28v=exchg.150%29.aspx)합니다.
+  - [SPF 스푸핑을 방지 하기 위해 Office 365에서 설정](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)합니다.
     
-  - [Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사를 사용 하 여 DKIM](https://technet.microsoft.com/en-us/library/dn789058%28v=exchg.150%29.aspx)합니다.
+  - [Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사를 사용 하 여 DKIM](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)합니다.
     
   - [Office 365의 전자 메일의 유효성을 검사를 사용 하 여 DMARC](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)합니다.
     

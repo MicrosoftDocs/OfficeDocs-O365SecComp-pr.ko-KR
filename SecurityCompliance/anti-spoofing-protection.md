@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 description: 이 문서에서는 방법 Office 365을 완화 피싱 공격에 대해 사용 하 여 보낸 사람이 도메인, 위장 된 도메인, 즉 위조를 설명 합니다. 메시지를 분석 하 여이 기능을 수행 하기 및 neithe 표준 전자 메일 인증 방법 및 기타 보낸사람 신뢰도 기술을 사용 하 여 인증 될 수 있는 위치를 차단 합니다. 이 변경 피싱 공격에 노출 되는 조직에서 Office 365의 수를 줄이는 구현 됩니다.
-ms.openlocfilehash: 37eddfcad9bc5e412f62dd857178eafa8cac9355
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+ms.openlocfilehash: 231f66b094a98363375a68fbddc8b71077b7baa4
+ms.sourcegitcommit: a36d2692396786f49c8765c65145e5093578e9a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/11/2018
-ms.locfileid: "25496902"
+ms.locfileid: "25498114"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -55,7 +55,7 @@ Microsoft의 스푸핑 방지 기술 Office 365 Enterprise e 5 구독 명의 또
   
 위의 메시지가 Microsoft에서 제공 않은 이지만 속성을 동시에 사용자를 사용 하는 피싱 메시지를 가져오는 수 유인 사용자 링크를 클릭 하 고 자격 증명을 포기, 맬웨어, 다운로드 또는 중요 한 콘텐츠가 포함 된 메시지에 회신 하기 합니다. 실제 암호 다시 설정 하 고 위조 하나 간의 차이 구분 하기 어려운 이기 때문에 많은 사용자는 이러한 메시지를 무시 하 스팸 보고 또는 불필요 하 게 하는 메시지를 다시 보고 Microsoft 부재중된 피싱 메일으로 합니다.
     
-스푸핑를 중지 하려면 산업을 필터링 하는 전자 메일 [SPF](https://technet.microsoft.com/en-us/library/dn789058%28v=exchg.150%29.aspx), [DKIM](https://technet.microsoft.com/en-us/library/mt695945%28v=exchg.150%29.aspx)및 [DMARC](https://technet.microsoft.com/en-us/library/mt734386%28v=exchg.150%29.aspx)와 같은 전자 메일 인증 프로토콜을 개발 했습니다. DMARC 메시지의 보낸 사람이-사용자에 게 자신의 전자 메일 클라이언트에 표시 한 검토 스푸핑 방지 (위의 예제에서 이것은 service.outlook.com, outlook.com, 및 accountprotection.microsoft.com)-SPF 또는 DKIM를 전달 하는 도메인과 합니다. 즉, 사용자에 게 표시 되는 도메인 인증 된 및 따라서 스푸핑 하지 않습니다. 보다 완전 한 토론 섹션을 참조 하십시오. " *전자 메일 인증 없는 이유 항상 스푸핑 중지 하기에 충분 해"* 이 문서에서 나중에 있습니다. 
+스푸핑를 중지 하려면 산업을 필터링 하는 전자 메일 [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)및 [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email)와 같은 전자 메일 인증 프로토콜을 개발 했습니다. DMARC 메시지의 보낸 사람이-사용자에 게 자신의 전자 메일 클라이언트에 표시 한 검토 스푸핑 방지 (위의 예제에서 이것은 service.outlook.com, outlook.com, 및 accountprotection.microsoft.com)-SPF 또는 DKIM를 전달 하는 도메인과 합니다. 즉, 사용자에 게 표시 되는 도메인 인증 된 및 따라서 스푸핑 하지 않습니다. 보다 완전 한 토론 섹션을 참조 하십시오. "*전자 메일 인증 없는 이유 항상 스푸핑 중지 하기에 충분 해"* 이 문서에서 나중에 있습니다. 
   
 그러나 문제 레코드는 필요 하지 않은 선택 사항, 전자 메일 인증을 사용 하는. 따라서 강력한 인증 정책 사용 하 여 도메인을 선택 하는 동안 microsoft.com 및 skype.com 스푸핑, 약한 인증 정책 또는 정책이 없으면 전혀 게시, 위장 된 대상 도메인에서 보호 됩니다. 3 월 2018 이후로 Fortune 500에서 회사의 도메인의 9%만 강력한 전자 메일 인증 정책을 게시합니다. 나머지 91%는 phisher에 의해 위장 될 수 있습니다 하 고 전자 메일 필터를 감지 하지 않으면 다른 정책을 사용 하 여 최종 사용자에 게 전달 될 수 있습니다 하 속이기:
   
@@ -65,7 +65,7 @@ Microsoft의 스푸핑 방지 기술 Office 365 Enterprise e 5 구독 명의 또
   
 기업에서는 전자 메일 인증 작동 하는 방법에 대해 인식 하지 못할 수 있습니다, 하는 동안 피셔 수행을 이해 하 고는 부족을 활용 하기 때문에 중요 한 문제입니다.
   
-SPF, DKIM, 및 DMARC 설정에 대 한 정보를 섹션을 참조 하십시오. "이이 문서에서 나중에 *고객의 Office 365"* 합니다. 
+SPF, DKIM, 및 DMARC 설정에 대 한 정보를 섹션을 참조 하십시오. "이이 문서에서 나중에*고객의 Office 365"* 합니다. 
   
 ## <a name="stopping-spoofing-with-implicit-email-authentication"></a>암시적 전자 메일 인증 스푸핑 중지
 
@@ -619,11 +619,11 @@ Birdwatchers 토론 목록에이 메시지를 보냈습니다. 언제 든 지 �
 
 Office 365 고객 인 경우 Office 365를 사용 하 여 아웃 바운드 전자 메일을 보낼:
   
-- 도메인, [SPF 스푸핑을 방지 하기 위해 Office 365의 설정](https://technet.microsoft.com/en-us/library/dn789058%28v=exchg.150%29.aspx) 에 대 한
+- 도메인, [SPF 스푸핑을 방지 하기 위해 Office 365의 설정](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing) 에 대 한
     
-- 기본 도메인을 [Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사를 사용 하 여 DKIM](https://technet.microsoft.com/en-us/library/mt695945%28v=exchg.150%29.aspx) 에 대 한
+- 기본 도메인을 [Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사를 사용 하 여 DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email) 에 대 한
     
-- 적법 한 보낸 사람이 확인 하려면 도메인에 대 한 [DMARC 레코드 설정](https://technet.microsoft.com/en-us/library/mt734386%28v=exchg.150%29.aspx) 을 
+- 적법 한 보낸 사람이 확인 하려면 도메인에 대 한 [DMARC 레코드 설정](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email) 을 
     
 Microsoft는 SPF, DKIM, 그리고 DMARC 각각에 대 한 자세한 구현 지침을 제공 하지 않습니다. 그러나 많은 온라인 게시 하는 정보는. 제 3 자 회사 전자 메일 인증 레코드를 설정 하 여 조직의 도움말을 전용 밖에도 합니다.
   
