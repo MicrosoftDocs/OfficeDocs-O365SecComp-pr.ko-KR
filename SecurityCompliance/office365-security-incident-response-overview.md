@@ -16,12 +16,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: 이 솔루션 수 있는 가장 일반적인 인터넷-보안 공격 아래와 같습니다 Office 365 및 자신에 게 응답 하는 방법에 알려줍니다.
-ms.openlocfilehash: 3b72b9bf8c68df2fcc1233b56ee33eaf45695bfe
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: d2caea8cc7ceecb18cd477b8a1ff12352d83c3df
+ms.sourcegitcommit: 87a3ca55b6e9cf7e9ccf73e64013dc78dd7660f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533914"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25494079"
 ---
 # <a name="office-365-security-incident-response"></a>Office 365 보안 사고 대응
 
@@ -41,9 +41,14 @@ ms.locfileid: "22533914"
 페이지를 다시 확인 매월 더 많은 문서 시간에 따른 추가 됩니다.
 
 ## <a name="detect-and-remediate-articles"></a>검색 및 문서를 수정 합니다.
+
 - [Office 365에서 불법 동의 권한 부여 검색 및 교정](detect-and-remediate-illicit-consent-grants.md)
 - [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
  
+## <a name="incident-response-articles"></a>문제 응답 문서
+
+- [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
+
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>Office 365 전문가 cybersecurity와 같은 보안
 Office 365 구독 강력한 데이터 및 사용자를 보호 하기 위해 사용할 수 있는 보안 기능 집합을 함께 제공 됩니다.  사용 하는 [Office 365 보안 로드맵: 처음 30 일, 90 일 동안 및 이외 우선순위 가지 주요](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) Microsoft Office 365 테 넌 트를 보호 하기 위한 최상의 방법을 구현 하 합니다.
 - 처음 30 일에서 수행 하는 작업입니다.  낮은 영향 및 영향을 주지는 즉시 이러한 사용자에 게 있습니다.

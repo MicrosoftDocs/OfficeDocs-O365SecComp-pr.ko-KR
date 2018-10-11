@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Office 365 보안 콘텐츠 검색 결과에서 검색 결과 내보내기 &amp; 로컬 컴퓨터에 준수 센터입니다. Emaill 전자 메일 결과 PST 파일로 내보냅니다. SharePoint와 OneDrive에서 네이티브 Office 문서로 내보냅니다 비즈니스 사이트에 대 한 콘텐츠입니다. '
-ms.openlocfilehash: 9b6db129371b234713b5504f5763ee1dc3d7d638
-ms.sourcegitcommit: bf70ec8e11b3f75bf45cd4f760cd1a982593dbad
+ms.openlocfilehash: 739d2c162dac938d593e0b65ebca3bf2101ec469
+ms.sourcegitcommit: 87a3ca55b6e9cf7e9ccf73e64013dc78dd7660f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24962964"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25494069"
 ---
 # <a name="export-content-search-results-from-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 콘텐츠 검색 결과 내보낼 &amp; 준수 센터
 
@@ -283,7 +283,7 @@ ms.locfileid: "24962964"
     
     부분적으로 인덱싱된 항목을 내보낼 하려는 경우 **내보내기 Exchange 콘텐츠를**아래에서 선택 하는 옵션에 관계 없이 별도 PST 파일에 부분적으로 인덱싱된 사서함 항목을 내보냅니다.
 
-- 부분적으로 인덱싱된 항목은 검색에서 반환 되 면 결과 (하기 때문에 검색 조건과 일치 하는 부분적으로 인덱싱된 항목의 다른 속성), 일반 검색 결과 함께 이러한 부분적으로 인덱싱된를 내보내야 합니다. 따라서 ( **인식할 수 없는 형식 내용이 있는 원본을 비롯 하는 모든 항목은 암호화 또는 다른 이유로 인덱싱된 받지** 내보내기 옵션을 선택 하면) 하 여 인덱싱된 항목 및 부분적으로 인덱싱된 항목 모두를 내보낼 하려는 경우 부분적으로 인덱싱된 항목은 내보낸 일반 reslts 함께에서 나열 Results.csv 보고서입니다. 인덱싱되지 않은 items.csv 보고서에는 것이 나열 되지 않습니다.
+- 부분적으로 인덱싱된 항목은 검색에서 반환 되 면 결과 (하기 때문에 검색 조건과 일치 하는 부분적으로 인덱싱된 항목의 다른 속성), 일반 검색 결과 함께 이러한 부분적으로 인덱싱된를 내보내야 합니다. 따라서 ( **인식할 수 없는 형식 내용이 있는 원본을 비롯 하는 모든 항목은 암호화 또는 다른 이유로 인덱싱된 받지** 내보내기 옵션을 선택 하면) 하 여 인덱싱된 항목 및 부분적으로 인덱싱된 항목 모두를 내보낼 하려는 경우 부분적으로 인덱싱된 항목은 내보낸 일반 결과 함께 나열 됩니다 Results.csv 보고서에 있습니다. 인덱싱되지 않은 items.csv 보고서에는 것이 나열 되지 않습니다.
     
  ### <a name="exporting-individual-messages-or-pst-files"></a>개별 메시지 또는 PST 파일 내보내기
   
