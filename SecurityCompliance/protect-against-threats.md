@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Office 365 Enterprise 보호할 수 있는 방법을 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직에 알아봅니다.
-ms.openlocfilehash: 4534e12280b5e627c2594c0365262a5c7c14a8c4
-ms.sourcegitcommit: 15dfa0c83aa88816c18e30a44a49e36e733d952c
+ms.openlocfilehash: 18e91b3a27ff9722a285a4c84f810876e1cab462
+ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24011270"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496852"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협으로부터 보호
 
@@ -54,7 +54,7 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 - [스푸핑 인텔리전스에 대 한 설명](learn-about-spoof-intelligence.md)
     
-- [ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)
+- [피싱 방지 정책 설정](set-up-anti-phishing-policies.md)
     
 - [ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
     
@@ -68,7 +68,7 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 - [Office 365 Enterprise의 암호화 설정](set-up-encryption.md)
     
-- [Office 365 메시지 암호화 (OME)](ome.md)
+- [OME(Office 365 메시지 암호화)](ome.md)
     
 - [구현 가져오는 직접 키 (BYOK)](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
     

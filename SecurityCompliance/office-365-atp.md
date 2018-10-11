@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 description: Office 365 고급 위협 보호 스푸핑 인텔리전스, 안전한 링크, 안전한 첨부 파일 및 고급 피싱 방지 기능을 포함합니다. 또한 고급 위협 보호 비즈니스 및 팀이 Microsoft에 대 한 SharePoint Online, OneDrive의 파일에 확장 되 고 됩니다.
-ms.openlocfilehash: fed816ec8cd0e3e7a6b5118fde35d81647b94f02
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: e3b282118b5fde0374bb9f052e7efe8a13e2fd70
+ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454355"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496862"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -51,7 +51,7 @@ ATP를 만든 후 다음 단계에서는 보안 팀이 정책을 정의입니다
   
 ## <a name="define-policies-for-atp"></a>ATP에 대 한 정책 정의
 
-- 신뢰할 수 있는 사용자 또는 도메인에서 것 처럼 보이는 **[Office 365의 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)** 가장 기반 공격을 포함 하는 전자 메일 메시지를 보낼 사람 공격자 로부터 보호 하기 위해 
+- 신뢰할 수 있는 사용자 또는 도메인에서 것 처럼 보이는 **[Office 365의 ATP 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)** 가장 기반 공격을 포함 하는 전자 메일 메시지를 보낼 사람 공격자 로부터 보호 하기 위해 
 
 - 조직의 [차단 된 사용자 지정 Url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md) 및 [사용자 지정 "rewrite 수행" Url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 등을 **[Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)**
     
@@ -69,7 +69,7 @@ ATP 정책이 설정 되어, 후 보고서는 서비스가 작동 하는 방법�
     
 3. 필요한 경우에 보안 정책에 대 한 조정 확인 합니다. 다음 리소스를 참조 합니다.
 
-  - [Office 365의 ATP 피싱 방지 정책](set-up-atp-anti-phishing-policies.md)
+  - [Office 365의 ATP 피싱 방지 정책](set-up-anti-phishing-policies.md)
     
   - [Office 365의 ATP 안전한 링크 정책](set-up-atp-safe-links-policies.md)
     

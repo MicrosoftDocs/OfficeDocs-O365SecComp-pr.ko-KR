@@ -3,7 +3,7 @@ title: Office 365의 피싱 방지 보호 기능
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/05/2018
+ms.date: 10/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 75af74b2-c7ea-4556-a912-8c48e07271d3
 description: Office 365는 기본적으로 및 ATP 피싱 방지와 같은 추가 제품을 통해 다양 한 피싱 공격 으로부터 보호를 제공합니다. 이 항목을 소개 하 고 Office 365에서 피싱 방지 옵션 및 전략을 구현 하는데 사용할 수는 온라인 리소스를 소개 합니다.
-ms.openlocfilehash: b1a0f09aa34cf1bb2c57fcf415923568c063522a
-ms.sourcegitcommit: e14dec9bed0c0009acbc1f1cb80b4d0794ad5739
+ms.openlocfilehash: 163d03ee49ccf18f7d50324e0ac13ac6d219a4ea
+ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25435105"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496882"
 ---
 # <a name="anti-phishing-protection-in-office-365"></a>Office 365의 피싱 방지 보호 기능
 
@@ -31,7 +31,7 @@ Office 365 구성, 변경 하기 전에 Office 365에서 제공 하는 최신 �
   
 위험 및 경고에 대 한 흔적이 피싱 공격에 대 한 사용자를 교육 하은 환경을 보호 하기 위해 할 수 있는 가장 중요 한 작업입니다. 시작 하기를 사용자에 게 [피싱 구성표 및 다른 형태의 온라인 사기에서 자신을 보호](https://support.office.com/article/f84750b4-2f2c-46c3-89f6-e65f7f8c3546)에 대 한 정보를 잘 합니다.
   
-Office Enterprise e 5와 Office 365 조직에서는 보안에서 ATP 피싱 방지를 사용할 수 &amp; 준수 센터입니다. ATP 피싱 방지 보호 (영문) 상품 및 창 피싱 공격을 제공 하기 위해 받는 메시지를 가장 감지 알고리즘와 함께 컴퓨터 학습 모델의 집합을 적용 합니다. Office 365 전역 또는 보안 관리자가 설정 된 정책에 따라 조직을 보호 하는 ATP 피싱 방지 합니다. 자세한 내용은 [Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md) 및 [Office 365의 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)을 참조 하십시오.
+Office Enterprise e 5와 Office 365 조직에서는 보안에서 ATP 피싱 방지를 사용할 수 &amp; 준수 센터입니다. ATP 피싱 방지 보호 (영문) 상품 및 창 피싱 공격을 제공 하기 위해 받는 메시지를 가장 감지 알고리즘와 함께 컴퓨터 학습 모델의 집합을 적용 합니다. Office 365 전역 또는 보안 관리자가 설정 된 정책에 따라 조직을 보호 하는 ATP 피싱 방지 합니다. 자세한 내용은 [Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md) 및 [Office 365의 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)을 참조 하십시오.
   
 피싱 공격 으로부터 사용자를 보호 하는 기본적으로 Office 365를 구성 하는 방법에 대 한 자세한 내용은 참조 하십시오. [어떻게 Office 365의 유효성을 검사 From: 피싱 방지 하기 위해 주소](how-office-365-validates-the-from-address.md)합니다.
   

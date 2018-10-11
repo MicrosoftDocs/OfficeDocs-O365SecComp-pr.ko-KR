@@ -3,7 +3,7 @@ title: Office 365의 스푸핑 방지 보호 기능
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 7/2/2018
+ms.date: 10/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 description: 이 문서에서는 방법 Office 365을 완화 피싱 공격에 대해 사용 하 여 보낸 사람이 도메인, 위장 된 도메인, 즉 위조를 설명 합니다. 메시지를 분석 하 여이 기능을 수행 하기 및 neithe 표준 전자 메일 인증 방법 및 기타 보낸사람 신뢰도 기술을 사용 하 여 인증 될 수 있는 위치를 차단 합니다. 이 변경 피싱 공격에 노출 되는 조직에서 Office 365의 수를 줄이는 구현 됩니다.
-ms.openlocfilehash: bbcfbcdf32c87e070f10c9478a7c5978e909f009
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 37eddfcad9bc5e412f62dd857178eafa8cac9355
+ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22559223"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496902"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -25,7 +25,7 @@ ms.locfileid: "22559223"
   
 이 문서에서는 또한이 변경이 수행 되는 이유, 수이 변경에 대 한 고객을 준비 하는 방법을, 영향을 받을 메시지를 확인 하는 방법, 메시지를 보고 하는 방법, 가양성을 완화 하는 방법으로 해야이 대 한 Microsoft에 보낸사람을 준비 하는 방법을 설명합니다 이 옵션을 변경 합니다.
   
-Microsoft의 스푸핑 방지 기술을 Office 365 고급 위협 보호 ATP () 및 e 5 고객 처음 배포 됩니다. 그러나 해당 필터의 모든 서로에서 설명 하는 방식 때문에 비 ATP 고객과 Outlook.com 사용자에 게도 영향을 받을 수 있습니다.
+Microsoft의 스푸핑 방지 기술 Office 365 Enterprise e 5 구독 명의 또는 구독에 대 한 Office 365 고급 위협 보호 (ATP) 추가 기능을 구입 명의 하는 해당 조직에 처음 배포 되었습니다. 년 10 월 2018를 기준으로 보호 하는 조직에서는 Exchange Online Protection (EOP)도를 확장 했을 때 했습니다. 또한이 필터는 모든 서로에서 설명 하는 방식 때문에 Outlook.com 사용자도 영향을 받을 수 있습니다.
   
 ## <a name="how-spoofing-is-used-in-phishing-attacks"></a>피싱 공격에 스푸핑 사용 방법
 
@@ -174,7 +174,7 @@ Authentication-Results: spf=none (sender IP is 1.2.3.4)
 From: sender @ example.com
 To: receiver @ contoso.com
 ```
-스푸핑 방지 후 위협 보호 고급 또는 e 5 고객 인 경우 compauth 값은 스탬프가 지정 된 (비 ATP 및 비 E5 고객은 영향을 받지):
+스푸핑 방지 후 Office 365 엔터프라이즈 e 5, EOP, 또는 ATP, 있는 경우 compauth 값은 스탬프 처리 합니다.
   
 ```
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
@@ -250,7 +250,7 @@ To: someone@example.com
   
 여러 다른 방식 (이 문서 앞부분의 [다양 한 유형의 스푸핑 간의 Differentiating](#differentiating-between-different-types-of-spoofing) 참조)는 메시지를 스푸핑 될 수 있지만 년 3 월 2018를 기준으로 Office 365에서 이러한 메시지를 처리 하는 방법은 되지 아직 통합 합니다. 다음 표에 새 동작 되 고 도메인간 스푸핑 보호와 요약 합니다. 
   
-|**스푸핑의 유형**|**종류**|**안전 팁 추가 합니까?**|**적용 대상**|
+|**스푸핑의 유형**|**범주**|**안전 팁 추가 합니까?**|**적용 대상**|
 |:-----|:-----|:-----|:-----|
 |DMARC 실패 (격리 또는 거부)  <br/> |SPM 또는 PHSH에도 HSPM (기본값) 수 있습니다.  <br/> |아니요 (아직)  <br/> |모든 Office 365 고객, Outlook.com  <br/> |
 |자체를 자체  <br/> |SPM  <br/> |예  <br/> |모든 Office 365 조직, Outlook.com  <br/> |
@@ -408,26 +408,26 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
   
 ### <a name="understanding-how-spam-phishing-and-advanced-phishing-detections-are-combined"></a>이해 어떻게 스팸, 피싱, 및 고급 피싱 감지 결합 되어
 
--ATP 및 ATP 비-Exchange Online 고객 서비스 맬웨어, 스팸, 높은 정확도 스팸, 피싱, 및 대량으로 메시지를 식별 하는 경우 수행할 작업을 지정할 수 있습니다. 그러나 ATP 고객을 위한 새 피싱 방지 정책 및 메시지를 여러 검색 형식 (예: 맬웨어, 피싱, 및 사용자 가장)을 적중 수 팩트 도입 있을 수 있습니다 정책이 적용 되는 계정으로 일부 혼동 합니다. 
+함께 또는 따로 ATP, Exchange Online을 사용 하는 조직은 서비스 맬웨어, 스팸, 높은 정확도 스팸, 피싱, 및 대량으로 메시지를 식별 하는 경우에 실행할 동작을 지정할 수 있습니다. ATP 고객에 대 한 ATP 피싱 방지 정책 및 EOP 고객에 대 한 피싱 방지 정책 및 메시지를 여러 검색 형식 (예: 맬웨어, 피싱, 및 사용자 가장)을 적중 수 팩트를 있을 수 있는 계정으로 일부 혼란 정책이 적용 됩니다. 
   
 일반적으로 X Forefront-스팸 방지 보고서 머리글 고양이 (범주) 속성에는 메시지에 적용 되는 정책을 식별 됩니다. 
   
-|**우선 순위**|**정책**|**종류**|**여기서 관리?**|**적용 대상**|
+|**우선 순위**|**정책**|**범주**|**여기서 관리?**|**적용 대상**|
 |:-----|:-----|:-----|:-----|:-----|
-|1  <br/> |Malware  <br/> |MALW  <br/> |[맬웨어 정책](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |모든 고객  <br/> |
-|2   <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 고객  <br/> |
-|3  <br/> |높은 정확도 스팸  <br/> |HSPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 고객  <br/> |
-|4  <br/> |스푸핑  <br/> |스푸핑  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553), [스푸핑 인텔리전스](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |ATP만  <br/> |
-|5  <br/> |스팸  <br/> |SPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 고객  <br/> |
-|6  <br/> |대량  <br/> |대량  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 고객  <br/> |
-|7   <br/> |도메인 가장  <br/> |DIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP만  <br/> |
-|8  <br/> |사용자 가장  <br/> |UIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP만  <br/> |
+|1   <br/> |Malware  <br/> |MALW  <br/> |[맬웨어 정책](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|2   <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|3   <br/> |높은 정확도 스팸  <br/> |HSPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|4   <br/> |스푸핑  <br/> |스푸핑  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553), [스푸핑 인텔리전스](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |모든 조직  <br/> |
+|5   <br/> |스팸  <br/> |SPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|6   <br/> |대량  <br/> |대량  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|7   <br/> |도메인 가장  <br/> |DIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당  <br/> |
+|8   <br/> |사용자 가장  <br/> |UIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당 <br/> |
    
 여러 다른 피싱 방지 정책을 가장 높은 우선순위에 하나씩 적용 됩니다. 예, 두 정책이 있다고 가정 합니다.
   
 |**정책**|**우선 순위**|**사용자/도메인 가장**|**스푸핑 방지**|
 |:-----|:-----|:-----|:-----|
-|A  <br/> |1  <br/> |On  <br/> |Off  <br/> |
+|A  <br/> |1   <br/> |On  <br/> |Off  <br/> |
 |B  <br/> |2   <br/> |Off  <br/> |On  <br/> |
    
 메시지에는 및 스푸핑 및 사용자 가장으로 식별 된 및 사용자의 동일한 집합 정책 A와 B 정책으로 범위가 지정 된 후 메시지 스푸핑은으로 처리 됩니다 하 고 아무 작업도 이후 적용 되 백신 스푸핑 꺼져 스푸핑 사용자 가장 (8) 보다 더 높은 우선순위 (4)에서 실행 되 고 있습니다.
@@ -683,7 +683,7 @@ Microsoft 자체는 먼저이 기능 고객의 나머지 부분에 배포 하기
   
 ### <a name="will-microsoft-bring-this-feature-to-outlookcom-and-non-advanced-threat-protection-customers-of-office-365"></a>Microsoft은 Office 365의 Outlook.com 및 비-고급 위협 보호 고객에 게이 기능을 가져오려면가?
 
-스푸핑 방지 보호를 처음 롤백하 ATP/e 5 고객에 게 제공 하 고를 다른 사용자에 게 나중에 출시 될 수 있습니다. 그러나 않습니다 보고와 같은 적용 되지 않은 일부 기능이 있을 수 있습니다 및 사용자 정의 재정의 합니다.
+Microsoft의 스푸핑 방지 기술 Office 365 Enterprise e 5 구독 명의 또는 구독에 대 한 Office 365 고급 위협 보호 (ATP) 추가 기능을 구입 명의 하는 해당 조직에 처음 배포 되었습니다. 년 10 월 2018를 기준으로 보호 하는 조직에서는 Exchange Online Protection (EOP)도를 확장 했을 때 했습니다. 나중에 Outlook.com에 대 한 릴리스 수는 있습니다. 그러나이 경우 보고와 같은 적용 되지 않은 일부 기능이 있을 수 및 사용자 정의 재정의 합니다.
   
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>어떻게 수 있습니까 스팸 또는 스팸이 아닌 메시지를 다시 보고 Microsoft?
 

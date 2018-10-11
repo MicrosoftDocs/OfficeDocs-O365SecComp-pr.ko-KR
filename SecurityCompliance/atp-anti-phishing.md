@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 ms.assetid: 5076d0f6-7a59-4d6c-bd07-ba95033f0682
 description: ATP 피싱 방지 Office 365 고급 위협 보호의 일부분으로 제공 됩니다. ATP 피싱 방지 보호 (영문) 상품 및 창 피싱 공격을 제공 하기 위해 받는 메시지를 가장 감지 알고리즘와 함께 컴퓨터 학습 모델의 집합을 적용 합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격 으로부터 보호 하기 위해 사용 되는 고급 알고리즘 집합이 함께 피싱 메시지를 검색 교육을 받은 컴퓨터 학습 모델의 다양 한 집합에 따라 달라 집니다. ATP 피싱 방지 보호 하는 조직에 따라 Office 365 전역 또는 보안 관리자가 설정 된 정책에 있습니다.
-ms.openlocfilehash: cff25316f9a03bdfafd195eb408584ab8bca6343
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: e7bb4c4a28109c40bf745a25c9c8366558cf2ac7
+ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533338"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496892"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Office 365의 ATP 피싱 방지 기능
 
 ATP 피싱 방지 [Office 365 고급 위협 보호](https://technet.microsoft.com/en-us/library/exchange-online-advanced-threat-protection-service-description.aspx)의 일부분으로 제공 됩니다. ATP 피싱 방지 보호 (영문) 상품 및 창 피싱 공격을 제공 하기 위해 받는 메시지를 가장 감지 알고리즘와 함께 컴퓨터 학습 모델의 집합을 적용 합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격 으로부터 보호 하기 위해 사용 되는 고급 알고리즘 집합이 함께 피싱 메시지를 검색 교육을 받은 컴퓨터 학습 모델의 다양 한 집합에 따라 달라 집니다. ATP 피싱 방지 보호 하는 조직에 따라 Office 365 전역 또는 보안 관리자가 설정 된 정책에 있습니다.
   
-자세한 내용은 [Office 365의 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)을 참조 합니다.
+자세한 내용은 [Office 365의 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)을 참조 합니다.
   
 > [!NOTE]
 > ATP 피싱 방지는 에서만 고급 위협 보호, Office 365 Enterprise e 5에서 사용할 수 있는 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 고급 위협 보호 추가 기능으로 구입할 수 있습니다. (전역 관리자도 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 계획 옵션에 대 한 자세한 내용은 [비즈니스 계획에 대 한 모든 Office 365 비교](https://go.microsoft.com/fwlink/?linkid=844053)를 참조 하십시오. 
@@ -35,14 +35,14 @@ ATP 피싱 방지 메시지 피싱 될 수 있다는 지표에 대 한 들어오
   
 ATP 피싱 방지 Office 365 전역 관리자 또는 보안 관리자 사용자 또는 도메인의 가장을 포함 하는 피싱 공격 으로부터 보호 기능을 제공 하는 정책을 정의할 수 있습니다. (또는 둘 모두)입니다. Office 365 전역 관리자 또는 보안 관리자가 정의 사용자 및 도메인 중 하나를 사용 하 여 가장 공격 으로부터 보호 해야 정책 내에서 사용자 또는 도메인의 또는 사서함 인텔리전스를 사용 하 여 고정된 목록입니다. 사서함 인텔리전스는 사용자의 전자 메일 거 및 개인 연락처에 대 한 고급 이해 합니다. ATP 각 개별 사용자는 조직 내부 및 외부 다른 사용자와 통신 하 고 이러한 관계의 맵을 빌드하 하는 방법을 알아냅니다. 이 맵을 오른쪽 메시지 가장으로 식별 된 확인 하는 방법에 대 한 자세한 내용은 이해 하는 ATP 수 있습니다.
   
-ATP 피싱 방지 정책 또는 전체 도메인 또는 사용자 지정 도메인의 모든 사용자 또는 그룹에 조직 전체에서 특정 집합에 적용할 수 있습니다. 자세한 내용은 [Office 365의 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)을 참조 합니다.
+ATP 피싱 방지 정책 또는 전체 도메인 또는 사용자 지정 도메인의 모든 사용자 또는 그룹에 조직 전체에서 특정 집합에 적용할 수 있습니다. 자세한 내용은 [Office 365의 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)을 참조 합니다.
   
 ## <a name="how-to-get-atp-anti-phishing"></a>ATP 피싱 방지 하는 방법
 <a name="Howtogetantiphish"> </a>
 
 ATP 피싱 방지는 Office 365 Enterprise e 5에 포함 된 고급 위협 보호의 일부입니다. 고급 위협 보호 Office 365 Enterprise E1 또는 Office 365 Enterprise E3 추가 기능으로 구입할 수 있습니다. 계획 옵션에 대 한 자세한 내용은 [비즈니스 계획에 대 한 모든 Office 365 비교](https://go.microsoft.com/fwlink/?linkid=844053)를 참조 하십시오.
   
-ATP 피싱 방지 때는 피싱 방지 정책 적용 하는 가장 기반 정책 설정 등 합니다. ( [Office 365의 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)참조).
+ATP 피싱 방지 때는 피싱 방지 정책 적용 하는 가장 기반 정책 설정 등 합니다. ( [Office 365의 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)참조).
   
 ## <a name="how-to-know-if-atp-anti-phishing-is-in-place"></a>ATP 피싱 방지 전체에서 인지 확인 하는 방법
 <a name="IsantiphishOn"> </a>
@@ -62,7 +62,7 @@ ATP 피싱 방지 정책 활성 상태 여야 하는 보호 기능에 대 한 �
   
 [Office 365의 피싱 방지 보호 기능](anti-phishing-protection.md)
   
-[Office 365의 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)
+[Office 365의 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)
   
 [Office 365의 ATP 안전한 링크](atp-safe-links.md)
   
