@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화 FAQ
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 09/27/2018
+ms.date: 10/9/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365에서 새 메시지 보호 기능이 작동 하는 방법에 대 한 질문이 있습니까? 여기에 대 한 답변을 확인 합니다.
-ms.openlocfilehash: c580ef701f6ee98ea2fc71df792256b1792c73cd
-ms.sourcegitcommit: 411713004251ee62d29b550eabea04c08a87e41f
+ms.openlocfilehash: 63bea478e144f42cabc67f7075cd52199d954d9c
+ms.sourcegitcommit: d3f3e2eb9ef05ebef85d83935a2cb0f7690ee6fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25341433"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495522"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -89,7 +89,7 @@ BYOK 하는 방법에 대 한 자세한 내용은 [계획 및 구현 하 여 Azu
   
 ## <a name="my-organization-has-an-exchange-hybrid-deployment-can-i-use-this-feature"></a>내 조직에 Exchange 하이브리드 배포 합니다. 이 기능을 사용할 수 있습니까?
 
-온-프레미스 사용자는 Exchange Online 메일 흐름 규칙을 사용 하 여 암호화 된 메일을 보낼 수 있습니다. 이 작업을 수행 하기 위해 Exchange Online을 통해 전자 메일을 라우팅할 해야 합니다.
+온-프레미스 사용자는 Exchange Online 메일 흐름 규칙을 사용 하 여 암호화 된 메일을 보낼 수 있습니다. 이 작업을 수행 하기 위해 Exchange Online을 통해 전자 메일을 라우팅할 해야 합니다. 자세한 내용은 참조 [제 2 부: 메일을 Office 365로 전자 메일 서버에서 전송 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)합니다.
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>OME 암호화 된 메시지를 작성 하기 위해 사용 하 여 어떤 전자 메일 클라이언트를 필요 합니까? 보호 된 메시지를 보내는 어떤 응용 프로그램은 지원 합니까?
 
@@ -119,7 +119,7 @@ BYOK 하는 방법에 대 한 자세한 내용은 [계획 및 구현 하 여 Azu
   
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>I 자동으로 메시지를 암호화할 수 정책에서 데이터 손실 방지 (DLP) 보안을 통해을 설정 하 여 &amp; 준수 센터?
 
-현재 설정할 수 있습니다만 메일 흐름 규칙을 Exchange Online. 암호화 현재 보안을 통해 DLP에서 지원 되지 않습니다 &amp; 준수 센터입니다.
+예! Exchange Online에서 또는 보안에서 DLP를 사용 하 여 메일 흐름 규칙을 설정할 수 &amp; 준수 센터입니다.
   
 ## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>공유 사서함에 전송 된 암호화 된 메시지를 열 수 있습니까?
 
