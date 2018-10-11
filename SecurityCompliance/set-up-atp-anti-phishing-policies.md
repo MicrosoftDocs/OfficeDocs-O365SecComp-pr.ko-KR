@@ -5,17 +5,17 @@ author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.date: 9/5/2018
+ms.date: 10/11/2018
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: ATP 피싱 방지 보호 기능, 부분에서는 Office 365 고급 위협 보호 조직의 악의적인 가장 기반 피싱 공격 및 기타 피싱 공격 으로부터 보호할 수 있습니다. Office 365 Enterprise global 또는 보안 관리자 인 경우에 ATP 피싱 방지 정책을 설정할 수 있습니다. 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
-ms.openlocfilehash: 9ceef88a2d60a10a8911e7559e10850858015977
-ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
+ms.openlocfilehash: 37a38863296ab87feaade93b7939029b9306ec30
+ms.sourcegitcommit: 176ce86e2b440c079414fe99d4b0b9e89ccebb40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23955450"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25496569"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 정책 설정
 
