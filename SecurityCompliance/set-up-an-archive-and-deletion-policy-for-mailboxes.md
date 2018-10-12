@@ -16,12 +16,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 사용자의 보관 사서함에 항목을 자동으로 이동 하는 Office 365의 보관 및 삭제 정책을 만듭니다.
-ms.openlocfilehash: 807488f9ec7088adccdf1fc111d67b9dab8e0a38
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 740164ee840a32aff20f5c2dc1b1ae433d95cfe5
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533575"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522299"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조직 내의 사서함에에서는 보관 및 삭제 정책 설정
 
@@ -60,7 +60,7 @@ Office 365에서 사용자의 보관 사서함에 항목을 자동으로 이동 
 > [!NOTE]
 > 하기만 하는 프로세스를 완료 하기 전에 일부 지점에서 사용 중인이 프로세스 동안 언제 든 지 보관 사서함을 사용할 수 있습니다. 보관 사서함 설정 되지 않은 경우 보관 정책이 할당 된 모든 항목에 대해 아무 작업도 수행 됩니다. 
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 전역 관리자 계정을 사용 하 여 Office 365에 로그인 합니다.
     
@@ -238,7 +238,7 @@ Office 365에서 사용자의 보관 사서함에 항목을 자동으로 이동 
 ## <a name="optional-step-5-run-the-managed-folder-assistant-to-apply-the-new-settings"></a>(선택 사항) 5 단계: 실행 하는 관리 되는 폴더 도우미가 새 설정을 적용 하려면
 <a name="step3"> </a>
 
-4 단계에서에서 사서함에 새 보존 정책을 적용 한 후 걸릴 수 최대 7 일 Exchange Online 사서함에 적용할 새 보존 설정에 대 한 합니다. 7 일 마다 관리 되는 폴더 도우미가 프로세스 사서함 라는 프로세스 때문입니다. 관리 되는 폴더 도우미가 실행을 기다리는 대신를 실행 하 여 발생 하려면이 옵션을 찾도록 할 수 있습니다는 Exchange Online PowerShell에서 **Start-managedfolderassistant** cmdlet입니다. 
+4 단계에서에서 사서함에 새 보존 정책을 적용 한 후 걸릴 수 최대 7 일 Exchange Online 사서함에 적용할 새 보존 설정에 대 한 합니다. 7 일 마다 관리 되는 폴더 도우미가 프로세스 사서함 라는 프로세스 때문입니다. 관리 되는 폴더 도우미가 실행을 기다리는 대신를 실행 하 여 **Start-managedfolderassistant** cmdlet은 Exchange Online PowerShell 발생 하려면이 옵션을 강제로 수 있습니다. 
   
  **관리 되는 폴더 도우미가 실행 하면 어떻게 됩니까?** 사서함의 항목을 검사 하 고 보존 될 수는 있는지 여부를 결정 하 여 보존 정책 설정이 적용 됩니다. 그런 다음 적절 한 보존 태그와 함께 항목 보존에 따라 달라 집니다을 스탬프 처리 하 고의 사용 보존 기간이 지난 항목에 지정 된 보존 작업을 수행 합니다. 
   

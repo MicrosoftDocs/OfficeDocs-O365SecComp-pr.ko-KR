@@ -3,7 +3,7 @@ title: 보류된 사물함의 복구 가능한 항목 할당량 증가
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 8/22/2017
+ms.date: 10/12/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장을 Office 365의 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘리려면 보관 설정 합니다. '
-ms.openlocfilehash: cd2d07e6ef1637343798ccb71870c8d436f10574
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: a347155645d7c058080b1db7fd47f7ea16249724
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782095"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522279"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
@@ -35,7 +35,7 @@ ms.locfileid: "23782095"
 |**복구 가능한 항목 폴더 할당량** <br/> |제한 없음  <br/> |제한 없음  <br/> |
    
 > [!NOTE]
-> <sup>\*</sup>보관 사서함에 대 한 초기 저장소 할당량은 Exchange Online (계획 2) 라이선스를 사용 하는 사용자에 대 한 100GB. 그러나 때 보관 자동 확장 켜져 대기 사서함, 저장소 할당량에 대 한 모두에 대 한의 보관 사서함 및 복구 가능한 항목 폴더 110 g B로 증가 되었습니다. 필요한 경우 추가 보관 저장소 공간을 구축할 무제한 금액의 보관 저장소에서 결과입니다. 자동 확장 하는 방법에 대 한 자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 보관 하십시오. 
+> <sup>\*</sup>보관 사서함에 대 한 초기 저장소 할당량은 Exchange Online (계획 2) 라이선스를 사용 하는 사용자에 대 한 100GB. 그러나 켜면 보관 자동 확장은 보류에 있는 사서함에 대 한 보관 사서함과 복구 가능한 항목 폴더에 대 한 저장소 할당량 110 g B로 증가 되었습니다. 필요한 경우 추가 보관 저장소 공간을 구축할 무제한 금액의 보관 저장소에서 결과입니다. 자동 확장 하는 방법에 대 한 자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 보관 하십시오. 
   
 보류된 사서함의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 할당량이 한도에 도달하려는 경우 다음 항목을 수행할 수 있습니다.
   

@@ -13,19 +13,19 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: Office 365에서 권한이 부여 된 액세스 관리를 구성 하는 방법에 대 한 자세한 내용은이 항목을 사용 하 여
-ms.openlocfilehash: 47cae93a41b0fd60645021f6f299645777a9a2e1
-ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
+ms.openlocfilehash: 13d278c8e8555aa069035c2f03b23db69a475b43
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011844"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522260"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Office 365에서 액세스 권한을된 관리 구성
 
 > [!IMPORTANT]
 > 이 항목에서는 Office 365 e 5 및 고급 준수 Sku에만 현재 제공 되는 기능에 대 한 배포 및 구성 지침에 설명 합니다.
 
-이 항목은 통해 사용 하도록 설정 하 고 Office 365 조직에서 권한이 부여 된 액세스 관리를 구성 하는 것을 안내 합니다. 하나를 사용할 수는 Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell 관리를 사용 하는 액세스 권한이 있습니다. 
+이 항목은 통해 사용 하도록 설정 하 고 Office 365 조직에서 권한이 부여 된 액세스 관리를 구성 하는 것을 안내 합니다. 관리 하 고 액세스 권한을된 사용 하 여 Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell 중 하나를 사용할 수 있습니다. 
 
 ## <a name="enable-and-configure-privileged-access-management"></a>설정 하 고 액세스 권한을된 관리 구성
 

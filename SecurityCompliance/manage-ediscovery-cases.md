@@ -3,19 +3,19 @@ title: Office 365 보안에서 eDiscovery 사례 관리 &amp; 준수 센터
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 7/2/2018
+ms.date: 10/12/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 9a00b9ea-33fd-4772-8ea6-9d3c65e829e6
 description: Office 365 보안을 사용 하 여 &amp; eDiscovery 보류 만들기 하 고 액세스 하 고 조직에서 eDiscovery 사례를 관리 하는 준수 센터입니다.
-ms.openlocfilehash: cf7d821b9883caa98e867f4a38ee3caeddb2712b
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 604bdb5adff69911945c279fcb4fcd8a2e105632
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038331"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522309"
 ---
 # <a name="manage-ediscovery-cases-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 eDiscovery 사례 관리 &amp; 준수 센터
 
@@ -87,7 +87,7 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
     
 4. 모든 사용자를 추가한 후 **완료**를 클릭, 역할 그룹에 변경 내용을 저장 하려면 **저장** 을 클릭 하 고 **닫기**를 클릭 합니다.
     
-[Return to top](manage-ediscovery-cases.md#top)
+
   
 ## <a name="step-2-create-a-new-case"></a>2 단계: 새 사례 만들기
 <a name="step2_1"> </a>
@@ -108,8 +108,6 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
     
     > [!TIP]
     > 새 사례를 만든 후 언제 든 지 바꿀 수 있습니다. **EDiscovery** 페이지에서 대/소문자의 이름을 클릭 합니다. **이 경우 관리** 플라이 아웃 페이지에서 **이름**아래에 있는 상자에 표시 되는 이름을 변경 하 고 변경 내용을 저장 합니다. 
-  
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="step-3-add-members-to-a-case"></a>3 단계: 사례에 구성원 추가
 <a name="step2a_1"> </a>
@@ -136,8 +134,6 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
     **이 경우 관리**사례 구성원의 새 목록을 저장 하려면 **저장** 을 클릭 합니다. 
     
 6. 사례 구성원의 새 목록을 저장 하려면 **저장** 을 클릭 합니다. 
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="step-4-place-content-locations-on-hold"></a>4 단계: 전체에서 콘텐츠 위치 유지
 <a name="step3_1"> </a>
@@ -178,11 +174,10 @@ EDiscovery 사례에 대 한 보류를 만들려면:
   
 2. **사이트** **추가**클릭![아이콘 추가](media/ITPro-EAC-AddIcon.gif) 를 대기 시키려면 SharePoint 및 비즈니스 사이트에 대 한 OneDrive를 지정 합니다. 보류에 배치 하려는 각 사이트에 대 한 URL을 입력 합니다. Office 365 그룹 또는 팀이 Microsoft에 대 한 SharePoint 사이트에 대 한 URL을 추가할 수도 있습니다. 
     
-<<<<<<< 헤드 참조는 [Office 365 보안에서 eDiscovery 사례 관리 &amp; 준수 센터](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da#moreinfo_1) 대기 Office 365 그룹 및 Microsoft 팀의 배치에 대 한 팁 섹션입니다. === 대기 Office 365 그룹 및 Microsoft 팀의 배치에 대 한 팁에 대 한 [자세한 내용](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da.aspx#moreinfo_1) 은 섹션을 참조 합니다. 
->>>>>>> deniseb 변환
+    보류에서 Office 365 그룹 및 Microsoft 팀의 배치에 대 한 팁에 대 한 [자세한 내용](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da.aspx#moreinfo_1) 은 섹션을 참조 하십시오. 
     
     > [!NOTE]
-    > In the rare case that a person's user principal name (UPN) is changed, the URL for their OneDrive account will also be changed to incorporate the new UPN. If this happens, you'll have to modify the hold by adding the user's new OneDrive URL and removing the old one. 
+    > 사용자의 사용자 계정 이름 (UPN) 변경 된 특수 한 경우에서 해당 OneDrive 계정에 대 한 URL 새 UPN을 통합 하기 위해 변경 됩니다. 이 경우 사용자의 새 OneDrive URL을 추가 하 고 이전 하나를 제거 하 여 보류를 수정 해야 합니다. 
   
 3. **공용 폴더** **모든 공용 폴더를 유지** 하면 Exchange Online 조직에 보류에 배치 하는 모든 공용 폴더를 클릭 합니다. 특정 공용 폴더 배치를 선택할 수는 없으며 메모를 보관 합니다. **모든 공용 폴더를 저장 하지 않으므로** 옵션을 공용 폴더에 대 한 보류를 배치 하지 않을 경우 선택 된 상태로 둡니다. 
     
@@ -199,8 +194,6 @@ EDiscovery 사례에 대 한 보류를 만들려면:
 2. **조건**보류에 대 한 검색 쿼리 범위를 좁힐 수 있는 하나 이상의 조건을 추가 하려면 **조건 추가** 클릭 합니다. 각 조건은 만들고 보류를 만들 때 실행 되는 KQL 검색 쿼리 절을 추가 합니다. 같은 날짜 범위 내에서 만든 문서를 전자 메일 또는 사이트는 대기 상태에 놓일 수 있도록 날짜 범위를 지정할 수 있습니다. 조건 **및** 연산자에 의해 (키워드 상자에 지정 된) 키워드 쿼리를 논리적으로 연결 됩니다. 항목 모두 만족 하는 의미 키워드 쿼리 및 조건에 배치할 수를 유지 합니다. 
     
 9. 쿼리 기반 구성한 후 유지, 보류를 만들려면 **완료** 를 클릭 합니다. 
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ### <a name="hold-statistics"></a>통계를 유지 합니다.
 
@@ -217,8 +210,6 @@ EDiscovery 사례에 대 한 보류를 만들려면:
 - 최신 정보를 얻을 수 통계를 검색을 다시 실행 **통계를 업데이트** 를 클릭 하 여 현재 보류 중인 항목 수를 계산 하는 예측 유지 합니다. 필요한 경우 **새로 고칠**을 클릭![새로고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) 세부 정보 창에서 보류 통계를 업데이트 하려면 도구 모음에서 합니다. 
     
 - 에 있는 항목의 수에 대 한 표준의 해당 사서함 이나 사이트 보류 중인 사용자는 일반적으로 또는 새 전자 메일 메시지를 받는 보내고 비즈니스 문서에 대 한 새 SharePoint와 OneDrive 만들기 때문에 시간이 지남에 따라 증가에 대해 유지 합니다.
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="step-5-create-and-run-a-content-search-associated-with-a-case"></a>5 단계: 만들기 및 실행 하는 사례와 관련 된 콘텐츠 검색
 <a name="step4_1"> </a>
@@ -265,13 +256,11 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
     
 7. 하 고 나면 검색, **다음**을 클릭 하 여 콘텐츠 위치를 선택 합니다.
     
-8. **새 검색** 페이지에서 키워드 및 조건을 추가하여 검색 쿼리를 만들 수 있습니다. 
-    
-    ![검색 조건 및 조건](media/9064147e-feac-4090-bbf6-2298ad7622c6.png)
+8. **새 검색** 페이지에서 키워드 및 조건을 추가하여 검색 쿼리를 만들 수 있습니다. <br/>![검색 조건 및 조건](media/9064147e-feac-4090-bbf6-2298ad7622c6.png)
   
-1. 아래에 있는 상자에서 **수행할를 찾도록 우리?**, 상자에 검색 쿼리를 입력 합니다. 키워드, 메시지 전송 및 받은 날짜 또는 파일 이름 등의 문서 속성 또는 문서를 마지막으로 변경한 날짜와 같은 속성을 지정할 수 있습니다. 예: **AND**, **또는**, **하지**, **NEAR**또는 **ONEAR**부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서 또는 외부에서 공유 된 문서에 대 한 검색에서 중요 한 정보 (예: 주민등록 번호)을 검색할 수도 있습니다. 키워드 상자에 빈을 지정 하지 않으면 검색 결과에 지정 된 콘텐츠 위치에 있는 모든 콘텐츠를 포함 합니다. 
+9. 아래에 있는 상자에서 **수행할를 찾도록 우리?**, 상자에 검색 쿼리를 입력 합니다. 키워드, 메시지 전송 및 받은 날짜 또는 파일 이름 등의 문서 속성 또는 문서를 마지막으로 변경한 날짜와 같은 속성을 지정할 수 있습니다. 예: **AND**, **또는**, **하지**, **NEAR**또는 **ONEAR**부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서 또는 외부에서 공유 된 문서에 대 한 검색에서 중요 한 정보 (예: 주민등록 번호)을 검색할 수도 있습니다. 키워드 상자에 빈을 지정 하지 않으면 검색 결과에 지정 된 콘텐츠 위치에 있는 모든 콘텐츠를 포함 합니다. 
     
-2. 각 행에 키워드 형식과 **키워드 목록을 표시** 확인란을 클릭할 수 있습니다. 이렇게 하면 각 행에 키워드 만들어지는 검색 쿼리에 **또는** 연산자로 연결 됩니다. 
+10. 각 행에 키워드 형식과 **키워드 목록을 표시** 확인란을 클릭할 수 있습니다. 이렇게 하면 각 행에 키워드 만들어지는 검색 쿼리에 **또는** 연산자로 연결 됩니다. 
     
     ![검색 키워드](media/c3ef511a-e0a3-4b5d-9779-36803270a193.png)
   
@@ -279,19 +268,17 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
     
     키워드 목록을 사용 하는 방법에 대 한 자세한 내용은 대 한 [자세한 내용은](run-a-content-search-in-the-security-and-compliance-center.md#moreinfo)참조 합니다.
     
-3. 대문자로 표시 될 수 있는 부울 연산자 및 지원 되지않는 문자에 대 한 쿼리를 확인 하려면 **오타에 대 한 쿼리 확인** 을 클릭 합니다. 지원 되지않는 문자는 종종 및 일반적으로 검색 오류를 발생 숨겨지거나 원하지 않는 결과 반환 합니다. 지원 되지않는 문자를 되는지 여부를 확인 하는 방법에 대 한 자세한 내용은 [오류에 대 한 콘텐츠 검색 쿼리와 확인](check-your-content-search-query-for-errors.md)을 참조 하십시오.
+11. 대문자로 표시 될 수 있는 부울 연산자 및 지원 되지않는 문자에 대 한 쿼리를 확인 하려면 **오타에 대 한 쿼리 확인** 을 클릭 합니다. 지원 되지않는 문자는 종종 및 일반적으로 검색 오류를 발생 숨겨지거나 원하지 않는 결과 반환 합니다. 지원 되지않는 문자를 되는지 여부를 확인 하는 방법에 대 한 자세한 내용은 [오류에 대 한 콘텐츠 검색 쿼리와 확인](check-your-content-search-query-for-errors.md)을 참조 하십시오.
     
-4. **조건**조건을 검색 범위를 좁힐 보다 정교한 결과 집합이 반환 하는 검색 쿼리를 추가 합니다. KQL 검색 쿼리를 만들고 실행 하 여 검색을 시작 하는 경우에 절을 추가 하는 각 조건입니다. 조건 **및** 연산자에 의해 (키워드 상자에 지정 된) 키워드 쿼리를 논리적으로 연결 됩니다. 항목 키워드 쿼리 및 결과에 포함 되어야 하는 조건을 모두 충족 해야 함을 의미 합니다. 결과 범위를 좁히려면 조건 도움이 되는 방식입니다. 
+12. **조건**조건을 검색 범위를 좁힐 보다 정교한 결과 집합이 반환 하는 검색 쿼리를 추가 합니다. KQL 검색 쿼리를 만들고 실행 하 여 검색을 시작 하는 경우에 절을 추가 하는 각 조건입니다. 조건 **및** 연산자에 의해 (키워드 상자에 지정 된) 키워드 쿼리를 논리적으로 연결 됩니다. 항목 키워드 쿼리 및 결과에 포함 되어야 하는 조건을 모두 충족 해야 함을 의미 합니다. 결과 범위를 좁히려면 조건 도움이 되는 방식입니다. 
     
     검색 쿼리를 만들고 조건을 사용하는 방법에 대한 자세한 내용은 [Keyword queries for Content Search](keyword-queries-and-search-conditions.md)를 참조하세요.
     
-9. **검색**을 클릭하여 검색 설정을 저장하고 검색을 시작합니다. 
+13. **검색**을 클릭하여 검색 설정을 저장하고 검색을 시작합니다. 
     
     검색 시작 됩니다. 잠시 후 검색 결과 예상 세부 정보 창에 표시 됩니다. 예상 전체 크기 및 검색 조건과 일치 하는 항목 수를 포함 합니다. 검색 estimate는 또한 검색 된 콘텐츠 위치에 인덱싱되지 않은 항목 수를 포함 합니다. 세부 정보 창에 표시 되는 검색 통계에 검색 조건을 충족 하지 않는 인덱싱되지 않은 항목 수가 포함 됩니다. 인덱싱되지 않은 항목 일치 하는 항목 검색 (하기 때문에 검색 조건을 충족 하는 다른 메시지 또는 문서 속성)를 쿼리 하는 경우 예상된 인덱싱되지 않은 항목 수에 포함 되지 않습니다. 인덱싱되지 않은 항목이 검색 조건에 의해를 제외 하는 경우 것도에 포함 되지 않습니다 인덱싱되지 않은 항목의 예상 합니다.
     
     검색 완료 된 후에 검색 결과 미리볼 수 있습니다. 필요한 경우 **새로 고칠**을 클릭![새로고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) 세부 정보 창에 대 한 정보를 업데이트 합니다. 
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="step-6-export-the-results-of-a-content-search-associated-with-a-case"></a>6 단계: 사례와 연결 된 콘텐츠 검색 결과 내보내기
 <a name="step5_1"> </a>
@@ -381,8 +368,6 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
 - Azure 저장소 영역으로 전송 되는 검색 결과 이전 결과; 덮어쓰게 eDiscovery 사례에 **내보내기** 페이지에서 내보내기를 다시 시작 하는 경우 없었는지 이전 결과 전송 다운로드할 수를 사용할 수 없습니다. 
     
 - 고급 eDiscovery에 대 한 분석을 위해 여러 검색 결과 준비 하 고 사용할 수 없습니다. 만 고급 eDiscovery에 대 한 분석을 위해 단일 검색의 결과 준비할 수 있습니다.
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="step-7-prepare-search-results-for-advanced-ediscovery"></a>7 단계: 준비 고급 eDiscovery에 대 한 결과 검색 합니다.
 <a name="step7_1"> </a>
@@ -415,8 +400,6 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
     검색 결과 고급 eDiscovery 사용 하 여 분석에 대 한 준비를 합니다.
     
 7. 세부 정보 창에서 준비 프로세스에 대 한 정보를 표시 하도록 **준비 상태 확인** 을 클릭 합니다. 준비 프로세스가 완료 되 면 하는 경우에 분석을 위해 데이터를 처리 하는 고급 ediscovery에서 사례에 이동할 수 있습니다. 
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="step-8-go-to-the-case-in-advanced-ediscovery"></a>8 단계: 고급 ediscovery에서 사례에 이동
 <a name="gotoAeD_1"> </a>
@@ -445,8 +428,6 @@ Advanced eDiscovery에서 사례로 이동하려면
     
 > [!TIP]
 > 보안에서 동일한 대/소문자도 돌아가려면 **ediscovery 스위치** 클릭 &amp; 준수 센터입니다. 
-  
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="optional-step-9-close-a-case"></a>(선택 사항) 단계 9: 사례를 닫을
 <a name="closecase_1"> </a>
@@ -484,8 +465,6 @@ Advanced eDiscovery에서 사례로 이동하려면
 7. **EDiscovery** 페이지에서 다음을 클릭 ![새로고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **새로고침** 닫힌된 경우의 상태를 업데이트 합니다. 닫는 프로세스를 완료 하려면 최대 60 분까지 걸릴 수 있습니다. 
     
     프로세스가 완료 되 면 상태 대/소문자를 **eDiscovery** 페이지에서 **Close** 로 변경 됩니다. 대/소문자를 닫았을 때에 대 한 정보를 포함 하는 **관리이 경우** 플라이 아웃 페이지를 표시를 다시 대/소문자 및 했을 닫은 사용자의 이름을 클릭 합니다. 
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="optional-step-10-re-open-a-closed-case"></a>(선택 사항) 단계 10: 닫힌된 사례를 다시 열
 <a name="reopencase_1"> </a>
@@ -511,8 +490,6 @@ Advanced eDiscovery에서 사례로 이동하려면
 6. **EDiscovery** 페이지에서 다음을 클릭 ![새로고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **새로고침** 다시 열된 경우의 상태를 업데이트 합니다. 다시 열기 프로세스를 완료 하려면 최대 60 분까지 걸릴 수 있습니다. 
     
     프로세스가 완료 되 면 상태 대/소문자를 **eDiscovery** 페이지에서 **활성** 상태로 변경 됩니다. 
-    
-[Return to top](manage-ediscovery-cases.md#top)
   
 ## <a name="more-information"></a>추가 정보
 <a name="moreinfo_1"> </a>
@@ -536,12 +513,9 @@ Advanced eDiscovery에서 사례로 이동하려면
     
     마지막으로, 같이 이전 설명, 보안에서 eDiscovery 관리자 &amp; 준수 센터 고급 eDiscovery의 관리자로 자동으로 추가 됩니다. 즉, eDiscovery 관리자 인 사용자 사용자를 설정 하 고의 경우 만들기 (영문)의 경우에 데이터 추가 (영문)와 같은 고급 eDiscovery의 관리 작업을 수행할 수 있습니다.
     
-<<<<<<< HEAD
-- **콘텐츠 위치를 대기 시키려면 라이선스 요구 사항은 무엇입니까?** 조직에서는 Office 365 E3 구독을 필요로 하는 일반적으로 콘텐츠 위치를 대기 시키려면 이상입니다. 사서함을 대기 시키려면는 Exchange Online 계획 2 라이센스가 필요 합니다. 자세한 내용은이 [eDiscovery FAQ](https://support.office.com/article/9d1a29ae-b7b4-4a27-9c8c-84289023dcae#Q5)참조 하십시오. =======
 - **콘텐츠 위치를 대기 시키려면 라이선스 요구 사항은 무엇입니까?** 조직에서는 Office 365 E3 구독을 필요로 하는 일반적으로 콘텐츠 위치를 대기 시키려면 이상입니다. 사서함을 대기 시키려면는 Exchange Online 계획 2 라이센스가 필요 합니다. 자세한 내용은이 [FAQ](https://support.office.com/article/9d1a29ae-b7b4-4a27-9c8c-84289023dcae.aspx#Q5)를 참조 하십시오.
->>>>>>> deniseb 변환
-    
-- **다른 기능을 5 단계에서에서 모든 사례 콘텐츠를 검색 하는 방법에 대 한 알고 해야 합니까?** 앞에서 설명한 것으로 검색할 수 있습니다는 콘텐츠 위치에 배치 되는 경우에 유지 합니다. 이렇게 하면 대기 조건에 맞는 콘텐츠만 검색 됩니다. 대기 조건 없는 경우 모든 콘텐츠를 검색 합니다. 쿼리 기반에 내용이 하는 경우에를 모두 일치 하는 기준을 (4 단계에서에서 배치 보류)를 저장 하는 콘텐츠를 저장 하 고 (5 단계에서에서 검색)에서 검색 조건을 검색 결과 함께 반환 됩니다.
+
+- **다른 기능을 5 단계에서에서 모든 사례 콘텐츠를 검색 하는 방법에 대 한 알고 해야 합니까?** 앞에서 설명한 것 처럼 대/소문자에 보류에 배치 된 콘텐츠 위치를 검색할 수 있습니다. 이렇게 하면 대기 조건에 맞는 콘텐츠만 검색 됩니다. 대기 조건 없는 경우 모든 콘텐츠를 검색 합니다. 쿼리 기반에 내용이 하는 경우에를 모두 일치 하는 기준을 (4 단계에서에서 배치 보류)를 저장 하는 콘텐츠를 저장 하 고 (5 단계에서에서 검색)에서 검색 조건을 검색 결과 함께 반환 됩니다.
     
     모든 사례 콘텐츠를 검색할 때 주의 해야할 다른 사항도 사항은 다음과 같습니다.
     

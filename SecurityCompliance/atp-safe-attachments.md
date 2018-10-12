@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 description: 안전한 첨부 파일 기능이 전자 메일 첨부 파일의 클릭 시간 증명 정보를 제공 합니다. 조직 파일 악의적인 사용자 로부터 보호 하기 위해 사용 하 여 안전한 첨부 파일 보내기 또는 전자 메일을 받을 합니다.
-ms.openlocfilehash: 44a7aa56db6b19ac948184988c930841fc7ffb89
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: a43f5aac30f074f6331d809c800005596a721204
+ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454315"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25522269"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP 안전 하 게 보호 첨부 파일
 
