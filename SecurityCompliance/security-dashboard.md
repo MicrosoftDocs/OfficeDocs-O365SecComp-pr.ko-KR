@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 보호 상태를 검토 하 고를 보고 하 보안 경고 작업을 수행 합니다.
-ms.openlocfilehash: 9f301bb819ec9c5c072cacee9060ff0e9672f039
-ms.sourcegitcommit: d85fc77cba3a17d5ddf215e2f506f61b499e0cda
+ms.openlocfilehash: d124ce07fbd3eba633e8c1e844ef3f83fc8fd04f
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23839082"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552366"
 ---
 # <a name="security-dashboard-overview"></a>보안 대시보드 개요 (영문)
 

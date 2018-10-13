@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0a73d5fa-b2c8-43e7-9ed4-61f0552b1c98
 description: 위협 관리를 사용 하 여를 제어 하는 데 도움이 및 조직의 데이터에 대 한 모바일 장치 액세스를 관리 하 고, 조직에서 데이터 손실 보호 하 고 악성 소프트웨어와 스팸에서 인바운드 및 아웃 바운드 메시지를 보호 합니다. 또한 관리 하려면 도메인의 신뢰도 보호 하기 위해 및 보낸사람은 악의적으로 스푸핑 여부를 확인 하려면 도메인에서 계정을 위협을 사용 합니다.
-ms.openlocfilehash: 88b2727b76fad1e8d700f15717a8aeedea934093
-ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
+ms.openlocfilehash: df843ab95920d24af778a9edf31626f4d6b08cff
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011834"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552406"
 ---
 # <a name="threat-management-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안의 관리 위협 &amp; 준수 센터
 

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 description: 찾기 및 Office 365 엔터프라이즈와 조직에 대 한 전자 메일 보안 보고서를 사용 하는 방법에 알아봅니다. 전자 메일 보안 보고서는 보안에서 사용할 수 있는 &amp; 준수 센터입니다.
-ms.openlocfilehash: 0dd0c2ee7090e488d8619e71c6e4931f1934e9b0
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: ea5d60393809ef924d51435b695062fe51e772bd
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454345"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552396"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터
 
@@ -43,9 +43,12 @@ ms.locfileid: "25454345"
     
 - [사용자가 보고 메시지 보고서](view-email-security-reports.md#userreported) (새!) 
     
-## <a name="threat-protection-status-report-new"></a>위협 보호 상태 보고서 (새!)
+## <a name="threat-protection-status-report-new"></a>(새!) 보호 상태 보고서를 위협
 
 새로운 **위협 보호 상태** 보고서가 감지 및 Exchange Online Protection에 의해 차단 된 악의적인 전자 메일을 표시 하는 스마트 보고서입니다. 이 보고서는 맬웨어 또는 피싱 시도로 식별 된 전자 메일에 대 한 정보를 표시 합니다. 
+
+> [!NOTE]
+> 위협 보호 상태 보고서는 고객에 게 [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP);가 사용할 수 있는 그러나 ATP 고객에 대 한 위협 보호 상태 보고서에 표시 되는 정보 나타날 EOP 고객 보다 다양 한 데이터를 가능성이 포함 됩니다. 예, EOP 고객 맬웨어 전자 메일, 하지만 하지 [SharePoint Online, OneDrive, 또는 Microsoft 팀의 악의적인 파일을 검색](atp-for-spo-odb-and-teams.md)하는 방법에 대 한 정보, ATP 관련 기능에서 검색 하는 방법에 대 한 정보를 볼 수 있습니다. ([ATP 보고서에 대 한 자세한 설명](view-reports-for-atp.md)입니다.)
   
 보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
   
@@ -176,8 +179,8 @@ ms.locfileid: "25454345"
   
 |**Default management role assignments for this role**|**할당 된 경우**|**자세한 정보**|
 |:-----|:-----|:-----|
-| 다음 중 하나가 필요합니다.  <br/>  조직 관리  <br/>  보안 관리자  <br/>  보안 읽기 권한자  <br/> |보안 &amp; 준수 센터  <br/> |[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md) <br/> |
-| 다음 중 하나가 필요합니다.  <br/>  조직 관리  <br/>  보기 전용 조직 관리  <br/>  보기 전용 받는 사람에 게 역할  <br/>  Compliance Management  <br/> |Exchange 관리 센터  <br/> |[Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/jj200673%28v=exchg.150%29.aspx) <br/> |
+| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>--보안 관리자  <br/>--보안 읽기 권한자  <br/> |보안 &amp; 준수 센터  <br/> |[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md) <br/> |
+| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>-보기 전용 조직 관리  <br/>-역할인 받는 사람에 게 역할  <br/>-규정 준수 관리  <br/> |Exchange 관리 센터  <br/> |[Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/jj200673%28v=exchg.150%29.aspx) <br/> |
    
 ## <a name="what-if-the-reports-arent-showing-data"></a>경우에 어떻게 보고서 데이터를 표시 하지?
 

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 description: Word, Excel, PowerPoint 및 Visio 파일에는 물론 전자 메일 메시지에 악의적인 링크를 통해 조직을 보호 하기 위해 안전한 링크 정책을 설정 합니다.
-ms.openlocfilehash: 9110fce9a6eb53832707de6235b79100e10c9b8a
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: 6c4e208e9f944d9c38d43b5669167e0cf425ec39
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454335"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552346"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -49,7 +49,7 @@ ms.locfileid: "25454335"
     
 ## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>2 단계: 정의 (또는 검토) 모든 사람에 게 적용 되는 ATP 안전한 링크 정책
 
-Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직에서 모든 사용자에 게 적용 되는 기본 ATP 안전한 링크 정책을 해야 합니다. 
+Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직에서 모든 사용자에 게 적용 되는 기본 ATP 안전한 링크 정책을 해야 합니다. 검토 하려면 다음을 확인 하 고 필요한 경우 기본 정책 편집 합니다.
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
@@ -67,7 +67,7 @@ Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직�
     
 ## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>3 단계: 추가 (또는 편집) 특정 전자 메일 받는 사람에 게 적용 되는 ATP 안전한 링크 정책
 
-모든 사용자에 대 한 ATP 안전한 링크 정책의 검토 한 후에 전자 메일 받는 사람에 게의 특정 그룹에 대 한 추가 정책을 정의 하는 것이 좋습니다. 이 옵션을 사용 하면 기본 정책에 대 한 예외를 지정할 수 있습니다. 
+하거나 한 후 검토 (편집) 모든 사람에 게 적용 되는 기본 ATP 안전한 링크 정책, 특정 받는 사람에 게 적용 되는 추가 정책을 정의 하 여 다음 단계가입니다. 예, 추가 정책을 정의 하 여 기본 정책 예외를 지정할 수 있습니다. 
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     

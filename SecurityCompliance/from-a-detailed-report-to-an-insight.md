@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: d2104778-f0a1-4b69-baf3-c4b32e98a573
 description: 어떻게 이동할 수 대 한 자세한 보고서에서 보안에서 권장된 작업으로는 정보를 설명 &amp; 준수 센터입니다.
-ms.openlocfilehash: c89026284b2351b1beae4fa087db81c2763ae241
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: be2af8916f70f9cf9fbacfcad8d26819c5001014
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533194"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552376"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>연습 - 자세한 보고서에서 통찰력에 이르기까지
 

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 4a76c6a5b888142dc4c35af432fa61916145d648
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: 1a0ecb9a6722deb50a491a15f720481a5bb7b0a4
+ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454305"
+ms.lasthandoff: 10/13/2018
+ms.locfileid: "25552336"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
@@ -29,9 +29,12 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
   
 ## <a name="threat-protection-status-report"></a>위협 보호 상태 보고서
 
-**위협 보호 상태** 보고서에는 함께 악의적인 콘텐츠 및 악의적인 전자 메일 감지 및 Exchange Online 및 고급 위협 보호에 의해 차단 하는 방법에 대 한 정보를 제공 하는 단일 보기입니다. 보고서에서 제공 하는 집계 된 횟수가 악의적인 콘텐츠가 포함 된 (파일 또는 Url) 맬웨어 방지 엔진, [0-시간 자동 삭제 (ZAP)](zero-hour-auto-purge.md), 및 [ATP 안전한 링크](atp-safe-links.md), [ATP 등의 고급 위협 보호 기능에 의해 차단 되는 고유한 전자 메일 메시지 안전한 첨부 파일](atp-safe-attachments.md), 및 [Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md)입니다.
+**위협 보호 상태** 보고서에는 함께 악의적인 콘텐츠 및 악의적인 전자 메일 감지 및 [Exchange Online Protection](eop/exchange-online-protection-overview.md) (EOP) 및 [Office 365 ATP](office-365-atp.md)에 의해 차단 하는 방법에 대 한 정보를 제공 하는 단일 보기입니다. 보고서에서 제공 하는 집계 된 횟수가 악의적인 콘텐츠가 포함 된 (파일 또는 웹사이트 주소 (Url)) 맬웨어 방지 엔진, [0-시간 자동 삭제 (ZAP)](zero-hour-auto-purge.md), 및 [ATP 안전한 링크](atp-safe-links.md), [ATP 안전 하 게 보호 등의 ATP 기능에 의해 차단 되는 고유한 전자 메일 메시지 첨부 파일](atp-safe-attachments.md), [ATP 피싱 방지 기능](atp-anti-phishing.md)을 합니다.
+
+> [!NOTE]
+> 위협 보호 상태 보고서는 고객에 게 [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP);가 사용할 수 있는 그러나 ATP 고객에 대 한 위협 보호 상태 보고서에 표시 되는 정보 나타날 EOP 고객 보다 다양 한 데이터를 가능성이 포함 됩니다. 예, ATP 고객에 대 한 위협 보호 상태 보고서에는 [SharePoint Online, OneDrive, 또는 Microsoft 팀의 악의적인 파일을 검색](atp-for-spo-odb-and-teams.md)하는 방법에 대 한 정보가 포함 됩니다. 이러한 정보 ATP, 특정 이므로 고객은 EOP 하지만 ATP 하지는 자신의 위협 보호 상태 보고서에서 해당 정보를 표시 되지 것입니다.
   
-보안에서 위협 보호 상태 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
+보안에 위협 보호 상태 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
   
 ![ATP 위협 보호 상태 보고서](media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
   
@@ -73,9 +76,16 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
   
 ## <a name="additional-reports-to-view"></a>추가 보고서를 보려면
 
-이 문서에 설명 된 ATP 보고서 외에도 [전자 메일 보안 보고서](view-email-security-reports.md) 는 보안에서 사용할 수 있는 &amp; 준수 센터입니다. 전자 메일 보안 보고서에는 [위쪽 보낸사람 및 받는 사람에 게 보고서](view-email-security-reports.md#top-senders-and-recipients-report), [스푸핑 메일 보고서](view-email-security-reports.md#spoof-mail-report), [스팸 감지 보고서](view-email-security-reports.md#spam-detections-report)등의 포함 됩니다.
-  
-및 조직에 [Office 365 위협 인텔리전스](office-365-ti.md)있으면 수도 있습니다 [보안에서 사용 하 여 탐색기 &amp; 준수 센터](use-explorer-in-security-and-compliance.md)합니다.
+다음 표에 설명 된 대로이 문서에 설명 된 ATP 보고서 외에도 다른 여러 보고서를를 사용할 수 있습니다.
+
+
+|보고서 유형  |자세한 정보  |
+|---------|---------|
+|**전자 메일 보안 보고서**와 같은, 위쪽 보낸사람 및 받는 사람에 게 보고서, 스푸핑 메일 보고서 및 스팸이 감지 된 보고서입니다. | [보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터](view-email-security-reports.md)        |
+|**탐색기** (위협 탐색기 라고도 함,이에 포함 된 [Office 365 위협 인텔리전스](office-365-ti.md))     | [탐색기를 사용 하 여 보안에서 &amp; 준수 센터](use-explorer-in-security-and-compliance.md)        |
+|**EOP 및 ATP 결과** (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서 임). 이 보고서에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수와 같은 정보를 포함합니다.  | [Get MailTrafficATPReport cmdlet 참조 (영문)](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |
+|**EOP 및 ATP 감지** (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서 임). 이 보고서는 악의적인 파일 또는 Url, 피싱 시도, 가장, 및 전자 메일 또는 파일에 대 한 기타 잠재적 위협에 대 한 세부 정보를 포함합니다.   | [Get MailDetailATPReport cmdlet 참조 (영문)](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport?view=exchange-ps)        |
+
   
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>사용 권한은 ATP 보고서를 보려면 필요 합니까?
 
@@ -83,12 +93,12 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
   
 |**Default management role assignments for this role**|**할당 된 경우**|**자세한 정보**|
 |:-----|:-----|:-----|
-| 다음 중 하나가 필요합니다.  <br/>  조직 관리  <br/>  보안 관리자  <br/>  보안 읽기 권한자  <br/> |보안 &amp; 준수 센터  <br/> |[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md) <br/> |
-| 다음 중 하나가 필요합니다.  <br/>  조직 관리  <br/>  보기 전용 조직 관리  <br/>  보기 전용 받는 사람에 게 역할  <br/>  Compliance Management  <br/> |Exchange 관리 센터  <br/> |[Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/jj200673%28v=exchg.150%29.aspx) <br/> |
+| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>--보안 관리자  <br/>--보안 읽기 권한자  <br/> |보안 &amp; 준수 센터  <br/> |[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md) <br/> |
+| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>-보기 전용 조직 관리  <br/>-역할인 받는 사람에 게 역할  <br/>-규정 준수 관리  <br/> |Exchange 관리 센터  <br/> |[Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/jj200673%28v=exchg.150%29.aspx) <br/> |
    
 ## <a name="what-if-the-reports-arent-showing-data"></a>경우에 어떻게 보고서 데이터를 표시 하지?
 
-보고서에서 데이터를 나타나지 않는 경우 정책에 올바르게 설정 하는 다시 확인 하십시오. 조직 전체에 포함 되도록 [ATP 안전한 링크 정책](set-up-atp-safe-links-policies.md) 및 ATP 보호에 대 한 순서에 정의 된 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 있어야 합니다. 또한 [Office 365의 스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)을 참조 하십시오.
+ATP 보고서의 데이터를 나타나지 않는 경우 정책에 올바르게 설정 하는 다시 확인 하십시오. 조직 전체에 포함 되도록 [ATP 안전한 링크 정책](set-up-atp-safe-links-policies.md) 및 ATP 보호에 대 한 순서에 정의 된 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 있어야 합니다. 또한 [Office 365의 스팸 방지 및 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)을 참조 하십시오.
   
 ## <a name="related-topics"></a>관련 항목
 
