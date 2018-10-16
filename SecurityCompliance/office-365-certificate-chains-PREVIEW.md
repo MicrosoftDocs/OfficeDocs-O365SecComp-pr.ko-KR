@@ -7,18 +7,19 @@ ms.date: 6/26/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
+ROBOTS: NOINDEX, NOFOLLOW
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: Ent_O365
 ms.assetid: 0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
 description: Office 365 기술을 활용 하는 다른 인증서 공급자의 수입니다. 다음은 고객이 Office 365에 액세스할 때 발생할 수 있는 알려진된 Office 365 루트 인증서의 전체 목록에 대 한 설명입니다. 인증서에 대 한 정보 직접 인프라에 설치 Office 365 용 타사 SSL 인증서에 대 한 계획을 참조 하십시오 해야할 수 있습니다. 다음 인증서 정보는 Office 365의 모든 전세계 및 국가 클라우드 인스턴스에 적용 됩니다.
-ms.openlocfilehash: 1dcc2dc38bb8e3239a3be3983791b0c60917dc5e
-ms.sourcegitcommit: 13f40ff7c1799152bf45af2d8110f4f3235b770a
+ms.openlocfilehash: 97e00833e57f8f6b7352650b0efdef51ddba77fa
+ms.sourcegitcommit: 659b5f5b38ef7e838cdb44eaa38c18e48d922768
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25549765"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25575362"
 ---
 # <a name="office-365-certificate-chains"></a>Office 365 인증서 체인
 

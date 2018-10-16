@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 권한 하는 방법에 대 한 자세한 내용은 Office 365의에서 관리 기능에 액세스
-ms.openlocfilehash: 07e1f9090418e4261fef188ceb109c1b8083d34c
-ms.sourcegitcommit: c168410974bc90aaf55f1dcaa9e05c09b2b78d76
+ms.openlocfilehash: e92bbecd5957261c1eaf3088d872ae6572b7f235
+ms.sourcegitcommit: 659b5f5b38ef7e838cdb44eaa38c18e48d922768
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011864"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25575342"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Office 365의에서 관리 기능에 액세스 권한
 
@@ -31,7 +31,7 @@ ms.locfileid: "25011864"
 
 액세스 권한이 부여 된 관리는 Office 365 보안 아키텍처 내의 다른 데이터 및 액세스 기능 보호를 보완 합니다. 보안에는 통합 된 접근 방법의 일부로 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 조직 보호를 계층화 된 보안 모델의 중요 한 정보 및 Office 365 구성 설정을 보호 최대화 하기 위해 사용할 수 있습니다. 표시 된 것 처럼 수 있도록 아래 다이어그램에 권한이 부여 된 액세스 관리를 통해 Office 365 데이터의 기본 암호화 및 Office 365 서비스의 역할 기반 액세스 제어 보안 모델 제공 하는 보호에 작성 합니다. [Azure AD 권한 있는 Id 관리](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)와 함께 사용 하면 이러한 두 기능은 다양 한 범위에서 적시에 액세스할 수 있는 액세스 제어를 제공 합니다.
 
-![Office 365의 계층화 된 보호](media/pam-layered-protection.jpg)
+![Office 365의 계층화 된 보호](media/pam-layered-protection.png)
 
 액세스 권한이 부여 된 Office 365의 관리를 정의 하 고 여러 작업을 실행 하는 기능 **역할** 수준에서 보호를 적용 하는 Azure AD 권한 있는 Id 관리 하는 동안 **작업** 수준으로 범위가 지정 수 있습니다.  Office 365의 관리 작업 수준 에서만 적용 권한에 액세스 하는 동안를 azure AD 권한 Id 관리 주로 AD 역할과 역할 그룹에 대 한 액세스를 관리할 수 있습니다.
 

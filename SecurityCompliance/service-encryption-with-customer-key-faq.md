@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 41ae293a-bd5c-4083-acd8-e1a2b4329da6
 description: 초기 계획 BitLocker 및 배포 된 키 관리자 (DKM)을 통해 사용할 수 있는 볼륨 수준 암호화 외에도 Office 365 제공 추가 Exchange에서 데이터를 포함 하 여 Office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에서 암호화 계층 온라인으로 비즈니스, SharePoint Online, 및 비즈니스용 OneDrive에 대 한 Skype 합니다. 이 서비스 암호화를 라고 합니다.
-ms.openlocfilehash: 38731d22b78274e42b0886c41884a0395d8df69f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: ceba35233872bb65b7706ed4e11a263057adc6c1
+ms.sourcegitcommit: 659b5f5b38ef7e838cdb44eaa38c18e48d922768
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22559243"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25575332"
 ---
 # <a name="service-encryption-with-customer-key-for-office-365-faq"></a>Office 365의 고객 키를 사용한 서비스 암호화 FAQ
 
@@ -29,8 +29,8 @@ ms.locfileid: "22559243"
   
 ## <a name="what-is-service-encryption-with-customer-key"></a>고객 키를 사용 하 여 서비스 암호화 란?
 
-고객 키는 프로 비전 하 고 Office 365의 보관 된 데이터를 암호화 하는데 사용 되는 키를 관리 하는데 사용할 수 있는 기능입니다. Office 365 Exchange 및 SharePoint에서 수행 되는 암호화 되는 서비스 암호화를 활용 하는 기능 합니다. 서비스 암호화를 사용 하면 어떤 BitLocker를 제공할 수-즉, 큰-방어 공격자 로부터 이외 이점이 있습니다. 서비스 암호화 강력한 대책 이면 공격자가 고객 데이터에 대 한 액세스에 대 한 모든 요청을 처리 하는 데 사용 되는 Office 365 액세스 제어 시스템을 사용 하지 않도록 합니다. 즉, 서비스 암호화 의미 서버 관리자가 제어 없는 또는 암호화에 대 한 짝수 액세스 키 및 BitLocker와는 달리 암호화를 비활성화할 수 없습니다. 따라서 공격자가 서비스 암호화를 사용 하 여 암호화 된 고객 데이터를 호스팅하는 서버에 대 한 관리 액세스와 고객 데이터를 읽을 수 없습니다 및 암호화 된 데이터를 다른 서버로 복사 하는 경우에 사용할 수 없게 유지 됩니다. 
-  
+고객 키의 주요 준비 클라우드 서비스 공급자를 지정 하는 규정 준수 요구 사항 요구 사항을 만족 하는 조직의의 기능을 향상 시킵니다. 고객 키를 사용 하 제공 하 고 프로그램 Office 365 데이터에서-나머지 응용 프로그램 수준에 대 한 암호화 키를 제어 합니다. 결과적으로 제어를 실행 하는 및 서비스를 종료 하려는 조직의 키를 취소할 수 있습니다. 키를 취소 하 여 데이터 서비스에 읽을 수 있는있지 않습니다. 주요 해지는 데이터 삭제 향해 경로에서 첫번째 단계입니다.
+
 ## <a name="what-office-365-data-at-rest-is-covered-by-customer-key"></a>고객 키에 포함 되는 나머지 부분에서 Office 365 데이터?
 <a name="WhatDataIsCoveredbyCustomerKey"> </a>
 

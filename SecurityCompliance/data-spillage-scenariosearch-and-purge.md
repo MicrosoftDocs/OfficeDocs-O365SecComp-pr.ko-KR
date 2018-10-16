@@ -3,7 +3,7 @@ title: eDiscovery 솔루션 계열 데이터 액체 엎질렀는지 여부 시�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 관리 하 고 조직에서 문제가 발생 한 데이터 액체 엎질렀는지 여부에 응답 합니다.
-ms.openlocfilehash: 4da8efdb6f5d129e08d85f9b6c94726a7d099cb3
-ms.sourcegitcommit: dd58ed6fd424272e361bc3c109ecd6d63d673048
+ms.openlocfilehash: d2c5a0a6efcc75a38df97c7c597503e5642f83eb
+ms.sourcegitcommit: 659b5f5b38ef7e838cdb44eaa38c18e48d922768
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "25566879"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25575352"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 액체 엎질렀는지 여부 시나리오-검색 및 삭제
 
