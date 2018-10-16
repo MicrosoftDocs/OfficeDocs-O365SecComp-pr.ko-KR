@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: 다양 한 유형의 Office 365 사서함에 배치할 수 있는 보류를 식별 하는 방법에 알아봅니다. 이러한 유형의 보류 소송 보존으로 설정, eDiscovery 보류 및 Office 365 보존 정책에 포함 됩니다. 사용자는 조직 전체의 보존 정책에서 제외 되었는지 하는 경우 확인할 수 있습니다.
-ms.openlocfilehash: 375bd86df370fe34fbe59f6581836da7e9d06515
-ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
+ms.openlocfilehash: 821ec2a8be9ecd89a13ad9ad0378bc6e24fcee1e
+ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965265"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25577077"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -172,7 +172,7 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 ## <a name="managing-mailboxes-on-delay-hold"></a>지연 관리 사서함 보류
 
-모든 유형의 대기 사서함에서 제거 되 면 후 *DelayHoldApplied* 사서함 속성의 값을 **True**로 설정 됩니다. *지연 유지* 라고 하 고 영구적으로 삭제 되 고에서 데이터를 방지 하기 위해 30 일 동안 보류의 실제 제거 배달이 지연 된 것을 의미이 사서함에서 (비우기). 이렇게 admins를 검색 하거나 경과한 후 보존이 제거 실제로 사서함 항목을 복구 합니다. 지연 보류의 사서함에 배치 되 면 때 사서함은 여전히 사서함에 소송 보존으로 설정 된 하는 경우으로 대기는 무제한 기간에 대 한 것으로 간주 됩니다. 30 일 후 지연 보류 만료 되 면 및 Office 365 됩니다 ( *DelayHoldApplied* 속성을 **False**로 설정) 하 여 지연 보류를 제거 하려고 자동으로 보류를 실제로 제거할 수 있도록 합니다. *DelayHoldApplied* 속성을 **False**로 후 제거를 위해 표시 된 항목을 사서함 관리 되는 폴더 도우미에 의해 처리 되는 다음에 제거 됩니다.
+모든 유형의 대기 사서함에서 제거 되 면 후 *DelayHoldApplied* 사서함 속성의 값을 **True**로 설정 됩니다. 이 관리 되는 폴더 도우미는 사서함을 처리 하 고 보류 제거 된 감지 다음에 발생 합니다. *지연 유지* 라고 하 고 영구적으로 삭제 되 고에서 데이터를 방지 하기 위해 30 일 동안 보류의 실제 제거 배달이 지연 된 것을 의미이 사서함에서 (비우기). 이렇게 admins를 검색 하거나 경과한 후 보존이 제거 실제로 사서함 항목을 복구 합니다. 지연 보류의 사서함에 배치 되 면 때 사서함은 여전히 사서함에 소송 보존으로 설정 된 하는 경우으로 대기는 무제한 기간에 대 한 것으로 간주 됩니다. 30 일 후 지연 보류 만료 되 면 및 Office 365 됩니다 ( *DelayHoldApplied* 속성을 **False**로 설정) 하 여 지연 보류를 제거 하려고 자동으로 보류를 실제로 제거할 수 있도록 합니다. *DelayHoldApplied* 속성을 **False**로 후 제거를 위해 표시 된 항목을 사서함 관리 되는 폴더 도우미에 의해 처리 되는 다음에 제거 됩니다.
 
 사서함에 대 한 *DelayHoldApplied* 속성에 대 한 값을 보려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 

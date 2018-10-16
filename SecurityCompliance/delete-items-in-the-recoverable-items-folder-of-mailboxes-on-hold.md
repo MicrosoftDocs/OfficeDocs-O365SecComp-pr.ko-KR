@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자를 위한: 해당 사서함이 법적 보유 중일 경우에 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이것이 Office 365에 실수로 넘어가 되는 데이터를 삭제할 수 있는 효과적인 방법입니다.'
-ms.openlocfilehash: 9174e953ebdd7f0032f411b99a814aeacd880a1e
-ms.sourcegitcommit: dd58ed6fd424272e361bc3c109ecd6d63d673048
+ms.openlocfilehash: a10965ad088da98b4e4d84d823c124e5b192d505
+ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "25566889"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25577087"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>관리자 도움말 대기-클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -245,22 +245,22 @@ EDiscovery 사례와 보류의 이름을 결정 했다면, 한 후 이동은 **�
   
 ## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>4 단계: 사서함에서 지연 보류를 제거 합니다.
 
-모든 유형의 대기 사서함에서 제거 되 면 후 *DelayHoldApplied* 사서함 속성의 값을 **True**로 설정 됩니다. *지연 유지* 라고 하 고 영구적으로 삭제 되 고에서 데이터를 방지 하기 위해 30 일 동안 보류의 실제 제거 배달이 지연 된 것을 의미이 사서함에서 (비우기).   지연 보류의 사서함에 배치 되 면 때 사서함은 여전히 사서함에 소송 보존으로 설정 된 하는 경우으로 대기는 무제한 기간에 대 한 것으로 간주 됩니다. (지연 보류의 용도 admins를 검색 하거나 경과한 보류에서 제거 된 후 사서함 항목을 복구할 수 있도록 합니다.) 30 일 후 지연 시간을 누르고 하 Noe 만료 되 면 및 Office 365 됩니다 ( *DelayHoldApplied* 속성을 **False**로 설정) 하 여 지연 보류를 제거 하려고 자동으로 보류를 실제로 제거할 수 있도록 합니다. 
+모든 유형의 대기 사서함에서 제거 되 면 후 *DelayHoldApplied* 사서함 속성의 값을 **True**로 설정 됩니다. 이 관리 되는 폴더 도우미는 사서함을 처리 하 고 보류 제거 된 감지 다음에 발생 합니다. 이 *지연 유지* 라고 하 고 사서함에서 영구적으로 삭제 되 고에서 데이터를 방지 하기 위해 30 일 동안 보류의 실제 제거 배달이 지연 것을 의미 합니다. (지연 보류의 용도 admins를 검색 하거나 경과한 보류에서 제거 된 후 사서함 항목을 복구할 수 있도록 합니다.)  지연 보류의 사서함에 배치 되 면 때 사서함은 여전히 사서함에 소송 보존으로 설정 된 하는 경우으로 대기는 무제한 기간에 대 한 것으로 간주 됩니다. 30 일 후 지연 보류 만료 되 면 및 Office 365 됩니다 ( *DelayHoldApplied* 속성을 **False**로 설정) 하 여 지연 보류를 제거 하려고 자동으로 보존이 실제로 제거 되도록 합니다. 
 
-5 단계에서에서 항목을 삭제 하기 전에 사서함에서 지연 보류를 제거 해야 합니다. 다음 명령을 실행 Exchange Online PowerShell 지연 보류를 제거 하려면: 
- 
-```
-Set-Mailbox <username> -RemoveDelayHoldApplied
-```
-할당 되어야 합니다 법적 보존 역할 Exchange 온라인 *RemoveDelayHoldApplied* 매개 변수를 사용 하 여 note 합니다.
-
-지연 대기 파일이 제거를 확인 하려면 다음 명령을 실행 합니다.
+5 단계에서에서 항목을 삭제 하기 전에 사서함에서 지연 보류를 제거 해야 합니다. 먼저, 지연 대기 Exchange Online PowerShell에서 다음 명령을 실행 하 여 사서함에 적용 하는 경우를 결정 합니다.
 
 ```
 Get-Mailbox <username> | FL DelayHoldApplied
 ```
 
-*DelayHoldApplied* 속성에 대 한 값 **False** 지연 제거 되었음을 나타냅니다.
+*DelayHoldApplied* 속성 값은 **False**로 설정 하는 경우 지연 보류 사서함에 배치 된 되지 않았습니다. 단계 5로 이동 하 고 복구 가능한 항목 폴더에서 항목을 삭제 수 있습니다.
+
+*DelayHoldApplied* 속성 값은 **True**로 설정 하는 경우에 지연 보류를 제거 하려면 다음 명령을 실행 합니다.
+
+```
+Set-Mailbox <username> -RemoveDelayHoldApplied
+```
+할당 되어야 합니다 법적 보존 역할 Exchange 온라인 *RemoveDelayHoldApplied* 매개 변수를 사용 하 여 note 합니다.
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>복구 가능한 항목 폴더에서 항목을 삭제 하는 5 단계:
 
