@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 관리 하 고 조직에서 문제가 발생 한 데이터 액체 엎질렀는지 여부에 응답 합니다.
-ms.openlocfilehash: 2bf17923408bd5cf8325d27a38595331d169906f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 4da8efdb6f5d129e08d85f9b6c94726a7d099cb3
+ms.sourcegitcommit: dd58ed6fd424272e361bc3c109ecd6d63d673048
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533006"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "25566879"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 액체 엎질렀는지 여부 시나리오-검색 및 삭제
 
@@ -159,6 +159,8 @@ EDiscovery 사례와 연결 된 검색 만들기 콘텐츠를 [Office 365 보안
 - 참조 "2 단계: 사서함 준비"에 대 한 단일 항목 복구를 사용 하지 않도록 설정 하는 방법에 대 한 자세한 내용 [은 폴더에 있는 클라우드 기반 사서함의 대기 복구 가능한 항목에서 항목을 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-2-prepare-the-mailbox) 합니다. 
     
 - 참조 "3 단계: 사서함에서 모든 보류를 제거"에 대 한 사서함에서 보류 또는 보존 정책을 제거 하는 방법에 대 한 자세한 내용 [은 폴더에 있는 클라우드 기반 사서함의 대기 복구 가능한 항목에서 항목을 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-3-remove-all-holds-from-the-mailbox) 합니다. 
+
+- 참조 "4 단계: 사서함에서 유지 하는 지연 제거"에 대 한 모든 유형의 보류에서 제거 된 후 사서함에 배치 되는 지연 보류를 제거 하는 방법에 대 한 자세한 내용 [은 폴더에 있는 클라우드 기반 사서함의 대기 복구 가능한 항목에서 항목을 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-4-remove-the-delay-hold-from-the-mailbox) 합니다.
     
  **중요:** 보류 또는 보존 정책을 제거 하기 전에 레코드 관리 또는 법률 부서를 확인 합니다. 조직에서 사서함에 보존 여부를 정의 하는 정책을 이미 또는 데이터 액체 엎질렀는지 여부 문제가 발생 한 설정이 우선 합니다. 
   
@@ -168,7 +170,7 @@ Spilled 데이터 영구적으로 삭제 되었는지 확인 한 후 이전 구�
 
 수집 하 고 6 단계 및 검색 쿼리 생성 되어 spilled 데이터를 포함 하는 전자 메일 메시지를 찾으려면 3 단계에서에서 구체화를 준비 하는 사서함 위치를 사용 하 여 지금 영구적으로 삭제할 수 spilled 데이터. 앞에서 설명한 것 처럼 사서함 가져오기 내보내기 역할 Exchange Online에 할당한 다음 절차를 사용 하 여 메시지를 삭제 해야 합니다.
   
-1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=396554)합니다.
+1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/?linkid=396554).
     
 2. 다음 명령을 실행합니다.
     
@@ -198,7 +200,7 @@ Spilled 데이터 영구적으로 삭제 되었는지 확인 한 후 이전 구�
   
 ### <a name="reverting-the-mailboxes-to-their-previous-state"></a>사서함을 이전 상태로 되돌리는
 
-Spilled 데이터를 삭제 하기 직전에 사서함을 준비 하려면 6 단계에서에서 모든 사서함 구성을 변경 하는 경우에 이전 상태로 되돌리려면 해야 합니다. 참조 "5 단계: 사서함을 이전 상태로 되돌리기"에서 [복구 가능한 항목 폴더에 있는 클라우드 기반 사서함의 보류에서 항목을 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-5-revert-the-mailbox-to-its-previous-state)합니다.
+Spilled 데이터를 삭제 하기 직전에 사서함을 준비 하려면 6 단계에서에서 모든 사서함 구성을 변경 하는 경우에 이전 상태로 되돌리려면 해야 합니다. 참조 "6 단계: 사서함을 이전 상태로 되돌리기"에서 [복구 가능한 항목 폴더에 있는 클라우드 기반 사서함의 보류에서 항목을 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-6-revert-the-mailbox-to-its-previous-state)합니다.
   
 ### <a name="deleting-the-search-query"></a>검색 쿼리를 삭제합니다.
 

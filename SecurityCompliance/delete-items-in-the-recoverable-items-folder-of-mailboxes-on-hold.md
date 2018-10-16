@@ -3,7 +3,7 @@ title: 관리자 도움말 대기-클라우드 기반 사서함의 복구 가능
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 9/21/2017
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자를 위한: 해당 사서함이 법적 보유 중일 경우에 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이것이 Office 365에 실수로 넘어가 되는 데이터를 삭제할 수 있는 효과적인 방법입니다.'
-ms.openlocfilehash: c984bcaa35a9bc7bc30e11d68ba8f7f0ce75b64d
-ms.sourcegitcommit: 31e0d94244c76a9f5118efee8bbc93395d080f91
+ms.openlocfilehash: 9174e953ebdd7f0032f411b99a814aeacd880a1e
+ms.sourcegitcommit: dd58ed6fd424272e361bc3c109ecd6d63d673048
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2018
-ms.locfileid: "23796884"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "25566889"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>관리자 도움말 대기-클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -33,16 +33,18 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더에서 실수
 
 [3 단계: 사서함에서 모든 보류를 제거 합니다.](#step-3-remove-all-holds-from-the-mailbox)
 
-[복구 가능한 항목 폴더에서 항목을 삭제 하는 4 단계:](#step-4-delete-items-in-the-recoverable-items-folder)
+[4 단계: 사서함에서 지연 보류를 제거 합니다.](#step-4-remove-the-delay-hold-from-the-mailbox)
 
-[5 단계: 사서함을 이전 상태로 되돌리기](#step-5-revert-the-mailbox-to-its-previous-state)
+[복구 가능한 항목 폴더에서 항목을 삭제 하는 5 단계:](#step-5-delete-items-in-the-recoverable-items-folder)
+
+[6 단계: 사서함을 이전 상태로 되돌리기](#step-6-revert-the-mailbox-to-its-previous-state)
   
 > [!CAUTION]
 > 이 문서에 설명 된 절차 될 되는 데이터 영구적으로 삭제 (비우기)에서 Exchange Online 사서함 수 있습니다. 즉, 메시지 복구 가능한 항목 폴더에서 삭제를 복구할 수 없는 및 법적 개시 또는 기타 준수 용도로 사용할 수 없습니다. 원본 위치 유지는 소송 보존의 일환으로 보류에 추가 되는 사서함에서 메시지를 삭제 하려는 경우 eDiscovery 보류 또는 Office 365 보안에서 Office 365 보존 정책을 만든 &amp; 준수 센터, 레코드 관리 또는 법률 확인 보류를 제거 하기 전에 부서 합니다. 조직에 사서함에 보존 여부를 정의 하는 정책을 사용할 수 있습니다 또는 데이터 액체 엎질렀는지 여부 문제가 발생 한 설정이 우선 합니다. 
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 다음 관리 역할을 모두 Exchange Online에 할당할를 검색 하 고 4 단계에서에서 복구 가능한 항목 폴더에서 메시지를 삭제 해야 합니다.
+- 다음 관리 역할을 모두 Exchange Online에 할당할를 검색 하 고 5 단계에서에서 복구 가능한 항목 폴더에서 메시지를 삭제 해야 합니다.
     
   - **사서함 검색** -이 역할을 사용 하면 조직에서 사서함을 검색할 수 있습니다. Exchange 관리자가 기본적으로이 역할을 할당 되지 않습니다. 사용자가 직접이 역할을 할당 하려면 추가 자신 검색 관리 역할 그룹의 구성원으로 Exchange Online 합니다. 
     
@@ -56,13 +58,13 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더에서 실수
   
 ## <a name="step-1-collect-information-about-the-mailbox"></a>1 단계: 사서함에 대 한 정보를 수집 합니다.
 
-이 첫번째 단계가이 절차에 영향을 주는 대상 사서함에서 선택 된 속성을 수집 하는 것입니다. 이러한 설정을 기록해 또는 이러한 속성 중 일부를 변경 하 고 복구 가능한 항목 폴더에서 항목을 삭제 한 후 5 단계에서에서 원래 값으로 다시 만든 다음 되돌릴 수 있으므로 텍스트 파일에 저장 해야 합니다. 다음은 수집 해야하는 사서함 속성의 목록입니다.
+이 첫번째 단계가이 절차에 영향을 주는 대상 사서함에서 선택 된 속성을 수집 하는 것입니다. 이러한 설정을 기록해 또는 이러한 속성 중 일부를 변경 하 고 복구 가능한 항목 폴더에서 항목을 삭제 한 후 다음 6 단계에서에서 원래 값으로 다시 되돌릴 수 있으므로 텍스트 파일에 저장 해야 합니다. 다음은 수집 해야하는 사서함 속성의 목록입니다.
   
 -  *SingleItemRecoveryEnabled* 및 *RetainDeletedItemsFor* ; 필요한 경우 단일 복구를 사용 하지 않도록 설정 하 고 3 단계에서에서 삭제 된 항목 보존 기간을 늘립니다. 
     
 -  *LitigationHoldEnabled* 및 *InPlaceHolds* ; 3 단계에서에서 일시적으로 제거할 수 있도록 사서함에 배치 하는 모든 보류를 식별 해야 합니다. 사서함에 배치 될 수 있는 형식 보류를 식별 하는 방법에 대 한 팁에 대 한 [자세한 내용](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#moreinfo) 은 섹션을 참조 하십시오. 
     
-또한 있도록 가져옵니다. 사서함 클라이언트 액세스 설정을 해제할 수 있습니다 일시적으로 소유자 (또는 다른 사용자에 게) 하는 동안이 절차는 사서함에 액세스할 수 없습니다 있도록 필요 합니다. 마지막으로 복구 가능한 항목 폴더의 현재 크기 및 항목 수를 얻을 수 있습니다. 4 단계에서에서 복구 가능한 항목 폴더에서 항목을 삭제 한 후이 정보를 사용 하 여 실제로 제거 된 항목을 확인 하기 위해 표시 됩니다.
+또한 있도록 가져옵니다. 사서함 클라이언트 액세스 설정을 해제할 수 있습니다 일시적으로 소유자 (또는 다른 사용자에 게) 하는 동안이 절차는 사서함에 액세스할 수 없습니다 있도록 필요 합니다. 마지막으로 복구 가능한 항목 폴더의 현재 크기 및 항목 수를 얻을 수 있습니다. 5 단계에서에서 복구 가능한 항목 폴더에서 항목을 삭제 한 후이 정보를 사용 하 여 실제로 제거 된 항목을 확인 하기 위해 표시 됩니다.
   
 1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=396554)합니다. Exchange Online에서 적절 한 관리 역할 할당 된 관리자 계정에 대 한 사용자 이름 및 암호를 사용 해야 합니다. 
     
@@ -114,7 +116,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더에서 실수
     Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
     ```
 
-   4 단계에서에서 항목을 삭제 하는 경우에 삭제 또는 사용자의 기본 보관 사서함의 복구 가능한 항목 폴더에서 항목을 삭제 하지를 선택할 수 있습니다. 참고 보관 자동을 확장 하면 해당 사서함에 대해 활성화 된 경우 보조 보관 사서함에 있는 항목은 삭제할 수 없습니다.
+   5 단계에서에서 항목을 삭제 하는 경우에 삭제 또는 사용자의 기본 보관 사서함의 복구 가능한 항목 폴더에서 항목을 삭제 하지를 선택할 수 있습니다. 참고 보관 자동을 확장 하면 해당 사서함에 대해 활성화 된 경우 보조 보관 사서함에 있는 항목은 삭제할 수 없습니다.
   
 ## <a name="step-2-prepare-the-mailbox"></a>2 단계: 사서함 준비
 
@@ -122,11 +124,11 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더에서 실수
   
 - **사서함에 대 한 클라이언트 액세스를 사용 하지 않도록 설정** 하 사서함 소유자 수는 없습니다 자신의 사서함에 액세스 하 고이 절차는 동안 사서함 데이터를 변경 합니다. 
     
-- 30 일에 **삭제 된 항목 보존 기간을 늘립니다** (Exchange Online의 최대값) 4 단계에서에서 삭제 하기 전에 복구 가능한 항목 폴더에서 항목 삭제 되지 않도록 합니다. 
+- 30 일에 **삭제 된 항목 보존 기간을 늘립니다** (Exchange Online의 최대값) 5 단계에서에서 삭제 하기 전에 복구 가능한 항목 폴더에서 항목 삭제 되지 않도록 합니다. 
     
-- 4 단계에서에서 복구 가능한 항목 폴더에서 삭제 하면 (삭제 된 항목 보존 기간을 기간)에 대 한 **단일 항목 복구를 사용 하지 않도록 설정** 하는 항목이 있으므로 유지 되지 않을 것입니다. 
+- 5 단계에서에서 복구 가능한 항목 폴더에서 삭제 하면 (삭제 된 항목 보존 기간을 기간)에 대 한 **단일 항목 복구를 사용 하지 않도록 설정** 하는 항목이 있으므로 유지 되지 않을 것입니다. 
     
-- It 관리 사서함을 처리 하며 4 단계에서에서 삭제 된 항목을 유지 하지 않도록 **관리 되는 폴더 도우미를 사용 하지 않도록** 합니다. 
+- It 관리 사서함을 처리 하며 5 단계에서에서 삭제 된 항목을 유지 하지 않도록 **관리 되는 폴더 도우미가 사용 하지 않도록 설정** 합니다. 
     
 Exchange Online PowerShell에서 다음 단계를 수행 합니다.
   
@@ -162,7 +164,7 @@ Exchange Online PowerShell에서 다음 단계를 수행 합니다.
 
 ## <a name="step-3-remove-all-holds-from-the-mailbox"></a>3 단계: 사서함에서 모든 보류를 제거 합니다.
 
-복구 가능한 항목 폴더에서 항목을 삭제 하기 전에 마지막 단계는 사서함에 배치 모든 (즉 1 단계에서에서 식별) 보류를 제거 하는 것입니다. 복구 가능한 항목 폴더에서 삭제 한 후 항목을 유지 되지 않을 것 되도록 모든 보류를 제거 해야 합니다. 다음 섹션에서는 다양 한 유형의 사서함에서 보류를 제거 하는 방법에 대 한 정보를 포함 합니다. 사서함에 배치 될 수 있는 형식 보류를 식별 하는 방법에 대 한 팁에 대 한 [자세한 내용](#more-information) 은 섹션을 참조 하십시오. 
+복구 가능한 항목 폴더에서 항목을 삭제 하기 전에 마지막 단계는 사서함에 배치 모든 (즉 1 단계에서에서 식별) 보류를 제거 하는 것입니다. 복구 가능한 항목 폴더에서 삭제 한 후 항목을 유지 되지 않을 것 되도록 모든 보류를 제거 해야 합니다. 다음 섹션에서는 다양 한 유형의 사서함에서 보류를 제거 하는 방법에 대 한 정보를 포함 합니다. 사서함에 배치 될 수 있는 형식 보류를 식별 하는 방법에 대 한 팁에 대 한 [자세한 내용](#more-information) 은 섹션을 참조 하십시오. 자세한 내용은 [유형을 식별 하는 방법을 hold Exchange Online 사서함에 배치](identify-a-hold-on-an-exchange-online-mailbox.md)를 참조 합니다.
   
 > [!CAUTION]
 > 앞서 설명한 것 처럼 사서함에서 보류를 제거 하기 전에 레코드 관리 또는 법률 부서를 확인 합니다. 
@@ -208,7 +210,21 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
 **날짜 관리 방식** 으로 이동 하는 조직 전체의 Office 365 보존 정책, 파악 한 후 \> 보안에서 **보존** 페이지 &amp; 준수 센터에서 식별 하는 각 조직 전체의 보존 정책 편집은 이전 단계를 실행 하 고 사서함 제외 된 받는 사람 목록에 추가 합니다. 이렇게 하면 사용자의 사서함 보존 정책에서 제거 됩니다. 
-  
+
+### <a name="office-365-retention-labels"></a>Office 365 보존 레이블
+
+다음은 콘텐츠를 보존 또는 유지 하 고 다음 콘텐츠를 모든 폴더 또는 사서함의 항목을 삭제 하도록 구성 된 레이블을 적용 하는 사용자, 때마다 *ComplianceTagHoldApplied* 사서함 속성을 **True**로 설정 됩니다. 이러한 상황이 발생 하는 경우에 사서함 수, 기다리는 경우 처럼 소송 보존에 배치 또는 Office 365 보존 정책에 할당 된 것으로 간주 됩니다.
+
+*ComplianceTagHoldApplied* 속성의 값을 보려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
+
+```
+Get-Mailbox <username> |FL ComplianceTagHoldApplied
+```
+
+사서함이에 식별 한 후 보존 레이블 폴더 또는 항목에 적용 되, 콘텐츠 검색 도구를 사용 하 여 보안에서 수 및 ComplianceTag 검색 조건을 사용 하 여 레이블이 지정 된 항목을 찾으려고 준수 센터 때문에 보관 합니다. 자세한 내용은 [키워드 쿼리 및 콘텐츠 검색을 위한 검색 조건에서](keyword-queries-and-search-conditions.md#conditions-for-common-properties)"검색 조건" 섹션을 참조 하십시오.
+
+레이블에 대 한 자세한 내용은 [Office 365 개요 레이블](labels.md)을 참조 하십시오.
+
  ### <a name="ediscovery-case-holds"></a>eDiscovery 사례를 포함 하
   
 다음 명령을 실행 [보안 &amp; 준수 센터 PowerShell](https://go.microsoft.com/fwlink/?linkid=627084) 사서함에 적용 되는 eDiscovery 사례와 관련 된 보류를 식별할 수 있습니다. GUID를 사용 하 여 (포함 하지는 `UniH` 접두사) eDiscovery에 대 한 1 단계에서에서 확인 된을 유지 합니다. 두번째 명령은 보류;와 연결 된 eDiscovery 사례의 이름을 표시 하는 note 세번째 명령은 보류의 이름을 표시합니다. 
@@ -227,7 +243,26 @@ $CaseHold.Name
 
 EDiscovery 사례와 보류의 이름을 결정 했다면, 한 후 이동은 **검색 &amp; 조사** \> 보안에서 **eDiscovery** 페이지 &amp; 준수 센터 대/소문자를 열고 보류에서 사서함을 제거 합니다. 자세한 내용은 참조 [Office 365 보안에서 eDiscovery 사례 관리 &amp; 준수 센터](manage-ediscovery-cases.md)합니다.
   
-## <a name="step-4-delete-items-in-the-recoverable-items-folder"></a>복구 가능한 항목 폴더에서 항목을 삭제 하는 4 단계:
+## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>4 단계: 사서함에서 지연 보류를 제거 합니다.
+
+모든 유형의 대기 사서함에서 제거 되 면 후 *DelayHoldApplied* 사서함 속성의 값을 **True**로 설정 됩니다. *지연 유지* 라고 하 고 영구적으로 삭제 되 고에서 데이터를 방지 하기 위해 30 일 동안 보류의 실제 제거 배달이 지연 된 것을 의미이 사서함에서 (비우기).   지연 보류의 사서함에 배치 되 면 때 사서함은 여전히 사서함에 소송 보존으로 설정 된 하는 경우으로 대기는 무제한 기간에 대 한 것으로 간주 됩니다. (지연 보류의 용도 admins를 검색 하거나 경과한 보류에서 제거 된 후 사서함 항목을 복구할 수 있도록 합니다.) 30 일 후 지연 시간을 누르고 하 Noe 만료 되 면 및 Office 365 됩니다 ( *DelayHoldApplied* 속성을 **False**로 설정) 하 여 지연 보류를 제거 하려고 자동으로 보류를 실제로 제거할 수 있도록 합니다. 
+
+5 단계에서에서 항목을 삭제 하기 전에 사서함에서 지연 보류를 제거 해야 합니다. 다음 명령을 실행 Exchange Online PowerShell 지연 보류를 제거 하려면: 
+ 
+```
+Set-Mailbox <username> -RemoveDelayHoldApplied
+```
+할당 되어야 합니다 법적 보존 역할 Exchange 온라인 *RemoveDelayHoldApplied* 매개 변수를 사용 하 여 note 합니다.
+
+지연 대기 파일이 제거를 확인 하려면 다음 명령을 실행 합니다.
+
+```
+Get-Mailbox <username> | FL DelayHoldApplied
+```
+
+*DelayHoldApplied* 속성에 대 한 값 **False** 지연 제거 되었음을 나타냅니다.
+
+## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>복구 가능한 항목 폴더에서 항목을 삭제 하는 5 단계:
 
 이제 준비가 실제로 사용 하 여 [검색 사서함](https://go.microsoft.com/fwlink/?linkid=852595) cmdlet은 Exchange Online PowerShell 복구 가능한 항목 폴더에서 항목을 삭제 합니다. **Search-mailbox** cmdlet을 실행 하는 경우 다음과 같은 세가지 옵션이 있습니다. 
   
@@ -308,7 +343,7 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,F
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
   
-## <a name="step-5-revert-the-mailbox-to-its-previous-state"></a>5 단계: 사서함을 이전 상태로 되돌리기
+## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>6 단계: 사서함을 이전 상태로 되돌리기
 
 마지막 단계를 이전 구성으로 다시 사서함으로 돌아가려면입니다. 즉, 2 단계에서에서 변경 되는 속성을 다시 설정 하 고 3 단계에서에서 제거 된 보류를 다시 적용 합니다. 이는 다음이 포함 됩니다.
   
@@ -389,7 +424,9 @@ Exchange Online PowerShell에서 (지정된 된 시퀀스)에서 다음 단계�
   
 ## <a name="more-information"></a>추가 정보
 
-다음은 다양 한 유형의 **Get-mailbox** 또는 **Get-organizationconfig** cmdlet을 실행 하는 경우 *InPlaceHolds* 속성의 값에 따라 보류를 식별 하는 방법에 설명 하는 테이블입니다. 앞부분에 설명 하 고, 모든 보류를 제거 하려면 있고 하기 전에 사서함에서 Office 365 보존 정책이 성공적으로 복구 가능한 항목 폴더에서 항목을 삭제할 수 있습니다. 
+다음은 다양 한 유형의 **Get-mailbox** 또는 **Get-organizationconfig** cmdlet을 실행 하는 경우 *InPlaceHolds* 속성의 값에 따라 보류를 식별 하는 방법에 설명 하는 테이블입니다. 자세한 내용은 [유형을 식별 하는 방법을 hold Exchange Online 사서함에 배치](identify-a-hold-on-an-exchange-online-mailbox.md)를 참조 합니다.
+
+앞부분에 설명 하 고, 모든 보류를 제거 하려면 있고 하기 전에 사서함에서 Office 365 보존 정책이 성공적으로 복구 가능한 항목 폴더에서 항목을 삭제할 수 있습니다. 
   
 |**종류를 유지 합니다.**|**예제 값**|**보류를 식별 하는 방법**|
 |:-----|:-----|:-----|
