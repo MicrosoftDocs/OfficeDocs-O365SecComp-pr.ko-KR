@@ -70,7 +70,7 @@
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
 ### [Office 365의 피싱 방지 보호 기능](anti-phishing-protection.md)
 #### [Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md)
-#### [Office 365 ATP 피싱 방지 정책 설정](set-up-atp-anti-phishing-policies.md)
+#### [피싱 방지 및 ATP 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)
 #### [보낸 사람: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법](how-office-365-validates-the-from-address.md)
 ### [Office 365의 스푸핑 방지 보호 기능](anti-spoofing-protection.md)
 #### [스푸핑 인텔리전스에 대해 자세히 알아보기](learn-about-spoof-intelligence.md)
