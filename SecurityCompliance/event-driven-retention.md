@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: dd851332-747b-45b9-82de-e3cd7d01c8a7
 description: Office 365에서 레이블을 사용하여 특정 유형의 이벤트가 발생하는 경우를 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 구동 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 7a360ec665843db2e7fb3ec5dc11e286a99b3f12
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: fca335d8218c2c22335592fd71bffd00a805f6fb
+ms.sourcegitcommit: 397a5fe594e4cf4bb64c0c6f233d310ef3cbd922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013712"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25540414"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -35,7 +35,7 @@ ms.locfileid: "23013712"
     
 이벤트 구동 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다. 이것은 다음을 의미합니다.
   
-- 이벤트를 기준으로 하는 레이블은 일반적으로 콘텐츠를 기록으로 분류하기도 합니다. 자세한 내용은 [콘텐츠 검색을 사용하여 특정 레이블이 적용된 모든 콘텐츠 찾기](labels.md#using-content-search-to-find-all-content-with-a-specific-label-applied-to-it)를 참조하세요.
+- 이벤트를 기준으로 하는 레이블은 일반적으로 콘텐츠를 기록으로 분류하기도 합니다. 자세한 내용은 [콘텐츠 검색을 사용하여 특정 보존 레이블이 적용된 모든 콘텐츠 찾기](labels.md#using-content-search-to-find-all-content-with-a-specific-retention-label-applied-to-it)를 참조하세요.
     
 - 기록으로 선언되었으나 해당 이벤트 트리거가 아직 발생하지 않은 문서는 문서의 보존 기간을 트리거하는 이벤트가 발생할 때까지 무기한 보존됩니다(기록을 영구히 삭제할 수 없음).
     

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: af341600-5f68-40b3-a73e-73562715acd1
 description: Office 365 보안 및 준수 센터의 레이블 활동 탐색기를 사용하면 지난 30일 동안 SharePoint 및 비즈니스용 OneDrive에서 수행된 모든 콘텐츠에 대한 레이블 활동을 빠르게 검색하고 확인할 수 있습니다.
-ms.openlocfilehash: b40d1f9bdad4d0fcb3647f0c79c265bfe0713cd1
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 69e99ea7af683d7850cd56f356ad0ac99f8c084e
+ms.sourcegitcommit: 397a5fe594e4cf4bb64c0c6f233d310ef3cbd922
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013962"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25540394"
 ---
 # <a name="view-label-activity-for-documents"></a>문서에 대한 레이블 활동 보기
 
@@ -46,7 +46,7 @@ ms.locfileid: "23013962"
 
 레이블 활동 탐색기의 맨 위에서 파일 또는 폴더에 대한 활동을 선택할 수 있습니다. 폴더 활동에는 폴더 내의 파일이 아닌 폴더 자체만 포함됩니다.
   
-폴더에 레이블을 지정하면 해당 폴더 내의 모든 파일에도 레이블이 지정되므로 (명시적으로 레이블이 지정된 파일 제외) 폴더에 대한 레이블 활동을 확인하고 싶을 수 있습니다. 따라서 폴더에 레이블을 지정하면 많은 파일에 영향을 줄 수 있습니다. 자세한 내용은 [SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 레이블 적용](labels.md#applying-a-default-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하세요.
+폴더에 레이블을 지정하면 해당 폴더 내의 모든 파일에도 레이블이 지정되므로 (명시적으로 레이블이 지정된 파일 제외) 폴더에 대한 레이블 활동을 확인하고 싶을 수 있습니다. 따라서 폴더에 레이블을 지정하면 많은 파일에 영향을 줄 수 있습니다. 자세한 내용은 [SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용](labels.md#applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set)을 참조하세요.
   
 ![파일 및 폴더에 대한 레이블 활동을 보여 주는 드롭다운 메뉴](media/11030584-f52d-49eb-86f3-7ead16a3b704.png)
   
