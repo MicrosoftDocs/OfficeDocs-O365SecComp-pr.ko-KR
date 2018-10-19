@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 9295e396-e53d-49b9-ae9b-0b5828cdedc3
 description: 이러한 권장된 모범 사례를 수행 하 여 데이터 위반 또는 손상 된 계정의 가능성을 최소화 합니다.
-ms.openlocfilehash: 63bda11afdd1e02e9e12e8c505aca7100c4deade
-ms.sourcegitcommit: a36d2692396786f49c8765c65145e5093578e9a1
+ms.openlocfilehash: 0d3dc30a9975f2ed8fe6d524b4fc67918b34e51d
+ms.sourcegitcommit: 49b565f6a57febe53f331b2605d6a06d11e2d0be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498094"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25638002"
 ---
 # <a name="security-best-practices-for-office-365"></a>Office 365에 대한 보안 모범 사례
 
@@ -90,7 +90,7 @@ DLP를 사용 하면 중요 한 데이터를 식별 하 고 사용자가 실수�
   
 ## <a name="use-customer-lockbox"></a>고객 Lockbox를 사용 하 여
 
-Office 365 관리자를으로 Microsoft 기술 지원 엔지니어 도움말 세션 중에 데이터에 액세스 하는 방법을 제어 하려면 고객 Lockbox를 사용할 수 있습니다. 엔지니어가 문제를 해결 하 고 문제를 해결 하 여 데이터에 대 한 액세스를 필요로 하는의 경우, 고객 Lockbox를 사용 하면 승인 하거나 거부 하는 액세스 요청 수 있습니다. 를 승인 하는 경우는 엔지니어 데이터에 액세스할 수 있습니다. 각 요청에 만료 시간이 있어서는 하 고 문제를 해결 한 후 요청을 닫고 access가 해지 되었습니다. Office 365 Enterprise 5 계획에 포함 된 고객 Lockbox 또는 다른 Office 365 enterprise 플랜과 별도 구독을 구입할 수 있습니다. 내용은 [Office 365 고객 Lockbox 요청](https://support.office.com/article/36f9cdd1-e64c-421b-a7e4-4a54d16440a2)을 참조 하십시오.
+Office 365 관리자를으로 Microsoft 기술 지원 엔지니어 도움말 세션 중에 데이터에 액세스 하는 방법을 제어 하려면 고객 Lockbox를 사용할 수 있습니다. 엔지니어가 문제를 해결 하 고 문제를 해결 하 여 데이터에 대 한 액세스를 필요로 하는의 경우, 고객 Lockbox를 사용 하면 승인 하거나 거부 하는 액세스 요청 수 있습니다. 를 승인 하는 경우는 엔지니어 데이터에 액세스할 수 있습니다. 각 요청에 만료 시간이 있어서는 하 고 문제를 해결 한 후 요청을 닫고 access가 해지 되었습니다. Office 365 Enterprise e 5 계획에 포함 된 고객 Lockbox 또는 다른 Office 365 enterprise 플랜과 별도 구독을 구입할 수 있습니다. 내용은 [Office 365 고객 Lockbox 요청](https://support.office.com/article/36f9cdd1-e64c-421b-a7e4-4a54d16440a2)을 참조 하십시오.
   
 ## <a name="try-it-yourself"></a>사용자가 직접 사용해 보기
 <a name="SecureScore"> </a>

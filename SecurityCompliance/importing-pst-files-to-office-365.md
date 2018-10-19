@@ -14,12 +14,12 @@ ms.collection: Strat_O365_IP
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자를 위한: Office 365 보안에서 가져오기 서비스를 사용 하는 방법에 대 한 설명 &amp; 전자 메일 데이터 (PST 파일)을 Exchange Online의 사용자 사서함으로 대량 가져오기에 대 한 준수 센터입니다. 이 항목 Faq를 제공 하 고 PST 가져오기 프로세스의 작동 방식에 대해 설명 합니다.'
-ms.openlocfilehash: 2bd58b879d9d4d1ff9d3d2c6c8680a0171d42689
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 3a6c3db966513be5c63588dac75643ffc1962323
+ms.sourcegitcommit: 8294182d4dd124f035a221de0b90159ef7eec4ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038021"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25639677"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Office 365로 조직 PST 파일 가져오기 (영문)의 개요 (영문)
 
@@ -100,7 +100,15 @@ Office 365 보안에서 가져오기 서비스를 사용 하려면 &amp; 준수 
     
 ## <a name="importing-sharepoint-data-to-office-365"></a>Office 365를 SharePoint 데이터 가져오기 (영문)
 
-Office 365 조직에서 SharePoint 사이트 및 OneDrive 계정에 파일 및 문서도 가져올 수 있습니다. 자세한 내용은 [SharePoint online PowerShell cmdlet을 사용 하 여 온-프레미스 콘텐츠를 업로드](https://docs.microsoft.com/sharepointmigration/upload-on-premises-content-to-sharepoint-online-using-powershell-cmdlets)를 참조 하십시오.
+Office 365 조직에서 SharePoint 사이트 및 OneDrive 계정에 파일 및 문서도 가져올 수 있습니다. 자세한 내용은 다음 문서를 참조 합니다.
+
+- [SharePoint Online으로 마이그레이션](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)
+
+- [SharePoint 마이그레이션 도구 소개](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool)
+
+- [PowerShell을 사용하여 SharePoint Online으로 마이그레이션](https://docs.microsoft.com/sharepointmigration/overview-spmt-ps-cmdlets)
+
+- [SharePoint online Azure 데이터 상자를 사용 하 여 파일 공유 콘텐츠 마이그레이션](https://docs.microsoft.com/sharepointmigration/how-to-migrate-file-share-content-to-spo-using-azuredatabox)
 
 
 ## <a name="frequently-asked-questions-about-importing-pst-files-to-office-365"></a>Office 365에 PST 파일 가져오기 (영문) 하는 방법에 대 한 질문과 대답

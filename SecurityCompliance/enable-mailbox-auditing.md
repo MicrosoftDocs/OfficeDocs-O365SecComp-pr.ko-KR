@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: Office 365에서 사서함 감사 로깅 사서함 소유자, 대리인 및 관리자의 사서함 액세스를 기록 하도록 켤 수 있습니다. 기본적으로 Office 365에서 사서함 감사 설정 되지 않은 합니다. 사서함에 대 한 로깅 사서함 감사를 사용 하도록 설정한 후에 사서함에 수행 하는 작업에 대 한 Office 365 감사 로그를 검색할 수 있습니다.
-ms.openlocfilehash: 9952cc94fe48e289e6eaf8de665a82cb3da4746d
-ms.sourcegitcommit: b6473cd6ba3f9ac79dc6a2040fc148020dfbe464
+ms.openlocfilehash: 6d3de226e7c0e03be824b14e1b16fadaae3f040e
+ms.sourcegitcommit: 8294182d4dd124f035a221de0b90159ef7eec4ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358387"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25639667"
 ---
 # <a name="enable-mailbox-auditing-in-office-365"></a>Office 365에서 사서함 감사 사용
   
@@ -28,8 +28,6 @@ Office 365에서 사서함 감사 로깅 사서함 소유자, 대리인 및 관�
 ## <a name="before-you-begin"></a>시작하기 전에
   
 - Exchange Online PowerShell을 사용 하 여 사서함을 사용 하도록 설정 해야하는 로깅 감사 합니다. Office 365 보안을 사용할 수 없습니다 &amp; 준수 센터 또는 Exchange 관리 센터입니다.
-    
-- 사서함 감사 사서함에 대해 로깅을 사용 하도록 설정 하면 사서함 및 특정 관리자와 대리인이 작업에 대 한 액세스는 기본적으로 기록 됩니다. 사서함 소유자가 취한 조치를 기록 하려면 어떤 소유자 동작을 감사할 사용자를 지정 해야 합니다. 사서함 감사 로깅 후 로깅되는 작업 목록의 사용 하도록 설정 하 고는 동작이 각 유형의 사용자 로그온에 사용할 수 있는 참조를 "추가 정보" 섹션을 참조 하십시오.
     
 - 사서함 감사는 Office 365 그룹 또는 팀이 Microsoft에서 팀과 관련 된 사서함에 대 한 로깅을 활성화할 수 없습니다.
     
@@ -83,7 +81,7 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
   
 ## <a name="step-3-specify-owner-actions-to-audit"></a>3단계: 감사할 소유자 작업 지정
 
-사서함에 대 한 감사를 사용 하면 사서함 소유자가 수행한 하나만 동작 ( **UpdateFolderPermissions** ) 기본적으로 감사 됩니다. 감사 하는 기타 소유자 작업을 지정 해야 합니다. 목록 및 설명은 감사할 수 있는 소유자 작업에 대 한 "사서함 작업" 섹션의 표를 참조 합니다. 
+사서함에 대 한 감사 사용 하도록 설정 하면 사서함 소유자가 수행 된 일부 작업은 기본적으로 감사 됩니다. 감사 하는 기타 소유자 작업을 지정 해야 합니다. 목록 및 설명은 기본적으로 로깅되는 소유자 작업 및 감사할 수 있는 다른 작업에 대 한 [사서함 감사 작업](#mailbox-auditing-actions) 섹션에서 표를 참조 합니다. 
   
 이 예에서는 Pilar Pinilla의 사서함에 대 한 감사 사서함에 **MailboxLogin** 및 **HardDelete** 소유자 작업을 추가 합니다. 이 예제는 사서함 감사 기능이 이미 활성화 된이 사서함에 대 한 가정 합니다. 
 
@@ -123,7 +121,7 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
     
 ## <a name="mailbox-auditing-actions"></a>사서함 감사 작업
   
-다음 표에서 사서함으로 기록 될 수 있는 작업이 나와 감사 로깅. 표에 서로 다른 사용자 로그온 유형에 대 한 동작을 기록할 수 있습니다를 포함 합니다. 테이블을 **No** 해당 로그온 형식에 대 한 동작을 기록할 수 없는 나타냅니다. 별표 ( **\*** )를 나타냅니다 사서함에 대해 활성화 되어 사서함 감사 로깅 때 기본적으로는 작업 기록 됩니다. 앞서 설명한 것 처럼 사서함 감사 기능을 설정 하면 기본적으로 감사 되는 유일한 소유자 작업 UpdateFolderPermissions 됩니다. 사서함 소유자가 수행 하는 다른 작업을 기록 하려면 감사 하기 위한 추가 소유자 작업을 지정 해야 합니다. 이 작업을 수행 하려면이 항목의 [3 단계를](#step-3-specify-owner-actions-to-audit) 참조 하십시오. 
+다음 표에서 사서함으로 기록 될 수 있는 작업이 나와 감사 로깅. 표에 서로 다른 사용자 로그온 유형에 대 한 동작을 기록할 수 있습니다를 포함 합니다. 테이블을 **No** 해당 로그온 형식에 대 한 동작을 기록할 수 없는 나타냅니다. 별표 ( **\*** )를 나타냅니다 사서함에 대해 활성화 되어 사서함 감사 로깅 때 기본적으로는 작업 기록 됩니다. 
   
 |**작업**|**설명**|**Admin**|**대리인\*\*\***|**소유자**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -146,7 +144,7 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 > [!NOTE]
 > <sup>\*</sup>사서함에 대 한 감사 사용 하도록 설정 하는 경우 기본적으로 감사 됩니다.<br/><br/>  <sup>\*\*</sup>대리자에 의해 수행 되는 폴더 바인딩 작업에 대 한 항목 통합 됩니다. 하나의 로그 항목은 24 시간의 시간 범위 내에서 개별 폴더 액세스에 대 한 생성 됩니다.<br/><br/><sup>\*\*\*</sup>관리자에 게 사용자의 사서함에 대 한 전체 액세스 권한을 할당 된 대리인 사용자로 간주 됩니다. 
   
-특정 유형의 사서함 감사 하기 위한 작업을 더이상 필요 하는 경우에 이러한 작업을 사용 하지 않도록 설정 하는 사서함 감사 로깅 구성을 수정 해야 합니다. 기존 로그 항목의 외에 감사 로그 항목에 대 한는 90 일 기간 한도 도달할 때까지 삭제 되지 않습니다.
+특정 유형의 사서함 감사 하기 위한 작업을 더이상 필요 하는 경우에 이러한 작업을 사용 하지 않도록 설정 하는 사서함 감사 로깅 구성을 수정 해야 합니다. 기존 로그 항목의 외에 감사 로그 항목에 대 한 보존 기간 제한에 도달할 때까지 삭제 되지 않습니다. 감사 로그 항목에 대 한 보존 기간에 대 한 자세한 내용은 [Office 365 보안 및 규정 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#before-you-begin)의 "시작 하기 전에" 섹션을 참조 하십시오.
   
 ## <a name="more-infotab"></a>[추가 정보](#tab/)
   
