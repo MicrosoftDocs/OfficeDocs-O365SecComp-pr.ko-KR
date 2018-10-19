@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: 4816770575d704d54e8a988142d3115d6fc549e8
-ms.sourcegitcommit: 397a5fe594e4cf4bb64c0c6f233d310ef3cbd922
+ms.openlocfilehash: 7892cb54bff510cd4868b05385fd25fc440d9c49
+ms.sourcegitcommit: 49b565f6a57febe53f331b2605d6a06d11e2d0be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540434"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "25638022"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -275,7 +275,7 @@ Office 365 그룹에 보존 레이블을 게시하면 웹용 Outlook의 그룹 �
 
 쿼리 구문에 대한 자세한 내용은 다음을 참조하세요.
 
-- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
 쿼리 기반 보존 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다.
   
@@ -441,7 +441,7 @@ OneDrive에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치�
 
 레이블 cmdlet을 사용하려면 다음 작업을 수행해야 합니다.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](http://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     
 2. 다음 [Office 365 보안 및 준수 센터 cmdlet](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409) 사용
     
