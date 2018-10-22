@@ -1,5 +1,5 @@
 ---
-title: 레이블 개요
+title: 보존 레이블 개요
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: 7892cb54bff510cd4868b05385fd25fc440d9c49
-ms.sourcegitcommit: 49b565f6a57febe53f331b2605d6a06d11e2d0be
+ms.openlocfilehash: 6d2d42d9cb13490073c1313561d611f0a32bfb55
+ms.sourcegitcommit: e9c3befa019463aedce681607fd23786786f76aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25638022"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678117"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
