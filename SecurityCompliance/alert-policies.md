@@ -3,7 +3,7 @@ title: Office 365 보안에서 정책 경고 &amp; 준수 센터
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/8/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: Office 365 보안에서 경고 정책을 만들 &amp; 준수 센터 잠재적 위협, 데이터 손실 및 사용 권한 문제를 모니터링 합니다. 다음 볼 수 있으며 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 알림을 관리할 수 있습니다.
-ms.openlocfilehash: 1404f03fdc59583fdf402f2cdc6209f4d55c23f3
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 020e9871170091e63cd6a59e6f1a0bfe50124fef
+ms.sourcegitcommit: 98a418052be88137c06f5c1abe7012359a7e90ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533448"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25698024"
 ---
 # <a name="alert-policies-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 정책 경고 &amp; 준수 센터
 
@@ -74,7 +74,9 @@ Office 365 보안에서 새 경고 정책과 경고 대시보드 도구를 사�
     
   - 데이터 거버넌스
     
-  - 데이터 손실 보호
+  - 데이터 손실 방지
+
+  - 메일 흐름
     
   - 사용 권한
     
@@ -100,6 +102,7 @@ Office 365에는 Exchange 관리 권한 오용, 맬웨어 활동 및 데이터 �
 |**기본 경고 정책**|**설명**|**Office 365 Enterprise 등록**|
 |:-----|:-----|:-----|
 |**착신 전환/리디렉션 규칙을 만들기** <br/> |조직에서 다른 사용자를 전달 하거나 다른 전자 메일 계정에 메시지를 리디렉션하는 자신의 사서함에 대 한 받은 편지함 규칙을 만들 때 경고를 생성 합니다. 이 정책에는 Outlook Web App 또는 Exchange Online PowerShell을 사용 하 여 만든 받은 편지함 규칙을 추적 합니다. 이 정책에 **낮** 은 심각도 설정 합니다. 음성 메일로 착신 전환 하 고 Outlook Web App에서 전자 메일을 리디렉션할을 받은 편지함 규칙을 사용 하 여 자세한 정보를 [자동으로 다른 계정으로 메시지를 전달 하도록 Outlook Web App에서 사용 하 여 규칙](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)을 참조 하십시오.<br/> |E1, E3 또는 e 5  <br/> |
+|**eDiscovery 검색 시작 또는 내보낸** <br/> |보안 및 규정 준수 센터의 콘텐츠 검색 도구를 사용 하 여 다른 사용자 때 경고를 생성 합니다. 경고가 표시 될 때 다음과 같은 콘텐츠 검색 작업을 수행 됩니다.<br/><br/>• 콘텐츠 검색 시작<br/>콘텐츠 검색의 결과 내보내도록?<br/>콘텐츠 검색 보고서를 내보낼?<br/><br/>EDiscovery 사례와 함께에서 이전 콘텐츠 검색 작업을 수행할 때에 경고 trigged 됩니다. 이 정책에 **보통** 심각도 설정 합니다. 콘텐츠 검색 작업에 대 한 자세한 내용은 [Office 365의 eDiscovery 활동에 대 한 검색을 감사 로그를](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)참조 하십시오.<br/> |E1, E3 또는 e 5  <br/> |
 |**Exchange 관리 권한 상승** <br/> |다른 Exchange Online 조직에서 관리 권한을 할당 될 때 경고를 생성 합니다. 예, 사용자가 조직 관리 역할에 추가 하는 경우 Exchange의 그룹 온라인 합니다. 이 정책에 **낮** 은 심각도 설정 합니다.<br/> |E1, E3 또는 e 5  <br/> |
 |**메시지가 지연 되었습니다.** <br/> |Office 365을 배달할 수 없는 전자 메일 메시지를 온-프레미스 조직 또는 파트너 서버 커넥터를 사용 하 여 때 경고를 생성 합니다. 이 발생할 경우 메시지는 Office 365에서 큐에 대기 합니다. 이 경고는 2, 000 메시지 또는 한 시간 이상에 대 한 큐에 대기 중인 더 때 트리거됩니다. 이 정책에 있는 **높은** 심각도 설정 되어있습니다.<br/> |E1, E3 또는 e 5  <br/> |
 |**배달 후 검색 맬웨어 캠페인** <br/> |맬웨어를 포함 하는 메시지 많이 조직에서 사서함에 배달 된 때 경고를 생성 합니다. 이 이벤트가 발생 하는 경우 Office 365 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책에 있는 **높은** 심각도 설정 되어있습니다.<br/> |E 5 또는 Office 365 위협 인텔리전스 추가 기능 등록  <br/> |

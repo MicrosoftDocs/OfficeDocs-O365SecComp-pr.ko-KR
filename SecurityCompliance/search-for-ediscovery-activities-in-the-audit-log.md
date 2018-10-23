@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 규정 준수 관리자 보안에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행 하는 경우 로깅되는 이벤트를 위한 Office 365 감사 로그를 검색 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: a4cc3a6b5030a6412d739236e4c534f36948d57f
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: f3d8e49da32de85c127d6bbf28d0b53bd6974c09
+ms.sourcegitcommit: 98a418052be88137c06f5c1abe7012359a7e90ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038351"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25698034"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Office 365 감사 로그에서 eDiscovery 활동에 대 한 검색
 
@@ -43,7 +43,7 @@ Office 365 감사 로그를 검색 하는 방법에 대 한 자세한 내용은 
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 왼쪽된 창에서 클릭 **검색 &amp; 조사**, **감사 로그 검색**을 클릭 하 고 있습니다.
     
@@ -94,7 +94,7 @@ Office 365 감사 로그를 검색 하는 방법에 대 한 자세한 내용은 
 |삭제 된 eDiscovery 사례  <br/> |CaseRemoved  <br/> |ComplianceCase 제거  <br/> |EDiscovery 사례 삭제 되었습니다. 대/소문자와 관련 된 모든 보류에서 대/소문자를 삭제할 수 있습니다를 먼저 제거 하는 메모 합니다.  <br/> |
 |삭제 된 검색 권한 필터  <br/> |SearchPermissionRemoved  <br/> |ComplianceSecurityFilter 제거  <br/> |검색 사용 권한 필터 삭제 되었습니다.  <br/> |
 |EDiscovery 사례 보류에 대 한 삭제 된 검색 쿼리  <br/> |HoldRemoved  <br/> |CaseHoldRule 제거  <br/> |EDiscovery 사례와 관련 된 쿼리 기반 보류 삭제 되었습니다. 보류를 삭제 결과 자주은 보류에서 쿼리를 제거 합니다. 보류 또는 대기 쿼리를 삭제 하는 경우에 대기 했던 콘텐츠 위치는 해제 됩니다.  <br/> |
-|콘텐츠 검색의 다운로드 한 내보내기  <br/> |SearchResultDownloaded  <br/> |해당 없음  <br/> |사용자가 자신의 로컬 컴퓨터에 콘텐츠 검색의 결과 다운로드 합니다. 검색 결과 다운로드할 수 있습니다 전에 시작 하려면 **시작 콘텐츠 검색의 내보내기** 활동 되어있는지 note 합니다.<br/> |
+|콘텐츠 검색의 다운로드 한 내보내기  <br/> |SearchExportDownloaded  <br/> |해당 없음  <br/> |사용자가 자신의 로컬 컴퓨터에 콘텐츠 검색의 결과 다운로드 합니다. 검색 결과 다운로드할 수 있습니다 전에 시작 하려면 **시작 콘텐츠 검색의 내보내기** 활동 되어있는지 note 합니다.<br/> |
 |콘텐츠 검색의 미리 보기 결과  <br/> |SearchPreviewed  <br/> |해당 없음  <br/> |사용자는 콘텐츠 검색의 결과를 미리봅니다.  <br/> |
 |제거 된 콘텐츠 검색 결과  <br/> |SearchResultsPurged  <br/> |New-ComplianceSearchAction  <br/> |사용자를 실행 하 여 콘텐츠 검색의 결과 지울는 **새로 ComplianceSearchAction-항목 지우기** 명령 합니다.  <br/> |
 |콘텐츠 검색의 제거 된 분석  <br/> |RemovedSearchResultsSentToZoom  <br/> |ComplianceSearchAction 제거  <br/> |콘텐츠 검색 준비 작업 (Office 365 고급 eDiscovery에 대 한 검색 결과 준비) 삭제 되었습니다. 준비 작업에는 2 주 했으므로, 고급 eDiscovery에 대해 준비 된 검색 결과 Microsoft Azure 저장소 영역에서 삭제 되었습니다. 준비 작업을 2 주 보다 오래 된 경우이 이벤트는 해당 준비 작업에만 삭제 되었음을 나타냅니다 다음 합니다.  <br/> |
