@@ -12,7 +12,9 @@
 # 데이터 및 서비스에 대한 액세스 보호
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
 ## [MDM과 Intune 중에서 선택](choose-between-mdm-and-intune.md)
-# [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
+# 정보 보호
+## [민감도 레이블](sensitivity-labels.md)
+## [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
 ## [DLP 확장된 개요 보기](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## DLP 설정
 ### [DLP 정책 권장 시작](get-started-with-dlp-policy-recommendations.md)
@@ -47,11 +49,11 @@
 ### [무제한 보관 사용](enable-unlimited-archiving.md)
 ### [사서함에 대한 보관 및 삭제 정책 설정](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
 ## 데이터 보존
-### [보존 정책 개요](retention-policies.md)
-### [레이블 개요](labels.md)
-### [처리 검토 개요](disposition-reviews.md)
-### [이벤트 구동 보존 개요](event-driven-retention.md)
-### [파일 계획 관리자 개요](file-plan-manager.md)
+### [보존 정책](retention-policies.md)
+### [보존 레이블](labels.md)
+### [처리 검토](disposition-reviews.md)
+### [이벤트 구동 보존](event-driven-retention.md)
+### [파일 계획 관리자](file-plan-manager.md)
 ## [비활성 사서함 관리](inactive-mailboxes-in-office-365.md)
 ### [비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)
 ### [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)

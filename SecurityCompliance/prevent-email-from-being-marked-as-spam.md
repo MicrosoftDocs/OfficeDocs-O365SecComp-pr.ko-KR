@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 34823bbc-a3e3-4949-ba42-97c73997eeed
 description: 실제 전자 메일이 Office 365에서 스팸으로 표시되고 분류되는 일을 방지하는 방법을 알아봅니다.
-ms.openlocfilehash: 05fb9858adb279d74368fc979db44cfd84b7f71e
-ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
+ms.openlocfilehash: f7ba560b4eb30abcda4c97617ead883659558bd8
+ms.sourcegitcommit: 6d72cdb882b93edf6dfddb5ff2e6d8a16e2fa0bc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25002641"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25596721"
 ---
 # <a name="how-to-prevent-real-email-from-being-marked-as-spam-in-office-365"></a>Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법
 
@@ -59,7 +59,7 @@ Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인]
     
 - **Outlook에서 SmartScreen 사용 안 함** 사용자가 Outlook 데스크톱 클라이언트를 사용하는 경우 지원이 중단된 SmartScreen 필터링 기능을 사용하지 않도록 설정해야 합니다. 이 기능을 사용하도록 설정하면 가양성이 발생할 수 있습니다. 업데이트된 데스크톱 Outlook 클라이언트를 실행하는 경우에는 이 작업이 필요하지 않습니다. 
     
-- **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자에 대한 보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
+- **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자가 보고서 메시지 추가 기능을 사용할 수 있도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
     
 - **보낸 사람 허용 즉시** 보낸 사람을 즉시 허용해야 하는 경우, **특정 보낸 사람의 IP 주소만 허용**하는 것이 좋습니다. 또는 보낸 사람을 허용하고, 보낸 사람 도메인과 성공적인 Authentication-Results 헤더를 **둘 다** 찾는 전송 규칙을 만들어 보낸 사람이 SPF 또는 DKIM과 같은 인증 검사를 통과하는지 확인할 수 있습니다. 
     

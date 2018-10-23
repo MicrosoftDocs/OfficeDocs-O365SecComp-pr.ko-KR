@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365의 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: fae238e4c8409288175a3de305d12c76efcec5c2
-ms.sourcegitcommit: 13f40ff7c1799152bf45af2d8110f4f3235b770a
+ms.openlocfilehash: 736975d10084cb6672ae21b1716cd92d0956c6c6
+ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25549763"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25577097"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -37,13 +37,11 @@ Office 365의 민감도 레이블을 사용자의 생산성 및 공동 작업 �
     
 - **Windows 실행 장치에 있는 중요한 콘텐츠가 조직 외부로 유출되지 않도록 방지.** 이를 위해 Microsoft Intune의 엔드포인트 보호 기능을 사용합니다. 민감도 레이블을 Windows 장치에 상주하는 콘텐츠에 적용하면 엔드포인트 보호 기능이 콘텐츠가 Twitter 또는 Gmail과 같은 타사 앱으로 복사되거나, USB 드라이브와 같은 이동식 저장소에 복사되지 않도록 할 수 있습니다.
 
-- **타사 앱 및 서비스의 콘텐츠 보호.** 이를 위해 CAS(클라우드 앱 보안)를 사용합니다. CAS를 사용하여 SalesForce, Box 또는 Dropbox와 같은 타사 서비스 및 앱에 있는 콘텐츠를 감지, 분류, 레이블 지정 및 보호할 수 있습니다. 타사 앱 또는 서비스가 민감도 레이블을 읽지 않고 지원하지 않더라도 문제가 되지 않습니다.    
+- **민감도 레이블을 타사 앱 및 서비스로 확장.** Microsoft Information Protection SDK를 사용할 경우 Windows, Mac 및 Linux의 타사 앱은 민감도 레이블을 읽고 보호 설정을 적용할 수 있습니다. iOS 및 Android 앱도 곧 지원될 예정입니다.
 
-- **민감도 레이블을 타사 앱 및 서비스로 확장.** Microsoft Information Protection SDK를 사용할 경우 Windows, Mac 및 Linux의 타사 앱은 민감도 레이블을 읽고 보호 설정을 적용할 수 있습니다. IOS 및 Android 앱도 곧 지원될 예정입니다.
-
-- **보호 설정을 사용하지 않고 콘텐츠 분류.** 콘텐츠가 사용 및 공유될 때 콘텐츠와 함께 유지 및 로밍되는 분류(예: 스티커)를 콘텐츠에 간단히 지정할 수 있습니다. 이러한 분류를 사용하여 중요한 콘텐츠에 대한 사용 현황 보고서를 생성하고 활동 데이터를 확인할 수 있습니다. 이 정보를 토대로, 나중에 항상 문서 분류에 따라 적용될 수 있는 보호 설정을 구성하도록 선택할 수 있습니다.
+- **보호 설정을 사용하지 않고 콘텐츠 분류.** 콘텐츠가 사용 및 공유될 때 콘텐츠와 함께 유지 및 로밍되는 분류(예: 스티커)를 콘텐츠에 간단히 지정할 수 있습니다. 이러한 분류를 사용하여 중요한 콘텐츠에 대한 사용 현황 보고서를 생성하고 활동 데이터를 확인할 수 있습니다. 이 정보를 토대로, 나중에 언제든지 보호 설정을 적용하도록 선택할 수 있습니다.
     
-이러한 모든 경우에 Office 365에서 민감도 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 레이블을 사용하여 조직의 데이터를 분류하고 해당 분류에 따라 보호 설정을 적용할 수 있습니다.
+이러한 모든 경우에 Office 365에서 민감도 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 민감도 레이블을 사용하여 조직의 데이터를 분류하고 해당 분류에 따라 보호 설정을 적용할 수 있습니다.
   
 Office 365 보안 및 준수 센터에서 민감도 레이블을 만듭니다. 이제 보안 및 준수 센터는 Azure Information Protection 및 Office 365에서 민감도 레이블 및 정책을 구성하기 위한 단일 위치로 사용됩니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱 및 Office 365 서비스에서 사용될 수 있습니다.
 
@@ -73,9 +71,9 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - 전자 메일만 또는 전자 메일과 문서를 모두 **암호화**합니다. 어떤 사용자 또는 그룹에게 얼마의 기간 동안 어떤 작업을 수행할 수 있는 권한을 부여할지를 선택할 수 있습니다. 예를 들어, 조직 외부의 특정 도메인에 있는 사용자에게 콘텐츠에 레이블이 지정되고 7일 동안만 콘텐츠를 검토하기 위한 권한을 부여하도록 선택할 수 있습니다.
 
-- 레이블이 적용된 전자 메일 또는 문서에 사용자 지정 워터마크, 머리글 또는 바닥글을 추가하여 **콘텐츠에 표시**. (워터마크는 전자 메일이 아닌 문서에만 적용됩니다.)
+- 레이블이 적용될 이메일 또는 문서에 사용자 지정 워터 마크, 머리글 또는 바닥글을 추가하여 **콘텐츠를 표시**합니다. 워터 마크는 이메일이 아닌 문서에만 적용되며 255자로 제한됩니다. 또한, 머리글과 바닥글은 1024자로 제한되는데, Excel에서는 예외적으로 253자로 제한됩니다.
 
-    ![워터마크 및 머리글이 적용된 문서](media/Sensitivity_label_watermark_header.png)
+    ![문서에 적용된 워터마크 및 머리글](media/Sensitivity_label_watermark_header.png)
 
 - Intune의 엔드포인트 보호를 켜서 **데이터 손실을 방지**합니다. 중요한 콘텐츠가 다운로드되면 Windows 장치에서 데이터가 손실되지 않도록 할 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블은 WIP(Windows Information Protection)를 사용하려면 먼저 Azure Portal에서 앱 보호 정책을 만들어야 합니다. 자세한 내용은 [Windows Information Protection로 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/en-us/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하세요.
 
@@ -141,7 +139,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 ## <a name="where-sensitivity-labels-can-appear"></a>민감도 레이블이 표시될 수 있는 위치
 
-민감도 레이블은 Office 앱의 UI에 나타납니다. 특정 앱 및 플랫폼의 현재 가용성을 보려면 [해당 기능을 지금 사용할 수 있는 위치](https://support.office.com/ko-KR/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9?ad=US&ui=en-US&rs=en-US#bkmk_whereavailable)를 참조하세요.
+민감도 레이블은 Office 앱의 UI에 나타납니다. 특정 앱 및 플랫폼의 현재 가용성을 보려면 **[해당 기능을 지금 사용할 수 있는 위치](https://support.office.com/ko-KR/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9?ad=US&ui=en-US&rs=en-US#bkmk_whereavailable)** 를 참조하세요.
 
 ### <a name="office-apps-on-windows"></a>Windows의 Office 앱
 
@@ -149,7 +147,7 @@ Windows를 실행하는 장치의 Office 앱에서 민감도 레이블은 리본
 
 Windows의 Office 앱에서 사용되는 민감도 레이블도 곧 기본적으로 지원될 예정입니다.
 
-기존 Azure Information Protection 고객인 경우 민감도 레이블을 지원하며 곧 제공될 예정인 Azure Information Protection 통합 레이블 클라이언트를 배포할 수 있습니다(클라이언트 배포 방법에 대한 정보로 연결된 링크 다시 확인). 현재 Windows의 Office 앱에 사용되는 민감도 레이블을 기본적으로 지원하기 위해 작업 중이므로 앞으로 Azure Information Protection 통합 레이블 클라이언트는 더 이상 필요하지 않게 됩니다.
+기존 Azure Information Protection 고객인 경우 민감도 레이블을 지원하며 곧 제공될 예정인 Azure Information Protection 통합 레이블 클라이언트를 배포할 수 있습니다(클라이언트 배포 방법에 대한 정보로 연결되는 링크를 나중에 다시 확인). 현재 Windows의 Office 앱에 사용되는 민감도 레이블을 기본적으로 지원하기 위해 작업 중이므로 앞으로 Azure Information Protection 통합 레이블 클라이언트는 더 이상 필요하지 않게 됩니다.
 
 ![Windows의 Excel 리본에 포함된 민감도 단추](media/Sensitivity_label_Sensitivity_button.png)
 
@@ -187,7 +185,7 @@ Azure Information Protection 레이블을 사용하는 경우, 마이그레이�
 
 ## <a name="protect-content-on-windows-devices-by-using-endpoint-protection-in-microsoft-intune"></a>Microsoft Intune의 엔드포인트 보호 기능을 사용하여 Windows 장치에서 콘텐츠 보호
 
-민감도 레이블을 만들 경우 이 레이블이 있는 파일이 중요하며, Windows 장치에 저장할 경우 데이터 누출로부터 보호해야 한다는 사실을 Windows 장치에 알려주는 옵션이 제공됩니다. 이 옵션을 사용하여 이 레이블이 있는 콘텐츠가 엔드포인트에 저장되어 있더라도 승인된 위치에서만 공유 또는 복사하도록 할 수 있습니다. 기본적으로 민감도 레이블에 대해 이 옵션을 켜면 추가적인 사용 제약 조건을 보증하는 데 매우 중요한 데이터라는 것을 Windows에 알릴 수 있습니다.
+민감도 레이블을 만들 경우 이 레이블이 있는 파일이 중요하며, Windows 장치에 저장할 경우 데이터 누출로부터 보호해야 한다는 사실을 Windows 장치에 알려주는 옵션이 제공됩니다. 이 옵션을 사용하여 이 레이블이 있는 콘텐츠가 엔드포인트에 저장되어 있더라도 승인된 위치에만 공유 또는 복사하도록 할 수 있습니다. 기본적으로 민감도 레이블에 대해 이 옵션을 켜면 추가적인 사용 제약 조건을 보증하는 데 매우 중요한 데이터라는 것을 Windows에 알릴 수 있습니다.
 
 이 옵션을 설정하면 Windows는 문서의 민감도 레이블을 읽고, 이해하고, 관련 작업을 수행할 수 있으며, 관리되는 Windows 장치에 연결되는 방식에 관계없이, 콘텐트에 WIP(Windows Information Protection)를 자동으로 적용할 수 있습니다. 이를 통해 암호화 적용 여부에 관계없이, 레이블이 지정된 파일을 우연한 누출로부터 보호할 수 있습니다.
 
@@ -207,22 +205,9 @@ Azure Information Protection 레이블을 사용하는 경우, 마이그레이�
 
 - Windows 10, 버전 1809 이상을 실행 중인지 확인합니다.
 - [WDATP(Windows Defender Advanced Threat Protection)를 설정](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-atp/get-started)합니다. 이 기능은 콘텐츠에서 레이블을 검색하고 해당 WIP 보호를 적용합니다. ATP는 변칙 보고와 같은 일부 작업을 WIP와는 별도로 수행합니다.
-- 엔드포인트 장치에 적용되는 WIP(Windows Information Protection) 정책을 만듭니다.
-    - [Microsoft Intune용 Azure Portal을 사용하여 MDM으로 에 WIP(Windows Information Protection) 정책 만들기](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+- 엔드포인트 장치에 적용되는 WIP(Windows Information Protection) 정책을 만듭니다. 다음 중 하나의 위치에서 이를 수행할 수 있습니다.
+    - [Microsoft Intune용 Azure Portal을 사용하여 MDM으로 WIP(Windows Information Protection) 정책 만들기](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
     - [System Center Configuration Manager를 사용하여 WIP(Windows Information Protection) 정책 만들기 및 배포](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
-
-## <a name="protect-content-in-third-party-apps-and-services-by-using-microsoft-cloud-app-security"></a>Microsoft Cloud App Security를 사용하여 타사 앱 및 서비스의 콘텐츠 보호
-
-CAS(클라우드 앱 보안)를 사용하여 타사 앱 및 서비스의 콘텐츠를 보호합니다. CAS를 사용하여 SalesForce, Box 또는 Dropbox와 같은 타사 서비스 및 앱에 있는 콘텐츠를 감지, 분류, 레이블 지정 및 보호할 수 있습니다. 예를 들어, Dropbox는 민감도 레이블을 이해할 수 없지만 CAS는 해당 위치에 연결하여 레이블이 지정된 콘텐츠를 보호할 수 있습니다. 
-
-자세한 내용은 [Azure Information Protection 분류 레이블 자동 적용](https://docs.microsoft.com/ko-KR/cloud-app-security/use-case-information-protection)을 참조하세요.
-
-### <a name="important-prerequisites"></a>중요한 필수 구성 요소
-
-민감도 레이블이 CAS를 사용하려면, [Azure Information Protection 분류 레이블 자동 적용](https://docs.microsoft.com/ko-KR/cloud-app-security/use-case-information-protection)에 설명된 필수 구성 요소를 수행해야 합니다. 이 항목에서는 다음과 같은 필수 구성 요소에 대해 설명합니다.
-
-- 테넌트에 대해 [Cloud App Security 및 Azure Information Protection를 사용하도록 설정](https://docs.microsoft.com/ko-KR/cloud-app-security/azip-integration)합니다.
-- Cloud App Security에 [앱을 연결](https://docs.microsoft.com/ko-KR/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps)합니다.
 
 ## <a name="extend-sensitivity-labels-to-third-party-apps-and-services-by-using-the-microsoft-information-protection-sdk"></a>Microsoft Information Protection SDK를 사용하여 타사 앱 및 서비스로 민감도 레이블 확장
 
