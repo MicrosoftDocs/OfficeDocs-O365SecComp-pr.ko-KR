@@ -3,7 +3,7 @@ title: EOP 서비스 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/9/2016
+ms.date: 10/23/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 Configure mail flow using connectors in Office 365을 참조하세요.
-ms.openlocfilehash: f1c65164adcaa17c58ae9c4b4b957c477b9e02f3
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 6c9e3becf0f86deeee92ec7cf336bdbd950ac5e2
+ms.sourcegitcommit: f49ab866e21da83a0be6cb23ab7b6b4366a6a7ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027115"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25715904"
 ---
 # <a name="set-up-your-eop-service"></a>EOP 서비스 설정
 
@@ -49,7 +49,7 @@ ms.locfileid: "22027115"
 2. 도메인 소유권 확인을 위해 해당 DNS 레코드를 DNS 호스팅 공급자에 추가하는 단계를 수행합니다.
     
 > [!TIP]
-> 서비스에 도메인을 추가하고 DNS를 구성할 때 참조하면 유용한 리소스인 [Office 365에 도메인 추가](https://go.microsoft.com/fwlink/p/?LinkId=282303) 및 [Office 365용 DNS 레코드 만들기](https://go.microsoft.com/fwlink/p/?LinkId=304219)의 내용을 확인하십시오. 
+> 서비스에 도메인을 추가하고 DNS를 구성할 때 참조하면 유용한 리소스인 [Office 365에 도메인 추가](https://support.office.com/en-us/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611) 및 [Office 365용 DNS 레코드 만들기](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)의 내용을 확인하십시오. 
   
 ### <a name="step-2-add-recipients-and-optionally-enable-dbeb"></a>2단계: 받는 사람을 추가하고 선택적으로 DBEB 사용
 
