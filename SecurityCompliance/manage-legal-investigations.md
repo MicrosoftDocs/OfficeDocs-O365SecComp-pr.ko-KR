@@ -3,7 +3,7 @@ title: Office 365에서 법적 조사를 관리 합니다.
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 5/18/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: EDiscovery 사례를 사용 하 여 Office 365 보안에서 &amp; 준수 센터 조직의 법적 조사를 관리할 수 있습니다. E 5 구독이 있는 경우 텍스트 분석, 컴퓨터 학습 및 고급 eDiscovery의 예측 코딩 기능을 사용 하 여 추가로 사례 데이터를 분석할 수 있습니다.
-ms.openlocfilehash: 7d00268a94613dfc0a1bef6314b5f917de5b9954
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 4e7b9117b3f0cb2fd6d4e70a7767f3cbe7b79724
+ms.sourcegitcommit: 01813cb9bbc2400d21bc99144745af953f9356e8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038271"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25719052"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Office 365에서 법적 조사를 관리 합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "25038271"
    
 ## <a name="manage-legal-investigations-with-ediscovery-cases"></a>EDiscovery 사례와 법적 조사를 관리 합니다.
 
-eDiscovery 사례 사항을 제어할 수 있습니다는 만들기, 액세스 및 조직에서 eDiscovery 사례를 관리할 수 있습니다. 사례를 사용 하 여 멤버와 어떤 종류의 작업 수행, 관련 된 법적, 콘텐츠 위치에 보류를 배치 및 콘텐츠 검색 도구를 사용 하 여 위치를 검색할 수 있습니다 사례에 응답 될 수 있는 콘텐츠를 보존 하는 컨트롤을 추가 합니다. 다음도 내보내기 및 외부 검토자가 자세한 조사를 위해 해당 결과 다운로드할 수 있습니다. Office 365 조직에 e 5 구독 준비할 수도 있습니다 검색 결과에서 고급 eDiscovery 분석에 대 한 경우.
+eDiscovery 사례 사항을 제어할 수 있습니다는 만들기, 액세스 및 조직에서 eDiscovery 사례를 관리할 수 있습니다. 사례를 사용 하 여 멤버와 어떤 종류의 작업 수행, 관련 된 법적, 콘텐츠 위치에 보류를 배치 및 콘텐츠 검색 도구를 사용 하 여 위치를 검색할 수 있습니다 사례에 응답 될 수 있는 콘텐츠를 보존 하는 컨트롤을 추가 합니다. 다음도 내보내기 및 외부 검토자가 자세한 조사를 위해 해당 결과 다운로드할 수 있습니다. Office 365 조직에 e 5 구독을 하는 경우에 고급 eDiscovery에 대 한 분석을 위해 검색 결과 준비할 수 있습니다.
   
 - [관리 eDiscovery 워크플로](ediscovery-cases.md) 만들고 모든 법적 조사를 위해 eDiscovery 사례를 사용 하 여 조직에 평가할지를 
     
