@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 87496bc5-9601-4473-8021-cb05c71369c1
 description: '정책 팁은 알림 또는 다른 사용자가 작업을 수행할 때는 콘텐츠 DLP 정책 사용 하 여 충돌 하는 표시 되는 경고입니다. 보다 많은 늘린 대상 조직의 정책에 대 한 사용자 교육을 실시 하는 데 도움이 되는 전자 메일 알림 및 정책 팁을 사용할 수 있습니다. 또한 사용자는 유효한 비즈니스 있을 경우 차단 되지는 수 있도록 정책을 재정의 하는 옵션에 필요한 님 또는 정책을 가양성을 감지 하 고 하는 경우 수 있습니다. '
-ms.openlocfilehash: a24afe6dd1203af4dc1f0f21468e828751bc5f3b
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: f95e392cc6cced6da29d34abfcab0fa0c3add069
+ms.sourcegitcommit: 3ac6452ab77a761d06122c35c5f4a76da4472990
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534106"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25769917"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>전자 메일 알림을 보내고 DLP 정책에 대 한 정책 팁을 표시 합니다.
 
@@ -49,7 +49,7 @@ Office 365 보안에서 &amp; DLP 정책을 만들 때 준수 센터, 사용자 
 
 DLP 정책을 만들 때 전자 메일 알림 및 정책 팁을 모두 **사용자 알림** 섹션에 포함 됩니다. 
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다. Office 365 보안에서 이제는 &amp; 준수 센터입니다.
     
@@ -206,6 +206,25 @@ DLP 정책은 사이트와 동기화되고 정책을 기준으로 콘텐츠가 �
 ![정책 팁을 재정의할 수 있는 정책 팁 대화 상자](media/f97e836c-04bd-44b4-aec6-ed9526ea31f8.png)
   
 전자 메일에 중요 한 정보를 추가할 때 있을 수 있다는 중요 한 정보가 추가 되 면 정책 팁 표시 되 면 사이의 대기 시간 note 합니다.
+
+### <a name="outlook-2013-and-later-supports-showing-policy-tips-for-only-some-conditions"></a>Outlook 2013 및 일부 조건만 대 한 정책 팁을 보여주는 이상 지원
+
+현재 Outlook 2013 이상에서는 이러한 조건에 대해서만 보여주는 정책 팁을 지원합니다.
+
+- 콘텐츠 포함
+- 콘텐츠를 공유 하는
+
+현재 진행 중 추가 조건에 대 한 정책 팁을 표시 하는 것에 대 한 지원 합니다. 다음과 같습니다.
+
+- 전자 메일 첨부 파일의 콘텐츠를 검색 하지 못했습니다.
+- 전자 메일 첨부 파일의 콘텐츠 검사를 완료 하지
+- 첨부 파일 확장명은
+- 첨부 파일이 암호로 보호 된
+- 문서 속성은
+- 받는 사람 도메인은
+- 보낸 IP 주소는
+
+Outlook에서는 콘텐츠가 일치 및 보호 작업 콘텐츠에 적용 됩니다 작동 이러한 조건을 모두 note 합니다. 하지만 사용자에 게 정책 팁을 보여주는 아직 지원 되지 않습니다.
   
 ### <a name="policy-tips-in-the-exchange-admin-center-vs-the-office-365-security-amp-compliance-center"></a>정책 팁 (영문)-Office 365 보안 Exchange 관리 센터에서 &amp; 준수 센터
 
@@ -218,8 +237,7 @@ Exchange 관리 센터에서 Office 365 보안을 구성 하는 모든 정책 �
 ### <a name="default-text-for-policy-tips-in-email"></a>전자 메일에 정책 팁에 대 한 기본 텍스트
 
 기본적으로 정책 팁 전자 메일에 대해 다음과 같은 텍스트가 표시 됩니다.
-  
-| |
+
 |**DLP 정책 규칙이 수행하는 작업...**|**기본 정책 팁에 표시되는 내용...**|
 |:-----|:-----|
 |알림을 보내는 하지만 재정의 허용 하지 않습니다.  <br/> |조직에서 정책 사용 하 여 사용자 전자 메일 충돌 합니다.  <br/> |
@@ -255,8 +273,7 @@ DLP 정책의 정책 팁이 이러한 옵션으로 구성되어 있는 경우 �
 ### <a name="default-text-for-policy-tips-in-excel-2016-powerpoint-2016-and-word-2016"></a>Excel 2016, PowerPoint 2016 및 Word 2016 정책 팁에 대한 기본 텍스트
 
 기본적으로 열린 문서의 메시지 표시줄 및 Backstage 보기에 다음과 비슷한 텍스트가 정책 팁으로 표시됩니다. 알림 텍스트는 각 규칙에 대해 별도로 구성되므로 일치하는 규칙에 따라 표시되는 텍스트가 달라집니다.
-  
-| |
+
 |**DLP 정책 규칙이 수행하는 작업...**|**기본 정책 팁에 표시되는 내용...**|
 |:-----|:-----|
 |알림을 보내는 하지만 재정의 허용 하지 않습니다.  <br/> |조직에서 정책 사용 하 여이 파일 충돌 합니다. 자세한 내용은 **파일** 메뉴로 이동 합니다.<br/> |
