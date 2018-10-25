@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365의 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 736975d10084cb6672ae21b1716cd92d0956c6c6
-ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
+ms.openlocfilehash: 9d3082d7bd5ce2b090c8e03605c2a8825a5acce3
+ms.sourcegitcommit: e9c3befa019463aedce681607fd23786786f76aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25577097"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678127"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -71,7 +71,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - 전자 메일만 또는 전자 메일과 문서를 모두 **암호화**합니다. 어떤 사용자 또는 그룹에게 얼마의 기간 동안 어떤 작업을 수행할 수 있는 권한을 부여할지를 선택할 수 있습니다. 예를 들어, 조직 외부의 특정 도메인에 있는 사용자에게 콘텐츠에 레이블이 지정되고 7일 동안만 콘텐츠를 검토하기 위한 권한을 부여하도록 선택할 수 있습니다.
 
-- 레이블이 적용될 이메일 또는 문서에 사용자 지정 워터 마크, 머리글 또는 바닥글을 추가하여 **콘텐츠를 표시**합니다. 워터 마크는 이메일이 아닌 문서에만 적용되며 255자로 제한됩니다. 또한, 머리글과 바닥글은 1024자로 제한되는데, Excel에서는 예외적으로 253자로 제한됩니다.
+- 레이블이 적용된 이메일 또는 문서에 사용자 지정 워터마크, 머리글 또는 바닥글을 추가하여 **콘텐츠를 표시**합니다. 워터마크는 이메일이 아닌 문서에만 적용되며 255자로 제한됩니다. 또한, 머리글과 바닥글은 1024자로 제한되는데, Excel에서는 문서에 다른 머리글 또는 바닥글 및 기타 요소가 포함되어 있는지 여부에 따 예외적으로 253자 이하로 제한됩니다.
 
     ![문서에 적용된 워터마크 및 머리글](media/Sensitivity_label_watermark_header.png)
 
@@ -91,9 +91,9 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 ### <a name="sublabels-grouping-labels"></a>하위 레이블(레이블 그룹화)
 
-하위 레이블을 사용하면 Office 앱에서 표시되는 하나 이상의 레이블을 머리글 아래에 그룹화할 수 있습니다. 예를 들어 조직은 기밀 아래에서 해당 분류의 특정 유형에 대해 여러 다른 레이블을 사용할 수 있습니다. 기밀은 보호 설정이 없는 텍스트 레이블에 불과하므로, 콘텐츠에 적용할 수 없습니다. 대신, 하위 레이블을 표시할 때 기밀을 선택하고, 콘텐츠에 적용할 하위 레이블을 선택해야 합니다.
+하위 레이블을 사용하면 Office 앱에서 표시되는 하나 이상의 레이블을 머리글 아래에 그룹화할 수 있습니다. 예를 들어 조직은 기밀 아래에서 해당 분류의 특정 유형에 대해 여러 다른 레이블을 사용할 수 있습니다. 이 예에서 기밀 레이블은 보호 설정이 없는 텍스트 레이블에 불과하고 하위 레이블이 있기 때문에 콘텐츠에 적용할 수 없습니다. 대신, 사용자는 기밀을 선택하여 하위 레이블을 표시한 후 콘텐츠에 적용할 하위 레이블을 선택해야 합니다.
 
-하위 레이블은 논리 그룹의 사용자에게 레이블을 제공하는 간단한 방법입니다. 하위 레이블은 속하는 레이블의 설정을 상속하지 않습니다.
+하위 레이블은 논리 그룹의 사용자에게 레이블을 제공하는 간단한 방법입니다. 하위 레이블은 상 레이블의 설정을 상속하지 않습니다.
 
 ![리본의 그룹화된 하위 레이블](media/Sensitivity_label_grouped_labels.png)
 
@@ -147,7 +147,7 @@ Windows를 실행하는 장치의 Office 앱에서 민감도 레이블은 리본
 
 Windows의 Office 앱에서 사용되는 민감도 레이블도 곧 기본적으로 지원될 예정입니다.
 
-기존 Azure Information Protection 고객인 경우 민감도 레이블을 지원하며 곧 제공될 예정인 Azure Information Protection 통합 레이블 클라이언트를 배포할 수 있습니다(클라이언트 배포 방법에 대한 정보로 연결되는 링크를 나중에 다시 확인). 현재 Windows의 Office 앱에 사용되는 민감도 레이블을 기본적으로 지원하기 위해 작업 중이므로 앞으로 Azure Information Protection 통합 레이블 클라이언트는 더 이상 필요하지 않게 됩니다.
+기존 Azure Information Protection 고객인 경우 민감도 레이블을 지원하는 Azure Information Protection 통합 레이블 클라이언트를 배포할 수 있습니다. 클라이언트 다운로드에 대한 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트: 버전 릴리스 정보](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조하십시. 현재 Windows의 Office 앱에 사용되는 민감도 레이블을 기본적으로 지원하기 위해 작업 중이므로 앞으로 Azure Information Protection 통합 레이블 클라이언트는 더 이상 필요하지 않게 됩니다.
 
 ![Windows의 Excel 리본에 포함된 민감도 단추](media/Sensitivity_label_Sensitivity_button.png)
 
