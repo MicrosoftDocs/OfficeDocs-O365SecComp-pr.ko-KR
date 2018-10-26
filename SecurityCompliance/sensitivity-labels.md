@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365의 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 9d3082d7bd5ce2b090c8e03605c2a8825a5acce3
-ms.sourcegitcommit: e9c3befa019463aedce681607fd23786786f76aa
+ms.openlocfilehash: d08f0e630aeec185ac36998e611fa11ba5c5e007
+ms.sourcegitcommit: 3ac6452ab77a761d06122c35c5f4a76da4472990
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678127"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25769907"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -147,7 +147,7 @@ Windows를 실행하는 장치의 Office 앱에서 민감도 레이블은 리본
 
 Windows의 Office 앱에서 사용되는 민감도 레이블도 곧 기본적으로 지원될 예정입니다.
 
-기존 Azure Information Protection 고객인 경우 민감도 레이블을 지원하는 Azure Information Protection 통합 레이블 클라이언트를 배포할 수 있습니다. 클라이언트 다운로드에 대한 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트: 버전 릴리스 정보](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조하십시. 현재 Windows의 Office 앱에 사용되는 민감도 레이블을 기본적으로 지원하기 위해 작업 중이므로 앞으로 Azure Information Protection 통합 레이블 클라이언트는 더 이상 필요하지 않게 됩니다.
+기존 Azure Information Protection 고객인 경우 민감도 레이블을 지원하는 Azure Information Protection 통합 레이블 클라이언트를 배포할 수 있습니다. 클라이언트 다운로드에 대한 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트: 버전 릴리스 정보](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조하십시오. 현재 Windows의 Office 앱에 사용되는 민감도 레이블을 기본적으로 지원하기 위해 작업 중이므로 앞으로 Azure Information Protection 통합 레이블 클라이언트는 더 이상 필요하지 않게 됩니다.
 
 ![Windows의 Excel 리본에 포함된 민감도 단추](media/Sensitivity_label_Sensitivity_button.png)
 
