@@ -13,12 +13,12 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 권한 하는 방법에 대 한 자세한 내용은 Office 365의에서 관리 기능에 액세스
-ms.openlocfilehash: e92bbecd5957261c1eaf3088d872ae6572b7f235
-ms.sourcegitcommit: 659b5f5b38ef7e838cdb44eaa38c18e48d922768
+ms.openlocfilehash: 5056c19acb03b2486cc84fe085ffd6c2814007dc
+ms.sourcegitcommit: a07b91723bae9ecee2cb092bfbc5b208b30b11a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25575342"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "25793553"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Office 365의에서 관리 기능에 액세스 권한
 
@@ -67,7 +67,7 @@ Office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여, �
 
 ![단계 4-액세스 처리](media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-skus-do-i-need-to-use-privileged-access-in-office-365"></a>Office 365에서 권한이 부여 된 액세스를 사용 하 여 어떤 Sku를 필요 합니까?
 액세스 권한이 부여 된 현재 관리는 Office 365 e 5 및 고급 준수 Sku와 고객을 위해 사용할 수만 있습니다.
@@ -80,7 +80,7 @@ Office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여, �
 Office 365 조직 곧 당 30 권한이 부여 된 액세스 정책의 현재 한계를 늘리려면 계획 합니다.
 
 ### <a name="do-i-need-to-be-a-global-admin-to-manage-privileged-access-in-office-365"></a>Office 365에 대 한 액세스 권한을된 관리 하는 전역 관리자 되도록 필요 합니까?
-Office 365에 대 한 액세스 권한을된 관리할 수 있도록 전역 관리자 권한을 있으므로 해야 합니다. 승인자의 그룹에 포함 된 사용자 수를 검토 하 고 요청을 승인 하려면 전역 관리자 필요가 없습니다. 
+아니요, Office 365에 대 한 액세스 권한을된 관리 하는 계정에 할당 된 Exchange 역할 관리 역할을 해야 합니다. 그러나 전역 관리자 역할 기본적으로이 역할을 포함 하 고는 독립 실행형 계정 사용 권한으로 역할 관리 역할을 구성 하지 않을 경우 권한이 부여 된 액세스를 관리 하는데 사용할 수 있습니다. 승인자의 그룹에 포함 된 사용자는 전역 관리자 이거나 요청 검토 및 승인에 할당 된 역할 관리 역할을 가질 필요가 없습니다. 
 
 ### <a name="how-is-privileged-access-management-in-office-365-related-to-customer-lockbox"></a>Office 365와 관련 된 고객 Lockbox에서에서 액세스 권한을된 관리는 어떻게 합니까?
 [고객 Lockbox](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2) 서비스 공급자, 즉, Microsoft가 데이터에 대 한 액세스에 대 한 조직에 대 한 액세스 제어의 수준 수 있습니다. 액세스 권한이 부여 된 Office 365의 관리는 모든 Office 365의 권한 있는 작업에 대 한 조직 내에서 세분화 된 액세스 제어를 허용 합니다.
