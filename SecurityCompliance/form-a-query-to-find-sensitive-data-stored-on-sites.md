@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 3019fbc5-7f15-4972-8d0e-dc182dc7f836
 description: SharePoint Online에서 데이터 손실 방지 (DLP), 테 넌 트 전체에서 중요 한 데이터를 포함 하는 문서를 검색할 수 있습니다. 문서를 검색 한 후 데이터를 보호 하기 위해 문서 소유자와 함께 작업할 수 있습니다. 이 항목 중요 한 데이터를 검색 하는 쿼리를 형성 하는 데 도움이 됩니다.
-ms.openlocfilehash: 13954a856dd265e3b735d940c7d334d922713637
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c30cb2e4b93e1a7db90f3e3f922f406285c6f692
+ms.sourcegitcommit: 81e06e09bf5ca8e3f51b164d6251b1c35b3285cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013862"
+ms.lasthandoff: 10/27/2018
+ms.locfileid: "25829189"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 
@@ -84,9 +84,7 @@ ms.locfileid: "23013862"
    
 ## <a name="for-more-information"></a>자세한 내용
 
-[SharePoint Online 사이트에 저장 된 중요 한 데이터를 검색 합니다.](https://support.office.com/article/ef788d8f-9748-4025-bfe4-40541ca4cfb2)
-  
-[중요 한 정보 유형 목록](https://go.microsoft.com/fwlink/?LinkID=509999)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
   
 [콘텐츠 검색을 실행 하는 Office 365 보안에서 &amp; 준수 센터](run-a-content-search-in-the-security-and-compliance-center.md)
   

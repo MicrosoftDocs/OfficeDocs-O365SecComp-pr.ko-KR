@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1966b2a7-d1e2-4d92-ab61-42efbb137f5e
 description: Office 365 보안에서 데이터 손실 방지 (DLP) 정책을 사용 하 여 &amp; 준수 센터 식별, 모니터링 및 Office 365에서 중요 한 정보를 자동으로 보호 합니다.
-ms.openlocfilehash: c33fe53797f86208e7cd033029949737a5c84d2f
-ms.sourcegitcommit: 397a5fe594e4cf4bb64c0c6f233d310ef3cbd922
+ms.openlocfilehash: b342686f38d734a0eff0df896204d7a2f4bfde6a
+ms.sourcegitcommit: 81e06e09bf5ca8e3f51b164d6251b1c35b3285cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540424"
+ms.lasthandoff: 10/27/2018
+ms.locfileid: "25829199"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -312,7 +312,7 @@ Label을 만들 수 있습니다 다음:
     
 - 사용자가 선택한 조건과 일치 하는 콘텐츠를 하 **자동 적용** 합니다. 
     
-레이블에 대한 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.
+레이블에 대 한 자세한 내용은 [보존 레이블의 개요](labels.md)를 참조 하십시오.
   
 Label을 만든 후 DLP 정책에 조건으로 해당 레이블을 다음 사용할 수 있습니다. 예 때문에이 작업을 수행 하려는 될 수 있습니다.
   
@@ -327,12 +327,16 @@ Label을 만든 후 DLP 정책에 조건으로 해당 레이블을 다음 사용
 DLP 규칙의 조건으로 레이블을 사용 하 여 있습니다 선택적으로 적용할 수 콘텐츠, 위치 또는 사용자의 특정 집합에 작업을 보호 합니다.
   
 ![조건으로 레이블 지정](media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
+
+### <a name="support-for-sensitivity-labels-is-coming"></a>우편물 레이블에 대 한 지원이 곧 제공 될
+
+참고 보존 레이블만 사용 하 여 [우편물 레이블](sensitivity-labels.md)아님 조건으로 현재 있습니다. 현재 진행 중 우편물 레이블이이 조건에 사용할 수 있도록 지원 합니다.
   
 ### <a name="how-this-feature-relates-to-other-features"></a>이 기능은 관계를 다른 기능
 
 여러 기능이 중요 한 정보를 포함 하는 내용에 적용할 수 있습니다.
   
-- [조건에 따라 자동으로 레이블 적용] [보존 레이블](labels.md#applying-a-retention-label-automatically-based-on-conditions)및 [보존 정책](retention-policies.md) 모두에이 콘텐츠에 대해 **보존** 작업을 적용할 수 있습니다. 
+- [보존 레이블](labels.md#applying-a-retention-label-automatically-based-on-conditions) 및 [보존 정책](retention-policies.md) 모두에이 콘텐츠에 대해 **보존** 작업을 적용할 수 있습니다. 
     
 - DLP 정책에이 콘텐츠에 대해 **보호** 작업을 적용할 수 있습니다. 및 DLP 정책을 적용 (영문) 이러한 작업을 하기 전에 다른 조건 레이블을 포함 된 콘텐츠 외에도 충족 필요할 수 있습니다. 
     
@@ -484,7 +488,7 @@ DLP 정책 만들기는 규정 준수 팀 구성원 보안에 대 한 사용 권
     
 그러나 Office 365를 포함 하 여 Exchange Online 간에 DLP 보고서에서 데이터를 가져오는 필요 합니다. DLP 보고서에 대 한 cmdlet은 이러한 이유 때문에 대 한 보안에 없는 Exchange Online Powershell-에서 사용할 수 있는 &amp; 준수 센터 Powershell 합니다. 따라서 DLP 보고서에 대 한 cmdlet을 사용 하려면:
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)
+1. [Connect to Exchange Online using remote PowerShell](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)(원격 PowerShell을 사용하여 Exchange Online에 연결)
     
 2. DLP 보고서에 대 한 이러한 cmdlet 중 하나를 사용 합니다.
     
