@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 description: Outlook 및 Outlook에서 개별 사용자에 대 한 웹 또는 전체 조직에 대 한 보고서 메시지 추가 기능을 사용 하는 방법에 알아봅니다.
-ms.openlocfilehash: ad07d594a78b8134984b48f08898ad1ba697e03a
-ms.sourcegitcommit: 49b565f6a57febe53f331b2605d6a06d11e2d0be
+ms.openlocfilehash: 8c9853c78a42d6eecd0989475ef8f0a44345f812
+ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25638012"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25857266"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -41,7 +41,7 @@ Exchange Online의 관리자 인 경우에 [조직에 대 한 보고서 메시�
     
 ## <a name="get-the-report-message-add-in-for-yourself"></a>메시지가 표시 되는 보고서 추가 기능에서 자신에 대 한
 
-1. [Office를 저장](https://appsource.microsoft.com/product/office/WA104381180?src=office), 추가 기능에서 보고서 메시지 가져옵니다.
+1. [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps) [보고서 메시지 추가 기능에](https://appsource.microsoft.com/product/office/wa104381180)대 한 검색 합니다.
     
 2. 선택 **가져올 이제 IT**합니다.<br/>![메시지를 보고-지금 신청](media/ReportMessageGETITNOW.png)<br/> 
     
@@ -86,7 +86,7 @@ Exchange Online의 관리자 인 경우에 [조직에 대 한 보고서 메시�
     
 11. 추가 기능에서 보고서 메시지를 누가 지정 합니다. <br/>![추가 기능에서 보고서 메시지를 누가 지정](media/ReportMessageChooseWhoGetsItAdminSettings.png)<br/>
 
-12. **저장**을 선택합니다. <br/>
+12. **Save(저장)** 를 선택합니다. <br/>
 > [!TIP]
 > [사용자가 보고 하는 전자 메일 메시지의 복사본을 가져오시겠습니까 규칙 설정](#set-up-a-rule-to-get-a-copy-of-email-messages-reported-by-your-users) 좋습니다.
 
@@ -126,7 +126,7 @@ Exchange Online의 관리자 인 경우에 [조직에 대 한 보고서 메시�
     
     ![보고 된 각 메시지의 복사본을 가져오시겠습니까 규칙을 설정 합니다.](media/f1cd95ce-e40d-4a8a-8f48-893469eba691.png)
   
-10. **저장**을 선택합니다. 
+10. **Save(저장)** 를 선택합니다. 
     
 현재 위치에서이 규칙을 사용할 경우 보고서 메시지에서 추가 기능을 사용 하 여 전자 메일 메시지를 보고 하는 다른 사용자가 조직에서 때마다에 전역 관리자, 보안 관리자 및/또는 보안 판독기 복사본을 받게 됩니다 해당 메시지의 합니다. 이 정보를 사용 하면 설정 또는 정책, 예: [Office 365 ATP 안전한 링크](atp-safe-links.md) 정책 조정 수 있습니다. 
 

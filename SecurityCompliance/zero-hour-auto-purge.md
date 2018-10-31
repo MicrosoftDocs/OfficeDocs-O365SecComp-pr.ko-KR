@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 description: 0-시간 자동 삭제 (ZAP) 스팸 또는 맬웨어로와 사용자의 받은 편지함에 이미 배달 된 메시지를 검색 하는 전자 메일 보호 기능 및 다음 치명적이 지 악의적인 콘텐츠를 렌더링 합니다. 어떻게 ZAP이 작업을 수행 하는 작업은 감지 악의적인 콘텐츠 형식에 따라 다릅니다.
-ms.openlocfilehash: dc8901dc7c1db5b323ccbeee610647b8a302fcb3
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: dabe4caf8916d3f0de7a70cb3d056dd9a7fdcc3f
+ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533102"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25857246"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -74,7 +74,7 @@ Office 365에서 스팸 방지 엔진 및 맬웨어 서명 업데이트를 매�
     
     이 시점에서 **저장** 을 선택 하는 경우 Office 365 테 넌 트에 정책을 적용 합니다. 
     
-    ![정크 메일 폴더로 Mpve 메시지에 스팸 및 대량 동작 설정](media/4332cfb3-89e1-48ba-8da8-9286f2fa1089.PNG)
+    ![정크 메일 폴더로 메시지 이동 하기 위한 설정 스팸 및 대량 작업](media/4332cfb3-89e1-48ba-8da8-9286f2fa1089.PNG)
   
 4. **받는 사람**, **도메인**또는 **그룹 구성원 자격** 메뉴 컨트롤 및 정책 필터 창에서 **적용** 섹션으로 스크롤한 선택 새 정책을 만든 경우 사용자의 하위 집합만에 정책을 적용 하려는 경우 정책에 적용 하려고 합니다. 추가 조건 및 예외를 설정할 수도 있습니다. 
     
@@ -121,7 +121,7 @@ ZAP 지금은 메시지를 격리에 받은 편지함에서 이동 하지 않습
 ## <a name="related-topics"></a>관련 항목
 <a name="BK_FAQ"> </a>
 
-[Office 365 전자 메일 스팸 방지 보호 기능](anti-spam-protection.md)
+[Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)
   
 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](block-email-spam-to-prevent-false-negatives.md)
   
