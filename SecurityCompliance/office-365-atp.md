@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 description: Office 365 고급 위협 보호 스푸핑 인텔리전스, 안전한 링크, 안전한 첨부 파일 및 고급 피싱 방지 기능을 포함합니다. 또한 고급 위협 보호 비즈니스 및 팀이 Microsoft에 대 한 SharePoint Online, OneDrive의 파일에 확장 되 고 됩니다.
-ms.openlocfilehash: e3b282118b5fde0374bb9f052e7efe8a13e2fd70
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+ms.openlocfilehash: def22368f8bc219ebceda797dd04b234bc3c4435
+ms.sourcegitcommit: cda46434094bc2837dba90256d044ba77552df12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25496862"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25850832"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -55,7 +55,7 @@ ATP를 만든 후 다음 단계에서는 보안 팀이 정책을 정의입니다
 
 - 조직의 [차단 된 사용자 지정 Url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md) 및 [사용자 지정 "rewrite 수행" Url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 등을 **[Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)**
     
-- **[ATP 안전한 첨부 파일을 Office 365의 정책 설정](set-up-atp-safe-attachments-policies.md)** [동적 배달 하 고 미리 보는](dynamic-delivery-and-previewing.md) 포함 될 수 있는
+- **[Office 365의 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)** [동적 배달 하 고 미리 보는](dynamic-delivery-and-previewing.md) 포함 될 수 있는
   
 ## <a name="see-how-atp-is-working-by-viewing-reports"></a>보고서를 확인 하 여 ATP가 작동 하는 방법을 참조 하십시오.
 
@@ -86,6 +86,6 @@ ATP 정책이 설정 되어, 후 보고서는 서비스가 작동 하는 방법�
 
 [고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
   
-[Office 365 보안의 관리 위협 &amp; 준수 센터](threat-management.md)
+[Threat management in the Office 365 Security &amp; Compliance Center](threat-management.md)
   
 

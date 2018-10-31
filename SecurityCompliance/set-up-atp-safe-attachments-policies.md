@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: 조직에서 전자 메일의 악의적인 파일 보호 하기 위해 안전한 첨부 파일 정책을 정의 합니다.
-ms.openlocfilehash: c57f9320c7cd2b8b75bc2dc58d1f72ce136acbb6
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: 1fd831adf5166223ba5df159a131c71e3b467233
+ms.sourcegitcommit: cda46434094bc2837dba90256d044ba77552df12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454285"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25850842"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 정책 설정
 
@@ -59,13 +59,13 @@ ms.locfileid: "25454285"
     
       - **설명** 상자에 검색 한 후 바로 제공 메시지와 첨부 파일이 다시 연결 같은 대 한 설명을 입력 합니다.
     
-      - 응답 섹션에서 **동적 배달** 옵션을 선택 합니다. ([동적 배달 하 고 ATP 안전한 첨부 파일 미리 보기에 대해 자세히 알아보십시오](dynamic-delivery-and-previewing.md).)
+      - 응답 섹션에서 **동적 배달** 옵션을 선택 합니다. ([동적 배달 하 고 ATP 안전한 첨부 파일 미리 보기에 대 한 자세한 설명](dynamic-delivery-and-previewing.md)입니다.)
     
       - **리디렉션 첨부 파일** 섹션에서 리디렉션을 사용 하도록 설정 하 고 Office 365 전역 관리자, 보안 관리자 또는 보안 분석가 악의적인 첨부 파일을 조사 하는 사용자의 전자 메일 주소를 입력 하는 옵션을 선택 합니다. 
     
       - **적용 된** 섹션에서 **받는 사람 도메인은**선택 하 고 도메인을 선택 합니다. **추가**선택 하 고 **확인**을 선택 합니다.
     
-6. **저장**을 선택합니다.
+6. **Save(저장)** 를 선택합니다.
     
 조직에 대 한 여러 ATP 안전한 첨부 파일 정책 설정을 것이 좋습니다. 이러한 정책은 **ATP 안전한 첨부 파일** 페이지에 나열 된 순서 대로 적용 됩니다. 정책을 정의 했거나 편집한 후 허용에 대 한 최소 30 분의 전체 Microsoft 데이터 센터에서 적용 하려면 정책을 합니다. 
   

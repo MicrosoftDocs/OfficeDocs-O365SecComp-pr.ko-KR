@@ -3,6 +3,7 @@ title: 동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
+ms.date: 10/30/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -12,26 +13,30 @@ search.appverid:
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 description: ATP 안전한 첨부 파일 정책에 연결을 설정할 때 동적 배달 메시지 지연을 방지 하 고 사용자 검색 되는 첨부 파일 미리 보기를 사용 하도록 설정 하려면 선택 합니다.
-ms.openlocfilehash: 23ef316ed35b89ef1fad5e9639dd10e76036a4f3
-ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
+ms.openlocfilehash: b7b5f05170e6f27cbec9e0d5a121b2f71f16f41a
+ms.sourcegitcommit: cda46434094bc2837dba90256d044ba77552df12
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965245"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25850822"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기
 
-동적 배달에 대해 선택할 수 있는 옵션은입니다. 동적 배달 및 [Office 365의 ATP 안전한 첨부 파일](atp-safe-attachments.md)의 첨부 파일 미리 보기 기능에 대해 자세히 알아보려면이 문서를 읽어보십시오.
+**요약**: 동적 배달 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 대해 선택할 수 있는 옵션입니다. 동적 배달 및 [Office 365의 ATP 안전한 첨부 파일](atp-safe-attachments.md)의 첨부 파일 미리 보기 기능에 대해 자세히 알아보려면이 문서를 읽어보십시오.
   
-## <a name="how-dynamic-delivery-works"></a>어떻게 동적 배달 작동
+## <a name="how-dynamic-delivery-works"></a>동적 배달의 작동 방식
 
-때 [Office 365의 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)에서 선택할 수 있습니다 **블록**, **교체**, 및 **동적 배달**등의 여러 옵션입니다. 정책에 구성 되는 방법에 따라 해당 첨부 파일 검사 하는 동안 전자 메일 받는 사람에 게 전자 메일 배달에 약간 지연을 경험할 수 있습니다. 메시지 지연을 방지 하려면 **동적 배달**를 선택 합니다.
+때 [ATP 안전한 첨부 파일 정책을 설정](set-up-atp-safe-attachments-policies.md) 하면 조직에 대 한 가지는 전자 메일 첨부 파일을 처리 하는 방법에 대 한 여러 옵션이 있습니다. **블록**, **교체**, 및 **동적 배달**포함 됩니다. ATP 안전한 첨부 파일 정책 구성 되는 방법에 따라 해당 첨부 파일 검사 하는 동안 전자 메일 받는 사람에 게 전자 메일 배달에 약간 지연을 경험할 수 있습니다. 메시지 지연을 방지 하려면 **동적 배달**를 선택 합니다.
   
-동적 배달 옵션을 통해 각 전자 메일 첨부 파일에 대 한 자리 표시자로 전자 메일 메시지의 본문을 발송 하 여 전자 메일 지연을 제거 합니다. 개체 틀 첨부 파일을 [Office 365에서 ATP 안전한 첨부](atp-safe-attachments.md)하 여 검색 될 때까지 유지 됩니다. 전자 메일 받는 사람이 읽고 해당 첨부 파일 분석 되 고 있는지 알고 있으면 바로 자신의 전자 메일 메시지에 응답할 수 있습니다.
-  
-대부분의 Pdf 및 Office 진행 중인 ATP 검사 하는 동안 안전 모드에서 문서를 미리볼 수 있습니다. 첨부 파일이 동적 배달 미리 보기와 호환 되지 않아, ATP 안전한 첨부 파일 검사 완료 될 때까지 전자 메일 받는 사람에 게 첨부 파일 개체 틀을 참조 합니다.
-  
-각 첨부 파일을 선택 취소 하면으로 자동으로 다시에 원래 전자 메일 메시지에 첨부 됩니다. 첨부 파일이 악성 코드가 포함 될를 확인 하는 경우 해당로 보내집니다 격리, [Office 365에서 격리 된 메시지를 관리할](manage-quarantined-messages-and-files.md)수 (예: Office 365 전역 관리자 또는 보안 관리자) 조직의 보안 팀에 다른 사용자.
+동적 배달 각 전자 메일 첨부 파일에 대 한 자리 표시자와 받는 사람에 게를 통해 전자 메일 메시지의 본문을 발송 하 여 전자 메일 지연을 제거 합니다. 개체 틀에는 첨부 파일의 복사본을를 검사 하 고 안전 하 게 하려면 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 따른 때까지 유지 됩니다. 대부분의 Pdf 및 Office 진행 중인 ATP 검사 하는 동안 안전 모드에서 문서를 미리볼 수 있습니다. 첨부 파일이 동적 배달 미리 보기와 호환 되지 않아, ATP 안전한 첨부 파일 검사 완료 될 때까지 전자 메일 받는 사람에 게는 첨부 파일 개체 틀을 참조 합니다.
+
+- 각 첨부 파일을 선택 취소 하면 것을 열거나 다운로드를 사용할 수 있습니다. 
+
+- 첨부 파일이 악성 코드가 포함 될를 확인 하는 경우 해당로 보내집니다 격리, [Office 365에서 격리 된 메시지를 관리할](manage-quarantined-messages-and-files.md)수 (예: Office 365 전역 관리자 또는 보안 관리자) 조직의 보안 팀에 다른 사용자.
+
+동적 배달 된 전자 메일 받는 사람이 읽고 해당 첨부 파일 분석 되 고 있는지 알고 있으면 바로 자신의 전자 메일 메시지에 응답할 수 있습니다. 
+
+ATP 안전한 첨부 파일 검사 가져오고 Office 365 데이터가 있는 동일한 영역에 배치 합니다. 데이터 센터 지역에 대 한 자세한 내용은 참조 [가 다음에 있는 데이터?](https://products.office.com/where-is-your-data-located?geo=All) 
   
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>첨부 파일을 포함 하는 전자 메일 전달 누군가가 때 어떻게 됩니까?
 
