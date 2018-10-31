@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화에 대해 Microsoft Azure AD Rights Manage
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/3/2017
+ms.date: 10/30/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,19 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
-description: 'Office 365 메시지 암호화 Microsoft Azure 권한 관리 (이전의 Windows Azure Active Directory 권한 관리)에 따라 달라 집니다. '
-ms.openlocfilehash: 99c8de49330cf99545d28d81e0c99c2138797356
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: Office 365 메시지 암호화의 이전 버전 Microsoft Azure 권한 관리 (이전의 Windows Azure Active Directory 권한 관리)에 따라 달라 집니다.
+ms.openlocfilehash: f8759da8628d4c78fe5409f5c47e3fc2b3e9484e
+ms.sourcegitcommit: c05076501dfe118e575998ecfc08ad69d13c8abc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533548"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25853073"
 ---
-# <a name="set-up-azure-rights-management-for-office-365-message-encryption"></a>Office 365 메시지 암호화에 대해 Microsoft Azure AD Rights Management 설정
+# <a name="this-article-applies-to-the-previous-version-of-ome"></a>이 문서는 OME의 이전 버전에 적용 됩니다.
+새로운 OME 기능을 Office 365 조직을 아직 이동 하지 않은 OME를 이미 배포한 경우이 문서의 정보는 조직에 적용 됩니다. 것이 조직에 대 한 적당 하 게 하는 즉시 새 OME 기능으로 이동 하는 계획을 확인 하는 것이 좋습니다. 자세한 내용은 [새 Office 365 메시지 암호화 기능을 설정](set-up-new-message-encryption-capabilities.md)합니다. 새로운 기능 먼저 작동 하는 방법에 대 한 자세한 정보를 계속 확인 하려는 경우 [Office 365 메시지 암호화](ome.md)를 참조 하십시오. 이 문서의 나머지 부분 릴리스 이전에 새 OME 기능 OME 동작을 가리킵니다.
+
+# <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>이전 버전의 Office 365 메시지 암호화에 대 한 Azure 권한 관리를 설정 합니다.
 
 이 항목을 활성화 하 고 다음을 Azure RMS (권한 관리), Office 365 메시지 암호화 (OME) 함께 사용 하기 위해 Azure 정보 보호의 일부를 설정 하기 위해 수행 해야하는 단계를 설명 합니다.
   
-## <a name="prerequisites-for-using-office-365-message-encryption"></a>Office 365 메시지 암호화 사용을 위한 선행 조건
+## <a name="prerequisites-for-using-the-previous-version-of-office-365-message-encryption"></a>이전 버전의 Office 365 메시지 암호화를 사용 하기 위한 필수 구성 요소
 <a name="warmprereqs"> </a>
 
 Office 365 메시지 암호화 OME (), IRM을 포함 하 여 Azure 권한 관리 (Azure RMS)에 따라 달라 집니다. Azure RMS는 Azure 정보 보호에서 사용 하는 보호 기술입니다. OME을 사용 하려면 Office 365 조직 차례로 Azure 권한 관리 구독을 포함 하는 Exchange Online 또는 Exchange Online Protection 구독을 포함 해야 합니다.
@@ -39,12 +42,12 @@ Office 365 메시지 암호화 OME (), IRM을 포함 하 여 Azure 권한 관리
     
 - 위쪽, 설정한 방법에 따라 Exchange Online 또는 Exchange Online Protection Azure 권한 관리와 작동 하도록 OME를 이미 설정 했을 때을 즉시 OME 및 해당 새 기능을 사용 하 여 시작할 수 있습니다. 이 문서에서는 하는 경우 설정한 OME 올바르게 결정 하는 방법, 사용자 설정을 변경 해야하는 경우 수행할 작업을 하 고 설정을 변경 하지 않도록 선택 하는 경우에 대해 설명 합니다. 등의 새로운 기능을 사용 하려면 OME와 Azure RMS를 사용 해야 있습니다. 온-프레미스 Active Directory RMS와 새 기능을 사용할 수 없습니다.
     
-## <a name="activate-azure-rights-management-for-ome-in-office-365"></a>Office 365에서에서 OME에 대 한 Azure 권한 관리 활성화
+## <a name="activate-azure-rights-management-for--the-previous-version-of-ome-in-office-365"></a>Office 365에서 OME의 이전 버전에 대 한 Azure 권한 관리 활성화
 <a name="activatewarm"> </a>
 
 조직에서 사용자 정보 보호, 보내는 메시지에 적용 하 고 메시지와 Azure 권한 관리 서비스에 의해 보호 된 파일을 열 수 있도록 Azure 권한 관리를 활성화 해야 합니다. 자세한 내용은 [Azure 권한 관리 활성화](https://go.microsoft.com/fwlink/p/?LinkId=525775)를 참조 하십시오. 활성화를 완료 했으면, 여기를 반환 하 고이 문서의 작업을 계속 합니다.
   
-## <a name="set-up-ome-to-use-azure-rms-by-importing-trusted-publishing-domains-tpds"></a>트러스트 된 게시 도메인 (TPDs)를 가져와서 Azure RMS를 사용 하 여 OME를 설정 합니다.
+## <a name="set-up-the-previous-version-of-ome-to-use-azure-rms-by-importing-trusted-publishing-domains-tpds"></a>트러스트 된 게시 도메인 (TPDs)를 가져와서 Azure RMS를 사용 하 여 이전 버전의 OME 설정 합니다.
 <a name="importTPDs"> </a>
 
 TPD 조직의 권한 관리 설정에 대 한 정보를 포함 하는 XML 파일은입니다. 예, TPD 인증서 및 라이선스 서명 및 암호화에 사용 되는 서버 사용 허가자 인증서 (SLC)에 대 한 정보를 포함 하는 Url 라이선스 및 게시, 사용 하 고, 합니다. Windows PowerShell을 사용 하 여 Office 365 조직에 TPD를 가져옵니다.
@@ -108,7 +111,7 @@ TPD 조직의 권한 관리 설정에 대 한 정보를 포함 하는 XML 파일
 
 8. 하면가 성공적으로 TPD를 가져오고 확인 Azure 권한 관리를 사용 하도록 설정, Azure 권한 관리 기능을 테스트 하려면 Test-irmconfiguration cmdlet을 사용 합니다. 자세한 내용은 [Test-irmconfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.150%29.aspx)에서 "예 1"를 참조 합니다.
     
-## <a name="i-have-ome-set-up-with-active-directory-rights-management-not-azure-information-protection-what-do-i-do"></a>Active Directory 권한 관리 하지 Azure 정보 보호를 사용 하 여 설정 하는 OME가 어떻게 해야 합니까?
+## <a name="i-have-the-previous-version-of-ome-set-up-with-active-directory-rights-management-not-azure-information-protection-what-do-i-do"></a>이전 버전의 Active Directory 권한 관리 하지 Azure 정보 보호를 사용 하 여 설정 하는 OME가 어떻게 해야 합니까?
 <a name="importTPDs"> </a>
 
 Active Directory 권한 관리를 사용 하면 기존 Office 365 메시지 암호화 메일 흐름 규칙을 사용 하 여 계속할 수 있지만 구성 하거나 새 OME 기능을 사용할 수 없습니다. 대신, Azure 정보 보호를 마이그레이션하려면 해야 합니다. 마이그레이션 및 조직에 대 한이 의미 하는 방법에 대 한 정보를 [AD RMS Azure 정보 보호에서 마이그레이션](https://docs.microsoft.com/information-protection/deploy-use/prepare-environment-adrms)을 참조 하십시오.

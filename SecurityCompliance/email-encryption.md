@@ -3,7 +3,7 @@ title: Office 365의 전자 메일 암호화
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 6/22/2018
+ms.date: 10/30/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
 description: Office OME (메시지 암호화), S/MIME, 정보 권한 관리 (IRM)를 포함 하 여 Office 365의 암호화 옵션을 비교 하 고 전송 계층 보안 (TLS)에 대 한 설명입니다.
-ms.openlocfilehash: a705637b85e73c6d1e5bcb3595dcd0b7766411e2
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: c9c83283cab09ac81ab2856aec53fe8682ec45b8
+ms.sourcegitcommit: c05076501dfe118e575998ecfc08ad69d13c8abc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533585"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25853083"
 ---
 # <a name="email-encryption-in-office-365"></a>Office 365의 전자 메일 암호화
 
@@ -54,7 +54,7 @@ Office 365 서버 간의 통신을 보호 하는 방법에 대 한 자세한 내
   
 ## <a name="comparing-email-encryption-options-available-in-office-365"></a>Office 365에서 사용할 수 있는 전자 메일 암호화 옵션 비교
 
-||**        ![OME를 설명하는 개념 아트워크](media/2bf27b5e-bbb3-46d1-95bf-884dc27a746c.png)                 **|**        ![IRM을 설명하는 개념 아트워크](media/9c0cc444-9448-40c6-b244-8fcc593a64e0.png)                 **|**        ![SMIME를 설명하는 개념 아트워크](media/ae4613a8-c17e-47e1-8e13-12e891e43744.png)                 **|
+||        ![OME를 설명하는 개념 아트워크](media/2bf27b5e-bbb3-46d1-95bf-884dc27a746c.png)                 |        ![IRM을 설명하는 개념 아트워크](media/9c0cc444-9448-40c6-b244-8fcc593a64e0.png)                 |        ![SMIME를 설명하는 개념 아트워크](media/ae4613a8-c17e-47e1-8e13-12e891e43744.png)                |
 |:-----|:-----|:-----|:-----|
 |OME(Office 365 메시지 암호화)란 무엇입니까?  <br/> |OME(Office 365 메시지 암호화)는 Azure RMS(권한 관리)를 기반으로 구축된 서비스로, 대상의 전자 메일 주소(Gmail, Yahoo! Mail, Outlook.com 등)에 상관없이 사용자 조직 내부 또는 외부 사람에게 암호화된 전자 메일을 보낼 수 있습니다.  <br/> 관리자는 암호화 조건을 정의하는 전송 규칙을 설정할 수 있습니다. 사용자가 규칙에 맞는 메시지를 보내면 암호화가 자동으로 적용됩니다.  <br/> 암호화 된 메시지를 보려면 받는 사람에 게 일회용 암호, Microsoft 계정 사용 하 여 로그인 또는 로그인 한 작업을 사용 하 여 get 또는 Office 365와 연결 된 계정 학교 수 있습니다. 받는 사람에 게 암호화 된 회신을 보낼 수도 있습니다. 암호화 된 메시지를 보거나 암호화 된 회신을 보낼는 Office 365 구독이 불필요 합니다.  <br/> |IRM은 전자 메일 메시지에 사용 제한을 적용하는 암호화 솔루션입니다. 권한이 없는 사용자가 중요한 정보를 인쇄, 전달 또는 복사하는 것을 방지할 수 있습니다.  <br/> Office 365의 IRM 기능은 Azure RMS(Azure 권한 관리)를 사용합니다. 
   <br/> |S/MIME는 모두 암호화 및 메시지에 디지털 서명을 할 수 있는 암호화 인증서 기반 솔루션입니다. 메시지 암호화 소음이 의도 한 수신자만 열고 하 고 메시지를 읽을 수 있습니다. 받는 사람이 보낸 사람의 id의 유효성을 검사를 사용 하는 디지털 서명이 있습니다.  <br/> 디지털 서명과 메시지 암호화 둘 모두는 디지털 서명을 확인하고 메시지를 암호화 또는 암호 해독하는 키가 포함된 고유한 디지털 인증서를 사용하여 가능해졌습니다.  <br/> S/MIME을 사용 하려면 있어야 공용 키 파일에 각각의 받는 사람입니다. 받는 사람에 게 보안 유지 되어야 하는 자신의 개인 키를 유지 관리 해야 합니다. 받는 사람의 개인 키가 손상 된 경우 받는 사람 새 개인 키를 가져오고 모든 잠재적 보낸사람에 대 한 공용 키를 다시 배포 해야 합니다.  <br/> |
@@ -84,7 +84,7 @@ Office 365 구독에 대 한 전자 메일 암호화 옵션에 대 한 내용은
   
  **OME**
   
-[Office 365 메시지 암호화 (OME)](ome.md)
+[OME(Office 365 메시지 암호화)](ome.md)
   
  **IRM**
   
