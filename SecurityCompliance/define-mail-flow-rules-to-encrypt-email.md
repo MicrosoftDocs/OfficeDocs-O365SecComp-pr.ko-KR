@@ -3,7 +3,7 @@ title: Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐�
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/30/2018
+ms.date: 10/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 description: Office 365 전역 관리자의 경우 메일 흐름 Office 365 메시지 암호화 OME ()를 사용 하도록 설정 하는 규칙을 만들 수 있습니다. 모든 보내는 전자 메일 메시지를 암호화할 수 있으며 조직에서 보낸 암호화 된 메시지에 대 한 회신 또는 내부 메시지에서 암호화 제거 수 있습니다.
-ms.openlocfilehash: e9c6874ce304d1af9da093c02cbc954c54dae8cc
-ms.sourcegitcommit: c05076501dfe118e575998ecfc08ad69d13c8abc
+ms.openlocfilehash: bd94d36543653d5767fe27aee0f859fe9e374b2f
+ms.sourcegitcommit: c0f5c92664b3fbed7b3c2f8232bb4046fc19d1b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25853093"
+ms.locfileid: "25890036"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의
 
@@ -29,7 +29,7 @@ ms.locfileid: "25853093"
 메일 흐름 규칙 및 메일 흐름 규칙 작업은 어떻게 구성 하는 구성 요소에 대 한 정보를 [Exchange Online에서 흐름 규칙 (전송 규칙) 메일](https://technet.microsoft.com/library/jj919238%28v=exchg.150%29.aspx)을 참조 하십시오. 메일 흐름 규칙 Azure 정보 보호와 함께 작동 하는 방법에 대 한 자세한 내용은 [Azure 정보 보호 레이블에 대 한 Exchange Online 구성 메일 흐름 규칙](https://docs.microsoft.com/azure/information-protection/deploy-use/configure-exo-rules)을 참조 하십시오.
   
 ## <a name="hybrid-exchange-environments-do-this-first"></a>하이브리드 Exchange 환경: 무엇을 먼저 수행
-온-프레미스 사용자는 Exchange Online을 통해 전자 메일을 라우팅하는 경우에 OME를 사용 하 여 암호화 된 메일을 보낼 수 있습니다. 이 작업을 수행 하기 위해 메일 흐름을 흐름 전자 메일 서버에서 Office 365로 구성 해야 합니다. Office 365를 통해 이동 하는 메일을 구성한 후이 문서를 사용 하 여 OME에 대 한 메일 흐름 규칙을 만들 수 있습니다.
+온-프레미스 사용자는 Exchange Online을 통해 전자 메일을 라우팅하는 경우에 OME를 사용 하 여 암호화 된 메일을 보낼 수 있습니다. 이 작업을 수행 하기 위해 메일을 Office 365로 전자 메일 서버에서 흐름을 구성 해야 합니다. 한번 구성한 메일이 Office 365를 통해 이동 하려면 다음이 문서를 사용 하 여 OME에 대 한 메일 흐름 규칙을 만들 수 있습니다.
 
 자세한 내용은 [Office 365와 직접 전자 메일 서버 간의 메일을 라우팅하는 커넥터를 설정](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)합니다. 특히의 단계를 완료 "2 부: 메일을 Office 365로 전자 메일 서버에서 전송 구성" 합니다.
 
