@@ -17,28 +17,28 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: GDPR에 대한 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: e0e217ed44c5206828468b57d778bffa28c95da3
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: ed1dca161b5580d67b5a9071ca1d5b32e8b23d80
+ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272263"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25857286"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 
 이 문서에서는 GDPR에 대한 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 보여 주는 3가지 예제를 제공합니다.
 
--   기존 중요한 정보 유형 수정 — 유럽 직불 카드 번호
+- 기존 중요한 정보 유형 수정 — 유럽 직불 카드 번호
 
--   새 중요한 정보 유형 만들기 - 전자 메일 주소
+- 새 중요한 정보 유형 만들기 - 전자 메일 주소
 
--   예제 XML 파일을 사용하여 새 중요한 정보 유형 만들기 — Contoso 고객 번호
+- 예제 XML 파일을 사용하여 새 중요한 정보 유형 만들기 — Contoso 고객 번호
 
 참고:
 
--   [사용자 지정 중요한 정보 유형 만들기](https://support.office.com/ko-KR/article/Create-a-custom-sensitive-information-type-82c382a5-b6db-44fd-995d-b333b3c7fc30)
+- [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 
--   [기본 제공 중요한 정보 유형 사용자 지정 ](https://support.office.com/ko-KR/article/Customize-a-built-in-sensitive-information-type-2164ce3d-4d64-4283-b6b1-b81fbe835e8e)
+- [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 
 ## <a name="modify-a-sensitive-information-type-to-improve-accuracy"></a>정확도를 향상시키도록 중요한 정보 유형 수정
 
@@ -142,7 +142,7 @@ KQL을 사용하여 쿼리를 작성하고 최적화하려면 다음 리소스�
 
 -   [KQL(키워드 쿼리 언어) 구문 참조(DMC)](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
--   [Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행](https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
+-   [Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행](https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
 
 콘텐츠 검색은 KQL 쿼리 및 중요한 정보 유형을 개발하는 데 도움이 되는 또 다른 리소스인 키워드를 제공합니다. 키워드 목록은 왜 사용할까요? 많은 항목이 각 키워드와 일치하는 방식을 보여 주는 통계를 얻을 수 있습니다. 이러한 통계는 가장 많이(덜) 효과적인 키워드를 빠르게 식별하는 데 도움이 됩니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](https://support.office.com/ko-KR/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04)를 참조하세요.
 

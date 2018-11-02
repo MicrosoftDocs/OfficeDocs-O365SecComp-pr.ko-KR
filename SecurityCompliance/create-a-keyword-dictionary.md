@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: c8a95d1b-c3b6-4613-98ab-0331d1872cf3
 description: '경우에 따라 중요한 정보를 식별하기 위해 키워드를 검색해야 할 수 있습니다. 이러한 작업은 일반 콘텐츠(예: 의료 관련 커뮤니케이션) 또는 부적절하거나 명시적인 언어를 식별할 때 특히 필요합니다. 중요한 정보 유형에 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되며 생성하거나 편집하기 위해 XML을 수정해야 합니다. 키워드 사전은 키워드를 보다 간편하게 관리할 수 있도록 하며 사전당 최대 100,000개 용어를 지원합니다.'
-ms.openlocfilehash: 5dd0459c801b433b8f0a477aeb2ab4192236bd28
-ms.sourcegitcommit: 4be502d1fc6cbaef4c72d599758d51efe3a173c9
+ms.openlocfilehash: 1cf41df5475af7ac5018cd34ea26e66ad5d668ee
+ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23849401"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25857236"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -149,7 +149,7 @@ PS> Set-DlpKeywordDictionary -Identity "Diseases" -FileData (Get-Content -Path "
   
 ## <a name="using-keyword-dictionaries-in-custom-sensitive-information-types-and-dlp-policies"></a>사용자 지정 중요한 정보 유형과 DLP 정책에서 키워드 사전 사용
 
-키워드 사전은 사용자 지정 중요한 정보 유형에 대한 일치 요구 사항의 일부로 또는 중요한 정보 유형 자체로 사용할 수 있습니다. 두 경우 모두에서 [사용자 지정 중요한 정보 유형을 만들어야](create-a-custom-sensitive-information-type.md) 합니다. 링크 문서의 지침에 따라 중요한 정보 유형을 만듭니다. XML이 있으면 사전에 대한 GUID 식별자가 있어야 사용할 수 있습니다.
+키워드 사전은 사용자 지정 중요한 정보 유형에 대한 일치 요구 사항의 일부로 또는 중요한 정보 유형 자체로 사용할 수 있습니다. 두 경우 모두 [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형을 만들어야](create-a-custom-sensitive-information-type-in-scc-powershell.md) 합니다. 링크 문서의 지침에 따라 중요한 정보 유형을 만듭니다. XML이 있으면 사전에 대한 GUID 식별자가 있어야 사용할 수 있습니다.
   
 ```
 <Entity id="9e5382d0-1b6a-42fd-820e-44e0d3b15b6e" patternsProximity="300" recommendedConfidence="75">
