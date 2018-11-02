@@ -3,7 +3,7 @@ title: 스팸 전자 메일을 보낸 후 차단 목록에서 사용자, 도메�
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/16/2018
+ms.date: 11/01/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 description: 사용자는 계속 해 서 스팸으로 분류 하는 Office 365에서 전자 메일 메시지를 보내는, 모든 자세한 메시지를 보내지 못하도록 차단 됩니다.
-ms.openlocfilehash: 295d92fc6a1cd26783b18304a2d119d2ea0d7f1f
-ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
+ms.openlocfilehash: 0f58f9f2270c8be38b3ea2ea81f04656eb10e7fb
+ms.sourcegitcommit: 83406a3258e722020e46a82bbf4bc9d5d8a326ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25577067"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25899659"
 ---
 # <a name="removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email"></a>스팸 전자 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소를 제거
 
@@ -44,7 +44,7 @@ Office 365 보안 및 규정 준수 센터 (SCC)에서이 작업을 완료 합�
 3. **예** 하 여 변경 내용을 확인을 클릭 합니다. 
     
 > [!NOTE]
-> 테 넌 트 관리자 계정을 차단을 해제 수 있는 횟수에 제한이 사용자에 대 한 제한을 초과 되 면 오류 메시지가 나타납니다. 다음은 사용자의 차단을 해제 하는 지원 서비스에 문의 해야 합니다.
+> 테 넌 트 관리자 계정을 차단을 해제 수 있는 횟수에 제한이 사용자에 대 한 제한을 초과 되 면 오류 메시지가 나타납니다. 다음은 사용자의 차단을 해제 하는 지원 서비스에 문의 해야 합니다.</br></br> 사용자가 차단 하지 전에 1 시간까지 걸릴 수 있습니다.
   
 ## <a name="third-party-block-lists"></a>타사 차단 목록
 
@@ -53,7 +53,7 @@ Exchange Online Protection 제 3 자 차단 목록을 사용 하 여 스팸 필�
 > [!NOTE]
 > Office 365 계정에 메시지를 보낼 수 없는 Office 365 외부 사용자, 외부 수신된 거부 목록에 사용자의 계정 수 있습니다. Office 365 외부 사용자가 [목록 삭제 포털 자가 서비스](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis)를 사용 하 여 자신을 제거 하려면 시킬 수 있습니다. 
 
-## <a name="for-more-information"></a>자세한 내용
+## <a name="for-more-information"></a>추가 정보
 
 [손상 된 전자 메일 계정에 대 한 응답](responding-to-a-compromised-email-account.md)
 
