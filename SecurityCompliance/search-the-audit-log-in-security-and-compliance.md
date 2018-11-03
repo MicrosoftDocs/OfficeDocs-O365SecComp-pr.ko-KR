@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안을 사용 하 여 &amp; 준수 센터를 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 5e0d19841c0e512173e8c42d37c0ec13867299af
-ms.sourcegitcommit: e14dec9bed0c0009acbc1f1cb80b4d0794ad5739
+ms.openlocfilehash: f44fa0a32a70a4b8d96b7bb7b9d9386f9efb74b6
+ms.sourcegitcommit: 49abeb8e57a5ee622d72a3782175a989b1a2e3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25435125"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25935595"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 및 준수 센터에서 감사 로그 검색
 
@@ -78,7 +78,7 @@ Office 365에서 검색을 시작 하기 전에 다음 항목 감사 로그 읽�
      - **Office 365 e 5** -365 일 (1 년)에 대 한 레코드를 보존 해야하는 감사 합니다. 즉, 지난 연도 내에 수행 된 활동에 대 한 감사 로그를 검색할 수 있습니다. 1 년에 대 한 감사 레코드를 보존 E3/Exchange Online 계획 1 라이선스를 할당 하 고 Office 365 고급 준수 추가 기능 라이선스가 있는 사용자에 대해 사용할 수도 있습니다.
 
         > [!NOTE]
-        > 1 년 보존 기간 감사 레코드를 사용할 수에 대 한 Office 365 미리 보기의 일부로 곧을 프로그래밍 하 고가 조직에만 사용할 수 있는 등록 미리 보기 프로그램에 있습니다. 감사 레코드에 대 한 긴 보존 기간은 미리 보기 (그리고 출시 나중에 대 한) 사용할 수 있게 되 면 1 년 (활동에 대 한 긴 보존 기간 출시 된 후에 수행)만 새 감사 레코드를 유지 됩니다.
+        > E 5 조직 (또는 고급 준수 추가 기능 라이선스를 보유 하는 E3 조직)에 대 한 감사 레코드에 대 한 1 년 보존 기간을 현재 사용할 수는 개인 미리 보기 프로그램의 일부로 합니다. 이 미리 보기 프로그램을 등록 하려면 파일을 [Microsoft](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products?redirectSourcePath=%252fen-us%252farticle%252fcontact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online) 기술 지원 서비스 요청 하 고 하십시오 필요한 도움말 (영문)의 설명에 따라 다음을 포함: "장기 Office 365 감사 로그 개인 미리 보기" 합니다.
 
 - 조직에 대 한 Office 365에서 감사 로그 검색을 해제 하려는 경우 Exchange Online 조직에 연결 된 원격 PowerShell에서 다음 명령을 실행할 수 있습니다.
     
@@ -147,7 +147,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
     > [!TIP]
     > 개인 검색 세션 (일반 세션 하지)를 사용 하 여 Office 365 보안 액세스할 &amp; 준수 센터 그러면 현재 로그온 함께 사용 하는 자격 증명을 방지할 수 있으므로 합니다. Internet Explorer 또는 Microsoft에 지는 InPrivate 탐색 세션을 열려면 CTRL + SHIFT + P를 누르십시오. 개인 검색 세션의 Google Chrome (incognito가 창 라고 함)를 열려면 CTRL + SHIFT + N 키를 누릅니다. 
   
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안의 왼쪽된 창에서 &amp; 준수 센터 클릭 **검색 &amp; 조사**, **감사 로그 검색**을 클릭 하 고 있습니다.
     
@@ -480,12 +480,12 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 다음 표에서 관리자를 추가 하거나 Office 365 관리 센터 또는 Azure 관리 포털을 사용 하 여 사용자 계정을 변경 하는 경우 로깅되는 사용자 관리 작업을 보여줍니다.
   
-|**작업**|**Operation**|**설명**|
+|**활동**|**Operation**|**설명**|
 |:-----|:-----|:-----|
 |사용자 추가 되었습니다.  <br/> |사용자를 추가 합니다.  <br/> |Office 365 사용자 계정을 만들입니다.  <br/> |
 |변경 된 사용자 라이선스  <br/> |변경 사용자 라이선스  <br/> |변경 내용을 사용자에 게 할당 된 라이선스 합니다. 어떤 라이선스 된 변경 내용을 보려면, 해당 하는 **업데이트 된 사용자** 활동을 참조 합니다.<br/> |
 |변경 된 사용자 암호  <br/> |사용자 암호 변경  <br/> |관리자가 암호를 사용자에 대 한 암호를 변경 합니다.  <br/> |
-|삭제 된 사용자  <br/> |사용자를 삭제 합니다.  <br/> |Office 365 사용자 계정을 삭제 되었습니다.  <br/> |
+|삭제된 사용자  <br/> |Delete user  <br/> |Office 365 사용자 계정을 삭제 되었습니다.  <br/> |
 |사용자 암호 다시 설정  <br/> |사용자 암호 다시 설정  <br/> |관리자는 사용자에 대 한 암호를 다시 설정 합니다.  <br/> |
 |암호를 변경 하는 사용자를 강제로 실행 하는 속성을 설정 합니다.  <br/> |집합 force 사용자 암호 변경  <br/> |관리자는 다음 Office 365에 로그인 사용자에 게 암호를 변경 하려면 사용자를 강제로 실행 하는 속성을 설정 합니다.  <br/> |
 |라이선스 속성 설정  <br/> |라이선스 속성 설정  <br/> |관리자가 사용자에 게 할당 된 라이선스의 속성을 수정 합니다.  <br/> |
@@ -673,7 +673,7 @@ Exchange 관리자 감사 로깅-Office 365에서 기본적으로 사용 하도�
     
 - Exchange 관리 센터를 사용 하 여 Exchange 관리자 감사 로그에서 이벤트를 볼 수 있습니다. 자세한 내용은 [관리자 감사 로그 보기](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx)를 참조 하십시오.
   
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Office 365의 감사 서비스에서 제공 하는 기능에 대 한 어디서 찾을 수 있습니까?**
 
@@ -700,7 +700,7 @@ Office 365에서 사용할 수 있는 감사 및 보고 기능에 대 한 자세
 - **Office 365 e 5** -365 일 (1 년)에 대 한 레코드를 보존 해야하는 감사 합니다. 1 년에 대 한 감사 레코드를 보존 E3 구독 및는 Office 365 고급 준수 추가 기능 등록 하는 조직에 사용할 수도 있습니다.
 
      > [!NOTE]
-     > 감사에 대 한 1 년 보존 기간 레코드 곧가 Office 365 미리 보기 프로그램에 등록 하는 조직에 사용할 수 있습니다.
+     > 앞부분에 설명 된, e 5 조직 (또는 고급 준수 추가 기능 라이선스를 보유 하는 E3 조직)에 대 한 감사 레코드에 대 한 1 년 보존 기간을 현재 사용할 수는 개인 미리 보기 프로그램의 일부로 합니다. 이 미리 보기 프로그램을 등록 하려면 파일을 [Microsoft](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products?redirectSourcePath=%252fen-us%252farticle%252fcontact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b&view=o365-worldwide&tabs=online) 기술 지원 서비스 요청 하 고 하십시오 필요한 도움말 (영문)의 설명에 따라 다음을 포함: "장기 Office 365 감사 로그 개인 미리 보기" 합니다.
 
 또한 감사 레코드에 대 한 보존 기간 동안은 사용자 단위 라이선스 기반 note 합니다. 예, 조직에서 사용자가 Office 365 E3 라이선스에 할당 하는 경우 해당 사용자에 의해 수행 되는 작업에 대 한 감사 레코드 90 일 동안 유지 됩니다. 다른 사용자가 Office 365 E5 라이선스에 할당 하는 경우 해당 감사 레코드 1 년에 대 한 보관 됩니다. 
 

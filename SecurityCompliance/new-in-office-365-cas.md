@@ -5,6 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: reference
+ms.date: 10/31/2018
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: d674763c-a4c9-4604-8623-68c1836d27f3
 description: Office 365 클라우드 응용 프로그램 보안의 새로운 기능 보기
-ms.openlocfilehash: a8bca8cb62681491fb5a6964104b1aa1c626784d
-ms.sourcegitcommit: 31e0d94244c76a9f5118efee8bbc93395d080f91
+ms.openlocfilehash: f661d0d541e84db89b7abd99fd77ef9a767a4cd0
+ms.sourcegitcommit: 49abeb8e57a5ee622d72a3782175a989b1a2e3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2018
-ms.locfileid: "23796874"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25935575"
 ---
 # <a name="what-is-new-in-office-365-cloud-app-security"></a>Office 365 클라우드 응용 프로그램 보안의 새로운 기능
 
@@ -27,11 +28,11 @@ Office 365 클라우드 응용 프로그램 (이전의 Office 365 고급 보안 
   
 ## <a name="office-365-cloud-app-security-release-130"></a>Office 365 클라우드 응용 프로그램 보안 릴리스 130
 
-*릴리스 2018 년 9 월 5,*
+*2018 년 9 월 5, 릴리스*
 
 ** [Microsoft 클라우드 앱 보안 릴리스 130와](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-130)릴리스**:
 
-- **새 메뉴 모음** Microsoft 365 제품 간에 보다 일관성 있는 관리 경험을 제공 하 고 Microsoft 보안 솔루션 간의 보다 쉽게 피벗 수 있도록 하 클라우드 응용 프로그램 보안 포털 메뉴 모음이 화면 왼쪽으로 이동 했습니다. 이 일관 된 탐색 사용 하면 하나의 Microsoft 보안 포털에서 다른 도메인으로 이동 하는 경우 지정 자신 경험이 있어야 합니다.
+- **새 메뉴 모음** Microsoft 365 제품 간에 보다 일관성 있는 관리 경험을 제공 하 고 Microsoft 보안 솔루션 간의 보다 쉽게 피벗 수 있도록 하 클라우드 응용 프로그램 보안 포털 메뉴 모음이 화면 왼쪽으로 이동 했습니다. 이 일관 된 탐색 사용 하면 하나의 Microsoft 보안 포털에서 다른 도메인으로 이동 하는 경우 지정 자신 경험이 있어야 합니다.<br/>![Office 클라우드 응용 프로그램 보안의 메뉴 모음](media/OCAS-MenuBar.png)<br/>
 
 - **영향 OAuth app 점수** 이제 악의적인 보입니다 하는 조직에서 발견 된 OAuth 응용 프로그램에 없는 경우 알려주시면에 게 클라우드 앱 보안 팀 피드백을 보낼 수 있습니다. 이 새로운 기능을 사용 하 고 보안 커뮤니티의 일부가 되 고 OAuth app 위험 점수 및 분석을 향상 시킬 수 있습니다. 자세한 내용은 [응용 프로그램 사용 권한 관리를](manage-app-permissions-in-ocas.md)참조 하십시오.
 

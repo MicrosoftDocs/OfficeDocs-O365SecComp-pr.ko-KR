@@ -5,6 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
+ms.date: 11/02/2018
 ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 description: Word, Excel, PowerPoint 및 Visio 파일에는 물론 전자 메일 메시지에 악의적인 링크를 통해 조직을 보호 하기 위해 안전한 링크 정책을 설정 합니다.
-ms.openlocfilehash: 6c4e208e9f944d9c38d43b5669167e0cf425ec39
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: 823dc6073dfa6302f19154a86bafa7f19d5affdc
+ms.sourcegitcommit: 49abeb8e57a5ee622d72a3782175a989b1a2e3c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552346"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25935555"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -40,11 +41,11 @@ ms.locfileid: "25552346"
 - 조직에 [Office 365 고급 위협 보호](office-365-atp.md)있는지 확인 합니다.
     
 - 정의 하거나 ATP 정책을 편집 하려면 필요한 권한이 있는지 확인 합니다. 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.
+
+- Office 클라이언트 (Office 문서에서 ATP 안전한 링크 보호를 위한 임) [현대 인증](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) 을 사용 하도록 구성 되었는지 확인 합니다.
     
 - [ATP 안전한 링크 정책 옵션에 대 한 설명](#learn-about-atp-safe-links-policy-options) (이 문서의). 
 
-- Office 클라이언트 [현대 인증](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016)을 사용 하도록 구성 되었는지 확인 합니다.
-    
 - 모든 Office 365 데이터 센터에 분산 하 여 신규 또는 업데이트 된 정책에 대 한 최대 30 분을 허용 합니다.
     
 ## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>2 단계: 정의 (또는 검토) 모든 사람에 게 적용 되는 ATP 안전한 링크 정책
@@ -63,7 +64,7 @@ Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직�
     
 5. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정** 섹션에서 선택 (또는 선택 취소) 원하는 옵션을 사용 하 여 합니다. (좋습니다 모든 옵션을 선택 하는.) 
     
-6. **저장**을 선택합니다.
+6. **Save(저장)** 를 선택합니다.
     
 ## <a name="step-3-add-or-edit-atp-safe-links-policies-that-apply-to-specific-email-recipients"></a>3 단계: 추가 (또는 편집) 특정 전자 메일 받는 사람에 게 적용 되는 ATP 안전한 링크 정책
 
@@ -95,7 +96,7 @@ Office 365 Enterprise의 고급 위협 보호를가지고 있을 때에 조직�
     
   - **적용 된** 섹션에서 **받는 사람이의 구성원은**을 선택 하 고 정책에 포함 하려는 그룹을 선택 합니다. **추가**선택 하 고 **확인**을 선택 합니다.
     
-6. **저장**을 선택합니다.
+6. **Save(저장)** 를 선택합니다.
     
 ## <a name="step-5-learn-about-atp-safe-links-policy-options"></a>5 단계: ATP 안전한 링크 정책 옵션에 알아보기
 
