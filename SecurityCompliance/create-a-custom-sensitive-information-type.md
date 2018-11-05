@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Office 365 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: cd7041ee9c20038fb7cb0c337f31d7cef7f7192d
-ms.sourcegitcommit: ceb70ea863d8b97afea077a04fc7ec612b870695
+ms.openlocfilehash: 55c7476a1162f657194b9dab4376afb34a76c3f3
+ms.sourcegitcommit: e044b4fd72e4151cd17bf2ad05acc057e0c0d45f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25857296"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25895287"
 ---
 # <a name="create-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 만들기
 
-Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용할 수 있는 많은 [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)이 포함되어 있습니다. 이러한 기본 제공 유형은 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 될 수 있습니다. 
+Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용할 수 있는 많은 기본 제공 [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)이 포함되어 있습니다. 이러한 기본 제공 유형은 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 될 수 있습니다. 
 
 그렇지만 다른 유형의 중요한 정보(예: 조직 고유의 형식을 사용하는 직원 ID 또는 프로젝트 번호)를 식별하고 보호해야 할 경우 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
 
@@ -54,20 +54,18 @@ Office 365 보안 및 준수 센터에서 사용자 지정 중요한 정보 유�
 |UI에서 사용자 지정 중요한 정보 유형|PowerShell에서 사용자 지정 중요한 정보 유형|
 |:-----|:-----|
 |이름과 설명이 하나의 언어로 되어 있습니다.|이름 및 설명을 위한 여러 언어를 지원합니다.|
-|한 개의 패턴(기본 패턴)을 지원합니다.|기본 패턴 외에도 여러 개의 패턴을 지원합니다.|
+|한 개의 패턴을 지원합니다.|여러 개의 패턴을 지원합니다.|
 |뒷받침하는 증거는 다음이 될 수 있습니다. <br/>• 정규식 <br/>• 키워드 <br/>• 키워드 사전|뒷받침하는 증거는 다음이 될 수 있습니다. <br/>• 정규식 <br/>• 키워드 <br/>• 키워드 사전 <br/>• [기본 제공 DLP 함수](what-the-dlp-functions-look-for.md)|
-|중요한 정보 유형에 대한 신뢰 수준을 구성할 수 있습니다.|중요한 정보 유형 또는 각각의 개별 패턴 내에 대한 신뢰도 수준을 구성할 수 있습니다.|
+|사용자 지정 중요한 정보 유형이 이름이 Microsoft.SCCManaged.CustomRulePack인 규칙 패키지에 추가됩니다.|사용자 지정 중요한 정보 유형을 포함하는 최대 10개의 규칙 패키지를 만들 수 있습니다.|
 |패턴 일치는 기본 패턴 및 모든 뒷받침하는 증거를 검색해야 합니다(암시적 AND 연산자가 사용됨).|패턴 일치는 기본 패턴 및 구성 가능한 뒷받침하는 증거의 양을 검색해야 합니다(암시적 AND 및 OR 연산자를 사용할 수 있음).|
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 보안 및 준수 센터를 열려면 [Office 365 보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)을 참조하세요.
 
-- 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 .NET RegEx 엔진에 대한 자세한 내용은 [.NET 정규식](https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions)을 참조하세요.
+- 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
 
   Microsoft 고객 서비스 및 지원에서는 사용자 지정 콘텐츠 일치 정의(사용자 지정 분류 또는 정규식 패턴 만들기)를 제공하는 것을 지원할 수 없습니다. 지원 엔지니어는 기능을 제한적으로 지원할 수 있습니다(예: 테스트 목적으로 샘플 정규식 패턴 제공 또는 예상대로 트리거되지 않는 기존 정규식 패턴 문제 해결 지원). 그러나 사용자 지정 콘텐츠 일치 개발이 귀하의 요구 사항이나 의무를 충족할 것이라고 확신할 수는 없습니다.
-
-- 텍스트를 처리하는 데 사용되는 .NET RegEx 엔진에 대한 자세한 내용은 [.NET의 정규식](https://docs.microsoft.com/dotnet/standard/base-types/regular-expressions)을 참조하세요.
 
 - DLP는 검색 크롤러를 사용하여 SharePoint Online 및 비즈니스용 OneDrive 사이트의 중요한 정보를 식별하고 분류합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 콘텐츠를 다시 크롤링해야 합니다. 일정을 기반으로 콘텐츠가 다시 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록의 크롤링 및 다시 인덱싱을 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
 
