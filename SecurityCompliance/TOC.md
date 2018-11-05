@@ -14,6 +14,7 @@
 ## [MDM과 Intune 중에서 선택](choose-between-mdm-and-intune.md)
 # 정보 보호
 ## [민감도 레이블](sensitivity-labels.md)
+## [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)
 ## [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
 ## [DLP 확장된 개요 보기](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## DLP 설정
@@ -149,7 +150,7 @@
 ## [콘텐츠 검색 사용](content-search.md)
 ### [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
 ### [콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)
-### [콘텐츠 검색 결과 내보내기](export-search-results.md)
+### [콘텐츠 검색 결과 내보내기 ](export-search-results.md)
 ### [콘텐츠 검색 보고서 내보내기](export-a-content-search-report.md)
 ### [전자 메일 메시지 검색 및 삭제](search-for-and-delete-messagesadmin-help.md)
 ### [Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
@@ -257,7 +258,8 @@
 ### [격리된 SharePoint Online 팀 사이트 디자인](design-an-isolated-sharepoint-online-team-site.md)
 ### [격리된 SharePoint Online 팀 사이트 배포](deploy-an-isolated-sharepoint-online-team-site.md)
 ### [격리된 SharePoint Online 팀 사이트 관리](manage-an-isolated-sharepoint-online-team-site.md)
-### [개발/테스트 환경에서 격리된 SharePoint Online 팀 사이트](isolated-sharepoint-online-team-site-dev-test-environment.md)
+### [격리된 SharePoint Online 팀 사이트 개발/테스트 환경](isolated-sharepoint-online-team-site-dev-test-environment.md)
+## [SIEM 서버 통합](siem-server-integration.md)
 
 # 준수 솔루션
 ## [Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
