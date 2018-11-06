@@ -1,9 +1,9 @@
 ---
-title: Office 365 보안 점수 소개
+title: Office 365 보안 점수
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/23/2018
+ms.date: 11/05/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -12,49 +12,58 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
-description: 얼마나 안전한 Office 365 조직 정말 지 궁금한 적이 있습니까? 앱으로 중지할 수 있는 시간을-Office 365 보안 점수를 위해 여기 됩니다. 일반 작업 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다. 것으로 생각 하면 보안에 대 한 신용 점수입니다.
-ms.openlocfilehash: 958744696e0d9d8c7e8f29b9bdc460c5aa05eb3a
-ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
+description: 얼마나 안전 조직 실제로 Office 365에 지 궁금한 적이 있습니까? 보안 점수를 위해 여기 됩니다. 일반 작업 및 Offic 365의 보안 설정에 따라 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다.
+ms.openlocfilehash: 0be9b68653ccdf17afedf7e22e1af5577f8a2caf
+ms.sourcegitcommit: 791d23e1c2dea622b6ef77a6e2bde32e1d31a41b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450753"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999992"
 ---
-# <a name="introducing-the-office-365-secure-score"></a>Office 365 보안 점수 소개
+# <a name="office-365-secure-score"></a>Office 365 보안 점수
 
-얼마나 안전한 Office 365 조직 정말 지 궁금한 적이 있습니까? 앱으로 중지할 수 있는 시간을-Office 365 보안 점수를 위해 여기 됩니다. 일반 작업 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다. 것으로 생각 하면 보안에 대 한 신용 점수입니다.
+**요약** 얼마나 안전 조직 실제로 Office 365에 지 궁금한 적이 있습니까? 보안 점수를 위해 여기 됩니다. 일반 작업 및 Office 365의 보안 설정에 따라 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다. 점수 보안 및 사용 방법에 대 한 개요를 얻으려면이 문서를 읽어보십시오.
   
-## <a name="how-do-i-get-to-secure-score"></a>보안 점수를 합니까?
+## <a name="how-to-get-to-secure-score"></a>보안 점수를 얻는 방법
 
-Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세스할 수에 대 한 관리자 권한 (전역 관리자 또는 사용자 지정 관리 역할)을 가진 모든 사용자가 [https://securescore.office.com](https://securescore.office.com)합니다. 관리 역할 할당 되지 않은 사용자에 게 보안 점수에 액세스할 수 없습니다. 그러나 관리자가 조직에서 다른 사람들과 자신의 결과 공유 하 도구를 사용 수 있습니다.
-  
-## <a name="how-does-it-work"></a>작동 방식
+조직에 [Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/), [Microsoft 365 비즈니스](https://docs.microsoft.com/microsoft-365/business/)또는 Office 365 프리미엄을 포함 하는 구독 하는 경우 필요한 권한을 방문 하 여 조직의 보안 점수를 볼 수 있습니다 [https://securescore.office.com](https://securescore.office.com)합니다. 
 
-어떤 Office 365 서비스 보안 점수 수치 있습니다 (OneDrive, SharePoint, Exchange 등)를 사용 하는 한 다음 설정 및 작업을 확인 하 고 Microsoft에 의해 설정 된 초기 계획을 비교 합니다. 최상의 보안 방법으로는 어떻게 정렬 기준으로 점수를 얻을 수 있습니다.
+보안 및 규정 준수 센터를 방문 수 또는 ([https://protection.office.com](https://protection.office.com)), 현재 점수가 제공 하는 보안 점수 위젯을 찾아볼 수 있습니다.
+
+![보안 점수 위젯](media/SecureScoreWidget-o365.png)
+
+위젯은 Microsoft 보안 점수를 Office 365에 대 한 보안 점수 대시보드에로 이동 하는에 대 한 링크를 포함 합니다.
+
+![보안 점수 대시보드](media/SecureScore-WelcomeScreen.png)
+
+> [!NOTE]
+> 예: 전역 관리자 또는 보안 관리자는 Office 365 관리자 보안 점수에 액세스 하려면 이어야 합니다.
   
-![Office 365 보안 점수 도구의 홈 페이지에 표시 되는 보안 점수 요약](media/151de499-259d-45e3-9706-7dae0bfb9f9c.png)
+## <a name="how-it-works"></a>방법
+
+확장 한 다음 (예: OneDrive, SharePoint 및 Exchange) 사용 하는 Office 365 서비스 설정 및 작업을 확인 및 Microsoft에 의해 설정 된 초기 계획을 비교 합니다 점수 수치를 보호 합니다. 최상의 보안 방법으로는 어떻게 정렬 기준으로 점수를 얻을 수 있습니다.
   
-귀하의 점수를 개선 하기 위해 원하는 할 수 있는 보안을 강화 하 고 위험을 줄일 수를 확인 하려면 작업 큐를 검토 합니다.
+또한 조직의 점수를 개선 하기 위해 수행할 수 있는 단계에서 권장 사항을 얻을 수 있습니다. 
   
-![Office 365 보안 점수 도구에서 작업 큐](media/23757303-274c-46c7-a7ee-b4e6f2f9eca0.png)
+![Office 365 보안 점수 도구에서 작업 큐](media/SecureScore-ActionsToTake.png)
   
-어떤 위협 하는 것에서 사용자를 보호 하 고 작업을 완료를 어떻게 얻을 수에 대해 자세히 알아보려면 동작을 확장 합니다.
+에 대해 자세히 알아보려면 어떤 단계를 수행 하 고, 하는 것은 위협에서 사용자를 보호 하는 동작을 확장 하 고 얼마나 많은 포인트 권장 조치를 따라 되 면 귀하의 점수 증가 합니다.
   
-![Office 365 보안 점수 도구에서 확장 된 함수](media/515d45f1-c554-455f-b251-ab62f712bca3.png)
+![Office 365 보안 점수 도구에서 확장 된 함수](media/SecureScore-DetailedActionToTake.png)
   
-조직의 보안에서 이러한 작업의 영향을 보려면 **점수 분석기** 페이지로 이동 하 고 기록을 검토 합니다. 
+조직의 보안에서 이러한 작업의 영향을 보려면 **점수 분석기** 탭을 선택 하 고 대화 기록을 검토 합니다. 
   
-![Office 365 보안 점수 도구의 점수 분석기 탭](media/f38f4f0c-fdf7-4004-8eb3-53e5064cd4f7.png)
+![Office 365 보안 점수 도구의 점수 분석기 탭](media/SecureScore-ScoreAnalyzer-7days.png)
   
-해당 날짜에 대 한 귀하의 점수를 분석 하 여 볼 수 있는 데이터 요소를 클릭 합니다. 어떤 컨트롤을 사용 하도록 설정 된 참조 하 고 각 컨트롤에 대 한 날짜를 진척 상황 계산 얼마나 많은 안내까지 아래로 스크롤할 수 있습니다.
+다음은 차트 아래 범주별으로 점수 및 작업의 lsit를 볼 수 있습니다.
   
-![탭의 점수 분석기 선택 된 데이터 요소를 보여주는 그래프](media/b8427837-2ed9-4319-ba71-7d03bd99129c.png)
+![탭의 점수 분석기 선택 된 데이터 요소를 보여주는 그래프](media/SecureScore-Analyzer-breakdownbelowchart.png)
   
-## <a name="how-will-it-help-me"></a>해당 사항을 있나요?
+## <a name="how-secure-score-helps"></a>보안 점수를 손쉽게 방법
 
 보안 점수를 사용 하 여 장려 Office 365 (대부분의 이미 구입한 있지만 인식 되지 않을 수)의 기본 제공 보안 기능을 사용 하 여 조직의 보안을 강화 하는데 도움이 됩니다. 사용 하면 도움이 되는 도구를 사용 하 여 이러한 기능에 대해 자세히 안심할 조직 위협 으로부터 보호 하기 위해 오른쪽 단계를 수행 하는 요소가 있습니다.
   
-하지만 word 것에 대 한 소요 방금 하지 않습니다. 고객에 게 보안 점수를 사용 하는 고객에 게 사용 하지 않을 보다 더 많은 5 번 증가 자신의 점수를 확인 했습니다. (점수 증가 해당 조직에서 현재 사용 되는 보안 기능.)
+하지만 word 것에 대 한 소요 방금 하지 않습니다. 고객에 게 보안 점수를 사용 하는 고객에 게 사용 하지 않을 보다 더 많은 시간을 증가 자신의 점수를 살펴보았습니다. (자신의 점수 증가 해당 조직에서 현재 사용 되는 보안 기능.)
   
 자세한 내용을 보려면이 [블로그 게시물](https://go.microsoft.com/fwlink/?linkid=836898) 아웃 확인 합니다. 
   
@@ -65,7 +74,7 @@ Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세�
 
 ### <a name="who-can-use-secure-score"></a>보안 점수를 사용할 수 있는 사람?
 
-Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세스할 수에 대 한 관리자 권한 (전역 관리자 또는 사용자 지정 관리 역할)을 가진 모든 사용자가 [https://securescore.office.com](https://securescore.office.com)합니다. 관리 역할 할당 되지 않은 사용자에 게 보안 점수에 액세스할 수 없습니다. 그러나 관리자가 조직에서 다른 사람들과 자신의 결과 공유 하 도구를 사용 수 있습니다. 검토 하 고 다른, 관리자가 아닌 역할 사용 권한 목록에 포함 하 여 나중에 있습니다. 특정 역할을 고려 하 고 싶은 경우 알려주십시오에 게시 하 여는 [Office 보안, 개인 &amp; 준수 커뮤니티](https://go.microsoft.com/fwlink/?linkid=836898)합니다.
+Office 365 Enterprise, Microsoft 365 비즈니스 또는 Office 365 프리미엄 구독에 대 한 보안 점수에 액세스할 수에 대 한 관리자 권한 (전역 관리자 또는 사용자 지정 관리 역할)을 가진 모든 사용자가 [https://securescore.office.com](https://securescore.office.com)합니다. 관리 역할 할당 되지 않은 사용자에 게 보안 점수에 액세스할 수 없습니다. 그러나 관리자가 조직에서 다른 사람들과 자신의 결과 공유 하 도구를 사용 수 있습니다. 검토 하 고 다른, 관리자가 아닌 역할 사용 권한 목록에 포함 하 여 나중에 있습니다. 특정 역할을 고려 하 고 싶은 경우 알려주십시오에 게시 하 여는 [Office 보안, 개인 &amp; 준수 커뮤니티](https://go.microsoft.com/fwlink/?linkid=836898)합니다.
   
 ### <a name="what-does-not-scored-mean"></a>[점수가 하지] 어떤 역할을 의미 합니까?
 
@@ -89,7 +98,7 @@ Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세�
   
 ### <a name="how-should-i-interpret-my-score"></a>내 점수를 어떻게 해석 해야 합니까?
 
-권장 보안 기능이 나 (예: 보고서를 읽는) 보안 관련 작업을 수행 구성에 대 한 포인트를 제공 하려는. 일부 작업에 따라 사용자를 위한 다단계 인증 (MFA)를 사용 하도록 설정 하는 다음과 같은 부분 완료를 위한 점수가 합니다. 보안 점수가 사용 하는 Microsoft 보안 서비스의 담당자에 게 직접입니다. 보안 항상 균형 조정 해야 유용성 사용 해야 합니다. 모든 보안 컨트롤에는 사용자 영향 구성 요소가 있습니다. 낮은 사용자 영향을 사용 하 여 컨트롤에는 사용자의 일상적인 작업에는 효과가 거의 없습니다 있어야 합니다.
+권장 보안 기능이 나 (예: 보고서를 보는) 보안 관련 작업을 수행 구성에 대 한 포인트를 제공 하려는. 일부 작업에 따라 사용자를 위한 다단계 인증 (MFA)를 사용 하도록 설정 하는 다음과 같은 부분 완료를 위한 점수가 합니다. 보안 점수가 사용 하는 Microsoft 보안 서비스의 담당자에 게 직접입니다. 보안 항상 균형 조정 해야 유용성 사용 해야 합니다. 모든 보안 컨트롤에는 사용자 영향 구성 요소가 있습니다. 낮은 사용자 영향을 사용 하 여 컨트롤에는 사용자의 일상적인 작업에는 효과가 거의 없습니다 있어야 합니다.
   
 점수 기록을 보려면 **점수 분석기** 페이지로 이동 합니다. 어떤 컨트롤은 일과 어떤 안내 각 하나에 대 한 진척 상황에 대해 활성화 된 참조를 특정 날짜를 선택 합니다. 
   
@@ -108,5 +117,7 @@ Office 365 프리미엄 또는 Enterprise 구독에서 Secure 점수에 액세�
 ## <a name="related-topics"></a>관련 항목
 
 [보안 대시보드 개요 (영문)](security-dashboard.md)
+
+[내가 구독한 것은 무엇인가요?](https://docs.microsoft.com/office365/admin/admin-overview/what-subscription-do-i-have?view=o365-worldwide)
   
 
