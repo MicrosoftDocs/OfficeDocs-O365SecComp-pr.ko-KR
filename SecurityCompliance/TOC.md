@@ -33,6 +33,7 @@
 ### [사용자 지정 DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852306)
 ### [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 ### [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
+### [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
 ### [문서 핑거프린팅](document-fingerprinting.md) 
 # 데이터 거버넌스 관리        
@@ -233,7 +234,7 @@
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
 # [보안 및 규정 준수 모니터링]()
 ## [알림 정책](alert-policies.md)
-### [활동 알림 만들기](create-activity-alerts.md)
+## [활동 알림](create-activity-alerts.md)
 ## [보안 및 준수 센터의 똑똑한 보고서 및 분석](reports-and-insights-in-security-and-compliance.md)
 ### [ 보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
 #### [연습 - 자세한 보고서에서 통찰력에 이르기까지](from-a-detailed-report-to-an-insight.md)
