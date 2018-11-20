@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 description: ATP 안전한 링크 정책에를 설정 하는 경우에 do not 재작성을 포함할 수 있습니다 ' 목록에 포함 된 사이트를 방문 하 여 조직에서 일부 사용자를 사용 하도록 설정 하는 Url의 목록입니다.
-ms.openlocfilehash: 3ce783a3f783889bdc59ad8d412c80a79e7dd914
-ms.sourcegitcommit: 7032830867eb3fc71760e04b8342aff174c5d757
+ms.openlocfilehash: c954c12785659f9c025046bf3773cfec2d5dd5f9
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25353264"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238390"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 사용자 지정 안함-되지 않음-재작성 Url 목록 설정
 
@@ -66,20 +66,4 @@ ATP 안전한 링크 보호 조직의 차단된 Url 목록 및 예외에 대 한
 |`http://contoso.com/a`  <br/> |같은 사이트를 방문 하 여 특정 수신자에 게 허용 `http://contoso.com/a`, 하위 경로 하지 않지만`http://contoso.com/a/b`  <br/> |
 |`http://contoso.com/a*`  <br/> |같은 사이트를 방문 하 여 특정 수신자에 게 허용 `http://contoso.com/a` 하위 경로 같은 및`http://contoso.com/a/b`  <br/> |
    
-  
-
-## <a name="related-topics"></a>관련 항목
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 링크](atp-safe-links.md)
-  
-[Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
-  
-[ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)
-
-[Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
-
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
-  
-
+ 

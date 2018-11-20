@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: 다양 한 유형의 Office 365 사서함에 배치할 수 있는 보류를 식별 하는 방법에 알아봅니다. 이러한 유형의 보류 소송 보존으로 설정, eDiscovery 보류 및 Office 365 보존 정책에 포함 됩니다. 사용자는 조직 전체의 보존 정책에서 제외 되었는지 하는 경우 확인할 수 있습니다.
-ms.openlocfilehash: 821ec2a8be9ecd89a13ad9ad0378bc6e24fcee1e
-ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
+ms.openlocfilehash: 1572b34d3f9abef2fb922fc9b01d1f5a27fcdf7b
+ms.sourcegitcommit: e4ebef6aaf756eefb86c9f3a602cf75f5d344271
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25577077"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026515"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -39,7 +39,7 @@ Office 365에는 다양 한 조직에서 영구적으로 삭제 되 고 사서�
 
     - **조직 전체의 보존 정책** -이것은 조직에서 모든 콘텐츠 위치에 할당 된 정책입니다. Exchange Online PowerShell에서 **Get-organizationconfig** cmdlet를 사용 하 여 조직 전체의 보존 정책에 대 한 정보를 얻을 수 있습니다. 자세한 내용은 [Office 365 개요 (영문) 보존 정책](retention-policies.md#applying-a-retention-policy-to-an-entire-organization-or-specific-locations)에서 "전체 조직 또는 특정 위치에 보존 정책 적용" 섹션을 참조 하십시오.
 
-- **Office 365 레이블** -사용자를 *모든* 폴더 또는 항목 보류 자신의 사서함에는 Office 365 레이블 (콘텐츠 또는 유지 하 고 다음 콘텐츠를 삭제 하도록 구성 된 하나)를 적용 하는 경우이 경우 사서함 소송 보존에 배치 된 대로 사서함에 놓입니다. 대기 또는 Office 365 보존 정책에 할당 합니다. 자세한 내용은이 문서의 [식별 사서함에 보관 폴더 또는 항목 레이블을 적용 된 때문에](#identifying-mailboxes-on-hold-because-a-label-has-been-applied-to-a-folder-or-item) 섹션을 참조 하십시오.
+- **Office 365 보존 레이블** -사용자를 *모든* 폴더 또는 항목 보류 자신의 사서함에는 Office 365 보존 레이블 (콘텐츠 또는 유지 하 고 다음 콘텐츠를 삭제 하도록 구성 된 하나)를 적용 하는 경우이 경우 사서함 된 대로 사서함에 놓입니다. 소송 보존에 배치 하거나 Office 365 보존 정책에 할당 합니다. 자세한 내용은이 문서의 [식별 사서함에 보관 폴더 또는 항목에 적용 된 보존 레이블 때문에](#identifying-mailboxes-on-hold-because-a-label-has-been-applied-to-a-folder-or-item) 섹션을 참조 하십시오.
 
 보류에 있는 사서함을 관리 하려면 보류에 보존 기간을 변경, 일시적 또는 영구적으로 제거 보류를 또는 사서함을 제외 하 고 Office 365 보존 정책에서 등의 작업을 수행할 수 있도록 사서함에 배치 되는 형식을 식별 해야할 수 있습니다. 이러한 경우 첫 단계는 사서함에 배치 하는 보류의 형식을 식별 하기 위해입니다. 및 여러 보류 (및 다양 한 유형의 보류) 단일 사서함에 배치할 수, 하기 때문에 해야 하거나 제거 하거나 해당 보류를 변경 하려는 경우 사서함에 배치 하는 모든 보류를 식별 합니다.
 
@@ -154,9 +154,9 @@ Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name,SourceMailboxes
 Get-RetentionCompliancePolicy <hold GUID without prefix or suffix> -DistributionDetail  | FL Name,*Location
 ```
 
-## <a name="identifying-mailboxes-on-hold-because-a-label-has-been-applied-to-a-folder-or-item"></a>폴더 또는 항목 레이블을 적용 된 때문에 식별 사서함에 유지
+## <a name="identifying-mailboxes-on-hold-because-a-retention-label-has-been-applied-to-a-folder-or-item"></a>폴더 또는 항목에 적용 된 보존 레이블 때문에 식별 사서함 보류
 
-다음은 콘텐츠를 보존 또는 유지 하 고 다음 콘텐츠를 모든 폴더 또는 사서함의 항목을 삭제 하도록 구성 된 레이블을 적용 하는 사용자, 때마다 *ComplianceTagHoldApplied* 사서함 속성을 **True**로 설정 됩니다. 이러한 상황이 발생 하는 경우에 사서함 수, 기다리는 경우 처럼 소송 보존에 배치 또는 Office 365 보존 정책에 할당 된 것으로 간주 됩니다. *ComplianceTagHoldApplied* 속성은 **True**로 설정 하는 경우에 다음과 같은 작업 발생할 수 있습니다.
+다음은 콘텐츠를 보존 또는 유지 하 고 다음 콘텐츠를 모든 폴더 또는 사서함의 항목을 삭제 하도록 구성 된 보존 레이블을 적용 하는 사용자, 때마다 *ComplianceTagHoldApplied* 사서함 속성을 **True**로 설정 됩니다. 이러한 상황이 발생 하는 경우에 사서함 수, 기다리는 경우 처럼 소송 보존에 배치 또는 Office 365 보존 정책에 할당 된 것으로 간주 됩니다. *ComplianceTagHoldApplied* 속성은 **True**로 설정 하는 경우에 다음과 같은 작업 발생할 수 있습니다.
 
 - 사서함 또는 사용자의 Office 365 사용자 계정이 삭제 되 면 경우 사서함을 [비활성 사서함](inactive-mailboxes-in-office-365.md)이 됩니다.
 - 사서함 (주 사서함 또는 보관 사서함에 설정 된 경우)를 사용 하지 않도록 설정할 수 없습니다.
@@ -168,7 +168,7 @@ Get-RetentionCompliancePolicy <hold GUID without prefix or suffix> -Distribution
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
-레이블에 대 한 자세한 내용은 [Office 365 개요 레이블](labels.md)을 참조 하십시오.
+보존 레이블에 대 한 자세한 내용은 [Office 365 개요 보존 레이블](labels.md)을 참조 하십시오.
 
 ## <a name="managing-mailboxes-on-delay-hold"></a>지연 관리 사서함 보류
 

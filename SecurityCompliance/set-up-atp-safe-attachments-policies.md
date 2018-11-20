@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: 조직에서 전자 메일의 악의적인 파일 보호 하기 위해 안전한 첨부 파일 정책을 정의 합니다.
-ms.openlocfilehash: 1fd831adf5166223ba5df159a131c71e3b467233
-ms.sourcegitcommit: cda46434094bc2837dba90256d044ba77552df12
+ms.openlocfilehash: 84625cc688be4b6aa98674563b5c6c30b1b35598
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25850842"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238410"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 정책 설정
 
@@ -82,18 +82,9 @@ ATP 안전한 첨부 파일 정책에 설정 하면 모니터, 차단, 바꾸기
 |**동적 배달** <br/> |메시지를 바로 전달  <br/> 검색 완료 되며 없는 맬웨어가 탐지 되는 경우 첨부 파일을 다음가 다시 연결 될 때까지 개체 틀 파일 첨부 파일을 바꿉니다.  <br/> 대부분의 Pdf 및 Office에 대 한 기능을 미리 보는 첨부 파일 포함 파일 검사 중  <br/> 검색 된 맬웨어 있는 메시지를 격리 여기에서 보안 관리자 또는 분석가 수를 검토 하 고 릴리스 (또는 삭제) 해당 메시지를 보냅니다.  <br/> [동적 배달 하 고 ATP 안전한 첨부 파일 미리 보기에 대 한 설명](dynamic-delivery-and-previewing.md) <br/> |악의적인 파일에서 받는 사람을 보호 하는 동안 메시지 지연을 방지합니다  <br/> 받는 사람에 게 검사를 수행 하는 동안 안전 모드에서 첨부 파일 미리 보기를 사용 하도록 설정  <br/> |
 |**리디렉션 사용** <br/> |적용 하는 모니터, 차단 또는 바꾸기 옵션을 선택 하는 경우  <br/> 보안 관리자 또는 분석가 조사할 수의 첨부 파일을 지정 된 전자 메일 주소를 보냅니다.  <br/> |보안 관리자 및 분석가 의심 스러운 첨부 파일 조사를 사용 하도록 설정  <br/> |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="next-steps"></a>다음 단계
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 첨부 파일](atp-safe-attachments.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 링크](atp-safe-links.md)
-  
-[Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
-  
-[고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
-
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
-  
-
+ATP 안전한 첨부 파일 정책이 설정 되어, 되 면 조직에 대 한 보고서를 확인 하 여 ATP가 작동 하는 방법을 확인할 수 있습니다. 자세한 내용은 다음 리소스를 참조 하십시오.
+- [Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
+- [탐색기를 사용 하 여 보안에서 &amp; 준수 센터](use-explorer-in-security-and-compliance.md)
+ 

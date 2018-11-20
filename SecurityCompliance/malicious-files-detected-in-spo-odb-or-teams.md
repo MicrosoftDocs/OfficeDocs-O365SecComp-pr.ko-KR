@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 description: SharePoint, OneDrive, 또는 팀에서 감지 된 악의적인 파일에 대 한 정보를 보려면 이동할 위치를 하 고 해당 파일에서 작업을 수행 하는 방법에 알아봅니다.
-ms.openlocfilehash: 37cd721c9ec2608ddcd74f9ae1ed6991b5f0cea7
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: ba1dc3551e66800213a9cb988ebe9fc5e03e31f2
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552386"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238510"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기
 
@@ -59,14 +59,5 @@ ms.locfileid: "25552386"
     
 5. 선택한 항목에 대 한 세부 정보를 닫으려면 **닫기** 를 선택 합니다. 
   
-## <a name="related-topics"></a>관련 항목
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
-  
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
-
-[Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.](manage-quarantined-messages-and-files.md)
   
 

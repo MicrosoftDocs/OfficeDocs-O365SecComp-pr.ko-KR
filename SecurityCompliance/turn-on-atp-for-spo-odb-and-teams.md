@@ -1,7 +1,7 @@
 ---
 title: SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
-ms.author: derng
-author: derng
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: SharePoint, OneDrive 및 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 팀에 대 한 ATP를 설정 하는 방법에 알아봅니다.
-ms.openlocfilehash: eb3687f6afd2e7f9a3698944019bcdb8dcbff5ae
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: d70c574f002ca7e70ab6f9a4abad3ea5ef21a20f
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454295"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238420"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
 
@@ -31,19 +31,17 @@ ms.locfileid: "25454295"
   
 1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com)와 작업이 나 교육용 계정 사용 하 여 로그인 합니다.
     
-2. Office 365 보안에서 &amp; 준수 센터 왼쪽된 탐색 창의 **위협 관리** **정책** 을 선택 \> **안전한 첨부 파일**입니다.
-    
-    ![보안에서 &amp; 준수 센터 위협 관리를 선택 \> 정책](media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+2. Office 365 보안에서 &amp; 준수 센터 왼쪽된 탐색 창의 **위협 관리** **정책** 을 선택 \> **안전한 첨부 파일**입니다. <br/>![보안에서 &amp; 준수 센터 위협 관리를 선택 \> 정책](media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
   
-3. **SharePoint, OneDrive 및 Microsoft 팀의 ATP 설정**을 선택 합니다.
-    
-    ![온라인으로 비즈니스용 OneDrive, Microsoft 팀의 SharePoint에 대 한 고급 위협 보호 설정](media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
+3. **SharePoint, OneDrive 및 Microsoft 팀의 ATP 설정**을 선택 합니다.<br/>![온라인으로 비즈니스용 OneDrive, Microsoft 팀의 SharePoint에 대 한 고급 위협 보호 설정](media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
   
 4. **저장**을 클릭합니다.
     
 5. 검토 (하 고 적절 하 게 편집) 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전 링크 정책](set-up-atp-safe-links-policies.md).
     
-6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true* 로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. <br/>파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.<br/>삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.<br/>매개 변수를 *true로*설정 하는 것이 좋습니다. 
+6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true*로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. <br/>
+  - 파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.
+  - 삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.  
    
 7. 모든 Office 365 데이터 센터에 분산 하 여 변경 내용 최대 30 분까지를 허용 합니다.
     
@@ -77,16 +75,10 @@ PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자�
   
 ## <a name="next-steps"></a>다음 단계
 
-- [SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+1. [SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
     
-- [Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.](manage-quarantined-messages-and-files.md)
+2. [Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.](manage-quarantined-messages-and-files.md)
     
-## <a name="related-topics"></a>관련 항목
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
-  
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
   
 

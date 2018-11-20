@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법을 알아보려면이 문서를 읽어보십시오. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: 0429546e521bf3f6b7144342ab0997e924c2f616
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: 1f7a991b9ab8f3a9f16616379cfb6c4c3c546260
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454365"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238370"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
 
@@ -64,17 +64,5 @@ ms.locfileid: "25454365"
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직에서 특정 사용자에 대 한 예외를 정의 하는 방법
 
 다른 사용자에 대 한 차단 되었을 수 있는 Url을 볼 수 있도록 특정 그룹을 하려는 경우에 특정 받는 사람에 게 적용 되는 ATP 안전한 링크 정책을 지정할 수 있습니다. [ATP 안전 링크를 사용 하는 사용자 지정 "rewrite 수행" Url 목록 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)을 참조 하십시오.
-  
-## <a name="related-topics"></a>관련 항목
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 링크](atp-safe-links.md)
-  
-[Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 첨부 파일](atp-safe-attachments.md)
-
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
   
 

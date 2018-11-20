@@ -3,7 +3,7 @@ title: DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 6/19/2017
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 description: '요약: 사용 DomainKeys 식별 된 메일 (DKIM) Office 365를 사용 하는 방법을 확인 대상 전자 메일 시스템 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는이 문서에 설명 합니다.'
-ms.openlocfilehash: 7dccab55ab86d9ecac14b7042b5a030c2415fece
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 6f09a75a96abda54e69833a8be14811c8113b5b1
+ms.sourcegitcommit: 75b985b2574f4be70cf352498ea300b3d99dd338
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003217"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255823"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면
 
@@ -91,23 +91,23 @@ CNAME 레코드에 대 한 다음 형식을 사용 합니다.
 Host name:          selector1._domainkey.<domain>
 Points to address or value: selector1-<domainGUID>._domainkey.<initialDomain> 
 TTL:                3600
+
 Host name:          selector2._domainkey.<domain>
 Points to address or value: selector2-<domainGUID>._domainkey.<initialDomain> 
 TTL:                3600
-
 ```
 
 여기서 각 부분이 나타내는 의미는 다음과 같습니다.
   
--  Office 365에 대 한 선택기는 항상 "selector1" 또는 "selector2"입니다. 
+- Office 365에 대 한 선택기는 항상 "selector1" 또는 "selector2"입니다. 
     
--  _domainGUID_ mail.protection.outlook.com 하기 전에 표시 되는 사용자 지정 도메인에 대 한 사용자 지정 된 MX 레코드에 _domainGUID_ 와 동일 합니다. 예, contoso.com 도메인에 대 한 다음 MX 레코드를 _domainGUID_ 는 contoso com: 
+- _domainGUID_ mail.protection.outlook.com 하기 전에 표시 되는 사용자 지정 도메인에 대 한 사용자 지정 된 MX 레코드에 _domainGUID_ 와 동일 합니다. 예, contoso.com 도메인에 대 한 다음 MX 레코드를 _domainGUID_ 는 contoso com: 
     
-  ```
-  contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
-  ```
+    ```
+    contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
+    ```
 
--  _initialDomain_ 은 도메인 Office 365에 등록할 수 있을 때 사용한 것입니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
+- _initialDomain_ 은 도메인 Office 365에 등록할 수 있을 때 사용한 것입니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/article/1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
     
 예는 초기 cohovineyardandwinery.onmicrosoft.com, 도메인 및 두 사용자 지정 도메인 cohovineyard.com 및 cohowinery.com을 설치한 경우에 총 4 개의 CNAME 레코드에 대 한 각 추가 도메인에 대 한 두 CNAME 레코드를 설정 해야 합니다.
   
@@ -115,9 +115,11 @@ TTL:                3600
 Host name:          selector1._domainkey.cohovineyard.com  
 Points to address or value: selector1-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
+
 Host name:          selector2._domainkey.cohovineyard.com  
 Points to address or value: selector2-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
+
 Host name:          selector1._domainkey.cohowinery.com
 Points to address or value: selector1-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:                3600
@@ -134,7 +136,7 @@ DNS에서 CNAME 레코드를 게시 한 후 Office 365를 통해 DKIM 서명을 
   
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-through-the-office-365-admin-center"></a>Office 365 관리 센터를 통해 사용자 지정 도메인에 대 한 서명 DKIM를 사용 하도록 설정 하려면
 
-1. 작업이 나 교육용 계정으로 [Office 365에 로그인](https://support.office.microsoft.com/article/Sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4) 합니다. 
+1. 회사 또는 학교 계정로 [Office 365에 로그인](https://support.office.microsoft.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다. 
     
 2. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자**를 선택합니다.
     
@@ -146,21 +148,21 @@ DNS에서 CNAME 레코드를 게시 한 후 Office 365를 통해 DKIM 서명을 
     
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용 하 여 사용자 지정 도메인에 대 한 서명 DKIM를 사용 하도록 설정 하려면
 
-1. [원격 PowerShell을 사용 하는 Exchange Online에 연결](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx)합니다.
+1. [Exchange Online PowerShell에 연결합니다](https://technet.microsoft.com/library/jj984289.aspx).
     
-2. 다음 cmdlet을 실행합니다.
+2. 다음 명령을 실행합니다.
     
-  ```
-  New-DkimSigningConfig -DomainName <domain> -Enabled $true
-  ```
+    ```
+    New-DkimSigningConfig -DomainName <domain> -Enabled $true
+    ```
 
-    여기서 _도메인_ 은 DKIM 서명을 사용 하도록 설정 하려는 사용자 지정 도메인의 이름입니다. 
+   여기서 _도메인_ 은 DKIM에 대 한 로그인을 사용 하도록 설정 하려는 사용자 지정 도메인의 이름입니다. 
     
-    예: contoso.com 도메인:
+   예: contoso.com 도메인:
     
-  ```
-  New-DkimSigningConfig -DomainName contoso.com -Enabled $true
-  ```
+    ```
+    New-DkimSigningConfig -DomainName contoso.com -Enabled $true
+    ```
 
 #### <a name="to-confirm-dkim-signing-is-configured-properly-for-office-365"></a>DKIM 확인 하려면 서명 제대로 구성 Office 365에 대 한
 
@@ -171,18 +173,17 @@ DKIM 제대로 구성 되었는지 확인 하려면 다음이 단계를 수행 �
 - 테스트 목적으로 aol.com 계정을 사용 하지 마십시오. AOL은 SPF 검사를 통과 하는 경우 DKIM 확인을 건너뛸 수 있습니다. 이 테스트를 무효화 됩니다.
     
 - 메시지를 열고 머리글을 살펴봅니다. 메시지에 대 한 헤더를 보기 위한 지침 메시징 클라이언트에 따라 달라 집니다. Outlook에서 메시지 헤더 보기에 대 한 지침을 [전자 메일 메시지 머리글 보기를](https://support.office.com/article/CD039382-DC6E-4264-AC74-C048563D212C)참조 하십시오.
+
+  DKIM 서명 된 메시지는 호스트 이름 및 CNAME 항목을 게시 하는 경우를 정의 하는 도메인에 포함 됩니다. 메시지는이 예제에서는 같습니다. 
     
-     DKIM 서명 된 메시지는 호스트 이름 및 CNAME 항목을 게시 하는 경우를 정의 하는 도메인에 포함 됩니다. 메시지는이 예제에서는 같습니다. 
-    
-  ```
-  From: Example User <example@contoso.com> 
-  DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; 
-      s=selector1; d=contoso.com; t=1429912795; 
-      h=From:To:Message-ID:Subject:MIME-Version:Content-Type; 
-      bh=<body hash>; 
-      b=<signed field>;
-  
-  ```
+    ```
+    From: Example User <example@contoso.com> 
+    DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; 
+        s=selector1; d=contoso.com; t=1429912795; 
+        h=From:To:Message-ID:Subject:MIME-Version:Content-Type; 
+        bh=<body hash>; 
+        b=<signed field>;
+    ```
 
 - 인증 결과 헤더를 찾습니다. 결과 다음과 같이 포함 되도록 각 수신 서비스에서는 약간 다른 형식을 받는 메일을 스탬프 처리 하는 동안 **DKIM 통과 =** 또는 **DKIM 확인 =** 합니다. 
     
@@ -198,35 +199,33 @@ DKIM 제대로 구성 되었는지 확인 하려면 다음이 단계를 수행 �
   
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Windows PowerShell을 사용 하 여 정책에 서명 DKIM를 사용 하지 않도록 설정 하려면
 
-1. [원격 PowerShell을 사용 하는 Exchange Online에 연결](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx)합니다.
+1. [Exchange Online PowerShell에 연결합니다](https://technet.microsoft.com/library/jj984289.aspx).
     
 2. DKIM 로그인을 사용 하지 않도록 설정 하려는 각 도메인에 대 한 다음 명령 중 하나를 실행 해야 합니다.
     
-  ```
-  $p=Get-DkimSigningConfig -identity <domain>
-  $p[0] | set-DkimSigningConfig -enabled $false
-  
-  ```
+    ```
+    $p=Get-DkimSigningConfig -identity <domain>
+    $p[0] | set-DkimSigningConfig -enabled $false
+    ```
 
-    예를 들면 다음과 같습니다.
+   예를 들면 다음과 같습니다.
     
-  ```
-  $p=Get-DkimSigningConfig -identity contoso.com
-  $p[0] | set-DkimSigningConfig -enabled $false
-  ```
+    ```
+    $p=Get-DkimSigningConfig -identity contoso.com
+    $p[0] | set-DkimSigningConfig -enabled $false
+    ```
 
-    또는
+   또는
     
-  ```
-  Set-DkimSigningConfig -identity $p[<number>].identity -enabled $false
-  
-  ```
+    ```
+    Set-DkimSigningConfig -identity $p[<number>].identity -enabled $false
+    ```
 
     여기서 _번호_ 는 정책의 인덱스입니다. 예를 들어: 
     
-  ```
-  Set-DkimSigningConfig -identity $p[0].identity -enabled $false
-  ```
+    ```
+    Set-DkimSigningConfig -identity $p[0].identity -enabled $false
+    ```
 
 ## <a name="default-behavior-for-dkim-and-office-365"></a>DKIM 및 Office 365에 대 한 기본 동작
 <a name="DefaultDKIMbehavior"> </a>
@@ -244,10 +243,9 @@ DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
     h=From:To:Message-ID:Subject:MIME-Version:Content-Type; 
     bh=<body hash>; 
     b=<signed field>;
-
 ```
 
-이 예제에서는 호스트 이름 및 도메인 CNAME 도메인 관리자에 의해 활성화 되어 있던 fabrikam.com에 대 한 DKIM 서명 하는 경우에 가리키기 값이 포함 됩니다. 결국, Office 365에서 보낸 모든 단일 메시지 DKIM 서명 됩니다. 도메인에서에서 도메인 같을 수는 DKIM, 사용자가 직접 사용 하는 경우:이 사례 fabrikam.com 주소입니다. 이렇게 하지 않으면 맞추지 않습니다 하 고 대신 조직의 초기 도메인을 사용 합니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
+이 예제에서는 호스트 이름 및 도메인 CNAME 도메인 관리자에 의해 활성화 되어 있던 fabrikam.com에 대 한 DKIM 서명 하는 경우에 가리키기 값이 포함 됩니다. 결국, Office 365에서 보낸 모든 단일 메시지 DKIM 서명 됩니다. 도메인에서에서 도메인 같을 수는 DKIM, 사용자가 직접 사용 하는 경우:이 사례 fabrikam.com 주소입니다. 이렇게 하지 않으면 맞추지 않습니다 하 고 대신 조직의 초기 도메인을 사용 합니다. 초기 도메인을 결정 하는 방법에 대 한 정보를 [도메인 FAQ](https://support.office.com/article/1272bad0-4bd4-4796-8005-67d6fb3afc5a#bkmk_whydoihaveanonmicrosoft.comdomain)를 참조 하십시오.
   
 ## <a name="set-up-dkim-so-that-a-third-party-service-can-send-or-spoof-email-on-behalf-of-your-custom-domain"></a>DKIM를 제 3 자 서비스 보내기, 또는 사용자 지정 도메인을 대신 하 여 전자 메일을 스푸핑할 수 있도록 설정
 <a name="SetUp3rdPartyspoof"> </a>
@@ -275,7 +273,7 @@ Return-Path: <communication@bulkemailprovider.com>
     
     **contoso.com** @ 보낸사람
     
-    d **contoso.com** =
+    d**contoso.com** =
     
 ## <a name="next-steps-after-you-set-up-dkim-for-office-365"></a>다음 단계: Office 365에 대 한 DKIM를 설정한 후
 <a name="DKIMNextSteps"> </a>

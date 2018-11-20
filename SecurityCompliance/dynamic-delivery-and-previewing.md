@@ -3,7 +3,7 @@ title: 동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 10/30/2018
+ms.date: 11/08/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 description: ATP 안전한 첨부 파일 정책에 연결을 설정할 때 동적 배달 메시지 지연을 방지 하 고 사용자 검색 되는 첨부 파일 미리 보기를 사용 하도록 설정 하려면 선택 합니다.
-ms.openlocfilehash: b7b5f05170e6f27cbec9e0d5a121b2f71f16f41a
-ms.sourcegitcommit: cda46434094bc2837dba90256d044ba77552df12
+ms.openlocfilehash: a272253594dda7ea720bb1e8b59e38e870f2f036
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25850822"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238430"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기
 
@@ -72,16 +72,3 @@ ATP 안전한 첨부 파일 검사 가져오고 Office 365 데이터가 있는 �
 
 - 기업이 Internet Mail Extensions ([S/MIME](s-mime-for-message-signing-and-encryption.md))를 사용 하 여 암호화 된 메시지
     
-## <a name="related-topics"></a>관련 항목
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 첨부 파일](atp-safe-attachments.md)
-  
-[Office 365의 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)
-  
-[Office 365의에서 ATP 안전 하 게 보호 링크](atp-safe-links.md)
-
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
-  
-

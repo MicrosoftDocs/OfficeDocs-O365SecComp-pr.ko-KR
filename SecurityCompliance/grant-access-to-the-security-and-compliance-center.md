@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자가 Office 365 보안에 대 한 사용 권한을 할당할 필요가 &amp; 준수 센터 전에 해당 보안 또는 규정 준수 기능 중 하나를 관리할 수 있습니다.
-ms.openlocfilehash: e0c8b655b1b3300e4ffa9aba1d94e65a9ef26121
-ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
+ms.openlocfilehash: 976c4e21351e352672f3075d0f713e63a634ce42
+ms.sourcegitcommit: da4aa7335b577148ecd61e09bbb11039b817b287
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450743"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539110"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>사용자가 Office 365 보안에 액세스할 &amp; 준수 센터
 
@@ -63,7 +63,7 @@ ms.locfileid: "25450743"
     
 ## <a name="use-powershell-to-give-another-user-access-to-the-security-amp-compliance-center"></a>보안에 대 한 다른 사용자 액세스를 제공 하려면 PowerShell을 사용 하 여 &amp; 준수 센터
 
-1. [Office 365 보안 연결 &amp; 원격 PowerShell을 사용 하 여 준수 센터](https://go.microsoft.com/fwlink/p/?LinkID=627084)합니다.
+1. [Office 365 보안 및 규정 준수 센터 PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)합니다.
     
 2. 다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다. 
     

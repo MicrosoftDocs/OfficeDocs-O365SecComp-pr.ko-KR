@@ -11,12 +11,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 Office 365 보안에서 &amp; SharePoint 사이트 및 OneDrive 위치와 인스턴트 메시징 비즈니스를 위한 Skype에서 대화에 있는 문서를 준수 센터 Exchange 사서함에서 전자 메일을 신속 하 게 찾을 수 있습니다.
-ms.openlocfilehash: d7ccdd8e501e38b67cc00ec457622080d6c58001
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 96a30bfe7b7cc5a1398cafa66577f0b7dc681d23
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038231"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238400"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에 콘텐츠 검색
 
@@ -42,6 +42,8 @@ ms.locfileid: "25038231"
     
 - 쿼리 [대량 편집](bulk-edit-content-searches.md) 하 고 여러 검색에 대 한 콘텐츠 위치 
     
+- [보존 숨은 참조 받는 사람](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) 을 검색할 수 있도록 
+
 ## <a name="perform-actions-on-content-you-find"></a>찾았으면 내용에 대해 작업을 수행 합니다.
 
 검색을 실행 하 고 필요에 따라 구체화 한 후 다음 단계는 검색에 의해 반환 된 결과 파이핑을 수행입니다. 내보내고 로컬 컴퓨터 또는 조직에서 전자 메일 공격의 경우 결과 다운로드할 수, 사용자 사서함에서 검색 결과 삭제할 수 있습니다.

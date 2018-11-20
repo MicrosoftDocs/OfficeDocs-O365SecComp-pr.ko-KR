@@ -3,7 +3,6 @@ title: Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/6/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 규정 준수 경계를 사용 하 여 eDiscovery 관리자를 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에서 논리적 경계를 만들 수 있습니다. 준수 경계 어떤 사서함, SharePoint 사이트를 제어 하 (도 요건 보안 필터)을 필터링 하는 검색 사용 권한을 사용 하 고 OneDrive 계정을 특정 사용자가 검색할 수 있습니다.
-ms.openlocfilehash: 822d228d64d2fd5432db327db98e8d7329c7d939
-ms.sourcegitcommit: c166964fe14eec69139a2d3d9c10d2c40ab33f91
+ms.openlocfilehash: 2bebd29fa7701ba07aae7170142263aeaec5569e
+ms.sourcegitcommit: c7264f3a6a97f1ff544544e2c722e7825e265fa1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258636"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26299242"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -55,7 +54,7 @@ ms.locfileid: "23258636"
   
 규정 준수 경계에 사용할 수 있는 Azure Active Directory 사용자 특성의 목록은 다음과 같습니다.
   
-- Company
+- 회사
     
 - CountryCode
     
@@ -179,9 +178,9 @@ EDiscovery 사례 및 규정 준수 경계에 대 한 조사를 사용 하는 �
     
 - 검색 사용 권한 필터는 Exchange 공용 폴더에 적용 되지 않습니다.
 
-## <a name="searching-and-exporting-sharepoint-content-in-multi-geo-environments"></a>다중-지리적으로 분산 환경에서 SharePoint 콘텐츠 검색 및 내보내기
+## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>다중-지리적으로 분산 환경에서 콘텐츠 검색 및 내보내기
 
-검색 사용 권한 필터를 사용 하 위치 내보내기에 대 한 콘텐츠 라우팅됩니다 하 고 [SharePoint 다중-지리적으로 분산 환경](https://go.microsoft.com/fwlink/?linkid=860840)에서 SharePoint 사이트 및 OneDrive 계정을 검색 될 수 있는 데이터 센터를 제어할 수 있습니다.
+검색 사용 권한 필터를 사용 하 내보내기에 대 한 콘텐츠 라우팅되 및 [SharePoint 다중-지리적으로 분산 환경](https://go.microsoft.com/fwlink/?linkid=860840)에서 SharePoint 사이트 및 OneDrive 계정을 검색할 때 검색할 수 있는 데이터 센터를 제어할 수 있습니다.
   
 - 특정 데이터 센터에서 검색 결과 내보냅니다. 즉, 하는 데이터 센터 위치에서 결과 내보낼 수는 검색을 지정할 수 있습니다.
     
@@ -211,7 +210,7 @@ EDiscovery 사례 및 규정 준수 경계에 대 한 조사를 사용 하는 �
 |찾기  <br/> |아시아 태평양  <br/> |
 |LAM  <br/> |US  <br/> |
    
- **참고:** 검색 사용 권한 필터에 대 한 Region 매개 변수를 지정 하지 않으면 가장 가까운 데이터 센터에서 검색 결과 내보내집니다. 
+ **참고:** 검색 사용 권한 필터에 대 한 Region 매개 변수를 지정 하지 않으면 조직 기본 SharePoint 지역은 검색할 한 다음 검색 결과 가장 가까운 데이터 센터에 내보내집니다. 
   
 다음은 예를 사용 하는 **-지역** 준수 경계에 대 한 검색 권한 필터를 만들 때 매개 변수입니다. 이 Fourth Coffee 자회사 북미에 있고 Coho Winery 유럽의 인지 가정 합니다. 
   
@@ -223,7 +222,7 @@ New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users 
 New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_Department -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL -Region EUR
 ```
    
-다중-지리적으로 분산 환경에서 콘텐츠 검색 및 SharePoint와 OneDrive를 내보낼 때 염두에 다음과 같은 작업을 유지 합니다.
+다중-지리적으로 분산 환경에서 콘텐츠를 검색할 때 유의 및 내보내기 (영문)에서 다음 작업을 유지 합니다.
   
 - **Region** 매개 변수는 Exchange 사서함, 검색을 제어 하지 않습니다. 사서함을 검색 하는 경우 모든 데이터 센터를 검색 합니다. exchange 사서함을 검색할 수 범위를 제한 하는, 만들기 (영문) 또는 사용 권한 필요한 검색 필터를 변경 하는 경우 **필터** 매개 변수를 사용 합니다. 
     
@@ -239,7 +238,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
  
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
  **사용자 만들고 관리할 수 있습니다 (New ComplianceSecurityFilter 및 집합 ComplianceSecurityFilter cmdlet을 사용 하 여) 검색 권한 필터?**
   

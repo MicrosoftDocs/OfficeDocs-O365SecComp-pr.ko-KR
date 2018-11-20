@@ -4,6 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
+ms.date: 11/08/2018
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 description: SharePoint Online, 조직에 대 한 안전 하 게 공동 작업을 통해 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive의 파일을 Office 365 고급 위협 보호를 확장 합니다.
-ms.openlocfilehash: ff07d88a150d3f059681556feec9a5e89b5875a8
-ms.sourcegitcommit: 099bbfb1d16b251fd5cf18ec6515faaf9a989176
+ms.openlocfilehash: 6891184b49aa4ea03d5c13672ac9b95fc9e6d162
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454325"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238450"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 
@@ -25,7 +26,7 @@ ms.locfileid: "25454325"
 
 파일 공유를 정기적으로 사용자 및 SharePoint, OneDrive 및 Microsoft 팀을 사용 하 여 공동 작업을 수행 합니다. [Office 365 고급 위협 보호](office-365-atp.md) ATP ()와 함께 조직 보다 안전한 방식으로 공동 작업할 수 있습니다. ATP를 검색 하 고 팀 사이트 및 문서 라이브러리에서 악성으로 식별 되는 파일을 차단 합니다.  
   
-### <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작업 방법
 
 SharePoint Online에서 파일, 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive 악성으로 확인 되었습니다, 그리고 ATP 직접 해당 파일을 잠그는 파일 저장소와 통합 됩니다. 다음 그림 라이브러리에서 감지 된 악의적인 파일의 예를 보여줍니다.
   
@@ -41,7 +42,7 @@ Office 365를 구성 하는 방법에 따라 사용자 수도 있고 차단 된 
   
 자세한 내용은, [SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정](turn-on-atp-for-spo-odb-and-teams.md)을 참조 합니다.
   
-### <a name="keep-the-following-points-in-mind"></a>다음 사항을 염두합니다
+## <a name="keep-these-points-in-mind"></a>이러한 사항을 염두합니다
 
 - ATP는 회사 또는 팀이 Microsoft에 대 한 SharePoint Online, OneDrive에서 모든 단일 파일을 검색 하지 않습니다. 의도적인 것입니다. 파일에서 스마트 한 추론 방식 및 위협 신호 함께 공유 및 관람객 활동 이벤트를 사용 하 여 악의적인 파일을 식별 하는 프로세스를 통해 비동기적으로 검색 됩니다.
 
@@ -69,16 +70,7 @@ Office 365를 구성 하는 방법에 따라 사용자 수도 있고 차단 된 
     
 ## <a name="next-steps"></a>다음 단계
 
-- [SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정](turn-on-atp-for-spo-odb-and-teams.md)
+1. [SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정](turn-on-atp-for-spo-odb-and-teams.md)
     
-- [SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+2. [SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
     
-## <a name="related-topics"></a>관련 항목
-
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
-  
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
-  
-

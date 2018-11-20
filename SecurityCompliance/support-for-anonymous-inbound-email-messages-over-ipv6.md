@@ -3,7 +3,7 @@ title: IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/4/2017
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
-description: Exchange Online Protection (EOP) 및 Exchange Online 전송 계층 보안 (TLS)를 통해 메시지를 보내지 않음 발신자의 i p v 6 통신을 통한 익명 인바운드 전자 메일 메시지를 수신을 지원 합니다. 하면 수 옵트인에서 Office 365 관리 센터를 열어 UNRESOLVED_TOKEN_VAL(exMCSS)에서이 기능을 요청 하 여 i p v 6을 통해 메시지를 받을 https://portal.office.com/adminportal/home, 지원를 클릭 한 다음 새 서비스 요청을 클릭 하). 하면 하지 옵트인 i p v 6을 하는 경우에 i p v 4를 통해 메시지를 받을를 계속 수 있습니다.
-ms.openlocfilehash: 93575c57bb6eac5e0f92066dab3e6ed8b5f4b215
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+description: Exchange Online Protection 및 Exchange Online에 대 한 IPv6 소스에서 익명 메시지에 대 한 지원을 구성 하는 방법에 알아봅니다.
+ms.openlocfilehash: 0d324ce6e0ff0ff9104ef597176b09a5a319abc7
+ms.sourcegitcommit: 75b985b2574f4be70cf352498ea300b3d99dd338
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003017"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255813"
 ---
 # <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
 
-Exchange Online Protection (EOP) 및 Exchange Online 전송 계층 보안 (TLS)를 통해 메시지를 보내지 않음 발신자의 i p v 6 통신을 통한 익명 인바운드 전자 메일 메시지를 수신을 지원 합니다. 하면 수 옵트인에서 Office 365 관리 센터를 열어 UNRESOLVED_TOKEN_VAL(exMCSS)에서이 기능을 요청 하 여 i p v 6을 통해 메시지를 받을 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home), **지원**를 클릭 한 다음 **새 서비스 요청**을 클릭 하). 하면 하지 옵트인 i p v 6을 하는 경우에 i p v 4를 통해 메시지를 받을를 계속 수 있습니다.
+Exchange Online Protection (EOP) 및 Exchange Online 전송 계층 보안 (TLS)를 통해 메시지를 보내지 않음 발신자의 i p v 6 통신을 통한 익명 인바운드 전자 메일 메시지를 수신을 지원 합니다. 하면 수 옵트인에서 Office 365 관리 센터를 열어 Microsoft 기술 지원 서비스에서이 기능을 요청 하 여 i p v 6을 통해 메시지를 받을 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home), **지원**를 클릭 한 다음 **새 서비스 요청**을 클릭 하). 하면 하지 옵트인 i p v 6을 하는 경우에 i p v 4를 통해 메시지를 받을를 계속 수 있습니다.
   
 IPv6을 통해 서비스로 메시지를 전송하는 보낸 사람은 다음의 두 가지 요구 사항을 준수해야 합니다.
   

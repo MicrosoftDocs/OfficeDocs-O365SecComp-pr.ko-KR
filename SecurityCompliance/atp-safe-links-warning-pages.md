@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 description: 대략적으로 설명 경고 페이지 회사에서 Office 365 고급 위협 보호 되 면 표시 될 수 있습니다.
-ms.openlocfilehash: eae893da6bb2692ae4fb9f934bc892d2058beecd
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: ac7fdcd17ad449afd9107ce67ecc89a107eb152b
+ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782135"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238270"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
 
@@ -107,14 +107,3 @@ URL 악성으로 식별 된 사이트를 가리킵니다.  <br/> 사이트에 �
 
 ![오류가 발생 했습니다.](media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
    
-## <a name="related-topics"></a>관련 항목
-
-[Office는 피싱 구성표에서 하기를 보호 하는 방법](https://support.office.com/article/be0de46a-29cd-4c59-aaaf-136cf177d593)
-  
-[Office 365 ATP 안전한 링크](atp-safe-links.md)
-  
-[Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md)
-  
-[Office 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
-  
-

@@ -1,9 +1,9 @@
 ---
-title: Office 365 보안에서 콘텐츠 검색 결과 내보낼 &amp; 준수 센터
+title: Office 365 보안 및 규정 준수 센터에서 콘텐츠 검색 결과 내보내려면
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/22/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -17,14 +17,14 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Office 365 보안 콘텐츠 검색 결과에서 검색 결과 내보내기 &amp; 로컬 컴퓨터에 준수 센터입니다. Emaill 전자 메일 결과 PST 파일로 내보냅니다. SharePoint와 OneDrive에서 네이티브 Office 문서로 내보냅니다 비즈니스 사이트에 대 한 콘텐츠입니다. '
-ms.openlocfilehash: 739d2c162dac938d593e0b65ebca3bf2101ec469
-ms.sourcegitcommit: 87a3ca55b6e9cf7e9ccf73e64013dc78dd7660f5
+ms.openlocfilehash: 35fb0aa8a037fc77020269d1b42d738dd801ea0a
+ms.sourcegitcommit: da4aa7335b577148ecd61e09bbb11039b817b287
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "25494069"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539120"
 ---
-# <a name="export-content-search-results-from-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 콘텐츠 검색 결과 내보낼 &amp; 준수 센터
+# <a name="export-content-search-results-from-the-office-365-security--compliance-center"></a>Office 365 보안 및 규정 준수 센터에서 콘텐츠 검색 결과 내보내려면
 
 콘텐츠 검색을 성공적으로 실행 한 후에 로컬 컴퓨터에 검색 결과 내보낼 수 있습니다. 전자 메일 결과 내보낼 때 사진을 다운로드 한 사용자의 컴퓨터에 PST 파일로 합니다. SharePoint와 OneDrive에서 비즈니스 사이트에 대 한 콘텐츠를 내보낼 때 네이티브 Office 문서의 복사본을 내보냅니다. 추가 문서와 내보낸된 검색 결과에 포함 된 보고서 있습니다.
   
@@ -88,7 +88,7 @@ ms.locfileid: "25494069"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안 및 준수 센터의 왼쪽 창에서 **검색 및 조사** \> **콘텐츠 검색**을 클릭합니다.
     
@@ -177,23 +177,22 @@ ms.locfileid: "25494069"
 
   
 ## <a name="more-information"></a>추가 정보
-<a name="moreinfo"> </a>
 
 검색 결과 내보내기 (영문) 하는 방법에 대 한 자세한 내용은 다음과 같습니다.
   
-[내보내기 제한](export-search-results.md#export-limits)
+[내보내기 제한](#export-limits)
   
-[내보내기 보고서](export-search-results.md#export-reports)
+[내보내기 보고서](#export-reports)
   
 [부분적으로 인덱싱된 항목 내보내기 (영문)](#exporting-partially-indexed-items)
+
+[개별 메시지 또는 PST 파일 내보내기](#exporting-individual-messages-or-pst-files)
   
-[개별 메시지 또는 PST 파일 내보내기](export-search-results.md#Exporting-individual-messages-or-PST-files)
+[RMS 암호화 된 메시지의 암호 해독](#decrypting-rms-encrypted-messages)
+
+[내보낸된 항목의 파일 이름](#filenames-of-exported-items)  
   
-[RMS 암호화 된 메시지의 암호 해독](export-search-results.md#Decrypting-RMS-encrypted-messages)
-  
-[내보낸된 항목의 파일 이름](export-search-results.md#Filenames-of-exported-items)
-  
-[기타](export-search-results.md#miscellaneous)
+[기타](#miscellaneous)
   
  ### <a name="export-limits"></a>내보내기 제한
   
@@ -209,7 +208,7 @@ ms.locfileid: "25494069"
     
   - 콘텐츠 검색 보고서 내보내기 (영문)는 내보내기 제한 중 하나에 대해 계산 되지 않습니다. 
     
-- 듯이 Azure 저장소 위치에 업로드 되는 사서함 및 사이트에서 검색 결과 (의 설명에 따라 [1 단계: 준비 검색 결과 내보내기에 대 한](export-search-results.md#step1)) 시간당 2GB의 최대 속도로 합니다.
+- 듯이 Azure 저장소 위치에 업로드 되는 사서함 및 사이트에서 검색 결과 (의 설명에 따라 [1 단계: 준비 검색 결과 내보내기에 대 한](#step-1-prepare-search-results-for-export)) 시간당 2GB의 최대 속도로 합니다.
     
 - 내보낼 수 있는 PST 파일의 최대 크기는 10GB 기본적으로는 합니다. 즉, 사서함에 대 한 검색 결과 두 (또는 그 이상) 별도 PST 파일에 내보낼 수는 사용자의 사서함에서 검색 결과 10GB 보다 큰 경우. 또한 단일 PST 파일에 모든 검색 결과를 내보내려면을 선택 하는 경우 PST 파일 됩니다 수 spilt 추가 PST 파일로 검색 결과의 총 크기는 10GB 보다 큰 경우. 이 기본 크기를 변경 하려는 경우에 검색 결과 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. [변경을 eDiscovery 검색 결과 내보낼 때 PST 파일의 크기를](change-the-size-of-pst-files-when-exporting-results.md)참조 하십시오.
     

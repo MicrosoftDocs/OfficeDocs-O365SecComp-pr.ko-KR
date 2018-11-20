@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365의 암호화에 대 한 기술 세부 정보를 봅니다.
-ms.openlocfilehash: d86692119f7558d74e2083165b4eb6ab4a07da70
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 69365b66479ab89a9c036fe489b4087d327460eb
+ms.sourcegitcommit: e4ebef6aaf756eefb86c9f3a602cf75f5d344271
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533901"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026525"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Office 365의 암호화에 대한 기술 참조 세부 정보
 
@@ -52,7 +52,11 @@ TLS(전송 계층 보안) 및 TLS 이전의 SSL은 보안 인증서를 사용하
 ## <a name="deprecating-support-for-tls-10-and-11-and-what-this-means-for-you"></a>TLS 1.0 및 1.1 하면이 의미에 대 한 지원을 삭제 합니다.
 <a name="TLS11and12deprecation"> </a>
 
-중요 한 변경 내용을 Office 365에 대 한 지원 되는 암호화 옵션으로 들어오는 됩니다. 2018, 10 월 31 이후로 더이상 Office 365 Office 365에 대 한 통신에 대 한 TLS 1.0 또는 1.1 사용을 지원 합니다. Office 365 deprecates 이러한 프로토콜에 대 한 지원, 일단 TLS 1.2를 사용 하 여 Office 365 서버에서 모든 통신을 할 수 있습니다. 방식에 영향을 주는 경우 하는 방법에 대 한 정보를 [Office 365에서 TLS 1.2의 필수 사용 준비](https://support.microsoft.com/en-us/help/4057306/preparing-for-tls-1-2-in-office-365)를 참조 하십시오. 서버와이 날짜 이후에 O365와 통신 하는 클라이언트는 TLS 1.2를 지원 해야 합니다.
+Office 365가 2018, 10 월 31 이후로 TLS 1.0 및 1.1 더이상 지원할 합니다. 즉, Microsoft 클라이언트, 장치, 또는 TLS 1.0 및 1.1을 사용 하 여 Office 365에 연결 하는 서비스에서 발견 되는 새로운 문제를 수정 하지 않습니다.
+
+Note 그렇다고 해 TLS 1.0 및 1.1 연결 Office 365 차단 됩니다. 사용 하지 않도록 설정 하거나 고객 연결에 TLS 서비스에서 TLS 1.0 및 1.1을 제거 하기 위한 공식 날짜가 없습니다. 최종 사용 하지 않는 날짜 고객 원격 분석에 의해 결정 됩니다 및 아직 알 수 없습니다. 결정 한 후 있을 것 알림을 6 개월 사전에 될 알려진된 손상을 인식 하지 않는 한,이 경우 서비스를 사용 하는 고객을 보호 하기 위해 6 개월 보다 작은에서 작업을 수행할 수 있을 수 있습니다.
+
+모든 클라이언트-서버와 브라우저 서버 조합을 사용 하는 TLS 1.2 (또는 이상 버전) 연결을 유지 하기 위해 Office 365 서비스에 있는지 확인 해야 합니다. 특정 클라이언트-서버와 브라우저 서버 조합을 업데이트 해야할 수 있습니다. 방식에 영향을 주는 경우 하는 방법에 대 한 정보를 [Office 365에서 TLS 1.2의 필수 사용 준비](https://support.microsoft.com/en-us/help/4057306/preparing-for-tls-1-2-in-office-365)를 참조 하십시오.
   
 ## <a name="deprecating-support-for-3des"></a>3DES에 대 한 지원을 삭제합니다.
 <a name="TLS11and12deprecation"> </a>
