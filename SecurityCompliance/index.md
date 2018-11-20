@@ -12,12 +12,12 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 8/21/2018
 ms.author: robmazz
-ms.openlocfilehash: af40426f626920ccd2c247a671a57958044d0388
-ms.sourcegitcommit: 791d23e1c2dea622b6ef77a6e2bde32e1d31a41b
+ms.openlocfilehash: ed61d7995ab4b684f775b58f9fb4cd830222117a
+ms.sourcegitcommit: e5da81dd4c6ca7caa0f884fffff3876e87e2b217
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999978"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26254555"
 ---
 # <a name="office-365-security-and-compliance"></a>Office 365 보안 및 규정 준수
 
@@ -133,6 +133,7 @@ ms.locfileid: "25999978"
                     </div>
                     <div class="cardText">
                         <h3>최신 상태로 유지</h3>
+                        <p><a href="https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library" target="_blank">Office 365 서비스 설명</a></p>
                         <p><a href="https://blogs.technet.microsoft.com/office365security" target="_blank">Office 365 보안 팀 블로그 (영문)</a></p>
                         <p><a href="https://www.microsoft.com/msrc" target="_blank">Microsoft 보안 대응 센터</a></p>
                     </div>
