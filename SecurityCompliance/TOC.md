@@ -21,6 +21,7 @@
 ### [DLP 정책 권장 시작](get-started-with-dlp-policy-recommendations.md)
 ### [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
 ### [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
+### [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
 ### [DLP 정책에서 알림 및 정책 팁 사용](use-notifications-and-policy-tips.md)
 ### [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
 ### [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](protect-documents-that-have-fci-or-other-properties.md)
