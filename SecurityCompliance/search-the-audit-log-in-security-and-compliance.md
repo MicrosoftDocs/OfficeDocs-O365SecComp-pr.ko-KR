@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안 및 규정 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 02e38917d3a82828d6602661b494ebc0ffb733d8
-ms.sourcegitcommit: 42c7ad69f95fc4d2de13293b39cc44931b9f82e6
+ms.openlocfilehash: 39b3d6438d4680fe7a50f831bbd2d5667c4acffe
+ms.sourcegitcommit: a138cf89095ab0d2bd07caf82b3d48149002c1fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26522810"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626154"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 규정 준수 센터의 감사 로그를 검색 합니다.
 
@@ -40,9 +40,9 @@ ms.locfileid: "26522810"
     
 - 사용자 및 관리자 작업의 영향
     
-- Office 365 보안에서 eDiscovery 활동 &amp; 준수 센터
+- Office 365 보안 및 규정 준수 센터의 eDiscovery 활동
     
-- Office 365 용 Power BI의 사용자 및 관리자 작업
+- Power BI의 사용자 및 관리자 작업
     
 - Microsoft 팀의 사용자 및 관리자 작업
 
@@ -123,7 +123,7 @@ Office 365에서 검색을 시작 하기 전에 다음 항목 감사 로그 읽�
     
 - 이벤트의 두 종류의 Exchange Online 감사 로그 구성: Exchange 관리 이벤트 (관리자가 수행 하는 작업) 및 사서함 이벤트 (사서함에서 사용자가 수행 하는 작업). 메모는 기본적으로 설정 되지 않은 사서함 감사 합니다. Office 365 감사 로그에서에 대 한 검색할 수 있는 사서함 이벤트 전에 각 사용자 사서함에 대해 사용 하도록 설정 해야 합니다. 사서함 감사 및 기록 되는 작업을 감사 하는 사서함에 대 한 자세한 내용은 [Office 365의 감사 사서함 사용](enable-mailbox-auditing.md)을 참조 하십시오.
     
-- Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니다. Office 365 감사 로그에서 Power BI 활동을 검색 하려면 Power BI 관리 포털에 감사를 사용 하도록 설정 해야 합니다. 자세한 내용은 [Power BI 감사](https://docs.microsoft.com/power-bi/service-admin-auditing#enabling-auditing-functionality-in-the-power-bi-admin-portal)를 참조 하십시오.
+- Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니다. Office 365 감사 로그에서 Power BI 활동을 검색 하려면 Power BI 관리 포털에 감사를 사용 하도록 설정 해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하십시오.
     
     
 ## <a name="search-the-audit-log"></a>감사 로그 검색
@@ -276,7 +276,6 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
     
     모든 결과 및 각 서비스를 다운로드 하는 경우 CSV 파일의 **AuditData** 열에 나열 된 속성에 대 한 설명은에 한 문서가 [Office 365에서 자세한 속성 감사 로그를](detailed-properties-in-the-office-365-audit-log.md)참조 하십시오.
 
-  
 ## <a name="audited-activities"></a>감사 된 활동
 
 이 섹션의 표에서 Office 365에서 감사 되는 작업에 설명 합니다. 보안에서 감사를 검색 하 여 이러한 이벤트 로그를 검색할 수 &amp; 준수 센터입니다. 단계별 지침에 대 한 **감사 로그 검색** 탭을 클릭 합니다. 
@@ -565,32 +564,9 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 ### <a name="power-bi-activities"></a>Power BI 활동
   
-다음 표에 사용자 및 관리자 활동이 Power BI의 Office 365 감사 로그에 기록 됩니다.
+Power BI의 활동에 대 한 감사 로그를 검색할 수 있습니다. Power BI 활동에 대 한 정보를 [사용 하 여 조직 내에서 감사](https://docs.microsoft.com/power-bi/service-admin-auditing#activities-audited-by-power-bi)에 "전원 Power BI 하 여 작업 감사" 섹션을 참조 합니다.
   
- **중요:** Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니다. Power BI 활동 theOffice 365 감사 로그를 검색 하려면 Power BI 관리 포털에 감사를 사용 하도록 설정 해야 합니다. 자세한 내용은 [Power BI 감사](https://docs.microsoft.com/power-bi/service-admin-auditing#enabling-auditing-functionality-in-the-power-bi-admin-portal)를 참조 하십시오.
-  
-|**이름**|**Operation**|**설명**|
-|:-----|:-----|:-----|
-|추가 된 Power BI 그룹 구성원  <br/> |AddGroupMembers  <br/> |구성원은 Power BI 그룹 작업 영역에 추가 됩니다.  <br/> |
-|분석 된 Power BI 데이터 집합  <br/> |AnalyzedByExternalApplication  <br/> |외부 응용 프로그램에 의해 데이터 집합을 분석 합니다.  <br/> |
-|만든된 Power BI 대시보드  <br/> |CreateDashboard  <br/> |새 대시보드 생성 됩니다.  <br/> |
-|만든된 Power BI 그룹  <br/> |CreateGroup  <br/> |프로그램 그룹을 만듭니다.  <br/> |
-|만든 조직 구성 Power BI 콘텐츠 팩  <br/> |CreateOrgApp  <br/> |조직 구성 하는 콘텐츠 팩이 만들어집니다.  <br/> |
-|삭제 된 Power BI 대시보드  <br/> |DeleteDashboard  <br/> |대시보드는 삭제 됩니다.  <br/> |
-|삭제 된 Power BI 데이터 집합  <br/> |DeleteDataset  <br/> |데이터 집합을 삭제 됩니다.  <br/> |
-|삭제 된 Power BI 보고서  <br/> |DeleteReport  <br/> |보고서 삭제 됩니다.  <br/> |
-|다운로드 한 Power BI 보고서  <br/> |DownloadReport  <br/> |사용자가 자신의 컴퓨터에는 서비스에서 Power BI 보고서를 다운로드합니다.  <br/> |
-|편집 된 Power BI 대시보드  <br/> |EditDashboard  <br/> |대시보드는 이름이 바뀝니다.  <br/> |
-|내보낸된 Power BI 보고서 시각적 데이터  <br/> |ExportReport  <br/> |데이터는 보고서 타일에서 내보내집니다.  <br/> |
-|Power BI에서 제공 하는 내보낸된 타일 데이터  <br/> |ExportTile  <br/> |데이터는 대시보드 타일에서 내보내집니다.  <br/> |
-|인쇄 된 Power BI 대시보드  <br/> |PrintDashboard  <br/> |대시보드를 인쇄 됩니다.  <br/> |
-|인쇄 Power BI 보고서 페이지  <br/> |PrintReport  <br/> |보고서를 인쇄 됩니다.  <br/> |
-|Power BI 보고서 웹에 게시  <br/> |PublishToWebReport  <br/> |보고서를 웹에 게시 됩니다.  <br/> |
-|공유 Power BI 대시보드  <br/> |ShareDashboard  <br/> |대시보드를 공유 합니다.  <br/> |
-|시작된 Power BI 평가판  <br/> |OptInForProTrial  <br/> |사용자가 Power BI Pro 평가판 구독을 시작 합니다.  <br/> |
-|업데이트 된 조직의 Power BI 설정  <br/> |UpdatedAdminFeatureSwitch  <br/> |관리자는 Power BI 관리 포털에는 조직 구성 설정을 변경 합니다.  <br/> |
-|본된 Power BI 대시보드  <br/> |ViewDashboard  <br/> |대시보드를 표시 하는 경우  <br/> |
-|본된 Power BI 보고서  <br/> |ViewReport  <br/> |보고서를 표시 하는 경우  <br/> |
+Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니다를 메모 합니다. Office 365 감사 로그에서 Power BI 활동을 검색 하려면 Power BI 관리 포털에 감사를 사용 하도록 설정 해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하십시오.
   
 ### <a name="microsoft-teams-activities"></a>Microsoft 팀의 활동
   
