@@ -3,7 +3,7 @@ title: Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/26/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
-ms.openlocfilehash: b8493775210be14a44c6d8185c56371b55634329
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: a8d26db2a28d5b022f20408caf418b23edd98167
+ms.sourcegitcommit: 6669b7aae26965145e85d9613d3091bf389f000b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533674"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618934"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족
 
  *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.* 
   
-Microsoft의 워크플로 기반 위험 평가 도구인 준수 관리자([Microsoft Service Trust Portal 시작](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662))를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 준수 관리자는 다음을 수행합니다.
+Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)의 워크플로 기반 위험 평가 도구인 준수 관리자를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 준수 관리자는 다음을 수행합니다.
   
 - Microsoft에서 규정(예: HIPAA 및 EU 일반 데이터 보호 규정 또는 GDPR) 준수를 위해 내부적으로 컴파일하는 다양한 표준(예: ISO 27001, ISO 27018 및 NIST) 및 정보에 따라 Microsoft의 클라우드 서비스의 다양한 타사 감사의 일부로 감사자 및 규제 기관에 제공하는 자세한 정보를 이러한 표준 및 규제에 대한 조직의 준수 여부에 대한 자체 평가와 조합합니다.
     
@@ -703,7 +703,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 |**컨트롤 ID**|**평가**|**변경 유형**|**변경 설명**|**고객을 위한 권장 작업**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|45 C.F.R. § 164.308(a)(7)(ii)(A)<br/> |Office 365: HIPAA|중요|Office 365에 대한 HIPAA 평가에 HITECH 컨트롤이 추가됨 |추가된 컨트롤 및 권장되는 고객 작업 검토<br/> |
+|45 C.F.R. § 164.308(a)(7)(ii)(A)<br/> |Office 365: HIPAA|중요|Office 365에 대한 HIPAA 평가에 HITECH 컨트롤이 추가되었습니다. |추가된 컨트롤 및 권장되는 고객 작업 검토<br/> |
 |45 C.F.R.  164.312(a)(6)(ii)|Office 365: HIPAA|중요|Office 365에 대한 HIPAA 평가에 HITECH 컨트롤이 추가되었습니다.|추가된 컨트롤 및 권장되는 고객 작업 검토<br/>|
 45 C.F.R. § 164.312(c)(1)| Office 365: HIPAA|중요| Office 365에 대한 HIPAA 평가에 HITECH 컨트롤이 추가되었습니다. |추가된 컨트롤 및 권장되는 고객 작업 검토<br/> |
 45 C.F.R.  § 164.316(b)(2)(iii)| Office 365: HIPAA|중요|Office 365에 대한 HIPAA 평가에 HITECH 컨트롤이 추가되었습니다.|추가된 컨트롤 및 권장되는 고객 작업 검토<br/>|
@@ -831,8 +831,8 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
    
 ## <a name="see-also"></a>참고 항목
 
-- [준수 관리자 일반 공급 발표](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
-    
-- [Microsoft 365에서 GDPR에 도움이 되는 정보 보호 전략 제공](https://blogs.office.com/ko-KR/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
-    
+- [준수 관리자 대화형 가이드](https://content.cloudguides.com/guides/Compliance%20Manager)
 
+- [준수 관리자 일반 공급 발표](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
+
+- [Microsoft 365에서 GDPR에 도움이 되는 정보 보호 전략 제공](https://blogs.office.com/ko-KR/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)

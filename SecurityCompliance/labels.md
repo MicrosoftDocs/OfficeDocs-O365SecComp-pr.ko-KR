@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: f172a723dad3cd555dd910458d27ec1bf7926d0f
-ms.sourcegitcommit: 98a418052be88137c06f5c1abe7012359a7e90ee
+ms.openlocfilehash: d957fc251aa4591d273a65d0a85ecde0df0845c9
+ms.sourcegitcommit: c7264f3a6a97f1ff544544e2c722e7825e265fa1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25698044"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26299252"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -52,9 +52,10 @@ ms.locfileid: "25698044"
   - 모든 콘텐츠를 올바르게 분류하기 위해 사용자에게 의존할 필요가 없습니다.
     
   - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
-    
-    자동 적용 레이블을 사용하려면 Office 365 Enterprise E5 구독이 필요합니다.
-    
+
+  > [!NOTE]
+  > 자동으로 레이블을 적용하는 기능을 사용하려면 사이트 또는 사서함에서 자동으로 레이블이 지정된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 있어야 합니다. 읽기 전용 액세스 권한만 있는 사용자에게는 라이선스가 필요하지 않습니다.
+      
 - SharePoint 및 Office 365 그룹 사이트의 **문서 라이브러리에 기본 보존 레이블을 적용**하여 해당 라이브러리의 모든 문서에서 기본 보존 레이블을 사용할 수 있도록 합니다. 
     
 - 전자 메일 문서를 포함하는 **기록 관리를 Office 365에서 구현**합니다. 보존 레이블을 사용하여 콘텐츠를 기록으로 분류할 수 있습니다. 이 경우 레이블을 변경하거나 제거할 수 없으며 콘텐츠를 편집하거나 삭제할 수 없습니다. 
