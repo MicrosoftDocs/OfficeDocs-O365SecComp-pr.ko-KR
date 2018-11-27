@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: SharePoint, OneDrive 및 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 팀에 대 한 ATP를 설정 하는 방법에 알아봅니다.
-ms.openlocfilehash: d70c574f002ca7e70ab6f9a4abad3ea5ef21a20f
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: e413f0b57186dc1364b63e14985ef0f54ca7e442
+ms.sourcegitcommit: 0cc6083bd8cb2f7bbf18847149c6d5239f2a6403
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238420"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699941"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
 
@@ -40,14 +40,16 @@ ms.locfileid: "26238420"
 5. 검토 (하 고 적절 하 게 편집) 조직의 [안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 및 [안전 링크 정책](set-up-atp-safe-links-policies.md).
     
 6. (권장) 전역 관리자 또는 SharePoint Online 관리자가 *true*로 설정 하는 **DisallowInfectedFileDownload** 매개 변수와 함께 **[Set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. <br/>
-  - 파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.
-  - 삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.  
+      - 파일을 검색 매개 변수를 *true로* 블록 (삭제)을 제외한 모든 작업에 대 한 설정 합니다. 사용자 수는 없습니다 열, 이동, 복사 또는 검색 된 파일을 공유 합니다.
+      - 삭제 및 다운로드를 제외 하 고 모든 작업을 차단 매개 변수를 *false로* 설정 합니다. 사용자는 위험을 수용 하 고 발견 된 파일을 다운로드 하도록 선택할 수 있습니다.  
    
 7. 모든 Office 365 데이터 센터에 분산 하 여 변경 내용 최대 30 분까지를 허용 합니다.
     
 8. (권장) 검색 된 파일에 대 한 알림을 설정으로 이동 합니다.
     
-PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자세한 내용은, [PowerShell 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)를 참조 하십시오. > 자세히 알아보려면 사용자 환경에 대 한 악의적인으로 파일에서 발견 하는 경우, [악의적인 파일을 SharePoint Online, OneDrive, 또는 팀이 Microsoft에서 발견 되 면 수행할 작업을](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)참조 합니다. 
+PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자세한 내용은, [PowerShell 사용 하 여 Office 365 관리](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)를 참조 하십시오. 
+
+자세한 사용자 환경에 대 한 악의적인으로 파일에서 발견 하는 경우, [악의적인 파일을 SharePoint Online, OneDrive, 또는 팀이 Microsoft에서 발견 되 면 수행할 작업을](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)참조 합니다. 
   
 ## <a name="set-up-alerts-for-detected-files"></a>검색 된 파일에 대 한 알림 설정
 
@@ -63,9 +65,9 @@ PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자�
     
 5. **... 때이 경고 보내기** 섹션에서 다음을 수행 합니다. 
     
-  - **작업** 목록에서 **파일에 감지 맬웨어**를 선택 합니다.
+    a. **작업** 목록에서 **파일에 감지 맬웨어**를 선택 합니다.
     
-  - **사용자가** 필드를 비워두십시오. 
+    b. **사용자** 필드를 비워 둡니다. 
     
 6. **이 경고를 보내기...** 섹션에서 하나 이상의 전역 관리자, 보안 관리자 또는 악의적인 파일을 감지 하는 경우 알림을 받을 보안 독자를 선택 합니다. 
     

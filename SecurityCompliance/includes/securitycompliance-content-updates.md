@@ -3,7 +3,7 @@
 
 
 
-## <a name="week-of-october-8-2018"></a>2018, 10 월 8 일 주간
+## <a name="week-of-october-8-2018"></a>2018년 10월 8일 주
 
 
 | 게시된 날짜 |항목 제목 | 변경 사항 |
@@ -67,7 +67,7 @@
 | 10/13/2018 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
 
 
-## <a name="week-of-october-15-2018"></a>2018, 10 월 15 일 주간
+## <a name="week-of-october-15-2018"></a>2018년 10월 15일 주
 
 
 | 게시된 날짜 |항목 제목 | 변경 사항 |
@@ -100,7 +100,7 @@
 |------|------------|--------|
 | 10/23/2018 | [EOP 서비스 설정](/Office365/SecurityCompliance/eop/set-up-your-eop-service) | 수정한 날짜 |
 | 10/23/2018 | [스푸핑 인텔리전스에 대해 자세히 알아보기](/Office365/SecurityCompliance/learn-about-spoof-intelligence) | 수정한 날짜 |
-| 10/23/2018 | [Office 365에서 법적 조사를 관리 합니다.](/Office365/SecurityCompliance/manage-legal-investigations) | 수정한 날짜 |
+| 10/23/2018 | [Office 365에서 법적 조사 관리](/Office365/SecurityCompliance/manage-legal-investigations) | 수정한 날짜 |
 | 10/24/2018 | [Office 365 위협 인텔리전스 시작하기](/Office365/SecurityCompliance/get-started-with-ti) | 수정한 날짜 |
 | 10/24/2018 | [민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels) | 수정한 날짜 |
 | 10/24/2018 | [전자 메일 알림을 보내고 DLP 정책에 대 한 정책 팁을 표시 합니다.](/Office365/SecurityCompliance/use-notifications-and-policy-tips) | 수정한 날짜 |
@@ -114,7 +114,7 @@
 | 10/26/2018 | [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](/Office365/SecurityCompliance/form-a-query-to-find-sensitive-data-stored-on-sites) | 수정한 날짜 |
 
 
-## <a name="week-of-october-29-2018"></a>2018, 10 월 29 일 주간
+## <a name="week-of-october-29-2018"></a>2018년 10월 29일 주
 
 
 | 게시된 날짜 |항목 제목 | 변경 사항 |
@@ -128,12 +128,12 @@
 | 10/29/2018 | [민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels) | 수정한 날짜 |
 | 10/29/2018 | [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](/Office365/SecurityCompliance/encryption-sensitivity-labels) | 수정한 날짜 |
 | 10/29/2018 | [Microsoft 365 SIEM 서버 통합](/Office365/SecurityCompliance/siem-server-integration) | 수정한 날짜 |
-| 10/30/2018 | [동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기](/Office365/SecurityCompliance/dynamic-delivery-and-previewing) | 수정한 날짜 |
-| 10/30/2018 | [Office 365 Advanced Threat Protection](/Office365/SecurityCompliance/office-365-atp) | 수정한 날짜 |
-| 10/30/2018 | [Office 365 ATP 안전한 첨부 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-attachments-policies) | 수정한 날짜 |
-| 10/30/2018 | [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | 수정한 날짜 |
-| 10/30/2018 | [Office 365의 전자 메일 암호화](/Office365/SecurityCompliance/email-encryption) | 수정한 날짜 |
-| 10/30/2018 | [Office 365 메시지 암호화에 대해 Microsoft Azure AD Rights Management 설정](/Office365/SecurityCompliance/set-up-azure-rm-for-message-encryption) | 수정한 날짜 |
+| 2018년 10월 30일 | [동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기](/Office365/SecurityCompliance/dynamic-delivery-and-previewing) | 수정한 날짜 |
+| 2018년 10월 30일 | [Office 365 Advanced Threat Protection](/Office365/SecurityCompliance/office-365-atp) | 수정한 날짜 |
+| 2018년 10월 30일 | [Office 365 ATP 안전한 첨부 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-attachments-policies) | 수정한 날짜 |
+| 2018년 10월 30일 | [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | 수정한 날짜 |
+| 2018년 10월 30일 | [Office 365의 전자 메일 암호화](/Office365/SecurityCompliance/email-encryption) | 수정한 날짜 |
+| 2018년 10월 30일 | [Office 365 메시지 암호화에 대해 Microsoft Azure AD Rights Management 설정](/Office365/SecurityCompliance/set-up-azure-rm-for-message-encryption) | 수정한 날짜 |
 | 10/31/2018 | [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | 추가 |
 | 10/31/2018 | [사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type) | 수정한 날짜 |
 | 10/31/2018 | [키워드 사전 만들기](/Office365/SecurityCompliance/create-a-keyword-dictionary) | 수정한 날짜 |
@@ -142,28 +142,28 @@
 | 10/31/2018 | [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](/Office365/SecurityCompliance/zero-hour-auto-purge) | 수정한 날짜 |
 | 10/31/2018 | [보고서 메시지 추가 기능을 사용하도록 설정](/Office365/SecurityCompliance/enable-the-report-message-add-in) | 수정한 날짜 |
 | 10/31/2018 | [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | 수정한 날짜 |
-| 11/1/2018 | [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | 수정한 날짜 |
-| 11/1/2018 | [사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type) | 수정한 날짜 |
-| 11/1/2018 | [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](/Office365/SecurityCompliance/bulk-create-publish-labels-using-powershell) | 수정한 날짜 |
-| 11/1/2018 | [스팸 전자 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소를 제거](/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email) | 수정한 날짜 |
+| 2018년 11월 1일 | [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | 수정한 날짜 |
+| 2018년 11월 1일 | [사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type) | 수정한 날짜 |
+| 2018년 11월 1일 | [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](/Office365/SecurityCompliance/bulk-create-publish-labels-using-powershell) | 수정한 날짜 |
+| 2018년 11월 1일 | [스팸 전자 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소를 제거](/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email) | 수정한 날짜 |
 | 2018/11/2 | [Office 365 보안 및 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
 | 2018/11/2 | [Office 365 ATP 안전한 링크](/Office365/SecurityCompliance/atp-safe-links) | 수정한 날짜 |
 | 2018/11/2 | [Office 365 클라우드 응용 프로그램 보안의 새로운 기능](/Office365/SecurityCompliance/new-in-office-365-cas) | 수정한 날짜 |
 | 2018/11/2 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
 
 
-## <a name="week-of-november-05-2018"></a>2018 년 11 월 5 일 주간
+## <a name="week-of-november-05-2018"></a>2018년 11월 5일 주
 
 
 | 게시된 날짜 |항목 제목 | 변경 사항 |
 |------|------------|--------|
-| 11/5/2018 | [Office 365 Security and Compliance](/Office365/SecurityCompliance/index) | 수정한 날짜 |
-| 11/5/2018 | [Office 365 보안 점수](/Office365/SecurityCompliance/office-365-secure-score) | 수정한 날짜 |
-| 11/5/2018 | [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](/Office365/SecurityCompliance/zero-hour-auto-purge) | 수정한 날짜 |
+| 2018년 11월 5일 | [Office 365 Security and Compliance](/Office365/SecurityCompliance/index) | 수정한 날짜 |
+| 2018년 11월 5일 | [Office 365 보안 점수](/Office365/SecurityCompliance/office-365-secure-score) | 수정한 날짜 |
+| 2018년 11월 5일 | [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](/Office365/SecurityCompliance/zero-hour-auto-purge) | 수정한 날짜 |
 | 11/6/2018 | [Exchange Online 사서함의 보류 유형을 식별하는 방법](/Office365/SecurityCompliance/identify-a-hold-on-an-exchange-online-mailbox) | 수정한 날짜 |
 | 11/6/2018 | [Office 365의 암호화에 대한 기술 참조 세부 정보](/Office365/SecurityCompliance/technical-reference-details-about-encryption) | 수정한 날짜 |
 | 2018 8/11 / | [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | 수정한 날짜 |
-| 2018 8/11 / | [Office 365에 콘텐츠 검색](/Office365/SecurityCompliance/search-for-content) | 수정한 날짜 |
+| 2018 8/11 / | [Office 365에서 콘텐츠 검색](/Office365/SecurityCompliance/search-for-content) | 수정한 날짜 |
 | 2018 8/11 / | [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP](/Office365/SecurityCompliance/atp-for-spo-odb-and-teams) | 수정한 날짜 |
 | 2018 8/11 / | [Office 365 ATP 안전 하 게 보호 첨부 파일](/Office365/SecurityCompliance/atp-safe-attachments) | 수정한 날짜 |
 | 2018 8/11 / | [Office 365 ATP 안전한 링크 경고 페이지](/Office365/SecurityCompliance/atp-safe-links-warning-pages) | 수정한 날짜 |
@@ -215,3 +215,13 @@
 | 11/16/2018 | [보존 정책 개요](/Office365/SecurityCompliance/retention-policies) | 수정한 날짜 |
 | 11/16/2018 | [민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels) | 수정한 날짜 |
 | 11/16/2018 | [탐색기를 사용 하 여 보안에서 &amp; 준수 센터](/Office365/SecurityCompliance/use-explorer-in-security-and-compliance) | 수정한 날짜 |
+
+
+## <a name="week-of-november-19-2018"></a>2018 년 11 월 19 일 주간
+
+
+| 게시된 날짜 |항목 제목 | 변경 사항 |
+|------|------------|--------|
+| 11/19/2018 | [Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족](/Office365/SecurityCompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud) | 수정한 날짜 |
+| 11/19/2018 | [보고서 메시지 추가 기능을 사용하도록 설정](/Office365/SecurityCompliance/enable-the-report-message-add-in) | 수정한 날짜 |
+| 2018/11/20 | [Office 365 보안 및 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
