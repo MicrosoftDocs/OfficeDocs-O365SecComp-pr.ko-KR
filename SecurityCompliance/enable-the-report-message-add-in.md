@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 description: Outlook 및 Outlook에서 개별 사용자에 대 한 웹 또는 전체 조직에 대 한 보고서 메시지 추가 기능을 사용 하는 방법에 알아봅니다.
-ms.openlocfilehash: a62e3e6250d2eccd2109a71f994713e2dd1b262e
-ms.sourcegitcommit: 6669b7aae26965145e85d9613d3091bf389f000b
+ms.openlocfilehash: f35899d3f0be9ee07cb6dae5c5fec40395948340
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618924"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706372"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -59,7 +59,7 @@ Office 365 전역 관리자 또는 Exchange Online 관리자, 자신이 Exchange
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>조직에 대 한 보고서 메시지 추가 기능을 사용 하 고 확인
 
 > [!IMPORTANT]
-> 이 작업을 완료 하려면 Office 365 전역 관리자 또는 Exchange Online 관리자 여야 합니다. 또한 Exchange 자세한 내용은 [Exchange 요구 사항 (추가 기능 배포에 집중)를](https://docs.microsoft.com/en-us/office365/admin/manage/centralized-deployment-of-add-ins&view=o365-worldwide#exchange-requirements)참조 하십시오 OAuth 인증을 사용 하도록 구성 되어야 합니다. 
+> 이 작업을 완료 하려면 Office 365 전역 관리자 또는 Exchange Online 관리자 여야 합니다. 또한 Exchange 자세한 내용은 [Exchange 요구 사항 (추가 기능 배포에 집중)를](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins&view=o365-worldwide#exchange-requirements)참조 하십시오 OAuth 인증을 사용 하도록 구성 되어야 합니다. 
 
 1. [서비스 및 추가 기능 페이지에서](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) 에서 새 Microsoft 365 관리 센터로 이동 합니다.<br/>![새 Microsoft 365 관리 센터에서 서비스 및 추가 기능 페이지](media/ServicesAddInsPageNewM365AdminCenter.png)<br/> 
     
@@ -92,7 +92,7 @@ Office 365 전역 관리자 또는 Exchange Online 관리자, 자신이 Exchange
   
 조직에서 사용자가 보고 하는 전자 메일 메시지의 복사본을 가져오시겠습니까 규칙을 설정할 수 있습니다. 다운로드 하 고 조직에 대 한 보고서 메시지 추가 기능을 활성화 한 후이 작업을 수행 합니다.
   
-1. EAC에서 **메일 흐름** 선택 \> **규칙**입니다. 
+1. Exchange 관리 센터에서 **메일 흐름** 선택 \> **규칙**입니다. 
     
 2. 선택 **+** \> **새 규칙 만들기**. 
     

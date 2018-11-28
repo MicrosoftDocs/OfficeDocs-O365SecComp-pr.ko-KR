@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3e68e691-1fc4-4d3e-a2c0-d3134eb64055
 description: Office 365 및 다른 응용 프로그램 사용자 조직에서 사용 하는 방법을 이해할 수 있도록 하는 Office 365 클라우드 앱 보안이 포함 된 보고서를 만듭니다.
-ms.openlocfilehash: 6842912f42072e21608955bde5250f0774c7bba4
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: f801c70e839a62b5bbb5423ff5e7c513dd1f09b4
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532917"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706302"
 ---
 # <a name="create-app-discovery-reports-using-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 보고서 만들기
 
@@ -44,7 +44,7 @@ Office 365 클라우드 앱 보안 전역 관리자, 보안 관리자 및 보안
   
 1. 사용자 [웹 트래픽 로그 및 Office 365 클라우드 응용 프로그램 보안에 대 한 데이터 원본을](web-traffic-logs-and-data-sources-for-ocas.md)수집 합니다.
     
-2. 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+2. 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 3. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     

@@ -3,7 +3,6 @@ title: Office 365 Cloud App Security 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -14,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 81f0ee9a-9645-45ab-ba56-de9cbccab475
 description: 'Office 365 클라우드 응용 프로그램 보안을 사용 하면 의심 스러운 활동 대 한 통찰력의 Office 365는 잠재적인 문제를 가진 하 고 필요한 경우 보안 문제를 해결 하는 작업을 수행 하는 상황을 조사할 수 있도록 합니다. '
-ms.openlocfilehash: 84d5b412b62bf113101d6322032f3b643d87d741
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: b146512c22cbe86ce3aef95c5916de6959341578
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533224"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706402"
 ---
 # <a name="overview-of-office-365-cloud-app-security"></a>Office 365 Cloud App Security 개요
   
@@ -40,13 +39,9 @@ Office 365 클라우드 앱 보안 제공 의심 스러운 활동에 대 한 통
   
 Office 365 보안을 통해 Office 365 클라우드 응용 프로그램 보안 포털을 얻을 수 &amp; 준수 센터입니다. 작업을 수행 하는 한 가지 좋은 방법은 다음과 같습니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
     
-2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다. 
-    
-    ![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
-  
-    (하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
+2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다. <br/>![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>(하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
     
 3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다. 
     
@@ -66,7 +61,7 @@ Office 365 클라우드 응용 프로그램 보안 포털에서 정책 서식 �
     
 - [Office 365 Cloud App Security 변칙 검색 정책](anomaly-detection-policies-in-ocas.md)
     
-## <a name="alerts"></a>경고
+## <a name="alerts"></a>알림
 
 정책 정의 된 경우에 검색 된 의심 스러운 또는 예외적인 활동에 대 한 알려줄 알림 나타납니다. 조직에 대 한 경고를 보려면 화면 위쪽 탐색 모음에서 **알림** 을 선택 합니다. 
   

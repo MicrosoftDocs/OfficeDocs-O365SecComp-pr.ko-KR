@@ -3,7 +3,7 @@ title: 보안 대시보드 개요 (영문)
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 09/05/2018
+ms.date: 11/27/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 보호 상태를 검토 하 고를 보고 하 보안 경고 작업을 수행 합니다.
-ms.openlocfilehash: d124ce07fbd3eba633e8c1e844ef3f83fc8fd04f
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: d4dd20d5ce456bfca391925786a5cc02787dee54
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552366"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706282"
 ---
 # <a name="security-dashboard-overview"></a>보안 대시보드 개요 (영문)
 
-보안 &amp; 준수 센터 데이터 보호 및 규정 준수를 관리 하려면 조직 수 있도록 합니다. 에서 시작 하는 3 월 2018 보안 &amp; 준수 센터 기능 새 보안 대시보드 위협 보호 상태를 검토 하 고 보고, 보안 경고 작업을 수행 하는 동안 사용할 수 있습니다. 
+[보안 &amp; 준수 센터](go-to-the-securitycompliance-center.md) 조직 데이터 보호 및 규정 준수를 관리할 수 있도록 합니다. 에서 시작 하는 3 월 2018 보안 &amp; 준수 센터 기능 새 보안 대시보드 위협 보호 상태를 검토 하 고 보고, 보안 경고 작업을 수행 하는 동안 사용할 수 있습니다. 
   
 한 개요를 가져올 비디오 하 한 다음 자세한 내용을 보려면이 문서를 읽습니다.
   

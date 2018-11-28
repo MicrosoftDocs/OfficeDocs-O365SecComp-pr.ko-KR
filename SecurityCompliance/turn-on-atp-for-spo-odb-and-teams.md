@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 description: SharePoint, OneDrive 및 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 팀에 대 한 ATP를 설정 하는 방법에 알아봅니다.
-ms.openlocfilehash: e413f0b57186dc1364b63e14985ef0f54ca7e442
-ms.sourcegitcommit: 0cc6083bd8cb2f7bbf18847149c6d5239f2a6403
+ms.openlocfilehash: e9df56da5d5f1a087d4e75e0122b51933ae7b315
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699941"
+ms.locfileid: "26706452"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 팀이 Microsoft Office 365 ATP 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "26699941"
 
  **이 절차를 시작 하기 전에 Office 365 환경에 대 한 감사 로깅이 이미 설정 되어있는지 확인**하십시오. 이 Exchange Online 할당 된 감사 로그 역할을 가진 사용자가 일반적으로 수행 됩니다. 자세한 내용은 [Office 365 설정 또는 해제 로그 검색 감사](turn-audit-log-search-on-or-off.md)를 참조 하십시오.
   
-1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com)와 작업이 나 교육용 계정 사용 하 여 로그인 합니다.
+1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com)와 작업이 나 교육용 계정 사용 하 여 로그인 합니다.
     
 2. Office 365 보안에서 &amp; 준수 센터 왼쪽된 탐색 창의 **위협 관리** **정책** 을 선택 \> **안전한 첨부 파일**입니다. <br/>![보안에서 &amp; 준수 센터 위협 관리를 선택 \> 정책](media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
   
@@ -55,7 +55,7 @@ PowerShell을 사용 하 여 Office 365를 사용 하는 방법에 대 한 자�
 
 회사 또는 팀이 Microsoft에 대 한 SharePoint Online, OneDrive에서 파일을 악의적으로 식별 된 때 알림을 받으려면, 알림을 설정할 수 있습니다.
   
-1. Office 365 보안에서 &amp; 준수 센터 **알림** 을 선택 \> **알림을 관리**합니다.
+1. [Office 365 보안 &amp; 준수 센터](https://security.microsoft.com), **알림** 을 선택 \> **관리 경고**합니다.
     
 2. **새 경고 정책**을 선택 합니다.
     

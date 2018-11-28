@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: 'Office 365 클라우드 앱 보안에서 예외 탐지 정책 잠재적인 문제를 발견할 수 있도록 기본 제공 알고리즘을 사용 합니다. 필터를 사용 하 여 (만들면 해당)을 조정 하는 적어도 하나 이상 검색 정책이 있어야 합니다. '
-ms.openlocfilehash: 80f576d7c1c42ab60c1b031dcd33591f8e1ce4b8
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 8babe86dd5adb6c25a069096157cac121ad66ab1
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534080"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706342"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 변칙 검색 정책
 
@@ -51,7 +51,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
     
 ## <a name="view-your-anomaly-detection-policies"></a>예외 감지 정책 보기
 
-1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     
@@ -67,7 +67,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
   
 5. 검토 또는 해당 설정을 편집 하는 정책을 선택 합니다.
     
-6. 변경 내용을 저장 하려면 **업데이트** 선택 합니다. 
+6. **업데이트**를 선택하여 변경 내용을 저장합니다. 
     
 ## <a name="learn-more-about-anomaly-detection-policies"></a>예외 감지 정책에 대 한 자세한 내용은
 
@@ -93,7 +93,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 
 알림 형태로,으로 이러한 경고를 신속 하 게 분류할 수 있으며 먼저 처리 결정할지 수 있습니다. 경고에 대 한 상황에 맞는 필요 큰 그림을 참조 하 고 여부 악의적인 자료는 하지만 실제로 확인할 수 있습니다. 다음 절차를 사용 하 여 알림을 살펴보기 (영문)을 시작 합니다.
   
-1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     
@@ -118,7 +118,6 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 여러 실패 한 로그인에 대 한 알림, 의심 스러운 될 수도 있고 실제로 수 있고 잠재적-대입 공격을 나타낼 수 있습니다. 그러나 이러한 알림을 심각 하지 않은 true 양수 되도록 알림을 발생 시 키 하는 응용 프로그램 잘못 구성 될 수도 있습니다. 추가 의심 스러운 활동이 포함 된 다중 실패 로그인 알림이 표시 되 면 손상 된 계정이 더 높은 확률이 됩니다. 예, 다중 실패 로그인 경고 손상의 두 강력한 지표에 IP 주소 및 불가능 한 출장 활동 뒤 활동에는 경우를 가정해 보겠습니다. 동일한 사용자 데이터의 exfiltration 수행 공격자의 표시기 자주 변경 되는 대용량 다운로드 작업을 수행할를 확인할 수 있습니다. Office 365 클라우드 앱 보기 및 대화 알림을 분류할 하 고 보안을 조치를 취할에서 탐색할 수 하는 등의 필요한 부분입니다.
   
 ## <a name="next-steps"></a>다음 단계
-<a name="nextsteps"> </a>
 
 - [SIEM 서버 통합](integrate-your-siem-server-with-office-365-cas.md)
     

@@ -3,7 +3,6 @@ title: 위협 추적기-새롭고 중요한 기능
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/15/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -13,16 +12,16 @@ search.appverid:
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 description: 위협 추적기, 보안상의 이유로 위에 계속 해 서 조직 새 주목할 만한 추적기를 포함 하는 방법에 대 한 설명 합니다.
-ms.openlocfilehash: 1ec772d367446b20f1846a71a86d6f62a2370e6c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: e9dfdde563260ff7969f4749357c130ab98ce386
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533393"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706382"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-새롭고 중요한 기능
 
-[Office 365 위협 인텔리전스](office-365-ti.md) 조직의 보안 팀을 발견 하 고 cybersecurity 위협에 대 한 조치를 취할 수 있습니다. **위치에서 시작 지연 년 3 월 2018에는 다음 몇 주를 통해 Office 365 위협 인텔리전스 기능이 포함 됩니다 새로운 위협 추적 (영문)**, 주목할 만한 추적기를 포함 합니다. 이러한 새로운 기능 및 다음 단계를 간략하게를이 문서를 읽어보십시오. 
+[Office 365 위협 인텔리전스](office-365-ti.md) 조직의 보안 팀을 발견 하 고 cybersecurity 위협에 대 한 조치를 취할 수 있습니다. Office 365 위협 인텔리전스는 지연 년 3 월 2018에서 하 고 다음 여러 주 동안 부터는 주목할 만한 추적기를 포함 하 여 새로운 위협 추적 기능을 포함 됩니다. 이러한 새로운 기능 및 다음 단계를 간략하게를이 문서를 읽어보십시오. 
   
 ## <a name="what-are-threat-trackers"></a>위협 추적기 무엇입니까?
 
@@ -36,7 +35,7 @@ ms.locfileid: "22533393"
   
 추적기는 [Office 365 위협 정보를 바탕](office-365-ti.md)으로 가져올 많은 유용한 기능 중 일부에 불과합니다. 사용 가능한 경우, 하면 새로운 위협 추적기 [주목할 만한 추적기](threat-trackers.md#notey), [인기 추적기](threat-trackers.md#trending), [추적 된 쿼리](threat-trackers.md#trackedq)및 [저장 된 쿼리가](threat-trackers.md#savedq)포함 됩니다.
   
-본 조직에 대해 사용할 수 있을 때 위협 추적기를 사용 하려면 보안으로 이동 &amp; 준수 센터 ([https://protection.office.com](https://protection.office.com)) **위협 관리** 를 선택 하 고 \> **위협 추적 (영문)**.
+본 조직에 대해 사용할 수 있을 때 위협 추적기를 사용 하려면 보안으로 이동 &amp; 준수 센터 ([https://security.microsoft.com](https://security.microsoft.com)) **위협 관리** 를 선택 하 고 \> **위협 추적 (영문)**.
   
 > [!NOTE]
 > 위협 추적기를 사용 하는 Office 365 전역 관리자, 보안 관리자 또는 보안 판독기 이어야 합니다. 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
@@ -75,7 +74,7 @@ ms.locfileid: "22533393"
   
 위협 추적기 사용할 수 있으며 때-아웃 하 고 하십시오 제공할 수 있는 항상 우리 피드백이 또는 다른 Office 365 보안 기능에 Office 365 개요 [화면 오른쪽 아래 모서리에 있는 **피드백** 단추를 클릭 하 여 기억 보안 &amp; 준수 센터](https://support.office.com/article/a5f2fd18-b029-4257-b5a8-ae83e7768c85)합니다.
   
-![Office 365 보안 &amp; 준수 센터](media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Office 365 보안 및 준수 센터](media/86c330db-8132-4150-8475-220258fe04fb.png)
   
 ## <a name="trackers-and-office-365-advanced-threat-protection"></a>추적기 및 Office 365 고급 위협 보호
 

@@ -3,7 +3,7 @@ title: Office 365 보안 점수
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/05/2018
+ms.date: 11/27/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
 description: 얼마나 안전 조직 실제로 Office 365에 지 궁금한 적이 있습니까? 보안 점수를 위해 여기 됩니다. 일반 작업 및 Offic 365의 보안 설정에 따라 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다.
-ms.openlocfilehash: 0be9b68653ccdf17afedf7e22e1af5577f8a2caf
-ms.sourcegitcommit: 791d23e1c2dea622b6ef77a6e2bde32e1d31a41b
+ms.openlocfilehash: 0d19cd9512838bf2d8b0bff615ccaa1eea21266a
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999992"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706182"
 ---
 # <a name="office-365-secure-score"></a>Office 365 보안 점수
 
@@ -28,7 +28,7 @@ ms.locfileid: "25999992"
 
 조직에 [Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/), [Microsoft 365 비즈니스](https://docs.microsoft.com/microsoft-365/business/)또는 Office 365 프리미엄을 포함 하는 구독 하는 경우 필요한 권한을 방문 하 여 조직의 보안 점수를 볼 수 있습니다 [https://securescore.office.com](https://securescore.office.com)합니다. 
 
-보안 및 규정 준수 센터를 방문 수 또는 ([https://protection.office.com](https://protection.office.com)), 현재 점수가 제공 하는 보안 점수 위젯을 찾아볼 수 있습니다.
+보안 및 규정 준수 센터를 방문 수 또는 ([https://security.microsoft.com](https://security.microsoft.com)), 현재 점수가 제공 하는 보안 점수 위젯을 찾아볼 수 있습니다.
 
 ![보안 점수 위젯](media/SecureScoreWidget-o365.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "25999992"
 > [!NOTE]
 > 예: 전역 관리자 또는 보안 관리자는 Office 365 관리자 보안 점수에 액세스 하려면 이어야 합니다.
   
-## <a name="how-it-works"></a>방법
+## <a name="how-it-works"></a>작업 방법
 
 확장 한 다음 (예: OneDrive, SharePoint 및 Exchange) 사용 하는 Office 365 서비스 설정 및 작업을 확인 및 Microsoft에 의해 설정 된 초기 계획을 비교 합니다 점수 수치를 보호 합니다. 최상의 보안 방법으로는 어떻게 정렬 기준으로 점수를 얻을 수 있습니다.
   
@@ -65,8 +65,6 @@ ms.locfileid: "25999992"
   
 하지만 word 것에 대 한 소요 방금 하지 않습니다. 고객에 게 보안 점수를 사용 하는 고객에 게 사용 하지 않을 보다 더 많은 시간을 증가 자신의 점수를 살펴보았습니다. (자신의 점수 증가 해당 조직에서 현재 사용 되는 보안 기능.)
   
-자세한 내용을 보려면이 [블로그 게시물](https://go.microsoft.com/fwlink/?linkid=836898) 아웃 확인 합니다. 
-  
 > [!NOTE]
 > 보안 점수 절대 측정 하는 express 하지 않는 도달 하기에 어떻게 가능성이의 합니다. 도달 되 고 위험을 오프셋할 수 있는 제어 채택 범위를 나타냅니다. 서비스가 없습니다 있습니다를 위반 하지 않습니다, 하 고 보안 점수 보장 어떤 방식에서으로 해석 하지 않아야 보장할 수 있습니다. 
   
@@ -74,7 +72,7 @@ ms.locfileid: "25999992"
 
 ### <a name="who-can-use-secure-score"></a>보안 점수를 사용할 수 있는 사람?
 
-Office 365 Enterprise, Microsoft 365 비즈니스 또는 Office 365 프리미엄 구독에 대 한 보안 점수에 액세스할 수에 대 한 관리자 권한 (전역 관리자 또는 사용자 지정 관리 역할)을 가진 모든 사용자가 [https://securescore.office.com](https://securescore.office.com)합니다. 관리 역할 할당 되지 않은 사용자에 게 보안 점수에 액세스할 수 없습니다. 그러나 관리자가 조직에서 다른 사람들과 자신의 결과 공유 하 도구를 사용 수 있습니다. 검토 하 고 다른, 관리자가 아닌 역할 사용 권한 목록에 포함 하 여 나중에 있습니다. 특정 역할을 고려 하 고 싶은 경우 알려주십시오에 게시 하 여는 [Office 보안, 개인 &amp; 준수 커뮤니티](https://go.microsoft.com/fwlink/?linkid=836898)합니다.
+Office 365 Enterprise, Microsoft 365 비즈니스 또는 Office 365 프리미엄 구독에 대 한 보안 점수에 액세스할 수에 대 한 관리자 권한 (전역 관리자 또는 사용자 지정 관리 역할)을 가진 모든 사용자가 [https://securescore.office.com](https://securescore.office.com)합니다. 관리 역할 할당 되지 않은 사용자에 게 보안 점수에 액세스할 수 없습니다. 그러나 관리자가 조직에서 다른 사람들과 자신의 결과 공유 하 도구를 사용 수 있습니다. 검토 하 고 다른, 관리자가 아닌 역할 사용 권한 목록에 포함 하 여 나중에 있습니다. 특정 역할을 고려 하 고 싶은 경우 알려주십시오에 게시 하 여는 [Office 보안, 개인 &amp; 준수 커뮤니티](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy)합니다.
   
 ### <a name="what-does-not-scored-mean"></a>[점수가 하지] 어떤 역할을 의미 합니까?
 
@@ -108,7 +106,7 @@ Office 365 Enterprise, Microsoft 365 비즈니스 또는 Office 365 프리미엄
   
 ### <a name="something-isnt-working-right-who-should-i-contact"></a>표본 오른쪽 작동 하지 않습니다. 사용자에 문의 해야 합니까?
 
-문제가 있으면 주시기에 게시 하 여는 [Office 보안, 개인 &amp; 준수 커뮤니티](https://go.microsoft.com/fwlink/?linkid=836898)합니다. 커뮤니티를 모니터링 하는 하 고 도움말을 제공 합니다.
+문제가 있으면 주시기에 게시 하 여는 [Office 보안, 개인 &amp; 준수 커뮤니티](hhttps://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy)합니다. 커뮤니티를 모니터링 하는 하 고 도움말을 제공 합니다.
   
 ### <a name="my-organization-only-has-certain-security-features-does-this-affect-my-score"></a>만 내 조직에 특정 보안 기능이 있습니다. 내 점수 영향은이?
 

@@ -3,6 +3,7 @@ title: 보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
+ms.date: 11/27/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,16 +13,16 @@ search.appverid:
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 description: 찾기 및 Office 365 엔터프라이즈와 조직에 대 한 전자 메일 보안 보고서를 사용 하는 방법에 알아봅니다. 전자 메일 보안 보고서는 보안에서 사용할 수 있는 &amp; 준수 센터입니다.
-ms.openlocfilehash: ea5d60393809ef924d51435b695062fe51e772bd
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: 72039afd52cd6e9da7dfd05bb67aac2c7e7db001
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552396"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706422"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터
 
-다양 한 전자 메일 보안을 보고 하는 보안에서 사용할 수 있는 &amp; 준수 센터 Office 365의 스팸 방지 및 맬웨어 방지 기능 조직을 보호 하는 방법을 확인할 수 있도록 합니다. 보안에서 이러한 보고서를 볼 수는 [필요한 사용 권한](#what-permissions-are-needed-to-view-these-reports)을가 &amp; **보고서** 로 이동 하 여 준수 센터 \> **대시보드**합니다.
+다양 한 전자 메일 보안 보고서에서 사용할 수는 [보안 &amp; 준수 센터](https://security.microsoft.com) 를 Office 365의 스팸 방지 및 맬웨어 방지 기능 조직을 보호 하는 방법을 확인할 수 있도록 합니다. 보안에서 이러한 보고서를 볼 수는 [필요한 사용 권한](#what-permissions-are-needed-to-view-these-reports)을가 &amp; **보고서** 로 이동 하 여 준수 센터 \> **대시보드**합니다.
   
 ![보안 &amp; 준수 센터 대시보드 도울수 위협 보호 고급가 작동 하는 위치를 참조 하십시오.](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
@@ -50,7 +51,7 @@ ms.locfileid: "25552396"
 > [!NOTE]
 > 위협 보호 상태 보고서는 고객에 게 [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP);가 사용할 수 있는 그러나 ATP 고객에 대 한 위협 보호 상태 보고서에 표시 되는 정보 나타날 EOP 고객 보다 다양 한 데이터를 가능성이 포함 됩니다. 예, EOP 고객 맬웨어 전자 메일, 하지만 하지 [SharePoint Online, OneDrive, 또는 Microsoft 팀의 악의적인 파일을 검색](atp-for-spo-odb-and-teams.md)하는 방법에 대 한 정보, ATP 관련 기능에서 검색 하는 방법에 대 한 정보를 볼 수 있습니다. ([ATP 보고서에 대 한 자세한 설명](view-reports-for-atp.md)입니다.)
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
   
 ![위협 보호 상태 보고서](media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
   
@@ -66,7 +67,7 @@ ms.locfileid: "25552396"
 
 **맬웨어 감지** 보고서에는 조직에 대 한 맬웨어를 포함 하는으로 얼마나 많은 들어오고 나가는 메시지 검색 된 표시 합니다. 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **맬웨어 감지**합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **맬웨어 감지**합니다.
   
 ![맬웨어 감지 보고서 예제](media/a1ba61a3-565a-46d6-b0d5-6a6cff6b31d7.png)
   
@@ -76,7 +77,7 @@ ms.locfileid: "25552396"
 
 **상위 맬웨어** 보고서에는 Exchange Online에서 검색 된 맬웨어의 다양 한 종류를 표시 합니다. 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **상위 맬웨어**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **상위 맬웨어**입니다.
   
 ![SCC-EOP 상위 맬웨어](media/763330b3-f56e-4ba4-b0bb-051500ae950a.png)
   
@@ -92,7 +93,7 @@ ms.locfileid: "25552396"
 
 **위쪽 보낸사람 및 받는 사람에 게** 보고서가 위쪽 전자 메일 보낸사람을 표시 하는 원형 차트입니다. 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **위쪽 보낸사람 및 받는 사람**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **위쪽 보낸사람 및 받는 사람**입니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> 위쪽 보낸사람 및 받는 사람](media/b5506b5c-2420-4a5a-9ea3-d654294ac838.png)
   
@@ -110,7 +111,7 @@ ms.locfileid: "25552396"
 
 얼마나 많은 스푸핑 메일 메시지 검색 된 **스푸핑 메일** 보고서에 표시 하 고 그 중 어떤 것 된 것으로 간주 "좋음" (스푸핑 메일 합법적인 업무상의 이유로 수행). 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **스푸핑 메일**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **스푸핑 메일**입니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> 스푸핑 메일](media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
   
@@ -122,7 +123,7 @@ ms.locfileid: "25552396"
 
 **스팸 감지** 보고서에는 Exchange Online에 의해 차단 되는 모든 스팸 콘텐츠를 표시 합니다. 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **스팸 감지**합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **스팸 감지**합니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> EOP 스팸 감지](media/028cff3c-79ce-4ec0-8f0f-ec32ac28243a.png)
   
@@ -138,7 +139,7 @@ ms.locfileid: "25552396"
 
 **송신 및 수신된 전자 메일** 보고서가 수신 및 발신 전자 메일을 스팸이 감지 된, 맬웨어 및 "양호한."로 식별 된 전자 메일을 포함 하는 방법에 대 한 정보를 표시 하는 스마트 보고서 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **송신 및 수신된 전자 메일**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **송신 및 수신된 전자 메일**입니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> 송신 및 수신된 전자 메일](media/0e710ed0-1b0e-4dac-8796-94a01a710f3a.png)
   
@@ -162,7 +163,7 @@ ms.locfileid: "25552396"
   
 ![User-Reported 메시지 보고서 시도 정크, 하지 정크, 또는 피싱으로 표시 된 메시지 사용자를 표시 합니다.](media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
   
-보안에이 보고서를 보려면 &amp; 준수 센터, 다음 중 하나를 수행 합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), 다음 중 하나를 수행 합니다.
   
 - **위협 관리** 로 이동 \> **대시보드** \> **메시지 사용자가 보고**합니다.
     
@@ -175,12 +176,25 @@ ms.locfileid: "25552396"
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 보려면 사용 권한은 필요 합니까?
 
-본이 문서에서 설명 하는 전자 메일 보안 보고서를 사용 하기 위해 보안에서 할당 하는 적절 한 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터에 있습니다.
-  
-|**Default management role assignments for this role**|**할당 된 경우**|**자세한 정보**|
-|:-----|:-----|:-----|
-| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>--보안 관리자  <br/>--보안 읽기 권한자  <br/> |보안 &amp; 준수 센터  <br/> |[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md) <br/> |
-| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>-보기 전용 조직 관리  <br/>-역할인 받는 사람에 게 역할  <br/>-규정 준수 관리  <br/> |Exchange 관리 센터  <br/> |[Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/jj200673%28v=exchg.150%29.aspx) <br/> |
+본이 문서에서 설명 하는 보고서를 사용 하기 위해 적절 한 보안을 모두에 할당 된 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터입니다.
+
+- 보안을 위해 &amp; 준수 센터 있어야 할당 된 다음 역할 중 하나:
+    - 조직 관리
+    - 보안 관리자
+    - 보안 읽기 권한자
+
+- Exchange Online에 대 한 할당 된 다음 역할 중 하나가 있어야 있습니다.
+    - 조직 관리
+    - 보기 전용 조직 관리
+    - 보기 권한만 있는 받는 사람 역할
+    - 준수 관리
+
+자세한 내용은 다음 리소스를 참조 합니다.
+
+- [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
+
+- [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
+   
    
 ## <a name="what-if-the-reports-arent-showing-data"></a>경우에 어떻게 보고서 데이터를 표시 하지?
 

@@ -3,7 +3,6 @@ title: Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/19/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: aac65513-e75e-4c82-a668-9a6604dd9f9d
 description: 고급 보안 관리에서 응용 프로그램 검색 보고서를 검토 하면 조직에서 사람들이 클라우드 앱을 사용 하는 방법에 대 한 자세한 내용은 할 수 있습니다. 로그 파일에서 방화벽 및 프록시를 사용 하 여 응용 프로그램 검색 보고서를 만든 후 app 검색 대시보드에서 결과 검토 합니다.
-ms.openlocfilehash: 188ef87920b26069e7d99057662b3812be22e46c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: ddf3826f5aac9d3c837cf66f1b97b4650df70f32
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532904"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706262"
 ---
 # <a name="review-app-discovery-findings-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토
   
@@ -36,9 +35,7 @@ ms.locfileid: "22532904"
 
 1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
     
-2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
-    
-    (하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
+2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.<br/>(하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
     
 3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.
     
@@ -70,21 +67,11 @@ ms.locfileid: "22532904"
     
 2. 필터 섹션을 사용 하 여 앱 이름, 범주, 사용 현황 수준 또는 마지막으로 발생된 한 날짜를 볼 수 있습니다.
     
-3. 결과 목록에서 **하위 도메인 보기** 링크를 표시 하는 응용 프로그램 이름으로 가져갑니다. 
+3. 결과 목록에서 **하위 도메인 보기** 링크를 표시 하는 응용 프로그램 이름으로 가져갑니다.<br/> ![하위 도메인 세부 정보를 보려면 링크를 표시 하는 응용 프로그램 옆에 있는 가리키기](media/4a212215-8a2c-46fd-9ef9-89e4064658a6.png)<br/>선택한 응용 프로그램에 대 한 자세한 정보 표시 됩니다.
     
-    ![하위 도메인 세부 정보를 보려면 링크를 표시 하는 응용 프로그램 옆에 있는 가리키기](media/4a212215-8a2c-46fd-9ef9-89e4064658a6.png)
-  
-    선택한 응용 프로그램에 대 한 자세한 정보 표시 됩니다.
+4. IP 주소에 대 한 세부 정보를 보려면 **IP 주소** 탭을 선택 합니다.<br/>![IP 주소에 대 한 자세한 정보를 표시 하는 클라우드 검색](media/0c742bf6-da9e-4d22-8656-a27a5007d5d5.png)<br/>결과 목록에서 자세한 정보를 보려면 개별 IP 주소를 선택 합니다.
     
-4. IP 주소에 대 한 세부 정보를 보려면 **IP 주소** 탭을 선택 합니다. 
-    
-    ![IP 주소에 대 한 자세한 정보를 표시 하는 클라우드 검색](media/0c742bf6-da9e-4d22-8656-a27a5007d5d5.png)
-  
-    결과 목록에서 자세한 정보를 보려면 개별 IP 주소를 선택 합니다.
-    
-5. 조직 내에서 Office 365 사용자에 대 한 세부 정보를 보려면 **사용자** 탭을 선택 합니다. 
-    
-    ![클라우드 검색-사용자가 정보](media/2d9c2d85-01e6-4057-8020-d9a68f26bbac.png)
+5. 조직 내에서 Office 365 사용자에 대 한 세부 정보를 보려면 **사용자** 탭을 선택 합니다.<br/>![클라우드 검색-사용자가 정보](media/2d9c2d85-01e6-4057-8020-d9a68f26bbac.png)
   
 ## <a name="exclude-entities"></a>엔터티를 제외 합니다.
 
@@ -98,7 +85,7 @@ ms.locfileid: "22532904"
     
 4. 사용자 또는 IP 주소를 지정 하 고 **설명** 상자에 해당 사용자 또는 IP 주소를 제외한는 이유에 대 한 정보를 입력 합니다. 
     
-5. **추가**를 선택합니다.
+5. **Add(추가)** 를 선택합니다.
     
 ## <a name="next-steps"></a>다음 단계
 

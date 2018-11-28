@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 description: ATP 안전한 링크 정책에를 설정 하는 경우에 do not 재작성을 포함할 수 있습니다 ' 목록에 포함 된 사이트를 방문 하 여 조직에서 일부 사용자를 사용 하도록 설정 하는 Url의 목록입니다.
-ms.openlocfilehash: c954c12785659f9c025046bf3773cfec2d5dd5f9
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 89fafd5ff7def491a231bc8bc3eb19ef8db16a59
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238390"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26705982"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 사용자 지정 안함-되지 않음-재작성 Url 목록 설정
 
@@ -29,13 +29,11 @@ ms.locfileid: "26238390"
 
 ATP 안전한 링크 보호 조직의 차단된 Url 목록 및 예외에 대 한 "rewrite 수행" 목록을 포함 하 여 여러 목록을 사용 합니다. 필요한 사용 권한이 하는 경우에 "rewrite 수행" 사용자 지정 목록을 설정할 수 있습니다. 이렇게 하려면 추가 하거나 조직에서 특정 받는 사람에 게 적용 되는 안전한 링크 정책을 편집 합니다. 
   
-1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
+1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
 2. 왼쪽 탐색 영역 **위협 관리** \> **정책** \> **안전 링크**입니다.
     
-3. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로 만들기** 를 선택 (새로 만들기 단추 유사한 더하기 기호 ( **+**)) 새 정책을 만들 수 있습니다. (또는 편집할 수 있습니다 기존 정책을.)
-    
-    ![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+3. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로 만들기** 를 선택 (새로 만들기 단추 유사한 더하기 기호 ( **+**)) 새 정책을 만들 수 있습니다. (또는 편집할 수 있습니다 기존 정책을.)<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
   
 4. 이름 및 사용자 정책에 대 한 설명을 지정 합니다.
     

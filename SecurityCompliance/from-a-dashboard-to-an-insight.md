@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 description: 방법으로 이동할 수 있습니다는 대시보드의 보안에서 권장된 작업으로는 정보에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 9245d26a98bac34836772cb1d895c638ed5e5564
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 933bf6e86bc1ddce9259d071b69654f68e4dd370
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533886"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706152"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>연습 - 대시보드에서 통찰력에 이르기까지
 
@@ -30,7 +30,7 @@ ms.locfileid: "22533886"
 
 과정을 살펴보겠습니다 흐름에서 대시보드를 파악 하 고 작업을 보고서에 합니다. ( [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 간단한 예제입니다.) 
   
-1. 보안에서 보안 대시보드를 함께 먼저 &amp; 준수 센터입니다. ( **위협 관리** 로 이동 \> **대시보드**.)
+1. 보안 대시보드로 시작 하는 것은 [보안 &amp; 준수 센터](https://security.microsoft.com)합니다. ( **위협 관리** 로 이동 \> **대시보드**.)
     
     ![보안에서 &amp; 준수 센터 위협 관리를 선택 \> 대시보드](media/05a38660-eb13-4960-a266-11809c453d95.png)
   

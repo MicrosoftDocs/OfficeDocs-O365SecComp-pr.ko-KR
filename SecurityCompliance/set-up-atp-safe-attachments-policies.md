@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 description: 조직에서 전자 메일의 악의적인 파일 보호 하기 위해 안전한 첨부 파일 정책을 정의 합니다.
-ms.openlocfilehash: 84625cc688be4b6aa98674563b5c6c30b1b35598
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 7c2bcfd1d9faad48cb8852b066f544abd1fb6ace
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238410"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706072"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 정책 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "26238410"
 
 - 조직에 [Office 365 고급 위협 보호](office-365-atp.md)있는지 확인 합니다.
     
-- 필요한 되어있는지 확인 [Office 365 보안에 할당 된 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.
+- 필요한 되어있는지 확인 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.
     
 - [ATP 안전한 첨부 파일 정책 옵션에 대 한 설명](#learn-about-atp-safe-attachments-policy-options) (이 문서의). 모니터] 또는 [바꾸기 옵션 등의 일부 옵션 첨부 파일 검사 하는 동안 전자 메일의 약간 지연 될 수 있습니다. 메시지 지연을 방지 하려면 [동적 배달 및 미리 보기](dynamic-delivery-and-previewing.md)를 사용 하는 것이 좋습니다.
     
@@ -43,7 +43,7 @@ ms.locfileid: "26238410"
     
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>2 단계: 설정 (또는 편집) ATP 안전한 첨부 파일 정책
   
-1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
 2. Office 365 보안에서 &amp; 준수 센터 왼쪽된 탐색 창의 **위협 관리** **정책** 을 선택 \> **안전한 첨부 파일**입니다.
     
@@ -51,9 +51,7 @@ ms.locfileid: "26238410"
     
 4. **새로 만들기** 를 선택 (새로 만들기 단추 유사한 더하기 기호 ( **+**)) 정책 만들기를 시작 합니다.
     
-5. 이름, 설명 및 정책에 대 한 설정을 지정 합니다.
-    
-    **예제:** 모든 사람의 메시지를 즉시 배달 하 고 검사는 자신이 후 첨부 파일을 다음가 다시 연결 하는 "지연 없음" 이라는 정책을 설정 하려면 다음 설정을 지정할 수 있습니다. 
+5. 이름, 설명 및 정책에 대 한 설정을 지정 합니다.<br/><br/>**예제:** 모든 사람의 메시지를 즉시 배달 하 고 검사는 자신이 후 첨부 파일을 다음가 다시 연결 하는 "지연 없음" 이라는 정책을 설정 하려면 다음 설정을 지정할 수 있습니다. 
     
       - **이름** 상자에 없는 지연을 입력 합니다.
     

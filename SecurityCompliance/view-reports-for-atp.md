@@ -3,6 +3,7 @@ title: Office 365 고급 위협 보호에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
+ms.date: 11/27/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 1a0ecb9a6722deb50a491a15f720481a5bb7b0a4
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: e9d3088f81d1020e70de4c2260fba81cd469715d
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552336"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706322"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
@@ -34,7 +35,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 > [!NOTE]
 > 위협 보호 상태 보고서는 고객에 게 [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP);가 사용할 수 있는 그러나 ATP 고객에 대 한 위협 보호 상태 보고서에 표시 되는 정보 나타날 EOP 고객 보다 다양 한 데이터를 가능성이 포함 됩니다. 예, ATP 고객에 대 한 위협 보호 상태 보고서에는 [SharePoint Online, OneDrive, 또는 Microsoft 팀의 악의적인 파일을 검색](atp-for-spo-odb-and-teams.md)하는 방법에 대 한 정보가 포함 됩니다. 이러한 정보 ATP, 특정 이므로 고객은 EOP 하지만 ATP 하지는 자신의 위협 보호 상태 보고서에서 해당 정보를 표시 되지 것입니다.
   
-보안에 위협 보호 상태 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
+에 위협 보호 상태 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
   
 ![ATP 위협 보호 상태 보고서](media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
   
@@ -54,7 +55,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 
 **ATP 파일 형식** 보고서 [ATP 안전한 첨부](atp-safe-attachments.md)하 여 악의적으로 감지 하는 파일의 종류를 표시 합니다.
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **ATP 파일 형식**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **ATP 파일 형식**입니다.
   
 ![ATP 파일 형식 보고서](media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
@@ -66,7 +67,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 
 **ATP 메시지 처리** 보고서가 악의적인 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대 한 수행 된는 작업을 표시 합니다. 
   
-보안에이 보고서를 보려면 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** \> **ATP 메시지 처리**합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **ATP 메시지 처리**합니다.
   
 ![ATP 메시지 처리 보고서](media/b0ff65c4-53d3-496d-bafa-8937a5eb69e5.png)
   
@@ -89,12 +90,24 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
   
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>사용 권한은 ATP 보고서를 보려면 필요 합니까?
 
-본이 문서에서 설명 하는 보고서를 사용 하기 위해 보안에서 할당 하는 적절 한 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터에 있습니다.
-  
-|**Default management role assignments for this role**|**할당 된 경우**|**자세한 정보**|
-|:-----|:-----|:-----|
-| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>--보안 관리자  <br/>--보안 읽기 권한자  <br/> |보안 &amp; 준수 센터  <br/> |[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md) <br/> |
-| 다음 중 하나가 필요합니다.  <br/><br/>-조직 관리  <br/>-보기 전용 조직 관리  <br/>-역할인 받는 사람에 게 역할  <br/>-규정 준수 관리  <br/> |Exchange 관리 센터  <br/> |[Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/jj200673%28v=exchg.150%29.aspx) <br/> |
+본이 문서에서 설명 하는 보고서를 사용 하기 위해 적절 한 보안을 모두에 할당 된 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터입니다.
+
+- 보안을 위해 &amp; 준수 센터 있어야 할당 된 다음 역할 중 하나:
+    - 조직 관리
+    - 보안 관리자
+    - 보안 읽기 권한자
+
+- Exchange Online에 대 한 할당 된 다음 역할 중 하나가 있어야 있습니다.
+    - 조직 관리
+    - 보기 전용 조직 관리
+    - 보기 권한만 있는 받는 사람 역할
+    - 준수 관리
+
+자세한 내용은 다음 리소스를 참조 합니다.
+
+- [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
+
+- [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
    
 ## <a name="what-if-the-reports-arent-showing-data"></a>경우에 어떻게 보고서 데이터를 표시 하지?
 

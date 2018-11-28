@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Office 365 클라우드 앱 보안이 포함 된 SIEM 서버를 통합할 수 있습니다. 작동 방식 및를 설정 하는 방법에 대 한 개요를 얻으려면이 문서를 읽어보십시오.
-ms.openlocfilehash: d8603d53e156e89c53f13153cd90d400b1312538
-ms.sourcegitcommit: 2e41cc24ad92005084f2ba432e724bdcc4e295ff
+ms.openlocfilehash: f0965f822b50a0f06dfb69620a9d64c6ca509864
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450763"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706412"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Office 365 Cloud App Security와 SIEM 서버 통합
   
@@ -67,7 +67,7 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
  
 ## <a name="step-1-set-it-up-a-siem-agent-in-office-365-cloud-app-security"></a>1 단계: Office 365 클라우드 앱 보안에서 SIEM 에이전트를 설정
 
-1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
     
 2. **경고** 로 이동 \> **관리 고급 알림**입니다.
     
@@ -122,9 +122,13 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
     ```
 
 - 대괄호는 선택적 매개 변수와 관련 된 경우에 사용 해야 합니다. 다음 변수를 사용 합니다.
+
     - **DIRNAME** 는 경로에 로컬 에이전트 디버그 로그를 사용 하려는 디렉터리입니다.
+
     - **주소 [: 포트]** 프록시 서버 주소와 인터넷에 연결 하는 서버를 사용 하는 포트입니다.
+
     - **토큰** 은 첫번째 절차에서 복사한 SIEM 에이전트 토큰입니다.
+
     - 도움말을 보려면 다음을 입력 `-h`합니다. 
   
 ## <a name="step-3-validate-that-the-siem-agent-is-working"></a>3 단계: SIEM 에이전트 작동 하는지 확인

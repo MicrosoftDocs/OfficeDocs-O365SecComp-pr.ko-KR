@@ -3,7 +3,6 @@ title: Office 365에서 위협으로부터 보호
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/30/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Office 365 Enterprise 보호할 수 있는 방법을 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직에 알아봅니다.
-ms.openlocfilehash: 18e91b3a27ff9722a285a4c84f810876e1cab462
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+ms.openlocfilehash: e5e14e66617af6a513979d93aa4764c8843b975f
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25496852"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706062"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협으로부터 보호
 
@@ -28,11 +27,11 @@ Office 365 엔터프라이즈와 다양 한 스푸핑, 맬웨어, 스팸, 피싱
 
 Office 365에서 사용자 지정 도메인을 사용 하는 경우에 조직에서 보낸 사기를 중지, 전자 메일 보안을 개선 하 고 도메인의 신뢰도 보호 하는데 도움이 됩니다.
   
-- [SPF와 스푸핑을 방지합니다](https://go.microsoft.com/fwlink/?linkid=851943)
+- [SPF와 스푸핑을 방지합니다]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))
     
-- [DKIM으로 아웃 바운드 전자 메일의 유효성을 검사합니다](https://go.microsoft.com/fwlink/?linkid=851944)
+- [DKIM으로 아웃 바운드 전자 메일의 유효성을 검사합니다]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))
     
-- [DMARC와 전자 메일의 유효성을 검사합니다](https://go.microsoft.com/fwlink/?linkid=832951)
+- [DMARC와 전자 메일의 유효성을 검사합니다]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))
     
 ## <a name="anti-spam-amp-anti-malware"></a>스팸 방지 &amp; 맬웨어 방지
 
@@ -40,11 +39,11 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
   
 - [스팸 방지 &amp; 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
     
-- [전자 메일에 대 한 로깅 기능 설정](https://technet.microsoft.com/en-us/library/dn879651.aspx)
+- [전자 메일에 대 한 로깅 기능 설정]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))
     
 - [Office 365 전자 메일 메시지 격리](quarantine-email-messages.md)
     
-- [Microsoft에 의심 스러운 콘텐츠를 제출 합니다.](https://technet.microsoft.com/en-us/library/dn762129%28v=exchg.150%29.aspx)
+- [Microsoft에 의심 스러운 콘텐츠를 제출 합니다.]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))
     
 ## <a name="advanced-threat-protection"></a>Advanced Threat Protection
 

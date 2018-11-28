@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안의 관리 위협 &amp; 준수 센터
+title: Threat management in the Office 365 Security &amp; Compliance Center
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 0a73d5fa-b2c8-43e7-9ed4-61f0552b1c98
 description: 위협 관리를 사용 하 여를 제어 하는 데 도움이 및 조직의 데이터에 대 한 모바일 장치 액세스를 관리 하 고, 조직에서 데이터 손실 보호 하 고 악성 소프트웨어와 스팸에서 인바운드 및 아웃 바운드 메시지를 보호 합니다. 또한 관리 하려면 도메인의 신뢰도 보호 하기 위해 및 보낸사람은 악의적으로 스푸핑 여부를 확인 하려면 도메인에서 계정을 위협을 사용 합니다.
-ms.openlocfilehash: df843ab95920d24af778a9edf31626f4d6b08cff
-ms.sourcegitcommit: e0c6f99d5514d8da8a70d9bd3616d1a1c0851254
+ms.openlocfilehash: 6aac4e7c3af0f1d2b7adc767f696653252674e6a
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2018
-ms.locfileid: "25552406"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706432"
 ---
-# <a name="threat-management-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안의 관리 위협 &amp; 준수 센터
+# <a name="threat-management-in-the-office-365-security-amp-compliance-center"></a>Threat management in the Office 365 Security &amp; Compliance Center
 
 위협 관리를 사용 하 여를 제어 하는 데 도움이 및 조직의 데이터에 대 한 모바일 장치 액세스를 관리 하 고, 조직에서 데이터 손실 보호 하 고 악성 소프트웨어와 스팸에서 인바운드 및 아웃 바운드 메시지를 보호 합니다. 또한 관리 하려면 도메인의 신뢰도 보호 하기 위해 및 보낸사람은 악의적으로 스푸핑 여부를 확인 하려면 도메인에서 계정을 위협을 사용 합니다.
   
@@ -31,7 +31,7 @@ Office 365에서 보안을 사용 하 여 &amp; 준수 센터 조직에 대 한 
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 왼쪽된 창에서 **위협 관리**를 선택 합니다.
     
@@ -39,7 +39,7 @@ Office 365에서 보안을 사용 하 여 &amp; 준수 센터 조직에 대 한 
   
  **보안으로 이동 하려면 &amp; Office 365 응용 프로그램 시작 관리자를 사용 하 여 준수 센터:**
   
-1. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+1. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 2. 응용 프로그램 시작 관리자를 선택 ![Office 365에 있는 응용 프로그램 시작 관리자 아이콘](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 왼쪽 위 모서리, 한 다음 선택은 **보안 &amp; 준수** 바둑판식으로 배열 합니다. 
     

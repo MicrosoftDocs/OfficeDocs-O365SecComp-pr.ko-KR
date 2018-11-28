@@ -13,16 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 description: Office 365 위협 인텔리전스 조직 침입 및 위협 요소를 검색 하 고 신속 하 게 완화 및 위협 으로부터 복구를 통해 하는 방법을 설명 합니다.
-ms.openlocfilehash: f628b941f824e7ad2e327b476288c93f2fc535ad
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: ffcbf6cc179ec8a7e8887402e139d2a0cc716eef
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534054"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706102"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-intelligence"></a>Office 365 위협 인텔리전스를 사용하여 Office 365 사용자를 안전하게 보호
 
- *Office 365 사용자 중 어떤 공격을 받고 중이거나 심각한 문제-손상 된 알고 있습니까? 완화 하 고 사용자를 대상으로 하는 공격에서 복구 하는 방법을 알고 있습니까? 알고 이미 지정 된 Office 365에서 사용할 수 있는 보안 기능을 갖춘이 정확 하 게 수행할 수 있습니까?* 
+## <a name="overview"></a>개요
+
+Office 365 사용자 중 어떤 공격을 받고 중이거나 심각한 문제-손상 된 알고 있습니까? 완화 하 고 사용자를 대상으로 하는 공격에서 복구 하는 방법을 알고 있습니까? 알고 이미 지정 된 Office 365에서 사용할 수 있는 보안 기능을 갖춘이 정확 하 게 수행할 수 있습니까? 
   
 [Office 365 위협 인텔리전스](office-365-ti.md) 는 제품군 Office 365 E5 구독에 포함 된 기능을 합니다. Office 365 위협 인텔리전스 도움을 주었습니다 되는 평균 시간 사회 공학 사고에 대 한 해상도 80% 및 사례 처리량 증가 하 여 37% 감소 이전 2 분기에 비해 매월 Microsoft IT! 
   
@@ -30,9 +32,9 @@ ms.locfileid: "22534054"
   
 ## <a name="detect-intrusions-and-threats"></a>침입 및 위협 요소를 검색 합니다.
 
-**Office 365 위협 탐색기** 사용 보안 관리자와 분석가 식별 하 고 가장 복잡 한 보안 설정도 다음과 같은 문제가 없는 것 처럼 보이는 사용자 구성을 통해 피할 수 있으므로 기업에서 활성화 되는 위협을 이해합니다 수신 허용-보낸사람 whitelists 합니다. 위협 탐색기 도움이 되는 Office 365 전역 또는 보안 관리자는 맬웨어 또는 phish 같은 위협 하 여 사용자가 손상 되었거나 신속 하 게 결정 합니다. 이렇게 하면 우선순위를 지정 하는 사용자에 대 한 위협 요소 및 구성 요소에 대 한 응답에 대 한 위험 가장가 있습니다. 
+[탐색기](use-explorer-in-security-and-compliance.md) (위협 탐색기 라고도 함) 보안 관리자와 분석가 식별 하 고 가장 복잡 한 보안 설정도 안전 하 게 보호와 같은 문제가 없는 것 처럼 보이는 사용자 구성을 통해 피할 수 있으므로 기업에서 활성화 된 위협 요소를 이해 하는데 도움이 됩니다 보낸 사람이 whitelists 합니다. 탐색기 도움이 되는 Office 365 전역 또는 보안 관리자는 맬웨어 또는 phish 같은 위협 하 여 사용자가 손상 되었거나 신속 하 게 결정 합니다. 이렇게 하면 우선순위를 지정 하는 사용자에 대 한 위협 요소 및 구성 요소에 대 한 응답에 대 한 위험 가장가 있습니다. 
   
-위협 탐색기에는 사용자 및 메일 간의 관계를 탐색 하는 관리자가 도움이 됩니다. 잘못 된 했던 특정 메일의 알고 있습니까? 열어 사용자에 게 받은 메일에 대 한 검색, 다음 일련의 이벤트를 수행 하 고 기능 해당 사용자를 차례로 수행을 참조 합니다.
+탐색기에는 사용자 및 메일 간의 관계를 탐색 하는 관리자가 도움이 됩니다. 잘못 된 했던 특정 메일의 알고 있습니까? 열어 사용자에 게 받은 메일에 대 한 검색, 다음 일련의 이벤트를 수행 하 고 기능 해당 사용자를 차례로 수행을 참조 합니다.
 
 위협 인텔리전스, [평가판 다운로드 지금](https://aka.ms/tryo365threatintel3)이 아직 없는 경우! 및 [Office 365 위협 인텔리전스에 대 한 자세한 설명](https://aka.ms/readmoreabouto365threatintel)입니다.
   

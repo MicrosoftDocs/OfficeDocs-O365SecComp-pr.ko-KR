@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법을 알아보려면이 문서를 읽어보십시오. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: 1f7a991b9ab8f3a9f16616379cfb6c4c3c546260
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: cd17fe61b7ecd5becd0918323952f304a73a4ce0
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238370"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706212"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
 
@@ -33,17 +33,11 @@ ms.locfileid: "26238370"
 
 [Office 365의 ATP 안전한 링크](atp-safe-links.md) 여러 목록, 조직의 사용자 지정 차단된 Url 목록 포함을 사용 합니다. 필요한 사용 권한이 하는 경우에 조직의 사용자 지정 목록을 설정할 수 있습니다. 조직의 기본 안전한 링크 정책을 편집 하 여이 작업을 수행 합니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
+1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
 2. 왼쪽 탐색 영역 **위협 관리**, **정책** 선택 \> **안전 링크**입니다.
     
-3. **조직 전체에 적용 되는 정책** 섹션에서 **기본**을 선택 하 고 **편집** (편집 단추는 연필 유사)를 선택 합니다. 
-    
-    ![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
-  
-    차단 된 Url의 목록을 보려면 이동 하는 위치입니다. 참고를 처음에 나열 된 모든 Url이 없습니다.
-    
-    ![차단 되는 Url 목록 조직 전체에 적용 되는 안전한 링크 정책 기본에서입니다.](media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
+3. **조직 전체에 적용 되는 정책** 섹션에서 **기본**을 선택 하 고 **편집** (편집 단추는 연필 유사)를 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>차단 된 Url의 목록을 보려면 이동 하는 위치입니다. 참고를 처음에 나열 된 모든 Url이 없습니다.<br/>![차단 되는 Url 목록 조직 전체에 적용 되는 안전한 링크 정책 기본에서입니다.](media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
   
 4. **유효한 URL 입력** 상자를 선택 하 고 URL을 입력 하 고 더하기 기호 (+)를 선택 합니다. 다음은 사항에 유의 해야 합니다. 
     
