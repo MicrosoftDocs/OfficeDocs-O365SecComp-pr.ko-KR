@@ -3,7 +3,6 @@ title: Office 365에서 위협으로부터 보호
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/30/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -13,97 +12,97 @@ search.appverid:
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 description: Office 365 Enterprise 보호할 수 있는 방법을 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직에 알아봅니다.
-ms.openlocfilehash: 18e91b3a27ff9722a285a4c84f810876e1cab462
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+ms.openlocfilehash: e5e14e66617af6a513979d93aa4764c8843b975f
+ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25496852"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26706062"
 ---
-# <a name="protect-against-threats-in-office-365"></a><span data-ttu-id="e0135-103">Office 365에서 위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="e0135-103">Protect against threats in Office 365</span></span>
+# <a name="protect-against-threats-in-office-365"></a><span data-ttu-id="bc157-103">Office 365에서 위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="bc157-103">Protect against threats in Office 365</span></span>
 
-<span data-ttu-id="e0135-p101">Office 365 엔터프라이즈와 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직을 보호할 수 있습니다. 위협 보호 하 고 수행할 수 있는 작업에 대해 자세히 알아보려면이 페이지에는 리소스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-p101">With Office 365 Enterprise, you can help protect your organization against a variety of threats, including spoofing, malware, spam, phishing attempts, and unauthorized access to data. Use the resources on this page to learn about threat protection and actions you can take.</span></span>
+<span data-ttu-id="bc157-p101">Office 365 엔터프라이즈와 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직을 보호할 수 있습니다. 위협 보호 하 고 수행할 수 있는 작업에 대해 자세히 알아보려면이 페이지에는 리소스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-p101">With Office 365 Enterprise, you can help protect your organization against a variety of threats, including spoofing, malware, spam, phishing attempts, and unauthorized access to data. Use the resources on this page to learn about threat protection and actions you can take.</span></span>
   
-## <a name="anti-spoofing"></a><span data-ttu-id="e0135-106">스푸핑 방지</span><span class="sxs-lookup"><span data-stu-id="e0135-106">Anti-spoofing</span></span>
+## <a name="anti-spoofing"></a><span data-ttu-id="bc157-106">스푸핑 방지</span><span class="sxs-lookup"><span data-stu-id="bc157-106">Anti-spoofing</span></span>
 
-<span data-ttu-id="e0135-107">Office 365에서 사용자 지정 도메인을 사용 하는 경우에 조직에서 보낸 사기를 중지, 전자 메일 보안을 개선 하 고 도메인의 신뢰도 보호 하는데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-107">If you're using a custom domain in Office 365, help stop sender fraud from your organization, improve email security, and protect your domain's reputation.</span></span>
+<span data-ttu-id="bc157-107">Office 365에서 사용자 지정 도메인을 사용 하는 경우에 조직에서 보낸 사기를 중지, 전자 메일 보안을 개선 하 고 도메인의 신뢰도 보호 하는데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-107">If you're using a custom domain in Office 365, help stop sender fraud from your organization, improve email security, and protect your domain's reputation.</span></span>
   
-- [<span data-ttu-id="e0135-108">SPF와 스푸핑을 방지합니다</span><span class="sxs-lookup"><span data-stu-id="e0135-108">Prevent spoofing with SPF</span></span>](https://go.microsoft.com/fwlink/?linkid=851943)
+- <span data-ttu-id="bc157-108">[SPF와 스푸핑을 방지합니다]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))</span><span class="sxs-lookup"><span data-stu-id="bc157-108">[Prevent spoofing with SPF]([Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md))</span></span>
     
-- [<span data-ttu-id="e0135-109">DKIM으로 아웃 바운드 전자 메일의 유효성을 검사합니다</span><span class="sxs-lookup"><span data-stu-id="e0135-109">Validate outbound email with DKIM</span></span>](https://go.microsoft.com/fwlink/?linkid=851944)
+- <span data-ttu-id="bc157-109">[DKIM으로 아웃 바운드 전자 메일의 유효성을 검사합니다]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))</span><span class="sxs-lookup"><span data-stu-id="bc157-109">[Validate outbound email with DKIM]([Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md))</span></span>
     
-- [<span data-ttu-id="e0135-110">DMARC와 전자 메일의 유효성을 검사합니다</span><span class="sxs-lookup"><span data-stu-id="e0135-110">Validate email with DMARC</span></span>](https://go.microsoft.com/fwlink/?linkid=832951)
+- <span data-ttu-id="bc157-110">[DMARC와 전자 메일의 유효성을 검사합니다]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))</span><span class="sxs-lookup"><span data-stu-id="bc157-110">[Validate email with DMARC]([Use DMARC to validate email in Office 365](use-dmarc-to-validate-email.md))</span></span>
     
-## <a name="anti-spam-amp-anti-malware"></a><span data-ttu-id="e0135-111">스팸 방지 &amp; 맬웨어 방지</span><span class="sxs-lookup"><span data-stu-id="e0135-111">Anti-spam &amp; anti-malware</span></span>
+## <a name="anti-spam-amp-anti-malware"></a><span data-ttu-id="bc157-111">스팸 방지 &amp; 맬웨어 방지</span><span class="sxs-lookup"><span data-stu-id="bc157-111">Anti-spam &amp; anti-malware</span></span>
 
-<span data-ttu-id="e0135-112">Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본 설정 및 악의적인 전자 메일을 보고 하는 방법을 포함 하는 방법에 대 한 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-112">Learn about Office 365 anti-spam scoring, connection filtering, and malware capture, including default settings and how to report malicious email.</span></span>
+<span data-ttu-id="bc157-112">Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본 설정 및 악의적인 전자 메일을 보고 하는 방법을 포함 하는 방법에 대 한 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-112">Learn about Office 365 anti-spam scoring, connection filtering, and malware capture, including default settings and how to report malicious email.</span></span>
   
-- [<span data-ttu-id="e0135-113">스팸 방지 &amp; 맬웨어 방지 보호 기능</span><span class="sxs-lookup"><span data-stu-id="e0135-113">Anti-spam &amp; anti-malware protection</span></span>](anti-spam-and-anti-malware-protection.md)
+- [<span data-ttu-id="bc157-113">스팸 방지 &amp; 맬웨어 방지 보호 기능</span><span class="sxs-lookup"><span data-stu-id="bc157-113">Anti-spam &amp; anti-malware protection</span></span>](anti-spam-and-anti-malware-protection.md)
     
-- [<span data-ttu-id="e0135-114">전자 메일에 대 한 로깅 기능 설정</span><span class="sxs-lookup"><span data-stu-id="e0135-114">Turn on logging for email</span></span>](https://technet.microsoft.com/en-us/library/dn879651.aspx)
+- <span data-ttu-id="bc157-114">[전자 메일에 대 한 로깅 기능 설정]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))</span><span class="sxs-lookup"><span data-stu-id="bc157-114">[Turn on logging for email]([Enable mailbox auditing in Office 365](enable-mailbox-auditing.md))</span></span>
     
-- [<span data-ttu-id="e0135-115">Office 365 전자 메일 메시지 격리</span><span class="sxs-lookup"><span data-stu-id="e0135-115">Quarantine email messages in Office 365</span></span>](quarantine-email-messages.md)
+- [<span data-ttu-id="bc157-115">Office 365 전자 메일 메시지 격리</span><span class="sxs-lookup"><span data-stu-id="bc157-115">Quarantine email messages in Office 365</span></span>](quarantine-email-messages.md)
     
-- [<span data-ttu-id="e0135-116">Microsoft에 의심 스러운 콘텐츠를 제출 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-116">Submit suspicious content to Microsoft</span></span>](https://technet.microsoft.com/en-us/library/dn762129%28v=exchg.150%29.aspx)
+- <span data-ttu-id="bc157-116">[Microsoft에 의심 스러운 콘텐츠를 제출 합니다.]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))</span><span class="sxs-lookup"><span data-stu-id="bc157-116">[Submit suspicious content to Microsoft]([Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md))</span></span>
     
-## <a name="advanced-threat-protection"></a><span data-ttu-id="e0135-117">Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="e0135-117">Advanced Threat Protection</span></span>
+## <a name="advanced-threat-protection"></a><span data-ttu-id="bc157-117">Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="bc157-117">Advanced Threat Protection</span></span>
 
-<span data-ttu-id="e0135-118">스푸핑 관리, 피싱 공격을 방지 하 고, 악성 Url 또는 전자 메일 메시지와 고급 위협 보호 ATP ()에 파일을 잡아 정책을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-118">Configure policies to manage spoofing, protect against phishing attacks, and catch malicious URLs or files in email messages with Advanced Threat Protection (ATP).</span></span>
+<span data-ttu-id="bc157-118">스푸핑 관리, 피싱 공격을 방지 하 고, 악성 Url 또는 전자 메일 메시지와 고급 위협 보호 ATP ()에 파일을 잡아 정책을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-118">Configure policies to manage spoofing, protect against phishing attacks, and catch malicious URLs or files in email messages with Advanced Threat Protection (ATP).</span></span>
   
-- [<span data-ttu-id="e0135-119">Office 365 ATP 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="e0135-119">Learn about Office 365 ATP</span></span>](office-365-atp.md)
+- [<span data-ttu-id="bc157-119">Office 365 ATP 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="bc157-119">Learn about Office 365 ATP</span></span>](office-365-atp.md)
     
-- [<span data-ttu-id="e0135-120">스푸핑 인텔리전스에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="e0135-120">Learn about spoof intelligence</span></span>](learn-about-spoof-intelligence.md)
+- [<span data-ttu-id="bc157-120">스푸핑 인텔리전스에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="bc157-120">Learn about spoof intelligence</span></span>](learn-about-spoof-intelligence.md)
     
-- [<span data-ttu-id="e0135-121">피싱 방지 정책 설정</span><span class="sxs-lookup"><span data-stu-id="e0135-121">Set up anti-phishing policies</span></span>](set-up-anti-phishing-policies.md)
+- [<span data-ttu-id="bc157-121">피싱 방지 정책 설정</span><span class="sxs-lookup"><span data-stu-id="bc157-121">Set up anti-phishing policies</span></span>](set-up-anti-phishing-policies.md)
     
-- [<span data-ttu-id="e0135-122">ATP 안전한 링크 정책 설정</span><span class="sxs-lookup"><span data-stu-id="e0135-122">Set up ATP Safe Links policies</span></span>](set-up-atp-safe-links-policies.md)
+- [<span data-ttu-id="bc157-122">ATP 안전한 링크 정책 설정</span><span class="sxs-lookup"><span data-stu-id="bc157-122">Set up ATP Safe Links policies</span></span>](set-up-atp-safe-links-policies.md)
     
-- [<span data-ttu-id="e0135-123">ATP 안전한 첨부 파일 정책 설정</span><span class="sxs-lookup"><span data-stu-id="e0135-123">Set up ATP Safe Attachments policies</span></span>](set-up-atp-safe-attachments-policies.md)
+- [<span data-ttu-id="bc157-123">ATP 안전한 첨부 파일 정책 설정</span><span class="sxs-lookup"><span data-stu-id="bc157-123">Set up ATP Safe Attachments policies</span></span>](set-up-atp-safe-attachments-policies.md)
     
-## <a name="encryption"></a><span data-ttu-id="e0135-124">암호화</span><span class="sxs-lookup"><span data-stu-id="e0135-124">Encryption</span></span>
+## <a name="encryption"></a><span data-ttu-id="bc157-124">암호화</span><span class="sxs-lookup"><span data-stu-id="bc157-124">Encryption</span></span>
 
-<span data-ttu-id="e0135-p102">암호화 입문서 가져오기, 권한 관리 정책 및 전자 메일 암호화를 설정 하 고 추가 암호화 설정을 구성 합니다. Office 365에 대 한 명의 메일 서버에서 사용 되는 루트 인증서에 대 한 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-p102">Get a primer on encryption, set up rights management policies and email encryption, and configure additional encryption settings. Get details about the root certificate used by our mail servers for Office 365.</span></span>
+<span data-ttu-id="bc157-p102">암호화 입문서 가져오기, 권한 관리 정책 및 전자 메일 암호화를 설정 하 고 추가 암호화 설정을 구성 합니다. Office 365에 대 한 명의 메일 서버에서 사용 되는 루트 인증서에 대 한 정보를 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-p102">Get a primer on encryption, set up rights management policies and email encryption, and configure additional encryption settings. Get details about the root certificate used by our mail servers for Office 365.</span></span>
   
-- [<span data-ttu-id="e0135-127">Office 365의 암호화에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="e0135-127">Learn about encryption in Office 365</span></span>](encryption.md)
+- [<span data-ttu-id="bc157-127">Office 365의 암호화에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="bc157-127">Learn about encryption in Office 365</span></span>](encryption.md)
     
-- [<span data-ttu-id="e0135-128">Office 365 Enterprise의 암호화 설정</span><span class="sxs-lookup"><span data-stu-id="e0135-128">Set up encryption in Office 365 Enterprise</span></span>](set-up-encryption.md)
+- [<span data-ttu-id="bc157-128">Office 365 Enterprise의 암호화 설정</span><span class="sxs-lookup"><span data-stu-id="bc157-128">Set up encryption in Office 365 Enterprise</span></span>](set-up-encryption.md)
     
-- [<span data-ttu-id="e0135-129">OME(Office 365 메시지 암호화)</span><span class="sxs-lookup"><span data-stu-id="e0135-129">Office 365 Message Encryption (OME)</span></span>](ome.md)
+- [<span data-ttu-id="bc157-129">OME(Office 365 메시지 암호화)</span><span class="sxs-lookup"><span data-stu-id="bc157-129">Office 365 Message Encryption (OME)</span></span>](ome.md)
     
-- [<span data-ttu-id="e0135-130">구현 가져오는 직접 키 (BYOK)</span><span class="sxs-lookup"><span data-stu-id="e0135-130">Implement bring your own key (BYOK)</span></span>](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
+- [<span data-ttu-id="bc157-130">구현 가져오는 직접 키 (BYOK)</span><span class="sxs-lookup"><span data-stu-id="bc157-130">Implement bring your own key (BYOK)</span></span>](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
     
-## <a name="managing-devices-amp-apps"></a><span data-ttu-id="e0135-131">장치 관리 &amp; 앱</span><span class="sxs-lookup"><span data-stu-id="e0135-131">Managing devices &amp; apps</span></span>
+## <a name="managing-devices-amp-apps"></a><span data-ttu-id="bc157-131">장치 관리 &amp; 앱</span><span class="sxs-lookup"><span data-stu-id="bc157-131">Managing devices &amp; apps</span></span>
 
-<span data-ttu-id="e0135-132">모니터링 하 고 Office 365 데이터를 어떻게 모바일 장치 액세스를 제어 하 고 금지 또는 사용자가 조직에 사용 되 고 있는 모바일 앱을 승인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-132">Monitor and control how mobile devices access your Office 365 data, and ban or approve mobile apps in use at your organization.</span></span>
+<span data-ttu-id="bc157-132">모니터링 하 고 Office 365 데이터를 어떻게 모바일 장치 액세스를 제어 하 고 금지 또는 사용자가 조직에 사용 되 고 있는 모바일 앱을 승인 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-132">Monitor and control how mobile devices access your Office 365 data, and ban or approve mobile apps in use at your organization.</span></span>
   
-- [<span data-ttu-id="e0135-133">장치 보안 정책 만들기 및 배포</span><span class="sxs-lookup"><span data-stu-id="e0135-133">Create and deploy device security policies</span></span>](https://support.office.com/article/d310f556-8bfb-497b-9bd7-fe3c36ea2fd6)
+- [<span data-ttu-id="bc157-133">장치 보안 정책 만들기 및 배포</span><span class="sxs-lookup"><span data-stu-id="bc157-133">Create and deploy device security policies</span></span>](https://support.office.com/article/d310f556-8bfb-497b-9bd7-fe3c36ea2fd6)
     
-- [<span data-ttu-id="e0135-134">Office 365 Cloud App Security을 사용하여 앱 사용 권한 관리</span><span class="sxs-lookup"><span data-stu-id="e0135-134">Manage app permissions using Office 365 Cloud App Security</span></span>](manage-app-permissions-in-ocas.md)
+- [<span data-ttu-id="bc157-134">Office 365 Cloud App Security을 사용하여 앱 사용 권한 관리</span><span class="sxs-lookup"><span data-stu-id="bc157-134">Manage app permissions using Office 365 Cloud App Security</span></span>](manage-app-permissions-in-ocas.md)
     
-## <a name="threat-intelligence"></a><span data-ttu-id="e0135-135">위협 인텔리전스</span><span class="sxs-lookup"><span data-stu-id="e0135-135">Threat intelligence</span></span>
+## <a name="threat-intelligence"></a><span data-ttu-id="bc157-135">위협 인텔리전스</span><span class="sxs-lookup"><span data-stu-id="bc157-135">Threat intelligence</span></span>
 
-<span data-ttu-id="e0135-136">식별 하 고, 모니터링 및 통찰력 및 공격을 방지 하기 위해 사용할 수 있는 기술 사용 하 여 공격을 하 고 신속 하 게 주소에 대 한 위협 요소를 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-136">Identify, monitor, and understand attacks, and quickly address threats by using the insights and knowledge available to prevent attacks.</span></span>
+<span data-ttu-id="bc157-136">식별 하 고, 모니터링 및 통찰력 및 공격을 방지 하기 위해 사용할 수 있는 기술 사용 하 여 공격을 하 고 신속 하 게 주소에 대 한 위협 요소를 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-136">Identify, monitor, and understand attacks, and quickly address threats by using the insights and knowledge available to prevent attacks.</span></span>
   
-- [<span data-ttu-id="e0135-137">Office 365 위협 인텔리전스 간략하게</span><span class="sxs-lookup"><span data-stu-id="e0135-137">Get an overview of Office 365 Threat Intelligence</span></span>](office-365-ti.md)
+- [<span data-ttu-id="bc157-137">Office 365 위협 인텔리전스 간략하게</span><span class="sxs-lookup"><span data-stu-id="bc157-137">Get an overview of Office 365 Threat Intelligence</span></span>](office-365-ti.md)
     
-- [<span data-ttu-id="e0135-138">Office 365 위협 인텔리전스 시작하기</span><span class="sxs-lookup"><span data-stu-id="e0135-138">Get started with Office 365 Threat Intelligence</span></span>](get-started-with-ti.md)
+- [<span data-ttu-id="bc157-138">Office 365 위협 인텔리전스 시작하기</span><span class="sxs-lookup"><span data-stu-id="bc157-138">Get started with Office 365 Threat Intelligence</span></span>](get-started-with-ti.md)
     
-## <a name="privileged-access-management"></a><span data-ttu-id="e0135-139">권한이 부여된 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="e0135-139">Privileged access management</span></span>
+## <a name="privileged-access-management"></a><span data-ttu-id="bc157-139">권한이 부여된 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="bc157-139">Privileged access management</span></span>
 
-<span data-ttu-id="e0135-p103">기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 합니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후 사용자가 높은 범위가 지정 되며 시간 제한이 있는 승인 워크플로 통해 관리자 권한 및 권한 있는 작업을 완료 하려면 적시에 액세스를 요청 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-p103">Help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound.</span></span>
+<span data-ttu-id="bc157-p103">기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 합니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후 사용자가 높은 범위가 지정 되며 시간 제한이 있는 승인 워크플로 통해 관리자 권한 및 권한 있는 작업을 완료 하려면 적시에 액세스를 요청 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-p103">Help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound.</span></span>
   
-- [<span data-ttu-id="e0135-142">대략적으로 권한 관리에 액세스</span><span class="sxs-lookup"><span data-stu-id="e0135-142">Get an overview of privileged access management</span></span>](privileged-access-management-overview.md)
+- [<span data-ttu-id="bc157-142">대략적으로 권한 관리에 액세스</span><span class="sxs-lookup"><span data-stu-id="bc157-142">Get an overview of privileged access management</span></span>](privileged-access-management-overview.md)
     
-- [<span data-ttu-id="e0135-143">권한 시작 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="e0135-143">Get started with privileged access management</span></span>](privileged-access-management-configuration.md)
+- [<span data-ttu-id="bc157-143">권한 시작 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="bc157-143">Get started with privileged access management</span></span>](privileged-access-management-configuration.md)
 
-## <a name="additional-options"></a><span data-ttu-id="e0135-144">추가 옵션</span><span class="sxs-lookup"><span data-stu-id="e0135-144">Additional options</span></span>
+## <a name="additional-options"></a><span data-ttu-id="bc157-144">추가 옵션</span><span class="sxs-lookup"><span data-stu-id="bc157-144">Additional options</span></span>
 
-<span data-ttu-id="e0135-145">관련된 Microsoft 기술 및 위협에 대 한 보안 Office 365는 데 도움이 되는 프로세스에 대 한 자세한 정보를 봅니다.</span><span class="sxs-lookup"><span data-stu-id="e0135-145">Get more information about related Microsoft technologies and processes that help secure Office 365 against threats.</span></span>
+<span data-ttu-id="bc157-145">관련된 Microsoft 기술 및 위협에 대 한 보안 Office 365는 데 도움이 되는 프로세스에 대 한 자세한 정보를 봅니다.</span><span class="sxs-lookup"><span data-stu-id="bc157-145">Get more information about related Microsoft technologies and processes that help secure Office 365 against threats.</span></span>
   
-- [<span data-ttu-id="e0135-146">Azure 권한 관리에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="e0135-146">Learn about Azure Rights Management</span></span>](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+- [<span data-ttu-id="bc157-146">Azure 권한 관리에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="bc157-146">Learn about Azure Rights Management</span></span>](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
     
-- [<span data-ttu-id="e0135-147">Azure 주요 추적용 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="e0135-147">Learn about Azure Key Vault</span></span>](https://docs.microsoft.com/azure/key-vault/)
+- [<span data-ttu-id="bc157-147">Azure 주요 추적용 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="bc157-147">Learn about Azure Key Vault</span></span>](https://docs.microsoft.com/azure/key-vault/)
     
-- [<span data-ttu-id="e0135-148">테 넌 트 격리 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="e0135-148">Learn about tenant isolation</span></span>](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
+- [<span data-ttu-id="bc157-148">테 넌 트 격리 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="bc157-148">Learn about tenant isolation</span></span>](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
     
 
