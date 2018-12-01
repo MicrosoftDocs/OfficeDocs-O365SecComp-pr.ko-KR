@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안 및 규정 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 39b3d6438d4680fe7a50f831bbd2d5667c4acffe
-ms.sourcegitcommit: a138cf89095ab0d2bd07caf82b3d48149002c1fa
+ms.openlocfilehash: 95516cd88677955137e51401113844375cb1e082
+ms.sourcegitcommit: c34f1a0d560117153fc9a7b8da8994bc6fc53791
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626154"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "27118144"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 규정 준수 센터의 감사 로그를 검색 합니다.
 
@@ -169,7 +169,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
     c. 검색을 표시 하 고 다음 선택 된 하나 이상의 사용자가이 상자에서 **사용자가** 클릭에 대 한 결과입니다. 이 상자에서 선택한 사용자에 의해 수행 선택된 된 작업에 대 한 감사 로그 항목의 결과 목록에 표시 됩니다. 이 상자는 조직에서 모든 사용자 (및 서비스 계정)에 대 한 항목을 반환 하려면 비워 둡니다. 
     
-    d. **파일 또는 폴더는** 지정된 된 키워드를 포함 하는 폴더의 파일에 관련 된 작업에 대 한 검색 파일 또는 폴더 이름 중 일부 또는 전부를 입력 합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용 하는 경우 전체 URL 경로 입력 해야 하거나 방금는 URL의 일부를 입력 하는 경우 모든 특수 문자나 공백을 포함 하지 마십시오. 
+    d. **파일, 폴더 또는 사이트에** 지정 된 키워드 포함 된 폴더의 파일에 관련 된 작업에 대 한 검색 파일 또는 폴더 이름 중 일부 또는 전부를 입력 합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용 하는 경우 전체 URL 경로 입력 해야 하거나 방금는 URL의 일부를 입력 하는 경우 모든 특수 문자나 공백을 포함 하지 마십시오. 
     
     이 상자는 조직에서 모든 파일 및 폴더에 대 한 항목을 반환 하려면 비워 둡니다.
     
