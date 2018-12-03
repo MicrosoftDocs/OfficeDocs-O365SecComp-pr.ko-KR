@@ -264,7 +264,8 @@
 ### [격리된 SharePoint Online 팀 사이트 개발/테스트 환경](isolated-sharepoint-online-team-site-dev-test-environment.md)
 ## [SIEM 서버 통합](siem-server-integration.md)
 
-# 준수 솔루션
+# 규정 준수 솔루션
+## [Microsoft Service Trust Portal 시작](get-started-with-service-trust-portal.md)
 ## [Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [DSR 사례 도구로 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)
