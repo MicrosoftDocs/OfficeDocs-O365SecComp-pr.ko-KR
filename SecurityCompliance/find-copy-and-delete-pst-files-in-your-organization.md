@@ -3,7 +3,7 @@ title: PST 컬렉션 도구를 사용 하 여 찾기, 복사 및 조직에서 PS
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 10/18/2017
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,14 +12,17 @@ ms.collection: Strat_O365_IP
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Microsoft PST 컬렉션 도구를 사용 하 여 조직의 네트워크를 검색 하는 조직 전체에 걸쳐 분산 된 PST 파일의 인벤토리를 가져옵니다. PST 파일을 찾은 후에 Office 365로 가져올 수 있도록 하는 중앙 위치에 복사 하는 PST 컬렉션 도구를 사용할 수 있습니다.
-ms.openlocfilehash: 0537a65a32fa25704045bd587cb20f9eee13f628
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: 34395eee7776d8bff1ddccb7fed5b683e97c02c7
+ms.sourcegitcommit: c59a082dca6593d0e35e58124ee6ba240547bfa5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038131"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27154214"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>PST 컬렉션 도구를 사용 하 여 찾기, 복사 및 조직에서 PST 파일을 삭제 하려면
+
+> [!IMPORTANT]
+> 이 문서에서 설명 하는 PST 컬렉션 도구는 Microsoft 표준 지원 프로그램이 나 서비스에서 지원 되지 않습니다. 이 도구는 어떠한 보증도 없이 있는 그대로 제공 됩니다. Microsoft 추가로 포함 하 여, 제한 되지 않고 하는 모든 묵시적된 보증을 부인 묵시적 보증 상품성 또는 특정 목적에의 적합성입니다. 사용 또는 성능 도구 및 설명서에 발생 하는 위험은 있습니다. 어떠한 이벤트에 Microsoft, 해당 작성자 또는 다른 만들기, 제작, 또는 도구의 배달에 참여 하는 모든 책임을 지지 모든 손해에 대해 (포함 하 되, 제한 되지 않고 비즈니스 이익, 영업 중단, 손실 손실에 대 한 손해 비즈니스 정보 또는 기타 금전적 손실을) Microsoft가 그와 같은 손해의 가능성을 사전에 알고 있었던 경우에 사용 또는 설명서를 확인 하는 도구를 사용 하 여 원인으로 발생 합니다.
 
 Microsoft PST 컬렉션 도구를 사용 하 여 PST 파일에 대 한 조직의 네트워크에서 검색할 수 있습니다. 이 도구를 사용 하면 조직 전체에 걸쳐 분산 되어 PST 파일의 인벤토리를 가져올 수 있습니다. PST 파일을 찾은 후에 중앙 위치에서 복사할 PST 컬렉션 도구를 사용할 수 있습니다. Pst 한 곳에 있는 다음 가져올 수 있도록 Exchange Online 사서함 (또는 단일 Exchange Online 사서함) 수는 다양 한 Office 365의 규정 준수 기능 집합이 다음 적용할 수 있습니다. 사용자의 사서함에 eDiscovery를 사용 하 여 메시지를 보관 eDiscovery 검색 도구를 사용 하 여 가져온 PST 파일에서 특정 메시지에 대 한 검색을 포함 하 고 보관 및 Office 365 보존 정책에서 pst로 가져오기 (영문) 및 수명 관리 주기는 메시징를 사용 하 여 이러한 메시지의 레코드 관리 기능 Exchange 온라인 합니다. 확신할 수 없을 때는 사용자가 수집한 PST 파일을 Office 365 성공적으로 끝나면 되었는지, 후 네트워크에서의 원래 위치에서 삭제 하는 도구를 사용할 수 있습니다. 
   
