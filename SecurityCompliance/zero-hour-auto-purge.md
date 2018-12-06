@@ -3,7 +3,7 @@ title: 제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/23/2018
+ms.date: 12/05/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 description: 0-시간 자동 삭제 (ZAP) 스팸 또는 맬웨어로와 사용자의 받은 편지함에 이미 배달 된 메시지를 검색 하는 전자 메일 보호 기능 및 다음 치명적이 지 악의적인 콘텐츠를 렌더링 합니다. 어떻게 ZAP이 작업을 수행 하는 작업은 감지 악의적인 콘텐츠 형식에 따라 다릅니다.
-ms.openlocfilehash: ac181a7c57b4b16a952ff9c046edbff1380828d1
-ms.sourcegitcommit: 791d23e1c2dea622b6ef77a6e2bde32e1d31a41b
+ms.openlocfilehash: 1cf14051e91801a74a0d739c69900bb3f825b318
+ms.sourcegitcommit: 204fb0269b5c10b63941055824e863d77e3e9b02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999981"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27180848"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
 ## <a name="overview"></a>개요
 
-0-시간 자동 삭제 (ZAP) 스팸 또는 맬웨어로와 사용자의 받은 편지함에 이미 배달 된 메시지를 검색 하는 전자 메일 보호 기능 및 다음 치명적이 지 악의적인 콘텐츠를 렌더링 합니다. 어떻게 ZAP이 작업을 수행 하는 작업은 감지 악의적인 콘텐츠 형식에 따라 다릅니다.
+0-시간 자동 삭제 (ZAP) phish, 스팸, 또는 맬웨어 사용자의 받은 편지함에 이미 배달 된 메시지를 검색 하는 전자 메일 보호 기능 및 다음 치명적이 지 악의적인 콘텐츠를 렌더링 합니다. 검색; 악의적인 콘텐츠 형식에 따라 달라 집니다 어떻게 ZAP이 작업을 수행합니다 메일 메일 콘텐츠, Url 또는 첨부 파일으로 인해 zapped 될 수 있습니다.
   
 ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독의 함께 제공 되는 Exchange Online Protection 기본 제공 됩니다.
 
@@ -39,7 +39,11 @@ ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독의 함�
 ## <a name="how-does-zap-work"></a>ZAP는 어떻게 작동 합니까?
 
 Office 365에서 스팸 방지 엔진 및 맬웨어 서명 업데이트를 매일 실시간 합니다. 그러나 사용자에 게 다양 한 콘텐츠를 사용자에 게 배달 되지 후 weaponized 하는 경우를 포함 하 여 이유 때문에 대 한 받은 편지함에 배달 된 악의적인 메시지를 계속 가져올 수 있습니다. ZAP 계속 해 서 Office 365 스팸 및 맬웨어로부터 서명에 대 한 업데이트를 모니터링 하 여이 해결 합니다. ZAP 검색 하 고 사용자의 받은 편지함에 이미 있는 이전에 배달 된 메시지를 제거할 수 있습니다. 
+
 - 스팸으로 식별 되는 메일에 대 한 ZAP 읽지 않은 메시지를 사용자의 정크 메일 폴더로 이동 합니다. 
+
+- ZAP는 스팸으로 식별 되는 메일에 대 한 전자 메일을 읽은 여부에 관계 없이 사용자의 정크 메일 폴더로 메시지 이동 합니다.
+
 - 새로 검색 된 맬웨어 ZAP는 전자 메일을 읽은 여부에 관계 없이 전자 메일 메시지에서 첨부 파일을 제거 합니다. 
   
 ZAP 매크로 함수는 사서함 사용자; 원활 하 게 전자 메일 메시지를 이동 하는 경우에 이러한는 알림을 받지 않습니다.
@@ -49,8 +53,11 @@ ZAP 매크로 함수는 사서함 사용자; 원활 하 게 전자 메일 메시
 ## <a name="to-review-or-set-up-a-spam-filter-policy"></a>검토 하거나 스팸 필터 정책을 설정 하려면
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다.
+
 2. **위협 관리** **스팸 방지**를 선택 합니다.
+
 3. 표준 설정을 검토 합니다. 
+
 4. 설정을 사용자 지정 하려는 경우 **사용자 지정** 탭을 선택 하 고 **사용자 지정 설정**사용 합니다. 설정을 편집 하 고 원할 경우 **+ 정책 만들기** 새 정책을 추가 하려면 선택 합니다. 
     
 ## <a name="to-see-if-zap-moved-your-message"></a>ZAP 메시지를 이동 하는 경우를 확인 하려면

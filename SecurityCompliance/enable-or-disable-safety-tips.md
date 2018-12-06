@@ -3,7 +3,7 @@ title: Office 365에서 보안 팁 사용 여부 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/6/2017
+ms.date: 12/05/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: f09668bd-fe1a-4c01-89e3-e88c370e66c7
 description: Office 365와 EOP 관리자를 사용 하도록 설정 하 고 전자 메일 메시지에 안전 팁을 사용 하지 않도록 설정 하는 방법에 지시 합니다.
-ms.openlocfilehash: 3a8257f9d34ec5def54e2b9c9e919172366d023f
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 8e5d8bf1d2f831b5d74ca3accd8b434519bfeaab
+ms.sourcegitcommit: 204fb0269b5c10b63941055824e863d77e3e9b02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533600"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27180858"
 ---
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Office 365에서 보안 팁 사용 여부 설정
 
@@ -36,9 +36,9 @@ Office 365 안전 팁을 사용 하면 조직에 대 한 기본으로 설정 하
 ## <a name="to-enable-or-disable-safety-tips-by-using-the-office-365-security-amp-compliance-center"></a>Office 365 보안을 사용 하 여 안전 팁을 사용 하지 않도록 설정 하거나 사용 &amp; 준수 센터
 <a name="SandCCsafetytip"> </a>
 
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정으로 Office 365에 로그인합니다.
     
 3. **위협 관리** 를 선택 \> **정책**입니다. 
     
@@ -60,7 +60,7 @@ Office 365 안전 팁을 사용 하면 조직에 대 한 기본으로 설정 하
     
 9. **안전 팁**을 아래에서 안전 팁을 사용 하도록 설정 하려면 확인란을 선택 **에서** 합니다. 안전 팁을 사용 하지 않으려면 **에서** 확인란의 선택을 취소 합니다. 
     
-10. **저장**을 선택합니다.
+10. **Save(저장)** 를 선택합니다.
     
 ## <a name="to-enable-or-disable-safety-tips-by-using-powershell"></a>PowerShell을 사용 하 여 안전 팁을 사용 하지 않도록 설정 하거나 사용
 <a name="pshellsafetytip"> </a>
@@ -75,7 +75,7 @@ Office 365 안전 팁을 사용 하면 조직에 대 한 기본으로 설정 하
   Set-HostedContentFilterPolicy -Identity "policy name " -InlineSafetyTipsEnabled <$true|$false>
   ```
 
-    여기서 각 부분이 나타내는 의미는 다음과 같습니다.
+여기서 각 부분이 나타내는 의미는 다음과 같습니다.
     
   -  *정책* 이름은 **기본**예 수정할 정책의 이름입니다.
     
@@ -89,9 +89,9 @@ Office 365 안전 팁을 사용 하면 조직에 대 한 기본으로 설정 하
   PS C:\> Set-HostedContentFilterPolicy -Identity "default" -InlineSafetyTipsEnabled $false
   ```
 
-    이 cmdlet에 대 한 자세한 내용은 [Set-hostedcontentfilterpolicy](https://technet.microsoft.com/library/jj200781.aspx)을 참조 하십시오.
+이 cmdlet에 대 한 자세한 내용은 [Set-hostedcontentfilterpolicy](https://technet.microsoft.com/library/jj200781.aspx)을 참조 하십시오.
     
-## <a name="still-need-help"></a>여전히 도움이 필요 하십니까?
+## <a name="still-need-help"></a>여전히 도움이 필요하세요?
 <a name="pshellsafetytip"> </a>
 
 안전 팁을 사용 하지 않도록 설정 하 고 여전히 전자 메일 메시지에 표시 하는이 기능을 확인 합니다.
