@@ -3,7 +3,7 @@ title: Office 365의 스푸핑 방지 보호 기능
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/11/2018
+ms.date: 12/06/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 description: 이 문서에서는 방법 Office 365을 완화 피싱 공격에 대해 사용 하 여 보낸 사람이 도메인, 위장 된 도메인, 즉 위조를 설명 합니다. 메시지를 분석 하 여이 기능을 수행 하기 및 neithe 표준 전자 메일 인증 방법 및 기타 보낸사람 신뢰도 기술을 사용 하 여 인증 될 수 있는 위치를 차단 합니다. 이 변경 피싱 공격에 노출 되는 조직에서 Office 365의 수를 줄이는 구현 됩니다.
-ms.openlocfilehash: 231f66b094a98363375a68fbddc8b71077b7baa4
-ms.sourcegitcommit: a36d2692396786f49c8765c65145e5093578e9a1
+ms.openlocfilehash: 95f4995b6447870700bc483f205ca3ff831045f5
+ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498114"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27194719"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -250,7 +250,7 @@ To: someone@example.com
   
 여러 다른 방식 (이 문서 앞부분의 [다양 한 유형의 스푸핑 간의 Differentiating](#differentiating-between-different-types-of-spoofing) 참조)는 메시지를 스푸핑 될 수 있지만 년 3 월 2018를 기준으로 Office 365에서 이러한 메시지를 처리 하는 방법은 되지 아직 통합 합니다. 다음 표에 새 동작 되 고 도메인간 스푸핑 보호와 요약 합니다. 
   
-|**스푸핑의 유형**|**범주**|**안전 팁 추가 합니까?**|**적용 대상**|
+|**스푸핑의 유형**|**종류**|**안전 팁 추가 합니까?**|**적용 대상**|
 |:-----|:-----|:-----|:-----|
 |DMARC 실패 (격리 또는 거부)  <br/> |SPM 또는 PHSH에도 HSPM (기본값) 수 있습니다.  <br/> |아니요 (아직)  <br/> |모든 Office 365 고객, Outlook.com  <br/> |
 |자체를 자체  <br/> |SPM  <br/> |예  <br/> |모든 Office 365 조직, Outlook.com  <br/> |
@@ -302,17 +302,17 @@ Set-AntiphishPolicy -Identity $name <fill in rest of parameters>
   
 ![피싱 방지 기본 정책 세부 정보](media/30c21ceb-df52-4c93-aa65-f44a55dc1009.jpg)
   
-PowerShell 통해 기본 보호를 설정 하려면 2018에서 나중에:
+PowerShell 통해 기본 보호를 설정 하려면:
   
 ```
-$defaultAntiphishPolicy = Get-AntiphishingPolicy -IsDefault $true
+$defaultAntiphishPolicy = Get-AntiphishPolicy | ? {$_.IsDefault -eq $true}
 Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnforcement <$true|$false>
 ```
 
 다른 메일 서버 또는 서버 Office 365 앞에 있는 경우에 스푸핑 방지 보호를 해제 해야 (자세한 내용은 스푸핑 방지를 사용 하지 않도록 설정 하는 합법적인 시나리오 참조). 
   
 ```
-$defaultAntiphishPolicy = Get-AntiphishingPolicy -IsDefault $true
+$defaultAntiphishPolicy = Get-AntiphishiPolicy | ? {$_.IsDefault $true}
 Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnforcement $false 
 
 ```
@@ -412,7 +412,7 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
   
 일반적으로 X Forefront-스팸 방지 보고서 머리글 고양이 (범주) 속성에는 메시지에 적용 되는 정책을 식별 됩니다. 
   
-|**우선 순위**|**정책**|**범주**|**여기서 관리?**|**적용 대상**|
+|**우선 순위**|**정책**|**종류**|**여기서 관리?**|**적용 대상**|
 |:-----|:-----|:-----|:-----|:-----|
 |1   <br/> |Malware  <br/> |MALW  <br/> |[맬웨어 정책](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
 |2   <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |

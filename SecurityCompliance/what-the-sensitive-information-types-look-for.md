@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
 description: Office 365 보안에서 데이터 손실 방지 (DLP) &amp; 준수 센터 DLP 정책에서 사용 하 여 사용할 수 있는 80 중요 한 정보 유형을 포함 합니다. 이 항목 모두 이러한 중요 한 정보 유형 및 각 종류를 감지 하는 경우의 DLP 정책을 찾아 나와 있습니다.
-ms.openlocfilehash: 5097227d8efa833f255631febde50b937add48ef
-ms.sourcegitcommit: ede6230c2df398dc0a633e8f32ee0bfede0d5142
+ms.openlocfilehash: 4b083f80e02c80053b63ee897b2515a4505c16d9
+ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25002691"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27194739"
 ---
-# <a name="what-the-sensitive-information-types-look-for"></a>중요 한 정보 형식을 찾습니다.
+# <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
 Office 365 보안에서 데이터 손실 방지 (DLP) &amp; 준수 센터 DLP 정책에서 사용 하 여 사용할 수 있는 많은 중요 한 정보 유형을 포함 합니다. 이 항목 모두 이러한 중요 한 정보 유형 및 각 종류를 감지 하는 경우의 DLP 정책을 찾아 나와 있습니다. 중요 한 정보 유형 정규식 또는 함수를 식별할 수 있는 패턴에 의해 정의 됩니다. 또한 확증 적 인증 거 키워드 및 체크섬와 같은 중요 한 정보 형식을 식별 하기 위해 사용할 수 있습니다. 신뢰 수준 및 근접성 평가 프로세스에도 사용 됩니다.
   
@@ -143,7 +143,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Argentina National Identity number
  
-- Identity 
+- ID 
 - 식별 국가 Id 카드 
 - DNI
  
@@ -286,8 +286,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - international driving permits
 - 
 australian automobile association
-- 
-sydney nsw
 - 
 international driving permit
 - DriverLicence
@@ -2215,13 +2213,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-10자리 숫자
+11자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-10자리 숫자:
-- 생년월일에 해당하는 DDMMYY 형식의 6자리 숫자 
-- 마지막 숫자가 검사 숫자인 4자리 숫자
+11자리 숫자:
+- 10자리 숫자 
+- 최종 자릿수는 확인 하기 위해 국제 데이터 교환, HR 문자 11 개의 숫자 앞에 추가 됩니다.
 
 ### <a name="checksum"></a>체크섬
 
@@ -2262,18 +2260,31 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 
    
-## <a name="czech-national-identity-card-number"></a>	체코 국가 ID 카드 번호
+## <a name="czech-personal-identity-number"></a>체코어 개인 Id 번호
 
 ### <a name="format"></a>형식
 
-정방향 슬래시를 포함하는 10자리 숫자
+선택적으로 숫자 9 개 슬래시 (이전 형식)와 선택적 10 자리 슬래시 (새 형식)
 
 ### <a name="pattern"></a>패턴
 
-10자리 숫자:
-- 생년월일에 해당하는 6자리 숫자 
+9 개의 숫자 (이전 형식):
+- 9자리 숫자
+
+또는
+
+- 생일을 표시 하는 6 자리 숫자
+- 정방향 슬래시
+- 3자리 숫자
+
+10 자리 숫자 (새 형식):
+- 10자리 숫자
+
+또는
+
+- 생일을 표시 하는 6 자리 숫자
 - 정방향 슬래시 
-- 마지막 숫자가 검사 숫자인 4자리 숫자
+- 여기서 마지막 숫자는 검사 숫자 4 자리 숫자
 
 ### <a name="checksum"></a>체크섬
 
@@ -2284,21 +2295,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 85%에 근접 300 자 내에 있는 경우,: Func_czech_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_czech_id_card에서 키워드를 발견 됩니다. 체크섬을 전달합니다.
 
 ```
-<!-- Czech National Identity Card Number -->
-<Entity id="60c0725a-4eb6-455b-9dda-05d8a7396497" recommendedConfidence="85" patternsProximity="300">
-  <Pattern confidenceLevel="85">
-     <IdMatch idRef="Func_czech_id_card"/>
-     <Match idRef="Keyword_czech_id_card"/>
-  </Pattern>
+<!-- Czech Personal Identity Number -->
+<Entity id="60c0725a-4eb6-455b-9dda-05d8a7396497"      patternsProximity="300" recommendedConfidence="85">
+   <Pattern confidenceLevel="85">
+      <IdMatch idRef="Func_czech_id_card" />
+      <Match idRef="Keyword_czech_id_card" />
+   </Pattern>
 </Entity>
 ```
-
-
 ### <a name="keywords"></a>키워드
 
-- Keyword_czech_id_card
-- Czech national identity card
-- Občanský průka
+- 체코어 개인 id 번호
+- Rodné číslo
    
 ## <a name="denmark-personal-identification-number"></a>	덴마크 개인 식별 번호
 
@@ -3746,13 +3754,47 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordhongkongidcard"></a>Keyword_hong_kong_id_card
 
-- Hong Kong Identity Card
-- HKID
-- ID card
+- 홍콩 특별 행정구 id 카드
+- HKIDC
+- id 카드
+- identity card
+- hk id 카드
+- 홍콩 특별 행정구 id
 - 香港身份證
- 
+
 - 香港永久性居民身份證
- 
+
+- 身份證
+
+- 身份証
+- 身分證 
+- 身分証
+- 香港身份証
+- 香港身分證
+- 香港身分証
+- 香港身份證
+
+- 香港居民身份證
+- 香港居民身份証
+- 香港居民身分證
+- 香港居民身分証
+- 香港永久性居民身份証
+- 香港永久性居民身分證
+- 香港永久性居民身分証
+- 香港永久性居民身份證
+
+- 香港非永久性居民身份證
+- 香港非永久性居民身份証
+- 香港非永久性居民身分證
+- 香港非永久性居民身分証
+- 香港特別行政區永久性居民身份證
+- 香港特別行政區永久性居民身份証
+- 香港特別行政區永久性居民身分證
+- 香港特別行政區永久性居民身分証
+- 香港特別行政區非永久性居民身份證
+- 香港特別行政區非永久性居民身份証
+- 香港特別行政區非永久性居民身分證
+- 香港特別行政區非永久性居民身分証
    
 ## <a name="india-permanent-account-number-pan"></a>인도 PAN(영구 계정 번호)
 
@@ -4671,6 +4713,48 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 - 社会保険番号
  
+
+## <a name="japanese-residence-card-number"></a>일본어 거주 카드 번호
+
+### <a name="format"></a>형식
+
+12 대 문자와 숫자
+
+### <a name="pattern"></a>패턴
+
+12 대 문자와 숫자:
+- 2문자(대/소문자 구분 안 함)
+- 8자리 숫자 
+- 2문자(대/소문자 구분 안 함)
+
+### <a name="checksum"></a>체크섬
+
+없음
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- Regex_jp_residence_card_number 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_jp_residence_card_number에서 키워드를 발견 됩니다.
+
+```
+<!--Japan Residence Card Number-->
+-<Entity id="ac36fef2-a289-4e2c-bb48-b02366e89fc0" recommendedConfidence="75" patternsProximity="300">
+   -<Pattern confidenceLevel="75">
+      <IdMatch idRef="Regex_jp_residence_card_number"/>
+      <Match idRef="Keyword_jp_residence_card_number"/>
+   </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keywordjpresidencecardnumber"></a>Keyword_jp_residence_card_number
+
+- 거주 카드 번호
+- 거주 카드 없음
+- 거주 카드 번호
+- 在留カード番号
    
 ## <a name="malaysia-id-card-number"></a>말레이시아 ID 카드 번호
 
@@ -4713,16 +4797,30 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keywordmalaysiaidcardnumber"></a>Keyword_malaysia_id_card_number
 
-- MyKad 
-- Identity Card 
-- ID 카드 
-- Id 카드 
-- Digital Application Card
- 
-- Kad Akuan Diri
- 
-- Kad Aplikasi Digital
- 
+- 디지털 응용 프로그램 카드
+- i /c
+- i /c 없음
+- ic
+- ic 없음
+- id 카드
+- id 카드
+- identity card
+- k/p
+- k/p 없음
+- kad akuan diri
+- 디지털 kad aplikasi
+- kad pengenalan 말레이시아
+- kp
+- kp 없음
+- mykad
+- mykas
+- mykid
+- mypr
+- mytentera
+- 말레이시아 id 카드
+- 말레이지아 id 카드
+- nric
+- 개인 식별 카드
    
 ## <a name="netherlands-citizens-service-bsn-number"></a>네덜란드 시민 서비스(BSN) 번호
 
@@ -4955,12 +5053,16 @@ DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판�
 
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
+- Dowód osobisty
+- U r dowodu osobistego
+- Nazwa i u r dowodu osobistego
+- Nazwa i nr dowodu osobistego
 - Nazwa i nr dowodu tożsamości
- 
+
 - Dowód Tożsamości
- 
+
 - dow. os.
- 
+
 
    
 ## <a name="poland-national-id-pesel"></a>폴란드 국가 ID(PESEL)
@@ -5038,12 +5140,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
-- Nazwa i nr dowodu tożsamości
- 
-- Dowód Tożsamości
- 
-- dow. os.
- 
+- U r paszportu
+- Nr입니다. Paszportu
+- Paszport
 
    
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
@@ -5731,7 +5830,101 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 - 台灣地區居留證
  
-   
+
+## <a name="thai-population-identification-code"></a>태국어 모집단 식별 코드
+
+### <a name="format"></a>형식
+
+13자리 숫자
+
+### <a name="pattern"></a>패턴
+
+13자리 숫자:
+- 첫번째 숫자는 0 또는 9 
+- 12자리 숫자
+
+### <a name="checksum"></a>체크섬
+
+예
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- Func_Thai_Citizen_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_Thai_Citizen_Id에서 키워드를 발견 됩니다.
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- Func_Thai_Citizen_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+
+```
+<!-- Thai Citizen ID -->
+-<Entity id="44ca9e86-ead7-4c5d-884a-e2eaa401515e" recommendedConfidence="75" patternsProximity="300">
+   -<Pattern confidenceLevel="85">
+      <IdMatch idRef="Func_Thai_Citizen_Id"/>
+      <Match idRef="Keyword_Thai_Citizen_Id"/>
+   </Pattern>
+   -<Pattern confidenceLevel="75">
+      <IdMatch idRef="Func_Thai_Citizen_Id"/>
+   </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keywordthaicitizenid"></a>Keyword_Thai_Citizen_Id
+
+- ID Number
+- Id 번호
+- บัตรประชาชน
+- รหัสบัตรประชาชน
+- บัตรประชาชน
+- รหัสบัตรประชาชน
+  
+## <a name="turkish-national-identification-number"></a>터키어 국가 Id 번호
+
+### <a name="format"></a>형식
+
+11자리 숫자
+
+### <a name="pattern"></a>패턴
+
+11자리 숫자
+
+### <a name="checksum"></a>체크섬
+
+예
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- Func_Turkish_National_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_Turkish_National_Id에서 키워드를 발견 됩니다.
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
+- Func_Turkish_National_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+
+```
+<!-- Turkish National Identity -->
+-<Entity id="fb621f20-3876-4cfc-acec-8c8e73ca32c7" recommendedConfidence="75" patternsProximity="300">
+   -<Pattern confidenceLevel="85">
+      <IdMatch idRef="Func_Turkish_National_Id"/>
+      <Match idRef="Keyword_Turkish_National_Id"/>
+   </Pattern>
+   -<Pattern confidenceLevel="75">
+      <IdMatch idRef="Func_Turkish_National_Id"/>
+   </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="keywordturkishnationalid"></a>Keyword_Turkish_National_Id
+
+- TC Kimlik 없음
+- TC Kimlik numarası
+- Vatandaşlık numarası
+- Vatandaşlık 없음
+
 ## <a name="uk-drivers-license-number"></a>영국 운전 면허 번호
 
 ### <a name="format"></a>형식
