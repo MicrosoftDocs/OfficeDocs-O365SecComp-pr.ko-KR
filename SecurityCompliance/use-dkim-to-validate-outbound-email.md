@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 description: '요약: 사용 DomainKeys 식별 된 메일 (DKIM) Office 365를 사용 하는 방법을 확인 대상 전자 메일 시스템 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는이 문서에 설명 합니다.'
-ms.openlocfilehash: 67652fc11a42263b2666554021c018df01ad33cd
-ms.sourcegitcommit: bf628da123a89d9422e8cff02165b1e2d35dfe12
+ms.openlocfilehash: 13af2ae96d8c4cbf363e1273a3d1ed5fb9be2077
+ms.sourcegitcommit: 9f08af5502070a42de22b6d83e3a08c67cc0c619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26872006"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201572"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면
 
@@ -88,11 +88,11 @@ DKIM 서명을 DNS에 추가 하려는 각 도메인에 대해 두 CNAME 레코�
 CNAME 레코드에 대 한 다음 형식을 사용 합니다.
   
 ```
-Host name:          selector1._domainkey.<domain>
+Host name:          selector1._domainkey
 Points to address or value: selector1-<domainGUID>._domainkey.<initialDomain> 
 TTL:                3600
 
-Host name:          selector2._domainkey.<domain>
+Host name:          selector2._domainkey
 Points to address or value: selector2-<domainGUID>._domainkey.<initialDomain> 
 TTL:                3600
 ```
@@ -112,20 +112,20 @@ TTL:                3600
 예는 초기 cohovineyardandwinery.onmicrosoft.com, 도메인 및 두 사용자 지정 도메인 cohovineyard.com 및 cohowinery.com을 설치한 경우에 총 4 개의 CNAME 레코드에 대 한 각 추가 도메인에 대 한 두 CNAME 레코드를 설정 해야 합니다.
   
 ```
-Host name:          selector1._domainkey.cohovineyard.com  
-Points to address or value: selector1-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
+Host name:          selector1._domainkey
+Points to address or value: **selector1-cohovineyard-com**._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
 
-Host name:          selector2._domainkey.cohovineyard.com  
-Points to address or value: selector2-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
+Host name:          selector2._domainkey
+Points to address or value: **selector2-cohovineyard-com**._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
 
-Host name:          selector1._domainkey.cohowinery.com
-Points to address or value: selector1-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
+Host name:          selector1._domainkey
+Points to address or value: **selector1-cohowinery-com**._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:                3600
  
-Host name:          selector2._domainkey.cohowinery.com
-Points to address or value: selector2-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
+Host name:          selector2._domainkey
+Points to address or value: **selector2-cohowinery-com**._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:                3600
 ```
 

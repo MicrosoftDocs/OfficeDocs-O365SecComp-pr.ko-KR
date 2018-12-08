@@ -16,13 +16,13 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
-description: 'Office 365 보안 콘텐츠 검색 결과에서 검색 결과 내보내기 &amp; 로컬 컴퓨터에 준수 센터입니다. Emaill 전자 메일 결과 PST 파일로 내보냅니다. SharePoint와 OneDrive에서 네이티브 Office 문서로 내보냅니다 비즈니스 사이트에 대 한 콘텐츠입니다. '
-ms.openlocfilehash: 35fb0aa8a037fc77020269d1b42d738dd801ea0a
-ms.sourcegitcommit: da4aa7335b577148ecd61e09bbb11039b817b287
+description: '로컬 컴퓨터에 Office 365 보안 및 규정 준수 센터의 콘텐츠 검색 결과에서 검색 결과 내보냅니다. 전자 메일 결과 PST 파일로 내보냅니다. SharePoint와 OneDrive에서 네이티브 Office 문서로 내보냅니다 비즈니스 사이트에 대 한 콘텐츠입니다. '
+ms.openlocfilehash: f4ecdb59b20138e8b159e6056cac791837a84387
+ms.sourcegitcommit: 9f08af5502070a42de22b6d83e3a08c67cc0c619
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539120"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201582"
 ---
 # <a name="export-content-search-results-from-the-office-365-security--compliance-center"></a>Office 365 보안 및 규정 준수 센터에서 콘텐츠 검색 결과 내보내려면
 
@@ -333,3 +333,5 @@ ms.locfileid: "26539120"
 - 모든 결과 검색 하 고 내보내기 보고서 콘텐츠 검색 이름이 같은 폴더에 포함 됩니다. 내보내는 된 전자 메일 메시지를 **Exchange**라는 폴더에 있습니다. 문서는 **SharePoint**라는 폴더에 있음 
     
 - 로컬 컴퓨터에 문서를 내보낼 때 비즈니스 사이트에 대 한 SharePoint OneDrive에 있는 문서에 대 한 파일 시스템 메타 데이터를 유지 합니다. 문서 속성을 의미, 같은 만든 및 시작 날짜를 마지막으로 수정한, 문서를 내보낼 때 변경 되지 않습니다.
+
+- 검색 쿼리와 일치 하는 SharePoint에서 목록 항목을 포함 하는 검색 결과 검색 쿼리와 일치 하는 항목 외에도 목록에 있는 모든 행을 내보냅니다. 이 목록에 모든 첨부 파일을 포함합니다. 이 대 한 이유 검색 결과에 반환 되는 목록 항목에 대 한 정보를 제공 하는 것입니다. 또한 메모 추가 목록 항목 및 첨부 파일의 개수를 일으킬 수 있는 검색 결과의 원래 예상 보다 일치 하지 않아도 항목을 내보냅니다.
