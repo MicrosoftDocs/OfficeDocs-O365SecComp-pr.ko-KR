@@ -3,7 +3,7 @@ title: 보존 정책 개요
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: 11/16/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: 5b02d57931a47ca86f4da884463cfc0e52476d3c
-ms.sourcegitcommit: 397a5fe594e4cf4bb64c0c6f233d310ef3cbd922
+ms.openlocfilehash: 57f782046fcac2bd28830a0204e0b663d69de842
+ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540404"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27194709"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -110,7 +110,7 @@ Office 365 보안 및 준수 센터의 **보존** 페이지에서 보존 정책�
     
 ## <a name="how-a-retention-policy-works-with-document-versions-in-a-site"></a>보존 정책이 사이트의 문서 버전에 작동하는 방식
 
-버전 관리는 SharePoint Online 및 비즈니스용 OneDrive에서 모든 문서 라이브러리의 기능입니다. 기본적으로 버전 관리는 최소 100개의 주 버전을 유지하며, 이 제한은 늘릴 수 있습니다. 자세한 내용은 [목록 또는 라이브러리의 버전 관리 사용 및 구성](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)을 참조하세요.
+버전 관리는 SharePoint Online 및 비즈니스용 OneDrive에서 모든 문서 라이브러리의 기능입니다. 기본적으로 버전 관리는 최소 500개의 주 버전을 유지하며, 이 제한은 늘릴 수 있습니다. 자세한 내용은 [목록 또는 라이브러리의 버전 관리 사용 및 구성](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)을 참조하세요.
   
 보존 정책은 SharePoint 사이트 또는 OneDrive 계정에 있는 문서의 모든 버전을 유지합니다. 보존 정책이 적용되는 문서를 편집 또는 삭제할 때마다 버전이 자료 보존 라이브러리에 복사됩니다. 자료 보존 라이브러리에 있는 문서의 각 버전은 고유한 보존 기간이 있는 별도 항목으로 존재합니다.
   
@@ -197,17 +197,13 @@ Office 365 보안 및 준수 센터의 **보존** 페이지에서 보존 정책�
 - 정책이 포함할 수 있는 사서함 또는 사이트 개수에 제한이 없습니다.
     
 - Exchange의 경우 정책이 적용된 후에 만들어진 모든 새 사서함은 해당 정책을 자동으로 상속합니다.
-    
-그렇지만 테넌트당 조직 전체 정책과 전체 위치 정책은 합해서 10개로 제한됩니다(다음 섹션 참조).
   
 ### <a name="a-policy-that-applies-to-entire-locations"></a>전체 위치에 적용되는 정책
 
 위치를 선택할 때 Exchange 전자 메일이나 OneDrive 계정 등, 전체 위치를 쉽게 포함하거나 제외할 수 있습니다. 이를 위해 해당 위치의 **상태**를 설정 또는 해제하면 됩니다. 
   
 조직 전체 정책과 마찬가지로, 전체 위치 조합에 정책이 적용될 경우 정책에 포함될 수 있는 사서함 또는 사이트 수에는 제한이 없습니다. 예를 들어, 정책에 모든 Exchange 전자 메일과 모든 SharePoint 사이트가 포함될 경우, 개수에 관계없이 모든 사이트와 사서함이 포함됩니다. 또한 Exchange의 경우 정책이 적용된 후 만들어진 모든 새 사서함은 자동으로 해당 정책을 상속합니다.
-  
-그렇지만 테넌트당 조직 전체 정책과 전체 위치 정책은 합해서 10개로 제한됩니다.
-  
+ 
 ![위치 선택 페이지](media/6ac0c2d6-1abf-4690-b3f6-9ca506887ba3.png)
   
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>특정 포함 또는 제외가 적용된 정책
