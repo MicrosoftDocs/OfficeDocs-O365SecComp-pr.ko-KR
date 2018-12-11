@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자가 Office 365 보안에 대 한 사용 권한을 할당할 필요가 &amp; 준수 센터 전에 해당 보안 또는 규정 준수 기능 중 하나를 관리할 수 있습니다.
-ms.openlocfilehash: 976c4e21351e352672f3075d0f713e63a634ce42
-ms.sourcegitcommit: da4aa7335b577148ecd61e09bbb11039b817b287
+ms.openlocfilehash: 5055c64d914e15a6570c339ade48bb8f7e802ea7
+ms.sourcegitcommit: a56fa2e184a2662fd8a7881ccea0891e9a26d497
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539110"
+ms.lasthandoff: 12/11/2018
+ms.locfileid: "27221069"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>사용자가 Office 365 보안에 액세스할 &amp; 준수 센터
 
@@ -74,9 +74,9 @@ ms.locfileid: "26539110"
 
  **매개 변수**
   
--  _-Identity_는 구성원을 추가할 역할 그룹입니다. 
+- _-Identity_는 구성원을 추가할 역할 그룹입니다. 
     
-- - _구성원_ 은 사서함, 유니버설 보안 그룹 (USG) 또는 컴퓨터 역할 그룹에 추가 합니다. 한번에 하나만 구성원을 지정할 수 있습니다. 
+- _구성원_ 은 사서함, 유니버설 보안 그룹 (USG) 또는 컴퓨터 역할 그룹에 추가 합니다. 한번에 하나만 구성원을 지정할 수 있습니다. 
     
 구문과 매개 변수에 대 한 자세한 정보를 [Add-rolegroupmember](https://go.microsoft.com/fwlink/p/?LinkId=510859)을 참조 하십시오.
   
