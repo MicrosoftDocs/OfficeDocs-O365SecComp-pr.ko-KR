@@ -3,7 +3,7 @@ title: Office 365 레이블 및 DLP를 사용하여 SharePoint Online 파일 보
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 12/12/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: '요약: 다양한 정보 보호 수준을 통해 SharePoint Online 팀 사이트에 Office 365 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.'
-ms.openlocfilehash: f8d835481c0eac00be11f7934c1d74b8a2d08d78
-ms.sourcegitcommit: e0f016aca7befc8806233a492ee916cbe646094f
+ms.openlocfilehash: 38ded352c91a4c7f0138a6b9932840842d730926
+ms.sourcegitcommit: 031781d0eecf33baabcd03ea53546d41076062b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25345970"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240571"
 ---
 # <a name="protect-sharepoint-online-files-with-office-365-labels-and-dlp"></a>Office 365 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 
@@ -68,13 +68,13 @@ SharePoint Online 팀 사이트에 Office 365 레이블을 만들고 할당하�
     
 4. 브라우저의 새 **홈 - 보안 및 준수** 탭에서 **분류 > 레이블**을 차례로 클릭합니다.
     
-5. **홈 > 레이블** 창에서 **레이블 만들기**를 클릭합니다.
+5. **홈 > 레이블** 창에서 **보존**탭을 클릭한 다음 **레이블 만들기**를 클릭합니다.
     
-6. **레이블** 창에서 레이블 이름을 입력하고 **다음**을 클릭합니다.
-    
+6. **레이블 명칭 만들기** 창에서 레이블 이름과 관리자 및 사용자에 대한 설명을 입력하고 **다음**을 클릭합니다.
+
 7. **레이블 설정** 창에서 **다음**을 클릭합니다.
     
-8. **설정 검토** 창에서 **이 레이블 만들기**, **닫기**를 차례로 클릭합니다.
+8. **설정 검토** 창에서 **만들기**를 클릭하고 **닫기**를 클릭합니다.
     
 9. 레이블을 추가하려면 5-8단계를 반복합니다.
     
@@ -89,9 +89,11 @@ SharePoint Online 팀 사이트에 Office 365 레이블을 만들고 할당하�
 ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
   ```
 
-그리고 나서 다음 단계를 사용하여 새 Office 365 레이블을 게시합니다.
+### <a name="publish-your-new-labels"></a>새 레이블을 게시합니다.
+
+그리고 나서 다음의 단계를 사용하여 새 Office 365 레이블을 게시합니다.
   
-1. 보안 및 준수 센터의 **홈 > 레이블** 창에서 **레이블 게시**를 클릭합니다.
+1. 보안&amp;준수 센터의 **홈 > 레이블** 창에서 **유지**탭을 클릭한 후 **레이블 게시**를 클릭합니다.
     
 2. **게시할 레이블 선택** 창에서 **게시할 레이블 선택**을 클릭합니다.
     
@@ -106,6 +108,7 @@ ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
 7. **정책 이름 지정** 창의 **이름**에서 레이블 집합 이름을 입력하고 **다음**을 클릭합니다.
     
 8. **설정 검토** 창에서 **레이블 게시**, **닫기**를 차례로 클릭합니다.
+
     
 ### <a name="phase-3-apply-the-office-365-labels-to-your-sharepoint-online-sites"></a>3단계: SharePoint Online 사이트에 Office 365 레이블 적용
 
@@ -134,14 +137,16 @@ ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
 ## <a name="dlp-policies-for-your-sharepoint-online-sites"></a>SharePoint Online 사이트에 대한 DLP 정책
 
 다음 단계를 사용하여 사용자가 조직 외부의 중요 SharePoint Online 팀 사이트에서 문서를 공유할 때 다른 사용자에게 알려주는 DLP 정책을 구성합니다.
-  
-1. 브라우저의 **Microsoft Office 홈** 탭에서 **보안 및 준수** 타일을 클릭합니다.
+
+1. **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
-2. 브라우저의 새 **보안 및 준수** 탭에서 **데이터 손실 방지 > 정책**을 차례로 클릭합니다.
+2. 브라우저의 새 **Office 관리 센터** 탭에서 **관리 센터 > 보안 &amp; 준수**를 클릭합니다.
     
-3. **데이터 손실 방지** 창에서 **+ 정책 만들기**를 클릭합니다.
+3. 브라우저의 새 **보안 &amp; 준수** 탭에서 **데이터 손실 방지 > 정책**을 클릭합니다.
     
-4. **서식 파일로 시작하거나 사용자 지정 정책 만들기** 창에서 **사용자 지정**, **다음**을 차례로 클릭합니다.
+4. **데이터 손실 방지** 창에서 **+ 정책 만들기**를 클릭합니다.
+    
+5. **서식 파일로 시작하거나 사용자 지정 정책 만들기** 창에서 **사용자 지정**, **다음**을 차례로 클릭합니다.
     
 5. **정책 이름 지정** 창의 **이름**에서 중요 수준 DLP 정책의 이름을 입력하고 **다음**을 클릭합니다.
     
@@ -158,7 +163,7 @@ ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
 11. **보호할 콘텐츠 유형 선택** 창에서 **저장**을 클릭합니다.
     
 12. **Customize the types of sensitive info you want to protect(보호할 중요 정보 유형 사용자 지정)** 창에서 **다음**을 클릭합니다.
-    
+
 13. **중요한 정보를 발견하면 ** 창에서 **팁 및 전자 메일 사용자 지정**을 클릭합니다.
     
 14. **정책 팁 및 전자 메일 알림 사용자 지정** 창에서 **정책 팁 텍스트 사용자 지정**을 클릭합니다.
@@ -172,7 +177,7 @@ ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
     
 16. **확인**을 클릭합니다.
     
-17. **중요한 정보를 감지하는 경우 어떻게 하시겠어요?** 창에서 **사용자의 공유를 차단하고 공유 콘텐츠에 대한 액세스를 제한** 확인란의 선택을 취소하고 **다음**을 클릭합니다.
+17. **중요한 정보를 발견 시 어떠한 작업을 수행하시겠습니까?** 창에서 **다음**을 클릭합니다.
     
 18. **정책을 켤까요 아니면 먼저 테스트를 수행할까요?** 창에서 **예, 지금 켜겠습니다.** 를 클릭하고 **다음**을 클릭합니다.
     
@@ -220,7 +225,7 @@ ForEach ($element in $labelNames){ New-ComplianceTag -Name $element }
     
 16. **확인**을 클릭합니다.
     
-17. **중요한 정보를 감지하는 경우 어떻게 하시겠어요?** 창에서 **재정의하려면 비즈니스 사유 필요**를 선택하고 **다음**을 클릭합니다.
+17. **중요한 정보를 발견 시 어떠한 작업을 수행하시겠습니까?** 창에서 **다음**을 클릭합니다.
     
 18. **정책을 켤까요 아니면 먼저 테스트를 수행할까요?** 창에서 **예, 지금 켜겠습니다.** 를 클릭하고 **다음**을 클릭합니다.
     
