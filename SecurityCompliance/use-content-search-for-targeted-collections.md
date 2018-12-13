@@ -3,7 +3,7 @@ title: Office 365에서 콘텐츠 검색을 사용 하 여 대상된 컬렉션�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 10/12/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -11,16 +11,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 콘텐츠 검색을 사용 하 여 Office 365 보안에서 &amp; 준수 센터를 대상으로 지정 된 모음을 수행 합니다. 대상된 컬렉션 사례에 응답 하는 항목 또는 권한 있는 항목은 한 특정 사서함 이나 사이트 폴더에 있는 판단 하 것을 의미 합니다. 이 문서에서 스크립트를 사용 하 여 폴더 ID 또는 검색 하려면 특정 사이트 또는 사서함 폴더에 대 한 경로 가져옵니다.
-ms.openlocfilehash: f4bb63a193a11e7467b3b296b2bdfa50657ae65a
-ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
+ms.openlocfilehash: 094fa4de4b8de9782a9bafb2eb8fb6ef3c52b46b
+ms.sourcegitcommit: 06ae71741875f604bcc7a4e01b0b62cc768cbe97
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25522289"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27245065"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>Office 365에서 콘텐츠 검색을 사용 하 여 대상된 컬렉션에 대 한
 
-Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈니스 사이트에 대 한 Exchange 사서함 또는 SharePoint 및 OneDrive에서 특정 폴더를 검색 하 고 UI에서 직접 방법을 제공 하지 않습니다. 그러나 실제 검색 쿼리 구문을 폴더 ID 또는 경로 지정 하 여 특정 폴더 (대상된 컬렉션 라고 함)를 검색 하는 것이 같습니다. 콘텐츠 검색을 사용 하 여 대상된 컬렉션을 수행 하는 사례에 응답 하는 항목 또는 권한 있는 항목은 한 특정 사서함 이나 사이트 폴더에 있는 판단 하 고 있는 경우에 유용 합니다. 사서함 폴더에 대 한 폴더 ID 또는 비즈니스 사이트에 대 한 SharePoint 및 OneDrive 폴더에 대 한 경로 얻으려면이 문서에서 스크립트를 사용할 수 있습니다. 다음 검색 쿼리에서 폴더 ID 또는 경로 사용 하 여 폴더에 있는 항목을 반환 수 있습니다.
+Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈니스 사이트에 대 한 Exchange 사서함 또는 SharePoint 및 OneDrive에서 특정 폴더를 검색 하 고 UI에서 직접 방법을 제공 하지 않습니다. 그러나 실제 검색 쿼리 구문을 폴더 ID 또는 경로 지정 하 여 특정 폴더 ( *컬렉션을 대상으로*라고 함)를 검색 하는 것이 같습니다. 콘텐츠 검색을 사용 하 여 대상된 컬렉션을 수행 하는 사례에 응답 하는 항목 또는 권한 있는 항목은 한 특정 사서함 이나 사이트 폴더에 있는 판단 하 고 있는 경우에 유용 합니다. 사서함 폴더에 대 한 폴더 ID 또는 비즈니스 사이트에 대 한 SharePoint 및 OneDrive 폴더에 대 한 경로 얻으려면이 문서에서 스크립트를 사용할 수 있습니다. 다음 검색 쿼리에서 폴더 ID 또는 경로 사용 하 여 폴더에 있는 항목을 반환 수 있습니다.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -44,7 +44,7 @@ Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈
 
 이 첫번째 단계에서 실행 하는 스크립트 사서함 폴더의 목록을 또는 SharePoint 또는 비즈니스 폴더에 대 한 OneDrive 및 해당 폴더 ID 또는 각 폴더에 대 한 경로 반환 됩니다. 이 스크립트를 실행 하는 경우 다음 정보에 대 한 묻는 됩니다 것입니다.
   
-- **주소 또는 사이트 URL을 전자 메일로 보내기** Exchange 사서함 폴더의 목록을 반환 하 고 Id 커튼 콜를 더불어의 전자 메일 주소를 입력 합니다. 또는 SharePoint 사이트에 대 한 URL 또는 비즈니스 사이트에 대 한 OneDrive의 지정된 된 사이트에 대 한 경로 목록을 반환할 수를 입력 합니다. 다음은 몇가지 예입니다. 
+- **주소 또는 사이트 URL을 전자 메일로 보내기** Exchange 사서함 폴더 및 폴더 Id의 목록을 반환 하려면 더불어의 전자 메일 주소를 입력 합니다. 또는 SharePoint 사이트에 대 한 URL 또는 비즈니스 사이트에 대 한 OneDrive의 지정된 된 사이트에 대 한 경로 목록을 반환할 수를 입력 합니다. 다음은 몇가지 예입니다. 
     
   - **Exchange** -stacig@contoso.onmicrosoft.com 
     
@@ -138,7 +138,7 @@ Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈
       }while ($complianceSearch.Status -ne 'Completed')
       if ($complianceSearch.Items -gt 0)
       {
-          # Create a Complinace Search Action and wait for it to complete. The folders will be listed in the .Results parameter
+          # Create a Compliance Search Action and wait for it to complete. The folders will be listed in the .Results parameter
           $complianceSearchAction = New-ComplianceSearchAction -SearchName $searchName -Preview
           do
           {
@@ -216,7 +216,7 @@ Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈
     
 4. **새 검색** 페이지에서 콘텐츠 검색의 이름을 입력합니다. 이 이름은 조직 내에서 고유해야 합니다. 
     
-5. **수행 하려는 찾을 우리**는 다음 중 하나를 수행 하는 아래에서 여부에 따라 사서함 폴더 또는 사이트 폴더를 검색 합니다.
+5. 사서함 폴더 또는 사이트 폴더를 검색 하는 여부에 따라에서 **수행 하려는 찾을 우리**는 다음 중 하나를 수행 합니다.
     
     - **Choose 특정 사서함 검색을** 클릭 하 고 1 단계에서에서 스크립트를 실행 했을 때 지정한 동일한 사서함을 추가 합니다. 
     
@@ -264,14 +264,16 @@ Office 365 보안에서 콘텐츠 검색 기능 &amp; 준수 센터에는 비즈
   
 ## <a name="more-information"></a>추가 정보
 
-이 문서에서 스크립트를 사용 하는 경우 다음 사항에 주의 유지 하 고 모음을 대상으로 수행 합니다.
+이 문서에서 스크립트를 사용 하 여 대상된 컬렉션을 수행 하는 경우 다음 사항에 주의 유지 합니다.
   
 - 스크립트 결과에서 폴더가 제거 되지 않습니다. 일부 폴더에 나열 결과 수 검색할 수 (또는 0 항목을 반환) 시스템에서 생성 된 콘텐츠를 포함 하기 때문입니다.
     
 - 이 스크립트는만 사용자의 기본 사서함에 대 한 폴더 정보를 반환 합니다. 사용자의 보관 사서함의 폴더에 대 한 정보를 반환 하지 않습니다 것입니다.
     
-- 사서함 폴더를 지정된 된 폴더를 검색 하는 경우 (로 식별 되는 `folderid` 속성)을 검색 합니다. 하위 폴더를 검색할 수 없습니다. 하위 폴더를 검색 하려면 사용 하 여 필요한는 `folderid` 를 검색 하려면 하위 폴더에 대 한 합니다. 
+- 사서함 폴더를 지정된 된 폴더를 검색 하는 경우 (로 식별 되는 `folderid` 속성)을 검색 합니다. 하위 폴더를 검색할 수 없습니다. 하위 폴더를 검색 하려면 검색 하려면 하위 폴더에 대 한 폴더 ID를 사용 하 여 지정 해야 합니다. 
     
 - 사이트 폴더, 폴더를 검색 하는 경우 (로 식별 되는 `path` 속성) 및 모든 하위 폴더를 검색 합니다. 
     
 - 앞서 설명한 것 처럼 사용할 수 없습니다 `path` OneDrive 위치에 있는 속성을.png,.tiff,.wav 파일 등의 미디어 파일을 검색 합니다. OneDrive 폴더의 미디어 파일을 검색 하려면 다른 [사이트 속성](keyword-queries-and-search-conditions.md#searchable-site-properties) 을 사용 합니다. 
+
+- 만 지정는 검색의 결과 내보낼 때의 `folderid` 검색 쿼리에 속성을 "를 인식할 수 없는 형식 있는 글꼴로 제외 하 고 있는 모든 항목은 암호화 또는 다른 이유로 인덱싱된 받지." 첫번째 내보내기 옵션을 선택할 수 있습니다 폴더의 모든 항목 항상 내보낼의 인덱싱 상태에 관계 없이 폴더 ID는 항상 인덱싱되어 있기 때문입니다.

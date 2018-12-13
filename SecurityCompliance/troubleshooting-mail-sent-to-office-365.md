@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 description: 이 문서에서는 Office 365 및 Office 365 고객에 게 대량 메일로 대 한 모범 사례에 받은 편지함에 전자 메일을 보내려고 할 때 문제를 발생 하는 발신자에 대 한 문제해결 정보를 제공 합니다.
-ms.openlocfilehash: 3d8c0a05d096da87b9f686222055d76a6ae96ff2
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 3d90da9ac239971fd888ed3b8637ba9941628fc2
+ms.sourcegitcommit: 031781d0eecf33baabcd03ea53546d41076062b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003207"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240561"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
 
@@ -115,7 +115,7 @@ IP 주소에서 의심 스러운 작업에서 발견 하 고 확인 되는 추�
 ### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Office 365에 있는 사람이 보낸 전자 메일을 받을 수 없습니다.
 <a name="AllowEOPIPs"> </a>
 
- 사용자에 게에서 메시지를 수신 하기 위해 네트워크 EOP 데이터 센터에서 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online Protection IP 주소](eop/exchange-online-protection-ip-addresses.md)를 참조 하십시오. 모든 IP의 레코드에 대 한 추가 된 주소 변경 또는 [EOP IP 주소에 대 한 변경 알림](eop/change-notification-for-eop-ip-addresses.md)참조 작년 사용 되지 않습니다.
+ 사용자에 게에서 메시지를 수신 하기 위해 네트워크 EOP 데이터 센터에서 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online Protection IP 주소](eop/exchange-online-protection-ip-addresses.md)를 참조 하십시오. 
   
 ## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Office 365 사용자에 게 대량 전자 메일 보내기에 대 한 모범 사례
 <a name="BulkMailer"> </a>
