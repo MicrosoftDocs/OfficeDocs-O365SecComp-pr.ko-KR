@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 description: '요약: 사용 DomainKeys 식별 된 메일 (DKIM) Office 365를 사용 하는 방법을 확인 대상 전자 메일 시스템 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는이 문서에 설명 합니다.'
-ms.openlocfilehash: 13af2ae96d8c4cbf363e1273a3d1ed5fb9be2077
-ms.sourcegitcommit: 9f08af5502070a42de22b6d83e3a08c67cc0c619
+ms.openlocfilehash: 1bafae2a1e1e5de390fd0b8d81c1cf2513092d8e
+ms.sourcegitcommit: 4f776e1cf8872ce90e632d4305cb727d31754767
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201572"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27263917"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면
 
@@ -83,9 +83,12 @@ DKIM를 구성 하려면 다음이 단계를 완료 합니다.
 
 DKIM 서명을 DNS에 추가 하려는 각 도메인에 대해 두 CNAME 레코드를 게시 해야 합니다. DNS CNAME 레코드를 사용 하는 도메인의 정식 이름은 다른 도메인 이름에 대 한 별칭을 지정 합니다. 
   
- Office 365 설정 하는 두 레코드를 사용 하 여 자동 키 회전을 수행 합니다. Office 365에서 초기 도메인 외에도 사용자 지정 도메인을 프로 비전 하는 경우에 각 추가 도메인에 대 한 두 CNAME 레코드를 게시 해야 합니다. 따라서 두 도메인을 사용 하는 경우 두 추가 CNAME 레코드를 게시 하 고 등 해야 있습니다. 
+ Office 365 설정 하는 두 레코드를 사용 하 여 자동 키 회전을 수행 합니다. Office 365에서 초기 도메인 외에도 사용자 지정 도메인을 프로 비전 하는 경우에 각 추가 도메인에 대 한 두 CNAME 레코드를 게시 해야 합니다. 따라서 두 도메인을 사용 하는 경우 두 추가 CNAME 레코드를 게시 하 고 등 해야 있습니다.
   
 CNAME 레코드에 대 한 다음 형식을 사용 합니다.
+
+> [!IMPORTANT]
+> GCC 고객 중 한 경우 domainGUID 메서드를 사용 하는 적합 하지 않습니다! 도메인에 대 한 적절 한 MX 값을 사용 해야 합니다. 사용: `selector2-<domain-key>._domainkey.<initialDomain>` 아래 예제에 대 한 합니다. [이 문서](https://docs.microsoft.com/en-us/office365/admin/get-help-with-domains/information-for-dns-records?view=o365-worldwide) 를 사용 하 여 사용자가 *도메인 키* 값에 필요한 MX 레코드를 찾습니다.
   
 ```
 Host name:          selector1._domainkey
