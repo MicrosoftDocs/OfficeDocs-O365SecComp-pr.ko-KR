@@ -3,7 +3,7 @@ title: 콘텐츠 검색 보고서 내보내기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/25/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365 보안에서 콘텐츠 검색의 실제 결과 내보내기 (영문) 하는 대신 &amp; 준수 센터 하면 검색 결과 보고서를 방금 내보낼 수 있습니다. 보고서의 검색 결과 및이 내보낼 수 있는 각 항목에 대 한 자세한 내용은 사용 하 여 문서 요약을 포함 합니다.
-ms.openlocfilehash: 45415f25754b4549a919e4ce56853a6ae09a9bdc
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: e15c6550d58701abe9b268455deca0aef60265fb
+ms.sourcegitcommit: 1bc36cd57ab1604f057e2b5d336cf1893ba00125
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22532905"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283144"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -50,12 +50,14 @@ ms.locfileid: "22532905"
     
     - Microsoft Edge
     
-      또는
+       선택하거나 
     
     - Microsoft Internet Explorer 10 및 그 이후 버전
     
     **참고:** ClickOnce 응용 프로그램에 대 한 추가 기능 사용 또는 제 3 자 확장 Microsoft 제조 하지 않습니다. 제 3 자 확장 또는 추가 기능 지원 되지않는 브라우저를 사용 하 여 검색 결과 내보내기 (영문)이 지원 되지 않습니다. 
-    
+
+- 콘텐츠 검색을 통해 반환 된 결과의 예상된 전체 크기는 20 개를 초과 하는 경우&nbsp;TB 보고서 내보내기 실패 합니다. 보고서를 성공적으로 내보내려면 하려고 결과의 예상된 크기는 20 개 미만 되므로 검색을 다시 실행 하 고 범위를 좁힐&nbsp;t B입니다.
+
 ## <a name="generate-and-download-a-content-search-report"></a>생성 및 콘텐츠 검색 보고서를 다운로드 합니다.
 
 생성 및 콘텐츠 검색 보고서를 다운로드 하는 단계는 실제로 내보내기 (영문) 검색 결과 매우 유사 합니다.
@@ -64,9 +66,9 @@ ms.locfileid: "22532905"
 
 첫번째 단계에서는 내보내기 하 여 컴퓨터에 다운로드에 대 한 보고서를 준비 하는 것입니다. 클라우드 하면 보고서를 Microsoft에서 Azure 저장소 영역에 문서 업로드 되는 보고서 때입니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안 및 준수 센터의 왼쪽 창에서 **검색 및 조사** \> **콘텐츠 검색**을 클릭합니다.
     
