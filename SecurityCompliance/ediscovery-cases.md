@@ -3,7 +3,7 @@ title: Office 365 보안에서 eDiscovery 사례 &amp; 준수 센터
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/26/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: Office 365 보안을 사용 하 여 &amp; 준수 센터를 만들고 조직에서 eDiscovery 사례를 관리 합니다. 대/소문자에 구성원 할당, 콘텐츠 Searchs 실행 대기 위치에 연결 된 경우에는 내보내기 검색 결과 콘텐츠를 배치할 수 있습니다. 또한 고급 eDiscovery의 추가 분석을 위해 사례 데이터를 준비할 수 있습니다.
-ms.openlocfilehash: 3beb7dcf3e09816c1a282944767d2353f08943be
-ms.sourcegitcommit: 82fd4c85b952819157fbb13175c7b2dbbdff510f
+ms.openlocfilehash: 8abaa0a962a63cc227a8bb1371e14218a9ee854d
+ms.sourcegitcommit: 3cc069415132ccaa1ead5162df15baa2203ca2e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965275"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27299364"
 ---
 # <a name="ediscovery-cases-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 eDiscovery 사례 &amp; 준수 센터
 
@@ -53,9 +53,9 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당
 
-첫번째 단계 2 단계에서에서 eDiscovery 사례에 추가할 수 있도록 사람들에 게 적절 한 eDiscovery와 관련 된 사용 권한을 할당 하는 것입니다. Office 365 보안에서 조직 관리 역할 그룹의 구성원 이어야 합니다 (또는 역할 관리 역할을 할당 받을) 필요가 &amp; eDiscovery 사용 권한을 할당 하려면 준수 센터 합니다. 다음 목록에는 보안에서 eDiscovery와 관련 된 역할 그룹에 설명 &amp; 준수 센터입니다.
+첫번째 단계 2 단계에서에서 eDiscovery 사례에 추가할 수 있도록 사람들에 게 적절 한 eDiscovery와 관련 된 사용 권한을 할당 하는 것입니다. Office 365 보안에서 조직 관리 역할 그룹의 구성원 이어야 합니다 (또는 역할 관리 역할을 할당 받을) 필요가 &amp; eDiscovery 사용 권한을 할당 하려면 준수 센터 합니다. 다음 목록에는 보안에서 eDiscovery와 관련 된 역할 그룹에 설명 &amp; 준수 센터입니다. 
   
-- **검토자** -이 역할 그룹에 가장 제한적인 eDiscovery 관련 사용 권한이 있습니다. 이 그룹의 구성원 수만 참조 되는 용지의 **eDiscovery** 사례의 목록에서에서 열고 보안 &amp; 준수 센터의 멤버인입니다. 사례에 구성원을 추가 경우 만들 수는 없습니다, 보류 만들기, 검색 만들기, 검색 결과 내보내기 또는 고급 eDiscovery에 대 한 결과 준비 합니다. 그러나 구성원 고급 ediscovery 분석 작업을 수행 하는 경우에 액세스할 수 있습니다. 
+- **검토자** -이 역할 그룹에 가장 제한적인 eDiscovery 관련 사용 권한이 있습니다. 이 역할 그룹의 주요 목적은 구성원이 보기 및 액세스를 허용 하는 경우 Office 365 고급 eDiscovery의 데이터입니다. 이 그룹의 구성원 수만 참조 되는 용지의 **eDiscovery** 사례의 목록에서에서 열고 보안 &amp; 준수 센터의 멤버인입니다. 보안 및 규정 준수 센터의 사례를 액세스 하는 사용자를 한 후에 **고급 ediscovery 스위치** 액세스 하 고 고급 ediscovery에서 사례 데이터 분석을 클릭할 수 있습니다. 사례에 구성원을 추가 경우 만들 수는 없습니다, 보류 만들기, 검색, 검색 결과 미리 보기, 검색 결과 내보내기 만들거나 고급 eDiscovery에 대 한 결과 준비 합니다. 
     
 - **eDiscovery 관리자** -이 역할 그룹의 구성원 만들고 eDiscovery 사례를 관리할 수 있습니다. 추가 하 고 구성원을 제거, 위치에 유지, 만들기 및 편집 사례와 연결 된 콘텐츠 검색, 콘텐츠 검색 결과 내보내기 콘텐츠를 배치 하 고 준비할 수 검색 결과 고급 eDiscovery에 대 한 분석을 위해 합니다. 이 역할 그룹에 두 하위 그룹이 있습니다. 이러한 하위 그룹 간의 차이 범위를 기반으로 합니다.
     
@@ -65,20 +65,22 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
     
     - **eDiscovery** 페이지에 나열된 모든 사례를 봅니다. 
     
-    - 자신 대/소문자의 구성원으로 추가 후에 조직에서 모든 eDiscovery 사례를 관리 합니다.
+    - 자신 대/소문자의 구성원으로 추가 후에 조직에서 모든 경우를 관리 합니다.
     
-    - 분석을 위해 사례 데이터 처리, 사례 설정 구성 및 고급 eDiscovery에서 데이터 내보내기 (영문)와 같은 고급 eDiscovery의 관리 작업을 수행 합니다. 이런 현상이 발생 eDiscovery 관리자는 보안에 있는 사람이 &amp; 준수 센터의 고급 eDiscovery 관리자 권한으로 자동으로 추가 됩니다.
+    - 조직에서 모든 사례에 대 한 고급 ediscovery 사례 데이터를 액세스 합니다.
     
-    사용자가 조직에서 eDiscovery 관리자가 되려고 하는 이유에 자세한 내용은 [More information](ediscovery-cases.md#moreinfo_1)를 참조하세요. 
+    사용자가 조직에서 eDiscovery 관리자가 되려고 하는 이유에 자세한 내용은 [More information](#more-information)를 참조하세요. 
     
 > [!IMPORTANT]
 > 사용자 하나 이러한 eDiscovery와 관련 된 역할 그룹의 구성원이 아닌 검토자 역할에 할당 된 역할 그룹의 구성원이 아닌 경우에 eDiscovery 사례의 구성원으로 추가할 수 없습니다. 
+
+EDiscovery 사용 권한에 대 한 자세한 내용은 참조 [Office 365 보안에서 eDiscovery 사용 권한을 할당 &amp; 준수 센터](assign-ediscovery-permissions.md)합니다.
   
  **eDiscovery 권한을 할당하려면**
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안에서 &amp; 준수 센터 **사용 권한**, 클릭 한 다음 할당할 eDiscovery 권한에 따라 다음 중 하나를 수행 합니다.
     
@@ -96,7 +98,7 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안에서 &amp; 준수 센터 클릭 **검색 &amp; 조사** \> **eDiscovery**및 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) **사례 만들기**.
     
@@ -142,7 +144,10 @@ EDiscovery 사례를 사용 하는 경우에 구성원을 추가, 특정 사례 
 ## <a name="step-4-place-content-locations-on-hold"></a>4 단계: 전체에서 콘텐츠 위치 유지
 
 대/소문자와 관련이 있을 수 있는 콘텐츠를 유지 하기 위해 보류를 만들려면 eDiscovery 사례를 사용할 수 있습니다. 경우에는 custodians에 있는 사용자의 비즈니스 사이트에 대 한 사서함과 OneDrive에서 보류를 배치할 수 있습니다. Office 365 그룹에 대해 비즈니스 사이트에 대 한 그룹 사서함, SharePoint 사이트 및 OneDrive에서 보류를 배치할 수도 있습니다. 마찬가지로, 사서함 및 Microsoft 팀과 연결 된 사이트에 보류를 배치할 수 있습니다. 대기 콘텐츠 위치를 배치 하는 경우 콘텐츠 보류를 삭제할 때까지 나 콘텐츠 위치에서 보류를 제거할 때까지 유지 됩니다.
-  
+
+> [!NOTE]
+> 대기 콘텐츠 위치를 삽입 한 후에 적용 하려면 보류 24 시간까지 걸립니다. 
+>   
 보류를 만들 때 지정 된 콘텐츠 위치에 보관 되는 콘텐츠를 범위를 지정 하는 다음 옵션 있습니다.
   
 - 보류에서 모든 콘텐츠를 배치할 위치 무한 보류를 만듭니다. 또는 쿼리 기반 보류 검색 쿼리와 일치 하는 유일한 콘텐츠 보류에 배치 되는 위치를 만들 수 있습니다.
@@ -183,7 +188,7 @@ EDiscovery 사례에 대 한 보류를 만들려면:
   
    b. **SharePoint 사이트** - **선택 사이트** 를 클릭 하 고에 배치 하는 SharePoint 및 비즈니스 사이트에 대 한 OneDrive 대기중 지정을 다시 **선택 사이트** 클릭 합니다. 보류에 배치 하려는 각 사이트에 대 한 URL을 입력 합니다. Office 365 그룹 또는 팀이 Microsoft에 대 한 SharePoint 사이트에 대 한 URL을 추가할 수도 있습니다. **Choose**클릭 하 고 **완료**를 클릭 합니다.
     
-    보류에서 Office 365 그룹 및 Microsoft 팀의 배치에 대 한 팁에 대 한 [자세한 내용](ediscovery-cases.md#moreinfo_1) 은 섹션을 참조 하십시오. 
+    보류에서 Office 365 그룹 및 Microsoft 팀의 배치에 대 한 팁에 대 한 [자세한 내용](#more-information) 은 섹션을 참조 하십시오. 
     
     > [!NOTE]
     > 사용자의 사용자 계정 이름 (UPN) 변경 된 특수 한 경우에서 해당 OneDrive 계정에 대 한 URL 새 UPN을 통합 하기 위해 변경 됩니다. 이 경우 사용자의 새 OneDrive URL을 추가 하 고 이전 하나를 제거 하 여 보류를 수정 해야 합니다. 
@@ -391,7 +396,7 @@ EDiscovery 사례를 만든 후 대/소문자와 관련 된 모든 custodians �
 
 ## <a name="step-7-prepare-search-results-for-advanced-ediscovery"></a>7 단계: 준비 고급 eDiscovery에 대 한 결과 검색 합니다.
 
-조직에 Office 365 E5 구독을 하는 경우에 고급 eDiscovery에 대 한 분석을 위해 사례와 관련 된 콘텐츠 검색의 결과 준비할 수 있습니다. 검색 결과 준비한 후 고급 eDiscovery로 이동할 수 있습니다 (참조 [8 단계: 고급 ediscovery에서 사례에 이동](ediscovery-cases.md#gotoAeD_1)) 하 고 고급 eDiscovery의 추가 분석을 위해 검색 결과 데이터를 처리 합니다.
+조직에 Office 365 E5 구독을 하는 경우에 고급 eDiscovery에 대 한 분석을 위해 사례와 관련 된 콘텐츠 검색의 결과 준비할 수 있습니다. 검색 결과 준비한 후 고급 eDiscovery로 이동할 수 있습니다 (참조 [8 단계: 고급 ediscovery에서 사례에 이동](#step-8-go-to-the-case-in-advanced-ediscovery)) 하 고 고급 eDiscovery의 추가 분석을 위해 검색 결과 데이터를 처리 합니다.
   
 고급 ediscovery 검색 결과 준비 하는 경우 광학 문자 인식 (OCR) 기능 이미지에서 텍스트를 자동으로 추출 합니다. 메뉴 및 도구 모음을 OCR 느슨한 파일에 대 한 지원 전자 메일 첨부 파일, 이미지를 포함 합니다. 이 옵션을 사용 하면 이미지 파일에 있는 텍스트 (중복 근처, 전자 메일 스레딩, 테마 및 예측 코딩) 고급 eDiscovery의 텍스트 분석 기능을 적용할 수 있습니다.
   
@@ -530,7 +535,7 @@ Advanced eDiscovery에서 사례로 이동하려면
     
     마지막으로, 같이 이전 설명, 보안에서 eDiscovery 관리자 &amp; 준수 센터 고급 eDiscovery의 관리자로 자동으로 추가 됩니다. 즉, eDiscovery 관리자 인 사용자 사용자를 설정 하 고의 경우 만들기 (영문)의 경우에 데이터 추가 (영문)와 같은 고급 eDiscovery의 관리 작업을 수행할 수 있습니다.
     
-- **콘텐츠 위치를 대기 시키려면 라이선스 요구 사항은 무엇입니까?** 조직에서는 Office 365 E3 구독을 필요로 하는 일반적으로 콘텐츠 위치를 대기 시키려면 이상입니다. 사서함을 대기 시키려면는 Exchange Online 계획 2 라이센스가 필요 합니다.
+- **콘텐츠 위치를 대기 시키려면 라이선스 요구 사항은 무엇입니까?** 조직에서는 Office 365 E3 구독을 필요로 하는 일반적으로 콘텐츠 위치를 대기 시키려면 이상입니다. 사서함을 대기 시키려면 대기 배치 하려는 사서함에 대 한 Exchange Online 계획 2 라이선스가 있어야 합니다.
     
 - **다른 기능을 5 단계에서에서 모든 사례 콘텐츠를 검색 하는 방법에 대 한 알고 해야 합니까?** 앞에서 설명한 것 처럼 대/소문자에 보류에 배치 된 콘텐츠 위치를 검색할 수 있습니다. 이렇게 하면 대기 조건에 맞는 콘텐츠만 검색 됩니다. 대기 조건 없는 경우 모든 콘텐츠를 검색 합니다. 쿼리 기반에 내용이 하는 경우에를 모두 일치 하는 기준을 (4 단계에서에서 배치 보류)를 저장 하는 콘텐츠를 저장 하 고 (5 단계에서에서 검색)에서 검색 조건을 검색 결과 함께 반환 됩니다.
     
