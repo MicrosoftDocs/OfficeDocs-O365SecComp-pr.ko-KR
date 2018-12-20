@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: 57f782046fcac2bd28830a0204e0b663d69de842
-ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
+ms.openlocfilehash: a6d185484f83ca93c99153d584af6841397dbc2f
+ms.sourcegitcommit: ec465771a846de103a365fcb36cb7a7c0a5744c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27194709"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "27380618"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -214,7 +214,7 @@ Office 365 보안 및 준수 센터의 **보존** 페이지에서 보존 정책�
   
 - 이러한 보존 정책에는 1,000개 이하의 사서함과 100개 이하의 사이트를 포함할 수 있습니다.
     
-- 테넌트에는 1,000개 이하의 이러한 보존 정책이 포함될 수 있습니다.
+- 테넌트에는 10,000개 이하의 보존 정책이 포함될 수 있습니다.
     
 이러한 제한이 있지만, 조직 전체 정책이나 전체 위치에 적용되는 정책을 적용 하면 이러한 제한을 극복할 수 있습니다.
   
