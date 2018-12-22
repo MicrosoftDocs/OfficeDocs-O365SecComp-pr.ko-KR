@@ -186,7 +186,6 @@
 ## [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](set-up-compliance-boundaries.md)
 ## [eDiscovery 솔루션 시리즈 - 데이터 유출 시나리오-검색 및 지우기](data-spillage-scenariosearch-and-purge.md)
 ## [Advanced eDiscovery 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)
-## [비즈니스용 OneDrive 사이트에 eDiscovery 사용 권한 할당](assign-permissions-to-onedrive-for-business-sites.md)
 ## [스크립트를 사용하여 보류 eDiscovery 사례에 사용자 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
 ## [EDiscovery 사례의 보존 보고서 만들기](create-a-report-on-holds-in-ediscovery-cases.md)
 ## 보존 관리
