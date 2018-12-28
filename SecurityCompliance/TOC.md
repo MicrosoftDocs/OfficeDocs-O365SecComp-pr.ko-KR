@@ -126,7 +126,7 @@
 ### [Office 365 위협 인텔리전스를 사용하여 Office 365 사용자를 안전하게 보호](keep-users-safe-with-office-365-ti.md)
 ### [위협 추적기-새롭고 중요한 기능](threat-trackers.md)
 ### [보안 및 준수 센터의 탐색기 사용](use-explorer-in-security-and-compliance.md)
-## [Office 365 Cloud App Security 개요](office-365-cas-overview.md)
+## [Office 365 Cloud App Security](office-365-cas-overview.md)
 ### [Office 365 Cloud App Security의 새로운 기능](new-in-office-365-cas.md)
 #### [2017년 동안 업데이트](new-in-office-365-cas-2017.md)
 ### [Office 365 Cloud App Security 시작](get-ready-for-office-365-cas.md)
