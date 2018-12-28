@@ -5,19 +5,18 @@ services: office-365-security-compliance
 author: robmazz
 manager: laurawi
 layout: LandingPage
-ms.assetid: ''
 ms.service: office-365
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
-ms.date: 8/21/2018
+ms.date: 12/27/2018
 ms.author: robmazz
-ms.openlocfilehash: ed61d7995ab4b684f775b58f9fb4cd830222117a
-ms.sourcegitcommit: e5da81dd4c6ca7caa0f884fffff3876e87e2b217
+ms.openlocfilehash: 255bde226f5a284f2ac20d65124d4722e2357385
+ms.sourcegitcommit: 55762890e5129a5240054990ce64e93007ed7a32
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26254555"
+ms.lasthandoff: 12/27/2018
+ms.locfileid: "27449882"
 ---
 # <a name="office-365-security-and-compliance"></a>Office 365 보안 및 규정 준수
 
@@ -52,7 +51,7 @@ ms.locfileid: "26254555"
                     </div>
                     <div class="cardText">
                         <h3>90 일 내에서 다음 단계</h3>
-                        <p>이러한 작업에는 계획 및 구현 하지만 보안 환경을 크게 증가 하는 약간 더 많은 시간이 걸릴: <br> - <a href="attack-simulator.md">공격 시뮬레이션을 수행 합니다.</a> <br> - <a href="meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md">검토 규정 준수 관리자</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure">Azure 권한 있는 Id 관리 구성</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks">다단계 인증을 사용 하도록 설정</a> <br> - <a href="protect-against-threats.md">검토 및 업데이트 보호 정책</a> </p>
+                        <p>이러한 작업에는 계획 및 구현 하지만 보안 환경을 크게 증가 하는 약간 더 많은 시간이 걸릴: <br> - <a href="attack-simulator.md">공격 시뮬레이션을 수행 합니다.</a> <br> - <a href="meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md">검토 규정 준수 관리자</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure">Azure 권한 있는 Id 관리 구성</a> <br> - <a href="privileged-access-management-configuration.md">액세스 권한을된 관리 구성</a>  <br> - <a href="https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks">다단계 인증을 사용 하도록 설정</a> <br> - <a href="protect-against-threats.md">검토 및 업데이트 보호 정책</a> </p>
                     </div>
                 </div>
             </div>
@@ -70,7 +69,7 @@ ms.locfileid: "26254555"
                     <div class="cardText">
                         <h3>90일 초과</h3>
                         <p>다음은 이전 작업에서 작성 하는 것이 중요 보안 조치입니다.<br>
-                        - <a href="https://securescore.office.com" target="_blank">보안 점수를 검토 합니다.</a><br>
+                        - <a href="office-365-secure-score.md" target="_blank">보안 점수를 검토 합니다.</a><br>
                         - <a href="https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access">권한이 부여 된 액세스를 보호 하는 구현</a><br>
                         - <a href="https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection">Azure AD Id 보호를 사용 하 여</a><br>
                         - <a href="protect-against-threats.md">구체화 보호 정책</a><br></p>
@@ -97,8 +96,8 @@ ms.locfileid: "26254555"
                     <div class="cardText">
                         <h3>보안을 유지합니다</h3>
                         <p><a href="security-roadmap.md">Office 365 보안 로드맵</a></p>
-                        <p><a href="https://securescore.microsoft.com" target="_blank">Microsoft 보안 점수</a></p>
-                        <p><a href="https://protection.office.com" target="_blank">Office 365 보안 및 규정 준수 센터</a></p>
+                        <p><a href="office-365-secure-score.md" target="_blank">Microsoft 보안 점수</a></p>
+                        <p><a href="https://protection.office.com" target="_blank">Office 365 보안 및 준수 센터</a></p>
                     </div>
                 </div>
             </div>
