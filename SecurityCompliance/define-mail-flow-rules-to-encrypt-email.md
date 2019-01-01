@@ -1,9 +1,8 @@
 ---
-title: Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의
+title: Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,14 +12,14 @@ search.appverid:
 - MOE150
 ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 description: 관리자가 수를 메일 흐름 규칙 만들기 (전송 규칙이 라고도 함)를 암호화 하 여 Office 365 메시지 암호화 OME ()를 사용 하 여 메시지의 암호를 해독 하는 방법을 알아봅니다.
-ms.openlocfilehash: 35867d45bb8ad5cb8de2fa1aa0c870ee9a66fe5d
-ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
+ms.openlocfilehash: 6633958478c947d765251145ecd6d45e34dea2ab
+ms.sourcegitcommit: 31098b35607d0fd949fd357f783d1e9ed2444deb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27194679"
+ms.lasthandoff: 12/31/2018
+ms.locfileid: "27466927"
 ---
-# <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의
+# <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
 
 Office 365 전역 관리자 권한으로 전자 메일 메시지 보내기 및 받기 보호를 메일에 흐름 규칙 (전송 규칙이 라고도 함) 만들 수 있습니다. 모든 보내는 전자 메일 메시지를 암호화 하 고 조직 내부에서 연결 되는 암호화 된 메시지 또는 조직에서 보낸 암호화 된 메시지에 대 한 회신에서 암호화를 제거 하는 규칙을 설정할 수 있습니다. 이러한 규칙을 만들 수는 Exchange 관리 센터 (EAC) 또는 Exchange Online PowerShell를 사용할 수 있습니다. 전체 암호화 규칙 외에도 최종 사용자를 위한 개별 메시지 암호화 옵션을 사용할지 여부를 선택할 수 있습니다.
 
@@ -189,7 +188,7 @@ Office 365 조직 새 OME 기능을 이동한 아직 하지 않은 경우 이러
 
      - 받는 사람 사서함, 메일 사용자, 그룹 또는 조직에서 메일 사용이 가능한 공용 폴더는 합니다.
 
-       또는
+        선택하거나 
 
      - 신뢰할 수 있는 도메인 또는 조직 _및_ 메시지를 보내거나 인증 된 연결을 통해 받은에서 내부 릴레이 도메인으로 구성 된 허용된 도메인에서 받는 사람의 전자 메일 주소는 합니다.
 
