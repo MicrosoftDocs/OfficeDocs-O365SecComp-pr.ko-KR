@@ -92,7 +92,7 @@
 ### [Office 365의 전자 메일 암호화](email-encryption.md)
 ### [Office 365 메시지 암호화 (OME)](ome.md)
 #### [새로운 Office 365 메시지 암호화 기능 설정](set-up-new-message-encryption-capabilities.md)
-#### [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](https://docs.microsoft.com/ko-KR/office365/securitycompliance/define-mail-flow-rules-to-encrypt-mail.md)
+#### [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](define-mail-flow-rules-to-encrypt-email.md)
 #### [Office 365 메시지 암호화 관리](manage-office-365-message-encryption.md)
 #### [Office 365 메시지 암호화 FAQ](ome-faq.md)
 #### [Office 365 메시지 암호화로 암호화된 전자 메일 취소](revoke-ome-encrypted-mail.md)
