@@ -3,7 +3,7 @@ title: Office 365의 공격 시뮬레이터
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/09/2018
+ms.date: 01/02/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 description: Office 365 전역 관리자는 조직에서 사실적인 공격 시나리오를 실행 하려면 공격 시뮬레이터를 사용할 수 있습니다. 이 도울수 식별 하 고 실제 공격 비즈니스를 방문한 전에 공격에 취약 한 사용자를 찾을 수 있습니다.
-ms.openlocfilehash: 9a7e1fd5327b4a764356df110c46ee7a9f496b53
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 1a1d22b0b36ce8b6a2086296be8f8b5d47d79280
+ms.sourcegitcommit: d512c1df01377e305e8d5c0170c822cf78f09565
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706442"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "27472001"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
@@ -49,7 +49,7 @@ ms.locfileid: "26706442"
     
 - 사용자가 Office 365 전역 관리자
     
-- 조직에서 사용 중인 [Office 365 사용자에 대해 다단계 인증](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication&view=o365-worldwide)
+- 조직에서 사용 중인 [Office 365 사용자에 대해 다단계 인증](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide)
  
 - 조직에 [Office 365 위협 인텔리전스](office-365-ti.md)공격 시뮬레이터 보안에 표시 된 &amp; 준수 센터 ( **위협 관리** 로 이동 \> **공격 시뮬레이터**)<br/>![관리-공격 시뮬레이터 위협](media/ThreatMgmt-AttackSimulator.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "26706442"
 
 ![전자 메일 본문 작성](media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
   
-**전자 메일 본문** 필드 자체에서 직접 서식 있는 HTML 편집기를 만들 수도 있고 HTML 원본으로 작업할 수 있습니다. HTML에 포함 될 내용에 대 한 중요 한 필드를 두 가지가 있습니다. 
+**전자 메일 본문** 필드 자체에서 직접 서식 있는 HTML 편집기를 만들 수도 있고 HTML 원본으로 작업할 수 있습니다.
   
 1. [보안 &amp; 준수 센터](https://security.microsoft.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
     
@@ -118,7 +118,7 @@ ms.locfileid: "26706442"
     
 3. 대상 받는 사람을 지정 합니다. 대상이 지정 된 받는 사람을 성공적으로 수행 하는 공격에 대 한 순서 대로 Exchange Online 사서함 있어야 합니다.
     
-4. 공격에 사용 하 여 암호의 집합을 지정 합니다. 암호의 대화 목록에 대 한 텍스트 파일 (.txt)을 사용할 수 있습니다. 텍스트 파일의 파일 크기가 10MB를 초과할 수 없습니다. 줄당 한 암호를 사용 하 고 하드 리턴 후 마지막 암호를 목록에 포함 되었는지 확인 합니다.
+4. 공격에 사용 하 여 암호의 집합을 지정 합니다. 이 작업을 수행 하려면 암호의 대화 목록에 대 한 텍스트 파일 (.txt)을 사용할 수 있습니다. 텍스트 파일의 파일 크기가 10MB를 초과할 수 없습니다. 줄당 한 암호를 사용 하 고 하드 리턴 후 마지막 암호를 목록에 포함 되었는지 확인 합니다.
     
 5. 공격을 시작 하려면 **완료 날짜** 를 선택 합니다. 
     
