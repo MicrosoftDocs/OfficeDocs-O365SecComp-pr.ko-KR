@@ -58,7 +58,7 @@ Office 365의 구성 방식에 따라 사용자는 차단된 파일을 다운로
 
  2018년 5월 말부터 보안&amp; 준수 센터의 [검역](quarantine-email-messages.md) 기능이 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams를 위해 ATP로 확장됩니다.
   
-SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams의 파일이 악성으로 확인될 시 ATP가 파일을 열거나 공유하지 못하도록 차단하는 조치 외에도 해당 파일은 검역 항목 목록에 포함이 됩니다. (보안&amp; 준수 센터에서 **위협 관리** \> **검토** \> **검역** 및 ** 콘텐츠** 필터링을 선택합니다.) 
+SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams의 파일이 악성으로 확인될 시 ATP가 파일을 열거나 공유하지 못하도록 차단하는 조치 외에도 해당 파일은 검역 항목 목록에 포함이 됩니다. (보안&amp; 준수 센터에서 **위협 관리** \> **검토** \> **검역** 및 **콘텐츠** 필터링을 선택합니다.) 
   
 귀하가 조직의 Office 365 보안팀의 구성원이고 필요한 [Office 365 보안 &amp;준수 센터](permissions-in-the-security-and-compliance-center.md)에 할당되는 사용 권한을 보유하고 있는 경우, 검역소에서 ATP를 통해 악성으로 확인된 파일을 다운로드, 공개, 보고 및  삭제할 수 있습니다.
   
