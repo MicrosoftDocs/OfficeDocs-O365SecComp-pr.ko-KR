@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: '로컬 컴퓨터에 Office 365 보안 및 규정 준수 센터의 콘텐츠 검색 결과에서 검색 결과 내보냅니다. 전자 메일 결과 PST 파일로 내보냅니다. SharePoint와 OneDrive에서 네이티브 Office 문서로 내보냅니다 비즈니스 사이트에 대 한 콘텐츠입니다. '
-ms.openlocfilehash: f4ecdb59b20138e8b159e6056cac791837a84387
-ms.sourcegitcommit: 9f08af5502070a42de22b6d83e3a08c67cc0c619
+ms.openlocfilehash: d67b6aeedd3f01bd21de0e07f42870db7a18767b
+ms.sourcegitcommit: ea625737c4be14927f69aa71d4fbd7d7d94d9334
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201582"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544119"
 ---
 # <a name="export-content-search-results-from-the-office-365-security--compliance-center"></a>Office 365 보안 및 규정 준수 센터에서 콘텐츠 검색 결과 내보내려면
 
@@ -77,10 +77,6 @@ ms.locfileid: "27201582"
        </defaultProxy>
     </system.net>
     ```
-
-- 검색 결과 내보내기 (영문)에 대 한 제한에 대 한 설명 섹션을 참조 하십시오. 
-    
-- 내보낼 수 있는 PST 파일의 최대 크기는 10GB입니다. 이 기본 크기를 변경 하려는 경우에 검색 결과 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. [변경을 eDiscovery 검색 결과 내보낼 때 PST 파일의 크기를](change-the-size-of-pst-files-when-exporting-results.md)참조 하십시오.
     
 ## <a name="step-1-prepare-search-results-for-export"></a>1단계: 내보내기에 대 한 검색 결과 준비 합니다.
 
@@ -99,13 +95,13 @@ ms.locfileid: "27201582"
     > [!NOTE]
     > 검색 결과 7 일 보다 오래 된 경우 검색 결과 업데이트 하 라는 메시지가 표시. 이런 경우 내보내기를 취소 클릭 합니다 **업데이트 검색 결과** 선택한 검색 한 다음 시작 결과 후 다시 내보내기에 대 한 세부 정보 창에서 업데이트 됩니다.  
   
-6. **검색에서 이러한 항목을 포함**하십시오 아래에서 **검색 결과 내보내기** 페이지에서 다음 옵션 중 하나를 선택 합니다.
+6. **검색 결과 내보내기** 페이지 **출력 옵션**아래에서 다음 옵션 중 하나를 선택 합니다.
     
-    - 인덱싱된 항목만 내보내기
+    - 인식할 수 없는 형식이 글꼴로 제외 하 고 있는 모든 항목은 암호화 또는 다른 이유로 인덱싱된 받지
     
-    - 인덱싱된 및 부분적으로 인덱싱된 항목 내보내기
+    - 인식할 수 없는 형식 있는 원본을 비롯 하는 모든 항목은 암호화 또는 다른 이유로 인덱싱된 받지
     
-    - 유일한 부분적으로 인덱싱된 항목 내보내기
+    - 만 있는 항목에는 인식할 수 없는 형식으로 암호화 된 또는 다른 이유로 인덱싱된 받지
     
     부분적으로 어떻게 인덱싱된 항목에 대 한 설명 내보내도록에 대 한 [자세한 내용](#more-information) 은 섹션을 참조 하십시오. 부분적으로 인덱싱된 항목에 대 한 자세한 내용은 [부분적으로 인덱싱된 콘텐츠 검색에는 항목을](partially-indexed-items-in-content-search.md)참조 하십시오.
     
@@ -205,8 +201,9 @@ ms.locfileid: "27201582"
   - 조직 내에서 동시에 최대 10개의 내보내기를 실행할 수 있습니다.
     
   - 단일 사용자 수 세 내보내기의 최대 동시에 실행 하는 것입니다.
-    
-  - 콘텐츠 검색 보고서 내보내기 (영문)는 내보내기 제한 중 하나에 대해 계산 되지 않습니다. 
+
+  > [!NOTE]
+  > 한 명의 사용자를 실행 하는 내보내기의 수 및 같은 시간에 실행 하는 내보내기의 번호에 대해 계산 콘텐츠 검색에서 보고서만 내보내기 (영문).
     
 - 듯이 Azure 저장소 위치에 업로드 되는 사서함 및 사이트에서 검색 결과 (의 설명에 따라 [1 단계: 준비 검색 결과 내보내기에 대 한](#step-1-prepare-search-results-for-export)) 시간당 2GB의 최대 속도로 합니다.
     

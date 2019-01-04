@@ -3,7 +3,7 @@ title: Office 365 보안에서 콘텐츠 검색에 대 한 제한 &amp; 준수 �
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/30/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: 'Office 365 보안에서 콘텐츠 검색 기능에 대 한 적용 제한 하는 방법에 대 한 설명 &amp; 동시 검색의 최대 수와 같은 준수 센터입니다. '
-ms.openlocfilehash: 917351f380c81ebfabfd4b3ff05a534c65c8f318
-ms.sourcegitcommit: b6473cd6ba3f9ac79dc6a2040fc148020dfbe464
+ms.openlocfilehash: 79142edf2e80378bf6f22474fca55c54fe5cc776
+ms.sourcegitcommit: ea625737c4be14927f69aa71d4fbd7d7d94d9334
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358377"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544109"
 ---
 # <a name="limits-for-content-search-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 콘텐츠 검색에 대 한 제한 &amp; 준수 센터
 
@@ -28,16 +28,7 @@ ms.locfileid: "25358377"
   
 Office 365 보안에서 콘텐츠 검색 기능에 다양 한 제한이 적용 됩니다 &amp; 준수 센터입니다. **콘텐츠 검색** 페이지 및 eDiscovery 사례와 연결 된 검색에서 실행 된이 포함 검색 합니다. 이러한 제한은 상태 및 Office 365 조직에 제공 하는 서비스의 품질을 유지 관리 하는데 도움이 됩니다. 인덱싱 전자 메일 메시지의 Exchange Online 검색에 대 한 관련 된 제한 됩니다. 콘텐츠 검색 또는 제한, 인덱싱 전자 메일을 수정할 수 없습니다 하지만 계획, 실행 및 콘텐츠 검색 문제를 해결 하는 경우 고려 이러한 제한은 사용할 수 있도록 그 중 알고 있어야 합니다. 
   
- **목차**
-  
-[콘텐츠 검색 제한](limits-for-content-search.md#searchlimits)
-  
-[전자 메일 메시지에 대 한 인덱싱 제한](limits-for-content-search.md#indexinglimits)
-  
-[추가 정보](limits-for-content-search.md#moreinfo)
-  
 ## <a name="content-search-limits"></a>콘텐츠 검색 제한
-<a name="searchlimits"> </a>
 
 다음 표에서 보안에서 검색 제한 &amp; 준수 센터입니다.
   
@@ -56,16 +47,13 @@ Office 365 보안에서 콘텐츠 검색 기능에 다양 한 제한이 적용 �
 |검색 결과 대 한 미리 볼 수 있는 공용 사서함의 최대 수입니다. 500 개가 넘는 공용 폴더 사서함 검색 쿼리와 일치 하는 콘텐츠를 포함 하는 경우는 상위 500 공용 폴더 사서함만 대부분의 검색 결과와 미리 보기에 대 한 표시 됩니다.  <br/> |500 개  <br/> |
 |콘텐츠 검색에 대 한 검색 쿼리 (연산자 및 조건 포함)에 대 한 문자의 최대 수입니다.  <br/><br/> **참고:** 이 제한은 각 키워드에 대해 쿼리를 확장 얻을 것을 의미 하는 쿼리를 확장 한 후에 적용이 됩니다. 등 검색 쿼리를 15 키워드와 추가 매개 변수 및 조건 있으면 쿼리 가져옵니다 확장 15 번 각각 다른 매개 변수 및 쿼리의 조건입니다. 검색 쿼리의 문자 수 제한 아래 수, 경우에 이므로 확장 된 쿼리를이 제한을 초과 하면 현상이 발생할 수 있습니다.<br/> |**사서함:** 10, 000 개  <br/> **사이트:** 4000 최대 20 개의 사이트 <sup>1</sup> 을 검색 하는 경우 모든 사이트 또는 2, 000를 검색 하는 경우 <br/> |
 |접두사 와일드 카드를 사용 하 여 접두사 와일드 카드 및 **NEAR** 또는 **ONEAR** 부울 연산자를 사용 하는 경우 검색 쿼리 또는 정확한 구를 검색 하는 경우 반환 되는 variant의 최대 수입니다.  <br/> |10, 000 <sup>2</sup> <br/> |
-|최소 접두사 와일드 카드;에 대 한 알파 문자 수 예, `time*`, `one*`, 또는 `set*`합니다.  <br/> |3   <br/> |
+|최소 접두사 와일드 카드;에 대 한 알파 문자 수 예, `time*`, `one*`, 또는 `set*`합니다.  <br/> |3  <br/> |
 |"를 검색 하 고 삭제" 작업을 수행 하 여 항목을 삭제할 수 있는 콘텐츠 검색에서 사서함의 최대 수 (을 사용 하 여는 **새로 ComplianceSearchAction-항목 지우기** 명령). 콘텐츠 검색에 대 한 삭제 작업을 수행 하는 작업을이 제한 보다 더 많은 원본 사서함 있으면 삭제 작업이 실패 합니다. 검색 및 삭제 하는 방법에 대 한 자세한 내용은 [Office 365 조직에서 전자 메일 메시지를 삭제 하 고 검색에 대 한](search-for-and-delete-messages-in-your-organization.md)를 참조 하십시오.<br/> |50000  <br/> |
    
 > [!NOTE]
 > <sup>1</sup> 비즈니스 위치에 대 한 SharePoint와 OneDrive를 검색, 검색이 수행 되는 사이트의 Url의 문자 제한 되는이 계산 됩니다.<br/> <sup>2</sup> 구를 아닌 쿼리 (큰따옴표를 사용 하지 않는 키워드 값)에 대 한 사용 특수 접두사 인덱스 합니다. 이 알려줍니다.는 단어 발생 한 문서에 문서에서 발생 위치에 없습니다. 구를 쿼리 (큰따옴표를 사용 하 여 키워드 값)를 수행 하려면 구에 있는 단어에 대 한 문서 내에서 위치를 비교 해야 합니다. 이 구 쿼리에 대 한 접두사 인덱스를 사용할 수 없습니다는 것을 의미 합니다. 이 경우에 내부적으로 확장 하 고 모든 가능한 단어;를 확장 하는 접두사를 사용 하 여 쿼리 예, `"time*"` 를 확장할 수 `"time OR timer OR times OR timex OR timeboxed OR …"`합니다. 10, 000 개는 최대 횟수 변형 된 word 문서는 쿼리와 일치 하는 횟수를 확장할 수 있습니다. 비 구를 용어에 대 한 위 제한은 없습니다. 
   
-[Return to top](limits-for-content-search.md#top)
-  
 ## <a name="indexing-limits-for-email-messages"></a>전자 메일 메시지에 대 한 인덱싱 제한
-<a name="indexinglimits"> </a>
 
 다음 표에서 인덱싱되지 않은 항목 또는 부분적으로 인덱싱된 항목의 콘텐츠 검색 결과에 반환 되는 전자 메일 메시지에 초래할 수 있는 인덱싱 제한을 설명 합니다.
   
@@ -80,16 +68,13 @@ Office 365 보안에서 콘텐츠 검색 기능에 다양 한 제한이 적용 �
 |최대 파서 출력  <br/> |200만 자  <br/> |인덱싱된 구문 분석기에서 텍스트 출력의 최대 크기. 예, 파서 문서에서 8 백만 문자를 추출 하는 경우 먼저 2 백만 문자만 인덱싱됩니다.  <br/> |
 |최대 주석 토큰  <br/> |2 백만  <br/> |전자 메일 메시지를 인덱싱하기 하는 경우에 각 단어 해당 단어가 인덱싱할 방법을 지정 하는 다른 처리 지침과 함께 주석 처리 됩니다. 처리 명령 집합이 각 주석 토큰을 라고 합니다. Office 365에서 서비스의 품질을 유지 하려면 전자 메일 메시지에 대 한 2 백만 주석 토큰의 제한이 됩니다.  <br/> |
 |인덱스의 최대 본문 크기  <br/> |67 백만 문자  <br/> |전자 메일 메시지 및 모든 첨부 파일의 본문에 있는 문자의 총 수입니다. 전자 메일 메시지로 인덱싱되는 경우에 메시지의 본문 및 모든 첨부 파일에서 모든 텍스트는 단일 문자열로 연결 됩니다. 인덱싱되는이 문자열의 최대 크기는 67 백만 자입니다.  <br/> |
-|본문에는 최대 고유 토큰  <br/> |1백만 개  <br/> |앞부분에 설명 된, 토큰은 결과 콘텐츠에서 텍스트 추출 (영문), 문장 부호 및 공백, 제거 및 인덱스에 저장 된 단어 (토큰에 라고 함) 프로젝트로 분리 하는 것입니다. 예, 구 `"cat, mouse, bird, dog, dog"` 5 토큰이 포함 됩니다. 하지만 이러한 유일한 4는 토큰에 고유 합니다. 인덱스가 너무 커서 임의의 토큰으로 시작 하는 것을 방지 하는 전자 메일 메시지 당 1 백만 고유한 토큰의 제한이 됩니다.<br/> |
-   
-[Return to top](limits-for-content-search.md#top)
+|본문에는 최대 고유 토큰  <br/> |1,000,000  <br/> |앞부분에 설명 된, 토큰은 결과 콘텐츠에서 텍스트 추출 (영문), 문장 부호 및 공백, 제거 및 인덱스에 저장 된 단어 (토큰에 라고 함) 프로젝트로 분리 하는 것입니다. 예, 구 `"cat, mouse, bird, dog, dog"` 5 토큰이 포함 됩니다. 하지만 이러한 유일한 4는 토큰에 고유 합니다. 인덱스가 너무 커서 임의의 토큰으로 시작 하는 것을 방지 하는 전자 메일 메시지 당 1 백만 고유한 토큰의 제한이 됩니다.<br/> |
   
 ## <a name="more-information"></a>추가 정보
-<a name="moreinfo"> </a>
 
 콘텐츠 인덱싱 및 검색 결과 내보내기 등 콘텐츠 검색의 추가 제한 다른와 관련 된 측면 있습니다. 이러한 제한에 대 한 다음 항목을 참조 합니다.
   
-- 
+- [콘텐츠 검색 결과 내보내기](export-search-results.md#export-limits)
     
 - [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
     
@@ -102,7 +87,3 @@ Office 365 보안에서 콘텐츠 검색 기능에 다양 한 제한이 적용 �
 - [Office 365의에서 콘텐츠 검색](content-search.md)
     
 - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
-    
-[Return to top](limits-for-content-search.md#top)
-  
-
