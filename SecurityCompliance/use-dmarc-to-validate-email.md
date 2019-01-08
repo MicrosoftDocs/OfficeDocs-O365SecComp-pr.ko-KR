@@ -13,12 +13,12 @@ search.appverid:
 ms.custom: TN2DMC
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 description: Office 365 조직에서 보낸 메시지의 유효성을 검사 하 여 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)를 구성 하는 방법에 알아봅니다.
-ms.openlocfilehash: f8c310e5efb6859bff392a89a3ad325400aa369f
-ms.sourcegitcommit: 75b985b2574f4be70cf352498ea300b3d99dd338
+ms.openlocfilehash: 2f8e712028b5b5ee8950b48780083a20c7dce6ab
+ms.sourcegitcommit: bd1762ccf63c7d2ad8b49a936115171c72fb2c0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255873"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27750047"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC를 사용 하 여 Office 365의 전자 메일의 유효성을 검사 하려면
 
@@ -136,7 +136,7 @@ SPF 설정한 후에 DKIM를 설정 해야 합니다. DKIM은 메시지 헤더�
 여기서 언급 되지 않은 다른 구문을 옵션 되지만, 다음은 Office 365에 대 한 가장 일반적으로 사용 되는 옵션입니다. 양식 형식으로 도메인에 대 한 DMARC TXT 레코드:
   
 ```
-_dmarc.domainTTL IN TXT "v=DMARC1; pct=100; p=policy
+_dmarc.domain  TTL  IN  TXT  "v=DMARC1; pct=100; p=policy"
 ```
 
 여기서 각 부분이 나타내는 의미는 다음과 같습니다.
@@ -145,7 +145,7 @@ _dmarc.domainTTL IN TXT "v=DMARC1; pct=100; p=policy
     
 - *TTL* 1 시간에 해당 하는 항상 되어야 합니다. 두 시간 (1 시간) TTL에 사용 되는 단위 (60 분), 분 또는 초 (3600 초) 도메인에 대 한 등록자에 따라 달라 집니다. 
     
-- pct = 100 전자 메일의 100%에 대해이 규칙을 사용 해야 함을 나타냅니다.
+- *pct = 100* 전자 메일의 100%에 대해이 규칙을 사용 해야 함을 나타냅니다.
     
 - *정책* DMARC 실패 하는 경우에 따라를 받는 서버를 원하는 어떤 정책을 지정 합니다. 정책을 격리를 없음으로 설정 하거나 취소할 수 있습니다. 
     

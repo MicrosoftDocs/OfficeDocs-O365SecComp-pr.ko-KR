@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 description: 새로운 Office 365 메시지 암호화 Azure 정보 보호 조직의 위쪽에 구축 된 기능을 사용 하 여 수 내부 테두리와 조직 외부의 사용자와 전자 메일 통신을 보호 합니다. 다른 Office 365, Outlook.com, Gmail, 조직과 다른 전자 메일 서비스를 사용 하는 새 OME 기능입니다.
-ms.openlocfilehash: c24b2f9b612b863217df8afd951424d1a89295c9
-ms.sourcegitcommit: d89c24258123a3ffde574a391d59afd3aea8470d
+ms.openlocfilehash: 0f601b425da294fbb2ddbfe1d7497c0d582e3238
+ms.sourcegitcommit: bd1762ccf63c7d2ad8b49a936115171c72fb2c0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "23955420"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27750037"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
@@ -43,34 +43,33 @@ OME은 이전 버전과 달리 이러한 새로운 기능은 조직 내부 또�
   
 ### <a name="to-manually-set-up-the-new-capabilities-for-ome"></a>OME에 대 한 새로운 기능을 수동으로 설정 하려면
 
-1. 조직에 대 한 오른쪽 구독을 했는지 확인 합니다. 구독에 대 한 내용은 "어떤 구독 해야하는 새 OME capabilities?를 사용 하 여"에서 참조는 [Office 365 메시지 암호화 FAQ.](ome-faq.md) Azure 정보 보호에 대 한 구독 구입 하는 방법에 대 한 정보를 [Azure 정보 보호](https://azure.microsoft.com/services/information-protection/)를 참조 하십시오.
-    
+1. 조직에 대 한 오른쪽 구독을 했는지 확인 합니다. 구독에 대 한 내용은 "어떤 구독 해야하는 새 OME capabilities?를 사용 하 여"에서 참조는 [Office 365 메시지 암호화 FAQ.](ome-faq.md)합니다. Azure 정보 보호에 대 한 구독 구입 하는 방법에 대 한 정보를 [Azure 정보 보호](https://azure.microsoft.com/services/information-protection/)를 참조 하십시오.
+
 2. Azure 정보 보호 (기본값)에 대 한 루트 키를 관리 하거나 생성 하 고 (직접 키로 이동한 다음 또는 BYOK 맨앞으로 알려진) 사용자가 직접이 키를 관리 하는 Microsoft 여부를 결정 합니다. 생성 하 고 사용자가 직접이 키를 관리 하려는 경우 OME에 대 한 새로운 기능을 설정 하기 전에 일부 단계를 완료 해야 합니다. 자세한 내용은 [계획 및 구현 하 여 Azure 정보 보호 테 넌 트 키를](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key)참조 하십시오. OME를 설정 하기 전에 다음이 단계를 완료 하는 것이 좋습니다.
-    
+
 3. Azure 권한 관리를 활성화 하 여 OME에 대 한 새로운 기능을 사용 합니다. 자세한 내용은 [Azure 권한 관리 활성화](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service)를 참조 하십시오. 자동이 위해 Office 365 하면 새 OME 기능을 설정 합니다.
-    
+
     > [!TIP]
-    > 웹에 있는 outlook 하루에이 클라이언트를 사용 하 여 전자 메일 메시지에 OME에 대 한 새로운 기능을 적용 하기 전에 대기 하는 것이 좋습니다 하므로 해당 UI을 캐시 합니다. UI 새 구성을 반영 하도록 업데이트를 하기 전에는 OME에 대 한 새로운 기능을 사용할 수 없습니다. UI 업데이트 하 고 나면 사용자가 OME에 대 한 새로운 기능을 사용 하 여 전자 메일 메시지를 보호할 수 있습니다. 
+    > 웹에 있는 outlook 하루에이 클라이언트를 사용 하 여 전자 메일 메시지에 OME에 대 한 새로운 기능을 적용 하기 전에 대기 하는 것이 좋습니다 하므로 해당 UI을 캐시 합니다. UI 새 구성을 반영 하도록 업데이트를 하기 전에는 OME에 대 한 새로운 기능을 사용할 수 없습니다. UI 업데이트 하 고 나면 사용자가 OME에 대 한 새로운 기능을 사용 하 여 전자 메일 메시지를 보호할 수 있습니다.
   
 4. (선택 사항) 새 메일 흐름 규칙을 설정 하거나 조직에서 보낸 메시지를 암호화 하는 Office 365 시기와 방법을 정의 하는 기존 메일 흐름 규칙을 업데이트 합니다.
-    
+
 ## <a name="verify-that-the-new-capabilities-for-ome-are-configured-properly-by-using-windows-powershell"></a>Windows PowerShell을 사용 하 여 OME에 대 한 새 기능이 제대로 구성 되었는지 확인
 
 Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 하 여 테 넌 트 제대로 구성 되었는지 확인 하려면 다음이 단계를 수행 합니다.
   
-1. Office 365 조직에 대 한 전역 관리자 권한이 있는 작업이 나 교육용 계정을 사용 하는 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Connect to Exchange Online PowerShell를](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)참조 하십시오.
-    
+1. Office 365 조직에 대 한 전역 관리자 권한이 있는 작업이 나 교육용 계정을 사용 하는 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Connect to Exchange Online PowerShell를](https://aka.ms/exopowershell)참조 하십시오.
+
 2. 다음 구문을 사용 하 여 Test-irmconfiguration cmdlet을 실행 합니다.
-    
+
     ```Test-IRMConfiguration [-Sender <email address >]```  
 
    예를 들면 다음과 같습니다.
-    
+
     ```Test-IRMConfiguration -Sender securityadmin@contoso.com```
 
-    여기서 전자 메일 주소는 Office 365 조직에 있는 사용자의 전자 메일 주소입니다. 옵션, 제공 하는 동안 보낸 전자 메일 주소를 추가 검사를 수행 하려면 시스템을 강제 합니다.
-    
-    결과 다음과 같은 같아야 합니다.
+    여기서 전자 메일 주소는 Office 365 조직에 있는 사용자의 전자 메일 주소입니다. 옵션, 제공 하는 동안 보낸 전자 메일 주소를 추가 검사를 수행 하려면 시스템을 강제 합니다. 결과 다음과 같은 같아야 합니다.
+
     
     ```
     Results : Acquiring RMS Templates ...
@@ -87,11 +86,11 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
     ```
 
     여기서 *Contoso* 는 Office 365 조직 이름으로 대체 됩니다. 
-    
+
     결과에 반환 하는 기본 서식 파일의 이름은 위의 결과에 표시 된 것과 다른 수 있습니다.
-    
+
     서식 파일 및 기본 서식 파일에 대 한 정보에 대 한 소개를 [구성 하 고 Azure 정보 보호에 대 한 서식 파일 관리](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)를 참조 하십시오. 착신 전환 안함에 대 한 정보에 대 한 옵션을 암호화 전용 옵션을 및 방법을 만들려면 추가 서식 파일 또는 어떤 권한에 대해 알아봅니다 기존 서식 파일에 포함 된, 참조 [Azure 권한 관리에 대 한 사용 권한을 구성](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights)합니다.
-    
+
 3. 권한 관리 서비스에서 연결을 끊으려면 Remove-pssession cmdlet을 실행 합니다.
     
     ```Remove-PSSession $session```
@@ -106,7 +105,6 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
 메일 흐름 규칙에 대 한 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)참조 하십시오.
   
 ## <a name="related-topics"></a>관련 항목
-<a name="Rules_1"> </a>
 
 [보내기, 보기 및 Outlook에서 암호화 된 메시지에 회신](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980.aspx)
   
@@ -114,6 +112,4 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
   
 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx)
   
-[Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)
-  
-
+[Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](define-mail-flow-rules-to-encrypt-email.md)
