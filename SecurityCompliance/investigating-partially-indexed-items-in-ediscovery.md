@@ -11,16 +11,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (도 통화는 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 SharePoint에서 문서 및 일부 오류로 콘텐츠 검색을 위해 인덱싱되 완전히 받지 용 OneDrive 사이트는 합니다. 이 문서에서 항목 검색에 대 한 인덱싱할 수 없는 이유 및 부분적으로 인덱싱된 항목으로 반환 됩니다, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 및 내용은 PowerShell 스크립트를 사용 하 여 인덱싱된 부분적으로 전자 메일에 대 한 조직의 노출 결정 항목입니다.
-ms.openlocfilehash: 98f794e80ea8a6016887ff139bc5b546c438f093
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: c1003f9907fffa37042ba62d01e4d938250cf570
+ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038081"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27749342"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
-Office 365 보안에서 실행 하는 콘텐츠 검색 &amp; 준수 센터 검색을 실행 하는 경우 예상된 검색 결과에 부분적으로 인덱싱된 항목 자동으로 포함 합니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 어떤 이유로 검색을 위해 인덱싱되 완전히 받지는 비즈니스 사이트에 대 한 SharePoint OneDrive에 있는 문서입니다. [전자 메일 메시지에 대 한 인덱싱 제한](limits-for-content-search.md#indexinglimits)에 속하는 때문에 대부분의 전자 메일 메시지와 사이트 문서 인덱스 성공적으로 됩니다. 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 고 부분적으로 인덱싱할 합니다. 항목 검색에 대 한 인덱싱할 수 없는 및 콘텐츠 검색을 실행 하는 경우 부분적으로 인덱싱된 항목으로 반환 되는 다른 이유는 다음과 같습니다.
+Office 365 보안에서 실행 하는 콘텐츠 검색 &amp; 준수 센터 검색을 실행 하는 경우 예상된 검색 결과에 부분적으로 인덱싱된 항목 자동으로 포함 합니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 어떤 이유로 검색을 위해 인덱싱되 완전히 받지는 비즈니스 사이트에 대 한 SharePoint OneDrive에 있는 문서입니다. [전자 메일 메시지에 대 한 인덱싱 제한](limits-for-content-search.md#indexing-limits-for-email-messages)에 속하는 때문에 대부분의 전자 메일 메시지와 사이트 문서 인덱스 성공적으로 됩니다. 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 고 부분적으로 인덱싱할 합니다. 항목 검색에 대 한 인덱싱할 수 없는 및 콘텐츠 검색을 실행 하는 경우 부분적으로 인덱싱된 항목으로 반환 되는 다른 이유는 다음과 같습니다.
   
 - 전자 메일 메시지는; 인덱싱할 수 없는 파일 형식의 첨부 파일 대부분의 경우에는 파일 형식이 [인식할 수 없거나 인덱싱에 대 한 지원 되지않는](partially-indexed-items-in-content-search.md#file-types-not-indexed-for-search)
     

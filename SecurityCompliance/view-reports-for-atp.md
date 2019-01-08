@@ -3,7 +3,7 @@ title: Office 365 고급 위협 보호에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/27/2018
+ms.date: 01/07/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: e9d3088f81d1020e70de4c2260fba81cd469715d
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: d387e020e5834d4961e7bda50b418ea11b9f0f4d
+ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706322"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27749352"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
 조직에 [Office 365 고급 위협 보호](office-365-atp.md) (ATP) 하는 경우 [필요한 사용 권한](#what-permissions-are-needed-to-view-these-reports)을 가진 사용자는 보안에서 여러 ATP 보고서를 사용할 수 있습니다 &amp; 준수 센터입니다. ( **보고서** 로 이동 \> **대시보드**.)
   
-![보안 &amp; 준수 센터 대시보드 도울수 위협 보호 고급가 작동 하는 위치를 참조 하십시오.](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report), [ATP 파일 형식 보고서](#atp-file-types-report)및 [ATP 메시지 처리 보고서](#atp-message-disposition-report)를 포함 합니다. 이 문서 ATP 보고서에 설명 하 고 [보려는 추가 보고서](#additional-reports-to-view)에 대 한 링크를 포함 합니다.
   
@@ -90,7 +90,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
   
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>사용 권한은 ATP 보고서를 보려면 필요 합니까?
 
-본이 문서에서 설명 하는 보고서를 사용 하기 위해 적절 한 보안을 모두에 할당 된 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터입니다.
+이 문서에 설명 된 보고서 보기 및 사용 하기 위해 **모두 보안에서 할당 하는 적절 한 역할을 해야 &amp; 준수 센터 및 Exchange 관리 센터**합니다.
 
 - 보안을 위해 &amp; 준수 센터 있어야 할당 된 다음 역할 중 하나:
     - 조직 관리

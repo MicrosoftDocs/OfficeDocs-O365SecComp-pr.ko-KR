@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 description: 0-시간 자동 삭제 (ZAP) 스팸 또는 맬웨어로와 사용자의 받은 편지함에 이미 배달 된 메시지를 검색 하는 전자 메일 보호 기능 및 다음 치명적이 지 악의적인 콘텐츠를 렌더링 합니다. 어떻게 ZAP이 작업을 수행 하는 작업은 감지 악의적인 콘텐츠 형식에 따라 다릅니다.
-ms.openlocfilehash: 1cf14051e91801a74a0d739c69900bb3f825b318
-ms.sourcegitcommit: 204fb0269b5c10b63941055824e863d77e3e9b02
+ms.openlocfilehash: 1e90e69018b7640bb36011287abd5bcd77d43358
+ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27180848"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27749322"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -30,7 +30,7 @@ ms.locfileid: "27180848"
   
 ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독의 함께 제공 되는 Exchange Online Protection 기본 제공 됩니다.
 
-기본적으로 ZAP 켜져 있지만 다음 조건이 충족 되어야 합니다.
+기본적으로 ZAP 켜져 있지만 다음과 같은 조건이 충족 되어야 합니다.
   
 - **스팸 동작** 는 **정크 메일 폴더로 메시지 이동**으로 설정 됩니다. <br/>모든 사서함 ZAP으로 검사 하지 않으려면 사용자 집합에만 적용 되는 스팸 필터 정책을 새로 만들 수도 있습니다.
 
@@ -62,7 +62,7 @@ ZAP 매크로 함수는 사서함 사용자; 원활 하 게 전자 메일 메시
     
 ## <a name="to-see-if-zap-moved-your-message"></a>ZAP 메시지를 이동 하는 경우를 확인 하려면
 
-ZAP 메시지를 이동 하는 경우 확인 하려는 경우에 또는 중 하나는 [위협 보호 상태 보고서](view-email-security-reports.md#threat-protection-status-report-new) ( [위협 탐색기](use-explorer-in-security-and-compliance.md))를 사용할 수 있습니다.
+ZAP 메시지를 이동 하는 경우 확인 하려는 경우에 또는 중 하나는 [위협 보호 상태 보고서](view-email-security-reports.md#threat-protection-status-report) ( [위협 탐색기](use-explorer-in-security-and-compliance.md))를 사용할 수 있습니다.
     
 ## <a name="to-disable-zap"></a>ZAP를 사용 하지 않도록 설정 하려면
   

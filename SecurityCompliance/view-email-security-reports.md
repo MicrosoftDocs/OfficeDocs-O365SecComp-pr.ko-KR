@@ -3,7 +3,7 @@ title: 보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/27/2018
+ms.date: 01/07/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,22 +13,22 @@ search.appverid:
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 description: 찾기 및 Office 365 엔터프라이즈와 조직에 대 한 전자 메일 보안 보고서를 사용 하는 방법에 알아봅니다. 전자 메일 보안 보고서는 보안에서 사용할 수 있는 &amp; 준수 센터입니다.
-ms.openlocfilehash: 72039afd52cd6e9da7dfd05bb67aac2c7e7db001
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 670317707c5695161f23615fb87fe93258e8d95b
+ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706422"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27749332"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터
 
 다양 한 전자 메일 보안 보고서에서 사용할 수는 [보안 &amp; 준수 센터](https://security.microsoft.com) 를 Office 365의 스팸 방지 및 맬웨어 방지 기능 조직을 보호 하는 방법을 확인할 수 있도록 합니다. 보안에서 이러한 보고서를 볼 수는 [필요한 사용 권한](#what-permissions-are-needed-to-view-these-reports)을가 &amp; **보고서** 로 이동 하 여 준수 센터 \> **대시보드**합니다.
   
-![보안 &amp; 준수 센터 대시보드 도울수 위협 보호 고급가 작동 하는 위치를 참조 하십시오.](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 전자 메일 보안 보고서는 다음과 같습니다.
   
-- [위협 보호 상태 보고서](view-email-security-reports.md#tps) (새!) 
+- [위협 보호 상태 보고서](view-email-security-reports.md#tps) 
     
 - [맬웨어 감지 보고서](view-email-security-reports.md#maldet)
     
@@ -44,7 +44,7 @@ ms.locfileid: "26706422"
     
 - [사용자가 보고 메시지 보고서](view-email-security-reports.md#userreported) (새!) 
     
-## <a name="threat-protection-status-report-new"></a>(새!) 보호 상태 보고서를 위협
+## <a name="threat-protection-status-report"></a>위협 보호 상태 보고서
 
 새로운 **위협 보호 상태** 보고서가 감지 및 Exchange Online Protection에 의해 차단 된 악의적인 전자 메일을 표시 하는 스마트 보고서입니다. 이 보고서는 맬웨어 또는 피싱 시도로 식별 된 전자 메일에 대 한 정보를 표시 합니다. 
 
@@ -176,7 +176,7 @@ ms.locfileid: "26706422"
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 보려면 사용 권한은 필요 합니까?
 
-본이 문서에서 설명 하는 보고서를 사용 하기 위해 적절 한 보안을 모두에 할당 된 역할 있어야 &amp; 준수 센터 및 Exchange 관리 센터입니다.
+이 문서에 설명 된 보고서 보기 및 사용 하기 위해 **모두 보안에서 할당 하는 적절 한 역할을 해야 &amp; 준수 센터 및 Exchange 관리 센터**합니다.
 
 - 보안을 위해 &amp; 준수 센터 있어야 할당 된 다음 역할 중 하나:
     - 조직 관리
