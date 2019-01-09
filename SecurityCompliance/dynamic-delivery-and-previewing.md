@@ -3,7 +3,7 @@ title: 동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/08/2018
+ms.date: 01/08/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -13,34 +13,36 @@ search.appverid:
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 description: ATP 안전한 첨부 파일 정책에 연결을 설정할 때 동적 배달 메시지 지연을 방지 하 고 사용자 검색 되는 첨부 파일 미리 보기를 사용 하도록 설정 하려면 선택 합니다.
-ms.openlocfilehash: a272253594dda7ea720bb1e8b59e38e870f2f036
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 95c270e871c3febb13eef8c4374d996fc763315b
+ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238430"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27769832"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기
 
 **요약**: 동적 배달 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 대해 선택할 수 있는 옵션입니다. 동적 배달 및 [Office 365의 ATP 안전한 첨부 파일](atp-safe-attachments.md)의 첨부 파일 미리 보기 기능에 대해 자세히 알아보려면이 문서를 읽어보십시오.
+
+때 [ATP 안전한 첨부 파일 정책을 설정](set-up-atp-safe-attachments-policies.md) 하면 조직에 대 한 가지는 전자 메일 첨부 파일을 처리 하는 방법에 대 한 여러 옵션이 있습니다. **블록**, **교체**, 및 **동적 배달**포함 됩니다. ATP 안전한 첨부 파일 정책 구성 되는 방법에 따라 해당 첨부 파일 검사 하는 동안 전자 메일 받는 사람에 게 전자 메일 배달에 약간 지연을 발생할 수 있습니다. 메시지 지연을 방지 하려면 **동적 배달**를 선택 합니다.
   
 ## <a name="how-dynamic-delivery-works"></a>동적 배달의 작동 방식
-
-때 [ATP 안전한 첨부 파일 정책을 설정](set-up-atp-safe-attachments-policies.md) 하면 조직에 대 한 가지는 전자 메일 첨부 파일을 처리 하는 방법에 대 한 여러 옵션이 있습니다. **블록**, **교체**, 및 **동적 배달**포함 됩니다. ATP 안전한 첨부 파일 정책 구성 되는 방법에 따라 해당 첨부 파일 검사 하는 동안 전자 메일 받는 사람에 게 전자 메일 배달에 약간 지연을 경험할 수 있습니다. 메시지 지연을 방지 하려면 **동적 배달**를 선택 합니다.
   
-동적 배달 각 전자 메일 첨부 파일에 대 한 자리 표시자와 받는 사람에 게를 통해 전자 메일 메시지의 본문을 발송 하 여 전자 메일 지연을 제거 합니다. 개체 틀에는 첨부 파일의 복사본을를 검사 하 고 안전 하 게 하려면 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 따른 때까지 유지 됩니다. 대부분의 Pdf 및 Office 진행 중인 ATP 검사 하는 동안 안전 모드에서 문서를 미리볼 수 있습니다. 첨부 파일이 동적 배달 미리 보기와 호환 되지 않아, ATP 안전한 첨부 파일 검사 완료 될 때까지 전자 메일 받는 사람에 게는 첨부 파일 개체 틀을 참조 합니다.
+동적 배달 각 전자 메일 첨부 파일에 대 한 자리 표시자와 받는 사람에 게를 통해 전자 메일 메시지의 본문을 발송 하 여 전자 메일 지연을 제거 합니다. 개체 틀에는 첨부 파일의 복사본을를 검사 하 고 안전 하 게 하려면 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 따른 때까지 유지 됩니다. 
 
 - 각 첨부 파일을 선택 취소 하면 것을 열거나 다운로드를 사용할 수 있습니다. 
 
 - 첨부 파일이 악성 코드가 포함 될를 확인 하는 경우 해당로 보내집니다 격리, [Office 365에서 격리 된 메시지를 관리할](manage-quarantined-messages-and-files.md)수 (예: Office 365 전역 관리자 또는 보안 관리자) 조직의 보안 팀에 다른 사용자.
 
-동적 배달 된 전자 메일 받는 사람이 읽고 해당 첨부 파일 분석 되 고 있는지 알고 있으면 바로 자신의 전자 메일 메시지에 응답할 수 있습니다. 
+대부분의 Pdf 및 Office 진행 중인 ATP 검사 하는 동안 안전 모드에서 문서를 미리볼 수 있습니다. 첨부 파일이 동적 배달 미리 보기와 호환 되지 않아, ATP 안전한 첨부 파일 검사 완료 될 때까지 전자 메일 받는 사람에 게는 첨부 파일 개체 틀을 참조 합니다.
+
+동적 배달 된 사용자 읽고 해당 첨부 파일을 분석 하는 동안 바로 자신의 전자 메일 메시지에 응답할 수 있습니다. 
 
 ATP 안전한 첨부 파일 검사 가져오고 Office 365 데이터가 있는 동일한 영역에 배치 합니다. 데이터 센터 지역에 대 한 자세한 내용은 참조 [가 다음에 있는 데이터?](https://products.office.com/where-is-your-data-located?geo=All) 
   
 ## <a name="what-happens-when-someone-forwards-an-email-that-contains-an-attachment"></a>첨부 파일을 포함 하는 전자 메일 전달 누군가가 때 어떻게 됩니까?
 
-조직의 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md)에 대 한 동적 배달을 사용 하는 첨부 파일을 포함 하는 전자 메일 받는 사람이 가정해 보겠습니다. 이제 해당 사용자를 다른 사람에 게 전자 메일 메시지를 전달 하려고 한다고 가정 합니다. 어떻게 해야 할까요? 받는 사람을 추가로 ATP 안전한 첨부 파일 정책에 포함 되는지 여부에 따라 다릅니다.
+조직의 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md)에 대 한 동적 배달을 사용 하는 첨부 파일을 포함 하는 전자 메일 받는 사람이 가정해 보겠습니다. 이제 다른 사람에 게 전자 메일 메시지를 전달 하는 그 사람 경우를 가정해 보겠습니다. 어떻게 해야 할까요? 받는 사람을 추가로 ATP 안전한 첨부 파일 정책에 포함 되는지 여부에 따라 다릅니다.
   
 - 동적 배달 옵션을 사용 하는 ATP 안전한 첨부 파일 정책에 포함 되는 받는 사람을 받는 호환 파일을 미리 보고 하는 기능 개체 틀을 표시 합니다.
     
@@ -62,13 +64,13 @@ ATP 안전한 첨부 파일 검사 가져오고 Office 365 데이터가 있는 �
     
 - 전자 메일 메시지의 아웃 라우팅되는 한 후 사용자 지정 규칙을 사용 하 여 사용자의 사서함에 다시
     
-- 호스팅된 사서함 로그 아웃 하 고 보관 폴더를 포함 하 여 다른 위치에 (자동 또는 수동) 이동 된 메시지
+- 이동 (자동 또는 수동) 호스팅된 사서함 로그 아웃 하 고 보관 폴더를 포함 하 여 다른 위치에 있는 전자 메일 메시지
     
-- 삭제 된 메시지
+- 삭제 된 전자 메일 메시지
     
 - 오류 상태에 있는 사용자의 사서함 검색 폴더
     
-- Exchange Online 관리자가 Exclaimer를 활성화 하는 환경입니다. (참조 [ATP 동적 배달 및 Exclaimer를 사용 하는 경우 첨부 파일이 있는 메시지 배달 되지 않습니다](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery).)
+- Exchange Online 관리자가 Exclaimer를 활성화 하는 환경입니다. 이 해결 하려면 참조 [ATP 동적 배달 및 Exclaimer 사용 되는 경우 첨부 파일이 있는 메시지 배달 되지 않습니다](https://support.microsoft.com/help/4014438/messages-with-attachments-are-not-delivered-when-atp-dynamic-delivery)
 
-- 기업이 Internet Mail Extensions ([S/MIME](s-mime-for-message-signing-and-encryption.md))를 사용 하 여 암호화 된 메시지
+- 메시지 [(S/MIME) 기업이 Internet Mail Extensions](s-mime-for-message-signing-and-encryption.md)를 사용 하 여 암호화)
     

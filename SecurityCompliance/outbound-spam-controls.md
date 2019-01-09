@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 아웃 바운드 스팸 제어
+title: Office 365에서 아웃바운드 스팸 제어
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 description: 조직으로 표시 된 대량 메일 많은 스팸으로 보내는 경우 Office 365를 사용한 전자 메일을 보내지 못하도록 차단 될 수 있습니다. 이 문제가 발생 하는 이유 및 그에 대 한 수행할 수 있는 작업에 대 한 자세한 내용은이 문서를 읽어보십시오.
-ms.openlocfilehash: 916a062d08e01954e7736b6f22d297aea04baf28
-ms.sourcegitcommit: 17dda7ece5c9e884944a92ac0f842cf1e62ec506
+ms.openlocfilehash: a18e584a260218a53494ef49dd2d7380a0a9a3f1
+ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "23977583"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27769791"
 ---
-# <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃 바운드 스팸 제어
+# <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃바운드 스팸 제어
 
 취할 우리는 공유 서비스 때문에 아웃 바운드 스팸을 심각 하 게 관리 합니다.  다 수의 고객 및 리소스에 있는 한 고객 아웃 바운드 스팸 메일을 보내는 경우 해당 서비스의 아웃 바운드 IP 신뢰도 저하 될 수 있습니다 다른 고객에 대 한 전자 메일의 성공적인 스팸과 영향을의 공유 풀 뒤에 있습니다. 고객 B spams 및 다양 한 제 3 자 IP blocklists 것을 사용 하는 IP 주소를 나열 하는 경우에 A 고객에 게 공정 없습니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "23977583"
 
 많은 양의 손상 된 계정 및 불량 목록 입수 방식으로 대량 메일에서 서비스를 보호 및 전자 메일을 보내려고 원하는 고객에 게 간의 균형을 두는 것이 어렵습니다. 다시, 제 3 자 blocklist에 방문 하는 아웃 바운드 ip 비용 아웃 바운드 전자 메일을 발송에서 고객을 차단 하는 보다 높습니다. [Exchange Online 서비스 설명](https://technet.microsoft.com/en-us/library/exchange-online-limits.aspx#Receiving and sending limits)에 설명된대로 EOP를 사용 하 여 없는 대량 전자 메일 보내기는 지원 되는 서비스를 사용 하 고 "최상의" 별로 허용 됩니다. 대량 전자 메일을 전송 하지 않으려는 고객에 대 한 다음을 권장 합니다.
 
-a. **자체 온-프레미스 메일 서버를 통해 대량 전자 메일을 전송**합니다. 즉, 고객이이 유형의 전자 메일에 대 한 자체 전자 메일 인프라를 유지 관리 해야 합니다.
+a. **메일 서버 자체 온-프레미스를 통해 대량 전자 메일을 보냅니다**. 즉, 고객이이 유형의 전자 메일에 대 한 자체 전자 메일 인프라를 유지 관리 해야 합니다.
 
 b. **사용 하는 3 자 대량 emailer 대량 통신을 보낼 수**있습니다. 여러 제 3 자 대량 메일 대량 전자 메일을 전송 하는 것이 있는 유일한 비즈니스 있습니다. 좋은 전자 메일 보내기 사례를 포함 하 고 시행 하기 위한 전용 포리스트로 지정 하는 리소스를가지고 있습니다.를 확인 하려면 고객 작업할 수 있습니다. 
 

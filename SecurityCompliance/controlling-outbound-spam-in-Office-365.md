@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 description: 조직으로 표시 된 대량 메일 많은 스팸으로 보내는 경우 Office 365를 사용한 전자 메일을 보내지 못하도록 차단 될 수 있습니다. 이 문제가 발생 하는 이유 및 그에 대 한 수행할 수 있는 작업에 대 한 자세한 내용은이 문서를 읽어보십시오.
-ms.openlocfilehash: 947ea4ed7a37b2ba1c5332aa07582fa4c4949eb0
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: 2d198bc1b61da429f45f0d1f54c63876d59d890f
+ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972250"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27769812"
 ---
 # <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃바운드 스팸 제어
 
@@ -47,7 +47,7 @@ ms.locfileid: "24972250"
 
 많은 양의 손상 된 계정 및 불량 목록 입수 방식으로 대량 메일에서 서비스를 보호 및 전자 메일을 보내려고 원하는 고객에 게 간의 균형을 두는 것이 어렵습니다. 다시, 제 3 자 blocklist에 방문 하는 아웃 바운드 ip 비용 아웃 바운드 전자 메일을 발송에서 고객을 차단 하는 보다 높습니다. [Exchange Online 서비스 설명](https://technet.microsoft.com/library/exchange-online-limits.aspx#RecipientLimits)에 설명된대로 EOP를 사용 하 여 없는 대량 전자 메일 보내기는 지원 되는 서비스를 사용 하 고 "최상의" 별로 허용 됩니다. 대량 전자 메일을 전송 하지 않으려는 고객에 대 한 다음을 권장 합니다.
 
-1. **온-프레미스 메일 서버 자체를 통해 대량 전자 메일을 전송**합니다. 즉, 고객이이 유형의 전자 메일에 대 한 자체 전자 메일 인프라를 유지 관리 해야 합니다.
+1. **메일 서버 자체 온-프레미스를 통해 대량 전자 메일을 보냅니다**. 즉, 고객이이 유형의 전자 메일에 대 한 자체 전자 메일 인프라를 유지 관리 해야 합니다.
 
 2. **타사의 대량 통신을 보낼 대량 emailer 사용**합니다. 여러 제 3 자 대량 메일 대량 전자 메일을 전송 하는 것이 있는 유일한 비즈니스 있습니다. 좋은 전자 메일 보내기 사례를 포함 하 고 시행 하기 위한 전용 포리스트로 지정 하는 리소스를가지고 있습니다.를 확인 하려면 고객 작업할 수 있습니다. 
 

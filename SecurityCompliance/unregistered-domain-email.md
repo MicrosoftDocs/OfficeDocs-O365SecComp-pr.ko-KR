@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 많은 양의 등록 되지 않은 도메인 전자 메일을 전송 하면 위험 시작 차단 되는 전자 메일을 실행 합니다. 자세한 내용은이 문서를 읽어보십시오.
-ms.openlocfilehash: 30d7887be0429195380f2c4ae1a328904dffd69c
-ms.sourcegitcommit: 6d72cdb882b93edf6dfddb5ff2e6d8a16e2fa0bc
+ms.openlocfilehash: f632c5f7ab94a200a364828408b13c0026335869
+ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25596731"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27769789"
 ---
 # <a name="unregistered-domain-email-what-you-need-to-know"></a>등록 되지 않은 도메인 전자 메일: 필요한 알고
 
@@ -50,9 +50,9 @@ Office 365 테 넌 트를 통해 Exchange Online Protection (EOP)는 일부 메�
 
 [Office 365 스팸 방지 보호](anti-spam-protection.md)
 
-[Office 365에서 전자 메일 배달 못함 보고서](https://support.office.com/article/email-non-delivery-reports-in-office-365-51daa6b9-2e35-49c4-a0c9-df85bf8533c3)
+[Office 365의 전자 메일 배달 못 함 보고서(NDR)](https://support.office.com/article/email-non-delivery-reports-in-office-365-51daa6b9-2e35-49c4-a0c9-df85bf8533c3)
 
-[사서함에 대 한 전자 메일 전달 구성](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
+[사서함의 전자 메일 전달 구성](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
 
 [Office 365를 사용하여 전자 메일을 보내도록 다기능 장치 또는 응용 프로그램을 설정하는 방법](https://support.office.com/en-us/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
 

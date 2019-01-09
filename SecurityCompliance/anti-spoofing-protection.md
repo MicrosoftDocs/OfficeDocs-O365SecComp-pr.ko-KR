@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 description: 이 문서에서는 방법 Office 365을 완화 피싱 공격에 대해 사용 하 여 보낸 사람이 도메인, 위장 된 도메인, 즉 위조를 설명 합니다. 메시지를 분석 하 여이 기능을 수행 하기 및 neithe 표준 전자 메일 인증 방법 및 기타 보낸사람 신뢰도 기술을 사용 하 여 인증 될 수 있는 위치를 차단 합니다. 이 변경 피싱 공격에 노출 되는 조직에서 Office 365의 수를 줄이는 구현 됩니다.
-ms.openlocfilehash: 95f4995b6447870700bc483f205ca3ff831045f5
-ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
+ms.openlocfilehash: 19e7ea957592a486a559dac222a51139bf79b574
+ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27194719"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27769862"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -414,21 +414,21 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
   
 |**우선 순위**|**정책**|**종류**|**여기서 관리?**|**적용 대상**|
 |:-----|:-----|:-----|:-----|:-----|
-|1   <br/> |Malware  <br/> |MALW  <br/> |[맬웨어 정책](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|2   <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|3   <br/> |높은 정확도 스팸  <br/> |HSPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|4   <br/> |스푸핑  <br/> |스푸핑  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553), [스푸핑 인텔리전스](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |모든 조직  <br/> |
-|5   <br/> |스팸  <br/> |SPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|6   <br/> |대량  <br/> |대량  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|7   <br/> |도메인 가장  <br/> |DIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당  <br/> |
-|8   <br/> |사용자 가장  <br/> |UIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당 <br/> |
+|1  <br/> |Malware  <br/> |MALW  <br/> |[맬웨어 정책](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|2  <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|3  <br/> |높은 정확도 스팸  <br/> |HSPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|4  <br/> |스푸핑  <br/> |스푸핑  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553), [스푸핑 인텔리전스](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |모든 조직  <br/> |
+|5  <br/> |스팸  <br/> |SPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|6  <br/> |대량  <br/> |대량  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|7  <br/> |도메인 가장  <br/> |DIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당  <br/> |
+|8  <br/> |사용자 가장  <br/> |UIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당 <br/> |
    
 여러 다른 피싱 방지 정책을 가장 높은 우선순위에 하나씩 적용 됩니다. 예, 두 정책이 있다고 가정 합니다.
   
 |**정책**|**우선 순위**|**사용자/도메인 가장**|**스푸핑 방지**|
 |:-----|:-----|:-----|:-----|
-|A  <br/> |1   <br/> |On  <br/> |Off  <br/> |
-|B  <br/> |2   <br/> |Off  <br/> |On  <br/> |
+|A  <br/> |1  <br/> |On  <br/> |Off  <br/> |
+|B  <br/> |2  <br/> |Off  <br/> |On  <br/> |
    
 메시지에는 및 스푸핑 및 사용자 가장으로 식별 된 및 사용자의 동일한 집합 정책 A와 B 정책으로 범위가 지정 된 후 메시지 스푸핑은으로 처리 됩니다 하 고 아무 작업도 이후 적용 되 백신 스푸핑 꺼져 스푸핑 사용자 가장 (8) 보다 더 높은 우선순위 (4)에서 실행 되 고 있습니다.
   
@@ -444,7 +444,7 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
   
 ![Office 365를 고객 MX 레코드를 가리키지 않습니다.](media/62127c16-cfb8-4880-9cad-3c12d827c67e.jpg)
   
-다른 서버를 Exchange 온-프레미스 메일 서버, Ironport, 예: 장치를 필터링 하는 메일 수 또는 다른 클라우드 서비스를 호스트 합니다.
+Exchange 온-프레미스 메일 서버, Ironport, 예: 장치를 필터링 하는 메일 또는 다른 클라우드 서비스를 호스팅하는 다른 서버 수 있습니다.
   
 받는 사람 도메인의 MX 레코드를 가리키지 않을 Office 365를 하는 경우 사용 하지 않으려면 스푸핑 방지 Office 365 받는 도메인의 MX 레코드를 조회 하 고 다른 서비스를 가리키는 경우 스푸핑 방지를 생략 하기 때문에 필요 하지 않은 됩니다. 도메인의 다른 서버를 앞에는 경우를 모르는 경우에 MX 레코드를 조회 MX 도구 상자와 같은 웹사이트를 사용할 수 있습니다. 다음과 같은 라고 표시 될 수 있습니다.
   
