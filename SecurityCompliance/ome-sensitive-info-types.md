@@ -3,7 +3,7 @@ title: 중요 한 정보에 대 한 새 Office 365 메시지 암호화 정책
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/7/2019
+ms.date: 1/9/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 요약:는 자동으로 모든 테 넌 트에 제공 하는 중요 한 정보 형식에 대 한 Office 365 메시지 암호화 정책을 적용 합니다.
-ms.openlocfilehash: f5996707d1cafe8dc1bf90856878de0a4fb7b77b
-ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
+ms.openlocfilehash: a8cd132af2b1429698ea92779a3c54559e2b13e2
+ms.sourcegitcommit: b936a2fd4b7f7a7099b96cc29580ed55bdb8bf2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27752092"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789456"
 ---
 # <a name="office-365-message-encryption-policy-for-sensitive-information"></a>중요 한 정보에 대 한 office 365 메시지 암호화 정책
 
@@ -30,7 +30,7 @@ ms.locfileid: "27752092"
 
 ## <a name="sensitive-information-type-policy-details"></a>중요 한 정보 유형 정책 세부 정보
 
-조직에서 사용 하 여 조직의 외부로 나가는 전자 메일을 자동으로 암호화 하는 Exchange 메일 흐름 규칙을 만들는 *암호화 전용* 정책 다음과 같은 중요 한 정보 형식을 포함 하는 경우:
+조직에서 사용 하 여 조직의 외부로 나가는 전자 메일을 자동으로 암호화 하는 Exchange 메일 흐름 규칙을 만들는 *암호화 전용* 정책 전자 메일 또는 해당 첨부 파일에 다음과 같은 중요 한 정보 유형 포함 되는 경우:
 
 - ABA 라우팅 번호
 - 신용 카드 번호
@@ -70,6 +70,6 @@ ms.locfileid: "27752092"
    Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
    ```
 
-## <a name="how-do-i-disable-the-automatic-policy"></a>자동 정책의 비활성화 하려면 어떻게 합니까?
+## <a name="how-do-i-disable-or-customize-the-automatic-policy"></a>사용 하지 않도록 설정 하거나 자동 정책을 사용자 지정 어떻게 해야 합니까?
 
-하면 하지 않았으므로 옵트아웃이 변경 하 고 Exchange 메일 규칙을 이미 만든 경우 있습니다 수 [규칙을 사용 하지 않도록 설정](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) **메일 흐름**으로 이동 하 여 > **규칙** 에서 Exchange 관리 센터 (EAC) 및 "*암호화 아웃 바운드 규칙을 사용 하지 않도록 설정 중요 한 전자 메일 상자 규칙) (부재중*"입니다.
+[사용 하지 않거나 규칙을 편집](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) **메일 흐름**으로 이동 하 여 수 하면 하지 않았으므로 옵트아웃이 변경 하 고 Exchange 메일 흐름 규칙을 이미 만든 경우 > **규칙** 에서 Exchange 관리 센터 (EAC) 및 "*암호화 규칙을 사용 하지 않도록 설정 (로그 아웃 상자 규칙) 중요 한 아웃 바운드 전자 메일이*"입니다.
