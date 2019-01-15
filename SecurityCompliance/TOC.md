@@ -156,7 +156,7 @@
 ### [콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)
 ### [콘텐츠 검색 결과 내보내기 ](export-search-results.md)
 ### [콘텐츠 검색 보고서 내보내기](export-a-content-search-report.md)
-### [전자 메일 메시지 검색 및 삭제](search-for-and-delete-messagesadmin-help.md)
+### [전자 메일 메시지 검색 및 삭제](search-for-and-delete-messages-in-your-organization.md)
 ### [Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
 ### [여러 콘텐츠 검색 일괄 편집](bulk-edit-content-searches.md)
 ### [ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비](csv-file-for-an-id-list-content-search.md)
@@ -264,9 +264,9 @@
 ## [SIEM 서버 통합](siem-server-integration.md)
 
 # 규정 준수 솔루션
-## [Microsoft Service Trust Portal 시작](get-started-with-service-trust-portal.md)
-## [Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-## [DSR 사례 도구로 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
+## [Microsoft 서비스 보안 포털](get-started-with-service-trust-portal.md)
+## [규정 준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [GDPR 데이터 주체 요청 도구](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)
 ### [개요: GDPR에 대한 Office 365 보호](office-365-info-protection-for-gdpr-overview.md)
 ### [개인 데이터 검색 및 찾기](search-for-and-find-personal-data.md)
