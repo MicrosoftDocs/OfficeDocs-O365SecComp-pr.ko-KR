@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: 6891184b49aa4ea03d5c13672ac9b95fc9e6d162
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 29676bf7c326adf366cca79a59f5b4c40c672baa
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238450"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014820"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 
@@ -30,15 +30,15 @@ ms.locfileid: "26238450"
 
 SharePoint 온라인, 비즈니스용 OneDrive, Microsoft teams에서의 파일이 악성으로 확인되었을 시 ATP는 해당 파일을 잠그기 위해 파일의 저장소와 직접 통합합니다. 다음의 그림은 라이브러리에서 탐지된 악성 파일의 예를 보여 줍니다.
   
-[![악성 파일로 탐지된 한 개의 파일을 포함한 비즈니스용 OneDrive에 있는 파일들의 스크린샷](media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+[![악성 파일로 탐지된 한 개의 파일을 포함한 비즈니스용 OneDrive에 있는 파일](media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
 차단된 파일이 여전히 문서 라이브러리와 웹, 모바일 또는 데스크톱 응용 프로그램에 있을지라도 차단된 파일은 열기, 복사, 이동 혹은 공유할 수 없습니다. 하지만 사용자는 차단된 파일을 삭제할 수 있습니다. 사용자의 모바일 장치에서 보이는 예시는 다음과 같습니다:
   
-[![OneDrive 모바일 앱의 비즈니스용 OneDrive에서 차단된 파일을 삭제하는 스크린샷](media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+[![OneDrive 모바일 앱의 비즈니스용 OneDrive에서 차단된 파일 삭제](media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
 Office 365의 구성 방식에 따라 사용자는 차단된 파일을 다운로드하거나 하지 못할 수 있습니다. 사용자의 모바일 장치에서 차단된 파일을 다운로드하는 스크린샷은 다음과 같습니다:
   
-[![비즈니스용 OneDrive에서 차단된 파일을 다운로드하는 스크린샷](media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
+[![비즈니스용 OneDrive에서 차단된 파일 다운로드](media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)](https://support.office.com/article/01e902ad-a903-4e0f-b093-1e1ac0c37ad2)
   
 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
   
