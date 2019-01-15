@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 description: 보안에서 보고서에 대 한 일정을 설정 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 4251296c75629062ca5cba2e6c2e1cb3972b3f8a
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: b1c253f1af6369fc17f5f620c464bf1ed231cbde
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706022"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014780"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안에서 보고서에 대 한 일정을 만들 &amp; 준수 센터
 
@@ -29,7 +29,7 @@ ms.locfileid: "26706022"
 > [!IMPORTANT]
 > 이 작업을 수행 하려면 필요한 권한이 있는지 확인 합니다. Office 365 전역 관리자, 보안 관리자 및 보안 독자 보안에서 보고서에 액세스할 수 있는 일반적으로 &amp; 준수 센터입니다. 사용 권한에 대 한 자세한 내용은 참조 하십시오. [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.
   
-1. [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드**합니다.
+1. [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드**합니다.
     
 2. 보고서를 선택 합니다. 이 예제에 대 한 위협 보호 상태 보고서를 선택 하겠습니다 했습니다.
     

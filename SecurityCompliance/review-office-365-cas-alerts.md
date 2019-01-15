@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97e9c3d9-df89-458e-924b-369becee5532
 description: Office 365 클라우드 응용 프로그램 보안에서 경고 페이지를 사용 하 여를 잠재적 문제를 보고 하 여 작업도 하지 않습니다. 해제 하 고 또는 경고를 확인 하 고, 필요한 경우에 사용자 계정이 일시 중단 수 있습니다.
-ms.openlocfilehash: 16d24ef7075a2db1dab86ee322b14f886c48b98b
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 2665f4ebc9c5c24b95da64954a606dfc0df99082
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706122"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014830"
 ---
 # <a name="review-and-take-action-on-alerts-in-office-365-cloud-app-security"></a>검토 하 고 필요한 작업을 Office 365 Cloud App Security 검토 및 알림 작업 수행
   
@@ -32,7 +32,7 @@ ms.locfileid: "26706122"
   
 ## <a name="how-to-get-to-the-alerts-page"></a>알림 페이지로 이동 하는 방법
 
-1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     

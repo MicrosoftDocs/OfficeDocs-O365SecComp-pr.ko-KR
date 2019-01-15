@@ -12,23 +12,23 @@ search.appverid:
 - MOE150
 ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
 description: 설정 및 사용자 지정 날짜 범위 및 보안에서 필터를 사용 하 여 보고서를 다운로드 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: 4bfd2b0cc9d0076085e312c7478a0f356b4f39d5
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 313caf1e6d7a4cdca74979c3a5ccdbc413c6c7db
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706032"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014750"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>설정 및 보안에서 사용자 지정 보고서를 다운로드 &amp; 준수 센터
 
-[보안 &amp; 준수 센터](https://security.microsoft.com), 여러 [보고서 및 의견](reports-and-insights-in-security-and-compliance.md) 조직의 보안 팀을 완화 하 고 조직에 대 한 위협 해결 하는데 사용할 수 있습니다. 조직의 보안 팀의 구성원 인 경우에 사용자 정의 날짜 범위 및 필터를 사용 하 여 보고서를 구성할 수 있으며 사용자 지정 보고서를 다운로드 한 다음 수 있습니다. 
+[보안 &amp; 준수 센터](https://protection.office.com), 여러 [보고서 및 의견](reports-and-insights-in-security-and-compliance.md) 조직의 보안 팀을 완화 하 고 조직에 대 한 위협 해결 하는데 사용할 수 있습니다. 조직의 보안 팀의 구성원 인 경우에 사용자 정의 날짜 범위 및 필터를 사용 하 여 보고서를 구성할 수 있으며 사용자 지정 보고서를 다운로드 한 다음 수 있습니다. 
   
 ## <a name="download-a-custom-report"></a>사용자 지정 보고서를 다운로드 합니다.
 
 > [!IMPORTANT]
 > 필요한 되어있는지 확인 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. Office 365 전역 관리자, 보안 관리자 및 보안 독자 보안에서 보고서에 액세스할 수 있는 일반적으로 &amp; 준수 센터입니다. 
   
-1. [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드**합니다.
+1. [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드**합니다.
     
 2. 보고서를 선택 합니다. (이 예에서는 메시지 처리 보고서.)<br/>![보고서를 다운로드 하려면 보고서 요청을 선택 합니다.](media/b566925d-b9d9-453d-9bdd-f2637c7ba140.png)
   

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba919c73-d021-404d-9850-eec57e78678c
 description: Office 365 고급 보안 관리 설정, 클라우드 앱 보안 Microsoft Azure에 의해 구동 하는 방법을 알아보려면이 문서를 읽어보십시오.
-ms.openlocfilehash: 586ebc5f496652e05b4ab6d2421fa9bc42603895
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 8964a0b413b0350188c7f61638d04032534e5374
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706292"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014790"
 ---
 # <a name="turn-on-office-365-cloud-app-security"></a>Office 365 Cloud App Security 켜기
   
@@ -30,7 +30,7 @@ ms.locfileid: "26706292"
 > [!IMPORTANT]
 > 다음 작업을 수행 하려면 전역 관리자 또는 보안 관리자 여야 합니다. 자세한 내용은 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. Office 365 클라우드 앱 보안 작동 하도록 하기 위해에서 수정, Office 365 환경에 대 한 **감사 로깅을 설정 해야** 합니다. 자세한 내용은 [Office 365 설정 또는 해제 로그 검색 감사](turn-audit-log-search-on-or-off.md)를 참조 하십시오. 
   
-1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://security.microsoft.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
     
 2. **경고** 로 이동 \> **관리 고급 알림**입니다.
     

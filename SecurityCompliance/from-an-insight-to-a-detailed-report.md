@@ -13,24 +13,24 @@ search.appverid:
 - MOE150
 ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
 description: 어떻게 이동할 수 있는 통찰력에서 보안에 대 한 자세한 보고서를 &amp; 데이터 손실 방지 예제를 통해 준수 센터입니다.
-ms.openlocfilehash: 82689b7f58dfc729fa78912f41ed89a3a2933bfb
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: d8ef40b000f9e5fcf7ee1826b020efc95776709c
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706112"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014860"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>연습 - 통찰력에서 자세한 보고서
 
 처음 사용 하는 경우 [보고서 및 Office 365 보안에 대 한 의견 &amp; 준수 센터](reports-and-insights-in-security-and-compliance.md), 방법을 쉽게 탐색할 수 있는 통찰력에서 대 한 자세한 보고서를 보는 것이 도움이 될 수 있습니다. 
   
-이것이 대 한 여러 연습 중 하나는 [보안 &amp; 준수 센터](https://security.microsoft.com)합니다. 추가 연습 [관련된 항목](#related-topics) 섹션을 참조 하십시오. 
+이것이 대 한 여러 연습 중 하나는 [보안 &amp; 준수 센터](https://protection.office.com)합니다. 추가 연습 [관련된 항목](#related-topics) 섹션을 참조 하십시오. 
   
 ## <a name="from-an-insight-to-a-detailed-report"></a>자세한 보고서에는 견해에서
 
 과정을 살펴보겠습니다 흐름 대시보드의 데이터 탐색에 대 한 자세한 보고서를 한 견해를 합니다. ( [데이터 손실 방지](data-loss-prevention-policies.md) 간단한 예제입니다.) 
   
-1. 대시보드로 시작 하는 것은 [보안 &amp; 준수 센터](https://security.microsoft.com)합니다. ( **보고서** 로 이동 \> **대시보드**.)<br/>![보안에서 &amp; 준수 센터 보고서 선택 \> 대시보드](media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
+1. 대시보드로 시작 하는 것은 [보안 &amp; 준수 센터](https://protection.office.com)합니다. ( **보고서** 로 이동 \> **대시보드**.)<br/>![보안에서 &amp; 준수 센터 보고서 선택 \> 대시보드](media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
   
 2. 위의 왼쪽 모서리는 대시보드의 옆에 **인 사이트 가지 주요 &amp; 권장 사항**, 것에 대 한 링크가 있습니다. ( **모두 보기**를 클릭 합니다.)<br/>![보안에서 &amp; 준수 센터 보고서 선택 \> 프로그램 위쪽 인 사이트를 참조 하는 대시보드](media/9bb64e11-494f-40a4-ab3d-8d3c7789f300.png)<br/>이 목록은 조직에 대 한 통찰력 우리 걸립니다.<br/>![보안에서 &amp; 준수 센터 목록에서 모든 정보를 볼 수 있습니다](media/1289af77-bf5a-444a-97a1-03d8a83f75a9.png)
   

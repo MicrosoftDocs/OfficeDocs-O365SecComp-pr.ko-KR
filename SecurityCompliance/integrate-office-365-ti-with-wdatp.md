@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 description: 보다 자세한 위협 관리 정보를 보려면 Windows Defender 고급 위협 보호와 Office 365 고급 위협 보호를 통합 합니다.
-ms.openlocfilehash: 1198f53c47811d69b93106c413e3d3a09d83e736
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 48e879c1d41b5aa662f5128e234be91eb8225e7b
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706142"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014770"
 ---
 # <a name="integrate-office-365-threat-intelligence-with-windows-defender-advanced-threat-protection"></a>Office 365 위협 인텔리전스와 Windows Defender Advanced Threat Protection 통합
 
@@ -34,7 +34,7 @@ ms.locfileid: "26706142"
 
 - 조직에 Office 365 위협 인텔리전스 및 Windows Defender ATP 있어야 합니다.
     
-- Office 365 전역 관리자 이거나 보안 관리자 역할에 할당 된 [보안 &amp; 준수 센터](https://security.microsoft.com)합니다. (참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md))
+- Office 365 전역 관리자 이거나 보안 관리자 역할에 할당 된 [보안 &amp; 준수 센터](https://protection.office.com)합니다. (참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md))
     
 - Office 365 위협 인텔리전스와 Windows Defender ATP 포털에 액세스할 수 있어야 합니다.
     
@@ -42,7 +42,7 @@ ms.locfileid: "26706142"
 
 Office 365와 Windows Defender ATP 포털에서 모두 Windows Defender ATP와 Office 365 위협 인텔리전스 통합 (영문) 설정 됩니다.
   
-1. Office 365 전역 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 와 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. 
+1. Office 365 전역 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 와 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. 
     
 2. **위협 관리** 를 선택 \> **위협 탐색기**입니다.
     
@@ -56,6 +56,6 @@ Office 365의 설정을 사용 하면를 변경한 후에 Windows Defender ATP�
 
 [Office 365 위협 인텔리전스](office-365-ti.md)
   
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Office 365 고급 위협 방지](office-365-atp.md)
   
 

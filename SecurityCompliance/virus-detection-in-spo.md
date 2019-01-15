@@ -3,7 +3,7 @@ title: SharePoint Online에서 바이러스 검색
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/17/2018
+ms.date: 01/14/2019
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 description: Office 365 SharePoint online 사용자가 업로드 하는 파일에서 바이러스를 검색 하 여 사용자 환경에서 맬웨어 보호 도움이 됩니다. 파일을 업로드할 때문 서 한 후에 대 한 바이러스 검색 됩니다. 감염 된 것 파일을 찾으면 사용자 수 없도록 다운로드 하거나이 파일을 동기화 한 속성이 설정 됩니다.
-ms.openlocfilehash: 22e983d35283ff96e1469fdf913e25b8d1d1c485
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: ab02d2d4e82e9427ec6b512490f94ccc9c14b54e
+ms.sourcegitcommit: 5ccc3dd0d1c087bffd3a8fc807d5d1750f046eeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533754"
+ms.lasthandoff: 01/14/2019
+ms.locfileid: "28009594"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online에서 바이러스 검색
 
@@ -48,7 +48,10 @@ Office 365 일반적인 바이러스 검색 엔진을 사용합니다. 엔진 �
   
 1. 사용자가 웹 브라우저를 열고 및 SharePoint Online에서 감염 된 파일을 다운로드 하려고 시도 합니다.
     
-2. 사용자 경고 바이러스에서 발견 된 파일을 다운로드 하려면 옵션이 제공 됩니다 및 자신의 바이러스 소프트웨어를 사용 하 여 치료 시도 되었는지에 제공 됩니다.
+2. 사용자에 게 알리는 경고 메시지에 바이러스가 발견 되었습니다 제공 됩니다. 사용자는 파일을 다운로드 하 고 자신의 바이러스 소프트웨어를 사용 하 여 치료 시도 하는 옵션에 제공 됩니다.
+
+> [!NOTE]
+> 바이러스 백신 경고 창에도 검색 된 파일을 다운로드 하는 사용자 수 없도록 **DisallowInfectedFileDownload** 매개 변수와 함께 Set-spotenant cmdlet을 사용할 수 있습니다. [DisallowInfectedFileDownload]를 참조 하십시오 (https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)합니다.
     
 ## <a name="what-happens-when-the-onedrive-sync-client-tries-to-sync-an-infected-file"></a>OneDrive 동기화 클라이언트는 감염 된 파일을 동기화 하 려 면 어떻게 됩니까?
 

@@ -3,7 +3,7 @@ title: Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
+ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'Office 365 클라우드 응용 프로그램 보안을 위해 수행할 수 있는 관리 작업은 일시 중단 또는 사용자 계정을 일시 수 있습니다. '
-ms.openlocfilehash: a5c75edefc6ddb87b5676c4253aafe04817f6a1d
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 09d6ae870aa1a6b0a619ccf20f8cc19b392e23a8
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533091"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014850"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는 복원
 
@@ -44,9 +44,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     
-3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.
-    
-    ![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
+3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.<br>![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br>
   
 4. 화면 위쪽 탐색 모음에서 **경고**를 선택 합니다.
     
@@ -62,7 +60,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 
 - [검토 하 고 필요한 작업을 Office 365 Cloud App Security 검토 및 알림 작업 수행](review-office-365-cas-alerts.md)
     
-- [Office 365 Cloud App Security을 사용하여 앱 사용 권한 관리](manage-app-permissions-in-ocas.md)
+- [Office 365 Cloud App Security를 사용하여 OAuth 앱 관리](manage-app-permissions-in-ocas.md)
     
 - [Office 365 클라우드 응용 프로그램 보안에 대 한 사용률 활동](utilization-activities-for-ocas.md) 을 검토 합니다.
     

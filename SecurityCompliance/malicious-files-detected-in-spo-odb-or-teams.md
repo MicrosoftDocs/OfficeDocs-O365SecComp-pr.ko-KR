@@ -1,5 +1,5 @@
 ---
-title: SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기
+title: SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 description: SharePoint, OneDrive, 또는 팀에서 감지 된 악의적인 파일에 대 한 정보를 보려면 이동할 위치를 하 고 해당 파일에서 작업을 수행 하는 방법에 알아봅니다.
-ms.openlocfilehash: c22e57e34cccafa3dd30a77a5a6011f2999f708c
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 435e1f449003f670f698c4e6813e18f5e83c498d
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706202"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014800"
 ---
-# <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive, 또는 팀이 Microsoft에서 감지 된 악의적인 파일에 대 한 정보 보기
+# <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 
 문서 라이브러리 및 팀 사이트의 악의적인 파일을 통해 조직을 보호 하는 [SharePoint, OneDrive 및 팀이 Microsoft office 365 ATP](atp-for-spo-odb-and-teams.md) 입니다. 악의적인 파일 감지 되 면 해당 파일 열기, 복사, 이동 또는 조직의 보안 팀에 의해 추가 조치가 때까지 공유할 수 있는 아무도 있도록 차단 됩니다. 검색 된 파일에 대 한 정보를 확인 하는 방법 및 수행할 동작을 자세히 알아보려면이 문서를 읽어보십시오. 
 
@@ -29,7 +29,7 @@ ms.locfileid: "26706202"
 
 상태 및 Office 365 ATP 하 여 검색 된 파일에 대 한 자세한 정보를 보려면 위협 보호 상태 보고서를 사용할 수 있습니다.
   
-1. [Office 365 보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 를 선택 \> **대시보드** \> **위협 보호 상태**입니다.
+1. [Office 365 보안 &amp; 준수 센터](https://protection.office.com), **보고서** 를 선택 \> **대시보드** \> **위협 보호 상태**입니다.
     
 2. 다음은 보고서의 오른쪽 위 모서리에서 **보기 세부 정보 테이블**을 선택 합니다.
     
