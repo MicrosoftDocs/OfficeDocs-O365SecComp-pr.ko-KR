@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 description: 위협 추적기, 보안상의 이유로 위에 계속 해 서 조직 새 주목할 만한 추적기를 포함 하는 방법에 대 한 설명 합니다.
-ms.openlocfilehash: e9dfdde563260ff7969f4749357c130ab98ce386
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 7729a78d0b18df7d73751f4480ef095bedc5965b
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706382"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015000"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-새롭고 중요한 기능
 
@@ -35,7 +35,7 @@ ms.locfileid: "26706382"
   
 추적기는 [Office 365 위협 정보를 바탕](office-365-ti.md)으로 가져올 많은 유용한 기능 중 일부에 불과합니다. 사용 가능한 경우, 하면 새로운 위협 추적기 [주목할 만한 추적기](threat-trackers.md#notey), [인기 추적기](threat-trackers.md#trending), [추적 된 쿼리](threat-trackers.md#trackedq)및 [저장 된 쿼리가](threat-trackers.md#savedq)포함 됩니다.
   
-본 조직에 대해 사용할 수 있을 때 위협 추적기를 사용 하려면 보안으로 이동 &amp; 준수 센터 ([https://security.microsoft.com](https://security.microsoft.com)) **위협 관리** 를 선택 하 고 \> **위협 추적 (영문)**.
+본 조직에 대해 사용할 수 있을 때 위협 추적기를 사용 하려면 보안으로 이동 &amp; 준수 센터 ([https://protection.office.com](https://protection.office.com)) **위협 관리** 를 선택 하 고 \> **위협 추적 (영문)**.
   
 > [!NOTE]
 > 위협 추적기를 사용 하는 Office 365 전역 관리자, 보안 관리자 또는 보안 판독기 이어야 합니다. 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 

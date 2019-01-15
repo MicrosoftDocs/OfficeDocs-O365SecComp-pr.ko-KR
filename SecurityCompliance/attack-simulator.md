@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 description: Office 365 전역 관리자는 조직에서 사실적인 공격 시나리오를 실행 하려면 공격 시뮬레이터를 사용할 수 있습니다. 이 도울수 식별 하 고 실제 공격 비즈니스를 방문한 전에 공격에 취약 한 사용자를 찾을 수 있습니다.
-ms.openlocfilehash: 1a1d22b0b36ce8b6a2086296be8f8b5d47d79280
-ms.sourcegitcommit: d512c1df01377e305e8d5c0170c822cf78f09565
+ms.openlocfilehash: 3449e29197aa5a7a0b63a805ad8cc429f8f8f81b
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "27472001"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015040"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
@@ -66,7 +66,7 @@ ms.locfileid: "27472001"
   
 **전자 메일 본문** 필드 자체에서 직접 서식 있는 HTML 편집기를 만들 수도 있고 HTML 원본으로 작업할 수 있습니다.
   
-1. [보안 &amp; 준수 센터](https://security.microsoft.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
+1. [보안 &amp; 준수 센터](https://protection.office.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
     
 2. 공격에 대 한 의미 있는 캠페인 이름을 지정 하거나 서식 파일을 선택 합니다. <br/>![피싱 시작 페이지](media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
   
@@ -96,7 +96,7 @@ ms.locfileid: "27472001"
   
 ### <a name="to-simulate-a-password-spray-attack"></a>암호 스프레이 공격을 시뮬레이션 하기 위해
 
-1. [보안 &amp; 준수 센터](https://security.microsoft.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
+1. [보안 &amp; 준수 센터](https://protection.office.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
     
 2. 공격에 대 한 의미 있는 캠페인 이름을 지정 합니다.
     
@@ -112,7 +112,7 @@ ms.locfileid: "27472001"
   
 ### <a name="to-simulate-a-brute-force-password-attack"></a>무작위 암호 공격을 시뮬레이션 하기 위해
 
-1. [보안 &amp; 준수 센터](https://security.microsoft.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
+1. [보안 &amp; 준수 센터](https://protection.office.com), **위협 관리** 를 선택 \> **공격 시뮬레이터**합니다.
     
 2. 공격에 대 한 의미 있는 캠페인 이름을 지정 합니다.
     

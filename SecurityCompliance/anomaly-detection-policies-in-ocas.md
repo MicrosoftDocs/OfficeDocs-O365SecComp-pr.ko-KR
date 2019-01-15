@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: 'Office 365 클라우드 앱 보안에서 예외 탐지 정책 잠재적인 문제를 발견할 수 있도록 기본 제공 알고리즘을 사용 합니다. 필터를 사용 하 여 (만들면 해당)을 조정 하는 적어도 하나 이상 검색 정책이 있어야 합니다. '
-ms.openlocfilehash: 8babe86dd5adb6c25a069096157cac121ad66ab1
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 62e2db3ba46f41bce5c5c4fab9e6c685838d68e8
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706342"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015080"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 변칙 검색 정책
 
@@ -51,7 +51,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
     
 ## <a name="view-your-anomaly-detection-policies"></a>예외 감지 정책 보기
 
-1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     
@@ -79,7 +79,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
   
 다음 표에서 기본 예외 탐지 정책, 수행 하는 기능 및 작동 하는 방법을 설명 합니다.
   
-|**예외 감지 정책 이름**|**작업 방법**|
+|**예외 감지 정책 이름**|**작동 방법**|
 |:-----|:-----|
 |불가능 한 출장  <br/> |두 사용자 활동을 식별 (단일 또는 여러 세션은)에서 들어오는 지리적으로 멀리 떨어져 있는 위치에서 시간 보다 짧은 기간 내 것이 라인으로 전환한 있는지 여부를 나타내는, 둘째 첫번째 위치에서 이동 하기 사용자는 서로 다른 사용자는 동일한 자격 증명 사용 하는 것입니다. 분명 한 "가양성" 불가능 한 출장 조건 예: Vpn 및 조직의 다른 사용자가 정기적으로 사용 되는 위치를 무시 하는 알고리즘을 학습 하는 컴퓨터 기술을 활용 하는이 감지 합니다. 이 검색에 새 사용자의 작업 패턴을 학습 해당 하는 동안 7 일간의는 초기 학습 기간이 있습니다.  <br/> |
 |자주 사용 하지 않는 국가에서 활동  <br/> |새로 추가 되거나 자주 사용 하지 않는 위치를 확인 하려면 과거의 작업 위치를 고려 합니다. 예외 검색 엔진은 조직에서 사용자가 사용 하는 이전 위치에 대 한 정보를 저장 합니다. 알림은 활동 하지 최근에 되거나 전혀 방문 되는 사용자 또는 조직에서 모든 사용자가 있는 위치에서 발생할 때 트리거됩니다.  <br/> |
@@ -89,11 +89,10 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 |여러 실패 한 로그인 시도  <br/> |단일 세션에서 여러 로그인 시도 실패 한 사용자를 식별 하 여 다른 초기 학습 관련 하 여 위반 시도에 나타낼 수 있습니다는 합니다.  <br/> |
    
 ## <a name="triage-anomaly-detection-alerts"></a>문제 분류 예외 감지 경고
-<a name="triage"> </a>
 
 알림 형태로,으로 이러한 경고를 신속 하 게 분류할 수 있으며 먼저 처리 결정할지 수 있습니다. 경고에 대 한 상황에 맞는 필요 큰 그림을 참조 하 고 여부 악의적인 자료는 하지만 실제로 확인할 수 있습니다. 다음 절차를 사용 하 여 알림을 살펴보기 (영문)을 시작 합니다.
   
-1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     

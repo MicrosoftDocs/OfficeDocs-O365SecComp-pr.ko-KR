@@ -3,7 +3,7 @@ title: Office 365 조직에서-관리자 도움말 전자 메일 메시지에 �
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/25/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office 365 보안에서 기능을 제거 하 고 검색을 사용 하 여 &amp; 준수 센터를 검색 하 고 조직의 모든 사서함에서 전자 메일 메시지를 삭제 합니다.
-ms.openlocfilehash: d9ca212585f1cb7e98e5f577ce47fcdef7ea979f
-ms.sourcegitcommit: 08f36794552e2213d0baf35180e47744d3e87fe4
+ms.openlocfilehash: 82ba38ef2c3c8c6b78743a4b2263dde0ef3a5b48
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23531871"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015020"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Office 365 조직에서-관리자 도움말 전자 메일 메시지에 대 한 검색 및 삭제
 
@@ -99,15 +99,26 @@ Office 365의 검색 하 여 조직에서 모든 사서함에서 전자 메일 �
   
 ## <a name="step-3-delete-the-message"></a>3 단계: 메시지를 삭제 합니다.
 
-만든 및 제거 하 고 보안와 연결 된 메시지를 반환 하려면 콘텐츠 검색을 구체화 하면 &amp; 준수 센터 PowerShell 마지막 단계는 메시지를 삭제 하려면 **새로 만들기 ComplianceSearchAction** cmdlet을 실행 합니다. 삭제 된 메시지는 사용자의 복구 가능한 항목 폴더로 이동 됩니다. 
+만든 및 제거 하 고 보안와 연결 된 메시지를 반환 하려면 콘텐츠 검색을 구체화 하면 &amp; 준수 센터 PowerShell 마지막 단계는 메시지를 삭제 하려면 **새로 만들기 ComplianceSearchAction** cmdlet을 실행 합니다. 소프트 또는 하드-삭제 메시지 수 있습니다. 일시 삭제 된 메시지는 사용자의 복구 가능한 항목 폴더로 이동 하 고 삭제 된 항목 보존 기간이 만료 될 때까지 유지 됩니다. 메시지 하드 삭제 된 사서함에서 영구적으로 제거에 대 한 표시 되 고 사서함 관리 되는 폴더 도우미에 의해 처리 되는 다음에 영구적으로 제거 됩니다. 단일 항목 복구는 사서함에 대해 활성화 된 경우 삭제 된 항목 보존 기간이 만료 후 영구적으로 하드 삭제 된 항목 제거 됩니다. 사서함은 보류 상태로 변경 하는 경우 삭제 된 메시지는 항목에 대 한 보존 기간 만료 될 때까지 또는 보존이 사서함에서 제거 될 때까지 유지 됩니다.
   
-다음 예에서 명령은 “피싱 메시지 제거”라는 콘텐츠 검색에 의해 반환된 검색 결과를 삭제합니다. 
+다음 예제에서는 명령은 일시 삭제 "피싱 메시지 제거" 이라는 콘텐츠 검색에서 반환 된 검색 결과입니다. 
 
 ```
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
 ```
-  
+다음 예제에서는 명령은 "피싱 메시지 제거" 이라는 콘텐츠 검색에서 반환 된 검색 결과 영구 삭제 됩니다. 
+
+```
+New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
+```
+
 *SearchName* 매개 변수에 지정 된 검색은 1 단계에서에서 만든 콘텐츠 검색 합니다. 
+
+하드-삭제 "피싱 메시지 제거" 콘텐츠 검색을 통해 반환 되는 항목을이 명령을 실행 합니다.
+
+```
+New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
+```
   
 자세한 내용은 [ComplianceSearchAction 새로 만들기를](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction)참조 하십시오.
   
@@ -120,11 +131,9 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
     
 - **메시지를 삭제 한 후 어떻게 해야 할까요?**
 
-    사용 하 여 삭제 된 메시지는 `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령은 사용자의 복구 가능한 항목 폴더에서 삭제 폴더로 이동 됩니다. Office 365에서 외 즉시 삭제 되지 않습니다. 사용자는 사서함에 대해 구성 된 삭제 된 항목 보존 기간에 따라 기간에 대 한 지운 편지함 폴더에서 메시지를 복구할 수 있습니다. 이 보존 기간이 만료 (또는 만료 사용자가 만료 되기 전에 메시지를 제거 하는 경우) 한 후 메시지 제거 폴더로 이동 하 고 사용자가 더이상 액세스할 수 없습니다. 한번 제거 폴더에 메시지는 사서함에 대해 단일 항목 복구를 사용 하는 경우 해당 사서함에 대해 구성 된 삭제 된 항목 보존 기간에 따라 기간에 대 한 보존 다시 됩니다. (Office 365에서 단일 항목 복구는 기본적으로 사용 새 사서함을 만들 때.) 삭제 된 항목 보존 기간이 만료 되 면 후 메시지를 영구적으로 삭제에 대 한 표시 하 고에 사서함 관리 되는 폴더 도우미에 의해 처리 되는 Office 365에서 제거 됩니다. 
-    
-- **어떻게 알 수 있습니까 메시지는 삭제 되며 사용자의 복구 가능한 항목 폴더를 이동?**
+   함께 삭제 하는 메시지는 `New-ComplianceSearchAction -Purge -PurgeType HardDelete` 명령은 제거 폴더로 이동 하 고 사용자가 액세스할 수 없습니다. 메시지를 제거 폴더로 이동한 후 사서함에 대해 단일 항목 복구를 사용 하는 경우 메시지 삭제 된 항목 보존 기간 동안 보존 됩니다. (Office 365에서 단일 항목 복구는 기본적으로 사용 새 사서함을 만들 때.) 삭제 된 항목 보존 기간이 만료 되 면 메시지를 영구적으로 삭제에 대 한 표시 하 고 사서함 관리 되는 폴더 도우미에 의해 처리 되는 다음에 Office 365에서 제거 됩니다. 
 
-    메시지를 삭제 한 후 동일한 콘텐츠 검색을 실행 하면 있습니다 같은 수의 검색 결과 계속 표시 됩니다 (하 고 사용자 사서함에서 메시지를 삭제 되지 않은 것으로 가정 수)입니다. 복구 가능한 항목 폴더를 검색 하는 콘텐츠를 검색 하기 때문에이 삭제 된 메시지는 이동 되는 위치를 실행 한 후은 `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령 합니다. 메시지가 복구 가능한 항목 폴더에 이동 된 있는지를 확인 하려면 (1 단계에서에서 만든 콘텐츠 검색으로 동일한 원본 사서함 및 검색 조건을 사용) 원본 위치 eDiscovery 검색을 실행 하 한 다음 검색 사서함으로 검색 결과 복사할 수 있습니다. 그런 다음 검색 사서함에서 검색 결과 볼 수 있으며 복구 가능한 항목 폴더의 메시지 이동 된 확인 수 있습니다. 원본 사서함 및 콘텐츠 검색에서 검색 쿼리 목록을 사용 하는 원본 위치 eDiscovery 검색 만들기 (영문) 하는 방법에 대 한 자세한 내용은 [eDiscovery 워크플로에서 사용 하 여 콘텐츠 검색](use-content-search-in-ediscovery.md) 을 참조 하십시오. 
+   사용 하는 경우는 `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령, 사용자의 복구 가능한 항목 폴더에서 삭제 폴더로 메시지 이동 됩니다. Office 365에서 외 즉시 삭제 되지 않습니다. 사용자는 사서함에 대해 구성 된 삭제 된 항목 보존 기간에 따라 기간에 대 한 지운 편지함 폴더에서 메시지를 복구할 수 있습니다. 이 보존 기간이 만료 (또는 만료 사용자가 만료 되기 전에 메시지를 제거 하는 경우) 한 후 메시지 제거 폴더로 이동 하 고 사용자가 더이상 액세스할 수 없습니다. 한번 제거 폴더에 메시지는 사서함에 대해 단일 항목 복구를 사용 하는 경우 해당 사서함에 대해 구성 된 삭제 된 항목 보존 기간에 따라 기간에 대 한 보존 됩니다. (Office 365에서 단일 항목 복구는 기본적으로 사용 새 사서함을 만들 때.) 삭제 된 항목 보존 기간이 만료 되 면 후 메시지를 영구적으로 삭제에 대 한 표시 하 고에 사서함 관리 되는 폴더 도우미에 의해 처리 되는 Office 365에서 제거 됩니다. 
     
 - **경우에 어떻게 50, 000 개 이상의 사서함에서 메시지를 삭제 해야 합니까?**
 
@@ -132,12 +141,12 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
     
 - **검색 결과에 포함 된 인덱싱되지 않은 항목을 삭제할 수 있습니까?**
 
-    아니요,는 `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령 인덱싱되지 않은 항목을 삭제 하지 않습니다. 
+    아니요,는 ' 새로 ComplianceSearchAction-삭제 명령이 인덱싱되지 않은 항목을 삭제 하지 않습니다. 
     
 - **원본 위치 유지 또는 소송 보존에 배치 된 이거나 Office 365 보존 정책에 할당 된 사서함에서 메시지를 삭제할 경우 어떻게 됩니까?**
 
-    메시지 삭제 (사용자가 또는 삭제 된 항목 보존 기간이 만료 후), 후 메시지 보존 기간이 만료 될 때까지 유지 됩니다. 보존 기간을 제한 하지 않으면 보존이 제거 되거나 보류 기간 변경 될 때까지 항목이 유지 됩니다.
+    제거 된 메시지를 제거 폴더로 이동한 후, 메시지 보존 기간이 만료 될 때까지 유지 됩니다. 보존 기간을 제한 하지 않으면 보존이 제거 되거나 보류 기간 변경 될 때까지 항목이 유지 됩니다.
     
-- **이유는 검색 및 제거 워크플로 구분할 다른 보안 &amp; 준수 센터 역할 그룹?**
+- **검색 이며 다른 보안 및 규정 준수 센터 역할 그룹으로 구분할 워크플로 제거할 이유?**
 
     앞에서 설명한 것 처럼 사용자를 eDiscovery 관리자 역할 그룹의 구성원 이거나 사서함을 검색 하려면 준수 검색 관리 역할을 할당 합니다. 메시지를 삭제 하려면 사용자 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 하는 합니다. 이렇게 하면 조직에서 사서함을 검색할 수 있는 하 고 메시지를 삭제할 수 있는 컨트롤을 수 있습니다. 

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 description: 찾기 및 Office 365 엔터프라이즈와 조직에 대 한 전자 메일 보안 보고서를 사용 하는 방법에 알아봅니다. 전자 메일 보안 보고서는 보안에서 사용할 수 있는 &amp; 준수 센터입니다.
-ms.openlocfilehash: 670317707c5695161f23615fb87fe93258e8d95b
-ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
+ms.openlocfilehash: 3fc6d3dd8468bc060efcaa7eadec2ff9257fe583
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27749332"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014990"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터
 
@@ -51,7 +51,7 @@ ms.locfileid: "27749332"
 > [!NOTE]
 > 위협 보호 상태 보고서는 고객에 게 [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP);가 사용할 수 있는 그러나 ATP 고객에 대 한 위협 보호 상태 보고서에 표시 되는 정보 나타날 EOP 고객 보다 다양 한 데이터를 가능성이 포함 됩니다. 예, EOP 고객 맬웨어 전자 메일, 하지만 하지 [SharePoint Online, OneDrive, 또는 Microsoft 팀의 악의적인 파일을 검색](atp-for-spo-odb-and-teams.md)하는 방법에 대 한 정보, ATP 관련 기능에서 검색 하는 방법에 대 한 정보를 볼 수 있습니다. ([ATP 보고서에 대 한 자세한 설명](view-reports-for-atp.md)입니다.)
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
   
 ![위협 보호 상태 보고서](media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
   
@@ -67,7 +67,7 @@ ms.locfileid: "27749332"
 
 **맬웨어 감지** 보고서에는 조직에 대 한 맬웨어를 포함 하는으로 얼마나 많은 들어오고 나가는 메시지 검색 된 표시 합니다. 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **맬웨어 감지**합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **맬웨어 감지**합니다.
   
 ![맬웨어 감지 보고서 예제](media/a1ba61a3-565a-46d6-b0d5-6a6cff6b31d7.png)
   
@@ -77,7 +77,7 @@ ms.locfileid: "27749332"
 
 **상위 맬웨어** 보고서에는 Exchange Online에서 검색 된 맬웨어의 다양 한 종류를 표시 합니다. 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **상위 맬웨어**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **상위 맬웨어**입니다.
   
 ![SCC-EOP 상위 맬웨어](media/763330b3-f56e-4ba4-b0bb-051500ae950a.png)
   
@@ -93,7 +93,7 @@ ms.locfileid: "27749332"
 
 **위쪽 보낸사람 및 받는 사람에 게** 보고서가 위쪽 전자 메일 보낸사람을 표시 하는 원형 차트입니다. 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **위쪽 보낸사람 및 받는 사람**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **위쪽 보낸사람 및 받는 사람**입니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> 위쪽 보낸사람 및 받는 사람](media/b5506b5c-2420-4a5a-9ea3-d654294ac838.png)
   
@@ -111,7 +111,7 @@ ms.locfileid: "27749332"
 
 얼마나 많은 스푸핑 메일 메시지 검색 된 **스푸핑 메일** 보고서에 표시 하 고 그 중 어떤 것 된 것으로 간주 "좋음" (스푸핑 메일 합법적인 업무상의 이유로 수행). 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **스푸핑 메일**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **스푸핑 메일**입니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> 스푸핑 메일](media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
   
@@ -123,7 +123,7 @@ ms.locfileid: "27749332"
 
 **스팸 감지** 보고서에는 Exchange Online에 의해 차단 되는 모든 스팸 콘텐츠를 표시 합니다. 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **스팸 감지**합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **스팸 감지**합니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> EOP 스팸 감지](media/028cff3c-79ce-4ec0-8f0f-ec32ac28243a.png)
   
@@ -139,7 +139,7 @@ ms.locfileid: "27749332"
 
 **송신 및 수신된 전자 메일** 보고서가 수신 및 발신 전자 메일을 스팸이 감지 된, 맬웨어 및 "양호한."로 식별 된 전자 메일을 포함 하는 방법에 대 한 정보를 표시 하는 스마트 보고서 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **송신 및 수신된 전자 메일**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **송신 및 수신된 전자 메일**입니다.
   
 ![보안에이 보고서를 보려면 &amp; 준수 센터, 보고서로 이동 \> 대시보드 \> 송신 및 수신된 전자 메일](media/0e710ed0-1b0e-4dac-8796-94a01a710f3a.png)
   
@@ -163,7 +163,7 @@ ms.locfileid: "27749332"
   
 ![User-Reported 메시지 보고서 시도 정크, 하지 정크, 또는 피싱으로 표시 된 메시지 사용자를 표시 합니다.](media/ad5e9a3d-b833-419c-bcc9-3425d9604ead.png)
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), 다음 중 하나를 수행 합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), 다음 중 하나를 수행 합니다.
   
 - **위협 관리** 로 이동 \> **대시보드** \> **메시지 사용자가 보고**합니다.
     
@@ -202,7 +202,7 @@ ms.locfileid: "27749332"
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)
+[Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
   
 [보고서 및 Office 365 보안에 대 한 의견 &amp; 준수 센터](reports-and-insights-in-security-and-compliance.md)
   

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법에 알아봅니다. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: 25f01b767726ebf02d5da5d18444fa0428f144ac
-ms.sourcegitcommit: 031781d0eecf33baabcd03ea53546d41076062b4
+ms.openlocfilehash: 2b2fa78a4dbd6fc8bd0e46d7f23402aff732e096
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240531"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014960"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
 
@@ -34,7 +34,7 @@ ms.locfileid: "27240531"
 
 [Office 365의 ATP 안전한 링크](atp-safe-links.md) 여러 목록, 조직의 사용자 지정 차단된 Url 목록 포함을 사용 합니다. 필요한 사용 권한이 하는 경우에 조직의 사용자 지정 목록을 설정할 수 있습니다. 조직의 기본 안전한 링크 정책을 편집 하 여이 작업을 수행 합니다.
   
-1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
+1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
     
 2. 왼쪽 탐색 영역 **위협 관리**, **정책** 선택 \> **안전 링크**입니다.
     

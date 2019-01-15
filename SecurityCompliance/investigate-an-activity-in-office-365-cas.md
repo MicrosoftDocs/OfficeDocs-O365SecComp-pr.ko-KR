@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud App Security의 활동 조사
+title: Office 365 Cloud App Security에서 활동 조사
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -13,14 +13,14 @@ search.appverid:
 - MOE150
 ms.assetid: 15fa4545-28b4-4dd4-bf85-88e0926bd5fc
 description: 'Office 365 클라우드 응용 프로그램 보안을을 찾고 조사 하는 데 활동 및 계정 하 여 Office 365 환경에서 소식을 볼 수 있습니다. '
-ms.openlocfilehash: 6b5aca33a73fbfaecf8133368a33956ddc92da7a
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: d988a86c5ceaa2ec46bc27f1aaff540fa3e0b3b4
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706462"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014900"
 ---
-# <a name="investigate-an-activity-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security의 활동 조사
+# <a name="investigate-an-activity-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 활동 조사
   
 |평가 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * *|
 |:-----|:-----|:-----|:-----|
@@ -30,7 +30,7 @@ Office 365 클라우드 앱 보안 [감사 로그를 Office 365](detailed-proper
   
 ## <a name="how-to-get-to-the-activity-log-page"></a>활동 로그 페이지로 이동 하는 방법
 
-1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. (참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md).)
+1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. (참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md).)
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     

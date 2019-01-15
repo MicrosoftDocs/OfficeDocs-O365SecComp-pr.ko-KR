@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
 description: 얼마나 안전 조직 실제로 Office 365에 지 궁금한 적이 있습니까? 보안 점수를 위해 여기 됩니다. 일반 작업 및 Offic 365의 보안 설정에 따라 조직의 보안을 분석 하 여 점수를 할당 하는 보안 점수입니다.
-ms.openlocfilehash: 0d19cd9512838bf2d8b0bff615ccaa1eea21266a
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 08d452f2b297948c13243a5eb36ae6e22839e545
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706182"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015071"
 ---
 # <a name="office-365-secure-score"></a>Office 365 보안 점수
 
@@ -28,7 +28,7 @@ ms.locfileid: "26706182"
 
 조직에 [Office 365 Enterprise](https://docs.microsoft.com/office365/enterprise/), [Microsoft 365 비즈니스](https://docs.microsoft.com/microsoft-365/business/)또는 Office 365 프리미엄을 포함 하는 구독 하는 경우 필요한 권한을 방문 하 여 조직의 보안 점수를 볼 수 있습니다 [https://securescore.office.com](https://securescore.office.com)합니다. 
 
-보안 및 규정 준수 센터를 방문 수 또는 ([https://security.microsoft.com](https://security.microsoft.com)), 현재 점수가 제공 하는 보안 점수 위젯을 찾아볼 수 있습니다.
+보안 및 규정 준수 센터를 방문 수 또는 ([https://protection.office.com](https://protection.office.com)), 현재 점수가 제공 하는 보안 점수 위젯을 찾아볼 수 있습니다.
 
 ![보안 점수 위젯](media/SecureScoreWidget-o365.png)
 
@@ -39,7 +39,7 @@ ms.locfileid: "26706182"
 > [!NOTE]
 > 예: 전역 관리자 또는 보안 관리자는 Office 365 관리자 보안 점수에 액세스 하려면 이어야 합니다.
   
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방법
 
 확장 한 다음 (예: OneDrive, SharePoint 및 Exchange) 사용 하는 Office 365 서비스 설정 및 작업을 확인 및 Microsoft에 의해 설정 된 초기 계획을 비교 합니다 점수 수치를 보호 합니다. 최상의 보안 방법으로는 어떻게 정렬 기준으로 점수를 얻을 수 있습니다.
   
@@ -55,7 +55,7 @@ ms.locfileid: "26706182"
   
 ![Office 365 보안 점수 도구의 점수 분석기 탭](media/SecureScore-ScoreAnalyzer-7days.png)
   
-다음은 차트 아래 범주별으로 점수 및 작업의 lsit를 볼 수 있습니다.
+다음은 차트 아래 범주별으로 점수 및 작업의 목록이 표시 됩니다.
   
 ![탭의 점수 분석기 선택 된 데이터 요소를 보여주는 그래프](media/SecureScore-Analyzer-breakdownbelowchart.png)
   

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 367f25d3-10a0-4a91-bdae-70ebb7a79c98
 description: Office 365 클라우드 응용 프로그램을 설정 하려면 보안 경고를 특정 활동을 발생 하거나 너무 자주 발생 하는 경우를 트리거할 수를 사용 하 여 작업 정책을 정의 합니다. 경고를 트리거하도록 정책을 설정 하 여에 대 한 알림을 받을 수 및 특정 활동을 모니터링 합니다.
-ms.openlocfilehash: 87173b5551a41b700728efff25aedeafa93188ee
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 6f5039d09dea98de970ab4bd28e95a6cfad73db4
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706362"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015010"
 ---
 # <a name="activity-policies-and-alerts-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 활동 정책 및 알림
 
@@ -47,7 +47,7 @@ Office 365 클라우드 응용 프로그램 보안 고급 클라우드 관리 �
     
 ## <a name="create-a-new-activity-policy"></a>새 작업 정책 만들기
 
-1. 전역 관리자 또는 보안 관리자로 이동 [https://security.microsoft.com](https://security.microsoft.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
     

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: d387e020e5834d4961e7bda50b418ea11b9f0f4d
-ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
+ms.openlocfilehash: a17f182f5c8d79e7863b26324a3c073ef18f14c9
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27749352"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014950"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
@@ -35,7 +35,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 > [!NOTE]
 > 위협 보호 상태 보고서는 고객에 게 [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP);가 사용할 수 있는 그러나 ATP 고객에 대 한 위협 보호 상태 보고서에 표시 되는 정보 나타날 EOP 고객 보다 다양 한 데이터를 가능성이 포함 됩니다. 예, ATP 고객에 대 한 위협 보호 상태 보고서에는 [SharePoint Online, OneDrive, 또는 Microsoft 팀의 악의적인 파일을 검색](atp-for-spo-odb-and-teams.md)하는 방법에 대 한 정보가 포함 됩니다. 이러한 정보 ATP, 특정 이므로 고객은 EOP 하지만 ATP 하지는 자신의 위협 보호 상태 보고서에서 해당 정보를 표시 되지 것입니다.
   
-에 위협 보호 상태 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
+에 위협 보호 상태 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **위협 보호 상태**입니다.
   
 ![ATP 위협 보호 상태 보고서](media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
   
@@ -55,7 +55,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 
 **ATP 파일 형식** 보고서 [ATP 안전한 첨부](atp-safe-attachments.md)하 여 악의적으로 감지 하는 파일의 종류를 표시 합니다.
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **ATP 파일 형식**입니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **ATP 파일 형식**입니다.
   
 ![ATP 파일 형식 보고서](media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
@@ -67,7 +67,7 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 
 **ATP 메시지 처리** 보고서가 악의적인 콘텐츠가 있는 것으로 검색 된 전자 메일 메시지에 대 한 수행 된는 작업을 표시 합니다. 
   
-이 보고서를 보려면는 [보안 &amp; 준수 센터](https://security.microsoft.com), **보고서** 로 이동 \> **대시보드** \> **ATP 메시지 처리**합니다.
+이 보고서를 보려면는 [보안 &amp; 준수 센터](https://protection.office.com), **보고서** 로 이동 \> **대시보드** \> **ATP 메시지 처리**합니다.
   
 ![ATP 메시지 처리 보고서](media/b0ff65c4-53d3-496d-bafa-8937a5eb69e5.png)
   

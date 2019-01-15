@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 description: 위협 인텔리전스를 사용 하 여를 찾아 악의적인 전자 메일을 조사 하는 방법에 알아봅니다.
-ms.openlocfilehash: 4440b4d1503b9a13977ef773b95fa64873662b85
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: b6d4f8a5d1fcfce4461b91796b1264f94d1eb4d1
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706042"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014920"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-threat-intelligence"></a>찾기 및 악의적인 전자 메일 (Office 365 위협 인텔리전스) 지정 된 배달 하 게 조사
 
@@ -48,7 +48,7 @@ ms.locfileid: "26706042"
 > [!TIP]
 > [위협 탐색기](get-started-with-ti.md#threat-explorer) (탐색기 라고도 함) 강력한 보고서는 찾기 (영문) 및 메시지를 삭제 한 악의적인 전자 메일 보낸 사람의 IP 주소를 식별 하 또는 자세한 조사를 위해 인시던트를 시작 등의 여러 용도로 사용할 수 있습니다. 다음 절차는 탐색기를 사용 하 여 검색 하 고 악의적인 전자 메일 받는 사람 사서함에서 삭제할에 중점을 둡니다. 
   
-1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 준수 센터입니다. 
+1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 준수 센터입니다. 
     
 2. 왼쪽 탐색 영역에서 **위협 관리** 를 선택 \> **탐색기**입니다.
     

@@ -3,6 +3,7 @@ title: Office 365 Cloud App Security 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
+ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -13,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 81f0ee9a-9645-45ab-ba56-de9cbccab475
 description: 'Office 365 클라우드 응용 프로그램 보안을 사용 하면 의심 스러운 활동 대 한 통찰력의 Office 365는 잠재적인 문제를 가진 하 고 필요한 경우 보안 문제를 해결 하는 작업을 수행 하는 상황을 조사할 수 있도록 합니다. '
-ms.openlocfilehash: 722c305288798b38ac125a693d9d150446458324
-ms.sourcegitcommit: cd452513d8761b2e50b4f9b6cf29422d146307ec
+ms.openlocfilehash: 62b1dc1d9285e60f30c1d5e541973640bb47ae35
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26864559"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014930"
 ---
 # <a name="overview-of-office-365-cloud-app-security"></a>Office 365 Cloud App Security 개요
   
@@ -39,7 +40,7 @@ Office 365 클라우드 앱 보안 제공 의심 스러운 활동에 대 한 통
   
 Office 365 보안을 통해 Office 365 클라우드 응용 프로그램 보안 포털을 얻을 수 &amp; 준수 센터입니다. 작업을 수행 하는 한 가지 좋은 방법은 다음과 같습니다.
   
-1. 이동 [https://security.microsoft.com](https://security.microsoft.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
     
 2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다. <br/>![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>(하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
     
@@ -91,17 +92,17 @@ Office 365 클라우드 응용 프로그램 보안 너무 웹 트래픽 로그�
   
 [Office 365 클라우드 응용 프로그램 보안에 대 한 웹 트래픽 로그 및 데이터 원본에 대 한 설명](web-traffic-logs-and-data-sources-for-ocas.md)
   
-## <a name="app-permissions"></a>응용 프로그램 사용 권한
+## <a name="oauth-apps"></a>OAuth 앱
 
 Office 365 클라우드 응용 프로그램 보안을 허용 하거나 Office 365의 데이터에 액세스 하는 타사 응용 프로그램을 사용 하 여 조직에서 사람들이 것을 방지 수 있습니다.
   
-![O365 CAS 조사 메뉴에서 앱 사용 권한 관리 페이지를 액세스할 수 있습니다.](media/78272cda-986f-4b3b-bbbe-8c236c74f5d3.png)
+![O365 CA에서 조사 메뉴에서 OAuth 관리 앱 페이지에 액세스할 수 있습니다.](media/78272cda-986f-4b3b-bbbe-8c236c74f5d3.png)
   
-이 페이지를 보려면, **조사** 로 이동 \> **App 사용 권한**입니다. 
+이 페이지를 보려면, **조사** 로 이동 \> **OAuth 앱**입니다. 
   
 ![O365 CAS 포털에서 조사를 선택 합니다.](media/8c7b87c9-71a6-4952-adb2-185e941ffe9a.png)
   
-[Office 365 Cloud App Security을 사용하여 앱 사용 권한 관리](manage-app-permissions-in-ocas.md)
+[Office 365 Cloud App Security를 사용하여 OAuth 앱 관리](manage-app-permissions-in-ocas.md)
   
 ## <a name="cloud-discovery-dashboard"></a>클라우드 검색 대시보드
 
@@ -119,6 +120,6 @@ Office 365 클라우드 응용 프로그램 보안 포털에서이 대시보드�
 
 - [Office 365 클라우드 응용 프로그램 보안 사용 사례 및 사용 가이드](https://aka.ms/O365CASGuide)
     
-- [Office 365 Cloud App Security 시작하기](get-ready-for-office-365-cas.md)
+- [Office 365 Cloud App Security 시작](get-ready-for-office-365-cas.md)
     
 

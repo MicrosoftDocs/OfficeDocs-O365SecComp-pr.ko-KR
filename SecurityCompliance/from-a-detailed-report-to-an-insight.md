@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: d2104778-f0a1-4b69-baf3-c4b32e98a573
 description: 어떻게 이동할 수 대 한 자세한 보고서에서 보안에서 권장된 작업으로는 정보를 설명 &amp; 준수 센터입니다.
-ms.openlocfilehash: 8048e9aac9191bd89028ac3e4f5fdde577ad7226
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 48c7283723a75685e16e1f7ddbe34bc3779819cf
+ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706252"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28014980"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>연습 - 자세한 보고서에서 통찰력에 이르기까지
 
@@ -30,7 +30,7 @@ ms.locfileid: "26706252"
 
 과정을 살펴보겠습니다 흐름에서 대 한 자세한 보고서를 파악 하 고 작업을 합니다. (간단한 [스팸 방지 및 맬웨어 방지](anti-spam-and-anti-malware-protection.md) 예입니다.) 
   
-1. 와 먼저 [보안 &amp; 준수 센터](https://security.microsoft.com) 보고서입니다. ( **보고서** 로 이동 \> **대시보드**.)<br/>![보안에서 &amp; 준수 센터, 보고서로 이동 \> 대시보드](media/68f3bb7c-b4f7-4cca-904b-478643a93c94.png)
+1. 와 먼저 [보안 &amp; 준수 센터](https://protection.office.com) 보고서입니다. ( **보고서** 로 이동 \> **대시보드**.)<br/>![보안에서 &amp; 준수 센터, 보고서로 이동 \> 대시보드](media/68f3bb7c-b4f7-4cca-904b-478643a93c94.png)
   
 2. 더 자세히 보기를 가져올 보고서를 선택 합니다. ( **위협 보호 상태** 보고서 등의 보고서를 선택 합니다.)<br/>![인 사이트를 표시 하는 위협 보호 상태 보고서](media/f47d7dbd-816a-47ba-b8db-53919fbed192.png)
   
