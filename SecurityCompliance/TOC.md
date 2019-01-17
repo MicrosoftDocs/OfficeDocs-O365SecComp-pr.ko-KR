@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: bc1508c3d07e62864ffb156d6e311ace421bc8bc
+ms.sourcegitcommit: a2afa4c06e9b762cf689b0d2a0653076f9b00c49
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328134"
+---
 # [시작]()
 ## [Office 365 보안 로드맵](security-roadmap.md)
 ## [보안 강화를 위해 Office 365 테넌트 구성](tenant-wide-setup-for-increased-security.md)
@@ -239,7 +247,7 @@
 # [보안 및 규정 준수 모니터링]()
 ## [알림 정책](alert-policies.md)
 ## [보안 및 준수 센터의 똑똑한 보고서 및 분석](reports-and-insights-in-security-and-compliance.md)
-### [ 보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
+### [보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
 #### [연습 - 자세한 보고서에서 통찰력에 이르기까지](from-a-detailed-report-to-an-insight.md)
 #### [연습 - 통찰력에서 자세한 보고서](from-an-insight-to-a-detailed-report.md)
 #### [연습 - 대시보드에서 통찰력에 이르기까지](from-a-dashboard-to-an-insight.md)
@@ -249,6 +257,14 @@
 #### [기존 보고서 다운로드](download-existing-reports.md)
 ## [Office 365에서 보안 팁 사용 여부 설정](enable-or-disable-safety-tips.md)
 ## [보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)
+# 메일 흐름
+## [보안 및 준수 센터의 메시지 추적](message-trace-scc.md)
+## [보안 및 준수 센터의 메일 흐름 파악](mail-flow-insights.md)
+### [자동 전달 메시지 보고서](mfi-auto-forwarded-messages-report.md)
+### [메일 루프 파악](mfi-mail-loop-insight.md)
+### [아웃바운드 및 인바운드 메일 흐름](mfi-outbound-and-inbound-mail-flow.md)
+### [큐 알림 및 큐](mfi-queue-alerts-and-queues.md)
+### [느린 메일 흐름 규칙 파악](mfi-slow-mail-flow-rules-insight.md)
 # 보안 솔루션
 ## [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 ### [정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
@@ -263,7 +279,6 @@
 ### [격리된 SharePoint Online 팀 사이트 관리](manage-an-isolated-sharepoint-online-team-site.md)
 ### [격리된 SharePoint Online 팀 사이트 개발/테스트 환경](isolated-sharepoint-online-team-site-dev-test-environment.md)
 ## [SIEM 서버 통합](siem-server-integration.md)
-
 # 규정 준수 솔루션
 ## [Microsoft 서비스 보안 포털](get-started-with-service-trust-portal.md)
 ## [규정 준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
