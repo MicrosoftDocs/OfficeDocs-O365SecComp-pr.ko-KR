@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: f2cd475a-e592-46cf-80a3-1bfb0fa17697
 description: 고객 키에 대 한 설정 Office 365 개발자를 위한 Exchange Online, Skype 비즈니스, SharePoint Online 및 비즈니스용 OneDrive에 대 한 하는 방법에 알아봅니다. 고객 키를 사용 하 컨트롤 조직의 암호화 키 및 Microsoft의 데이터 센터의 나머지 부분에서 데이터를 암호화 하 고 사용 하 여 Office 365를 구성 합니다.
-ms.openlocfilehash: 3eeccd03b89aa5a79ceba536d3f13c7a881b6ca7
-ms.sourcegitcommit: ef0bb05a0cf7974ae5083c7551ce3fe4ab7a9544
+ms.openlocfilehash: c4a59af49efad3bb8539b6c83b9ad9fd1c2d1f43
+ms.sourcegitcommit: b0b0b716718c22779c7c04775b8010d65cd6656b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965612"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723255"
 ---
 # <a name="controlling-your-data-in-office-365-using-customer-key"></a>고객 키를 사용하여 Office 365에서 데이터 제어
 
@@ -54,7 +54,7 @@ Azure PowerShell 원격으로 연결 하 여 대부분의 이러한 작업을 �
     
 - [Office 365에 대 한 고객 키를 정품 인증을 요청을 제출](controlling-your-data-using-customer-key.md#FastTrack)
     
-    두 새로운 Azure 구독을 만든 후에 Microsoft FastTrack 포털에서 호스팅하는 웹 양식을 작성 하 여 적절 한 고객 키 제공 요청을 제출 하려면 필요 합니다. FastTrack 팀 고객 키 지원을 제공 하지 않습니다. 단순히 office FastTrack 포털을 사용 하 여 양식을 전송 하 고 관련 기능을 제공 하는 고객 키에 대 한 추적 하는 데 도움이 수 있도록 합니다.
+    두 새로운 Azure 구독을 만든 후에 Microsoft FastTrack 포털에서 호스팅하는 웹 양식을 작성 하 여 적절 한 고객 키 제공 요청을 제출 하려면 필요 합니다. **The FastTrack 팀 고객 키가 있는 도움말을 제공 하지 않습니다. Office 단순히 사용 하 여 FastTrack 포털을 사용 하면 양식을 전송 하 고 관련 기능을 제공 하는 고객 키에 대 한 추적 하는 데 도움이**합니다.
   
 고객 키 제공을 제출 하면 Microsoft에서 요청을 검토 하 고 있음을 알려줍니다 설치 작업의 나머지 부분을 진행할 수 있습니다. 이 프로세스에는 최대 5 개까지 비즈니스 일 걸릴 수 있습니다.
     

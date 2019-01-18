@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: Office 365 클라우드 앱 보안이 포함 된 SIEM 서버를 통합할 수 있습니다. 작동 방식 및를 설정 하는 방법에 대 한 개요를 얻으려면이 문서를 읽어보십시오.
-ms.openlocfilehash: 0e185dec44bed7657bed126f70dfc64ffc135611
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 3cdae0389065b18da090139528eceefb007363fa
+ms.sourcegitcommit: b0b0b716718c22779c7c04775b8010d65cd6656b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015030"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723265"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Office 365 Cloud App Security와 SIEM 서버 통합
   
@@ -74,8 +74,8 @@ Office 365 클라우드 앱 보안 현재 다음 SIEM 서버를 지원합니다.
 3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.<br/>
     ![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
   
-4. **설정** 을 클릭 \> **보안 확장**합니다.<br/>
-![설정을 선택 > 보안 확장](media/Settings-SecurityExtensions.png)
+4. **설정** 을 클릭 \> **보안 확장**하 고 SIEM 에이전트를 선택 합니다.<br/>
+![보안 확장 설정을 gt_를 선택 합니다.](media/Settings-SecurityExtensions.png)
 
 5. **추가 SIEM 에이전트**를 선택 합니다.<br/>![추가 SIEM 에이전트를 선택 합니다.](media/SIEMAgents.png)
     

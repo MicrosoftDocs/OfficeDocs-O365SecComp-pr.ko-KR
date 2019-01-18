@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 전송 규칙이라고도 알려진 메일 흐름 규칙을 사용하여 Office 365 조직을 통과하는 메시지를 식별하고 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 841a88f7074ce469643630cf29e0674db8fb88b6
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: b6bd5f0510c8a9e5f5cc4679dce669b6da50f5e8
+ms.sourcegitcommit: b0b0b716718c22779c7c04775b8010d65cd6656b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026615"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723245"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
 
@@ -54,7 +54,7 @@ ms.locfileid: "22026615"
   
 - **조건** 수행할 작업에 적용할 메시지를 식별합니다. 일부 조건은 받는 사람, 보낸 사람, 참조 필드 등의 메시지 헤더 필드를 검사하며 다른 조건은 메시지 제목, 본문, 첨부 파일, 메시지 크기, 메시지 분류 등의 메시지 속성을 검사합니다. 대부분의 조건에는 같음, 같지 않음 또는 포함 등의 비교 연산자 및 일치시킬 값을 지정해야 합니다. 조건이나 예외가 없는 경우 규칙이 모든 메시지에 적용됩니다. 
     
-    에 대 한 자세한 내용은 메일 흐름 규칙 조건 Exchange Online Protection [메일 흐름 규칙 조건 및 예외 (조건자) Exchange Online Protection을](http://technet.microsoft.com/library/04edeaba-afd4-4207-b2cb-51bcc44e483c.aspx)참조 하십시오.
+    Exchange Online Protection의 메일 흐름 규칙 조건에 대 한 자세한 내용은 참조 [Exchange Online의 메일 흐름 규칙 조건 및 예외 (조건자).](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)합니다.
     
 - **예외** 선택적으로 해당 작업이 적용되면 안 되는 메시지를 식별합니다. 조건에서 사용할 수 있는 동일한 메시지 식별자를 예외에서도 사용할 수 있습니다. 예외는 조건을 재정의하며, 메시지가 구성된 모든 조건과 일치하더라도 규칙 작업이 메시지에 적용되지 않도록 합니다. 
     
@@ -70,7 +70,7 @@ ms.locfileid: "22026615"
 
 다음 표에는 규칙에서 여러 조건, 조건 값, 예외 및 작업이 처리되는 방식이 나와 있습니다.
   
-|**구성 요소**|**논리**|**설명**|
+|**구성 요소**|**논리**|**Comments**|
 |:-----|:-----|:-----|
 |여러 조건  <br/> |AND  <br/> |메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 특정 텍스트를 포함하는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. EAC에서는 규칙을 쉽게 복사할 수 있습니다.  <br/> |
 |값이 여러 개인 조건  <br/> |OR  <br/> |일부 조건을 사용 하면 둘 이상의 값을 지정할 수 있습니다. 메시지 (모두는 아님) 중 하나는 지정 된 값을 일치 해야 합니다. 예, 전자 메일 메시지에 제목 주식 가격 정보 하 여 **제목 단어가 포함 된 다음이 단어의** 조건은 Contoso 단어 또는 재고 항목과 일치 하도록 구성 된 경우 조건을 만족 하는 제목 중 하나 이상이 포함 하기 때문에 지정 된 값입니다.<br/> |
@@ -91,7 +91,7 @@ ms.locfileid: "22026615"
 |**규칙 처리가 완료되지 않으면 메시지 연기** <br/> | _RuleErrorAction_ <br/> |규칙 처리를 완료할 수 없는 경우 메시지를 처리할 방법을 지정할 수 있습니다. 기본적으로 규칙은 무시되지만 처리를 위해 메시지를 다시 전송하도록 선택할 수 있습니다.  <br/> |
 |**메시지의 보낸 사람 주소 일치** <br/> | _SenderAddressLocation_ <br/> |규칙이 보낸 사람의 전자 메일 주소를 검사하는 조건 또는 예외를 사용하는 경우 메시지 머리글이나 메시지 봉투 또는 둘 다에 있는 값을 찾을 수 있습니다.  <br/> |
 |**추가 규칙 처리 중지** <br/> | _SenderAddressLocation_ <br/> |규칙에 대한 작업이지만 EAC의 속성과 같습니다. 규칙이 메시지를 처리하면 메시지에 추가 규칙을 적용하지 않도록 선택할 수 있습니다.  <br/> |
-|**설명** <br/> | _설명_ <br/> |  규칙에 대한 설명을 입력할 수 있습니다.  <br/> |
+|**Comments** <br/> | _Comments_ <br/> |  규칙에 대한 설명을 입력할 수 있습니다.  <br/> |
    
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>메일 흐름 규칙은 메시지에 적용 하는 방법
 
