@@ -13,19 +13,19 @@ ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 권한 하는 방법에 대 한 자세한 내용은 Office 365의에서 관리 기능에 액세스
-ms.openlocfilehash: 5056c19acb03b2486cc84fe085ffd6c2814007dc
-ms.sourcegitcommit: a07b91723bae9ecee2cb092bfbc5b208b30b11a1
+ms.openlocfilehash: f3cd5fb263fe3bb83d60a7938f0e22dc38f199e3
+ms.sourcegitcommit: b0b0b716718c22779c7c04775b8010d65cd6656b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "25793553"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723235"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Office 365의에서 관리 기능에 액세스 권한
 
 > [!IMPORTANT]
 > 이 항목에서는 Office 365 e 5 및 고급 준수 Sku에만 현재 제공 되는 기능에 대 한 배포 및 구성 지침에 설명 합니다.
 
-액세스 권한 관리 Office 365에서 권한이 부여 된 관리 작업을 통해 세분화 된 액세스 제어를 허용 합니다.  기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 하는 것이 도움이 됩니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후 사용자가 높은 범위가 지정 되며 시간 제한이 있는 승인 워크플로 통해 관리자 권한 및 권한 있는 작업을 완료 하려면 적시에 액세스를 요청 해야 합니다. 이 사용자가 액세스할 수 방금-만큼 충분히-중요 한 데이터 나 중요 한 구성 설정의 노출 시 키 지 않고, 수행 중인 작업을 수행할 수 있습니다. Office 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하면 조직 0 순위 권한으로 작동 하 고 이러한 순위 관리 액세스로 인해 발생 하는 취약점에 대 한 방어 계층을 제공할 수 있습니다. 
+액세스 권한 관리 Office 365에서 권한이 부여 된 관리 작업을 통해 세분화 된 액세스 제어를 허용 합니다. 기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 하는 것이 도움이 됩니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후 사용자가 높은 범위가 지정 되며 시간 제한이 있는 승인 워크플로 통해 관리자 권한 및 권한 있는 작업을 완료 하려면 적시에 액세스를 요청 해야 합니다. 이 사용자가 액세스할 수 방금-만큼 충분히-중요 한 데이터 나 중요 한 구성 설정의 노출 시 키 지 않고, 수행 중인 작업을 수행할 수 있습니다. Office 365에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하면 조직 0 순위 권한으로 작동 하 고 이러한 순위 관리 액세스로 인해 발생 하는 취약점에 대 한 방어 계층을 제공할 수 있습니다. 
 
 ## <a name="layers-of-protection"></a>보호의 레이어
 
@@ -67,13 +67,13 @@ Office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여, �
 
 ![단계 4-액세스 처리](media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="what-skus-do-i-need-to-use-privileged-access-in-office-365"></a>Office 365에서 권한이 부여 된 액세스를 사용 하 여 어떤 Sku를 필요 합니까?
 액세스 권한이 부여 된 현재 관리는 Office 365 e 5 및 고급 준수 Sku와 고객을 위해 사용할 수만 있습니다.
 
 ### <a name="when-will-privileged-access-be-available-for-office-365-workloads-beyond-exchange"></a>액세스 권한을된 사용할 수 있게 될 Exchange 이외 Office 365 작업 부하에 대 한?
-다른 Office 365 작업에서이 기능을 곧 제공 예정입니다. 시간 표시 막대를 공유할 준비가 되었습니다, Office 365 로드맵을 통해 사용할 수 있습니다.
+다른 Office 365 작업에서이 기능을 곧 제공 예정입니다. 시간 표시 막대를 공유할 준비가 되었습니다, [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)을 통해 사용할 수 있습니다.
 
 ### <a name="my-organization-needs-more-than-30-privileged-access-polices-will-this-limit-be-increased"></a>내 조직 요구 사항 둘 이상의 30 권한이 부여 된 액세스 정책,이 한도 증가 합니까?
 
@@ -83,4 +83,4 @@ Office 365 조직 곧 당 30 권한이 부여 된 액세스 정책의 현재 한
 아니요, Office 365에 대 한 액세스 권한을된 관리 하는 계정에 할당 된 Exchange 역할 관리 역할을 해야 합니다. 그러나 전역 관리자 역할 기본적으로이 역할을 포함 하 고는 독립 실행형 계정 사용 권한으로 역할 관리 역할을 구성 하지 않을 경우 권한이 부여 된 액세스를 관리 하는데 사용할 수 있습니다. 승인자의 그룹에 포함 된 사용자는 전역 관리자 이거나 요청 검토 및 승인에 할당 된 역할 관리 역할을 가질 필요가 없습니다. 
 
 ### <a name="how-is-privileged-access-management-in-office-365-related-to-customer-lockbox"></a>Office 365와 관련 된 고객 Lockbox에서에서 액세스 권한을된 관리는 어떻게 합니까?
-[고객 Lockbox](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2) 서비스 공급자, 즉, Microsoft가 데이터에 대 한 액세스에 대 한 조직에 대 한 액세스 제어의 수준 수 있습니다. 액세스 권한이 부여 된 Office 365의 관리는 모든 Office 365의 권한 있는 작업에 대 한 조직 내에서 세분화 된 액세스 제어를 허용 합니다.
+[고객 Lockbox](https://docs.microsoft.com/office365/admin/manage/customer-lockbox-requests) 서비스 공급자, 즉, Microsoft가 데이터에 대 한 액세스에 대 한 조직에 대 한 액세스 제어의 수준 수 있습니다. 액세스 권한이 부여 된 Office 365의 관리는 모든 Office 365의 권한 있는 작업에 대 한 조직 내에서 세분화 된 액세스 제어를 허용 합니다.
