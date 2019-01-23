@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: Office 365 보안에서 경고 정책을 만들 &amp; 준수 센터 잠재적 위협, 데이터 손실 및 사용 권한 문제를 모니터링 합니다. 다음 볼 수 있으며 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 알림을 관리할 수 있습니다.
-ms.openlocfilehash: 6bdbf9c4c352bf16fd1a7b5c9f7b0af7eb4fadfd
-ms.sourcegitcommit: a2afa4c06e9b762cf689b0d2a0653076f9b00c49
+ms.openlocfilehash: 28ea842c74f2d3d232218e582d3de31f3841284e
+ms.sourcegitcommit: a1d8174240eb88b51af3a1ba26d715292fe08c53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328144"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "29426033"
 ---
 # <a name="alert-policies-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 정책 경고 &amp; 준수 센터
 
@@ -34,11 +34,11 @@ Office 365 보안에서 새 경고 정책과 경고 대시보드 도구를 사�
   
 ![어떻게 경고 정책 작업의 개요 (영문)](media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
   
-1. 조직에서 관리자, 구성, 만들고 설정 하는 경고 정책과 보안에서 **경고 정책** 페이지를 사용 하 여 &amp; 준수 센터입니다. PowerShell에서 **새로 만들기 ProtectionAlert** cmdlet을 사용 하 여 경고 정책을 만들 수도 있습니다. 
+1. 메뉴 및 도구 모음을 조직에서 관리자를 만듭니다 구성, 보안 & 준수 센터의에서 **경고 정책** 페이지를 사용 하 여 경고 정책을 설정 합니다. PowerShell에서 **새로 만들기 ProtectionAlert** cmdlet을 사용 하 여 경고 정책을 만들 수도 있습니다. 경고 정책을 만들려는 조직 구성 역할 또는 보안 & 준수 센터의에서 알림 관리 역할 할당 해야 합니다.
     
 2. 사용자는 경고 정책의 조건과 일치 하는 활동을 수행 합니다. 맬웨어 공격의 경우 조직에서 사용자에 게 전송 된 감염 된 전자 메일 메시지 알림을 트리거합니다.
     
-3. 보안에서 **보기 알림** 페이지에 표시 되는 경고를 생성 하는 office 365 &amp; 준수 센터입니다. 또한 경고 정책에 대 한 전자 메일 알림을 사용 하는 경우 Office 365에 알림이 목록 받는 사람에 게 보냅니다. 
+3. 보안에서 **보기 알림** 페이지에 표시 되는 경고를 생성 하는 office 365 &amp; 준수 센터입니다. 또한 경고 정책에 대 한 전자 메일 알림을 사용 하는 경우 Office 365에 알림이 목록 받는 사람에 게 보냅니다. **보기 경고** 페이지에서 관리자 또는 다른 사용자가 볼 수 있는 알림 메시지는 사용자에 게 할당 된 역할에 따라 결정 됩니다. 자세한 내용은 [알림을 보려면 필요한 RBAC 권한](#rbac-permissions-required-to-view-alerts) 섹션을 참조 합니다.
     
 4. 보안에서 경고를 관리 하는 관리자 &amp; 준수 센터입니다. 알림 관리는 경고 상태를 추적 하 고 모든 조사를 관리 하는 데 도움이 할당으로 이루어져 있습니다.
     
