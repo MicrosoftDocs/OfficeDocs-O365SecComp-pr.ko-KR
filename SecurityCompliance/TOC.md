@@ -1,15 +1,8 @@
----
-ms.openlocfilehash: bc1508c3d07e62864ffb156d6e311ace421bc8bc
-ms.sourcegitcommit: a2afa4c06e9b762cf689b0d2a0653076f9b00c49
-ms.translationtype: HT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328134"
----
 # [시작]()
 ## [Office 365 보안 로드맵](security-roadmap.md)
 ## [보안 강화를 위해 Office 365 테넌트 구성](tenant-wide-setup-for-increased-security.md)
-## [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
+## [Office 365 보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
+## [새 Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터 준비](microsoft-security-and-compliance.md)
 ## [Office 365 보안 점수](office-365-secure-score.md)
 ## [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 ## [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
