@@ -1,7 +1,7 @@
 ---
 title: Office 365에서 스팸 메일을 줄이는 방법
-ms.author: stephow
-author: stephow-MSFT
+ms.author: krowley
+author: kccross
 manager: laurawi
 ms.date: 6/7/2018
 ms.audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 07824c51-2c45-4005-8596-03c0d7c4ff2a
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: e462bbb11862d795650b6378cd5de2681f0edf74
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 59778f992ebc232ae31ebc9aaae4ca5333080698
+ms.sourcegitcommit: 7023fd3c4d6088f82a5cd2fda241897a3a1c7f5c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533577"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29453694"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
