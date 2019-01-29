@@ -3,7 +3,7 @@ title: Office 365 Cloud App Security 변칙 검색 정책
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
+ms.date: 01/28/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: 'Office 365 클라우드 앱 보안에서 예외 탐지 정책 잠재적인 문제를 발견할 수 있도록 기본 제공 알고리즘을 사용 합니다. 필터를 사용 하 여 (만들면 해당)을 조정 하는 적어도 하나 이상 검색 정책이 있어야 합니다. '
-ms.openlocfilehash: 62e2db3ba46f41bce5c5c4fab9e6c685838d68e8
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 7a1cb795531df168f0a5c425e7555ae6b1412d2b
+ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015080"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29604419"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 변칙 검색 정책
 
@@ -28,13 +28,13 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 |:-----|:-----|:-----|:-----|
 |[평가 시작 합니다.](office-365-cas-overview.md) <br/> |[계획을 시작합니다](get-ready-for-office-365-cas.md) <br/> |여기는!  <br/> [다음 단계](integrate-your-siem-server-with-office-365-cas.md) <br/> |[활용 하 여 시작](utilization-activities-for-ocas.md) <br/> |
    
-[Microsoft 클라우드 앱 보안 릴리스 116](https://docs.microsoft.com/cloud-app-security/release-notes)부터는 Office 365 클라우드 응용 프로그램 보안 정책이 포함 됩니다 여러 미리 정의 된 예외 검색 ("특별") 사용자 및 엔터티 동작 분석 (UEBA) 및 (ML)을 학습 하는 컴퓨터를 포함 하는.
+[Microsoft 클라우드 앱 보안 릴리스 116](new-in-office-365-cas-2018.md#office-365-cloud-app-security-release-116-3)부터는 Office 365 클라우드 응용 프로그램 보안 정책이 포함 됩니다 여러 미리 정의 된 예외 검색 ("특별") 사용자 및 엔터티 동작 분석 (UEBA) 및 (ML)을 학습 하는 컴퓨터를 포함 하는.
   
 ![예외 감지 정책의 보려면 컨트롤 선택 \> 정책입니다.](media/9663baa5-98bf-45e0-9458-6e572b43ec72.png)
   
 이러한 예외 감지 정책은 사용자 및 컴퓨터 및 네트워크에 연결 된 장치에서 다양 한 행동 비정상 상태를 대상으로 하는 즉시 감지를 제공 하 여 즉시 결과 제공 합니다. 또한 새 정책 조사 프로세스의 속도 및 진행 중인 위협 요소를 포함 하는데 도움이 되는 클라우드 앱 보안 검색 엔진에서 더 많은 데이터를 표시 합니다.
   
-[전역 관리자 또는 보안 관리자를](permissions-in-the-security-and-compliance-center.md)검토 하 고, 수 있으며 필요한 경우에 Office 365 클라우드 응용 프로그램 보안 함께 사용할 수 있는 기본 정책을 수정 수 있습니다.
+Office 365 전역 관리자 또는 보안 관리자, 검토, 수 있으며 필요한 경우에 Office 365 클라우드 응용 프로그램 보안 함께 사용할 수 있는 기본 정책을 수정 수 있습니다.
   
  > [!IMPORTANT]
 > 초기 학습 기간 7 (7) 일 하는 동안에 비정상적인 동작 경고가 트리거되 하지는 방법이 있습니다. 예외 감지 알고리즘 false 양의 알림 메시지 수를 줄이는 최적화 됩니다. 
@@ -51,23 +51,13 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
     
 ## <a name="view-your-anomaly-detection-policies"></a>예외 감지 정책 보기
 
-1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자, 포털로 이동 하는 클라우드 응용 프로그램 보안 ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))에 로그인 하 고 있습니다.<br>이 Office 365 클라우드 앱 보안 정책 페이지로 이동 합니다.
     
-2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
-    
-3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.
-    
-    이 Office 365 클라우드 앱 보안 정책 페이지로 이동 합니다.
-    
-4. **유형** 목록에서 **예외 감지 정책**을 선택 합니다.
-    
-    조직의 기본 (또는 기존) 예외 감지 정책이 표시 됩니다.
-    
-    ![여러 예외 탐지 정책 Office 365 클라우드 응용 프로그램 보안에서 기본적으로 사용할 수 있는](media/2e0ee770-787a-4d4a-bea8-389dc765d4c6.png)
+2. **유형** 목록에서 **예외 감지 정책**을 선택 합니다.<br>조직의 기본 (또는 기존) 예외 감지 정책이 표시 됩니다.<br>![Office 365 Cloud App Security 변칙 검색 정책](media/2e0ee770-787a-4d4a-bea8-389dc765d4c6.png)
   
-5. 검토 또는 해당 설정을 편집 하는 정책을 선택 합니다.
+3. 검토 또는 해당 설정을 편집 하는 정책을 선택 합니다.
     
-6. **업데이트**를 선택하여 변경 내용을 저장합니다. 
+4. **업데이트**를 선택하여 변경 내용을 저장합니다. 
     
 ## <a name="learn-more-about-anomaly-detection-policies"></a>예외 감지 정책에 대 한 자세한 내용은
 
@@ -92,27 +82,19 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 
 알림 형태로,으로 이러한 경고를 신속 하 게 분류할 수 있으며 먼저 처리 결정할지 수 있습니다. 경고에 대 한 상황에 맞는 필요 큰 그림을 참조 하 고 여부 악의적인 자료는 하지만 실제로 확인할 수 있습니다. 다음 절차를 사용 하 여 알림을 살펴보기 (영문)을 시작 합니다.
   
-1. 전역 관리자 또는 보안 관리자로 이동 [https://protection.office.com](https://protection.office.com) 작업이 나 교육용 계정을 사용 하 여 로그인 하 고 있습니다. 
+1. 전역 관리자 또는 보안 관리자, 포털로 이동 하는 클라우드 응용 프로그램 보안 ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))에 로그인 하 고 있습니다. 
     
-2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.
+2. 대화 알림을 보려면 **경고** 선택 합니다. 
     
-3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.
+3. 경고에 대 한 컨텍스트를 가져오려면 다음이 단계를 따릅니다.
     
-4. 대화 알림을 보려면 **경고** 선택 합니다. 
+4. **조사** 선택 \> **활동 로그**합니다.
     
-5. 경고에 대 한 컨텍스트를 가져오려면 다음이 단계를 따릅니다.
-    
-1. **조사** 선택 \> **활동 로그**합니다.
-    
-2. 사용자 또는 IP 주소와 같은 항목을 선택 합니다. 이렇게 하면 내리도록 용지함을 열립니다.
-    
-    ![활동 로그에는 IP 주소를 조사할 수 있습니다.](media/32a727c5-e406-4fe2-9443-c1a7fb6628fc.png)
+5. 사용자 또는 IP 주소와 같은 항목을 선택 합니다. 이렇게 하면 내리도록 용지함을 열립니다.<br>![활동 로그에는 IP 주소를 조사할 수 있습니다.](media/32a727c5-e406-4fe2-9443-c1a7fb6628fc.png)
   
-3. 내리도록 용지함 **유사 항목 표시** 섹션에 있는 아이콘 등의 사용 가능한 명령를 클릭 합니다. 
-    
-    ![내리도록 용지함에서 선택한 작업의 48 시간 내에 수행할 작업을 표시 하려면 시계 아이콘을 클릭 수 있습니다.](media/c6c96aa0-98e5-4205-8873-45f8d6fd0843.png)
+6. 내리도록 용지함 **유사 항목 표시** 섹션에 있는 아이콘 등의 사용 가능한 명령를 클릭 합니다.<br> ![선택한 작업의 48 시간 내에 수행할 작업을 표시 하려면 시계 아이콘을 클릭](media/c6c96aa0-98e5-4205-8873-45f8d6fd0843.png)
   
-4. 선택한 항목에 대 한 정보를 계속 해당 항목에 대 한 세부 정보를 탐색 하 여 확보 합니다.
+7. 선택한 항목에 대 한 정보를 계속 해당 항목에 대 한 세부 정보를 탐색 하 여 확보 합니다.
     
 여러 실패 한 로그인에 대 한 알림, 의심 스러운 될 수도 있고 실제로 수 있고 잠재적-대입 공격을 나타낼 수 있습니다. 그러나 이러한 알림을 심각 하지 않은 true 양수 되도록 알림을 발생 시 키 하는 응용 프로그램 잘못 구성 될 수도 있습니다. 추가 의심 스러운 활동이 포함 된 다중 실패 로그인 알림이 표시 되 면 손상 된 계정이 더 높은 확률이 됩니다. 예, 다중 실패 로그인 경고 손상의 두 강력한 지표에 IP 주소 및 불가능 한 출장 활동 뒤 활동에는 경우를 가정해 보겠습니다. 동일한 사용자 데이터의 exfiltration 수행 공격자의 표시기 자주 변경 되는 대용량 다운로드 작업을 수행할를 확인할 수 있습니다. Office 365 클라우드 앱 보기 및 대화 알림을 분류할 하 고 보안을 조치를 취할에서 탐색할 수 하는 등의 필요한 부분입니다.
   
