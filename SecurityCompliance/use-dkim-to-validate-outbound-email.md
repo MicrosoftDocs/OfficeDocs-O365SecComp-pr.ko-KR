@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 description: '요약: 사용 DomainKeys 식별 된 메일 (DKIM) Office 365를 사용 하는 방법을 확인 대상 전자 메일 시스템 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는이 문서에 설명 합니다.'
-ms.openlocfilehash: 1bafae2a1e1e5de390fd0b8d81c1cf2513092d8e
-ms.sourcegitcommit: 4f776e1cf8872ce90e632d4305cb727d31754767
+ms.openlocfilehash: b5b28bef60148749e3ea6ac2619358fbc425e36c
+ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27263917"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29614452"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면
 
@@ -88,7 +88,10 @@ DKIM 서명을 DNS에 추가 하려는 각 도메인에 대해 두 CNAME 레코�
 CNAME 레코드에 대 한 다음 형식을 사용 합니다.
 
 > [!IMPORTANT]
-> GCC 고객 중 한 경우 domainGUID 메서드를 사용 하는 적합 하지 않습니다! 도메인에 대 한 적절 한 MX 값을 사용 해야 합니다. 사용: `selector2-<domain-key>._domainkey.<initialDomain>` 아래 예제에 대 한 합니다. [이 문서](https://docs.microsoft.com/en-us/office365/admin/get-help-with-domains/information-for-dns-records?view=o365-worldwide) 를 사용 하 여 사용자가 *도메인 키* 값에 필요한 MX 레코드를 찾습니다.
+> GCC 높은 고객 중 한 경우 _domainGuid_ 다르게 계산! _DomainGuid_를 계산 하 여 _initialDomain_ 에 대 한 MX 레코드를 조회 하는 대신 대신는 자동으로 계산 되도록 사용자 지정 된 도메인에서 직접 합니다. 등 사용자 지정 된 도메인이 "contoso.com" 되는 경우에 domainGuid는 "contoso com"가 됩니다., 마침표를 파선으로 대체 됩니다.
+
+그렇다면 어떤 MX 레코드에 관계 없이 initialDomain 지점이 됩니다 항상는 위의 메서드를 사용 하면 CNAME 레코드에서 사용 하 여 domainGuid 계산 합니다.
+
   
 ```
 Host name:          selector1._domainkey

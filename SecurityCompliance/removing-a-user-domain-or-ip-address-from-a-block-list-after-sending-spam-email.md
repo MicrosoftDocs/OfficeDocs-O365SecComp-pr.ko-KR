@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 description: 사용자는 계속 해 서 스팸으로 분류 하는 Office 365에서 전자 메일 메시지를 보내는, 모든 자세한 메시지를 보내지 못하도록 차단 됩니다.
-ms.openlocfilehash: 0f58f9f2270c8be38b3ea2ea81f04656eb10e7fb
-ms.sourcegitcommit: 83406a3258e722020e46a82bbf4bc9d5d8a326ca
+ms.openlocfilehash: 6f6f4504a9c79463aadc21f2eaeadcd769e8b151
+ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25899659"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29614402"
 ---
 # <a name="removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email"></a>스팸 전자 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소를 제거
 
@@ -28,16 +28,25 @@ ms.locfileid: "25899659"
 
 - 유효한 보낸사람으로 인식 되지 않은 메시지를 배달할 수 수 없습니다. 이 대 한 가장 일반적인 이유는 스팸 보내는 전자 메일 주소 의심 되는 더이상 사용할 수 조직 외부에 있는 메시지를 보낼 수 있었습니다. 전자 메일 관리자에 게 문의 합니다.  원격 서버 '550 5.1.8 액세스 거부, 잘못 된 아웃 바운드 보낸' 반환
 
-Office 365 사용자 전자 메일을 보내지 못하도록 차단 될 때 알림을 받을 수 있도록 아웃 바운드 스팸 정책 설정을 구성할 수 있습니다. 사용자의 사서함에 문제가 해결 되 면 해당 보낸사람에 블록을 제거할 수 있습니다.
-  
-## <a name="unblock-a-blocked-office-365-email-account"></a>차단 된 Office 365 전자 메일 계정 차단 해제
+테 넌 트 관리자도 모든 이상의 아웃 바운드 메시지를 보내지 못하도록 사용자를 제한 하는 알림을 받습니다.
 
-Office 365 보안 및 규정 준수 센터 (SCC)에서이 작업을 완료 합니다. 소스 코드 제어에 대 한 자세한 내용은 [Office 365 보안 및 규정 준수 센터로 이동](go-to-the-securitycompliance-center.md) 합니다.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+<a name="sectionSection0"> </a>
+
+예상 완료 시간: 5분
+  
+이 절차를 수행 하기 전에 사용 권한을 할당 해야 합니다. 필요한 사용 권한을 참조 하십시오 [Exchange Online의 기능 사용 권한](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 스팸 방지 항목".
+
+원격 PowerShell을 통해 다음 절차를 수행할 수도 있습니다. Get BlockedSenderAddress cmdlet를 사용 하 여 제한 된 사용자 및 제한을 제거 하려면 제거 BlockedSenderAddress의 목록을 가져옵니다. Exchange Online에 연결 하려면 Windows PowerShell을 사용 하는 방법을 알아보려면 [Exchange Online PowerShell 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조 하십시오.
+
+## <a name="remove-restrictions-for-a-blocked-office-365-email-account"></a>차단 된 Office 365 전자 메일 계정에 대 한 제한을 제거합니다
+
+Office 365 보안 & 준수 센터 (SCC)에서이 작업을 완료 합니다. 소스 코드 제어에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터로 이동](go-to-the-securitycompliance-center.md) 합니다. 이러한 기능을 수행 하기 위해 **조직 관리** 또는 **보안 관리자** 역할 그룹에 포함 되도록 해야 합니다. SCC 역할 그룹에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터의에서 사용 권한 관리로 이동](permissions-in-the-security-and-compliance-center.md) 합니다.
 
 1. Office 365 전역 관리자 권한, Office 365 보안 및 규정 준수 센터에 로그인 한 왼쪽에 있는 목록의 **위협 관리**를 확장 하 고, **검토**, 선택 하 고 다음 **제한 된 사이트를 선택 된 작업이 나 교육용 계정을 사용 하 여 사용자가**합니다.
     
     > [!TIP]
-    > 보안에서 (이전의 관리 센터) **제한 된 사용자** 페이지로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: >[https://protection.office.com/?hash=/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
+    > 보안에서 (이전의 관리 센터) **제한 된 사용자** 페이지로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: gt_[https://protection.office.com/?hash=/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
 
 2. 이 페이지에는 조직 외부에 있는 메일을 보내지 못하도록 차단 된 사용자 목록이 포함 됩니다.  **차단 해제**에 제한을 제거 하 고 다음을 클릭 하 고 싶지 사용자를 찾습니다.
 
@@ -53,7 +62,7 @@ Exchange Online Protection 제 3 자 차단 목록을 사용 하 여 스팸 필�
 > [!NOTE]
 > Office 365 계정에 메시지를 보낼 수 없는 Office 365 외부 사용자, 외부 수신된 거부 목록에 사용자의 계정 수 있습니다. Office 365 외부 사용자가 [목록 삭제 포털 자가 서비스](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis)를 사용 하 여 자신을 제거 하려면 시킬 수 있습니다. 
 
-## <a name="for-more-information"></a>추가 정보
+## <a name="for-more-information"></a>자세한 내용
 
 [손상 된 전자 메일 계정에 대 한 응답](responding-to-a-compromised-email-account.md)
 
@@ -61,7 +70,7 @@ Exchange Online Protection 제 3 자 차단 목록을 사용 하 여 스팸 필�
   
 [아웃 바운드 메시지 용 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)
 
-  
+[Office 365 보안 & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 
   
 

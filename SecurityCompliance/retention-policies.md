@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: a6d185484f83ca93c99153d584af6841397dbc2f
-ms.sourcegitcommit: ec465771a846de103a365fcb36cb7a7c0a5744c1
+ms.openlocfilehash: 46b7cd133551d8a0756361fd209e93ab9e721678
+ms.sourcegitcommit: d05a9937780d210b7ad48e721b947397ac5405a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27380618"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29607170"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -258,13 +258,37 @@ PowerShell을 사용하여 특정 유형의 Exchange 항목을 보존 정책에�
 이를 수행하려면 `New-RetentionComplianceRule` 및 `Set-RetentionComplianceRule` cmdlet의 `ExcludedItemClasses` 매개 변수를 사용합니다. PowerShell에 대한 자세한 내용은 아래의 [보존 정책에 대한 PowerShell cmdlet 찾기](#find-the-powershell-cmdlets-for-retention-policies) 섹션을 참조하세요.
   
 ## <a name="locking-a-retention-policy"></a>보존 정책 잠그기
-일부 조직에서는 SEC(Securities and Exchange Commission) 규칙 17a-4와 같은 규제 기구에서 정의한 규칙을 준수해야 합니다. 따라서 예약 정책을 켠 후에는 끄거나 덜 제한적인 정책으로 변경할 수 없습니다. 보존 잠금을 사용하면 정책을 잠궈 관리자를 비롯한 어느 누구도 정책을 해제하거나 덜 제한적으로 만들지 못하게 할 수 있습니다.
+일부 조직에서는 SEC(Securities and Exchange Commission) 규칙 17a-4와 같은 규제 기구에서 정의한 규칙을 준수해야 합니다. 따라서 예약 정책을 켠 후에는 끄거나 덜 제한적인 정책으로 변경할 수 없습니다. 보존 잠금을 사용하면 정책을 잠가 관리자를 비롯한 어느 누구도 정책을 해제하거나 덜 제한적으로 만들지 못하게 할 수 있습니다.
   
 정책을 잠그면 누구도 정책을 해제하거나 정책에서 위치를 제거할 수 없습니다. 또한 보존 기간 동안 해당 정책이 적용되는 콘텐츠를 수정하거나 삭제할 수 없습니다. 정책이 잠긴 후에는 위치를 추가하거나 기간을 확장해야만 보존 정책을 수정할 수 있습니다. 잠겨 있는 정책은 늘리거나 확장할 수 있지만 줄이거나 해제할 수 없습니다.
   
-따라서 보존 정책을 잠그기 전에 조직의 규정 준수 요구 사항을 **이해하고** 본인에게 필요한 정책인지 **확실해진 후에 잠그도록 해야** 합니다.
+따라서 보존 정책을 잠그기 전에 조직의 규정 준수 요구 사항을 **이해하고** 필요한 정책인지 확인하기 전까지 **정책을 잠그지 않아야** 합니다.
+
+### <a name="lock-a-retention-policy-by-using-powershell"></a>PowerShell을 사용하여 보존 정책 잠금
   
-PowerShell을 사용해야만 보존 정책을 잠글 수 있습니다. `New-RetentionCompliancePolicy` 또는 `Set-RetentionCompliancePolicy` cmdlet의 `RestrictiveRetention` 매개 변수를 사용합니다. PowerShell에 대한 자세한 내용은 아래의 [보존 정책에 대한 PowerShell cmdlet 찾기](#find-the-powershell-cmdlets-for-retention-policies) 섹션을 참조하세요.
+PowerShell만 사용하여 보존 정책을 잠글 수 있습니다.
+
+우선 [Office 365 보안 및 준수 센터 PowerShell에 연결](http://go.microsoft.com/fwlink/p/?LinkID=799771)합니다.
+
+그런 다음 보존 정책 목록을 보고 잠글 정책의 이름을 찾으려면 `Get-RetentionCompliancePolicy`를 실행합니다.
+
+![PowerShell의 보존 정책 목록](media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+
+마지막으로 보존 정책에 유지 잠금을 적용하려면 `RestrictiveRetention` 매개 변수가 true로 설정된 `Set-RetentionCompliancePolicy`를 실행합니다. 예는 다음과 같습니다.
+
+`Set-RetentionCompliancePolicy -Identity “<Name of Policy>” – RestrictiveRetention $true`
+
+![PowerShell의 RestrictiveRetention 매개 변수](media/retention-policy-preservation-lock-restrictiveretention.PNG)
+
+cmdlet을 실행하면 확인 메시지가 표시됩니다. **모두 예**를 선택합니다.
+
+![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+
+이제 유지 잠금이 보존 정책에 적용되었습니다. `Get-RetentionCompliancePolicy`를 실행하면 `RestrictiveRetention` 매개 변수가 true로 설정됩니다. 예는 다음과 같습니다.
+
+`Get-RetentionCompliancePolicy -Identity “<Name of Policy>” |Fl`
+
+![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](media/retention-policy-preservation-lock-locked-policy.PNG)
   
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>보존 원칙 또는 우선 순위
 

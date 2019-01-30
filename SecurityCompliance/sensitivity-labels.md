@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365의 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: ad6137ad00fa2e7eb83a405e429d6c7826cf6a90
-ms.sourcegitcommit: d7e87ce4b1579ac47af2e853ef59ef058c40191f
+ms.openlocfilehash: 2804785362b504137319f5560287b6b2319e840b
+ms.sourcegitcommit: d05a9937780d210b7ad48e721b947397ac5405a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26547220"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29607160"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -77,7 +77,12 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - Intune의 엔드포인트 보호를 켜서 **데이터 손실을 방지**합니다. 중요한 콘텐츠가 다운로드되면 Windows 장치에서 데이터가 손실되지 않도록 할 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블은 WIP(Windows Information Protection)를 사용하려면 먼저 Azure Portal에서 앱 보호 정책을 만들어야 합니다. 자세한 내용은 [Windows Information Protection로 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/en-us/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하세요.
 
-이러한 모든 옵션은 보안 및 준수 센터에서 레이블을 만들 때 사용할 수 있스빈다.
+- **중요한 정보를 포함하고 있는 콘텐츠에 레이블을 자동으로 적용합니다.** 레이블을 지정할 중요한 정보의 유형을 선택할 수 있으며, 레이블을 자동으로 적용하거나 사용자가 추천 레이블을 적용할 수 있도록 메시지를 표시할 수 있습니다. 레이블을 추천하는 경우 어떤 텍스트를 선택해도 메시지가 표시됩니다. 자세한 내용은 [Apply a sensitivity label to content automatically](apply_sensitivity_label_automatically.md)(콘텐츠에 민감도 레이블을 자동으로 적용)를 참조하세요.
+
+    ![필수 레이블 할당 메시지](media/Sensitivity_label_Prompt_for_required_label.png)
+
+
+이 모든 옵션은 보안 및 준수 센터에서 레이블을 만들 때 사용할 수 있습니다.
 
 ![민감도 레이블을 만들 때의 옵션](media/Sensitivity_label_create_options.png)
 
@@ -115,7 +120,11 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - **레이블 변경 근거를 요구합니다.** 콘텐츠가 기밀로 표시되고, 사용자가 해당 레이블을 제거하거나 더 낮은 분류(예: 공용)로 바꾸려고 할 경우 사용자에게 해당 작업을 수행할 때 근거를 제공하도록 요구할 수 있습니다. 관리자는 이러한 근거를 검토할 수 있습니다. 현재, Microsoft는 관리자가 사용자 근거를 볼 수 있는 보고서를 제작하고 있습니다.
 
-    ![사용자에게 근거를 입력하도록 요구](media/Sensitivity_label_justification_required.png)
+    ![사용자가 근거를 입력하는 메시지](media/Sensitivity_label_justification_required.png)
+
+- **사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구합니다.** 사용자의 모든 콘텐츠에 레이블을 지정하도록 하려는 경우, 사용자의 저장된 문서 및 보낸 전자 메일 모두에 레이블을 적용하도록 요구할 수 있습니다. 사용자가 레이블을 수동으로 할당하고, 레이블이 조건의 결과로 자동으로 할당되거나, 기본적으로 할당(위에 설명된 기본 레이블 옵션)될 수 있습니다. 사용자가 레이블 할당 요구를 받을 때 Outlook에 표시되는 메시지는 다음과 같습니다.
+
+    ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지](media/sensitivity_labels_mandatory_prompt_aipv2_outlook.PNG)
 
 - **사용자 지정 도움말 페이지에 대한 도움말 링크를 제공합니다.** 사용자가 민감도 레이블의 의미나 사용 방식을 잘 모를 경우 Office 앱의 민감도 레이블 메뉴 하단에 자세히 알아보기 URL을 제공할 수 있습니다.
 

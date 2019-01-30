@@ -3,7 +3,7 @@ title: 중요 한 정보에 대 한 새 Office 365 메시지 암호화 정책
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/9/2019
+ms.date: 1/16/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: 요약:는 자동으로 모든 테 넌 트에 제공 하는 중요 한 정보 형식에 대 한 Office 365 메시지 암호화 정책을 적용 합니다.
-ms.openlocfilehash: a8cd132af2b1429698ea92779a3c54559e2b13e2
-ms.sourcegitcommit: b936a2fd4b7f7a7099b96cc29580ed55bdb8bf2b
+ms.openlocfilehash: f83bf0fe572586b3becf2dd53395e611bdaaea24
+ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789456"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29614382"
 ---
 # <a name="office-365-message-encryption-policy-for-sensitive-information"></a>중요 한 정보에 대 한 office 365 메시지 암호화 정책
 
-우리를 작성할 새 자동 정책을 중요 한 정보를 포함 하 고 조직 외부에 전송 되 고 있는 모든 전자 메일을 Office 365 메시지 암호화 적용 되는 Office 365 테 넌 트의 합니다. 기본적으로 조직 보호 됩니다 되도록이 새 Exchange 메일 흐름 규칙 Office 365 테 넌 트에 자동으로 생성 됩니다.
+선택 그룹은 조직의 크기와 메일 흐름의 복잡성에 따라 테 넌 트에 대해 특정 유형의 자체는 포함 된 전자 메일을 Office 365 메시지 암호화 적용 되는 Office 365 테 넌 트의 새로운 자동 정책의 느린 roll 아웃 수행 하는 정보입니다. 이 테 넌 트의 작은 그룹과 테스트 하는 합니다. 이 정책은 하지 롤아웃 될 모든 조직 및 조직 크기와 같은 고려 사항 및 메일 흐름의 복잡도 사용 하 여이 롤아웃을 대 한 자격을 결정 하는 합니다. 이 롤아웃을 대 한 조직 선택 알림을 기반이이 자동 정책이 만들어질 및 최소한 30 일 공지와 옵트아웃 옵션이 제공 됩니다 날짜를 알리는 Office 365 메시지 센터에서 받습니다. 이 정책을 만들려면 Microsoft 때까지 기다리는 하지 않으려고 그렇게 하려고 하는 경우 Exchange 메일 흐름 규칙을 사용 하 여이 자동 정책을 만들 수 자기 자신을 합니다.
 
 ## <a name="when-to-expect-the-update-for-your-tenant"></a>테 넌 트에 대 한 업데이트를 것으로 예상 되는 경우
 
@@ -52,7 +52,7 @@ ms.locfileid: "27789456"
 
 ## <a name="how-will-this-change-be-represented-in-the-audit-log"></a>이 변경 내용을 표시 되는 방법을 감사 로그에 있습니까?
 
-이 작업은 감사 및 고객에 게 표시 됩니다.  이 작업은 ' New-transportrule ' 이며 보안 및 규정 준수 센터의 감사 로그 검색에서 예제 감사 항목의 코드 조각을 아래:
+이 작업은 감사 및 고객에 게 표시 됩니다.  이 작업은 ' New-transportrule ' 이며 보안 & 준수 센터의에서 감사 로그 검색에서 예제 감사 항목의 코드 조각을 아래:
 
 |     |
 | --- |
