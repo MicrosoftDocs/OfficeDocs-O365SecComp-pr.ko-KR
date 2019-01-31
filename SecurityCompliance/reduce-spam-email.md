@@ -14,30 +14,34 @@ search.appverid:
 - MET150
 ms.assetid: 07824c51-2c45-4005-8596-03c0d7c4ff2a
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: 59778f992ebc232ae31ebc9aaae4ca5333080698
-ms.sourcegitcommit: 7023fd3c4d6088f82a5cd2fda241897a3a1c7f5c
+ms.openlocfilehash: 6dbcfa27c5ecbec6b6d1ab0bec298f45e867c4b3
+ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29453694"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29614412"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
  **Office 365에서 스팸이 너무 많이 늘어나나요? 그렇다면 다음을 수행하세요.**
   
-Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)하고 잘못된 부분을 파악하여 해결할 수 있습니다. SFV:NSPM 문자열이 포함된 X-Forefront-Antispam-Report 메시지 헤더가 표시될 경우 EOP(Exchange Online Protection)가 해당 메시지를 검색했으며 스팸으로 간주하지 않았음을 의미합니다. 이 경우 [보고 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하여 필터를 개선하는 것이 좋습니다. 헤더에 이 값이 표시되지 않으면 메일이 스팸 검사를 통과하지 못했거나 메시지를 무시하게 만드는 구성 문제가 있는 것입니다. 이 경우 아래 정보를 참조하세요. 
+Office 365의 스팸 문제는 [전자 메일 메시지 헤더](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를보고 무엇이 잘못되었는지를 판단하여 해결할 수 있습니다. X-Forefront-Antispam-Report라는 헤더를 찾아야합니다.
+
+  문자열에 SFV:NSPM이 포함되어 있으면 Exchange Online Protection(EOP)가 메시지를 스캔한 결과 이를 스팸이으로 판단하지 않았음을 의미합니다. 이에 동의하지 않으면 이를 허위 부정이라고 하고 [신고 메시지 추가 기능을 이용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)해 필터를 개선할 수 있도록 할 것을 강력히 권장합니다.
+
+  헤더 값이 표시되지 않으면 메일이 스팸 검사를 통과하지 못했거나 메시지 무시를 초래하는 구성 이슈가 존재함을 의미할 수 있습니다. 이 경우 아래 정보를 참조하십시오. 
   
 [스팸 방지 메시지 헤더](https://technet.microsoft.com/library/dn205071%28v=exchg.150%29.aspx)에 대해 자세히 알아볼 수 있습니다.
-  
+
 ## <a name="solutions-to-common-causes-of-getting-too-much-spam"></a>스팸을 너무 많이 증가하는 일반적인 원인에 대한 해결 방법
 
 스팸이 너무 많이 증가하지 않도록 하기 위해 EOP(Exchange Online Protection)는 관리자가 몇 가지 작업을 완료하도록 요구합니다. Office 365 테넌트의 관리자가 아니며 스팸이 너무 많이 발생하는 경우 관리자와 함께 이러한 문제를 해결할 수 있습니다. 그렇지 않은 경우 사용자 작업으로 건너뛸 수 있습니다.
   
 ### <a name="for-admins"></a>관리자
 
-- **Office 365를 가리키도록 DNS 레코드 지정** EOP를 통해 보호를 제공하려면 모든 도메인의 MX(메일 교환기)가 Office 365만 가리켜야 합니다. [MX가 Office 365를 가리키지 않는 경우](https://blogs.msdn.microsoft.com/tzink/2017/12/28/if-you-use-office-365-but-your-mx-record-doesnt-point-to-office-you-may-want-to-close-down-your-security-settings/), EOP는 사용자를 위해 스팸 필터링를 제공하지 않습니다. [DNS 레코드를 관리할 때 Office 365용 DNS 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23)를 참조하세요.
+- **Office 365를 가리키도록 DNS 레코드 지정** EOP를 통해 최상의 보호를 제공하려면 모든 도메인의 MX(메일 교환기)가 Office 365만 가리켜야 합니다. [DNS 레코드를 관리할 때 Office 365용 DNS 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23)를 참조하세요.
     
-- **모든 사서함에서 정크 메일 규칙 사용** 기본적으로 스팸 필터링 작업은 **정크 메일 폴더로 메시지 이동**으로 설정되어 있습니다. 이것이 기본 설정 및 현재 스팸 정책 작업인 경우 각 사서함에서 [정크 메일 규칙도 사용되도록 설정](https://blogs.msdn.microsoft.com/tzink/2017/12/14/making-sure-your-junk-email-filtering-is-enabled-in-office-365/)되어야 합니다. 이를 확인하려면 하나 이상의 사서함에 대해 Get-MailboxJunkEmailConfiguration cmdlet을 실행할 수 있습니다. 예를 들어, Get-MailboxJunkEmailConfiguration -Identity \* | Where {$_.Enabled -eq $false}를 실행하여 모든 사서함에 대해 이러한 설정을 확인할 수 있습니다.
+- **모든 사서함에서 정크 메일 규칙 사용** 기본적으로 스팸 필터링 작업은 **정크 메일 폴더로 메시지 이동**으로 설정되어 있습니다. 이것이 기본 설정 및 현재 스팸 정책 작업인 경우 각 사서함에서 [정크 메일 규칙도 사용되도록 설정](https://support.office.com/ko-KR/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)되어야 합니다. 이를 확인하려면 하나 이상의 사서함에 대해 Get-MailboxJunkEmailConfiguration cmdlet을 실행할 수 있습니다. 예를 들어, Get-MailboxJunkEmailConfiguration -Identity \* | Where {$_.Enabled -eq $false}를 실행하여 모든 사서함에 대해 이러한 설정을 확인할 수 있습니다.
     
     결과에서 Enable 속성이 True로 설정되어야 합니다. False로 설정된 경우 Set-MailboxJunkEmailConfiguration을 실행하여 True로 변경할 수 있습니다.
     
@@ -45,7 +49,7 @@ Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인]
     
 - **온-프레미스 Exchange Server에서 메일 흐름 규칙 만들기** Exchange Online Protection을 사용하지만 사서함 이 온-프레미스 Exchange 서버에 있는 경우 온-프레미스 Exchange Server에서 몇 가지 메일 흐름 규칙을 만들어야 합니다. [EOP 전용 지침](https://technet.microsoft.com/library/ms.exch.eac.EditAntispamPolicy_SpamAction%28EXCHG.150%29.aspx?v=15.20.548.14&amp;l=1&amp;s=BPOS_S_E15_0)을 참조하세요.
     
-- **대량 전자 메일을 스팸으로 표시** 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://blogs.msdn.microsoft.com/tzink/2014/08/25/different-levels-of-bulk-mail-filtering-in-office-365/)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다. 
+- **대량 전자 메일을 스팸으로 표시** 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://docs.microsoft.com/ko-KR/office365/SecurityCompliance/bulk-complaint-level-values)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다. 
     
 - **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우, 전자 메일 주소, 도메인 또는 IP 주소에 따라 차단할 수 있습니다. [가양성 문제 방지를 위해 Office 365 스팸 필터로 전자 메일 스팸 차단](block-email-spam-to-prevent-false-negatives.md)을 참조하세요. 최종 사용자의 허용 목록에 있는 항목은 관리자가 설정한 차단에 따라 재정의될 수 있습니다.
     
@@ -57,8 +61,6 @@ Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인]
     
 - **Microsoft에 스팸 보고** [보고서 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하여 Microsoft에 스팸 메시지를 보고합니다. 또한 junk@office365.microsoft.com으로 메시지를 보내고 보고서에 하나 이상의 메시지를 첨부할 수 있습니다.
     
-    **중요** 메시지를 첨부 파일로 전달하지 않는 경우 [헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다](https://blogs.msdn.microsoft.com/tzink/2017/11/30/when-creating-support-tickets-about-spam-be-sure-to-include-message-headers/). 
+    **중요** 메시지를 첨부 파일로 전달하지 않는 경우 헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다. 
     
-- **대량 전자 메일에서 구독 취소** 사용자가 등록한 메시지이지만(뉴스레터, 제품 알림 등) 신뢰할 수 있는 원본에서 구독 취소 링크가 포함된 경우 구독을 간단히 취소할 수 있습니다. Office 365는 일반적으로 메시지를 스팸으로 처리하지 않습니다. 보낸 사람을 차단하도록 선택할 수도 있고, 관리자에게 모든 대량 메일을 스팸으로 처리하도록 설정 변경을 요청할 수도 있습니다. 
-    
-
+- **대량 전자 메일에서 구독 취소** 사용자가 등록한 메시지이지만(뉴스레터, 제품 알림 등) 신뢰할 수 있는 원본에서 구독 취소 링크가 포함된 경우 구독을 간단히 취소할 수 있습니다. Office 365는 일반적으로 메시지를 스팸으로 처리하지 않습니다. 보낸 사람을 차단하도록 선택할 수도 있고, 관리자에게 모든 대량 메일을 스팸으로 처리하도록 설정 변경을 요청할 수도 있습니다.

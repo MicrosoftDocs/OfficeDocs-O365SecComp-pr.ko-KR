@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 34823bbc-a3e3-4949-ba42-97c73997eeed
 description: 실제 전자 메일이 Office 365에서 스팸으로 표시되고 분류되는 일을 방지하는 방법을 알아봅니다.
-ms.openlocfilehash: f7ba560b4eb30abcda4c97617ead883659558bd8
-ms.sourcegitcommit: 6d72cdb882b93edf6dfddb5ff2e6d8a16e2fa0bc
+ms.openlocfilehash: 4da27aea157d3d816f8ce9a9631dd608dd5cd164
+ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25596721"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "29614432"
 ---
 # <a name="how-to-prevent-real-email-from-being-marked-as-spam-in-office-365"></a>Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법
 
@@ -29,11 +29,13 @@ EOP(Exchange Online Protection)는 스팸을 필터링하여 사용자가 원치
   
 ## <a name="determine-the-reason-why-the-message-was-marked-as-spam"></a>메시지가 스팸으로 표시되는 이유 확인
 
-Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)하고 잘못된 부분을 파악하여 해결할 수 있습니다. SFV:NSPM 문자열이 포함된 X-Forefront-Antispam-Report 메시지 헤더가 표시될 경우 EOP(Exchange Online Protection)가 해당 메시지를 검색했으며 스팸으로 간주했음을 의미합니다. 이 경우 [보고 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하여 필터를 개선하는 것이 좋습니다. 헤더에 이 값이 표시되지 않으면 전자 메일이 스팸 검사를 통과하지 못했거나 메시지를 스팸으로 잘못 분류하게 만드는 구성 문제가 있는 것입니다. [스팸 방지 메시지 헤더에 대한 자세한 내용](https://technet.microsoft.com/library/dn205071%28v=exchg.150%29.aspx)을 확인할 수 있습니다.
+Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 통해 해결할 수 있으며 잘못된 내용을 파악할 수 있습니다. X-Forefront-Antispam-Report라는 헤더를 찾아야합니다. [스팸 방지 메시지 헤더에 대해 자세히 알아](https://technet.microsoft.com/library/dn205071%28v=exchg.150%29.aspx)볼 수 있습니다.
   
 헤더에서 다음 머리글 및 값을 찾습니다.
   
 ### <a name="x-forefront-antispam-report"></a>X-Forefront-Antispam-Report
+
+- **SFV:SPM** EOP 스팸 필터도 인해 메시지가 스팸으로 표시되지 않았음을 나타냅니다. 
 
 - **SFV:BLK** 보내는 주소가 받는 사람의 수신 거부 보낸 사람 목록에 있기 때문에 메시지가 스팸으로 표시되었음을 나타냅니다. 
     
@@ -41,7 +43,7 @@ Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인]
     
 - **SFV:SKB** 스팸 필터 정책의 차단 목록과 일치하므로 메시지가 스팸으로 표시되었음을 나타냅니다. 
     
-- **SFV:BULK** x-microsoft-antispam 헤더에 있는 BCL(대량 불만 수준) 값이 콘텐츠 필터에 대해 설정된 대량 임계값보다 높음을 나타냅니다. 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://blogs.msdn.microsoft.com/tzink/2014/08/25/different-levels-of-bulk-mail-filtering-in-office-365/)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다.
+- **SFV:BULK** x-microsoft-antispam 헤더에 있는 BCL(대량 불만 수준) 값이 콘텐츠 필터에 대해 설정된 대량 임계값보다 높음을 나타냅니다. 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://docs.microsoft.com/ko-KR/office365/SecurityCompliance/bulk-complaint-level-values)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다.
     
 - **CAT:SPOOF** 또는 **CAT: PHISH** 메시지가 스푸핑된 것을 나타냅니다. 즉, 메시지 원본이 유효한지 검사할 수 없으며 의심스러운 경우를 의미합니다. 유효한 경우 보낸 사람은 SPF 및 DKIM 구성이 올바른지 확인해야 합니다. 자세한 내용은 Authentication-Results 헤더를 확인합니다. 모든 보낸 사람이 적절한 전자 메일 인증 방법을 사용하도록 하는 것은 쉽지 않을 수 있지만 이러한 검사를 우회하는 것은 매우 위험할 수 있으며 보안 위반의 가장 큰 원인이 됩니다. 
     
@@ -67,8 +69,6 @@ Office 365의 여러 스팸 문제는 [전자 메일 메시지 헤더를 확인]
 
 - **Microsoft에 스팸 보고** [보고서 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하여 Microsoft에 스팸 메시지를 보고합니다. 또한 junk@office365.microsoft.com으로 메시지를 보내고 보고서에 하나 이상의 메시지를 첨부할 수 있습니다.
     
-    **중요** 메시지를 첨부 파일로 전달하지 않는 경우 [헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다](https://blogs.msdn.microsoft.com/tzink/2017/11/30/when-creating-support-tickets-about-spam-be-sure-to-include-message-headers/). 
+    **중요** 메시지를 첨부 파일로 전달하지 않는 경우 헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다. 
     
 - **허용 목록에 보낸 사람 추가(제한적으로만 사용)** 마지막 수단으로 [차단 또는 허용(정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)할 수 있습니다. 이렇게 하면 대상이 지정된 피싱 시도가 받은 편지함에 대해 허용될 수 있습니다.
-    
-
