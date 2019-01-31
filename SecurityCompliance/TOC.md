@@ -1,4 +1,4 @@
-# 시작
+# [시작]
 ## [Office 365 보안 로드맵](security-roadmap.md)
 ## [보안 강화를 위해 Office 365 테넌트 구성](tenant-wide-setup-for-increased-security.md)
 ## [Office 365 보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
@@ -7,7 +7,6 @@
 ## [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 ## [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
 ## [보안 대시보드 개요](security-dashboard.md)
-## [Outlook 데스크톱의 감독 추가 기능 설치](install-the-supervision-add-in-for-outlook-desktop.md)
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
 # 데이터 및 서비스에 대한 액세스 보호
@@ -16,6 +15,7 @@
 # 정보 보호
 ## [민감도 레이블](sensitivity-labels.md)
 ### [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)
+### [민감도 레이블을 콘텐츠에 자동으로 적용](apply_sensitivity_label_automatically.md)
 ## [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
 ### [DLP 확장된 개요 보기](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ## DLP 설정
@@ -38,6 +38,15 @@
 ### [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
 ### [문서 핑거프린팅](document-fingerprinting.md) 
+# 레코드 관리
+## [보존 정책](retention-policies.md)
+## [보존 레이블](labels.md)
+## [SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+## [처리 검토](disposition-reviews.md)
+## [이벤트 구동 보존](event-driven-retention.md)
+## [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
+## [파일 플랜 관리자](file-plan-manager.md)
+## [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 # 데이터 거버넌스 관리        
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
 ### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
@@ -55,10 +64,14 @@
 ## 데이터 보존
 ### [보존 정책](retention-policies.md)
 ### [보존 레이블](labels.md)
-### [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
 ### [처리 검토](disposition-reviews.md)
 ### [이벤트 구동 보존](event-driven-retention.md)
-### [파일 계획 관리자](file-plan-manager.md)
+### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
+### [파일 플랜 관리자](file-plan-manager.md)
+### [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+## [커뮤니케이션 관리](supervision-policies.md)
+### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [비활성 사서함 관리](inactive-mailboxes-in-office-365.md)
 ### [비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)
 ### [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
@@ -67,11 +80,8 @@
 ### [비활성 사서함 삭제](delete-an-inactive-mailbox.md)
 ## 데이터 거버넌스 모니터링
 ### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
-### [문서에 대한 레이블 활동 보기](view-label-activity-for-documents.md)
-### [조직에 대한 감독 정책 구성](configure-supervision-policies.md)
-### [Outlook 데스크톱의 감독 추가 기능 설치](install-the-supervision-add-in-for-outlook-desktop.md)
-### [감독 보고서](supervision-reports.md)
-## 데이터 거버넌스에 대한 추가 정보
+### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
+## 데이터 거버넌스에 관한 자세한 정보
 ### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
 # [위협으로부터 보호](protect-against-threats.md)
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
@@ -196,6 +206,67 @@
 ### [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [보류된 사물함의 복구 가능한 항목 할당량 증가](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)
+
+## [Microsoft 365의 Advanced eDiscovery(미리 보기)](compliance20/overview-ediscovery-20.md)
+### [릴리스 정보](compliance20/release-notes-ediscovery20.md)
+### [새 사례 만들기](compliance20/create-new-ediscovery-case.md)
+
+### [보유자와 작업](compliance20/managing-custodians.md)
+#### [보유자를 사례에 추가](compliance20/add-custodians-to-case.md)
+#### [보유자 관리](compliance20/manage-new-custodians.md)
+#### [보유자 활동 보기](compliance20/view-custodian-activity.md)
+
+### [커뮤니케이션을 통한 작업](compliance20/managing-custodian-communications.md)
+#### [보류 알림 만들기](compliance20/create-hold-notification.md)
+#### [커뮤니케이션 편집기 사용](compliance20/using-communications-editor.md)
+#### [보류 알림 관리](compliance20/manage-hold-notification.md)
+#### [보류 알림 편집](compliance20/edit-hold-notification.md)
+#### [보류 알림 승인](compliance20/acknowledge-hold-notification.md)
+
+### [보류 관리](compliance20/managing-holds.md)
+
+### [처리 오류 해결](compliance20/processing-data-for-case.md)
+#### [보유자 데이터의 고급 인덱싱](compliance20/indexing-custodian-data.md)
+#### [데이터를 처리할 때 오류 수정](compliance20/error-remediation.md)
+
+### [사례 데이터 수집](compliance20/collecting-data-for-ediscovery.md)
+#### [검색을 만들어서 데이터 수집](compliance20/create-search-to-collect-data.md)
+#### [검색 쿼리 작성](compliance20/building-search-queries.md)
+#### [검색 통계](compliance20/search-statistics.md)
+#### [검색 결과를 작업 집합에 추가](compliance20/add-data-to-working-set.md)
+
+### [사례 데이터 검토](compliance20/reviewing-data-in-working-set.md)
+#### [작업 집합 관리](compliance20/managing-working-sets.md)
+#### [로드 집합 관리](compliance20/manage-load-sets.md)
+#### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
+#### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
+#### [작업 집합에서 문서 보기](compliance20/annotating-and-redacting-documents.md)
+#### [작업 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
+
+### [사례 데이터 분석](compliance20/analyzing-data-in-working-set.md)
+#### [중복에 가까운 검색](compliance20/near-duplicates.md)
+#### [전자 메일 스레드](compliance20/email-threading.md)
+#### [테마](compliance20/themes.md)
+#### [관련성 모듈을 사용하여 데이터 분석](compliance20/using-relevance.md)
+
+### [사례 데이터 내보내기](compliance20/exporting-data-ediscover20.md)
+#### [작업 집합에서 문서 내보내기](compliance20/export-documents-from-working-set.md)
+#### [내보내기 작업 다운로드](compliance20/download-export-jobs.md)
+
+### [작업 관리](compliance20/managing-jobs-ediscovery20.md)
+
+### [사례 설정 구성](compliance20/configuring-case-settings-ediscovery20.md)
+#### [사례 닫기 또는 삭제](compliance20/close-or-delete-case.md)
+#### [사례에서 구성원 추가 또는 제거](compliance20/add-remove-members.md)
+#### [검색 및 분석 설정 구성](compliance20/configure-search-analytics-settings.md)
+
+### Advanced eDiscovery(미리 보기) 참조
+#### [검색 제한](compliance20/search-limits-ediscovery20.md)
+#### [인덱싱 제한](compliance20/indexing-limits-ediscovery20.md)
+#### [내보내기 제한](compliance20/export-limits-ediscovery20.md)
+#### [제한 다운로드](compliance20/download-limits-ediscovery20.md)
+#### [지원되는 파일 형식](compliance20/supported-filetypes-ediscovery20.md)
+#### [문서 메타데이터 필드](compliance20/document-metadata-fields.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Advanced eDiscovery에서 시작하기](quick-setup-for-advanced-ediscovery.md)
