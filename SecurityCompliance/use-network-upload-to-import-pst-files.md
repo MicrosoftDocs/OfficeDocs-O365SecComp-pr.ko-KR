@@ -3,7 +3,7 @@ title: 네트워크 업로드를 사용 하 여 Office 365를 조직 PST 파일�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자를 위한: 대량 가져오기 Office 365에서 사용자 사서함에 여러 PST 파일을 네트워크 업로드를 사용 하는 방법에 알아봅니다.'
-ms.openlocfilehash: c5bcaed9075939d098ac4bf9fbf4d8a94007232c
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 81c799a8c820e9d9287f4792fe463d6a99b90e36
+ms.sourcegitcommit: 25f1028643d8a20d17306e8b09cafea46eaf7a58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533250"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29666158"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>네트워크 업로드를 사용 하 여 Office 365를 조직 PST 파일을 가져오려면
 
@@ -81,17 +81,19 @@ Note Office 365 사서함에 PST 파일을 가져오려면 한번만 1 단계를
     > [!TIP]
     > 메시지 수신 크기를 식별 하는 사서함에 대 한 Exchange Online PowerShell에서이 명령을 실행할 수: `Get-Mailbox <user mailbox> | FL MaxReceiveSize`합니다. 
 
-### <a name="step-1-copy-the-sas-url-and-install-azure-azcopy"></a>1 단계: SAS URL을 복사 하 고 Azure AzCopy를 설치 합니다.
+## <a name="step-1-copy-the-sas-url-and-install-azure-azcopy"></a>1 단계: SAS URL을 복사 하 고 Azure AzCopy를 설치 합니다.
 
 첫 단계를 다운로드 하는 Office 365에 PST 파일을 업로드 하려면 2 단계에서에서 실행 하는 도구는 Azure AzCopy 도구를 설치 하는 것입니다. 또한 조직에 대 한 SAS URL을 복사할 수 있습니다. 이 URL은 조직 및 공유 액세스 서명 (SAS) 키에 대 한 Microsoft 클라우드 Azure 저장소 위치에 대 한 네트워크 URL의 조합입니다. 이 키는 Azure 저장소 위치에 PST 파일을 업로드 하려면 필요한 권한을 제공 합니다. SAS URL을 보호 하기 위한 예방 조치를 수행 해야 합니다. 조직에 고유 하 고 2 단계에서에서 사용 됩니다.
-  
- **중요:** 네트워크를 사용 하 여 PST 파일을 가져오려면 7.1.0 업로드 방법 Azure AzCopy 버전을 사용 하는 것이 좋습니다. 다음 절차의 단계 6b 버전 7.1.0 다운로드 됩니다. 
+
+> [!IMPORTANT]
+> PST를 가져오려면 네트워크를 사용 하 여 파일 업로드 방법, 다음 절차의 단계 6b에서 다운로드할 수 있는 Azure AzCopy의 버전을 사용 하는 것이 좋습니다.
   
 1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365 조직에서 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. 보안의 왼쪽된 창에서 &amp; 준수 센터 **데이터 거 버 넌 스** 를 클릭 \> **가져오기**.
     
-    **참고:** 보안에서 **가져오기** 페이지에 액세스 하려면 적절 한 사용 권한을 할당할 필요가 &amp; 준수 센터입니다. 자세한 내용은 **시작 하기 전에** 섹션을 참조 하십시오. 
+    > [!NOTE]
+    > 보안에서 **가져오기** 페이지에 액세스 하려면 적절 한 사용 권한을 할당할 필요가 &amp; 준수 센터입니다. 자세한 내용은 **시작 하기 전에** 섹션을 참조 하십시오. 
     
 3. **가져오기** 페이지에서 다음을 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) **새로 만들기 작업을 가져옵니다**.
     
@@ -109,9 +111,10 @@ Note Office 365 사서함에 PST 파일을 가져오려면 한번만 1 단계를
   
     a. 2 단계에서 **네트워크 업로드 SAS URL 표시**를 클릭 합니다. SAS URL 표시 된 후 **클립보드에 복사** 를 클릭 하 고 붙여넣으십시오 하 고 나중에 액세스할 수 있도록 파일에 저장 합니다.
     
-    b. 3 단계에서 다운로드 하 고 Azure AzCopy 도구를 설치 하려면 **Azure AzCopy 다운로드** 클릭 합니다. 듯이 버전 7.1.0 다운로드 됩니다. 팝업 창의 AzCopy를 설치 하려면 **실행** 을 클릭 합니다. 
+    b. 3 단계에서 다운로드 하 고 Azure AzCopy 도구를 설치 하려면 **Azure AzCopy 다운로드** 클릭 합니다. 팝업 창의 AzCopy를 설치 하려면 **실행** 을 클릭 합니다. 
     
-  **참고:** **데이터 가져오기** 페이지 열기으로 남길 수 (대비 SAS URL을 다시 복사 해야할) 하거나 닫으려면 **취소** 를 클릭 합니다. 
+> [!NOTE]
+> **데이터 가져오기** 페이지 열기으로 남길 수 (대비 SAS URL을 다시 복사 해야할) 하거나 닫으려면 **취소** 를 클릭 합니다. 
  
 ## <a name="step-2-upload-your-pst-files-to-office-365"></a>2 단계: Office 365에 PST 파일을 업로드
 
@@ -130,7 +133,7 @@ Note Office 365 사서함에 PST 파일을 가져오려면 한번만 1 단계를
  
     다음 표에서 매개 변수 및 해당 필수 값을 설명합니다. 참고 이러한 매개 변수에 대 한 이전 단계에서 얻은 정보는 값에 사용 됩니다.
     
-    |**매개 변수**|**설명**|**예제**|
+    |**매개 변수**|**설명**|**예**|
     |:-----|:-----|:-----|
     | `/Source:` <br/> |Office 365로 업로드 됩니다 PST 파일을 포함 하 여 조직에서 원본 디렉터리를 지정 합니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/Source:"\\FILESERVER01\PSTs"` <br/> |
     | `/Dest:` <br/> |1 단계에서에서 구한 SAS URL을 지정 합니다.  <br/> 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> **팁:** (선택 사항) PST 파일을 업로드 하려면 Azure 저장소 위치에 하위 폴더를 지정할 수 있습니다. SAS URL에서 "ingestiondata") (이후 하위 폴더 위치를 추가 하 여이 작업을 수행 합니다. 첫번째 예제에서는; 하위 폴더를 지정 하지 않으면 즉, Azure 저장소 위치는 Pst ( *ingestiondata* 라는) 루트에 업로드 합니다. 두번째 예제 Azure 저장소 위치의 루트에서 ( *PSTFiles* 라는) 하위 폴더에 PST 파일을 업로드 합니다.<br/> | `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> 또는  <br/>  `/Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
@@ -146,8 +149,9 @@ Note Office 365 사서함에 PST 파일을 가져오려면 한번만 1 단계를
 ```
 
 이 명령을 실행하면 PST 파일의 업로드 진행률을 보여 주는 상태 메시지가 표시됩니다. 마지막 상태 메시지에는 성공적으로 업로드된 파일의 총 수가 표시됩니다. 
-    
-**팁:** 성공적으로 AzCopy.exe 명령을 실행 하 고 매개 변수를 모두 올바른지 확인 합니다 명령줄 구문 정보를 복사한 동일한 (보안) 파일의 복사본을 저장 하면 1 단계에서에서 구한 합니다. 다음 복사 수 있으며이 명령은 명령 프롬프트에서 Office 365에 PST 파일을 업로드 하려면 AzCopy.exe 도구를 실행할 때마다 붙여넣습니다. 변경 해야할 유일한 값에 대 한 가지는 `/Source:` 매개 변수입니다. 이 PST 파일의 위치는 원본 디렉터리에 따라 달라 집니다. 
+
+> [!TIP]
+> 성공적으로 AzCopy.exe 명령을 실행 하 고 매개 변수를 모두 올바른지 확인 합니다 명령줄 구문 정보를 복사한 동일한 (보안) 파일의 복사본을 저장 하면 1 단계에서에서 구한 합니다. 다음 복사 수 있으며이 명령은 명령 프롬프트에서 Office 365에 PST 파일을 업로드 하려면 AzCopy.exe 도구를 실행할 때마다 붙여넣습니다. 변경 해야할 유일한 값에 대 한 가지는 `/Source:` 매개 변수입니다. 이 PST 파일의 위치는 원본 디렉터리에 따라 달라 집니다.
 
 ## <a name="optional-step-3-view-a-list-of-the-pst-files-uploaded-to-office-365"></a>(선택 사항) Office 365에 보기 PST 파일의 목록이 업로드 3 단계:
 
@@ -159,7 +163,8 @@ Note Office 365 사서함에 PST 파일을 가져오려면 한번만 1 단계를
     
 Microsoft Azure 저장소 탐색기 미리 보기에서 됩니다.
   
- **중요:** Azure 저장소 탐색기를 사용 하 여 업로드 하거나 PST 파일을 수정 하려면 수는 없습니다. Office 365에 PST 파일을 가져오기 위한 유일한 방법은 지원된 AzCopy를 사용 하는 것입니다. 또한 Azure blob를 업로드 한 PST 파일을 삭제할 수 없습니다. PST 파일을 삭제 하려고 하는 경우 필요한 사용 권한을 있지 않은 경우에 대 한 오류가 표시 됩니다. 참고 모든 PST 파일 Azure 저장소 영역에서 자동으로 삭제 됩니다. 진행 중인 가져오기 작업이 다음 모든 PST 파일의 경우는 * * ingestiondata * * 컨테이너 30 일 가장 최근의 가져오기 작업을 만든 후에 삭제 됩니다. 
+> [!IMPORTANT]
+> Azure 저장소 탐색기를 사용 하 여 업로드 하거나 PST 파일을 수정 하려면 수는 없습니다. Office 365에 PST 파일을 가져오기 위한 유일한 방법은 지원된 AzCopy를 사용 하는 것입니다. 또한 Azure blob를 업로드 한 PST 파일을 삭제할 수 없습니다. PST 파일을 삭제 하려고 하는 경우 필요한 사용 권한을 있지 않은 경우에 대 한 오류가 표시 됩니다. 참고 모든 PST 파일 Azure 저장소 영역에서 자동으로 삭제 됩니다. 없는 경우 진행 상황을 **ingestiondata** 컨테이너에 있는 다음 모든 PST 파일에 가져오기 작업이 30 일 가장 최근의 가져오기 작업을 만든 후 삭제 됩니다.
   
 Azure 저장소 탐색기를 설치 및 Azure 저장소 영역에 연결 합니다.
   
@@ -212,7 +217,7 @@ Office 365 조직에 대 한 Azure 저장소 위치로 PST 파일을 업로드 �
  3. 다음 표의 정보를 사용하여 CSV 파일을 필요한 정보로 채웁니다.
 
 
-    |**매개 변수**|**설명**|**예제**|
+    |**매개 변수**|**설명**|**예**|
     |:-----|:-----|:-----|
     | `Workload` <br/> |데이터를 가져올 수는 Office 365 서비스를 지정 합니다. 사용자 사서함을 PST 파일을 가져오려면, 사용 `Exchange`합니다.<br/> | `Exchange` <br/> |
     | `FilePath` <br/> |2 단계에서에서 PST 파일을 업로드 하는 Azure 저장소 위치에 폴더 위치를 지정 합니다.  <br/> SAS URL에는 선택적 하위 폴더 이름을 포함 하지 않았으므로 하는 경우는 `/Dest:` 매개 변수 2 단계에서에서이 매개 변수를 비워둘 CSV 파일에 있습니다. 하위 폴더 이름을 포함 하는 경우이 매개 변수에서 지정 (합니다 두번째 예제 참조). 이 매개 변수의 값은 대/소문자 구분 됩니다.<br/> 두 방법 모두에 대 한 값에 "ingestiondata"를 포함 *하지* 는 `FilePath` 매개 변수입니다.  <br/><br/> **중요:** 파일 경로 이름에 대 한 대/소문자에 SAS URL에는 선택적 하위 폴더 이름을 포함 하는 경우를 사용 하는 경우와 동일 해야는 `/Dest:` 2 단계에서에서 매개 변수입니다. 예: 사용 하는 경우 `PSTFiles` 하위 폴더에 대 한 2 단계에서에서 이름을 지정 하 고 다음을 사용 `pstfiles` 에 `FilePath` CSV 파일의 매개 변수, PST 파일에 대 한 가져오기가 실패 합니다. 두 경우 모두 동일한 대/소문자를 사용 해야 합니다.<br/> |(공백으로 둠)  <br/> 또는  <br/>  `PSTFiles` <br/> |
@@ -263,7 +268,7 @@ Office 365 조직에 대 한 Azure 저장소 위치로 PST 파일을 업로드 �
     
     **진행 중인 분석** 의 상태가 상태 플라이 아웃 페이지가 표시 됩니다 하 고 새 가져오기 작업 **가져오기** 페이지의 목록에 표시 됩니다. 
     
-11. **새로 고칠**을 클릭![새로고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **상태** 열에 표시 되는 상태 정보를 업데이트 합니다. 분석이 완료 되는 데이터를 가져올 수 있도록 준비 하는 경우에 상태 **분석 완료**로 변경 됩니다.
+11. **새로 고칠** 을 클릭 ![새로고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **상태** 열에 표시 되는 상태 정보를 업데이트 합니다. 분석이 완료 되는 데이터를 가져올 수 있도록 준비 하는 경우에 상태 **분석 완료**로 변경 됩니다.
     
     매핑 파일에 나열 된 각 PST 파일의 상태와 같은 가져오기 작업에 대 한 자세한 정보를 포함 하는 상태 플라이 아웃 페이지를 표시 하려면 가져오기 작업을 클릭 수 있습니다.
  
@@ -361,11 +366,11 @@ Office 365 조직에 대 한 Azure 저장소 위치로 PST 파일을 업로드 �
     AzCopy.exe /Source:"\\FILESERVER1\PSTs" /Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/PSTFiles?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D" /V:"c:\Users\Admin\Desktop\AzCopy1.log" /Y
 ``
 
-- As previously explained, the Office 365 Import service turns on the retention hold setting (for an indefinite duration) after PST files are imported to a mailbox. This means the  *RetentionHoldEnabled*  property is set to  `True` so that the retention policy assigned to the mailbox won't be processed. This gives the mailbox owner time to manage the newly-imported messages by preventing a deletion or archive policy from deleting or archiving older messages. Here are some steps you can take to manage this retention hold: 
+- As previously explained, the Office 365 Import service turns on the retention hold setting (for an indefinite duration) after PST files are imported to a mailbox. This means the  *RetentionHoldEnabled*  property is set to  **True** so that the retention policy assigned to the mailbox won't be processed. This gives the mailbox owner time to manage the newly-imported messages by preventing a deletion or archive policy from deleting or archiving older messages. Here are some steps you can take to manage this retention hold: 
     
-    - After a certain period of time, you can turn off the retention hold by running the  `Set-Mailbox -RetentionHoldEnabled $false` command. For instructions, see [Place a mailbox on retention hold](https://go.microsoft.com/fwlink/p/?LinkId=544749).
+    - After a certain period of time, you can turn off the retention hold by running the **Set-Mailbox -RetentionHoldEnabled $false** command. For instructions, see [Place a mailbox on retention hold](https://go.microsoft.com/fwlink/p/?LinkId=544749).
     
-   - You can configure the retention hold so that it's turned off on some date in the future. You do this by running the  `Set-Mailbox -EndDateForRetentionHold <date>` command. For example, assuming that today's date is July 1, 2016 and you want the retention hold turned off in 30 days, you would run the following command:  `Set-Mailbox -EndDateForRetentionHold 8/1/2016`. In this scenario, you would leave the  *RetentionHoldEnabled*  property set to  *True*  . For more information, see [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
+   - You can configure the retention hold so that it's turned off on some date in the future. You do this by running the **Set-Mailbox -EndDateForRetentionHold *date*** command. For example, assuming that today's date is July 1, 2016 and you want the retention hold turned off in 30 days, you would run the following command:  **Set-Mailbox -EndDateForRetentionHold 8/1/2016**. In this scenario, you would leave the  **RetentionHoldEnabled**  property set to  *True*. For more information, see [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317).
     
    - You can change the settings for the retention policy that's assigned to the mailbox so that older items that were imported won't be immediately deleted or moved to the user's archive mailbox. For example, you could lengthen the retention age for a deletion or archive policy that's assigned to the mailbox. In this scenario, you would turn off the retention hold on the mailbox after you changed the settings of the retention policy. For more information, see [Set up an archive and deletion policy for mailboxes in your Office 365 organization](set-up-an-archive-and-deletion-policy-for-mailboxes.md).
     
