@@ -13,18 +13,20 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
-ms.openlocfilehash: a8d26db2a28d5b022f20408caf418b23edd98167
-ms.sourcegitcommit: 6669b7aae26965145e85d9613d3091bf389f000b
+ms.openlocfilehash: 6f423ba29540bdc498c2725b9741dece2557e4be
+ms.sourcegitcommit: 25f1028643d8a20d17306e8b09cafea46eaf7a58
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618934"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29666178"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족
 
  *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.* 
   
-Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)의 워크플로 기반 위험 평가 도구인 준수 관리자를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 준수 관리자는 다음을 수행합니다.
+Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)의 워크플로 기반 위험 평가 도구인 준수 관리자를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 
+
+규정 준수 관리자:
   
 - Microsoft에서 규정(예: HIPAA 및 EU 일반 데이터 보호 규정 또는 GDPR) 준수를 위해 내부적으로 컴파일하는 다양한 표준(예: ISO 27001, ISO 27018 및 NIST) 및 정보에 따라 Microsoft의 클라우드 서비스의 다양한 타사 감사의 일부로 감사자 및 규제 기관에 제공하는 자세한 정보를 이러한 표준 및 규제에 대한 조직의 준수 여부에 대한 자체 평가와 조합합니다.
     
@@ -35,36 +37,17 @@ Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd
 - 준수 활동과 관련된 증거 및 기타 아티팩트를 업로드하고 관리하기 위한 보안 리포지토리를 제공합니다.
     
 - Microsoft 및 조직이 수행하는 준수 활동을 문서화한 서식 있는 자세한 Microsoft Excel 보고서를 생성하여 감사자, 규제 기관 및 기타 준수 관련자에게 제공할 수 있습니다.
+
+이 규정 준수 관리자의 간략한 데모를 보려면 이 [규정 준수 관리자](https://www.youtube.com/watch?v=r1vs8NdSXKQ) 비디오를 확인하세요.
+
     
 > [!IMPORTANT]
 > 준수 관리자는 데이터 보호 및 규정 준수를 향상시키기 위해 데이터 보호 및 준수 수준과 권장 사항의 요약을 제공하는 대시보드입니다. 준수 관리자에 제공되는 고객 작업은 권장 사항입니다. 따라서 이러한 권장 사항을 구현하기 전에 해당 규제 환경에서 이러한 권장 사항의 결과를 미리 평가하는 것은 각 조직의 책임입니다. 준수 관리자에 제공된 권장 사항을 수행한다고 해서 규정 준수가 보장되는 것으로 해석하면 안 됩니다.
+
     
 ## <a name="what-is-compliance-manager"></a>준수 관리자란?
 
 준수 관리자는 클라우드 공유 책임 모델 내에서 규정 준수를 관리하는 데 도움이 되도록 디자인된 워크플로 기반 위험 평가 도구입니다. 준수 관리자는 조직의 Microsoft 컨트롤 구현 세부 정보 및 테스트 결과와 고객 컨트롤 구현 지침 및 추적을 포함하는 표준 및 규정과 평가의 대시보드 보기를 제공합니다. 준수 관리자는 컨트롤 구현, 테스트 상태 및 증가 관리를 추적하기 위한 인증 평가 제어 정의, 컨트롤 구현 및 테스트 지침, 위험별로 가중치를 부여한 컨트롤 점수, 역할 기반 액세스 평가, 전체 컨트롤 작업 할당 워크플로를 제공합니다. 준수 관리자는 고객이 그룹 평가를 논리적으로 그룹화하고 동일하거나 관련된 컨트롤에 평가 컨트롤 테스트를 적용하여 준수 워크로드를 최적화하므로, 다른 인증에 대해 동일한 컨트롤 요구를 충족할 필요가 없어집니다.
-  
-## <a name="using-search"></a>검색 사용
-
-![Service Trust Portal - 검색 입력 필드](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
-  
-페이지의 오른쪽 위 모서리에 있는 돋보기를 클릭하여 검색 입력 필드를 확장하고, 검색 용어를 입력한 후 Enter 키를 누릅니다. 검색 컨트롤이 나타나고, 검색 창 입력 필드에는 검색 용어가 표시되며 아래에 검색 결과가 표시됩니다.
-  
-기본적으로 검색은 문서 결과를 반환하며, 필터 기준 드롭다운 목록을 사용하여 표시되는 문서 목록을 구체화하고, 보기에서 검색 결과를 추가 또는 제거할 수 있습니다. 여러 필터 특성을 동시에 사용하여 반환되는 문서의 범위를 특정 클라우드 서비스, 준수 또는 보안 조치 범주, 지역 또는 산업 분야로 좁힐 수 있습니다. 문서를 다운로드하려면 문서 이름 링크를 클릭합니다.
-  
-![Service Trust Portal - 필터를 적용하여 문서 검색](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
-  
-준수 관리자 링크를 클릭하여 준수 관리자 평가 컨트롤에 대한 검색 결과를 표시합니다. 나열된 검색 결과에는 평가가 생성된 날짜, 평가 그룹의 이름, 적용 가능한 클라우드 서비스 및 Microsoft 관리 컨트롤인지 아니면 고객 관리 컨트롤인지 등이 표시됩니다.
-  
-![Service Trust Portal - 준수 관리자 컨트롤에서 검색](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
-  
-> [!NOTE]
-> Service Trust Portal 보고서 및 문서는 새 버전이 게시되고 12개월 동안 또는 새 버전의 문서가 사용 가능해질 때까지 다운로드할 수 있습니다. 
- 
-## <a name="localization-support"></a>지역화 지원
-
-Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 있습니다. 페이지 언어를 변경하려면 페이지의 왼쪽 아래 모서리에서 지구본 아이콘을 클릭 하고 원하는 언어를 선택합니다. 
-  
-![Service Trust Portal - 지역화된 콘텐츠 옵션](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
 
 ## <a name="assessments-in-compliance-manager"></a>준수 관리자의 평가
 
@@ -690,6 +673,30 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 3. 보려는 평가의 이름을 클릭합니다.
     
 보관된 평가를 볼 때 일반적으로 편집 가능한 컨트롤(즉, 구현, 테스트 결과)는 전혀 활성화되지 않으며 **관리되는 문서** 단추는 없습니다.
+
+## <a name="using-search"></a>검색 사용
+
+![Service Trust Portal - 검색 입력 필드](media/7c5cd817-3d62-420b-adb4-76e33fef941f.png)
+  
+페이지의 오른쪽 위 모서리에 있는 돋보기를 클릭하여 검색 입력 필드를 확장하고, 검색 용어를 입력한 후 Enter 키를 누릅니다. 검색 컨트롤이 나타나고, 검색 창 입력 필드에는 검색 용어가 표시되며 아래에 검색 결과가 표시됩니다.
+  
+기본적으로 검색은 문서 결과를 반환하며, 필터 기준 드롭다운 목록을 사용하여 표시되는 문서 목록을 구체화하고, 보기에서 검색 결과를 추가 또는 제거할 수 있습니다. 여러 필터 특성을 동시에 사용하여 반환되는 문서의 범위를 특정 클라우드 서비스, 준수 또는 보안 조치 범주, 지역 또는 산업 분야로 좁힐 수 있습니다. 문서를 다운로드하려면 문서 이름 링크를 클릭합니다.
+  
+![Service Trust Portal - 필터를 적용하여 문서 검색](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+  
+준수 관리자 링크를 클릭하여 준수 관리자 평가 컨트롤에 대한 검색 결과를 표시합니다. 나열된 검색 결과에는 평가가 생성된 날짜, 평가 그룹의 이름, 적용 가능한 클라우드 서비스 및 Microsoft 관리 컨트롤인지 아니면 고객 관리 컨트롤인지 등이 표시됩니다.
+  
+![Service Trust Portal - 준수 관리자 컨트롤에서 검색](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+  
+> [!NOTE]
+> Service Trust Portal 보고서 및 문서는 새 버전이 게시되고 12개월 동안 또는 새 버전의 문서가 사용 가능해질 때까지 다운로드할 수 있습니다. 
+ 
+## <a name="localization-support"></a>지역화 지원
+
+Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 있습니다. 페이지 언어를 변경하려면 페이지의 왼쪽 아래 모서리에서 지구본 아이콘을 클릭 하고 원하는 언어를 선택합니다. 
+  
+![Service Trust Portal - 지역화된 콘텐츠 옵션](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+
 
 ## <a name="change-log-for-customer-managed-controls"></a>고객 관리 컨트롤에 대한 변경 로그
 
