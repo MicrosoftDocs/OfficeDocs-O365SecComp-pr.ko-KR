@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 사례 설정 구성
+title: 고급 eDiscovery (미리 보기)의 경우 설정 구성
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bded5e1b76b24d17acd2117ff5c8316b81ad08ef
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 8549af59965a9197179b328581d61dd559846797
+ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608127"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29694825"
 ---
-# <a name="configuring-case-settings-in-advanced-ediscovery-preview"></a><span data-ttu-id="111b7-102">고급 eDiscovery (미리 보기)에서 사례 설정 구성</span><span class="sxs-lookup"><span data-stu-id="111b7-102">Configuring case settings in Advanced eDiscovery (Preview)</span></span>
+# <a name="configure-case-settings-in-advanced-ediscovery-preview"></a><span data-ttu-id="324e1-102">고급 eDiscovery (미리 보기)의 경우 설정 구성</span><span class="sxs-lookup"><span data-stu-id="324e1-102">Configure case settings in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="111b7-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="111b7-103">Content coming soon.</span></span>
+<span data-ttu-id="324e1-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="324e1-103">Content coming soon.</span></span>
