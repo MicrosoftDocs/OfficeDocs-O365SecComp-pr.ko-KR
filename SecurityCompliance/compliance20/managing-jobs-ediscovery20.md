@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 39ec0323b122bcfdf57234bfc14003e8525d9abd
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 493d1b6ec448f3de9b782028b903c7b290681e88
+ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608105"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29694804"
 ---
-# <a name="managing-jobs-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 작업 관리
+# <a name="manage-jobs-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 작업 관리
 
 고급 eDiscovery (미리 보기)의 경우의 **작업** 탭에서 추적 되는 작업 목록은 다음과 같습니다.
 

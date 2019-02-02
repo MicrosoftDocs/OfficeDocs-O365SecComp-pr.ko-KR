@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 설정 하는 관리 작업
+title: 고급 eDiscovery (미리 보기)에서 작업 집합 관리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3341236f568177480615d4572bb25407f6c3ad92
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 04078141e9a515cf7a3c34aa353759039cc00283
+ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608141"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29694834"
 ---
-# <a name="managing-working-sets-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 설정 하는 관리 작업  
+# <a name="manage-working-sets-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 작업 집합 관리  
 
 곧 제공될 콘텐츠입니다.
 
