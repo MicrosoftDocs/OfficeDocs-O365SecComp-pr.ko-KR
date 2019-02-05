@@ -13,15 +13,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: 'Office 365 보안 및 규정 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 95516cd88677955137e51401113844375cb1e082
-ms.sourcegitcommit: c34f1a0d560117153fc9a7b8da8994bc6fc53791
+description: 'Office 365 보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
+ms.openlocfilehash: 848dbbdeb8b7cd9abd664b5ac401f6afde31c1e1
+ms.sourcegitcommit: c40eee4ef3890056da58649e4617283b0b9d1673
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "27118144"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29735470"
 ---
-# <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 규정 준수 센터의 감사 로그를 검색 합니다.
+# <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 보안 & 준수 센터의에서 감사 로그를 검색 합니다.
 
 사용자는 특정 문서를 볼 또는 자신의 사서함에서 항목을 제거 하는 경우를 찾이 필요가 있습니까? 그렇다면 사용 Office 365 보안 &amp; 준수 센터를 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. 통합 된 감사 로그 그 이유? Office 365에서 사용자 및 관리자 작업에는 다음과 같은 유형의 검색할 수 있으므로:
   
@@ -40,7 +40,7 @@ ms.locfileid: "27118144"
     
 - 사용자 및 관리자 작업의 영향
     
-- Office 365 보안 및 규정 준수 센터의 eDiscovery 활동
+- Office 365 보안 & 준수 센터의에서 eDiscovery 활동
     
 - Power BI의 사용자 및 관리자 작업
     
@@ -172,6 +172,9 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
     d. **파일, 폴더 또는 사이트에** 지정 된 키워드 포함 된 폴더의 파일에 관련 된 작업에 대 한 검색 파일 또는 폴더 이름 중 일부 또는 전부를 입력 합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용 하는 경우 전체 URL 경로 입력 해야 하거나 방금는 URL의 일부를 입력 하는 경우 모든 특수 문자나 공백을 포함 하지 마십시오. 
     
     이 상자는 조직에서 모든 파일 및 폴더에 대 한 항목을 반환 하려면 비워 둡니다.
+    
+    > [!TIP]
+    > **사이트**와 관련 된 모든 작업에 대 한를 보고, 추가 하는 와일드 카드 기호 (\*) 후 해당 사이트에 대 한 모든 항목을 반환 하려면 URL 예, **"https://contoso-my.sharepoint.com/personal/*"** 합니다.
     
 5. 검색 조건을 사용 하 여 검색을 실행 하려면 **검색** 클릭 합니다. 
     
@@ -400,7 +403,8 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |**이름**|**Operation**|**설명**|
 |:-----|:-----|:-----|
 |예외 사용자 에이전트를 추가합니다.  <br/> |ExemptUserAgentSet  <br/> |SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록에 사용자 에이전트를 추가합니다.  <br/> |
-|추가 된 사이트 모음 관리  <br/> |SiteCollectionAdminAdded  <br/> |사이트 모음 관리자 또는 소유자는 사이트에 대 한 사이트 모음 관리자로 사용자를 추가 합니다. 사이트 모음 관리자는 사이트 모음과 모든 하위 사이트에 대 한 모든 권한을 가집니다.  <br/> |
+|추가 된 사이트 모음 관리  <br/> |SiteCollectionAdminAdded  <br/> |사이트 모음 관리자 또는 소유자는 사이트에 대 한 사이트 모음 관리자로 사용자를 추가 합니다. 사이트 모음 관리자는 사이트 모음과 모든 하위 사이트에 대 한 모든 권한을 가집니다. 관리자 자신에 액세스할 사용자의 OneDrive 계정 (SharePoint 관리 센터 또는 [Office 365 관리 센터를 사용 하 여](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data#part-1---get-access-to-the-former-employees-onedrive-for-business-documents)사용자 프로필을 편집)을 통해 하는 경우에이 작업 기록 됩니다.<br/> |
+|(없음)  <br/> |SiteCollectionAdminRemoved <br/> |사이트 모음 관리자 또는 소유자는 사이트에 대 한 사이트 모음 관리자로 사람을 제거합니다. 관리자를 제거 자신 사용자의 OneDrive 계정에 대 한 사이트 모음 관리자의 목록에서 (SharePoint 관리 센터에서 사용자 프로필을 편집)을 통해이 작업 기록 됩니다.  참고 감사 로그 검색 결과에서이 작업을 반환 하는 모든 작업에 대 한 검색 필요 있습니다. <br/> |
 |추가 된 사용자 또는 그룹을 SharePoint 그룹  <br/> |AddedToGroup  <br/> |SharePoint 그룹에 구성원 또는 게스트를 추가 하는 사용자입니다. 이 되었을 수 있습니다는 의도적인 동작 또는 공유 하는 이벤트와 같은 다른 작업의 결과입니다.  <br/> |
 |그룹을 만들 사용자를 허용 합니다.  <br/> |AllowGroupCreationSet  <br/> |사이트 관리자 또는 소유자 사용자를 허용 하는 사이트에 사용 권한 수준을 할당 해당 사이트에 대 한 그룹을 만들 수 있는 해당 권한을 추가 합니다.  <br/> |
 |취소 됨된 사이트 지리적으로 분산 이동  <br/> |SiteGeoMoveCancelled  <br/> |SharePoint 취소 성공적으로 SharePoint 또는 전역 관리자 또는 OneDrive 사이트 지리적으로 분산 이동 합니다. 다중-지리적으로 분산 기능 geos 라고 하는 여러 Office 365 데이터 센터 지역에 걸쳐 Office 365 조직 수 있도록 합니다. 자세한 내용은 [OneDrive 및 Office 365의 SharePoint Online에서 다중-지리적으로 분산 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하십시오.<br/> |
@@ -421,7 +425,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |활성화 된 RSS 피드  <br/> |NewsFeedEnabledSet  <br/> |사이트 관리자 또는 소유자는 사이트에 대 한 RSS 피드를 사용 하도록 설정 합니다. 전역 관리자가 SharePoint 관리 센터에서 전체 조직에 대 한 RSS 피드를 활성화할 수 있습니다.  <br/> |
 |수정 된 액세스 요청 설정  <br/> |WebRequestAccessModified  <br/> |사이트에 대 한 액세스 요청 설정 수정 되었습니다.  <br/> |
 |수정 된 구성원 수 있는 공유 설정  <br/> |WebMembersCanShareModified  <br/> |사이트 **구성원 수 있는 공유** 설정을 수정 되었습니다.  <br/> |
-|수정 된 사이트 사용 권한  <br/> |SitePermissionsModified  <br/> |사이트 관리자 또는 소유자 (또는 시스템 계정) 사이트 그룹에 할당 된 사용 권한 수준을 변경 합니다. 이 작업 그룹에서 모든 사용 권한을 제거 하는 경우에 기록 됩니다.<br/> > [!NOTE]> SharePoint Online에서이 작업이 되지 않습니다. 다른 사용 권한 관련 등의 작업 **추가 사이트 모음 관리자**, **추가 된 사용자 또는 그룹을 SharePoint 그룹**, **허용 된 사용자 그룹을 만들 수**, **만든 그룹** **Deleted 검색할 수 관련된 이벤트를 찾으려면 그룹.**         |
+|수정 된 사이트 사용 권한  <br/> |SitePermissionsModified  <br/> |사이트 관리자 또는 소유자 (또는 시스템 계정) 사이트 그룹에 할당 된 사용 권한 수준을 변경 합니다. 이 작업 그룹에서 모든 사용 권한을 제거 하는 경우에 기록 됩니다.<br/> > [!NOTE]gt_이이 작업을 SharePoint Online에서 되지 않습니다. 다른 사용 권한 관련 등의 작업 **추가 사이트 모음 관리자**, **추가 된 사용자 또는 그룹을 SharePoint 그룹**, **허용 된 사용자 그룹을 만들 수**, **만든 그룹** **Deleted 검색할 수 관련된 이벤트를 찾으려면 그룹.**         |
 |SharePoint 그룹에서 사용자 또는 그룹 제거  <br/> |RemovedFromGroup  <br/> |사용자는 SharePoint 그룹에서 구성원 또는 게스트를 제거 합니다. 이 되었을 수 있습니다를 해제 하는 이벤트와 같은 다른 활동의 결과 또는 의도적인 동작 합니다.  <br/> |
 |이름이 바뀐된 사이트  <br/> |SiteRenamed  <br/> |사이트 관리자 또는 소유자는 사이트를 이름을 바꿉니다.  <br/> |
 |요청한 사이트 관리 사용 권한  <br/> |SiteAdminChangeRequest  <br/> |사이트 모음에 대 한 사이트 모음 관리자로 추가할 사용자 요청 합니다. 사이트 모음 관리자는 사이트 모음과 모든 하위 사이트에 대 한 모든 권한을 가집니다.  <br/> |
@@ -624,7 +628,7 @@ Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니�
    
 ### <a name="microsoft-flow"></a>Microsoft Flow
 
-Microsoft 흐름에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 활동 만들기, 편집 및 흐름, 삭제 및 흐름 사용 권한 변경를 포함 합니다. 흐름 활동에 대 한 감사 하는 방법에 대 한 정보를 [Microsoft 흐름 이제 Office 365 보안 및 규정 준수 센터에서 사용할 수 있는 이벤트를 감사](https://flow.microsoft.com/blog/security-and-compliance-center)블로그를 참조 하십시오.
+Microsoft 흐름에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 활동 만들기, 편집 및 흐름, 삭제 및 흐름 사용 권한 변경를 포함 합니다. 흐름 활동에 대 한 감사 하는 방법에 대 한 정보를 [Microsoft 흐름 이제 Office 365 보안 & 준수 센터에서에서 사용할 수 있는 이벤트를 감사](https://flow.microsoft.com/blog/security-and-compliance-center)블로그를 참조 하십시오.
 
 
 ### <a name="microsoft-stream"></a>Microsoft Stream
@@ -647,7 +651,7 @@ Exchange 관리자 감사 로깅-Office 365에서 기본적으로 사용 하도�
     
 - Exchange 관리 센터를 사용 하 여 Exchange 관리자 감사 로그에서 이벤트를 볼 수 있습니다. 자세한 내용은 [관리자 감사 로그 보기](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx)를 참조 하십시오.
   
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Office 365의 감사 서비스에서 제공 하는 기능에 대 한 어디서 찾을 수 있습니까?**
 
@@ -682,7 +686,7 @@ Office 365에서 사용할 수 있는 감사 및 보고 기능에 대 한 자세
 
 예입니다. Office 365 관리 활동 API는 사용 하 여 감사 로그를 프로그래밍 방식으로 가져옵니다.  시작 하기 위해 [Office 365 관리 Api 시작 하기](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)를 참조 합니다.
 
-**Office 365 보안 및 규정 준수 센터 또는 Office 365 관리 활동 API suing 아닌 다른 로그를 감사 가져올 하는 다른 방법 있습니까?**
+**Office 365 보안 & 준수 센터 또는 Office 365 관리 활동 API를 사용 하는 로그를 감사 가져올 하는 다른 방법 있습니까?**
 
 아니요. Office 365 감사 서비스에서 데이터를 가져올 수만 두 방법은 다음과 같습니다. 
 
