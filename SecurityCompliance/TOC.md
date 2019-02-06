@@ -131,6 +131,7 @@
 ### [Office 365 Enterprise의 암호화 설정](set-up-encryption.md)
 ### [Office 365의 전자 메일 암호화](email-encryption.md)
 ### [Office 365 메시지 암호화 (OME)](ome.md)
+#### [OME 버전 비교](ome-version-comparison.md)
 #### [새로운 Office 365 메시지 암호화 기능 설정](set-up-new-message-encryption-capabilities.md)
 #### [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](define-mail-flow-rules-to-encrypt-email.md)
 #### [Office 365 메시지 암호화 관리](manage-office-365-message-encryption.md)
@@ -274,7 +275,7 @@
 #### [보류 알림 편집](compliance20/edit-hold-notification.md)
 #### [보류 알림 승인](compliance20/acknowledge-hold-notification.md)
 
-### [보류 관리](compliance20/managing-holds.md)
+### [보존 관리](compliance20/managing-holds.md)
 
 ### [처리 오류 해결](compliance20/processing-data-for-case.md)
 #### [보유자 데이터의 고급 인덱싱](compliance20/indexing-custodian-data.md)
@@ -291,10 +292,10 @@
 #### [로드 집합 관리](compliance20/manage-load-sets.md)
 #### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
 #### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
-#### [작업 집합에서 문서 보기](compliance20/annotating-and-redacting-documents.md)
+#### [작업 집합에서 문서 태그 지정](compliance20/annotating-and-redacting-documents.md)
 #### [작업 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
 
-### [사례 데이터 분석](compliance20/analyzing-data-in-working-set.md)
+### [대/소문자 데이터 분석](compliance20/analyzing-data-in-working-set.md)
 #### [중복에 가까운 검색](compliance20/near-duplicates.md)
 #### [전자 메일 스레드](compliance20/email-threading.md)
 #### [테마](compliance20/themes.md)
