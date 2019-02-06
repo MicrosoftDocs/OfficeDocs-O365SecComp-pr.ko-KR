@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'SharePoint 또는 OneDrive 및 Exchange Online 사서함에 콘텐츠 검색 도구를 사용 하 여 Office 365 보안에서 비즈니스 사이트를 검색할 수 있는 전자 메일 및 파일 속성에 대 한 설명 &amp; 준수 센터입니다.  '
-ms.openlocfilehash: c1b5c3721a892929535a7e699201d0bcfc39937b
-ms.sourcegitcommit: a2afa4c06e9b762cf689b0d2a0653076f9b00c49
+ms.openlocfilehash: 865affa06e32b440a71721487153044e036cc487
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328164"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741171"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -206,7 +206,7 @@ ms.locfileid: "28328164"
 |:-----|:-----|
 |만든 이  <br/> |다음은 문서를 복사 하는 경우을 유지 하는 Office 문서에서 작성자 필드입니다. 등 사용자가 문서 및 전자 메일을 만들 경우 다음 SharePoint, 문서를 업로드 하 게 다른 사람에 게 계속 유지 됩니다 원래 만든이입니다.  <br/> |
 |제목  <br/> |다음은 문서의 제목입니다. Title 속성은 Office 문서에 지정 된 메타 데이터입니다. 다음은 문서의 파일 이름 보다 차이가 있습니다.  <br/> |
-|Created  <br/> |문서를 만든 날짜입니다.  <br/> |
+|만든 날짜  <br/> |문서를 만든 날짜입니다.  <br/> |
 |마지막으로 수정한 날짜  <br/> |문서를 마지막으로 변경한 날짜입니다.  <br/> |
 |파일 형식  <br/> |파일의 확장명 예, docx, 1, pptx, 또는 xlsx 합니다. (: Fileextension) 사이트 속성과 동일한 속성입니다.  <br/> |
   
@@ -401,4 +401,5 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 - 속성을 검색할 때 사용 큰따옴표 ("") 여러 단어 검색 값으로 구성 된 경우. 예 `subject:budget Q1` **예산** 에 포함 된 메시지를 반환의 제목줄 하 고 있는 포함 **Q1** 아무곳 이나 메시지 또는 메시지 속성 중 하나입니다. 사용 하 여 `subject:"budget Q1"` **예산 Q1** 제목줄에 포함 된 모든 메시지를 반환 합니다. 
     
 - 검색 결과에서 특정 속성 값으로 표시 하는 콘텐츠를 제외 하려면 속성의 이름 앞에 빼기 기호 (-)를 배치 합니다. 예, `-from:"Sara Davis"` Sara Davis가 보낸 모든 메시지를 제외 됩니다.
-- 항목 종류에 따라 항목을 내보낼 수 있습니다. 예, 사용자가 Skype IM 메시지 recived를 내보내려면 ' 종류: IM' 구문을 사용 합니다. 이 검색 returen 모든 IM 메시지를 쿼리 합니다. 
+
+- 메시지 유형 기반 항목을 내보낼 수 있습니다. 예, Skype 대화 및 팀이 Microsoft에서 채팅을 내보내려면 구문을 사용 `kind:im`합니다. 전자 메일 메시지에만 반환 하려면 사용 `kind:email`합니다. Microsoft 팀의 채팅, 회 및 전화를 반환 하려면 `kind:microsoftteams`합니다.

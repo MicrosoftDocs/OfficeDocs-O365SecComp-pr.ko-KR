@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
-ms.date: 01/08/2019
+ms.date: 02/05/2019
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 description: 안전한 첨부 파일 기능이 전자 메일 첨부 파일의 클릭 시간 증명 정보를 제공 합니다. 조직 파일 악의적인 사용자 로부터 보호 하기 위해 사용 하 여 안전한 첨부 파일 보내기 또는 전자 메일을 받을 합니다.
-ms.openlocfilehash: 85c1ec3e0126a155f863b9fef9ddb36b13d0b3fb
-ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
+ms.openlocfilehash: 3717c0d278aaba4fce25cb196ebef9e277921408
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27769842"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741131"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP 안전 하 게 보호 첨부 파일
 
@@ -27,7 +27,7 @@ ms.locfileid: "27769842"
 
 [ATP 안전한 링크](atp-safe-links.md)) (함께 ATP 안전한 첨부 파일에는 [Office 365 고급 위협 보호](office-365-atp.md) (ATP)의 일부입니다. ATP 안전한 첨부 파일 기능이 악의적인, 전자 메일 첨부 파일이 있는지 확인 하 고 조직을 보호 하는 작업을 수행 합니다. ATP 안전한 첨부 파일 기능이 Office 365 전역 또는 보안 관리자가 설정 된 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 에 따라 조직을 보호 합니다. 
   
-최근에, ATP 보호 하도록 확장 되었습니다 SharePoint Online, OneDrive에서 파일, 비즈니스 및 Microsoft 팀의 합니다. 자세한 내용은, [SharePoint, OneDrive 및 팀이 Microsoft Office 365 고급 위협 보호](atp-for-spo-odb-and-teams.md)를 참조 합니다.
+또한 ATP 보호 비즈니스, 및 Microsoft 팀의 SharePoint Online, OneDrive에서 파일을 확장할 수 있습니다. 자세한 내용은, [SharePoint, OneDrive 및 팀이 Microsoft Office 365 고급 위협 보호](atp-for-spo-odb-and-teams.md)를 참조 합니다.
        
 ## <a name="how-it-works"></a>작동 방법
 
@@ -45,18 +45,25 @@ ATP 안전한 첨부 파일 정책은 특정 사용자 또는 조직 전체에�
   
 ## <a name="how-to-get-atp-safe-attachments"></a>ATP 안전한 첨부 파일을 얻는 방법
 
-ATP 안전한 첨부 파일 기능은 [Office 365 고급 위협 보호](office-365-atp.md)의 일부입니다. ATP 안전한 첨부 파일 기능을 적용 하는 경우:
+먼저, 구독 [고급 위협 보호](office-365-atp.md)를 포함 해야 합니다. ATP에 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)"," [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business)"," Office 365 엔터프라이즈 e 5 "," Office 365 교육 A5 "," 등의 구독에 포함 됩니다. 조직에 Office 365 ATP를 포함 하지 않는 한 Office 365 구독을 하는 경우에 추가 기능으로 ATP을 잠재적으로 구입할 수 있습니다. 자세한 내용은 [Office 365 고급 위협 Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오. 
+
+다음으로, ATP 안전한 첨부 파일 정책에 정의 된 확인 합니다. ( [Office 365 ATP 안전한 첨부 정책 설정](set-up-atp-safe-attachments-policies.md)참조) ATP 안전한 첨부 파일 기능은 현재 경우:
   
 - ATP 안전한 첨부 파일 정책은 설정 합니다. ( [Office 365의 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)참조).
     
 - 사용자가 자신의 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 됩니다. ( [Office 또는 Office 365에 로그인](https://support.office.com/article/b9582171-fd1f-4284-9846-bdd72bb28426)참조).
+
+ATP 정책, 정의 (또는 편집)를 할당 되어 있어야 다음 표에 설명 된 역할 중 하나:
+
+|역할  |Where/방법 할당  |
+|---------|---------|
+|Office 365 전역 관리자 |Office 365를 구매 하 여를 로그인 하는 사람 이름은 기본적으로 전역 admin입니다. (자세한 내용은 [Office 365에 대 한 관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 참조 하십시오.)         |
+|Office 365 보안 관리자 |관리 센터 ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet (참조 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
 ## <a name="how-to-know-if-atp-safe-attachments-protection-is-in-place"></a>ATP 안전한 첨부 파일 보호 전체에서 인지 확인 하는 방법
 
-서비스가 작동 하는 방법을 보려면 하나 좋은 방법은 [고급 위협 보호에 대 한 보고서를 확인](view-reports-for-atp.md)하 여는 것입니다.
-
-
-원본 위치에 있는 것으로 ATP 안전한 첨부 파일 보호에 대 한 순서로 [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 정의 되어야 합니다.   
+[ATP 안전한 첨부 파일 정책에 정의 된 (또는 검토)을](set-up-atp-safe-attachments-policies.md)설치한 후 서비스가 작동 하는 방법을 보려면 하나의 좋은 방법은 [고급 위협 보호에 대 한 보고서를 확인](view-reports-for-atp.md)하 여 것입니다.
   
 다음 표에서 일부 예제 시나리오를 설명합니다. 모든이 경우에는 조직에는 고급 위협 보호를 포함 하는 Office 365 구독을 가정 합니다.
   

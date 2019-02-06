@@ -5,17 +5,17 @@ author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.date: 10/11/2018
+ms.date: 02/04/2019
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
-description: Office 365 고급 위협 보호 및 Office 365 Exchange Online protection에서는 기본 보호의 일부분으로 포괄적인 보호 기능을 사용 하 여 피싱 방지 보호를 보호 하는 조직 가장 기반 피싱 악의적인 공격 으로부터 및 기타 피싱 공격을 추가 합니다. Office 365 Enterprise global 또는 보안 관리자 인 경우에 피싱 방지 정책을 설정할 수 있습니다. 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데 피싱 방지 정책을 설정할 수 있습니다.
-ms.openlocfilehash: 0971ac2c653170f0242a1e9e3aaf111f5afc75d5
-ms.sourcegitcommit: ba2175e394d0cb9f8ede9206aabb44b5b677fa0a
+description: Office 365 고급 위협 보호 및 Office 365 Exchange Online protection에서는 기본 보호의 일부분으로 포괄적인 보호 기능을 사용 하 여 피싱 방지 보호를 보호 하는 조직 가장 기반 피싱 악의적인 공격 으로부터 및 기타 피싱 공격을 추가 합니다.
+ms.openlocfilehash: 1ef1dc0781cc28e660cbebf8cde59f97d3e65000
+ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25498013"
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "29741151"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -24,25 +24,29 @@ ms.locfileid: "25498013"
 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
   
 > [!NOTE]
-> ATP 피싱 방지는 에서만 고급 위협 보호, Office 365 Enterprise e 5에서 사용할 수 있는 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 고급 위협 보호 추가 기능으로 구입할 수 있습니다. (전역 관리자도 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 계획 옵션에 대 한 자세한 내용은 [비즈니스 계획에 대 한 모든 Office 365 비교](https://go.microsoft.com/fwlink/?linkid=844053)를 참조 하십시오. 조직에서 사용 하는 최신 버전의 Office 365 ProPlus Windows에서 ATP 피싱 방지 보호 기능을 완전 하 게 활용할 수 있는지 확인 합니다. 
+> ATP 피싱 방지은 고급 위협 보호 (ATP)에서 사용할 수만 있습니다. ATP에 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)"," [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business)"," Office 365 엔터프라이즈 e 5 "," Office 365 교육 A5 "," 등의 구독에 포함 됩니다. 조직에 Office 365 ATP를 포함 하지 않는 한 Office 365 구독을 하는 경우에 추가 기능으로 ATP을 잠재적으로 구입할 수 있습니다. 자세한 내용은 [Office 365 고급 위협 Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오. 조직에서 사용 하는 최신 버전의 Office 365 ProPlus Windows에서 ATP 피싱 방지 보호 기능을 완전 하 게 활용할 수 있는지 확인 합니다. 
 
-피싱 방지 정책 제한 된 일련의 인증 및 대 설명을 기반 공격을 방지 하는 대상으로 하는 스푸핑 방지 보호 된 Office 365 Exchange Online 보호를 위해 출시 되었습니다.
+피싱 방지 정책 제한 된 일련의 인증 및 대 설명을 기반 공격을 방지 하는 대상으로 하는 스푸핑 방지 보호 된 Office 365 Exchange Online 보호를 위해 사용할 수도 있습니다.
   
 할 일:
   
 1. 필수 구성 요소를 검토 합니다.
     
-2. 피싱 방지 하 고 ATP 피싱 방지 정책 옵션에 알아봅니다.
+2. 피싱 방지 및 ATP 피싱 방지 정책 옵션에 대해 설명 합니다.
     
 3. 피싱 방지 정책 또는 ATP 피싱 방지 정책을 설정 합니다.
     
 ## <a name="review-the-prerequisites"></a>필수 구성 요소를 검토 합니다.
 
-- **회사 관리자** 또는 **보안 관리자** 역할 그룹의 구성원 인지 확인 합니다. 
+- ATP 정책, 정의 (또는 편집)를 할당 되어 있어야 다음 표에 설명 된 역할 중 하나: <br>
+
+    |역할  |Where/방법 할당  |
+    |---------|---------|
+    |Office 365 전역 관리자 |Office 365를 구매 하 여를 로그인 하는 사람 이름은 기본적으로 전역 admin입니다. (자세한 내용은 [Office 365에 대 한 관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 참조 하십시오.)         |
+    |Office 365 보안 관리자 |관리 센터 ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+    |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet (참조 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
-- [ATP 피싱 방지 정책 옵션에 대 한 설명](set-up-anti-phishing-policies.md#learn-about-atp-anti-phishing-policy-options) (이 문서의). 
-    
-- 아마도 조직에 대 한 여러 피싱 방지 정책을 설정 합니다. Office 365 보안에서 **피싱 방지 페이지** 및 **ATP 피싱 방지** 페이지에 나열 된 순서에 이러한 정책을 적용 &amp; 준수 센터입니다. 정책 옵션을 검토 한 후에 각각에 대해 얼마나 많은 정책 수행 해야 하 고 우선순위를 결정 하려면 시간이 다소 걸릴 합니다. 
+- 아마도 조직에 대 한 여러 피싱 방지 정책을 설정 합니다. Office 365 보안에서 **피싱 방지 페이지** 및 **ATP 피싱 방지** 페이지에 나열 된 순서에 이러한 정책을 적용 &amp; 준수 센터입니다. [정책 옵션](#learn-about-atp-anti-phishing-policy-options)을 검토 한 후에 각각에 대해 얼마나 많은 정책 수행 해야 하 고 우선순위를 결정 하려면 시간이 다소 걸릴 합니다. 
     
 - 첫번째 피싱 방지 정책에 따라를 설정 하려면 약 5-15 분 투자 계획 합니다.
     
@@ -60,15 +64,12 @@ Office 365의 각 조직의 모든 사용자에 게 적용 되는 기본 피싱 
     
 4. **피싱 방지** 또는 **ATP 피싱 방지** 페이지에서 다음 중 하나를 수행 합니다. 
     
-  - 새 정책을 추가 하려면 **+ 만들기를**선택 합니다.
-    
-  - 기존 정책을 편집 하 고 **피싱 방지** 페이지에 표시 된 목록에서 정책 이름을 선택 하거나 조직에 대 한 기본 poicy를 편집 하려면 목록 위의 **기본 정책** 을 선택 합니다. 표시 되는 페이지에서 **정책 편집**을 선택 합니다.  
-    
-    마법사를 시작 하 여 피싱 방지 정책 정의 단계별로 안내 하는 합니다.
+    - 새 정책을 추가 하려면 **+ 만들기를**선택 합니다.
+    - 기존 정책을 편집 하려면 정책 이름을 **피싱 방지** 페이지에 표시 된 목록에서 선택 합니다. (또는 수도 있고 목록 위의 **기본 정책** 선택.) 표시 되는 페이지에서 **정책 편집**을 선택 합니다.  
     
 5. 이름, 설명 및 사용자 정책에 대 한 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한 설명](#learn-about-atp-anti-phishing-policy-options) 을 참조 하십시오. 
     
-6. 설정을 검토 한 번, 적절 하 게 **이 정책 만들기** 또는 **저장** 을 선택 합니다. 
+6. 설정의 검토 한 후 **이 정책 만들기** (또는 **저장**)를 선택 합니다. 
     
 ## <a name="learn-about-atp-anti-phishing-policy-options"></a>ATP 피싱 방지 정책 옵션에 알아보기
 
@@ -76,7 +77,7 @@ Office 365의 각 조직의 모든 사용자에 게 적용 되는 기본 피싱 
   
 |**이 설정**|**기능**|**사용 하려는 경우:**|
 |:-----|:-----|:-----|
-|**보호 하기 위해 사용자를 추가 합니다.** <br/> |정의 하는 전자 메일 주소 정책에 의해 보호 됩니다. 가장에서 보호 하려는 최대 60 개의 내부 및 외부 주소를 추가할 수 있습니다.  <br/> |조직 외부에서 해당 메일을 확인 하려는 경우를 보호 하는 사용자의 목록에서 사용자 중 하나를 가장 하지 않습니다. 보호 하려는 경우 사용자의 예는 높은 수준의 임원, 비즈니스 소유자, 외부 보드 구성원 등입니다.<br/> 이 목록은 사용자가 보호 된 정책이 적용 되는 정책이 적용 되는 많거나를 대신, 사용자의 목록에서 차이가 있습니다. 정의 하는 정책 옵션 중 **에 적용 되며** 섹션에 있는 목록에 적용 됩니다.<br/> 예: Mary Smith를 추가 하는 경우 \<marys@contoso.com\> 보호 하기 위해 사용자로 다음 정책을 적용할 사용자에 게는 그룹"모든" 합니다. 이렇게 하면 정책에 의해 "모든 사용자가" 그룹에 사용자에 게 전송 하는 "Mary Smith"를 가장 하 여 표시 된 메일에서 실행 될 것입니다.<br/> |
+|**보호 하기 위해 사용자를 추가 합니다.** <br/> |정의 하는 전자 메일 주소 정책에 의해 보호 됩니다. 가장에서 보호 하려는 최대 60 개의 내부 및 외부 주소를 추가할 수 있습니다.  <br/> |조직 외부에서 해당 메일을 확인 하려는 경우를 보호 하는 사용자의 목록에서 사용자 중 하나를 가장 하지 않습니다. 보호 하려는 경우 사용자의 예는 높은 수준의 임원, 비즈니스 소유자, 외부 보드 구성원 등입니다.<br/> 이 목록은 사용자가 보호 된 정책이 적용 되는 정책이 적용 되는 많거나를 대신, 사용자의 목록에서 차이가 있습니다. 정의 하는 정책 옵션 중 **에 적용 되며** 섹션에 있는 목록에 적용 됩니다.<br/> 예: 추가 하는 경우 `Mary Smith <marys@contoso.com>` 보호 하기 위해 사용자로 다음 정책을 적용할 사용자에 게는 그룹"모든" 합니다. 이렇게 하면 정책에 의해 "모든 사용자가" 그룹에 사용자에 게 전송 하는 "Mary Smith"를 가장 하 여 표시 된 메일에서 실행 될 것입니다.<br/> |
 |**보호 하기 위해 도메인 추가** <br/> |가장에서 보호 하는 도메인을 선택할 수 있습니다. 정책에 모든 사용자 지정 도메인, 도메인을 쉼표로 구분 된 목록 또는 둘의 조합 포함을 지정할 수 있습니다. **자동으로 포함 되는 사용자가 소유 하는 도메인**을 선택 하면 나중에 Office 365 조직에 도메인을 추가 하는 경우이 피싱 방지 정책 새 도메인에 대해 적용 됩니다.<br/> |때마다 조직 외부에서 메일 확인 된 도메인 또는 파트너 도메인의 대화 목록에 정의 된 도메인 중 하나를 가장 있지 않은지 확인 하려고 합니다.  <br/> |
 |**작업을 선택 합니다.** <br/> |Office 365에서 사용자 및 정책에 추가 하는 도메인에 대해 가장 시도 감지 될 때 수행할 동작을 선택 합니다. 동일한 피싱 방지 정책에서 사용자 및 도메인에 대 한 다른 작업을 선택할 수 있습니다. 이러한 작업이이 피싱 방지 정책의 보호 아래에 있는 도메인 이나 사용자 계정을 가장으로 Office 365에서 식별 된 받는 전자 메일에 적용 됩니다.<br/> **격리 메시지** 전자 메일을 Office 365 격리로 전송 됩니다. 이 옵션을 선택 하는 경우에 전자 메일 원래 받는 사람에 게 전송 되지 않습니다.<br/> **다른 전자 메일 주소로 메시지 리디렉션** 지정한 전자 메일 주소로 전자 메일을 전송 됩니다. 여러 전자 메일 주소를 지정할 수 있습니다. 이 옵션을 선택 하는 경우에 전자 메일 원래 받는 사람에 게 전송 되지 않습니다.<br/> **받는 사람의 정크 메일 폴더로 메시지 이동** 전자 메일 받는 사람의 정크 메일 폴더로 전송 됩니다. 이 옵션을 선택 하는 경우 전자 메일 원래 받는 사람에 게 전송 계속 되지만 받는 사람의 받은 편지함에 배치 되지 않습니다.<br/> **메시지 배달 및 숨은 참조 줄에 다른 주소 추가** 전자 메일 원래 받는 사람에 게 배달 됩니다. 또한 배달 되기 전에 식별 하는 사용자가 메시지의 숨은 참조 줄에 추가 됩니다. 이 옵션을 선택 하면 원래 받는 사람의 받은 편지 함으로 전자 메일 여전히 보내집니다.<br/> **모든 작업을 적용 하지 않습니다** 전자 메일 원래 받는 사람의 받은 편지 함으로 배달 됩니다. 다른 작업을 하지 전자 메일 메시지에 연결 됩니다.<br/> **피싱 방지 팁 설정** 피싱 방지 안전 팁 전자 메일에 사용 하도록 설정 합니다.  <br/> |Office 365에서 사용자 또는 정책에 정의 된 도메인의 가장 확인 하는 메시지에 대해 작업을 수행 하려는 경우.  <br/> |
 |**사서함 인텔리전스를 사용 하도록 설정** <br/> |이 정책에 대 한 사서함 인텔리전스를 사용할지 여부를 지정 합니다. 클라우드 기반 계정, 즉, 사서함 완전히 Office 365에서에서 호스팅되는 계정에 대 한 사서함 인텔리전스만 사용할 수 있습니다.  <br/> |각 사용자의 개별 보낸사람 지도 기반으로 사용자에 대 한 가장 결과 개선 하려는 경우. 사서함 인텔리전스 보내고 메일을 받는 사용자 중심으로 작성 됩니다. 이 인텔리전스 Office 365 사용자 수준에서 가장 정책을 더 잘 잘못 된 결과 처리 하기 위해 사용자 지정할 수 있습니다.  <br/> |
@@ -109,8 +110,8 @@ Contoso의 보안 관리자는 이러한 요구를 충족 하는 피싱 방지 �
   
 |||
 |:-----|:-----|
-|**설정 또는 옵션** <br/> |**예제** <br/> |
-|이름  <br/> |도메인 및 CEO  <br/> |
+|**설정 또는 옵션** <br/> |**예** <br/> |
+|Name  <br/> |도메인 및 CEO  <br/> |
 |설명  <br/> |확인는 CEO 하 고이 도메인 되지 되 고 매핑이 필요 하지 않습니다.  <br/> |
 |보호 하기 위해 사용자를 추가 합니다.  <br/> |여기에 최소한 CEO의 전자 메일 주소입니다.  <br/> |
 |보호 하기 위해 도메인 추가  <br/> |CEO의 office를 포함 하는 조직 도메인입니다.  <br/> |
@@ -133,18 +134,12 @@ Contoso의 보안 관리자는 이러한 요구를 충족 하는 피싱 방지 �
 
 5. 표시 되는 페이지에서 **정책을 삭제**를 선택 합니다. 모든 Office 365 데이터 센터에 분산 하 여 변경 내용 최대 30 분까지를 허용 합니다.
     
-## <a name="related-topics"></a>관련 항목
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
-  
-[Office 365의 피싱 방지 보호 기능](anti-phishing-protection.md)
-  
-[Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md)
-  
-[Office 365의 ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
-  
-[Office 365의 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)
-  
-[고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md)
-  
+## <a name="next-steps"></a>다음 단계
 
+피싱 방지 정책이 설정 되어, 되 면 조직에 대 한 보고서를 확인 하 여 위협 보호 기능에는 작업 하는 방법을 확인할 수 있습니다. 자세한 내용은 다음 리소스를 참조 하십시오.
+- [Office 365 고급 위협 보호에 대 한 보고서 보기](view-reports-for-atp.md) 또는 [전자 메일 보안 보고서 보기](view-email-security-reports.md)
+- [탐색기 (위협 탐색기 라고도 함)를 사용 하 여](use-explorer-in-security-and-compliance.md)
+
+ATP 연결 되는 새로운 기능을 세워야 합니다. [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 를 방문 하 고 [ATP에 추가 되는 새로운 기능](office-365-atp.md#new-features-are-continually-being-added-to-atp)에 대해 알아봅니다.
+ 
