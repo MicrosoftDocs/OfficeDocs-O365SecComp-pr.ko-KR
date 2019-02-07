@@ -20,7 +20,7 @@ ms.openlocfilehash: ef281ca7cda706ff78fbf1a5584674cdf41e9025
 ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
+ms.lasthandoff: 02/06/2019
 ms.locfileid: "29741061"
 ---
 # <a name="permissions-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터

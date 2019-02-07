@@ -16,12 +16,12 @@ ms.assetid: ''
 search.appverid:
 - MET150
 description: 인식 하 고 Office 365의 불법 사용자의 동의 부여 공격을 수정 하는 방법에 알아봅니다.
-ms.openlocfilehash: 412b601af30ce87332225d271ec1a9e622012405
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 457279e6d9498ac132ed3fb77b7c0fef68a293fa
+ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22534154"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29755239"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -34,7 +34,7 @@ ms.locfileid: "22534154"
 Office 365 **감사 로그** 라고도 함 표시기의 손상 (IOC)이 공격의 징후를 찾으려고 검색 해야 합니다. 많은 Azure에 등록 된 응용 프로그램 및 구성 된 대규모 사용자 기반 조직용 매주 조직에서는 사용자의 동의 부여 대화를 검토 하는 것이 좋습니다.
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 징후 찾기 (영문)에 대 한 단계
 1. Office 365 테 넌 트에는 **보안 및 규정 준수 센터를** 엽니다.
-2. **검색 및 조사** 노드로 이동한 **감사 로그** 검색을 선택 합니다.
+2. **검색 & 조사** 노드로 이동한 **감사 로그** 검색을 선택 합니다.
 3. (모든 활동 및 모든 사용자)를 검색 하 고 만들고 응용 프로그램을 사용자의 동의 대 한 결과 필터링 OAuth2PermissionGrant를 추가 합니다.
 4. 확장 된 속성 및 확인 IsAdminContent이 True로 설정 하는 경우 참조를 검사 합니다.
 
@@ -65,9 +65,9 @@ Azure Active Directory 포털 또는 PowerShell와 사용자를 위해이 작업
 로 이동 하 여 사용자가 https://myapps.microsoft.com 하 고 다음과 같은 자신의 응용 프로그램 액세스를 검토 합니다. 액세스 권한이 있는 모든 앱을 표시 하도록 해당 (access의 범위를 포함 하 여)에 대 한 세부 정보를 볼 수 있으며 의심 스러운 또는 불법 앱에 대 한 권한을 해지할 수 해야 합니다.
 
 ### <a name="steps-for-doing-this-with-powershell"></a>Powershell이 작업을 수행 하기 위한 단계
-불법 타고 부여 공격을 확인 하는 가장 간단한 방법은 [Get AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), 덤프 모든 OAuth 사용자의 동의 부여 및 모든 사용자에 대 한 앱 권한을 테 넌 시에 하나의.csv 파일에는 실행 하는 합니다. 
+불법 타고 부여 공격을 확인 하는 가장 간단한 방법은 [Get AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), 덤프 모든 OAuth 사용자의 동의 부여 및 모든 사용자에 대 한 OAuth 앱 테 넌 시에 하나의.csv 파일에는 실행 하는 합니다. 
 
-#### <a name="pre-requisites"></a>필수 구성 요소
+#### <a name="pre-requisites"></a>필수 조건
 - Azure AD PowerShell 라이브러리를 설치 합니다.
 - 스크립트에 대해 실행 되는 테 넌 트에 대 한 전역 관리자 권한
 - 하는 컴퓨터에서 로컬 관리자 스크립트를 실행 합니다.
@@ -79,7 +79,7 @@ Azure Active Directory 포털 또는 PowerShell와 사용자를 위해이 작업
 2. 다운로드 하거나 신청을 scruipt를 실행할 폴더에 GitHub에서 [Get AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 스크립트를 복사 합니다.  이 출력 "permissions.csv" 파일 쓸 수 같은 폴더 지정 됩니다.
 3. 관리자 권한으로 PowerShell 인스턴스를 열고 스크립트를 저장 하는 폴더를 엽니다.
 4. [Connect AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) cmdlet을 사용 하 여 디렉터리에 연결 합니다.
-5. 다음과 같이이 PowerShell 명령줄을 실행 합니다.`.Get-AzureASPSPermissions.ps1 | Export-csv -path "Permissions.csv" -NoTypeInformation`
+5. 다음과 같이이 PowerShell 명령줄을 실행 합니다.`Get-AzureADPSPermissions.ps1 | Export-csv -path "Permissions.csv" -NoTypeInformation`
 
 스크립트는 Permissions.csv 이라는 하나의 파일을 생성 합니다. 불법 응용 프로그램 사용 권한 부여를 확인 하려면 다음이 단계를 수행 합니다. 
 1. ConsentType 열 (열 G)에서 "AllPrinciples" 값을 검색 합니다. AllPrincipals 권한 클라이언트 응용 프로그램을 테 넌 시의 모든 사용자의 콘텐츠에 액세스할 수 있습니다. 기본 Office 365 응용 프로그램에는 제대로 작동 하려면이 권한이 필요 합니다. 이 권한이 있는 모든 비 Microsoft 응용 프로그램을 신중 하 게 검토 해야 합니다.

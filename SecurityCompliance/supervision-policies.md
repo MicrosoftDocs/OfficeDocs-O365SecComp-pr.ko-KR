@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해 (영문)
-ms.openlocfilehash: 0c76ba5b17277d8bd441810415e7e9acd1adbf36
-ms.sourcegitcommit: 3cb775e60b3806b66568ed2f9664c17ef96ca8de
+ms.openlocfilehash: c66ded719791c4a5ecaaa459f81d0a0d4a3db924
+ms.sourcegitcommit: e4d56cab6bbb77404457d506d17f6a7577f302be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29603528"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29760080"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -69,12 +69,7 @@ Office 365의 감독 정책을 사용 하면를 검사 하 여 지정 된 검토
 
 감독 정책을 사용 하 여 다음과 같은 통신 플랫폼을 하나 이상에 메시지를 모니터링 하도록 선택할 수 있습니다.
 
-- **전자 메일을 교환:** Office 365 구독의 일부로 Exchange Online에서 호스팅되는 사서함 메시지 감독에 대 한 모든 자격이 있습니다. 전자 메일 및 감독 정책 조건과 일치 하는 첨부 파일 모니터링 및 감독 보고서에 즉시 사용할 수는 있습니다. 지원 되는 첨부 파일 유형은 다음과 같습니다.
-
-    - Microsoft Word (.docx)
-    - 다음은 Microsoft Excel (.xlsx)
-    - Microsoft PowerPoint (.pptx)
-
+- **전자 메일을 교환:** Office 365 구독의 일부로 Exchange Online에서 호스팅되는 사서함 메시지 감독에 대 한 모든 자격이 있습니다. 전자 메일 및 감독 정책 조건과 일치 하는 첨부 파일 모니터링 및 감독 보고서에 즉시 사용할 수는 있습니다. 지원 되는 첨부 파일 형식을 감독에 대 한 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대 한 지원 되는 파일 형식](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)으로 동일합니다.
 - **Microsoft 팀의:** 채팅 통신 및 공용 및 개인 Microsoft 팀의 채널 및 개별 채팅 모두에 연결 된 첨부 파일을 감독 될 수 있습니다. 감독 정책 조건과 일치 하는 팀이 채팅 24 시간 마다 처리 되며 다음 모니터링 및 감독 보고서에서 사용할 수 있습니다.
 - **제 3 자 원본:** 조직에서 Office 365 사서함에이 데이터를 가져온 했을 때 경우 타사 소스 (Facebook 또는 드롭 상자에서 같은)에서 통신을 감독 수 있습니다. [Office 365로 타사 데이터를 가져오는 방법에 알아봅니다](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 

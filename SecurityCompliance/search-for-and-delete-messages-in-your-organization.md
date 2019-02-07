@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office 365 보안에서 기능을 제거 하 고 검색을 사용 하 여 &amp; 준수 센터를 검색 하 고 조직의 모든 사서함에서 전자 메일 메시지를 삭제 합니다.
-ms.openlocfilehash: 82ba38ef2c3c8c6b78743a4b2263dde0ef3a5b48
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: be83b2e3e765980ae401356b924c26c53386a2b3
+ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015020"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29755259"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Office 365 조직에서-관리자 도움말 전자 메일 메시지에 대 한 검색 및 삭제
 
@@ -38,9 +38,9 @@ Office 365의 검색 하 여 조직에서 모든 사서함에서 전자 메일 �
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 를 만들고 콘텐츠 검색을 실행 하려면 **eDiscovery 관리자** 역할 그룹의 구성원 이거나 **준수 검색** 관리 역할을 할당 해야 합니다. 메시지를 삭제 하려면 **조직 관리** 역할 그룹의 구성원 이거나 **검색 및 삭제** 관리 역할을 할당 해야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 정보를 참조 하십시오. [Office 365 보안에 사용자가 액세스할 수 있도록 &amp; 준수 센터](grant-access-to-the-security-and-compliance-center.md)합니다.
+- 를 만들고 콘텐츠 검색을 실행 하려면 **eDiscovery 관리자** 역할 그룹의 구성원 이거나 **준수 검색** 관리 역할을 할당 해야 합니다. 메시지를 삭제 하려면 **조직 관리** 역할 그룹의 구성원 이거나 **검색 및 삭제** 관리 역할을 할당 해야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 정보를 [Office 365 보안 & 준수 센터에 대 한 사용자 액세스를 제공](grant-access-to-the-security-and-compliance-center.md)을 참조 하십시오.
     
-- 보안을 사용 하 여 해야 &amp; 메시지를 삭제 하는 준수 센터 PowerShell 합니다. 연결 하는 방법에 대 한 지침은 [2 단계를](#step-2-connect-to-security-amp-compliance-center-powershell) 참조 하십시오.
+- 메시지를 삭제 하려면 보안 & 준수 센터 PowerShell을 사용 해야 합니다. 연결 하는 방법에 대 한 지침은 [2 단계를](#step-2-connect-to-security-amp-compliance-center-powershell) 참조 하십시오.
     
 - 한번에 10 개의 항목을 사서함당 최대를 제거할 수 있습니다. 검색 하 고 메시지를 제거 하는 기능은 인시던트 응답 도구가 될 수 있으며, 때문에이 제한은 사서함에서 메시지를 신속 하 게 제거 되었는지 확인 하는데 도움이 됩니다. 이 기능은 사용자 사서함을 정리할 제공 되지 않습니다. 10 개 이상의 항목을 삭제 하려면 Exchange Online PowerShell에서 **사서함 검색 DeleteContent** 명령을 사용할 수 있습니다. [에 대 한 메시지 검색 및 삭제-관리자 도움말을](search-for-and-delete-messagesadmin-help.md)참조 하십시오.
     
@@ -50,7 +50,7 @@ Office 365의 검색 하 여 조직에서 모든 사서함에서 전자 메일 �
     
 ## <a name="step-1-create-a-content-search-to-find-the-message-to-delete"></a>1단계: 삭제할 메시지를 찾는 콘텐츠 검색 만들기
 
-첫번째 단계 만들고 조직에 사서함에서 제거 하려는 메시지를 찾을 수 콘텐츠 검색을 실행 하는 것입니다. 보안을 사용 하 여 검색을 만들 수 있습니다 &amp; 준수 센터 또는 **ComplianceSearch 새로 만들기** 및 **시작 ComplianceSearch** cmdlet을 실행 하 여 합니다. [3 단계에서](#step-3-delete-the-message)에서 **새로 만들기 ComplianceSearchAction** cmdlet을 실행 하 여이 검색에 대 한 쿼리 일치 하는 메시지를 삭제 됩니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성 하는 방법에 대 한 정보를 다음 항목을 참조 하십시오. 
+첫번째 단계 만들고 조직에 사서함에서 제거 하려는 메시지를 찾을 수 콘텐츠 검색을 실행 하는 것입니다. 보안을 사용 하 여 검색을 만들 수 있습니다 &amp; 준수 센터 또는 **ComplianceSearch 새로 만들기** 및 **시작 ComplianceSearch** cmdlet을 실행 하 여 합니다. 이 검색을 실행 하 여 삭제 됩니다에 대 한 쿼리 일치 하는 메시지는 **새로 ComplianceSearchAction-항목 지우기** [3 단계에서](#step-3-delete-the-message)에서 명령 합니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성 하는 방법에 대 한 정보를 다음 항목을 참조 하십시오. 
   
 - [Office 365의에서 콘텐츠 검색](content-search.md)
     
@@ -91,11 +91,11 @@ Office 365의 검색 하 여 조직에서 모든 사서함에서 전자 메일 �
     (From:chatsuwloginsset12345@outlook.com) AND (Subject:"Update your account information")
     ```
 
-## <a name="step-2-connect-to-security-amp-compliance-center-powershell"></a>2 단계: 보안 연결할 &amp; 준수 센터 PowerShell
+## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2 단계: 보안 & 준수 센터 PowerShell에 연결
 
-다음 단계에서는 보안에 연결 하는 &amp; 조직에 대 한 준수 센터 PowerShell 합니다. 단계별 지침은 참조 [Office 365 보안 연결 &amp; 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
+다음 단계에서는 조직에 대 한 보안 & 준수 센터 PowerShell에 연결 하는 것입니다. 단계별 지침은 참조 [Office 365 보안 연결 &amp; 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
   
-보안에 연결에서 이전 항목의 지침을 사용할 수 없습니다 Office 365 계정 다단계 인증 (MFA) 또는 연결 된 인증을 사용 하는 경우 &amp; 준수 센터 PowerShell 합니다. 대신이 항목의 지침을 참조 [Office 365 보안 연결 &amp; 다단계 인증을 사용 하 여 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell)합니다.
+Office 365 계정 다단계 인증 (MFA)를 사용 하 여 또는 인증을 페더레이션 하는 경우 보안 & 준수 센터 PowerShell에 연결에서 이전 항목의 지침을 사용할 수 없습니다. 대신 [다단계 인증을 사용 하 여 Office 365 보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell)하는 항목의에서 지침을 참조 하십시오.
   
 ## <a name="step-3-delete-the-message"></a>3 단계: 메시지를 삭제 합니다.
 
@@ -106,22 +106,16 @@ Office 365의 검색 하 여 조직에서 모든 사서함에서 전자 메일 �
 ```
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
 ```
-다음 예제에서는 명령은 "피싱 메시지 제거" 이라는 콘텐츠 검색에서 반환 된 검색 결과 영구 삭제 됩니다. 
-
-```
-New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
-```
-
-*SearchName* 매개 변수에 지정 된 검색은 1 단계에서에서 만든 콘텐츠 검색 합니다. 
 
 하드-삭제 "피싱 메시지 제거" 콘텐츠 검색을 통해 반환 되는 항목을이 명령을 실행 합니다.
 
 ```
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
 ```
+
+이전 명령 소프트 또는 하드 삭제 방식을 메시지를 실행 하면 *SearchName* 매개 변수에 지정 된 검색은 1 단계에서에서 만든 콘텐츠 검색 note 합니다. 
   
 자세한 내용은 [ComplianceSearchAction 새로 만들기를](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction)참조 하십시오.
-  
 
 ## <a name="more-information"></a>추가 정보
 
@@ -147,6 +141,6 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
     제거 된 메시지를 제거 폴더로 이동한 후, 메시지 보존 기간이 만료 될 때까지 유지 됩니다. 보존 기간을 제한 하지 않으면 보존이 제거 되거나 보류 기간 변경 될 때까지 항목이 유지 됩니다.
     
-- **검색 이며 다른 보안 및 규정 준수 센터 역할 그룹으로 구분할 워크플로 제거할 이유?**
+- **검색 이며 다른 보안 & 준수 센터 역할 그룹으로 구분할 워크플로 제거할 이유?**
 
     앞에서 설명한 것 처럼 사용자를 eDiscovery 관리자 역할 그룹의 구성원 이거나 사서함을 검색 하려면 준수 검색 관리 역할을 할당 합니다. 메시지를 삭제 하려면 사용자 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 하는 합니다. 이렇게 하면 조직에서 사서함을 검색할 수 있는 하 고 메시지를 삭제할 수 있는 컨트롤을 수 있습니다. 

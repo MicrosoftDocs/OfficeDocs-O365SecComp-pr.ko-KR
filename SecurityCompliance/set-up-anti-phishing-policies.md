@@ -5,17 +5,17 @@ author: kccross
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.date: 02/04/2019
+ms.date: 02/06/2019
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: Office 365 고급 위협 보호 및 Office 365 Exchange Online protection에서는 기본 보호의 일부분으로 포괄적인 보호 기능을 사용 하 여 피싱 방지 보호를 보호 하는 조직 가장 기반 피싱 악의적인 공격 으로부터 및 기타 피싱 공격을 추가 합니다.
-ms.openlocfilehash: 1ef1dc0781cc28e660cbebf8cde59f97d3e65000
-ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
+ms.openlocfilehash: 1ecc76f674b1d64b59b5dec0f92cd06bbe8b55e8
+ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "29741151"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29755269"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -43,9 +43,11 @@ ms.locfileid: "29741151"
     |역할  |Where/방법 할당  |
     |---------|---------|
     |Office 365 전역 관리자 |Office 365를 구매 하 여를 로그인 하는 사람 이름은 기본적으로 전역 admin입니다. (자세한 내용은 [Office 365에 대 한 관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 참조 하십시오.)         |
-    |Office 365 보안 관리자 |관리 센터 ([https://aka.ms/admincenter](https://aka.ms/admincenter))|
+    |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
     |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet (참조 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
     
+    역할 및 사용 권한 하는 방법에 대 한 자세한 내용은 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.
+
 - 아마도 조직에 대 한 여러 피싱 방지 정책을 설정 합니다. Office 365 보안에서 **피싱 방지 페이지** 및 **ATP 피싱 방지** 페이지에 나열 된 순서에 이러한 정책을 적용 &amp; 준수 센터입니다. [정책 옵션](#learn-about-atp-anti-phishing-policy-options)을 검토 한 후에 각각에 대해 얼마나 많은 정책 수행 해야 하 고 우선순위를 결정 하려면 시간이 다소 걸릴 합니다. 
     
 - 첫번째 피싱 방지 정책에 따라를 설정 하려면 약 5-15 분 투자 계획 합니다.
