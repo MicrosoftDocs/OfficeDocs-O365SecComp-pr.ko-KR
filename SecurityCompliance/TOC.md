@@ -272,7 +272,6 @@
 #### [보류 알림 만들기](compliance20/create-hold-notification.md)
 #### [커뮤니케이션 편집기 사용](compliance20/using-communications-editor.md)
 #### [보류 알림 관리](compliance20/manage-hold-notification.md)
-#### [보류 알림 편집](compliance20/edit-hold-notification.md)
 #### [보류 알림 승인](compliance20/acknowledge-hold-notification.md)
 
 ### [보존 관리](compliance20/managing-holds.md)
