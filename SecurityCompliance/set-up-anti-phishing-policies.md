@@ -10,12 +10,12 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 description: Office 365 고급 위협 보호 및 Office 365 Exchange Online protection에서는 기본 보호의 일부분으로 포괄적인 보호 기능을 사용 하 여 피싱 방지 보호를 보호 하는 조직 가장 기반 피싱 악의적인 공격 으로부터 및 기타 피싱 공격을 추가 합니다.
-ms.openlocfilehash: 1ecc76f674b1d64b59b5dec0f92cd06bbe8b55e8
-ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
+ms.openlocfilehash: 333176ebef8d6367f5090730386fc820927cf3af
+ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29755269"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792283"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -24,7 +24,7 @@ ms.locfileid: "29755269"
 피싱 공격 폼의 다양 한 상품 기반 공격 으로부터 돌아와 대상된 창 피싱 또는 whaling 합니다. 증가 하는 복잡성도 이러한 정교한 공격 중 일부를 식별 하는 숙련 된 눈에 대 한 어렵습니다. 놓기만 Office 365 고급 위협 보호 데 도움이 됩니다. 조직 이러한 공격 으로부터 보호 되 고 있는지 확인 하는데는 ATP 피싱 방지 정책을 설정할 수 있습니다.
   
 > [!NOTE]
-> ATP 피싱 방지은 고급 위협 보호 (ATP)에서 사용할 수만 있습니다. ATP에 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)"," [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business)"," Office 365 엔터프라이즈 e 5 "," Office 365 교육 A5 "," 등의 구독에 포함 됩니다. 조직에 Office 365 ATP를 포함 하지 않는 한 Office 365 구독을 하는 경우에 추가 기능으로 ATP을 잠재적으로 구입할 수 있습니다. 자세한 내용은 [Office 365 고급 위협 Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오. 조직에서 사용 하는 최신 버전의 Office 365 ProPlus Windows에서 ATP 피싱 방지 보호 기능을 완전 하 게 활용할 수 있는지 확인 합니다. 
+> ATP 피싱 방지은 고급 위협 보호 (ATP)에서 사용할 수만 있습니다. ATP에 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)"," [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business)"," Office 365 엔터프라이즈 e 5 "," Office 365 교육 A5 "," 등의 구독에 포함 됩니다. 조직에 Office 365 ATP를 포함 하지 않는 한 Office 365 구독을 하는 경우에 추가 기능으로 ATP을 잠재적으로 구입할 수 있습니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오. 조직에서 사용 하는 최신 버전의 Office 365 ProPlus Windows에서 ATP 피싱 방지 보호 기능을 완전 하 게 활용할 수 있는지 확인 합니다. 
 
 피싱 방지 정책 제한 된 일련의 인증 및 대 설명을 기반 공격을 방지 하는 대상으로 하는 스푸핑 방지 보호 된 Office 365 Exchange Online 보호를 위해 사용할 수도 있습니다.
   
