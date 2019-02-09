@@ -3,7 +3,7 @@ title: Office 365 위협 인텔리전스
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/7/2018
+ms.date: 02/08/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -12,47 +12,63 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
-description: Office 365 위협 인텔리전스를 통해 어떻게 수 조직에 대 한 위협을 조사, 맬웨어, 피싱와 파트너가 대신 Office 365에서 발견 하는 다른 공격에 응답 하 고 위협 지표에 대 한 검색에 대해 알아봅니다. 위협 인텔리전스 보안 및 규정 준수 시스템 구축으로 Office 365 e 5에 작성 됩니다.
-ms.openlocfilehash: fb273b7d8f71cecb04722dfd6ea4b69b103123f5
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+description: 고급 위협 보호의 위협 인텔리전스 기능 하는 방법 조직에 대 한 위협을 조사, 맬웨어, 피싱와 파트너가 대신 Office 365에서 발견 하는 다른 공격에 응답 하 고 위협 지표에 대 한 검색에 대해 알아봅니다.
+ms.openlocfilehash: 5dfd0377c4cafe89c5f69ea080f07d04d892329e
+ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26705852"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792263"
 ---
-# <a name="office-365-threat-intelligence"></a><span data-ttu-id="17f10-104">Office 365 위협 인텔리전스</span><span class="sxs-lookup"><span data-stu-id="17f10-104">Office 365 Threat Intelligence</span></span>
+# <a name="office-365-threat-intelligence"></a><span data-ttu-id="5ad91-103">Office 365 위협 인텔리전스</span><span class="sxs-lookup"><span data-stu-id="5ad91-103">Office 365 Threat Intelligence</span></span>
 
-<span data-ttu-id="17f10-105">Office 365 위협 인텔리전스 보안 분석가 주며 하 여 조직의 Office 365 사용자를 보호 하는 관리자가:</span><span class="sxs-lookup"><span data-stu-id="17f10-105">Office 365 Threat Intelligence helps security analysts and administrators protect their organization's Office 365 users by:</span></span>
+<span data-ttu-id="5ad91-104">Office 365 고급 위협 보호의 위협 인텔리전스 기능 보안 분석가 도움말과 관리자 하 여 조직의 Office 365 사용자를 보호 합니다.</span><span class="sxs-lookup"><span data-stu-id="5ad91-104">Threat intelligence capabilities in Office 365 Advanced Threat Protection help security analysts and administrators protect their organization's Office 365 users by:</span></span>
   
-1. <span data-ttu-id="17f10-106">쉽게 식별, 모니터링 및 공격을 이해</span><span class="sxs-lookup"><span data-stu-id="17f10-106">Making it easy to identify, monitor and understand attacks</span></span>
+1. <span data-ttu-id="5ad91-105">쉽게 식별, 모니터링 및 공격을 이해</span><span class="sxs-lookup"><span data-stu-id="5ad91-105">Making it easy to identify, monitor and understand attacks</span></span>
     
-2. <span data-ttu-id="17f10-107">신속 하 게 주소 위협에 Exchange Online 및 SharePoint Online 도움말</span><span class="sxs-lookup"><span data-stu-id="17f10-107">Helping to quickly address threats in Exchange Online and SharePoint Online</span></span>
+2. <span data-ttu-id="5ad91-106">신속 하 게 주소 위협에 Exchange Online 및 SharePoint Online 도움말</span><span class="sxs-lookup"><span data-stu-id="5ad91-106">Helping to quickly address threats in Exchange Online and SharePoint Online</span></span>
     
-3. <span data-ttu-id="17f10-108">인 사이트 및 해당 조직에 대 한 공격을 방지 하려면 기술 제공</span><span class="sxs-lookup"><span data-stu-id="17f10-108">Providing insights and knowledge to help prevent attacks against their organization</span></span>
+3. <span data-ttu-id="5ad91-107">인 사이트 및 해당 조직에 대 한 공격을 방지 하려면 기술 제공</span><span class="sxs-lookup"><span data-stu-id="5ad91-107">Providing insights and knowledge to help prevent attacks against their organization</span></span>
     
 > [!IMPORTANT]
-> <span data-ttu-id="17f10-p102">Office 365 위협 인텔리전스 Office 365 Enterprise e 5에서 제공 됩니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 Office 365 위협 인텔리전스 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="17f10-p102">Office 365 Threat Intelligence is available in Office 365 Enterprise E5. If your organization is using another Office 365 Enterprise subscription, Office 365 Threat Intelligence can be purchased as an add-on. (As a global administrator, in the Office 365 admin center, choose **Billing** \> **Add subscriptions**.) For more information, see [Office 365 Platform Service Description: Office 365 Security &amp; Compliance Center](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) and [Buy or edit an add-on for Office 365 for business](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6).</span></span> 
+> <span data-ttu-id="5ad91-p101">**위협 인텔리전스 지금의 일부인 Office 365 고급 위협 보호 계획 2에**,이에 포함 된 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 비즈니스](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, 예: 특정 구독에서 Office 365 교육 A5 등입니다. 조직에 Office 365 ATP 포함 되지 않은 구독을 하는 경우에 추가 기능으로 ATP을 잠재적으로 구입할 수 있습니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5ad91-p101">**Threat Intelligence is now part of in Office 365 Advanced Threat Protection Plan 2**, which is included in in certain subscriptions, such as [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5, Office 365 Education A5, etc. If your organization has a subscription that does not include Office 365 ATP, you can potentially purchase ATP as an add-on. For more information, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp).</span></span> 
   
-## <a name="what-do-you-want-to-do"></a><span data-ttu-id="17f10-112">실행할 작업</span><span class="sxs-lookup"><span data-stu-id="17f10-112">What do you want to do?</span></span>
+## <a name="whats-changing"></a><span data-ttu-id="5ad91-110">변경 된 무엇입니까?</span><span class="sxs-lookup"><span data-stu-id="5ad91-110">What's changing?</span></span>
 
-<span data-ttu-id="17f10-113">다음 문서에 사용자를 안전 하 게 유지 하려면 활용할 사용 하는 방법을 비롯 하 여 Office 365 위협 인텔리전스 서비스 제공을 하는 방법에 대 한 자세한 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="17f10-113">In the following articles, you will learn more about the Office 365 Threat Intelligence service offering, including how to use it to your advantage to keep your users safe.</span></span>
-  
-- <span data-ttu-id="17f10-114">[Office 365 위협 인텔리전스 시작](get-started-with-ti.md) (필요한 역할에 대 한 정보 포함)</span><span class="sxs-lookup"><span data-stu-id="17f10-114">[Get started with Office 365 Threat Intelligence](get-started-with-ti.md) (this includes information about required roles)</span></span> 
-    
-- [<span data-ttu-id="17f10-115">위협 추적기-새로 추가 되거나 주목할 만한 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="17f10-115">Learn about Threat Trackers - New and Noteworthy</span></span>](threat-trackers.md)
-    
-- [<span data-ttu-id="17f10-116">찾기 및 지정 된 배달 된 악의적인 전자 메일을 조사</span><span class="sxs-lookup"><span data-stu-id="17f10-116">Find and investigate malicious email that was delivered</span></span>](investigate-malicious-email-that-was-delivered.md)
-    
-- [<span data-ttu-id="17f10-117">공격 시뮬레이터 (Office 365)를 사용 하 여</span><span class="sxs-lookup"><span data-stu-id="17f10-117">Use Attack Simulator (Office 365)</span></span>](attack-simulator.md)
-    
-- [<span data-ttu-id="17f10-118">Office 365 위협 인텔리전스와 Windows Defender Advanced Threat Protection 통합</span><span class="sxs-lookup"><span data-stu-id="17f10-118">Integrate Office 365 Threat Intelligence with Windows Defender Advanced Threat Protection</span></span>](integrate-office-365-ti-with-wdatp.md)
-    
-## <a name="related-topics"></a><span data-ttu-id="17f10-119">관련 항목</span><span class="sxs-lookup"><span data-stu-id="17f10-119">Related topics</span></span>
+<span data-ttu-id="5ad91-p102">이전 버전에서는 Office 365 위협 인텔리전스 Office 365 Enterprise e 5와 같은 구독에 포함 되었습니다. 이것은 여전히 경우에는 있지만 위협 인텔리전스 기능은 이제 Office 365 고급 위협 보호 계획 2의 일부 (및 Office 365 Enterprise e 5에 포함 된이).</span><span class="sxs-lookup"><span data-stu-id="5ad91-p102">Formerly, Office 365 Threat Intelligence was included in subscriptions, such as Office 365 Enterprise E5. This is still the case, although Threat Intelligence features are now part of Office 365 Advanced Threat Protection Plan 2 (and this is included in Office 365 Enterprise E5).</span></span> 
 
-[<span data-ttu-id="17f10-120">Office 365에서 위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="17f10-120">Protect against threats in Office 365</span></span>](protect-against-threats.md)
+<span data-ttu-id="5ad91-p103">또한 Office 365 위협 인텔리전스 된 비즈니스 고객을 위한 Office 365에 대 한 추가 기능으로 구입할 수 있는 이전 합니다. 이제, 위협 인텔리전스 Office 365 고급 위협 보호 계획 2에 포함 됩니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5ad91-p103">In addition, Office 365 Threat Intelligence was formerly available for purchase as an add-on for Office 365 for business customers. Now, Threat Intelligence is included in Office 365 Advanced Threat Protection Plan 2. To learn more, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection).</span></span>
+
+<span data-ttu-id="5ad91-116">이 모든 값의 의미 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="5ad91-116">Here's what all this means:</span></span>
+
+- <span data-ttu-id="5ad91-117">고급 위협 보호 계획 2, 이미 **조직에 Office 365 Enterprise e 5에 있는 경우**, 다음 및 위협 인텔리전스 기능이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5ad91-117">**If your organization already has Office 365 Enterprise E5**, then you already have Advanced Threat Protection Plan 2, and this includes Threat Intelligence capabilities.</span></span>
+
+- <span data-ttu-id="5ad91-p104">**조직에는 이전에 Office 365 위협 인텔리전스 (하지만 하지 Office 365 고급 위협 보호) 추가 기능으로 없던 하는 경우** 다른 Office 365 구독 후에 Office 365 고급 위협 보호 계획 2 해야 합니다. 이 위협 보호 고급 및 위협 인텔리전스 기능이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5ad91-p104">**If your organization previously had Office 365 Threat Intelligence (but not Office 365 Advanced Threat Protection) as an add-on** to another Office 365 subscription, then you will have Office 365 Advanced Threat Protection Plan 2. This includes Advanced Threat Protection and Threat Intelligence capabilities.</span></span> 
+
+- <span data-ttu-id="5ad91-p105">**조직에는 이전에 Office 365 고급 위협 보호 (하지만 Office 365 위협 인텔리전스 하지) 추가 기능으로 없던 하는 경우** 다른 Office 365 구독 후에 Office 365 고급 위협 보호 계획 1 해야 합니다. 고급 위협 보호 있지만 (예: 하지 위협 인텔리전스 기능)이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5ad91-p105">**If your organization previously had Office 365 Advanced Threat Protection (but not Office 365 Threat Intelligence) as an add-on** to another Office 365 subscription, then you will have Office 365 Advanced Threat Protection Plan 1. This includes Advanced Threat Protection (but not Threat Intelligence capabilities).</span></span>
+
+<span data-ttu-id="5ad91-122">자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection 서비스 설명](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="5ad91-122">For more information, see [Office 365 Advanced Threat Protection plans and pricing](https://products.office.com/exchange/advance-threat-protection) and the [Office 365 Advanced Threat Protection Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)</span></span>
+
+## <a name="get-started-with-threat-intelligence-capabilities"></a><span data-ttu-id="5ad91-123">위협 인텔리전스 기능 시작</span><span class="sxs-lookup"><span data-stu-id="5ad91-123">Get started with threat intelligence capabilities</span></span>
+
+<span data-ttu-id="5ad91-124">위협 인텔리전스 및 사용 하 여 조직에서 사람들을 안전 하 게 유지 하는 방법을 하는 방법에 대 한 자세한 내용은 다음 리소스를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="5ad91-124">Use the following resources to learn more about threat intelligence, and how you can use it to keep people in your organization safer.</span></span>
   
-[<span data-ttu-id="17f10-121">Office 365 Advanced Threat Protection</span><span class="sxs-lookup"><span data-stu-id="17f10-121">Office 365 Advanced Threat Protection</span></span>](office-365-atp.md)
+- <span data-ttu-id="5ad91-125">[위협 인텔리전스 시작](get-started-with-ti.md) (필요한 역할에 대 한 정보 포함)</span><span class="sxs-lookup"><span data-stu-id="5ad91-125">[Get started with Threat Intelligence](get-started-with-ti.md) (this includes information about required roles)</span></span> 
+    
+- [<span data-ttu-id="5ad91-126">위협 추적기-새로 추가 되거나 주목할 만한 하는 방법에 대 한 설명</span><span class="sxs-lookup"><span data-stu-id="5ad91-126">Learn about Threat Trackers - New and Noteworthy</span></span>](threat-trackers.md)
+    
+- [<span data-ttu-id="5ad91-127">찾기 및 지정 된 배달 된 악의적인 전자 메일을 조사</span><span class="sxs-lookup"><span data-stu-id="5ad91-127">Find and investigate malicious email that was delivered</span></span>](investigate-malicious-email-that-was-delivered.md)
+    
+- [<span data-ttu-id="5ad91-128">공격 시뮬레이터를 사용 하 여</span><span class="sxs-lookup"><span data-stu-id="5ad91-128">Use Attack Simulator</span></span>](attack-simulator.md)
+    
+- [<span data-ttu-id="5ad91-129">Windows Defender 위협 보호 고급와 위협 인텔리전스 통합</span><span class="sxs-lookup"><span data-stu-id="5ad91-129">Integrate Threat Intelligence with Windows Defender Advanced Threat Protection</span></span>](integrate-office-365-ti-with-wdatp.md)
+    
+## <a name="related-topics"></a><span data-ttu-id="5ad91-130">관련 항목</span><span class="sxs-lookup"><span data-stu-id="5ad91-130">Related topics</span></span>
+
+[<span data-ttu-id="5ad91-131">Office 365에서 위협으로부터 보호</span><span class="sxs-lookup"><span data-stu-id="5ad91-131">Protect against threats in Office 365</span></span>](protect-against-threats.md)
   
-[<span data-ttu-id="17f10-122">Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터</span><span class="sxs-lookup"><span data-stu-id="17f10-122">Permissions in the Office 365 Security &amp; Compliance Center</span></span>](permissions-in-the-security-and-compliance-center.md)
+[<span data-ttu-id="5ad91-132">Office 365 Advanced Threat Protection 방지</span><span class="sxs-lookup"><span data-stu-id="5ad91-132">Office 365 Advanced Threat Protection</span></span>](office-365-atp.md)
+  
+[<span data-ttu-id="5ad91-133">Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터</span><span class="sxs-lookup"><span data-stu-id="5ad91-133">Permissions in the Office 365 Security &amp; Compliance Center</span></span>](permissions-in-the-security-and-compliance-center.md)
   
 
