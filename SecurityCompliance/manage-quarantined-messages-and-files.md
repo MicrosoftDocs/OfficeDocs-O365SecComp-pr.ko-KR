@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 description: '관리 권한으로 볼, 릴리스, 및 Office 365에서 가양성 격리 된 메시지를 보고 수 있습니다. Office 365 메시지를 필터링 하 고 다음과 같은 몇가지 이유로 격리로 보냅니다 되도록 정책을 설정할 수: 스팸, 대량, 피싱, 맬웨어, 확인 된 대로 수 있으므로 또는 메일 흐름 규칙 일치 합니다. '
-ms.openlocfilehash: 1a0aa0b3f08b18d81b6e1e025e5672ab8fcfafa4
-ms.sourcegitcommit: 204fb0269b5c10b63941055824e863d77e3e9b02
+ms.openlocfilehash: ed78fcd2652a723e97c288f6f8aa43d11d41f0dd
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27180888"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792509"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 관리자 권한으로 격리 된 메시지와 파일을 관리 합니다.
 
@@ -27,10 +27,10 @@ ms.locfileid: "27180888"
   
 기본적으로 Office 365 피싱 메시지와 격리로 직접 맬웨어를 포함 하는 메시지를 보냅니다. 다른 필터링 된 메시지는 격리로 전송할 정책을 설정 하지 않으면 사용자의 정크 메일 폴더로 전송 됩니다.
   
-다른 사용자에 게 전송 된 격리 된 메시지와 함께 작동 하도록 하 고 격리 된 파일을 사용 하도록 Office 365에서 관리자 권한이 있어야 합니다.
+다른 사용자에 게 전송 된 격리 된 메시지와 함께 작동 하도록 하 고 격리 된 파일을 사용 하도록 Office 365의 (GA) 전역 관리자 권한이 있어야 합니다.
   
 > [!IMPORTANT]
-> 기본적으로 스팸, 대량, 맬웨어, 피싱, 및 일치 하는 메일 흐름 규칙 격리 된 메시지에에서 보관 되 격리 30 일 동안 합니다. 보안에서 스팸 방지 설정에서 격리 시간을 사용자 지정할 수 &amp; 준수 센터입니다. 격리에서 메시지를 삭제 하는 Office 365 때 다시 가져올 수 없습니다. 원하는 경우 스팸 방지 필터 정책에서 격리 된 메시지에 대 한 보존 기간을 변경할 수 있습니다. 자세한 내용은이 문서의 [격리 보존 기간을 설정](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) 을 참조 하십시오. 
+>기본적으로 30 일 동안 스팸, 대량 및 피싱 메시지는 격리에 보관 됩니다. 메일 흐름 규칙 일치 하기 때문에 격리 된 메시지는 격리에 7 일 동안 보관 됩니다. 맬웨어 메시지는 격리에 15 일 동안 보관 됩니다. 보안에서 스팸 방지 설정에서 스팸 격리 시간을 사용자 지정할 수 &amp; 준수 센터입니다. 격리에서 메시지를 삭제 하는 Office 365 때 다시 가져올 수 없습니다. 원하는 경우 스팸 방지 필터 정책에서 격리 된 메시지에 대 한 보존 기간을 변경할 수 있습니다. 자세한 내용은이 문서의 [격리 보존 기간을 설정](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) 을 참조 하십시오. 
   
 ## <a name="view-your-organizations-quarantined-messages"></a>조직의 격리 된 메시지 보기
 
@@ -39,7 +39,7 @@ ms.locfileid: "27180888"
 2. 왼쪽에 있는 목록의 **위협 관리**를 확장 하 고 **검토**를 선택한 다음 **격리**를 선택 합니다.
     
     > [!TIP]
-    > 보안에서 **격리** 페이지로 바로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: >[https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+    > 보안에서 **격리** 페이지로 바로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: gt_[https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
   
     기본적으로 보안 &amp; 준수 센터 스팸으로 격리 된 모든 전자 메일 메시지를 표시 합니다. 메시지의 메시지를 받은 **날짜** 에 따라 내림차순 정렬 됩니다. 각 메시지에 대 한 **보낸사람**, **주제**및 만료 날짜 **만료** ) (아래 표시 됩니다. 해당 열 머리글;를 클릭 하 여 필드에 정렬할 수 있습니다. 정렬 순서를 바꾸려면 열 머리글을 2 시간을 클릭 합니다. 
     
@@ -67,7 +67,7 @@ ms.locfileid: "27180888"
     
 2. 왼쪽에서 **위협 관리**를 확장 하 고 **검토**를 선택한 다음 **격리**를 선택 합니다. <br/>
     > [!TIP]
-    > 보안에서 **격리** 페이지로 바로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: >[https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+    > 보안에서 **격리** 페이지로 바로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: gt_[https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
   
 3. 기본적으로 페이지에는 격리 된 전자 메일 메시지를 표시 합니다. 격리 된 파일을 보려면 표시 하려면 **파일** **맬웨어**으로 인해 격리 된 페이지의 위쪽에 필터를 설정 합니다. 격리 된 파일을 사용 하도록 Office 365에서 관리자 권한이 있어야 합니다. 
     
@@ -190,7 +190,7 @@ ms.locfileid: "27180888"
     
 2. 왼쪽에서 **위협 관리**, **정책**, 선택 및 **스팸 방지**를 선택 합니다. <br/>
     > [!TIP]
-    > 보안에서 **스팸 방지** 페이지로 바로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: >[https://protection.office.com/?hash=/antispam](https://protection.office.com/?hash=/antispam)
+    > 보안에서 **스팸 방지** 페이지로 바로 이동 하려면 &amp; 준수 센터가이 URL을 사용 하 여: gt_[https://protection.office.com/?hash=/antispam](https://protection.office.com/?hash=/antispam)
   
 3. **사용자 정의 설정** 탭을 표시할 **사용자 지정** 선택 합니다. 
     

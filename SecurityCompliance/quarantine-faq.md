@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 description: 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: cc8a05b575e17dbc71d4b9e214cb29a4cafe8b6b
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 1473e682faab0471f5a6356e8d54a65a9baf291a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003197"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "29792499"
 ---
 # <a name="quarantine-faq"></a>격리 FAQ
 
@@ -50,7 +50,7 @@ A. 하려면 최종 사용자 스팸 격리에 액세스, 최종 사용자에 �
   
  **질문. 메시지는 얼마 동안 격리에 보관됩니까?**
   
-A. 기본적으로 스팸 격리 메시지를 전송 규칙과 일치 하는 격리 된 메시지는 7 일이에 대 한 사용자를 격리에 보관 되는 동안 15 일 동안 격리에 보관 됩니다. 이 기간 후 메시지가 삭제 되 고 검색할 수 없습니다. 전송 규칙과 일치 하는 격리 된 메시지에 대 한 보존 기간을 구성할 수는 없습니다. 그러나 콘텐츠 필터 정책에서 **보관 스팸 (일)에 대 한** 설정을 통해 스팸 격리 된 메시지에 대 한 보존 기간을 낮출 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)을 참조 하십시오.
+A. 기본적으로 스팸 격리 메시지를 전송 규칙과 일치 하는 격리 된 메시지는 7 일이에 대 한 사용자를 격리에 보관 되는 동안 30 일 동안 격리에 보관 됩니다. 이 기간 후 메시지가 삭제 되 고 검색할 수 없습니다. 전송 규칙과 일치 하는 격리 된 메시지에 대 한 보존 기간을 구성할 수는 없습니다. 그러나 콘텐츠 필터 정책에서 **보관 스팸 (일)에 대 한** 설정을 통해 스팸 격리 된 메시지에 대 한 보존 기간을 낮출 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)을 참조 하십시오.
   
  **Q. 한 번에 2개 이상의 격리된 메시지를 해제하거나 보고할 수 있습니까?**
   
