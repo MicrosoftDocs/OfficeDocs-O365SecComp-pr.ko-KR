@@ -12,13 +12,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
-description: '관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Office 365 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어봅니다.  '
-ms.openlocfilehash: b2f1f848d14bdf77444c2026cbc675042c792542
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: 관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Office 365 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어봅니다.
+ms.openlocfilehash: 189c81bd415f94d4ded06fd13eaf5aea861b283d
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533089"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "27446349"
 ---
 # <a name="manage-relevance-setup-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 설정 관리
 
