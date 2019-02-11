@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: 61d5a79d46a35cf4a58fb3def8ae124f7025fd6d
-ms.sourcegitcommit: 71922c3e427008d904e5eb6c1a6dc7330e666c8c
+ms.openlocfilehash: 328d63265fdaa311b94c25902e7f380c9b0be89c
+ms.sourcegitcommit: c2ec9a4b0279a248b85c2e4a4e91458214b5b31c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690419"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770823"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -53,8 +53,6 @@ Office 365 보안 및 준수 센터의 **보존** 페이지에서 보존 정책�
   
 ![보안 및 준수 센터의 보존 페이지](media/107fc33a-6a29-44d1-85e4-0efef0544147.png)
   
-> [!NOTE]
-> 보존 정책에 Exchange Online 사서함을 포함하려면 사서함에 Exchange Online 요금제 2 라이선스가 할당되어야 합니다. 사서함에 Exchange Online 요금제 1 라이선스가 할당되면 보존 정책에 포함하기 위해 별도의 Exchange Online Archiving 라이선스를 할당해야 합니다. 
   
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>보존 정책이 원본 위치의 콘텐츠에 작동하는 방식
 
