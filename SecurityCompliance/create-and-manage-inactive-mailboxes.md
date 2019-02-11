@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: 사서함을 보류 또는 Office 365 보존 정책을 적용 한 후 해당 하는 Office 365 사용자 계정의 삭제 하 여 Office 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 적용 되기 전에에 적용 된 보존 또는 보존 정책의 기간에 대 한 보관 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 방금 보류 또는 보존 정책을 제거 합니다.
-ms.openlocfilehash: ed0af9077222d9151dc41010bca10590769118b1
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: de67068ded30f63e46a8a94c1030d45a12b56a2e
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533272"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29740840"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Office 365에서 비활성 사서함 만들기 및 관리
 
@@ -122,8 +122,6 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
 ## <a name="recover-an-inactive-mailbox"></a>비활성 사서함 복구
 
 이전 직원이 조직에 반환 하는 경우 또는 이전된 직원의 직무에 적용할 새 직원 고용 하는 경우 비활성 사서함의 내용을 복구할 수 있습니다. 비활성 사서함을 복구 하는 경우 사서함 새 사서함으로 변환 됩니다 내용과 비활성 사서함의 폴더 구조 유지 되므로 및 사서함을 새 사용자 계정에 연결 됩니다. 복구한 후 비활성 사서함 존재 하지 않습니다. 단계별 절차 및 방법에 대 한 자세한 내용은 비활성 사서함을 복구 하는 경우 수행 되는, [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)참조 합니다.
-  
-[비활성 사서함 관리](create-and-manage-inactive-mailboxes.md#manageinactivemailboxes)
   
 ## <a name="restore-the-contents-of-an-inactive-mailbox-to-another-mailbox"></a>비활성 사서함의 내용을 다른 사서함 복원
 

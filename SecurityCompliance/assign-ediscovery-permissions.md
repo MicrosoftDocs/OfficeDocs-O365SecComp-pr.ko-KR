@@ -15,10 +15,10 @@ search.appverid:
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안을 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 &amp; 준수 센터입니다.
 ms.openlocfilehash: 95f0ed171c37ec84ca8bb8f00e69ab0318cd31cd
-ms.sourcegitcommit: a64af0ebd0b03e4a5e60a33e9108c44c7d74f356
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
+ms.lasthandoff: 02/11/2019
 ms.locfileid: "29741161"
 ---
 # <a name="assign-ediscovery-permissions-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 eDiscovery 사용 권한을 할당 &amp; 준수 센터

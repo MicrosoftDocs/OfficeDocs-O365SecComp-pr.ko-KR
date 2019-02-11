@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 보류를 관리
+title: 고급 eDiscovery (미리 보기)에서 보류를 관리 합니다.
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 861b8fb8c0595f4ede0327d7426650d21046eba3
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 476ea80e61b5354c53368613e29a79c55a50276f
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608159"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695184"
 ---
-# <a name="managing-holds-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 보류를 관리
+# <a name="manage-holds-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 보류를 관리 합니다.
 
 사례에 관련 될 수 있는 콘텐츠를 유지 하기 위해 보류를 만들려면 (미리 보기) 고급 eDiscovery 사례를 사용할 수 있습니다. 기능을 보유할 고급 eDiscovery (미리 보기)를 사용 하 여, 보류를 배치할 수 custodians 및 해당 데이터 원본에 있습니다. 또한 비즈니스 사이트에 대 한 사서함과 OneDrive에서 custodial 아닌 보류를 배치할 수 있습니다. Office 365 그룹에 대해 비즈니스 사이트에 대 한 그룹 사서함, SharePoint 사이트 및 OneDrive에서 보류를 배치할 수도 있습니다. 마찬가지로, 사서함 및 Microsoft 팀과 연결 된 사이트에 보류를 배치할 수 있습니다. 대기 콘텐츠 위치를 배치 하는 경우 콘텐츠 더불어 릴리스 특정 데이터 위치를 제거 하거나 완전히 보류 정책을 삭제할 때까지 유지 됩니다.
 

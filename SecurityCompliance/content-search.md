@@ -3,7 +3,7 @@ title: Office 365의에서 콘텐츠 검색
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/28/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: 콘텐츠 검색을 사용 하 여 Office 365 보안에서 &amp; 준수 센터 비즈니스 대화에 대 한 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀의, Office 365 그룹 및 Skype에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리를 사용 하 여 수 있으며 검색 조건 검색 결과 범위를 좁힐 수 있습니다. 다음 미리 볼 수 있으며 검색 결과 내보낼 수 있습니다. 콘텐츠 검색 GDPR 데이터 주체 요청에 관련 될 수 있는 콘텐츠를 검색 하는 효과적인 도구 이기도 합니다.
-ms.openlocfilehash: 11e96c6a11dd66c0095b7c624413e9e39036d8d6
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: befd2060e65cea73d3c8432b77727e27dd91b82a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782085"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29686119"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의에서 콘텐츠 검색
 
@@ -43,7 +43,7 @@ Office 365 보안에서 콘텐츠 검색 eDiscovery 도구를 사용할 수 있�
 
 **콘텐츠 검색** 페이지를 검색 하 고 미리 보기를 실행 하 고 검색 결과 내보내기에 대 한 액세스를 관리자, 규정 준수 관리자 또는 eDiscovery 관리자 여야 보안에서 eDiscovery 관리자 역할 그룹의 구성원 &amp; 준수 센터입니다. 자세한 내용은 참조 [Office 365 보안에서 eDiscovery 사용 권한을 할당 &amp; 준수 센터](assign-ediscovery-permissions.md)합니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. Office 365 전자 메일 주소 및 암호를 사용 하 여 로그인 합니다. 
     
@@ -74,10 +74,12 @@ Office 365 보안에서 콘텐츠 검색 eDiscovery 도구를 사용할 수 있�
     또는 수 **키워드 목록을 표시** 확인란을 및 누르면 형식은 각 행에 있는 키워드입니다. 이렇게 하면 각 행에 키워드와 비슷합니다 기능에서 생성 된 검색 쿼리에 **OR** 연산자는 논리 연산자 ( **c:s**)으로 연결 됩니다. 
     
     키워드 목록을 사용 하는 이유 각 키워드를 일치 하는 얼마나 많은 항목이 표시 하는 통계를 얻을 수 있습니다. 이 키워드는는 가장 (및 최소) 효과적인를 빠르게 식별할 수 있습니다. 행에서 (괄호로 묶입니다) 키워드 구의 사용할 수도 있습니다. 검색 통계에 대 한 자세한 내용은 [콘텐츠 검색 결과 대 한 키워드 통계 보기를](view-keyword-statistics-for-content-search.md)참조 하십시오.
+
+    [!NOTE] 큰 키워드 목록에 의해 발생 하는 문제를 줄일 자신이 지금 키워드 목록에서 20 행의 최대 수 있도록 제한 합니다.
     
 - **조건** -검색 범위를 좁힐 하 고 보다 정교한 결과 집합이 반환 하는 검색 조건을 추가할 수 있습니다. 검색 쿼리를 만들고 실행 하 여 검색을 시작 하는 경우에 절을 추가 하는 각 조건입니다. 조건 **및** 연산자 기능와 유사한 논리 연산자 ( **c:c**)에 의해 (키워드 상자에 지정 된) 키워드 쿼리를 논리적으로 연결 됩니다. 항목 키워드 쿼리 및 결과에 포함할 하나 이상의 조건을 모두 충족 해야 함을 의미 합니다. 결과 범위를 좁히려면 조건 도움이 되는 방식입니다. 목록 및 설명은 검색 쿼리에서 사용할 수 있는 조건에 대 한 [키워드 쿼리 및 콘텐츠 검색을 위한 검색 조건에서](keyword-queries-and-search-conditions.md#search-conditions)"검색 조건" 섹션을 참조 하십시오.
     
-- **위치** -설치할 콘텐츠 위치를 검색 합니다.
+- **위치** -검색 콘텐츠 위치를 선택 합니다.
     
   - **모든 위치** -조직에서 모든 콘텐츠 위치를 검색 하려면이 옵션을 사용 합니다. 여기에 모든 비활성 사서함, 모든 Office 365 그룹에 대 한 사서함, 사서함에 대 한 Microsoft 팀의 모든 등 모든 Exchange 사서함에서 전자 메일 모든 SharePoint와 OneDrive (사이트를 포함 하는 비즈니스 사이트에 대 한 비즈니스 대화에 대 한 모든 Skype 모든 Office 365 그룹 및 Microsoft 팀의), 및 모든 Exchange 공용 폴더의 항목입니다.
     
@@ -189,7 +191,7 @@ Office 365 보안에서 콘텐츠 검색 eDiscovery 도구를 사용할 수 있�
     
 - Microsoft는 모든 Office 365 조직에 의해 실행 되는 콘텐츠 검색에 대 한 성능 정보를 수집 합니다. 복잡 한 검색 쿼리 검색 시간에 영향을 줄 수를 하는 동안 기간 검색 라인은 사서함의 수에 영향을 주는 가장 큰 요인 해야 검색 됩니다. Microsoft 검색 시간에 대 한 서비스 수준 계약을 제공 하지, 하지만 다음 표에서 검색에 포함 된 사서함 수에 따라 콘텐츠 검색에 대 한 평균 검색 시간을 보여줍니다.
     
-|**사서함 수**|**평균 검색 시간**|
+|**사서함의 수**|**평균 검색 시간**|
 |:-----|:-----|
 |100  <br/> |30초  <br/> |
 |1,000  <br/> |45 초  <br/> |
@@ -268,7 +270,7 @@ Office 365 그룹 또는 팀이 Microsoft와 관련 된 사서함을 검색할 �
 - 또는 Microsoft 팀의 채팅 목록에 포함 된 대화 대화방에 참가 한 사용자의 Exchange Online 사서함에 저장 됩니다. 및 채팅 대화에 사용자를 공유 하는 파일의 파일 공유는 사용자의 비즈니스 계정에 대 한 OneDrive에 저장 됩니다. 따라서 채팅 목록에서 대화 하 고 파일을 검색 하려면 콘텐츠 위치로 비즈니스 계정에 대 한 개별 사용자 사서함 및 OneDrive를 추가 해야 합니다.
     
     > [!NOTE]
-    > Microsoft 팀의 채팅 목록에 포함 된 대화에 참가 한 사용자 채팅 대화를 검색 하는 순서에는 Exchange Online (클라우드 기반) 사서함이 있어야 합니다. 채팅 목록에 포함 된 대화 채팅 참가자의 클라우드 기반 사서함에 저장 된 때문입니다. 채팅 참가자가 없는 경우 Exchange Online 사서함, 채팅 대화를 검색할 수 없습니다. 예, Exchange 하이브리드 배포에서 온-프레미스 사서함이 있는 사용자 Microsoft 팀의 채팅 목록에 포함 된 대화에 참가할 수 있도록 수 있습니다. 그러나이 경우이 대화의 콘텐츠를 없는 검색 가능한 사용자 클라우드 기반 사서함이 없기 때문에 있습니다. 
+    > Exchange 하이브리드 배포에서 온-프레미스 사서함이 있는 사용자는 Microsoft 팀의 채팅 목록에 포함 된 대화에 참가할 수 있습니다. 이 경우에 온-프레미스 사서함이 있는 사용자를 위한 클라우드 기반 저장소 영역 ( *온-프레미스 사용자를 위한 클라우드 기반 사서함*라고 함)에 저장 되기 때문에 이러한 대화에서 콘텐츠를 검색할 수도 있습니다. 자세한 내용은 [검색 클라우드 기반 사서함에 대 한 온-프레미스 Office 365에서 사용자를](search-cloud-based-mailboxes-for-on-premises-users.md)참조 하십시오.
   
 - 모든 Microsoft 팀 또는 팀 채널 노트 작성 및 공동 작업에 대 한 Wiki를 포함합니다. Wiki 콘텐츠.mht 서식 사용 하 여 파일을 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 팀이 위 키 데이터 문서 라이브러리에 저장 됩니다. 검색할 콘텐츠 위치로 팀의 SharePoint 사이트를 지정 하 여 Wiki를 검색 하는 콘텐츠 검색 도구를 사용할 수 있습니다. 
     

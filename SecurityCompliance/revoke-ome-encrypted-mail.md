@@ -3,7 +3,6 @@ title: Office 365 메시지 암호화로 암호화된 전자 메일 취소
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/29/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -11,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365 관리자 권한으로 Office 365 메시지 암호화를 사용 하 여 암호화 된 특정 전자 메일을 취소할 수 있습니다.
-ms.openlocfilehash: a3f5c08d2c8660e56c378fc5fa7a850ff2c12eb5
-ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
+ms.openlocfilehash: 018f12105e19382372a8a4b3a91248bb60b228be
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29614392"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29696242"
 ---
 # <a name="office-365-message-encryption-email-revocation"></a>Office 365 메시지 암호화 전자 메일 해지
 
@@ -59,22 +58,41 @@ ms.locfileid: "29614392"
 2. **세부 정보 보기** 테이블을 선택 하 고 해지 하려는 메시지를 확인 합니다.
 3. 메시지 id. 메시지를 포함 하는 세부 정보 보기를 두번클릭 합니다.
 
-### <a name="step-2-revoke-the-mail"></a>2 단계입니다. 메일을 해지  
+### <a name="step-2-verify-that-the-mail-is-revocable"></a>2 단계입니다. 메일 재생산할 인지 확인 합니다.
 
-해지 하려면 전자 메일의 메시지 ID를 알고 있으면 집합 OMEMessageRevocation cmdlet을 사용 하 여 전자 메일을 취소할 수 있습니다.
+특정 전자 메일 메시지를 해지할 수 있는지 여부를 확인 하려면 다음이 단계를 완료 합니다.
 
-1. [원격 PowerShell을 사용 하 여 온라인 Exchange에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. Office 365 조직에 대 한 전역 관리자 권한이 있는 작업이 나 교육용 계정을 사용 하는 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Connect to Exchange Online PowerShell를](https://aka.ms/exopowershell)참조 하십시오.
+
+2. 다음과 같이 설정 OMEMessageStatus cmdlet를 실행 합니다.
+     ```powershell
+     Get-OMEMessageStatus -MessageId "<messagieid>" | ft -a  Subject, IsRevocable
+     ```
+
+   이 메시지 및 메시지 재생산할 인지의 주제를 반환 합니다. 예를 들어
+
+     ```text
+     Subject IsRevocable
+     ------- -----------
+     “Test message”  True
+     ```
+
+### <a name="step-3-revoke-the-mail"></a>3 단계입니다. 메일을 해지  
+
+해지, 하려는 전자 메일의 메시지 ID를 알고 있는 한번 하 고 메시지는 재생산할, 집합 OMEMessageRevocation cmdlet을 사용 하 여 전자 메일을 해지할 수 있는지 확인 한 키를 누릅니다.
+
+1. [Exchange Online PowerShell에 연결합니다](https://aka.ms/exopowershell).
 
 2. 다음과 같이 설정 OMEMessageRevocation cmdlet를 실행 합니다.
 
     ```powershell
     Set-OMEMessageRevocation -Revoke $true -MessageId "<messageId>"
-    ```  
+    ```
 
 3. 전자 메일이 해지 되었습니다 있는지 여부를 확인 하려면 다음과 같이 입력 하는 Get OMEMessageStatus cmdlet를 실행 합니다.
 
     ```powershell
-    Get-OMEMessageStatus -MessageId "<messageId>" | fl Revoked
+    Get-OMEMessageStatus -MessageId "<messageId>" | ft -a  Subject, Revoked
     ```  
     해지에 성공 하면 cmdlet은 다음과 같은 결과 반환 합니다.  
 

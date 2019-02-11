@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8219ae8a061f6d08dd37da5b7f2974dd86c68f04
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 34e3fe207cf440c5992cdba7186e919a3968db22
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608116"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706149"
 ---
-# <a name="viewing-custodian-audit-activity"></a>더불어 감사 활동 보기
+# <a name="view-custodian-audit-activity"></a>더불어 감사 활동 보기
 
 사용자는 특정 문서를 볼 또는 자신의 사서함에서 항목을 제거 하는 경우를 찾이 필요가 있습니까? 고급 eDiscovery (미리 보기) 보안 & 준수 센터의에서 기존 감사 로그 검색 도구와 통합 되었습니다. 이 포함 된 경험을 사용 하 여 쉽게 액세스 하 고 케이스 내에서 custodians에 대 한 활동을 검색 하 여 검사를 수행할 수 있도록 고급 eDiscovery (미리 보기) 더불어 관리 도구를 사용할 수 있습니다.
 
@@ -101,8 +101,4 @@ ms.locfileid: "29608116"
 
 3. 내보내기 옵션을 선택 하면 CSV 파일을 열거나 다운로드 폴더에 저장, 특정 폴더에 저장 하 라는 메시지가 표시 되는 창 맨 아래에 메시지가 표시 됩니다.
 
-[!NOTE] 
- 보기, 필터링 또는 감사 로그 검색 결과 내보내기 (영문) 하는 방법에 대 한 자세한 내용은 다음을 참조 합니다.
-   - 감사 된 활동의 보기 목록 
-   - 시작 하기 전에: 통합된 감사 로그
- 
+필터링 또는 감사 로그 검색 결과 내보내기 (영문) 보기에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터에서에서 감사 로그 검색](../search-the-audit-log-in-security-and-compliance.md)을 참조 합니다.

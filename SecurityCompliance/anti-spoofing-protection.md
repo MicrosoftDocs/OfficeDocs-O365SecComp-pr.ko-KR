@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
 description: 이 문서에서는 방법 Office 365을 완화 피싱 공격에 대해 사용 하 여 보낸 사람이 도메인, 위장 된 도메인, 즉 위조를 설명 합니다. 메시지를 분석 하 여이 기능을 수행 하기 및 neithe 표준 전자 메일 인증 방법 및 기타 보낸사람 신뢰도 기술을 사용 하 여 인증 될 수 있는 위치를 차단 합니다. 이 변경 피싱 공격에 노출 되는 조직에서 Office 365의 수를 줄이는 구현 됩니다.
-ms.openlocfilehash: 19e7ea957592a486a559dac222a51139bf79b574
-ms.sourcegitcommit: 03e64ead7805f3dfa9149252be8606efe50375df
+ms.openlocfilehash: 4ce195feae002e468d1b6ed61c6b186af7f8950d
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27769862"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29614512"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -99,7 +99,7 @@ Authentication-Results:
 |||
 |:-----|:-----|
 |**이유**|**설명**|
-|0xx|메시지에는 복합 인증 하지 못했습니다.<br/>**000** 메시지에는 다른 작업을 거부 또는 격리의 DMARC 실패 한 것을 의미 합니다.                    -001 이면 메시지 암시적 전자 메일 인증에 실패 합니다. 즉, 보내는 도메인에서 전자 메일 인증 레코드를 게시 하지 않았습니다 또는 약한 오류 정책 사용 했던 문제가 있었다면 (SPF 소프트 실패 또는 중립, DMARC 정책 p = 없음).<br/>조직에 위장 된 전자 메일을 발송에서 명시적으로 금지 된 보낸사람/도메인 쌍에 대 한 정책을 **002** 의미,이 설정은 관리자가 설정 수동으로 됩니다.  <br/>메시지는 다른 작업을 거부 또는 격리의 DMARC 실패 하 고 보내는 도메인을 사용 하면 조직의 허용 도메인 중 하나가 **010** 의미 (자체를 자체 또는 조직 내의 일부인이 스푸핑).  <br/>**011** 의미는 메시지가 암시적 전자 메일 인증 실패 하 고 보내는 도메인을 사용 하면 조직의 허용된 도메인 중 하나가 (자체를 자체 또는 조직 내의 일부인이 스푸핑).|
+|0xx|메시지에는 복합 인증 하지 못했습니다.<br/>**000** 메시지에는 다른 작업을 거부 또는 격리의 DMARC 실패 한 것을 의미 합니다.  <br/>**001** 이면 메시지 암시적 전자 메일 인증에 실패 합니다. 즉, 보내는 도메인에서 전자 메일 인증 레코드를 게시 하지 않았습니다 또는 약한 오류 정책 사용 했던 문제가 있었다면 (SPF 소프트 실패 또는 중립, DMARC 정책 p = 없음).<br/>조직에 위장 된 전자 메일을 발송에서 명시적으로 금지 된 보낸사람/도메인 쌍에 대 한 정책을 **002** 의미,이 설정은 관리자가 설정 수동으로 됩니다.  <br/>메시지는 다른 작업을 거부 또는 격리의 DMARC 실패 하 고 보내는 도메인을 사용 하면 조직의 허용 도메인 중 하나가 **010** 의미 (자체를 자체 또는 조직 내의 일부인이 스푸핑).  <br/>**011** 의미는 메시지가 암시적 전자 메일 인증 실패 하 고 보내는 도메인을 사용 하면 조직의 허용된 도메인 중 하나가 (자체를 자체 또는 조직 내의 일부인이 스푸핑).|
 |다른 모든 코드 (1xx, 2xx, 3xx, 4xx, 5xx)|아무 작업도 적용 된 메시지를 전달 되는 암시적 인증 또는 없음 인증 명의 있는데 이유는 다양 한 내부 코드 (영문)에 해당 합니다.|
    
 메시지 헤더 봐서는 관리자 또는 최종 사용자를 확인할 수 Office 365 보낸을 스푸핑 될 수 있습니다 결론에 도착 하는 방법.
@@ -415,20 +415,20 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
 |**우선 순위**|**정책**|**종류**|**여기서 관리?**|**적용 대상**|
 |:-----|:-----|:-----|:-----|:-----|
 |1  <br/> |Malware  <br/> |MALW  <br/> |[맬웨어 정책](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|2  <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|3  <br/> |높은 정확도 스팸  <br/> |HSPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|4  <br/> |스푸핑  <br/> |스푸핑  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553), [스푸핑 인텔리전스](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |모든 조직  <br/> |
-|5  <br/> |스팸  <br/> |SPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|6  <br/> |대량  <br/> |대량  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
-|7  <br/> |도메인 가장  <br/> |DIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당  <br/> |
-|8  <br/> |사용자 가장  <br/> |UIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당 <br/> |
+|2   <br/> |피싱  <br/> |PHSH  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|3   <br/> |높은 정확도 스팸  <br/> |HSPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|4   <br/> |스푸핑  <br/> |스푸핑  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553), [스푸핑 인텔리전스](https://support.office.com/article/Learn-more-about-spoof-intelligence-978c3173-3578-4286-aaf4-8a10951978bf) <br/> |모든 조직  <br/> |
+|5   <br/> |스팸  <br/> |SPM  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|6   <br/> |대량  <br/> |대량  <br/> |[호스팅된 콘텐츠 필터 정책](https://technet.microsoft.com/library/jj200684%28v=exchg.150%29.aspx) <br/> |모든 조직  <br/> |
+|7   <br/> |도메인 가장  <br/> |DIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당  <br/> |
+|8   <br/> |사용자 가장  <br/> |UIMP  <br/> |[피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=864553) <br/> |ATP와 조직에만 해당 <br/> |
    
 여러 다른 피싱 방지 정책을 가장 높은 우선순위에 하나씩 적용 됩니다. 예, 두 정책이 있다고 가정 합니다.
   
 |**정책**|**우선 순위**|**사용자/도메인 가장**|**스푸핑 방지**|
 |:-----|:-----|:-----|:-----|
 |A  <br/> |1  <br/> |On  <br/> |Off  <br/> |
-|B  <br/> |2  <br/> |Off  <br/> |On  <br/> |
+|B  <br/> |2   <br/> |Off  <br/> |On  <br/> |
    
 메시지에는 및 스푸핑 및 사용자 가장으로 식별 된 및 사용자의 동일한 집합 정책 A와 B 정책으로 범위가 지정 된 후 메시지 스푸핑은으로 처리 됩니다 하 고 아무 작업도 이후 적용 되 백신 스푸핑 꺼져 스푸핑 사용자 가장 (8) 보다 더 높은 우선순위 (4)에서 실행 되 고 있습니다.
   

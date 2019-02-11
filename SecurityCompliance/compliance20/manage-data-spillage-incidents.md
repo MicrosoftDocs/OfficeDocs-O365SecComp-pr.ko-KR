@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에서 데이터 액체 엎질렀는지 여부 문제를 관리합니다.
+title: Microsoft 365에서 데이터 액체 엎질렀는지 여부 문제를 관리 합니다.
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Office 365 보안 & 준수 센터의에서 새 데이터 조사 (미리 보기) 도구를 사용 하 여 데이터 액체 엎질렀는지 여부 문제를 관리 하에 대해 설명 합니다.
-ms.openlocfilehash: d863d87cc667b9695f9bf619c35575715dfa144e
-ms.sourcegitcommit: 98ec28932ae20e848f9f489c3c78e4a7edab6d18
+ms.openlocfilehash: d7adc17d01a0ae2ad6b7bfb7052862a5a6419882
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29636634"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706179"
 ---
-# <a name="managing-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 액체 엎질렀는지 여부 문제를 관리합니다. 
+# <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 액체 엎질렀는지 여부 문제를 관리 합니다. 
 
 신뢰할 수 없는 환경에 기밀 문서를 놓을 때 데이터 액체 엎질렀는지 여부 하 게 합니다. 데이터 액체 엎질렀는지 여부 문제를 검색 하는 경우에, 크기 및 위치는 액체 엎질렀는지 여부의 신속 하 게 평가 하 고,와 관련 된 사용자 활동을 검사 하 고, 다음 시스템에서 spilled 데이터를 영구적으로 제거 하는 것이 중요 합니다.
 
@@ -111,8 +111,8 @@ ms.locfileid: "29636634"
 
 문서를 그룹화 하 고 검토를 위해 더 많은 도움을 받을 하려면 **관리 인시던트**를 클릭 합니다. **분석** 타일에서 **분석**을 클릭 합니다. 중복 검색, 스레딩, 전자 메일 및 테마 분석와 같은 고급 분석을 실행 됩니다. 자세한 내용은 다음을 참조 합니다.
 
-- [중복 검색 근처](near-duplicates.md)
-- [전자 메일 스레딩](email-threading.md)
+- [중복에 가까운 검색](near-duplicates.md)
+- [전자 메일 스레드](email-threading.md)
 - [테마](themes.md)
 
 데이터 액체 엎질렀는지 여부에 관련 된 사용자를 확인 하려면 사고에서 새 쿼리를 만들 수 있으며 보낸사람/작성자 및 받는 사람 조건을 사용 하 여 다음 키를 누릅니다. 이렇게 하면 모든 보낸사람, 받는 사람 및 사고에 추가 된 수집 된 데이터에 있는 작성자 목록이 만들어집니다. 목록에 외부 사용자는 모두 있는지 확인 하려면 목록을 검토 해야 합니다. 자세한 내용은 [검색 조건](../keyword-queries-and-search-conditions.md#search-conditions)을 참조 하십시오.
@@ -130,7 +130,7 @@ ms.locfileid: "29636634"
 
 ### <a name="deleting-site-items"></a>사이트 항목 삭제
 
-비즈니스 계정에 대 한 OneDrive 또는 SharePoint 사이트에서 문서를 영구적으로 삭제를 삭제 해야 하 고 사이트에서 삭제 한 다음 사이트 모음 휴지통에서에서 삭제 해야 합니다. 자세한 내용은 [SharePoint와 OneDrive에서 삭제 문서](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#deleting-documents-in-sharepoint-online-and-onedrive-for-business)를 참조 하십시오.
+비즈니스 계정에 대 한 OneDrive 또는 SharePoint 사이트에서 문서를 영구적으로 삭제를 삭제 해야 하 고 사이트에서 삭제 한 다음 사이트 모음 휴지통에서에서 삭제 해야 합니다. 자세한 내용은 [SharePoint와 OneDrive에서 문서를 삭제](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#deleting-documents-in-sharepoint-online-and-onedrive-for-business)합니다.
 
 또는 넘어가 데이터를 포함 수 있는 전체 사이트 모음을 삭제할 수 있습니다. 자세한 내용은 [사이트 모음을 삭제](https://docs.microsoft.com/sharepoint/delete-site-collection)합니다.
 
@@ -141,6 +141,7 @@ ms.locfileid: "29636634"
 조사를 삭제 하는 방법:
 
 1. **설정** 탭에서 **조사 정보**를 클릭 합니다.
+
 2. **대/소문자를 삭제**를 클릭 합니다. 
 
 조사를 삭제할 필요가 없습니다 조사 중에 수집 된 정보를 저장 하려는 경우 **사례 닫기**을 클릭 합니다. 나중에 닫힌된 조사를 다시 열 수 있습니다.

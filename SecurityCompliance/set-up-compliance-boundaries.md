@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 규정 준수 경계를 사용 하 여 eDiscovery 관리자를 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에서 논리적 경계를 만들 수 있습니다. 준수 경계 어떤 사서함, SharePoint 사이트를 제어 하 (도 요건 보안 필터)을 필터링 하는 검색 사용 권한을 사용 하 고 OneDrive 계정을 특정 사용자가 검색할 수 있습니다.
-ms.openlocfilehash: 2bebd29fa7701ba07aae7170142263aeaec5569e
-ms.sourcegitcommit: c7264f3a6a97f1ff544544e2c722e7825e265fa1
+ms.openlocfilehash: 23594673e70be4b960c463ae2344c2f4b0fd0cbe
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26299242"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29768019"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -54,9 +54,7 @@ ms.locfileid: "26299242"
   
 규정 준수 경계에 사용할 수 있는 Azure Active Directory 사용자 특성의 목록은 다음과 같습니다.
   
-- 회사
-    
-- CountryCode
+- Company
     
 - CustomAttribute1-CustomAttribute15
     
@@ -123,7 +121,7 @@ New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -
     
   -  `Site`-OneDrive 계정에 정의 된 역할 그룹에 지정 된 `Users` 매개 변수를 검색할 수 있습니다. OneDrive 필터에 대 한 실제 문자열을 사용 하 여 `ComplianceAttribute`; 1 단계에서에서 확인 되는 2 단계;에서 제출 된 지원 요청으로 인해 OneDrive 계정에 동기화 되는 동일한 특성에 매핑할 것이  *특성 값* 배출량 감소를 지정합니다. 이 필터에만 특정 기관;의 OneDrive 계정을 검색 하려면 역할 그룹의 구성원 수 있도록 허용 예, `"Site_ComplianceAttribute -eq 'FourthCoffee'"`합니다.
     
-  -  `Site_Path`--역할 그룹에 정의 하는 SharePoint 사이트를 지정 하는 중의 `Users` 매개 변수를 검색할 수 있습니다. *SharePointURL* 역할 그룹의 멤버를 검색할 수 있는 기관에서 사이트를 지정 합니다. 예를 들어`Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
+  -  `Site_Path`--역할 그룹에 정의 하는 SharePoint 사이트를 지정 하는 중의 `Users` 매개 변수를 검색할 수 있습니다. *SharePointURL* 역할 그룹의 멤버를 검색할 수 있는 기관에서 사이트를 지정 합니다. 예를 들어`"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
     
 -  `Action`-필터에 적용 되는 규정 준수 검색 동작의 유형을 지정 합니다. 예 `-Action Search` 역할 그룹의 구성원에 정의 된 경우에 필터를 적용 것은 `Users` 매개 변수는 콘텐츠 검색을 실행 합니다. 이 경우 검색 결과 내보낼 때에 필터가 적용 하지 않습니다. 규정 준수 경계를 사용 하 여 `-Action All` 하므로 모든 검색 작업에 필터가 적용 됩니다. 
     
@@ -207,7 +205,7 @@ EDiscovery 사례 및 규정 준수 경계에 대 한 조사를 사용 하는 �
 |KOR  <br/> |조직의 기본 데이터 센터  <br/> |
 |GBR  <br/> |유럽  <br/> |
 |JPN  <br/> |아시아 태평양  <br/> |
-|찾기  <br/> |아시아 태평양  <br/> |
+|IND  <br/> |아시아 태평양  <br/> |
 |LAM  <br/> |US  <br/> |
    
  **참고:** 검색 사용 권한 필터에 대 한 Region 매개 변수를 지정 하지 않으면 조직 기본 SharePoint 지역은 검색할 한 다음 검색 결과 가장 가까운 데이터 센터에 내보내집니다. 
@@ -238,7 +236,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
  
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
  **사용자 만들고 관리할 수 있습니다 (New ComplianceSecurityFilter 및 집합 ComplianceSecurityFilter cmdlet을 사용 하 여) 검색 권한 필터?**
   

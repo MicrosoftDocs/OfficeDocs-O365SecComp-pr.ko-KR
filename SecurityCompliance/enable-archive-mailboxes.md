@@ -3,7 +3,7 @@ title: Office 365 보안에서 보관 사서함 사용 &amp; 준수 센터
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365 보안을 사용 하 여 &amp; 준수 센터 조직의 메시지 보존, eDiscovery, 지원 및 유지 요구 사항에 대 한 보관 사서함을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 5ba578ba611f619194ac4f475121bd485b75f9e0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 1c290cf19b396221dac702efd1395911e8a51631
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533589"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28327100"
 ---
 # <a name="enable-archive-mailboxes-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안에서 보관 사서함 사용 &amp; 준수 센터
   
@@ -36,9 +36,9 @@ ms.locfileid: "22533589"
   
 ## <a name="enable-an-archive-mailbox"></a>보관 사서함 사용
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안의 왼쪽된 창에서 &amp; 준수 센터 **데이터 거 버 넌 스** 를 클릭 \> **보관**합니다.
     
@@ -67,9 +67,9 @@ ms.locfileid: "22533589"
   
 보관 사서함을 사용 하지 않도록 설정 합니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com)합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 작업이 나 교육용 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
 3. 보안의 왼쪽된 창에서 &amp; 준수 센터 **데이터 거 버 넌 스** 를 클릭 \> **보관**합니다.
     
@@ -88,6 +88,42 @@ ms.locfileid: "22533589"
 > [!TIP]
 > Shift 또는 Ctrl 키를 사용해 보관 사서함이 사용하도록 설정된 여러 사용자를 선택하여 보관 사서함을 사용하지 않도록 일괄 설정할 수도 있습니다. 여러 사서함을 선택한 후 세부 정보 창에서 **사용 안 함**을 클릭합니다.  
   
+## <a name="use-exchange-online-powershell-to-enable-or-disable-archive-mailboxes"></a>Exchange Online PowerShell을 사용 하 여 보관 사서함을 사용 하지 않도록 설정 하거나 사용
+
+보관 사서함을 사용 하도록 설정 하려면 Exchange Online PowerShell를 사용할 수도 있습니다. PowerShell을 사용 하는 주된 이유는 조직에서 모든 사용자에 대 한 보관 사서함을 빠르게 설정할 수 있습니다.
+
+첫번째 단계에서는 Exchange Online PowerShell에 연결 하는 것입니다. 자세한 내용은 [Connect to Exchange Online PowerShell를](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)참조 하십시오.
+
+Exchange Online에 연결 된 후 사용 하도록 설정 하거나 보관 사서함을 사용 하지 않도록 설정 하려면 다음 섹션에서 명령을 실행할 수 있습니다.
+
+### <a name="enable-archive-mailboxes"></a>보관 사서함 사용
+
+단일 사용자에 대 한 보관 사서함을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.
+    
+  ```
+  Enable-Mailbox -Identity <username> -Archive
+  ```
+
+(보관 사서함을 현재 사용할 수 없습니다) 조직에서 모든 사용자에 대 한 보관 사서함을 사용 하도록 설정 하려면 다음 명령을 실행 합니다.
+    
+  ```
+  Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
+  ```
+  
+### <a name="disable-archive-mailboxes"></a>보관 사서함을 사용하지 않도록 설정
+
+단일 사용자에 대 한 보관 사서함을 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
+    
+  ```
+  Disable-Mailbox -Identity <username> -Archive
+  ```
+
+(보관 사서함 사용 중인) 조직에서 모든 사용자에 대 한 보관 사서함을 사용 하지 않도록 설정 하려면 다음 명령을 실행 합니다.
+    
+  ```
+  Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
+  ```
+
 ## <a name="more-information"></a>추가 정보
   
 - 보관 사서함 사용자와 함께 조직의 보존, eDiscovery를 충족 하기 위해 도움말과 요구를 유지 합니다. 예, 사용자의 보관 사서함으로 사서함 콘텐츠를 이동 하려면 조직의 Exchange 보존 정책을 사용할 수 있습니다. 보안에서 콘텐츠 검색 도구를 사용 하면 &amp; 특정 콘텐츠를 사용자의 보관 사서함에 대 한 사용자의 사서함을 검색 하려면 준수 센터는 검색할 수도 있습니다. 및 보관 사서함에 있는 항목의 보존도 소송 보존를 배치 하거나 사용자의 사서함에 Office 365 보존 정책을 적용 합니다.
@@ -102,7 +138,6 @@ ms.locfileid: "22533589"
     
 - 보관 사서함 및 Exchange 보존 정책에 대 한 자세한 내용은 다음을 참조 합니다.
   
-  - 자세한 내용은 다음 항목을 참조하십시오.
     
   - [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?LinkId=404424)
     

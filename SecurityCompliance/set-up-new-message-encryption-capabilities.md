@@ -3,7 +3,6 @@ title: 새로운 Office 365 메시지 암호화 기능 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 5/19/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,17 +11,22 @@ search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
 description: 새로운 Office 365 메시지 암호화 Azure 정보 보호 조직의 위쪽에 구축 된 기능을 사용 하 여 수 내부 테두리와 조직 외부의 사용자와 전자 메일 통신을 보호 합니다. 다른 Office 365, Outlook.com, Gmail, 조직과 다른 전자 메일 서비스를 사용 하는 새 OME 기능입니다.
-ms.openlocfilehash: 0f601b425da294fbb2ddbfe1d7497c0d582e3238
-ms.sourcegitcommit: bd1762ccf63c7d2ad8b49a936115171c72fb2c0f
+ms.openlocfilehash: a30054bf7b03a3e4fadf9a0e34537c682c10e217
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27750037"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29696252"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
 Azure 정보 보호의 보호 기능을 활용 하는 새로운 Office 365 메시지 암호화 (OME) 기능을 사용 하면 조직 모든 장치에서 모든 사람과 보호 된 전자 메일을 쉽게 공유할 수 있습니다. 사용자가 보내고 Outlook.com, Gmail, 및 기타 전자 메일 서비스를 사용 하 여 Office 365가 아닌 고객은 물론 다른 Office 365 조직으로 보호 된 메시지를 받을 수 있습니다.
-  
+
+||
+|:-----|
+|이 문서는 Office 365 메시지 암호화에 대 한 문서를 더 큰 시리즈의 일부입니다. 이 문서는 관리자 및 ITPros 위한 것입니다. 방금 경우 보내거나 암호화 된 메시지를 받는 방법에 대 한 정보에 대 한 자세한 내용은 [Office 365 메시지 암호화 OME ()](ome.md) 의 문서 목록을 참조 하 고 요구 사항에 가장 적합 한 문서를 찾습니다. |
+||
+
 ## <a name="get-started-with-ome-by-activating-azure-rights-management-part-of-azure-information-protection"></a>Azure 권한 관리, Azure 정보 보호의 일부를 활성화 하 여 OME 시작 하기
 
 이제 새 OME 기능을 사용 하는 것이 쉽습니다. 2 월 2018를 기준으로 자동으로 Office 365에는 데이터 센터 내에서 사용할 수 있는 조직에 대 한 새 OME 기능 수 있습니다. 새 Office 365 테 넌 트 이며 조직에 적합 한 구독 하는 경우 조직 대상이있지 않습니다. **하는 경우 Azure 권한 관리 (Azure RMS) 부분에서는 Azure 정보 보호를 사용 하도록 설정한 다음 Office 365 메시지 암호화 하면 자동으로 활성화 했습니다.** OME를 사용 하도록 설정 하려면 다른 작업을 수행할 필요가 없습니다. Azure 권한 관리를 활성화 하려면 [Azure 권한 관리 활성화](https://docs.microsoft.com/azure/information-protection/deploy-use/activate-service)를 참조 하십시오. 구독에 대 한 정보를 "어떤 구독 해야하는 새 OME capabilities?를 사용 하 여" [Office 365 메시지 암호화 FAQ](ome-faq.md)에서 참조 하십시오. Azure 정보 보호에 대 한 구독 구입 하는 방법에 대 한 정보를 [Azure 정보 보호](https://azure.microsoft.com/services/information-protection/)를 참조 하십시오.
@@ -36,10 +40,12 @@ Exchange Online Active Directory Rights Management 서비스 (AD RMS)를 사용�
 새로운 Office 365 메시지 암호화 기능 Azure 정보 보호에서 Azure 권한 관리 (Azure RMS)이 라고도 하는 보호 기능을 사용 합니다. 이 전자 메일을 보호 하는 암호화, id 및 권한 부여 정책을 포함 됩니다. 권한 관리 템플릿, [전달 하지 않음 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)및 [암호화 전용 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)을 사용 하 여 메시지를 암호화할 수 있습니다. 사용자가 이러한 옵션을 사용 하 여 전자 메일 메시지와 다양 한 Office 365 첨부 파일에 암호화할 수 있습니다. 지원 되는 첨부 파일 형식 목록은 전체 [전자 메일 메시지에 대 한 IRM 사용 소개 "IRM 정책 메시지에 첨부 하는 경우에 파일 형식 포함"을](https://support.office.com/article/bb643d33-4a3f-4ac7-9770-fd50d95f58dc#FileTypesforIRM)참조 하십시오. 관리자로 서이 보호 기능을 적용 하는 메일 흐름 규칙을 정의할 수 있습니다. 예, 여기에서 특정 받는 사람에 게 해결 되는 또는 제목에 특정 단어가 포함 된 모든 보호 되지 않은 메시지 무단된 액세스 로부터 보호 되 고 받는 사람 복사 하거나 메시지의 내용을 인쇄할 수 없습니다는 규칙을 정의할 수 있습니다.
   
 OME은 이전 버전과 달리 이러한 새로운 기능은 조직 내부 또는 외부 Office 365의 받는 사람에 게 메일을 보낼 때 여부 통합된 발신자 경험을 제공 합니다. 또한 Outlook 2016 또는 웹에서 Outlook에서 Office 365 계정에 게 보낸 보호 된 전자 메일 메시지를 받을 사람의 메시지를 볼 수 있는 추가 조치를 취할 필요가 없습니다. 원활 하 게 작동합니다. 다른 전자 메일 클라이언트 및 전자 메일 서비스 공급자를도 사용 하 여 받는 사람에 게 향상된 된 환경을 포함 합니다. 내용은 [Office 365의 보호 된 메시지에 대 한 자세한 내용](https://support.office.com/article/Learn-about-protected-messages-in-Office-365-2baf3ac7-12db-40a4-8af7-1852204b4b67) 및 [보호 된 메시지를 열려면 어떻게](https://support.office.com/article/How-do-I-open-a-protected-message-1157a286-8ecc-4b1e-ac43-2a608fbf3098)를 참조 하십시오.
+
+OME의 이전 버전과 새 OME 기능 간의 차이점 목록이 자세한 [OME의 버전을 비교](ome-version-comparison.md)를 참조 하십시오.
   
 ## <a name="steps-to-manually-set-up-the-new-capabilities-for-ome"></a>수동으로 OME에 대 한 새로운 기능을 설정 하는 단계
 
-조직 자동으로 없는 OME이 옵션을 설정 또는 해제 OME를 설정 하는 경우에 수동으로 OME에 대 한 새로운 기능을 설정 하려면 다음이 단계를 수행 합니다.
+새 OME 기능 대부분의 Office 365 조직에 대해 자동으로 활성화 됩니다. 조직 자동으로 없는 OME이 옵션을 설정 또는 해제 새 OME 기능을 설정 하는 경우에 수동으로 OME에 대 한 새로운 기능을 설정 하려면 다음이 단계를 수행 합니다.
   
 ### <a name="to-manually-set-up-the-new-capabilities-for-ome"></a>OME에 대 한 새로운 기능을 수동으로 설정 하려면
 
@@ -62,16 +68,19 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
 
 2. 다음 구문을 사용 하 여 Test-irmconfiguration cmdlet을 실행 합니다.
 
-    ```Test-IRMConfiguration [-Sender <email address >]```  
+     ```powershell
+     Test-IRMConfiguration [-Sender <email address >]
+     ```  
 
    예를 들면 다음과 같습니다.
 
-    ```Test-IRMConfiguration -Sender securityadmin@contoso.com```
+     ```powershell
+     Test-IRMConfiguration -Sender securityadmin@contoso.com
+     ```
 
     여기서 전자 메일 주소는 Office 365 조직에 있는 사용자의 전자 메일 주소입니다. 옵션, 제공 하는 동안 보낸 전자 메일 주소를 추가 검사를 수행 하려면 시스템을 강제 합니다. 결과 다음과 같은 같아야 합니다.
 
-    
-    ```
+     ```text
     Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not 
             Forward.
@@ -81,11 +90,11 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
                 - PASS: Decryption verified successfully.
             Verifying IRM is enabled ...
                 - PASS: IRM verified successfully.
-            
+
             OVERALL RESULT: PASS
     ```
 
-    여기서 *Contoso* 는 Office 365 조직 이름으로 대체 됩니다. 
+    여기서 *Contoso* 는 Office 365 조직 이름으로 대체 됩니다.
 
     결과에 반환 하는 기본 서식 파일의 이름은 위의 결과에 표시 된 것과 다른 수 있습니다.
 
@@ -93,10 +102,11 @@ Exchange Online PowerShell을 통해 OME에 대 한 새로운 기능을 사용 �
 
 3. 권한 관리 서비스에서 연결을 끊으려면 Remove-pssession cmdlet을 실행 합니다.
     
-    ```Remove-PSSession $session```
+     ```powershell
+     Remove-PSSession $session
+     ```
 
 ## <a name="next-steps-define-new-mail-flow-rules-that-use-the-new-ome-capabilities"></a>다음 단계: 새 OME 기능을 사용 하는 새 메일 흐름 규칙 정의
-<a name="Rules_1"> </a>
 
 그러나이 단계는 새 OME 배포에 대 한 선택적,이 단계는 메일 흐름 설정 된 규칙 최대 보내는 메일 암호화에 이미 있는 기존 OME 배포에 필요 합니다. 새 OME 기능을 활용 하려는 경우 기존 메일 흐름 규칙을 업데이트 해야 합니다. 그렇지 않은 경우 사용자에 게 새, 원활 하 게 OME 경험 하는 대신 이전 HTML 첨부 파일 형식을 사용 하는 암호화 된 메일을 받도록 계속 됩니다.
   

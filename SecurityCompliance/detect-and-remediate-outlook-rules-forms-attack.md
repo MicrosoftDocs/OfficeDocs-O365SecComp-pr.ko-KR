@@ -13,15 +13,13 @@ ms.service: o365-solutions
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.custom: ''
-ms.assetid: ''
 description: 인식 하 고 Outlook 규칙 및 Office 365에서 사용자 지정 양식 주입 공격을 수정 하는 방법을 설명 합니다.
-ms.openlocfilehash: 893ade67976d7e6d1442a23f1f61948cea591dad
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 1067d7c791217c146fedea839754e45f76ef5d8e
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533174"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603759"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -89,7 +87,7 @@ ms.locfileid: "22533174"
 ### <a name="steps-to-confirm-the-rules-and-forms-attack-using-powershell"></a>PowerShell을 사용 하 여 규칙 및 양식 공격을 확인 하는 단계
 규칙을 확인 하는 가장 간단한 방법은 또는 사용자 지정 양식 공격 [Get AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell 스크립트를 실행 하는 것입니다.  이 스크립트 모든 규칙으로 덤프 및 양식을 두.csv 파일에 테 넌 트의 모든 사서함에 연결 합니다.
 
-#### <a name="pre-requisites"></a>필수 구성 요소
+#### <a name="pre-requisites"></a>필수 조건
 규칙 및 양식 읽을 수 테 넌 시의 모든 사서함에 연결 하는 스크립트 때문에 스크립트를 실행 하려면 전역 관리자 권한을 가지도록 해야 합니다.
 
 1. 로컬 관리자 권한을 가진에서 스크립트를 실행할 컴퓨터에 로그인 합니다.

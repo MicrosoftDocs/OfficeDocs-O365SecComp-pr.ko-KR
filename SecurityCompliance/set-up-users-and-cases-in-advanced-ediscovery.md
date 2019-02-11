@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: '사용자 역할 구성의 경우 만들고 Office 365 고급 ediscovery에서 사례에 사용자를 할당 하는 방법에 알아봅니다.  '
-ms.openlocfilehash: 49f76b415d86035cecafc19c23b36c413f7576e5
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 4c0043b7651cc82272492e19faf01041c6f67932
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533755"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29559061"
 ---
 # <a name="set-up-users-and-cases-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사용자 및 사례 설정
 
 이 항목에서는 사용자와 Office 365 고급 ediscovery 사례를 설정 하는 방법에 설명 합니다.
   
 > [!NOTE]
-> 고급 eDiscovery 조직에 대 한 고급 준수 추가 기능 또는 e 5 구독은 Office 365 E3 필요합니다. 해당 요금제에 가입한 상태 고급 eDiscovery 시도 하려는 하지 경우에 [Office 365 Enterprise e 5의 평가판 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -61,7 +61,5 @@ EDiscovery 사례를 만들고 구성원을 추가 하는 후 사용자 (또는 
 
 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
   
-[데이터를 준비 하는 중](prepare-data-for-advanced-ediscovery.md)
-  
-[사용자 역할 및 액세스](user-roles-and-access-in-advanced-ediscovery.md)
-
+[데이터 준비](prepare-data-for-advanced-ediscovery.md)
+ 

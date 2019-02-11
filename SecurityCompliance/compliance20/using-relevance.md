@@ -1,5 +1,5 @@
 ---
-title: 관련성 모듈을 사용 하 여 고급 eDiscovery (미리 보기)에서 데이터 분석
+title: 관련성 모듈을 사용 하 여 고급 eDiscovery (미리 보기)에서 데이터를 분석 합니다.
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 5e30a7f6919f50d2d73606fae3b53f21ef33e223
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 56e83a1f8a951fd6e14172122a5e86447c6f2ccf
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608113"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695174"
 ---
-# <a name="using-the-relevance-module-to-analyze-data-in-advanced-ediscovery-preview"></a>관련성 모듈을 사용 하 여 고급 eDiscovery (미리 보기)에서 데이터 분석
+# <a name="use-the-relevance-module-to-analyze-data-in-advanced-ediscovery-preview"></a>관련성 모듈을 사용 하 여 고급 eDiscovery (미리 보기)에서 데이터를 분석 합니다.
 
 고급 eDiscovery (미리 보기), 관련성 모듈 관련성 교육 및 사례와 관련 된 파일의 검토를 포함 합니다. 관련성 워크플로 표시 된 이며 설명은 다음과 같습니다.
   

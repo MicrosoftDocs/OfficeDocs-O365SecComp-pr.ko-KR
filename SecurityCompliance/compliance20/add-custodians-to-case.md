@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d9a7dc6b1c2eeffdcd49be64d1d09d4a2bda782b
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 88d2e64f4e1fb519955d8970b34e9670fb18d3f8
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608147"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706109"
 ---
-# <a name="add-custodians-to-an-advanced-ediscovery-preview-case"></a>고급 eDiscovery (미리 보기)에 custodians 추가 대/소문자
+# <a name="add-custodians-to-an-advanced-ediscovery-preview-case"></a>Custodians (미리 보기) 고급 eDiscovery 사례에 추가
 
 고급 eDiscovery (미리 보기)를 사용 하 여을 중심으로 custodians를 관리 하 고 사례 내 관련, custodial 데이터 원본을 식별 하 여 워크플로 조정 하는 기본 제공 더불어 관리 도구를 활용할 수 있습니다. 프로그램 관리자를 추가 하면 자동으로 식별 하 고 시스템 수, 전체를 포함 하 고 기본 Exchange 사서함 및 OneDrive에 비즈니스 사이트에 대 한 합니다. 사용자 검색을 수행 하는 대로 당기기 수 및 추가 사서함 또는 사이트는 한 더불어 액세스 과거 또는 팀에는 더불어 오늘날의 구성원 인지 해야 합니다.
 

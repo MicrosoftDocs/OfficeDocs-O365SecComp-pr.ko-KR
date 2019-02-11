@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery (미리 보기)의 통신 사용 (영문)
+title: 고급 eDiscovery (미리 보기)의 통신 사용
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b27d6cca0382b18123cae4106f77ce0dcdf5e525
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 962bd13f66ec8fe4f3385656f1241dd5fb5c4dcf
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608181"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695044"
 ---
-# <a name="working-with-communications-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 통신 사용 (영문)
+# <a name="work-with-communications-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 통신 사용
 
 고급 eDiscovery (미리 보기) 추적 및 법적 보유 알림 배포를 중심으로 한 프로세스를 단순화 하기 위해 법률 부서 수 있습니다. 더불어 통신 기능을 사용 하면 법률 부서를 관리 하 고 알림, 미리 알림, 고 한곳에서 모든 에스컬레이션-에서 조직의 전체 법적 보유 프로세스-를 자동화 합니다.
 

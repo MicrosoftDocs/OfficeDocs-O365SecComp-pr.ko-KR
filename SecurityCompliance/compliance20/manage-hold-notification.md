@@ -1,5 +1,5 @@
 ---
-title: 통신 관리
+title: 보류 알림 관리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7189680f1ec022ae76e8003c7e6660a8da7c5906
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 38db73000e84db0bbdcac7710ef71431666a5494
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608203"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706049"
 ---
-# <a name="manage-communications"></a>통신 관리
+# <a name="manage-hold-notifications"></a>보류 알림 관리
 
 초기화 한 후에 프로그램 법적 보유 알림 워크플로, 고급 eDiscovery (미리 보기) 통신의 상태를 추적을 활용할 수 있습니다. 통신 탭의 고급 eDiscovery (미리 보기) 사례 내에서 보류 알림 모두 보여줍니다. 여기에 할당 된 하거나, 알림을 승인가 custodians의 수와 같은 세부 정보를 볼 수 있습니다.
 
@@ -71,6 +71,8 @@ ms.locfileid: "29608203"
 
 ## <a name="related-information"></a>관련 정보 
 
-    - [법적 보유 알림 만들기] (~ SecurityCompliance\compliance20\create-hold-notification.md)
-    - [법적 보유 알림을 승인할] (~/acknowledge-hold-notification.md)
-    - [사례에 Custodians 추가 (영문)]
+- [법적 보유 알림 만들기](create-hold-notification.md)
+    
+- [보류 알림 승인](acknowledge-hold-notification.md)
+    
+- [보유자를 사례에 추가](add-custodians-to-case.md)

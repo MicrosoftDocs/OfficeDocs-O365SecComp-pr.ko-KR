@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자를 위한: 해당 사서함이 법적 보유 중일 경우에 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이것이 Office 365에 실수로 넘어가 되는 데이터를 삭제할 수 있는 효과적인 방법입니다.'
-ms.openlocfilehash: a10965ad088da98b4e4d84d823c124e5b192d505
-ms.sourcegitcommit: b164d4af65709133e0b512a4327a70fae13a974d
+ms.openlocfilehash: e80f5182bc425d71c6219decd48d41cf3dce6bba
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25577087"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28009644"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>관리자 도움말 대기-클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제
 
@@ -221,7 +221,7 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
-사서함이에 식별 한 후 보존 레이블 폴더 또는 항목에 적용 되, 콘텐츠 검색 도구를 사용 하 여 보안에서 수 및 ComplianceTag 검색 조건을 사용 하 여 레이블이 지정 된 항목을 찾으려고 준수 센터 때문에 보관 합니다. 자세한 내용은 [키워드 쿼리 및 콘텐츠 검색을 위한 검색 조건에서](keyword-queries-and-search-conditions.md#conditions-for-common-properties)"검색 조건" 섹션을 참조 하십시오.
+보존 레이블 폴더 또는 항목에 적용 되기 때문에 사서함 대기 인지 결정 했다면, 후에 ComplianceTag 검색 조건을 사용 하 여 레이블이 지정 된 항목을 검색 하려면 보안 & 준수 센터의에서 콘텐츠 검색 도구를 사용할 수 있습니다. 자세한 내용은 [키워드 쿼리 및 콘텐츠 검색을 위한 검색 조건에서](keyword-queries-and-search-conditions.md#conditions-for-common-properties)"검색 조건" 섹션을 참조 하십시오.
 
 레이블에 대 한 자세한 내용은 [Office 365 개요 레이블](labels.md)을 참조 하십시오.
 
@@ -272,7 +272,7 @@ Set-Mailbox <username> -RemoveDelayHoldApplied
     
 - 대상 사서함으로 복사 하지 않고 항목을 삭제 합니다. 
     
-사용자의 기본 보관 사서함의 복구 가능한 항목 폴더에서 항목을 참고 실행 하는 경우에 삭제 됩니다는 * * 검색 사서함 * * cmdlet입니다. 이 방지 하려면 *DoNotIncludeArchive* 스위치를 포함할 수 있습니다. 앞서 설명한 것 처럼 자동 확장 보관 하는 경우 사용할 수는 사서함에 대해는 * * 검색 사서함 * * cmdlet을 보조 보관 사서함의 항목을 삭제 하지 않습니다. 자동 확장 하는 방법에 대 한 자세한 내용은 보관, [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 하십시오.
+Note **Search-mailbox** cmdlet을 실행 하는 경우 사용자의 기본 보관 사서함의 복구 가능한 항목 폴더에서 항목 삭제도 됩니다. 이 방지 하려면 *DoNotIncludeArchive* 스위치를 포함할 수 있습니다. 앞서 설명한 것 처럼 자동 확장 보관 하는 경우 사용할 수는 사서함에 대해는 * * 검색 사서함 * * cmdlet을 보조 보관 사서함의 항목을 삭제 하지 않습니다. 자동 확장 하는 방법에 대 한 자세한 내용은 보관, [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 하십시오.
   
 > [!NOTE]
 > ( *SearchQuery* 매개 변수를 사용 하 여) 하 여 검색 쿼리를 포함 하는 경우 **검색 사서함** cmdlet은 검색 결과에 최대 10, 000 항목을 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우에 10, 000 개 이상의 항목을 삭제 하려면 **사서함 검색** 명령을 여러 번 실행 해야할 수 있습니다. 
@@ -431,9 +431,9 @@ Exchange Online PowerShell에서 (지정된 된 시퀀스)에서 다음 단계�
 |**종류를 유지 합니다.**|**예제 값**|**보류를 식별 하는 방법**|
 |:-----|:-----|:-----|
 |소송 보존  <br/> | `True` <br/> |*LitigationHoldEnabled* 속성이로 설정 된 `True`합니다.  <br/> |
-|원본 위치 유지  <br/> | `c0ba3ce811b6432a8751430937152491` <br/> |*InPlaceHolds* 속성의 사서함에 배치 되는 원본 위치 유지의 GUID를 포함 합니다. 이 In-place Hold GUID를 접두사로 시작 되지 않으면 때문에 알 수 있습니다.<br/> 사용할 수는 ' Get-mailboxsearch InPlaceHoldIdentity<hold GUID> | FL' 사서함에서 원본 위치 유지 하는 방법에 대 한 정보를 얻을 수 있는 Exchange Online PowerShell에서 명령 합니다.  <br/> |
-| 보안에서 office 365 보존 정책을 &amp; 준수 센터 특정 사서함에 적용  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> 또는  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |**Get-mailbox** cmdlet을 실행 하는 경우 *InPlaceHolds* 속성은 사서함에 적용 된 Office 365의 guid가 보존 정책도 포함 합니다. 으로 시작 하는 GUID 때문에 보존 정책을 식별할 수는 `mbx` 접두사입니다. 보존 정책의 GUID로 시작 하는 경우는 `skp` 비즈니스 대화에 대 한 보존 정책을 Skype에 적용 되는지 나타내는 접두사입니다.<br/> 사서함에 적용 되는 Office 365 identity 보존 정책, 보안에서 다음 명령을 실행 &amp; 준수 센터 PowerShell: <br/> <br/>' Get RetentionCompliancePolicy<retention policy GUID without prefix> | FL 이름`<br/><br/>Be sure to remove the  `mbx` or  `skp'이 명령을 실행 하면 접두사입니다.  <br/> |
-|보안에서 조직 전체의 Office 365 보존 정책 &amp; 준수 센터  <br/> |값 없음  <br/> 또는  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696`(사서함은 조직 수준의 정책에서 제외를 나타냄)  <br/> |*InPlaceHolds* 속성이 비어 있는 **Get-mailbox** cmdlet을 실행 하는 경우, 하는 경우에 여전히 있을 수 있습니다 하나 이상의 조직 전체의 Office 365 보존 정책 사서함에 적용 합니다.  <br/> 이 확인 하려면 실행할 수 있습니다는 ' Get-organizationconfig | FL InPlaceHolds` command in Exchange Online PowerShell to get a list of the GUIDs for organization-wide Office 365 retention policies. The GUID for organization-wide retention policies applied to Exchange mailboxes start with the  `mbx` prefix; for example  `mbxa3056bb15562480fadb46ce523ff7b02`.  <br/> To identity the organization-wide Office 365 retention policy that's applied to the mailbox, run the following command in Security &amp; Compliance Center PowerShell: <br/><br/> `Get RetentionCompliancePolicy<retention policy GUID without prefix> | FL 이름`<br/><br/>Note that if a mailbox is excluded from an organization-wide Office 365 retention policy, the GUID for the retention policy is displayed in the  *InPlaceHolds*  property of the user's mailbox when you run the **Get-Mailbox** cmdlet; it's identified by the prefix  `-mbx`; for example,  `-mbxe9b52bf7ab3b46a286308ecb29624696' <br/> |
-|eDiscovery 사례 유지 (영문) 보안 &amp; 준수 센터  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |*InPlaceHolds* 속성은 또한 보안에서 eDiscovery 사례와 관련 된 모든 보류의 GUID가 포함 &amp; 준수 센터의 사서함에 배치 될 수입니다. 이런 현상이 발생 eDiscovery 사례 보류도 시작 하는 GUID를 알 수는 `UniH` 접두사입니다.<br/> 사용할 수 있습니다는 `Get-CaseHoldPolicy` 보안에서 cmdlet &amp; 준수 센터 PowerShell 보류의 사서함에 연결 된 eDiscovery 사례에 대 한 정보를 얻을 수 있습니다. 명령을 실행할 수 등 ' Get CaseHoldPolicy<hold GUID without prefix> | FL 이름` to display the name of the case hold that's on the mailbox. Be sure to remove the  `UniH` prefix when you run this command.  <br/><br/> To identity the eDiscovery case that the hold on the mailbox is associated with, run the following commands:<br/><br/>`$CaseHold Get CaseHoldPolicy = <hold GUID without prefix> `<br/><br/>`Get ComplianceCase $CaseHold.CaseId | FL 이름 '
+|원본 위치 유지  <br/> | `c0ba3ce811b6432a8751430937152491` <br/> |*InPlaceHolds* 속성의 사서함에 배치 되는 원본 위치 유지의 GUID를 포함 합니다. 이 In-place Hold GUID를 접두사로 시작 되지 않으면 때문에 알 수 있습니다.<br/> 사용할 수는 `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` 사서함에서 원본 위치 유지 하는 방법에 대 한 정보를 얻을 수 있는 Exchange Online PowerShell에서 명령 합니다.  <br/> |
+| 보안에서 office 365 보존 정책을 &amp; 준수 센터 특정 사서함에 적용  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> 또는  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |**Get-mailbox** cmdlet을 실행 하는 경우 *InPlaceHolds* 속성은 사서함에 적용 된 Office 365의 guid가 보존 정책도 포함 합니다. 으로 시작 하는 GUID 때문에 보존 정책을 식별할 수는 `mbx` 접두사입니다. 보존 정책의 GUID로 시작 하는 경우는 `skp` 비즈니스 대화에 대 한 보존 정책을 Skype에 적용 되는지 나타내는 접두사입니다.<br/> 사서함에 적용 되는 Office 365 identity 보존 정책, 보안에서 다음 명령을 실행 &amp; 준수 센터 PowerShell: <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>제거 해야는 `mbx` 또는 `skp` 이 명령을 실행 하면 접두사입니다.  <br/> |
+|보안에서 조직 전체의 Office 365 보존 정책 &amp; 준수 센터  <br/> |값 없음  <br/> 또는  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696`(사서함은 조직 수준의 정책에서 제외를 나타냄)  <br/> |*InPlaceHolds* 속성이 비어 있는 **Get-mailbox** cmdlet을 실행 하는 경우, 하는 경우에 여전히 있을 수 있습니다 하나 이상의 조직 전체의 Office 365 보존 정책 사서함에 적용 합니다.  <br/> 이 확인 하려면 실행할 수 있습니다는 `Get-OrganizationConfig | FL InPlaceHolds` 조직 전체의 Office 365 보존 정책에 대 한 Guid의 목록을 표시 하려면 Exchange Online PowerShell에서 명령 합니다. 으로 시작 하는 Exchange 사서함에 적용 된 조직 전체의 보존 정책에 대 한 GUID는 `mbx` 접두사를 포함 해야 예 `mbxa3056bb15562480fadb46ce523ff7b02`합니다.<br/> Identity는 사서함에 적용 되는 조직 전체의 Office 365 보존 정책, 보안에서 다음 명령을 실행 &amp; 준수 센터 PowerShell: <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>참고 사서함을 조직 전체의 Office 365 보존 정책에서 제외 하는 경우 보존 정책에 대 한 GUID가 표시 되는지 사용자 사서함의 *InPlaceHolds* 속성에는 **Get-mailbox** cmdlet을 실행 하면 접두사에 의해 식별 된 `-mbx`; 예를 들어`-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
+|eDiscovery 사례 유지 (영문) 보안 &amp; 준수 센터  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |*InPlaceHolds* 속성은 또한 보안에서 eDiscovery 사례와 관련 된 모든 보류의 GUID가 포함 &amp; 준수 센터의 사서함에 배치 될 수입니다. 이런 현상이 발생 eDiscovery 사례 보류도 시작 하는 GUID를 알 수는 `UniH` 접두사입니다.<br/> 사용할 수 있습니다는 `Get-CaseHoldPolicy` 보안에서 cmdlet &amp; 준수 센터 PowerShell 보류의 사서함에 연결 된 eDiscovery 사례에 대 한 정보를 얻을 수 있습니다. 예는 명령을 실행할 수 있습니다 `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 사서함에 있는 경우 보류의 이름을 표시 합니다. 제거 해야는 `UniH` 이 명령을 실행 하면 접두사입니다.<br/><br/> Id와 연결 된 사서함에서 대기 하는 eDiscovery 사례, 다음 명령을 실행 합니다.<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`
 
 

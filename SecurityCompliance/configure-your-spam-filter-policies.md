@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 description: 기본 스팸 필터 설정에는 스팸으로 식별 되는 메시지에 대해 수행할 작업을 선택 하 고 특정 언어로 작성 된 또는 특정 국가 또는 지역에서 보낸 메시지를 필터링 할 것인지 선택이 포함 됩니다.
-ms.openlocfilehash: c425be1814f9f04329f30254763cbbb5bd8b861e
-ms.sourcegitcommit: 204fb0269b5c10b63941055824e863d77e3e9b02
+ms.openlocfilehash: 64b66f53bb56c404acefebd4fa9d211f5458f29f
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27180898"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29614482"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
   
@@ -51,7 +51,7 @@ ms.locfileid: "27180898"
     
       - **메시지 삭제** 모든 첨부 파일을 포함하여 전체 메시지를 삭제합니다. 
         
-      - **메시지 격리** 메시지를 받는 사람에게 보내지 않고 격리로 보냅니다. 이 옵션을 선택하는 경우 **스팸 보존 기간(일)** 입력란에서 스팸 메시지를 격리할 기간을 일 단위로 지정합니다. 해당 기간이 경과하면 메시지는 자동으로 삭제됩니다. 기본값(최대값)은 15일이고 최소값은 1일입니다.<br/><br/>팁: 관리자가 EAC에서 격리에 있는 전자 메일 메시지를 관리 하는 방법에 대 한 정보를 참조 [격리](quarantine.md) 하 고 [관리자 권한으로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md)합니다. > 스팸 알림 메시지를 사용자에 게 보낼 수를 구성 하는 방법에 대 한 정보에 대 한 [구성 최종 사용자 스팸 알림 EOP에서](configure-end-user-spam-notifications-in-eop.md) 또는 [Configure 최종 사용자 스팸 알림 Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md)를 참조 하십시오. 
+      - **메시지 격리** 메시지를 받는 사람에게 보내지 않고 격리로 보냅니다. 이 옵션을 선택하는 경우 **스팸 보존 기간(일)** 입력란에서 스팸 메시지를 격리할 기간을 일 단위로 지정합니다. 해당 기간이 경과하면 메시지는 자동으로 삭제됩니다. 기본값(최대값)은 15일이고 최소값은 1일입니다.<br/><br/>팁: 관리자가 EAC에서 격리에 있는 전자 메일 메시지를 관리 하는 방법에 대 한 정보를 참조 [격리](quarantine.md) 하 고 [관리자 권한으로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md)합니다. gt_ 스팸 알림 메시지를 사용자에 게 보낼 수를 구성 하는 방법에 대 한 정보에 대 한 [구성 최종 사용자 스팸 알림 EOP에서](configure-end-user-spam-notifications-in-eop.md) 또는 [Configure 최종 사용자 스팸 알림 Exchange Online](configure-end-user-spam-notifications-in-exchange-online.md)를 참조 하십시오. 
   
       - **정크 메일 폴더로 메시지 이동** 지정된 받는 사람의 정크 메일 폴더로 메시지를 보냅니다. 두 지수 임계값 모두에 대한 기본 작업입니다.<br/><br/>**중요: Exchange Online Protection (EOP) 고객을 위한: 온-프레미스 사서함을 사용 하도록이 작업에 대 한 순서로 EOP에서 추가 된 스팸 헤더를 검색 하 여 온-프레미스 서버에서 두 Exchange 전송 규칙을 구성 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조 하십시오.**
   
@@ -62,6 +62,8 @@ ms.locfileid: "27180898"
       - 사용자 지정 머리글 텍스트 내에 공백이 포함 하는 경우 또는 콜론 사용자가 직접 추가 하는 경우 (와 같은 "X이 집합은 내 사용자 지정 헤더" 또는 "X-This-is-my-custom-header:"), X-헤더 텍스트도 기본으로 되돌아갑니다 "X-이-은-스팸: 스팸일이 메시지가 표시 됩니다."
     
       - 머리글 텍스트 형식으로 지정할 수 없습니다 \< *헤더*  \>:\<  *값*  \>합니다. 콜론을 무시 되 고 대신에 표시 되는 기본 X-헤더 텍스트 후 값 모두이 수행 하는 경우: "X-이-은-스팸: 스팸일이 메시지가 표시 됩니다." 
+      
+      - 이 X-헤더도 메일을 사서함 정크 메일 구성으로 인해 사서함 정크 메일 폴더로 여전히 이동 될 수에 유의 합니다. Set-mailboxjunkemailconfiguration와이 기능을 해제 하 여이 변경할 수 있습니다.
         
       - **텍스트와 함께 Prepend 제목줄** 의도 한 받는 사람에 게 메시지를 전송 하지만 제목 줄이 **이 텍스트와 함께 제목줄 접두사** 입력된 상자에 지정 하는 텍스트와 함께 앞에 추가 합니다. 이 텍스트를 사용 하 여 식별자로, 필요에 따라 메시지를 라우팅할 또는 필터링 하는 규칙 선택적으로 만들 수 있습니다. 
         
@@ -112,7 +114,7 @@ ms.locfileid: "27180898"
 16. **저장**을 클릭합니다. 정책 설정의 요약이 오른쪽 창에 표시됩니다.
 
 > [!TIP]
->  선택 하거나 사용 하도록 설정 또는 정책에 사용자 지정을 사용 하지 않도록 설정 하려면 **ENABLED** 열에서 확인란의 선택을 취소 합니다. 기본적으로 모든 정책이 사용 됩니다. 기본 정책 사용 하지 않도록 설정할 수 없습니다. > 사용자 지정 정책을 삭제 하려면 정책을 선택, 클릭 하는 ![삭제 아이콘](media/ITPro-EAC-DeleteIcon.gif) **삭제** 아이콘을 입력 한 다음 정책을 삭제 하려면를 확인 합니다. 기본 정책을 삭제할 수 없습니다. > 사용자 지정 정책 항상 우선 기본 정책입니다. 사용자 지정 정책을 만든으로 가장 오래 된 최신에), (에서 순서와 반대로 실행 하지만 클릭 하 여 사용자 지정 정책을 (주문 실행) 우선순위를 변경할 수는 ![화살표 아이콘을](media/ITPro-EAC-UpArrowIcon.gif) 위쪽 화살표 및 ![아래쪽 화살표 아이콘](media/ITPro-EAC-DownArrowIcon.gif) 아래로 화살표입니다. **1**, 다음 **2**, 이와 같은식으로 앞에 오는 **0** 의 **우선순위** 된 정책이 먼저 실행 됩니다. 
+>  선택 하거나 사용 하도록 설정 또는 정책에 사용자 지정을 사용 하지 않도록 설정 하려면 **ENABLED** 열에서 확인란의 선택을 취소 합니다. 기본적으로 모든 정책이 사용 됩니다. 기본 정책 사용 하지 않도록 설정할 수 없습니다. 선택 하 고 사용자 지정 정책을 삭제, 정책, 클릭 gt_는 ![삭제 아이콘](media/ITPro-EAC-DeleteIcon.gif) **삭제** 아이콘을 입력 한 다음 정책을 삭제 하려면를 확인 합니다. 기본 정책을 삭제할 수 없습니다. gt_ 사용자 지정 정책 항상 우선 기본 정책입니다. 사용자 지정 정책을 만든으로 가장 오래 된 최신에), (에서 순서와 반대로 실행 하지만 클릭 하 여 사용자 지정 정책을 (주문 실행) 우선순위를 변경할 수는 ![화살표 아이콘을](media/ITPro-EAC-UpArrowIcon.gif) 위쪽 화살표 및 ![아래쪽 화살표 아이콘](media/ITPro-EAC-DownArrowIcon.gif) 아래로 화살표입니다. **1**, 다음 **2**, 이와 같은식으로 앞에 오는 **0** 의 **우선순위** 된 정책이 먼저 실행 됩니다. 
   
 ## <a name="use-remote-powershell-to-configure-spam-filter-policies"></a>원격 PowerShell을 사용 하 여 스팸 필터 정책을 구성 하려면
 

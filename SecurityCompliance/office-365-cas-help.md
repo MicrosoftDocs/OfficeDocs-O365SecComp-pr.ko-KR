@@ -3,6 +3,7 @@ title: Office 365 클라우드 응용 프로그램 보안 도움말 및 사용 �
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
+ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: ade98409-a15e-4de3-8c06-8e748f5b7e96
 description: 이제 Office 365 클라우드 응용 프로그램 보안 라고 하는 Office 365에서 고급 보안 관리를 위한 도움말 콘텐츠를 찾습니다.
-ms.openlocfilehash: d38b12afe50ac56b3047b24d68c9c00d3bcbf602
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 45f45812251d17a7a58d8c5f6cbd23d27407daf1
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706272"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "27131838"
 ---
 # <a name="office-365-cloud-app-security-help-and-how-to"></a>Office 365 클라우드 응용 프로그램 보안 도움말 및 사용 방법
   
@@ -30,12 +31,12 @@ Office 365 클라우드 응용 프로그램 보안 전역 관리자, 보안 관�
 
 |**작업**|**리소스**|
 |:-----|:-----|
-|Office 365 클라우드 앱 보안 개요  <br/> |[Office 365 Cloud App Security 개요](office-365-cas-overview.md) <br/> [Office 365 Cloud App Security 시작하기](get-ready-for-office-365-cas.md) <br/> [Office 365 클라우드 응용 프로그램 보안 사용 사례 및 사용 가이드](https://aka.ms/O365CASGuide) <br/> |
+|Office 365 클라우드 앱 보안 개요  <br/> |[Office 365 Cloud App Security 개요](office-365-cas-overview.md) <br/> [Office 365 Cloud App Security 시작](get-ready-for-office-365-cas.md) <br/> [Office 365 클라우드 응용 프로그램 보안 사용 사례 및 사용 가이드](https://aka.ms/O365CASGuide) <br/> |
 |조직에 대 한 Office 365 클라우드 응용 프로그램 보안을 사용 하도록 설정  <br/> |[Office 365 감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md) <br/> [Office 365 Cloud App Security 켜기](turn-on-office-365-cas.md) <br/> |
 |정책 및 조직에 대 한 알림 설정  <br/> |[Office 365 Cloud App Security 활동 정책 및 알림](activity-policies-and-alerts.md) <br/> [Office 365 클라우드 앱 보안에서 예외 탐지 정책](anomaly-detection-policies-in-ocas.md) (새로 업데이트 된!)  <br/> [Office 365 클라우드 앱 보안 SIEM 통합](integrate-your-siem-server-with-office-365-cas.md) <br/> [Office 365 클라우드 응용 프로그램 보안에 대 한 보안 정책 참조 정보](security-policy-reference-information-for-ocas.md) <br/> |
 |Office 365 클라우드 응용 프로그램 보안에서 설정 미세 조정  <br/> |[IP를 그룹화하여 Office 365 Cloud App Security 관리를 단순화](group-your-ip-addresses-in-ocas.md) <br/> [Office 365 Cloud App Security 적용한 후 사용률 활동](utilization-activities-for-ocas.md) <br/> |
-|활동을 확인 하 고 작업도 하지 않습니다  <br/> |[검토 하 고 Office 365 클라우드 응용 프로그램 보안 경고에서 작업 수행](review-office-365-cas-alerts.md) <br/> [Office 365 Cloud App Security의 활동 조사](investigate-an-activity-in-office-365-cas.md) <br/> [Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는 복원](suspend-or-restore-an-account-in-ocas.md) <br/> |
-|Office 365에서 타사 응용 프로그램 관리  <br/> |[Office 365 Cloud App Security을 사용하여 앱 사용 권한 관리](manage-app-permissions-in-ocas.md) <br/> |
+|활동을 확인 하 고 작업도 하지 않습니다  <br/> |[검토 하 고 Office 365 클라우드 응용 프로그램 보안 경고에서 작업 수행](review-office-365-cas-alerts.md) <br/> [Office 365 Cloud App Security에서 활동 조사](investigate-an-activity-in-office-365-cas.md) <br/> [Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는 복원](suspend-or-restore-an-account-in-ocas.md) <br/> |
+|Office 365에서 타사 응용 프로그램 관리  <br/> |[Office 365 Cloud App Security를 사용하여 OAuth 앱 관리](manage-app-permissions-in-ocas.md) <br/> |
 |만들기 및 응용 프로그램 검색 보고서 보기  <br/> |[Office 365 Cloud App Security에 대한 웹 트래픽 로그 및 데이터 원본](web-traffic-logs-and-data-sources-for-ocas.md) <br/> [Office 365 클라우드 앱 보안에서 app 검색 보고서 만들기](create-app-discovery-reports-in-ocas.md) <br/> [Office 365 클라우드 앱 보안에서 app 검색 결과 검토](review-app-discovery-findings-in-ocas.md) (새로 업데이트 된!)  <br/> |
 |Office 365 클라우드 응용 프로그램 보안의 새로운 기능에 대 한 루프 연결 유지  <br/> |[Office 365 Cloud App Security의 새로운 기능](new-in-office-365-cas.md) <br/> |
    
@@ -43,6 +44,6 @@ Office 365 클라우드 응용 프로그램 보안 전역 관리자, 보안 관�
 
 - [Office 365 Cloud App Security 개요](office-365-cas-overview.md)
     
-- [Office 365 Cloud App Security 시작하기](get-ready-for-office-365-cas.md)
+- [Office 365 Cloud App Security 시작](get-ready-for-office-365-cas.md)
     
 

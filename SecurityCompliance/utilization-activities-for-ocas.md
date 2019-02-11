@@ -3,7 +3,7 @@ title: Office 365 Cloud App Security 적용한 후 사용률 활동
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/26/2018
+ms.date: 01/28/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 86f414ad-81de-4703-b40a-c6615bbe9108
 description: 설정 하면 Office 365 클라우드 응용 프로그램 보안 롤아웃 후 구성은 올바른 하의 정기적 검토 준비 하는 특정 작업을 수행 합니다.
-ms.openlocfilehash: bc8cfad8eb9d9444066c3193ec2978e9ffd9f56a
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 71b6793f2e325fcba3431ba5157640b29814ad30
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533267"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603709"
 ---
 # <a name="utilization-activities-after-rolling-out-office-365-cloud-app-security"></a>Office 365 Cloud App Security 적용한 후 사용률 활동
   
@@ -27,7 +27,7 @@ ms.locfileid: "22533267"
 |[평가 시작 합니다.](office-365-cas-overview.md) <br/> |[계획을 시작합니다](get-ready-for-office-365-cas.md) <br/> |[배포를 시작 합니다.](turn-on-office-365-cas.md) <br/> |여기는!  <br/> [다음 단계](review-office-365-cas-alerts.md) <br/> |
    
 > [!NOTE]
-> Office 365 클라우드 App 보안은 Office 365 Enterprise e 5에 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 Office 365 클라우드 앱 보안 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다. 
+> Office 365 클라우드 App 보안은 Office 365 Enterprise e 5에 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 Office 365 클라우드 앱 보안 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다. 
   
 설정 및 Office 365 클라우드 응용 프로그램 보안 구성 되어 있다고을 한 후 Office 365 전역 관리자 또는 조직에 대 한 보안 관리자 권한으로 특정 사용률 작업을 수행 합니다. 
 
@@ -92,7 +92,7 @@ Office 365 클라우드 응용 프로그램 보안을 구성 하 고 전역 관�
     
 - [일시 중단 또는 사용자 계정 복원](suspend-or-restore-an-account-in-ocas.md)
     
-- [앱 사용 권한 관리](manage-app-permissions-in-ocas.md)
+- [OAuth 앱을 관리](manage-app-permissions-in-ocas.md)
     
 - [Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토](review-app-discovery-findings-in-ocas.md)
     

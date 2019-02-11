@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba919c73-d021-404d-9850-eec57e78678c
 description: Office 365 고급 보안 관리 설정, 클라우드 앱 보안 Microsoft Azure에 의해 구동 하는 방법을 알아보려면이 문서를 읽어보십시오.
-ms.openlocfilehash: 8964a0b413b0350188c7f61638d04032534e5374
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 057a7b3311384901b4c3683c350d1f26c91bf60d
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014790"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603779"
 ---
 # <a name="turn-on-office-365-cloud-app-security"></a>Office 365 Cloud App Security 켜기
   
@@ -37,6 +37,8 @@ ms.locfileid: "28014790"
 3. **Office 365 클라우드 응용 프로그램 보안 설정**을 선택 합니다.
     
 4. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.<br/>![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>이 Office 365 클라우드 응용 프로그램 보안 포털, 여기서 수 보고서 보기 및 만들거나 편집할 정책에 위치로 이동 합니다.
+
+방문 하 여 클라우드 응용 프로그램 보안 포털으로 이동할 수 Office 365 클라우드 응용 프로그램 보안을 설정 하면 [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com) 로그인 하 고 있습니다.
     
 > [!NOTE]
 > Office 365 클라우드 응용 프로그램 보안을 설정 하면 Office 365 사용자 계정 및 사용자 작업에 대 한 감사 정보는 [Microsoft 클라우드 응용 프로그램 보안](https://aka.ms/whatiscas)로 전송 됩니다. 이 정보를 가져올 하 고 의심 스러운 활동에 대 한 조치를 취할 수 있도록 고급 알림, 필터링 및 기타 기능을 제공 하는 Office 365 수 있습니다. 

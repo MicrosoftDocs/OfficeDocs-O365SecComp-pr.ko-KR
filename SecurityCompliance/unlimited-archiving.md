@@ -3,7 +3,7 @@ title: Office 365 무제한 보관의 개요 (영문)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: 자동 확장 하는 방법에 대 한 설명 무제한 보관 저장소 Exchange Online 사서함에 대 한 제공 Office 365의 보관,입니다.
-ms.openlocfilehash: a762a0fb8295a645957404c1c88881f40329f7a1
-ms.sourcegitcommit: e7b87fae103a858981bdbcdf7ec55afa4751ad05
+ms.openlocfilehash: 83eb49b3f2a7da418b61e509f44023809ed396c3
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23782125"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29740820"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Office 365 무제한 보관의 개요 (영문)
 
@@ -69,11 +69,11 @@ Office 365의 보관 사서함 추가 사서함 저장 공간을 사용 하는 �
 
 자동 확장 보관 저장소에 저장 된 메시지에 액세스 하려면 사용자가 Outlook 클라이언트 중 하나를 사용 해야 합니다.
   
-- Windows 용 outlook 2016
+- Outlook 2016 또는 Windows 용 Outlook 2019
     
-- 웹에서 Outlook 
+- 웹용 Outlook 
     
-- Mac용 Outlook 2016 
+- Outlook 2016 또는 Mac 용 Outlook 2019 
     
 > [!NOTE]
 > Outlook 2013 사용자가 원래 보관 사서함에 저장 된 액세스 항목만 수 있습니다. 추가 보관 저장소로 이동 되는 항목에 액세스 수 없습니다. 
@@ -96,7 +96,7 @@ Office 365의 보관 사서함 추가 사서함 저장 공간을 사용 하는 �
   
 - **eDiscovery** -콘텐츠 검색 하거나 원본 위치 eDiscovery, 자동 확장 보관 위치에 있는 별도 저장소 영역와 같은 Office 365 eDiscovery 도구를 사용 하는 경우 검색도 됩니다.
     
-- **보존** -Exchange Online의 소송 보존으로 설정 하는 등의 도구를 사용 하 여 보류 중인 사서함을 배치 또는 eDiscovery 사례 보유 하는 경우 및 Office 365 보안에서 보존 정책을 &amp; 준수 센터, 자동 확장 보관 저장소에 있는 콘텐츠는 또한 보류에 추가 합니다.
+- **보존** -사서함을 놓을 때 대기 Exchange 소송 보존으로 설정 하는 등의 도구를 사용 하 여 온라인 또는 eDiscovery 사례를 포함 하 고 있으며 자동 확장 보관 저장소에 있는 Office 365 보안 & 콘텐츠 준수 센터의에서 보존 정책 보류에 추가 합니다.
     
 - **메시징 레코드 관리 (MRM)** -자동 확장 보관 사서함에 있는 만료 된 항목을 만료 된 사서함 항목을 영구적으로 삭제 하려면 Exchange Online에서 MRM 삭제 정책을 사용 하는 경우도 삭제 됩니다.
     

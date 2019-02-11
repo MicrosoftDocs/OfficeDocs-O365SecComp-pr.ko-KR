@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 작업 집합에서 데이터 분석
+title: 고급 eDiscovery (미리 보기)에서 작업 집합의 데이터를 분석 합니다.
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,19 +14,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6284204fd709bcf936688f36f38f6b3283b1f98
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 68a8b7586700a9bffe78f2b3a4ff419a1f85ba8a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608107"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695144"
 ---
-# <a name="analyzing-data-in-a-working-set-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 작업 집합에서 데이터 분석
+# <a name="analyze-data-in-a-working-set-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 작업 집합의 데이터를 분석 합니다.
 
 수집 된 문서 수 클 경우 모두 검토 하는 것이 어려울 수 있습니다. 고급 eDiscovery (미리 보기)는 다양 한 문서 정보를 손실 없이 검토 하 고 일관 된 방식으로 문서를 구성 하는데 도움이 되는 문서의 양을 줄일를 분석 하는 도구를 제공 합니다. 이러한 기능에 대 한 자세한 내용은 참조 합니다.
 
-- [중복 검색 근처](near-duplicates.md)
-- [전자 메일 스레딩](email-threading.md)
+- [중복에 가까운 검색](near-duplicates.md)
+- [전자 메일 스레드](email-threading.md)
 - [테마](themes.md)
 
 작업 집합의 데이터를 분석 합니다.

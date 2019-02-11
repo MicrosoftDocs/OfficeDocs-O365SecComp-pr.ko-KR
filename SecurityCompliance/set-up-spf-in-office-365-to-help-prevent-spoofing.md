@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 description: 요약:이 문서에서는 Office 365에서 사용자 지정 도메인으로 보낸 사람이 정책 프레임 워크 (SPF)를 사용할 수 있도록 서비스 DNS (Domain Name) 레코드를 업데이트 하는 방법에 설명 합니다. SPF을 사용 하면 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 합니다.
-ms.openlocfilehash: 9c03f69cfd0c962214a3adc722690a4288940541
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 09adea835b793c638f50421a8f3970faefc5307e
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002887"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28326414"
 ---
 # <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정
 
@@ -39,7 +39,6 @@ ms.locfileid: "23002887"
 - DKIM 및 DMARC (권장)를 설정 하 려 한다고 합니다.
     
 ## <a name="updating-your-spf-txt-record-for-office-365"></a>Office 365에 대 한 SPF TXT 레코드를 업데이트합니다.
-<a name="sectionSection0"> </a>
 
 DNS에서 TXT 레코드를 업데이트 하기 전에 일부 정보를 수집 하 고 레코드의 형식을 결정 해야 합니다. DNS 오류가 일시적 오류로 생성 (영문)에서 차단 하는 데 도움이 됩니다. 고급 예제에 대 한 지원 되는 SPF 구문에 대 한 자세한 내용은 [스푸핑을 방지 하기 위해 SPF 어떻게 작동 하 고 Office 365의 피싱을](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks)참조 합니다.
   
@@ -59,12 +58,12 @@ DNS에서 TXT 레코드를 업데이트 하기 전에 일부 정보를 수집 �
     
 ||**사용 중인 경우...**|**Office 365 고객을 위한 일반적인?**|**이 추가...**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |용도  <br/> |일반적인 합니다. 이 값을 가진 모든 SPF TXT 레코드 시작  <br/> |v = spf1  <br/> |
-|2   <br/> |Exchange Online  <br/> |일반  <br/> |include:spf.protection.outlook.com  <br/> |
-|3  <br/> |Exchange Online만 전용  <br/> |일반적으로 해당 되지  <br/> |ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com  <br/> |
-|4  <br/> |Office 365 독일, Microsoft 클라우드 독일만  <br/> |일반적으로 해당 되지  <br/> |include:spf.protection.outlook.de  <br/> |
-|5  <br/> |타사 전자 메일 시스템  <br/> |일반적으로 해당 되지  <br/> |포함:\<도메인 이름\>  <br/> 여기서 도메인 이름은 타사 전자 메일 시스템의 도메인 이름입니다.  <br/> |
-|6  <br/> |온-프레미스 메일 시스템입니다. 예, Exchange Online Protection와 다른 메일 시스템  <br/> |일반적으로 해당 되지  <br/> | 각 추가 메일 시스템에 대 한 둘 중 하나를 사용 합니다.  <br/>  ip4:\<  _IP 주소_\>  <br/>  i p 6:\<  _IP 주소_\>  <br/>  포함:\<  _도메인 이름_\>  <br/>  위치에 대 한 값 \< _IP 주소_ \> 는 다른 메일 시스템의 IP 주소 및 \< _도메인 이름_ \> 메일을 보내는 도메인을 대신 하 여 다른 메일 시스템의 도메인 이름입니다.    <br/> |
+|1  <br/> |용도  <br/> |일반적인 합니다. 이 값을 가진 모든 SPF TXT 레코드 시작  <br/> |v=spf1  <br/> |
+|2   <br/> |Exchange Online  <br/> |일반  <br/> |포함:spf.protection.outlook.com  <br/> |
+|3   <br/> |Exchange Online만 전용  <br/> |일반적으로 해당 되지  <br/> |ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include:spf.protection.outlook.com  <br/> |
+|4   <br/> |Office 365 독일, Microsoft 클라우드 독일만  <br/> |일반적으로 해당 되지  <br/> |include:spf.protection.outlook.de  <br/> |
+|5   <br/> |타사 전자 메일 시스템  <br/> |일반적으로 해당 되지  <br/> |포함:\<도메인 이름\>  <br/> 여기서 도메인 이름은 타사 전자 메일 시스템의 도메인 이름입니다.  <br/> |
+|6   <br/> |온-프레미스 메일 시스템입니다. 예, Exchange Online Protection와 다른 메일 시스템  <br/> |일반적으로 해당 되지  <br/> | 각 추가 메일 시스템에 대 한 둘 중 하나를 사용 합니다.  <br/>  ip4:\<  _IP 주소_\>  <br/>  i p 6:\<  _IP 주소_\>  <br/>  포함:\<  _도메인 이름_\>  <br/>  위치에 대 한 값 \< _IP 주소_ \> 는 다른 메일 시스템의 IP 주소 및 \< _도메인 이름_ \> 메일을 보내는 도메인을 대신 하 여 다른 메일 시스템의 도메인 이름입니다.    <br/> |
 |7   <br/> |include:<mail.contoso.com>  <br/> |일반적인 합니다. 이 값으로 끝나는 모든 SPF TXT 레코드  <br/> |\<_적용 규칙_\>  <br/> 여러 값 중 하나일 수 있습니다이 있습니다. 사용 하는 것이 좋습니다 **-모든**합니다.<br/> |
    
 1.1 등 인 경우 Office 365에서 완벽 하 게 호스트 하는 경우, 즉 해야 온-프레미스 메일 서버 없음 대화 SPF TXT 레코드 1, 2, 7 행에는 포함 하 고은 다음과 같습니다.
@@ -81,19 +80,17 @@ DNS에서 TXT 레코드를 업데이트 하기 전에 일부 정보를 수집 �
    v=spf1 include:spf.protection.outlook.de -all
   ```
 
-1.4 하는 경우 Office 365에서 이미 배포 된 하 고 사용자 지정 도메인에 대 한 SPF TXT 레코드를 설정 하 고 Office 365 독일으로 마이그레이션하는, SPF TXT 레코드를 업데이트 해야 합니다. 이 작업을 수행 하려면 **include:spf.protection.outlook.com** **include.spf.protection.outlook.de**로 변경 합니다.
+1.4 하는 경우 Office 365에서 이미 배포 된 하 고 사용자 지정 도메인에 대 한 SPF TXT 레코드를 설정 하 고 Office 365 독일으로 마이그레이션하는, SPF TXT 레코드를 업데이트 해야 합니다. 이 작업을 수행 하려면 **include:spf.protection.outlook.com** **include:spf.protection.outlook.de**로 변경 합니다.
     
-2. SPF TXT 레코드를 세운 후에 dns에서 레코드를 업데이트 해야 합니다. 도메인에 대 한 SPF TXT 레코드를 하나만 사용할 수 있습니다. 새 레코드를 추가 하는 대신 하는 SPF TXT 레코드 존재 하는 경우 기존 레코드를 업데이트 해야 합니다. [Office 365 용 DNS 레코드 만들기](https://support.office.microsoft.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23)이동 하 고 DNS 호스트에 대 한 링크를 클릭 합니다. (DNS 호스트가 없으면 링크 페이지에서 할 수 있습니다 레코드를 추가 하거나 도움말에 대 한 DNS 호스트에 게 문의에 대 한 [일반적인 지침을 따릅니다](https://support.office.microsoft.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) .) 
+2. SPF TXT 레코드를 세운 후에 dns에서 레코드를 업데이트 해야 합니다. 도메인에 대 한 SPF TXT 레코드를 하나만 사용할 수 있습니다. 새 레코드를 추가 하는 대신 하는 SPF TXT 레코드 존재 하는 경우 기존 레코드를 업데이트 해야 합니다. [Office 365 용 DNS 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide)이동 하 고 DNS 호스트에 대 한 링크를 클릭 합니다. 
     
 3. SPF TXT 레코드를 테스트 합니다.
     
 ## <a name="more-information-about-spf"></a>SPF 하는 방법에 대 한 자세한 내용
-<a name="sectionSection1"> </a>
 
 고급 예제에 대 한 지원 되는 SPF 구문을, 스푸핑, 문제를 해결 하 고 SPF, Office 365를 지 원하는 방법에 대 한 자세한 내용은 [위조 및 Office 365의 피싱 방지 하기 위해 작동 하는 방법을 SPF](how-office-365-uses-spf-to-prevent-spoofing.md#HowSPFWorks)참조 하십시오.
   
 ## <a name="next-steps-after-you-set-up-spf-for-office-365"></a>다음 단계: Office 365에 대 한 SPF를 설정한 후
-<a name="sectionSection2"> </a>
 
 SPF TXT 레코드와 함께 문제가 있습니까? 읽기 [문제해결: Office 365에서 SPF에 대 한 모범 사례](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot)합니다.
   

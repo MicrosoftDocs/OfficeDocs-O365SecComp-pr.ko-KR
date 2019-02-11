@@ -12,16 +12,21 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365에서 새 메시지 보호 기능이 작동 하는 방법에 대 한 질문이 있습니까? 여기에 대 한 답변을 확인 합니다.
-ms.openlocfilehash: 63bea478e144f42cabc67f7075cd52199d954d9c
-ms.sourcegitcommit: d3f3e2eb9ef05ebef85d83935a2cb0f7690ee6fe
+ms.openlocfilehash: e35495106b44ccb566f4da743264def8c7d4f96f
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495522"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29696272"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
-Office 365에서 새 메시지 보호 기능이 작동 하는 방법에 대 한 질문이 있습니까? 여기에 대 한 답변을 확인 합니다. 또한 살펴보려면 [질문과 대답 (영문) Azure 정보 보호의 데이터 보호 기능에 대 한](https://docs.microsoft.com/information-protection/get-started/faqs-rms) 데이터 보호 서비스, Azure 권한 관리에 대 한 질문에 대 한 대답 Azure 정보 보호에 있습니다. 
+Office 365에서 새 메시지 보호 기능이 작동 하는 방법에 대 한 질문이 있습니까? 여기에 대 한 답변을 확인 합니다. 또한 살펴보려면 [질문과 대답 (영문) Azure 정보 보호의 데이터 보호 기능에 대 한](https://docs.microsoft.com/information-protection/get-started/faqs-rms) 데이터 보호 서비스, Azure 권한 관리에 대 한 질문에 대 한 대답 Azure 정보 보호에 있습니다.
+
+||
+|:-----|
+|이 문서는 Office 365 메시지 암호화에 대 한 문서를 더 큰 시리즈의 일부입니다. 이 문서는 관리자 및 ITPros 위한 것입니다. 방금 경우 보내거나 암호화 된 메시지를 받는 방법에 대 한 정보에 대 한 자세한 내용은 [Office 365 메시지 암호화 OME ()](ome.md) 의 문서 목록을 참조 하 고 요구 사항에 가장 적합 한 문서를 찾습니다. |
+||
   
 ## <a name="what-is-office-365-message-encryption-ome"></a>Office 365 메시지 암호화 (OME) 이란?
 

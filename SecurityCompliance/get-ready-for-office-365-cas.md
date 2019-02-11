@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud App Security 시작하기
+title: Office 365 Cloud App Security 시작
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 ms.assetid: d9ee4d67-f2b3-42b4-9c9e-c4529904990a
 description: Office 365 클라우드 응용 프로그램 보안을 사용 하 여 시작
-ms.openlocfilehash: 906570c6607c70b63fa9d2059d56b50f7807124a
-ms.sourcegitcommit: edf5db9357c0d34573f8cc406314525ef10d1eb9
+ms.openlocfilehash: 1d1ae464278a5d9aafa5a176298f03174b6a37dc
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23229990"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603699"
 ---
-# <a name="get-ready-for-office-365-cloud-app-security"></a>Office 365 Cloud App Security 시작하기
+# <a name="get-ready-for-office-365-cloud-app-security"></a>Office 365 Cloud App Security 시작
   
 |평가 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * *|
 |:-----|:-----|:-----|:-----|
@@ -41,17 +41,15 @@ ms.locfileid: "23229990"
   
 ## <a name="step-3-go-to-the-office-365-cloud-app-security-portal"></a>3 단계: 포털로 이동 하는 Office 365 클라우드 응용 프로그램 보안
 
-1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+으로 이동 하 여 Office 365 클라우드 응용 프로그램 보안 포털을 얻을 수 [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com) 로그인 하 고 있습니다. 
+
+Office 365 보안에서 다음과 같은 얻을 수도 있습니다 &amp; 준수 센터입니다. 작업을 수행 하는 한 가지 좋은 방법은 다음과 같습니다.
+
+1. 이동 [https://protection.office.com](https://protection.office.com) 및 sign in. (이렇게 하면 보안 &amp; 준수 센터.)
     
 2. **경고** 로 이동 \> **관리 고급 알림**입니다.
     
-3. **Office 365 클라우드 앱 보안으로 이동** 하 여 Office 365 클라우드 응용 프로그램 보안 포털에 이동 하려면 선택 합니다. 
-    
-    ![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)
-  
-    Office 365 클라우드 응용 프로그램 보안 포털에 이동할 때 표시 첫 페이지는 다음 이미지와 비슷합니다 정책 페이지의:
-    
-    ![정책 페이지로 시작 하 여 Office 365 클라우드 응용 프로그램 보안 포털에 이동할 때](media/5cb8833c-4e08-438c-bab3-91b5106f6f3f.png)
+3. **Office 365 클라우드 앱 보안으로 이동** 하 여 Office 365 클라우드 응용 프로그램 보안 포털에 이동 하려면 선택 합니다.<br> ![Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br>Office 365 클라우드 응용 프로그램 보안 포털에 이동할 때 표시 첫 페이지는 다음 이미지와 비슷합니다 정책 페이지의:<br>![정책 페이지로 시작 하 여 Office 365 클라우드 응용 프로그램 보안 포털에 이동할 때](media/5cb8833c-4e08-438c-bab3-91b5106f6f3f.png)<br>
   
 ## <a name="step-4-define-policies-and-set-up-alerts-amp-actions"></a>4 단계: 정책을 정의 하 고 알림을 설정할 &amp; 작업
 
@@ -85,7 +83,7 @@ Office 365 클라우드 응용 프로그램 보안 포털에서 생산성 응용
     
 ## <a name="step-6-manage-apps-that-your-organization-is-using-to-access-office-365"></a>조직에서 Office 365 액세스를 사용 하는 앱을 관리 하는 6 단계:
 
-전역 관리자 또는 보안 관리자, 예: 사용자 지정 응용 프로그램 또는 Office 365를 통해 장치에 조직에서 사용자를 사용 하는 타사 응용 프로그램, 응용 프로그램을 관리할 수 있습니다. 예, Office 365와 함께 사용 하 여 원하는 사용자 지정 앱을 다운로드 한가 다른 사용자 경우를 가정해 보겠습니다. 사용자를 사용 하는 앱을 검토 하, 신뢰할 수 없는 앱을 금지 하거나을 추적 목적에 대 한 승인 앱을 표시할 수 있습니다. [Office 365 클라우드 응용 프로그램 보안을 사용 하는 응용 프로그램 사용 권한을 관리](manage-app-permissions-in-ocas.md)합니다.
+전역 관리자 또는 보안 관리자, 예: 사용자 지정 응용 프로그램 또는 Office 365를 통해 장치에 조직에서 사용자를 사용 하는 타사 응용 프로그램, 응용 프로그램을 관리할 수 있습니다. 예, Office 365와 함께 사용 하 여 원하는 사용자 지정 앱을 다운로드 한가 다른 사용자 경우를 가정해 보겠습니다. 사용자를 사용 하는 앱을 검토 하, 신뢰할 수 없는 앱을 금지 하거나을 추적 목적에 대 한 승인 앱을 표시할 수 있습니다. [Office 365 클라우드 응용 프로그램 보안을 사용 하 여 관리 OAuth 앱](manage-app-permissions-in-ocas.md)입니다.
   
 ## <a name="step-7-use-your-siem-server-with-office-365-cloud-app-security"></a>7 단계: SIEM 서버를 사용 하 여 Office 365 클라우드 응용 프로그램 보안
 

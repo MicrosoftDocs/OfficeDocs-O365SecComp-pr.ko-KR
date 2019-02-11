@@ -14,14 +14,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b0d1bcd8ddb1e29853a633a386becfd1688b9cd1
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: d4f6b457880a4c4029e331e5488ea31a61781765
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608101"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706129"
 ---
 # <a name="themes"></a>테마
+
 다른 사용자가 문서를 하는 경우 이러한 선택 하지 않으면 단어 임의로; 일부 아이디어 또는 개념를 전달 하기 위해 하려고 하 고 단어 적절 하 게 선택 됩니다. 테마 모듈 클러스터 문서에 대 한 문서를 거치지에서 검토자가 더 효율적일 수 있도록 다음과 같은 주제를 설명 합니다.
 
 ## <a name="how-does-themes-work"></a>테마는 어떻게 작동 합니까?

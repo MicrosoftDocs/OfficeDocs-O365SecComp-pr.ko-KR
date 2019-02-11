@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: 검색 통계 기능을 사용 하 여 Office 365 보안에서 여러 콘텐츠 검색에 대 한 통계를 비교 하 고 표시 &amp; 준수 센터입니다. 만들거나 각 키워드 또는 키워드 구를 일치 하는 항목 수를 표시 하는 향상 된 통계를 가져올 검색 쿼리를 편집 하는 경우에 키워드 목록을 구성할 수 있습니다.
-ms.openlocfilehash: cb71b30b32ff6a24cd68ea5728063c2997d8ada0
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 0f0258f228e296e48def8de16aabc068901dffc7
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533562"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "27209809"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>콘텐츠 검색 결과에 대한 키워드 통계 보기
 
@@ -100,6 +100,10 @@ ms.locfileid: "22533562"
 ## <a name="get-keyword-statistics-for-content-searches"></a>콘텐츠 검색에 대 한 키워드 통계를 가져오려면
 
 같이 이전 설명, 검색 쿼리 수 (및 크기) 쿼리 일치 하는 항목의 **쿼리** 페이지를 표시 합니다. 만들거나 검색 쿼리를 편집할 때 키워드 목록을 사용 하는 경우에 각 키워드 또는 키워드 구를 항목과 일치 하는 항목 수를 표시 하는 향상 된 통계를 얻을 수 있습니다. 이 쿼리의 어떤 부분 되는 가장 (및 최소) 효과적인를 빠르게 식별할 수 있습니다. 예, 키워드 항목 수가 많음를 반환 하는 경우 검색 결과 범위를 좁힙니다 키워드 쿼리를 구체화할 선택할 수 있습니다. 키워드 목록을 만들거나 콘텐츠 검색을 편집할 때 설정할 수 있습니다. 
+
+
+
+
   
 키워드 목록을 만들고 콘텐츠 검색에 대 한 키워드 통계를 봅니다.
   
@@ -130,3 +134,6 @@ ms.locfileid: "22533562"
     - 모든 조건에서 검색 쿼리를 포함 하는 각 키워드에 대 한 실제 검색 쿼리 합니다. 
     
     - ( **파트** 열에서 **기본** 으로 식별 된) 전체 검색 쿼리 및 전체 쿼리에 대 한 통계입니다. 동일한 통계 **요약** 페이지에 표시 되는 note 합니다. 
+
+> [!NOTE]
+> 큰 키워드 목록에 의해 발생 하는 문제를 줄일 자신이 지금 검색 쿼리 키워드 목록에서 20 행의 최대 수 있도록 제한 합니다.

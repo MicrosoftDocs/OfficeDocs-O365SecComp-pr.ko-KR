@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 description: Exchange Online Protection 인바운드 전자 메일 메시지를 검색 하는 경우 **X Forefront-스팸 방지 보고서** 머리글은 각 메시지에 삽입 합니다.
-ms.openlocfilehash: d887fea94bac6177dde69fac9586d7d562ef50de
-ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
+ms.openlocfilehash: 5632aa28a0d23186e6a36fdf63f7968322c93e39
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29614462"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29686448"
 ---
 # <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
 
@@ -38,7 +38,7 @@ Exchange Online Protection 인바운드 전자 메일 메시지를 검색 하는
 |CTRY|메시지가 서비스에 연결된 국가입니다. 연결하는 IP 주소(원래 메시지를 보낸 IP 주소와 다를 수도 있음)를 통해 확인됩니다.|
 |LANG|국가 코드로 지정된 메시지 작성 언어입니다. 예를 들어 ru_RU는 러시아어입니다.|
 |SCL|메시지의 스팸 SCL () 값입니다. 이러한 값을 해석 하는 방법에 대 한 자세한 내용은 [Spam confidence levels](spam-confidence-levels.md)를 참조 하십시오.|
-|PCL|메시지의 피싱 신뢰 수준 (PCL) 값입니다. PCL 값에 대 한 자세한 내용은 [PCL](anti-spam-message-headers.md#PCL) 을 참조 하십시오.|
+|PCL|메시지의 피싱 신뢰 수준 (PCL) 값입니다. |
 |SRV:BULK|메시지는 대량 전자 메일 메시지를으로 확인 되었습니다. 사용 하는 **모든 대량 전자 메일 메시지 고급 스팸 필터링 옵션을 차단** 하는 경우 스팸으로 표시 됩니다. 사용할 수 없는 필터링 규칙의 나머지 부분 메시지가 스팸 인지를 결정 하는 경우 스팸으로 표시만 됩니다.|
 |SFV:SFE|필터링을 건너뛰었습니다 하 고 각 사용자의 수신 허용-보낸사람 목록에 있는 주소에서 보낸 메시지를 통해 허용 되었습니다.|
 |SFV:BLK|필터링을 건너뛰었습니다 및 수신된 거부 목록에는 각 사용자의 주소에서 보낸 메시지 차단 되었습니다.  <br/> **팁**: 최종 사용자가 안전 하 고 차단 된 보낸사람 목록을 만들 수 있는 방법에 대 한 자세한 내용은 참조 [차단 또는 허용 (정크 메일 설정)](https://go.microsoft.com/fwlink/p/?LinkId=294862) (웹에 있는 Outlook) 및 [정크 메일 필터 개요](https://go.microsoft.com/fwlink/p/?LinkId=270065) (Outlook).|

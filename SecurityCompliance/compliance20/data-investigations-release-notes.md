@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 고급 eDiscovery (미리 보기)의 새 버전에 설명 합니다.
-ms.openlocfilehash: bcf10f5154723709b1cde761b0e8d02540341a26
-ms.sourcegitcommit: 98ec28932ae20e848f9f489c3c78e4a7edab6d18
+ms.openlocfilehash: 90bcbd4cae1e410e1544352a776ba4cbbedfa429
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29636633"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695064"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Microsoft 365에서 데이터 조사 (미리 보기)에 대 한 릴리스 정보
 
-새 데이터 조사 (미리 보기) 도구를 사용할 수에서 분류할 조사 및 데이터를 수정 하려면 Microsoft 365에서 관련 사고, 예: 데이터 액체 엎질렀는지 여부 문제를 또는 내부 조사 합니다. 공용 데이터 미리 보기 조사 예정 된 기능 및 업데이트에 대 한 초기 액세스를 제공 합니다. 최신 기능에 대 한 초기 액세스 하려면 Office 365 보안 & 준수 센터의에서 데이터 조사 (미리 보기)에서 새 조사를 만듭니다. 자세한 방법, [Microsoft 365에서 데이터 액체 엎질렀는지 여부 인시던트 관리](manage-data-spillage-incidents.md)를 참조 하십시오.
+새 데이터 조사 (미리 보기) 도구를 사용할 수에서 분류할 조사 및 데이터를 수정 하려면 Microsoft 365에서 관련 사고, 예: 데이터 액체 엎질렀는지 여부 문제를 또는 내부 조사 합니다. 공용 데이터 미리 보기 조사 예정 된 기능 및 업데이트에 대 한 초기 액세스를 제공 합니다. 최신 기능에 대 한 초기 액세스 하려면 Office 365 보안 & 준수 센터의에서 데이터 조사 (미리 보기)에서 새 조사를 만듭니다. 자세한 방법, [관리 Microsoft 365에서 데이터 액체 엎질렀는지 여부 문제를](manage-data-spillage-incidents.md)참조 하십시오.
 
 ## <a name="whats-new"></a>새로운 기능 
 

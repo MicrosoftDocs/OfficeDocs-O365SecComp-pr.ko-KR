@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: aac65513-e75e-4c82-a668-9a6604dd9f9d
 description: 고급 보안 관리에서 응용 프로그램 검색 보고서를 검토 하면 조직에서 사람들이 클라우드 앱을 사용 하는 방법에 대 한 자세한 내용은 할 수 있습니다. 로그 파일에서 방화벽 및 프록시를 사용 하 여 응용 프로그램 검색 보고서를 만든 후 app 검색 대시보드에서 결과 검토 합니다.
-ms.openlocfilehash: ddf3826f5aac9d3c837cf66f1b97b4650df70f32
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: 6195c9aae7ae5e398ac555cc820de04dee05d4fd
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706262"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603749"
 ---
 # <a name="review-app-discovery-findings-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토
   
@@ -27,19 +27,15 @@ ms.locfileid: "26706262"
    
 클라우드 검색 대시보드 클라우드 앱 사용 현황에 대 한 자세한 정보를 제공 하려면 조직의 웹 트래픽 로그 작동 합니다. 전역 관리자, 보안 관리자 또는 보안 판독기 자신이 하 고 조직에 [Office 365 클라우드 응용 프로그램 보안에서 app 검색 보고서를 만든](create-app-discovery-reports-in-ocas.md), 클라우드 검색 대시보드를 사용 하에 대 한 정보를 얻을 수 하는 경우 어떻게 구성원 들이 프로그램 조직에는 Office 365 및 기타 클라우드 앱 사용 하는 합니다. (클라우드 검색 대시보드는로 알려져 생산성 응용 프로그램 검색 합니다.)
   
- **클라우드 검색 대시보드 년 3 월 2018를 기준으로 새로운 기능이 추가 되었습니다** 보다 쉽게 Office 365 및 다른 응용 프로그램 사용자 조직에서 사용 하는 방법에 대 한 자세한 정보를 볼 수 있도록 합니다. 
+ 클라우드 검색 대시보드를 사용 하면 조직에서 사람들이 Office 365 및 다른 응용 프로그램 사용 하는 방법에 대 한 자세한 정보를 볼 수 있습니다. 
   
 ![클라우드 검색 대시보드는 업데이트 된](media/12712681-c0b3-4cb3-b7fd-2cf2ad4e825f.png)
      
 ## <a name="go-to-the-cloud-discovery-dashboard"></a>클라우드 검색 대시보드로 이동
 
-1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+1. 클라우드 응용 프로그램 보안 포털에 이동 ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))에 로그인 하 고 있습니다.
     
-2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다.<br/>(하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
-    
-3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다.
-    
-4. **검색** 으로 이동 \> **클라우드 검색 대시보드**합니다.
+2. **검색** 으로 이동 \> **클라우드 검색 대시보드**합니다.
     
 ## <a name="see-your-top-users-ip-addresses-apps-and-risk-levels"></a>상위 사용자, IP 주소, 앱 및 위험 수준을 참조 하십시오.
 

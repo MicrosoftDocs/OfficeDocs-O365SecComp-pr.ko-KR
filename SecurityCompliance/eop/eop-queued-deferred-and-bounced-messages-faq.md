@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 17e5955195c4e38299712fb9161822984b2a643a
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 4b2c902adacd6e72e587aadaceecd22dd0084d85
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026225"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29686428"
 ---
 # <a name="eop-queued-deferred-and-bounced-messages-faq"></a>EOP 대기, 지연 및 반송 메시지 FAQ
 
@@ -32,7 +32,7 @@ A. 받는 사람 서버에 연결할 수 없고 받는 사람의 서버에서 �
   
  **Q. 메시지가 지연 상태로 유지되는 기간 및 다시 시도 간격은 어떻게 되나요?**
   
-A. 지연 메시지는 대기열에 2일 동안 유지됩니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 평균적으로 메시지는 5분마다 다시 시도됩니다.
+A. 메시지 지연에는 2 일에 대 한이 큐에 남아 있습니다. 메시지 다시 시도 횟수는 받는 사람의 메일 시스템에서 돌아오는 오류를 기반으로 합니다. 처음 몇 deferrals는 15 분 간격을 60 분의 최대를 여러 번의 재시도 통해 증가 다음 절반 가지 이상의) (위에 이후 다시 시도 된 작은 또는 합니다. 간격 기간 확장은 동적 이며 큐 크기 및 내부 메시지 우선순위와 같은 여러 변수를 고려 합니다. Basic의 경우에 15 분 (이하의)를 시작, 최대 60 분으로 다음 몇 시간 동안의 여기에서을 확장 합니다.
   
  **Q. 전자 메일 서버가 복원된 경우 큐에 있는 메시지는 어떻게 배포되나요?**
   

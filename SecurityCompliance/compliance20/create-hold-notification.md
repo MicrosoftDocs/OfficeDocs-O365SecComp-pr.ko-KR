@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 9949fcc5876e1d0fa2f877333c5a9e5abae8c2a7
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 8db5a21f60a1d73c11e28bc2765a95c23646115d
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608197"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706079"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보유 알림 만들기
 
@@ -56,7 +56,7 @@ ms.locfileid: "29608197"
 3. **다음**을 클릭합니다.
 
   >[!Tip]
-  >포털 콘텐츠 형식과 콘텐츠를 사용자 지정할 수 하는 방법에 대 한 자세한 내용을 보려면, [통신 편집기를 사용 하 여](using-communications-editor.md)을 참조 하십시오.
+  >포털 콘텐츠 형식과 콘텐츠를 사용자 지정할 수 하는 방법에 대 한 자세한 내용을 보려면, [통신 편집기 사용](using-communications-editor.md)을 참조 합니다.
 
 ## <a name="step-3-set-the-required-notifications"></a>3 단계: 필요한 알림 설정
 

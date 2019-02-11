@@ -1,9 +1,9 @@
 ---
-title: Office 365의 암호화에 대한 기술 참조 세부 정보
+title: Office 365의 암호화에 대한 기술 관련 세부 정보
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/12/2018
+ms.date: 1/15/2019
 ms.audience: ITPro
 ms.topic: reference
 ms.service: o365-administration
@@ -14,20 +14,20 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365의 암호화에 대 한 기술 세부 정보를 봅니다.
-ms.openlocfilehash: 69365b66479ab89a9c036fe489b4087d327460eb
-ms.sourcegitcommit: e4ebef6aaf756eefb86c9f3a602cf75f5d344271
+ms.openlocfilehash: bb4629d89d2ed625cc1b817c53d2355484bfdf6c
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026525"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "28326939"
 ---
-# <a name="technical-reference-details-about-encryption-in-office-365"></a>Office 365의 암호화에 대한 기술 참조 세부 정보
+# <a name="technical-reference-details-about-encryption-in-office-365"></a>Office 365의 암호화에 대한 기술 관련 세부 정보
 
 [Office 365의 암호화](encryption.md)에 사용 되는 암호화 제품군 인증서, 기술 및 TLS 하는 방법에 대 한 내용은이 문서를 참조 하십시오. 이 문서는 또한 계획 된 사용이 중단 된 하는 방법에 대 한 세부 정보를 제공합니다.
   
 - 개요 정보를 찾고 하는 경우 [Office 365에서 암호화](encryption.md)를 참조 하십시오.
-    
 - 설치 정보를 찾고 하는 경우에 [Office 365 Enterprise의 암호화 설정](set-up-encryption.md)참조 하십시오.
+- 특정 버전의 Windows에서 지원 되는 암호화 제품군에 대 한 정보를 [TLS/SSL (Schannel SSP)에서 암호화 제품군](https://docs.microsoft.com/windows/desktop/SecAuthN/cipher-suites-in-schannel)을 참조 하십시오.
     
 ## <a name="microsoft-office-365-certificate-ownership-and-management"></a>Microsoft Office 365 인증서 소유권 및 관리
 
@@ -35,7 +35,10 @@ Microsoft는 자체 인증서를 사용하므로 Office 365에 대한 인증서�
   
 ## <a name="current-encryption-standards-and-planned-deprecations"></a>현재 암호화 표준 및 계획 된 사용이 중단 된
 
-Office 365에 대 한 최고의에서 암호화를 제공 하려면 계속 하기 위해 Microsoft는 지원 되는 암호화 표준 정기적으로 검토 합니다. 경우에 따라 오래 및 보안 수준이 낮습니다 따라서 계속 이전 표준을 사용 중지 해야 합니다. 이 항목에서는 계획 된 사용이 중단 된 하는 방법에 대 한 현재 지원 되는 암호 제품군 및 기타 표준으로 세부 정보를 설명 합니다.
+Office 365에 대 한 최고의에서 암호화를 제공 하려면 계속 하기 위해 Microsoft는 지원 되는 암호화 표준 정기적으로 검토 합니다. 경우에 따라 오래 및 보안 수준이 낮습니다 따라서 계속 이전 표준을 사용 중지 해야 합니다. 이 항목에서는 계획 된 사용이 중단 된 하는 방법에 대 한 현재 지원 되는 암호 제품군 및 기타 표준으로 세부 정보를 설명 합니다. 
+
+## <a name="fips-compliance-for-office-365"></a>Office 365에 대 한 FIPS 준수
+Office 365에서 지 원하는 모든 암호화 제품군 FIPS 140-2 아래에서 적절 한 알고리즘을 사용 합니다. Office 365 (Schannel)를 통해 Windows에서 FIPS 유효성을 상속합니다. Schannel 하는 방법에 대 한 정보를 [TLS/SSL (Schannel SSP)에서 암호화 제품군](https://docs.microsoft.com/windows/desktop/SecAuthN/cipher-suites-in-schannel)을 참조 하십시오.
   
 ## <a name="versions-of-tls-supported-by-office-365"></a>Office 365에서 지원하는 TLS 버전
 
@@ -89,6 +92,8 @@ Note 그렇다고 해 TLS 1.0 및 1.1 연결 Office 365 차단 됩니다. 사용
   
 |**프로토콜**|**암호 그룹 이름**|**키 교환 알고리즘/강도**|**PFS(Perfect Forward Secrecy) 지원**|**인증 알고리즘/강도**|**암호화/강도**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
+|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
+|TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256  <br/> |ECDH/128  <br/> |예  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256  <br/> |ECDH/128  <br/> |예  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384  <br/> |ECDH/192  <br/> |예  <br/> |RSA/112  <br/> |AES/256  <br/> |
@@ -97,10 +102,9 @@ Note 그렇다고 해 TLS 1.0 및 1.1 연결 Office 365 차단 됩니다. 사용
 |TLS 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA256  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/128  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_256_CBC_SHA  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/256  <br/> |
 |TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_AES_128_CBC_SHA  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |AES/128  <br/> |
-|TLS 1.0, 1.1, 1.2  <br/> |TLS_RSA_WITH_3DES_EDE_CBC_SHA  <br/> |RSA/112  <br/> |아니요  <br/> |RSA/112  <br/> |3DES/192  <br/> |
    
 ## <a name="related-topics"></a>관련 항목
-<a name="TLSCipherSuites"> </a>
+[Windows 10 v1607에서 TLS 암호화 제품군](https://docs.microsoft.com/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-10-v1607)
 
 [Office 365의 암호화](encryption.md)
   

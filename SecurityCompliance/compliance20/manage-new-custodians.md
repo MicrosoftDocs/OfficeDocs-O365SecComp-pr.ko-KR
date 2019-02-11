@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 742f6bc35b67071fba528e6a0ce543ecc6915762
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: cce823924502fa2617d7819dc0967733fbc072e0
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608173"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706099"
 ---
-# <a name="managing-custodians-in-an-advanced-ediscovery-preview-case"></a>고급 eDiscovery (미리 보기) 사례에서 custodians 관리
+# <a name="manage-custodians-in-an-advanced-ediscovery-preview-case"></a>고급 eDiscovery (미리 보기) 사례에서 custodians 관리
 
 Custodians 탭에는 대/소문자에 모든 custodians의 정렬 가능 목록이 들어 있습니다. 사례에 custodians를 추가한 후 각 더불어 하는 방법에 대 한 자세한 내용은 Azure Active Directory에서 자동으로 수집 됩니다.
 
@@ -70,7 +70,7 @@ Custodians 탭에는 대/소문자에 모든 custodians의 정렬 가능 목록�
   
 4. **데이터 원본 선택을**클릭 하 여 Exchange와 OneDrive 위치에 대 한 선택 항목을 업데이트 합니다.
   
-5. 추가 또는 제거 팀, SharePoint, 또는 Exchange 사서함 사용자를 클릭 하 여 **추가 데이터 원본 선택**하 여 매핑된 합니다. 프로그램 더불어에 원본 데이터를 매핑할 수는 방법에 대 한 자세한 내용은 참조 하십시오. [custodians 고급 eDiscovery (미리 보기)에 추가 사례](add-custodians-to-case.md)합니다.
+5. 추가 또는 제거 팀, SharePoint, 또는 Exchange 사서함 사용자를 클릭 하 여 **추가 데이터 원본 선택**하 여 매핑된 합니다. 프로그램 더불어에 원본 데이터를 매핑할 수는 방법에 대 한 자세한 내용은 [사례에 대 한 추가 custodians](add-custodians-to-case.md)를 참조 하십시오.
   
 6. 더불어 보류 상태를 업데이트 하려면 **전체 custodial을 포함 하 고**를 클릭 하 고 사용 하도록 설정 또는 custodians에 대 한 보류를 사용 하지 않도록 설정 합니다.
 
@@ -95,7 +95,7 @@ Custodians 탭에는 대/소문자에 모든 custodians의 정렬 가능 목록�
 
 5. **작업** 탭에서 다시 인덱싱 프로세스에 대 한 상태를 추적할 수도 있습니다.
 
-다시 인덱싱 및 수정 부분적으로 인덱싱된 항목에 대 한 자세한 내용은 [고급 eDiscovery (미리 보기)에서 오류를 처리 하는 수정](processing-data-for-case.md)을 참조 하십시오.
+다시 인덱싱 및 수정 부분적으로 인덱싱된 항목에 대 한 자세한 내용은 [처리 오류 수정](processing-data-for-case.md)을 참조 하십시오.
 
 ## <a name="releasing-a-custodian-from-a-case"></a>사례에서 더불어 해제
 
@@ -118,6 +118,5 @@ Custodians 탭에는 대/소문자에 모든 custodians의 정렬 가능 목록�
 
 ## <a name="related-information"></a>관련 정보
 
- - Active Directory에서 사용자 특성 
  - [데이터를 처리할 때 오류 수정](error-remediation.md) 
- - [통신 (영문)](managing-custodian-communications.md)
+- [커뮤니케이션을 통한 작업](managing-custodian-communications.md)

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: 'Office 365 클라우드 앱 보안에서 예외 탐지 정책 잠재적인 문제를 발견할 수 있도록 기본 제공 알고리즘을 사용 합니다. 필터를 사용 하 여 (만들면 해당)을 조정 하는 적어도 하나 이상 검색 정책이 있어야 합니다. '
-ms.openlocfilehash: 7a1cb795531df168f0a5c425e7555ae6b1412d2b
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 5a6cf05b90b69045540bb7913124fe0d9e32f9a1
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29604419"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29612711"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 변칙 검색 정책
 
@@ -28,7 +28,7 @@ Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보�
 |:-----|:-----|:-----|:-----|
 |[평가 시작 합니다.](office-365-cas-overview.md) <br/> |[계획을 시작합니다](get-ready-for-office-365-cas.md) <br/> |여기는!  <br/> [다음 단계](integrate-your-siem-server-with-office-365-cas.md) <br/> |[활용 하 여 시작](utilization-activities-for-ocas.md) <br/> |
    
-[Microsoft 클라우드 앱 보안 릴리스 116](new-in-office-365-cas-2018.md#office-365-cloud-app-security-release-116-3)부터는 Office 365 클라우드 응용 프로그램 보안 정책이 포함 됩니다 여러 미리 정의 된 예외 검색 ("특별") 사용자 및 엔터티 동작 분석 (UEBA) 및 (ML)을 학습 하는 컴퓨터를 포함 하는.
+[Microsoft 클라우드 앱 보안 릴리스 116](new-in-office-365-cas-2018.md#office-365-cloud-app-security-release-116)부터는 Office 365 클라우드 응용 프로그램 보안 정책이 포함 됩니다 여러 미리 정의 된 예외 검색 ("특별") 사용자 및 엔터티 동작 분석 (UEBA) 및 (ML)을 학습 하는 컴퓨터를 포함 하는.
   
 ![예외 감지 정책의 보려면 컨트롤 선택 \> 정책입니다.](media/9663baa5-98bf-45e0-9458-6e572b43ec72.png)
   

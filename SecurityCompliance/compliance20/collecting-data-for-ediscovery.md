@@ -1,5 +1,5 @@
 ---
-title: 고급 eDiscovery (미리 보기)의 경우에 대 한 데이터를 수집합니다.
+title: 고급 eDiscovery (미리 보기)의 경우에 대 한 데이터를 수집 합니다.
 ms.author: esclee
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 6964cc00d7ae78078aa0729bd5408abd5ed9542a
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 11e2c336512c91d65bd046c3022d5375ebecde4a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608150"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29695054"
 ---
-# <a name="collecting-data-for-a-case-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 경우에 대 한 데이터를 수집합니다.
+# <a name="collect-data-for-a-case-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 경우에 대 한 데이터를 수집 합니다.
 
 일치 하지 않음 custodians 및 사례 관심 있는 데이터 원본의 식별 한 후에 자세히 살펴볼 문서 집합을 식별 하는 시간입니다. Office 365의 custodial 및 custodial 아닌 위치에서이 식별 하려면 고급 eDiscovery (미리 보기)에서 검색 도구를 사용할 수 있습니다.
 

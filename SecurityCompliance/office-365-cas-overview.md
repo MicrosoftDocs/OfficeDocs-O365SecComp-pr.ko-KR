@@ -3,7 +3,7 @@ title: Office 365 Cloud App Security 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 12/03/2018
+ms.date: 01/22/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 81f0ee9a-9645-45ab-ba56-de9cbccab475
 description: 'Office 365 클라우드 응용 프로그램 보안을 사용 하면 의심 스러운 활동 대 한 통찰력의 Office 365는 잠재적인 문제를 가진 하 고 필요한 경우 보안 문제를 해결 하는 작업을 수행 하는 상황을 조사할 수 있도록 합니다. '
-ms.openlocfilehash: 62b1dc1d9285e60f30c1d5e541973640bb47ae35
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: edce16edca822bed30c78f34cf141b23f2b2fb8c
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014930"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29382551"
 ---
 # <a name="overview-of-office-365-cloud-app-security"></a>Office 365 Cloud App Security 개요
   
@@ -28,7 +28,7 @@ ms.locfileid: "28014930"
 |여기는!  <br/> [다음 단계](get-ready-for-office-365-cas.md) <br/> |[계획을 시작합니다](get-ready-for-office-365-cas.md) <br/> |[배포를 시작 합니다.](turn-on-office-365-cas.md) <br/> |[활용 하 여 시작](utilization-activities-for-ocas.md) <br/> |
    
 > [!NOTE]
-> Office 365 클라우드 App 보안은 Office 365 Enterprise e 5에 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 Office 365 클라우드 앱 보안 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다. 
+> Office 365 클라우드 App 보안은 Office 365 Enterprise e 5에 사용할 수 있습니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 Office 365 클라우드 앱 보안 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)하 고 있습니다. 
   
 Office 365 클라우드 앱 보안 제공 의심 스러운 활동에 대 한 통찰력 Office 365에는 잠재적인 문제를 가진 하 고 필요한 경우 보안 문제를 해결 하는 작업을 수행 하는 상황을 조사할 수 있도록 합니다. Office 365 클라우드 응용 프로그램 보안을 함께 트리거된 알림 예외적인 또는 의심 스러운 활동에 대 한 알림을 받을, 어떻게 Office 365에서 조직의 데이터를 액세스 하 고 사용 하 고, 사용자 계정을 현상이 의심 스러운 작업을 일시 중단 하 고 필요 수 있습니다. 사용자가 로그인 할 알림을 트리거한 된 후에 Office 365 응용 프로그램을 백업 합니다. Office 365 클라우드 응용 프로그램 보안 기능을 대략적를이 문서를 읽어보십시오.
   
@@ -36,13 +36,15 @@ Office 365 클라우드 앱 보안 제공 의심 스러운 활동에 대 한 통
 ## <a name="how-to-find-the-office-365-cloud-app-security-portal"></a>Office 365 클라우드 응용 프로그램 보안 포털을 찾는 방법
 
 > [!NOTE]
-> Office 365 클라우드 응용 프로그램 보안 포털에 액세스 하려면 전역 관리자, 보안 관리자 또는 보안 판독기 이어야 합니다. 자세한 내용은 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
+> Office 365 클라우드 응용 프로그램 보안 포털에 액세스 하려면 Office 365 전역 관리자, 보안 관리자 또는 보안 판독기 이어야 합니다. 자세한 내용은 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
   
-Office 365 보안을 통해 Office 365 클라우드 응용 프로그램 보안 포털을 얻을 수 &amp; 준수 센터입니다. 작업을 수행 하는 한 가지 좋은 방법은 다음과 같습니다.
+으로 이동 하 여 Office 365 클라우드 응용 프로그램 보안 포털을 얻을 수 [https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com) 로그인 하 고 있습니다. 
+
+Office 365 보안에서 다음과 같은 얻을 수도 있습니다 &amp; 준수 센터입니다. 작업을 수행 하는 한 가지 좋은 방법은 다음과 같습니다.
   
-1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
+1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.)
     
-2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다. <br/>![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>(하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
+2. 보안에서 &amp; 준수 센터 **알림** 선택 \> **관리 고급 알림**입니다. <br/>![Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>(하는 경우 Office 365 클라우드 앱 보안 아직 활성화 되지 않으면 및 [Office 365 클라우드 응용 프로그램 보안 설정](turn-on-office-365-cas.md)전역 관리자 여야 합니다.)
     
 3. **Office 365 클라우드 응용 프로그램 보안으로 이동**을 선택 합니다. 
     

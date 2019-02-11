@@ -12,14 +12,17 @@ search.appverid:
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 description: 대략적으로 설명 경고 페이지 회사에서 Office 365 고급 위협 보호 되 면 표시 될 수 있습니다.
-ms.openlocfilehash: ac7fdcd17ad449afd9107ce67ecc89a107eb152b
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+ms.openlocfilehash: 422bdabf0593dd154461f973f86a4c1ca94e8651
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238270"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29686357"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
+
+> [!IMPORTANT]
+> 이 문서는 기업 고객을 위한 것입니다. Outlook에서 안전한 링크에 대 한 정보에 대 한 자세한 내용은 홈 사용자 인 경우 [Outlook.com 고급 보안](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조 하십시오.
 
 [Office 365 고급 위협 보호](office-365-atp.md) ATP ()는 피싱 시도 횟수와 [ATP 안전한 링크](atp-safe-links.md), [ATP 안전한 첨부 파일](atp-safe-attachments.md)및 [피싱 방지 보호 기능](anti-phishing-protection.md)등의 기능을 통해 맬웨어에서 조직을 보호할 수 있습니다. 현재 위치에서 보호 되 면 Office 문서 및 전자 메일 메시지의 링크 (Url) 되는지 여부를 확인 합니다. 의심 스러운 또는 악의적으로 식별 되는 URL을 클릭할 때 URL 열에서 차단 수 있습니다. 사이트에 직접 이동, 대신 대신 경고 페이지를 볼 수 있습니다. 
   

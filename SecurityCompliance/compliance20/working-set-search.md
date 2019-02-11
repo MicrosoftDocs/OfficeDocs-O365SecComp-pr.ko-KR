@@ -1,5 +1,5 @@
 ---
-title: 작업 집합의 데이터를 쿼리합니다.
+title: 작업 집합에서 데이터 쿼리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 03c82741b3a4433c43ef709701ab40330ac5fd1f
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: 3a503dd825cf65bef0dde537862561887d908563
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608136"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29694994"
 ---
-# <a name="querying-data-in-a-working-set"></a>작업 집합의 데이터를 쿼리합니다.
+# <a name="query-the-data-in-a-working-set"></a>작업 집합에서 데이터 쿼리
 
 대부분의 경우에서 보다 깊이 작업 집합의 인스턴스가 있습니다 항목과 구성 보다 효율적으로 검토 하 고, 수 있어야 하는 것이 유용할 됩니다. 작업 집합 내에서 쿼리를 사용 하면 사용자가 한번에 정의 된 조건을 충족 하는 문서의 하위 집합에 집중할 수 있도록 하 여 수행할 수 있습니다.
 

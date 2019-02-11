@@ -16,10 +16,10 @@ search.appverid:
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Office 365 환경을 보호 하기 위해 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀에서 위쪽 권장 합니다. '
 ms.openlocfilehash: 58767ea9a2b825d1583d9135f9d8edcb0d20d7c2
-ms.sourcegitcommit: 4a7d7717f0da05cf5a3c506df2989a9d02f33dfa
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2018
+ms.lasthandoff: 02/11/2019
 ms.locfileid: "25450083"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Office 365 보안 로드맵-처음 30 일, 90 일 동안 및 이외 위쪽 우선순위
@@ -70,7 +70,7 @@ ms.locfileid: "25450083"
   
 |||
 |:-----|:-----|
-|영역  <br/> |작업   <br/> |
+|영역  <br/> |작업  <br/> |
 |보안 관리  <br/> | • 환경에 대 한 권장된 작업에 대 한 보안 점수를 확인 합니다 ( [https://securescore.office.com](https://securescore.office.com)).  <br/>  •는 정기적으로 검토 하는 대시보드 및 Office 365 보안 및 규정 준수 센터, 클라우드 응용 프로그램 보안 및 SIEM 도구에서 보고서를 계속 합니다.  <br/>  • 살펴보고 소프트웨어 업데이트를 구현 합니다.  <br/>  • 행위 공격 시뮬레이션 창 피싱, 암호-스프레이 및 무차별 암호에 대 한 [공격 시뮬레이터](https://support.office.com/article/attack-simulator-office-365-da5845db-c578-4a41-b2cb-5a09689a551b) ( [Office 365 위협 정보를 바탕](office-365-ti.md)으로 포함)를 사용 하 여 공격 합니다.  <br/>  • 정보를 표시 하 (조사 탭)에 클라우드 응용 프로그램 보안의 기본 제공 보고서를 검토 하 여 위험을 공유 합니다.  <br/>  • [규정 준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) 검토 (예: GDPR, 800 171 NIST) 조직에 적용 되는 규정에 대 한 상태를 확인 합니다.  <br/> |
 |위협 방지  <br/> | 관리 계정에 대 한 향상 된 보호를 구현 합니다.  <br/>  • 관리 작업에 대 한 [권한이 부여 된 액세스 워크스테이션](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) (PAWs)을 구성 합니다.  <br/>  • [Azure AD 권한 Id 관리](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)를 구성 합니다.  <br/>  •는 Office 365, 클라우드 응용 프로그램 보안 및 AD FS 등의 기타 서비스에서 로깅 데이터를 수집 하는 보안 정보 및 이벤트 (SIEM) 관리 도구를 구성 합니다. Office 365 감사 로그만 90 일 동안 데이터를 저장합니다. SIEM 도구에서이 데이터를 캡처하기를 사용 하면 더 긴 기간에 대 한 데이터를 저장할 수 있습니다.<br/> |
 |ID 및 액세스 관리  <br/> | • 사용 하도록 설정 하 고 모든 사용자에 대 한 MFA를 적용 합니다.  <br/>  • [조건부 액세스 및 관련된 정책](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations)집합을 구현 합니다. |
@@ -83,7 +83,7 @@ ms.locfileid: "25450083"
   
 |||
 |:-----|:-----|
-|영역  <br/> |작업   <br/> |
+|영역  <br/> |작업  <br/> |
 |보안 관리  <br/> |• 보안 점수를 사용 하 여 다음 작업을 계획을 계속 ( [https://securescore.office.com](https://securescore.office.com)).  <br/>  •는 정기적으로 검토 하는 대시보드 및 Office 365 보안 및 규정 준수 센터, 클라우드 응용 프로그램 보안 및 SIEM 도구에서 보고서를 계속 합니다.  <br/>  • 계속에 대 한 확인 하 고 소프트웨어 업데이트를 구현 합니다.  <br/>  • 대화 법률에 eDiscovery 및 위협 응답 프로세스를 통합 합니다.  <br/> |
 |위협 방지  <br/> | • 온-프레미스 (AD, AD FS) identity 구성 요소에 대 한 [액세스 권한을 보안](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access) (SPA)을 구현 합니다.  <br/>  • 클라우드 앱 보안 내부 인 위협에 대 한 모니터링을 사용 합니다.  <br/>  • 클라우드 응용 프로그램 보안을 사용 하 여 그림자 IT SaaS 사용 현황을 파악 합니다.  <br/> |
 |ID 및 액세스 관리  <br/> | • 구체화 정보 보호 정책:  <br/>  • Azure 정보 보호 및 Office 365 데이터 손실 방지 (DLP).  <br/>  • 클라우드 응용 프로그램 보안 정책 및 경고 합니다.  <br/> |

@@ -3,7 +3,7 @@ title: Office 365 고급 eDiscovery 검색 결과 준비
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 5/10/2017
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -14,18 +14,24 @@ ms.collection: Strat_O365_IP
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Office 365 보안에서 콘텐츠 검색의 결과 준비 하는 방법에 알아봅니다 &amp; 고급 eDiscovery 도구를 사용 하 여 분석 추가 대 한 준수 센터입니다.
-ms.openlocfilehash: f5b10ac7fcfa67f67618c936000832b9bdb7d533
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: c70eec691359170ae67e431f20e3b8ad389443f3
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25038311"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "27280171"
 ---
 # <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery 검색 결과 준비
 
 Office 365 보안에서 eDiscovery 사례와 관련 된 검색 한 후 &amp; 준수 센터 성공적으로 실행 된, 큰 분석할 수 있습니다, Office 365 고급 eDiscovery 사용 하 여 분석 추가 대 한 검색 결과 준비할 수 있습니다 구조화 되지 않은 데이터 설정 하 고 법적 사례와 관련 된 데이터의 양을 줄일 합니다. 고급 eDiscovery 기능은 다음과 같습니다.
   
-- **광학 문자 인식** -자동으로 고급 eDiscovery, 광학 문자 인식 (OCR) 기능에 대 한 검색 결과 준비할 때는 이미지, 텍스트 추출 하 고이를 로드 되는 검색 결과 함께 포함 분석을 위해 고급 eDiscovery 합니다. 메뉴 및 도구 모음을 OCR 느슨한 파일에 대 한 지원 전자 메일 첨부 파일, 이미지를 포함 합니다. 이 옵션을 사용 하면 이미지 파일의 텍스트 콘텐츠 (중복 근처, 전자 메일 스레딩, 테마 및 예측 코딩) 고급 eDiscovery의 텍스트 분석 기능을 적용할 수 있습니다. 
+- **광학 문자 인식** -자동으로 고급 eDiscovery, 광학 문자 인식 (OCR) 기능에 대 한 검색 결과 준비할 때는 이미지, 텍스트 추출 하 고이를 로드 되는 검색 결과 함께 포함 분석을 위해 고급 eDiscovery 합니다. 메뉴 및 도구 모음을 OCR 느슨한 파일에 대 한 지원 전자 메일 첨부 파일, 이미지를 포함 합니다. 이 옵션을 사용 하면 이미지 파일의 텍스트 콘텐츠 (중복 근처, 전자 메일 스레딩, 테마 및 예측 코딩) 고급 eDiscovery의 텍스트 분석 기능을 적용할 수 있습니다. 고급 eDiscovery OCR 이미지 파일에 대 한 다음과 같은 형식을 지원합니다.
+
+    - GIF
+    - JPEG
+    - JPG
+    - PNG
+    - TIFF
     
 - **거의 비슷한 검색** -그룹 비슷한 문서를 검토 하는 두 명 하므로 데이터 검토를 보다 효율적으로 구성 수 있습니다. 이렇게 하면 여러 검토자가 동일한 문서의 여러 버전을 볼 수 있는 것을 방지할 수 있습니다. 
     
@@ -41,7 +47,7 @@ Office 365 보안에서 eDiscovery 사례와 관련 된 검색 한 후 &amp; 준
 
 - 고급 eDiscovery를 사용 하 여 사용자의 데이터를 분석 하려면 (데이터의 더불어) 사용자는 Office 365 E5 라이선스를 할당 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자의 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 관리자 및 규정 준수 관리자의 경우에 할당 된 및 고급 eDiscovery를 사용 하 여 데이터를 분석 하 게 e 5 라이선스가 필요는 없습니다. 
     
-- EDiscovery 관리자 또는 eDiscovery Office 365 보안의 관리자 여야 &amp; 준수 센터 고급 ediscovery 검색 결과 준비를 합니다. EDiscovery 관리자는 eDiscovery 관리자 역할 그룹의 구성원입니다. EDiscovery 관리자도 eDiscovery 관리자 역할 그룹의 구성원 이지만 추가 eDiscovery 권한을 할당 합니다. EDiscovery 관리자 권한을 할당 하는 방법에 대 한 지침에 대 한 [Office 365 보안 및 규정 준수 센터의 eDiscovery 사례](ediscovery-cases.md#step-1-assign-ediscovery-permissions-to-potential-case-members)에서 1 단계를 참조 하십시오.
+- EDiscovery 관리자 또는 eDiscovery Office 365 보안의 관리자 여야 &amp; 준수 센터 고급 ediscovery 검색 결과 준비를 합니다. EDiscovery 관리자는 eDiscovery 관리자 역할 그룹의 구성원입니다. EDiscovery 관리자도 eDiscovery 관리자 역할 그룹의 구성원 이지만 추가 eDiscovery 권한을 할당 합니다. EDiscovery 관리자 권한을 할당 하는 방법에 대 한 지침에 대 한 [Office 365 보안 & 준수 센터의에서 eDiscovery 사례](ediscovery-cases.md#step-1-assign-ediscovery-permissions-to-potential-case-members)에서 1 단계를 참조 하십시오.
     
 ## <a name="step-1-prepare-search-results-for-advanced-ediscovery"></a>1 단계: 준비 고급 eDiscovery에 대 한 결과 검색 합니다.
 

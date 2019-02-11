@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2062c312-b1e4-4ce7-8cb2-ea39bc0dfdad
 description: Office 365 클라우드 응용 프로그램 보안에서 OAuth 앱 사용자에 게 Office 365 데이터에 사용 하기 위한 다운로드 앱을 관리 하는 데 도움이
-ms.openlocfilehash: 2e3c6d9d42b22aa8bb666211431197744471e84f
-ms.sourcegitcommit: 25f72d20e76463c2f0a075dfc0116f00c934bd77
+ms.openlocfilehash: ae32e3c6b15f4ad4794a3dd08c3992adaeba655c
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "27447046"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29603689"
 ---
 # <a name="manage-oauth-apps-using-office-365-cloud-app-security"></a>Office 365 Cloud App Security를 사용하여 OAuth 앱 관리
 
@@ -35,13 +35,9 @@ ms.locfileid: "27447046"
 > [!NOTE]
 > OAuth apps Office 365 클라우드 응용 프로그램 보안 포털에서 관리 됩니다. 다음 작업을 수행 하려면 전역 관리자 또는 보안 관리자 여야 합니다. 더 많은 참조 내용을 알아보려면 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
   
-1. 이동 [https://protection.office.com](https://protection.office.com) 및 Office 365에 대 한 작업이 나 교육용 계정을 사용 하 여 로그인 합니다. (이렇게 하면 보안 &amp; 준수 센터.) 
-    
-2. **경고** 로 이동 \> **관리 고급 알림**입니다.
-    
-3. 클릭 (또는 누릅니다) **Office 365 클라우드 응용 프로그램 보안으로 이동**합니다.<br/>![보안에서 &amp; 준수 센터 Office 365 클라우드 앱 보안으로 이동 하려면 고급 알림 관리를 선택 합니다.](media/958632d4-03e3-4ade-8e22-d5509db6fca7.png)<br/>**참고**: Office 365 클라우드 App 보안은 아직 설정 하지 않으면, 수행할 수 있는이 페이지에 있습니다. [Office 365 클라우드 응용 프로그램 보안에 대 한 준비](get-ready-for-office-365-cas.md)를 참조 합니다. 
+1. 클라우드 응용 프로그램 보안 포털에 이동 ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))에 로그인 하 고 있습니다.
   
-4. **조사** 선택 \> **OAuth 앱**입니다.<br/>![O365 CAS 포털에서 조사를 선택 합니다.](media/OCAS-OAuthApps.png)<br/>
+2. **조사** 선택 \> **OAuth 앱**입니다.<br/>![O365 CAS 포털에서 조사를 선택 합니다.](media/OCAS-OAuthApps.png)<br/>
   
 ## <a name="what-youll-see-on-the-manage-oauth-apps-page"></a>OAuth 관리 앱 페이지에 표시 됩니다.
 
