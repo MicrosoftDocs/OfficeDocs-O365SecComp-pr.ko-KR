@@ -9,12 +9,12 @@ ms.service: o365-solutions
 ms.custom: ''
 localization_priority: Priority
 description: 온-프레미스 SharePoint Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: f6f5e4a1b9309f846d47fda69a76ab4da396b2f5
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 05c64c10c2fea80ed410258433c35efc33c4a9de
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272393"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29740830"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>SharePoint Server의 GDPR
 
@@ -36,7 +36,7 @@ SharePoint Server 사이트 및 라이브러리에 포함된 사용자 생성 �
 
 파일 공유와 SharePoint 사이트 및 라이브러리에 대한 권장 접근법에는 다음 단계가 포함됩니다.
 
-1.  **Azure Information Protection 스캐너를 설치하고 구성합니다.**
+1.  **[Azure Information Protection 스캐너를 설치하고 구성합니다.](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   사용할 중요한 데이터 형식을 결정합니다.
 
@@ -116,32 +116,32 @@ SharePoint Server에서 쿼리 기록 및 ‘즐겨찾기’ 쿼리는 자동으
 
 ```sql
 [In dbo].[LinkStore_<ID>]:
-CREATE PROCEDURE proc_MSS_GetQueryTermsForUser 
-( 
-    @UserName nvarchar(256), 
-    @StartTime datetime 
-) 
-AS 
-BEGIN 
-    SET NOCOUNT ON; 
-    SELECT searchTime, queryString 
-    FROM 
-        dbo.MSSQLogPageImpressionQuery 
-    WITH 
-        (NOLOCK) 
-    WHERE 
-        userName = @UserName AND 
-        searchTime > @StartTime 
-END 
-GO 
+CREATE PROCEDURE proc_MSS_GetQueryTermsForUser 
+( 
+    @UserName nvarchar(256), 
+    @StartTime datetime 
+) 
+AS 
+BEGIN 
+    SET NOCOUNT ON; 
+    SELECT searchTime, queryString 
+    FROM 
+        dbo.MSSQLogPageImpressionQuery 
+    WITH 
+        (NOLOCK) 
+    WHERE 
+        userName = @UserName AND 
+        searchTime > @StartTime 
+END 
+GO 
 ```
 
 #### <a name="export-a-users-queries-from-the-past-100-days"></a>지난 100일 동안의 사용자 쿼리 내보내기
 
 ```sql
-DECLARE @FROMDATE datetime 
-SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
-EXECUTE proc_MSS_GetQueryTermsForUser '0#.w|domain\username', @FROMDATE 
+DECLARE @FROMDATE datetime 
+SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
+EXECUTE proc_MSS_GetQueryTermsForUser '0#.w|domain\username', @FROMDATE 
 ```
 
 #### <a name="export-a-users-favorite-queries"></a>사용자의 즐겨찾기 쿼리 내보내기
@@ -150,34 +150,34 @@ EXECUTE proc_MSS_GetQueryTermsForUser '0#.w|domain\username', @FROMDATE
 
 ```sql
 In [dbo].[Search_<ID>]:
-CREATE PROCEDURE proc_MSS_GetPersonalFavoriteQueries 
-( 
-    @UserName nvarchar(256), 
-    @SearchTime datetime 
-) 
-AS 
-BEGIN 
-    SET NOCOUNT ON; 
-    SELECT max(queries.SearchTime) as SearchTime, 
-           max(queries.querystring) as queryString, 
-           max(url.url) as URL 
-    FROM MSSQLogOwner owners WITH(NOLOCK) 
-    JOIN MSSQLogPersonalResults results WITH(NOLOCK) on owners.OwnerId = results.OwnerId 
-    JOIN MSSQLogUrl url WITH(NOLOCK) on results.ClickedUrlId = url.urlId 
-    JOIN MSSQLogPersonalQueries queries WITH(NOLOCK) on results.OwnerId = queries.OwnerId 
-    WHERE queries.SearchTime > @SearchTime 
-        AND queries.UserName = @UserName 
-        GROUP BY queries.QueryString,url.url 
-END 
-GO 
+CREATE PROCEDURE proc_MSS_GetPersonalFavoriteQueries 
+( 
+    @UserName nvarchar(256), 
+    @SearchTime datetime 
+) 
+AS 
+BEGIN 
+    SET NOCOUNT ON; 
+    SELECT max(queries.SearchTime) as SearchTime, 
+           max(queries.querystring) as queryString, 
+           max(url.url) as URL 
+    FROM MSSQLogOwner owners WITH(NOLOCK) 
+    JOIN MSSQLogPersonalResults results WITH(NOLOCK) on owners.OwnerId = results.OwnerId 
+    JOIN MSSQLogUrl url WITH(NOLOCK) on results.ClickedUrlId = url.urlId 
+    JOIN MSSQLogPersonalQueries queries WITH(NOLOCK) on results.OwnerId = queries.OwnerId 
+    WHERE queries.SearchTime > @SearchTime 
+        AND queries.UserName = @UserName 
+        GROUP BY queries.QueryString,url.url 
+END 
+GO 
 ```
 
-#### <a name="export-a-users-favorite-queries-from-the-past-100-days"></a>지난 100일 동안 사용자의 즐겨찾기 쿼리 내보내기 
+#### <a name="export-a-users-favorite-queries-from-the-past-100-days"></a>지난 100일 동안 사용자의 즐겨찾기 쿼리 내보내기 
 
 ```sql
-DECLARE @FROMDATE datetime 
-SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
-EXECUTE proc_MSS_GetPersonalFavoriteQueries '0#.w|domain\username', @FROMDATE 
+DECLARE @FROMDATE datetime 
+SET @FROMDATE = DATEADD(day, -100, GETUTCDATE()) 
+EXECUTE proc_MSS_GetPersonalFavoriteQueries '0#.w|domain\username', @FROMDATE 
 ```
 
 #### <a name="remove-references-to-user-names-that-are-more-than-x-days-old"></a>X일보다 오래된 사용자 이름에 대한 참조 제거
@@ -185,28 +185,28 @@ EXECUTE proc_MSS_GetPersonalFavoriteQueries '0#.w|domain\username', @FROMDATE
 다음 절차를 통해 링크 스토어 쿼리 로그 테이블에서 @Days보다 오래된 *모든* 사용자 이름에 대한 참조를 제거합니다. 이 절차는 @LastCleanupTime에 도달하기 전의 참조만 제거합니다.
 
 ```sql
-In [dbo].[LinksStore_<ID>]:  
-CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
-( 
-    @LastCleanupTime datetime, 
-    @Days int 
-) 
-AS 
-BEGIN 
-    DECLARE @TooOld datetime 
-    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
-    DECLARE @FromLast datetime 
-    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
-    BEGIN TRANSACTION 
-         UPDATE MSSQLogPageImpressionQuery 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
-    UPDATE MSSQLogO14PageClick 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
-    COMMIT TRANSACTION 
-END 
-GO 
+In [dbo].[LinksStore_<ID>]:  
+CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
+( 
+    @LastCleanupTime datetime, 
+    @Days int 
+) 
+AS 
+BEGIN 
+    DECLARE @TooOld datetime 
+    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
+    DECLARE @FromLast datetime 
+    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
+    BEGIN TRANSACTION 
+         UPDATE MSSQLogPageImpressionQuery 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
+    UPDATE MSSQLogO14PageClick 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld 
+    COMMIT TRANSACTION 
+END 
+GO 
 ```
 
 #### <a name="remove-references-to-a-specific-user-name-thats-more-than-x-days-old"></a>X일보다 오래된 특정 사용자 이름에 대한 참조 제거
@@ -215,67 +215,69 @@ GO
 
 ```sql
 In [dbo].[LinksStore_<ID>]:
-CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
-( 
-    @UserName nvarchar(256),
-    @LastCleanupTime datetime, 
-    @Days int 
-) 
-AS 
-BEGIN 
-    DECLARE @TooOld datetime 
-    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
-    DECLARE @FromLast datetime 
-    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
-    BEGIN TRANSACTION 
-         UPDATE MSSQLogPageImpressionQuery 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
-    UPDATE MSSQLogO14PageClick 
-    SET userName = 'NA' 
-    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
-    COMMIT TRANSACTION 
-END 
-GO 
+CREATE PROCEDURE proc_MSS_QLog_Cleanup_Users 
+( 
+    @UserName nvarchar(256),
+    @LastCleanupTime datetime, 
+    @Days int 
+) 
+AS 
+BEGIN 
+    DECLARE @TooOld datetime 
+    SET @TooOld = DATEADD(day, -@Days, GETUTCDATE()) 
+    DECLARE @FromLast datetime 
+    SET @FromLast = DATEADD(day, -@Days, @LastCleanupTime) 
+    BEGIN TRANSACTION 
+         UPDATE MSSQLogPageImpressionQuery 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
+    UPDATE MSSQLogO14PageClick 
+    SET userName = 'NA' 
+    WHERE @FromLast <= searchTime AND searchTime < @TooOld AND userName = @UserName
+    COMMIT TRANSACTION 
+END 
+GO 
 ```
 
 #### <a name="remove-references-to-all-user-names-in-the-query-history-from-a-date-and-up-to-the-past-30-days"></a>날짜와 지난 30일 동안의 쿼리 기록에 있는 모든 사용자 이름에 대한 참조 제거
 
 ```sql
-EXECUTE proc_MSS_QLog_Cleanup_Users '1-1-2017', 30 
+EXECUTE proc_MSS_QLog_Cleanup_Users '1-1-2017', 30 
 ```
 
 ### <a name="delete-usage-records"></a>사용 현황 레코드 삭제
 
 SharePoint Server는 3년 후 자동으로 사용 현황 레코드를 삭제합니다. 다음 절차를 사용해 이러한 레코드를 수동으로 삭제할 수 있습니다.
 
-삭제된 문서와 연관된 모든 사용 현황 레코드를 삭제하려면: 
+삭제된 문서와 연관된 모든 사용 현황 레코드를 삭제하려면: 
 
-1.  최신 SharePoint 업데이트가 설치되어 있는지 확인합니다. 
+1.  최신 SharePoint 업데이트가 설치되어 있는지 확인합니다. 
 
 2.  SharePoint 관리 셀을 시작합니다.
 
-3.  사용 현황 분석 중지 및 지우기: 
+3.  사용 현황 분석 중지 및 지우기: 
 
     ```powershell
-    $tj = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.UsageAnalyticsJobDefinition 
-    $tj.StopAnalysis() 
-    $tj.ClearAnalysis() 
+    $tj = Get-SPTimerJob -Type Microsoft.Office.Server.Search.Analytics.UsageAnalyticsJobDefinition 
+    $tj.DisableTimerjobSchedule()
+    $tj.StopAnalysis() 
+    $tj.ClearAnalysis() 
+    $tj.EnableTimerjobSchedule()
     ```
 
-4.  다시 시작하려면 분석을 기다립니다(24시간 정도 소요될 수 있음). 
+4.  다시 시작하려면 분석을 기다립니다(24시간 정도 소요될 수 있음). 
 
 5.  다음번 분석 실행 시 분석 보고 데이터베이스에서 모든 레코드를 덤프합니다. 항목이 많은 대용량 데이터베이스의 경우 이 전체 덤프는 시간이 다소 소요될 수 있습니다.
 
-6.  10일 동안 기다립니다. 분석을 매일 실행하며 삭제된 문서와 연관된 레코드는 10번째 실행한 후 제거됩니다. 많은 레코드를 삭제해야 하는 경우 평소보다 시간이 더 소요될 수 있습니다. 
+6.  10일 동안 기다립니다. 분석을 매일 실행하며 삭제된 문서와 연관된 레코드는 10번째 실행한 후 제거됩니다. 많은 레코드를 삭제해야 하는 경우 평소보다 시간이 더 소요될 수 있습니다. 
 
 ### <a name="personal-information-and-search-in-sharepoint-server-2010"></a>SharePoint Server 2010의 개인 정보 및 검색
 
-#### <a name="fast-search-server-2010-for-sharepoint"></a>FAST Search Server 2010 for SharePoint 
+#### <a name="fast-search-server-2010-for-sharepoint"></a>FAST Search Server 2010 for SharePoint 
 
 인덱스에 파일을 저장하는 것 외에 FAST Search Server 2010 추가 기능은 SFixML이라는 중간 형식에 파일을 저장합니다. FiXML 파일은 기본적으로 매일 새벽 3시에서 5시 사이에 정기적으로 압축됩니다. 압축하면 FiXML 파일에서 삭제된 파일이 자동으로 제거됩니다. 삭제된 사용자 또는 문서에 속한 정보를 적절한 시기에 제거하려면 항상 압축을 사용할 수 있는지 확인합니다.
 
-### <a name="hybrid-search"></a>하이브리드 검색 
+### <a name="hybrid-search"></a>하이브리드 검색 
 
 하이브리드 검색 솔루션에 대한 권장 사항은 SharePoint Server 또는 SharePoint Online의 검색에 대한 권장 사항과 같습니다. 다음은 2가지 하이브리드 검색 솔루션입니다.
 
@@ -317,7 +319,7 @@ $credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredential
 $clientContext.Credentials = $credentials
 if (!$clientContext.ServerObjectIsNull.Value)
 {
-    Write-Host "Connected to SharePoint Online site: '$Url'" -ForegroundColor Green
+    Write-Host "Connected to SharePoint Online site: '$Url'" -ForegroundColor Green
 }
 
 # Get user

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: d957fc251aa4591d273a65d0a85ecde0df0845c9
-ms.sourcegitcommit: c7264f3a6a97f1ff544544e2c722e7825e265fa1
+ms.openlocfilehash: 7f8ab61a4d42f1a032f19110ccd1d12f833c0737
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26299252"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29614502"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -266,22 +266,34 @@ Office 365 그룹에 보존 레이블을 게시하면 웹용 Outlook의 그룹 �
     
 - 검색된 중요한 정보 유형은 75 이상의 일치 정확도(또는 신뢰도)를 갖습니다. 많은 중요한 정보 유형은 여러 패턴으로 정의되고, 일치 정확도가 더 높은 패턴에서는 더 많은 증거(예: 키워드, 날짜 또는 주소)가 검색되어야 합니다. 일치 정확도가 더 낮은 패턴은 증거가 덜 요구합니다. 간단히 말해서 **min** 일치 정확도가 더 낮을수록 콘텐츠가 조건과 일치하기가 더 쉽습니다. 
     
-    일치 정확도(또는 신뢰도)를 변경하는 경우 [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)에 정의된 것처럼 해당 유형의 중요한 정보에 대한 패턴에서 사용되는 신뢰도 중 하나를 사용해야 합니다.
+이 옵션에 대한 자세한 내용은 [더 쉽게 또는 더 어렵게 일치하도록 규칙 조정](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match)을 참조하세요.
     
 ![중요한 정보 유형을 식별하기 위한 옵션](media/de255881-f596-4c8d-8359-e974e3a0819a.png)
   
-### <a name="auto-apply-retention-labels-to-content-with-keywords"></a>키워드가 있는 콘텐츠에 보존 레이블 자동 적용
+### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>키워드 또는 검색 가능 속성이 있는 콘텐츠에 레이블 자동 적용
 
-특정 조건을 충족하는 콘텐츠에 보존 레이블을 자동으로 적용할 수 있습니다. 현재 사용 가능한 조건은 특정 단어 또는 구를 포함하는 콘텐츠에 보존 레이블을 적용하도록 지원합니다. AND, OR 및 NOT과 같은 검색 연산자를 사용하여 쿼리를 구체화할 수 있습니다. 
+특정 조건을 충족하는 콘텐츠에 레이블을 자동으로 적용할 수 있습니다. 현재 사용 가능한 조건은 특정 단어, 구 또는 검색 가능 속성 값을 포함하는 콘텐츠에만 레이블을 적용하도록 지원합니다. AND, OR 및 NOT과 같은 검색 연산자를 사용하여 쿼리를 구체화할 수 있습니다.
 
 쿼리 구문에 대한 자세한 내용은 다음을 참조하세요.
 
-- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
-쿼리 기반 보존 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다.
-  
+쿼리 기반 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다. 유효한 검색 가능 속성에 대한 자세한 내용은 다음을 참조하세요.
+
+- [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
+- [SharePoint Server에서 크롤링 및 관리 속성의 개요](https://docs.microsoft.com/ko-KR/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+
+예제 쿼리:
+
+- Exchange
+    - subject:"Quarterly Financials"
+    - recipients:garthf<!--nolink-->@contoso.com
+- SharePoint 및 비즈니스용 OneDrive
+    - contenttype:contract
+    - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract
+
 ![쿼리 편집기](media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
-  
+
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 
 사용자가 개별 문서에 보존 레이블을 적용할 수 있도록 하는 것 외에, SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 문서에 기본 보존 레이블이 적용되도록 해당 위치에 기본 보존 레이블을 적용할 수도 있습니다.
@@ -346,7 +358,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
     
 ### <a name="who-can-classify-content-as-a-record"></a>콘텐츠를 기록으로 분류할 수 있는 사람
 
-SharePoint 콘텐츠의 경우 기본 구성원 그룹(참가 권한 수준)의 모든 사용자는 콘텐츠에 기록 레이블을 적용할 수 있습니다. 사이트 모음 관리자만 적용된 보존 레이블을 제거하거나 변경할 수 있습니다. 또한 콘텐츠를 기록으로 분류하는 보존 레이블은 자동으로 적용할 수 없으며 수동으로 적용해야 합니다.
+SharePoint 콘텐츠의 경우 기본 구성원 그룹(참가 권한 수준)의 모든 사용자는 콘텐츠에 기록 레이블을 적용할 수 있습니다. 사이트 모음 관리자만 적용된 보존 레이블을 제거하거나 변경할 수 있습니다. 또한 콘텐츠를 기록으로 분류하는 보존 레이블은 [콘텐츠에 자동으로 적용](#auto-apply-retention-labels)할 수 있습니다.
   
 ### <a name="records-and-folders"></a>기록 및 폴더
 

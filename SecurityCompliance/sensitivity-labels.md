@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: Office 365의 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 2804785362b504137319f5560287b6b2319e840b
-ms.sourcegitcommit: d05a9937780d210b7ad48e721b947397ac5405a2
+ms.openlocfilehash: 48d66a93c82a7430bc34373975d385ebc7bfbf9a
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29607160"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29706169"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -123,6 +123,9 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
     ![사용자가 근거를 입력하는 메시지](media/Sensitivity_label_justification_required.png)
 
 - **사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구합니다.** 사용자의 모든 콘텐츠에 레이블을 지정하도록 하려는 경우, 사용자의 저장된 문서 및 보낸 전자 메일 모두에 레이블을 적용하도록 요구할 수 있습니다. 사용자가 레이블을 수동으로 할당하고, 레이블이 조건의 결과로 자동으로 할당되거나, 기본적으로 할당(위에 설명된 기본 레이블 옵션)될 수 있습니다. 사용자가 레이블 할당 요구를 받을 때 Outlook에 표시되는 메시지는 다음과 같습니다.
+
+    > [!NOTE]
+    > 필수 레이블 지정에는 Azure Information Protection 구독이 필요합니다. 이 기능을 사용하려면 [Azure Information Protection 클라이언트](https://www.microsoft.com/en-us/download/details.aspx?id=53018) 또는 이후 버전의 [Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/install-unifiedlabelingclient-app)를 다운로드하여 설치해야 합니다. Microsoft는 Office 앱에서 이 기능을 위한 기본 지원을 마련하고 있으므로 Azure Information Protection 클라이언트가 필요하지 않습니다. 또한 클라이언트가 Windows에서만 실행되므로 아직 이 기능은 Mac, iOS 및 Android에서는 지원되지 않습니다.
 
     ![사용자에게 필수 레이블을 적용하도록 요구하는 Outlook 메시지](media/sensitivity_labels_mandatory_prompt_aipv2_outlook.PNG)
 

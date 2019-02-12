@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: fff787e980b7dbbfea227734bb6caad0985cf158
-ms.sourcegitcommit: 77c50332c3dbb026f47da3ac2534198202d9ef64
+ms.openlocfilehash: 154be1d4dd1e891913e1b64d8f1ae5dfa34706bf
+ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25842642"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "26547320"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
 
@@ -44,7 +44,7 @@ ms.locfileid: "25842642"
 
 ## <a name="how-to-turn-on-encryption-for-a-sensitivity-label"></a>민감도 레이블의 암호화를 설정하는 방법
 
-먼저 **암호화**를 **켬**으로 설정한 다음 아래 옵션을 사용하여이 레이블이 적용되는 전자 메일 또는 문서에 액세스할 수있는 사람을 제어할 수 있습니다. 다음을 수행할 수 있습니다.
+먼저 **암호화**를 **켬**으로 설정합니다. 그런 다음 아래 옵션을 사용하여 이 레이블이 적용되는 전자 메일 또는 문서에 액세스할 수 있는 사람을 관리할 수 있습니다. 다음을 수행할 수 있습니다.
 
 1. **전자 메일과 문서 둘 다에 암호화를 적용하거나 전자 메일에만 적용합니다.** 전자 메일만 선택하면 이 레이블이 있는 메시지가 Outlook에서 암호화되지만 이 레이블이 있는 문서는 Word 또는 PowerPoint와 같은 다른 응용 프로그램에서 암호화되지 않습니다. 
 2. 특정 날짜 또는 레이블을 지정한 후 특정 일수가 지나면 **레이블을 지정한 콘텐츠에 대한 액세스가 만료되도록** 합니다. 이 기간 이후 사용자는 레이블을 지정한 항목을 열 수 없습니다. 날짜를 지정하는 경우 표준 시간대의 해당 날짜 자정에 적용됩니다. 
