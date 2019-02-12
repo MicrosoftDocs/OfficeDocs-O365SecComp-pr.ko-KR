@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365에 포함 되는 추가 속성에 대 한 설명이 로그 레코드를 감사 합니다.
-ms.openlocfilehash: 0c50001a51c0b4097da1080c9dc1f9247506dd08
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: e2450f8d4f9a613d6b21e373d2a2de841cfc7ca0
+ms.sourcegitcommit: d6b1632a44e40522a4a16e7cb05ba5189214baeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/11/2019
-ms.locfileid: "29740860"
+ms.locfileid: "29890049"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
@@ -66,7 +66,7 @@ Office 365 보안에서 감사 로그 검색의 결과 내보낼 때 &amp; 준�
 |OrganizationID  <br/> |Office 365 조직에 대 한 GUID입니다.  <br/> |모두  <br/> |
 |경로  <br/> |메시지에 액세스 하는 위치한 사서함 폴더의 이름입니다. 이 속성은 또한 where a 폴더 식별에 메시지를 만들거나 복사/이동 합니다.  <br/> |Exchange (사서함 활동)  <br/> |
 |매개 변수  <br/> |Exchange 관리 작업, 이름 및 작업 속성에서 식별 되는 cmdlet과 함께 사용 된 모든 매개 변수에 대 한 값입니다.  <br/> |Exchange (관리 활동)  <br/> |
-|RecordType  <br/> |레코드에 지정 된 작업의 형식입니다. 다음 값은 레코드 종류를 나타냅니다.<br/><br/> **1** -Exchange 관리자 감사 로그에서 레코드를 나타냅니다. <br/>**2** -선별 사서함 항목에서 수행 되는 작업에 대 한 Exchange 사서함 감사 로그에서 레코드를 나타냅니다. <br/>또한 **3** -Exchange 사서함 감사 로그에서 레코드를 나타냅니다. 이 레코드 종류 (예: 여러 항목을 지운 편지함 폴더로 이동 또는 여러 항목을 영구적으로 삭제) 원본 사서함에서 여러 항목에 대해 작업을 수행 하는 것을 나타냅니다.<br/>**4** -관리자 또는 사이트에 사용 권한을 할당 하는 사용자가 예: sharepoint에서 사이트 관리 작업을 나타냅니다. <br/>**6** -파일 또는 폴더와 관련 된 작업 보기 또는 파일을 수정 하는 사용자와 같은 sharepoint에서 나타냅니다. <br/>**8** -Azure Active Directory에서 수행 되는 관리 작업을 나타냅니다. <br/>**9** -Azure Active Directory에서 로그온 이벤트 OrgId를 나타냅니다. 이 레코드 종류는 사용 되지 않습니다.<br/>**10** -데이터 센터에서 Microsoft 담당자가 수행한 보안 cmdlet 이벤트를 나타냅니다. <br/>**11** -SharePoint에서 손실 방지 (DLP) 이벤트 데이터를 나타냅니다.<br/> **12** -이벤트 라를 나타냅니다. <br/>**13** -Exchange, DLP 정책 통합을 구성 하는 경우의 이벤트를 DLP를 나타냅니다. Exchange 전송 규칙을 기반으로 DLP 이벤트 지원 되지 않습니다.<br>**14** -SharePoint에서 공유 이벤트를 나타냅니다.<br/> **15** -Azure Active Directory에서 로그온 이벤트 나타냅니다 보안 토큰 서비스 (STS). <br/>**18** -나타냅니다 보안 &amp; 준수 센터 이벤트입니다. <br/>**20** -이벤트 Power BI를 나타냅니다. <br/>**21**-이벤트 Dynamics 365 나타냅니다.<br/>**22** -이벤트 Yammer를 나타냅니다. <br/>**23** -비즈니스 이벤트에 대 한 Skype를 나타냅니다. <br/>**24** -eDiscovery 이벤트를 나타냅니다. 이 레코드 종류 나타냅니다 콘텐츠 검색을 실행 하 고 보안에서 eDiscovery 사례를 관리 하 여 수행 된 활동 &amp; 준수 센터입니다. 자세한 내용은 감사 로그는 Office 365의 eDiscovery 활동에 대 한 검색을 참조 하십시오.<br/>**25, 26, 또는 27** -이벤트 Microsoft 팀의를 나타냅니다. <br/>**28** -피싱 및 맬웨어 이벤트에서 Exchange Online Protection 및 Office 365 고급 위협 보호 이벤트를 나타냅니다.<br/> **30** -이벤트 Microsoft 흐름을 나타냅니다.<br/> **32** -Microsoft 스트림 지정 된 이벤트입니다.<br/> **35** -이벤트 Microsoft Project를 나타냅니다. <br/> **36** -목록 이벤트 SharePoint를 나타냅니다.<br/> **40** -나타냅니다 보안 및 규정 준수 경고 신호에서 발생 하는 이벤트입니다.<br/> **41** -Office 365 고급 위협 보호의 안전한 링크 블록의 시간 및 블록 재정의 이벤트를 나타냅니다.<br/>**47** -SharePoint, OneDrive 및 Microsoft 팀의 파일에 대 한 Office 365 고급 위협 보호에서 피싱 및 맬웨어 이벤트를 나타냅니다. |모두  <br/> |
+|RecordType  <br/> |레코드에 지정 된 작업의 형식입니다. 다음 값은 레코드 종류를 나타냅니다.<br/><br/> **1** -Exchange 관리자 감사 로그에서 레코드를 나타냅니다. <br/>**2** -선별 사서함 항목에서 수행 되는 작업에 대 한 Exchange 사서함 감사 로그에서 레코드를 나타냅니다. <br/>또한 **3** -Exchange 사서함 감사 로그에서 레코드를 나타냅니다. 이 레코드 종류 (예: 여러 항목을 지운 편지함 폴더로 이동 또는 여러 항목을 영구적으로 삭제) 원본 사서함에서 여러 항목에 대해 작업을 수행 하는 것을 나타냅니다.<br/>**4** -관리자 또는 사이트에 사용 권한을 할당 하는 사용자가 예: sharepoint에서 사이트 관리 작업을 나타냅니다. <br/>**6** -파일 또는 폴더와 관련 된 작업 보기 또는 파일을 수정 하는 사용자와 같은 sharepoint에서 나타냅니다. <br/>**8** -Azure Active Directory에서 수행 되는 관리 작업을 나타냅니다. <br/>**9** -Azure Active Directory에서 로그온 이벤트 OrgId를 나타냅니다. 이 레코드 종류는 사용 되지 않습니다.<br/>**10** -데이터 센터에서 Microsoft 담당자가 수행한 보안 cmdlet 이벤트를 나타냅니다. <br/>**11** -SharePoint에서 손실 방지 (DLP) 이벤트 데이터를 나타냅니다.<br/> **12** -이벤트 라를 나타냅니다. <br/>**13** -Exchange, DLP 정책 통합을 구성 하는 경우의 이벤트를 DLP를 나타냅니다. Exchange 전송 규칙을 기반으로 DLP 이벤트 지원 되지 않습니다.<br>**14** -SharePoint에서 공유 이벤트를 나타냅니다.<br/> **15** -Azure Active Directory에서 로그온 이벤트 나타냅니다 보안 토큰 서비스 (STS). <br/>**18** -나타냅니다 보안 &amp; 준수 센터 이벤트입니다. <br/>**20** -이벤트 Power BI를 나타냅니다. <br/>**21**-이벤트 Dynamics 365 나타냅니다.<br/>**22** -이벤트 Yammer를 나타냅니다. <br/>**23** -비즈니스 이벤트에 대 한 Skype를 나타냅니다. <br/>**24** -eDiscovery 이벤트를 나타냅니다. 이 레코드 종류 나타냅니다 콘텐츠 검색을 실행 하 고 보안에서 eDiscovery 사례를 관리 하 여 수행 된 활동 &amp; 준수 센터입니다. 자세한 내용은 감사 로그는 Office 365의 eDiscovery 활동에 대 한 검색을 참조 하십시오.<br/>**25, 26, 또는 27** -이벤트 Microsoft 팀의를 나타냅니다. <br/>**28** -피싱 및 맬웨어 이벤트에서 Exchange Online Protection 및 Office 365 고급 위협 보호 이벤트를 나타냅니다.<br/> **30** -이벤트 Microsoft 흐름을 나타냅니다.<br/> **32** -Microsoft 스트림 지정 된 이벤트입니다.<br/> **35** -이벤트 Microsoft Project를 나타냅니다. <br/> **36** -목록 이벤트 SharePoint를 나타냅니다.<br/> **40** -나타냅니다 보안 및 규정 준수 경고 신호에서 발생 하는 이벤트입니다.<br/> **41** -Office 365 고급 위협 보호의 안전한 링크 블록의 시간 및 블록 재정의 이벤트를 나타냅니다.<br/>**44** -이벤트 직장 분석을 나타냅니다. <br/>**47** -SharePoint, OneDrive 및 Microsoft 팀의 파일에 대 한 Office 365 고급 위협 보호에서 피싱 및 맬웨어 이벤트를 나타냅니다. |모두  <br/> |
 |ResultStatus  <br/> |( **Operation** 속성에 지정 된) 작업 성공 했는지 여부를 나타냅니다.  <br/> Exchange 관리 작업에 대 한 값은 **True** (성공) 또는 **False** (실패).  <br/> |모두  <br/>|
 |SecurityComplianceCenterEventType  <br/> |활동을 보안 했음을 나타냅니다 &amp; 준수 센터 이벤트입니다. 모든 보안 &amp; 준수 센터 활동 **0** 이 속성의 값이 포함 됩니다.<br/> |Office 365 보안 및 준수 센터  <br/> |
 |SharingType  <br/> |자원으로 공유 하는 사용자에 게 할당 된 사용 권한을 공유의 형식입니다. 이 사용자는 **UserSharedWith** 속성에서 식별 됩니다.<br/> |SharePoint  <br/> |
@@ -87,7 +87,8 @@ Office 365 보안에서 감사 로그 검색의 결과 내보낼 때 &amp; 준�
 |UserSharedWith  <br/> |사용자를 자원으로 공유입니다. 이 속성은 **Operation** 속성의 값은 **SharingSet**하는 경우에 포함 합니다. 이 사용자가 보고서에 있는 **공유 대상** 열에도 표시 됩니다.<br/> |SharePoint  <br/> |
 |UserType  <br/> |작업을 수행한 사용자의 형식입니다. 다음 값에는 사용자 유형을 나타냅니다.<br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직에서 관리자입니다. <br/>**3** -A Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램입니다. <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책입니다.<br/>**8** -시스템 정책입니다. |모두  <br/> |
 |Version  <br/> |기록 되는 활동 ( **작업** 속성에 의해 식별 된)의 버전 번호를 나타냅니다.  <br/> |모두  <br/> |
-|작업량  <br/> |Office 365 서비스 활동 발생 했습니다. 이 속성에 대 한 사용 가능한 값은:<br/> <br/>**SharePoint<br/>OneDrive<br/>Exchange<br/>AzureActiveDirectory<br/>DataCenterSecurity<br/>준수<br/>라<br/>비즈니스를 위한 Skype<br/>SecurityComplianceCenter<br/>PowerBI<br/>CRM<br/>Yammer<br/>MicrosoftTeams<br/>ThreatIntelligence<br/>MicrosoftFlow<br/>MicrosoftStream<br/>DlpSharePointClassificationData<br/>프로젝트<br/>PowerApps**|모두  <br/> |
+|작업량  <br/> |Office 365 서비스 활동 발생 했습니다. 이 속성에 대 한 사용 가능한 값은:<br/> <br/>**SharePoint<br/>OneDrive<br/>Exchange<br/>AzureActiveDirectory<br/>DataCenterSecurity<br/>준수<br/>라<br/>비즈니스를 위한 Skype<br/>SecurityComplianceCenter<br/>PowerBI<br/>CRM<br/>Yammer<br/>MicrosoftTeams<br/>ThreatIntelligence<br/>MicrosoftFlow<br/>MicrosoftStream<br/>DlpSharePointClassificationData<br/>프로젝트<br/>PowerApps<br/>직장 분석**|모두  <br/> |
+||||
    
 특정 이벤트의 세부 정보를 볼 때 **추가 정보** 를 클릭 하는 경우에 속성 위에서 설명한 하는 내용의 정보가 표시 됩니다. 
   

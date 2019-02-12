@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 848dbbdeb8b7cd9abd664b5ac401f6afde31c1e1
-ms.sourcegitcommit: c40eee4ef3890056da58649e4617283b0b9d1673
+ms.openlocfilehash: 41f6f2c90a0171b52807cbf46f15eebb1f16cc9a
+ms.sourcegitcommit: d6b1632a44e40522a4a16e7cb05ba5189214baeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "29735470"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890059"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 보안 & 준수 센터의에서 감사 로그를 검색 합니다.
 
@@ -281,7 +281,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 
 ## <a name="audited-activities"></a>감사 된 활동
 
-이 섹션의 표에서 Office 365에서 감사 되는 작업에 설명 합니다. 보안에서 감사를 검색 하 여 이러한 이벤트 로그를 검색할 수 &amp; 준수 센터입니다. 단계별 지침에 대 한 **감사 로그 검색** 탭을 클릭 합니다. 
+이 섹션의 표에서 Office 365에서 감사 되는 작업에 설명 합니다. 이러한 이벤트 보안 & 준수 센터의에서 감사 로그를 검색 하 여 검색할 수 있습니다.
   
 이러한 테이블에는 관련된 활동 또는 특정 Office 365 서비스에서 작업을 그룹화합니다. 테이블에는 **활동** 드롭다운 목록에 표시 되는 친숙 한 이름 및 감사 레코드의 세부 정보 및 CSV 파일에서 검색 결과 내보낼 때 표시 되 면 해당 작업의 이름을 포함 합니다. 에 대 한 자세한 내용은 설명은, [Office 365에서 자세한 속성 감사 로그를](detailed-properties-in-the-office-365-audit-log.md)참조 합니다.
   
@@ -293,9 +293,10 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |[동기화 작업](#synchronization-activities)<br/> |[사이트 관리 작업](#site-administration-activities)<br/> |[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |
 |[활동 라](#sway-activities) <br/> |[사용자 관리 작업](#user-administration-activities) <br/> |[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |
 |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/> |
-|[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 팀의 활동](#microsoft-teams-activities) <br/> |
-|[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft Stream](#microsoft-stream) <br/>|
-|[Exchange 관리자 감사 로그](#exchange-admin-audit-log) <br/> |
+|[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 직장 분석](#microsoft-workplace-analytics-activities)<br/>|
+[Microsoft 팀의 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> 
+|[Microsoft Stream](#microsoft-stream) <br/>|[Exchange 관리 작업](#exchange-admin-audit-log)<br/>
+||||
    
   
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -326,6 +327,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |업로드 된 파일  <br/> |FileUploaded  <br/> |사용자의 폴더를 사이트에 문서를 업로드합니다.  <br/> |
 |표시 된 페이지  <br/> |PageViewed  <br/> |사용자가 사이트에서 페이지를 보면 합니다. 웹 브라우저를 사용 하 여 문서 라이브러리에 있는 파일을 보려면 여기에 포함 되지 않습니다.  <br/> |
 |(없음)  <br/> |PageViewedExtended  <br/> |이 페이지와 관련 된 "로 보기" (PageViewed) 활동 합니다. 동일한 사람의 오랜 시간 (최대 3 시간)에 대 한 지속적으로 웹 페이지를 보면 PageViewedExtended 이벤트가 기록 됩니다. PageViewedExtended 이벤트 로깅의 목적은 페이지를 계속 해 서 볼 때 기록 되는 PageViewed 이벤트의 수를 줄일 수 있습니다. 이렇게 하면 기능은 기본적으로 동일 하는 것에 대 한 여러 PageViewed 레코드의 소음을 줄일 수 사용자 활동 및 초기 (이자 더 중요 한) PageViewed 이벤트에 집중할 수 있도록 합니다.  <br/> |
+||||
   
 ### <a name="folder-activities"></a>폴더 활동
   
@@ -342,6 +344,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |이동 된 폴더  <br/> |FolderMoved  <br/> |사이트에서 다른 위치로 폴더를 이동 하는 사용자입니다.  <br/> |
 |이름이 바뀐된 폴더  <br/> |FolderRenamed  <br/> |사용자는 사이트에 있는 폴더를 이름을 바꿉니다.  <br/> |
 |복원 된 폴더  <br/> |FolderRestored  <br/> |사용자는 사이트의 휴지통에서 지운 편지함된 폴더를 복원합니다.  <br/> |
+||||
   
 ### <a name="sharing-and-access-request-activities"></a>공유 및 액세스 요청 활동
   
@@ -382,6 +385,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |사용자가 보안 링크를 추가 합니다.  <br/> |AddedToSecureLink  <br/> |사용자 보안 공유 링크를 사용할 수 있는 엔터티 목록에 추가 되었습니다.  <br/> |
 |사용자 보안 링크에서 제거  <br/> |RemovedFromSecureLink  <br/> |사용자 보안 공유 링크를 사용할 수 있는 엔터티 목록에서 제거 되었습니다.  <br/> |
 |공유 초대 메일을 자랑  <br/> |SharingInvitationRevoked  <br/> |사용자는 자원에 게 공유 초대 메일을 자랑 합니다.  <br/> |
+||||
   
 ### <a name="synchronization-activities"></a>동기화 작업
   
@@ -395,6 +399,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |컴퓨터에 다운로드 한 파일을 변경합니다.  <br/> |FileSyncDownloadedPartial  <br/> |사용자는 문서 라이브러리에서 파일 변경 내용을 성공적으로 다운로드합니다. 이 작업의 문서 라이브러리에서 파일의 변경 된 사용자의 컴퓨터에 다운로드 된 것을 나타냅니다. (나타내듯이 **컴퓨터에 파일을 다운로드 한** 활동) 사용자가 이전에 된 문서 라이브러리를 다운로드 하기 때문에 변경 된 내용만 다운로드 했습니다.<br/> |
 |문서 라이브러리에 업로드 된 파일  <br/> |FileSyncUploadedFull  <br/> |사용자는 동기화 관계를 설정 하 고 문서 라이브러리에 자신의 컴퓨터에서 처음에 대 한 파일을 성공적으로 업로드 합니다.  <br/> |
 |문서 라이브러리에 업로드 된 파일을 변경합니다.  <br/> |FileSyncUploadedPartial  <br/> |사용자는 문서 라이브러리에 있는 파일에 변경 내용을 성공적으로 업로드합니다. 이 이벤트는 로컬 버전 파일의 문서 라이브러리에서 변경한 내용을 문서 라이브러리에 성공적으로 업로드 된 나타냅니다. 이러한 파일은 사용자가 이전에 업로드 된 변경 내용은 로드 되지 않습니다만 (에 표시 된 대로 * * 문서 라이브러리에 업로드 된 파일 * * 활동).  <br/> |
+||||
   
 ### <a name="site-administration-activities"></a>사이트 관리 작업
   
@@ -432,6 +437,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |예약 된 사이트 지리적으로 분산 이동  <br/> |SiteGeoMoveScheduled  <br/> |SharePoint 예약 성공적으로 SharePoint 또는 전역 관리자 또는 OneDrive 사이트 지리적으로 분산 이동 합니다. 다중-지리적으로 분산 기능 geos 라고 하는 여러 Office 365 데이터 센터 지역에 걸쳐 Office 365 조직 수 있도록 합니다. 자세한 내용은 [OneDrive 및 Office 365의 SharePoint Online에서 다중-지리적으로 분산 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하십시오.<br/> |
 |호스트 사이트 설정  <br/> |HostSiteSet  <br/> |SharePoint 또는 전역 관리자 비즈니스 사이트에 대 한 개인 호스트에 지정 된 사이트 또는 OneDrive을 변경합니다.  <br/> |
 |업데이트 된 그룹  <br/> |GroupUpdated  <br/> |사이트 관리자 또는 소유자는 사이트에 대 한 그룹의 설정을 변경합니다. 이 변경 보거나 그룹 멤버 자격 및 멤버 자격 요청 처리 되는 방식을 편집할 수 있는 그룹의 이름을 포함할 수 있습니다.  <br/> |
+||||
   
 ### <a name="exchange-mailbox-activities"></a>Exchange 사서함 활동
   
@@ -454,6 +460,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |업데이트 된 메시지  <br/> |업데이트  <br/> |메시지 또는 해당 속성이 변경되었습니다.  <br/> |
 |사용자 사서함에 로그인 합니다.  <br/> |MailboxLogin  <br/> |사용자가 자신의 사서함에 로그인했습니다.  <br/> |
 |(없음)  <br/> |UpdateInboxRules  <br/> |받은 편지함 규칙 추가, 제거 또는 변경 되었음을 합니다. 받은 편지함 규칙을 지정 된 조건에 따라 사용자의 받은 편지함의 메시지를 처리 하는 데 사용 되 하 고 지정 된 폴더로 메시지 이동 하거나 삭제 하는 메시지와 같은 규칙의 조건이 충족 되 면 작업을 수행 합니다.<br/> 받은 편지함 규칙 활동에 대 한 항목을 반환 하려면 **작업** 목록에서 **모든 작업에 대 한 결과 표시** 를 선택 해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용 하 여 검색 결과 범위를 좁힙니다.<br/> |
+||||
   
 ### <a name="sway-activities"></a>활동 라
   
@@ -475,6 +482,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |거주 서비스 해제  <br/> |SwayServiceOff  <br/> |관리자가 Office 365 관리 센터를 사용 하 여 전체 조직에 대 한 영향을 비활성화 합니다.  <br/> |
 |거주 서비스 켜  <br/> |SwayServiceOn  <br/> |관리자는 Office 365 관리 센터 (영향 서비스는 기본적으로 사용)를 사용 하 여 전체 조직에 대 한 영향을 설정 합니다.  <br/> |
 |본된 영향  <br/> |SwayView  <br/> |사용자는 영향을 봅니다.  <br/> |
+||||
 
   
 ### <a name="user-administration-activities"></a>사용자 관리 작업
@@ -491,6 +499,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |암호를 변경 하는 사용자를 강제로 실행 하는 속성을 설정 합니다.  <br/> |집합 force 사용자 암호 변경  <br/> |관리자는 다음 Office 365에 로그인 사용자에 게 암호를 변경 하려면 사용자를 강제로 실행 하는 속성을 설정 합니다.  <br/> |
 |라이선스 속성 설정  <br/> |라이선스 속성 설정  <br/> |관리자가 사용자에 게 할당 된 라이선스의 속성을 수정 합니다.  <br/> |
 |업데이트 된 사용자  <br/> |사용자를 업데이트 합니다.  <br/> |관리자는 사용자 계정의 하나 이상의 속성을 변경합니다. 업데이트할 수 있는 사용자 속성의 목록에 대 한 [Azure Active Directory 감사 보고서 이벤트](https://go.microsoft.com/fwlink/p/?LinkID=616549)에 "사용자 특성을 업데이트" 섹션을 참조 하십시오.<br/> |
+||||
   
 ### <a name="azure-ad-group-administration-activities"></a>Azure AD 그룹 관리 작업
   
@@ -503,6 +512,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |삭제 된 그룹  <br/> |그룹 삭제  <br/> |그룹 삭제 되었습니다.  <br/> |
 |그룹에서 제거 된 구성원  <br/> |그룹에서 구성원 제거  <br/> |구성원 그룹에서 제거 되었습니다.  <br/> |
 |업데이트 된 그룹  <br/> |그룹 업데이트  <br/> |그룹의 속성 변경 되었습니다.  <br/> |
+||||
    
 ### <a name="application-administration-activities"></a>응용 프로그램 관리 작업
   
@@ -517,6 +527,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |서비스 사용자 디렉터리에서 제거  <br/> |서비스 사용자를 제거 합니다.  <br/> |응용 프로그램 삭제/등록 되지 않음 Azure AD에서 했습니다. 응용 프로그램 서비스에서 보안 주체는 디렉터리에 표시 됩니다.  <br/> |
 |서비스 계정에서 제거 된 자격 증명  <br/> |서비스 계정 자격 증명을 제거 합니다.  <br/> |자격 증명 Azure AD에서 사용자 서비스에서 제거 되었습니다. 서비스 원칙 디렉터리에서 응용을 프로그램을 나타냅니다.  <br/> |
 |집합 위임 항목  <br/> |집합 위임 항목  <br/> |인증 권한 Azure AD에서 응용 프로그램에 대 한 업데이트 되었습니다.  <br/> |
+||||
 
 ### <a name="role-administration-activities"></a>역할 관리 작업
   
@@ -527,6 +538,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |역할에 구성원 추가  <br/> |역할에 역할 구성원 추가  <br/> |Office 365에서 관리자 역할에 사용자를 추가 합니다.  <br/> |
 |디렉터리 역할에서 사용자 제거  <br/> |역할에서 역할 구성원을 제거 합니다.  <br/> |Office 365에서 관리자 역할에서 사용자를 제거 합니다.  <br/> |
 |회사 연락처 정보를 설정 합니다.  <br/> |회사 연락처 정보를 설정 합니다.  <br/> |Office 365 조직에 대 한 회사 수준 연락처 기본 설정을 업데이트 합니다. Office 365와 Office 365 서비스에 대 한 기술 알림을 보낸 구독 관련 된 전자 메일에 대 한 전자 메일 주소가 포함 됩니다.  <br/> |
+||||
    
 ### <a name="directory-administration-activities"></a>디렉터리 관리 작업
   
@@ -546,6 +558,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |업데이트 된 도메인  <br/> |도메인 업데이트  <br/> |Office 365 조직에 있는 도메인의 설정을 업데이트 합니다.  <br/> |
 |확인 된 도메인  <br/> |도메인 확인  <br/> |조직 도메인의 소유자 인지 확인 합니다.  <br/> |
 |확인 된 전자 메일 확인 된 도메인  <br/> |전자 메일 확인 된 도메인과 확인  <br/> |전자 메일 확인을 사용 하 여 조직의 도메인의 소유자 인지 확인 합니다.  <br/> |
+||||
    
 ### <a name="ediscovery-activities"></a>eDiscovery 활동
   
@@ -572,6 +585,24 @@ Power BI의 활동에 대 한 감사 로그를 검색할 수 있습니다. Power
   
 Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니다를 메모 합니다. Office 365 감사 로그에서 Power BI 활동을 검색 하려면 Power BI 관리 포털에 감사를 사용 하도록 설정 해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하십시오.
   
+### <a name="microsoft-workplace-analytics-activities"></a>Microsoft 직장 분석 활동
+
+다음 표에서 관리자 및 Office 365에 로깅되는 Microsoft 직장 분석 분석가 활동 감사 로그 합니다. 직장 분석 그룹 Office 365 조직 전체에서 공동 작업 하는 방법에 대 한 정보를 제공 합니다. 자세한 내용은 [직장 분석](https://docs.microsoft.com/en-us/workplace-analytics/index-orig)을 참조 하십시오.
+
+|**이름**|**Operation**|**설명**|
+|:-----|:-----|:-----|
+|액세스 OData 링크 <br/> |AccessedOdataLink <br/> |분석가는 쿼리에 대 한 OData 링크에 액세스 합니다.|
+|취소 된 쿼리 <br/> |CanceledQuery <br/> |분석가 실행 중인 쿼리를 취소 합니다.|
+|만든된 회의 제외 <br/> |MeetingExclusionCreated <br/> |새 만든 분석가 모임 제외 규칙입니다.|
+|삭제 된 결과 <br/> |DeletedResult <br/> |분석가 쿼리 결과 삭제 합니다.|
+|다운로드 한 보고서 <br/> |DownloadedReport <br/> |분석가 쿼리 결과 파일을 다운로드 합니다.|
+|실행된 되는 쿼리 <br/> |ExecutedQuery <br/> |분석가 쿼리를 실행 합니다.|
+|업데이트 된 데이터 액세스 설정 <br/> |UpdatedDataAccessSetting <br/> |관리는 데이터 액세스 설정을 업데이트 합니다.|
+|업데이트 된 개인정보 보호 설정 <br/> |UpdatedPrivacySetting <br/> |관리는 개인정보 보호 설정 업데이트 최소 그룹 크기입니다.|
+|업로드 된 조직 데이터 <br/> |UploadedOrgData <br/> |관리자 조직 데이터 파일을 업로드 합니다.|
+|본 탐색 <br/> |ViewedExplore <br/> |분석가 하나 이상의 탐색 페이지 탭에서 시각화를 표시 합니다.|
+||||
+
 ### <a name="microsoft-teams-activities"></a>Microsoft 팀의 활동
   
 다음 표에서 사용자를 나열 하 고 Office 365에 로깅되는 팀이 Microsoft에서 관리 활동 감사 로그 합니다. Microsoft 팀은 Office 365에서 채팅 가운데 작업 영역입니다. 동일 하 게 팀의 대화, 모임, 파일 및 notes 함께 단일 위치입니다. 자세한 정보 및 도움말 항목에 대 한 링크를 참조 하십시오.
@@ -601,6 +632,7 @@ Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니�
 |업데이트 된 커넥터  <br/> |ConnectorUpdated  <br/> |사용자가 채널에 커넥터를 수정 합니다.  <br/> |
 |업데이트 된 탭  <br/> |TabUpdated  <br/> |사용자가 수정 하는 채널의 탭입니다.  <br/> |
 |팀에 로그인 한 사용자  <br/> |TeamsSessionStarted  <br/> |사용자가 Microsoft 팀의 클라이언트에 로그인 합니다.  <br/> |
+||||
 
 ### <a name="yammer-activities"></a>Yammer 활동
   
@@ -625,6 +657,7 @@ Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니�
 |업데이트 된 파일 설명  <br/> |FileUpdateDescription  <br/> |사용자는 파일에 대 한 설명을 변경합니다.  <br/> |
 |업데이트 된 파일 이름  <br/> |FileUpdateName  <br/> |파일의 이름을 변경 하는 사용자입니다.  <br/> |
 |본된 파일  <br/> |FileVisited  <br/> |사용자는 파일을 봅니다.  <br/> |
+||||
    
 ### <a name="microsoft-flow"></a>Microsoft Flow
 

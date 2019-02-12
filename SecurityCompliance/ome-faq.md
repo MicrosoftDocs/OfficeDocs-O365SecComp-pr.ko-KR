@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화 FAQ
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 10/9/2018
+ms.date: 02/11/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365에서 새 메시지 보호 기능이 작동 하는 방법에 대 한 질문이 있습니까? 여기에 대 한 답변을 확인 합니다.
-ms.openlocfilehash: e35495106b44ccb566f4da743264def8c7d4f96f
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 8774d5e11bbd5b240cb1984e6d8b67b98bfa856e
+ms.sourcegitcommit: d6b1632a44e40522a4a16e7cb05ba5189214baeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/11/2019
-ms.locfileid: "29696272"
+ms.locfileid: "29890039"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -48,7 +48,7 @@ OME 전자 메일 암호화 및 권한 관리 기능을 결합합니다. 권한 
 
 새 OME 기능을 사용 하려면 필요한 다음 계획 중 하나:
   
-- Office 365 메시지 암호화는 Office 365 E3 및 e 5, Microsoft E3 및 e 5, Office 365 A1, a 3 및 A5, 및 Office 365 G3 / g 5의 일부분으로 제공 됩니다. 고객은 Azure 정보 보호 구동 되는 새 보호 기능을 수신 하기 위한 추가 라이선스를 필요 하지 않습니다. 
+- Office 365 메시지 암호화는 Office 365 엔터프라이즈 E3 및 e 5, Microsoft Enterprise E3 및 e 5, Microsoft 365 비즈니스, Office 365 A1, a 3 및 A5, 및 Office 365 정부 G3 및 g 5의 일부분으로 제공 됩니다. 고객은 Azure 정보 보호 구동 되는 새 보호 기능을 수신 하기 위한 추가 라이선스를 필요 하지 않습니다. 
     
 - 다음에 Azure 정보 보호 계획 1 새로운 Office 365 메시지 암호화 기능을 수신 하도록 계획을 추가할 수도 있습니다: Exchange Online 계획 1 "," Exchange Online 계획 2 "," Office 365 F1 "," Office 365 비즈니스 Essentials "," Office 365 프리미엄, 또는 Office 365 Enterprise E1 합니다.
     
