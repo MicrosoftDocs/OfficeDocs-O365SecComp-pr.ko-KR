@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365의 암호화에 대 한 기술 세부 정보를 봅니다.
-ms.openlocfilehash: bb4629d89d2ed625cc1b817c53d2355484bfdf6c
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: c11f152b18a15886fc8a5108e6df66dafe53a758
+ms.sourcegitcommit: 6bdba12c13c02f7d9a7297d3042933b100c4e481
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "28326939"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29966192"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Office 365의 암호화에 대한 기술 관련 세부 정보
 
@@ -89,6 +89,9 @@ Note 그렇다고 해 TLS 1.0 및 1.1 연결 Office 365 차단 됩니다. 사용
 <a name="TLSCipherSuites"> </a>
 
 암호화 제품군은 TLS에서 보안 연결을 설정하는 데 사용되는 암호화 알고리즘 모음입니다. Office 365에서 지원하는 암호화 제품군은 강력한 암호화 제품군의 순서대로 제일 강력한 제품군부터 먼저 다음 표에 나열됩니다. Office 365에서 연결 요청을 받으면 Office 365는 먼저 최상위 암호화 제품군을 사용하여 연결하려고 한 후, 해당 암호화 제품군이 실패하는 경우 목록의 두 번째 암호화 제품군을 시도하고 계속 아래로 내려가며 시도합니다. Office 365에서 다른 서버 또는 클라이언트에 연결 요청을 보낼 때 암호화 제품군을 선택하거나 적어도 TLS를 사용할지는 받는 서버 또는 클라이언트에 달려 있습니다.
+
+> [!IMPORTANT]
+> 주의 TLS 버전 사용 중지, 하는 더이상 사용 되지 않습니다 버전 *를 사용 하지 않아야* 최신 버전을 사용할 수 있습니다. 즉, 원하는 위치에 해당 TLS 1.0에 있는 나열 된 1.1 및 1.2 지원 되는 경우 *최신* 버전 (TLS 1.2)를 선택 합니다.
   
 |**프로토콜**|**암호 그룹 이름**|**키 교환 알고리즘/강도**|**PFS(Perfect Forward Secrecy) 지원**|**인증 알고리즘/강도**|**암호화/강도**|
 |:-----|:-----|:-----|:-----|:-----|:-----|

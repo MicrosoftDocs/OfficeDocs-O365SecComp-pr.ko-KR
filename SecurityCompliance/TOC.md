@@ -10,7 +10,6 @@
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
 # 데이터 및 서비스에 대한 액세스 보호
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
-## [MDM과 Intune 중에서 선택](choose-between-mdm-and-intune.md)
 
 # 정보 보호
 ## [민감도 레이블](sensitivity-labels.md)
