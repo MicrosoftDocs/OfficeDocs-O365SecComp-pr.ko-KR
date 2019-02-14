@@ -12,13 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
+ms.collection:
+- M365-security-compliance
 description: ATP 안전한 첨부 파일 정책에 연결을 설정할 때 동적 배달 메시지 지연을 방지 하 고 사용자 검색 되는 첨부 파일 미리 보기를 사용 하도록 설정 하려면 선택 합니다.
-ms.openlocfilehash: fe1b8fd2e26c683735f64de6b5b195e3bc351c8e
-ms.sourcegitcommit: b936a2fd4b7f7a7099b96cc29580ed55bdb8bf2b
+ms.openlocfilehash: ae027986cf5114bd024c679a59975d1e4be52d32
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789466"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995149"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 하 고 Office 365 ATP 안전한 첨부 파일 미리 보기
 

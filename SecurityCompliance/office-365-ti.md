@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
+ms.collection: M365-security-compliance
 description: 고급 위협 보호의 위협 인텔리전스 기능 하는 방법 조직에 대 한 위협을 조사, 맬웨어, 피싱와 파트너가 대신 Office 365에서 발견 하는 다른 공격에 응답 하 고 위협 지표에 대 한 검색에 대해 알아봅니다.
-ms.openlocfilehash: 5dfd0377c4cafe89c5f69ea080f07d04d892329e
-ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
+ms.openlocfilehash: 632a2387e7cb5a30745459383e670d08c9b84aff
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "29792263"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995099"
 ---
 # <a name="office-365-threat-intelligence"></a>Office 365 위협 인텔리전스
 

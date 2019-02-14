@@ -10,7 +10,9 @@ f1_keywords:
 - "197503"
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
@@ -20,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 다음 Office 문서 및 전자 메일 메시지에 하이퍼링크의 클릭 시간 확인 합니다. 피싱 및 기타 공격 으로부터 조직을 보호를 안전한 링크를 사용 합니다.
-ms.openlocfilehash: 4d83aa65af47ea6723d6e2042c230fb2b07c174c
-ms.sourcegitcommit: 065f5e72676511b5ecf7f10a17685999780e92d8
+ms.openlocfilehash: 77b7ac4af8cd9ad27f18af6fd55588e320da69ac
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29888034"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995349"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 

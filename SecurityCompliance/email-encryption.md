@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
 description: Office OME (메시지 암호화), S/MIME, 정보 권한 관리 (IRM)를 포함 하 여 Office 365의 암호화 옵션을 비교 하 고 전송 계층 보안 (TLS)에 대 한 설명입니다.
-ms.openlocfilehash: c9c83283cab09ac81ab2856aec53fe8682ec45b8
-ms.sourcegitcommit: c05076501dfe118e575998ecfc08ad69d13c8abc
+ms.openlocfilehash: a6db6c9cf6af180fe84e955613fb6b1175ee0747
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25853083"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995359"
 ---
 # <a name="email-encryption-in-office-365"></a>Office 365의 전자 메일 암호화
 
@@ -84,7 +84,7 @@ Office 365 구독에 대 한 전자 메일 암호화 옵션에 대 한 내용은
   
  **OME**
   
-[OME(Office 365 메시지 암호화)](ome.md)
+[Office 365 메시지 암호화 (OME)](ome.md)
   
  **IRM**
   

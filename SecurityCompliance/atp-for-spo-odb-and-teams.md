@@ -12,13 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 26261670-db33-4c53-b125-af0662c34607
+ms.collection:
+- M365-security-compliance
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: 29676bf7c326adf366cca79a59f5b4c40c672baa
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
-ms.translationtype: HT
+ms.openlocfilehash: bf2285ac8c78d8a652861b5c635f5764677f0915
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014820"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995249"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 

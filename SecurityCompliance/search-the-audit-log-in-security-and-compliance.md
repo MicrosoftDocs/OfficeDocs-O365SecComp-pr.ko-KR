@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'Office 365 보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자가 작업을 보려면 통합된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 41f6f2c90a0171b52807cbf46f15eebb1f16cc9a
-ms.sourcegitcommit: d6b1632a44e40522a4a16e7cb05ba5189214baeb
+ms.openlocfilehash: 55d45d55bb515307ed94853878b6e9ae1cef4ad8
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890059"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995409"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 보안 & 준수 센터의에서 감사 로그를 검색 합니다.
 
@@ -53,6 +53,8 @@ ms.locfileid: "29890059"
 - Microsoft 흐름에서 사용자 및 관리자 작업
     
 - Microsoft Stream에서 사용자 및 관리자 작업
+
+- Microsoft 직장 분석에서 분석가 및 관리 작업
     
    
 ## <a name="before-you-begin"></a>시작하기 전에
@@ -562,7 +564,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
    
 ### <a name="ediscovery-activities"></a>eDiscovery 활동
   
-콘텐츠 검색 및 수행 하는 Office 365 보안의 eDiscovery 관련 작업을 &amp; 준수 센터 또는 해당 Windows PowerShell을 실행 하 여 cmdlet은 Office 365 감사 로그에 기록 됩니다. 다음과 같은 작업이 포함 됩니다.
+콘텐츠 검색 및 수행 하는 Office 365 보안 & 준수 센터에서에서 또는 해당 Windows PowerShell cmdlet을 실행 하 여 eDiscovery 관련 작업을 Office 365 감사 로그에 기록 됩니다. 다음과 같은 작업이 포함 됩니다.
   
 - 만들기 (영문) 및 eDiscovery 사례 관리
     
@@ -587,7 +589,7 @@ Power BI에 대 한 감사 로깅이 기본적으로 활성화 되지 않습니�
   
 ### <a name="microsoft-workplace-analytics-activities"></a>Microsoft 직장 분석 활동
 
-다음 표에서 관리자 및 Office 365에 로깅되는 Microsoft 직장 분석 분석가 활동 감사 로그 합니다. 직장 분석 그룹 Office 365 조직 전체에서 공동 작업 하는 방법에 대 한 정보를 제공 합니다. 자세한 내용은 [직장 분석](https://docs.microsoft.com/en-us/workplace-analytics/index-orig)을 참조 하십시오.
+직장 분석 그룹 Office 365 조직 전체에서 공동 작업 하는 방법에 대 한 정보를 제공 합니다. 다음 표에서 관리자 역할 또는 직장 분석에서 분석가 역할에 할당 되는 사용자에 의해 수행 되는 활동을 보여줍니다. 분석가 역할을 할당 하는 사용자가 모든 서비스 기능에 대 한 전체 액세스 있고 분석을 수행 하는 제품을 사용 합니다. 관리자 역할에 할당 된 사용자 수 개인 설정 및 시스템 기본값을 구성 하 고 수를 준비, 업로드 하 고, 직장 분석에서 조직 구성 데이터를 확인 합니다. 자세한 내용은 [직장 분석](https://docs.microsoft.com/en-us/workplace-analytics/index-orig)을 참조 하십시오.
 
 |**이름**|**Operation**|**설명**|
 |:-----|:-----|:-----|

@@ -11,17 +11,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
+ms.collection: M365-security-compliance
 description: 위협 추적기, 보안상의 이유로 위에 계속 해 서 조직 새 주목할 만한 추적기를 포함 하는 방법에 대 한 설명 합니다.
-ms.openlocfilehash: 7729a78d0b18df7d73751f4480ef095bedc5965b
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 06fdd24e545a3ee04bccf177d777efea31fbe137
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015000"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995309"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-새롭고 중요한 기능
 
 [Office 365 위협 인텔리전스](office-365-ti.md) 조직의 보안 팀을 발견 하 고 cybersecurity 위협에 대 한 조치를 취할 수 있습니다. Office 365 위협 인텔리전스는 지연 년 3 월 2018에서 하 고 다음 여러 주 동안 부터는 주목할 만한 추적기를 포함 하 여 새로운 위협 추적 기능을 포함 됩니다. 이러한 새로운 기능 및 다음 단계를 간략하게를이 문서를 읽어보십시오. 
+
+> [!IMPORTANT]
+> 2019 년 2 월에에서 시작 하 고 향후 몇 개월 동안 롤아웃, Office 365 위협 인텔리전스는 되 고 Office 365 고급 위협 보호 계획 2, 추가 위협 보호 기능을 사용 합니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오.
   
 ## <a name="what-are-threat-trackers"></a>위협 추적기 무엇입니까?
 

@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
+ms.collection: M365-security-compliance
 description: 찾기 및 Office 365 엔터프라이즈와 조직에 대 한 전자 메일 보안 보고서를 사용 하는 방법에 알아봅니다. 전자 메일 보안 보고서는 보안에서 사용할 수 있는 &amp; 준수 센터입니다.
-ms.openlocfilehash: 3fc6d3dd8468bc060efcaa7eadec2ff9257fe583
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 0c9b4c4c75f1e2996217bea600b9d36145b30339
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014990"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995299"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터
 
@@ -176,14 +177,14 @@ ms.locfileid: "28014990"
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 보려면 사용 권한은 필요 합니까?
 
-이 문서에 설명 된 보고서 보기 및 사용 하기 위해 **모두 보안에서 할당 하는 적절 한 역할을 해야 &amp; 준수 센터 및 Exchange 관리 센터**합니다.
+이 문서에 설명 된 보고서 보기 및 사용 하기 위해 **모두 보안을 위해 할당 되는 적절 한 역할을 해야 &amp; 준수 센터 및 Exchange 관리 센터**합니다.
 
 - 보안을 위해 &amp; 준수 센터 있어야 할당 된 다음 역할 중 하나:
     - 조직 관리
-    - 보안 관리자
+    - 보안 관리자 (Azure Active Directory 관리 센터에서이 할당할 수 있습니다 ([https://aad.portal.azure.com](https://aad.portal.azure.com))
     - 보안 읽기 권한자
 
-- Exchange Online에 대 한 할당 된 다음 역할 중 하나가 있어야 있습니다.
+- Exchange Online에 대 한 있어야 Exchange 관리 센터에 할당 된 다음 역할 중 하나 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell cmdlet (참조 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps))을 사용 합니다.
     - 조직 관리
     - 보기 전용 조직 관리
     - 보기 권한만 있는 받는 사람 역할

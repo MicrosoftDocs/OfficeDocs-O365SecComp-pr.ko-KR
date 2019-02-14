@@ -3,7 +3,7 @@ title: Office 365 위협 인텔리전스를 사용하여 Office 365 사용자를
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 2/12/2018
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
+ms.collection: M365-security-compliance
 description: Office 365 위협 인텔리전스 조직 침입 및 위협 요소를 검색 하 고 신속 하 게 완화 및 위협 으로부터 복구를 통해 하는 방법을 설명 합니다.
-ms.openlocfilehash: ffcbf6cc179ec8a7e8887402e139d2a0cc716eef
-ms.sourcegitcommit: 2cf7f5bb282c971d33e00f65d9982a3f14aec74e
+ms.openlocfilehash: c049e6f811eec8a30eb2b94361f8cdcbdaa8ac49
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26706102"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995369"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-intelligence"></a>Office 365 위협 인텔리전스를 사용하여 Office 365 사용자를 안전하게 보호
 
@@ -27,6 +28,9 @@ ms.locfileid: "26706102"
 Office 365 사용자 중 어떤 공격을 받고 중이거나 심각한 문제-손상 된 알고 있습니까? 완화 하 고 사용자를 대상으로 하는 공격에서 복구 하는 방법을 알고 있습니까? 알고 이미 지정 된 Office 365에서 사용할 수 있는 보안 기능을 갖춘이 정확 하 게 수행할 수 있습니까? 
   
 [Office 365 위협 인텔리전스](office-365-ti.md) 는 제품군 Office 365 E5 구독에 포함 된 기능을 합니다. Office 365 위협 인텔리전스 도움을 주었습니다 되는 평균 시간 사회 공학 사고에 대 한 해상도 80% 및 사례 처리량 증가 하 여 37% 감소 이전 2 분기에 비해 매월 Microsoft IT! 
+
+> [!IMPORTANT]
+> 2019 년 2 월에에서 시작 하 고 향후 몇 개월 동안 롤아웃, Office 365 위협 인텔리전스는 되 고 Office 365 고급 위협 보호 계획 2, 추가 위협 보호 기능을 사용 합니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오.
   
 최근에 검색 하 고 위협 으로부터 복구할 수 있는 방법을 개선 하는 새로운 기능 추가 했습니다! 어떻게 업데이트 된 위협 인텔리전스 서비스 가능 하면 훨씬 더 효율적으로의 통해 빠른 워크는 다음과 같습니다.
   

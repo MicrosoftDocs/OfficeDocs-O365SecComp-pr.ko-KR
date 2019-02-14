@@ -12,15 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
+ms.collection: M365-security-compliance
 description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법에 알아봅니다. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: 4d8c9c669310137d3f491f5a79c93f4d6af71ac5
-ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
+ms.openlocfilehash: 261d85ce72de3a19ed4c2327d56fe1f32107781b
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29755319"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995319"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
+
+> [!IMPORTANT]
+> 이 문서는 기업 고객을 위한 것입니다. Outlook에서 안전한 링크에 대 한 정보에 대 한 자세한 내용은 홈 사용자 인 경우 [Outlook.com 고급 보안](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조 하십시오.
 
 [Office 365 고급 위협 보호](office-365-atp.md) ATP (), 조직 웹사이트 주소 (Url) 차단 되는 사용자 지정 목록을 할 수 있습니다. URL을 차단 되 면 차단 된 URL에 대 한 링크를 클릭 하는 사람 된 다음 이미지 유사한 [경고 페이지](atp-safe-links-warning-pages.md) 로 이동 합니다. 
   

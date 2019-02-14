@@ -1,5 +1,5 @@
 ---
-title: 스마트 및 Office 365 보안에 대 한 의견 &amp; 준수 센터
+title: 스마트 보고서 및 Office 365 보안 & 준수 센터의에서 insights (영문)
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
+ms.collection: M365-security-compliance
 description: 보안에서 보고서 및 의견 사용할 수를 간단히 확인 &amp; 준수 센터입니다.
-ms.openlocfilehash: bdd04301c7a6e6d5230e5a74d6757ff81ac81bdc
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.openlocfilehash: 30c6dcd324770a519f1501c6e7bfa85b28aa6969
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "23013952"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995279"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>보고서 및 Office 365 보안에 대 한 의견을 스마트 &amp; 준수 센터
 
@@ -46,7 +47,7 @@ Office 365 보안에서 사용할 수 있는 기능을 모니터링 &amp; 준수
   
 |**이러한 유형의 정보**|**이동 방법**|**자세한 내용은 위치**|
 |:-----|:-----|:-----|
-|**보안 &amp; 준수 센터 보고** (모든 최대)  <br/> 정보 및 권장 사항 및 보안에 대 한 링크를 상위 &amp; 준수 보고서, 데이터 손실 방지 보고서 등, 레이블, 전자 메일 보안 보고서, 고급 위협 보호 보고서  <br/> |보안에서 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** <br/> |[보안 및 Office 365의 규정 준수 기능을 모니터링 합니다.](monitor-security-and-compliance.md) <br/> |
+|**보안 &amp; 준수 센터 보고** (모든 최대)  <br/> 정보 및 권장 사항 및 보안에 대 한 링크를 상위 &amp; 준수 보고서, 데이터 손실 방지 보고서 등, 레이블, 전자 메일 보안 보고서, 고급 위협 보호 보고서  <br/> |보안에서 &amp; 준수 센터, **보고서** 로 이동 \> **대시보드** <br/> |[Office 365의 보안 및 규정 준수 모니터링](monitor-security-and-compliance.md) <br/> |
 |**데이터 손실 방지** <br/> 데이터 손실 방지 정책 일치 항목, 재정 및 가양성에 대 한 링크를 만들거나 정책 편집  <br/> |보안에서 &amp; 준수 센터, **데이터 손실 방지** 로 이동 \> **정책** <br/> |[데이터 손실 방지에 대한 보고서 보기](view-the-dlp-reports.md) <br/> |
 |**데이터 거버넌스** <br/> 레이블을 적용 되는 방법에 대 한 정보를 레이블 다음 레코드, 레이블 추세 등으로 분류  <br/> |보안에서 &amp; 준수 센터, **데이터 관리 방식** 으로 이동 하십시오 \> **대시보드** <br/> |[데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md) <br/> |
 |**위협 관리 대시보드** (이 라고도 보안 대시보드 및 위협 인텔리전스 대시보드)  <br/> 위협 감지, 맬웨어 추세, 상위 대상된 사용자, 보내고 받은 전자 메일 메시지에 대 한 자세한 내용은 등  <br/> |보안에서 &amp; 준수 센터, **위협 관리로** 이동 \> **대시보드** <br/> |[보안 대시보드 개요 (영문)](security-dashboard.md) <br/> |
@@ -71,7 +72,7 @@ Office 365 보안에서 사용할 수 있는 기능을 모니터링 &amp; 준수
     
 ## <a name="related-topics"></a>관련 항목
 
-[보안 및 Office 365의 규정 준수 기능을 모니터링 합니다.](monitor-security-and-compliance.md)
+[Office 365의 보안 및 규정 준수 모니터링](monitor-security-and-compliance.md)
   
 [Office 365에서 위협으로부터 보호](protect-against-threats.md)
   

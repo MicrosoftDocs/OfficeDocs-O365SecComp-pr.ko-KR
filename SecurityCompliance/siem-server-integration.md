@@ -12,13 +12,14 @@ ms.collection: Ent_O365
 ms.custom:
 - Ent_Solutions
 - SIEM
+- M365-security-compliance
 description: '요약: Microsoft 365 SIEM 서버 통합을 대략적를이 문서를 읽어봅니다.'
-ms.openlocfilehash: bd512ca6d75928712e3444581a78610a0869123d
-ms.sourcegitcommit: 63ed467fc3e1ab1ab9ee122df97c64737169834e
+ms.openlocfilehash: a6e139d14a7ea3625b2d2fffec5ad5d913ea9184
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842687"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995199"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램의 SIEM 서버 통합
 
@@ -32,7 +33,7 @@ SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서�
 
 | Microsoft 365 서비스 또는 응용 프로그램 | SIEM 서버 입력 | 자세한 내용은 리소스 |
 | --- | --- | --- |
-| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>   또는   <br/>[Office 365 위협 인텔리전스](office-365-ti.md) | 감사 로그 | [Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합](siem-integration-with-office-365-ti.md) |
+| [Office 365 Advanced Threat Protection 방지](office-365-atp.md) <br/>   또는   <br/>[Office 365 위협 인텔리전스](office-365-ti.md) | 감사 로그 | [Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합](siem-integration-with-office-365-ti.md) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그의 통합 | [Microsoft 클라우드 앱 보안 SIEM 통합](https://docs.microsoft.com/cloud-app-security/siem) |
 | [Office 365 Cloud App Security](office-365-cas-overview.md) | 로그의 통합 | [Office 365 Cloud App Security와 SIEM 서버 통합](integrate-your-siem-server-with-office-365-cas.md) |
 | [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | 로그의 통합 | [SIEM 도구 끌어오기 알림](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-siem-windows-defender-advanced-threat-protection) |
@@ -44,7 +45,7 @@ SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서�
 
 SIEM 서버 통합을 구성 하기 전에 감사 로깅이 설정 되어있는지 확인 합니다. 
 
-- SharePoint online, 비즈니스 및 Azure Active Directory [의 보안 및 규정 준수 센터의 감사 로깅이 설정](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off)에 대 한 OneDrive 합니다.
+- SharePoint online, 비즈니스 및 Azure Active Directory [보안 & 준수 센터의에서 감사 로깅이 설정](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off)에 대 한 OneDrive 합니다.
 
 - 에 대 한 Exchange Online, [Windows PowerShell을 사용한 감사 로깅이 켜져](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing)있습니다.
  

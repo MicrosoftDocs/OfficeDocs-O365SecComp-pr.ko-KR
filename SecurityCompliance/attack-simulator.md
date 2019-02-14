@@ -3,7 +3,7 @@ title: Office 365의 공격 시뮬레이터
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/02/2019
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -12,17 +12,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
+ms.collection:
+- M365-security-compliance
 description: Office 365 전역 관리자는 조직에서 사실적인 공격 시나리오를 실행 하려면 공격 시뮬레이터를 사용할 수 있습니다. 이 도울수 식별 하 고 실제 공격 비즈니스를 방문한 전에 공격에 취약 한 사용자를 찾을 수 있습니다.
-ms.openlocfilehash: 3449e29197aa5a7a0b63a805ad8cc429f8f8f81b
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: 77de6af6546ae584e3bd25c0d1a59d9f26928f33
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015040"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995169"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
 **요약** Office 365 전역 관리자 여야 하는 경우 조직에 [Office 365 위협 인텔리전스](office-365-ti.md)공격 시뮬레이터를 사용 하 여 사실적인 공격 시나리오를 실행 하 여 조직에서 수 있습니다. 이 도울수 식별 하 고 실제 공격 아래 줄에 영향을 줍니다 전에 공격에 취약 한 사용자를 찾을 수 있습니다. 자세한 내용은이 문서를 읽어보십시오.
+
+> [!IMPORTANT]
+> 2019 년 2 월에에서 시작 하 고 향후 몇 개월 동안 롤아웃, Office 365 위협 인텔리전스는 되 고 Office 365 고급 위협 보호 계획 2, 추가 위협 보호 기능을 사용 합니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오.
   
 ## <a name="the-attacks"></a>공격
 

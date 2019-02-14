@@ -12,15 +12,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
+ms.collection:
+- M365-security-compliance
 description: Office 365 고급 위협 보호 스푸핑 인텔리전스, 안전한 링크, 안전한 첨부 파일, 고급 피싱 방지 기능 및 위협 인텔리전스를 포함 합니다.
-ms.openlocfilehash: 213b262b0ecc821b8f139b1b63568b2b03e635c5
-ms.sourcegitcommit: c1c41744c2de89c9e172f817c8f73bb0ada81a58
+ms.openlocfilehash: 4899073247f4b39e7cda39f8f35544c436c0b2d7
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "29792253"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995219"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
+
+> [!IMPORTANT]
+> 이 문서는 기업 고객을 위한 것입니다. Outlook에서 안전한 링크에 대 한 정보에 대 한 자세한 내용은 홈 사용자 인 경우 [Outlook.com 고급 보안](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조 하십시오.
 
 ## <a name="overview-of-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호 개요
 

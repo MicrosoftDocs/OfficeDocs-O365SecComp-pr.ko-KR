@@ -11,13 +11,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
+ms.collection: M365-security-compliance
 description: Office 365 Enterprise 보호할 수 있는 방법을 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직에 알아봅니다.
-ms.openlocfilehash: 38fc2590b8693989befcf399e32ef378ab89495d
-ms.sourcegitcommit: 30faa3ba91cab4c36e3d8d8ed5858d5269ea8a56
+ms.openlocfilehash: 6caf891acb8c96d17a3aa1b4ffc222380ed9341b
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27749312"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995139"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협으로부터 보호
 

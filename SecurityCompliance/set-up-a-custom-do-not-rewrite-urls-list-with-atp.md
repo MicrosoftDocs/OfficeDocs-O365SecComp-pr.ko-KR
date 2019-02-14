@@ -12,15 +12,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
+ms.collection: M365-security-compliance
 description: ATP 안전한 링크 정책에를 설정 하는 경우에 do not 재작성을 포함할 수 있습니다 ' 목록에 포함 된 사이트를 방문 하 여 조직에서 일부 사용자를 사용 하도록 설정 하는 Url의 목록입니다.
-ms.openlocfilehash: 5eb2d09f1d1d77fa9d6ffdb9f14ba9e7522da287
-ms.sourcegitcommit: d6a28c4f6db6a676ca960173e8ff8f17d4aa1c4b
+ms.openlocfilehash: 87a245e2f21408cd06d483ec5fdcdac47ce7e317
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29755289"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995379"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 사용자 지정 안함-되지 않음-재작성 Url 목록 설정
+
+> [!IMPORTANT]
+> 이 문서는 기업 고객을 위한 것입니다. Outlook에서 안전한 링크에 대 한 정보에 대 한 자세한 내용은 홈 사용자 인 경우 [Outlook.com 고급 보안](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조 하십시오.
 
 [Office 365 고급 위협 보호](office-365-atp.md) ATP ()와 함께 조직을 가질 수 [차단 된 사용자 지정 Url](set-up-a-custom-blocked-urls-list-wtih-atp.md)을 웹에 사람들을 클릭 하는 경우 주소 (Url)는 전자 메일 메시지 또는 특정 Office 문서에는 이러한 Url 하려고에서 수 없습니다. 조직에서 특정 그룹에 대 한 사용자 지정 "rewrite 수행" 목록을 역시 조직입니다. "Rewrite 수행" 목록에는 그렇지 않은 경우 [Office 365의 ATP 안전 링크](atp-safe-links.md)에 의해 차단 되는 Url을 방문 하 여 일부 참가자 수 있습니다. 
   

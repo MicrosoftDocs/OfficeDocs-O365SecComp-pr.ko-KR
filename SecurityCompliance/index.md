@@ -6,17 +6,18 @@ author: robmazz
 manager: laurawi
 layout: LandingPage
 ms.service: office-365
+ms.collection: M365-security-compliance
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/27/2018
 ms.author: robmazz
-ms.openlocfilehash: 255bde226f5a284f2ac20d65124d4722e2357385
-ms.sourcegitcommit: 55762890e5129a5240054990ce64e93007ed7a32
+ms.openlocfilehash: aa6224754830e99f43deb8da5326622a46ccad51
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2018
-ms.locfileid: "27449882"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995179"
 ---
 # <a name="office-365-security-and-compliance"></a>Office 365 보안 및 규정 준수
 
@@ -51,7 +52,7 @@ ms.locfileid: "27449882"
                     </div>
                     <div class="cardText">
                         <h3>90 일 내에서 다음 단계</h3>
-                        <p>이러한 작업에는 계획 및 구현 하지만 보안 환경을 크게 증가 하는 약간 더 많은 시간이 걸릴: <br> - <a href="attack-simulator.md">공격 시뮬레이션을 수행 합니다.</a> <br> - <a href="meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md">검토 규정 준수 관리자</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure">Azure 권한 있는 Id 관리 구성</a> <br> - <a href="privileged-access-management-configuration.md">액세스 권한을된 관리 구성</a>  <br> - <a href="https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks">다단계 인증을 사용 하도록 설정</a> <br> - <a href="protect-against-threats.md">검토 및 업데이트 보호 정책</a> </p>
+                        <p>이러한 작업에는 계획 및 구현 하지만 보안 환경을 크게 증가 하는 약간 더 많은 시간이 걸릴: <br> - <a href="attack-simulator.md">공격 시뮬레이션을 수행 합니다.</a> <br> - <a href="meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md">검토 규정 준수 관리자</a> <br> - <a href="https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure">Azure 권한 있는 Id 관리 구성</a> <br> - <a href="privileged-access-management-configuration.md">액세스 권한을된 관리 구성</a>  <br> - <a href="https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks">다단계 인증을 사용 하도록 설정</a> <br> - <a href="protect-against-threats.md">_AMP_ 업데이트 보호 정책을 검토합니다</a> </p>
                     </div>
                 </div>
             </div>
@@ -115,7 +116,7 @@ ms.locfileid: "27449882"
                     <div class="cardText">
                         <h3>잘 준수합니다</h3>
                         <p><a href="https://www.microsoft.com/trustcenter" target="_blank">Microsoft 보안 센터</a></p>
-                        <p><a href="https://servicetrust.microsoft.com" target="_blank">Microsoft 서비스 신뢰 포털</a></p>
+                        <p><a href="https://servicetrust.microsoft.com" target="_blank">Microsoft 서비스 보안 포털</a></p>
                     </div>
                 </div>
             </div>

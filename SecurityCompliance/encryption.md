@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0a322724-08ca-43db-b69a-afbfa20484cd
 description: Office 365에서 가장 강력한 암호화, 프로토콜 및 사용할 수 있는 기술을 사용 하 여 전송 하 고 나머지 부분에 콘텐츠 암호화 됩니다. Office 365의 암호화의 개요를 확인 합니다.
-ms.openlocfilehash: a9f37fddf28461ee4912e0b8a1f5b922c59c009f
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+ms.openlocfilehash: 5f64d6e758818d410f54370adee549f565d4f042
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972290"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995109"
 ---
 # <a name="encryption-in-office-365"></a>Office 365의 암호화
 
@@ -47,7 +47,7 @@ Office 365와 함께 여러 계층 및 데이터를 보호 하기 위해 협력 
   
 |**종류의 콘텐츠**|**암호화 기술**|**자세한 내용은 리소스**|
 |:-----|:-----|:-----|
-|장치에서 파일입니다. 이 폴더, 컴퓨터, 태블릿, 또는 전화에 저장 하는 Office 문서 또는 Microsoft 클라우드로 저장 되는 데이터에 저장 하는 전자 메일 메시지를 포함할 수 있습니다.  <br/> |Microsoft 데이터 센터의 BitLocker 합니다. BitLocker는 사용 하 여 Windows 컴퓨터 및 태블릿 등의 클라이언트 컴퓨터에도 수 있습니다.  <br/> Microsoft 데이터 센터의 분산된 키 관리자 (DKM)  <br/> Office 365에 대 한 고객 키  <br/> |[Windows IT 센터: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Microsoft 보안 센터: 암호화](https://www.microsoft.com/en-us/TrustCenter/Security/Encryption) <br/> [시리즈를 제어 하는 클라우드 보안: 보관 된 데이터를 암호화](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Exchange Online에서 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md) <br/> [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md) <br/> |
+|장치에서 파일입니다. 이 폴더, 컴퓨터, 태블릿, 또는 전화에 저장 하는 Office 문서 또는 Microsoft 클라우드로 저장 되는 데이터에 저장 하는 전자 메일 메시지를 포함할 수 있습니다.  <br/> |Microsoft 데이터 센터의 BitLocker 합니다. BitLocker는 사용 하 여 Windows 컴퓨터 및 태블릿 등의 클라이언트 컴퓨터에도 수 있습니다.  <br/> Microsoft 데이터 센터의 분산된 키 관리자 (DKM)  <br/> Office 365에 대 한 고객 키  <br/> |[Windows IT 센터: BitLocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) <br/> [Microsoft 보안 센터: 암호화](https://www.microsoft.com/en-us/TrustCenter/Security/Encryption) <br/> [시리즈를 제어 하는 클라우드 보안: 보관 된 데이터를 암호화](https://blogs.microsoft.com/microsoftsecure/2015/09/10/cloud-security-controls-series-encrypting-data-at-rest) <br/> [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md) <br/> [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md) <br/> |
 |사용자 간에 전송 되는 파일입니다. 이 Office 문서 또는 사용자 간에 공유 하는 SharePoint 목록 항목에 포함할 수 있습니다.  <br/> |파일 전송에 대 한 TLS  <br/> |[비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화](data-encryption-in-odb-and-spo.md) <br/> [온라인 비즈니스에 대 한 Skype: 보안 및 보관](https://technet.microsoft.com/library/skype-for-business-online-security-and-archiving.aspx) <br/> |
 |전자 메일을 받는 사람에 게 간에 전송 합니다. Exchange Online에서 호스트 하는 전자 메일 포함 됩니다.  <br/> |Azure 권한 관리, S/MIME 및 전송 중에서 전자 메일에 대 한 TLS를 사용 하 여 office 365 메시지 암호화  <br/> |[Office 365 메시지 암호화 (OME)](ome.md) <br/> [Office 365의 전자 메일 암호화](email-encryption.md) <br/> [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](exchange-online-uses-tls-to-secure-email-connections.md) <br/> |
    
@@ -61,7 +61,7 @@ Office 365와 함께 여러 계층 및 데이터를 보호 하기 위해 협력 
     
 - [Office 365 관리 센터에서 Azure 권한 관리 활성화](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
     
-- [SharePoint 관리 센터에서 정보 권한 관리 (IRM)를 설정](set-up-irm-in-sp-admin-center.md)
+- [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
     
 ## <a name="how-do-i"></a>작업 방법
 

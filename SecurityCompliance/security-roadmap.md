@@ -11,16 +11,17 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Office 365 환경을 보호 하기 위해 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀에서 위쪽 권장 합니다. '
-ms.openlocfilehash: 58767ea9a2b825d1583d9135f9d8edcb0d20d7c2
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: ce7b4371a284763c506ea4e1a06a63dbf2968ae5
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "25450083"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995289"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Office 365 보안 로드맵-처음 30 일, 90 일 동안 및 이외 위쪽 우선순위
 
@@ -57,7 +58,7 @@ ms.locfileid: "25450083"
   
 |||
 |:-----|:-----|
-|영역  <br/> |작업  <br/> |
+|영역  <br/> |Tasks  <br/> |
 |보안 관리  <br/> |• 보안 점수를 확인 하 고 현재 점수를 기록해둡니다 ( [https://securescore.office.com](https://securescore.office.com)).  <br/>  •는 Office 365에 대 한 감사 로깅을 설정 합니다. 참조 [Office 365 보안에서 감사 로그를 검색 &amp; 준수 센터](search-the-audit-log-in-security-and-compliance.md)합니다.<br/> • [보안 향상된을 위해 Office 365 테 넌 트를 구성](tenant-wide-setup-for-increased-security.md) 합니다.  <br/>  •는 정기적으로 대시보드 및 Office 365 보안 및 규정 준수 센터와 클라우드 응용 프로그램 보안에 대 한 보고서를 검토 합니다.  <br/> |
 |위협 방지  <br/> |비정상적인 동작에 대 한 기본 위협 탐지 정책을 사용 하 여 모니터링을 시작 하려면 [Microsoft 클라우드 응용 프로그램 보안을 Office 365에 연결](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 을 선택 합니다. 걸리는 7 일 이상 탐지에 대 한 초기 계획을 작성 합니다.<br><br/>  관리 계정에 대 한 보호를 구현 합니다.  <br/> • 사용 전용 관리 관리 작업에 대 한 계정입니다.  <br/>  • 관리 계정에 대 한 다단계 인증 (MFA)를 적용 합니다.  <br/>  • 관리 작업에 대 한 [매우 Windows 10 장치 보안](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) 을 사용 합니다.  <br/> |
 |ID 및 액세스 관리  <br/> |• [Azure Active Directory Id 보호를 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)합니다.  <br/> • 페더레이션된 id 환경에 대 한 계정 보안 (암호 길이, 기간, 복잡성 등)를 적용 합니다.  <br/> |

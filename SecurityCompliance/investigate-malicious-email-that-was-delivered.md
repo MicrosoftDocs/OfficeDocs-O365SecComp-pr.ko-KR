@@ -3,7 +3,7 @@ title: 찾기 및 악의적인 전자 메일 (Office 365 위협 인텔리전스)
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 8/6/2018
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,20 +12,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
+ms.collection: M365-security-compliance
 description: 위협 인텔리전스를 사용 하 여를 찾아 악의적인 전자 메일을 조사 하는 방법에 알아봅니다.
-ms.openlocfilehash: b6d4f8a5d1fcfce4461b91796b1264f94d1eb4d1
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: c7492ccf2a7fa5d67b256264c6ed6fbdb06bcbc8
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014920"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995189"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-threat-intelligence"></a>찾기 및 악의적인 전자 메일 (Office 365 위협 인텔리전스) 지정 된 배달 하 게 조사
 
 [Office 365 위협 인텔리전스](office-365-ti.md) 를 사용 하면 위험에 사용자를 배치 하 고 조직을 보호 하는 작업을 수행 하는 활동을 조사할 수 있습니다. 등 조직의 보안 팀의 일부인 경우 찾기 및 의심 스러운 전자 메일 메시지를 사용자에 게 배달 된를 조사할 수 있습니다. [위협 탐색기](get-started-with-ti.md#threat-explorer)를 사용 하 여이 수행할 수 있습니다.
   
-> [!NOTE]
-> Office 365 위협 인텔리전스 Office 365 Enterprise e 5에서 제공 됩니다. 조직의 다른 Office 365 Enterprise 등록을 사용 하는 경우 Office 365 위협 인텔리전스 추가 기능으로 구입할 수 있습니다. (전역 관리자는 Office 365 관리 센터에서 선택 **대금 청구** \> **추가 구독**.) 자세한 내용은 참조 [Office 365 플랫폼 서비스 설명: Office 365 보안 &amp; 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) [구입 또는 비즈니스를 위한 Office 365에 대 한 추가 기능을 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)하 고 있습니다. 
+> [!IMPORTANT]
+> 2019 년 2 월에에서 시작 하 고 향후 몇 개월 동안 롤아웃, Office 365 위협 인텔리전스는 되 고 Office 365 고급 위협 보호 계획 2, 추가 위협 보호 기능을 사용 합니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오.
   
 ## <a name="before-you-begin"></a>시작 하기 전에...
 

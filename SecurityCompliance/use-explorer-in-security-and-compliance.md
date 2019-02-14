@@ -3,7 +3,7 @@ title: 탐색기를 사용 하 여 보안에서 &amp; 준수 센터
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/26/2018
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
+ms.collection: M365-security-compliance
 description: 보안에서 탐색기 (위협 탐색기 라고도 함)에 대 한 설명 &amp; 준수 센터입니다.
-ms.openlocfilehash: c5b6273120c605cb4233f62b5c52c6a794e554eb
-ms.sourcegitcommit: 0cc6083bd8cb2f7bbf18847149c6d5239f2a6403
+ms.openlocfilehash: 16f5b15c6993301f4f324f4b84c3b6e61f255e0f
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699931"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995119"
 ---
 # <a name="use-explorer-in-the-security-amp-compliance-center"></a>탐색기를 사용 하 여 보안에서 &amp; 준수 센터
 
@@ -27,6 +28,9 @@ ms.locfileid: "26699931"
 ![위협 관리로 이동 \> 탐색기](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
   
 보안에서 탐색기를 사용 하 여 &amp; 준수 센터, **위협 관리로** 이동 \> **탐색기**입니다.
+
+> [!IMPORTANT]
+> 2019 년 2 월에에서 시작 하 고 향후 몇 개월 동안 롤아웃, Office 365 위협 인텔리전스는 되 고 Office 365 고급 위협 보호 계획 2, 추가 위협 보호 기능을 사용 합니다. 자세한 내용은 [Office 365 고급 위협 보호 계획 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 고급 위협 Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 참조 하십시오.
       
 ## <a name="explorer-overview"></a>탐색기 개요 (영문)
 

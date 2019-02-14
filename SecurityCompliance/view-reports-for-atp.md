@@ -3,7 +3,7 @@ title: Office 365 고급 위협 보호에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/07/2019
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -12,13 +12,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
+ms.collection: M365-security-compliance
 description: 찾기 및 보안에서 Office 365 고급 위협 보호에 대 한 보고서를 사용 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: a17f182f5c8d79e7863b26324a3c073ef18f14c9
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+ms.openlocfilehash: a27fdf6c7d04a2526873047d4e2a33bb283878b3
+ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014950"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "29995229"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 고급 위협 보호에 대 한 보고서 보기
 
@@ -79,7 +80,6 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
 
 다음 표에 설명 된 대로이 문서에 설명 된 ATP 보고서 외에도 다른 여러 보고서를를 사용할 수 있습니다.
 
-
 |보고서 유형  |자세한 정보  |
 |---------|---------|
 |**전자 메일 보안 보고서**와 같은, 위쪽 보낸사람 및 받는 사람에 게 보고서, 스푸핑 메일 보고서 및 스팸이 감지 된 보고서입니다. | [보안에서 전자 메일 보안 보고서를 보려면 &amp; 준수 센터](view-email-security-reports.md)        |
@@ -90,14 +90,14 @@ ATP 보고서 [위협 보호 상태 보고서](#threat-protection-status-report)
   
 ## <a name="what-permissions-are-needed-to-view-the-atp-reports"></a>사용 권한은 ATP 보고서를 보려면 필요 합니까?
 
-이 문서에 설명 된 보고서 보기 및 사용 하기 위해 **모두 보안에서 할당 하는 적절 한 역할을 해야 &amp; 준수 센터 및 Exchange 관리 센터**합니다.
+이 문서에 설명 된 보고서 보기 및 사용 하기 위해 **모두 보안을 위해 할당 되는 적절 한 역할을 해야 &amp; 준수 센터 및 Exchange 관리 센터**합니다.
 
 - 보안을 위해 &amp; 준수 센터 있어야 할당 된 다음 역할 중 하나:
     - 조직 관리
-    - 보안 관리자
+    - 보안 관리자 (Azure Active Directory 관리 센터에서이 할당할 수 있습니다 ([https://aad.portal.azure.com](https://aad.portal.azure.com))
     - 보안 읽기 권한자
 
-- Exchange Online에 대 한 할당 된 다음 역할 중 하나가 있어야 있습니다.
+- Exchange Online에 대 한 있어야 Exchange 관리 센터에 할당 된 다음 역할 중 하나 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell cmdlet (참조 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps))을 사용 합니다.
     - 조직 관리
     - 보기 전용 조직 관리
     - 보기 권한만 있는 받는 사람 역할
