@@ -1,9 +1,9 @@
 ---
-title: 중요 한 정보에 대 한 새 Office 365 메시지 암호화 정책
+title: 중요 한 정보에 대 한 Office 365 메시지 암호화 정책
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 1/16/2019
+ms.date: 1/31/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
@@ -12,64 +12,74 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: 요약:는 자동으로 모든 테 넌 트에 제공 하는 중요 한 정보 형식에 대 한 Office 365 메시지 암호화 정책을 적용 합니다.
-ms.openlocfilehash: f83bf0fe572586b3becf2dd53395e611bdaaea24
-ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
+description: '요약: 중요 한 정보 유형에 대 한 Office 365 메시지 암호화 정책을 지금 사용할 수 있습니다.'
+ms.openlocfilehash: e2a72ee85ca65a2fe8ae1543979b51915ff0a88f
+ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29614382"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "29696202"
 ---
-# <a name="office-365-message-encryption-policy-for-sensitive-information"></a>중요 한 정보에 대 한 office 365 메시지 암호화 정책
+# <a name="office-365-message-encryption-policy-for-sensitive-information"></a>중요 한 정보에 대 한 Office 365 메시지 암호화 정책
 
-선택 그룹은 조직의 크기와 메일 흐름의 복잡성에 따라 테 넌 트에 대해 특정 유형의 자체는 포함 된 전자 메일을 Office 365 메시지 암호화 적용 되는 Office 365 테 넌 트의 새로운 자동 정책의 느린 roll 아웃 수행 하는 정보입니다. 이 테 넌 트의 작은 그룹과 테스트 하는 합니다. 이 정책은 하지 롤아웃 될 모든 조직 및 조직 크기와 같은 고려 사항 및 메일 흐름의 복잡도 사용 하 여이 롤아웃을 대 한 자격을 결정 하는 합니다. 이 롤아웃을 대 한 조직 선택 알림을 기반이이 자동 정책이 만들어질 및 최소한 30 일 공지와 옵트아웃 옵션이 제공 됩니다 날짜를 알리는 Office 365 메시지 센터에서 받습니다. 이 정책을 만들려면 Microsoft 때까지 기다리는 하지 않으려고 그렇게 하려고 하는 경우 Exchange 메일 흐름 규칙을 사용 하 여이 자동 정책을 만들 수 자기 자신을 합니다.
+업데이트 (1/30/19): 10 월 2018에서는 특정 중요 한 정보 유형을 기반으로 중요 한 전자 메일을 자동으로 암호화 하 여 보호를 단순화할 수 있는지를 이해 하기 위한 소수의 고객 예제로 노력 했습니다. 이 샘플의 긍정적인 피드백을 기반으로 하 여 12 월 2018에 보다 다양 한 테 넌 트 프로필을 확장 하기로 결정 했습니다. 다음 롤오버를 통신 하 여 테 넌 트를 선택 하면 사용자 의견을 수렴 하 고 복잡 한 환경이 있는 고객이 규칙을 보다 주의 깊게 구현 하기를 원했습니다.
 
-## <a name="when-to-expect-the-update-for-your-tenant"></a>테 넌 트에 대 한 업데이트를 것으로 예상 되는 경우
+조직이 롤업을 사용 하도록 선택한 경우 2019 년 1 월 15 일부터 시작 하는 경우 자동 정책이 배포 되지 않습니다. 대신이 문서에서 롤아웃 yourselves을 완료 하는 방법에 대 한 지침을 제공 합니다. 정보를 계속 확인 하 여 방법을 알아봅니다.
 
-조직에는 자동이 정책을 테 넌 트에 작성 되는 날짜를 알리는 Office 365 메시지 센터에는 알림을 받게 됩니다. 30 일 알림의 부여 하 고 옵션 옵트아웃을 갖습니다. 잠재적으로 옵트아웃할 하려면 하는 시나리오를 위한 타사 데이터 손실 방지 솔루션 이미 중요 한 형식에 대 한 검색을 하는 경우 것입니다. 옵트아웃 하는 방법에 대 한 자세한 내용은이 문서의 뒷부분에 사용할 수 있습니다.
+||
+|:-----|
+|이 문서는 Office 365 메시지 암호화에 대 한 보다 광범위 한 문서에 포함 되어 있습니다. 이 문서는 관리자와 itpros 전문가를 위한 것입니다. 암호화 된 메시지를 보내거나 받는 방법에 대 한 정보를 찾으려는 경우에는 [Office 365 메시지 암호화 (OME)](ome.md) 의 문서 목록을 참조 하 여 요구 사항에 가장 적합 한 문서를 검색 하세요. |
+||
 
-## <a name="sensitive-information-type-policy-details"></a>중요 한 정보 유형 정책 세부 정보
+## <a name="how-to-create-the-sensitive-information-type-policy-for-your-tenant"></a>테 넌 트에 대 한 중요 한 정보 유형 정책을 만드는 방법
 
-조직에서 사용 하 여 조직의 외부로 나가는 전자 메일을 자동으로 암호화 하는 Exchange 메일 흐름 규칙을 만들는 *암호화 전용* 정책 전자 메일 또는 해당 첨부 파일에 다음과 같은 중요 한 정보 유형 포함 되는 경우:
+Exchange 메일 흐름 규칙 또는 Office 365 DLP (데이터 손실 방지)를 사용 하 여 중요 한 정보 유형 정책을 만들 수 있습니다. exchange 메일 흐름 규칙을 만들려면 EAC (exchange 관리 센터) 또는 PowerShell을 사용할 수 있습니다.
+
+### <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>EAC에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
+
+EAC (Exchange 관리 센터)에 로그인 하 고 **메일 흐름** > **규칙**으로 이동 합니다. 여기에는 메시지 또는 첨부 파일에 특정 키워드나 중요 한 정보 유형이 존재 하는 등의 조건에 따라 Office 365 메시지 암호화를 적용 하는 규칙이 작성 됩니다.
+
+### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>PowerShell에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
+
+Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오. TransporRule cmdlet을 사용 하 여 정책을 만듭니다.
+
+### <a name="example-mail-flow-rule-created-with-powershell"></a>PowerShell로 만든 메일 흐름 규칙 예제
+
+PowerShell에서 다음 명령을 실행 하 여 전자 메일 또는 첨부 파일에 다음과 같은 중요 한 정보가 포함 되어 있는 경우 *암호화 전용* 정책을 사용 하 여 조직 외부의 전자 메일을 자동으로 암호화 하는 Exchange 메일 흐름 규칙 만들기 정보 유형:
 
 - ABA 라우팅 번호
 - 신용 카드 번호
-- 약물 적용 기관 (DEA) 번호
-- 미국 / 영국 여권 번호
+- DEA (약품 집행 기관) 번호
+- 미국/영국 여권 번호
 - 미국 은행 계좌 번호
 - 미국 ITIN(개인 납세자 번호)
 - 미국 SSN(사회 보험 번호)
 
-> [!Note]
-> 정확 하 게 중요 한 형식 조직의 로캘에 의해 다를 수 있습니다 및 메시지 센터 알림 영역에서 전달 됩니다.
+```powershell
+Set-IRMConfiguration -DecryptAttachmentsForEncryptOnly $true
+New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
+```
 
-## <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>준비 하기 위해이 변경을 수행 어떻게 해야 합니까?
+## <a name="how-recipients-access-attachments"></a>받는 사람이 첨부 파일에 액세스 하는 방법
 
-업데이트 하거나이 새로운 변경 하기 전에 모든 기존 Office 365 구성 설정을 수정할 필요가 없습니다. 그러나 다음 모든 해당 최종 사용자 설명서 및 교육 자료 (영문)이이 변경에 대 한 조직의 사용자에 게 준비를 업데이트 하는 것이 좋습니다. 필요에 따라 사용자와 이러한 Office 365 메시지 암호화 리소스를 공유 합니다.
+메시지가 암호화 되 면 받는 사람은 액세스 하 여 암호화 된 전자 메일을 여는 경우 첨부 파일에 무제한으로 액세스할 수 있습니다.
 
-- [전송 하 고, 보고, PC에 대 한 Outlook에서 암호화 된 메시지에 회신](https://support.office.com/article/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
-- [Office 365 Essentials 비디오: Office 메시지 암호화](https://youtu.be/CQR0cG_iEUc)
+## <a name="to-prepare-for-this-change"></a>이 변경 내용을 준비 하려면
 
-## <a name="how-will-this-change-be-represented-in-the-audit-log"></a>이 변경 내용을 표시 되는 방법을 감사 로그에 있습니까?
+해당 하는 최종 사용자 설명서 및 교육 자료를 업데이트 하 여 조직의 사용자가이 변경 내용을 준비할 수 있습니다. 다음 Office 365 메시지 암호화 리소스를 사용자와 적절 하 게 공유 합니다.
 
-이 작업은 감사 및 고객에 게 표시 됩니다.  이 작업은 ' New-transportrule ' 이며 보안 & 준수 센터의에서 감사 로그 검색에서 예제 감사 항목의 코드 조각을 아래:
+- [PC 용 Outlook에서 암호화 된 메시지 보내기, 확인 및 회신](https://support.office.com/article/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980)
+- [office 365 Essentials 동영상: office 메시지 암호화](https://youtu.be/CQR0cG_iEUc)
+
+## <a name="view-these-changes-in-the-audit-log"></a>감사 로그에서 이러한 변경 내용을 확인 합니다.
+
+이 활동은 감사 되며 Office 365 관리자가 사용할 수 있습니다. 이 작업은 ' New-new-transportrule ' 이며, 보안 & 준수 센터의 감사 로그 검색의 예제 감사 항목의 코드 조각이 아래에 있습니다.
 
 |     |
 | --- |
-| *{"CreationTime":"2018-11-28T23:35:01","Id":"a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c","Operation":"New-TransportRule","OrganizationId":"123456-221d-12345", "RecordType": 월 1 일, "ResultStatus": "True", "UserKey": "Microsoft 연산자"," UserType": 3,"버전": 월 1 일,"작업":"Exchange","ClientIP":"123.456.147.68:17584","ObjectId":""," UserId":"Microsoft Operator","ExternalAccess":true,"OrganizationName":"contoso.onmicrosoft.com","OriginatingServer":"CY4PR13MBXXXX ( 15.20.1382.008)","Parameters": {"Name":"조직","값":" 123456 221 d-12346"{"Name":"ApplyRightsProtectionTemplate","값":"암호화"}, {"Name":"이름","값":"(로그 아웃 상자 규칙) 중요 한 아웃 바운드 전자 메일이 암호화"}, {"Name":" MessageContainsDataClassifications"등입니다.*
- |
+| *{"CreationTime": "2018-11-28t23:35:01", "Id": "a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c", "Operation": "New-new-transportrule", "조직 id": "123456-221d-12345", "RecordType": 1, "resultstatus": "True", "userkey": "Microsoft Operator", " UserType ": 3," Version ": 1," 작업 부하 ":" Exchange "," ClientIP ":" 123.456.147.68:17584 "," ObjectId ":" "," UserId ":" Microsoft Operator","OrganizationName":"contoso ":" OriginatingServer ( 15.20.1382.008) "," 매개 변수 ": {" Name ":" 조직 "," 값 ":" 123456-221d-"ApplyRightsProtectionTemplate", "value", "12346": "", "" name "," value ":" 아웃 바운드 중요 한 전자 메일을 암호화 합니다 (box 규칙을 벗어났습니다. "}, {" Name ":" MessageContainsDataClassifications "... 기타.* |
+| |
 
-## <a name="how-do-i-opt-out"></a>어떻게 수행 합니까 옵트아웃?
+## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>중요 한 정보 유형 정책을 사용 하지 않도록 설정 하거나 사용자 지정 하려면
 
-옵트아웃이 변경 하려는 경우에 다음이 단계를 수행 하십시오.
-
-1. Office 365 조직에 대 한 전역 관리자 권한이 있는 작업이 나 교육용 계정을 사용 하는 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Connect to Exchange Online PowerShell를](https://aka.ms/exopowershell)참조 하십시오.
-2. 다음과 같이 Set-irmconfiguration cmdlet를 실행 합니다.
-
-   ```
-   Set-IRMConfiguration -AutomaticServiceUpdateEnabled $false
-   ```
-
-## <a name="how-do-i-disable-or-customize-the-automatic-policy"></a>사용 하지 않도록 설정 하거나 자동 정책을 사용자 지정 어떻게 해야 합니까?
-
-[사용 하지 않거나 규칙을 편집](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) **메일 흐름**으로 이동 하 여 수 하면 하지 않았으므로 옵트아웃이 변경 하 고 Exchange 메일 흐름 규칙을 이미 만든 경우 > **규칙** 에서 Exchange 관리 센터 (EAC) 및 "*암호화 규칙을 사용 하지 않도록 설정 (로그 아웃 상자 규칙) 중요 한 아웃 바운드 전자 메일이*"입니다.
+exchange 메일 흐름 규칙을 만든 후에는 EAC (exchange 관리 센터)의 **메일 흐름** > **규칙** 으로 이동 하 여 [규칙을 사용 하지 않도록 설정 하거나 편집할](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules#enable-or-disable-a-mail-flow-rule) 수 있으며 "*아웃 바운드 중요 한 전자 메일 암호화 (box 규칙을 초과* 함" 규칙을 사용 하지 않도록 설정 합니다. ".
