@@ -1,5 +1,5 @@
 ---
-title: Office 365 데이터 손상을 처리
+title: 데이터 손상을 다루는 Office 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -10,29 +10,31 @@ ms.service: Office 365 Administration
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
-description: Office 365 및 Microsoft의 활동을 방지 하 고 복구 중에 데이터 손상의 설명 합니다.
-ms.openlocfilehash: 087be23ce5dad1daf62357cb08e27c0a15962792
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+description: Office 365의 데이터 손상 및 Microsoft의 예방 및 복구 작업에 대해 설명 합니다.
+ms.openlocfilehash: 54c7c69856f02d44d5c434badb30ababaa32ba1e
+ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533590"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30090700"
 ---
-# <a name="dealing-with-data-corruption-in-office-365"></a>Office 365의에서 데이터 손상을 처리
+# <a name="dealing-with-data-corruption-in-office-365"></a>Office 365의 데이터 손상 처리
 
-대규모 클라우드 서비스를 실행 하는 어려운 측면 중 하나 독립 시스템과 데이터의 양이 주어진 데이터 손상을 처리 하는 방법입니다. 데이터 손상을 원인일 수 있습니다.
-- 응용 프로그램 상태 중 일부 또는 전부를 손상 시 키 지 응용 프로그램 또는 인프라 버그 
-- 하드웨어 문제 손실 된 데이터 또는 데이터를 읽을 수 없으면 해당 결과 
-- 휴먼 운영 오류 
-- 악의적인 해커 및 불만 가진된 직원 
-- 일부 데이터 손실이 발생 하는 외부 서비스에 사고 
+대규모 클라우드 서비스를 실행할 때의 까다로운 측면 중 하나는 대규모 데이터 및 독립 시스템에 따라 데이터 손상을 처리 하는 방법입니다. 데이터 손상은 다음과 같은 이유로 인해 발생할 수 있습니다.
+- 응용 프로그램 또는 인프라 버그 (일부 또는 모든 응용 프로그램 상태 손상) 
+- 데이터가 손실 되거나 데이터를 읽을 수 없게 되는 하드웨어 문제 
+- 사용자 운영 오류 
+- 악의적인 해커 및 불만을 품은 직원 
+- 데이터 손실을 발생 시키는 외부 서비스의 사건 
 
-데이터 무결성에 큰 복구 의미가 데이터 손상 문제 감소 하기 때문에 Microsoft에서는 이러한 문제가 발생, 시스템 및 않을 경우 데이터를 복구 하 게 사용할 수 있는 프로세스에서 손상을 방지 하기 위해 Office 365 보호 메커니즘에 작성 됩니다. 데이터 손상에 대해 복구를 높이 엔지니어링 릴리스 프로세스의 다양 한 단계 내 검사 및 프로세스에 존재 포함 합니다.
+데이터 무결성이 높을수록 데이터 손상 사고가 더 적기 때문에 Microsoft는 손상 발생을 방지 하기 위해 Office 365 보호 메커니즘을 기본적으로 제공 하 고 시스템 및 프로세스를 통해 데이터를 복구할 수 있습니다. 다음을 포함 하 여 데이터 손상에 대 한 복구 력을 늘리기 위해 엔지니어링 릴리스 프로세스의 다양 한 단계 내에 검사 및 프로세스가 존재 합니다.
 - 시스템 디자인
-- 코드 조직 및 구조 
+- 코드 구성 및 구조 
 - 코드 검토 
 - 단위 테스트, 통합 테스트 및 시스템 테스트
-- 출장 와이어 테스트/게이트 
+- 여행 와이어 테스트/게이트 
 
-Office 365 프로덕션 환경 내에서 데이터 센터 간의 피어 복제 모든 데이터의 라이브 복사본을 여러개 항상 되었는지 확인 합니다. 표준 이미지 및 스크립트를 사용 하 여 손실 된 서버를 복구 하 고 복제 된 데이터를 사용 하 여 고객 데이터를 복원 합니다. Microsoft은 SharePoint Online 및 내부 코드에서 기본 제공 복제를 사용 하 여 Office 365 정보 시스템 설명서 (보안 관련 설명서 포함)만의 백업을 유지 관리 가이드에 표시 되는 기본 제공 데이터 복구 검사와 프로세스를로 인해 리포지토리 도구, 소스 서비스 센터입니다. SharePoint Online에 저장 된 시스템 설명서 및 원본 서비스 센터로 시스템 및 응용 프로그램 이미지를 포함 합니다. SharePoint Online 및 원본 서비스 센터 버전 관리를 사용 하 고 거의 실시간에 복제 됩니다. 
+Office 365 프로덕션 환경에서 데이터 센터 간의 피어 복제를 사용 하면 데이터가 항상 여러 개인 경우를 확인할 수 있습니다. 표준 이미지 및 스크립트는 손실 된 서버를 복구 하는 데 사용 되 고, 복제 된 데이터는 고객 데이터를 복원 하는 데 사용 됩니다. 기본 제공 되는 데이터 복구 력 검사 및 프로세스 때문에 Microsoft는 Office 365 정보 시스템 설명서 (보안 관련 문서 포함)의 백업만 유지 하 고 SharePoint Online의 기본 제공 복제와 내부 코드를 사용 합니다. 리포지토리 도구, 원본 서비스 센터 시스템 설명서는 SharePoint Online에 저장 되며, 원본 서비스 센터에는 시스템 및 응용 프로그램 이미지가 포함 됩니다. SharePoint Online 및 원본 서비스는 모두 버전 관리를 사용 하며 거의 실시간으로 복제 됩니다. 

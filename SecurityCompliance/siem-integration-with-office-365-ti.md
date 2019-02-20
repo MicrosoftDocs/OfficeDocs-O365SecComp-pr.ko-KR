@@ -1,5 +1,5 @@
 ---
-title: Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합
+title: Office 365 위협 인텔리전스 및 Advanced Threat Protection과의 siem 통합
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -11,33 +11,33 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb56b69b-3170-4086-82cf-ba40a530fa1b
-description: Office 365 위협 인텔리전스 및 Office 365 활동 관리 API를 사용 하 여 고급 위협 보호 조직의 SIEM 서버를 통합 합니다.
-ms.openlocfilehash: 057d8ac101b96f37846ac751645934279d45dc88
-ms.sourcegitcommit: 17c7e18d7d00135b1af40cbea117c9a817a41117
+description: office 365 활동 관리 API를 사용 하 여 조직의 siem 서버를 office 365 위협 인텔리전스 및 Advanced Threat Protection과 통합 합니다.
+ms.openlocfilehash: 854f763b72dfac1a5dc1442b1d9d123ed5439257
+ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24972260"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087247"
 ---
-# <a name="siem-integration-with-office-365-threat-intelligence-and-advanced-threat-protection"></a>Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합
+# <a name="siem-integration-with-office-365-threat-intelligence-and-advanced-threat-protection"></a>Office 365 위협 인텔리전스 및 Advanced Threat Protection과의 siem 통합
 
-조직 보안 사고 및 이벤트 (SIEM) 관리 서버를 사용 하는 경우 SIEM 서버와 Office 365 위협 인텔리전스 및 고급 위협 보호를 통합할 수 있습니다. SIEM 통합을 사용 하면 맬웨어 SIEM 서버 보고서에서 Office 365 고급 보호 및 위협 인텔리전스 하 여 검색 등의 정보를 볼 수 있습니다. SIEM 통합을 설정 하려면 [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 합니다. 
+조직에서 siem (보안 인시던트 및 이벤트 관리) 서버를 사용 하는 경우 Office 365 위협 인텔리전스 및 Advanced Threat Protection을 siem 서버와 통합할 수 있습니다. siem 통합을 사용 하면 siem server reports에서 Office 365 Advanced Protection 및 위협 인텔리전스를 통해 검색 된 맬웨어 같은 정보를 볼 수 있습니다. siem 통합을 설정 하려면 [Office 365 활동 관리 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용 합니다. 
 
-Office 365 활동 관리 API는 조직의 Office 365와 Azure Active Directory 활동 로그에서 사용자, 관리, 시스템 및 정책 작업 및 이벤트에 대 한 정보를 검색합니다. [Office 365 고급 위협 보호 및 위협 인텔리전스 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-intelligence-schema) 함께 작동 위협 인텔리전스 및/또는 고급 위협 보호 되므로 조직에 고급 위협 보호 하지 위협 인텔리전스 하지만 (또는 그 반대의 경우도 마찬가지)을 하는 경우 다음을 수행할 수 있습니다. 여전히 해당 동일한 API를 사용 하 여 SIEM 서버 통합용 합니다. 
+office 365 활동 관리 API는 조직의 Office 365 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업과 이벤트에 대 한 정보를 검색 합니다. [Office 365 advanced threat protection 및 위협 인텔리전스 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-intelligence-schema) 는 위협 인텔리전스 및/또는 advanced threat protection에서 작동 하므로 조직에서 Advanced threat protection을 사용 하는 경우에는 위협 인텔리전스 또는 그 반대의 경우도 가능 합니다. siem 서버 통합에도 동일한 API를 사용 합니다. 
 
-SIEM 서버 또는 기타 유사한 시스템 액세스 감지 이벤트 **audit.general** 작업 부하를 폴링해야 합니다. 자세한 내용은 [Office 365 관리 Api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)합니다. 
+siem 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** 작업을 폴링하여 검색 이벤트에 액세스 해야 합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조 하세요. 
 
 > [!IMPORTANT]
-> Office 365 전역 관리자 또는 보안 관리자 역할이 Office 365 위협 인텔리전스 및 고급 위협 보호 SIEM 통합을 설정 하는 보안 및 규정 준수 센터에 할당 해야 합니다.<br/>감사 로깅 Office 365 환경에 대 한 설정 해야 합니다. 를 대체 되는 도움말을 보려면 [Office 365 설정 또는 해제 로그 검색 감사](turn-audit-log-search-on-or-off.md)를 참조 합니다.
+> office 365 Advanced Threat Protection과 함께 siem 통합을 설정 하려면 office 365 전역 관리자 이거나 보안 & 준수 센터에 대해 보안 관리자 역할이 할당 되어 있어야 합니다.<br/>Office 365 환경에 대해 감사 로깅을 켜야 합니다. 이에 대 한 도움말을 보려면 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
 [Office 365 위협 인텔리전스](office-365-ti.md)
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+[Office 365 Advanced Threat Protection 방지](office-365-atp.md)
 
-[보고서 및 Office 365 보안에 대 한 의견을 스마트 &amp; 준수 센터](reports-and-insights-in-security-and-compliance.md)
+[Office 365 보안 &amp; 및 준수 센터의 Smart reports 및 정보](reports-and-insights-in-security-and-compliance.md)
   
-[Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)
+[Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
   
 

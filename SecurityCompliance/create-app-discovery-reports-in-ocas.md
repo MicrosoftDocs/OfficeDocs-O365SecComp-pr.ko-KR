@@ -12,56 +12,54 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3e68e691-1fc4-4d3e-a2c0-d3134eb64055
-description: Office 365 및 다른 응용 프로그램 사용자 조직에서 사용 하는 방법을 이해할 수 있도록 하는 Office 365 클라우드 앱 보안이 포함 된 보고서를 만듭니다.
-ms.openlocfilehash: 543a194ec9d441a4feea97b8ad49022094565d7a
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+description: office 365 Cloud App Security를 사용 하 여 보고서를 만들면 조직의 사용자가 office 365 및 기타 앱을 사용 하는 방법을 이해할 수 있습니다.
+ms.openlocfilehash: e0d515ddd9b08aa4a70276177060f273cc89949e
+ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29603719"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087297"
 ---
 # <a name="create-app-discovery-reports-using-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 보고서 만들기
 
-Office 365 고급 보안 관리 Office 365 클라우드 응용 프로그램 보안 되었습니다.
-  
-|평가 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * *|
+|계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|
-|[평가 시작 합니다.](office-365-cas-overview.md) <br/> |[계획을 시작합니다](get-ready-for-office-365-cas.md) <br/> |[배포를 시작 합니다.](turn-on-office-365-cas.md) <br/> |여기는!  <br/> [다음 단계](#next-steps) <br/> |
+|[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](#next-steps) <br/> |
    
-Office 365 클라우드 앱 보안 전역 관리자, 보안 관리자 및 보안 독자 사용자가 조직에서 사용 하는 클라우드 서비스에 대 한 정보를 얻을 수 있습니다. 예 및 데이터의 양을 앱 또는 Office 365 외부에 있는 서비스에 업로드 되는 사용자를 저장 하 고 문서에서 공동 작업을 볼 수 있습니다.
+Office 365 cloud App security는 전역 관리자, 보안 관리자 및 보안 독자에 게 조직에서 사용 중인 클라우드 서비스에 대 한 통찰력을 제공 합니다. 예를 들어 사용자가 문서를 저장 하 고 공동으로 작업 하는 위치와 Office 365 외부에 있는 앱 또는 서비스에 업로드 되는 데이터의 양을 볼 수 있습니다.
   
-앱 검색 보고서를 생성 하려면 수동으로 웹 트래픽 로그 파일에서 방화벽 및 프록시를가 업로드 하 고 Office 365 클라우드 앱 보안 구문 분석 하 고 보고서에 대 한 해당 파일을 분석 하 여 다음 합니다.
+앱 검색 보고서를 생성 하려면 방화벽과 프록시에서 웹 트래픽 로그 파일을 수동으로 업로드 한 다음 Office 365 Cloud app Security에서 해당 파일을 구문 분석 하 고 분석 하 여 보고서를 작성 합니다.
   
 > [!NOTE]
-> 이 문서에서 설명 하는 작업을 수행 하려면 전역 관리자, 보안 관리자 또는 보안 판독기 이어야 합니다. 자세한 내용은 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. 
+> 이 문서에서 설명 하는 작업을 수행 하려면 전역 관리자, 보안 관리자 또는 보안 독자 여야 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요. 
   
-## <a name="create-a-report-with-app-discovery"></a>응용 프로그램 검색을 사용 하 여 보고서 만들기
+## <a name="create-a-report-with-app-discovery"></a>앱 검색을 사용 하 여 보고서 만들기
 
-응용 프로그램 검색 보고서를 만들려면를 분석 로그 파일을 선택한 다음 보고서를 요청 하려는 로그 파일에 대 한 공급 업체 데이터 소스를 식별 합니다.
+앱 검색 보고서를 만들려면 분석 하려는 로그 파일의 공급 업체 데이터 원본을 식별 하 고, 로그 파일을 선택한 다음, 보고서를 요청 합니다.
   
 > [!NOTE]
-> 조직에서 사용 현황의 최상의 표현을 가져올 최대 트래픽을 기간을 포함 하는 웹 트래픽 로그 파일을 사용 합니다. 
+> 최대 트래픽 기간을 포함 하는 웹 트래픽 로그 파일을 사용 하 여 조직에서 사용을 최상의 방법으로 표시 합니다. 
   
-1. 사용자 [웹 트래픽 로그 및 Office 365 클라우드 응용 프로그램 보안에 대 한 데이터 원본을](web-traffic-logs-and-data-sources-for-ocas.md)수집 합니다.
+1. [Office 365 Cloud App Security에 대 한 웹 트래픽 로그 및 데이터 원본을](web-traffic-logs-and-data-sources-for-ocas.md)수집 합니다.
     
-2. 클라우드 응용 프로그램 보안 포털에 이동 ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))에 로그인 하 고 있습니다. 
+2. Cloud App Security portal ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))로 이동 하 여 로그인 합니다. 
        
-3. **검색** 을 선택 \> **새 보고서 만들기**. <br>![Office 365 CAS 포털에서 검색을 선택](media/73b5299f-94b5-49dd-a00f-154d188eb2c5.png)<br>
+3. **새 보고서 만들기** **검색** \> 을 선택 합니다. <br>![Office 365 CAS 포털에서 검색을 선택 합니다.](media/73b5299f-94b5-49dd-a00f-154d188eb2c5.png)<br>
   
-4. 이름 및 사용자 보고서에 대 한 설명을 지정 하 고 **데이터 원본** 목록에서 웹 트래픽 로그에 대 한 데이터 원본을 선택 합니다. <br>![O365 CA에서 검색을 선택 \> 새 보고서 만들기](media/22e660f0-5eb2-49fa-9fea-f88a5809a07b.png)<br>사용 하 여 원하는 데이터 원본 목록에 없는 경우 추가 될 요청할 수 있습니다. **데이터 원본**대 한 **기타** 를 선택 하 고 업로드 하려는 데이터 원본의 이름을 입력 합니다. 로그를 검토 하 고 사용 하는 것을 생성 하는 데이터 원본에 대 한 지원을 추가 하는 경우 알 수 하는 합니다. 
+4. 보고서의 이름과 설명을 지정한 다음 **데이터 원본** 목록에서 웹 트래픽 로그의 데이터 원본을 선택 합니다. <br>![O365 CAS에서 새 보고서 만들기 \> 검색을 선택 합니다.](media/22e660f0-5eb2-49fa-9fea-f88a5809a07b.png)<br>사용 하려는 데이터 원본이 나열 되지 않으면 추가 되도록 요청할 수 있습니다. **데이터 원본**에 대해 **기타** 를 선택한 다음 업로드 하려는 데이터 원본의 이름을 입력 합니다. 로그를 검토 하 고이를 생성 한 데이터 원본에 대 한 지원을 추가할 것인지를 알려 드리겠습니다. 
   
-5. 수집한 로그 파일의 위치를 찾아 해당 파일을 선택 합니다. 로그 파일은 보고서에 대해 선택한 데이터 원본에 의해 생성 합니다.
+5. 수집한 로그 파일의 위치로 이동 하 여 해당 파일을 선택 합니다. 보고서에 대해 선택한 데이터 원본에서 로그 파일을 생성 해야 합니다.
     
-6. 보고서 만들기 프로세스를 시작 하려면 **만들기** 클릭 합니다. 
+6. **만들기** 를 클릭 하 여 보고서 생성 프로세스를 시작 합니다. 
     
-7. 다음은 보고서의 상태를 보려면 **Manage 스냅숏 보고서**를 클릭 합니다. 보고서 준비 되 면 **보고서 보기** 옵션을 표시 됩니다. 
+7. 보고서의 상태를 보려면 **스냅숏 보고서 관리**를 클릭 합니다. 보고서가 준비 되 면 **보고서 보기** 옵션이 표시 됩니다. 
     
 ## <a name="next-steps"></a>다음 단계
 
-- [검토 및 알림 작업을 수행 합니다.](review-office-365-cas-alerts.md)
+- [경고 검토 및 알림 작업 수행](review-office-365-cas-alerts.md)
     
 - [Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토](review-app-discovery-findings-in-ocas.md)
     
-- [Office 365 클라우드 응용 프로그램 보안에 대 한 사용률 활동](utilization-activities-for-ocas.md) 을 검토 합니다.
+- [Office 365 Cloud App Security에 대 한 사용률 작업](utilization-activities-for-ocas.md) 검토
     
 

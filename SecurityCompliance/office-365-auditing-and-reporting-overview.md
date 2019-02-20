@@ -10,14 +10,17 @@ ms.service: Office 365 Administration
 localization_priority: None
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- M365-analytics
 description: 서비스 보증 뿐만 아니라 Office 365 내의 감사 및 보고 기능에 대 한 개요입니다.
-ms.openlocfilehash: 54cc4d353545396084c0206abe1bbb1035b3a78f
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: 0167239e854d9b96d9505f4264ada225804eef96
+ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "27131888"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30091040"
 ---
 # <a name="auditing-and-reporting-in-office-365"></a>Office 365의 감사 및 보고
 
@@ -28,7 +31,7 @@ Microsoft 클라우드 서비스에는 고객의 테 넌 트 내에서 사용자
 office [365 Security & 준수 센터](https://support.office.com/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8) 는 office 365에서 데이터를 보호 하기 위한 일회성 포털로, 다양 한 감사 및 보고 기능을 포함 합니다. Office 365 준수 센터의 발전입니다. 보안 & 준수 센터는 데이터 보호 또는 규정 준수 요구 사항이 있거나 사용자 및 관리자 작업을 감사 하려는 조직을 위해 설계 되었습니다. 보안 & 준수 센터를 사용 하 여 조직의 모든 Office 365 데이터에 대 한 준수를 관리할 수 있습니다. Office 365 관리 계정을 [http://protection.office.com](http://protection.office.com/) 사용 하 여 보안 & 준수 센터에 액세스할 수 있습니다.
 
 보안 & 준수 센터에는 다음과 같은 몇 가지 기능에 대 한 액세스를 제공 하는 탐색 창이 포함 되어 있습니다.
-- **경고** - [고급 보안 관리](https://support.office.com/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475)를 사용 하 여 경고를 관리 하 고, 보안 관련 알림을 보고, 고급 경고를 관리할 수 있습니다. 
+- **경고** - [Office 365 Cloud App security](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/office-365-cas-overview)를 사용 하 여 알림을 관리 하 고, 보안 관련 알림을 보고, 고급 알림을 관리할 수 있습니다. 
 - **사용 권한** -보안 & 준수 센터에서 작업을 수행할 수 있도록 조직의 사용자에 게 준수 관리자, eDiscovery 관리자 및 다른 사용자에 게 [할당 된 사용 권한을 지정할](https://support.office.com/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76) 수 있습니다. 보안 & 준수 센터에서 대부분의 기능에 대 한 사용 권한을 할당할 수 있지만, 다른 사용 권한은 Exchange 관리 센터 및 SharePoint 관리 센터를 사용 하 여 구성 해야 합니다.
 - **위협 관리** - [Office 365 모바일 장치 관리](https://support.office.com/article/Overview-of-Mobile-Device-Management-for-Office-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)를 사용 하 여 장치 관리 정책을 만들고 적용할 수 있으며, 조직에 대 한 DLP ( [데이터 손실 방지](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) ) 정책을 설정 하 고, 전자 메일 필터링을 구성 합니다. 맬웨어 방지, domainkeys 식별 된 메일 (dkim), 안전한 첨부 파일, 안전한 링크 및 OAuth 앱
 - **데이터 거 버 넌 스** - [다른 시스템에서 전자 메일 또는 SharePoint 데이터를 Office 365로 가져오고](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84), [보관 사서함을 구성](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)하 고, 전자 메일 및 조직 내의 기타 콘텐츠에 대 한 [보존 정책을](https://support.office.com/article/Retention-in-the-Office-365-Security-Compliance-Center-2a0fc432-f18c-45aa-a539-30ab035c608c) 설정할 수 있습니다.
