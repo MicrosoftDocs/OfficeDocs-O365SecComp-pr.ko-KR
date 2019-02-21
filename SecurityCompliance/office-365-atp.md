@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/08/2019
+ms.date: 02/20/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -14,97 +14,91 @@ search.appverid:
 ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
-description: Office 365 Advanced Threat Protection에는 스푸핑 인텔리전스, 안전한 링크, 안전한 첨부 파일, 고급 피싱 방지 기능 및 위협 인텔리전스가 포함 됩니다.
-ms.openlocfilehash: d78b37ca048187a298b6e083b54ad68b949638ef
-ms.sourcegitcommit: 2af6c3e8a74995294a67429530af8f085e6ca136
+description: Office 365 advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 도구, 보고 도구 및 위협 인텔리전스 기능이 포함 되어 있습니다.
+ms.openlocfilehash: 5db4c5ff5ae7e536bba1f8730c724d151f367b54
+ms.sourcegitcommit: 32cb896aef370764ec6e8f8278ebaf16f1c5ff37
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051179"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30123929"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
-## <a name="overview-of-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection 개요
-
 > [!IMPORTANT]
-> 이 문서는 비즈니스 고객을 위한 것입니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 Office 365 Enterprise 고객을 위한 것입니다. Outlook.com, office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
-Office 365 ATP(Advanced Threat Protection)는 다음을 통해 악의적인 공격으로부터 조직을 보호합니다.
-  
-- [ATP 안전한 첨부 파일](atp-safe-attachments.md)로 맬웨어에 대해 전자 메일 첨부 파일 스캔
+## <a name="overview"></a>개요
+
+Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. ATP에는 다음이 포함 됩니다.
+
+- [위협 보호 정책](#configure-atp-policies): 위협 방지 정책을 정의 하 여 조직에 적합 한 보호 수준을 설정 합니다. 
+
+- [보고서](#view-atp-reports): 실시간 보고서를 확인 하 여 조직의 ATP 성능을 모니터링 합니다. 
+
+- [위협 인텔리전스 기능](#utilize-threat-intelligence-capabilities): 주요에 지 도구를 활용 하 여 위협을 조사, 이해, 시뮬레이트 및 방지 합니다. 
+ 
+
+## <a name="configure-atp-policies"></a>ATP 정책 구성
+
+Office 365 ATP는 조직에 적합 한 보호 수준을 설정 하기 위한 다양 한 도구를 제공 합니다. 
+
+조직의 보안 팀은 Office 365 security & 준수 센터에서 각 ATP 도구에 대 한 정책을 정의 해야 합니다. **위협 관리** > **정책** 으로 이동 하 여 정책 옵션에 액세스 합니다. 
+
+조직에 대해 정의 된 정책에 따라 미리 정의 된 위협에 대 한 동작 및 보호 수준이 결정 됩니다. 정책 옵션은 매우 유연 합니다. 예를 들어 조직의 보안 팀은 사용자, 조직, 받는 사람 및 도메인 수준에서 세분화 된 위협 보호를 설정할 수 있습니다. 매일 새로운 위협과 과제가 발생 하기 때문에 정책을 정기적으로 검토 하는 것이 중요 합니다.  
+
+- [ATP 안전한 첨부 파일](atp-safe-attachments.md): 악성 콘텐츠에 대 한 전자 메일 첨부 파일을 확인 하 여 메시징 시스템을 보호 하는 제로 일 보호를 제공 합니다. 바이러스/맬웨어 서명이 없는 모든 메시지와 첨부 파일을 특수 한 환경으로 라우팅합니다. 그런 다음 컴퓨터 학습 및 분석 기법을 사용 하 여 악의적인 의도를 검색 합니다. 의심 스러운 활동이 발견 되지 않으면 메시지가 사서함으로 전달 됩니다. 자세한 내용은 [Office 365 ATP 안전 첨부 파일 정책 설정을](set-up-atp-safe-attachments-policies.md)참조 하십시오.
+
+- [ATP 안전한 링크](atp-safe-links.md): 전자 메일 메시지 및 Office 파일에서 url을 클릭 하 여 확인할 시간을 제공 합니다. 보호는 진행 중 이며 메시징 및 Office 환경 전체에 적용 됩니다. 각 클릭에 대해 링크가 검색 됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/en-us/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오. 
+
+- [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md): 사용자가 팀 사이트 및 문서 라이브러리에서 악의적인 파일을 식별 하 고 차단 하 여 파일을 공동 작업 하 고 공유할 때 조직을 보호 합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 ATP 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요. 
+
+- [ATP 피싱 방지 보호](atp-anti-phishing.md): 사용자 및 사용자 지정 도메인 가장을 검색 하려는 시도를 감지 합니다. avert 피싱 공격에 기계 학습 모델 및 고급 가장 검색 알고리즘을 적용 합니다. 자세한 내용은 [Office 365 ATP 피싱 방지 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
+
+## <a name="view-atp-reports"></a>ATP 보고서 보기
+
+Office 365 atp에는 atp 성능을 모니터링 하기 위한 고급 [보고 대시보드가](view-reports-for-atp.md) 포함 되어 있습니다. Security & 준수 센터의 **Reports > 대시보드에서** 해당 위치에 액세스할 수 있습니다. 
+
+최신 정보를 제공 하는 실시간으로 업데이트를 보고 합니다. 이러한 보고서는 권장 사항을 제공 하 고 곧 위협을 임박한 것을 알립니다. 미리 정의 된 보고서에는 [위협 보호 상태 보고서](view-reports-for-atp.md#threat-protection-status-report), [atp 파일 형식 보고서](view-reports-for-atp.md#atp-file-types-report), [atp 메시지 처리 보고서](view-reports-for-atp.md#atp-message-disposition-report) 등이 포함 됩니다. 
+
+## <a name="utilize-threat-intelligence-capabilities"></a>위협 인텔리전스 기능 활용
+
+Office 365 ATP에는 조직의 보안 팀이 악의적인 공격을 예측, 이해 및 방지할 수 있도록 하는 최상의 [위협 인텔리전스 도구가](office-365-ti.md) 포함 되어 있습니다. 
+
+- [위협 추적기](threat-trackers.md) 는 prevailing cybersecurity 문제에 대 한 최신 인텔리전스를 제공 합니다. 예를 들어 최신 맬웨어에 대 한 정보를 보고, 조직에 대 한 실제 위협이 되기 전에 대책을 취할 수 있습니다. 사용 가능한 추적기에는 [중요 한 추적기](threat-trackers.md#noteworthy-trackers), [추세 분석](threat-trackers.md#trending-trackers), 추적 [된](threat-trackers.md#saved-queries) [쿼리](threat-trackers.md#tracked-queries)및 저장 되는 쿼리가 포함 됩니다.
+
+- [탐색기](use-explorer-in-security-and-compliance.md) (위협 탐색기 라고도 함)은 최근 위협을 식별 하 고 분석 하는 데 사용할 수 있는 실시간 보고서입니다. 사용자 지정 기간에 대 한 데이터를 표시 하도록 탐색기를 구성할 수 있습니다.
+
+- [공격 시뮬레이터](attack-simulator.md) 를 사용 하면 조직에서 현실적인 공격 시나리오를 실행 하 여 vulnerabilites를 식별할 수 있습니다. [표시 이름 스피어 피싱 공격](attack-simulator.md#display-name-spear-phishing-attack), [암호 분무 공격](attack-simulator.md#password-spray-attack), [무작위 암호 공격](attack-simulator.md#brute-force-password-attack)등을 비롯 한 현재 유형의 공격에 대 한 시뮬레이션을 사용할 수 있습니다.
     
-- [ATP 안전한 링크](atp-safe-links.md)로 전자 메일 메시지 및 Office 문서의 웹 주소(URL) 스캔
-    
-- [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)로 온라인 라이브러리의 악성 파일 식별 및 차단
-    
-- [스푸핑 인텔리전스](learn-about-spoof-intelligence.md)로 권한이 없는 스푸핑에 대한 전자 메일 메시지 확인
-    
-- [Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md)으로 다른 사람이 사용자 및 조직의 사용자 지정 도메인을 대리 실행하려는 시도 감지
-    
-**Office 365 ATP를 통한 보호 기능은 조직의 보안 팀이 안전한 링크, 안전한 첨부 파일 및 피싱 방지를 위해 정의 하는 정책에 따라 결정 됩니다**. 정책을 정의 하 고 해당 정책을 주기적으로 검토 및 수정 하 여 최신 상태를 유지 하 고 서비스에 추가 되는 새로운 기능을 활용 하는 것이 중요 합니다. 
+## <a name="permissions-required-to-use-atp-features"></a>ATP 기능을 사용 하는 데 필요한 사용 권한
 
-조직에서 ATP가 작동 하는 방식을 표시 하는 [보고서를 사용할 수](view-reports-for-atp.md) 있습니다. 이러한 보고서에는 정책을 검토 하 고 업데이트 해야 하는 영역도 표시 될 수 있습니다. 또한 맬웨어가 아닌 것으로 표시 된 파일이 나 Microsoft에서 검사 하려는 파일을 포함 하는 경우에는 [분석을 위해 microsoft에 파일을 제출할](#submit-a-suspicious-file-to-microsoft-for-analysis)수 있습니다.
+보안 & 준수 센터의 ATP 기능에 액세스 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다.
 
-## <a name="new-features-are-continually-being-added-to-atp"></a>ATP에 계속 새로운 기능 추가
-
-Office 365에 ATP가 포함된 새로운 기능을 계속 추가하고 있습니다. 다음은 몇 가지 새로운 기능의 목록으로, 일부 기능에서는 ATP 정책을 검토하고 업데이트합니다. ATP(또는 Microsoft 365)에 제공되는 새 기능에 대한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)을 참조하세요.
-
-
-|기능 업데이트  |작업 항목  |
+|역할 또는 역할 그룹  |자세한 정보를 볼 수 있는 리소스  |
 |---------|---------|
-|2019 년 2 월에 시작 해 서 몇 개월 후에 위협 인텔리전스 기능이 ATP에 추가 됩니다. 또한 조직에서 atp가 현재 없는 경우 atp 계획 1 및 atp 계획 2를 포함 하 여 새로운 옵션을 고려할 수 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요. |조직의 구독을 검토 하 고, 필요한 경우 [추가 기능을 구입 하거나 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)합니다.  |
-|사용자가 outlook 또는 OWA (outlook Web Application)를 사용 하는 경우, ATP 안전한 링크는 다시 작성 된 url이 아니라 원래 url을 렌더링 하기 때문에 지난 몇 개월 동안 롤아웃 (이 네이티브 링크 렌더링을 호출 합니다.)<br>조직에서 기본 링크 렌더링을 사용할 수 있는 경우이 기능은 Outlook 365 (간편 실행) 및 OWA에서 작동 합니다.|없음         |
-|2018년 9월부터 [Office 365 ATP 경고 페이지](atp-safe-links-warning-pages.md)에 새 색 구성표, 자세한 내용 및 기존 경고 및 권장 사항에도 불구하고 사이트를 계속 유지하는 기능이 제공됩니다. |없음         |
-|2018의 두 번째 절반에서 시작 하 여 ATP 안전한 링크 보호는 office online (Word online, Excel online, PowerPoint online, OneNote online) 및 office 365 ProPlus의 url에 적용 되도록 확장 됩니다.   |[ATP 안전한 링크 정책 검토 및 편집](set-up-atp-safe-links-policies.md)  |
-|2018년 5월 말부터 보안 &amp; 규정 준수 센터의 [검역](quarantine-email-messages.md) 기능이 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams 를 위한 ATP](atp-for-spo-odb-and-teams.md)로 확장됩니다. |[ATP 안전한 첨부 파일 정책 검토 및 편집](set-up-atp-safe-attachments-policies.md) |
-|2018 년 3 월부터 ATP 안전한 링크 보호는 조직 내 사용자 간에 전송 되는 전자 메일에 적용 되도록 확장 됩니다. |[ATP 안전한 링크 정책 검토 및 편집](set-up-atp-safe-links-policies.md) |
-|2017 년 10 월 말부터 ATP 안전한 링크 보호는 iOS 및 Android 장치의 office 앱은 물론 Word, Excel, PowerPoint, Visio 등의 office 365 ProPlus 문서에 있는 url 뿐만 아니라 전자 메일의 url에도 적용 되도록 확장 되었습니다.  |[최신 Office 인증](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) 을 사용 하 고 있는지 확인 |
+|Office 365 전역 관리자 |[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
+
+참고 항목:
+- [Office 365 Security & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md) 
+
+- [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
 
 ## <a name="get-office-365-atp"></a>Office 365 ATP 받기
 
-office 365 ATP는 [microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 Enterprise E5 및 office 365 교육용 A5와 같은 구독에 포함 되어 있습니다. 조직에서 office 365 ATP를 포함 하지 않는 office 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요. 
+office 365 ATP는 office 365 Enterprise E5, Office 365 교육 A5 및 Microsoft 365 Business에 포함 되어 있습니다. 구독에 Office 365 ATP가 포함 되어 있지 않은 경우 ATP를 추가 기능으로 구입할 수 있습니다. 자세한 내용은 다음 리소스를 참조 하십시오.
 
-## <a name="define-policies-for-atp"></a>ATP에 대한 정책 정의
+- atp 계획을 포함 하는 구독 목록은 [Office 365 atp (Advanced Threat Protection) 사용 가능 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability) 를 참조 하세요.
 
-ATP 정책을 정의 하거나 편집 하려면 다음 표에 설명 된 역할 중 하나를 할당 받아야 합니다.
+- 계획 1 및 2에 포함 된 기능 목록은 [ATP (Advanced Threat Protection) 계획에서 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) 을 참조 하십시오.
 
-|역할  |할당 된 위치/방법  |
-|---------|---------|
-|Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
-|보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+- 요금제를 비교 하 고 office 365 ATP를 구매 하려면 [적절 한 Office 365 Advanced Threat Protection](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content) 을 참조 하세요.
 
-> [!TIP]
-> 역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+## <a name="new-features-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
-몇 가지 유형의 ATP 정책을 정의 하 고 주기적으로 검토 합니다.
+Office 365 ATP에 새로운 기능이 지속적으로 추가 됩니다. 자세한 내용은 다음 리소스를 참조 하십시오.
 
-1. 가장 기반 공격을 포함 하 여 **[Office 365에서 ATP 피싱 방지 정책을 설정](set-up-anti-phishing-policies.md)** 하 여 신뢰할 수 있는 사용자 또는 도메인에서 보낸 것으로 표시 되는 전자 메일 메시지를 보내는 공격자 로부터 보호 합니다. 
+- [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection) 에서는 개발 및 롤아웃의 새로운 기능 목록을 제공 합니다.
 
-2. 조직의 [사용자 지정 차단 된 url 목록과](set-up-a-custom-blocked-urls-list-wtih-atp.md) [사용자 지정 "다시 쓰지 않음" url 목록을](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)포함 하 여 **[Office 365에서 ATP 안전한 링크 정책을 설정](set-up-atp-safe-links-policies.md)** 합니다.
-    
-3. **[Office 365에서 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)** 및 [동적 배달 및 미리 보기](dynamic-delivery-and-previewing.md)와 같은 여러 옵션 중에서 선택 합니다.
-  
-## <a name="see-how-atp-is-working-by-viewing-reports"></a>보고서를 확인하여 ATP 작동 방식 보기
-
-ATP 정책이 마련 되 면 서비스가 작동 하는 방식을 보여 주는 보고서를 사용할 수 있습니다. (Office 365 Security & 준수 센터에서 **보고서** > **대시보드로**이동 합니다.)
-
-[![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)](view-reports-for-atp.md)
-  
-1. Office 365 전역 관리자, 보안 관리자 또는 보안 독자 (으 [https://protection.office.com](https://protection.office.com) )로 이동 하 여 로그인 합니다.
-    
-2. **보고서** > **대시보드로**이동 합니다. 이러한 보고서에 [대 한 지원을 받으려면 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)를 참조 하세요.
-    
-3. 필요한 경우 보안 정책을 조정 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.
-    - [ATP 피싱 방지 정책](set-up-anti-phishing-policies.md)
-    - [ATP 안전한 링크 정책](set-up-atp-safe-links-policies.md)
-    - [ATP 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md)
-    
-    
-## <a name="submit-a-suspicious-file-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 의심스러운 파일 제출
-
-- 맬웨어라고 의심되는 파일을 가져온 경우 분석을 위해 해당 파일을 Microsoft에 제출할 수 있습니다. [Windows Defender 보안 인텔리전스 제출 포털](https://go.microsoft.com/fwlink/?linkid=857185)을 방문합니다.
-
-- 분석을 위해 Microsoft에 제출하려는 전자 메일 메시지(첨부 파일 포함 또는 제외)가 있는 경우 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용합니다. 
-  
-
+- [Office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) 에서는 ATP 계획 별 기능 및 가용성에 대해 설명 합니다.
