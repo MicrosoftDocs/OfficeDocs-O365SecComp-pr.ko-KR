@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: 328d63265fdaa311b94c25902e7f380c9b0be89c
-ms.sourcegitcommit: c2ec9a4b0279a248b85c2e4a4e91458214b5b31c
+ms.openlocfilehash: e76ec96b83dd5870416d864cf9f3b0b5f43cb9b2
+ms.sourcegitcommit: 942726b33ba67f2b89b5c593ccd534af6715c8b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770823"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30202759"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -224,7 +224,13 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
   
 ![Skype 사용자 선택 페이지](media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
-Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 해제할 수 있지만 Skype 보관은 사용자는 액세스할 수 없고 eDiscovery에서 사용할 수 있는 숨겨진 폴더에 Skype 대화 사본을 저장하여 수행됩니다. 
+Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 해제할 수 있지만 Skype 보관은 사용자는 액세스할 수 없고 eDiscovery에서 사용할 수 있는 숨겨진 폴더에 Skype 대화 사본을 저장하여 수행됩니다.
+
+### <a name="office-365-groups-locations"></a>Office 365 그룹 위치
+
+Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사용해야 합니다. Office 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Office 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. Office 365 그룹에 적용된 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다.
+
+또한 Exchange 위치를 사용하여 특정 그룹 사서함을 포함하거나 제외할 수 없습니다. 초기에 Exchange 위치가 선택될 그룹 사서함을 허용하더라도 보존 정책을 저장하려고 시도할 때 “RemoteGroupMailbox”가 Exchange 위치에 유효하지 않은 선택이라는 오류가 나타나게 됩니다. 
   
 ### <a name="teams-locations"></a>Teams 위치
 

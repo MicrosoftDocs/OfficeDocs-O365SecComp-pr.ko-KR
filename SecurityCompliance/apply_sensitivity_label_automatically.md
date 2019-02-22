@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 5165e9c7bd674046f6a3f3a9d1f1eeedc35f931e
-ms.sourcegitcommit: 44cea06d4b007988cadc1e9de2d5ef601f1b3863
+ms.openlocfilehash: a65b0848d6fb875366d35a0130ccc45cbe7adc75
+ms.sourcegitcommit: 942726b33ba67f2b89b5c593ccd534af6715c8b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760769"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30202789"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
