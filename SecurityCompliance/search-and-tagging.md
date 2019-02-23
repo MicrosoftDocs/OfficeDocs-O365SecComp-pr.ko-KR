@@ -6,76 +6,76 @@ manager: laurawi
 ms.date: ''
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
-description: 고급 ediscovery에서 검색 및 태그 지정 모듈을 사용 하면 검색, 미리 보기, 및 사례에 문서를 구성 하 고 수 있습니다. 현재이 모듈 베타 버전에서입니다.
-ms.openlocfilehash: 013e559ca55e9a877dfb2f8747c4696f81e1e095
-ms.sourcegitcommit: 25f1028643d8a20d17306e8b09cafea46eaf7a58
+description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
+ms.openlocfilehash: d5fdf12621bfb2064f3782b947fa4be386d544d1
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29666148"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219208"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 
-고급 ediscovery에서 검색 및 태그 지정 모듈을 사용 하면 검색, 미리 보기, 및 사례에 문서를 구성 하 고 수 있습니다. 현재이 모듈 베타 버전에서입니다. 검색 및 태그의 간단한 데모, [고급 eDiscovery 사용 하 여 데이터 관리](https://www.youtube.com/watch?v=VaPYL3DHP6I) 비디오를 참조 하십시오.
+고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다. 검색 및 태그 지정에 대 한 간단한 데모를 보려면 [고급 eDiscovery로 데이터 관리](https://www.youtube.com/watch?v=VaPYL3DHP6I) 비디오를 참조 하세요.
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
-## <a name="search-the-documents-in-your-case"></a>사례에는 문서를 검색 합니다.
+## <a name="search-the-documents-in-your-case"></a>사례에서 문서 검색
 
-후 고급 eDiscovery 사례에서 문서를 처리 (분석 또는 관련성 모듈을 실행 하는 필요한 경우), 문서를 검색 하 고 다음 (레이블 라고도 함)는 대/소문자 관련 태그를 적용 하 여 구성 하는 검색 및 태그를 사용할 수 있습니다. 제공 된 조건 카드를 사용 하 여 검색 쿼리를 정의 하거나 키워드의 KQL와 같은 쿼리 언어를 사용 하 여 카드 조건문 수 있습니다. AND, OR, NOT, 예: 일반적인 KQL 구문을 NEAR(n)는 지원 되는,으로 후행 다중 문자 와일드 카드 (*) 하 고 있습니다. 
+고급 eDiscovery 사례에서 문서를 처리 하 고 (필요한 경우 분석 또는 관련성 모듈을 실행) 검색 및 태그 지정 기능을 사용 하 여 문서를 검색 한 다음 대/소문자 별 태그 (레이블 라고도 함)를 적용 하 여이를 구성할 수 있습니다. 제공 된 조건 카드를 사용 하거나 키워드 조건 카드에서 KQL와 같은 형식의 쿼리 언어를 사용 하 여 검색 쿼리를 정의할 수 있습니다. and, OR, NOT 및 NEAR (n)과 같은 일반 KQL 구문은 지원 되 고 후행 여러 문자 와일드 카드 (*)와 유사 합니다. 
 
-다음 표에서 KQL 키워드 쿼리를 사용 하 여 검색할 수 있는 속성을 보여줍니다. 또는 (선택한 속성)에 대 한 조건 검색 쿼리를 추가 하려면 고급 ediscovery 검색 도구에 대 한 조건 카드를 사용할 수 있습니다.
+다음 표에는 KQL keyword 쿼리를 사용 하 여 검색할 수 있는 속성이 나와 있습니다. 또는 고급 eDiscovery 검색 도구에서 조건 카드를 사용 하 여 검색 쿼리에 조건 (선택한 속성)을 추가할 수 있습니다.
 
 |**속성**|**설명**|
 |:-----|:-----|
-|**caselabel** <br/> | 만든/때 적용 되는 문서 태그가 지정 된 태그의 이름입니다. <br/> |
-|**더불어** <br/> | 더불어 연관 된 문서입니다. 있으며 제한 사항이 있습니다. <br/> |
-|**날짜** <br/> | 보낸 전자 메일;에 대 한 날짜 사이트 문서에 대 한 수정 된 날짜입니다. <br/> |
-|**fileid** <br/> | 대/소문자 내에서 파일 ID입니다. <br/> |
-|**파일 형식** <br/> | 기본 파일 확장명입니다. <br/> |
-|**fileclass** <br/> | 전자 메일, 문서 또는 첨부 파일입니다. <br/> |
-|**senderauthor** <br/> | 전자 메일;에 대 한 보낸사람 사이트 문서에 대 한 만든이입니다. <br/> |
-|**크기** <br/> | KB에 있는 파일의 크기입니다. <br/> |
-|**게시가** <br/> | 전자 메일;에 대 한 제목 사이트 문서에 대 한 제목입니다. <br/> |
+|**caselabel** <br/> | 문서에 태그를 지정 하는 경우 생성/적용 되는 태그의 이름입니다. <br/> |
+|**custodian** <br/> | 문서와 연결 된 custodian입니다. 제한 사항에 따라 달라 집니다. <br/> |
+|**종료일** <br/> | 전자 메일을 보낸 날짜 사이트 문서를 수정한 날짜입니다. <br/> |
+|**열려** <br/> | 사례 내의 파일 ID입니다. <br/> |
+|**filetype** <br/> | 네이티브 파일 확장명입니다. <br/> |
+|**fileclass** <br/> | 전자 메일, 문서 또는 첨부 파일 <br/> |
+|**senderauthor** <br/> | 전자 메일 보낸 사람 사이트 문서에 대 한 작성자입니다. <br/> |
+|**크기** <br/> | 파일 크기 (mb)입니다. <br/> |
+|**호칭 제목** <br/> | 전자 메일의 제목입니다. 사이트 문서의 제목입니다. <br/> |
 |**숨은 참조** <br/> | 전자 메일의 숨은 참조 필드입니다. <br/> |
 |**참조** <br/> | 전자 메일의 참조 필드입니다. <br/> |
-|**참가자** <br/> | 누락 된 링크를 포함 하 여 전자 메일 스레드의 모든 참가자의 전자 메일 주소입니다. <br/> |
-|**수신** <br/> | 전자 메일을 받은 날짜입니다. <br/> |
-|**받는 사람** <br/> | 전자 메일의 받는 사람에 포함 된 받는 사람, 사람, 참조 또는 숨은 참조 필드입니다. <br/> |
-|**보낸 사람** <br/> | 전자 메일의 보낸사람입니다. <br/> |
-|**lastmodifieddate** <br/> | 마지막 수정 날짜의 사이트 문서입니다. <br/> |
-|**전송** <br/> | 전자 메일의 보낸된 날짜입니다. <br/> |
-|**받는 사람** <br/> | 전자 메일의 받는 사람 필드에 나열 된 받는 사람입니다. <br/> |
-|**작성자** <br/> | 사이트 문서 작성자입니다. <br/> |
-|**제목** <br/> | 사이트 문서의 제목입니다. <br/> |
+|**할당** <br/> | 누락 된 링크를 포함 하 여 전자 메일 스레드에 있는 모든 참가자의 전자 메일 주소입니다. <br/> |
+|**received** <br/> | 전자 메일을 받은 날짜입니다. <br/> |
+|**받는 사람** <br/> | 전자 메일의 받는 사람, 참조 또는 숨은 참조 필드에 포함 됩니다. <br/> |
+|**보낸 사람** <br/> | 전자 메일을 보낸 사람입니다. <br/> |
+|**lastmodifieddate** <br/> | 사이트 문서를 마지막으로 수정한 날짜입니다. <br/> |
+|**전송할** <br/> | 전자 메일의 보낸 날짜입니다. <br/> |
+|**받는 사람** <br/> | 전자 메일의 받는 사람 필드에 나열 되어 있습니다. <br/> |
+|**제작할** <br/> | 사이트 문서의 만든이입니다. <br/> |
+|**직책** <br/> | 사이트 문서의 제목입니다. <br/> |
 |**dominanttheme**\* <br/> | 항목의 기준 테마입니다. <br/> |
-|**themeslist**\* <br/> | 항목에 연관 된 테마입니다. <br/> |
-|**readpercentile_ [issuenum]**\*\* <br/> | [Issuenum]에 정의 된 문제에 대 한 항목의 읽기 백분위 수 있습니다. <br/> |
-|**relevancescore_ [issuenum]**\*\* <br/> | [Issuenum]에 정의 된 문제에 대 한 항목의 관련성 점수입니다. <br/> |
-|**relevancetag_ [tagname]**\*\* <br/> | 항목이 있으면 된 수동으로 관련성, [tagname]으로 정의 하는 태그에 대 한 태그가 지정 된 됩니다. <br/> |
+|**기타 eslist**\* <br/> | 항목과 연결 된 테마입니다. <br/> |
+|**readpercentile_ [issuenum]**\*\* <br/> | [issuenum]로 정의 된 문제에 대해 항목의 읽기 백분위 수를 지정 합니다. <br/> |
+|**relevancescore_ [issuenum]**\*\* <br/> | [issuenum]에 의해 정의 된 문제에 대 한 항목의 관련성 점수입니다. <br/> |
+|**relevancetag_ [tagname]**\*\* <br/> | 항목에 관련성을 수동으로 태그가 지정 된 경우 [tagname]에 정의 된 태그입니다. <br/> |
 |||
 
-\*테마 모듈이 실행 된 경우에 사용할 수 있습니다.
+\*Themes 모듈을 실행 한 경우에만 사용할 수 있습니다.
 
-\*\*관련성 모듈이 실행 된 경우에 사용할 수 있습니다.
+\*\*관련성 모듈이 실행 된 경우에만 사용할 수 있습니다.
 
-또는 고급 eDiscovery 검색 도구 (선택한 속성)에 대 한 조건 검색 쿼리를 추가 하려면 조건 카드를 사용할 수 있습니다. 다음 스크린샷에서 쿼리를 추가할 수 있는 조건입니다. **그룹** 열 속성은 전자 메일, 사이트 문서 또는 ( *공통*값으로 표시) 모두에 적용 되는지 여부를 나타냅니다. 또한이 열 관련성 모듈을 실행 하 고 나면 사용할 수 있는 검색 가능한 속성을 식별 합니다.
+또는 고급 eDiscovery 검색 도구에서 조건 카드를 사용 하 여 검색 쿼리에 조건 (선택한 속성)을 추가할 수 있습니다. 다음 스크린샷은 쿼리에 추가할 수 있는 조건을 보여 줍니다. **그룹** 열은 속성을 전자 메일, 사이트 문서 또는 둘 다에 적용할지를 나타냅니다 ( *공통*값으로 표시 됨). 또한이 열은 관련성 모듈을 실행 한 후에 사용할 수 있는 검색 가능한 속성을 식별 합니다.
 
-![고급 eDiscovery 검색 도구에서 검색 조건](media/AeDSearchConditions.png)
+![Advanced eDiscovery 검색 도구의 검색 조건](media/AeDSearchConditions.png)
 
-검색 가능한 속성에 대 한 자세한 내용은 [쿼리 키워드 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.
+검색 가능한 속성에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하세요.
   
 ## <a name="see-also"></a>참고 항목
 
 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
   
-[관련성에 이해 평가](assessment-in-relevance-in-advanced-ediscovery.md)
+[관련성 평가 이해](assessment-in-relevance-in-advanced-ediscovery.md)
   
 [태그 지정 및 평가](tagging-and-assessment-in-advanced-ediscovery.md)
   
@@ -83,7 +83,7 @@ ms.locfileid: "29666148"
   
 [관련성 분석 추적](track-relevance-analysis-in-advanced-ediscovery.md)
   
-[결과에 따라 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
+[결과를 기준으로 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
   
 [관련성 분석 테스트](test-relevance-analysis-in-advanced-ediscovery.md)
 

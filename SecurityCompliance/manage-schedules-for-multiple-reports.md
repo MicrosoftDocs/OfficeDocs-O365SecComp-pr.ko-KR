@@ -1,54 +1,54 @@
 ---
-title: 보안에서 여러 보고서에 대 한 일정을 관리 &amp; 준수 센터
+title: 보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/1/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
-description: 보기, 편집 및 보안에서 보고서에 대 한 일정을 관리 하는 방법에 알아봅니다 &amp; 준수 센터입니다.
-ms.openlocfilehash: e1b27b5c9797f7c8eae9ad22d251998f894565b4
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+description: 보안 &amp; 및 준수 센터에서 보고서의 일정을 보고, 편집 하 고, 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 045f539345613774fa38fe921e668e1dce7f2e7a
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014910"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218838"
 ---
-# <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>보안에서 여러 보고서에 대 한 일정을 관리 &amp; 준수 센터
+# <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 
-보안에서 &amp; 준수 센터 여러 [보고서 및 정보는](reports-and-insights-in-security-and-compliance.md) 조직의 보안 팀을 완화 하 고 조직에 대 한 위협 해결 하는데 사용할 수 있습니다. 조직의 보안 팀의 구성원 인 경우에 하나 이상의 보고서에 대 한 일정을 관리할 수 있습니다. 
+보안 &amp; 및 준수 센터에서는 조직의 보안 팀이 조직에 위협을 완화 하 고 문제를 해결 하는 데 도움이 되는 다양 한 [보고서와 정보](reports-and-insights-in-security-and-compliance.md) 를 제공 합니다. 조직의 보안 팀 구성원 인 경우 하나 이상의 보고서에 대 한 일정을 관리할 수 있습니다. 
   
-## <a name="manage-schedules-for-reports"></a>보고서에 대 한 일정을 관리
+## <a name="manage-schedules-for-reports"></a>보고서에 대 한 일정 관리
 
 > [!IMPORTANT]
-> 필요한 되어있는지 확인 [Office 365 보안에 할당 된 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다. Office 365 전역 관리자, 보안 관리자 및 보안 독자 보안에서 보고서에 액세스할 수 있는 일반적으로 &amp; 준수 센터입니다. 
+> [Office 365 보안 &amp; 및 준수 센터에서 필요한 사용 권한이 할당](permissions-in-the-security-and-compliance-center.md)되었는지 확인 합니다. 일반적으로 Office 365 전역 관리자, 보안 관리자 및 보안 독자는 보안 &amp; 및 준수 센터의 보고서에 액세스할 수 있습니다. 
   
-![보안에서 &amp; 준수 센터 보고서 선택 \> 일정을 관리](media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
+![보안 &amp; 및 준수 센터에서 보고서 \> 일정 관리를 선택 합니다.](media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
 
-1. 이동 [https://protection.office.com](https://protection.office.com) 에 로그인 하 고 있습니다. 보안 및 규정 준수 센터에 표시 됩니다.
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 
-2. 보안에서 &amp; 준수 센터, **보고서** 로 이동 \> **관리 일정**입니다.
+2. 보안 &amp; 및 준수 센터에서 **보고서** \> **일정 관리**로 이동 합니다.
     
 3. 목록에서 항목을 선택 합니다.
     
-4. 다음은 보고서의 일정에 대 한 정보를 검토 합니다.
+4. 보고서의 일정에 대 한 정보를 검토 합니다.
     
-5. 적절 하 게 편집 또는 삭제 하는 일정을 하 고 **닫기**를 클릭 합니다.
+5. 일정을 편집 하거나 삭제 한 후 **닫기를**클릭 합니다.
     
 ## <a name="related-topics"></a>관련 항목
 
-[보고서 및 Office 365 보안에 대 한 의견 &amp; 준수 센터](reports-and-insights-in-security-and-compliance.md)
+[Office 365 보안 &amp; 및 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)
   
-[보안에서 보고서에 대 한 일정을 만들 &amp; 준수 센터](create-a-schedule-for-a-report.md)
+[보안 &amp; 및 준수 센터에서 보고서 일정 만들기](create-a-schedule-for-a-report.md)
   
-[보안에서 사용자 지정 보고서를 다운로드 &amp; 준수 센터](set-up-and-download-a-custom-report.md)
+[보안 &amp; 및 준수 센터에서 사용자 지정 보고서 다운로드](set-up-and-download-a-custom-report.md)
   
-[보안에서 기존 보고서를 다운로드 &amp; 준수 센터](download-existing-reports.md)
+[보안 &amp; 및 준수 센터에서 기존 보고서 다운로드](download-existing-reports.md)
   
 

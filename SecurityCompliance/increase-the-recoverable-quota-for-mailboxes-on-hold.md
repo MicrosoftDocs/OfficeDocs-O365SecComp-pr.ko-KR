@@ -6,25 +6,25 @@ manager: laurawi
 ms.date: 10/12/2018
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
-description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장을 Office 365의 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘리려면 보관 설정 합니다. '
-ms.openlocfilehash: a347155645d7c058080b1db7fd47f7ea16249724
-ms.sourcegitcommit: 448c5897e44448adfc82e3eaffb774c770c04815
+description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정 하 여 Office 365에서 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘립니다. '
+ms.openlocfilehash: ebb052ba17ba8a84076e1e75a82713cc5cf437a1
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25522279"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218478"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
-기본 보존 정책-기본 MRM 정책 이라는-즉 Exchange Online에서 새로 만들기를 자동으로 적용 된 사서함 명명 된 복구 가능한 항목 14 일 후 보관 함으로 이동 보존 태그를 포함 합니다. 팀에서 14 일 보존 기간이 만료 된 항목에 대 한이 보존 태그 항목을 사용자의 기본 사서함의 복구 가능한 항목 폴더에서 사용자의 보관 사서함의 복구 가능한 항목 폴더를 이동 합니다. 발생 하려면이 옵션을 사용자의 보관 사서함 사용 해야 합니다. 보관 사서함 설정 되지 않은 경우 아무 작업도 수행, 즉, 14 일 보존 기간이 만료 후의 복구 가능한 항목 폴더의 사서함에 대해 보류의 항목 보관 사서함으로 이동 되지 않습니다. 없기 때문에 아무것도 대기 사서함에서 삭제 되는 복구 가능한 항목 폴더에 대 한 저장소 할당량을 초과 될 수 있습니다, 사용자의 보관 사서함 설정 되지 않은 경우에 특히 합니다. 
+Exchange Online의 새 사서함에 자동으로 적용 되는 기본 mrm 정책 이라는 기본 보존 정책에는 복구 가능한 항목 14 일 후 보관 함으로 이동 되는 보존 태그가 포함 되어 있습니다. 이 보존 태그는 사용자의 기본 사서함에 있는 복구 가능한 항목 폴더의 항목을 사용자의 보관 사서함에 있는 복구 가능한 항목 폴더로 이동 합니다 (해당 항목에 대 한 보존 기간 14 일). 이 경우 사용자의 보관 사서함을 사용 하도록 설정 해야 합니다. 보관 사서함을 사용 하도록 설정 하지 않은 경우 보존 기간이 만료 되 면 아무 작업도 수행 되지 않습니다 (보류 중인 사서함에 대 한 복구 가능한 항목 폴더의 항목은 보관 사서함으로 이동 되지 않음). 보류 중인 사서함에서는 아무 것도 삭제 되지 않으므로 복구 가능한 항목 폴더의 저장소 할당량을 초과 하는 경우에는 특히 사용자의 보관 사서함이 사용 하도록 설정 되어 있지 않을 수 있습니다. 
   
-이 제한을 초과 하면 가능성을 줄이려면 복구 가능한 항목 폴더에 대 한 저장소 할당량은 자동으로 늘어났습니다 30GB에서 100GB로 보류에 배치 될 때는 사서함 Exchange Online 합니다. 보관 사서함을 사용 하는 경우의 보관 사서함의 복구 가능한 항목 폴더에 대 한 저장소 할당량도 증가 30GB에서 100GB로 합니다. Exchange 기능 자동 확장 하는 보관 하는 경우에 온라인 상태가, 사용자의 보관에서 복구 가능한 항목 폴더에 대 한 저장소 할당량 제한 됩니다.
+Exchange Online의 사서함에 대 한 보존을 설정 하면이 제한을 초과할 가능성을 줄이기 위해 복구 가능한 항목 폴더의 저장소 할당량이 자동으로 30gb에서 100 GB로 증가 합니다. 보관 사서함을 사용 하도록 설정 하면 보관 사서함의 복구 가능한 항목 폴더에 대 한 저장소 할당량도 30gb에서 100 GB로 증가 합니다. Exchange Online의 자동 확장 보관 기능이 사용 하도록 설정 된 경우 사용자 보관의 복구 가능한 항목 폴더에 대 한 저장소 할당량은 무제한으로 지정 됩니다.
   
   다음 표는 복구 가능한 항목 폴더의 저장소 할당량을 간략하게 보여줍니다. 
   
@@ -35,22 +35,22 @@ ms.locfileid: "25522279"
 |**복구 가능한 항목 폴더 할당량** <br/> |제한 없음  <br/> |제한 없음  <br/> |
    
 > [!NOTE]
-> <sup>\*</sup>보관 사서함에 대 한 초기 저장소 할당량은 Exchange Online (계획 2) 라이선스를 사용 하는 사용자에 대 한 100GB. 그러나 켜면 보관 자동 확장은 보류에 있는 사서함에 대 한 보관 사서함과 복구 가능한 항목 폴더에 대 한 저장소 할당량 110 g B로 증가 되었습니다. 필요한 경우 추가 보관 저장소 공간을 구축할 무제한 금액의 보관 저장소에서 결과입니다. 자동 확장 하는 방법에 대 한 자세한 내용은 [Office 365 무제한 보관의 개요](unlimited-archiving.md)를 참조 보관 하십시오. 
+> <sup>\*</sup>Exchange Online (계획 2) 라이선스가 있는 사용자의 경우 보관 사서함의 초기 저장소 할당량은 100 GB입니다. 그러나 보류 중인 사서함에 대해 자동 확장 보관을 설정 하면 보관 사서함 및 복구 가능한 항목 폴더의 저장소 할당량이 110 GB로 증가 합니다. 필요한 경우 추가 보관 저장소 공간이 프로 비전 되어 보관 저장소의 크기가 무제한으로 제공 됩니다. 자동 확장 보관에 대 한 자세한 내용은 [Office 365의 무제한 보관 개요](unlimited-archiving.md)를 참조 하세요. 
   
 보류된 사서함의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 할당량이 한도에 도달하려는 경우 다음 항목을 수행할 수 있습니다.
   
-- **보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관 설정** -보관 사서함을 사용 하도록 설정 하 고 다음 Exchange에서 자동을 확장 하면 보관 기능을 설정 하 여 복구 가능한 항목 폴더에 대 한 사용 하 여 무제한 저장 용량이 설정할 수 있습니다 온라인. 이 기본 사서함과 사용자의 보관에서 복구할 수 있는 항목 폴더에 대 한 저장 용량에 무제한 금액의 복구 가능한 항목 폴더에 대 한 110 gb에서 만들어집니다. 참조 방법: [Office 365 보안에서 보관 사서함 사용 &amp; 준수 센터](enable-archive-mailboxes.md) 고 [Office 365에서 무제한 보관을 사용](enable-unlimited-archiving.md)합니다.
+- **보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정** 하면 보관 사서함을 사용 하도록 설정 하 고 Exchange에서 자동 확장 보관 기능을 설정 하 여 복구 가능한 항목 폴더에 대해 무제한 저장소 용량을 사용 하도록 설정할 수 있습니다. 온라인. 이를 통해 기본 사서함의 복구 가능한 항목 폴더에 대해 110이 발생 하 고 사용자 보관의 복구 가능한 항목 폴더에 대해 무제한의 저장 용량을 사용할 수 있습니다. 방법: office [365 보안 &amp; 및 준수 센터에서 보관 사서함을 사용 하도록 설정](enable-archive-mailboxes.md) 하 고 [office 365에서 무제한 보관을 사용 하도록 설정](enable-unlimited-archiving.md)합니다.
     
     > [!NOTE]
-    > 수동으로 이동 되도록 만료 된 항목의 사서함을 처리 하는 데 길잡이 트리거하는 관리 되는 폴더 도우미가 실행 해야할 복구 가능한 항목 폴더에 대 한 저장소 할당량을 초과 하면 되는 사서함에 대 한 보관을 활성화 한 후의 보관 사서함의 복구 가능한 항목 폴더입니다. 지침에 대 한 [4 단계를](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings) 참조 하십시오. 참고 사용자의 사서함에서 다른 항목은 새 보관 사서함으로 이동할 수 있습니다. 보관 사서함을 사용 하도록 설정한 후 발생할 수 있습니다이 방향을 지시 하는 것이 좋습니다. 
+    > 복구 가능한 항목 폴더의 저장소 할당량을 초과 하는 사서함에 대 한 보관을 사용 하도록 설정한 후에는 관리 되는 폴더 도우미를 실행 하 여 사용자가 만료 된 항목을 이동 하도록 도우미를 수동으로 시작 하 여 사서함을 처리할 수 있습니다. 보관 사서함의 복구 가능한 항목 폴더 자세한 내용은 [4 단계](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings) 를 참조 하세요. 사용자 사서함의 다른 항목은 새 보관 사서함으로 이동할 수 있습니다. 보관 사서함을 사용 하도록 설정한 후 사용자에 게이를 알리는 것을 고려할 수 있습니다. 
   
-- **보관 사서함에 대 한 사용자 지정 보존 정책 만들기** -보관 사서함을 사용 하도록 설정 하 고 자동 확장 사서함을 원본 위치 유지 또는 소송 보존으로 설정에 대 한 보관 외에 해야할 수에 사서함에 대 한 사용자 지정 보존 정책을 만들합니다 보류 합니다. 이 보겠습니다 정책을 적용 하면 보존 대기 대기 되지 않은 사서함에 적용 되는 기본 MRM 정책와에서는 다른 사서함에 있습니다. 이 보류에 있는 사서함에 대 한 특별히 설계 된 보존 태그를 적용할 수 있습니다. 복구 가능한 항목 폴더에 대 한 새 보존 태그 만들기 (영문) 포함 됩니다. 
+- **보류 중인 사서함에 대 한 사용자 지정 보존 정책 만들기** -보관 사서함을 사용 하도록 설정 하 고 사서함에 대해 소송 보존 또는 원본 위치 유지를 자동 확장 하는 데 사용할 수 있습니다. 놓습니다. 이를 통해 보류 중인 사서함에 적용 되는 기본 mrm 정책과는 다른 보류 중인 사서함에 보존 정책을 적용할 수 있습니다. 이를 통해 특별히 사서함에 맞게 디자인 된 보존 태그를 적용할 수 있습니다. 여기에는 복구 가능한 항목 폴더에 대 한 새 보존 태그를 만드는 작업이 포함 됩니다. 
     
 이 항목의 나머지 부분에서는 보류된 사서함에 대한 사용자 지정 보존 정책을 만드는 단계별 절차를 설명합니다.
   
 [1단계: 복구 가능한 항목 폴더에 대한 사용자 지정 보존 태그를 만듭니다.](#step-1-create-a-custom-retention-tag-for-the-recoverable-items-folder)
 
-[[2 단계: 대기 사서함에 대 한 새 보존 정책 만들기](#step-2-create-a-new-retention-policy-for-mailboxes-on-hold)
+[[2 단계: 보류 된 사서함에 대 한 새 보존 정책 만들기](#step-2-create-a-new-retention-policy-for-mailboxes-on-hold)
 
 [3단계: 보류된 사서함에 새로운 보존 정책을 적용합니다.](#step-3-apply-the-new-retention-policy-to-mailboxes-on-hold)
 
@@ -58,9 +58,9 @@ ms.locfileid: "25522279"
   
 ## <a name="step-1-create-a-custom-retention-tag-for-the-recoverable-items-folder"></a>1단계: 복구 가능한 항목 폴더에 대한 사용자 지정 보존 태그를 만듭니다.
 
-첫번째 단계는 복구 가능한 항목 폴더에 대 한 사용자 지정 보존 태그 (보존 정책 태그 또는 RPT 라고 함)를 만드는 것입니다. 앞에서 설명한 것 처럼이 RPT 사용자의 기본 사서함의 복구 가능한 항목 폴더에서 항목을 복구할 수 있는 항목 폴더에 사용자의 보관 사서함 이동합니다. 복구 가능한 항목 폴더에 대 한 RPT를 만들 수 PowerShell을 사용 해야 합니다. Exchange 관리 센터 (EAC)를 사용할 수 없습니다. 
+첫 번째 단계는 복구 가능한 항목 폴더에 대 한 사용자 지정 보존 태그 (보존 정책 태그 또는 RPT 라고 함)를 만드는 것입니다. 앞에서 설명한 것 처럼이 RPT는 사용자의 기본 사서함에 있는 복구할 수 있는 항목 폴더의 항목을 사용자의 보관 사서함에 있는 복구할 수 있는 항목 폴더로 이동 합니다. PowerShell을 사용 하 여 복구 가능한 항목 폴더에 대 한 RPT를 만들어야 합니다. EAC (Exchange 관리 센터)를 사용할 수 없습니다. 
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283)
+1. [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283)(원격 PowerShell을 사용하여 Exchange Online에 연결)
     
 2. 복구할 수 있는 항목 폴더에 대한 새로운 RPT를 만들려면 다음 명령을 실행합니다.  
     
@@ -75,7 +75,7 @@ ms.locfileid: "25522279"
     ```
 
     > [!TIP]
-    > 복구 가능한 항목 RPT에 대 한 보존 기간 ( _AgeLimitForRetention_ 매개 변수에 의해 정의 된) RPT 적용할 수 있는 사서함에 대 한 삭제 된 항목 보존 기간와 동일 하 게 되는 것이 좋습니다. 이렇게 하면 사용자 전체 삭제 된 항목 보존 기간 보관 사서함으로 이동 하기 전에 삭제 된 항목을 복구할 수 있습니다. 이전 예제에서 보존 기간 사서함에 대 한 삭제 된 항목 보존 기간은 30 일 수도 있다는 가정에 따라 30 일로 설정 되었습니다. Exchange Online 사서함은 기본적으로 14 일에 대 한 삭제 된 항목을 유지 하도록 구성 됩니다. 하지만 최대 30 일에이 설정을 변경할 수 있습니다. 자세한 내용은 [온라인 Exchange 사서함에 대 한 삭제 된 항목 보존 기간 변경](https://go.microsoft.com/fwlink/p/?LinkId=286940)을 참조 하십시오. 
+    > 복구 가능한 항목 rpt의 보존 기간은 rpt가 적용 __ 될 사서함에 대 한 삭제 된 항목 보존 기간과 동일 하 게 유지 하는 것이 좋습니다. 이렇게 하면 삭제 된 항목 보존 기간까지 삭제 된 항목을 보관 사서함으로 이동 하기 전에 복구할 수 있습니다. 이전 예에서는 사서함의 삭제 된 항목 보존 기간이 30 일 이기도 한 가정을 기준으로 보존 기간이 30 일로 설정 되었습니다. 기본적으로 Exchange Online 사서함은 14 일 동안 삭제 된 항목을 보존 하도록 구성 됩니다. 그러나이 설정을 최대 30 일로 변경할 수 있습니다. 자세한 내용은 [Exchange Online에서 사서함에 대 한 삭제 된 항목 보존 기간 변경을](https://go.microsoft.com/fwlink/p/?LinkId=286940)참조 하십시오. 
   
 ## <a name="step-2-create-a-new-retention-policy-for-mailboxes-on-hold"></a>2단계: 보류된 사서함에 대한 새로운 보존 정책을 만듭니다.
 
@@ -83,21 +83,21 @@ ms.locfileid: "25522279"
   
 새로운 보존 정책을 만들기 전에 추가할 추가적인 보존 태그를 결정합니다. 기본 MRM 정책에 추가되는 보존 태그의 목록 및 새로운 보존 태그에 대한 정보를 확인하려면 다음을 참조하세요.
   
-- [기본 보존 정책 in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=746954)
+- [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/p/?LinkId=746954)
     
-- [보존 정책 태그를 지 원하는 기본 폴더](https://go.microsoft.com/fwlink/p/?LinkId=746957)
+- [보존 정책 태그를 지원하는 기본 폴더](https://go.microsoft.com/fwlink/p/?LinkId=746957)
     
-- [보존 정책 만들기](https://go.microsoft.com/fwlink/p/?LinkId=404422) 항목의 "보존 태그 만들기" 섹션.
+- [보존 정책 만들기](https://go.microsoft.com/fwlink/p/?LinkId=404422) 항목의 "보존 태그 만들기" 섹션
     
-EAC 또는 Exchange Online PowerShell 보존 정책 만들기를 사용할 수 있습니다.
+EAC 또는 Exchange Online PowerShell을 사용 하 여 보존 정책을 만들 수 있습니다.
   
 ### <a name="use-the-eac-to-create-a-retention-policy"></a>EAC를 사용하여 보존 정책 만들기
   
-1. EAC에서 **규정 준수 관리** 로 이동 \> **보존 정책**, 다음 **추가** 클릭 하 고 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)합니다.
+1. EAC에서 **준수 관리** \> **보존 정책**으로 이동한 다음 **** ![추가 아이콘](media/ITPro-EAC-AddIcon.gif)추가를 클릭 합니다.
     
 2. **새 보존 정책** 페이지의 **이름**에서 **MRM Policy for Mailboxes on Hold** 등 보존 정책의 목적을 설명하는 이름을 입력합니다.  
     
-3. **보존 태그** **추가** 클릭 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif)합니다.
+3. **보존 태그**에서 **** ![추가 아이콘](media/ITPro-EAC-AddIcon.gif)추가를 클릭 합니다.
     
 4. 보존 태그 목록에서 1단계에서 만든 복구 가능한 항목 RPT를 선택한 다음 **추가**를 클릭합니다.
     
@@ -113,7 +113,7 @@ EAC 또는 Exchange Online PowerShell 보존 정책 만들기를 사용할 수 �
     
     ![보존 정책에 연결된 보존 태그가 세부 정보 창에 표시됩니다.](media/dad1c8f4-9928-4d6d-991a-6f6c5194eceb.png)
   
-### <a name="use-exchange-online-powershell-to-create-a-retention-policy"></a>Exchange Online PowerShell을 사용 하 여 보존 정책을 만들려면
+### <a name="use-exchange-online-powershell-to-create-a-retention-policy"></a>Exchange Online PowerShell을 사용 하 여 보존 정책 만들기
   
 보류된 사서함에 대한 새 보존 정책을 만들려면 다음 명령을 실행합니다.  
   
@@ -130,13 +130,13 @@ New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks
   
 ## <a name="step-3-apply-the-new-retention-policy-to-mailboxes-on-hold"></a>3단계: 보류된 사서함에 새로운 보존 정책을 적용합니다.
 
-조직에서 사서함 보류에 2 단계에서에서 만든 새 보존 정책을 적용 하려면 마지막 단계가입니다. EAC 또는 Exchange Online PowerShell를 사용 하 여 단일 사서함에 또는 여러 사서함에 보존 정책을 적용할 수 있습니다. 
+마지막 단계는 2 단계에서 만든 새 보존 정책을 조직의 보류 된 사서함에 적용 하는 것입니다. EAC 또는 Exchange Online PowerShell을 사용 하 여 단일 사서함 이나 여러 사서함에 보존 정책을 적용할 수 있습니다. 
   
 ### <a name="use-the-eac-to-apply-the-new-retention-policy"></a>EAC를 사용하여 새 보존 정책 적용하기
   
-1. **받는 사람** 에 게 이동 \> **사서함**입니다.
+1. **받는 사람** \> **사서함**으로 이동 합니다.
     
-2. 목록 보기에서 보존 정책을 적용 하려는 사서함을 선택 하 고 **편집** 을 클릭 한 다음 ![편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)합니다.
+2. 목록 보기에서 보존 정책을 적용할 사서함을 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
     
 3. **사용자 사서함** 페이지에서 **사서함 기능**을 클릭합니다.
     
@@ -144,7 +144,7 @@ New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks
     
 EAC를 사용하여 여러 사서함에 보존 정책을 적용할 수도 있습니다.
   
-1. **받는 사람** 에 게 이동 \> **사서함**입니다.
+1. **받는 사람** \> **사서함**으로 이동 합니다.
     
 2. 목록 보기에서 Shift 또는 Ctrl 키를 사용하여 여러 개의 사서함을 선택합니다.
     
@@ -154,9 +154,9 @@ EAC를 사용하여 여러 사서함에 보존 정책을 적용할 수도 있습
     
 5. **대량 할당 보존 정책** 페이지에서 2단계에서 만든 보존 정책을 선택하고  **저장**을 클릭합니다.  
     
-### <a name="use-exchange-online-powershell-to-apply-the-new-retention-policy"></a>Exchange Online PowerShell을 사용 하 여 새 보존 정책을 적용 하려면
+### <a name="use-exchange-online-powershell-to-apply-the-new-retention-policy"></a>Exchange Online PowerShell을 사용 하 여 새 보존 정책 적용
   
-Exchange Online PowerShell를 사용 하 여 단일 사서함에 새 보존 정책을 적용할 수 있습니다. 이지만 PowerShell의 실제 전원은 신속 하 게 식별할 원본 위치 유지 또는 소송 보존으로 설정 되며 다음에 새 보존 정책을 모든 사서함에 적용 하는 조직에서 사서함 유지 (영문) 단일 명령을 모두 사용할 수 있습니다. 다음은 하나 이상의 사서함에 보존 정책을 적용 하려면 Exchange PowerShell을 사용 하 여의 몇가지 예입니다. 이 예제에서는 모든 2 단계에서에서 만든 보존 정책을 적용 합니다.
+Exchange Online PowerShell을 사용 하 여 단일 사서함에 새 보존 정책을 적용할 수 있습니다. 그러나 PowerShell의 실제 기능은 조직의 모든 사서함을 소송 보존 또는 원본 위치 유지 상태로 빠르게 식별 한 다음 단일 명령으로 보류 중인 모든 사서함에 새 보존 정책을 적용 하는 데 사용할 수 있다는 것입니다. 다음은 Exchange PowerShell을 사용 하 여 하나 이상의 사서함에 보존 정책을 적용 하는 몇 가지 예입니다. 모든 예제에서는 2 단계에서 만든 보존 정책을 적용 합니다.
   
 이 예에서는 Pilar Pinilla의 사서함에 새로운 보존 정책을 적용합니다.
   
@@ -202,7 +202,7 @@ Get-Mailbox -ResultSize unlimited | Where-Object {$_.InPlaceHolds -ne $null} | F
   
 ## <a name="optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings"></a>(옵션) 4단계: 관리되는 폴더 도우미를 실행하여 새로운 보존 설정을 적용합니다.
 
-보류에 있는 사서함에 새 보존 정책을 적용 한 후 걸릴 수 최대 7 일 Exchange 온라인는 관리 되는 폴더 도우미 설정을 사용 하 여 새 보존 정책에서 이러한 사서함을 처리 하는 데에 대 한 합니다. 관리 되는 폴더 도우미를 실행 하려면를 기다리지 않고 수동으로에 새 보존 정책을 적용 하는 사서함을 처리 하는 데 길잡이 트리거하 **Start-managedfolderassistant** cmdlet을 사용할 수 있습니다. 
+보류 중인 사서함에 새 보존 정책을 적용 하 고 나면 Exchange Online에서 관리 되는 폴더 도우미가 새 보존 정책의 설정을 사용 하 여 이러한 사서함을 처리 하는 데 최대 7 일이 걸릴 수 있습니다. 관리 되는 폴더 도우미가 실행 될 때까지 기다리지 않고, **먼저 시작** 관리자를 트리거하여 새 보존 정책을 적용 한 사서함을 처리할 수 있습니다. 
   
 다음 명령을 실행하여 Pilar Pinilla의 사서함에 관리되는 폴더 도우미를 실행합니다. 
   
@@ -222,6 +222,6 @@ $MailboxesOnHold.DistinguishedName | Start-ManagedFolderAssistant
 
 ## <a name="more-information"></a>추가 정보
 
-- 사용자의 보관 사서함을 활성화 한 후에 (아니라 항목 복구 가능한 항목 폴더에서) 사서함의 다른 항목은 보관 사서함으로 이동할 수 있습니다는 방향을 지시 하는 것이 좋습니다. 이 Exchange Online 사서함에 할당 된 기본 MRM 정책 항목 된 사서함에 게 배달 되거나 사용자가 만든 날짜 로부터 2 년 항목 보관 사서함으로 이동 하는 보존 태그 (명명 된 기본 2 년 후 보관 함으로 이동)를 포함 하기 때문에 사용자입니다. 자세한 내용은 [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/p/?LinkId=746954) 을 참조 하십시오.
+- 사용자의 보관 사서함을 사용 하도록 설정한 후에는 사서함의 다른 항목 (복구 가능한 항목 폴더에 있는 항목은 제외)이 보관 사서함으로 이동 될 수 있음을 사용자에 게 알려 주는 것이 좋습니다. 이는 Exchange Online 사서함에 할당 된 기본 mrm 정책에 항목이 사서함으로 배달 된 후 2 년 후에 항목을 보관 사서함으로 이동 하는 보존 태그 (기본 2 년을 보관 함으로 이동 함)가 포함 되어 있기 때문입니다. 가. 자세한 내용은 [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/p/?LinkId=746954) 를 참조 하세요.
     
-- 사용자의 보관 사서함을 활성화 한 후 복구할 수 있는 사용자가 자신의 보관 사서함의 복구 가능한 항목 폴더에서 항목 삭제 알 수 있습니다. 보관 사서함의 **지운 편지함** 폴더를 선택 하 고 다음 **홈** 탭에서 **서버에서 지운 편지함 복구** 를 클릭 하 여 Outlook에서이 작업을 수행할 수 있습니다. 삭제 된 항목을 복구 하는 중에 대 한 자세한 내용은 [Windows 용 Outlook에서에서 항목 삭제 된 복구를](https://go.microsoft.com/fwlink/p/?LinkId=624829)참조 하십시오. 
+- 사용자의 보관 사서함을 사용 하도록 설정한 후에는 해당 보관 사서함의 복구 가능한 항목 폴더에서 삭제 된 항목을 복구할 수 있음을 사용자에 게 알릴 수 있습니다. 보관 사서함에서 **지운** 편지함 폴더를 선택 하 고 **홈** 탭의 **서버에서 지운 편지함 복구** 를 클릭 하 여 Outlook에서이 작업을 수행할 수 있습니다. 삭제 된 항목을 복구 하는 방법에 대 한 자세한 내용은 [Windows 용 Outlook에서 삭제 된 항목 복구](https://go.microsoft.com/fwlink/p/?LinkId=624829)를 참조 하십시오. 

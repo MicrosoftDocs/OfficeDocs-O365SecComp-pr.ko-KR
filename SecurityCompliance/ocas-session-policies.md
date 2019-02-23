@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud App Security의 세션 정책
+title: Office 365 Cloud App Security 세션 정책
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -7,17 +7,17 @@ ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
 ms.date: 02/14/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 description: office 365 Cloud App Security session policy는 실시간 세션 수준 모니터링을 사용 하도록 설정 하 여, 사용자 세션에 대해 설정한 정책에 따라 Office 365 앱에 대 한 세부적인 가시성을 affording 하 고 다양 한 작업을 수행할 수 있는 기능을 제공 합니다. 세션 컨트롤을 사용 하 여 액세스를 완전히 허용 하거나 차단 하는 대신 세션을 모니터링 하는 동안 액세스를 허용 하거나 조건부 액세스 앱 컨트롤의 역방향 프록시 기능을 사용 하 여 특정 세션 작업을 제한할 수 있습니다.
-ms.openlocfilehash: 0dbfb3e5827fb76e52f0262333d372860f0cb58a
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: a57b62073e93c95217a829f8aa381f4a585dacc5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30103343"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218608"
 ---
-# <a name="session-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security의 세션 정책
+# <a name="session-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 세션 정책
 
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|

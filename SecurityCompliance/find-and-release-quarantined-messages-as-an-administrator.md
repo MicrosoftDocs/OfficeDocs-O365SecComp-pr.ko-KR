@@ -1,7 +1,7 @@
 ---
 title: 관리자로 격리된 메시지 찾기 및 릴리스
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 6/16/2017
 ms.audience: ITPro
@@ -12,34 +12,36 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
-description: 이 항목 방법에 대해 설명 Exchange Online 및 Exchange Online Protection (EOP) 관리자 수, 릴리스, Exchange 관리 센터 (EAC)에서 격리 된 메시지를 보고 합니다.
-ms.openlocfilehash: a8c450471d2fe627346b5bea8db50b91d67ffd3f
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.collection:
+- M365-security-compliance
+description: 이 항목에서는 exchange online 및 exchange online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 9c3501b79c6a733fd7b6239a26b7e7cfa69f3edc
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003277"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219038"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
-이 항목 방법에 대해 설명 Exchange Online 및 Exchange Online Protection (EOP) 관리자 수, 릴리스, Exchange 관리 센터 (EAC)에서 격리 된 메시지를 보고 합니다. Office 365 중 하나를 격리로 메시지를 전달 스팸으로 식별 된 대로 또는 일치 하는 전송 규칙 때문입니다. 
+이 항목에서는 exchange online 및 exchange online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다. Office 365에서는 메시지가 스팸으로 식별 되었거나 전송 규칙과 일치 하 여 격리로 지시 됩니다. 
   
-보안을 사용 하 여 &amp; EAC 보기 뿐 아니라 이러한 작업 중 하나를 완료 하 고 맬웨어를 포함 하기 때문에 격리로 전송 된 메시지와 함께 작동 하는 대신 준수 센터입니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 격리를](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)참조 하십시오.
+EAC 대신 보안 &amp; 및 준수 센터를 사용 하 여 이러한 작업을 완료 하 고, 맬웨어가 포함 되어 있어 격리로 전송 된 메시지를 보고 작업 합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)를 참조 하세요.
   
-격리 된 메시지는 EAC에서 **격리** 페이지에 나열 됩니다. 기본적으로 메시지를 **받은 날짜** 에서 가장 오래 된 최신 필드에서 정렬 됩니다. 각 메시지에 대 한 **보낸사람**, **주제**및 **만료 날짜** 값도 표시 됩니다. 이러한 필드 중 하나에 해당 머리글을 클릭 하 여 정렬할 수 있습니다. 두번째 시간, 열 머리글을 클릭 하는 경우 정렬 순서를 반대로 바꿉니다. **격리** 페이지에는 최대 500 메시지를 표시 합니다. 
+격리 된 메시지는 EAC의 **격리** 페이지에 나열 됩니다. 기본적으로 메시지는 **받은 날짜** 필드에서 가장 오래 된 항목 순으로 정렬 됩니다. 각 메시지에 대해 **보낸 사람**, **제목**및 **만료** 값도 나열 됩니다. 머리글을 클릭 하 여 이러한 필드를 정렬할 수 있습니다. 열 머리글을 두 번 클릭 하면 정렬 순서가 반전 됩니다. **격리** 페이지에 최대 500 개의 메시지가 표시 됩니다. 
   
-모든 격리 된 메시지의 목록을 볼 수 또는 필터 조건을 지정 하 여 특정 메시지를 검색할 수 있습니다 (필터링 수도 줄일 수 사용자의 결과 집합 500 개가 넘는 메시지가 있는 경우). 에 대 한 검색 하 고 격리 된 특정 메시지를 찾은 후 메시지에 대 한 세부 정보를 볼 수 있습니다. 또한 다음을 수행할 수 있습니다.
+격리 된 모든 메시지의 목록을 보거나, 필터 조건을 지정 하 여 특정 메시지를 검색할 수 있습니다 (필터링은 메시지 수가 500 개를 초과 하는 경우에도 결과 집합을 줄이는 데 도움이 됩니다). 격리 된 특정 메시지를 검색 하 여 찾은 후에는 해당 메시지에 대 한 세부 정보를 볼 수 있습니다. 다음 작업도 수행할 수 있습니다.
   
-- 하나 이상의 받는 사람에 게 메시지를 해제 하 고 필요에 따라 평가 하 고 메시지를 분석 Microsoft 스팸 분석 팀에 false 가양성 (정크 아님) 메시지로 보고할 합니다. 분석의 결과 따라 서비스 수준 스팸 콘텐츠 필터 규칙을 통해 메시지를 허용 하도록 조정 될 수 있습니다.
+- 메시지를 한 명 이상의 받는 사람에 게 놓은 다음, 필요에 따라 메시지를 평가 하 고 분석할 Microsoft 스팸 분석 팀에 가양성 (정크 메일 아님) 메시지로 보고 합니다. 분석 결과에 따라 메시지 통과를 허용 하도록 서비스 전반의 스팸 콘텐츠 필터 규칙이 조정 될 수 있습니다.
     
-- 메시지를 해제 하 고 해당 보낸에서 이후의 모든 메시지를 허용 합니다.
+- 메시지를 해제 하 고 앞으로 해당 하는 해당 보낸 사람의 메시지를 모두 허용 합니다.
     
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>
 
-- 이 절차를 수행 하기 전에 사용 권한을 할당 해야 합니다. 필요한 사용 권한을 [Exchange Online의 기능 사용 권한](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 "격리" 항목을 참조 하십시오. 
+- 이 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 "격리" 항목을 참조 하십시오. 
     
-- 릴리스 수도 있고 **격리** 페이지에서 한번에 여러 메시지를 보고할 수 있습니다. 또는이 작업을 수행 하기 위해 원격 Windows PowerShell 스크립트를 만들 수 있습니다. 메시지를 검색 하려면 [Get-quarantinemessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet 및 해제 하는 [릴리스 QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용 합니다. 
+- **격리** 페이지에서 한 번에 여러 메시지를 릴리스 하거나 보고할 수 있습니다. 또는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [get-quarantinemessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용 하 여 메시지를 검색 하 고 릴리스 [get-quarantinemessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 해제 합니다. 
     
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
     
@@ -51,11 +53,11 @@ ms.locfileid: "23003277"
 
 EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에 따라 격리된 항목을 필터링할 수 있습니다. 이러한 조건은 따로 사용할 수도 있고 조합하여 사용할 수도 있습니다. 검색에서는 모든 필터 조건을 충족하는 메시지 목록이 제공됩니다.
   
-1. EAC에서 **보호** 로 이동 \> **격리**, **고급 검색**을 클릭 하 고 있습니다.
+1. EAC에서 **보호** \> **격리**로 이동한 다음 **고급 검색**을 클릭 합니다.
     
-2. **고급 검색** 창에서 다음 조건 중 임의의 조합 하 여 선택 합니다. 각 조건을 사용 하도록 설정 하려면 연결된 확인란을 선택 합니다. 와일드 카드가 지원 되지 않습니다. 
+2. **고급 검색** 창에서 다음과 같은 조건을 조합 하 여 선택 합니다. 연결 된 확인란을 선택 하 여 각 조건을 사용 하도록 설정 합니다. 와일드 카드는 지원 되지 않습니다. 
     
-1. **메시지 ID** 특정 메시지에 대 한 대상으로 지정 된 검색을 수행 하려면이 매개 변수를 사용할 수 있습니다. 예, 하 여 특정 메시지를 보내거나 이용 하 여 조직에서 사용자 하 고 해당 대상에 도달 하면 하지를 하는 경우 메시지 추적 기능을 사용 하 여 메시지에 대 한 검색할 수 있습니다. 세부 정보를 [실행 하는 메시지 추적 및 결과 보기를](http://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx)참조 하십시오. 사용자를 격리에 보낸 메시지를 발견 한 경우 아마도 규칙과 일치 하거나, 스팸으로 확인 되었습니다 때문에 다음 쉽게 찾을 수이 메시지를 격리에 id. 해당 메시지를 지정 하 여 전체 메시지 ID 문자열을 포함 해야 합니다. 여기에 꺾쇠 괄호 포함 될 수 있습니다 (\<\>). 
+1. **메시지 ID** 이 매개 변수를 사용 하 여 특정 메시지를 대상으로 하는 검색을 수행할 수 있습니다. 예를 들어 조직에 있는 사용자가 특정 메시지를 전송 하는 경우에만 대상에 게 전달 되지 않으면 메시지 추적 기능을 사용 하 여 메시지를 검색할 수 있습니다. 자세한 내용은 [메시지 추적 실행 및 결과 보기](http://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx)를 참조 하세요. 메시지를 격리로 전송 했을 때 규칙이 일치 하거나 스팸으로 식별 된 것으로 확인 되 면 메시지 ID를 지정 하 여 격리에서이 메시지를 쉽게 찾을 수 있습니다. 전체 메시지 ID 문자열을 포함 해야 합니다. 여기에는 꺾쇠 괄호 (\<\>)가 포함 될 수 있습니다. 
     
 2. **보낸 사람 전자 메일 주소** 메시지를 보낸 사람의 전자 메일 주소를 지정합니다. 
     
@@ -63,12 +65,12 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
     
 4. **제목** 메시지의 제목 줄 텍스트를 지정합니다. 
     
-5. **수신** 지난 24 시간 내 ( **오늘**), 지난 주 ( **지난 7 일**) 내에 속하는 지난 48 시간 ( **마지막 2 일**) 내에서 격리 하 여 받은 메시지를 선택 하거나 메시지를 하는 동안 사용자가 지정한 시간 간격을 선택할 수 있습니다. 사용자를 격리 하 여 수신 합니다. 
+5. **받은 날짜** 지난 24 시간 이내 ( **오늘**), 지난 48 시간 ( **지난 2 일**), 지난 주 ( **지난 7 일**) 내에 격리를 통해 메시지가 수신 되었음을 선택 하거나, 메시지를 표시할 사용자 지정 시간 간격을 선택할 수 있습니다. 격리에 의해 수신 됩니다. 
     
-6. **만료** 다음 24 시간 내 ( **오늘**), 다음 주 ( **다음 7 일**) 내에서 다음 48 시간 ( **다음 2 일**) 내에서 메시지가 격리에서 삭제 또는 하는 동안 사용자가 지정한 시간 간격을 선택할 수 있습니다를 선택할 수 있습니다는 메시지 격리에서 삭제 됩니다.
+6. **만료** 다음 24 시간 이내 ( **오늘**), 다음 48 시간 ( **다음 2 일**), 다음 주 (다음 **7 일**) 이내에 메시지가 격리에서 삭제 되는 것을 선택 하거나 메시지를 표시할 사용자 지정 시간 간격을 선택할 수 있습니다. 격리에서 삭제 됩니다.
     
     > [!IMPORTANT]
-    > 기본적으로 스팸 격리 메시지를 전송 규칙과 일치 하는 격리 된 메시지는 7 일이에 대 한 사용자를 격리에 보관 되는 동안 15 일 동안 격리에 보관 됩니다. Office 365이이 기간 후 메시지를 삭제 하 고 검색할 수 없습니다. 전송 규칙과 일치 하는 격리 된 메시지에 대 한 보존 기간을 구성할 수는 없습니다. 그러나 콘텐츠 필터 정책에서 **보관 스팸 (일)에 대 한** 설정을 통해 스팸 격리 된 메시지에 대 한 보존 기간을 낮출 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)을 참조 하십시오. 
+    > 기본적으로 스팸 격리 메시지는 15 일 동안 격리 된 상태로 유지 되 고, 전송 규칙과 일치 하는 격리 된 메시지는 7 일 동안 격리 됩니다. 이 기간 후에 Office 365에서 메시지를 삭제 하며 이러한 시간을 검색할 수 없습니다. 전송 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 된 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간 (일)** 설정을 통해 낮출 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. 
   
 7. **유형** **스팸**으로 식별되어 격리된 메시지를 검색할지 아니면 **전송 규칙**과 일치한 메시지를 검색할지를 지정할 수 있습니다.
     
@@ -82,9 +84,9 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
 ## <a name="view-details-about-a-specific-quarantined-message"></a>격리된 특정 메시지에 대한 세부 정보 보기
 <a name="BKMK_ViewDetailsAboutaSpecificQuarantinedMessage"> </a>
 
-**격리** 페이지에서 특정 격리 된 메시지를 찾은 후에 대 한 세부 정보를 볼 수 있습니다. 
+격리 페이지에서 격리 된 특정 메시지를 **** 찾은 후에는이에 대 한 세부 정보를 볼 수 있습니다. 
   
-1. **격리** 페이지에서 특정 메시지를 선택 하 고 해당 메시지의 속성 요약이 화면 오른쪽의 세부 정보 창에 표시 합니다. 
+1. **격리** 페이지에서 특정 메시지를 선택 하 고 화면 오른쪽의 세부 정보 창에 해당 메시지의 속성에 대 한 요약을 표시 합니다. 
     
     **메시지 상태** 값은 다음과 같습니다. 
     
@@ -107,7 +109,7 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
     > [!TIP]
     > 서비스에서 삽입하는 특정 스팸 방지 메시지 헤더 필드에 대한 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요. 
   
-  - **전자 메일 메시지 미리 보기** 메시지의 텍스트를 검토 하려면이 링크를 클릭 합니다. 
+  - **전자 메일 메시지 미리 보기** 메시지 텍스트를 검토 하려면이 링크를 클릭 합니다. 
     
 2. 격리된 메시지를 두 번 클릭하면 **격리된 메시지** 창이 열리고 다음 정보가 표시됩니다. 
     
@@ -119,77 +121,77 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
     
     **닫기**를 클릭하여 기본 격리 창으로 돌아갑니다. 
     
-## <a name="release-messages-from-quarantine"></a>격리에서 릴리스 메시지
+## <a name="release-messages-from-quarantine"></a>격리에서 메시지 릴리스
 <a name="sectionSection3"> </a>
 
-받는 사람에 게 메시지를 해제 하려면 사용자 옵션은 같습니다.
+받는 사람에 게 메시지를 릴리스하기 위해 다음 옵션을 사용할 수 있습니다.
   
-- [격리 된 메시지 릴리스 및 이후 메시지를 보낸 사람에 게 허용](find-and-release-quarantined-messages-as-an-administrator.md#Releasequarantinedmessageallowfuturemessagesfromsender)
+- [격리 된 메시지 릴리스 및 보낸 사람의 향후 메시지 허용](find-and-release-quarantined-messages-as-an-administrator.md#Releasequarantinedmessageallowfuturemessagesfromsender)
     
-- [특정 받는 사람에 게 격리 된 메시지를 가양성으로 보고 하지 않고 릴리스](find-and-release-quarantined-messages-as-an-administrator.md#Releasequarantinedmessagetospecificrecipientswithoutreportingasfalsepositive)
+- [격리 된 메시지를 가양성으로 보고 하지 않고 특정 받는 사람에 게 릴리스](find-and-release-quarantined-messages-as-an-administrator.md#Releasequarantinedmessagetospecificrecipientswithoutreportingasfalsepositive)
     
-- [모든 받는 사람에 게 하나 이상의 격리 된 메시지 릴리스](find-and-release-quarantined-messages-as-an-administrator.md#Releaseoneormorequarantinedmessagestoallrecipients)
+- [모든 받는 사람에 게 격리 된 메시지를 하나 이상 릴리스](find-and-release-quarantined-messages-as-an-administrator.md#Releaseoneormorequarantinedmessagestoallrecipients)
     
-- [모든 받는 사람 및 보고서 가양성을 하나 이상의 격리 된 메시지 릴리스](find-and-release-quarantined-messages-as-an-administrator.md#Releaseoneormorequarantinedmessagestoallrecipientsandreportfalsepositives)
+- [하나 이상의 격리 된 메시지를 모든 받는 사람에 게 릴리스하고 가양성 보고](find-and-release-quarantined-messages-as-an-administrator.md#Releaseoneormorequarantinedmessagestoallrecipientsandreportfalsepositives)
     
-### <a name="release-a-quarantined-message-and-allow-future-messages-from-the-sender"></a>격리 된 메시지 릴리스 및 이후 메시지를 보낸 사람에 게 허용
+### <a name="release-a-quarantined-message-and-allow-future-messages-from-the-sender"></a>격리 된 메시지 릴리스 및 보낸 사람의 향후 메시지 허용
 <a name="Releasequarantinedmessageallowfuturemessagesfromsender"> </a>
 
-1. EAC에서 **보호** 로 이동 \> **격리**합니다.
+1. EAC에서 **보호** \> **격리**로 이동 합니다.
     
-2. 메시지를 선택한 다음 화면에 표시 된 대로 **메시지 릴리스** 아이콘을 클릭 합니다를 클릭 합니다. 
+2. 메시지를 클릭 하 여 선택 하 고 다음 스크린샷과 같이 **메시지 릴리스** 아이콘을 클릭 합니다. 
   
 ![강조 표시된 메시지 릴리스 아이콘 및 표시된 릴리스 옵션이 포함된 격리 페이지를 보여줍니다.](media/36ee081f-3e30-40c9-8ce3-240cee1970cc.png)
   
-드롭다운 목록에서 **선택한 메시지를 릴리스하고 보낸사람 허용** 을 클릭 합니다. 
+드롭다운 목록에서 **선택한 메시지 릴리스 및 보낸 사람 허용** 을 클릭 합니다. 
     
-3. **메시지 릴리스 및 보낸사람 허용** 대화 상자가 열립니다. 필요에 따라 **해제 하 고 허용**을 클릭 한 다음 메시지를 Microsoft에 보고를 선택할 수 있습니다. 메시지를 발표 될 예정에 게 배달 되 모든 받는 사람에 게 하 고이 보낸 이후의 모든 메시지를 허용 됩니다. 그러나이 메시지는 전송 규칙으로 인해 격리 된 보낸 사람이 차단 되는 경우를 앞으로 메시지를 차단 하도록 보낸사람 계속 됩니다. 
+3. **메시지 릴리스 및 보낸 사람 허용** 대화 상자가 열립니다. 필요한 경우 Microsoft에 메시지를 보고할지 선택한 다음 **릴리스 및 허용**을 클릭할 수 있습니다. 메시지가 주소가 지정 된 모든 받는 사람에 게 전달 되 고 앞으로이 보낸 사람에 게 보내는 모든 메시지가 허용 됩니다. 그러나 전송 규칙 또는 수신 거부로 인해이 메시지가 격리 된 경우에는 이후 메시지에 대 한 보낸 사람을 계속 차단 합니다. 
     
-### <a name="release-a-quarantined-message-to-specific-recipients-without-reporting-it-as-a-false-positive"></a>특정 받는 사람에 게 격리 된 메시지를 가양성으로 보고 하지 않고 릴리스
+### <a name="release-a-quarantined-message-to-specific-recipients-without-reporting-it-as-a-false-positive"></a>격리 된 메시지를 가양성으로 보고 하지 않고 특정 받는 사람에 게 릴리스
 <a name="Releasequarantinedmessagetospecificrecipientswithoutreportingasfalsepositive"> </a>
 
-1. EAC에서 **보호** 로 이동 \> **격리**합니다.
+1. EAC에서 **보호** \> **격리**로 이동 합니다.
     
-2. 메시지를 선택 하 고 **메시지 릴리스** 아이콘을 클릭 한 다음 드롭다운 목록에서 **특정 받는 사람에 게 메시지 릴리스를** 클릭 합니다. 
+2. 메시지를 선택 하 고 **메시지 릴리스** 아이콘을 클릭 한 다음 드롭다운 목록에서 **메시지를 특정 받는 사람에 게 릴리스를** 클릭 합니다. 
     
 3. **메시지 릴리스** 대화 상자에서 다음 옵션 중 하나를 선택합니다. 
     
   - **모든 받는 사람에게 메시지 릴리스** 이 옵션을 선택하면 메시지를 동일한 받는 사람에게 두 번 이상 릴리스할 수 없습니다. 받는 사람이 이 메시지를 이전에 수신한 경우 메시지가 해당 받는 사람에게 다시 릴리스되지 않습니다. 
     
-  - **지정 된 받는 사람에 게 메시지 릴리스** 누구에 게 메시지를 해제할 수 있는 받는 사람을 선택 합니다. 하므로 메시지 각 받는 사람에 게 적용할에 해제 될 수 받는 사람에만이 목록에 표시 한 후에 해제할 수 있습니다. 다중 선택이 지원 됩니다. 받는 사람 선택 항목에 확인 한 후 **추가**클릭 합니다.
+  - **지정한 받는 사람에 게 메시지 릴리스** 메시지를 해제할 수 있는 받는 사람을 선택 합니다. 메시지는 받는 사람 모두에 게 한 번만 릴리스될 수 있으므로이 목록에는 해당 받는 사람을 해제할 수 있는 사용자만 표시 됩니다. 여러 항목을 선택할 수 있습니다. 받는 사람을 선택한 후 **추가**를 클릭 합니다.
     
 4. **릴리스**를 클릭합니다. 
     
-**새로고침**단추를 누르면![새로고침 아이콘](media/ITPro-EAC-RefreshIcon.gif) 데이터를 새로 고치고, 메시지를 두번클릭 한 다음 아이콘 것 릴리스된 의도 한 받는 사람에 게 표시 됩니다. 
+새로 고침 아이콘](media/ITPro-EAC-RefreshIcon.gif) **새로**![고침 아이콘을 클릭 하 여 데이터를 새로 고친 다음 해당 메시지를 두 번 클릭 하면 해당 받는 사람에 게 해당 메시지가 해제 된 것을 확인할 수 있습니다. 
   
-### <a name="release-one-or-more-quarantined-messages-to-all-recipients"></a>모든 받는 사람에 게 하나 이상의 격리 된 메시지 릴리스
+### <a name="release-one-or-more-quarantined-messages-to-all-recipients"></a>모든 받는 사람에 게 격리 된 메시지를 하나 이상 릴리스
 <a name="Releaseoneormorequarantinedmessagestoallrecipients"> </a>
 
-1. EAC에서 **보호** 로 이동 \> **격리**합니다.
+1. EAC에서 **보호** \> **격리**로 이동 합니다.
     
-2. 선택 하거나 여러 메시지를 선택 하려면 shift 키를 사용 하 여 메시지를 클릭 합니다. **메시지 릴리스** 아이콘을 클릭 합니다. 
+2. 메시지를 클릭 하 여 선택 하거나 shift 키를 사용 하 여 여러 메시지를 선택 합니다. 그런 다음 **메시지 릴리스** 아이콘을 클릭 합니다. 
     
-3. 드롭다운 목록에서 **모든 받는 사람에 게 선택 된 메시지 릴리스를** 클릭 합니다. 
+3. 드롭다운 목록에서 **모든 받는 사람에 대해 선택한 메시지 릴리스를** 클릭 합니다. 
     
-4. 경고 대화 상자가 열립니다. 이 경고를 읽고 진행 하려는 경우 **예** 를 선택 합니다. 이 옵션을 선택 하는 경우 유의 동일한 받는 사람에 게 메시지를 여러 번 해제할 수 없습니다. 받는 사람이 메시지를 받은 이전에 하는 경우 하지 발표 될 예정 다시 해당 받는 사람에 게 있습니다. 
+4. 경고 대화 상자가 열립니다. 경고를 읽고 계속 진행 하려면 **예** 를 선택 합니다. 이 옵션을 선택 하면 메시지를 동일한 받는 사람에 게 두 번 이상 릴리스할 수 없습니다. 받는 사람이 이전에 메시지를 받은 경우 해당 받는 사람에 게 다시 릴리스되지 않습니다. 
     
-### <a name="release-one-or-more-quarantined-messages-to-all-recipients-and-report-false-positives"></a>모든 받는 사람 및 보고서 가양성을 하나 이상의 격리 된 메시지 릴리스
+### <a name="release-one-or-more-quarantined-messages-to-all-recipients-and-report-false-positives"></a>하나 이상의 격리 된 메시지를 모든 받는 사람에 게 릴리스하고 가양성 보고
 <a name="Releaseoneormorequarantinedmessagestoallrecipientsandreportfalsepositives"> </a>
 
-1. EAC에서 **보호** 로 이동 \> **격리**합니다.
+1. EAC에서 **보호** \> **격리**로 이동 합니다.
     
-2. 선택 하거나 여러 메시지를 선택 하려면 shift 키를 사용 하 여 메시지를 클릭 합니다. **메시지 릴리스** 아이콘을 클릭 합니다. 
+2. 메시지를 클릭 하 여 선택 하거나 shift 키를 사용 하 여 여러 메시지를 선택 합니다. 그런 다음 **메시지 릴리스** 아이콘을 클릭 합니다. 
     
-3. 드롭다운 목록에서 **릴리스 선택한 메시지와 가양성으로 보고서를** 클릭 합니다. 
+3. **선택한 메시지 릴리스를 클릭 하 고 드롭다운 목록에서 가양성으로 보고** 합니다. 
     
-4. 경고 대화 상자가 열립니다. 이 경고를 읽고 진행 하려는 경우 **예** 를 선택 합니다. 이 옵션을 선택 하는 경우 유의 동일한 받는 사람에 게 메시지를 여러 번 해제할 수 없습니다. 받는 사람이 메시지를 받은 이전에 하는 경우 하지 발표 될 예정 다시 해당 받는 사람에 게 있습니다. 
+4. 경고 대화 상자가 열립니다. 경고를 읽고 계속 진행 하려면 **예** 를 선택 합니다. 이 옵션을 선택 하면 메시지를 동일한 받는 사람에 게 두 번 이상 릴리스할 수 없습니다. 받는 사람이 이전에 메시지를 받은 경우 해당 받는 사람에 게 다시 릴리스되지 않습니다. 
     
-     이 옵션을 선택 하는 경우 모든 받는 사람에 게 아직 수신 되지 않은 메시지 발표 될 예정입니다. 스팸 격리 된 메시지를 평가 하 고 메시지를 분석 Microsoft 스팸 분석 팀에도 보고 됩니다. 분석의 결과 따라 서비스 수준 스팸 콘텐츠 필터 규칙을 통해 메시지를 허용 하도록 조정 될 수 있습니다. 
+     이 옵션을 선택 하면 메시지를 아직 수신 하지 않은 모든 받는 사람에 게 메시지가 릴리스됩니다. 스팸 격리 된 메시지는 메시지를 평가 및 분석 하는 Microsoft 스팸 분석 팀에도 보고 됩니다. 분석 결과에 따라 메시지 통과를 허용 하도록 서비스 전반의 스팸 콘텐츠 필터 규칙이 조정 될 수 있습니다. 
     
 > [!TIP]
-> 보장 [메시지가 스팸으로 표시 되지 않음 되었는지 보장 하는 방법](how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md)의 단계를 수행 하 여 메시지가 스팸으로 표시 되지 않습니다. 
+> [메시지가 스팸으로 표시 되지](how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md)않도록 하는 방법의 단계에 따라 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 
   
-**새로고침**단추를 누르면![새로고침 아이콘](media/ITPro-EAC-RefreshIcon.gif) 데이터를 새로 고치고, 메시지를 두번클릭 한 다음 아이콘 것 릴리스된 의도 한 받는 사람에 게 표시 됩니다. 
+새로 고침 아이콘](media/ITPro-EAC-RefreshIcon.gif) **새로**![고침 아이콘을 클릭 하 여 데이터를 새로 고친 다음 해당 메시지를 두 번 클릭 하면 해당 받는 사람에 게 해당 메시지가 해제 된 것을 확인할 수 있습니다. 
   
 ## <a name="for-more-information"></a>자세한 내용
 <a name="sectionSection4"> </a>

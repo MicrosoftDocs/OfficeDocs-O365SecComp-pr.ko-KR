@@ -5,7 +5,7 @@ author: robmazz
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: SharePoint Online의 데이터 삭제에 대 한 설명
-ms.openlocfilehash: 48b108637e53b8ca4ab18b7b37e2fad7fbbd779c
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 6d4989bc4b503309ba50237a164bffebaff1e7af
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090860"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218428"
 ---
 # <a name="sharepoint-online-data-deletion-in-office-365"></a>Office 365에서 SharePoint Online 데이터 삭제
 
