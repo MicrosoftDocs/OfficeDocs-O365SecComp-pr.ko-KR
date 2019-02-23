@@ -9,19 +9,19 @@ ms.topic: article
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: d2c20943f7ecfe4ac536674628bc381ef552bcab
-ms.sourcegitcommit: e0f016aca7befc8806233a492ee916cbe646094f
+ms.openlocfilehash: 7e28034955a54fe7c2013dcaaf606c24c4089e75
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25345890"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216268"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 

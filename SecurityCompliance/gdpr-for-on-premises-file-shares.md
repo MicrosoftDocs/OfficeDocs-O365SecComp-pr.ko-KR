@@ -5,16 +5,15 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-ms.custom: ''
+ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 Windows Server 파일 공유에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: 29f79f05f4b23656e3262b717e4fa24d80d9d470
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 14af73a2ff2a162f2f3e621c2efeb5d9050c069a
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272453"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220268"
 ---
 # <a name="gdpr-for-on-premises-windows-server-file-shares"></a>온-프레미스 Windows Server 파일 공유
 

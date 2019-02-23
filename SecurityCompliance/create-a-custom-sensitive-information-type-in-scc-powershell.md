@@ -3,10 +3,9 @@ title: Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid:
@@ -14,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 82c382a5-b6db-44fd-995d-b333b3c7fc30
 description: Office 365 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만드는 방법을 알아보세요.
-ms.openlocfilehash: c1774b094163b5712519b3baeb5f0360d84896ea
-ms.sourcegitcommit: e044b4fd72e4151cd17bf2ad05acc057e0c0d45f
+ms.openlocfilehash: 1f94da09bd455a82c9b9d7c5cf12e91de3a1ad29
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25895277"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223307"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-office-365-security--compliance-center-powershell"></a>Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 

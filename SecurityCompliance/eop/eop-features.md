@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 62d37f0faa45551c2932b415fdd691aecc2df1d4
-ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
+ms.openlocfilehash: ab63cea5fb0e774f0242cfc4f85194eee5b0ffd9
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30206661"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223197"
 ---
 # <a name="eop-features"></a>EOP 기능
 

@@ -1,9 +1,26 @@
 ---
-제목: "스팸 방지 메시지 헤더" krowley author: kccross manager: laurawi. 대상 그룹: it 전문. 항목: 문서 ms. 서비스: O365-seccomp ms. 사용자 지정: TN2DMC localization_priority: 정상 검색. appverid:
-- MET150 assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db. 컬렉션:
-    - M365-보안 준수 설명: "Exchange Online Protection이 인바운드 전자 메일 메시지를 검사 하 여 각 메시지에 **X-Forefront-스팸 방지** 를 삽입 합니다."
+title: 스팸 방지 메시지 헤더
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
+ms.collection:
+- M365-security-compliance
+description: Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 하면 각 메시지에 **X-스팸 방지-Report** 헤더가 삽입 됩니다.
+ms.openlocfilehash: 4851c05f4db8d120eb54b9c22025fe2972e1e515
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223587"
 ---
-
 # <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
 
 Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 하면 각 메시지에 **X-스팸 방지-Report** 헤더가 삽입 됩니다. 이 헤더의 필드를 사용 하면 관리자가 메시지에 대 한 정보를 제공 하 고 처리 된 방법을 확인할 수 있습니다. **스팸 방지** 헤더의 필드는 대량 메일 및 피싱에 대 한 추가 정보를 제공 합니다. Exchange Online Protection은 이러한 두 헤더 외에도 **인증 결과** 헤더에 처리 되는 각 메시지에 대 한 전자 메일 인증 결과를 삽입 합니다.

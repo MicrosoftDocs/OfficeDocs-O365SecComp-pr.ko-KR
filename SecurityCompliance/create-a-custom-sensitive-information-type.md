@@ -3,10 +3,9 @@ title: 사용자 지정 중요한 정보 유형 만들기
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid:
@@ -14,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Office 365 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: a9234b160d720a04ff6bfeac62899246500ec9b4
-ms.sourcegitcommit: e4291f751d6870d965dba191b4c8f10c5c4ce0b5
+ms.openlocfilehash: 4a94ae8c5fd2f4aed9df0d481fecaaaef8b08074
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26534029"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213858"
 ---
 # <a name="create-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 만들기
 

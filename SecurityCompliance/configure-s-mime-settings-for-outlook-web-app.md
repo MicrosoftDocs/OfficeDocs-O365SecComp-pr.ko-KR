@@ -1,9 +1,26 @@
 ---
-title: "웹에서 Outlook에 대 한 S/MIME 설정 구성" krowley author: kccross manager: laurawi. 대상: it 전문. 항목: 문서 ms. 서비스: O365-seccomp ms. 사용자 지정: TN2DMC localization_priority: 정상 검색. appverid:
-- MET150 assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e. 컬렉션:
-    - M365-보안 준수 설명: "exchange online 관리자가 웹에서 Outlook의 S/MIME 설정을 보고 구성 하기 위해 수행 해야 하는 작업에 대 한 간략 한 설명입니다."
+title: 웹용 Outlook에 대 한 S/MIME 설정 구성
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
+ms.collection:
+- M365-security-compliance
+description: exchange online 관리자가 웹에서 Outlook의 S/MIME 설정을 보고 구성 하기 위해 수행 해야 하는 작업에 대 한 간략 한 설명입니다.
+ms.openlocfilehash: 95715fc8ae97ea47c8473a821de04a72cca39c66
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30222787"
 ---
-
 # <a name="configure-smime-settings-for-outlook-on-the-web"></a>웹용 Outlook에 대 한 S/MIME 설정 구성
 
 Exchange Online 관리자는 웹에서 outlook (이전의 outlook web App)을 설정 하 여 S/MIME로 보호 된 메시지를 보내고 받을 수 있습니다. **get-smimeconfig** 및 **get-smimeconfig** cmdlet을 사용 하 여 Exchange Online PowerShell에서이 기능을 보고 관리 합니다. exchange online powershell에 연결 하려면 [exchange online powershell에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조 하세요.

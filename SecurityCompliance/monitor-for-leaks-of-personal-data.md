@@ -10,19 +10,17 @@ ms.collection:
 - Strat_O365_Enterprise
 - Ent_O365
 - GDPR
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: ''
-ms.assetid: ''
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: b2ff4e686c3131260327b1c935603693eaa7f816
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: e86dc8fdfa8de600c6de4e4a28309862771c3cea
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272413"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223577"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -92,7 +90,7 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
   [Office 365 보안 및 준수 센터에서 감사 로그 검색](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
 -   
-  [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
+  [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
 
 -   [Office 365 감사 로그의 자세한 속성](https://support.office.com/ko-KR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 

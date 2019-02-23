@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Windows Defender advanced threat protection을 사용 하 여 Office 365 advanced threat protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: ec7c7f565a4a316085b586168512699bb13cad47
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 892d04152d6029c48a52d37c6235d45a8ba67b81
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220928"
+ms.locfileid: "30222817"
 ---
 # <a name="integrate-office-365-threat-intelligence-with-windows-defender-advanced-threat-protection"></a>Office 365 위협 인텔리전스와 Windows Defender Advanced Threat Protection 통합
 

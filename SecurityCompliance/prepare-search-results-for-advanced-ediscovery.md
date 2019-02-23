@@ -3,7 +3,6 @@ title: Office 365 고급 eDiscovery 검색 결과 준비
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -14,12 +13,12 @@ ms.collection: Strat_O365_IP
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: 고급 eDiscovery 도구로 추가 분석을 위해 Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색의 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 52573169692c2457e51898f9f36d2c586c7e7a4b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 04de96064f400f8055d0e477bf41ed1c7cb1b35f
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30212678"
+ms.locfileid: "30223847"
 ---
 # <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery 검색 결과 준비
 

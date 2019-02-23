@@ -1,9 +1,26 @@
 ---
-title: "EOP에서 최종 사용자 스팸 알림 구성" krowley author: kccross manager: laurawi ms. 대상 그룹: it 전문 ms. 항목: 문서 ms. 서비스: O365-seccomp ms. custom: TN2DMC localization_priority: Normal search. appverid:
-- MET150 assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0. 컬렉션:
-    - M365-보안 준수 설명: "기본 회사 차원의 콘텐츠 필터 정책 또는 도메인에 적용 되는 사용자 지정 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다."
+title: EOP에서 최종 사용자 스팸 알림 구성
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+ms.custom: TN2DMC
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
+ms.collection:
+- M365-security-compliance
+description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
+ms.openlocfilehash: 2cab65347c726cab482eb127f5068586f4f3afd3
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30222977"
 ---
-
 # <a name="configure-end-user-spam-notifications-in-eop"></a>EOP에서 최종 사용자 스팸 알림 구성
   
 > [!IMPORTANT]

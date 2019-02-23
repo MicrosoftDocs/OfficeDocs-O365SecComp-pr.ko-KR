@@ -3,7 +3,6 @@ title: Office 365 보안 및 준수 센터의 보고서
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: ''
 ms.audience: Admin
 ms.topic: overview
 f1_keywords:
@@ -12,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Office 365 Security & 준수 센터를 사용 하 여 SharePoint online 및 Exchange Online 조직에 대 한 다양 한 보고서 및 Azure Active Directory 보고서를 확인할 수 있습니다.  '
-ms.openlocfilehash: d6605ebfa5f733f24b6a3aa8d36c85203c264c0c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5f3e510aaacd82095cf502acd5609a204e738bd3
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219968"
+ms.locfileid: "30223547"
 ---
 # <a name="reports-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터의 보고서
 

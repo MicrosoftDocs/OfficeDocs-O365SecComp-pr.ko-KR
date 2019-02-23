@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - Ent_O365
@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: '요약: 격리된 SharePoint Online 팀 사이트의 용도에 대해 알아봅니다.'
-ms.openlocfilehash: 74995273d531ef756ac169491105fb8c8f7eccb5
-ms.sourcegitcommit: e0f016aca7befc8806233a492ee916cbe646094f
+ms.openlocfilehash: 17e6fffc72a366d2cbb2c96e2b6bc812d0670e94
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "25345790"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214008"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>격리된 SharePoint Online 팀 사이트
 

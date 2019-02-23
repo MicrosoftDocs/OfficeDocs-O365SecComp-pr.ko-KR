@@ -6,19 +6,19 @@ manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 description: 이 항목에서는 Microsoft 365 REST API를 사용하여 이벤트를 통한 보존을 자동화하는 비즈니스 프로세스 흐름을 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 4b4f310950f25e2a72dffa83de39b13c0b34cd97
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: a43fb7dd2c87879ec5c89c48e830c8c205eeedec
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29740870"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220518"
 ---
 # <a name="automate-event-based-retention"></a>이벤트 기반 보존 자동화
 

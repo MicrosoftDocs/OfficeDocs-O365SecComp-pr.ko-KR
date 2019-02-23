@@ -1,9 +1,26 @@
 ---
-title: "Azure Information protection의 보호 기능을 사용 하 여 기존 Office 365 테 넌 트에" krowley 만든이 "를 적용 합니다. 만든이: laurawi: it 전문 ms. 날짜 우선 순위: 일반 검색. appverid:
-- MET150 assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d. 컬렉션:
-    - M365-security-준수 설명: "7 월 2018에 시작 하 여 정보를 보호 하는 초기 단계를 지원 하기 위해 모든 azure information protection 적합 한 테 넌 트에는 기본적으로 azure information protection의 보호 기능이 설정 됩니다. Azure Information protection의 보호 기능은 이전에는 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있었습니다. 조직에 Office E3 서비스 계획 또는 서비스 계획이 더 높은 경우에는 이러한 기능을 롤아웃할 때 Azure 정보 보호를 통해 정보를 보호 하기 시작할 수 있습니다. "
+title: Azure Information protection의 보호 기능을 통해 기존 Office 365 테 넌 트에 배포
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 6/29/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
+ms.collection:
+- M365-security-compliance
+description: 정보를 보호 하는 초기 단계를 지원 하기 위해 7 월 2018 일부터 모든 azure information protection 적합 한 테 넌 트에는 기본적으로 azure information protection의 보호 기능이 설정 됩니다. Azure Information protection의 보호 기능은 이전에는 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있었습니다. 조직에 Office E3 서비스 계획 또는 서비스 계획이 더 높은 경우에는 이러한 기능을 롤아웃할 때 Azure information Protection을 통해 정보를 보호 하기 시작할 수 있게 됩니다.
+ms.openlocfilehash: 2484f9b335a6698894046aaf429fdad68d82491e
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223257"
 ---
-
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Azure Information protection의 보호 기능을 통해 기존 Office 365 테 넌 트에 배포
 
 정보를 보호 하는 초기 단계를 지원 하기 위해 7 월 2018 일부터 모든 azure information protection 적합 한 테 넌 트에는 기본적으로 azure information protection의 보호 기능이 설정 됩니다. Azure Information protection의 보호 기능은 이전에는 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있었습니다. 조직에 Office E3 서비스 계획 또는 서비스 계획이 더 높은 경우에는 이러한 기능을 롤아웃할 때 Azure information Protection을 통해 정보를 보호 하기 시작할 수 있게 됩니다.

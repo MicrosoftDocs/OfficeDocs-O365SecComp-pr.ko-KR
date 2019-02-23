@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: 'Office 365 보안 &amp; 및 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다. '
-ms.openlocfilehash: 028a0468e352121c64e12fbec209658dc32f9bbe
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 1f307f3ecff1bb63c30ff6ce1f792901475fe2c4
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219498"
+ms.locfileid: "30223437"
 ---
 # <a name="partially-indexed-items-in-content-search-in-office-365"></a>Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목
 

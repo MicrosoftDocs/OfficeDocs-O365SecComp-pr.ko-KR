@@ -10,19 +10,17 @@ ms.collection:
 - Strat_O365_Enterprise
 - Ent_O365
 - GDPR
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Priority
-ms.custom: ''
-ms.assetid: ''
 search.appverid:
 - MET150
 description: 조직이 GDPR 계획의 일부로 레이블을 구현하는지 여부를 확인합니다.
-ms.openlocfilehash: 82eec50284f0aa4b0b74346c9fbbfc717dc08d07
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 4ec495d82a37742d1315673e2a7d089778cd52e4
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272253"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223537"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>개인 데이터에 대한 분류 스키마 설계
 

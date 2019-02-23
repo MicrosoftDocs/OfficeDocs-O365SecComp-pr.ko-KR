@@ -1,9 +1,8 @@
 ---
-title: DMARC를 사용 하 여 Office 365의 전자 메일의 유효성을 검사 하려면
+title: DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,28 +11,28 @@ search.appverid:
 - MET150
 ms.custom: TN2DMC
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
-description: Office 365 조직에서 보낸 메시지의 유효성을 검사 하 여 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)를 구성 하는 방법에 알아봅니다.
-ms.openlocfilehash: 2f8e712028b5b5ee8950b48780083a20c7dce6ab
-ms.sourcegitcommit: bd1762ccf63c7d2ad8b49a936115171c72fb2c0f
+description: Office 365 조직에서 보낸 메시지의 유효성을 검사 하기 위해 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)을 구성 하는 방법을 알아봅니다.
+ms.openlocfilehash: f96fbe147a14087ee86bca2b9fae04d281ccdbec
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "27750047"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223727"
 ---
-# <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC를 사용 하 여 Office 365의 전자 메일의 유효성을 검사 하려면
+# <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사
 
-보낸 사람이 정책 프레임 워크 (SPF) 및 DomainKeys 식별 된 메일 (DKIM) 메일 보낸사람을 인증 하 고 대상 전자 메일 시스템에서 보낸 메시지를 신뢰 확인을 사용 하 여 도메인 기반 메시지 인증, 보고 및 적합성 ([DMARC](https://dmarc.org)) 작동 하는 도메인입니다. SPF 및 DKIM DMARC 구현 스푸핑 및 피싱 전자 메일에 대 한 추가 보호를 제공 합니다. 받는 메일 시스템 메시지와 함께 수행할 작업을 결정 하는 DMARC 도움이 실패 SPF 또는 DKIM 확인 하 여 도메인에서 보낸 합니다.
+도메인 기반 메시지 인증, 보고 및 적합성 ([DMARC](https://dmarc.org))은 SPF (Sender Policy Framework) 및 dkim (보낸 사람 정책 프레임 워크)을 사용 하 여 메일 보낸 사람을 인증 하 고 대상 전자 메일 시스템에서 보낸 메시지를 신뢰 하는지 확인 합니다. 도메인 SPF 및 dkim을 사용 하 여 DMARC을 구현 하면 스푸핑 및 피싱 전자 메일에 대 한 추가 보호가 제공 됩니다. DMARC 메일 시스템 수신에 도움이 됩니다. 도메인에서 전송 된 메시지를 사용 하 여 수행 해야 하는 작업 (SPF 또는 dkim 검사 실패)을 결정 합니다.
   
-## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-office-365"></a>SPF 및 DMARC 작동 방법 함께 Office 365의 전자 메일을 보호 하기 위해
+## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-office-365"></a>SPF 및 DMARC이 함께 Office 365의 전자 메일을 보호 하는 방법
 <a name="SPFandDMARC"> </a>
 
- 전자 메일 메시지는 여러 송신자 또는 보낸사람 주소를 포함할 수 있습니다. 이 주소는 서로 다른 용도로 사용 됩니다. 이러한 주소 예로 들 수 있습니다. 
+ 전자 메일 메시지에는 보낸 사람 또는 보낸 사람의 주소가 여러 개 포함 될 수 있습니다. 이러한 주소는 용도가 다른 용도로 사용 됩니다. 예를 들어 다음 주소를 고려 하십시오. 
   
-- **"Mail From" 주소**: 보낸 사람을 식별 하 고 배달 못함 정보와 같은 메시지의 배달에 모든 문제가 발생 하는 경우 반환 알림을 보낼 위치를 지정 합니다. 이 전자 메일 메시지의 봉투 부분에 표시 되며 일반적으로 전자 메일 응용 프로그램에 의해 표시 되지 않습니다. 이 5321.MailFrom 주소 또는 역방향 경로 주소 라고도 합니다.
+- **"Mail From" 주소**: 보낸 사람을 식별 하 고 배달 못 함 알림과 같이 메시지를 배달 하는 동안 문제가 발생 한 경우 반환 알림을 보낼 위치를 지정 합니다. 전자 메일 메시지의 봉투 부분에 표시 되며 일반적으로 전자 메일 응용 프로그램에서 표시 되지 않습니다. 이를 5321 보낸 사람 주소 또는 역 경로 주소 라고도 합니다.
     
-- **"From" 주소**: 전자 메일 응용 프로그램으로 From 주소로 표시 되는 주소입니다. 이 주소는 전자 메일의 작성자를 식별 합니다. 즉, 사용자 또는 메시지를 작성 하는 일을 담당 하는 시스템의 사서함입니다. 이 방법을 5322.From 주소를 라고도 합니다.
+- **"보낸 사람" 주소**: 메일 응용 프로그램에서 보낸 사람 주소로 표시 되는 주소입니다. 이 주소는 전자 메일의 작성자를 식별 합니다. 즉, 메시지 작성을 담당 하는 사람이 나 시스템의 사서함입니다. 이를 5322.from 주소의 주소 라고도 합니다.
     
-SPF는 DNS TXT 레코드를 사용 하 여 지정된 된 도메인에 대 한 권한이 부여 된 보내는 IP 주소 목록을 제공 합니다. 일반적으로 SPF 확인 5321.MailFrom 주소에 대해서만 수행 됩니다. 이 5322.From 주소는 인증 되지 않은 SPF를 사용 하는 경우 단독으로 것을 의미 합니다. 이 사용자 위장 된 5322.From 보낸사람 주소를 되었지만 SPF 검사를 통과 하는 메시지를 받을 수 있는 시나리오에 대 한 수 있습니다. 이 SMTP 대화 내용이 예로 들 수 있습니다.
+SPF에서는 DNS TXT 레코드를 사용 하 여 지정 된 도메인에 대해 권한이 부여 된 IP 주소 목록을 제공 합니다. 일반적으로 SPF 확인은 5321 보낸 사람 주소에 대해서만 수행 됩니다. 즉, SPF를 단독으로 사용 하는 경우 5322.from 주소의 주소가 인증 되지 않습니다. 이를 통해 사용자가 SPF 확인을 통과 하지만 스푸핑된 5322.from 주소의 보낸 사람 주소를 갖는 메시지를 받을 수 있습니다. 예를 들어 다음과 같은 SMTP 녹음을 고려해 보십시오.
   
 ```
 S: Helo woodgrovebank.com
@@ -56,84 +55,84 @@ S: Woodgrove Bank
 S: .
 ```
 
-이 대화 내용이에서 보낸사람 주소는 다음과 같습니다.
+이 대화 내용에서 보낸 사람 주소는 다음과 같습니다.
   
-- 메일 주소 (5321.MailFrom): phish@phishing.contoso.com
+- 메일 보낸 사람 주소 (5321): phish@phishing.contoso.com
     
-- 보낸사람 주소 (5322.From): security@woodgrovebank.com
+- 보낸 사람 주소 (5322.from 주소의): security@woodgrovebank.com
     
-SPF를 구성 해 놓은 받는 서버에서 주소 phish@phishing.contoso.com 메일에 대해 확인을 수행 합니다. 도메인 phishing.contoso.com에 대 한 유효한 소스에서 메시지를 받은 경우 SPF 확인 전달 합니다. 전자 메일 클라이언트 보낸사람 주소를 표시 하므로 사용자에 게 security@woodgrovebank.com에서이 메시지 인지 표시 합니다. SPF 만으로는, woodgrovebank.com의 유효성을 검사 인증 되지 않았습니다.
+SPF를 구성한 경우 받는 서버는 주소 phish@phishing.contoso.com에서 메일을 확인 합니다. 메시지가 phishing.contoso.com 도메인에 대 한 유효한 원본에서 보낸 경우 SPF 확인이 통과 됩니다. 전자 메일 클라이언트는 보낸 사람 주소만 표시 하기 때문에 사용자는이 메시지를 security@woodgrovebank.com에서 보낸 것을 볼 수 있습니다. SPF만을 사용 하는 경우 woodgrovebank.com의 유효성은 인증 되지 않았습니다.
   
-DMARC를 사용 하면 수신 서버는 또한 보낸사람 주소에 대 한 검사를 수행 합니다. 위의 예제에서 woodgrovebank.com에 대 한 전체에 DMARC TXT 레코드 있으면 확인 보낸사람 주소에 대해이 실패 합니다.
+DMARC을 사용 하는 경우 받는 서버는 보낸 사람 주소에 대해서도 확인을 수행 합니다. 위 예에서 woodgrovebank.com에 대 한 DMARC TXT 레코드가 있는 경우에는 보낸 사람 주소에 대 한 확인이 실패 합니다.
   
-## <a name="what-is-a-dmarc-txt-record"></a>DMARC TXT 레코드 이란?
+## <a name="what-is-a-dmarc-txt-record"></a>DMARC TXT 레코드 란?
 <a name="WhatisDMARC"> </a>
 
-SPF에 대 한 DNS 레코드를 다음과 같이 DMARC에 대 한 레코드는 스푸핑 및 피싱 방지 하는 DNS 텍스트 (TXT) 레코드가입니다. DNS에 DMARC TXT 레코드를 게시 합니다. DMARC TXT 레코드 보내는 도메인의 공식된 소유자에 대 한 전자 메일의 작성자의 IP 주소를 확인 하 여 전자 메일 메시지의 출처의 유효성을 검사 합니다. DMARC TXT 레코드 권한이 부여 된 아웃 바운드 전자 메일 서버를 식별합니다. 대상 전자 메일 시스템 받은 메시지 권한이 부여 된 아웃 바운드 전자 메일 서버에서 시작 되었는지 확인할 수 있습니다.
+SPF의 DNS 레코드와 마찬가지로 DMARC의 레코드는 스푸핑 및 피싱을 방지 하는 데 도움이 되는 DNS 텍스트 (TXT) 레코드입니다. DMARC TXT 레코드를 DNS에 게시 합니다. DMARC TXT 레코드는 보내는 도메인의와 대조 소유자에 대해 전자 메일 작성자의 IP 주소를 확인 하 여 전자 메일 메시지의 출처를 확인 합니다. DMARC TXT 레코드는 권한 있는 아웃 바운드 전자 메일 서버를 식별 합니다. 그러면 대상 전자 메일 시스템에서 권한이 부여 된 아웃 바운드 전자 메일 서버 로부터 받는 메시지가 수신 되는지 확인할 수 있습니다.
   
-Microsoft의 DMARC TXT 레코드는 다음과 유사 합니다.
+Microsoft의 DMARC TXT 레코드는 다음과 같이 표시 됩니다.
   
 ```
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1" 
 ```
 
-Microsoft 보냅니다 해당 DMARC [Agari](https://agari.com)를 보고, 타사의 합니다. Agari를 수집 하 고 DMARC 보고서를 분석 합니다.
+Microsoft는 DMARC 보고서를 [agari](https://agari.com), 타사로 보냅니다. agari DMARC 보고서를 수집 하 고 분석 합니다.
   
-## <a name="implement-dmarc-for-inbound-mail"></a>인바운드 메일에 대 한 DMARC 구현
+## <a name="implement-dmarc-for-inbound-mail"></a>인바운드 메일용 DMARC 구현
 <a name="implementDMARCinbound"> </a>
 
-Office 365에서 수신 하는 메일에 대 한 DMARC를 설정 하는 작업을 수행 필요가 없습니다. 우리 했을 때 주의 하지 않아도의 모든 있습니다. 싶으십니까 하는 메일을 수행 하는 작업 못해도 사용해 DMARC 검사를 통과 [인바운드 전자 메일 DMARC에 실패 하는 Office 365 어떻게 핸들](use-dmarc-to-validate-email.md#inbounddmarcfail)을 참조 하십시오.
+Office 365에서 받은 메일에 대해 DMARC을 설정 하는 작업을 수행할 필요가 없습니다. microsoft에서는 모든 것을 자동으로 처리 합니다. DMARC 검사를 통과 하지 못한 메일에 대 한 자세한 내용은 [Office 365에서 DMARC에 오류가 발생 한 인바운드 전자 메일을 처리 하는 방법을](use-dmarc-to-validate-email.md#inbounddmarcfail)참조 하십시오.
   
-## <a name="implement-dmarc-for-outbound-mail-from-office-365"></a>Office 365에서 아웃 바운드 메일에 대 한 DMARC를 구현 합니다.
+## <a name="implement-dmarc-for-outbound-mail-from-office-365"></a>Office 365에서 아웃 바운드 메일용 DMARC 구현
 <a name="implementDMARCoutbound"> </a>
 
-즉, Office 365를 사용 하는 경우 사용자 지정 도메인을 사용 하지 않는 onmicrosoft.com를 사용 하 여, 구성 또는 조직에 대 한 DMARC를 구현 하는 다른 작업을 수행할 필요가 없습니다. 하면 SPF 이미 설정 하 고 Office 365에 보내는 메일에 대 한 DKIM 서명을 자동으로 생성 합니다. 이 서명 하는 방법에 대 한 자세한 내용은 [DKIM 및 Office 365의 기본 동작을](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior)참조 하십시오.
+Office 365를 사용 하지만 사용자 지정 도메인을 사용 하지 않는 경우, 즉 onmicrosoft.com를 사용 하는 경우에는 조직에 대해 DMARC을 구성 하거나 구현 하기 위해 다른 작업을 수행할 필요가 없습니다. SPF가 이미 설정 되어 있으며 Office 365에서는 보내는 메일에 대해 dkim 서명을 자동으로 생성 합니다. 이 서명에 대 한 자세한 내용은 [dkim 및 Office 365에 대 한 기본 동작](use-dkim-to-validate-outbound-email.md#DefaultDKIMbehavior)을 참조 하세요.
   
- 사용자 지정 도메인 했거나 Office 365 외에도 온-프레미스 Exchange 서버를 사용 하는 경우에 수동으로 아웃 바운드 메일에 대 한 DMARC를 구현 해야 합니다. 사용자 지정 도메인에 대 한 DMARC 구현 다음이 단계에 포함 됩니다. 
+ 사용자 지정 도메인이 있거나 Office 365 외에도 온-프레미스 Exchange 서버를 사용 하는 경우 아웃 바운드 메일에 대해 DMARC를 수동으로 구현 해야 합니다. 사용자 지정 도메인에 대해 DMARC을 구현 하는 단계는 다음과 같습니다. 
   
-- [1 단계: 도메인에 대 한 메일의 유효한 소스를 식별 합니다.](use-dmarc-to-validate-email.md#IdentifyValidSources)
+- [1 단계: 도메인에 대 한 유효한 메일 원본 식별](use-dmarc-to-validate-email.md#IdentifyValidSources)
     
-- [2 단계: Office 365에서 도메인에 대 한 SPF를 설정 합니다.](use-dmarc-to-validate-email.md#ConfigSPF)
+- [2 단계: Office 365에서 도메인에 대 한 SPF 설정](use-dmarc-to-validate-email.md#ConfigSPF)
     
-- [3 단계: Office 365에서 사용자 지정 도메인에 대 한 DKIM를 설정 합니다.](use-dmarc-to-validate-email.md#ConfigDKIM)
+- [3 단계: Office 365에서 사용자 지정 도메인에 대 한 dkim을 설정 합니다.](use-dmarc-to-validate-email.md#ConfigDKIM)
     
-- [Office 365에서 도메인에 대 한 DMARC TXT 레코드를 형성 하는 4 단계:](use-dmarc-to-validate-email.md#CreateDMARCRecord)
+- [4 단계: Office 365에서 도메인에 대 한 DMARC TXT 레코드를 구성 합니다.](use-dmarc-to-validate-email.md#CreateDMARCRecord)
     
-### <a name="step-1-identify-valid-sources-of-mail-for-your-domain"></a>1 단계: 도메인에 대 한 메일의 유효한 소스를 식별 합니다.
+### <a name="step-1-identify-valid-sources-of-mail-for-your-domain"></a>1 단계: 도메인에 대 한 유효한 메일 원본 식별
 <a name="IdentifyValidSources"> </a>
 
-SPF 이미 설정 하는 경우 다음 하면가 이미 모음은이 연습을 통해 돌아갑니다. 그러나 DMARC에 대 한 가지 추가 고려 사항입니다. 도메인에 대 한 메일의 출처를 식별 하는 경우 두 질문에 답해야 합니다 가지가 있습니다.
+SPF를 이미 설정한 경우에는이 연습이 이미 진행 된 것입니다. 그러나 DMARC의 경우에는 추가적인 고려 사항이 있습니다. 도메인의 메일 원본을 확인할 때 다음 두 가지 사항을 확인 해야 합니다.
   
-- 어떤 IP 주소 내 도메인에서 메시지를 보낼?
+- 어떤 IP 주소가 내 도메인에서 메시지를 전송 하나요?
     
-- 내를 대신 하 여 제 3 자에서 보낸 메일에 대 한 5321.MailFrom 및 5322.From 도메인 일치시킬지 여부
+- 제 3 자가 사용자를 대신 하 여 보낸 메일의 경우 5321 from 및 5322.from 주소의가 일치 합니까?
     
-### <a name="step-2-set-up-spf-for-your-domain-in-office-365"></a>2 단계: Office 365에서 도메인에 대 한 SPF를 설정 합니다.
+### <a name="step-2-set-up-spf-for-your-domain-in-office-365"></a>2 단계: Office 365에서 도메인에 대 한 SPF 설정
 <a name="ConfigSPF"> </a>
 
-유효한 모든 보낸 사람의 목록이 만들었으므로 [스푸핑을 방지 하기 위해 Office 365에서 SPF를 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)하려면 단계를 따라 수 있습니다.
+이제 유효한 모든 보낸 사람 목록을 만들었으므로 [Office 365에서 SPF를 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)하는 단계를 수행 하 여 스푸핑을 방지할 수 있습니다.
   
-예: contoso.com Exchange Online에서 해당 IP 주소 192.168.0.1, 및 해당 IP 주소는 192.168.100.100, 웹 응용 프로그램은 온-프레미스 Exchange 서버에서 메일을 보내는 것으로 가정 SPF TXT 레코드는 다음과 같습니다.
+예를 들어 contoso.com가 Exchange Online에서 메일을 보내고 ip 주소가 192.168.0.1 인 온-프레미스 Exchange 서버와 ip 주소가 192.168.100.100 인 웹 응용 프로그램의 경우 SPF TXT 레코드는 다음과 같이 표시 됩니다.
   
 ```
 contoso.com  IN  TXT  " v=spf1 ip4:192.168.0.1 ip4:192.168.100.100 include:spf.protection.outlook.com -all"
 ```
 
-최상의 방법으로는 SPF TXT 레코드 수식의 계산 시간이 계정 제 3 자 보낸사람으로를 확인 합니다.
+최상의 방법으로 SPF TXT 레코드가 타사 보낸 사람에 게 고려 되는지 확인 합니다.
   
-### <a name="step-3-set-up-dkim-for-your-custom-domain-in-office-365"></a>3 단계: Office 365에서 사용자 지정 도메인에 대 한 DKIM를 설정 합니다.
+### <a name="step-3-set-up-dkim-for-your-custom-domain-in-office-365"></a>3 단계: Office 365에서 사용자 지정 도메인에 대 한 dkim을 설정 합니다.
 <a name="ConfigDKIM"> </a>
 
-SPF 설정한 후에 DKIM를 설정 해야 합니다. DKIM은 메시지 헤더에 전자 메일 메시지에 디지털 서명을 추가할 수 있습니다. DKIM를 설정 하지 않으며 대신 도메인에 대 한 기본 DKIM 구성을 사용 하 여 Office 365를 허용 하는 경우에 DMARC 실패할 수 있습니다. 기본 DKIM 구성 초기 onmicrosoft.com 도메인을 사용 하 여 사용자 지정 도메인 하지 5322.From 주소로 때문입니다. 이렇게 하면는 5321.MailFrom 도메인에서 보낸 모든 전자 메일의 5322.From 주소와 일치 하지 됩니다.
+SPF를 설정한 후에는 dkim을 설정 해야 합니다. dkim을 사용 하 여 메시지 헤더에 전자 메일 메시지에 디지털 서명을 추가할 수 있습니다. dkim을 설정 하지 않고 Office 365이 도메인에 기본 dkim 구성을 사용 하도록 허용 하는 경우 DMARC이 실패할 수 있습니다. 이는 기본 dkim 구성에서 사용자 지정 도메인이 아닌 초기 onmicrosoft.com 도메인을 5322.from 주소의 주소로 사용 하기 때문입니다. 이로 인해 도메인에서 보낸 모든 전자 메일의 5321와 5322.from 주소의 간의 불일치가 발생 합니다.
   
-사용자를 대신 하 여 메일을 보낼 있는 제 3 자가 발신자 있고 대리인이 보내는 메일에 짝이 맞지 않는 5321.MailFrom와 5322.From 주소 하는 경우 해당 전자 메일에 대 한 DMARC 실패 합니다. 이 문제를 방지 하려면 해당 제 3 자가 발신자 구체적으로 사용 하 여 도메인에 대 한 DKIM를 설정 해야 합니다. 따라서이 타사 서비스에서 전자 메일을 인증 하는 Office 365 수 있습니다. 그러나 수도 있습니다 다른 등 yahoo!, Gmail, 및 Comcast, 사용자가 보낸 전자 메일 되었으면 처럼 제 3 자에 의해 자신에 게 보낸 전자 메일을 확인 합니다. 이것은 해당 사서함이 있는 위치에 관계 없이 도메인 신뢰 관계를 구축 하 여 고객을 허용 하기 때문에 유용 하 고 동시에 Office 365 되지 않음 표시 메시지를 도메인에 대 한 인증 검사를 통과 하기 때문에 스푸핑 때문에 스팸으로 합니다.
+사용자를 대신 하 여 메일을 전송 하는 타사 보낸 사람이 있는 경우 해당 전자 메일에 대해 5321 from 및 5322.from 주소의에서 DMARC가 일치 하지 않습니다. 이를 방지 하려면 제 3 자 보낸 사람과 특별히 도메인에 대해 dkim을 설정 해야 합니다. 이를 통해 Office 365이 타사 서비스에서 전자 메일을 인증할 수 있습니다. 그러나 Yahoo, Gmail 및 Comcast와 같은 다른 사람도 사용자가 보낸 전자 메일 인 것 처럼 타사에서 보낸 전자 메일을 확인할 수 있습니다. 이렇게 하면 고객이 사서함의 위치에 관계 없이 사용자의 도메인에 대 한 신뢰를 작성할 수 있으며, 마찬가지로 Office 365은 도메인에 대 한 인증 확인을 통과 하므로 위장으로 인해 메시지를 스팸으로 표시 하지 않습니다.
   
-사용자 도메인을 스푸핑할 수 있도록 제 3 자 보낸사람에 대 한 DKIM를 설정 하는 방법을 비롯 하 여 도메인에 대 한 DKIM 설정에 대 한 지침은 [Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사를 사용 하 여 DKIM](use-dkim-to-validate-outbound-email.md)를 참조 하십시오.
+타사에서 도메인을 스푸핑할 수 있도록 dkim을 설정 하는 방법을 비롯 하 여 도메인에 대 한 dkim을 설정 하는 방법에 대 한 자세한 내용은 [Use dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요.
   
-### <a name="step-4-form-the-dmarc-txt-record-for-your-domain-in-office-365"></a>Office 365에서 도메인에 대 한 DMARC TXT 레코드를 형성 하는 4 단계:
+### <a name="step-4-form-the-dmarc-txt-record-for-your-domain-in-office-365"></a>4 단계: Office 365에서 도메인에 대 한 DMARC TXT 레코드를 구성 합니다.
 <a name="CreateDMARCRecord"> </a>
 
-여기서 언급 되지 않은 다른 구문을 옵션 되지만, 다음은 Office 365에 대 한 가장 일반적으로 사용 되는 옵션입니다. 양식 형식으로 도메인에 대 한 DMARC TXT 레코드:
+여기에 나와 있지 않은 다른 구문 옵션도 있지만 Office 365에서 가장 일반적으로 사용 되는 옵션은 다음과 같습니다. 도메인에 대 한 DMARC TXT 레코드를 다음 형식으로 구성 합니다.
   
 ```
 _dmarc.domain  TTL  IN  TXT  "v=DMARC1; pct=100; p=policy"
@@ -141,108 +140,108 @@ _dmarc.domain  TTL  IN  TXT  "v=DMARC1; pct=100; p=policy"
 
 여기서 각 부분이 나타내는 의미는 다음과 같습니다.
   
-- *도메인* 은 보호 하려는 도메인은입니다. 기본적으로 레코드는 도메인 및 모든 하위 도메인의 메일을 보호합니다. 예: 지정 하는 경우 \_dmarc.contoso.com, 다음 DMARC 도메인 및 housewares.contoso.com 또는 plumbing.contoso.com 등의 모든 하위 도메인의 메일을 보호 합니다. 
+- *domain* 은 보호 하려는 도메인입니다. 기본적으로 레코드는 도메인과 모든 하위 도메인의 메일을 보호 합니다. 예를 들어 dmarc.contoso.com를 지정 \_하는 경우 dmarc은 도메인 및 housewares.contoso.com 또는 plumbing.contoso.com와 같은 모든 하위 도메인과의 메일을 보호 합니다. 
     
-- *TTL* 1 시간에 해당 하는 항상 되어야 합니다. 두 시간 (1 시간) TTL에 사용 되는 단위 (60 분), 분 또는 초 (3600 초) 도메인에 대 한 등록자에 따라 달라 집니다. 
+- *TTL* 은 항상 1 시간에 해당 합니다. TTL에 사용 되는 단위는 시간 (1 시간), 분 (60 분) 또는 초 (3600 초)는 도메인의 등록자에 따라 달라 집니다. 
     
-- *pct = 100* 전자 메일의 100%에 대해이 규칙을 사용 해야 함을 나타냅니다.
+- *pct = 100* 은이 규칙을 전자 메일의 100%에 사용 해야 함을 나타냅니다.
     
-- *정책* DMARC 실패 하는 경우에 따라를 받는 서버를 원하는 어떤 정책을 지정 합니다. 정책을 격리를 없음으로 설정 하거나 취소할 수 있습니다. 
+- *정책은* DMARC에 오류가 발생 했을 때 수신 서버가 수행 하도록 할 정책을 지정 합니다. 정책을 없음, 격리 또는 거부로 설정할 수 있습니다. 
     
-에 사용할 옵션에 대 한 내용은 [Office 365에서 DMARC를 구현 하기 위한 모범 사례](use-dmarc-to-validate-email.md#DMARCbestpractices)에 설명 된 개념을 숙지 됩니다.
+사용할 옵션에 대 한 자세한 내용은 [Office 365에서 DMARC을 구현 하기 위한 모범 사례](use-dmarc-to-validate-email.md#DMARCbestpractices)에 대 한 개념을 익힙니다.
   
 예제:
   
-- None으로 설정 하는 정책
+- 정책이 없음으로 설정
   
     ```
     _dmarc.contoso.com 3600 IN  TXT  "v=DMARC1; p=none"
     ```
 
-- 격리로 정책 설정
+- 격리로 설정 되는 정책
   
     ```
     _dmarc.contoso.com 3600 IN  TXT  "v=DMARC1; p=quarantine"
     ```
 
-- 거부로 설정 하는 정책
+- 거부로 설정 되는 정책
   
     ```
     _dmarc.contoso.com  3600 IN  TXT  "v=DMARC1; p=reject"
     ```
 
-사용자의 레코드를 세운 후에 도메인 등록자에서 레코드를 업데이트 해야 합니다. Office 365에 대 한 DNS 레코드를 DMARC TXT 레코드를 추가 하는 지침에 대 한 [DNS 레코드를 관리 하는 경우 Office 365 용 DNS 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23)를 참조 합니다.
+레코드를 구성한 후에는 도메인 등록 기관에서 레코드를 업데이트 해야 합니다. DMARC TXT 레코드를 Office 365의 DNS 레코드에 추가 하는 방법에 대 한 자세한 내용은 [dns 레코드를 관리할 때 office 365에 대 한 dns 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23)를 참조 하십시오.
   
-## <a name="best-practices-for-implementing-dmarc-in-office-365"></a>Office 365에서 DMARC를 구현 하기 위한 모범 사례
+## <a name="best-practices-for-implementing-dmarc-in-office-365"></a>Office 365에서 DMARC을 구현 하기 위한 최상의 방법
 <a name="DMARCbestpractices"> </a>
 
-메일 흐름의 나머지 부분에 영향을 주지 않고도 DMARC를 점진적으로 구현할 수 있습니다. 페이지를 만들고 다음과 같은이 단계로 구성 하는 전체 계획 roll을 구현 합니다. 하위 도메인을 다음 다른 하위 도메인으로 먼저 이러한 각 단계를 수행 하 고 마지막으로 다음 단계로 이동 하기 전에 조직에서 최상위 도메인으로 합니다.
+나머지 메일 흐름에 영향을 주지 않고 DMARC을 점차적으로 구현할 수 있습니다. 다음 단계를 수행 하는 롤아웃 계획을 만들고 구현 합니다. 다음 단계를 진행 하기 전에 먼저 각 단계를 하위 도메인, 다른 하위 도메인, 그리고 마지막으로 조직의 최상위 도메인으로 이동 합니다.
   
-1. 모니터 DMARC 구현의 영향
+1. DMARC 구현에 따른 영향 모니터링
     
-    하위 도메인 이나는 DMARC 수신기 사용자에 게 보낼가 해당 도메인을 사용 하 여 표시 하는 메시지에 대 한 통계를 요청 하는 도메인에 대 한 간단한 모니터링 모드 레코드를 시작 합니다. 모니터링 모드 레코드는 none으로 설정 하는 정책 수 있는 DMARC TXT 레코드 (p = 없음). 많은 기업이 p 사용 하 여 DMARC TXT 레코드를 게시 = none 확실 하지 않은 때문에 얼마나 많은 전자 메일에 대 한 보다 제한적인 DMARC 정책을 게시 하 여 손실 될 수 있습니다. 
+    DMARC 수신기에 게 해당 도메인을 사용 하 여 표시 되는 메시지에 대 한 통계를 보내도록 요청 하는 하위 도메인 또는 도메인에 대 한 간단한 모니터링 모드 레코드를 사용 하 여 시작 합니다. 모니터링 모드 레코드는 정책이 없음 (p = 없음)으로 설정 된 DMARC TXT 레코드입니다. 많은 회사에서는 보다 제한적인 DMARC 정책을 게시 하 여 손실 될 수 있는 전자 메일의 크기를 확실히 알지 못하기 때문에 DMARC TXT 레코드를 p = 없음으로 게시 합니다. 
     
-    메시징 인프라에서 SPF 또는 DKIM를 구현 했을 때 하기 전에도 수행할 수 있습니다. 그러나 효과적으로 격리 하거나도 SPF 및 DKIM을 구현할 때까지 DMARC를 사용 하 여 메일을 거부할 수 없습니다. SPF 및 DKIM을 소개 하는 대로 DMARC을 통해 생성 된 보고서의 번호 및 하지 않는 및 이러한 검사를 통과 하는 메시지의 원본 나옵니다. 합법적인 트래픽을 비용을 쉽게 확인할 수 있습니다,에서 다루지 하 고 모든 문제를 해결 합니다. 얼마나 많은 사기 메시지 전송 되 고, 참조도 먼저 어디에서 하 고 있습니다.
+    메시징 인프라에서 SPF 또는 dkim을 구현한 후에도이 작업을 수행할 수 있습니다. 그러나 SPF 및 dkim을 구현 하기 전 까지는 DMARC를 사용 하 여 메일을 효과적으로 격리 하거나 거부할 수 없습니다. SPF 및 dkim을 도입 하는 경우 DMARC를 통해 생성 된 보고서는 이러한 검사를 통과 하는 메시지의 수와 원본을 제공 합니다. 합법적인 트래픽의 범위를 쉽게 확인 하 고 처리 하지 못하는 문제를 해결할 수 있습니다. 또한 보내는 사기 메시지 수 및 해당 위치에서 시작 합니다.
     
-2. 외부 메일 시스템 DMARC 실패 하는 메일 격리를 요청 합니다.
+2. DMARC에서 실패 한 메일을 외부 메일 시스템에서 격리 하도록 요청
     
-    생각 되는 모든 또는 대부분의 합법적인 트래픽 SPF 및 DKIM로 보호 되 고 DMARC 구현의 영향을 이해를 격리 정책을 구현할 수 있습니다. 격리 정책은 해당 정책이 격리로 설정 된 DMARC TXT 레코드입니다 (p = 격리). 이 작업을 수행 하 여 고객의 받은 편지함 대신 스팸 폴더에 해당 하는 로컬에 DMARC에 실패 하는 도메인의 메시지를 저장할 DMARC 수신기가 요청 됩니다.
+    모든 또는 대부분의 합법적인 트래픽이 SPF 및 dkim에 의해 보호 되 고 있다고 생각 하 고 DMARC 구현의 영향을 이해 하면 격리 정책을 구현할 수 있습니다. 격리 정책은 정책이 격리 (p = 격리)로 설정 된 DMARC TXT 레코드입니다. 이 작업을 수행 하는 경우 DMARC 수신기가 DMARC에 오류가 발생 하는 메시지를 고객의 받은 편지함 대신 스팸 폴더의 로컬에 저장 합니다.
     
-3. 요청 외부 메일 시스템 DMARC 실패 하는 메시지를 허용 하지 않습니다
+3. DMARC에 실패 한 메시지를 허용 하지 않도록 외부 메일 시스템에 요청
     
-    마지막 단계 거부 정책을 구현 됩니다. 거부 정책은 해당 정책을 거부로 설정한 DMARC TXT 레코드입니다 (p = 거부). 이 작업을 수행 하면 것을 요청 하지 DMARC 검사에 실패 하는 메시지를 수락 하려면 DMARC 수신기 합니다. 
+    마지막 단계는 거부 정책을 구현 하는 것입니다. 거부 정책은 정책이 거부로 설정 된 (p = 거부) DMARC TXT 레코드입니다. 이 작업을 수행 하면 DMARC 수신자에 게 DMARC 검사를 통과 하지 못한 메시지를 수락 하지 않도록 요청 합니다. 
     
-## <a name="how-office-365-handles-outbound-email-that-fails-dmarc"></a>Office 365 DMARC 실패 하는 아웃 바운드 전자 메일을 처리 하는 방법
+## <a name="how-office-365-handles-outbound-email-that-fails-dmarc"></a>Office 365에서 DMARC에 실패 한 아웃 바운드 전자 메일을 처리 하는 방법
 <a name="outbounddmarcfail"> </a>
 
-메시지는 Office 365에서 아웃 바운드 DMARC, 실패 하 고 정책을 p를 설정한 경우 = 격리 또는 p = 거부, 메시지는 [아웃 바운드 메시지 용 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)을 통해 라우팅됩니다. 아웃 바운드 전자 메일에 대 한 재정의 하지 않음
+메시지가 Office 365에서 아웃 바운드이 고 DMARC에 오류가 발생 하 여 정책을 p = 격리 또는 p = 거부로 설정한 경우 메시지가 [높은 위험 배달 풀을 통해 아웃 바운드 메시지에 대해](high-risk-delivery-pool-for-outbound-messages.md)라우팅됩니다. 아웃 바운드 전자 메일에 대 한 재정의는 없습니다.
   
-DMARC 거부 정책을 게시 하는 경우 (p 거부 =), 메시지 서비스를 통해 아웃 바운드 메시지를 릴레이 하는 경우 도메인에 대 한 SPF 또는 DKIM를 전달할 수 없기 때문에 없는 다른 고객 Office 365에서 도메인을 스푸핑할 수 있습니다. 그러나 DMARC 거부 정책 게시를 수행 하는 경우 하지 않은 모든 전자 메일의 인증 된 Office 365를 통해 그 중 일부를 (위에서 설명한 대로), 인바운드 전자 메일에 대 한 스팸으로 표시 될 수 있습니다 또는 SPF 게시 및 릴레이 통해 아웃 바운드 시도 수행 하는 경우 거부 됨 서비스입니다. 이런 등 서버와 DMARC TXT 레코드를 형성 하는 경우 도메인을 대신 하 여 메일을 보내는 응용 프로그램에 대 한 IP 주소 중 일부를 포함 하도록 잊어버린 경우.
+DMARC 거부 정책 (p = 거부)을 게시 하는 경우, 메시지는 서비스를 통해 아웃 바운드 메시지를 릴레이할 때 도메인에 대해 SPF 또는 dkim을 전달할 수 없으므로, Office 365의 다른 고객은 도메인을 스푸핑할 수 없습니다. 그러나 DMARC 거부 정책을 게시 하지만 Office 365을 통해 전자 메일을 모두 인증 하지 않은 경우, 일부 it는 인바운드 전자 메일 (위에 설명한)에 대 한 스팸으로 표시 될 수도 있고, SPF를 게시 하지 않은 경우에는 거부 될 수 있습니다. 서비스입니다. 예를 들어 DMARC TXT 레코드를 형성할 때 도메인을 대신 하 여 메일을 보내는 서버 및 응용 프로그램의 일부 IP 주소를 포함 하는 것을 잊은 경우 이러한 상황이 발생 합니다.
   
-## <a name="how-office-365-handles-inbound-email-that-fails-dmarc"></a>Office 365 DMARC 실패 하는 인바운드 전자 메일을 처리 하는 방법
+## <a name="how-office-365-handles-inbound-email-that-fails-dmarc"></a>Office 365에서 DMARC에 실패 한 인바운드 전자 메일을 처리 하는 방법
 <a name="inbounddmarcfail"> </a>
 
-보내는 서버에 대 한 DMARC 정책은 p = 거부, EOP 스팸이 작업을 거부 하는 대신 메시지를 표시 합니다. 즉, 인바운드 전자 메일을 Office 365에서 p = 거부 및 p = 격리 동일한 방식으로 합니다.
+보내는 서버의 DMARC 정책이 p = 거부 인 경우 EOP는 메시지를 거부 하는 대신 스팸으로 표시 합니다. 즉, 인바운드 전자 메일의 경우 Office 365에서는 p = 거부 및 p = 격리를 동일한 방식으로 처리 합니다.
   
-Office 365 일부 합법적인 전자 메일 DMARC 실패할 수 있으므로 다음과 같이 구성 됩니다. 예, 다음 모든 목록 참가자에 게 메시지를 릴레이 하는 메일 그룹에 전송 된 경우 메시지 DMARC 실패할 수 있습니다. Office 365 이러한 메시지를 거부 하는 경우 사용자 수 합법적인 전자 메일 끊어지고 검색을 할 수 없습니다. 대신 이러한 메시지는 계속 DMARC 하지만 스팸으로 표시 및 거부 되지 것입니다. 필요한 경우 사용자가 여전히 얻을 수 이러한 메시지 받은 편지함에 이러한 메서드를 통해:
+일부 합법적인 전자 메일이 DMARC에 실패할 수 있으므로 Office 365는 이와 같이 구성 됩니다. 예를 들어 메시지를 메일 그룹으로 보낸 후 모든 목록 참가자로 메시지를 릴레이 하면 DMARC에 오류가 발생할 수 있습니다. Office 365에서 이러한 메시지를 거부 한 경우 사용자는 합법적인 전자 메일을 잃어 버릴 수 없습니다. 대신, 이러한 메시지는 계속 해 서 DMARC에 실패 하지만, 거부 되지 않고 스팸으로 표시 됩니다. 원하는 경우 사용자는 다음 방법을 통해 받은 편지함에 이러한 메시지를 받을 수 있습니다.
   
-- 사용자가 수신 허용-보낸사람을 개별적으로 추가 자신의 전자 메일 클라이언트를 사용 하 여
+- 사용자가 전자 메일 클라이언트를 사용 하 여 개별적으로 수신 허용-보낸 사람 추가
     
-- 관리자가 해당 특정 보낸사람에 대 한 메시지를 허용 하는 모든 사용자에 대 한 (ETR)는 Exchange 전송 규칙을 만듭니다. 
+- 관리자는 해당 특정 보낸 사람에 대 한 메시지를 허용 하는 모든 사용자에 대해 etr (Exchange 전송 규칙)를 만듭니다. 
     
-## <a name="troubleshooting-your-dmarc-implementation"></a>DMARC 구현 문제해결
+## <a name="troubleshooting-your-dmarc-implementation"></a>DMARC 구현 문제 해결
 <a name="dmarctroubleshoot"> </a>
 
-EOP는 첫번째 항목 하지 도메인의 MX 레코드를 구성 해 둔 DMARC 오류 도메인에 대해 적용 되지 않습니다. 
+EOP가 첫 번째 항목이 아닌 경우 도메인의 MX 레코드를 구성한 경우 DMARC 오류가 도메인에 적용 되지 않습니다. 
   
-Office 365 고객 도메인의 기본 MX 레코드가 EOP를 가리키지 않을 경우에 DMARC의 장점을 부여 되지 않습니다. 예, 온-프레미스 메일 서버로 MX 레코드를 가리킨 다음 커넥터를 사용 하 여 EOP로 전자 메일을 라우팅하는 경우 DMARC 작동 하지 않습니다. 이 시나리오에서 받는 도메인을 사용 하 여 허용 도메인 중 하나가 EOP 아니지만 기본 MX 합니다. 예: contoso.com의 MX 자체에서 가리키는으로 사용 하 여 EOP 보조 MX 레코드를, 인스턴트 메시징 세션 contoso.com의 MX 레코드는 다음과 같습니다.
+사용자가 Office 365 고객이 고 도메인의 기본 MX 레코드가 EOP를 가리키지 않는 경우 DMARC의 이점을 얻을 수 없습니다. 예를 들어 MX 레코드를 온-프레미스 메일 서버에 DMARC 다음 커넥터를 사용 하 여 EOP에 전자 메일을 라우팅하는 경우에는 작동 하지 않습니다. 이 시나리오에서 받는 도메인은 허용 도메인 중 하나이 고 EOP는 기본 MX가 아닙니다. 예를 들어 contoso.com에서 자체 mx를 가리키고 EOP를 보조 mx 레코드로 사용 한다고 가정해 보겠습니다.
   
 ```
 contoso.com     3600   IN  MX  0  mail.contoso.com
 contoso.com     3600   IN  MX  10 contoso-com.mail.protection.outlook.com
 ```
 
-기본 MX 이며 EOP로 메일 라우팅됩니다 다음 이후 모두 또는 대부분, 전자 메일에는 mail.contoso.com 먼저 라우팅되는 합니다. 경우에 따라 전혀 MX 레코드를으로 EOP를 나열 하 고 전자 메일을 라우팅하는 커넥터를 간단 하 게 연결할 아니더라도 될 수 있습니다. EOP 해야할 필요가 DMARC 유효성 검사에 대 한 첫번째 항목을 사용할 필요가 없습니다. 방금 모든 온-프레미스/비-o 365 서버 DMARC 검사는 특정 수 없습니다는 유효성 검사를 보장 합니다.  DMARC는 고객의 도메인 (서버가 아님)에 대 한 적용 하 여이 가능한 경우 DMARC TXT 레코드를 설정 하지만 실제로 적용을 수행 하는 받는 서버 달려있습니다.  받는 서버와 EOP를 설정 하는 경우 EOP DMARC 적용을 수행 합니다.
+전체 또는 대부분의 전자 메일은 기본 MX 이기 때문에 먼저 mail.contoso.com로 라우팅되고, 메일은 EOP로 라우팅됩니다. 어떤 경우에는 EOP를 MX 레코드로 나열 하지 않고 단순히 커넥터를 연결 하 여 전자 메일을 라우팅하도록 할 수도 있습니다. EOP는 DMARC 유효성 검사를 수행 하기 위해 첫 번째 항목 일 필요는 없습니다. 모든 온-프레미스/비 O365 서버가 DMARC 검사를 수행 하는 것은 확실 하지 않으므로 유효성 검사를 확인 하기만 하면 됩니다.  DMARC는 DMARC TXT 레코드를 설정할 때 고객의 도메인 (서버 아님)에 적용할 수 있지만 실제로 적용을 수행 하기 위해 받는 서버로 작동 합니다.  EOP을 받는 서버로 설정 하는 경우 EOP는 DMARC 적용을 수행 합니다.
   
 ## <a name="for-more-information"></a>자세한 내용
 <a name="sectionSection8"> </a>
 
-DMARC 하는 방법에 대 한 자세한 내용은 지 여부 이러한 리소스 수 있습니다.
+DMARC에 대 한 자세한 정보를 원하십니까? 이러한 리소스를 통해 도움이 될 수 있습니다.
   
-- [스팸 방지 메시지 헤더](anti-spam-message-headers.md) DMARC 확인을 위한 Office 365에서 사용 되는 구문과 헤더 필드를 포함 합니다. 
+- [스팸 방지 메시지 헤더](anti-spam-message-headers.md) 에는 DMARC 검사를 위해 Office 365에서 사용 하는 구문 및 헤더 필드가 포함 되어 있습니다. 
     
-- M <sup>3</sup>AAWG (메시징, 맬웨어, 모바일 방지 오용 작업 그룹)에서 [DMARC 교육 시리즈](https://www.m3aawg.org/activities/training/dmarc-training-series) 를 수행 합니다.
+- M <sup>3</sup>aawg (메시징, 맬웨어, 모바일 남용 작업 그룹)에서 [DMARC 교육 시리즈](https://www.m3aawg.org/activities/training/dmarc-training-series) 를 이용 합니다.
     
-- [Dmarcian](https://space.dmarcian.com/deployment/)에서 검사 목록을 사용 합니다.
+- [dmarcian](https://space.dmarcian.com/deployment/)에서 검사 목록을 사용 합니다.
     
-- [DMARC.org](https://dmarc.org)에서 원본에 직접 이동 합니다.
+- [DMARC.org](https://dmarc.org)에서 원본으로 직접 이동 합니다.
     
 ## <a name="see-also"></a>참고 항목
 <a name="sectionSection8"> </a>
 
-[Office 365 스푸핑 방지 하기 위해 보낸 사람이 정책 프레임 워크 (SPF)을 사용 하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)
+[Office 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)
   
 [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
   
-[DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면](use-dkim-to-validate-outbound-email.md)
+[dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
 

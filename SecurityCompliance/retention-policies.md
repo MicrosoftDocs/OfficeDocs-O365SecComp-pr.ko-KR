@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/16/2018
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid:
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: e76ec96b83dd5870416d864cf9f3b0b5f43cb9b2
-ms.sourcegitcommit: 942726b33ba67f2b89b5c593ccd534af6715c8b9
+ms.openlocfilehash: 26f28b1e4ce0b8bce69d135bf54332585bdf9745
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30202759"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214278"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 

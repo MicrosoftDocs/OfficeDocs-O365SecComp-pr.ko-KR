@@ -15,12 +15,12 @@ ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
 description: EOP 고객의 기본 스팸 방지 작업은 스팸 메시지를 받는 사람의 정크 메일 폴더로 이동 하는 것입니다. 온-프레미스 사서함에서이 작업을 수행 하려면 EOP에서 추가한 스팸 헤더를 검색 하도록 온-프레미스에 지 또는 허브 서버에서 Exchange 전송 규칙을 구성 해야 합니다. 이러한 전송 규칙은 각 사서함의 정크 메일 폴더로 스팸을 이동 하도록 set-organizationconfig cmdlet의 SclJunkThreshold 속성에서 사용 하는 SCL (스팸 지 수)을 설정 합니다.
-ms.openlocfilehash: d0ae9637ce95a1a8f0d4d241b3aef928c84ba3fa
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f712e66934956bcf46215e4016501003ce9b1725
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221028"
+ms.locfileid: "30222887"
 ---
 # <a name="ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인
 

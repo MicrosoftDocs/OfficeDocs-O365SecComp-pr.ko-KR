@@ -10,29 +10,29 @@ ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: eb14f38b-7b55-4a47-84a0-4a56a59e4111
-description: 다음 Microsoft 데이터 센터 IP 주소를 선택 하 여 Microsoft Online 보호 EOP (Exchange) 전자 메일을 보낼 때 전자 메일을 수신 또는 Exchange Online Protection 포털 및 관리 서비스에 대 한 사용 됩니다. 보내기 및 EOP에서 메시지를 받을 또는 관리 서비스를 사용 하 여, 네트워크에 있는지 확인 하기 위해 이러한 IP 주소에서 연결을 허용 합니다.
-ms.openlocfilehash: 5ea1a3df2ba1ea6853e2e44983fa7a97877c0778
-ms.sourcegitcommit: 031781d0eecf33baabcd03ea53546d41076062b4
+description: 다음 microsoft 데이터 센터 IP 주소는 전자 메일을 보내거나, 전자 메일을 받거나, exchange online protection 포털 및 관리 서비스를 위해 EOP (microsoft Exchange Online protection)에서 사용 됩니다. EOP에서 메시지를 주고받을 수 있도록 하거나 관리 서비스를 사용 하려면 네트워크에서 이러한 IP 주소 로부터의 연결을 허용 하는지 확인 합니다.
+ms.openlocfilehash: 6c7d8c78a012be3928317eac1e9b6fcdeab64a24
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240511"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30222827"
 ---
 # <a name="exchange-online-protection-ip-addresses"></a>Exchange Online Protection IP 주소
 
-다음 Microsoft 데이터 센터 IP 주소를 선택 하 여 Microsoft Online 보호 EOP (Exchange) 전자 메일을 보낼 때 전자 메일을 수신 또는 Exchange Online Protection 포털 및 관리 서비스에 대 한 사용 됩니다. 보내기 및 EOP에서 메시지를 받을 또는 관리 서비스를 사용 하 여, 네트워크에 있는지 확인 하기 위해 이러한 IP 주소에서 연결을 허용 합니다.
+다음 microsoft 데이터 센터 IP 주소는 전자 메일을 보내거나, 전자 메일을 받거나, exchange online protection 포털 및 관리 서비스를 위해 EOP (microsoft Exchange Online protection)에서 사용 됩니다. EOP에서 메시지를 주고받을 수 있도록 하거나 관리 서비스를 사용 하려면 네트워크에서 이러한 IP 주소 로부터의 연결을 허용 하는지 확인 합니다.
  
 > [!NOTE]
-> Microsoft는 IP 주소와 FQDN 항목을이 페이지에 대 한 REST 기반 웹 서비스를 개발 했습니다. 이 새로운 서비스를 사용 하 여 구성 하 고 네트워크 경계 장치 예: 방화벽 및 프록시 서버를 업데이트할 수 있습니다. 끝점, 목록 또는 특정 변경의 현재 버전의 목록을 다운로드할 수 있습니다. 이 서비스는 XML 문서, RSS 피드, IP 주소 및 FQDN이이 페이지에 항목을 대체 합니다. 이 새로운 서비스를 실행 하려면 [Office 365 IP 주소 및 URL 웹 서비스로](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)이동 합니다. 
+> Microsoft는이 페이지에서 IP 주소 및 FQDN 항목에 대해 REST 기반 웹 서비스를 개발 했습니다. 이 새 서비스는 방화벽 및 프록시 서버와 같은 네트워크 경계 장치를 구성 하 고 업데이트 하는 데 도움이 됩니다. 끝점 목록, 현재 버전의 목록 또는 특정 변경 내용을 다운로드할 수 있습니다. 이 서비스는이 페이지의 XML 문서, RSS 피드 및 IP 주소와 FQDN 항목을 대체 합니다. 이 새 서비스를 사용해 보려면 [Office 365 IP 주소 및 URL 웹 서비스로](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)이동 합니다. 
  
 ## <a name="eop-ip-address-ranges"></a>EOP IP 주소 범위
 
 ||||
 |:-----|:-----|:-----|
 |**IPv4 주소 범위** <br/> |**IPv6 주소 범위** <br/> |
-| 23.103.132.0/22 | 2a01:111:f400:7 c 00:: 54 / |
-| 23.103.136.0/21 | 2a01:111:f400:fc00:: 54 / |
-| 23.103.144.0/20 | 2a01:111:f403:: 48 / |
+| 23.103.132.0/22 | 2a01:111: f400:7c00:/54 |
+| 23.103.136.0/21 | 2a01:111: f400::/54 |
+| 23.103.144.0/20 | 2a01:111: f403:/48 |
 | 23.103.198.0/23 |  |
 | 23.103.200.0/22 |  |
 | 40.92.0.0/14 |  |
@@ -54,7 +54,7 @@ ms.locfileid: "27240511"
 ||||
  
 > [!IMPORTANT]
-> 여기에 제공 된 IP 주소 범위는 고객 커넥터를 통해 릴레이에 사용 됩니다. IP 주소 목록 변경 내용을 드문, 되며 사전에 전달 됩니다. 서비스의 게시 된 IP 주소를 통해 연결 되는 온-프레미스 환경 경로 또는 스마트 호스트를 사용 하는, 비즈니스 파트너를 보내는 메시지를 구성 해야 각 대상으로 라우팅에 대 한 올바른 커넥터를 확인 합니다. 커넥터에 대 한 자세한 내용은 [결정 하는 사용 하도록 커넥터](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)를 참조 합니다.이 항목의 IP 주소 수 시간이 지남에 따라 변경 합니다.  
+> 여기에 제공 된 IP 주소 범위는 고객 커넥터를 통한 릴레이에만 사용 됩니다. IP 주소 목록이 변경 되는 경우는 드물지만, 사전에 전달 됩니다. 비즈니스 파트너에 게 보내는 메시지, 스마트 호스트 또는 온-프레미스 환경에서 서비스의 게시 된 IP 주소 범위를 통과 하도록 하려면 각 대상으로 라우팅하도록 올바른 커넥터를 구성 해야 합니다. 커넥터에 대 한 자세한 내용은 [사용할 커넥터 결정](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)을 참조 하세요 .이 항목의 IP 주소는 시간이 지남에 따라 변경 될 수 있습니다.  
  
 Microsoft Office 365에서 사용하는 IP 주소에 대한 자세한 내용은 [Office 365 URL 및 IP 주소 범위](https://go.microsoft.com/fwlink/p/?LinkId=324165)를 참조하세요.
 

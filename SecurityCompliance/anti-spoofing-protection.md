@@ -1,9 +1,26 @@
 ---
-제목: "스푸핑 방지 보호 Office 365" krowley author: kccross manager: laurawi ms. 날짜: 12/06/2018. 대상: it 전문. 항목: 문서 ms. 서비스: O365-seccomp localization_priority: 정상 검색. appverid:
-- MET150 assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0. 컬렉션:
-    - M365-보안 준수 설명: "이 문서에서는 위조 된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용 하는 피싱 공격을 Office 365에서 완화 하는 방법을 설명 합니다. 이를 위해 메시지를 분석 하 고 표준 전자 메일 인증 방법 및 기타 보낸 사람 신뢰도 기법을 사용 하 여 neithe 인증을 받을 수 있는 항목을 차단 합니다. 이 변경 사항은 Office 365에서 조직이 노출 되는 피싱 공격 수를 줄이기 위해 구현 되 고 있습니다. "
+title: Office 365의 스푸핑 방지 보호 기능
+ms.author: krowley
+author: kccross
+manager: laurawi
+ms.date: 12/06/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+search.appverid:
+- MET150
+ms.assetid: d24bb387-c65d-486e-93e7-06a4f1a436c0
+ms.collection:
+- M365-security-compliance
+description: 이 문서에서는 Office 365에서 위조 된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용 하는 피싱 공격을 완화 하는 방법을 설명 합니다. 이를 위해 메시지를 분석 하 고 표준 전자 메일 인증 방법 및 기타 보낸 사람 신뢰도 기법을 사용 하 여 neithe 인증을 받을 수 있는 항목을 차단 합니다. 이 변경 사항은 Office 365에서 조직이 노출 되는 피싱 공격 수를 줄이기 위해 구현 되 고 있습니다.
+ms.openlocfilehash: 041d2ee2cbad1c051c0ca4724d42b189215f0e82
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223877"
 ---
-
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
 이 문서에서는 Office 365에서 위조 된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용 하는 피싱 공격을 완화 하는 방법을 설명 합니다. 이를 위해 메시지를 분석 하 고 표준 전자 메일 인증 방법 및 기타 보낸 사람 신뢰도 기법을 사용 하 여 인증할 수 없는 항목을 차단 합니다. 고객에 게 노출 되는 피싱 공격 수를 줄이기 위해이 변경 내용이 구현 됩니다.

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색 합니다. '
-ms.openlocfilehash: 82e8d2338fe003f2c37cd99994d8f71db2716da8
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 31db6f7b56e1866064e7a008ce4fd704b5333347
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219288"
+ms.locfileid: "30223737"
 ---
 # <a name="run-a-content-search-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 실행
 

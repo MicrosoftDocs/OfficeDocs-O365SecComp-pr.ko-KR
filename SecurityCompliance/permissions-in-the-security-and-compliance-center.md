@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d10608af-7934-490a-818e-e68f17d0e9c1
 description: Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이터 손실 방지, eDiscovery, 보존 등의 규정 준수 작업을 수행 하는 사용자에 게 사용 권한을 부여할 수 있습니다. 이러한 사용자는 자신에 게 명시적으로 액세스 권한을 부여 하는 작업만 수행할 수 있습니다. 보안 &amp; 및 준수 센터에 액세스 하려면 사용자가 Office 365 전역 관리자 이거나 하나 이상의 보안 &amp; 준수 센터 역할 그룹의 구성원 이어야 합니다.
-ms.openlocfilehash: cee6bc64b971ef99343d35df74415e80c087321e
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 3ff5583a0a4f9dcabcc1b7d676593b7c6eb0bbba
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214918"
+ms.locfileid: "30223507"
 ---
 # <a name="permissions-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 사용 권한
 

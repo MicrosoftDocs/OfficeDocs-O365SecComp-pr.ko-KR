@@ -3,7 +3,6 @@ title: Office 365의 사용자 지정 도메인에서 dkim을 사용 하 여 전
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 description: 요약:이 문서에서는 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하도록 하기 위해 Office 365에서 domainkeys 식별 메일 (dkim)을 사용 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: a076e70b72711d1b812ffb0d30fba0ffb322d6b7
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: fb848035894f7ac5e3d843a02fb3a1753f9d222d
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29954261"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30223047"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사
 

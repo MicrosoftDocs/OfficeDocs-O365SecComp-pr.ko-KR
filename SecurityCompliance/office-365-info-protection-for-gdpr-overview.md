@@ -10,19 +10,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - GDPR
-ms.service: o365-solutions
+ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: ''
-ms.assetid: ''
 description: GDPR에 대한 Office 365 정보 보호 개요를 확인합니다. 개인 데이터를 검색, 분류, 보호 및 모니터링하는 방법을 알아봅니다.
-ms.openlocfilehash: cdd3dc2d8f2053f0005ee490057c65d8889f2d68
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 7070f719698f92acf7ad885340e59c496559063a
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272383"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30212708"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호 개요
 

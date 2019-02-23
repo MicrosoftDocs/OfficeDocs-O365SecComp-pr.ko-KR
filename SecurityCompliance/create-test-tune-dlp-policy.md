@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'DLP 정책을 시작 하는 가장 쉽고 일반적인 방법은 Office 365에 포함 된 서식 파일 중 하나를 사용 하는 것입니다. '
-ms.openlocfilehash: 58ff52e0fdcd1579985d05d06887d6aca2bb2940
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 14582a6507d271bc569aeb0c5456a662962d20a9
+ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220478"
+ms.locfileid: "30223747"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
-**주도자 작성자** </br>
-Paul Cunningham (Microsoft MVP) </br>
-[실질적인 365](https://practical365.com/) </br>
-[@Practical365](https://twitter.com/practical365)</br>
+**주도자 작성자** <br/>
+Paul Cunningham (Microsoft MVP) <br/>
+[실질적인 365](https://practical365.com/) <br/>
+[@Practical365](https://twitter.com/practical365)<br/>
 __________________________________________________
 
 데이터 손실 방지는 조직에서 원치 않는 사용자에 게 중요 한 정보를 고의적으로 또는 실수로 노출 하지 못하게 하는 데 도움이 되도록 설계 된 Office 365의 규정 준수 기능입니다. DLP는 exchange Server 및 exchange Online의 루트를 포함 하며 SharePoint online 및 비즈니스용 OneDrive 에서도 사용할 수 있습니다.

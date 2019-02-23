@@ -5,16 +5,15 @@ author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-ms.custom: ''
+ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 Exchange Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: c5a0fe45ad0d36f0caf30e04f481a11ea58241a5
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: 9f2b52e11d85838bc0f4a1cc6a0e0961cd69a32f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272333"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213967"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>Office Web Apps Server 및 Office Online Server GDPR
 
