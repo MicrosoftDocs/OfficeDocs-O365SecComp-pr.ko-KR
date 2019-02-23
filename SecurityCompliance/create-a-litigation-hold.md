@@ -1,63 +1,63 @@
 ---
-title: Office 365의에서 소송 보존 만들기
+title: Office 365에서 소송 보존 만들기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 3/13/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-ms.openlocfilehash: aa78d12046108aa1f1b974f01c02ff923b99b97b
-ms.sourcegitcommit: 7956955cd919f6e00b64e4506605a743c5872549
+ms.openlocfilehash: f2d3793eac84e8f80158842c833c30986b0549c5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25037961"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218658"
 ---
-# <a name="create-a-litigation-hold-in-office-365"></a><span data-ttu-id="9b606-102">Office 365의에서 소송 보존 만들기</span><span class="sxs-lookup"><span data-stu-id="9b606-102">Create a Litigation Hold in Office 365</span></span>
+# <a name="create-a-litigation-hold-in-office-365"></a><span data-ttu-id="329a4-102">Office 365에서 소송 보존 만들기</span><span class="sxs-lookup"><span data-stu-id="329a4-102">Create a Litigation Hold in Office 365</span></span>
 
-<span data-ttu-id="9b606-p101">삭제 된 항목 및 수정 된 항목의 원래 버전을 포함 하 여 모든 사서함 콘텐츠를 유지 하려면 소송 보존으로 설정에서 사서함을 배치할 수 있습니다. 소송 보존으로 설정에서 사용자 사서함을 할 때 사용자의 보관 사서함의 콘텐츠 (활성화 되어 있음) 하는 경우도 그대로 유지 됩니다. 보류를 만들 때는 하 여 삭제 보류 기간 ( *시간 기반 보존*라고도 함)을 지정할 수 및 수정 된 항목은 지정된 된 기간 동안 보존 사서함에서 영구적으로 삭제 합니다. 또는 콘텐츠를 무기한 보존 방금 수 ( *무한 대기*는 라고 함) 되거나 제거 되는 소송 보존으로 설정 합니다. 보류 기간 동안 지정 수행, 메시지를 받은 또는 사서함 항목을 만들 날짜부터 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-p101">You can place a mailbox on Litigation Hold to retain all mailbox content, including deleted items and the original versions of modified items. When you place a user mailbox on Litigation Hold, content in the user's archive mailbox (if it's enabled) is also retained. When you create a hold, you can specify a hold duration (also called a *time-based hold*) so that deleted and modified items are retained for a specified period and then permanently deleted from the mailbox. Or you can just retain content indefinitely (called an *infinite hold*) or until the Litigation Hold is removed. If you do specify a hold duration period, it's calculated from the date a message is received or a mailbox item is created.</span></span> 
+<span data-ttu-id="329a4-p101">사서함에 대 한 소송 보존을 적용 하 여 삭제 된 항목을 비롯 한 모든 사서함 콘텐츠를 보존할 수 있습니다. 사용자 사서함에 소송 보존을 적용 하면 사용자의 보관 사서함에 있는 콘텐츠 (사용 하도록 설정 된 경우)도 유지 됩니다. 보류를 만들 때 삭제 및 수정 된 항목을 지정한 기간 동안 보존 하 고 사서함에서 영구적으로 삭제할 수 있도록 보존 기간 ( *시간 기반 보존*이 라고도 함)을 지정할 수도 있습니다. 또는 콘텐츠를 무기한 보존 ( *무기한 보류*라고 함) 하거나 소송 보존을 제거할 때까지 가능 합니다. 보존 기간을 지정 하는 경우에는 메시지가 수신 되거나 사서함 항목이 만들어진 날짜를 통해 계산 됩니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-p101">You can place a mailbox on Litigation Hold to retain all mailbox content, including deleted items and the original versions of modified items. When you place a user mailbox on Litigation Hold, content in the user's archive mailbox (if it's enabled) is also retained. When you create a hold, you can specify a hold duration (also called a *time-based hold*) so that deleted and modified items are retained for a specified period and then permanently deleted from the mailbox. Or you can just retain content indefinitely (called an *infinite hold*) or until the Litigation Hold is removed. If you do specify a hold duration period, it's calculated from the date a message is received or a mailbox item is created.</span></span> 
   
-<span data-ttu-id="9b606-108">소송 보존을 만들 때 수행 되는 작업 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-108">Here's what happens when you create a Litigation Hold.</span></span>
+<span data-ttu-id="329a4-108">소송 보존을 만들 때 수행 되는 작업은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-108">Here's what happens when you create a Litigation Hold.</span></span>
   
-- <span data-ttu-id="9b606-109">사용자가 영구적으로 삭제 된 항목 보존 기간에 대 한 사용자의 사서함에서 복구 가능한 항목 폴더에 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-109">Items that are permanently deleted by the user are retained in the Recoverable Items folder in the user's mailbox for the duration of the hold.</span></span>
+- <span data-ttu-id="329a4-109">사용자가 영구적으로 삭제 한 항목은 보류 기간 동안 사용자의 사서함에 있는 복구할 수 있는 항목 폴더에 보관 됩니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-109">Items that are permanently deleted by the user are retained in the Recoverable Items folder in the user's mailbox for the duration of the hold.</span></span>
     
-- <span data-ttu-id="9b606-110">사용자가 복구 가능한 항목 폴더에서 삭제 된 항목 보존 기간 동안 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-110">Items that are purged from the Recoverable Items folder by the user are retained for the duration of the hold.</span></span>
+- <span data-ttu-id="329a4-110">사용자가 복구 가능한 항목 폴더에서 제거 된 항목은 보류 기간 동안 보존 됩니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-110">Items that are purged from the Recoverable Items folder by the user are retained for the duration of the hold.</span></span>
     
-- <span data-ttu-id="9b606-111">복구 가능한 항목 폴더에 대 한 저장소 할당량은 30GB에서 110 g B로 증가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-111">The storage quota for the Recoverable Items folder is increased from 30 GB to 110 GB.</span></span>
+- <span data-ttu-id="329a4-111">복구 가능한 항목 폴더의 저장소 할당량은 30gb에서 110 GB로 증가 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-111">The storage quota for the Recoverable Items folder is increased from 30 GB to 110 GB.</span></span>
     
-- <span data-ttu-id="9b606-112">사용자의 기본 및 보관 사서함에 대 한 항목의 보존</span><span class="sxs-lookup"><span data-stu-id="9b606-112">Items in the user's primary and the archive mailboxes are retained</span></span>
+- <span data-ttu-id="329a4-112">사용자의 기본 및 보관 사서함에 있는 항목은 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-112">Items in the user's primary and the archive mailboxes are retained</span></span>
     
-## <a name="before-you-begin"></a><span data-ttu-id="9b606-113">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="9b606-113">Before you begin</span></span>
+## <a name="before-you-begin"></a><span data-ttu-id="329a4-113">시작하기 전에</span><span class="sxs-lookup"><span data-stu-id="329a4-113">Before you begin</span></span>
 
-- <span data-ttu-id="9b606-p102">Exchange Online 사서함에 소송 보존 하려면, Exchange Online 계획 2 라이선스를 할당 해야 합니다. 사서함이 Exchange Online 계획 1 라이선스에 할당 하는 경우에 보류에 추가 하는 별도 Exchange Online 보관 라이선스가 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-p102">To place an Exchange Online mailbox on Litigation Hold, it must be assigned an Exchange Online Plan 2 license. If a mailbox is assigned an Exchange Online Plan 1 license, you would have to assign it a separate Exchange Online Archiving license to place it on hold.</span></span>
+- <span data-ttu-id="329a4-p102">exchange online 사서함에 소송 보존을 적용 하려면 exchange online 계획 2 라이선스를 할당 받아야 합니다. 사서함에 Exchange online 계획 1 라이선스가 할당 되는 경우이를 보류 상태로 설정 하려면 별도의 exchange online 보관 라이선스를 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-p102">To place an Exchange Online mailbox on Litigation Hold, it must be assigned an Exchange Online Plan 2 license. If a mailbox is assigned an Exchange Online Plan 1 license, you would have to assign it a separate Exchange Online Archiving license to place it on hold.</span></span>
     
 
-## <a name="place-a-mailbox-on-litigation-hold-in-the-office-365-admin-center"></a><span data-ttu-id="9b606-116">전체 사서함에 소송 보존으로 Office 365 관리 센터에서 설정</span><span class="sxs-lookup"><span data-stu-id="9b606-116">Place a mailbox on Litigation Hold in the Office 365 admin center</span></span>
+## <a name="place-a-mailbox-on-litigation-hold-in-the-office-365-admin-center"></a><span data-ttu-id="329a4-116">Office 365 관리 센터에서 사서함에 소송 보존 설정</span><span class="sxs-lookup"><span data-stu-id="329a4-116">Place a mailbox on Litigation Hold in the Office 365 admin center</span></span>
 
-<span data-ttu-id="9b606-117">Office 365 관리 센터를 사용 하 여 소송 보존으로 설정에 트리거하를 배치 하는 단계는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-117">Here are the steps to place a maibox on Litigation Hold using the Office 365 admin center.</span></span>
+<span data-ttu-id="329a4-117">다음은 Office 365 관리 센터를 사용 하 여 maibox에 소송 보존을 적용 하는 단계입니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-117">Here are the steps to place a maibox on Litigation Hold using the Office 365 admin center.</span></span>
 
-1. <span data-ttu-id="9b606-118">이동 https://portal.office.com/adminportal/home 및 전역 관리자 계정을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-118">Go to https://portal.office.com/adminportal/home and sign in using your global administrator account.</span></span>
-2. <span data-ttu-id="9b606-119">**사용자가**를 클릭 > 왼쪽된 탐색 창의**현재 사용자** 입니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-119">Click **Users** > **Active users** in the left navigation pane.</span></span>
-3. <span data-ttu-id="9b606-120">사용자 사서함을 소송 보존에 배치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-120">Select the user whose mailbox you want to place on Litigation Hold.</span></span>
-4. <span data-ttu-id="9b606-121">플라이 아웃 페이지에서 **메일 설정**을 클릭 하 고 **소송 보존으로 설정**옆에 있는 **편집** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-121">On the fly-out page, click **Mail settings**, and then click **Edit** next to **Litigation hold**.</span></span>
-5. <span data-ttu-id="9b606-122">**소송 보존으로 설정** 페이지에서 설정 소송 보존으로 설정 하 고 표시 되는 다음과 같은 옵션 설정을 완료 표시/숨기기를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-122">On the **Litigation hold** page, click the toggle to turn on Litigation Hold and complete the following optional settings that are displayed:</span></span>
+1. <span data-ttu-id="329a4-118">로 이동 https://portal.office.com/adminportal/home 하 고 전역 관리자 계정을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-118">Go to https://portal.office.com/adminportal/home and sign in using your global administrator account.</span></span>
+2. <span data-ttu-id="329a4-119">왼쪽 탐색 창에서 **사용자** > **활성 사용자** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-119">Click **Users** > **Active users** in the left navigation pane.</span></span>
+3. <span data-ttu-id="329a4-120">사서함에 소송 보존을 적용 하려는 사용자를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-120">Select the user whose mailbox you want to place on Litigation Hold.</span></span>
+4. <span data-ttu-id="329a4-121">플라이 아웃 페이지에서 **메일 설정을**클릭 한 다음 **소송 보존**옆의 **편집** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-121">On the fly-out page, click **Mail settings**, and then click **Edit** next to **Litigation hold**.</span></span>
+5. <span data-ttu-id="329a4-122">**소송 보존** 페이지에서 설정/해제를 클릭 하 여 소송 보존을 설정 하 고 표시 되는 다음 선택적 설정을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-122">On the **Litigation hold** page, click the toggle to turn on Litigation Hold and complete the following optional settings that are displayed:</span></span>
  
-    ![O365_LitigationHold1.png](media/O365-LitigationHold1.png)
+    ![O365_LitigationHold1-.png](media/O365-LitigationHold1.png)
 
-    <span data-ttu-id="9b606-p103">a. **보존 기간 (일)** -이 상자를 사용 하 여 시간 기반 보존을 만들고 사서함이 소송 보존으로 설정 중일 때 사서함 항목이 보관 되는 기간을 지정 합니다. 사서함 항목을 받거나 만든 날짜에서 기간 계산 됩니다. 이 상자를 비워두면 하는 경우 항목은 무기한 또는 보존이 제거 될 때까지 보관 됩니다. 기간을 지정 하려면 날짜를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-p103">a. **Hold duration (days)** - Use this box to create a time-based hold and specify how long mailbox items are held when the mailbox is placed on Litigation Hold. The duration is calculated from the date a mailbox item is received or created. If you leave this box blank, items are held indefinitely or until the hold is removed. Use days to specify the duration.</span></span>
+    <span data-ttu-id="329a4-p103">a: **보존 기간 (일)** -이 상자를 사용 하 여 시간 기반 보존을 만들고 사서함이 소송 보존 상태에 있을 때 사서함 항목이 보관 되는 기간을 지정 합니다. 기간은 사서함 항목을 받거나 만든 날짜 로부터 계산 됩니다. 이 상자를 비워 두면 항목이 무기한으로 또는 보존이 제거 될 때까지 유지 됩니다. 기간을 지정 하려면 days를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-p103">a. **Hold duration (days)** - Use this box to create a time-based hold and specify how long mailbox items are held when the mailbox is placed on Litigation Hold. The duration is calculated from the date a mailbox item is received or created. If you leave this box blank, items are held indefinitely or until the hold is removed. Use days to specify the duration.</span></span>
     
-    <span data-ttu-id="9b606-p104">b. **메모** -이 상자를 사용 하 여 자신의 사서함이 소송 보존으로 설정 하는 사용자에 게 알리기를 합니다. Outlook 2010 이상 사용 하 여 하는 경우 사용자의 사서함에서 계정 정보 페이지에 메모가 표시 됩니다. 이 페이지에 액세스 하려면 사용자가 Outlook에서 **파일** 클릭 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-p104">b. **Note** - Use this box to inform the user their mailbox is on Litigation Hold. The note will appear on the Account Information page in the user's mailbox if they're using Outlook 2010 or later. To access this page, users can click **File** in Outlook.</span></span>
+    <span data-ttu-id="329a4-p104">b. **참고** -이 상자를 사용 하 여 사용자의 사서함이 소송 보존 상태에 있음을 알립니다. 메모는 Outlook 2010 이상 버전을 사용 중인 경우 사용자 사서함의 계정 정보 페이지에 표시 됩니다. 사용자는이 페이지에 액세스 하 여 Outlook에서 **파일** 을 클릭할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-p104">b. **Note** - Use this box to inform the user their mailbox is on Litigation Hold. The note will appear on the Account Information page in the user's mailbox if they're using Outlook 2010 or later. To access this page, users can click **File** in Outlook.</span></span>
      
-    <span data-ttu-id="9b606-p105">이 상자를 사용 하 여 소송 보존으로 설정 하는 방법에 대 한 자세한 내용은 웹사이트에 사용자를 리디렉션하는 c. **웹 페이지** . Outlook 2010 이상를 사용 하는 경우이 URL이 사용자의 사서함에서 계정 정보 페이지에 나타납니다. 이 페이지에 액세스 하려면 사용자가 Outlook에서 **파일** 클릭 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-p105">c. **Web page** - Use this box to direct the user to a website for more information about Litigation Hold. This URL appears on the Account Information page in the user's mailbox if they are using Outlook 2010 or later. To access this page, users can click **File** in Outlook.</span></span>
+    <span data-ttu-id="329a4-p105">c. **웹 페이지** -소송 보존에 대 한 자세한 내용은이 상자를 사용 하 여 웹 사이트를 사용자에 게 안내 합니다. 이 URL은 사용자 사서함의 계정 정보 페이지에서 Outlook 2010 이상 버전을 사용 하는 경우에 표시 됩니다. 사용자는이 페이지에 액세스 하 여 Outlook에서 **파일** 을 클릭할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-p105">c. **Web page** - Use this box to direct the user to a website for more information about Litigation Hold. This URL appears on the Account Information page in the user's mailbox if they are using Outlook 2010 or later. To access this page, users can click **File** in Outlook.</span></span>
  
-6. <span data-ttu-id="9b606-137">소송 보존 만들려는 **저장** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-137">Click **Save** to create the Litigation Hold.</span></span>
+6. <span data-ttu-id="329a4-137">**저장** 을 클릭 하 여 소송 보존을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-137">Click **Save** to create the Litigation Hold.</span></span>
 
-<span data-ttu-id="9b606-138">보류를 만든 후 플라이 아웃 페이지에서 메일 설정 소송 보존으로 설정 켜져 있는지 선택한 사용자를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="9b606-138">After you create the hold, the mail settings on the fly-out page shows that Litigation Hold is turned on for the selected user.</span></span>
+<span data-ttu-id="329a4-138">보류를 만든 후에는 플라이 아웃 페이지의 메일 설정에 선택한 사용자에 대 한 소송 보류가 설정 된 것으로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="329a4-138">After you create the hold, the mail settings on the fly-out page shows that Litigation Hold is turned on for the selected user.</span></span>
 
-![O365_LitigationHold2.png](media/O365-LitigationHold2.png)
+![O365_LitigationHold2-.png](media/O365-LitigationHold2.png)
 
-<span data-ttu-id="9b606-140">만들기 (영문) 및 소송 보존을 포함 하 고 관리 하 고 Exchange Online PowerShell을 사용 하 여 대량 만들기 소송 보유 하는 방법에 대 한 자세한 내용은 [전체 사서함에 소송 보존으로 설정](https://docs.microsoft.com/office365/SecurityCompliance/place-a-mailbox-on-litigation-hold)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9b606-140">For more information about creating and managing Litigation Holds and using Exchange Online PowerShell to bulk-create Litigation Holds, see [Place a mailbox on Litigation Hold](https://docs.microsoft.com/office365/SecurityCompliance/place-a-mailbox-on-litigation-hold).</span></span>
+<span data-ttu-id="329a4-140">소송 보존을 만들고 관리 하는 방법과 Exchange Online PowerShell을 사용 하 여 소송 보존을 대량으로 만드는 방법에 대 한 자세한 내용은 [사서함에 소송 보존](https://docs.microsoft.com/office365/SecurityCompliance/place-a-mailbox-on-litigation-hold)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="329a4-140">For more information about creating and managing Litigation Holds and using Exchange Online PowerShell to bulk-create Litigation Holds, see [Place a mailbox on Litigation Hold](https://docs.microsoft.com/office365/SecurityCompliance/place-a-mailbox-on-litigation-hold).</span></span>
