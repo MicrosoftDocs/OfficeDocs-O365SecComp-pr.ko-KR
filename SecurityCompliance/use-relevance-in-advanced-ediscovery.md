@@ -6,141 +6,141 @@ manager: laurawi
 ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
-description: '워크플로 및 지침 및 교육 및 파일 검토를 위해 단계를 포함 하 여 Office 365 고급 eDiscovery의 관련성 모듈에 알아봅니다.  '
-ms.openlocfilehash: 2cf75ef95291c5393367ce01fb0cd660f9b99145
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 포함 하 여 Office 365 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
+ms.openlocfilehash: ad44066c8b00bccacf1f4fe2088aa84096c4db84
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533259"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217458"
 ---
-# <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a><span data-ttu-id="2a6ee-103">Office 365 Advanced eDiscovery에서 관련성 모듈 사용</span><span class="sxs-lookup"><span data-stu-id="2a6ee-103">Use the Relevance module in Office 365 Advanced eDiscovery</span></span>
+# <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a><span data-ttu-id="61493-103">Office 365 Advanced eDiscovery에서 관련성 모듈 사용</span><span class="sxs-lookup"><span data-stu-id="61493-103">Use the Relevance module in Office 365 Advanced eDiscovery</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2a6ee-p101">고급 eDiscovery 조직에 대 한 고급 준수 추가 기능 또는 e 5 구독은 Office 365 E3 필요합니다. 해당 요금제에 가입한 상태 고급 eDiscovery 시도 하려는 하지 경우에 [Office 365 Enterprise e 5의 평가판 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
+> <span data-ttu-id="61493-p101">Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
   
-<span data-ttu-id="2a6ee-p102">고급 eDiscovery 관련성 모듈 관련성 교육 및 사례와 관련 된 파일의 검토를 포함 합니다. 관련성 워크플로 표시 된 이며 설명은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p102">In Advanced eDiscovery, the Relevance module includes the Relevance training and review of files related to a case. The Relevance workflow is shown and described as follows:</span></span>
+<span data-ttu-id="61493-p102">고급 eDiscovery에서 관련성 모듈에는 사례와 관련 된 파일의 관련성 교육과 검토가 포함 됩니다. 관련성 워크플로는 다음과 같이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p102">In Advanced eDiscovery, the Relevance module includes the Relevance training and review of files related to a case. The Relevance workflow is shown and described as follows:</span></span>
   
 ![관련성 워크플로](media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
-- <span data-ttu-id="2a6ee-109">**주기 평가 및 추적**합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-109">**Cycles of assessment and tracking**:</span></span>
+- <span data-ttu-id="61493-109">**평가 및 추적 주기**:</span><span class="sxs-lookup"><span data-stu-id="61493-109">**Cycles of assessment and tracking**:</span></span>
     
-  - <span data-ttu-id="2a6ee-110">**평가**: 고급 eDiscovery 파일의 임의 표본을 기반으로 초기 평가 사용 하도록 설정 하 고이 평가 사용 하 여 예측 코딩 프로세스의 성능을 확인 하는 결정을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-110">**Assessment**: Advanced eDiscovery enables early assessment based on a random sample of files and uses this assessment to apply decisions to determine the performance of the predictive coding process.</span></span> 
+  - <span data-ttu-id="61493-110">**평가**: 고급 eDiscovery에서는 파일의 무작위 샘플을 기반으로 초기 평가를 수행 하 고이 평가를 통해 예측 코딩 프로세스의 성능을 결정 하기 위한 결정을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-110">**Assessment**: Advanced eDiscovery enables early assessment based on a random sample of files and uses this assessment to apply decisions to determine the performance of the predictive coding process.</span></span> 
     
-  - <span data-ttu-id="2a6ee-111">**추적**: 고급 eDiscovery 계산 하 고 평가 하는 프로세스의 통계 유효성을 모니터링 하는 동안의 중간 결과 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-111">**Track**: Advanced eDiscovery calculates and displays interim results of the assessment while monitoring statistical validity of the process.</span></span> 
+  - <span data-ttu-id="61493-111">**트랙**: Advanced eDiscovery는 프로세스의 통계 유효성을 모니터링 하는 동안 평가의 중간 결과를 계산 하 고 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-111">**Track**: Advanced eDiscovery calculates and displays interim results of the assessment while monitoring statistical validity of the process.</span></span> 
     
-- <span data-ttu-id="2a6ee-112">**교육 및 추적 주기**:</span><span class="sxs-lookup"><span data-stu-id="2a6ee-112">**Cycles of training and tracking**:</span></span>
+- <span data-ttu-id="61493-112">**교육 주기 및 추적**:</span><span class="sxs-lookup"><span data-stu-id="61493-112">**Cycles of training and tracking**:</span></span>
     
-  - <span data-ttu-id="2a6ee-113">**태그**: 고급 eDiscovery가 관련성 기준 전문가 반복 검토에 따라 각 문제에 특정 및 개별 파일의 태그 지정이 습득 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-113">**Tag**: Advanced eDiscovery learns Relevance criteria specific to each issue based on the expert's iterative review and tagging of individual files.</span></span>
+  - <span data-ttu-id="61493-113">**태그**: 고급 eDiscovery는 전문가의 반복적인 검토 및 개별 파일에 대 한 태그 지정에 따라 각 문제와 관련 된 관련성 기준을 학습 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-113">**Tag**: Advanced eDiscovery learns Relevance criteria specific to each issue based on the expert's iterative review and tagging of individual files.</span></span>
     
-  - <span data-ttu-id="2a6ee-114">**추적**: 고급 eDiscovery 계산 하 고 모니터링 하는 프로세스의 통계 유효성을 검사 하는 동안 관련성 교육의 중간 결과 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-114">**Track**: Advanced eDiscovery calculates and displays interim results of the Relevance training while monitoring statistical validity of the process.</span></span> 
+  - <span data-ttu-id="61493-114">**트랙**: Advanced eDiscovery는 프로세스의 통계 유효성을 모니터링 하는 동안 관련성 교육의 중간 결과를 계산 하 고 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-114">**Track**: Advanced eDiscovery calculates and displays interim results of the Relevance training while monitoring statistical validity of the process.</span></span> 
     
-- <span data-ttu-id="2a6ee-115">**일괄 처리 계산**: 고급 eDiscovery 누적 및 습득 관련성 조건을 가져와 전체 파일 컬렉션에 적용 하 고 각 파일에 대 한 관련성 점수를 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-115">**Batch calculation**: Advanced eDiscovery takes the accumulated and learned Relevance criteria, applies it to the entire file collection, and generates Relevance scores for each file.</span></span>
+- <span data-ttu-id="61493-115">**일괄 처리**: 고급 eDiscovery에서는 누적 되 고 배운 관련성 기준을 사용 하 여 전체 파일 컬렉션에 적용 하 고 각 파일에 대 한 관련성 점수를 생성 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-115">**Batch calculation**: Advanced eDiscovery takes the accumulated and learned Relevance criteria, applies it to the entire file collection, and generates Relevance scores for each file.</span></span>
     
-- <span data-ttu-id="2a6ee-116">**판단**: 고급 eDiscovery 일괄 처리 계산 후 전체 대/소문자에 적용 된 분석의 결과 표시 하는 및 문서 검토를 결정 하기 위한 데이터를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-116">**Decide**: Advanced eDiscovery displays the results of the analysis applied to the entire case after Batch calculation and displays data for making document review decisions.</span></span>
+- <span data-ttu-id="61493-116">의사 **결정**: 고급 eDiscovery는 일괄 계산 후에 전체 사례에 적용 된 분석 결과를 표시 하 고 문서 검토 결정을 위한 데이터를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-116">**Decide**: Advanced eDiscovery displays the results of the analysis applied to the entire case after Batch calculation and displays data for making document review decisions.</span></span>
     
-- <span data-ttu-id="2a6ee-117">**테스트**: 유효성 및 고급 eDiscovery 처리의 효과 확인 하려면 고급 eDiscovery 결과 테스트할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-117">**Test**: Advanced eDiscovery results can be tested to verify the validity and effectiveness of the Advanced eDiscovery processing.</span></span>
+- <span data-ttu-id="61493-117">**Test**: advanced ediscovery 결과를 테스트 하 여 advanced ediscovery 처리의 유효성 및 효율성을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-117">**Test**: Advanced eDiscovery results can be tested to verify the validity and effectiveness of the Advanced eDiscovery processing.</span></span>
     
-## <a name="guidelines-for-relevance-training-and-review"></a><span data-ttu-id="2a6ee-118">관련성 교육 및 검토에 대 한 지침</span><span class="sxs-lookup"><span data-stu-id="2a6ee-118">Guidelines for Relevance training and review</span></span>
+## <a name="guidelines-for-relevance-training-and-review"></a><span data-ttu-id="61493-118">관련성 교육 및 검토 지침</span><span class="sxs-lookup"><span data-stu-id="61493-118">Guidelines for Relevance training and review</span></span>
 
-<span data-ttu-id="2a6ee-119">다음은 관련성 교육 및 검토에 대 한 지침에 대 한 개요입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-119">Following is an overview of guidelines for Relevance training and review:</span></span>
+<span data-ttu-id="61493-119">다음은 관련성 교육과 검토 지침에 대 한 개요입니다.</span><span class="sxs-lookup"><span data-stu-id="61493-119">Following is an overview of guidelines for Relevance training and review:</span></span>
   
-- <span data-ttu-id="2a6ee-p103">**오류 및 불일치 항목**: 교육 하는 동안 태그 지정 오류가 있으면 오류를 수정 하려면 이전 파일 예제를 반환 합니다. 너무 많은 오류를 수정 중이거나 문제 확인 하는 경우의 새로운 측면이, 하는 경우 관련성 조건, 관리자가 다시 정의할 수 있어야 하 고 관련성 교육 다시 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p103">**Errors and inconsistencies**: If tagging errors are made during training, return to previous file samples to correct them. If there are too many errors to correct or there is a new perspective of the case or issue, the Relevance criteria should be redefined by the Administrator, and the Relevance training restarted.</span></span>
+- <span data-ttu-id="61493-p103">**오류 및 불일치**: 교육 중에 태그 오류가 발생 한 경우 문제를 해결 하기 위해 이전 파일 샘플로 돌아갑니다. 오류가 너무 많이 발생 하거나 사례 또는 문제에 대 한 새로운 측면이 발생 하는 경우에는 관련성 기준을 관리자가 다시 정의 하 고 관련성 학습을 재시작 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p103">**Errors and inconsistencies**: If tagging errors are made during training, return to previous file samples to correct them. If there are too many errors to correct or there is a new perspective of the case or issue, the Relevance criteria should be redefined by the Administrator, and the Relevance training restarted.</span></span>
     
-- <span data-ttu-id="2a6ee-122">**태그 지정 및 교육**:</span><span class="sxs-lookup"><span data-stu-id="2a6ee-122">**Tagging and training**:</span></span> 
+- <span data-ttu-id="61493-122">**태그 지정 및 교육**:</span><span class="sxs-lookup"><span data-stu-id="61493-122">**Tagging and training**:</span></span> 
     
-  - <span data-ttu-id="2a6ee-p104">파일만 내용에 따라 태그가 지정 수 있어야 합니다. 더불어, 날짜 또는 파일 경로 등의 메타 데이터를 고려 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p104">Files should be tagged based on content only. Do not consider metadata, such as custodian, date, or file path.</span></span> 
+  - <span data-ttu-id="61493-p104">파일은 콘텐츠만 사용 하 여 태그를 지정 해야 합니다. custodian, date 또는 file 경로와 같은 메타 데이터를 고려 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p104">Files should be tagged based on content only. Do not consider metadata, such as custodian, date, or file path.</span></span> 
     
-  - <span data-ttu-id="2a6ee-125">파일에 태그를 지정 하는 경우 범위 오류 표시 텍스트의 날짜에 고려 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-125">Do not consider date range indications in the text when tagging files.</span></span>
+  - <span data-ttu-id="61493-125">파일에 태그를 지정할 때 텍스트에 날짜 범위 표시를 고려 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-125">Do not consider date range indications in the text when tagging files.</span></span>
     
-  - <span data-ttu-id="2a6ee-126">파일에 태그를 지정 하는 경우 포함 된 그래픽 이미지를 고려 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-126">Do not consider embedded graphical images when tagging files.</span></span>
+  - <span data-ttu-id="61493-126">파일에 태그를 지정할 때 포함 된 그래픽 이미지를 고려 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-126">Do not consider embedded graphical images when tagging files.</span></span>
     
-  - <span data-ttu-id="2a6ee-p105">태그를 지정 하는 동안 **텍스트 보기를 서식이 지정 된** 아이콘을 사용 하 여 파일을 볼 경우 텍스트의 서식을 고려 하지 않습니다. 예 (가운데를 기준으로 나타내는 삭제를 통해 가로줄) 취소선으로 표시 하는 단어는 분석 된 텍스트의 일부로 관련성으로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p105">If viewing a file using the **formatted text view** icon while tagging, do not consider the formatting of text. For example, a word displayed with a strikethrough (a horizontal line through its center indicating deletion) is still considered by Relevance as part of the analyzed text.</span></span> 
+  - <span data-ttu-id="61493-p105">태그를 지정 하는 동안 **서식 있는 텍스트 보기** 아이콘을 사용 하 여 파일을 보는 경우 텍스트 서식을 고려 하지 마십시오. 예를 들어 문서에 취소선이 표시 되 고, 해당 중심을 기준으로 하는 가로 줄이 분석 된 텍스트의 일부로 서 관련성을 유지 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p105">If viewing a file using the **formatted text view** icon while tagging, do not consider the formatting of text. For example, a word displayed with a strikethrough (a horizontal line through its center indicating deletion) is still considered by Relevance as part of the analyzed text.</span></span> 
     
-  - <span data-ttu-id="2a6ee-p106">관련성 (으로 하는 경우 관리자 또는 관리자에 의해 설정)에 적용 되는 텍스트를 무시 관련성에 텍스트 보기에 표시 된 파일 내용을에서 제거 됩니다. 무시 텍스트에 대 한 값 시작 이미 교육 관련성 후 정의 된 경우 새 무시 텍스트는 이전에 정의 된 지점에서 작성 한 샘플 파일에 적용 됩니다. 텍스트를 무시 기능 사용 해야 신중 하 게, 해당 사용에는 파일 분석의 성능을 저하 시킬 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p106">Ignore text applied to Relevance (as set by the Case Manager or Administrator) will be removed in the displayed file content in the text view in Relevance. If the values for Ignore text were defined after Relevance training already started, the new ignored text will be applied to sample files created from the point in which it was defined. The Ignore Text feature should be used cautiously, as its use may reduce the performance of file analysis</span></span>
+  - <span data-ttu-id="61493-p106">무시 텍스트 보기의 관련 항목 (사례 관리자 또는 관리자가 설정)에는 관련성이 적용 됩니다. "무시" 텍스트에 대 한 값이 관련성 학습을 이미 시작한 후에 정의 된 경우에는 무시 된 텍스트가 정의 된 지점에서 만든 샘플 파일에 적용 됩니다. 무시 텍스트 기능은 파일 분석의 성능을 저하 시킬 수 있으므로 주의 해 서 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p106">Ignore text applied to Relevance (as set by the Case Manager or Administrator) will be removed in the displayed file content in the text view in Relevance. If the values for Ignore text were defined after Relevance training already started, the new ignored text will be applied to sample files created from the point in which it was defined. The Ignore Text feature should be used cautiously, as its use may reduce the performance of file analysis</span></span>
     
-  - <span data-ttu-id="2a6ee-p107">필요한 경우에 **태그 지정을 건너뜁니다** 옵션을 사용 합니다. 에 건너뛴된 파일을 고급 eDiscovery를 기반으로 교육지 않습니다. 평가에서 파일을 관련이 있는지 여부를 확인 하기 어려운 경우 하는 것이 태그 Relevant (R)로 여부 관련 (NR) **건너뛰기**를 선택 하는 대신 가능 합니다. 고급 eDiscovery 교육 계산을 하는 경우 다음 볼 수 있습니다 이러한 종류의 파일 처리 된 얼마나 잘 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p107">Use the **Skip tagging** option only when necessary. Advanced eDiscovery does not train based on skipped files. In assessment, if it's hard to tell whether a file is relevant, it is better to tag as Relevant (R) or Not relevant (NR) whenever possible rather than selecting **Skip**. When Advanced eDiscovery evaluates training, it can then be seen how well these types of files were processed.</span></span>
+  - <span data-ttu-id="61493-p107">필요한 경우에만 **태그 지정 건너뛰기** 옵션을 사용 합니다. 고급 eDiscovery는 건너뛴 파일을 기반으로 교육을 하지 않습니다. 평가에서는 파일에 대 한 관련성을 알기 어려운 경우에는 **건너뛰기를**선택 하는 것이 아니라 가능한 경우에도 적절 한 (R) 또는 적절 하지 않은 (veiligheid) 태그를 지정 하는 것이 좋습니다. Advanced eDiscovery에서 교육을 평가할 때는 이러한 유형의 파일을 처리 하는 방법을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p107">Use the **Skip tagging** option only when necessary. Advanced eDiscovery does not train based on skipped files. In assessment, if it's hard to tell whether a file is relevant, it is better to tag as Relevant (R) or Not relevant (NR) whenever possible rather than selecting **Skip**. When Advanced eDiscovery evaluates training, it can then be seen how well these types of files were processed.</span></span>
     
-  - <span data-ttu-id="2a6ee-136">매우 작은 양의 추출 된 텍스트에도 파일 "건너뛰기", 가능 하면가 아니라 R/NR 교육에 태그를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-136">Even files with a very small amount of extracted text should be tagged in training as R/NR, rather than as "Skip", when possible.</span></span> 
+  - <span data-ttu-id="61493-136">압축을 푼 텍스트가 매우 적은 파일에도 가능 하면 교육에서 "건너뛰기"가 아닌 R/veiligheid로 태그를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-136">Even files with a very small amount of extracted text should be tagged in training as R/NR, rather than as "Skip", when possible.</span></span> 
     
-  - <span data-ttu-id="2a6ee-137">태그 지정 영향을 줄 수 분류자도 파일을 읽을 수 및 R/NR으로 태그가 지정 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-137">Tagging can impact the classifier as long as the file is readable and can be tagged as R/NR.</span></span>
+  - <span data-ttu-id="61493-137">태그를 지정 하면 파일을 읽을 수 있고 R/veiligheid 태그로 태그를 지정할 수 있는 한 분류자에 게 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="61493-137">Tagging can impact the classifier as long as the file is readable and can be tagged as R/NR.</span></span>
     
-  - <span data-ttu-id="2a6ee-138">**태그** 탭에 표시 된 예제 파일 목록에서 파일 시퀀스 번호는 파일의 원래 표시 된 순서를 반환할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-138">The file sequence number on the displayed Sample files list on the **Tag** tab allows the user to return to the original displayed order of the files.</span></span> 
+  - <span data-ttu-id="61493-138">**태그** 탭에 표시 된 샘플 파일 목록의 파일 시퀀스 번호를 사용 하 여 사용자는 표시 된 파일의 원래 순서 대로 돌아갈 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-138">The file sequence number on the displayed Sample files list on the **Tag** tab allows the user to return to the original displayed order of the files.</span></span> 
     
-  - <span data-ttu-id="2a6ee-p108">모든 샘플으로 이동 하 고 평가 태그 지정을 변경 하 고 교육 파일을 설정 합니다. 다음 샘플을 만들 때 변경 내용이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p108">You can go back to any sample and change the tagging of the assessment and training set files. The changes will be applied when creating the next sample.</span></span>
+  - <span data-ttu-id="61493-p108">모든 샘플로 돌아가서 평가 및 학습 집합 파일의 태그를 변경할 수 있습니다. 변경 내용은 다음 샘플을 만들 때 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p108">You can go back to any sample and change the tagging of the assessment and training set files. The changes will be applied when creating the next sample.</span></span>
     
-  - <span data-ttu-id="2a6ee-141">PDF 형식으로 파일 해야 스캔 한 Excel 동일 하 게 취급 네이티브 Excel 파일 파일에 태그를 지정 하는 경우.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-141">Scanned Excel files in PDF format should be treated the same as native Excel files when tagging files.</span></span>
+  - <span data-ttu-id="61493-141">스캔 한 excel 파일을 PDF 형식으로 지정 하는 경우 파일 태그를 지정할 때 기본 excel 파일과 동일 하 게 취급 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-141">Scanned Excel files in PDF format should be treated the same as native Excel files when tagging files.</span></span>
     
-  - <span data-ttu-id="2a6ee-p109">파일의 관련성 태그에 대 한 의심을 전문가 게 문의 합니다. 관련성 교육 하는 동안 잘못 된 태그 지정 하는 프로세스 뒷부분에 나오는 손실된 시간 종료 될 수 있습니다 하 고 전체 결과의 품질에 부정적인 영향을 설치 되어있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p109">When in doubt regarding the Relevance tagging of a file, consult an expert. Incorrect tagging during the Relevance training can lead to lost time later in the process and may also have a negative impact on the quality of the overall results.</span></span>
+  - <span data-ttu-id="61493-p109">파일의 관련성 태그 지정과 관련 하 여 확실 하지 않은 경우 전문가에 게 문의 하십시오. 관련성을 교육 하는 동안 잘못 된 태그를 지정 하면 프로세스의 후반부에서 시간이 더 오래 걸릴 수 있으며 전체 결과의 품질에 부정적인 영향을 줄 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p109">When in doubt regarding the Relevance tagging of a file, consult an expert. Incorrect tagging during the Relevance training can lead to lost time later in the process and may also have a negative impact on the quality of the overall results.</span></span>
     
-  - <span data-ttu-id="2a6ee-144">키워드 정의 된 키워드의 목록에 태그를 지정 하는 동안 관련 파일을 식별 하는 사용자를 위해 색에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-144">Keywords that were defined in Keyword lists will be displayed in colors to help the user identify relevant files while tagging.</span></span>
+  - <span data-ttu-id="61493-144">키워드 목록에서 정의 된 키워드는 사용자가 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 색으로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-144">Keywords that were defined in Keyword lists will be displayed in colors to help the user identify relevant files while tagging.</span></span>
     
-- <span data-ttu-id="2a6ee-p110">**일괄 처리 계산**: R/NR 전문가가 0 또는 100의 점수를 받게 됩니다으로 태그가 지정 된 파일입니다. 이 일괄 처리 계산 하기 전에 만든 태그 지정에 적용 됩니다. 전문가 일괄 처리 계산 후 문제를 유휴 상태로 전환 하이 문제에 태그 지정을 계속 하는 경우 0이 100/않으며 원래 점수 아니라 새로 태그가 지정 된 점수가 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p110">**Batch calculation**: Files that were tagged as R/NR by the expert will receive a score of either 0 or 100. This applies to tagging made before Batch calculation. If the expert switched the issue to Idle after Batch Calculation and continued tagging this issue, the newly tagged scores will not be 100/0 but rather the original score.</span></span>
+- <span data-ttu-id="61493-p110">**일괄 처리**: 전문가가 R/veiligheid로 태그가 지정 된 파일에는 점수가 0 또는 100로 표시 됩니다. 이는 일괄 계산 전의 태그 작성에 적용 됩니다. 전문가가 일괄 계산을 수행한 후에 유휴 상태로 전환 하 여이 문제에 계속 태그를 지정 하면, 새로 태그 된 점수가 100/0이 아니라 원래 점수가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p110">**Batch calculation**: Files that were tagged as R/NR by the expert will receive a score of either 0 or 100. This applies to tagging made before Batch calculation. If the expert switched the issue to Idle after Batch Calculation and continued tagging this issue, the newly tagged scores will not be 100/0 but rather the original score.</span></span>
     
-- <span data-ttu-id="2a6ee-148">**문제 및 샘플링 모드**: 문제는 일반적으로 해제 시간에 완료 되 면 (관련성 교육 안정은 및 일괄 처리 계산 수행 된) 문제는 취소 될 때 또는 문제에 다른 사용자가 작동 하는 경우.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-148">**Issues and sampling mode**: Issues are usually turned Off when work on them is completed (Relevance training is stabilized and Batch calculation was performed), when the issues are canceled, or when another user is working on the issues.</span></span>
+- <span data-ttu-id="61493-148">**문제 및 샘플링 모드**: 해당 작업에 대 한 작업이 완료 되 면 (관련성 교육이 안정화 되 고 일괄 처리를 수행한 경우) 문제가 취소 되거나 다른 사용자가 문제를 해결 하는 경우에는 일반적으로 문제가 꺼집니다.</span><span class="sxs-lookup"><span data-stu-id="61493-148">**Issues and sampling mode**: Issues are usually turned Off when work on them is completed (Relevance training is stabilized and Batch calculation was performed), when the issues are canceled, or when another user is working on the issues.</span></span>
     
-## <a name="steps-in-relevance-training"></a><span data-ttu-id="2a6ee-149">관련성 교육의 단계</span><span class="sxs-lookup"><span data-stu-id="2a6ee-149">Steps in Relevance training</span></span>
+## <a name="steps-in-relevance-training"></a><span data-ttu-id="61493-149">관련성 교육의 단계</span><span class="sxs-lookup"><span data-stu-id="61493-149">Steps in Relevance training</span></span>
 
-<span data-ttu-id="2a6ee-p111">**관련성 \> 추적** 탭, 고급 eDiscovery 권장 사항에는 다음 단계에 따라 다음 처리를 계속 하는 방법에 제공 합니다. 관련성 교육 프로세스에서 것이 좋습니다 각 다음 단계를 수행 하는 경우에 영향 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p111">In the **Relevance \> Track** tab, Advanced eDiscovery provides recommendations on how to proceed in the processing, with the following next steps. The implications are described below when each of the following steps is recommended in the Relevance training process.</span></span> 
+<span data-ttu-id="61493-p111">**관련성 \> 추적** 탭에서 Advanced eDiscovery는 다음 단계에 따라 처리에서 진행 하는 방법에 대 한 권장 사항을 제공 합니다. 관련성 교육 프로세스에서 다음 각 단계를 권장 하는 것은 아래에 설명 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p111">In the **Relevance \> Track** tab, Advanced eDiscovery provides recommendations on how to proceed in the processing, with the following next steps. The implications are described below when each of the following steps is recommended in the Relevance training process.</span></span> 
   
-- <span data-ttu-id="2a6ee-152">태그 / 태그 지정을 계속: 파일 및 샘플 내에서 발급할 파일 검토 및 관련성 태그 각각에 대 한 전문가가 의해 수행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-152">Tagging / Continue tagging: File review and Relevance tagging performed by an expert for each file and issue within a sample.</span></span>
+- <span data-ttu-id="61493-152">태그 지정/계속 태그 지정: 각 파일에 대해 전문가가 수행 하는 파일 검토 및 관련성 태그 지정 및 샘플 내에서 문제를 해결 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-152">Tagging / Continue tagging: File review and Relevance tagging performed by an expert for each file and issue within a sample.</span></span>
     
-  - <span data-ttu-id="2a6ee-153">의미:는 기존 샘플 태그를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-153">Implication: An existing sample needs to be tagged.</span></span>
+  - <span data-ttu-id="61493-153">함축: 기존 샘플에 태그를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-153">Implication: An existing sample needs to be tagged.</span></span>
     
-- <span data-ttu-id="2a6ee-154">평가 평가 계속 /: 사례 문제 관련성의 초기 유효성을 검사 하 고 현재 사례에 대해 가져온 파일 모집단의 관련성의 예비 보기를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-154">Assessment / Continue assessment: Enables early validation of case issue relevance and a preliminary view of the relevance of the file population imported for the current case.</span></span>
+- <span data-ttu-id="61493-154">평가/계속 평가: 대/소문자 문제 관련성을 조기에 확인 하 고 현재 사례에 대해 가져온 파일 모집단의 관련성을 미리 볼 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-154">Assessment / Continue assessment: Enables early validation of case issue relevance and a preliminary view of the relevance of the file population imported for the current case.</span></span>
     
-  - <span data-ttu-id="2a6ee-155">의미: 더 많은 평가 필요 하거나 권장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-155">Implication: More assessment is required or recommended.</span></span>
+  - <span data-ttu-id="61493-155">함축: 추가 평가가 필요 하거나 권장 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-155">Implication: More assessment is required or recommended.</span></span>
     
-- <span data-ttu-id="2a6ee-156">교육 / 교육 계속: 프로세스는 고급 하는 동안 파일에 태그 지정은 전문가가에서 eDiscovery 알아냅니다 샘플링 하 고 각각의 경우 컨텍스트 내에서 각 문제에 관련 된 관련성 조건을 식별 하는 능력을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-156">Training / Continue training: Process during which Advanced eDiscovery learns from the expert who is tagging the file samples and acquires the ability to identify Relevance criteria pertinent to each issue within the context of each case.</span></span>
+- <span data-ttu-id="61493-156">교육/계속 교육: 고급 eDiscovery에서 파일 샘플 태그를 지정 하는 전문가 로부터 학습 하 고 각 사례 컨텍스트 내의 각 문제와 관련 된 관련성 기준을 식별 하는 기능을 제공 하는 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="61493-156">Training / Continue training: Process during which Advanced eDiscovery learns from the expert who is tagging the file samples and acquires the ability to identify Relevance criteria pertinent to each issue within the context of each case.</span></span>
     
-  - <span data-ttu-id="2a6ee-157">의미: 문제 필요한 기타 교육; 다음 예제를 작성 하 고 태그를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-157">Implication: The issue needs more training; the next sample should be created and tagged.</span></span> 
+  - <span data-ttu-id="61493-157">함축: 문제에 대 한 교육은 더 많이 필요 합니다. 다음 예제를 만들고 태그를 지정 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-157">Implication: The issue needs more training; the next sample should be created and tagged.</span></span> 
     
-- <span data-ttu-id="2a6ee-p112">계산을 일괄 처리: 관련성 프로세스는 고급 설정의 eDiscovery 교육 단계 중에 얻은 정보를 가져와 파일 전체 모집단을 적용 합니다. 관련 파일 그룹의 모든 파일은 관련성에 대 한 평가 하 고 관련성 점수를 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p112">Batch calculation: Relevance process in which Advanced eDiscovery takes the knowledge acquired during the training stage and applies it to the entire file population. All files in the pertinent file group are assessed for relevance and assigned a Relevance score.</span></span>
+- <span data-ttu-id="61493-p112">일괄 계산: 고급 eDiscovery에서 학습 단계 중에 얻은 지식을 사용 하 여 전체 파일 채우기에 적용 하는 관련성 프로세스입니다. 관련 파일 그룹의 모든 파일은 관련성을 평가 하 고 관련성 점수를 할당 받습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p112">Batch calculation: Relevance process in which Advanced eDiscovery takes the knowledge acquired during the training stage and applies it to the entire file population. All files in the pertinent file group are assessed for relevance and assigned a Relevance score.</span></span>
     
-  - <span data-ttu-id="2a6ee-160">의미:이 문제를 될때까지, 및 일괄 처리 계산을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-160">Implication: The issue has stabilized, and Batch calculation can be performed.</span></span>
+  - <span data-ttu-id="61493-160">함축: 문제가 안정화 되 고 일괄 처리를 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-160">Implication: The issue has stabilized, and Batch calculation can be performed.</span></span>
     
-- <span data-ttu-id="2a6ee-161">후속 작업: 관련성 전문가가 검토 하 고 롤링 로드 하는 시나리오를 하는 동안 추가 파일 부하에서 선택한 파일의 샘플 태그를 지정 하는 경우를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-161">Catch-up: Relevance indicates when an expert reviews and tags a sample of files selected from an additional file load during a Rolling Loads scenario.</span></span>
+- <span data-ttu-id="61493-161">보완: 관련성이 있는 경우 전문가가 롤링 로드 시나리오에서 추가 파일 로드 로부터 선택한 파일의 샘플을 검토 하 고 태그를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-161">Catch-up: Relevance indicates when an expert reviews and tags a sample of files selected from an additional file load during a Rolling Loads scenario.</span></span>
     
-  - <span data-ttu-id="2a6ee-162">의미: 새 부하에 추가한 후 및 후속 작업을 계속 하려면 반드시 입력 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-162">Implication: A new load has been added, and Catch-up is required to continue working.</span></span>
+  - <span data-ttu-id="61493-162">함축: 작업을 계속 하려면 새 부하가 추가 되 고 보완 작업이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-162">Implication: A new load has been added, and Catch-up is required to continue working.</span></span>
     
-- <span data-ttu-id="2a6ee-163">불일치 항목에 태그 지정: 프로세스를 식별 하는 고급 eDiscovery 알고리즘을 통해 분석에 부정적인 영향을 줄 수 있는 프로세스에 태그를 지정 하는 파일의 일관성 오류입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-163">Tag inconsistencies: Process identifies, via an Advanced eDiscovery algorithm, inconsistencies in the file tagging process that may negatively impact the analysis.</span></span>
+- <span data-ttu-id="61493-163">태그 불일치: 프로세스가 고급 eDiscovery 알고리즘을 통해 분석에 부정적인 영향을 줄 수 있는 파일 태그 지정 프로세스의 불일치를 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-163">Tag inconsistencies: Process identifies, via an Advanced eDiscovery algorithm, inconsistencies in the file tagging process that may negatively impact the analysis.</span></span>
     
-  - <span data-ttu-id="2a6ee-164">의미: 다음 예제는 이전 예제에서 태그가 지정 된 파일을 포함 됩니다 및 해당 태그 지정 다시 실행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-164">Implication: The next sample will include files that have been tagged in previous samples, and their tagging must be redone.</span></span>
+  - <span data-ttu-id="61493-164">함축: 다음 샘플에는 이전 예제에서 태그를 지정 하 고 태그를 다시 실행 해야 하는 파일이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-164">Implication: The next sample will include files that have been tagged in previous samples, and their tagging must be redone.</span></span>
     
-- <span data-ttu-id="2a6ee-165">분류자 업데이트: 태그 지정 또는 시드 변경 내용을 적용할 수 있도록 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-165">Update classifier: Allows the user to apply tagging or seeding changes.</span></span>
+- <span data-ttu-id="61493-165">업데이트 분류자: 사용자가 태그 지정 또는 시드 변경 내용을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-165">Update classifier: Allows the user to apply tagging or seeding changes.</span></span>
     
-  - <span data-ttu-id="2a6ee-166">의미: 태그를 지정 하 고 변경 내용을 시드 적용할 수 수동으로 예제를 실행 하려면 다른 관련성을 작성할 필요 없이 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-166">Implication: Tagging and seeding changes can be applied without needing to manually run another Relevance sample.</span></span>
+  - <span data-ttu-id="61493-166">함축: 태그 지정 및 시드 변경 내용은 다른 관련성 샘플을 수동으로 실행 하지 않고도 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-166">Implication: Tagging and seeding changes can be applied without needing to manually run another Relevance sample.</span></span>
     
-- <span data-ttu-id="2a6ee-167">대기: The 관련성 교육 프로세스를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-167">On hold: The Relevance training process is completed.</span></span>
+- <span data-ttu-id="61493-167">보류: 관련성 교육 프로세스가 완료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="61493-167">On hold: The Relevance training process is completed.</span></span>
     
-  - <span data-ttu-id="2a6ee-168">의미: 없음 관련성 교육은 필요한이 시점입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-168">Implication: No Relevance training is required at this point.</span></span>
+  - <span data-ttu-id="61493-168">함축:이 시점에서는 관련성 교육이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-168">Implication: No Relevance training is required at this point.</span></span>
     
-<span data-ttu-id="2a6ee-169">고급 eDiscovery 과정을 안내해를 사용 하는 프로세스와 각 단계에서 권장 되는 다음 단계를 있지만 수도 있습니다 탭 및 페이지 사이 탐색 하 고 문제, 개별 경우 관련 될 수 있는 주소 상황을 선택할 수 또는 문서 검토 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-169">Although Advanced eDiscovery guides you through the process, with recommended Next steps at different stages, it also allows you to navigate between tabs and pages, and to make choices to address situations that may be pertinent to your individual case, issue, or document review process.</span></span> 
+<span data-ttu-id="61493-169">고급 eDiscovery에서는 프로세스를 안내 하지만 다른 단계에서 권장 되는 다음 단계를 통해 탭과 페이지를 탐색할 수 있을 뿐만 아니라 개별 사례, 문제 또는 사용자에 게 적합 한 상황을 해결 하기 위한 선택도 가능 합니다. 문서 검토 프로세스</span><span class="sxs-lookup"><span data-stu-id="61493-169">Although Advanced eDiscovery guides you through the process, with recommended Next steps at different stages, it also allows you to navigate between tabs and pages, and to make choices to address situations that may be pertinent to your individual case, issue, or document review process.</span></span> 
   
-<span data-ttu-id="2a6ee-p113">그대로 사용 하거나 선택 항목을 처리 하는 고급 eDiscovery 다음 단계를 재정의 하는 것이 불가능 합니다. 권장된 다음 단계에서는 아닌 단계를 수행 합니다를 클릭 하는 경우 대화 상자에 표시 되는 확장 된 문제에에서 나열 된 **다음 단계** , 다음 단계 옆에 있는 **수정** 단추를 클릭 하 고 다른 다음 단계 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-p113">It is possible to accept or override Advanced eDiscovery Next step processing choices. If you want to perform a step other than the recommended Next step, click the **Next step** listed in the expanded issue display in the dialog, click the **Modify** button next to the Next step, and select another Next step option.</span></span> 
+<span data-ttu-id="61493-p113">고급 eDiscovery 다음 단계 처리 옵션을 수락 하거나 무시할 수 있습니다. 권장 되는 다음 단계를 제외한 나머지 단계를 수행 하려면 대화에 확장 된 문제 표시에 나열 된 **다음 단계** 를 클릭 하 고 다음 단계 옆에 있는 **Modify (수정** ) 단추를 클릭 한 다음 다른 다음 단계 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="61493-p113">It is possible to accept or override Advanced eDiscovery Next step processing choices. If you want to perform a step other than the recommended Next step, click the **Next step** listed in the expanded issue display in the dialog, click the **Modify** button next to the Next step, and select another Next step option.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="2a6ee-172">일부 옵션으로 사용 하는 프로세스에서 해당 시점에 대 한 지원 되지 않습니다의 잠금을 해제 한 후 기능을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2a6ee-172">Some options may remain disabled after unlocking as they are not supported for use at that point in the process.</span></span> 
+> <span data-ttu-id="61493-172">일부 옵션은 프로세스의 해당 시점에는 사용할 수 없으므로 잠금 해제 후에도 사용 하지 않도록 설정 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="61493-172">Some options may remain disabled after unlocking as they are not supported for use at that point in the process.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2a6ee-173">참고 항목</span><span class="sxs-lookup"><span data-stu-id="2a6ee-173">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="61493-173">참고 항목</span><span class="sxs-lookup"><span data-stu-id="61493-173">See also</span></span>
 
-[<span data-ttu-id="2a6ee-174">Office 365 Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="2a6ee-174">Office 365 Advanced eDiscovery</span></span>](office-365-advanced-ediscovery.md)
+[<span data-ttu-id="61493-174">Office 365 Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="61493-174">Office 365 Advanced eDiscovery</span></span>](office-365-advanced-ediscovery.md)
   
-[<span data-ttu-id="2a6ee-175">관련성에 이해 평가</span><span class="sxs-lookup"><span data-stu-id="2a6ee-175">Understanding Assessment in Relevance</span></span>](assessment-in-relevance-in-advanced-ediscovery.md)
+[<span data-ttu-id="61493-175">관련성 평가 이해</span><span class="sxs-lookup"><span data-stu-id="61493-175">Understanding Assessment in Relevance</span></span>](assessment-in-relevance-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="2a6ee-176">태그 지정 및 평가</span><span class="sxs-lookup"><span data-stu-id="2a6ee-176">Tagging and Assessment</span></span>](tagging-and-assessment-in-advanced-ediscovery.md)
+[<span data-ttu-id="61493-176">태그 지정 및 평가</span><span class="sxs-lookup"><span data-stu-id="61493-176">Tagging and Assessment</span></span>](tagging-and-assessment-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="2a6ee-177">태그 지정 및 관련성 교육</span><span class="sxs-lookup"><span data-stu-id="2a6ee-177">Tagging and Relevance training</span></span>](tagging-and-relevance-training-in-advanced-ediscovery.md)
+[<span data-ttu-id="61493-177">태그 지정 및 관련성 교육</span><span class="sxs-lookup"><span data-stu-id="61493-177">Tagging and Relevance training</span></span>](tagging-and-relevance-training-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="2a6ee-178">관련성 분석 추적</span><span class="sxs-lookup"><span data-stu-id="2a6ee-178">Tracking Relevance analysis</span></span>](track-relevance-analysis-in-advanced-ediscovery.md)
+[<span data-ttu-id="61493-178">관련성 분석 추적</span><span class="sxs-lookup"><span data-stu-id="61493-178">Tracking Relevance analysis</span></span>](track-relevance-analysis-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="2a6ee-179">결과에 따라 결정</span><span class="sxs-lookup"><span data-stu-id="2a6ee-179">Deciding based on the results</span></span>](decision-based-on-the-results-in-advanced-ediscovery.md)
+[<span data-ttu-id="61493-179">결과를 기준으로 결정</span><span class="sxs-lookup"><span data-stu-id="61493-179">Deciding based on the results</span></span>](decision-based-on-the-results-in-advanced-ediscovery.md)
   
-[<span data-ttu-id="2a6ee-180">관련성 분석 테스트</span><span class="sxs-lookup"><span data-stu-id="2a6ee-180">Testing Relevance analysis</span></span>](test-relevance-analysis-in-advanced-ediscovery.md)
+[<span data-ttu-id="61493-180">관련성 분석 테스트</span><span class="sxs-lookup"><span data-stu-id="61493-180">Testing Relevance analysis</span></span>](test-relevance-analysis-in-advanced-ediscovery.md)
 

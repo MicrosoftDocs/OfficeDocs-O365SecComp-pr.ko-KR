@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 작업 집합의 데이터를 분석 합니다.
+title: Advanced eDiscovery (Preview)의 작업 집합에서 데이터 분석
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,46 +14,46 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 68a8b7586700a9bffe78f2b3a4ff419a1f85ba8a
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: ae024f423ac9b4ab9210ddfab519093a9fee3e42
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29695144"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216798"
 ---
-# <a name="analyze-data-in-a-working-set-in-advanced-ediscovery-preview"></a><span data-ttu-id="e9aee-102">고급 eDiscovery (미리 보기)에서 작업 집합의 데이터를 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-102">Analyze data in a working set in Advanced eDiscovery (Preview)</span></span>
+# <a name="analyze-data-in-a-working-set-in-advanced-ediscovery-preview"></a><span data-ttu-id="c2fec-102">Advanced eDiscovery (Preview)의 작업 집합에서 데이터 분석</span><span class="sxs-lookup"><span data-stu-id="c2fec-102">Analyze data in a working set in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="e9aee-p101">수집 된 문서 수 클 경우 모두 검토 하는 것이 어려울 수 있습니다. 고급 eDiscovery (미리 보기)는 다양 한 문서 정보를 손실 없이 검토 하 고 일관 된 방식으로 문서를 구성 하는데 도움이 되는 문서의 양을 줄일를 분석 하는 도구를 제공 합니다. 이러한 기능에 대 한 자세한 내용은 참조 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-p101">When the number of collected documents is large, it can be quite difficult to review them all. Advanced eDiscovery (Preview) provides a number of tools to analyze the documents to reduce the volume of documents to be reviewed without any loss in information, and to help you organize the documents in a coherent manner. To learn more about these capabilities, see:</span></span>
+<span data-ttu-id="c2fec-p101">수집 된 문서 수가 크면 검토 하는 것이 상당히 어려울 수 있습니다. Advanced eDiscovery (Preview)에서는 문서를 분석 하 여 정보 손실 없이 검토할 문서 크기를 줄이고, 일관 된 방식으로 문서를 구성 하는 데 도움이 되는 다양 한 도구를 제공 합니다. 이러한 기능에 대 한 자세한 내용은 다음 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c2fec-p101">When the number of collected documents is large, it can be quite difficult to review them all. Advanced eDiscovery (Preview) provides a number of tools to analyze the documents to reduce the volume of documents to be reviewed without any loss in information, and to help you organize the documents in a coherent manner. To learn more about these capabilities, see:</span></span>
 
-- [<span data-ttu-id="e9aee-106">중복에 가까운 검색</span><span class="sxs-lookup"><span data-stu-id="e9aee-106">Near duplicate detection</span></span>](near-duplicates.md)
-- [<span data-ttu-id="e9aee-107">전자 메일 스레드</span><span class="sxs-lookup"><span data-stu-id="e9aee-107">Email threading</span></span>](email-threading.md)
-- [<span data-ttu-id="e9aee-108">테마</span><span class="sxs-lookup"><span data-stu-id="e9aee-108">Themes</span></span>](themes.md)
+- [<span data-ttu-id="c2fec-106">중복에 가까운 검색</span><span class="sxs-lookup"><span data-stu-id="c2fec-106">Near duplicate detection</span></span>](near-duplicates.md)
+- [<span data-ttu-id="c2fec-107">전자 메일 스레드</span><span class="sxs-lookup"><span data-stu-id="c2fec-107">Email threading</span></span>](email-threading.md)
+- [<span data-ttu-id="c2fec-108">테마</span><span class="sxs-lookup"><span data-stu-id="c2fec-108">Themes</span></span>](themes.md)
 
-<span data-ttu-id="e9aee-109">작업 집합의 데이터를 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-109">To analyze data in a working set:</span></span>
+<span data-ttu-id="c2fec-109">작업 집합의 데이터를 분석 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-109">To analyze data in a working set:</span></span>
 
-1. <span data-ttu-id="e9aee-p102">사례 분석 설정을 구성 합니다. 자세한 내용은 [검색 및 분석 설정 구성을](configure-search-analytics-settings.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="e9aee-p102">Configure analytics settings for your case. For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).</span></span>
-2. <span data-ttu-id="e9aee-112">분석 하려는 작업 집합을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-112">Open the working set you wish to analyze.</span></span>
-3. <span data-ttu-id="e9aee-113">"관리 작업 집합"로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-113">Go to "Manage working set".</span></span>
-4. <span data-ttu-id="e9aee-114">"분석"을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-114">Click "Analyze".</span></span>
+1. <span data-ttu-id="c2fec-p102">사례에 대 한 분석 설정을 구성 합니다. 자세한 내용은 [Configure search and analytics settings](configure-search-analytics-settings.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="c2fec-p102">Configure analytics settings for your case. For more information, see [Configure search and analytics settings](configure-search-analytics-settings.md).</span></span>
+2. <span data-ttu-id="c2fec-112">분석할 작업 집합을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-112">Open the working set you wish to analyze.</span></span>
+3. <span data-ttu-id="c2fec-113">"작업 집합 관리"로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-113">Go to "Manage working set".</span></span>
+4. <span data-ttu-id="c2fec-114">"분석"을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-114">Click "Analyze".</span></span>
 
-<span data-ttu-id="e9aee-115">사용자의 경우에서 작업 탭에는 분석의 진행률을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-115">You can check the progress of analysis in the Jobs tab in your case.</span></span>
+<span data-ttu-id="c2fec-115">해당 사례의 작업 탭에서 분석 진행률을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-115">You can check the progress of analysis in the Jobs tab in your case.</span></span>
 
- <span data-ttu-id="e9aee-116">분석 완료 되 면 분석 보고서를 볼 수 있습니다, 사용자 작업 내에서 실행된 된 쿼리 (대 한 자세한 내용은 참조 하십시오 [설정 하면 작업 내에서 쿼리](working-set-search.md)) 분석의 출력에 설정 하 고 (자세한 내용은 참조 [에 대 한 특정 문서의 관련된 문서를 참조 하십시오. 작업 집합의 데이터를 검토](reviewing-data-in-working-set.md)).</span><span class="sxs-lookup"><span data-stu-id="e9aee-116">Once analysis is completed, you can view analytics report, run queries within your working set on outputs of the analysis (for more information see [Query within your working set](working-set-search.md)), and see related documents of a given document (for more information see [Reviewing data in working set](reviewing-data-in-working-set.md)).</span></span>
+ <span data-ttu-id="c2fec-116">분석이 완료 되 면 분석 보고서를 확인 하 여 작업 집합 내에서 쿼리를 실행 하 고 ( [작업 집합 내의 쿼리](working-set-search.md)참조), 지정 된 문서의 관련 문서를 볼 수 있습니다 (자세한 내용은 다음 항목을 참조 하십시오 [. 작업 집합의 데이터 검토](reviewing-data-in-working-set.md)</span><span class="sxs-lookup"><span data-stu-id="c2fec-116">Once analysis is completed, you can view analytics report, run queries within your working set on outputs of the analysis (for more information see [Query within your working set](working-set-search.md)), and see related documents of a given document (for more information see [Reviewing data in working set](reviewing-data-in-working-set.md)).</span></span>
 
-## <a name="analytics-report"></a><span data-ttu-id="e9aee-117">분석 보고서</span><span class="sxs-lookup"><span data-stu-id="e9aee-117">Analytics report</span></span>
+## <a name="analytics-report"></a><span data-ttu-id="c2fec-117">분석 보고서</span><span class="sxs-lookup"><span data-stu-id="c2fec-117">Analytics report</span></span>
 
-<span data-ttu-id="e9aee-118">작업 집합에 대 한 분석 보고서를 보려면</span><span class="sxs-lookup"><span data-stu-id="e9aee-118">To view a analytics report for your working set:</span></span>
+<span data-ttu-id="c2fec-118">작업 집합에 대 한 분석 보고서를 보려면:</span><span class="sxs-lookup"><span data-stu-id="c2fec-118">To view a analytics report for your working set:</span></span>
 
-1. <span data-ttu-id="e9aee-119">작업 집합을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-119">Open your working set.</span></span>
-2. <span data-ttu-id="e9aee-120">"관리 작업 집합"로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-120">Go to "Manage working set".</span></span>
-3. <span data-ttu-id="e9aee-121">"보고서"를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-121">Click "Report".</span></span>
+1. <span data-ttu-id="c2fec-119">작업 집합을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-119">Open your working set.</span></span>
+2. <span data-ttu-id="c2fec-120">"작업 집합 관리"로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-120">Go to "Manage working set".</span></span>
+3. <span data-ttu-id="c2fec-121">"보고서"를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-121">Click "Report".</span></span>
 
-<span data-ttu-id="e9aee-122">보고서에는 4 개의 구성 요소가 분석에서:</span><span class="sxs-lookup"><span data-stu-id="e9aee-122">The report has four components from analysis:</span></span>
+<span data-ttu-id="c2fec-122">보고서에는 분석을 통해 다음과 같은 4 가지 구성 요소가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-122">The report has four components from analysis:</span></span>
 
-- <span data-ttu-id="e9aee-123">**분석 하 여** -얼마나 많은 전자 메일, 첨부 파일 및 문서를 느슨한 작업 집합에서 발견 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-123">**Breakdown** - How many emails, attachments, and loose documents were found in the working set.</span></span>
+- <span data-ttu-id="c2fec-123">**분석 결과** -작업 집합에서 찾은 전자 메일, 첨부 파일 및 느슨한 문서 수입니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-123">**Breakdown** - How many emails, attachments, and loose documents were found in the working set.</span></span>
 
-- <span data-ttu-id="e9aee-124">**문서 (첨부 파일은 제외)** -얼마나 많은 느슨한 문서 위치별, 피벗의 중복 되는 값 이나 다른 문서를 정확 하 게 복제 근처에 고유한 했습니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-124">**Documents (excluding attachments)** - How many loose documents were pivots, unique near duplicates of a pivot, or an exact duplicate of another document.</span></span>
+- <span data-ttu-id="c2fec-124">**문서 (첨부 파일 제외)** -피벗, 중복 되는 항목에 대 한 고유 하지 않은 문서 또는 다른 문서와 정확히 일치 하는 복사본의 수입니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-124">**Documents (excluding attachments)** - How many loose documents were pivots, unique near duplicates of a pivot, or an exact duplicate of another document.</span></span>
 
-- <span data-ttu-id="e9aee-125">**전자 메일** -inclusives, 복사본 (포함), (포함) minuses 또는 위의 사항 얼마나 많은 전자 메일이 했습니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-125">**Emails** - How many emails were inclusives, inclusive copies, inclusive minuses, or none of the above.</span></span>
+- <span data-ttu-id="c2fec-125">**전자 메일** -inclusives, 포함 복사본, 포함 minuses, 또는 없음 중에서 어떤 전자 메일을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-125">**Emails** - How many emails were inclusives, inclusive copies, inclusive minuses, or none of the above.</span></span>
 
-- <span data-ttu-id="e9aee-126">**첨부 파일** -얼마나 많은 전자 메일 첨부 된 고유 또는 작업 집합 내에서 서로 다른 전자 메일 첨부 파일의 복제 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9aee-126">**Attachments** - How many email attachments were unique or duplicates of a different email attachment within the working set.</span></span>
+- <span data-ttu-id="c2fec-126">**첨부 파일** -작업 집합 내에 있는 다른 전자 메일 첨부 파일의 고유 또는 중복 된 전자 메일 첨부 파일의 수입니다.</span><span class="sxs-lookup"><span data-stu-id="c2fec-126">**Attachments** - How many email attachments were unique or duplicates of a different email attachment within the working set.</span></span>
