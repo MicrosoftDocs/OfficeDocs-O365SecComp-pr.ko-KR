@@ -6,44 +6,44 @@ manager: laurawi
 ms.date: 6/4/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
-description: 어떻게 이동할 수 있는 통찰력에서 보안에 대 한 자세한 보고서를 &amp; 데이터 손실 방지 예제를 통해 준수 센터입니다.
-ms.openlocfilehash: d8ef40b000f9e5fcf7ee1826b020efc95776709c
-ms.sourcegitcommit: 9034809b6f308bedc3b8ddcca8242586b5c30f94
+description: 데이터 손실 방지 예제를 통해 보안 &amp; 및 준수 센터에서 자세한 보고서로 이동 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 4b6fee45ebd48a0bd6d5c6c166fb200b28cb9442
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28014860"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217328"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>연습 - 통찰력에서 자세한 보고서
 
-처음 사용 하는 경우 [보고서 및 Office 365 보안에 대 한 의견 &amp; 준수 센터](reports-and-insights-in-security-and-compliance.md), 방법을 쉽게 탐색할 수 있는 통찰력에서 대 한 자세한 보고서를 보는 것이 도움이 될 수 있습니다. 
+[Office 365 보안 &amp; 및 준수 센터의 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 자세한 보고서에 대해 자세히 알아볼 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
   
-이것이 대 한 여러 연습 중 하나는 [보안 &amp; 준수 센터](https://protection.office.com)합니다. 추가 연습 [관련된 항목](#related-topics) 섹션을 참조 하십시오. 
+다음은 [ &amp; 보안 및 준수 센터](https://protection.office.com)에 대 한 몇 가지 연습 중 하나입니다. 추가 연습을 보려면 [관련 항목](#related-topics) 섹션을 참조 하십시오. 
   
-## <a name="from-an-insight-to-a-detailed-report"></a>자세한 보고서에는 견해에서
+## <a name="from-an-insight-to-a-detailed-report"></a>자세한 보고서에 대 한 통찰력
 
-과정을 살펴보겠습니다 흐름 대시보드의 데이터 탐색에 대 한 자세한 보고서를 한 견해를 합니다. ( [데이터 손실 방지](data-loss-prevention-policies.md) 간단한 예제입니다.) 
+대시보드에서 데이터 탐색에 대 한 자세한 보고서를 파악 하기 위한 흐름을 살펴보겠습니다. 이는 간단한 [데이터 손실 방지](data-loss-prevention-policies.md) 예제입니다. 
   
-1. 대시보드로 시작 하는 것은 [보안 &amp; 준수 센터](https://protection.office.com)합니다. ( **보고서** 로 이동 \> **대시보드**.)<br/>![보안에서 &amp; 준수 센터 보고서 선택 \> 대시보드](media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
+1. [ &amp; 보안 및 준수 센터](https://protection.office.com)의 대시보드로 시작 합니다. ( **보고서** \> **대시보드로**이동 합니다.)<br/>![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드를 선택 합니다.](media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
   
-2. 위의 왼쪽 모서리는 대시보드의 옆에 **인 사이트 가지 주요 &amp; 권장 사항**, 것에 대 한 링크가 있습니다. ( **모두 보기**를 클릭 합니다.)<br/>![보안에서 &amp; 준수 센터 보고서 선택 \> 프로그램 위쪽 인 사이트를 참조 하는 대시보드](media/9bb64e11-494f-40a4-ab3d-8d3c7789f300.png)<br/>이 목록은 조직에 대 한 통찰력 우리 걸립니다.<br/>![보안에서 &amp; 준수 센터 목록에서 모든 정보를 볼 수 있습니다](media/1289af77-bf5a-444a-97a1-03d8a83f75a9.png)
+2. 대시보드의 왼쪽 위 모서리에서 **톱 insights &amp; 추천**항목 옆에 링크가 있습니다. ( **모두 보기**를 클릭 합니다.)<br/>![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드를 선택 하 여 톱 insights를 확인 합니다.](media/9bb64e11-494f-40a4-ab3d-8d3c7789f300.png)<br/>이를 통해 조직에 대 한 정보 목록이 표시 됩니다.<br/>![보안 &amp; 및 준수 센터에서 목록의 모든 정보를 볼 수 있습니다.](media/1289af77-bf5a-444a-97a1-03d8a83f75a9.png)
   
-3. 목록에서 항목을 선택 하면 해당 항목에 대 한 자세한 정보를 볼 수는 창을 열립니다. (항목을 클릭 합니다.)<br/>![선택한 정보에 대 한 세부 정보](media/dcbb389f-23b0-4031-b789-4a49068af85a.png)<br/>정책을 검토 하는 등, 우리가 고려해 야 하는 권장된 작업이 참조 했습니다. ([데이터 손실 방지 정책에 대 한 자세한 설명](data-loss-prevention-policies.md)입니다.)
+3. 목록에서 항목을 선택 하면 해당 항목에 대 한 자세한 정보를 볼 수 있는 창이 열립니다. (항목을 클릭 합니다.)<br/>![선택한 통찰력에 대 한 세부 정보](media/dcbb389f-23b0-4031-b789-4a49068af85a.png)<br/>정책 검토와 같이 권장 조치를 고려해 야 합니다. ([데이터 손실 방지 정책에 대해 자세히 알아보세요](data-loss-prevention-policies.md).)
     
-4. 더 많은 세부 정보를 보려면 링크를 했습니다. ( **탐색기에서 관련된 활동을 보고이**클릭 합니다.)<br/>이 보고서 종류 걸려온된 [탐색기](use-explorer-in-security-and-compliance.md) (위협 탐색기 라고도 함), 필터는 적용할 수 및 특정 세부 정보로 드릴 우리 걸립니다.<br/>![선택한 정보에 대 한 자세한 내용은 탐색기 보기](media/3ad15b15-7158-44b7-beda-013351bd868e.png)
+4. 자세한 정보를 볼 수 있는 링크도 제공 됩니다. ( **탐색기에서 관련 활동 보기**를 클릭 합니다.)<br/>이렇게 하면 [explorer](use-explorer-in-security-and-compliance.md) (위협 탐색기 라고도 함) 라는 보고서 유형을 사용 하 여 필터를 적용 하 고 특정 세부 정보로 드릴 수 있습니다.<br/>![선택한 통찰력에 대 한 보다 자세한 정보가 있는 탐색기 보기](media/3ad15b15-7158-44b7-beda-013351bd868e.png)
   
-이와 같은 방식으로 원본으로 사용 되는 세부 정보에는 대 한 정보를 쉽게 이동 하 고 조직에 대 한 데이터 손실 방지 하는 방법에 대 한 더 나은 정보 결정을 내릴 수는 있습니다.
+이러한 방식으로는 정보를 기반으로 쉽게 이동할 수 있으며 조직에 대 한 데이터 손실 방지에 대 한 결정 사항에 대 한 보다 자세한 정보를 제공 합니다.
   
 ## <a name="related-topics"></a>관련 항목
 
-[연습:는 정보에 대 한 자세한 보고서에서](from-a-detailed-report-to-an-insight.md)
+[연습: 자세한 보고서에서 통찰력에 이르기까지](from-a-detailed-report-to-an-insight.md)
   
-[연습:에서 파악 하는 대시보드](from-a-dashboard-to-an-insight.md)
+[연습: 대시보드에서 통찰력에 이르기까지](from-a-dashboard-to-an-insight.md)
   
 

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,14 +15,14 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 인텔리전스 및 시작 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6412f575bbe581aa469c7ad615213564b728d0aa
-ms.sourcegitcommit: 2af6c3e8a74995294a67429530af8f085e6ca136
+ms.openlocfilehash: f116b7a01ab3b27760b597527cc1e5a4440a6586
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051169"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217858"
 ---
-# <a name="get-started-with-threat-intelligence"></a>위협 인텔리전스 시작 하기
+# <a name="get-started-with-threat-intelligence"></a>위협 인텔리전스 시작
 
 조직의 보안 팀에 속해 있는 경우 위협 인텔리전스 기능을 사용 하 여 공격 으로부터 사용자를 보호할 수 있습니다. office 365 Advanced threat Protection 계획 2 (이전의 office 365 위협 인텔리전스)에서는 보안 분석가와 관리자가 사용자에 게 정보를 버블링 하 고 Office 365 환경에서 발생 하는 작업을 식별 하는 방법을 제공 하는 방법을 제공 합니다. 이러한 정보는 위협 인텔리전스 데이터 및 시스템에 대 한 포괄적인 리포지토리를 기반으로 공격 동작과 의심 스러운 활동에 해당 하는 패턴을 강조 하는 데 사용 됩니다.
   

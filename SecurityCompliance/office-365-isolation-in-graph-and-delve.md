@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office Graph 및 Delve의 테 넌 트 격리에 대 한 설명입니다.'
-ms.openlocfilehash: 7e4951889ffd5dd52b6e3cb61c4b62a120843077
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: cb1b432dccff6c4f890ef4aeb8ea4c19989b09d5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30091120"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216808"
 ---
 # <a name="tenant-isolation-in-the-office-graph-and-delve"></a>Office Graph 및 Delve에서 테넌트 격리
 

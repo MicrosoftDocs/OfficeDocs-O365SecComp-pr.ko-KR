@@ -6,17 +6,17 @@ manager: laurawi
 ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
-description: 이 articleSupported LanguagesInstall에서에서 정크 전자 메일 보고 추가-inUninstall는 정크 메일 보고 추가 기능 정보 자세한 정보
-ms.openlocfilehash: 4204c80f298a0756f8e2fde2d0845d07570eaff9
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+description: 이 articleSupported LanguagesInstall에서 정크 메일 보고 추가 기능에 대 한 자세한 내용은 정크 메일 보고 추가를 제거 합니다.
+ms.openlocfilehash: 20fb879d3a965a973513a69cf8055f0d96507e9a
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272323"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217028"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치
   
@@ -123,11 +123,11 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
     
   - MaxMessageSelection 관리자가 한 번의 클릭으로 전송을 위해 사용자가 선택할 수 있는 최대 메시지 수를 정의할 수 있습니다. 메시지 개수 범위는 1~50이며 기본값은 10개입니다.
     
-    예 16에 클릭 한번에 대 한 전송에 대 한 사용자가 선택할 수 있는 메시지의 최대 수를 설정 하려는 경우 다음 옵션의 일부로 사용 설치 명령 합니다.:`MaxMessageSelection=16`
+    예: 한 번의 클릭으로 등록을 위해 사용자가 선택할 수 있는 최대 메시지 수를 설정 하려는 경우 설치 명령의 일부로 다음 옵션을 사용 합니다.`MaxMessageSelection=16`
     
   - BccEmailAddress 관리자가 숨은 참조 전자 메일 주소를 설정하여 모든 사용자 전송의 복사본을 수신하도록 사서함을 설정할 수 있습니다. 사서함이 설정되면 전송된 모든 전자 메일 복사본이 BccEmailAddress로 전송됩니다. 그렇지 않으면 기본 설정이 "숨은 참조 전자 메일 주소 없음"입니다.
     
-    예 모든 전송에 대 한 숨은 참조 전자 메일 주소로 junkReports@contoso.com를 사용 하려는 경우 다음 명령을 사용 합니다.:`BccEmailAddress="junkReports@contoso.com"`
+    예: junkReports@contoso.com를 모든 전송에 대 한 숨은 참조 전자 메일 주소로 사용 하려면 다음 명령을 사용 합니다.`BccEmailAddress="junkReports@contoso.com"`
     
     > [!NOTE]
     > 세미콜론 구분자를 입력하여 여러 숨은 참조 전자 메일 주소를 설정할 수 있습니다. 예:  `BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"`

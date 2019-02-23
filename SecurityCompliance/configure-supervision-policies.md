@@ -7,7 +7,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: 검토할 직원 정보를 캡처하기 위해 관리 검토 정책을 설정 합니다.
-ms.openlocfilehash: dee9f21d4b88338a092a64538cca33b41cc481c4
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: af317194fcf551acde8c53cdf6aa38bfb040dc84
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090960"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216738"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -53,7 +53,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
     규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 한 역할을 하는 경우에는 감독 정책이 필요에 따라 작동 하도록 테스트 합니다.
 
-- **6 단계-(선택 사항)** [Office 365 감독 대시보드 또는 OWA를 사용 하 여 감독 된 통신을 검토 하지 않으려는 검토자를 위한 Outlook 추가 기능 설정](configure-supervision-policies.md#UseOutlook)
+- **6 단계-(선택 사항)** [outlook 추가 기능을 설정 하 여 Office 365 감독 대시보드 또는 웹용 outlook (이전의 outlook web App)을 사용 하지 않으려는 경우 감독 된 통신을 검토 합니다](configure-supervision-policies.md#UseOutlook) .
 
     outlook의 감독 추가 기능은 검토자가 outlook 클라이언트 내에서 감독 기능에 액세스 하 여 각 항목을 평가 하 고 분류할 수 있도록 합니다.
 

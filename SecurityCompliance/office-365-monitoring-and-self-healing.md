@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365의 모니터링 및 자가 복구 기능에 대 한 정보
-ms.openlocfilehash: 799c4dc97e9cc88dcc77f17b0f11ab76525012d9
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 4878ca5889c9b893154e0e7b910cb17c4b36402c
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090520"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217548"
 ---
 # <a name="office-365-monitoring-and-self-healing"></a>Office 365 모니터링 및 자동 복구
 Office 365의 규모가 광범위 하 게 제공 되는 경우, 고객 데이터를 완벽 하 게 유지 하 고, 지능적 이며, 지능형 및 안정적인 자체 치료를 수행 하는 기본 제공 모니터링 없이는 맬웨어를 완벽 하 게 보호 하 고 안전 하 게 보호할 수 없습니다. Office 365의 소수 부분에서 서비스 집합을 모니터링 하는 것은 매우 어려운 일입니다. 새로운 mindsets 및 방법론을 도입 해야 하며, 연결 된 전역 환경에서 서비스를 운영 및 관리 하기 위해 만들어야 하는 새로운 기술 집합이 필요 합니다. 데이터 수집 및 필터링의 전통적인 모니터링 방식에서 벗어나 데이터 분석을 기반으로 하는 방식에 대 한 알림을 만드는 것은 아닙니다. 해당 데이터에 대 한 신호 및 빌드 신뢰도를 확인 한 다음 자동화를 사용 하 여 문제를 복구 하거나 해결 합니다. 이 방법을 사용 하면 복구 공식에서 작업을 수행 하는 데 도움이 되며,이로 인해 작업이 덜 어렵고 오류가 발생할 가능성이 줄어듭니다. 

@@ -5,18 +5,18 @@ author: kccross
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Microsoft가 전송 중인 데이터를 암호화 하는 방법에 대 한 간략 한 설명입니다.'
-ms.openlocfilehash: fcb93bdda792a174c00bc5b2fc2153faeb049465
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: 987e923e242b47b07ad1ef65e5c7ce791c27d5bd
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29664154"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217508"
 ---
 # <a name="office-365-encryption-for-data-in-transit"></a>전송 중인 데이터에 대 한 Office 365 암호화
 

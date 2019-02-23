@@ -6,26 +6,26 @@ manager: laurawi
 ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: c3923cd3-ec84-435f-bf41-cadc37996a4b
-description: 이 항목에서는 EU 운전 면허 번호 중요 한 정보 유형을 감지 하는 경우의 데이터 손실 방지 (DLP) 정책을 찾아에 대해 보여줍니다. 이 중요 한 정보 유형 다양 한 패턴, 키워드 및 각 국가 대 한 기타 증거를 정의합니다.
-ms.openlocfilehash: 065684249f9766d567c63e6b8170d36f56692e45
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 드라이버의 라이선스 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
+ms.openlocfilehash: 86be7b52aed7581fd62ab595ac2c4b63ab33aab3
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533461"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217748"
 ---
 # <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
-이 항목에서는 EU 운전 면허 번호 중요 한 정보 유형을 감지 하는 경우의 데이터 손실 방지 (DLP) 정책을 찾아에 대해 보여줍니다. 이 중요 한 정보 유형 다양 한 패턴, 키워드 및 각 국가 대 한 기타 증거를 정의합니다.
+이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 드라이버의 라이선스 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
   
 ## <a name="austria"></a>오스트리아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 8 개의 숫자
+공백과 구분 기호가 없는 8 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -39,9 +39,9 @@ ms.locfileid: "22533461"
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_austria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_austria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_austria_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_austria_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
 <!-- EU Driver's License Number -->
@@ -59,13 +59,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_austria_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> 드라이버의 사용권  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/>  운전 면허 번호  <br/> dlno #  <br/> fuhrerschein  <br/> fuhrerschein republik osterreich  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> 운전의 라이선스  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/>  운전 면허 번호  <br/> dlno #  <br/> fuhrerschein  <br/> fuhrerschein republik osterreich  <br/> |
    
 ## <a name="belgium"></a>벨기에
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -79,9 +79,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_belgium_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_belgium_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_belgium_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_belgium_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -99,13 +99,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords__belgium_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein nr  <br/> fuehrerschein Nr  <br/> fuehrerschein nr  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> |
    
 ## <a name="bulgaria"></a>불가리아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 숫자 9 개
+공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -119,9 +119,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_bulgaria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_bulgaria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_bulgaria_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_bulgaria_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -139,13 +139,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_bulgaria_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> СВИДЕТЕЛСТВО ЗА УПРАВЛЕНИЕ НА МПС  <br/> СВИДЕТЕЛСТВО ЗА УПРАВЛЕНИЕ НА МОТОРНО ПРЕВОЗНО СРЕДСТВО  <br/> СУМПС  <br/> ШОФЬОРСКА КНИЖКА  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> свидетелство за управление на мпс  <br/> свидетелство за управление на моторно превозно средство  <br/> сумпс  <br/> шофьорска книжка  <br/> |
    
 ## <a name="croatia"></a>크로아티아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 8 개의 숫자
+공백과 구분 기호가 없는 8 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -159,9 +159,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_croatia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_croatia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_croatia_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_croatia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -179,13 +179,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_croatia_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozačka dozvola  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozačka dozvola  <br/> |
    
 ## <a name="cyprus"></a>키프로스
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 12 자리
+공백과 구분 기호를 사용 하지 않고 12 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -199,9 +199,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_cyprus_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_cyprus_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_cyprus_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_cyprus_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -218,19 +218,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_cyprus_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ΆΔΕΙΑ ΟΔΉΓΗΣΗΣ  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> άδεια οδήγησης  <br/> |
    
 ## <a name="czech-republic"></a>체코 공화국
 
 ### <a name="format"></a>형식
 
-6 자리 숫자 앞에 오는 두 문자
+2 개의 문자 다음에 6 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-8 대 문자와 숫자:
+8 개의 문자 및 숫자:
   
-- 두 문자 (대 소문자 구분 안함)
+- 2 개 문자 (대/소문자 구분 안 함)
     
 - 공백 1개(선택 사항)
     
@@ -244,9 +244,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_czech_republic_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_czech_republic_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_czech_republic_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_czech_republic_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -264,13 +264,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_czech_republic_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> Řidičský prúkaz  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> řidičský prúkaz  <br/> |
    
 ## <a name="denmark"></a>덴마크
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 8 개의 숫자
+공백과 구분 기호가 없는 8 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -284,9 +284,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_denmark_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_denmark_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_denmark_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_denmark_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -304,19 +304,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_denmark_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> kørekort  <br/> kørekortnummer  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> kørekort  <br/> kørekortnummer  <br/> |
    
 ## <a name="estonia"></a>에스토니아
 
 ### <a name="format"></a>형식
 
-6 자리 숫자 앞에 오는 두 문자
+2 개의 문자 다음에 6 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-두 대 문자와 6 자리 숫자:
+2 개의 문자와 6 자리 숫자:
   
--  문자 "ET" (대 소문자 구분 안함) 
+-  문자 "ET" (대/소문자 구분 안 함) 
     
 - 6자리 숫자
     
@@ -328,9 +328,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_estonia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_estonia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_estonia_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_estonia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -347,7 +347,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_estonia_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> 
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> 
 permis de conduire  <br/> |
    
 ## <a name="finland"></a>핀란드
@@ -374,9 +374,9 @@ permis de conduire  <br/> |
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_finland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_finland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_finland_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_finland_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -393,21 +393,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_finland_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ajokortti  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ajokortti  <br/> |
    
 ## <a name="france"></a>프랑스
 
-자세한 내용은의 섹션을 참조 "프랑스 운전 면허 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"경기도 운전 면허 번호" 섹션을 참조 하십시오.
   
 ## <a name="germany"></a>독일
 
-자세한 내용은의 섹션을 참조 "독일 운전 면허 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"독일어 운전 면허 번호" 섹션을 참조 하십시오.
   
 ## <a name="greece"></a>그리스
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 숫자 9 개
+공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -421,9 +421,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_greece_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_greece_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_greece_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_greece_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -440,19 +440,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_greece_eu_driver's_license_number**|
 |:-----|
-|dlL #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ΔΕΙΑ ΟΔΉΓΗΣΗΣ  <br/> Adeia odigisis  <br/> |
+|dlL  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
    
 ## <a name="hungary"></a>헝가리
 
 ### <a name="format"></a>형식
 
-6 자리 숫자 앞에 오는 두 문자
+2 개의 문자 다음에 6 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-두 대 문자와 6 자리 숫자:
+2 개의 문자와 6 자리 숫자:
   
--  두 문자 (대 소문자 구분 안함) 
+-  2 개 문자 (대/소문자 구분 안 함) 
     
 - 6자리 숫자
     
@@ -464,9 +464,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_hungary_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_hungary_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_hungary_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_hungary_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -483,21 +483,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_hungary_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vezetoi engedely  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vezetoi  <br/> |
    
 ## <a name="ireland"></a>Ireland
 
 ### <a name="format"></a>형식
 
-4 개의 문자 앞에 오는 6 자리 숫자
+6 자리 숫자와 4 개 문자
   
 ### <a name="pattern"></a>패턴
 
-6 자리 숫자 및 4 개의 문자:
+6 자리 숫자와 4 개 문자:
   
 - 6자리 숫자
     
-- 4 개의 문자 (대 소문자 구분 안함)
+- 4 개 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>체크섬
 
@@ -507,9 +507,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_ireland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_ireland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_ireland_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_ireland_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -526,23 +526,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_ireland_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ceadúnas tiomána  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ceadúnas tiomána  <br/> |
    
 ## <a name="italy"></a>이탈리아
 
-자세한 내용은의 섹션을 참조 "이탈리아 운전 면허 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"이탈리아 운전 면허 번호" 섹션을 참조 하십시오.
   
 ## <a name="latvia"></a>라트비아
 
 ### <a name="format"></a>형식
 
-6 자리 숫자 앞에 오는 세 개 문자
+3 개의 문자 및 6 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-3 대 문자와 6 자리 숫자:
+3 개의 문자 및 6 자리 숫자:
   
--  세 개 문자 (대 소문자 구분 안함) 
+-  3 개 문자 (대/소문자 구분 안 함) 
     
 - 6자리 숫자
     
@@ -554,9 +554,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_latvia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_latvia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_latvia_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_latvia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -573,13 +573,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_latvia_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> autovadītāja apliecība  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> autovadītāja apliecība  <br/> |
    
 ## <a name="lithuania"></a>리투아니아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 8 개의 숫자
+공백과 구분 기호가 없는 8 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -593,9 +593,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_lithuania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_lithuania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_lithuania_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_lithuania_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -612,13 +612,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_lithuania_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vairuotojo pažymėjimas  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vairuotojo pažymėjimas  <br/> |
    
-## <a name="luxemburg"></a>룩셈부르크
+## <a name="luxemburg"></a>셈
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 6 자리 숫자
+공백과 구분 기호가 없는 6 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -632,9 +632,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_luxemburg_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_luxemburg_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_luxemburg_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_luxemburg_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -651,19 +651,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_luxemburg_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> fahrerlaubnis  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> fahrerlaubnis  <br/> |
    
 ## <a name="malta"></a>몰타
 
 ### <a name="format"></a>형식
 
-두 문자 및 지정된 된 패턴에 6 자리 숫자의 조합
+지정 된 패턴에서 두 개의 문자와 6 자리 숫자 조합
   
 ### <a name="pattern"></a>패턴
 
-두 문자와 6 자리 숫자의 조합 합니다.
+두 문자와 6 자리 숫자의 조합:
   
-- 두 문자 (숫자 또는 문자, 대 소문자 구분 안함)
+- 2 개 문자 (대/소문자 구분 안 함)
     
 - 공백 1개(선택 사항)
     
@@ -681,9 +681,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_malta_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_malta_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_malta_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_malta_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
 <!-- EU Driver's License Number -->
@@ -700,13 +700,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_malta_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> liċenzja 게 sewqan  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> liċenzja tas-sewqan  <br/> |
    
 ## <a name="netherlands"></a>네덜란드
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -720,9 +720,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_netherlands_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_netherlands_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_netherlands_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_netherlands_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -739,18 +739,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_netherlands_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> 
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> 
 permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
    
 ## <a name="poland"></a>폴란드
 
 ### <a name="format"></a>형식
 
-2 슬래시를 포함 하는 14 자리 숫자
+두 개의 슬래시를 포함 하는 14 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-14 숫자 및 2 슬래시:
+14 자리 숫자와 2 개의 슬래시:
   
 -  5자리 숫자 
     
@@ -770,9 +770,9 @@ permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_poland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_poland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_poland_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_poland_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -789,19 +789,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_poland_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> prawo jazdy  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> prawo jazdy  <br/> |
    
 ## <a name="portugal"></a>포르투갈
 
 ### <a name="format"></a>형식
 
-지정된 된 패턴에 일곱 개의 숫자 앞에 오는 두 문자
+두 개의 문자와 지정 된 패턴에 있는 일곱 개의 숫자
   
 ### <a name="pattern"></a>패턴
 
-특수 문자가 포함 된 7 번호 앞에 오는 두 문자 수:
+두 문자 다음에 특수 문자를 사용한 7 개의 숫자를 입력 합니다.
   
--  두 문자 (대 소문자 구분 안함) 
+-  2 개 문자 (대/소문자 구분 안 함) 
     
 - 하이픈
     
@@ -819,9 +819,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_portugal_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_portugal_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_portugal_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_portugal_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -838,19 +838,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_portugal_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> carteira de motorista  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> carteira de motorista  <br/> |
    
 ## <a name="romania"></a>루마니아
 
 ### <a name="format"></a>형식
 
-8 개의 숫자 앞에 오는 문자 하나
+한 문자 다음에 8 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-8 개의 숫자 앞에 오는 문자 하나:
+1 개의 문자 다음에 8 자리 숫자:
   
--  하나의 문자 (대 소문자 구분 안함) 또는 숫자 
+-  1 개 문자 (대/소문자 구분 안 함) 또는 숫자 
     
 - 8자리 숫자
     
@@ -862,9 +862,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_romania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_romania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_romania_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_romania_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -881,19 +881,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_romania_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conducere  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conducere  <br/> |
    
 ## <a name="slovakia"></a>슬로바키아
 
 ### <a name="format"></a>형식
 
-7 자리 숫자 앞에 오는 문자 하나
+한 문자 다음에 7 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-7 자리 숫자 앞에 오는 문자 하나
+한 문자 다음에 7 자리 숫자
   
-- 하나의 문자 (대 소문자 구분 안함) 또는 숫자
+- 1 개 문자 (대/소문자 구분 안 함) 또는 숫자
     
 -  7자리 숫자 
     
@@ -905,9 +905,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_slovakia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_slovakia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_slovakia_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_slovakia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -924,13 +924,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_slovakia_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vodičský preukaz  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vodičský preukaz  <br/> |
    
 ## <a name="slovenia"></a>슬로베니아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 숫자 9 개
+공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -944,9 +944,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_slovenia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_slovenia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_slovenia_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_slovenia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -963,21 +963,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_slovenia_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozniško dovoljenje  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozniško dovoljenje  <br/> |
    
 ## <a name="spain"></a>스페인
 
 ### <a name="format"></a>형식
 
-한 문자 앞에 오는 8 개의 숫자
+8 자리 숫자와 문자 1 개
   
 ### <a name="pattern"></a>패턴
 
-8 개의 숫자를 한 글자 앞에 오는:
+8 자리 숫자와 문자 1 개:
   
 -  8자리 숫자 
     
-- 한 자리 숫자 또는 문자 (대 소문자 구분 안함)
+- 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>체크섬
 
@@ -987,9 +987,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_spain_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_spain_eu_driver's_license_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_spain_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_spain_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -1006,9 +1006,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_spain_eu_driver's_license_number**|
 |:-----|
-|dlno #  <br/> dl #  <br/> 드라이버 lic 합니다.  <br/> 드라이버 사용권  <br/> 드라이버 라이선스  <br/> drivers licence  <br/> 
-drivers license  <br/> 드라이버의 사용권  <br/> 드라이버의 라이선스  <br/> driving licence
-  <br/> 라이선스를 제어합니다.  <br/> 드라이버 사용권 번호  <br/> 운전 면허 번호  <br/> 드라이버는 사용권 번호  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> driving 사용권 번호  <br/> 운전 면허 번호  <br/> 허용 제어  <br/> 허용 수를 제어합니다.  <br/> permiso de conducción  <br/> permiso conducción  <br/> número licencia conducir  <br/> número de carnet de conducir  <br/> número carnet conducir  <br/> licencia conducir  <br/> número de permiso de conducir  <br/> número de permiso conducir  <br/> número permiso conducir  <br/> permiso conducir  <br/> licencia de manejo  <br/> el carnet de conducir  <br/> carnet conducir  <br/> |
+|dlno #  <br/> dl  <br/> drivers lic  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스  <br/> drivers licence  <br/> 
+drivers license  <br/> 운전의 라이선스  <br/> 운전 면허  <br/> driving licence
+  <br/> 운전 면허  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 영향 요소 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 추진 허용  <br/> 제어 허용 번호  <br/> permiso de conducción  <br/> permiso conducción  <br/> número licencia conducir  <br/> número de 네트워크 de conducir  <br/> número carnet conducir  <br/> licencia conducir  <br/> número de permiso de conducir  <br/> número de permiso conducir  <br/> número permiso conducir  <br/> permiso conducir  <br/> licencia de manejo  <br/> el carnet de conducir  <br/> carnet conducir  <br/> |
    
 ## <a name="sweden"></a>스웨덴
 
@@ -1034,9 +1034,9 @@ drivers license  <br/> 드라이버의 사용권  <br/> 드라이버의 라이�
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_sweden_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_sweden_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_sweden_eu_driver's_license_number` 를 찾을 수 있습니다. 
+- from `Keywords_sweden_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -1053,11 +1053,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_sweden_eu_driver's_license_number**|
 |:-----|
-|dl #  <br/> 드라이버 라이선스  <br/> 운전 면허 번호  <br/> 드라이버 사용권  <br/> 드라이버 lic 합니다.  <br/> 운전 면허  <br/> drivers licence  <br/> 드라이버의 라이선스  <br/> 운전 면허 번호  <br/> 드라이버의 사용권 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> körkort  <br/> |
+|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> körkort  <br/> |
    
-## <a name="uk"></a>영국
+## <a name="uk"></a>영국의
 
-자세한 내용은의 섹션을 참조 "영국 운전 면허 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"영국 운전 면허 번호" 섹션을 참조 하십시오.
   
 ## <a name="see-also"></a>참고 항목
 

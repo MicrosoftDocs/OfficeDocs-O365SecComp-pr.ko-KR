@@ -5,18 +5,18 @@ author: kccross
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Skype, OneDrive, SharePoint 및 Exchange Online의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: c8f3658a2d76bd9184babe7729236309ec1feb30
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: b08b9d00dc83ab59cf2f5b979fb9b6079990a8e8
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29664144"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216938"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint online 및 Exchange Online에 대 한 Office 365 암호화
 

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,59 +14,59 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1dad52075303450673e7f48b87e2952e35629a5e
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 50fcf679b5cd17a079765bfca5435088bef4c06e
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29706089"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217688"
 ---
 # <a name="load-non-office-365-data-into-a-working-set"></a>작업 집합에 비 Office 365 데이터 로드
 
-Office 365 고급 eDiscovery와 분석 해야할 수 있는 모든 문서는 Office 365에서 live 됩니다. 비-Office 365 콘텐츠가 포함 된 고급 eDiscovery로 분석 되어 있으므로 작업 집합으로 Office 365에서 살고 있지는 문서를 업로드할 수 있는 고급 eDiscovery의 기능을 가져옵니다. 이 절차를 분석을 위해 고급 eDiscovery에 Office 365가 아닌 문서를 가져오는 방법을 보여줍니다.
+office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문서는 office 365에 살고 있습니다. 고급 ediscovery의 office가 아닌 365 콘텐츠 가져오기 기능을 사용 하 여 office 365에 없는 문서를 고급 ediscovery로 분석 하도록 작업 집합에 업로드할 수 있습니다. 이 절차에서는 분석을 위해 비 Office 365 문서를 고급 eDiscovery로 가져오는 방법을 보여 줍니다.
 
 >[!Note]
 >Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 Office 365 Enterprise E5 평가판을 등록할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
-이 절차의 설명에 따라 업로드 비 Office 365 기능을 사용 하 여가 있어야 합니다.
+이 절차에 설명 된 대로 Office 이외에 업로드 365 기능을 사용 하려면 다음이 필요 합니다.
 
-- 고급 준수 추가 기능 또는 e 5 구독 Office 365 E3 합니다.
+- 고급 규정 준수 추가 기능 또는 E5 구독을 포함 하는 Office 365 E3
 
-- Office 365가 아닌 콘텐츠가 업로드 될 모든 custodians 고급 준수 추가 기능 또는 e 5 라이선스 E3 있어야 합니다.
+- 비 Office 365 콘텐츠가 업로드 되는 모든 custodians에는 고급 규정 준수 추가 기능 또는 E5 라이선스가 포함 된 E3이 있어야 합니다.
 
-- 기존 eDiscovery 사례입니다.
+- 기존 eDiscovery 사례
 
-- 더불어 당 하나의 폴더가 있으면 폴더의 이름은이 형식 *alias@domainname* 폴더에 업로드 하는 것에 대 한 파일을 모두 수집 합니다. 사용자가 Office 365 별칭 및 도메인 *alias@domainname* 이어야 합니다. 루트 폴더에 있는 모든 *alias@domainname* 폴더를 수집할 수 있습니다. 루트 폴더만 *alias@domainname* 폴더를 포함할 수을 루트 폴더에 넓게 파일이 없습니다 있어야 합니다.
+- 업로드 하기 위한 모든 파일은 custodian 마다 폴더가 하나이 고 폴더 이름이이 형식 *별칭 @ domainname* 에 있는 폴더로 수집 됩니다. *alias @ domainname* 은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 모든 *alias @ domainname* 폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는 *별칭 @ domainname* 폴더만 포함할 수 있으며 루트 폴더에는 느슨한 파일이 없어야 합니다.
 
-- EDiscovery 관리자 또는 eDiscovery 관리자가 Microsoft Azure 저장소 도구를 Office 365가 아닌 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 설치 되는 계정입니다.
+- 비 Office 365 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 ediscovery 관리자 또는 ediscovery 관리자 Microsoft Azure Storage Tools가 설치 되어 있는 계정입니다.
 
-- 여기에서 수행할 수 있는 AzCopy를 설치 합니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
+- 다음에서 수행할 수 있는 AzCopy을 설치 합니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
 
-## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>고급 eDiscovery에 Office 365가 아닌 콘텐츠를 업로드 합니다.
+## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Office 이외의 365 콘텐츠를 고급 eDiscovery에 업로드
 
-1. EDiscovery 관리자 또는 eDiscovery 관리자, 고급 eDiscovery 후에 Office 365가 아닌 데이터를 업로드는 대/소문자를 엽니다.  **집합 (영문)** 탭을 클릭 한 다음 비 Office 365 데이터를 로드 하려는 작업 집합을 선택 합니다.  작업 집합을 아직 만들지 않은 경우 그렇게 지금 수행할 수 있습니다.  마지막으로 클릭 하 고 **수행 하는 작업 관리 설정** 되지 않은 Office 365 데이터 섹션에서 **보기 업로드**
+1. ediscovery 관리자 또는 ediscovery 관리자로 서, 고급 eDiscovery를 열고 비 Office 365 데이터가 업로드 되는 사례를 엽니다.  **작업 집합** 탭을 클릭 한 다음 비 Office 365 데이터를 로드할 작업 집합을 선택 합니다.  작업 집합을 아직 만들지 않은 경우 지금 만들 수 있습니다.  마지막으로, 기능 **설정 관리** 를 클릭 한 다음 비 Office 365 데이터 섹션에서 **업로드 보기**
 
-2. 비-Office 365 데이터 가져오기 마법사를 시작 하려면 **파일 업로드** 단추를 클릭 합니다.
+2. **파일 업로드** 단추를 클릭 하 여 비 Office 365 데이터 가져오기 마법사를 시작 합니다.
 
 ![파일 업로드](../media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
 
-3. 마법사의 첫번째 단계는 단순히 파일을 업로드 하도록에 대 한 보안 Azure blob를 준비 합니다.  준비 compelted 후에을 클릭 하 고 **다음: 파일을 업로드할** 단추.
+3. 마법사의 첫 번째 단계에서는 업로드할 파일에 대 한 안전한 Azure blob만 준비 합니다.  준비가 완료 되 면 **다음: 파일 업로드** 단추를 클릭 합니다.
 
 ![비 Office 365 가져오기-준비](../media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
  
-4. **파일 업로드** 단계에서 **파일의 위치에 대 한 경로**지정 이것이 가져오기 (영문)에 계획 되지 않은 Office 365 데이터입니다.  명령은 제대로 업데이트는 AzCopy를 통해 올바른 위치를 설정 합니다.
+4. **파일 업로드** 단계에서 **파일의 위치에 대 한 경로**를 지정 합니다. 여기서는 가져오기에 사용 하는 비 Office 365 데이터가 있는 위치입니다.  올바른 위치를 설정 하면 AzCopy 명령이 제대로 업데이트 됩니다.
 
 > [!NOTE]
-> AzCopy 아직 설치 하지 않은 경우 여기에서이 수행할 수 있습니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
+> AzCopy을 아직 설치 하지 않은 경우 여기에서이 작업을 수행할 수 있습니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
 
-5. **클립보드에 복사** 링크를 클릭 하 여 미리 정의 된 명령에 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령 붙여넣고 enter 키를 누릅니다.  다음 단계에 대 한 보안 Azure blob 저장소에 파일을 업로드 됩니다.
+5. **클립보드에 복사** 링크를 클릭 하 여 미리 정의 된 명령을 복사 합니다. windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키를 누릅니다.  파일이 보안 Azure blob 저장소에 업로드 되 고 다음 단계를 진행 합니다.
 
-![비-Office 365 가져오기-파일 업로드](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
+![Office가 아닌 365 가져오기-업로드 파일](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
 
 ![비 Office 365 가져오기-AzCopy](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
-6. 마지막으로, 보안 & 준수에 다시 반환 하 고 클릭 하 고 **다음: 파일을 처리** 단추.  이 처리, 텍스트 추출 및 업로드 된 파일의 인덱싱 시작 됩니다.  처리 여기 또는 **작업** 탭에서의 진행률을 추적할 수 있습니다.  완료 되 면 새 파일 작업 집합에서 제공 됩니다.  처리가 완료 되 면 마법사를 취소할 수 있습니다.
+6. 마지막으로 보안 & 규정 준수로 돌아간 후 **다음: 프로세스 파일** 단추를 클릭 합니다.  이렇게 하면 업로드 된 파일의 처리, 텍스트 추출 및 인덱싱이 시작 됩니다.  여기에서 처리의 진행 상황과 **작업** 탭을 추적할 수 있습니다.  완료 되 면 새 파일을 작업 집합에서 사용할 수 있게 됩니다.  처리가 완료 되 면 마법사를 해제할 수 있습니다.
 
-![비-Office 365 가져오기-파일 처리](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
+![Office가 아닌 365 가져오기 프로세스 파일](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
 

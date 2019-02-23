@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365 내에서 사용할 수 있는 다양 한 모니터링 및 감사 액세스 제어에 대 한 요약입니다.'
-ms.openlocfilehash: 7a7023f61a72bd1368bb25754b33e40581a403b9
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 91d78ba3de41554755a7c19799eb1f7b25933b05
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090910"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217738"
 ---
 # <a name="monitoring-and-auditing-access-controls-in-office-365"></a>Office 365의 액세스 제어 모니터링 및 감사
 

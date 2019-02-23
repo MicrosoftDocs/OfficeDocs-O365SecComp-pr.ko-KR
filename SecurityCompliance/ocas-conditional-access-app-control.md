@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 앱 보호
+title: Office 365 Cloud App Security 조건부 액세스 앱 컨트롤을 사용하여 앱 보호
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -7,17 +7,17 @@ ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
 ms.date: 02/14/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 description: Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 실시간으로 위반 및 누출을 중단 합니다.
-ms.openlocfilehash: 8656bf9d3e028bf6b44731c397b74d9c883db707
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: 23c4b29e86eb8ba92cfa8a544d6484965ec6372b
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30103363"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217088"
 ---
-# <a name="protect-apps-with-office-365-cloud-app-security-conditional-access-app-control"></a>Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 앱 보호
+# <a name="protect-apps-with-office-365-cloud-app-security-conditional-access-app-control"></a>Office 365 Cloud App Security 조건부 액세스 앱 컨트롤을 사용하여 앱 보호
 
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|
@@ -104,7 +104,7 @@ Office 365에 대 한 조건부 Access 앱 컨트롤은 다음과 같은 추천 
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Office 365 앱에 대 한 조건부 액세스 앱 컨트롤 배포](ocas-deploy-conditional-access-app-control.md)
+- [Office 365 앱용 조건부 액세스 앱 컨트롤 배포](ocas-deploy-conditional-access-app-control.md)
 
 - [Office 365 Cloud App Security의 세션 정책에 대해 자세히 알아보기](ocas-session-policies.md)
 

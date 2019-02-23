@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365 검색에서의 테 넌 트 격리에 대 한 설명입니다.'
-ms.openlocfilehash: b9faae9f1d61af181807f60243890b5115c0d679
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: fa9ba75f6ae5b0b89e3565ffb0e6f022ab36f81b
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090810"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216868"
 ---
 # <a name="tenant-isolation-in-office-365-search"></a>Office 365 검색에서 테넌트 격리
 SharePoint Online 검색에서는 테 넌 트 간의 정보 누출을 방지 하는 보호 기능을 사용 하 여 공유 데이터 구조의 효율성을 균형 있게 조정 합니다. 이 모델에서는 다음과 같은 검색 기능을 사용 하지 않습니다.

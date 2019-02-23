@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365 내의 격리 컨트롤에 대 한 설명입니다.'
-ms.openlocfilehash: ad39f300445485e46699b509f845ac363d3041fa
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: a6ff2b11ea02334a6c47317cbb77b8d47207b552
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090970"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30217318"
 ---
 # <a name="office-365-isolation-controls"></a>Office 365 격리 컨트롤 
 
