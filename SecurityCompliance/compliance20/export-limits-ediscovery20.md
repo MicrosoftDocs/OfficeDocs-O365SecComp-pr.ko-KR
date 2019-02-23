@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 제한을 내보내기
+title: Advanced eDiscovery에서의 내보내기 제한 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: af5578ead0e676c892fa0c01bacdf42dc347d268
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+ms.openlocfilehash: f8c2ab0ea0f01f436bb1d365e3b7bd87affcef5f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608118"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220578"
 ---
-# <a name="export-limits-in-advanced-ediscovery-preview"></a><span data-ttu-id="b8990-102">고급 eDiscovery (미리 보기)에서 제한을 내보내기</span><span class="sxs-lookup"><span data-stu-id="b8990-102">Export limits in Advanced eDiscovery (Preview)</span></span>
+# <a name="export-limits-in-advanced-ediscovery-preview"></a><span data-ttu-id="fe0ac-102">Advanced eDiscovery에서의 내보내기 제한 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="fe0ac-102">Export limits in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="b8990-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="b8990-103">Content coming soon.</span></span>
+<span data-ttu-id="fe0ac-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="fe0ac-103">Content coming soon.</span></span>

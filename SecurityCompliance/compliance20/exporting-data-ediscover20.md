@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)의 경우 데이터 내보내기
+title: Advanced eDiscovery에서 사례 데이터 내보내기 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 02eccac2ecd1ee50597ddcaa8fcf0c35e724893e
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 58e64b89330ce52dead7ce00bfefac5c01c0a04b
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29695024"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218278"
 ---
-# <a name="export-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="90fe2-102">고급 eDiscovery (미리 보기)의 경우 데이터 내보내기</span><span class="sxs-lookup"><span data-stu-id="90fe2-102">Export case data in Advanced eDiscovery (Preview)</span></span>
+# <a name="export-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="40b4d-102">Advanced eDiscovery에서 사례 데이터 내보내기 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="40b4d-102">Export case data in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="90fe2-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="90fe2-103">Content coming soon.</span></span>
+<span data-ttu-id="40b4d-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="40b4d-103">Content coming soon.</span></span>

@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)의 경우 데이터를 검토 합니다.
+title: Advanced eDiscovery에서 사례 데이터 검토 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,13 +14,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 9ff7cf4a1d66271f2e7aa83ba05fc6997001c724
-ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
+ms.openlocfilehash: 385fa24cc396876307cfa1b30689624af9bbbede
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29694974"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213048"
 ---
-# <a name="review-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="26581-102">고급 eDiscovery (미리 보기)의 경우 데이터를 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="26581-102">Review case data in Advanced eDiscovery (Preview)</span></span>
+# <a name="review-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="79bcd-102">Advanced eDiscovery에서 사례 데이터 검토 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="79bcd-102">Review case data in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="26581-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="26581-103">Content coming soon.</span></span>
+<span data-ttu-id="79bcd-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="79bcd-103">Content coming soon.</span></span>
+
+<span data-ttu-id="79bcd-104">테스트 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="79bcd-104">This is test content</span></span>

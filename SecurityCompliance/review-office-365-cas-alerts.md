@@ -5,60 +5,60 @@ author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 97e9c3d9-df89-458e-924b-369becee5532
-description: Office 365 클라우드 응용 프로그램 보안에서 경고 페이지를 사용 하 여를 잠재적 문제를 보고 하 여 작업도 하지 않습니다. 해제 하 고 또는 경고를 확인 하 고, 필요한 경우에 사용자 계정이 일시 중단 수 있습니다.
-ms.openlocfilehash: ff20b913553414d796f9653108ac9b8a3d84cb74
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+description: Office 365 Cloud App Security의 알림 페이지를 사용 하 여 잠재적인 문제를 확인 하 고 조치를 취할 수 있습니다. 알림을 해제 하거나 확인 하 고 필요한 경우 사용자 계정을 일시 중단할 수 있습니다.
+ms.openlocfilehash: 6c2f9788cb238e86abc347a3a118eb08fa84e971
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29603679"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213168"
 ---
-# <a name="review-and-take-action-on-alerts-in-office-365-cloud-app-security"></a><span data-ttu-id="d8072-104">검토 하 고 필요한 작업을 Office 365 Cloud App Security 검토 및 알림 작업 수행</span><span class="sxs-lookup"><span data-stu-id="d8072-104">Review and take action on alerts in Office 365 Cloud App Security</span></span>
+# <a name="review-and-take-action-on-alerts-in-office-365-cloud-app-security"></a><span data-ttu-id="f79a8-104">검토 하 고 필요한 작업을 Office 365 Cloud App Security 검토 및 알림 작업 수행</span><span class="sxs-lookup"><span data-stu-id="f79a8-104">Review and take action on alerts in Office 365 Cloud App Security</span></span>
   
-|<span data-ttu-id="d8072-105">평가 \* *\>*\*</span><span class="sxs-lookup"><span data-stu-id="d8072-105">\*\*\*\*Evaluation\*\* \>\*\*</span></span>|<span data-ttu-id="d8072-106">계획 \* *\>*\*</span><span class="sxs-lookup"><span data-stu-id="d8072-106">\*\*\*\*Planning\*\* \>\*\*</span></span>|<span data-ttu-id="d8072-107">배포 \* *\>*\*</span><span class="sxs-lookup"><span data-stu-id="d8072-107">\*\*\*\*Deployment\*\* \>\*\*</span></span>|<span data-ttu-id="d8072-108">사용률 \* \* \*</span><span class="sxs-lookup"><span data-stu-id="d8072-108">\*\*\*\*Utilization\*\*\*\*</span></span>|
+|<span data-ttu-id="f79a8-105">계산 \* *\>*\*</span><span class="sxs-lookup"><span data-stu-id="f79a8-105">\*\*\*\*Evaluation\*\* \>\*\*</span></span>|<span data-ttu-id="f79a8-106">계획 \* *\>*\*</span><span class="sxs-lookup"><span data-stu-id="f79a8-106">\*\*\*\*Planning\*\* \>\*\*</span></span>|<span data-ttu-id="f79a8-107">배포 \* *\>*\*</span><span class="sxs-lookup"><span data-stu-id="f79a8-107">\*\*\*\*Deployment\*\* \>\*\*</span></span>|<span data-ttu-id="f79a8-108">사용률 \* \* \* \*</span><span class="sxs-lookup"><span data-stu-id="f79a8-108">\*\*\*\*Utilization\*\*\*\*</span></span>|
 |:-----|:-----|:-----|:-----|
-|[<span data-ttu-id="d8072-109">평가 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-109">Start evaluating</span></span>](office-365-cas-overview.md) <br/> |[<span data-ttu-id="d8072-110">계획을 시작합니다</span><span class="sxs-lookup"><span data-stu-id="d8072-110">Start planning</span></span>](get-ready-for-office-365-cas.md) <br/> |[<span data-ttu-id="d8072-111">배포를 시작 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-111">Start deploying</span></span>](turn-on-office-365-cas.md) <br/> |<span data-ttu-id="d8072-112">여기는!</span><span class="sxs-lookup"><span data-stu-id="d8072-112">You are here!</span></span>  <br/> [<span data-ttu-id="d8072-113">다음 단계</span><span class="sxs-lookup"><span data-stu-id="d8072-113">Next steps</span></span>](#next-steps) <br/> |
+|[<span data-ttu-id="f79a8-109">평가 시작</span><span class="sxs-lookup"><span data-stu-id="f79a8-109">Start evaluating</span></span>](office-365-cas-overview.md) <br/> |[<span data-ttu-id="f79a8-110">계획 시작</span><span class="sxs-lookup"><span data-stu-id="f79a8-110">Start planning</span></span>](get-ready-for-office-365-cas.md) <br/> |[<span data-ttu-id="f79a8-111">배포 시작</span><span class="sxs-lookup"><span data-stu-id="f79a8-111">Start deploying</span></span>](turn-on-office-365-cas.md) <br/> |<span data-ttu-id="f79a8-112">사용자가 여기 있어!</span><span class="sxs-lookup"><span data-stu-id="f79a8-112">You are here!</span></span>  <br/> [<span data-ttu-id="f79a8-113">다음 단계</span><span class="sxs-lookup"><span data-stu-id="f79a8-113">Next steps</span></span>](#next-steps) <br/> |
    
-<span data-ttu-id="d8072-114">잠재적인 문제를 확인 하 고 필요한 경우 작업을 수행 하려면 Office 365 클라우드 앱 보안에서 경고 페이지를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-114">You can use the Alerts page in Office 365 Cloud App Security to view potential issues and, if needed, take action.</span></span>
+<span data-ttu-id="f79a8-114">Office 365 Cloud App Security의 알림 페이지를 사용 하 여 잠재적인 문제를 확인 하 고 필요한 경우 조치를 취할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-114">You can use the Alerts page in Office 365 Cloud App Security to view potential issues and, if needed, take action.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="d8072-p102">이 문서에서 작업을 수행 하는 전역 관리자 또는 보안 관리자 여야 합니다. 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-p102">You must be a global administrator or security administrator to perform the tasks in this article. See [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span> 
+> <span data-ttu-id="f79a8-p102">이 문서의 작업을 수행 하려면 전역 관리자 또는 보안 관리자 여야 합니다. [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f79a8-p102">You must be a global administrator or security administrator to perform the tasks in this article. See [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span> 
   
-## <a name="how-to-get-to-the-alerts-page"></a><span data-ttu-id="d8072-117">알림 페이지로 이동 하는 방법</span><span class="sxs-lookup"><span data-stu-id="d8072-117">How to get to the Alerts page</span></span>
+## <a name="how-to-get-to-the-alerts-page"></a><span data-ttu-id="f79a8-117">알림 페이지에 액세스 하는 방법</span><span class="sxs-lookup"><span data-stu-id="f79a8-117">How to get to the Alerts page</span></span>
 
-1. <span data-ttu-id="d8072-118">클라우드 응용 프로그램 보안 포털에 이동 ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))에 로그인 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-118">Go to the Cloud App Security portal ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com)) and sign in.</span></span>
+1. <span data-ttu-id="f79a8-118">Cloud App Security portal ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com))로 이동 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-118">Go to the Cloud App Security portal ([https://portal.cloudappsecurity.com](https://portal.cloudappsecurity.com)) and sign in.</span></span>
   
-2. <span data-ttu-id="d8072-119">화면 위쪽 탐색 모음에서 **경고**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-119">In the navigation bar across the top of the screen, choose **Alerts**.</span></span><br/><span data-ttu-id="d8072-120">![경고 페이지에서 경고를 트리거한 된 및 수행 하는 모든 작업을 볼 수 있습니다.](media/3b53d4c9-4b13-435d-8547-8c0f9ae6b914.png)</span><span class="sxs-lookup"><span data-stu-id="d8072-120">![On the Alerts page, you can see alerts that were triggered and any actions taken.](media/3b53d4c9-4b13-435d-8547-8c0f9ae6b914.png)</span></span>
+2. <span data-ttu-id="f79a8-119">화면 위쪽의 탐색 모음에서 **경고**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-119">In the navigation bar across the top of the screen, choose **Alerts**.</span></span><br/><span data-ttu-id="f79a8-120">![알림 페이지에서 트리거된 알림과 수행한 모든 작업을 확인할 수 있습니다.](media/3b53d4c9-4b13-435d-8547-8c0f9ae6b914.png)</span><span class="sxs-lookup"><span data-stu-id="f79a8-120">![On the Alerts page, you can see alerts that were triggered and any actions taken.](media/3b53d4c9-4b13-435d-8547-8c0f9ae6b914.png)</span></span>
   
-## <a name="review-and-handle-alerts"></a><span data-ttu-id="d8072-121">검토 및 핸들 알림</span><span class="sxs-lookup"><span data-stu-id="d8072-121">Review and handle alerts</span></span>
+## <a name="review-and-handle-alerts"></a><span data-ttu-id="f79a8-121">알림 검토 및 처리</span><span class="sxs-lookup"><span data-stu-id="f79a8-121">Review and handle alerts</span></span>
 
-<span data-ttu-id="d8072-p103">알림 추가로 조사를 수행 해야할 수 있는 Office 365 클라우드 환경에서 작업을 파악 하는데 도움이 됩니다. 새 정책 만들기 또는 표시 경고에 따라 기존 정책을 편집 하려면 결정할 수 있습니다. 예, 이상한 위치에서 로그온 하는 관리자의 이름을 표시 하는 경우에 관리자가 특정 위치에서 Office 365에 로그인 하지 못하게 하는 정책을 설정 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-p103">Alerts help you identify activities in your Office 365 cloud environment that you might want to investigate further. You might also decide to create new policies or edit existing policies based on the alerts you see. For example, if you see an administrator logging on from a strange location, you may decide to set up a policy that prevents administrators from signing in to Office 365 from certain locations.</span></span>
+<span data-ttu-id="f79a8-p103">알림은 Office 365 클라우드 환경에서 더 자세히 조사 하려는 활동을 식별 하는 데 도움이 됩니다. 표시 되는 경고에 따라 새 정책 만들기 또는 기존 정책 편집을 결정할 수도 있습니다. 예를 들어, 관리자가 이상한 위치에서 로그온을 보게 되는 경우 관리자가 특정 위치에서 Office 365에 로그인 하지 못하도록 하는 정책을 설정 하는 것을 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-p103">Alerts help you identify activities in your Office 365 cloud environment that you might want to investigate further. You might also decide to create new policies or edit existing policies based on the alerts you see. For example, if you see an administrator logging on from a strange location, you may decide to set up a policy that prevents administrators from signing in to Office 365 from certain locations.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="d8072-125">먼저 가장 중요 한 항목을 관리할 수 있도록 **범주별** 로 또는 **심각도** 경고를 필터링 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-125">You can filter the alerts by **Category** or by **Severity** so you can manage the most important ones first.</span></span> 
+> <span data-ttu-id="f79a8-125">가장 중요 한 항목을 먼저 관리할 수 있도록 **범주** 또는 **심각도** 별로 알림을 필터링 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-125">You can filter the alerts by **Category** or by **Severity** so you can manage the most important ones first.</span></span> 
   
-<span data-ttu-id="d8072-p104">각 경고에 대해 수행할 동작을 결정할 수 있도록 어떤 인해으로 찾습니다. 경고에 대 한 자세한 내용을 보려면 및 경고를 해결 하거나 일시 중단 하는 사용자 계정 등의 작업을 수행할 세부 정보 페이지를 열려면 경고를 선택 합니다. 세부 정보 페이지에서 활동 로그, 계정 및 경고와 관련 된 사용자를 검토 하 고 다음과 같은 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-p104">For each alert, look into what caused it so you can decide what action to take. To see more details about an alert and to take action, such as resolving the alert or suspending a users account, choose the alert to open a details page. On the details page, you can review the activity log, accounts, and users that are related to the alert, and take actions such as the following:</span></span>
+<span data-ttu-id="f79a8-p104">각 경고에 대해 발생 한 결과를 확인 하 여 수행할 작업을 결정할 수 있습니다. 경고에 대 한 세부 정보를 확인 하 고 경고를 해결 하거나 사용자 계정을 일시 중단 하는 등의 조치를 취해야 하는 경우에는 경고를 선택 하 여 세부 정보 페이지를 엽니다. 세부 정보 페이지에서 경고와 관련 된 활동 로그, 계정 및 사용자를 검토 하 고 다음과 같은 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-p104">For each alert, look into what caused it so you can decide what action to take. To see more details about an alert and to take action, such as resolving the alert or suspending a users account, choose the alert to open a details page. On the details page, you can review the activity log, accounts, and users that are related to the alert, and take actions such as the following:</span></span>
   
-- <span data-ttu-id="d8072-p105">**해제** 경고 가양성 했으므로,이 해제 합니다. 필요에 따라 해제할 이유를 설명 하는 메모를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-p105">**Dismiss** If the alert was a false positive, dismiss it. You can optionally add a comment explaining why you dismissed it.</span></span> 
+- <span data-ttu-id="f79a8-p105">**해제** 경고가 가양성 이면 해제 합니다. 필요한 경우이를 해제 한 이유를 설명 하는 주석을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-p105">**Dismiss** If the alert was a false positive, dismiss it. You can optionally add a comment explaining why you dismissed it.</span></span> 
     
-- <span data-ttu-id="d8072-p106">**경고를 해결 합니다.** 알고 있는 활동에 대 한 위협 요소 되지 않습니다 하 여 경고가 발생 하는 경우,이 해결 합니다. 필요에 따라 해결 한 이유를 설명 하는 메모를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-p106">**Resolve alert** If the alert was triggered by an activity that you know isn't a threat, resolve it. You can optionally add a comment explaining why you resolved it.</span></span> 
+- <span data-ttu-id="f79a8-p106">**경고 해결** 위협이 아닌 것으로 확인 된 활동에 의해 경고가 트리거된 경우 문제를 해결 합니다. 원하는 경우 해결 된 이유를 설명 하는 설명을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-p106">**Resolve alert** If the alert was triggered by an activity that you know isn't a threat, resolve it. You can optionally add a comment explaining why you resolved it.</span></span> 
     
-- <span data-ttu-id="d8072-133">**일시 중단** 허가 되지 않은 기호 기능 등 해당 사용자를 알고 있는 경우 다른 국가에서 로그인 사용자 계정에는 로컬 사무실에서 물리적으로, 의심 되 [는 계정을 일시 중단](suspend-or-restore-an-account-in-ocas.md) 상황을 조사 하는 동안 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-133">**Suspend** If you suspect unauthorized sign ins on an account, for example, someone signing in from another country when you know that person is physically at a local office, you can [suspend the account](suspend-or-restore-an-account-in-ocas.md) while you investigate what's going on.</span></span> 
+- <span data-ttu-id="f79a8-133">**일시 중단** 예를 들어 사용자가 실제로 로컬 사무실에 있음을 알게 될 때 다른 국가에서 로그인 하는 사용자와 같은 계정에 대 한 권한 없는 로그인으로 의심 되는 경우에는 어떤 일이 진행 되는지 조사 하는 동안 [계정을 일시 중단할](suspend-or-restore-an-account-in-ocas.md) 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f79a8-133">**Suspend** If you suspect unauthorized sign ins on an account, for example, someone signing in from another country when you know that person is physically at a local office, you can [suspend the account](suspend-or-restore-an-account-in-ocas.md) while you investigate what's going on.</span></span> 
     
-## <a name="next-steps"></a><span data-ttu-id="d8072-134">다음 단계</span><span class="sxs-lookup"><span data-stu-id="d8072-134">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="f79a8-134">다음 단계</span><span class="sxs-lookup"><span data-stu-id="f79a8-134">Next steps</span></span>
 
-- [<span data-ttu-id="d8072-135">활동 조사</span><span class="sxs-lookup"><span data-stu-id="d8072-135">Investigate an activity</span></span>](investigate-an-activity-in-office-365-cas.md)
+- [<span data-ttu-id="f79a8-135">활동 조사</span><span class="sxs-lookup"><span data-stu-id="f79a8-135">Investigate an activity</span></span>](investigate-an-activity-in-office-365-cas.md)
     
-- [<span data-ttu-id="d8072-136">일시 중단 또는 사용자 계정 복원</span><span class="sxs-lookup"><span data-stu-id="d8072-136">Suspend or restore a user account</span></span>](suspend-or-restore-an-account-in-ocas.md)
+- [<span data-ttu-id="f79a8-136">사용자 계정 일시 중단 또는 복원</span><span class="sxs-lookup"><span data-stu-id="f79a8-136">Suspend or restore a user account</span></span>](suspend-or-restore-an-account-in-ocas.md)
     
-- <span data-ttu-id="d8072-137">지원 되는 [웹 트래픽 로그 및 데이터 원본](web-traffic-logs-and-data-sources-for-ocas.md) 목록 보기</span><span class="sxs-lookup"><span data-stu-id="d8072-137">View a list of supported [Web traffic logs and data sources](web-traffic-logs-and-data-sources-for-ocas.md)</span></span>
+- <span data-ttu-id="f79a8-137">지원 되는 [웹 트래픽 로그 및 데이터 원본](web-traffic-logs-and-data-sources-for-ocas.md) 목록 보기</span><span class="sxs-lookup"><span data-stu-id="f79a8-137">View a list of supported [Web traffic logs and data sources](web-traffic-logs-and-data-sources-for-ocas.md)</span></span>
     
-- <span data-ttu-id="d8072-138">[Office 365 클라우드 응용 프로그램 보안에 대 한 사용률 활동](utilization-activities-for-ocas.md) 을 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="d8072-138">Review your [utilization activities for Office 365 Cloud App Security](utilization-activities-for-ocas.md)</span></span>
+- <span data-ttu-id="f79a8-138">[Office 365 Cloud App Security에 대 한 사용률 작업](utilization-activities-for-ocas.md) 검토</span><span class="sxs-lookup"><span data-stu-id="f79a8-138">Review your [utilization activities for Office 365 Cloud App Security](utilization-activities-for-ocas.md)</span></span>
     
 
