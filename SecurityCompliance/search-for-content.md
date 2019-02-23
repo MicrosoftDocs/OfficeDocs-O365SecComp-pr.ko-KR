@@ -1,85 +1,85 @@
 ---
-title: Office 365에 콘텐츠 검색
+title: Office 365에서 콘텐츠 검색
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 4/4/2018
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
-description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 Office 365 보안에서 &amp; SharePoint 사이트 및 OneDrive 위치와 인스턴트 메시징 비즈니스를 위한 Skype에서 대화에 있는 문서를 준수 센터 Exchange 사서함에서 전자 메일을 신속 하 게 찾을 수 있습니다.
-ms.openlocfilehash: 96a30bfe7b7cc5a1398cafa66577f0b7dc681d23
-ms.sourcegitcommit: 147768bbe44c8c98c02fa29ae9d882cee4ec2d6b
+description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾습니다.
+ms.openlocfilehash: 255ddbde4488ab5e7d13872cea95398ed5fd4d75
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "26238400"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214538"
 ---
-# <a name="search-for-content-in-office-365"></a>Office 365에 콘텐츠 검색
+# <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
 
-콘텐츠 검색 도구를 사용 하 여 보안에서 &amp; SharePoint 사이트 및 OneDrive 위치와 인스턴트 메시징 비즈니스를 위한 Skype에서 대화에 있는 문서를 준수 센터 Exchange 사서함에서 전자 메일을 신속 하 게 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 전자 메일, 문서 및 인스턴트 메시징 팀이 Microsoft 및 Office 365 그룹 등의 Office 365 공동 작업 도구에서 대화를 검색할 수 있습니다.
+보안 &amp; 및 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일 검색 도구를 사용 합니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 office 365 그룹과 같은 office 365 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
   
 ## <a name="search-for-content"></a>콘텐츠 검색
 
-첫번째 단계를 검색 하 고 특정 항목에 대 한 검색 키워드 쿼리를 구성 하는 콘텐츠 위치를 선택 하는 콘텐츠 검색 도구를 사용 하 여 시작 하는 것입니다. 또는 방금 쿼리는 비워둡니다 하 고 대상 위치에 있는 모든 항목을 반환할 수 있습니다.
+첫 번째 단계는 콘텐츠 검색 도구를 사용 하 여 검색 하 고 특정 항목을 검색할 키워드 쿼리를 구성 하는 콘텐츠 위치를 선택 하는 것입니다. 또는 쿼리를 비워 둔 상태로 대상 위치의 모든 항목을 반환할 수 있습니다.
   
-- [만들기 및 실행](content-search.md) 콘텐츠 검색 
+- 콘텐츠 검색 [만들기 및 실행](content-search.md) 
     
-- 검색 범위를 좁히려면 [검색 쿼리 및 조건을 사용 하 여 빌드](keyword-queries-and-search-conditions.md) 
+- 검색 [쿼리를 작성 하 고 조건을 사용](keyword-queries-and-search-conditions.md) 하 여 검색 범위 좁히기 
     
-- [필터링 하는 검색 권한을 구성](permissions-filtering-for-content-search.md) eDiscovery 관리자 조직에만 사이트 또는 사서함의 하위 집합을 검색할 수 있도록 
+- eDiscovery 관리자가 조직에 있는 사서함 또는 사이트의 하위 집합만 검색할 수 있도록 [검색 권한 필터링을 구성](permissions-filtering-for-content-search.md) 합니다. 
     
-- 특정 전자 메일 메시지에 대 한 검색을 [실행합니다 하는 ID 목록 검색](csv-file-for-an-id-list-content-search.md) 
+- [ID 목록 검색을 실행](csv-file-for-an-id-list-content-search.md) 하 여 특정 전자 메일 메시지 검색 
     
-- Office 365의 온-프레미스 사용자를 위한 [클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
+- Office 365에서 온-프레미스 사용자에 대 한 [클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
 
-- 검색 및 다음 구체화 필요한 경우 쿼리 결과 대 한 [키워드 통계 보기](view-keyword-statistics-for-content-search.md) 
+- 검색 결과에 대 한 [키워드 통계를 확인](view-keyword-statistics-for-content-search.md) 하 고 필요한 경우 쿼리를 구체화 합니다. 
     
-- Office 365로 조직에 가져온 [제 3 자 데이터에 대 한 검색](use-content-search-to-search-third-party-data-that-was-imported.md) 
+- 조직에서 Office 365로 가져온 타사 [데이터 검색](use-content-search-to-search-third-party-data-that-was-imported.md) 
     
-- 쿼리 [대량 편집](bulk-edit-content-searches.md) 하 고 여러 검색에 대 한 콘텐츠 위치 
+- 여러 검색에 대해 쿼리 및 콘텐츠 위치를 [대량으로 편집](bulk-edit-content-searches.md) 
     
-- [보존 숨은 참조 받는 사람](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) 을 검색할 수 있도록 
+- [숨은 참조 받는 사람](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) 을 검색할 수 있도록 보존 
 
-## <a name="perform-actions-on-content-you-find"></a>찾았으면 내용에 대해 작업을 수행 합니다.
+## <a name="perform-actions-on-content-you-find"></a>찾은 콘텐츠에 대 한 작업 수행
 
-검색을 실행 하 고 필요에 따라 구체화 한 후 다음 단계는 검색에 의해 반환 된 결과 파이핑을 수행입니다. 내보내고 로컬 컴퓨터 또는 조직에서 전자 메일 공격의 경우 결과 다운로드할 수, 사용자 사서함에서 검색 결과 삭제할 수 있습니다.
+검색을 실행 하 고 필요에 따라 조정한 후에는 검색에서 반환 된 결과를 사용 하 여 다음 단계를 수행 합니다. 결과를 로컬 컴퓨터로 내보내거나 조직의 전자 메일 공격이 발생 하는 경우 사용자 사서함에서 검색 결과를 삭제할 수 있습니다.
   
-- [콘텐츠 검색 결과 내보내기](export-search-results.md) 로컬 컴퓨터에 다운로드 하 고 
+- [콘텐츠 검색 결과 내보내기](export-search-results.md) 및 로컬 컴퓨터로 다운로드 
     
-- [검색에 대 한 전자 메일 메시지를 삭제 하 고](search-for-and-delete-messages-in-your-organization.md) , 바이러스, 위험한 첨부 파일 또는 피싱 메시지 콘텐츠를 메시지와 같은 
+- 바이러스를 담당 하는 메시지, 위험한 첨부 파일 또는 피싱 메시지 등 [의 전자 메일 메시지 검색 및 삭제](search-for-and-delete-messages-in-your-organization.md) 
     
-- 실제 결과 내보내기 (영문) 하지 않고 콘텐츠 검색 결과 대 한 [보고서 내보내기](export-a-content-search-report.md) 
+- 실제 결과를 내보내지 않고 콘텐츠 검색 결과에 대 한 [보고서 내보내기](export-a-content-search-report.md) 
     
-- 검색 결과 내보낼 때 [다운로드 속도 높입니다.](increase-download-speeds-when-exporting-ediscovery-results.md) 
+- 검색 결과를 내보낼 때 [다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md) 
     
-## <a name="learn-more-about-content-search"></a>콘텐츠 검색 하는 방법에 대 한 자세한 내용은
+## <a name="learn-more-about-content-search"></a>콘텐츠 검색에 대해 자세히 알아보기
 
-콘텐츠 검색 사용 하기 쉬운 이지만 강력한 도구 이기도 합니다. 백그라운드, 것 많습니다. 것에 대해 알고 하 고 해당 동작 및 적용 되는 제한 이해 하는 더, 수록 성공적으로 사용할 해당 조직의 검색 및 조사 요구 사항에 대 한 합니다. 에 대해 설명 합니다.
+콘텐츠 검색은 쉽게 사용할 수 있지만 강력한 도구 이기도 합니다. 배후에는 많은 작업이 진행 되 고 있습니다. 이에 대해 더 자세히 알아보고 해당 동작 및 제한 사항을 이해 하 고 있으면 조직의 검색 및 조사 요구에 따라이를 더 성공적으로 사용할 수 있습니다. 자세한 정보:
   
-- [부분적으로 Exchange 및 SharePoint의 항목을 인덱스](partially-indexed-items-in-content-search.md) 및 포함 하거나 내보내고를 다운로드 하는 경우를 제외 하는 방법에 대 한 검색 결과 
+- [Exchange 및 SharePoint의 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md) 및 검색 결과를 내보내고 다운로드할 때이를 포함 하거나 제외 하는 방법 
     
-- [부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md) 하 고 자신에 게 조직의 노출 결정 
+- [부분적으로 인덱싱된 항목을 조사](investigating-partially-indexed-items-in-ediscovery.md) 하 고 조직의 소속 그룹에 대 한 노출을 확인 합니다. 
     
-- [콘텐츠 검색 도구의 범위](limits-for-content-search.md)를 한번에 실행할 수 있는 검색의 최대 수는 최대 하나의 검색에 포함할 수 있는 콘텐츠 위치 등 
+- 한 번에 실행할 수 있는 최대 검색 수 및 단일 검색에 포함할 수 있는 최대 콘텐츠 위치 수와 같은 [콘텐츠 검색 도구에 대 한 제한](limits-for-content-search.md) 
     
-- [기간 미정 및 실제 검색 결과](differences-between-estimated-and-actual-ediscovery-search-results.md) 이유가 있을 수 간 차이점을 내보내고 검색 결과 다운로드 하는 경우 필요한 이유 
+- [예상 및 실제 검색 결과](differences-between-estimated-and-actual-ediscovery-search-results.md) 와 검색 결과를 내보내고 다운로드할 때 이러한 결과가 서로 다를 수 있는 이유 
     
-- 검색 결과 해당 하는 전자 메일 메시지를 내보낼 때 사용할 수 있는 [검색 결과에서 중복](de-duplication-in-ediscovery-search-results.md) 
+- 검색 결과에 해당 하는 전자 메일 메시지를 내보낼 때 사용할 수 있는 [검색 결과의 중복](de-duplication-in-ediscovery-search-results.md) 제거 
     
-## <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 대 한 스크립트를 사용 합니다.
+## <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 스크립트 사용
 
-경우에 따라 고급 복잡 하 고 반복적인 콘텐츠 검색 작업을 수행 해야 합니다. 이러한 경우는 것이 보안에서 PowerShell 명령을 사용 하 여 빠르고 쉽게 &amp; 준수 센터입니다. 이 손쉽게 위해 다양 한 보안 만든 했을 때 &amp; 준수 센터 PowerShell 스크립트 복잡 한 콘텐츠 검색 관련 작업을 완료할 수 있도록 합니다.
+경우에 따라 고급, 복잡 및 반복적인 콘텐츠 검색 작업을 수행 해야 하는 경우가 있습니다. 이러한 경우 보안 &amp; 및 준수 센터에서 PowerShell 명령을 사용 하는 것이 쉽고 빠릅니다. 이를 용이 하 게 하기 위해 복잡 한 콘텐츠 검색 관련 작업 &amp; 을 완료 하는 데 도움이 되는 다양 한 보안 준수 센터 PowerShell 스크립트를 만들었습니다.
   
-- [특정 사서함 검색 및 사이트 폴더](use-content-search-for-targeted-collections.md) ( *컬렉션을 대상으로* 라고 함)는 사례에 응답 하는 항목은 해당 폴더에 있는 판단 
+- [특정 사서함 및 사이트 폴더 검색](use-content-search-for-targeted-collections.md) ( *대상 컬렉션* 이라고 함) 항목에 대 한 응답 항목이 해당 폴더에 있는 것을 확신 하는 경우 
     
-- 사용자의 목록에 대 한 [사서함 및 OneDrive 위치를 검색 합니다.](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 
+- 사용자 목록에 대 한 [사서함 및 OneDrive 위치 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 
     
-- [만들기, 대 한 보고서를 검색 하 고 삭제 여러](create-report-on-and-delete-multiple-content-searches.md) 빠르고 효율적으로 식별 하 고 검색 데이터를 cull 
+- 검색 데이터를 빠르고 효율적으로 식별 하 고 cull 하 [는 여러 검색 만들기, 보고 설정 및 삭제](create-report-on-and-delete-multiple-content-searches.md) 
     
-- [콘텐츠 검색을 복제](clone-a-content-search.md) 하 고 신속 하 게 동일한 콘텐츠 위치;에서 실행 하는 다른 키워드 검색 쿼리의 결과 비교 또는 스크립트를 사용 하 여 새 검색을 만들 때 많은 콘텐츠 위치를 다시 입력 하지 않고 시간을 절약할 수 
+- [콘텐츠 검색을 복제](clone-a-content-search.md) 하 고 동일한 콘텐츠 위치에서 실행 되는 서로 다른 키워드 검색 쿼리의 결과를 빠르게 비교 합니다. 또는 새 검색을 만들 때이 스크립트를 사용 하 여 많은 수의 콘텐츠 위치를 다시 입력 하지 않아도 시간을 절약할 수 있습니다. 
     
 

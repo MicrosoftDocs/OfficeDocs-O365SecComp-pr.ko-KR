@@ -1,46 +1,31 @@
 ---
-title: EOP에서 최종 사용자 스팸 알림 구성
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.audience: ITPro
-ms.topic: article
-ms.service: O365-seccomp
-ms.custom: TN2DMC
-localization_priority: Normal
-search.appverid:
-- MET150
-ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
-description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: 3acb825a0b9e15c01c8b1c3266289c273b323d88
-ms.sourcegitcommit: 234a22c61859133ed5e7988a9551a569781518a4
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23875800"
+title: "EOP에서 최종 사용자 스팸 알림 구성" krowley author: kccross manager: laurawi ms. 대상 그룹: it 전문 ms. 항목: 문서 ms. 서비스: O365-seccomp ms. custom: TN2DMC localization_priority: Normal search. appverid:
+- MET150 assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0. 컬렉션:
+    - M365-보안 준수 설명: "기본 회사 차원의 콘텐츠 필터 정책 또는 도메인에 적용 되는 사용자 지정 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다."
 ---
+
 # <a name="configure-end-user-spam-notifications-in-eop"></a>EOP에서 최종 사용자 스팸 알림 구성
   
 > [!IMPORTANT]
-> 이 항목은 온-프레미스 사서함을 보호 하는 Exchange Online Protection (EOP) 독립 실행형 고객입니다. Exchange Online 고객에 게 클라우드 호스팅 사서함을 보호 하는 대신 다음 항목을 읽어야 할: [구성 최종 사용자 스팸 알림 Exchange 온라인](configure-end-user-spam-notifications-in-exchange-online.md)합니다. 
+> 이 항목은 온-프레미스 사서함을 보호 하는 EOP (Exchange Online Protection) 독립 실행형 고객을 위한 것입니다. 클라우드 호스트 사서함을 보호 하는 exchange online 고객은 다음 항목을 대신 사용 하 여 [exchange online에서 최종 사용자 스팸 알림을 구성](configure-end-user-spam-notifications-in-exchange-online.md)해야 합니다. 
   
 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다. 최종 사용자 스팸 알림 메시지를 사용하도록 설정하면 최종 사용자가 스팸으로 격리된 메시지를 자체 관리할 수 있습니다. 예외를 포함하여 사용자나 그룹 또는 정책에 적용된 정책과 함께 최종 사용자 스팸 알림을 사용할 수는 없습니다.
   
 최종 사용자 스팸 알림에는 사용자가 구성한 기간(1일부터 15일 사이의 값을 지정할 수 있음)에 최종 사용자가 받은, 스팸으로 격리된 모든 메시지의 목록이 포함됩니다. 알림 메시지를 작성하는 언어도 구성할 수 있습니다.
   
-알림 메시지를 받은 후 최종 사용자에 게는 다음 옵션 중에서 선택할 수 있습니다.
+최종 사용자는 알림 메시지를 받은 후 다음 옵션 중에서 선택할 수 있습니다.
 
-**미리 보기** 콘텐츠 또는 작업을 수행 하기 전에 헤더를 미리 보기를 원하는 경우 메시지입니다.
+작업을 수행 하기 전에 콘텐츠나 머리글을 미리 보려면 메시지를 **미리 봅니다** .
 
-메시지를 **다운로드** 작업을 수행 하기 전에 장치에서 (해당 되는 경우)의 메시지 및 첨부 파일 검토 하려는 경우.
+작업을 수행 하기 전에 장치에서 메시지와 첨부 파일 (있는 경우)을 검토 하려는 경우 메시지를 **다운로드** 합니다.
 
-**릴리스** 메시지 스팸을 하 고 Office 365 사서함에 메시지를 보낼 수 있습니다.
+메시지가 스팸으로 아니면 Office 365에서 사서함으로 메시지를 보내도록 하려면 **릴리스** 를 선택 합니다.
 
-**릴리스 & 허용 보낸** 메시지가 스팸 도메인이 아니고 보낸 수신 허용-보낸사람 및 향후 전자 메일 받는 사람 목록에 추가 하려면 Office 365를 원하는 경우. 사용자 관리 수신 허용-보낸사람 목록 재정의 하는 다른 조직 전체 허용/차단 구성을 수 있는 것을 염두에 두십시오.
+**Release &** 메시지가 스팸으로 아니면 Office 365에서 다음 전자 메일에 대 한 수신 허용-보낸 사람 및 받는 사람 목록에 보낸 사람을 추가 하도록 하려면 보낸 사람을 선택 합니다. 관리자에 게는 수신 허용-보낸 사람 목록을 다시 정의 하는 다른 조직 전체의 allow/block 구성이 있을 수 있습니다.
 
-**릴리스 및 보고서**, 스팸 및 있습니다 메시지가 아닌 경우 사서함에 메시지를 보내고 분석을 위해 Microsoft에 보고 하려고 합니다.
+**Release & Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
 
-보낸 사람이 수신된 거부 목록에 추가 하려면 Office 365를 원하는 **블록** 선택 합니다.
+Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하려면 **차단** 합니다.
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>

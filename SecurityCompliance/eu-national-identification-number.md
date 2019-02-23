@@ -1,39 +1,39 @@
 ---
-title: EU 국가 Id 번호
+title: EU 국가 식별 번호
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2ea971bf-9434-4b61-b825-2bbd28ae6064
-description: 이 항목에서는 EU 국가 Id 번호 중요 한 정보 유형을 감지 하는 경우의 데이터 손실 방지 (DLP) 정책을 찾아에 대해 보여줍니다. 이 중요 한 정보 유형 다양 한 패턴, 키워드 및 각 국가 대 한 기타 증거를 정의합니다.
-ms.openlocfilehash: 29d2126b937ff46039284a74eb2a84f2ebbacb41
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
+ms.openlocfilehash: 9a85fd6954f39de348874e03268a2e19ae47366c
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533439"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220638"
 ---
-# <a name="eu-national-identification-number"></a>EU 국가 Id 번호
+# <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
-이 항목에서는 EU 국가 Id 번호 중요 한 정보 유형을 감지 하는 경우의 데이터 손실 방지 (DLP) 정책을 찾아에 대해 보여줍니다. 이 중요 한 정보 유형 다양 한 패턴, 키워드 및 각 국가 대 한 기타 증거를 정의합니다.
+이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
   
 ## <a name="austria"></a>오스트리아
 
 ### <a name="format"></a>형식
 
-문자, 숫자 및 특수 문자는 24 문자 조합
+문자, 숫자 및 특수 문자의 24 자 조합
   
 ### <a name="pattern"></a>패턴
 
-24 문자 수:
+24 문자:
   
--  22 문자 (대 소문자 구분 안함), 숫자, 백슬래시, 슬래시, 또는 더하기 기호 
+-  22 개 문자 (대/소문자 구분 안 함), 숫자, 백슬래시, 슬래시 또는 더하기 기호 
     
-- 두 문자 (대 소문자 구분 안함), 숫자, 백슬래시, 슬래시, 더하기 기호 또는 등호
+- 2 개의 문자 (대/소문자 구분 안 함), 숫자, 백슬래시, 슬래시, 더하기 기호 또는 등호
     
 ### <a name="checksum"></a>체크섬
 
@@ -43,9 +43,9 @@ ms.locfileid: "22533439"
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_austria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_austria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_austria_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_austria_eu_national_id_card` 키워드를 찾았습니다. 
     
 ```
  
@@ -61,11 +61,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsaustriaeunationalidcard"></a>Keywords_austria_eu_national_id_card
 
-오스트리아 identity 번호
+오스트리아 id 번호
   
-identity 국가 번호
+국가 id 번호
   
-identity 번호
+id 번호
   
 
 national id
@@ -74,25 +74,25 @@ personalausweis republik österreich
   
 ## <a name="belgium"></a>벨기에
 
-자세한 내용은의 섹션을 참조 "벨기에 국가 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"벨기에 국가 번호" 섹션을 참조 하십시오.
   
 ## <a name="bulgaria"></a>불가리아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-공백 및 구분 기호 없이 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
   
--  생일 (YYMMDD)에 해당 하는 6 자리 숫자 
+-  생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
     
-- 생일 축에 해당 하는 두 자리 숫자
+- 출생 순서에 해당 하는 2 자리 숫자
     
-- 성별에 해당 하는 한 자리 숫자: 1 여자 2 남자 및 탑재에 대 한 홀수 짝수 숫자로
+- 성별에 해당 하는 1 자리 숫자와이에 해당 하는 짝수 자리 숫자 및 암의 홀수 숫자입니다.
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -102,13 +102,13 @@ personalausweis republik österreich
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_bulgaria_national_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_bulgaria_national_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_bulgaria_national_number` 를 찾을 수 있습니다. 
+- from `Keywords_bulgaria_national_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_bulgaria_national_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_bulgaria_national_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -139,7 +139,7 @@ social security number
   
 nationalnumber #
   
-ssn #
+ssn
   
 ssn
   
@@ -153,23 +153,23 @@ bnn
   
 personalidnumber #
   
-ЕДИНЕН ГРАЖДАНСКИ НОМЕР
+единен граждански номер
   
 edinen grazhdanski nomer
   
-ЕГН
+егн
   
-ЕГН #
+егн #
   
 ## <a name="croatia"></a>크로아티아
 
-자세한 내용은의 섹션을 참조 "크로아티아 Identity Number" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"크로아티아 id 번호" 섹션을 참조 하십시오.
   
 ## <a name="cyprus"></a>키프로스
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -183,9 +183,9 @@ edinen grazhdanski nomer
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_cyprus_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_cyprus_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_cyprus_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_cyprus_eu_national_id_card` 키워드를 찾았습니다. 
     
 ```
  
@@ -203,39 +203,39 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 id 카드 번호
   
-국가 id 번호
+국가 식별 번호
   
 개인 id 번호
   
 id 카드 번호
   
-ΤΑΥΤΟΤΗΤΑΣ
+ταυτοτητασ
   
 ## <a name="czech-republic"></a>체코 공화국
 
-자세한 내용은의 섹션을 참조 "체코어 국가 Identity Number" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"체코어 국내 id 번호" 섹션을 참조 하십시오.
   
 ## <a name="denmark"></a>덴마크
 
-자세한 내용은의 섹션을 참조 "덴마크 개인 Id 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"덴마크 개인 식별 번호" 섹션을 참조 하십시오.
   
 ## <a name="estonia"></a>에스토니아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 11 자리 숫자
+공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
 11자리 숫자:
   
-- 성별 및 생일 세기에 해당 하는 한 자리 숫자 (홀수 번호 1 여자 2 남자, 짝수 여성; 1-2: 19 세기; 3-4: 20 세기; 5-6: 21 세기)
+- 출생의 성별 및 세기에 해당 하는 1 자리 숫자 (예: 암, 수, 19th 세기, 3-4:20th 세기, 5-6 = 21 세기)
     
-- 생일 (YYMMDD)에 해당 하는 6 자리 숫자
+- 출생 날짜에 해당 하는 6 자리 숫자 (YYMMDD)
     
-- 같은 날짜 태어난 장애인을 구분 하는 일련 번호에 해당 하는 세 자리 숫자
+- 같은 날짜에 태어난 사람을 구분 하는 일련 번호에 해당 하는 3 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -245,13 +245,13 @@ id 카드 번호
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_estonia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_estonia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_estonia_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_estonia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_estonia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_estonia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -274,7 +274,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 개인 식별 번호
   
-국가 id 번호
+국가 식별 번호
   
 국가 번호
   
@@ -286,23 +286,23 @@ ik
   
 isikukood
   
-id kaart
+id-kaart
   
 ## <a name="finland"></a>핀란드
 
-자세한 내용은의 섹션을 참조 "핀란드 국가 ID" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"핀란드 국가 ID" 섹션을 참조 하십시오.
   
 ## <a name="france"></a>프랑스
 
-자세한 내용은의 섹션을 참조 "프랑스 국가 ID 카드 (CNI)" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"경기도 국가 ID 카드 (cni)" 섹션을 참조 하십시오.
   
 ## <a name="germany"></a>독일
 
-자세한 내용은의 섹션을 참조 "독일 Id 카드 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"독일 id 카드 번호" 섹션을 참조 하십시오.
   
 ## <a name="greece"></a>그리스
 
-자세한 내용은의 섹션을 참조 "그리스 국가 ID 카드" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"그리스 국가 ID 카드" 섹션을 참조 하십시오.
   
 ## <a name="hungary"></a>헝가리
 
@@ -314,13 +314,13 @@ id kaart
 
 11자리 숫자:
   
--  성별 (1-2 남자, 2-탑재, 다른 번호는 1900 하기 전에 태어난 시민 또는 이중 참여 의식와 시민에 대 한 가능한도)에 해당 하는 한 자리 숫자 
+-  성별에 해당 하는 1 자리 숫자 (1gb, 2 암, 기타 번호는 두 개를 포함 하는 경우에만 발생 합니다. 
     
-- 생일 (YYMMDD)에 해당 하는 6 자리 숫자
+- 생년월일에 해당 하는 6 자리 숫자 (YYMMDD)
     
-- 일련 번호에 해당 하는 세 자리 숫자
+- 일련 번호에 해당 하는 3 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -330,13 +330,13 @@ id kaart
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_hungary_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_hungary_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_hungary_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_hungary_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_hungary_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -367,27 +367,27 @@ személyazonosító igazolvány
 
 ### <a name="format"></a>형식
 
-문자, 숫자 및 지정된 된 패턴에 포함 된 공백은 9 개 문자 조합
+지정 된 패턴에서 문자, 숫자 및 공백의 9 자 조합
   
 ### <a name="pattern"></a>패턴
 
-문자, 숫자 및 지정된 된 패턴에 포함 된 공백은 9 개 문자 조합
+지정 된 패턴에서 문자, 숫자 및 공백의 9 자 조합
   
-현재 2013 년 1 월 1 일에서:
-  
--  7자리 숫자 
-    
-- 하나 이상의 검사 숫자
-    
-- 한 칸 또는 대문자 "W" (대/소문자 구분)
-    
-2013 년 1 월 1 일 하기 전에:
+01 년 1 월 2013 일 현재 위치:
   
 -  7자리 숫자 
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
-- 한 칸 또는 대문자 (대/소문자 구분)
+- 1 개의 공백 또는 대문자 "W" (대/소문자 구분)
+    
+01 년 1 월 2013 일 이전:
+  
+-  7자리 숫자 
+    
+- 검사 숫자 1 개
+    
+- 1 개의 공백 또는 대문자 (대/소문자 구분)
     
 ### <a name="checksum"></a>체크섬
 
@@ -397,13 +397,13 @@ személyazonosító igazolvány
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 이 함수는 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
     
-- 키워드에서 발견 됩니다.
+- from 키워드를 찾았습니다.
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 이 함수는 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
     
 ```
  
@@ -422,13 +422,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsirelandeunationalidcard"></a>Keywords_ireland_eu_national_id_card
 
-개인 공공 서비스 번호
+개인 공용 서비스 번호
   
-pps 없음
+pps 아니요
   
-수익 및 사회 보험 번호
+수입 및 주민 등록 보험 번호
   
-rsi 없음
+rsi 아니요
   
 개인 식별 번호
   
@@ -439,31 +439,31 @@ identification number
   
 uimhir phearsanta seirbhíse poiblí
   
-uimh 합니다. psp
+uimh psp
   
 ## <a name="italy"></a>이탈리아
 
 ### <a name="format"></a>형식
 
-문자와 지정한 패턴의 자릿수의 16 자리의 조합
+지정 된 패턴에 해당 하는 문자 및 숫자의 16 자 조합
   
 ### <a name="pattern"></a>패턴
 
-문자와 숫자의 16 자리의 조합 합니다.
+문자와 숫자의 16 자 조합:
   
-- 패밀리 이름에서 처음 세 자음에 해당 하는 세 개 문자
+- 가족 이름에서 처음 세 개의 자음에 해당 하는 3 개의 문자
     
-- 먼저, 세번째 및 네번째에 해당 하는 세 글자로 자음 첫 사용자 이름
+- 이름의 첫 번째, 세 번째 및 네 번째 자음에 해당 하는 3 개의 문자
     
-- 마지막 생일의 연도의 숫자에 해당 하는 두 자리 숫자
+- 출생 연도의 마지막 자리에 해당 하는 2 자리 숫자
     
-- 달의 생일 편지에 해당 하는 하나의 문자-문자 사전순으로 사용 되지만 문자를 E, H, L, M, P, R T로 사용 됩니다 (따라서 1 월 A 이며 년 10 월 R)
+- 출생 월의 문자에 해당 하는 한 문자는 알파벳 순서로 사용 되지만 1 ~ E, H, L, M, P, r에 해당 하는 문자를 사용 하는 경우에만 사용할 수 있습니다.
     
-- 생일의 월의 날짜에 해당 하는 두 자리-성별을 구별 하기 위해 40 여자 생일 요일에 추가 됩니다
+- genders를 구분 하기 위해 출생 달의 날짜에 해당 하는 2 자리 숫자 (40)가 여성 생년월일에 추가 되었습니다.
     
-- 사용자 출생 여기서는 지방 자치 단체에 특정 지역 번호에 해당 하는 4 자리 숫자 (국가 수준의 코드는 외국에 사용 됨)
+- 사용자가 태어난 municipality 관련 지역 번호에 해당 하는 4 자리 숫자 (국가 전체 코드는 외국 국가에 사용 됨)
     
-- 하나의 패리티 숫자
+- 1 개의 패리티 숫자
     
 ### <a name="checksum"></a>체크섬
 
@@ -473,13 +473,13 @@ uimh 합니다. psp
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_italy_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_italy_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_italy_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_italy_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_italy_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -521,25 +521,25 @@ numero id personale
   
 codice id personale
   
-codice fiscale
+codice
   
 ## <a name="italy"></a>이탈리아
 
 ### <a name="format"></a>형식
 
-11 및 지정 된 형식 하이픈
+지정 된 형식의 11 자리 숫자 및 하이픈
   
 ### <a name="pattern"></a>패턴
 
-11 자릿수와 하이픈:
+11 자리 숫자와 하이픈:
   
--  생일 (DDMMYY)에 해당 하는 6 자리 숫자 
+-  생년월일에 해당 하는 6 자리 숫자 (ddmmyy) 
     
 - 하이픈
     
-- (19 세기 "0", 20 세기에 대 한 "1" 및 "2" 21 세기에 대 한) 생일 세기에 해당 하는 한 자리 숫자
+- 출생 세기에 해당 하는 1 자리 숫자 (19th 세기의 경우 "1", 21 세기의 경우 "2")
     
-- 임의로 생성 하는 4 자리 숫자
+- 임의로 생성 되는 4 자리 숫자
     
 ### <a name="checksum"></a>체크섬
 
@@ -549,13 +549,13 @@ codice fiscale
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_latvia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_latvia_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_latvia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_latvia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_latvia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -585,25 +585,25 @@ personalcodeno #
   
 개인 id 코드
   
-사용자가 나옵니다 kods
+가상 사용자 kods
   
 ## <a name="lithuania"></a>리투아니아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 11 자리 숫자
+공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-공백 및 구분 기호 없이 11 숫자:
+공백과 구분 기호를 사용 하지 않고 11 자리 숫자:
   
-- 사용자의 성별와 생일 세기에 해당 하는 한 자리 숫자
+- 사용자의 성별 및 출생 세기에 해당 하는 1 자리 숫자
     
--  생일 (YYMMDD)에 해당 하는 6 자리 숫자 
+-  생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
     
-- 생일의 날짜의 일련 번호에 해당 하는 세 자리 숫자
+- 출생 날짜의 일련 번호에 해당 하는 3 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -613,13 +613,13 @@ personalcodeno #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_lithuania_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_lithuania_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_lithuania_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_lithuania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_lithuania_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -648,9 +648,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 uniqueidentityno #
   
-개인 코드입니다.
+개인 코드
   
-asmeninis skaitmeninis kodas
+as메이 inis kodas
   
 unikalus identifikavimo numeris
   
@@ -658,25 +658,25 @@ piliečio paslaugos numeris
   
 unikalus identifikavimo kodas
   
-asmens kodas 합니다.
+asmens kodas
   
-## <a name="luxemburg"></a>룩셈부르크
+## <a name="luxemburg"></a>셈
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 11 자리 숫자
+공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
 11자리 숫자
   
-- 사용자의 성별와 생일 세기에 해당 하는 한 자리 숫자
+- 사용자의 성별 및 출생 세기에 해당 하는 1 자리 숫자
     
--  생일 (YYMMDD)에 해당 하는 6 자리 숫자 
+-  생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
     
-- 생일의 날짜의 일련 번호에 해당 하는 세 자리 숫자
+- 출생 날짜의 일련 번호에 해당 하는 3 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -686,9 +686,9 @@ asmens kodas 합니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_luxemburg_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_luxemburg_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_luxemburg_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_luxemburg_eu_national_id_card` 키워드를 찾았습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -723,7 +723,7 @@ uniqueidkey #
   
 개별 id
   
-eindeutige id nummer
+eindeutige id-nummer
   
 eindeutige id
   
@@ -741,15 +741,15 @@ eindeutigeid #
 
 ### <a name="format"></a>형식
 
-한 문자 앞에 오는 7 자리 숫자
+7 자리 숫자와 문자 1 개
   
 ### <a name="pattern"></a>패턴
 
-7 자리 숫자를 한 문자 앞에 오는:
+7 자리 숫자와 문자 1 개:
   
 -  7자리 숫자 
     
-- 하나의 대문자 (대/소문자 구분)
+- 대문자 1 개 (대/소문자 구분)
     
 ### <a name="checksum"></a>체크섬
 
@@ -759,13 +759,13 @@ eindeutigeid #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_malta_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_malta_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
   
-- 정규식 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -796,17 +796,17 @@ uniqueidentityno #
   
 kodiċi numerali personali
   
-numru ta ' identifikazzjoni uniku
+numru ta ' uniku
   
-numru 게 servizz taċ-ċittadin
+numru taċ-ċittadin
   
-numru ta' identità uniku
+numru ta ' uniku
   
 ## <a name="netherlands"></a>네덜란드
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 숫자 9 개
+공백이 나 구분 기호가 없는 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -820,13 +820,13 @@ numru ta' identità uniku
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_netherlands_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 발견 됩니다.
+- from 키워드를 찾았습니다.
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_netherlands_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_netherlands_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -857,29 +857,29 @@ uniqueidentityno #
   
 bsn
   
-bsn #
+bsn
   
-persoonlijke numerieke 코드
+persoonlijke 코드
   
-uniek identificatienummer
+identificatienummer
   
 burgerservicenummer
   
-uniek identiteitsnummer
+identiteitsnummer
   
 ## <a name="poland"></a>폴란드
 
-자세한 내용은의 섹션을 참조 "폴란드 국가 ID (PESEL)" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"폴란드 국가 ID (PESEL)" 섹션을 참조 하십시오.
   
 ## <a name="portugal"></a>포르투갈
 
-자세한 내용은의 섹션을 참조 "포르투갈 시민 카드 번호" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"포르투갈 시민이 카드 번호" 섹션을 참조 하십시오.
   
 ## <a name="romania"></a>루마니아
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 13 자릿수
+공백과 구분 기호가 없는 13 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -893,13 +893,13 @@ uniek identiteitsnummer
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_romania_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_romania_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_romania_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_romania_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_romania_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -928,7 +928,7 @@ cnp #
   
 고정
   
-핀 번호
+pin
   
 보험 번호
   
@@ -938,17 +938,17 @@ insurancenumber #
   
 uniqueidentityno #
   
-코드 숫자 개인
+cod 숫자 개인
   
-개인 identificare 대구
+cod identificare personal
   
-코드 unic identificare
+cod unic identificare
   
-număr 개인 unic
+număr personal unic
   
 număr identitate
   
-개인 număr identificare
+număr identificare personal
   
 număridentitate #
   
@@ -960,11 +960,11 @@ numărpersonalunic #
 
 ### <a name="format"></a>형식
 
-하나의 백슬래시를 포함 하는 10 자리 숫자
+백슬래시 하나를 포함 하는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-하나의 백슬래시를 포함 하는 10 자리 숫자:
+백슬래시 하나를 포함 하는 10 자리 숫자:
   
 ### <a name="checksum"></a>체크섬
 
@@ -974,13 +974,13 @@ numărpersonalunic #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_slovakia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_slovakia_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_slovakia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_slovakia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_slovakia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -999,9 +999,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsslovakiaeunationalidcard"></a>Keywords_slovakia_eu_national_id_card
 
-생일 번호
+돌 번호
   
-국가 id 번호
+국가 식별 번호
   
 개인 식별 번호
   
@@ -1010,7 +1010,7 @@ social security number
   
 nationalnumber #
   
-ssn #
+ssn
   
 ssn
   
@@ -1030,19 +1030,19 @@ rodne cislo
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 13 자릿수
+공백이 나 구분 기호가 없는 13 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-지정된 된 패턴의 자릿수 13:
+지정 된 패턴의 13 자리 숫자:
   
--  "LLL" 해당 생일의 연도의 세 자리 마지막 생일 (DDMMLLL)에 해당 하는 7 자리 숫자 
+-  생년월일 (ddmmlll)에 해당 하는 7 자리 숫자 이며 "lll"은 출생 연도의 마지막 세 자리에 해당 합니다. 
     
-- 생일의 영역에 해당 하는 두 자리 숫자
+- 출생 면적에 해당 하는 2 자리 숫자
     
-- 성별 및 일련 번호의 조합에 해당 하는 (000 499 1 여자 2 남자에 대 한) 및 500-999 탑재에 대 한 동일한 날에 태어난 사용자에 게는 세 자리 숫자
+- 같은 날에 태어난 사용자의 성별 및 일련 번호 조합에 해당 하는 3 자리 숫자 (남성는 000-499, 암은 500-999)
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -1052,13 +1052,13 @@ rodne cislo
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_slovenia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_slovenia_eu_national_id_card` 를 찾을 수 있습니다. 
+- from `Keywords_slovenia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_slovenia_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_slovenia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  
@@ -1081,7 +1081,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-등록 하는 고유 번호
+고유 등록 번호
   
 고유 id 번호
   
@@ -1089,11 +1089,11 @@ uniqueidentityno #
   
 고유 마스터 시민 번호
   
-edinstvena identifikacijska številka
+ed명령이 vena identifikacijska številka
   
 uniqueidentityno #
   
-edinstvena številka glavnega državljana
+ed명령이 vena številka glavnega državljana
   
 emšo
   
@@ -1101,15 +1101,15 @@ emšo
 
 ### <a name="format"></a>형식
 
-한 문자 앞에 오는 7 자리 숫자
+7 자리 숫자와 문자 1 개
   
 ### <a name="pattern"></a>패턴
 
-한 문자 앞에 오는 7 자리 숫자
+7 자리 숫자와 문자 1 개
   
 - 7자리 숫자
     
-- 한 자리 숫자 또는 문자 (대 소문자 구분 안함)
+- 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>체크섬
 
@@ -1119,9 +1119,9 @@ emšo
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_spain_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_spain_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_spain_eu_national_id_card"` 를 찾을 수 있습니다. 
+- from `Keywords_spain_eu_national_id_card"` 키워드를 찾았습니다. 
     
 ```
  
@@ -1139,15 +1139,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 dni
   
-국가 id 번호
+국가 식별 번호
   
-identity 국가 번호
+국가 id 번호
   
 보험 번호
   
 개인 식별 번호
   
-국가 identity
+국가 id
   
 개인 id 없음
   
@@ -1155,9 +1155,9 @@ identity 국가 번호
   
 nationalidno #
   
-uniqueid #
+uniqueid
   
-dni #
+dni
   
 nationalid #
   
@@ -1183,7 +1183,7 @@ identidadúnico #
   
 ## <a name="sweden"></a>스웨덴
 
-자세한 내용은의 섹션을 참조 "스웨덴 국가 ID" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"스웨덴 국가 ID" 섹션을 참조 하십시오.
   
 ## <a name="see-also"></a>참고 항목
 

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Microsoft가 Office 365의 테 넌 트 경계를 모니터링 하 고 테스트 하는 방법에 대 한 설명입니다.'
-ms.openlocfilehash: 25b6f713d766b4b12e1c250b54421ad99dff8a1c
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: fce217bfcb5fec1ba3fb6da70eb6f9da9a2c1d44
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090940"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30221098"
 ---
 # <a name="monitoring-and-testing-tenant-boundaries"></a>테넌트 경계 모니터링 및 테스트
 Microsoft는 침입 모니터링, 사용 권한 위반 시도 및 리소스 고갈를 포함 하 여 테 넌 트 경계의 약점 및 취약성에 대해 지속적으로 모니터링 하 고 명시적으로 테스트 합니다. 또한 검색 된 경우 기본 제공 제한을 트리거하는 부적절 한 리소스 사용률을 지속적으로 모니터링 하기 위해 여러 내부 시스템을 사용 합니다.

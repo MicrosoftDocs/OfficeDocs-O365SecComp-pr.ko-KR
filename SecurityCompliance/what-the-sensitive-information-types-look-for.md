@@ -9,21 +9,21 @@ search.appverid: MET150
 ms.topic: reference
 f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleContainsSensitiveInformation
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
-description: Office 365 보안에서 데이터 손실 방지 (DLP) &amp; 준수 센터 DLP 정책에서 사용 하 여 사용할 수 있는 80 중요 한 정보 유형을 포함 합니다. 이 항목 모두 이러한 중요 한 정보 유형 및 각 종류를 감지 하는 경우의 DLP 정책을 찾아 나와 있습니다.
-ms.openlocfilehash: 4b083f80e02c80053b63ee897b2515a4505c16d9
-ms.sourcegitcommit: 8c5a88433cff23c59b436260808cf3d91b06fdef
+description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요 한 정보 유형을 소개 하 고 DLP 정책이 각 유형을 검색할 때 어떤 내용을 찾을 지를 보여 줍니다.
+ms.openlocfilehash: 17fb0b8d745168f8000fba9e6fc42f3c255a1937
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27194739"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216358"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
-Office 365 보안에서 데이터 손실 방지 (DLP) &amp; 준수 센터 DLP 정책에서 사용 하 여 사용할 수 있는 많은 중요 한 정보 유형을 포함 합니다. 이 항목 모두 이러한 중요 한 정보 유형 및 각 종류를 감지 하는 경우의 DLP 정책을 찾아 나와 있습니다. 중요 한 정보 유형 정규식 또는 함수를 식별할 수 있는 패턴에 의해 정의 됩니다. 또한 확증 적 인증 거 키워드 및 체크섬와 같은 중요 한 정보 형식을 식별 하기 위해 사용할 수 있습니다. 신뢰 수준 및 근접성 평가 프로세스에도 사용 됩니다.
+Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요 한 정보 유형을 소개 하 고 DLP 정책이 각 유형을 검색할 때 어떤 내용을 찾을 지를 보여 줍니다. 중요 한 정보 유형은 정규식 이나 함수로 식별 될 수 있는 패턴으로 정의 됩니다. 또한 키워드 및 체크섬과 같은 적인 증거를 사용 하 여 중요 한 정보 유형을 식별할 수 있습니다. 정확도 수준 및 근접성도 평가 프로세스에서 사용 됩니다.
   
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
@@ -40,7 +40,7 @@ Office 365 보안에서 데이터 손실 방지 (DLP) &amp; 준수 센터 DLP �
 - 하이픈
 - 1자리 숫자
 
-포맷 되지 않음: 9 연속 되는 숫자 0, 1, 2, 3, 6, 7 또는 8로 시작 
+서식 없음: 0, 1, 2, 3, 6, 7 또는 8로 시작 하는 9 개의 연속 숫자 
 
 ### <a name="checksum"></a>체크섬
 
@@ -124,8 +124,8 @@ RTN
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_argentina_national_id 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_argentina_national_id에서 키워드를 발견 됩니다.
+- 정규식 Regex_argentina_national_id 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_argentina_national_id에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Argentina National Identity (DNI) Number -->
@@ -144,10 +144,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Argentina National Identity number
  
 - ID 
-- 식별 국가 Id 카드 
+- 식별 국가 id 카드 
 - DNI
  
-- 사용자의 NIC 국가 레지스트리 
+- 개인의 NIC 국내 레지스트리 
 - Documento Nacional de Identidad
  
 - Registro Nacional de las Personas
@@ -165,7 +165,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-계좌 번호는 6-10 자리의입니다. 호주 은행 상태 분기 번호:
+계정 번호는 6-10 자리 숫자입니다. 오스트레일리아 bank 상태 분기 번호:
 - 3자리 숫자 
 - 하이픈 
 - 3자리 숫자
@@ -288,7 +288,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 australian automobile association
 - 
 international driving permit
-- DriverLicence
+- driverlicence
 - DriverLicences
 - 드라이버 Lic
 - Driver Licence
@@ -296,48 +296,48 @@ international driving permit
 - Driver Licences
 
 - DriversLic
-- DriversLicence
+- 드라이버 라이선스
 - DriversLicences
-- 드라이버 Lic
-- 드라이버 Lics
-- 드라이버 사용권
-- 드라이버 라이센스
-- Driver'Lic
-- Driver'Lics
-- Driver'Licence
+- Drivers Lic
+- 드라이버 lics
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' Lic
+- driver'lics
+- driver' 라이선스
 - Driver'Licences
 - 드라이버 ' Lic
-- 드라이버 ' Lics
-- 드라이버 ' 사용권
-- 드라이버 ' 라이센스
+- 드라이버의 lics
+- 운전의 라이선스
+- 드라이버 ' 라이선스
 - Driver'sLic
-- Driver'sLics
+- drivers (slics)
 - Driver'sLicence
 - Driver'sLicences
 - 드라이버의 Lic
-- 드라이버의 Lics
+- 운전 lics
 - Driver's Licence
 
 - Driver's Licences
 
-- DriverLic #
-- DriverLics #
-- DriverLicence #
+- driverlic #
+- driverlics #
+- driverlicence #
 - DriverLicences #
 - Driver Lic#
 - 
 Driver Lics#
 
-- 드라이버 사용권 #
-- 드라이버 라이센스 #
+- 드라이버 라이선스 #
+- 드라이버 라이선스 #
 - DriversLic #
-- DriversLics #
-- DriversLicence #
+- driverslics #
+- 드라이버 라이선스 #
 - DriversLicences #
-- 드라이버 Lic #
-- 드라이버 Lics #
-- 드라이버 사용권 #
-- 드라이버 라이센스 #
+- Drivers Lic #
+- 드라이버 lics #
+- 드라이버 라이선스 #
+- Drivers 라이선스 #
 - Driver'Lic#
 
 - Driver'Lics#
@@ -350,46 +350,46 @@ Driver Lics#
 
 - Driver' Lics#
 
-- 드라이버 ' 사용권 #
-- 드라이버 ' 라이센스 #
+- 운전의 라이선스 번호
+- Driver ' 라이선스 #
 - Driver'sLic #
-- Driver'sLics #
+- drivers (slics #)
 - Driver'sLicence #
 - Driver'sLicences #
 - Driver's Lic#
 
 - Driver's Lics#
 
-- 드라이버의 사용권 #
-- 드라이버의 라이센스 # 
+- 운전 라이선스 #
+- 운전 라이선스 # 
 
 #### <a name="keywordaustraliadriverslicensenumberexclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
 - aaa
-- DriverLicense
-- DriverLicenses
+- driverlicense
+- driverlicenses
 - 드라이버 라이선스
 - 드라이버 라이선스
-- DriversLicense
-- DriversLicenses
+- 드라이버 라이선스
+- 드라이버 라이선스
+- Drivers License
+- 드라이버 라이선스
+- driver' 라이선스
+- driver'licenses
 - 운전 면허
-- 드라이버 라이선스
-- Driver'License
-- Driver'Licenses
-- 드라이버 ' 라이선스
-- 드라이버 ' 라이선스
-- Driver'sLicense
-- Driver'sLicenses
-- 드라이버의 라이선스
-- 드라이버의 라이선스
-- DriverLicense #
-- DriverLicenses #
+- 운전 면허증
+- driver'slicense
+- driver'slicenses
+- 운전 면허
+- 운전 면허증
+- driverlicense #
+- driverlicenses #
 - 드라이버 라이선스 #
 - 드라이버 라이선스 #
-- DriversLicense #
-- DriversLicenses #
 - 드라이버 라이선스 #
-- 드라이버 라이선스 #
+- 드라이버 라이선스 수
+- Drivers License #
+- Drivers 라이선스 #
 - Driver'License#
 
 - Driver'Licenses#
@@ -398,8 +398,8 @@ Driver Lics#
 
 - Driver' Licenses#
 
-- Driver'sLicense #
-- Driver'sLicenses #
+- driver'slicense #
+- driver'slicenses #
 - Driver's License#
 
 - 
@@ -494,7 +494,7 @@ medicare
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Regex_australia_passport_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_passport 또는 Keyword_australia_passport_number에서 키워드를 발견 됩니다.
+- Keyword_passport 또는 Keyword_australia_passport_number의 키워드를 찾았습니다.
 
 ```
 <!-- Australia Passport Number -->
@@ -542,7 +542,7 @@ Passeport n °
 
 - Passeport#
 
-- PasseportNon
+- 지/포트 아님
 - Passeportn °
 
 
@@ -688,8 +688,8 @@ tax file number
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_belgium_national_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_belgium_national_number에서 키워드를 발견 됩니다.
+- Func_belgium_national_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_belgium_national_number에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -764,12 +764,12 @@ identité
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_brazil_cpf 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_brazil_cpf에서 키워드를 발견 됩니다.
+- Func_brazil_cpf 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_brazil_cpf에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_brazil_cpf 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_brazil_cpf 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -814,7 +814,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 14자리 숫자와 구분 기호:
 - 2자리 숫자 
-- 마침표  
+- 마침표 
 - 3자리 숫자 
 - 마침표  
 - 3자리 숫자(처음 8자리 숫자는 등록 번호임)  
@@ -830,12 +830,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_brazil_cnpj 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_brazil_cnpj에서 키워드를 발견 됩니다.
+- Func_brazil_cnpj 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_brazil_cnpj에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_brazil_cnpj 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_brazil_cnpj 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -896,17 +896,17 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-Registro Geral (이전 형식): 숫자 9 개
+Registro Geral (이전 형식): 9 자리 숫자
 
-Registro de Identidade (RIC) (새 형식): 11
+Registro de Identidade (RIC) (새 형식): 11 자리 숫자
 
 ### <a name="pattern"></a>패턴
 
 Registro Geral(이전 형식):
 - 2자리 숫자 
-- 마침표  
+- 마침표 
 - 3자리 숫자 
-- 마침표  
+- 마침표 
 - 3자리 숫자 
 - 하이픈 
 - 검사 숫자에 해당하는 1자리 숫자
@@ -923,12 +923,12 @@ Registro de Identidade (RIC) (새 형식):
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_brazil_rg 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_brazil_rg에서 키워드를 발견 됩니다.
+- Func_brazil_rg 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_brazil_rg에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_brazil_rg 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_brazil_rg 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -948,7 +948,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordbrazilrg"></a>Keyword_brazil_rg
 
-Cédula de identidade id 카드 국가 id número de rregistro registro de Iidentidade registro geral (이 키워드는 대/소문자 구분) RG RIC (이 키워드는 대/소문자 구분) 
+Cédula de identidade identity card 국립 id número de rregistro registro de Iidentidade registro geral RG (이 키워드는 대/소문자를 구분 함) RIC (이 키워드는 대/소문자를 구분 함) 
    
 ## <a name="canada-bank-account-number"></a>캐나다 은행 계좌 번호
 
@@ -963,7 +963,7 @@ Cédula de identidade id 카드 국가 id número de rregistro registro de Iiden
 캐나다 은행 계좌 송금 번호:
 - 5자리 숫자 
 - 하이픈 
-- 세 자리 숫자 또는
+- 3 자리 숫자 또는
 - "0" 
 - 8자리 숫자
 
@@ -1132,16 +1132,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - DL
 - DLS
-- CDL
-- CDLS
-- DriverLic
-- DriverLics
-- DriverLicense
-- DriverLicenses
-- DriverLicence
+- cdl
+- cdls
+- driverlic
+- driverlics
+- driverlicense
+- driverlicenses
+- driverlicence
 - DriverLicences
 - 드라이버 Lic
-- 드라이버 Lics
+- 드라이버 lics
 - 드라이버 라이선스
 - 드라이버 라이선스
 - Driver Licence
@@ -1149,46 +1149,46 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Driver Licences
 
 - DriversLic
-- DriversLics
-- DriversLicence
-- DriversLicences
-- DriversLicense
-- DriversLicenses
-- 드라이버 Lic
-- 드라이버 Lics
-- 운전 면허
+- driverslics
 - 드라이버 라이선스
-- 드라이버 사용권
-- 드라이버 라이센스
-- Driver'Lic
-- Driver'Lics
-- Driver'License
-- Driver'Licenses
-- Driver'Licence
+- DriversLicences
+- 드라이버 라이선스
+- 드라이버 라이선스
+- Drivers Lic
+- 드라이버 lics
+- Drivers License
+- 드라이버 라이선스
+- 드라이버 라이선스
+- 라이선스 드라이버
+- driver' Lic
+- driver'lics
+- driver' 라이선스
+- driver'licenses
+- driver' 라이선스
 - Driver'Licences
 - 드라이버 ' Lic
-- 드라이버 ' Lics
+- 드라이버의 lics
+- 운전 면허
+- 운전 면허증
+- 운전의 라이선스
 - 드라이버 ' 라이선스
-- 드라이버 ' 라이선스
-- 드라이버 ' 사용권
-- 드라이버 ' 라이센스
 - Driver'sLic
-- Driver'sLics
-- Driver'sLicense
-- Driver'sLicenses
+- drivers (slics)
+- driver'slicense
+- driver'slicenses
 - Driver'sLicence
 - Driver'sLicences
 - 드라이버의 Lic
-- 드라이버의 Lics
-- 드라이버의 라이선스
-- 드라이버의 라이선스
+- 운전 lics
+- 운전 면허
+- 운전 면허증
 - Driver's Licence
 
 - Driver's Licences
 
 - Permis de Conduire
 - id
-- id
+- 번호가
 - 
 idcard number
 - 
@@ -1208,7 +1208,7 @@ idcard #s
 
 - 
 identification #s
-- id 카드
+- 식별 카드
 - 식별 카드
 - 
 identification
@@ -1221,11 +1221,11 @@ DLS#
  
 - CDLS#
  
-- DriverLic # 
-- DriverLics # 
-- DriverLicense # 
-- DriverLicenses # 
-- DriverLicence # 
+- driverlic # 
+- driverlics # 
+- driverlicense # 
+- driverlicenses # 
+- driverlicence # 
 - DriverLicences # 
 - Driver Lic#
 - 
@@ -1234,19 +1234,19 @@ Driver Lics#
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 # 
-- 드라이버 라이센스 # 
+- 드라이버 라이선스 # 
 - DriversLic # 
-- DriversLics # 
-- DriversLicense # 
-- DriversLicenses # 
-- DriversLicence # 
+- driverslics # 
+- 드라이버 라이선스 # 
+- 드라이버 라이선스 수 
+- 드라이버 라이선스 # 
 - DriversLicences # 
-- 드라이버 Lic # 
-- 드라이버 Lics # 
+- Drivers Lic # 
+- 드라이버 lics # 
+- Drivers License # 
+- Drivers 라이선스 # 
 - 드라이버 라이선스 # 
-- 드라이버 라이선스 # 
-- 드라이버 사용권 # 
-- 드라이버 라이센스 # 
+- Drivers 라이선스 # 
 - Driver'Lic#
  
 - Driver'Lics#
@@ -1267,12 +1267,12 @@ Driver Lics#
  
 - Driver' Licenses#
  
-- 드라이버 ' 사용권 # 
-- 드라이버 ' 라이센스 # 
+- 운전의 라이선스 번호 
+- Driver ' 라이선스 # 
 - Driver'sLic # 
-- Driver'sLics # 
-- Driver'sLicense # 
-- Driver'sLicenses # 
+- drivers (slics #) 
+- driver'slicense # 
+- driver'slicenses # 
 - Driver'sLicence # 
 - Driver'sLicences # 
 - Driver's Lic#
@@ -1283,11 +1283,11 @@ Driver Lics#
  
 - Driver's Licenses#
  
-- 드라이버의 사용권 # 
-- 드라이버의 라이센스 # 
+- 운전 라이선스 # 
+- 운전 라이선스 # 
 - Permis de Conduire # 
-- id # 
-- id # 
+- i 
+- 번호가 
 - idcard card#
  
 - idcard cards#
@@ -1372,7 +1372,7 @@ disability
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Regex_canada_passport_number 정규식이 해당 패턴과 일치하는 콘텐츠를 찾습니다.
-- Keyword_canada_passport_number 또는 Keyword_passport에서 키워드를 발견 됩니다.
+- Keyword_canada_passport_number 또는 Keyword_passport의 키워드를 찾았습니다.
 
 ``` 
 <!-- Canada Passport Number -->
@@ -1438,7 +1438,7 @@ Passeport n °
 
 - Passeport#
 
-- PasseportNon
+- 지/포트 아님
 - 
 
 Passeportn °
@@ -1459,7 +1459,7 @@ Passeportn °
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 75%에 근접 300 자 내에 있는 경우,: Regex_canada_phin 정규식 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_canada_phin 또는 Keyword_canada_provinces에서 키워드를 둘 이상 발견 되.
+DLP 정책은 300 문자 (예: Regex_canada_phin)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. Keyword_canada_phin 또는 Keyword_canada_provinces의 키워드를 두 개 이상 찾았습니다.
 
 ```
 <!-- Canada PHIN -->
@@ -1552,7 +1552,7 @@ Prince Edward Island
 - 하이픈 또는 공백 
 - 3자리 숫자
 
-숫자 9 개 포맷 되지 않음:
+서식 없음: 9 자리 숫자
 
 ### <a name="checksum"></a>체크섬
 
@@ -1603,11 +1603,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - sins
  
 - ssn 
-- ssns 
-- 공유 보안 
+- 있는 ssn 
+- 소셜 보안 
 - numero d'assurance social
  
-- 국가 id 번호 
+- 국가 식별 번호 
 - 
 national id 
 - sin#
@@ -1619,9 +1619,9 @@ national id
 
 #### <a name="keywordsincollaborative"></a>Keyword_sin_collaborative
 
-- 드라이버의 라이선스 
 - 운전 면허 
-- 드라이버의 사용권 
+- drivers license 
+- 운전의 라이선스 
 - drivers licence 
 - DOB
  
@@ -1634,7 +1634,7 @@ national id
 
 ### <a name="format"></a>형식
 
-7-8 자릿수와 구분 기호 확인 숫자 또는 문자
+7-8 자리 숫자와 구분 기호 확인 숫자 또는 문자
 
 ### <a name="pattern"></a>패턴
 
@@ -1642,7 +1642,7 @@ national id
 - 1-2자리 숫자 
 - 마침표  
 - 3자리 숫자 
-- 마침표  
+- 마침표 
 - 3자리 숫자 
 - 대시 1개 
 - 검사 숫자에 해당하는 1자리 숫자 또는 문자(대/소문자 구분 안 함)
@@ -1654,12 +1654,12 @@ national id
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_chile_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_chile_id_card에서 키워드를 발견 됩니다.
+- Func_chile_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_chile_id_card에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_chile_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_chile_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -1721,12 +1721,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_china_resident_id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_china_resident_id에서 키워드를 발견 됩니다.
+- Func_china_resident_id 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_china_resident_id에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_china_resident_id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_china_resident_id 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -1748,8 +1748,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Resident Identity Card
  
-- PRC
- 
+- 중국 
 - National Identification Card
  
 - 身份证  
@@ -1767,7 +1766,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-서식을 지정할 수는 16 자리 또는 서식이 지정 되지 않은 (dddddddddddddddd) Luhn 테스트로 전달 해야 합니다.
+서식이 있거나 서식이 없을 수 있는 16 자리 (dddddddddddddddd), Luhn 테스트를 통과 해야 합니다.
 
 ### <a name="pattern"></a>패턴
 
@@ -1846,7 +1845,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - prufziffer
 
-- sicherheits Kode
+- sicherheits kode
 - sicherheitscode
 
 - sicherheitsnummer
@@ -1857,7 +1856,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - cod. sicurezza
 
-- 코드 sicurezza
+- cod sicurezza
 - 
 n autorizzazione
 - código
@@ -1866,7 +1865,7 @@ n autorizzazione
 
 - cod. seg
 
-- 코드 seg
+- cod seg
 - código de segurança
 
 - codigo de seguranca
@@ -1877,12 +1876,12 @@ n autorizzazione
 
 - cód. segurança
 
-- 코드입니다. 브라질어 코드입니다. segurança
+- cod. seguranca cod segurança
 - cód. seguranca
 
 - cód segurança
-- 브라질어 코드 segurança 대구
-- cód 브라질어
+- cod seguranca cod segurança
+- cód seguranca
 - número de verificação
 
 - numero de verificacao
@@ -1925,7 +1924,7 @@ n autorizzazione
 
 - vencimento
 
-- Venc 
+- venc 
 
 #### <a name="keywordccname"></a>Keyword_cc_name
 
@@ -1945,7 +1944,7 @@ mc
 - mastercards
 - 
 master cards
-- diner의 클럽
+- 식사 권을의 방망이
 - diners club
 
 - dinersclub
@@ -1965,8 +1964,8 @@ master cards
 
 - credit card
 
-- cc #
-- cc #의 경우:
+- 참조란
+- 참조 #:
 - 
 expiration date
 - exp date
@@ -2074,16 +2073,16 @@ kartennr
 - kartennummer
 - 
 kreditkartennummer
-- kreditkarten nummer
+- kreditkarten-nummer
 - carta di credito
 
 - carta credito
 
-- carta
-- n carta
+- 카 ta
+- n 카 ta
 - nr. carta
 
-- nr carta
+- veiligheid 카 ta
 - numero carta
 
 - numero della carta
@@ -2114,7 +2113,7 @@ tarjeta de débito
 
 - no. de tarjeta
 
-- de tarjeta 없음
+- de tarjeta
 - numero de tarjeta
 
 - número de tarjeta
@@ -2158,13 +2157,13 @@ numero do cartao
 
 - numero de cartao
 
-- nº do cartão
+- n º cartão
 - nº do cartao
 
 - nº. do cartão
 
-- do cartão 없음
-- do cartao 없음
+- do no cartão
+- 작업 없음
 - no. do cartão
 
 - 
@@ -2188,8 +2187,8 @@ no. do cartao
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_croatia_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_croatia_id_card에서 키워드를 발견 됩니다.
+- Func_croatia_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_croatia_id_card에서 키워드가 발견 되었습니다.
 
 ```
 <!--Croatia Identity Card Number-->
@@ -2219,7 +2218,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 11자리 숫자:
 - 10자리 숫자 
-- 최종 자릿수는 확인 하기 위해 국제 데이터 교환, HR 문자 11 개의 숫자 앞에 추가 됩니다.
+- 최종 자릿수는 국제 데이터 교환 목적을 위한 검사 숫자 이며, HR는 11 자리 숫자 앞에 추가 됩니다.
 
 ### <a name="checksum"></a>체크섬
 
@@ -2228,12 +2227,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_croatia_oib_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_croatia_oib_number에서 키워드를 발견 됩니다.
+- Func_croatia_oib_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_croatia_oib_number에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_croatia_oib_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_croatia_oib_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -2260,20 +2259,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 
    
-## <a name="czech-personal-identity-number"></a>체코어 개인 Id 번호
+## <a name="czech-personal-identity-number"></a>체코어 개인 id 번호
 
 ### <a name="format"></a>형식
 
-선택적으로 숫자 9 개 슬래시 (이전 형식)와 선택적 10 자리 슬래시 (새 형식)
+선택적 슬래시 (이전 형식)가 있는 9 자리 숫자와 슬래시 (새 형식)가 있는 10 자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-9 개의 숫자 (이전 형식):
+9 자리 숫자 (이전 형식):
 - 9자리 숫자
 
 또는
 
-- 생일을 표시 하는 6 자리 숫자
+- 출생 날짜를 나타내는 6 자리 숫자
 - 정방향 슬래시
 - 3자리 숫자
 
@@ -2282,9 +2281,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 또는
 
-- 생일을 표시 하는 6 자리 숫자
+- 출생 날짜를 나타내는 6 자리 숫자
 - 정방향 슬래시 
-- 여기서 마지막 숫자는 검사 숫자 4 자리 숫자
+- 마지막 숫자가 검사 숫자인 4 자리 숫자
 
 ### <a name="checksum"></a>체크섬
 
@@ -2292,7 +2291,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 85%에 근접 300 자 내에 있는 경우,: Func_czech_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_czech_id_card에서 키워드를 발견 됩니다. 체크섬을 전달합니다.
+DLP 정책은 300 문자 근사에서 Func_czech_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다. Keyword_czech_id_card에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다.
 
 ```
 <!-- Czech Personal Identity Number -->
@@ -2306,7 +2305,7 @@ DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판�
 ### <a name="keywords"></a>키워드
 
 - 체코어 개인 id 번호
-- Rodné číslo
+- rodné číslo
    
 ## <a name="denmark-personal-identification-number"></a>	덴마크 개인 식별 번호
 
@@ -2327,7 +2326,7 @@ DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판�
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 75%에 근접 300 자 내에 있는 경우,: Regex_denmark_id 정규식 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_denmark_id에서 키워드를 발견 됩니다. 체크섬을 전달합니다.
+DLP 정책은 300 문자 (예: Regex_denmark_id)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. Keyword_denmark_id에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다.
 
 ```
 <!-- Denmark Personal Identification Number -->
@@ -2431,14 +2430,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordeudebitcard"></a>Keyword_eu_debit_card
 
-- 계좌 번호 
+- 계정 번호 
 - card number
  
 - card no.
  
 - security number
  
-- cc # 
+- 참조란 
 
 #### <a name="keywordcardtermsdict"></a>Keyword_card_terms_dict
 
@@ -2581,7 +2580,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 - dinersclub
  
-- 검색 
+- 찾아보십시오 
 - discover card
  
 - discover cards
@@ -2633,7 +2632,7 @@ kartennr
 - kartennummer 
 - kreditkarte
  
-- kreditkarten nummer 
+- kreditkarten-nummer 
 - kreditkarteninhaber
  
 - kreditkarteninstitut
@@ -2654,18 +2653,18 @@ kartennr
 - mc 
 - mister cash
  
-- n carta 
-- carta 
-- de tarjeta 없음 
-- do cartao 없음 
-- do cartão 없음 
+- n 카 ta 
+- 카 ta 
+- de tarjeta 
+- 작업 없음 
+- do no cartão 
 - no. de tarjeta
  
 - no. do cartao
  
 - no. do cartão
  
-- nr carta 
+- veiligheid 카 ta 
 - nr. carta
  
 - numeri di scheda
@@ -2702,7 +2701,7 @@ kartennr
  
 - nº do cartao
  
-- nº do cartão 
+- n º cartão 
 - nº. do cartão
  
 - número de cartao
@@ -2768,7 +2767,7 @@ kartennr
  
 - v pay
  
-- v 급여 
+- v-지급 
 - visa
  
 - visa plus
@@ -2790,10 +2789,10 @@ kartennr
  
 - cid
  
-- 코드 seg 
-- 코드 브라질어 
-- 코드 segurança 
-- 코드 sicurezza 
+- cod seg 
+- cod seguranca 
+- cod segurança 
+- cod sicurezza 
 - cod. seg
  
 - cod. seguranca
@@ -2827,7 +2826,7 @@ kartennr
 - cvv
  
 - cvv2 
-- cód 브라질어 
+- cód seguranca 
 - cód segurança 
 - cód. seguranca
  
@@ -2947,7 +2946,7 @@ kartennr
  
 - exp datum
  
-- 만료 
+- 행사 
 - 만료
  
 - expires
@@ -2997,23 +2996,23 @@ kartennr
    
 ## <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
-자세한 내용은 [EU 운전 면허 번호 중요 한 정보 유형](eu-driver-s-license-number.md)을 참조 하십시오.
+자세한 내용은 [EU 운전 면허 번호 중요 정보 유형을](eu-driver-s-license-number.md)참조 하십시오.
   
-## <a name="eu-national-identification-number"></a>EU 국가 Id 번호
+## <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
-자세한 내용을 보려면, [EU 국가 Id 번호 중요 한 정보 유형](eu-national-identification-number.md)을 참조 하십시오.
+자세한 내용은 [EU 국가 식별 번호 중요 한 정보 유형을](eu-national-identification-number.md)참조 하세요.
   
 ## <a name="eu-passport-number"></a>EU 여권 번호
 
-자세한 내용을 보려면, [EU 여권 번호 중요 한 정보 유형](eu-passport-number.md)을 참조 하십시오.
+자세한 내용은 [EU Passport 번호 중요 한 정보 유형을](eu-passport-number.md)참조 하십시오.
   
-## <a name="eu-social-security-number-or-equivalent-id"></a>EU 사회보장 번호 또는에 상응 하는 ID
+## <a name="eu-social-security-number-or-equivalent-id"></a>EU 주민 등록 번호 또는 동등한 ID
 
-자세한 내용을 보려면 [EU 사회보장 번호 또는 중요 한 정보 형식에 해당 ID를](eu-social-security-number-or-equivalent-id.md)참조 하십시오.
+자세한 내용은 [EU 주민 등록 번호 또는 동등한 ID 중요 정보 유형을](eu-social-security-number-or-equivalent-id.md)참조 하십시오.
   
-## <a name="eu-tax-identification-number"></a>EU 세금 Id 번호
+## <a name="eu-tax-identification-number"></a>EU 세금 확인 번호
 
-자세한 내용을 보려면, [EU 세금 Id 번호 중요 한 정보 유형](eu-tax-identification-number.md)을 참조 하십시오.
+자세한 내용은 [EU 세금 식별 번호 중요 한 정보 유형을](eu-tax-identification-number.md)참조 하십시오.
   
 ## <a name="finland-national-id"></a>핀란드 국가 ID
 
@@ -3062,9 +3061,9 @@ Sosiaaliturvatunnus
    
 ## <a name="finland-passport-number"></a>핀란드 여권 번호
 
-9 개의 문자와 숫자 패턴 조합 9 개의 대 문자와 숫자의 조합 서식: 두 문자 (하지 대/소문자 구분) 7 자리 체크섬 No 정의 A DLP 정책은 판단 하는 경우 이러한 종류의 중요 한 정보를 검색에 75%, 내 프로그램 300 자 근접: Regex_finland_passport_number 정규식 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_finland_passport_number에서 키워드를 발견 됩니다. <!-- Finland Passport Number --> 
+9 개의 문자 및 숫자 패턴 조합 형식 조합: 두 문자 (대/소문자 구분 안 함) 7 자리 체크섬 정의 없음 DLP 정책은이 유형의 중요 한 정보를 검색 한 것으로,이에 따라 300 문자의 근사: 정규식 Regex_finland_passport_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_finland_passport_number에서 키워드가 발견 되었습니다. passport Keyword_finland_passport_number <!-- Finland Passport Number --> 
  <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern> 
- </Entity> 키워드 Keyword_finland_passport_number Passport Passi
+ </Entity>
    
 ## <a name="france-drivers-license-number"></a>프랑스 운전 면허 번호
 
@@ -3110,7 +3109,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 drivers license
 - driving licence
 
-- 라이선스를 제어합니다.
+- 운전 면허
 - 
 permis de conduire
 - 
@@ -3221,7 +3220,7 @@ Passeport n °
 
 - Passeport#
 
-- PasseportNon
+- 지/포트 아님
 - 
 
 Passeportn °
@@ -3236,7 +3235,7 @@ Passeportn °
 ### <a name="pattern"></a>패턴
 
 다음 두 패턴 중 하나가 일치해야 합니다.
-- 두 자리 숫자 앞에 오는 공백 뒤 13 자릿수<br/>
+- 13 자리 숫자와 공백 다음 두 자리 숫자<br/>
 또는
 - 15자리 연속 숫자
 
@@ -3247,12 +3246,12 @@ Passeportn °
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 95% 신뢰합니다.
-- Func_french_insee 또는 Func_fr_insee 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_french_insee 또는 Func_fr_insee 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_fr_insee의 키워드가 발견되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_french_insee 또는 Func_fr_insee 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_french_insee 또는 Func_fr_insee 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_fr_insee의 키워드가 발견되지 않았습니다.
 - 체크섬이 통과됩니다.
 
@@ -3291,12 +3290,12 @@ national id
 national identification
 - 
 numéro d'identité
-- 없음 d'identité
+- d'identité 없음
 - 
 no. d'identité
 - 
 numero d'identite
-- 없음 d'identite
+- d'identite 없음
 - 
 no. d'identite
 - social security number
@@ -3443,17 +3442,17 @@ Driv Licenses
  
 - Driver Licences
  
-- 드라이버 Lic 
-- 드라이버 Licen 
-- 운전 면허 
+- Drivers Lic 
+- Drivers licen 
+- Drivers License 
 - 드라이버 라이선스 
-- 드라이버 사용권 
-- 드라이버 라이센스 
+- 드라이버 라이선스 
+- 라이선스 드라이버 
 - 드라이버의 Lic 
 - Driver's Licen
  
-- 드라이버의 라이선스 
-- 드라이버의 라이선스 
+- 운전 면허 
+- 운전 면허증 
 - Driver's Licence
  
 - Driver's Licences
@@ -3602,7 +3601,7 @@ ausstellungsort
 
 #### <a name="keywordgermanpassportnumber"></a>Keyword_german_passport_number
 
-더-Reisepass Nr-Reisepass
+Reisepass veiligheid-Reisepass
 
 #### <a name="keywordgermanpassport1"></a>Keyword_german_passport1
 
@@ -3611,15 +3610,15 @@ Reisepass-Nr
 
 #### <a name="keywordgermanpassport2"></a>Keyword_german_passport2
 
-bnationalit.t
+bnationalit
    
 ## <a name="germany-identity-card-number"></a>독일 ID 카드 번호
 
 ### <a name="format"></a>형식
 
-2010 년 11 월 월 1 일 이후: 9 개의 대 문자와 숫자
+2010 년 11 월 1 일 이후: 9 개 문자 및 숫자
 
-31 년 10 월 2010: 10 자리까지 1 년 4 월 1987에서
+1 월 1987 년 10 월 31 일 (2010:10 자리 숫자)
 
 ### <a name="pattern"></a>패턴
 
@@ -3627,7 +3626,7 @@ bnationalit.t
 - 1개 문자(대/소문자 구분 안 함) 
 - 8자리 숫자
 
-2010 년 10 월 월 31 일 때까지 1 년 4 월 1987에서:
+1 년 4 월 1987 일 ~ 10 월 31 일까 지:
 - 10자리 숫자
 
 ### <a name="checksum"></a>체크섬
@@ -3637,8 +3636,8 @@ bnationalit.t
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
-- Regex_germany_id_card 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_germany_id_card에서 키워드를 발견 됩니다.
+- 정규식 Regex_germany_id_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_germany_id_card에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Germany Identity Card Number -->
@@ -3687,8 +3686,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_greece_id_card 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_greece_id_card에서 키워드를 발견 됩니다.
+- 정규식 Regex_greece_id_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_greece_id_card에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Greece National ID Card -->
@@ -3729,12 +3728,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_hong_kong_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_hong_kong_id_card에서 키워드를 발견 됩니다.
+- Func_hong_kong_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_hong_kong_id_card에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
-- Func_hong_kong_id_card 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_hong_kong_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -3754,12 +3753,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordhongkongidcard"></a>Keyword_hong_kong_id_card
 
-- 홍콩 특별 행정구 id 카드
+- 홍콩 특별 식별자 카드
 - HKIDC
 - id 카드
 - identity card
-- hk id 카드
-- 홍콩 특별 행정구 id
+- zh-hk id 카드
+- 홍콩 id
 - 香港身份證
 
 - 香港永久性居民身份證
@@ -3816,8 +3815,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Regex_india_permanent_account_number 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_india_permanent_account_number에서 키워드를 발견 됩니다.
+- 정규식 Regex_india_permanent_account_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_india_permanent_account_number에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -3860,7 +3859,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 85%에 근접 300 자 내에 있는 경우,: Func_india_aadhaar 함수는 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_india_aadhar에서 키워드를 발견 됩니다. 체크섬을 전달합니다. DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 75%에 근접 300 자 내에 있는 경우,: Func_india_aadhaar 함수는 패턴과 일치 하는 콘텐츠를 찾습니다. 체크섬을 전달합니다. <!-- India Unique Identification (Aadhaar) number -->
+DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다. Keyword_india_aadhar에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다. DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. 체크섬이 통과 됩니다. <!-- India Unique Identification (Aadhaar) number -->
 <Entity id="1ca46b29-76f5-4f46-9383-cfa15e91048f" recommendedConfidence="85" patternsProximity="300"> <Pattern confidenceLevel="85"> <IdMatch idRef="Func_india_aadhaar"/> <Match idRef="Keyword_india_aadhar"/> </Pattern> <Pattern confidenceLevel="75"> <IdMatch idRef="Func_india_aadhaar"/> </Pattern>
 </Entity>
 
@@ -3897,11 +3896,11 @@ DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판�
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_indonesia_id_card 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_indonesia_id_card에서 키워드를 발견 됩니다.
+- 정규식 Regex_indonesia_id_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_indonesia_id_card에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_indonesia_id_card 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 정규식 Regex_indonesia_id_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 
 ```
 <!-- Indonesia Identity Card (KTP) Number -->
@@ -3930,20 +3929,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-국가 코드 (처음 두) 더하기 bban 번호 (최대 30 개의 문자) plus 자리 숫자 (두 자리 숫자) 확인
+국가 코드 (두 문자) + 검사 숫자 (2 자리 숫자)와 bban 숫자 (최대 30 자)
 
 ### <a name="pattern"></a>패턴
 
 패턴에는 다음이 모두 포함되어야 합니다.
 
-- 두 문자로 된 국가 코드
-- 두 검사 자리 숫자 (선택 사항 공간을 앞에 오는) 
-- 1-7 그룹 4 개의 문자 또는 숫자 (공백으로 구분 수)
+- 두 글자로 된 국가 코드
+- 두 개의 검사 숫자 (선택적 공백) 
+- 1-7 개 문자 또는 숫자의 그룹 (공백으로 구분 가능)
 - 1-3 문자 또는 숫자
 
-각 국가 대 한 형식은 약간 다릅니다. IBAN 중요 한 정보 유형에서는 이러한 60 국가 설명 합니다.
+각 국가의 형식은 약간 다릅니다. iban 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
-ad, ae, a에서에서 달리 ba, 배경, bh, 채널, cr, cy, cz, de, 진한, do, ee, es, 무선, 중, fr, gb, ge, gi, gl가, hr, 될 hu, 즉, 일리노이은 그, kw, kz, 파운드, li, lt, lu, lv, mc, md, me, mk, mr, 체, 뮤 nl, 아니요 pl, pt, 되는, rs, sa, se, si, sk, sm, 조지아 주, tr, vg
+ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, kw, hu,, to,,, fr,,, i,,, ie, il, is,, l,, 5, 60, md, me, mk, e, mt, mu , nl-nl, no, pl, pt, ro, rs, sa, se, si,, sm, tn, tr, vg
 
 ### <a name="checksum"></a>체크섬
 
@@ -4035,7 +4034,7 @@ IPv6의 경우 DLP 정책은 다음과 같은 경우 이러한 유형의 중요�
 IP-כתובת ה
  
    
-## <a name="international-classification-of-diseases-icd-10-cm"></a>병 (ICD-10-CM)의 국제 분류
+## <a name="international-classification-of-diseases-icd-10-cm"></a>Diseases의 국제 분류 (ICD-10-CM)
 
 ### <a name="format"></a>형식
 
@@ -4043,7 +4042,7 @@ IP-כתובת ה
 
 ### <a name="pattern"></a>패턴
 
-키워드
+Keyword
 
 ### <a name="checksum"></a>체크섬
 
@@ -4052,7 +4051,7 @@ IP-כתובת ה
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Dictionary_icd_10_cm에서 키워드를 발견 됩니다.
+- Dictionary_icd_10_cm에서 키워드가 발견 되었습니다.
 
 ```
       <!-- ICD-10 CM -->
@@ -4065,10 +4064,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 키워드
 
-Dictionary_icd_10_cm 키워드 사전에 있는 모든 용어는 기반으로는 [국제 병 분류, 10 번째 수정 버전, 임상 수정 (ICD-10-CM)](https://go.microsoft.com/fwlink/?linkid=852604)합니다. 이 형식은 보험 코드 하지 용어에 대해서만 확인 합니다.
+Dictionary_icd_10_cm 키워드 사전의 모든 용어 이며, [Diseases의 국제 분류, 10 번째 수정, 임상 수정 (icd-10-cm)](https://go.microsoft.com/fwlink/?linkid=852604)을 기반으로 합니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
 
    
-## <a name="international-classification-of-diseases-icd-9-cm"></a>병 (ICD-9-CM)의 국제 분류
+## <a name="international-classification-of-diseases-icd-9-cm"></a>Diseases의 국제 분류 (ICD-9-CM)
 
 ### <a name="format"></a>형식
 
@@ -4076,7 +4075,7 @@ Dictionary_icd_10_cm 키워드 사전에 있는 모든 용어는 기반으로는
 
 ### <a name="pattern"></a>패턴
 
-키워드
+Keyword
 
 ### <a name="checksum"></a>체크섬
 
@@ -4085,7 +4084,7 @@ Dictionary_icd_10_cm 키워드 사전에 있는 모든 용어는 기반으로는
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Dictionary_icd_9_cm에서 키워드를 발견 됩니다.
+- Dictionary_icd_9_cm에서 키워드가 발견 되었습니다.
 
 ```
       <Entity id="fa3f9c74-ee07-4c52-b5f2-085d6b2c0ec4" patternsProximity="300" recommendedConfidence="85">
@@ -4097,25 +4096,25 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-Dictionary_icd_9_cm 키워드 사전에 있는 모든 용어를 기반으로는 [국제 병 분류, 번째 수정 버전, 임상 수정 (ICD-9-CM)](https://go.microsoft.com/fwlink/?linkid=852605)합니다. 이 형식은 보험 코드 하지 용어에 대해서만 확인 합니다.
+[Diseases의 국가별 분류, 9 번째 버전의 임상 수정 (icd-9cm)](https://go.microsoft.com/fwlink/?linkid=852605)을 기반으로 하는 Dictionary_icd_9_cm 키워드 사전의 모든 용어입니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
    
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS(개인 공공 서비스) 번호
 
 ### <a name="format"></a>형식
 
-31 10 진수 2012) (될때까지 이전 형식:
+이전 형식 (31 년 12 월 2012 일까지):
 - 7자리 숫자와 1-2개 문자  
 
-새 형식 (1 Jan 2013 여운 및):
+새 형식 (1 년 1 월 2013 및 이후):
 - 7자리 숫자와 2개 문자
 
 ### <a name="pattern"></a>패턴
 
-31 10 진수 2012) (될때까지 이전 형식:
+이전 형식 (31 년 12 월 2012 일까지):
 - 7자리 숫자 
 - 1-2개 문자(대/소문자 구분 안 함) 
 
-새 형식 (1 Jan 2013 여운 및):
+새 형식 (1 년 1 월 2013 및 이후):
 - 7자리 숫자 
 - 알파벳 검사 숫자에 해당하는 문자 1개(대/소문자 구분 안 함)  
 - 문자 "A" 또는 "H"(대/소문자 구분 안 함)
@@ -4127,14 +4126,14 @@ Dictionary_icd_9_cm 키워드 사전에 있는 모든 용어를 기반으로는 
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_ireland_pps 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_ireland_pps 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 다음 중 하나가 충족됩니다.
-    - Keyword_ireland_pps에서 키워드를 발견 됩니다.
+    - Keyword_ireland_pps에서 키워드가 발견 되었습니다.
     - Func_eu_date 함수가 올바른 날짜 형식의 날짜를 찾습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
-- Func_ireland_pps 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_ireland_pps 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -4405,7 +4404,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 - Savings Account Number
  
-- 절감 계정 
+- 저축 계정 
 - Savings Account #
  
 - Savings Acct Number
@@ -4520,19 +4519,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - dl#
  
-- DL # 
-- dl # 
-- DL # 
+- DL 
+- 된다 
+- 된다 
 - 드라이버 라이선스 
 - 드라이버 라이선스 
+- drivers license 
 - 운전 면허 
-- 드라이버의 라이선스 
 - 드라이버 라이선스 
-- 드라이버의 라이선스 
+- 운전 면허증 
 - driving licence
  
-- lic # 
-- LIC # 
+- lic 
+- LIC 
 - lics#
  
 - 상태 id 
@@ -4714,15 +4713,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 社会保険番号
  
 
-## <a name="japanese-residence-card-number"></a>일본어 거주 카드 번호
+## <a name="japanese-residence-card-number"></a>일본어 거주지 카드 번호
 
 ### <a name="format"></a>형식
 
-12 대 문자와 숫자
+12 개의 문자 및 숫자
 
 ### <a name="pattern"></a>패턴
 
-12 대 문자와 숫자:
+12 개의 문자 및 숫자:
 - 2문자(대/소문자 구분 안 함)
 - 8자리 숫자 
 - 2문자(대/소문자 구분 안 함)
@@ -4734,8 +4733,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_jp_residence_card_number 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_jp_residence_card_number에서 키워드를 발견 됩니다.
+- 정규식 Regex_jp_residence_card_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_jp_residence_card_number에서 키워드가 발견 되었습니다.
 
 ```
 <!--Japan Residence Card Number-->
@@ -4751,9 +4750,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordjpresidencecardnumber"></a>Keyword_jp_residence_card_number
 
-- 거주 카드 번호
-- 거주 카드 없음
-- 거주 카드 번호
+- 거주지 카드 번호
+- 거주지 카드 아니요
+- 거주지 카드 #
 - 在留カード番号
    
 ## <a name="malaysia-id-card-number"></a>말레이시아 ID 카드 번호
@@ -4779,8 +4778,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Regex_malaysia_id_card_number 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_malaysia_id_card_number에서 키워드를 발견 됩니다.
+- 정규식 Regex_malaysia_id_card_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_malaysia_id_card_number에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Malaysia ID Card Number -->
@@ -4798,25 +4797,25 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordmalaysiaidcardnumber"></a>Keyword_malaysia_id_card_number
 
 - 디지털 응용 프로그램 카드
-- i /c
-- i /c 없음
-- ic
-- ic 없음
+- i/c
+- i/c 아니요
+- 비용
+- ic 아니요
 - id 카드
-- id 카드
+- 식별 카드
 - identity card
 - k/p
-- k/p 없음
+- k/p 아니요
 - kad akuan diri
-- 디지털 kad aplikasi
+- kad aplikasi 디지털
 - kad pengenalan 말레이시아
 - kp
-- kp 없음
+- kp 아니요
 - mykad
 - mykas
 - mykid
 - mypr
-- mytentera
+- myta
 - 말레이시아 id 카드
 - 말레이지아 id 카드
 - nric
@@ -4844,8 +4843,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_netherlands_bsn 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_netherlands_bsn에서 키워드를 발견 됩니다.
+- Func_netherlands_bsn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_netherlands_bsn에서 키워드가 발견 되었습니다.
 - Func_eu_date2 함수가 올바른 날짜 형식의 날짜를 찾습니다.
 - 체크섬이 통과됩니다.
 
@@ -4887,7 +4886,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-3 개 문자 (하지 대/소문자 구분)는 공간 (선택 사항) 4 자리 숫자
+3 개의 문자 (대/소문자 구분 안 함) 공백 (선택 사항) 4 자리 숫자
 
 ### <a name="checksum"></a>체크섬
 
@@ -4943,11 +4942,11 @@ Keyword_nz_terms
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_norway_id_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_norway_id_number에서 키워드를 발견 됩니다.
+- Func_norway_id_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_norway_id_number에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 - DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_norway_id_numbe 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_norway_id_numbe 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -4997,8 +4996,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_philippines_unified_id 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_philippines_id에서 키워드를 발견 됩니다.
+- 정규식 Regex_philippines_unified_id 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_philippines_id에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Philippines Unified Multi-Purpose ID number -->
@@ -5037,7 +5036,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판단 75%에 근접 300 자 내에 있는 경우,: Func_polish_national_id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_polish_national_id_passport_number에서 키워드를 발견 됩니다. 체크섬을 전달합니다.
+DLP 정책은 300 문자 근사에서 Func_polish_national_id 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. Keyword_polish_national_id_passport_number에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다.
 
 ```
 <!-- Poland Identity Card-->
@@ -5054,9 +5053,9 @@ DLP 정책은 이러한 종류의 중요 한 정보를 감지 했습니다 판�
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
 - Dowód osobisty
-- U r dowodu osobistego
-- Nazwa i u r dowodu osobistego
-- Nazwa i nr dowodu osobistego
+- u r i dowodu osobistego
+- Nazwa i u r i dowodu osobistego
+- Nazwa i veiligheid dowodu osobistego
 - Nazwa i nr dowodu tożsamości
 
 - Dowód Tożsamości
@@ -5140,9 +5139,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
-- U r paszportu
-- Nr입니다. Paszportu
-- Paszport
+- u r i (zportu)
+- veiligheid zportu
+- 고 zport
 
    
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
@@ -5162,8 +5161,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Regex_portugal_citizen_card 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_portugal_citizen_card에서 키워드를 발견 됩니다.
+- 정규식 Regex_portugal_citizen_card 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_portugal_citizen_card에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Portugal Citizen Card Number -->
@@ -5250,12 +5249,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Regex_singapore_nric 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_singapore_nric에서 키워드를 발견 됩니다.
+- 정규식 Regex_singapore_nric 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_singapore_nric에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_singapore_nric 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 정규식 Regex_singapore_nric 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -5313,8 +5312,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_south_africa_identification_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_south_africa_identification_number에서 키워드를 발견 됩니다.
+- Func_south_africa_identification_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_south_africa_identification_number에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -5358,12 +5357,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_south_korea_resident_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_south_korea_resident_number에서 키워드를 발견 됩니다.
+- Func_south_korea_resident_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_south_korea_resident_number에서 키워드가 발견 되었습니다.
 - 체크섬이 통과됩니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_south_korea_resident_number 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_south_korea_resident_number 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```
@@ -5401,7 +5400,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-11 12 자리 숫자:
+11-12 자리 숫자:
 - 2자리 숫자 
 - 정방향 슬래시 1개(선택 사항) 
 - 7-8자리 숫자 
@@ -5480,7 +5479,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="checksum"></a>체크섬
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5557,7 +5556,7 @@ Passeport n °
  
 - Passeport#
  
-- PasseportNon 
+- 지/포트 아님 
 - Passeportn °
  
    
@@ -5578,7 +5577,7 @@ Passeport n °
 
 ### <a name="checksum"></a>체크섬
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5625,7 +5624,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - bic\# 
 - bank identifier code
  
-- 標準化9362 
+- 標準化 9362 
 - 迅速＃
  
 - SWIFTコード
@@ -5651,7 +5650,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 - le numéro BIC
  
-- \#BIC 
+- \#bic 
 - code identificateur de banque
  
    
@@ -5725,8 +5724,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-- 생체 인식 여권 번호: 숫자 9 개
-- 비-생체 인식 여권 번호: 숫자 9 개
+- 생체 인식 여권 번호: 9 자리 숫자
+- 비-생체 인식 여권 번호: 9 자리 숫자
 
 ### <a name="pattern"></a>패턴
 생체 인식 여권 번호:
@@ -5743,8 +5742,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_taiwan_passport 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_taiwan_passport에서 키워드를 발견 됩니다.
+- 정규식 Regex_taiwan_passport 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_taiwan_passport에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Taiwan Passport Number -->
@@ -5763,7 +5762,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - ROC passport number
  
 - 여권 번호 
-- Passport 없음 
+- Passport 아니요 
 - Passport Num
  
 - Passport #
@@ -5793,8 +5792,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Regex_taiwan_resident_certificate 정규식 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_taiwan_resident_certificate에서 키워드를 발견 됩니다.
+- 정규식 Regex_taiwan_resident_certificate 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_taiwan_resident_certificate에서 키워드가 발견 되었습니다.
 
 ```
 <!-- Taiwan Resident Certificate (ARC/TARC) -->
@@ -5812,14 +5811,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Resident Certificate
  
-- 상주 Cert 
+- 상주 인증서 
 - Resident Cert.
  
-- Id 카드 
+- 식별 카드 
 - Alien Resident Certificate
  
-- ARC
- 
+- 화살표 
 - Taiwan Area Resident Certificate
  
 - TARC
@@ -5831,7 +5829,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 台灣地區居留證
  
 
-## <a name="thai-population-identification-code"></a>태국어 모집단 식별 코드
+## <a name="thai-population-identification-code"></a>태국어 인구 식별 코드
 
 ### <a name="format"></a>형식
 
@@ -5840,7 +5838,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 13자리 숫자:
-- 첫번째 숫자는 0 또는 9 
+- 첫 번째 숫자가 0 또는 9가 아님 
 - 12자리 숫자
 
 ### <a name="checksum"></a>체크섬
@@ -5850,11 +5848,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_Thai_Citizen_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_Thai_Citizen_Id에서 키워드를 발견 됩니다.
+- Func_Thai_Citizen_Id 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_Thai_Citizen_Id에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_Thai_Citizen_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_Thai_Citizen_Id 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 
 ```
 <!-- Thai Citizen ID -->
@@ -5874,13 +5872,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordthaicitizenid"></a>Keyword_Thai_Citizen_Id
 
 - ID Number
-- Id 번호
+- id 번호
 - บัตรประชาชน
 - รหัสบัตรประชาชน
 - บัตรประชาชน
 - รหัสบัตรประชาชน
   
-## <a name="turkish-national-identification-number"></a>터키어 국가 Id 번호
+## <a name="turkish-national-identification-number"></a>터키어 국가 식별 번호
 
 ### <a name="format"></a>형식
 
@@ -5897,11 +5895,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- Func_Turkish_National_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
-- Keyword_Turkish_National_Id에서 키워드를 발견 됩니다.
+- Func_Turkish_National_Id 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Keyword_Turkish_National_Id에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_Turkish_National_Id 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_Turkish_National_Id 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 
 ```
 <!-- Turkish National Identity -->
@@ -5920,10 +5918,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordturkishnationalid"></a>Keyword_Turkish_National_Id
 
-- TC Kimlik 없음
+- TC Kimlik 아니요
 - TC Kimlik numarası
 - Vatandaşlık numarası
-- Vatandaşlık 없음
+- Vatandaşlık 아니요
 
 ## <a name="uk-drivers-license-number"></a>영국 운전 면허 번호
 
@@ -6113,7 +6111,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - GP 
 - DOB
  
-- D.O.B 
+- D. O. B 
 - Date of Birth
  
 - Birth Date
@@ -6123,19 +6121,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식
 
-7 문자나 공백이 나 파선으로 구분 하 여 9 문자
+공백 또는 대시로 구분 된 7 자 또는 9 자
 
 ### <a name="pattern"></a>패턴
 
-두 가능한 패턴:
+다음과 같은 두 가지 패턴을 사용할 수 있습니다.
 
-- 처음 두 (유효한 NINOs이이 패턴의 유효성을 검사;는이 접두사에 특정 문자만 사용 하지 대/소문자 구분)
+- 두 문자 (유효한 NINOs이 접두사의 특정 문자만 사용 하며이 패턴의 유효성 검사는 대/소문자를 구분 하지 않음)
 - 6자리 숫자
-- 'A', 'B', 'C' 또는 명의 ' (예: 접두사를 특정 문자에에서는 사용할 수는 접미사; 하지 대/소문자 구분만)
+- ' A ', ' B ', ' C ' 또는 ' d ' (접두사와 마찬가지로 접미사에서는 특정 문자만 허용 되며 대/소문자 구분 안 함)
 
 또는
 
-- 처음 두
+- 2 개 문자
 - 공백 또는 대시
 - 2자리 숫자
 - 공백 또는 대시
@@ -6143,7 +6141,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 공백 또는 대시
 - 2자리 숫자
 - 공백 또는 대시
-- 두 'A', 'B', 'C' 또는 명의 '
+- ' A ', ' B ', ' C ' 또는 ' d ' 중 하나
 
 ### <a name="checksum"></a>체크섬
 
@@ -6199,7 +6197,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
  
 - medical attention
  
-- 공유 보안 
+- 소셜 보안 
 - great britain
  
 - insurance
@@ -6266,7 +6264,7 @@ Passeport n °
  
 - Passeport#
  
-- PasseportNon 
+- 지/포트 아님 
 - Passeportn °
  
    
@@ -6368,8 +6366,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 주마다 다릅니다(예: 뉴욕).
-- 숫자 9 개 ddd ddd ddd 일치와 동일 하 게 서식이 지정 합니다.
-- Ddddddddd 같은 숫자 9 개 일치 하지 않습니다.
+- ddd ddd ddd와 같이 9 자리 숫자는 일치 합니다.
+- ddddddddd와 같은 9 자리 숫자가 일치 하지 않습니다.
 
 ### <a name="checksum"></a>체크섬
 
@@ -6380,7 +6378,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
 - Func_new_york_drivers_license_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Keyword_[state_name]_drivers_license_name의 키워드가 발견되었습니다.
-- Keyword_us_drivers_license에서 키워드를 발견 됩니다.
+- Keyword_us_drivers_license에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
 - Func_new_york_drivers_license_number 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
@@ -6410,10 +6408,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - DL 
 - DLS 
-- CDL 
-- CDLS 
+- cdl 
+- cdls 
 - ID 
-- Id 
+- 번호가 
 - DL# 
 - 
 DLS#
@@ -6435,38 +6433,38 @@ IDs#
 
 #### <a name="keywordusdriverslicense"></a>Keyword_us_drivers_license
 
-- DriverLic 
-- DriverLics 
-- DriverLicense 
-- DriverLicenses 
+- driverlic 
+- driverlics 
+- driverlicense 
+- driverlicenses 
 - 드라이버 Lic 
-- 드라이버 Lics 
+- 드라이버 lics 
 - 드라이버 라이선스 
 - 드라이버 라이선스 
 - DriversLic 
-- DriversLics 
-- DriversLicense 
-- DriversLicenses 
-- 드라이버 Lic 
-- 드라이버 Lics 
-- 운전 면허 
+- driverslics 
 - 드라이버 라이선스 
-- Driver'Lic 
-- Driver'Lics 
-- Driver'License 
-- Driver'Licenses 
+- 드라이버 라이선스 
+- Drivers Lic 
+- 드라이버 lics 
+- Drivers License 
+- 드라이버 라이선스 
+- driver' Lic 
+- driver'lics 
+- driver' 라이선스 
+- driver'licenses 
 - 드라이버 ' Lic 
-- 드라이버 ' Lics 
-- 드라이버 ' 라이선스 
-- 드라이버 ' 라이선스
+- 드라이버의 lics 
+- 운전 면허 
+- 운전 면허증
 - Driver'sLic 
-- Driver'sLics 
-- Driver'sLicense 
-- Driver'sLicenses 
+- drivers (slics) 
+- driver'slicense 
+- driver'slicenses 
 - 드라이버의 Lic 
-- 드라이버의 Lics 
-- 드라이버의 라이선스 
-- 드라이버의 라이선스 
+- 운전 lics 
+- 운전 면허 
+- 운전 면허증 
 - identification number
  
 - identification numbers
@@ -6475,12 +6473,12 @@ IDs#
  
 - id 카드 
 - id 카드 
-- id 카드 
 - 식별 카드 
-- DriverLic # 
-- DriverLics # 
-- DriverLicense # 
-- DriverLicenses # 
+- 식별 카드 
+- driverlic # 
+- driverlics # 
+- driverlicense # 
+- driverlicenses # 
 - Driver Lic# 
 - 
 Driver Lics#
@@ -6488,13 +6486,13 @@ Driver Lics#
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 # 
 - DriversLic # 
-- DriversLics # 
-- DriversLicense # 
-- DriversLicenses # 
-- 드라이버 Lic # 
-- 드라이버 Lics # 
+- driverslics # 
 - 드라이버 라이선스 # 
-- 드라이버 라이선스 # 
+- 드라이버 라이선스 수 
+- Drivers Lic # 
+- 드라이버 lics # 
+- Drivers License # 
+- Drivers 라이선스 # 
 - Driver'Lic#
  
 - Driver'Lics#
@@ -6512,9 +6510,9 @@ Driver Lics#
 - Driver' Licenses#
  
 - Driver'sLic # 
-- Driver'sLics # 
-- Driver'sLicense # 
-- Driver'sLicenses # 
+- drivers (slics #) 
+- driver'slicense # 
+- driver'slicenses # 
 - Driver's Lic#
  
 - Driver's Lics#
@@ -6622,7 +6620,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - ssn 
 - tin
  
-- 공유 보안 
+- 소셜 보안 
 - tax payer
  
 - itins
@@ -6651,15 +6649,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 서식 있는 패턴 또는 서식 없는 패턴으로 표시될 수 있는 9자리 숫자
 
 > [!NOTE]
-> 2011 mid 하기 전에 발급 하는 경우는 SSN 강력한 위치 번호의 특정 부분 범위 내에 있어야 유효한 것으로 특정 범위 서식 지정 (다르지만 체크섬이 없는).
+> mid가 2011 이전에 실행 된 경우 SSN은 특정 범위 내에서 번호의 특정 부분이 유효한 지 확인 하는 강력한 서식을 사용 해야 하지만 검사 값은 없습니다.
 
 ### <a name="pattern"></a>패턴
 
-4 개의 함수 SSNs 4 개의 서로 다른 패턴에 나타나는지 확인합니다.
-- Func_ssn p r e 2011 강력한 서식이 적용 된 대시 또는 공백 (ddd-dd-dddd OR ddd dd dddd)으로 포맷 된 SSNs 발견
-- Func_unformatted_ssn p r e 2011 강력한 서식이 지정 된 연속 되는 숫자 9 개 (ddddddddd)로 서식이 지정 된 되지 않은 SSNs 발견
-- Func_randomized_formatted_ssn 대시 또는 공백 (ddd-dd-dddd OR ddd dd dddd)로 서식이 지정 된 게시물 2011 SSNs 발견
-- Func_randomized_unformatted_ssn 연속 되는 숫자 9 개 (ddddddddd)로 서식이 지정 된 되지 않은 게시물 2011 SSNs 발견
+다음의 네 가지 패턴에서 ssns를 검색 하는 함수는 다음과 같습니다.
+- Func_ssn는 대시 또는 공백을 사용 하 여 서식이 지정 된 2011 이전의 고급 서식 (ddd-dd-dddd 또는 ddd dd dd)을 사용 하 여 ssns를 찾습니다.
+- Func_unformatted_ssn는 형식이 지정 되지 않은 2011 이전 형식으로 서식이 지정 된 ssns를 찾습니다 (ddddddddd).
+- Func_randomized_formatted_ssn는 대시 또는 공백으로 서식이 지정 된 post-2011 ssns를 찾습니다 (ddd-dd-dddd 또는 ddd dd dddd).
+- Func_randomized_unformatted_ssn는 형식 없는 2011 ssns를 찾고, 서식이 없는 9 자리 숫자 (ddddddddd)를 찾습니다.
 
 ### <a name="checksum"></a>체크섬
 
@@ -6673,7 +6671,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Keyword_ssn의 키워드가 발견되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- Func_unformatted_ssn 함수는 패턴과 일치 하는 콘텐츠를 찾습니다.
+- Func_unformatted_ssn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_ssn의 키워드가 발견되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 비즈니스용 Skype에서 데이터를 삭제 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 191b78befb114f4c10335490d298d968a4fda2c4
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 77ead8b8c2251ce21f9a0c0db9e29d5d48829760
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090930"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30221148"
 ---
 # <a name="skype-for-business-data-deletion-in-office-365"></a>Office 365에서 비즈니스용 Skype 데이터 삭제
 

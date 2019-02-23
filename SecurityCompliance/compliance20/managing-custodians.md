@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 custodians 사용
+title: Advanced eDiscovery (Preview)에서 custodians을 사용 하 여 작업
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,29 +14,29 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4dd2c44b40b5d458f9b200c249fe2f9bb16f83e0
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 933dfafb0f103f072966cb7ae455ba3a977ae03f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29706019"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30218188"
 ---
-# <a name="work-with-custodians-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 custodians 사용
+# <a name="work-with-custodians-in-advanced-ediscovery-preview"></a>Advanced eDiscovery (Preview)에서 custodians을 사용 하 여 작업
 
-자주, 조직에 응답 법적 조사 하는 경우 잠재적으로 관련 된 콘텐츠를 식별 하 고, 보존, 수집 주위 워크플로 작업이 기반으로 조직 내의 사용자 또는 데이터 custodians 합니다. EDiscovery, 이러한 개인 데이터 custodians 호출 되 면 하 고 "사용자에 게 문서 또는 전자 파일의 관리 제어 필요"로 정의 됩니다. 예, 전자 메일의 데이터 더불어 관련 된 메시지를 포함 하는 사서함의 소유자 일 수 있습니다.  
+조직이 법적 조사에 응답 하는 경우 관련 된 콘텐츠를 식별, 보존 및 수집 하는 워크플로는 조직 내의 사용자 또는 데이터 custodians를 기반으로 합니다. eDiscovery에서는 이러한 사용자를 data custodians 이라고 하며 "문서 또는 전자 파일의 관리 제어 담당자"로 정의 됩니다. 예를 들어 전자 메일의 데이터 custodian는 관련 메시지를 포함 하는 사서함의 소유자가 될 수 있습니다.  
 
-조사 시작 되 면 eDiscovery 팀 모든 관련 custodians 및 데이터 원본 대/소문자와 관련 된를 신속 하 게 식별 해야 합니다. Custodians 및 해당 데이터 원본 목록을 시간이 지남에 따라 확장 되거나 축소 될 수 있습니다. 결과적으로, 조직에 대 한 제어 프로세스를 식별 하를 유지 하 고 수집 하는 경우의 수명 주기 전반에 걸쳐 custodial 콘텐츠를 유지 해야 합니다.
+조사가 시작 되 면 eDiscovery 팀은 사례와 관련 된 모든 관련 custodians 및 데이터 원본을 빠르게 식별 해야 합니다. 시간이 지남에 따라 custodians 목록과 해당 데이터 원본이 확장 되거나 축소 될 수 있습니다. 따라서 조직은 사례 수명 주기 동안 custodial 콘텐츠를 식별, 보존 및 수집 하기 위한 제어 된 프로세스를 유지 관리 해야 합니다.
 
-(미리 보기) 고급 eDiscovery 사례, 내에서 법적 팀 데이터 custodians로 조직 내에서 개별 사용자를 추가 하 고 자동으로 식별 하 고 수 Exchange, OneDrive, SharePoint 및 팀 사이트와 같은 custodial 원본의 보존 합니다. 기본 제공 하 고 전체 더불어 관리 도구를 사용 하 여 조직 수 전자적으로 저장 된 정보 (ESI) 실수로 삭제 되지 않도록에서 보호 하 고 수동, 시간이 오래 걸릴 goodbye 라고 표시 및 오류가 발생 하기 쉬운 법률 프로세스를 유지 합니다. 
+고급 eDiscovery (미리 보기)의 경우 법률 팀은 조직 내의 개인을 데이터 custodians 추가 하 고 Exchange, OneDrive, SharePoint, 팀 사이트 등의 custodial 원본을 자동으로 식별 하 고 보존할 수 있습니다. 기본 제공 및 현재 위치 Custodian 관리 도구를 사용 하 여 조직에서 실수로 삭제 되는 것을 보호 하 고, 수동, 시간이 오래 걸리고, 오류가 발생 하기 쉬운 법적 보존 프로세스를 사용할 수 있습니다. 
 
-Custodians를 사용 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 합니다. 
+custodians 사용에 대 한 자세한 내용은 다음 문서를 참조 하십시오. 
 
 - [보유자를 사례에 추가](add-custodians-to-case.md)
 
-- [경우에는 custodians 관리](manage-new-custodians.md)
+- [사례에서 custodians 관리](manage-new-custodians.md)
 
 - [보유자 활동 보기](view-custodian-activity.md)
 
 ## <a name="roles-and-permissions"></a>역할 및 사용 권한
 
-고급 eDiscovery (미리 보기)에서 고급 eDiscovery (미리 보기)의 끝-워크플로 관리할 수 있도록 사용자에 게 필요한 사용 권한을 할당 하는 기본 제공 eDiscovery 관리자 역할 그룹을 사용할 수 있습니다.
+고급 ediscovery (미리 보기)에서 기본 제공 ediscovery 관리자 역할 그룹을 사용 하 여 사용자가 고급 eDiscovery (미리 보기)에서 종단간 워크플로를 관리할 수 있도록 필요한 사용 권한을 할당할 수 있습니다.

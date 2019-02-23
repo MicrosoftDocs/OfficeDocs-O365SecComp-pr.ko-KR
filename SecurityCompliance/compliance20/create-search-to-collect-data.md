@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,29 +14,29 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 773137cbfc73d449766e04bf7eccc77f8bdd0cca
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+ms.openlocfilehash: 09af09c4a538bb43fed5fce044eb1be60c235aaa
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29706139"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30212648"
 ---
 # <a name="create-a-search-to-collect-data"></a>검색을 만들어서 데이터 수집
 
-사용자의 경우에서 **검색** 탭에서 마법사를 수행 하 고 **새로 만들기를 검색** 을 클릭 하 여 새 검색을 만들 수 있습니다.
+사례에 있는 **검색** 탭에서 **새 검색** 을 클릭 하 고 마법사를 수행 하 여 새 검색을 만들 수 있습니다.
 
-## <a name="name-your-search-and-give-description"></a>검색 이름을 지정 하 고 설명을 제공 하십시오.
+## <a name="name-your-search-and-give-description"></a>검색 이름 지정 및 설명 입력
 
-사례와 각 검색 고유한 이름이 있어야 합니다. 필요에 따라 검색에 대 한 설명을 제공할 수 있습니다. 
+케이스가 포함 된 각 검색의 이름은 고유 해야 합니다. 선택적으로 검색에 대 한 설명을 제공할 수 있습니다. 
 
-## <a name="define-your-conditions"></a>규칙의 조건과 정의
+## <a name="define-your-conditions"></a>조건 정의
 
-미리 작성된 된 조건 카드를 사용 하 여 또는 키워드 쿼리 언어 (KQL)를 사용 하 여 검색에 대 한 조건을 정의할 수 있습니다. 자세한 내용은 [빌드 검색 쿼리](building-search-queries.md)를 참조 하십시오.
+미리 작성 된 조건 카드를 사용 하거나 KQL (키워드 쿼리 언어)를 사용 하 여 검색 조건을 정의할 수 있습니다. 자세한 내용은 [빌드 검색 쿼리](building-search-queries.md)를 참조 하십시오.
 
-## <a name="choose-the-custodians-to-search-from"></a>검색 하려면 custodians를 선택 합니다.
+## <a name="choose-the-custodians-to-search-from"></a>검색할 custodians 선택
 
-규칙의 조건과 정의한 경우를 검색 하려면 하는 위치를 선택 해야 합니다. 작업을 수행 하는 한 가지 방법은 검색 하려는 경우에 이미 추가 하는 custodians를 지정 하 여 됩니다. 프로그램 관리자를 선택 하 여 더불어에 매핑된 모든 데이터 원본에 대 한 검색을 실행 합니다. 사례에 custodians를 추가 하 고 해당 데이터 원본을 관리 하는 방법에 대 한 자세한 내용은 [custodians와 함께 작동](managing-custodians.md) 을 참조 하십시오.
+조건을 정의한 후에는 검색 하려는 위치를 선택 해야 합니다. 이 작업을 수행 하는 한 가지 방법은 검색 하려는 사례에 이미 추가한 custodians를 지정 하는 것입니다. custodian를 선택 하 여 custodian에 매핑된 모든 데이터 원본에 대해 검색을 실행 합니다. 사례에 custodians을 추가 하 고 해당 데이터 원본을 관리 하는 방법에 대 한 자세한 내용은 [custodians with Work](managing-custodians.md) 를 참조 하십시오.
 
-## <a name="choose-non-custodial-locations"></a>Custodial 아닌 위치를 선택 합니다.
+## <a name="choose-non-custodial-locations"></a>비 custodial 위치 선택
 
-일부 경우에는 더불어에 매핑되지 않은 데이터 원본을 검색 하는 것이 좋습니다. 이 경우 검색 하거나 특정 Office 365 서비스 (예: 비즈니스 사이트에 대 한 모든 Exchange 사서함 또는 모든 SharePoint와 OneDrive 검색)에 대 한 모든 콘텐츠 위치를 검색 하도록 선택 하려는 위치를 지정할 수 있습니다.
+어떤 경우에는 custodian에 매핑되지 않은 데이터 원본을 검색할 수도 있습니다. 이 경우 검색할 위치를 지정 하거나, 모든 Exchange 사서함 또는 모든 SharePoint 및 비즈니스용 OneDrive 사이트 검색과 같은 특정 Office 365 서비스의 모든 콘텐츠 위치를 검색 하도록 선택할 수 있습니다.

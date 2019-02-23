@@ -7,18 +7,18 @@ ms.date: 1/31/2019
 ROBOTS: NOINDEX, NOFOLLOW
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: 중요 한 정보 유형에 대 한 Office 365 메시지 암호화 정책을 지금 사용할 수 있습니다.'
-ms.openlocfilehash: e2a72ee85ca65a2fe8ae1543979b51915ff0a88f
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: 99cb7a9f94c9cf4036c11b74a5208ddf0e819ceb
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29696202"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213982"
 ---
 # <a name="office-365-message-encryption-policy-for-sensitive-information"></a>중요 한 정보에 대 한 Office 365 메시지 암호화 정책
 

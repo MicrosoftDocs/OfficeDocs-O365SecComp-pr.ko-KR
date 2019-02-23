@@ -6,19 +6,19 @@ manager: laurawi
 ms.date: 12/03/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'Office 365 Cloud App Security를 사용 하는 경우 사용자 계정을 일시 중단 하거나 대기 취소 하는 거 버 넌 스 작업을 수행할 수 있습니다. '
-ms.openlocfilehash: 6c34c04b6a1e389809b611db0ca2f30ecd8c0ada
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: 3650a5304af0440dc537610994c4bd827f599989
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087397"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30215098"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는 복원
 

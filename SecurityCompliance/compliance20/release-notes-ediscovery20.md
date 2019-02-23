@@ -1,64 +1,64 @@
 ---
-title: 고급 eDiscovery (미리 보기)에 대 한 릴리스 정보
+title: Advanced eDiscovery (미리 보기)에 대 한 릴리스 정보
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 이 문서는 고급 eDiscovery (미리 보기)에 대 한 릴리스 정보를 포함합니다.
-ms.openlocfilehash: 305d1da31c9628f4f87b7b50da0b48c64efb808d
-ms.sourcegitcommit: ee28ee2b2bdfd049333c2f495d7f7780d13af4a6
+description: 이 문서에서는 Advanced eDiscovery (미리 보기)에 대 한 릴리스 정보를 포함 합니다.
+ms.openlocfilehash: c717a07d75e84046de07203515fceaf26aab5a41
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29608140"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30212938"
 ---
-# <a name="release-notes-for-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에 대 한 릴리스 정보
+# <a name="release-notes-for-advanced-ediscovery-preview"></a>Advanced eDiscovery (미리 보기)에 대 한 릴리스 정보
 
-고급 ediscovery 공용 미리 보기 프로그램은 예정 된 기능 및 업데이트에 대 한 초기 액세스를 얻을 수 있는 방법입니다. 최신 기능에 대 한 초기 액세스를 얻으려면 방금 만들고 (미리 보기) 고급 eDiscovery 사례를 사용 하 여 Office 365 보안 & 준수 센터의에서 합니다. [새 사례 만들기](create-new-ediscovery-case.md)를 참조 하십시오.
+고급 eDiscovery에 대 한 공용 미리 보기 프로그램은 예정 된 기능과 업데이트에 빠르게 액세스할 수 있는 방법입니다. 최신 기능에 빨리 액세스 하려면 Office 365 Security & 준수 센터에서 고급 eDiscovery (미리 보기) 사례를 만들고 사용 합니다. [새 사례 만들기를](create-new-ediscovery-case.md)참조 하세요.
 
-## <a name="issues-fixed-in-this-release"></a>이 버전에서 해결 된 문제
+## <a name="issues-fixed-in-this-release"></a>이번 릴리스에서 해결 된 문제
 
-- DCR: 예외 Unindexed과 고아 항목에 대 한 처리
+- DCR: 인덱싱되지 않은 항목과 고아 항목에 대 한 예외 처리
 - DCR: 보류 알림
-- EDiscovery의 DCR: Custodians
+- DCR: eDiscovery의 Custodians
 
 ## <a name="whats-new"></a>새로운 기능
 
-- **보안 & 준수 센터의 Redesigned 탐색** -고급 eDiscovery (미리 보기)에 새로운 모양 및 느낌 있습니다. 고급 eDiscovery (미리 보기)를 사용 하 여 사례 워크플로 중 일부를 관리할 수 있습니다.
+- **보안 & 준수 센터** -Advanced eDiscovery (Preview)에서 새롭게 디자인 된 탐색은 새로운 모양과 느낌을 갖습니다. 고급 eDiscovery (미리 보기)를 사용 하 여 사례 워크플로를 더 많이 관리 합니다.
 
-- **사례 관리** -새 사례 형식에 대 한 추가로 지원 합니다. 선택 하 고 사용자의 최근 및 자주 사용 사례를 저장 수도 있습니다. 내에서 및 새 대시보드를 사용 하는 경우 전체의 추적 및 모니터링 작업 합니다.
+- **사례 관리** -새로운 사례 유형에 대 한 추가 지원이 있습니다. 최신 및 즐겨 찾는 사례를 선택 하 고 저장할 수도 있습니다. 새 대시보드를 사용 하는 경우 및 사례 간에 활동을 추적 하 고 모니터링 합니다.
 
-- **더불어 관리** – 추가 하 고 데이터 custodians 사례 내로 사용자를 제거 합니다.
+- **Custodian management** -사례 내에서 사용자를 데이터 custodians로 추가 및 제거 합니다.
 
-- **Exchange, OneDrive 및 팀 통합** -자동으로 사용자의 현재 사서함, 비즈니스 계정 하 고 Microsoft 팀 사이트에 대 한 OneDrive 사례에 추가 합니다. 
+- **Exchange, OneDrive 및 팀 통합** -사용자의 현재 사서함, 비즈니스용 OneDrive 계정 및 Microsoft 팀 사이트를 사례에 자동으로 추가 합니다. 
 
-- **더불어 통신** -보내고 조직을 대신 하 여 법적 보유 알림을 관리 합니다.
+- **Custodian communications** -조직을 대신 하 여 법적 보존 알림을 보내고 관리 합니다.
 
-- **더불어 포털** -custodians에 자신의 활성 액세스에 대 한 새 포털 알림 메시지를 보관 합니다.
+- **Custodian portal** -custodians의 새 포털을 사용 하 여 활성 보류 상태에 액세스할 수 있습니다.
 
-- **상세 인덱싱** -필요에 따라 항목을 인덱싱된 부분적으로 다시 크롤링합니다.
+- **딥 인덱싱** -요청 시 부분적으로 인덱싱된 항목을 다시 크롤링합니다.
 
-- **오류 수정** -Remediate 또는 오류를 처리 하는 다운로드 여기에 큰 파일 형식, 암호로 보호 된 파일 및 업데이트 관리 지원을 포함 합니다. 
+- **오류** 해결 방법-처리 오류를 수정 하거나 다운로드 합니다. 여기에는 큰 파일 형식, 암호로 보호 된 파일 등에 대 한 재구성 지원이 포함 됩니다. 
 
-- **검색을 향상** – 만들기 custodians 및/또는 위치를 확인 하 여 검색 합니다.
+- **향상 된 검색 기능** -custodians 및/또는 위치를 식별 하 여 검색을 만듭니다.
 
-- 문서 **집합 (영문)** -관리, 추적, 및 정적 감사 설정합니다.
+- **작업 집합** -문서 정적 집합을 관리, 추적 및 감사 합니다.
 
-- **검토** -네이티브를 사용 하 여, 텍스트 및 네이티브 근처 보기 작업 집합에 추가 하는 문서를 검토 합니다.
+- **검토** – 작업 집합에 추가 된 문서를 검토 하려면 native, text 및 near 기본 보기를 사용 합니다.
 
-- **Redact, 태그와 주석을 달** -텍스트 교정 태그를 적용 하 고 문서를 검토할 때 주석을 합니다.
+- 문서를 검토할 때 텍스트 교정 **, 태그 지정 및 주석 달기** /태그 적용 및 주석 만들기
   
-- **분석 기반 검토**-검색, 검색 및 cull 작업 집합 내에서 결과를 활용 하는 방법 eDiscovery 분석 합니다.
+- **분석 기반 검토**-eDiscovery 분석을 활용 하 여 작업 집합 내에서 결과를 찾고, 검색 하 고, cull 합니다.
 
 - **작업** -장기 실행 프로세스의 상태를 추적 합니다.
 
-- **새로 만들기 작업 감사** -추적 하 고 새 보기 고급 eDiscovery에 대 한 활동을 감사 합니다.
+- **새 감사 작업** -고급 eDiscovery에 대 한 새 감사 활동을 추적 및 확인 합니다.

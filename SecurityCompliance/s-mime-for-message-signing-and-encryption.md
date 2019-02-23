@@ -1,5 +1,5 @@
 ---
-title: 메시지 서명 및 암호화를 위한 S/MIME
+title: Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,13 +12,13 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
-description: S/MIME을 사용 하면 전자 메일이 암호화 및 디지털 서명 수 있습니다. 전자 메일 메시지와 함께 S/MIME을 사용 하는 경우 받은 편지함에 보게 보낸 시작 하는 정확한 메시지 인지 확인 하는 메시지를 받는 사람은 하는데 도움이 됩니다.
-ms.openlocfilehash: 26c50fb6e4d1b07b7dba26948ae46e7f36eeaec5
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+description: S/MIME을 사용 하면 전자 메일을 암호화 하 고 디지털 서명을 할 수 있습니다. 전자 메일 메시지와 함께 S/MIME을 사용 하는 경우 해당 메시지를 받는 사용자에 게 받은 편지함에 표시 되는 내용이 보낸 사람과 정확히 일치 하는 메시지 인지 확인 하는 데 도움이 됩니다.
+ms.openlocfilehash: 41a84d5332092748f9a8cc8fe4936c39e5fd2012
+ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002772"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30206511"
 ---
 # <a name="smime-for-message-signing-and-encryption"></a>메시지 서명 및 암호화를 위한 S/MIME
 
@@ -29,13 +29,11 @@ Exchange 2013 SP1 또는 Exchange Online(Office 365의 일부분)에 사서함�
 ## <a name="supported-scenarios-and-technical-considerations"></a>지원되는 시나리오 및 기술 고려 사항
 <a name="sectionSection0"> </a>
 
-조직에서 Exchange 2013 SP1 또는 Exchange Online을 사용하는 경우 다음 끝점에서 작동하도록 S/MIME을 설정할 수 있습니다. 
+다음과 같은 끝점에서 작동 하도록 S/MIME을 설정할 수 있습니다. 
   
-- Outlook 2010
+- Outlook 2010 이상
     
-- Outlook 2013
-    
-- Outlook Web App
+- 웹용 Outlook(이전 Outlook Web App)
     
 - EAS(Exchange ActiveSync)
     
@@ -47,20 +45,20 @@ Exchange 2013 SP1 또는 Exchange Online(Office 365의 일부분)에 사서함�
     
 - Exchange Online 조직의 경우 해당하는 DirSync 버전을 사용하여 AD DS에서 Azure Active Directory로 사용자 인증서를 동기화합니다. 그러면 이러한 인증서가 Azure Active Directory에서 Exchange Online 디렉터리로 동기화되며 받는 사람에 대한 메시지를 암호화할 때 사용됩니다.
     
-- S/MIME의 유효성을 검사하기 위해 가상 인증서 모음을 설정합니다. 전자 메일의 서명 유효성을 검사하여 전자 메일이 신뢰할 수 있는 인증서를 통해 서명되었음을 확인할 때 OWA에서 이 정보가 사용됩니다.
+- S/MIME의 유효성을 검사 하기 위해 가상 인증서 컬렉션을 설정 합니다. 이 정보는 전자 메일의 서명 유효성을 검사 하 고 신뢰할 수 있는 인증서에 의해 서명 되었는지 확인할 때 웹 (이전에는 웹에서 outlook 이라고 함)의 outlook에서 사용 합니다.
     
 - S/MIME을 사용하도록 Outlook 또는 EAS 끝점을 설정합니다. 
     
-## <a name="setup-smime-with-outlook-web-app"></a>Outlook Web App에서 S/MIME 설정
+## <a name="setup-smime-with-outlook-on-the-web"></a>웹에서 Outlook을 사용 하 여 S/MIME 설정
 <a name="sectionSection1"> </a>
 
-Outlook Web App이 포함된 Exchange 2013 SP1 또는 Exchange Online에 대해 S/MIME을 설정하려면 다음 주요 단계를 수행합니다.
+Exchange Online에 대해 S/MIME을 설정 하려면 다음과 같은 주요 단계를 수행 해야 합니다.
   
-1. [Outlook Web App용 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
+1. [웹용 Outlook에 대 한 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
     
 2. [S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
     
-3. [S/MIME에 대 한 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md) 이 단계는 Exchange Online에 적용 됩니다. 
+3. [S/MIME 용으로 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md) 이 단계는 Exchange Online에만 적용 됩니다. 
     
 ## <a name="related-message-encryption-technologies"></a>관련 메시지 암호화 기술
 <a name="sectionSection2"> </a>
@@ -80,7 +78,7 @@ S/MIME을 사용하려면 대개 기업 간, 그리고 기업과 소비자 간�
 ## <a name="more-information"></a>추가 정보
 <a name="sectionSection3"> </a>
 
-[Outlook Web App](http://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[웹용 Outlook](http://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
   
 [보안 메일(2000)](https://technet.microsoft.com/en-us/library/cc962043.aspx)
   

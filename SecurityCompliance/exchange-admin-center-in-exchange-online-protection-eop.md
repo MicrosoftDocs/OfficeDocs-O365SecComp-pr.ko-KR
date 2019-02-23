@@ -1,7 +1,7 @@
 ---
-title: 'Exchange Online Protection의 Exchange 관리 센터  '
-ms.author: krowley
-author: kccross
+title: 'Exchange Online Protection의 Exchange 관리 센터 '
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
 ms.audience: ITPro
@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
+ms.collection:
+- M365-security-compliance
 description: EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
-ms.openlocfilehash: 144907110af9fcbec1c6399e0695abb705bef409
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 0d1e56b85afe6655b5c6d08df51d4607df92d1d5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002947"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220468"
 ---
-# <a name="exchange-admin-center-in-exchange-online-protection"></a>Exchange Online Protection의 Exchange 관리 센터  
+# <a name="exchange-admin-center-in-exchange-online-protection"></a>Exchange Online Protection의 Exchange 관리 센터 
 
 EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다. 
   
@@ -32,13 +34,13 @@ EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 
 
 대부분의 경우 EOP 고객은 Office 365 관리 센터를 통해 EAC에 액세스합니다. **내 소식** 타일 옆에 있는 **관리** 타일의 드롭다운 메뉴에 EOP에 대한 링크가 있습니다. **관리** 타일을 클릭하고 드롭다운 메뉴에서 **Exchange Online Protection**를 선택하여 EAC로 이동합니다. 
   
-EAC에 대 한 로그인 페이지는 다음 URL 통해 직접 액세스할 수도 있습니다: https://admin.protection.outlook.com/ecp/\<companydomain\>합니다. 예, https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com합니다. 사용자 자격 증명을 지정한 후 EAC에 직접 수행 됩니다.
+다음 URL https://admin.protection.outlook.com/ecp/\<companydomain\>을 통해 EAC 로그인 페이지에 직접 액세스할 수도 있습니다. 예를 https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com들면입니다. 사용자 자격 증명을 지정 하 고 나면 EAC로 직접 이동할 수 있습니다.
   
 ## <a name="common-user-interface-elements-in-the-eac"></a>EAC의 공통 사용자 인터페이스 요소
 
 이 섹션에서는 EMC에 있는 사용자 인터페이스 요소에 대해 설명합니다.
   
-![EOP AdminCenter](media/EOP-AdminCenter.png)
+![EOP-admincenter](media/EOP-AdminCenter.png)
   
 ### <a name="feature-pane"></a>기능 창
 
@@ -159,7 +161,7 @@ Exchange Online Protection에서 지원되고 사용할 수 있는 언어는 다
     
 - 일본어
     
-- 칸나다어
+- 카나다어
     
 - 카자흐어
     

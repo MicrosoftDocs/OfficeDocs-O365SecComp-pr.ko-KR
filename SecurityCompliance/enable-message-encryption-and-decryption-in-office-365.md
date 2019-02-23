@@ -6,23 +6,23 @@ manager: laurawi
 ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: e313c489-ce5e-4015-aadf-981c697ab51f
-description: Office 365 메시지 암호화에는 외부 내 사람에 게 암호화 된 메시지를 보낼 전자 메일 사용자 수 있도록 조직입니다. 관리자로 서 규칙을 만들어 메일 흐름 (전송 규칙이 라고도 함) 암호화에 대 한 조건을 설정 하는 Office 365 메시지 암호화를 사용할 수 있습니다.
-ms.openlocfilehash: be25b0cd2ece5269091309b91bff5df3a83cee5c
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+description: Office 365 메시지 암호화를 사용 하면 전자 메일 사용자가 조직 외부의 사용자에 게 암호화 된 메시지를 보낼 수 있습니다. 관리자는 암호화 조건을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 Office 365 메시지 암호화를 사용 하도록 설정할 수 있습니다.
+ms.openlocfilehash: 32d363b350cb9dfcfc4f8ac5d47b345075ead45a
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272143"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30215608"
 ---
 # <a name="enable-message-encryption-and-decryption-in-office-365"></a>암호화 및 암호 해독 사용 [EOP]
 
-Office 365 메시지 암호화에는 외부 내 사람에 게 암호화 된 메시지를 보낼 전자 메일 사용자 수 있도록 조직입니다. 관리자로 서 규칙을 만들어 메일 흐름 (전송 규칙이 라고도 함) 암호화에 대 한 조건을 설정 하는 Office 365 메시지 암호화를 사용할 수 있습니다. 사용자 중 하나는 규칙의 조건과 일치 하는 메시지를 보내면 메시지가 암호화 됩니다.
+Office 365 메시지 암호화를 사용 하면 전자 메일 사용자가 조직 외부의 사용자에 게 암호화 된 메시지를 보낼 수 있습니다. 관리자는 암호화 조건을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 Office 365 메시지 암호화를 사용 하도록 설정할 수 있습니다. 사용자 중 한 명에 게 규칙 조건과 일치 하는 메시지를 보내면 메시지가 암호화 됩니다.
   
-메일 암호화에 대 한 흐름 규칙을 만드는 방법을 알아보려면 [정의 암호화 하거나 전자 메일 메시지의 암호를 해독 하는 규칙](https://go.microsoft.com/fwlink/p/?LinkID=402846)을 참조 하십시오.
+암호화에 대 한 메일 흐름 규칙을 만드는 방법을 알아보려면 [전자 메일 메시지를 암호화 하거나 암호를 해독 하는 규칙 정의](https://go.microsoft.com/fwlink/p/?LinkID=402846)를 참조 하십시오.
   
 ## <a name="see-also"></a>See also
 

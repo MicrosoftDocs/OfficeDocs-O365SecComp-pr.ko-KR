@@ -6,19 +6,19 @@ manager: laurawi
 ms.date: 02/15/2019
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: '변칙 검색 정책 Office 365 Cloud App Security에서는 잠재적 문제를 파악 하는 데 도움이 되는 기본 제공 알고리즘을 사용 합니다. 필터를 사용 하 여 튜닝할 수 있는 변칙 검색 정책이 하나 이상 있어야 합니다. '
-ms.openlocfilehash: a3c7fb16ab10b0bcfaca444093e4e1f52468f0c8
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: 5308af139a46dad0793ed7eedacab0aee62dcc6c
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087367"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220678"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 변칙 검색 정책
 
@@ -98,7 +98,7 @@ office 365 전역 관리자 또는 보안 관리자는 office 365 Cloud App secu
   
 ## <a name="next-steps"></a>다음 단계
 
-- [Office 365 앱에 대 한 조건부 액세스 앱 컨트롤 배포](ocas-deploy-conditional-access-app-control.md)
+- [Office 365 앱용 조건부 액세스 앱 컨트롤 배포](ocas-deploy-conditional-access-app-control.md)
 
 - [관리를 간소화 하는 IP 주소 그룹화](group-your-ip-addresses-in-ocas.md)
 

@@ -1,35 +1,35 @@
 ---
-title: EU 세금 Id 번호
+title: EU 세금 확인 번호
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f04919c8-2356-4de2-bb2a-b9f67f339726
-description: 이 항목에서는 EU 세금 Id 번호 중요 한 정보 유형을 감지 하는 경우의 데이터 손실 방지 (DLP) 정책을 찾아에 대해 보여줍니다. 이 중요 한 정보 유형 다양 한 패턴, 키워드 및 각 국가 대 한 기타 증거를 정의합니다.
-ms.openlocfilehash: 5192496b393d15fd6d063e09c9bfe1cb3dd7e2dd
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: 이 항목에서는 EU 세금 식별 번호 중요 정보 유형을 검색할 때 DLP (데이터 손실 방지) 정책이 어떤 역할을 검색 하나요를 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
+ms.openlocfilehash: f851cce4be70fd41c24a7876d97c452f0a738eda
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533472"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213828"
 ---
-# <a name="eu-tax-identification-number"></a>EU 세금 Id 번호
+# <a name="eu-tax-identification-number"></a>EU 세금 확인 번호
 
-이 항목에서는 EU 세금 식별 번호 (주석) 중요 한 정보 유형을 감지 하는 경우의 데이터 손실 방지 (DLP) 정책을 찾아에 대해 보여줍니다. 이 중요 한 정보 유형 다양 한 패턴, 키워드 및 각 국가 대 한 기타 증거를 정의합니다.
+이 항목에서는 언급 (데이터 손실 방지) 정책이 EU (유럽 세금 식별 번호) 중요 한 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
   
 ## <a name="austria"></a>오스트리아
 
 ### <a name="format"></a>형식
 
-사용자 지정 하이픈 및 슬래시 숫자 9 개
+하이픈 및 슬래시가 있는 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-사용자 지정 하이픈 및 슬래시 9 개의 숫자:
+하이픈 및 슬래시가 있는 9 자리 숫자:
   
 -  2자리 숫자 
     
@@ -49,13 +49,13 @@ ms.locfileid: "22533472"
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_austria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_austria_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_austria_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_austria_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_austria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_austria_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -76,14 +76,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-번호
+수
   
-사업자 등록 번호
+세금 등록 번호
   
 tax id
 
   
-st.nr 합니다.
+st.nr
   
 steuernummer
   
@@ -91,7 +91,7 @@ steuernummer
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 11 자리 숫자
+공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -115,9 +115,9 @@ steuernummer
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_belgium_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_belgium_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_belgium_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_belgium_eu_tax_file_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -135,18 +135,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-국가 번호
+국가 등록 번호
   
-사업자 등록 번호
+세금 등록 번호
   
 tax id
 
   
-nif
+m
   
-nif #
+m
   
-numéro de registre 국가
+numéro de registre 국립
   
 numéro d'identification fiscale
   
@@ -154,7 +154,7 @@ numéro d'identification fiscale
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 10 자리 숫자
+공백과 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -168,13 +168,13 @@ numéro d'identification fiscale
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_bulgaria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_bulgaria_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_bulgaria_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_bulgaria_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_bulgaria_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_bulgaria_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -193,47 +193,47 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsbulgariaeutaxfilenumber"></a>Keywords_bulgaria_eu_tax_file_number
 
-bucn
+고 대 cn
   
-uniform 복제 번호
+일관적인 민사 번호
   
-bucn #
+과 (와) cn #
   
 uniformcivilnumber #
   
-uniform 복제 id
+일정 한 민사 일련번호
   
-uniform 복제 없음
+일관적인 민사
   
 egn
   
-불가리아어 uniform 복제 번호
+불가리아어 (민사)
   
 uniformcivilno #
   
 egn #
   
-УНИФОРМ ГРАЖДАНСКИ НОМЕР
+униформ граждански номер
   
-Униформ id
+униформ id
   
-Униформ граждански id
+униформ граждански id
   
-УНИФОРМ ГРАЖДАНСКИ НЕ
+униформ граждански не
   
 ## <a name="croatia"></a>크로아티아
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 11 자리 숫자
+공백이 나 구분 기호가 없는 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
 11자리 숫자:
   
-- 임의로 선택 하는 10 자리 숫자
+- 임의로 선택한 10 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -243,13 +243,13 @@ egn #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_croatia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_croatia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_croatia_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_croatia_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_croatia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_croatia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -275,9 +275,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 tax id
 
   
-oid
+원환형
   
-oid #
+원환형
   
 porezni broj
   
@@ -285,17 +285,17 @@ porezni broj
 
 ### <a name="format"></a>형식
 
-8 개의 숫자 및 지정된 된 패턴에 있는 문자 하나
+지정 된 패턴에서 8 자리 및 1 개 문자
   
 ### <a name="pattern"></a>패턴
 
-8 개의 숫자와 문자 하나:
+8 자리 숫자와 1 개 문자:
   
 -  "0" 
     
 - 7자리 숫자
     
-- 하나의 문자 (대 소문자 구분 안함)
+- 1 개 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>체크섬
 
@@ -305,13 +305,13 @@ porezni broj
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_cyprus_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_cyprus_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_cyprus_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_cyprus_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_cyprus_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_cyprus_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -337,33 +337,33 @@ Pattern confidenceLevel="75">
 tax id
 
   
-세금 id 코드입니다.
+세금 식별 코드
   
-눈금
+tic
   
-눈금 #
+tic #
   
-ΑΡΙΘΜΌΣ ΦΟΡΟΛΟΓΙΚΟΎ ΜΗΤΡΏΟΥ
+αριθμός φορολογικού μητρώου
   
-ΦΟΡΟΛΟΓΙΚΉ ΤΑΥΤΌΤΗΤΑ
+φορολογική ταυτότητα
   
-ΚΩΔΙΚΌΣ ΦΟΡΟΛΟΓΙΚΟΎ ΜΗΤΡΏΟΥ
+κωδικός φορολογικού μητρώου
   
 ## <a name="czech-republic"></a>체코 공화국
 
 ### <a name="format"></a>형식
 
-선택적 백슬래시를 9 또는 10 자리 숫자
+선택적 백슬래시가 있는 9 자리 또는 10 진수
   
 ### <a name="pattern"></a>패턴
 
-선택적 backslashl 9 또는 10 자리 숫자:
+선택적 backslashl이 있는 아홉 자리 숫자
   
 - 6자리 숫자 
     
 - 백슬래시 (선택 사항)
     
-- 3 개 또는 4 자리 숫자
+- 3 ~ 4 자리 숫자
     
 ### <a name="checksum"></a>체크섬
 
@@ -373,9 +373,9 @@ tax id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_czech_republic_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_czech_republic_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_czech_republic_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_czech_republic_eu_tax_file_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -412,13 +412,13 @@ osobní číslo
   
 ### <a name="pattern"></a>패턴
 
-10 자리 숫자를 hyphenl를 포함 합니다.
+hyphenl를 포함 하는 10 자리 숫자:
   
--  생일 (DDMMYY)에 해당 하는 6 자리 숫자 
+-  생년월일에 해당 하는 6 자리 숫자 (ddmmyy) 
     
 - 하이픈
     
-- 개인의 성별 (1 여자 2 남자 및 탑재에 대해서도 홀수)에 해당 하는 첫번째 숫자 생일 세기에 해당 하는 여기서 시퀀스 번호에 해당 하는 4 자리 숫자와 마지막 자릿수
+- 첫 번째 숫자가 출생 세기에 해당 하 고 마지막 숫자가 개별 성별에 해당 하는 시퀀스 번호에 해당 하는 4 자리 숫자 (남성의 경우 홀수 및 암에도 해당)
     
 ### <a name="checksum"></a>체크섬
 
@@ -428,13 +428,13 @@ osobní číslo
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_denmark_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_denmark_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_denmark_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_denmark_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_denmark_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_denmark_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -464,27 +464,27 @@ cpr 번호
   
 cpr #
   
-skat nummer
+nummer에서
   
-skat id
+번호 (|)
   
 ## <a name="estonia"></a>에스토니아
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 11 자리 숫자
+공백이 나 구분 기호가 없는 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
 11자리 숫자:
   
--  성별 및 여기서 홀수인 1 여자 2 남자를 나타내고 짝수 나타냅니다 탑재 다음과 같이 생일 세기에 해당 하는 한 자리 숫자: 1, 2 19 세기;에 대 한 3, 4 20 세기;에 대 한 5, 6 21 세기에 대 한 및 
+-  성별에 해당 하는 숫자와 홀수로 해당 하 고, 홀수를 지정 하 여 19th 세기에 대해 1, 2를 나타내는 숫자입니다. 3, 20th 세기에 대해 4를 적용 합니다. 21 세기에 대해 5, 6 
     
-- 생일 (YYMMDD)에 해당 하는 6 자리 숫자
+- 생년월일에 해당 하는 6 자리 숫자 (YYMMDD)
     
-- 같은 날짜 태어난 장애인을 구분 하는 일련 번호에 해당 하는 세 자리 숫자
+- 같은 날짜에 태어난 사람을 구분 하는 일련 번호에 해당 하는 3 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -494,13 +494,13 @@ skat id
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_estonia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_estonia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_estonia_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_estonia_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_estonia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_estonia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -538,19 +538,19 @@ isikukood
 
 ### <a name="format"></a>형식
 
-숫자는 11 자리의 조합 문자 및 더하기 및 빼기 기호
+숫자, 문자, 더하기 및 빼기 기호를 11 문자로 조합
   
 ### <a name="pattern"></a>패턴
 
-숫자는 11 자리의 조합 문자 및 더하기 및 빼기 기호:
+숫자, 문자, 더하기 및 빼기 기호를 11 문자로 조합한 것입니다.
   
 - 6자리 숫자
     
-- 다음 중 하나: 더하기 기호, 빼기 기호 또는 더하기 기호를 의미 있는 문자 "A" (하지 대/소문자 구분) 1800-1899 년 사이 태어난 빼기 서명 간의 태어난 의미 1900-1999 및 "A" 2000 탄생 하 게 하는 방법 및 완료
+- 더하기 기호, 빼기 기호 또는 + 기호가 1800-1899 사이에 태어난 것을 의미 하는 "a" (대/소문자 구분 안 함), 빼기 기호는 1900-1999 사이에 출생를 의미 하며 "a"는 "a"를 의미 합니다.
     
 - 3자리 숫자
     
-- 하나의 문자 또는 숫자
+- 1 개의 문자 또는 한 자리 숫자
     
 ### <a name="checksum"></a>체크섬
 
@@ -560,13 +560,13 @@ isikukood
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_finland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_finland_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_finland_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_finland_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_finland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_finland_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -590,17 +590,17 @@ identification number
   
 개인 id
   
-identity 번호
+id 번호
   
-핀란드 국가 id 번호
+핀란드어 국가 id 번호
   
 personalidnumber #
   
-국가 id 번호
+국가 식별 번호
   
 id 번호
   
-국가 id 없습니다.
+국가 id 번호입니다.
   
 국가 id 번호
   
@@ -630,17 +630,17 @@ kansallinen tunnus numero
 
 ### <a name="format"></a>형식
 
-개인 및 엔터티에 대 한 숫자 9 개에 대 한 13 자릿수
+개별 사용자의 경우 13 자리 숫자 및 엔터티의 경우 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-개별 사용자에 대 한 자리 숫자 13:
+개별 사용자에 대 한 13 자리 숫자:
   
-- 0, 1, 2 또는 3 이어야 하는 한 자리 숫자
+- 0, 1, 2 또는 3 이어야 하는 1 자리 숫자
     
 - 12자리 숫자
     
-엔터티에 대 한 숫자 9 개
+엔터티의 9 자리 숫자
   
 ### <a name="checksum"></a>체크섬
 
@@ -650,13 +650,13 @@ kansallinen tunnus numero
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_france_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_france_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_france_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_france_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_france_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_france_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -675,7 +675,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsfranceeutaxfilenumber"></a>Keywords_france_eu_tax_file_number
 
-세금 id 번호
+세금 식별 번호
   
 세금 번호
   
@@ -688,7 +688,7 @@ numéro d'identification fiscale
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 11 자리 숫자
+공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -696,7 +696,7 @@ numéro d'identification fiscale
   
 -  10 자리 숫자 
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -706,13 +706,13 @@ numéro d'identification fiscale
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_germany_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_germany_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_germany_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_germany_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_germany_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_germany_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -733,7 +733,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -746,9 +746,9 @@ tax id
   
 taxid #
   
-세금 id 번호
+세금 식별 번호
   
-식별을 더 세금 합니다.
+세금 식별 번호
   
 steuernummer
   
@@ -760,7 +760,7 @@ steueridentifikationsnummer
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 숫자 9 개
+공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -774,9 +774,9 @@ steueridentifikationsnummer
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_greece_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_greece_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_greece_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_greece_eu_tax_file_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -797,51 +797,51 @@ afm
 tin
 
   
-id를 더 세금 합니다.
+세금 번호 번호
   
-id를 더 세금
+세금 번호 없음
   
-세금 id 번호
+세금 식별 번호
   
 세금 레지스트리 번호
   
-레지스트리를 더 세금 합니다.
+세금 레지스트리 번호
   
 afm #
   
-주석 #
+언급
   
 taxidno #
   
 taxregistryno #
   
-ΑΡΙΘΜΌΣ ΦΟΡΟΛΟΓΙΚΟΎ ΜΗΤΡΏΟΥ
+αριθμός φορολογικού μητρώου
   
 aφμ
   
 aφμ αριθμός
   
-ΦΟΡΟΛΟΓΙΚΟΎ ΜΗΤΡΏΟΥ ΝΟ 합니다.
+φορολογικού μητρώου νο
   
-ΤΟΝ ΑΡΙΘΜΌ ΦΟΡΟΛΟΓΙΚΟΎ ΜΗΤΡΏΟΥ
+τον αριθμό φορολογικού μητρώου
   
 ## <a name="hungary"></a>헝가리
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 10 자리 숫자
+공백이 나 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
 10 자리 숫자:
   
--  "8" 되어야 하는 한 자리 숫자 
+-  "8" 이어야 하는 1 자리 숫자 
     
-- 날짜 사이의 일 수에 해당 하는 5 자리 01/01/1867 및 개인의 생일의 날짜
+- 날짜 01/01/1867과 개별 생년월일 사이의 일 수에 해당 하는 5 자리 숫자입니다.
     
-- 하루에 탄생 하 게 하는 개인을 구분 하기 위해 우연히 생성 번호에 해당 하는 세 자리 숫자
+- 같은 날에 태어난 사람을 구별 하기 위해 기회가 만든 번호에 해당 하는 3 자리 숫자
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -851,13 +851,13 @@ aφμ αριθμός
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_hungary_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_hungary_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_hungary_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_hungary_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_hungary_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -876,25 +876,25 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordshungaryeutaxfilenumber"></a>Keywords_hungary_eu_tax_file_number
 
-헝가리어 세금 id 번호
+헝가리어 세금 식별 번호
   
-헝가리어 주석
+헝가리어 언급
   
 세금 id 번호
   
 vat 번호
   
-인증 기관을 더 세금
+세금 기관 아니요
   
-세금 id 세금 identity 번호
+세금 id 세금 id 번호
   
 taxidnumber #
   
-주석 #
+언급
   
 hungatiantin #
   
-식별을 더 세금
+세금 식별 아니요
   
 taxidno #
   
@@ -908,15 +908,15 @@ adóhatóság szám
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 문자 앞에 오는 7 자리 숫자
+공백 또는 구분 기호가 없는 7 자리 숫자와 문자
   
 ### <a name="pattern"></a>패턴
 
-7 자리 숫자 앞에 오는 문자를:
+7 자리 숫자와 문자
   
 -  7자리 숫자 
     
-- 하나의 문자 (대 소문자 구분 안함)
+- 1 개 문자 (대/소문자 구분 안 함)
     
 ### <a name="checksum"></a>체크섬
 
@@ -926,13 +926,13 @@ adóhatóság szám
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_ireland_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_ireland_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_ireland_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_ireland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_ireland_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -951,23 +951,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsirelandeutaxfilenumber"></a>Keywords_ireland_eu_tax_file_number
 
-공공 서비스 없음
+공용 서비스 없음
   
-개인 공공 서비스 없음
+개인 공용 서비스 없음
   
-pps 없음
+pps 아니요
   
-개인 no 서비스
+개인 서비스 없음
   
 pps 서비스 없음
   
 ppsno #
   
-아일랜드 pps 없음
+아일랜드 pps 아니요
   
 publicserviceno #
   
-개인 공공 서비스 번호
+개인 공용 서비스 번호
   
 uimhir phearsanta seirbhíse poiblí
   
@@ -979,25 +979,25 @@ uimhir aitheantais phearsanta
 
 ### <a name="format"></a>형식
 
-16 비트 문자 및 지정 된 패턴의 자릿수
+지정 된 패턴의 문자와 숫자 16 개
   
 ### <a name="pattern"></a>패턴
 
-16 대 문자와 숫자:
+16 자의 문자 및 숫자:
   
--  패밀리 이름에서 처음 세 자음에 해당 하는 세 개 문자 
+-  가족 이름에서 처음 세 개의 자음에 해당 하는 3 개의 문자 
     
-- 먼저, 세번째 및 네번째에 해당 하는 세 글자로 자음 첫 사용자 이름
+- 이름의 첫 번째, 세 번째 및 네 번째 자음에 해당 하는 3 개의 문자
     
-- 마지막 생일의 연도의 숫자에 해당 하는 두 자리 숫자
+- 출생 연도의 마지막 자리에 해당 하는 2 자리 숫자
     
-- 생일의 월에 해당 하는 한 자리 숫자-문자 사전순으로 사용 되지만 문자를 E, H, L, M, P, R T로 사용 됩니다 (따라서 1 월 A 이며 년 10 월 R)
+- 출생 달에 해당 하는 1 자리 숫자는 알파벳 순으로 사용 되지만 a에서 E, H, L, M, P, R에 해당 하는 문자만 사용 되며, 따라서 1 월은 a와 10 월이 됩니다.
     
-- 40 수 컷 구별 하기 위해 산포도 대 한 생일 요일에 추가 되는 여기서 생일의 월의 날짜에 해당 하는 두 자리 숫자
+- 남성의와 구별 하기 위해 여성의 경우 짝수에서 출생 일에 40이 추가 되는 출생 달의 날짜에 해당 하는 2 자리 숫자
     
-- 사용자 출생 여기서는 지방 자치 단체에 특정 지역 번호에 해당 하는 4 자리 숫자-외국에 사용 되는 전체 국가 코드
+- 사용자가 태어난 municipality 관련 지역 번호에 해당 하는 4 자리 숫자-국가 전체 코드를 외국 국가에 사용 합니다.
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -1007,13 +1007,13 @@ uimhir aitheantais phearsanta
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_italy_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_italy_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_italy_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_italy_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_italy_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1034,7 +1034,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -1049,21 +1049,21 @@ taxid #
   
 회계 코드
   
-codice fiscale
+codice
   
 ## <a name="latvia"></a>라트비아
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 11 자리 숫자
+공백이 나 구분 기호가 없는 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-지정된 된 패턴에 11 자리 숫자
+지정 된 패턴에서 11 자리 숫자
   
--  생일 (DDMMYY)의 날짜에 해당 하는 6 자리 숫자 
+-  출생 날짜에 해당 하는 6 자리 숫자 (ddmmyy) 
     
-- 여기서 19 세기에 해당 하는 "0", "1" 해당 20 세기에 "2" 하 고 해당 21 세기 생일 세기에 해당 하는 한 자리 숫자
+- 출생 세기에 해당 하는 1 자리 숫자 이며, "0"은 19th 세기에 해당 하 고 "1"은 20th 세기에 해당 하며 21 세기에 해당 합니다.
     
 - 4자리 숫자
     
@@ -1075,13 +1075,13 @@ codice fiscale
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_latvia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_latvia_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_latvia_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_latvia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_latvia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1102,7 +1102,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -1115,9 +1115,9 @@ tax id
   
 taxid #
   
-세금 id 번호
+세금 식별 번호
   
-식별을 더 세금 합니다.
+세금 식별 번호
   
 nodokļa numurs
   
@@ -1129,7 +1129,7 @@ nodokļu identifikācija numurs
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 11 자리 숫자
+공백이 나 구분 기호가 없는 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1143,13 +1143,13 @@ nodokļu identifikācija numurs
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_lithuania_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_lithuania_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_lithuania_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_lithuania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_lithuania_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1170,9 +1170,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
-세금 no #
+세금 없음 #
   
 taxnumber #
   
@@ -1183,9 +1183,9 @@ tax id
   
 taxid #
   
-세금 id 번호
+세금 식별 번호
   
-식별을 더 세금 합니다.
+세금 식별 번호
   
 mokesčių id
   
@@ -1193,11 +1193,11 @@ mokesčių numeris
   
 mokesčių identifikavimas numeris
   
-## <a name="luxemburg"></a>룩셈부르크
+## <a name="luxemburg"></a>셈
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 13 자릿수
+공백이 나 구분 기호가 없는 13 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1215,13 +1215,13 @@ mokesčių identifikavimas numeris
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_luxemburg_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_luxemburg_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_luxemburg_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_luxemburg_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_luxemburg_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1242,7 +1242,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -1255,9 +1255,9 @@ tax id
   
 taxid #
   
-세금 id 번호
+세금 식별 번호
   
-식별을 더 세금 합니다.
+세금 식별 번호
   
 steuernummer
   
@@ -1269,19 +1269,19 @@ steueridentifikationsnummer
 
 ### <a name="format"></a>형식
 
-몰타어 국민에 대 한: 7 자리 숫자 및 지정된 된 패턴에 있는 문자 하나
+몰타어 nationals의 경우 지정 된 패턴의 7 자리 및 한 문자
   
-비 몰타어 국민 및 몰타어 엔터티: 9 자리 숫자
+몰타어 이외의 nationals 및 몰타어 엔터티: 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-몰타어 국민: 7 자리 숫자와 문자 하나
+몰타어 nationals: 7 자리 숫자 및 1 개 문자
   
 -  7자리 숫자 
     
-- 하나의 문자 (대 소문자 구분 안함)
+- 1 개 문자 (대/소문자 구분 안 함)
     
-비 몰타어 국민 및 몰타어 엔터티: 9 자리 숫자
+몰타어 이외의 nationals 및 몰타어 엔터티: 9 자리 숫자
   
 -  9자리 숫자 
     
@@ -1293,13 +1293,13 @@ steueridentifikationsnummer
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_malta_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_malta_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_malta_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
   
-- 다음은 함수 `Func_malta_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_malta_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1320,7 +1320,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -1333,21 +1333,21 @@ tax id
   
 taxid #
   
-세금 id 번호
+세금 식별 번호
   
-식별을 더 세금 합니다.
+세금 식별 번호
   
-numru tat taxxa
+numru tat
   
 id tat-taxxa
   
-numru ta ' identifikazzjoni tat taxxa
+numru ta ' taxxa
   
 ## <a name="netherlands"></a>네덜란드
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 숫자 9 개
+공백이 나 구분 기호가 없는 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1361,13 +1361,13 @@ numru ta ' identifikazzjoni tat taxxa
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_netherlands_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_netherlands_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_netherlands_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_netherlands_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_netherlands_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1386,19 +1386,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsnetherlandseutaxfilenumber"></a>Keywords_netherlands_eu_tax_file_number
 
-네덜란드 세금 id 번호
+네덜란드 세금 식별 번호
   
 네덜란드 세금 식별
   
-네덜란드령의 세금 id 번호
+netherland의 세금 식별 번호
   
-네덜란드령의 세금 식별
+netherland의 세금 식별
   
-세금 id 번호
+세금 식별 번호
   
-네덜란드어 세금 id
+네덜란드어 세금 번호
   
-네덜란드어 세금 id 번호
+네덜란드어 세금 식별 번호
   
 tax id
 
@@ -1407,30 +1407,30 @@ tax id
   
 세금 번호
   
-세금 no #
+세금 없음 #
   
-세금 #
+세금
   
 tin
 
   
-주석 #
+언급
   
-네덜란드 주석
+네덜란드 언급
   
-네덜란드령의 주석
+netherland의 언급
   
-네덜란드 belasting identificatienummer
+nederlands belasting identificatienummer
   
 identificatienummer van belasting
   
 identificatienummer belasting
   
-네덜란드 belasting identificatie
+nederlands belasting identificatie
   
-네덜란드 belasting id nummer
+nederlands belasting id nummer
   
-네덜란드 belastingnummer
+nederlands belastingnummer
   
 btw nummer
   
@@ -1440,11 +1440,11 @@ nederlandse belasting identificatie
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 11 개의 숫자
+공백이 나 구분 기호가 없는 11 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
-11 개의 숫자
+11 자리 숫자
   
 ### <a name="checksum"></a>체크섬
 
@@ -1454,13 +1454,13 @@ nederlandse belasting identificatie
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_poland_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_poland_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_poland_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_poland_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_poland_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1481,7 +1481,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -1489,26 +1489,26 @@ taxnumber #
   
 taxnumber
   
-닙 (nip)
+nip
   
-닙 (nip) #
+nip #
   
 tax id
 
   
 세금 id #
   
-닙 (nip) id
+nip id
   
-닙 (nip) id #
+nip id #
   
-세금 id 번호
+세금 식별 번호
   
-식별을 더 세금 합니다.
+세금 식별 번호
   
 vat 번호
   
-no를 vat 합니다.
+vat 번호
   
 vatno #
   
@@ -1516,9 +1516,9 @@ vat id
   
 vat id #
   
-u r identyfikacji podatkowej
+u r i identyfikacji podatkowej
   
-polski u r identyfikacji podatkowej
+정책 스키 u r i identyfikacji podatkowej
   
 numeridentyfikacjipodatkowej #
   
@@ -1526,7 +1526,7 @@ numeridentyfikacjipodatkowej #
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 숫자 9 개
+공백이 나 구분 기호가 없는 9 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1540,13 +1540,13 @@ numeridentyfikacjipodatkowej #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_portugal_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_portugal_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_portugal_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_portugal_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_portugal_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1567,7 +1567,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 세금 번호
   
-no를 세금 합니다.
+세금 번호
   
 taxno #
   
@@ -1575,19 +1575,19 @@ taxnumber #
   
 taxnumber
   
-nif
+m
   
-nif #
+m
   
-회계 numero
+numero 회계
   
-회계 número de identificação
+número de identificação 회계
   
 ## <a name="romania"></a>루마니아
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 13 자릿수
+공백이 나 구분 기호가 없는 13 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1601,9 +1601,9 @@ nif #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_romania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_romania_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_romania_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_romania_eu_tax_file_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1624,13 +1624,13 @@ tax id
   
 세금 id 번호
   
-파일을 더 세금
+세금 파일 번호
   
 
 
 tax file number
   
-no 세금
+세금 없음
   
 세금 번호
   
@@ -1638,7 +1638,7 @@ taxid #
   
 taxno #
   
-id ul taxei
+id-ul taxei
   
 numărul de identificare fiscală
   
@@ -1646,7 +1646,7 @@ numărul de identificare fiscală
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 10 자리 숫자
+공백이 나 구분 기호가 없는 10 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1660,9 +1660,9 @@ numărul de identificare fiscală
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 정규식 `Regex_slovakia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 정규식이 해당 `Regex_slovakia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_slovakia_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_slovakia_eu_tax_file_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1683,22 +1683,22 @@ tax id
   
 세금 id 번호
   
-주석 id
+언급 id
   
-주석 없음
+언급 아니요
   
-슬로바키아어 주석 id
+슬로바키아어 언급 id
   
 tin
 
   
-파일을 더 세금
+세금 파일 번호
   
 
 
 tax file number
   
-no 세금
+세금 없음
   
 세금 번호
   
@@ -1716,7 +1716,7 @@ daňové číslo súboru
 
 ### <a name="format"></a>형식
 
-공백이 나 구분 기호 없이 8 개의 숫자
+공백이 나 구분 기호가 없는 8 자리 숫자
   
 ### <a name="pattern"></a>패턴
 
@@ -1730,13 +1730,13 @@ daňové číslo súboru
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_slovenia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_slovenia_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_slovenia_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_slovenia_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_slovenia_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1760,22 +1760,22 @@ tax id
   
 세금 id 번호
   
-주석 id
+언급 id
   
-주석 없음
+언급 아니요
   
-슬로베니아어 주석 id
+슬로베니아어 언급 id
   
 tin
 
   
-파일을 더 세금
+세금 파일 번호
   
 
 
 tax file number
   
-no 세금
+세금 없음
   
 세금 번호
   
@@ -1787,53 +1787,53 @@ identifikacijska številka davka
   
 davčna številka
   
-Številka davčne datoteke
+številka davčne datoteke
   
 ## <a name="spain"></a>스페인
 
 ### <a name="format"></a>형식
 
-7 또는 8 개의 숫자와 지정한 패턴에 하나 또는 두 문자
+지정 된 패턴에 7 ~ 8 자리 숫자와 한 가지 또는 두 개의 문자가 있습니다.
   
 ### <a name="pattern"></a>패턴
 
-스페인 국가 Id 카드와 스페인어 자연 스러운 사용자:
+스페인 국내 id 카드가 있는 스페인어 (자연 사용자):
   
 -  8자리 숫자 
     
-- 하나의 대문자 (대/소문자 구분) 
+- 대문자 1 개 (대/소문자 구분) 
     
-스페인 국가 Id 카드 없이 비 상주 Spaniards
+스페인 국가 id 카드가 없는 상주 하지 않는 Spaniards
   
-- 하나의 대문자 "L" (대/소문자 구분)
+- 1 개의 대문자 "L" (대/소문자 구분)
     
 - 7자리 숫자
     
-- 하나의 대문자 (대/소문자 구분) 
+- 대문자 1 개 (대/소문자 구분) 
     
-14 년 없이 스페인 국가 Id 카드의 기간을 아래에서 상주 Spaniards:
+스페인 국가 id 카드를 사용 하지 않고 14 년 동안 상주 하는 Spaniards:
   
-- 하나의 대문자 "K" (대/소문자 구분)
+- 1 개의 대문자 "K" (대/소문자 구분)
     
 -  7자리 숫자 
     
-- 하나의 대문자 (대/소문자 구분)
+- 대문자 1 개 (대/소문자 구분)
     
-한 말야 Id 번호로 foreigners
+Foreigner의 식별 번호를 사용 하는 Foreigners
   
-- "X", "Y" 또는 "Z" (대/소문자 구분) 즉 글자 하나의 대문자 
+- "X", "Y" 또는 "Z" (대/소문자 구분)의 대문자 1 개 
     
 - 7자리 숫자
     
-- 하나의 대문자 (대/소문자 구분) 
+- 대문자 1 개 (대/소문자 구분) 
     
-Id 번호 말야의 없이 foreigners
+Foreigner의 id 번호가 없는 Foreigners
   
-- "M" (대/소문자 구분)는 하나의 대문자 
+- "M"을 나타내는 대문자 1 개 (대/소문자 구분) 
     
 - 7자리 숫자
     
-- 하나의 대문자 (대/소문자 구분) 
+- 대문자 1 개 (대/소문자 구분) 
     
 ### <a name="checksum"></a>체크섬
 
@@ -1843,13 +1843,13 @@ Id 번호 말야의 없이 foreigners
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_spain_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_spain_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_spain_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_spain_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_spain_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1875,13 +1875,13 @@ tax id
   
 cif id
   
-cif 없음
+cif 아니요
   
 스페인어 cif id
   
 cif
   
-파일을 더 세금
+세금 파일 번호
   
 스페인어 cif 번호
   
@@ -1889,9 +1889,9 @@ cif
 
 tax file number
   
-스페인어 cif 없음
+스페인어 cif 아니요
   
-no 세금
+세금 없음
   
 세금 번호
   
@@ -1909,7 +1909,7 @@ número de contribuyente
   
 número de impuesto corporativo
   
-회계 número de identificación
+número de identificación 회계
   
 cif número
   
@@ -1919,23 +1919,23 @@ cifnúmero #
 
 ### <a name="format"></a>형식
 
-10 자리 숫자 및 지정된 된 패턴의 기호
+지정 된 패턴의 10 자리 숫자와 기호
   
 ### <a name="pattern"></a>패턴
 
-10 자리 숫자 및 기호:
+10 자리 숫자와 기호:
   
--  생일 (YYMMDD)에 해당 하는 6 자리 숫자 
+-  생년월일에 해당 하는 6 자리 숫자 (YYMMDD) 
     
 - 더하기 기호, 빼기 기호 또는 백슬래시
     
-- Id를 구성 하는 세 자리 번호 매기기 고유 위치: 
+- 다음은 식별 번호를 고유 하 게 만드는 3 자리 숫자입니다. 
     
-  - 1990 전에 발급 된 번호에 대 한 7 번째 및 여덟 번째 숫자는 생일 또는 foreign-born 사용자의 국가 식별
+  - 1990 이전에 실행 된 번호의 경우 일곱째 및 여덟 번째 숫자는 출생 또는 외부에서 태어난 사람의 국가를 식별 합니다.
     
-  - 9 번째 위치에 숫자 1 여자 2 남자 또는 탑재에 대해서도 어느 홀수 하 여 성별을 나타냅니다.
+  - 아홉 번째 위치의 숫자는 성별에 대 한 홀수 또는 암도를 나타냅니다.
     
-- 하나 이상의 검사 숫자
+- 검사 숫자 1 개
     
 ### <a name="checksum"></a>체크섬
 
@@ -1945,13 +1945,13 @@ cifnúmero #
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 다음은 함수 `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_sweden_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_sweden_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_sweden_eu_tax_file_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_sweden_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_sweden_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -1973,46 +1973,46 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 tax id
 
   
-id를 더 세금 합니다.
+세금 번호 번호
   
 세금 id 번호
   
 tax identification
 
   
-세금 식별 #
+세금 식별 번호
   
-no를 세금 합니다.
+세금 번호
   
-세금 #
+세금
   
 taxid #
   
 세금 파일
   
-파일을 더 세금 합니다.
+세금 파일 번호
   
 개인 id 번호
   
-skatt id nummer
+(nummer at&t id)
   
-skatt identifikation
+identifikation at&t
   
 personnummer
   
-## <a name="uk"></a>영국
+## <a name="uk"></a>영국의
 
 ### <a name="format"></a>형식
 
-공백 및 구분 기호 없이 10 자리 고유 납세자 참조 (UTR):
+utr (Unique Taxpayer Reference): 공백 및 구분 기호가 없는 10 자리 숫자
   
-국가별 보험 번호 (NINO): 자세한 내용은의 섹션을 참조 "영국 National 보험 번호 (NINO)" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+국가 보험 번호 (NINO): 자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"영국 국립 보험 번호 (NINO)" 섹션을 참조 하십시오.
   
 ### <a name="pattern"></a>패턴
 
-고유 납세자 참조 (UTR): 10 자리 숫자
+utr (Unique Taxpayer Reference): 10 자리 숫자
   
-국가별 보험 번호 (NINO): 자세한 내용은의 섹션을 참조 "영국 National 보험 번호 (NINO)" [에 대 한 중요 한 정보 유형을 확인](what-the-sensitive-information-types-look-for.md)합니다.
+국가 보험 번호 (NINO): 자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"영국 국립 보험 번호 (NINO)" 섹션을 참조 하십시오.
   
 ### <a name="checksum"></a>체크섬
 
@@ -2022,9 +2022,9 @@ personnummer
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 다음은 함수 `Func_uk_eu_tax_file_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_uk_eu_tax_file_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- 키워드에서 `Keywords_uk_eu_tax_file_number` 를 찾을 수 있습니다. 
+- from `Keywords_uk_eu_tax_file_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Tax File Number -->
@@ -2043,24 +2043,24 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 tax id
 
   
-id를 더 세금 합니다.
+세금 번호 번호
   
 세금 id 번호
   
 tax identification
 
   
-세금 식별 #
+세금 식별 번호
   
-no를 세금 합니다.
+세금 번호
   
-세금 #
+세금
   
 taxid #
   
 세금 파일
   
-파일을 더 세금 합니다.
+세금 파일 번호
   
 ## <a name="see-also"></a>참고 항목
 

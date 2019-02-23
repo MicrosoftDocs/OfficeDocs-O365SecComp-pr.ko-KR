@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/03/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - M365-analytics
 description: 서비스 보증 뿐만 아니라 Office 365 내의 감사 및 보고 기능에 대 한 개요입니다.
-ms.openlocfilehash: 0167239e854d9b96d9505f4264ada225804eef96
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: e2fd596279743ad72a3632ba09ec28142e9322f4
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30091040"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30221018"
 ---
 # <a name="auditing-and-reporting-in-office-365"></a>Office 365의 감사 및 보고
 

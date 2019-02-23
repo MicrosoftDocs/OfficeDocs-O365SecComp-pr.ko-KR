@@ -1,5 +1,5 @@
 ---
-title: Office 365 앱에 대 한 조건부 액세스 앱 컨트롤 배포
+title: Office 365 앱용 조건부 액세스 앱 컨트롤 배포
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -7,17 +7,17 @@ ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
 ms.date: 02/14/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 description: Office 365 Cloud app Security 조건부 Access 앱 컨트롤에서 제어할 Azure AD Office 365 앱을 구성 하려면 다음 단계를 수행 합니다.
-ms.openlocfilehash: ba3980615815fa45b1385a67560cc635506e2c22
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: cfb3d885fdfaf0e4698b1f8f9a0e13baacf43f66
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30103293"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30221058"
 ---
-# <a name="deploy-conditional-access-app-control-for-office-365-apps"></a>Office 365 앱에 대 한 조건부 액세스 앱 컨트롤 배포
+# <a name="deploy-conditional-access-app-control-for-office-365-apps"></a>Office 365 앱용 조건부 액세스 앱 컨트롤 배포
 
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|

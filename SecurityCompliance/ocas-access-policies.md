@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud App Security의 액세스 정책
+title: Office 365 Cloud App Security 액세스 정책
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -7,17 +7,17 @@ ms.reviewer: alesibov
 ms.audience: Admin
 ms.topic: reference
 ms.date: 02/14/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 description: Office 365 cloud App Security access 정책을 사용 하면 사용자, 위치, 장치 및 앱을 기반으로 클라우드 앱 액세스를 실시간으로 모니터링 하 고 제어할 수 있습니다. 관리 되는 장치에 클라이언트 인증서를 배포 하거나 타사 MDM 인증서와 같은 기존 인증서를 사용 하 여 도메인에 가입 되지 않은 장치를 포함 하 여 Windows Intune에서 관리 되지 않는 장치에 대 한 액세스 정책을 만들 수 있습니다. 예를 들어 관리 되는 장치에 클라이언트 인증서를 배포한 다음 인증서 없이 장치에서 액세스 하는 것을 차단할 수 있습니다.
-ms.openlocfilehash: bb4404793647c65ab8addc148e6efe24242f3079
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: a8651cb51419c93998f2ce6e176fab7c1651b6ea
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30103313"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219778"
 ---
-# <a name="access-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security의 액세스 정책
+# <a name="access-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 액세스 정책
 
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|

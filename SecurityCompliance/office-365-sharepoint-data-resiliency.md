@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365에서 SharePoint Online의 데이터 복구에 대 한 개요를 설명 합니다.
-ms.openlocfilehash: c550cb6572cb71b53cd544af64339129f72b888f
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 4fd17b50551639f6e11975acbc3822fb6ffa8bb2
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090890"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214808"
 ---
 # <a name="sharepoint-online-data-resiliency"></a>SharePoint Online 데이터 복구
 SharePoint Online의 주요 원칙은 데이터의 단일 복사본을 사용 하지 않는 것입니다. SharePoint Online은 SQL Server 복제를 사용 하 여 데이터베이스 간에 데이터 및 데이터베이스 개체를 복사 하 고 분산 한 다음 일관성을 유지 하기 위해 데이터베이스를 동기화 하는 데 사용할 수 있는 기술 집합입니다. 

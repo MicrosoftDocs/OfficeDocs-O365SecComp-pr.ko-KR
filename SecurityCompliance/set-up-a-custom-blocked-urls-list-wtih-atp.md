@@ -1,88 +1,88 @@
 ---
-title: Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
+title: Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 url 목록 설정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
 ms.date: 02/06/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection: M365-security-compliance
-description: Office 365 고급 위협 보호를 사용 하 여 조직에 대 한 차단 된 Url의 목록을 설정 하는 방법에 알아봅니다. 차단 된 Url ATP 안전한 링크 정책에 따라 Office 문서 및 전자 메일 메시지에 적용 됩니다.
-ms.openlocfilehash: 261d85ce72de3a19ed4c2327d56fe1f32107781b
-ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
+description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 url 목록을 설정 하는 방법을 알아봅니다. 차단 된 url은 ATP 안전한 링크 정책에 따라 전자 메일 메시지 및 Office 문서에 적용 됩니다.
+ms.openlocfilehash: ad9c613221b94e61022b11541ee068e35e47cc70
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995319"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30213028"
 ---
-# <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전 링크를 사용 하 여 차단 된 Url 목록 사용자 지정 설정
+# <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 url 목록 설정
 
 > [!IMPORTANT]
-> 이 문서는 기업 고객을 위한 것입니다. Outlook에서 안전한 링크에 대 한 정보에 대 한 자세한 내용은 홈 사용자 인 경우 [Outlook.com 고급 보안](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조 하십시오.
+> 이 문서는 비즈니스 고객을 위한 것입니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
-[Office 365 고급 위협 보호](office-365-atp.md) ATP (), 조직 웹사이트 주소 (Url) 차단 되는 사용자 지정 목록을 할 수 있습니다. URL을 차단 되 면 차단 된 URL에 대 한 링크를 클릭 하는 사람 된 다음 이미지 유사한 [경고 페이지](atp-safe-links-warning-pages.md) 로 이동 합니다. 
+[Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하는 경우 조직에는 차단 된 웹 사이트 주소 (url)의 사용자 지정 목록이 있을 수 있습니다. url이 차단 되 면 차단 된 url에 대 한 링크를 클릭 하는 사용자는 다음 이미지와 비슷한 [경고 페이지로](atp-safe-links-warning-pages.md) 이동 합니다. 
   
-![이 사이트는 차단](media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
+![이 사이트는 차단 됨](media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
   
-차단 된 Url 목록 조직의 Office 365 보안 팀에 의해 정의 된 하 고 해당 목록은 Office 365 ATP 안전한 링크 정책에 포함 되는 사용자 조직에서 모든 사용자에 게 적용 됩니다. 
+차단 된 url 목록은 조직의 Office 365 보안 팀에서 정의 되며,이 목록은 office 365 ATP 안전한 링크 정책에서 다루는 조직의 모든 사용자에 게 적용 됩니다. 
   
-[Office 365의 ATP 안전 링크](atp-safe-links.md)에 대 한 조직의 사용자 지정 차단된 Url 목록을 설정 하는 방법은이 문서를 읽어보십시오.
+이 문서를 읽으면 [Office 365에서 ATP 안전한 링크](atp-safe-links.md)에 대 한 조직의 사용자 지정 차단 된 url 목록을 설정 하는 방법에 대해 알아봅니다.
   
-## <a name="view-or-edit-a-custom-list-of-blocked-urls"></a>차단 된 Url의 사용자 지정 목록을 편집 또는 보기
+## <a name="view-or-edit-a-custom-list-of-blocked-urls"></a>차단 된 url의 사용자 지정 목록 보기 또는 편집
 
-[Office 365의 ATP 안전한 링크](atp-safe-links.md) 여러 목록, 조직의 사용자 지정 차단된 Url 목록 포함을 사용 합니다. 필요한 사용 권한이 하는 경우에 조직의 사용자 지정 목록을 설정할 수 있습니다. 조직의 기본 안전한 링크 정책을 편집 하 여이 작업을 수행 합니다.
+[Office 365의 ATP 안전한 링크](atp-safe-links.md) 는 조직의 사용자 지정 차단 된 url 목록을 포함 하 여 여러 목록을 사용 합니다. 필요한 사용 권한이 있는 경우 조직의 사용자 지정 목록을 설정할 수 있습니다. 조직의 기본 안전 링크 정책을 편집 하 여이 작업을 수행 합니다.
 
-ATP 정책, 편집 (또는 정의)에 할당 되어 있어야 다음 표에 설명 된 역할 중 하나: 
+ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 중 하나를 할당 받아야 합니다. 
 
-|역할  |Where/방법 할당  |
+|역할  |할당 된 위치/방법  |
 |---------|---------|
-|Office 365 전역 관리자 |Office 365를 구매 하 여를 로그인 하는 사람 이름은 기본적으로 전역 admin입니다. (자세한 내용은 [Office 365에 대 한 관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 참조 하십시오.)         |
+|Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
 |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet (참조 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)) |
+|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
 
 > [!TIP]
-> 역할 및 사용 권한 하는 방법에 대 한 자세한 내용은 참조 [Office 365 보안에 대 한 사용 권한을 &amp; 준수 센터](permissions-in-the-security-and-compliance-center.md)합니다.
+> 역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
-### <a name="to-view-or-edit-a-custom-blocked-urls-list"></a>차단 된 Url 목록 보기 또는 사용자 지정을 편집 하려면
+### <a name="to-view-or-edit-a-custom-blocked-urls-list"></a>사용자 지정 차단 된 url 목록을 보거나 편집 하려면
   
-1. 이동 [https://protection.office.com](https://protection.office.com) 와 작업이 나 교육용 계정 사용 하 여 로그인 합니다. 
+1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 회사 또는 학교 계정으로 로그인 합니다. 
     
-2. 왼쪽 탐색 영역 **위협 관리**, **정책** 선택 \> **안전 링크**입니다.
+2. 왼쪽 탐색 창의 **위협 관리**에서 **정책** \> **안전한 링크**를 선택 합니다.
     
-3. **조직 전체에 적용 되는 정책** 섹션에서 **기본**을 선택 하 고 **편집** (편집 단추는 연필 유사)를 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>이 옵션을 사용 하면 차단 된 Url의 목록을 볼 수 있습니다. 처음에 어떤 Url도 여기에 나열 된 없을 수도 있습니다.<br/>![차단 되는 기본 안전한 링크 정책에서 Url 목록](media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
+3. **전체 조직에 적용 되는 정책** 섹션에서 **기본값**을 선택 하 고 **편집** (편집 단추는 연필과 유사)을 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>이렇게 하면 차단 된 url 목록을 볼 수 있습니다. 처음에는 여기에 나열 된 url이 없을 수도 있습니다.<br/>![기본 안전 링크 정책의 차단 된 url 목록](media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
   
-4. 선택 **유효한 URL 입력** 상자에 URL을 입력 하 고 더하기 기호를 선택 합니다 (**+**). 
+4. **올바른 url 입력** 상자를 선택 하 고 URL을 입력 한 다음 더하기 기호 (**+**)를 선택 합니다. 
 
-5. 화면 오른쪽 아래 모서리에서 Url을 추가 (영문)이 끝나면 **저장**을 선택 합니다.
+5. url 추가가 완료 되 면 화면의 오른쪽 아래 모서리에서 **저장**을 선택 합니다.
     
-## <a name="a-few-things-to-keep-in-mind"></a>주의 해야할 사항
+## <a name="a-few-things-to-keep-in-mind"></a>염두에 두어야 할 몇 가지 사항
 
-대화 목록에 Url을 추가 하는 동안 다음과 같은 사항을 사항에 유의 해야 합니다. 
+목록에 url을 추가 하는 동안 다음 사항을 염두에 두어야 합니다. 
 
-- 슬래시를 포함 하지 마십시오 ( **/**) URL의 끝에 있습니다. 입력 하는 대신 등 `http://www.contoso.com/`, 입력 `http://www.contoso.com`합니다.
+- URL의 끝에 슬래시 ( **/**)를 포함 하지 마십시오. 예를 들어 `http://www.contoso.com/`를 입력 하는 대신 `http://www.contoso.com`를 입력 합니다.
     
-- 한 도메인에만 나타나는 URL을 지정할 수 있습니다 (같은 `contoso.com` 또는 `tailspintoys.com`). 이것은 클릭 차단 도메인을 포함 하는 모든 URL에 있습니다.
+- 도메인 전용 URL (like `contoso.com` 또는 `tailspintoys.com`)을 지정할 수 있습니다. 이렇게 하면 도메인을 포함 하는 모든 URL의 클릭이 차단 됩니다.
 
-- 하위 도메인을 지정할 수 있습니다 (같은 `toys.contoso.com*`) 전체 도메인을 차단 하지 않고 (같은 `contoso.com`). 이는 블록의 하위 도메인이 포함 하는 모든 URL 하지만 클릭을 차단 되지 않습니다 전체 도메인을 포함 하는 url입니다.  
+- 전체 도메인 `contoso.com`을 차단 하지 않고 하위 `toys.contoso.com*`도메인을 지정할 수 있습니다 (like). 하위 도메인이 포함 된 url을 클릭 하는 것을 차단 하지만 전체 도메인이 포함 된 url을 클릭 하는 것을 차단 하지는 않습니다.  
     
-- 세 개까지 와일드 카드 별표를 포함할 수 있습니다 (\*) URL 당 합니다. 입력할 수 및 이러한 항목이 어떤 영향에 대 한 예가 다음 표에 나와 있습니다.
+- URL 당 최대 3 개의 와일드 카드 별표 (\*)를 포함할 수 있습니다. 다음 표에는 입력 가능한 항목과 해당 항목이 갖는 영향에 대 한 몇 가지 예가 나와 있습니다.
     
-|**예제 항목**|**기능**|
+|**예제 항목**|**수행 하는 작업**|
 |:-----|:-----|
-|`contoso.com`또는`*contoso.com*`  <br/> |도메인, 하위 도메인, 및 경로 같은 차단 `https://www.contoso.com`, `http://sub.contoso.com`, 및`http://contoso.com/abc`  <br/> |
-|`http://contoso.com/a`  <br/> |사이트를 차단 `http://contoso.com/a` 이지만 하지 추가 하위 경로`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a*`  <br/> |사이트를 차단 `http://contoso.com/a` 추가 하위 경로 같은 및`http://contoso.com/a/b`  <br/> |
-|`http://toys.contoso.com*`  <br/> |하위 도메인 (이 경우 "상사")를 차단 하지만 다른 도메인 Url 클릭을 허용 (같은 `http://contoso.com` 또는 `http://home.contoso.com`).  <br/> |
+|`contoso.com`사용자나`*contoso.com*`  <br/> |는과 같은 `https://www.contoso.com` `http://sub.contoso.com`도메인, 하위 도메인과 경로를 차단 하며`http://contoso.com/abc`  <br/> |
+|`http://contoso.com/a`  <br/> |사이트 `http://contoso.com/a` 를 차단 하지만 추가 하위 경로는 제외 합니다.`http://contoso.com/a/b`  <br/> |
+|`http://contoso.com/a*`  <br/> |사이트 `http://contoso.com/a` 및 추가 하위 경로를 차단 합니다.`http://contoso.com/a/b`  <br/> |
+|`http://toys.contoso.com*`  <br/> |하위 도메인 (이 경우 "장난감")을 차단 하지만 클릭은 다른 도메인 url (예 `http://contoso.com` , 또는 `http://home.contoso.com`)을 허용 합니다.  <br/> |
    
 
-## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직에서 특정 사용자에 대 한 예외를 정의 하는 방법
+## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직의 특정 사용자에 대 한 예외를 정의 하는 방법
 
-다른 사용자에 대 한 차단 되었을 수 있는 Url을 볼 수 있도록 특정 그룹을 하려는 경우에 특정 받는 사람에 게 적용 되는 ATP 안전한 링크 정책을 지정할 수 있습니다. [ATP 안전 링크를 사용 하는 사용자 지정 "rewrite 수행" Url 목록 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)을 참조 하십시오.
+특정 그룹에서 다른 사용자에 대해 차단 될 수 있는 url을 볼 수 있도록 하려면 특정 받는 사람에 게 적용 되는 ATP 안전한 링크 정책을 지정 하면 됩니다. [ATP 안전한 링크를 사용 하 여 사용자 지정 "재작성 금지" url 목록 설정를](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)참조 하세요.
   
 

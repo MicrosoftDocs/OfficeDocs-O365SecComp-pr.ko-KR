@@ -5,40 +5,40 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection: M365-security-compliance
-description: Office 365 Enterprise 보호할 수 있는 방법을 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직에 알아봅니다.
-ms.openlocfilehash: 6caf891acb8c96d17a3aa1b4ffc222380ed9341b
-ms.sourcegitcommit: efccf5b4f22d34a9674bc55ebf3d88bc8bda2972
+description: Office 365 Enterprise를 통해 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 대 한 무단 액세스를 비롯 한 다양 한 위협 으로부터 조직을 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: ca2bfda0403a1f482989977f7bc018bbd94afeb5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "29995139"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220488"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협으로부터 보호
 
-Office 365 엔터프라이즈와 다양 한 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 무단으로 액세스를 포함 하 여 위협에 대 한 조직을 보호할 수 있습니다. 위협 보호 하 고 수행할 수 있는 작업에 대해 자세히 알아보려면이 페이지에는 리소스를 사용 합니다.
+Office 365 Enterprise에서는 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 대 한 무단 액세스를 비롯 한 다양 한 위협 으로부터 조직을 보호 하는 데 도움을 받을 수 있습니다. 이 페이지의 리소스를 사용 하 여 수행할 수 있는 위협 보호 및 조치에 대해 알아봅니다.
   
 ## <a name="anti-spoofing"></a>스푸핑 방지
 
-Office 365에서 사용자 지정 도메인을 사용 하는 경우에 조직에서 보낸 사기를 중지, 전자 메일 보안을 개선 하 고 도메인의 신뢰도 보호 하는데 도움이 됩니다.
+Office 365에서 사용자 지정 도메인을 사용 하는 경우 조직의 보낸 사람 사기를 중지 하 고, 전자 메일 보안을 강화 하며, 도메인의 신뢰도를 보호 하는 데 도움을 줍니다.
   
 - [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
     
-- [DKIM를 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하려면](use-dkim-to-validate-outbound-email.md)
+- [dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
     
-- [DMARC를 사용 하 여 Office 365의 전자 메일의 유효성을 검사 하려면](use-dmarc-to-validate-email.md)
+- [DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)
     
-## <a name="anti-spam-amp-anti-malware"></a>스팸 방지 &amp; 맬웨어 방지
+## <a name="anti-spam-amp-anti-malware"></a>스팸 &amp; 방지 맬웨어 방지
 
-Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본 설정 및 악의적인 전자 메일을 보고 하는 방법을 포함 하는 방법에 대 한 설명 합니다.
+기본 설정 및 악성 전자 메일을 보고 하는 방법을 비롯 하 여 Office 365 스팸 방지 점수 매기기, 연결 필터링 및 맬웨어 캡처에 대해 알아봅니다.
   
-- [스팸 방지 &amp; 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
+- [스팸 &amp; 방지 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
     
 - [Office 365에서 사서함 감사 사용](enable-mailbox-auditing.md)
     
@@ -48,11 +48,11 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 ## <a name="advanced-threat-protection"></a>Advanced Threat Protection
 
-스푸핑 관리, 피싱 공격을 방지 하 고, 악성 Url 또는 전자 메일 메시지와 고급 위협 보호 ATP ()에 파일을 잡아 정책을 구성 합니다.
+스푸핑을 관리 하 고 피싱 공격 으로부터 보호 하며, ATP (Advanced Threat Protection)를 사용 하는 전자 메일 메시지의 악성 url 또는 파일을 찾기 위한 정책을 구성 합니다.
   
-- [Office 365 ATP 하는 방법에 대 한 설명](office-365-atp.md)
+- [Office 365 ATP에 대 한 자세한 정보](office-365-atp.md)
     
-- [스푸핑 인텔리전스에 대 한 설명](learn-about-spoof-intelligence.md)
+- [스푸핑 인텔리전스에 대해 알아보기](learn-about-spoof-intelligence.md)
     
 - [피싱 방지 정책 설정](set-up-anti-phishing-policies.md)
     
@@ -62,19 +62,19 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 ## <a name="encryption"></a>암호화
 
-암호화 입문서 가져오기, 권한 관리 정책 및 전자 메일 암호화를 설정 하 고 추가 암호화 설정을 구성 합니다. Office 365에 대 한 명의 메일 서버에서 사용 되는 루트 인증서에 대 한 정보를 가져옵니다.
+암호화에 대 한 입문, 권한 관리 정책 및 전자 메일 암호화 설정, 추가 암호화 설정 구성에 대해 알아봅니다. 메일 서버에서 사용 하는 루트 인증서에 대 한 자세한 내용은 Office 365를 참조 하세요.
   
-- [Office 365의 암호화에 대 한 설명](encryption.md)
+- [Office 365의 암호화에 대해 자세히 알아보기](encryption.md)
     
 - [Office 365 Enterprise의 암호화 설정](set-up-encryption.md)
     
 - [Office 365 메시지 암호화 (OME)](ome.md)
     
-- [구현 가져오는 직접 키 (BYOK)](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
+- [직접 키 가져오기 구현 (byok)](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
     
-## <a name="managing-devices-amp-apps"></a>장치 관리 &amp; 앱
+## <a name="managing-devices-amp-apps"></a>장치 &amp; 앱 관리
 
-모니터링 하 고 Office 365 데이터를 어떻게 모바일 장치 액세스를 제어 하 고 금지 또는 사용자가 조직에 사용 되 고 있는 모바일 앱을 승인 합니다.
+모바일 장치에서 Office 365 데이터에 액세스 하는 방법을 모니터링 및 제어 하 고, 조직에서 사용 중인 모바일 앱을 금지 하거나 승인 합니다.
   
 - [장치 보안 정책 만들기 및 배포](https://support.office.com/article/d310f556-8bfb-497b-9bd7-fe3c36ea2fd6)
     
@@ -82,28 +82,28 @@ Office 365 스팸 방지 성과, 연결 필터링 및 맬웨어 캡처를 기본
     
 ## <a name="threat-intelligence"></a>위협 인텔리전스
 
-식별 하 고, 모니터링 및 통찰력 및 공격을 방지 하기 위해 사용할 수 있는 기술 사용 하 여 공격을 하 고 신속 하 게 주소에 대 한 위협 요소를 이해 합니다.
+공격을 파악, 모니터링 및 이해 하 고 공격을 방지 하는 데 사용할 수 있는 정보를 활용 하 여 위협을 빠르게 해결 합니다.
   
-- [Office 365 위협 인텔리전스 간략하게](office-365-ti.md)
+- [Office 365 위협 인텔리전스에 대 한 개요 보기](office-365-ti.md)
     
 - [Office 365 위협 인텔리전스 시작하기](get-started-with-ti.md)
     
 ## <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
 
-기존 관리자가 권한이 부여 된 사용자 계정은 중요 한 데이터에 대 한 순위 액세스 또는 중요 한 구성 설정에 대 한 액세스를 사용할 수 있는 침해에서 조직을 보호 합니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후 사용자가 높은 범위가 지정 되며 시간 제한이 있는 승인 워크플로 통해 관리자 권한 및 권한 있는 작업을 완료 하려면 적시에 액세스를 요청 해야 합니다.
+중요 한 데이터에 대 한 액세스 또는 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 관리 계정을 사용할 수 있다는 침해 로부터 조직을 보호 하는 데 도움이 됩니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후에는 사용자가 높은 범위의 액세스 및 시간 범위를 지정 하는 승인 워크플로를 통해 관리자 권한 및 권한 있는 작업을 완료 하기 위한 요청을 수행 해야 합니다.
   
-- [대략적으로 권한 관리에 액세스](privileged-access-management-overview.md)
+- [권한 있는 액세스 관리 개요 보기](privileged-access-management-overview.md)
     
-- [권한 시작 액세스 관리](privileged-access-management-configuration.md)
+- [권한 있는 액세스 관리 시작](privileged-access-management-configuration.md)
 
 ## <a name="additional-options"></a>추가 옵션
 
-관련된 Microsoft 기술 및 위협에 대 한 보안 Office 365는 데 도움이 되는 프로세스에 대 한 자세한 정보를 봅니다.
+위협 으로부터 Office 365을 보호 하는 데 도움이 되는 관련 Microsoft 기술 및 프로세스에 대 한 자세한 정보를 확인 하세요.
   
-- [Azure 권한 관리에 대 한 설명](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+- [Azure 권한 관리에 대해 자세히 알아보기](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
     
-- [Azure 주요 추적용 하는 방법에 대 한 설명](https://docs.microsoft.com/azure/key-vault/)
+- [Azure 키 자격 증명 모음에 대해 자세히 알아보기](https://docs.microsoft.com/azure/key-vault/)
     
-- [테 넌 트 격리 하는 방법에 대 한 설명](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
+- [테 넌 트 격리에 대해 자세히 알아보기](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
     
 

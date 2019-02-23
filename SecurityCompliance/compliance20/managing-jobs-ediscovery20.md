@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)의 작업 관리
+title: Advanced eDiscovery에서 작업 관리 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,26 +14,26 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 493d1b6ec448f3de9b782028b903c7b290681e88
-ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
+ms.openlocfilehash: 03165ba64ed5b75fa2d327ee798dc6a8e43fe908
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29694804"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214988"
 ---
-# <a name="manage-jobs-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)의 작업 관리
+# <a name="manage-jobs-in-advanced-ediscovery-preview"></a>Advanced eDiscovery에서 작업 관리 (미리 보기)
 
-고급 eDiscovery (미리 보기)의 경우의 **작업** 탭에서 추적 되는 작업 목록은 다음과 같습니다.
+다음은 Advanced eDiscovery (Preview)에서 사례의 **작업** 탭에 대해 추적 되는 작업 목록입니다.
 
-- 다시 인덱싱 더불어 데이터
-- 검색 결과 예측합니다.
-- 검색 미리 보기를 준비 하는 중
-- 작업 집합에 추가 데이터
-- 추가 데이터를 다른 작업 집합
-- 작업 집합에 추가 Office 365가 아닌 데이터
-- 오류 해결 방법에 대 한 준비
-- 작업 집합에 추가 설정을 데이터
-- 설정 하는 비교 부하
-- 문서에 태그 지정
-- 분석을 실행합니다.
-- 내보내기에 대 한 데이터를 준비 하는 중
+- custodian 데이터 다시 인덱싱
+- 검색 결과 예측
+- 검색 미리 보기 준비
+- 작업 집합에 데이터 추가
+- 다른 작업 집합에 데이터 추가
+- 작업 집합에 Office가 아닌 365 데이터 추가
+- 오류 해결 준비
+- 작업 집합에 재구성 된 데이터 추가
+- 부하 집합 비교
+- 문서 태그 지정
+- 분석 실행
+- 내보내기를 위해 데이터 준비

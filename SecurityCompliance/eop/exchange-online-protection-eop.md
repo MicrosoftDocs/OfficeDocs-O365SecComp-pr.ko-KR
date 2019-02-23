@@ -10,13 +10,13 @@ ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
-description: 여기는 몇 가지 방법으로 EOP으로 작업을 시작 하기 전에 알고 있어야 합니다.
-ms.openlocfilehash: 21d1bfe34485e97b35755bc2f88f3ba13066a616
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
+ms.openlocfilehash: 2535a796a0ac1548160545226586233af7b50080
+ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026385"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30206561"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 
@@ -44,19 +44,19 @@ EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성
     
 - [Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환](switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md) 다른 이메일 보호 제품에서 EOP로의 전환 프로세스에 대해 설명합니다. 
     
-- [관리 받는 사람 및 EOP에서 관리자 역할 그룹](manage-recipients-and-admin-role-groups-in-eop.md) 받는 사람을 관리 하는 방법 및 관리자 역할 그룹에 사용자를 할당 하는 방법에 설명 합니다. 
+- [EOP에서 받는 사람 및 관리자 역할 그룹 관리](manage-recipients-and-admin-role-groups-in-eop.md) 받는 사람을 관리 하는 방법과 관리자 역할 그룹에 사용자를 할당 하는 방법에 대해 설명 합니다. 
     
 - [EOP의 메일 흐름](mail-flow-in-eop.md) 커넥터를 사용하여 사용자 지정 메일 흐름 시나리오를 구성하는 방법, 도메인을 관리하는 방법 및 DBEB(디렉터리 기반 Edge 차단) 기능을 사용하는 방법에 대해 설명합니다. 
     
 - [EOP 구성을 위한 모범 사례](best-practices-for-configuring-eop.md) 서비스를 설정 및 프로비전한 후 권장되는 구성 설정 및 고려 사항에 대해 설명합니다. 
     
-- [EOP의 메시징 정책 및 준수](messaging-policy-and-compliance-in-eop.md) 특정 회사 규정 및 정책을 적용 하려면 Exchange 전송 규칙 (사용자 지정 필터링 규칙)를 사용 하는 방법 및 서비스의 구성 변경 내용을 추적 하려면 감사 보고서를 사용 하는 방법에 설명 합니다. 
+- [EOP의 메시징 정책 및 규정 준수](messaging-policy-and-compliance-in-eop.md) Exchange 전송 규칙 (사용자 지정 필터링 규칙)을 사용 하 여 특정 회사 규정 및 정책을 적용 하 고, 감사 보고서를 사용 하 여 서비스에 대 한 구성 변경 내용을 추적 하는 방법에 대해 설명 합니다. 
     
 - [Anti-Spam and Anti-Malware Protection](http://technet.microsoft.com/library/93c6c227-7442-4293-b64d-ec8f15c928db.aspx) 스팸 필터링 및 맬웨어 필터링에 대해 설명하고 조직의 요구 사항에 맞도록 이러한 필터링을 사용자 지정하는 방법에 대해 설명합니다. 또한 관리자 및 최종 사용자가 격리된 메시지에 대해 수행할 수 있는 작업도 설명합니다. 
     
 - [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md) 사용할 수 있는 보고서 및 문제 해결 도구에 대해 설명합니다. 
     
-- [Exchange 관리 센터 Exchange 온라인 보호](../exchange-admin-center-in-exchange-online-protection-eop.md) 액세스 및 EOP 서비스를 관리 하기 위해 Exchange 관리 센터 (EAC) 관리 인터페이스를 탐색 하는 방법에 설명 합니다. 
+- exchange [Online Protection의 exchange 관리 센터](../exchange-admin-center-in-exchange-online-protection-eop.md) EAC (Exchange 관리 센터) 관리 인터페이스를 액세스 하 고 탐색 하 여 EOP 서비스를 관리 하는 방법에 대해 설명 합니다. 
     
 - [PowerShell in Exchange Online Protection](http://technet.microsoft.com/library/f7918a88-774a-405e-945b-bc2f5ee9f748.aspx) 명령줄에서 EOP 서비스를 관리하는 데 사용할 수 있는 원격 PowerShell에 대한 정보를 제공합니다. 
     
@@ -69,11 +69,11 @@ The EOP 최종 사용자가 스팸을 관리하도록 지원하기 위한 도움
   
 - [Find and Release Quarantined Messages as an End User](http://technet.microsoft.com/library/e439b560-827a-4807-abd3-6b861c1ff786.aspx) 최종 사용자가 스팸 격리 사용자 인터페이스에서 자신의 스팸 격리 메시지를 찾아서 릴리스하고 이를 정크 메일 아님으로 Microsoft에 보고하는 방법에 대해 설명합니다. 
         
-- [전송 스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지](../submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 최종 사용자 스팸 (정크) 및 스팸이 아닌 (정크 아님) 메시지를 Microsoft에 제출할 수 다양 한 방법에 설명 합니다. 이 항목 Microsoft Outlook과 OWA에서 제공 되는 보고 도구에 대 한 링크를 포함합니다. 
+- [분석을 위해 Microsoft에 스팸, 스팸이 아닌 피싱 사기 메시지 제출](../submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 최종 사용자가 스팸 (정크) 및 스팸이 아닌 (정크 메일 아님) 메시지를 Microsoft에 제출할 수 있는 다양 한 방법을 설명 합니다. 이 항목에는 Microsoft outlook 및 웹용 outlook (이전의 outlook web App)에서 사용할 수 있는 보고 도구로 연결 되는 링크가 포함 되어 있습니다. 
     
 - [Submitting malware and non-malware to Microsoft for analysis](../submitting-malware-and-non-malware-to-microsoft-for-analysis.md) 최종 사용자가 필터를 통과하게 만든 맬웨어를 제출하거나 맬웨어로 잘못 식별된 파일을 제출할 수 있는 방법을 설명합니다. 
     
-- 최종 사용자에 게 추가할 수 특정 사용자 또는 도메인 수신 허용-보낸사람 목록이 나 수신된 거부 목록에 Microsoft OWA 또는 Outlook에서 자신의 정크 메일 설정을 구성 합니다. Note는 수신된 거부에서 보낸 메시지는 스팸으로 표시, 거부 하지 않은 정크 메일 폴더 또는 격리 (여기에서 프로그램 관리자가 구성한에 따라 스팸 메일을 보낼 하도록 서비스를.)에서 검색할 수 있음 자세한 내용은 [보고서 메시지에서 추가 기능 사용](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.
+- 최종 사용자는 outlook 또는 웹용 outlook에서 정크 메일 설정을 구성 하 여 수신 허용-보낸 사람 목록 또는 수신 거부 목록에 특정 사용자 또는 도메인을 추가할 수 있습니다. 차단 된 보낸 사람 으로부터 보낸 메시지는 거부 되지 않고 스팸으로 표시 되며, 관리자가 스팸을 보내도록 서비스를 구성한 위치에 따라 정크 메일 폴더 또는 격리에서 해당 메시지가 검색 될 수 있다는 것을 의미 합니다. 자세한 내용은 [보고서 메시지 추가 기능 사용](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.
     
 - [EOP에 대한 도움말 및 지원](help-and-support-for-eop.md) 도움말 및 기술 지원 서비스를 구하는 내용에 대해 설명합니다. 
     

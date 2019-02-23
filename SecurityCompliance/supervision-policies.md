@@ -7,7 +7,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해
-ms.openlocfilehash: f715fdcd073f8d75f0046bb3ed5adb1987eec263
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 7a173809f37262f73671fe6ee96485cda97c1eb3
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090980"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214118"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -215,7 +215,7 @@ Outlook을 사용 하 여 다음과 같은 작업을 수행할 수 있습니다.
   
 ### <a name="how-to-use-the-report"></a>보고서를 사용 하는 방법
 
-감독 정책이 검토를 위해 통신 메시지를 식별 하면 전자 메일이 outlook 및 outlook web app의 검토자의 감독 폴더로 배달 됩니다. 이 보고서에는 검토 프로세스의 각 단계에서 각 정책의 이름과 통신 수가 나열 됩니다.
+감독 정책이 검토를 위해 통신 메시지를 식별 하면 전자 메일이 outlook 및 웹용 outlook (이전의 outlook web App)에서 검토자의 감독 폴더로 배달 됩니다. 이 보고서에는 검토 프로세스의 각 단계에서 각 정책의 이름과 통신 수가 나열 됩니다.
   
 보고서를 사용 하 여 다음을 수행 합니다.
   
@@ -228,7 +228,7 @@ Outlook을 사용 하 여 다음과 같은 작업을 수행할 수 있습니다.
   
 |**태그 유형**|**의미**|
 |:-----|:-----|
-| 검토 되지 않음 | 아직 검토 하지 않은 전자 메일 수입니다. 이러한 전자 메일은 Office 365 감독 대시보드 또는 Outlook/outlook Web App의 검토자의 감독 폴더에서 검토가 대기 중입니다.|
+| 검토 되지 않음 | 아직 검토 하지 않은 전자 메일 수입니다. 이러한 전자 메일은 Office 365 감독 대시보드 또는 웹용 outlook/outlook에서 검토자의 감독 폴더에 검토 대기 중입니다.
 | 호환이 | 검토 중 및 준수로 표시 된 전자 메일 수입니다. 이러한 메시지는 계속 해 서 확인 해야 합니다. |
 | 일관 | 검토 중 이며 불확실 한 것으로 표시 된 전자 메일 수입니다. 이는 플래그 역할을 합니다. 다른 검토자가 준수를 위해 전자 메일 조사가 필요한 지 여부를 확인 하는 데 도움이 될 수 있습니다. 이러한 메시지는 계속 해 서 확인 해야 합니다. |
 | 비호환 (활성) | 검토자가 현재 조사 중인 비호환 전자 메일의 수입니다. |

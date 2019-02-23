@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 데이터 불변성 또는 검색 가능 해야 하며 소멸 하거나 변경할 수 없는 데이터를 정의 하 고 설명 합니다.
-ms.openlocfilehash: ab7bfc3795da761eacc9e9aa7d41e69e482fc411
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: 5d0deef04d879959238dbbcfe36bb98ed0159242
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30090880"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30215568"
 ---
 # <a name="immutability-in-office-365"></a>Office 365의 불변성
 일부 조직의 경우 규정 준수, 내부 거 버 넌 스 또는 소송 위험을 충족 하려면 전자 메일 및 관련 데이터를 검색 가능한 형태로 보존 해야 합니다. 시스템의 모든 데이터는 검색 가능 해야 하며, 소멸 하거나 변경할 수는 없습니다. 이에 대 한 업계 표준 용어는 "불변성"입니다. 

@@ -6,19 +6,19 @@ manager: laurawi
 ms.date: 02/13/2019
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
 description: Office 365에서 조직이 어떻게 보호 되는지 궁금 하십니까? 보안 점수가 여기에 해당 합니다. 보안 점수는 Office 365의 일반 활동 및 보안 설정에 따라 조직의 보안을 분석 하 고 점수를 할당 합니다.
-ms.openlocfilehash: cf272869981dd73e1ceb4bd7180cc16acaed0516
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: dd0dc87910853eba9f2ec3ec6752e857462b46e5
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29992362"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220358"
 ---
 # <a name="office-365-secure-score"></a>Office 365 보안 점수
 

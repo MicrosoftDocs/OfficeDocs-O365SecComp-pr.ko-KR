@@ -1,5 +1,5 @@
 ---
-title: 보내기 / 받기 S/MIME의 서명 및 암호화 된 전자 메일
+title: S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다.
-ms.openlocfilehash: d70625b2c65a021132cf251f35228d279cb4c44a
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 071b96452ed5668c4fcfb34c9c8fadcd6369ce84
+ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003187"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30206361"
 ---
-# <a name="send-and-receive-smime-signed-and-encrypted-email"></a>보내기 / 받기 S/MIME의 서명 및 암호화 된 전자 메일
+# <a name="send-and-receive-smime-signed-and-encrypted-email"></a>S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기
 
-Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다. Outlook Web App 등의 전자 메일 프로그램에서 S/MIME으로 암호화된 메시지를 읽거나 보내는 방법에 대한 자세한 내용은 [Outlook을 사용하여 S/MIME으로 암호화된 메시지 보내기 및 회신](https://go.microsoft.com/fwlink/p/?LinkId=392520)을 참조하세요.
+Microsoft Outlook에서 S/MIME으로 암호화 된 메시지를 보내거나 회신 하는 작업은 암호화 되지 않은 메시지의 환경과 매우 비슷합니다. 웹에서 outlook (이전의 outlook web App)과 같은 전자 메일 프로그램에서 s/mime으로 암호화 된 메시지를 읽거나 보내는 방법에 대 한 자세한 내용은 [outlook을 사용 하 여 s/mime으로 암호화 된 메시지 보내기 및 회신](https://go.microsoft.com/fwlink/p/?LinkId=392520)을 참조 하세요.
   
 ## <a name="for-more-information"></a>자세한 내용
 

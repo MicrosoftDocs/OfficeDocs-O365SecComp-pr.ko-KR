@@ -6,60 +6,60 @@ manager: laurawi
 ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 'Office 365 고급 ediscovery에서 판단 탭을 제공 하는데 도움이 되는 데이터 검토 일련의 경우 파일의 올바른 크기를 계산 하는 방법을 설명 합니다. '
-ms.openlocfilehash: 58a181e00ad5843ccbbde4dcb47050eccf199225
-ms.sourcegitcommit: 36c5466056cdef6ad2a8d9372f2bc009a30892bb
+description: 'Office 365 Advanced eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: c4767e703d03ef5dbdb808332e873d22094d7bca
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2018
-ms.locfileid: "22533213"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216108"
 ---
 # <a name="decision-based-on-the-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 프로세스 모듈 결과에 기반한 의사 결정
 
 > [!NOTE]
-> 고급 eDiscovery 조직에 대 한 고급 준수 추가 기능 또는 e 5 구독은 Office 365 E3 필요합니다. 해당 요금제에 가입한 상태 고급 eDiscovery 시도 하려는 하지 경우에 [Office 365 Enterprise e 5의 평가판 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
+> Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
- 고급 eDiscovery 판단 탭의 보기 및 사례 파일의 검토 집합의 크기를 결정 하기 위한 의사 결정 지원 통계를 사용 하는 것에 대 한 추가 정보를 제공 합니다. 
+ 고급 eDiscovery에서 결정 탭은 사례 파일의 검토 집합 크기를 결정 하는 데 필요한 의사 결정 통계를 보고 사용 하는 데 필요한 추가 정보를 제공 합니다. 
   
-## <a name="using-the-decide-tab"></a>판단 탭을 사용 하 여
+## <a name="using-the-decide-tab"></a>결정 탭 사용
 
 ![관련성을 결정](media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
-이 탭에는 다음이 포함 됩니다.
+이 탭에는 다음 항목이 포함 됩니다.
   
-- **문제**: 여기에서 관심 목록에서 문제를 선택할 수 있습니다. 
+- **문제**: 여기서 필요한 문제를 목록에서 선택할 수 있습니다. 
     
-- **검토 회수 비율**: 관련성 점수에 따라 eDiscovery 검토 고급 비교 합니다. 다음은 차트에서 구분 지점 관련성 점수에 매핑된 파일을 검토의 비율을 나타냅니다. 컬링을 대 한 관련성 테스트 단계에서와 내보내기 임계값으로 사용 됩니다. 검토 파일의 수에 대 한 기본 구분 지점을 회수 및 정밀도 간의 균형 최적의 지점에서 됩니다. 실제 구분 지점은 목표 및 비용 장단점이 (% 검토) 및 위험 요소 (% 회수)에 따라 사용자에 의해 결정 됩니다. 슬라이더를 사용 하 여 구분 점을 조정할을 하 고 유효성을 검사 하는 결정 하기 전에 관련 파일을 검색할 수의 비율을 조정할 때 그래프와 매개 변수를에 미치는 영향을 볼 수 있습니다.
+- **검토-회수 비율**: 관련성 성적에 따른 고급 eDiscovery 검토의 비교입니다. 차트의 구분 지점은 검토 중 이며 관련성 점수에 매핑되는 파일의 비율을 나타냅니다. 이는 관련성 테스트 단계 및 culling의 내보내기 임계값으로 사용 됩니다. 검토할 파일 수에 대 한 기본 구분 지점은 재호출 및 정밀도 간의 균형이 가장 적합 한 시점입니다. 실제 구분 지점은 목표 및 비용 급여 (% review) 및 위험 (% 회수)에 따라 사용자가 결정 해야 합니다. 슬라이더를 사용 하 여 구분 지점을 조정 하 고 그래프 및 매개 변수에 대 한 영향을 확인 하 고, 검색할 관련 파일의 비율을 조정 하 고, 의사 결정을 확인 하기 전에 결과를 확인할 수 있습니다.
     
-- **매개 변수**: 검토, 다음 관련 및 총 비용 매개 변수는 전체 대/소문자에 대 한 컬렉션에 relation에서 설정 검토와 관련 된 누적 계산 된 통계를 회수 합니다. 이러한 매개 변수에 대 한 정의 다음과 같습니다.
+- **매개 변수**: review, 회수, Next 관련성이 있는 and Total cost 매개 변수는 전체 사례에 대 한 컬렉션과 관련 하 여 검토 집합과 관련 된 누적 계산 통계입니다. 이러한 매개 변수에 대 한 정의는 다음과 같습니다.
     
-    **검토**:이 실시간 구분에 검토 하려면 파일의 백분율을 기준으로 합니다. 
+    **검토**:이 구분에 따라 검토할 파일의 비율입니다. 
     
-    **회수**: 검토 집합의 관련 파일의 비율입니다. 
+    **회수**: 검토 집합에서 관련 파일의 비율입니다. 
     
-    **다음 관련**: 검토 하 고 설정 되지 않은 현재 검토에서 하는 추가 관련 파일을 식별 하는 비용입니다. 
+    **다음 관련**: 현재 검토 집합에 없는 추가 관련 파일을 검토 하 고 식별 하는 비용입니다. 
     
-    **총 비용**:이 비율의 경우 파일을 검토 하는 것에 대 한 비용입니다. 비용된 매개 변수 설정의 경우 관리자가 설정할 수 있습니다.
+    **총 비용**: 사례 파일의 비율을 검토 하기 위한 비용입니다. Cost 매개 변수 설정은 사례 관리자가 설정할 수 있습니다.
     
-- **관련성 점수 하 여 배포**: 마감 점수 미만 왼쪽에 진한 회색 디스플레이 있는 파일입니다. 총 파일 관계에서 설정 검토 파일 관련성 점수 및 파일의 관련된 백분율을 표시 하는 도구 설명입니다.
+- **관련성 점수를 통한 배포**: 어두운 회색 왼쪽에 표시 되는 파일은 컷오프 점수 아래에 있습니다. 도구-팁에는 총 파일을 기준으로 하 여 검토 파일에 설정 된 파일의 관련성 점수와 관련 백분율이 표시 됩니다.
     
-추가 세부 정보를 표시 하는 확장 된 세부 정보 창입니다. 파일 컬렉션 그림 목차에 비어 있거나 모호한 파일을 포함 하지 마십시오. 가족 파일 그림 로드 되는 관련성을 아직 제품군의 일부로 계속 계산에 포함 되지 되는 파일을 나타냅니다.
+상세 세부 정보 창에 추가 정보가 표시 됩니다. 컬렉션 그림의 파일에는 빈 파일 또는 ne문서 ou 파일이 포함 되지 않습니다. 패밀리 파일 그림은 관련성이 없지만 여전히 패밀리의 일부로 서 계산 되는 파일을 나타냅니다.
   
 ## <a name="see-also"></a>참고 항목
 
 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
   
-[관련성에 이해 평가](assessment-in-relevance-in-advanced-ediscovery.md)
+[관련성 평가 이해](assessment-in-relevance-in-advanced-ediscovery.md)
   
 [태그 지정 및 평가](tagging-and-relevance-training-in-advanced-ediscovery.md)
   
-[관련성 교육을 수행합니다.](tagging-and-assessment-in-advanced-ediscovery.md)
+[관련성 교육 수행](tagging-and-assessment-in-advanced-ediscovery.md)
   
 [관련성 분석 추적](track-relevance-analysis-in-advanced-ediscovery.md)
   

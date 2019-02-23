@@ -5,19 +5,19 @@ author: denisebmsft
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: aac65513-e75e-4c82-a668-9a6604dd9f9d
 description: Office online의 앱 검색 보고서 검토 365 cloud app Security에서는 조직의 사용자가 클라우드 앱을 사용 하는 방법에 대해 자세히 알아볼 수 있습니다. 방화벽 및 프록시의 로그 파일을 사용 하 여 앱 검색 보고서를 만든 후에는 앱 검색 대시보드의 결과를 검토 하세요.
-ms.openlocfilehash: fa5ab7c6cd734feb26878cf1a97f7ce708aa1478
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: f50ad372450b2a1404829eeb6f6964c1d954dccd
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087337"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216258"
 ---
 # <a name="review-app-discovery-findings-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토
   

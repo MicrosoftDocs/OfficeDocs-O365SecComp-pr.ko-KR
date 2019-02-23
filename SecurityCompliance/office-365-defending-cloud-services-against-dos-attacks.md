@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Microsoft가 해당 클라우드 서비스를 DoS (서비스 거부) 공격에 defends 하는 방법입니다.
-ms.openlocfilehash: 64a99347e22612bba2035092764ed3714b596228
-ms.sourcegitcommit: c94cb88a9ce5bcc2d3c558f0fcc648519cc264a2
+ms.openlocfilehash: d284ace935e0f90417b3b009d76e3b282b08bc84
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30091000"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30212798"
 ---
 # <a name="defending-microsoft-cloud-services-against-denial-of-service-attacks"></a>서비스 거부 공격에 대해 Microsoft 클라우드 서비스 방어
 

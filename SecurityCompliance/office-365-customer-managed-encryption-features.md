@@ -5,18 +5,18 @@ author: kccross
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.service: Office 365 Administration
+ms.service: O365-seccomp
 localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Microsoft Office 365의 데이터 복구 기능을 이해 합니다.'
-ms.openlocfilehash: 26abb93e491a183c5c307dde8055f1050e16068c
-ms.sourcegitcommit: 24659bdb09f49d0ffed180a4b80bbb7c45c2d301
+ms.openlocfilehash: 7c4817a2982733bc1d292117811cb21aa5278972
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "29664124"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30216060"
 ---
 # <a name="customer-managed-encryption-features-in-office-365"></a>Office 365의 고객 관리 암호화 기능
 

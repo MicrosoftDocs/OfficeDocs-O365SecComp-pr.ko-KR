@@ -6,19 +6,19 @@ manager: laurawi
 ms.audience: ITPro
 ms.topic: overview
 ms.date: 02/15/2019
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: d9ee4d67-f2b3-42b4-9c9e-c4529904990a
 description: Office 365 Cloud App Security를 사용 하 여 시작 하기
-ms.openlocfilehash: eef1a4f0465b583bb0f0589d213f61c9a15fd152
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: d6049bb1a36a078c6e5e33c60928bd3ae872c33f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087437"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219898"
 ---
 # <a name="get-ready-for-office-365-cloud-app-security"></a>Office 365 Cloud App Security 시작
   
@@ -73,9 +73,9 @@ Office 365 Cloud App Security에는 두 가지 유형의 경고가 있으며, �
 
 자세히 알아보려면 다음 리소스를 참조 하세요.
 
-- [Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 앱 보호](ocas-conditional-access-app-control.md)
+- [Office 365 Cloud App Security 조건부 액세스 앱 컨트롤을 사용하여 앱 보호](ocas-conditional-access-app-control.md)
 
-- [Office 365 앱에 대 한 조건부 액세스 앱 컨트롤 배포](ocas-deploy-conditional-access-app-control.md)
+- [Office 365 앱용 조건부 액세스 앱 컨트롤 배포](ocas-deploy-conditional-access-app-control.md)
 
 ## <a name="step-6-learn-about-your-organizations-cloud-usage"></a>6 단계: 조직의 클라우드 사용에 대 한 자세한 정보
 

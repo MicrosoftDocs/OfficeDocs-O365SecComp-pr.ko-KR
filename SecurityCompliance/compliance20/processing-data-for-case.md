@@ -1,12 +1,12 @@
 ---
-title: 고급 eDiscovery (미리 보기)에서 처리 오류를 수정 합니다.
+title: Advanced eDiscovery의 처리 오류 수정 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
@@ -14,20 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 65dce586f95d04294f51f16d361bfc659d6ab23b
-ms.sourcegitcommit: e3ea6eb9fab1a66b499458749838fe350d43d0d4
+ms.openlocfilehash: 1e473ee3813e53600d8843c0db399e54fc16915f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29694814"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219558"
 ---
-# <a name="fix-processing-errors-in-advanced-ediscovery-preview"></a>고급 eDiscovery (미리 보기)에서 처리 오류를 수정 합니다.
+# <a name="fix-processing-errors-in-advanced-ediscovery-preview"></a>Advanced eDiscovery의 처리 오류 수정 (미리 보기)
 
-처리가 파일 식별 하는 프로세스, 텍스트 추출, 이미지 파일 및 해당 콘텐츠 인덱싱 OCR (광학 문자 인식) 포함 된 문서 및 첨부 파일을 확장 합니다.  대기는 더불어 놓으면 완벽 하 게 검색할 수 있도록 Office 365에서 모든 부분적으로 인덱싱된 항목 처리 됩니다.  마찬가지로, 콘텐츠는 Office 365 데이터 원본 또는 Office 365가 아닌 데이터 원본에서 작업 집합에 추가 되 면 콘텐츠 처리 됩니다.
+처리는 파일 id, 포함 된 문서 및 첨부 파일의 확장, 텍스트 추출, OCR (광학 인식) 및 해당 콘텐츠의 인덱싱 프로세스입니다.  custodian가 보존 되 면 Office 365에서 모든 부분적으로 인덱싱된 항목이 처리 되어 완전히 검색 가능 하 게 됩니다.  마찬가지로 office 365 데이터 원본 또는 office가 아닌 365 데이터 원본의 작업 집합에 콘텐츠가 추가 되는 경우에도 해당 콘텐츠가 처리 됩니다.
 
-고급 eDiscovery (미리 보기)에서 **처리** 탭 모든 이러한 시나리오에 대 한 인덱싱 고급의 상태에 대 한 투명도 제공합니다.
+advanced eDiscovery (미리 보기)의 **처리** 탭에서는 이러한 모든 시나리오에 대 한 고급 인덱싱 상태에 투명도를 제공 합니다.
 
-자세한 내용은 다음 문서를 참조 하십시오.
+자세한 내용은 다음 문서를 참조 하세요.
 
 - [보유자 데이터의 고급 인덱싱](indexing-custodian-data.md)
 - [데이터를 처리할 때 오류 수정](error-remediation.md)

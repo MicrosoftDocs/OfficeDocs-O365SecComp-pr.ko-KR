@@ -6,17 +6,17 @@ manager: laurawi
 ms.date: 1/14/2016
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 description: Microsoft Outlook용 정크 메일 보고 추가 기능을 통해 Exchange Online 및 Exchange Online Protection 사용자는 분석을 위해 Microsoft에 정크(스팸) 메일을 간편하게 보고함으로써 서비스에 의해 필터링되는 향후 정크 메일 메시지의 개수 및 이 정크 메일 메시지가 미치는 영향을 줄일 수 있습니다. Windows 7, Windows 8 또는 Windows 10에서 Microsoft Outlook 2007, Outlook 2010 또는 Outlook 2013과 호환되는 보고 추가 기능은 다음과 같은 이점을 제공합니다.
-ms.openlocfilehash: 80ebbb0c202daec54722d3f87a92e85a8d500164
-ms.sourcegitcommit: c31424cafbf1953f2864d7e2ceb95b329a694edb
+ms.openlocfilehash: ec99ecc16137741b2f0de3043601105825417d37
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23272213"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30214588"
 ---
 # <a name="junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook 용 추가 기능에 보고 하는 정크 메일
 
@@ -34,8 +34,8 @@ Microsoft Outlook용 정크 메일 보고 추가 기능을 통해 Exchange Onlin
   
 - [Microsoft Outlook용 정크 메일 보고 추가 기능 설치](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md) 관리자를 위해 조직에 추가 기능을 설치 및 배포하는 방법과 관련된 정보를 제공하며, 추가 기능을 제거하는 방법에 대한 정보도 제공합니다. 
     
-- [Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md) 정크 메일 메시지를 Microsoft로 보고할지 추가 기능을 사용 하는 방법에 대 한 최종 사용자에 대 한 정보를 제공 합니다. 
+- [Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md) 최종 사용자에 게 Microsoft에 정크 메일 메시지를 보고 하는 추가 기능을 사용 하는 방법에 대 한 정보를 제공 합니다. 
     
-- [문제해결 및 지원 정보](troubleshooting-and-support-information.md) 최종 사용자 및 관리자 및 지원에 대 한 기술 지원 서비스에 문의 하는 방법에 대 한 정보에 대 한 문제해결 단계를 제공 합니다. 
+- [문제 해결 및 지원 정보](troubleshooting-and-support-information.md) 최종 사용자 및 관리자를 위한 문제 해결 단계와 기술 지원 서비스에 문의 하는 방법에 대 한 정보를 제공 합니다. 
     
 

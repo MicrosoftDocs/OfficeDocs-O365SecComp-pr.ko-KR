@@ -1,98 +1,98 @@
 ---
-title: 고급 eDiscovery (미리 보기) (영문) Microsoft 365 개요
+title: Microsoft 365의 고급 eDiscovery (미리 보기) 개요
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: ''
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 이 문서에서는 Microsoft 365의 고급 eDiscovery (미리 보기)의 새 버전에 설명 합니다.
-ms.openlocfilehash: cb82541037983ca21cefbefb7f72fffa3b054373
-ms.sourcegitcommit: 7e2a0185cadea7f3a6afc5ddc445eac2e1ce22eb
+description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery (미리 보기) 버전에 대해 설명 합니다.
+ms.openlocfilehash: a7b134cb527ae98b9df659a9377903f8fcdb3e9f
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29706159"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219578"
 ---
-# <a name="overview-of-advanced-ediscovery-preview-in-microsoft-365"></a>고급 eDiscovery (미리 보기) (영문) Microsoft 365 개요
+# <a name="overview-of-advanced-ediscovery-preview-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery (미리 보기) 개요
 
-Microsoft은 Office 365의 기존 eDiscovery 기능에 구축할 수 있는 업데이트 된 고급 eDiscovery 도구의 미리 보기 버전을 릴리스 방금 했습니다. *고급 eDiscovery (미리 보기)* 이라고 하는이 미리 보기 버전을 보존, 수집, 검토, 분석 및 콘텐츠는 조직의 내부 및 외부 조사에 응답 하는 내보내기 끝-워크플로 제공 합니다. 
+Microsoft는 방금 Office 365의 기존 eDiscovery 기능을 기반으로 하는 업데이트 된 고급 eDiscovery 도구의 미리 보기 버전을 출시 했습니다. *Advanced eDiscovery (preview)* 라는이 preview 버전은 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공 합니다. 
 
-## <a name="alignment-with-edrm"></a>EDRM와 맞춤
+## <a name="alignment-with-edrm"></a>edrm과 맞춤
 
-고급 eDiscovery (미리 보기)의 기본 제공 워크플로 전자 검색 참조 모델 (EDRM)에서 설명한 eDiscovery 프로세스에 맞춥니다. 
+기본 제공 되는 고급 eDiscovery (미리 보기) 워크플로는 edrm (전자식 Discovery Reference Model)에 의해 개요 된 eDiscovery 프로세스에 맞게 정렬 됩니다. 
 
-![전자 검색 참조 모델 EDRM)](../media/EDRMv1.png)
+![edrm (전자 검색 참조 모델)](../media/EDRMv1.png)
 
-(Edrm.net의 관례 대로 이미지 원본입니다. 소스 이미지 사용 가능 했지만 창의적인 일반 특성이 3.0 Unported 라이선스에 따라.)
+(edrm.net의 이미지 원본 관례입니다. 원본 이미지는 Creative creative commons 특성 3.0이 아니라 ported 라이선스를 통해 사용할 수 있습니다.
 
-다음 방법을 고급 eDiscovery 높은 수준 (미리 보기) EDRM 워크플로 지원 합니다.
+고급 eDiscovery (미리 보기)에서는 edrm 워크플로를 지 원하는 높은 수준에 설명 되어 있습니다.
 
-- **식별** -조사에 관심 잠재적 장애인을 식별 한 후 다음을 추가할 수 있습니다 (라고도 함 *데이터 custodians*조사와 관련 된 정보가 소유 수 있으므로) custodians로는 고급 eDiscovery (미리 보기) 대문자로 표시 합니다. 사용자가 custodians로 추가한 후 보존, 수집 및 더불어 문서를 검토 하기 쉽습니다.
+- **식별** -조사에서 관심 있는 정보를 확인 한 후에는 custodians ( *데이터 custodians*라고도 함)에 고급으로 추가할 수 있습니다. eDiscovery (미리 보기) 사례 사용자가 custodians로 추가 된 후에는 custodian 문서를 보존, 수집 및 검토 하기가 쉽습니다.
 
-- **보존** -을 보존 하 고는 조사와 관련 된 데이터를 보호 하려면 eDiscovery (미리 보기) 사용 할 수 있습니다 법적 보유 경우에서 custodians 연관 된 데이터 원본에 고급 합니다. 또한 대기 custodial 아닌 데이터를 배치할 수 있습니다. 또한 고급 eDiscovery (미리 보기)는 기본 제공 통신 워크플로 custodians를 법적 보유 알림을 보낼 하 고 해당 승인 과정을 추적할 수 있도록 합니다.
+- **보존** -조사와 관련 된 데이터를 보존 하 고 보호 하기 위해 고급 eDiscovery (미리 보기)를 사용 하면 사례에 custodians 연결 된 데이터 원본을 법적으로 유지할 수 있습니다. custodial 되지 않은 데이터를 보류로 설정할 수도 있습니다. 또한 Advanced eDiscovery (Preview)에는 기본 제공 되는 통신 워크플로가 포함 되어 있으므로 custodians에 법적 보존 알림을 전송 하 고 해당 승인을 추적할 수 있습니다.
 
-- **컬렉션** -하 한 후 식별 (보존) 조사와 관련 된 데이터 원본, custodial 데이터 원본의 (및 비 custodial에 대 한 고급 eDiscovery (미리 보기) 검색 하 고 라이브 데이터 수집에 기본 제공 검색 도구를 사용할 수 있습니다. 데이터 원본에 해당 하는 경우)는 대/소문자와 관련 될 수 있습니다.
+- **컬렉션** -조사와 관련 된 데이터 원본을 식별 하 고 유지 한 후에는 고급 eDiscovery (미리 보기)에서 기본 제공 검색 도구를 사용 하 여 custodial 데이터 원본 (custodial)에서 실시간 데이터를 검색 하 고 수집할 수 있습니다. 해당 사례와 관련이 있을 수 있는 데이터 원본 (해당 하는 경우)
 
-- **처리** -대/소문자에 관련 된 모든 데이터를 수집한 후, 다음 단계는 프로세스를 추가 검토 및 분석을 위해 합니다. 고급 eDiscovery (미리 보기), 수집 단계에서 식별 하는 전체 데이터는 위치로 복사 Azure 저장소 ( *집합 (영문)*)을 사례 데이터의 정적 뷰를 제공 하는 것을 의미 합니다. 
+- **처리** -사례와 관련 된 모든 데이터를 수집한 후에는 이후 검토 및 분석을 위해이 프로세스를 처리 합니다. 고급 eDiscovery (미리 보기)에서이는 컬렉션 단계에서 식별 한 전체 데이터를 Azure 저장소 위치 ( *작업 집합*이라고 함)로 복사 하 여 사례 데이터에 대 한 정적 보기를 제공 하는 것을 의미 합니다. 
  
-- **검토** -데이터를 작업에 추가 된 후 설정, 특정 문서를 볼 하 고 추가 쿼리를 실행할 수 있습니다.  
+- **검토** -데이터를 작업 집합에 추가한 후 특정 문서를 보고 추가 쿼리를 실행 하 여  
  
-- **분석** -고급 eDiscovery (미리 보기) 수를 결정 하는 작업 집합의 데이터를 cull 하는데 도움이 되는 통합 된 분석 도구 조사와 관련이 없습니다를 제공 합니다. 관련 데이터의 양은 감소, 화면 전환 eDiscovery (미리 보기)를 통해 쉽고 더 효율적으로 검토 과정을 확인 하는 콘텐츠를 구성할 수 있도록 하 여 법률 검토 비용을 저장할 수 있습니다.
+- **분석** -Advanced eDiscovery (Preview)는 확인 하는 것이 적절 하지 않은 작업 집합에서 데이터를 cull 하는 데 도움이 되는 통합 분석 도구를 제공 합니다. 관련 데이터의 양을 줄이는 것 외에도 eDiscovery (미리 보기)를 통해 콘텐츠를 구성 하 여 검토 프로세스를 보다 쉽고 효율적으로 수행할 수 있도록 하 여 법률 검토 비용을 절감할 수 있습니다.
 
-- **프로덕션** 및 **프레젠테이션** -준비 되 면 법률 검토를 위해 작업 집합에서 문서를 내보낼 수 있습니다. 제 3 자 검토 응용 프로그램으로 가져올 수 있도록 하는 EDRM 지정 된 형식 또는 원시 형식으로 문서를 내보낼 수 있습니다.
+- **프로덕션** 및 **프레젠테이션** -준비 되 면 법률 검토를 위해 작업 집합에서 문서를 내보낼 수 있습니다. 기본 형식이 나 edrm으로 지정 된 형식으로 문서를 내보내서 타사 검토 응용 프로그램으로 가져올 수 있습니다.
 
 ## <a name="advanced-ediscovery-preview-workflow"></a>고급 eDiscovery (미리 보기) 워크플로
 
-다음 섹션에서는 고급 eDiscovery (미리 보기)의 기본 제공 워크플로의 각 단계에 설명 합니다. 다음 스크린샷은 *제품 책임 2019002*라는 하는 경우의 **홈** 탭 모양을 보여줍니다. Note 페이지의 위쪽에 워크플로 탭에 EDRM 프로세스에 맞춰 정렬 됩니다. 
+다음 섹션에서는 고급 eDiscovery (미리 보기)에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷에서는 *제품 책임 2019002*라는 사례에 대 한 **홈** 탭을 보여 줍니다. 참고 페이지 맨 위에 있는 워크플로 탭은 edrm 프로세스에 맞게 시퀀싱 됩니다. 
 
-고급 eDiscovery (미리 보기)의 끝-워크플로 하는 방법에 대 한 자세한 내용은이 [비디오 Microsoft 메커니즘](https://go.microsoft.com/fwlink/?linkid=2066133)을 참조 하십시오. 
+Advanced eDiscovery (Preview)의 종단 간 워크플로에 대 한 자세한 내용은이 [Microsoft 메커니즘 비디오](https://go.microsoft.com/fwlink/?linkid=2066133)를 참조 하세요. 
 
-![EDRM 워크플로 수행 하는 고급 eDiscovery (미리 보기)의 탭](../media/aedisco-homepage-1.png)
+![고급 eDiscovery (미리 보기)의 탭은 edrm 워크플로를 따릅니다.](../media/aedisco-homepage-1.png)
 
 ## <a name="managing-custodians"></a>보유자 관리
 
-추가 하 고 대/소문자에 관계가 사용자에 게로 식별 한 사람을 관리 하려면 **Custodians** 탭을 사용 합니다. Custodians에 추가할 때 신속 하 게 작업을 수행할 수 더불어 관련 된 법적 방법 더불어 데이터 원본에 배치 하는 등, 예: 사서함 및 OneDrive 계정 custodians와 통신 및 콘텐츠를 수집 하려면 더불어 데이터 원본 검색 하는 대/소문자와 관련이 있습니다. 사례 진행률 파일로 새 custodians를 추가 하거나 대/소문자에서 custodians 릴리스 하기 쉽습니다. 자세한 내용은 [고급 eDiscovery (미리 보기)에서 custodians와 함께 작동](managing-custodians.md)을 참조 하십시오.
+**Custodians** 탭을 사용 하 여 대/소문자에서 원하는 사람으로 식별 된 사용자를 추가 하 고 관리 합니다. custodians를 추가할 때는 사서함 및 OneDrive 계정, custodians과 통신, 검색 custodian 데이터 원본을 통해 콘텐츠를 수집 하는 것과 같은 custodian 관련 작업을 빠르게 수행할 수 있습니다. 사례와 관련 된 것입니다. 사례를 진행 하는 동안 처럼 새 custodians를 추가 하거나 custodians을 릴리스할 수 있습니다. 자세한 내용은 [custodians with a Advanced eDiscovery (Preview)](managing-custodians.md)을 참조 하십시오.
 
-## <a name="managing-legal-hold-notifications"></a>법적 보유 알림 관리
+## <a name="managing-legal-hold-notifications"></a>법적 보존 알림 관리
 
-**Communications** 탭을 사용 하 여 경우에서 custodians와 통신 하는 프로세스를 관리 합니다. 법적 보유 통지 대/소문자와 관련 될 수 있는 모든 콘텐츠를 유지 하기 위해 custodians에 지시 합니다. 법적 팀 수 통지를 수신, 읽기, 및 custodians 하 여 승인 된가 추적할 수 있어야 합니다. 고급 eDiscovery (미리 보기)의 통신 워크플로 만들기 및 보류 알림을 승인할 custodians 실패 하는 경우 초기 알림, 미리 알림, 릴리스 통지 및 에스컬레이션을 보낼 수 있습니다. 자세한 내용은 [고급 eDiscovery (미리 보기)의 통신 사용](managing-custodian-communications.md)을 참조 합니다.
+**통신** 탭을 사용 하 여 사례에서 custodians와 통신 하는 프로세스를 관리 합니다. 법적 고 지 사항에 따라 custodians가 사례와 관련이 있을 수 있는 모든 콘텐츠를 보존 하도록 지시 합니다. 법률 팀은 custodians에서 알림을 받고, 읽고, 승인한 것을 추적할 수 있어야 합니다. Advanced eDiscovery (미리 보기)의 통신 워크플로를 사용 하면 custodians에서 보류 알림을 승인 하지 못할 경우 초기 알림, 미리 알림, 릴리스 알림 및 에스컬레이션을 만들고 보낼 수 있습니다. 자세한 내용은 [Advanced eDiscovery (Preview)에서 통신](managing-custodian-communications.md)에 대 한 작업을 참조 하십시오.
 
 ## <a name="managing-content-preservation"></a>콘텐츠 보존 관리
 
-사례에 대 한 더불어를 추가할 때 custodial 데이터에 대 한 보류 시키려면 옵션도 있습니다. 사용을 **포함 하 고** 탭 만든 custodians를 추가 하 고 추가 법률을 관리 하는 경우 보류를 관리 하는 대/소문자; 연관 포함 하 고 예, 확인 하 고 custodial 아닌 데이터 원본에 보류를 배치 하 수 있습니다. 또한 경우에 모든 보류를 편집 하 고 수 있도록 쿼리 기반 보존 대기; 쿼리와 일치 하는 콘텐츠만 놓입니다 수 있습니다. 예, 특정 날짜의 범위 내에서 만든 콘텐츠만 보존 되도록 날짜 범위를 보류에 추가할 수 있습니다. 보류 중인 콘텐츠에 대 한 통계를 가져올 하 하거나 되었을 때 더이상 경우에는 관련 된 후 보류를 제거 삭제할 수도 없습니다. 자세한 내용은 [고급 eDiscovery (미리 보기)에서 유지 관리를](managing-holds.md)참조 하십시오.
+custodian를 사례에 추가 하는 경우 custodial 데이터를 보유할 수 있는 옵션이 있습니다. **보류** 중 탭을 사용 하 여 custodians을 추가 하 고 사례와 연결 된 추가 법률 보존을 관리할 때 생성 되는 보존을 관리할 수 있습니다. 예를 들어 custodial이 아닌 데이터 원본을 확인 하 고 보류할 수 있습니다. 사례에서 보류를 편집 하 고 쿼리 기반 보존으로 설정 하 여 쿼리와 일치 하는 콘텐츠만 저장 되도록 할 수도 있습니다. 예를 들어 특정 날짜 이내에 만들어진 콘텐츠만 보존 되도록 보류에 날짜 범위를 추가할 수 있습니다. 보류 중인 콘텐츠에 대 한 통계를 가져올 수도 있고, 대/소문자와 더 이상 관련이 없는 경우에는 보류를 제거 하거나 삭제 합니다. 자세한 내용은 [Advanced eDiscovery에서 보류 관리 (미리 보기)](managing-holds.md)를 참조 하십시오.
 
-## <a name="indexing-custodian-data"></a>인덱싱 더불어 데이터
+## <a name="indexing-custodian-data"></a>custodian 데이터 인덱싱
 
-사례에 대 한 더불어 및 해당 하는 custodial 데이터 원본의 추가할 때 더불어 데이터 원본의 모든 부분적으로 인덱싱된 항목은 다시 (사용 하 여 인덱싱된 *인덱싱 고급*이라는 프로세스). 이 통해 custodial 콘텐츠 예: 이미지, 지원 되지않는 파일 형식 및 기타 잠재적으로 인덱싱되지 않은 콘텐츠는 대/소문자와 관련이 있는 데이터를 수집 하도록 검색을 실행 하는 경우 완벽 하 게 검색할 수 있습니다. **처리** 탭을 사용 하 여 고급 인덱싱 및 (사용 하 여 오류 프로세스 calle *오류 수정*합니다.)를 처리 하는 수정 프로그램의 상태를 모니터링 합니다. 자세한 내용은 [고급 eDiscovery (미리 보기)에서 처리 오류를 해결](processing-data-for-case.md)을 참조 하십시오.
+custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custodian 데이터 원본의 모든 부분적으로 인덱싱된 항목이 다시 인덱싱됩니다 ( *고급 인덱싱*프로세스) 됩니다. 이렇게 하면 이미지, 지원 되지 않는 파일 형식 및 해당 사례와 관련 된 데이터를 수집 하기 위해 검색을 실행할 때 custodial 콘텐츠가 완벽 하 게 검색 가능 해질 수 있습니다. **처리** 탭을 사용 하 여 고급 인덱싱의 상태를 모니터링 하 고 프로세스 calle *오류 수정을*사용 하 여 처리 오류를 해결 합니다. 자세한 내용은 [Advanced eDiscovery (Preview)의 처리 오류 수정을](processing-data-for-case.md)참조 하세요.
 
 ## <a name="collecting-case-data"></a>사례 데이터 수집하기
 
-**검색** 탭을 사용 하 여 Office 365의 대/소문자와 관련 된 콘텐츠에 대 한 전체 custodial를 검색 하려면 검색 및 custodial 아닌 데이터 원본을 만들 수 있습니다. 만들 수 있으며 집합 전자 메일 메시지를 식별 하 (키워드와 조건을 사용 하 여) 하는 쿼리 기반 검색을 실행 하 고 대/소문자와의 사용자와 관련 된 문서를 검토 한 자세한 내용은 및 eDiscovery 워크플로의 이후 단계에서 분석 해야 합니다. 대/소문자와 관련 된 하나 이상의 검색을 만들 수 있습니다. 또한 예제 문서 미리 보기를 검색 도구를 사용할 수 있으며 도움이 될 수 있는 보기 검색 통계 구체화 하 고 검색 결과 개선 합니다. 한번 하면 검색 결과 포함 된 모든 데이터를 대/소문자와 관련이 있는지, 추가 검토, 분석에 대 한 작업 집합을 검색 결과 추가 충족 하 고 필요한 경우 컬링을 합니다. 자세한 내용은 [고급 eDiscovery (미리 보기)의 경우에 대 한 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오.
+검색 탭 **** 에서는 사례와 관련 된 콘텐츠에 대해 Office 365에서 현재 위치 custodial 및 비 custodial 데이터 원본을 검색 하는 검색을 만들 수 있습니다. 쿼리 기반 검색 (키워드 및 조건 사용)을 만들고 실행 하 여 사례와 관련 된 전자 메일 메시지 및 문서를 확인 하 고 eDiscovery 워크플로의 이후 단계에서 더 자세히 검토 하 고 분석할 수 있습니다. 사례와 연결 된 검색을 하나 이상 만들 수 있습니다. 또한 검색 도구를 사용 하 여 예제 문서를 미리 보고 검색 결과를 구체화 하 고 향상 시키는 데 도움이 되는 검색 통계를 볼 수 있습니다. 검색 결과에 사례와 관련 된 모든 데이터가 포함 되어 있는 경우 추가 검토, 분석 및 필요한 경우 culling에 대 한 검색 결과를 작업 집합에 추가 합니다. 자세한 내용은 [Advanced eDiscovery (Preview)의 사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오.
 
-## <a name="reviewing-and-analyzing-case-data"></a>검토 및 사례 데이터 분석
+## <a name="reviewing-and-analyzing-case-data"></a>사례 데이터 검토 및 분석
 
-**집합 (영문)** 탭을 사용 하 여 또는 검토 하 고 라이브 시스템에서 수집 하 고 작업 집합에 추가 되었는지 여부를 지정 하는 콘텐츠를 분석 합니다. Custodial 데이터의 정적 컬렉션 (즉, 오프 라인 복사본 수 있음)은 *작업 집합* (해당 되는 경우 및 custodial 아닌 데이터) eDiscovery 워크플로의 이전 단계에서 수집 된 합니다. 작업 집합을 검색 결과 추가할 때 컨테이너에서 파일을 추출 하 고 메타 데이터를 추출 하 여 텍스트를 추출 하는 프로세스를 트리거됩니다. 이 프로세스가 완료 되 면 시스템 custodians에서 수집 하 고 작업 집합에 추가 된 모든 데이터의 새 인덱스를 구축 합니다. 데이터 작업 집합에 추가 되 면 사례 데이터 범위를 좁힐, 텍스트 또는 기본 파일 형식에서 데이터를 볼 및 주석을 달, 교정, 추가 쿼리를 실행할 수 및 대리인으로 작업에서 태그 문서 설정 합니다. 또한 문서 중복 식별, 스레딩, 전자 메일을 같은 및 테마 고급 분석을 수행할 수 있습니다. 데이터를 대/소문자와 관련이 란만 컬링 했을 때, 되 면 다운로드 문서를 직접 다운로드 또는 파일 메타 데이터, 주석 및 모든 태그와 함께 내보낼 수 있습니다. 자세한 내용은 다음을 참조 합니다.
+**작업 집합** 탭을 사용 하거나 라이브 시스템에서 수집한 후 작업 집합에 추가한 콘텐츠를 검토 하 고 분석 합니다. *작업 집합* 은 eDiscovery 워크플로의 이전 단계에서 수집한 custodial 데이터 (즉, 해당 되는 경우에는 custodial 데이터)의 정적 모음 (즉, 해당 하는 경우)입니다. 작업 집합에 검색 결과를 추가할 때 컨테이너에서 파일을 추출 하 고 메타 데이터를 추출 하 고 텍스트를 추출 하는 프로세스가 트리거됩니다. 이 프로세스가 완료 되 면 시스템은 custodians에서 수집한 모든 데이터에 대 한 새 인덱스를 작성 하 고 작업 집합에 추가 합니다. 데이터를 작업 집합에 추가한 후에는 추가 쿼리를 실행 하 여 사례 데이터의 범위를 좁히거나, 데이터를 텍스트로 보거나 네이티브 파일 형식으로 표시 하 고, 작업 집합에서 문서에 주석을 달고, 교정 하 고, 태그를 지정할 수 있습니다. 또한 문서 중복, 전자 메일 스레딩 및 테마 식별과 같은 고급 분석을 수행할 수 있습니다. 데이터를 사례와 관련 된 culled 다운로드 한 후에는 문서를 직접 다운로드 하거나 파일 메타 데이터, 주석 및 모든 태그와 함께 내보낼 수 있습니다. 자세한 내용은 다음 항목을 참조 하십시오.
 
-  - [고급 eDiscovery (미리 보기)의 경우 데이터를 검토 합니다.](reviewing-data-in-working-set.md)
-  - [고급 eDiscovery (미리 보기)에서 작업 집합의 데이터를 분석 합니다.](analyzing-data-in-working-set.md)
+  - [Advanced eDiscovery에서 사례 데이터 검토 (미리 보기)](reviewing-data-in-working-set.md)
+  - [Advanced eDiscovery (Preview)의 작업 집합에서 데이터 분석](analyzing-data-in-working-set.md)
 
-## <a name="exporting-data-for-review-and-presentation"></a>검토 및 표시에 대 한 데이터 내보내기 (영문)
+## <a name="exporting-data-for-review-and-presentation"></a>검토 및 프레젠테이션으로 데이터 내보내기
 
-작업 집합에서 데이터를 내보낸 후 내보내기 작업을 관리 하 고 작업 집합에서 데이터를 다운로드 하려면 **내보내기** 탭을 사용 합니다. 작업 집합을 내보낼 때 데이터 Azure 저장소 위치로 업로드 이며 다음 로컬 컴퓨터에 다운로드할 수 있습니다. 위치를 받아 저장소 **내보내기** 탭에서 내보낸된 데이터를 다운로드 하는 데 필요한 키를 평가 합니다. 자세한 내용은 [고급 eDiscovery (미리 보기)의 경우 데이터를 내보냅니다](exporting-data-ediscover20.md)를 참조 하십시오.
+작업 집합에서 데이터를 내보낸 후 내보내기 탭을 사용 하 **** 여 내보내는 작업을 관리 하 고 작업 집합에서 데이터를 다운로드 합니다. 작업 집합을 내보낼 때 데이터는 Azure 저장 위치로 업로드 된 후 로컬 컴퓨터로 다운로드할 수 있습니다. **내보내기** 탭에서 내보낸 데이터를 다운로드 하는 데 필요한 위치 및 저장소 평가 키를 가져올 수 있습니다. 자세한 내용은 [Export case data in a Advanced eDiscovery (Preview)](exporting-data-ediscover20.md)을 참조 하십시오.
 
 ## <a name="managing-jobs"></a>작업 관리
 
-**작업** 탭을 사용 하 여 시작 했을 때 된 사례 관련 작업, 검색으로 다시 인덱싱, 검색 및 내보내기에 대 한 장기 실행 프로세스를 모니터링 합니다. 예, 많은 수의 데이터 원본 포함 하는 **검색** 탭에서 새 검색을 만들 수 있습니다. 이 검색 프로세스의 상태는 **작업** 탭에 표시 됩니다. 자세한 내용은 [고급 eDiscovery (미리 보기)에서 관리 작업](managing-jobs-ediscovery20.md)을 참조 하십시오.
+**작업** 탭을 사용 하 여 시작한 사례 관련 작업, 다시 인덱싱, 검색 및 내보내기로 검색 하는 장기 실행 프로세스를 모니터링할 수 있습니다. 예를 들어 **검색** 탭에서 많은 수의 데이터 원본을 포함 하는 검색을 새로 만들 수 있습니다. 이 검색 프로세스의 상태는 **작업** 탭에 표시 됩니다. 자세한 내용은 [Advanced eDiscovery에서 작업 관리 (미리 보기)](managing-jobs-ediscovery20.md)를 참조 하세요.
 
 ## <a name="configuring-case-settings"></a>사례 설정 구성
 
-**설정** 탭을 사용 하 여 사례 수준 설정을 구성 합니다. 이 사례를 닫는 또는 사례를 삭제 하 고, 검색 및 분석 기능과 동작을 구성에 구성원 추가 (영문)를 포함 합니다. 자세한 내용은 [고급 eDiscovery (미리 보기)의 경우 설정 구성을](configuring-case-settings-ediscovery20.md)참조 하십시오.
+**설정** 탭에서는 대/소문자 전체 설정을 구성 합니다. 여기에는 사례에 구성원 추가, 사례 닫기 또는 삭제, 검색 및 분석 동작 구성 등이 포함 됩니다. 자세한 내용은 [Advanced eDiscovery (Preview)에서 사례 설정 구성을](configuring-case-settings-ediscovery20.md)참조 하십시오.
 

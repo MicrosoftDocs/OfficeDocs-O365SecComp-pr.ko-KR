@@ -6,19 +6,21 @@ manager: laurawi
 ms.date: 2/14/2018
 ms.audience: Admin
 ms.topic: hub-page
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
+ms.collection:
+- M365-security-compliance
 description: Office 365의 보안을 지원 하기 위해 설정할 수 있는 경고에 대해 알아봅니다.
-ms.openlocfilehash: 657bd35bd537db731b7994af625f95094a5bceab
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: e02e78b091c7e5e2347c90c14a99cf838b4482b4
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087327"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30220548"
 ---
 # <a name="alerts-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 알림
 

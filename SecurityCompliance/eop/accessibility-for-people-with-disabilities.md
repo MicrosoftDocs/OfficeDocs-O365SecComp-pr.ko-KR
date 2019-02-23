@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.collection: Ent_O365_Hybrid
 ms.assetid: a7203ebd-ffac-4a8d-a2d0-6c8a61c8eeb8
 description: Microsoft에서는 모든 사용자가 더 쉽게 사용할 수 있는 제품 및 서비스를 만들기 위해 노력하고 있습니다.
-ms.openlocfilehash: 1e59e995ffaa4b3324913d8e49a9c2ee00b142fb
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 2403ef4ec5a99202a45b40bf639193643b6ad02b
+ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22026215"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30206381"
 ---
-# <a name="accessibility-for-people-with-disabilities"></a>장애가 있는 사용자를 위한 내게 필요한 옵션
+# <a name="accessibility-for-people-with-disabilities"></a>장애인을 위한 내게 필요한 옵션
 
 ## <a name="accessibility-features-of-exchange"></a>Exchange의 내게 필요한 옵션 기능
 
 다음 기능은 장애가 있는 사용자가 Microsoft Exchange를 보다 쉽게 사용할 수 있게 해줍니다.
   
-- [Exchange 2013 미리 보기에서 바로 가기 키](http://technet.microsoft.com/library/146b2b52-1ef8-4606-991a-4cf4da694970.aspx)
+- [Exchange Server의 바로 가기 키](http://technet.microsoft.com/library/146b2b52-1ef8-4606-991a-4cf4da694970.aspx)
     
-- [Outlook Web App의 키보드 바로 가기](https://go.microsoft.com/fwlink/p/?LinkId=268079)
+- [웹용 Outlook의 바로 가기 키](https://go.microsoft.com/fwlink/p/?LinkId=268079)
     
 또한 Windows의 내게 필요한 옵션 기능과 유틸리티 중 일부에서도 Exchange의 장애가 있는 사용자를 위한 편의를 제공합니다. 또한 Windows PowerShell 크기 및 색 변경은 Exchange 관리 셸을 사용할 때 내게 필요한 옵션을 제공합니다. Windows PowerShell 내게 필요한 옵션에 대한 자세한 내용은 [Windows PowerShell 2.0 ISE의 내게 필요한 옵션](https://go.microsoft.com/fwlink/p/?LinkId=258240)을 참조하십시오.
   
@@ -62,7 +62,7 @@ Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려
   
 ||
 |:-----|
-|Learning Ally  <br/> 20 Roszel Road  <br/> Princeton, NJ 08540  <br/> 미국 내 전화 번호: (800) 221-4792  <br/> 웹사이트: [학습 동맹](https://www.learningally.org/) <br/> |
+|Learning Ally  <br/> 20 Roszel Road  <br/> Princeton, NJ 08540  <br/> 미국 내 전화 번호: (800) 221-4792  <br/> 웹 사이트: [동맹](https://www.learningally.org/) 을 위한 학습 <br/> |
    
 ### <a name="customer-service-for-people-with-hearing-impairments"></a>청각 장애가 있는 사용자를 위한 고객 서비스
 
