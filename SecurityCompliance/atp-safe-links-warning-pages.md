@@ -11,20 +11,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
-ms.collection:
-- M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: c854b32b3750f2ccd71e1d66f9dc8f8c54564f08
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e11592c5db0909171627cd163593d7e49cc6a5de
+ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217148"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30245594"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
 
 > [!IMPORTANT]
-> 이 문서는 비즈니스 고객을 위한 것입니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 Office 365 Enterprise 고객을 위한 것입니다. Outlook.com, office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (atp)는 [atp 안전한 링크](atp-safe-links.md), [atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 합니다. 보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (url)가 확인 됩니다. 의심 스러운 또는 악성으로 식별 된 url은 클릭 하면 url을 열 수 없습니다. 대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다. 
   

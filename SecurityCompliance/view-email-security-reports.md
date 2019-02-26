@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 809bfbdfdda8bd1ed9b88c9bca7e9ce14d774868
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fb9f8234f1febf98daf0382f2ad8ece3e3ecbbfe
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216418"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30242000"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 

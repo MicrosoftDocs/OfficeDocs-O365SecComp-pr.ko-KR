@@ -12,19 +12,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: db7da9d6ce2d2f2503585c0cde89f2b2626e2afa
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 0cf6c22be42f11fe52a1f43d0ebef48bd639675d
+ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220168"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30245604"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
 > [!IMPORTANT]
-> 이 문서는 비즈니스 고객을 위한 것입니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 Office 365 Enterprise 고객을 위한 것입니다. Outlook.com, office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
 [atp 안전한 링크](atp-safe-links.md)( [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP)의 기능)는 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. [Office 365 보안 &amp; 및 준수 센터에 대 한 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있는 경우 ATP 안전한 링크 정책을 설정 하 여 사용자가 웹 주소 (url)를 클릭할 때 조직이 보호 되는지 확인할 수 있습니다. Office 문서에서 전자 메일 및 url의 url을 검색 하도록 ATP 안전한 링크 정책을 구성할 수 있습니다.
   

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 25e8ee175314c5447da95d3636236d1682479c70
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f3730c6f2bd6a7c307cd17c0894116b1e8328dc9
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216758"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241870"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 
@@ -45,7 +45,7 @@ ms.locfileid: "30216758"
   
     보고서 일정을 사용자 지정 하려는 경우 보고서의 빈도, 보낸 사람의 전자 메일 주소 및 받는 사람의 전자 메일 주소를 지정할 수 있습니다. 
     
-보고서의 일정을 만든 후에는 해당 보고서가 전자 메일을 통해 받는 사람의 emali 주소로 자동으로 배달 됩니다. 
+보고서 일정을 만든 후에는 해당 보고서가 전자 메일을 통해 받는 사람의 전자 메일 주소로 자동으로 배달 됩니다. 
   
 ## <a name="related-topics"></a>관련 항목
 

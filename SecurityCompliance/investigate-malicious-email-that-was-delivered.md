@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: 위협 인텔리전스를 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: adf4066b5119f131b90dc88b99be4011582931c2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d5b08338bc0a3a6a88ea498861ab9e27522b759d
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215498"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241910"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-threat-intelligence"></a>배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 인텔리전스)
 

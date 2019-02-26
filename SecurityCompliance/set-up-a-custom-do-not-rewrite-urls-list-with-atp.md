@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: ATP 안전한 링크 정책을 설정 하는 경우 조직의 일부 사용자가 목록에 포함 된 사이트를 방문할 수 있도록 하기 위해 다음 url 목록을 포함 하 여이를 재작성 합니다.
-ms.openlocfilehash: 7fbc7d0d0caec79dcdbb3dc5b1b5a8a4e085dc09
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 006dab44054f9cb707bb13d158588ab6606fab5c
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215028"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241980"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 하 여 재작성 되지 않는 url 목록 설정
 

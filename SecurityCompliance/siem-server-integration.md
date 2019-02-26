@@ -12,14 +12,13 @@ ms.collection: Ent_O365
 ms.custom:
 - Ent_Solutions
 - SIEM
-- M365-security-compliance
 description: 요약:이 문서를 읽으면 Microsoft 365과의 siem server 통합에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 56ac1b244bc7bfc62bd6edb097a733e8477baa26
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4b9b631ab27d777be610ed3b954acc7b2c3bdf50
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215658"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241880"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 siem 서버 통합
 
@@ -37,7 +36,7 @@ siem 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그 통합 | [Microsoft Cloud App Security와의 siem 통합](https://docs.microsoft.com/cloud-app-security/siem) |
 | [Office 365 Cloud App Security](office-365-cas-overview.md) | 로그 통합 | [Office 365 Cloud App Security와 SIEM 서버 통합](integrate-your-siem-server-with-office-365-cas.md) |
 | [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | 로그 통합 | [siem 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-siem-windows-defender-advanced-threat-protection) |
-| [Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-intro) (위협 방지 및 위협 검색) | 알림 | [Azure 보안 데이터를 siem 파이프라인 구성으로 내보내기-미리 보기](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) |
+| [Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-intro) (위협 방지 및 위협 검색) | 경고 | [Azure 보안 데이터를 siem 파이프라인 구성으로 내보내기-미리 보기](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) |
 | [Azure Active Directory id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) | 감사 로그 | [Azure Active Directory 감사 로그 통합](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad) |
 | [Azure Advanced Threat Analytics](https://docs.microsoft.com/azure/security/azure-threat-detection) | 로그 통합 | [ATA siem 로그 참조](https://docs.microsoft.com/advanced-threat-analytics/cef-format-sa) |
 

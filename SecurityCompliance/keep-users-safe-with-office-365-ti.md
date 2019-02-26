@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: Office 365 위협 인텔리전스를 통해 조직이 침입 및 위협을 검색 하는 데 도움을 주는 방법 및 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: c2c601c7828e947c6cfa1c91723a19acee9e09ee
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 40b39cc7f388152bd95000e2653ef94b970a6fa3
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213698"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241960"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-intelligence"></a>Office 365 위협 인텔리전스를 사용하여 Office 365 사용자를 안전하게 보호
 

@@ -11,14 +11,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: ace0aab3131385f03c4be9287d860a1d29137f9a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 072d64a056d88000ad615a896328b0144aef3d0f
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218458"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30241990"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-새롭고 중요한 기능
 
