@@ -146,7 +146,7 @@
 #### [온-프레미스 AD RMS 서버를 사용하도록 IRM 구성](configure-irm-to-use-an-on-premises-ad-rms-server.md)
 ### [S/MIME](s-mime-for-message-signing-and-encryption.md)
 #### [메시지 서명 및 암호화를 위한 S/MIME](s-mime-for-message-signing-and-encryption.md)
-#### [Outlook Web App용 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
+#### [웹용 Outlook용 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
 #### [S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기](send-and-receive-s-mime-signed-and-encrypted-email.md)
 #### [S/MIME용으로 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md)
 #### [S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
@@ -282,7 +282,7 @@
 
 ### [보존 관리](compliance20/managing-holds.md)
 
-### [처리 오류 해결](compliance20/processing-data-for-case.md)
+### [오류 처리 작업](compliance20/processing-data-for-case.md)
 #### [보유자 데이터의 고급 인덱싱](compliance20/indexing-custodian-data.md)
 #### [데이터를 처리할 때 오류 수정](compliance20/error-remediation.md)
 

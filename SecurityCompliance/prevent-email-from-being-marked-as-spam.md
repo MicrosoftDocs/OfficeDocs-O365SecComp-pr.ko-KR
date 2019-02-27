@@ -1,32 +1,38 @@
 ---
-title: Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법
+title: Office 365에서 가양성을 발생을 방지하는 방법
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: overview
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 34823bbc-a3e3-4949-ba42-97c73997eeed
-description: 실제 전자 메일이 Office 365에서 스팸으로 표시되고 분류되는 일을 방지하는 방법을 알아봅니다.
-ms.openlocfilehash: 4da27aea157d3d816f8ce9a9631dd608dd5cd164
-ms.sourcegitcommit: 03b9221d9885bcde1cdb5df2c2dc5d835802d299
+description: 가양성을 방지하고 Office 365에서 실제 전자 메일을 쓸모없는 상태로 유지하는 방법에 대해 알아보십시오.
+ms.openlocfilehash: be6e534608544c8db7a33ae6ed6492d4f730a2a0
+ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "29614432"
+ms.lasthandoff: 02/23/2019
+ms.locfileid: "30219418"
 ---
 # <a name="how-to-prevent-real-email-from-being-marked-as-spam-in-office-365"></a>Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법
 
  **실제 전자 메일이 Office 365에서 스팸으로 표시되나요? 그렇다면 다음을 수행하세요.**
   
-EOP(Exchange Online Protection)는 스팸을 필터링하여 사용자가 원치 않는 콘텐츠를 받은 편지함에서 지우려고 합니다. 그렇지만 경우에 따라 EOP가 필요한 콘텐츠를 필터링하기도 합니다.
-  
+EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 데 도움이 되는 클라우드 기반 전자 메일 필터링 서비스입니다. Office 365에 사서함이 있는 경우 사서함은 서비스의 일부이므로 EOP에 의해 자동으로 보호됩니다.
+
+EOP(Exchange Online Protection)는 스팸을 필터링하여 사용자가 원치 않는 콘텐츠를 받은 편지함에서 지우려고 합니다. 그렇지만 경우에 따라 EOP가 필요한 콘텐츠를 필터링하기도 합니다. 메시지가 스팸 필터에 의해 스팸으로 잘못 표시되면 허위 오류라고 합니다.
+
+가양성이 있는 경우 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하여 Microsoft에 메시지를 보고해야 합니다. 또한 메시지 *을 첨부 파일*로 not_junk@office365.microsoft.com으로 전달할 수 있습니다.
+
+    **Important** If you do not forward the messages as attachments, then the headers will be missing and we will be unable to improve the junk mail filtering in Office 365.
+    
 ## <a name="determine-the-reason-why-the-message-was-marked-as-spam"></a>메시지가 스팸으로 표시되는 이유 확인
 
 Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 통해 해결할 수 있으며 잘못된 내용을 파악할 수 있습니다. X-Forefront-Antispam-Report라는 헤더를 찾아야합니다. [스팸 방지 메시지 헤더에 대해 자세히 알아](https://technet.microsoft.com/library/dn205071%28v=exchg.150%29.aspx)볼 수 있습니다.
@@ -59,16 +65,44 @@ Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https:
 
 - **Office 365를 가리키도록 DNS 레코드 지정** EOP를 통해 보호를 제공하려면 모든 도메인의 MX(메일 교환기)가 Office 365만 가리켜야 합니다. MX가 Office 365를 가리키지 않는 경우, EOP는 사용자를 위해 스팸 필터링를 제공하지 않습니다. 다른 서비스 또는 어플라이언스를 사용하여 도메인에 대한 스팸 필터링을 제공하려는 경우 EOP에서 스팸 보호 기능을 사용하지 않도록 설정하는 것이 좋습니다. SCL 값을 -1로 설 하는 전송 규칙을 만들어 이렇게 할 수 있습니다. 나중에 EOP를 사용하기로 결정하면 이 전송 규칙을 제거해야 합니다. 
     
-- **Outlook에서 SmartScreen 사용 안 함** 사용자가 Outlook 데스크톱 클라이언트를 사용하는 경우 지원이 중단된 SmartScreen 필터링 기능을 사용하지 않도록 설정해야 합니다. 이 기능을 사용하도록 설정하면 가양성이 발생할 수 있습니다. 업데이트된 데스크톱 Outlook 클라이언트를 실행하는 경우에는 이 작업이 필요하지 않습니다. 
-    
 - **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자가 보고서 메시지 추가 기능을 사용할 수 있도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
     
-- **보낸 사람 허용 즉시** 보낸 사람을 즉시 허용해야 하는 경우, **특정 보낸 사람의 IP 주소만 허용**하는 것이 좋습니다. 또는 보낸 사람을 허용하고, 보낸 사람 도메인과 성공적인 Authentication-Results 헤더를 **둘 다** 찾는 전송 규칙을 만들어 보낸 사람이 SPF 또는 DKIM과 같은 인증 검사를 통과하는지 확인할 수 있습니다. 
-    
 ### <a name="for-users"></a>사용자
+    
+- **안전한 발신자 목록 만들기** 사용자는 신뢰할 수 있는 발신인의 주소를 [Outlook](https://go.microsoft.com/fwlink/p/?LinkId=270065) 또는 [웹상의 Outlook](https://go.microsoft.com/fwlink/p/?LinkId=294862)에 안전한 발신자 목록에 추가할 수 있습니다. 웹에서 Outlook을 시작하려면 **설정**![을 선택합니다. ](media/24bd5467-c8d2-4936-9c37-a179bd0e21ec.png) \> ** 옵션 ** \> **차단 또는 허용**합니다. 다음 다이어그램은 안전한 발신자 목록에 무언가를 추가하는 예를 보여줍니다.
+  
+![웹용 Outlook에 안전한 발신자 추가](media/8de6b24e-429e-4e8f-8ce8-53ba659cbfcb.png)
+  
+EOP는 사용자의 수신 허용 - 보낸 사람 및 받는 사람을 존중하지만 Safe Domains는 사용하지 않습니다. 이는 도메인이 웹에서 Outlook을 통해 추가되거나 Outlook에서 추가되고 Directory Sync를 사용하여 동기화되는지 여부에 관계없이 적용됩니다.
 
-- **Microsoft에 스팸 보고** [보고서 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하여 Microsoft에 스팸 메시지를 보고합니다. 또한 junk@office365.microsoft.com으로 메시지를 보내고 보고서에 하나 이상의 메시지를 첨부할 수 있습니다.
+- **Outlook에서 SmartScreen 사용 안 함** 이전 Outlook 데스크톱 클라이언트를 사용하는 경우 지원이 중단된 SmartScreen 필터링 기능을 사용하지 않도록 설정해야 합니다. 이 기능을 사용하도록 설정하면 가양성이 발생할 수 있습니다. 업데이트된 데스크톱 Outlook 클라이언트를 실행하는 경우에는 이 작업이 필요하지 않습니다.
+
+## <a name="troubleshooting-a-message-ends-up-in-the-junk-folder-even-though-eop-marked-the-message-as-non-spam"></a>문제 해결 : EOP가 메시지를 스팸이 아닌 것으로 표시했더라도 메시지는 정크 폴더에 놓입니다.
+<a name="TroubleshootingJunkEOPNonSpam"> </a>
+
+사용자가 Outlook에서 "수신 허용 목록만 허용 : 수신 허용 - 보낸 사람 목록 또는 수신 허용 - 받는 사람 목록의 사람 또는 도메인에게서 온 메일만 받은 편지함으로 배달됩니다" 옵션을 사용하는 경우 모든 전자 메일은 보낸 사람의 정크 메일 폴더로 이동합니다. 보낸 사람이 받는 사람의 수신 허용 목록에 있지 않은 경우 이것은 EOP가 메시지를 스팸이 아닌 것으로 표시했는지 여부와 관계없이 또는 EOP에서 메시지를 스팸이 아닌 것으로 표시하도록 설정한 경우에도 발생합니다.
+  
+[ Outlook : 정크 메일 UI를 비활성화하는 정책 설정 및 필터링 메커니즘](https://support.microsoft.com/ko-KR/kb/2180568)의 지침에 따라 Outlook 사용자의 수신 허용 목록 전용 옵션을 비활성화할 수 있습니다.
+  
+웹용 Outlook에서 메시지를 보면 보낸 사람이 수신자의 보낸 사람 목록에 없기 때문에 메시지가 정크 폴더에 있음을 나타내는 노란색 안전 팁이 표시됩니다.
+  
+메시지의 헤더를 보면 스탬프 SFV: SKN(IP 허용 또는 ETR 허용) 또는 SFV: NSPM(스팸 아님) 스탬프가 포함될 수 있지만 메시지는 여전히 사용자의 정크 폴더에 있습니다. 사용자가 "수신 허용 목록"만 사용하도록 설정한 메시지 헤더에는 아무 것도 없습니다. 이는 Outlook의 사용자가 설정한 "안전 목록 전용" 옵션이 EOP 설정을 무시하기 때문에 발생합니다. 
+  
+ **수신 허용 목록의 메시지가 메시지 헤더에 스팸이 아닌 것으로 표시되지만 여전히 사용자의 정크 폴더로 분류되는 이유를 확인하려면 **
+  
+1. Exchange Online PowerShell로 연결하는 방법을 알아보려면 [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=396554)을 참조하세요. 
     
-    **중요** 메시지를 첨부 파일로 전달하지 않는 경우 헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다. 
+2. 다음 명령을 실행하여 사용자의 정크 메일 구성 설정을 봅니다.
     
-- **허용 목록에 보낸 사람 추가(제한적으로만 사용)** 마지막 수단으로 [차단 또는 허용(정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)할 수 있습니다. 이렇게 하면 대상이 지정된 피싱 시도가 받은 편지함에 대해 허용될 수 있습니다.
+  ```
+  Get-MailboxJunkEmailConfiguration example@contoso.com | fl TrustedListsOnly,ContactsTrusted,TrustedSendersAndDomains
+  ```
+
+- TrustedListsOnly가 True로 설정되면 이 설정이 사용 가능하다는 의미입니다.
+- ContactsTrusted가 True로 설정되면 사용자가 연락처와 수신 허용 - 보낸 사람 모두를 신뢰함을 의미합니다.
+- TrustedSendersAndDomains는 사용자의 수신 허용 - 보낸 사람 목록의 내용을 나열합니다.
+
+
+## <a name="eop-only-customers-use-directory-synchronization"></a> EOP 전용 고객: 디렉터리 동기화를 사용
+
+EOP 전용 고객의 경우, 즉 온 - 프레미스(Exchange) 전자 메일 서버와 함께 사용하기 위해 EOP 서비스에 가입한 경우 디렉터리 동기화를 사용하여 사용자 설정을 서비스와 동기화해야 합니다. 이렇게 하면 수신 허용 - 보낸 사람 목록이 EOP에 의해 존중되도록 할 수 있습니다. 자세한 내용은 [EOP](https://go.microsoft.com/fwlink/?LinkId=534098)의 메일 사용자 관리에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하십시오.
