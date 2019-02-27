@@ -8,19 +8,19 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: ''
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 304951e7e60b83619930048583cbf26cc97b50d5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: ab437eda6731181deb783146e4df23f437279444
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216828"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30297081"
 ---
-# <a name="configure-case-settings-in-advanced-ediscovery-preview"></a><span data-ttu-id="e33fc-102">Advanced eDiscovery에서 사례 설정 구성 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="e33fc-102">Configure case settings in Advanced eDiscovery (Preview)</span></span>
+# <a name="configure-case-settings-in-advanced-ediscovery-preview"></a><span data-ttu-id="f9ea5-102">Advanced eDiscovery에서 사례 설정 구성 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="f9ea5-102">Configure case settings in Advanced eDiscovery (Preview)</span></span>
 
-<span data-ttu-id="e33fc-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="e33fc-103">Content coming soon.</span></span>
+<span data-ttu-id="f9ea5-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="f9ea5-103">Content coming soon.</span></span>

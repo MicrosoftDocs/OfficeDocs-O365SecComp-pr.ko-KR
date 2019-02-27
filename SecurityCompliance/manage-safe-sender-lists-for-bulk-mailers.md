@@ -1,7 +1,7 @@
 ---
 title: 대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -12,24 +12,26 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: d48db4a3-9fbe-45e2-bbaa-1017ffdf96f8
-description: '수신 허용-보낸사람 목록 사용 하려는 경우에 Exchange Online Protection (EOP) 하 고 Outlook으로 처리 다르게 처리 알고 있어야 합니다. Outlook 사용자의 수신 허용-보낸사람 목록에 RFC 5322.From 주소를 추가 하는 동안 RFC 5321.MailFrom 주소와 RFC 5322.From 주소를 검사 하 여 수신 허용-보낸사람 및 도메인 고려 하는 서비스입니다. (참고: 수신된 거부 하 고 도메인에 대 한 5321.MailFrom 주소와 5322.From 주소를 검사 하는 서비스입니다.)'
-ms.openlocfilehash: 9442bb39e15b9db9a826472dd6110a8fa14130c6
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.collection:
+- M365-security-compliance
+description: '안전한 보낸 사람 목록을 사용 하려는 경우에는 EOP (Exchange Online Protection) 및 Outlook 처리가 서로 다르게 처리 된다는 사실을 알아야 합니다. 이 서비스는 rfc 5321 보낸 사람 주소와 rfc 5322.from 주소의을 검사 하 여 수신 허용-보낸 사람 및 도메인을 고려 하 고, Outlook에서는 rfc 5322.from 주소의 주소를 사용자의 수신 허용-발신자 목록에 추가 합니다. (참고: 서비스는 차단 된 보낸 사람 주소 및 도메인에 대 한 5321 주소와 5322.from 주소의 from address)를 모두 검사 합니다.'
+ms.openlocfilehash: 27d635ec93dd04df8ebf22d5d3d8f8ead4b7bcf8
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002997"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276138"
 ---
-# <a name="manage-safe-sender-lists-for-bulk-mailers"></a><span data-ttu-id="a1f69-105">대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리</span><span class="sxs-lookup"><span data-stu-id="a1f69-105">Manage safe sender lists for bulk mailers</span></span>
+# <a name="manage-safe-sender-lists-for-bulk-mailers"></a><span data-ttu-id="01d81-105">대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리</span><span class="sxs-lookup"><span data-stu-id="01d81-105">Manage safe sender lists for bulk mailers</span></span>
 
-<span data-ttu-id="a1f69-p102">수신 허용-보낸사람 목록 사용 하려는 경우에 Exchange Online Protection (EOP) 하 고 Outlook으로 처리 다르게 처리 알고 있어야 합니다. Outlook 사용자의 수신 허용-보낸사람 목록에 RFC 5322.From 주소를 추가 하는 동안 RFC 5321.MailFrom 주소와 RFC 5322.From 주소를 검사 하 여 수신 허용-보낸사람 및 도메인 고려 하는 서비스입니다. (참고: 수신된 거부 하 고 도메인에 대 한 5321.MailFrom 주소와 5322.From 주소를 검사 하는 서비스입니다.)</span><span class="sxs-lookup"><span data-stu-id="a1f69-p102">If you want to use safe sender lists, you should know that Exchange Online Protection (EOP) and Outlook handle processing differently. The service respects safe senders and domains by inspecting the RFC 5321.MailFrom address and the RFC 5322.From address, while Outlook adds the RFC 5322.From address to a user's safe sender list. (Note: The service inspects both the 5321.MailFrom address and 5322.From address for blocked senders and domains.)</span></span>
+<span data-ttu-id="01d81-p102">안전한 보낸 사람 목록을 사용 하려는 경우에는 EOP (Exchange Online Protection) 및 Outlook 처리가 서로 다르게 처리 된다는 사실을 알아야 합니다. 이 서비스는 rfc 5321 보낸 사람 주소와 rfc 5322.from 주소의을 검사 하 여 수신 허용-보낸 사람 및 도메인을 고려 하 고, Outlook에서는 rfc 5322.from 주소의 주소를 사용자의 수신 허용-발신자 목록에 추가 합니다. (참고: 서비스는 차단 된 보낸 사람 주소 및 도메인에 대 한 5321 주소와 5322.from 주소의 from address)를 모두 검사 합니다.</span><span class="sxs-lookup"><span data-stu-id="01d81-p102">If you want to use safe sender lists, you should know that Exchange Online Protection (EOP) and Outlook handle processing differently. The service respects safe senders and domains by inspecting the RFC 5321.MailFrom address and the RFC 5322.From address, while Outlook adds the RFC 5322.From address to a user's safe sender list. (Note: The service inspects both the 5321.MailFrom address and 5322.From address for blocked senders and domains.)</span></span>
   
-<span data-ttu-id="a1f69-p103">RFC 5321.MailFrom 주소 라고도 MAIL FROM SMTP 주소는 SPF 검사를 수행 하는데 사용 되는 전자 메일 주소는 메일 배달할 수 없는 경우, 반송 됨된 메시지가 배달 되는 경로 하 고 있습니다. 이것이 보낸 사람이 다른 수익 경로 주소를 지정 하는 경우에 기본적으로 메시지 헤더의 수익 경로에 남아 있는이 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="a1f69-p103">The SMTP MAIL FROM address, otherwise known as the RFC 5321.MailFrom address, is the email address that's used to perform SPF checks, and if the mail can't be delivered, the path to which the bounced message is delivered. It's this email address that is placed into the Return-Path in the message headers by default, though it's possible for the sender to designate a different Return-Path address.</span></span>
+<span data-ttu-id="01d81-p103">RFC 5321 라는 SMTP 메일 보낸 사람 주소는 SPF 검사를 수행 하는 데 사용 되는 전자 메일 주소이 고 메일을 배달할 수 없는 경우 반송 메시지가 배달 되는 경로입니다. 이 전자 메일 주소는 보낸 사람이 다른 반환 경로 주소를 지정할 수 있지만 메시지 헤더의 반환 경로에 기본적으로 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="01d81-p103">The SMTP MAIL FROM address, otherwise known as the RFC 5321.MailFrom address, is the email address that's used to perform SPF checks, and if the mail can't be delivered, the path to which the bounced message is delivered. It's this email address that is placed into the Return-Path in the message headers by default, though it's possible for the sender to designate a different Return-Path address.</span></span>
   
-<span data-ttu-id="a1f69-111">From: 주소 RFC 5322.From 주소 라고도 하는 메시지 헤더에는 Outlook과 같은 메일 클라이언트에 표시 되는 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="a1f69-111">The From: address in the message headers, otherwise known as the RFC 5322.From address, is the email address that is displayed in the mail client such as Outlook.</span></span>
+<span data-ttu-id="01d81-111">RFC 5322.from 주소의 라는 메시지 헤더에 보낸 사람: 주소는 Outlook과 같은 메일 클라이언트에 표시 되는 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="01d81-111">The From: address in the message headers, otherwise known as the RFC 5322.From address, is the email address that is displayed in the mail client such as Outlook.</span></span>
   
-<span data-ttu-id="a1f69-p104">대부분의 시간, 5321.MailFrom 및 5322.From 주소는 동일 합니다. 개인 간 통신에 대 한 일반적인입니다. 그러나 다른 사람을 대신 하 여 전자 메일을 보내면 주소는 다른 경우가 많습니다. 일반적으로 이러한 발생 가장 자주 대량 전자 메일 메시지에 대 한 합니다.</span><span class="sxs-lookup"><span data-stu-id="a1f69-p104">Much of the time, the 5321.MailFrom and 5322.From addresses are the same. This is typical for person-to-person communication. However, when email is sent on behalf of someone else, the addresses are frequently different. This usually happens most often for bulk email messages.</span></span>
+<span data-ttu-id="01d81-p104">대부분의 경우에는 5321 from 및 5322.from 주소의 from 주소가 동일 합니다. 이는 사용자 간 통신에 일반적으로 발생 합니다. 그러나 다른 사람을 대신 하 여 전자 메일을 보내는 경우에는 주소가 서로 다를 수 있습니다. 일반적으로 대량 전자 메일 메시지에서 가장 자주 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="01d81-p104">Much of the time, the 5321.MailFrom and 5322.From addresses are the same. This is typical for person-to-person communication. However, when email is sent on behalf of someone else, the addresses are frequently different. This usually happens most often for bulk email messages.</span></span>
   
-<span data-ttu-id="a1f69-p105">예, 항공 Blue Yonder Airlines의 전자 메일 알림을 보낼 Margie의 여행을 계약에 경우를 가정해 보겠습니다. 그런 다음 메시지가 받은 편지함에 보낸 blueyonder@news.blueyonderairlines.com에서 합니다. 이 경우 5321.MailFrom 주소 blueyonder.airlines@margiestravel.com, 이며 blueyonder@news.blueyonderairlines.com 중 Outlook에서 참조 하는 하는 5322.From 주소입니다. 서비스 문자의 RFC 5322.From 주소가이 메시지 필터링 시작 하지 못하도록 하기 때문에 Outlook의 수신 허용-보낸사람으로 간단히 RFC 5322.From 주소를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a1f69-p105">For example, suppose that the airline Blue Yonder Airlines has contracted out Margie's Travel to send out its email advertising. You then get a message in your inbox from sender blueyonder@news.blueyonderairlines.com. In this case, the 5321.MailFrom address is blueyonder.airlines@margiestravel.com, and blueyonder@news.blueyonderairlines.com is the 5322.From address which is the one you see in Outlook. Because the service respects the RFC 5322.From address, to prevent this message from getting filtered, you can simply add the RFC 5322.From address as a safe sender in Outlook.</span></span>
+<span data-ttu-id="01d81-p105">예를 들어 비행기 용 파란 Yonder Airlines가 손 정 란 여행사가 전자 메일 광고를 보내도록 계약 했을 것으로 가정 합니다. 그런 다음 보낸 사람 blueyonder@news.blueyonderairlines.com에서 받은 편지함에 메시지를 받습니다. 이 경우 5321 보낸 사람 주소는 blueyonder.airlines@margiestravel.com이 고 blueyonder@news.blueyonderairlines.com는 Outlook에 표시 되는 5322.from 주소의 주소입니다. 이 서비스는 rfc 5322.from 주소의를 통해이 메시지가 필터링 되지 않도록 하기 때문에, Outlook에서 RFC 5322.from 주소의를 안전한 보낸 사람으로 추가 하기만 하면 됩니다.</span><span class="sxs-lookup"><span data-stu-id="01d81-p105">For example, suppose that the airline Blue Yonder Airlines has contracted out Margie's Travel to send out its email advertising. You then get a message in your inbox from sender blueyonder@news.blueyonderairlines.com. In this case, the 5321.MailFrom address is blueyonder.airlines@margiestravel.com, and blueyonder@news.blueyonderairlines.com is the 5322.From address which is the one you see in Outlook. Because the service respects the RFC 5322.From address, to prevent this message from getting filtered, you can simply add the RFC 5322.From address as a safe sender in Outlook.</span></span>
   
 
