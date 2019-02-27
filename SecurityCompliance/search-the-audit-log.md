@@ -8,15 +8,16 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MOE150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
 description: Office 365 감사 로그는 통합 된 감사 로그입니다. 통합 감사 로그가 왜 있나요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.
-ms.openlocfilehash: ec67c63cff57f95bacabd120c466922870b595b4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d964a1404dd022ba9b56e5d86766c5fc6eabf10a
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214088"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296521"
 ---
 # <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a>Office 365의 감사 로그에서 사용자 및 관리자 활동 검색
 

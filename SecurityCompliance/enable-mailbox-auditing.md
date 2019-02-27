@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: Office 365에서는 사서함 소유자, 대리인 및 관리자의 사서함 액세스에 대 한 사서함 감사 로깅을 설정할 수 있습니다. 기본적으로 Office 365의 사서함 감사는 설정 되어 있지 않습니다. 사서함에 대해 사서함 감사 로깅을 사용 하도록 설정한 후에는 사서함에 대해 수행 된 작업에 대 한 Office 365 감사 로그를 검색할 수 있습니다.
-ms.openlocfilehash: bb110e95d27feb8ae82b62803d218a2b38528692
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a9bc84bad8532dd546d5ce3e2f149151967050d6
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214608"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295921"
 ---
 # <a name="enable-mailbox-auditing-in-office-365"></a>Office 365에서 사서함 감사 사용
   

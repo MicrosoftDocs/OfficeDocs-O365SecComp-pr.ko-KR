@@ -1,7 +1,7 @@
 ---
-title: 보낸 사람이 보내는 아웃 바운드 스팸 차단 되 면 샘플 알림
-ms.author: krowley
-author: kccross
+title: 보낸 사람이 아웃 바운드 스팸을 보내는 것이 차단 된 경우의 예제 알림
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/2/2017
 ms.audience: ITPro
@@ -12,55 +12,57 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c33fd406-a4c8-4ac8-ad85-123996c5cded
-description: 보낸 사람이 보내는 아웃 바운드 스팸으로 인해 서비스에서 차단 되 면 도메인 관리자 아웃 바운드 스팸 정책 구성이 나타나면 다음과 비슷한 알림 전자 메일을 지정 합니다.
-ms.openlocfilehash: b9fcdf9c2f44a4446a678ca4b22a0a12b24b6fd4
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.collection:
+- M365-security-compliance
+description: 아웃 바운드 스팸 보내기로 인해 서비스에서 보낸 사람이 차단 되는 경우 아웃 바운드 스팸 정책을 구성할 때 지정한 도메인 관리자는 다음과 같은 알림 전자 메일을 받게 됩니다.
+ms.openlocfilehash: 94af965505f7541600a6cd7937ae881226a2ac79
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003247"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275478"
 ---
-# <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>보낸 사람이 보내는 아웃 바운드 스팸 차단 되 면 샘플 알림
+# <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>보낸 사람이 아웃 바운드 스팸을 보내는 것이 차단 된 경우의 예제 알림
 
-스팸 보낸 사람이 보내는 아웃 바운드로 인해 서비스에서 차단 된 [아웃 바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md) 하면 다음과 같은 알림 전자 메일을 받을 때 지정 된 도메인 관리 합니다. 
+아웃 바운드 스팸 보내기로 인해 서비스에서 보낸 사람이 차단 되는 경우 [아웃 바운드 스팸 정책을 구성할](configure-the-outbound-spam-policy.md) 때 지정한 도메인 관리자는 다음과 같은 알림 전자 메일을 받게 됩니다. 
   
- **보낸사람 주소:** spamalerts@microsoft.com 
+ **보낸 사람 주소:** spamalerts@microsoft.com 
   
- **제목:** 아웃 바운드 스팸 알림- \< *계정 이름* \> 아웃 바운드 메일을 보내지 못하도록 차단     
+ **제목:** 아웃 바운드 스팸 알림 \<-아웃 바운드 메일을 보낼 때 차단 되는 *계정 이름* \>     
   
- **본문:** Exchange Online Protection 스팸 분석 시스템에서 자동된 회신이입니다. 
+ **본문:** 이 메시지는 Exchange Online Protection 스팸 분석 시스템에서 자동화 된 회신입니다. 
   
-조직에서 발생 한 많은 양의 전자 메일을 스팸, 또는 기타 의심 스러운 동작으로 표시 된 발견 했습니다 때문에 연결 되 고 됩니다. 다음 전자 메일 계정 (전자 메일 수신 계속 하기) 전자 메일을 보내지 못하도록 차단 되었습니다.
+스팸으로 표시 된 대량의 전자 메일 또는 조직에서 보낸 기타 의심 스러운 동작을 검색 했기 때문에 연락을 받고 있습니다. 다음 전자 메일 계정이 전자 메일을 보내지 못하도록 차단 되었습니다 (전자 메일이 계속 수신 될 수 있음).
   
 \<*계정 이름*  \> 
   
-이 전자 메일 계정 암호가 손상 된 가능성이 높습니다. 다음이 단계를 수행 하십시오.
+이 전자 메일 계정이 손상 되었을 가능성이 있습니다. 다음 단계를 수행 하세요.
   
-1. 하 여 사용자 쪽에서이 문제를 해결 합니다.
+1. 다음을 통해이 문제를 해결 합니다.
     
-  - 계정의 암호를 변경 합니다.
+  - 계정의 암호 변경
     
-  - 계정 손상 된 방식을 결정 합니다.
+  - 계정이 손상 된 방식을 확인 합니다.
     
-  - 이러한 취약점 하지 악용 될 다시 확인 하는 예방 조치를 수행 합니다.
+  - 이 취약점이 다시 악용 되지 않도록 주의 해야 합니다.
     
-  - 문제가 되는 모든 메시지의 아웃 바운드 메일 큐가 해제 되었는지 확인 합니다.
+  - 아웃 바운드 메일 큐가 모든 잘못 된 메시지를 지우도록 확인
     
-2. 일반 사용자 연락처 채널을 사용 하 여 Microsoft 기술 지원 서비스에 문의 합니다.
+2. 일반 연락처 채널을 사용 하 여 Microsoft 지원에 문의 합니다.
     
-3. 메일을 보내는에서 차단 되는 사용자 있고 문제가 다루는 되었는지에 대해 설명 합니다.
+3. 메일을 보낼 수 없도록 차단 되 고 문제가 처리 되었음을 사용자에 게 설명 합니다.
     
-4. 에이전트 정보를 제공 하 고 전자 메일 주소 또는 도메인의 차단을 해제 되도록 전환 인 지원 티켓을 만듭니다.
+4. 에이전트는 사용자가 제공한 정보를 사용 하 여 지원 티켓을 만들고이를 에스컬레이션 하 여 전자 메일 주소 또는 도메인이 차단 되지 않도록 합니다.
     
-5. 주소 차단 되며, 받은 후 및 보류 중인 다른 문제가 없으며, 연락 및 차단 해제에 대 한 알림을 이어야 합니다.
+5. 주소가 차단 해제 되 고 다른 문제가 보류 되지 않은 후에는 연결 되 고 차단 해제에 대 한 경고가 표시 됩니다.
     
-원치 않는 전자 메일 제어 우리는 지원을 받는 해 주셔서 감사 합니다.
+원치 않는 전자 메일 제어에 대 한 microsoft의 지원 주셔서 감사 합니다.
   
-Exchange Online 보호 합니다.
+Exchange Online Protection
   
-\*\*-하십시오에 응답 하지 않으면이 전자 메일 모니터링 되지 않은 주소에서 보내는 것 처럼\*\*
+\*\*참고-이 전자 메일을 모니터링 되지 않은 주소로 전송 하 여이 이메일에 응답 하지 마세요.\*\*
   
 > [!TIP]
-> 또한 [도움말 및 지원 EOP에 대 한](eop/help-and-support-for-eop.md)문서화 된 옵션을 통해 지원을 문의할 수 있습니다. 
+> 또한 [도움말 및 EOP 지원](eop/help-and-support-for-eop.md)에서 설명 하는 옵션을 통해 지원에 문의할 수 있습니다. 
   
 

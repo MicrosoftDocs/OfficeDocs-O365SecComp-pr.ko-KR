@@ -1,7 +1,7 @@
 ---
 title: SharePoint Online의 바이러스 검색
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 01/14/2019
 ms.audience: Admin
@@ -13,13 +13,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
+ms.collection:
+- M365-security-compliance
 description: Office 365은 사용자가 SharePoint Online에 업로드 하는 파일에서 바이러스를 검색 하 여 맬웨어 로부터 환경을 보호 하는 데 도움이 됩니다. 업로드 후 파일에서 바이러스를 검사 합니다. 파일이 감염 된 것으로 확인 되 면 사용자가 파일을 다운로드 하거나 동기화 할 수 없도록 속성이 설정 됩니다.
-ms.openlocfilehash: d39a5be525e25de8206e8d4219d9c83bfa6eaae0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d4f18c84935d9c6e1d3f135bbda6c40737956ae7
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30212968"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276238"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online의 바이러스 검색
 

@@ -15,12 +15,12 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 인텔리전스 및 시작 방법에 대해 알아봅니다.
-ms.openlocfilehash: f116b7a01ab3b27760b597527cc1e5a4440a6586
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 3587e3f7799714e79708ede36782484cb5a76f60
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217858"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296631"
 ---
 # <a name="get-started-with-threat-intelligence"></a>위협 인텔리전스 시작
 
@@ -73,29 +73,38 @@ ms.locfileid: "30217858"
   
 ## <a name="how-do-we-get-threat-intelligence"></a>위협 인텔리전스를 어떻게 얻을 수 있나요?
 
-위협 인텔리전스는 이제 [microsoft 365 enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365과 같은 특정 구독에 포함 된 **Office 365 Advanced Threat Protection 계획 2의 일부**입니다. 교육 A5 등 조직에서 Office 365 ATP를 포함 하지 않는 구독을 사용 하는 경우 ATP를 추가 기능으로 구입할 수 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)참조 하세요.
+<<<<<<< HEAD office 365 위협 인텔리전스는 office 365 Enterprise E5에 포함 되어 있습니다. 
+
+> [!TIP]
+> 조직에 office 365 위협 인텔리전스를 포함 하지 않는 office 365 구독이 있는 경우 위협 인텔리전스를 추가 기능으로 구입할 수 있습니다. 계획 옵션에 대 한 자세한 내용은 office [365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)을 참조 하세요. = = = = = = = = = = = [microsoft 365 enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 enterprise E5, office 365과 같은 특정 구독에 포함 된 **Office 365 Advanced Threat Protection 계획 2의 일부가 이제 위협 인텔리전스** 교육 A5 등 조직에서 Office 365 ATP를 포함 하지 않는 구독을 사용 하는 경우 ATP를 추가 기능으로 구입할 수 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)참조 하세요.
+>>>>>>> 업스트림/compliance20
   
 1. office 365 전역 관리자 인 경우로 이동 [https://portal.office.com](https://portal.office.com) 하 여 office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     
 2. **관리자 ** \> ** 청구**을 선택하여 현재 구독에 포함된 내용을 확인합니다. 
 
+<<<<<<< HEAD
+    - **office 365 Enterprise E5**가 표시 되 면 조직에 office 365 위협 인텔리전스가 있는 것입니다. 
+    - **office 365 enterprise E3** 또는 **office 365 enterprise E1**과 같은 다른 구독을 볼 수 있는 경우 위협 인텔리전스를 추가 하는 것이 좋습니다. 이 작업을 수행 하려면 **+ 구독 추가**를 선택 합니다.
+    
+3. Office 365 관리 센터에서 **사용자** \> **활성 사용자**를 선택합니다.
+    
+5. 모든 활성 사용자에 게 Office 365 위협 인텔리전스 라이선스를 할당 합니다. (위협 인텔리전스에 대 한 라이선스가 있는 사용자만 보고서 (예: Explorer)에 표시 됩니다.) =======
     - **office 365 Enterprise**e 5가 표시 되 면 조직에 위협 인텔리전스를 포함 하는 Office 365 Advanced Threat Protection 계획 2가 있는 것입니다. 
     - **office 365 enterprise E3** 또는 **office 365 enterprise E1**과 같은 다른 구독이 표시 되는 경우 Advanced Threat Protection 계획 2를 추가 하는 것이 좋습니다. 이 작업을 수행 하려면 **+ 구독 추가**를 선택 합니다.
     
 3. Office 365 관리 센터에서 **사용자** \> **활성 사용자**를 선택합니다.
     
 5. 모든 활성 사용자에 게 Office 365 Advanced Threat Protection 라이선스를 할당 합니다. (위협 인텔리전스 기능에 대 한 라이선스가 있는 사용자만 보고서 (예: Explorer)에 표시 됩니다.)
+>>>>>>> 업스트림/compliance20
     
 6. Office 365 Advanced Threat Protection으로 작업할 조직의 사용자에 게 역할을 할당 합니다. [사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)하 고 다음 표를 참조 하세요.
     
 |||
 |:-----|:-----|
 |**이 작업을 수행 하려면 ...** <br/> |**다음 역할 중 하나가 있어야 합니다.** <br/> |
-|위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용  <br/> 최근 또는 현재 위협에 대 한 정보 보기  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (Azure Active Directory 관리 센터에서 할당 됨)  <br/> 보안 독자 (Azure Active Directory 관리 센터에서 할당 됨)  <br/> |
-|위협 탐색기 (탐색기 라고도 함) 사용  <br/> 위협 분석  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
-|인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
-|인시던트에서 전자 메일 작업 트리거  <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제  <br/> |Office 365 전역 관리자 또는 보안 관리자  <br/> 위 역할과 검색 및 제거 (보안 &amp; 및 준수 센터에서 할당 됨) 중 하나  <br/> |
-|Office 365 위협 인텔리전스와 Windows Defender Advanced Threat Protection 통합  <br/> siem 서버에 Office 365 위협 인텔리전스 통합  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: Windows Defender Advanced Threat Protection portal 또는 siem server)  <br/> |
+<<<<<<< 머리 | 위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용  <br/> 최근 또는 현재 위협에 대 한 정보 보기  <br/> | Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> | ======= | 위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용  <br/> 최근 또는 현재 위협에 대 한 정보 보기  <br/> | Office 365 전역 관리자  <br/> 보안 관리자 (Azure Active Directory 관리 센터에서 할당 됨)  <br/> 보안 독자 (Azure Active Directory 관리 센터에서 할당 됨)  <br/> |
+>>>>>>> 업스트림/compliance20 | 위협 탐색기 (탐색기 라고도 함) 사용  <br/> 위협 분석  <br/> | Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> | | 인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가  <br/> | Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> | | 인시던트에서 전자 메일 작업 트리거  <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제  <br/> | Office 365 전역 관리자 또는 보안 관리자  <br/> 위 역할과 검색 및 제거 (보안 &amp; 및 준수 센터에서 할당 됨) 중 하나  <br/> | | Windows Defender Advanced threat Protection과 Office 365 위협 인텔리전스 통합  <br/> siem 서버에 Office 365 위협 인텔리전스 통합  <br/> | Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: Windows Defender Advanced Threat Protection portal 또는 siem server)  <br/> |
    
 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
     

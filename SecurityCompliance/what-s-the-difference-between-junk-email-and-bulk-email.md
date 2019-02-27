@@ -1,7 +1,7 @@
 ---
 title: 정크 메일과 대량 전자 메일의 차이점
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 1/7/2015
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
-description: 고객 askwhat 정크 메일과 대량 전자 메일 메시지의 차이점을의 하는 경우가 있습니까? 이 항목의 목적은 차이 파악 하 고 Exchange Online 및 Exchange Online Protection (EOP)에서 모두에 대해 사용할 수 있는 다양 한 옵션에 대 한 정보를 제공 합니다.
-ms.openlocfilehash: ea3f27bdd9ec2aa586dd55139825fc90390ca736
-ms.sourcegitcommit: b4e69c54c7bf405d37dfeadc5611803bea9554e3
+ms.collection:
+- M365-security-compliance
+description: 고객의 경우에 따라 정크 메일과 대량 전자 메일 메시지의 차이점은 무엇 인가요? 이 항목의 목적은 차이점을 설명 하 고 exchange online 및 exchange online Protection (EOP)에서 모두 사용할 수 있는 다양 한 옵션에 대 한 정보를 제공 하기 위한 것입니다.
+ms.openlocfilehash: 877912c94af5d4b399769759189d091c62d50075
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733304"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275718"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>정크 메일과 대량 전자 메일의 차이점
 
@@ -29,7 +31,7 @@ ms.locfileid: "27733304"
 정크 메일 메시지는 서비스에 의해 필터링되는 원치 않는(그리고 일반적으로 불필요한) 이메일 메시지인 "스팸" 메시지입니다. 기본적으로 서비스에서는 보내는 IP 주소의 신뢰도에 따라 스팸 메시지를 거부합니다. 그러나 IP 검사를 통과했지만 콘텐츠 필터에 의해 스팸으로 분류된 메시지는 지정된 받는 사람의 정크 메일 폴더로 전송됩니다. 
   
 > [!NOTE]
-> 콘텐츠 필터링 된 메시지에서 수행 되는 작업은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)에서 설명한 것 처럼 Exchange 관리 센터 (EAC)에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 또한 스팸 분류와 동의할 수 없는 경우에 [전송 스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지에서](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)설명한 대로 스팸 또는 스팸이 아닌 Microsoft에 다양 한 방식에서에 고려 하는 메시지를 보고할 수 있습니다. 
+> 콘텐츠 필터링 된 메시지에 대해 수행 되는 작업은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)의 설명에 따라 EAC (Exchange 관리 센터)의 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 또한 스팸 분류에 동의 하지 않는 경우 microsoft에 [분석용 스팸, 스팸 아님 및 피싱 사기 메시지](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)에 설명 된 것 처럼 스팸으로, 스팸이 아닌 것으로 간주 하는 메시지를 microsoft에 보고할 수 있습니다. 
   
  **대량 전자 메일이란?**
   
@@ -39,8 +41,8 @@ ms.locfileid: "27733304"
 
 대량 전자 메일을 관리하는 방법은 하나로 단정지을 수 없습니다. 모든 대량 전자 메일이 스팸으로 분류된 경우 이러한 전자 메일을 원하는 사용자는 불만이 있을 수 있으며 이를 스팸으로 잘못 표시된 가양성(스팸 아님) 메시지로 제출할 수 있습니다. 반면, 모든 대량 전자 메일이 허용되는 경우 이러한 전자 메일을 원치 않는 사용자는 불만이 있을 수 있으며 이를 자신의 받은 편지함에 잘못 도착한 누락된 스팸 메시지(거짓 부정)로 제출할 수 있습니다.
   
-### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>콘텐츠 필터 정책에 대량 메일 민감도 제어를 사용 하도록 설정
+### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>콘텐츠 필터 정책에서 대량 메일 민감도 제어 사용
 
-대량 전자 메일 메시지에 회사의 정책에 따라 관리자 대량 전자 메일을 할당 하는 임계값을 선택할 수 있습니다. 설정은 EAC에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 체크아웃 [스팸 필터 정책의 구성](configure-your-spam-filter-policies.md) 단계에 대 한 합니다. 1-9, 여기서 1 스팸으로, 대부분 대량 전자 메일을 표시 하 고 9 허용 대부분 대량 전자 메일을 배달할 수에서 임계값 설정을 선택할 수 있습니다. 서비스에서 받는 사람의 정크 메일 폴더로 메시지를 보내는 것과 같은 구성된 작업을 수행 합니다. 
+대량 전자 메일 메시지에 대 한 회사 정책에 따라 관리자는 임계값을 선택 하 여 대량 전자 메일을 할당할 수 있습니다. 이 설정은 EAC에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 자세한 [내용은 스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조 하십시오. 1에서 최대 대량 전자 메일을 스팸으로 표시 하 고 9에서 최대 대량 전자 메일을 배달 하도록 허용 하는 임계값 설정을 1-9에서 선택할 수 있습니다. 이 서비스는 받는 사람의 정크 메일 폴더로 메시지를 보내는 등의 구성 된 작업을 수행 합니다. 
   
 

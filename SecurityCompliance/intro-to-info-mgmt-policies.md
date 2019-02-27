@@ -1,7 +1,7 @@
 ---
 title: 정보 관리 정책 소개
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 5/16/2014
 ms.audience: Admin
@@ -14,13 +14,15 @@ search.appverid:
 - OSU150
 - MET150
 ms.assetid: 63a0b501-ba59-44b7-a35c-999f3be057b2
+ms.collection:
+- M365-security-compliance
 description: 정보 관리 정책은 콘텐츠 형식에 대 한 규칙 집합입니다. 정보 관리 정책을 사용 하면 조직이 보존 되는 기간 또는 사용자가 해당 콘텐츠에 대해 수행할 수 있는 작업을 제어 하 고 추적 하는 데 도움이 됩니다. 정보 관리 정책은 조직이 법적 또는 정부 규정을 준수 하거나 내부 비즈니스 프로세스를 적용 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 0ac273a62464e8a02668396dbeabb6bbd473dc0d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 23662c555dfc19b2fc83b0364d93724e922c7c97
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218358"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275758"
 ---
 # <a name="introduction-to-information-management-policies"></a>정보 관리 정책 소개
 

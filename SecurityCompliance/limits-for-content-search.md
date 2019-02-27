@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: '동시 검색의 최대 수와 같은 Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능에 대 한 제한 사항에 대해 알아봅니다. '
-ms.openlocfilehash: 0d114db30e9c5b61477789f8a2b91b88c936b253
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 1ac2566da67453c36f54f5371d3ec36518975246
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223117"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296941"
 ---
 # <a name="limits-for-content-search-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색에 대 한 제한
 

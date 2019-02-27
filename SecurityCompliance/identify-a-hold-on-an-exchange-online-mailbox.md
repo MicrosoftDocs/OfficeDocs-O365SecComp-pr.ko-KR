@@ -7,17 +7,18 @@ ms.date: 6/22/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Office 365 사서함에 저장할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다. 이러한 보류 유형에는 소송 보존, eDiscovery 보류 및 Office 365 보존 정책이 포함 됩니다. 사용자가 조직 차원의 보존 정책에서 제외 되었는지 여부도 확인할 수 있습니다.
-ms.openlocfilehash: 9c286ac6303a4d1f85e94e4ae6ca2163081e51b9
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5b9e8437b688a5c1b35726834c3d80d07cc4ba50
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219108"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296811"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -88,7 +89,7 @@ Get-OrganizationConfig | FL InPlaceHolds
 다음 표에서는 여러 유형의 조직 차원의 보류와 **set-organizationconfig** cmdlet을 실행할 때 *InPlaceHolds* 속성에 포함 된 guid에 따라 각 형식을 식별 하는 방법에 대해 설명 합니다.
 
 
-|보류 유형  |예제 값  |Description  |
+|보류 유형  |예제 값  |설명  |
 |---------|---------|---------|
 |exchange 사서함, exchange 공용 폴더 및 팀 대화방에 적용 되는 Office 365 보존 정책    |      `mbx7cfb30345d454ac0a989ab3041051209:2`   |   exchange 사서함, exchange 공용 폴더 및 1xn 채팅에 적용 되는 조직 차원의 보존 정책은 `mbx` 접두사를 사용 하 여 시작 되는 guid로 식별 됩니다. 1xn 채팅은 개별 채팅 참가자의 사서함에 저장 됩니다.      |
 |office 365 그룹 및 팀 채널 메시지에 적용 되는 office 365 보존 정책     |   `grp1a0a132ee8944501a4bb6a452ec31171:3`      |    Microsoft 팀의 Office 365 그룹 및 채널 메시지에 적용 되는 조직 차원의 보존 정책은 `grp` 접두사로 시작 되는 guid로 식별 됩니다. 채널 메시지는 Microsoft 팀과 연결 된 그룹 사서함에 저장 됩니다.     |

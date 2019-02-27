@@ -1,7 +1,7 @@
 ---
 title: DKIM으로 서명된 메시지의 유효성 검사 지원
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
@@ -11,13 +11,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: a4c95148-a00c-4d12-85ed-88520b547d97
+ms.collection:
+- M365-security-compliance
 description: exchange online Protection 및 exchange online에서 dkim 서명 된 메시지의 유효성 검사에 대해 자세히 알아보기
-ms.openlocfilehash: 7b40769e18c01199669043c42031987695bba639
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 126586235d17fc123ed266d6c4ce5004df5df25a
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223327"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275908"
 ---
 # <a name="support-for-validation-of-dkim-signed-messages"></a>DKIM으로 서명된 메시지의 유효성 검사 지원
 

@@ -1,7 +1,7 @@
 ---
 title: 등록 되지 않은 도메인 전자 메일
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 10/17/2018
 ms.audience: Admin
@@ -11,13 +11,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
+ms.collection:
+- M365-security-compliance
 description: 등록 되지 않은 도메인 전자 메일을 대량 전송 하는 경우 전자 메일 차단 위험이 실행 됩니다. 자세한 내용은이 문서를 참조 하세요.
-ms.openlocfilehash: bef39780438a6d9669354bddaed391b2364badf8
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 8120bd147da2a7aab41ae14c444d2fe57242199e
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220778"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276228"
 ---
 # <a name="unregistered-domain-email-what-you-need-to-know"></a>등록 되지 않은 도메인 전자 메일: 알아야 할 사항
 

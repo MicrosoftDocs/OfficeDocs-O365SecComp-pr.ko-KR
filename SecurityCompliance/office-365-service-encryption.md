@@ -11,12 +11,12 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Microsoft Office 365의 데이터 복구 기능을 이해 합니다.'
-ms.openlocfilehash: 4e9dd52adbeada92d14db369b386ff1ca7e42fc5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 385bb936de2c0cfcb478f0b20d2f7367d5b55ff4
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220348"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275698"
 ---
 # <a name="office-365-service-encryption"></a>Office 365 서비스 암호화
 

@@ -1,5 +1,5 @@
 ---
-title: 메시지-관리자 도움말에 대 한 검색 및 삭제
+title: 메시지 검색 및 삭제 - 관리자 도움말
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -7,22 +7,23 @@ ms.date: 12/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
-description: 관리자는 검색 사서함 cmdlet를 사용 하 여 사용자 사서함을 검색 하 고 다음 사서함에서 메시지를 삭제 수 있습니다.
-ms.openlocfilehash: c5f727d7772e23cc8723eee6a45e51e3ac074648
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+description: 관리자는 검색 사서함 cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다.
+ms.openlocfilehash: 718a23f649843420ccfd924be72752a99278da4c
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23002827"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30297131"
 ---
-# <a name="search-for-and-delete-messages---admin-help"></a>메시지-관리자 도움말에 대 한 검색 및 삭제
+# <a name="search-for-and-delete-messages---admin-help"></a>메시지 검색 및 삭제 - 관리자 도움말
   
-관리자는 **검색 사서함** cmdlet를 사용 하 여 사용자 사서함을 검색 하 고 다음 사서함에서 메시지를 삭제 수 있습니다. 
+관리자는 **검색 사서함** cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다. 
   
 한 번에 메시지를 검색하여 삭제하려면  **DeleteContent** 스위치와 함께 _Search-Mailbox_ cmdlet을 실행합니다. 하지만, 이 경우 검색 결과를 미리 보거나 검색에 의해 반환되는 메시지 로그를 생성할 수 없으며, 삭제하면 안 되는 메시지를 실수로 삭제할 수 있습니다. 메시지를 삭제하기 전에 검색되는 메시지에 대한 로그를 미리 보려면  **LogOnly** 스위치와 함께 _Search-Mailbox_ cmdlet을 실행합니다. 
   
@@ -34,21 +35,21 @@ ms.locfileid: "23002827"
     
 - 이 절차를 수행하는 데 EAC(Exchange 관리 센터)를 사용할 수 없습니다. 셸을 사용해야 합니다.
     
-- 모두 검색 하 여 사용자의 사서함에서 메시지를 삭제 하려면 다음 관리 역할을 할당 해야 합니다.
+- 사용자 사서함에서 메시지를 검색 및 삭제 하려면 다음 관리 역할을 둘 다 할당 받아야 합니다.
     
-  - **사서함 검색**-이 역할을 사용 하면 조직에서 여러 사서함 간에 메시지를 검색할 수 있습니다. 관리자는 기본적으로이 역할을 할당 되지 않습니다. 사용자가 직접이 역할을 할당 사서함을 검색할 수 있도록, 검색 관리 역할 그룹의 구성원으로 자신을 추가 합니다. [검색 관리 역할 그룹에 사용자 추가](http://technet.microsoft.com/library/729e09d8-614b-431f-ae04-ae41fb4c628e.aspx)참조 하십시오.
+  - **사서함 검색**-이 역할을 사용 하면 조직의 여러 사서함에서 메시지를 검색할 수 있습니다. 관리자에 게는 기본적으로이 역할이 할당 되지 않습니다. 사서함을 검색할 수 있도록이 역할을 자신에 게 할당 하려면 자신을 검색 관리 역할 그룹의 구성원으로 추가 합니다. [Discovery Management 역할 그룹에 사용자 추가](http://technet.microsoft.com/library/729e09d8-614b-431f-ae04-ae41fb4c628e.aspx)를 참조 하세요.
     
-  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자의 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로이 역할은 모든 역할 그룹에 할당 되지 않습니다. 사용자의 사서함에서 메시지를 삭제 하려면 조직 관리 역할 그룹에는 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 자세한 내용은 [관리 역할 그룹](http://technet.microsoft.com/library/ab9b7a3b-bf67-4ba1-bde5-8e6ac174b82c.aspx) 의 "역할을 역할 그룹에 게 추가" 섹션을 참조 하십시오. 
+  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로이 역할은 역할 그룹에 할당 되지 않습니다. 사용자 사서함에서 메시지를 삭제 하려면 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가 하면 됩니다. 자세한 내용은 [역할 그룹 관리](http://technet.microsoft.com/library/ab9b7a3b-bf67-4ba1-bde5-8e6ac174b82c.aspx) 의 "역할 그룹에 역할 추가" 섹션을 참조 하십시오. 
     
-- 메시지를 삭제 하려는 사서함 단일 항목 복구를 사용할 수 있으면 먼저 기능을 비활성화 해야 합니다. 자세한 내용은 [사서함에 대 한 단일 항목 복구를 사용 하지 않도록 설정 하거나 사용](http://technet.microsoft.com/library/2e7f1bcd-8395-45ad-86ce-22868bd46af0.aspx)을 참조 하십시오.
+- 메시지를 삭제 하려는 사서함에서 단일 항목 복구를 사용 하는 경우 먼저이 기능을 사용 하지 않도록 설정 해야 합니다. 자세한 내용은 [사서함에 대 한 단일 항목 복구를 사용 하거나 사용 하지 않도록 설정을](http://technet.microsoft.com/library/2e7f1bcd-8395-45ad-86ce-22868bd46af0.aspx)참조 하십시오.
     
-- 메시지를 삭제 하려는 사서함은 보류 상태로 변경 하는 경우에 레코드 관리 또는 보류를 제거 하 고 사서함 콘텐츠를 삭제 하기 전에 법률 부서를 확인 하는 것이 좋습니다. 승인을 얻으려면 항목 [정리 Up the 복구 가능한 항목 폴더](http://technet.microsoft.com/library/82c310f8-de2f-46f2-8e1a-edb6055d6e69.aspx)에 나열 된 단계를 수행 합니다.
+- 메시지를 삭제 하려는 사서함이 보존 상태에 있는 경우 보존을 제거 하 고 사서함 콘텐츠를 삭제 하기 전에 레코드 관리 또는 법률 부서를 확인 하는 것이 좋습니다. 승인을 받은 후에 [는 복구 가능한 항목 폴더 정리](http://technet.microsoft.com/library/82c310f8-de2f-46f2-8e1a-edb6055d6e69.aspx)항목에 나와 있는 단계를 수행 합니다.
     
-- 최대 10, 000 사서함 **검색 사서함** cmdlet을 사용 하 여 검색할 수 있습니다. Exchange Online 조직 이며 10, 000 개 이상의 사서함이 있습니까, 경우 무제한 사서함을 검색 하려면 준수 검색 기능 (또는 해당 **새로 ComplianceSearch** cmdlet)를 사용할 수 있습니다. 다음 규정 준수 검색을 통해 반환 되는 메시지를 삭제 하려면 **새로 만들기 ComplianceSearchAction** cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 조직에서 전자 메일 메시지를 삭제 하 고 검색에 대 한](https://go.microsoft.com/fwlink/p/?LinkId=786856)를 참조 하십시오.
+- **검색 사서함** cmdlet을 사용 하 여 최대 1만 개의 사서함을 검색할 수 있습니다. Exchange Online 조직이 고 사서함이 1만 개 보다 많은 경우 준수 검색 기능 (또는 해당 **ComplianceSearch** cmdlet)을 사용 하 여 사서함 수를 무제한으로 검색할 수 있습니다. 그런 다음 **new-compliancesearchaction** cmdlet을 사용 하 여 준수 검색에서 반환 된 메시지를 삭제할 수 있습니다. 자세한 내용은 [Office 365 조 직에서 전자 메일 메시지 검색 및 삭제](https://go.microsoft.com/fwlink/p/?LinkId=786856)를 참조 하세요.
     
-- ( *SearchQuery* 매개 변수를 사용 하 여) 하 여 검색 쿼리를 포함 하는 경우 **검색 사서함** cmdlet은 검색 결과에 최대 10, 000 항목을 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우에 10, 000 개 이상의 항목을 삭제 하려면 **사서함 검색** 명령을 여러 번 실행 해야할 수 있습니다. 
+- *searchquery* 매개 변수를 사용 하 여 검색 쿼리를 포함 하는 경우 검색 **사서함** cmdlet은 최대 1만 개의 항목을 검색 결과에 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우 1만 개 보다 많은 항목을 삭제 하려면 **검색 사서함** 명령을 여러 번 실행 해야 할 수 있습니다. 
     
-- **Search-mailbox** cmdlet을 실행 하는 경우에 사용자의 보관 사서함을 검색 합니다. 마찬가지로, _DeleteContent_ 스위치와 함께 **Search-mailbox** cmdlet을 사용 하는 경우 기본 보관 사서함에 항목이 삭제 됩니다. 이 방지 하려면 *DoNotIncludeArchive* 스위치를 포함할 수 있습니다. 또한는 사용 하지 않는 _DeleteContent_ 스위치를 사용 하는 Exchange에서 메시지를 삭제 하려면 온라인 예기치 않은 데이터 손실이 발생할 수 있으므로 사용 보관 자동 확장 된 사서함 하는 것이 좋습니다. 
+- 또한 **검색 사서함** cmdlet을 실행 하면 사용자의 보관 사서함도 검색 됩니다. 마찬가지로, _DeleteContent_ 스위치와 함께 **검색 사서함** cmdlet을 사용 하면 기본 보관 사서함의 항목이 삭제 됩니다. 이를 방지 하기 위해 *만드는 경우 donotincludearchive* 스위치를 포함할 수 있습니다. 또한 예기치 않은 데이터 손실이 발생할 수 있으므로 _DeleteContent_ 스위치를 사용 하 여 자동 확장 기능을 사용 하는 Exchange Online 사서함의 메시지를 삭제 하지 않는 것이 좋습니다. 
     
 ## <a name="search-messages-and-log-the-search-results"></a>메시지 검색 및 검색 결과 기록
 
@@ -58,7 +59,7 @@ ms.locfileid: "23002827"
 Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
 ```
 
-이 예제에서는 모든 유형의 파일 이름에 "트로이" 단어를 포함 하 고 관리자의 사서함에 로그 메시지를 전송 하는 첨부 파일이 있는 메시지에 대 한 조직에서 모든 사서함을 검색 합니다.
+이 예에서는 조직의 모든 사서함에서 파일 이름에 "트로이" 라는 단어가 포함 된 모든 유형의 첨부 파일이 있는 메시지를 검색 하 고 관리자의 사서함에 로그 메시지를 보냅니다.
   
 ```
 Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery attachment:trojan* -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
@@ -84,7 +85,7 @@ Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statem
 Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox "BackupMailbox" -TargetFolder "AprilStewart-DeletedMessages" -LogLevel Full -DeleteContent
 ```
 
-이 예제에서는 "이이 파일 다운로드" 제목줄이 있는 메시지에 대 한 조직에서 모든 사서함을 검색 한 다음 영구적으로 삭제 합니다. 
+이 예에서는 조직의 모든 사서함에서 제목이 "이 파일을 다운로드 합니다." 라는 메시지를 검색 한 다음이를 영구적으로 삭제 합니다. 
   
 ```
 Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Download this file"' -DeleteContent
@@ -92,6 +93,6 @@ Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Downlo
 
 구문과 매개 변수에 대한 자세한 내용은 [Search-Mailbox](http://technet.microsoft.com/library/9ee3b02c-d343-4816-a583-a90b1fad4b26.aspx)를 참조하십시오.
 
-## <a name="using-the--loglevel-full-parameter"></a>-LogLevel 전체 매개 변수를 사용 하 여
+## <a name="using-the--loglevel-full-parameter"></a>-LogLevel Full 매개 변수 사용
 
-앞의 예제를 _LogLevel_ 매개 변수 중 일부에서 함께 `Full` 값 **사서함 검색** cmdlet에 의해 반환 된 결과 대 한 자세한 정보를 기록 하는데 사용 됩니다. 이 매개 변수를 포함 하는 경우 전자 메일 메시지를 만들고 _TargetMailbox_ 매개 변수에 의해 지정 된 사서함에 전송 합니다. (즉, 검색 Results.csv 라는 CSV 형식의 파일) 로그 파일이 전자 메일 메시지에 첨부 되 고 _TargetFolder_ 매개 변수에 의해 지정 된 폴더에 배치 됩니다. 로그 파일 **Search-mailbox** cmdlet을 실행 하면 검색 결과에 포함 된 각 메시지에 대 한 행을 포함 합니다. 
+위 예제 중 일부는이 `Full` 값을 포함 하는 _LogLevel_ 매개 변수를 사용 하 여 **검색 사서함** cmdlet에서 반환 되는 결과에 대 한 자세한 정보를 기록 합니다. 이 매개 변수를 포함 하면 전자 메일 메시지가 만들어지고 _targetmailbox_ 매개 변수로 지정 된 사서함으로 전송 됩니다. 이 전자 메일 메시지에는 로그 파일 (검색 결과인 .csv 이라는 csv 파일)이 첨부 되며 _targetfolder_ 매개 변수에 지정 된 폴더에 배치 됩니다. 로그 파일에는 **검색 사서함** cmdlet을 실행할 때 검색 결과에 포함 된 각 메시지에 대 한 행이 포함 됩니다. 

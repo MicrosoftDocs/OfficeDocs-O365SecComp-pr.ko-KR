@@ -7,18 +7,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'office 365 Security & 준수 센터를 사용 하 여 office 365 조직의 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색할 수 있습니다. '
-ms.openlocfilehash: 5fe4eac59f3e60e75a7452b0dcc51b6b8ca88a5b
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 6cab2a0495b4c4b1976a5c45b898603653568599
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223767"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296611"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 Security & 준수 센터에서 감사 로그 검색
 
@@ -54,6 +56,8 @@ ms.locfileid: "30223767"
 - Microsoft Stream의 사용자 및 관리 활동
 
 - Microsoft 작업 공간 분석의 분석가 및 관리 활동
+
+- PowerApps의 사용자 및 관리 활동
     
    
 ## <a name="before-you-begin"></a>시작하기 전에
@@ -295,8 +299,8 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/> |
 |[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|
 [Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> 
-|[Microsoft Stream](#microsoft-stream) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>
-||||
+|[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
+|||
    
   
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -663,6 +667,9 @@ Power BI에 대 한 감사 로깅은 기본적으로 사용 하지 않도록 설
 
 Microsoft Flow에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 작업에는 흐름 만들기, 편집 및 삭제, 흐름 권한 변경 등이 있습니다. 유동 활동을 감사 하는 방법에 대 한 자세한 내용은 [현재 Office 365 Security & 준수 센터에서 사용할 수 있는 블로그 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 참조 하십시오.
 
+### <a name="microsoft-powerapps"></a>Microsoft PowerApps
+
+PowerApps에서 앱 관련 작업에 대 한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱 만들기, 시작 및 게시 등이 포함 됩니다. 앱에 사용 권한을 할당 하는 작업도 감사 됩니다. 모든 powerapps 활동에 대 한 설명은 [powerapps에 대 한 활동 로깅을](https://docs.microsoft.com/en-us/power-platform/admin/logging-powerapps#what-events-are-audited)참조 하십시오.
 
 ### <a name="microsoft-stream"></a>Microsoft Stream
   

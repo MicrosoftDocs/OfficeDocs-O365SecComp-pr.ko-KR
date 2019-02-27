@@ -1,7 +1,7 @@
 ---
 title: Office 365 전자 메일 메시지 격리
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
@@ -13,13 +13,15 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
+ms.collection:
+- M365-security-compliance
 description: 스팸, 대량, 피싱 메일 및 맬웨어로 필터링 된 받는 전자 메일 메시지를 나중에 검토할 수 있도록 Office 365에서 받는 전자 메일 메시지에 대 한 격리를 설정할 수 있습니다.
-ms.openlocfilehash: fe8e59718a6b7293821875d19ba2b98070396f0f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 37d573dda0065ce00b0b838bad56c5d9b1979477
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217768"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275768"
 ---
 # <a name="quarantine-email-messages-in-office-365"></a>Office 365 전자 메일 메시지 격리
 

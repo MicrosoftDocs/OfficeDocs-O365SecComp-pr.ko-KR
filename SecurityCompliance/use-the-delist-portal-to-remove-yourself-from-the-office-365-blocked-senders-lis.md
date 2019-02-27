@@ -1,7 +1,7 @@
 ---
 title: 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 4/18/2016
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
+ms.collection:
+- M365-security-compliance
 description: 해당 전자 메일 주소가 Office 365에 포함되는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 발생하나요? 오류 메시지가 표시되지 않아야 한다고 생각될 경우 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인을 제거할 수 있습니다.
-ms.openlocfilehash: 4964429f4d3aa1a585b1b543929f83c2cebfb9a4
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: 9b4834ae474d781497043bd8800879c57f36d785
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003257"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276187"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
 
@@ -30,7 +32,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
   
 다음과 같은 오류가 포함된 메일 메시지에 대한 응답이 수신되면 이 목록에 본인이 추가된 것입니다.
   
-액세스 거부 550 5.7.606-649 IP [_IP 주소_]; 보내기 금지 요청을이 목록에서 제거를 참조 하십시오 https://sender.office.com/ 표시 되는 지침을 따릅니다. 자세한 내용은 [Office 365에서 전자 메일 배달 못함 보고서](http://go.microsoft.com/fwlink/?LinkID=526653)를 참조 하십시오.
+550 5.7.606-649 액세스 거부, 금지 된 보낸 IP [_ip 주소_]; 이 목록에서 제거를 요청 하려면을 https://sender.office.com/ 방문 하 여 지침을 따르세요. 자세한 내용은 [Office 365의 전자 메일 배달 못 함 보고서](http://go.microsoft.com/fwlink/?LinkID=526653)를 참조 하세요.
   
 여기서  _IP address_는 메일 서버가 실행되는 컴퓨터의 IP 주소입니다. 
   
@@ -42,7 +44,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
     
 3. **전송**을 클릭합니다.
     
-    포털을 제공 하는 전자 메일 주소로 전자 메일을 보냅니다. 전자 메일은 다음과 같은 다음: ![delist 포털을 통해 요청을 제출 하는 경우 받은 전자 메일의 스크린샷](media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
+    포털에서 사용자가 제공한 전자 메일 주소로 전자 메일을 보냅니다. 전자 메일은 다음과 같이 표시 됩니다. ![목록 해제 포털을 통해 요청을 제출할 때 받는 전자 메일의 스크린샷](media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
   
 4. 목록 해제 포털을 사용하여 사용자에게 전송된 전자 메일의 확인 링크를 클릭합니다.
     

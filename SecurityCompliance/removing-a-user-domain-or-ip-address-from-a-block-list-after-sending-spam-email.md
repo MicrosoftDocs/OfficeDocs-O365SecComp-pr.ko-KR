@@ -1,7 +1,7 @@
 ---
 title: 스팸 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소 제거
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/01/2018
 ms.audience: ITPro
@@ -14,13 +14,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
+ms.collection:
+- M365-security-compliance
 description: 사용자가 스팸으로 분류 된 Office 365에서 전자 메일 메시지를 계속 보내는 경우 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: 3ffd8b65d6994699093237e9f9a0a3aaa802f5e2
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 870e5eabca9e799dfca1e99846a5bfe845f65df4
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223087"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275938"
 ---
 # <a name="removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email"></a>스팸 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소 제거
 

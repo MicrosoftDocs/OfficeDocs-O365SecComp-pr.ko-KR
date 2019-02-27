@@ -7,18 +7,19 @@ ms.date: 1/30/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: 검색 통계 기능을 사용 하 여 Office 365 보안 &amp; 및 준수 센터의 여러 콘텐츠 검색에 대 한 통계를 표시 하 고 비교 합니다. 검색 쿼리를 만들거나 편집할 때 키워드 목록을 구성 하 여 각 키워드나 키워드 구와 일치 하는 항목 수를 표시 하는 통계를 향상 시킬 수도 있습니다.
-ms.openlocfilehash: c62f04e690661a5a7022fa00f727d1be39e74f12
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 614f832ec737850986af334a390ffc0c4e88122d
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214838"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30295731"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>콘텐츠 검색 결과에 대한 키워드 통계 보기
 

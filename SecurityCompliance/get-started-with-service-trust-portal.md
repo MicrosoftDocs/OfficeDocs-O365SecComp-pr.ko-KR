@@ -8,15 +8,16 @@ ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
+mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Office 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, finra, gdpr 및 FedRAMP를 준수 하는 방법을 확인 하세요.
-ms.openlocfilehash: 6a34fd325934d76271f5ce3a4d760580de830457
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e4b3d1497b2dcf3a079dbe60f742e902ab45544c
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220258"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296691"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 

@@ -1,7 +1,7 @@
 ---
 title: 연습에서 인텔리전스 통찰력을 스푸핑
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 ms.date: 7/30/2018
 ms.audience: ITPro
 ms.topic: overview
@@ -11,13 +11,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
+ms.collection:
+- M365-security-compliance
 description: 새 스푸핑 인텔리전스 통찰력은 어떻게 작동 하는지 확인 하세요.
-ms.openlocfilehash: 83fa1580a0e7c4717581cc5f23b8f525d6b918e0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4303b8f2524e6722e7febbbd06ab9daa853ed802
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220328"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275918"
 ---
 # <a name="walkthrough-spoof-intelligence-insight"></a>연습: 지능 통찰력 스푸핑
 

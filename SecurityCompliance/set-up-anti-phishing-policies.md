@@ -1,7 +1,7 @@
 ---
 title: Office 365 ATP 피싱 방지 정책 설정
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
@@ -9,13 +9,15 @@ ms.date: 02/06/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
+ms.collection:
+- M365-security-compliance
 description: 피싱 방지 보호 (office 365 Advanced Threat protection의 일부로, 포괄적인 보호 기능이 있는 office 365 Exchange Online protection의 기본 보호 기능)은 악의적인 가장 기반 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. 기타 피싱 공격이 있습니다.
-ms.openlocfilehash: da18fdb3592d4d0dbe3d62c11627a7057fec5ed6
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4a647463dd37261cfa1f4c2fd2901ed8f12902b7
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213708"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276278"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -114,7 +116,7 @@ Contoso의 보안 관리자는 이러한 요구를 충족 하는 피싱 방지 �
 |:-----|:-----|
 |**설정 또는 옵션** <br/> |**예** <br/> |
 |Name  <br/> |도메인 및 CEO  <br/> |
-|Description  <br/> |CEO 및 도메인이 가장 되지 않는지 확인 합니다.  <br/> |
+|설명  <br/> |CEO 및 도메인이 가장 되지 않는지 확인 합니다.  <br/> |
 |보호할 사용자 추가  <br/> |CEO의 전자 메일 주소는 최소한입니다.  <br/> |
 |보호할 도메인 추가  <br/> |CEO의 사무실을 포함 하는 조직 도메인입니다.  <br/> |
 |작업 선택  <br/> |가장 된 사용자가 전자 메일을 보내는 경우: **다른 전자 메일 주소로 메시지 리디렉션을** 선택 하 고 보안 관리자의 전자 메일 주소를 입력 합니다 `securityadmin@contoso.com`.  <br/> 가장 된 도메인에서 전자 메일을 보낸 경우에는 **격리 메시지**를 선택 합니다.  <br/> |

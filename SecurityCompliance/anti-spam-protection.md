@@ -15,12 +15,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 Office 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Office 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 정책 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: 2d8f433cabda4408da2e29b7bc6570e09e6989dd
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: f4d32bb0efae0a38fdc6789feef73bd5014eb75b
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223427"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296321"
 ---
 # <a name="office-365-email-anti-spam-protection"></a>Office 365 스팸 방지 보호
 
@@ -75,7 +75,7 @@ Office 365의 스팸, 피싱 및 스푸핑에 대해 염려 되는 경우 SPF, d
   
 [수신 허용 목록 또는 기타 방법으로 스팸으로 표시된 거짓 부정 전자 메일 차단](prevent-email-from-being-marked-as-spam-0.md)
   
-[정크 메시지를 차단할 수 있도록 Office 365 스팸 필터링을 설정 하는 방법](block-email-spam-to-prevent-false-negatives.md)
+[정크 메시지를 차단할 수 있도록 Office 365 스팸 필터링을 설정 하는 방법](reduce-spam-email.md)
   
 [정크 메일과 대량 전자 메일의 차이점은 무엇 인가요?](https://technet.microsoft.com/library/dn720441%28v=exchg.150%29.aspx)
   

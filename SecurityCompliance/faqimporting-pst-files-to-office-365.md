@@ -7,18 +7,19 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: 'office 365 가져오기 서비스를 사용 하 여 office 365 사서함으로 organizaiton의 PST 파일을 가져오는 관리자에 대 한 질문과 대답을 자주 묻는 질문입니다. '
-ms.openlocfilehash: 9ca2e206a1d06c1398181c51e41b4dc68d8d965c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bef9c9e80f4f4c8261e9c44ba201a978937e2841
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218408"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296881"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져오기에 대 한 FAQ
 

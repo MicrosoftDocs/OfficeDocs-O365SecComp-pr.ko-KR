@@ -7,19 +7,21 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리와 검색 조건을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 콘텐츠 검색은 gdpr 데이터 주체 요청과 관련 될 수 있는 콘텐츠를 검색 하기 위한 효과적인 도구 이기도 합니다.
-ms.openlocfilehash: 37f5bf96c8176770f44d0681fa7046a904283f72
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: b7ecfc68c143225f097508e2cca0e87b7ce250d6
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215329"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296361"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 

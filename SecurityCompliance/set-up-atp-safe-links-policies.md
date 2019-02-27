@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
-ms.date: 02/06/2019
+ms.date: 02/26/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 0cf6c22be42f11fe52a1f43d0ebef48bd639675d
-ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
+ms.openlocfilehash: e9ab086454703113bca6e8b260ba898a5e36ef9b
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30245604"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296831"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -112,8 +112,8 @@ ms.locfileid: "30245604"
 ## <a name="step-4-learn-about-atp-safe-links-policy-options"></a>4 단계: ATP 안전한 링크 정책 옵션 알아보기
 
 ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션을 사용할 수 있습니다. 이러한 옵션이 무엇 인지 궁금할 경우 다음 표에서는 각 옵션에 대해 설명 합니다. 두 가지 주요 유형의 ATP 안전한 링크 정책을 정의 하거나 편집할 수 있습니다.
-- 모든 사용자에 게 적용 되는 [기본 정책](#default-policy-options) 
-- [특정 받는 사람에 대해 정의](#policies-that-apply-to-specific-email-recipients) 된 추가 정책 
+- 모든 사용자에 게 적용 되는 [기본 정책](#default-policy-options) 입니다. 한  
+- [특정 받는 사람에 대 한 추가 정책](#policies-that-apply-to-specific-email-recipients) 
 
 ### <a name="default-policy-options"></a>기본 정책 옵션
 
@@ -121,8 +121,8 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 
 |이 옵션  |기능  |
 |---------|---------|
-| **다음 url 차단** <br/>    | 조직에서 자동으로 차단 되는 url의 사용자 지정 목록을 사용할 수 있도록 합니다. 사용자가이 목록에서 url을 클릭 하면 url이 차단 되는 이유를 설명 하는 [경고 페이지가](atp-safe-links-warning-pages.md) 표시 됩니다.<br/> 자세한 내용은 ATP Safe 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정를 참조 하세요.      |
-| **office 365 ProPlus, iOS 및 Android 용 office** <br/>    | 이 옵션을 선택 하면 ATP 안전한 링크 보호가 office 365 ProPlus (word, Excel 및 PowerPoint의 경우 windows 또는 Mac OS), iOS의 office 문서, windows에서 Visio 2016 및 office Online (word 사용자가 Office 365에 로그인 한 경우 온라인, PowerPoint online, Excel online 및 OneNote online) <br/><br/>**Windows에 office 2016**만 표시 되 면 기능 업데이트가 Office 365 환경에 아직 도달 하지 않은 것 이며 곧 출시 될 예정입니다. 그때까지 ATP Safe Links protection은 Word 2016, Excel 2016, PowerPoint 2016 또는 Windows에서 실행 되는 Visio 2016에 적용 됩니다.            |
+| **다음 url 차단** <br/>    | 조직에서 자동으로 차단 되는 url의 사용자 지정 목록을 사용할 수 있도록 합니다. 사용자가이 목록에서 url을 클릭 하면 url이 차단 되는 이유를 설명 하는 [경고 페이지가](atp-safe-links-warning-pages.md) 표시 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)를 참조 하세요. |
+| **office 365 ProPlus, iOS 및 Android 용 office** <br/>    | 이 옵션을 선택 하면 ATP Safe Links 보호는 word, Excel 및 powerpoint 파일의 windows 또는 Mac OS, iOS 또는 Android 장치의 office 문서, windows의 Visio 2016, office online (word online, PowerPoint Online, Excel online)의 url에 적용 됩니다. 사용자가 Office 365에 로그인 한 경우, OneNote Online) |
 | **사용자가 ATP 안전한 링크 클릭 시기 추적 안 함** <br/>  | 이 옵션을 선택 하면 Word, Excel, PowerPoint 및 Visio 문서의 url에 대 한 데이터를 클릭 해도 저장 되지 않습니다.  <br/> |
 |**사용자가 ATP 안전한 링크를 원본 URL로 클릭할 수 없도록 합니다.** <br/> |이 옵션을 선택 하면 사용자가 [경고 페이지](atp-safe-links-warning-pages.md) 를 지 나 악의적인 것으로 확인 된 URL로 계속할 수 없습니다.  <br/> |
 

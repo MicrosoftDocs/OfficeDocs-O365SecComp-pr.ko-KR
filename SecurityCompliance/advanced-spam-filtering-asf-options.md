@@ -1,7 +1,7 @@
 ---
 title: 고급 스팸 필터링 옵션
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 6/26/2015
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
 description: 관리자는 고급 스팸 필터링 옵션을 통해 메시지의 다양 한 콘텐츠 특성을 검사할 수 있습니다. 메시지에 이러한 특성이 있으면 메시지의 스팸 점수가 증가 하며, 따라서 스팸으로 식별 될 가능성이 높아지고 메시지가 스팸으로 표시 됩니다. ASF 옵션은 스팸 메시지에서 일반적으로 발견 되는 HTML 태그 및 URL 리디렉션과 같은 특정 메시지 속성을 대상으로 합니다.
-ms.openlocfilehash: d9333fd4f5c8937e440efb15e1a04db787b39b78
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: dd782c4e1e95865651df7e9e14b72a920c8efd6f
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218678"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275968"
 ---
 # <a name="advanced-spam-filtering-options"></a>고급 스팸 필터링 옵션
 

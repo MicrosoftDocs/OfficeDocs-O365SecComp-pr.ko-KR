@@ -7,17 +7,19 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나 사서함에 대 한 전자 메일 전달을 설정한 사람을 찾는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 301c8a19c5e268b1c4e3ff0e9633c85a31fd3f4d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bf07df7ef0767e525ca3e6ff7f5ce4c637880b80
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220878"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296771"
 ---
 # <a name="search-the-office-365-audit-log-to-troubleshoot-common-scenarios"></a>일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
 

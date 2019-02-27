@@ -1,7 +1,7 @@
 ---
 title: 문제 해결 및 지원 정보
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
 ms.audience: ITPro
@@ -12,13 +12,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
+ms.collection:
+- M365-security-compliance
 description: 이 항목에서는 최종 사용자 및 관리자를 위한 문제 해결 단계 및 기술 지원 서비스에 문의하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 249f6fabf0ae7037ef905c455cfb45582be0e40b
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: d9ff55350487b21325d9a95491fa6861fcc441fd
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003127"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30275998"
 ---
 # <a name="troubleshooting-and-support-information"></a>문제 해결 및 지원 정보
 
@@ -43,7 +45,7 @@ ms.locfileid: "23003127"
 문제가 계속되면 IT 관리자에게 문의하십시오.
   
 > [!TIP]
-> [Not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 Microsoft에 직접 스팸 메시지 및 가양성 메시지를 전송할 수도 있습니다. 자세한 내용은 [전송 스팸, 스팸이 아닌 및 분석을 위해 Microsoft에 피싱 사기 메시지를](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하십시오. 
+> 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소를 사용 하 고 [not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 메시지를 통해 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요. 
   
 ## <a name="troubleshooting-for-administrators"></a>관리자를 위한 문제 해결
 
@@ -85,7 +87,7 @@ Microsoft Office Outlook용 정크 메일 신고 추가 기능을 관리자로�
     
 ## <a name="support-information"></a>지원 정보
 
-설치에 대 한 도움을 필요한 경우 구성 또는 제거의 추가 기능에 문의 Office 365 관리 센터에서 지원 페이지에서 새 서비스 요청 링크를 사용 하 여 기술 지원 합니다. 전화 및 자체 지원 옵션을 통해 서비스 요청을 제출 포함 하 여 추가 옵션에 대 한 [도움말 및 지원 EOP에 대 한](eop/help-and-support-for-eop.md)참조입니다.
+추가 기능의 설치, 구성 또는 제거에 대 한 도움이 필요한 경우 Office 365 관리 센터의 지원 페이지에서 새 서비스 요청 링크를 사용 하 여 기술 지원에 문의 하세요. 전화 및 자가 지원 옵션을 통해 서비스 요청을 제출 하는 등의 추가 옵션을 보려면 [EOP에 대 한 도움말 및 지원을](eop/help-and-support-for-eop.md)참조 하십시오.
   
 ## <a name="for-more-information"></a>자세한 내용
 

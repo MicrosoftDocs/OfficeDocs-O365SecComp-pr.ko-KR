@@ -7,6 +7,7 @@ ms.date: 6/4/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -14,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대해 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xn 채팅 이라고 함).
-ms.openlocfilehash: 5707f9ed814bf6d4e040db8ec61290507def258f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 148a5766342fcdd52e0505a59729cad3d2993908
+ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214388"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30296701"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색
 
