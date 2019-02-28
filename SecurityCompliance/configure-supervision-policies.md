@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: 검토할 직원 정보를 캡처하기 위해 관리 검토 정책을 설정 합니다.
-ms.openlocfilehash: af317194fcf551acde8c53cdf6aa38bfb040dc84
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bb84520fed1eb5015d46c2c35931f786d29855e7
+ms.sourcegitcommit: 13c601ea11ce6a3c71036fdafda059061c6998d0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216738"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30313174"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -53,9 +53,9 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
     규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 한 역할을 하는 경우에는 감독 정책이 필요에 따라 작동 하도록 테스트 합니다.
 
-- **6 단계-(선택 사항)** [outlook 추가 기능을 설정 하 여 Office 365 감독 대시보드 또는 웹용 outlook (이전의 outlook web App)을 사용 하지 않으려는 경우 감독 된 통신을 검토 합니다](configure-supervision-policies.md#UseOutlook) .
+- **6 단계-(선택 사항)** [outlook for Office 365 감독 대시보드 또는 웹용 outlook (이전의 outlook web App)을 사용 하지 않고 감독 된 통신을 검토 합니다](configure-supervision-policies.md#UseOutlook) .
 
-    outlook의 감독 추가 기능은 검토자가 outlook 클라이언트 내에서 감독 기능에 액세스 하 여 각 항목을 평가 하 고 분류할 수 있도록 합니다.
+    검토자가 outlook 클라이언트 내의 감독 기능에 액세스 하 여 각 항목을 평가 하 고 분류할 수 있도록 outlook을 구성할 수 있습니다.
 
 <a name="exampledist"> </a>
 
@@ -189,13 +189,13 @@ Contoso Financial International에서 미국에 있는 중개인 간 통신 샘�
 
 <a name="UseOutlook"> </a>
 
-## <a name="step-6---set-up-outlook-add-in-for-reviewers-optional"></a>6 단계-검토자 용 Outlook 추가 기능 설정 (선택 사항)
+## <a name="step-6---configure-outlook-for-reviewers-optional"></a>6 단계-Outlook for 검토자별로 구성 (선택 사항)
 
-통신을 검토 하기 위해 Office 365 또는 웹용 outlook에서 감독 대시보드를 사용 하는 대신 outlook을 사용 하려는 검토자는 outlook 클라이언트에 대 한 감독 추가 기능을 설치 해야 합니다.
+Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 대신 outlook을 사용 하려는 검토자는 자신의 outlook 클라이언트를 구성 해야 합니다.
 
 ### <a name="step-1-copy-the-address-for-the-supervision-mailbox"></a>1 단계: 감독 사서함의 주소 복사
 
-Outlook 데스크톱에 대 한 추가 기능을 설치 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
+웹용 outlook 데스크톱 또는 outlook에 대 한 검토를 구성 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
   
 > [!NOTE]
 > 다른 사용자가 정책을 만든 경우이 주소에서 추가 기능을 설치 하도록 요청 받아야 합니다.
@@ -210,7 +210,7 @@ Outlook 데스크톱에 대 한 추가 기능을 설치 하려면 감독 정책 
 
 4. 정책 세부 정보 플라이 아웃의 **감독 사서함**에서 주소를 복사 합니다.<br/>![감독 사서함 주소가 강조 표시 된 감독 정책의 세부 정보 플라이 아웃의 ' 감독 사서함 ' 섹션](media/71779d0e-4f01-4dd3-8234-5f9c30eeb067.jpg)
   
-### <a name="step-2-configure-the-supervision-mailbox-for-outlook-desktop-access"></a>2 단계: Outlook 데스크톱 액세스에 대 한 감독 사서함 구성
+### <a name="step-2-configure-the-supervision-mailbox-for-outlook-access"></a>2 단계: Outlook 액세스를 위한 감독 사서함 구성
 
 다음으로, Outlook을 메일 감독 사서함에 연결할 수 있도록 검토자가 몇 개의 Exchange Online PowerShell 명령을 실행 해야 합니다.
   
