@@ -15,12 +15,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: f41799a3870e899fd3601453aaa11f6f9c51c608
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 47ab5202e4f20bbb8cdcf1d83987b0c0c20e8f29
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223057"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341679"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 기능 FAQ
 
@@ -34,7 +34,7 @@ ms.locfileid: "30223057"
 대답. **인바운드 메시지의 경우:** 스팸은 대부분 보낸 사람의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제됩니다. 그런 다음 서비스에서 메시지 내용을 검사합니다. 기본적으로 콘텐츠가 필터링된 스팸이 받는 사람의 정크 메일 폴더로 전송됩니다. 이 작업은 변경할 수 있습니다. 예를 들어 콘텐츠 필터 정책을 구성하여 스팸 메시지를 격리로 대신 보내도록 선택할 수 있습니다. 
   
 > [!IMPORTANT]
-> EOP 독립 실행형 고객의 경우: 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업이 작동하도록 하려면 EOP에서 추가한 스팸 헤더를 검색하도록 온-프레미스 서버에서 Exchange 전송 규칙 두 개를 구성해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오. 
+> EOP 독립 실행형 고객의 경우: 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 검색 해야 합니다. EOP에서 추가 된 스팸 헤더입니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되도록](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)합니다 .를 참조 하세요. 
   
  **아웃바운드 메시지의 경우:** 메시지는 위험성이 높은 배달 풀을 통해 라우팅되거나 반송되어 배달되지 않습니다. 후자의 경우 보낸 사람은 메시지를 배달할 수 없음을 알리는 DSN(배달 상태 알림) 메시지를 받게 됩니다. 
   

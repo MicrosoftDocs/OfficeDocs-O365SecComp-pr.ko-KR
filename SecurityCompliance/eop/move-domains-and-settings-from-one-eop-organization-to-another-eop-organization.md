@@ -11,19 +11,19 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다.
-ms.openlocfilehash: f822e9e5aa91a67a15b327f73c29bf9bee2ff99e
-ms.sourcegitcommit: 380ea5b269a64bd581a225e122cbd82d2ce0bf98
+ms.openlocfilehash: e2b030064ce180bd7eeebfb281751dc147dca899
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "23002226"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341559"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>EOP 조직 간에 도메인 및 설정 이동
 
 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다. EOP 조직 간의 이동은 까다로운 작업일 수 있지만 몇 가지 기본적인 원격 Windows PowerShell 스크립트를 사용하고 약간만 준비하면 비교적 적은 유지 관리 기간에 완료할 수 있습니다. 
   
 > [!NOTE]
->  설정 안정적으로 EOP 독립 실행형 서비스 (EOP 프리미엄) 조직과 다른 EOP 표준 또는 Exchange Enterprise CAL (표준) 조직에서에서 또는 이동 EOP 프리미엄 조직에서 다른 EOP 프리미엄 조직에 있습니다. 일부 프리미엄 기능 EOP 표준 조직에서 지원 되지 않으므로, EOP 표준 조직에 EOP 프리미엄 조직에서 이동 성공 아닐 수도 있습니다. > 이러한 지침은 EOP 필터링 전용 조직에 대 한 것입니다. 하나의 Exchange Online 조직에서 다른 Exchange Online 조직으로 이동의 추가 고려 사항 있습니다. Exchange Online 조직에서는 이러한 지침에 대 한 범위 바깥에 있습니다. 
+>  EOP 독립 실행형 (표준) 조직에서 다른 EOP standard 또는 Exchange Enterprise CAL with Services (EOP premium) 조직 또는 EOP premium 조 직에서 다른 EOP Premium 조직으로의 설정을 안정적으로 이동할 수 있습니다. 일부 프리미엄 기능은 EOP standard 조직에서 지원 되지 않으므로 EOP premium 조 직에서 EOP Standard 조 직으로 이동 하지 못할 수 있습니다. > 이러한 지침은 EOP 필터링 전용 조직에 대 한 것입니다. 한 exchange online 조직에서 다른 exchange online 조직으로 이동할 때 추가로 고려해 야 할 사항이 있습니다. Exchange Online 조직은 이러한 지침을 다루지 않습니다. 
   
 다음 예제에서는 Contoso, Ltd.가 Contoso Suites와 병합되었습니다. 다음 그림에서는 원본 EOP 조직(contoso.onmicrosoft.com)에서 대상 EOP 조직(contososuites.onmicrosoft.com)으로 도메인, 메일 사용자 및 그룹, 설정을 이동하는 프로세스를 보여 줍니다.
   
@@ -47,10 +47,10 @@ ms.locfileid: "23002226"
     
 - 커넥터
     
-- 전송 규칙
+- 메일 흐름 규칙 (전송 규칙이 라고도 함)
     
     > [!NOTE]
-    > 전송 규칙 컬렉션 내보내기 및 가져오기에 대한 cmlet 지원은 현재 EOP Premium 구독 계획에서만 지원됩니다. 
+    > 메일 흐름 규칙 모음의 내보내기 및 가져오기에 대 한 Cmdlet 지원은 현재 EOP Premium 구독 계획 에서만 지원 됩니다. 
   
 모든 설정을 수집하는 가장 쉬운 방법은 원격 Windows PowerShell을 사용하는 것입니다. 원격 Windows PowerShell을 사용하여 EOP에 연결하려면 [원격 PowerShell을 사용하여 Exchange Online Protection에 연결](http://technet.microsoft.com/library/054e0fd7-d465-4572-93f8-a00a9136e4d1.aspx)을 참조하세요.
   
@@ -66,10 +66,10 @@ mkdir C:\EOP\Export
 cd C:\EOP\Export
 ```
 
-다음 스크립트를 사용하여 원본 조직에서 모든 메일 사용자, 그룹, 스팸 방지 설정, 맬웨어 방지 설정, 커넥터 및 전송 규칙을 수집할 수 있습니다. 메모장과 같은 텍스트 편집기에 다음 텍스트를 복사하여 붙여넣고 방금 만든 Export 디렉터리에서 Source_EOP_Settings.ps1 파일을 저장한 후 다음 명령을 실행합니다.
+다음 스크립트를 사용 하 여 원본 조직의 모든 메일 사용자, 그룹, 스팸 방지 설정, 맬웨어 방지 설정, 커넥터 및 메일 흐름 규칙을 수집할 수 있습니다. 다음 텍스트를 복사 하 여 메모장 같은 텍스트 편집기에 붙여 넣은 다음, 방금 만든 Export 디렉터리에 파일을 Source_EOP_Settings으로 저장 하 고 다음 명령을 실행 합니다.
   
 ```
-&amp; "C:\EOP\Export\Source_EOP_Settings.ps1"
+& "C:\EOP\Export\Source_EOP_Settings.ps1"
 
 ```
 
@@ -133,11 +133,10 @@ Get-MalwareFilterRule | Export-Clixml MalwareFilterRule.xml
 Get-InboundConnector | Export-Clixml InboundConnector.xml
 Get-OutboundConnector | Export-Clixml OutboundConnector.xml
 #****************************************************************************
-# Exchange transport rules
+# Exchange mail flow rules
 #****************************************************************************
 $file = Export-TransportRuleCollection
 Set-Content -Path ".TransportRules.xml" -Value $file.FileData -Encoding Byte
-
 ```
 
 Export 디렉터리에서 다음 명령을 실행하여 대상 조직으로 .xml 파일을 업데이트합니다. contoso.onmicrosoft.com 및 contososuites.onmicrosoft.com을 원본 및 대상 조직 이름으로 바꿉니다.

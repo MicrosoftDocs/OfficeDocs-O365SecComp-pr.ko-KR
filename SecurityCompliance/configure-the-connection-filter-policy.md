@@ -15,12 +15,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만듭니다. 수신 거부 목록도 만들 수 있습니다.
-ms.openlocfilehash: d7c99f8fb6b9b05efb800804927ccb26f7dd9f40
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 2b6cbb709eec6911e8aa83d560d5c00ad2a6e344
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216908"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341609"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
  
@@ -98,9 +98,9 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
   
 ### <a name="scoping-an-ip-allow-list-exception-for-a-specific-domain"></a>특정 도메인에 대해 IP 허용 목록 예외 범위 지정
 
-일반적으로 안전한 것으로 간주되는 모든 도메인에 대한 IP 주소(또는 IP 주소 범위)를 IP 허용 목록에 추가하는 것이 좋습니다. 그러나 IP 허용 목록 항목을 모든 도메인에 적용하지는 않으려면 특정 도메인을 제외하는 전송 규칙을 만들면 됩니다. 
+일반적으로 안전한 것으로 간주 되는 모든 도메인에 대 한 ip 주소 (또는 ip 주소 범위)를 ip 허용 목록에 추가 하는 것이 좋습니다. 그러나 IP 허용 목록 항목을 모든 도메인에 적용 하지 않으려면 특정 도메인을 제외 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. 
   
-예를 들어, 세 개의 도메인인 ContosoA.com, ContosoB.com 및 ContosoC.com이 있으며 IP 주소(단순하게 표현하기 위해 1.2.3.4 사용)를 추가하고 도메인 ContosoB.com에 대해서만 필터링을 건너뛰려 한다고 가정합니다. 모든 도메인에 대해 SCL(스팸 지수)을 -1(스팸이 아닌 것으로 분류됨을 의미함)로 설정하는 IP 허용 목록을 1.2.3.4에 대해 만듭니다. 그런 다음 모든 도메인(ContosoB.com 제외)에 대해 SCL을 0으로 설정하는 전송 규칙을 만들 수 있습니다. 그러면 ContosoB.com(규칙에서 예외로 나열되는 도메인)을 제외하고 IP 주소와 연결된 모든 도메인에 대해 메시지가 다시 검색됩니다. ContosoB.com의 SCL은 여전히 -1(필터링 건너뜀을 의미함)인 반면, ContosoA.com 및 ContosoC.com의 SCL은 0(콘텐츠 필터에 의해 다시 검색됨을 의미함)입니다.
+예를 들어, ContosoA.com, ContosoB.com 및 ContosoC.com의 도메인이 세 개 있는데, 여기서는 간단한 목적을 위해 IP 주소를 추가 하 고 도메인 ContosoB.com에 대해서만 필터링을 건너뛰도록 하려는 경우를 가정해 보겠습니다. 모든 도메인에 대해 SCL (스팸 지 수)을-1 (스팸이 아닌 것으로 분류 됨)로 설정 하는 1.2.3.4에 대해 IP 허용 목록을 만듭니다. 그런 다음 ContosoB.com를 제외한 모든 도메인에 대해 SCL을 설정 하는 메일 흐름 규칙을 만들 수 있습니다. 이렇게 하면 규칙에서 예외로 나열 되는 ContosoB.com를 제외 하 고 IP 주소와 연결 된 모든 도메인에 대해 메시지가 다시 검색 됩니다. ContosoB.com에는 ContosoA.com 및 ContosoC.com에는 필터링 건너뛰기를 의미 하는-1의 SCL이 있으며,이를 사용 하는 경우에는 콘텐츠 필터에 의해 다시 검색 되는 것을 의미 합니다.
   
 이렇게 하려면 다음 단계를 수행합니다.
   

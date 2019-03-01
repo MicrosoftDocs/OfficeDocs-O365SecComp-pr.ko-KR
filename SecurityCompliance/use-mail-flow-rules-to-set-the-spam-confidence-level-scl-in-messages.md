@@ -14,27 +14,27 @@ search.appverid:
 ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
-description: 전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 전송 규칙을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 원치 않는 (일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 전송 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다.
-ms.openlocfilehash: dfce98aa9d4fec25a06674eb68d6e00ae2964e87
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
+ms.openlocfilehash: 48569087fe8455dbb5500add435430ec8e78ea30
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275628"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341349"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
-전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 전송 규칙을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 원치 않는 (일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 전송 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다. 
+전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 원치 않는 (일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 메일 흐름 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다. 
   
  **시작하기 전에 알아야 할 내용**
   
 - 이 절차의 예상 완료 시간: 10 분.
     
-- 이 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 필요한 사용 권한을 확인 하려면 [feature permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [feature permissions in EOP에서](eop/feature-permissions-in-eop.md)"전송 규칙" 항목을 참조 하세요. 
+- 이 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 필요한 사용 권한을 확인 하려면 [feature permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [feature permissions in EOP에서](eop/feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
     
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
     
-### <a name="to-create-a-transport-rule-that-sets-the-scl-of-a-message"></a>메시지의 SCL을 설정 하는 전송 규칙을 만들려면
+### <a name="to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message"></a>메시지의 SCL을 설정 하는 메일 흐름 규칙을 만들려면
 
 1. EAC (Exchange 관리 센터)에서 **메일 흐름** \> **규칙**을 선택 합니다.
     
@@ -64,7 +64,7 @@ ms.locfileid: "30275628"
 7. 규칙에 대 한 추가 속성을 지정 하 고 **저장**을 선택 합니다.
     
     > [!TIP]
-    > 이 규칙에 대해 선택 하거나 지정할 수 있는 추가 속성에 대 한 자세한 내용은 [EAC를 사용 하 여 전송 규칙 만들기](http://technet.microsoft.com/library/e7a81372-b6d7-4d1f-bc9e-a845a7facac2.aspx#CreateEAC)를 참조 하십시오. 
+    > 이 규칙에 대해 선택 하거나 지정할 수 있는 추가 속성에 대 한 자세한 내용은 [EAC를 사용 하 여 메일 흐름 규칙 만들기](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures#use-the-eac-to-create-mail-flow-rules)를 참조 하십시오. 
   
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

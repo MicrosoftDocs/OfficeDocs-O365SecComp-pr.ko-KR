@@ -1,6 +1,6 @@
 ---
 title: 보안 강화를 위해 Office 365 테넌트 구성
-ms.author: tracyp
+ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
 ms.date: 10/11/2018
@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: 982e9b73821553ae1f666cf54e143d4a806e3cb3
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: b94d894770462adc317f3307bfb16d5f643dfa14
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223167"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341509"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 
@@ -61,8 +61,8 @@ Exchange 관리 센터의 보안 및 보호를 위한 대부분의 컨트롤은 
   
 |Area * * * *|기본 정책 포함 * * * * * * * * * *|권장 사항 * * * *|
 |:-----|:-----|:-----|
-|**메일 흐름** (전송 규칙)  <br/> |아니요  <br/> | 메일 흐름 규칙을 추가 하 여 랜 섬 웨어 로부터 보호할 수 있습니다. 이 블로그 문서의 "Exchange 전송 규칙을 사용 하 여 랜 섬 웨어에서 사용 하는 파일 확장명을 추적 또는 차단 하 [](https://blogs.technet.microsoft.com/office365security/how-to-deal-with-ransomware/)는 방법"을 참조 하세요.<br><br/> 외부 도메인에 대 한 전자 메일 자동 전달을 방지 하는 전송 규칙을 만듭니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요.<br/> <br>추가 정보: [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://technet.microsoft.com/en-us/library/jj919238%28v=exchg.150%29.aspx) <br/> |
-|**최신 인증 사용** <br/> |아니요  <br/> | Office 365의 최신 인증은 MFA (다단계 인증)를 사용 하기 위한 필수 구성 요소입니다. 전자 메일을 비롯 한 클라우드 리소스 액세스를 보호 하려면 MFA를 사용 하는 것이 좋습니다.<br/>  <br>다음 항목을 참조 하세요.  <br/> • [Exchange Online에서 최신 인증을 사용 하거나 사용 하지 않도록](https://support.office.com/article/58018196-f918-49cd-8238-56f57f38d662) 설정 <br/> • [비즈니스용 Skype Online: 최신 인증을 위해 테 넌 트를 사용 하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/>  <br>최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다.  <br/>  <br>추가 정보: office [365 최신 인증을 사용 하 여 office 클라이언트에](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a) <br/> |
+|**메일 흐름** (전송 규칙이 라고도 하는 메일 흐름 규칙)|아니요|메일 흐름 규칙을 추가 하 여 랜 섬 웨어 로부터 보호할 수 있습니다. 이 블로그 문서의 "Exchange 전송 규칙을 사용 하 여 랜 섬 웨어에서 사용 하는 파일 확장명을 추적 또는 차단 하 [](https://blogs.technet.microsoft.com/office365security/how-to-deal-with-ransomware/)는 방법"을 참조 하세요.<br><br/> 메일 흐름 규칙을 만들어 외부 도메인으로 전자 메일을 자동 전달 하지 못하게 합니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요.<br/><br/> 추가 정보: [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://technet.microsoft.com/en-us/library/jj919238%28v=exchg.150%29.aspx)|
+|**최신 인증 사용**|아니요|Office 365의 최신 인증은 MFA (다단계 인증)를 사용 하기 위한 필수 구성 요소입니다. 전자 메일을 비롯 한 클라우드 리소스 액세스를 보호 하려면 MFA를 사용 하는 것이 좋습니다.<br/><br/> 다음 항목을 참조 하세요.  <br/>• [Exchange Online에서 최신 인증을 사용 하거나 사용 하지 않도록](https://support.office.com/article/58018196-f918-49cd-8238-56f57f38d662) 설정 <br/>• [비즈니스용 Skype Online: 최신 인증을 위해 테 넌 트를 사용 하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. <br/><br/> 추가 정보: office [365 최신 인증을 사용 하 여 office 클라이언트에](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a)|
    
 ## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>SharePoint 관리 센터에서 테 넌 트 수준 공유 정책 구성
 
@@ -74,7 +74,7 @@ Exchange 관리 센터의 보안 및 보호를 위한 대부분의 컨트롤은 
   
 |Area * * * *|기본 정책 포함 * * * * * * * * * *|권장 사항 * * * *|
 |:-----|:-----|:-----|
-|**공유** (SharePoint Online 및 비즈니스용 OneDrive)  <br/> |예  <br/> | 외부 공유는 기본적으로 사용 하도록 설정 됩니다. 다음 설정을 권장 합니다.<br/>  • 인증 된 외부 사용자에 대 한 공유를 허용 하 고 익명 액세스 링크를 사용 합니다 (기본 설정).  <br/>  • 익명 액세스 링크는 다음 며칠 후에 만료 됩니다. 원하는 경우 숫자를 입력 합니다 (예: 30 일).<br/>  • 기본 링크 유형-내부 (조직의 사용자만)를 선택 합니다. 익명 링크를 사용 하 여 공유 하려는 사용자는 공유 메뉴에서이 옵션을 선택 해야 합니다.<br/>  <br>추가 정보: [외부 공유 개요](https://support.office.com/article/c8a462eb-0723-4b0b-8d0a-70feafe4be85) <br/> |
+|**공유** (SharePoint Online 및 비즈니스용 OneDrive)|예|외부 공유는 기본적으로 사용 하도록 설정 됩니다. 다음 설정을 권장 합니다.<br/>• 인증 된 외부 사용자에 대 한 공유를 허용 하 고 익명 액세스 링크를 사용 합니다 (기본 설정). <br/>  • 익명 액세스 링크는 다음 며칠 후에 만료 됩니다. 원하는 경우 숫자를 입력 합니다 (예: 30 일).<br/>• 기본 링크 유형-내부 (조직의 사용자만)를 선택 합니다. 익명 링크를 사용 하 여 공유 하려는 사용자는 공유 메뉴에서이 옵션을 선택 해야 합니다.<br/><br/> 추가 정보: [외부 공유 개요](https://support.office.com/article/c8a462eb-0723-4b0b-8d0a-70feafe4be85)|
    
 SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터에는 동일한 설정이 포함 됩니다. 두 관리 센터의 설정이 둘 다에 적용 됩니다.
   

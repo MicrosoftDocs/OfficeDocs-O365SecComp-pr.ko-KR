@@ -13,12 +13,12 @@ ms.assetid: 4b250bc9-0056-4426-8397-7b4398f1b026
 ms.collection:
 - M365-security-compliance
 description: '격리 된 전자 메일에 대 한 관리자 로부터 최종 사용자 스팸 알림 메시지를 보는 사용자는 메시지에 대해 이러한 작업을 수행할 수 있습니다. '
-ms.openlocfilehash: fac960a8eb090248988bd5a0072f659f04e852b9
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: adddd5032e6254b6084a7f6e714859b713815ed2
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275218"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341239"
 ---
 # <a name="use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages"></a>최종 사용자 스팸 알림을 사용하여 스팸으로 격리된 메시지 릴리스 및 보고
 
@@ -41,6 +41,6 @@ ms.locfileid: "30275218"
 - **정크 메일 아님으로 보고** 이 링크를 클릭하면 분석을 위해 메시지 복사본이 Microsoft로 전송됩니다. 스팸 팀은 메시지를 평가 및 분석하고 분석 결과에 따라 메시지 통과를 허용하도록 스팸 방지 필터 규칙을 조정합니다. 
     
 > [!NOTE]
->  전송 규칙 일치로 인해 격리된 메시지는 최종 사용자 스팸 격리 메시지에 포함되지 않습니다. 스팸 격리된 메시지만 나열됩니다. >  메시지를 릴리스하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다. 
+>  메일 흐름 규칙 (a) 일치로 인해 격리 된 메시지는 최종 사용자 스팸 격리 메시지에 포함 되지 않습니다. 스팸 격리 된 메시지만 나열 됩니다. > 메시지를 릴리스하고 가양성으로 (정크 아님) 한 번만 보고할 수 있습니다. 
   
 

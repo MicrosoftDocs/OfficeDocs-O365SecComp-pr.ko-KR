@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1966b2a7-d1e2-4d92-ab61-42efbb137f5e
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: bf30e7de625903c3cce53407901f627ef1345d66
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 6f96d7150047190e3fec2894383cd56312cfd872
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218978"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341771"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -456,7 +456,7 @@ DLP는 인덱싱할 수 있는 모든 콘텐츠를 평가 합니다. 기본적�
 
 exchange online을 위치로 포함 하는 DLP 정책을 만드는 경우에는 정책이 Office 365 보안 &amp; 준수 센터에서 exchange online으로 동기화 되 고 exchange online에서 웹 및 outlook 2013 이상 버전의 outlook으로 설정 됩니다.
   
-Outlook에서 메시지를 작성할 때 만들어지는 콘텐츠가 DLP 정책에 대해 평가 되는 동안 사용자는 정책 팁을 볼 수 있습니다. 그리고 메시지를 보낸 후에는 exchange 관리 센터에서 만든 exchange 전송 규칙 및 DLP 정책과 함께 dlp 정책에 대 한 평가를 수행 합니다 (자세한 내용은 다음 섹션 참조). DLP 정책은 메시지와 첨부 파일을 모두 검색 합니다.
+Outlook에서 메시지를 작성할 때 만들어지는 콘텐츠가 DLP 정책에 대해 평가 되는 동안 사용자는 정책 팁을 볼 수 있습니다. 그리고 메시지가 전송 된 후에는 exchange 메일 흐름 규칙 (전송 규칙이 라고도 함) 및 exchange 관리 센터에서 만든 DLP 정책 (자세한 내용은 다음 섹션 참조)과 함께 dlp 정책에 대 한 전자 메일 흐름의 일반적인 부분으로 평가 됩니다. DLP 정책은 메시지와 첨부 파일을 모두 검색 합니다.
   
 ### <a name="policy-evaluation-in-the-office-2016-desktop-programs"></a>Office 2016 데스크톱 프로그램의 정책 평가
 

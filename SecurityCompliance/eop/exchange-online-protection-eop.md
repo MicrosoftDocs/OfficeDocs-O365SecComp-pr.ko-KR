@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
-ms.openlocfilehash: 2535a796a0ac1548160545226586233af7b50080
-ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
+ms.openlocfilehash: fc5ea726de190395407952ceac69c4c682ac8f67
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30206561"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341749"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 
@@ -50,7 +50,7 @@ EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성
     
 - [EOP 구성을 위한 모범 사례](best-practices-for-configuring-eop.md) 서비스를 설정 및 프로비전한 후 권장되는 구성 설정 및 고려 사항에 대해 설명합니다. 
     
-- [EOP의 메시징 정책 및 규정 준수](messaging-policy-and-compliance-in-eop.md) Exchange 전송 규칙 (사용자 지정 필터링 규칙)을 사용 하 여 특정 회사 규정 및 정책을 적용 하 고, 감사 보고서를 사용 하 여 서비스에 대 한 구성 변경 내용을 추적 하는 방법에 대해 설명 합니다. 
+- [EOP의 메시징 정책 및 규정 준수](messaging-policy-and-compliance-in-eop.md) Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 특정 회사 규정 및 정책을 적용 하 고, 감사 보고서를 사용 하 여 서비스에 대 한 구성 변경 내용을 추적 하는 방법에 대해 설명 합니다. 
     
 - [Anti-Spam and Anti-Malware Protection](http://technet.microsoft.com/library/93c6c227-7442-4293-b64d-ec8f15c928db.aspx) 스팸 필터링 및 맬웨어 필터링에 대해 설명하고 조직의 요구 사항에 맞도록 이러한 필터링을 사용자 지정하는 방법에 대해 설명합니다. 또한 관리자 및 최종 사용자가 격리된 메시지에 대해 수행할 수 있는 작업도 설명합니다. 
     

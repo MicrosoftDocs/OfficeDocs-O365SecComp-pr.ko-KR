@@ -14,12 +14,12 @@ ms.assetid: 7a29260d-2959-42aa-8916-feceff6ee51d
 ms.collection:
 - M365-security-compliance
 description: Exchange 관리자는 조직의 암호화 된 전자 메일 메시지와 암호화 포털의 내용에 조직의 브랜딩을 적용할 수 있습니다.
-ms.openlocfilehash: 237824890d2b519e36cf5205a1f5c3dcc0fe830a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: b15bb058d68d0f1783d2a689fff180a2bf48023e
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213338"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341709"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>암호화된 메시지에 조직의 브랜드 추가
 

@@ -15,12 +15,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 553f73ffc82dc6f7091b81171213f95f7a092674
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: af11c7ab8e6d80737d2b25ca2b37c3bf7da9fe07
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276098"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341529"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
@@ -79,7 +79,7 @@ ms.locfileid: "30276098"
     
 - 콘텐츠 필터를 구성할 때 **정크 메일 폴더로 메시지 이동** 작업 대신 **메시지 격리** 작업을 사용 하는 경우 다음을 수행 합니다. 
     
-  - 관리자는 스팸 격리 된 메시지를 해제 하 여 Exchange 관리 센터에서 가양성으로 보고할 수 있습니다. 자세한 내용은 [관리자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md)를 참조 하세요.
+  - 관리자는 Exchange 관리 센터에서 스팸으로 격리된 메시지를 릴리스하고 가양성으로 보고할 수 있습니다. 자세한 내용은 [관리자로 격리된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md)을 참조하세요.
     
   - 사용자는 다음과 같은 채널을 통해 스팸 격리 된 자체 메시지를 릴리스하고 가양성으로 보고할 수 있습니다. 
     

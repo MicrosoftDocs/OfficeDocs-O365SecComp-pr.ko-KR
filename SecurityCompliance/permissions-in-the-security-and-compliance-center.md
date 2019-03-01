@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d10608af-7934-490a-818e-e68f17d0e9c1
 description: Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이터 손실 방지, eDiscovery, 보존 등의 규정 준수 작업을 수행 하는 사용자에 게 사용 권한을 부여할 수 있습니다. 이러한 사용자는 자신에 게 명시적으로 액세스 권한을 부여 하는 작업만 수행할 수 있습니다. 보안 &amp; 및 준수 센터에 액세스 하려면 사용자가 Office 365 전역 관리자 이거나 하나 이상의 보안 &amp; 준수 센터 역할 그룹의 구성원 이어야 합니다.
-ms.openlocfilehash: 3ff5583a0a4f9dcabcc1b7d676593b7c6eb0bbba
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: e935c71f9324dbce8e0b359bfe723b93ff500b0a
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223507"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341359"
 ---
 # <a name="permissions-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 사용 권한
 
@@ -47,7 +47,7 @@ Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이
 
 다음 표에서는 보안 &amp; 및 준수 센터에서 사용할 수 있는 기본 역할 그룹을 보여 줍니다. 준수 작업을 수행할 수 있는 권한을 사용자에 게 부여 하려면 해당 보안 &amp; 및 준수 센터 역할 그룹에 추가 합니다.
   
-보안 &amp; 및 준수 센터에서 사용 권한을 관리 하면 보안 &amp; 및 준수 센터 자체 내에서 사용할 수 있는 준수 기능에 대 한 액세스 권한만 제공 됩니다. 보안 &amp; 및 준수 센터에 없는 다른 규정 준수 기능 (예: exchange 전송 규칙)에 대 한 사용 권한을 부여 하려면 exchange 관리 센터를 사용 해야 합니다.
+보안 &amp; 및 준수 센터에서 사용 권한을 관리 하면 보안 &amp; 및 준수 센터 자체 내에서 사용할 수 있는 준수 기능에 대 한 액세스 권한만 제공 됩니다. exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 같이 보안 &amp; 및 준수 센터에 없는 다른 규정 준수 기능에 대 한 사용 권한을 부여 하려는 경우 exchange 관리 센터를 사용 해야 합니다.
   
 보안 &amp; 및 준수 센터에 대 한 액세스 권한을 부여 하는 방법을 확인 하려면 [사용자에 게 Office 365 준수 관리 센터에](grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한 부여를 참조 하세요.
   

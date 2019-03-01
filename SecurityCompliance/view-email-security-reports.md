@@ -3,7 +3,7 @@ title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/07/2019
+ms.date: 02/21/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,20 +15,22 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: fb9f8234f1febf98daf0382f2ad8ece3e3ecbbfe
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+ms.openlocfilehash: 833cb4e0b90375179a4ce2097cb986926a9856d0
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30242000"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341449"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
-[ &amp; 보안 및 준수 센터](https://security.microsoft.com) 에서 다양 한 전자 메일 보안 보고서를 사용할 수 있으므로 Office 365의 스팸 방지 및 맬웨어 방지 기능이 조직을 보호 하는 방법을 쉽게 확인할 수 있습니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports) &amp; 있는 경우 **보고서** \> **대시보드로**이동 하 여 보안 및 준수 센터에서 이러한 보고서를 볼 수 있습니다.
+[ &amp; 보안 및 준수 센터](https://protection.office.com) 에서 다양 한 보고서를 사용할 수 있으므로 Office 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능에서 조직을 보호 하는 방법을 확인할 수 있습니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports) &amp; 있는 경우 **보고서** \> **대시보드로**이동 하 여 보안 및 준수 센터에서 이러한 보고서를 볼 수 있습니다.
   
-![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![Advanced Threat Protection이 작동 하는 방식을 보는 대시보드](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 전자 메일 보안 보고서에는 다음이 포함 됩니다.
+
+- [암호화 보고서](#encryption-report) (새로운 방법!)
   
 - [위협 방지 상태 보고서](view-email-security-reports.md#tps) 
     
@@ -43,12 +45,36 @@ ms.locfileid: "30242000"
 - [스팸 감지 보고서](#spam-detections-report)
     
 - [보내고 받은 전자 메일 보고서](view-email-security-reports.md#sentreceivedemail)
+
+- [사용자가 보고 한 메시지 보고서](view-email-security-reports.md#userreported)
     
-- [사용자가 보고 한 메시지 보고서](view-email-security-reports.md#userreported) (새로운 방법!) 
-    
+## <a name="encryption-report"></a>암호화 보고서
+
+(**새로운 방법!**) **암호화 보고서** 에는 정책 또는 최종 사용자 컨트롤을 통해 암호화 된 전자 메일 메시지에 대 한 정보가 표시 됩니다. 조직의 보안 팀은이 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다.
+
+이 보고서를 보려면 보안 & 준수 센터에서 **보고서** \> **대시보드** \> **암호화 보고서**로 이동 합니다.
+
+![암호화 보고서](media/encryptionreport-defaultview.png) 
+
+보고서를 처음 열면 전자 메일 메시지에 사용 되는 암호화 방법에 대 한 데이터가 이전의 7 일 (7)로 표시 됩니다. 화면의 오른쪽 위 모서리에 있는 필터를 클릭 하 여 보고서의 날짜 범위와 세부 정보를 변경할 수 있습니다.
+
+![암호화 보고서 필터](media/encryptionreport-filters.png)   
+
+또한 아래로 나누기 메뉴를 사용 하 여 암호화 서식 파일 (또는 방법)을 통해 데이터를 볼 수도 있습니다.
+
+![암호화 방법 또는 서식 파일](media/encryptionreport-breakdownby.png)
+
+또한 데이터 보기 기준 메뉴를 사용 하 여 상위 5 개 받는 사람 도메인에 대 한 암호화 된 메시지 수를 확인 하기 위해 보기를 변경할 수 있습니다.
+
+![암호화 보고서 데이터 보기 별 메뉴](media/encryptionreport-viewdataby.png)
+
+새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 또한 사용할 수 있는 암호화 서식 파일의 수가 여러 개 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다. 
+
+이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다.
+
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-새 **위협 보호 상태** 보고서는 Exchange Online Protection에서 검색 하 여 차단한 악성 전자 메일을 보여 주는 스마트 보고서입니다. 이 보고서에는 맬웨어가 나 피싱 시도로 식별 된 전자 메일에 대 한 정보가 표시 됩니다. 
+**위협 방지 상태** 보고서는 Exchange Online Protection에서 검색 하 여 차단한 악성 전자 메일을 보여 주는 스마트 보고서입니다. 이 보고서에는 맬웨어가 나 피싱 시도로 식별 된 전자 메일에 대 한 정보가 표시 됩니다. 
 
 > [!NOTE]
 > [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP)이 있는 고객은 위협 보호 상태 보고서를 사용할 수 있습니다. 그러나 ATP 고객에 대 한 위협 방지 상태 보고서에 표시 되는 정보에는 고객에 게 표시 될 수 있는 것과 다른 데이터가 포함 될 가능성이 EOP. 예를 들어 EOP 고객은 전자 메일로 검색 된 맬웨어에 대 한 정보를 볼 수 있지만, [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보는 ATP 관련 기능입니다. [ATP 보고서에 대해 자세히 알아보세요](view-reports-for-atp.md).
@@ -109,13 +135,13 @@ ms.locfileid: "30242000"
   
 차트 아래에는 지정 된 기간 동안 보내거나 받은 메시지 수와 함께 맨 위에 있는 전자 메일 보낸 사람 또는 받는 사람이 표시 되는 사람을 볼 수 있습니다.
   
-## <a name="spoof-mail-report"></a>스푸핑 메일 보고서
+## <a name="spoof-detections-report"></a>스푸핑 감지 보고서
 
-**스푸핑** 메일 보고서에는 얼마나 많은 스푸핑 메일 메시지가 검색 되었는지, 즉 합법적인 비즈니스 이유로 인해 스푸핑 메일을 "양호" 한 것으로 간주 되는 메시지를 보여 줍니다. 
+**스푸핑** 감지 보고서에는 얼마나 많은 스푸핑 메일 메시지가 검색 되었는지, 즉 합법적인 비즈니스 이유로 인해 스푸핑 메일을 "양호" 한 것으로 간주 되는 메시지 들이 표시 됩니다. 
   
 이 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **스푸핑 메일로**이동 합니다.
   
-![이 보고서를 보려면 보안 &amp; 및 준수 센터에서 보고서 \> 대시보드 \> 위장 메일로 이동 합니다.](media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
+![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드 \> 위장 메일로 이동 합니다.](media/0427e85c-9e40-4225-a0f0-e21a4e8b0e44.png)
   
 차트에서 특정 날짜를 마우스로 가리키면 위장 메일 메시지의 수를 확인할 수 있습니다.
   
@@ -157,7 +183,7 @@ ms.locfileid: "30242000"
   
 ![이 보고서는 맬웨어 방지, 스팸 방지 및 기타 메시지 감지에 대해 알려줍니다.](media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
   
-## <a name="user-reported-messages-report-new"></a>사용자가 보고 한 메시지 보고서 (새 기능!)
+## <a name="user-reported-messages-report"></a>사용자가 보고 한 메시지 보고서
 
 **사용자가 보고 한 메시지** 보고서에는 사용자가 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 정크 메일, 피싱 시도 또는 좋은 메일로 보고 한 전자 메일 메시지에 대 한 정보가 표시 됩니다.
   

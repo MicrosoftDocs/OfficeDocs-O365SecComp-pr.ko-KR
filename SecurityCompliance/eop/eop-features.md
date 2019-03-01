@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: ab63cea5fb0e774f0242cfc4f85194eee5b0ffd9
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: d98451619503e28b032087855c06088079ac4d55
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223197"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341669"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -29,10 +29,10 @@ ms.locfileid: "30223197"
 |:-----|:-----|
 |**기능**|**설명**|
 |**스팸 방지 보호 기능**||
-|인바운드 스팸 검색|인바운드 스팸 방지 보호는 항상 사용되며, 사용하지 않도록 설정할 수 없습니다. 연결 필터 및 콘텐츠 필터 정책을 통해 사용자 지정 설정을 구성할 수 있습니다.  <br/> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 콘텐츠 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행할 수 있도록 하려면 온-프레미스 서버에서 두 개의 Exchange 전송 규칙을 구성 하 여 EOP에서 추가 된 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되도록](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)합니다 .를 참조 하세요.|
+|인바운드 스팸 검색|인바운드 스팸 방지 보호는 항상 사용되며, 사용하지 않도록 설정할 수 없습니다. 연결 필터 및 콘텐츠 필터 정책을 통해 사용자 지정 설정을 구성할 수 있습니다.  <br/> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 콘텐츠 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 추가 된 스팸 헤더를 검색 하기 위해 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. EOP 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되도록](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)합니다 .를 참조 하세요.|
 |아웃바운드 스팸 검색|아웃 바운드 스팸 방지 보호는 항상 사용 하도록 설정 되므로 아웃 바운드 전자 메일을 보내는 데 서비스를 사용 하는 경우 서비스와 해당 받는 사람을 사용 하는 조직을 보호할 수 있습니다. 인바운드 필터링과 마찬가지로 아웃 바운드 스팸 필터링은 연결 필터링 및 콘텐츠 필터링으로 구성 됩니다. 아웃 바운드 스팸 필터링 설정은 구성할 수 없지만 의심 스 럽 고 차단 된 아웃 바운드 메시지에 대 한 관리자 알림을 구성 하는 데 사용 하는 아웃 바운드 스팸 정책 설정이 있습니다. 자세한 내용은 [아웃 바운드 스팸 정책 구성을](../configure-the-outbound-spam-policy.md)참조 하세요.|
 |NDR 후방 산란 보호 기능|ndr 백 분산에 대 한 자세한 내용은 [고급 스팸 필터링 옵션](../advanced-spam-filtering-asf-options.md) 의 ndr 백 분산 설정 및 [후방 산란 메시지 및 EOP](../backscatter-messages-and-eop.md)을 참조 하십시오.|
-|대량 메일 필터링|EOP에는 대량 전자 메일 메시지를 식별 하기 위한 향상 된 검색 방법이 있습니다. 사용자 인터페이스를 통해 대량 전자 메일 메시지를 표시 하도록 서비스를 구성할 수 있습니다. 대량 메일 메시지 헤더 스탬프를 검색 하 여 대량 메일을 보다 적극적으로 필터링 하는 전송 규칙을 만들 수도 있습니다. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](../what-s-the-difference-between-junk-email-and-bulk-email.md) 및 관련 하위 주제를 참조 하세요.|
+|대량 메일 필터링|EOP에는 대량 전자 메일 메시지를 식별 하기 위한 향상 된 검색 방법이 있습니다. 사용자 인터페이스를 통해 대량 전자 메일 메시지를 표시 하도록 서비스를 구성할 수 있습니다. 대량 메일 메시지 헤더 스탬프를 검색 하 여 대량 메일을 보다 적극적으로 필터링 하는 메일 흐름 규칙을 만들 수도 있습니다. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](../what-s-the-difference-between-junk-email-and-bulk-email.md) 및 관련 하위 주제를 참조 하세요.|
 |악성 URL 차단 목록|EOP에서는 메시지 내에서 알려진 악성 링크를 검색하는 데 도움이 되는 여러 URL 차단 목록을 사용합니다.|
 |피싱 방지 보호 기능|EOP에는 750,000개의 알려진 스팸 발송자 도메인이 포함되어 있습니다.|
 |**스팸 관리**||
@@ -65,18 +65,18 @@ ms.locfileid: "30223197"
 |국가별 라우팅(메일 흐름이 특정 지역으로 제한)|자세한 내용은 [Exchange Online Protection 개요](exchange-online-protection-overview.md)에서 "EOP 데이터 센터" 섹션을 참조하세요.|
 |SMTP 연결 검사기 도구|이 도구를 사용하여 메일 흐름을 테스트하는 방법에 대한 자세한 내용은 [Test Mail Flow with the Remote Connectivity Analyzer](http://technet.microsoft.com/library/6c8c2964-d553-4329-8166-6e508dd63fa0.aspx)를 참조하세요.|
 |하위 도메인 일치|허용된 도메인의 하위 도메인 내/외부로의 메일 흐름을 설정하는 방법에 대한 자세한 내용은 [EOP에서 하위 도메인에 대한 전자 메일 흐름 사용](http://technet.microsoft.com/library/b5684042-dadc-4111-95b3-c2fd06e368bf.aspx)을 참조하세요.|
-|**전송 규칙**||
-|정책 기반 필터링 및 작업|사용자 지정 정책은 Exchange 전송 규칙을 기반으로 합니다. 도메인, 키워드, 파일 이름, 파일 형식, 제목 줄, 메시지 본문, 보낸 사람, 받는 사람, 헤더 및 IP 주소를 기준으로 필터링 할 수 있습니다. 자세한 내용은 [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md)을 참조 하세요.|
-|텍스트 패턴을 기준으로 필터링|전송 규칙에서는 배열 또는 정규식을 사용하여 텍스트를 일치시킬 수 있습니다. 또한 하나의 문자열 또는 문자열 배열을 사용하여 주소, 제목, 본문 또는 첨부 파일 이름과 같은 여러 메시지 속성을 일치시킬 수 있습니다. 자세한 내용은 [Transport Rule Conditions (Predicates)](http://technet.microsoft.com/library/04edeaba-afd4-4207-b2cb-51bcc44e483c.aspx)을 참조하세요.|
-|사용자 지정 사전|전송 규칙은 텍스트 및 키워드의 긴 목록을 포함할 수 있습니다. 이는 사용자 지정 사전과 동일한 기능을 제공합니다.|
-|도메인별 정책 규칙|보낸 사람 또는 받는 사람 도메인 이름, IP 주소 범위, 주소 키워드 또는 패턴, 그룹 구성원 및 기타 조건에 맞게 전송 규칙 범위를 사용자 지정할 수 있습니다. 자세한 내용은 [Transport Rule Conditions (Predicates)](http://technet.microsoft.com/library/04edeaba-afd4-4207-b2cb-51bcc44e483c.aspx)을 참조하세요.  |
+|**메일 흐름 규칙**||
+|정책 기반 필터링 및 작업|사용자 지정 정책은 Exchange 메일 흐름 규칙을 기반으로 합니다. 도메인, 키워드, 파일 이름, 파일 형식, 제목 줄, 메시지 본문, 보낸 사람, 받는 사람, 헤더 및 IP 주소를 기준으로 필터링 할 수 있습니다. 자세한 내용은 [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md)을 참조 하세요.|
+|텍스트 패턴을 기준으로 필터링|메일 흐름 규칙은 배열 또는 정규식을 사용 하 여 텍스트를 일치 시킬 수 있습니다. 또한 하나의 문자열 또는 문자열 배열을 사용 하 여 주소, 제목, 본문 또는 첨부 파일 이름과 같은 여러 메시지 속성을 일치 시킬 수 있습니다. 자세한 내용은 [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md) 을 참조 하세요.|
+|사용자 지정 사전|메일 흐름 규칙에는 사용자 지정 사전과 같은 기능을 제공 하는 긴 텍스트 및 키워드 목록이 포함 될 수 있습니다.|
+|도메인별 정책 규칙|메일 흐름 규칙의 범위를 사용자 지정 하 여 보낸 사람 또는 받는 사람 도메인 이름, IP 주소 범위, 주소 키워드 또는 패턴, 그룹 멤버 자격 및 기타 조건을 일치 시킬 수 있습니다.|
 |첨부 파일 검색|첨부 파일의 파일 이름, 확장명 및 내용을 검색하도록 규칙을 만들 수 있습니다.|
-|보낸 사람에게 정책 규칙 알림 보내기|메시지를 거부 하 고 **설명에 대 한 메시지 거부** 를 통해 보낸 사람에 게 배달 못 함 보고서 (NDR)를 보내거나 **확장 상태 코드 작업을 사용 하 여 메시지를 거부할** 수 있습니다. 자세한 내용은 [Transport rule actions](http://technet.microsoft.com/library/f8621ecb-a177-4025-9011-a6569999746a.aspx)을 참조 하십시오.|
-|고정된 주소로 메시지 보내기(예: 메시지를 특정 주소로 리디렉션 또는 특정 복사)|전송 규칙은 리디렉션하고, 참조 또는 숨은 참조로 받는 사람을 추가하고, 받는 사람 및 기타 옵션을 추가할 수 있습니다. 자세한 내용은 [Transport rule actions](http://technet.microsoft.com/library/f8621ecb-a177-4025-9011-a6569999746a.aspx)을 참조하세요.|
-|여러 규칙에서 규칙의 우선 순위를 쉽게 조정할 수 있는 기능|Exchange 관리 센터를 사용하여 규칙이 처리되는 순서를 변경할 수 있습니다. 자세한 내용은 [Manage Transport Rules](http://technet.microsoft.com/library/e7a81372-b6d7-4d1f-bc9e-a845a7facac2.aspx)를 참조하세요.  |
+|보낸 사람에게 정책 규칙 알림 보내기|메시지를 거부 하 고 **설명에 대 한 메시지 거부** 를 통해 보낸 사람에 게 배달 못 함 보고서 (NDR)를 보내거나 **확장 상태 코드 작업을 사용 하 여 메시지를 거부할** 수 있습니다. 자세한 내용은 [메일 흐름 규칙 작업](http://technet.microsoft.com/library/f8621ecb-a177-4025-9011-a6569999746a.aspx)을 참조 하십시오.|
+|고정된 주소로 메시지 보내기(예: 메시지를 특정 주소로 리디렉션 또는 특정 복사)|메일 흐름 규칙은 이동 가능, 참조 복사 또는 숨은 참조로 받는 사람 추가, 받는 사람 및 기타 옵션을 추가 하기만 하면 됩니다. 자세한 내용은 [메일 흐름 규칙 작업](http://technet.microsoft.com/library/f8621ecb-a177-4025-9011-a6569999746a.aspx)을 참조 하십시오.|
+|여러 규칙에서 규칙의 우선 순위를 쉽게 조정할 수 있는 기능|Exchange 관리 센터를 사용하여 규칙이 처리되는 순서를 변경할 수 있습니다.|
 |메시지를 필터링한 다음 메시지의 속성 또는 라우팅을 변경하는 기능|다양 한 조건에 따라 메시지를 필터링 한 다음 각 메시지에 일련의 작업을 적용할 수 있습니다. 자세한 내용은 [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md)을 참조 하세요.|
 |규칙에 따라 메시지의 스팸 지수 변경|전송 중인 메시지를 검사 하 고 선택한 기준에 따라 스팸 지 수를 해당 수준에 할당할 수 있습니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 메시지에서 SCL (스팸 지 수) 설정을](../use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)참조 하십시오.|
-|메시지 첨부 파일 검사|첨부 파일의 내용 또는 첨부된 파일의 특성을 조사하고 발견된 항목에 따라 수행할 작업을 정의할 수 있습니다. 자세한 내용은 [Using transport rules to inspect message attachments](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx)를 참조하세요.  |
+|메시지 첨부 파일 검사|첨부 파일의 내용 또는 첨부 된 파일과 특성을 검사 하 고 발견 된 항목에 따라 수행할 작업을 정의할 수 있습니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 메시지 첨부 파일 검사](http://technet.microsoft.com/library/874d1c78-a8ec-4938-b388-d3208c2fa971.aspx)를 참조 하세요.|
 |**관리**||
 |웹 기반 관리|EOP 관리자는 60 언어에서 지원 되는 EAC (Exchange 관리 센터) 인터페이스를 통해 서비스를 관리할 수 있습니다. 자세한 내용은 exchange [Online Protection의 exchange 관리 센터 ](../exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.|
 |디렉터리 동기화|디렉터리 동기화는 Azure Active Directory 동기화 도구를 통해 사용할 수 있습니다. 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리" 섹션을 참조하세요.  |
@@ -84,7 +84,7 @@ ms.locfileid: "30223197"
 |원격 Windows PowerShell 액세스|전체 EOP 기능을 원격 Windows PowerShell을 통해 사용할 수 있습니다. 자세한 내용은 [PowerShell in Exchange Online Protection](http://technet.microsoft.com/library/f7918a88-774a-405e-945b-bc2f5ee9f748.aspx)을 참조하세요.  |
 |**보고 및 로깅**||
 |메시지 추적|메시지 추적 기능을 사용하면 전자 메일 메시지가 서비스를 통과할 때 관리자로서 이를 추적할 수 있습니다. 이렇게 하면 서비스에서 대상 전자 메일 메시지를 수신, 거부, 지연 또는 배달했는지 여부를 확인하는 데 도움이 되며, 사용자의 질문에 효과적으로 답변하고, 메일 흐름 문제를 해결하고, 정책 변경의 유효성을 검사하고, 기술 지원팀에 문의해야 하는 수고를 덜어 줍니다. 자세한 내용은 [Trace an Email Message](http://technet.microsoft.com/library/0c83cde6-5b09-4106-8587-c200cdc59094.aspx)을 참조하세요.  |
-|웹 기반 보고서|Office 365 관리 센터의 메일 보호 보고서는 메시징 데이터를 제공합니다. 예를 들어 일치되는 스팸 및 맬웨어의 양 또는 전송 규칙이 일치되는 빈도를 모니터링할 수 있습니다. 이러한 대화형 보고서를 사용하여 최대 90일 이전의 요약 데이터에 대한 시각적 보고서를 빠르게 보고 개별 메시지의 세부 정보를 드릴다운할 수 있습니다. 자세한 내용은 [Use mail protection reports in Office 365 to view data about malware, spam, and rule detections](http://technet.microsoft.com/library/bcef7984-4bfa-4ca8-9fa5-a65af8618f5d.aspx)를 참조하세요.  |
+|웹 기반 보고서|Office 365 관리 센터의 메일 보호 보고서는 메시징 데이터를 제공 합니다. 예를 들어 검색 되는 스팸 및 맬웨어가 얼마나 되는지, 메일 흐름 규칙이 일치 하는 빈도를 모니터링할 수 있습니다. 이러한 대화형 보고서를 사용 하 여 요약 데이터에 대 한 시각적 보고서를 빠르게 확인 하 고 개별 메시지에 대 한 세부 정보를 드릴 다운할 수 있습니다 (최대 90 일). 자세한 내용은 [Office 365의 메일 보호 보고서를 사용 하 여 맬웨어, 스팸 및 규칙 감지에 대 한 데이터 보기](http://technet.microsoft.com/library/bcef7984-4bfa-4ca8-9fa5-a65af8618f5d.aspx)를 참조 하세요.|
 |Excel 보고 통합 문서를 통한 세부 보고|Excel 2013 보고 통합 문서의 전자 메일 보호 보고서도 사용할 수 있습니다. 그러나 이 보고서 대신 향상된 Office 365 관리 센터 보고서를 사용하는 것이 좋습니다. Excel 2013 보고 통합 문서는 향후 더 이상 사용되지 않을 예정입니다.|
 |감사 로깅|EOP 관리에 관리자 역할 그룹 보고서 및 관리자 감사 로그를 사용할 수 있습니다. 자세한 내용은 [EOP의 감사 보고서](auditing-reports-in-eop.md)를 참조하세요.  |
 |**SLA(서비스 수준 계약) 및 지원**||

@@ -11,18 +11,18 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 46bc63232be3ece8b9e5c6fce6bbea18dcfdf2b4
-ms.sourcegitcommit: e9dca2d6a7838f98bb7eca127fdda2372cda402c
+ms.openlocfilehash: b0093c64a0fcb5997b474e7bd491c0915164b77e
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2018
-ms.locfileid: "23003047"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341029"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다. EOP에서는 여러 가지 방식으로 사용자를 관리할 수 있습니다.
   
-- 디렉터리 동기화를 사용 하 여 메일 사용자를 관리: 회사의 온-프레미스 Active Directory 환경에서 기존 사용자 계정을 있으면 동기화 할 수 있습니다 해당 계정에 Azure Active Directory (AD), 클라우드에서 계정의 복사본을 저장 합니다. Azure Active Directory에 기존 사용자 계정에 동기화 할 때에 Exchange 관리 센터 (EAC)의 **받는 사람에 게** 창에서 해당 사용자를 볼 수 있습니다. 디렉터리 동기화를 사용 하는 것이 좋습니다. 
+- 디렉터리 동기화를 사용 하 여 메일 사용자 관리: 회사의 온-프레미스 Active directory 환경에 기존 사용자 계정이 있는 경우 해당 계정을 Azure AD (active directory)와 동기화 하 여 계정 복사본을 클라우드에 저장할 수 있습니다. 기존 사용자 계정을 Azure Active Directory에 동기화 할 때 EAC (Exchange 관리 센터)의 **받는 사람** 창에서 해당 사용자를 볼 수 있습니다. 디렉터리 동기화를 사용 하는 것이 좋습니다. 
     
 - EAC를 사용하여 메일 사용자 관리: EAC에서 메일 사용자를 직접 추가하고 관리합니다. 이 방법이 메일 사용자를 추가하는 가장 쉬운 방법이며 한 번에 한 명의 사용자를 추가하는 데 유용합니다.
     
@@ -48,7 +48,7 @@ ms.locfileid: "23003047"
 > 디렉터리 동기화를 사용하여 받는 사람을 관리하는 경우 Office 365 관리 센터에서 계속해서 사용자를 추가하고 관리할 수 있습니다. 하지만 이러한 받는 사람은 온-프레미스 Active Directory와 동기화되지는 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory의 받는 사람만 클라우드로 동기화하기 때문입니다. 
   
 > [!TIP]
->  다음 기능을 사용하려면 디렉터리 동기화를 사용하는 것이 좋습니다. > **Outlook 수신 허용 및 ‎수신 거부 보낸 사람 목록** - 서비스와 동기화하면 이러한 목록이 서비스의 스팸 필터링보다 우선합니다. 이를 통해 사용자는 사용자 또는 도메인 기준으로 수신 허용 및 수신 거부 보낸 사람 목록을 자체적으로 관리할 수 있습니다. > **DBEB(디렉터리 기반 Edge 차단)** - DBEB에 대한 자세한 내용은 [Use Directory Based Edge Blocking to Reject Messages Sent to Invalid Recipients](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)를 참조하세요. > **최종 사용자 스팸 격리** - 최종 사용자 스팸 격리에 액세스하려면 최종 사용자에게 유효한 Office 365 사용자 ID와 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다. > **전송 규칙** - 디렉터리 동기화를 사용하면 기존 Active Directory 사용자 및 그룹이 클라우드에 자동으로 업로드되며, EAC 또는 원격 Windows PowerShell을 통해 수동으로 추가하지 않고도 특정 사용자 및/또는 그룹을 대상으로 하는 전송 규칙을 만들 수 있습니다. [동적 메일 그룹](https://go.microsoft.com/fwlink/?LinkId=507569)은 디렉터리 동기화를 통해 동기화할 수 없습니다. 
+>  > **Outlook 수신 허용-보낸 사람 및 수신 거부 목록** -서비스와 동기화 된 경우이 목록에는 서비스의 스팸 필터링 보다 우선 순위가 더 높은 디렉터리 동기화 기능을 사용 하는 것이 좋습니다. 이를 통해 사용자는 사용자별 또는 도메인 별로 수신 허용-보낸 사람 및 수신 거부 목록을 관리할 수 있습니다. **dbeb (> Directory 기반 edge 차단)** -dbeb에 대 한 자세한 내용은 [Use Directory Based edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)합니다 .를 참조 하세요. > 최종 사용자 스팸 **격리** -최종 사용자 스팸 격리에 액세스 하기 위해 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호 하는 EOP 고객은 유효한 전자 메일 사용자 여야 합니다. > **메일 흐름 규칙** -디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고 특정 사용자를 대상으로 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. 아니면 EAC 또는 Exchange Online Protection PowerShell을 통해 그룹을 수동으로 추가 하지 않아도 됩니다. [동적 메일 그룹](https://go.microsoft.com/fwlink/?LinkId=507569) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다. 
   
  **시작하기 전에**
   
@@ -101,7 +101,7 @@ ms.locfileid: "23003047"
     
 ### <a name="to-edit-or-remove-a-mail-user-in-the-eac"></a>EAC에서 메일 사용자를 편집하거나 제거하려면
 
-- EAC에서 **받는 사람** 에 게 이동 \> **연락처**입니다. 사용자의 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 **편집** 을 선택 ![편집 아이콘](../media/ITPro-EAC-EditIcon.gif) 필요에 따라 사용자 설정을 업데이트 합니다. 사용자의 이름, 별칭 또는 연락처 정보를 변경할 수 하 고 조직에서 사용자의 역할에 대 한 자세한 정보를 기록할 수 있습니다. 또한 사용자를 선택 하 고 **제거**를 선택 합니다![제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) 를 삭제 합니다. 
+- EAC에서 **받는 사람** \> **연락처로**이동 합니다. 사용자 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 편집 아이콘](../media/ITPro-EAC-EditIcon.gif) **편집** ![을 선택 하 여 사용자 설정을 필요에 따라 업데이트 합니다. 사용자의 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대 한 자세한 정보를 기록할 수 있습니다. 사용자를 선택한 다음 제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) **제거**![를 선택 하 여 삭제를 삭제할 수도 있습니다. 
     
 ## <a name="use-remote-windows-powershell-to-manage-mail-users"></a>원격 Windows PowerShell을 사용하여 메일 사용자 관리
 

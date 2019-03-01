@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 87496bc5-9601-4473-8021-cb05c71369c1
 description: '정책 팁은 다른 사용자가 DLP 정책과 충돌 하는 콘텐츠로 작업할 때 표시 되는 알림 또는 경고입니다. 전자 메일 알림 및 정책 팁을 사용 하 여 인식을 향상 하 고 조직의 정책에 대 한 사용자를 교육 시킬 수 있습니다. 또한 사용자에 게 올바른 비즈니스 요구 사항이 있거나 정책이 가양성을 검색 하는 경우 차단 되지 않도록 정책을 재정의 하는 옵션을 제공할 수도 있습니다. '
-ms.openlocfilehash: 1e161aa1b8de48cea32718f2c04b05436b25c0ff
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 77bf9947356a4c8986e8b8cca7544350fa300c01
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216449"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341699"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대 한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -227,7 +227,7 @@ DLP 정책은 사이트와 동기화되고 정책을 기준으로 콘텐츠가 �
 
 정책 팁은 Exchange 관리 센터에서 만든 dlp 정책 및 메일 흐름 규칙 또는 Office 365 보안 &amp; 준수 센터에서 만든 dlp 정책을 사용 하거나 둘 다 사용할 수 없습니다. 이러한 정책은 서로 다른 위치에 저장 되어 있지만 정책 팁은 단일 위치 에서만 그릴 수 있기 때문입니다.
   
-exchange 관리 센터에서 정책 팁을 구성한 경우에는 exchange의 팁을 해제할 때까지 Office 365 보안 &amp; 준수 센터에서 구성한 정책 팁이 웹 및 outlook 2013 이상 outlook의 사용자에 게 표시 되지 않습니다. 관리 센터 이렇게 하면 Office 365 보안 &amp; 및 준수 센터로 전환 하도록 선택할 때까지 현재 Exchange 전송 규칙이 계속 작동 합니다.
+exchange 관리 센터에서 정책 팁을 구성한 경우에는 exchange의 팁을 해제할 때까지 Office 365 보안 &amp; 준수 센터에서 구성한 정책 팁이 웹 및 outlook 2013 이상 outlook의 사용자에 게 표시 되지 않습니다. 관리 센터 이렇게 하면 Office 365 보안 &amp; 및 준수 센터로 전환 하도록 선택할 때까지 현재 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)이 계속 작동 합니다.
   
 정책 팁은 단일 위치 에서만 그릴 수 있지만 Office 365 보안 &amp; 및 준수 센터와 Exchange 관리 센터 둘 다에서 DLP 정책을 사용 하는 경우에도 전자 메일 알림이 항상 전송 됩니다.
   

@@ -14,12 +14,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 하면 각 메시지에 **X-스팸 방지-Report** 헤더가 삽입 됩니다.
-ms.openlocfilehash: 13bcb3598552bbb63bd50b50963b9806c3f34844
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: fa14d32f06d07bf7c5131e9c417e9baa0720fcdd
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276198"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341739"
 ---
 # <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
 
@@ -46,10 +46,10 @@ Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 
 |IPV:CAL|연결 필터의 IP 허용 목록에 IP 주소가 지정되어 있어 메시지가 스팸 필터를 통과하도록 허용되었습니다.|
 |IPV:NLI|IP 주소가 IP 신뢰도 목록에 포함되지 않았습니다.|
 |SFV:SPM|메시지가 콘텐츠 필터에 의해 스팸으로 표시되었습니다.|
-|SFV:SKS|메시지가 콘텐츠 필터에 의해 처리되기 전에 이미 스팸으로 표시되었습니다. 전송 규칙과 일치하여 스팸으로 자동 표시되고 모든 추가 필터링을 무시하는 메시지가 여기에 포함됩니다.|
+|SFV:SKS|메시지가 콘텐츠 필터에 의해 처리 되기 전에 스팸으로 표시 되었습니다. 여기에는 메시지가 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하 여 자동으로 스팸으로 표시 되 고 모든 추가 필터링을 무시 하는 메시지가 포함 됩니다.|
 |SFV: 고 대 중 A|메시지가 필터링을 무시 하 고 **보낸 사람 허용** 목록과 같은 스팸 필터 정책의 허용 목록과 일치 하 여 받은 편지 함으로 배달 되었습니다.|
 |SFV: SKB|메시지가 수신 허용- **차단** 목록과 같은 스팸 필터 정책의 차단 목록과 일치 하므로 스팸으로 표시 되었습니다.|
-|SFV:SKN|메시지가 콘텐츠 필터에 의해 처리 되기 전에 스팸이 아닌 것으로 표시 되어 있습니다. 여기에는 메시지가 전송 규칙과 일치 하 여 자동으로 스팸이 아닌 것으로 표시 되 고 모든 추가 필터링을 무시 하는 메시지가 포함 됩니다.|
+|SFV:SKN|메시지가 콘텐츠 필터에 의해 처리 되기 전에 스팸이 아닌 것으로 표시 되어 있습니다. 여기에는 메시지가 메일 흐름 규칙과 일치 하 여 스팸이 아닌 메시지로 자동 표시 되 고 모든 추가 필터링을 무시 하기 위한 메시지가 포함 됩니다.|
 |SFV:SKI|SFV:SKN와 마찬가지로 다른 이유 때문에 메시지 필터링을 건너뛰었습니다(예: 테넌트 내의 조직 내 전자 메일).|
 |SFV:SKQ|메시지가 격리에서 해제되었으며 받는 사람에게 전송되었습니다.|
 |SFV:NSPM|메시지가 스팸이 아닌 것으로 표시되었으며 받는 사람에게 전송되었습니다.|

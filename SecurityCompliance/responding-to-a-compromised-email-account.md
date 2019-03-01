@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 손상 된 전자 메일 계정을 인식 하 고 응답 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6692c63d6cf349af3f3debea10251880d8d1e16c
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 326ec01c570ad97b5f1eaf06dcfe1ad4e6ad76f4
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223407"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341099"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
 

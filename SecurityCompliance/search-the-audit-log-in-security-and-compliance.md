@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'office 365 Security & 준수 센터를 사용 하 여 office 365 조직의 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색할 수 있습니다. '
-ms.openlocfilehash: 6cab2a0495b4c4b1976a5c45b898603653568599
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: ac4ded889b913b2a090e4002f917ec06485948e1
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296611"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341779"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 Security & 준수 센터에서 감사 로그 검색
 
@@ -295,12 +295,13 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |:-----|:-----|:-----|
 |[파일 및 페이지 활동](#file-and-page-activities)<br/> |[폴더 활동](#folder-activities)<br/> |[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)<br/> |
 |[동기화 작업](#synchronization-activities)<br/> |[사이트 관리 작업](#site-administration-activities)<br/> |[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |
-|[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> |[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |
-|[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/> |
-|[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|
-[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow](#microsoft-flow) <br/> 
-|[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
-|||
+|[보존 정책 및 레이블 활동](#retention-policy-and-label-activities) <br/>|[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> 
+|[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |
+|[디렉터리 관리 작업](#directory-administration-activities) <br/> |[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |
+|[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |
+[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|
+|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>
+||||
    
   
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -450,8 +451,10 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |**이름**|**Operation**|**설명**|
 |:-----|:-----|:-----|
 |대리인 사서함 사용 권한 추가  <br/> |add-mailboxpermission 추가  <br/> |관리자가 다른 사람의 사서함에 대 한 사용자 (대리인)에 게 FullAccess 사서함 권한을 할당 했습니다. FullAccess 사용 권한을 사용 하면 대리인이 다른 사용자의 사서함을 열고 사서함의 내용을 읽고 관리할 수 있습니다.  <br/> |
+|레코드로 분류 된 메시지  <br/> |applyrecordlabel<br/> |메시지가 레코드로 분류 되었습니다. 콘텐츠를 레코드로 분류 하는 보존 레이블이 수동으로 또는 메시지에 자동으로 적용 되는 경우이 이벤트가 발생 합니다.<br/> |
 |다른 폴더로 복사한 메시지  <br/> |복사  <br/> |메시지가 다른 폴더에 복사되었습니다.  <br/> |
 |만든 사서함 항목  <br/> |만들기  <br/> |사서함의 일정, 연락처, 메모 또는 작업 폴더에 항목이 만들어집니다. 예를 들어 새 모임 요청이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 또한 사서함 폴더를 만드는 것은 감사 되지 않습니다.  <br/> |
+|Outlook web app에서 새 받은 편지함 규칙을 만들었습니다.  <br/> |NewInboxRule<br/> |<br/> |
 |지운 편지함 폴더에서 삭제 된 메시지  <br/> |SoftDelete  <br/> |메시지가 영구적으로 삭제 되거나 지운 편지함 폴더에서 삭제 되었습니다. 이러한 항목은 복구 가능한 항목 폴더로 이동 됩니다. 또한 메시지는 사용자가 선택 하 고 **Shift + Delete**를 누를 때 복구 가능한 항목 폴더로 이동 됩니다.<br/> |
 |메시지를 다른 폴더로 이동  <br/> |이동  <br/> |메시지가 다른 폴더로 이동했습니다.  <br/> |
 |지운 편지함 폴더로 메시지 이동  <br/> |MoveToDeletedItems  <br/> |메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.  <br/> |
@@ -466,6 +469,28 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |none  <br/> |UpdateInboxRules  <br/> |받은 편지함 규칙이 추가, 제거 또는 변경 된 경우 받은 편지함 규칙은 지정 된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리 하 고, 메시지를 지정 된 폴더로 이동 하거나 메시지를 삭제 하는 것과 같이 규칙의 조건이 충족 될 때 작업을 수행 하는 데 사용 됩니다.<br/> 받은 편지함 규칙 활동의 항목을 반환 하려면 **활동** 목록에서 **모든 활동에 대 한 결과 표시** 를 선택 해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다.<br/> |
 ||||
   
+### <a name="retention-policy-and-label-activities"></a>보존 정책 및 레이블 활동
+
+다음 표에는 office 365 보존 정책 및 office 365 보존 레이블과 관련 된 작업에 대 한 자세한 내용은 다음을 참조 하십시오.
+
+- [보존 정책 개요](retention-policies.md)
+- [보존 레이블 개요](labels.md)
+<br/>
+
+|**작업**|**Operation**|**설명**|
+|:-----|:-----|:-----|
+| 보존 정책에 대 한 보존 구성을 만들었습니다.<br/> |NewRetentionComplianceRule<br/> |관리자가 새 보존 정책에 대 한 보존 설정을 구성 합니다. 보존 설정에는 항목이 보존 되는 기간, 보존 기간이 만료 되 면 항목 삭제, 항목 보존 또는 삭제와 같은 항목이 수행 되는 시간이 포함 됩니다. 이 활동은 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) cmdlet을 실행 하는 경우에도 해당 됩니다.<br/>|
+| 만든 보존 레이블 <br/> |NewComplianceTag<br/>  |관리자가 새 보존 레이블을 만듭니다.<br/> |
+| 만들어진 보존 정책<br/> |NewRetentionCompliancePolicy<br/> |관리자가 새 보존 정책을 만듭니다.<br/>  |
+| 보존 정책에 대 한 삭제 된 보존 구성<br/> | RemoveRetentionComplianceRule<br/>| 관리자가 보존 정책의 구성 설정을 삭제 합니다. 이 작업은 관리자가 보존 정책을 삭제 하거나 **new-retentioncompliancerule** cmdlet을 실행 하는 경우에 기록 될 수 있습니다.<br/> |
+| 삭제 된 보존 레이블 <br/> |removecompliancetag<br/>  | 관리자가 보존 레이블을 삭제 합니다.<br/>|
+| 삭제 된 보존 정책<br/> |RemoveRetentionCompliancePolicy<br/> |관리자가 보존 정책을 삭제 합니다. <br/>  |
+| 규정 준수 기능 사용<br/> |SetRestrictiveRetentionUI<br/> |관리자는 RegulatoryComplianceUI cmdlet을 실행 하 여 규정 준수 기능을 사용 하도록 **설정** 합니다. 이 cmdlet을 실행 하 고 나면 관리자가 보안 & 준수 센터 UI를 사용 하 여 보존 정책을 잠그고 보존 레이블을 규정 레코드로 지정할 수 있습니다. 조직에서 **RegulatoryComplianceUI** cmdlet을 사용 하 여 이러한 기능을 사용 하도록 설정 하기 전 까지는 보존 정책을 잠그고 규정 보존 레이블을 만드는 작업을 PowerShell을 통해서만 수행할 수 있습니다.<br/>|
+| 보존 정책에 대 한 업데이트 된 보존 구성<br/> | SetRetentionComplianceRule<br/>| 관리자가 기존 보존 정책에 대 한 보존 설정을 변경 합니다. 보존 설정에는 항목이 보존 되는 기간, 보존 기간이 만료 되 면 항목 삭제, 항목 보존 또는 삭제와 같은 항목이 수행 되는 시간이 포함 됩니다. 이 활동은 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule) cmdlet을 실행 하는 경우에도 해당 됩니다.<br/>|
+| 업데이트 된 보존 레이블 <br/> |SetComplianceTag<br/>  | 관리자가 기존 보존 레이블을 업데이트 합니다.<br/>|
+| 업데이트 된 보존 정책<br/> |SetRetentionCompliancePolicy <br/>|관리자가 기존 보존 정책을 업데이트 합니다. 이 이벤트를 트리거하는 업데이트에는 보존 정책이 적용 되는 콘텐츠 위치 추가 또는 제외가 포함 됩니다.<br/>|
+||||
+
 ### <a name="sway-activities"></a>Sway 활동
   
 다음 표에는 Sway의 사용자 및 관리 활동이 나와 있습니다. Sway는 대화형 웹 기반 캔버스에서 아이디어, 스토리 및 프레젠테이션을 수집 하 고 서식을 지정 하 고 공유 하는 데 도움이 되는 Office 365 앱입니다. 자세한 내용은 [Sway-Admin 도움말에 대 한 질문과 대답](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075)을 참조 하십시오.
@@ -663,7 +688,7 @@ Power BI에 대 한 감사 로깅은 기본적으로 사용 하지 않도록 설
 |표시 한 파일  <br/> |열어 본 파일  <br/> |사용자가 파일을 볼 수 있습니다.  <br/> |
 ||||
    
-### <a name="microsoft-flow"></a>Microsoft Flow
+### <a name="microsoft-flow-activities"></a>Microsoft Flow 활동
 
 Microsoft Flow에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 작업에는 흐름 만들기, 편집 및 삭제, 흐름 권한 변경 등이 있습니다. 유동 활동을 감사 하는 방법에 대 한 자세한 내용은 [현재 Office 365 Security & 준수 센터에서 사용할 수 있는 블로그 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 참조 하십시오.
 
@@ -671,10 +696,10 @@ Microsoft Flow에서 활동에 대 한 감사 로그를 검색할 수 있습니�
 
 PowerApps에서 앱 관련 작업에 대 한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱 만들기, 시작 및 게시 등이 포함 됩니다. 앱에 사용 권한을 할당 하는 작업도 감사 됩니다. 모든 powerapps 활동에 대 한 설명은 [powerapps에 대 한 활동 로깅을](https://docs.microsoft.com/en-us/power-platform/admin/logging-powerapps#what-events-are-audited)참조 하십시오.
 
-### <a name="microsoft-stream"></a>Microsoft Stream
+### <a name="microsoft-stream-activities"></a>Microsoft Stream 작업
   
 Microsoft Stream에서 작업에 대 한 감사 로그를 검색할 수 있습니다. 이러한 작업에는 사용자 관리, 그룹 채널 작업 및 관리 작업 (예: 사용자 관리자, 조직 설정 관리, 보고서 내보내기 등)에 의해 수행 되는 비디오 작업이 포함 됩니다. 이러한 작업에 대 한 자세한 내용은 [microsoft stream의 감사 로그](https://docs.microsoft.com/stream/audit-logs)에서 "microsoft stream에 기록 된 활동" 섹션을 참조 하십시오.
-  
+
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그
   
 office 365에서 기본적으로 사용 되는 Exchange 관리자 감사 로깅은 관리자 또는 관리 권한이 할당 된 사용자가 exchange Online 조직을 변경할 때 office 365 감사 로그에 이벤트를 기록 합니다. exchange 관리 센터를 사용 하거나 Windows PowerShell에서 cmdlet을 실행 하 여 변경한 내용은 exchange 관리자 감사 로그에 기록 됩니다. Exchange의 관리자 감사 로깅에 대 한 자세한 내용은 [관리자 감사 로깅을](https://go.microsoft.com/fwlink/p/?LinkID=619225)참조 하십시오.

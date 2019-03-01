@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 서로 다른 버전의 Office 365 메시지 암호화와 함께 제공 되는 기능의 차이점 및 두 가지 작업을 계속 하는 방법을 설명 합니다.
-ms.openlocfilehash: 477fbe8f9d71bd92225a7ba5043576f164933b4e
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 47632d7e960e2dee2b068baaf46b98716fc8d4d0
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216678"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341439"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
@@ -31,7 +31,7 @@ ms.locfileid: "30216678"
 |                                   |이전 기능       |                   |새로운 기능              |
 |-----------------------------------|-------------------|-------------------|--------------------------|
 |**기능**                     | **레거시 OME**    | **IRM**           | **새로운 OME 기능** |
-|*암호화 된 메일 보내기*        |Exchange 메일 흐름 규칙을 통해|최종 사용자가 outlook 데스크톱 또는 웹용 outlook에서 시작 됩니다. 또는 Exchange 메일 흐름 규칙을 통해|최종 사용자가 outlook 데스크톱, Mac 용 outlook 또는 웹용 outlook에서 시작 되었습니다. Exchange 전송 규칙 및 Office 365에서 DLP (데이터 손실 방지)를 통해|
+|*암호화 된 메일 보내기*        |Exchange 메일 흐름 규칙을 통해|최종 사용자가 outlook 데스크톱 또는 웹용 outlook에서 시작 됩니다. 또는 Exchange 메일 흐름 규칙을 통해|최종 사용자가 outlook 데스크톱, Mac 용 outlook 또는 웹용 outlook에서 시작 되었습니다. Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함) 및 Office 365 DLP (데이터 손실 방지)를 통해|
 |*권한 관리 템플릿*       |   해당 없음      |전달 금지 옵션 및 사용자 지정 서식 파일|전달 금지 옵션, 암호화 전용 옵션 및 사용자 지정 템플릿|
 |*받는 사람 유형*                   |내부 및 외부 받는 사람|내부 받는 사람만         |내부 및 외부 받는 사람|
 |*내부 받는 사람에 대 한 경험*|받는 사람은 웹 브라우저나 모바일 앱에서 다운로드 하 고 여는 HTML 메시지를 받습니다.|Outlook 클라이언트의 기본 인라인 환경|Office 365 받는 사람에 대 한 기본 인라인 환경 다른 모든 받는 사람은 OME 포털에서 메시지를 읽을 수 있습니다 (다운로드 또는 앱이 필요 하지 않음).|

@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: baba6b56034ec5c3f2af1c291a7f8b5100f0f092
-ms.sourcegitcommit: 8679937354c1d8870ecd41519a59d2d7468c23c4
+ms.openlocfilehash: 3f00cc07058bd2399732299b3221ebd4258dc5ff
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087347"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341629"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -36,7 +36,7 @@ EOP가 받는 전자 메일을 처리하는 방법을 확인하면 EOP의 작동
   
 ![EOP-전자 메일 처리](../media/EOP-email-processing.png)
   
-처음에 들어오는 메시지는 보낸 사람의 신뢰도를 확인 하 고 맬웨어가 있는지 메시지를 검사 하는 연결 필터링을 통해 전달 됩니다. 대부분의 스팸이이 지점에서 중지 되 고 EOP에서 삭제 됩니다. 메시지는 서식 파일에서 만들거나 적용 하는 사용자 지정 전송 규칙에 대해 메시지를 평가 하는 정책 필터링을 통해 계속 됩니다. 예를 들어 메일이 특정 보낸 사람에 게 서 도착 하면 관리자에 게 알림을 보내는 규칙을 만들 수 있습니다. (데이터 손실 방지 확인은이 시점에도 발생 하며, 해당 기능이 있는 경우 [Exchange Online Protection 서비스 설명을](https://go.microsoft.com/fwlink/p/?LinkId=320619)참조 하세요.) 다음으로, 메시지는 스팸에 공통 되는 용어 또는 속성에 대해 콘텐츠를 확인 하는 콘텐츠 필터링을 통과 합니다. 콘텐츠 필터에 의해 스팸으로 확인 되는 메시지는 사용자의 정크 메일 폴더로 전송 하거나 설정에 따라 다른 옵션 중 하나를 사용 하 여 격리로 보낼 수 있습니다. 메시지는 이러한 모든 보호 계층을 성공적으로 통과 하면 받는 사람에 게 배달 됩니다.
+처음에 들어오는 메시지는 보낸 사람의 신뢰도를 확인 하 고 맬웨어가 있는지 메시지를 검사 하는 연결 필터링을 통해 전달 됩니다. 대부분의 스팸이이 지점에서 중지 되 고 EOP에서 삭제 됩니다. 메시지는 서식 파일에서 만들거나 적용 하는 사용자 지정 메일 흐름 규칙 (전송 규칙이 라고도 함)에 대해 메시지를 평가 하는 정책 필터링을 계속 합니다. 예를 들어 메일이 특정 보낸 사람에 게 서 도착 하면 관리자에 게 알림을 보내는 규칙을 만들 수 있습니다. (데이터 손실 방지 확인은이 시점에도 발생 하며, 해당 기능이 있는 경우 [Exchange Online Protection 서비스 설명을](https://go.microsoft.com/fwlink/p/?LinkId=320619)참조 하세요.) 다음으로, 메시지는 스팸에 공통 되는 용어 또는 속성에 대해 콘텐츠를 확인 하는 콘텐츠 필터링을 통과 합니다. 콘텐츠 필터에 의해 스팸으로 확인 되는 메시지는 사용자의 정크 메일 폴더로 전송 하거나 설정에 따라 다른 옵션 중 하나를 사용 하 여 격리로 보낼 수 있습니다. 메시지는 이러한 모든 보호 계층을 성공적으로 통과 하면 받는 사람에 게 배달 됩니다.
   
 ### <a name="eop-datacenters"></a>EOP 데이터 센터
 
