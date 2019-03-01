@@ -89,13 +89,13 @@
 
 # [위협으로부터 보호](protect-against-threats.md)
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
-### [전자 메일 보호 시작에 대한 비디오](videos-for-getting-started-with-protecting-your-email.md)
+### [EOPv 개요](videos-for-getting-started-with-protecting-your-email.md)
 ### [Office 365 스팸 방지 보호](anti-spam-protection.md)
 ### [Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법](prevent-email-from-being-marked-as-spam.md)
 ### [Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)
 ### [EOP 및 Office 365에서 전자 메일 스팸으로 표시 방지](prevent-email-from-being-marked-as-spam-0.md)
 ### [Office 365에서 아웃바운드 스팸 제어](outbound-spam-controls.md)
-### [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](block-email-spam-to-prevent-false-negatives.md)
+### [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)
 ### [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](zero-hour-auto-purge.md)
 ### [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
 ### [Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md)
@@ -297,7 +297,7 @@
 #### [로드 집합 관리](compliance20/manage-load-sets.md)
 #### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
 #### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
-#### [작업 집합에서 문서 태그 지정](compliance20/annotating-and-redacting-documents.md)
+#### [작업 집합에서 문서 태그 지정](compliance20/view-documents-in-working-set.md)
 #### [작업 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
 
 ### [대/소문자 데이터 분석](compliance20/analyzing-data-in-working-set.md)
@@ -318,10 +318,7 @@
 #### [검색 및 분석 설정 구성](compliance20/configure-search-analytics-settings.md)
 
 ### Advanced eDiscovery(미리 보기) 참조
-#### [검색 제한](compliance20/search-limits-ediscovery20.md)
-#### [인덱싱 제한](compliance20/indexing-limits-ediscovery20.md)
-#### [내보내기 제한](compliance20/export-limits-ediscovery20.md)
-#### [제한 다운로드](compliance20/download-limits-ediscovery20.md)
+#### [Advanced eDiscovery 제한 사항(미리 보기)](compliance20/limits-ediscovery20.md)
 #### [지원되는 파일 형식](compliance20/supported-filetypes-ediscovery20.md)
 #### [문서 메타데이터 필드](compliance20/document-metadata-fields.md)
 
