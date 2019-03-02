@@ -10,16 +10,19 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection:
+- Strat_O365_Enterprise
 - M365-security-compliance
+- Strat_O365_Enterprise
 description: '요약: 클라우드의 BitLocker 암호화에 대 한 정보입니다.'
-ms.openlocfilehash: 573f43b850f15e56fa529963d2db53402f717a34
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 293c7a3cef3ae2c55a0b12df139baf5302dd3b04
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275868"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357429"
 ---
 # <a name="bitlocker-and-distributed-key-manager-dkm-for-encryption"></a>암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
+
 Office 365 서버는 BitLocker를 사용 하 여 볼륨 수준에서 남은 고객 데이터를 포함 하는 디스크 드라이브를 암호화 합니다. BitLocker 암호화는 Windows에 기본적으로 제공 되는 데이터 보호 기능입니다. BitLocker는 다른 프로세스나 컨트롤에 lapses가 있는 경우 (예: 액세스 제어 또는 하드웨어 재활용) 고객이 고객 데이터를 포함 하는 디스크에 물리적으로 액세스할 수 있도록 하는 데 사용 되는 기술 중 하나입니다. 이 경우 BitLocker는 컴퓨터 및 디스크 분실, 도난 또는 부적절 한 제거로 인 한 데이터 도용 또는 노출을 방지할 수 있습니다.
 
 BitLocker는 Exchange online, SharePoint Online 및 비즈니스용 Skype의 고객 데이터가 포함 된 디스크에 AES (Advanced Encryption Standard) 256 비트 암호화를 사용 하 여 배포 됩니다. 디스크 섹터는 VMK (볼륨 마스터 키)로 암호화 되는 FVEK (전체 볼륨 암호화 키)로 암호화 되며이는 차례로 서버의 TPM (신뢰할 수 있는 플랫폼 모듈)에 바인딩됩니다. vmk는 FVEK를 직접 보호 하므로 vmk를 보호 하는 것이 중요 합니다. 다음 그림에서는 지정 된 서버 (이 경우에는 Exchange Online server를 사용 하는 경우)에 대 한 BitLocker 키 보호 체인의 예를 보여 줍니다.
@@ -37,7 +40,9 @@ BitLocker는 Exchange online, SharePoint Online 및 비즈니스용 Skype의 고
 BitLocker 키 관리에는 Office 365 데이터 센터에서 암호화 된 디스크의 잠금을 해제/복구 하는 데 사용 되는 복구 키 관리가 포함 됩니다. Office 365에서는 보안 된 공유에 마스터 키를 저장 하며, 스크린 및 승인 된 개인이 액세스할 수 있습니다. 키에 대 한 자격 증명은 액세스 제어 데이터에 대 한 보안 리포지토리에 저장 되며, "비밀 저장소"를 호출 하는 경우에는 높은 수준의 권한 상승 및 관리 승인이 온-just-in-time 액세스 권한 상승 도구를 사용 하 여 액세스 해야 합니다.
 
 BitLocker에서는 두 가지 관리 범주에 해당 하는 키를 지원 합니다.
+
 - BitLocker로 관리 되는 키-일반적으로 수명이 짧고 서버에 설치 된 운영 체제 인스턴스의 수명 및 지정 된 디스크에 연결 됩니다. 이러한 키는 서버 재설치 또는 디스크 포맷 중에 삭제 되 고 다시 설정 됩니다.
+
 - bitlocker 복구 키-bitlocker 외부에서 관리 되지만 디스크 암호 해독에 사용 됩니다. BitLocker는 운영 체제를 다시 설치 하 고 암호화 된 데이터 디스크가 이미 있는 시나리오에 복구 키를 사용 합니다. 또한 응답자가 디스크 잠금을 해제 해야 할 수 있는 Exchange Online의 관리 되는 가용성 모니터링 프로브 에서도 복구 키를 사용 합니다.
 
 BitLocker로 보호 된 볼륨은 전체 볼륨 암호화 키를 사용 하 여 암호화 되며,이 키는 차례로 볼륨 마스터 키로 암호화 됩니다. BitLocker는 FIPS 호환 알고리즘을 사용 하 여 암호화 키가 전혀 저장 되지 않거나 네트워크를 통해 전송 되지 않도록 합니다. 실시간으로 고객 데이터를 보호 하는 Office 365 구현이 기본 BitLocker 구현에서 벗어난 것은 아닙니다.

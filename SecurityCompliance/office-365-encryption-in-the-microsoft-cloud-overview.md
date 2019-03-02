@@ -10,14 +10,16 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection:
+- Strat_O365_Enterprise
 - M365-security-compliance
+- Strat_O365_Enterprise
 description: Microsoft 클라우드의 암호화 개요
-ms.openlocfilehash: 8d4b94908e9847062ff5f4612b8726b44a36a59f
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 36bb50cda5f39461401b14ca3e7ada77a6e2cc0d
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275948"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357519"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드의 암호화
 
@@ -36,6 +38,7 @@ Microsoft는 전송 중에 고객 데이터를 암호화 하는 서비스 쪽 �
 FIPS 140-2은이를 사용 하는 제품이 아닌 암호화를 구현 하는 제품 모듈의 유효성을 검사 하기 위해 특별히 설계 된 표준입니다. 서비스 내에서 구현 되는 암호화 모듈은 해시 수준, 키 관리 등에 대 한 요구 사항을 충족 하는 것으로 인증 될 수 있습니다. Microsoft의 클라우드 서비스에서 데이터의 기밀성, 무결성 또는 가용성을 보호 하기 위해 암호화 기능을 모두 사용 하는 경우에는 FIPS 140-2 표준을 충족 하는 모듈과 암호를 사용할 수 있습니다.
 
 Microsoft는 클라우드 서비스에서 사용 되는 기본 암호화 모듈을 각각의 Windows 운영 체제에 대 한 새로운 릴리스로 인증 합니다.
+
 - azure 및 azure 미국 정부
 - dynamics 365 및 dynamics 365 미국 정부
 - office 365, office 365 미국 정부 및 office 365 미국 정부 방어

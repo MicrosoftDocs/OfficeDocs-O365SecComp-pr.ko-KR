@@ -8,8 +8,6 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection:
-- M365-security-compliance
 search.appverid:
 - MOE150
 - MED150
@@ -17,13 +15,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 9295e396-e53d-49b9-ae9b-0b5828cdedc3
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- Strat_O365_IP
 description: 권장 되는 모범 사례를 수행 하 여 데이터 위반 이나 손상 된 계정을 최소화 합니다.
-ms.openlocfilehash: ff91721569aae5a4982e3f1dd054575d00c278d8
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 97dffe6e0cf4551c9addc1ba53c4f95c7d88b3f3
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276128"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357529"
 ---
 # <a name="security-best-practices-for-office-365"></a>Office 365에 대한 보안 모범 사례
 
@@ -46,37 +48,37 @@ office 365- [office 365 관리자 역할 역할에](https://support.office.com/a
 MFA는 사용자가 자신의 암호를 올바르게 입력 한 후 전화 통화, 문자 메시지 또는 스마트 전화에서 앱 알림을 승인 하도록 요구 하 여 강력한 암호 전략에 추가 보호 계층을 추가 합니다. 현재 위치에서 MFA를 사용 하는 경우 Office 365 사용자 계정은 사용자의 암호가 노출 되더라도 무단으로 액세스 하지 못하도록 보호 됩니다. 추가 챌린지를 만족할 때까지 계정에 대 한 액세스가 허용 되지 않으므로 계정이 보호 됩니다. 손상 되었거나 도난당 한 암호가 충분 하지 않습니다.
   
 - [Office 365 배포의 다단계 인증 계획](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
-    
+
 - [Office 365에 대한 다단계 인증 설정](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하려면
-    
+
 ## <a name="use-office-365-cloud-app-security"></a>Office 365 Cloud App Security 사용
 
 비즈니스 요구 사항에 따라 정책을 설정 하 여 비정상적인 활동을 추적 하 고 작업을 수행 합니다. 관리자가 많은 양의 데이터를 다운로드 하거나, 로그인을 여러 번 수행 하거나, 알 수 없는 또는 위험한 IP 주소에서 로그인 하는 등의 비정상적 이거나 위험한 사용자 활동을 검토 하도록 Office 365 Cloud App Security를 사용 하 여 알림을 설정 합니다. office 365 Enterprise E5 요금제를 사용 하는 조직의 경우 즉시 Office 365 Cloud App Security를 사용 하 여 시작할 수 있습니다. 다른 enterprise 요금제를 사용 하는 경우 Office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다.
   
 - [O365 Cloud App Security 개요](office-365-cas-overview.md)
-    
+
 - [Office 365 Cloud App Security 켜기](turn-on-office-365-cas.md)
-    
+
 ## <a name="secure-mail-flow"></a>보안 메일 흐름
 
 Exchange Online Protection에서 다양 한 기능 집합을 구현 하 고 각 전자 메일 메시지의 보낸 사람 id에 대 한 보다 강력한 보증을 얻고 전자 메일을 통해 전송 되는 알려지지 않은 맬웨어, 바이러스 및 악의적인 url을 보호 합니다.
   
-- 조직에 대 한 [Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md) 정책을 구성 합니다. 
-    
+- 조직에 대 한 [Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md) 정책을 구성 합니다.
+
 - [안전한 첨부 파일 및 안전한 링크에](https://technet.microsoft.com/library/mt148491.aspx)대 한 자세한 내용을 알아보고 Advanced threat protection을 사용 합니다.
-    
+
 - [조직에 맬웨어 방지 보호 기능을 추가](https://technet.microsoft.com/en-us/library/jj200669%28v=exchg.150%29.aspx)합니다.
-    
-- 사용자를 위해 [Office 365의 전자 메일 메시지에 대 한 보안 팁](safety-tips-in-office-365.md) 을 알아보고 사용 하도록 설정 합니다. 
-    
+
+- 사용자를 위해 [Office 365의 전자 메일 메시지에 대 한 보안 팁](safety-tips-in-office-365.md) 을 알아보고 사용 하도록 설정 합니다.
+
 - Office 365에서 조직에 대 한 사용자 지정 도메인을 사용 하는 경우에는 SPF, dkim을 설정한 다음 DMARC이 조직에서 보낸 메일의 유효성을 검사 하 고 스푸핑을 방지 하는 데 도움이 됩니다.
-    
+
   - [스푸핑 방지를 위해 Office 365에서 SPF를 설정](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)합니다.
-    
+
   - [dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)합니다.
-    
+
   - [DMARC을 사용 하 여 Office 365의 전자 메일 유효성을 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)합니다.
-    
+
 ## <a name="enable-mailbox-audit-logging"></a>사서함 감사 로깅 사용
 
 일부 감사 로깅은 Office 365에서 자동으로 사용 하도록 설정 됩니다. 그러나 사서함 감사 로깅은 기본적으로 설정 되지 않습니다. Exchange Online PowerShell을 사용 하 여 Office 365에서 모든 사용자 사서함에 대 한 감사 로깅을 설정 합니다. 자세한 내용은 [Office 365에서 사서함 감사 사용](https://go.microsoft.com/fwlink/p/?LinkID=626109)을 참조 하십시오.
@@ -99,13 +101,11 @@ Office 365 관리자는 고객 Lockbox를 사용 하 여 Microsoft 기술 지원
 프로덕션 환경에 Office 365 평가판 구독을 채택 하기 전에 이러한 보안 기능을 통해 작동 하는 방법을 확인 하세요.
   
 - [Office 365 평가판 구독 만들기](https://technet.microsoft.com/library/mt736406.aspx)
-    
-- [사용자 계정에 대 한 MFA 구성 및 테스트](https://technet.microsoft.com/library/mt492459.aspx)
-    
-- [전역 관리자 활동을 알리기 위해 Office 365 Cloud App Security를 구성 하 고 테스트 합니다.](https://technet.microsoft.com/library/mt757250.aspx)
-    
-- [의심 스러운 전자 메일에 대 한 ATP 구성 및 테스트](https://technet.microsoft.com/library/mt490479.aspx)
-    
-- 위의 각 단계에 대 한 [Office 365 보안 점수](https://securescore.office.com/) 에서 평가판 구독을 확인 합니다. 
-    
 
+- [사용자 계정에 대 한 MFA 구성 및 테스트](https://technet.microsoft.com/library/mt492459.aspx)
+
+- [전역 관리자 활동을 알리기 위해 Office 365 Cloud App Security를 구성 하 고 테스트 합니다.](https://technet.microsoft.com/library/mt757250.aspx)
+
+- [의심 스러운 전자 메일에 대 한 ATP 구성 및 테스트](https://technet.microsoft.com/library/mt490479.aspx)
+
+- 위의 각 단계에 대 한 [Office 365 보안 점수](https://securescore.office.com/) 에서 평가판 구독을 확인 합니다.

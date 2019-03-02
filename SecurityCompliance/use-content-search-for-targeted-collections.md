@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: c6e837e2f95b4f2ae3e32344f966f096407e360e
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 6c41069a268991553f03763ae80dea032d5db202
+ms.sourcegitcommit: 03054baf50c1dd5cd9ca6a9bd5d056f3db98f964
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296931"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30354690"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
 
@@ -55,7 +55,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
     
 - **사용자 자격 증명** -스크립트는 자격 증명을 사용 하 여 Exchange Online 및 원격 PowerShell을 &amp; 통해 보안 준수 센터에 연결 합니다. 앞에서 설명한 것 처럼이 스크립트를 성공적으로 실행 하려면 적절 한 사용 권한을 할당 받아야 합니다.
     
-사서함 폴더 또는 사이트 경로 이름 목록을 표시 하려면:
+사서함 폴더 또는 사이트 documentlink (경로) 이름 목록을 표시 하려면 다음을 수행 합니다.
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `GetFolderSearchParameters.ps1`들면입니다.
     
@@ -66,9 +66,10 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
   #      Online and who is an eDiscovery Manager in the Security &amp; Compliance Center.           #
   # The script will then:                                           #
   #    * If an email address is supplied: list the folders for the target mailbox.          #
-  #    * If a SharePoint or OneDrive for Business site is supplied: list the folder paths for the site. #
-  #    * In both cases, the script supplies the correct search properties (folderid: or path:)      #
-  #      appended to the folder ID or path ID to use in a Content Search.               #
+  #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
+  #    * for the site.                                                                                  #
+  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)  #
+  #      appended to the folder ID or documentlink to use in a Content Search.              #
   # Notes:                                              #
   #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the   #
   #      the current folder and all sub-folders are searched.                       #
@@ -154,7 +155,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
           {
               $rawUrl = $match.Value
               $rawUrl = $rawUrl -replace "Data Link: " -replace "," -replace "}"
-              Write-Host "path:""$rawUrl"""
+              Write-Host "DocumentLink:""$rawUrl"""
           }
       }
       else
@@ -196,18 +197,15 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
   
 ### <a name="script-output-for-site-folders"></a>사이트 폴더의 스크립트 출력
 
-SharePoint 또는 비즈니스용 OneDrive 사이트에서의 경로를 확인 하는 경우 스크립트는 원격 PowerShell을 사용 &amp; 하 여 보안 준수 센터에 연결 하 고, 사이트에서 폴더를 검색 하는 새 콘텐츠 검색을 만든 다음, 폴더 목록을 표시 합니다. 지정 된 사이트에 있습니다. 스크립트는 각 폴더의 이름을 표시 하 고 **경로** 접두사 (사이트 속성의 이름)를 폴더 URL에 추가 합니다. **path** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리를 `path:<path>` 사용 하 여 해당 폴더를 검색 합니다. 
+SharePoint 또는 비즈니스용 OneDrive 사이트에서 documentlinks를 가져오는 경우 스크립트는 원격 PowerShell을 사용 하 여 보안 &amp; 준수 센터에 연결 하 고, 사이트를 검색 하는 새 콘텐츠 검색을 만든 다음 지정 된 사이트에 있는 폴더입니다. 스크립트는 각 폴더의 이름을 표시 하 고 **경로** 접두사 (사이트 속성의 이름)를 폴더 URL에 추가 합니다. **path** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리를 `path:<path>` 사용 하 여 해당 폴더를 검색 합니다. 
   
 다음은 사이트 폴더 스크립트에서 반환 하는 출력의 예입니다.
   
-![스크립트에서 반환 하는 사이트 폴더의 경로 이름 목록 예제](media/519e8347-7365-4067-af78-96c465dc3d15.png)
+![스크립트에서 반환 하는 사이트 폴더의 documentlink 이름 목록 예제](media/519e8347-7365-4067-af78-96c465dc3d15.png)
   
-## <a name="step-2-use-a-folder-id-or-path-to-perform-a-targeted-collection"></a>2 단계: 폴더 ID 또는 경로를 사용 하 여 대상 모음을 수행 합니다.
+## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>2 단계: 폴더 ID 또는 documentlink를 사용 하 여 대상 모음을 수행 합니다.
 
-스크립트를 실행 하 여 특정 사용자의 폴더 id 또는 경로 목록을 수집한 후에는 다음 단계를 수행 하 여 보안 &amp; 및 준수 센터로 이동한 다음 새 콘텐츠 검색을 만들어 특정 폴더를 검색 합니다. 콘텐츠 검색 키워드 상자 `folderid:<folderid>` 에서 `path:<path>` 구성 하는 검색 쿼리에 or 속성을 사용 하거나, **ComplianceSearch** cmdlet을 사용 하는 경우 *contentmatchquery* 매개 변수의 값으로 사용할 수 있습니다. `folderid` 또는 `path` 속성을 다른 검색 매개 변수 또는 검색 조건과 결합할 수 있습니다. 쿼리에 `folderid` 또는 `path` 속성만 포함 하면 지정한 폴더에 있는 모든 항목이 검색에 반환 됩니다. 
-  
-> [!NOTE]
-> 이 `path` 속성을 사용 하 여 OneDrive 위치를 검색 하면 검색 결과에 .png, tiff 또는 .wav 파일 같은 미디어 파일이 반환 되지 않습니다. 
+스크립트를 실행 하 여 특정 사용자에 대 한 폴더 id 또는 documentlinks의 목록을 수집한 후에는 다음 단계를 수행 하 여 보안 &amp; 및 준수 센터로 이동한 다음 새 콘텐츠 검색을 만들어 특정 폴더를 검색 합니다. 콘텐츠 검색 키워드 상자 `folderid:<folderid>` 에서 `documentlink:<path>` 구성 하는 검색 쿼리에 or 속성을 사용 하거나, **ComplianceSearch** cmdlet을 사용 하는 경우 *contentmatchquery* 매개 변수의 값으로 사용할 수 있습니다. `folderid` 또는 `documentlink` 속성을 다른 검색 매개 변수 또는 검색 조건과 결합할 수 있습니다. 쿼리에 `folderid` 또는 `documentlink` 속성만 포함 하면 지정한 폴더에 있는 모든 항목이 검색에 반환 됩니다. 
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
@@ -227,17 +225,17 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서의 경로를 확인 �
     
 6. **다음**을 클릭합니다.
     
-7. 확인할 **작업** 페이지의 키워드 상자에서 1 단계에서 스크립트에 의해 반환 된 `folderid:<folderid>` `path:<path>` 값을 붙여 넣습니다. 
+7. 확인할 **작업** 페이지의 키워드 상자에서 1 단계에서 스크립트에 의해 반환 된 `folderid:<folderid>` `documentlink:<path>` 값을 붙여 넣습니다. 
     
     예를 들어 다음 스크린샷의 쿼리는 사용자의 복구할 수 있는 항목 폴더에 있는 제거 하위 폴더의 모든 항목을 검색 합니다 (제거 하위 폴더 `folderid` 의 속성 값은 1 단계의 스크린샷에 표시 됨).
     
-    ![검색 쿼리의 키워드 상자에 folderid 또는 path를 붙여 넣습니다.](media/84057516-b663-48a4-a78f-8032a8f8da80.png)
+    ![검색 쿼리의 키워드 상자에 folderid 또는 documentlink를 붙여 넣습니다.](media/84057516-b663-48a4-a78f-8032a8f8da80.png)
   
 8. **검색** 을 클릭 하 여 대상 지정 된 모음 검색을 시작 합니다. 
   
 ### <a name="examples-of-search-queries-for-targeted-collections"></a>대상 지정 컬렉션에 대 한 검색 쿼리 예제
 
-다음은 검색 쿼리의 `folderid` 및 `path` 속성을 사용 하 여 대상 모음을 수행 하는 방법의 몇 가지 예입니다. 자리 표시자는 `folderid:<folderid>` 및 `path:<path>` 공간을 절약 하는 데 사용 됩니다. 
+다음은 검색 쿼리의 `folderid` 및 `documentlink` 속성을 사용 하 여 대상 모음을 수행 하는 방법의 몇 가지 예입니다. 자리 표시자는 `folderid:<folderid>` 및 `documentlink:<path>` 공간을 절약 하는 데 사용 됩니다. 
   
 - 이 예에서는 서로 다른 세 개의 사서함 폴더를 검색 합니다. 비슷한 쿼리 구문을 사용 하 여 사용자의 복구 가능한 항목 폴더에서 숨겨진 폴더를 검색할 수 있습니다.
     
@@ -254,13 +252,13 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서의 경로를 확인 �
 - 이 예에서는 제목에 "NDA" 문자가 포함 된 문서의 사이트 폴더와 하위 폴더를 검색 합니다.
     
   ```
-  path:<path> AND filename:nda
+  documentlink:<path> AND filename:nda
   ```
 
 - 다음은 날짜 범위 내에서 변경 된 문서의 사이트 폴더와 하위 폴더를 검색 하는 예제입니다.
     
   ```
-  path:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
+  documentlink:<path> AND (lastmodifiedtime>=01/01/2017 AND lastmodifiedtime<=01/21/2017)
   ```
   
 ## <a name="more-information"></a>추가 정보
@@ -273,8 +271,6 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서의 경로를 확인 �
     
 - 사서함 폴더를 검색 하는 경우 지정 된 폴더 (해당 `folderid` 속성으로 식별 됨)만 검색 됩니다. 하위 폴더는 검색 되지 않습니다. 하위 폴더를 검색 하려면 검색 하려는 하위 폴더에 대 한 폴더 ID를 사용 해야 합니다. 
     
-- 사이트 폴더를 검색 하면 해당 `path` 속성으로 식별 된 폴더와 모든 하위 폴더가 검색 됩니다. 
+- 사이트 폴더를 검색 하면 해당 `documentlink` 속성으로 식별 된 폴더와 모든 하위 폴더가 검색 됩니다. 
     
-- 앞에서 설명한 것 처럼 속성을 `path` 사용 하 여 OneDrive 위치에 있는 .png, tiff 또는 .wav 파일과 같은 미디어 파일을 검색할 수 없습니다. 다른 [사이트 속성](keyword-queries-and-search-conditions.md#searchable-site-properties) 을 사용 하 여 OneDrive 폴더에서 미디어 파일을 검색 합니다. 
-
 - 검색 쿼리의 `folderid` 속성만 지정 하는 검색 결과를 내보낼 때 첫 번째 내보내기 옵션인 "모든 항목 (인식할 수 없는 형식을 포함 하거나 암호화 됨 또는 다른 이유로 인덱싱되지 않은 것은 제외)을 선택할 수 있습니다. 폴더 ID는 항상 인덱싱되어 있기 때문에 폴더의 모든 항목은 인덱싱 상태에 관계 없이 항상 내보내집니다.

@@ -12,13 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
+ms.collection:
+- M365-security-compliance
 description: 데이터 손실 방지 예제를 통해 보안 &amp; 및 준수 센터에서 자세한 보고서로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4b6fee45ebd48a0bd6d5c6c166fb200b28cb9442
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 101aeec71e724204018dee8d12d6c74a120578bf
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217328"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357419"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>연습 - 통찰력에서 자세한 보고서
 

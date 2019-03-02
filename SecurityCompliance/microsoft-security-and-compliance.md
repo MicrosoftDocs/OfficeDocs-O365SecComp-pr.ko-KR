@@ -7,14 +7,16 @@ ms.date: 01/23/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: 6eb30c8439424a60b5cf02d55d771e11cf24ad10
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 662f953b9c9e60d2ce59fbde9de03cf973fa0b99
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214968"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357599"
 ---
 # <a name="get-ready-for-the-new-microsoft-365-security-center-and-microsoft-365-compliance-center"></a>새 Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터 준비
 

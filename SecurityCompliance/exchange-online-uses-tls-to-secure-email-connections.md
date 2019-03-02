@@ -8,19 +8,20 @@ ms.audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection:
-- M365-security-compliance
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4cde0cda-3430-4dc0-b489-f2c0736c929f
+ms.collection:
+- M365-security-compliance
+- Strat_O365_IP
 description: Exchange Online 및 Office 365에서 TLS (전송 계층 보안)를 사용 하 여 전자 메일 통신의 보안을 유지 하는 방법을 알아봅니다. 또한 Exchange Online에 대해 Microsoft에서 발급 한 인증서에 대 한 정보도 확인 하세요.
-ms.openlocfilehash: 2621bb325c5bf97baa0a25f1e5eb590339856549
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e80f477c807f3a7ad5f751e0987b191024c816d9
+ms.sourcegitcommit: 03054baf50c1dd5cd9ca6a9bd5d056f3db98f964
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220498"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30354630"
 ---
 # <a name="how-exchange-online-uses-tls-to-secure-email-connections-in-office-365"></a>Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
 

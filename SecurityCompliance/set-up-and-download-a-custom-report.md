@@ -11,13 +11,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
+ms.collection:
+- M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 사용자 지정 날짜 범위 및 필터를 사용 하 여 보고서를 설정 하 고 다운로드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7e4d152509a6e904c7df5ea7c8ccddf9503a35da
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 912dfb43a7fd146f4fb00eb68a7d1004db81466c
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219708"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357469"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드
 

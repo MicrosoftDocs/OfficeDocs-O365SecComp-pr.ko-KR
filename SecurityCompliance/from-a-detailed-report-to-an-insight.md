@@ -12,13 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d2104778-f0a1-4b69-baf3-c4b32e98a573
+ms.collection:
+- M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하 여 자세한 보고서에서 통찰력으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b0fdb3a75db8e3b18813193a5fa7c5523de16fe8
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 062ae0931e78b01e26fc0d723e6d6d2ad1c04095
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219088"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357589"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>연습 - 자세한 보고서에서 통찰력에 이르기까지
 
