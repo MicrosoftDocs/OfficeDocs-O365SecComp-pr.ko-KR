@@ -501,7 +501,7 @@
 ## [EOP의 메일 흐름](eop/mail-flow-in-eop.md)
 ### [메시지가 스팸으로 표시되지 않도록 하는 방법](how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md)
 ### [메일 흐름 규칙(전송 규칙)](eop/mail-flow-rules-transport-rules-0.md)
-### [전송 규칙을 사용하여 대량 전자 메일 필터링 구성](use-transport-rules-to-configure-bulk-email-filtering.md)
+### [메일 흐름 규칙을 사용하여 대량 전자 메일 필터링 구성](use-transport-rules-to-configure-bulk-email-filtering.md)
 ### [메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)
 ### [첨부 파일 차단을 통해 맬웨어 위협 줄이기](eop/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md)
 ### [보고 및 메시지 추적](eop/reporting-and-message-trace-in-exchange-online-protection.md)

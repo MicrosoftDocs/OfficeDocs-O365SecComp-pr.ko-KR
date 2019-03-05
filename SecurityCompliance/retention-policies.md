@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 5e377752-700d-4870-9b6d-12bfc12d2423
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: 26f28b1e4ce0b8bce69d135bf54332585bdf9745
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: c1349a86f12a65917b57b6531930daeaf3b60d6a
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214278"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341689"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -168,7 +168,7 @@ Sharepoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 - 중요한 정보에 대한 고급 보존이 Exchange 공용 폴더 및 비즈니스용 Skype에는 적용되지 않습니다. 이러한 위치는 중요한 정보 유형을 지원하지 않기 때문입니다.
     
-- Exchange Online에서는 전송 규칙을 사용하여 중요한 정보를 식별하므로 사서함에 이미 저장된 모든 항목이 아닌 전송 중인 메시지에만 이러한 고급 보존이 적용됩니다. 따라서 Exchange Online의 경우 보존 정책이 중요한 정보를 식별할 수 있고 정책이 사서함에 적용된 **후에** 수신된 메시지에만 보존 작업을 수행할 수 있습니다. (이전 섹션에 설명된 쿼리 기반 보존은 검색 인덱스를 사용하여 콘텐츠를 식별하기 때문에 이러한 제한이 적용되지 않습니다.) 
+- Exchange Online에서는 메일 흐름 규칙(전송 규칙이라고도 함)을 사용하여 중요한 정보를 식별하므로 사서함에 이미 저장된 모든 항목이 아닌 전송 중인 메시지에만 이러한 고급 보존이 적용됩니다. 따라서 Exchange Online의 경우 보존 정책이 중요한 정보를 식별할 수 있고 정책이 사서함에 적용된 **후에** 수신된 메시지에만 보존 작업을 수행할 수 있습니다. (이전 섹션에 설명된 쿼리 기반 보존은 검색 인덱스를 사용하여 콘텐츠를 식별하기 때문에 이러한 제한이 적용되지 않습니다.) 
     
 ## <a name="applying-a-retention-policy-to-an-entire-organization-or-specific-locations"></a>전체 조직 또는 특정 위치에 보존 정책 적용
 
