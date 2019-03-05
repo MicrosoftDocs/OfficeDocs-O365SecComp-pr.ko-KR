@@ -1,39 +1,43 @@
 ---
 title: Office 365에서 스팸 메일을 줄이는 방법
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 6/7/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: Strat_O365_IP
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 07824c51-2c45-4005-8596-03c0d7c4ff2a
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- Strat_O365_IP
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: fc7181333b9914673c9919d7132af99fec294773
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5dac207393864f95f769ac205277b0c969f2fe32
+ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219928"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357549"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
  **Office 365에서 스팸이 너무 많이 늘어나나요? 그렇다면 다음을 수행하세요.**
   
-Office 365의 스팸 문제는 [전자 메일 메시지 헤더](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를보고 무엇이 잘못되었는지를 판단하여 해결할 수 있습니다. X-Forefront-Antispam-Report라는 헤더를 찾아야합니다.
+[보고 메시지 추가 기능을 통해](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) 거짓 부정 메시지를 보고하여 필터 개선에 도움을 주시기 바랍니다. 또한 메시지를 *첨부 파일로* junk@office365.microsoft.com 또는 phish@office365.microsoft.com(피싱인 경우)으로 전달할 수 있습니다.
 
-  문자열에 SFV:NSPM이 포함되어 있으면 Exchange Online Protection(EOP)가 메시지를 스캔한 결과 이를 스팸이으로 판단하지 않았음을 의미합니다. 이에 동의하지 않으면 이를 허위 부정이라고 하고 [신고 메시지 추가 기능을 이용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)해 필터를 개선할 수 있도록 할 것을 강력히 권장합니다.
+> [!TIP]
+> 이 메시지가 정크 메일이며 정크 메일 폴더에 있으면 문제가 아닙니다. 어떤 사서함에도 들어 있지 않으면 메시지를 격리하도록 스팸 방지 정책을 변경해야 합니다. 메시지 격리에 대한 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](quarantine-email-messages.md)에서 찾을 수 있습니다.
 
-  헤더 값이 표시되지 않으면 메일이 스팸 검사를 통과하지 못했거나 메시지 무시를 초래하는 구성 이슈가 존재함을 의미할 수 있습니다. 이 경우 아래 정보를 참조하십시오. 
-  
-[스팸 방지 메시지 헤더](https://technet.microsoft.com/library/dn205071%28v=exchg.150%29.aspx)에 대해 자세히 알아볼 수 있습니다.
+## <a name="fixing-allowed-spam"></a>허용된 스팸 해결
 
-## <a name="solutions-to-common-causes-of-getting-too-much-spam"></a>스팸을 너무 많이 증가하는 일반적인 원인에 대한 해결 방법
+잘못된 구성으로 인해 고객의 받은 편지함으로 정크 메일이 들어오는 경우가 많습니다. 가장 일반적인 경우는 메일 흐름 규칙(전송 규칙이라고도 함)의 도메인이 필터를 무시하도록 구성하거나 사용자 도메인이 허용/수신 허용 - 보낸 사람 목록에 포함되는 경우입니다. 이러한 메시지는 스팸 필터링에 걸리지 않고 받은 편지함에 들어올 수 있으므로 바람직하지 않습니다.  
+
+## <a name="solutions-to-other-common-causes-of-getting-too-much-spam"></a>스팸을 너무 많이 증가하는 다른 일반적인 원인에 대한 해결 방법
 
 스팸이 너무 많이 증가하지 않도록 하기 위해 EOP(Exchange Online Protection)는 관리자가 몇 가지 작업을 완료하도록 요구합니다. Office 365 테넌트의 관리자가 아니며 스팸이 너무 많이 발생하는 경우 관리자와 함께 이러한 문제를 해결할 수 있습니다. 그렇지 않은 경우 사용자 작업으로 건너뛸 수 있습니다.
   
@@ -45,13 +49,11 @@ Office 365의 스팸 문제는 [전자 메일 메시지 헤더](https://support.
     
     결과에서 Enable 속성이 True로 설정되어야 합니다. False로 설정된 경우 Set-MailboxJunkEmailConfiguration을 실행하여 True로 변경할 수 있습니다.
     
-- **메일 흐름 규칙 및 수신 허용 목록 검사** 스팸으로 표시되어야 하는 메시지의 메시지 헤더를 확인합니다. X-Forefront-Antispam-Report 헤더에서 SCL 속성을 찾습니다. SCL 값이 -1이면 메시지가 수신 허용 목록에 있으며 EOP 스팸 필터링을 우회했음을 나타냅니다. 메일 흐름 규칙, 수신 허용 목록 및 받는 사람의 허용된 보낸 사람 목록을 검사합니다. 메시지가 SCL -1을 받는 이유를 자세히 설명하는 [비즈니스 관리자를 위한 Office 365 전자 메일 배달 문제 찾기 및 해결](https://support.office.com/article/e7758b99-1896-41db-bf39-51e2dba21de6)을 참조하는 것도 도움이 될 수 있습니다. 
-    
-- **온-프레미스 Exchange Server에서 메일 흐름 규칙 만들기** Exchange Online Protection을 사용하지만 사서함 이 온-프레미스 Exchange 서버에 있는 경우 온-프레미스 Exchange Server에서 몇 가지 메일 흐름 규칙을 만들어야 합니다. [EOP 전용 지침](https://technet.microsoft.com/library/ms.exch.eac.EditAntispamPolicy_SpamAction%28EXCHG.150%29.aspx?v=15.20.548.14&amp;l=1&amp;s=BPOS_S_E15_0)을 참조하세요.
+- **온-프레미스 Exchange Server에서 메일 흐름 규칙 만들기** Exchange Online Protection을 사용하지만 사서함 이 온-프레미스 Exchange 서버에 있는 경우 온-프레미스 Exchange Server에서 몇 가지 메일 흐름 규칙을 만들어야 합니다. [EOP 전용 지침](https://docs.microsoft.com/previous-versions/exchange-server/exchange-150/jj900470(v=exchg.150))을 참조하세요.
     
 - **대량 전자 메일을 스팸으로 표시** 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://docs.microsoft.com/ko-KR/office365/SecurityCompliance/bulk-complaint-level-values)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다. 
     
-- **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우, 전자 메일 주소, 도메인 또는 IP 주소에 따라 차단할 수 있습니다. [가양성 문제 방지를 위해 Office 365 스팸 필터로 전자 메일 스팸 차단](block-email-spam-to-prevent-false-negatives.md)을 참조하세요. 최종 사용자의 허용 목록에 있는 항목은 관리자가 설정한 차단에 따라 재정의될 수 있습니다.
+- **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우 전자 메일 주소, 도메인 또는 IP 주소를 차단할 수 있습니다. [EAC를 사용하여 도메인 또는 사용자가 전송하는 메시지를 차단하는 메일 흐름 규칙 생성](create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365.md#use-the-eac-to-create-a-mail-flow-rule-that-blocks-messages-sent-from-a-domain-or-user)을 참조하세요. 최종 사용자 허용 목록의 항목이 관리자가 설정한 차단 목록을 재정의할 수 있습니다.
     
 - **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자에 대한 보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
     

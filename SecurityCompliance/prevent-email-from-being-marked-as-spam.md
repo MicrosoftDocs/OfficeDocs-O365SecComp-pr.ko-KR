@@ -14,24 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: 34823bbc-a3e3-4949-ba42-97c73997eeed
 description: 가양성을 방지하고 Office 365에서 실제 전자 메일을 쓸모없는 상태로 유지하는 방법에 대해 알아보십시오.
-ms.openlocfilehash: be6e534608544c8db7a33ae6ed6492d4f730a2a0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 10d71519da1639073122b0a89652753f466f6dbe
+ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219418"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30341479"
 ---
 # <a name="how-to-prevent-real-email-from-being-marked-as-spam-in-office-365"></a>Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법
 
  **실제 전자 메일이 Office 365에서 스팸으로 표시되나요? 그렇다면 다음을 수행하세요.**
   
-EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 데 도움이 되는 클라우드 기반 전자 메일 필터링 서비스입니다. Office 365에 사서함이 있는 경우 사서함은 서비스의 일부이므로 EOP에 의해 자동으로 보호됩니다.
+거짓 부정이 있는 경우 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하여 Microsoft에 메시지를 보고해야 합니다. 또한 메시지 *을 첨부 파일*로 not_junk@office365.microsoft.com으로 전달할 수 있습니다.
 
-EOP(Exchange Online Protection)는 스팸을 필터링하여 사용자가 원치 않는 콘텐츠를 받은 편지함에서 지우려고 합니다. 그렇지만 경우에 따라 EOP가 필요한 콘텐츠를 필터링하기도 합니다. 메시지가 스팸 필터에 의해 스팸으로 잘못 표시되면 허위 오류라고 합니다.
-
-가양성이 있는 경우 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하여 Microsoft에 메시지를 보고해야 합니다. 또한 메시지 *을 첨부 파일*로 not_junk@office365.microsoft.com으로 전달할 수 있습니다.
-
-    **Important** If you do not forward the messages as attachments, then the headers will be missing and we will be unable to improve the junk mail filtering in Office 365.
+**중요** 메시지를 첨부 파일로 전달하지 않는 경우 헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다.
     
 ## <a name="determine-the-reason-why-the-message-was-marked-as-spam"></a>메시지가 스팸으로 표시되는 이유 확인
 
@@ -45,7 +41,7 @@ Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https:
 
 - **SFV:BLK** 보내는 주소가 받는 사람의 수신 거부 보낸 사람 목록에 있기 때문에 메시지가 스팸으로 표시되었음을 나타냅니다. 
     
-- **SFV:SKS** 메시지가 콘텐츠 필터 전에 스팸으로 표시되었음을 나타냅니다. 여기에는 메시지를 스팸으로 표시하는 전송 규칙이 포함될 수 있습니다. 메시지 추적을 실행하여 SCL(스팸 지수)이 높게 설정되었을 수 있는 전송 규칙이 트리거되었는지 알아봅니다. 
+- **SFV:SKS** 메시지가 콘텐츠 필터 전에 스팸으로 표시되었음을 나타냅니다. 여기에는 메시지를 스팸으로 표시하는 메일 흐름 규칙(전송 규칙이라고도 함)이 포함될 수 있습니다. 메시지 추적을 실행하여 SCL(스팸 지수)이 높게 설정되었을 수 있는 메일 흐름 규칙이 트리거되었는지 알아봅니다. 
     
 - **SFV:SKB** 스팸 필터 정책의 차단 목록과 일치하므로 메시지가 스팸으로 표시되었음을 나타냅니다. 
     
@@ -63,7 +59,7 @@ Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https:
   
 ### <a name="for-admins"></a>관리자
 
-- **Office 365를 가리키도록 DNS 레코드 지정** EOP를 통해 보호를 제공하려면 모든 도메인의 MX(메일 교환기)가 Office 365만 가리켜야 합니다. MX가 Office 365를 가리키지 않는 경우, EOP는 사용자를 위해 스팸 필터링를 제공하지 않습니다. 다른 서비스 또는 어플라이언스를 사용하여 도메인에 대한 스팸 필터링을 제공하려는 경우 EOP에서 스팸 보호 기능을 사용하지 않도록 설정하는 것이 좋습니다. SCL 값을 -1로 설 하는 전송 규칙을 만들어 이렇게 할 수 있습니다. 나중에 EOP를 사용하기로 결정하면 이 전송 규칙을 제거해야 합니다. 
+- **Office 365를 가리키도록 DNS 레코드 지정** EOP를 통해 보호를 제공하려면 모든 도메인의 MX(메일 교환기)가 Office 365만 가리켜야 합니다. MX가 Office 365를 가리키지 않는 경우, EOP는 사용자를 위해 스팸 필터링를 제공하지 않습니다. 다른 서비스 또는 어플라이언스를 사용하여 도메인에 대한 스팸 필터링을 제공하려는 경우 EOP에서 스팸 보호 기능을 사용하지 않도록 설정하는 것이 좋습니다. SCL 값을 -1로 설 하는 메일 흐름 규칙을 만들어 이렇게 할 수 있습니다. 나중에 EOP를 사용하기로 결정하면 이 메일 흐름 규칙을 제거해야 합니다. 
     
 - **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자가 보고서 메시지 추가 기능을 사용할 수 있도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
     
