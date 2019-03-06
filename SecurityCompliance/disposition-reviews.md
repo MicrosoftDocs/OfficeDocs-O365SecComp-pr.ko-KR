@@ -5,21 +5,20 @@ author: stephow-MSFT
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: d0c6095b-bfee-4906-a2c7-89c2d7f411c1
 description: Office 365에서 콘텐츠를 유지 하는 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 0948d61131595d4111f656c385c58258c5cce99c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a3125ee3f0ae388fce71968f25a68d5ccf3fc652
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215008"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410763"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 

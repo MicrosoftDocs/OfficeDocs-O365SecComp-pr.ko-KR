@@ -9,23 +9,24 @@ ms.collection:
 - o365_security_incident_response
 - Strat_O365_IP
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 손상 된 전자 메일 계정을 인식 하 고 응답 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 326ec01c570ad97b5f1eaf06dcfe1ad4e6ad76f4
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 3f64cd249a425cc098fc49f6e9bbbe1901c734de
+ms.sourcegitcommit: 0a1ce1ac45672d1d98eb7dbcfd4f0179d9eb4509
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341099"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30412946"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
 
 **요약** Office 365에서 손상 된 전자 메일 계정을 인식 하 고이에 대응 하는 방법에 대해 알아봅니다.
 
 ## <a name="what-is-a-compromised-email-account-in-office-365"></a>Office 365에서 손상 된 전자 메일 계정 이란?
-Office 365 사서함, 데이터 및 기타 서비스에 대 한 액세스는 사용자 이름, 암호 또는 PIN과 같은 자격 증명을 사용 하 여 제어 합니다. 의도 하지 않은 사용자가 해당 자격 증명을 도용 하면 도난당 한 자격 증명이 손상 된 것으로 간주 됩니다. 이를 통해 공격자가 원래 사용자로 로그인 하 고 불법 작업을 수행할 수 있습니다. 도난 당한 자격 증명을 사용 하 여 공격자가 사용자의 Office 365 사서함, SharePoint 폴더 또는 사용자의 OneDrive에 있는 파일에 액세스할 수 있습니다. 일반적으로 공격자는 조직 내부 및 외부의 받는 사람에 게 전자 메일을 보내는 것으로 간주 됩니다. 공격자가 외부의 받는 사람에 게 데이터를 전자 메일로 보내는 경우이를 데이터 exfiltration 이라고 합니다.
+Office 365 사서함, 데이터 및 기타 서비스에 대 한 액세스는 사용자 이름, 암호 또는 PIN과 같은 자격 증명을 사용 하 여 제어 합니다. 의도 하지 않은 사용자가 해당 자격 증명을 도용 하면 도난당 한 자격 증명이 손상 된 것으로 간주 됩니다. 이를 통해 공격자가 원래 사용자로 로그인 하 고 불법 작업을 수행할 수 있습니다.
+도난 당한 자격 증명을 사용 하 여 공격자가 사용자의 Office 365 사서함, SharePoint 폴더 또는 사용자의 OneDrive에 있는 파일에 액세스할 수 있습니다. 일반적으로 공격자는 조직 내부 및 외부의 받는 사람에 게 전자 메일을 보내는 것으로 간주 됩니다. 공격자가 외부의 받는 사람에 게 데이터를 전자 메일로 보내는 경우이를 데이터 exfiltration 이라고 합니다.
 
 ## <a name="symptoms-of-a-compromised-office-365-email-account"></a>손상 된 Office 365 전자 메일 계정의 현상
 사용자가 Office 365 사서함에서 이상한 활동을 확인 하 고 보고할 수 있습니다. 일반적인 몇 가지 증상은 다음과 같습니다.
@@ -90,7 +91,7 @@ hijacker에서 사용자의 계정을 계속 제어 하지 않도록 하려면 �
 > [!IMPORTANT]
 > 액세스를 다시 사용 하도록 설정 하는 것이 안전 하다 고 확신할 때까지 의심 스러운 손상 된 계정을 로그인에서 차단할 수 있습니다.
 
-1. Office 365 관리 센터로 이동합니다.
+1. Go to the Office 365 admin center.
 2. Office 365 관리 센터에서 **사용자** 를 선택합니다.
 3. 차단할 직원을 선택한 다음 사용자 창의 **로그인 상태** 옆에 있는 **편집** 을 선택 합니다.
 4. **로그인 상태** 창에서 **로그인 차단됨** 을 선택한 다음 **저장** 을 선택합니다. 
@@ -107,10 +108,12 @@ hijacker에서 사용자의 계정을 계속 제어 하지 않도록 하려면 �
 2. 의심 스러운 계정의 손상 된 계정을 찾고 해당 계정에 할당 된 관리 역할이 있는지 수동으로 확인 합니다.
 3. **Security & 준수 센터**를 엽니다.
 4. **사용 권한을**클릭 합니다.
-5. 역할 그룹을 수동으로 검토 하 여 의심 스러운 계정이 해당 계정의 구성원 인지 확인 합니다.  다음의 경우: 역할 그룹을 클릭 하 고 **역할 그룹 편집**을 클릭 합니다.  b. **선택한 구성원** 및 **편집** 을 클릭 하 여 역할 그룹에서 사용자를 제거 합니다.
+5. 역할 그룹을 수동으로 검토 하 여 의심 스러운 계정이 해당 계정의 구성원 인지 확인 합니다.  다음과 같은 경우: a. 역할 그룹을 클릭 하 고 **역할 그룹 편집**을 클릭 합니다.
+    b. **선택한 구성원** 및 **편집** 을 클릭 하 여 역할 그룹에서 사용자를 제거 합니다.
 6. **Exchange 관리 센터** 열기
 7. **사용 권한을**클릭 합니다.
-8. 역할 그룹을 수동으로 검토 하 여 의심 스러운 계정이 해당 계정의 구성원 인지 확인 합니다. If: a. 역할 그룹을 클릭 하 고 **편집**을 클릭 합니다.  b. **members** 섹션을 사용 하 여 역할 그룹에서 사용자를 제거 합니다.
+8. 역할 그룹을 수동으로 검토 하 여 의심 스러운 계정이 해당 계정의 구성원 인지 확인 합니다. 다음과 같은 경우: a. 역할 그룹을 클릭 하 고 **편집**을 클릭 합니다.
+    b. members ( **구성원** ) 섹션을 사용 하 여 역할 그룹에서 사용자를 제거할 수 있습니다.
 
 ### <a name="step-7-optional-additional-precautionary-steps"></a>7 단계 (선택 사항): 추가 준비 단계
 1. 보낸 항목을 확인 해야 합니다. 사용자의 계정이 손상 되었음을 대화 상대 목록에 알려야 할 수도 있습니다. 예를 들어 공격자는 다른 국가에서 나 필요한 비용으로 남겨진 것을 요구 하거나 공격자가 바이러스를 보내 컴퓨터를 가로챌 수 있습니다.
@@ -124,7 +127,7 @@ Office 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 �
 - 90 일을 초과 합니다. 처음 90 일의 향상 된 기능 빌드는 다음과 같은 작업을 수행 합니다.
 
 ## <a name="see-also"></a>참고 항목:
-- [Office 365에 대한 보안 모범 사례](https://support.office.com/article/Security-best-practices-for-Office-365-9295e396-e53d-49b9-ae9b-0b5828cdedc3)
+- [Office 365에 대 한 보안 모범 사례](https://support.office.com/article/Security-best-practices-for-Office-365-9295e396-e53d-49b9-ae9b-0b5828cdedc3)
 - [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 - [인터넷 범죄 불만 센터](http://www.ic3.gov/preventiontips.aspx)
 - [증권 및 Exchange 위원회-"피싱" 사기](http://www.sec.gov/investor/pubs/phishing.htm)

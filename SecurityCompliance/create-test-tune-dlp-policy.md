@@ -9,18 +9,17 @@ f1_keywords:
 - ms.o365.cc.NewPolicyFromTemplate
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection:
-- Strat_O365_IP
+ms.collection: M365-security-compliance
 search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
-description: 'DLP 정책을 시작 하는 가장 쉽고 일반적인 방법은 Office 365에 포함 된 서식 파일 중 하나를 사용 하는 것입니다. '
-ms.openlocfilehash: 14582a6507d271bc569aeb0c5456a662962d20a9
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
+ms.openlocfilehash: 250f3ec1cfa68d7980f3b4a01076f4c4d0b53a01
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223747"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410983"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 

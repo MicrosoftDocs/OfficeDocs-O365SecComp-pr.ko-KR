@@ -7,15 +7,15 @@ ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: f04919c8-2356-4de2-bb2a-b9f67f339726
 description: 이 항목에서는 EU 세금 식별 번호 중요 정보 유형을 검색할 때 DLP (데이터 손실 방지) 정책이 어떤 역할을 검색 하나요를 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: f851cce4be70fd41c24a7876d97c452f0a738eda
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4914ff078695519c2a298190d82c86a6abebceb9
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213828"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410913"
 ---
 # <a name="eu-tax-identification-number"></a>EU 세금 확인 번호
 
@@ -23,7 +23,7 @@ ms.locfileid: "30213828"
   
 ## <a name="austria"></a>오스트리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈 및 슬래시가 있는 9 자리 숫자
   
@@ -41,7 +41,7 @@ ms.locfileid: "30213828"
     
 - 4자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -81,7 +81,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금 등록 번호
   
 tax id
-
   
 st.nr
   
@@ -89,7 +88,7 @@ steuernummer
   
 ## <a name="belgium"></a>벨기에
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
@@ -107,7 +106,7 @@ steuernummer
     
 - 6자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -140,7 +139,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금 등록 번호
   
 tax id
-
   
 m
   
@@ -152,7 +150,7 @@ numéro d'identification fiscale
   
 ## <a name="bulgaria"></a>불가리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 10 자리 숫자
   
@@ -160,7 +158,7 @@ numéro d'identification fiscale
 
 10자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -223,7 +221,7 @@ egn #
   
 ## <a name="croatia"></a>크로아티아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 11 자리 숫자
   
@@ -235,7 +233,7 @@ egn #
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -273,7 +271,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금
   
 tax id
-
   
 원환형
   
@@ -283,7 +280,7 @@ porezni broj
   
 ## <a name="cyprus"></a>키프로스
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴에서 8 자리 및 1 개 문자
   
@@ -297,7 +294,7 @@ porezni broj
     
 - 1 개 문자 (대/소문자 구분 안 함)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -335,7 +332,6 @@ Pattern confidenceLevel="75">
 세금
   
 tax id
-
   
 세금 식별 코드
   
@@ -351,7 +347,7 @@ tic #
   
 ## <a name="czech-republic"></a>체코 공화국
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적 백슬래시가 있는 9 자리 또는 10 진수
   
@@ -365,7 +361,7 @@ tic #
     
 - 3 ~ 4 자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -396,7 +392,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금
   
 tax id
-
   
 개인 번호
   
@@ -406,7 +401,7 @@ osobní číslo
   
 ## <a name="denmark"></a>덴마크
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈을 포함 하는 10 자리 숫자
   
@@ -420,7 +415,7 @@ hyphenl를 포함 하는 10 자리 숫자:
     
 - 첫 번째 숫자가 출생 세기에 해당 하 고 마지막 숫자가 개별 성별에 해당 하는 시퀀스 번호에 해당 하는 4 자리 숫자 (남성의 경우 홀수 및 암에도 해당)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -458,7 +453,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금
   
 tax id
-
   
 cpr 번호
   
@@ -470,7 +464,7 @@ nummer에서
   
 ## <a name="estonia"></a>에스토니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 11 자리 숫자
   
@@ -486,7 +480,7 @@ nummer에서
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -524,7 +518,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금
   
 tax id
-
   
 개인 코드
   
@@ -536,7 +529,7 @@ isikukood
   
 ## <a name="finland"></a>핀란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 숫자, 문자, 더하기 및 빼기 기호를 11 문자로 조합
   
@@ -552,7 +545,7 @@ isikukood
     
 - 1 개의 문자 또는 한 자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -586,7 +579,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsfinlandeutaxfilenumber"></a>Keywords_finland_eu_tax_file_number
 
 identification number
-
   
 개인 id
   
@@ -596,7 +588,7 @@ id 번호
   
 personalidnumber #
   
-국가 식별 번호
+national identification number
   
 id 번호
   
@@ -628,7 +620,7 @@ kansallinen tunnus numero
   
 ## <a name="france"></a>프랑스
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 개별 사용자의 경우 13 자리 숫자 및 엔터티의 경우 9 자리 숫자
   
@@ -642,7 +634,7 @@ kansallinen tunnus numero
     
 엔터티의 9 자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -680,13 +672,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 세금 번호
   
 tax id
-
   
 numéro d'identification fiscale
   
 ## <a name="germany"></a>독일
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
@@ -698,7 +689,7 @@ numéro d'identification fiscale
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -742,7 +733,6 @@ taxnumber #
 taxnumber
   
 tax id
-
   
 taxid #
   
@@ -758,7 +748,7 @@ steueridentifikationsnummer
   
 ## <a name="greece"></a>그리스
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
@@ -766,7 +756,7 @@ steueridentifikationsnummer
 
 9자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -794,8 +784,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 afm
   
-tin
-
+언급
   
 세금 번호 번호
   
@@ -827,7 +816,7 @@ aφμ αριθμός
   
 ## <a name="hungary"></a>헝가리
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 10 자리 숫자
   
@@ -843,7 +832,7 @@ aφμ αριθμός
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -906,7 +895,7 @@ adóhatóság szám
   
 ## <a name="ireland"></a>Ireland
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백 또는 구분 기호가 없는 7 자리 숫자와 문자
   
@@ -918,7 +907,7 @@ adóhatóság szám
     
 - 1 개 문자 (대/소문자 구분 안 함)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -977,7 +966,7 @@ uimhir aitheantais phearsanta
   
 ## <a name="italy"></a>이탈리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴의 문자와 숫자 16 개
   
@@ -999,7 +988,7 @@ uimhir aitheantais phearsanta
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1043,7 +1032,6 @@ taxnumber #
 taxnumber
   
 tax id
-
   
 taxid #
   
@@ -1053,7 +1041,7 @@ codice
   
 ## <a name="latvia"></a>라트비아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 11 자리 숫자
   
@@ -1067,7 +1055,7 @@ codice
     
 - 4자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1111,7 +1099,6 @@ taxnumber #
 taxnumber
   
 tax id
-
   
 taxid #
   
@@ -1127,7 +1114,7 @@ nodokļu identifikācija numurs
   
 ## <a name="lithuania"></a>리투아니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 11 자리 숫자
   
@@ -1135,7 +1122,7 @@ nodokļu identifikācija numurs
 
 11자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -1179,7 +1166,6 @@ taxnumber #
 taxnumber
   
 tax id
-
   
 taxid #
   
@@ -1195,7 +1181,7 @@ mokesčių identifikavimas numeris
   
 ## <a name="luxemburg"></a>셈
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 13 자리 숫자
   
@@ -1207,7 +1193,7 @@ mokesčių identifikavimas numeris
     
 - 2개의 검사 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1251,7 +1237,6 @@ taxnumber #
 taxnumber
   
 tax id
-
   
 taxid #
   
@@ -1267,7 +1252,7 @@ steueridentifikationsnummer
   
 ## <a name="malta"></a>몰타
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 몰타어 nationals의 경우 지정 된 패턴의 7 자리 및 한 문자
   
@@ -1285,7 +1270,7 @@ steueridentifikationsnummer
   
 -  9자리 숫자 
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -1329,7 +1314,6 @@ taxnumber #
 taxnumber
   
 tax id
-
   
 taxid #
   
@@ -1345,7 +1329,7 @@ numru ta ' taxxa
   
 ## <a name="netherlands"></a>네덜란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 9 자리 숫자
   
@@ -1353,7 +1337,7 @@ numru ta ' taxxa
 
 9자리 숫자 
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1401,7 +1385,6 @@ netherland의 세금 식별
 네덜란드어 세금 식별 번호
   
 tax id
-
   
 세금 id #
   
@@ -1411,8 +1394,7 @@ tax id
   
 세금
   
-tin
-
+언급
   
 언급
   
@@ -1438,7 +1420,7 @@ nederlandse belasting identificatie
   
 ## <a name="poland"></a>폴란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 11 자리 숫자
   
@@ -1446,7 +1428,7 @@ nederlandse belasting identificatie
 
 11 자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1494,7 +1476,6 @@ nip
 nip #
   
 tax id
-
   
 세금 id #
   
@@ -1524,7 +1505,7 @@ numeridentyfikacjipodatkowej #
   
 ## <a name="portugal"></a>포르투갈
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 9 자리 숫자
   
@@ -1532,7 +1513,7 @@ numeridentyfikacjipodatkowej #
 
 9자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1585,7 +1566,7 @@ número de identificação 회계
   
 ## <a name="romania"></a>루마니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 13 자리 숫자
   
@@ -1593,7 +1574,7 @@ número de identificação 회계
 
 13자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -1620,14 +1601,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsromaniaeutaxfilenumber"></a>Keywords_romania_eu_tax_file_number
 
 tax id
-
   
 세금 id 번호
   
 세금 파일 번호
   
-
-
 tax file number
   
 세금 없음
@@ -1644,7 +1622,7 @@ numărul de identificare fiscală
   
 ## <a name="slovakia"></a>슬로바키아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 10 자리 숫자
   
@@ -1652,7 +1630,7 @@ numărul de identificare fiscală
 
 10자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -1679,7 +1657,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsslovakiaeutaxfilenumber"></a>Keywords_slovakia_eu_tax_file_number
 
 tax id
-
   
 세금 id 번호
   
@@ -1689,13 +1666,10 @@ tax id
   
 슬로바키아어 언급 id
   
-tin
-
+언급
   
 세금 파일 번호
   
-
-
 tax file number
   
 세금 없음
@@ -1714,7 +1688,7 @@ daňové číslo súboru
   
 ## <a name="slovenia"></a>슬로베니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 8 자리 숫자
   
@@ -1722,7 +1696,7 @@ daňové číslo súboru
 
 8자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1756,7 +1730,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordssloveniaeutaxfilenumber"></a>Keywords_slovenia_eu_tax_file_number
 
 tax id
-
   
 세금 id 번호
   
@@ -1766,13 +1739,10 @@ tax id
   
 슬로베니아어 언급 id
   
-tin
-
+언급
   
 세금 파일 번호
   
-
-
 tax file number
   
 세금 없음
@@ -1791,7 +1761,7 @@ davčna številka
   
 ## <a name="spain"></a>스페인
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴에 7 ~ 8 자리 숫자와 한 가지 또는 두 개의 문자가 있습니다.
   
@@ -1835,7 +1805,7 @@ Foreigner의 id 번호가 없는 Foreigners
     
 - 대문자 1 개 (대/소문자 구분) 
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1869,7 +1839,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsspaineutaxfilenumber"></a>Keywords_spain_eu_tax_file_number
 
 tax id
-
   
 세금 id 번호
   
@@ -1885,8 +1854,6 @@ cif
   
 스페인어 cif 번호
   
-
-
 tax file number
   
 스페인어 cif 아니요
@@ -1917,7 +1884,7 @@ cifnúmero #
   
 ## <a name="sweden"></a>스웨덴
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴의 10 자리 숫자와 기호
   
@@ -1937,7 +1904,7 @@ cifnúmero #
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1971,14 +1938,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsswedeneutaxfilenumber"></a>Keywords_sweden_eu_tax_file_number
 
 tax id
-
   
 세금 번호 번호
   
 세금 id 번호
   
 tax identification
-
   
 세금 식별 번호
   
@@ -2002,19 +1967,19 @@ personnummer
   
 ## <a name="uk"></a>영국의
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 utr (Unique Taxpayer Reference): 공백 및 구분 기호가 없는 10 자리 숫자
   
-국가 보험 번호 (NINO): 자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"영국 국립 보험 번호 (NINO)" 섹션을 참조 하십시오.
+국가 보험 번호 (NINO): 자세한 내용은 영국 섹션 "을 참조 하세요. [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)국가 보험 번호 (NINO) "입니다.
   
 ### <a name="pattern"></a>패턴
 
 utr (Unique Taxpayer Reference): 10 자리 숫자
   
-국가 보험 번호 (NINO): 자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"영국 국립 보험 번호 (NINO)" 섹션을 참조 하십시오.
+국가 보험 번호 (NINO): 자세한 내용은 영국 섹션 "을 참조 하세요. [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)국가 보험 번호 (NINO) "입니다.
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -2041,14 +2006,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsukeutaxfilenumber"></a>Keywords_uk_eu_tax_file_number
 
 tax id
-
   
 세금 번호 번호
   
 세금 id 번호
   
 tax identification
-
   
 세금 식별 번호
   
@@ -2064,5 +2027,5 @@ taxid #
   
 ## <a name="see-also"></a>참고 항목
 
-[중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 

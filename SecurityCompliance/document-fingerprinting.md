@@ -8,19 +8,19 @@ ms.audience: ITPro
 ms.topic: article
 search.appverid: MET150
 ms.service: exchange-online
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: 1e0c579c-26e0-462a-a1b0-d7506dfe05fa
-description: 조직의 정보 근로자는 일반적인 하루 중 많은 종류의 중요 한 정보를 처리 합니다. 문서 지문을를 사용 하면 조직 전체에서 사용 되는 표준 양식을 식별 하 여이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 20b9f59902c52d347e7c439cb6f380ee9fd4a30e
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
+ms.openlocfilehash: ef3f8450c9a0c65669c736c667e52568ab5996bd
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341289"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410643"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
-조직의 정보 근로자는 일반적인 하루 중 많은 종류의 중요 한 정보를 처리 합니다. 보안 &amp; 및 준수 센터에서 문서 지문을를 사용 하면 조직 전체에서 사용 되는 표준 양식을 식별 하 여이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
+조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 보안 &amp; 및 준수 센터에서 문서 지문을를 사용 하면 조직 전체에서 사용 되는 표준 양식을 식별 하 여이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
   
 ## <a name="basic-scenario-for-document-fingerprinting"></a>문서 지문 관련 기본 시나리오
 
@@ -34,11 +34,11 @@ ms.locfileid: "30341289"
     
 - 조직용으로 특수 작성된 사용자 지정 양식
     
-조직에서 특정 양식을 사용 하 여 중요 한 정보를 전송 하는 비즈니스 연습이 이미 설정 되어 있는 것이 이상적입니다. 문서 지 문으로 변환 되는 빈 양식을 업로드 하 고 해당 정책을 설정 하 고 나면 DLP는 아웃 바운드 메일에서 해당 지문과 일치 하는 문서를 검색 합니다.
+조직에서 특정 양식을 사용하여 중요한 정보를 전송하는 업무 관행을 이미 설정한 상태인 것이 가장 좋습니다. 문서 지 문으로 변환 되는 빈 양식을 업로드 하 고 해당 정책을 설정 하 고 나면 DLP는 아웃 바운드 메일에서 해당 지문과 일치 하는 문서를 검색 합니다.
   
 ## <a name="how-document-fingerprinting-works"></a>문서 지문의 작동 방식
 
-문서에 실제 지문이 포함 되지 않은 것으로 추측 되었지만 이름이이 기능을 설명 하는 데 도움이 될 것입니다. 사용자의 지문에 고유한 패턴이 있는 것 처럼 문서에는 고유한 단어 패턴이 있습니다. 파일을 업로드 하면 DLP는 문서에서 고유한 단어 패턴을 식별 하 고, 해당 패턴을 기반으로 문서 지문을 만들며, 해당 문서 지문을 사용 하 여 동일한 패턴을 포함 하는 아웃 바운드 문서를 검색 합니다. 따라서 양식이 나 서식 파일을 업로드 하면 가장 효율적인 유형의 문서 지문을 만듭니다. 양식을 작성 하는 모든 사용자는 동일한 원본 단어 집합을 사용 하 고 문서에 자체 단어를 추가 합니다. 아웃 바운드 문서가 암호로 보호 되지 않고 원본 양식의 모든 텍스트를 포함 하는 경우 DLP는 문서가 문서 지문과 일치 하는지 여부를 확인할 수 있습니다.
+문서에 실제 지문이 포함되는 것은 아니며 지문과 같은 기능이 제공됩니다. 사람의 지문에 고유한 패턴이 있는 것처럼 문서에도 고유한 단어 패턴이 있습니다. 파일을 업로드 하면 DLP는 문서에서 고유한 단어 패턴을 식별 하 고, 해당 패턴을 기반으로 문서 지문을 만들며, 해당 문서 지문을 사용 하 여 동일한 패턴을 포함 하는 아웃 바운드 문서를 검색 합니다. 따라서 양식이나 서식 파일을 업로드하면 가장 효율적인 유형의 문서 지문을 만들 수 있습니다. 양식을 작성하는 모든 사용자는 동일한 원본 단어 집합을 사용하게 되며, 원하는 단어를 문서에 추가합니다. 아웃 바운드 문서가 암호로 보호 되지 않고 원본 양식의 모든 텍스트를 포함 하는 경우 DLP는 문서가 문서 지문과 일치 하는지 여부를 확인할 수 있습니다.
   
 다음 예에서는 특허 서식 파일을 기준으로 문서 지문을 만들 때 수행되는 작업을 설명하지만 원하는 모든 양식을 기준으로 문서 지문을 만들 수 있습니다.
   
@@ -68,7 +68,7 @@ ms.locfileid: "30341289"
 
 현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [connect to Office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조 하세요.
 
-DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 사용 합니다 **** . **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 **DlpSensitiveInformationType** 에서 **새-dlpfingerprint** 및 **DlpSensitiveInformationType** 를 실행 합니다. PowerShell 세션 다음은 C:\My documents\contoso Employee 서식 파일을 기반으로 새 문서 지문을 만드는 예제입니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다. 
+DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 사용 합니다 **** . **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 **DlpSensitiveInformationType** 에서 **새-dlpfingerprint** 및 **DlpSensitiveInformationType** 를 실행 합니다. PowerShell 세션 다음 예에서는 C:\My Documents\Contoso Employee Template.docx 파일을 기반으로 새 문서 지문을 만듭니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다. 
   
 ```
 $Employee_Template = Get-Content "C:\My Documents\Contoso Employee Template.docx" -Encoding byte -ReadCount 0

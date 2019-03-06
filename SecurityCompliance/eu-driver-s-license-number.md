@@ -7,15 +7,15 @@ ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: c3923cd3-ec84-435f-bf41-cadc37996a4b
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 드라이버의 라이선스 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 86be7b52aed7581fd62ab595ac2c4b63ab33aab3
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: be9497c325866a670dff8d82b5170f4ca947c4ad
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217748"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410753"
 ---
 # <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
@@ -23,7 +23,7 @@ ms.locfileid: "30217748"
   
 ## <a name="austria"></a>오스트리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 8 자리 숫자
   
@@ -31,9 +31,9 @@ ms.locfileid: "30217748"
 
 8자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -59,11 +59,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_austria_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> 운전의 라이선스  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/>  운전 면허 번호  <br/> dlno #  <br/> fuhrerschein  <br/> fuhrerschein republik osterreich  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/>  운전 면허 번호  <br/> dlno #  <br/> fuhrerschein  <br/> fuhrerschein republik osterreich  <br/> |
    
 ## <a name="belgium"></a>벨기에
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 10 자리 숫자
   
@@ -71,9 +71,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 10자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -99,11 +99,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords__belgium_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> |
    
 ## <a name="bulgaria"></a>불가리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
@@ -111,9 +111,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 9자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -139,11 +139,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_bulgaria_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> свидетелство за управление на мпс  <br/> свидетелство за управление на моторно превозно средство  <br/> сумпс  <br/> шофьорска книжка  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> свидетелство за управление на мпс  <br/> свидетелство за управление на моторно превозно средство  <br/> сумпс  <br/> шофьорска книжка  <br/> |
    
 ## <a name="croatia"></a>크로아티아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 8 자리 숫자
   
@@ -151,9 +151,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 8자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -179,11 +179,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_croatia_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozačka dozvola  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozačka dozvola  <br/> |
    
 ## <a name="cyprus"></a>키프로스
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 12 자리 숫자
   
@@ -191,9 +191,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 12자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -218,11 +218,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_cyprus_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> άδεια οδήγησης  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> άδεια οδήγησης  <br/> |
    
 ## <a name="czech-republic"></a>체코 공화국
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2 개의 문자 다음에 6 자리 숫자
   
@@ -236,9 +236,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 6자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -264,11 +264,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_czech_republic_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> řidičský prúkaz  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> řidičský prúkaz  <br/> |
    
 ## <a name="denmark"></a>덴마크
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 8 자리 숫자
   
@@ -276,7 +276,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 8자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -304,11 +304,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_denmark_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> kørekort  <br/> kørekortnummer  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> kørekort  <br/> kørekortnummer  <br/> |
    
 ## <a name="estonia"></a>에스토니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2 개의 문자 다음에 6 자리 숫자
   
@@ -320,9 +320,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 6자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -347,12 +347,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_estonia_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> 
-permis de conduire  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conduire  <br/> |
    
 ## <a name="finland"></a>핀란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈을 포함하는 10자리 숫자
   
@@ -366,9 +365,9 @@ permis de conduire  <br/> |
     
 -  4자리 숫자 
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -393,7 +392,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_finland_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ajokortti  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ajokortti  <br/> |
    
 ## <a name="france"></a>프랑스
 
@@ -405,7 +404,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ## <a name="greece"></a>그리스
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
@@ -413,9 +412,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
  9자리 숫자 
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -440,11 +439,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_greece_eu_driver's_license_number**|
 |:-----|
-|dlL  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
+|dlL  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
    
 ## <a name="hungary"></a>헝가리
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2 개의 문자 다음에 6 자리 숫자
   
@@ -456,9 +455,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 6자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -483,11 +482,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_hungary_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vezetoi  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vezetoi  <br/> |
    
 ## <a name="ireland"></a>Ireland
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 6 자리 숫자와 4 개 문자
   
@@ -499,9 +498,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 4 개 문자 (대/소문자 구분 안 함)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -526,7 +525,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_ireland_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ceadúnas tiomána  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ceadúnas tiomána  <br/> |
    
 ## <a name="italy"></a>이탈리아
 
@@ -534,7 +533,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ## <a name="latvia"></a>라트비아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 3 개의 문자 및 6 자리 숫자
   
@@ -546,9 +545,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 6자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -573,11 +572,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_latvia_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> autovadītāja apliecība  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> autovadītāja apliecība  <br/> |
    
 ## <a name="lithuania"></a>리투아니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 8 자리 숫자
   
@@ -585,9 +584,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
  8자리 숫자 
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -612,11 +611,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_lithuania_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vairuotojo pažymėjimas  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vairuotojo pažymėjimas  <br/> |
    
 ## <a name="luxemburg"></a>셈
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 6 자리 숫자
   
@@ -624,9 +623,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
  6자리 숫자 
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -651,11 +650,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_luxemburg_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> fahrerlaubnis  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> fahrerlaubnis  <br/> |
    
 ## <a name="malta"></a>몰타
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴에서 두 개의 문자와 6 자리 숫자 조합
   
@@ -673,9 +672,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 3자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -700,11 +699,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_malta_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> liċenzja tas-sewqan  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> liċenzja tas-sewqan  <br/> |
    
 ## <a name="netherlands"></a>네덜란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 10 자리 숫자
   
@@ -712,9 +711,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 10자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -739,12 +738,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_netherlands_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> 
-permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
    
 ## <a name="poland"></a>폴란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 두 개의 슬래시를 포함 하는 14 자리 숫자
   
@@ -762,9 +760,9 @@ permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
     
 - 7자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -789,11 +787,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_poland_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> prawo jazdy  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> prawo jazdy  <br/> |
    
 ## <a name="portugal"></a>포르투갈
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 두 개의 문자와 지정 된 패턴에 있는 일곱 개의 숫자
   
@@ -811,9 +809,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 1자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -838,11 +836,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_portugal_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> carteira de motorista  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> carteira de motorista  <br/> |
    
 ## <a name="romania"></a>루마니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 한 문자 다음에 8 자리 숫자
   
@@ -854,9 +852,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 8자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -881,11 +879,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_romania_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conducere  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conducere  <br/> |
    
 ## <a name="slovakia"></a>슬로바키아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 한 문자 다음에 7 자리 숫자
   
@@ -897,9 +895,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 -  7자리 숫자 
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -924,11 +922,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_slovakia_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vodičský preukaz  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vodičský preukaz  <br/> |
    
 ## <a name="slovenia"></a>슬로베니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
@@ -936,9 +934,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 9자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -963,11 +961,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_slovenia_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozniško dovoljenje  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozniško dovoljenje  <br/> |
    
 ## <a name="spain"></a>스페인
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 8 자리 숫자와 문자 1 개
   
@@ -979,7 +977,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 - 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1006,13 +1004,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_spain_eu_driver's_license_number**|
 |:-----|
-|dlno #  <br/> dl  <br/> drivers lic  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스  <br/> drivers licence  <br/> 
-drivers license  <br/> 운전의 라이선스  <br/> 운전 면허  <br/> driving licence
-  <br/> 운전 면허  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 영향 요소 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 추진 허용  <br/> 제어 허용 번호  <br/> permiso de conducción  <br/> permiso conducción  <br/> número licencia conducir  <br/> número de 네트워크 de conducir  <br/> número carnet conducir  <br/> licencia conducir  <br/> número de permiso de conducir  <br/> número de permiso conducir  <br/> número permiso conducir  <br/> permiso conducir  <br/> licencia de manejo  <br/> el carnet de conducir  <br/> carnet conducir  <br/> |
+|dlno #  <br/> dl  <br/> drivers lic  <br/> 드라이버 라이선스  <br/> driver license  <br/> drivers licence  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> driving licence  <br/> driving license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 영향 요소 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 추진 허용  <br/> 제어 허용 번호  <br/> permiso de conducción  <br/> permiso conducción  <br/> número licencia conducir  <br/> número de 네트워크 de conducir  <br/> número carnet conducir  <br/> licencia conducir  <br/> número de permiso de conducir  <br/> número de permiso conducir  <br/> número permiso conducir  <br/> permiso conducir  <br/> licencia de manejo  <br/> el carnet de conducir  <br/> carnet conducir  <br/> |
    
 ## <a name="sweden"></a>스웨덴
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈을 포함 하는 10 자리 숫자
   
@@ -1026,9 +1022,9 @@ drivers license  <br/> 운전의 라이선스  <br/> 운전 면허  <br/> drivin
     
 - 4자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
   
 ### <a name="definition"></a>정의
 
@@ -1053,13 +1049,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_sweden_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> 드라이버 라이선스  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> körkort  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> körkort  <br/> |
    
 ## <a name="uk"></a>영국의
 
-자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"영국 운전 면허 번호" 섹션을 참조 하십시오.
+자세한 내용은 영국 섹션을 참조 하십시오. [중요 한 정보 유형에 서 확인 되는](what-the-sensitive-information-types-look-for.md)운전 면허 번호입니다.
   
 ## <a name="see-also"></a>참고 항목
 
-[중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 

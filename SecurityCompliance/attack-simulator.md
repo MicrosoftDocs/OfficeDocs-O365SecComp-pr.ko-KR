@@ -3,7 +3,7 @@ title: Office 365의 공격 시뮬레이터
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/05/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Office 365 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
-ms.openlocfilehash: ba5658dfa9075b5779f8ca09ccad3547dbddcbb5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 25686ce194deca8d1ca07fca40f8142492951574
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216278"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410833"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
@@ -50,13 +50,13 @@ ms.locfileid: "30216278"
 
 사용자와 조직이 공격 시뮬레이터에 대해 다음 요구 사항을 충족 하는지 확인 합니다.
       
-- 조직의 전자 메일이 Exchange Online에서 호스트 됩니다. 온-프레미스 전자 메일 서버에는 Attack 시뮬레이터를 사용할 수 없습니다.
+- **조직의 전자 메일이 Exchange Online에서 호스트 됩니다**. 온-프레미스 전자 메일 서버에는 Attack 시뮬레이터를 사용할 수 없습니다.
     
-- 사용자는 Office 365 전역 관리자 여야 합니다.
+- **사용자는 Office 365 전역 관리자 여야 합니다.**
     
-- 조직에서 [Office 365 사용자에 대해 다단계 인증](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) 을 사용 하 고 있습니다.
+- **최소 Office 365 전역 관리자 계정에 대해 MFA ( [multi-factor authentication](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) )가 설정 됩니다**. 가장 이상적으로는 조직의 모든 사용자에 대해 MFA를 설정 하는 것이 좋습니다.
  
-- 조직에 [Office 365 위협 인텔리전스](office-365-ti.md)가 있으며 보안 &amp; 및 준수 센터에서 공격 시뮬레이터가 표시 됩니다 ( **위협 관리** \> **공격 시뮬레이터**로 이동).<br/>![위협 관리-공격 시뮬레이터](media/ThreatMgmt-AttackSimulator.png)
+- **조직에 [Office 365 위협 인텔리전스](office-365-ti.md)가 있으며**보안 &amp; 및 준수 센터에서 공격 시뮬레이터가 표시 됩니다 ( **위협 관리** \> **공격 시뮬레이터**로 이동).<br/>![위협 관리-공격 시뮬레이터](media/ThreatMgmt-AttackSimulator.png)
 
     
 ## <a name="display-name-spear-phishing-attack"></a>표시 이름 스피어-피싱 공격
@@ -81,7 +81,7 @@ ms.locfileid: "30216278"
     
 5. **보낸 사람 (이름)** 필드에 대 한 텍스트를 지정 합니다. 받는 전자 메일 클라이언트의 **표시 이름** 에이 필드를 표시 합니다. 
     
-6. 텍스트 또는 **보낸 사람** 필드를 지정 합니다. 받는 전자 메일 클라이언트에 있는 보낸 사람의 전자 메일 주소로 표시 되는 필드입니다.<br/>조직 내에서 기존 전자 메일 네임 스페이스를 입력할 수 있습니다 (이 작업을 수행 하면 전자 메일 주소가 받는 클라이언트에서 실제로 확인 되 고, 매우 높은 신뢰 모델이 촉진 됨), 외부 전자 메일 주소를 입력할 수 있습니다. 지정한 전자 메일 주소가 실제로 존재 하는 것은 아니지만, 유효한 SMTP 주소 형식 (예: user @ domainname. 확장명)을 사용 해야 합니다. 
+6. 텍스트 또는 **보낸 사람** 필드를 지정 합니다. 받는 전자 메일 클라이언트에 있는 보낸 사람의 전자 메일 주소로 표시 되는 필드입니다. <br/>조직 내에서 기존 전자 메일 네임 스페이스를 입력할 수 있습니다 (이 작업을 수행 하면 전자 메일 주소가 받는 클라이언트에서 실제로 확인 되 고, 매우 높은 신뢰 모델이 촉진 됨), 외부 전자 메일 주소를 입력할 수 있습니다. 지정한 전자 메일 주소가 실제로 존재 하는 것은 아니지만, 유효한 SMTP 주소 형식 (예: user @ domainname. 확장명)을 사용 해야 합니다. 
   
 7. 드롭다운 선택기를 사용 하 여 공격에 포함 될 콘텐츠 유형을 반영 하는 피싱 로그인 서버 URL을 선택 합니다. 문서 배달, 기술, 급여 등의 다양 한 테마가 지정 된 url을 선택할 수 있습니다. 이 URL은 대상 사용자가 클릭 하 라는 메시지가 표시 되는 경우 효과적입니다.
     
@@ -129,11 +129,19 @@ ms.locfileid: "30216278"
     
 ## <a name="new-features-in-attack-simulator"></a>Attack 시뮬레이터의 새로운 기능
 
-새 기능이 공격 시뮬레이터에 추가 됩니다. 여기에는 다음이 포함 됩니다.
+새 기능이 공격 시뮬레이터에 추가 됩니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다.
+
 - **고급 보고 기능** 공격 시뮬레이션 전자 메일 메시지를 여는 가장 빠른 시간 (또는 가장 느림)과 같은 데이터와 메시지에서 링크를 클릭 하는 가장 빠른 시간 (또는 가장 느림)이 표시 될 수 있습니다.
+
 - **전자 메일 서식 파일 편집기**입니다. 이후 공격 시뮬레이션에 사용할 수 있는 재사용 가능한 사용자 지정 전자 메일 템플릿을 만들 수 있습니다.
 
 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문 하 여 개발 중인 작업, 진행 중인 작업 및 이미 실행 된 작업을 확인 합니다.
+
+## <a name="see-also"></a>참고 항목
+
+[Office 365 Advanced Threat Protection 서비스 Desription](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+[Office 365 Advanced Threat Protection](office-365-atp.md)
 
 
 

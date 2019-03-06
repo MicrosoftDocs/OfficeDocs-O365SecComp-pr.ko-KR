@@ -7,15 +7,15 @@ ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: 2ea971bf-9434-4b61-b825-2bbd28ae6064
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 9a85fd6954f39de348874e03268a2e19ae47366c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: afae2c3fa54fe5fcd93990cdf5797f5517c46202
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220638"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410973"
 ---
 # <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
@@ -23,7 +23,7 @@ ms.locfileid: "30220638"
   
 ## <a name="austria"></a>오스트리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 문자, 숫자 및 특수 문자의 24 자 조합
   
@@ -35,7 +35,7 @@ ms.locfileid: "30220638"
     
 - 2 개의 문자 (대/소문자 구분 안 함), 숫자, 백슬래시, 슬래시, 더하기 기호 또는 등호
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -67,7 +67,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 id 번호
   
-
 national id
   
 personalausweis republik österreich
@@ -78,7 +77,7 @@ personalausweis republik österreich
   
 ## <a name="bulgaria"></a>불가리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 10 자리 숫자
   
@@ -94,7 +93,7 @@ personalausweis republik österreich
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -135,7 +134,6 @@ egn #
 국가 번호
   
 social security number
-
   
 nationalnumber #
   
@@ -167,7 +165,7 @@ edinen grazhdanski nomer
   
 ## <a name="cyprus"></a>키프로스
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 10 자리 숫자
   
@@ -175,7 +173,7 @@ edinen grazhdanski nomer
 
  10 자리 숫자 
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -203,7 +201,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 id 카드 번호
   
-국가 식별 번호
+national identification number
   
 개인 id 번호
   
@@ -221,7 +219,7 @@ id 카드 번호
   
 ## <a name="estonia"></a>에스토니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
@@ -237,7 +235,7 @@ id 카드 번호
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -274,7 +272,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 개인 식별 번호
   
-국가 식별 번호
+national identification number
   
 국가 번호
   
@@ -306,7 +304,7 @@ id-kaart
   
 ## <a name="hungary"></a>헝가리
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자
   
@@ -322,7 +320,7 @@ id-kaart
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -357,7 +355,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 개인 식별 번호
   
 identification number
-
   
 개인 id 번호
   
@@ -365,7 +362,7 @@ személyazonosító igazolvány
   
 ## <a name="ireland"></a>Ireland
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴에서 문자, 숫자 및 공백의 9 자 조합
   
@@ -389,7 +386,7 @@ személyazonosító igazolvány
     
 - 1 개의 공백 또는 대문자 (대/소문자 구분)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -433,7 +430,6 @@ rsi 아니요
 개인 식별 번호
   
 identification number
-
   
 개인 id 번호
   
@@ -443,7 +439,7 @@ uimh psp
   
 ## <a name="italy"></a>이탈리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴에 해당 하는 문자 및 숫자의 16 자 조합
   
@@ -465,7 +461,7 @@ uimh psp
     
 - 1 개의 패리티 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -525,7 +521,7 @@ codice
   
 ## <a name="italy"></a>이탈리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 형식의 11 자리 숫자 및 하이픈
   
@@ -541,7 +537,7 @@ codice
     
 - 임의로 생성 되는 4 자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -589,7 +585,7 @@ personalcodeno #
   
 ## <a name="lithuania"></a>리투아니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
@@ -605,7 +601,7 @@ personalcodeno #
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -662,7 +658,7 @@ asmens kodas
   
 ## <a name="luxemburg"></a>셈
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
@@ -678,7 +674,7 @@ asmens kodas
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -739,7 +735,7 @@ eindeutigeid #
   
 ## <a name="malta"></a>몰타
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7 자리 숫자와 문자 1 개
   
@@ -751,7 +747,7 @@ eindeutigeid #
     
 - 대문자 1 개 (대/소문자 구분)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -804,7 +800,7 @@ numru ta ' uniku
   
 ## <a name="netherlands"></a>네덜란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 9 자리 숫자
   
@@ -812,7 +808,7 @@ numru ta ' uniku
 
 9자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -877,7 +873,7 @@ identiteitsnummer
   
 ## <a name="romania"></a>루마니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호가 없는 13 자리 숫자
   
@@ -885,7 +881,7 @@ identiteitsnummer
 
 13자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -926,7 +922,7 @@ cnp
   
 cnp #
   
-고정
+pin
   
 pin
   
@@ -958,7 +954,7 @@ numărpersonalunic #
   
 ## <a name="slovakia"></a>슬로바키아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 백슬래시 하나를 포함 하는 10 자리 숫자
   
@@ -966,7 +962,7 @@ numărpersonalunic #
 
 백슬래시 하나를 포함 하는 10 자리 숫자:
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1001,12 +997,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 돌 번호
   
-국가 식별 번호
+national identification number
   
 개인 식별 번호
   
 social security number
-
   
 nationalnumber #
   
@@ -1028,7 +1023,7 @@ rodne cislo
   
 ## <a name="slovenia"></a>슬로베니아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 13 자리 숫자
   
@@ -1044,7 +1039,7 @@ rodne cislo
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -1099,7 +1094,7 @@ emšo
   
 ## <a name="spain"></a>스페인
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7 자리 숫자와 문자 1 개
   
@@ -1111,7 +1106,7 @@ emšo
     
 - 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 해당 없음
   
@@ -1139,7 +1134,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 dni
   
-국가 식별 번호
+national identification number
   
 국가 id 번호
   
@@ -1187,5 +1182,5 @@ identidadúnico #
   
 ## <a name="see-also"></a>참고 항목
 
-[중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 

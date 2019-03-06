@@ -8,18 +8,17 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
+ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: 94349ed4-5351-4ee2-bbda-70813c9ed693
-description: 중요 한 정보 유형은 특정 패턴을 확인 하 고 적절 한 서식을 유지 하 고 체크섬을 적용 하며 관련 키워드 또는 기타 정보를 찾는 방법으로 corroborate 합니다. 이러한 기능 중 일부는 내부 기능에 의해 수행 됩니다. 이 항목에서는 미리 정의 된 중요 한 정보 유형의 작동 방식을 이해 하는 데 도움이 되도록 이러한 함수가 찾는 항목에 대해 설명 합니다.
-ms.openlocfilehash: 55c740e892e92902b368b2dcf7b0999cbc60f3ed
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+description: 중요 한 정보 유형은 특정 패턴을 확인 하 고 적절 한 서식을 유지 하 고 체크섬을 적용 하며 관련 키워드 또는 기타 정보를 찾는 방법으로 corroborate 합니다. 이 기능 중 일부는 내부 함수에 의해 수행됩니다. 이 항목에는 이러한 함수가 찾는 대상이 설명되어 있어 미리 정의된 중요한 정보 유형이 작동하는 방식을 이해할 수 있습니다.
+ms.openlocfilehash: 4cc6f4d27e106aeedb2fa8cae0f3634b9e3d6319
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219358"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410553"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 
@@ -29,7 +28,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
   
 ## <a name="funcusdate"></a>Func_us_date
 
-이 함수는 미국에서 일반적으로 사용 되는 형식으로 날짜를 찾습니다. 여기에는 "월/일/년", "월-일-년" 및 "월 일 년" 형식이 포함 됩니다. 월의 이름 또는 약어는 대/소문자를 구분 하지 않습니다. 
+이 함수는 미국에서 일반적으로 사용 되는 형식으로 날짜를 찾습니다. 여기에는 "월/일/년", "월-일-년" 및 "월 일 년" 형식이 포함 됩니다. 월 이름 또는 약어는 대/소문자를 구분하지 않습니다. 
   
 예제:
   
@@ -93,7 +92,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
   - janvier, février, mars, avril, mai, juin juillet, août, septembre, octobre, novembre, décembre
     
-  - janv févr mars avril mai juin juil août 9 월 11 월 10 일 déc
+  - janv févr mars avril mai juin juil août 9 월 일. 수정일. déc
     
 - 독일어
     
@@ -117,14 +116,14 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
   - enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre
     
-  - enero 년 2 월 marzo abr. mayo 년 7 월. agosto/set. 11 월 10 일 home.dic.
+  - enero 년 2 월 marzo abr mayo의 6 월 최종. agosto/set. 일. 수정일. home.dic.
     
 ## <a name="funceudate1-deprecated"></a>Func_eu_date1(더 이상 사용되지 않음)
 
 > [!NOTE]
 > 이 함수는 이제 위의 `Func_eu_date` 함수에 포함 되는 포르투갈어 월 이름을 지원 하기 때문에 더 이상 사용 되지 않습니다. 
   
-이 함수는 포르투갈어에서 일반적으로 사용 되는 형식의 날짜를 찾습니다. 이 함수의 형식은 사용 되는 언어에만 `Func_eu_date`다른 것과 동일 합니다.
+이 함수는 포르투갈어에서 일반적으로 사용되는 형식의 날짜를 찾습니다. 이 함수의 형식은 사용 되는 언어에만 `Func_eu_date`다른 것과 동일 합니다.
   
 예제:
   
@@ -155,7 +154,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
 > [!NOTE]
 > 이 함수는 이제 위의 `Func_eu_date` 함수에 포함 되는 네덜란드어 월 이름만 지원 하기 때문에 더 이상 사용 되지 않습니다. 
   
-다음은 네덜란드어에서 일반적으로 사용 되는 형식의 날짜를 찾는 함수입니다. 이 함수의 형식은 사용 되는 언어에만 `Func_eu_date`다른 것과 동일 합니다.
+이 함수는 네덜란드어에서 일반적으로 사용되는 형식의 날짜를 찾습니다. 이 함수의 형식은 사용 되는 언어에만 `Func_eu_date`다른 것과 동일 합니다.
   
 예제:
   
@@ -183,7 +182,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 ## <a name="funcexpirationdate"></a>Func_expiration_date
 
-이 함수는 대변 및 직불 카드에서 일반적으로 사용 되는 형식의 날짜를 조회 하 여 월 단위로 일 단위를 제외 합니다. 이 함수는 "month/year", "month-year", "[month name] year" 및 "[month 약어] year" 형식으로 날짜를 일치 시킵니다. 월의 이름 또는 약어는 대/소문자를 구분 하지 않습니다.
+이 함수는 신용 카드 및 직불 카드에서 일반적으로 사용되는 형식의 날짜를 찾으며 월 기준의 일은 제외합니다. 이 함수는 "month/year", "month-year", "[month name] year" 및 "[month 약어] year" 형식으로 날짜를 일치 시킵니다. 월 이름 또는 약어는 대/소문자를 구분하지 않습니다.
   
 예제:
   
@@ -217,7 +216,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
 
 이 함수는 우편 주소에 사용되는 것과 같이 미국 주 이름 또는 주 약어와 유효한 우편 번호를 찾습니다. 우편 번호는 미국 주 이름 또는 약어와 관련된 올바른 우편 번호 중 하나여야 합니다. 미국 주 이름과 우편 번호를 문장 부호나 문자로 구분할 수 없습니다.
   
-예:
+예제:
   
 - Washington 98052
     

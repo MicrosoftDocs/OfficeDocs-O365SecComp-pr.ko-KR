@@ -3,7 +3,7 @@ title: 보고서 메시지 추가 기능을 사용하도록 설정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/18/2019
+ms.date: 03/05/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,14 +15,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c184b7ac1baef297d65e6e93e4e7a085920d87b0
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: aba02855b514f0d631d332623d840f9c65911bd1
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341429"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410903"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
+
+> [!NOTE]
+> outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능은 [outlook 정크 메일 필터](https://support.office.com/article/Overview-of-the-Junk-Email-Filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)와는 완전히 동일 하지는 않지만 전자 메일을 정크로 표시 하거나 정크 메일이 아닌 다른 것으로 표시할 수도 있습니다. 차이점은 outlook 정크 메일 필터를 사용 하 여 사용자의 사서함에 있는 전자 메일 메시지를 구성 하는 것과는 달리, 웹용 outlook의 보고서 메시지 추가 기능에서 Microsoft에 게 스팸으로 잘못 분류 전자 메일을 알립니다. 
 
 ## <a name="overview"></a>개요
 
@@ -31,14 +34,13 @@ outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하�
 예를 들어 사용자가 많은 양의 메시지를 피싱 메일로 보고 한다고 가정 합니다. 이 정보는 [보안 대시보드](security-dashboard.md) 및 기타 보고서에 있습니다. 조직의 보안 팀에서이 정보를 사용 하 여 피싱 방지 정책을 업데이트 해야 할 수 있습니다. 또는 사용자가 보고서 메시지 추가 기능을 사용 하 여 정크 메일로 플래그를 지정 하지 않은 많은 메시지를 보고 하는 경우 조직의 보안 팀이 [스팸 방지 정책을](configure-the-anti-spam-policies.md)조정 해야 할 수 있습니다. 
 
 보고서 메시지 추가 기능 이란 Office 365 구독 및 다음 제품과 함께 작동 합니다.
- - 웹용 Outlook
+ - 웹에서 Outlook
  - Outlook 2013 SP1
  - Outlook 2016
  - Mac용 Outlook 2016
  - Office 365 ProPlus에 포함 된 Outlook
 
-> [!NOTE]
-> outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능은 [outlook 정크 메일 필터](https://support.office.com/article/Overview-of-the-Junk-Email-Filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)와는 완전히 동일 하지는 않지만 전자 메일을 정크로 표시 하거나 정크 메일이 아닌 다른 것으로 표시할 수도 있습니다. outlook 및 웹용 outlook 용 보고서 메시지 추가 기능은 Microsoft에 게 스팸으로 잘못 분류 전자 메일을 알려 주고, outlook 정크 메일 필터를 사용 하 여 사용자의 사서함에 있는 전자 메일 메시지를 구성 합니다. 
+기존 웹 브라우저는 보고서 메시지 추가 기능을 사용 하기에 충분 해야 합니다. 그러나 추가 기능이 사용 가능 하지 않거나 예상 대로 작동 하지 않는 경우 다른 브라우저를 사용해 보세요.
   
 개별 사용자 [의 경우에는 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-the-report-message-add-in-for-yourself)수 있습니다. 
   
@@ -50,7 +52,7 @@ Office 365 전역 관리자 또는 exchange Online 관리자이 고 exchange가 
     
 2. **지금 다운로드**를 선택 합니다.<br/>![메시지 보고-지금 받기](media/ReportMessageGETITNOW.png)<br/> 
     
-3. 사용 약관 및 개인 정보 보호 정책을 검토 합니다. 다음 **계속**을 선택 합니다. 
+3. 사용 약관 및 개인 정보 보호 정책을 검토 합니다. 그런 다음 **계속**을 선택합니다. 
     
 4. 회사 또는 학교 계정 (비즈니스용 사용) 또는 Microsoft 계정 (개인적으로 사용)을 사용 하 여 Office 365에 로그인 합니다.
     
@@ -119,7 +121,7 @@ Office 365 전역 관리자 또는 exchange Online 관리자이 고 exchange가 
     
 9. **이 규칙에 대 한 모드 선택**에서 **적용**을 선택 합니다.<br/>![보고 된 각 메시지의 복사본을 가져오기 위한 규칙 설정](media/f1cd95ce-e40d-4a8a-8f48-893469eba691.png)<br/>
   
-10. **Save(저장)** 를 선택합니다. 
+10. **저장**을 선택합니다. 
     
 이 규칙을 적용 하면 조직의 누군가가 보고서 메시지 추가 기능을 사용 하 여 전자 메일 메시지를 보고할 때마다 전역 관리자, 보안 관리자 및/또는 보안 판독기가 해당 메시지의 복사본을 받게 됩니다. 이 정보를 사용 하 여 [Office 365 ATP 안전한 링크](atp-safe-links.md) 정책 또는 [스팸 방지](anti-spam-protection.md) 설정 등의 정책을 설정 하거나 조정할 수 있습니다. 
 
@@ -139,7 +141,7 @@ Office 365 전역 관리자 또는 exchange Online 관리자이 고 exchange가 
 2. 보고서 메시지 추가 기능을 찾아 선택 합니다.<br/>![보고서 메시지 추가 기능 찾기 및 선택](media/FindReportMessageAddIn.png)<br/> 
     
 3. 보고서 메시지 화면에서 조직에 적합 한 설정을 검토 하 고 편집 합니다.<br/>![보고서 메시지 추가 기능에 대 한 설정](media/EditReportMessageAddIn.png)<br/> 
-  
+
 ## <a name="related-topics"></a>관련 항목
 
 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)

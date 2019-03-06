@@ -7,15 +7,15 @@ ms.date: 8/17/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
+ms.collection: M365-security-compliance
 localization_priority: Normal
-ms.assetid: 1fabd341-e594-4bfe-961c-62aa82893f60
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 주민 등록 번호 또는 동등한 ID 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: abcefb6930e9c02d2f32d84b65accfecf1e20d95
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: c0c808eafa52209c79f3b4e8a2113f587fd8a771
+ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216528"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30410803"
 ---
 # <a name="eu-social-security-number-or-equivalent-id"></a>EU 주민 등록 번호 또는 동등한 ID
 
@@ -23,7 +23,7 @@ ms.locfileid: "30216528"
   
 ## <a name="austria"></a>오스트리아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 형식의 10 자리 숫자
   
@@ -37,7 +37,7 @@ ms.locfileid: "30216528"
     
 - 생년월일에 해당 하는 6 자리 숫자 (ddmmyy)
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -73,9 +73,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 소셜 보안 아니요
   
 social security number
-
   
-
 social security code
   
 보험 번호
@@ -100,7 +98,7 @@ versicherungsnummer
   
 ## <a name="belgium"></a>벨기에
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백이 나 구분 기호가 없는 11 자리 숫자
   
@@ -108,7 +106,7 @@ versicherungsnummer
 
 11자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -146,7 +144,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 국가 번호
   
 social security number
-
   
 nationalnumber #
   
@@ -167,7 +164,6 @@ personalidnumber #
 numéro 국가
   
 numéro de sécurité
-
   
 numéro d'assuré
   
@@ -179,7 +175,7 @@ numéronational #
   
 ## <a name="croatia"></a>크로아티아
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 11 자리 숫자
   
@@ -191,7 +187,7 @@ numéronational #
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -228,10 +224,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 마스터 시민 번호
   
-국가 식별 번호
+national identification number
   
 social security number
-
   
 nationalnumber #
   
@@ -255,7 +250,7 @@ osobni identifikacijski broj
   
 ## <a name="czech-republic"></a>체코 공화국
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴의 10 자리 및 백슬래시
   
@@ -271,7 +266,7 @@ osobni identifikacijski broj
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -306,12 +301,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 돌 번호
   
-국가 식별 번호
+national identification number
   
 개인 식별 번호
   
 social security number
-
   
 nationalnumber #
   
@@ -333,7 +327,7 @@ rodne cislo
   
 ## <a name="denmark"></a>덴마크
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 패턴의 10 자리 및 하이픈
   
@@ -347,7 +341,7 @@ rodne cislo
     
 - 일련 번호에 해당 하는 4 자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -382,10 +376,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 개인 식별 번호
   
-국가 식별 번호
+national identification number
   
 social security number
-
   
 nationalnumber #
   
@@ -405,7 +398,7 @@ personnummer
   
 ## <a name="finland"></a>핀란드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정 된 형식의 11 자 조합
   
@@ -427,7 +420,7 @@ personnummer
     
 - 1 개의 문자 또는 1 자리 숫자
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -461,7 +454,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsfinlandeussnorequivalent"></a>Keywords_finland_eu_ssn_or_equivalent
 
 identification number
-
   
 개인 id
   
@@ -471,7 +463,7 @@ id 번호
   
 personalidnumber #
   
-국가 식별 번호
+national identification number
   
 id 번호
   
@@ -517,7 +509,7 @@ hetu
   
 ## <a name="hungary"></a>헝가리
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 9 자리 숫자
   
@@ -525,7 +517,7 @@ hetu
 
 9자리 숫자
   
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -561,7 +553,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 헝가리어 주민 등록 번호
   
 social security number
-
   
 사회 alsecurity번호 #
   
@@ -603,7 +594,7 @@ magyar áfa szám
   
 ## <a name="sweden"></a>스웨덴
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백과 구분 기호를 사용 하지 않고 12 자리 숫자
   
@@ -621,7 +612,7 @@ magyar áfa szám
     
 - 검사 숫자 1 개
     
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
   
@@ -657,7 +648,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 개인 id 번호
   
 identification number
-
   
 개인 id 없음
   
@@ -683,5 +673,5 @@ identifikationsnumret #
   
 ## <a name="see-also"></a>참고 항목
 
-[중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 
