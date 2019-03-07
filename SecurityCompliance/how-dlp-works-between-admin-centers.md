@@ -7,19 +7,20 @@ ms.date: 8/4/2017
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Exchange 관리 센터에서 dlp 및 메일 흐름 규칙 (전송 규칙)을 통해 보안 & 준수 센터의 dlp가 작동 하는 방식을 알아봅니다.
-ms.openlocfilehash: 512d9e4c9d3181cbaec2d58faac4f95f649b78c8
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 9912103ec95af9fed61c5c2d52d12b46342d16fb
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410683"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454910"
 ---
 # <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>보안 & 준수 센터와 Exchange 관리 센터 간에 DLP가 작동 하는 방식
 

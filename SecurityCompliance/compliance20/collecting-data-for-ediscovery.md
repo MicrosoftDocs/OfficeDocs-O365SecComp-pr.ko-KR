@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bcc307cc08954dd3cc69e8905747393d79f97b04
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: fb4b36841394576c44667f9677507c5655179e45
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30297101"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455420"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery-preview"></a>Advanced eDiscovery (미리 보기)의 사례에 대 한 데이터 수집
 
@@ -27,7 +27,7 @@ ms.locfileid: "30297101"
 
 검색을 실행 한 후 검색 쿼리와 일치 하는 항목이 가장 많은 위치와 같은 검색 된 항목에 대 한 통계를 볼 수 있습니다. 또한 결과의 하위 집합을 미리 볼 수도 있습니다. 추가로 확인할 문서 집합을 식별 한 경우 수집 및 처리할 작업 집합에 검색 결과를 추가할 수 있습니다.
 
-## <a name="create-a-search"></a>검색 만들기
+## <a name="create-a-search"></a>Create a search
 
 검색 탭에서 **새 검색** 을 클릭 하면 검색을 만드는 과정을 안내 하는 마법사가 시작 됩니다. **** 검색을 만드는 방법에 대 한 자세한 내용은 [create a search를 검색 하 여 데이터 수집](create-search-to-collect-data.md)을 참조 하십시오.
 
@@ -41,7 +41,6 @@ ms.locfileid: "30297101"
 - 요약
 - 상위 위치
 - 쿼리하도록
-- 구체화
 
 검색 통계에 대 한 자세한 내용은 [검색 통계](search-statistics.md)를 참조 하세요.
 

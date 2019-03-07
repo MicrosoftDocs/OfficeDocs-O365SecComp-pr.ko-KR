@@ -11,29 +11,29 @@ f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleContainsSensitiveInformation
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: Strat_O365_IP
-ms.assetid: fd505979-76be-4d9f-b459-abef3fc9e86b
-description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요 한 정보 유형을 소개 하 고 DLP 정책이 각 유형을 검색할 때 어떤 내용을 찾을 지를 보여 줍니다.
-ms.openlocfilehash: 17fb0b8d745168f8000fba9e6fc42f3c255a1937
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.collection:
+- M365-security-compliance
+description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
+ms.openlocfilehash: 55fa8b6855a9a5bf2c84f6555dd8c8227a2ad9cf
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216358"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455270"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
-Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요 한 정보 유형을 소개 하 고 DLP 정책이 각 유형을 검색할 때 어떤 내용을 찾을 지를 보여 줍니다. 중요 한 정보 유형은 정규식 이나 함수로 식별 될 수 있는 패턴으로 정의 됩니다. 또한 키워드 및 체크섬과 같은 적인 증거를 사용 하 여 중요 한 정보 유형을 식별할 수 있습니다. 정확도 수준 및 근접성도 평가 프로세스에서 사용 됩니다.
+Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다.
   
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 서식 있는 패턴 또는 서식 없는 패턴으로 표시될 수 있는 9자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-서식 있음:
+서식이
 - 0, 1, 2, 3, 6, 7 또는 8로 시작하는 4자리 숫자
 - 하이픈
 - 4자리 숫자
@@ -42,9 +42,9 @@ Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는
 
 서식 없음: 0, 1, 2, 3, 6, 7 또는 8로 시작 하는 9 개의 연속 숫자 
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -68,43 +68,26 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordabarouting"></a>Keyword_ABA_Routing
 
 - aba
-- 
-aba #
-- 
-aba routing #
-- 
-aba routing number
-- 
-aba #
-- 
-abarouting#
-- 
-aba number
-- 
-abaroutingnumber
-- 
-american bank association routing #
-- 
-american bank association routing number
-- 
-americanbankassociationrouting#
-- 
-americanbankassociationroutingnumber
-- 
-bank routing number
-- 
-bankrouting#
-- 
-bankroutingnumber
-- 
-routing transit number
-- 
-RTN
- 
+- aba #
+- aba routing #
+- aba routing number
+- aba
+- abarouting #
+- aba number
+- abaroutingnumber
+- american bank association routing #
+- american bank association routing number
+- americanbankassociationrouting #
+- americanbankassociationroutingnumber
+- bank routing number
+- bankrouting #
+- bankroutingnumber
+- routing transit number
+- rtn 
    
 ## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 마침표로 구분된 8자리 숫자
 
@@ -117,9 +100,9 @@ RTN
 - 마침표 
 - 3자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -141,38 +124,33 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordargentinanationalid"></a>Keyword_argentina_national_id
 
-- Argentina National Identity number
- 
+- Argentina National Identity number 
 - ID 
 - 식별 국가 id 카드 
-- DNI
- 
+- DNI 
 - 개인의 NIC 국내 레지스트리 
-- Documento Nacional de Identidad
- 
-- Registro Nacional de las Personas
- 
-- Identidad
- 
-- Identificación
- 
+- Documento Nacional de Identidad 
+- Registro Nacional de las Personas 
+- Identidad 
+- Identificación 
    
 ## <a name="australia-bank-account-number"></a>호주 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 6-10자리 숫자(은행 지점 번호 포함 또는 제외)
 
 ### <a name="pattern"></a>패턴
 
-계정 번호는 6-10 자리 숫자입니다. 오스트레일리아 bank 상태 분기 번호:
+계좌 번호는 6-10자리 숫자입니다.
+호주 은행 지점 번호:
 - 3자리 숫자 
 - 하이픈 
 - 3자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -205,36 +183,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordaustraliabankaccountnumber"></a>Keyword_australia_bank_account_number
 
 - swift bank code
-- 
-correspondent bank
-- 
-base currency
-- 
-usa account
-- 
-holder address
-- 
-bank address
-- 
-information account
-- 
-fund transfers
-- 
-bank charges
-- 
-bank details
-- 
-banking information
-- 
-full names
-- 
-
-iaea
+- correspondent bank
+- base currency
+- usa account
+- holder address
+- bank address
+- information account
+- fund transfers
+- bank charges
+- bank details
+- banking information
+- full names
+- iaea
 
    
 ## <a name="australia-drivers-license-number"></a>호주 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9개의 문자 및 숫자
 
@@ -255,9 +220,9 @@ iaea
 
 - 9자리 숫자 또는 문자(대/소문자 구분 안 함)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -284,131 +249,108 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordaustraliadriverslicensenumber"></a>Keyword_australia_drivers_license_number
 
 - international driving permits
-- 
-australian automobile association
-- 
-international driving permit
+- australian automobile association
+- international driving permit
 - driverlicence
 - DriverLicences
-- 드라이버 Lic
+- Driver Lic
 - Driver Licence
-
 - Driver Licences
-
 - DriversLic
 - 드라이버 라이선스
 - DriversLicences
 - Drivers Lic
-- 드라이버 lics
-- 드라이버 라이선스
-- 라이선스 드라이버
+- Drivers Lics
+- Drivers Licence
+- Drivers Licences
 - driver' Lic
 - driver'lics
 - driver' 라이선스
 - Driver'Licences
-- 드라이버 ' Lic
-- 드라이버의 lics
-- 운전의 라이선스
-- 드라이버 ' 라이선스
+- Driver'Lic
+- Driver' Lics
+- Driver' Licence
+- Driver'Licences
 - Driver'sLic
 - drivers (slics)
 - Driver'sLicence
 - Driver'sLicences
-- 드라이버의 Lic
-- 운전 lics
+- Driver's Lic
+- Driver's Lics
 - Driver's Licence
-
 - Driver's Licences
-
 - driverlic #
 - driverlics #
 - driverlicence #
 - DriverLicences #
 - Driver Lic#
-- 
-Driver Lics#
-
-- 드라이버 라이선스 #
-- 드라이버 라이선스 #
+- Driver Lics#
+- Driver Licence#
+- Driver Licences#
 - DriversLic #
 - driverslics #
 - 드라이버 라이선스 #
 - DriversLicences #
-- Drivers Lic #
-- 드라이버 lics #
-- 드라이버 라이선스 #
-- Drivers 라이선스 #
-- Driver'Lic#
-
-- Driver'Lics#
-
-- Driver'Licence #
-
-- Driver'Licences#
-
+- Drivers Lic#
+- Drivers Lics#
+- Drivers Licence#
+- Drivers Licences#
+- driver' Lic #
+- driver'lics #
+- driver' 라이선스 #
+- Driver'Licences #
 - Driver' Lic#
-
 - Driver' Lics#
-
-- 운전의 라이선스 번호
-- Driver ' 라이선스 #
+- Driver' Licence#
+- Driver' Licences#
 - Driver'sLic #
 - drivers (slics #)
 - Driver'sLicence #
 - Driver'sLicences #
 - Driver's Lic#
-
 - Driver's Lics#
-
-- 운전 라이선스 #
-- 운전 라이선스 # 
+- Driver's Licence#
+- Driver's Licences# 
 
 #### <a name="keywordaustraliadriverslicensenumberexclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
 - aaa
 - driverlicense
 - driverlicenses
-- 드라이버 라이선스
-- 드라이버 라이선스
+- Driver License
+- Driver Licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - Drivers License
-- 드라이버 라이선스
+- Drivers Licenses
 - driver' 라이선스
 - driver'licenses
-- 운전 면허
-- 운전 면허증
+- Driver' License
+- Driver' Licenses
 - driver'slicense
 - driver'slicenses
-- 운전 면허
-- 운전 면허증
+- Driver's License
+- Driver's Licenses
 - driverlicense #
 - driverlicenses #
-- 드라이버 라이선스 #
-- 드라이버 라이선스 #
+- Driver License#
+- Driver Licenses#
 - 드라이버 라이선스 #
 - 드라이버 라이선스 수
-- Drivers License #
-- Drivers 라이선스 #
-- Driver'License#
-
-- Driver'Licenses#
-
+- Drivers License#
+- Drivers Licenses#
+- driver' 라이선스 #
+- driver'licenses #
 - Driver' License#
-
 - Driver' Licenses#
-
 - driver'slicense #
 - driver'slicenses #
 - Driver's License#
-
-- 
-
-Driver's Licenses#
+- Driver's Licenses#
    
 ## <a name="australia-medical-account-number"></a>호주 의료 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10-11자리 숫자
 
@@ -420,7 +362,7 @@ Driver's Licenses#
 - 10번째 숫자는 문제 숫자입니다.
 - 11번째 숫자(선택 사항)는 개인 번호입니다.
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -458,27 +400,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordaustraliamedicalaccountnumber"></a>Keyword_Australia_Medical_Account_Number
 
 - bank account details
-- 
-medicare payments
-- 
-mortgage account
-- 
-bank payments
-- 
-information branch
-- 
-credit card loan
-- 
-department of human services
-- 로컬 서비스
-- 
-
-medicare
+- medicare payments
+- mortgage account
+- bank payments
+- information branch
+- credit card loan
+- department of human services
+- local service
+- medicare
 
    
 ## <a name="australia-passport-number"></a>호주 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 문자와 7자리 숫자
 
@@ -486,9 +420,9 @@ medicare
 
 1개의 문자(대/소문자 구분 안 함)와 7자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -514,67 +448,42 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordpassport"></a>Keyword_passport
 
 - Passport Number
-- 
-Passport No
+- Passport No
 - Passport #
-
-- Passport#
-
+- 여권
 - PassportID
 - Passportno
-
 - passportnumber
-
 - パスポート
 - パスポート番号
-
 - パスポートのNum
-
-- 
-パスポート ＃
- 
+- パスポート ＃ 
 - Numéro de passeport
-- 
-Passeport n °
+- Passeport n °
 - Passeport Non
-
 - Passeport #
-
-- Passeport#
-
+- 포트 #
 - 지/포트 아님
 - Passeportn °
 
-
 #### <a name="keywordaustraliapassportnumber"></a>Keyword_australia_passport_number
 
-- passport
-- 
-passport details
-- 
-immigration and citizenship
-- 
-commonwealth of australia
-- 
-department of immigration
-- 
-residential address
-- 
-department of immigration and citizenship
+- 여권
+- passport details
+- immigration and citizenship
+- commonwealth of australia
+- department of immigration
+- residential address
+- department of immigration and citizenship
 - visa
-
-- 
-national identity card
-- 여권 번호
-- 
-travel document
-- 
-
-issuing authority
+- national identity card
+- passport number
+- travel document
+- issuing authority
    
 ## <a name="australia-tax-file-number"></a>호주 세금 파일 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 8-9자리 숫자
 
@@ -587,7 +496,7 @@ issuing authority
 - 선택적 공백 1개 
 - 마지막 숫자가 검사 숫자인 2-3자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -617,21 +526,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordaustraliataxfilenumber"></a>Keyword_Australia_Tax_File_Number
 
 - australian business number
-- 
-marginal tax rate
-- 
-medicare levy
-- 
-portfolio number
-- 
-service veterans
-- 
-withholding tax
-- 
-individual tax return
-- 
-
-tax file number
+- marginal tax rate
+- medicare levy
+- portfolio number
+- service veterans
+- withholding tax
+- individual tax return
+- tax file number
 
 #### <a name="keywordnumberexclusions"></a>Keyword_number_exclusions
 
@@ -668,7 +569,7 @@ tax file number
    
 ## <a name="belgium-national-number"></a>벨기에 국가 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자와 구분 기호
 
@@ -681,7 +582,7 @@ tax file number
 - 마침표  
 - 검사 숫자에 해당하는 두 자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -706,29 +607,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordbelgiumnationalnumber"></a>Keyword_belgium_national_number
 
-- Identity
-- Registration
-- Identification 
+- ID
+- 등록
+- 확인과 
 - ID 
 - Identiteitskaart
 - Registratie nummer 
- 
-- Identificatie nummer
- 
+- Identificatie nummer 
 - Identiteit
 - Registratie
-- Identificatie
-
- 
-- Carte d’identité
- 
+- Identificatie 
+- Carte d’identité 
 - numéro d'immatriculation
 - numéro d'identification
-- 
-identité
- 
-- inscription
- 
+- identité 
+- inscription 
 - Identifikation
 - Identifizierung
 - Identifikationsnummer
@@ -739,13 +632,13 @@ identité
    
 ## <a name="brazil-cpf-number"></a>브라질 CPF 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 서식이 있거나 서식이 없을 수 있는 검사 숫자를 포함하는 11자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-서식 있음:
+서식이
 - 3자리 숫자 
 - 마침표  
 - 3자리 숫자 
@@ -754,10 +647,10 @@ identité
 - 하이픈 
 - 검사 숫자에 해당하는 2자리 숫자
 
-서식 없음:
+서식
 - 마지막 2자리 숫자가 검사 숫자인 11자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -790,31 +683,25 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordbrazilcpf"></a>Keyword_brazil_cpf
 
 - CPF
-- Identification
-- Registration
-- Revenue
-- Cadastro de Pessoas Físicas
- 
-- Imposto
- 
-- Identificação
- 
-- Inscrição
- 
-- Receita
-
- 
+- 확인과
+- 등록
+- 별
+- Cadastro de Pessoas Físicas 
+- Imposto 
+- Identificação 
+- Inscrição 
+- 고 eita 
    
 ## <a name="brazil-legal-entity-number-cnpj"></a>브라질 법인 번호(CNPJ)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 등록 번호, 지점 번호, 검사 숫자 및 구분 기호를 포함하는 14자리 숫자
 
 ### <a name="pattern"></a>패턴
 14자리 숫자와 구분 기호:
 - 2자리 숫자 
-- 마침표 
+- 마침표  
 - 3자리 숫자 
 - 마침표  
 - 3자리 숫자(처음 8자리 숫자는 등록 번호임)  
@@ -823,7 +710,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 하이픈 
 - 검사 숫자에 해당하는 2자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -855,46 +742,29 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordbrazilcnpj"></a>Keyword_brazil_cnpj
 
-- CNPJ
- 
+- CNPJ 
 - CNPJ/MF 
-- CNPJ-MF
- 
-- National Registry of Legal Entities
- 
-- Taxpayers Registry
- 
-- Legal entity
- 
-- Legal entities
- 
-- Registration Status
- 
-- Business
- 
+- CNPJ-MF 
+- National Registry of Legal Entities 
+- Taxpayers Registry 
+- Legal entity 
+- Legal entities 
+- Registration Status 
+- 비즈니스 
 - Company
-- CNPJ
- 
-- Cadastro Nacional da Pessoa Jurídica
- 
-- Cadastro Geral de Contribuintes
- 
-- CGC
- 
-- Pessoa jurídica
- 
-- Pessoas jurídicas
- 
-- Situação cadastral
- 
-- Inscrição
- 
-- Empresa
- 
+- CNPJ 
+- Cadastro Nacional da Pessoa Jurídica 
+- Cadastro Geral de Contribuintes 
+- cgc 
+- Pessoa jurídica 
+- Pessoas jurídicas 
+- Situação cadastral 
+- Inscrição 
+- 포털 
    
 ## <a name="brazil-national-id-card-rg"></a>	브라질 국가 ID 카드(RG)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 Registro Geral (이전 형식): 9 자리 숫자
 
@@ -904,9 +774,9 @@ Registro de Identidade (RIC) (새 형식): 11 자리 숫자
 
 Registro Geral(이전 형식):
 - 2자리 숫자 
-- 마침표 
+- 마침표  
 - 3자리 숫자 
-- 마침표 
+- 마침표  
 - 3자리 숫자 
 - 하이픈 
 - 검사 숫자에 해당하는 1자리 숫자
@@ -916,7 +786,7 @@ Registro de Identidade (RIC) (새 형식):
 - 하이픈 
 - 검사 숫자에 해당하는 1자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -952,7 +822,7 @@ Cédula de identidade identity card 국립 id número de rregistro registro de I
    
 ## <a name="canada-bank-account-number"></a>캐나다 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7 또는 12자리 숫자
 
@@ -967,9 +837,9 @@ Cédula de identidade identity card 국립 id número de rregistro registro de I
 - "0" 
 - 8자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -1002,50 +872,30 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordcanadabankaccountnumber"></a>Keyword_canada_bank_account_number
 
 - canada savings bonds
-- 
-canada revenue agency
-- 
-canadian financial institution
-- 
-direct deposit form
-- 
-canadian citizen
-- 
-legal representative
-- 
-notary public
-- 
-commissioner for oaths
-- 
-child care benefit
-- 
-universal child care
-- 
-canada child tax benefit
-- 
-income tax benefit
-- 
-harmonized sales tax
+- canada revenue agency
+- canadian financial institution
+- direct deposit form
+- canadian citizen
+- legal representative
+- notary public
+- commissioner for oaths
+- child care benefit
+- universal child care
+- canada child tax benefit
+- income tax benefit
+- harmonized sales tax
 - social insurance number
-- 
-income tax refund
-- 
-child tax benefit
-- 
-territorial payments
-- 
-institution number
-- 
-deposit request
-- 
-banking information
-- 
-
-direct deposit
+- income tax refund
+- child tax benefit
+- territorial payments
+- institution number
+- deposit request
+- banking information
+- direct deposit
    
 ## <a name="canada-drivers-license-number"></a>캐나다 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지역마다 다름
 
@@ -1053,9 +903,9 @@ direct deposit
 
 앨버타, 브리티시 콜롬비아, 매니토바, 뉴브런즈윅, 뉴펀들랜드/래브라도, 노바스코샤, 온타리오, 프린스에드워드아일랜드, 퀘벡 및 서스캐처원을 포함하는 다양한 패턴
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -1122,16 +972,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordprovincenamedriverslicensename"></a>Keyword_[province_name]_drivers_license_name
+#### <a name="keywordprovincenamedriverslicensename"></a>Keyword_ [province_name] _drivers_license_name
 
 - 시/도 약어(예: AB)
-- 
-시/도 이름(예: 앨버타)
+- 시/도 이름(예: 앨버타)
 
 #### <a name="keywordcanadadriverslicense"></a>Keyword_canada_drivers_license
 
 - DL
-- DLS
+- 된다
 - cdl
 - cdls
 - driverlic
@@ -1140,14 +989,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - driverlicenses
 - driverlicence
 - DriverLicences
-- 드라이버 Lic
-- 드라이버 lics
-- 드라이버 라이선스
-- 드라이버 라이선스
+- Driver Lic
+- Driver Lics
+- Driver License
+- Driver Licenses
 - Driver Licence
-
 - Driver Licences
-
 - DriversLic
 - driverslics
 - 드라이버 라이선스
@@ -1155,72 +1002,56 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 드라이버 라이선스
 - 드라이버 라이선스
 - Drivers Lic
-- 드라이버 lics
+- Drivers Lics
 - Drivers License
-- 드라이버 라이선스
-- 드라이버 라이선스
-- 라이선스 드라이버
+- Drivers Licenses
+- Drivers Licence
+- Drivers Licences
 - driver' Lic
 - driver'lics
 - driver' 라이선스
 - driver'licenses
 - driver' 라이선스
 - Driver'Licences
-- 드라이버 ' Lic
-- 드라이버의 lics
-- 운전 면허
-- 운전 면허증
-- 운전의 라이선스
-- 드라이버 ' 라이선스
+- Driver'Lic
+- Driver' Lics
+- Driver' License
+- Driver'Licenses
+- Driver'Licence
+- Driver'Licences
 - Driver'sLic
 - drivers (slics)
 - driver'slicense
 - driver'slicenses
 - Driver'sLicence
 - Driver'sLicences
-- 드라이버의 Lic
-- 운전 lics
-- 운전 면허
-- 운전 면허증
+- Driver's Lic
+- Driver's Lics
+- Driver's License
+- Driver's Licenses
 - Driver's Licence
-
 - Driver's Licences
-
 - Permis de Conduire
 - id
 - 번호가
-- 
-idcard number
-- 
-idcard numbers
-- 
-idcard #
-- 
-idcard #s
-- idcard 카드
-- idcard 카드
+- idcard number
+- idcard numbers
+- idcard #
+- idcard #s
+- idcard card
+- idcard cards
 - idcard
 - identification number
-
 - identification numbers
-
 - identification #
-
-- 
-identification #s
-- 식별 카드
-- 식별 카드
-- 
-identification
- 
-- DL#
-- 
-DLS#
- 
-- CDL#
- 
-- CDLS#
- 
+- identification #s
+- identification card
+- identification cards
+- 확인과 
+- DL
+- 된다 
+- cdl # 
+- cdls # 
 - driverlic # 
 - driverlics # 
 - driverlicense # 
@@ -1228,82 +1059,60 @@ DLS#
 - driverlicence # 
 - DriverLicences # 
 - Driver Lic#
-- 
-Driver Lics#
- 
-- 드라이버 라이선스 # 
-- 드라이버 라이선스 # 
-- 드라이버 라이선스 # 
-- 드라이버 라이선스 # 
+- Driver Lics# 
+- Driver License# 
+- Driver Licenses# 
+- Driver License# 
+- Driver Licences# 
 - DriversLic # 
 - driverslics # 
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 수 
 - 드라이버 라이선스 # 
 - DriversLicences # 
-- Drivers Lic # 
-- 드라이버 lics # 
-- Drivers License # 
-- Drivers 라이선스 # 
-- 드라이버 라이선스 # 
-- Drivers 라이선스 # 
-- Driver'Lic#
- 
-- Driver'Lics#
- 
-- Driver'License#
- 
-- Driver'Licenses#
- 
-- Driver'Licence #
- 
-- Driver'Licences#
- 
-- Driver' Lic#
- 
-- Driver' Lics#
- 
-- Driver' License#
- 
-- Driver' Licenses#
- 
-- 운전의 라이선스 번호 
-- Driver ' 라이선스 # 
+- Drivers Lic# 
+- Drivers Lics# 
+- Drivers License# 
+- Drivers Licenses# 
+- Drivers Licence# 
+- Drivers Licences# 
+- driver' Lic # 
+- driver'lics # 
+- driver' 라이선스 # 
+- driver'licenses # 
+- driver' 라이선스 # 
+- Driver'Licences # 
+- Driver' Lic# 
+- Driver' Lics# 
+- Driver' License# 
+- Driver' Licenses# 
+- Driver' Licence# 
+- Driver' Licences# 
 - Driver'sLic # 
 - drivers (slics #) 
 - driver'slicense # 
 - driver'slicenses # 
 - Driver'sLicence # 
 - Driver'sLicences # 
-- Driver's Lic#
- 
-- Driver's Lics#
- 
-- Driver's License#
- 
-- Driver's Licenses#
- 
-- 운전 라이선스 # 
-- 운전 라이선스 # 
-- Permis de Conduire # 
+- Driver's Lic# 
+- Driver's Lics# 
+- Driver's License# 
+- Driver's Licenses# 
+- Driver's Licence# 
+- Driver's Licences# 
+- Permis de Conduire# 
 - i 
 - 번호가 
-- idcard card#
- 
-- idcard cards#
- 
-- idcard#
- 
-- identification card#
- 
-- identification cards#
- 
-- identification#
- 
+- idcard card# 
+- idcard cards# 
+- idcard # 
+- identification card# 
+- identification cards# 
+- 확인과 
    
 ## <a name="canada-health-service-number"></a>캐나다 건강 서비스 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10자리 숫자
 
@@ -1311,9 +1120,9 @@ Driver Lics#
 
 10자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -1338,25 +1147,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordcanadahealthservicenumber"></a>Keyword_canada_health_service_number
 
 - personal health number
-- 
-patient information
-- 상태 서비스
-- 
-speciality services
-- 
-automobile accident
-- 
-patient hospital
-- 
-psychiatrist
-- 
-workers compensation
-- 
-disability
+- patient information
+- health services
+- speciality services
+- automobile accident
+- patient hospital
+- psychiatrist
+- workers compensation
+- 종류
       
 ## <a name="canada-passport-number"></a>캐나다 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2개의 대문자와 6자리 숫자
 
@@ -1364,9 +1166,9 @@ disability
 
 2개의 대문자와 6자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -1392,60 +1194,38 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordcanadapassportnumber"></a>Keyword_canada_passport_number
 
 - canadian citizenship
-- 
-canadian passport
-- 
-passport application
-- 
-passport photos
-- 
-certified translator
-- 
-canadian citizens
-- 
-processing times
-- 
-
-renewal application
+- canadian passport
+- passport application
+- passport photos
+- certified translator
+- canadian citizens
+- processing times
+- renewal application
 
 #### <a name="keywordpassport"></a>Keyword_passport
 
 - Passport Number
-- 
-Passport No
+- Passport No
 - Passport #
-
-- Passport#
-
+- 여권
 - PassportID
 - Passportno
-
 - passportnumber
-
 - パスポート
 - パスポート番号
-
 - パスポートのNum
-
-- パスポート＃
-
+- パスポート #
 - Numéro de passeport
-- 
-Passeport n °
+- Passeport n °
 - Passeport Non
-
 - Passeport #
-
-- Passeport#
-
+- 포트 #
 - 지/포트 아님
-- 
-
-Passeportn °
+- Passeportn °
    
 ## <a name="canada-personal-health-identification-number-phin"></a>캐나다 PHIN(개인 건강 식별 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9자리 숫자
 
@@ -1453,13 +1233,14 @@ Passeportn °
 
 9자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 (예: Regex_canada_phin)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. Keyword_canada_phin 또는 Keyword_canada_provinces의 키워드를 두 개 이상 찾았습니다.
+DLP 정책은 300 문자 (예: Regex_canada_phin)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+Keyword_canada_phin 또는 Keyword_canada_provinces의 키워드를 두 개 이상 찾았습니다.
 
 ```
 <!-- Canada PHIN -->
@@ -1479,73 +1260,47 @@ DLP 정책은 300 문자 (예: Regex_canada_phin)에서 해당 패턴과 일치 
 #### <a name="keywordcanadaphin"></a>Keyword_canada_phin
 
 - social insurance number
-- 
-health information act
-- 
-income tax information
-- 
-manitoba health
-- 
-health registration
-- 
-prescription purchases
-- 
-benefit eligibility
-- 
-personal health
-- 
-power of attorney
-- 
-registration number
+- health information act
+- income tax information
+- manitoba health
+- health registration
+- prescription purchases
+- benefit eligibility
+- personal health
+- power of attorney
+- registration number
 - personal health number
-- 
-practitioner referral
-- 
-wellness professional
-- 
-patient referral
-- 
-
-health and wellness
+- practitioner referral
+- wellness professional
+- patient referral
+- health and wellness
 
 #### <a name="keywordcanadaprovinces"></a>Keyword_canada_provinces
 
 - Nunavut
-- 
-Quebec
-- 
-Northwest Territories
-- 
-Ontario
-- 
-British Columbia
-- 
-Alberta
-- 
-Saskatchewan
-- 
-Manitoba
-- 
-Yukon
-- 
-Newfoundland and Labrador
-- 
-New Brunswick
-- 
-Nova Scotia
-- 
-Prince Edward Island
-- Canada
+- 퀘벡
+- Northwest Territories
+- 온타리오
+- British Columbia
+- 앨버타
+- 서스캐처원
+- 매니토바
+- Yukon
+- Newfoundland and Labrador
+- New Brunswick
+- Nova Scotia
+- Prince Edward Island
+- 캐나다
    
 ## <a name="canada-social-insurance-number"></a>캐나다 사회 보험 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적 하이픈 또는 공백을 포함하는 9자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-서식 있음:
+서식이
 - 3자리 숫자 
 - 하이픈 또는 공백 
 - 3자리 숫자 
@@ -1554,7 +1309,7 @@ Prince Edward Island
 
 서식 없음: 9 자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -1596,43 +1351,33 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordsin"></a>Keyword_sin
 
 - sin 
-- social insurance
- 
-- numero d'assurance sociale
- 
-- sins
- 
+- social insurance 
+- numero d'assurance sociale 
+- 죄 
 - ssn 
 - 있는 ssn 
-- 소셜 보안 
-- numero d'assurance social
- 
-- 국가 식별 번호 
-- 
-national id 
-- sin#
- 
-- soc ins
- 
-- social ins
- 
+- social security 
+- numero d'assurance social 
+- national identification number 
+- national id 
+- sin 
+- soc ins 
+- social ins 
 
 #### <a name="keywordsincollaborative"></a>Keyword_sin_collaborative
 
-- 운전 면허 
+- driver's license 
 - drivers license 
-- 운전의 라이선스 
+- driver's licence 
 - drivers licence 
-- DOB
- 
+- dob 
 - 생년월일 
-- 생일  
-- Date of Birth
- 
+- 생일 
+- Date of Birth 
    
 ## <a name="chile-identity-card-number"></a>	칠레 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7-8 자리 숫자와 구분 기호 확인 숫자 또는 문자
 
@@ -1642,12 +1387,12 @@ national id
 - 1-2자리 숫자 
 - 마침표  
 - 3자리 숫자 
-- 마침표 
+- 마침표  
 - 3자리 숫자 
 - 대시 1개 
 - 검사 숫자에 해당하는 1자리 숫자 또는 문자(대/소문자 구분 안 함)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -1679,30 +1424,22 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordchileidcard"></a>Keyword_chile_id_card
 
-- National Identification Number
- 
+- National Identification Number 
 - Identity card 
 - ID 
-- Identification 
-- Rol Único Nacional
- 
+- 확인과 
+- Rol Único Nacional 
 - 실행 
-- Rol Único Tributario
- 
-- RUT
- 
-- Cédula de Identidad
- 
-- Número De Identificación Nacional
- 
-- Tarjeta de identificación
- 
-- Identificación
- 
+- Rol Único Tributario 
+- RUT 
+- Cédula de Identidad 
+- Número De Identificación Nacional 
+- Tarjeta de identificación 
+- Identificación 
    
 ## <a name="china-resident-identity-card-prc-number"></a>	중국 주민 ID 카드(PRC) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 18자리 숫자
 
@@ -1714,7 +1451,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 주문 코드에 해당하는 3자리 숫자  
 - 검사 숫자에 해당하는 1자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -1746,25 +1483,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywordchinaresidentid"></a>Keyword_china_resident_id
 
-- Resident Identity Card
- 
+- Resident Identity Card 
 - 중국 
-- National Identification Card
- 
-- 身份证  
-- 居民 身份证  
-- 居民身份证
- 
-- 鉴定
-
- 
-- 身分證  
+- National Identification Card 
+- 身份证 
+- 居民 身份证 
+- 居民身份证 
+- 鉴定 
+- 身分證 
 - 居民 身份證
-- 鑑定  
+- 鑑定 
    
 ## <a name="credit-card-number"></a>신용 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 서식이 있거나 서식이 없을 수 있는 16 자리 (dddddddddddddddd), Luhn 테스트를 통과 해야 합니다.
 
@@ -1772,7 +1504,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 Visa, MasterCard, Discover Card, JCB, American Express, 상품권 및 식사권을 비롯하여 전 세계 모든 주요 브랜드 카드를 검색하는 매우 복잡하고 강력한 패턴입니다.
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 있음(Luhn 체크섬)
 
@@ -1814,365 +1546,201 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - card verification
 - card identification number
 - cvn
-
 - cid
-
 - cvc2
 - cvv2
 - pin block
-
 - security code
-
 - security number
-
 - security no
-
 - issue number
-
 - issue no
-
 - cryptogramme
-
 - numéro de sécurité
-
 - numero de securite
-
 - kreditkartenprüfnummer
-
 - kreditkartenprufnummer
-
 - prüfziffer
-
 - prufziffer
-
-- sicherheits kode
+- sicherheits Kode
 - sicherheitscode
-
 - sicherheitsnummer
-
 - verfalldatum
-
 - codice di verifica
-
 - cod. sicurezza
-
 - cod sicurezza
-- 
-n autorizzazione
+- n autorizzazione
 - código
-
 - codigo
-
 - cod. seg
-
 - cod seg
 - código de segurança
-
 - codigo de seguranca
-
 - codigo de segurança
-
 - código de seguranca
-
-- cód. segurança
-
+- cód segurança
 - cod. seguranca cod segurança
-- cód. seguranca
-
+- cód seguranca
 - cód segurança
 - cod seguranca cod segurança
 - cód seguranca
 - número de verificação
-
 - numero de verificacao
-
 - ablauf
-
 - gültig bis
-
 - gültigkeitsdatum
-
 - gultig bis
-
 - gultigkeitsdatum
-
 - scadenza
-
 - data scad
-
 - fecha de expiracion
-
 - fecha de venc
-
 - vencimiento
-
 - válido hasta
-
 - valido hasta
-
 - vto
-
 - data de expiração
-
 - data de expiracao
-
 - data em que expira
-
-- validade
-
+- 유효한 ade
 - valor
-
 - vencimento
-
 - venc 
 
 #### <a name="keywordccname"></a>Keyword_cc_name
 
 - amex
-- 
-american express
+- american express
 - americanexpress
-
 - Visa
 - mastercard
-
 - master card
-
-- 
-mc
- 
+- mc 
 - mastercards
-- 
-master cards
-- 식사 권을의 방망이
+- master cards
+- diner's Club
 - diners club
-
 - dinersclub
-
 - discover card
-
 - discovercard
-
 - discover cards
-
 - JCB
 - japanese card bureau
-
 - carte blanche
-
 - carteblanche
-
 - credit card
-
 - 참조란
 - 참조 #:
-- 
-expiration date
+- expiration date
 - exp date
-
-- 
-expiry date
-- 
-date d’expiration
-- 
-date d'exp
-- 
-date expiration
+- expiry date
+- date d’expiration
+- date d'exp
+- date expiration
 - bank card
-
-- 
-bankcard
+- bankcard
 - card number
-
 - card num
-
-- cardnumber
-
-- cardnumbers
-
+- 전화 번호
+- 시 번호
 - card numbers
-
-- creditcard
-
+- 카드
 - credit cards
-
 - creditcards
-
 - ccn
-
 - card holder
-
-- cardholder
-
+- 소유자
 - card holders
-
-- cardholders
-
+- 에이 홀더
 - check card
-
 - checkcard
-
 - check cards
-
 - checkcards
-
 - debit card
-
 - debitcard
-
 - debit cards
-
 - debitcards
-
 - atm card
-
 - atmcard
-
 - atm cards
-
 - atmcards
-
-- 
-enroute
-- 
-en route
+- enroute
+- en route
 - card type
-
 - carte bancaire
-
 - carte de crédit
-
 - carte de credit
-
 - numéro de carte
-
 - numero de carte
-
 - nº de la carte
-
 - nº de carte
-
 - kreditkarte
-
 - karte
-
 - karteninhaber
-
 - karteninhabers
 - kreditkarteninhaber
-
 - kreditkarteninstitut
-
 - kreditkartentyp
-
 - eigentümername
-
-- 
-kartennr
- 
+- kartennr 
 - kartennummer
-- 
-kreditkartennummer
+- kreditkartennummer
 - kreditkarten-nummer
 - carta di credito
-
 - carta credito
-
 - 카 ta
-- n 카 ta
-- nr. carta
-
-- veiligheid 카 ta
+- n carta
+- veiligheid. 카 ta
+- nr carta
 - numero carta
-
 - numero della carta
-
 - numero di carta
-
 - tarjeta credito
-
 - tarjeta de credito
-
-- 
-tarjeta crédito
-- 
-tarjeta de crédito
+- tarjeta crédito
+- tarjeta de crédito
 - tarjeta de atm
-
 - tarjeta atm
-
 - tarjeta debito
-
 - tarjeta de debito
-
-- 
-tarjeta débito
-- 
-tarjeta de débito
+- tarjeta débito
+- tarjeta de débito
 - nº de tarjeta
-
-- no. de tarjeta
-
-- de tarjeta
+- 아니요. de tarjeta
+- no de tarjeta
 - numero de tarjeta
-
 - número de tarjeta
-
 - tarjeta no
-
 - tarjetahabiente
-
 - cartão de crédito
-
 - cartão de credito
-
 - cartao de crédito
-
 - cartao de credito
-
 - cartão de débito
-
 - cartao de débito
-
 - cartão de debito
-
 - cartao de debito
-
 - débito automático
 - debito automatico
-
-- 
-número do cartão
-- 
-numero do cartão
- 
+- número do cartão
+- numero do cartão 
 - número do cartao
-- 
-numero do cartao
+- numero do cartao
 - número de cartão
-
 - numero de cartão
-
 - número de cartao
-
 - numero de cartao
-
-- n º cartão
+- nº do cartão
 - nº do cartao
-
-- nº. do cartão
-
-- do no cartão
-- 작업 없음
-- no. do cartão
-
-- 
-no. do cartao
- 
+- n º do cartão
+- no do cartão
+- no do cartao
+- 아니요. do cartão
+- 아니요. do cartao 
    
-## <a name="croatia-identity-card-number"></a>	크로아티아 ID 카드 번호
+## <a name="croatia-identity-card-number"></a>크로아티아 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9자리 숫자
 
@@ -2180,9 +1748,9 @@ no. do cartao
 
 9자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -2208,9 +1776,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Osobna iskaznica
 
    
-## <a name="croatia-personal-identification-oib-number"></a>	크로아티아 개인 식별(OIB) 번호
+## <a name="croatia-personal-identification-oib-number"></a>크로아티아 개인 식별(OIB) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자
 
@@ -2220,7 +1788,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 10자리 숫자 
 - 최종 자릿수는 국제 데이터 교환 목적을 위한 검사 숫자 이며, HR는 11 자리 숫자 앞에 추가 됩니다.
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -2253,15 +1821,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordcroatiaoibnumber"></a>Keyword_croatia_oib_number
 
 - Personal Identification Number
-- Osobni identifikacijski broj
- 
-- OIB
- 
+- Osobni identifikacijski broj 
+- OIB 
 
    
 ## <a name="czech-personal-identity-number"></a>체코어 개인 id 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적 슬래시 (이전 형식)가 있는 9 자리 숫자와 슬래시 (새 형식)가 있는 10 자리 숫자
 
@@ -2285,13 +1851,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 정방향 슬래시 
 - 마지막 숫자가 검사 숫자인 4 자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 근사에서 Func_czech_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다. Keyword_czech_id_card에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다.
+DLP 정책은 300 문자 근사에서 Func_czech_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다.
+Keyword_czech_id_card에서 키워드가 발견 되었습니다.
+체크섬이 통과됩니다.
 
 ```
 <!-- Czech Personal Identity Number -->
@@ -2307,9 +1875,9 @@ DLP 정책은 300 문자 근사에서 Func_czech_id_card 함수가 해당 패턴
 - 체코어 개인 id 번호
 - rodné číslo
    
-## <a name="denmark-personal-identification-number"></a>	덴마크 개인 식별 번호
+## <a name="denmark-personal-identification-number"></a>덴마크 개인 식별 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈을 포함하는 10자리 숫자
 
@@ -2320,13 +1888,15 @@ DLP 정책은 300 문자 근사에서 Func_czech_id_card 함수가 해당 패턴
 - 하이픈 
 - 마지막 숫자가 검사 숫자인 4자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 (예: Regex_denmark_id)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. Keyword_denmark_id에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다.
+DLP 정책은 300 문자 (예: Regex_denmark_id)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+Keyword_denmark_id에서 키워드가 발견 되었습니다.
+체크섬이 통과됩니다.
 
 ```
 <!-- Denmark Personal Identification Number -->
@@ -2349,7 +1919,7 @@ DLP 정책은 300 문자 (예: Regex_denmark_id)에서 해당 패턴과 일치 �
    
 ## <a name="drug-enforcement-agency-dea-number"></a>DEA(약물 집행 기구) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2개 문자와 7자리 숫자
 
@@ -2360,7 +1930,7 @@ DLP 정책은 300 문자 (예: Regex_denmark_id)에서 해당 패턴과 일치 �
 - 등록자 성의 첫 문자에 해당하는 한 문자(대/소문자 구분 안 함) 
 - 검사 숫자의 마지막 7개 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -2386,7 +1956,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="eu-debit-card-number"></a>유럽 직불 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 16자리 숫자
 
@@ -2394,7 +1964,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 매우 복잡하고 강력한 패턴
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -2430,569 +2000,308 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordeudebitcard"></a>Keyword_eu_debit_card
 
-- 계정 번호 
-- card number
- 
-- card no.
- 
-- security number
- 
+- account number 
+- card number 
+- card no. 
+- security number 
 - 참조란 
 
 #### <a name="keywordcardtermsdict"></a>Keyword_card_terms_dict
 
-- acct nbr
- 
-- acct num
- 
-- acct no
- 
-- american express
- 
-- americanexpress
- 
-- americano espresso
- 
+- acct nbr 
+- acct num 
+- acct no 
+- american express 
+- americanexpress 
+- americano espresso 
 - amex 
-- atm card
- 
-- atm cards
- 
-- atm kaart
- 
-- atmcard
- 
-- atmcards
- 
-- atmkaart
- 
-- atmkaarten
- 
-- bancontact
- 
-- bank card
- 
-- bankkaart
- 
-- card holder
- 
-- card holders
- 
-- card num
- 
-- card number
- 
-- card numbers
- 
-- card type
- 
-- cardano numerico
- 
-- cardholder
- 
-- cardholders
- 
-- cardnumber
- 
-- cardnumbers
- 
-- carta bianca
- 
-- carta credito
- 
-- carta di credito
- 
-- cartao de credito
- 
-- cartao de crédito
- 
-- cartao de debito
- 
-- cartao de débito
- 
-- carte bancaire
- 
-- carte blanche
- 
-- carte bleue
- 
-- carte de credit
- 
-- carte de crédit
- 
-- carte di credito
- 
-- carteblanche
- 
-- cartão de credito
- 
-- cartão de crédito
- 
-- cartão de debito
- 
-- cartão de débito
- 
-- cb
- 
-- ccn
- 
-- check card
- 
-- check cards
- 
+- atm card 
+- atm cards 
+- atm kaart 
+- atmcard 
+- atmcards 
+- atmkaart 
+- atmkaarten 
+- bancontact 
+- bank card 
+- bankkaart 
+- card holder 
+- card holders 
+- card num 
+- card number 
+- card numbers 
+- card type 
+- cardano numerico 
+- 소유자 
+- 에이 홀더 
+- 전화 번호 
+- 시 번호 
+- carta bianca 
+- carta credito 
+- carta di credito 
+- cartao de credito 
+- cartao de crédito 
+- cartao de debito 
+- cartao de débito 
+- carte bancaire 
+- carte blanche 
+- carte bleue 
+- carte de credit 
+- carte de crédit 
+- carte di credito 
+- carteblanche 
+- cartão de credito 
+- cartão de crédito 
+- cartão de debito 
+- cartão de débito 
+- cb 
+- ccn 
+- check card 
+- check cards 
 - checkcard
-
-- checkcards
- 
-- chequekaart
- 
-- cirrus
- 
-- cirrus-edc-maestro
- 
-- controlekaart
- 
-- controlekaarten
- 
-- credit card
- 
-- credit cards
- 
-- creditcard
- 
-- creditcards
- 
-- debetkaart
- 
-- debetkaarten
- 
-- debit card
- 
-- debit cards
- 
-- debitcard
- 
-- debitcards
- 
-- debito automatico
- 
-- diners club
- 
-- dinersclub
- 
+- checkcards 
+- chequekaart 
+- cirrus 
+- cirrus-edc-maestro 
+- controlekaart 
+- controlekaarten 
+- credit card 
+- credit cards 
+- 카드 
+- creditcards 
+- debetkaart 
+- debetkaarten 
+- debit card 
+- debit cards 
+- debitcard 
+- debitcards 
+- debito automatico 
+- diners club 
+- dinersclub 
 - 찾아보십시오 
-- discover card
- 
-- discover cards
- 
-- discovercard
- 
-- discovercards
- 
+- discover card 
+- discover cards 
+- discovercard 
+- discovercards 
 - débito automático
-- 
-edc
- 
-- eigentümername
- 
-- european debit card
- 
-- hoofdkaart
- 
-- hoofdkaarten
- 
-- in viaggio
- 
-- japanese card bureau
- 
-- japanse kaartdienst
- 
-- jcb
- 
-- kaart
- 
-- kaart num
- 
-- kaartaantal
- 
-- kaartaantallen
- 
-- kaarthouder
- 
-- kaarthouders
- 
-- karte
-  
-- karteninhaber
- 
+- edc 
+- eigentümername 
+- european debit card 
+- hoofdkaart 
+- hoofdkaarten 
+- in viaggio 
+- japanese card bureau 
+- japanse kaartdienst 
+- jcb 
+- kaart 
+- kaart num 
+- kaartaantal 
+- kaartaantallen 
+- kaarthouder 
+- kaarthouders 
+- karte  
+- karteninhaber 
 - karteninhabers
-- 
-kartennr
- 
+- kartennr 
 - kartennummer 
-- kreditkarte
- 
+- kreditkarte 
 - kreditkarten-nummer 
-- kreditkarteninhaber
- 
-- kreditkarteninstitut
- 
-- kreditkartennummer
- 
-- kreditkartentyp
- 
-- maestro
- 
-- master card
- 
-- master cards
- 
-- mastercard
- 
+- kreditkarteninhaber 
+- kreditkarteninstitut 
+- kreditkartennummer 
+- kreditkartentyp 
+- maestro 
+- master card 
+- master cards 
+- mastercard 
 - mastercards 
 - mc 
-- mister cash
- 
-- n 카 ta 
+- mister cash 
+- n carta 
 - 카 ta 
-- de tarjeta 
-- 작업 없음 
-- do no cartão 
-- no. de tarjeta
- 
-- no. do cartao
- 
-- no. do cartão
- 
-- veiligheid 카 ta 
-- nr. carta
- 
-- numeri di scheda
- 
-- numero carta
- 
-- numero de cartao
- 
-- numero de carte
- 
-- numero de cartão
- 
+- no de tarjeta 
+- no do cartao 
+- no do cartão 
+- 아니요. de tarjeta 
+- 아니요. do cartao 
+- 아니요. do cartão 
+- nr carta 
+- veiligheid. 카 ta 
+- numeri di scheda 
+- numero carta 
+- numero de cartao 
+- numero de carte 
+- numero de cartão 
 - numero de tarjeta
-
-- numero della carta
- 
-- numero di carta
- 
-- numero di scheda
- 
-- numero do cartao
- 
-- numero do cartão
- 
-- numéro de carte
- 
-- nº carta
- 
-- nº de carte
- 
-- nº de la carte
- 
-- nº de tarjeta
- 
-- nº do cartao
- 
-- n º cartão 
-- nº. do cartão
- 
-- número de cartao
- 
-- número de cartão
- 
-- número de tarjeta
- 
+- numero della carta 
+- numero di carta 
+- numero di scheda 
+- numero do cartao 
+- numero do cartão 
+- numéro de carte 
+- nº carta 
+- nº de carte 
+- nº de la carte 
+- nº de tarjeta 
+- nº do cartao 
+- nº do cartão 
+- n º do cartão 
+- número de cartao 
+- número de cartão 
+- número de tarjeta 
 - número do cartao 
-- scheda dell'assegno
- 
-- scheda dell'atmosfera
- 
-- scheda dell'atmosfera
- 
-- scheda della banca
- 
-- scheda di controllo
- 
-- scheda di debito
- 
-- scheda matrice
- 
-- schede dell'atmosfera
- 
-- schede di controllo
- 
-- schede di debito
- 
-- schede matrici
- 
-- scoprono la scheda
- 
-- scoprono le schede
- 
-- solo
- 
-- supporti di scheda
- 
-- supporto di scheda
- 
+- scheda dell'assegno 
+- scheda dell'atmosfera 
+- scheda dell'atmosfera 
+- scheda della banca 
+- scheda di controllo 
+- scheda di debito 
+- scheda matrice 
+- schede dell'atmosfera 
+- schede di controllo 
+- schede di debito 
+- schede matrici 
+- scoprono la scheda 
+- scoprono le schede 
+- 분리 
+- supporti di scheda 
+- supporto di scheda 
 - 스위치 
-- tarjeta atm
- 
-- tarjeta credito
- 
-- tarjeta de atm
- 
-- tarjeta de credito
- 
-- tarjeta de debito
- 
-- tarjeta debito
- 
+- tarjeta atm 
+- tarjeta credito 
+- tarjeta de atm 
+- tarjeta de credito 
+- tarjeta de debito 
+- tarjeta debito 
 - tarjeta no
-
-- tarjetahabiente
- 
-- tipo della scheda
- 
+- tarjetahabiente 
+- tipo della scheda 
 - ufficio giapponese della 
-- scheda
- 
-- v pay
- 
+- scheda 
+- v pay 
 - v-지급 
-- visa
- 
-- visa plus
- 
-- visa electron
- 
-- visto
- 
-- visum
- 
-- vpay
-   
+- visa 
+- visa plus 
+- visa electron 
+- visto 
+- visum 
+- vpay   
 
 #### <a name="keywordcardsecuritytermsdict"></a>Keyword_card_security_terms_dict
 
 - card identification number
 - card verification 
-- cardi la verifica
- 
-- cid
- 
+- cardi la verifica 
+- cid 
 - cod seg 
 - cod seguranca 
 - cod segurança 
 - cod sicurezza 
-- cod. seg
- 
-- cod. seguranca
- 
-- cod. segurança
- 
-- cod. sicurezza
- 
-- codice di sicurezza
- 
-- codice di verifica
- 
-- codigo
- 
-- codigo de seguranca
- 
-- codigo de segurança
- 
-- crittogramma
- 
-- cryptogram
- 
-- cryptogramme
- 
+- cod. seg 
+- cod. seguranca 
+- cod. segurança 
+- cod. sicurezza 
+- codice di sicurezza 
+- codice di verifica 
+- codigo 
+- codigo de seguranca 
+- codigo de segurança 
+- crittogramma 
+- cryptogram 
+- cryptogramme 
 - cv2 
-- cvc
- 
+- cvc 
 - cvc2 
-- cvn
- 
-- cvv
- 
+- cvn 
+- cvv 
 - cvv2 
 - cód seguranca 
 - cód segurança 
-- cód. seguranca
- 
-- cód. segurança
- 
-- código
- 
-- código de seguranca
- 
-- código de segurança
- 
-- de kaart controle
- 
-- geeft nr uit
- 
-- issue no
- 
-- issue number
- 
-- kaartidentificatienummer
- 
-- kreditkartenprufnummer
- 
-- kreditkartenprüfnummer
- 
-- kwestieaantal
- 
-- no. dell'edizione
- 
-- no. di sicurezza
- 
-- numero de securite
- 
-- numero de verificacao
- 
-- numero dell'edizione
- 
+- cód seguranca 
+- cód segurança 
+- código 
+- código de seguranca 
+- código de segurança 
+- de kaart controle 
+- geeft nr uit 
+- issue no 
+- issue number 
+- kaartidentificatienummer 
+- kreditkartenprufnummer 
+- kreditkartenprüfnummer 
+- kwestieaantal 
+- 아니요. dell'edizione 
+- 아니요. di sicurezza 
+- numero de securite 
+- numero de verificacao 
+- numero dell'edizione 
 - numero di identificazione della 
-- scheda
- 
-- numero di sicurezza
- 
-- numero van veiligheid
- 
-- numéro de sécurité
- 
-- nº autorizzazione
- 
-- número de verificação
- 
-- perno il blocco
- 
-- pin block
- 
-- prufziffer
- 
-- prüfziffer
- 
-- security code
- 
-- security no
- 
-- security number
- 
-- sicherheits kode
- 
-- sicherheitscode
- 
-- sicherheitsnummer
- 
-- speldblok
- 
-- veiligheid 번호:
- 
-- veiligheidsaantal
- 
-- veiligheidscode
- 
-- veiligheidsnummer
- 
-- verfalldatum
- 
+- scheda 
+- numero di sicurezza 
+- numero van veiligheid 
+- numéro de sécurité 
+- nº autorizzazione 
+- número de verificação 
+- perno il blocco 
+- pin block 
+- prufziffer 
+- prüfziffer 
+- security code 
+- security no 
+- security number 
+- sicherheits kode 
+- sicherheitscode 
+- sicherheitsnummer 
+- speldblok 
+- veiligheid 번호: 
+- veiligheidsaantal 
+- veiligheidscode 
+- veiligheidsnummer 
+- verfalldatum 
 
 #### <a name="keywordcardexpirationtermsdict"></a>Keyword_card_expiration_terms_dict
 
-- ablauf
- 
-- data de expiracao
- 
-- data de expiração
- 
-- data del exp
- 
-- data di exp
- 
-- data di scadenza
- 
-- data em que expira
- 
-- data scad
- 
-- data scadenza
- 
-- date de validité
- 
-- datum afloop
- 
-- datum van exp
- 
-- de afloop
- 
-- espira
- 
-- espira
- 
-- exp date
- 
-- exp datum
- 
+- ablauf 
+- data de expiracao 
+- data de expiração 
+- data del exp 
+- data di exp 
+- data di scadenza 
+- data em que expira 
+- data scad 
+- data scadenza 
+- date de validité 
+- datum afloop 
+- datum van exp 
+- de afloop 
+- espira 
+- espira 
+- exp date 
+- exp datum 
 - 행사 
-- 만료
- 
-- expires
- 
-- expiry
- 
-- fecha de expiracion
- 
-- fecha de venc
- 
-- gultig bis
- 
-- gultigkeitsdatum
- 
-- gültig bis
- 
-- gültigkeitsdatum
- 
-- la scadenza
- 
-- scadenza
- 
-- valable
- 
-- validade
- 
-- valido hasta
- 
-- valor
- 
-- venc
- 
-- vencimento
- 
-- vencimiento
- 
-- verloopt
- 
-- vervaldag
- 
-- vervaldatum
- 
-- vto
- 
-- válido hasta
- 
+- 예정 
+- expires 
+- 만료 
+- fecha de expiracion 
+- fecha de venc 
+- gultig bis 
+- gultigkeitsdatum 
+- gültig bis 
+- gültigkeitsdatum 
+- la scadenza 
+- scadenza 
+- valable 
+- 유효한 ade 
+- valido hasta 
+- valor 
+- venc 
+- vencimento 
+- vencimiento 
+- verloopt 
+- vervaldag 
+- vervaldatum 
+- vto 
+- válido hasta 
    
 ## <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
@@ -3016,7 +2325,7 @@ kartennr
   
 ## <a name="finland-national-id"></a>핀란드 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 세기를 나타내는 6자리 숫자와 문자, 3자리 숫자와 검사 숫자
 
@@ -3028,7 +2337,7 @@ kartennr
 - 3자리 개인 ID 번호 
 - 검사 숫자에 해당하는 1자리 숫자 또는 문자(대/소문자 구분 안 함)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3052,22 +2361,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 - Keyword_finnish_national_id
-- 
-
-Sosiaaliturvatunnus
+- Sosiaaliturvatunnus
 - SOTU Henkilötunnus HETU
 - Personbeteckning
 - Personnummer
    
 ## <a name="finland-passport-number"></a>핀란드 여권 번호
 
-9 개의 문자 및 숫자 패턴 조합 형식 조합: 두 문자 (대/소문자 구분 안 함) 7 자리 체크섬 정의 없음 DLP 정책은이 유형의 중요 한 정보를 검색 한 것으로,이에 따라 300 문자의 근사: 정규식 Regex_finland_passport_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다. Keyword_finland_passport_number에서 키워드가 발견 되었습니다. passport Keyword_finland_passport_number <!-- Finland Passport Number --> 
- <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern> 
- </Entity>
+9 개의 문자 및 숫자 패턴 조합 형식 조합: 두 문자 (대/소문자 구분 안 함) 7 자리 체크섬 정의 없음 DLP 정책은이 유형의 중요 한 정보를 검색 한 것으로,이에 따라 300 문자의 근사: 정규식 Regex_finland_passport_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+Keyword_finland_passport_number에서 키워드가 발견 되었습니다.
+<!-- Finland Passport Number -->
+<Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
+</Entity>
+passport Keyword_finland_passport_number 키워드
    
 ## <a name="france-drivers-license-number"></a>프랑스 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 12자리 숫자
 
@@ -3075,9 +2385,9 @@ Sosiaaliturvatunnus
 
 비슷한 패턴(예: 프랑스 전화 번호)을 무시하기 위한 유효성 검사 기능을 포함하는 12자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -3105,26 +2415,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordfrenchdriverslicense"></a>Keyword_french_drivers_license
 
 - drivers licence
-- 
-drivers license
+- drivers license
 - driving licence
-
-- 운전 면허
-- 
-permis de conduire
-- 
-licence number
-- 
-license number
-- 
-licence numbers
-- 
-
-license numbers
+- driving license
+- permis de conduire
+- licence number
+- license number
+- licence numbers
+- license numbers
 
 ## <a name="france-national-id-card-cni"></a>프랑스 국가 ID 카드(CNI)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 12자리 숫자
 
@@ -3132,9 +2434,9 @@ license numbers
 
 12자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -3156,7 +2458,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="france-passport-number"></a>프랑스 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9자리 숫자 및 문자
 
@@ -3167,9 +2469,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 2문자(대/소문자 구분 안 함) 
 - 5자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -3192,43 +2494,28 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordpassport"></a>Keyword_passport
 
 - Passport Number
-- 
-Passport No
+- Passport No
 - Passport #
-
-- Passport#
-
+- 여권
 - PassportID
 - Passportno
-
 - passportnumber
-
 - パスポート
 - パスポート番号
-
 - パスポートのNum
-
-- 
-パスポート ＃
- 
+- パスポート ＃ 
 - Numéro de passeport
-- 
-Passeport n °
+- Passeport n °
 - Passeport Non
-
 - Passeport #
-
-- Passeport#
-
+- 포트 #
 - 지/포트 아님
-- 
-
-Passeportn °
+- Passeportn °
 
       
 ## <a name="france-social-security-number-insee"></a>프랑스 사회 보장 번호(INSEE)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 15자리 숫자
 
@@ -3239,7 +2526,7 @@ Passeportn °
 또는
 - 15자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3280,48 +2567,30 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordfrinsee"></a>Keyword_fr_insee
 
 - insee
-- 
-securité sociale
-- 
-securite sociale
-- 
-national id
-- 
-national identification
-- 
-numéro d'identité
-- d'identité 없음
-- 
-no. d'identité
-- 
-numero d'identite
-- d'identite 없음
-- 
-no. d'identite
+- securité sociale
+- securite sociale
+- national id
+- national identification
+- numéro d'identité
+- no d'identité
+- 아니요. d'identité
+- numero d'identite
+- no d'identite
+- 아니요. d'identite
 - social security number
-
-- 
-social security code
+- social security code
 - social insurance number
-- 
-le numéro d'identification nationale
-- 
-d'identité nationale
-- 
-numéro de sécurité sociale
-- 
-le code de la sécurité sociale
-- 
-numéro d'assurance sociale
-- 
-numéro de sécu
-- 
-code sécu
- 
+- le numéro d'identification nationale
+- d'identité nationale
+- numéro de sécurité sociale
+- le code de la sécurité sociale
+- numéro d'assurance sociale
+- numéro de sécu
+- code sécu 
    
 ## <a name="german-drivers-license-number"></a>독일 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자와 문자 조합
 
@@ -3334,7 +2603,7 @@ code sécu
 - 1자리 숫자 
 - 1자리 숫자 또는 문자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3367,22 +2636,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordgermandriverslicensenumber"></a>Keyword_german_drivers_license_number
 
 - Führerschein
-- 
-Fuhrerschein
+- Fuhrerschein
 - Fuehrerschein
-- 
-Führerscheinnummer
-- 
-Fuhrerscheinnummer
-- 
-Fuehrerscheinnummer
-- 
-Führerschein-
- 
-- Fuhrerschein-
- 
-- Fuehrerschein-
- 
+- Führerscheinnummer
+- Fuhrerscheinnummer
+- Fuehrerscheinnummer
+- Führerschein- 
+- Fuhrerschein- 
+- Fuehrerschein- 
 - FührerscheinnummerNr
 - FuhrerscheinnummerNr
 - FuehrerscheinnummerNr
@@ -3390,15 +2651,10 @@ Führerschein-
 - FuhrerscheinnummerKlasse
 - FuehrerscheinnummerKlasse
 - Führerschein- Nr
-
 - Fuhrerschein- Nr
-
-- Fuehrerschein- Nr
- 
-- Führerschein- Klasse
- 
-- Fuhrerschein- Klasse
- 
+- Fuehrerschein- Nr 
+- Führerschein- Klasse 
+- Fuhrerschein- Klasse 
 - Fuehrerschein- Klasse
 - FührerscheinnummerNr 
 - FuhrerscheinnummerNr 
@@ -3406,125 +2662,77 @@ Führerschein-
 - FührerscheinnummerKlasse 
 - FuhrerscheinnummerKlasse 
 - FuehrerscheinnummerKlasse 
-- Führerschein- Nr
- 
-- Fuhrerschein- Nr
- 
-- Fuehrerschein- Nr
- 
-- Führerschein- Klasse
- 
-- Fuhrerschein- Klasse
- 
+- Führerschein- Nr 
+- Fuhrerschein- Nr 
+- Fuehrerschein- Nr 
+- Führerschein- Klasse 
+- Fuhrerschein- Klasse 
 - Fuehrerschein- Klasse 
 - DL 
-- DLS
-- 
-Driv Lic
- 
-- Driv Licen
- 
+- 된다
+- Driv Lic 
+- Driv Licen 
 - Driv License
-- 
-Driv Licenses
- 
-- Driv Licence
- 
-- Driv Licences
- 
-- Driv Lic
- 
-- Driver Licen
- 
-- 드라이버 라이선스 
-- 드라이버 라이선스 
-- Driver Licence
- 
-- Driver Licences
- 
+- Driv Licenses 
+- Driv Licence 
+- Driv Licences 
+- Driv Lic 
+- Driver Licen 
+- Driver License 
+- Driver Licenses 
+- Driver Licence 
+- Driver Licences 
 - Drivers Lic 
-- Drivers licen 
+- Drivers Licen 
 - Drivers License 
-- 드라이버 라이선스 
-- 드라이버 라이선스 
-- 라이선스 드라이버 
-- 드라이버의 Lic 
-- Driver's Licen
- 
-- 운전 면허 
-- 운전 면허증 
-- Driver's Licence
- 
-- Driver's Licences
- 
-- Driving Lic
- 
-- Driving Licen
- 
-- Driving License
- 
-- Driving Licenses
- 
-- Driving Licence
-
- 
+- Drivers Licenses 
+- Drivers Licence 
+- Drivers Licences 
+- Driver's Lic 
+- Driver's Licen 
+- Driver's License 
+- Driver's Licenses 
+- Driver's Licence 
+- Driver's Licences 
+- Driving Lic 
+- Driving Licen 
+- Driving License 
+- Driving Licenses 
+- Driving Licence 
 - Driving Licences
 
 #### <a name="keywordgermandriverslicensecollaborative"></a>Keyword_german_drivers_license_collaborative
 
-- 
-Nr-Führerschein
- 
-- Nr-Fuhrerschein
- 
-- Nr-Fuehrerschein
- 
-- No-Führerschein
- 
-- No-Fuhrerschein
- 
-- No-Fuehrerschein
- 
-- N-Führerschein
- 
-- N-Fuhrerschein
- 
+- veiligheid-Führerschein 
+- veiligheid-Fuhrerschein 
+- veiligheid-Fuehrerschein 
+- Führerschein 
+- Fuhrerschein 
+- Fuehrerschein 
+- N-Führerschein 
+- N-Fuhrerschein 
 - N-Fuehrerschein
-- 
-Nr-Führerschein
- 
-- Nr-Fuhrerschein
- 
-- Nr-Fuehrerschein
- 
-- No-Führerschein
- 
-- No-Fuhrerschein
- 
-- No-Fuehrerschein
- 
-- N-Führerschein
- 
-- N-Fuhrerschein
- 
+- veiligheid-Führerschein 
+- veiligheid-Fuhrerschein 
+- veiligheid-Fuehrerschein 
+- Führerschein 
+- Fuhrerschein 
+- Fuehrerschein 
+- N-Führerschein 
+- N-Fuhrerschein 
 - N-Fuehrerschein 
 
 #### <a name="keywordgermandriverslicense"></a>Keyword_german_drivers_license
 
 - ausstellungsdatum
-- 
-ausstellungsort
-- 
-ausstellende behöde
-- 
-ausstellende behorde
-- 
-
-ausstellende behoerde
+- ausstellungsort
+- ausstellende behöde
+- ausstellende behorde
+- ausstellende behoerde
    
 ## <a name="german-passport-number"></a>독일 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10자리 숫자 또는 문자
 
@@ -3536,7 +2744,7 @@ ausstellende behoerde
 - 5자리 숫자 또는 (C, -H, J-N, P, R, T, V-Z) 집합의 문자 
 - 1자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3583,21 +2791,16 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordgermanpassport"></a>Keyword_german_passport
 
 - reisepass
-- 
-reisepasse
-- 
-reisepassnummer
-- passport
-- 
-
-passports
+- reisepasse
+- reisepassnummer
+- 여권
+- passports
 
 #### <a name="keywordgermanpassportcollaborative"></a>Keyword_german_passport_collaborative
 
-- geburtsdatum
+- ge삼 부, tsdatum
 - ausstellungsdatum
-- 
-ausstellungsort
+- ausstellungsort
 
 #### <a name="keywordgermanpassportnumber"></a>Keyword_german_passport_number
 
@@ -3605,8 +2808,7 @@ Reisepass veiligheid-Reisepass
 
 #### <a name="keywordgermanpassport1"></a>Keyword_german_passport1
 
-Reisepass-Nr
-
+Reisepass-veiligheid
 
 #### <a name="keywordgermanpassport2"></a>Keyword_german_passport2
 
@@ -3614,7 +2816,7 @@ bnationalit
    
 ## <a name="germany-identity-card-number"></a>독일 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2010 년 11 월 1 일 이후: 9 개 문자 및 숫자
 
@@ -3629,9 +2831,9 @@ bnationalit
 1 년 4 월 1987 일 ~ 10 월 31 일까 지:
 - 10자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -3655,15 +2857,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Identity Card
 - ID
-- Identification
+- 확인과
 - Personalausweis
 - Identifizierungsnummer
-- Ausweis
+- ausweis
 - Identifikation
    
 ## <a name="greece-national-id-card"></a>그리스 국가 ID 카드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7-8자리 문자 및 숫자와 대시의 조합
 
@@ -3679,9 +2881,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 대시 1개 
 - 6자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -3710,7 +2912,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="hong-kong-identity-card-hkid-number"></a>HKID(홍콩 ID 카드) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 8-9자리 문자 및 숫자와 마지막 문자를 선택적 괄호로 묶어서 조합
 
@@ -3721,7 +2923,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 6자리 숫자 
 - 검사 숫자에 해당하고 선택적으로 괄호로 묶는 마지막 문자(임의 숫자 또는 문자 A)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3755,24 +2957,20 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - 홍콩 특별 식별자 카드
 - HKIDC
-- id 카드
+- id card
 - identity card
 - zh-hk id 카드
 - 홍콩 id
 - 香港身份證
-
 - 香港永久性居民身份證
-
 - 身份證
-
 - 身份証
-- 身分證 
+- 身分證
 - 身分証
 - 香港身份証
 - 香港身分證
 - 香港身分証
 - 香港身份證
-
 - 香港居民身份證
 - 香港居民身份証
 - 香港居民身分證
@@ -3781,7 +2979,6 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 香港永久性居民身分證
 - 香港永久性居民身分証
 - 香港永久性居民身份證
-
 - 香港非永久性居民身份證
 - 香港非永久性居民身份証
 - 香港非永久性居民身分證
@@ -3797,7 +2994,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="india-permanent-account-number-pan"></a>인도 PAN(영구 계정 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10자리 문자 또는 숫자
 
@@ -3808,7 +3005,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 4자리 숫자 
 - 알파벳 검사 숫자에 해당하는 문자 1개
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3833,14 +3030,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordindiapermanentaccountnumber"></a>Keyword_india_permanent_account_number
 
-- Permanent Account Number
- 
-- PAN
- 
+- Permanent Account Number 
+- 확대 
    
 ## <a name="india-unique-identification-aadhaar-number"></a>인도 고유 ID(Aadhaar) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적 공백 또는 대시를 포함하는 12자리 숫자
 
@@ -3853,13 +3048,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 선택적 공백 또는 대시  
 - 검사 숫자에 해당하는 마지막 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다. Keyword_india_aadhar에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다. DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. 체크섬이 통과 됩니다. <!-- India Unique Identification (Aadhaar) number -->
+DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다.
+Keyword_india_aadhar에서 키워드가 발견 되었습니다.
+체크섬이 통과됩니다.
+DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+체크섬이 통과됩니다.
+<!-- India Unique Identification (Aadhaar) number -->
 <Entity id="1ca46b29-76f5-4f46-9383-cfa15e91048f" recommendedConfidence="85" patternsProximity="300"> <Pattern confidenceLevel="85"> <IdMatch idRef="Func_india_aadhaar"/> <Match idRef="Keyword_india_aadhar"/> </Pattern> <Pattern confidenceLevel="75"> <IdMatch idRef="Func_india_aadhaar"/> </Pattern>
 </Entity>
 
@@ -3873,7 +3073,7 @@ DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴
    
 ## <a name="indonesia-identity-card-ktp-number"></a>인도네시아 ID 카드(KTP) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적으로 마침표를 포함하는 16자리 숫자
 
@@ -3889,9 +3089,9 @@ DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴
 - 마침표(옵션)  
 - 4자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -3920,14 +3120,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordindonesiaidcard"></a>Keyword_indonesia_id_card
 
 - KTP
-- Kartu Tanda Penduduk
- 
-- Nomor Induk Kependudukan
- 
+- Kartu Tanda Penduduk 
+- Nomor Induk Kependudukan 
    
 ## <a name="international-banking-account-number-iban"></a>IBAN(국제 은행 계좌 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 국가 코드 (두 문자) + 검사 숫자 (2 자리 숫자)와 bban 숫자 (최대 30 자)
 
@@ -3944,7 +3142,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, kw, hu,, to,,, fr,,, i,,, ie, il, is,, l,, 5, 60, md, me, mk, e, mt, mu , nl-nl, no, pl, pt, ro, rs, sa, se, si,, sm, tn, tr, vg
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -3969,19 +3167,19 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="ip-address"></a>IP 주소
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
-#### <a name="ipv4"></a>IPv4:
+#### <a name="ipv4"></a>IPv4
 IPv4 주소의 서식 있는 버전(마침표 있음) 및 서식 없는 버전(마침표 없음)으로 구성된 복잡한 패턴
 
-#### <a name="ipv6"></a>IPv6:
+#### <a name="ipv6"></a>IPv6
 서식 있는(콜론 포함) IPv6 번호로 구성된 복잡한 패턴
 
 ### <a name="pattern"></a>패턴
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4026,17 +3224,14 @@ IPv6의 경우 DLP 정책은 다음과 같은 경우 이러한 유형의 중요�
 #### <a name="keywordipaddress"></a>Keyword_ipaddress
 
 - IP(이 키워드는 대/소문자를 구분함)
-- ip address
- 
+- ip address 
 - ip addresses
 - internet protocol
-- 
-IP-כתובת ה
- 
+- IP-כתובת ה 
    
 ## <a name="international-classification-of-diseases-icd-10-cm"></a>Diseases의 국제 분류 (ICD-10-CM)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 사전
 
@@ -4044,9 +3239,9 @@ IP-כתובת ה
 
 Keyword
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4069,7 +3264,7 @@ Dictionary_icd_10_cm 키워드 사전의 모든 용어 이며, [Diseases의 국�
    
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>Diseases의 국제 분류 (ICD-9-CM)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 사전
 
@@ -4077,9 +3272,9 @@ Dictionary_icd_10_cm 키워드 사전의 모든 용어 이며, [Diseases의 국�
 
 Keyword
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4100,7 +3295,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS(개인 공공 서비스) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 이전 형식 (31 년 12 월 2012 일까지):
 - 7자리 숫자와 1-2개 문자  
@@ -4119,7 +3314,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 알파벳 검사 숫자에 해당하는 문자 1개(대/소문자 구분 안 함)  
 - 문자 "A" 또는 "H"(대/소문자 구분 안 함)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -4157,49 +3352,38 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordirelandpps"></a>Keyword_ireland_pps
 
 - Personal Public Service Number 
- 
-- PPS Number
- 
-- PPS Num
- 
-- PPS No.
- 
-- PPS #
- 
-- PPS#
- 
-- PPSN
- 
-- Public Services Card
- 
-- Uimhir Phearsanta Seirbhíse Poiblí
- 
-- Uimh. PSP
- 
-- PSP
- 
+- PPS Number 
+- PPS Num 
+- PPS No. 
+- PPS # 
+- .pps 
+- ppsn 
+- Public Services Card 
+- Uimhir Phearsanta Seirbhíse Poiblí 
+- uimh PSP 
+- PSP 
    
 ## <a name="israel-bank-account-number"></a>이스라엘 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 13자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-서식 있음:
+서식이
 - 2자리 숫자 
 - 대시 1개 
 - 3자리 숫자 
 - 대시 1개 
 - 8자리 숫자
 
-서식 없음:
+서식
 - 13자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4223,18 +3407,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordisraelbankaccountnumber"></a>Keyword_israel_bank_account_number
 
-- Bank Account Number
- 
-- Bank Account
- 
-- Account Number
- 
-- מספר חשבון בנק
- 
+- Bank Account Number 
+- Bank Account 
+- Account Number 
+- מספר חשבון בנק 
    
 ## <a name="israel-national-id"></a>이스라엘 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9자리 숫자
 
@@ -4242,7 +3422,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 9자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -4269,13 +3449,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordisraelnationalid"></a>Keyword_Israel_National_ID
 
-- מספר זהות
- 
+- מספר זהות 
 - National ID Number
    
 ## <a name="italy-drivers-license-number"></a>이탈리아 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10개의 문자 및 숫자 조합
 
@@ -4287,9 +3466,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 7개 문자(대/소문자 구분 안 함), 숫자 또는 밑줄 문자 
 - 1개 문자(대/소문자 구분 안 함)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4313,14 +3492,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyworditalydriverslicensenumber"></a>Keyword_italy_drivers_license_number
 
-- numero di patente di guida
- 
-- patente di guida
- 
+- numero di patente di guida 
+- patente di guida 
    
 ## <a name="japan-bank-account-number"></a>일본 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7 또는 8자리 숫자
 
@@ -4333,9 +3510,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 공백 또는 대시(선택 사항) 
 - 3자리 숫자
 
-체크섬
+제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4374,110 +3551,60 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordjpbankaccount"></a>Keyword_jp_bank_account
 
-- Checking Account Number
- 
-- Checking Account
- 
-- Checking Account #
- 
-- Checking Acct Number
- 
-- Checking Acct #
- 
-- Checking Acct No.
- 
-- Checking Account No.
- 
-- Bank Account Number
- 
-- Bank Account
- 
-- Bank Account #
- 
-- Bank Acct Number
- 
-- Bank Acct #
- 
-- Bank Acct No.
- 
-- Bank Account No.
- 
-- Savings Account Number
- 
-- 저축 계정 
-- Savings Account #
- 
-- Savings Acct Number
- 
-- Savings Acct #
- 
-- Savings Acct No.
- 
-- Savings Account No.
- 
-- Debit Account Number
- 
-- Debit Account
- 
-- Debit Account #
- 
-- Debit Acct Number
- 
-- Debit Acct #
- 
-- Debit Acct No.
- 
-- Debit Account No.
- 
-- 口座番号を当座預金口座の確認
- 
-- # アカウントの確認、勘定番号の確認
- 
-- #勘定の確認
- 
-- 勘定番号の確認
- 
-- 口座番号の確認
- 
+- Checking Account Number 
+- Checking Account 
+- Checking Account # 
+- Checking Acct Number 
+- Checking Acct # 
+- Checking Acct No. 
+- Checking Account No. 
+- Bank Account Number 
+- Bank Account 
+- Bank Account # 
+- Bank Acct Number 
+- Bank Acct # 
+- Bank Acct No. 
+- Bank Account No. 
+- Savings Account Number 
+- Savings Account 
+- Savings Account # 
+- Savings Acct Number 
+- Savings Acct # 
+- Savings Acct No. 
+- Savings Account No. 
+- Debit Account Number 
+- Debit Account 
+- Debit Account # 
+- Debit Acct Number 
+- Debit Acct # 
+- Debit Acct No. 
+- Debit Account No. 
+- 口座番号を当座預金口座の確認 
+- #アカウントの確認 、 勘定番号の確認 
+- #勘定の確認 
+- 勘定番号の確認 
+- 口座番号の確認 
 - 銀行口座番号 
 - 銀行口座 
-- 銀行口座 #
- 
-- 銀行の勘定番号
- 
-- 銀行のacct #
- 
-- 銀行の勘定いいえ
- 
+- 銀行口座 # 
+- 銀行の勘定番号 
+- 銀行のacct # 
+- 銀行の勘定いいえ 
 - 銀行口座番号
-- 
-普通預金口座番号
- 
-- 預金口座
- 
-- 貯蓄口座 #
- 
-- 貯蓄勘定の数
- 
-- 貯蓄勘定 #
- 
-- 貯蓄勘定番号
- 
-- 普通預金口座番号
- 
-- 引き落とし口座番号
- 
+- 普通預金口座番号 
+- 預金口座 
+- 貯蓄口座 # 
+- 貯蓄勘定の数 
+- 貯蓄勘定 # 
+- 貯蓄勘定番号 
+- 普通預金口座番号 
+- 引き落とし口座番号 
 - 口座番号 
-- 口座番号 #
- 
-- デビットのacct番号
- 
-- デビット勘定 #
- 
-- デビットACCTの番号
- 
-- デビット口座番号
- 
+- 口座番号 # 
+- デビットのacct番号 
+- デビット勘定 # 
+- デビットACCTの番号 
+- デビット口座番号 
 
 #### <a name="keywordjpbankbranchcode"></a>Keyword_jp_bank_branch_code
 
@@ -4485,7 +3612,7 @@ Otemachi
 
 ## <a name="japan-drivers-license-number"></a>일본 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 12자리 숫자
 
@@ -4493,9 +3620,9 @@ Otemachi
 
 12자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4517,48 +3644,35 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordjpdriverslicensenumber"></a>Keyword_jp_drivers_license_number
 
-- dl#
- 
+- dl 
 - DL 
 - 된다 
 - 된다 
-- 드라이버 라이선스 
-- 드라이버 라이선스 
+- driver license 
+- driver licenses 
 - drivers license 
-- 운전 면허 
-- 드라이버 라이선스 
-- 운전 면허증 
-- driving licence
- 
+- driver's license 
+- drivers licenses 
+- driver's licenses 
+- driving licence 
 - lic 
 - LIC 
-- lics#
- 
-- 상태 id 
-- state identification
- 
-- state identification number
- 
-- 低所得国 #
- 
-- 免許証
- 
+- driver'lics 
+- state id 
+- state identification 
+- state identification number 
+- 低所得国 # 
+- 免許証 
 - 状態ID
-- 
-状態の識別
- 
-- 状態の識別番号
- 
-- 運転免許
- 
-- 運転免許証
- 
-- 運転免許証番号
- 
+- 状態の識別 
+- 状態の識別番号 
+- 運転免許 
+- 運転免許証 
+- 運転免許証番号 
    
 ## <a name="japan-passport-number"></a>일본 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2개 문자와 7자리 숫자
 
@@ -4566,9 +3680,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 2개의 문자(대/소문자 구분 안 함)와 7자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4590,18 +3704,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordjppassport"></a>Keyword_jp_passport
 
-- パスポート
- 
-- パスポート番号
- 
-- パスポートのNum
- 
-- パスポート #
- 
+- パスポート 
+- パスポート番号 
+- パスポートのNum 
+- パスポート # 
    
 ## <a name="japan-resident-registration-number"></a>일본 주민 등록 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자
 
@@ -4609,9 +3719,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 11자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4634,31 +3744,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordjpresidentregistrationnumber"></a>Keyword_jp_resident_registration_number
 
 - Resident Registration Number
-- Resident Register Number
- 
-- Residents Basic Registry Number
- 
-- Resident Registration No.
- 
-- Resident Register No.
- 
-- Residents Basic Registry No.
- 
-- Basic Resident Register No.
- 
-- 住民登録番号、登録番号をレジデント
- 
-- 住民基本登録番号、登録番号
- 
-- 住民基本レジストリ番号を常駐
- 
-- 登録番号を常駐住民基本台帳登録番号
- 
+- Resident Register Number 
+- Residents Basic Registry Number 
+- Resident Registration No. 
+- Resident Register No. 
+- Residents Basic Registry No. 
+- Basic Resident Register No. 
+- 住民登録番号 、 登録番号をレジデント 
+- 住民基本登録番号 、 登録番号 
+- 住民基本レジストリ番号を常駐 
+- 登録番号を常駐住民基本台帳登録番号 
 
    
 ## <a name="japan-social-insurance-number-sin"></a>일본 SIN(사회 보험 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 7-12자리 숫자
 
@@ -4670,9 +3770,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 6 자리 숫자 또는
 - 7-12자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4702,20 +3802,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordjpsin"></a>Keyword_jp_sin
 
-- Social Insurance No.
- 
-- Social Insurance Num
- 
-- Social Insurance Number
- 
-- 社会保険のテンキー
- 
-- 社会保険番号
- 
+- Social Insurance No. 
+- Social Insurance Num 
+- Social Insurance Number 
+- 社会保険のテンキー 
+- 社会保険番号 
 
 ## <a name="japanese-residence-card-number"></a>일본어 거주지 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 12 개의 문자 및 숫자
 
@@ -4726,9 +3821,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 8자리 숫자 
 - 2문자(대/소문자 구분 안 함)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4757,7 +3852,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="malaysia-id-card-number"></a>말레이시아 ID 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적으로 하이픈을 포함하는 12자리 숫자
 
@@ -4771,9 +3866,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 임의의 3자리 숫자  
 - 1자리 성별 코드
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -4801,7 +3896,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - i/c 아니요
 - 비용
 - ic 아니요
-- id 카드
+- id card
 - 식별 카드
 - identity card
 - k/p
@@ -4823,7 +3918,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="netherlands-citizens-service-bsn-number"></a>네덜란드 시민 서비스(BSN) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 선택적으로 공백을 포함하는 8-9자리 숫자
 
@@ -4836,7 +3931,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 공백 1개(선택 사항) 
 - 2-3자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -4863,24 +3958,17 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordnetherlandsbsn"></a>Keyword_netherlands_bsn
 
-- Citizen service number
- 
-- BSN
-
- 
-- Burgerservicenummer
- 
-- Sofinummer
- 
-- Persoonsgebonden nummer
- 
-- Persoonsnummer
-    
+- Citizen service number 
+- BSN 
+- Burgerservicenummer 
+- Sofinummer 
+- Persoonsgebonden nummer 
+- Persoonsnummer    
 
    
 ## <a name="new-zealand-ministry-of-health-number"></a>뉴질랜드 보건부 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 3개 문자, 공백 1개(선택 사항) 및 4자리 숫자
 
@@ -4888,7 +3976,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 3 개의 문자 (대/소문자 구분 안 함) 공백 (선택 사항) 4 자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -4915,16 +4003,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 Keyword_nz_terms
 
-- NHI
- 
-- 뉴질랜드 
+- nhi 
+- New Zealand 
 - 상태 
-- treatment
- 
+- 처리가 
    
 ## <a name="norway-identification-number"></a>Norway Identification Number
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자
 
@@ -4935,7 +4021,7 @@ Keyword_nz_terms
 - 3자리 개인 번호  
 - 2개의 검사 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -4969,14 +4055,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Personal identification number
 - Norwegian ID Number
 - ID Number
-- Identification
+- 확인과
 - Personnummer
 - Fødselsnummer
 
    
 ## <a name="philippines-unified-multi-purpose-id-number"></a>필리핀 통합 다목적 ID 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈으로 구분된 12자리 숫자
 
@@ -4989,9 +4075,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 하이픈 
 - 1자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5013,16 +4099,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keywordphilippinesid"></a>Keyword_philippines_id
 
-- Unified Multi-Purpose ID
- 
-- UMID
- 
+- Unified Multi-Purpose ID 
+- UMID 
 - Identity Card 
 - Pinag-isang Multi-Layunin ID
    
 ## <a name="poland-identity-card"></a>폴란드 ID 카드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 3개의 문자 및 6자리 숫자
 
@@ -5030,13 +4114,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 3개의 문자(대/소문자 구분 안 함)와 6자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 근사에서 Func_polish_national_id 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다. Keyword_polish_national_id_passport_number에서 키워드가 발견 되었습니다. 체크섬이 통과 됩니다.
+DLP 정책은 300 문자 근사에서 Func_polish_national_id 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+Keyword_polish_national_id_passport_number의 키워드가 발견되었습니다.
+체크섬이 통과됩니다.
 
 ```
 <!-- Poland Identity Card-->
@@ -5057,16 +4143,13 @@ DLP 정책은 300 문자 근사에서 Func_polish_national_id 함수가 해당 �
 - Nazwa i u r i dowodu osobistego
 - Nazwa i veiligheid dowodu osobistego
 - Nazwa i nr dowodu tożsamości
-
 - Dowód Tożsamości
-
-- dow. os.
-
+- dow. 르.
 
    
 ## <a name="poland-national-id-pesel"></a>폴란드 국가 ID(PESEL)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자
 
@@ -5074,7 +4157,7 @@ DLP 정책은 300 문자 근사에서 Func_polish_national_id 함수가 해당 �
 
 11자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5105,7 +4188,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="poland-passport"></a>폴란드 여권
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2개 문자와 7자리 숫자
 
@@ -5113,7 +4196,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 2개의 문자(대/소문자 구분 안 함)와 7자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5140,13 +4223,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
 - u r i (zportu)
-- veiligheid zportu
+- veiligheid. 고 zportu
 - 고 zport
 
    
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 8자리 숫자
 
@@ -5154,9 +4237,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 8자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5180,13 +4263,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Citizen Card
 - National ID Card
-- CC
+- 참조란
 - Cartão de Cidadão
 - Bilhete de Identidade
    
 ## <a name="saudi-arabia-national-id"></a>사우디 아라비아 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10자리 숫자
 
@@ -5194,9 +4277,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 10자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5220,18 +4303,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordsaudiarabianationalid"></a>Keyword_saudi_arabia_national_id
 
-- Identification Card
- 
-- I card number
- 
-- ID 번호 
-- الوطنية الهوية بطاقة رقم
- 
+- Identification Card 
+- I card number 
+- ID number 
+- الوطنية الهوية بطاقة رقم 
 
    
 ## <a name="singapore-national-registration-identity-card-nric-number"></a>싱가포르 NRIC(국가 등록 ID 카드) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9개의 문자 및 숫자
 
@@ -5242,7 +4322,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 7자리 숫자 
 - 알파벳 검사 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5274,25 +4354,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keywordsingaporenric"></a>Keyword_singapore_nric
 
-- National Registration Identity Card
- 
-- Identity Card Number
- 
-- NRIC
- 
-- IC
- 
-- Foreign Identification Number
- 
-- FIN
- 
-- 身份证  
-- 身份證
- 
+- National Registration Identity Card 
+- Identity Card Number 
+- NRIC 
+- 비용 
+- Foreign Identification Number 
+- 삭제할 
+- 身份证 
+- 身份證 
    
 ## <a name="south-africa-identification-number"></a>남아프리카 공화국 식별 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백을 포함할 수 있는 13자리 숫자
 
@@ -5305,7 +4378,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 숫자 "8" 또는 "9"  
 - 체크섬 숫자에 해당하는 1자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5332,11 +4405,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Identity card
 - ID
-- Identification 
+- 확인과 
    
 ## <a name="south-korea-resident-registration-number"></a>한국 주민 등록 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 하이픈을 포함하는 13자리 숫자
 
@@ -5350,7 +4423,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 앞 번호가 동일한 사람을 구분하기 위해 사용되는 1자리 숫자  
 - 검사 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5382,19 +4455,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keywordsouthkorearesidentnumber"></a>Keyword_south_korea_resident_number
 
-- National ID card
- 
-- Citizen's Registration Number
- 
-- Jumin deungnok beonho
- 
-- RRN
- 
+- National ID card 
+- Citizen's Registration Number 
+- Jumin deungnok beonho 
+- RRN 
 - 주민등록번호
    
 ## <a name="spain-social-security-number-ssn"></a>스페인 SSN(사회 보장 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11-12자리 숫자
 
@@ -5407,7 +4476,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 정방향 슬래시 1개(선택 사항) 
 - 2자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5432,7 +4501,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10 또는 12자리 숫자와 선택적 구분 기호
 
@@ -5444,7 +4513,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 구분 기호 "-" 또는 "+"(선택 사항) 및
 - 4자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5465,11 +4534,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-없음
+아니요
    
 ## <a name="sweden-passport-number"></a>스웨덴 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 8자리 숫자
 
@@ -5477,7 +4546,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 8자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 아니요
 
@@ -5506,63 +4575,40 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keywordswedenpassport"></a>Keyword_sweden_passport
 
-- visa requirements
- 
-- Alien Registration Card
- 
-- Schengen visas
- 
-- Schengen visa
- 
-- Visa Processing
- 
-- Visa Type
- 
-- Single Entry
- 
-- Multiple Entry
- 
-- G3 Processing Fees
-
- 
+- visa requirements 
+- Alien Registration Card 
+- Schengen visas 
+- Schengen visa 
+- Visa Processing 
+- Visa Type 
+- Single Entry 
+- Multiple Entry 
+- G3 Processing Fees 
 
 #### <a name="keywordpassport"></a>Keyword_passport
 
 - Passport Number 
-- 
-Passport No 
-- Passport #
- 
-- Passport#
- 
+- Passport No 
+- Passport # 
+- 여권 
 - PassportID 
-- Passportno
- 
-- passportnumber
- 
+- Passportno 
+- passportnumber 
 - パスポート 
-- パスポート番号
- 
-- パスポートのNum
- 
-- パスポート＃
- 
+- パスポート番号 
+- パスポートのNum 
+- パスポート # 
 - Numéro de passeport 
-- 
-Passeport n ° 
-- Passeport Non
- 
-- Passeport #
- 
-- Passeport#
- 
+- Passeport n ° 
+- Passeport Non 
+- Passeport # 
+- 포트 # 
 - 지/포트 아님 
-- Passeportn °
- 
+- Passeportn ° 
    
 ## <a name="swift-code"></a>SWIFT 코드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 4개의 문자, 5-31개 문자 또는 숫자
 
@@ -5575,7 +4621,7 @@ Passeport n °
 - 선택적 공백 1개 
 - 1-3개 문자 또는 숫자(BBAN의 나머지)
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 아니요
 
@@ -5598,65 +4644,41 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keywordswift"></a>Keyword_swift
 
-- international organization for standardization 9362
- 
-- iso 9362
- 
+- international organization for standardization 9362 
+- iso 9362 
 - iso9362 
 - swift\# 
-- swiftcode
- 
-- swiftnumber
- 
-- swiftroutingnumber
- 
-- swift code
- 
-- swift number #
- 
-- swift routing number
- 
-- bic number
- 
-- bic code
- 
+- swiftcode 
+- swiftnumber 
+- swiftroutingnumber 
+- swift code 
+- swift number # 
+- swift routing number 
+- bic number 
+- bic code 
 - bic\# 
 - bic\# 
-- bank identifier code
- 
+- bank identifier code 
 - 標準化 9362 
-- 迅速＃
- 
-- SWIFTコード
- 
-- SWIFT番号
- 
-- 迅速なルーティング番号
- 
-- BIC番号
- 
-- BICコード
- 
-- 銀行識別コードのための国際組織
- 
-- Organisation internationale de normalisation 9362
- 
+- 迅速 # 
+- SWIFTコード 
+- SWIFT番号 
+- 迅速なルーティング番号 
+- BIC番号 
+- BICコード 
+- 銀行識別コードのための国際組織 
+- Organisation internationale de normalisation 9362 
 - rapide\# 
-- code SWIFT
- 
-- le numéro de swift
- 
-- swift numéro d'acheminement
- 
-- le numéro BIC
- 
+- code SWIFT 
+- le numéro de swift 
+- swift numéro d'acheminement 
+- le numéro BIC 
 - \#bic 
-- code identificateur de banque
- 
+- code identificateur de banque 
    
 ## <a name="taiwan-national-id"></a>대만 국가 ID
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 1개의 문자, 9자리 숫자
 
@@ -5667,7 +4689,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 숫자 "1" 또는 "2" 
 - 8자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5692,37 +4714,24 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordtaiwanesenationalid"></a>Keyword_taiwanese_national_id
 
-- 身份證字號
- 
-- 身份證
- 
-- 身份證號碼
- 
-- 身份證號
- 
-- 身分證字號
- 
-- 身分證  
-- 身分證號碼
- 
-- 身份證號
- 
-- 身分證統一編號
- 
-- 國民身分證統一編號
- 
-- 簽名
- 
-- 蓋章
- 
-- 簽名或蓋章
-
- 
+- 身份證字號 
+- 身份證 
+- 身份證號碼 
+- 身份證號 
+- 身分證字號 
+- 身分證 
+- 身分證號碼 
+- 身份證號 
+- 身分證統一編號 
+- 國民身分證統一編號 
+- 簽名 
+- 蓋章 
+- 簽名或蓋章 
 - 簽章   
    
 ## <a name="taiwan-passport-number"></a>	대만 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 - 생체 인식 여권 번호: 9 자리 숫자
 - 비-생체 인식 여권 번호: 9 자리 숫자
@@ -5735,9 +4744,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 비-생체 인식 여권 번호:
 - 9자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5759,23 +4768,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordtaiwanpassport"></a>Keyword_taiwan_passport
 
-- ROC passport number
- 
-- 여권 번호 
-- Passport 아니요 
-- Passport Num
- 
-- Passport #
- 
-- 护照
- 
-- 中華民國護照
- 
+- ROC passport number 
+- Passport number 
+- Passport no 
+- Passport Num 
+- Passport # 
+- 护照 
+- 中華民國護照 
 - Zhōnghuá Mínguó hùzhào
    
 ## <a name="taiwan-resident-certificate-arctarc-number"></a>대만 거주 인증(ARC/TARC) 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 10개의 문자 및 숫자
 
@@ -5785,9 +4789,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 2문자(대/소문자 구분 안 함) 
 - 8자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -5809,29 +4813,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordtaiwanresidentcertificate"></a>Keyword_taiwan_resident_certificate
 
-- Resident Certificate
- 
-- 상주 인증서 
-- Resident Cert.
- 
-- 식별 카드 
-- Alien Resident Certificate
- 
+- Resident Certificate 
+- Resident Cert 
+- Resident Cert. 
+- Identification card 
+- Alien Resident Certificate 
 - 화살표 
-- Taiwan Area Resident Certificate
- 
-- TARC
- 
-- 居留證
- 
-- 外僑居留證
- 
-- 台灣地區居留證
- 
+- Taiwan Area Resident Certificate 
+- TARC 
+- 居留證 
+- 外僑居留證 
+- 台灣地區居留證 
 
 ## <a name="thai-population-identification-code"></a>태국어 인구 식별 코드
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 13자리 숫자
 
@@ -5841,7 +4837,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 첫 번째 숫자가 0 또는 9가 아님 
 - 12자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5880,7 +4876,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ## <a name="turkish-national-identification-number"></a>터키어 국가 식별 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 11자리 숫자
 
@@ -5888,7 +4884,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 11자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5925,7 +4921,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ## <a name="uk-drivers-license-number"></a>영국 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 지정된 형식의 18개 문자 및 숫자 조합
 
@@ -5938,7 +4934,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 2개 문자(대/소문자 구분 안 함) 또는 문자 대신 숫자 "9" 사용 
 - 5자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -5963,39 +4959,25 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordukdriverslicense"></a>Keyword_uk_drivers_license
 
-- DVLA
- 
-- light vans
- 
-- quadbikes
- 
-- motor cars
- 
+- dvla 
+- light vans 
+- quadbikes 
+- motor cars 
 - 125cc 
-- sidecar
- 
-- tricycles
- 
-- motorcycles
- 
-- photocard licence
- 
-- learner drivers
- 
-- licence holder
- 
-- licence holders
- 
-- driving licences
- 
-- driving licence
- 
-- dual control car
- 
+- sidecar 
+- tricycles 
+- motorcycles 
+- photocard licence 
+- learner drivers 
+- licence holder 
+- licence holders 
+- driving licences 
+- driving licence 
+- dual control car 
    
 ## <a name="uk-electoral-roll-number"></a>영국 선거 롤 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 2개의 문자, 1-4자리 숫자
 
@@ -6003,9 +4985,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 2개의 문자(대/소문자 구분 안 함)와 1-4자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -6029,19 +5011,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordukelectoral"></a>Keyword_uk_electoral
 
-- council nomination
- 
-- nomination form
- 
-- electoral register
-
- 
+- council nomination 
+- nomination form 
+- electoral register 
 - electoral roll
 
    
 ## <a name="uk-national-health-service-number"></a>영국 국립 보건 서비스 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백으로 구분된 10-17자리 숫자
 
@@ -6054,7 +5032,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 공백 
 - 4자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
 예
 
@@ -6086,40 +5064,29 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 #### <a name="keyworduknhsnumber"></a>Keyword_uk_nhs_number
 
-- 국립 보건 서비스
- 
-- nhs
- 
-- health services authority
-
- 
+- 국립 보건 서비스 
+- nhs 
+- health services authority 
 - health authority
 
 #### <a name="keyworduknhsnumber1"></a>Keyword_uk_nhs_number1
 
-- patient id
- 
-- patient identification
- 
-- patient no
-
- 
+- patient id 
+- patient identification 
+- patient no 
 - patient number
 
 #### <a name="keyworduknhsnumberdob"></a>Keyword_uk_nhs_number_dob
 
-- GP 
-- DOB
- 
+- g 
+- dob 
 - D. O. B 
-- Date of Birth
- 
-- Birth Date
- 
+- Date of Birth 
+- Birth Date 
    
 ## <a name="uk-national-insurance-number-nino"></a>영국 NINO(국민 보험 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 공백 또는 대시로 구분 된 7 자 또는 9 자
 
@@ -6143,9 +5110,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 공백 또는 대시
 - ' A ', ' B ', ' C ' 또는 ' d ' 중 하나
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -6179,33 +5146,22 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyworduknino"></a>Keyword_uk_nino
 
-- national insurance number
- 
-- national insurance contributions
- 
-- protection act
- 
-- insurance
- 
-- social security number
- 
-- insurance application
- 
-- medical application
- 
-- social insurance
- 
-- medical attention
- 
-- 소셜 보안 
-- great britain
- 
-- insurance
-    
+- national insurance number 
+- national insurance contributions 
+- protection act 
+- 소유권 
+- social security number 
+- insurance application 
+- medical application 
+- social insurance 
+- medical attention 
+- social security 
+- great britain 
+- 소유권    
    
 ## <a name="us--uk-passport-number"></a>미국/영국 여권 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 9자리 숫자
 
@@ -6213,9 +5169,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 9자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -6237,40 +5193,27 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordpassport"></a>Keyword_passport
 
 - Passport Number 
-- 
-Passport No 
-- Passport #
- 
-- Passport#
- 
+- Passport No 
+- Passport # 
+- 여권 
 - PassportID 
-- Passportno
- 
-- passportnumber
- 
+- Passportno 
+- passportnumber 
 - パスポート 
-- パスポート番号
- 
-- パスポートのNum
- 
-- パスポート＃
- 
+- パスポート番号 
+- パスポートのNum 
+- パスポート # 
 - Numéro de passeport 
-- 
-Passeport n ° 
-- Passeport Non
- 
-- Passeport #
- 
-- Passeport#
- 
+- Passeport n ° 
+- Passeport Non 
+- Passeport # 
+- 포트 # 
 - 지/포트 아님 
-- Passeportn °
- 
+- Passeportn ° 
    
 ## <a name="us-bank-account-number"></a>미국 은행 계좌 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 8-17자리 숫자
 
@@ -6278,9 +5221,9 @@ Passeport n °
 
 8-17자리 연속 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -6302,64 +5245,37 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordusabankaccount"></a>Keyword_usa_Bank_Account
 
-- Checking Account Number
- 
-- Checking Account
- 
-- Checking Account #
- 
-- Checking Acct Number
- 
-- Checking Acct #
- 
-- Checking Acct No.
- 
-- Checking Account No.
- 
-- Bank Account Number
- 
-- Bank Account #
- 
-- Bank Acct Number
- 
-- Bank Acct #
- 
-- Bank Acct No.
- 
-- Bank Account No.
- 
-- Savings Account Number
- 
-- Savings Account.
- 
-- Savings Account #
- 
-- Savings Acct Number
- 
-- Savings Acct #
- 
-- Savings Acct No.
- 
-- Savings Account No.
- 
-- Debit Account Number
- 
-- Debit Account
- 
-- Debit Account #
- 
-- Debit Acct Number
- 
-- Debit Acct #
- 
-- Debit Acct No.
- 
-- Debit Account No.
- 
+- Checking Account Number 
+- Checking Account 
+- Checking Account # 
+- Checking Acct Number 
+- Checking Acct # 
+- Checking Acct No. 
+- Checking Account No. 
+- Bank Account Number 
+- Bank Account # 
+- Bank Acct Number 
+- Bank Acct # 
+- Bank Acct No. 
+- Bank Account No. 
+- Savings Account Number 
+- Savings Account. 
+- Savings Account # 
+- Savings Acct Number 
+- Savings Acct # 
+- Savings Acct No. 
+- Savings Account No. 
+- Debit Account Number 
+- Debit Account 
+- Debit Account # 
+- Debit Acct Number 
+- Debit Acct # 
+- Debit Acct No. 
+- Debit Account No. 
    
 ## <a name="us-drivers-license-number"></a>미국 운전 면허 번호
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 주마다 다릅니다.
 
@@ -6369,9 +5285,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - ddd ddd ddd와 같이 9 자리 숫자는 일치 합니다.
 - ddddddddd와 같은 9 자리 숫자가 일치 하지 않습니다.
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -6407,29 +5323,21 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordusdriverslicenseabbreviations"></a>Keyword_us_drivers_license_abbreviations
 
 - DL 
-- DLS 
+- 된다 
 - cdl 
 - cdls 
 - ID 
 - 번호가 
-- DL# 
-- 
-DLS#
- 
-- CDL#
- 
-- CDLS#
- 
-- ID#
-- 
-IDs#
- 
-- ID 번호 
-- ID numbers
- 
+- DL 
+- 된다 
+- cdl # 
+- cdls # 
+- i
+- 번호가 
+- ID number 
+- ID numbers 
 - LIC 
-- LIC#
- 
+- LIC 
 
 #### <a name="keywordusdriverslicense"></a>Keyword_us_drivers_license
 
@@ -6437,115 +5345,93 @@ IDs#
 - driverlics 
 - driverlicense 
 - driverlicenses 
-- 드라이버 Lic 
-- 드라이버 lics 
-- 드라이버 라이선스 
-- 드라이버 라이선스 
+- Driver Lic 
+- Driver Lics 
+- Driver License 
+- Driver Licenses 
 - DriversLic 
 - driverslics 
 - 드라이버 라이선스 
 - 드라이버 라이선스 
 - Drivers Lic 
-- 드라이버 lics 
+- Drivers Lics 
 - Drivers License 
-- 드라이버 라이선스 
+- Drivers Licenses 
 - driver' Lic 
 - driver'lics 
 - driver' 라이선스 
 - driver'licenses 
-- 드라이버 ' Lic 
-- 드라이버의 lics 
-- 운전 면허 
-- 운전 면허증
+- Driver' Lic 
+- Driver' Lics 
+- Driver' License 
+- Driver' Licenses
 - Driver'sLic 
 - drivers (slics) 
 - driver'slicense 
 - driver'slicenses 
-- 드라이버의 Lic 
-- 운전 lics 
-- 운전 면허 
-- 운전 면허증 
-- identification number
- 
-- identification numbers
- 
-- identification #
- 
-- id 카드 
-- id 카드 
-- 식별 카드 
-- 식별 카드 
+- Driver's Lic 
+- Driver's Lics 
+- Driver's License 
+- Driver's Licenses 
+- identification number 
+- identification numbers 
+- identification # 
+- id card 
+- id cards 
+- identification card 
+- identification cards 
 - driverlic # 
 - driverlics # 
 - driverlicense # 
 - driverlicenses # 
 - Driver Lic# 
-- 
-Driver Lics#
- 
-- 드라이버 라이선스 # 
-- 드라이버 라이선스 # 
+- Driver Lics# 
+- Driver License# 
+- Driver Licenses# 
 - DriversLic # 
 - driverslics # 
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 수 
-- Drivers Lic # 
-- 드라이버 lics # 
-- Drivers License # 
-- Drivers 라이선스 # 
-- Driver'Lic#
- 
-- Driver'Lics#
- 
-- Driver'License#
- 
-- Driver'Licenses#
- 
-- Driver' Lic#
- 
-- Driver' Lics#
- 
-- Driver' License#
- 
-- Driver' Licenses#
- 
+- Drivers Lic# 
+- Drivers Lics# 
+- Drivers License# 
+- Drivers Licenses# 
+- driver' Lic # 
+- driver'lics # 
+- driver' 라이선스 # 
+- driver'licenses # 
+- Driver' Lic# 
+- Driver' Lics# 
+- Driver' License# 
+- Driver' Licenses# 
 - Driver'sLic # 
 - drivers (slics #) 
 - driver'slicense # 
 - driver'slicenses # 
-- Driver's Lic#
- 
-- Driver's Lics#
- 
-- Driver's License#
- 
-- Driver's Licenses#
- 
-- id 카드 # 
-- id cards#
- 
-- identification card#
- 
-- identification cards#
- 
+- Driver's Lic# 
+- Driver's Lics# 
+- Driver's License# 
+- Driver's Licenses# 
+- id card# 
+- id cards# 
+- identification card# 
+- identification cards# 
 
 
-#### <a name="keywordstatenamedriverslicensename"></a>Keyword_[state_name]_drivers_license_name
+#### <a name="keywordstatenamedriverslicensename"></a>Keyword_ [state_name] _drivers_license_name
 
-- 주 약어(예: "NY")
- 
-- 주 이름(예: "New York")
-    
+- 주 약어(예: "NY") 
+- 주 이름(예: "New York")    
    
 ## <a name="us-individual-taxpayer-identification-number-itin"></a>미국 ITIN(개인 납세자 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 "9"로 시작되고, "7" 또는 "8"을 4번째 숫자로 포함하고, 경우에 따라 공백이나 대시로 서식이 지정된 9자리 숫자
 
 ### <a name="pattern"></a>패턴
 
-서식 있음:
+서식이
 - "9"자리 숫자 
 - 2자리 숫자 
 - 공백 또는 대시 
@@ -6554,15 +5440,15 @@ Driver Lics#
 - 공백 또는 대시 
 - 4자리 숫자
 
-서식 없음:
+서식
 - "9"자리 숫자 
 - 2자리 숫자 
 - "7" 또는 "8" 
 - 5자리 숫자
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 ### <a name="definition"></a>정의
 
@@ -6609,42 +5495,30 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyworditin"></a>Keyword_itin
 
-- taxpayer
- 
-- tax id
- 
-- tax identification
- 
-- itin
- 
+- taxpayer 
+- tax id 
+- tax identification 
+- itin 
 - ssn 
-- tin
- 
-- 소셜 보안 
-- tax payer
- 
-- itins
- 
-- taxid
-
- 
-- individual taxpayer
- 
+- 언급 
+- social security 
+- tax payer 
+- itins 
+- taxid 
+- individual taxpayer 
 
 #### <a name="keyworditincollaborative"></a>Keyword_itin_collaborative
 
 - License 
 - DL 
-- DOB
- 
+- dob 
 - 생년월일 
-- 생일  
-- Date of Birth
- 
+- 생일 
+- Date of Birth 
    
 ## <a name="us-social-security-number-ssn"></a>미국 SSN(사회 보험 번호)
 
-### <a name="format"></a>형식
+### <a name="format"></a>형식일
 
 서식 있는 패턴 또는 서식 없는 패턴으로 표시될 수 있는 9자리 숫자
 
@@ -6659,9 +5533,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Func_randomized_formatted_ssn는 대시 또는 공백으로 서식이 지정 된 post-2011 ssns를 찾습니다 (ddd-dd-dddd 또는 ddd dd dddd).
 - Func_randomized_unformatted_ssn는 형식 없는 2011 ssns를 찾고, 서식이 없는 9 자리 숫자 (ddddddddd)를 찾습니다.
 
-### <a name="checksum"></a>체크섬
+### <a name="checksum"></a>제외
 
-없음
+아니요
 
 
 ### <a name="definition"></a>정의
@@ -6716,20 +5590,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordssn"></a>Keyword_ssn
 
-- Social Security
- 
-- Social Security#
- 
-- Soc Sec
- 
+- Social Security 
+- Social Security# 
+- Soc Sec 
 - SSN 
-- SSNS
- 
-- SSN#
- 
-- SS#
- 
-- SSID
- 
+- 있는 ssn 
+- SSN 
+- 대비 
+- 생길 
    
 

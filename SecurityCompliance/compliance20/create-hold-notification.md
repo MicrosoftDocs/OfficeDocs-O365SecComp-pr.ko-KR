@@ -14,22 +14,26 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c7fa8c7229ebb6b5304b80e15fba604c139076cd
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: acfa0c635b361426542e91a55c8d75c315bfb831
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296141"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455200"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보존 알림 만들기
 
 조직에서는 Advanced eDiscovery (Preview) custodian 통신을 사용 하 여 custodians와 통신 하는 방법에 대 한 워크플로를 관리할 수 있습니다. 합법적인 팀은 통신 도구를 통해 법적 보존 알림을 체계적으로 전송, 수집 및 추적할 수 있습니다. 또한 유연한 만들기 프로세스를 사용 하면 팀에서 custodians로 전송 되는 알림의 콘텐츠 및 보존 알림 워크플로를 사용자 지정할 수 있습니다. 
+
+![통신 페이지](../media/CommunicationPage.PNG)
 
 이 문서에서는 보류 알림 워크플로의 단계를 간략하게 설명 합니다.
 
 ## <a name="step-1-specify-communication-details"></a>1 단계: 통신 정보 지정
 
 첫 번째 단계는 법적 보존 공지와 기타 custodian 통신에 대 한 적절 한 세부 정보를 지정 하는 것입니다. 
+
+![이름 통신 페이지](../media/NameCommunication.PNG)
 
 1. 보안 & 준수 센터에서 **eDiscovery > Advanced eDiscovery (Preview)** 로 이동 하 여 조직의 사례 목록을 표시 합니다.
    
@@ -47,9 +51,11 @@ ms.locfileid: "30296141"
 
 다음으로 보류 공지의 내용을 만들고 추가할 수 있습니다. **통신 만들기** 마법사의 **포털 콘텐츠 정의** 페이지에서 보류 주의 내용을 지정 합니다. 이 콘텐츠는 발급, 다시 발급, 미리 알림 및 에스컬레이션 공지에 자동으로 추가 됩니다. 또한이 콘텐츠는 custodian의 준수 포털에 표시 됩니다. 
 
+![포털 콘텐츠 페이지](../media/PortalContent.PNG)
+
 포털 콘텐츠를 만들려면 다음을 수행 합니다.
 
-1. 다른 문서를 입력 하거나 잘라내어 paster 포털 콘텐츠의 텍스트 상자에 보존 알림이 표시 됩니다. 
+1. 포털 콘텐츠의 텍스트 상자에 입력 하거나 다른 문서에서 잘라내어 붙여 넣습니다. 
 
 2. 공지 사항에 merge 변수를 삽입 하 여 공지를 사용자 지정 하 고 Custodian 준수 포털을 공유 합니다.
 
@@ -119,7 +125,9 @@ ms.locfileid: "30296141"
 
 선택적으로 자동화 된 미리 알림 및 에스컬레이션 알림을 만들고 예약 하 여 응답 하지 않는 custodians를 포함 하도록 워크플로를 단순화할 수 있습니다.
 
-### <a name="reminders"></a>미리 알림
+![미리 알림/에스컬레이션 페이지](../media/ReminderEscalations.PNG)
+
+### <a name="reminders"></a>기한이
 
 보류 알림을 보낸 후에는 미리 알림 워크플로를 정의 하 여 응답 하지 않는 custodians를 추가할 수 있습니다. 
 
@@ -161,7 +169,9 @@ ms.locfileid: "30296141"
    
 ## <a name="step-5-assign-custodians"></a>5 단계: custodians 할당 
 
-알림의 콘텐츠를 완성 한 후 알림을 보낼 custodians를 선택 합니다. 
+알림의 콘텐츠를 완성 한 후에는 알림을 보낼 custodians을 선택 합니다. 
+
+![Custodians 선택 페이지](../media/SelectCustodians.PNG)
 
 custodians를 추가 하려면
 

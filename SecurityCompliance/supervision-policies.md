@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해
-ms.openlocfilehash: 7a173809f37262f73671fe6ee96485cda97c1eb3
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f4eae6aebde130bdacdc45b419becc32953bffd2
+ms.sourcegitcommit: 5d6be2b208dbe28d5d5da057c60cf97729799c1b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214118"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465475"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -106,7 +106,7 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 
 다음 표에는 각 조건에 대 한 자세한 설명이 나와 있습니다.
   
-|**조건**|**이 조건을 사용하는 방법**|
+|**조건**|**이 조건을 사용 하는 방법**|
 |:-----|:-----|
 |다음 도메인에서 메시지를 받음  <br><br> 다음 도메인에서 메시지를 받지 않음 | 받은 메시지에 특정 도메인을 포함 하거나 제외할 때 정책을 적용 하려면 각 도메인을 입력 하 고 여러 도메인을 쉼표로 구분 합니다. 입력 하는 각 도메인은 별도로 적용 됩니다 (이러한 도메인 중 하나만 메시지에 적용할 정책에 적용 해야 함). |
 |다음 도메인으로 메시지 전송  <br><br> 다음 도메인으로 메시지가 전송 되지 않음 | 보낸 메시지에 특정 도메인을 포함 하거나 제외할 때 정책을 적용 하려면 각 도메인을 입력 하 고 여러 도메인을 쉼표로 구분 합니다. 입력 하는 각 도메인은 별도로 적용 됩니다 (이러한 도메인 중 하나만 메시지에 적용할 정책에 적용 해야 함). |
@@ -114,7 +114,7 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 |메시지에 다음 단어 포함  <br><br> 메시지에 다음 단어 포함 안 함 | 특정 단어나 구가 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려면 각 단어나 구를 별도의 줄에 입력 합니다. 입력 하는 각 단어 줄이 따로 적용 됩니다 (메시지에 적용할 정책에 대해 이러한 줄 중 하나만 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
 |첨부 파일에 다음 단어 포함  <br><br> 첨부 파일에 다음 단어 포함 안 함 | 특정 단어나 구가 메시지 첨부 파일에 포함 되거나 제외 되는 경우 (예: word 문서) 정책을 적용 하려면 각 단어나 구를 별도의 줄에 입력 합니다. 입력 한 각 단어 줄이 따로 적용 됩니다 (첨부 파일에 적용할 정책에는 한 줄만 적용 되어야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
 |첨부 파일이 다음 파일 형식 중 하나입니다.  <br><br> 첨부 파일이 다음 파일 형식에 없음 | 특정 유형의 첨부 파일을 포함 하거나 제외 하는 통신을 감독할 파일 확장명 (예: .exe 또는 .pdf)을 입력 합니다. 여러 파일 확장명을 포함 하거나 제외 하려면 별도의 줄에 다음을 입력 합니다. 정책을 적용 하려면 하나의 첨부 파일 확장명만 일치 해야 합니다.|
-|다음보다 큰 메시지 크기  <br><br> 메시지 크기가 다음 보다 크지 않음 | 특정 크기에 따라 메시지를 검토 하려면 다음 조건을 사용 하 여 메시지를 검토 하기 전 까지의 최대 또는 최소 크기를 지정 합니다. 예를 들어 **메시지 크기** \> 를 지정 하는 경우 **1.0**보다 크면 1.01 mb이 하에 해당 하는 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
+|메시지 크기가 다음 보다 큼  <br><br> 메시지 크기가 다음 보다 크지 않음 | 특정 크기에 따라 메시지를 검토 하려면 다음 조건을 사용 하 여 메시지를 검토 하기 전 까지의 최대 또는 최소 크기를 지정 합니다. 예를 들어 **메시지 크기** \> 를 지정 하는 경우 **1.0**보다 크면 1.01 mb이 하에 해당 하는 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
 |첨부 파일이 다음 보다 큼  <br><br> 첨부 파일이 다음 보다 크지 않음 | 첨부 파일의 크기에 따라 메시지를 검토 하려면 첨부 파일의 최대 또는 최소 크기를 해당 메시지와 해당 첨부 파일을 검토할 수 있을 때까지 지정 합니다. 예를 들어 **첨부 파일** \> 을 지정 하는 경우 **2.0**보다 큰 경우 첨부 파일이 2.01 mb이 하 인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
    
 ##### <a name="matching-words-and-phrases-to-emails-or-attachments"></a>단어 및 구를 전자 메일 또는 첨부 파일에 일치
@@ -260,7 +260,7 @@ Outlook을 사용 하 여 다음과 같은 작업을 수행할 수 있습니다.
 Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"} | fl CreationDate,Operations,UserIds,AuditData 
 ```
 
-[SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.
+[SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 

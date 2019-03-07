@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 730e1fe40756bcb38f3b071137828072f4e2dcb5
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: fe208f4a9f7927d8481d5c6ec8b901baafb98626
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296721"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455300"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-preview-case"></a>고급 eDiscovery (미리 보기) 사례에 custodians 추가
 
@@ -69,15 +69,13 @@ custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 ![추가 데이터 원본 매핑](../media/AddCustodianStep3.PNG)
 
 사서함, 사이트 또는 팀을 특정 custodian에 매핑하려면 다음을 수행 합니다.
+1. **추가** 를 선택 하 여 사서함, 사이트 및 팀과 같은 콘텐츠 위치를 특정 custodian에 할당 합니다. 
 
-1. **업데이트** 를 선택 하 여 사서함, 사이트 및 팀과 같은 콘텐츠 위치를 특정 custodian에 할당 합니다. 
-
-2. 플라이 아웃에서 다음을 지정 합니다.
-   
-    -  **Exchange 사서함** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀** 선택을 클릭 합니다. 선택한 custodian에 할당할 사서함을 지정 하려면 검색 상자를 사용 하 여 사용자 사서함 및 메일 그룹을 찾습니다. 또한 Office 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 할당할 수 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
+2. 플라이 아웃에서 다음을 지정 합니다. ![데이터 원본 매핑](../media/AddCustodianStep4.PNG)
+  -  **Exchange 사서함** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀** 선택을 클릭 합니다. 선택한 custodian에 할당할 사서함을 지정 하려면 검색 상자를 사용 하 여 사용자 사서함 및 메일 그룹을 찾습니다. 또한 Office 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 할당할 수 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
 
         > [!NOTE]
-        > 사용자, 그룹 또는 팀 선택을 클릭 하 여 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이는 성능 향상을 위해 설계 된 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다.
+        > 사용자, 그룹 또는 팀 선택을 클릭 하 여 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다.
      
      - **SharePoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 선택한 custodian에 할당할 추가 SharePoint 및 비즈니스용 OneDrive 사이트를 지정 합니다. 또한 Office 365 그룹 또는 Microsoft 팀에 대 한 SharePoint 사이트의 URL을 추가할 수 있습니다. 할당 하려는 각 사이트의 URL을 입력 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
      - **microsoft 팀** - **팀 선택을** 클릭 한 다음 **팀 선택을** 다시 클릭 하 여 custodian가 오늘 구성원 인 Microsoft 팀 그룹의 목록을 확인 합니다. custodian에 추가할 팀을 선택 합니다. 선택한 후에는 시스템에서 자동으로 &를 확인 하 여 해당 Microsoft 팀과 연결 된 SharePoint 사이트 및 그룹 사서함을 선택 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
@@ -89,6 +87,8 @@ custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 
 ## <a name="optional-step-4-place-custodians-on-hold"></a>반드시 4 단계: custodians를 보류에 배치
 
+![위치 유지](../media/AddCustodianStep5.PNG)
+
 사례에 추가 하려는 custodians 및 데이터 원본을 완성 한 후에는 custodians의 일부 또는 전체를 보류에 추가할 수 있습니다. custodian를 보류 상태로 설정 하면 custodian을 해제할 때까지 해당 사용자에 게 매핑된 콘텐츠가 유지 됩니다. 경우에 따라 custodians를 보류 하지 않고 대/소문자에 추가할 수 있습니다. 
 
 선택한 custodians 및 데이터 원본을 보류 상태로 설정 하려면 다음을 수행 합니다.
@@ -99,4 +99,4 @@ custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 
 3. **편집** 을 클릭 하 여 선택한 모든 custodian 데이터 원본을 확인 합니다.
 
-    ![위치 유지](../media/AddCustodianStep4.PNG)
+   

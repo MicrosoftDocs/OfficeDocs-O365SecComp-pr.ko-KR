@@ -14,16 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 95a1bcbbc279ad4e476fc479e701b0f8a921c83b
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 6a21240f71c64f244ee42c3d3a2ed9d75381edaa
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295681"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454940"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-preview-case"></a>Advanced eDiscovery (미리 보기)의 경우 custodians 관리
 
 Custodians 탭에는 사례에 있는 모든 Custodians의 정렬 가능한 목록이 포함 되어 있습니다. custodians를 사례에 추가 하면 각 custodian에 대 한 세부 정보가 Azure Active Directory에서 자동으로 수집 됩니다.
+
+![Custodians 관리](../media/CustodianDetails.PNG)
 
 ## <a name="viewing-custodian-details"></a>custodian 세부 정보 보기
 
@@ -56,7 +58,7 @@ custodian 세부 정보가 포함 된 플라이 아웃 페이지는 사례에 cu
   - **인덱싱 마지막 업데이트 시간**: 딥 Indexing 작업이 마지막으로 트리거된 날짜에 대 한 datestamp를 나타냅니다.
   - **데이터 원본**: custodian으로 선택 된 사서함, 사이트 및 팀의 수를 표시 합니다.
 
-## <a name="updating-a-custodian"></a>custodian 업데이트
+## <a name="editing-a-custodian"></a>custodian 편집
 
 사례가 진행 됨에 따라 특정 custodian & 관련 된 추가 데이터 원본이 있을 수 있습니다. 다른 시나리오에서는 검토 되었으며 관련성이 없는 것으로 간주 되는 특정 데이터 원본을 제거할 수 있습니다.
 
@@ -67,6 +69,8 @@ custodian 및 선택한 데이터 원본을 업데이트 하려면:
 2. 경우에는 **Custodians** 탭을 클릭 합니다.
   
 3. 목록에서 custodian를 선택 하 고 **원본 편집**을 클릭 합니다.
+
+    ![데이터 원본 편집](../media/EditCustodianDataSource.PNG)
   
 4. **데이터 원본 선택을**클릭 하 여 Exchange 및 OneDrive 위치에 대 한 선택 항목을 업데이트 합니다.
   
@@ -89,7 +93,7 @@ custodian가 사례에 추가 되 면 데이터는 자동으로 "deep 인덱싱�
 
 2. 경우에는 **Custodians 탭**을 클릭 합니다. 
 
-3. 다시 인덱싱되는 데 필요한 custodian를 선택 하 고 플라이 아웃 페이지에서 **인덱스 업데이트** 를 클릭 합니다.
+3. 다시 색인화 해야 하는 custodian을 선택 하 고 ![인덱스 업데이트](../media/UpdateIndex.PNG) 플라이 아웃 페이지
 
 4. **Custodians** 탭의 **인덱싱 작업 상태** 열에 있는 링크를 클릭 하 여 custodian 인덱스의 상태를 확인 합니다.  
 
@@ -109,7 +113,7 @@ custodian를 해제 하려면 다음을 수행 합니다.
 
 1.  **Custodians** 탭으로 이동 합니다.
 
-2.  목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **custodians 릴리스** 를 클릭 합니다.
+2.  목록에서 custodian를 선택 하 고 ![릴리스 Custodian](../media/ReleaseCustodian.PNG) 플라이 아웃 페이지
 
     **Custodians** 탭에 있는 custodian의 상태가 " **해제** "로 설정 되 고 플라이 아웃 페이지의 **보류 상태가** **비활성**으로 변경 됩니다. 
 

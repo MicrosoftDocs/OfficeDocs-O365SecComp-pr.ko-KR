@@ -5,16 +5,16 @@ author: chrisda
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 1312e7362cd7765a3fbf3df9410e2e777682ece0
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 1e18bcb381a6b557d3141c0c17b8433cfcd00049
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215588"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455150"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 & 준수 센터의 메일 흐름 정보
 

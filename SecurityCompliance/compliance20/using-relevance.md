@@ -14,16 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f08fe644bfd4eaae27e1ef8718c54166417e53ae
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 6e94adc6e6b7fb7d8757b161ffdf01066cadac7a
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295831"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454950"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-advanced-ediscovery-preview"></a>관련성 모듈을 사용 하 여 Advanced eDiscovery에서 데이터 분석 (미리 보기)
 
-고급 eDiscovery (미리 보기)에서 관련성 모듈에는 사례와 관련 된 파일의 관련성 교육과 검토가 포함 됩니다. 관련성 워크플로는 다음과 같이 표시 됩니다.
+고급 eDiscovery (미리 보기)에서 관련성 모듈에는 사례와 관련 된 파일의 관련성 교육과 검토가 포함 됩니다. 관련성 워크플로를 사용 하려면 작업 집합 내에서 작업 집합 관리로 이동 하 여 관련성 표시를 클릭 합니다. 워크플로를 시작 하려면 몇 가지 단계를 완료 해야 합니다.
+- 프로세스: 작업 집합에 추가 된 각 부하 집합은 여기에 "컨테이너"로 표시 됩니다. 이러한 문서를 관련성이 있는 모듈에 추가 하려면 먼저 처리 해야 합니다. 또한 특정 문제에 대해 미리 태그가 지정 되거나 시드로 표시할 수 있습니다.
+- 관련성에 추가: 관련성 \> 부하에서 처리 된 문서를 교육에 사용할 수 있도록 해당 항목을 추가할 수도 있습니다.
+
+관련성 워크플로는 다음과 같이 표시 됩니다.
   
 ![관련성 워크플로](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
