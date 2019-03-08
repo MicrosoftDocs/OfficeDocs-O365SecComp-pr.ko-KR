@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: 6c41069a268991553f03763ae80dea032d5db202
-ms.sourcegitcommit: 03054baf50c1dd5cd9ca6a9bd5d056f3db98f964
+ms.openlocfilehash: 1a2a104405cdbbbbbeba0bb62e302ae59638be07
+ms.sourcegitcommit: 9f38ba72eba0b656e507860ca228726e4199f7ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30354690"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30475718"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
 
@@ -27,7 +27,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
 
 - 1 단계에서 스크립트를 실행 하려면 보안 &amp; 및 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하세요.
     
-    또한 Exchange Online 조직에서 Mail Recipients 역할을 할당 받아야 합니다. 이는 1 단계의 스크립트에 포함 된 **get-mailboxfolderstatistics** cmdlet을 실행 하는 데 필요 합니다. 기본적으로 메일 받는 사람 역할은 Exchange Online의 조직 관리 및 받는 사람 관리 역할 그룹에 할당 됩니다. Exchange Online에서 사용 권한을 할당 하는 방법에 대 한 자세한 내용은 [Manage role group members](https://go.microsoft.com/fwlink/p/?linkid=692102)를 참조 하십시오. 사용자 지정 역할 그룹을 만들고 메일 받는 사람 역할을 할당 한 다음 1 단계에서 스크립트를 실행 해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](https://go.microsoft.com/fwlink/p/?linkid=730688)를 참조 하세요.
+    또한 Exchange Online 조직에서 Mail Recipients 역할을 할당 받아야 합니다. 이는 1 단계의 스크립트에 포함 된 **get-mailboxfolderstatistics** cmdlet을 실행 하는 데 필요 합니다. 기본적으로 메일 받는 사람 역할은 Exchange Online의 조직 관리 및 받는 사람 관리 역할 그룹에 할당 됩니다. Exchange Online에서 사용 권한을 할당 하는 방법에 대 한 자세한 내용은 [Manage role group members](https://go.microsoft.com/fwlink/p/?linkid=692102)를 참조 하십시오. 사용자 지정 역할 그룹을 만들고 메일 받는 사람 역할을 할당 한 다음 1 단계에서 스크립트를 실행 해야 하는 구성원을 추가할 수도 있습니다. 자세한 내용은 [역할 그룹 관리](https://go.microsoft.com/fwlink/p/?linkid=730688) 항목을 참조하십시오.
     
 - 1 단계에서 스크립트를 실행할 때마다 새 원격 PowerShell 세션이 만들어집니다. 따라서 사용할 수 있는 모든 원격 PowerShell 세션을 사용할 수 있습니다. 이러한 상황이 발생 하지 않도록 하려면 다음 명령을 실행 하 여 활성 원격 PowerShell 세션의 연결을 끊으십시오.
     
@@ -45,7 +45,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
 
 이 첫 단계에서 실행 하는 스크립트는 사서함 폴더 또는 SharePoint 또는 비즈니스용 OneDrive 폴더 목록과 각 폴더의 해당 하는 폴더 ID 또는 경로를 반환 합니다. 이 스크립트를 실행 하면 다음 정보를 입력 하 라는 메시지가 표시 됩니다.
   
-- **전자 메일 주소 또는 사이트 URL** Exchange 사서함 폴더 및 폴더 id 목록을 반환할 custodian의 전자 메일 주소를 입력 합니다. 또는 SharePoint 사이트의 URL 또는 비즈니스용 OneDrive 사이트를 입력 하 여 지정 된 사이트에 대 한 경로 목록을 반환 합니다. 몇 가지 예는 다음과 같습니다. 
+- **전자 메일 주소 또는 사이트 URL** Exchange 사서함 폴더 및 폴더 id 목록을 반환할 custodian의 전자 메일 주소를 입력 합니다. 또는 SharePoint 사이트의 URL 또는 비즈니스용 OneDrive 사이트를 입력 하 여 지정 된 사이트에 대 한 경로 목록을 반환 합니다. 그 예는 다음과 같습니다. 
     
   - **Exchange** -stacig@contoso.onmicrosoft.com 
     
@@ -188,6 +188,9 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
 ### <a name="script-output-for-mailbox-folders"></a>사서함 폴더에 대 한 스크립트 출력
 
 사서함 폴더 id를 가져오는 경우 스크립트는 원격 PowerShell을 사용 하 여 Exchange Online에 연결 하 고 **MailboxFolderStatisics** cmdlet을 실행 한 다음 지정 된 사서함의 폴더 목록을 표시 합니다. 사서함의 모든 폴더에 대해 스크립트는 **FolderPath** 열에 폴더 이름을 표시 하 고 **folderquery** 열에는 폴더 ID를 나타냅니다. 또한이 스크립트는 사서함 속성의 이름인 **folderId** 접두사를 폴더 ID에 추가 합니다. **folderid** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리를 `folderid:<folderid>` 사용 하 여 해당 폴더를 검색 합니다. 
+
+> [!IMPORTANT]
+> 이 문서의 스크립트에는 **get-mailboxfolderstatistics** 에서 반환 하는 64 문자 폴더 Id 값을 검색을 위해 인덱싱되는 동일한 48 문자로 변환 하는 인코딩 논리가 포함 되어 있습니다. 이 문서의 스크립트를 실행 하는 대신 PowerShell에서 **get-mailboxfolderstatistics** cmdlet을 실행 하 여 폴더 id를 가져오는 경우 해당 폴더 id 값을 사용 하는 검색 쿼리가 실패 합니다. 콘텐츠 검색에 사용할 수 있는 올바르게 포맷 된 폴더 id를 가져오려면 스크립트를 실행 해야 합니다.
   
 다음은 사서함 폴더에 대 한 스크립트에서 반환 하는 출력의 예입니다.
   
