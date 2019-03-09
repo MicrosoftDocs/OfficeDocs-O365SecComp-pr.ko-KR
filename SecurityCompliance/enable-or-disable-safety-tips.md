@@ -1,24 +1,9 @@
 ---
-title: Office 365에서 보안 팁 사용 여부 설정
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.date: 12/05/2018
-ms.audience: Admin
-ms.topic: article
-ms.service: O365-seccomp
-localization_priority: Normal
-search.appverid:
-- MET150
-ms.assetid: f09668bd-fe1a-4c01-89e3-e88c370e66c7
-description: 전자 메일 메시지에서 보안 팁을 사용 하거나 사용 하지 않도록 설정 하는 방법을 Office 365 및 EOP 관리자에 게 알립니다.
-ms.openlocfilehash: f4e85b45c1483111d9edeb39d00d3f2cbafbf3ab
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215558"
+제목: "Office 365에서 보안 팁을 사용 하거나 사용 하지 않도록 설정 합니다." krowley author: kccross: laurawi ms. 날짜: 12/05/2018. 항목: 문서 ms. 서비스: o365-관리 localization_priority: 일반 검색. appverid: 
+- MET150 assetid: f09668bd-fe1a-4c01-89e3-e88c370e66c7. 컬렉션:
+    - M365-보안 준수 설명: "Office 365 및 EOP 관리자에 게 전자 메일 메시지에서 보안 팁을 사용 하 고 사용 하지 않도록 설정 하는 방법을 알려줍니다."
 ---
+
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Office 365에서 보안 팁 사용 여부 설정
 
 EOP (Exchange Online Protection)는 배달 되는 전자 메일 메시지에 보안 팁을 추가 하거나 스탬프 처리 합니다. 이러한 보안 팁을 통해 받는 사람에 게는 메시지가 안전한 지 확인 하 고, 메시지가 Office 365에서 스팸으로 표시 되는 경우, 메시지에 피싱 사기와 같은 의심 스러운 항목이 포함 되어 있거나 외부 이미지에 있는 경우 메시지를 빠르게 확인할 수 있습니다. 차단 되었습니다. Office 365 및 EOP 독립 실행형 관리자는 스팸 정책 설정을 편집 하 여 Outlook 및 기타 데스크톱 전자 메일 클라이언트에서 보안 팁이 전자 메일에 표시 되지 않도록 설정할 수 있습니다. 
@@ -60,14 +45,14 @@ Office 365에서는 조직에 기본적으로 보안 팁을 사용할 수 있으
     
 9. 보안 팁을 사용 하도록 설정 하려면 **안전 팁**에서 설정 **** 확인란을 선택 합니다. 보안 팁을 사용 하지 않으려면 설정 **** 확인란의 선택을 취소 합니다. 
     
-10. **Save(저장)** 를 선택합니다.
+10. **저장**을 선택합니다.
     
 ## <a name="to-enable-or-disable-safety-tips-by-using-powershell"></a>PowerShell을 사용 하 여 보안 팁을 사용 하거나 사용 하지 않도록 설정 하려면
 <a name="pshellsafetytip"> </a>
 
 관리자는 Exchange Online PowerShell을 사용 하 여 보안 팁을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. get-hostedcontentfilterpolicy cmdlet을 사용 하면 스팸 필터 정책에서 보안 팁을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
   
-1. Exchange Online PowerShell에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](http://go.microsoft.com/fwlink/p/?LinkId=396554)참조 하세요.
+1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](http://go.microsoft.com/fwlink/p/?LinkId=396554)참조 하세요.
     
 2. get-hostedcontentfilterpolicy cmdlet을 실행 하 여 보안 팁을 사용 하거나 사용 하지 않도록 설정 합니다.
     

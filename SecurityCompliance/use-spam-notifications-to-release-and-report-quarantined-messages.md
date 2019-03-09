@@ -1,7 +1,7 @@
 ---
 title: Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 5/12/2018
 ms.audience: Admin
@@ -13,13 +13,15 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
+ms.collection:
+- M365-security-compliance
 description: 관리자가 사용자에 게 알림을 사용 하도록 설정 하는 경우 사서함에 전송 된 메시지를 스팸, 대량 또는 피싱 메시지로 식별 하는 알림 메시지가 표시 됩니다. 알림을 받은 후에는 메시지를 해제 하거나 보고할 수 있습니다.
-ms.openlocfilehash: eb51d8f73ff00781b74cfba4e580668710ce7a76
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 7f68b70298fca7d8ed5f5e5b8dc9c727c3a6a6c1
+ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216398"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30492727"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a>Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
 
@@ -42,11 +44,11 @@ ms.locfileid: "30216398"
   
 - **받은 편지 함으로 릴리스** 메시지를 볼 수 있는 받은 편지 함으로 보내려면이 방법을 선택 합니다. 
     
-- **정크 메일 아님으로 보고** 분석을 위해 Microsoft에 메시지 복사본을 보내려면이 방법을 선택 합니다. 스팸 팀은 메시지를 평가 및 분석 하 고 분석 결과에 따라 메시지 통과를 허용 하도록 스팸 방지 필터 규칙을 조정 합니다. 
+- **정크 메일 아님으로 보고** 분석을 위해 Microsoft에 메시지 복사본을 보내려면이 방법을 선택 합니다. 스팸 팀은 메시지를 평가 및 분석하고 분석 결과에 따라 메시지 통과를 허용하도록 스팸 방지 필터 규칙을 조정합니다. 
     
 다음에 대해 숙지 합니다.
   
-- 메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 사용자 격리 된 메시지에 포함 되지 않습니다. 스팸 격리 된 메시지만 나열 됩니다.
+- 메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 사용자 격리 된 메시지에 포함 되지 않습니다. 스팸 격리된 메시지만 나열됩니다.
     
 - 메시지를 릴리스하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.
     

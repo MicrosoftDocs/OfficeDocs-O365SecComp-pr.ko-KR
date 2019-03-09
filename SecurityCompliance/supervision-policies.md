@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해
-ms.openlocfilehash: f4eae6aebde130bdacdc45b419becc32953bffd2
-ms.sourcegitcommit: 5d6be2b208dbe28d5d5da057c60cf97729799c1b
+ms.openlocfilehash: 99957accb6a1f52f0e0a895fc96ef2b6ac0ac757
+ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465475"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30492857"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -57,7 +57,8 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 감독 사용을 시작 하기 전에 통신을 검토할 사용자를 결정 해야 합니다. 정책에서는 사용자 전자 메일 주소를 사용 하 여 감독할에 대 한 개인 이나 사용자 그룹을 식별 합니다. 이러한 그룹의 몇 가지 예로는 Office 365 그룹, Exchange 기반 메일 그룹 및 Microsoft 팀 채널이 있습니다. 감독 그룹 또는 그룹 목록에 포함 된 특정 사용자나 그룹을 감독 으로부터 제외할 수도 있습니다.
 
 > [!IMPORTANT]
-> 감독 정책을 통해 모니터링 되는 모든 사용자에 게는 고급 준수 추가 기능이 포함 된 office 365 Enterprise E3 라이선스가 있거나 office 365 enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise e5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+> 감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 office 365 enterprise E3 라이선스 또는 office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
+기존 Enterprise e5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
 
 ### <a name="reviewers"></a>가
 
@@ -153,9 +154,9 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 - 선택한 정책에 대 한 검토자 및 검토 팀 목록 보기
 - 정책에 대 한 감독 아래 콘텐츠가 있는 통신 플랫폼을 확인 합니다.
 
-#### <a name="supervise-tab"></a>감독할 탭
+#### <a name="review-tab"></a>검토 탭
 
-**감독할** 탭에서는 검토자가 작업을 수행 하 고 선택한 정책으로 식별 되는 항목을 확인할 수 있습니다. 수행할 수 있는 작업은 다음과 같습니다.
+**검토** 탭-검토자가 작업을 수행 하 고 선택한 정책으로 식별 되는 항목을 확인할 수 있습니다. 수행할 수 있는 작업은 다음과 같습니다.
 
 - 보류 중, 준수, 비호환 및 불확실 한 항목으로 필터링
 - 단일 항목에 규격, 비규격 또는 불확실 한 태그로 태그를 사용 합니다. 항목을 포함 하는 설명을 기록 하 여 수행 되는 태그 지정 작업을 명확히 확인할 수도 있습니다.

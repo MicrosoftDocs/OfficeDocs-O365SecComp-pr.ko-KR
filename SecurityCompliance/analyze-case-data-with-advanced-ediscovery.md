@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 사례 데이터 분석
+title: Office 365 Advanced eDiscovery를 사용 하 여 사례 데이터 분석
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,14 +13,15 @@ search.appverid:
 - MOE150
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Office 365 Advanced eDiscovery에서 매개 변수를 설정 하 고, 옵션을 실행 하 고, 결과를 볼 수 있는 분석 프로세스의 개요를 확인 하세요. '
-ms.openlocfilehash: a3e9bc84c09b40b9751dd985faaf0931c77fa37b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.collection: M365-security-compliance
+ms.openlocfilehash: 0329e64bc507c0ddc3158ac6ae189730b506bb49
+ms.sourcegitcommit: 07a4f9a8888756e05cd67ca24f6121b2a4e9f464
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217468"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "30512643"
 ---
-# <a name="analyze-case-data-with-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 데이터 분석
+# <a name="analyze-case-data-with-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery를 사용 하 여 사례 데이터 분석
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

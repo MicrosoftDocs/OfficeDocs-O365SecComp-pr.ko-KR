@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리 구성에 대 한 자세한 내용을 알아보세요.
-ms.openlocfilehash: af8058ff852bbf290084e42d1f4c72d6fcee0e27
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 3d186998006dd3cc59877b1571f50314af5bbce8
+ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221088"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30492827"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Office 365에서 권한이 부여 된 액세스 관리 구성
 
@@ -120,7 +120,7 @@ Office 365 조 직에 대해 최대 30 개의 권한이 부여 된 액세스 정
     
     **정책 유형**: 작업, 역할 또는 역할 그룹
 
-    **정책 범위**: Exchange 또는 Office 365
+    **정책 범위**: Exchange
 
     **정책 이름**: 사용 가능한 정책에서 선택
 
