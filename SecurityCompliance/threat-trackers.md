@@ -1,5 +1,5 @@
 ---
-title: 위협 추적기-새롭고 중요한 기능
+title: 위협 추적기-신규 및 주목할 만한
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -14,19 +14,19 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 072d64a056d88000ad615a896328b0144aef3d0f
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+ms.openlocfilehash: 4cf3e13b7379e26deec90bbae2c4f9cf42fa91b7
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30241990"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524052"
 ---
-# <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-새롭고 중요한 기능
+# <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
-[Office 365 위협 인텔리전스](office-365-ti.md) 를 통해 조직의 보안 팀이 cybersecurity 위협에 대 한 조치를 검색 하 고 작업을 수행할 수 있습니다. 2018 년 3 월 말부터 다음 몇 주 동안 Office 365 위협 인텔리전스에는 중요 한 추적기를 비롯 한 새로운 위협 추적기 기능이 포함 됩니다. 이 문서를 읽으면 이러한 새로운 기능과 다음 단계의 개요를 확인할 수 있습니다. 
+[Office 365 위협 조사 및 응답](office-365-ti.md) 기능을 통해 조직의 보안 팀이 cybersecurity 위협에 대 한 조치를 검색 하 고 작업을 수행할 수 있습니다. Office 365 위협 조사 및 응답 기능은 중요 한 추적기를 비롯 한 위협 추적 기능을 포함 합니다. 이 문서를 읽으면 이러한 새로운 기능과 다음 단계의 개요를 확인할 수 있습니다. 
 
 > [!IMPORTANT]
-> 2019 년 2 월에 시작 해 서 향후 몇 개월 동안 롤아웃 되는 office 365 위협 인텔리전스는 추가 위협 방지 기능을 사용 하 여 office 365 Advanced threat protection 계획 2가 됩니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능을 사용 하 여 office 365 Advanced Threat protection 계획 2에 포함 되어 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 ## <a name="what-are-threat-trackers"></a>위협 추적기 란?
 
@@ -38,9 +38,9 @@ ms.locfileid: "30241990"
   
 ![탐색기의 캠페인 정보 예제](media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
-추적기는 [Office 365 위협 인텔리전스](office-365-ti.md)를 통해 얻을 수 있는 몇 가지 유용한 기능 중 일부에 불과합니다. 새 위협 추적기를 사용할 수 있는 경우 [중요 한 추적기](threat-trackers.md#notey), [추세 분석](threat-trackers.md#trending), [추적 된 쿼리](threat-trackers.md#trackedq)및 [저장 쿼리](threat-trackers.md#savedq)를 포함 합니다.
+추적기는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에서 제공 하는 여러 가지 유용한 기능 중 일부에 불과합니다. 위협 추적기에 [는 중요 한 추적기](threat-trackers.md#notey), [추세 분석](threat-trackers.md#trending), [추적 된 쿼리](threat-trackers.md#trackedq)및 저장 되는 [쿼리가](threat-trackers.md#savedq)포함 됩니다.
   
-조직에서 사용할 수 있는 경우 위협 추적기를 보고 사용 하려면 &amp; 보안 및 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 **위협 관리** \> **위협 추적기**를 선택 합니다.
+조직에 대 한 위협 추적기를 보고 사용 하려면 &amp; 보안 및 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 **위협 관리** \> **위협 추적기**를 선택 합니다.
   
 > [!NOTE]
 > 위협 추적기를 사용 하려면 Office 365 전역 관리자, 보안 관리자 또는 보안 판독기 여야 합니다. [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. 
@@ -65,7 +65,7 @@ ms.locfileid: "30241990"
   
 ![선택한 1 개의 추적 된 쿼리 예제](media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
   
-### <a name="saved-queries"></a>저장 된 쿼리
+### <a name="saved-queries"></a>저장된 쿼리
 
 저장 된 쿼리도 추적기 섹션에서 찾을 수 있습니다. 저장 된 쿼리를 사용 하 여 매번 검색을 다시 만들지 않고도 신속 하 고 반복적으로 다시 표시할 일반 탐색기 검색을 저장할 수 있습니다.
   
@@ -77,9 +77,9 @@ ms.locfileid: "30241990"
 
 전자 메일, 콘텐츠 또는 Office 활동 (출시 예정)에 관계 없이 Explorer 및 추적기는 보안 위험과 위협을 조사 하 고 추적 하는 데 도움이 됩니다. 또한 추적기는 클라우드로 이동할 때 비즈니스를 보다 안전 하 게 보호할 수 있도록 하 여 Office 365 사용자를 보호 하기 위한 정보를 제공 합니다.
   
-위협 추적기를 사용할 수 있는 경우에는 office 365 개요의 오른쪽 아래 모서리에 있는 **사용자 의견** 단추를 클릭 하 여이 또는 기타 Office 365 보안 기능에 대해 언제 든 지 의견을 제공할 수 있음을 유의 하세요. [ 보안 &amp; 및 준수 센터](https://support.office.com/article/a5f2fd18-b029-4257-b5a8-ae83e7768c85)
+또한 [office 365 보안 &amp; 및 준수 센터 개요](https://support.office.com/article/a5f2fd18-b029-4257-b5a8-ae83e7768c85)의 오른쪽 아래 모서리에 있는 **사용자 의견** 단추를 클릭 하 여이 또는 기타 Office 365 보안 기능에 대 한 의견을 항상 제공할 수 있습니다.
   
-![Office 365 보안 및 준수 센터](media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Office 365 Security &amp; Compliance Center](media/86c330db-8132-4150-8475-220258fe04fb.png)
   
 ## <a name="trackers-and-office-365-advanced-threat-protection"></a>추적기 및 Office 365 Advanced Threat Protection
 
@@ -93,7 +93,7 @@ inaugural 주목할 않은 위협을 통해 [Office 365 ATP 안전한 첨부 파
   
 ## <a name="next-steps"></a>다음 단계
 
-- 조직에 office 365 위협 인텔리전스가 아직 없는 경우 [office 365 위협 인텔리전스를 어떻게 얻을 수 있나요?](get-started-with-ti.md)를 참조 하세요.
+- 조직에 이러한 Office 365 위협 조사 및 응답 기능이 아직 없는 경우 [office 365 위협 조사 및 응답 기능을 확인 하는 방법은 무엇입니까?](get-started-with-ti.md)를 참조 하세요.
     
 - 보안 팀에서 올바른 역할과 사용 권한을 할당 했는지 확인 합니다. Office 365 전역 관리자 이거나 보안 및 &amp; 준수 센터에서 할당 된 보안 관리자 또는 검색 및 제거 역할을 갖고 있어야 합니다. [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
     

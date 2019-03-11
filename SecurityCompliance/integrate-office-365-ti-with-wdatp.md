@@ -1,5 +1,5 @@
 ---
-title: Office 365 위협 인텔리전스와 Windows Defender Advanced Threat Protection 통합
+title: Windows Defender advanced threat protection을 사용 하 여 Office 365 advanced threat protection 통합
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -15,16 +15,16 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Windows Defender advanced threat protection을 사용 하 여 Office 365 advanced threat protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: 892d04152d6029c48a52d37c6235d45a8ba67b81
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: bbbb42c9d0f37ab33323b2fa1dd071bd5ee16829
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30222817"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30523982"
 ---
-# <a name="integrate-office-365-threat-intelligence-with-windows-defender-advanced-threat-protection"></a>Office 365 위협 인텔리전스와 Windows Defender Advanced Threat Protection 통합
+# <a name="integrate-office-365-advanced-threat-protection-with-windows-defender-advanced-threat-protection"></a>Windows Defender advanced threat protection을 사용 하 여 Office 365 advanced threat protection 통합
 
-조직의 보안 팀에 속한 경우에는 Windows Defender advanced threat protection과 함께 Office 365 advanced threat protection 및 위협 인텔리전스 기능을 통합할 수 있습니다. 이를 통해 Office 365의 위협을 조사할 때 사용자의 컴퓨터가 위험에 처 했는지 여부를 빠르게 파악할 수 있습니다. 예를 들어 통합이 설정 되 면 검색 된 전자 메일 메시지를 받는 사람이 사용 하는 컴퓨터 목록과 해당 컴퓨터가 Windows Defender Advanced Threat Protection에 가지는 최근 알림을 볼 수 있습니다.
+조직의 보안 팀에 속한 경우에는 Windows Defender advanced threat protection과 Office 365 Advanced threat protection 및 관련 조사 및 응답 기능을 통합할 수 있습니다. 이를 통해 Office 365의 위협을 조사할 때 사용자의 컴퓨터가 위험에 처 했는지 여부를 빠르게 파악할 수 있습니다. 예를 들어 통합이 설정 되 면 검색 된 전자 메일 메시지를 받는 사람이 사용 하는 컴퓨터 목록과 해당 컴퓨터가 Windows Defender Advanced Threat Protection에 가지는 최근 알림을 볼 수 있습니다.
   
 다음 이미지에는 Windows Defender Advanced Threat Protection 통합을 사용 하는 경우 표시 되는 **장치** 탭이 나와 있습니다. 
   
@@ -34,15 +34,15 @@ ms.locfileid: "30222817"
   
 ## <a name="requirements"></a>요구 사항
 
-- 조직에 Office 365 위협 인텔리전스 및 Windows Defender ATP가 있어야 합니다.
+- 조직에 office 365 Advanced Threat Protection 계획 2 (또는 Office 365 E5) 및 Windows Defender ATP가 있어야 합니다.
     
 - 보안 및 [ &amp; 준수 센터](https://protection.office.com)에서 Office 365 전역 관리자 이거나 보안 관리자 역할 (예: 보안 관리자)을 할당 받아야 합니다. ( [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)참조)
     
-- Office 365 위협 인텔리전스 및 Windows Defender Advanced Threat Protection 포털에 모두 액세스할 수 있어야 합니다.
+- 보안 & 준수 센터 및 Windows Defender Advanced Threat Protection 포털에서 Office 365 위협 탐색기에 모두 액세스할 수 있어야 합니다.
     
-## <a name="to-integrate-office-365-threat-intelligence-with-windows-defender-atp"></a>Windows Defender ATP에 Office 365 위협 인텔리전스를 통합 하려면
+## <a name="to-integrate-office-365-advanced-threat-protection-with-windows-defender-atp"></a>Windows Defender ATP를 사용 하 여 Office 365 Advanced Threat Protection을 통합 하려면
 
-office 365과 windows defender advanced threat protection을 함께 사용 하는 것은 office 365 Security & 준수 센터와 Windows defender advanced threat protection 포털을 모두 통해 설정 됩니다.
+windows defender advanced threat protection을 통한 office 365 advanced threat protection을 통합 하는 기능은 office 365 Security & 준수 센터 및 Windows defender advanced threat protection 포털을 모두 사용 하 여 설정 됩니다.
   
 1. office 365 전역 관리자 또는 보안 관리자 인 경우으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 office 365에 대 한 회사 또는 학교 계정으로 로그인 합니다. 
     
@@ -57,8 +57,8 @@ office 365과 windows defender advanced threat protection을 함께 사용 하�
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 위협 인텔리전스](office-365-ti.md)
+[Office 365 위협 조사 및 응답](office-365-ti.md)
   
-[Office 365 Advanced Threat Protection 방지](office-365-atp.md)
+[Office 365 Advanced Threat Protection](office-365-atp.md)
   
 

@@ -9,14 +9,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 Security & 준수 센터의 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 9c427328972fb9c8d64a2847368f5be022974744
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 73d4aa6f9a12b8e1bf955dad09e4c4ca7290dae8
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455350"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524092"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 & 준수 센터의 메시지 추적
+
+## <a name="overview"></a>개요
 
 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직에서 이동 하는 전자 메일 메시지를 따릅니다. 서비스가 메시지를 수신, 거부, 지연 또는 배달 했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달 하기 전에 메시지에 대해 수행 된 작업을 보여 줍니다.
 
@@ -54,7 +56,8 @@ ms.locfileid: "30455350"
 
 - 다음 **사용자에 게**:이 필드를 클릭 하 여 조직에서 하나 이상의 받는 사람을 선택 합니다.
 
-외부의 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드 카드는 지원`*@contoso.com` ( `scot?@contoso.com`또는) 되지만 동시에 같은 필드에 여러 와일드 카드 항목을 사용할 수는 없습니다.
+> [!NOTE]외부의 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드 카드는 지원`*@contoso.com` ( `scot?@contoso.com`또는) 되지만 동시에 같은 필드에 여러 와일드 카드 항목을 사용할 수는 없습니다.
+> [!NOTE]여러 보낸 사람 또는 받는 사람 목록을 세미콜론 (`;`)으로 구분 하 여 붙여 넣을 수 있습니다. 공백 (`\s`), 캐리지 리턴 (`\r`) 또는 다음 줄 (`\n`) 기호를 사용할 수 있습니다.
 
 ### <a name="time-range"></a>시간 범위
 
@@ -124,7 +127,7 @@ ms.locfileid: "30455350"
 
 - **향상 된 요약** 또는 **확장**: 이러한 보고서는 다운로드 가능한 CSV 파일로만 제공 되며, **이러한 사용자** **** **에의 한 시간 범위에 관계 없이 다음 필터링 옵션 중 하나 이상이 필요 합니다. 메시지 ID**입니다. 보낸 사람 또는 받는 사람 (예: \*@contoso .com)에 와일드 카드를 사용할 수 있습니다.
 
-**참고**:
+**참고:**
 
 - 향상 된 요약 및 확장 보고서는 아카이브된 메시지 추적 데이터를 사용 하 여 준비 되며, 보고서를 다운로드 하는 데 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 요청이 처리 되기 시작 하기 전에 지연이 발생할 수도 있습니다.
 

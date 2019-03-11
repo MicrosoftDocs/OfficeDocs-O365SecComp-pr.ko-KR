@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하도록 하기 위해 Office 365에서 domainkeys 식별 메일 (dkim)을 사용 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: ba3fc67d906c2d87a79d0f006cdc98aab5f401fd
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 28e529038cefc955da4c76309d169a9f3b5e4a23
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275898"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524082"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사
 
@@ -82,7 +82,7 @@ dkim을 구성 하려면 다음 단계를 완료 합니다.
 ### <a name="publish-two-cname-records-for-your-custom-domain-in-dns"></a>DNS에서 사용자 지정 도메인에 대 한 두 개의 CNAME 레코드 게시
 <a name="Publish2CNAME"> </a>
 
-DNS에서 dkim 서명을 추가 하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시 해야 합니다. DNS에서 CNAME 레코드를 사용 하 여 도메인의 정식 이름이 다른 도메인 이름의 별칭을 지정 합니다. 
+DNS에서 dkim 서명을 추가 하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시 해야 합니다. DNS에서 CNAME 레코드를 사용 하 여 도메인의 정식 이름이 다른 도메인 이름의 별칭을 지정 합니다. 사용자 지정 된 도메인에 대해 공개적으로 사용 가능한 DNS 서버에 CNAME 레코드를 만들어야 합니다. dns의 CNAME 레코드는 이미 만들어진 Microsoft dns 서버 (Office 365 용)의 dns에 있는 레코드를 가리킵니다.
   
  Office 365에서는 설정한 두 레코드를 사용 하 여 자동 키 회전을 수행 합니다. Office 365의 초기 도메인 외에 사용자 지정 도메인을 프로 비전 한 경우에는 각 추가 도메인에 대해 두 개의 CNAME 레코드를 게시 해야 합니다. 따라서 도메인이 두 개 있는 경우 두 개의 추가 CNAME 레코드를 게시 해야 합니다.
   
@@ -226,7 +226,7 @@ CNAME 레코드를 DNS에 게시 한 후에는 Office 365을 통해 dkim 서명�
     Set-DkimSigningConfig -identity $p[<number>].identity -enabled $false
     ```
 
-    여기서 _number_ 는 정책의 인덱스입니다. 예를 들어: 
+    여기서 _number_ 는 정책의 인덱스입니다. 예를 들면 다음과 같습니다. 
     
     ```
     Set-DkimSigningConfig -identity $p[0].identity -enabled $false

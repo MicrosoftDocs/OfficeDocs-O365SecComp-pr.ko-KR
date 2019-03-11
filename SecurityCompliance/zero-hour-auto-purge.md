@@ -17,12 +17,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: 84d9c1dc12c3caf0630d25a3980cdaea1830a4c0
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: b28de1b05843e3f5b0f6e7fc905c96f094c277f9
+ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295641"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30524022"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -44,7 +44,7 @@ Office 365에서는 매일 실시간으로 스팸 방지 엔진 및 맬웨어 �
 
 - 스팸으로 식별 된 메일의 경우, ZAP은 읽지 않은 메시지를 사용자의 정크 메일 폴더로 이동 합니다. 
 
-- 스팸으로 식별 된 메일의 경우 ZAP이 전자 메일을 읽었는지 여부에 관계 없이 메시지를 사용자의 정크 메일 폴더로 이동 합니다.
+- 피싱으로 식별 되는 메일의 경우 ZAP은 전자 메일을 읽은 적이 있는지 여부에 관계 없이 메시지를 사용자의 정크 메일 폴더로 이동 합니다.
 
 - 새로 검색 된 맬웨어의 경우 ZAP은 전자 메일을 읽은 적이 있는지 여부에 관계 없이 전자 메일 메시지에서 첨부 파일을 제거 합니다. 
   
@@ -90,7 +90,7 @@ Office 365 테 넌 트 또는 사용자 집합에 대해 ZAP을 사용 하지 �
   
 관리자가 만든 규칙 (메일 흐름 규칙) 또는 차단 및 허용 규칙을 우선적으로 사용 합니다. 이러한 메시지는 기능 조건에서 제외 됩니다.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
   
