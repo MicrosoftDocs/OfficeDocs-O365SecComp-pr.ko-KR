@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 55fa8b6855a9a5bf2c84f6555dd8c8227a2ad9cf
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: e9811b285e98a791570dc91e275cb5cead4f8bc9
+ms.sourcegitcommit: 6e8e2b43a4bea31c1e835c5b050824651c6a0094
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455270"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30537645"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
@@ -566,7 +566,476 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 7777777777
 - 8888888888
 - 9999999999
-   
+
+## <a name="azure-documentdb-auth-key"></a>Azure DocumentDB 인증 키
+
+### <a name="format"></a>형식일
+
+아래 패턴에 설명 된 문자 및 문자열이 뒤에 오는 "DocumentDb" 문자열
+
+### <a name="pattern"></a>패턴
+
+- "DocumentDb" 문자열
+- 3-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 보다 큼 기호 (>), 등호 (=), 따옴표 (") 또는 아포스트로피 (')
+- 86의 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)의 조합
+- 두 개의 등호 (=)
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureDocumentDBAuthKey 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!-- Azure Document DB Auth Key -->
+<Entity id="0f587d92-eb28-44a9-bd1c-90f2892b47aa" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureDocumentDBAuthKey" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+          </Any>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>azure IAAS 데이터베이스 연결 문자열 및 azure SQL 연결 문자열
+
+### <a name="format"></a>형식일
+
+"server", "server" 또는 "data source" 라는 문자열은 "cloudapp. azure"를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다. <!--no-hyperlink-->com "또는" cloudapp. <!--no-hyperlink-->net "또는" 데이터베이스. <!--no-hyperlink-->net "과 문자열" password "또는" password "또는" pwd "가 있습니다.
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "server", "Server" 또는 "data source"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "cloudapp. <!--no-hyperlink-->com "," cloudapp. <!--no-hyperlink-->net "또는" database. <!--no-hyperlink-->net "
+- 1-300에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "password", "password" 또는 "pwd"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 세미콜론 (;), 따옴표 (") 또는 아포스트로피 (')가 아닌 하나 이상의 문자
+- 세미콜론 (;), 따옴표 (") 또는 아포스트로피 (')
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!--Azure IAAS Database Connection String and Azure SQL Connection String-->
+<Entity id="ce1a126d-186f-4700-8c0c-486157b953fd" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+    </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-iot-connection-string"></a>Azure IoT Connection 문자열
+
+### <a name="format"></a>형식일
+
+문자열 "HostName" 뒤에 "azure-devices" 라는 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열이 표시 됩니다. <!--no-hyperlink-->net "및" sharedaccesskey "
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "HostName"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "azure-장치 <!--no-hyperlink-->net "
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- "sharedaccesskey" 문자열
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 43의 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)의 조합
+- 등호 (=)
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureIoTConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!--Azure IoT Connection String-->
+<Entity id="0b34bec3-d5d6-4974-b7b0-dcdb5c90c29d" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureIoTConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-publish-setting-password"></a>Azure 게시 설정 암호
+
+### <a name="format"></a>형식일
+
+문자열 "userpwd =" 다음에 영숫자 문자열이 나옵니다.
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "userpwd ="
+- 60 대 문자와 숫자의 조합
+- 큰따옴표 (")
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzurePublishSettingPasswords 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+
+```
+<!--Azure Publish Setting Password-->
+<Entity id="75f4cc8a-a68e-49e5-89ce-fa8f03d286a5" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+       <IdMatch idRef="CEP_Regex_AzurePublishSettingPasswords" />
+       <Any minMatches="0" maxMatches="0">
+           <Match idRef="CEP_CommonExampleKeywords" />
+       </Any>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-redis-cache-connection-string"></a>Azure Redis 캐시 연결 문자열
+
+### <a name="format"></a>형식일
+
+문자열 "redis. <!--no-hyperlink-->net "문자열" password "또는" pwd "를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 입력 합니다.
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "redis. <!--no-hyperlink-->net "
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "password" 또는 "pwd"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)가 있는 43 문자의 조합
+- 등호 (=)
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureRedisCacheConnectionString가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!--Azure Redis Cache Connection String-->
+<Entity id="095a7e6c-efd8-46d5-af7b-5298d53a49fc" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureRedisCacheConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-sas"></a>Azure SAS
+
+### <a name="format"></a>형식일
+
+아래 패턴에 설명 된 문자 및 문자열이 뒤에 오는 문자열 "sig"
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "sig"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 대/소문자, 숫자 또는 백분율 기호 (%)가 43-53 자 사이의 조합입니다.
+- 문자열 "% 3d"
+- 소문자 또는 대문자, 숫자 또는 백분율 기호 (%)가 아닌 모든 문자
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureSAS 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+
+```
+<!--Azure SAS-->
+<Entity id="4d235014-e564-47f4-a6fb-6ebb4a826834" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureSAS" />
+  </Pattern>
+</Entity>
+```
+
+## <a name="azure-service-bus-connection-string"></a>Azure Service Bus 연결 문자열
+
+### <a name="format"></a>형식일
+
+문자열 "끝점" 뒤에 "servicebus" 라는 문자열을 포함 하 여 아래 패턴에 나와 있는 문자 및 문자열이 표시 됩니다. <!--no-hyperlink-->net "및" SharedAccesKey "을 차례로 누릅니다.
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "끝점"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "servicebus. <!--no-hyperlink-->net "
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- "sharedaccesskey" 문자열
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)가 있는 43 문자의 조합
+- 등호 (=)
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureServiceBusConnectionString가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!--Azure Service Bus Connection String-->
+<Entity id="b9a6578f-a83f-4fcd-bf44-2130bae49a6f" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureServiceBusConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-storage-account-key"></a>Azure 저장소 계정 키
+
+### <a name="format"></a>형식일
+
+"defaultendpointsprotocol" 문자열은 "AccountKey" 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다.
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "defaultendpointsprotocol"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "AccountKey"
+- 0-2 공백 문자
+- 등호 (=)
+- 0-2 공백 문자
+- 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)가 있는 86 문자의 조합
+- 두 개의 등호 (=)
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureStorageAccountKey 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_AzureEmulatorStorageAccountFilter 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!--Azure Storage Account Key-->
+<Entity id="c7bc98e8-551a-4c35-a92d-d2c8cda714a7" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureStorageAccountKey" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_AzureEmulatorStorageAccountFilter" />
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+  </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepazureemulatorstorageaccountfilter"></a>CEP_AzureEmulatorStorageAccountFilter
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw = =
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
+## <a name="azure-storage-account-key-generic"></a>Azure 저장소 계정 키 (일반)
+
+### <a name="format"></a>형식일
+
+아래 패턴에 윤곽선이 있는 문자 앞 이나 뒤에 오는 86 문자의 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)의 조합입니다.
+
+### <a name="pattern"></a>패턴
+
+- > (보다 큼 기호), 아포스트로피 ('), 등호 (=), 따옴표 (") 또는 숫자 기호 (#)
+- 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)가 있는 86 문자의 조합
+- 두 개의 등호 (=)
+
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_AzureStorageAccountKeyGeneric 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+
+```
+<!--Azure Storage Account Key (Generic)-->
+<Entity id="7ff41bd0-5419-4523-91d6-383b3a37f084" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_AzureStorageAccountKeyGeneric" />
+  </Pattern>
+</Entity>
+```
+
 ## <a name="belgium-national-number"></a>벨기에 국가 번호
 
 ### <a name="format"></a>형식일
@@ -579,7 +1048,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 생년월일을 나타내는 YY.MM.DD 형식의 6자리 숫자와 마침표 2개  
 - 하이픈 
 - 세 개의 순차적 숫자(남성의 경우 홀수, 여성의 경우 짝수)  
-- 마침표  
+- 마침표 
 - 검사 숫자에 해당하는 두 자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -4498,7 +4967,83 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 없음
-   
+
+## <a name="sql-server-connection-string"></a>SQL Server 연결 문자열
+
+### <a name="format"></a>형식일
+
+아래 패턴에 설명 된 문자 및 문자열이 뒤에 오는 "user id", "user id", "uid" 또는 "UserId"입니다.
+
+### <a name="pattern"></a>패턴
+
+- 문자열 "user id", "User id", "uid" 또는 "UserId"
+- 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
+- 문자열 "Password" 또는 "pwd" (여기에서 "pwd" 앞에 소문자 문자가 오지 않음)
+- 등호 (=)
+- 달러 기호 ($), 백분율 기호 (%, >), 기호 (@), 따옴표 ("), 세미콜론 (;), 왼쪽 중괄호 ([) 또는 왼쪽 대괄호 ({))가 아닌 모든 문자
+- 세미콜론 (;), 슬래시 (/) 또는 따옴표 (")가 아닌 7-128 문자의 조합
+- 세미콜론 (;) 또는 따옴표 (")
+
+### <a name="checksum"></a>제외
+
+아니요
+
+### <a name="definition"></a>정의
+
+DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
+- 정규식 CEP_Regex_SQLServerConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- CEP_GlobalFilter의 키워드를 찾을 수 **없습니다** .
+- CEP_PasswordPlaceHolder 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+- CEP_CommonExampleKeywords 정규식이 해당 패턴과 **** 일치 하는 콘텐츠를 찾지 않습니다.
+
+```
+<!---SQL Server Connection String>
+<Entity id="e76b6205-d3cb-46f2-bd63-c90153f2f97d" patternsProximity="300" recommendedConfidence="85">
+  <Pattern confidenceLevel="85">
+        <IdMatch idRef="CEP_Regex_SQLServerConnectionString" />
+        <Any minMatches="0" maxMatches="0">
+            <Match idRef="CEP_GlobalFilter" />
+            <Match idRef="CEP_PasswordPlaceHolder" />
+            <Match idRef="CEP_CommonExampleKeywords" />
+        </Any>
+    </Pattern>
+</Entity>
+```
+
+### <a name="keywords"></a>키워드
+
+#### <a name="cepglobalfilter"></a>CEP_GlobalFilter
+
+- 일부 암호
+- somepassword
+- secretPassword
+- 예
+
+#### <a name="ceppasswordplaceholder"></a>CEP_PasswordPlaceHolder
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 암호나 pwd에 0-2 공백, 등호 (=), 0-2 공백 및 별표 (*)-----------------------
+- 암호나 pwd 뒤에 다음이 있습니다.
+    - 등호 (=)
+    - 보다 작음 기호 (<)
+    - 대문자나 소문자, digits, 별표 (*), 하이픈 (-), 밑줄 (_) 또는 공백 문자인 1-200 문자의 조합
+    - 기호 보다 큼 (>)
+
+#### <a name="cepcommonexamplekeywords"></a>CEP_CommonExampleKeywords
+
+기술적으로이 중요 한 정보 유형은 키워드 목록이 아니라 정규식을 사용 하 여 이러한 키워드를 식별 합니다.
+
+- 극동
+- fabrikam
+- 대양
+- 샌드박스
+- 용 onebox
+- 로컬
+- 127.0.0.1
+- testacs입니다. <!--no-hyperlink-->com
+- s-int<!--no-hyperlink-->
+
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
 
 ### <a name="format"></a>형식일
