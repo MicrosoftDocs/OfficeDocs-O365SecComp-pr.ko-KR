@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: reference
-ms.date: 01/25/2019
+ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -13,32 +13,48 @@ search.appverid:
 - MOE150
 ms.assetid: d674763c-a4c9-4604-8623-68c1836d27f3
 description: Office 365 Cloud App Security의 새로운 기능을 참조 하세요.
-ms.openlocfilehash: c85671eb135afb1cb92883a5d75ad112c46538c1
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bc85c0c6444eadf8f623a6fee853ff03d31565d1
+ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219518"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312065"
 ---
-# <a name="what-is-new-in-office-365-cloud-app-security"></a><span data-ttu-id="4fa00-103">Office 365 Cloud App Security의 새로운 사항</span><span class="sxs-lookup"><span data-stu-id="4fa00-103">What is new in Office 365 Cloud App Security</span></span>
+# <a name="what-is-new-in-office-365-cloud-app-security"></a><span data-ttu-id="a5a24-103">Office 365 Cloud App Security의 새로운 사항</span><span class="sxs-lookup"><span data-stu-id="a5a24-103">What is new in Office 365 Cloud App Security</span></span>
 
-<span data-ttu-id="4fa00-104">**요약** 이 문서를 읽으면 [Microsoft Cloud app security](https://aka.ms/whatiscas)에서 제공 하는 Office 365 Cloud app security의 업데이트 및 새 기능에 대 한 간략 한 개요를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4fa00-104">**Summary** Read this article to get a quick overview of updates and new features in Office 365 Cloud App Security, which is powered by [Microsoft Cloud App Security](https://aka.ms/whatiscas).</span></span>
+<span data-ttu-id="a5a24-104">**요약** 이 문서를 읽으면 [Microsoft Cloud app security](https://aka.ms/whatiscas)에서 제공 하는 Office 365 Cloud app security의 업데이트 및 새 기능에 대 한 간략 한 개요를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-104">**Summary** Read this article to get a quick overview of updates and new features in Office 365 Cloud App Security, which is powered by [Microsoft Cloud App Security](https://aka.ms/whatiscas).</span></span>
   
 > [!TIP]
-> <span data-ttu-id="4fa00-p101">이 문서는 기능이 추가 되거나 향상 되어 자주 업데이트 됩니다. office 365 cloud app security 업데이트는 microsoft cloud app security 업데이트 후 약 2 주 후에 출시 되며 모든 Microsoft cloud app security updates가 Office 365 Cloud app security에 적용 되지 않습니다. 또한 새로운 기능은 릴리스 날짜가 Office 365 Cloud App Security environment에 표시 될 때 몇 주 이상이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4fa00-p101">This article is updated frequently, as features are added or improved. Office 365 Cloud App Security updates are released approximately two weeks after Microsoft Cloud App Security updates, and not all Microsoft Cloud App Security updates apply to Office 365 Cloud App Security. In addition, new features might take a week or more after their release date to show up in your Office 365 Cloud App Security environment.</span></span>
+> <span data-ttu-id="a5a24-105">이 문서는 기능이 추가 되거나 향상 되어 자주 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-105">This article is updated frequently, as features are added or improved.</span></span> <span data-ttu-id="a5a24-106">office 365 cloud app security 업데이트는 microsoft cloud app security 업데이트 후 약 2 주 후에 출시 되며 모든 Microsoft cloud app security updates가 Office 365 Cloud app security에 적용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-106">Office 365 Cloud App Security updates are released approximately two weeks after Microsoft Cloud App Security updates, and not all Microsoft Cloud App Security updates apply to Office 365 Cloud App Security.</span></span> <span data-ttu-id="a5a24-107">또한 새로운 기능은 릴리스 날짜가 Office 365 Cloud App Security environment에 표시 될 때 몇 주 이상이 걸릴 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-107">In addition, new features might take a week or more after their release date to show up in your Office 365 Cloud App Security environment.</span></span>
 
-## <a name="office-365-cloud-app-security-releases-139-140"></a><span data-ttu-id="4fa00-108">Office 365 Cloud App Security 릴리스 139, 140</span><span class="sxs-lookup"><span data-stu-id="4fa00-108">Office 365 Cloud App Security releases 139, 140</span></span>
+## <a name="office-365-cloud-app-security-release-142"></a><span data-ttu-id="a5a24-108">Office 365 Cloud App Security release 142</span><span class="sxs-lookup"><span data-stu-id="a5a24-108">Office 365 Cloud App Security release 142</span></span>
 
-<span data-ttu-id="4fa00-109">*출시 되는 2019 년 1 월 22 일*</span><span class="sxs-lookup"><span data-stu-id="4fa00-109">*Released January 22, 2019*</span></span>
+<span data-ttu-id="a5a24-109">*2019 년 2 월 17 일 출시*</span><span class="sxs-lookup"><span data-stu-id="a5a24-109">*Released February 17, 2019*</span></span>
 
-<span data-ttu-id="4fa00-110">**다음 [Microsoft Cloud App Security 릴리스 139, 140](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-139-140)**:</span><span class="sxs-lookup"><span data-stu-id="4fa00-110">**Following [Microsoft Cloud App Security releases 139, 140](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-139-140)**:</span></span>
+<span data-ttu-id="a5a24-110">[Microsoft Cloud App Security release 142](https://docs.microsoft.com/en-us/cloud-app-security/release-notes#cloud-app-security-release-142) 팔 로우</span><span class="sxs-lookup"><span data-stu-id="a5a24-110">Following  [Microsoft Cloud App Security release 142](https://docs.microsoft.com/en-us/cloud-app-security/release-notes#cloud-app-security-release-142)</span></span>
 
-- <span data-ttu-id="4fa00-p102">**변칙 검색 정책에 대 한 고급 조정** 이제 기본 설정에 따라 경고를 표시 하지 않거나 노출 하기 위해 변칙 검색 엔진에 영향을 줄 수 있습니다. 불가능 한 여행 정책에서는 민감도 슬라이더를 설정 하 여 경고가 트리거되기 전에 필요한 비정상 동작의 수준을 결정할 수 있습니다. 또한 자주 발생 하지 않는 국가, 익명 IP 주소, 의심 스러운 ip 주소, 불가능 한 이동에 대 한 경고를 구성 하 여 실패 및 성공한 로그인과 성공한 로그인을 모두 분석 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4fa00-p102">**Advanced tuning for anomaly detection policies** You can now affect the anomaly detection engine to suppress or surface alerts according to your preferences. In the Impossible Travel policy, you can set the sensitivity slider to determine the level of anomalous behavior needed before an alert is triggered. You can also configure whether the alerts for Activity from infrequent country, anonymous IP addresses, suspicious IP addresses, and impossible travel should analyze both failed and successful logins or just successful logins.</span></span> 
+- <span data-ttu-id="a5a24-111">**Office 365 Cloud App Security에 대 한 액세스/세션 정책** 조건부 액세스 앱 컨트롤이 Office 365 Cloud App Security에 추가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-111">**Access/Session policies for Office 365 Cloud App Security** Conditional Access App Control has been added to Office 365 Cloud App Security.</span></span> <span data-ttu-id="a5a24-112">이제 공용 미리 보기의 다음 응용 프로그램에서 액세스 및 세션 정책을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-112">Access and Session policies can now be configured on the following applications in public preview:</span></span>
+    - <span data-ttu-id="a5a24-113">Exchange Online (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="a5a24-113">Exchange Online (preview)</span></span>
+    - <span data-ttu-id="a5a24-114">비즈니스용 OneDrive (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="a5a24-114">OneDrive for Business (preview)</span></span>
+    - <span data-ttu-id="a5a24-115">Power BI (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="a5a24-115">Power BI (preview)</span></span>
+    - <span data-ttu-id="a5a24-116">SharePoint Online (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="a5a24-116">SharePoint Online (preview)</span></span>
+    - <span data-ttu-id="a5a24-117">Yammer (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="a5a24-117">Yammer (preview)</span></span>
+    - <span data-ttu-id="a5a24-118">Microsoft 팀 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="a5a24-118">Microsoft Teams (preview)</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="4fa00-114">관련 항목</span><span class="sxs-lookup"><span data-stu-id="4fa00-114">Related topics</span></span>
+    <span data-ttu-id="a5a24-119">자세한 내용은 [Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 앱 보호](ocas-conditional-access-app-control.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a5a24-119">To learn more, see [Protect apps with Office 365 Cloud App Security Conditional Access App Control](ocas-conditional-access-app-control.md).</span></span>
 
-[<span data-ttu-id="4fa00-115">Office 365 Cloud App Security 용 2018 업데이트를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4fa00-115">See the 2018 updates for Office 365 Cloud App Security</span></span>](new-in-office-365-cas-2018.md)
+## <a name="office-365-cloud-app-security-releases-139-140"></a><span data-ttu-id="a5a24-120">Office 365 Cloud App Security 릴리스 139, 140</span><span class="sxs-lookup"><span data-stu-id="a5a24-120">Office 365 Cloud App Security releases 139, 140</span></span>
 
-[<span data-ttu-id="4fa00-116">Office 365 Cloud App Security 용 2017 업데이트를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4fa00-116">See the 2017 updates for Office 365 Cloud App Security</span></span>](new-in-office-365-cas-2017.md)
+<span data-ttu-id="a5a24-121">*출시 되는 2019 년 1 월 22 일*</span><span class="sxs-lookup"><span data-stu-id="a5a24-121">*Released January 22, 2019*</span></span>
+
+<span data-ttu-id="a5a24-122">**다음 [Microsoft Cloud App Security 릴리스 139, 140](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-139-140)**:</span><span class="sxs-lookup"><span data-stu-id="a5a24-122">**Following [Microsoft Cloud App Security releases 139, 140](https://docs.microsoft.com/cloud-app-security/release-notes#cloud-app-security-release-139-140)**:</span></span>
+
+- <span data-ttu-id="a5a24-123">**변칙 검색 정책에 대 한 고급 조정** 이제 기본 설정에 따라 경고를 표시 하지 않거나 노출 하기 위해 변칙 검색 엔진에 영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-123">**Advanced tuning for anomaly detection policies** You can now affect the anomaly detection engine to suppress or surface alerts according to your preferences.</span></span> <span data-ttu-id="a5a24-124">불가능 한 여행 정책에서는 민감도 슬라이더를 설정 하 여 경고가 트리거되기 전에 필요한 비정상 동작의 수준을 결정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-124">In the Impossible Travel policy, you can set the sensitivity slider to determine the level of anomalous behavior needed before an alert is triggered.</span></span> <span data-ttu-id="a5a24-125">또한 자주 발생 하지 않는 국가, 익명 IP 주소, 의심 스러운 ip 주소, 불가능 한 이동에 대 한 경고를 구성 하 여 실패 및 성공한 로그인과 성공한 로그인을 모두 분석 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a5a24-125">You can also configure whether the alerts for Activity from infrequent country, anonymous IP addresses, suspicious IP addresses, and impossible travel should analyze both failed and successful logins or just successful logins.</span></span> 
+
+## <a name="related-topics"></a><span data-ttu-id="a5a24-126">관련 항목</span><span class="sxs-lookup"><span data-stu-id="a5a24-126">Related topics</span></span>
+
+[<span data-ttu-id="a5a24-127">Office 365 Cloud App Security 용 2018 업데이트를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a5a24-127">See the 2018 updates for Office 365 Cloud App Security</span></span>](new-in-office-365-cas-2018.md)
+
+[<span data-ttu-id="a5a24-128">Office 365 Cloud App Security 용 2017 업데이트를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a5a24-128">See the 2017 updates for Office 365 Cloud App Security</span></span>](new-in-office-365-cas-2017.md)
     
-[<span data-ttu-id="4fa00-117">Office 365 Cloud App Security 적용한 후 사용률 활동</span><span class="sxs-lookup"><span data-stu-id="4fa00-117">Utilization activities after rolling out Office 365 Cloud App Security</span></span>](utilization-activities-for-ocas.md)
+[<span data-ttu-id="a5a24-129">Office 365 Cloud App Security 적용한 후 사용률 활동</span><span class="sxs-lookup"><span data-stu-id="a5a24-129">Utilization activities after rolling out Office 365 Cloud App Security</span></span>](utilization-activities-for-ocas.md)
