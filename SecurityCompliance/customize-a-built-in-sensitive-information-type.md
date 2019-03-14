@@ -8,18 +8,18 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: Strat_O365_IP
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-ms.assetid: 2164ce3d-4d64-4283-b6b1-b81fbe835e8e
 description: 콘텐츠에서 중요한 정보를 찾을 때는 소유 말하는 규칙에서 해당 정보를 설명해야 합니다. DLP(데이터 손실 방지)에는 바로 사용할 수 있는 가장 일반적인 중요한 정보 유형에 대한 규칙이 포함되어 있습니다. 이러한 규칙을 사용하려면 정책에 포함해야 합니다. 조직의 특정 요구 사항에 맞게 이러한 기본 제공 규칙을 조정하려고 할 경우 사용자 지정 중요한 정보 유형을 만들면 됩니다. 이 항목에서는 광범위한 잠재적 신용 카드 정보를 검색하도록 기존 규칙 컬렉션을 포함하는 XML 파일을 사용자 지정하는 방법을 보여 줍니다.
-ms.openlocfilehash: 6ac047bc6d8ce601dd8f582a429c1dd7353aa48e
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 9596fe6aac92dca4d2dd66b5eff13005c5c6724b
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341459"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455430"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -44,7 +44,7 @@ XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 
      `Set-Content -path "C:\custompath\exportedRules.xml" -Encoding Byte -Value $ruleCollections.SerializedClassificationRuleCollection`
     
     > [!IMPORTANT]
-    > 규칙 팩이 실제로 저장된 파일 위치를 사용해야 합니다. `C:\custompath\`는 자리 표시자입니다. 
+    > 규칙 팩이 실제로 저장된 파일 위치를 사용해야 합니다.  `C:\custompath\`는 자리 표시자입니다. 
   
 ## <a name="find-the-rule-that-you-want-to-modify-in-the-xml"></a>XML에서 수정하려는 규칙 찾기
 

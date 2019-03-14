@@ -8,17 +8,18 @@ ms.audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: b09f879779b0209944c37dd70df4786b26d7a4bd
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 82125d13adfb42706a44feeaca3dfb85e06163f6
+ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410943"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30455450"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 

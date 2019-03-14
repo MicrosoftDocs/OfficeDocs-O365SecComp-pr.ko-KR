@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 ms.audience: Admin
 ms.topic: reference
-ms.date: 01/25/2019
+ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: d674763c-a4c9-4604-8623-68c1836d27f3
 description: Office 365 Cloud App Security의 새로운 기능을 참조 하세요.
-ms.openlocfilehash: c85671eb135afb1cb92883a5d75ad112c46538c1
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bc85c0c6444eadf8f623a6fee853ff03d31565d1
+ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219518"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312065"
 ---
 # <a name="what-is-new-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security의 새로운 사항
 
@@ -26,6 +26,22 @@ ms.locfileid: "30219518"
   
 > [!TIP]
 > 이 문서는 기능이 추가 되거나 향상 되어 자주 업데이트 됩니다. office 365 cloud app security 업데이트는 microsoft cloud app security 업데이트 후 약 2 주 후에 출시 되며 모든 Microsoft cloud app security updates가 Office 365 Cloud app security에 적용 되지 않습니다. 또한 새로운 기능은 릴리스 날짜가 Office 365 Cloud App Security environment에 표시 될 때 몇 주 이상이 걸릴 수 있습니다.
+
+## <a name="office-365-cloud-app-security-release-142"></a>Office 365 Cloud App Security release 142
+
+*2019 년 2 월 17 일 출시*
+
+[Microsoft Cloud App Security release 142](https://docs.microsoft.com/en-us/cloud-app-security/release-notes#cloud-app-security-release-142) 팔 로우
+
+- **Office 365 Cloud App Security에 대 한 액세스/세션 정책** 조건부 액세스 앱 컨트롤이 Office 365 Cloud App Security에 추가 되었습니다. 이제 공용 미리 보기의 다음 응용 프로그램에서 액세스 및 세션 정책을 구성할 수 있습니다.
+    - Exchange Online (미리 보기)
+    - 비즈니스용 OneDrive (미리 보기)
+    - Power BI (미리 보기)
+    - SharePoint Online (미리 보기)
+    - Yammer (미리 보기)
+    - Microsoft 팀 (미리 보기)
+
+    자세한 내용은 [Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 앱 보호](ocas-conditional-access-app-control.md)를 참조 하세요.
 
 ## <a name="office-365-cloud-app-security-releases-139-140"></a>Office 365 Cloud App Security 릴리스 139, 140
 

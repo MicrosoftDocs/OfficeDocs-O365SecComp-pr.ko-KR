@@ -1,7 +1,7 @@
 ---
 title: Office 365의 ATP 피싱 방지 기능
-ms.author: krowley
-author: kccross
+ms.author: tracyp
+author: MSFTTracyp
 manager: laurawi
 ms.audience: ITPro
 ms.topic: article
@@ -10,13 +10,15 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 5076d0f6-7a59-4d6c-bd07-ba95033f0682
+ms.collection:
+- M365-security-compliance
 description: ATP 피싱 방지는 Office 365 Advanced Threat Protection의 일부입니다. ATP 바이러스 방지는 상품 및 스피어 피싱 공격에 대 한 보호를 제공 하기 위해 들어오는 메시지에 대 한 가장 검색 알고리즘과 함께 기계 학습 모델 집합을 적용 합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격을 방지 하는 데 사용 되는 고급 알고리즘 집합과 함께 피싱 메시지를 검색 하기 위해 교육 된 다양 한 기계 학습 모델 집합의 영향을 받습니다.
-ms.openlocfilehash: 1510fb0ca248b847eb02e648295c350b11c4dd28
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 25e7845ab7d16b0766636006f2c55debfee2f9f9
+ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215138"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "30276378"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Office 365의 ATP 피싱 방지 기능
 
@@ -53,11 +55,11 @@ atp 피싱 방지 기계 학습 모델을 특정 사용자에 대해 활성화 �
 |:-----|:-----|
 |Pat 조직에 Office 365 Enterprise E5가 있지만, atp 안전한 첨부 파일, atp 안전한 링크 또는 atp advanced 피싱에 대 한 정책을 정의 하지 않은 경우|아니요. 이 기능을 사용할 수 있지만 atp 기계 학습 모델이 작동 하려면 하나 이상의 atp 정책을 정의 해야 합니다. 가장의 경우 ATP 피싱 방지 정책도 적절 하 게 수행 해야 합니다.|
 |Lee은 Contoso의 판매 부서에 있는 직원입니다. Lee의 조직에는 재무 직원 에게만 적용 되는 ATP 피싱 방지 정책이 포함 되어 있습니다.|아니요. 이 경우 ATP 피싱 방지 (시스템 모델 및 가장 보호)는 재무 직원에 게 적용 되지만 영업 부서를 비롯 한 다른 직원은이를 사용 하지 않습니다.|
-|어제 Jean 조직의 Office 365 관리자는 모든 직원에 게 적용 되는 ATP 피싱 방지 정책을 설정 합니다. 지금까지 Jean에서는 정책에 포함 된 가장을 포함 하는 전자 메일 메시지를 받습니다.|예로. 이 예에서는 Jean에 Advanced Threat Protection 라이선스가 있고 Jean을 포함 하는 ATP 피싱 방지 정책이 정의 되어 있습니다. 일반적으로 새 정책이 데이터 센터 전체에 적용 되는 데 약 30 분이 걸립니다. 이 경우에는 요일이 전달 된 것 이므로 정책이 적용 되어야 합니다.|
+|어제 Jean 조직의 Office 365 관리자는 모든 직원에 게 적용 되는 ATP 피싱 방지 정책을 설정 합니다. 지금까지 Jean에서는 정책에 포함 된 가장을 포함 하는 전자 메일 메시지를 받습니다.|예. 이 예에서는 Jean에 Advanced Threat Protection 라이선스가 있고 Jean을 포함 하는 ATP 피싱 방지 정책이 정의 되어 있습니다. 일반적으로 새 정책이 데이터 센터 전체에 적용 되는 데 약 30 분이 걸립니다. 이 경우에는 요일이 전달 된 것 이므로 정책이 적용 되어야 합니다.|
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 Advanced Threat Protection 방지](office-365-atp.md)
+[Office 365 Advanced Threat Protection](office-365-atp.md)
   
 [Office 365의 피싱 방지 보호 기능](anti-phishing-protection.md)
   

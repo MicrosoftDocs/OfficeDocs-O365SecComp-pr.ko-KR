@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 SharePoint, OneDrive 및 팀에 대 한 ATP를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 88eae37b0da3df75807436d66a5c80e0c40f82d8
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 30eb28bfc5156664656ca1c200f9e999661b3b0c
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220398"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30242150"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행
 
@@ -73,9 +74,9 @@ SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 �
     
 5. **알림 보내기** 위치 섹션에서 다음을 수행 합니다. 
     
-    a. **작업** 목록에서 **검색 된 맬웨어를 파일에서**선택 합니다.
+    위한. **작업** 목록에서 **검색 된 맬웨어를 파일에서**선택 합니다.
     
-    b. **Users** 필드를 비워 둡니다. 
+    b. **Users** 필드는 비워 둡니다. 
     
 6. **이 알림 보내기** ... 섹션에서 악의적인 파일이 검색 되 면 알림을 받을 전역 관리자, 보안 관리자 또는 보안 판독기를 하나 이상 선택 합니다. 
     

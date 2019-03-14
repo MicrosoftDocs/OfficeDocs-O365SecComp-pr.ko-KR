@@ -11,15 +11,16 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: eb56b69b-3170-4086-82cf-ba40a530fa1b
+ms.date: 03/11/2019
 ms.collection:
 - M365-security-compliance
 description: office 365 활동 관리 API에서 조직의 siem server를 office 365 Advanced Threat Protection 및 관련 위협 이벤트와 통합 합니다.
-ms.openlocfilehash: 6c0468f8f3fdd25082bff8a3008d2abf00ed9d4d
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: fa9dcda0556684b748068cbe5ee848ba443d7667
+ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/11/2019
-ms.locfileid: "30523992"
+ms.locfileid: "30536178"
 ---
 # <a name="siem-integration-with-office-365-advanced-threat-protection"></a>siem과 Office 365 Advanced Threat Protection의 통합
 
@@ -27,7 +28,17 @@ ms.locfileid: "30523992"
 
 office 365 활동 관리 API는 조직의 Office 365 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업과 이벤트에 대 한 정보를 검색 합니다. [office 365 advanced threat protection 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-intelligence-schema) 는 advanced threat protection과 함께 작동 하므로 조직에 Office 365 Advanced Threat protection 계획 1 또는 계획 2 또는 Office 365 E5가 있는 경우에도이 API를 사용 하 여 siem 서버 통합에 사용할 수 있습니다. 
 
-siem 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** 작업을 폴링하여 검색 이벤트에 액세스 해야 합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조 하세요. 
+siem 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** 작업을 폴링하여 검색 이벤트에 액세스 해야 합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조 하세요. 또한 다음 **AuditLogRecordType** 값은 Office 365 ATP 이벤트와 관련이 있습니다.
+
+### <a name="enum-auditlogrecordtype---type-edmint32"></a>Enum: AuditLogRecordType: Edm. i a i. Int32
+
+#### <a name="auditlogrecordtype"></a>AuditLogRecordType
+
+|값|멤버 이름|설명|
+|:-----|:-----|:-----|
+|28@@|ThreatIntelligence|Exchange Online Protection 및 Office 365 Advanced Threat protection의 피싱 및 맬웨어 이벤트|
+|41|ThreatIntelligenceUrl|ATP Safe 링크는 Office 365 Advanced Threat Protection에서 차단 및 차단 이벤트 차단을 방지 하 고 무시 합니다.|
+|47|ThreatIntelligenceAtpContent|SharePoint Online, 비즈니스용 OneDrive 및 Office 365 Advanced Threat Protection의 파일에 대 한 피싱 및 맬웨어 이벤트입니다.|
 
 > [!IMPORTANT]
 > office 365 Advanced Threat Protection과 함께 siem 통합을 설정 하려면 office 365 전역 관리자 이거나 보안 & 준수 센터에 대해 보안 관리자 역할이 할당 되어 있어야 합니다.<br/>Office 365 환경에 대해 감사 로깅을 켜야 합니다. 이에 대 한 도움말을 보려면 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요.

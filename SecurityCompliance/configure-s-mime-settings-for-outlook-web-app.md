@@ -14,12 +14,12 @@ ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
 ms.collection:
 - M365-security-compliance
 description: exchange online 관리자가 웹에서 Outlook의 S/MIME 설정을 보고 구성 하기 위해 수행 해야 하는 작업에 대 한 간략 한 설명입니다.
-ms.openlocfilehash: 74d2f37f0cabc0b49abdd78d2a10928b543fd615
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 005c3075ec8fe6255231ba7358e5b4cc22b92f1d
+ms.sourcegitcommit: 8b36bf7949f1769f1418d740293637d60e403f87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295361"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30339446"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>웹용 Outlook에 대 한 Exchange Online의 S/MIME 설정 구성
 
@@ -29,7 +29,9 @@ Exchange Online 관리자는 웹에서 outlook (이전의 outlook web App)을 �
 
 ## <a name="considerations-for-chrome"></a>Chrome에 대 한 고려 사항
 
-Google Chrome 웹 브라우저에서 웹의 Outlook에서 S/mime을 사용 하려면 사용자 (또는 다른 관리자)가 Chromium 정책을 설정 하 고 구성 해야 합니다. **** 정책은 다음 구문을 사용 해야 합니다 ( `<extension-id>;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` 예: `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`). 이 단계는 Chrome을 사용 하기 위한 필수 구성 요소입니다. 사용자가 설치한 S/MIME 컨트롤은 대체 되지 않습니다. **extensioninstallforcelist** 정책에 대 한 자세한 내용은 [extensioninstallforcelist](http://dev.chromium.org/administrators/policy-list-3#ExtensionInstallForcelist)를 참조 하십시오.
+Google Chrome 웹 브라우저에서 웹의 Outlook에서 S/mime을 사용 하려면 사용자 (또는 다른 관리자)가 Chromium 정책을 설정 하 고 구성 해야 합니다. **** 정책은 다음 구문을 사용 해야 합니다 ( `<extension-id>;https://outlook.office.com/owa/SmimeCrxUpdate.ashx` 예: `maafgiompdekodanheihhgilkjchcakm;https://outlook.office.com/owa/SmimeCrxUpdate.ashx`). 또한이 정책을 적용 하려면 도메인에 가입 된 컴퓨터가 필요 하므로 Chrome에서 S/MIME을 사용 하려면 도메인에 가입 된 컴퓨터가 필요 합니다.
+
+이 단계는 Chrome을 사용 하기 위한 필수 구성 요소입니다. 사용자가 설치한 S/MIME 컨트롤은 대체 되지 않습니다. **extensioninstallforcelist** 정책에 대 한 자세한 내용은 [extensioninstallforcelist](http://dev.chromium.org/administrators/policy-list-3#ExtensionInstallForcelist)를 참조 하십시오.
 
 ## <a name="for-more-information"></a>자세한 내용
 

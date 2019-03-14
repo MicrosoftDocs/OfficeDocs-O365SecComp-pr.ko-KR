@@ -17,19 +17,20 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: 검토할 직원 정보를 캡처하기 위해 관리 검토 정책을 설정 합니다.
-ms.openlocfilehash: bb84520fed1eb5015d46c2c35931f786d29855e7
-ms.sourcegitcommit: 13c601ea11ce6a3c71036fdafda059061c6998d0
+ms.openlocfilehash: 2e321989934402b833d6190f65d696f4eb7919ca
+ms.sourcegitcommit: 547a05da067a8f66fdaccf1cc399afcf863f5a87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30313174"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30474159"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
 감독 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 감독 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Office 365의 감독 정책을](supervision-policies.md)참조 하세요.
 
 > [!NOTE]
-> 감독 정책에 따라 모니터링 되는 사용자에 게는 고급 준수 추가 기능이 포함 된 office 365 Enterprise E3 라이선스가 있거나 office 365 enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise e5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+> 감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 office 365 enterprise E3 라이선스 또는 office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
+기존 Enterprise e5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
   
 Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 수행 합니다.
   
@@ -70,16 +71,16 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
   
 <a name="GroupExample"> </a>
 
-### <a name="example-distribution-groups"></a>예시 메일 그룹
+### <a name="example-distribution-groups"></a>메일 그룹 예제
 
 이 예에는 Contoso 재무 국제 지역 이라는 금융 조직에 대해 설정 된 메일 그룹이 포함 되어 있습니다.
   
-Contoso Financial International에서 미국에 있는 중개인 간 통신 샘플링을 감독해야 합니다. 하지만 해당 그룹 내에 있는 준수 관리자는 감독이 필요하지 않습니다. 이 예에서는 다음 그룹을 만들 수 있습니다.
+Contoso 재무 국제에서는 미국의 브로커 간 통신에 대 한 샘플을 감독 해야 합니다. 그러나 해당 그룹 내의 규정 준수 관리자는 감독을 요구 하지 않습니다. 이 예에서는 다음 그룹을 만들 수 있습니다.
   
-|**이 메일 그룹 설정**|**그룹 주소(별칭)**|**설명**|
+|**이 메일 그룹 설정**|**그룹 주소 (별칭)**|**설명**|
 |:-----|:-----|:-----|
-|모든 미국 중개인 | US_Brokers@Contoso.com | 이 그룹에는 Contoso에서 근무하는 모든 미국 중개인에 대한 전자 메일 주소가 포함되어 있습니다. |
-| 모든 미국 준수 관리자 | US_Compliance@Contoso.com  | 이 그룹에는 Contoso에서 근무 하는 모든 미국 기반 규정 준수 관리자의 전자 메일 주소가 포함 됩니다. 이 그룹은 모든 미국 기반 브로커의 하위 집합 이므로이 별칭을 사용 하 여 감독 정책에서 규정 준수 관리자를 제외할 수 있습니다. |
+|모든 US 브로커 | US_Brokers@Contoso.com | 이 그룹에는 Contoso에 대해 작업 하는 모든 미국 기반 브로커의 전자 메일 주소가 포함 됩니다. |
+| 모든 US 준수 직원 | US_Compliance@Contoso.com  | 이 그룹에는 Contoso에서 근무 하는 모든 미국 기반 규정 준수 관리자의 전자 메일 주소가 포함 됩니다. 이 그룹은 모든 미국 기반 브로커의 하위 집합 이므로이 별칭을 사용 하 여 감독 정책에서 규정 준수 관리자를 제외할 수 있습니다. |
   
 <a name="MakeAvailable"> </a>
 
@@ -214,7 +215,7 @@ Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 �
 
 다음으로, Outlook을 메일 감독 사서함에 연결할 수 있도록 검토자가 몇 개의 Exchange Online PowerShell 명령을 실행 해야 합니다.
   
-1. Exchange Online PowerShell에 연결 합니다. [어떻게](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 해야 합니까?
+1. Exchange Online PowerShell에 연결합니다. [어떻게 해야 합니까?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
 
 2. 다음 명령을 실행 하면 *SupervisoryReview {GUID} @domain onmicrosoft.com* 는 위의 1 단계에서 복사한 주소이 고 *사용자* 는 3 단계에서 감독 사서함에 연결할 검토자의 이름입니다.
 

@@ -12,14 +12,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 보고서 및 insights avialable에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 194a7198e05e6d13cada9712f884f232abe2a8d1
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 03b551a05d9e19be000ff9ba53e8afa11d8715f3
+ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217218"
+ms.lasthandoff: 02/25/2019
+ms.locfileid: "30242160"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 Smart reports 및 정보
 
@@ -74,6 +75,6 @@ ms.locfileid: "30217218"
 
 [Office 365의 보안 및 규정 준수 모니터링](monitor-security-and-compliance.md)
   
-[Office 365에서 위협으로부터 보호](protect-against-threats.md)
+[Office 365에서 위협 으로부터 보호](protect-against-threats.md)
   
 

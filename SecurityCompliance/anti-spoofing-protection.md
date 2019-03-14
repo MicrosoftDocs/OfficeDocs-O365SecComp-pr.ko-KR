@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: 이 문서에서는 Office 365에서 위조 된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용 하는 피싱 공격을 완화 하는 방법을 설명 합니다. 이를 위해 표준 전자 메일 인증 방법 및 기타 보낸 사람 신뢰도 기법을 사용 하 여 메시지를 분석 하 고, 인증 되지 않은 항목을 차단 합니다. 이 변경 사항은 Office 365의 조직이 제공 하는 피싱 공격의 수를 줄이기 위해 구현 되었습니다.
-ms.openlocfilehash: 422bac2ad5fd0c58928d79467721204b20583fd7
-ms.sourcegitcommit: 5d6be2b208dbe28d5d5da057c60cf97729799c1b
+ms.openlocfilehash: 377bc75e7538dacab1180045ddfdeb1a2ac32a65
+ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465485"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30492877"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 

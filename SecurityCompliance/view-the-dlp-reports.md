@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365의 dlp 보고서를 사용 하 여 dlp 정책 일치, 재정의 또는 가양성의 수를 빠르게 확인할 수 있습니다. 시간이 경과 함에 따라 작업 시간을 초과 하 고 있는지 여부를 확인할 수 있습니다. 다양 한 방법으로 보고서를 필터링 합니다. 그래프의 선에서 점을 선택 하 여 추가 세부 정보를 확인 합니다.
-ms.openlocfilehash: 6f97a29b5a80eeff60b13ba4467d44e3ef87b028
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: bd2bc63fa3e2ea08f44ddb3923786010c59e829f
+ms.sourcegitcommit: 173936324ea015d788703440924ec8a9fb0db88b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454850"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30510225"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
@@ -71,6 +71,16 @@ DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도
   
 ![수행할 세부 정보 및 작업을 확인 하는 insights 아이콘 클릭](media/51782036-7299-4960-8175-75c2b1637159.png)
   
+## <a name="permissions-for-dlp-reports"></a>DLP 보고서에 대 한 사용 권한
+
+Security & 준수 센터에서 DLP 보고서를 보려면 다음을 할당 해야 합니다.
+
+- Exchange 관리 센터의 **보안 독자** 역할입니다. 기본적으로이 역할은 Exchange 관리 센터의 조직 관리 및 보안 독자 역할 그룹에 할당 됩니다.
+
+- 보안 & 준수 센터의 **보기 전용 DLP 준수 관리** 역할입니다. 기본적으로이 역할은 보안 & 준수 센터의 준수 관리자, 조직 관리, 보안 관리자 및 보안 독자 역할 그룹에 할당 됩니다.
+
+- Exchange 관리 센터에서 **보기 전용 받는 사람** 역할입니다. 기본적으로이 역할은 Exchange 관리 센터의 준수 관리, 조직 관리 및 보기 전용 조직 관리 역할 그룹에 할당 됩니다.
+
 ## <a name="find-the-cmdlets-for-the-dlp-reports"></a>DLP 보고서용 cmdlet 찾기
 
 보안 &amp; 및 준수 센터에 대 한 cmdlet을 대부분 사용 하려면 다음 작업을 수행 해야 합니다.

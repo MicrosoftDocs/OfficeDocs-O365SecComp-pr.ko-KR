@@ -15,12 +15,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 4cb1355e841ee4b416bf5471872421b4c05433c5
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 924ec3522b056b267f5e8af394f380aaff8392a2
+ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524032"
+ms.locfileid: "30536138"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>office 365 사용자에 게 office 365 위협 조사 및 응답 기능을 안전 하 게 유지
 
@@ -31,7 +31,7 @@ ms.locfileid: "30524032"
 [office 365 위협 조사 및 응답](office-365-ti.md) 은 office 365 E5 구독에 포함 된 기능 모음입니다. Office 365 위협 조사 및 응답 기능을 통해 Microsoft IT는 사회 공학적 인시던트에 대 한 해결 방법을 80%로 줄이고, 월별 사례 처리량을 지난 2 분기와 비교 하 여 매달 37%까지 줄일 수 있도록 했습니다. 
 
 > [!IMPORTANT]
-> office 365 advanced threat protection 및 위협 인텔리전스는 이제 추가 위협 방지 기능을 가진 office 365 Advanced Threat protection 계획 2의 일부입니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> office 365 advanced threat protection 및 위협 조사 및 응답 (이전의 office 365 위협 인텔리전스)은 이제 추가 위협 방지 기능을 가진 office 365 Advanced Threat protection 계획 2의 일부입니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 최근에는 위협 으로부터 검색 및 복구 하는 방법을 개선 하는 데 도움이 되는 새로운 기능이 추가 되었습니다. 다음은 업데이트 된 위협 조사 및 응답 기능을 통해 보다 효율적으로 수행할 수 있는 방법에 대 한 간략 한 설명입니다.
   
@@ -60,7 +60,7 @@ ms.locfileid: "30524032"
 Office 365 위협 조사 및 응답 기능은 Microsoft 지능형 보안 그래프의 데이터를 사용 하 여 제공 됩니다. 그래프는 Office 365에서 10억 Windows 장치, 4500억 월별 Azure 로그인 및 4000억 월별 전자 메일 메시지의 최신 위협 신호를 가져옵니다. 이 unrivaled 위협 신호는 관리자 및 보안 분석가가 조직에 영향을 주는 위협에 대 한 전체 정보를 확인 하는 데 중요 한 고객 테 넌 트에 대 한 광범위 한 가시성을 제공 합니다. 
   
    
-## <a name="why-threat-intelligence"></a>왜 위협 인텔리전스 인가요?
+## <a name="why-use-office-365-threat-investigation-and-response-capabilities"></a>Office 365 위협 조사 및 응답 기능을 사용 하는 이유
 
 Gartner에서 $90b를 단독으로 cybersecurity에서 사용한 추정치입니다. Sid를 제거 하는 경우 Gartner의 주요 조사 분석가는 "업계의 교대조가 검색 및 응답으로 이동 하는 것을 말합니다. 검색 및 응답 기능에 연결 되어 있지 않으면 futile 방지 되는 일반 메시지를 보냅니다. " 위협 investigtion 및 응답은 모든 기업의 서비스 포트폴리오에서 중요 한 부분으로, 독립 실행형 서비스로 사용 하거나 Office 365 E5의 일부로 사용할 수 있습니다.
   

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: siem server를 Office 365 Cloud App Security와 통합할 수 있습니다. 이 문서를 읽으면 작동 방식 및 설정 방법에 대 한 개요를 볼 수 있습니다.
-ms.openlocfilehash: b4baeda3cb836c0b1aa528d29176bbf4321d1fe2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 82b5e0e6467bd42acba3c40d67e4e0363a7e0f72
+ms.sourcegitcommit: 4abcc03497478abf1ae7fc84792f44360d8e59c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215878"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "30548588"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Office 365 Cloud App Security와 SIEM 서버 통합
   
@@ -27,7 +27,7 @@ ms.locfileid: "30215878"
    
 ## <a name="overview-and-prerequisites"></a>개요 및 필수 구성 요소
 
-[Office 365 Cloud App security](get-ready-for-office-365-cas.md) 을 siem (보안 정보 및 이벤트 관리) 서버와 통합 하 여 중앙 집중식 경고 모니터링을 사용 하도록 설정할 수 있습니다. 이는 클라우드 서비스 및 온-프레미스 서버 응용 프로그램을 사용 하는 조직에 특히 유용 합니다. siem server와의 통합을 통해 보안 팀은 일반적인 보안 절차를 자동화 하 고 클라우드 기반 및 온-프레미스 이벤트 간의 상관 관계를 자동으로 유지 하 여 Office 365 응용 프로그램을 보다 효율적으로 보호할 수 있습니다.  
+[Office 365 Cloud App security](get-ready-for-office-365-cas.md) 을 siem (보안 정보 및 이벤트 관리) 서버와 통합 하 여 중앙 집중식 경고 모니터링을 사용 하도록 설정할 수 있습니다. 이는 클라우드 서비스 및 온-프레미스 서버 응용 프로그램을 사용 하는 조직에 특히 유용 합니다. siem 서버를 통합 하 여 Office 365 Cloud App Security의 알림 및 활동을 siem 서버로 가져올 수 있습니다. siem server와의 통합을 통해 보안 팀은 일반적인 보안 절차를 자동화 하 고 클라우드 기반 및 온-프레미스 이벤트 간의 상관 관계를 자동으로 유지 하 여 Office 365 응용 프로그램을 보다 효율적으로 보호할 수 있습니다.  
   
 siem server를 Office 365 Cloud App Security와 처음 통합 하면 지난 2 일의 알림이 siem 서버에 전달 되 고, 선택한 모든 필터를 기반으로 하는 모든 경고가 전송 됩니다. 또한 연장 된 기간에 대해이 기능을 사용 하지 않도록 설정 하면 다시 사용 하도록 설정할 때 이전의 두 날의 알림을 전달 하 고 이후의 모든 경고를 전송 합니다.
 
@@ -82,7 +82,8 @@ Office 365 Cloud App Security에서는 현재 다음과 같은 siem 서버를 �
   
 7. **데이터 형식** 단계에서 다음 중 하나를 수행한 후 **Next (다음**)를 클릭 합니다.
     - **모든 알림의** 기본 설정 유지<br/>또는
-    - **모든 경고**를 클릭 한 다음 **특정 필터**를 선택 합니다. siem 서버에 보낼 알림 종류를 선택 하는 필터를 정의 합니다.<br/>![마법사의 데이터 형식 단계](media/ArcSightS1ExportOptions.png)
+    - **모든 경고**를 클릭 한 다음 **특정 필터**를 선택 합니다. siem 서버에 보낼 알림 종류를 선택 하는 필터를 정의 합니다.
+<br/>![마법사의 데이터 형식 단계](media/ArcSightS1ExportOptions.png)
   
 8. 축 하 합니다 화면에서 토큰을 복사 하 고 나중에 저장 합니다.<br/>![siem 에이전트 만들어짐 화면](media/SIEMAgentFinished.png) 
 
@@ -153,16 +154,16 @@ Office 365 Cloud App Security에서는 현재 다음과 같은 siem 서버를 �
 다음은 cef 형식에서이에 해당 하는 다른 샘플입니다.
 
 
-|cef 필드 이름  | Description  |
+|cef 필드 이름  | 설명  |
 |---------|---------|
 |우선     | 경고 타임 스탬프        |
 |끝나야     | 경고 타임 스탬프        |
 |rt     | 경고 타임 스탬프        |
-|msg     | Office 365 Cloud App Security 포털에 표시 되는 경고 설명        |
+|.msg     | Office 365 Cloud App Security 포털에 표시 되는 경고 설명        |
 |suser     | 알림 주체 사용자        |
 |destinationservicename     | Office 365, SharePoint 또는 OneDrive와 같은 시작 응용 프로그램 알림        |
 |cslabel     | 다양 한 의미를 갖는 레이블로 변경 합니다. 일반적으로 레이블은 targetobjects와 같은 설명이 필요 하지 않습니다.        |
-|cs     | 레이블에 해당 하는 정보 (예: 레이블 예제에 대 한 경고의 대상 사용자)        |
+|진단     | 레이블에 해당 하는 정보 (예: 레이블 예제에 대 한 경고의 대상 사용자)        |
 
 ## <a name="additional-tasks-as-needed"></a>추가 작업 (필요한 경우)
 
@@ -184,7 +185,7 @@ siem 서버를 구성 하 고 Office 365 Cloud App Security과 통합 한 후에
 
 2. siem 에이전트에 대 한 행을 찾습니다. 
 
-3. 줄임표를 클릭 한 다음 **편집**을 선택 합니다. siem 에이전트를 편집 하는 경우에는 .jar 파일을 다시 실행할 필요가 없으며 자동으로 업데이트 됩니다.<br/>![siem 에이전트를 편집 하려면 줄임표를 선택 하 고 편집을 선택 합니다.](media/96d0b362-3e0c-4dff-b2b4-d7af5b1bfb91.png)
+3. 줄임표를 클릭 한 다음 **편집**을 선택 합니다. siem 에이전트를 편집 하는 경우에는 .jar 파일을 다시 실행할 필요가 없으며 자동으로 업데이트 됩니다. <br/>![siem 에이전트를 편집 하려면 줄임표를 선택 하 고 편집을 선택 합니다.](media/96d0b362-3e0c-4dff-b2b4-d7af5b1bfb91.png)
   
 ### <a name="delete-a-siem-agent"></a>siem 에이전트 삭제
 

@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
-description: Advanced threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 조사 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고, Office 365에서 사용자를 대신 하 여 검색 한 기타 공격과 위협 지표를 검색할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 1d076ed6ca48b8423ad92d5ea71bd87167b8519a
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+description: office 365 Advanced threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
+ms.openlocfilehash: e3696306b5188858e6ca72e265c4f1aa24574f79
+ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524002"
+ms.locfileid: "30536188"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -28,14 +28,14 @@ ms.locfileid: "30524002"
   
 1. 공격을 쉽게 식별 하 고 모니터링 하 고 이해할 수 있도록 설정
     
-2. Exchange online, SharePoint Online, 비즈니스 및 Microsoft 팀을 위한 하나의 드라이브에서 위협에 빠르게 문제를 해결 하는 데 도움을 줍니다.
+2. Exchange online, SharePoint online, 비즈니스용 OneDrive 및 Microsoft 팀의 위협에 빠르게 문제를 해결 하는 데 도움을 줍니다.
     
 3. 조직에서 공격을 방지 하는 데 도움이 되는 정보를 제공 합니다.
 
 4. 중요 전자 메일 기반 위협에 대 한 자동화 된 조사 및 응답
     
 > [!IMPORTANT]
-> office **365 위협 조사 및 응답 (이전에 office 365 위협 인텔리전스)은 현재 office 365 Advanced threat Protection 계획 2의 일부로**, [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)와 같은 특정 구독에 포함 되어 있습니다. [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, Office 365 교육 A5 등입니다. 조직에서 Office 365 ATP를 포함 하지 않는 구독을 사용 하는 경우 ATP를 추가 기능으로 구입할 수 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)참조 하세요. 
+> **office 365 advanced threat protection 및 위협 조사 및 응답 (이전에 office 365 위협 인텔리전스)은 이제 특정 구독에 포함 된 office 365 advanced threat protection 2의 일부입니다** [. microsoft 365 enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육용 A5 등입니다. 조직에서 Office 365 ATP를 포함 하지 않는 구독을 사용 하는 경우 ATP를 추가 기능으로 구입할 수 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)참조 하세요. 
   
 ## <a name="whats-changing"></a>변경 된 기능
 
@@ -47,11 +47,11 @@ ms.locfileid: "30524002"
 
 - **조직에 이미 Office 365 Enterprise E5가 있는 경우**Advanced threat Protection 계획 2가 이미 있고, 위협 조사 및 대응 기능도 포함 되어 있습니다.
 
-- **조직에서 이전에 office 365 위협 인텔리전스 (office 365 Advanced threat Protection 제외)** 가 다른 office 365 구독에 대 한 추가 기능으로 사용 되는 경우 office 365 Advanced threat protection 계획 2가 됩니다. 여기에는 Advanced threat Protection 계획 1 및 위협 조사 및 응답 기능이 포함 됩니다. 
+- **조직에서 이전에 office 365 위협 인텔리전스 (office 365 Advanced threat Protection 제외)** 가 다른 office 365 구독에 대 한 추가 기능으로 사용 되는 경우 office 365 Advanced threat protection 계획 2가 됩니다. 여기에는 Office 365 Advanced Threat Protection 계획 1 및 위협 조사 및 응답 기능이 포함 됩니다. 
 
-- **조직에서 이전에 office 365 advanced threat protection (office 365 위협 인텔리전스)** 을 다른 office 365 구독에 추가 기능으로 사용 하는 경우 office 365 Advanced threat protection 계획 1이 됩니다. 여기에는 Advanced threat Protection (위협 investigaiton 및 응답 기능이 아님)이 포함 됩니다.
+- **조직에서 이전에 office 365 advanced threat protection (office 365 위협 인텔리전스)** 을 다른 office 365 구독에 추가 기능으로 사용 하는 경우 office 365 Advanced threat protection 계획 1이 됩니다. 여기에는 Office 365 Advanced threat Protection (위협 조사 및 응답 기능 제외)이 포함 됩니다.
 
-자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) 를 참조 하세요.
+자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) 를 참조 하세요.
 
 ## <a name="get-started-with-threat-investigaiton-and-response-capabilities"></a>위협 investigaiton 및 응답 기능 시작
 
