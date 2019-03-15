@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 Security & 준수 센터의 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 73d4aa6f9a12b8e1bf955dad09e4c4ca7290dae8
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: ebfc8d5e19bbc45c32ad65451f3f850662f358b4
+ms.sourcegitcommit: f86383dcb9c52352661d51b22617f1809445beaa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524092"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30573552"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 & 준수 센터의 메시지 추적
 
@@ -56,8 +56,8 @@ ms.locfileid: "30524092"
 
 - 다음 **사용자에 게**:이 필드를 클릭 하 여 조직에서 하나 이상의 받는 사람을 선택 합니다.
 
-> [!NOTE]외부의 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드 카드는 지원`*@contoso.com` ( `scot?@contoso.com`또는) 되지만 동시에 같은 필드에 여러 와일드 카드 항목을 사용할 수는 없습니다.
-> [!NOTE]여러 보낸 사람 또는 받는 사람 목록을 세미콜론 (`;`)으로 구분 하 여 붙여 넣을 수 있습니다. 공백 (`\s`), 캐리지 리턴 (`\r`) 또는 다음 줄 (`\n`) 기호를 사용할 수 있습니다.
+> [!NOTE]
+> 외부의 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드 카드는 지원`*@contoso.com` ( `scot?@contoso.com`또는) 되지만 동시에 같은 필드에 여러 와일드 카드 항목을 사용할 수는 없습니다.<br/>여러 보낸 사람 또는 받는 사람 목록을 세미콜론 (`;`)으로 구분 하 여 붙여 넣을 수 있습니다. 공백 (`\s`), 캐리지 리턴 (`\r`) 또는 다음 줄 (`\n`) 기호를 사용할 수 있습니다.
 
 ### <a name="time-range"></a>시간 범위
 
@@ -339,7 +339,7 @@ ms.locfileid: "30524092"
 |`DI=SJ`|메시지가 받는 사람의 정크 메일 폴더로 전송 되었습니다.|
 |`DI=SN`|메시지가 위험 수준이 높은 배달 풀을 통해 라우팅되었습니다. 자세한 내용은 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](https://technet.microsoft.com/library/jj200746.aspx)을 참조 하십시오.|
 |`DI=SO`|메시지가 일반 아웃바운드 배달 풀을 통해 라우팅되었습니다.|
-|' SFS = [a]|SFS = [b] '|스팸 규칙이 일치했음을 나타냅니다.|
+|`SFS=[a]|SFS=[b]`|스팸 규칙이 일치했음을 나타냅니다.|
 |`IPV=CAL`|연결 필터의 IP 허용 목록에 IP 주소가 지정되어 있어 메시지가 스팸 필터를 통과하도록 허용되었습니다.|
 |`H=<EHLOstring>`|연결 하는 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|
 |`PTR=<ReverseDNS>`|보내는 IP 주소의 PTR 레코드로, 역방향 DNS 주소라고도 합니다.|
@@ -354,7 +354,7 @@ ms.locfileid: "30524092"
 
 |**값**|**설명**|
 |:-----|:-----|
-|' AMA = SUM|v = 1|` or `AMA = EV|v = 1 '|메시지에 맬웨어가 포함된 것으로 확인되었습니다. `SUM`여러 엔진에서 맬웨어를 검색할 수 있음을 나타냅니다. `EV`특정 엔진에 의해 맬웨어가 검색 되었음을 나타냅니다. 맬웨어가 엔진에서 검색되면 후속 작업이 트리거됩니다.|
+|`AMA=SUM|v=1|`사용자나`AMA=EV|v=1`|메시지에 맬웨어가 포함된 것으로 확인되었습니다. `SUM`여러 엔진에서 맬웨어를 검색할 수 있음을 나타냅니다. `EV`특정 엔진에 의해 맬웨어가 검색 되었음을 나타냅니다. 맬웨어가 엔진에서 검색되면 후속 작업이 트리거됩니다.|
 |`Action=r`|메시지가 대체되었습니다.|
 |`Action=p`|메시지가 무시되었습니다.|
 |`Action=d`|메시지가 지연되었습니다.|
@@ -377,7 +377,7 @@ ms.locfileid: "30524092"
 
 |**값**|**설명**|
 |:-----|:-----|
-|' etr|ruleId =<guid>`|일치된 규칙 ID입니다.|
+|`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생 한 날짜 및 시간 (UTC)입니다.|
 |`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions in Exchange Online](https://technet.microsoft.com/library/jj919237.aspx)을 참조 하십시오.|
 |`Mode=<Mode>`|규칙의 모드입니다. 사용할 수 있는 값은 다음과 같습니다. <br/>• **적용**: 규칙에 대 한 모든 작업이 적용 됩니다. <br/>• **정책 팁으로 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다. <br/>• **정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.|

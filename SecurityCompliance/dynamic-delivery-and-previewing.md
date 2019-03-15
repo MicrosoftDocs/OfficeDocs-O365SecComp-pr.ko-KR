@@ -3,7 +3,7 @@ title: 동적 배달 및 Office 365 ATP 안전한 첨부 파일로 미리 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/08/2019
+ms.date: 03/12/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,16 +15,18 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: ATP 안전한 첨부 파일 정책을 설정할 때 메시지 지연을 방지 하 고 사용자가 검색 중인 첨부 파일을 미리 볼 수 있도록 동적 전달을 선택 합니다.
-ms.openlocfilehash: 1fb221d28a4089db8a4278903107c610d6825f5e
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d27fa16f8d1d117aa56a2080eb020ab3638ca6fe
+ms.sourcegitcommit: f86383dcb9c52352661d51b22617f1809445beaa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218398"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30573512"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 및 Office 365 ATP 안전한 첨부 파일로 미리 보기
 
-**요약**: 동적 배달은 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 대해 선택할 수 있는 옵션입니다. 이 문서를 읽으면 [Office 365에서 ATP 안전한 첨부 파일](atp-safe-attachments.md)의 동적 배달 및 첨부 파일 미리 보기 기능에 대해 자세히 알아볼 수 있습니다.
+## <a name="overview"></a>개요
+
+동적 배달은 [ATP 안전한 첨부 파일](atp-safe-attachments.md)에 대해 선택할 수 있는 옵션입니다. 이 문서를 읽으면 [Office 365에서 ATP 안전한 첨부 파일](atp-safe-attachments.md)의 동적 배달 및 첨부 파일 미리 보기 기능에 대해 자세히 알아볼 수 있습니다.
 
 [ATP 안전한 첨부 파일 정책이](set-up-atp-safe-attachments-policies.md) 조직에 대해 설정 된 경우 전자 메일 첨부 파일을 처리 하는 방법에 대 한 몇 가지 옵션을 사용할 수 있습니다. 여기에는 **Block**, **Replace**및 **Dynamic Delivery**가 포함 됩니다. ATP Safe 첨부 파일 정책이 구성 되는 방식에 따라 전자 메일 받는 사람이 첨부 파일을 검색 하는 동안 전자 메일을 배달 하는 동안 약간의 지연이 발생할 수 있습니다. 메시지 지연을 방지 하려면 **동적 배달을**선택 합니다.
   
@@ -51,7 +53,7 @@ ATP 안전한 첨부 파일 검사는 Office 365 데이터가 있는 동일한 �
   
 - 받는 사람이 동적 배달 옵션을 사용 하 여 ATP 안전 첨부 파일 정책에 포함 되는 경우에는 받는 사람에 게 상호 자리 표시자를 보게 되며 호환 되는 파일을 미리 볼 수 있습니다.
     
-- 받는 사람이 atp 안전한 첨부 파일 정책에 포함 되지 않는 경우 전자 메일 및 첨부 파일은 안전한 첨부 파일 검색 또는 첨부 파일 자리 표시자를 atp 하지 않고 진행 됩니다.
+- 받는 사람이 atp 안전한 첨부 파일 정책에 포함 되지 않는 경우 전자 메일 및 첨부 파일은 atp가 안전한 첨부 파일 검색 또는 첨부 파일 자리 표시자 없이 진행 됩니다.
     
 ## <a name="whats-required-for-dynamic-delivery-to-work"></a>동적 배달이 작동 하려면 어떻게 해야 하나요?
 
@@ -59,11 +61,11 @@ ATP 안전한 첨부 파일 검사는 Office 365 데이터가 있는 동일한 �
     
 - 동적 배달 옵션을 사용 하 여 atp 안전한 첨부 파일에 정책을 정의 해야 합니다 ( [Office 365에서 atp 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)참조).
     
-- 조직의 전자 메일이 Office 365에서 호스팅되어야 합니다.
+- 조직의 전자 메일이 Office 365에서 호스팅되어야 합니다. [Office 365 Advanced Threat Protection은 모든 SMTP 메일 전송 에이전트](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#requirements-for-office-365-advanced-threat-protection-atp) (예: Exchange Server)와 함께 사용할 수 있지만, ATP Safe 첨부 파일에 대 한 동적 배달 옵션을 사용 하려면 조직의 전자 메일이 Office 365에 호스트 되어 있어야 합니다. 전자 메일이 Office 365에서 호스트 되지 않는 경우 **Block**과 같은 다른 [ATP 안전 첨부 파일 정책 옵션](set-up-atp-safe-attachments-policies.md#step-3-learn-about-atp-safe-attachments-policy-options)을 선택 합니다.
     
-## <a name="are-there-scenarios-for-which-dynamic-delivery-is-not-available"></a>동적 배달을 사용할 수 없는 시나리오가 있나요?
+## <a name="additional-considerations"></a>추가 고려 사항
 
-동적 배달이 지원 되지 않는 경우도 있습니다. 여기에는 다음이 포함 됩니다.
+동적 배달이 지원 되지 않는 경우도 있습니다. 이러한 경계 및 제한은 다음과 같습니다.
   
 - 공용 폴더에 있는 전자 메일 메시지
     
@@ -79,3 +81,4 @@ ATP 안전한 첨부 파일 검사는 Office 365 데이터가 있는 동일한 �
 
 - [Secure/다목적 인터넷 메일 확장명 (S/MIME)](s-mime-for-message-signing-and-encryption.md)을 사용 하 여 암호화 된 메시지
 
+동적 배달이 지원 되지 않는 경우 ATP 안전한 첨부 파일은 전자 메일 메시지를 검사 하지 않습니다. 그러나 [ATP 안전한 링크 정책이](set-up-atp-safe-links-policies.md) 구성 되는 방식에 따라 전자 메일 메시지 (및 Office 파일)의 url이 검사 됩니다.
