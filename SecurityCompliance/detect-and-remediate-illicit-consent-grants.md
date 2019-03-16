@@ -8,18 +8,18 @@ ms.audience: ITPro
 ms.topic: article
 ms.collection:
 - o365_security_incident_response
-- Strat_O365_IP
+- M365-security-compliance
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1d8df4db94129bcdcb6ecf4859f9f89a1974edbe
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 454b1b0dcf7a6182895dcc97889286f3000c9626
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223357"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30656074"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -65,7 +65,7 @@ Azure Active Directory Portal 또는 PowerShell을 사용 하 여 사용자에 �
 ### <a name="steps-for-doing-this-with-powershell"></a>PowerShell에서이 작업을 수행 하기 위한 단계
 불법도를 확인 하는 가장 간단한 방법은 테 넌 트의 모든 사용자에 대 한 모든 oauth 승인 권한 부여 및 oauth 앱을 하나의 .csv 파일로 덤프 하는 Get-AzureADPSPermissions를 실행 하는 것입니다 [.](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 
 
-#### <a name="pre-requisites"></a>필수 조건
+#### <a name="pre-requisites"></a>필수 구성 요소
 - Azure AD PowerShell 라이브러리가 설치 되었습니다.
 - 스크립트를 실행할 테 넌 트에 대 한 전역 관리자 권한
 - 스크립트를 실행 하는 컴퓨터의 로컬 관리자입니다.

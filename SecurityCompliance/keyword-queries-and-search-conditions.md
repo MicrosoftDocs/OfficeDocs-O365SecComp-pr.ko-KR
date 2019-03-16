@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 49236223392af94a5641a9b319d2168f53bbcc06
-ms.sourcegitcommit: 03054baf50c1dd5cd9ca6a9bd5d056f3db98f964
+ms.openlocfilehash: 478f0f7089046cea9a1650fc090e59fc056db8a9
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30354760"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639165"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -123,11 +123,14 @@ ms.locfileid: "30354760"
 
 ## <a name="searchable-sensitive-data-types"></a>검색 가능한 중요한 데이터 형식
 
-보안 &amp; 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint의 문서 및 비즈니스용 OneDrive 사이트에 저장 된 신용 카드 번호 또는 사회 보장 번호와 같은 중요 한 데이터를 검색할 수 있습니다. 이 작업은 키워드 쿼리에 중요 한 `SensitiveType` 정보 유형의 속성 및 이름을 사용 하 여 수행할 수 있습니다. 예를 들어 쿼리 `SensitiveType:"Credit Card Number"` 는 신용 카드 번호가 포함 된 문서를 반환 합니다. 이 쿼리 `SensitiveType:"U.S. Social Security Number (SSN)"` 는 미국 사회 보장 번호가 포함 된 문서를 반환 합니다. 검색할 수 있는 중요 한 데이터 형식 목록을 보려면 &amp; 보안 및 준수 센터에서 **중요 한 정보 유형** **분류** \> 로 이동 합니다. 또는 보안 &amp; 준수 센터 PowerShell에서 **DlpSensitiveInformationType** cmdlet을 사용 하 여 중요 한 정보 유형 목록을 표시할 수 있습니다. 
+Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint 및 비즈니스용 OneDrive 사이트의 문서에 저장 된 신용 카드 번호 또는 사회 보장 번호와 같은 중요 한 데이터를 검색할 수 있습니다. 이 작업은 키워드 쿼리에 중요 한 `SensitiveType` 정보 유형의 속성 및 이름을 사용 하 여 수행할 수 있습니다. 예를 들어 쿼리 `SensitiveType:"Credit Card Number"` 는 신용 카드 번호가 포함 된 문서를 반환 합니다. 이 쿼리 `SensitiveType:"U.S. Social Security Number (SSN)"` 는 미국 사회 보장 번호가 포함 된 문서를 반환 합니다. 검색할 수 있는 중요 한 데이터 형식 목록을 보려면 &amp; 보안 및 준수 센터에서 **중요 한 정보 유형** **분류** \> 로 이동 합니다. 또는 보안 &amp; 준수 센터 PowerShell에서 **DlpSensitiveInformationType** cmdlet을 사용 하 여 중요 한 정보 유형 목록을 표시할 수 있습니다. 
   
 또한이 `SensitiveType` 속성을 사용 하 여 조직에 대해 자신이 만들었거나 다른 관리자가 만든 사용자 지정 중요 한 정보 유형의 이름을 검색할 수 있습니다. 보안 &amp; 및 준수 센터의 **중요 한 정보 유형** 페이지에 있는 **게시자** 열 (또는 PowerShell의 **publisher** 속성)을 사용 하 여 기본 제공 및 사용자 지정 중요를 구분할 수 있습니다. 정보 유형 자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조 하십시오.
   
 이 `SensitiveType` 속성을 사용 하 여 쿼리를 만드는 방법에 대 한 자세한 내용은 [Form a query to a sites에 저장 된 중요 한 데이터 찾기를](form-a-query-to-find-sensitive-data-stored-on-sites.md)참조 하십시오.
+
+> [!NOTE]
+> 중요 한 데이터 형식과 search 속성을 사용 `SensitiveType` 하 여 Exchange Online 사서함에 있는 중요 한 데이터를 검색할 수는 없습니다. 그러나 DLP (데이터 손실 방지) 정책을 사용 하 여 전송 중인 중요 한 emaill 데이터를 보호할 수 있습니다. 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md) 및 [개인 데이터 검색 및 찾기를](search-for-and-find-personal-data.md)참조 하세요.
   
 ## <a name="search-operators"></a>검색 연산자
 

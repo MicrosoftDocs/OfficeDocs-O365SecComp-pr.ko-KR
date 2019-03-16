@@ -1,7 +1,7 @@
 ---
 title: 데이터 손실 방지 정책 개요
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 80416ba0a402e33ed8af6390d261d3224fa0be2f
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 69ec5b2925d70c503655837af600f106379e1485
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455050"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639145"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -508,7 +508,7 @@ Office 2016의 DLP 정책 평가는 해당 콘텐츠를 사용하는 프로그�
     
 - [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
     
-- [DLP 함수가 찾는 항목](what-the-dlp-functions-look-for.md)
+- [DLP 기능이 찾는 항목](what-the-dlp-functions-look-for.md)
     
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
     

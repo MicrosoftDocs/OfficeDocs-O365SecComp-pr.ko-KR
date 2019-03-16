@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 2523072181307cce510f0f318834329b2c70b376
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 3000a066bf69f71327801035e7c270cc602565ac
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454990"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639015"
 ---
 # <a name="query-the-data-in-a-working-set"></a>작업 집합에서 데이터 쿼리
 
@@ -31,7 +31,7 @@ ms.locfileid: "30454990"
 
 ## <a name="building-your-query"></a>쿼리 작성
 
-키워드 조건 카드에 조건 카드와 쿼리 언어를 함께 사용 하 여 쿼리를 작성할 수 있습니다.
+키워드 조건 카드에 조건 카드와 쿼리 언어를 함께 사용 하 여 쿼리를 작성할 수 있습니다. 조건 카드를 블록으로 그룹화 하 여 보다 복잡 한 쿼리를 만들 수 있습니다.
 
 ### <a name="condition-card"></a>조건 카드
 
@@ -46,3 +46,9 @@ ms.locfileid: "30454990"
 ### <a name="query-language"></a>쿼리 언어
 
 조건 카드 외에도 키워드 카드에서 KQL 같은 쿼리 언어를 사용 하 여 쿼리를 작성할 수 있습니다. 쿼리 언어는 and, OR, NOT 및 NEAR (n)과 같은 표준 KQL 구문을 지원 합니다. 또한 단일 문자 와일드 카드 (?) 및 여러 문자 와일드 카드 (*)를 지원 합니다.
+
+## <a name="filter"></a>필터
+
+저장할 수 있는 쿼리 외에도 필터를 사용 하 여 쿼리 결과에 추가 조건을 신속 하 게 적용할 수 있습니다. 필터는 다음과 같은 몇 가지 중요 한 점에서 쿼리와 다릅니다.
+- 필터는 임시 (즉, 서로 다른 세션에 유지 되지 않음) 이며, 쿼리가 작업 집합에 저장 됩니다.
+- 필터는 항상 자동으로 추가 됩니다. 필터는 현재 적용 된 쿼리 위에 적용 되며, 쿼리를 적용 하면 해당 쿼리가 대체 됩니다.

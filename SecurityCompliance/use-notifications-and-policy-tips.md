@@ -1,7 +1,7 @@
 ---
 title: DLP 정책에 대 한 전자 메일 알림 보내기 및 정책 팁 표시
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 3/21/2018
 ms.audience: Admin
@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '정책 팁은 다른 사용자가 DLP 정책과 충돌 하는 콘텐츠로 작업할 때 표시 되는 알림 또는 경고입니다. 전자 메일 알림 및 정책 팁을 사용 하 여 인식을 향상 하 고 조직의 정책에 대 한 사용자를 교육 시킬 수 있습니다. 또한 사용자에 게 올바른 비즈니스 요구 사항이 있거나 정책이 가양성을 검색 하는 경우 차단 되지 않도록 정책을 재정의 하는 옵션을 제공할 수도 있습니다. '
-ms.openlocfilehash: ad351a4f24ce566a47692c190b455e9e680882ca
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: b598b665de3d45846e221ea4c1b5c2f49a659c6b
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455190"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639155"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대 한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -90,7 +90,7 @@ DLP 정책의 각 규칙에 대해 다음 작업을 수행할 수 있습니다.
 - HTML 또는 토큰을 사용 하 여 알림에 포함 되는 텍스트를 사용자 지정 합니다. 자세한 내용은 아래 섹션을 참조 하십시오.
     
 > [!NOTE]
->  전자 메일 알림은 그룹 또는 메일 그룹이 아닌 개별 받는 사람 에게만 보낼 수 있습니다. >는 새 콘텐츠만 전자 메일 알림을 트리거합니다. 기존 콘텐츠를 편집하면 정책 팁은 트리거되지만 전자 메일 알림은 트리거되지 않습니다. 
+>  전자 메일 알림은 그룹 또는 메일 그룹이 아닌 개별 받는 사람 에게만 보낼 수 있습니다. 새 콘텐츠만 전자 메일 알림을 트리거합니다. 기존 콘텐츠를 편집하면 정책 팁은 트리거되지만 전자 메일 알림은 트리거되지 않습니다. 
   
 ![전자 메일 알림 옵션](media/4e7b9500-2a78-44e6-9067-09f4bfd50301.png)
   

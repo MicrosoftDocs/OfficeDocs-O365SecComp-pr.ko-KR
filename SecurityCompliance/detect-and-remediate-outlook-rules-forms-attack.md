@@ -8,25 +8,26 @@ ms.audience: ITPro
 ms.topic: article
 ms.collection:
 - o365_security_incident_response
-- Strat_O365_IP
+- M365-security-compliance
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 214be3e8492c2896d2a4010c30768e41bc149078
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 59d45e50e15e3709c8a041ead59b8cc6e2a38306
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215238"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30656064"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
 **요약** Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
 
 ## <a name="what-is-the-outlook-rules-and-custom-forms-injection-attack"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 이란?
-공격자가 테 넌 시의 계정을 위반 하 고를 가져온 후에는이를 검색 하 고 제거 하는 방법을 시도해 야 합니다. 이를 지 속성 메커니즘을 설정 하는 것 이라고 합니다. outlook 규칙을 이용 하거나 outlook에 사용자 지정 양식을 삽입 하면 두 가지 방법으로이 작업을 수행할 수 있습니다. 두 경우 모두에서 규칙이 나 양식은 클라우드 서비스에서 데스크톱 클라이언트로 동기화 되므로 클라이언트 소프트웨어의 전체 포맷 및 다시 설치로 인해 주입 메커니즘이 제거 되지 않습니다. 이는 Outlook 클라이언트 소프트웨어가 클라우드의 사서함에 다시 연결 하는 경우 클라우드에서 규칙 및 양식을 다운로드 하기 때문입니다. 규칙 및 양식을 사용 하 고 나면 공격자가 원격 또는 사용자 지정 코드를 실행 하 여 일반적으로 로컬 컴퓨터에 맬웨어를 설치 합니다. 그런 다음 맬웨어가 자격 증명을 다시 도용 하거나 기타 불법 활동을 수행 합니다. 여기서는 클라이언트를 최신 버전으로 패치를 유지 하는 경우 현재 Outlook 클라이언트 기본값이 두 메커니즘을 모두 차단 함에 따라 위협에 취약 하지 않게 된다는 것이 좋습니다. 
+공격자가 테 넌 시의 계정을 위반 하 고를 가져온 후에는이를 검색 하 고 제거 하는 방법을 시도해 야 합니다. 이를 지 속성 메커니즘을 설정 하는 것 이라고 합니다. outlook 규칙을 이용 하거나 outlook에 사용자 지정 양식을 삽입 하면 두 가지 방법으로이 작업을 수행할 수 있습니다.
+두 경우 모두에서 규칙이 나 양식은 클라우드 서비스에서 데스크톱 클라이언트로 동기화 되므로 클라이언트 소프트웨어의 전체 포맷 및 다시 설치로 인해 주입 메커니즘이 제거 되지 않습니다. 이는 Outlook 클라이언트 소프트웨어가 클라우드의 사서함에 다시 연결 하는 경우 클라우드에서 규칙 및 양식을 다운로드 하기 때문입니다. 규칙 및 양식을 사용 하 고 나면 공격자가 원격 또는 사용자 지정 코드를 실행 하 여 일반적으로 로컬 컴퓨터에 맬웨어를 설치 합니다. 그런 다음 맬웨어가 자격 증명을 다시 도용 하거나 기타 불법 활동을 수행 합니다. 여기서는 클라이언트를 최신 버전으로 패치를 유지 하는 경우 현재 Outlook 클라이언트 기본값이 두 메커니즘을 모두 차단 함에 따라 위협에 취약 하지 않게 된다는 것이 좋습니다. 
 
 공격은 일반적으로 다음 패턴을 따릅니다.
 
@@ -87,7 +88,7 @@ Forms 익스플로잇
 ### <a name="steps-to-confirm-the-rules-and-forms-attack-using-powershell"></a>PowerShell을 사용 하 여 규칙 및 폼 공격을 확인 하는 단계
 규칙 또는 사용자 지정 양식 공격을 확인 하는 가장 간단한 방법은 Get-AllTenantRulesAndForms PowerShell 스크립트를 실행 하는 것입니다 [.](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1)  이 스크립트는 테 넌 트의 모든 사서함에 연결 되며 모든 규칙과 양식을 두 개의 .csv 파일로 덤프 합니다.
 
-#### <a name="pre-requisites"></a>필수 조건
+#### <a name="pre-requisites"></a>필수 구성 요소
 스크립트에서 규칙 및 양식을 읽기 위해 테 넌 트의 모든 사서함에 연결 하므로 스크립트를 실행 하려면 전역 관리자 권한이 필요 합니다.
 
 1. 로컬 관리자 권한이 있는 스크립트를 실행 하는 컴퓨터에 로그인 합니다.
@@ -140,7 +141,8 @@ Exchange Online의 사서함에 대 한 단계
 
 사용자 계정을 보호 하는 가장 좋은 방법은 특히 관리자 계정을 사용 하는 것이 [Office 365 사용자에 대해 multi-factor authentication을 설정](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하는 것입니다.  다음 작업도 수행 해야 합니다.
 <ol>
-    <li>사용자 계정을 <a href="https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports">액세스 하 고 사용</a>하는 방법을 모니터링 합니다. 초기 위반을 막을 수는 없지만 위반의 기간과 영향을 더 일찍 검색 하는 것은 단축 됩니다. 다음을 사용할 수 있습니다. <a href="https://support.office.com/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475">Office 365 Cloud App Security 정책을</a> 사용 하 여 계정을 모니터링 하 고 비정상적인 활동에 대 한 경고를 할 수도 있습니다.<ol type="a">
+    <li>사용자 계정을 <a href="https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports">액세스 하 고 사용</a>하는 방법을 모니터링 합니다. 초기 위반을 막을 수는 없지만 위반의 기간과 영향을 더 일찍 검색 하는 것은 단축 됩니다. 다음을 사용할 수 있습니다. <a href="https://support.office.com/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475">Office 365 Cloud App Security 정책을</a> 사용 하 여 계정을 모니터링 하 고 비정상적인 활동에 대 한 경고를 할 수도 있습니다. 
+        <ol type="a">
             <li><b>여러 번 실패 한 로그인 시도</b> 이 정책은 사용자의 환경에 프로필을 지정 하 고 알려진 기준에 따라 단일 세션에서 여러 로그인 작업을 수행 하는 경우 경고를 트리거합니다.</li>
             <li><b>불가능 한 여행</b> - 이 정책은 작업 환경에 프로 파일을 만들고, 두 위치 사이의 예상 이동 시간 보다 짧은 기간 동안 서로 다른 위치에 있는 동일한 사용자가 활동을 검색 하는 경우 경고를 트리거합니다. 이는 다른 사용자가 동일한 자격 증명을 사용 하 고 있음을 나타낼 수 있습니다. 이 비정상적인 동작을 검색 하는 경우 초기 학습 기간이 7 일 동안 새 사용자의 작업 패턴을 학습 하는 데 사용 됩니다.</li>
             <li><b>비정상적으로 가장 된 활동 (사용자에 의해)</b> - 이 정책은 사용자가 사용 하는 환경의 프로필을 지정 하 고 배운 기준에 따라 단일 세션에서 여러 개의 가장 된 활동을 수행할 때 경고를 트리거합니다.</li>

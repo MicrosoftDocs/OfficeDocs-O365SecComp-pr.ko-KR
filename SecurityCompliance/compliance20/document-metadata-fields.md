@@ -14,19 +14,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7559653c5c92b26535fb3a16ae7dbb442dc0ba97
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: ed252eca2b05f3d44e0c69e5b9649a4d7819e92c
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455410"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639115"
 ---
 # <a name="document-metadata-fields"></a>문서 메타데이터 필드
 
 
 |**필드 이름** </br>|**검색 가능 하 고 작업 집합에 볼 수 있음** |**파일 메타 데이터 패널** |**프록시** |
 |:-------------------------- |:---------------------------------------- |:------------------------|:------------------|
-|사례 태그                  | 예                                             |                         | 예         |
+|사례 태그                  | 예 (태그)                                      |                         | 예         |
 |준수 레이블          |                                                 |                         | 예         |
 |컴파운드 경로              |                                                 |                         | 예         |
 |컨테이너 ID               |                                                 |                         | 예         |
@@ -37,11 +37,11 @@ ms.locfileid: "30455410"
 |Deduped 컴파운드 경로      |                                                 |                         | 예         |
 |Deduped custodians         |                                                 |                         | 예         |
 |Deduped 파일 id           |                                                 |                         | 예         |
-|문서 작성자                |                                                 |                         | 예         |
+|문서 작성자                | 예 (만든이) *                                   |                         | 예         |
 |문서 주석               |                                                 |                         | 예         |
 |문서 회사                |                                                 |                         | 예         |
-|만든 문서 날짜           |                                                 |                         | 예         |
-|문서 날짜 수정 됨          |                                                 |                         | 예         |
+|만든 문서 날짜           | 예 (createdTime) *                              |                         | 예         |
+|문서 날짜 수정 됨          | 예 (lastModifiedDate) *                         |                         | 예         |
 |Doc 키워드               |                                                 |                         | 예         |
 |문서 마지막 저장 한 사람          |                                                 |                         | 예         |
 |문서 수정한 사람            |                                                 |                         | 예         |
@@ -103,10 +103,10 @@ ms.locfileid: "30455410"
 |ND ET sort excl attach     |                                                 |                         | 예         |
 |ND ET sort incl attach     |                                                 |                         | 예         |
 |ND 집합                     |                                                 |                         | 예         |
-|O365 제작자               |                                                 |                         | 예         |
+|O365 제작자               | 예 (만든이) *                                   |                         | 예         |
 |O365을 만든 사람            |                                                 |                         | 예         |
-|O365 작성일          |                                                 |                         | 예         |
-|O365 날짜 수정 됨         |                                                 |                         | 예         |
+|O365 작성일          | 예 (createdTime) *                              |                         | 예         |
+|O365 날짜 수정 됨         | 예 (lastModifiedDate) *                         |                         | 예         |
 |O365 수정한 사람           |                                                 |                         | 예         |
 |부모 노드                |                                                 |                         | 예         |
 |피벗 ID                   | 예 (pivotId)                                   |                         | 예         |
@@ -117,3 +117,8 @@ ms.locfileid: "30455410"
 |유사성 비율         |                                                 |                         | 예         |
 |테마 목록                | 예 (주소록 목록)                                |                         | 예         |
 |Word count                 | 예 (wordCount)                                 |                         | 예         |
+|관련성 점수 (문제)    | 예 (relevanceScore_issueNum)                   |                         |             |
+|읽기 백분위 수 (문제)    | 예 (readPercentile_issueNum)                   |                         |             |
+|관련성 태그 (문제)      | 예 (relevanceTag_issueNum)                     |                         |             |
+
+  \*이러한 필드의 경우 문서에 포함 된 값이 있으면 검색에서 해당 값의 우선 순위를 지정 합니다. 그렇지 않은 경우에는 O365에서 값을 표시 하려고 합니다.

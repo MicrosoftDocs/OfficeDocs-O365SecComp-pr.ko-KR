@@ -3,7 +3,7 @@ title: Microsoft 365 보안 및 규정 준수 준비
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 01/23/2019
+ms.date: 03/14/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: 662f953b9c9e60d2ce59fbde9de03cf973fa0b99
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: cdea0aabec39082ce9da0001cb148fe14454e5b7
+ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357599"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30639055"
 ---
 # <a name="get-ready-for-the-new-microsoft-365-security-center-and-microsoft-365-compliance-center"></a>새 Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터 준비
 
@@ -50,7 +50,7 @@ Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도
 
 ## <a name="what-to-expect"></a>예상 되는 작업
 
-### <a name="coming-soon"></a>개봉박두!
+### <a name="coming-soon"></a>출시 예정!
 
 새로운 microsoft 365 보안 센터 및 새로운 microsoft 365 준수 센터는 1 월 후반부터 시작 하 여, 3 월 2019까지 배포 됩니다. 이 기간 내의 새로운 microsoft 365 보안 센터 및 microsoft 365 준수 센터에 액세스할 수 있어야 합니다.
 
@@ -72,7 +72,11 @@ Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도
 
 ## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
 
-새로운 microsoft 365 보안 센터와 Microsoft 365 준수 센터를 받으려면 조직에 microsoft 365 E3 또는 e5에 대 한 구독이 있거나, Office 365 Enterprise E3 또는 e5, Enterprise Mobility + security로 구성 된 볼륨 라이선스와 동등한 볼륨이 있어야 합니다. E3, e5 및 Windows 10 Enterprise E3/E5)
+### <a name="licenses"></a>라이선스
+
+새로운 microsoft 365 보안 센터와 Microsoft 365 준수 센터를 받으려면 조직에 microsoft 365 E3 또는 e5에 대 한 구독이 있거나, Office 365 Enterprise E3 또는 e5, Enterprise Mobility + security로 구성 된 볼륨 라이선스와 동등한 볼륨이 있어야 합니다. E3, e5 및 Windows 10 Enterprise E3/E5) 이러한 계획에 대 한 자세한 내용은 [사용자에 게 적합 한 Microsoft 365 Enterprise 솔루션 검색](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)을 참조 하십시오.
+
+### <a name="roles-and-permissions"></a>역할 및 사용 권한
 
 새 Microsoft 365 보안 센터 또는 microsoft 365 준수 센터에 액세스 하려면 사용자에 게 Azure Active Directory에서 전역 관리자, 준수 관리자, 보안 관리자 또는 보안 독자 역할을 할당 받아야 합니다.
 
@@ -87,21 +91,21 @@ Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도
 
 다음 표에서는 Azure, Office 365 및 Windows에서 다양 한 포털에 액세스할 수 있는 사람을 요약해 서 보여 줍니다.
 
-|Portal  |전역<br/>관리자  |보안 <br/>관리자<br>또는<br>보안<br>독자 |규정 준수<br/>관리자  |
+|포탈  |Global<br/>관리자  |보안 <br/>관리자<br>또는<br>보안<br>화면 |규정 준수<br/>관리자  |
 |---------|---------|---------|---------|
-|[Office 365 보안 및 준수 센터](https://protection.office.com) |예 |예   |예  |
-|[Microsoft 365 보안 센터](https://security.microsoft.com) |예  | O  | 아니요        |
+|[Office 365 보안 & 준수 센터](https://protection.office.com) |예 |예  |예 |
+|[Microsoft 365 보안 센터](https://security.microsoft.com) |예  | 예  | 아니요        |
 |[Microsoft 365 준수 센터](https://compliance.microsoft.com) | 예 | 아니요 | 예 |
-|[규정 준수 관리자](https://aka.ms/compliancemanager) |예 | 예  |예   |
-|[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |예 |O |아니요 |
-|[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |예 |O |아니요 |
-|[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |예 |O |아니요 |
-|[Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection?ocid=tia-260153000#windows-defender-atp) 및 [끝점 검색 및 응답](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview-endpoint-detection-response)     |예 |O |아니요 |
-|[id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection)     |예 |O |아니요 |
-|[권한 있는 id 관리](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |예 |O |아니요 |
-|[Intune](https://docs.microsoft.com/intune)     |예 |예  |예  |
-|[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |예 |예  |예  |
-|[보안 점수](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |예 |O |아니요 |
+|[규정 준수 관리자](https://aka.ms/compliancemanager) |예 | 예 |예  |
+|[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |예 |예 |아니요 |
+|[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |예 |예 |아니요 |
+|[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |예 |예 |아니요 |
+|[Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection?ocid=tia-260153000#windows-defender-atp) |예 |예 |아니요 |
+|[id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection)     |예 |예 |아니요 |
+|[권한 있는 id 관리](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |예 |예 |아니요 |
+|[Intune](https://docs.microsoft.com/intune)     |예 |예 |예 |
+|[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |예 |예 |예 |
+|[보안 점수](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |예 |예 |아니요 |
 |[Exchange](https://docs.microsoft.com/exchange/)     |예 |예 |예 |
 
 ## <a name="additional-resources"></a>추가 리소스
