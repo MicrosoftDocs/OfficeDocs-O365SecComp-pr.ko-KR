@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 Configure mail flow using connectors in Office 365을 참조하세요.
-ms.openlocfilehash: 6c9e3becf0f86deeee92ec7cf336bdbd950ac5e2
-ms.sourcegitcommit: f49ab866e21da83a0be6cb23ab7b6b4366a6a7ee
+ms.openlocfilehash: 96751f1f68e0b73c1d92b6868e99f4eb1c2739bf
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25715904"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670613"
 ---
 # <a name="set-up-your-eop-service"></a>EOP 서비스 설정
 
@@ -40,11 +40,11 @@ ms.locfileid: "25715904"
   
 ## <a name="how-do-you-do-this"></a>어떻게 해야 합니까?
 
-### <a name="step-1-use-the-office-365-admin-center-to-add-and-verify-your-domain"></a>1단계: Office 365 관리 센터를 사용하여 도메인 추가 및 확인
+### <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>1 단계: Microsoft 365 관리 센터를 사용 하 여 도메인 추가 및 확인
 
-1. Office 365 관리 센터에서 **설정**으로 이동하여 서비스에 도메인을 추가합니다. 
+1. Microsoft 365 관리 센터에서 **설정** 으로 이동 하 여 서비스에 도메인을 추가 합니다. 
     
-    Office 365 관리 센터를 찾는 위치를 잘 모르나요? [Office 365 관리 센터에 대한 정보](https://go.microsoft.com/fwlink/p/?LinkId=521888)에서 자세히 알아보세요.
+    Microsoft 365 관리 센터를 어디에서 찾을 수 있나요? 자세한 내용은 [Microsoft 365 관리 센터를](https://go.microsoft.com/fwlink/p/?LinkId=521888)참고 하세요.
     
 2. 도메인 소유권 확인을 위해 해당 DNS 레코드를 DNS 호스팅 공급자에 추가하는 단계를 수행합니다.
     
@@ -59,7 +59,7 @@ ms.locfileid: "25715904"
 
 EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하는 커넥터를 EAC(Exchange 관리 센터)에서 만듭니다. 자세한 내용은 [Set up connectors to route mail between Office 365 and your own email servers](http://technet.microsoft.com/library/2e93fd60-a5ef-4e64-8e62-2b862b2d1033.aspx)을 참조하세요.
   
-#### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부를 확인하려면 어떻게 해야 합니까?
+#### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 
 원격 연결 분석기를 사용하여 서비스와 환경 간의 메일 흐름을 검사하는 테스트를 실행합니다. 자세한 내용은 [Testing Mail Flow with the Remote Connectivity Analyzer](http://technet.microsoft.com/library/6c8c2964-d553-4329-8166-6e508dd63fa0.aspx)의 "원격 연결 분석기를 사용하여 이메일 배달 테스트" 섹션을 참조하세요.
   
@@ -72,15 +72,15 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
   
 ### <a name="step-5-use-the-shell-to-ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>5단계: 셸을 사용하여 스팸이 각 사용자의 정크 메일 폴더로 라우팅되도록 설정
 
-스팸 (정크) 전자 메일을 각 사용자의 정크 메일 폴더로 올바르게 라우팅됩니다 되도록는 관련 된 몇가지 구성 단계를 수행 해야 합니다. 단계는 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)에 제공 됩니다.
+스팸(정크) 메일이 각 사용자의 정크 메일 폴더로 라우팅되도록 하려면 몇 가지 구성 단계를 수행해야 합니다. [각 사용자의 정크 메일 폴더로 스팸을 라우팅되도록 하기](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)위한 단계를 제공 합니다.
   
-각 사용자의 정크 메일 폴더로 메시지 이동 하지 않으려면 하는 경우에 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집 하 여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성](../configure-your-spam-filter-policies.md)을 참조 하십시오.
+각 사용자의 정크 메일 폴더로 메시지를 옮기지 않으려면 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집하여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](../configure-your-spam-filter-policies.md)참조 하세요.
   
-### <a name="step-6-use-the-office-365-admin-center-to-point-your-mx-record-to-eop"></a>6단계: Office 365 관리 센터를 사용하여 MX 레코드가 EOP를 가리키도록 지정
+### <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>6 단계: Microsoft 365 관리 센터를 사용 하 여 MX 레코드가 EOP를 가리키도록 지정
 
 Office 365 도메인 구성 단계에 따라 도메인의 MX 레코드를 업데이트하여 인바운드 전자 메일이 EOP를 통해 이동하도록 할 수 있습니다. 타사 필터링 서비스가 전자 메일을 EOP로 릴레이할 때와 달리 MX 레코드가 EOP를 직접 가리키도록 해야 합니다. 자세한 내용은 [Office 365용 DNS 레코드 만들기](https://go.microsoft.com/fwlink/p/?LinkId=304219)를 참조하세요.
   
-#### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인합니까?
+#### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 
 원격 연결 분석기를 사용하여 MX 레코드를 확인하는 테스트를 실행합니다. 자세한 내용은 [Testing Mail Flow with the Remote Connectivity Analyzer](http://technet.microsoft.com/library/6c8c2964-d553-4329-8166-6e508dd63fa0.aspx)의 "원격 연결 분석기를 사용하여 MX 레코드 및 아웃바운드 커넥터 테스트" 섹션을 참조하세요. 
   

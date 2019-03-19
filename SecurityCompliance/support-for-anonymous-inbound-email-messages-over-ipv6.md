@@ -15,16 +15,16 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: exchange online Protection 및 exchange online에 대해 IPv6 원본에서 익명 메시지에 대 한 지원을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 229ee045d03b3fa4ccb7b4d5e59e1b2b7df6a7d7
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 328cef29b7f8b9637ece7aca729ad1d706351667
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276358"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670523"
 ---
 # <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
 
-EOP (exchange online Protection) 및 exchange online 지원은 TLS (전송 계층 보안)를 통해 메시지를 보내지 않는 보낸 사람 으로부터 IPv6 통신을 통해 익명 인바운드 전자 메일 메시지를 수신 합니다. Office 365 관리 센터 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)를 열고 **지원을**클릭 한 다음 **새 서비스 요청**을 클릭 하 여 Microsoft 지원에서이 기능을 요청 하면 IPv6을 통한 메시지를 수신 하도록 설정할 수 있습니다. i p v 6을 사용 하지 않는 경우에는 IPv4를 통해 메시지가 계속 수신 됩니다.
+EOP (exchange online Protection) 및 exchange online 지원은 TLS (전송 계층 보안)를 통해 메시지를 보내지 않는 보낸 사람 으로부터 IPv6 통신을 통해 익명 인바운드 전자 메일 메시지를 수신 합니다. microsoft 365 관리 센터 [https://admin.microsoft.com/adminportal/home](https://admin.microsoft.com/adminportal/home)를 열고 **지원을**클릭 한 다음 **새 서비스 요청**을 클릭 하 여 microsoft 지원에서이 기능을 요청 하면 IPv6을 통한 메시지를 수신 하도록 설정할 수 있습니다. i p v 6을 사용 하지 않는 경우에는 IPv4를 통해 메시지가 계속 수신 됩니다.
   
 IPv6을 통해 서비스로 메시지를 전송하는 보낸 사람은 다음의 두 가지 요구 사항을 준수해야 합니다.
   

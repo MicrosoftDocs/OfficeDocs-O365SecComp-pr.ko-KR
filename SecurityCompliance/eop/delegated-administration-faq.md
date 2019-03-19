@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: 이 항목에서는 다른 테넌트(회사)에 대한 EOP(Exchange Online Protection)를 관리하는 능력을 비롯하여 위임 받은 Office 365 관리 작업을 수행하려는 Microsoft 파트너 및 리셀러를 위한 질문과 답변이 제공됩니다.
-ms.openlocfilehash: b6096e835f90a0d5f22a39a5df76e52f1a25a79d
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 61f939932ab221343b67f87dd5c63f6697e70026
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027495"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670443"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 
@@ -24,7 +24,7 @@ ms.locfileid: "22027495"
   
  **Q. 저는 재판매인이고 고객의 테넌트를 관리해야 합니다. 이 작업은 어떻게 수행해야 합니까?**
   
-A. Microsoft 파트너이거나 재판매인일 경우 그리고 Microsoft 관리자가 되기 위해 등록한 경우 사용 권한을 요청하여 Office 365 관리 센터에서 테넌트를 관리할 수 있습니다. 이를 위임된 관리하고 하며, 이를 통해 조직의 관리자처럼 Office 365 테넌트(EOP 설정 포함)를 관리할 수 있습니다. 위임된 관리를 수행하는 단계는 다음과 같습니다.
+대답. microsoft 파트너 또는 대리점이 고 microsoft advisor에 등록 한 경우 관리 센터에서 테 넌 트를 관리 하는 권한을 요청할 수 있습니다. 이를 위임된 관리하고 하며, 이를 통해 조직의 관리자처럼 Office 365 테넌트(EOP 설정 포함)를 관리할 수 있습니다. 위임된 관리를 수행하는 단계는 다음과 같습니다.
   
 1. [Microsoft Office 365 관리자](https://aka.ms/cloudbenefits)로 등록합니다.
     
@@ -44,6 +44,6 @@ A. Office 365는 현재 이 기능을 지원하지 않습니다.
   
  **Q. 모든 하위 테넌트의 보고를 통합하려면 어떻게 합니까?**
   
-A. 관리하는 회사의 보고 기능 통합을 현재 Office 365 관리 센터에서는 사용할 수 없습니다. 그렇지만 원격 Windows PowerShell 또는 [보고 웹 서비스](https://go.microsoft.com/fwlink/?LinkId=279926)를 통해서는 이 작업을 수행할 수 있습니다. 
+A. 관리 하는 회사 전체의 통합 보고 기능은 현재 Micrsoft 365 관리 센터 보고서에서 사용할 수 없습니다. 그렇지만 원격 Windows PowerShell 또는 [보고 웹 서비스](https://go.microsoft.com/fwlink/?LinkId=279926)를 통해서는 이 작업을 수행할 수 있습니다. 
   
 

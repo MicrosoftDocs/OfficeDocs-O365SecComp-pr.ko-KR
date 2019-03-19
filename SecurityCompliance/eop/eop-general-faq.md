@@ -11,12 +11,12 @@ ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 다음은 Microsoft EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 그에 대한 대답입니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
-ms.openlocfilehash: 9a8ac96678e33623803e95998780b4544dec5a78
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 888cf338a3f1767ddd6ba01a2f0f60f2f8794e3e
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027385"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670453"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
@@ -26,11 +26,11 @@ ms.locfileid: "22027385"
     
 - [위임된 관리 FAQ](delegated-administration-faq.md)
     
-- [스팸 방지 보호 FAQ](../anti-spam-protection-faq.md)
+- [스팸 방지 보호 기능 FAQ](../anti-spam-protection-faq.md)
     
-- [수신 허용-보낸사람 및 수신된 거부 목록 Exchange Online](../safe-sender-and-blocked-sender-lists-faq.md)
+- [Exchange Online의 수신 허용-보낸 사람 및 수신 거부 목록](../safe-sender-and-blocked-sender-lists-faq.md)
     
-- [격리 FAQ](../quarantine-faq.md)
+- [Quarantine FAQ](../quarantine-faq.md)
     
 - [맬웨어 방지 보호 FAQ](../anti-malware-protection-faq-eop.md)
     
@@ -64,7 +64,7 @@ ms.locfileid: "22027385"
   
  **Q. EOP에도 알려진 문제와 필요한 해결 방법에 대한 정보를 찾을 수 있는 통신 포털이 있습니까? 새로운 기능에 대한 정보는 어떻게 확인할 수 있습니까?**
   
-A. Office 365 관리 센터에서 이러한 정보 중 일부가 제공됩니다. 서비스 수준 이벤트가 발생하는 경우 Office 365 관리 센터에 로그인한 후 통신 경고(보통 종 아이콘이 함께 표시됨)를 확인해야 합니다. 관련 정보를 확인하고 항목에 대한 작업을 적절하게 수행하는 것이 좋습니다.
+A. Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되어 있습니다. 서비스 수준 이벤트의 영향을 받는 경우 Microsoft 365 관리 센터에 로그인 한 후 통신 경고 (일반적으로 종 아이콘이 함께)가 표시 됩니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다.
   
 새 EOP 기능과 관련해서 [비즈니스용 Office 365 로드맵](https://office.microsoft.com/en-us/products/office-365-roadmap-FX104343353.aspx)은 향후 출시될 새 기능에 대한 정보를 찾는 데 유용한 리소스입니다. 또한 새로운 기능에 대한 블로그 기사를 [Office 블로그](https://go.microsoft.com/fwlink/p/?LinkId=392724) 웹 사이트에 게시할 예정입니다. 
   

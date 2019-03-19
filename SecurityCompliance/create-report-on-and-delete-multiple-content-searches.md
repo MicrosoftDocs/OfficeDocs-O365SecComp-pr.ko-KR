@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Office 365 보안 &amp; 및 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c61a62c7b31d24346fd58b7562872a7c45d1c65d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 740f3384e5d4f26e09512cc846ad8779bcbc31ef
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213238"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670663"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -52,15 +52,15 @@ ms.locfileid: "30213238"
     ,https://contoso-my.sharepoint.com/personal/janets_contoso_onmicrosoft_com,,1/1/2015,
     ```
 
-    파일의 첫 번째 행 또는 머리글 행에는 새 콘텐츠 검색을 만들기 위해 **ComplianceSearch** cmdlet (3 단계의 스크립트)에서 사용 하는 매개 변수가 나열 됩니다. 각 매개 변수 이름은 쉼표로 구분 됩니다. 머리글 행에 공백이 없는지 확인 합니다. 머리글 행 아래의 각 행은 각 검색에 대 한 매개 변수 값을 나타냅니다. CSV 파일의 자리 표시자 데이터를 실제 데이터로 바꿔야 합니다. 
+    파일의 첫 번째 행 또는 머리글 행에는 새 콘텐츠 검색을 만들기 위해 **ComplianceSearch** cmdlet (3 단계의 스크립트)에서 사용 하는 매개 변수가 나열 됩니다. 각 매개 변수 이름은 쉼표로 구분됩니다. 머리글 행에 공백이 없는지 확인 합니다. 머리글 행 아래의 각 행은 각 검색에 대 한 매개 변수 값을 나타냅니다. CSV 파일의 자리 표시자 데이터를 실제 데이터로 바꿔야 합니다. 
     
 2. Excel에서 .txt 파일을 열고 다음 표의 정보를 사용 하 여 각 검색에 대 한 정보로 파일을 편집 합니다. 
     
     |**매개 변수**|**설명**|
     |:-----|:-----|
     | `ExchangeLocation` <br/> |사용자 사서함의 SMTP 주소입니다.  <br/> |
-    | `SharePointLocation` <br/> |사용자의 비즈니스용 OneDrive 사이트 url 또는 조직의 모든 사이트에 대 한 url입니다. 비즈니스용 OneDrive 사이트의 URL에 대해 다음 ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `형식을 사용 합니다. 예를 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`들면입니다.<br/> |
-    | `ContentMatchQuery` <br/> |검색에 대 한 검색 쿼리 검색 쿼리를 만드는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.<br/> |
+    | `SharePointLocation` <br/> |사용자의 비즈니스용 OneDrive 사이트 url 또는 조직의 모든 사이트에 대 한 url입니다. 비즈니스용 OneDrive 사이트의 URL에 대해 다음 ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `형식을 사용 합니다. 예:  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |
+    | `ContentMatchQuery` <br/> |검색에 대 한 검색 쿼리 검색 쿼리를 만드는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.  <br/> |
     | `StartDate` <br/> |전자 메일의 경우 받는 사람이 또는 메시지를 받은 날짜나 보낸 사람이 보낸 날짜입니다. SharePoint 또는 비즈니스용 OneDrive 사이트에 대 한 문서에는 문서를 마지막으로 수정한 날짜 또는 그 이후의 날짜가 수정 되었습니다.  <br/> |
     | `EndDate` <br/> |전자 메일의 경우 사용자가 보낸 메시지를 보내거나 받은 날짜입니다. SharePoint 또는 비즈니스용 OneDrive 사이트에 대 한 문서는 마지막으로 문서를 수정한 날짜 또는 그 전에 발생 합니다.  <br/> |
    
@@ -98,7 +98,7 @@ ms.locfileid: "30213238"
 
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `CreateSearches.ps1`들면입니다. 다른 파일을 저장 한 동일한 폴더에 파일을 저장 합니다.
     
-  ```
+  ```Powershell
   # Get the Search Group ID and the location of the CSV input file
   $searchGroup = Read-Host 'Search Group ID'
   $csvFile = Read-Host 'Source CSV file'
@@ -175,7 +175,7 @@ ms.locfileid: "30213238"
 
 2. Windows PowerShell에서 이전 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```Powershell
     .\CreateSearches.ps1
     ```
 
@@ -195,7 +195,7 @@ ms.locfileid: "30213238"
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `SearchReport.ps1`들면입니다. 다른 파일을 저장 한 동일한 폴더에 파일을 저장 합니다.
     
-  ```
+  ```Powershell
   $searchGroup = Read-Host 'Search Group ID'
   $outputFile = Read-Host 'Enter a file name or file path to save the report to a .csv file. Leave blank to only display the report'
   $searches = Get-ComplianceSearch | ?{$_.Name -clike $searchGroup + "_*"}
@@ -250,7 +250,7 @@ ms.locfileid: "30213238"
 
 2. Windows PowerShell에서 이전 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```Powershell
     .\SearchReport.ps1
     ```
 
@@ -258,7 +258,7 @@ ms.locfileid: "30213238"
     
 4. 보고서를 **csv 파일에 저장 하는 파일 경로 (보고서를 표시 하는 경우에는 비워 둠)** 를 선택 하 고 보고서를 csv 파일에 저장 하려면 전체 파일 이름 경로 (.csv 파일 확장명 포함)의 파일 이름을 입력 합니다. .csv 파일 확장명을 포함 한 csv 파일의 이름입니다. 예를 `ContosoCaseReport.csv` 들어 현재 디렉터리에 파일을 저장 하거나 다른 폴더에 저장 하도록 입력할 수 `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` 있습니다. 또한 메시지를 비워 두면 보고서를 표시 하지만 파일에 저장 하지는 않습니다. 
     
-5. enter **** 키를 누릅니다.
+5. **Enter** 키를 누릅니다.
     
     이 스크립트는 검색 만들기 및 실행 진행률을 표시 합니다. 스크립트가 완료 되 면 보고서가 표시 됩니다. 
     
@@ -273,7 +273,7 @@ ms.locfileid: "30213238"
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `DeleteSearches.ps1`들면입니다. 다른 파일을 저장 한 동일한 폴더에 파일을 저장 합니다.
     
-  ```
+  ```Powershell
   # Delete all searches in a search group
   $searchGroup = Read-Host 'Search Group ID'
   Get-ComplianceSearch |
@@ -289,7 +289,7 @@ ms.locfileid: "30213238"
 
 2. Windows PowerShell에서 이전 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```Powershell
     .\DeleteSearches.ps1
     ```
 

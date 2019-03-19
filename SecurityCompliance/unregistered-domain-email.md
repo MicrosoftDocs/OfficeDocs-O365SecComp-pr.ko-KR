@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 등록 되지 않은 도메인 전자 메일을 대량 전송 하는 경우 전자 메일 차단 위험이 실행 됩니다. 자세한 내용은이 문서를 참조 하세요.
-ms.openlocfilehash: 8120bd147da2a7aab41ae14c444d2fe57242199e
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 21c403c8072902565f63048782b06c531cdbceb0
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276228"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670543"
 ---
 # <a name="unregistered-domain-email-what-you-need-to-know"></a>등록 되지 않은 도메인 전자 메일: 알아야 할 사항
 
@@ -37,7 +37,7 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 등록 되지 않은 도메인에서 보내기를 차단 하면 몇 가지 작업을 수행 해야 합니다.
 
-1. 모든 도메인을 Office 365 관리 센터에 등록 해야 합니다. 자세한 내용은 [여기](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)에서 확인할 수 있습니다.
+1. 모든 도메인을 Microsoft 365 관리 센터에 등록 해야 합니다. 자세한 내용은 [여기](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)에서 확인할 수 있습니다.
 
 2. 비정상적인 커넥터를 찾습니다. 악의적인 행위자는 종종 Office 365 테 넌 트에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 커넥터를 확인 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/en-us/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps)에서 확인할 수 있습니다. 
 

@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하도록 하기 위해 Office 365에서 domainkeys 식별 메일 (dkim)을 사용 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 28e529038cefc955da4c76309d169a9f3b5e4a23
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 8792f41ade704c7742445646b3cb965561994d02
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524082"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670683"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사
 
@@ -137,9 +137,9 @@ TTL:                3600
 ### <a name="enable-dkim-signing-for-your-custom-domain-in-office-365"></a>Office 365에서 사용자 지정 도메인에 대해 dkim 서명 사용
 <a name="EnableDKIMinO365"> </a>
 
-CNAME 레코드를 DNS에 게시 한 후에는 Office 365을 통해 dkim 서명을 사용 하도록 설정할 수 있습니다. Office 365 관리 센터를 통해 또는 PowerShell을 사용 하 여이 작업을 수행할 수 있습니다.
+CNAME 레코드를 DNS에 게시 한 후에는 Office 365을 통해 dkim 서명을 사용 하도록 설정할 수 있습니다. Microsoft 365 관리 센터를 통해 또는 PowerShell을 사용 하 여이 작업을 수행할 수 있습니다.
   
-#### <a name="to-enable-dkim-signing-for-your-custom-domain-through-the-office-365-admin-center"></a>Office 365 관리 센터를 통해 사용자 지정 도메인에 대해 dkim 서명을 사용 하도록 설정 하려면
+#### <a name="to-enable-dkim-signing-for-your-custom-domain-through-the-admin-center"></a>관리 센터를 통해 사용자 지정 도메인에 대해 dkim 서명을 사용 하도록 설정 하려면
 
 1. 회사 또는 학교 계정로 [Office 365에 로그인](https://support.office.microsoft.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)합니다. 
     
