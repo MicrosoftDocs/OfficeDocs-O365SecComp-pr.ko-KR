@@ -106,7 +106,7 @@
 ### [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)
 ### [연결 필터 정책 구성](configure-the-connection-filter-policy.md)
 ### [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
-### [차단 목록에서 사용자, 도메인 또는 IP 주소 제거](removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email.md)
+### [스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)
 ### [스팸 지수](spam-confidence-levels.md)
 #### [메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 #### [분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
