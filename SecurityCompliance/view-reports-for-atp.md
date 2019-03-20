@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 72776d6d7df98ffb43046a0d98e589c5ea39c257
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 3a128103d16ed03edb18becde96a5d20ee6eca9b
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341089"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692407"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -84,7 +84,7 @@ atp 보고서에는 [위협 보호 상태 보고서](#threat-protection-status-r
 |보고서 유형  |자세한 정보  |
 |---------|---------|
 |상위 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서, 스팸 감지 보고서 등의 **전자 메일 보안 보고서** | [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)        |
-|**탐색기** (위협 탐색기 라고도 하며, [Office 365 위협 인텔리전스](office-365-ti.md)에 포함 되어 있습니다.)     | [보안 &amp; 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)        |
+|**탐색기** (위협 탐색기 라고도 하며,이는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에 포함 되어 있습니다.)     | [보안 &amp; 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)        |
 |**EOP 및 ATP 결과** (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서입니다.) 이 보고서에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수와 같은 정보가 포함 됩니다.  | [MailTrafficATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |
 |**EOP 및 ATP** 검색 (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서입니다.) 이 보고서에는 악성 파일 또는 url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 자세한 정보가 포함 되어 있습니다.   | [MailDetailATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport?view=exchange-ps)        |
 
@@ -106,7 +106,7 @@ atp 보고서에는 [위협 보호 상태 보고서](#threat-protection-status-r
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
-- [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
    

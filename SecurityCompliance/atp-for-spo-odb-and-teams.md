@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.audience: Admin
-ms.date: 11/08/2018
+ms.date: 03/19/2019
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: d9d99041d002a6c43d7b6918f53aabb93f82339a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 55bd613cd89819906773d663deb6278f804cb9de
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220608"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692447"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 
@@ -50,7 +50,7 @@ Office 365의 구성 방식에 따라 사용자는 차단된 파일을 다운로
 
 - SharePoint 사이트가 [모던 경험](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)을 사용하도록 구성되었는지 확인합니다. 파일이 악성으로 확인되고 차단되었을 때 사용자는 이러한 발생을 모던 경험을 통해 확인할 수 있지만 클래식 보기에서는 확인할 수 없습니다. ATP 보호 기능은 모던 환경 또는 클래식 보기의 사용 여부에관계없이 적용됩니다; 그러나 파일이 차단되었다는 시각적 표시는 모던 경험을 통해서만 제공됩니다.
     
-- SharePoint 온라인, 비즈니스용 OneDrive 또는 Microsoft Teams에서 악성으로 식별되는 파일은 [Office 365 Advanced Threat Protection 보고서](view-reports-for-atp.md)와 Threat explorer에 [(Office 365 Threat Intelligence](office-365-ti.md)의 일부) 나타납니다.
+- SharePoint Online에서 악성으로 식별 되는 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)은 [office 365 advanced threat protection](view-reports-for-atp.md) 및 위협 탐색기 ( [office 365 Advanced Threat protection 계획 2](office-365-ti.md) 의 일부)에 표시 됩니다. ).
     
 - ATP는 조직의 전반적인 위협 보호 전략의 일부로서 스팸 방지 및 악성코드 방지 보호 수단 외에 안전한 링크 및 안전한 첨부 파일 기능을 포함합니다. 자세한 내용은 [Office 365의 위협으로부터 보호](protect-against-threats.md)를 참조합니다.
     

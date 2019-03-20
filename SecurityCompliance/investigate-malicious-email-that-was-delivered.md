@@ -3,7 +3,7 @@ title: 배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 인�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,26 +14,26 @@ search.appverid:
 ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
-description: 위협 인텔리전스를 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d5b08338bc0a3a6a88ea498861ab9e27522b759d
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 167a587e16b464bcc7b45bca25e9f3adceda758c
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30241910"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692457"
 ---
-# <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-threat-intelligence"></a>배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 인텔리전스)
+# <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>배달 된 악성 전자 메일 찾기 및 조사 (Office 365 Advanced Threat Protection 요금제 2)
 
-[Office 365 위협 인텔리전스](office-365-ti.md) 를 통해 사용자에 게 위험을 주는 작업을 조사 하 고 조직을 보호 하기 위한 조치를 취할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 사용자에 게 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기](get-started-with-ti.md#threat-explorer)를 사용 하 여이 작업을 수행할 수 있습니다.
+[Office 365 Advanced Threat Protection 계획 2](office-365-ti.md) 에서는 사용자에 게 위험을 주는 작업을 조사 하 여 조직을 보호 하기 위한 조치를 취할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 사용자에 게 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기](get-started-with-ti.md#threat-explorer)를 사용 하 여이 작업을 수행할 수 있습니다.
   
 > [!IMPORTANT]
-> 2019 년 2 월에 시작 해 서 향후 몇 개월 동안 롤아웃 되는 office 365 위협 인텔리전스는 추가 위협 방지 기능을 사용 하 여 office 365 Advanced threat protection 계획 2가 됩니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 office 365 Advanced Threat protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 ## <a name="before-you-begin"></a>시작 하기 전에
 
 다음 조건이 충족되었는지 확인하세요.
   
-- 조직에 [office 365 위협 인텔리전스](office-365-ti.md) 가 있고 [비즈니스용 office 365에서 사용자에 게 라이선스를 할당](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)합니다.
+- 조직에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md) 가 있고 [비즈니스용 office 365에서 사용자에 게 라이선스를 할당](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)합니다.
     
 - [Office 365](turn-audit-log-search-on-or-off.md) 조직에 대해 감사 로깅이 설정 됩니다. 
     
@@ -70,9 +70,9 @@ ms.locfileid: "30241910"
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 위협 인텔리전스](office-365-ti.md)
+[Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)
   
-[Office 365에서 위협으로부터 보호](protect-against-threats.md)
+[Office 365에서 위협 으로부터 보호](protect-against-threats.md)
   
 [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
   

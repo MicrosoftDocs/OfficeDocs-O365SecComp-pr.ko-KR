@@ -3,7 +3,7 @@ title: 보안 대시보드 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/07/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 7a4535a0cc02a6ad046cadb99b8ebb94df5fd9fe
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+ms.openlocfilehash: 83e75f1a38038f1c95697f4db3e7b1134d03779d
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30241890"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692757"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -78,14 +78,14 @@ ms.locfileid: "30241890"
 
 메트릭은 다음 표에 설명 된 대로 계산 됩니다.
 
-|메트릭  |계산 방법  |
+|192.168.1.0  |계산 방법  |
 |---------|---------|
 |검색 된 메시지 |검색 된 전자 메일 메시지의 수를 받는 사람 수에 곱하여 함 |
 |위협이 중지 됨  |맬웨어를 포함 하는 것으로 식별 되는 전자 메일 메시지 수 (받는 사람 수) |
 |[ATP](office-365-atp.md) 에 의해 차단 됨 |ATP에 의해 차단 되는 전자 메일 메시지 수와 받는 사람 수를 곱합니다. |
 |배달 후 제거 됨 |[자동 삭제](zero-hour-auto-purge.md) 를 통해 제거 되는 메시지 수를 받는 사람 수 곱하여 |
 
-## <a name="malware"></a>Malware
+## <a name="malware"></a>맬웨어
 
 맬웨어 위젯은 지난 7 일 동안의 맬웨어 추세 및 맬웨어 패밀리 유형에 대 한 세부 정보를 표시 합니다.
 
@@ -99,9 +99,9 @@ ms.locfileid: "30241890"
 
 예를 들어 일부 사용자가 정크 메일 옵션을 사용 하지 않도록 설정 했으므로 피싱 전자 메일 메시지가 배달 되는 것을 볼 수 있습니다. insights 작동 방식에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 Reports and insights](reports-and-insights-in-security-and-compliance.md)를 참조 하세요.
   
-## <a name="threat-intelligence"></a>위협 인텔리전스
+## <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
-조직의 구독에 [위협 인텔리전스 기능이](office-365-ti.md)포함 되어 있는 경우 보안 대시보드에 고급 도구를 포함 하는 **위협 인텔리전스** 섹션이 있습니다. 조직의 보안 팀은이 섹션의 정보를 사용 하 여 최신 캠페인을 이해 하 고 위협을 조사 하 고 인시던트를 관리할 수 있습니다. 
+조직의 구독에 [Office 365 advanced threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 조직의 보안 팀은이 섹션의 정보를 사용 하 여 최신 캠페인을 이해 하 고 위협을 조사 하 고 인시던트를 관리할 수 있습니다. 
   
 ![위협 인텔리전스를 통해 조직에서 대상이 되는 공격을 이해 하는 데 도움이 됩니다.](media/threatintelwidget.png)
   
@@ -112,7 +112,7 @@ ms.locfileid: "30241890"
   
 ![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](media/trends.png)
   
-또한 조직의 Office 365 구독에 [위협 인텔리전스 기능이](office-365-ti.md)포함 되어 있는 경우 보안 팀이이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 해당 정보를 확인 하 고 작업을 수행할 수 있습니다. 우선 순위가 높은 보안 알림 
+또한 조직의 office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 해당 작업을 보고 수행할 수 있도록 합니다. 우선 순위가 높은 보안 알림 
 
 보내고 받은 전자 메일 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오. 
 
@@ -124,8 +124,8 @@ ms.locfileid: "30241890"
   
 [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
   
-[Office 365 Advanced Threat Protection 방지](office-365-atp.md)
+[Office 365 Advanced Threat Protection](office-365-atp.md)
   
-[Office 365 위협 인텔리전스](office-365-ti.md)
+[Office 365 위협 조사 및 응답](office-365-ti.md)
   
 

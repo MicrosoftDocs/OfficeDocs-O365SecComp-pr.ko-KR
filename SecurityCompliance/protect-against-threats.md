@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 위협으로부터 보호
+title: Office 365에서 위협 으로부터 보호
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -14,18 +14,18 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: Office 365 Enterprise를 통해 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 대 한 무단 액세스를 비롯 한 다양 한 위협 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: da39421184deacdc19adf073f086a3d8a2021acd
-ms.sourcegitcommit: 5b5bbced1577701bdb6befc8ed252e9d9e776529
+ms.openlocfilehash: 1d6abe6bd9347a625c6e533737ffe4bb3b7cee7a
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30245584"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693247"
 ---
-# <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협으로부터 보호
+# <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
 Office 365 Enterprise에서는 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 대 한 무단 액세스를 비롯 한 다양 한 위협 으로부터 조직을 보호 하는 데 도움을 받을 수 있습니다. 이 페이지의 리소스를 사용 하 여 사용자가 수행할 수 있는 위협 보호 옵션 및 작업에 대해 알아봅니다.
 
-## <a name="malware"></a>Malware
+## <a name="malware"></a>맬웨어
 
 - [스팸 &amp; 방지 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
     
@@ -66,13 +66,13 @@ Office 365에서 사용자 지정 도메인을 사용 하는 경우 조직의 �
 - [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
   
     
-## <a name="advanced-threat-protection"></a>Advanced Threat Protection
+## <a name="advanced-threat-protection"></a>고급 위협 방지
 
 스푸핑을 관리 하 고 피싱 공격 으로부터 보호 하며, ATP (Advanced Threat Protection)를 사용 하는 전자 메일 메시지의 악성 url 또는 파일을 찾기 위한 정책을 구성 합니다.
   
 - [Office 365 ATP에 대 한 자세한 정보](office-365-atp.md)
 
-- [Office 365 위협 인텔리전스에 대 한 개요 보기](office-365-ti.md)
+- [Office 365 ATP 계획 2의 개요 보기](office-365-ti.md)
     
 - [피싱 방지 정책 설정](set-up-anti-phishing-policies.md)
     

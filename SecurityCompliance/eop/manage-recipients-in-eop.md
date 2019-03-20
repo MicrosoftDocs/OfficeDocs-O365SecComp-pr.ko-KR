@@ -7,16 +7,15 @@ ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
 description: Microsoft EOP(Exchange Online Protection)에서는 메일 받는 사람을 관리하는 다양한 방법이 제공됩니다. 관리자는 EAC (Exchange 관리 센터) 내에서 또는 원격 Windows PowerShell을 사용 하 여 특정 관리 작업을 수행 하 고 Microsoft 365 관리 센터에서 수행 된 기타 관리 작업을 확인할 수 있습니다.
-ms.openlocfilehash: 52d423960444605382bd0314a5c12114fad755a2
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.openlocfilehash: 1d9436cf02538ab5c69e0e68d20eda1af5b0a5cd
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670403"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30691687"
 ---
 # <a name="manage-recipients-in-eop"></a>EOP에서 받는 사람 관리
 

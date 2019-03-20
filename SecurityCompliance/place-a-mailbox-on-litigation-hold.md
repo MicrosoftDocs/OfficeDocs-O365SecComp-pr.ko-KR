@@ -7,22 +7,21 @@ ms.date: 10/18/2016
 ms.audience: End User
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid: ''
 ms.assetid: adee4621-3626-4aec-aa53-00b35ff0d0b0
 description: '사서함에 소송 보존을 적용 하 여 삭제 된 항목 및 수정 된 항목의 원본 버전을 비롯 한 모든 사서함 콘텐츠를 유지 합니다. '
-ms.openlocfilehash: b2d2a60fddb51aa310d01a765c1ebbbf127ecd19
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: a4d0939ffed32a8442b4b705bd15804b9f3eb7ea
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296981"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693127"
 ---
 # <a name="place-a-mailbox-on-litigation-hold"></a>사서함을 소송 자료 보존으로 설정
  
-사서함에 소송 보존을 적용 하 여 삭제 된 항목 및 수정 된 항목의 원본 버전을 비롯 한 모든 사서함 콘텐츠를 유지 합니다. 사용자 사서함에 소송 보존을 적용 하면 사용자의 보관 사서함에 있는 콘텐츠 (사용 하도록 설정 된 경우)도 보존 됩니다. 삭제 되 고 수정 된 항목은 지정 된 기간 동안 또는 소송 보존에서 사서함을 제거할 때까지 보존 됩니다. 이러한 모든 사서함 항목은 원본 [위치 eDiscovery](http://technet.microsoft.com/library/6377cb7a-3416-4e15-8571-c45d2160fc6f.aspx) 검색에서 반환 됩니다. 
+사서함에 소송 보존을 적용 하 여 삭제 된 항목 및 수정 된 항목의 원본 버전을 비롯 한 모든 사서함 콘텐츠를 유지 합니다. 사용자 사서함에 소송 보존을 적용 하면 사용자의 보관 사서함에 있는 콘텐츠 (사용 하도록 설정 된 경우)도 보존 됩니다. 삭제 및 수정된 항목은 지정된 기간 동안 또는 소송 보존 상태에서 사서함을 해제할 때까지 보존됩니다. 이러한 모든 사서함 항목은 원본 [위치 eDiscovery](http://technet.microsoft.com/library/6377cb7a-3416-4e15-8571-c45d2160fc6f.aspx) 검색에서 반환 됩니다. 
   
 > [!IMPORTANT]
 > 소송 보존은 사용자 사서함의 복구 가능한 항목 폴더에 있는 항목을 보존 합니다. 삭제 되거나 수정 된 항목의 수와 크기에 따라 사서함의 복구 가능한 항목 폴더 크기가 빠르게 증가할 수 있습니다. 복구 가능한 항목 폴더는 기본적으로 높은 할당량을 사용 하 여 구성 됩니다. Exchange Online에서 사서함을 소송 보존 상태로 설정 하면이 할당량이 자동으로 증가 합니다. Exchange Server 2013에서는 주 단위로 소송 보존 상태로 설정 된 사서함을 모니터링 하 여 복구 가능한 항목 할당량의 제한에 도달 하지 않았는지 확인 하는 것이 좋습니다. 
@@ -34,7 +33,7 @@ ms.locfileid: "30296981"
     
 - 소송 보존 설정이 적용 되려면 최대 60 분이 소요 될 수 있습니다.
     
-- 이 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 필요한 사용 권한을 확인 하려면 [메시징 정책 및 규정 준수 권한](http://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) 항목의 "원본 위치 유지" 항목을 참조 하십시오. 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [메시징 정책 및 규정 준수 권한](http://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) 항목의 "원본 위치 유지" 항목을 참조 하십시오. 
     
 - exchange online 사서함에 소송 보존을 적용 하려면 exchange online (요금제 2) 라이선스를 할당 받아야 합니다. 사서함에 Exchange online (요금제 1) 라이선스가 할당 되는 경우이를 보류 상태로 설정 하려면 별도의 exchange online 보관 라이선스를 할당 해야 합니다.
     
@@ -44,7 +43,7 @@ ms.locfileid: "30296981"
     
 - 소송 보존은 삭제 된 항목을 보존 하 고 보존을 제거할 때까지 수정한 항목의 원래 버전도 보존 합니다. 원하는 경우 보존 기간을 지정 하 여 지정 된 기간 동안 사서함 항목을 보존할 수 있습니다. 보존 기간을 지정 하는 경우에는 메시지가 수신 되거나 사서함 항목이 만들어진 날짜부터 계산 됩니다. 지정 된 조건을 충족 하는 항목을 보존 하려면 원본 위치 유지를 사용 하 여 쿼리 기반 보존을 만듭니다. 자세한 내용은 원본 [위치 유지 만들기 또는 제거](http://technet.microsoft.com/library/9d5d8d37-a053-4830-9cb1-6e1ede25e963.aspx)를 참조 하세요.
     
-- 셸을 사용 하 여 exchange online 사서함을 보류 상태로 설정 하려면 exchange online PowerShell을 사용 해야 합니다. 자세한 내용은 [원격 PowerShell을 사용 하 여 Exchange Online에 연결](http://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx)을 참조 하세요.
+- 셸을 사용 하 여 exchange online 사서함을 보류 상태로 설정 하려면 exchange online PowerShell을 사용 해야 합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](http://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx)을 참조하세요.
     
 - 공용 폴더 사서함에 소송 보존을 설정 하는 것은 지원 되지 않습니다. 원본 위치 유지를 사용 하 여 공용 폴더를 보존 해야 합니다.
     
@@ -61,7 +60,7 @@ ms.locfileid: "30296981"
     
 5. **소송 보존** 페이지에서 다음 선택적 정보를 입력 합니다. 
     
-  - **소송 보존 기간 (일)** 이 상자를 사용 하 여 사서함이 소송 보존 상태에 있을 때 사서함 항목이 보관 되는 기간을 지정 합니다. 기간은 사서함 항목을 받거나 만든 날짜 로부터 계산 됩니다. 이 상자를 비워 두면 항목이 무기한으로 또는 보존이 제거 될 때까지 유지 됩니다. 기간을 지정 하려면 days를 사용 합니다. 
+  - **소송 보존 기간 (일)** 이 상자를 사용 하 여 사서함이 소송 보존 상태에 있을 때 사서함 항목이 보관 되는 기간을 지정 합니다. 기간은 사서함 항목이 수신되거나 만들어진 날짜부터 계산됩니다. 이 상자를 비워 두면 항목이 무기한으로 또는 보존이 제거 될 때까지 유지 됩니다. 기간을 지정 하려면 days를 사용 합니다. 
     
   - **참고 사항** 이 상자를 사용 하 여 사서함이 소송 보존 상태 인지를 사용자에 게 알립니다. 메모는 Outlook 2010 이상 버전을 사용 하는 경우 사용자의 사서함에 표시 됩니다. 
     
@@ -116,7 +115,7 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
 ```
 
-P
+<
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 <a name="sectionSection6"> </a>
 
@@ -159,7 +158,7 @@ P
     
   - 복구 가능한 항목 폴더에는 고유한 저장 제한이 있으므로 폴더의 항목이 사서함 저장 용량 한도를 초과 하지 않도록 합니다. 앞에서 설명한 것 처럼 오랫동안 사서함 데이터를 보존 하면 사용자 사서함에 복구 가능한 항목 폴더가 증가 하 게 됩니다. Exchange Online의 이러한 증가에 맞게 사서함을 소송 보존 상태로 설정 하면 복구 가능한 항목 폴더에 대 한 할당량이 자동으로 30gb에서 100 GB로 증가 합니다. 
     
-    Exchange Server 2013에서는 복구 가능한 항목 폴더에 대 한 기본 저장 제한도 30gb입니다. 이 폴더의 크기를 주기적으로 모니터링 하 여 제한에 도달 하지 않았는지 확인 하는 것이 좋습니다. 자세한 내용은 [복구 가능한 항목 폴더](http://technet.microsoft.com/library/efc48fb4-2ed8-4d05-93af-f3505fbc389d.aspx)를 참조 하십시오.
+    Exchange Server 2013에서는 복구 가능한 항목 폴더에 대 한 기본 저장 제한도 30gb입니다. 이 폴더의 크기를 주기적으로 모니터링 하 여 제한에 도달 하지 않았는지 확인 하는 것이 좋습니다. 자세한 내용은 [Recoverable Items Folder](http://technet.microsoft.com/library/efc48fb4-2ed8-4d05-93af-f3505fbc389d.aspx)을 참조하세요.
     
 - 모든 사서함에 대 한 보류를 설정 하는 이전 명령은 모든 사용자 사서함을 반환 하는 받는 사람 필터를 사용 합니다. 다른 받는 사람 속성을 사용 하 여 사서함 cmdlet을 파이프 하 여 해당 사서함에 소송 보존을 **설정할** 수 있는 특정 사서함 목록을 반환할 수 있습니다. 
     

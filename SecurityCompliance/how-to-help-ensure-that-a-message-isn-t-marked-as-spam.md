@@ -7,7 +7,6 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
 description: exchange online 또는 EOP (exchange online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지 하려면 업데이트 된 버전의 팁과 절차를 참조 하세요.
-ms.openlocfilehash: e8fecb3bd7411f2d5d24bf607dc2517b278eb108
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: bfd0ea72facbf5675e47177c7757ff5fe168ffe7
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275888"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30691787"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>메시지가 스팸으로 표시되지 않도록 하는 방법
 

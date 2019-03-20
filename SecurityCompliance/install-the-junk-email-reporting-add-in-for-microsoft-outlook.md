@@ -7,18 +7,17 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
 ms.collection:
 - M365-security-compliance
 description: 이 articleSupported LanguagesInstall에서 정크 메일 보고 추가 기능에 대 한 자세한 내용은 정크 메일 보고 추가를 제거 합니다.
-ms.openlocfilehash: b29bd367ca168ff45d983796b8ae6e68ee9df297
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: ee7d1ef3f906c7c03433140c50c5c975f456cb08
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276308"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693017"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치
   
@@ -26,7 +25,7 @@ ms.locfileid: "30276308"
   
 지원되는 모든 언어에 대한 추가 기능을 사용하면 Outlook 리본에서 정크 메일을 직접 보고할 수 있습니다. 영어 버전의 추가 기능에는 리본에서 직접 Microsoft에 전자 메일 문제를 보고하는 추가 옵션이 포함됩니다.
   
--   받은 피싱 메일 보고 
+-  받은 피싱 메일 보고 
     
 - 정크 메일로 잘못 식별된 전자 메일을 보고합니다.
     
@@ -125,11 +124,11 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
     
   - MaxMessageSelection 관리자가 한 번의 클릭으로 전송을 위해 사용자가 선택할 수 있는 최대 메시지 수를 정의할 수 있습니다. 메시지 개수 범위는 1~50이며 기본값은 10개입니다.
     
-    예: 한 번의 클릭으로 등록을 위해 사용자가 선택할 수 있는 최대 메시지 수를 설정 하려는 경우 설치 명령의 일부로 다음 옵션을 사용 합니다.`MaxMessageSelection=16`
+    Example: If you want to set the maximum number of messages that can be selected by users for submission in a single click to 16, use the following option as part of the installation command:  `MaxMessageSelection=16`
     
   - BccEmailAddress 관리자가 숨은 참조 전자 메일 주소를 설정하여 모든 사용자 전송의 복사본을 수신하도록 사서함을 설정할 수 있습니다. 사서함이 설정되면 전송된 모든 전자 메일 복사본이 BccEmailAddress로 전송됩니다. 그렇지 않으면 기본 설정이 "숨은 참조 전자 메일 주소 없음"입니다.
     
-    예: junkReports@contoso.com를 모든 전송에 대 한 숨은 참조 전자 메일 주소로 사용 하려면 다음 명령을 사용 합니다.`BccEmailAddress="junkReports@contoso.com"`
+    Example: If you want to use junkReports@contoso.com as the Bcc email address for all submissions, use the following command:  `BccEmailAddress="junkReports@contoso.com"`
     
     > [!NOTE]
     > 세미콜론 구분자를 입력하여 여러 숨은 참조 전자 메일 주소를 설정할 수 있습니다. 예:  `BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"`

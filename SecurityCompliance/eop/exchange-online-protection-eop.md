@@ -7,16 +7,15 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
-ms.openlocfilehash: fc5ea726de190395407952ceac69c4c682ac8f67
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 878380adb039961334413019551847717ace0cc7
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341749"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692327"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 

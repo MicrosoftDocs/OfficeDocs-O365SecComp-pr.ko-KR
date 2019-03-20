@@ -7,7 +7,6 @@ ms.date: 6/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: af11c7ab8e6d80737d2b25ca2b37c3bf7da9fe07
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 471d497a952345da673ce6b3a6f7e9e78bf9b94d
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341529"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693627"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
@@ -65,7 +64,7 @@ ms.locfileid: "30341529"
 ## <a name="submit-messages-that-were-tagged-as-junk-but-should-have-been-allowed-through"></a>정크로 태그가 지정 되었지만 허용 되는 메시지를 전송 합니다.
 <a name="sectionSection1"> </a>
 
-메시지가 정크 메일로 잘못 식별 된 경우 Microsoft 스팸 분석 팀에 "허위 긍정" 메시지를 제출할 수 있습니다. 분석가는 메시지를 평가 하 고 분석 합니다. 분석 결과에 따라 메시지 통과를 허용 하도록 서비스 전반의 스팸 콘텐츠 필터 규칙이 조정 될 수 있습니다.
+메시지가 정크 메일로 잘못 식별 된 경우 Microsoft 스팸 분석 팀에 "허위 긍정" 메시지를 제출할 수 있습니다. 분석가는 메시지를 평가 하 고 분석 합니다. 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체적으로 스팸 콘텐츠 필터 규칙이 조정될 수 있습니다.
   
 관리자는 전체 조직에 적용 되는 스팸 설정 정보를 더 검토할 수 있습니다. [메시지가 스팸으로 표시 되지 않도록](https://go.microsoft.com/fwlink/p/?LinkId=534224)하는 방법을 알아봅니다. 이 정보는 관리자 수준 컨트롤이 있고 가양성을 방지 하려는 경우에 유용 합니다.
   
@@ -87,7 +86,7 @@ ms.locfileid: "30341529"
     
   - 최종 사용자 스팸 알림 메시지(관리자가 사용하도록 설정한 경우). 
     
-- 전자 메일을 통해 스팸으로 분류 되지 않아야 하는 메시지를 Microsoft로 전송할 수도 있습니다. 이 작업을 수행할 때는 다음 절차의 단계를 사용 해야 합니다.
+- 전자 메일을 통해 스팸으로 분류되지 않아야 하는 메시지를 Microsoft로 전송할 수도 있습니다. 이 작업을 수행할 때는 다음 절차의 단계를 사용 해야 합니다.
     
 ### <a name="use-email-to-submit-false-positive-messages"></a>전자 메일을 통해 가양성 메시지 전송
 
@@ -96,7 +95,7 @@ ms.locfileid: "30341529"
 ## <a name="spam-evaluation-and-rules-deployment"></a>스팸 평가 및 규칙 배포
 <a name="sectionSection2"> </a>
 
-스팸 분석 팀은 제출한 메시지를 검사 하 고, 스팸 필터를 조정 하 여 향후 정크 메일을 방지 합니다. 따라서 Office 365 스팸 필터 areconstantly으로 구체화 합니다. 전송 된 항목은 네트워크 전체 수준에서 평가 됩니다. 거짓 긍정 전송을 검토 하 고 평가 하 여 나중에 스팸 필터를 통해 메시지를 허용할 수 있습니다. 따라서 서비스에 가양성 및 거짓 네거티브 (필터링 되지 않은 스팸)를 알리는 것은 사용자와 전역 네트워크를 사용 하는 모든 고객에 게 유용 합니다. 스팸 팀은 다음과 같이 전송 된 각 메시지 내에서 지표를 검사 합니다.
+스팸 분석 팀은 제출한 메시지를 검사 하 고, 스팸 필터를 조정 하 여 향후 정크 메일을 방지 합니다. 따라서 Office 365 스팸 필터 areconstantly으로 구체화 합니다. 전체 네트워크 수준에서 전송된 모든 항목을 평가합니다. 거짓 긍정 전송을 검토 하 고 평가 하 여 나중에 스팸 필터를 통해 메시지를 허용할 수 있습니다. 따라서 서비스에 가양성 및 거짓 네거티브 (필터링 되지 않은 스팸)를 알리는 것은 사용자와 전역 네트워크를 사용 하는 모든 고객에 게 유용 합니다. 스팸 팀은 전송된 각 메시지에서 다음과 같은 지표를 검사합니다.
   
 - 보낸 사람 주소
     
@@ -114,7 +113,7 @@ ms.locfileid: "30341529"
   
 [Microsoft Exchange 스팸 팀 비디오](https://youtu.be/-TpX_-GMC7o?hd=1)
   
-스팸 평가는 원래 언어 또는 문자 집합에 관계 없이 적용 되는 지속적인 프로세스입니다. 스팸 메시지는 모호 하거나 제목 또는 메시지 본문의 텍스트가 부족할 수 있으므로 스팸 팀은 다른 메시지 특성을 사용 하 여 필터링을 수행 합니다. 즉, 스팸 팀이 지정한 메시지에 스팸으로 플래그를 지정 하 고 규칙 기준을 필요한 대로 변경 하면 나중에 해당 메시지의 특성이 수정 되어 필터를 피할 수 있습니다. 새 스팸 규칙은 지속적으로 배포 됩니다. 개별 전송에 대 한 규칙의 시간 프레임은 전송 수량 및 품질에 따라 달라 집니다. 새 스팸 규칙은 모든 고객에 대해 전역적으로 설정 되므로, 개별 스팸 전송 이외의 모든 경우에 새 스팸 규칙이 생성 되는 것은 아닙니다.
+스팸 평가는 원래 언어 또는 문자 집합에 관계 없이 적용 되는 지속적인 프로세스입니다. 스팸 메시지는 모호 하거나 제목 또는 메시지 본문의 텍스트가 부족할 수 있으므로 스팸 팀은 다른 메시지 특성을 사용 하 여 필터링을 수행 합니다. 즉, 스팸 팀이 지정된 메시지에 스팸으로 플래그를 지정하고 규칙 기준을 필요한 대로 변경하고 나면 Microsoft의 필터를 피할 수 있도록 해당 특성이 수정될 때까지 해당 메시지가 차단됩니다. 새로운 스팸 규칙이 계속해서 배포됩니다. 개별 전송에 대 한 규칙의 시간 프레임은 전송 수량 및 품질에 따라 달라 집니다. 새 스팸 규칙은 모든 고객에 대해 전역적으로 설정 되므로, 개별 스팸 전송 이외의 모든 경우에 새 스팸 규칙이 생성 되는 것은 아닙니다.
    
 ## <a name="for-more-information"></a>자세한 내용
 <a name="sectionSection4"> </a>

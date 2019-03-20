@@ -8,18 +8,17 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 description: 관리자는 검색 사서함 cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다.
-ms.openlocfilehash: 718a23f649843420ccfd924be72752a99278da4c
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: abf7e7f39fe719ecc6c23565e284c01aed8822ee
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30297131"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693487"
 ---
 # <a name="search-for-and-delete-messages---admin-help"></a>메시지 검색 및 삭제 - 관리자 도움말
   
@@ -31,17 +30,17 @@ ms.locfileid: "30297131"
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 예상 완료 시간: 10분 실제 시간은 사서함 및 검색 쿼리의 크기에 따라 다를 수 있습니다.
+- 예상 완료 시간: 10분. 실제 시간은 사서함 및 검색 쿼리의 크기에 따라 다를 수 있습니다.
     
 - 이 절차를 수행하는 데 EAC(Exchange 관리 센터)를 사용할 수 없습니다. 셸을 사용해야 합니다.
     
 - 사용자 사서함에서 메시지를 검색 및 삭제 하려면 다음 관리 역할을 둘 다 할당 받아야 합니다.
     
-  - **사서함 검색**-이 역할을 사용 하면 조직의 여러 사서함에서 메시지를 검색할 수 있습니다. 관리자에 게는 기본적으로이 역할이 할당 되지 않습니다. 사서함을 검색할 수 있도록이 역할을 자신에 게 할당 하려면 자신을 검색 관리 역할 그룹의 구성원으로 추가 합니다. [Discovery Management 역할 그룹에 사용자 추가](http://technet.microsoft.com/library/729e09d8-614b-431f-ae04-ae41fb4c628e.aspx)를 참조 하세요.
+  - **사서함 검색**-이 역할을 사용 하면 조직의 여러 사서함에서 메시지를 검색할 수 있습니다. 관리자에게는 기본적으로 이 역할이 할당되지 않습니다. 사서함을 검색할 수 있도록 이 역할을 자신에게 할당하려면 자신을 검색 관리 역할 그룹의 구성원으로 추가합니다. [Add a User to the Discovery Management Role Group](http://technet.microsoft.com/library/729e09d8-614b-431f-ae04-ae41fb4c628e.aspx)를 참조하세요.
     
-  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로이 역할은 역할 그룹에 할당 되지 않습니다. 사용자 사서함에서 메시지를 삭제 하려면 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가 하면 됩니다. 자세한 내용은 [역할 그룹 관리](http://technet.microsoft.com/library/ab9b7a3b-bf67-4ba1-bde5-8e6ac174b82c.aspx) 의 "역할 그룹에 역할 추가" 섹션을 참조 하십시오. 
+  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로 이 역할은 역할 그룹에 할당되지 않습니다. 사용자 사서함에서 메시지를 삭제하려면 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가하면 됩니다. 자세한 내용은 [역할 그룹 관리](http://technet.microsoft.com/library/ab9b7a3b-bf67-4ba1-bde5-8e6ac174b82c.aspx) 의 "역할 그룹에 역할 추가" 섹션을 참조 하십시오. 
     
-- 메시지를 삭제 하려는 사서함에서 단일 항목 복구를 사용 하는 경우 먼저이 기능을 사용 하지 않도록 설정 해야 합니다. 자세한 내용은 [사서함에 대 한 단일 항목 복구를 사용 하거나 사용 하지 않도록 설정을](http://technet.microsoft.com/library/2e7f1bcd-8395-45ad-86ce-22868bd46af0.aspx)참조 하십시오.
+- 메시지를 삭제하려는 사서함에서 단일 항목 복구를 사용하는 경우 먼저 이 기능을 사용하지 않도록 설정해야 합니다. 자세한 내용은 [사서함에 대한 단일 항목을 사용하거나 사용하지 않도록 설정](http://technet.microsoft.com/library/2e7f1bcd-8395-45ad-86ce-22868bd46af0.aspx)을 참조하세요.
     
 - 메시지를 삭제 하려는 사서함이 보존 상태에 있는 경우 보존을 제거 하 고 사서함 콘텐츠를 삭제 하기 전에 레코드 관리 또는 법률 부서를 확인 하는 것이 좋습니다. 승인을 받은 후에 [는 복구 가능한 항목 폴더 정리](http://technet.microsoft.com/library/82c310f8-de2f-46f2-8e1a-edb6055d6e69.aspx)항목에 나와 있는 단계를 수행 합니다.
     

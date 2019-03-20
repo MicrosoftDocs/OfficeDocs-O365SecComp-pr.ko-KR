@@ -7,7 +7,6 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
-ms.openlocfilehash: e40770d8ff7e2c24058674f25b9ee8eb72e2bf7c
-ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
+ms.openlocfilehash: 089792ab8e46f4b200a2d98781cd378c2666c35f
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30492817"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693317"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 및 피싱 사기 신고 
 

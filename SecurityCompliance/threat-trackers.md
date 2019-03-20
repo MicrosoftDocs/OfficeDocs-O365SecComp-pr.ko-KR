@@ -14,19 +14,19 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 4cf3e13b7379e26deec90bbae2c4f9cf42fa91b7
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 6870e8d613dbd5d72f20e96be9615712bac711a9
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524052"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693077"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
 [Office 365 위협 조사 및 응답](office-365-ti.md) 기능을 통해 조직의 보안 팀이 cybersecurity 위협에 대 한 조치를 검색 하 고 작업을 수행할 수 있습니다. Office 365 위협 조사 및 응답 기능은 중요 한 추적기를 비롯 한 위협 추적 기능을 포함 합니다. 이 문서를 읽으면 이러한 새로운 기능과 다음 단계의 개요를 확인할 수 있습니다. 
 
 > [!IMPORTANT]
-> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능을 사용 하 여 office 365 Advanced Threat protection 계획 2에 포함 되어 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 office 365 Advanced Threat protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 ## <a name="what-are-threat-trackers"></a>위협 추적기 란?
 

@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (위협 탐색기 라고도 함)에 대해 알아봅니다.
-ms.openlocfilehash: 626d827712760aa0b7b6faf75d94f525cfe38dc2
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 0c86792d8ed84b43b28bde31004dc95d2fa2b547
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30524012"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693617"
 ---
 # <a name="use-threat-explorer-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 위협 탐색기 사용
 
@@ -31,7 +31,7 @@ ms.locfileid: "30524012"
 Explorer를 &amp; 사용 하려면 보안 및 준수 센터에서 **위협 관리** \> **탐색기**로 이동 합니다.
 
 > [!IMPORTANT]
-> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능을 사용 하 여 office 365 Advanced Threat protection 계획 2에 포함 되어 있습니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 office 365 Advanced Threat protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
       
 ## <a name="explorer-overview"></a>탐색기 개요
 

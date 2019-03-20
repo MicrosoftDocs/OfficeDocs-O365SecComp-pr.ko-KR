@@ -7,7 +7,6 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,18 +14,18 @@ ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 ms.collection:
 - M365-security-compliance
 description: Microsoft의 전자 메일 보안 로드맵에는 일치 하지 않는 제품 간 방법이 포함 됩니다. EOP (Exchange Online Protection) 스팸 방지 및 피싱 방지 필터링 기술은 Microsoft의 전자 메일 플랫폼에 적용 되어 사용자에 게 최신 스팸 방지 및 피싱 방지 도구와 네트워크 전체의 혁신을 제공 합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협 (피싱) 및 맬웨어로부터 사용자를 감지 하 고 보호 하는 데 도움이 되는 포괄적이 고 사용 가능한 전자 메일 서비스를 제공 하는 것입니다.
-ms.openlocfilehash: b4a7f581792922abdf92d37558ebbbbb8947a978
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 510b04d3f111c269d5f8579abcc809ddc283636b
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216568"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692857"
 ---
 # <a name="fighting-junk-email-sent-to-office-365"></a>Office 365에 전송 되는 정크 메일 보내기
 
 Microsoft의 전자 메일 보안 로드맵에는 일치 하지 않는 제품 간 방법이 포함 됩니다. EOP (Exchange Online Protection) 스팸 방지 및 피싱 방지 필터링 기술은 Microsoft의 전자 메일 플랫폼에 적용 되어 사용자에 게 최신 스팸 방지 및 피싱 방지 도구와 네트워크 전체의 혁신을 제공 합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협 (피싱) 및 맬웨어로부터 사용자를 감지 하 고 보호 하는 데 도움이 되는 포괄적이 고 사용 가능한 전자 메일 서비스를 제공 하는 것입니다.
   
-## <a name="the-challenge"></a>해결 과제
+## <a name="the-challenge"></a>챌린지
 
 전자 메일은 소비자 뿐만 아니라 모든 규모의 marketers, 지원 직원, 판매 조직 및 회사에 대 한 중요 한 통신 도구입니다. 전자 메일 사용이 증가 함에 따라 전자 메일 남용이 발생 합니다. 모니터링 되지 않는 정크 메일은 받은 편지함 및 네트워크를 clog 하 고 사용자 만족도에 영향을 줄 수 있으며 합법적인 전자 메일 통신의 효율성을 저하 합니다. Microsoft가 스팸 방지 기술에 계속 투자 하는 이유입니다. 간단히 말해서 정크 메일을 포함 하 고 필터링 하 여 시작 합니다. 
   

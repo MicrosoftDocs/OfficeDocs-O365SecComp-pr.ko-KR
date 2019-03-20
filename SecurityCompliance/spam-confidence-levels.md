@@ -7,7 +7,6 @@ ms.date: 10/2/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
 description: 전자 메일 메시지가 스팸 필터링을 통과 하면 스팸 점수가 할당 됩니다. 이 점수는 개별 SCL (스팸 지 수) 등급에 매핑되며 X-헤더에 스탬프 처리 됩니다. 이 서비스는 SCL 등급의 스팸 신뢰 해석에 따라 메시지에 대 한 작업을 수행 합니다. 다음 표에서는 각 등급에 대 한 인바운드 메시지에 대해 수행 되는 필터 및 각 SCL 등급이 해석 되는 방식을 보여 줍니다.
-ms.openlocfilehash: e7e8e29a7c3d4a3f09d674f72a400d27746e9081
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 48ca02bf3f6549c5acc1147ea477b9d22f1c76e1
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341249"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692767"
 ---
 # <a name="spam-confidence-levels"></a>스팸 지수
 

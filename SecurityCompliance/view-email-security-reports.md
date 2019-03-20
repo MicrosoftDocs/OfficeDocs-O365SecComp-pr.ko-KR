@@ -3,7 +3,7 @@ title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/21/2019
+ms.date: 03/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 833cb4e0b90375179a4ce2097cb986926a9856d0
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: bfd84948624beaa8ea9d2a37da2ecd186b5bd717
+ms.sourcegitcommit: 15202bba32313534da2478b0cd215f32a10c9ef4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341449"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684367"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -68,7 +68,7 @@ ms.locfileid: "30341449"
 
 ![암호화 보고서 데이터 보기 별 메뉴](media/encryptionreport-viewdataby.png)
 
-새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 또한 사용할 수 있는 암호화 서식 파일의 수가 여러 개 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다. 
+새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 도움말을 보려면 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요. 또 다른 예로, 사용할 수 있는 암호화 서식 파일이 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다. 
 
 이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다.
 
@@ -219,7 +219,7 @@ ms.locfileid: "30341449"
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
-- [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
    

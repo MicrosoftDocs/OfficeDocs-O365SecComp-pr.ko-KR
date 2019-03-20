@@ -15,12 +15,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 924ec3522b056b267f5e8af394f380aaff8392a2
-ms.sourcegitcommit: f25a667e4c7d11c43c87604d576f1e6d6155b14f
+ms.openlocfilehash: 9ed20713cac07631e63b969efea402e8dbeb8f6d
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30536138"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692287"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>office 365 사용자에 게 office 365 위협 조사 및 응답 기능을 안전 하 게 유지
 
@@ -28,10 +28,10 @@ ms.locfileid: "30536138"
 
 어떤 Office 365 사용자가 공격을 받고 있는지, 더 이상 손상 되지 않습니까? 사용자를 대상으로 하는 공격 으로부터 완화 하 고 복구 하는 방법을 확인 하세요. Office 365에서 이미 제공 되는 보안 기능을 사용 하 여이 작업을 정확히 확인할 수 있나요? 
   
-[office 365 위협 조사 및 응답](office-365-ti.md) 은 office 365 E5 구독에 포함 된 기능 모음입니다. Office 365 위협 조사 및 응답 기능을 통해 Microsoft IT는 사회 공학적 인시던트에 대 한 해결 방법을 80%로 줄이고, 월별 사례 처리량을 지난 2 분기와 비교 하 여 매달 37%까지 줄일 수 있도록 했습니다. 
+[office 365 위협 조사 및 응답](office-365-ti.md) 은 office 365 E5 구독에 포함 된 기능 집합으로, office 365 Advanced Threat Protection 계획 2의 일부분으로 제공 됩니다. Office 365 위협 조사 및 응답 기능을 통해 Microsoft IT는 사회 공학적 인시던트에 대 한 해결 방법을 80%로 줄이고, 월별 사례 처리량을 지난 2 분기와 비교 하 여 매달 37%까지 줄일 수 있도록 했습니다. 
 
 > [!IMPORTANT]
-> office 365 advanced threat protection 및 위협 조사 및 응답 (이전의 office 365 위협 인텔리전스)은 이제 추가 위협 방지 기능을 가진 office 365 Advanced Threat protection 계획 2의 일부입니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> 위협 조사 및 응답 기능 (이전의 office 365 위협 인텔리전스)은 이제 추가 위협 방지 기능과 함께 office 365 Advanced Threat protection 계획 2의 일부입니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 최근에는 위협 으로부터 검색 및 복구 하는 방법을 개선 하는 데 도움이 되는 새로운 기능이 추가 되었습니다. 다음은 업데이트 된 위협 조사 및 응답 기능을 통해 보다 효율적으로 수행할 수 있는 방법에 대 한 간략 한 설명입니다.
   
@@ -51,7 +51,7 @@ ms.locfileid: "30536138"
   
  **업데이트:** 문제 프레임 워크에서 직접 전자 메일을 삭제 (소프트 또는 영구 삭제) 하는 기능이 추가 되었습니다. 이전 관리자는 메일을 사용자의 정크 폴더로만 이동할 수 있으며, 사용자는 해당 항목을 복구할 수 있습니다. 새로 릴리스된 삭제 기능을 사용 하 여 악성 메일 또는 원치 않는 메일이 영구적으로 제거 되도록 할 수 있습니다. 
   
-이러한 Office 365 위협 조사 및 응답 기능이 아직 없는 경우 [지금 사용해 보세요](https://aka.ms/tryo365threatintel3)! 그리고 [Office 365 위협 조사 및 응답 기능에 대해 자세히 알아보세요](https://aka.ms/readmoreabouto365threatintel).
+이러한 기능이 아직 없으면 [지금 사용해 보세요](https://aka.ms/tryo365threatintel3)! 그리고 [Office 365 위협 조사 및 응답 기능에 대해 자세히 알아보세요](https://aka.ms/readmoreabouto365threatintel).
   
 ![인시던트 업데이트 관리의 전자 메일 목록 스크린샷](media/9d8452d3-d8d2-4b26-81f9-76396e08dd17.png)
   
@@ -66,7 +66,7 @@ Gartner에서 $90b를 단독으로 cybersecurity에서 사용한 추정치입니
   
 ## <a name="whats-next"></a>다음 작업
 
-- 이 기록 된 세션의 office 365 위협 조사 및 응답 기능에 대 한 자세한 내용은 [office 365 위협 인텔리전스를 사용 하 여 고 사이버 공격](https://myignite.microsoft.com/videos/53723) 를 계속 확인 하세요.
+- 이 기록 된 세션의 office 365 위협 조사 및 응답 기능에 대 한 자세한 내용은 [office 365을 사용 하 여 고 사이버 공격](https://myignite.microsoft.com/videos/53723) 를 계속 확인 하세요.
     
 - [지금 office 365 위협 조사 및 응답 기능을 사용해](https://aka.ms/tryo365threatintel3) 보거나 office E5 평가판을 시작 해 보세요. 
     

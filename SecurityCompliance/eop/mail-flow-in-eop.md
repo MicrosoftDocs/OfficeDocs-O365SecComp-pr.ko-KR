@@ -7,16 +7,15 @@ ms.date: 3/13/2015
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: e109077e-cc85-4c19-ae40-d218ac7d0548
 description: EOP(Exchange Online Protection) 고객의 조직으로 전송되는 모든 메시지는 작업자에게 표시되기 전에 EOP를 통과합니다. 고객이 Exchange Online을 사용하여 클라우드에서 모든 사서함을 호스트하든, 기존 인프라를 계속 사용하기 위해 온-프레미스에서 사서함을 호스트하든(독립 실행형 시나리오) 관계없이 작업자의 받은 편지함으로 라우팅되기 전에 처리를 위해 EOP를 통과하는 메시지를 라우팅할 방법에 대한 옵션이 제공됩니다.
-ms.openlocfilehash: ff5284eafe01a3887fa69fde2b5bcd023ee391db
-ms.sourcegitcommit: 285c58a371e6ab82c40fac3f24530cf3b09d0175
+ms.openlocfilehash: b223efc62ff875ed345ce27a17263b3876829999
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "23002154"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30691717"
 ---
 # <a name="mail-flow-in-eop"></a>EOP의 메일 흐름
 
@@ -36,7 +35,7 @@ EOP는 매우 유동적인 메시지 라우팅 방식을 제공합니다. 다음
   
 [Configure mail flow using connectors in Office 365](http://technet.microsoft.com/library/854b5a50-4462-4836-a092-37e208d29624.aspx)에서는 커넥터에 대해 소개하고 이러한 커넥터를 통해 메일 라우팅을 사용자 지정하는 방법을 설명합니다. 또한 파트너 조직과의 통신을 보호하고 스마트 호스트를 설정하는 시나리오를 소개합니다. 
   
-각 사용자의 정크 메일 폴더로 올바르게 정크 메일 라우팅되는지 되도록 몇 구성 단계를 수행 해야 합니다. 여기에서 자세히 설명 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)합니다. 각 사용자의 정크 메일 폴더로 메시지 이동 하지 않을 경우에 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집 하 여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성](../configure-your-spam-filter-policies.md)을 참조 하십시오.
+정크 메일이 각 사용자의 정크 메일 폴더로 라우팅되도록 하려면 몇 가지 구성 단계를 수행해야 합니다. [스팸이 각 사용자의 정크 메일 폴더로 라우팅되도록 하기 위해](../ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)자세히 설명 되어 있습니다. 각 사용자의 정크 메일 폴더로 메시지를 옮기지 않으려면 Exchange 관리 센터에서 콘텐츠 필터 정책을 편집하여 다른 작업을 선택할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](../configure-your-spam-filter-policies.md)참조 하세요.
   
 ## <a name="verify-mail-flow"></a>메일 흐름 확인
 

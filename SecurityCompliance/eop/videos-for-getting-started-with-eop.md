@@ -7,18 +7,17 @@ ms.date: 3/13/2015
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: c9c39ada-6100-4034-a479-8bd39d428498
 ms.collection:
 - M365-security-compliance
 description: 다음과 같은 일련의 비디오는 EOP(Exchange Online Protection) 호스팅된 전자 메일 필터링 서비스를 설정 및 사용하는 데 도움이 됩니다.
-ms.openlocfilehash: 65568d21f6b4cb718526a9c9dcddfef2f58b1ca1
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: 1e8aadd173f4e30c528679347171230e83752af0
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341189"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693567"
 ---
 # <a name="videos-for-getting-started-with-eop"></a>EOP 시작을 위한 비디오
 
@@ -27,7 +26,7 @@ ms.locfileid: "30341189"
 > [!NOTE]
 > 비디오에서 설명하는 작업을 시작하기 전에 메일 흐름을 설정하는 것이 좋습니다. 자세한 내용은 [Configure mail flow using connectors in Office 365](http://technet.microsoft.com/library/854b5a50-4462-4836-a092-37e208d29624.aspx) 항목을 참조하세요. 
   
-이러한 비디오에는 조직의 필요에 맞게 스팸 방지 설정을 조정 하는 방법이 나와 있습니다. 조직에 서비스를 통해 전송 되는 인바운드 메일에는 IP 주소를 기반으로 하는 수신 허용-보낸 사람 및 수신 거부 목록 및 콘텐츠 필터 설정을 구성 하는 작업이 포함 됩니다. 또한 관리자가 격리로 전송 된 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하는 콘텐츠 필터링 된 스팸 메시지 또는 메시지를 검색 하 고 릴리스 하는 방법에 대 한 비디오를 제공 하 여 서비스를 개선 하는 데 도움이 되는 스팸 메시지를 보고 하는 방법을 보여 줍니다.
+이러한 비디오에는 조직의 필요에 맞게 스팸 방지 설정을 조정하는 방법이 나와 있습니다. 서비스를 통해 인바운드 메일을 조직에 전송하는 경우 IP 주소에 따라 안전한 보낸 사람 및 차단된 보낸 사람 목록이 포함되고 콘텐츠 필터 설정을 구성합니다. 또한 관리자가 격리로 전송 된 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하는 콘텐츠 필터링 된 스팸 메시지 또는 메시지를 검색 하 고 릴리스 하는 방법에 대 한 비디오를 제공 하 여 서비스를 개선 하는 데 도움이 되는 스팸 메시지를 보고 하는 방법을 보여 줍니다.
   
 - EOP에서 IP 허용 및 IP 차단 목록 구성
     > [!VIDEO https://www.microsoft.com/videoplayer/embed/b2f5bea3-e1a7-44b3-b7e2-07fac0d0ca40?autoplay=false]

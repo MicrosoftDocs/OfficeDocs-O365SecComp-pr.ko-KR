@@ -7,16 +7,15 @@ ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 description: 관리자가 구성원을 관리자 역할 그룹에 추가하거나 그룹에서 제거하면 Microsoft EOP(Exchange Online Protection)에서 각 작업을 기록합니다.
-ms.openlocfilehash: 49311faa4ee54fafa1c05a2314ed2f9d74cbe5a5
-ms.sourcegitcommit: 22bca85c3c6d946083d3784f72e886c068d49f4a
+ms.openlocfilehash: 752def771d95fcfbb3f7cbe0bc86a33b3967716d
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "22027205"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692717"
 ---
 # <a name="run-an-administrator-role-group-report-in-eop"></a>EOP에서 관리자 역할 그룹 보고서 실행 
 
@@ -28,7 +27,7 @@ ms.locfileid: "22027205"
     
 - 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인하려면 다음을 참조하세요. [EOP의 기능 사용 권한](feature-permissions-in-eop.md)의 "보고서" 섹션 
     
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
+- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Keyboard shortcuts in Exchange 2013**을 참조하세요.
     
 > [!TIP]
 > 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. 포럼 주소는 다음과 같습니다.[Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), 또는 [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 
@@ -47,7 +46,7 @@ ms.locfileid: "22027205"
     
 지정한 조건을 사용하여 찾은 변경 내용은 결과 창에 표시됩니다. 검색 결과에서 역할 그룹을 클릭하여 세부 정보 창에서 변경 내용을 확인합니다.
   
-## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
+## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
 관리자 역할 그룹 보고서를 성공적으로 실행한 경우 날짜 범위 내에서 변경된 역할 그룹은 검색 결과 창에 표시됩니다. 결과가 표시되지 않으면 지정된 날짜 범위 내에서 역할 그룹이 변경되지 않은 것입니다. 표시할 결과가 있다고 생각되면 날짜 범위를 변경한 다음 보고서를 다시 실행하십시오.
   

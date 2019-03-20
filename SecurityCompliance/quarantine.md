@@ -7,7 +7,6 @@ ms.date: 6/16/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: e9eecdde-dcc2-4283-a820-98d1e740e4f
 ms.collection:
 - M365-security-compliance
 description: exchange online 및 exchange online Protection에 대 한 호스팅된 격리에 대해 알아봅니다.
-ms.openlocfilehash: 9d0f00f5305838f1862eebdc649de0205679d282
-ms.sourcegitcommit: 173936324ea015d788703440924ec8a9fb0db88b
+ms.openlocfilehash: 7a92704c7a3cf978ed028b094cac9f6c9ed4b47b
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30510215"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692957"
 ---
 # <a name="quarantine"></a>격리
 

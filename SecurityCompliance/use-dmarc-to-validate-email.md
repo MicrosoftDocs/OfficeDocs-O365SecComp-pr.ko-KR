@@ -9,17 +9,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-ms.custom: TN2DMC
 ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: Office 365 조직에서 보낸 메시지의 유효성을 검사 하기 위해 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: d224acaf6b1d53cdf9ababca87c5880a5499c613
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: de92825726225549fda1b0dc57d737763f273043
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341579"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693407"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사
 

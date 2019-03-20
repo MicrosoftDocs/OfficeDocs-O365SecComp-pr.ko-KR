@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 6/4/2018
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-administration
+ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +15,12 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하는 대시보드에서 대시보드를 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9f241ce52d76744d2bb6f7b789438110c295ee01
-ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
+ms.openlocfilehash: 732c78b35a60c1686bc382931688dec08080f8c2
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30492757"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692667"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>연습 - 대시보드에서 통찰력에 이르기까지
 

@@ -1,5 +1,5 @@
 ---
-title: 온-프레미스 AD RMS 서버를 사용 하도록 IRM 구성
+title: 온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -7,7 +7,6 @@ ms.date: 12/13/2017
 ms.audience: End User
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,33 +14,33 @@ ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다.
-ms.openlocfilehash: 19d353dc8aa0e02b564616aacdde31c0fffa0483
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 1da66c5afa37c96c061a4bf25c0858e4e71e2313
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215259"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693037"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   
-온-프레미스 배포와 함께 사용 하는 경우 Exchange Online의 IRM (정보 권한 관리)은 Windows Server 2008 이상에서 정보 보호 기술인 AD RMS (Active Directory Rights management Services)를 사용 합니다. IRM 보호는 전자 메일 메시지에 AD RMS 권한 정책 템플릿을 적용 하 여 전자 메일에 적용 됩니다. 권한은 메시지 자체에 첨부 되므로 보호가 온라인 및 오프 라인 상태이 고 조직의 방화벽 내부 및 외부에서 보호 됩니다.
+온-프레미스 배포와 함께 사용 하는 경우 Exchange Online의 IRM (정보 권한 관리)은 Windows Server 2008 이상에서 정보 보호 기술인 AD RMS (Active Directory Rights management Services)를 사용 합니다. AD RMS 권한 정책 템플릿을 전자 메일 메시지에 적용하여 전자 메일에 IRM 보호를 적용합니다. 권한은 메시지 자체에 첨부 되므로 보호가 온라인 및 오프 라인 상태이 고 조직의 방화벽 내부 및 외부에서 보호 됩니다.
   
-이 항목에서는 AD RMS 서버를 사용 하도록 IRM을 구성 하는 방법을 보여 줍니다. azure Active Directory 및 azure 권한 관리에서 office 365 메시지 암호화에 대 한 새로운 기능을 사용 하는 방법에 대 한 자세한 내용은 [office 365 메시지 암호화 FAQ](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e)를 참조 하세요.
+이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다. azure Active Directory 및 azure 권한 관리에서 office 365 메시지 암호화에 대 한 새로운 기능을 사용 하는 방법에 대 한 자세한 내용은 [office 365 메시지 암호화 FAQ](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e)를 참조 하세요.
   
-Exchange Online의 IRM에 대한 자세한 내용은 [Exchange Online의 정보 권한 관리](information-rights-management-in-exchange-online.md)를 참조하십시오.
+Exchange Online의 IRM에 대한 자세한 내용은 [Information Rights Management in Exchange Online](information-rights-management-in-exchange-online.md)를 참조하십시오.
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>
 
 - 이 작업의 예상 완료 시간: 30분
     
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인하려면 다음을 참조하세요. [Messaging policy and compliance permissions](http://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx)의 "정보 권한 관리" 항목 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [메시징 정책 및 규정 준수 권한](http://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) 항목의 "정보 권한 관리" 항목을 참조 하십시오. 
     
-- AD RMS 서버에서 Windows Server 2008 이상이 실행되고 있어야 합니다. AD RMS 배포 방법에 대한 자세한 내용은 [AD RMS 클러스터 설치](https://go.microsoft.com/fwlink/?LinkId=210873)를 참조하십시오.
+- AD RMS 서버에서 Windows Server 2008 이상이 실행되고 있어야 합니다. ad rms를 배포 하는 방법에 대 한 자세한 내용은 [ad rms 클러스터 설치](https://go.microsoft.com/fwlink/?LinkId=210873)를 참조 하십시오.
     
-- Windows PowerShell을 설치 및 구성하고 서비스에 연결하는 방법에 대한 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](http://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx)을 참조하십시오.
+- Windows PowerShell을 설치 및 구성하고 서비스에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](http://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx)을 참조하십시오.
     
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Keyboard shortcuts in Exchange 2013**을 참조하세요.
+- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
     
 > [!TIP]
 > 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. 포럼 주소는 다음과 같습니다.[Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), 또는 [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 
@@ -59,9 +58,9 @@ Exchange Online의 IRM에 대한 자세한 내용은 [Exchange Online의 정보 
     
 - 해당 TPD에 대한 특정 SLC로 만들어진 AD RMS 권한 정책 템플릿
     
-TPD를 가져오면 해당 TPD가 Exchange Online에 저장되고 보호됩니다.
+TPD를 가져올 때 Exchange Online에서 저장 및 보호 됩니다.
   
-1. Active Directory Rights Management Services 콘솔을 연 다음 AD RMS 클러스터를 확장합니다.
+1. Active Directory Rights Management Services 콘솔을 연 다음 AD RMS 클러스터를 확장합니다.
     
 2. 콘솔 트리에서 **트러스트 정책**을 확장한 다음 **트러스트된 게시 도메인**을 클릭합니다.
     
@@ -69,7 +68,7 @@ TPD를 가져오면 해당 TPD가 Exchange Online에 저장되고 보호됩니�
     
 4. **작업** 창에서 **트러스트된 게시 도메인 내보내기**를 클릭합니다.
     
-5. **게시 도메인 파일** 상자에서 **다른 이름으로 저장**을 클릭하여 파일을 로컬 컴퓨터의 특정 위치에 저장합니다. 파일 이름을 입력하고  `.xml` 파일 이름 확장명을 지정했는지 확인한 다음 **저장**을 클릭합니다.
+5. **게시 도메인 파일** 상자에서 **다른 이름으로 저장**을 클릭하여 파일을 로컬 컴퓨터의 특정 위치에 저장합니다. 파일 이름을 입력 하 고 `.xml` 파일 이름 확장명을 지정한 다음 **저장**을 클릭 합니다.
     
 6. **암호** 및 **암호 확인** 상자에 트러스트된 게시 도메인 파일을 암호화하는 데 사용할 강력한 암호를 입력합니다. TPD를 클라우드 기반 전자 메일 조직으로 가져올 때 이 암호를 지정해야 합니다. 
     
@@ -83,9 +82,9 @@ TPD를 가져오려면 Windows PowerShell에서 다음 명령을 실행합니다
 Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byte -Path <path to exported TPD file> -ReadCount 0)) -Name "<name of TPD>" -ExtranetLicensingUrl <URL> -IntranetLicensingUrl <URL>
 ```
 
-Active Directory Rights Management Services 콘솔에서  _ExtranetLicensingUrl_ 및  _IntranetLicensingUrl_ 매개 변수에 대한 값을 가져올 수 있습니다. 콘솔 트리에서 AD RMS 클러스터를 선택합니다. 라이선스 URL이 결과 창에 표시됩니다. 이러한 URL은 콘텐츠의 암호를 해제해야 하는 경우와 Exchange Online에서 사용할 TPD를 결정해야 하는 경우 전자 메일 클라이언트가 사용합니다. 
+Active Directory Rights Management Services 콘솔에서 _ExtranetLicensingUrl_ 및 _IntranetLicensingUrl_ 매개 변수에 대 한 값을 가져올 수 있습니다. 콘솔 트리에서 AD RMS 클러스터를 선택합니다. 라이선스 URL이 결과 창에 표시됩니다. 이러한 URL은 콘텐츠의 암호를 해제해야 하는 경우와 Exchange Online에서 사용할 TPD를 결정해야 하는 경우 전자 메일 클라이언트가 사용합니다. 
   
-이 명령을 실행하면 암호를 입력하라는 메시지가 표시됩니다. AD RMS 서버에서 TPD를 내보낼 때 지정한 암호를 입력합니다.
+이 명령을 실행 하면 암호를 입력 하 라는 메시지가 표시 됩니다. AD RMS 서버에서 TPD를 내보낼 때 지정한 암호를 입력합니다.
   
 예를 들어 다음 명령은 AD RMS 서버에서 내보내고 관리자 계정의 바탕 화면에 저장한 XML 파일을 사용하여 이름이 Exported TPD라는 TPD를 가져옵니다. Name 매개 변수를 사용하여 TPD에 이름을 지정합니다.
   
@@ -97,7 +96,7 @@ Import-RMSTrustedPublishingDomain -FileData $([byte[]](Get-Content -Encoding byt
   
 #### <a name="how-do-you-know-this-step-worked"></a>이 단계의 작동 여부는 어떻게 확인합니까?
 
-TPD를 가져왔는지 확인하려면 **Get-RMSTrustedPublishingDomain** cmdlet을 실행하여 Exchange Online 조직에서 TPD를 검색합니다. 자세한 내용은 [Get-RMSTrustedPublishingDomain](http://technet.microsoft.com/library/69499195-f08f-41bd-b0ed-443688410b12.aspx)의 예를 참조하십시오.
+TPD를 성공적으로 가져왔는지 확인 하려면 **import-rmstrustedpublishingdomain** cmdlet을 실행 하 여 Exchange Online 조직에서 tpds를 검색 합니다. 자세한 내용은 [Get-RMSTrustedPublishingDomain](http://technet.microsoft.com/library/69499195-f08f-41bd-b0ed-443688410b12.aspx)의 예를 참조하십시오.
   
 ### <a name="step-3-use-the-exchange-management-shell-to-distribute-an-ad-rms-rights-policy-template"></a>3 단계: Exchange 관리 셸을 사용 하 여 AD RMS 권한 정책 템플릿을 배포 합니다.
 
@@ -144,7 +143,7 @@ Set-RMSTemplate -Identity "Company Confidential" -Type Distributed
   
 #### <a name="how-do-you-know-this-step-worked"></a>이 단계의 작동 여부는 어떻게 확인합니까?
 
-AD RMS 권한 정책 템플릿이 배포되었는지 확인하려면 **Get-RMSTemplate** cmdlet을 사용하여 템플릿 속성을 확인합니다. 자세한 내용은 [Get-RMSTemplate](http://technet.microsoft.com/library/4a5066e8-b770-4aa2-b464-0d2190914f71.aspx)의 예를 참조하십시오.
+배포 및 AD RMS 권한 정책 템플릿이 성공적으로 분산 되었는지 확인 하려면 **get-rmstemplate** cmdlet을 실행 하 여 템플릿 속성을 확인 합니다. 자세한 내용은 [Get-RMSTemplate](http://technet.microsoft.com/library/4a5066e8-b770-4aa2-b464-0d2190914f71.aspx)의 예를 참조하십시오.
   
 ### <a name="step-4-use-the-exchange-management-shell-to-enable-irm"></a>4 단계: Exchange 관리 셸을 사용 하 여 IRM을 사용 하도록 설정
 
@@ -154,18 +153,18 @@ TPD를 가져오고 AD RMS 권한 정책 템플릿을 배포했으면 다음 명
 Set-IRMConfiguration -InternalLicensingEnabled $true
 ```
 
-구문과 매개 변수에 대한 자세한 내용은 [Set-IRMConfiguration](http://technet.microsoft.com/library/5df0b56a-7bcc-4be2-b4b8-4de16720476c.aspx)을 참조하십시오.
+구문과 매개 변수에 대한 자세한 내용은 [Set-IRMConfiguration](http://technet.microsoft.com/library/5df0b56a-7bcc-4be2-b4b8-4de16720476c.aspx)를 참조하십시오.
   
 #### <a name="how-do-you-know-this-step-worked"></a>이 단계의 작동 여부는 어떻게 확인합니까?
 
-IRM을 사용하도록 설정했는지 확인하려면 [Get-IRMConfiguration](http://technet.microsoft.com/library/e1821219-fe18-4642-a9c2-58eb0aadd61a.aspx) cmdlet을 실행하여 Exchange Online 조직의 IRM 구성을 확인합니다. 
+irm을 사용 하도록 성공적으로 설정 되었는지 확인 하려면 [Get-irmconfiguration](http://technet.microsoft.com/library/e1821219-fe18-4642-a9c2-58eb0aadd61a.aspx) cmdlet을 실행 하 여 Exchange Online 조직에서 IRM 구성을 확인 합니다. 
   
-## <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인합니까?
+## <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 <a name="sectionSection2"> </a>
 
 TPD를 가져오고 IRM을 사용하도록 설정했는지 확인하려면 다음을 수행합니다.
   
-- **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [Test-IRMConfiguration](http://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx)의 "예 1"을 참조하십시오.
+- **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [테스트-irmconfiguration](http://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx)의 "예제 1"을 참조 하십시오.
     
 - 웹의 Outlook에서 새 메시지를 작성 하 고 확장 된 메뉴 ( ![기타 옵션 아이콘](media/ITPro-EAC-MoreOptionsIcon.gif))에서 **사용 권한 설정** 옵션을 선택 하 여 IRM을 보호 합니다.
     

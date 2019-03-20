@@ -7,17 +7,16 @@ ms.date: 12/15/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.collection: Ent_O365_Hybrid
 ms.assetid: a7203ebd-ffac-4a8d-a2d0-6c8a61c8eeb8
 description: Microsoft에서는 모든 사용자가 더 쉽게 사용할 수 있는 제품 및 서비스를 만들기 위해 노력하고 있습니다.
-ms.openlocfilehash: 2403ef4ec5a99202a45b40bf639193643b6ad02b
-ms.sourcegitcommit: 06d6e63225f912d0f3c6bb836c61eb11c1dbe97a
+ms.openlocfilehash: 271383361ee99f6959e81a1f38dea4b200c54fb5
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30206381"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693107"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a>장애인을 위한 내게 필요한 옵션
 
@@ -42,7 +41,7 @@ ms.locfileid: "30206381"
 > [!NOTE]
 > 이 섹션의 정보는 미국에서 Microsoft 제품의 사용이 허가된 사용자에게만 적용됩니다. 이 제품을 미국 이외의 지역에서 구입한 경우 [Microsoft 내게 필요한 옵션 웹 사이트](https://www.microsoft.com/enable)에서 Microsoft 지원 서비스에 대한 전화 번호 및 주소 목록을 볼 수 있습니다. 지사에 문의하여 이 섹션에 설명된 제품 및 서비스의 유형이 사용자의 지역에서 사용 가능한지 알아볼 수 있습니다. Microsoft 제품에 포함된 내게 필요한 옵션 기능에 대한 자세한 내용을 보려면 Microsoft 제품의 내게 필요한 옵션 웹 사이트를 참조하십시오. 
   
-### <a name="accessibility-features-of-windows"></a>Windows의 내게 필요한 옵션 기능
+### <a name="accessibility-features-of-windows"></a>Windows의 접근성 기능
 
 Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려움이 있는 사용자, 시각 장애가 있거나 시력이 약한 사용자 또는 청각 장애가 있거나 청각이 약한 사용자에게 유용한 기본 제공 내게 필요한 옵션 기능이 포함되어 있습니다. 이 기능은 설치하는 동안 설치됩니다. 이 기능에 대한 자세한 내용은 Windows 도움말 및 [Microsoft 내게 필요한 옵션](https://go.microsoft.com/fwlink/p/?linkId=18139)을 참조하십시오.
   
@@ -54,7 +53,7 @@ Windows 운영 체제에는 입력하거나 마우스를 사용하는 데 어려
     
     보조 기술 제품을 사용하는 경우에는 소프트웨어 또는 하드웨어를 업그레이드하기 전에 보조 기술 공급업체에게 문의하여 가능한 호환성 문제를 확인하십시오. 
     
-### <a name="documentation-in-alternative-formats"></a>대체 형식의 문서
+### <a name="documentation-in-alternative-formats"></a>대체 형식 설명서
 
 인쇄된 자료를 읽거나 처리하기 어려운 경우 다양한 Microsoft 제품에 대한 문서를 보다 사용하기 쉬운 형식으로 가져올 수 있습니다. 내게 필요한 옵션 제품 문서에 대한 색인은 [Microsoft 내게 필요한 옵션](https://go.microsoft.com/fwlink/p/?linkId=18139)을 참조하십시오. 
   

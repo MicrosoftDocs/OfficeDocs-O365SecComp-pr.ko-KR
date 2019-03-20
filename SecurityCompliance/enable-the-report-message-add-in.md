@@ -15,12 +15,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: aba02855b514f0d631d332623d840f9c65911bd1
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: f2bb79c4c613fdb804d19226fb359124387a678f
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410903"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693387"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -29,12 +29,12 @@ ms.locfileid: "30410903"
 
 ## <a name="overview"></a>개요
 
-outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하면 안전 하거나 악의적이 든 관계 없이 스팸으로 잘못 분류 전자 메일을 Microsoft 및 해당 계열사로 쉽게 보고할 수 있습니다. Microsoft는 이러한 전송을 사용 하 여 전자 메일 보호 기술의 효율성을 개선 합니다. 또한 조직에서 [office 365 Advanced threat Protection](office-365-atp.md) 또는 [Office 365 위협 인텔리전스](office-365-ti.md)를 사용 하는 경우 보고서 메시지 추가 기능은 조직의 보안 팀에 게 검토 및 업데이트 하는 데 사용할 수 있는 유용한 정보를 제공 합니다. 보안 정책 
+outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하면 안전 하거나 악의적이 든 관계 없이 스팸으로 잘못 분류 전자 메일을 Microsoft 및 해당 계열사로 쉽게 보고할 수 있습니다. Microsoft는 이러한 전송을 사용 하 여 전자 메일 보호 기술의 효율성을 개선 합니다. 또한 조직에서 [Office 365 Advanced Threat Protection 계획 1](office-365-atp.md) 또는 [계획 2](office-365-ti.md)를 사용 하는 경우 보고서 메시지 추가 기능은 조직의 보안 팀에 게 보안 정책을 검토 하 고 업데이트 하는 데 사용할 수 있는 유용한 정보를 제공 합니다. 
 
 예를 들어 사용자가 많은 양의 메시지를 피싱 메일로 보고 한다고 가정 합니다. 이 정보는 [보안 대시보드](security-dashboard.md) 및 기타 보고서에 있습니다. 조직의 보안 팀에서이 정보를 사용 하 여 피싱 방지 정책을 업데이트 해야 할 수 있습니다. 또는 사용자가 보고서 메시지 추가 기능을 사용 하 여 정크 메일로 플래그를 지정 하지 않은 많은 메시지를 보고 하는 경우 조직의 보안 팀이 [스팸 방지 정책을](configure-the-anti-spam-policies.md)조정 해야 할 수 있습니다. 
 
 보고서 메시지 추가 기능 이란 Office 365 구독 및 다음 제품과 함께 작동 합니다.
- - 웹에서 Outlook
+ - 웹용 Outlook
  - Outlook 2013 SP1
  - Outlook 2016
  - Mac용 Outlook 2016

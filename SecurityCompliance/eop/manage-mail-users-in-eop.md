@@ -7,16 +7,15 @@ ms.date: 12/9/2016
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 9ab4420dd9fcf6c056bc661b5f3646672a89a683
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.openlocfilehash: 2e266d4dd31c3bd614c1b4f8afa17ca747890385
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670643"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692617"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 

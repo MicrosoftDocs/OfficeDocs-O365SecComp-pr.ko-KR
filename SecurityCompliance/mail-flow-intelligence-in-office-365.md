@@ -6,18 +6,17 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 메일 흐름 인텔리전스 라고도 하는 Office 365의 커넥터를 사용 하 여 메시지 배달과 관련 된 오류 코드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a679a3a50c2333a9f66509b69ec06ee96960bc83
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d9ddfdf7c54c8dc709c3d5ae03d9fbd76a153f7e
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218718"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692777"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Office 365의 메일 흐름 인텔리전스
 
@@ -43,7 +42,7 @@ ms.locfileid: "30218718"
 
 ## <a name="error-code-450-44315-connection-timed-out"></a>오류 코드: 450 4.4.315 연결 시간이 초과 되었습니다.
 
-일반적으로이는 Office 365에서 대상 전자 메일 서버에 연결할 수 없음을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예를 들어:
+일반적으로이는 Office 365에서 대상 전자 메일 서버에 연결할 수 없음을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예를 들면 다음과 같습니다.
 
 - 온-프레미스 전자 메일 서버가 다운 되었습니다.
 
@@ -83,7 +82,7 @@ ms.locfileid: "30218718"
 
 ## <a name="error-code-450-44317-cannot-connect-to-remote-server"></a>오류 코드: 450 4.4.317 원격 서버에 연결할 수 없습니다.
 
-일반적으로이 오류는 Office 365이 대상 전자 메일 서버에 연결 되어 있지만 서버에서 즉각적인 오류가 발생 하거나 연결 요구 사항을 충족 하지 않는 것을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예를 들어:
+일반적으로이 오류는 Office 365이 대상 전자 메일 서버에 연결 되어 있지만 서버에서 즉각적인 오류가 발생 하거나 연결 요구 사항을 충족 하지 않는 것을 의미 합니다. 오류 세부 정보에 문제에 대 한 설명이 나와 있습니다. 예를 들면 다음과 같습니다.
 
 - 대상 전자 메일 서버가 "서비스를 사용할 수 없습니다." 라는 오류와 함께 응답 하 여 서버가 Office 365과의 통신을 유지할 수 없음을 나타냅니다.
 
@@ -115,7 +114,7 @@ ms.locfileid: "30218718"
 
 ## <a name="error-code-450-47320-certificate-validation-failed"></a>오류 코드: 450 4.7.320 인증서 유효성 검사 실패
 
-일반적으로이 오류는 대상 전자 메일 서버의 인증서 유효성을 검사 하는 동안 Office 365에서 오류가 발생 했음을 의미 합니다. 오류 세부 정보에 오류 설명이 나와 있습니다. 예를 들어:
+일반적으로이 오류는 대상 전자 메일 서버의 인증서 유효성을 검사 하는 동안 Office 365에서 오류가 발생 했음을 의미 합니다. 오류 세부 정보에 오류 설명이 나와 있습니다. 예를 들면 다음과 같습니다.
 
 - 인증서가 만료 됨
 

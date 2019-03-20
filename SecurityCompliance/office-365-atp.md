@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 02/20/2019
+ms.date: 03/19/2019
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 도구, 보고 도구 및 위협 인텔리전스 기능이 포함 되어 있습니다.
-ms.openlocfilehash: 33a98781c29a6ab8a44a69922afd976ce044c09d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: ce4652e19f97cda6dbbea7df8083531ee0a0a1fc
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220008"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693057"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -35,7 +35,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 - [보고서](#view-atp-reports): 실시간 보고서를 확인 하 여 조직의 ATP 성능을 모니터링 합니다. 
 
-- [위협 인텔리전스 기능](#utilize-threat-intelligence-capabilities): 주요에 지 도구를 활용 하 여 위협을 조사, 이해, 시뮬레이트 및 방지 합니다. 
+- [위협 조사 및 응답 기능](#use-threat-investigation-and-response-capabilities): 주요에 지 도구를 사용 하 여 위협을 조사, 이해, 시뮬레이트 및 방지 합니다. 
  
 
 ## <a name="configure-atp-policies"></a>ATP 정책 구성
@@ -50,7 +50,7 @@ Office 365 ATP는 조직에 적합 한 보호 수준을 설정 하기 위한 다
 
 - [ATP 안전한 링크](atp-safe-links.md): 전자 메일 메시지 및 Office 파일에서 url을 클릭 하 여 확인할 시간을 제공 합니다. 보호는 진행 중 이며 메시징 및 Office 환경 전체에 적용 됩니다. 각 클릭에 대해 링크가 검색 됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/en-us/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오. 
 
-- [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md): 사용자가 팀 사이트 및 문서 라이브러리에서 악의적인 파일을 식별 하 고 차단 하 여 파일을 공동 작업 하 고 공유할 때 조직을 보호 합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 ATP 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요. 
+- [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md): 사용자가 팀 사이트 및 문서 라이브러리에서 악의적인 파일을 식별 하 고 차단 하 여 파일을 공동 작업 하 고 공유할 때 조직을 보호 합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요. 
 
 - [ATP 피싱 방지 보호](atp-anti-phishing.md): 사용자 및 사용자 지정 도메인 가장을 검색 하려는 시도를 감지 합니다. avert 피싱 공격에 기계 학습 모델 및 고급 가장 검색 알고리즘을 적용 합니다. 자세한 내용은 [Office 365 ATP 피싱 방지 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
 
@@ -60,9 +60,9 @@ Office 365 atp에는 atp 성능을 모니터링 하기 위한 고급 [보고 대
 
 최신 정보를 제공 하는 실시간으로 업데이트를 보고 합니다. 이러한 보고서는 권장 사항을 제공 하 고 곧 위협을 임박한 것을 알립니다. 미리 정의 된 보고서에는 [위협 보호 상태 보고서](view-reports-for-atp.md#threat-protection-status-report), [atp 파일 형식 보고서](view-reports-for-atp.md#atp-file-types-report), [atp 메시지 처리 보고서](view-reports-for-atp.md#atp-message-disposition-report) 등이 포함 됩니다. 
 
-## <a name="utilize-threat-intelligence-capabilities"></a>위협 인텔리전스 기능 활용
+## <a name="use-threat-investigation-and-response-capabilities"></a>위협 조사 및 응답 기능 사용
 
-Office 365 ATP에는 조직의 보안 팀이 악의적인 공격을 예측, 이해 및 방지할 수 있도록 하는 최상의 [위협 인텔리전스 도구가](office-365-ti.md) 포함 되어 있습니다. 
+Office 365 ATP 계획 2에는 조직의 보안 팀이 악의적인 공격을 예측, 이해 및 방지할 수 있도록 하는 최상의 [위협 조사 및 응답 도구가](office-365-ti.md) 포함 되어 있습니다. 
 
 - [위협 추적기](threat-trackers.md) 는 prevailing cybersecurity 문제에 대 한 최신 인텔리전스를 제공 합니다. 예를 들어 최신 맬웨어에 대 한 정보를 보고, 조직에 대 한 실제 위협이 되기 전에 대책을 취할 수 있습니다. 사용 가능한 추적기에는 [중요 한 추적기](threat-trackers.md#noteworthy-trackers), [추세 분석](threat-trackers.md#trending-trackers), 추적 [된](threat-trackers.md#saved-queries) [쿼리](threat-trackers.md#tracked-queries)및 저장 되는 쿼리가 포함 됩니다.
 
@@ -78,9 +78,10 @@ Office 365 ATP에는 조직의 보안 팀이 악의적인 공격을 예측, 이�
 |---------|---------|
 |Office 365 전역 관리자 |[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
+|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo) <br>한<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
-참고 항목:
+자세한 내용은 다음을 참조하세요.
+
 - [Office 365 Security & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md) 
 
 - [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)

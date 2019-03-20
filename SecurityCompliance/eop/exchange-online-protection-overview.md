@@ -7,20 +7,19 @@ ms.date: 01/31/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: 3f00cc07058bd2399732299b3221ebd4258dc5ff
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: e639b1185d75959061163b5391cf046bc789e3c4
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341629"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693527"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
-Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다. EOP를 사용하면 메시징 환경을 간편하게 관리할 수 있으며 온-프레미스 하드웨어와 소프트웨어 유지 관리 시의 작업 부담을 상당 부분 덜 수 있습니다.
+Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다. EOP를 사용하면 메시징 환경을 쉽게 관리하고 온-프레미스 하드웨어 및 소프트웨어 유지 관리 시의 부담을 대부분 완화할 수 있습니다.
   
 기본적으로 다음과 같은 방식을 통해 메시징 보호에 EOP를 사용할 수 있습니다.
   
@@ -81,7 +80,7 @@ EOP를 이미 구입한 경우 [EOP 서비스 설정](set-up-your-eop-service.md
   
 [EOP 시작을 위한 비디오](videos-for-getting-started-with-eop.md)
   
-[EOP 관련 일반 FAQ(질문과 대답)](eop-general-faq.md)
+[EOP 관련 일반 FAQ](eop-general-faq.md)
   
 [EOP 대기, 지연 및 반송 메시지 FAQ](eop-queued-deferred-and-bounced-messages-faq.md)
   

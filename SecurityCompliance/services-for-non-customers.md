@@ -7,7 +7,6 @@ ms.date: 5/2/2016
 ms.audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: 868f5491ae9433e115090567b40abcd39ef2ebf8
-ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
+ms.openlocfilehash: 540610fc3d1b53692688c729b714c839bf436e24
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30492797"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692397"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>비 고객을 위한 Office 365 메일을 보내는 서비스
   

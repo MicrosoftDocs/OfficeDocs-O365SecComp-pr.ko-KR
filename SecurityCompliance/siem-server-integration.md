@@ -14,12 +14,12 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 description: 요약:이 문서를 읽으면 Microsoft 365과의 siem server 통합에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 3f906fb082ec2c1a026940d2b5701a3d1fbec393
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: 905f6fc9b6fd62748e25c27d6e5cdbedacc0f806
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357499"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693647"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 siem 서버 통합
 
@@ -33,7 +33,7 @@ siem 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 
 
 | Microsoft 365 서비스 또는 응용 프로그램 | siem 서버 입력 | 자세한 정보를 볼 수 있는 리소스 |
 | --- | --- | --- |
-| [Office 365 Advanced Threat Protection 방지](office-365-atp.md) <br/>   또는   <br/>[Office 365 위협 인텔리전스](office-365-ti.md) | 감사 로그 | [Office 365 위협 인텔리전스 및 Advanced Threat Protection과의 siem 통합](siem-integration-with-office-365-ti.md) |
+| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>   또는   <br/>[Office 365 Threat Intelligence](office-365-ti.md) | 감사 로그 | [siem과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그 통합 | [Microsoft Cloud App Security와의 siem 통합](https://docs.microsoft.com/cloud-app-security/siem) |
 | [Office 365 Cloud App Security](office-365-cas-overview.md) | 로그 통합 | [Office 365 Cloud App Security와 SIEM 서버 통합](integrate-your-siem-server-with-office-365-cas.md) |
 | [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | 로그 통합 | [siem 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-siem-windows-defender-advanced-threat-protection) |

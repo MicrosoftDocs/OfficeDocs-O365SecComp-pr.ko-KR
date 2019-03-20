@@ -7,7 +7,6 @@ ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,22 +14,22 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 48569087fe8455dbb5500add435430ec8e78ea30
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.openlocfilehash: e07b90ab1ab004c39ef36b2aa744ca87120c11fe
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341349"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692747"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
-전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 원치 않는 (일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 메일 흐름 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다. 
+전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 요청되지 않은(일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 메일 흐름 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다. 
   
  **시작하기 전에 알아야 할 내용**
   
 - 이 절차의 예상 완료 시간: 10 분.
     
-- 이 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 필요한 사용 권한을 확인 하려면 [feature permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [feature permissions in EOP에서](eop/feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [feature permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [feature permissions in EOP에서](eop/feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
     
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
     
@@ -59,7 +58,7 @@ ms.locfileid: "30341349"
     
   - **7-9** -SCL을 이러한 값 중 하나로 설정 하면 해당 콘텐츠 필터 정책의 **신뢰도가 높은 스팸** 에 대해 지정 된 작업이 적용 됩니다. 기본적으로 받는 사람의 정크 메일 폴더로 메시지를 전송 하는 작업이 수행 됩니다. 
     
-    콘텐츠 필터 정책 구성에 대 한 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. 서비스의 SCL 값에 대 한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조 하세요.
+    콘텐츠 필터 정책 구성에 대 한 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. 서비스의 SCL 값에 대한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조하세요.
     
 7. 규칙에 대 한 추가 속성을 지정 하 고 **저장**을 선택 합니다.
     

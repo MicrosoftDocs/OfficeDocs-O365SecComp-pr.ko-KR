@@ -7,7 +7,6 @@ ms.date: 5/2/2016
 ms.audience: ITPro
 ms.topic: troubleshooting
 ms.service: O365-seccomp
-ms.custom: TN2DMC
 localization_priority: Normal
 search.appverid:
 - MET150
@@ -15,12 +14,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: 이 문서에서는 office 365의 받은 편지함에 전자 메일을 보내려고 할 때 문제가 발생 하는 보낸 사람에 대 한 문제 해결 정보와 office 365 고객에 게 대량 메일을 전송 하기 위한 모범 사례를 제공 합니다.
-ms.openlocfilehash: cfb3901b930b63ef8a33391c673a32a73eaa1b07
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: ac465e7ef42b9cfeb2587481202fab1b5adb5f75
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276298"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30692107"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
 
@@ -88,7 +87,7 @@ Microsoft가 보낸 사람의 IP 주소를 차단 했거나, 사용자 계정이
 ### <a name="my-email-landed-in-the-recipients-junk-folder-in-eop"></a>EOP의 받는 사람 정크 폴더에 있는 내 전자 메일 마법사로 돌아갑니다
 <a name="JunkMailBox"> </a>
 
-메시지가 EOP의 스팸으로 잘못 식별 된 경우 받는 사람과 협력 하 여 메시지를 평가 하 고 분석할 Microsoft 스팸 분석 팀에 게이 가양성 메시지를 제출할 수 있습니다. 분석 결과에 따라 메시지 통과를 허용 하도록 서비스 전반의 스팸 콘텐츠 필터 규칙이 조정 될 수 있습니다. 전자 메일을 사용 하 여 스팸으로 분류 되어서는 안 되는 메시지를 Microsoft로 전송 합니다. 이 경우에는 다음 절차의 단계를 사용 해야 합니다.
+메시지가 EOP의 스팸으로 잘못 식별 된 경우 받는 사람과 협력 하 여 메시지를 평가 하 고 분석할 Microsoft 스팸 분석 팀에 게이 가양성 메시지를 제출할 수 있습니다. 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체적으로 스팸 콘텐츠 필터 규칙이 조정될 수 있습니다. 전자 메일을 사용 하 여 스팸으로 분류 되어서는 안 되는 메시지를 Microsoft로 전송 합니다. 이 경우 다음 절차의 단계를 수행해야 합니다.
   
 ### <a name="to-use-email-to-submit-false-positive-messages-to-the-microsoft-spam-analysis-team"></a>전자 메일을 사용 하 여 Microsoft 스팸 분석 팀에 허위 긍정 메시지를 전송 하려면
 
@@ -126,7 +125,7 @@ Office 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 
   
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람: 이름이 메시지를 보내는 사용자를 반영 하는지 확인 합니다.
 
-제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예를 들어:
+제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예를 들면 다음과 같습니다.
   
 맞는
   
@@ -144,7 +143,7 @@ Office 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 
   
 ### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>캠페인 전자 메일에 항상 구독 취소 옵션 포함
 
-마케팅 전자 메일, 특히 뉴스레터에는 이후의 전자 메일에 대 한 구독 취소 방법이 항상 포함 되어야 합니다. 예를 들어:
+마케팅 전자 메일, 특히 뉴스레터에는 이후의 전자 메일에 대 한 구독 취소 방법이 항상 포함 되어야 합니다. 예를 들면 다음과 같습니다.
   
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
   
@@ -168,7 +167,7 @@ Office 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 
   
 - 전자 메일 메시지가 받는 사람이 보낸 사람을 주소록에 추가 하도록 요청 하면 해당 작업을 수행 해도 배달이 보장 되지 않는다는 것을 명확 하 게 명시 해야 합니다.
     
-- 메시지 본문에 포함 되는 리디렉션은 유사 하 고 일관적 이어야 하며, 여러 가지 및 다양화와 다를 수 있습니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지를 벗어나는 모든 것을 가리킵니다. 알림 또는 구독 취소 링크가 많거나 프로필 링크를 업데이트 하는 경우 모두 같은 도메인을 가리켜야 합니다. 예를 들어:
+- 메시지 본문에 포함 되는 리디렉션은 유사 하 고 일관적 이어야 하며, 여러 가지 및 다양화와 다를 수 있습니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지를 벗어나는 모든 것을 가리킵니다. 알림 또는 구독 취소 링크가 많거나 프로필 링크를 업데이트 하는 경우 모두 같은 도메인을 가리켜야 합니다. 예를 들면 다음과 같습니다.
     
     맞는
     
