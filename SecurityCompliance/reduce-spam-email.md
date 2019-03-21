@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: 5dac207393864f95f769ac205277b0c969f2fe32
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: d32cad18cf3972a667f2eb9a11b50d1b12e809a7
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357549"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30670563"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
@@ -56,6 +56,9 @@ ms.locfileid: "30357549"
 - **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우 전자 메일 주소, 도메인 또는 IP 주소를 차단할 수 있습니다. [EAC를 사용하여 도메인 또는 사용자가 전송하는 메시지를 차단하는 메일 흐름 규칙 생성](create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365.md#use-the-eac-to-create-a-mail-flow-rule-that-blocks-messages-sent-from-a-domain-or-user)을 참조하세요. 최종 사용자 허용 목록의 항목이 관리자가 설정한 차단 목록을 재정의할 수 있습니다.
     
 - **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자에 대한 보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
+- **[DKIM](use-dkim-to-validate-outbound-email.md)** 을 사용해 모든 아웃 바운드 메시지에 서명하여 도메인 및 테넌트의 보안을 강화하십시오.
+ > [!TIP]
+> DKIM을 활성화한 후에는 DKIM 및 SPF가 올바르게 작동할 경우 이 레코드가 유효성을 검사하므로 [DMARC](use-dkim-to-validate-outbound-email.md)를 활성화해야 하고, O365가 개인 및 공개 대칭 키를 관리하므로 일반적으로 스푸핑 전자 메일에 서명이 없습니다.
     
 ### <a name="for-users"></a>사용자
 
