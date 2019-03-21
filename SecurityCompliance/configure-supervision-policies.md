@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: 검토할 직원 정보를 캡처하기 위해 관리 검토 정책을 설정 합니다.
-ms.openlocfilehash: 2e321989934402b833d6190f65d696f4eb7919ca
-ms.sourcegitcommit: 547a05da067a8f66fdaccf1cc399afcf863f5a87
+ms.openlocfilehash: 76a5e7152b609944eeb2fe1390e204e1463a673b
+ms.sourcegitcommit: 9a69ea604b415af4fef4964a19a09f3cead5a2ce
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30474159"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30701293"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -62,26 +62,20 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 ## <a name="step-1---set-up-groups-for-supervision-optional"></a>1 단계-감독에 대 한 그룹 설정 (선택 사항)
 
- 감독 정책을 만들 때 의사 소통을 검토 하 고 이러한 검토를 수행할 사용자를 결정 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 단순화 하기 위해 통신을 검토 하 고 해당 통신을 검토할 사용자에 대 한 그룹을 확인할 사용자에 대 한 그룹을 만듭니다. 그룹을 사용 하는 경우에는 서로 다른 두 그룹 간의 통신을 모니터링 하려는 경우 또는 감독 하지 않을 그룹을 지정 하려는 경우에는 여러 가지 사항이 필요할 수도 있습니다. 이 작업 방법에 대 한 자세한 내용은 [예제 메일 그룹](configure-supervision-policies.md#GroupExample) 을 참조 하십시오.
-  
-조직의 그룹 간 또는 사이에서 통신을 감독할 Exchange 관리 센터에서 메일 그룹을 설정 합니다 ( **받는 사람** \> **그룹**으로 이동). 메일 그룹을 설정 하는 방법에 대 한 자세한 내용은 [메일 그룹 관리](http://go.microsoft.com/fwlink/?LinkId=613635) 를 참조 하세요.
-  
-> [!NOTE]
-> 원하는 경우 동적 메일 그룹 또는 보안 그룹을 감독에 사용할 수도 있습니다. 조직의 요구 사항에 적합 한지 여부를 결정 하는 데 도움이 되도록 [메일 사용이 가능한 보안 그룹 관리](http://go.microsoft.com/fwlink/?LinkId=627033)및 [동적 메일 그룹 관리](http://go.microsoft.com/fwlink/?LinkId=627058)를 참조 하세요.
-  
-<a name="GroupExample"> </a>
+ 감독 정책을 만들 때 의사 소통을 검토 하 고 이러한 검토를 수행할 사용자를 결정 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 간소화 하기 위해 통신을 검토 하 고 이러한 통신을 검토할 사용자에 대 한 그룹을 담당 하는 사용자에 대 한 그룹을 만들 수 있습니다. 그룹을 사용 하는 경우에는 서로 다른 두 사용자 그룹 간의 통신을 모니터링 하려는 경우 또는 감독 하지 않을 그룹을 지정 하려는 경우에는 여러 가지 사항이 필요할 수도 있습니다.
 
-### <a name="example-distribution-groups"></a>메일 그룹 예제
+다음 차트를 사용 하 여 조직에서 감독 정책을 위해 그룹을 구성 하는 데 도움이 됩니다.
 
-이 예에는 Contoso 재무 국제 지역 이라는 금융 조직에 대해 설정 된 메일 그룹이 포함 되어 있습니다.
-  
-Contoso 재무 국제에서는 미국의 브로커 간 통신에 대 한 샘플을 감독 해야 합니다. 그러나 해당 그룹 내의 규정 준수 관리자는 감독을 요구 하지 않습니다. 이 예에서는 다음 그룹을 만들 수 있습니다.
-  
-|**이 메일 그룹 설정**|**그룹 주소 (별칭)**|**설명**|
+| **정책 구성원** | **지원 되는 그룹** | **지원 되지 않는 그룹** |
 |:-----|:-----|:-----|
-|모든 US 브로커 | US_Brokers@Contoso.com | 이 그룹에는 Contoso에 대해 작업 하는 모든 미국 기반 브로커의 전자 메일 주소가 포함 됩니다. |
-| 모든 US 준수 직원 | US_Compliance@Contoso.com  | 이 그룹에는 Contoso에서 근무 하는 모든 미국 기반 규정 준수 관리자의 전자 메일 주소가 포함 됩니다. 이 그룹은 모든 미국 기반 브로커의 하위 집합 이므로이 별칭을 사용 하 여 감독 정책에서 규정 준수 관리자를 제외할 수 있습니다. |
+|감독 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
+| 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
   
+그룹을 설정 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
+- [메일 그룹 만들기 및 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
+- [메일 사용 가능 보안 그룹 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
+- [Office 365 그룹 개요](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
+
 <a name="MakeAvailable"> </a>
 
 ## <a name="step-2---make-supervision-available-in-your-organization-required"></a>2 단계-조직에서 감독을 사용할 수 있도록 설정 (필수)
@@ -118,43 +112,26 @@ Contoso 재무 국제에서는 미국의 브로커 간 통신에 대 한 샘플�
 
 <a name="sensitiveinfo"> </a>
   
-## <a name="step-3---create-custom-sensitive-information-types-or-custom-keyword-dictionaries-optional"></a>3 단계-사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전 만들기 (선택 사항)
+## <a name="step-3---create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional"></a>3 단계-사용자 지정 중요 한 정보 유형 및 사용자 지정 키워드 사전 만들기 (선택 사항)
 
 감독 정책 마법사에서 기존 사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전을 선택 하려면 먼저 필요한 경우 이러한 항목을 만들어야 합니다.
 
+### <a name="create-custom-keyword-dictionarylexicon-optional"></a>사용자 지정 키워드 사전/어휘 만들기 (선택 사항)
+
+메모장과 같은 텍스트 편집기를 사용 하 여 감독 정책에서 모니터링할 키워드 용어를 포함 하는 새 파일을 만듭니다. 각 용어가 별도의 줄에 있는지 확인 하 고 파일을 **유니코드/u t f-16 (꼬마)** 형식으로 저장 합니다.
+
 ### <a name="create-custom-sensitive-information-types"></a>사용자 지정 중요 한 정보 유형 만들기
 
-1. Office 365 Security & 준수 센터에서 새 중요 한 정보 유형을 만듭니다. **중요 한 정보** 유형 **분류** \> 로 이동 하 여 **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
+1. 새 중요 한 정보 유형을 만들고 Office 365 Security & 준수 센터에서 사용자 지정 사전을 추가 합니다. **중요 한 정보** 유형 **분류** \> 로 이동 하 여 **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
 
     - 중요 한 정보 유형에 대 한 이름 및 설명 정의
     - 근접성, 신뢰 수준 및 주 패턴 요소 정의
+    - 일치 요소에 대 한 요구 사항으로 사용자 지정 사전 가져오기
     - 선택 항목 검토 및 중요 한 정보 유형 만들기
 
-    자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조 하십시오.
-
-### <a name="create-custom-keyword-dictionarylexicon"></a>사용자 지정 키워드 사전/어휘 만들기
-
-1. 메모장과 같은 텍스트 편집기를 사용 하 여 감독 정책에서 모니터링할 키워드 용어를 포함 하는 새 파일을 만듭니다. 각 용어가 별도의 줄에 있는지 확인 하 고 파일을 **유니코드/u t f-16 (꼬마)** 형식으로 저장 합니다.
-2. PowerShell을 사용 하 여 Office 365 테 넌 트에 키워드 파일을 가져옵니다. PowerShell을 사용 하 여 office 365에 연결 하려면 [connect to office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조 하세요.
-
-    PowerShell을 사용 하 여 Office 365에 연결한 후에 키워드 사전을 가져오려면 다음 명령을 실행 합니다.
-
-    ```
-    $fileData = Get-Content "your keyword path and file name" -Encoding Byte -ReadCount 0
-
-    New-DlpKeywordDictionary -Name "Name for your keyword dictionary" -Description "optional description for your keyword dictionary" -FileData $fileData
-    ```
-    자세한 내용은 [Create a keyword dictionary](create-a-keyword-dictionary.md)를 참조 하십시오.
-
-3. Office 365 Security & 준수 센터에서 새 중요 한 정보 유형을 만듭니다. **중요 한 정보** 유형 **분류** \> 로 이동 하 여 **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
-
-    - 중요 한 정보 유형에 대 한 이름 및 설명 정의
-    - 일치 요소에 대 한 요구 사항으로 사용자 지정 사전 추가
-    - 선택 항목 검토 및 중요 한 정보 유형 만들기
+    자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md) 및 [키워드 사전 만들기](create-a-keyword-dictionary.md) 를 참조 하세요.
 
     사용자 지정 사전/어휘를 만든 후에는 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) cmdlet을 사용 하 여 구성 된 키워드를 보거나 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet을 사용 하 여 용어를 추가 및 제거할 수 있습니다.
-
-    자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조 하십시오.
 
 <a name="setupsuper"> </a>
 

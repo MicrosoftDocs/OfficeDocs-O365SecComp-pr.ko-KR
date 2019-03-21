@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: acfc1996a630cb6ff9a12a1e2953c93ba9862ffd
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 3f3d32eee9c3d706a10731ba7983d3ce8d1f7a75
+ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454930"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720268"
 ---
 # <a name="auto-forwarded-messages-report"></a>자동 전달 메시지 보고서
 
@@ -33,3 +33,7 @@ ms.locfileid: "30454930"
 ## <a name="insights"></a>인사이트
 
 보고서 데이터를 기반으로 하 여 **새 전달 사용자** 및 **새 전달 도메인**이라는 두 개의 insights가 생성 됩니다. 각 통찰력은 새로운 **전달 보고서** 에 대 한 링크를 포함 하는 새 전달자 또는 도메인의 수에 대 한 요약을 제공 하 여 두 가지 유형의 데이터에 대 한 세부 정보를 제공 합니다. **새 전달 보고서** 는 새 활동의 시간 표시 막대 보기를 표시 하 고 세부 정보 테이블에는 전달을 시작한 사용자 및 해당 도메인을 식별 합니다.
+
+## <a name="see-also"></a>참고 항목
+
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

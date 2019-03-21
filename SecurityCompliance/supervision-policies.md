@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해
-ms.openlocfilehash: 99957accb6a1f52f0e0a895fc96ef2b6ac0ac757
-ms.sourcegitcommit: 5eb664b6ecef94aef4018a75684ee4ae66c486bb
+ms.openlocfilehash: c22abdf315b2301ae9c63b26f548eff302df8e2a
+ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30492857"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720278"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -99,7 +99,7 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 
 #### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
-사용자 지정 키워드 사전 (또는 lexicons)을 구성 하면 조직 또는 업계와 관련 된 키워드를 간단 하 게 관리할 수 있으며 사전 당 최대 10만 개의 용어를 지원할 수 있습니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록)에서 출처를 지정 하거나 [PowerShell cmdlet에 직접 입력할](create-a-keyword-dictionary.md)수 있는 목록에서 만들 수 있습니다.
+사용자 지정 키워드 사전 (또는 lexicons)을 구성 하면 조직 또는 업계와 관련 된 키워드를 간단 하 게 관리할 수 있으며 사전 당 최대 10만 개의 용어를 지원할 수 있습니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
 
 #### <a name="conditional-settings"></a>조건부 설정
 
@@ -249,16 +249,17 @@ Outlook을 사용 하 여 다음과 같은 작업을 수행할 수 있습니다.
 
 |**작업**|**연결 된 명령**|
 |:-----|:-----|
-| 정책 만들기 | SupervisoryReviewPolicy <br> set-supervisoryreviewrule |
-| 정책 편집 | SupervisoryReviewPolicy <br> set-supervisoryreviewrule |
-| 정책 삭제| SupervisoryReviewPolicy을 제거 합니다. |
+| 정책 만들기 | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
+| 정책 편집 | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
+| 정책 삭제| [remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
+| 정책 보기 | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewpolicyv2) |
 
 감사는 통합 된 감사 로그 검색 기능을 사용 하 여 검색 하거나 [search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 검색할 수 있습니다.
 
 예를 들어 다음 예에서는 모든 관리 검토 작업 (정책 및 규칙)에 대 한 활동을 반환 하 고 각 정보에 대 한 자세한 내용을 나열 합니다.
 
 ```
-Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"} | fl CreationDate,Operations,UserIds,AuditData 
+Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
 ```
 
 [SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.

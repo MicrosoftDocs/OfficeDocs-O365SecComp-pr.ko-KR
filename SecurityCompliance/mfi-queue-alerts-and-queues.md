@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드의 큐 경고 및 큐에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 6abfe9e8b3edfc6b0ca02e11a9713dcdb5c19b7c
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 642aa672cda124873eb0b2ca8e9294e64325f55d
+ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454870"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720308"
 ---
 # <a name="queue-alerts-and-queues"></a>큐 알림 및 큐
 
@@ -69,3 +69,7 @@ Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시�
 **큐**에서 대기 중인 메시지 수를 클릭 하면 문제를 해결 하는 방법에 대 한 큐 세부 정보 및 지침이 플라이 아웃 창 (큐 경고의 세부 정보에서 **큐 보기** 를 클릭 하면 표시 되는 동일한 플라이 아웃)에 표시 됩니다.
 
 ![큐 세부 정보](media/4eb088fe-5dd9-4bf4-b959-c1bb2545c515.png)
+
+## <a name="see-also"></a>참고 항목
+
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

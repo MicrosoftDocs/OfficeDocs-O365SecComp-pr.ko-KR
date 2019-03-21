@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
 description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 위젯에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 98806a699909056b4295911a031bb7b14233ede5
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: b3e92228506267e674f2f428fab1ef54d5aee38e
+ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454890"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720288"
 ---
 # <a name="outbound-and-inbound-mail-flow"></a>아웃바운드 및 인바운드 메일 흐름
 
@@ -48,3 +48,7 @@ ms.locfileid: "30454890"
 드롭다운에서 **tls 사용** 보기를 선택 하 여 커넥터를 통한 메시지에 대 한 tls 보호 분석을 확인할 수 있습니다. **tls 개요 보고서** 보고서와 마찬가지로이 보기에는 서로 다른 TLS 버전의 백분율이 표시 됩니다. tls 1.0 연결의 경우 실제로 Office 365에서 TLS 1.0 지원이 더 이상 사용 되지 않는 경우 문제를 방지 하기 위해 전자 메일 서버 또는 파트너의 서버를 업그레이드 하거나 수정 해야 합니다. 자세한 내용은 [Office 365의 암호화에 대 한 기술 참조 세부 정보](https://support.office.com/article/862cbe93-4268-4ef9-ba79-277545ecf221)를 참조 하세요.
 
 Insights 커넥터에 대 한 잠재적 TLS 암호화 문제를 강조할 수 있도록 커넥터를 가리킵니다. 이 정보는 다음과 같습니다. **tls가 25%를 초과** 하거나 **tls 1.0이 50%** 이상입니다. 이러한 정보가 표시 되 면 커넥터와 연결 된 전자 메일 서버를 조사 해야 하거나 파트너 조직에 연결 하는 것이 좋습니다.
+
+## <a name="see-also"></a>참고 항목
+
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.
