@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bf48e605dc321da4b7a9d5343d18f90fbb179073
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: f6db3c178e584c45cf282158c58fb5125dc41f3f
+ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296731"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737678"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -62,8 +62,8 @@ ms.locfileid: "30296731"
 
     ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
-     > [!NOTE]
-     > 이 명령을 실행 하는 데 문제가 있는 경우 https://go.microsoft.com/fwlink/?linkid=2038117 문제 해결 팁을 참조 하십시오.
+    > [!NOTE]
+    > 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery (Preview)에서 AzCopy 문제 해결](troubleshooting-azcopy.md) 을 참조 하세요.
 
 7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 다양 한 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
     > [!NOTE]

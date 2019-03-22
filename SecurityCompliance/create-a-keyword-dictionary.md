@@ -3,23 +3,22 @@ title: 키워드 사전 만들기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
 description: '경우에 따라 중요한 정보를 식별하기 위해 키워드를 검색해야 할 수 있습니다. 이러한 작업은 일반 콘텐츠(예: 의료 관련 커뮤니케이션) 또는 부적절하거나 명시적인 언어를 식별할 때 특히 필요합니다. 중요한 정보 유형에 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되며 생성하거나 편집하기 위해 XML을 수정해야 합니다. 키워드 사전은 키워드를 보다 간편하게 관리할 수 있도록 하며 사전당 최대 100,000개 용어를 지원합니다.'
-ms.openlocfilehash: 8e115c0feddbd55a498db3481e6ad4bc7ebb07e7
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 5561f8b11cf7bab8c726da332caca1484d455b35
+ms.sourcegitcommit: 9a69ea604b415af4fef4964a19a09f3cead5a2ce
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30638915"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30701313"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -27,17 +26,32 @@ Office 365의 DLP(데이터 손실 방지)는 중요한 정보를 식별, 모니
   
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>키워드 사전을 만드는 기본 단계
 
-사전의 키워드는 다양한 원본, 파일(예:.csv 또는 .txt 목록)(대부분의 경우), cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
+사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
   
-1. **보안 및 &amp;준수 센터 PowerShell에 연결** - [이 항목](https://docs.microsoft.com/ko-KR/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 참조하세요.
+1. **보안 및 준수 센터**를 이용하거나 **보안 &amp;규정 준수 센터 PowerShell**로 연결하세요.
     
-2. **의도한 원본의 키워드 정의 또는 로드** - 키워드 사전을 만드는 cmdlet은 쉼표로 구분된 키워드 목록을 수락하므로, 이 단계는 키워드를 가져오는 원본에 따라 약간 다릅니다. 
+2. **의도한 원본의 키워드 정의 또는 로드** - 마법사와 cmdlet 모두 쉼표로 구분된 키워드 목록을 수락하여 사용자 지정 키워드 사전을 만드므로, 이 단계는 키워드를 가져오는 원본에 따라 약간 다릅니다. 일단 로드되고 나면 가져오기 전에 인코딩되어 바이트 배열로 변환됩니다.
     
-3. **키워드 인코딩** - 일단 로드되고 나면 가져오기 전에 바이트 배열로 변환됩니다. 
+3. **사용자 사전 만들기** - 이름과 설명을 선택하고 사전을 만듭니다.
+
+## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a>보안 및 규정 준수 센터를 사용하여 키워드 사전 만들기
+
+다음 단계를 따라 사용자 지정 사전에 대한 키워드를 만들고 가져오세요.
+
+1. [보안 및 준수 센터](https://protection.office.com)에 연결합니다.
+2. **분류 > 중요한 정보 유형**으로 이동합니다.
+3. **만들기**를 선택하고 중요한 정보 유형에 대한 **이름** 및 **설명**을 입력하고 **다음**을 선택합니다.
+4. **요소 추가**를 선택한 다음 **다음이 포함된 내용 감지** 드롭다운에서 **사전(광범위한 키워드)** 을 선택합니다.
+5. **사전 추가**를 선택합니다.
+6. 검색 컨트롤에서 **여기에서 새 키워드 사전을 만들 수 있음**을 선택합니다.
+7. 사용자 지정 사전에 대한 **이름**을 입력합니다.
+8. **가져오기**를 선택하고 키워드 파일 종류에 따라 **텍스트 파일에서** 또는 **csv 파일에서** 중 하나를 선택합니다.
+9. 파일 대화 상자에서 로컬 PC 또는 네트워크 파일 공유에 있는 키워드 파일을 선택한 다음 **열기**를 선택합니다.
+10. **저장**을 선택한 다음 **키워드 사전** 목록에서 사용자 지정 사전을 선택합니다.
+11. **추가**를 선택하고 **다음**을 선택합니다.
+12. 중요한 정보 유형 선택 사항을 검토 및 완료한 다음 **완료**를 선택합니다.
     
-4. **사용자 사전 만들기** - 이름과 설명을 선택하고 사전을 만듭니다. 
-    
-## <a name="create-a-keyword-dictionary-from-a-file"></a>파일에서 키워드 사전 만들기
+## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>PowerShell을 사용하여 파일에서 키워드 사전 만들기
 
 종종 대용량 사전 만들어야 할 경우 다른 원본에서 가져온 파일이나 목록의 키워드를 사용할 수 있습니다. 이 경우 외부 전자 메일에서 걸러내야 할 부적절한 언어 목록이 포함된 키워드 사전을 만듭니다. 먼저 [Office 365 보안 &amp; 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/ko-KR/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)해야 합니다.
   
@@ -59,7 +73,9 @@ Office 365의 DLP(데이터 손실 방지)는 중요한 정보를 식별, 모니
 
 ## <a name="modifying-an-existing-keyword-dictionary"></a>기존 키워드 사전 수정
 
-키워드 사전 중 하나에서 키워드를 수정하거나, 기본 제공된 사전 중 하나에서 키워드를 수정해야 할 수 있습니다. 이 예제에서는 PowerShell에서 일부 용어를 수정하고, 편집기에서 수정할 수 있도록 로컬로 저장한 후 이전 용어를 업데이트합니다. 먼저 다음과 같이 사전 개체를 검색합니다.
+키워드 사전 중 하나에 있는 키워드를 수정하거나 기본 제공 사전 중 하나에서 키워드를 수정해야 할 수 있습니다. 현재는 PowerShell을 사용한 사용자 지정 사전 업데이트만 가능합니다. 
+
+이 예제에서는 PowerShell에서 몇 가지 용어를 수정하고, 편집기에서 수정할 수 있도록 로컬 저장한 다음 업데이트를 통해 이전 용어를 교체합니다. 먼저 사전 개체를 검색합니다.
   
 ```
 $dict = Get-DlpKeywordDictionary -Name "Diseases"
