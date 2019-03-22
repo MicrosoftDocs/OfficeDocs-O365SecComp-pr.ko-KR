@@ -88,12 +88,12 @@
 ### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [위협으로부터 보호](protect-against-threats.md)
+## [빠른 시작 가이드: Office 365 고급 위협 방지 설정](checklist-atp-setup.md)
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
 ### [EOPv 개요](videos-for-getting-started-with-protecting-your-email.md)
 ### [Office 365 스팸 방지 보호](anti-spam-protection.md)
 ### [Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법](prevent-email-from-being-marked-as-spam.md)
 ### [Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)
-### [EOP 및 Office 365에서 전자 메일 스팸으로 표시 방지](prevent-email-from-being-marked-as-spam-0.md)
 ### [Office 365에서 아웃바운드 스팸 제어](outbound-spam-controls.md)
 ### [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)
 ### [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](zero-hour-auto-purge.md)
@@ -369,7 +369,7 @@
 
 # [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 ## [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)
-## [사서함 감사 사용](enable-mailbox-auditing.md)
+## [사서함 감사 관리](enable-mailbox-auditing.md)
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
 ## [일반적인 시나리오 문제를 해결하기 위해 감사 로그 사용](auditing-troubleshooting-scenarios.md)
 ## [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)
