@@ -1,5 +1,5 @@
 ---
-title: Microsoft 보안 점수
+title: Microsoft Secure Score
 description: Microsoft 365 보안 점수, 세부 정보를 계산 하는 방법 및 보안 관리자가이를 사용 하는 것으로 예상할 수 있는 사항을 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
 ms.prod: w10
@@ -11,14 +11,16 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: de3abe7ca0e84efd2412984e172202d8f3962476
-ms.sourcegitcommit: 9d48b656406e916e93651352692c5c6bcbbd645f
+ms.openlocfilehash: 369d3edf02b26be466a6dc8eea3d872030bbbcd2
+ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30203736"
+ms.lasthandoff: 03/23/2019
+ms.locfileid: "30789413"
 ---
-# <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
+# <a name="microsoft-secure-score"></a>Microsoft Secure Score
+
+[!include[Prerelease�information](prerelease.md)]
 
 microsoft 365 보안 센터에서 microsoft 보안 점수를 사용 하 여 조직의 보안 상태에 대 한 가시성과 제어를 향상 시킬 수 있습니다. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다.
 
