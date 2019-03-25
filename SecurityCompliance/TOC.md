@@ -166,7 +166,7 @@
 #### [Microsoft Dynamics 365에서 암호화](office-365-encryption-in-microsoft-dynamics-365.md)
 #### [Azure의 암호화](office-365-azure-encryption.md)
 
-## [Advanced Threat Protection(안전한 링크 및 안전한 첨부 파일)](office-365-atp.md)
+## [Advanced Threat Protection ](office-365-atp.md)
 ### [ATP 안전한 링크](atp-safe-links.md)
 #### [ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
 #### [사용자 지정 "재작성 금지" URL 목록 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
@@ -183,7 +183,10 @@
 ## [위협 조사 및 응답](office-365-ti.md)
 ### [시작](get-started-with-ti.md)
 ### [위협 트래커](threat-trackers.md)
-### [보안 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)
+### [위협 탐색기](use-explorer-in-security-and-compliance.md)
+#### [위협 탐색기 보기](threat-explorer-views.md)
+#### [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
+### [자동화된 조사 및 응답](automated-investigation-response-office.md)
 ### [ATP 보고서 보기](view-reports-for-atp.md)
 ### [Office 365의 공격 시뮬레이터](attack-simulator.md)
 ### [위협 조사 및 응답을 활용하여 사용자 안전 보장](keep-users-safe-with-office-365-ti.md)
@@ -319,6 +322,7 @@
 #### [Advanced eDiscovery 제한 사항(미리 보기)](compliance20/limits-ediscovery20.md)
 #### [지원되는 파일 형식](compliance20/supported-filetypes-ediscovery20.md)
 #### [문서 메타데이터 필드](compliance20/document-metadata-fields.md)
+#### [AzCopy 문제 해결](compliance20/troubleshooting-azcopy.md)
 
 ## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Advanced eDiscovery에서 시작하기](quick-setup-for-advanced-ediscovery.md)
