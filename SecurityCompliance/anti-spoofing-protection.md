@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 localization_priority: Priority
 description: 이 문서에서는 Office 365가 위조된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용하는 피싱 공격을 줄이는 방법에 대해 설명합니다. 표준 전자 메일 인증 방법이나 다른 보낸 사람 신뢰도 기술을 사용하지 않고 메시지를 분석하고 인증할 수 있는 메시지를 차단하여 이 작업을 수행합니다. 이 변경 사항은 Office 365의 조직이 피싱 공격에 노출된 수를 줄이기 위해 구현되었습니다.
-ms.openlocfilehash: 704f335a8938f46aba4e2506ff43d07251270379
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.openlocfilehash: bcd5dd27ac0061277a47dcc5875990cc473cb768
+ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664461"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "30693377"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -385,11 +385,11 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
   
 ### <a name="viewing-reports-of-how-many-messages-were-marked-as-spoofed"></a>스푸핑으로 표시된 메시지 수에 대한 보고서 보기
 
-스푸핑 방지 정책을 사용하면 위협 정보를 사용하여 피싱으로 표시된 메시지 수에 대한 정보를 얻을 수 있습니다. 이렇게 하려면 위협 관리 \> 탐색기 아래의 보안 &amp; 준수 센터(SCC)로 가서 피싱으로보기를 설정하고 보낸 사람 도메인 또는 보호 상태별로 그룹화합니다.
+스푸핑 방지 정책을 사용하면 위협 조사 및 응답 기능을 사용하여 피싱으로 표시된 메시지 수에 대한 정보를 얻을 수 있습니다. 이렇게 하려면 위협 관리 \> 탐색기 아래의 보안 &amp; 준수 센터(SCC)로 가서 피싱으로보기를 설정하고 보낸 사람 도메인 또는 보호 상태별로 그룹화합니다.
   
 ![피싱으로 표시된 메시지 수 보기](media/de25009a-44d4-4c5f-94ba-9c75cd9c64b3.jpg)
   
-다양한 보고서와 상호 작용하여 스푸핑으로 표시된 메시지 등 피싱으로 표시된 수를 확인할 수 있습니다. 자세한 내용은 [Office 365 위협 인텔리전스 시작하기](get-started-with-ti.md)를 참조하십시오.
+다양한 보고서와 상호 작용하여 스푸핑으로 표시된 메시지 등 피싱으로 표시된 수를 확인할 수 있습니다. 자세한 내용은 [Office 365 위협 조사 및 응답 시작하기](get-started-with-ti.md)를 참조하십시오.
   
 다른 유형의 피싱(일반 피싱, 도메인 또는 사용자 가장 등)과 달리 스푸핑으로 인해 표시된 메시지를 아직 분리할 수 없습니다. 그러나 나중에 보안 &amp; 준수 센터를 통해 이 작업을 수행할 수 있습니다. 일단 이 보고서를 사용하면 실패한 인증으로 인해 스푸핑으로 표시되는 합법적인 보내는 도메인을 식별할 수 있습니다.
   
