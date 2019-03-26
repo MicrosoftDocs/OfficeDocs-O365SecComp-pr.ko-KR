@@ -3,7 +3,7 @@ title: 보안 &amp; 및 준수 센터에서 위협 탐색기 사용
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/10/2019
+ms.date: 03/21/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (위협 탐색기 라고도 함)에 대해 알아봅니다.
-ms.openlocfilehash: 0c86792d8ed84b43b28bde31004dc95d2fa2b547
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 202898873bb9611c747aed335d295c749c7cd0fa
+ms.sourcegitcommit: a56128c7be5d59e976851c27301031e19fa1997d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693617"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30732261"
 ---
 # <a name="use-threat-explorer-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 위협 탐색기 사용
 
@@ -35,104 +35,92 @@ Explorer를 &amp; 사용 하려면 보안 및 준수 센터에서 **위협 관�
       
 ## <a name="explorer-overview"></a>탐색기 개요
 
-탐색기에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다. 처음으로 탐색기를 열면 기본 보기에는 최근 7 일간의 전자 메일 맬웨어 검색이 표시 됩니다. 또한 Explorer는 [안전한 링크](atp-safe-links.md) 및 [안전한 첨부 파일](atp-safe-attachments.md) 을 포함 하 여 Office 365의 보안 보호 기능을 표시할 수 있으며, 이전의 30 일간의 데이터를 표시 하도록 수정할 수 있습니다. office 365 Advanced Threat Protection 계획 2 또는 Office 365 E5에 대 한 평가판 subcription 있는 경우에는 최근 7 일간의 검색 및 전자 메일 데이터만 볼 수 있습니다.
-  
-![Explorer에는 가장 많이 사용한 맬웨어 및 대상 사용자에 대 한 정보가 표시 됩니다.](media/8e8c1582-d6f4-4521-8591-686a1cb01f7e.png)
-  
-표시 되는 정보를 변경 하려면 보기 메뉴를 사용 합니다.
-  
-![탐색기에 대 한 보기 메뉴](media/2bb34f58-555f-4967-ba55-740334ef1f8e.png)
-  
-Explorer에는 상위 대상 사용자, 최고 맬웨어 제품군, 검색 기술 등의 세부 정보를 확인할 수 있는 다양 한 필터링 및 쿼리 기능이 있습니다. 각 보고서 종류에서는 다양 한 방식으로 데이터를 보고 탐색할 수 있습니다.
+조직에 [Office 365 위협 조사 및 응답 기능이](office-365-ti.md) 있고 (ATP 계획 2에 포함 되어 있음) 필요한 권한이 있는 경우 위협 탐색기 (탐색기 라고도 함)를 사용 하 여 위협을 식별 하 고 분석할 수 있습니다. 보안 &amp; 및 준수 센터에서 **위협 관리** \> **탐색기**로 이동 합니다.
 
-> [!IMPORTANT]
-> 별표 (*) 또는 물음표 (?)와 같은 와일드 카드 문자는 탐색기에서 사용 하지 마십시오. 전자 메일 메시지의 제목 필드를 검색 하면 Explorer는 부분 일치를 수행 하 고 와일드 카드 검색과 비슷한 결과를 반환 합니다.
-
-## <a name="email--malware"></a>전자 \> 메일 맬웨어
-
-이 보기에는 맬웨어를 포함 하는 것으로 확인 된 전자 메일 메시지가 표시 됩니다.  
-
-맬웨어 제품군, 보낸 사람 도메인, 보낸 사람 IP, 보호 상태 (Office 365의 위협 보호 기능 및 정책에 의해 수행 된 작업) 및 검색 기술 (맬웨어 검색 방법)에 따라 차트의 정보를 확인 합니다.  
-
-![검색 된 맬웨어에 대 한 데이터 보기](media/d11dc568-b091-4159-b261-df13d76b520b.png)         
-
-차트 아래에서 주요 맬웨어 패밀리, 상위 대상 사용자 및 특정 메시지에 대 한 세부 정보를 확인할 수 있습니다. 
-
-## <a name="email--phish"></a>전자 \> 메일 피싱
-
-이 보기에는 피싱 시도로 식별 된 전자 메일 메시지가 표시 됩니다.  
-
-보낸 사람 도메인, 보낸 사람 IP 및 보호 상태 (Office 365의 위협 보호 기능 및 정책에 의해 수행 된 작업) 별로 정보를 확인 합니다. 
-
-![피싱 시도로 식별 된 전자 메일에 대 한 데이터 보기](media/2e3f97fa-2b99-47f9-afd6-216d10633c50.png) 
-
-차트 아래에서 특정 메시지에 대 한 세부 정보를 확인 합니다. 
-
-## <a name="email--user-reported"></a>전자 \> 메일 사용자가 보고 됨
-
-이 보기에는 사용자가 정크 메일로 보고 되거나, 정크 메일, 피싱 전자 메일이 표시 됩니다.  
-
-정보 보기 (사용자가 전자 메일을 정크 메일로, 정크 메일이 아님, 또는 피싱를 결정 함), 배달 사유 (스팸 필터 정책, 메일 흐름 규칙, 수신 거부 목록, 수신 허용-보낸 사람 목록 등을 사용 하 여 전자 메일을 특정 위치로 이동 해야 하는 이유) 등)  
-
-![정크 메일로 보고 된 전자 메일 사용자에 대 한 데이터 보기, 정크 메일 또는 피싱 사기](media/255acd04-0d07-4b29-82af-5060a60c20ab.png)  
-
-차트 아래에 있는 특정 전자 메일 메시지에 대 한 세부 정보 (예: 제목 줄, 보낸 사람의 IP 주소, 메시지를 정크로 보고 한 사용자, 정크 메일, 피싱 등)를 자세히 확인 합니다. 
-
-## <a name="email--all-mail"></a>전자 \> 메일 모든 메일
-
-이 보기에는 모든 비 악성 메일 (일반 전자 메일, 스팸 및 대량 메일)과 마찬가지로 피싱 또는 맬웨어로 인 한 악성 전자 메일을 비롯 한 전자 메일 활동의 모든 보기가 표시 됩니다. 
-
-> [!NOTE]
-> **너무 많은 데이터를 표시 하는 데**오류가 발생 하는 경우 필터를 추가 하 고 필요한 경우 보고 있는 날짜 범위를 좁힐 수 있습니다. 
-
-필터를 적용 하려면 **보낸 사람**을 선택 하 고 목록에서 항목을 선택한 다음 새로 고침 단추를 클릭 합니다. 이 예제에서는 **검색 기술을** 필터로 사용 했으며 몇 가지 옵션을 사용할 수 있습니다. 보낸 사람, 보낸 사람의 도메인, 받는 사람, 제목, 첨부 파일 이름, 맬웨어 제품군, 보호 상태 (Office 365의 위협 보호 기능 및 정책에 따라 수행 된 작업), 검색 기술 (맬웨어 감지 방법) 및 자세한. 
-
-![검색 기술을 통해 검색 된 전자 메일에 대 한 데이터 보기](media/0c032eb3-6021-4174-9f06-ff8f30c245ca.png) 
-
-차트 아래에 제목 줄, 받는 사람, 보낸 사람, 상태 등의 특정 전자 메일 메시지에 대 한 세부 정보를 확인 합니다. 
-
-## <a name="content--malware"></a>콘텐츠 \> 맬웨어
-
-이 보기는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection에서 악의적으로 식별 된 파일을 보여 줍니다.
-
-맬웨어 제품군, 검색 기술 (맬웨어가 감지 된 방법) 및 작업 (OneDrive, SharePoint 또는 팀)을 통해 정보를 확인 합니다. 
-
-![검색 된 맬웨어에 대 한 데이터 보기](media/d11dc568-b091-4159-b261-df13d76b520b.png)  
-
-차트 아래에서 첨부 파일 이름, 작업, 파일 크기, 파일을 마지막으로 수정한 사용자 등 특정 파일에 대 한 세부 정보를 확인 합니다. 
-  
-## <a name="new-click-to-filter-capabilities"></a>(새로운 방법!) 간편 필터 기능
-
-새로 만들기 Explorer를 클릭 하 여 필터링 할 수 있습니다. 범례에서 항목을 클릭 하면 해당 항목이 보고서에 대 한 필터가 됩니다. 예를 들어 Explorer에서 맬웨어 보기를 보고 있다고 가정 합니다.
-  
 ![위협 관리 \> 탐색기로 이동](media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
-  
-이 차트에서 **ATP 샌드 박싱** 를 클릭 하면 다음과 같은 보기가 만들어집니다. 
-  
-![탐색기가 필터링 되어 ATO 샌드 박싱 결과만 표시 합니다.](media/7241d7dd-27bc-467d-9db8-6e806c49df14.png)
-  
-이 보기에서는 [Office 365 ATP 안전한 첨부](atp-safe-attachments.md)파일에서 열 된 파일에 대 한 데이터를 살펴봅니다. 이 차트 아래에서 ATP 안전한 첨부 파일에 의해 검색 된 첨부 파일이 있는 특정 전자 메일 메시지에 대 한 세부 정보를 확인할 수 있습니다.
-  
-![검색 된 첨부 파일이 있는 전자 메일 메시지에 대 한 구체적인 세부 정보](media/c91fb05c-d1d4-4085-acc6-f7008a415c2a.png)
-  
-항목을 하나 이상 선택 하면 선택한 항목에 대해 선택할 수 있는 여러 선택 항목이 제공 되는 **작업** 메뉴가 활성화 됩니다. 
-  
-![항목을 선택 하면 작업 메뉴가 활성화 됩니다.](media/95f127a4-1b2a-4a76-88b9-096e3ba27d1b.png)
-  
-클릭 하 고 특정 세부 정보로 탐색 하는 기능을 통해 위협을 조사 하는 데 많은 시간을 절약할 수 있습니다.
-  
-## <a name="how-do-i-get-explorer"></a>탐색기를 가져오려면 어떻게 해야 합니까?
+
+이 문서에서는 Explorer를 사용 하 여 수행할 수 있는 몇 가지 방법에 대해 설명 합니다 (더 많은 가능성이 있음).
+
+- [전자 메일에서 검색 된 맬웨어 종류](#see-malware-detected-in-email-by-technology)및 위협 보호 기술 (맬웨어 방지 보호, ATP 안전한 첨부 파일 등)을 확인 합니다.
+
+- [피싱 링크 (url)에 대 한 데이터를 보고](#view-data-about-phishing-urls-and-click-verdict), 클릭 verdicts의 용도 (경고 발생 시에는 url 차단, 허용 또는 방문 함)에 대 한 정보
+
+- 정크 메일로 [보고 되거나, 정크 메일 이나 피싱이 아닌](#review-email-messages-reported-by-users)모든 경향을 식별 하 고, 모든 추세 (예: 피싱로 보고 되는 일반적인 메시지 수를 초과 하는 경우)를 확인 합니다. 
+
+## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
+
+전자 메일에서 검색 된 맬웨어 및 Office 365의 기술에 대해 확인 하려는 경우를 가정해 보겠습니다. 이 작업을 수행 하려면 [전자 메일 > 맬웨어](threat-explorer-views.md#email--malware) 보기 탐색기를 사용 합니다.
+
+1. [https://protection.office.com](https://protection.office.com)Office 365 Security & 준수 센터 ()에서 **Threat management** > **Explorer**를 선택 합니다.
+2. **보기** 메뉴에서 **전자 메일** > **맬웨어**를 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewEmailMalwareMenu.png)<br/>
+3. **보낸 사람**을 클릭 한 다음 **기본** > **검색 기술을**선택 합니다.<br/>이제 검색 기술을 보고서에 대 한 필터로 사용할 수 있습니다.<br/>![맬웨어 검색 기술](media/ExplorerEmailMalwareDetectionTech.png)<br/> 
+4. 옵션을 선택한 다음 새로 고침 단추를 클릭 하 여 해당 필터를 적용 합니다.<br/>![선택한 검색 기술](media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
+
+선택한 기술 옵션을 사용 하 여 전자 메일로 검색 된 결과 맬웨어가 표시 되도록 보고서가 새로 고쳐집니다. 여기서는 추가 분석을 수행할 수 있습니다.
+
+## <a name="view-data-about-phishing-urls-and-click-verdict"></a>피싱 url에 대 한 데이터를 확인 하 고 결과를 클릭 합니다.
+
+허용, 차단 및 재정의 된 url 목록을 비롯 하 여 전자 메일의 url을 통한 피싱 시도를 확인 하려는 경우를 가정해 보겠습니다. 이 작업을 수행 하려면 [전자 메일 > 피싱](threat-explorer-views.md#email--phish) Explorer 보기를 사용 합니다.
+
+1. [https://protection.office.com](https://protection.office.com)Office 365 Security & 준수 센터 ()에서 **Threat management** > **Explorer**를 선택 합니다.
+2. **보기** 메뉴에서 **전자 메일** > **피싱**을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewEmailPhishMenu.png)<br/>
+3. **보낸 사람**을 클릭 한 다음 **url** > 을 선택 합니다**결과를 클릭**합니다.
+4. **차단** 됨 및 **무시 된 블록과**같은 옵션을 하나 이상 선택 하 고 **새로 고침** 단추를 클릭 하 여 해당 필터를 적용 합니다.<br/>![url을 선택 하 고 verdicts을 클릭 합니다.](media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
+
+보고서가 새로 고쳐지고 전자 메일 배달 상태와 함께 차단 (또는 경고가 발생 하더라도 방문) 된 전자 메일에 검색 된 피싱 url이 표시 됩니다. 여기서는 추가 분석을 수행할 수 있습니다. 예를 들어 차트 아래에서 조직의 전자 메일에서 차단 된 최상위 url을 볼 수 있습니다. 
+
+![차단 된 탐색기 url](media/ExplorerPhishClickVerdictURLs.png) 
+
+자세한 정보를 보려면 URL을 선택 합니다.
+
+## <a name="review-email-messages-reported-by-users"></a>사용자가 보고 한 전자 메일 메시지 검토
+
+조직의 사용자가 [outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 정크 메일 또는 피싱이 아닌 메시지를 보고 했다고 가정 합니다. 이 작업을 수행 하려면 [전자 메일 > 사용자가 보고](threat-explorer-views.md#email--user-reported) 한 탐색기 보기를 사용 합니다.
+
+1. [https://protection.office.com](https://protection.office.com)Office 365 Security & 준수 센터 ()에서 **Threat management** > **Explorer**를 선택 합니다.
+2. **보기** 메뉴에서**사용자가 보고 한** **전자 메일** > 을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewMenuEmailUserReported.png)<br/>
+3. **보낸 사람**을 클릭 한 다음 **기본** > **보고서 유형을**선택 합니다.
+4. **피싱**등의 옵션을 선택 하 고 **새로 고침** 단추를 클릭 합니다. <br/>![사용자가 보고 한 피싱](media/EmailUserReportedReportType.png)<br/> 
+
+보고서가 새로 고쳐지고 조직의 사용자가 피싱 시도로 보고 한 전자 메일 메시지에 대 한 데이터가 표시 됩니다. 이 정보를 사용 하 여 추가 분석을 수행 하 고, 필요한 경우 [ATP 피싱 방지 정책을](set-up-anti-phishing-policies.md)조정할 수 있습니다.
+
+## <a name="theres-more"></a>거기 더 있어!
+
+이 문서에서 설명 하는 세 가지 시나리오 외에도 Explorer에서 사용할 수 있는 보고 시나리오가 많이 있습니다. 몇 가지 추가 예는 다음과 같습니다.
+
+- [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
+
+- [SharePoint Online, OneDrive 및 Microsoft 팀에서 검색 된 악의적인 파일 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+
+- [위협 탐색기의 보기에 대 한 개요 가져오기](threat-explorer-views.md)
+
+## <a name="how-to-get-explorer"></a>탐색기를 가져오는 방법
 
 Explorer는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에 포함 되어 있습니다. 
 
-Explorer를 보고 사용 하려면 보안 관리자 또는 보안 판독기에 부여 된 것과 같은 적절 한 사용 권한이 있어야 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요.
+탐색기를 보고 사용 하려면 보안 관리자 또는 보안 판독기에 부여 된 것과 같은 적절 한 사용 권한이 있어야 합니다. 
+
+- 보안 &amp; 및 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.
+    - 조직 관리
+    - 보안 관리자 (Azure Active Directory 관리 센터[https://aad.portal.azure.com](https://aad.portal.azure.com)에서 할당할 수 있음)
+    - 보안 독자
+
+- exchange online의 경우 exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell cmdlet ( [exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
+    - 조직 관리
+    - 보기 전용 조직 관리
+    - 보기 권한만 있는 받는 사람 역할
+    - 준수 관리
+
+자세한 내용은 다음 리소스를 참조 하십시오.
+
+- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+
+- [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 보안 &amp; 및 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)
-  
-[배달 된 악성 전자 메일 찾기 및 조사 (Office 365 Threat Invesitgation 및 응답)](investigate-malicious-email-that-was-delivered.md)
-  
-[Office 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
-  
+- [자동 조사 및 대응 (AIR)](automated-investigation-response-office.md)
 
+- [위협 탐색기 보기](threat-explorer-views.md)
+
+- [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)

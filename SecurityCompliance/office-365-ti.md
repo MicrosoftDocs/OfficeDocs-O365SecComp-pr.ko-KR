@@ -3,7 +3,7 @@ title: Office 365 위협 조사 및 응답
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/09/2019
+ms.date: 03/18/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: office 365 Advanced threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 3d7bc40c4d5bec0c218adf093655cbbccde07ff9
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 6f7e6e0a49bb4035458af2e9d7e45fd954a1f9fc
+ms.sourcegitcommit: a56128c7be5d59e976851c27301031e19fa1997d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693507"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30732271"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -49,7 +49,7 @@ ms.locfileid: "30693507"
 
 - 조직에서 이전에 다른 office 365 구독에 대 한 **추가 기능으로 office 365 위협 인텔리전스 (office 365 Advanced threat protection이 아님)** 가 있는 경우 이제 office 365 Advanced threat protection 계획 2가 제공 되며, 여기에는 다음이 포함 됩니다. 위협 조사 및 응답 기능 
 
-- **조직에서 이전에 office 365 advanced threat protection (office 365 위협 인텔리전스)** 을 다른 office 365 구독에 추가 기능으로 사용 하는 경우 office 365 Advanced threat protection 계획 1이 됩니다. 여기에는 Office 365 Advanced Threat Protection 계획 1 (위협 조사 및 응답 기능이 아님)이 포함 됩니다.
+- **조직에서 이전에 office 365 advanced threat protection (office 365 위협 인텔리전스)** 을 다른 office 365 구독에 추가 기능으로 사용 하는 경우에는 이제 office 365 Advanced threat protection 계획 1이 발생 합니다. 여기에는 Office 365 Advanced Threat Protection 계획 1 (위협 조사 및 응답 기능이 아님)이 포함 됩니다.
 
 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp) 를 참조 하세요.
 
@@ -60,14 +60,20 @@ ms.locfileid: "30693507"
 - [위협 조사 및 응답 시작](get-started-with-ti.md) (필수 역할에 대 한 정보가 포함 됩니다.) 
     
 - [위협 추적기에 대해 알아보기-신규 및 중요](threat-trackers.md)
+
+- [Office 365 위협 인텔리전스를 사용한 자동화 된 조사 및 응답 (AIR)](automated-investigation-response-office.md)
+
+- [보안 &amp; 및 준수 센터에서 위협 탐색기 사용](use-explorer-in-security-and-compliance.md)
     
-- [배달 된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
+- [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
     
 - [공격 시뮬레이터 사용](attack-simulator.md)
     
 - [Windows Defender Advanced Threat Protection을 통한 위협 조사 및 대응 통합](integrate-office-365-ti-with-wdatp.md)
     
 ## <a name="related-topics"></a>관련 항목
+
+[위협 탐색기 보기](threat-explorer-views.md)
 
 [Office 365에서 위협 으로부터 보호](protect-against-threats.md)
   

@@ -1,7 +1,7 @@
 ---
 title: 중요 한 정보 형식을 찾습니다.
-ms.author: stephow
-author: stephow-MSFT
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
 ms.audience: Admin
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: e9811b285e98a791570dc91e275cb5cead4f8bc9
-ms.sourcegitcommit: 6e8e2b43a4bea31c1e835c5b050824651c6a0094
+ms.openlocfilehash: d161435c75149183289cfbfd6abe79d55e371e31
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537645"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30639195"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
@@ -616,14 +616,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>azure IAAS 데이터베이스 연결 문자열 및 azure SQL 연결 문자열
 
 ### <a name="format"></a>형식일
 
-"server", "server" 또는 "data source" 라는 문자열은 "cloudapp. azure"를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다. <!--no-hyperlink-->com "또는" cloudapp. <!--no-hyperlink-->net "또는" 데이터베이스. <!--no-hyperlink-->net "과 문자열" password "또는" password "또는" pwd "가 있습니다.
+"server", "server" 또는 "data source" 라는 문자열은 "cloudapp. azure"를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다.<!--no-hyperlink-->com "또는" cloudapp.<!--no-hyperlink-->net "또는" 데이터베이스.<!--no-hyperlink-->net "과 문자열" password "또는" password "또는" pwd "가 있습니다.
 
 ### <a name="pattern"></a>패턴
 
@@ -632,7 +632,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 등호 (=)
 - 0-2 공백 문자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
-- 문자열 "cloudapp. <!--no-hyperlink-->com "," cloudapp. <!--no-hyperlink-->net "또는" database. <!--no-hyperlink-->net "
+- 문자열 "cloudapp.<!--no-hyperlink-->com "," cloudapp.<!--no-hyperlink-->net "또는" database.<!--no-hyperlink-->투자
 - 1-300에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - 문자열 "password", "password" 또는 "pwd"
 - 0-2 공백 문자
@@ -676,14 +676,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-iot-connection-string"></a>Azure IoT Connection 문자열
 
 ### <a name="format"></a>형식일
 
-문자열 "HostName" 뒤에 "azure-devices" 라는 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열이 표시 됩니다. <!--no-hyperlink-->net "및" sharedaccesskey "
+문자열 "HostName" 뒤에 "azure-devices" 라는 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열이 표시 됩니다.<!--no-hyperlink-->net "및" sharedaccesskey "
 
 ### <a name="pattern"></a>패턴
 
@@ -692,7 +692,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 등호 (=)
 - 0-2 공백 문자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
-- 문자열 "azure-장치 <!--no-hyperlink-->net "
+- 문자열 "azure-장치<!--no-hyperlink-->투자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - "sharedaccesskey" 문자열
 - 0-2 공백 문자
@@ -736,8 +736,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-publish-setting-password"></a>Azure 게시 설정 암호
 
@@ -787,18 +787,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-redis-cache-connection-string"></a>Azure Redis 캐시 연결 문자열
 
 ### <a name="format"></a>형식일
 
-문자열 "redis. <!--no-hyperlink-->net "문자열" password "또는" pwd "를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 입력 합니다.
+문자열 "redis.<!--no-hyperlink-->net "문자열" password "또는" pwd "를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 입력 합니다.
 
 ### <a name="pattern"></a>패턴
 
-- 문자열 "redis. <!--no-hyperlink-->net "
+- 문자열 "redis.<!--no-hyperlink-->투자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - 문자열 "password" 또는 "pwd"
 - 0-2 공백 문자
@@ -842,8 +842,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-sas"></a>Azure SAS
 
@@ -883,7 +883,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-문자열 "끝점" 뒤에 "servicebus" 라는 문자열을 포함 하 여 아래 패턴에 나와 있는 문자 및 문자열이 표시 됩니다. <!--no-hyperlink-->net "및" SharedAccesKey "을 차례로 누릅니다.
+문자열 "끝점" 뒤에 "servicebus" 라는 문자열을 포함 하 여 아래 패턴에 나와 있는 문자 및 문자열이 표시 됩니다.<!--no-hyperlink-->net "및" SharedAccesKey "을 차례로 누릅니다.
 
 ### <a name="pattern"></a>패턴
 
@@ -892,7 +892,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 등호 (=)
 - 0-2 공백 문자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
-- 문자열 "servicebus. <!--no-hyperlink-->net "
+- 문자열 "servicebus.<!--no-hyperlink-->투자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - "sharedaccesskey" 문자열
 - 0-2 공백 문자
@@ -936,8 +936,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-storage-account-key"></a>Azure 저장소 계정 키
 
@@ -1002,8 +1002,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="azure-storage-account-key-generic"></a>Azure 저장소 계정 키 (일반)
 
@@ -5041,8 +5041,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 용 onebox
 - 로컬
 - 127.0.0.1
-- testacs입니다. <!--no-hyperlink-->com
-- s-int<!--no-hyperlink-->
+- testacs입니다.<!--no-hyperlink-->ccw
+- s-int<!--no-hyperlink-->투자
 
 ## <a name="sweden-national-id"></a>스웨덴 국가 ID
 

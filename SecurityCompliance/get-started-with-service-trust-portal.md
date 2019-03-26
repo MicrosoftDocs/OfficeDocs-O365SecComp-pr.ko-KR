@@ -12,12 +12,12 @@ mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Office 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, finra, gdpr 및 FedRAMP를 준수 하는 방법을 확인 하세요.
-ms.openlocfilehash: e4b3d1497b2dcf3a079dbe60f742e902ab45544c
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: ff14f1b88dbde06dbfd17a87bb94c3f32ddff81b
+ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296691"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30647338"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -89,7 +89,7 @@ Microsoft 클라우드 서비스에 대 한 업계 및 지역별 규정 준수 �
     - 주민
     - 상태
     - 제조
-    - 정품
+    - 판매점
 
 - **지역** -Microsoft 클라우드 서비스에서 다양 한 국가의 다양 한 법칙을 준수 하는 법적 의견을 제공 합니다. 특정 국가에는 오스트레일리아, 체코 공화국, 독일, 폴란드, 루마니아, 스페인, 영국 등이 있습니다.
   
@@ -139,7 +139,7 @@ microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
   
 ## <a name="my-library"></a>내 라이브러리
 
-내 라이브러리 기능을 사용 하 여 서비스 신뢰 포털의 문서 및 리소스를 내 라이브러리 페이지에 추가 합니다. 이렇게 하면 한 곳에서 사용자와 관련 된 문서에 액세스할 수 있습니다.  문서를 내 라이브러리에 추가 하려면 문서 오른쪽의 **...** 메뉴를 클릭 하 고 **라이브러리에 추가**를 선택 합니다. 하나 이상의 문서 옆에 있는 확인란을 클릭 한 다음 페이지 맨 위에 있는 **라이브러리에 저장** 을 클릭 하 여 내 라이브러리에 문서를 여러 개 추가할 수 있습니다.
+내 라이브러리 기능을 사용 하 여 서비스 신뢰 포털의 문서 및 리소스를 내 라이브러리 페이지에 추가 합니다. 이렇게 하면 한 곳에서 사용자와 관련 된 문서에 액세스할 수 있습니다.  내 라이브러리에 문서를 추가 하려면 문서 오른쪽의 **...** 메뉴를 클릭 하 고 **라이브러리에 저장**을 선택 합니다. 하나 이상의 문서 옆에 있는 확인란을 클릭 한 다음 페이지 맨 위에 있는 **라이브러리에 저장** 을 클릭 하 여 내 라이브러리에 문서를 여러 개 추가할 수 있습니다.
 
 또한 알림 기능을 사용 하면 Microsoft에서 내 라이브러리에 추가한 문서를 업데이트할 때마다 전자 메일 메시지가 전송 되도록 내 라이브러리를 구성할 수 있습니다. 알림을 설정 하려면 내 라이브러리로 이동 하 여 **알림 설정을**클릭 합니다. 알림의 빈도를 선택 하 고 조직의 전자 메일 주소를 지정 하 여 알림을 보낼 수 있습니다. 전자 메일 알림에는 업데이트 된 문서에 대 한 링크 및 업데이트에 대 한 간략 한 설명이 포함 됩니다.
 

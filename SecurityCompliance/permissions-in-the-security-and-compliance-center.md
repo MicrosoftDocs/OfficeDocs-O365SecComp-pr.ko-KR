@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이터 손실 방지, eDiscovery, 보존 등의 규정 준수 작업을 수행 하는 사용자에 게 사용 권한을 부여할 수 있습니다. 이러한 사용자들은 명시적으로 액세스 권한을 부여 받은 작업만 수행할 수 있습니다. 보안 &amp; 및 준수 센터에 액세스 하려면 사용자가 Office 365 전역 관리자 이거나 하나 이상의 보안 &amp; 준수 센터 역할 그룹의 구성원 이어야 합니다.
-ms.openlocfilehash: 6c558671a376f1f25efc7f7846df1c07655022b3
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 9b2692d2afd70be911581caff237e61d405cf10f
+ms.sourcegitcommit: 6a7cec7d1f0d3b8d71f313bfa22f44c827de2336
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410653"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30798134"
 ---
 # <a name="permissions-in-the-office-365-security-amp-compliance-center"></a>Permissions in the Office 365 Security &amp; Compliance Center
 
@@ -53,11 +53,14 @@ Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이
 |**역할 그룹**|**설명**|
 |:-----|:-----|
 |**준수 관리자** <sup>1</sup> <br/> |구성원은 장치 관리, 데이터 손실 방지, 보고서 및 보존에 대 한 설정을 관리할 수 있습니다.  <br/> |
-|**eDiscovery 관리자(Manager)** <br/> | 구성원은 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치에서 검색을 수행하고 원본 위치를 유지할 수 있습니다. 또한 구성원은 eDiscovery 사례를 만들고 관리 하 고, 사례에 구성원을 추가 및 제거 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. <br/><br/>eDiscovery 관리자는 추가 사용 권한이 할당된 eDiscovery 관리자 역할 그룹의 구성원입니다. ediscovery 관리자가 수행할 수 있는 작업 외에 다음과 같은 방법을 사용할 수 있습니다.  <br/><br/>  • 조직의 모든 eDiscovery 사례를 봅니다.  <br/>  • 사례를 대/소문자 구성원으로 추가한 후 eDiscovery 사례를 관리 합니다.  <br/><br/>ediscovery 관리자와 ediscovery 관리자의 주요 차이점은 ediscovery 관리자가 보안 &amp; 및 준수 센터의 **ediscovery 사례** 페이지에 나열 된 모든 경우에 액세스할 수 있다는 것입니다. eDiscovery 관리자는 자신이 만들었거나 사례를 구성원으로 사용 하는 경우에만 액세스할 수 있습니다.  사용자를 eDiscovery 관리자로 설정 하는 방법에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.  <br/>           |
+|**준수 데이터 관리자** <br/> |구성원은 장치 관리, 데이터 보호, 데이터 손실 방지, 보고서 및 보존에 대 한 설정을 관리할 수 있습니다.  <br/> |
+|**eDiscovery 관리자(Manager)** <br/> | 구성원은 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치에서 검색을 수행하고 원본 위치를 유지할 수 있습니다. 또한 구성원은 eDiscovery 사례를 만들고 관리 하 고, 사례에 구성원을 추가 및 제거 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. <br/><br/>eDiscovery 관리자는 추가 사용 권한이 할당된 eDiscovery 관리자 역할 그룹의 구성원입니다. ediscovery 관리자가 수행할 수 있는 작업 외에 다음과 같은 방법을 사용할 수 있습니다.  <br/><br/>  • 조직의 모든 eDiscovery 사례를 봅니다.  <br/>  • 사례를 대/소문자 구성원으로 추가한 후 eDiscovery 사례를 관리 합니다.  <br/><br/>ediscovery 관리자와 ediscovery 관리자의 주요 차이점은 ediscovery 관리자가 보안 &amp; 및 준수 센터의 **ediscovery 사례** 페이지에 나열 된 모든 경우에 액세스할 수 있다는 것입니다. eDiscovery 관리자는 자신이 만들었거나 사례를 구성원으로 사용 하는 경우에만 액세스할 수 있습니다.  사용자를 eDiscovery 관리자로 설정 하는 방법에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오. <br/> |
+|**메일 흐름 관리자** <br/> |구성원은 보안 & 준수 센터에서 메일 흐름 insights 및 보고서를 모니터링 하 고 볼 수 있습니다. 전역 관리자는이 그룹에 일반 사용자를 추가할 수 있지만 사용자가 exchange 관리 그룹의 구성원이 아닌 경우에는 exchange 관리자와 관련 된 작업에 액세스 하지 못합니다.  <br/> |
 |**조직 관리** <sup>1</sup> <br/> |구성원은 보안 &amp; 및 준수 센터의 기능에 액세스 하기 위한 권한을 제어 하 고 장치 관리, 데이터 손실 방지, 보고서 및 보존에 대 한 설정도 관리할 수 있습니다.  <br/> 전역 관리자가 아닌 사용자가 office * 용 mdm에서 관리 되는 장치 목록을 확인 하 고 이러한 장치에 대 한 작업을 수행 하는 경우 (예: office 365 용 mdm에서 장치를 사용 하지 않도록 설정한 경우) 사용자는 Exchange 관리자 여야 합니다.  <br/> Office 365 전역 관리자는이 역할 그룹의 구성원으로 자동 추가 됩니다.           |
 |**레코드 관리** <br/> |구성원은 레코드 콘텐츠를 관리 하 고 삭제할 수 있습니다.  <br/> |
 |**Reviewer** <br/> |구성원은 보안 &amp; 및 준수 센터의 eDiscovery 사례 페이지에 있는 사례 목록만 볼 수 있습니다. eDiscovery 사례를 만들거나, 열거나, 관리할 수는 없습니다. 이 역할 그룹의 기본 목적은 구성원이 고급 eDiscovery에서 사례 데이터를 보고 액세스 하도록 허용 하는 것입니다.  <br/> 이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 갖습니다.  <br/> |
 |**보안 관리자** <br/> |이 역할 그룹의 구성원은 외부 파트너 그룹 및 Microsoft 지원 뿐만 아니라 서비스 간 관리자도 포함할 수 있습니다. 기본적으로이 그룹에는 역할이 할당 되지 않을 수 있습니다. 그러나 Azure Active Directory에서 보안 관리자 역할의 구성원이 되며 해당 역할의 기능이 상속 됩니다. 중앙에서 사용 권한을 관리 하려면 azure active directory 관리 센터에서이 역할을 변경 합니다-자세한 내용은 [azure active directory의 관리자 역할 사용 권한을](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요. 보안 & 준수 센터에서이 역할 그룹을 편집 하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용 되 고 다른 서비스는 변경 되지 않지만, Azure Active Directory 관리 센터에서 변경한 내용은 모든 서비스에 영향을 줍니다.<br/> 보안 독자 역할의 모든 읽기 전용 권한 및 같은 서비스에 대 한 다양 한 추가 관리 권한 (Azure Information protection, id 보호 센터, 권한이 부여 된 id 관리, Office 365 서비스 모니터링) 상태 및 Office 365 보안 &amp; 및 준수 센터  <br/> |
+|**보안 운영자** <br/> |구성원은 보안 경고를 관리할 수 있을 뿐만 아니라 보안 기능의 보고서 및 설정을 볼 수도 있습니다. <br/> |
 |**보안 독자** <br/> |구성원에 게는 id 보호 센터의 여러 보안 기능, 권한이 부여 된 id 관리, office 365 서비스 상태 모니터링 및 office 365 보안 &amp; 준수 센터에 대 한 읽기 전용 액세스 권한이 있습니다.  <br/> 이 역할 그룹의 구성원은 서비스 간에 동기화 되 고 중앙에서 관리 됩니다. 이 역할 그룹의 구성원은 외부 파트너 그룹 및 Microsoft 지원 뿐만 아니라 서비스 간 관리자도 포함할 수 있습니다. 기본적으로이 그룹에는 역할이 할당 되지 않을 수 있습니다. 그러나 Azure Active Directory에서 보안 독자 역할의 구성원이 되며 해당 역할의 기능이 상속 됩니다. 중앙에서 사용 권한을 관리 하려면 azure active directory 관리 센터에서이 역할을 변경 합니다-자세한 내용은 [azure active directory의 관리자 역할 사용 권한을](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요. 보안 & 준수 센터에서이 역할 그룹을 편집 하는 경우 이러한 변경 내용은 보안 & 준수 센터에만 적용 되 고 다른 서비스는 변경 되지 않지만, Azure Active Directory 관리 센터에서 변경한 내용은 모든 서비스에 영향을 줍니다.<br/> |
 |**서비스 보증 사용자** <br/> |구성원은 Office 365 보안 &amp; 및 준수 센터의 서비스 보증 섹션에 액세스할 수 있습니다. 서비스 보증은 Office 365에 저장 된 고객 데이터에 대 한 Microsoft의 보안 방법을 설명 하는 보고서와 문서를 제공 합니다. 또한 Office 365에 대 한 독립 타사 감사 보고서도 제공 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 서비스 보증](http://go.microsoft.com/fwlink/p/?LinkID=717765)를 참조 하세요.  <br/> |
 |**관리 검토** <br/> |구성원은 조직에서 검토되어야 하는 통신을 정의하는 정책을 만들고 관리할 수 있습니다. 자세한 내용은 [Configure 관리 review 정책도 조직에 대해](configure-supervision-policies.md)참조 하십시오.  <br/> |
@@ -65,4 +68,21 @@ Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이
 > [!NOTE]
 > <sup>1</sup> 이 역할 그룹은 Office 365 감사 로그를 검색 하는 데 필요한 사용 권한을 구성원에 게 할당 하지 않으며 DLP 또는 ATP 보고서와 같은 Exchange 데이터를 포함할 수 있는 모든 보고서를 사용 합니다. 감사 로그를 검색 하거나 모든 보고서를 보려면 Exchange Online에서 사용자에 게 사용 권한을 할당 해야 합니다. 이는 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet이 Exchange Online cmdlet 이기 때문입니다. Office 365 전역 관리자는 감사 로그를 검색 하 고 Exchange Online에서 조직 관리 역할 그룹의 구성원으로 자동 추가 되므로 모든 보고서를 볼 수 있습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 감사 로그 검색](https://go.microsoft.com/fwlink/p/?LinkID=708432)을 참조 하세요. 
   
+## <a name="mapping-of-role-groups-to-assigned-roles"></a>할당 된 역할에 역할 그룹 매핑
 
+기본적으로 역할 그룹에는 역할 집합이 할당 됩니다. 이 표에서는 각 역할 그룹에 할당 된 역할을 보여 줍니다.
+
+|**역할 그룹**|**할당 된 역할**|
+|:-----|:-----|
+|**준수 관리자** <br/> |보기 전용 보존 관리 <br/>알림 관리 <br/>보기 전용 알림 관리 <br/>보기 전용 장치 관리 <br/>조직 구성 <br/>DLP 준수 관리 <br/>보기 전용 IB 준수 관리 <br/>처리 관리 <br/>보기 전용 DLP 준수 관리 <br/>recordmanagement <br/>IB 준수 관리 <br/>보기 전용 감사 로그 <br/>준수 관리자 <br/>장치 관리 <br/>준수 검색 <br/>사례 관리 <br/>보존 관리 <br/>보기 전용 레코드 관리 <br/>보기 전용 받는 사람 <br/>놓습니다 <br/> |
+|**준수 데이터 관리자** <br/> |보기 전용 보존 관리 <br/>알림 관리 <br/>민감도 레이블 관리자 <br/>보기 전용 알림 관리 <br/>보기 전용 장치 관리 <br/>조직 구성 <br/>DLP 준수 관리 <br/>보기 전용 IB 준수 관리 <br/>처리 관리 <br/>보기 전용 DLP 준수 관리 <br/>recordmanagement <br/>IB 준수 관리 <br/>보기 전용 감사 로그 <br/>준수 관리자 <br/>장치 관리 <br/>준수 검색 <br/>보존 관리 <br/>보기 전용 레코드 관리 <br/>보기 전용 받는 사람<br/> |
+|**eDiscovery 관리자(Manager)** <br/> |내보내기 <br/>RMS 암호 해독 <br/>Custodian <br/>통신과 <br/>검토 <br/>미리 보기 <br/>준수 검색 <br/>사례 관리 <br/>놓습니다 <br/> |
+|**메일 흐름 관리자** <br/> |보기 전용 받는 사람 <br/>  |
+|**조직 관리** <br/> |보기 전용 보존 관리 <br/>알림 관리 <br/>역할 관리 <br/>민감도 레이블 관리자 <br/>보기 전용 알림 관리 <br/>보기 전용 장치 관리 <br/>조직 구성 <br/>DLP 준수 관리 <br/>보기 전용 IB 준수 관리 <br/>처리 관리 <br/>보기 전용 DLP 준수 관리 <br/>recordmanagement <br/>감사 로그 <br/>IB 준수 관리 <br/>보안 독자 <br/>보안 관리자 <br/>서비스 보증 보기 <br/>검색 및 제거 <br/>보기 전용 감사 로그 <br/>준수 관리자 <br/>장치 관리 <br/>준수 검색 <br/>사례 관리 <br/>보존 관리 <br/>보기 전용 레코드 관리 <br/>보기 전용 받는 사람 <br/>놓습니다 <br/> |
+|**레코드 관리** <br/> |recordmanagement <br/>감사 로그 <br/>보존 관리 <br/> |
+|**Reviewer** <br/> |검토 <br/> |
+|**보안 관리자** <br/> |알림 관리 <br/>민감도 레이블 관리자 <br/>보기 전용 알림 관리 <br/>보기 전용 장치 관리 <br/>DLP 준수 관리 <br/>보기 전용 IB 준수 관리 <br/>보기 전용 DLP 준수 관리 <br/>감사 로그 <br/>IB 준수 관리 <br/>보안 관리자 <br/>보기 전용 감사 로그 <br/>장치 관리 <br/> |
+|**보안 운영자** <br/> |알림 관리 <br/>보기 전용 알림 관리 <br/>보기 전용 장치 관리 <br/>보기 전용 IB 준수 관리 <br/>보기 전용 DLP 준수 관리 <br/>보안 독자 <br/>보기 전용 감사 로그 <br/>준수 검색 <br/> |
+|**보안 독자** <br/> |보기 전용 알림 관리 <br/>보기 전용 장치 관리 <br/>보기 전용 IB 준수 관리 <br/>보기 전용 DLP 준수 관리 <br/>보안 독자 <br/> |
+|**서비스 보증 사용자** <br/> |서비스 보증 보기 <br/> |
+|**관리 검토** <br/> |관리 검토 관리자 <br/> |
