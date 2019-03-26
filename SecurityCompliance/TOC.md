@@ -3,13 +3,15 @@
 ## [보안 강화를 위해 Office 365 테넌트 구성](tenant-wide-setup-for-increased-security.md)
 ## [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
 ## [새 Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터 준비](microsoft-security-and-compliance.md)
-## [Office 365 보안 점수](office-365-secure-score.md)
-## [Microsoft Secure Score](microsoft-secure-score.md)
+## [Microsoft 365 보안 센터](overview-security-center.md)
+### [Microsoft Secure Score](microsoft-secure-score.md)
+## [Office 365 Secure Score](office-365-secure-score.md)
 ## [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 ## [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
 ## [보안 대시보드 개요](security-dashboard.md)
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
+
 # 데이터 및 서비스에 대한 액세스 보호
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
 
@@ -88,6 +90,8 @@
 ### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # [위협으로부터 보호](protect-against-threats.md)
+## [Microsoft 365의 헌팅](hunting.md)
+## [위협 분석을 통해 최신 공격 캠페인 이해](latest-attack-campaigns.md)
 ## [빠른 시작 가이드: Office 365 고급 위협 방지 설정](checklist-atp-setup.md)
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
 ### [EOPv 개요](videos-for-getting-started-with-protecting-your-email.md)
@@ -380,6 +384,11 @@
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
 
 # 보안 및 규정 준수 모니터링
+## [Microsoft 365 보안 센터 모니터링 및 보고](monitoring-and-reporting.md)
+### [Microsoft 365 보안의 ID 모니터링 및 보고](monitor-and-report-identities.md)
+### [Microsoft 365 보안의 데이터 모니터링](monitor-data.md)
+### [Microsoft 365 보안의 디바이스 모니터링](monitor-devices.md)
+### [Microsoft 365 보안의 앱 모니터링](monitor-apps.md)
 ## [알림 정책](alert-policies.md)
 ## [보안 및 준수 센터의 똑똑한 보고서 및 분석](reports-and-insights-in-security-and-compliance.md)
 ### [보안 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
