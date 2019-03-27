@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: e9bd83c8b38a20ae0ced4300648461c0cb135e4b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 3b8cf41be41e199017dcff7fd3762711402d8ca2
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693187"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900187"
 ---
 # <a name="best-practices-for-configuring-eop"></a>EOP 구성을 위한 모범 사례
   
@@ -102,8 +102,6 @@ EAC의 일반 첨부 파일 유형 필터를 사용할 수 있습니다. **보�
 [EOP 관련 일반 FAQ(질문과 대답)](eop-general-faq.md)
   
 [EOP에 대한 도움말 및 지원](help-and-support-for-eop.md)
-  
-[EOP 시작을 위한 비디오](videos-for-getting-started-with-eop.md)
   
 [메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224)
   

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: 'Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 478f0f7089046cea9a1650fc090e59fc056db8a9
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: ec8f5c049fbaaa6cc17049154774faa128d2f18d
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639165"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900207"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -87,7 +87,7 @@ ms.locfileid: "30639165"
 |LastModifiedTime|항목을 마지막으로 변경한 날짜입니다.|`lastmodifiedtime>=05/01/2016`  <br/> `lastmodifiedtime>=05/10/2016 AND lastmodifiedtime<=06/1/2016`|첫 번째 예에서는 5 월 1 일, 2016 이후 변경 된 항목을 반환 합니다. 두 번째 예에서는 5 월 1 일, 2016 년 6 월 1 일 사이에 변경 된 항목을 반환 합니다.|
 |ModifiedBy|항목을 마지막으로 변경한 사람입니다. 이 속성에는 사용자의 표시 이름을 사용 해야 합니다.|`modifiedby:"Garth Fort"`|Garth Fort가 마지막으로 변경한 모든 항목입니다.|
 |경로|SharePoint 또는 비즈니스용 OneDrive 사이트에 있는 특정 사이트의 경로 (URL)입니다.  <br/> path 속성에 지정한 사이트의 폴더에 있는 항목을 반환 하려면 지정 된 사이트의 URL을 추가/\* 제거 해야 합니다. 예를 들어`path: "https://contoso.sharepoint.com/Shared Documents/*"`  <br/> <br/> **참고:** 이 `Path` 속성을 사용 하 여 OneDrive 위치를 검색 하면 검색 결과에 .png, tiff 또는 .wav 파일 같은 미디어 파일이 반환 되지 않습니다. 검색 쿼리에서 다른 사이트 속성을 사용 하 여 OneDrive 폴더에서 미디어 파일을 검색 합니다. <br/>|`path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/"`  <br/> `path:"https://contoso-my.sharepoint.com/personal/garthf_contoso_com/*" AND filename:confidential`|첫 번째 예에서는 지정 된 비즈니스용 OneDrive 사이트의 모든 항목을 반환 합니다. 두 번째 예에서는 파일 이름에 "기밀" 이라는 단어가 포함 된 지정 된 사이트 (및 사이트의 폴더)의 문서를 반환 합니다.|
-|sharedwithusersowsuser|지정 된 사용자와 공유 되었으며 사용자의 비즈니스용 OneDrive 사이트에 있는 **공유** 항목 페이지에 표시 되는 문서입니다. 조직의 다른 사용자가 지정 된 사용자와 명시적으로 공유 하는 문서입니다. sharedwithusersowsuser 속성을 사용 하는 검색 쿼리와 일치 하는 문서를 내보내면 지정한 사용자에 게 문서를 공유한 사용자의 원래 콘텐츠 위치에서 문서가 내보내집니다. 자세한 내용은 [조직 내에서 공유 되는 사이트 콘텐츠 검색](keyword-queries-and-search-conditions.md#internal)을 참조 하십시오.|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|두 예 모두 Garth 요새와 명시적으로 공유 된 모든 내부 문서를 반환 하며 Garth 요새의 비즈니스용 OneDrive 계정에 있는 **공유** 에 있는 페이지에 표시 됩니다.|
+|sharedwithusersowsuser|지정 된 사용자와 공유 되었으며 사용자의 비즈니스용 OneDrive 사이트에 있는 **공유** 항목 페이지에 표시 되는 문서입니다. 조직의 다른 사용자가 지정 된 사용자와 명시적으로 공유 하는 문서입니다. sharedwithusersowsuser 속성을 사용 하는 검색 쿼리와 일치 하는 문서를 내보내면 지정한 사용자에 게 문서를 공유한 사용자의 원래 콘텐츠 위치에서 문서가 내보내집니다. 자세한 내용은 [조직 내에서 공유 되는 사이트 콘텐츠 검색](#searching-for-site-content-shared-within-your-organization)을 참조 하십시오.|`sharedwithusersowsuser:garthf`  <br/> `sharedwithusersowsuser:"garthf@contoso.com"`|두 예 모두 Garth 요새와 명시적으로 공유 된 모든 내부 문서를 반환 하며 Garth 요새의 비즈니스용 OneDrive 계정에 있는 **공유** 에 있는 페이지에 표시 됩니다.|
 |사이트|조직의 사이트 또는 사이트 그룹의 URL입니다.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|첫 번째 예에서는 조직 내 모든 사용자의 비즈니스용 OneDrive 사이트에서 항목을 반환 합니다. 두 번째 예제에서는 모든 팀 사이트의 항목을 반환합니다.|
 |크기|항목의 크기(바이트)입니다.|`size>=1`  <br/> `size:1..10000`|첫 번째 예제에서는 1바이트 보다 큰 항목을 반환합니다. 두 번째 예제에서는 1부터 10,000바이트 크기의 항목을 반환합니다.|
 |제목|문서의 제목입니다. Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 문서의 파일 이름과 다릅니다.|`title:"communication plan"`|Office 문서의 Title 메타데이터 속성에 "communication plan"이 포함된 문서입니다.|
