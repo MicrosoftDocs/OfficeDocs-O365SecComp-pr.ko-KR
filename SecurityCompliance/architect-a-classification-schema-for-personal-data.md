@@ -3,7 +3,7 @@ title: 개인 데이터에 대한 분류 스키마 설계
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/7/2018
+ms.date: ''
 ms.audience: ITPro
 ms.topic: overview
 ms.collection:
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 조직이 GDPR 계획의 일부로 레이블을 구현하는지 여부를 확인합니다.
-ms.openlocfilehash: be700d0b055346822ddd63c3c250fad048a7fce8
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: 79c68b8340209c3cc3e3a7081a4075c31a112e80
+ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373869"
+ms.lasthandoff: 03/23/2019
+ms.locfileid: "30789443"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>개인 데이터에 대한 분류 스키마 설계
 
@@ -45,13 +45,13 @@ ms.locfileid: "30373869"
 
 -   나중에는 Cloud App Security와 함께 작동될 예정이므로 기타 SaaS 앱에서 중요한 정보를 검색할 수 있습니다.
 
-### <a name="option-2-use-sensitive-information-types--office-labels"></a>옵션 2: 중요한 정보 유형 + Office 레이블 사용
+### <a name="option-2-use-sensitive-information-types--retention-labels"></a>옵션 2: 중요한 정보 유형 + 보존 레이블 사용
 
 -   GDPR이 적용되는 개인 데이터에 자동으로 레이블을 적용하려면 중요한 정보 유형이 필요하므로 필수 구성 요소가 됩니다.
 
--   Office 레이블을 사용하여 GDPR이 적용되는 개인 데이터를 조직의 보다 광범위한 데이터 거버넌스 계획에 포함할 수 있습니다.
+-   보존 레이블을 사용하여 GDPR이 적용되는 개인 데이터를 조직의 보다 광범위한 데이터 거버넌스 계획에 포함할 수 있습니다.
 
--   나중에 Office 레이블은 Azure Information Protection 레이블을 통합된 분류 및 레이블링 엔진에 집약할 것입니다.
+
 
 ## <a name="develop-a-label-schema-that-includes-personal-data"></a>개인 데이터를 포함하는 레이블 스키마 개발
 

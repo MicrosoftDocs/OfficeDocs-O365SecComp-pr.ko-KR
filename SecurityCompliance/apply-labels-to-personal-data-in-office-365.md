@@ -3,7 +3,7 @@ title: Office 365의 개인 데이터에 레이블 적용
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/7/2018
+ms.date: ''
 ms.audience: ITPro
 ms.topic: overview
 ms.collection:
@@ -16,38 +16,42 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 9474d4b911936bca2c06c9660578790578fba4a2
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: e31cd420fe476ace8031fc2c6e52158762814c7a
+ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373899"
+ms.lasthandoff: 03/23/2019
+ms.locfileid: "30789433"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 레이블 적용
 
- Office 레이블을 GDPR 보호 계획의 일부로 사용하는 경우 이 항목을 사용하세요. 지금 바로 Office 365 보안 및 규정 준수 센터 및 Azure Information Protection에서 레이블을 만들 수 있습니다. 시간에 따라 이러한 기술이 통합된 레이블 및 분류 환경으로 집약되며, 더 많은 성과를 거둘 수 있을 것입니다.
+ 분류 라벨을 GDPR 보호 계획의 일부로 사용하는 경우 이 항목을 사용하십시오. 
 
-Office 365에서 개인 데이터의 보호를 위해 레이블을 사용하는 경우 Office 레이블로 시작하는 것이 좋습니다. 고급 데이터 거버넌스를 사용하여 중요한 정보 유형 또는 기타 기준에 따라 레이블을 자동으로 적용할 수 있습니다. 데이터 손실 방지와 함께 Office 레이블을 사용하여 보호를 적용할 수 있습니다. eDiscovery 및 콘텐츠 검색에서도 레이블을 사용할 수 있습니다. 머지 않아 Cloud App Security와 함께 레이블 및 중요한 정보 유형을 사용하여 다른 SaaS 앱에 있는 개인 데이터를 모니터링할 수 있게 될 것입니다.
+Office 365에서 개인 데이터를 보호하기 위해 레이블을 사용하는 경우 [보존 레이블](labels.md)부터 시작하는 것이 좋습니다. 보존 레이블을 사용하여 다음을 수행할 수 있습니다.
+- 고급 데이터 거버넌스를 사용하여 민감한 정보 유형 또는 기타 기준에 따라 레이블을 자동으로 적용하십시오.
+-  데이터 손실 방지 기능이 있는 보존 레이블을 사용하여 보호 기능을 적용하십시오. 
+- eDiscovery 및 콘텐츠 검색이 포함된 레이블을 사용합니다. 
+- Cloud App Security에서는 라벨과 민감한 정보 유형을 모두 사용하여 다른 SaaS 앱에있는 개인 데이터를 모니터링합니다.
 
-Azure Information Protection 레이블은 현재 온-프레미스 및 다른 클라우드 서비스와 공급자의 파일에 레이블을 적용하는 데 권장됩니다. 이러한 레이블은 데이터 보호를 위해 Azure RMS(Azure Rights Management) 암호화를 요구하는 Office 365의 파일(예: 영업 비밀 파일)에도 권장됩니다.
+[민감도 레이블](sensitivity-labels.md)은 현재 온 프레미스 및 기타 클라우드 서비스 및 제공업체의 파일에 레이블을 적용할 때 사용하는 것이 좋습니다. 이러한 파일은 영업 비밀 파일과 같은 데이터 보호를 위해 Azure Information Protection(AIP) 암호화가 필요한 Office 365의 파일에도 권장됩니다.
 
-지금은 GDPR이 적용되는 데이터를 포함하는 Office 365의 파일에는 Azure Information Protection을 사용하여 Azure RMS 암호화를 적용하는 것이 권장되지 않습니다. Office 365 서비스는 현재 RMS로 암호화된 파일로 읽을 수 없습니다. 따라서 이 서비스는 이러한 파일에서 중요한 데이터를 찾을 수 없습니다.
+이 경우, Azure Information Protection을 사용하여 GDPR의 적용을 받는 Office 365 파일에는 암호화를 적용하지 않는 것이 좋습니다. Office 365 서비스는 현재 AIP 암호화 파일을 읽을 수 없습니다. 따라서 Office 365 서비스는 이러한 파일에서 민감한 데이터를 찾을 수 없습니다.
 
-Azure Information Protection 레이블은 Exchange Online의 메일에 적용할 수 있으며 Office 365 데이터 손실 방지에 작동합니다. 곧 통합된 분류 및 레이블링 엔진을 사용하여 전송 중인 전자 메일을 자동으로 레이블링하고 보호하는 것을 비롯하여 전자 메일 및 파일에 동일한 레이블을 사용할 수 있게 될 것입니다.
+민감도 레이블을 Exchange Online의 메일에 적용할 수 있으며 이러한 레이블은 Office 365 데이터 손실 방지와 함께 작동합니다. 
 
 ![Office 365 레이블 및 Azure Information Protection 레이블](Media/Apply-labels-to-personal-data-in-Office-365-image1.png)
 
+
 이 그림의 내용
 
--   SharePoint Online 및 비즈니스용 OneDrive의 개인 데이터와 규제 및 영업 비밀 파일에 Office 365 레이블을 사용합니다.
+-   SharePoint Online 및 비즈니스용 OneDrive의 개인 데이터와 규제 및 영업 비밀 파일에 보존 레이블을 사용합니다.
 
--   규제 및 영업 비밀 파일, Exchange Online 전자 메일, 다른 SaaS 서비스의 파일, 온-프레미스 데이터 센터의 파일 및 기타 클라우드 공급자의 파일에 AIP(Azure Information Protection) 레이블을 사용합니다.
+-   규제 및 영업 비밀 파일, Exchange Online 전자 메일, 다른 SaaS 서비스의 파일, 온-프레미스 데이터 센터의 파일 및 기타 클라우드 공급자의 파일에 보존 레이블을 사용합니다.
 
--   출시 예정: 두 가지 유형의 레이블이 통합된 분류 및 레이블링 환경에 집약될 예정입니다.
 
-## <a name="use-office-labels-and-sensitive-information-types-across-microsoft-365-for-information-protection"></a>정보 보호를 위해 Microsoft 365에서 Office 레이블 및 중요한 정보 유형 사용
+## <a name="use-retention-labels-and-sensitive-information-types-across-microsoft-365-for-information-protection"></a>정보 보호를 위해 Microsoft 365에서 보존 레이블 및 중요한 정보 유형 사용
 
-다음 그림은 레이블 정책, 데이터 손실 방지 정책 및 Cloud App Security 정책에서 Office 레이블 및 중요한 정보 유형을 사용하는 방법을 보여 줍니다.
+다음 그림은 레이블 정책, 데이터 손실 방지 정책 및 Cloud App Security 정책에서 보존 레이블 및 중요한 정보 유형을 사용하는 방법을 보여 줍니다.
 
 ![Office 레이블 및 중요한 정보 유형](Media/Apply-labels-to-personal-data-in-Office-365-image2.png)
 
@@ -64,7 +68,7 @@ Azure Information Protection 레이블은 Exchange Online의 메일에 적용할
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Office 레이블 예제: 개인, 공용, 고객 데이터, HR 데이터, 기밀, 극비</td>
+<td align="left">보존 레이블, 예제: 개인, 공용, 고객 데이터, HR 데이터, 기밀, 극비</td>
 <td align="left"><p>다음 . . .</p>
 <p>고객 데이터</p>
 <p>. . . 레이블을 다음의 중요한 정보 유형과 일치하는 문서에 자동으로 적용 . . .</p>
@@ -178,8 +182,8 @@ GDPR이 적용되는 개인 데이터의 경우, 사용자 환경을 위해 조�
 <p><a href="https://support.office.com/en-ie/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76">사용자에게 Office 365 보안 &amp; 준수 센터에 대한 액세스 권한 부여</a>를 참조하세요.</p></td>
 </tr>
 <tr class="even">
-<td align="left"><p>Office 레이블을 만듭니다.</p></td>
-<td align="left">보안 및 규정 준수 센터의 분류로 이동한 후 레이블을 선택하고 해당 환경에 대한 레이블을 만듭니다.</td>
+<td align="left"><p>보존 레이블 생성,</p></td>
+<td align="left">보안 및 규정 준수 센터의 분류로 이동한 후 보존 레이블을 선택하고 해당 환경에 대한 레이블을 만듭니다.</td>
 </tr>
 <tr class="odd">
 <td align="left"><p>레이블에 대한 자동 적용 정책을 만듭니다.</p></td>
