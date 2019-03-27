@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리와 검색 조건을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 콘텐츠 검색은 gdpr 데이터 주체 요청과 관련 될 수 있는 콘텐츠를 검색 하기 위한 효과적인 도구 이기도 합니다.
-ms.openlocfilehash: 22792e9513d0e9a7be468bb13db2e4286f9f140c
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.openlocfilehash: 93bac47c4d83aa75e0581dbba0b40386a451fe3d
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670723"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900107"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -76,7 +76,8 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
     키워드 목록을 사용 하는 이유 각 키워드와 일치 하는 항목의 수를 보여 주는 통계를 가져올 수 있습니다. 이를 통해 가장 효과적이 고 효과적인 키워드를 빠르게 확인할 수 있습니다. 행에 괄호를 사용 하 여 키워드로 묶은 키워드 구를 사용할 수도 있습니다. 검색 통계에 대 한 자세한 내용은 [콘텐츠 검색 결과에 대 한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)를 참조 하십시오.
 
-    [!NOTE] 큰 키워드 목록으로 인해 발생 하는 문제를 줄이기 위해 이제는 키워드 목록에서 최대 20 개의 행으로 제한 됩니다.
+    > [!NOTE]
+    > 큰 키워드 목록으로 인해 발생 하는 문제를 줄이기 위해 이제는 키워드 목록에서 최대 20 개의 행으로 제한 됩니다.
     
 - **조건** -검색 조건을 추가 하 여 검색 범위를 좁히고 보다 구체화 된 결과 집합을 반환할 수 있습니다. 각 조건은 검색 쿼리에 검색을 시작할 때 만들어지고 실행 되는 절을 추가 합니다. 조건은 **AND** 연산자의 기능과 유사한 논리 연산자 ( **c:c**)에 의해 키워드 상자에 지정 된 키워드 쿼리에 논리적으로 연결 됩니다. 즉, 항목은 키워드 쿼리와 결과에 포함할 하나 이상의 조건을 만족 해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다. 검색 쿼리에 사용할 수 있는 조건에 대 한 목록 및 설명은 [키워드 쿼리 및 검색 조건의 콘텐츠 검색](keyword-queries-and-search-conditions.md#search-conditions)에서 "검색 조건" 섹션을 참조 하십시오.
     

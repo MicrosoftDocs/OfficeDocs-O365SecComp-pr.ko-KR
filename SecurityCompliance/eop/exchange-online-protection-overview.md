@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: e639b1185d75959061163b5391cf046bc789e3c4
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: c8450d5204635788a044538d701e23f4f77d1e0f
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693527"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899947"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -77,8 +77,6 @@ EOP를 이미 구입한 경우 [EOP 서비스 설정](set-up-your-eop-service.md
 ## <a name="for-more-information"></a>자세한 내용
 
 [EOP 기능](eop-features.md)
-  
-[EOP 시작을 위한 비디오](videos-for-getting-started-with-eop.md)
   
 [EOP 관련 일반 FAQ](eop-general-faq.md)
   

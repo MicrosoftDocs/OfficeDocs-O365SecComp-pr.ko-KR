@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해
-ms.openlocfilehash: c22abdf315b2301ae9c63b26f548eff302df8e2a
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+ms.openlocfilehash: db0dedbbb41eef334165a4bde65c45a52d14299a
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720278"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900097"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -73,7 +73,11 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 감독 정책을 사용 하 여 다음 통신 플랫폼 중 하나 이상에서 메시지를 모니터링 하도록 선택할 수 있습니다.
 
 - **Exchange 전자 메일:** Office 365 구독의 일부로 Exchange Online에서 호스트 되는 사서함은 모두 메시지 감독에 게 적합 합니다. 감독 정책 조건과 일치 하는 전자 메일 및 첨부 파일은 모니터링 및 감독 보고서에 즉시 제공 됩니다. 감독에 대해 지원 되는 첨부 파일 유형은 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대해 지원 되는 파일 형식과](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)동일 합니다.
-- **Microsoft 팀:** 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에서 채팅 통신 및 관련 첨부 파일을 감독 하는 것은 가능 합니다. 팀 채팅 감독 정책 조건과 일치 하면 24 시간 마다 한 번씩 처리 된 다음 모니터링 및 감독 보고서에 사용할 수 있습니다.
+- **Microsoft 팀:** 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에서 채팅 통신 및 관련 첨부 파일을 감독 하는 것은 가능 합니다. 팀 채팅 감독 정책 조건과 일치 하면 24 시간 마다 한 번씩 처리 된 다음 모니터링 및 감독 보고서에 사용할 수 있습니다. 다음 그룹 관리 구성을 사용 하 여 팀에서 개별 사용자의 채팅 및 채널 통신을 효과적으로 감독할.
+
+    - **팀 채팅 감독:** 개별 사용자를 할당 하거나 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 감독 정책에 할당 해야 합니다. 이는 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
+    - **팀 채널 통신의 경우:** 특정 사용자를 포함 하는 모니터링 하려는 모든 Microsoft 팀 채널 또는 Office 365 그룹을 감독 정책에 할당 해야 합니다. 다른 Microsoft 팀 채널 또는 Office 365 그룹에 동일한 사용자를 추가 하는 경우 이러한 새 채널과 그룹을 감독 정책에도 추가 해야 합니다.
+
 - 타사 **소스:** 조직의 Office 365 사서함으로이 데이터를 가져온 경우에는 타사 소스 (Facebook 또는 DropBox) 로부터의 통신을 감독할 수 있습니다. [타사 데이터를 Office 365로 가져오는 방법에 대해 알아봅니다](https://docs.microsoft.com/office365/securitycompliance/archiving-third-party-data).
 
 ### <a name="policy-settings"></a>정책 설정

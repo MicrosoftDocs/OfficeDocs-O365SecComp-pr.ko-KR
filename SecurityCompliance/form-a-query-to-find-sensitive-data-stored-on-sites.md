@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint Online의 DLP (데이터 손실 방지)를 사용 하 여 테 넌 트 전체에서 중요 한 데이터가 포함 된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 91ef057170ef10614d3888e128769129e4c33fb9
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 8ecce920810d52fadb311c6c4925c9fa4b6fb2b1
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639135"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900057"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 
@@ -53,7 +53,7 @@ ms.locfileid: "30639135"
   
 ### <a name="additional-query-properties-and-search-operators-available-in-the-ediscovery-center"></a>eDiscovery 센터에서 사용할 수 있는 추가 쿼리 속성 및 검색 연산자
 
-또한 SharePoint의 DLP에는 특정 시간대 내에서 검색 되는 파일을 검색 하는 데 도움이 되는 LastSensitiveContentScan 속성을 소개 합니다. 이 속성을 사용 하 `LastSensitiveContentScan` 는 쿼리 예제는 다음 섹션의 [복잡 한 쿼리 예](form-a-query-to-find-sensitive-data-stored-on-sites.md#BKMK_ExamplesOfComplexQueries) 를 참조 하십시오. 
+또한 SharePoint의 DLP에는 특정 시간대 내에서 검색 되는 파일을 검색 하는 데 도움이 되는 LastSensitiveContentScan 속성을 소개 합니다. 이 속성을 사용 하 `LastSensitiveContentScan` 는 쿼리 예제는 다음 섹션의 [복잡 한 쿼리 예](#examples-of-complex-queries) 를 참조 하십시오. 
   
 DLP 관련 속성만 사용 하 여 쿼리를 만들 수 있을 뿐 아니라 또는 `Author` `FileExtension`와 같은 표준 SharePoint eDiscovery 검색 속성을 사용할 수도 있습니다. 연산자를 사용하여 복잡한 쿼리를 작성할 수 있습니다. 사용 가능한 속성 및 연산자 목록에 대해서는 eDiscovery 블로그 게시물에서 [검색 속성 및 연산자 사용](https://go.microsoft.com/fwlink/?LinkId=510093) 을 참조 하십시오. 
   

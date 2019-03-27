@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: 이 항목의 목표는 온-프레미스 전자 메일 방역 어플라이언스나 클라우드 기반 보호 서비스에서 EOP(Exchange Online Protection)로 전환하는 프로세스를 이해하고 EOP를 시작하는 데 필요한 도움말 리소스를 제공하는 것입니다.
-ms.openlocfilehash: 0923bf0060891536ac11c5f9fa773f74aed1463f
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 0c33d89be5cb4ebf7719e6742532ebfc7a2e5c20
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899957"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환
 
@@ -25,14 +25,13 @@ EOP를 처음 사용하는 경우 전환을 결정하기 전에 EOP의 기능에
   
 EOP로 전환하기 전에 EOP 보호 사서함을 클라우드 시나리오에서 호스트할지, Exchange Online 시나리오에서 호스트할지, 온-프레미스 시나리오에서 호스트할지 또는 하이브리드 시나리오에서 호스트할지 생각해보는 것이 중요합니다. 하이브리드는 일부 사서함은 온-프레미스에서 호스팅되고 또 다른 일부 사서함은 Exchange Online에서 호스팅되는 것을 의미합니다. 클라우드, 온-프레미스, 하이브리드 등 이러한 각 호스트 시나리오가 가능하지만 설치 단계는 다를 수 있습니다. 다음은 적합한 배포를 선택하는 데 도움이 되는 몇 가지 고려 사항입니다.
   
-- **온-프레미스 사서함의 EOP 보호** 이 시나리오는 사용할 기존의 메일 호스트 인프라를 가지고 있는 경우 또는 사서함을 온-프레미스로 유지해야 하는 비즈니스 요구 사항이 있고 EOP의 클라우드 기반 이메일 보호를 원하는 경우에 적합합니다. [EOP 독립 실행형으로 전환](#BKMK_SwitchStandalone.md)에서 이 시나리오에 대해 보다 자세하게 설명합니다. 
+- **온-프레미스 사서함의 EOP 보호** 이 시나리오는 사용할 기존의 메일 호스트 인프라를 가지고 있는 경우 또는 사서함을 온-프레미스로 유지해야 하는 비즈니스 요구 사항이 있고 EOP의 클라우드 기반 이메일 보호를 원하는 경우에 적합합니다. [EOP 독립 실행형으로 전환](#switch-to-eop-standalone)에서 이 시나리오에 대해 보다 자세하게 설명합니다. 
     
 - **Exchange Online 사서함의 EOP 보호** 이 시나리오는 EOP 보호를 원하고 모든 사서함이 클라우드에서 호스팅되는 경우에 적합합니다. 이 시나리오에서는 온-프레미스 메시징 서버를 유지 관리하지 않아도 되므로 복잡성이 줄어듭니다. [Exchange Online으로 전환](switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md#BKMK_SwitchEXO)에서 이 시나리오에 대해 보다 자세하게 설명합니다. 
     
-- **하이브리드 사서함의 EOP 보호** 클라우드 사서함을 원하지만 일부 사용자의 사서함을 온-프레미스로 유지해야 하는 경우에 적합합니다. 일부 사서함은 온-프레미스에서 호스팅하고 또 다른 일부 사서함은 Exchange Online에서 호스팅하려는 경우에 이 시나리오를 선택합니다. [하이브리드 솔루션으로 전환](#BKMK_SwitchHybrid.md)에서 이 시나리오에 대해 보다 자세하게 설명합니다. 
+- **하이브리드 사서함의 EOP 보호** 클라우드 사서함을 원하지만 일부 사용자의 사서함을 온-프레미스로 유지해야 하는 경우에 적합합니다. 일부 사서함은 온-프레미스에서 호스팅하고 또 다른 일부 사서함은 Exchange Online에서 호스팅하려는 경우에 이 시나리오를 선택합니다. [하이브리드 솔루션으로 전환](#switch-to-a-hybrid-solution)에서 이 시나리오에 대해 보다 자세하게 설명합니다. 
     
 ## <a name="switch-to-eop-standalone"></a>EOP 독립 실행형으로 전환
-<a name="BKMK_SwitchStandalone"> </a>
 
 현재 온-프레미스에서 사서함을 호스트하고 온-프레미스 보호 어플라이언스나 클라우드 메시징 보호 서비스를 사용하는 경우 EOP로 전환하면 EOP 보호 기능 및 가용성을 사용할 수 있습니다. EOP를 독립 실행형 시나리오로 설정하려면(즉 온-프레미스로 사서함을 호스트하고 EOP를 사용하여 전자 메일 보호 기능 제공) [EOP 서비스 설정](set-up-your-eop-service.md)에 설명된 단계를 수행하면 됩니다. 이 항목에는 등록, 도메인 추가 및 커넥터로 메일 흐름을 설정하는 등 EOP 보호를 설정하는 단계가 설명되어 있습니다.
   

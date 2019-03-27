@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자: 해당 사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이 방법은 실수로 Office 365에 분산 된 데이터를 삭제 하는 효율적인 방법입니다.'
-ms.openlocfilehash: 4b7b12b33a2364d76b5d7dab6c7e94dc8f00d151
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: a1abfd73d96db6d67e1e1fe13d5487ac55c40344
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296181"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900117"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 
@@ -49,7 +49,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
     
   - **사서함 검색** -이 역할을 사용 하 여 조직의 사서함을 검색할 수 있습니다. Exchange 관리자에 게는 기본적으로이 역할이 할당 되지 않습니다. 자신을이 역할에 할당 하려면 자신을 Exchange Online의 검색 관리 역할 그룹의 구성원으로 추가 합니다. 
     
-  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로이 역할은 역할 그룹에 할당 되지 않습니다. 사용자 사서함에서 메시지를 삭제 하려면 Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가 하면 됩니다. 
+  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로 이 역할은 역할 그룹에 할당되지 않습니다. 사용자 사서함에서 메시지를 삭제 하려면 Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가 하면 됩니다. 
     
 - 이 문서에서 설명 하는 절차는 비활성 사서함에서는 지원 되지 않습니다. 이는 제거 후 보류 (또는 Office 365 보존 정책)를 비활성 사서함에 다시 적용할 수 없기 때문입니다. 비활성 사서함에서 보류를 제거 하면 일시 삭제 된 일반 사서함으로 변경 되 고 관리 되는 폴더 도우미에 의해 처리 된 후 조직에서 영구적으로 삭제 됩니다.
     
@@ -63,11 +63,11 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
   
 -  *singleitemrecoveryenabled* 및 *RetainDeletedItemsFor* ; 필요한 경우 한 번 복구를 사용 하지 않도록 설정 하 고 3 단계에서 삭제 된 항목 보존 기간을 늘립니다. 
     
--  *LitigationHoldEnabled* 및 *InPlaceHolds* 3 단계에서 일시적으로 제거할 수 있도록 사서함에 설정 된 모든 보류를 식별 해야 합니다. 사서함에 저장 될 수 있는 유형 보존을 식별 하는 방법에 대 한 팁을 보려면 [추가 정보](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#moreinfo) 섹션을 참조 하십시오. 
+-  *LitigationHoldEnabled* 및 *InPlaceHolds* 3 단계에서 일시적으로 제거할 수 있도록 사서함에 설정 된 모든 보류를 식별 해야 합니다. 사서함에 저장 될 수 있는 유형 보존을 식별 하는 방법에 대 한 팁을 보려면 [추가 정보](#more-information) 섹션을 참조 하십시오. 
     
 또한 사서함 클라이언트 액세스 설정을 일시적으로 사용 하지 않도록 설정 하 여 소유자 (또는 다른 사용자)가이 절차 중에 사서함에 액세스할 수 없도록 해야 합니다. 마지막으로 복구 가능한 항목 폴더의 현재 크기 및 항목 수를 가져올 수 있습니다. 5 단계에서 복구 가능한 항목 폴더의 항목을 삭제 한 후에는이 정보를 사용 하 여 항목이 실제로 제거 되었는지 확인 합니다.
   
-1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=396554)합니다. Exchange Online에서 적절 한 관리 역할이 할당 된 관리자 계정에 대해 사용자 이름과 암호를 사용 해야 합니다. 
+1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/?linkid=396554). Exchange Online에서 적절 한 관리 역할이 할당 된 관리자 계정에 대해 사용자 이름과 암호를 사용 해야 합니다. 
     
 2. 다음 명령을 실행 하 여 단일 항목 복구 및 삭제 된 항목 보존 기간에 대 한 정보를 가져옵니다.
 
@@ -170,7 +170,7 @@ Exchange Online PowerShell에서 다음 단계를 수행 합니다.
 > [!CAUTION]
 > 앞에서 설명한 것 처럼 사서함에서 보류를 제거 하기 전에 레코드 관리 또는 법률 부서에 문의 하세요. 
   
- ### <a name="litigation-hold"></a>소송 보존
+ ### <a name="litigation-hold"></a>소송 대기
   
 Exchange Online PowerShell에서 다음 명령을 실행 하 여 사서함에서 소송 보존을 제거 합니다.
 
@@ -190,7 +190,7 @@ Exchange Online PowerShell에서 다음 명령을 실행 하 여 사서함에 �
 Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
 ```
    
-원본 위치 유지를 확인 한 후 EAC (exchange 관리 센터) 또는 exchange Online PowerShell을 사용 하 여 보류에서 사서함을 제거할 수 있습니다. 자세한 내용은 원본 [위치 유지 만들기 또는 제거](https://go.microsoft.com/fwlink/?linkid=852668)를 참조 하세요.
+원본 위치 유지를 확인 한 후 EAC (exchange 관리 센터) 또는 exchange Online PowerShell을 사용 하 여 보류에서 사서함을 제거할 수 있습니다. 자세한 내용은 [만들기 또는 In-place Hold 제거](https://go.microsoft.com/fwlink/?linkid=852668) 항목을 참조하십시오.
   
  ### <a name="office-365-retention-policies-applied-to-specific-mailboxes"></a>특정 사서함에 적용 되는 Office 365 보존 정책
   
@@ -298,7 +298,7 @@ Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>" -DeleteContent
 ```
  
-### <a name="example-3"></a>예 3
+### <a name="example-3"></a>예제 3
 
 이 예에서는 사용자의 복구 가능한 항목 폴더에서 대상 사서함으로 복사 하지 않고 모든 항목을 삭제 합니다. 
 
@@ -346,7 +346,7 @@ Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | 
   
 ## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>6 단계: 사서함을 이전 상태로 되돌리기
 
-마지막 단계는 사서함을 다시 이전 구성으로 되돌리는 것입니다. 즉, 2 단계에서 변경한 속성을 다시 설정 하 고 3 단계에서 제거한 보존을 다시 적용 합니다. 여기에는 다음이 포함 됩니다.
+마지막 단계는 사서함을 다시 이전 구성으로 되돌리는 것입니다. 즉, 2 단계에서 변경한 속성을 다시 설정 하 고 3 단계에서 제거한 보존을 다시 적용 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다.
   
 - 삭제 된 항목 보존 기간을 이전 값으로 변경 또는 Exchange Online에서이 설정을 최대 30 일로 그대로 두면 됩니다.
     
@@ -383,7 +383,7 @@ Exchange Online PowerShell에서 지정 된 순서 대로 다음 단계를 수�
    
 4. 3 단계에서 제거한 보존을 다시 적용 합니다. 보존 유형에 따라 다음 절차 중 하나를 사용 합니다.
     
-    **소송 보존**
+    **소송 대기**
     
     다음 명령을 실행 하 여 사서함에 대 한 소송 보존을 다시 사용 하도록 설정 합니다.
     
@@ -431,10 +431,10 @@ Exchange Online PowerShell에서 지정 된 순서 대로 다음 단계를 수�
   
 |**보류 유형**|**예제 값**|**보류를 확인 하는 방법**|
 |:-----|:-----|:-----|
-|소송 보존  <br/> | `True` <br/> |*LitigationHoldEnabled* 속성은로 `True`설정 됩니다.  <br/> |
-|원본 위치 유지  <br/> | `c0ba3ce811b6432a8751430937152491` <br/> |*InPlaceHolds* 속성은 사서함에 배치 된 원본 위치 유지의 GUID를 포함 합니다. GUID가 접두사로 시작 되지 않으므로 현재 위치 유지로 설정할 수 있습니다.<br/> Exchange Online PowerShell의 `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` 명령을 사용 하 여 사서함의 원본 위치 유지에 대 한 정보를 가져올 수 있습니다.  <br/> |
-| 특정 사서함에 적용 되는 보안 &amp; 준수 센터의 Office 365 보존 정책  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/> 또는  <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |**사서함** 관리 cmdlet을 실행 하는 경우 *InPlaceHolds* 속성에는 사서함에 적용 되는 Office 365 보존 정책의 guid도 포함 되어 있습니다. GUID는 `mbx` 접두사로 시작 되므로 보존 정책을 식별할 수 있습니다. 보존 정책의 GUID가 `skp` 접두사로 시작 되 면 보존 정책이 비즈니스용 Skype 대화에 적용 됨을 나타내는 것을 볼 수 있습니다.<br/> 사서함에 적용 되는 Office 365 보존 정책을 식별 하려면 보안 &amp; 준수 센터 PowerShell에서 다음 명령을 실행 합니다. <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>이 명령을 실행할 때 `mbx` or `skp` 접두사를 제거 해야 합니다.  <br/> |
-|보안 &amp; 및 준수 센터의 조직 전체 Office 365 보존 정책  <br/> |No 값  <br/> 또는  <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696`(사서함이 조직 차원 정책에서 제외 됨을 나타냄)  <br/> |*InPlaceHolds* 속성이 비어 있는 경우에도 사서함 cmdlet을 실행할 **** 때 하나 이상의 조직 수준 Office 365 보존 정책이 사서함에 적용 될 수 있습니다.  <br/> 이를 확인 하려면 Exchange Online PowerShell에서 `Get-OrganizationConfig | FL InPlaceHolds` 명령을 실행 하 여 조직 전반의 Office 365 보존 정책의 guid 목록을 가져올 수 있습니다. Exchange 사서함에 적용 되는 조직 수준 보존 정책의 GUID는 `mbx` 접두사로 시작 합니다. 예를 `mbxa3056bb15562480fadb46ce523ff7b02`들어<br/> 사서함에 적용 되는 조직 차원의 Office 365 보존 정책을 식별 하려면 보안 &amp; 준수 센터 PowerShell에서 다음 명령을 실행 합니다. <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>사서함이 조직 차원의 Office 365 보존 정책에서 제외 되는 경우 **사서함** cmdlet을 실행 하면 보존 정책의 GUID가 사용자 사서함의 *InPlaceHolds* 속성에 표시 됩니다. 이 접두사는 접두사로 `-mbx`식별 됩니다. 예를 들어`-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
-|보안 &amp; 및 준수 센터에서 eDiscovery 사례 보류  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |*InPlaceHolds* 속성에는 사서함에 배치 될 수 있는 보안 &amp; 및 준수 센터에서 eDiscovery 사례와 관련 된 보류의 GUID도 포함 됩니다. GUID는 `UniH` 접두사로 시작 되므로 eDiscovery 사례 보류 임을 확인할 수 있습니다.<br/> 보안 &amp; 및 준수 센터 `Get-CaseHoldPolicy` PowerShell에서 cmdlet을 사용 하 여 사서함의 보류가 연결 된 eDiscovery 사례에 대 한 정보를 확인할 수 있습니다. 예를 들어 명령을 `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 실행 하 여 사서함에 대 한 케이스 보류의 이름을 표시할 수 있습니다. 이 명령을 실행할 때 `UniH` 접두사를 제거 해야 합니다.<br/><br/> 사서함의 보류가 연결 된 eDiscovery 사례를 식별 하려면 다음 명령을 실행 합니다.<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`
+|소송 대기  <br/> | `True` <br/> |*LitigationHoldEnabled* 속성은로 `True`설정 됩니다.  <br/> |
+|원본 위치 유지  <br/> | `c0ba3ce811b6432a8751430937152491` <br/> |*InPlaceHolds* 속성은 사서함에 배치 된 원본 위치 유지의 GUID를 포함 합니다. GUID가 접두사로 시작 되지 않으므로 현재 위치 유지로 설정할 수 있습니다.  <br/> Exchange Online PowerShell의 `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` 명령을 사용 하 여 사서함의 원본 위치 유지에 대 한 정보를 가져올 수 있습니다.  <br/> |
+| 특정 사서함에 적용 되는 보안 &amp; 준수 센터의 Office 365 보존 정책  <br/> | `mbxcdbbb86ce60342489bff371876e7f224` <br/>  선택하거나   <br/>  `skp127d7cf1076947929bf136b7a2a8c36f` <br/> |**사서함** 관리 cmdlet을 실행 하는 경우 *InPlaceHolds* 속성에는 사서함에 적용 되는 Office 365 보존 정책의 guid도 포함 되어 있습니다. GUID는 `mbx` 접두사로 시작 되므로 보존 정책을 식별할 수 있습니다. 보존 정책의 GUID가 `skp` 접두사로 시작 되 면 보존 정책이 비즈니스용 Skype 대화에 적용 됨을 나타내는 것을 볼 수 있습니다.  <br/> 사서함에 적용 되는 Office 365 보존 정책을 식별 하려면 보안 &amp; 준수 센터 PowerShell에서 다음 명령을 실행 합니다. <br/> <br/>`Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>이 명령을 실행할 때 `mbx` or `skp` 접두사를 제거 해야 합니다.  <br/> |
+|보안 &amp; 및 준수 센터의 조직 전체 Office 365 보존 정책  <br/> |No 값  <br/>  선택하거나   <br/>  `-mbxe9b52bf7ab3b46a286308ecb29624696`(사서함이 조직 차원 정책에서 제외 됨을 나타냄)  <br/> |*InPlaceHolds* 속성이 비어 있는 경우에도 사서함 cmdlet을 실행할 **** 때 하나 이상의 조직 수준 Office 365 보존 정책이 사서함에 적용 될 수 있습니다.  <br/> 이를 확인 하려면 Exchange Online PowerShell에서 `Get-OrganizationConfig | FL InPlaceHolds` 명령을 실행 하 여 조직 전반의 Office 365 보존 정책의 guid 목록을 가져올 수 있습니다. Exchange 사서함에 적용 되는 조직 수준 보존 정책의 GUID는 `mbx` 접두사로 시작 합니다. 예를 `mbxa3056bb15562480fadb46ce523ff7b02`들어  <br/> 사서함에 적용 되는 조직 차원의 Office 365 보존 정책을 식별 하려면 보안 &amp; 준수 센터 PowerShell에서 다음 명령을 실행 합니다. <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>사서함이 조직 차원의 Office 365 보존 정책에서 제외 되는 경우 **사서함** cmdlet을 실행 하면 보존 정책의 GUID가 사용자 사서함의 *InPlaceHolds* 속성에 표시 됩니다. 이 접두사는 접두사로 `-mbx`식별 됩니다. 예를 들어`-mbxe9b52bf7ab3b46a286308ecb29624696` <br/> |
+|보안 &amp; 및 준수 센터에서 eDiscovery 사례 보류  <br/> | `UniH7d895d48-7e23-4a8d-8346-533c3beac15d` <br/> |*InPlaceHolds* 속성에는 사서함에 배치 될 수 있는 보안 &amp; 및 준수 센터에서 eDiscovery 사례와 관련 된 보류의 GUID도 포함 됩니다. GUID는 `UniH` 접두사로 시작 되므로 eDiscovery 사례 보류 임을 확인할 수 있습니다.  <br/> 보안 &amp; 및 준수 센터 `Get-CaseHoldPolicy` PowerShell에서 cmdlet을 사용 하 여 사서함의 보류가 연결 된 eDiscovery 사례에 대 한 정보를 확인할 수 있습니다. 예를 들어 명령을 `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 실행 하 여 사서함에 대 한 케이스 보류의 이름을 표시할 수 있습니다. 이 명령을 실행할 때 `UniH` 접두사를 제거 해야 합니다.  <br/><br/> 사서함의 보류가 연결 된 eDiscovery 사례를 식별 하려면 다음 명령을 실행 합니다.<br/><br/>`$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/>`Get-ComplianceCase $CaseHold.CaseId | FL Name`
 
 

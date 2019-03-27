@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: 검색 결과를 다운로드할 때 데이터 처리량을 높이도록 Windows 레지스트리를 구성 하는 방법과 office 365 보안 &amp; 및 준수 센터 및 office 365 Advanced eDiscovery에서 데이터를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: a23525ada1ef5f36bc7df4fc738c712e22243bc0
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: ddeb247be6981dbfdb874e270a123e4465914d86
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295431"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899927"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results-from-office-365"></a>Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기
 
@@ -52,7 +52,7 @@ office 365 eDiscovery 내보내기 도구를 사용 하 여 office 365 보안 &a
 6. 2-5 단계를 반복 하 여 `DownloadConcurrency` 레지스트리 설정 값을 변경할 수 있습니다. 
     
     > [!IMPORTANT]
-    > `DownloadConcurrency` 레지스트리 설정을 만들거나 변경한 후에는 새 내보내기 작업을 만들거나 다운로드 하려는 검색 결과 또는 데이터에 대 한 기존 내보내기 작업을 다시 시작 해야 합니다. 자세한 [내용은 추가 정보](increase-download-speeds-when-exporting-ediscovery-results.md#moreinfo) 섹션을 참조 하세요. 
+    > `DownloadConcurrency` 레지스트리 설정을 만들거나 변경한 후에는 새 내보내기 작업을 만들거나 다운로드 하려는 검색 결과 또는 데이터에 대 한 기존 내보내기 작업을 다시 시작 해야 합니다. 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하세요. 
   
 ## <a name="more-information"></a>추가 정보
 
@@ -66,5 +66,5 @@ office 365 eDiscovery 내보내기 도구를 사용 하 여 office 365 보안 &a
     
   - [Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 결과 내보내기](export-search-results.md)
     
-  - [Office 365 Advanced eDiscovery 결과 내보내기](export-results-in-advanced-ediscovery.md)
+  - [Office 365 Advanced eDiscovery에서 결과 내보내기](export-results-in-advanced-ediscovery.md)
     

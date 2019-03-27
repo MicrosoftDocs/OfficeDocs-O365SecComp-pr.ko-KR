@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
-ms.openlocfilehash: cb12299dee5392cb75d41156a834a7190b8ade1b
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: bd61920967cfeacbefc09d1347203565617af5a1
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296841"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900177"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족
 
@@ -385,7 +385,7 @@ CIA/위협 및 법적/외부 요인으로 표시되는 15가지의 가능한 위
   
 - [사용자 검색](#search-for-a-user)
 
-- [계정 데이터 기록의 보고서 내보내기](#export-report-of-account-data-history)
+- [계정 데이터 기록의 보고서 내보내기](#export-a-report-of-account-data-history)
 
 - [작업 항목 다시 할당](#reassign-action-items)
 
@@ -511,9 +511,9 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
   
 1. 준수 관리자 대시보드에서 ![추가 아이콘](media/ITPro-EAC-AddIcon.gif) **평가 추가**를 클릭합니다. 
     
-2. **평가 추가** 창에서 평가를 추가할 새 그룹을 만들거나, 기존 그룹에 평가를 추가할 수 있습니다(기본 제공 그룹 이름은 "초기 그룹"임). 선택하는 옵션에 따라 새 그룹의 이름을 입력하거나 드롭다운 선택 하는 옵션에 따라 새 그룹의 이름을 입력하거나 드롭다운 목록에서 기존 그룹을 선택합니다. 자세한 내용은 [평가 그룹화](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#grouping)를 참조하세요.
+2. **평가 추가** 창에서 평가를 추가할 새 그룹을 만들거나, 기존 그룹에 평가를 추가할 수 있습니다(기본 제공 그룹 이름은 "초기 그룹"임). 선택하는 옵션에 따라 새 그룹의 이름을 입력하거나 드롭다운 선택 하는 옵션에 따라 새 그룹의 이름을 입력하거나 드롭다운 목록에서 기존 그룹을 선택합니다. 자세한 내용은 [평가 그룹화](#grouping-assessments)를 참조하세요.
     
-    새 그룹을 만드는 경우 기존 그룹의 정보를 새 평가에 복사하는 옵션도 제공됩니다. 즉, 복사하는 그룹의 평가에서 고객 관리 컨트롤의 구현 세부 정보, 테스트 계획 및 관리 응답 필드에 추가된 모든 정보가 새 평가의 동일한(또는 관련) 고객 관리 컨트롤에 복사됩니다. 기존 그룹에 새 평가를 추가하는 경우 해당 그룹의 평가에서 가져온 공통 정보가 새 평가로 복사됩니다. 자세한 내용은 [기존 평가에서 정보 복사](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#copying)를 참조하세요.
+    새 그룹을 만드는 경우 기존 그룹의 정보를 새 평가에 복사하는 옵션도 제공됩니다. 즉, 복사하는 그룹의 평가에서 고객 관리 컨트롤의 구현 세부 정보, 테스트 계획 및 관리 응답 필드에 추가된 모든 정보가 새 평가의 동일한(또는 관련) 고객 관리 컨트롤에 복사됩니다. 기존 그룹에 새 평가를 추가하는 경우 해당 그룹의 평가에서 가져온 공통 정보가 새 평가로 복사됩니다. 자세한 내용은 [기존 평가에서 정보 복사](#copying-information-from-existing-assessments)를 참조하세요.
     
 3. **다음**을 클릭하고 다음을 수행합니다.
     
@@ -553,7 +553,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
   
 1. 이 섹션에는 평가 요약 정보를 평가 그룹, 제품, 평가 이름, 평가 컨트롤 수를 포함하는 평가 요약 정보가 표시됩니다.
     
-2. 이 섹션에는 평가 필터 컨트롤이 표시됩니다. 평가 필터 컨트롤을 사용하는 방법에 대한 자세한 설명을 보려면 [평가 프로세스 관리](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#managecomplianceprocess_1) 섹션을 참조하세요. 
+2. 이 섹션에는 평가 필터 컨트롤이 표시됩니다. 평가 필터 컨트롤을 사용하는 방법에 대한 자세한 설명을 보려면 [평가 프로세스 관리](#managing-the-assessment-process) 섹션을 참조하세요. 
     
 3. 이 섹션에는 평가 범위 내에 있는 개별 클라우드 서비스가 표시됩니다.
     
@@ -561,7 +561,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     
 5. 이 섹션에는 고객 관리 컨트롤이 포함되어 있습니다. 이 컨트롤도 컨트롤 패밀리별로 구성됩니다. 컨트롤 패밀리를 클릭하여 확장하고 개별 컨트롤을 표시합니다.
     
-6. 컨트롤 패밀리의 컨트롤 총 수와 평가된 이러한 컨트롤 수가 표시됩니다. 준수 관리자의 주요 기능은 고객 관리 컨트롤 평가에 대한 조직 진행 상황을 추적하는 것입니다. 자세한 내용은 [준수 점수 이해](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md#compliancescore) 섹션을 참조하세요. 
+6. 컨트롤 패밀리의 컨트롤 총 수와 평가된 이러한 컨트롤 수가 표시됩니다. 준수 관리자의 주요 기능은 고객 관리 컨트롤 평가에 대한 조직 진행 상황을 추적하는 것입니다. 자세한 내용은 [준수 점수 이해](#understanding-the-compliance-score) 섹션을 참조하세요. 
 
 ## <a name="managing-the-assessment-process"></a>평가 프로세스 관리
 
