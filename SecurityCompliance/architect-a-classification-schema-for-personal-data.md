@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 조직이 GDPR 계획의 일부로 레이블을 구현하는지 여부를 확인합니다.
-ms.openlocfilehash: 79c68b8340209c3cc3e3a7081a4075c31a112e80
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 6886adaa09599b32eb2f3084efdea06fd5794af0
+ms.sourcegitcommit: ae7ebae8801a69a825a363443e2676379197de19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30789443"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800300"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>개인 데이터에 대한 분류 스키마 설계
 
@@ -41,9 +41,9 @@ ms.locfileid: "30789443"
 
 -   다음은 조직이 아직 레이블을 사용하여 보다 광범위한 데이터 거버넌스 계획을 구현하지 않았거나 앞으로 구현할 계획인 경우 다음 방법을 사용하는 것이 더 간단합니다.
 
--   DLP 규칙에 잘 작동합니다(Office 레이블도 DLP 규칙에 잘 작동함).
+-   DLP 규칙에 잘 작동합니다(보존 레이블도 DLP 규칙에 잘 작동함).
 
--   나중에는 Cloud App Security와 함께 작동될 예정이므로 기타 SaaS 앱에서 중요한 정보를 검색할 수 있습니다.
+-   중요한 정보 유형이 Cloud App Security와 함께 작동되므로 기타 SaaS 앱에서 중요한 정보를 검색할 수 있습니다.
 
 ### <a name="option-2-use-sensitive-information-types--retention-labels"></a>옵션 2: 중요한 정보 유형 + 보존 레이블 사용
 

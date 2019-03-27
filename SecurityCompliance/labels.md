@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: c7a1ea3221de193db30a821e0449194ea761ebcf
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 174be4cbb55b72a3bc8751460ff030b38238590e
+ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455310"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900137"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -90,7 +90,7 @@ Office 365 보안 및 준수 센터의 **레이블** 페이지에 있는 **보�
     
 - 자동 적용 레이블을 할당하는 여러 규칙이 있고 콘텐츠가 여러 규칙의 조건을 충족하는 경우 가장 오래된 규칙에 대한 보존 레이블이 할당됩니다.
     
-수동으로 할당된 레이블은 명시적으로 할당되고, 자동 적용 레이블은 암시적으로 할당됩니다. 또한 명시적 보존 레이블은 암시적 레이블보다 우선합니다. 자세한 내용은 아래 섹션에서 [보존 원칙 또는 우선 순위](labels.md#principles)를 참조하세요.
+수동으로 할당된 레이블은 명시적으로 할당되고, 자동 적용 레이블은 암시적으로 할당됩니다. 또한 명시적 보존 레이블은 암시적 레이블보다 우선합니다. 자세한 내용은 아래 섹션에서 [보존 원칙 또는 우선 순위](#the-principles-of-retention-or-what-takes-precedence)를 참조하세요.
 
 이 섹션의 모든 정보는 보존 레이블에만 적용됩니다. 하나의 콘텐츠 항목에 보존 레이블 1개 외에 민감도 레이블이 1개만 적용될 수 있습니다.
   

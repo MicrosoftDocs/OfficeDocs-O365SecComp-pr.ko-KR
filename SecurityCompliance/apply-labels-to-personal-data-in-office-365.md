@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: e31cd420fe476ace8031fc2c6e52158762814c7a
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 4167ace41c5d7534b7e90130c189e3c04e5c5100
+ms.sourcegitcommit: ae7ebae8801a69a825a363443e2676379197de19
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30789433"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800290"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 레이블 적용
 
@@ -29,15 +29,16 @@ ms.locfileid: "30789433"
 
 Office 365에서 개인 데이터를 보호하기 위해 레이블을 사용하는 경우 [보존 레이블](labels.md)부터 시작하는 것이 좋습니다. 보존 레이블을 사용하여 다음을 수행할 수 있습니다.
 - 고급 데이터 거버넌스를 사용하여 민감한 정보 유형 또는 기타 기준에 따라 레이블을 자동으로 적용하십시오.
--  데이터 손실 방지 기능이 있는 보존 레이블을 사용하여 보호 기능을 적용하십시오. 
+- 데이터 손실 방지 기능이 있는 보존 레이블을 사용하여 보호 기능을 적용하십시오. 
 - eDiscovery 및 콘텐츠 검색이 포함된 레이블을 사용합니다. 
-- Cloud App Security에서는 라벨과 민감한 정보 유형을 모두 사용하여 다른 SaaS 앱에있는 개인 데이터를 모니터링합니다.
+
+Cloud App Security에서 현재 보존 레이블을 지원하지 않지만 Office 365 중요한 정보 유형을 Cloud App Security와 함께 사용하여 다른 SaaS 앱에 위치한 개인 데이터를 모니터링할 수 있습니다.
 
 [민감도 레이블](sensitivity-labels.md)은 현재 온 프레미스 및 기타 클라우드 서비스 및 제공업체의 파일에 레이블을 적용할 때 사용하는 것이 좋습니다. 이러한 파일은 영업 비밀 파일과 같은 데이터 보호를 위해 Azure Information Protection(AIP) 암호화가 필요한 Office 365의 파일에도 권장됩니다.
 
 이 경우, Azure Information Protection을 사용하여 GDPR의 적용을 받는 Office 365 파일에는 암호화를 적용하지 않는 것이 좋습니다. Office 365 서비스는 현재 AIP 암호화 파일을 읽을 수 없습니다. 따라서 Office 365 서비스는 이러한 파일에서 민감한 데이터를 찾을 수 없습니다.
 
-민감도 레이블을 Exchange Online의 메일에 적용할 수 있으며 이러한 레이블은 Office 365 데이터 손실 방지와 함께 작동합니다. 
+보존 레이블을 Exchange Online의 메일에 적용할 수 있으며 이러한 레이블은 Office 365 데이터 손실 방지와 함께 작동합니다. 
 
 ![Office 365 레이블 및 Azure Information Protection 레이블](Media/Apply-labels-to-personal-data-in-Office-365-image1.png)
 
@@ -45,7 +46,7 @@ Office 365에서 개인 데이터를 보호하기 위해 레이블을 사용하�
 이 그림의 내용
 
 -   SharePoint Online 및 비즈니스용 OneDrive의 개인 데이터와 규제 및 영업 비밀 파일에 보존 레이블을 사용합니다.
-
+-   Office 365 내에서 Cloud App Security와 함께 Office 365 중요한 정보 유형을 사용하여 다른 SaaS 앱에 위치한 개인 데이터를 모니터링할 수 있습니다.
 -   규제 및 영업 비밀 파일, Exchange Online 전자 메일, 다른 SaaS 서비스의 파일, 온-프레미스 데이터 센터의 파일 및 기타 클라우드 공급자의 파일에 보존 레이블을 사용합니다.
 
 
@@ -78,8 +79,8 @@ Office 365에서 개인 데이터를 보호하기 위해 레이블을 사용하�
 <p>. . . 보호를 다음 레이블의 문서에 적용 . . .</p>
 <p>고객 데이터</p></td>
 <td align="left"><p>승인된 SaaS 앱에서 다음 . . .</p>
-<p>&lt;미리 정의된 PII 특성 -또는- 사용자 지정 식&gt;</p>
-<p>. . . 특성을 가진 파일이 조직 외부에서 공유될 때 경고 발생</p></td>
+<p>미리 정의된 PII 특성, Office 365 중요한 정보 유형, 민감도 레이블(AIP), 사용자 지정 식 중 하나 이상의 특성을 선택합니다.</p>
+<p>. . . 특성을 가진 파일이 조직 외부에서 공유될 때 경고 발생</p><p>참고: 현재 Cloud App Security에서 보존 레이블이 지원되지 않습니다.</td>
 </tr>
 <tr class="even">
 <td align="left">중요한 정보 유형. 예: 벨기에 국가 번호, 신용 카드 번호, 크로아티아 ID 카트 번호, 핀란드 국가 ID</td>
@@ -90,7 +91,7 @@ Office 365에서 개인 데이터를 보호하기 위해 레이블을 사용하�
 <td align="left"><p>다음 . . .</p>
 <p>&lt;보호 정의&gt;</p>
 <p>. . . 레이블을 다음의 중요한 정보 유형과 일치하는 문서에 자동으로 적용&gt;</p></td>
-<td align="left">참고: Cloud App Security에 곧 제공될 특성에는 Office 365의 중요한 정보 유형과 Office 365 및 Azure Information Protection의 통합 레이블이 포함됩니다.</td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
