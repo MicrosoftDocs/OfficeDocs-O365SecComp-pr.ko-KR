@@ -13,12 +13,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 하면 각 메시지에 **X-스팸 방지-Report** 헤더가 삽입 됩니다.
-ms.openlocfilehash: de5e1b16ac6c9e7515e23f083f2e938125c7e9cd
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 92614b8cb6e1571c3d5438206f9dcd106579669a
+ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693577"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936748"
 ---
 # <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
 
@@ -28,7 +28,6 @@ Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 
 > 다양 한 전자 메일 클라이언트에서 전자 메일 메시지 헤더를 보는 방법에 대 한 자세한 내용은 [메시지 헤더 분석기](https://go.microsoft.com/fwlink/p/?LinkId=306583)를 참조 하십시오. 메시지 헤더의 내용을 복사 하 여 [메시지 헤더 분석기](https://testconnectivity.microsoft.com/?tabid=mha) 도구에 붙여 넣을 수 있습니다. Exchange 관리 센터의 격리에서 메시지를 선택하면 **메시지 헤더 보기** 링크를 통해 메시지 헤더 텍스트를 쉽게 복사하여 도구에 붙여 넣을 수도 있습니다. 메시지 헤더 분석기 도구가 표시되면 **헤더 분석**을 클릭하여 헤더에 대한 정보를 검색합니다.
   
 ## <a name="x-forefront-antispam-report-message-header-fields"></a>스팸 방지-Report 메시지 헤더 필드
-<a name="sectionSection0"> </a>
 
 메시지 헤더 정보에 액세스 한 후에는 **스팸 방지-Report** 를 검색 한 다음 이러한 필드를 찾습니다. 이 헤더의 다른 필드는 Microsoft 스팸 방지 팀에서 진단용으로만 사용합니다.
 
@@ -38,7 +37,7 @@ Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 
 |ctry|메시지가 서비스에 연결된 국가입니다. 연결하는 IP 주소(원래 메시지를 보낸 IP 주소와 다를 수도 있음)를 통해 확인됩니다.|
 |LANG|국가 코드로 지정된 메시지 작성 언어입니다. 예를 들어 ru_RU는 러시아어입니다.|
 |SCL|메시지의 SCL(스팸 지수) 값입니다. 이러한 값을 해석 하는 방법에 대 한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조 하십시오.|
-|PCL|메시지의 PCL(피싱 지수) 값입니다. |
+|PCL|메시지의 PCL(피싱 지수) 값입니다.|
 |SRV: 대량|메시지가 대량 전자 메일 메시지로 확인되었습니다. **모든 대량 전자 메일 메시지 차단 고급 스팸 필터링 옵션** 을 사용 하도록 설정 하면 스팸으로 표시 됩니다. 이 옵션을 사용하도록 설정하지 않은 경우 메시지는 나머지 필터링 규칙에 의해 스팸으로 확인되는 경우에만 스팸으로 표시됩니다.|
 |SFV: SFV|개인의 수신 허용-보낸 사람 목록에 있는 주소에서 보낸 메시지 이므로 필터링을 건너 뛰 었으 며 메시지가 허용 됩니다.|
 |SFV: BLK|개인의 수신 거부 목록에 있는 주소에서 보낸 메시지 이므로 필터링을 건너 뛰 었으 며 메시지가 차단 되었습니다.  <br/> **팁**: 최종 사용자가 수신 허용 및 차단 된 보낸 사람 목록을 만드는 방법에 대 한 자세한 내용은 [차단 또는 허용 (정크 메일 설정)](https://go.microsoft.com/fwlink/p/?LinkId=294862) (웹용 outlook) 및 [요약 정크 메일 필터](https://go.microsoft.com/fwlink/p/?LinkId=270065) (outlook)를 참조 하세요.|
@@ -58,7 +57,6 @@ Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 
 |X-CustomSpam: [ASFOption]|메시지가 고급 스팸 필터링 옵션과 일치 합니다. 예를 들어 **X-CustomSpam: 원격 사이트에 대한 이미지 링크**는 **원격 사이트에 대한 이미지 링크** ASF 옵션이 일치하는 것으로 확인되었음을 나타냅니다. 각 특정 ASF 옵션에 대해 추가 된 X-헤더 텍스트를 확인 하려면 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)을 참조 하십시오.|
    
 ## <a name="x-microsoft-antispam-message-header-fields"></a>스팸 방지 메시지 헤더 필드
-<a name="sectionSection1"> </a>
 
 다음 표에서는 **스팸 방지** 메시지 헤더의 유용한 필드에 대해 설명 합니다. 이 헤더의 다른 필드는 Microsoft 스팸 방지 팀에서 진단용으로만 사용합니다.
   
@@ -68,16 +66,14 @@ Exchange Online Protection에서 인바운드 전자 메일 메시지를 검사 
 |PCL|메시지의 PCL (피싱 신뢰 수준)으로, 피싱 메시지 인지 여부를 나타냅니다. 이 상태는 다음 숫자 값 중 하나로 반환 될 수 있습니다. <br/>• **0-3**: 메시지의 콘텐츠가 피싱 일 가능성이 없습니다. <br/>• **4-8**: 메시지의 콘텐츠가 피싱 일 가능성이 있습니다. <br/>• **-9990**: (Exchange Online Protection만 해당) 메시지의 콘텐츠가 피싱 일 가능성이 있습니다.  <br/>  값은 전자 메일 클라이언트가 메시지에 대해 수행 하는 작업을 확인 하는 데 사용 됩니다. 예를 들어 Outlook에서는 PCL 스탬프를 사용 하 여 의심 스러운 메시지의 콘텐츠를 차단 합니다. 피싱에 대 한 자세한 내용과 Outlook에서 피싱 메시지를 처리 하는 방법에 대 한 자세한 내용은 [전자 메일 메시지에서 링크 설정 또는 해제](https://support.office.com/article/2D79B907-93B6-4774-82E6-1F0385CF20F8)를 참조 하세요.|
    
 ## <a name="authentication-results-message-header"></a>인증-결과 메시지 헤더
-<a name="sectionSection2"> </a>
 
 메일 서버에서 전자 메일 메시지를 받을 때 SPF, dkim 및 DMARC에 대 한 검사 결과는 **인증 결과** 메시지 헤더의 Office 365에 의해 기록 되거나 스탬프 처리 됩니다.
   
 ### <a name="check-stamp-syntax-and-examples"></a>검사 스탬프 구문 및 예
-<a name="referenceSPFstamp"> </a>
 
 다음 구문 예에서는 메일 서버에서 받은 전자 메일 인증 검사를 수행 하는 각 전자 메일에 대해 Office 365에서 메시지 헤더에 적용 되는 "스탬프" 텍스트 부분을 보여 줍니다. 스탬프가 **인증 결과** 헤더에 추가 됩니다.
   
- **구문: SPF 검사 스탬프**
+**구문: SPF 검사 스탬프**
   
 SPF의 경우 다음 구문이 적용 됩니다.
   
@@ -85,14 +81,14 @@ SPF의 경우 다음 구문이 적용 됩니다.
 spf=<pass (IP address)|fail (IP address)|softfail (reason)|neutral|none|temperror|permerror> smtp.mailfrom=<domain>
 ```
 
- **예: SPF 체크 스탬프**
+**예: SPF 체크 스탬프**
   
 ```
 spf=pass (sender IP is 192.168.0.1) smtp.mailfrom=contoso.com
 spf=fail (sender IP is 127.0.0.1) smtp.mailfrom=contoso.com
 ```
 
- **구문: dkim 검사 스탬프**
+**구문: dkim 검사 스탬프**
   
 dkim의 경우 다음 구문이 적용 됩니다.
   
@@ -100,14 +96,14 @@ dkim의 경우 다음 구문이 적용 됩니다.
 dkim=<pass|fail (reason)|none> header.d=<domain>
 ```
 
- **예: dkim 검사 스탬프**
+**예: dkim 검사 스탬프**
   
 ```
 dkim=pass (signature was verified) header.d=contoso.com
 dkim=fail (body hash did not verify) header.d=contoso.com
 ```
 
- **구문: DMARC 검사 스탬프**
+**구문: DMARC 검사 스탬프**
   
 DMARC의 경우 다음 구문이 적용 됩니다.
   
@@ -115,7 +111,7 @@ DMARC의 경우 다음 구문이 적용 됩니다.
 dmarc=<pass|fail|bestguesspass|none> action=<permerror|temperror|oreject|pct.quarantine|pct.reject> header.from=<domain>
 ```
 
- **예: DMARC check 스탬프**
+**예: DMARC check 스탬프**
   
 ```
 dmarc=pass action=none header.from=contoso.com
@@ -125,7 +121,6 @@ dmarc=fail action=oreject header.from=contoso.com
 ```
 
 ### <a name="authentication-results-message-header-fields-used-by-office-365-email-authentication"></a>인증-Office 365 전자 메일 인증에서 사용 되는 결과 메시지 헤더 필드
-<a name="referenceSPFstamp"> </a>
 
 이 표에서는 각 전자 메일 인증 확인에 사용할 수 있는 필드 및 값을 설명 합니다.
   

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대해 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xn 채팅 이라고 함).
-ms.openlocfilehash: 148a5766342fcdd52e0505a59729cad3d2993908
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: b277557285df6944217b493bf0c5a11759f9d76b
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296701"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935233"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색
 
@@ -32,7 +32,7 @@ ms.locfileid: "30296701"
     
 - 온-프레미스 사용자를 위한 클라우드 기반 사서함은 팀 채팅 데이터를 저장 하는 경우에만 사용 됩니다. 온-프레미스 사용자가 클라우드 기반 사서함에 로그인 하거나 어떤 방식으로든 액세스를 수행할 수 없습니다. 전자 메일 메시지를 보내거나 받는 데 사용할 수 없습니다. 
     
-- 조직에서 온-프레미스 사용자의 클라우드 기반 사서함에서 팀 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원 요청을 제출 해야 합니다. 이 문서의 [ &amp; 보안 준수 센터에서이 기능을 사용 하도록 설정 하려면 Microsoft Support에 대 한 요청 관리를](#filing-a-request-with-microsoft-support-to-enable-this-feature-in-the-security-amp-compliance-center) 참조 하세요. 
+- 조직에서 온-프레미스 사용자의 클라우드 기반 사서함에서 팀 채팅 데이터를 검색할 수 있도록 하려면 Microsoft 지원 요청을 제출 해야 합니다. 이 문서에서 [이 기능을 사용 하도록 설정 하려면 Microsoft Support에 대 한 요청 관리를](#filing-a-request-with-microsoft-support-to-enable-this-feature) 참조 하세요. 
     
  **참고:** 팀 채널 대화는 항상 팀과 연결 된 클라우드 기반 사서함에 저장 됩니다. 즉, 지원 요청을 파일 하지 않고도 콘텐츠 검색을 통해 채널 대화를 검색할 수 있습니다. 팀 채널 대화 검색에 대 한 자세한 내용은 [Microsoft 팀 및 Office 365 그룹 검색](content-search.md#searching-microsoft-teams-and-office-365-groups)을 참조 하세요.
   
@@ -46,7 +46,7 @@ microsoft 팀 사용 가능 사용자에 게 온-프레미스 사서함이 있�
   
 이 새로운 기능 외에도, 콘텐츠 검색을 사용 하 여 클라우드 기반 SharePoint 사이트에서 팀 콘텐츠를 검색, 미리 보기 및 내보낼 수 있으며, 각 Microsoft 팀에 연결 된 exchange 사서함 및 exchange Online 사서함의 1xn 팀 채팅 데이터를 사용할 수도 있습니다. 클라우드 기반 사용자
 
-## <a name="filing-a-request-with-microsoft-support-to-enable-this-feature-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서이 기능을 사용 하도록 설정 하기 위해 Microsoft 지원 서비스에 대 한 요청을 파일링
+## <a name="filing-a-request-with-microsoft-support-to-enable-this-feature"></a>이 기능을 사용 하도록 설정 하기 위해 Microsoft 지원 서비스에 요청
 
 조직이 보안 &amp; 준수 센터의 그래픽 사용자 인터페이스를 사용 하 여 온-프레미스 사용자의 클라우드 기반 사서함에서 팀 채팅 데이터를 검색할 수 있도록 하려면 Microsoft Support에 대 한 요청을 파일 해야 합니다. 이 기능은 Office 365 보안 &amp; 및 준수 센터 PowerShell에서 사용할 수 있습니다. PowerShell을 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색 하기 위해 지원 요청을 제출할 필요는 없습니다. 
   
@@ -94,7 +94,7 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
     
     - **특정 위치** -이 옵션을 선택 하 고 **수정** \> 을 클릭 하 여 특정 사서함을 검색할 사용자, 그룹 또는 팀을 선택 합니다. 앞에서 설명한 것 처럼 위치 선택기를 통해 온-프레미스 사용자를 검색할 수 있습니다. 
     
-5. 검색을 저장 하 고 실행 합니다. 온-프레미스 사용자에 대 한 클라우드 기반 사서함의 모든 검색 결과를 다른 검색 결과와 같이 미리 볼 수 있습니다. 또한 팀 채팅 데이터를 포함 하 여 검색 결과를 PST 파일로 내보낼 수도 있습니다. 자세한 내용은 다음 항목을 참조 하십시오. 
+5. 검색을 저장 하 고 실행 합니다. 온-프레미스 사용자에 대 한 클라우드 기반 사서함의 모든 검색 결과를 다른 검색 결과와 같이 미리 볼 수 있습니다. 또한 팀 채팅 데이터를 포함 하 여 검색 결과를 PST 파일로 내보낼 수도 있습니다. 자세한 내용은 다음을 참조하세요. 
     
     - [새 검색 만들기](content-search.md#create-a-new-search)
     

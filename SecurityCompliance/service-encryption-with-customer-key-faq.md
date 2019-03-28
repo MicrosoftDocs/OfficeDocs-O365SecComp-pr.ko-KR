@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 ms.assetid: 41ae293a-bd5c-4083-acd8-e1a2b4329da6
 description: office 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도록 설정 되는 초기 볼륨 수준 암호화와 함께 Exchange의 데이터를 포함 하 여 office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에 추가 된 암호화 계층을 제공 합니다. 온라인, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive 이를 서비스 암호화 라고 합니다.
-ms.openlocfilehash: a9001db0f63183bf4694dfc880ab0940309d0375
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5e1acca69ccdd8acb986acb4d7a302d4ca3fbe8a
+ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216508"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936768"
 ---
 # <a name="service-encryption-with-customer-key-for-office-365-faq"></a>Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문
 
 office 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도록 설정 되는 초기 볼륨 수준 암호화와 함께 Exchange의 데이터를 포함 하 여 office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에 추가 된 암호화 계층을 제공 합니다. 온라인, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive 이를 서비스 암호화 라고 합니다.
   
-고객 키는 서비스 암호화를 기반으로 하며, [OST (온라인 서비스 약관)](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx)에 설명 된 대로 Office 365에서 휴지 상태의 데이터를 암호화 하는 데 사용 되는 키를 제공 하 고 제어할 수 있습니다. 고객 키는 Office 365에서 데이터 암호를 해독 하는 데 사용 하는 암호화 키를 제어 하므로 준수 의무를 달성 하는 데 도움이 됩니다.
+고객 키는 서비스 암호화를 기반으로 하며, [OST (온라인 서비스 약관)](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx)에 설명 된 대로 Office 365에서 휴지 상태의 데이터를 암호화 하는 데 사용 되는 키를 제공 하 고 제어할 수 있습니다. 고객 키를 사용하면 Office 365가 데이터의 암호를 해독하는 데 사용하는 암호화 키를 제어하므로 준수 의무를 이행할 수 있습니다.
   
 설명서를 포함 하 여 고객 키에 대 한 의견을 제공 하려면 아이디어, 제안 사항 및 전망을 customerkeyfeedback@microsoft.com으로 전송 합니다.
   
@@ -84,7 +84,7 @@ Office 365 메시지 암호화 기능에서는 Exchange Online에 대 한 Azure 
 ## <a name="can-i-assign-a-data-encryption-policy-before-migrating-a-mailbox-to-the-cloud"></a>사서함을 클라우드로 마이그레이션하기 전에 데이터 암호화 정책을 할당할 수 있나요?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
 
-예로. Windows PowerShell cmdlet 설정-mailuser를 사용 하 여 사서함을 Office 365로 마이그레이션하기 전에 사용자에 게 DEP (데이터 암호화 정책)를 할당할 수 있습니다. 이렇게 하면 콘텐츠가 마이그레이션될 때 할당 된 DEP를 사용 하 여 사서함의 내용이 암호화 됩니다. 이 방법을 사용 하면 사서함이 이미 마이그레이션된 후에 DEP를 할당 하는 것 보다 더 효율적으로 수행할 수 있으며,이 경우 암호화가 수행 되기를 기다린 후 시간이 나 일이 걸릴 수 있습니다. 
+예. Windows PowerShell cmdlet 설정-mailuser를 사용 하 여 사서함을 Office 365로 마이그레이션하기 전에 사용자에 게 DEP (데이터 암호화 정책)를 할당할 수 있습니다. 이렇게 하면 콘텐츠가 마이그레이션될 때 할당 된 DEP를 사용 하 여 사서함의 내용이 암호화 됩니다. 이 방법을 사용 하면 사서함이 이미 마이그레이션된 후에 DEP를 할당 하는 것 보다 더 효율적으로 수행할 수 있으며,이 경우 암호화가 수행 되기를 기다린 후 시간이 나 일이 걸릴 수 있습니다. 
   
 ## <a name="how-do-i-verify-that-encryption-with-customer-key-is-activated-and-office-365-has-finished-encrypting-with-customer-key"></a>고객 키를 사용한 암호화가 정품 인증 되 고 Office 365에서 고객 키 암호화가 완료 되었는지 확인 하는 방법은 무엇 인가요?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
@@ -142,7 +142,7 @@ Office 365에서는 가용성 키를 사용 하 여 서비스 가용성과 Excha
   
 ![](media/a760156b-737f-469a-80ab-c28b7a8b9160.png)
   
-단일 DEP (데이터 암호화 정책)의 Azure 키 보관소 키를 모두 사용할 수 없으면 office 365에서 가용성 키를 사용 하 여 새 DEP로 변경할 수 있습니다. office 365은에 따라 사용자 시작 활동 (예: 사용자가 Outlook 클라이언트에 전자 메일을 다운로드 하거나, 인덱싱 사서함 내용과 같은 시스템 시작 활동 또는 eDiscovery 검색에 대해 프로세스를 트리거한 경우)
+단일 DEP (데이터 암호화 정책)의 Azure 키 보관소 키를 모두 사용할 수 없으면 Office 365에서 가용성 키를 사용 하 여 새 dep로 변경할 수 있습니다. Office 365에서는 사용자가 시작한 활동 (예: 사용자가 Outlook 클라이언트에 전자 메일을 다운로드 하는 경우)이 든, 인덱싱 등의 시스템 시작 활동에 따라 서비스 가용성을 위해 가용성 키를 사용할지 여부를 결정 합니다. 사서함 콘텐츠 또는 eDiscovery 검색에 대해 프로세스를 트리거 했습니다.
   
 사용자 사서함에 대 한 가용성 키를 사용할지 여부를 결정 하기 위해 사용자가 시작한 작업에 대 한 응답으로 Office 365에서이 프로세스를 팔 로우 합니다.
   

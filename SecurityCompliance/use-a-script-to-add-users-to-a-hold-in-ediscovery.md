@@ -14,12 +14,12 @@ search.appverid:
 - MBS150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: 스크립트를 실행 하 여 Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례와 연결 된 새 보류에 사서함 및 비즈니스용 OneDrive 사이트를 빠르게 추가 합니다.
-ms.openlocfilehash: b9d34f4576299dccf0f751c7f204639b5a770b32
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f71c82a830f029f8137a60d8329e30be0e7eeb46
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214288"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935243"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-office-365-security-amp-compliance-center"></a>스크립트를 사용 하 여 Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례의 보류에 사용자 추가
 
@@ -29,7 +29,7 @@ Office 365 보안 &amp; 및 준수 센터는 eDiscovery 사례를 만들고 관�
   
 이 작업을 수행 하는 단계는 다음과 같습니다.
   
-[1단계: SharePoint Online 관리 셸 설치](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step1)
+[1단계: SharePoint Online 관리 셸 설치](#step-1-install-the-sharepoint-online-management-shell)
   
 [2 단계: 사용자 목록 생성](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step2)
   

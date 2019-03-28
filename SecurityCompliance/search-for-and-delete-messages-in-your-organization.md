@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office 365 보안 &amp; 및 준수 센터의 검색 및 제거 기능을 사용 하 여 조직의 모든 사서함에서 전자 메일 메시지를 검색 하 고 삭제 합니다.
-ms.openlocfilehash: 15d67e42e4bdc63838f7ec1701d643391fa5c552
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 4c98e73f74867b933560f163e80e74fd7bbd2bc5
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935163"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Office 365 조 직에서 전자 메일 메시지 검색 및 삭제-관리자 도움말
 
 **이 문서는 관리자를 위한 것입니다. 삭제 하려는 사서함의 항목을 찾으려고 하나요? [빠른 검색을 사용 하 여 메시지 또는 항목 찾기](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d) 참조**|
    
-Office 365의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서함에서 전자 메일 메시지를 검색 하 고 삭제할 수 있습니다. 이를 통해 다음과 같은 잠재적으로 유해 하거나 위험성이 높은 전자 메일을 찾고 제거할 수 있습니다.
+Office 365의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서함에서 전자 메일 메시지를 검색 하 고 삭제할 수 있습니다. 이 방법은 다음과 같이 유해할 수 있거나 위험성이 높은 전자 메일을 제거하는 데 도움이 됩니다.
   
 - 위험한 첨부 파일 또는 바이러스를 포함 하는 메시지
     
@@ -41,9 +41,9 @@ Office 365의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서�
 
 - 콘텐츠 검색을 만들고 실행 하려면 **eDiscovery 관리자** 역할 그룹의 구성원 이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제 하려면 **조직 관리** 역할 그룹의 구성원 이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
     
-- 메시지를 삭제 하려면 Security & 준수 센터 PowerShell을 사용 해야 합니다. 연결 방법에 대 한 지침은 [2 단계](#step-2-connect-to-security-amp-compliance-center-powershell) 를 참조 하십시오.
+- 메시지를 삭제 하려면 Security & 준수 센터 PowerShell을 사용 해야 합니다. 연결 방법에 대 한 지침은 [2 단계](#step-2-connect-to-security--compliance-center-powershell) 를 참조 하십시오.
     
-- 한 번에 최대 10 개의 항목을 제거할 수 있습니다. 메시지를 검색 하 고 제거 하는 기능은 인시던트 응답 도구인 것 이므로이 제한을 통해 메시지를 사서함에서 빠르게 제거할 수 있습니다. 이 기능은 사용자 사서함을 정리 하기 위한 것이 아닙니다. 10 개 보다 많은 항목을 삭제 하려면 Exchange Online PowerShell에서 **검색-DeleteContent** 명령을 사용 하면 됩니다. [메시지 검색 및 삭제-관리자 도움말](search-for-and-delete-messagesadmin-help.md)을 참조 하세요.
+- 한 번에 최대 10 개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 기능이 아닙니다. 10 개 보다 많은 항목을 삭제 하려면 Exchange Online PowerShell에서 **검색-DeleteContent** 명령을 사용 하면 됩니다. [메시지 검색 및 삭제-관리자 도움말](search-for-and-delete-messagesadmin-help.md)을 참조 하세요.
     
 - 검색 및 삭제 작업을 수행 하 여 항목을 삭제할 수 있는 콘텐츠 검색의 최대 사서함 수는 5만입니다. [1 단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 콘텐츠 검색에 원본 사서함이 5만 개 보다 많은 경우에는 제거 작업 (3 단계에서 생성)이 실패 합니다. 5만 개 이상의 사서함에서 검색 및 제거 작업을 수행 하는 방법에 대 한 [자세한 내용은 추가 정보](#more-information) 섹션을 참조 하십시오. 
     
@@ -51,7 +51,7 @@ Office 365의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서�
     
 ## <a name="step-1-create-a-content-search-to-find-the-message-to-delete"></a>1단계: 삭제할 메시지를 찾는 콘텐츠 검색 만들기
 
-첫 번째 단계는 콘텐츠 검색을 만들고 실행 하 여 조직의 사서함에서 제거 하려는 메시지를 찾는 것입니다. 보안 &amp; 및 준수 센터를 사용 하거나 **ComplianceSearch** 및 **ComplianceSearch** cmdlet을 실행 하 여 검색을 만들 수 있습니다. 이 검색의 쿼리와 일치 하는 메시지는 [3 단계](#step-3-delete-the-message)에서 **new-compliancesearchaction 새로 만들기** 명령을 실행 하 여 삭제 됩니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성 하는 방법에 대 한 자세한 내용은 다음 항목을 참조 하십시오. 
+첫 번째 단계는 조직의 사서함에서 제거하려는 메시지를 찾는 콘텐츠 검색을 만들어 실행하는 것입니다. 보안 &amp; 및 준수 센터를 사용 하거나 **ComplianceSearch** 및 **ComplianceSearch** cmdlet을 실행 하 여 검색을 만들 수 있습니다. 이 검색의 쿼리와 일치 하는 메시지는 [3 단계](#step-3-delete-the-message)에서 **new-compliancesearchaction 새로 만들기** 명령을 실행 하 여 삭제 됩니다. 콘텐츠 검색을 만들고 검색 쿼리를 구성하는 방법에 대한 내용은 다음 항목을 참조하세요. 
   
 - [Office 365의 콘텐츠 검색](content-search.md)
     
@@ -122,7 +122,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 - **검색 및 제거 작업의 상태를 확인 하려면 어떻게 해야 합니까?**
 
-    **new-compliancesearchaction** 를 실행 하 여 삭제 작업의 상태를 가져옵니다. **new-compliancesearchaction** cmdlet을 실행할 때 만들어지는 개체는 다음 `<name of Content Search>_Purge`형식을 사용 하 여 이름이 지정 됩니다. 
+    **New-ComplianceSearchAction** cmdlet을 실행할 때 만들어진 개체 이름은 다음 형식을 사용하여 지정됩니다. **new-compliancesearchaction** cmdlet을 실행할 때 만들어지는 개체는 다음 `<name of Content Search>_Purge`형식을 사용 하 여 이름이 지정 됩니다. 
     
 - **메시지를 삭제 한 후에 수행 되는 작업**
 
@@ -140,8 +140,8 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
     
 - **원본 위치 유지 또는 소송 보존 상태에 있는 사서함에서 메시지를 삭제 했거나 Office 365 보관 정책에 할당 된 경우는 어떻게 되나요?**
 
-    메시지가 제거 된 후 제거 폴더로 이동 되 면 해당 메시지는 보존 기간이 만료 될 때까지 유지 됩니다. 보존 기간을 무제한으로 설정한 경우에는 보류가 제거 되거나 보존 기간이 변경 될 때까지 항목이 보존 됩니다.
+    메시지가 제거 된 후 제거 폴더로 이동 되 면 해당 메시지는 보존 기간이 만료 될 때까지 유지 됩니다. 보존 기간이 무제한인 경우 보존 설정이 제거되거나 보존 기간이 변경될 때까지 항목이 보존됩니다.
     
 - **서로 다른 보안 & 준수 센터 역할 그룹 간에 검색 및 제거 워크플로가 구분 되는 이유는 무엇 인가요?**
 
-    앞에서 설명한 것 처럼, 사용자가 eDiscovery 관리자 역할 그룹의 구성원 이거나 검색 사서함에 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제 하려면 사용자가 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 받아야 합니다. 이를 통해 조직의 사서함을 검색 하 고 메시지를 삭제할 수 있는 사람을 제어할 수 있습니다. 
+    앞서 설명한 것처럼 사서함을 검색하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할이 할당되어야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 이렇게 하면 조직에서 사서함을 검색할 수 있는 사람과 메시지를 삭제할 수 있는 사람을 제어할 수 있습니다. 

@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 651d3f5953f0a6864259ed3a0c8ecde79f40d631
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 2c140ef476b5fe19ef3655b062a3f197d36222e7
+ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217118"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936788"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -116,11 +116,11 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 �
   
 ## <a name="are-onedrive-for-business-attachments-supported"></a>비즈니스용 OneDrive 첨부 파일이 지원 됩니까?
 
-아직 아니에요. 비즈니스용 onedrive 첨부 파일이 지원 되지 않으며 최종 사용자가 비즈니스용 onedrive 첨부 파일을 포함 하는 메일을 암호화할 수 없습니다.
+Not yet. 비즈니스용 onedrive 첨부 파일이 지원 되지 않으며 최종 사용자가 비즈니스용 onedrive 첨부 파일을 포함 하는 메일을 암호화할 수 없습니다.
   
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>정책을 설정 하 여 메시지를 자동으로 암호화할 수 있습니까?
 
-예로. Exchange Online의 메일 흐름 규칙을 사용 하 여 특정 조건에 따라 메시지를 자동으로 암호화 합니다. 예를 들어 받는 사람 ID, 받는 사람 도메인을 기반으로 하거나 메시지의 본문 또는 제목에 있는 콘텐츠를 사용 하 여 정책을 만들 수 있습니다. [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의를](define-mail-flow-rules-to-encrypt-email.md) 참조 하세요.
+예. Exchange Online의 메일 흐름 규칙을 사용 하 여 특정 조건에 따라 메시지를 자동으로 암호화 합니다. 예를 들어 받는 사람 ID, 받는 사람 도메인을 기반으로 하거나 메시지의 본문 또는 제목에 있는 콘텐츠를 사용 하 여 정책을 만들 수 있습니다. [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의를](define-mail-flow-rules-to-encrypt-email.md) 참조 하세요.
   
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies-in-data-loss-prevention-dlp-through-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터를 통해 DLP (데이터 손실 방지)에서 정책을 설정 하 여 메시지를 자동으로 암호화할 수 있습니까?
 
@@ -140,6 +140,6 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 �
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>eDiscovery와 같은 규정 준수 기능을 사용 하 여 메시지 암호화를 사용할 수 있나요?
 
-예로. 모든 암호화 된 전자 메일 메시지는 Office 365 규정 준수 기능을 통해 검색할 수 있습니다.
+예. 모든 암호화 된 전자 메일 메시지는 Office 365 규정 준수 기능을 통해 검색할 수 있습니다.
   
 

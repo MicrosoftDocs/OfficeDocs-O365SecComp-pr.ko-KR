@@ -14,18 +14,18 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: 동일한 메시지의 여러 인스턴스가 서로 다른 사서함에서 발견 된 경우에도 전자 메일 메시지의 복사본 하나만 내보내도록 내보내기 위해 내보낸 eDiscovery 검색 결과를 복제 해제 하는 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: f61c9e3caf7de3560a03f2b720822162ea98486d
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 7a4f156a68cafbffbb416c625e1e3ba432e6b069
+ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296661"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30936728"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 
 이 문서에서는 eDiscovery 검색 결과의 중복 제거 방법에 대해 설명 하 고 중복 제거 알고리즘의 제한에 대해 설명 합니다.
   
-Office 365 ediscovery 도구를 사용 하 여 ediscovery 검색의 결과를 내보낼 때 내보내는 결과를 복제 하지 않도록 선택할 수 있습니다. 이는 무엇을 의미 하나요? 중복 제거를 사용 하도록 설정 하는 경우 (기본적으로 중복 제거를 사용 하지 않도록 설정), 검색 된 사서함에서 같은 메시지의 여러 인스턴스를 발견 한 경우에도 전자 메일 메시지의 복사본을 하나만 내보낼 수 있습니다. 비 복제는 검색 결과를 내보낸 후 검토 하 고 분석 해야 하는 항목 수를 줄임으로써 시간을 절약 하는 데 도움이 됩니다. 그러나 중복 연결이 해제 되는 방식을 이해 하는 것이 중요 하며, 내보내기 프로세스 중에 고유한 항목을 중복으로 표시할 수 있는 알고리즘에 제한이 있다는 점에 유의 해야 합니다.
+Office 365 ediscovery 도구를 사용 하 여 ediscovery 검색의 결과를 내보낼 때 내보내는 결과를 복제 하지 않도록 선택할 수 있습니다. 시나리오 중복 제거를 사용 하도록 설정 하는 경우 (기본적으로 중복 제거를 사용 하지 않도록 설정), 검색 된 사서함에서 같은 메시지의 여러 인스턴스를 발견 한 경우에도 전자 메일 메시지의 복사본을 하나만 내보낼 수 있습니다. 비 복제는 검색 결과를 내보낸 후 검토 하 고 분석 해야 하는 항목 수를 줄임으로써 시간을 절약 하는 데 도움이 됩니다. 그러나 중복 연결이 해제 되는 방식을 이해 하는 것이 중요 하며, 내보내기 프로세스 중에 고유한 항목을 중복으로 표시할 수 있는 알고리즘에 제한이 있다는 점에 유의 해야 합니다.
   
 ## <a name="how-duplicate-messages-are-identified"></a>중복 메시지를 식별 하는 방법
 
