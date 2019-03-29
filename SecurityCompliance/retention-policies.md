@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하면 콘텐츠를 보존할지, 삭제할지, 아니면 보존했다가 삭제할지, 단일 정책을 전체 조직에 적용할지 아니면 특정 위치나 사용자에게 적용할지, 정책을 모든 콘텐츠에 적용할지 아니면 특정 조건에 부합되는 콘텐츠에만 적용할지 등을 자동으로 결정할 수 있습니다.
-ms.openlocfilehash: 82125d13adfb42706a44feeaca3dfb85e06163f6
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: b07adf61f63e683de4f5868c227741dc957ffd68
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455450"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935303"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -244,7 +244,7 @@ Teams의 보존 기능에 대한 작업이 진행 중이며 추가 기능이 제
     
 - **Teams는 조직 전체 정책에 포함되지 않음** Teams에는 별도 보존 정책 필요하므로 조직 전체 정책을 만들어도 여기에 포함되지 않습니다. 
     
-- **Teams는 고급 보존을 지원하지 않음** 보존 정책을 만들 때 [특정 조건을 충족하는 콘텐츠에만 정책을 적용하는 고급 설정](retention-policies.md#advanced)을 선택하면 Teams 위치를 사용할 수 없습니다.  이 경우 Teams의 보존 정책이 모든 채팅 및 채널 메시지 콘텐츠에 적용됩니다.
+- **Teams는 고급 보존을 지원하지 않음** 보존 정책을 만들 때 [특정 조건을 충족하는 콘텐츠에만 정책을 적용하는 고급 설정](#advanced-settings-that-apply-a-policy-only-to-content-that-meets-certain-conditions)을 선택하면 Teams 위치를 사용할 수 없습니다.  이 경우 Teams의 보존 정책이 모든 채팅 및 채널 메시지 콘텐츠에 적용됩니다.
     
 - **30일 이전의 Teams 콘텐츠만 삭제할 수 있음** 현재, 30일보다 오래되지 않은 Teams 콘텐츠를 삭제하는 정책을 만드는 것은 지원되지 않습니다. 이 정책을 Teams 콘텐츠에 적용하려는 경우 30일보다 크거나 같은 보존 기간을 지정합니다. 
     
@@ -252,7 +252,7 @@ Teams의 보존 기능에 대한 작업이 진행 중이며 추가 기능이 제
     
 팀에서 채팅 시 공유된 파일이 파일을 공유한 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 팀용 SharePoint 사이트에 저장됩니다. 따라서 Teams에서 파일을 보존하거나 삭제하려면 SharePoint 및 OneDrive 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 팀의 파일에만 정책을 적용하려는 경우 팀용 SharePoint 사이트와 팀에 포함된 사용자의 OneDrive 계정을 선택할 수 있습니다.
   
-Teams에 적용되는 보존 정책은 [유지 잠금](retention-policies.md#locking)을 사용할 수 있습니다.
+Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-policy)을 사용할 수 있습니다.
   
 ![채팅 및 채널 메시지에 대한 Teams 위치](media/127345da-e802-4b3a-afc7-6e354dc3f409.png)
   
