@@ -3,7 +3,7 @@ title: 문서 지문
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/17/2014
+ms.date: ''
 ms.audience: ITPro
 ms.topic: article
 search.appverid: MET150
@@ -11,12 +11,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: a90cb0c7fdfe5e350c9d97adb9a8f357f526742a
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: bf28d1d901598337a5c9c18d80590b136c539d26
+ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30638995"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30866354"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
@@ -78,7 +78,7 @@ $Employee_Fingerprint = New-DlpFingerprint -FileData $Employee_Template -Descrip
 C:\My Documents\Contoso Customer Information Form.docx 파일의 문서 지문을 사용하는 "Contoso Employee Confidential"이라는 새 데이터 분류 규칙을 만들어 보겠습니다.
   
 ```
-$Employee_Template = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
+$Customer_Form = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
 $Customer_Fingerprint = New-DlpFingerprint -FileData $Customer_Form -Description "Contoso Customer Information Form"
 New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerprints $Customer_Fingerprint -Description "Message contains Contoso customer information." 
 ```

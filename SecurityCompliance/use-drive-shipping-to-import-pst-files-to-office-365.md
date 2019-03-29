@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: '관리자: pst 파일을 하드 드라이브에 복사한 다음 Microsoft로 발송 하 여 조직의 pst 파일을 Office 365 사서함으로 대량 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 9c1cbe17fd1c6e20b0df3bc295da527fa6af6c42
-ms.sourcegitcommit: 03054baf50c1dd5cd9ca6a9bd5d056f3db98f964
+ms.openlocfilehash: e6623e4b5a66b9c2e8eeb2cfe6c978115b6fdc9f
+ms.sourcegitcommit: fb50bf2f2c9d780c911f245a2f78c6bb5e357f67
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30354750"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950475"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>드라이브 전달을 사용 하 여 조직 PST 파일을 Office 365로 가져오기
 
@@ -86,16 +86,16 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
     
 - Microsoft로 하드 드라이브를 발송하기 위해 국경을 통과해야 할 수 있습니다. 이러한 경우 하드 드라이브와 포함된 데이터를 관련 법률에 따라 수출 및/또는 수입해야 합니다. 하드 드라이브를 발송하기 전에 드라이브 및 데이터가 확인된 Microsoft 데이터 센터에 합법적으로 발송될 수 있는지를 관리자에게 문의하세요. 그래야 하드 드라이브가 적시에 Microsoft로 발송될 수 있습니다.
     
-- 이 절차 중에 보안 저장소 키와 BitLocker 암호화 키가 복사되고 저장됩니다. 암호나 기타 보안 관련 정보를 보호하는 것처럼 특히 주의해서 이러한 키를 보호해야 합니다. 예를 들어 암호로 보호된 Microsoft Word 문서에 저장하거나 암호화된 USB 드라이브에 저장할 수 있습니다. 이러한 키의 예는 [추가 정보](use-drive-shipping-to-import-pst-files-to-office-365.md#moreinfo) 섹션을 참조 하십시오. 
+- 이 절차 중에 보안 저장소 키와 BitLocker 암호화 키가 복사되고 저장됩니다. 암호나 기타 보안 관련 정보를 보호하는 것처럼 특히 주의해서 이러한 키를 보호해야 합니다. 예를 들어 암호로 보호된 Microsoft Word 문서에 저장하거나 암호화된 USB 드라이브에 저장할 수 있습니다. 이러한 키의 예는 [추가 정보](#more-information) 섹션을 참조 하십시오. 
     
-- PST 파일을 Office 365 사서함으로 가져온 후에는 사서함에 대 한 보존 설정이 무기한 유지 되도록 설정 됩니다. 즉, 보존 보류를 해제 하거나 보류를 해제 하기 위해 날짜를 설정할 때까지 사서함에 할당 된 보존 정책이 처리 되지 않습니다. 이 작업을 수행 하는 이유는 무엇 인가요? 사서함으로 가져온 메시지가 오래 된 경우 사서함에 대해 구성 된 보존 설정에 따라 보존 기간이 만료 되어 영구적으로 삭제 (제거) 될 수 있습니다. 사서함을 보존 상태로 두면 사서함 소유자가 새로 가져온 메시지를 관리할 수 있는 시간을 제공 하거나 사서함의 보존 설정을 변경할 수 있는 시간을 제공 합니다. 보존 유지 관리에 대 한 제안은 [More information](use-drive-shipping-to-import-pst-files-to-office-365.md#moreinfo) 섹션을 참조 하세요. 
+- PST 파일을 Office 365 사서함으로 가져온 후에는 사서함에 대 한 보존 설정이 무기한 유지 되도록 설정 됩니다. 즉, 보존 보류를 해제 하거나 보류를 해제 하기 위해 날짜를 설정할 때까지 사서함에 할당 된 보존 정책이 처리 되지 않습니다. 이 작업을 수행 하는 이유는 무엇 인가요? 사서함으로 가져온 메시지가 오래 된 경우 사서함에 대해 구성 된 보존 설정에 따라 보존 기간이 만료 되어 영구적으로 삭제 (제거) 될 수 있습니다. 사서함을 보존 상태로 두면 사서함 소유자가 새로 가져온 메시지를 관리할 수 있는 시간을 제공 하거나 사서함의 보존 설정을 변경할 수 있는 시간을 제공 합니다. 보존 유지 관리에 대 한 제안은 [More information](#more-information) 섹션을 참조 하세요. 
     
 - 기본적으로 Office 365 사서함에서 받을 수 있는 최대 메시지 크기는 35 MB입니다. 사서함에 대 한 *MaxReceiveSize* 속성의 기본값은 35 MB로 설정 되어 있기 때문입니다. 그러나 Office 365의 최대 메시지 수신 크기 제한은 150 MB입니다. 따라서 35 보다 큰 항목을 포함 하는 PST 파일을 가져올 경우 Office 365 가져오기 서비스는 대상 사서함의 *MaxReceiveSize* 속성 값을 150 mb로 자동 변경 합니다. 이를 통해 최대 150 MB까지 메시지를 사용자 사서함으로 가져올 수 있습니다. 
     
     > [!TIP]
     > 사서함에 대 한 메시지 수신 크기를 확인 하려면 Exchange Online PowerShell에서이 명령을 실행 하면 `Get-Mailbox <user mailbox> | FL MaxReceiveSize`됩니다. 
   
-- PST 파일을 Office 365의 비활성 사서함으로 가져올 수 있습니다. PST 가져오기 매핑 파일의 `Mailbox` 매개 변수에 비활성 사서함의 GUID를 지정 하 여이 작업을 수행 합니다. 자세한 내용은 [3 단계: PST 가져오기 매핑 파일 만들기를](use-drive-shipping-to-import-pst-files-to-office-365.md#step3) 참조 하세요. 
+- PST 파일을 Office 365의 비활성 사서함으로 가져올 수 있습니다. PST 가져오기 매핑 파일의 `Mailbox` 매개 변수에 비활성 사서함의 GUID를 지정 하 여이 작업을 수행 합니다. 자세한 내용은 [3 단계: PST 가져오기 매핑 파일 만들기를](#step-3-create-the-pst-import-mapping-file) 참조 하세요. 
     
 - Exchange 하이브리드 배포에서는 기본 사서함이 온-프레미스 인 사용자에 대해 PST 파일을 클라우드 기반 보관 사서함으로 가져올 수 있습니다. PST 가져오기 매핑 파일에서 다음을 수행 하 여이 작업을 수행 합니다.
     
@@ -103,7 +103,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
     
   - `IsArchive` 매개 변수에 **TRUE** 값을 지정 합니다. 
     
-    자세한 내용은 [3 단계: PST 가져오기 매핑 파일 만들기를](use-drive-shipping-to-import-pst-files-to-office-365.md#step3) 참조 하세요. 
+    자세한 내용은 [3 단계: PST 가져오기 매핑 파일 만들기를](#step-3-create-the-pst-import-mapping-file) 참조 하세요. 
 
 ## <a name="step-1-download-the-secure-storage-key-and-pst-import-tool"></a>1 단계: 보안 저장소 키 및 PST 가져오기 도구 다운로드
 
@@ -308,7 +308,7 @@ Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역�
 다음 단계에서는 하드 드라이브를 Microsoft에 배송 한 다음 드라이브 전달 작업에 대 한 배송 및 반품 발송 정보에 대 한 추적 번호를 제공 합니다. Microsoft에서 드라이브를 받은 후에는 데이터 센터 직원이 조직의 Azure storage 영역에 PST 파일을 업로드 하는 데 7 ~ 10 일이 걸립니다.
   
 > [!NOTE]
-> 가져오기 작업을 만들 때 14 일 이내에 추적 번호와 반품 정보를 입력 하지 않으면 가져오기 작업은 만료 됩니다. 이 경우에는 새 드라이브 전달 가져오기 작업 ( [Office 365에서 PST 가져오기 작업 만들기](use-drive-shipping-to-import-pst-files-to-office-365.md#step4)참조)을 만들고 드라이브 파일과 PST 가져오기 매핑 파일을 다시 제출 해야 합니다. 
+> 가져오기 작업을 만들 때 14 일 이내에 추적 번호와 반품 정보를 입력 하지 않으면 가져오기 작업은 만료 됩니다. 이 경우에는 새 드라이브 전달 가져오기 작업 ( [Office 365에서 PST 가져오기 작업 만들기](#step-4-create-a-pst-import-job-in-office-365)참조)을 만들고 드라이브 파일과 PST 가져오기 매핑 파일을 다시 제출 해야 합니다. 
   
 ### <a name="ship-the-hard-drive"></a>하드 드라이브 발송
 
@@ -502,7 +502,7 @@ azure 저장소 탐색기를 설치 하 고 azure storage 영역에 연결 하�
     
   - 일정 기간이 지난 후에는 `Set-Mailbox -RetentionHoldEnabled $false` 명령을 실행 하 여 보존 상태를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://go.microsoft.com/fwlink/p/?LinkId=544749)를 참조 하십시오.
     
-  - 나중에 특정 날짜에 해제 되도록 보존 기능을 구성할 수 있습니다. `Set-Mailbox -EndDateForRetentionHold <date>` 명령을 실행 하 여이 작업을 수행 합니다. 예를 들어, 오늘 날짜가 2016 년 7 월 1 일이 고 보존 기간을 30 일로 설정 하려면 다음 명령을 실행 합니다 `Set-Mailbox -EndDateForRetentionHold 8/1/2016`. 이 시나리오에서는 *RentionHoldEnabled* 속성을 *True* 로 설정 합니다. 자세한 내용은 [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317)를 참조 하십시오.
+  - 나중에 특정 날짜에 해제 되도록 보존 기능을 구성할 수 있습니다. `Set-Mailbox -EndDateForRetentionHold <date>` 명령을 실행 하 여이 작업을 수행 합니다. 예를 들어 오늘 날짜가 6 월 1 일, 30 일 이내에 보존을 해제 하려는 경우에는 다음 명령을 실행 합니다 `Set-Mailbox -EndDateForRetentionHold 7/1/2016`. 이 시나리오에서는 *RentionHoldEnabled* 속성을 *True*로 설정 합니다. 자세한 내용은 [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317)를 참조 하십시오.
     
   - 사서함에 할당 된 보존 정책의 설정을 변경 하 여 가져온 이전 항목을 즉시 삭제 하거나 사용자의 보관 사서함으로 이동할 수는 없습니다. 예를 들어 사서함에 할당 된 삭제 또는 보관 정책의 보존 기간을 늘릴 수 있습니다. 이 시나리오에서는 보존 정책 설정을 변경한 후 사서함에 대 한 보존을 해제 합니다. 자세한 내용은 [Office 365 조 직에서 사서함에 대 한 보관 및 삭제 정책 설정을](set-up-an-archive-and-deletion-policy-for-mailboxes.md)참조 하십시오.
     

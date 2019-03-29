@@ -15,12 +15,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Office 365 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
-ms.openlocfilehash: e372fe3c4cc10c4f96836db394fbccd2f180145a
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 88e71fe2db0ed9149ab84bb99e8b04910afdc265
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693667"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862460"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
@@ -33,11 +33,9 @@ ms.locfileid: "30693667"
 
 현재 다음과 같은 세 가지 유형의 공격 시뮬레이션이 제공 됩니다.
   
-- [표시 이름 스피어-피싱 공격](attack-simulator.md#spearphish)
-    
-- [암호 분무 공격](attack-simulator.md#passwordspray)
-    
-- [무작위 암호 공격](attack-simulator.md#bruteforce)
+- [표시 이름 스피어-피싱 공격](#display-name-spear-phishing-attack)
+- [암호 분무 공격](#password-spray-attack)
+- [무작위 암호 공격](#brute-force-password-attack)
     
 공격이 정상적으로 시작 되려면 시뮬레이트된 공격을 실행 하는 데 사용 하는 계정에 multi-factor authentication을 사용 합니다. 또한 Office 365 전역 관리자 여야 합니다.
   

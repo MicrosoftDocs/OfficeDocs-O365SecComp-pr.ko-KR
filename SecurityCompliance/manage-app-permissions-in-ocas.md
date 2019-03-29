@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: 2062c312-b1e4-4ce7-8cb2-ea39bc0dfdad
 description: office 365의 OAuth 앱-Cloud App Security는 사용자가 Office 365 데이터와 함께 사용할 수 있도록 다운로드 하는 앱을 관리 하는 데 도움이 됩니다.
-ms.openlocfilehash: 510cb64f2267c99b783f86a69f7b7a84db8d84dd
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 0d9916414d55abb73fd99eaf30c3b6df0648b191
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219828"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862590"
 ---
 # <a name="manage-oauth-apps-using-office-365-cloud-app-security"></a>Office 365 Cloud App Security를 사용하여 OAuth 앱 관리
 
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|
-|[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](manage-app-permissions-in-ocas.md#nextsteps) <br/> |
+|[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](#next-steps)<br/> |
    
 사용자가 자주 사용 하는 앱을 선호 하며, 특히 회사 또는 학교 정보를 쉽게 확인할 수 있도록 하 여 시간을 절약 하는 것이 좋습니다. 그러나 일부 앱은 액세스 하는 정보 및 해당 정보를 처리 하는 방법에 따라 조직에 보안 위험이 있을 수 있습니다. [Office 365 Cloud App Security](office-365-cas-overview.md)를 사용 하 여 전역 또는 보안 관리자 인 경우 조직에 대 한 OAuth 앱을 관리할 수 있습니다. 사용자가 Office 365 데이터와 함께 사용 하는 앱, 해당 앱에 포함 된 사용 권한 등을 확인할 수 있습니다. 
   
@@ -49,9 +49,9 @@ ms.locfileid: "30219828"
 |앱 쿼리 모음의 고급 아이콘  <br/> ![쿼리에 대 한 고급 쿼리 보기를 나타내는 아이콘](media/9958d832-2c81-45ed-a642-d926310ba6b6.png)|기본 보기로 전환 하려면이를 선택 합니다.  <br/> **고급**을 표시 하는 경우 기본 보기를 사용 하 고 있는 것입니다.  <br/> |
 |앱 목록에서 모든 세부 정보 아이콘 열기 또는 닫기  <br/> ![모든 앱에 대 한 모든 세부 정보를 열거나 닫으려면이 아이콘을 클릭 합니다.](media/018fa996-10e8-48ff-986e-55f2b69a5753.png)|각 앱에 대 한 세부 정보를 자세히 보거나 줄이려면이 아이콘을 선택 합니다.  <br/> |
 |앱 목록의 내보내기 아이콘  <br/> ![모든 앱의 csv 파일을 내보내려면이 아이콘을 클릭 합니다.](media/98446851-fd96-4d09-9bb0-831db33090c1.png)|앱 목록, 각 앱에 대 한 사용자 수, 앱, 사용 권한 수준, 앱 상태 및 커뮤니티 사용 수준에 연결 된 사용 권한을 포함 하는 CSV 파일을 내보내려면이 아이콘을 선택 합니다.  <br/> |
-|Name  <br/> |앱의 이름을 확인 하는 데 사용 합니다. 설명, 게시자, 앱 웹 사이트 및 앱 ID와 같은 추가 정보를 보려면 이름을 선택 합니다.  <br/> |
+|Name  <br/> |이를 사용 하 여 앱의 이름을 확인 합니다. 설명, 게시자, 앱 웹 사이트 및 앱 ID와 같은 추가 정보를 보려면 이름을 선택 합니다.  <br/> |
 |권한 부여 기준  <br/> |이 방법을 사용 하 여 Office 365 계정에 액세스 하기 위해 앱이 인증 된 사용자의 수를 확인할 수 있습니다. 사용자 계정 목록과 같은 자세한 정보를 보려면 번호를 선택 합니다.  <br/> |
-|사용 권한 수준  <br/> ![앱에 대 한 permisiions 수준을 나타내는 아이콘](media/aaebdd29-35b6-4c62-aef1-7c7817bd803d.png)|이를 통해 Office 365 데이터에 대 한 앱의 액세스 정도를 확인할 수 있습니다. 사용 권한 수준은 **낮음**, **중간**또는 **높음을**지정 하며, **** 이는 앱이 사용자의 프로필 및 이름에만 액세스 함을 나타낼 수 있습니다. 앱에 부여 된 사용 권한, 커뮤니티 사용 및 [거 버 넌 스 로그](suspend-or-restore-an-account-in-ocas.md)에서 관련 활동 등의 자세한 정보를 보려면 수준을 선택 합니다.<br/> |
+|사용 권한 수준  <br/> ![앱에 대 한 permisiions 수준을 나타내는 아이콘](media/aaebdd29-35b6-4c62-aef1-7c7817bd803d.png)|이를 통해 Office 365 데이터에 대 한 앱의 액세스 정도를 확인할 수 있습니다. 사용 권한 수준은 **낮음**, **중간**또는 **높음을**지정 하며, **** 이는 앱이 사용자의 프로필 및 이름에만 액세스 함을 나타낼 수 있습니다. 앱에 부여 된 사용 권한, 커뮤니티 사용 및 [거 버 넌 스 로그](suspend-or-restore-an-account-in-ocas.md)에서 관련 활동 등의 자세한 정보를 보려면 수준을 선택 합니다.  <br/> |
 |마지막 권한 <br/> |이 방법을 사용 하 여 OAuth 앱이 조직의 Office 365 데이터에 액세스 하기 위해 마지막으로 권한이 부여 된 날짜 및 시간을 확인할 수 있습니다. <br/>  |
 |동작<br/>![OAuth 앱](media/OCAS-OAuthAppApproveBanReport.png)<br/> |앱을 승인 되거나 금지 된 상태로 표시 하거나, Microsoft에 OAuth 앱을 보고 하거나, 지정 하지 않은 상태로 두려면이를 사용 합니다.  <br/> |
    
@@ -82,11 +82,11 @@ ms.locfileid: "30219828"
 
 2. 줄임표 (열)를 선택 하 고 **보고서 앱 ...** 을 선택 합니다.<br/>![OAuth 앱 보고](media/OCAS-MarkOAuthReported.png)<br/>
 
-3. **이 앱 보고서** 대화 상자에서 드롭다운 목록을 사용 하 여 관심 있는 사항을 표시 합니다. 기본적으로 **이 앱은 악성** 으로 선택 되어 있습니다. 그러나 사용할 수 있는 다른 옵션 중 하나를 선택할 수 있습니다.<br/>![OAuth 앱 보고](media/OCAS-ReportOAuthApp.png)<br/>
+3. **이 앱 보고서** 대화 상자에서 드롭다운 목록을 사용 하 여 관심 있는 사항을 표시 합니다. 기본적으로 **이 앱은 악성** 으로 선택 되어 있습니다. 그러나 사용할 수 있는 다른 옵션 중 하나를 선택할 수 있습니다. <br/>![OAuth 앱 보고](media/OCAS-ReportOAuthApp.png)<br/>
 
 4. 는 선택한 대화 상대에 게 옵션을 유지 하 고 나열 된 전자 메일 주소를 확인 하거나 편집 합니다.
 
-5. **Submit(전송)** 을 선택합니다. 
+5. Choose **Submit**. 
     
 ## <a name="create-an-app-query"></a>앱 쿼리 만들기
 

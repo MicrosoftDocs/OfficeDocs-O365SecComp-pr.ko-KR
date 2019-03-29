@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색 합니다. '
-ms.openlocfilehash: 31db6f7b56e1866064e7a008ce4fd704b5333347
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 255d53240d360557dc6ff1370c8112ceea676622
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223737"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935323"
 ---
 # <a name="run-a-content-search-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 실행
 
@@ -33,21 +33,21 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 - Office 365 그룹
     
-콘텐츠 검색은 확장 및 성능 기능이 새롭게 향상 된 새로운 eDiscovery 검색 도구입니다. 콘텐츠 검색을 사용 하 여 매우 큰 eDiscovery 검색을 실행 합니다. 단일 콘텐츠 검색에서 모든 사서함, 모든 Exchange 공용 폴더 및 모든 SharePoint Online 사이트 및 비즈니스용 OneDrive 계정을 검색할 수 있습니다. 검색할 수 있는 콘텐츠 위치의 수에는 제한이 없습니다. 또한 동시에 실행할 수 있는 검색 수에는 제한이 없습니다. 콘텐츠 검색을 실행 한 후 콘텐츠 위치 수와 예상 검색 결과 수가 **콘텐츠 검색** 페이지의 세부 정보 창에 표시 됩니다. 검색을 실행 한 후에는 결과를 미리 보고, 하나 이상의 검색에 대 한 키워드 통계를 얻고, 콘텐츠 검색을 대량으로 편집 하 고, 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 
+콘텐츠 검색은 확장 및 성능 기능이 새롭게 향상 된 새로운 eDiscovery 검색 도구입니다. 콘텐츠 검색을 사용하여 대규모 eDiscovery 검색을 실행할 수 있습니다. 단일 콘텐츠 검색에서 모든 사서함, 모든 Exchange 공용 폴더 및 모든 SharePoint Online 사이트 및 비즈니스용 OneDrive 계정을 검색할 수 있습니다. 검색할 수 있는 콘텐츠 위치의 수에는 제한이 없습니다. 동시에 실행할 수 있는 검색 수에도 제한이 없습니다. 콘텐츠 검색을 실행 한 후 콘텐츠 위치 수와 예상 검색 결과 수가 **콘텐츠 검색** 페이지의 세부 정보 창에 표시 됩니다. 검색을 실행 한 후에는 결과를 미리 보고, 하나 이상의 검색에 대 한 키워드 통계를 얻고, 콘텐츠 검색을 대량으로 편집 하 고, 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 
   
  **내용**
   
-[검색 만들기](run-a-content-search-in-the-security-and-compliance-center.md#create)
+[Create a search](run-a-content-search-in-the-security-and-compliance-center.md#create)
   
 [검색 결과 내보내기](run-a-content-search-in-the-security-and-compliance-center.md#export)
   
-[검색 결과 미리 보기](run-a-content-search-in-the-security-and-compliance-center.md#preview)
+[Preview search results](run-a-content-search-in-the-security-and-compliance-center.md#preview)
   
-[검색 결과 업데이트](run-a-content-search-in-the-security-and-compliance-center.md#restart)
+[Update search results](run-a-content-search-in-the-security-and-compliance-center.md#restart)
   
-[검색 편집](run-a-content-search-in-the-security-and-compliance-center.md#edit)
+[Edit a search](run-a-content-search-in-the-security-and-compliance-center.md#edit)
   
-[검색 다시 시도](run-a-content-search-in-the-security-and-compliance-center.md#retry)
+[Retry a search](run-a-content-search-in-the-security-and-compliance-center.md#retry)
   
 
   
@@ -57,7 +57,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 - 검색을 수행 하 고 결과를 미리 보고 내보낼 수 있도록 **콘텐츠 검색** 페이지에 액세스할 수 있도록 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 보안 &amp; 준수에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. 정렬. Exchange online, SharePoint online 또는 비즈니스용 OneDrive 사이트에서는 추가 검색 권한을 할당할 필요가 없습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하세요.
     
-- Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 하기 위해 콘텐츠 검색에 적용 되는 제한이 있습니다. 대부분의 경우 이러한 제한을 수정할 수는 없지만, 검색을 계획, 실행 및 문제 해결할 때 이러한 제한을 고려해 야 할 수 있습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
+- Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 하기 위해 콘텐츠 검색에 적용 되는 제한이 있습니다. 대부분의 경우 이러한 제한을 수정할 수 없지만 검색을 계획하고 실행하고 관련 문제를 해결할 때 이러한 제한을 고려할 수 있도록 잘 알고 있어야 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
     
 - 단일 콘텐츠 검색에서 검색 되는 사서함 수를 기준으로 예상 검색 시간에 대 한 섹션을 참조 하세요. 
     
@@ -71,7 +71,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 [Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
-## <a name="create-a-search"></a>검색 만들기
+## <a name="create-a-search"></a>Create a search
 <a name="create"> </a>
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
@@ -98,7 +98,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
     **사서함**
     
-  - 추가 아이콘](media/ITPro-EAC-AddIcon.gif) **추가**![를 클릭 하 여 검색할 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이는 성능 향상을 위해 설계 된 것입니다. 이 목록에 받는 사람을 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 하 고 검색 ****![검색 아이콘](media/5f6f9463-50e9-460b-8738-b67e759c2efc.gif)을 클릭 합니다.
+  - 추가 아이콘](media/ITPro-EAC-AddIcon.gif) **추가**![를 클릭 하 여 검색할 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 받는 사람을 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 하 고 검색 ****![검색 아이콘](media/5f6f9463-50e9-460b-8738-b67e759c2efc.gif)을 클릭 합니다.
     
   - 검색 대상 사서함 목록에 비활성 사서함 및 메일 그룹을 추가할 수 있습니다. 메일 그룹의 경우 그룹 구성원의 사서함이 검색 됩니다. 동적 메일 그룹은 지원 되지 않습니다.
     
@@ -126,7 +126,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
     ![키워드와 같은 검색 쿼리 만들기](media/1b7cf7b5-f1e1-471a-ad5c-48aad8435b00.png)
   
-1. **무엇을 확인**하 시겠습니까? 상자에 검색 쿼리를 입력 합니다. 키워드, 메시지 속성 (예: 보낸 날짜 및 수신 일자) 또는 문서 속성 (예: 파일 이름) 또는 문서를 마지막으로 변경한 날짜 등을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR**또는 **onear**와 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서에서 중요 한 정보 (예: 주민 등록 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. 키워드 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다. 
+1. **무엇을 검색하시겠습니까?** 아래의 상자에 검색 쿼리를 입력합니다. 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR**또는 **onear**와 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서에서 중요 한 정보 (예: 주민 등록 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. 키워드 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다. 
     
 2. **키워드 목록 표시** 확인란을 클릭 하 고 각 행에 키워드를 입력할 수 있습니다. 이 경우 각 행의 키워드는 생성 된 검색 쿼리의 **OR** 연산자로 연결 됩니다. 
     
@@ -138,7 +138,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 3. **오타에 대 한 쿼리 검사** 를 클릭 하 여 쿼리를 검사 하 여 지원 되지 않는 문자 인지와 그렇지 않을 수 있는 부울 연산자에 대해 확인 합니다. 지원 되지 않는 문자는 대개 숨겨지고 대개 검색 오류가 발생 하거나 의도 하지 않은 결과를 반환 합니다. 검사 되는 지원 되지 않는 문자에 대 한 자세한 내용은 [콘텐츠 검색 쿼리 확인에서 오류](check-your-content-search-query-for-errors.md)를 참조 하세요.
     
-4. **조건**에서 검색 쿼리에 조건을 추가 하 여 검색 범위를 좁히고 보다 구체화 된 결과 집합을 반환 합니다. 각 조건은 검색을 시작할 때 만들어지고 실행 되는 KQL 검색 쿼리에 절을 추가 합니다. 조건은 **AND** 연산자에 의해 키워드 상자에 지정 된 키워드 쿼리에 논리적으로 연결 됩니다. 즉, 항목은 결과에 포함할 키워드 쿼리와 조건을 모두 만족 해야 합니다. 조건에 따라 결과의 범위를 좁히는 데 도움이 됩니다. 
+4. **조건**에서 검색 쿼리에 조건을 추가 하 여 검색 범위를 좁히고 보다 구체화 된 결과 집합을 반환 합니다. 각 조건은 검색을 시작할 때 생성되고 실행되는 KQL 검색 쿼리에 절을 추가합니다. 조건은 **AND** 연산자에 의해 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 결과에 포함되려면 항목이 키워드 쿼리와 조건을 모두 만족해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다. 
     
 ||
 |:-----|
@@ -146,7 +146,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
    
 9. **검색**을 클릭하여 검색 설정을 저장하고 검색을 시작합니다. 
     
-    검색이 시작 됩니다. 검색이 완료 되 면 세부 정보 창에 다음 정보가 표시 됩니다.
+    검색이 시작됩니다. 검색이 완료 되 면 세부 정보 창에 다음 정보가 표시 됩니다.
     
     ![검색 통계가 선택한 콘텐츠 검색의 세부 정보 창에 표시 됩니다.](media/2046bb5e-f4cb-4ba7-b7fc-8e5e53dae567.png)
   
@@ -154,7 +154,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 2. 검색 쿼리와 일치 하는 항목의 수 (및 총 크기)입니다. 항목 유형의 예로는 전자 메일 메시지, 일정 항목, 문서 등이 있습니다. 항목에 검색 중인 키워드의 인스턴스가 여러 개 포함 되어 있으면 총 항목 수에 한 번만 계산 됩니다. 예를 들어 "stock" 또는 "tip" 이라는 단어를 검색 하는 경우 전자 메일 메시지에 단어 "stock"의 인스턴스가 세 개 포함 되어 있으면 **항목** 필드에 한 번만 계산 됩니다. 
     
-3. 검색 된 콘텐츠 위치에서 인덱싱되지 않은 항목의 수 및 전체 크기입니다. 검색 조건을 충족 하지 않는 인덱싱되지 않은 항목의 수는 세부 정보 창에 표시 되는 검색 통계에 포함 됩니다. 인덱싱되지 않은 항목이 검색 쿼리와 일치 하는 경우 (다른 메시지 또는 문서 속성이 검색 조건을 충족 함) 해당 항목은 초과 된 인덱싱되지 않은 항목 수에 포함 되지 않습니다. 그러나 검색 조건에 의해 제외 된 인덱싱되지 않은 항목은 인덱싱되지 않은 항목의 예상 값에 포함 되지 않습니다.
+3. 검색 된 콘텐츠 위치에서 인덱싱되지 않은 항목의 수 및 전체 크기입니다. 검색 조건과 일치하지 않는 인덱싱되지 않은 항목 수가 세부 정보 창의 검색 통계에 포함됩니다. 인덱싱되지 않은 항목이 검색 쿼리와 일치 하는 경우 (다른 메시지 또는 문서 속성이 검색 조건을 충족 함) 해당 항목은 초과 된 인덱싱되지 않은 항목 수에 포함 되지 않습니다. 그러나 검색 조건에 의해 제외 된 인덱싱되지 않은 항목은 인덱싱되지 않은 항목의 예상 값에 포함 되지 않습니다.
     
 4. 검색 된 각 콘텐츠 위치 유형의 수입니다. 사서함의 경우에는 검색 된 총 사서함 수에 보관 사서함이 포함 됩니다. 위의 예에서는 사용자 사서함 4 개를 검색 했으며 이러한 각 사용자에 대 한 보관 사서함을 사용할 수 있습니다. 이 때문에 검색 통계에 8 개의 사서함이 명시 됩니다.
     
@@ -167,12 +167,12 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
 ## <a name="export-search-results"></a>검색 결과 내보내기
 <a name="export"> </a>
 
-검색이 성공적으로 실행 된 후에는 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과를 내보낼 때 사용자 컴퓨터로 PST 파일로 다운로드 됩니다. SharePoint 및 비즈니스용 OneDrive 사이트에서 콘텐츠를 내보낼 때 기본 Office 문서의 복사본을 내보냅니다. 내보낸 검색 결과에 포함 되는 추가 문서 및 보고서도 있습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 검색 결과 내보내기를](export-search-results.md)참조 하세요.
+검색이 성공적으로 실행 된 후에는 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과 내보내면 컴퓨터에 PST 파일로 다운로드됩니다. SharePoint 및 비즈니스용 OneDrive 사이트에서 콘텐츠를 내보낼 때 기본 Office 문서의 복사본을 내보냅니다. 내보낸 검색 결과에 추가 문서 및 보고서도 포함되어 있습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 검색 결과 내보내기를](export-search-results.md)참조 하세요.
   
 ## <a name="preview-search-results"></a>검색 결과 미리 보기
 <a name="preview"> </a>
 
-검색이 성공적으로 완료 되 면 검색 결과를 미리 볼 수 있습니다. 콘텐츠 검색 결과 미리 보기와 관련 된 몇 가지 제한이 있습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
+검색이 완료된 후에 검색 결과를 미리 볼 수 있습니다. 콘텐츠 검색 결과를 미리 볼 때 여러 가지 제한이 발생합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
   
 1. **콘텐츠 검색** 페이지에서 검색을 선택 합니다. 
     
@@ -187,7 +187,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
 4. 파일 형식이 미리 보기에 지원 되지 않거나 문서 복사본을 다운로드 하는 경우에는 **원본 파일 다운로드** 를 클릭 하 여 로컬 컴퓨터에 다운로드할 수 있습니다. .aspx 웹 페이지의 경우 페이지에 대 한 액세스 권한이 없을 수 있지만 페이지의 URL이 포함 됩니다. 
     
 > [!NOTE]
-> 7 일 보다 오래 실행 된 검색에 대 한 검색 결과를 미리 볼 경우 검색 결과를 업데이트 하 라는 메시지가 표시 됩니다. 검색을 다시 실행 하 여 검색 쿼리를 충족 하는 최신 결과를 가져옵니다. 
+> 7일보다 더 전에 마지막으로 실행된 검색의 검색 결과를 미리 보는 경우 검색 결과를 업데이트하라는 메시지가 표시됩니다. 검색을 다시 실행 하 여 검색 쿼리를 충족 하는 최신 결과를 가져옵니다. 
   
 ### <a name="file-types-that-can-be-previewed"></a>미리 볼 수 있는 파일 형식
 
@@ -220,7 +220,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 2. 세부 정보 창에서 **결과** 아래의 **검색 결과 업데이트**를 클릭합니다.
     
-    결과가 검색 되 고 있음을 알리는 상태 메시지가 표시 됩니다. 검색이 완료 되 면 세부 정보 창의 **결과** 아래에 업데이트 된 정보가 표시 됩니다. 세부 정보 창에서 **검색** 됨 필드의 날짜가 현재 날짜 및 시간으로 업데이트 됩니다. 콘텐츠 검색 목록의 정보를 새로 고치려면 새로 ****![고침 새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif)을 클릭 합니다.
+    결과를 가져오고 있다는 상태 메시지가 표시됩니다. 검색이 완료되면 업데이트된 정보가 세부 정보 창의 **결과** 아래에 표시됩니다. 세부 정보 창의 **검색한 날짜**에 표시되는 날짜가 현재 날짜와 시간으로 업데이트됩니다. 콘텐츠 검색 목록의 정보를 새로 고치려면 새로 ****![고침 새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif)을 클릭 합니다.
     
 [Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
@@ -233,7 +233,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 2. 세부 정보 창에서 **쿼리** 아래의 **검색 편집**을 클릭합니다.
     
-3. **위치** 페이지에서 검색할 사서함, 그룹, SharePoint 사이트 또는 비즈니스용 OneDrive 사이트를 변경할 수 있습니다. Exchange에서 모든 공용 폴더를 검색 하려면 선택 (또는 선택 취소) 할 수도 있습니다. 
+3. **위치** 페이지에서 검색할 사서함, 그룹, SharePoint 사이트 또는 비즈니스용 OneDrive 사이트를 변경할 수 있습니다. Exchange에서 모든 공용 폴더를 검색하도록 선택(또는 선택 취소)할 수도 있습니다. 
     
 4. **쿼리** 페이지에서 검색 쿼리를 편집할 수 있습니다. 
     
@@ -250,32 +250,32 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 2. 세부 정보 창에서 **오류** 아래의 **검색 다시 시도**를 클릭합니다.
     
-    결과가 검색 되 고 있음을 알리는 상태 메시지가 표시 됩니다. 검색이 완료 되 면 세부 정보 창의 **결과** 아래에 업데이트 된 정보가 표시 됩니다. 세부 정보 창에서 **검색** 됨 필드의 날짜가 현재 날짜 및 시간으로 업데이트 됩니다. 검색 목록에서 정보를 새로 고치려면 새로 고침 새로 고침 ****![아이콘](media/O365-MDM-Policy-RefreshIcon.gif)을 클릭 합니다.
+    결과를 가져오고 있다는 상태 메시지가 표시됩니다. 검색이 완료되면 업데이트된 정보가 세부 정보 창의 **결과** 아래에 표시됩니다. 세부 정보 창의 **검색한 날짜**에 표시되는 날짜가 현재 날짜와 시간으로 업데이트됩니다. 검색 목록에서 정보를 새로 고치려면 새로 고침 새로 고침 ****![아이콘](media/O365-MDM-Policy-RefreshIcon.gif)을 클릭 합니다.
     
-[Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[맨 위로 돌아가기](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="more-information"></a>추가 정보
 <a name="moreinfo"> </a>
 
 콘텐츠 검색에 대 한 자세한 내용은 다음과 같습니다.
   
-[제한 및 성능](run-a-content-search-in-the-security-and-compliance-center.md#limits)
+[제한 및 성능](#limits-and-performance)
   
-[인덱싱되지 않은 항목](run-a-content-search-in-the-security-and-compliance-center.md#unindexeditems)
+[인덱싱되지 않은 항목](#unindexed-items) 
+ 
+[Microsoft 팀 및 Office 365 그룹](#microsoft-teams-and-office-365-groups)
   
-[Microsoft 팀 및 Office 365 그룹](run-a-content-search-in-the-security-and-compliance-center.md#teams)
+[비즈니스용 OneDrive](#onedrive-for-business)
   
-[비즈니스용 OneDrive](run-a-content-search-in-the-security-and-compliance-center.md#onedrive)
+[검색 쿼리](#search-queries)
   
-[검색 쿼리](run-a-content-search-in-the-security-and-compliance-center.md#queries)
+[비활성 사서함 검색](#searching-inactive-mailboxes)
   
-[비활성 사서함 검색](run-a-content-search-in-the-security-and-compliance-center.md#inactivemailboxes)
+[없으며](#miscellaneous)
   
-[기타](run-a-content-search-in-the-security-and-compliance-center.md#misc)
+[Return to top](#before-you-begin)
   
-[(맨 위로 돌아가기)](run-a-content-search-in-the-security-and-compliance-center.md#top)
-  
- **제한 및 성능**
+### <a name="limits-and-performance"></a>제한 및 성능
   
 - 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
     
@@ -290,15 +290,14 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
 |5만  <br/> |20분  <br/> |
 |100,000  <br/> |25분  <br/> |
    
-
   
- **인덱싱되지 않은 항목**
+### <a name="unindexed-items"></a>인덱싱되지 않은 항목
   
 - 앞에서 설명한 것 처럼 검색 되는 콘텐츠 위치에서 인덱싱되지 않은 항목은 예상 검색 결과에 포함 됩니다. 인덱싱되지 않은 항목이 검색 쿼리와 일치 하는 경우 (다른 메시지 또는 문서 속성이 검색 조건을 충족 함) 해당 항목은 초과 된 인덱싱되지 않은 항목 수에 포함 되지 않습니다. 인덱싱되지 않은 항목이 검색 조건에 의해 제외 되는 경우이는 인덱싱되지 않은 항목의 예상 수에도 포함 되지 않습니다. 자세한 내용은 [콘텐츠 검색에서 인덱싱되지 않은 항목](https://go.microsoft.com/fwlink/p/?LinkId=780739)을 참조 하십시오.
     
 
   
- **Microsoft 팀 및 Office 365 그룹**
+### <a name="microsoft-teams-and-office-365-groups"></a>Microsoft 팀 및 Office 365 그룹
   
 - Microsoft 팀은 Office 365 그룹을 기반으로 작성 됩니다. 따라서 검색 방법은 매우 유사 합니다. Microsoft 팀 및 Office 365 그룹에서 콘텐츠를 검색할 때는 다음 사항을 염두에 두어야 합니다.
     
@@ -343,15 +342,12 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     > [!NOTE]
     > Microsoft team 또는 Channel (팀의 SharePoint 사이트 검색 시)에 대 한 Wiki를 검색 하는 기능은 2017 년 6 월 22 일에 릴리스 되었습니다. 해당 날짜에 저장 되거나 업데이트 된 Wiki 페이지를 검색할 수 있습니다. 해당 날짜를 검색에 사용할 수 없도록 마지막으로 저장 하거나 업데이트 한 Wiki 페이지 
   
-
-  
- **비즈니스용 OneDrive **
+### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
   
 - 조직의 비즈니스용 onedrive 사이트에 대 한 url 목록을 수집 하려면 [조직의 모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하세요. 이 문서의 스크립트는 모든 비즈니스용 OneDrive 사이트 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 검색할 각 비즈니스용 OneDrive 사이트에 조직의 내 사이트 도메인의 URL을 추가 해야 합니다. 비즈니스용 OneDrive를 모두 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
     
 
-  
- **검색 쿼리**
+### <a name="search-queries"></a>검색 쿼리
   
 - 키워드 목록을 사용 하 여 검색 쿼리를 만들 때 다음과 같은 사항을 염두에 두어야 합니다.
     
@@ -367,7 +363,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
   
   - Excel 파일 또는 일반 텍스트 파일에서 키워드나 키워드 구문 목록을 준비한 다음 키워드 목록에 목록을 복사 하 여 붙여 넣을 수도 있습니다. 이 작업을 수행 하려면 **키워드 목록 표시** 확인란을 선택 해야 합니다. 그런 다음 키워드 목록의 첫 번째 행을 클릭 하 고 목록을 붙여 넣습니다. Excel 또는 텍스트 파일의 각 줄이 키워드 목록의 별도의 행에 붙여 넣어집니다. 
     
-  - 키워드 목록을 사용 하 여 쿼리를 만든 후에는 선택한 검색의 세부 정보 창에서 검색 쿼리 구문을 확인 하 여 검색 쿼리를 의도 한 대로 설정 하는 것이 좋습니다. 세부 정보 창의 **query** 아래에 표시 되는 검색 쿼리에서 키워드는 텍스트 **(c:s)** 로 구분 됩니다 .이는 키워드가 **OR** 연산자에 의해 연결 됨을 나타냅니다. 마찬가지로 검색 쿼리에 조건이 포함 된 경우 키워드와 조건은 텍스트 **(c:c)** 로 구분 됩니다 .이는 키워드가 **and** 연산자에 의해 조건에 연결 되었음을 나타냅니다. 다음은 키워드 목록과 조건을 사용할 때 발생 하는 세부 정보 창에 표시 되는 검색 쿼리의 예입니다. 
+  - 키워드 목록을 사용 하 여 쿼리를 만든 후에는 선택한 검색의 세부 정보 창에서 검색 쿼리 구문을 확인 하 여 검색 쿼리를 의도 한 대로 설정 하는 것이 좋습니다. 세부 정보 창에서 **query** 아래에 표시 된 검색 쿼리의 키워드는 텍스트 **(c:s)** 로 구분 됩니다. 이는 **OR** 연산자를 통해 키워드가 연결 되었음을 나타냅니다. 마찬가지로 검색 쿼리에 조건이 포함 된 경우 키워드와 조건은 텍스트 **(c:c)** 로 구분 됩니다. 이는 키워드가 **and** 연산자를 통해 조건에 연결 됨을 나타냅니다. 다음은 키워드 목록과 조건을 사용할 때 발생 하는 세부 정보 창에 표시 되는 검색 쿼리의 예입니다. 
     
     ![키워드 목록과 조건을 사용할 때 만들어지는 쿼리 예제](media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
   
@@ -384,8 +380,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     예를 들어 언어 설정을 중국어로 변경 하려면 문화권 코드 값에 사용 `zh-CN` 합니다. 언어 설정을 변경한 후에는 검색을 다시 실행 해야 합니다. 가능한 문화권 코드 값의 목록은 [CultureInfo 클래스](https://go.microsoft.com/fwlink/p/?LinkID=184859)를 참조 하십시오. 콘텐츠 검색의 경우 언어 설정 값에 대해 두 부분으로 된 문화권 코드를 사용 하는 것이 좋습니다. 예를 `ja-JP` 들어와 그렇지 `ja`않습니다.
     
 
-  
- **비활성 사서함 검색**
+### <a name="searching-inactive-mailboxes"></a>비활성 사서함 검색
   
 앞에서 설명한 것 처럼 콘텐츠 검색에서 비활성 사서함을 검색할 수 있습니다. 비활성 사서함을 검색할 때는 다음과 같은 몇 가지 사항을 염두에 두어야 합니다.
   
@@ -401,14 +396,12 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
   - [Office 365에서 비활성 사서함 삭제](delete-an-inactive-mailbox.md)
     
-
-  
- **기타**
+### <a name="miscellaneous"></a>없으며
   
 - 보안 &amp; 및 준수 센터의 **콘텐츠 검색** 페이지에서 만든 콘텐츠 검색은 Exchange 관리 센터의 원본 **위치 eDiscovery &amp; 유지** 페이지에 표시 되지 않습니다. 이는 보안 &amp; 및 준수 센터에서 만든 검색 개체와 콘텐츠 검색 아키텍처가 Exchange Online의 원본 위치 eDiscovery 기능과 완전히 다른 이유입니다. 
     
     같은 이유로, **콘텐츠 검색** 페이지에서 만든 검색은 보안 &amp; 및 준수 센터에서 eDiscovery 사례의 **검색** 페이지에 표시 되지 않습니다. 
     
-- 다시 시작 하 고 검색을 다시 시도 하는 경우의 차이점 검색을 다시 시작 하면 검색에 지정 된 모든 콘텐츠 위치가 새 미리 보기 검색에서 다시 검색 됩니다. 그러나 검색을 다시 시도 하면 검색을 마지막으로 실행 했을 때 실패 한 콘텐츠 위치만 다시 검색 됩니다.
+- 검색을 다시 시작하는 것과 다시 시도하는 것은 어떤 차이가 있나요? 검색을 다시 시작 하면 검색에 지정 된 모든 콘텐츠 위치가 새 미리 보기 검색에서 다시 검색 됩니다. 그러나 검색을 다시 시도 하면 검색을 마지막으로 실행 했을 때 실패 한 콘텐츠 위치만 다시 검색 됩니다.
    
 

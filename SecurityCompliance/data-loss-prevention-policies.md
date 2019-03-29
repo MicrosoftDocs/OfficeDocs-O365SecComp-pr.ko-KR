@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 69ec5b2925d70c503655837af600f106379e1485
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 7c776b3fd703ddb24d9d8195609384771858c7f5
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639145"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862540"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -100,7 +100,7 @@ DLP 정책은 정보를 Exchange Online, SharePoint Online 또는 비즈니스�
   
 - 콘텐츠에 중요 한 유형의 정보가 포함 되어 있습니다.
     
-- 콘텐츠에 레이블이 있습니다. 자세한 내용은 아래 섹션에서 [레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#label)하십시오.
+- 콘텐츠에 레이블이 있습니다. 자세한 내용은 아래 섹션에서 [레이블을 DLP 정책의 조건으로 사용](#using-a-label-as-a-condition-in-a-dlp-policy)하십시오.
     
 - 콘텐츠가 조직 내부 또는 외부 사용자와 공유됩니다.
     
@@ -506,7 +506,7 @@ Office 2016의 DLP 정책 평가는 해당 콘텐츠를 사용하는 프로그�
     
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
     
-- [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+- [중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
     
 - [DLP 기능이 찾는 항목](what-the-dlp-functions-look-for.md)
     

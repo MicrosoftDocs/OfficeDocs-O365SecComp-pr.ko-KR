@@ -14,12 +14,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 6870e8d613dbd5d72f20e96be9615712bac711a9
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 4a12a1cfe68f8ebcfae640a65d0eca68e36fb04c
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693077"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862530"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
@@ -38,7 +38,7 @@ ms.locfileid: "30693077"
   
 ![탐색기의 캠페인 정보 예제](media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
-추적기는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에서 제공 하는 여러 가지 유용한 기능 중 일부에 불과합니다. 위협 추적기에 [는 중요 한 추적기](threat-trackers.md#notey), [추세 분석](threat-trackers.md#trending), [추적 된 쿼리](threat-trackers.md#trackedq)및 저장 되는 [쿼리가](threat-trackers.md#savedq)포함 됩니다.
+추적기는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에서 제공 하는 여러 가지 유용한 기능 중 일부에 불과합니다. 위협 추적기에는 [참고 가치가 있는 추적기](#noteworthy-trackers), [추세 분석](#trending-trackers), [추적 된 쿼리](#tracked-queries)및 저장 되는 [쿼리가](#saved-queries)포함 됩니다.
   
 조직에 대 한 위협 추적기를 보고 사용 하려면 &amp; 보안 및 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 **위협 관리** \> **위협 추적기**를 선택 합니다.
   

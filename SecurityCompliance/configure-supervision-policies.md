@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: 검토할 직원 정보를 캡처하기 위해 관리 검토 정책을 설정 합니다.
-ms.openlocfilehash: 76a5e7152b609944eeb2fe1390e204e1463a673b
-ms.sourcegitcommit: 9a69ea604b415af4fef4964a19a09f3cead5a2ce
+ms.openlocfilehash: ce032a96131fdfb6f226dd25dfbb8e2de41c9931
+ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30701293"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30866394"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -71,6 +71,34 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 |감독 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
 | 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
   
+대규모 엔터프라이즈 조직에서 감독 된 사용자를 관리 하려면 매우 큰 그룹에서 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하 여 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트 하는 데 도움이 될 수 있습니다.
+
+1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) 을 만듭니다. 이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
+
+    - **MemberDepartRestriction = 닫힘** 이렇게 하면 사용자가 메일 그룹에서 자신을 제거할 수 없습니다.
+    - **memberjoinrestriction = 닫힘** 이렇게 하면 사용자가 메일 그룹에 자신을 추가할 수 없습니다.
+    - **ModerationEnabled = True** 이를 통해이 그룹으로 전송 되는 모든 메시지를 승인 해야 하며, 해당 그룹이 감독 정책 구성 외부에서 통신 하는 데 사용 되지 않도록 합니다.
+
+    ```
+    New-DistributionGroup -Name <your group name> -Alias <your group alias> -MemberDepartRestriction 'Closed' -MemberJoinRestriction 'Closed' -ModerationEnabled $true
+    ```
+2. 조직의 감독 정책에 추가 된 사용자를 추적 하는 데 사용할 사용 되지 않는 [Exchange 사용자 지정 특성](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes?view=exchserver-2019&viewFallbackFrom=exchonline-ww) 을 선택 합니다.
+
+3. 다음 PowerShell 스크립트를 반복 된 일정에 따라 실행 하 여 감독 정책에 사용자를 추가 합니다.
+
+    ```
+    $Mbx = (Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited -Filter {CustomAttribute9 -eq $Null})
+    $i = 0
+    ForEach ($M in $Mbx) 
+    {
+      Write-Host "Adding" $M.DisplayName
+      Add-DistributionGroupMember -Identity <your group name> -Member $M.DistinguishedName -ErrorAction SilentlyContinue
+      Set-Mailbox -Identity $M.Alias -<your custom attribute name> SRAdded 
+      $i++
+    }
+    Write-Host $i "Mailboxes added to supervisory review distribution group."
+    ```
+
 그룹을 설정 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
 - [메일 그룹 만들기 및 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 - [메일 사용 가능 보안 그룹 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
@@ -192,7 +220,7 @@ Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 �
 
 다음으로, Outlook을 메일 감독 사서함에 연결할 수 있도록 검토자가 몇 개의 Exchange Online PowerShell 명령을 실행 해야 합니다.
   
-1. Exchange Online PowerShell에 연결합니다. [어떻게 해야 합니까?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
+1. Exchange Online PowerShell에 연결 합니다. [어떻게 해야 합니까?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
 
 2. 다음 명령을 실행 하면 *SupervisoryReview {GUID} @domain onmicrosoft.com* 는 위의 1 단계에서 복사한 주소이 고 *사용자* 는 3 단계에서 감독 사서함에 연결할 검토자의 이름입니다.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: 2671711d5b37f9f0f8793bb528741dc7b6d05680
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: ea3c289c63d2ee777e88166a94bd9ed92abcbb26
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296431"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862440"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -101,7 +101,6 @@ Contoso 준수 경계 시나리오를 사용 하 여 네 개의 역할 그룹을
 
   
 ## <a name="step-4-create-a-search-permissions-filter-to-enforce-the-compliance-boundary"></a>4 단계: 검색 권한 필터를 만들어 준수 경계를 적용 합니다.
-<a name="step4"> </a>
 
 각 에이전시에 대해 역할 그룹을 만든 후에는 각 역할 그룹을 특정 에이전시에 연결 하는 검색 권한 필터를 만들고 준수 경계 자체를 정의 합니다. 각 에이전시에 대해 하나의 검색 권한 필터를 만들어야 합니다. 보안 권한 필터를 만드는 방법에 대 한 자세한 내용은 [콘텐츠 검색에 대 한 사용 권한 필터링 구성을](permissions-filtering-for-content-search.md)참조 하십시오.
   
@@ -180,39 +179,40 @@ eDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>다중 지역 환경에서 콘텐츠 검색 및 내보내기
 
-또한 검색 사용 권한 필터를 사용 하면 [sharepoint 다중 위치 환경](https://go.microsoft.com/fwlink/?linkid=860840)에서 sharepoint 사이트 및 OneDrive 계정을 검색할 때 콘텐츠를 내보낼 위치와 검색 가능한 데이터 센터를 제어할 수 있습니다.
+또한 검색 권한 필터를 사용 하 여 [SharePoint 다중 위치 환경](https://go.microsoft.com/fwlink/?linkid=860840)에서 콘텐츠를 검색 하는 데 사용할 수 있는 콘텐츠와 검색 되는 데이터 센터의 위치를 제어할 수 있습니다.
   
-- 특정 데이터 센터에서 검색 결과를 내보냅니다. 즉, 검색 결과를 내보낼 데이터 센터 위치를 지정할 수 있습니다.
+- **검색 결과 내보내기** -Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 특정 데이터 센터의 검색 결과를 내보낼 수 있습니다. 즉, 검색 결과를 내보낼 데이터 센터 위치를 지정할 수 있습니다.
+
+    **new-compliancesecurityfilter** 또는 **new-compliancesecurityfilter** cmdlet에 **Region** 매개 변수를 사용 하 여 내보내기가 라우팅되는 데이터 센터를 만들거나 변경 합니다.
+  
+    |**매개 변수 값**|**데이터 센터 위치**|
+    |:-----|:-----|
+    |NAM  <br/> |북미 (실제 데이터 센터는 미국)  <br/> |
+    |EUR  <br/> |유럽  <br/> |
+    |APC  <br/> |아시아 태평양  <br/> |
+    |CAN <br/> |캐나다
     
-- SharePoint 사이트 및 OneDrive 계정 검색을 위성 데이터 센터로 라우팅합니다. 즉, 검색을 실행할 데이터 센터 위치를 지정할 수 있습니다.
+- **콘텐츠 검색 라우팅** -SharePoint 사이트 및 OneDrive 계정의 콘텐츠 검색을 위성 데이터 센터로 라우팅할 수 있습니다. 즉, 검색을 실행할 데이터 센터 위치를 지정할 수 있습니다.
     
-**new-compliancesecurityfilter** 또는 **new-compliancesecurityfilter** cmdlet에 **Region** 매개 변수를 사용 하 여 내보내기가 라우팅되는 데이터 센터를 만들거나 변경 합니다.
+    SharePoint 사이트 및 OneDrive 위치를 검색할 때 콘텐츠 검색이 실행 되는 데이터 센터를 제어 하려면 **Region** 매개 변수 값으로 다음 값을 사용 합니다. 다음 표에는 라우팅되는 데이터 센터 내보내기도 나와 있습니다. 
   
-|**매개 변수 값**|**데이터 센터 위치**|
-|:-----|:-----|
-|NAM  <br/> |북미 (실제 데이터 센터는 미국)  <br/> |
-|EUR  <br/> |유럽  <br/> |
-|APC  <br/> |아시아 태평양  <br/> |
-|CAN <br/> |캐나다
+    |**매개 변수 값**|**내보내기에 대 한 데이터 센터 라우팅 위치**|
+    |:-----|:-----|
+    |NAM  <br/> |US  <br/> |
+    |EUR  <br/> |유럽  <br/> |
+    |APC  <br/> |아시아 태평양  <br/> |
+    |CAN  <br/> |US  <br/> |
+    |AUS  <br/> |아시아 태평양  <br/> |
+    |KOR  <br/> |조직의 기본 데이터 센터  <br/> |
+    |GBR  <br/> |유럽  <br/> |
+    |JPN  <br/> |아시아 태평양  <br/> |
+    |IND  <br/> |아시아 태평양  <br/> |
+    |LAM  <br/> |US  <br/> |
    
-마찬가지로 **Region** 매개 변수 값으로 다음 값을 사용 하 여 SharePoint 및 OneDrive 위치를 검색할 때 콘텐츠 검색이 실행 되는 데이터 센터를 제어할 수 있습니다. 다음 표에는 라우팅되는 데이터 센터 내보내기가 나와 있습니다. 
+> [!NOTE]
+> 검색 권한 필터에 **Region** 매개 변수를 지정 하지 않으면 조직 기본 SharePoint 지역이 검색 되 고 검색 결과가 가장 가까운 데이터 센터로 내보내집니다. 
   
-|**매개 변수 값**|**내보낼 데이터 센터 라우팅 위치**|
-|:-----|:-----|
-|NAM  <br/> |US  <br/> |
-|EUR  <br/> |유럽  <br/> |
-|APC  <br/> |아시아 태평양  <br/> |
-|CAN  <br/> |US  <br/> |
-|AUS  <br/> |아시아 태평양  <br/> |
-|KOR  <br/> |조직의 기본 데이터 센터  <br/> |
-|GBR  <br/> |유럽  <br/> |
-|JPN  <br/> |아시아 태평양  <br/> |
-|IND  <br/> |아시아 태평양  <br/> |
-|LAM  <br/> |US  <br/> |
-   
- **참고:** 검색 권한 필터에 Region 매개 변수를 지정 하지 않으면 조직 기본 SharePoint 지역이 검색 되 고 검색 결과가 가장 가까운 데이터 센터로 내보내집니다. 
-  
-다음은 준수 경계에 대 한 검색 권한 필터를 만들 때 **-Region** 매개 변수를 사용 하는 예입니다. 이 경우에는 네 번째 커피 자회사를 북미에 있고 Coho Winery가 유럽에 있는 것으로 가정 합니다. 
+다음은 준수 경계에 대 한 검색 권한 필터를 만들 때 **Region** 매개 변수를 사용 하는 예입니다. 이 경우에는 네 번째 커피 자회사를 북미에 있고 Coho Winery가 유럽에 있는 것으로 가정 합니다. 
   
 ```
 New-ComplianceSecurityFilter -FilterName "Fourth Coffee Security Filter" -Users "Fourth Coffee eDiscovery Managers", "Fourth Coffee Investigators" -Filters "Mailbox_Department -eq 'FourthCoffee'", "Site_Department -eq 'FourthCoffee' -or Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'" -Action ALL -Region NAM
@@ -254,7 +254,7 @@ eDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 �
   
  **eDiscovery 관리자가 두 개의 별도 준수 경계의 콘텐츠를 볼 수 있습니까?**
   
-예로. 이 작업은 두 기관에 모두 표시 되는 역할 그룹에 사용자를 추가 하 여 수행할 수 있습니다.
+예. 이 작업은 두 기관에 모두 표시 되는 역할 그룹에 사용자를 추가 하 여 수행할 수 있습니다.
   
  **검색 사용 권한 필터가 eDiscovery 사례 보존, Office 365 보존 정책 또는 DLP에 대해 작동 하나요?**
   

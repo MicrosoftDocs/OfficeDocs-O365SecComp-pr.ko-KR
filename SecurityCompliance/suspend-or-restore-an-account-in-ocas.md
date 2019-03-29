@@ -13,18 +13,18 @@ search.appverid:
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'Office 365 Cloud App Security를 사용 하는 경우 사용자 계정을 일시 중단 하거나 대기 취소 하는 거 버 넌 스 작업을 수행할 수 있습니다. '
-ms.openlocfilehash: 3650a5304af0440dc537610994c4bd827f599989
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 10da1385f850fadf077b4e3f9e3a00e9e4629fdd
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215098"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862450"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는 복원
 
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|
-|[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](suspend-or-restore-an-account-in-ocas.md#nextsteps) <br/> |
+|[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](#next-steps)<br/> |
    
 조직의 Office 365에 대 한 사용자 계정 중 하나가 손상 되었음을 알리는 경고가 표시 되는 경우를 가정해 봅니다. 또는 사용자 계정에 문제가 있음을 나타내는 경고를 받았다고 가정해 보겠습니다. Office 365 Cloud App Security를 사용 하 여 사용자 계정을 일시 중단 하 고 나중에 수신한 알림을 조사한 후에 복원할 수 있습니다.
   

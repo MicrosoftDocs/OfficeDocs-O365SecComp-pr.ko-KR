@@ -15,14 +15,16 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: 'office 365 Security & 준수 센터를 사용 하 여 office 365 조직의 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색할 수 있습니다. '
-ms.openlocfilehash: d9a0b009a47a00b3d7242b54b14286609ece6886
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 8cb8650315c19714960aba7551902780e38a554b
+ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30411023"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30935353"
 ---
 # <a name="search-the-audit-log-in-the-office-365-security--compliance-center"></a>Office 365 Security & 준수 센터에서 감사 로그 검색
+
+## <a name="introduction"></a>소개
 
 사용자가 특정 문서를 보거나 사서함에서 항목을 삭제 한 경우를 확인 해야 하나요? 이 경우 office 365 보안 &amp; 및 준수 센터를 사용 하 여 office 365 조직의 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 하면 됩니다. 통합 감사 로그가 왜 있나요? Office 365에서 다음과 같은 유형의 사용자 및 관리자 활동을 검색할 수 있습니다.
   
@@ -57,7 +59,7 @@ ms.locfileid: "30411023"
 
 - Microsoft 작업 공간 분석의 분석가 및 관리 활동
 
-- PowerApps의 사용자 및 관리 활동
+- Microsoft PowerApps의 사용자 및 관리자 활동
     
    
 ## <a name="before-you-begin"></a>시작하기 전에
@@ -116,7 +118,7 @@ Office 365 감사 로그 검색을 시작 하기 전에 다음 항목을 읽어 
     |Microsoft Forms  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Microsoft Project  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Microsoft Stream  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
-    |Microsoft 팀  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
+    |Microsoft Teams  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
     |Power BI  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Security &amp; Compliance Center  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
     |SharePoint Online 및 비즈니스용 OneDrive  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
@@ -296,12 +298,11 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |:-----|:-----|:-----|
 |[파일 및 페이지 활동](#file-and-page-activities)<br/> |[폴더 활동](#folder-activities)<br/> |[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)<br/> |
 |[동기화 작업](#synchronization-activities)<br/> |[사이트 관리 작업](#site-administration-activities)<br/> |[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |
-|[보존 정책 및 레이블 활동](#retention-policy-and-label-activities) <br/>|[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> 
-|[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |
-|[디렉터리 관리 작업](#directory-administration-activities) <br/> |[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |
-|[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |
-[Microsoft Flow](#microsoft-flow) <br/> |[Microsoft PowerApps](#microsoft-powerapps)<br/>|[Microsoft Stream](#microsoft-stream) <br/>|
-|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>
+|[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> |[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> 
+|[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/>| 
+|[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|
+|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow 활동](#microsoft-flow-activities) <br/>|
+|[Microsoft PowerApps 활동](#microsoft-powerapps)<br/>|[Microsoft Stream 작업](#microsoft-stream-activities) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
 ||||
    
   
@@ -420,7 +421,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |그룹을 만들 수 있는 사용자  <br/> |AllowGroupCreationSet  <br/> |사이트 관리자 또는 소유자는 해당 권한이 할당 된 사용자가 해당 사이트에 대 한 그룹을 만들 수 있도록 허용 하는 사용 권한 수준을 사이트에 추가 합니다.  <br/> |
 |사이트 지리적 이동 취소  <br/> |SiteGeoMoveCancelled  <br/> |sharepoint 또는 전역 관리자가 sharepoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소 합니다. 다중 위치 기능을 사용 하면 office 365 조직에서 여러 office 365 데이터 센터 지역 (예를 들어, geos)을 사용할 수 있습니다. 자세한 내용은 [OneDrive 및 Office 365에서 SharePoint Online의 다중 지리적 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하세요.  <br/> |
 |공유 정책 변경  <br/> |SharingPolicyChanged  <br/> |sharepoint 또는 전역 관리자가 Office 365 관리 포털, sharepoint 관리 포털 또는 SharePoint Online 관리 셸을 사용 하 여 sharepoint 공유 정책을 변경 했습니다. 조직의 공유 정책 설정에 대 한 모든 변경 내용이 기록 됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에 있는 **ModifiedProperties** 필드에서 식별 됩니다.  <br/> |
-|변경 된 장치 액세스 정책  <br/> |DeviceAccessPolicyChanged  <br/> |SharePoint 또는 전역 관리자가 조직에 대해 관리 되지 않는 장치 정책을 변경 했습니다. 이 정책은 조직에 가입 되지 않은 장치에서 SharePoint, OneDrive 및 Office 365에 대 한 액세스를 제어 합니다. 이 정책을 구성 하려면 엔터프라이즈 이동성 + 보안 구독이 필요 합니다. 자세한 내용은 [관리 되지 않는 장치에서의 액세스 제어](https://support.office.com/article/5ae550c4-bd20-4257-847b-5c20fb053622)를 참조 하세요.  <br/> |
+|변경 된 장치 액세스 정책  <br/> |DeviceAccessPolicyChanged  <br/> |SharePoint 또는 전역 관리자가 조직에 대해 관리 되지 않는 장치 정책을 변경 했습니다. 이 정책은 조직에 가입 되지 않은 장치에서 SharePoint, OneDrive 및 Office 365에 대 한 액세스를 제어 합니다. 이 정책을 구성 하려면 엔터프라이즈 이동성 + 보안 구독이 필요 합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://support.office.com/article/5ae550c4-bd20-4257-847b-5c20fb053622)를 참조하세요.  <br/> |
 |변경 된 예외 사용자 에이전트  <br/> |CustomizeExemptUsers  <br/> |sharepoint 또는 전역 관리자가 sharepoint 관리 센터에서 예외 사용자 에이전트 목록을 사용자 지정 했습니다. 인덱싱할 전체 웹 페이지를 받지 못하도록 제외되는 사용자 에이전트를 지정할 수 있습니다. 즉, 제외로 지정한 사용자 에이전트가 InfoPath 양식을 만나면 전체 웹 페이지가 아닌 XML 파일로 반환 됩니다 (해당 양식이 있는 경우). 따라서 InfoPath 양식 인덱싱 속도가 빨라집니다.  <br/> |
 |네트워크 액세스 정책 변경  <br/> |NetworkAccessPolicyChanged  <br/> |sharepoint 또는 전역 관리자가 sharepoint 관리 센터에서 또는 sharepoint Online PowerShell을 사용 하 여 위치 기반 액세스 정책 (신뢰할 수 있는 네트워크 경계 라고도 함)을 변경 했습니다. 이 정책 유형은 사용자가 지정한 승인 된 IP 주소 범위에 따라 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사람을 제어 합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대 한 제어 액세스](https://support.office.com/article/b5a5f1f1-1174-4c6b-91d0-9273a6b6971f)를 참조 하세요.  <br/> |
 |완료 된 사이트 지리적 이동  <br/> |SiteGeoMoveCompleted  <br/> |조직의 전역 관리자가 예약한 사이트 지리적 이동이 성공적으로 완료 되었습니다. 다중 위치 기능을 사용 하면 office 365 조직에서 여러 office 365 데이터 센터 지역 (예를 들어, geos)을 사용할 수 있습니다. 자세한 내용은 [OneDrive 및 Office 365에서 SharePoint Online의 다중 지리적 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하세요.  <br/> |
@@ -468,28 +469,6 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |업데이트 된 메시지  <br/> |업데이트  <br/> |메시지 또는 해당 속성이 변경되었습니다.  <br/> |
 |사용자가 사서함에 로그인 되어 있음  <br/> |MailboxLogin  <br/> |사용자가 자신의 사서함에 로그인했습니다.  <br/> |
 |none  <br/> |UpdateInboxRules  <br/> |받은 편지함 규칙이 추가, 제거 또는 변경 된 경우 받은 편지함 규칙은 지정 된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리 하 고, 메시지를 지정 된 폴더로 이동 하거나 메시지를 삭제 하는 것과 같이 규칙의 조건이 충족 될 때 작업을 수행 하는 데 사용 됩니다.  <br/> 받은 편지함 규칙 활동의 항목을 반환 하려면 **활동** 목록에서 **모든 활동에 대 한 결과 표시** 를 선택 해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다.  <br/> |
-||||
-  
-### <a name="retention-policy-and-label-activities"></a>보존 정책 및 레이블 활동
-
-다음 표에서는 보안 & 준수 센터의 보존 정책 및 보존 레이블과 관련 된 작업에 대해 설명 합니다. 자세한 내용은 다음을 참조하세요.
-
-- [보존 정책 개요](retention-policies.md)
-- [보존 레이블 개요](labels.md)
-<br/>
-
-|**작업**|**Operation**|**설명**|
-|:-----|:-----|:-----|
-| 보존 정책에 대 한 보존 구성을 만들었습니다.<br/> |NewRetentionComplianceRule<br/> |관리자가 새 보존 정책에 대 한 보존 설정을 구성 합니다. 보존 설정에는 항목이 보존 되는 기간, 보존 기간이 만료 되 면 항목 삭제, 항목 보존 또는 삭제와 같은 항목이 수행 되는 시간이 포함 됩니다. 이 활동은 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) cmdlet을 실행 하는 경우에도 해당 됩니다.<br/>|
-| 만든 보존 레이블 <br/> |NewComplianceTag<br/>  |관리자가 새 보존 레이블을 만듭니다.<br/> |
-| 만들어진 보존 정책<br/> |NewRetentionCompliancePolicy<br/> |관리자가 새 보존 정책을 만듭니다.<br/>  |
-| 보존 정책에 대 한 삭제 된 보존 구성<br/> | RemoveRetentionComplianceRule<br/>| 관리자가 보존 정책의 구성 설정을 삭제 합니다. 이 작업은 관리자가 보존 정책을 삭제 하거나 **new-retentioncompliancerule** cmdlet을 실행 하는 경우에 기록 될 수 있습니다.<br/> |
-| 삭제 된 보존 레이블 <br/> |removecompliancetag<br/>  | 관리자가 보존 레이블을 삭제 합니다.<br/>|
-| 삭제 된 보존 정책<br/> |RemoveRetentionCompliancePolicy<br/> |관리자가 보존 정책을 삭제 합니다. <br/>  |
-| 규정 준수 기능 사용<br/> |SetRestrictiveRetentionUI<br/> |관리자는 RegulatoryComplianceUI cmdlet을 실행 하 여 규정 준수 기능을 사용 하도록 **설정** 합니다. 이 cmdlet을 실행 하 고 나면 관리자가 보안 & 준수 센터 UI를 사용 하 여 보존 정책을 잠그고 보존 레이블을 규정 레코드로 지정할 수 있습니다. 조직에서 **RegulatoryComplianceUI** cmdlet을 사용 하 여 이러한 기능을 사용 하도록 설정 하기 전 까지는 보존 정책을 잠그고 규정 보존 레이블을 만드는 작업을 PowerShell을 통해서만 수행할 수 있습니다. <br/>|
-| 보존 정책에 대 한 업데이트 된 보존 구성<br/> | SetRetentionComplianceRule<br/>| 관리자가 기존 보존 정책에 대 한 보존 설정을 변경 합니다. 보존 설정에는 항목이 보존 되는 기간, 보존 기간이 만료 되 면 항목 삭제, 항목 보존 또는 삭제와 같은 항목이 수행 되는 시간이 포함 됩니다. 이 활동은 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule) cmdlet을 실행 하는 경우에도 해당 됩니다. <br/>|
-| 업데이트 된 보존 레이블 <br/> |SetComplianceTag<br/>  | 관리자가 기존 보존 레이블을 업데이트 합니다.<br/>|
-| 업데이트 된 보존 정책<br/> |SetRetentionCompliancePolicy <br/>|관리자가 기존 보존 정책을 업데이트 합니다. 이 이벤트를 트리거하는 업데이트에는 보존 정책이 적용 되는 콘텐츠 위치 추가 또는 제외가 포함 됩니다.<br/>|
 ||||
 
 ### <a name="sway-activities"></a>Sway 활동
@@ -725,7 +704,7 @@ office 365에서 사용할 수 있는 감사 및 보고 기능에 대 한 자세
 
 **현재 감사 되는 다른 Office 365 서비스는 무엇 인가요?**
 
-Exchange Online, SharePoint, OneDrive, Azure Active Directory, Microsoft 팀, CRM, Advanced Threat Protection 및 데이터 손실 방지와 같은 가장 많이 사용 되는 Office 365 서비스를 감사 합니다. 전체 목록은이 문서의 [소개](#search-the-audit-log-in-the-office-365-security-amp-compliance-center) 섹션을 참조 하십시오.
+Exchange Online, SharePoint online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft 팀, Dynamics 365, Advanced Threat Protection 및 Power BI와 같은 가장 많이 사용 되는 Office 365 서비스를 감사 합니다. 감사 되는 서비스 목록은 [이 문서의 시작 부분](search-the-audit-log-in-security-and-compliance.md) 을 참조 하십시오.
 
 **Office 365의 감사 서비스에서 감사 하는 활동은 무엇입니까?**
 
@@ -771,15 +750,3 @@ Office 365에서 감사 되는 작업에 대 한 설명은이 문서의 [감사 
 **암호화 데이터를 감사 합니까?**
 
 감사 데이터는 감사 파이프라인이 배포 된 동일한 지역에서 Exchange 사서함 (휴지 위치에 있는 데이터)에 저장 됩니다. 이 데이터는 암호화 되지 않습니다. 그러나 전송 중인 데이터는 항상 암호화 됩니다. 
-
-
-
-
-
-
-
-
-
-
-
-

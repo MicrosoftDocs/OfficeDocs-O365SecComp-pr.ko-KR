@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 Exchange Online PowerShell 및 CSV 파일을 사용 하 여 전체 주소 목록에 외부 연락처를 대량으로 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: a38565d5cbff61a954914bf156fb1bac0814c815
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: f95adcd54ebf2194536a199bca6fecf417064882
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215918"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862500"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Exchange Online으로 외부 연락처 대량 가져오기
 
@@ -34,9 +34,9 @@ ms.locfileid: "30215918"
 
 이러한 단계를 완료 하 여 연락처를 가져온 후에는 다음 추가 작업을 수행할 수 있습니다.
   
-- [외부 연락처 추가](bulk-import-external-contacts.md#AddMore)
+- [외부 연락처 추가](#add-more-external-contacts)
   
-- [공유 주소록에서 외부 연락처 숨기기](bulk-import-external-contacts.md#Hide)
+- [공유 주소록에서 외부 연락처 숨기기](#hide-external-contacts-from-the-shared-address-book)
   
 ## <a name="step-1-create-a-csv-file-that-contains-information-about-the-external-contacts"></a>1 단계: 외부 연락처에 대 한 정보가 포함 된 CSV 파일 만들기
 
@@ -123,7 +123,7 @@ ms.locfileid: "30215918"
     
 2. 연락처를 클릭 한 다음 편집 **** ![아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 편집을 클릭 하 여 연락처의 속성을 표시 합니다. 
     
-그거에요! 사용자는 주소록 Outlook 및 웹용 outlook에서 연락처 및 추가 정보를 볼 수 있습니다.
+모두 완료되었습니다. 사용자는 주소록 Outlook 및 웹용 outlook에서 연락처 및 추가 정보를 볼 수 있습니다.
   
 ## <a name="add-more-external-contacts"></a>외부 연락처 추가
 

@@ -14,12 +14,12 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: 5bf6d436e319127fdd5aecd5c58e168a59333d25
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: e90951a010ff5de4d3b292259e9c4596b6cc8e89
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357449"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862580"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
 
@@ -28,7 +28,7 @@ ms.locfileid: "30357449"
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (atp)는 [atp 안전한 링크](atp-safe-links.md), [atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 합니다. 보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (url)가 확인 됩니다. 의심 스러운 또는 악성으로 식별 된 url은 클릭 하면 url을 열 수 없습니다. 대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다. 
   
-이 문서를 읽으면 [경고 페이지에 대 한 최신 업데이트](atp-safe-links-warning-pages.md#updates)와 함께 표시 되는 [경고 페이지의 예](atp-safe-links-warning-pages.md#examples) 를 볼 수 있습니다.
+이 문서를 읽으면 경고 페이지에 대 한 최신 업데이트와 함께 표시 되는 경고 페이지의 예를 볼 수 있습니다.
   
 ## <a name="examples-of-warning-pages"></a>경고 페이지의 예
 

@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: bfd84948624beaa8ea9d2a37da2ecd186b5bd717
-ms.sourcegitcommit: 15202bba32313534da2478b0cd215f32a10c9ef4
+ms.openlocfilehash: 1a885661f5bf020c325ee2d9f084473ecb27c53a
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684367"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862510"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -29,24 +29,15 @@ ms.locfileid: "30684367"
 ![Advanced Threat Protection이 작동 하는 방식을 보는 대시보드](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 전자 메일 보안 보고서에는 다음이 포함 됩니다.
-
 - [암호화 보고서](#encryption-report) (새로운 방법!)
-  
-- [위협 방지 상태 보고서](view-email-security-reports.md#tps) 
-    
-- [맬웨어 감지 보고서](view-email-security-reports.md#maldet)
-    
+- [위협 방지 상태 보고서](#threat-protection-status-report) 
+- [맬웨어 감지 보고서](#malware-detections-report)    
 - [주요 맬웨어 보고서](#top-malware-report)
-    
-- [상위 보낸 사람 및 받는 사람 보고서](view-email-security-reports.md#topsenders)
-    
-- [스푸핑 메일 보고서](#spoof-mail-report)
-    
+- [상위 보낸 사람 및 받는 사람 보고서](#top-senders-and-recipients-report)
+- [스푸핑 감지 보고서](#spoof-detections-report)
 - [스팸 감지 보고서](#spam-detections-report)
-    
-- [보내고 받은 전자 메일 보고서](view-email-security-reports.md#sentreceivedemail)
-
-- [사용자가 보고 한 메시지 보고서](view-email-security-reports.md#userreported)
+- [보내고 받은 전자 메일 보고서](#sent-and-received-email-report)
+- [사용자가 보고 한 메시지 보고서](#user-reported-messages-report)
     
 ## <a name="encryption-report"></a>암호화 보고서
 

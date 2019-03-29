@@ -15,16 +15,16 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3a128103d16ed03edb18becde96a5d20ee6eca9b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 53d31bf05401d80e79f0d73c191d69fe378f98cb
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692407"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862490"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
-조직에 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )가 있고 [필요한 사용 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 보안 &amp; 및 준수 센터에서 여러 ATP 보고서를 사용할 수 있습니다. ( **보고서** \> **대시보드로**이동 합니다.)
+조직에 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )가 있고 [필요한 사용 권한이](#what-permissions-are-needed-to-view-the-atp-reports)있는 경우 보안 &amp; 및 준수 센터에서 여러 ATP 보고서를 사용할 수 있습니다. ( **보고서** \> **대시보드로**이동 합니다.)
   
 ![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   

@@ -15,12 +15,12 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 및 시작 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f30a3c8007d2643a67f59d9421496e9ae0bc6e8c
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: a04b39ecb11c33baa647bb9716af9ff12aed755e
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693137"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862522"
 ---
 # <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>위협 조사 및 응답 시작 (Office 365 Advanced Threat Protection 계획 2)
 
@@ -37,7 +37,7 @@ ms.locfileid: "30693137"
   
 ## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>위협 대시보드, 탐색기 및 인시던트 숙지
 
-보안 &amp; 및 준수 센터의 위협 조사 및 응답 기능 화면 [위협 대시보드](get-started-with-ti.md#dashboard), [위협 탐색기](get-started-with-ti.md#explorer), [인시던트](get-started-with-ti.md#incidents), 공격 등을 비롯 한 도구 및 응답 워크플로 집합 [ 시뮬레이터](attack-simulator.md)및 자동화 된 조사 & 응답
+보안 &amp; 및 준수 센터의 위협 조사 및 응답 기능 화면 [위협 대시보드](#threat-dashboard), [위협 탐색기](#threat-explorer), [인시던트](get-started-with-ti.md#incidents), 공격 등을 비롯 한 도구 및 응답 워크플로 집합 [ 시뮬레이터](attack-simulator.md)및 자동화 된 조사 & 응답
   
 ### <a name="threat-dashboard"></a>위협 대시보드
 

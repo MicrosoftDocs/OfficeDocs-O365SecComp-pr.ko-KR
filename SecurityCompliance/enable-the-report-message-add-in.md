@@ -3,7 +3,7 @@ title: 보고서 메시지 추가 기능을 사용하도록 설정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/05/2019
+ms.date: 03/26/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: f2bb79c4c613fdb804d19226fb359124387a678f
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 3c476a6e097307b1aabc3580b598bb91a4407731
+ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693387"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30866344"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -67,7 +67,7 @@ Office 365 전역 관리자 또는 exchange Online 관리자이 고 exchange가 
 ## <a name="get-and-enable-the-report-message-add-in-for-your-organization"></a>조직에 대 한 보고서 메시지 추가 기능 가져오기 및 사용
 
 > [!IMPORTANT]
-> 이 작업을 완료 하려면 Office 365 전역 관리자 또는 Exchange Online 관리자 여야 합니다. 또한 OAuth 인증을 사용 하 여 자세한 내용을 확인할 수 있도록 exchange를 구성 해야 합니다. [exchange 요구 사항 (추가 기능의 중앙 집중식 배포)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins&view=o365-worldwide#exchange-requirements)을 참조 하세요. 
+> 이 작업을 완료 하려면 Office 365 전역 관리자 또는 Exchange Online 관리자 여야 합니다. 또한 OAuth 인증을 사용 하 여 자세한 내용을 확인할 수 있도록 exchange를 구성 해야 합니다. [exchange 요구 사항 (추가 기능의 중앙 집중식 배포)](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins)을 참조 하세요. 
 
 1. Microsoft 365 관리 센터에서 [서비스 & 추가 기능 페이지로](https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns) 이동 합니다.<br/>![새 Microsoft 365 관리 센터의 서비스 및 추가 기능 페이지](media/ServicesAddInsPageNewM365AdminCenter.png)<br/> 
     

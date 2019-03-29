@@ -22,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 합니다.
-ms.openlocfilehash: 340faca2c869f051325babcb51b6cb6c976c98c8
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 7dacb4184ff0b99887b2aa5f3fe2e65cd58c5b6b
+ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410723"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30862550"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
@@ -36,7 +36,7 @@ ms.locfileid: "30410723"
 > [!IMPORTANT]
 > 이 문서는 Office 365 Enterprise 고객을 위한 것입니다. Outlook.com, office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
-Office 365 ATP 안전한 링크 ( [Advanced Threat Protection](office-365-atp.md)의 일부)는 [전자 메일 메시지](#how-atp-safe-links-works-with-email) 및 [Office 문서](#how-atp-safe-links-works-with-office-documents)에서 웹 주소 (url)를 클릭 하 여 확인 하는 시간을 제공 하 여 조직을 보호 하는 데 도움이 될 수 있습니다. 보호는 Office 365 보안 팀에서 설정 하는 [ATP 안전한 링크 정책을](set-up-atp-safe-links-policies.md) 통해 정의 됩니다. 
+Office 365 ATP 안전한 링크 ( [Advanced Threat Protection](office-365-atp.md)의 일부)는 [전자 메일 메시지](#how-atp-safe-links-works-with-urls-in-email) 및 [Office 문서](#how-atp-safe-links-works-with-urls-in-office-documents)에서 웹 주소 (url)를 클릭 하 여 확인 하는 시간을 제공 하 여 조직을 보호 하는 데 도움이 될 수 있습니다. 보호는 Office 365 보안 팀에서 설정 하는 [ATP 안전한 링크 정책을](set-up-atp-safe-links-policies.md) 통해 정의 됩니다. 
   
 ATP 안전한 링크 정책이 마련 되 면 Office 365 전역 관리자, 보안 관리자 및 보안 독자는 [Advanced Threat Protection에 대 한 보고서를 볼](view-reports-for-atp.md)수 있습니다. 이러한 보고서의 정보는 보안 팀이 조직을 보호 하거나 보안 인시던트를 연구 하기 위해 추가 단계를 수행 하는 데 도움이 될 수 있습니다.
 
@@ -112,7 +112,7 @@ ATP 안전한 링크 정책이 마련 되 면 Office 365 전역 관리자, 보�
 |---------|---------|
 |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
 |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> 선택하거나  <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
     
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>ATP 안전한 링크 보호가 적절 한지 확인 하는 방법
 
