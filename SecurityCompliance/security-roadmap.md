@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Office 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항입니다. '
-ms.openlocfilehash: feb11c90272fc639aacb0a49cc3272627df18af6
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: ba74827c34a869ee11553f02d9085b6f015b2d9d
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220808"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955171"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Office 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
 
@@ -58,11 +58,11 @@ ms.locfileid: "30220808"
   
 |||
 |:-----|:-----|
-|영역  <br/> |Tasks  <br/> |
-|보안 관리  <br/> |• 보안 점수를 확인 하 고 현재 점수를 기록해 둡니다 [https://securescore.office.com](https://securescore.office.com)().  <br/>  • Office 365에 대 한 감사 로깅을 설정 합니다. [Office 365 보안 &amp; 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하세요.<br/> • [보안 강화를 위해 Office 365 테 넌 트를 구성](tenant-wide-setup-for-increased-security.md) 합니다.  <br/>  • Office 365 보안 및 준수 센터 및 Cloud App security에서 대시보드 및 보고서를 정기적으로 검토 합니다.  <br/> |
-|위협 방지  <br/> |[Office 365을 Microsoft Cloud App Security에 연결](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 하 여 비정상 동작에 대 한 기본 위협 검색 정책을 사용 하 여 모니터링을 시작 합니다. 변칙 검색을 위한 기준을 작성 하는 데 7 일이 걸립니다.<br><br/>  관리자 계정에 대 한 보호 구현:  <br/> • 관리 활동에 전용 관리자 계정을 사용 합니다.  <br/>  • 관리자 계정에 대해 MFA (multi-factor authentication)를 적용 합니다.  <br/>  • 관리 활동에 [높은 보안 Windows 10 장치](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) 를 사용 합니다.  <br/> |
+|영역  <br/> |작업  <br/> |
+|보안 관리  <br/> |• 보안 점수를 확인 하 고 현재 점수를 기록해 둡니다 [https://securescore.office.com](https://securescore.office.com)().  <br/>  • Office 365에 대 한 감사 로깅을 설정 합니다. [감사 로그 검색을](search-the-audit-log-in-security-and-compliance.md)참조 하세요.  <br/> • [보안 강화를 위해 Office 365 테 넌 트를 구성](tenant-wide-setup-for-increased-security.md) 합니다.  <br/>  • Microsoft 365 보안 센터 및 Cloud App security에서 대시보드 및 보고서를 정기적으로 검토 합니다.  <br/> |
+|위협 방지  <br/> |[Office 365을 Microsoft Cloud App Security에 연결](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) 하 여 비정상 동작에 대 한 기본 위협 검색 정책을 사용 하 여 모니터링을 시작 합니다. 변칙 검색을 위한 기준을 작성 하는 데 7 일이 걸립니다.  <br><br/>  관리자 계정에 대 한 보호 구현:  <br/> • 관리 활동에 전용 관리자 계정을 사용 합니다.  <br/>  • 관리자 계정에 대해 MFA (multi-factor authentication)를 적용 합니다.  <br/>  • 관리 활동에 [높은 보안 Windows 10 장치](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-highly-secure) 를 사용 합니다.  <br/> |
 |ID 및 액세스 관리  <br/> |• [Azure Active Directory id 보호를 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-enable)합니다.  <br/> • 페더레이션 id 환경의 경우 계정 보안 (암호 길이, 연령, 복잡도 등)을 적용 합니다.  <br/> |
-|정보 보호  <br/> | 정보 보호 권장 사항 예를 검토 합니다. 정보 보호를 사용 하려면 조직 전체를 조정 해야 합니다. 다음 리소스를 사용 하 여 작업을 시작 합니다.<br/> • [gdpr에 대 한 Office 365 정보 보호](http://aka.ms/o365gdpr) <br/> • [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) (공유, 분류, 데이터 손실 방지 및 Azure Information Protection 포함)  <br/> |
+|정보 보호  <br/> | 정보 보호 권장 사항 예를 검토 합니다. 정보 보호를 사용 하려면 조직 전체를 조정 해야 합니다. 다음 리소스를 사용해서 시작하세요.  <br/> • [gdpr에 대 한 Office 365 정보 보호](http://aka.ms/o365gdpr) <br/> • [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) (공유, 분류, 데이터 손실 방지 및 Azure Information Protection 포함)  <br/> |
    
 ## <a name="90-days--enhanced-protections"></a>90 일-향상 된 보호
 <a name="Ninetydays"> </a>
@@ -72,10 +72,10 @@ ms.locfileid: "30220808"
 |||
 |:-----|:-----|
 |영역  <br/> |작업  <br/> |
-|보안 관리  <br/> | • 환경에 대 한 권장 작업 ( [https://securescore.office.com](https://securescore.office.com))에 대 한 보안 점수를 확인 합니다.  <br/>  • Office 365 보안 및 준수 센터, Cloud App Security 및 siem 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다.  <br/>  • 소프트웨어 업데이트를 찾고 구현 합니다.  <br/>  • [attack 시뮬레이터](https://support.office.com/article/attack-simulator-office-365-da5845db-c578-4a41-b2cb-5a09689a551b) ( [Office 365 위협 인텔리전스](office-365-ti.md)에 포함)를 사용 하 여 스피어-피싱, 암호-스프레이 및 무작위 암호 공격에 대 한 공격 시뮬레이션을 수행 합니다.  <br/>  • Cloud App Security의 기본 제공 보고서 (조사 탭)를 검토 하 여 공유 위험을 확인 합니다.  <br/>  • [준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) 를 확인 하 여 조직에 적용 되는 규정에 대 한 상태를 검토 합니다 (예: gdpr, NIST 800-171).  <br/> |
-|위협 방지  <br/> | 관리자 계정에 대해 향상 된 보호를 구현 합니다.  <br/>  • 관리 활동에 대 한 PAWs ( [권한이 부여 된 액세스 워크스테이션](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) )를 구성 합니다.  <br/>  • [Azure AD 권한이 부여 된 id 관리](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)를 구성 합니다.  <br/>  • Office 365, Cloud App security 및 AD FS를 비롯 한 기타 서비스에서 로깅 데이터를 수집 하도록 siem (보안 정보 및 이벤트 관리) 도구를 구성 합니다. Office 365 감사 로그에는 90 일 동안만 데이터가 저장 됩니다. siem 도구에서이 데이터를 캡처하면 더 긴 기간에 대 한 데이터를 저장할 수 있습니다.<br/> |
+|보안 관리  <br/> | • 환경에 대 한 권장 작업 ( [https://securescore.office.com](https://securescore.office.com))에 대 한 보안 점수를 확인 합니다.  <br/>  • Microsoft 365 보안 센터, Cloud App security 및 siem 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다.  <br/>  • 소프트웨어 업데이트를 찾고 구현 합니다.  <br/>  • [attack 시뮬레이터](https://support.office.com/article/attack-simulator-office-365-da5845db-c578-4a41-b2cb-5a09689a551b) ( [Office 365 위협 인텔리전스](office-365-ti.md)에 포함)를 사용 하 여 스피어-피싱, 암호-스프레이 및 무작위 암호 공격에 대 한 공격 시뮬레이션을 수행 합니다.  <br/>  • Cloud App Security의 기본 제공 보고서 (조사 탭)를 검토 하 여 공유 위험을 확인 합니다.  <br/>  • [준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) 를 확인 하 여 조직에 적용 되는 규정에 대 한 상태를 검토 합니다 (예: gdpr, NIST 800-171).  <br/> |
+|위협 방지  <br/> | 관리자 계정에 대해 향상 된 보호를 구현 합니다.  <br/>  • 관리 활동에 대 한 PAWs ( [권한이 부여 된 액세스 워크스테이션](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) )를 구성 합니다.  <br/>  • [Azure AD 권한이 부여 된 id 관리](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)를 구성 합니다.  <br/>  • Office 365, Cloud App security 및 AD FS를 비롯 한 기타 서비스에서 로깅 데이터를 수집 하도록 siem (보안 정보 및 이벤트 관리) 도구를 구성 합니다. Office 365 감사 로그에는 90 일 동안만 데이터가 저장 됩니다. siem 도구에서이 데이터를 캡처하면 더 긴 기간에 대 한 데이터를 저장할 수 있습니다.  <br/> |
 |ID 및 액세스 관리  <br/> | • 모든 사용자에 대해 MFA를 사용 하도록 설정 하 고 적용 합니다.  <br/>  • [조건부 액세스 및 관련 정책](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations)집합을 구현 합니다. |
-|정보 보호  <br/> | 정보 보호 정책을 적용 하 고 구현 합니다. 이러한 리소스에는 다음 예가 포함 됩니다.<br/> • [gdpr에 대 한 Office 365 정보 보호](http://aka.ms/o365gdpr) <br/> • [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Cloud App Security 대신 office 365에 저장 된 데이터에 대 한 office 365의 데이터 손실 방지 정책 및 모니터링 도구를 사용 합니다. <br><br>데이터 손실 방지를 제외 하 고 고급 경고 기능을 위해 Cloud App Security with Office 365을 사용 합니다.  <br/> |
+|정보 보호  <br/> | 정보 보호 정책을 적용 하 고 구현 합니다. 이러한 리소스에는 다음 예가 포함 됩니다.  <br/> • [gdpr에 대 한 Office 365 정보 보호](http://aka.ms/o365gdpr) <br/> • [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Cloud App Security 대신 office 365에 저장 된 데이터에 대 한 office 365의 데이터 손실 방지 정책 및 모니터링 도구를 사용 합니다. <br><br>데이터 손실 방지를 제외 하 고 고급 경고 기능을 위해 Cloud App Security with Office 365을 사용 합니다.  <br/> |
    
 ## <a name="beyond"></a>많은
 <a name="Beyond"> </a>
@@ -85,7 +85,7 @@ ms.locfileid: "30220808"
 |||
 |:-----|:-----|
 |영역  <br/> |작업  <br/> |
-|보안 관리  <br/> |• 보안 점수 ( [https://securescore.office.com](https://securescore.office.com))를 사용 하 여 다음 작업을 계속 계획 합니다.  <br/>  • Office 365 보안 및 준수 센터, Cloud App Security 및 siem 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다.  <br/>  • 계속 해 서 소프트웨어 업데이트를 찾고 구현 합니다.  <br/>  • eDiscovery를 법적 및 위협 대응 프로세스에 통합 합니다.  <br/> |
+|보안 관리  <br/> |• 보안 점수 ( [https://securescore.office.com](https://securescore.office.com))를 사용 하 여 다음 작업을 계속 계획 합니다.  <br/>  • Microsoft 365 보안 센터, Cloud App security 및 siem 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다.  <br/>  • 계속 해 서 소프트웨어 업데이트를 찾고 구현 합니다.  <br/>  • eDiscovery를 법적 및 위협 대응 프로세스에 통합 합니다.  <br/> |
 |위협 방지  <br/> | • 온-프레미스 (ad, ad FS)에서 id 구성 요소에 대 한 SPA ( [보안 액세스 권한](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/securing-privileged-access) )를 구현 합니다.  <br/>  • Cloud App Security를 사용 하 여 참가자 위협을 모니터링 합니다.  <br/>  • Cloud App Security를 사용 하 여 섀도 IT SaaS 사용 현황을 알아봅니다.  <br/> |
 |ID 및 액세스 관리  <br/> | • 정보 보호 정책 구체화:  <br/>  • Azure Information Protection 및 Office 365 DLP (데이터 손실 방지)  <br/>  • Cloud App Security 정책 및 알림  <br/> |
 |정보 보호  <br/> | • 정책 및 운영 프로세스를 구체화 합니다.  <br/>  • Azure AD id 보호를 사용 하 여 참가자 위협을 식별 합니다.  <br/> |
