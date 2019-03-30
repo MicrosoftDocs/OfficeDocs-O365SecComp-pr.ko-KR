@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: GDPR에 대한 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: c55828572760485eb1d197178d918aee7acaa0b6
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: 6810a6b6d9b0ea34ab11cc778c32a76d556d7a17
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373939"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955221"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 
@@ -37,7 +37,7 @@ ms.locfileid: "30373939"
 
 참고:
 
-- [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+- [PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 
 - [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 
@@ -143,7 +143,7 @@ KQL을 사용하여 쿼리를 작성하고 최적화하려면 다음 리소스�
 
 -   [KQL(키워드 쿼리 언어) 구문 참조(DMC)](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
--   [Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행](https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
+-   [콘텐츠 검색 실행](https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
 
 콘텐츠 검색은 KQL 쿼리 및 중요한 정보 유형을 개발하는 데 도움이 되는 또 다른 리소스인 키워드를 제공합니다. 키워드 목록은 왜 사용할까요? 많은 항목이 각 키워드와 일치하는 방식을 보여 주는 통계를 얻을 수 있습니다. 이러한 통계는 가장 많이(덜) 효과적인 키워드를 빠르게 식별하는 데 도움이 됩니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](https://support.office.com/ko-KR/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04)를 참조하세요.
 

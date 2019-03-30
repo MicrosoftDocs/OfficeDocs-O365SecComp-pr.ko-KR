@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 4167ace41c5d7534b7e90130c189e3c04e5c5100
-ms.sourcegitcommit: ae7ebae8801a69a825a363443e2676379197de19
+ms.openlocfilehash: 32f94e02dac81abaef46ef5495701e5037ff8c6b
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800290"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955201"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 레이블 적용
 
@@ -167,7 +167,7 @@ GDPR이 적용되는 개인 데이터의 경우, 사용자 환경을 위해 조�
 
 ## <a name="create-labels-and-auto-apply-label-policies"></a>레이블 만들기 및 레이블 정책 자동 적용
 
-보안 및 규정 준수 센터에서 레이블 및 정책을 만듭니다.
+보안 센터 또는 규정 준수 센터에서 레이블 및 정책을 만듭니다.
 
 <table>
 <thead>
@@ -179,16 +179,16 @@ GDPR이 적용되는 개인 데이터의 경우, 사용자 환경을 위해 조�
 <tbody>
 <tr class="odd">
 <td align="left"><p>규정 준수 팀의 구성원에게 권한을 부여합니다.</p></td>
-<td align="left"><p>레이블을 만드는 규정 준수 팀의 구성원에게는 의 보안 &amp; 규정 준수 센터를 사용할 수 있는 권한이 있어야 합니다. 보안 및 규정 준수 센터의 사용 권한으로 이동한 후, 규정 준수 관리자 그룹의 구성원을 수정합니다.</p>
-<p><a href="https://support.office.com/en-ie/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76">사용자에게 Office 365 보안 &amp; 준수 센터에 대한 액세스 권한 부여</a>를 참조하세요.</p></td>
+<td align="left"><p>레이블을 만드는 규정 준수 팀의 구성원에게는 의 보안 및/또는 규정 준수 센터를 사용할 수 있는 권한이 있어야 합니다. 보안 및 규정 준수 센터의 사용 권한으로 이동한 후, 규정 준수 관리자 그룹의 구성원을 수정합니다.</p>
+<p><a href="https://support.office.com/en-ie/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76">사용자에게 보안 및/또는 규정 준수 센터에 대한 액세스 권한 부여</a>를 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>보존 레이블 생성,</p></td>
-<td align="left">보안 및 규정 준수 센터의 분류로 이동한 후 보존 레이블을 선택하고 해당 환경에 대한 레이블을 만듭니다.</td>
+<td align="left">보안 센터 또는 규정 준수 센터의 분류로 이동한 후 보존 레이블을 선택하고 해당 환경에 대한 레이블을 만듭니다.</td>
 </tr>
 <tr class="odd">
 <td align="left"><p>레이블에 대한 자동 적용 정책을 만듭니다.</p></td>
-<td align="left">보안 및 규정 준수 센터에서 분류를 선택하고, 레이블 정책을 선택한 후 레이블을 자동 적용하기 위한 정책을 만듭니다. 이러한 정책을 우선 순위대로 만들어야 합니다.</td>
+<td align="left">보안 센터 또는 규정 준수 센터에서 분류를 선택하고, 레이블 정책을 선택한 후 레이블을 자동 적용하기 위한 정책을 만듭니다. 이러한 정책을 우선 순위대로 만들어야 합니다.</td>
 </tr>
 </tbody>
 </table>

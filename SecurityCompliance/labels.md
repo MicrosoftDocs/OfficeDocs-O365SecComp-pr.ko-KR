@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: 174be4cbb55b72a3bc8751460ff030b38238590e
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.openlocfilehash: 50b002236bb57094f170d4b796ee20c0268fbdd1
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900137"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955241"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -384,11 +384,13 @@ OneDrive에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치�
   
 자세한 내용은 [레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-label-as-a-condition-in-a-dlp-policy)을 참조하세요.
   
-## <a name="using-the-label-activity-explorer-and-the-data-governance-reports"></a>레이블 활동 탐색기 및 데이터 거버넌스 보고서 사용
+## <a name="monitor-retention-labels"></a>보존 레이블 모니터링
 
 보존 레이블을 게시하거나 자동으로 적용한 후에 의도대로 콘텐츠에 적용되는지 확인할 수 있습니다. 보존 레이블을 모니터링하려면 다음을 사용할 수 있습니다.
   
 - **레이블 활동 탐색기**. 이 탐색기(아래 그림 참조)를 사용하면 지난 30일 동안 SharePoint 및 비즈니스용 OneDrive에서 사용된 모든 콘텐츠를 빠르게 검색하고 해당 보존 레이블 활동을 볼 수 있습니다. 자세한 내용은 [문서에 대한 레이블 활동 보기](view-label-activity-for-documents.md)를 참조하세요.
+
+- **레이블 분석** 페이지. Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에서 빠르게 상단 레이블 및 레이블이 적용된 위치를 볼 수 있습니다. 특정 레이블이 포함된 모든 콘텐츠를 볼 수 있습니다. 자세한 내용은 [레이블 분석을 사용한 레이블 사용량 보기](label-analytics.md)를 참조하세요.
     
 - **데이터 거버넌스 보고서**. 이러한 보고서를 사용하면 지난 90일 동안 Exchange, SharePoint 및 비즈니스용 OneDrive에서 사용된 모든 콘텐츠에 대한 보존 레이블 추세 및 활동을 빠르게 확인할 수 있습니다. 자세한 내용은 [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)를 참조하세요.
     

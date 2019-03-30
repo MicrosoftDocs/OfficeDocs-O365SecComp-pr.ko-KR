@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Office 365의 GDPR 기능을 설명합니다.
-ms.openlocfilehash: c0d46eb8839fe594e00ae40fae3b2eb69dc2adcc
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: d4d4113f6d78069a150e13c32ab192571671d986
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373909"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955281"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>GDPR 검색, 보호 및 Office 365 개발/테스트 환경에서 보고
 
@@ -175,7 +175,7 @@ Contoso는 내부 서신, 외부 서신, 문서 및 기타 양식에서 항상 C
 
 ## <a name="phase-5-demonstrate-data-protection"></a>5단계: 데이터 보호 설명
 
-Office 365의 개인 정보 보호에는 데이터 손실 방지(DLP) 기능을 사용하는 방식이 포함됩니다. Office 365 보안 및 준수 센터의 DLP 정책을 사용하여 Office 365 전체에서 중요한 정보를 자동으로 보호할 수 있습니다.
+Office 365의 개인 정보 보호에는 DLP(데이터 손실 방지) 기능이 포함됩니다.  DLP 정책을 사용하여 Office 365에 걸친 중요한 정보를 자동으로 보호할 수 있습니다.
 
 보호를 적용할 수 있는 여러 가지 방법이 있습니다. EU 상주 데이터가 사용자 환경에 저장되고 직원이 처리하도록 허용된 방법에 대한 인식을 개선하고 교육하는 것은 Office 365 DLP를 사용하는 한 수준의 정보 보호를 나타냅니다.
 

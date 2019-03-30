@@ -16,16 +16,16 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 DLP 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: c0b78611a81452ecd8cb8993842c26f6012bb736
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: af4af4fd8a80b1f1ad34919ed1380f4fed7d9461
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373949"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955251"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 보호 적용
 
-Office 365의 개인 정보 보호에는 데이터 손실 방지 기능을 사용하는 방식이 포함됩니다. Office 365 보안 및 규정 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체에서 중요한 정보를 식별, 모니터링하고 자동으로 보호할 수 있습니다.
+Office 365의 개인 정보 보호에는 데이터 손실 방지 기능이 포함되어 있습니다. 규정 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하면 Office 365 전체에서 중요한 정보를 식별하고, 모니터링하고, 자동으로 보호할 수 있습니다.
 
 이 항목에서는 DLP를 사용하여 개인 데이터를 보호하는 방법을 설명합니다. 이 항목에서는 SharePoint 라이브러리의 권한 설정 및 장치 액세스 정책 사용을 포함하여 GDPR 규정 준수를 위해 사용할 수 있는 기타 보호 기능도 나와 있습니다.
 

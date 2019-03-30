@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: 1923aa00f4ababb66ff8c915a8c3d7a99ff1cd04
-ms.sourcegitcommit: 15983a08a4ae9c2050344172c7e957830ce3867e
+ms.openlocfilehash: d9b48589ace06186d5f177d1b90f02f8657637bd
+ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "30373889"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30955211"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -57,7 +57,7 @@ DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
 또한 DLP 보고서를 사용하여 테스트 모드에서 실행하면서 DLP 정책을 미세 조정할 수 있습니다.
 
-DLP 보고서는 보안 및 준수 센터에 있습니다. 보고서 \> 보고서 보기로 이동합니다. DLP(데이터 손실 방지) 아래에서 DLP 정책 및 규칙 일치 또는 DLP 가양성 및 재정의로 이동합니다.
+DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고서 \> 보고서 보기로 이동합니다. DLP(데이터 손실 방지)에서 DLP 정책 및 규칙 일치 또는 DLP 가양성 및 재정의로 이동합니다.
 
 자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](https://support.office.com/ko-KR/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b)를 참조하세요.
 
@@ -67,9 +67,9 @@ DLP 보고서는 보안 및 준수 센터에 있습니다. 보고서 \> 보고�
 
 Office 365 감사 로그에는 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft Teams, Power BI, Sway 및 기타 Office 365 서비스의 이벤트가 포함되어 있습니다.
 
-Office 365 보안 및 준수 센터에서는 Office 365 감사 로그에 대한 보고서를 모니터링하고 보고하는 두 가지 방법을 제공합니다.
+보안 센터 및 규정 준수 센터에서는 Office 365 감사 로그에 대한 보고서를 모니터링하고 보고하는 두 가지 방법을 제공합니다.
 
--   경고 정책 설정, 경고 보기 및 추세 모니터링 — Office 365 보안 및 준수 센터에서 새 경고 정책 및 알림 대시보드 도구를 사용합니다.
+-   경고 정책 설정, 경고 보기 및 추세 모니터링 — 보안 센터 또는 규정 준수 센터에서 새 경고 정책 및 알림 대시보드 도구를 사용합니다.
 
 -   감사 정책 직접 검색 - 지정한 날짜 범위의 모든 이벤트를 검색하거나, 작업을 수행한 사용자 작업 또는 대상 개체와 같은 특정 기준에 따라 결과를 필터링합니다.
 
@@ -81,14 +81,14 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
--   [Office 365 보안 및 준수 센터의 경고 정책](https://support.office.com/ko-KR/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+-   [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/ko-KR/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
 -   [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
 
 -   [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/ko-KR/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
 -   
-  [Office 365 보안 및 준수 센터에서 감사 로그 검색](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+  [감사 로그 검색](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
 -   
   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
