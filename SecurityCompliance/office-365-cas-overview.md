@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud App Security 개요
+title: Overview of Office 365 Cloud App Security
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -14,21 +14,21 @@ search.appverid:
 - MOE150
 ms.assetid: 81f0ee9a-9645-45ab-ba56-de9cbccab475
 description: 'office 365 Cloud App Security에서는 office 365의 의심 스러운 활동에 대 한 정보를 제공 하므로 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있습니다. '
-ms.openlocfilehash: 974858a547d9af2db600f9856efbce619a3b38e4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 960e4c75a4da13e1a0365f75d290cd18587abd58
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220178"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001211"
 ---
-# <a name="overview-of-office-365-cloud-app-security"></a>Office 365 Cloud App Security 개요
+# <a name="overview-of-office-365-cloud-app-security"></a>Overview of Office 365 Cloud App Security
   
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|
 |사용자가 여기 있어!  <br/> [다음 단계](get-ready-for-office-365-cas.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |[활용 시작](utilization-activities-for-ocas.md) <br/> |
    
 > [!NOTE]
-> office 365 Cloud App Security는 office 365 Enterprise E5에서 사용할 수 있습니다. 조직에서 다른 office 365 Enterprise 구독을 사용 하는 경우 office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다. (전역 관리자 인 경우 Office 365 관리 센터에서 **청구** \> **구독 추가**를 선택 합니다.) 자세한 내용은 [office 365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)을 참조 하세요. 
+> office 365 Cloud App Security는 office 365 Enterprise E5에서 사용할 수 있습니다. 조직에서 다른 office 365 Enterprise 구독을 사용 하는 경우 office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다. (전역 관리자 인 경우 Microsoft 365 관리 센터에서 **청구** \> **구독 추가**를 선택 합니다.) 자세한 내용은 [office 365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)을 참조 하세요. 
   
 office 365 Cloud App Security에서는 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있도록 office 365의 의심 스러운 활동에 대해 설명 합니다. office 365 Cloud App Security를 사용 하 여 이례적인 또는 의심 스러운 활동에 대 한 트리거된 알림의 알림을 받을 수 있으며, office 365에서 조직의 데이터를 액세스 하 여 사용 하는 방법, 사용자 계정 일시 중단 활동이 발생 하는 방식 및 요구 사항을 참조 하세요. 경고가 트리거된 후 Office 365 앱에 다시 로그인 하는 사용자입니다. 이 문서를 읽으면 Office 365 Cloud App Security 기능 및 기능에 대 한 개요를 확인할 수 있습니다.
   
@@ -48,7 +48,7 @@ Office 365 보안 &amp; 및 준수 센터에서 찾을 수도 있습니다. 이 
     
 3. **Office 365 Cloud App Security로 이동을**선택 합니다. 
     
-## <a name="policies"></a>Policies(정책)
+## <a name="policies"></a>정책도
 
 Office 365 Cloud App Security는 조직에 대해 정의 된 정책에 따라 작동 합니다. Office 365 Cloud App Security를 사용 하는 경우 조직에는 몇 가지 미리 정의 된 변칙 검색 정책과 활동 정책에 대 한 여러 서식 파일이 포함 됩니다. 이러한 정책은 일반적인 예외를 감지 하 고 위험한 ip 주소에서 로그인 하는 사용자를 식별 하며, 랜 섬 웨어 활동을 감지 하 고, 회사 이외의 IP 주소에서 관리자 활동을 검색 하는 등의 작업을 지원 합니다.
   
@@ -64,7 +64,7 @@ Office 365 Cloud App Security는 조직에 대해 정의 된 정책에 따라 �
     
 - [Office 365 Cloud App Security 변칙 검색 정책](anomaly-detection-policies-in-ocas.md)
     
-## <a name="alerts"></a>알림
+## <a name="alerts"></a>경고
 
 정책이 정의 되 면 감지 된 의심 스러운 활동 또는 이례적인 작업에 대 한 알림을 받습니다. 조직의 알림을 보려면 화면 맨 위에 있는 탐색 모음에서 **경고** 를 선택 합니다. 
   

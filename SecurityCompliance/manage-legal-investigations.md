@@ -12,17 +12,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
-description: Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례를 사용 하 여 조직의 법적 조사를 관리 합니다. E5 구독이 있는 경우에는 고급 eDiscovery의 텍스트 분석, 기계 학습 및 예측 코딩 기능을 사용 하 여 사례 데이터를 보다 자세히 분석할 수 있습니다.
-ms.openlocfilehash: b97bd99740e2db090df70af0c76070186f5b8ccf
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+description: 조직의 법적 조사를 관리 하려면 Office 365의 Security & 준수 센터에서 eDiscovery 사례를 사용 합니다. E5 구독이 있는 경우에는 고급 eDiscovery의 텍스트 분석, 기계 학습 및 예측 코딩 기능을 사용 하 여 사례 데이터를 보다 자세히 분석할 수 있습니다.
+ms.openlocfilehash: 5bfa4719f2bb065a7064e7dc9d02778a4d032da8
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296901"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999921"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Office 365에서 법적 조사 관리
 
-조직에는 조직의 특정 임원 또는 다른 직원과 관련 된 법적 사례에 대응 해야 하는 여러 가지 이유가 있습니다. 이 작업을 수행 하는 동안에는 해당 일상 업무 작업에 사람들이 사용 하는 전자 메일, 문서, 인스턴트 메시징 대화 및 기타 콘텐츠 위치에서 특정 정보를 빠르게 찾고 보존 하는 작업이 포함 될 수 있습니다. Office 365 보안 &amp; 및 준수 센터의 eDiscovery 사례 도구를 사용 하 여 이와 유사한 다양 한 작업을 수행할 수 있습니다.
+조직에는 조직의 특정 임원 또는 다른 직원과 관련 된 법적 사례에 대응 해야 하는 여러 가지 이유가 있습니다. 이 작업을 수행 하는 동안에는 해당 일상 업무 작업에 사람들이 사용 하는 전자 메일, 문서, 인스턴트 메시징 대화 및 기타 콘텐츠 위치에서 특정 정보를 빠르게 찾고 보존 하는 작업이 포함 될 수 있습니다. 보안 & 준수 센터의 eDiscovery 사례 도구를 사용 하 여 이러한 작업과 비슷한 여러 가지 작업을 수행할 수 있습니다.
   
 [eDiscovery 사례를 사용 하 여 법적 조사 관리](#manage-legal-investigations-with-ediscovery-cases)
   
@@ -46,7 +46,7 @@ ediscovery 사례를 사용 하면 조직에서 ediscovery 사례를 만들고, 
     
 ### <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 스크립트 사용
 
-콘텐츠 검색 시나리오에 대해 스크립트를 나열 하는 이전 섹션에서와 마찬가지로 eDiscovery 사례를 &amp; 관리 하는 데 도움이 되는 몇 가지 보안 준수 센터 PowerShell 스크립트도 만들었습니다.
+콘텐츠 검색 시나리오에 대 한 스크립트를 나열 하는 이전 섹션에서와 마찬가지로 eDiscovery 사례를 관리 하는 데 도움이 되는 몇 가지 보안 & 준수 센터 PowerShell 스크립트도 만들었습니다.
   
 - 조직의 ediscovery 사례와 관련 된 모든 보류에 대 한 정보가 포함 된 [eDiscovery 보류 보고서를 만듭니다](create-a-report-on-holds-in-ediscovery-cases.md) . 
     
@@ -54,18 +54,18 @@ ediscovery 사례를 사용 하면 조직에서 ediscovery 사례를 만들고, 
   
 ## <a name="analyze-case-data-using-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery를 사용 하 여 사례 데이터 분석
 
-Office 365 Advanced eDiscovery는 이전 섹션에서 설명한 콘텐츠 검색 및 eDiscovery 기능을 기반으로 합니다. eDiscovery 사례를 만들고 custodian 위치를 보류 한 후 사례에 응답할 수 있는 데이터를 수집 하 고 나면 텍스트 분석, 기계 학습 및 고급의 예측 코딩 기능을 사용 하 여 데이터를 상세히 분석할 수 있습니다. eDiscovery. 이를 통해 조직에서 수천 개의 전자 메일 메시지, 문서 및 기타 종류의 데이터를 빠르게 처리 하 여 특정 사례와 관련성이 가장 높은 항목을 찾을 수 있습니다. 또한 보안 &amp; 및 준수 센터에서 동일한 사례를 완벽 하 게 관리할 수 있도록 통합 사례 관리 및 고급 eDiscovery가 제공 됩니다.
+Office 365 Advanced eDiscovery는 이전 섹션에서 설명한 콘텐츠 검색 및 eDiscovery 기능을 기반으로 합니다. eDiscovery 사례를 만들고 custodian 위치를 보류 한 후 사례에 응답할 수 있는 데이터를 수집 하 고 나면 텍스트 분석, 기계 학습 및 고급의 예측 코딩 기능을 사용 하 여 데이터를 상세히 분석할 수 있습니다. eDiscovery. 이를 통해 조직에서 수천 개의 전자 메일 메시지, 문서 및 기타 종류의 데이터를 빠르게 처리 하 여 특정 사례와 관련성이 가장 높은 항목을 찾을 수 있습니다. 또한 보안 & 준수 센터에서 동일한 대/소문자를 완벽 하 게 관리할 수 있도록 통합 사례 관리 및 고급 eDiscovery가 제공 됩니다.
   
 > [!NOTE]
 > 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 데이터의 custodian 사용자에 게 Office 365 E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 서비스 케이스에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 분석 하는 관리자 및 규정 준수 직원은 E5 라이선스가 필요 하지 않습니다. 
   
 ### <a name="get-started"></a>시작
 
-고급 ediscovery를 시작 하는 가장 빠른 방법은 사례를 만들고, 보안 &amp; 및 준수 센터에서 검색 결과를 준비한 다음, 고급 ediscovery로 결과를 로드 하 고, 익스프레스 분석을 실행 하 여 사례 데이터를 분석 한 다음 외부 검토에 대 한 결과입니다.
+고급 ediscovery를 시작 하는 가장 빠른 방법은 사례를 만들고 보안 & 준수 센터에서 검색 결과를 준비한 후 advanced ediscovery에서 결과를 로드 한 다음, 빠른 분석을 실행 하 여 사례 데이터를 분석 하 고 결과를 내보내는 것입니다. 외부 리뷰에 해당 합니다.
   
 - 고급 eDiscovery 워크플로에 대 한 [간략 한 개요 보기](quick-setup-for-advanced-ediscovery.md) 
     
-- 보안 &amp; 및 준수 센터를 사용 하 여 사례를 만들고, eDiscovery 권한을 할당 하 고, 사례 구성원을 추가 하 여 고급 eDiscovery에 대 한 [사용자 및 사례를 설정](set-up-users-and-cases-in-advanced-ediscovery.md) 합니다. 
+- 보안 & 준수 센터를 사용 하 여 사례를 만들고, eDiscovery 권한을 할당 하 고, 사례 구성원을 추가 하 여 고급 eDiscovery에 대 한 [사용자 및 사례를 설정](set-up-users-and-cases-in-advanced-ediscovery.md) 합니다. 
     
 - Advanced eDiscovery에서 사례에 대 한 [검색 데이터 준비 및 로드](prepare-data-for-advanced-ediscovery.md) 
     

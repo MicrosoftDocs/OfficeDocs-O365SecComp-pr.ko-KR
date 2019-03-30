@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 Office 365 보안 & 준수 센터의 메일 흐름 대시보드에서 배달 못 함 보고서에 대해 알아볼 수 있습니다.
+description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 배달 못 함 보고서에 대해 알아볼 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 7786e2667f268566d189d4f09acd937eacb2c225
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+ms.openlocfilehash: 21d9b08330ddb5832600431f0d60179c7a157177
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30722992"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000061"
 ---
 # <a name="non-delivery-report"></a>배달 못 함 보고서
 
@@ -24,7 +24,7 @@ ms.locfileid: "30722992"
 
 **배달 못 함 보고서** 에는 조직 내 사용자에 대 한 ndr 또는 바운스 메시지 라고도 하는 배달 못함 보고서의 가장 많이 발생 한 오류 코드가 표시 됩니다. 이 보고서는 ndr의 세부 정보를 표시 하기 위한 것 이므로 문제를 해결할 수 있습니다.
 
-![Office 365 Security & 준수 센터의 메일 흐름 대시보드의 배달 못 함 보고서](media/non-delivery-report-selected.png)
+![Security & 준수 센터의 메일 흐름 대시보드의 배달 못 함 보고서](media/non-delivery-report-selected.png)
 
 **데이터 표시를**클릭 하 여 모든 NDR 코드나 특정 코드에 대 한 정보를 표시할 수 있습니다. **세부 정보 표 보기** 를 클릭 하 여 다음 다이어그램에 표시 된 보다 자세한 보기를 볼 수도 있습니다.
 

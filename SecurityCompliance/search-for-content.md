@@ -10,17 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
-description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾습니다.
-ms.openlocfilehash: 255ddbde4488ab5e7d13872cea95398ed5fd4d75
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+description: 보안 & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
+ms.openlocfilehash: fc0bea90ce9cbfc27f894985c7d3083756ab108a
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214538"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000971"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
 
-보안 &amp; 및 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일 검색 도구를 사용 합니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 office 365 그룹과 같은 office 365 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
+Security & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 office 365 그룹과 같은 office 365 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
   
 ## <a name="search-for-content"></a>콘텐츠 검색
 
@@ -72,7 +72,7 @@ ms.locfileid: "30214538"
     
 ## <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 스크립트 사용
 
-경우에 따라 고급, 복잡 및 반복적인 콘텐츠 검색 작업을 수행 해야 하는 경우가 있습니다. 이러한 경우 보안 &amp; 및 준수 센터에서 PowerShell 명령을 사용 하는 것이 쉽고 빠릅니다. 이를 용이 하 게 하기 위해 복잡 한 콘텐츠 검색 관련 작업 &amp; 을 완료 하는 데 도움이 되는 다양 한 보안 준수 센터 PowerShell 스크립트를 만들었습니다.
+경우에 따라 고급, 복잡 및 반복적인 콘텐츠 검색 작업을 수행 해야 하는 경우가 있습니다. 이러한 경우 보안 & 준수 센터에서 PowerShell 명령을 더 쉽고 빠르게 사용할 수 있습니다. 이를 용이 하 게 하기 위해 복잡 한 콘텐츠 검색 관련 작업을 완료 하는 데 도움이 되는 다양 한 보안 & 준수 센터 PowerShell 스크립트를 만들었습니다.
   
 - [특정 사서함 및 사이트 폴더 검색](use-content-search-for-targeted-collections.md) ( *대상 컬렉션* 이라고 함) 항목에 대 한 응답 항목이 해당 폴더에 있는 것을 확신 하는 경우 
     

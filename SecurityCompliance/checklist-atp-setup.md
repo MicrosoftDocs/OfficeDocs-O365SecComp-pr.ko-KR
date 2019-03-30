@@ -14,14 +14,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 여기에는 Office 365 ATP (Advanced Threat Protection)가 조직에 맞게 설정 되 고 구성 되었는지 확인 하는 데 사용할 수 있는 빠른 시작 가이드가 나와 있습니다.
-ms.openlocfilehash: 5aecbdb63f30a620812de44907b29dcae838ba36
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: a071c626327aa7d0055df522e8fec5ebe41d6a83
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693302"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999401"
 ---
-# <a name="quick-start-guide-set-up-office-365-advanced-threat-protection"></a>빠른 시작 가이드: Office 365 Advanced Threat Protection 설정
+# <a name="quick-start-guide-set-up-office-365-advanced-threat-protection"></a>빠른 시작 가이드: Office 365 고급 위협 방지 설정
 
 다음은 조직에 Office 365의 ATP (Advanced Threat Protection)가 설정 되어 있는지 확인 하기 위한 검사 목록으로 사용할 수 있는 빠른 시작 가이드입니다. Office 365에서 위협 보호를 처음 사용 하는 경우 또는 시작할 위치를 모르는 경우에는 다음 지침을 출발점으로 활용 하세요. 
 
@@ -44,7 +44,7 @@ ms.locfileid: "30693302"
 
 ## <a name="part-1---anti-malware"></a>1 부-맬웨어 방지
 
-1. [Office 365 Security & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **맬웨어 방지**를 선택 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **맬웨어 방지**를 선택 합니다.
 2. **기본** 정책을 두 번 클릭 한 다음 **설정을**선택 합니다.
 3. 다음 설정을 지정 합니다.
     - **맬웨어 검색 응답** 섹션에서 기본 설정인 **아니요**를 그대로 둡니다.
@@ -59,7 +59,7 @@ ms.locfileid: "30693302"
 
 ### <a name="atp-safe-attachments-policies"></a>ATP 안전한 첨부 파일 정책
 
-1. [Office 365 보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 첨부 파일**을 선택 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 첨부 파일**을 선택 합니다.
 2. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 설정**옵션을 선택 합니다.
 3. **전자 메일 첨부 파일 보호** 섹션에서 더하기 기호 (**+**)를 클릭 합니다.
 4. 다음 설정을 지정 합니다.
@@ -76,7 +76,7 @@ ms.locfileid: "30693302"
 
 ATP 안전한 링크를 설정 하려면 기본 정책을 검토 하 고 정책을 추가 합니다.
 
-1. [Office 365 보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 링크**를 선택 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 링크**를 선택 합니다.
 2. **기본** 정책을 두 번 클릭 합니다.
 3. 다음 **의 안전한 링크 사용** 섹션에서 **office 365 ProPlus, iOS 및 Android 용 office**를 차례로 선택 하 고 **저장**을 클릭 합니다.
 4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 더하기 기호 (**+**)를 클릭 합니다.
@@ -94,7 +94,7 @@ ATP 안전한 링크를 설정 하려면 기본 정책을 검토 하 고 정책�
 
 ## <a name="part-3---anti-phishing"></a>3 부-피싱 방지 
 
-1. [Office 365 보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 피싱 방지**를 선택 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 피싱 방지**를 선택 합니다.
 2. **기본 정책을**클릭 합니다.
 3. **가장** 섹션에서 **편집**을 클릭 하 고 다음 설정을 지정 합니다.
     -  **보호할 사용자 추가** 탭에서 보호를 설정 합니다. 그런 다음 조직의 보드 구성원, CEO, CFO 및 기타 선임 리더와 같은 사용자를 추가 합니다. (개별 전자 메일 주소를 입력 하거나를 클릭 하 여 목록을 표시할 수 있습니다.)
@@ -112,7 +112,7 @@ ATP 안전한 링크를 설정 하려면 기본 정책을 검토 하 고 정책�
 
 ## <a name="part-4---anti-spam"></a>4 부-스팸 방지
 
-1. [Office 365 보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **스팸 방지**를 선택 합니다.
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **스팸 방지**를 선택 합니다.
 2. **사용자 지정** 탭에서 **사용자 지정 설정을** 켭니다.
 3. **기본 스팸 필터 정책을**확장 하 고 **정책 편집**을 클릭 한 후 다음 설정을 지정 합니다.
     - **스팸 및 대량 작업** 섹션에서 임계값을 5 또는 6으로 설정 합니다.

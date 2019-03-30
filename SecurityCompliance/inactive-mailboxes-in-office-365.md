@@ -16,29 +16,29 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: 사서함을 비활성 사서함으로 설정 하 여 이전 직원의 사서함 콘텐츠를 보존 하는 방법에 대해 알아봅니다. 이 작업을 수행 하려면 사서함을 소송 보존으로 설정 하거나, 사서함에 office 365 유지 정책을 적용 한 다음 해당 하는 office 365 계정을 제거 하면 됩니다.
-ms.openlocfilehash: 569922c4a840c25d638ecdcb024a95d5de345e2d
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 12688cb1c0f1d165c21736ce5a6130245db36a06
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296531"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000801"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Office 365의 비활성 사서함에 대 한 개요
 
-조직에서는 조직에서 나간 후에 이전 직원의 전자 메일을 보존 해야 할 수 있습니다. 조직의 보존 요구 사항에 따라 고용 종료 후 몇 개월 또는 몇 년 동안 사서함 콘텐츠를 보존 해야 할 수도 있고, 사서함 콘텐츠를 무기한 보존 해야 할 수도 있습니다. 전자 메일을 보존 해야 하는 시간에 관계 없이 Office 365에서 비활성 사서함을 만들어 이전 직원의 사서함을 보존할 수 있습니다. 
+조직 퇴사한 후 이전 직원의 전자 메일을 유지 해야 합니다. 조직의 보존 요구 사항에 따라 사서함 콘텐츠를 무기한 유지 하는 것이 해야할 수는 몇 개월 또는 고용 종료 된 후 연도나 있습니다에 대 한 사서함 콘텐츠를 보관 해야할 수 있습니다. 전자 메일을 보존 해야 하는 시간에 관계 없이 Office 365에서 비활성 사서함을 만들어 이전 직원의 사서함을 보존할 수 있습니다. 
   
 ## <a name="what-are-inactive-mailboxes"></a>비활성 사서함은 무엇입니까?
 
 직원이 조직에서 나갈 때까지 또는 확장 된 부재 중 상태로 전환 되 면 해당 Office 365 계정을 제거할 수 있습니다. 직원의 사서함 데이터는 계정을 제거한 후 30 일 동안 보존 됩니다. 이 기간 동안에도 계정을 삭제 취소 하 여 사서함 데이터를 복구할 수 있습니다. 30 일 후에는 데이터가 영구적으로 제거 됩니다.
   
-그러나 조직에서 이전 직원의 사서함 콘텐츠를 보존 해야 하는 경우에는 사서함을 소송 보존 상태로 설정 하거나 office 365 보안 &amp; 의 사서함에 office 365 보존 정책을 적용 하 여 사서함을 비활성 사서함으로 전환할 수 있습니다. 준수 센터를 제거한 다음 해당 하는 Office 365 계정을 제거 합니다. 비활성 사서함의 내용은 사서함에 대 한 소송 보존 기간 동안 또는 사서함을 삭제 하기 전에 해당에 적용 된 Office 365 보존 정책 유지 기간 동안 보존 됩니다. 30 일 동안 해당 사용자 계정을 계속 복구할 수 있습니다. 그러나 30 일 후에 비활성 사서함은 보류 또는 보존 정책이 제거 될 때까지 Office 365에 보존 됩니다. 
+그러나 조직에서 이전 직원의 사서함 콘텐츠를 보존 해야 하는 경우에는 사서함을 소송 보존 상태로 설정 하거나 보안 & 준수 센터의 사서함에 Office 365 보존 정책을 적용 하 여 사서함을 비활성 사서함으로 전환할 수 있습니다. 해당 Office 365 계정을 제거 합니다. The contents of an inactive mailbox are retained for the duration of the Litigation Hold placed on the mailbox or the retention period of the Office 365 retention policy applied to it before the mailbox was deleted. You can still recover the corresponding user account for a 30-day period. 그러나 30 일 후에 비활성 사서함은 보류 또는 보존 정책이 제거 될 때까지 Office 365에 보존 됩니다. 
   
-**중요:** 사서함을 비활성 상태로 만들려면 7 월 1 일, 새로운 원본 위치 유지를 만드는 것이 2017 마감 시간을 연기 했습니다. 그러나 올해에는 Exchange Online에서 새로운 현재 위치 유지를 만들 수 없습니다. 해당 시간에는 소송 보존 및 Office 365 보관 정책만 사용 하 여 비활성 사서함을 만들 수 있습니다. 그러나 원본 위치 유지 상태인 기존 비활성 사서함은 계속 지원 되며 비활성 사서함에 대 한 원본 위치 유지를 계속 관리할 수 있습니다. 여기에는 원본 위치 유지 기간을 변경 하 고 원본 위치 유지를 제거 하 여 비활성 사서함을 영구적으로 삭제 하는 작업이 포함 됩니다. 
+**중요:** 사서함을 비활성 상태로 만들려면 7 월 1 일, 새로운 원본 위치 유지를 만드는 것이 2017 마감 시간을 연기 했습니다. 하지만 올해 말이나 내년 초에는 Exchange Online에 새 원본 위치 유지를 만들 수 없습니다. 그때는 소송 보존과 Office 365 보존 정책만 사용하여 비활성화 사서함을 만들 수 있습니다. 그러나 원본 위치 유지에 있는 기존 비활성화 사서함은 계속 지원되며 비활성화 사서함에서 원본 위치 유지를 계속 관리할 수 있습니다. 관리 항목으로는 원본 위치 유지 기간 변경 및 원본 위치 유지를 삭제하여 비활성화 사서함을 영구 삭제하는 작업이 포함됩니다. 
  
   
 ## <a name="inactive-mailboxes-and-office-365-retention-policies"></a>비활성 사서함 및 Office 365 보존 정책
 
-소송 보존 외에, 보안 &amp; 및 준수 센터에서 새 Office 365 보존 정책 기능을 사용 하 여 사서함을 비활성 상태로 만드는 또 다른 방법입니다. 보존 정책을 사용 하 여 비활성 사서함을 만들려면 다음을 수행 합니다. 
+소송 보존 외에도 보안 & 준수 센터의 새로운 Office 365 보존 정책 기능을 사용 하 여 사서함을 비활성 상태로 만드는 또 다른 방법입니다. To use a retention policy to make an inactive mailbox: 
   
 - Exchange 사서함 또는 비즈니스용 Skype 위치 (때문에 적용할 수 Skype 관련 콘텐츠는 사용자의 사서함에 저장 됨)에 합니다. 
     
@@ -56,15 +56,15 @@ Office 365 보존 정책을 구성 하는 방법에 대 한 자세한 내용은 
     
 - 비활성 사서함에 보존 정책이 적용 될만 하기 때문에 비활성 사서함을 식별 하는 간편한 방법입니다.
     
-- 조직의 비활성 사서함에 할당 된 보존 정책을 쉽게 식별할 수 있게 됩니다. 이를 통해 필요한 경우 보존 또는 삭제 설정을 쉽게 변경할 수 있습니다. 또한 보안 &amp; 준수 센터를 사용 하 여 정책에서 제거할 수 있으므로 비활성 사서함을 영구적으로 삭제 하는 것이 더 쉽습니다. 그렇지 않은 경우 Exchange Online PowerShell을 사용 하 여 비활성 사서함에서 소송 보존을 제거 하거나 보안 &amp; 준수 센터 PowerShell을 사용 하 여 조직 전반의 Office 365 보존 정책에서 비활성 사서함을 제외 해야 합니다.
+- You'll be able to easily identify the retention policy that's assigned to inactive mailboxes in your organization. This will make it easier to change the retention (or deletion) settings if necessary. 또한 보안 & 준수 센터를 사용 하 여 정책에서 제거할 수 있으므로 비활성 사서함을 영구적으로 삭제 하는 것이 더 쉽습니다. 그렇지 않은 경우 Exchange Online PowerShell을 사용 하 여 비활성 사서함에서 소송 보존을 제거 하거나 Security & 준수 센터 PowerShell을 사용 하 여 조직 전반의 Office 365 보존 정책에서 비활성 사서함을 제외 해야 합니다.
     
 - 비활성 사서함에 대해 구체적으로 Office 365 보존 정책을 만들 경우 최대 1, 000 사서함 정책에 추가할 수 있습니다. 대규모 조직의 경우 비활성 사서함에 대 한 사용 하 여 두개 이상의 Office 365 보존 정책을 만들 해야할 수 있습니다.
   
 ## <a name="inactive-mailboxes-and-ediscovery-case-holds"></a>비활성 사서함 및 eDiscovery 사례 보류
 
-보안 &amp; 준수 센터에서 eDiscovery 사례와 관련 된 보류가 사서함에 배치 되 면 사서함 이나 사용자의 Office 365 계정이 삭제 되 고 사서함이 비활성 사서함이 됩니다. 그러나 사서함을 비활성 상태로 만들려면 eDiscovery 사례 보류를 사용 하지 않는 것이 좋습니다. eDiscovery 사례는 법적 문제와 관련 된 특정 시간 바인딩 사례에 사용 되기 때문입니다. 경우에 따라 법적 사례가 종료 되 고 사례와 연결 된 보류를 제거 하 고 eDiscovery 사례를 닫을 수 있습니다. 실제로 비활성 사서함에 있는 보류가 ediscovery 사례와 연결 된 후 보류가 해제 되거나 ediscovery 사례가 종료 (또는 삭제) 되 면 비활성 사서함이 영구적으로 삭제 됩니다. 또한 시간 기반 eDiscovery 보류를 만들 수 없습니다. 즉 비활성 사서함의 콘텐츠는 영구적으로 보존 되며 보존을 제거 하 고 비활성 사서함을 삭제할 때까지 유지 됩니다. 따라서 비활성 사서함에 대 한 소송 보존 또는 Office 365 보관 정책을 사용 하는 것이 좋습니다.
+보안 & 준수 센터에서 eDiscovery 사례와 관련 된 보류가 사서함에 배치 되 면 사서함 이나 사용자의 Office 365 계정이 삭제 되 고 사서함이 비활성 사서함이 됩니다. However, we don't recommend using eDiscovery case holds to make a mailbox inactive. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. At some point, a legal case will probably end and the holds associated with the case will be removed and the eDiscovery case will be closed. In fact, if a hold that's placed on an inactive mailbox is associated with an eDiscovery case, and then the hold is released or the eDiscovery case is closed (or deleted), the inactive mailbox will be permanently deleted. Additionally, you can't create a time-based eDiscovery hold. That's means content in an inactive mailbox will be retained forever or until the hold is removed and the inactive mailbox is deleted. Therefore, we recommend using a Litigation Hold or an Office 365 retention policy for inactive mailboxes.
   
-ediscovery 사례 및 보류에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례](ediscovery-cases.md)를 참조 하세요.
+ediscovery 사례 및 보류에 대 한 자세한 내용은 [ediscovery 사례](ediscovery-cases.md)를 참조 하십시오.
   
 ## <a name="inactive-mailboxes-and-office-365-labels"></a>비활성 사서함 및 Office 365 레이블
 
@@ -80,9 +80,9 @@ Exchange 보존 정책 ( Exchange Online 의 메시징 레코드 관리 또는 M
   
 ## <a name="creating-an-inactive-mailbox"></a>비활성 사서함 만들기 (영문)
 
-사서함을 비활성화 하려면이를 삭제 하기 전에 사서함에 적용할 수 있도록 Exchange Online (요금제 2) 라이선스를 할당 받아야 합니다. 사서함이 삭제 되 면이에 연결 된 Exchange Online 라이선스를 새 사용자에 게 할당할 수 있습니다. 비활성 사서함의 경우에는 지속적인 라이선스가 필요 하지 않습니다.
+사서함을 비활성화 하려면, 할당 되어야 합니다 Exchange Online (계획 2) 라이선스를 삭제 하기 전에 사서함에 소송 보존으로 설정 또는 Office 365 보존 정책 적용 될 수 있도록 합니다. 사서함이 삭제 되 면이에 연결 된 Exchange Online 라이선스를 새 사용자에 게 할당할 수 있습니다. 비활성 사서함 지속적인 라이선스가 필요 하지 않습니다.
   
-다음 표에서는 서로 다른 보존 시나리오에 대 한 비활성 사서함을 만드는 프로세스를 요약 하 여 보여 줍니다. 자세한 내용은 [Office 365에서 비활성 사서함 관리](create-and-manage-inactive-mailboxes.md)를 참조 하세요.
+다음 표에 서로 다른 보존 시나리오에 대 한 비활성 사서함 되도록 설정 하는 프로세스를 간략하게 나와 있습니다. 자세한 내용은 [Office 365에서 비활성 사서함 관리](create-and-manage-inactive-mailboxes.md)를 참조 하세요.
   
 |**받는 사람...**|**이 작업을 수행...**|**결과**|
 |:-----|:-----|:-----|
@@ -95,10 +95,10 @@ Exchange 보존 정책 ( Exchange Online 의 메시징 레코드 관리 또는 M
 
 사서함을 비활성 변경한 후에 비활성 사서함에서 다양 한 관리 작업을 수행할 수 있습니다.
   
-- **비활성 사서함에 대 한 보존 기간 변경** 사서함을 비활성화 한 후에는 비활성 사서함에 적용 되는 소송 보류 또는 Office 365 보존 정책의 대기 시간을 변경할 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함에 대 한 보존 기간 변경을](change-the-hold-duration-for-an-inactive-mailbox.md)참조 하십시오.
+- **비활성 사서함에 대 한 보존 기간 변경** 사서함 비활성 이루어진 후 소송 보존으로 설정 또는 Office 365 보존 정책의 비활성 사서함에 적용 된 보존 기간을 변경할 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함에 대 한 보존 기간 변경을](change-the-hold-duration-for-an-inactive-mailbox.md)참조 하십시오.
     
-- **비활성 사서함 복구** 이전 직원 (또는 결근 한 휴가의 직원)이 조직에 게 반환 되거나, 이전 직원의 직무에 따라 새 직원이 고용 되 면 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 사서함이 새 사서함으로 변환 되 고 비활성 사서함의 콘텐츠 및 폴더 구조가 유지 되며 사서함이 새 사용자 계정에 연결 됩니다. 복구 된 후에는 비활성 사서함이 더 이상 존재 하지 않습니다. 단계별 절차와 비활성 사서함을 복구할 때 수행 되는 작업에 대 한 정보는 [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)를 참조 하십시오.
+- **비활성 사서함 복구** 조직에 이전 직원 (또는 휴가에 직원)를 반환 하는 경우 또는 이전 직원의 직무에 적용할 새 직원 고용 하는 경우 비활성 사서함의 내용을 복구할 수 있습니다. 비활성 사서함을 복구 하는 경우 사서함 새 사서함으로 변환 됩니다 내용과 비활성 사서함의 폴더 구조 유지 되므로 및 사서함을 새 사용자 계정에 연결 됩니다. 복구한 후 비활성 사서함 존재 하지 않습니다. 단계별 절차와 비활성 사서함을 복구할 때 수행 되는 작업에 대 한 정보는 [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)를 참조 하십시오.
     
-- **비활성 사서함 복원** 다른 직원이 이전 직원의 작업을 수행 하거나 다른 사용자가 비활성 사서함의 콘텐츠에 액세스 해야 하는 경우 비활성 사서함의 내용을 기존 사서함으로 복원 하거나 병합할 수 있습니다. 비활성 사서함을 복원 하면 해당 내용이 다른 사서함에 복사 됩니다. 비활성 사서함은 유지 되 고 비활성 사서함은 유지 됩니다. eDiscovery 도구를 사용 하 여 비활성 사서함을 계속 검색할 수 있으며, 해당 콘텐츠를 다른 사서함으로 복원할 수 있으며 나중에 복구 하거나 삭제할 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함 복원을](restore-an-inactive-mailbox.md)참조 하십시오.
+- **비활성 사서함 복원** 하는 경우 이전 직원의 직무에 가져와 다른 직원 또는 다른 사람에 게 비활성 사서함의 내용에 액세스가 필요한 경우 복원할 수 있습니다 (또는 병합) 기존 사서함을 비활성 사서함의 내용입니다. 비활성 사서함을 복원 하는 경우에 내용은 다른 사서함에 복사 됩니다. 비활성 사서함은 유지 하 고 비활성 사서함을 유지 됩니다. EDiscovery 도구를 사용 하 여 비활성 사서함 검색 여전히 수, 다른 사서함의 내용을 복원할 수 하 고 복구할 되거나 나중에 삭제 될 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함 복원을](restore-an-inactive-mailbox.md)참조 하십시오.
     
-- **비활성 사서함 삭제** 비활성 사서함의 콘텐츠를 더 이상 보존할 필요가 없으면 비활성 사서함에 적용 된 모든 보류 또는 Office 365 보존 정책을 제거 하 여 영구적으로 삭제할 수 있습니다. 사서함이 30 일 보다 더 이상 비활성 상태가 되 면 보존을 제거한 후 영구 삭제로 표시 됩니다. 지난 30 일 이내에 비활성 상태로 설정 된 사서함은 보류 또는 보존 정책을 제거한 후 다시 활성화할 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함 삭제](delete-an-inactive-mailbox.md)를 참조 하세요.
+- **비활성 사서함 삭제** 더이상 비활성 사서함의 내용을 유지 해야하는 경우 모든 보류 또는 비활성 사서함에 적용 된 Office 365 보존 정책을 제거 하 여 영구적으로 삭제할 수 없습니다. 한 경우에 사서함 비활성 30 일 보다 전, 것으로 표시 됩니다 영구적으로 삭제에 대 한 보류를 제거 합니다. 한 경우에 사서함 비활성 지난 30 일 동안, 가능 것 현재 보류 또는 보존 정책 제거 하는 한 후에 다시 합니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함 삭제](delete-an-inactive-mailbox.md)를 참조 하세요.

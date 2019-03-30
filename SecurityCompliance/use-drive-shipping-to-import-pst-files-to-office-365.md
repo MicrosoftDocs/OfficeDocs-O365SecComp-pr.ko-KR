@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: '관리자: pst 파일을 하드 드라이브에 복사한 다음 Microsoft로 발송 하 여 조직의 pst 파일을 Office 365 사서함으로 대량 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e6623e4b5a66b9c2e8eeb2cfe6c978115b6fdc9f
-ms.sourcegitcommit: fb50bf2f2c9d780c911f245a2f78c6bb5e357f67
+ms.openlocfilehash: d0e2c155c267939755a85f30f1ad234dc57cfe5f
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950475"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999991"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>드라이브 전달을 사용 하 여 조직 PST 파일을 Office 365로 가져오기
 
@@ -52,7 +52,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
 
 - PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. 자세한 내용은 [Manage role groups](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하십시오.
     
-    또한 Office 365 보안 &amp; 및 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
+    또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
     
   - Exchange Online에서 Mail Recipients 역할을 할당 받아야 합니다. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
@@ -110,14 +110,14 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
 첫 번째 단계는 2 단계에서 하드 드라이브에 PST 파일을 복사 하는 데 사용할 보안 저장소 키와 도구를 다운로드 하는 것입니다.
   
 > [!IMPORTANT]
-> drive 배송료 메서드를 사용 하 여 PST 파일을 가져오려면 Azure 가져오기/내보내기 도구 버전 1 (WAimportExportV1)을 사용 해야 합니다. Azure 가져오기/내보내기 도구 버전 2는 지원 되지 않으며이를 사용 하면 가져오기 작업에 대 한 하드 드라이브를 잘못 준비 하 게 됩니다. 이 단계의 절차에 따라 보안 &amp; 및 준수 센터에서 Azure 가져오기/내보내기 도구를 다운로드 해야 합니다. 
+> drive 배송료 메서드를 사용 하 여 PST 파일을 가져오려면 Azure 가져오기/내보내기 도구 버전 1 (WAimportExportV1)을 사용 해야 합니다. Azure 가져오기/내보내기 도구 버전 2는 지원 되지 않으며이를 사용 하면 가져오기 작업에 대 한 하드 드라이브를 잘못 준비 하 게 됩니다. 이 단계의 절차에 따라 Security & 준수 센터에서 Azure 가져오기/내보내기 도구를 다운로드 해야 합니다. 
   
-1. 으로 이동 [https://protection.office.com/](https://protection.office.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com/](https://compliance.microsoft.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
+2. 보안 & 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
     
     > [!NOTE]
-    > 앞에서 설명한 것 처럼 보안 &amp; 및 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한을 할당 받아야 합니다. 
+    > 앞에서 설명한 것 처럼 보안 & 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한을 할당 받아야 합니다. 
   
 3. **가져오기** ![페이지에서 아이콘](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
     
@@ -141,7 +141,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
     
 7. **취소** 를 클릭 하 여 마법사를 닫습니다. 
     
-    4 단계에서 가져오기 작업을 **** 만들면 보안 &amp; 및 준수 센터의 가져오기 페이지로 돌아갑니다. 
+    4 단계에서 가져오기 작업을 만들 때 Security & 준수 센터의 **가져오기** 페이지로 돌아갑니다. 
 
 ## <a name="step-2-copy-the-pst-files-to-the-hard-drive"></a>2 단계: PST 파일을 하드 드라이브에 복사
 
@@ -242,14 +242,14 @@ Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역�
 
 다음 단계에서는 Office 365의 가져오기 서비스에 PST 가져오기 작업을 만듭니다. 앞서 설명한 것처럼 3단계에서 만든 PST 가져오기 매핑 파일을 전송합니다. 새 작업을 만든 후에는 가져오기 서비스가 매핑 파일의 정보를 사용 하 여 pst 파일이 하드 드라이브에서 Azure 저장소 영역으로 복사 된 후에 지정한 사용자 사서함으로 pst 파일을 가져오고 가져오기 작업을 만들고 시작 합니다.
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
+2. 보안 & 준수 센터의 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
     
 3. **가져오기** ![페이지에서 아이콘](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
     
     > [!NOTE]
-    > 앞에서 설명한 것 처럼 보안 &amp; 및 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한을 할당 받아야 합니다. 
+    > 앞에서 설명한 것 처럼 보안 & 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한을 할당 받아야 합니다. 
   
 4. PST 가져오기 작업의 이름을 입력 하 고 **다음**을 클릭 합니다. 소문자, 숫자, 하이픈 및 밑줄을 사용 합니다. 이름에는 대문자를 사용 하거나 공백을 포함할 수 없습니다.
     
@@ -328,7 +328,7 @@ Microsoft로 하드 드라이브를 발송할 때는 다음 사항에 유의하�
 
 Microsoft에 하드 드라이브를 발송한 후 가져오기 서비스 페이지에서 다음 절차를 완료합니다.
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
     
@@ -354,7 +354,7 @@ Microsoft에서 하드 드라이브를 받은 후에는 **가져오기** 페이�
   
 PST 파일이 Azure에 업로드 되 면 상태가 **분석 중**으로 변경 됩니다. 이는 Office 365이 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 하 여 항목의 보존 기간 및 pst 파일에 포함 된 다양 한 메시지 유형을 식별 하는 것을 의미 합니다. 분석이 완료 되 고 데이터를 가져올 준비가 되 면 가져오기 작업의 상태가 **분석 완료**로 변경 됩니다. 이때 PST 파일에 포함 된 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 잘라낼 수 있습니다.
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. 왼쪽 창에서 **데이터 거 버 넌 스** > **가져오기를**클릭 합니다.
     
@@ -396,9 +396,9 @@ azure 저장소 탐색기를 설치 하 고 azure storage 영역에 연결 하�
   
 1. 조직의 SAS (공유 액세스 서명) URL을 가져오려면 다음 단계를 수행 합니다. 이 URL은 조직에 대 한 Microsoft 클라우드의 Azure 저장소 위치 및 SAS 키에 대 한 네트워크 URL의 조합입니다. 이 키는 조직의 Azure 저장소 위치에 액세스 하는 데 필요한 사용 권한을 제공 합니다.
     
-1. 으로 이동 [https://protection.office.com/](https://protection.office.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com/](https://compliance.microsoft.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
+2. 보안 & 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
     
 3. **가져오기** ![페이지에서 아이콘](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
     

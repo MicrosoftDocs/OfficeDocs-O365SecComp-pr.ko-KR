@@ -11,13 +11,13 @@ ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
-description: Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: 4cfdb95ef65f94bc46b79265f986ed8d9ada04da
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
+ms.openlocfilehash: 06d1d4d213f0efd5a05badd9a0edef568ae15d75
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899998"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001241"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
 
@@ -56,7 +56,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
     
   - **비즈니스용 OneDrive** - https://contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com 
     
-- **사용자 자격 증명** -스크립트는 자격 증명을 사용 하 여 Exchange Online 및 원격 PowerShell을 &amp; 통해 보안 준수 센터에 연결 합니다. 앞에서 설명한 것 처럼이 스크립트를 성공적으로 실행 하려면 적절 한 사용 권한을 할당 받아야 합니다.
+- **사용자 자격 증명** -스크립트는 자격 증명을 사용 하 여 Exchange Online 및 원격 PowerShell을 통해 보안 & 준수 센터에 연결 합니다. 앞에서 설명한 것 처럼이 스크립트를 성공적으로 실행 하려면 적절 한 사용 권한을 할당 받아야 합니다.
     
 사서함 폴더 또는 사이트 documentlink (경로) 이름 목록을 표시 하려면 다음을 수행 합니다.
   
@@ -66,7 +66,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
   #########################################################################################################
   # This PowerShell script will prompt you for:                             #
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
-  #      Online and who is an eDiscovery Manager in the Security &amp; Compliance Center.           #
+  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.           #
   # The script will then:                                           #
   #    * If an email address is supplied: list the folders for the target mailbox.          #
   #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
@@ -83,7 +83,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
   #########################################################################################################
   # Collect the target email address or SharePoint Url
   $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
-  # Authenticate with Exchange Online and the Security &amp; Compliance Center (Exchange Online Protection - EOP)
+  # Authenticate with Exchange Online and the Security & Compliance Center (Exchange Online Protection - EOP)
   if (!$credentials)
   {
       $credentials = Get-Credential
@@ -125,7 +125,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
       $searchActionName = "SPFoldersSearch_Preview"
       # List the folders for the SharePoint or OneDrive for Business Site
       $siteUrl = $addressOrSite
-      # Authenticate with the Security &amp; Compliance Center
+      # Authenticate with the Security & Compliance Center
       if (!$SccSession)
       {
           $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $credentials -Authentication Basic -AllowRedirection

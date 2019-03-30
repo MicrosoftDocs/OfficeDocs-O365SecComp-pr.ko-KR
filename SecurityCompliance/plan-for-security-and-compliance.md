@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 계획 보안 및 규정 준수에 대 한 랜딩 페이지
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 4c653e20fbab8f93897b00589a00cb53b1e36963
-ms.sourcegitcommit: 07a4f9a8888756e05cd67ca24f6121b2a4e9f464
+ms.openlocfilehash: b0c7af13a78499f3ee8af5b902bc4c8db85aca32
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512653"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998491"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Office 365의 &amp; 보안 준수 계획
 
@@ -53,7 +53,7 @@ Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 
   
 [PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
-## <a name="step-5-leverage-the-office-365-security-amp-compliance-center"></a>5 단계: Office 365 보안 &amp; 및 준수 센터 활용
+## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>5 단계: Microsoft 365 보안 &amp; 및 준수 센터 활용
 
 보안 &amp; 및 준수 센터에서는 위협 관리, 데이터 거 버 넌 스, 검색 및 조사를 비롯 한 Office 365 보안의 스펙트럼을 관리 하는 데 사용할 수 있는 컨트롤을 단일 보기로 제공 합니다. 
   
@@ -71,13 +71,13 @@ Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 
     
 - [Microsoft 클라우드의 Contoso](http://aka.ms/cloudarchcontoso)
     
-## <a name="office-365-admin-centers-and-dashboards"></a>Office 365 관리 센터 및 대시보드
+## <a name="microsoft-365-admin-centers-and-dashboards"></a>Microsoft 365 관리 센터 및 대시보드
 
 이러한 관리 센터 및 대시보드에서 Office 365 환경을 보호 하도록 보안 및 규정 준수 설정 구성
   
 |**구독은**|**관리 URL**|**대시보드 및 관리 센터**|
 |:-----|:-----|:-----|
-|Office 365  <br/> |`https://portal.office.com`  <br/> | Office 365 관리 센터  <br/>  Security &amp; Compliance Center  <br/>  Exchange 관리 센터  <br/>  SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터  <br/> |
+|Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Microsoft 365 관리 센터  <br/>  Security &amp; Compliance Center  <br/>  Exchange 관리 센터  <br/>  SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Microsoft 모바일 응용 프로그램 관리  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
    

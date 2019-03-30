@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: 8ac5fff97828764524c8bfa1510549396d509866
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: fa2709c995ff9ef83213b86e079a778c61bef3a2
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692237"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000991"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 기능 FAQ
 
@@ -71,7 +71,7 @@ ms.locfileid: "30692237"
   
  **질문. 스팸 보고서를 확인할 수 있습니까?**
   
-대답. 예를 들어 Office 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서는 스팸 볼륨을 고유한 메시지의 수로 표시 합니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
+대답. 예를 들어 Microsoft 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서는 스팸 볼륨을 고유한 메시지의 수로 표시 합니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
   
 exchange online 고객: [exchange online의 모니터링, 보고 및 메시지 추적](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
   

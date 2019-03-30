@@ -3,23 +3,22 @@ title: Office 365 Exchange 데이터 복구
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Exchange Online 및 Office 365 내의 다양 한 데이터 복구 측면에 대 한 설명입니다.
-ms.openlocfilehash: 02395c9d87f9f75b260bac88e97db3df7d23e532
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 9e61efaf95d466fcb268e12317c7feab0701c062
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220408"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004235"
 ---
 # <a name="exchange-online-data-resiliency-in-office-365"></a>Office 365의 Exchange Online 데이터 복구
 
@@ -46,7 +45,7 @@ exchange Online에서 사서함 데이터가 손상 되지 않도록 보호 기�
 - [원본 위치 유지 및 소송 보존](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) 
 - [삭제 된 항목 보존 및 일시 삭제 된 사서함 (기본적으로 사용 하도록 설정 됨)](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes) 
 
-## <a name="database-availability-groups"></a>데이터베이스 가용성 그룹 
+## <a name="database-availability-groups"></a>데이터베이스 사용 가능 그룹 
 Office 365의 모든 사서함 데이터베이스는 [DAG (데이터베이스 사용 가능 그룹)](https://docs.microsoft.com/exchange/back-up-email) 에 호스트 되 고 동일한 지역 내의 지리적으로 구분 된 데이터 센터로 복제 됩니다. 가장 일반적인 구성은 4 개의 데이터 센터에 있는 네 개의 데이터베이스 복사본입니다. 그러나 일부 지역에는 데이터 센터가 더 적고, 데이터베이스는 인도로 세 데이터 센터에 복제 되며, 오스트레일리아와 일본에는 두 데이터 센터가 있습니다. 그러나 모든 경우에는 모든 사서함 데이터베이스에 여러 데이터 센터에 분산 된 복사본이 4 개 있으므로 사서함 데이터를 소프트웨어, 하드웨어 및 데이터 센터 오류 로부터 보호할 수 있습니다. 
 
 이 네 개의 복사본 중에서 세 개 복사본이 사용 가능한 고가용성으로 구성 됩니다. 네 번째 복사본은 [지연 된 데이터베이스 복사본](https://docs.microsoft.com/Exchange/high-availability/manage-ha/activate-lagged-db-copies)으로 구성 됩니다. 지연 된 데이터베이스 복사본은 개별 사서함 복구 또는 사서함 항목 복구를 위한 것이 아닙니다. 이는 시스템 전반의 치명적 논리적 손상의 드문 이벤트에 대 한 복구 메커니즘을 제공 하는 데 목적이 있습니다. 
@@ -58,9 +57,9 @@ Exchange Online에는 섀도 중복성 및 보안 네트워크 라는 두 가지
 
 섀도 중복성을 사용 하는 경우 각 Exchange Online 전송 서버는 보내는 서버에 대 한 메시지 수신을 성공적으로 승인 하기 전에 받은 각 메시지의 복사본을 만듭니다. 이를 통해 전송 파이프라인의 모든 메시지를 전송할 때 중복 됩니다. Exchange Online에서 원본 메시지가 전송 중 손실 되었음을 확인 하면 메시지의 중복 복사본을 것 판단 됩니다. 
 
-보안 네트워크는 사서함 서버의 전송 서비스와 연결 된 전송 큐입니다. 이 큐는 서버에 의해 성공적으로 처리 된 메시지의 복사본을 저장 합니다. 사서함 데이터베이스 또는 서버 오류에 대해 오래 된 사서함 데이터베이스 복사본을 활성화 해야 하는 경우 보안 네트워크 큐의 메시지가 사서함 데이터베이스의 새 활성 복사본으로 자동 다시 전송 됩니다. 보안 네트워크도 중복 되므로 단일 실패 지점으로 전송 되지 않습니다. 기본 보안 네트워크는 12 시간 이상 사용할 수 없는 경우 기본 보안 네트워크와 섀도 보안 네트워크의 개념을 사용 하며, 전송 요청은 섀도 다시 전송 요청이 되 고, 메시지는 섀도 보안 네트워크에서 다시 배달 됩니다.
+보안 네트워크는 사서함 서버의 전송 서비스와 연결 된 전송 큐입니다. 이 큐는 서버에 의해 성공적으로 처리된 메시지의 복사본을 저장합니다. 사서함 데이터베이스 또는 서버 오류에 대해 오래 된 사서함 데이터베이스 복사본을 활성화 해야 하는 경우 보안 네트워크 큐의 메시지가 사서함 데이터베이스의 새 활성 복사본으로 자동 다시 전송 됩니다. 보안 네트워크도 중복 되므로 단일 실패 지점으로 전송 되지 않습니다. 기본 보안 네트워크는 12 시간 이상 사용할 수 없는 경우 기본 보안 네트워크와 섀도 보안 네트워크의 개념을 사용 하며, 전송 요청은 섀도 다시 전송 요청이 되 고, 메시지는 섀도 보안 네트워크에서 다시 배달 됩니다.
 
-보안 네트워크에서 상황이 메시지는 dag 및 사서함 데이터베이스 복사본을 관리 하는 Microsoft Exchange 복제 서비스의 Active Manager 구성 요소에 의해 자동으로 시작 됩니다. 보안 네트워크에서 메시지를 다시 전송 하는 데 수동 작업은 필요 하지 않습니다. 
+보안 네트워크에서 상황이 메시지는 dag 및 사서함 데이터베이스 복사본을 관리 하는 Microsoft Exchange 복제 서비스의 Active Manager 구성 요소에 의해 자동으로 시작 됩니다. 보안 네트워크에서 메시지를 다시 전송하는 데 수동 작업은 필요하지 않습니다. 
 
 ## <a name="single-bit-correction"></a>단일 비트 교정 
 ESE에는 하드웨어 오류를 비롯 하 여 물리적 손상을 나타내는 단일 비트 CRC 오류 (즉, 단일 비트 플립)를 감지 하 고 해결 하는 메커니즘이 포함 되어 있습니다. 이러한 오류가 발생 하면 ESE는 자동으로 해당 오류를 수정 하 고 이벤트 로그에 이벤트를 기록 합니다. 

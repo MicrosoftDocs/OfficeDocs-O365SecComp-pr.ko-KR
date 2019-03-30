@@ -1,38 +1,37 @@
 ---
-title: Office 365의 감사 및 보고
+title: Microsoft 클라우드 서비스의 감사 및 보고
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 12/03/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 - M365-analytics
-description: 서비스 보증 뿐만 아니라 Office 365 내의 감사 및 보고 기능에 대 한 개요입니다.
-ms.openlocfilehash: e2fd596279743ad72a3632ba09ec28142e9322f4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+description: Office 365, Microsoft 365 및 서비스 보증 내의 감사 및 보고 기능에 대 한 개요입니다.
+ms.openlocfilehash: a5df0dcb6f762723c6ec0102b2c39f1bc157720c
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221018"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004115"
 ---
-# <a name="auditing-and-reporting-in-office-365"></a>Office 365의 감사 및 보고
+# <a name="auditing-and-reporting-in-microsoft-cloud-services"></a>Microsoft 클라우드 서비스의 감사 및 보고
 
 ## <a name="introduction"></a>소개
 Microsoft 클라우드 서비스에는 고객의 테 넌 트 내에서 사용자 및 관리 활동을 추적 하는 데 사용할 수 있는 여러 감사 및 보고 기능이 포함 되어 있습니다 (예: Exchange online 및 SharePoint online 테 넌 트 구성 설정에 대 한 변경). 사용자가 문서 및 기타 항목에 대해 변경한 내용 고객은 클라우드 서비스에서 사용할 수 있는 감사 정보 및 보고서를 사용 하 여 사용자 환경을 보다 효율적으로 관리 하 고 위험을 완화 하 고 준수 의무를 충족할 수 있습니다.
 
-## <a name="office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터
-office [365 Security & 준수 센터](https://support.office.com/article/Go-to-the-Office-365-Security-Compliance-Center-7e696a40-b86b-4a20-afcc-559218b7b1b8) 는 office 365에서 데이터를 보호 하기 위한 일회성 포털로, 다양 한 감사 및 보고 기능을 포함 합니다. Office 365 준수 센터의 발전입니다. 보안 & 준수 센터는 데이터 보호 또는 규정 준수 요구 사항이 있거나 사용자 및 관리자 작업을 감사 하려는 조직을 위해 설계 되었습니다. 보안 & 준수 센터를 사용 하 여 조직의 모든 Office 365 데이터에 대 한 준수를 관리할 수 있습니다. Office 365 관리 계정을 [http://protection.office.com](http://protection.office.com/) 사용 하 여 보안 & 준수 센터에 액세스할 수 있습니다.
+## <a name="security--compliance-centers"></a>보안 & 준수 센터
+[Office 365 security & 준수 센터](https://protection.office.com), [microsoft 365 보안 센터](https://security.microsoft.com)및 [microsoft 365 준수 센터](https://compliance.microsoft.com) 는 조직의 데이터를 보호 하는 1 개의 중지 포털이 며 다양 한 감사 및 보고 기능을 포함 합니다. 기능. 이러한 센터는 데이터 보호 또는 규정 준수 요구 사항이 있거나 사용자 및 관리자 작업을 감사 하려는 조직을 위해 설계 되었습니다. 구독 관리자 계정을 사용 하 여 이러한 센터에 액세스할 수 있습니다.
 
-보안 & 준수 센터에는 다음과 같은 몇 가지 기능에 대 한 액세스를 제공 하는 탐색 창이 포함 되어 있습니다.
+이러한 센터에는 다음과 같은 여러 기능에 대 한 액세스를 제공 하는 탐색 창이 포함 됩니다.
 - **경고** - [Office 365 Cloud App security](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/office-365-cas-overview)를 사용 하 여 알림을 관리 하 고, 보안 관련 알림을 보고, 고급 알림을 관리할 수 있습니다. 
-- **사용 권한** -보안 & 준수 센터에서 작업을 수행할 수 있도록 조직의 사용자에 게 준수 관리자, eDiscovery 관리자 및 다른 사용자에 게 [할당 된 사용 권한을 지정할](https://support.office.com/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76) 수 있습니다. 보안 & 준수 센터에서 대부분의 기능에 대 한 사용 권한을 할당할 수 있지만, 다른 사용 권한은 Exchange 관리 센터 및 SharePoint 관리 센터를 사용 하 여 구성 해야 합니다.
+- **사용 권한** -이 센터에서 작업을 수행할 수 있도록 조직의 사용자에 게 준수 관리자, eDiscovery 관리자 및 기타 권한 등의 [사용 권한을 지정할](https://support.office.com/article/Give-users-access-to-the-Office-365-Security-Compliance-Center-2cfce2c8-20c5-47f9-afc4-24b059c1bd76) 수 있습니다. 각 센터에서 대부분의 기능에 사용 권한을 할당할 수 있지만, 다른 사용 권한은 Exchange 관리 센터 및 SharePoint 관리 센터를 사용 하 여 구성 해야 합니다.
 - **위협 관리** - [Office 365 모바일 장치 관리](https://support.office.com/article/Overview-of-Mobile-Device-Management-for-Office-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)를 사용 하 여 장치 관리 정책을 만들고 적용할 수 있으며, 조직에 대 한 DLP ( [데이터 손실 방지](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) ) 정책을 설정 하 고, 전자 메일 필터링을 구성 합니다. 맬웨어 방지, domainkeys 식별 된 메일 (dkim), 안전한 첨부 파일, 안전한 링크 및 OAuth 앱
 - **데이터 거 버 넌 스** - [다른 시스템에서 전자 메일 또는 SharePoint 데이터를 Office 365로 가져오고](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84), [보관 사서함을 구성](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)하 고, 전자 메일 및 조직 내의 기타 콘텐츠에 대 한 [보존 정책을](https://support.office.com/article/Retention-in-the-Office-365-Security-Compliance-Center-2a0fc432-f18c-45aa-a539-30ab035c608c) 설정할 수 있습니다.
 - **Search & 조사한** [콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a), [감사 로그](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c), 격리 및 [eDiscovery 사례 관리](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) 도구를 제공 하 여 Exchange Online 사서함, 그룹 및 공용 폴더에서 활동을 빠르게 확인할 수 있습니다. 온라인 및 비즈니스용 OneDrive
@@ -47,7 +46,7 @@ office [365 Security & 준수 센터](https://support.office.com/article/Go-to-t
 ## <a name="onedrive-for-business-admin-center"></a>비즈니스용 OneDrive 관리 센터
 새 Microsoft OneDrive 관리 센터를 사용 하면 조직의 비즈니스용 OneDrive 설정을 빠르고 쉽게 관리할 수 있습니다. OneDrive 관리 센터를 사용 하려면 onedrive.com에 대 한 액세스를 허용 해야 합니다. 또한 조직의 전역 관리자 이거나 SharePoint 관리자 역할을 가진 사용자 지정 관리자 여야 합니다. 에서 [https://admin.onedrive.com](https://admin.onedrive.com/)비즈니스용 OneDrive 관리 센터에 액세스 합니다.
 
-주요 기능에는 감사 로그 검색, DLP, 보존, eDiscovery 및 경고와 같은 주요 시나리오에 대 한 Office 365 보안 및 준수 센터에 대 한 링크를 관리자에 게 제공 하는 규정 준수 영역이 포함 되어 있습니다.
+주요 기능에는 감사 로그 검색, DLP, 보존, eDiscovery 및 경고와 같은 주요 시나리오에 대 한 적절 한 관리 센터에 대 한 링크를 관리자에 게 제공 하는 규정 준수 영역이 포함 되어 있습니다.
 
 ## <a name="related-links"></a>관련 링크
 - [eDiscovery 및 검색 기능](office-365-ediscovery-and-search-features.md)

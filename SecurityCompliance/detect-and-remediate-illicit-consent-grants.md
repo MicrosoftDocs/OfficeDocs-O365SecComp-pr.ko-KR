@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 454b1b0dcf7a6182895dcc97889286f3000c9626
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 32fa8fedd0cac0ba1a6193b7b107492efb136838
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30656074"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999941"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -86,7 +86,7 @@ Azure Active Directory Portal 또는 PowerShell을 사용 하 여 사용자에 �
 4.  clientdisplayname 열 (C 열)에서 의심 스러운 것으로 보이는 앱을 찾습니다. 이름이 철자가 잘못 된 앱, super bland name 또는 해커의 소리가 나 게 되는 이름은 신중 하 게 검토 해야 합니다.
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 결정
-응용 프로그램 액세스 인벤토리를 완료 한 후에는 Office 365 **감사 로그** 를 검토 하 여 위반의 전체 범위를 확인 합니다.  영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스 하는 데 사용 하는 기간 및 앱에 대 한 권한을 검색 합니다. [Office 365 보안 및 준수 센터](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)에서 **감사 로그** 를 검색할 수 있습니다. 
+응용 프로그램 액세스 인벤토리를 완료 한 후에는 Office 365 **감사 로그** 를 검토 하 여 위반의 전체 범위를 확인 합니다.  영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스 하는 데 사용 하는 기간 및 앱에 대 한 권한을 검색 합니다. [Microsoft 365 보안 및 준수 센터](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)에서 **감사 로그** 를 검색할 수 있습니다. 
 
 > [!IMPORTANT]
 > [관리자 및 사용자에 대 한](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) [사서함 감사](https://support.office.com/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918) 및 활동 감사는이 정보를 받기 전에 사용 하도록 설정 되어 있어야 합니다.

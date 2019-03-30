@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 863cd36d383000b81d1a543d866f24b0380e5fdd
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: a0acaf9560b814fe8e87751d3a8f4b6d13b3864a
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791838"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000601"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
-
-[!include[Prerelease�information](prerelease.md)]
 
 비즈니스 보안을 관리 하 여 지속적으로 진화 하는 위협 으로부터 보호 하려면 많은 과제가 제공 됩니다. 다양 한 위치에서 여러 개의 보안 솔루션을 사용 하 여 많은 컨트롤을 구성 하 고 가장 효과적이 고 직원 들에 게 새로운 챌린지를 도입 하는 것은 알 수 없습니다. 보안 팀이 보안 및 생산성에 대 한 적절 한 균형을 찾는 것이 어려울 수 있습니다.
 

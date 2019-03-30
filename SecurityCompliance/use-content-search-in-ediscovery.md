@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 55f31488-288a-473a-9b9e-831a11e3711a
-description: 'PowerShell 스크립트를 사용 하 여 Office 365 보안 &amp; 및 준수 센터에서 만든 검색을 기반으로 Exchange Online의 원본 위치 eDiscovery 검색을 만들 수 있습니다. '
-ms.openlocfilehash: 03df28094f29ced5a299aeb4f2140c3c3b0eba8c
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+description: 'PowerShell 스크립트를 사용 하 여 보안 & 준수 센터에서 만든 검색을 기반으로 Exchange Online의 원본 위치 eDiscovery 검색을 만듭니다. '
+ms.openlocfilehash: 2e4f1b3570ce2400472a0b2a9ddee886ffc4bab3
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935253"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000031"
 ---
 # <a name="use-content-search-in-your-ediscovery-workflow"></a>eDiscovery 워크플로에서 콘텐츠 검색 사용
 
-Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서함을 검색할 수 있습니다. Exchange Online의 원본 위치 eDiscovery (최대 1만 개의 사서함을 검색할 수 있음)와 달리 단일 검색의 대상 사서함 수에는 제한이 없습니다. 조직 전체 검색을 수행 해야 하는 시나리오의 경우 콘텐츠 검색을 사용 하 여 모든 사서함을 검색할 수 있습니다. 그런 다음 원본 위치 eDiscovery의 워크플로 기능을 사용 하 여 사서함을 보류 상태로 설정 하 고 검색 결과를 내보내는 등의 기타 ediscovery 관련 작업을 수행할 수 있습니다. 예를 들어 법적 사례에 대응 하는 특정 custodians을 식별 하기 위해 모든 사서함을 검색 해야 한다고 가정해 보겠습니다. 보안 &amp; 및 준수 센터에서 콘텐츠 검색을 사용 하 여 조직의 모든 사서함을 검색 하 여 해당 사례에 대해 응답 하는 사용자를 식별할 수 있습니다. 그런 다음 custodian 사서함 목록을 Exchange Online의 원본 위치 eDiscovery 검색에 대 한 소스 사서함으로 사용할 수 있습니다. 원본 위치 eDiscovery를 사용 하는 경우에도 해당 소스 사서함에 보류를 적용 하 고 검색 결과를 검색 사서함으로 복사 하 고 검색 결과를 내보낼 수 있습니다.
+Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서함을 검색할 수 있습니다. Exchange Online의 원본 위치 eDiscovery (최대 1만 개의 사서함을 검색할 수 있음)와 달리 단일 검색의 대상 사서함 수에는 제한이 없습니다. 조직 전체 검색을 수행 해야 하는 시나리오의 경우 콘텐츠 검색을 사용 하 여 모든 사서함을 검색할 수 있습니다. 그런 다음 원본 위치 eDiscovery의 워크플로 기능을 사용 하 여 사서함을 보류 상태로 설정 하 고 검색 결과를 내보내는 등의 기타 ediscovery 관련 작업을 수행할 수 있습니다. 예를 들어 법적 사례에 대응 하는 특정 custodians을 식별 하기 위해 모든 사서함을 검색 해야 한다고 가정해 보겠습니다. 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 조직의 모든 사서함을 검색 하 여 사례에 대응 되는 사용자를 식별할 수 있습니다. 그런 다음 custodian 사서함 목록을 Exchange Online의 원본 위치 eDiscovery 검색에 대 한 소스 사서함으로 사용할 수 있습니다. 원본 위치 eDiscovery를 사용 하는 경우에도 해당 소스 사서함에 보류를 적용 하 고 검색 결과를 검색 사서함으로 복사 하 고 검색 결과를 내보낼 수 있습니다.
   
-이 항목에는 보안 &amp; 및 준수 센터에서 생성 된 검색의 원본 사서함 및 검색 쿼리 목록을 사용 하 여 Exchange Online에서 현재 위치 eDiscovery 검색을 만들기 위해 실행할 수 있는 스크립트를 포함 합니다. 프로세스에 대 한 개요는 다음과 같습니다.
+이 항목에는 Security & 준수 센터에서 만든 검색의 원본 사서함 및 검색 쿼리 목록을 사용 하 여 Exchange Online에서 현재 위치 eDiscovery 검색을 만들기 위해 실행할 수 있는 스크립트를 포함 합니다. 프로세스에 대 한 개요는 다음과 같습니다.
   
 [1 단계: 조직의 모든 사서함을 검색 하는 콘텐츠 검색 만들기](#step-1-create-a-content-search-to-search-all-mailboxes-in-your-organization)
 
@@ -33,16 +33,16 @@ Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 기능을 사용 �
 
 ## <a name="step-1-create-a-content-search-to-search-all-mailboxes-in-your-organization"></a>1 단계: 조직의 모든 사서함을 검색 하는 콘텐츠 검색 만들기
 
-첫 번째 단계는 보안 &amp; 및 준수 센터 (또는 security & 준수 센터 PowerShell)를 사용 하 여 조직의 모든 사서함을 검색 하는 콘텐츠 검색을 만드는 것입니다. 단일 콘텐츠 검색의 사서함 수에는 제한이 없습니다. 검색에서 조사와 관련 된 원본 사서함만 반환 되도록 적절 한 키워드 쿼리 (또는 중요 한 정보 유형에 대 한 쿼리)를 지정 합니다. 필요한 경우 검색 쿼리를 구체화 하 여 반환 되는 검색 결과 및 원본 사서함의 범위를 좁힙니다.
+첫 번째 단계는 security & 준수 센터 (또는 security & 준수 센터 PowerShell)를 사용 하 여 조직의 모든 사서함을 검색 하는 콘텐츠 검색을 만드는 것입니다. 단일 콘텐츠 검색의 사서함 수에는 제한이 없습니다. 검색에서 조사와 관련 된 원본 사서함만 반환 되도록 적절 한 키워드 쿼리 (또는 중요 한 정보 유형에 대 한 쿼리)를 지정 합니다. 필요한 경우 검색 쿼리를 구체화 하 여 반환 되는 검색 결과 및 원본 사서함의 범위를 좁힙니다.
   
 > [!NOTE]
 > 원본 콘텐츠 검색 결과 아무 결과도 반환 되지 않으면 3 단계에서 스크립트를 실행할 때 전체 위치 eDiscovery가 만들어지지 않습니다. 검색 쿼리를 수정한 다음 콘텐츠 검색을 다시 실행 하 여 검색 결과를 반환 해야 할 수 있습니다. 
   
-### <a name="use-the-security-amp-compliance-center-to-search-all-mailboxes"></a>보안 &amp; 및 준수 센터를 사용 하 여 모든 사서함 검색
+### <a name="use-the-security--compliance-center-to-search-all-mailboxes"></a>보안 & 준수 센터를 사용 하 여 모든 사서함 검색
 
-1. [Office 365 보안 &amp; 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다. 
+1. [Security & 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다. 
     
-2. ** &amp; 검색**검사를 클릭 하 **고 콘텐츠 검색**을 클릭 한 다음 **새** ![추가](media/O365-MDM-CreatePolicy-AddIcon.gif)아이콘를 클릭 합니다.
+2.  > **콘텐츠 검색**검색을 클릭 한 다음 **새 검색** ![추가 아이콘](media/O365-MDM-CreatePolicy-AddIcon.gif)을 클릭 합니다. ****
     
 3. **새 검색** 페이지에서 콘텐츠 검색의 이름을 입력합니다. 
     
@@ -58,7 +58,7 @@ Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 기능을 사용 �
     
 ### <a name="use-security--compliance-center-powershell-to-search-all-mailboxes"></a>Security & 준수 센터 PowerShell을 사용 하 여 모든 사서함 검색
 
-**ComplianceSearch** cmdlet을 사용 하 여 조직의 모든 사서함을 검색할 수도 있습니다. 첫 번째 단계는 [Office 365 보안 &amp; 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkID=627084)하는 것입니다.
+**ComplianceSearch** cmdlet을 사용 하 여 조직의 모든 사서함을 검색할 수도 있습니다. 첫 번째 단계는 [Security & 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkID=627084)하는 것입니다.
   
 다음은 PowerShell을 사용 하 여 조직의 모든 사서함을 검색 하는 예입니다. 검색 쿼리는 제목 줄에 "재무 보고서" 라는 구가 포함 되어 있고 2015 년 1 월 1 일부 터 2015 년 6 월 30 일 사이에 전송 된 모든 메시지를 반환 합니다. 첫 번째 명령은 검색을 만들고 두 번째 명령은 검색을 실행 합니다. 
   
@@ -124,7 +124,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 ## <a name="step-2-connect-to-the-security--compliance-center-and-exchange-online-in-a-single-remote-powershell-session"></a>2 단계: 단일 원격 PowerShell 세션 \& 에서 보안 및 준수 센터 및 Exchange Online에 연결
 
-다음 단계는 Windows PowerShell을 보안 &amp; 및 준수 센터와 Exchange Online 조직에 연결 하는 것입니다. 3 단계에서 실행 하는 스크립트에는 보안 &amp; 및 준수 센터의 콘텐츠 검색 cmdlet 및 Exchange Online의 원본 위치 eDiscovery cmdlet에 대 한 액세스 권한이 필요 하기 때문에이 작업이 필요 합니다.
+다음 단계에서는 Windows PowerShell을 보안 & 준수 센터와 Exchange Online 조직 모두에 연결 합니다. 3 단계에서 실행 하는 스크립트에는 보안 & 준수 센터의 콘텐츠 검색 cmdlet과 Exchange Online의 원본 위치 eDiscovery cmdlet에 대 한 액세스 권한이 필요 하기 때문에이 작업이 필요 합니다.
   
 1. 파일 이름 접미사. p s e c 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `ConnectEXO-CC.ps1`파일에 저장할 수 있습니다.
     
@@ -143,7 +143,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
     .\ConnectEXO-CC.ps1
     ```
 
-작동 여부는 어떻게 확인하나요? 스크립트를 실행 한 후에는 보안 &amp; 및 준수 센터 및 Exchange Online의 cmdlet을 로컬 PowerShell 세션으로 가져옵니다. 오류가 발생하지 않으면 정상적으로 연결된 것입니다. 빠른 테스트는 &amp; **UnifiedCompliancePrerequisite** 와 같은 보안 및 **사서함**같은 Exchange Online cmdlet을 실행 하는 것입니다. 
+작동 여부는 어떻게 확인하나요? 스크립트를 실행 한 후 Security & 준수 센터 및 Exchange Online의 cmdlet은 로컬 PowerShell 세션으로 가져옵니다. 오류가 발생하지 않으면 정상적으로 연결된 것입니다. 빠른 테스트는 & 및 Exchange Online cmdlet (예: **Install-UnifiedCompliancePrerequisite** )을 사용 하 여 보안을 준수 하는 것이 좋습니다. **** 
   
 ## <a name="step-3-run-the-script-to-create-an-in-place-ediscovery-search-from-the-content-search"></a>3 단계: 스크립트를 실행 하 여 콘텐츠 검색에서 원본 위치 eDiscovery 검색 만들기
 

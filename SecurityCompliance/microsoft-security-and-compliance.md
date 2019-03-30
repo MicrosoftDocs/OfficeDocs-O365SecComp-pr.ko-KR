@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: e67c3f61898187d87aa638cf2dab871a7b694c18
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+ms.openlocfilehash: 15e67b5bdd6aca8c5447abe2e4cd12fb15e36760
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935203"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000691"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.
 
@@ -35,13 +35,13 @@ Microsoft 365 보안 센터에 액세스할 수 있게 됩니다 [https://securi
 > [!NOTE]
 > Microsoft 365 보안 센터에 액세스 하려면 유효한 Azure Active Directory 역할이 할당 되어 있어야 합니다. 자세한 내용은이 문서의 [필수 라이선스 및 사용 권한](#required-licenses-and-permissions) 섹션을 참조 하십시오.
 
-## <a name="microsoft-365-compliance-center"></a>Microsoft 365 준수 센터
+## <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
 새로운 [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 를 통해 microsoft 준수 관리자를 확인할 수 있으며,이를 통해 전반적인 규정 준수 상황을 반영 하 고 복잡 한 준수를 충족 하도록 설정을 구성 하는 데 도움이 되는 권장 조치를 얻을 수 있습니다. 책임. 
 
 민감도 및 보존 레이블과 정책, DLP (데이터 손실 방지), 데이터 거 버 넌 스, eDiscovery, 데이터 주체 요청 (dsrs), 사례 관리 및 Cloud App Security에 쉽게 액세스할 수 있습니다. 또한 실행 가능한 통찰력을 얻고 지능적인 자동화를 활용 하 여 준수 위험을 줄이고 디지털 공간을 보호할 수 있습니다. 
 
-[![Microsoft 365 준수 센터](media/m365-compliance-center.png)](microsoft-365-compliance-center.md)
+[![Microsoft 365 규정 준수 센터](media/m365-compliance-center.png)](microsoft-365-compliance-center.md)
 
 Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도움이 되도록 화면 위쪽에 정보가 표시 됩니다. 가장 관심이 있는 준수 기능으로 쉽게 이동 하는 방법을 볼 수 있습니다. 자세한 내용은 [새로운 Microsoft 365 준수 센터 시작](microsoft-365-compliance-center.md)을 참조 하십시오.
 
@@ -70,7 +70,7 @@ Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도
 - microsoft 365 관리 센터로 이동한 후 새로운 microsoft 365 보안 센터 및 microsoft 365 준수 센터로 이동 합니다 (왼쪽 탐색 창의 관리 센터 아래에 링크 되어 있는 경우).
 
 > [!TIP]
-> office 365 Security & 준수 센터 ([https://protection.office.com](http://protection.office.com))를 사용 하는 경우에도 기존 office 365 security & 준수 센터 내에서 office 365 설정을 구성 및 관리할 수 있습니다. 구성은 새로운 microsoft 365 보안 센터 및 microsoft 365 준수 센터 뿐만 아니라 기존 Office 365 보안 & 준수 센터에도 유지 됩니다.  
+> office 365 Security & 준수 센터 ([https://protection.office.com](http://protection.office.com))를 사용 하는 경우에도 기존 보안 & 준수 센터 내에서 office 365 설정을 구성 및 관리할 수 있게 됩니다. 구성은 새로운 microsoft 365 보안 센터 및 microsoft 365 준수 센터 뿐만 아니라 기존 보안 & 준수 센터에도 유지 됩니다.  
 
 ## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
 
@@ -92,9 +92,9 @@ Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도
 
 |포탈 |전역 관리자 |보안 관리자, 보안 운영자 또는 보안 독자|준수 관리자 또는 준수 데이터 관리자 |
 |---------|---------|---------|---------|
-|[Office 365 보안 및 준수 센터](https://protection.office.com) |예 |예  |예 |
+|[보안 & 준수 센터](https://protection.office.com) |예 |예  |예 |
 |[Microsoft 365 보안 센터](https://security.microsoft.com) |예  | 예  | 아니요        |
-|[Microsoft 365 준수 센터](https://compliance.microsoft.com) | 예 | 아니요 | 예 |
+|[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com) | 예 | 아니요 | 예 |
 |[규정 준수 관리자](https://aka.ms/compliancemanager) |예 | 예 |예  |
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |예 |예 |아니요 |
 |[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |예 |예 |아니요 |

@@ -6,23 +6,24 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Microsoft가 DoS (서비스 거부) 공격에 대 한 방어에서 absorption, 검색 및 완화의 핵심 원칙을 활용 하는 방법
-ms.openlocfilehash: dfe179924f7414b0120697023f3daf7e6b6661b6
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bbfffeaeb66fc83e80c274be9550a95dc8bd3f0d
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216008"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004105"
 ---
 # <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>서비스 거부 공격에 대한 보안 핵심 원칙
 
-네트워크 기반 DoS 공격 으로부터 방어할 때의 세 가지 핵심 원리는 Absorption, 검색 및 완화입니다. Absorption가 검색 전에 수행 되 고 완화 되기 전에 검색이 수행 됩니다. DoS 공격에 대 한 최선의 방어는 Absorption입니다. 공격을 검색할 수 없는 경우에는이를 완화할 수 없습니다. 그러나 가장 작은 DoS 공격을 수용할 수 없는 경우에도 서비스는 공격을 감지할 수 있을 정도로 오래 지속 되지 않습니다.
+네트워크 기반 DoS 공격 으로부터 방어할 때의 세 가지 핵심 원리는 Absorption, 검색 및 완화입니다.
+Absorption가 검색 전에 수행 되 고 완화 되기 전에 검색이 수행 됩니다. DoS 공격에 대 한 최선의 방어는 Absorption입니다. 공격을 검색할 수 없는 경우에는이를 완화할 수 없습니다. 그러나 가장 작은 DoS 공격을 수용할 수 없는 경우에도 서비스는 공격을 감지할 수 있을 정도로 오래 지속 되지 않습니다.
 
 물론 대부분의 조직에서는 기술 및 기술 기술에 상당한 투자가 필요 하기 때문에, 일반적으로 대부분의 조직이 DoS 공격을 economically 하는 데 필요한 지나친 용량을 구입 하는 것은 아닙니다. 이는 Microsoft 클라우드 서비스를 사용 하는 경우의 보안 혜택 중 하나를 강조 표시 합니다. 서비스를 대규모로 사용 하면 클라우드 고객에 게 비용 효율적인 방식으로 강력한 네트워크 보호 기능을 제공할 수 있습니다. 그러나이 크기의 경우에도 absorption, 검색 및 완화 간의 균형이 유지 되어야 합니다. 이러한 균형을 확인 하기 위해 공격의 증가율을 조사 하 여 얼마나 많은 정보를 처리 해야 하는지 예측 합니다.
 

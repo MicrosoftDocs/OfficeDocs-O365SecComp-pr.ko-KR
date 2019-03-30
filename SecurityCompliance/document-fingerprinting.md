@@ -11,12 +11,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: bf28d1d901598337a5c9c18d80590b136c539d26
-ms.sourcegitcommit: a79eb9907759d4cd849c3f948695a9ff890b19bf
+ms.openlocfilehash: 2b8e4fd6b286f2c1a5c67863957f2b04fbef31b9
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30866354"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999141"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
@@ -66,7 +66,7 @@ ms.locfileid: "30866354"
     
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>PowerShell을 사용 하 여 문서 지문을를 기반으로 분류 규칙 패키지 만들기
 
-현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [connect to Office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조 하세요.
+현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [connect to Security & 준수 센터 PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조 하세요.
 
 DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 사용 합니다 **** . **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 **DlpSensitiveInformationType** 에서 **새-dlpfingerprint** 및 **DlpSensitiveInformationType** 를 실행 합니다. PowerShell 세션 다음 예에서는 C:\My Documents\Contoso Employee Template.docx 파일을 기반으로 새 문서 지문을 만듭니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다. 
   

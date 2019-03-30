@@ -13,13 +13,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Office 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 5c55b842045eefd42745486c603e34f6498b3bac
-ms.sourcegitcommit: 07a4f9a8888756e05cd67ca24f6121b2a4e9f464
+description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
+ms.openlocfilehash: 1828f4055e9048260db7d16df8ad87db36438211
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512663"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997264"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "30512663"
     
 - 콘텐츠를 클라이언트에 반환 하거나 다른 조직으로 전송 합니다.
     
-Office 365에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
+microsoft 365 준수 센터, microsoft 365 보안 센터 또는 Office 365 security & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
   
 - 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 이러한 검토자는 개별 사용자, 메일 그룹 또는 Office 365 그룹이 될 수 있습니다. 알림은 주 단위로 전송 됩니다.
     

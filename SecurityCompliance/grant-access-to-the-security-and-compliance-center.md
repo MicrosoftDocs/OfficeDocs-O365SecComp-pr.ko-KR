@@ -3,7 +3,7 @@ title: 사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 8/18/2017
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 &amp; Office 365 보안 및 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: 0a3f0d1ddde7d269a0f8f9596c5c3de14e94429d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 08b3781ceb48b9a8d5933a075106d7bd3b9ab17d
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216308"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997240"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여
 
-사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 &amp; Office 365 보안 및 준수 센터에서 사용 권한을 할당 받아야 합니다. 보안 &amp; 및 준수 센터에서 Office 365 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원으로 사용자에 게 이러한 사용 권한을 부여할 수 있습니다. 사용자는 액세스 권한을 부여 하는 보안 또는 규정 준수 기능만 관리할 수 있습니다. 
+사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 &amp; Office 365 보안 및 준수 센터에서 사용 권한을 할당 받아야 합니다. 보안 &amp; 및 준수 센터에서 Office 365 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원으로 사용자에 게 이러한 사용 권한을 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다. 
   
 보안 &amp; 및 준수 센터에서 사용자에 게 부여할 수 있는 다양 한 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요.
   
@@ -53,7 +53,7 @@ ms.locfileid: "30216308"
     
 7. **저장**을 클릭하여 역할 그룹에 대한 변경 내용을 저장합니다. 
     
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
+### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 
 1. 보안 &amp; 및 준수 센터에서 **사용 권한**으로 이동 합니다.
     
@@ -76,7 +76,7 @@ ms.locfileid: "30216308"
   
 - _-Identity_는 구성원을 추가할 역할 그룹입니다. 
     
-- _구성원_ 은 역할 그룹에 추가할 사서함, USG (유니버설 보안 그룹) 또는 컴퓨터입니다. 구성원을 한 번에 하나만 지정할 수 있습니다. 
+- _구성원_ 은 역할 그룹에 추가할 사서함, USG (유니버설 보안 그룹) 또는 컴퓨터입니다. 구성원은 한 번에 하나만 지정할 수 있습니다. 
     
 구문 및 매개 변수에 대 한 자세한 내용은 [추가-rolegroupmember](https://go.microsoft.com/fwlink/p/?LinkId=510859)를 참조 하십시오.
   

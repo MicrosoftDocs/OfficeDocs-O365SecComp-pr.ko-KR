@@ -6,19 +6,19 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 데이터 센터 디스크 드라이브 및 서버의 재활용, 삭제 또는 폐기와 관련 된 Microsoft 정책에 대 한 개요입니다.
-ms.openlocfilehash: 6b9f6bacfa1c3bf5ee6c8cb76bc5a394812b49be
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: fec6065434fa9fa555a057c68eca60082225652c
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220788"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004145"
 ---
 # <a name="office-365-data-destruction"></a>Office 365 데이터 소멸
 

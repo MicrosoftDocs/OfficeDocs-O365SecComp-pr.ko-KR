@@ -6,19 +6,19 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 엔지니어링 팀에 대 한 내부 로깅이 작동 하는 방식에 대 한 설명입니다.
-ms.openlocfilehash: 68f8763b9a647de462f402e40a4c78749343dfd9
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e8798d4c6d4ba7393612f9a2b22bc282956a2aa9
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216498"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004222"
 ---
 # <a name="internal-logging-for-office-365-engineering"></a>Office 365 엔지니어링에 대한 내부 로깅
 고객에 게 제공 되는 이벤트 및 로그 데이터 외에 Office 365 엔지니어가 사용할 수 있는 내부 로그 데이터 수집 시스템도 있습니다. 다양 한 유형의 로그 데이터가 Office 365 서버에서 Cosmos 라는 내부, 대규모 데이터 컴퓨팅 서비스로 업로드 됩니다. 각 서비스 팀은 집계 및 분석을 위해 각 서버의 감사 로그를 Cosmos 데이터베이스에 업로드 합니다. 이 데이터 전송은 ODL (Office data Loader) 라는 전용 자동화 도구를 사용 하 여 특별히 승인 된 포트 및 프로토콜에 대해 FIPS 140-2 유효성 검사 TLS 연결을 통해 수행 됩니다. Office 365에서 감사 레코드를 수집 하 고 처리 하는 데 사용 되는 도구는 원래 감사 레코드 콘텐츠 또는 시간 순서에 대 한 영구 또는 되돌릴 수 없는 변경 작업을 허용 하지 않습니다.

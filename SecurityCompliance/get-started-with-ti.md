@@ -15,12 +15,12 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 및 시작 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a04b39ecb11c33baa647bb9716af9ff12aed755e
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: fd038f706ccb3df68b98f02593e43091484ec0c6
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862522"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998881"
 ---
 # <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>위협 조사 및 응답 시작 (Office 365 Advanced Threat Protection 계획 2)
 
@@ -78,13 +78,13 @@ office 365 위협 Invesigation 및 응답 기능은 Office 365 Advanced Threat P
 > [!TIP]
 > 조직의 office 365 구독에 이러한 위협 조사 및 응답 기능이 포함 되어 있지 않은 경우 office 365 Advanced threat Protection과 함께 추가 기능으로 구매할 수 있습니다. 계획 옵션에 대 한 자세한 내용은 office [365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)을 참조 하세요.
   
-1. office 365 전역 관리자 인 경우로 이동 [https://portal.office.com](https://portal.office.com) 하 여 office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
+1. office 365 전역 관리자 인 경우로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 하 여 office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     
 2. **관리자 ** \> ** 청구**을 선택하여 현재 구독에 포함된 내용을 확인합니다. 
     - **office 365 Enterprise**e 5가 표시 되 면 조직에 office 365 Advanced Threat Protection 계획 2 (위협 조사 및 응답 기능 포함)가 있는 것입니다. 
     - **office 365 enterprise E3** 또는 **office 365 enterprise E1**과 같은 다른 구독이 표시 되는 경우 office 365 Advanced Threat Protection 계획 2를 추가 하는 것이 좋습니다. 이 작업을 수행 하려면 **+ 구독 추가**를 선택 합니다.
     
-3. Office 365 관리 센터에서 **사용자** \> **활성 사용자**를 선택합니다.
+3. Microsoft 365 관리 센터에서 **사용자** \> **활성 사용자**를 선택 합니다.
     
 5. 모든 활성 사용자에 게 Office 365 Advanced Threat Protection 계획 2 라이선스를 할당 합니다. (이에 대 한 라이선스가 있는 사용자만 탐색기와 같은 보고서에 표시 됩니다.)
     

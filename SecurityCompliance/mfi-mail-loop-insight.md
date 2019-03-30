@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
-description: 관리자는 Office 365 보안 & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 5fa7267d68183ea9f8117e420a769a2beaafdac1
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 7229f8ebfc9ca1a46d91acc210199a3a6002c01e
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720298"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000321"
 ---
 # <a name="mail-loop-insight"></a>메일 루프 파악
 
 메일 루프는 시스템 리소스를 낭비 하 고 조직의 메일 볼륨 할당량을 소비 하며, ndr 또는 바운스 메시지가 라고도 하는 혼동 하지 않는 보고서를 원래 보낸 사람에 게 전송 하므로 잘못 된 것입니다. 이 통찰력은 조직에서 메일 루프가 발견 되는 시기, 루프에 포함 된 전자 메일 도메인, 그리고 루프에 있던 이전 날짜의 메시지 수를 보고 합니다.
 
-![Office 365 보안 & 준수 센터의 메일 흐름 대시보드에 있는 메일 루프 통찰력](media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
+![보안 & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력](media/c3f707cb-4c89-4e88-989c-81ce1d1d6b99.png)
 
 **세부 정보 보기** 를 클릭 하 여 플라이 아웃 창에서 세부 정보를 볼 수 있습니다. 또한 가장 일반적인 루프 시나리오를 파악 하 고 루프를 수정 하는 데 권장 되는 작업 (사용 가능한 경우)을 제공 합니다.
 

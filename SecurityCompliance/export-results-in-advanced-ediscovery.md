@@ -1,9 +1,8 @@
 ---
-title: Office 365 Advanced eDiscovery 결과 내보내기
+title: Office 365 Advanced eDiscovery에서 결과 내보내기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: '내보내기 일괄 처리에 대 한 매개 변수를 지정 하는 절차를 포함 하 여 Office 365 Advanced eDiscovery에서 결과를 내보내기 위한 옵션을 정의 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 02314b0848d8e7bb37a7cb96fa4a721cf2622712
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a2528c3eab0bc9c06a592b972a3bc602174458d3
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218098"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000911"
 ---
-# <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 결과 내보내기
+# <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 내보내기
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -66,7 +65,7 @@ eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
     
     - 기존 사례에 추가한 새 파일에 대 한 결과를 내보내려면 현재 일괄 처리를 계속 합니다. 일괄 처리에서 세션을 만들려면 동일한 일괄 처리 번호를 선택 하 고 **내보내기 세션 만들기** 를 클릭 합니다 .이 옵션을 사용 하면 이전 일괄 처리와 같은 매개 변수를 증분 방식으로 내보낼 수 있습니다. 
     
-    - 새 **** ![일괄 처리로 내보내려면 추가 아이콘](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png)추가를 클릭 하 고 **일괄 이름** 에 새 이름 (또는 기본값 적용)과 설명을 **일괄 처리 설명**에 입력 합니다. **확인을**클릭 합니다.
+    - 새 **** ![일괄 처리로 내보내려면 추가 아이콘](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png)추가를 클릭 하 고 **일괄 이름** 에 새 이름 (또는 기본값 적용)과 설명을 **일괄 처리 설명**에 입력 합니다. **확인**을 클릭합니다.
     
     - 일괄 처리 이름 또는 설명을 편집 하려면 **내보내기 일괄 처리**에서 이름을 선택 하 고 편집 **** ![아이콘](media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png)편집을 클릭 한 다음 필드를 수정 합니다.
     
@@ -183,12 +182,12 @@ eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
 |**파일 이름**|**파일 형식**|**설명**|
 |:-----|:-----|:-----|
 |내보내기 요약  <br/> |cs  <br/> |eDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
-|추적은  <br/> |txt  <br/> |eDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
+|추적은  <br/> |라는  <br/> |eDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
 |추출 된 텍스트 파일  <br/> |파일 폴더  <br/> |내보낸 파일의 추출 된 텍스트 파일이 들어 있는 폴더입니다.  <br/> |
 |입력 또는 네이티브 파일  <br/> |파일 폴더  <br/> |내보낸 파일의 네이티브 파일 및 입력 파일이 들어 있는 폴더입니다.  <br/> |
-|목록 내보내기  <br/> |xlsx  <br/> |파일 메타 데이터를 .xlsx 형식으로 내보냈습니다. 파일의 필드는 사용자가 선택 하는 서식 파일에 따라 결정 됩니다. 필요한 경우 여러 파일이 생성 되 고 각 파일에는 150k 행이 포함 됩니다. Excel 셀에 포함할 수 있는 것 보다 많은 문자를 특정 값에 포함 하는 경우 (현재 제한은 32767 자)이 값은 허용 되는 최대 길이에 맞게 잘립니다. 값을 트리밍한 경우 셀의 배경색은 사용자에 게 표시 되는 빨간색입니다. " 전자 메일 참가자 "는 전자 메일이 대규모 배포로 전송 된 경우 길이 제한을 초과할 수 있는 필드의 예입니다. 출력 필드에 대 한 자세한 내용은 [보고서 필드 내보내기를](export-report-fields-in-advanced-ediscovery.md) 참조 하십시오.<br/> |
+|목록 내보내기  <br/> |.xlsx  <br/> |파일 메타 데이터를 .xlsx 형식으로 내보냈습니다. 파일의 필드는 사용자가 선택 하는 서식 파일에 따라 결정 됩니다. 필요한 경우 여러 파일이 생성 되 고 각 파일에는 150k 행이 포함 됩니다. Excel 셀에 포함할 수 있는 것 보다 많은 문자를 특정 값에 포함 하는 경우 (현재 제한은 32767 자)이 값은 허용 되는 최대 길이에 맞게 잘립니다. 값을 트리밍한 경우 셀의 배경색은 사용자에 게 표시 되는 빨간색입니다. " 전자 메일 참가자 "는 전자 메일이 대규모 배포로 전송 된 경우 길이 제한을 초과할 수 있는 필드의 예입니다. 출력 필드에 대 한 자세한 내용은 [보고서 필드 내보내기를](export-report-fields-in-advanced-ediscovery.md) 참조 하십시오.  <br/> |
 |파일 로드  <br/> |cs  <br/> |다른 응용 프로그램에 로드 하기 위해 내보낸 파일 메타 데이터가 csv 형식으로 내보내집니다. 파일의 필드는 사용자가 선택 하는 서식 파일에 따라 결정 됩니다.  <br/> |
-|성공 지표  <br/> |txt  <br/> |타사 Azure blob로 내보낼 때만 만들어집니다. 내보내기가 완전히 완료 되 면 파일이 만들어집니다. 실패의 경우 또는 부분적으로 성공 하는 경우 파일을 만들지 않습니다. 파일은 루트 폴더에 만들어지므로 서로 다른 내보내기 일괄 처리/세션 상태에 대 한 자동화 된 추적을 허용 합니다. 빈 파일입니다. 이름은 TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime입니다.  <br/> |
+|성공 지표  <br/> |라는  <br/> |타사 Azure blob로 내보낼 때만 만들어집니다. 내보내기가 완전히 완료 되 면 파일이 만들어집니다. 실패의 경우 또는 부분적으로 성공 하는 경우 파일을 만들지 않습니다. 파일은 루트 폴더에 만들어지므로 서로 다른 내보내기 일괄 처리/세션 상태에 대 한 자동화 된 추적을 허용 합니다. 빈 파일입니다. 이름은 TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime입니다.  <br/> |
    
 ## <a name="see-also"></a>참고 항목
 

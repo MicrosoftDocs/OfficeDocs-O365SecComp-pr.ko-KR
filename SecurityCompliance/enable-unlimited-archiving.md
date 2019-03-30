@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자: 사용자에 게 Exchange Online 사서함에 대 한 무제한 저장소를 제공 하는 Office 365에서 자동 확장 보관을 사용 하도록 설정 하는 방법을 알아봅니다. 전체 조직 또는 특정 사용자만 자동 확장 보관을 사용 하도록 설정할 수 있습니다.'
-ms.openlocfilehash: 634807a687a8ccbb764a54300f338263f876b604
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.openlocfilehash: e41ebc0605b7e6ce2178791de27421a82e2b6cf6
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670623"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000851"
 ---
 # <a name="enable-unlimited-archiving-in-office-365---admin-help"></a>Office 365에서 무제한 보관을 사용 하도록 설정-관리자 도움말
 
@@ -31,20 +31,20 @@ Office 365에서 Exchange Online 자동 확장 보관 기능을 사용 하 여 �
 
 - 전체 조직 또는 특정 사용자에 대해 자동 확장 보관을 사용 하도록 설정 하려면 Office 365 조직의 전역 관리자 이거나 Exchange Online 조직에서 조직 관리 역할 그룹의 구성원 이어야 합니다. 또는 특정 사용자에 대 한 자동 확장 보관을 사용 하도록 설정 하려면 Mail Recipients 역할이 할당 된 역할 그룹의 구성원 이어야 합니다.
     
-- 자동 확장 보관을 사용 하도록 설정 하려면 먼저 사용자의 보관 사서함을 사용 하도록 설정 해야 합니다. 보관 사서함을 사용 하도록 설정 하려면 사용자에 게 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. 사용자에 게 exchange online 계획 1 라이선스가 할당 된 경우 해당 보관 사서함을 사용 하도록 설정 하기 위해 별도의 exchange online 보관 라이선스를 할당 해야 합니다. [Office 365 보안 &amp; 및 준수 센터에서 보관 사서함 사용](enable-archive-mailboxes.md)을 참조 하세요.
+- 자동 확장 보관을 사용 하도록 설정 하려면 먼저 사용자의 보관 사서함을 사용 하도록 설정 해야 합니다. 보관 사서함을 사용 하도록 설정 하려면 사용자에 게 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. 사용자에 게 exchange online 계획 1 라이선스가 할당 된 경우 해당 보관 사서함을 사용 하도록 설정 하기 위해 별도의 exchange online 보관 라이선스를 할당 해야 합니다. [보안 & 준수 센터에서 보관 사서함 사용](enable-archive-mailboxes.md)을 참조 하십시오.
     
 - 또한 PowerShell을 사용 하 여 보관 사서함을 사용 하도록 설정할 수 있습니다. 조직의 모든 사용자에 대해 보관 사서함을 사용 하도록 설정 하는 데 사용할 수 있는 PowerShell 명령의 예는 [추가 정보](#more-information) 섹션을 참조 하십시오. 
     
 - 자동 확장 보관 기능은 공유 사서함도 지원합니다. 공유 사서함에 대 한 보관 함을 사용 하도록 설정 하려면 exchange online 계획 2 라이선스 또는 교환 라이선스가 있는 exchange online 계획 1 라이선스가 필요 합니다.
     
-- Exchange 관리 센터 또는 보안 &amp; 및 준수 센터를 사용 하 여 자동 확장 보관을 사용 하도록 설정할 수는 없습니다. Exchange Online PowerShell을 사용 해야 합니다. 원격 PowerShell을 사용 하 여 exchange online 조직에 연결 하려면 [exchange online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조 하세요.
+- Exchange 관리 센터 또는 Security & 준수 센터를 사용 하 여 자동 확장 보관을 사용 하도록 설정할 수는 없습니다. Exchange Online PowerShell을 사용 해야 합니다. 원격 PowerShell을 사용 하 여 exchange online 조직에 연결 하려면 [exchange online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조 하세요.
     
   
 ## <a name="enable-auto-expanding-archiving-for-your-entire-organization"></a>전체 조직에 대해 자동 확장 보관을 사용 하도록 설정
 
 전체 조직에 대해 자동 확장 보관을 사용 하도록 설정할 수 있습니다. 이 기능을 켜면 기존 사용자 사서함과 새로 만든 사용자 사서함에 대해 자동 확장 보관이 사용 하도록 설정 됩니다. 새 사용자 사서함을 만들 때는 사용자의 기본 보관 사서함을 사용 하도록 설정 하 여 새 사용자 사서함에 대해 자동 확장 보관 기능을 사용할 수 있도록 해야 합니다.
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)
     
 2. Exchange Online PowerShell에서 다음 명령을 실행 하 여 전체 조직에 대해 자동 확장 보관을 사용 하도록 설정 합니다.
 
@@ -64,7 +64,7 @@ Office 365에서 Exchange Online 자동 확장 보관 기능을 사용 하 여 �
     
 이 추가 공간은 자동 확장 보관이 구축 되기 전에 발생할 수 있는 저장 문제를 방지 하기 위해 추가 됩니다. 이전 섹션에 설명 된 대로 전체 조직에 대해 자동 확장 보관을 사용 하도록 설정 하면 추가 저장 공간이 추가 *되지 않습니다* . 
   
-1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)
     
 2. Exchange Online PowerShell에서 다음 명령을 실행 하 여 특정 사용자에 대해 자동 확장 보관을 사용 하도록 설정 합니다. 앞에서 설명한 것 처럼 사용자의 보관 사서함 (기본 보관 함)을 사용 하도록 설정 해야 해당 사용자에 대해 자동 확장 보관을 설정할 수 있습니다.
     

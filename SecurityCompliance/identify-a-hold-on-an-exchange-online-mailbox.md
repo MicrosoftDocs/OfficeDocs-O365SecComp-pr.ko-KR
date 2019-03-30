@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Office 365 사서함에 저장할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다. 이러한 보류 유형에는 소송 보존, eDiscovery 보류 및 Office 365 보존 정책이 포함 됩니다. 사용자가 조직 차원의 보존 정책에서 제외 되었는지 여부도 확인할 수 있습니다.
-ms.openlocfilehash: fa037e4e4f6a0c4b419645bdc3242fdc3d6db7db
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.openlocfilehash: e0c1c54cedfc7494233f12f043bb6d033576eca8
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900157"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001221"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -28,7 +28,7 @@ Office 365에서는 조직에서 사서함 콘텐츠가 영구적으로 삭제 �
 
 - **소송 보존** -Exchange Online의 사용자 사서함에 적용 되는 보존입니다.
 
-- **ediscovery 보류** -보안 & 준수 센터에서 eDiscovery 사례와 관련 된 보류입니다. eDiscovery 보류는 사용자 사서함 및 해당 하는 Office 365 그룹 및 Microsoft 팀의 해당 사서함에 적용할 수 있습니다.
+- **ediscovery 보류** -보안 및 준수 센터에서 eDiscovery 사례와 관련 된 보류입니다. eDiscovery 보류는 사용자 사서함 및 해당 하는 Office 365 그룹 및 Microsoft 팀의 해당 사서함에 적용할 수 있습니다.
 
 - 원본 **위치 유지** -exchange Online의 exchange 관리 센터에서 원본 위치 eDiscovery & 보존 도구를 사용 하 여 사용자 사서함에 적용 됩니다.
 
@@ -53,7 +53,7 @@ Exchange Online PowerShell에서 다음 두 cmdlet을 실행 하 여 사서함�
 
 - **set-organizationconfig** -이 cmdlet을 사용 하 여 조직 전체 보존 정책의 guid를 가져옵니다.
 
-exchange online powershell에 연결 하려면 [exchange online powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)을 참조 하세요.
+Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)을 참조하세요.
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -72,7 +72,7 @@ Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
 |보류 유형  |예제 값  |보류를 확인 하는 방법  |
 |---------|---------|---------|
 |소송 대기     |    `True`     |     *LitigationHoldEnabled* 속성이로 `True`설정 된 경우 사서함에 대해 소송 보존을 사용 하도록 설정 합니다.    |
-|eDiscovery 보류     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   *InPlaceHolds 속성* 은 보안 & 준수 센터에서 eDiscovery 사례와 관련 된 보류의 GUID를 포함 합니다. GUID는 `UniH` 접두사 (통합 보류 표시)로 시작 되므로 eDiscovery 보류 임을 알릴 수 있습니다.      |
+|eDiscovery 보류     |  `UniH7d895d48-7e23-4a8d-8346-533c3beac15d`       |   *InPlaceHolds 속성* 은 보안 및 준수 센터에서 eDiscovery 사례와 관련 된 보류의 GUID를 포함 합니다. GUID는 `UniH` 접두사 (통합 보류 표시)로 시작 되므로 eDiscovery 보류 임을 알릴 수 있습니다.      |
 |원본 위치 유지     |     `c0ba3ce811b6432a8751430937152491` <br/>  선택하거나  <br/> `cld9c0a984ca74b457fbe4504bf7d3e00de`  |     *InPlaceHolds* 속성은 사서함에 배치 된 원본 위치 유지의 GUID를 포함 합니다. GUID가 접두사로 시작 하지 않거나 `cld` 접두사로 시작 하지 않으므로 원본 위치 유지로 설정할 수 있습니다.     |
 |Office 365 보존 정책이 특별히 사서함에 적용 되었습니다.     |    `mbxcdbbb86ce60342489bff371876e7f224:1` <br/>  선택하거나  <br/> `skp127d7cf1076947929bf136b7a2a8c36f:3`     |     InPlaceHolds 속성은 사서함에 적용 된 특정 위치 보존 정책의 guid를 포함 합니다. GUID는 `mbx` 또는 `skp` 접두사로 시작 되므로 보존 정책을 식별할 수 있습니다. 접두사 `skp` 는 보존 정책이 사용자 사서함의 비즈니스용 Skype 대화에 적용 됨을 나타냅니다.    |
 |조직 전체 Office 365 보존 정책에서 제외 됨     |   `-mbxe9b52bf7ab3b46a286308ecb29624696`      |     사서함이 조직 차원의 Office 365 보존 정책에서 제외 된 경우에는 사서함이 제외 된 보존 정책의 GUID가 InPlaceHolds 속성에 표시 되 고 `-mbx` 접두사로 식별 됩니다.    |
@@ -137,7 +137,7 @@ Get-ComplianceCase $CaseHold.CaseId | FL Name
 $CaseHold | FL Name,ExchangeLocation
 ```
 
-보안 & 준수 센터 powershell에 연결 하려면 [connect to Office 365 Security & 준수 센터 powershell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)를 참조 하세요.
+보안 & 준수 센터 powershell에 연결 하려면 [connect to security & 준수 센터 powershell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)를 참조 하세요.
 
 ### <a name="in-place-holds"></a>원본 위치 유지
 

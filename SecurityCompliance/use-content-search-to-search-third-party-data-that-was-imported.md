@@ -12,16 +12,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색 합니다. 가져온 모든 항목을 검색 하는 쿼리를 만들거나 특정 타사 데이터 형식을 검색 하기 위한 쿼리를 만들 수 있습니다. 이 문서에서는 키워드 쿼리에서 Office 365로 가져올 수 있는 타사 데이터 형식을 검색 하는 데 사용할 수 있는 값을 보여 줍니다.
-ms.openlocfilehash: f1ab3cfc8dd866aa0d70014b22a301de2a65f3c5
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 361ead435d397464452c5b58ecf251a7322ced05
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296041"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999711"
 ---
 # <a name="use-content-search-to-search-third-party-data-that-was-imported-to-office-365"></a>콘텐츠 검색을 사용 하 여 Office 365로 가져온 타사 데이터 검색
 
-office 365 보안 &amp; 및 준수 센터의 [콘텐츠 검색 eDiscovery 도구](content-search.md) 를 사용 하 여 타사 데이터 원본에서 office 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있고 특정 타사 데이터 항목만 검색 하는 쿼리를 만들 수도 있습니다. 또한 Office 365에서 타사 데이터를 보존 하기 위해 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보존을 만들 수도 있습니다. 
+보안 & 준수 센터의 [콘텐츠 검색 eDiscovery 도구](content-search.md) 를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있고 특정 타사 데이터 항목만 검색 하는 쿼리를 만들 수도 있습니다. 또한 Office 365에서 타사 데이터를 보존 하기 위해 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보존을 만들 수도 있습니다. 
   
 타사 데이터 및 office 365로 가져올 수 있는 타사 데이터 형식 목록을 가져오는 방법에 대 한 자세한 내용은 [office 365에서 타사 데이터 보관](archiving-third-party-data.md)을 참조 하십시오. 
   
@@ -74,8 +74,7 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |BlackBerry PIN  <br/> | `ipm.externaldata.BlackBerryPIN*` <br/> |
 |BlackBerry SMS  <br/> | `ipm.externaldata.BlackBerrySMS*` <br/> |
 |Bloomberg  <br/> | `ipm.externaldata.Bloomberg*` <br/> |
-|Bloomberg Mail
-  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
+|Bloomberg Mail  <br/> | `ipm.externaldata.BloombergMail*` <br/> |
 |Bloomberg 메시징  <br/> | `ipm.externaldata.BloombergMessaging*` <br/> |
 |Box  <br/> | `ipm.externaldata.Box*` <br/> |
 |Cisco IM &amp; 현재 상태 서버  <br/> | `ipm.externaldata.Jabber.IM` <br/> |
@@ -85,11 +84,9 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Facebook  <br/> | `ipm.externaldata.Facebook*` <br/> |
 |FastTrack  <br/> | `ipm.externaldata.FastTrack*` <br/> |
 |FXConnect  <br/> | `ipm.externaldata.FXConnect.chat` <br/> |
-|Flickr
-  <br/> | `ipm.externaldata.Flickr*` <br/> |
+|Flickr  <br/> | `ipm.externaldata.Flickr*` <br/> |
 |Gnutella  <br/> | `ipm.externaldata.Gnutella*` <br/> |
-|Google+
-  <br/> | `ipm.externaldata.GooglePlus*` <br/> |
+|Google +  <br/> | `ipm.externaldata.GooglePlus*` <br/> |
 |Google 대화  <br/> | `ipm.externaldata.GoogleTalk*` <br/> |
 |GoToMyPC  <br/> | `ipm.externaldata.GoToMyPC*` <br/> |
 |HipChat  <br/> | `ipm.externaldata.HipChat*` <br/> |
@@ -98,52 +95,43 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |IBM 연결  <br/> | `ipm.externaldata.Connections*` <br/> |
 |IBM SameTime  <br/> | `ipm.externaldata.Sametime*` <br/> |
 |얼음 채팅  <br/> | `ipm.externaldata.ICEChat.Chat` <br/> |
-|Indii Messenger
-  <br/> | `ipm.externaldata.Indii*` <br/> |
-|Instagram
-  <br/> | `ipm.externaldata.Instagram*` <br/> |
-|Instant Bloomberg
-  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
+|Indii Messenger  <br/> | `ipm.externaldata.Indii*` <br/> |
+|명령이 있는 agram  <br/> | `ipm.externaldata.Instagram*` <br/> |
+|Instant Bloomberg  <br/> | `ipm.externaldata.InstantBloomberg*` <br/> |
 |InvestEdge  <br/> | `ipm.externaldata.InvestEdge*` <br/> |
 |IRC  <br/> | `ipm.externaldata.IRC*` <br/> |
-|Jive
-  <br/> | `ipm.externaldata.Jive*` <br/> |
+|Jive  <br/> | `ipm.externaldata.Jive*` <br/> |
 |jiveapiretention  <br/> | `ipm.externaldata.JiveApiRetention*` <br/> |
-|JXTA  <br/> | `ipm.externaldata.JXTA*` <br/> |
+|jxta  <br/> | `ipm.externaldata.JXTA*` <br/> |
 |LinkedIn  <br/> | `ipm.externaldata.LinkedIn*` <br/> |
-|MFTP  <br/> | `ipm.externaldata.MFTP*` <br/> |
+|mftp  <br/> | `ipm.externaldata.MFTP*` <br/> |
 |Microsoft UC  <br/> | `ipm.externaldata.MicrosoftUC*` <br/> |
 |마인드 맞춤  <br/> | `ipm.externaldata.MindAlign*` <br/> |
 |Mobile Guard  <br/> | `ipm.externaldata.MobileGuard*` <br/> |
-|MSN  <br/> | `ipm.externaldata.MSN*` <br/> |
+|수신  <br/> | `ipm.externaldata.MSN*` <br/> |
 |myspace  <br/> | `ipm.externaldata.MySpace*` <br/> |
 |NEONetwork  <br/> | `ipm.externaldata.NEONetwork*` <br/> |
 |opennap  <br/> | `ipm.externaldata.OpenNap*` <br/> |
-|Pinterest  <br/> | `ipm.externaldata.Pinterest*` <br/> |
+|유 이율  <br/> | `ipm.externaldata.Pinterest*` <br/> |
 |Pivot  <br/> | `ipm.externaldata.Pivot*` <br/> |
-|QQ  <br/> | `ipm.externaldata.QQ*` <br/> |
+|qq  <br/> | `ipm.externaldata.QQ*` <br/> |
 |Microsoft SharePoint  <br/> | `ipm.externaldata.SharePoint*` <br/> |
 |Salesforce Chatter  <br/> | `ipm.externaldata.Chatter*` <br/> |
 |비즈니스용 Skype  <br/> | `ipm.externaldata.Skype*` <br/> |
 |Slack Enterprise Grid  <br/> | `ipm.externaldata.Slack.IM` <br/> |
 |SoftEther  <br/> | `ipm.externaldata.SoftEther*` <br/> |
-|
-Squawker
-  <br/> | `ipm.externaldata.Squawker*` <br/> |
-|Symphony
-  <br/> | `ipm.externaldata.Symphony*` <br/> |
+|Squawker  <br/> | `ipm.externaldata.Squawker*` <br/> |
+|Symphony  <br/> | `ipm.externaldata.Symphony*` <br/> |
 |Thomson Reuters  <br/> | `ipm.externaldata.Reuters*` <br/> |
-| Thomson Reuters Eikon Messenger
-  <br/> | `ipm.externaldata.ReutersEikon*` <br/> |
-|Tor  <br/> | `ipm.externaldata.Tor*` <br/> |
+| Thomson Reuters Eikon Messenger  <br/> | `ipm.externaldata.ReutersEikon*` <br/> |
+|한자  <br/> | `ipm.externaldata.Tor*` <br/> |
 |TTT  <br/> | `ipm.externaldata.TTT*` <br/> |
 |Twitter  <br/> | `ipm.externaldata.Twitter*` <br/> |
-|UBS Chat
-  <br/> | `ipm.externaldata.UBS*` <br/> |
+|UBS Chat  <br/> | `ipm.externaldata.UBS*` <br/> |
 |Vimeo  <br/> | `ipm.externaldata.Vimeo*` <br/> |
 |winmx  <br/> | `ipm.externaldata.WinMX*` <br/> |
-|Winny  <br/> | `ipm.externaldata.Winny*` <br/> |
-|Yahoo!  <br/> | `ipm.externaldata.Yahoo!*` <br/> |
+|winny  <br/> | `ipm.externaldata.Winny*` <br/> |
+|!  <br/> | `ipm.externaldata.Yahoo!*` <br/> |
 |Yammer  <br/> | `ipm.externaldata.Yammer*` <br/> |
 |YellowJacket  <br/> | `ipm.externaldata.YellowJacket*` <br/> |
 |YouTube  <br/> | `ipm.externaldata.YouTube*` <br/> |

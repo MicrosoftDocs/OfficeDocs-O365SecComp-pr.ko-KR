@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery 분석 옵션 설정
+title: Office 365 Advanced eDiscovery에서 분석 옵션 설정
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: '유사 복제, 전자 메일 스레드 및 테마를 포함 하 여 Office 365 Advanced eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 12bbe4043803c165a58adac80b72d03afd48adc7
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 4689638f5cebe2ef17fcea5a13ff06edc29e5930
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218228"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998531"
 ---
-# <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 분석 옵션 설정
+# <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 옵션 설정
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -33,7 +33,7 @@ ms.locfileid: "30218228"
   
 ![세트 옵션 분석](media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
   
- **유사-중복 및 전자 메일 스레드** 분석을 실행 하려면이 확인란을 선택 합니다. 기본적으로 선택 되어 있습니다. 
+ **유사-중복 및 전자 메일 스레드** 분석을 실행 하려면이 확인란을 선택 합니다. 이 옵션은 기본적으로 선택되어 있습니다. 
   
  **문서 유사성** 거의 모든 부분 복제 임계값을 입력 하거나 기본값인 65%를 그대로 사용 합니다. 
   
@@ -52,7 +52,7 @@ ms.locfileid: "30218228"
   
 1. 제안 된 테마를 보거나 추가 하거나 편집 하려면 **수정을**클릭 합니다.
     
-2. 제안 된 **테마** 패널에서 추가 아이콘 ****![](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 추가 아이콘를 클릭 하 여 테마를 추가 합니다. **제안 테마 추가** 패널에서 단어를 쉼표로 구분 하 여 추가 합니다. 
+2. 제안 된 **테마** 패널에서 추가 아이콘 **** ![](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 추가 아이콘를 클릭 하 여 테마를 추가 합니다. **제안 테마 추가** 패널에서 단어를 쉼표로 구분 하 여 추가 합니다. 
     
 3. **테마 수**에 따라 고급 eDiscovery에서 해당 단어에 대해 생성을 시도할 테마 수를 결정 하는 값 (기본값은 1 테마)을 선택 합니다.
     

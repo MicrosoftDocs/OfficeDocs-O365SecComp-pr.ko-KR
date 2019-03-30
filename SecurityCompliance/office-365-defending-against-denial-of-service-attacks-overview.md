@@ -3,23 +3,22 @@ title: Office 365에서 서비스 거부 공격 으로부터 방어
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: DoS (서비스 거부) 공격의 개요
-ms.openlocfilehash: 246704bff18c07d9b76281ae3c7071cd0d747630
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a7e67fcc87867190f345c5dad14e38a473420eab
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220508"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004075"
 ---
 # <a name="defending-against-denial-of-service-attacks-in-office-365"></a>Office 365에서 서비스 거부 공격 으로부터 방어
 
@@ -41,7 +40,7 @@ Microsoft는 심층 방어 보안 원칙을 사용 하 여 클라우드 서비�
 - 무선 또는 유선 인터넷 연결 끊기
 - 웹 또는 인터넷 서비스에 대 한 장기간 액세스 권한 손실
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 - [서비스 거부 공격에 대한 보안 핵심 원칙](office-365-core-principles-of-defense-against-dos-attacks.md)
 - [Microsoft의 서비스 거부 방어 전략](office-365-microsoft-dos-defense-strategy.md)
 - [서비스 거부 공격에 대해 Microsoft 클라우드 서비스 방어](office-365-defending-cloud-services-against-dos-attacks.md)

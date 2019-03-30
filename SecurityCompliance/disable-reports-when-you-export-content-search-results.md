@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정
+title: 콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,17 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
-description: 로컬 컴퓨터에서 Windows 레지스트리를 편집 하 여 Office 365 Security &amp; Comliance Center에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정 합니다. 이러한 보고서를 사용 하지 않도록 설정 하면 다운로드 시간을 단축 하 고 디스크 공간을 절약할 수 있습니다.
-ms.openlocfilehash: f08f5e7143022591d38bda787301e71ae80fb3d3
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+description: 로컬 컴퓨터에서 Windows 레지스트리를 편집 하 여 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정 합니다. 이러한 보고서를 사용 하지 않도록 설정 하면 다운로드 시간을 단축 하 고 디스크 공간을 절약할 수 있습니다.
+ms.openlocfilehash: 19d97bbc95be5db6540e6822721752ca62adebfc
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936718"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998768"
 ---
-# <a name="disable-reports-when-you-export-content-search-results-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정
+# <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 
-Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 &amp; 및 준수 센터에서 콘텐츠 검색 결과를 내보낼 때이 도구는 내보낸 콘텐츠에 대 한 추가 정보가 포함 된 두 개의 보고서를 자동으로 만들고 내보냅니다. 이러한 보고서는 결과. .csv 파일 및 manifest.xml 파일 (이러한 보고서에 대 한 자세한 설명을 보려면이 항목의 [보고서 내보내기 비활성화에 대 한 질문과 대답](#frequently-asked-questions-about-disabling-export-reports) 섹션 참조)이 있습니다. 이러한 파일은 매우 커질 수 있으므로 다운로드 시간을 단축 하 고 이러한 파일을 내보내지 못하게 하 여 디스크 공간을 절약할 수 있습니다. 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 변경 하 여이 작업을 수행할 수 있습니다. 나중에 보고서를 포함 하려면 레지스트리 설정을 편집할 수 있습니다. 
+Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때이 도구는 내보낸 콘텐츠에 대 한 추가 정보가 포함 된 두 개의 보고서를 자동으로 만들고 내보냅니다. 이러한 보고서는 결과. .csv 파일 및 manifest.xml 파일 (이러한 보고서에 대 한 자세한 설명을 보려면이 항목의 [보고서 내보내기 비활성화에 대 한 질문과 대답](#frequently-asked-questions-about-disabling-export-reports) 섹션 참조)이 있습니다. 이러한 파일은 매우 커질 수 있으므로 다운로드 시간을 단축 하 고 이러한 파일을 내보내지 못하게 하 여 디스크 공간을 절약할 수 있습니다. 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 변경 하 여이 작업을 수행할 수 있습니다. 나중에 보고서를 포함 하려면 레지스트리 설정을 편집할 수 있습니다. 
   
 ## <a name="create-registry-settings-to-disable-the-export-reports"></a>레지스트리 설정을 만들어 내보내기 보고서를 사용 하지 않도록 설정
 

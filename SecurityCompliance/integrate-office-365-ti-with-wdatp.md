@@ -15,12 +15,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Windows Defender advanced threat protection을 사용 하 여 Office 365 advanced threat protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: bbbb42c9d0f37ab33323b2fa1dd071bd5ee16829
-ms.sourcegitcommit: 74ad22a5c6c3c9d9324f0f97070909e323a4e9cf
+ms.openlocfilehash: 832b9c6bc600366e1ed6b7c6e60442bec8b5002c
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30523982"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998961"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-windows-defender-advanced-threat-protection"></a>Windows Defender advanced threat protection을 사용 하 여 Office 365 advanced threat protection 통합
 
@@ -42,7 +42,7 @@ ms.locfileid: "30523982"
     
 ## <a name="to-integrate-office-365-advanced-threat-protection-with-windows-defender-atp"></a>Windows Defender ATP를 사용 하 여 Office 365 Advanced Threat Protection을 통합 하려면
 
-windows defender advanced threat protection을 통한 office 365 advanced threat protection을 통합 하는 기능은 office 365 Security & 준수 센터 및 Windows defender advanced threat protection 포털을 모두 사용 하 여 설정 됩니다.
+Office 365 advanced threat protection을 사용 하 여 windows defender advanced threat protection을 통합 하는 것은 보안 & 준수 센터와 windows defender advanced threat protection 포털을 모두 사용 하 여 설정 됩니다.
   
 1. office 365 전역 관리자 또는 보안 관리자 인 경우으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 office 365에 대 한 회사 또는 학교 계정으로 로그인 합니다. 
     

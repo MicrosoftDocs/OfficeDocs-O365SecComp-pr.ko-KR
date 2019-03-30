@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 새로운 Microsoft 365 준수 센터에 대해 알아봅니다.
-ms.openlocfilehash: 00c9325b35c2dca5b474964e47683e94a77c97fe
-ms.sourcegitcommit: fb50bf2f2c9d780c911f245a2f78c6bb5e357f67
+ms.openlocfilehash: 76ddc27ad616f2cbf4ec3a97892e3baea92469ec
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950445"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001041"
 ---
 # <a name="welcome-to-your-all-new-microsoft-365-compliance-center"></a>새로운 Microsoft 365 준수 센터에 오신 것을 환영 합니다.
 
@@ -24,7 +24,7 @@ ms.locfileid: "30950445"
 
 Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대답](#frequently-asked-questions)및 [다음 단계](#next-steps)를 숙지 하려면이 문서를 읽어 보세요.
 
-[![Microsoft 365 준수 센터](media/m365-compliance-center.png)](https://compliance.microsoft.com)
+[![Microsoft 365 규정 준수 센터](media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
 ## <a name="welcome-to-microsoft-365-compliance"></a>Microsoft 365 준수에 오신 것을 환영 합니다.
 
@@ -83,7 +83,7 @@ Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대
 
 ### <a name="why-am-i-taken-to-the-office-365-security--compliance-center-to-perform-some-tasks-such-as-defining-certain-policies"></a>특정 정책을 정의 하는 것과 같은 일부 작업을 수행 하기 위해 Office 365 보안 & 준수 센터로 이동 하는 이유는 무엇 인가요?
 
-microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월 동안 기능과 솔루션을 추가로 추가할 예정입니다. 이 경우에는 Office 365 Security & 준수 센터에서 몇 가지 작업을 수행 해야 합니다. 이러한 경우에는 사용자가 감독 정책을 만들거나 편집 하는 등의 작업을 수행할 수 있는 위치로 자동으로 리디렉션됩니다.
+microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월 동안 기능과 솔루션을 추가로 추가할 예정입니다. 한편 보안 & 준수 센터에서는 몇 가지 작업을 수행 해야 합니다. 이러한 경우에는 사용자가 감독 정책을 만들거나 편집 하는 등의 작업을 수행할 수 있는 위치로 자동으로 리디렉션됩니다.
 
 ### <a name="why-dont-i-see-the-new-microsoft-365-compliance-center-yet"></a>아직 새로운 Microsoft 365 준수 센터가 표시 되지 않는 이유는 무엇 인가요?
 

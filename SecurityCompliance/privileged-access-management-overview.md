@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 Office 365의 권한이 부여 된 액세스 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: d8b16d7dd73f99c15ec241963a58273966074318
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 2a464bacaa568515e470e29a0c9c45a91a79cf8e
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214928"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001251"
 ---
 # <a name="privileged-access-management-in-office-365"></a>Office 365의 권한이 부여 된 액세스 관리
 
@@ -45,23 +45,23 @@ Office 365의 권한이 부여 된 액세스 관리는 **작업** 수준에서 �
 
 ## <a name="privileged-access-management-architecture-and-process-flow"></a>권한 있는 액세스 관리 아키텍처 및 프로세스 흐름
 
-다음 각 프로세스는 priveleged 액세스 아키텍처와 office 365 기판, office 365 감사 및 Exchange 관리 runspace와 상호 작용 하는 방식을 대략적으로 설명 합니다.
+다음 각 프로세스는 권한 있는 액세스의 아키텍처와 office 365 기판, office 365 감사 및 Exchange 관리 runspace와 상호 작용 하는 방식을 대략적으로 보여 줍니다.
 
 ### <a name="step-1-configuring-a-privileged-access-policy"></a>1 단계: 권한이 부여 된 액세스 정책 구성
 
-office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스 정책을 구성 하는 경우 정책을 만들고 정의 하며, 권한이 부여 된 액세스 기능은 office 365 기판에서 정책 특성을 처리 하 고, 다음을 기록 합니다. Office 365 보안 및 준수 센터의 활동입니다. 이제 정책이 사용 하도록 설정 되어 있으며 승인 된 승인을 요청을 처리할 준비가 되었습니다.
+[Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스 정책을 구성 하는 경우 정책을 만들고 정의 하며, 권한이 부여 된 액세스 기능은 Office 365 기판의 정책 특성을 처리 하 고 Office 365 보안 및 준수 센터에서 활동을 기록 합니다. 이제 정책이 사용 하도록 설정 되어 있으며 승인 된 승인을 요청을 처리할 준비가 되었습니다.
 
 ![1 단계-정책 만들기](media/pam-step1-policy-creation.jpg)
 
 ### <a name="step-2-access-request"></a>2 단계: 액세스 요청
 
-사용자는 Office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여 상승 되거나 권한이 부여 된 작업에 대 한 액세스를 요청할 수 있습니다. 권한 있는 액세스 기능은 구성 된 권한 액세스 정책에 대 한 처리를 위해 office 365 기판에 요청을 전송 하 고 office 365 보안 및 준수 센터 로그에 sctivity을 기록 합니다.
+사용자는 [Microsoft 365 관리 센터](https://admin.microsoft.com) 또는 Exchange 관리 PowerShell을 사용 하 여 상승 되거나 권한이 부여 된 작업에 대 한 액세스를 요청할 수 있습니다. 권한 있는 액세스 기능은 구성 된 권한 액세스 정책에 대 한 처리를 위해 office 365 기판에 요청을 전송 하 고 office 365 보안 및 준수 센터 로그에 해당 활동을 기록 합니다.
 
 ![2 단계-액세스 요청](media/pam-step2-access-request.jpg)
 
 ### <a name="step-3-access-approval"></a>3 단계: 액세스 승인
 
-승인 요청이 생성 되 고, 승인 그룹은 대기 중인 요청의 전자 메일로 알림을 받습니다. 승인이 부여 되 면 권한 있는 액세스 요청이 승인으로 처리 되 고 작업을 완료할 준비가 완료 된 것입니다. 요청이 거부 되 면 작업이 차단 되 고 reqeustor에 대 한 액세스 권한이 부여 되지 않습니다. 요청자에 게는 전자 메일 메시지를 통한 승인 요청 또는 거부 메시지가 표시 됩니다.
+승인 요청이 생성 되 고, 승인 그룹은 대기 중인 요청의 전자 메일로 알림을 받습니다. 승인이 부여 되 면 권한 있는 액세스 요청이 승인으로 처리 되 고 작업을 완료할 준비가 완료 된 것입니다. 요청이 거부 되 면 작업이 차단 되 고 요청자에 게 액세스 권한이 부여 되지 않습니다. 요청자에 게는 전자 메일 메시지를 통한 승인 요청 또는 거부 메시지가 표시 됩니다.
 
 ![3 단계-액세스 승인](media/pam-step3-access-approval.jpg)
 
@@ -84,7 +84,7 @@ office 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여 권
 microsoft는 Office 365 조 직 당 최대 30 개의 권한이 부여 된 액세스 정책에 대 한 현재 제한을 증대 시킬 계획입니다.
 
 ### <a name="do-i-need-to-be-a-global-admin-to-manage-privileged-access-in-office-365"></a>Office 365에서 권한이 부여 된 액세스를 관리 하려면 전역 관리자 여야 하나요?
-아니요, Office 365에서 권한이 부여 된 액세스를 관리할 계정에 Exchange 역할 관리 역할을 할당 해야 합니다. 그러나 전역 관리자 역할은 기본적으로이 역할을 포함 하며, 역할 관리 역할을 독립 실행형 계정 권한으로 구성 하지 않으려는 경우에는 권한 있는 액세스를 관리 하는 데 사용할 수 있습니다. 승인자 그룹에 포함 된 사용자는 전역 관리자 일 필요는 없으며, 요청을 검토 및 승인 하기 위해 역할 관리 역할을 할당할 필요가 없습니다. 
+아니요, Office 365에서 권한이 부여 된 액세스를 관리할 계정에 Exchange 역할 관리 역할을 할당 해야 합니다. 그러나 전역 관리자 역할은 기본적으로이 역할을 포함 하며, 역할 관리 역할을 독립 실행형 계정 권한으로 구성 하지 않으려는 경우에는 권한 있는 액세스를 관리 하는 데 사용할 수 있습니다. 승인자 그룹에 포함 된 사용자는 전역 관리자 일 필요는 없으며, 요청을 검토 및 승인 하기 위해 역할 관리 역할을 할당할 필요가 없습니다.
 
 ### <a name="how-is-privileged-access-management-in-office-365-related-to-customer-lockbox"></a>Office 365의 권한이 부여 된 액세스 관리는 어떤 방식으로 고객 Lockbox와 관련 됩니까?
 [고객 Lockbox](https://docs.microsoft.com/office365/admin/manage/customer-lockbox-requests) 는 조직에 대해 서비스 공급자 (예: Microsoft)가 데이터에 액세스 하는 데 사용할 수 있는 액세스 제어 수준을 허용 합니다. office 365의 권한이 부여 된 액세스 관리를 통해 조직 내의 모든 Office 365 권한 작업에 대 한 세부적인 액세스 제어를 허용 합니다.

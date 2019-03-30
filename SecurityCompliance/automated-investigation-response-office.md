@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection의 자동화 된 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 9c01121ed6389f4a9014fe1ee1298b0e840f06ab
-ms.sourcegitcommit: 1706b618c9ec63ed05aebb5f84a77b5bfb50734a
+ms.openlocfilehash: 223a28a7f63f101dd5644e433d72a3ddf6e5dc23
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30792512"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000441"
 ---
 # <a name="automated-investigation-and-response-air-with-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -39,9 +39,9 @@ AIR 기능을 사용할 수 있는 경우에 대 한 자세한 내용은 [Micros
 
 ***참고**:이 경고에는 전자 메일 알림이 해제 된 보안 & 준수 센터 내의 각 경고 정책에 "정보" 심각도가 할당 되어 있습니다. 이러한 구성은 경고 정책 구성을 통해 설정할 수 있습니다.
 
-알림을 보려면 Office 365 보안 & 준수 센터에서 경고 **** > **보기 경고**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 정보 알림은 기본적으로 경고 보기에 표시 되지 않습니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림을 포함 해야 합니다.
+알림을 보려면 보안 & 준수 센터에서 경고 **** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 정보 알림은 기본적으로 경고 보기에 표시 되지 않습니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림을 포함 해야 합니다.
 
-조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 siem (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 다음을 통해 [해당 시스템에 Office 365 알림 메시지를 보낼 수 있습니다. Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 전자 메일 또는 API를 통한 조사 경고 알림에는 Office 365 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 빠르게 이동할 수 있도록 하는 링크가 포함 됩니다.
+조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 siem (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 다음을 통해 [해당 시스템에 Office 365 알림 메시지를 보낼 수 있습니다. Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 빠르게 이동할 수 있도록 하는 링크가 포함 됩니다.
 
 ![조사로 연결 되는 경고](media/air-alerts-page-details.png) 
 
@@ -121,15 +121,15 @@ AIR의 일환으로 보안 playbook가 단계별로 배포 됨
 
 ## <a name="get-started"></a>시작
 
-office 365 전역 관리자, 보안 관리자 또는 보안 읽기 권한자로 조사에 액세스 하려면 office 365 security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다. 다음 중 하나를 수행합니다.
+Office 365 전역 관리자, 보안 관리자 또는 보안 읽기 권한자로 조사에 액세스 하려면 security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다. 다음 중 하나를 수행합니다.
 
 - 왼쪽 탐색 창에서 **알림** > **보기로**이동 하 고, 조사 관련 알림 중 하나를 연 다음, 알림 플라이 아웃의 아래쪽에 있는 **보기 확인** 링크를 클릭 합니다. 
 
-    또는
+     선택하거나 
 
 - 왼쪽 탐색에서 **위협 관리** > **조사**로 이동 합니다.
 
-    또는
+     선택하거나 
 
 - 보안 & 준수 센터에서 **위협 관리** > **대시보드로**이동 하 여 위협 관리 대시보드를 방문 합니다.
 

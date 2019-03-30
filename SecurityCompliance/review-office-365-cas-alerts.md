@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97e9c3d9-df89-458e-924b-369becee5532
 description: Office 365 Cloud App Security의 알림 페이지를 사용 하 여 잠재적인 문제를 확인 하 고 조치를 취할 수 있습니다. 알림을 해제 하거나 확인 하 고 필요한 경우 사용자 계정을 일시 중단할 수 있습니다.
-ms.openlocfilehash: 701d80c3f890115c6c403fff21d2d0444d71c95a
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: ddef10293fca7b722a13babdca5c05bbe2398cb3
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862470"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000041"
 ---
 # <a name="review-and-take-action-on-alerts-in-office-365-cloud-app-security"></a>검토 하 고 필요한 작업을 Office 365 Cloud App Security 검토 및 알림 작업 수행
   
@@ -37,7 +37,7 @@ Office 365 Cloud App Security의 알림 페이지를 사용 하 여 잠재적인
 2. 화면 위쪽의 탐색 모음에서 **경고**를 선택 합니다.<br/>![알림 페이지에서 트리거된 알림과 수행한 모든 작업을 확인할 수 있습니다.](media/3b53d4c9-4b13-435d-8547-8c0f9ae6b914.png)
  
 > [!NOTE]
-> Cloud App security alerts는 Office 365 Security & 준수 센터 ( **경고** > **보기로**이동)에도 표시 됩니다. 그러나 현재 클라우드 응용 프로그램 보안 포털 및 Office 365 Security & 준수 센터에서 이러한 경고를 해결 해야 합니다. 자세한 내용은 [Cloud App Security alerts 보기](alert-policies.md#viewing-cloud-app-security-alerts)를 참조 하십시오. 
+> Cloud App security alerts는 보안 & 준수 센터 ( **알림** > **보기 경고**로 이동)에도 표시 됩니다. 그러나 현재 클라우드 응용 프로그램 보안 포털 및 security & 준수 센터에서 이러한 경고를 해결 해야 합니다. 자세한 내용은 [Cloud App Security alerts 보기](alert-policies.md#viewing-cloud-app-security-alerts)를 참조 하십시오. 
  
 ## <a name="review-and-handle-alerts"></a>알림 검토 및 처리
 

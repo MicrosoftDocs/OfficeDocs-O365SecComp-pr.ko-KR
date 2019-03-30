@@ -1,9 +1,8 @@
 ---
-title: Office 365 Advanced eDiscovery 프로세스 모듈 결과에 기반한 의사 결정
+title: Office 365 Advanced eDiscovery의 결과를 기반으로 결정
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
 description: 'Office 365 Advanced eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c4767e703d03ef5dbdb808332e873d22094d7bca
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a9250a45129320517f96b9a335db95d164d2dae7
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216108"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999911"
 ---
-# <a name="decision-based-on-the-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 프로세스 모듈 결과에 기반한 의사 결정
+# <a name="decision-based-on-the-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 결과를 기반으로 결정
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

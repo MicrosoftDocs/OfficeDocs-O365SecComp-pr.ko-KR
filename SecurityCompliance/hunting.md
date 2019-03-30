@@ -11,16 +11,15 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: f11abff72ef144b44ce99ca83aadbf5d65bdb273
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: a1a6970e81f3c6ce3f768958333f3a692b05346c
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791857"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000001"
 ---
 # <a name="hunt-for-malware-and-other-threats-in-microsoft-365"></a>Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트
 
-[!include[Prerelease�information](prerelease.md)]
 
 사냥은 전자 메일 및 데이터, 장치 및 id를 통해 조직의 가능한 위협에 대 한 보기를 보안 팀에 제공 합니다. Windows Defender ATP, Office 365 ATP 및 Azure ATP 포털 내에서 손상 된 계정, 파일을 덜 맬웨어, 의심 스러운 전자 메일 등을 찾을 수 있습니다.
 

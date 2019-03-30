@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안의 id 모니터링 및 보고
+title: Microsoft 365 보안의 ID 모니터링 및 보고
 description: 조직의 id를 모니터링 하 고 의심 스 럽 거 나 위험한 행동을 추적 하는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, id
 ms.prod: w10
@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4b2dfec483f4365c7eff132e2a2401734358ad7a
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 285bc5af108de8a59a65a088ec4e33ae27bff3c1
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791833"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998891"
 ---
-# <a name="monitor-and-report-identities-in-microsoft-365-security"></a>Microsoft 365 보안의 id 모니터링 및 보고
-
-[!include[Prerelease�information](prerelease.md)]
+# <a name="monitor-and-report-identities-in-microsoft-365-security"></a>Microsoft 365 보안의 ID 모니터링 및 보고
 
 조직의 id를 모니터링 하 고 의심 스 럽 거 나 위험한 행동을 추적할 수 있습니다. **모니터링 & 보고서**의 **id** 범주에서 다음을 추적할 수 있습니다.
 

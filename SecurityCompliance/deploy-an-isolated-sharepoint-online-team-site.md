@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: 6a552e7ce8982f3b7d943136907764385fa33115
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: e59c92ff488f82f4ea042364d742f7418da50167
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216608"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000190"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -87,9 +87,9 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
   
 다음은 세 개의 사이트 액세스 그룹이 포함 된 결과 구성입니다.
   
-![격리된 SharePoint Online 사이트 배포용 세 개의 액세스 그룹입니다.](media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
+![격리 된 SharePoint Online 사이트 배포에 대 한 세 가지 액세스 그룹](media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
   
-### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>5 단계 액세스 그룹에 사용자 계정 추가
+### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>5단계. 액세스 그룹에 사용자 계정 추가
 
 이 단계에서는 다음을 수행 합니다.
   
@@ -161,7 +161,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 먼저 다음 단계를 사용 하 여 SharePoint Online 팀 사이트를 만듭니다.
   
-1. SharePoint Online 팀 사이트(SharePoint Online 관리자)를 관리하는 데에도 사용할 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. sharepoint online 팀 사이트 (sharepoint online 관리자)를 관리 하는 데 사용 되는 계정을 사용 하 여 관리 센터에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -223,7 +223,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 다음은 사용자 계정 또는 Azure AD 그룹으로 채워지는 세 개의 액세스 그룹을 사용 하도록 구성 된 사이트에 대 한 세 가지 SharePoint 그룹의 구성 결과입니다.
   
-![액세스 그룹 및 사용자 계정이 있는 격리된 SharePoint Online 사이트의 최종 구성입니다.](media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
+![액세스 그룹과 사용자 계정을 사용 하는 격리 된 SharePoint Online 사이트의 최종 구성](media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
   
 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 구성원은 이제 사이트의 리소스를 사용 하 여 공동 작업을 수행할 수 있습니다.
   

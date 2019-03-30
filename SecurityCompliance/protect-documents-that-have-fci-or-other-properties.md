@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
-ms.openlocfilehash: b1a5b438714a0c0b91d33a9544c0f26cbd12b4c9
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: ad643c77d477f6b9aaecb122010584510ea9bf7e
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639085"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000581"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -50,7 +50,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
   
 ### <a name="step-2-create-a-managed-property"></a>2단계: 관리 속성 만들기
 
-1. Office 365 관리 센터에 로그인합니다.
+1. Microsoft 365 관리 센터에 로그인 합니다.
     
 2. 왼쪽 탐색 영역에서 **관리 센터** \> **SharePoint**를 선택 합니다. 이제 사용자는 SharePoint 관리 센터에 있습니다.
     

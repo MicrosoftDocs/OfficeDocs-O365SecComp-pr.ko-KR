@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: '이전 직원이 조직에 반환 되는 경우 또는 이거나 퇴직 한 직원의 직무에 따라 새 직원을 고용 하는 경우 Office 365에서 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 비활성 사서함의 내용이 포함 된 새 사서함으로 변환 됩니다. '
-ms.openlocfilehash: d5cdb07c7a7209f11021a8f4235280a6b27f216d
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.openlocfilehash: c7f942c518dcc74a4bdb37d67e27e8a63879ab46
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900047"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999821"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복구
 
@@ -69,7 +69,7 @@ ms.locfileid: "30900047"
 
     복구 된 비활성 사서함의 기본 SMTP 주소는 *MicrosoftOnlineServicesID* 매개 변수에 지정 된 것과 같은 값을 갖습니다. 
     
-비활성 사서함을 복구한 후에는 새 Office 365 사용자 계정도 만들어집니다. 라이선스를 할당하여 이 사용자 계정을 활성화해야 합니다. Office 365 관리 센터에서 라이선스를 할당하려면 [비즈니스용 Office 365 라이선스 할당 또는 할당 취소](https://go.microsoft.com/fwlink/p/?LinkId=276798)를 참조하세요.
+비활성 사서함을 복구한 후에는 새 Office 365 사용자 계정도 만들어집니다. 라이선스를 할당하여 이 사용자 계정을 활성화해야 합니다. Microsoft 365 관리 센터에서 라이선스를 할당하려면 [비즈니스용 Office 365 라이선스 할당 또는 할당 취소](https://go.microsoft.com/fwlink/p/?LinkId=276798)를 참조하세요.
   
 ## <a name="more-information"></a>추가 정보
 

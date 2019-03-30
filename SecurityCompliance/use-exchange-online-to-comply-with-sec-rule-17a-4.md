@@ -3,6 +3,7 @@ title: SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준�
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
+ms.date: ''
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Cohasset Associates는 Exchange Online 및 Security & Compliance Center가 권장대로 구성되어 있으면 CFTC 규칙 1.31 (c) - (d), FINRA 규칙 4511 및 SEC 규칙 17a-4의 관련 저장소 요구 사항을 충족함을 확인했습니다. 평가판을 다운로드할 수 있습니다.
-ms.openlocfilehash: b0c2a54aab8f011605a285d4dabfb4091612b17a
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 7558770f5a777667bd0e986a3156b39a91f0336e
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410513"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997074"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 

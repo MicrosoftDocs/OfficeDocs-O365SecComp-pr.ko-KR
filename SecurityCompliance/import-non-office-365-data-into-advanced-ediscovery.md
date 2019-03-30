@@ -1,9 +1,8 @@
 ---
-title: Advanced eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
+title: 고급 eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 5/25/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: aed로 분석할 수 있도록 O365에 저장 되지 않은 콘텐츠를 Azure blob로 가져오는 방법에 대해 설명 하는 방법
-ms.openlocfilehash: 1019fa2e2429aeff8bd20bc3dfb266ab5fb25eaf
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 7b7694754b26951aa02930fd101631ba9060bc17
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217068"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001171"
 ---
-# <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>Advanced eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
+# <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>고급 eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
 
 office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문서는 office 365에 살고 있습니다. 고급 ediscovery의 office가 아닌 365 콘텐츠 가져오기 기능을 사용 하는 경우 PST 파일을 제외한 office 365에 없는 문서를 연결 된 Azure storage blob에 업로드 하 고 고급 ediscovery로 분석할 수 있습니다. 이 절차에서는 분석을 위해 비 Office 365 문서를 고급 eDiscovery로 가져오는 방법을 보여 줍니다.
   
@@ -62,7 +61,7 @@ office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
     
 7. AzCopy 명령줄을 구성 하 여 다음과 같은 파일을 업로드 합니다.
     
-    AzCopy/Source: " *로컬 컴퓨터의 루트 폴더* 에 대 한 전체 경로"/tdest: "컨테이너 url까지?"/DestSAS: "를 *포함 하지 않고* *? 끝* "/S. 
+    AzCopy/Source: " *로컬 컴퓨터의 루트 폴더* 에 대 한 전체 경로"/dest: " *컨테이너 URL까지* (으)로 이동 하 고?  "/DestSAS:"의 *컨테이너 url의 나머지 부분은? 끝* "/S. 
     
     예를 들어 다음 값을 사용 합니다. 
     

@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 도구, 보고 도구 및 위협 인텔리전스 기능이 포함 되어 있습니다.
-ms.openlocfilehash: 442c827f9844184fc6f03f6e253a0f492d12dd62
-ms.sourcegitcommit: 787a0fef671e5dc6f5e805b580321b2edbfad8e9
+ms.openlocfilehash: 402110fa7b835cd86ffbcf14439304d364cf03dd
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30989623"
+ms.locfileid: "31001181"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -89,9 +89,9 @@ AIR에는 경고를 트리거하거나, 위협 탐색기의 보기와 같이 수
 
 자세한 내용은 다음을 참조하세요.
 
-- [Office 365 Security & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md) 
+- [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md) 
 
-- [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
+- [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
 
 ## <a name="get-office-365-atp"></a>Office 365 ATP 받기
 

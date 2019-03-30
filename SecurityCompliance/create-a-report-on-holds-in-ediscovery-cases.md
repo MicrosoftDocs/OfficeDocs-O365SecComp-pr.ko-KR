@@ -11,31 +11,31 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
-description: 이 문서의 스크립트를 사용 하 여 Office 365 보안 &amp; 및 준수 센터의 eDiscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성 합니다.
-ms.openlocfilehash: 95a960e8f76c672185e10d5b6be2a7ff2538a34b
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
+ms.openlocfilehash: db5a462087dd20ed71f87efe2fd83b821654f1b9
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30297001"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000881"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.
   
-이 문서의 스크립트를 사용 하면 ediscovery 관리자 및 ediscovery 관리자가 Office 365 보안 &amp; 및 준수 센터의 ediscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
+이 문서의 스크립트를 통해 ediscovery 관리자 및 ediscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에 있는 ediscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
 
 보고서에 포함 된 정보에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오. 
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 조직의 모든 ediscovery 사례에 대 한 보고서를 생성 하려면 조직의 ediscovery 관리자 여야 합니다. eDiscovery 관리자 인 경우 보고서에 액세스할 수 있는 사례에 대 한 정보만 포함 됩니다. ediscovery 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+- 조직의 모든 ediscovery 사례에 대 한 보고서를 생성 하려면 조직의 ediscovery 관리자 여야 합니다. eDiscovery 관리자 인 경우 보고서에 액세스할 수 있는 사례에 대 한 정보만 포함 됩니다. ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
     
 - 이 문서의 스크립트에는 최소한의 오류 처리가 있습니다. 기본 목적은 조직의 eDiscovery 사례와 연결 된 보류에 대 한 보고서를 빠르게 만드는 것입니다.
     
 - 이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.
     
-## <a name="step-1-connect-to-the-security-amp-compliance-center-using-remote-powershell"></a>1 단계: 원격 PowerShell을 사용 &amp; 하 여 보안 및 준수 센터에 연결
+## <a name="step-1-connect-to-the-security--compliance-center-powershell"></a>1 단계: Security & 준수 센터 PowerShell에 연결
 
-첫 번째 단계는 Windows PowerShell을 조직의 보안 &amp; 및 준수 센터에 연결 하는 것입니다.
+첫 번째 단계는 조직의 Security & 준수 센터에 연결 하는 것입니다.
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `ConnectSCC.ps1`들면입니다. 
     
@@ -44,7 +44,7 @@ ms.locfileid: "30297001"
       $UserCredential = Get-Credential 
       $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
       Import-PSSession $Session -AllowClobber -DisableNameChecking 
-      $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Office 365 Security &amp; Compliance Center)" 
+      $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Security & Compliance Center)" 
     ```
 
 2. 로컬 컴퓨터에서 Windows PowerShell을 열고 스크립트를 저장 한 폴더로 이동 합니다. 
@@ -59,7 +59,7 @@ ms.locfileid: "30297001"
   
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>2 단계: 스크립트를 실행 하 여 eDiscovery 사례와 연결 된 보류에 대해 보고
 
-원격 PowerShell을 사용 하 여 보안 &amp; 및 준수 센터에 연결한 후에는 조직의 eDiscovery 사례에 대 한 정보를 수집 하는 스크립트를 만들고 실행 해야 합니다. 
+보안 & 준수 센터 PowerShell에 연결한 후에는 조직의 eDiscovery 사례에 대 한 정보를 수집 하는 스크립트를 만들고 실행 해야 합니다. 
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예: CaseHoldsReport. 
     
@@ -67,7 +67,7 @@ ms.locfileid: "30297001"
 #script begin
 " " 
 write-host "***********************************************"
-write-host "   Office 365 Security & Compliance Center   " -foregroundColor yellow -backgroundcolor darkgreen
+write-host "   Security & Compliance Center   " -foregroundColor yellow -backgroundcolor darkgreen
 write-host "        eDiscovery cases - Holds report         " -foregroundColor yellow -backgroundcolor darkgreen 
 write-host "***********************************************"
 " " 
@@ -176,7 +176,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
   
 ## <a name="more-information"></a>추가 정보
 
-이 문서의 스크립트를 실행할 때 생성 되는 보고서에는 각 보류에 대 한 다음과 같은 정보가 포함 되어 있습니다. 앞에서 설명한 것 처럼, 조직의 모든 보류에 대 한 정보를 반환 하려면 eDiscovery 관리자 여야 합니다. 사례 보존에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례](ediscovery-cases.md)를 참조 하세요.
+이 문서의 스크립트를 실행할 때 생성 되는 보고서에는 각 보류에 대 한 다음과 같은 정보가 포함 되어 있습니다. 앞에서 설명한 것 처럼, 조직의 모든 보류에 대 한 정보를 반환 하려면 eDiscovery 관리자 여야 합니다. 사례 보류에 대 한 자세한 내용은 [eDiscovery 사례](ediscovery-cases.md)를 참조 하십시오.
   
   - 보류의 이름과 보류가 연결 된 eDiscovery 사례의 이름입니다.
     

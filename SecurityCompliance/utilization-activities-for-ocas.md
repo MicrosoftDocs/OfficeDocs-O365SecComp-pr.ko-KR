@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 86f414ad-81de-4703-b40a-c6615bbe9108
 description: Office 365 Cloud App Security을 설정 하 고 롤아웃 한 후에는 특정 작업을 수행 하 여 구성이 올바르고 일반적인 검토를 위해 준비 되었는지 확인 해야 합니다.
-ms.openlocfilehash: 3afcfc307ea4a587287f3b71080bba89c715c908
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 232de4df1d1eb4debdddcee2c1d8672d1aeb4b21
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215948"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999951"
 ---
 # <a name="utilization-activities-after-rolling-out-office-365-cloud-app-security"></a>Office 365 Cloud App Security 적용한 후 사용률 활동
   
@@ -27,7 +27,7 @@ ms.locfileid: "30215948"
 |[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |[배포 시작](turn-on-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](review-office-365-cas-alerts.md) <br/> |
    
 > [!NOTE]
-> office 365 Cloud App Security는 office 365 Enterprise E5에서 사용할 수 있습니다. 조직에서 다른 office 365 Enterprise 구독을 사용 하는 경우 office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다. (전역 관리자 인 경우 Office 365 관리 센터에서 **청구** \> **구독 추가**를 선택 합니다.) 자세한 내용은 [office 365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)을 참조 하세요. 
+> office 365 Cloud App Security는 office 365 Enterprise E5에서 사용할 수 있습니다. 조직에서 다른 office 365 Enterprise 구독을 사용 하는 경우 office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다. (전역 관리자 인 경우 Microsoft 365 관리 센터에서 **청구** \> **구독 추가**를 선택 합니다.) 자세한 내용은 [office 365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)을 참조 하세요. 
   
 office 365 Cloud App Security를 설정 하 고 구성한 후에는 특정 사용률 작업을 조직의 Office 365 전역 관리자 또는 보안 관리자로 수행 하는 것이 좋습니다. 
 

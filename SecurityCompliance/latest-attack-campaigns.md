@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7c7fd07e2e1dfe495addc41242790f1c0ed15d2e
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 2bd777b6e785d1631810469f699da0823f1c3320
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791831"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998681"
 ---
 # <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>위협 분석을 사용한 최신 공격 캠페인 및 기술 이해
-
-[!include[Prerelease�information](prerelease.md)]
 
 사이버 위협은 점점 더 빈도가 높아지고 있습니다. 조직의 보안 상태 및 복구 력을 신속 하 게 평가 하는 것이 중요 합니다.
 

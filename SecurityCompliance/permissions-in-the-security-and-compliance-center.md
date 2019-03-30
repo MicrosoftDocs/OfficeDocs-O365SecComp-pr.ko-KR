@@ -3,7 +3,7 @@ title: Permissions in the Office 365 Security &amp; Compliance Center
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: conceptual
 f1_keywords:
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 &amp; 및 준수 센터를 사용 하면 장치 관리, 데이터 손실 방지, eDiscovery, 보존 등의 규정 준수 작업을 수행 하는 사용자에 게 사용 권한을 부여할 수 있습니다. 이러한 사용자들은 명시적으로 액세스 권한을 부여 받은 작업만 수행할 수 있습니다. 보안 &amp; 및 준수 센터에 액세스 하려면 사용자가 Office 365 전역 관리자 이거나 하나 이상의 보안 &amp; 준수 센터 역할 그룹의 구성원 이어야 합니다.
-ms.openlocfilehash: 9b2692d2afd70be911581caff237e61d405cf10f
-ms.sourcegitcommit: 6a7cec7d1f0d3b8d71f313bfa22f44c827de2336
+ms.openlocfilehash: eba77fd6edcf41bac5eeebae3637707c2c5a7246
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30798134"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997084"
 ---
 # <a name="permissions-in-the-office-365-security-amp-compliance-center"></a>Permissions in the Office 365 Security &amp; Compliance Center
 

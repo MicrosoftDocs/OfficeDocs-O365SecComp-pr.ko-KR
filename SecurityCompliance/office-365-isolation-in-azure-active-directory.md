@@ -3,23 +3,22 @@ title: Azure Active Directory의 Office 365 격리 및 액세스 제어
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Azure Active Directory 내에서 격리 및 액세스 제어 작업을 수행 하는 방법을 설명 합니다.'
-ms.openlocfilehash: 45b48aef93b9cb146440de7f41f23a493e8565df
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: bca7dc11bc3cc76e18972eb03761775da5f5cb41
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220188"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004223"
 ---
 # <a name="isolation-and-access-control-in-azure-active-directory"></a>Azure Active Directory에서 격리 및 액세스 제어
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: a025b006810c7f03b44fa9d307e263ba20af0903
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 0c6b3bce7b336b08595a432c29601ecb63155589
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639095"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000861"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -203,7 +203,7 @@ DLP 정책이 정확 하 고 효과적으로 중요 한 정보 유형을 검색 
 
 ![정책을 설정 하는 옵션](media/DLP-create-test-tune-turn-on-policy.png)
  
-정책이 적용 될 시기를 확인 하려면 [Office 365 Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) 을 실행 하 여 DistributionStatus를 확인 하세요.
+정책이 적용 될 시기를 확인 하려면 [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) 을 실행 하 여 DistributionStatus를 확인 하세요.
 
 ![PowerShell에서 cmdlet 실행](media/DLP-create-test-tune-PowerShell.png)
 

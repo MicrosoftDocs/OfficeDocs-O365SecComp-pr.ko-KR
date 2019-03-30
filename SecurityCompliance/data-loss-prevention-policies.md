@@ -3,8 +3,8 @@ title: 데이터 손실 방지 정책 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/29/2018
-ms.audience: Admin
+ms.date: 3/29/2019
+ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 7c776b3fd703ddb24d9d8195609384771858c7f5
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: 4117a99afc804fd397deb45087c5058077f9ff60
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862540"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000021"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -28,7 +28,7 @@ ms.locfileid: "30862540"
   
 DLP 정책을 사용하여 다음 작업을 수행할 수 있습니다.
   
-- **Exchange online, SharePoint online 및 비즈니스용 OneDrive와 같은 다양 한 위치에서 중요 한 정보를 식별 합니다.**
+- **Exchange online, SharePoint online, 비즈니스용 OneDrive 및 Microsoft 팀과 같은 다양 한 위치에서 중요 한 정보를 식별 합니다.**
     
     예를 들어 비즈니스용 onedrive 사이트에 저장 된 신용 카드 번호가 포함 된 모든 문서를 식별 하거나 특정 사용자의 onedrive 사이트만 모니터링할 수 있습니다.
     
@@ -36,13 +36,13 @@ DLP 정책을 사용하여 다음 작업을 수행할 수 있습니다.
     
     예를 들어 조직 외부의 사용자와 공유 하는 상태 레코드가 포함 된 모든 문서 또는 전자 메일을 식별 한 다음 해당 문서에 대 한 액세스를 자동으로 차단 하거나 전자 메일이 전송 되지 않도록 차단할 수 있습니다.
     
-- **데스크톱 버전의 Excel 2016, PowerPoint 2016 및 Word 2016에서 중요한 정보를 모니터링하고 보호합니다.**
+- **Excel, PowerPoint 및 Word의 데스크톱 버전에서 중요 한 정보를 모니터링 하 고 보호 합니다.**
     
-    Exchange Online, SharePoint online 및 비즈니스용 OneDrive와 마찬가지로 이러한 Office 2016 데스크톱 프로그램은 중요 한 정보를 식별 하 고 DLP 정책을 적용 하는 것과 같은 기능을 포함 합니다. DLP는 사용자가 이러한 2016 Office 프로그램에서 콘텐츠를 공유하는 경우 지속적인 모니터링을 제공합니다.
+    Exchange online, SharePoint online 및 비즈니스용 OneDrive와 마찬가지로 이러한 Office 데스크톱 프로그램은 중요 한 정보를 식별 하 고 DLP 정책을 적용 하는 것과 같은 기능을 포함 합니다. DLP는 사용자가 이러한 Office 프로그램에서 콘텐츠를 공유 하는 경우 지속적인 모니터링을 제공 합니다.
     
 - **사용자가 자신의 워크플로를 중단하지 않고 규정 준수 상태를 유지하도록 하는 방법을 알도록 도와줄 수 있습니다.**
     
-    사용자에게 DLP 정책에 대해 교육하고 자신의 작업을 중단하지 않고 규정 준수 상태를 유지하도록 할 수 있습니다. 예를 들어 사용자가 중요한 정보를 포함하는 문서를 공유하려고 하면 DLP 정책은 전자 메일 알림을 보내고, 업무 정당성이 있을 경우 이 정책을 재정의할 수 있는 문서 라이브러리의 컨텍스트에서 정책 팁을 표시합니다. 같은 정책 팁이 웹용 outlook, outlook 2013 이상, Excel 2016, PowerPoint 2016 및 Word 2016에도 나타납니다.
+    사용자에게 DLP 정책에 대해 교육하고 자신의 작업을 중단하지 않고 규정 준수 상태를 유지하도록 할 수 있습니다. 예를 들어 사용자가 중요한 정보를 포함하는 문서를 공유하려고 하면 DLP 정책은 전자 메일 알림을 보내고, 업무 정당성이 있을 경우 이 정책을 재정의할 수 있는 문서 라이브러리의 컨텍스트에서 정책 팁을 표시합니다. 웹, outlook, Excel, PowerPoint 및 Word의 outlook에도 동일한 정책 팁이 표시 됩니다.
     
 - **조직의 dlp 정책과 일치 하는 콘텐츠를 표시 하는 DLP 보고서를 확인 합니다.**
     
@@ -56,7 +56,7 @@ Office 365 보안 &amp; 및 준수 센터의 데이터 손실 방지 페이지�
 
 DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니다.
   
-- Exchange online, SharePoint Online 및 비즈니스용 OneDrive 사이트와 같은 콘텐츠 **위치** 를 보호할 수 있는 위치입니다. 
+- Microsoft 팀 채팅 및 채널과 함께 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 사이트와 같은 콘텐츠 **위치** 를 보호할 수 있는 위치입니다. 
     
 - 다음을 비롯하여 **규칙**을 적용하여 콘텐츠를 보호하는 경우 및 방법 
     
@@ -72,7 +72,7 @@ DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니
   
 ### <a name="locations"></a>위치
 
-DLP 정책은 정보를 Exchange Online, SharePoint Online 또는 비즈니스용 OneDrive에 있든 관계 없이 Office 365에서 중요 한 정보를 찾고 보호할 수 있습니다. 모든 SharePoint 사이트 또는 OneDrive 계정, 특정 사이트 또는 계정 또는 모든 사서함을 쉽게 보호할 수 있습니다. 아직 특정 사용자의 사서함만 선택할 수 있는 것은 아닙니다.
+DLP 정책은 해당 정보가 Exchange Online, SharePoint online, 비즈니스용 OneDrive 또는 Microsoft 팀에 있든 관계 없이 Office 365에서 중요 한 정보를 찾고 보호할 수 있습니다. Exchange 전자 메일, Microsoft 팀 채팅 및 채널, 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호 하거나 정책의 특정 위치를 선택 하도록 선택할 수 있습니다.
   
 ![DLP 정책을 적용할 수 있는 위치에 대 한 옵션](media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
   
@@ -148,11 +148,11 @@ DLP 정책이 신용 카드 번호와 같은 중요 한 정보 유형을 찾을 
   
 전자 메일 알림을 보내는 것 외에도 사용자 알림은 정책 팁을 표시 합니다.
   
-- outlook 2013 이상 및 웹용 outlook
+- outlook 및 웹용 outlook
     
 - SharePoint Online 또는 비즈니스용 OneDrive 사이트의 문서
     
-- Excel 2016, PowerPoint 2016 및 Word 2016에서 문서가 DLP 정책에 포함 된 사이트에 저장 되어 있는 경우
+- Excel, PowerPoint 및 Word의 경우, 문서가 DLP 정책에 포함 된 사이트에 저장 되어 있는 경우
     
 전자 메일 알림 및 정책 팁에서는 콘텐츠가 DLP 정책과 충돌 하는 이유를 설명 합니다. 해당 항목을 선택하면 전자 메일 알림 및 정책 팁은 가양성을 보고하거나 업무 정당성을 제공하여 사용자가 규칙을 재정의할 수 있도록 합니다. 이를 통해 사용자에게 DLP 정책을 교육하고, 사람들이 해당 작업을 수행하지 못하도록 하는 방식으로 정책을 적용할 수 있습니다. 재정의 및 가양성에 대한 정보는 보고를 위해 기록되고(DLP 보고서에 대해서는 아래 참조) 사고 보고서(다음 섹션 참조)에 포함되므로 규정 준수 책임자는 정기적으로 이 정보를 검토할 수 있습니다.
   
@@ -428,13 +428,15 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
 
 보안 &amp; 및 준수 센터에서 DLP 정책을 만든 후에는 중앙 정책 저장소에 저장 된 후 다음을 비롯 한 다양 한 콘텐츠 원본과 동기화 합니다.
   
-- Exchange Online, 웹에서 outlook 및 outlook 2013 이상
+- Exchange Online, 웹에서 outlook 및 outlook으로
     
 - 비즈니스용 OneDrive 사이트
     
 - SharePoint Online 사이트
     
-- Office 2016 데스크톱 프로그램(Excel 2016, PowerPoint 2016 및 Word 2016)
+- Office 데스크톱 프로그램 (Excel, PowerPoint 및 Word)
+
+- Microsoft 팀 채널 및 채팅
     
 정책이 올바른 위치와 동기화 되 면 콘텐츠를 평가 하 고 작업을 적용 하기 시작 합니다.
   
@@ -444,26 +446,36 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
   
 이러한 이유로 DLP 정책은 백그라운드에서 문서의 정책 일치 여부를 자주 확인합니다. 이러한 검사를 비동기 정책 평가로 간주할 수 있습니다.
   
-작동 방식은 다음과 같습니다. 누군가가 사이트에서 문서를 추가하거나 변경하면 검색 엔진이 해당 콘텐츠를 검색하므로 사용자가 나중에 검색할 수 있습니다. 이 문제가 발생 하는 동안에도 콘텐츠가 중요 한 정보를 검색 하 고 공유 되는지 확인 합니다. 발견 되는 중요 한 정보는 검색 인덱스에 안전 하 게 저장 되므로 준수 팀만 액세스할 수 있고 일반적인 사용자에 게는 액세스 하지 않아도 됩니다. 백그라운드에서 사용 하도록 설정 된 각 DLP 정책 (비동기적으로)이 검색을 자주 실행 하 여 정책과 일치 하는 모든 콘텐츠를 확인 하 고 실수로 인 한 누수 로부터 보호 하기 위해 작업을 적용 하는 경우
+#### <a name="how-it-works"></a>작업 방법
+ 
+누군가가 사이트에서 문서를 추가하거나 변경하면 검색 엔진이 해당 콘텐츠를 검색하므로 사용자가 나중에 검색할 수 있습니다. 이 문제가 발생 하는 동안에도 콘텐츠가 중요 한 정보를 검색 하 고 공유 되는지 확인 합니다. 발견 되는 중요 한 정보는 검색 인덱스에 안전 하 게 저장 되므로 준수 팀만 액세스할 수 있고 일반적인 사용자에 게는 액세스 하지 않아도 됩니다. 백그라운드에서 사용 하도록 설정 된 각 DLP 정책 (비동기적으로)이 검색을 자주 실행 하 여 정책과 일치 하는 모든 콘텐츠를 확인 하 고 실수로 인 한 누수 로부터 보호 하기 위해 작업을 적용 하는 경우
   
 ![DLP 정책이 비동기적으로 콘텐츠를 평가 하는 방법을 보여주는 다이어그램](media/bdf73099-039a-4909-ae89-ac12c41992ba.png)
   
 마지막으로 문서는 DLP 정책과 충돌할 수 있지만 DLP 정책을 준수할 수도 있습니다. 예를 들어 어떤 사람이 신용 카드 번호를 문서를 추가하는 경우 DLP 정책이 문서에 대한 액세스를 자동으로 차단할 수 있습니다. 하지만 나중에 이 사람이 중요한 정보를 제거하면 다음 번에 정책에 대해 문서가 평가될 때 작업(이 경우 차단)이 자동으로 실행 취소됩니다.
   
-DLP는 인덱싱할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대 한 자세한 내용은 [기본 크롤링 파일 이름 확장명 및 구문 분석 된 파일 형식 (SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkID=627430))을 참조 하십시오.
+DLP는 인덱싱할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대 한 자세한 내용은 [기본 크롤링 파일 이름 확장명 및 구문 분석 된 파일 형식 (SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types))을 참조 하세요.
   
-### <a name="policy-evaluation-in-exchange-online-outlook-2013-and-later-and-outlook-on-the-web"></a>Exchange Online, outlook 2013 이상 및 웹용 Outlook의 정책 평가
+### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange Online, outlook 및 웹용 outlook의 정책 평가
 
-exchange online을 위치로 포함 하는 DLP 정책을 만드는 경우에는 정책이 Office 365 보안 &amp; 준수 센터에서 exchange online으로 동기화 되 고 exchange online에서 웹 및 outlook 2013 이상 버전의 outlook으로 설정 됩니다.
+exchange online을 위치로 포함 하는 DLP 정책을 만드는 경우에는 해당 정책이 Office 365 보안 &amp; 준수 센터에서 exchange online으로 동기화 된 다음 exchange online에서 웹 및 outlook의 outlook에 제공 됩니다.
   
-Outlook에서 메시지를 작성할 때 만들어지는 콘텐츠가 DLP 정책에 대해 평가 되는 동안 사용자는 정책 팁을 볼 수 있습니다. 그리고 메시지가 전송 된 후에는 exchange 메일 흐름 규칙 (전송 규칙이 라고도 함) 및 exchange 관리 센터에서 만든 DLP 정책 (자세한 내용은 다음 섹션 참조)과 함께 dlp 정책에 대 한 전자 메일 흐름의 일반적인 부분으로 평가 됩니다. DLP 정책은 메시지와 첨부 파일을 모두 검색 합니다.
+Outlook에서 메시지를 작성할 때 만들어지는 콘텐츠가 DLP 정책에 대해 평가 되는 동안 사용자는 정책 팁을 볼 수 있습니다. 그리고 메시지가 전송 된 후에는 exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 exchange 관리 센터에서 만든 dlp 정책을 함께 사용 하 여 dlp 정책에 대 한 메일 흐름의 일반적인 부분으로 평가 됩니다. DLP 정책은 메시지와 첨부 파일을 모두 검색 합니다.
   
-### <a name="policy-evaluation-in-the-office-2016-desktop-programs"></a>Office 2016 데스크톱 프로그램의 정책 평가
+### <a name="policy-evaluation-in-the-office-desktop-programs"></a>Office 데스크톱 프로그램의 정책 평가
 
-Excel 2016, PowerPoint 2016 및 Word 2016에는 SharePoint Online 및 비즈니스용 OneDrive와 동일하게 중요한 정보를 식별하고 DLP 정책을 적용하는 기능이 있습니다. 이러한 Office 2016 프로그램은 해당 dlp 정책을 중앙 정책 저장소에서 직접 동기화 한 다음 사용자가 dlp 정책에 포함 된 사이트에서 연 문서를 사용할 때 dlp 정책에 대해 콘텐츠를 지속적으로 평가 합니다.
+Excel, PowerPoint 및 Word에는 중요 한 정보를 식별 하 고 DLP 정책을 SharePoint Online 및 비즈니스용 OneDrive로 적용 하는 것과 동일한 기능이 포함 되어 있습니다. 이러한 Office 프로그램은 중앙 정책 저장소에서 dlp 정책을 직접 동기화 한 다음 사용자가 dlp 정책에 포함 된 사이트에서 연 문서를 사용할 때 dlp 정책에 대해 콘텐츠를 지속적으로 평가 합니다.
   
-Office 2016의 DLP 정책 평가는 해당 콘텐츠를 사용하는 프로그램의 성능이나 사용자의 생산성에 영향을 미치지 않도록 고안되었습니다. 대규모 문서에서 작업 중이거나 사용자의 컴퓨터가 사용 중인 경우 정책 팁이 표시 되는 데 몇 초 정도 걸릴 수 있습니다.
-  
+Office의 DLP 정책 계산은 프로그램의 성능 또는 콘텐츠 작업을 수행 하는 사용자의 생산성에 영향을 주지 않도록 설계 되었습니다. 대규모 문서에서 작업 중이거나 사용자의 컴퓨터가 사용 중인 경우 정책 팁이 표시 되는 데 몇 초 정도 걸릴 수 있습니다.
+
+### <a name="policy-evaluation-in-microsoft-teams"></a>Microsoft 팀의 정책 평가
+ 
+Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Office 365 보안 &amp; 준수 센터에서 사용자 계정 및 Microsoft 팀 채널과 채팅에 동기화 됩니다. DLP 정책이 구성 되는 방식에 따라 누군가 Microsoft 팀 채팅 또는 채널에서 중요 한 정보를 공유 하려고 할 때 메시지가 차단 되거나 해지 될 수 있습니다. 또한 중요 한 정보가 들어 있고 게스트 (외부 사용자)와 공유 되는 문서가 해당 사용자에 대해 열리지 않습니다.
+
+예를 들어 사용자가 외부 사용자와 팀 채팅 또는 채널에서 중요 한 정보를 공유 하려고 하는 경우를 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책이 정의 되어 있다고 가정해 보겠습니다. 보호 기능이 있으면 외부 사용자에 게 전송 되는 중요 한 정보가 포함 된 메시지가 삭제 됩니다. 이 작업은 초 내에 수행 되며 DLP 정책이 구성 되는 방식에 따라 자동으로 수행 됩니다.
+
+정책 팁 보낸 사람이 메시지를 차단 하거나 해지 한 이유에 대해 알려 줍니다. 예를 들어 보낸 사람이 메시지에 다른 사람과 공유할 수 없는 pii (개인 식별 정보)가 포함 되어 있거나, pii가 포함 된 문서를 조직 외부의 사용자와 공유할 수 없는 것으로 볼 수 있습니다. 그런 다음 보낸 사람은 메시지를 편집 하 여 DLP 정책을 준수 하도록 할 수 있습니다.
+ 
 ## <a name="permissions"></a>사용 권한
 
 준수 팀의 구성원에 게는 DLP 정책을 만들 사용자의 보안 &amp; 및 준수 센터에 대 한 사용 권한이 필요 합니다. 기본적으로 테 넌 트 관리자는이 위치에 액세스할 수 있으며, 규정 준수 관리자 및 기타 사용자에 게는 모든 &amp; 테 넌 트 관리 권한을 부여 하지 않고도 보안 준수 센터에 대 한 액세스를 제공 합니다. 이렇게 하려면 다음을 수행 하는 것이 좋습니다.
@@ -482,19 +494,19 @@ Office 2016의 DLP 정책 평가는 해당 콘텐츠를 사용하는 프로그�
 
 보안 &amp; 및 준수 센터에 대 한 cmdlet을 대부분 사용 하려면 다음 작업을 수행 해야 합니다.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](http://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     
-2. 다음 [Office 365 보안 &amp; 및 준수 센터 cmdlet](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409) 사용
+2. 이러한 [정책 및 준수-dlp cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/export-dlppolicycollection?view=exchange-ps) 중 하나를 사용 합니다.
     
-그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 따라서 DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
+그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 따라서 **DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다**. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
   
-1. [Connect to Exchange Online using remote PowerShell](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)(원격 PowerShell을 사용하여 Exchange Online에 연결)
+1. [Connect to Exchange Online using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)(원격 PowerShell을 사용하여 Exchange Online에 연결)
     
 2. DLP 보고서에 대해 다음 cmdlet 중 하나를 사용 합니다.
     
-  - [get-dlpdetectionsreport](http://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
+  - [get-dlpdetectionsreport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
     
-  - [get-dlpdetailreport](http://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
+  - [get-dlpdetailreport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
     
 ## <a name="more-information"></a>추가 정보
 

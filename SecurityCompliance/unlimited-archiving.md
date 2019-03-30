@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Exchange Online 사서함에 대 한 무제한 보관 저장소를 제공 하는 Office 365의 자동 확장 보관에 대해 알아봅니다.
-ms.openlocfilehash: 4ed1260cdf348d0bd29d88952ab69d234f044c26
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 38fab68ee8e5c2bdd38bc60b08929bd6f6025e1b
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296651"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000791"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Office 365의 무제한 보관 개요
 
@@ -29,7 +29,7 @@ Office 365에서 보관 사서함은 사용자에 게 사서함 저장소 공간
 자동 확장 보관을 설정 하는 단계별 지침은 [Office 365에서 무제한 보관을 사용 하도록 설정을](enable-unlimited-archiving.md)참조 하십시오.
   
 > [!NOTE]
-> 자동 확장 보관은 공유 사서함도 지원 합니다. 공유 사서함에 대 한 보관 함을 사용 하도록 설정 하려면 exchange online 계획 2 라이선스 또는 교환 라이선스가 있는 exchange online 계획 1 라이선스가 필요 합니다. 
+> 자동 확장 보관 기능은 공유 사서함도 지원합니다. 공유 사서함에 대 한 보관 함을 사용 하도록 설정 하려면 exchange online 계획 2 라이선스 또는 교환 라이선스가 있는 exchange online 계획 1 라이선스가 필요 합니다. 
   
 ## <a name="how-auto-expanding-archiving-works"></a>자동 확장 보관의 작동 방식
 
@@ -97,7 +97,7 @@ Office 365에서 보관 사서함은 사용자에 게 사서함 저장소 공간
   
 - **eDiscovery** -콘텐츠 검색 또는 원본 위치 eDiscovery와 같은 Office 365 eDiscovery 도구를 사용 하면 자동 확장 보관 함의 추가 저장소 영역도 검색 됩니다.
     
-- **보존** -Exchange Online의 소송 보존, Office 365 보안 & 준수 센터의 보존 정책 등의 도구를 사용 하 여 사서함을 보류할 때 자동 확장 보관 함에 있는 콘텐츠도 함께 사용할 수 있습니다. 보류 되었습니다.
+- **보존** -Exchange Online의 소송 보존, 보안 및 준수 센터의 보존 정책 등의 도구를 사용 하 여 사서함을 보류할 때 자동 확장 된 보관 함에 있는 콘텐츠도 보존 됩니다.
     
 - **mrm (메시징 레코드 관리)** -Exchange Online에서 mrm 삭제 정책을 사용 하 여 만료 된 사서함 항목을 영구적으로 삭제 하는 경우에는 자동 확장 보관 함에 있는 만료 됨 항목도 삭제 됩니다.
     

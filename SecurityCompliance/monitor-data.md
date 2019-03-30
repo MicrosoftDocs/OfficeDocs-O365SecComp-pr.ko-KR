@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: bff73d5ecb7e71ae2cd8557d16879bb197e4ca66
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: e722a8fbe89a960466ff7995622cedc938075780
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791825"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998721"
 ---
 # <a name="monitor-and-report-data-in-microsoft-365-security"></a>Microsoft 365 보안에서 데이터 모니터링 및 보고
-
-[!include[Prerelease�information](prerelease.md)]
 
 **데이터** 범주는 무단 데이터 노출을 유발할 수 있는 사용자 작업을 추적 하는 데 도움이 됩니다. 기존 Office 365 DLP 정책 보고서와 타사 DLP 정책 일치 보고서의 재작업입니다.
 

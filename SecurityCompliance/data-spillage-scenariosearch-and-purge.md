@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: 50fab420ae0769e4675c5b6ff31307fa195d3950
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: 50078e3f22ede8a1af2a252a7a6f75710534c062
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296601"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000151"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -60,7 +60,7 @@ Contoso의 잠재 고객 정보 보안 담당자입니다. 직원 들이 전자 
     
 ## <a name="optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries"></a>반드시 1 단계: 사례에 액세스 하 고 준수 경계를 설정할 수 있는 사용자 관리
 
-조직의 관행에 따라 데이터 유출 인시던트를 조사 하 고 준수 경계를 설정 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 해야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 investigators를 Office 365 Security & 준수 센터에서 기존 역할 그룹의 구성원으로 추가 하 고이 역할 그룹을 eDiscovery 사례의 구성원으로 추가 하는 것입니다. 기본 제공 ediscovery 역할 그룹 및 eDiscovery 사례에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+조직의 관행에 따라 데이터 유출 인시던트를 조사 하 고 준수 경계를 설정 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 해야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 investigators을 Security & 준수 센터에서 기존 역할 그룹의 구성원으로 추가 하 고 해당 역할 그룹을 eDiscovery 사례의 구성원으로 추가 하는 것입니다. 기본 제공 ediscovery 역할 그룹 및 ediscovery 사례에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
 조직 요구 사항에 맞게 새 역할 그룹을 만들 수도 있습니다. 예를 들어 조직에서 데이터 유출 investigators 그룹을 사용 하 여 모든 데이터 유출 사례에 액세스 하 고 공동 작업을 수행할 수 있습니다. 이 작업을 수행 하려면 "data 유출 Investigator" 역할 그룹을 만들고, 해당 역할 (내보내기, RMS 암호 해독, 검토, 미리 보기, 준수 검색 및 사례 관리)을 할당 하 고, 데이터 유출 investigators를 역할 그룹에 추가한 다음 데이터 유출 eDiscovery 사례에 대 한 구성원으로 서의 역할 그룹 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [Office 365에서 eDiscovery 조사에 대 한 준수 경계 설정을](set-up-compliance-boundaries.md) 참조 하십시오. 
   
@@ -68,19 +68,19 @@ Contoso의 잠재 고객 정보 보안 담당자입니다. 직원 들이 전자 
 
 eDiscovery 사례는 데이터 유출 조사를 효과적으로 관리 하는 방법을 제공 합니다. 1 단계에서 만든 역할 그룹에 구성원을 추가 하 고, 역할 그룹을 새로 eDiscovery 사례의 구성원으로 추가 하 고, 반복 검색을 수행 하 여 분산 된 데이터를 찾고, 보고서를 공유로 내보내고, 사례 상태를 추적 하 고, 대/소문자를 추적할 수 있습니다. ase 필요한 경우 데이터 유출 인시던트에 사용 되는 eDiscovery 사례에 대 한 명명 규칙을 설정 하 고, 사례 이름 및 설명에 최대한 많은 정보를 제공 하 여 필요한 경우이를 찾고 참조할 수 있습니다.
   
-새 사례를 만들려면 보안 &amp; 및 준수 센터에서 eDiscovery를 사용할 수 있습니다. [Office 365 Security & 준수 센터의 eDiscovery 사례](ediscovery-cases.md#step-2-create-a-new-case)에서 "새 사례 만들기"를 참조 하세요.
+새 사례를 만들려면 보안 및 준수 센터에서 eDiscovery를 사용할 수 있습니다. [eDiscovery 사례](ediscovery-cases.md#step-2-create-a-new-case)에서 "새 사례 만들기"를 참조 하세요.
   
 ## <a name="step-3-search-for-the-spilled-data"></a>3 단계: 분산 된 데이터 검색
 
 사례 및 관리 되는 액세스 권한을 만들었으므로 이제 사례를 사용 하 여 데이터를 반복적으로 검색 하 고 분산 된 데이터를 포함 하는 사서함을 식별할 수 있습니다. 전자 메일 메시지를 검색 하는 데 사용한 것과 동일한 검색 쿼리를 사용 하 여 [7 단계](#step-7-permanently-delete-the-spilled-data)에서 같은 메시지를 삭제 합니다.
   
-ediscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [Office 365 Security & 준수 센터의 eDiscovery 사례](ediscovery-cases.md#step-5-create-and-run-a-content-search-associated-with-a-case)에서 "사례와 연결 된 콘텐츠 검색 만들기 및 실행"을 참조 하십시오.
+ediscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [ediscovery 사례](ediscovery-cases.md#step-5-create-and-run-a-content-search-associated-with-a-case)에서 "사례와 연결 된 콘텐츠 검색 만들기 및 실행"을 참조 하십시오.
   
  **중요:** 검색 쿼리에 사용 하는 키워드에는 검색 중인 실제 데이터 데이터가 포함 될 수 있습니다. 예를 들어 주민 등록 번호를 포함 하는 문서를 검색 하는 경우이를 검색 키워드로 사용 하려면 나중에 쿼리를 삭제 하 여 더 이상 유출을 방지 해야 합니다. 8 단계에서 [검색 쿼리 삭제](#deleting-the-search-query) 를 참조 하세요. 
   
 ## <a name="step-4-review-and-validate-case-findings"></a>4 단계: 사례 결과 검토 및 유효성 검사
 
-콘텐츠 검색을 만든 후에는 검색 결과를 검토 하 고 유효성을 검사 하 여 삭제 해야 하는 전자 메일 메시지에 대해서만 구성 되는지 확인 해야 합니다. 콘텐츠 검색에서는 검색 결과를 내보내지 않고 1000 전자 메일 메시지의 임의 샘플링을 미리 볼 수 있으므로 더 이상 데이터 유출 되지 않습니다. [Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 제한](limits-for-content-search.md)에서 미리 보기 제한 사항에 대 한 자세한 내용을 확인할 수 있습니다.
+콘텐츠 검색을 만든 후에는 검색 결과를 검토 하 고 유효성을 검사 하 여 삭제 해야 하는 전자 메일 메시지에 대해서만 구성 되는지 확인 해야 합니다. 콘텐츠 검색에서는 검색 결과를 내보내지 않고 1000 전자 메일 메시지의 임의 샘플링을 미리 볼 수 있으므로 더 이상 데이터 유출 되지 않습니다. [콘텐츠 검색 제한](limits-for-content-search.md)에서 미리 보기 제한 사항에 대 한 자세한 내용을 확인할 수 있습니다.
   
 사서함이 1000 개 보다 많은 사서함이 있거나 검토 하기 위해 전자 메일 메시지 수가 100 개 보다 많은 경우에는 날짜 범위 또는 보낸 사람/받는 사람과 같은 추가 키워드나 조건을 사용 하 여 초기 검색을 여러 검색으로 나누고 각 검색의 결과를 검토할 수 있습니다. 개별적으로. [7 단계](#step-7-permanently-delete-the-spilled-data)에서 메시지를 삭제할 때 사용할 모든 검색 쿼리를 기록해 두어야 합니다.
 
@@ -116,11 +116,11 @@ custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된
 
 데이터를 전송 하는 전자 메일이 공유 되었는지 자세히 확인 하려면 필요에 따라 보낸 사람 정보 및 4 단계에서 수집한 날짜 범위 정보를 사용 하 여 메시지 추적 로그를 쿼리할 수 있습니다. 메시지 추적의 보존 기간은 실시간 데이터의 경우 30 일 이며, 기록 데이터의 경우 90 일입니다.
   
-보안 & 준수 센터에서 메시지 추적을 사용 하거나 Exchange Online PowerShell의 해당 cmdlet을 사용할 수 있습니다. 메시지 추적은 반환 되는 데이터의 완성도를 완벽 하 게 보장 하지 않는다는 점에 유의 해야 합니다. 메시지 추적을 사용 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오. 
+보안 및 준수 센터에서 메시지 추적을 사용 하거나 Exchange Online PowerShell에서 해당 cmdlet을 사용할 수 있습니다. 메시지 추적은 반환 되는 데이터의 완성도를 완벽 하 게 보장 하지 않는다는 점에 유의 해야 합니다. 메시지 추적을 사용 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오. 
   
-- [Office 365 보안 &amp; 및 준수 센터의 메시지 추적](https://support.office.com/article/3e64f99d-ac33-4aba-91c5-9cb4ca476803.aspx)
+- [보안 및 준수 센터의 메시지 추적](https://support.office.com/article/3e64f99d-ac33-4aba-91c5-9cb4ca476803.aspx)
     
-- [Office 365 보안 &amp; 및 준수 센터의 새 메시지 추적](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
+- [보안 & 준수 센터의 새 메시지 추적](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)
     
 ## <a name="step-6-prepare-the-mailboxes"></a>6 단계: 사서함 준비
 
@@ -206,7 +206,7 @@ custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된
 
 3 단계에서 만들어 사용한 검색 쿼리의 키워드에 실제 데이터를 모두 포함 하는 경우에는 검색 쿼리를 삭제 하 여 더 이상 데이터 유출 방지 해야 합니다.
   
-1. 보안 & 준수 센터에서 eDiscovery 사례를 열고 **검색** 페이지로 이동한 다음 적절 한 콘텐츠 검색을 선택 합니다.
+1. 보안 및 준수 센터에서 eDiscovery 사례를 열고 **검색** 페이지로 이동한 다음 적절 한 콘텐츠 검색을 선택 합니다.
     
 2. 플라이 아웃 페이지에서 **삭제**를 클릭 합니다.
 
@@ -214,12 +214,12 @@ custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>데이터 유출 조사 프로세스 감사
 
-조사 중에 수행 된 eDiscovery 활동에 대 한 Office 365 감사 로그를 검색할 수 있습니다. 또한 **검색 사서함-DeleteContent** 명령을 실행 하 여 데이터를 삭제할 때 만든 감사 레코드를 반환 하도록 감사 로그를 검색할 수 있습니다. 자세한 내용은 다음 항목을 참조 하십시오.
+조사 중에 수행 된 eDiscovery 활동에 대 한 Office 365 감사 로그를 검색할 수 있습니다. 또한 **검색 사서함-DeleteContent** 명령을 실행 하 여 데이터를 삭제할 때 만든 감사 레코드를 반환 하도록 감사 로그를 검색할 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-- [Office 365 보안 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
+- [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 
-- [Office 365 감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
+- [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
 
-- Exchange Online에서 실행 중인 cmdlet과 관련 된 감사 레코드를 검색 하는 방법에 대 한 지침은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#audited-activities) 의 "감사 된 활동-Exchange 관리자 감사 로그" 섹션을 참조 하십시오.
+- Exchange Online에서 실행 중인 cmdlet과 관련 된 감사 레코드를 검색 하는 방법에 대 한 지침은 [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#audited-activities) 의 "감사 된 활동-Exchange 관리자 감사 로그" 섹션을 참조 하십시오.
   
 

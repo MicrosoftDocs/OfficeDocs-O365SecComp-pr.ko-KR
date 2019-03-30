@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 &amp; 및 준수 센터의 eDiscovery 사례
+title: 보안 & 준수 센터의 eDiscovery 사례
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,21 +14,21 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
-description: Office 365 보안 &amp; 및 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 searchs를 실행 하 고, 검색 결과를 내보낼 수 있습니다. 고급 eDiscovery에서 추가 분석을 위해 사례 데이터를 준비할 수도 있습니다.
-ms.openlocfilehash: 52ebc7f06bf9d60450d56b8591f7cfc184b4dbf6
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. 고급 eDiscovery에서 추가 분석을 위해 사례 데이터를 준비할 수도 있습니다.
+ms.openlocfilehash: 3c3d3fb6d4e2244554059e731b4585dd546ff52b
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900197"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000731"
 ---
-# <a name="ediscovery-cases-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 eDiscovery 사례
+# <a name="ediscovery-cases-in-the-security--compliance-center"></a>보안 & 준수 센터의 eDiscovery 사례
 
-Office 365 보안 &amp; 및 준수 센터에서 ediscovery 사례를 사용 하 여 조직에서 ediscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사람을 제어할 수 있습니다. 조직에 office 365 E5 구독이 있는 경우 eDiscovery 사례를 사용 하 여 office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 분석할 수도 있습니다.
+Office 365 및 Microsoft 365의 준수 센터에서 ediscovery 사례를 사용 하 여 조직에서 ediscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사람을 제어할 수 있습니다. 조직에 office 365 E5 구독이 있는 경우 eDiscovery 사례를 사용 하 여 office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 분석할 수도 있습니다.
   
 eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 사례 구성원이 수행할 수 있는 작업 유형을 제어하고, 법률 사례와 관련된 콘텐츠 위치를 보류 상태로 지정하고, 여러 콘텐츠 검색을 단일 사례에 연결할 수 있습니다. 사례와 연결 된 콘텐츠 검색의 결과를 내보내거나 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 수도 있습니다. eDiscovery 사례는 조직의 특정 법률 소송에 대한 콘텐츠 검색 및 검색 결과에 액세스할 수 있는 사용자를 제한하는 좋은 방법입니다.
   
-다음 워크플로를 사용 하 여 보안 &amp; 및 준수 센터 및 고급 eDiscovery에서 eDiscovery 사례를 설정 하 고 사용 합니다.
+다음 워크플로를 사용 하 여 보안 & 준수 센터 및 고급 eDiscovery에서 eDiscovery 사례를 설정 하 고 사용 합니다.
 
 [Step 1: Assign eDiscovery permissions to potential case members](#step-1-assign-ediscovery-permissions-to-potential-case-members)
 
@@ -54,13 +54,13 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당
 
-첫 번째 단계는 사용자에 게 적절 한 ediscovery 관련 사용 권한을 할당 하 여 2 단계에서 ediscovery 사례에 추가할 수 있도록 하는 것입니다. eDiscovery 권한을 할당 하려면 Office 365 보안 &amp; 준수 센터에서 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다. 다음 목록에서는 보안 &amp; 및 준수 센터의 eDiscovery 관련 역할 그룹에 대해 설명 합니다. 
+첫 번째 단계는 사용자에 게 적절 한 ediscovery 관련 사용 권한을 할당 하 여 2 단계에서 ediscovery 사례에 추가할 수 있도록 하는 것입니다. eDiscovery 권한을 할당 하려면 Security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다. 다음 목록에서는 보안 & 준수 센터의 eDiscovery 관련 역할 그룹에 대해 설명 합니다. 
   
-- **검토자** -이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 가집니다. 이 역할 그룹의 기본 목적은 구성원이 Office 365 Advanced eDiscovery에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. 이 그룹의 구성원은 보안 &amp; 준수 센터에서 구성원 인 **eDiscovery** 페이지의 사례 목록만 보고 열 수 있습니다. 사용자가 Security & 준수 센터의 사례에 액세스 한 후 advanced **ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 사례를 만들고, 사례에 구성원을 추가 하 고, 보류를 만들거나, 검색 결과를 미리 보거나, 검색 결과를 내보내거나, 고급 eDiscovery를 위한 준비 결과를 만들 수 없습니다. 
+- **검토자** -이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 가집니다. 이 역할 그룹의 기본 목적은 구성원이 Office 365 Advanced eDiscovery에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. 이 그룹의 구성원은 보안 & 준수 센터에서 해당 구성원 인 **eDiscovery** 페이지의 사례 목록만 보고 열 수 있습니다. 사용자는 보안 및 준수 센터의 사례에 액세스 한 후 **advanced ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 사례를 만들고, 사례에 구성원을 추가 하 고, 보류를 만들거나, 검색 결과를 미리 보거나, 검색 결과를 내보내거나, 고급 eDiscovery를 위한 준비 결과를 만들 수 없습니다. 
     
 - **ediscovery 관리자** -이 역할 그룹의 구성원은 ediscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, 콘텐츠 위치를 보류 상태로 설정 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, 콘텐츠 검색 결과를 내보내고, 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 수 있습니다. 이 역할 그룹에 두 개의 하위 그룹이 있습니다. 이러한 하위 그룹 간의 차이는 범위를 기준으로 합니다.
     
-  - **ediscovery 관리자** -자신이 만들거나 구성원 인 ediscovery 사례를 보고 관리할 수 있습니다. 다른 ediscovery 관리자가 사례를 만들지만 두 번째 ediscovery 관리자를 해당 사례 구성원으로 추가 하지 않는 경우 두 번째 ediscovery 관리자는 보안 &amp; 및 준수 센터에서 **ediscovery** 페이지의 사례를 보거나 열 수 없습니다. eDiscovery 관리자는 고급 eDiscovery의 사례에 액세스 하 여 분석 작업을 수행할 수도 있습니다. 
+  - **ediscovery 관리자** -자신이 만들거나 구성원 인 ediscovery 사례를 보고 관리할 수 있습니다. 다른 ediscovery 관리자가 사례를 만들었지만 두 번째 ediscovery 관리자를 해당 사례 구성원으로 추가 하지 않는 경우 두 번째 ediscovery 관리자가 Security & 준수 센터의 **ediscovery** 페이지에서 사례를 보거나 열 수 없습니다. eDiscovery 관리자는 고급 eDiscovery의 사례에 액세스 하 여 분석 작업을 수행할 수도 있습니다. 
     
   - **ediscovery 관리자** -ediscovery 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
     
@@ -75,15 +75,15 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
 > [!IMPORTANT]
 > 사용자가 이러한 ediscovery 관련 역할 그룹 중 하나의 구성원이 아니거나 검토자 역할이 할당 된 역할 그룹의 구성원이 아닌 경우 ediscovery 사례의 구성원으로 추가할 수 없습니다. 
 
-ediscovery 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
  **eDiscovery 권한을 할당하려면**
   
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. 보안 &amp; 및 준수 센터에서 **사용 권한을**클릭 하 고 할당 하려는 eDiscovery 권한에 따라 다음 중 하나를 수행 합니다.
+3. 보안 & 준수 센터에서 **사용 권한을**클릭 하 고 할당 하려는 eDiscovery 권한에 따라 다음 중 하나를 수행 합니다.
     
     - 검토자 권한을 할당 하려면 **검토자** 역할 그룹을 선택 하 고 **구성원**옆의 **편집**을 클릭 합니다. **구성원 선택을**클릭 하 고 **편집**을 클릭 ![한 다음](media/ITPro-EAC-AddIcon.gif) 아이콘 **추가**를 클릭 하 고 검토자 역할 그룹에 추가할 사용자를 선택한 다음 **추가**를 클릭 합니다.
     
@@ -95,13 +95,13 @@ ediscovery 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 �
 
 ## <a name="step-2-create-a-new-case"></a>2 단계: 새 사례 만들기
 
-다음 단계에서는 새 eDiscovery 사례를 만듭니다. eDiscovery 사례를 만들려면 eDiscovery 관리자(Manager) 역할 그룹의 구성원이어야 합니다. 앞에서 설명한 것 처럼 보안 &amp; 및 준수 센터에서 새 사례를 만든 후에는 조직에서 Office 365 E5 구독을 사용 하는 경우에도 고급 eDiscovery에서 동일한 사례에 액세스할 수 있습니다.
+다음 단계에서는 새 eDiscovery 사례를 만듭니다. eDiscovery 사례를 만들려면 eDiscovery 관리자(Manager) 역할 그룹의 구성원이어야 합니다. 앞에서 설명한 것 처럼 Security & 준수 센터에서 새 사례를 만든 후에는 조직에서 Office 365 E5 구독을 사용 하는 경우에도 고급 eDiscovery에서 동일한 사례에 액세스할 수 있습니다.
   
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. &amp; 보안 및 준수 센터에서 ** &amp; 검색 조사** ](media/ITPro-EAC-AddIcon.gif) \> **eDiscovery**를 클릭 한 다음 아이콘 추가 ![( **사례 만들기**)를 클릭 합니다.
+3. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery**를 클릭 한 다음 추가 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **만들기를**클릭 합니다.
     
 4. **새 사례** 페이지에서 사례 이름을 지정 하 고, 선택적 설명을 입력 한 다음 **저장**을 클릭 합니다. 사례 이름은 조직 내에서 고유 해야 합니다.
     
@@ -116,7 +116,7 @@ ediscovery 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 �
 
 새 사례를 만든 후 다음 단계에서는 사례에 구성원을 추가 합니다. 앞에서 설명한 것 처럼 검토자 또는 eDiscovery 관리자 역할 그룹의 구성원 인 사용자만 사례 구성원으로 추가할 수 있습니다. 사례를 만든 eDiscovery 관리자는 구성원으로 자동 추가 됩니다.
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 구성원을 추가 하려는 사례 이름을 클릭 합니다.
     
@@ -160,7 +160,7 @@ eDiscovery 사례를 사용하여 보류를 만든 후에 사례와 관련된 �
   
 eDiscovery 사례에 대 한 보류를 만들려면
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 보류를 만들려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -234,9 +234,9 @@ eDiscovery 사례에 대 한 보류를 만들려면
   
 ## <a name="step-5-create-and-run-a-content-search-associated-with-a-case"></a>5 단계: 사례와 연결 된 콘텐츠 검색 만들기 및 실행
 
-eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로 지정한 후에는 사례와 연결된 하나 이상의 콘텐츠 검색을 만들고 실행할 수 있습니다. 사례와 연결 된 콘텐츠 검색은 보안 &amp; 및 준수 센터의 **검색** 페이지에 표시 되지 않습니다. 즉, 사례와 연결된 콘텐츠 검색은 eDiscovery 관리자 역할 그룹의 구성원이기도 한 사례 구성원만 액세스할 수 있습니다. 
+eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로 지정한 후에는 사례와 연결된 하나 이상의 콘텐츠 검색을 만들고 실행할 수 있습니다. 사례와 연결 된 콘텐츠 검색은 보안 & 준수 센터의 **검색** 페이지에 표시 되지 않습니다. 즉, 사례와 연결된 콘텐츠 검색은 eDiscovery 관리자 역할 그룹의 구성원이기도 한 사례 구성원만 액세스할 수 있습니다. 
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 콘텐츠 검색을 만들려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -308,7 +308,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
   
 ### <a name="export-the-results-of-a-single-search-associated-with-a-case"></a>사례와 연결 된 단일 검색 결과 내보내기
 
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 검색을 내보내려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -320,7 +320,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
     ![내보내기 결과 페이지](media/ab0bb46d-310b-4374-8644-717146df6676.png)
   
-    사례와 관련된 콘텐츠 검색의 결과를 내보내는 워크플로는 **콘텐츠 검색** 페이지에서 검색 결과를 내보내는 것과 같습니다. 단계별 지침은 [Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 결과 내보내기를](export-search-results.md)참조 하십시오.
+    사례와 관련된 콘텐츠 검색의 결과를 내보내는 워크플로는 **콘텐츠 검색** 페이지에서 검색 결과를 내보내는 것과 같습니다. 단계별 지침은 [Export Content Search results](export-search-results.md)를 참조 하십시오.
     
     > [!NOTE]
     > 검색 결과를 내보낼 때는 검색 된 사서함에서 같은 메시지의 인스턴스가 여러 개 발견 된 경우에도 전자 메일 메시지의 복사본 하나만 내보내도록 하는 옵션을 사용할 수 있습니다. 복제 제거 및 중복 항목이 식별 되는 방식에 대 한 자세한 내용은 [eDiscovery 검색 결과의 중복](de-duplication-in-ediscovery-search-results.md)제거를 참조 하십시오. 
@@ -333,16 +333,16 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
 6. 방금 만든 내보내기 작업을 클릭 하 여 세부 정보 창에 상태 정보를 표시 합니다. 이 정보에는 Microsoft 클라우드에서 Azure 저장소 영역으로 전송 된 항목의 백분율이 포함 됩니다.
     
-    모든 항목을 전송 하 고 나면 **결과 다운로드** 를 클릭 하 여 로컬 컴퓨터에 검색 결과를 다운로드 합니다. 자세한 내용은 [Export Content Search results from the Office 365 보안 &amp; 및 준수 센터](export-search-results.md) 의 2 단계를 참조 하세요.
+    모든 항목을 전송 하 고 나면 **결과 다운로드** 를 클릭 하 여 로컬 컴퓨터에 검색 결과를 다운로드 합니다. 자세한 내용은 [Export Content Search results](export-search-results.md) in의 2 단계를 참조 하십시오.
     
 ### <a name="export-the-results-of-multiple-searches-associated-with-a-case"></a>사례와 연결 된 여러 검색 결과 내보내기
 
 사례와 관련 된 단일 콘텐츠 검색 결과를 내보내는 대신 단일 내보내기에서 여러 검색의 결과를 동일한 대/소문자로 내보낼 수 있습니다. 결과를 한 번에 하나씩 내보내는 것 보다 여러 검색의 결과를 내보낼 때 보다 빠르고 쉽게 작업할 수 있습니다.
   
 > [!NOTE]
-> 검색 중 하나가 모든 케이스 콘텐츠를 검색 하도록 구성 된 경우에는 여러 검색의 결과를 내보낼 수 없습니다. eDiscovery 사례와 연결 된 검색에 대해서만 여러 검색의 결과를 내보냅니다. 보안 &amp; 및 준수 센터의 **콘텐츠 검색** 페이지에 나열 된 여러 검색 결과를 내보낼 수는 없습니다. 
+> 검색 중 하나가 모든 케이스 콘텐츠를 검색 하도록 구성 된 경우에는 여러 검색의 결과를 내보낼 수 없습니다. eDiscovery 사례와 연결 된 검색에 대해서만 여러 검색의 결과를 내보냅니다. 보안 & 준수 센터의 **콘텐츠 검색** 페이지에 나열 된 여러 검색 결과를 내보낼 수는 없습니다. 
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 검색 결과를 내보내려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -362,7 +362,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
 
 7. **내보내기 결과** 페이지에서 내보내기의 고유한 이름을 지정 하 고, 출력 옵션을 선택한 다음 콘텐츠를 내보낼 방법을 선택 합니다. **내보내기**를 클릭합니다.
     
-    사례와 연결 된 여러 콘텐츠 검색 결과를 내보내는 워크플로는 단일 검색에 대 한 검색 결과를 내보내는 것과 같습니다. 단계별 지침은 [Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 결과 내보내기를](export-search-results.md)참조 하십시오.
+    사례와 연결 된 여러 콘텐츠 검색 결과를 내보내는 워크플로는 단일 검색에 대 한 검색 결과를 내보내는 것과 같습니다. 단계별 지침은 [Export Content Search results](export-search-results.md)를 참조 하십시오.
     
     > [!NOTE]
     > 사례와 연결 된 여러 검색에서 검색 결과를 내보낼 때 동일한 메시지의 인스턴스가 여러 개 있는 경우에도 중복 제거를 사용 하도록 설정 하 여 전자 메일 메시지의 복사본을 하나만 내보낼 수 있도록 하는 옵션도 있습니다. 하나 이상의 검색에서 검색 된 사서함입니다. 복제 제거 및 중복 항목이 식별 되는 방식에 대 한 자세한 내용은 [eDiscovery 검색 결과의 중복](de-duplication-in-ediscovery-search-results.md)제거를 참조 하십시오. 
@@ -375,7 +375,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
 8. 방금 만든 내보내기 작업을 클릭 하 여 세부 정보 창에 상태 정보를 표시 합니다. 이 정보에는 Microsoft 클라우드에서 Azure 저장소 영역으로 전송 된 항목의 백분율이 포함 됩니다.
     
-9. 모든 항목을 전송 하 고 나면 **결과 다운로드** 를 클릭 하 여 로컬 컴퓨터에 검색 결과를 다운로드 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 검색 결과 내보내기](export-search-results.md) 의 2 단계를 참조 하세요.
+9. 모든 항목을 전송 하 고 나면 **결과 다운로드** 를 클릭 하 여 로컬 컴퓨터에 검색 결과를 다운로드 합니다. 자세한 내용은 [Export Content Search results](export-search-results.md)의 2 단계를 참조 하십시오.
     
 #### <a name="more-information-about-exporting-the-results-of-multiple-searches"></a>여러 검색 결과 내보내기에 대 한 자세한 정보
 
@@ -404,7 +404,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
 > [!NOTE]
 > 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 데이터의 custodian 사용자에 게 Office 365 E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 서비스 케이스에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 분석 하는 관리자 및 규정 준수 직원은 E5 라이선스가 필요 하지 않습니다. 
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -432,11 +432,11 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
 ## <a name="step-8-go-to-the-case-in-advanced-ediscovery"></a>8 단계: Advanced eDiscovery의 사례로 이동
 
-보안 &amp; 및 준수 센터에서 사례를 만든 후에는 Advanced eDiscovery에서 같은 사례로 이동할 수 있습니다.
+Security & 준수 센터에서 사례를 만든 후에는 Advanced eDiscovery에서 같은 사례로 이동할 수 있습니다.
   
 Advanced eDiscovery에서 사례로 이동하려면
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 고급 eDiscovery로 이동 하려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -448,14 +448,14 @@ Advanced eDiscovery에서 사례로 이동하려면
     
     ![고급 eDiscorvery 진행률 표시줄](media/4a84273d-765b-44b8-9006-c20e810ea393.png)
   
-    이러한 컨테이너는 7 단계에서 고급 eDiscovery 분석을 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 보안 &amp; 및 준수 센터의 사례에 있는 콘텐츠 검색과 이름이 같습니다. 이 목록에는 사용자가 준비한 컨테이너 들이 나열 됩니다. 다른 사용자가 고급 eDiscovery를 위해 준비 된 검색 결과를 사용 하는 경우 해당 컨테이너가 목록에 포함 되지 않습니다.
+    이러한 컨테이너는 7 단계에서 고급 eDiscovery 분석을 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 Security & 준수 센터의 사례에 있는 콘텐츠 검색과 이름이 같습니다. 이 목록에는 사용자가 준비한 컨테이너 들이 나열 됩니다. 다른 사용자가 고급 eDiscovery를 위해 준비 된 검색 결과를 사용 하는 경우 해당 컨테이너가 목록에 포함 되지 않습니다.
     
 4. 컨테이너에서 고급 eDiscovery의 사례에 대 한 검색 결과 데이터를 로드 하려면 컨테이너를 선택 하 고 **프로세스**를 클릭 합니다.
     
     컨테이너를 처리 하는 방법에 대 한 자세한 내용은 [Office 365 Advanced eDiscovery에서 프로세스 모듈 실행 및 데이터 로드](run-the-process-module-and-load-data-in-advanced-ediscovery.md)를 참조 하세요.
     
 > [!TIP]
-> **eDiscovery로 전환을** 클릭 하 여 보안 &amp; 및 준수 센터에서 동일한 사례로 이동 합니다. 
+> 보안 & 준수 센터에서 같은 사례로 돌아가려면 **eDiscovery로 전환을** 클릭 합니다. 
   
 ## <a name="optional-step-9-close-a-case"></a>반드시 9 단계: 사례 닫기
 
@@ -465,13 +465,13 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
     
 - 사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다. 다른 보류가 콘텐츠 위치 (예: 소송 보존)에 배치 되는 경우 보존 정책 또는 다른 eDiscovery 사례의 보류는 계속 유지 관리 됩니다.
     
-- 이 사례는 여전히 보안 &amp; 및 준수 센터의 eDiscovery 페이지에 나열 됩니다. 닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다.
+- 이 사례는 여전히 Security & 준수 센터의 eDiscovery 페이지에 나열 됩니다. 닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다.
     
 - 해당 사례가 닫힌 후에 대/소문자를 편집할 수 있습니다. 예를 들어 고급 eDiscovery에서 구성원을 추가 하거나 제거 하 고, 검색을 만들고, 검색 결과를 내보내고, 검색 결과를 준비할 수 있습니다. 활성 사례와 닫힌 사례의 주요 차이점은 사례를 닫을 때 보류가 해제 된다는 점입니다.
     
 사례를 닫으려면:
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 닫으려는 case의 이름을 클릭 합니다.
     
@@ -495,7 +495,7 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
 
 사례를 다시 열면 서비스 케이스가 종료 될 때 적용 된 모든 보류는 자동으로 복원 되지 않습니다. 사례를 다시 연 후에는 **보류** 페이지로 이동 하 여 이전 보류를 켜야 합니다. 보류를 설정 하려면 해당 항목을 선택 하 고 세부 정보 창에서 **설정을** 클릭 합니다. 
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 다시 열 사례 이름을 클릭 합니다.
     
@@ -526,15 +526,15 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
   |단일 케이스 보류의 최대 사서함 수  <br/> |1,000  <br/> |
   |단일 케이스 보류에서의 최대 SharePoint 및 비즈니스용 OneDrive 사이트 수  <br/> |100  <br/> |
    
-- **고급 eDiscovery의 사례 관리 페이지에서 만든 사례는 어떻습니까?** 보안 &amp; 및 준수 센터에서 **eDiscovery** 페이지 아래쪽에 있는 링크를 클릭 하 여 이전 고급 eDiscovery 사례 목록에 액세스할 수 있습니다. 그러나 이전 상황에서 작업을 수행 하려면 Office 365 지원 서비스에 문의 하 여 보안 &amp; 및 준수 센터에서 새 eDiscovery 사례에 대 한 사례를 이동 하도록 요청 해야 합니다. 
+- **고급 eDiscovery의 사례 관리 페이지에서 만든 사례는 어떻습니까?** 보안 & 준수 센터의 **eDiscovery** 페이지 아래쪽에 있는 링크를 클릭 하 여 이전 고급 eDiscovery 사례 목록에 액세스할 수 있습니다. 그러나 이전 상황에서 작업을 수행 하려면 Office 365 지원 서비스에 문의 하 여 보안 & 준수 센터에서 새 eDiscovery 사례에 대 한 사례를 이동 하도록 요청 해야 합니다. 
     
 - **eDiscovery 관리자를 만드는 이유** 앞에서 설명한 것처럼 eDiscovery 관리자는 조직의 모든 eDiscovery 사례를 보고 액세스할 수 있는 eDiscovery 관리자 역할 그룹의 구성원입니다. 모든 eDiscovery 사례에 액세스하는 이 기능에는 다음과 같은 두 가지 중요한 목적이 있습니다.
     
-  - eDiscovery 사례의 유일한 구성원이 조직을 떠나면 조직 관리 역할 그룹의 구성원이나 eDiscovery 관리자 역할 그룹의 다른 구성원을 비롯한 어느 누구도 해당 eDiscovery 사례의 구성원이 아니므로 사례에 액세스할 수 없습니다. 이 상황에서는 해당 사례의 데이터에 액세스할 수 없습니다. 그러나 ediscovery 관리자가 조직의 모든 eDiscovery 사례에 액세스할 수 있으므로 해당 사용자는 보안 &amp; 및 준수 센터에서 사례를 보고 케이스의 구성원으로 자신 또는 다른 eDiscovery 관리자를 추가할 수 있습니다.
+  - eDiscovery 사례의 유일한 구성원이 조직을 떠나면 조직 관리 역할 그룹의 구성원이나 eDiscovery 관리자 역할 그룹의 다른 구성원을 비롯한 어느 누구도 해당 eDiscovery 사례의 구성원이 아니므로 사례에 액세스할 수 없습니다. 이 상황에서는 해당 사례의 데이터에 액세스할 수 없습니다. 그러나 ediscovery 관리자가 조직의 모든 eDiscovery 사례에 액세스할 수 있으므로 해당 사용자는 보안 & 준수 센터에서 사례를 보고 사례 또는 다른 eDiscovery 관리자를 사례의 구성원으로 추가할 수 있습니다.
     
   - ediscovery 관리자는 모든 ediscovery 사례를 보고 액세스할 수 있으므로 모든 사례 및 관련 콘텐츠 검색을 감사 하 고 감독 할 수 있습니다. 이를 통해 콘텐츠 검색 또는 eDiscovery 사례를 잘못 사용하는 경우를 방지할 수 있습니다. 또한 eDiscovery 관리자는 콘텐츠 검색 결과에서 잠재적으로 중요한 정보에 액세스할 수 있으므로 eDiscovery 관리자인 사용자의 수를 제한해야 합니다.
     
-    마지막으로, 이전에 설명한 것 처럼 보안 &amp; 및 준수 센터의 eDiscovery 관리자는 고급 eDiscovery의 관리자에 게 자동으로 추가 됩니다. 즉, eDiscovery 관리자 인 사람은 사용자 설정, 사례 만들기 및 사례에 데이터 추가와 같은 고급 eDiscovery에서 관리 작업을 수행할 수 있습니다.
+    마지막으로 앞서 설명한 것 처럼 보안 & 준수 센터의 eDiscovery 관리자는 고급 eDiscovery의 관리자에 게 자동으로 추가 됩니다. 즉, eDiscovery 관리자 인 사람은 사용자 설정, 사례 만들기 및 사례에 데이터 추가와 같은 고급 eDiscovery에서 관리 작업을 수행할 수 있습니다.
     
 - **콘텐츠 위치를 보류 상태로 설정 하기 위한 라이선스 요구 사항은 무엇 인가요?** 일반적으로 조직에서는 콘텐츠 위치를 보존 하려면 Office 365 E3 구독 이상이 필요 합니다. 사서함을 보류 상태로 설정 하려면 보류 중인 사서함에 대해 Exchange Online 계획 2 라이선스가 필요 합니다.
     
@@ -574,7 +574,7 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
   
   - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트를 보류에 명시적으로 추가 하지 않으면 해당 사이트가 보류 되지 않습니다. 따라서 법적 이유로 Office 365 그룹 또는 Microsoft 팀을 유지 해야 하는 경우 그룹 및 팀 구성원에 대 한 비즈니스용 OneDrive 사이트를 동일한 보류에 추가 하는 것이 좋습니다.
     
-  - office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 office 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
+  - Office 365 그룹 또는 microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
     
       ```
       Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 

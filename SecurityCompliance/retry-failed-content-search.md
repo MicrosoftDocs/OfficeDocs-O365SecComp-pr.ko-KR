@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색 문제를 해결 합니다.
-ms.openlocfilehash: 032d93ef0990ed1dd7c1ea7bf2ba16653b3a862f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 8334ec053e86e48f99955af2d56e511a2df5c25a
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218858"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999001"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 
-Office 365 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 단일 콘텐츠 검색에서 10만 사서함을 검색 하는 것과 같이 매우 많은 수의 사서함을 검색 하는 경우 다음과 유사한 검색 오류를 가져올 수 있습니다.
+보안 및 준수 센터에서 콘텐츠 검색을 사용 하 여 많은 수의 사서함을 검색 하는 경우 (예: 단일 콘텐츠 검색에서 10만 사서함을 검색 하는 경우) 다음과 비슷한 검색 오류를 가져올 수 있습니다.
 
 ```
 Error

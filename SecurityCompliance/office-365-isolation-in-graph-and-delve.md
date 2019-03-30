@@ -3,23 +3,22 @@ title: office Graph 및 Delve에서 office 365 테 넌 트 격리
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office Graph 및 Delve의 테 넌 트 격리에 대 한 설명입니다.'
-ms.openlocfilehash: cb1b432dccff6c4f890ef4aeb8ea4c19989b09d5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 22bcf581c26ea4e334539a81861ff4dee68967ef
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216808"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004205"
 ---
 # <a name="tenant-isolation-in-the-office-graph-and-delve"></a>Office Graph 및 Delve에서 테넌트 격리
 
@@ -36,4 +35,5 @@ Office Graph에서는 모든 데이터를 단일 리포지토리로 가져오지
 각 작업 부하 내의 분석은 테 넌 트 차원 계산과 관련 된 정보를 추론 하 여 테 넌 트 그래프로 푸시합니다. 테 넌 트의 모든 활동을 초과 하 여 행동 패턴에 대 한 통찰력을 생성 하는 것은 거주자 분석 이유입니다. 예를 들어 Exchange Online은 각 사용자의 사서함을 효율적으로 설명 하는 분석을 사용 하 여 각 사용자의 받는 사람 캐시를 계산 합니다. 이러한 사용자별 분석에서는 각 사용자의 *RecipientCache* 에 대 한 집합을 생성 하며, 그러면 각 사용자에 게 테 넌 트 그래프로 푸시됩니다. 이렇게 하면 가능한 한 원본 데이터에 가깝게 분석 처리의 대부분이 유지 됩니다.
 
 ## <a name="tenant-isolation-in-delve"></a>Delve의 테 넌 트 격리
-앞에서 설명한 것 처럼 Office Graph는 사용자가 자신의 엔터프라이즈에서 현재 활동을 검색 하 고 공동으로 작업 하는 데 도움이 되 고, 작업 전반에 걸친 콘텐츠 및 활동에 대 한 이유를 분석 하기 위한 엔터티 중심 플랫폼을 제공 합니다. Office 365 이상입니다. Delve는 Office Graph에 의해 구동 되는 첫 번째 환경입니다. Delve는 office Graph를 통해 office 365 및 Yammer Enterprise에서 office 365 사용자에 게 콘텐츠를 제공 하는 office 365 웹 환경입니다. 웹 환경에서는 데이터를 다른 보드로 표시 하며 각각에 게 자동 *경향* 또는 *내가 수정한*것과 같은 특정 항목을 제공 합니다. 각 보드는 문서에서 요약 텍스트와 그림을 표시 하는 여러 문서 카드로 구성 됩니다. 카드를 사용 하면 문서의 문서를 열거나 Yammer 페이지를 여는 등의 작업을 수행할 수 있습니다. Office 365 테 넌 트에서 각 사용자에 대해 가장 관련성이 높은 문서를 표시 하는 페이지와 Exchange Online 또는 비즈니스용 Skype를 호출 하 여 해당 사람과 상호 작용할 수 있는 아이콘이 있습니다. Delve는 Office Graph api를 기반으로 하기 때문에 해당 api의 테 넌 트 기반 격리에 의해 바인딩됩니다.
+앞에서 설명한 것 처럼 Office Graph는 사용자가 자신의 엔터프라이즈에서 현재 활동을 검색 하 고 공동으로 작업 하는 데 도움이 되 고, 작업 전반에 걸친 콘텐츠 및 활동에 대 한 이유를 분석 하기 위한 엔터티 중심 플랫폼을 제공 합니다. Office 365 이상입니다. Delve는 Office Graph에 의해 구동 되는 첫 번째 환경입니다.
+Delve는 office Graph를 통해 office 365 및 Yammer Enterprise에서 office 365 사용자에 게 콘텐츠를 제공 하는 office 365 웹 환경입니다. 웹 환경에서는 데이터를 다른 보드로 표시 하며 각각에 게 자동 *경향* 또는 *내가 수정한*것과 같은 특정 항목을 제공 합니다. 각 보드는 문서에서 요약 텍스트와 그림을 표시 하는 여러 문서 카드로 구성 됩니다. 카드를 사용 하면 문서의 문서를 열거나 Yammer 페이지를 여는 등의 작업을 수행할 수 있습니다. Office 365 테 넌 트에서 각 사용자에 대해 가장 관련성이 높은 문서를 표시 하는 페이지와 Exchange Online 또는 비즈니스용 Skype를 호출 하 여 해당 사람과 상호 작용할 수 있는 아이콘이 있습니다. Delve는 Office Graph api를 기반으로 하기 때문에 해당 api의 테 넌 트 기반 격리에 의해 바인딩됩니다.

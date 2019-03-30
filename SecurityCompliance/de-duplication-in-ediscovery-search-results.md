@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: 동일한 메시지의 여러 인스턴스가 서로 다른 사서함에서 발견 된 경우에도 전자 메일 메시지의 복사본 하나만 내보내도록 내보내기 위해 내보낸 eDiscovery 검색 결과를 복제 해제 하는 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: 7a4f156a68cafbffbb416c625e1e3ba432e6b069
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.openlocfilehash: b3810e3568bd2c7aa1628bcfcebbad5a87468ff8
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936728"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999301"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 
@@ -66,7 +66,7 @@ eDiscovery 내보내기 프로세스 중에 검색 조건과 일치 하는 모�
 
 - 이 문서의 정보는 다음 eDiscovery 도구 중 하나를 사용 하 여 검색 결과를 내보낼 때 적용할 수 있습니다.
     
-  - Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색
+  - Office 365의 준수 센터에서 콘텐츠 검색
     
   - Exchange Online의 원본 위치 eDiscovery
     
@@ -74,9 +74,9 @@ eDiscovery 내보내기 프로세스 중에 검색 조건과 일치 하는 모�
     
 - 검색 결과를 내보내는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
     
-  - [Office 365 보안 &amp; 및 준수 센터에서 검색 결과 내보내기](export-search-results.md)
+  - [콘텐츠 검색 내보내기](export-search-results.md)
     
-  - [Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 보고서 내보내기](export-a-content-search-report.md)
+  - [콘텐츠 검색 보고서 내보내기](export-a-content-search-report.md)
     
   - [PST 파일로 원본 위치 eDiscovery 검색 결과 내보내기](https://go.microsoft.com/fwlink/p/?linkid=832671)
     

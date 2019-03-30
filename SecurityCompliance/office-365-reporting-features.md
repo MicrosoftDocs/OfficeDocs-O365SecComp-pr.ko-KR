@@ -3,7 +3,6 @@ title: Office 365 보고 기능
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +13,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-analytics
 description: Office 365 내의 보고 기능에 대 한 설명입니다.
-ms.openlocfilehash: e38be005c31f6c96c603d5efbbe690ec42a9a25f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 5e765045982d6788ee93550fa8041a52efb306c0
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219858"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000251"
 ---
 # <a name="office-365-reporting-features"></a>Office 365 보고 기능 
 
@@ -27,7 +26,7 @@ ms.locfileid: "30219858"
 Office 365의 Reports 기능은 Azure AD (Active Directory), Exchange Online, 장치 관리, 관리 검토 및 DLP (데이터 손실 방지)에 대 한 다양 한 감사 보고서를 제공 합니다. 이러한 기능은 Office 365 활동 보고서와는 별개 이며 서로 다릅니다.
 
 ## <a name="office-365-reports-dashboard"></a>Office 365 보고서 대시보드
-office 365 관리 센터 미리 보기의 보고서 대시보드에는 office 365에서 사용 작업이 표시 됩니다. Office 365 전역 관리자 또는 Exchange online, SharePoint online 또는 비즈니스용 Skype 관리자는 해당 서비스의 사용에 대 한 세부적인 통찰력을 얻을 수 있습니다. 보고서는 특정 office 365 서비스를 소비 하는 사용자 수, Office Professional Plus가 정품 인증 된 사용자 수 및 조직 전체에 전송 되는 메일의 양을 비롯 하 여 정보를 제공 합니다. 보고서는 최근 7, 30, 90 및 180 일 동안 사용할 수 있습니다.
+Microsoft 365 관리 센터 미리 보기의 보고서 대시보드에는 Office 365에서 사용 작업이 표시 됩니다. Office 365 전역 관리자 또는 Exchange online, SharePoint online 또는 비즈니스용 Skype 관리자는 해당 서비스의 사용에 대 한 세부적인 통찰력을 얻을 수 있습니다. 보고서는 특정 office 365 서비스를 소비 하는 사용자 수, Office Professional Plus가 정품 인증 된 사용자 수 및 조직 전체에 전송 되는 메일의 양을 비롯 하 여 정보를 제공 합니다. 보고서는 최근 7, 30, 90 및 180 일 동안 사용할 수 있습니다.
 
 다음과 같은 보고서를 사용할 수 있습니다.
 - [전자 메일 활동 보고서](https://support.office.com/article/Office-365-Reports-in-the-admin-center-preview--Email-activity-1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44)
@@ -40,7 +39,7 @@ office 365 관리 센터 미리 보기의 보고서 대시보드에는 office 36
 - [비즈니스용 Skype 전화 회의 구성 보고서](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)
 - [비즈니스용 Skype 전화 회의 참가자 활동 보고서](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
 
-자세한 내용은 [Office 365 관리 센터의 활동 보고서](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)를 참조 하세요.
+자세한 내용은 [Microsoft 365 관리 센터의 활동 보고서](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)를 참조 하세요.
 
 
 ## <a name="azure-active-directory-reports"></a>Azure Active Directory 보고서
@@ -72,23 +71,23 @@ MDM 준수 보고서는 Office 365 데이터에 액세스 하는 모바일 장�
 ## <a name="data-loss-prevention"></a>데이터 손실 방지
 DLP 정책은 조직의 정보 보안 및 흐름을 관리 하는 데 도움이 됩니다. 응용 프로그램 DLP 정책 팁을 사용 하 여 콘텐츠에 대 한 액세스를 차단 하거나, 데이터를 암호화 하거나, 정책 및 정책 위반을 사용자에 게 알리기 위해 정책을 설정할 수 있습니다. DLP 보고서는 정책 및 규칙 일치, 재정의 및 가양성의 수에 대 한 통찰력을 제공 합니다.
 
-Office 365 관리 센터를 사용 하 여 그래픽 차트나 테이블 형식으로 DLP 정책에 의해 검색 된 메시지 수에 대 한 정보를 볼 수 있습니다. 특히, 전송 및 수신 메일에 대 한 dlp 정책은 일치 하며, 송신 및 받은 메일에 대 한 dlp 규칙 일치 항목에 해당 합니다. 또한 Exchange 관리 센터를 사용 하 여 지난 24 시간 내 각 정책에 대 한 일치, 재정의 및 가양성의 수를 확인할 수 있습니다. 그러나이 데이터는 차트로 사용할 수 없습니다. Excel에서 사용할 보고서를 다운로드 하는 경우 메시지를 보낸 사람, 요일 및 트리거된 정책 일치 항목 등 보다 자세한 정보를 볼 수 있습니다. 자세한 내용은 [DLP 정책 검색에 대 한 보고서 보기](https://technet.microsoft.com/en-us/library/jj889415(v=exchg.150).aspx)를 참조 하세요.
+Microsoft 365 관리 센터를 사용 하 여 그래픽 차트나 테이블 형식으로 DLP 정책에 의해 검색 된 메시지 수에 대 한 정보를 볼 수 있습니다. 특히, 전송 및 수신 메일에 대 한 dlp 정책은 일치 하며, 송신 및 받은 메일에 대 한 dlp 규칙 일치 항목에 해당 합니다. 또한 Exchange 관리 센터를 사용 하 여 지난 24 시간 내 각 정책에 대 한 일치, 재정의 및 가양성의 수를 확인할 수 있습니다. 그러나 이 데이터는 차트로는 제공되지 않습니다. Excel에서 사용할 보고서를 다운로드 하는 경우 메시지를 보낸 사람, 요일 및 트리거된 정책 일치 항목 등 보다 자세한 정보를 볼 수 있습니다. 자세한 내용은 [DLP 정책 검색에 대 한 보고서 보기](https://technet.microsoft.com/en-us/library/jj889415(v=exchg.150).aspx)를 참조 하세요.
 
 ## <a name="auditing-in-yammer-enterprise"></a>Yammer Enterprise에서의 감사
 yammer Enterprise는 관리자에 게 yammer [데이터 내보내기 API](https://support.office.com/article/export-data-from-yammer-enterprise-b303d8f3-007d-4ad4-81f8-54fb1ecfb3f2)를 통해 yammer 네트워크에서 사용자 활동 데이터를 내보내거나 yammer network administration page를 통해 수동으로 내보낼 수 있는 기능을 제공 합니다. 로그를 내보내는 기능은 Yammer의 네트워크 관리자만 사용할 수 있습니다. (모든 Office 365 전역 관리자는 Yammer 네트워크 관리자입니다.)
 
 다음 데이터를 내보낼 수 있습니다.
 
-| Filename | Description |
+| 파일 이름 | 설명 |
 |----------------------------|-------------------------------------------------------------------------|
-| 사용자 .csv | 네트워크의 모든 신규, 보류 중 및 일시 중단 된 사용자 |
-| 메시지 .csv | 네트워크의 모든 메시지 |
+| Users.csv | 네트워크의 모든 신규, 보류 중 및 일시 중단 된 사용자 |
+| Messages.csv | 네트워크의 모든 메시지 |
 | 파일 .csv (메타 데이터) | 파일 이름, 파일 API URL, 업 로더 ID, 업로드 위치 등의 메타 데이터 |
 | 파일 .csv (원본 파일) | 사용자가 Yammer에 업로드 한 원본 파일의 Zip 파일 |
-| 항목 .csv | 네트워크에 만들어지는 항목 |
-| 페이지 .csv | 네트워크에서 사용자가 만든 페이지 (메모) |
-| 관리자 | 네트워크의 모든 확인 된 관리자 |
-| 네트워크 .csv | 모든 Yammer 외부 네트워크 |
+| Topics.csv | 네트워크에 만들어지는 항목 |
+| Pages.csv | 네트워크에서 사용자가 만든 페이지 (메모) |
+| Admins.csv | 네트워크의 모든 확인 된 관리자 |
+| Networks.csv | 모든 Yammer 외부 네트워크 |
 
 *표 3-고객이 내보낼 수 있는 Yammer 네트워크 데이터 파일*
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 실행
+title: 보안 및 준수 센터에서 콘텐츠 검색 실행
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,17 +11,17 @@ f1_keywords:
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
-description: 'Office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색 합니다. '
-ms.openlocfilehash: 255d53240d360557dc6ff1370c8112ceea676622
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+description: 'Security & 준수 센터에서 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색 합니다. '
+ms.openlocfilehash: 780a9eacc94985cf1f59993a1d5c2816474b8cb5
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935323"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000281"
 ---
-# <a name="run-a-content-search-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색 실행
+# <a name="run-a-content-search-in-the-security--compliance-center"></a>보안 및 준수 센터에서 콘텐츠 검색 실행
 
-office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 office 365 조 직에서 전자 메일, 문서 및 인스턴트 메시징 대화와 같은 항목을 검색할 수 있습니다. 이 도구를 사용 하 여 다음 Office 365 서비스에서 항목을 검색 합니다.
+Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 Office 365 조 직에서 전자 메일, 문서 및 인스턴트 메시징 대화와 같은 항목을 검색할 수 있습니다. 이 도구를 사용 하 여 다음 Office 365 서비스에서 항목을 검색 합니다.
   
 - Exchange Online 사서함 및 공용 폴더
     
@@ -55,9 +55,9 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
 
 - 검색 쿼리를 작성 하 고 부울 검색 연산자를 사용 하는 방법에 대 한 자세한 내용과 지침은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오. 또한 중요 한 정보 유형을 검색 하 고 조직 내부 및 외부의 사용자와 공유 되는 콘텐츠를 검색 하는 방법에 대 한 정보도 포함 합니다.
     
-- 검색을 수행 하 고 결과를 미리 보고 내보낼 수 있도록 **콘텐츠 검색** 페이지에 액세스할 수 있도록 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 보안 &amp; 준수에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. 정렬. Exchange online, SharePoint online 또는 비즈니스용 OneDrive 사이트에서는 추가 검색 권한을 할당할 필요가 없습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하세요.
+- 검색을 수행 하 고 검색 결과를 내보내기 위해 **콘텐츠 검색** 페이지에 액세스할 수 있도록 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 Security & 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. Exchange online, SharePoint online 또는 비즈니스용 OneDrive 사이트에서는 추가 검색 권한을 할당할 필요가 없습니다. 자세한 내용은 [Office 365 Security & 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
     
-- Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 하기 위해 콘텐츠 검색에 적용 되는 제한이 있습니다. 대부분의 경우 이러한 제한을 수정할 수 없지만 검색을 계획하고 실행하고 관련 문제를 해결할 때 이러한 제한을 고려할 수 있도록 잘 알고 있어야 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
+- Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 하기 위해 콘텐츠 검색에 적용 되는 제한이 있습니다. 대부분의 경우 이러한 제한을 수정할 수 없지만 검색을 계획하고 실행하고 관련 문제를 해결할 때 이러한 제한을 고려할 수 있도록 잘 알고 있어야 합니다. 자세한 내용은 [Security & 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
     
 - 단일 콘텐츠 검색에서 검색 되는 사서함 수를 기준으로 예상 검색 시간에 대 한 섹션을 참조 하세요. 
     
@@ -74,11 +74,11 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
 ## <a name="create-a-search"></a>Create a search
 <a name="create"> </a>
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
+1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. 보안 및 준수 센터의 왼쪽 창에서 **검색 및 조사** \> **콘텐츠 검색**을 클릭합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **콘텐츠 검색** **검색** \> 을 클릭 합니다.
     
 4. **새로 만들기**![추가 아이콘](media/O365-MDM-CreatePolicy-AddIcon.gif)을 클릭합니다.
     
@@ -102,7 +102,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
   - 검색 대상 사서함 목록에 비활성 사서함 및 메일 그룹을 추가할 수 있습니다. 메일 그룹의 경우 그룹 구성원의 사서함이 검색 됩니다. 동적 메일 그룹은 지원 되지 않습니다.
     
-  - 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 명령을 `Get-Mailbox -InactiveMailboxOnly` 실행 합니다. &amp; 또는 보안 및 준수 센터에서 **데이터 거 버 넌 스** \> **보존** 으로 이동한 다음 **기타**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함**을 클릭할 수 있습니다.
+  - 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 명령을 `Get-Mailbox -InactiveMailboxOnly` 실행 합니다. 또는 보안 & 준수 센터에서 **데이터 거 버 넌 스** \> **보존** 으로 이동한 다음 **기타**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함**을 클릭할 수 있습니다.
     
   - 또한 Office 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 추가할 수 있습니다. 이 경우 그룹 또는 팀 사서함만 검색 됩니다. 그룹 또는 팀 구성원의 사서함이 검색 되지 않습니다. 검색 하려면 검색에 구체적으로 추가 해야 합니다.
     
@@ -167,12 +167,12 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
 ## <a name="export-search-results"></a>검색 결과 내보내기
 <a name="export"> </a>
 
-검색이 성공적으로 실행 된 후에는 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과 내보내면 컴퓨터에 PST 파일로 다운로드됩니다. SharePoint 및 비즈니스용 OneDrive 사이트에서 콘텐츠를 내보낼 때 기본 Office 문서의 복사본을 내보냅니다. 내보낸 검색 결과에 추가 문서 및 보고서도 포함되어 있습니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 검색 결과 내보내기를](export-search-results.md)참조 하세요.
+검색이 성공적으로 실행 된 후에는 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과 내보내면 컴퓨터에 PST 파일로 다운로드됩니다. SharePoint 및 비즈니스용 OneDrive 사이트에서 콘텐츠를 내보낼 때 기본 Office 문서의 복사본을 내보냅니다. 내보낸 검색 결과에 추가 문서 및 보고서도 포함되어 있습니다. 자세한 내용은 [Security & 준수 센터에서 검색 결과 내보내기를](export-search-results.md)참조 하십시오.
   
 ## <a name="preview-search-results"></a>검색 결과 미리 보기
 <a name="preview"> </a>
 
-검색이 완료된 후에 검색 결과를 미리 볼 수 있습니다. 콘텐츠 검색 결과를 미리 볼 때 여러 가지 제한이 발생합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
+검색이 완료된 후에 검색 결과를 미리 볼 수 있습니다. 콘텐츠 검색 결과를 미리 볼 때 여러 가지 제한이 발생합니다. 자세한 내용은 [Security & 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
   
 1. **콘텐츠 검색** 페이지에서 검색을 선택 합니다. 
     
@@ -277,7 +277,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
   
 ### <a name="limits-and-performance"></a>제한 및 성능
   
-- 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
+- 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [Security & 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하십시오.
     
 - Microsoft는 모든 Office 365 조직에서 실행 하는 콘텐츠 검색에 대 한 성능 정보를 수집 합니다. 검색 쿼리의 복잡도에 따라 검색 시간에 영향을 줄 수 있지만 검색에 걸리는 시간에 영향을 주는 가장 큰 요인은 검색 되는 사서함 수입니다. Microsoft는 검색 시간에 대 한 서비스 수준 계약을 제공 하지 않지만 다음 표에는 검색에 포함 된 사서함 수에 따른 콘텐츠 검색에 대 한 평균 검색 시간이 나와 있습니다.
     
@@ -319,7 +319,7 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
   
   - 사용자의 사서함을 검색할 때 사용자가 구성원으로 속해 있는 Microsoft Team 또는 Office 365 그룹은 검색 되지 않습니다. 마찬가지로 Microsoft 팀 이나 Office 365 그룹을 검색할 때 지정한 그룹 사서함 및 그룹 사이트만 검색 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 계정은 검색에 명시적으로 추가 하지 않으면 검색 되지 않습니다.
     
-  - Microsoft 팀 또는 office 365 그룹의 구성원 목록을 가져오려면 Office 365 관리 센터의 **홈 \> 그룹** 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
+  - microsoft 팀 또는 Office 365 그룹의 구성원 목록을 가져오려면 microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
     
   ```
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
@@ -367,11 +367,11 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
     ![키워드 목록과 조건을 사용할 때 만들어지는 쿼리 예제](media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
   
-  - 중국어 (번체) 문자와 같이 영어가 아닌 문자에 대 한 키워드가 포함 된 검색 쿼리가 있는 경우 **ComplianceSearch** cmdlet을 사용 하 여 콘텐츠 검색에 대 한 language 속성을 구성 해야 할 수 있습니다. 보안 &amp; 및 준수 센터의 GUI를 사용 하 여 콘텐츠 검색을 만드는 경우 기본 언어는 중립입니다. 
+  - 중국어 (번체) 문자와 같이 영어가 아닌 문자에 대 한 키워드가 포함 된 검색 쿼리가 있는 경우 **ComplianceSearch** cmdlet을 사용 하 여 콘텐츠 검색에 대 한 language 속성을 구성 해야 할 수 있습니다. 보안 & 준수 센터의 GUI를 사용 하 여 콘텐츠 검색을 만드는 경우 기본 언어는 중립입니다. 
     
     콘텐츠 검색에 대 한 언어 설정을 변경 해야 하는지 어떻게 확인할 수 있나요? 검색 중인 영어가 아닌 문자가 포함 된 콘텐츠 위치가 있는 경우 검색 결과가 반환 되지 않으면 언어 설정이 원인일 수 있습니다.
     
-    기존 콘텐츠 검색에 대 한 언어 설정을 변경 하려면 보안 &amp; 및 준수 센터 PowerShell에서 다음 명령을 실행 합니다.
+    기존 콘텐츠 검색에 대 한 언어 설정을 변경 하려면 Security & 준수 센터 PowerShell에서 다음 명령을 실행 합니다.
     
   ```
   Set-ComplianceSearch <name of content search> -Language <culture code value>
@@ -398,9 +398,9 @@ office 365 보안 &amp; 및 준수 센터의 콘텐츠 검색 eDiscovery 도구�
     
 ### <a name="miscellaneous"></a>없으며
   
-- 보안 &amp; 및 준수 센터의 **콘텐츠 검색** 페이지에서 만든 콘텐츠 검색은 Exchange 관리 센터의 원본 **위치 eDiscovery &amp; 유지** 페이지에 표시 되지 않습니다. 이는 보안 &amp; 및 준수 센터에서 만든 검색 개체와 콘텐츠 검색 아키텍처가 Exchange Online의 원본 위치 eDiscovery 기능과 완전히 다른 이유입니다. 
+- 보안 & 준수 센터의 **콘텐츠 검색** 페이지에서 만든 콘텐츠 검색은 Exchange 관리 센터의 원본 **위치 eDiscovery &amp; 보류** 페이지에 표시 되지 않습니다. 이는 보안 & 준수 센터에서 만든 검색 개체와 콘텐츠 검색 아키텍처가 Exchange Online의 원본 위치 eDiscovery 기능과 완전히 다르기 때문입니다. 
     
-    같은 이유로, **콘텐츠 검색** 페이지에서 만든 검색은 보안 &amp; 및 준수 센터에서 eDiscovery 사례의 **검색** 페이지에 표시 되지 않습니다. 
+    같은 이유로, **콘텐츠 검색** 페이지에서 만든 검색은 보안 & 준수 센터에서 eDiscovery 사례의 **검색** 페이지에 표시 되지 않습니다. 
     
 - 검색을 다시 시작하는 것과 다시 시도하는 것은 어떤 차이가 있나요? 검색을 다시 시작 하면 검색에 지정 된 모든 콘텐츠 위치가 새 미리 보기 검색에서 다시 검색 됩니다. 그러나 검색을 다시 시도 하면 검색을 마지막으로 실행 했을 때 실패 한 콘텐츠 위치만 다시 검색 됩니다.
    

@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 369d3edf02b26be466a6dc8eea3d872030bbbcd2
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 981cb2e6820cb349ff1e2d101bf21d592c2191c6
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30789413"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001161"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
-
-[!include[Prerelease�information](prerelease.md)]
 
 microsoft 365 보안 센터에서 microsoft 보안 점수를 사용 하 여 조직의 보안 상태에 대 한 가시성과 제어를 향상 시킬 수 있습니다. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다.
 

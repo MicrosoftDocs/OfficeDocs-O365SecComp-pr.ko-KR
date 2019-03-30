@@ -9,13 +9,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
-description: 관리자는 Office 365 보안 & 준수 센터의 메일 흐름 대시보드 내에서 느린 메일 흐름 규칙에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: e1ce23c94cd5260d8a7a7ebd99521a4a6f5c7b0a
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 느린 메일 흐름 규칙에 대 한 정보를 확인할 수 있습니다.
+ms.openlocfilehash: ede12e14f287599cab0e5f39aaf71c38ed519276
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720258"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999781"
 ---
 # <a name="slow-mail-flow-rules-insight"></a>느린 메일 흐름 규칙 파악
 
@@ -29,7 +29,7 @@ ms.locfileid: "30720258"
 
 이러한 통찰력은 메일 흐름 규칙을 식별 하 고 미세 조정 하 여 메일 흐름이 지연 되는 것을 줄이는 데 도움을 줍니다.
 
-![Office 365 보안 & 준수 센터의 메일 흐름 대시보드를 통한 메일 흐름 규칙에 대 한 자세한 정보](media/1dd90faa-f065-4b10-8b47-d35dc127fc26.png)
+![보안 & 준수 센터의 메일 흐름 대시보드를 통한 메일 흐름 규칙에 대 한 자세한 정보](media/1dd90faa-f065-4b10-8b47-d35dc127fc26.png)
 
 **자세히 보기**를 클릭 하면 규칙을 검토할 수 있는 플라이 아웃 창이 나타납니다. 플라이 아웃 창에서 **예제 메시지 보기** 를 클릭 하 여 규칙의 영향을 받는 메시지 종류를 확인할 수도 있습니다.
 

@@ -1,9 +1,8 @@
 ---
-title: Office 365 Advanced eDiscovery에서 문제 정의 및 사용자 지정
+title: Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할당
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Office 365 Advanced eDiscovery에서 문제점을 추가 하거나 편집 하 여 사용자 할당을 포함 하거나 eDiscovery 사례에 대 한 문제를 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b8ed024983c527246236b355c81ef226c98f404b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 80ea6e2579b8bc68b70e2181d9c986c91c890836
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218238"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000641"
 ---
-# <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 문제 정의 및 사용자 지정
+# <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할당
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -52,7 +51,7 @@ ms.locfileid: "30218238"
   
 7. **선택한 사용자**의 드롭다운 목록에서 선택한 사용자 이름 옆에 있는 다음 샘플링 모드 중 하나를 선택 합니다. 
     
-  - **설정**: 파일을 보고 태그를 지정할 수 있습니다. 이것이 기본 설정입니다.
+  - **설정**: 파일을 보고 태그를 지정할 수 있습니다. 기본 설정입니다.
     
   - **Idle**: 파일을 볼 수 있습니다. 태그가 지정 된 것은 선택 사항입니다.
     
@@ -68,7 +67,7 @@ ms.locfileid: "30218238"
     
 2. 데이터베이스에서 삭제할 문제를 선택 하 고 **삭제**를 클릭 합니다.
     
-3. 확인 메시지가 표시 됩니다. **예** 를 클릭 하 여 확인 합니다. 
+3. 확인 메시지가 표시 됩니다. **예**를 클릭하여 확인합니다. 
     
 4. **확인**을 클릭합니다.
     

@@ -3,23 +3,22 @@ title: Office 365 eDiscovery 및 검색 기능 개요
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 감사 사용 및 투명성을 위한 eDiscovery 기능의 개요 및 Office 365 내의 기타 검색 기능
-ms.openlocfilehash: 0d1d0341407546659f4efffac8409edd46312810
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a7a4412e116fe0cbb28ae1ac193178ac7e3097a3
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214864"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004165"
 ---
 # <a name="ediscovery-and-search-features"></a>eDiscovery 및 검색 기능 
 
@@ -27,7 +26,7 @@ ms.locfileid: "30214864"
 eDiscovery 기능은 관리자, 준수 책임자 및 기타 권한 있는 사용자가 Office 365 사용자 활동에 대 한 포괄적인 조사를 수행할 수 있는 단일 위치를 제공 합니다. 적절 한 사용 권한이 있는 보안 관리자는 검색을 수행 하 고 콘텐츠를 보관할 수 있습니다. 검색 결과는 적용 된 모든 보류에 대해 eDiscovery 사례가 만들어지는 것을 제외 하 고는 콘텐츠 검색에서 가져온 결과와 같습니다. eDiscovery 검색의 결과는 보안을 위해 암호화 되며, 내보낸 데이터는 [고급 eDiscovery](https://support.office.com/article/office-365-advanced-ediscovery-fd53438a-a760-45f6-9df4-861b50161ae4)를 사용 하 여 분석할 수 있습니다.
 
 ## <a name="content-search"></a>콘텐츠 검색
-[콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 은 이전 eDiscovery 검색 도구에 비해 향상 된 확장 및 성능 기능을 제공 하는 보안 & 준수 센터의 새로운 eDiscovery 검색 도구입니다. 콘텐츠 검색을 사용 하 여 사서함, 공용 폴더, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색할 수 있습니다. 콘텐츠 검색은 매우 큰 검색을 위해 특별히 설계 되었습니다. 검색할 수 있는 사서함 및 사이트의 수에는 제한이 없습니다. 또한 동시에 실행할 수 있는 검색 수에는 제한이 없습니다. 검색을 실행 한 후에는 검색 페이지의 세부 정보 창에 콘텐츠 원본 수와 예상 검색 결과 수가 표시 되어 결과를 미리 보거나 로컬 컴퓨터로 내보낼 수 있습니다. 조직에 office 365 Enterprise E5 구독이 있는 경우 [office 365 Advanced eDiscovery](http://go.microsoft.com/fwlink/p/?LinkID=620116)의 강력한 분석 기능을 사용 하 여 분석 [결과를 준비할](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a#prepare) 수도 있습니다.
+[콘텐츠 검색](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 은 이전 ediscovery 검색 도구에 비해 향상 된 확장 및 성능 기능을 제공 하는 새로운 ediscovery 검색 도구입니다. 콘텐츠 검색을 사용 하 여 사서함, 공용 폴더, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색할 수 있습니다. 콘텐츠 검색은 매우 큰 검색을 위해 특별히 설계 되었습니다. 검색할 수 있는 사서함 및 사이트의 수에는 제한이 없습니다. 동시에 실행할 수 있는 검색 수에도 제한이 없습니다. 검색을 실행 한 후에는 검색 페이지의 세부 정보 창에 콘텐츠 원본 수와 예상 검색 결과 수가 표시 되어 결과를 미리 보거나 로컬 컴퓨터로 내보낼 수 있습니다. 조직에 office 365 Enterprise E5 구독이 있는 경우 [office 365 Advanced eDiscovery](http://go.microsoft.com/fwlink/p/?LinkID=620116)의 강력한 분석 기능을 사용 하 여 분석 [결과를 준비할](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a#prepare) 수도 있습니다.
 
 ## <a name="audit-log-search"></a>감사 로그 검색
 Office 365 조직의 변경 내용을 추적 하는 것 외에, 고객은 감사 보고서를 보고 감사 로그를 내보낼 수도 있습니다. Office 365 테 넌 트에서 감사를 사용 하도록 설정 하면 해당 테 넌 트에 대 한 사용자 및 관리 활동이 이벤트 로그에 기록 되 고 검색 가능 하 게 됩니다. 예를 들어 사서함 감사 로깅을 사용 하 여 사서함 소유자가 아닌 사용자가 사서함에서 수행 하는 작업을 추적할 수 있습니다. 또한 준수 관리자는 검색 및 필터 기능을 사용 하 여 사용자가 특정 문서를 보거나 다운로드 했는지 확인 하거나, 관리자가 사용자 관리 작업을 수행 했는지 아니면 최근 90 일 이내에 테 넌 트 구성을 변경 하는지를 확인할 수 있습니다. 검색 결과에는 사용자 또는 관리자가 수행한 특정 활동에 대 한 중요 한 법적 정보가 포함 될 수 있습니다. office 365에 기록 되는 사용자 및 관리 작업에 대 한 설명은 [office 365의 감사 된 작업](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c#auditlogevents) 을 참조 하세요.
@@ -60,7 +59,7 @@ SharePoint Online 및 비즈니스용 OneDrive의 이벤트가 발생 하는 경
 |  | Azure Active Directory 보고서 |
 
 
-office 365 감사 로그를 검색 하는 자세한 단계는 [office 365 Security & 준수 센터에서 감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)을 참조 하십시오.
+office 365 감사 로그를 검색 하는 자세한 단계는 [office 365에서 감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)을 참조 하십시오.
 
 ## <a name="search-unified-audit-log"></a>통합 감사 로그 검색
-보안 & 준수 센터의 감사 로그 검색 기능을 사용 하 여 통합 된 감사 로그를 검색할 수 있습니다. 또한 Office 365는 원격 PowerShell을 사용 하 여이 로그를 검색할 수 있는 기능을 제공 합니다. 특히 exchange online PowerShell의 [search-unifiedauditlog cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?view=exchange-ps) 을 사용 하 여 exchange online, SharePoint online, 비즈니스용 OneDrive 및 Azure AD에서 사용자 작업과 관련 된 이벤트의 통합 감사 로그를 검색할 수 있습니다. 지정 된 날짜 범위의 모든 이벤트를 검색 하거나 특정 작업, 작업을 수행한 사용자, 대상 개체 등의 특정 조건에 따라 결과를 필터링 할 수 있습니다. 관리자는 대규모 날짜 범위 검색을 분할 하기 위해 동시에 최대 3 개의 Exchange Online PowerShell 세션을 사용할 수 있습니다.
+감사 로그 검색 기능을 사용 하 여 통합 된 감사 로그를 검색할 수 있습니다. 또한 Office 365는 원격 PowerShell을 사용 하 여이 로그를 검색할 수 있는 기능을 제공 합니다. 특히 exchange online PowerShell의 [search-unifiedauditlog cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?view=exchange-ps) 을 사용 하 여 exchange online, SharePoint online, 비즈니스용 OneDrive 및 Azure AD에서 사용자 작업과 관련 된 이벤트의 통합 감사 로그를 검색할 수 있습니다. 지정 된 날짜 범위의 모든 이벤트를 검색 하거나 특정 작업, 작업을 수행한 사용자, 대상 개체 등의 특정 조건에 따라 결과를 필터링 할 수 있습니다. 관리자는 대규모 날짜 범위 검색을 분할 하기 위해 동시에 최대 3 개의 Exchange Online PowerShell 세션을 사용할 수 있습니다.

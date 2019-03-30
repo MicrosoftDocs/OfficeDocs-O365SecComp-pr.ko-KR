@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: 조직의 Office 365 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: 0a8ed74a0e135ae216f33401016a7321ad1a1adf
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
-ms.translationtype: HT
+ms.openlocfilehash: c49f6ca6aba109346ceea4558fe050b0cc561600
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295601"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31001081"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Office 365에서 무료 Azure Active Directory 구독 사용
 
@@ -41,6 +41,6 @@ ms.locfileid: "30295601"
     
 ## <a name="more-information"></a>추가 정보
 
-- Office 365 관리 센터에서 **Azure Active Directory** 관리 센터에 액세스할 수도 있습니다. Office 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터** \> **Azure Active Directory**를 클릭합니다.
+- Microsoft 365 관리 센터에서 **Azure Active Directory** 관리 센터에 액세스할 수도 있습니다. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터** \> **Azure Active Directory**를 클릭 합니다.
     
 - 사용자 및 그룹 관리와 기타 디렉터리 관리 작업 수행에 대한 자세한 내용은 [Azure AD 디렉터리 관리](https://docs.microsoft.com/azure/active-directory/active-directory-administer)를 참조하세요.

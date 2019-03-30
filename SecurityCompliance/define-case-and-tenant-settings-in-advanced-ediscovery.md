@@ -1,9 +1,8 @@
 ---
-title: Office 365 Advanced eDiscovery에서 사례 및 테넌트 설정 정의
+title: Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Office 365 Advanced eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
-ms.openlocfilehash: e27f33f15d133d502e01a780d6f05ca85cce41a5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 2e95984651bf4da86bd64cfc3730fae75391410d
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219368"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000841"
 ---
-# <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 및 테넌트 설정 정의
+# <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

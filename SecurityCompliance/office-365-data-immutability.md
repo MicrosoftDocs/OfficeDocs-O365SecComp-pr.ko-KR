@@ -7,19 +7,19 @@ ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 데이터 불변성 또는 검색 가능 해야 하며 소멸 하거나 변경할 수 없는 데이터를 정의 하 고 설명 합니다.
-ms.openlocfilehash: 5d0deef04d879959238dbbcfe36bb98ed0159242
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d3f02a088ede557a1e7308182b2ec6e378cd418e
+ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215568"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31004155"
 ---
 # <a name="immutability-in-office-365"></a>Office 365의 불변성
 일부 조직의 경우 규정 준수, 내부 거 버 넌 스 또는 소송 위험을 충족 하려면 전자 메일 및 관련 데이터를 검색 가능한 형태로 보존 해야 합니다. 시스템의 모든 데이터는 검색 가능 해야 하며, 소멸 하거나 변경할 수는 없습니다. 이에 대 한 업계 표준 용어는 "불변성"입니다. 
@@ -35,9 +35,9 @@ office 365의 보관 및 보존 정책 기능 구성 및 Exchange online, ShareP
 - 온라인 모임 중 공유 되는 문서
 - 음성 사서함
 
-또한 Microsoft는 타사 데이터 캡처 및 관리 솔루션과의 통합을 통해 다른 원본의 [데이터 보관](https://support.office.com/article/Archiving-third-party-data-in-Office-365-0ce338d5-3666-4a18-86ab-c6910ff408cc) 을 허용 하는 추가 기능을 개발 했습니다. 타사 데이터를 가져온 후에는 소송 보존, 원본 위치 eDiscovery 및 유지, 준수 검색, 원본 위치 보관, 감사 및 보존 정책을 포함 하 여 데이터에 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함이 소송 보존 상태로 설정 되 면 타사 데이터가 보존 됩니다. 원본 위치 eDiscovery 또는 준수 검색을 사용 하 여 타사 데이터를 검색할 수 있습니다. 또는 Microsoft 데이터의 경우와 마찬가지로 보관 및 보존 정책을 타사 데이터에 적용할 수도 있습니다. 간단히 말해서 Office 365에서 타사 데이터를 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+또한 Microsoft는 타사 데이터 캡처 및 관리 솔루션과의 통합을 통해 다른 원본의 [데이터 보관](https://support.office.com/article/Archiving-third-party-data-in-Office-365-0ce338d5-3666-4a18-86ab-c6910ff408cc) 을 허용 하는 추가 기능을 개발 했습니다. 타사 데이터를 가져온 후에는 소송 보존, 원본 위치 eDiscovery 및 유지, 준수 검색, 원본 위치 보관, 감사 및 보존 정책을 포함 하 여 데이터에 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함에 소송 보존이 적용되면 타사 데이터가 보존됩니다. 원본 위치 eDiscovery 또는 준수 검색을 사용하여 타사 데이터를 검색할 수 있습니다. 또는 Microsoft 데이터의 경우처럼 타사 데이터에도 보관 및 삭제 정책을 적용할 수 있습니다. 간단히 말해서 Office 365에서 타사 데이터를 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
-보관 Office 365에서는 원본 및 Exchange 위원회 (SEC) 규칙 17a-4 호환 저장소를 제공 하 고, 원본 위치 보존 정책 및 보존 정책을 사용 하 여 쓰기 불가능 한 erasable 형식으로 수집 된 모든 데이터의 영구 파일을 보존 합니다. 보존 잠금을 포함 합니다. 말해서
+보관 Office 365에서는 원본 및 Exchange 위원회 (SEC) 규칙 17a-4 호환 저장소를 제공 하 고, 원본 위치 보존 정책 및 보존 정책을 사용 하 여 쓰기 불가능 한 erasable 형식으로 수집 된 모든 데이터의 영구 파일을 보존 합니다. 보존 잠금을 포함 합니다. 특히 다음 사항에 유의합니다.
 - 위에 설명한 보존 정책을 사용 하 여 저장 된 모든 레코드는 일반 사용자의 purview에서 전용 저장소 영역에 보존 됩니다. 또한 승인 된 사용자만 이러한 레코드에 액세스 하 고 검색할 수 있지만 변경 하거나 지울 수는 없습니다.
 - 각 항목에 대 한 메타 데이터에 보존 기간을 계산할 때 사용 되는 타임 스탬프가 포함 됩니다. 타임 스탬프는 새 항목을 수신 하거나 만들 때 적용 되며 나중에 메타 데이터에서 수정 하거나 제거할 수 없습니다.
 - Office 365의 보관을 통해 사용자는 서로 다른 보존 정책 및 보존 작업을 결합 하 여 immutably 보존 되는 항목의 유형 또는 위치와 해당 보존 기간을 정의 하는 세분화 된 보존 정책을 만들 수 있습니다.

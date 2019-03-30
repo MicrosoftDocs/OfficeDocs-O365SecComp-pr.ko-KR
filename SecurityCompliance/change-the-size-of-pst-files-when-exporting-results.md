@@ -11,19 +11,19 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: eDiscovery 검색 결과를 내보낼 때 컴퓨터로 다운로드 되는 PST 파일의 기본 크기를 변경할 수 있습니다.
-ms.openlocfilehash: 8a956091f29ec1b564d3194c7e3ca2680fdeb564
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 98b543b6e34cb9cb075a765671def91742aee6c1
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214628"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999721"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>eDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
 
 Office 365 eDiscovery 내보내기 도구를 사용 하 여 다른 Microsoft eDiscovery 도구에서 eDiscovery 검색의 전자 메일 결과를 내보낼 때 내보낼 수 있는 PST 파일의 기본 크기는 10gb입니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. 이 작업을 수행 하는 한 가지 이유는 PST 파일이 DVD, 컴팩트 디스크 또는 USB 드라이브 같은 이동식 미디어에 들어갈 수 있도록 하는 것입니다. 
   
 > [!NOTE]
->  office 365 eDiscovery 내보내기 도구는 office 365 보안 &amp; 준수 센터, Exchange online의 원본 위치 eDiscovery 및 SharePoint online의 eDiscovery 센터에서 콘텐츠 검색을 사용 하는 경우 검색 결과를 내보내는 데 사용 됩니다. 
+>  Office 365 eDiscovery 내보내기 도구는 보안 및 준수 센터의 콘텐츠 검색 도구, Exchange online의 원본 위치 eDiscovery 및 SharePoint online의 eDiscovery 센터를 사용 하는 경우 검색 결과를 내보내는 데 사용 됩니다.
   
 ## <a name="create-a-registry-setting-to-change-the-size-of-pst-files-when-you-export-ediscovery-search-results"></a>eDiscovery 검색 결과를 내보낼 때 PST 파일 크기를 변경 하는 레지스트리 설정 만들기
 
@@ -45,7 +45,7 @@ eDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음
     |:-----|:-----|
     |7g b (700 MB)  <br/> |751619277  <br/> |
     |2GB  <br/> |2147483648  <br/> |
-    |4GB  <br/> |4294967296  <br/> |
+    |4 GB  <br/> |4294967296  <br/> |
     |8GB  <br/> |8589934592  <br/> |
    
 3. 검색 결과 `PstSizeLimitInBytes` 를 내보낼 때 값을 원하는 PST 파일의 최대 크기로 변경한 다음 파일을 저장 합니다. 

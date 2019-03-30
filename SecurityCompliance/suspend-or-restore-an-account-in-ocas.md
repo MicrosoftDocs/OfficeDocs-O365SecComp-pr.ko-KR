@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5f02d20f-b9aa-4b2f-ad2d-506a4a3c4540
 description: 'Office 365 Cloud App Security를 사용 하는 경우 사용자 계정을 일시 중단 하거나 대기 취소 하는 거 버 넌 스 작업을 수행할 수 있습니다. '
-ms.openlocfilehash: 10da1385f850fadf077b4e3f9e3a00e9e4629fdd
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.openlocfilehash: d162be9d4e5382c6c03c63ae1b30043edbf0295b
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862450"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998871"
 ---
 # <a name="suspend-or-restore-a-user-account-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 사용자 계정 일시 중단 또는 복원
 
@@ -29,7 +29,7 @@ ms.locfileid: "30862450"
 조직의 Office 365에 대 한 사용자 계정 중 하나가 손상 되었음을 알리는 경고가 표시 되는 경우를 가정해 봅니다. 또는 사용자 계정에 문제가 있음을 나타내는 경고를 받았다고 가정해 보겠습니다. Office 365 Cloud App Security를 사용 하 여 사용자 계정을 일시 중단 하 고 나중에 수신한 알림을 조사한 후에 복원할 수 있습니다.
   
 > [!NOTE]
-> office 365 Cloud App Security는 office 365 Enterprise E5에서 사용할 수 있습니다. 조직에서 다른 office 365 Enterprise 구독을 사용 하는 경우 office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다. (전역 관리자 인 경우 Office 365 관리 센터에서 **청구** \> **구독 추가**를 선택 합니다.) 자세한 내용은 [office 365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)을 참조 하세요. 
+> office 365 Cloud App Security는 office 365 Enterprise E5에서 사용할 수 있습니다. 조직에서 다른 office 365 Enterprise 구독을 사용 하는 경우 office 365 Cloud App Security를 추가 기능으로 구입할 수 있습니다. (전역 관리자 인 경우 Microsoft 365 관리 센터에서 **청구** \> **구독 추가**를 선택 합니다.) 자세한 내용은 [office 365 플랫폼 서비스 설명: office 365 보안 &amp; 및 준수 센터](https://technet.microsoft.com/en-us/library/dn933793.aspx) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://support.office.com/article/4e7b57d6-b93b-457d-aecd-0ea58bff07a6)을 참조 하세요. 
   
 ## <a name="to-suspend-a-user-account-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 사용자 계정을 일시 중단 하려면
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안의 장치 모니터링
+title: Microsoft 365 보안의 디바이스 모니터링
 description: 장치를 안전 하 고 최신 상태로 유지 하 고 조직에서 잠재적인 위협을 발견할 수 있는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 장치
 ms.prod: w10
@@ -11,16 +11,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 43d074a9d42703b60b7b8eb17bdaf83a9360ce2d
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: fea3f35e0fca3ccc8148d93b7a535c98dd2d32b9
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791854"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000531"
 ---
-# <a name="monitor-devices-in-microsoft-365-security"></a>Microsoft 365 보안의 장치 모니터링
-
-[!include[Prerelease�information](prerelease.md)]
+# <a name="monitor-devices-in-microsoft-365-security"></a>Microsoft 365 보안의 디바이스 모니터링
 
 Microsoft 365 보안 센터에서 장치를 안전 하 고 최신 상태로 유지 하 고 잠재적인 위협을 발견할 수 있습니다.
 

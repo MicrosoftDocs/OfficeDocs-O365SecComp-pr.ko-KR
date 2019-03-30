@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용 하 여 여러 PST 파일을 Office 365의 사용자 사서함으로 대량 가져오는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: d7ef9d5f9f1d9fcf9ebdf31ffe42979482abc5e7
-ms.sourcegitcommit: fb50bf2f2c9d780c911f245a2f78c6bb5e357f67
+ms.openlocfilehash: d51fb39d994702099b53afa3058cdf8fafffd5a6
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30950455"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000161"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>네트워크 업로드를 사용 하 여 조직 PST 파일을 Office 365로 가져오기
 
@@ -48,7 +48,7 @@ PST 파일을 Office 365 사서함으로 가져오려면 1 단계를 한 번만 
   
 - PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. 자세한 내용은 [Manage role groups](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하십시오.
     
-    또한 Office 365 보안 &amp; 및 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
+    또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
     
   - Exchange Online에서 Mail Recipients 역할을 할당 받아야 합니다. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
     
@@ -89,12 +89,12 @@ PST 파일을 Office 365 사서함으로 가져오려면 1 단계를 한 번만 
 > [!IMPORTANT]
 > 네트워크 업로드 방법을 사용 하 여 PST 파일을 가져오려면 다음 절차의 6b 단계에서 다운로드할 수 있는 Azure AzCopy 버전을 사용 하는 것이 좋습니다.
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
+2. 보안 & 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
     
     > [!NOTE]
-    > 보안 &amp; 및 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한이 할당 되어야 합니다. 자세한 내용은 **시작 하기 전에** 섹션을 참조 하세요. 
+    > 보안 & 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한이 할당 되어야 합니다. 자세한 내용은 **시작 하기 전에** 섹션을 참조 하세요. 
     
 3. **가져오기** ![페이지에서 아이콘](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
     
@@ -235,13 +235,13 @@ pst 파일을 Office 365 조 직의 Azure 저장 위치에 업로드 한 후에�
 
 다음 단계에서는 Office 365의 가져오기 서비스에 PST 가져오기 작업을 만듭니다. 앞에서 설명한 것 처럼 4 단계에서 만든 PST 가져오기 매핑 파일을 제출 합니다. 새 작업을 만든 후에는 Office 365에서 pst 파일의 데이터를 분석 하 고, 실제로는 pst 가져오기 매핑 파일에 지정 된 사서함으로 가져온 데이터를 필터링 할 수 있는 기회를 제공 합니다 ( [6 단계](#step-6-filter-data-and-start-the-pst-import-job)참조).
   
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. 보안 &amp; 및 준수 센터의 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
+2. 보안 & 준수 센터의 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
     
 3. **가져오기** ![페이지에서 아이콘](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
     
-    **참고:** 보안 &amp; 및 준수 센터의 **가져오기** 페이지에 액세스 하 여 새 가져오기 작업을 만들려면 적절 한 사용 권한을 할당 받아야 합니다. 자세한 내용은 **시작 하기 전에** 섹션을 참조 하세요. 
+    **참고:** 새 가져오기 작업을 만들려면 Security & 준수 센터의 **가져오기** 페이지에 액세스 하는 데 필요한 사용 권한을 할당 받아야 합니다. 자세한 내용은 **시작 하기 전에** 섹션을 참조 하세요. 
     
 4. PST 가져오기 작업의 이름을 입력 하 고 **다음**을 클릭 합니다. 소문자, 숫자, 하이픈 및 밑줄을 사용 합니다. 이름에는 대문자를 사용 하거나 공백을 포함할 수 없습니다.
     
@@ -277,7 +277,7 @@ pst 파일을 Office 365 조 직의 Azure 저장 위치에 업로드 한 후에�
 
 5 단계에서 가져오기 작업을 만든 후에는 항목의 보존 기간을 확인 하 고 pst 파일에 포함 된 다양 한 메시지 유형을 식별 하 여 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 합니다. 분석이 완료 되 고 데이터를 가져올 준비가 되 면 PST 파일에 포함 된 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 트리밍하는 옵션을 사용할 수 있습니다.
   
-1. 보안 &amp; 및 준수 센터의 **가져오기** 페이지에서 준비를 클릭 하 여 5 단계에서 만든 가져오기 작업에 대 한 **Office 365로 가져옵니다** . 
+1. 보안 & 준수 센터의 **가져오기** 페이지에서 준비를 클릭 하 여 5 단계에서 만든 가져오기 작업에 대 한 **Office 365로 가져옵니다** . 
     
     ![만든 가져오기 작업 옆에 있는 Office 365로 가져오려면 준비를 클릭 합니다.](media/5760aac3-300b-4e31-b894-253c42a4b82b.png)
   
@@ -311,7 +311,7 @@ pst 파일을 Office 365 조 직의 Azure 저장 위치에 업로드 한 후에�
   
 ![PST 파일을 Office 365로 가져오기 위한 네트워크 업로드 프로세스의 워크플로](media/9e05a19e-1e7a-4f1f-82df-9118f51588c4.png)
   
-1. **pst 가져오기 도구 및 키를 사설 Azure 저장소 위치로 다운로드** -Microsoft 클라우드의 azure 저장소 위치에 pst 파일을 업로드 하는 데 사용 되는 첫 번째 단계는 azure AzCopy 명령줄 도구와 액세스 키를 다운로드 하는 것입니다. Office 365 보안 &amp; 및 준수 센터의 **가져오기** 페이지에서이를 가져옵니다. 키 (sa (보안 액세스 서명) 키 라고 함)는 개인 및 안전한 Azure 저장소 위치에 PST 파일을 업로드 하는 데 필요한 권한을 제공 합니다. 이 선택 키는 조직에서 고유 하며, Microsoft 클라우드로 업로드 된 후에 해당 PST 파일에 대 한 무단 액세스를 방지 하는 데 도움이 됩니다. PST 파일을 Office 365로 가져오는 경우 조직에서 별도의 Azure 구독을 사용할 필요가 없습니다. 
+1. **pst 가져오기 도구 및 키를 사설 Azure 저장소 위치로 다운로드** -Microsoft 클라우드의 azure 저장소 위치에 pst 파일을 업로드 하는 데 사용 되는 첫 번째 단계는 azure AzCopy 명령줄 도구와 액세스 키를 다운로드 하는 것입니다. 보안 & 준수 센터의 **가져오기** 페이지에서이를 가져옵니다. 키 (sa (보안 액세스 서명) 키 라고 함)는 개인 및 안전한 Azure 저장소 위치에 PST 파일을 업로드 하는 데 필요한 권한을 제공 합니다. 이 선택 키는 조직에서 고유 하며, Microsoft 클라우드로 업로드 된 후에 해당 PST 파일에 대 한 무단 액세스를 방지 하는 데 도움이 됩니다. PST 파일을 Office 365로 가져오는 경우 조직에서 별도의 Azure 구독을 사용할 필요가 없습니다. 
     
 2. **azure storage location에 pst 파일 업로드** -1 단계에서 다운로드 한 AzCopy 도구를 사용 하 여 pst 파일을 업로드 하 고 Office 365에서 동일한 지역 Microsoft 데이터 센터에 있는 Azure 저장소 위치에 저장 합니다. 조직이 있습니다. 이를 업로드 하려면 Office 365로 가져올 PST 파일이 조직의 파일 공유 또는 파일 서버에 있어야 합니다.
     
@@ -319,11 +319,11 @@ pst 파일을 Office 365 조 직의 Azure 저장 위치에 업로드 한 후에�
     
 3. **pst 가져오기 매핑 파일 만들기** -pst 파일을 Azure 저장소 위치로 업로드 한 후에는 pst 파일을 가져올 사용자 사서함을 지정 하는 CSV (쉼표로 구분 된 값) 파일을 만들기 위해 pst 파일을 사용할 수 있는지 확인 합니다.  사용자의 기본 사서함 또는 해당 보관 사서함으로 가져옵니다. Office 365 가져오기 서비스에서는 CSV 파일의 정보를 사용 하 여 PST 파일을 가져옵니다.
     
-4. **pst 가져오기 작업 만들기** -다음 단계는 보안 &amp; 및 준수 센터의 **가져오기** 페이지에서 pst 가져오기 작업을 만들고 이전 단계에서 만든 pst 가져오기 매핑 파일을 제출 하는 것입니다. 가져오기 작업을 만든 후에는 Office 365에서 pst 파일의 데이터를 분석 한 다음 pst 가져오기 매핑 파일에 지정 된 사서함으로 실제로 가져오는 데이터를 제어 하는 필터를 설정할 수 있습니다. 
+4. **pst 가져오기 작업 만들기** -다음 단계는 Security & 준수 센터의 **가져오기** 페이지에서 pst 가져오기 작업을 만들고 이전 단계에서 만든 pst 가져오기 매핑 파일을 제출 하는 것입니다. 가져오기 작업을 만든 후에는 Office 365에서 pst 파일의 데이터를 분석 한 다음 pst 가져오기 매핑 파일에 지정 된 사서함으로 실제로 가져오는 데이터를 제어 하는 필터를 설정할 수 있습니다. 
     
 5. **사서함으로 가져올 PST 데이터 필터링** -가져오기 작업을 만들고 시작한 후에 Office 365에서 항목의 보존 기간 및 pst 파일에 포함 된 다양 한 메시지 유형을 식별 하 여 pst 파일의 데이터를 분석 합니다. . 분석이 완료 되 고 데이터를 가져올 준비가 되 면 PST 파일에 포함 된 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 트리밍하는 옵션을 사용할 수 있습니다.
     
-6. **pst 가져오기 작업 시작** -가져오기 작업을 시작한 후에 Office 365은 pst 가져오기 매핑 파일의 정보를 사용 하 여 Azure 저장소 위치에서 사용자 사서함으로 pst 파일을 가져옵니다. 가져오기 작업에 대 한 상태 정보 (가져올 각 PST 파일에 대 한 정보 포함)는 보안 **** &amp; 및 준수 센터의 가져오기 페이지에 표시 됩니다. 가져오기 작업이 완료 되 면 작업 상태가 **완료**로 설정 됩니다.
+6. **pst 가져오기 작업 시작** -가져오기 작업을 시작한 후에 Office 365은 pst 가져오기 매핑 파일의 정보를 사용 하 여 Azure 저장소 위치에서 사용자 사서함으로 pst 파일을 가져옵니다. 가져오기 작업에 대 한 상태 정보 (가져올 각 PST 파일에 대 한 정보 포함)가 Security & 준수 센터의 **가져오기** 페이지에 표시 됩니다. 가져오기 작업이 완료 되 면 작업 상태가 **완료**로 설정 됩니다.
   
 ## <a name="more-information"></a>추가 정보
 

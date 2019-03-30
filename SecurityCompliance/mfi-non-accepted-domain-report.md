@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 Office 365 보안 & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서에 대해 알아볼 수 있습니다.
+description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서에 대 한 정보를 확인할 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f7fc54a4b1d31d724a95c5d8540b95034effbab4
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+ms.openlocfilehash: a69a1e59241ea7b6680afe8608534dbf9460c269
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30722999"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998991"
 ---
 # <a name="non-accepted-domain-report"></a>허용 되지 않는 도메인 보고서
 
@@ -26,7 +26,7 @@ ms.locfileid: "30722999"
 
 이러한 메시지가 악성 임을 증명 하는 데이터가 있는 경우 Office 365에서 이러한 메시지를 제한할 수 있습니다. 따라서 문제를 파악 하 고 해결 하는 것이 중요 합니다.
 
-![Office 365 Security & 준수 센터의 메일 흐름 대시보드에 허용 되지 않는 도메인 보고서가 있습니다.](media/non-accepted-domain-report-selected.png)
+![Security & 준수 센터의 메일 흐름 대시보드에 허용 되지 않는 도메인 보고서가 있습니다.](media/non-accepted-domain-report-selected.png)
 
 위젯을 클릭 하면 전체 보고서로 이동 합니다. 전체 보고서에서 **세부 정보 보기** 를 클릭 하 여 다음 다이어그램과 같이 표에서 정보를 볼 수 있습니다.
 

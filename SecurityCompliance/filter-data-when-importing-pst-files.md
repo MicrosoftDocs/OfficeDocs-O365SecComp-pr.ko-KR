@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 description: 'Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용 하 여 실제로 대상 사서함으로 가져오는 항목을 필터링 합니다. 지능형 가져오기를 사용 하면 가져올 데이터와 뒤에 남길 작업을 사전에 결정할 수 있습니다. 또한 지능형 가져오기에서는 Office 365로 가져오는 데이터에 대 한 정보를 제공 합니다. '
-ms.openlocfilehash: 60177908f48c6de28578f8d8ba6329fb1bf8cb47
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.openlocfilehash: 33a29c74e3d57a90ae552f6dee72047943698cab
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900037"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999481"
 ---
 # <a name="filter-data-when-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져올 때 데이터 필터링
 
@@ -51,7 +51,7 @@ Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 
     
   - [드라이브 발송을 사용하여 PST 파일을 Office 365로 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md)
     
-- 네트워크 업로드를 사용 하 여 가져오기 작업을 만든 후에는 office 365 보안 &amp; 및 준수 센터의 가져오기 페이지에서 가져오기 작업의 상태가 **진행**중으로 설정 되며,이는 office 365에서 PST 파일의 데이터를 분석 하는 것을 의미 합니다. 업로드. 새로](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) 고치기 새로 **고침**![을 클릭 하 여 가져오기 작업의 상태를 업데이트 합니다. 
+- 네트워크 업로드를 사용 하 여 가져오기 작업을 만든 후 Security & 준수 센터의 가져오기 페이지에서 가져오기 작업의 상태는 **분석 중**으로 설정 되며,이는 Office 365에서 업로드 한 PST 파일의 데이터를 분석 하는 것을 의미 합니다. 새로](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) 고치기 새로 **고침**![을 클릭 하 여 가져오기 작업의 상태를 업데이트 합니다. 
     
 - 드라이브 전달 가져오기 작업의 경우 Microsoft 데이터 센터 직원이 하드 드라이브를 수신 하 고 조직의 Azure storage 영역에 PST 파일을 업로드 한 후에 Office 365에서 데이터를 분석 합니다.
   
@@ -59,9 +59,9 @@ Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 
 
 PST 가져오기 작업을 만든 후에는 다음 단계에 따라 데이터를 Office 365로 가져오기 전에 필터링 할 수 있습니다.
   
-1. 으로 이동 [https://protection.office.com/](https://protection.office.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://compliance.microsoft.com/](https://compliance.microsoft.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 창에서 **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
+2. **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
     
     조직의 가져오기 작업은 **가져오기** 페이지에 나열 됩니다. **Status (상태** ) 열의 **분석 완료** 값은 Office 365에서 분석 되었으며 가져올 준비가 된 가져오기 작업을 나타냅니다. 
     

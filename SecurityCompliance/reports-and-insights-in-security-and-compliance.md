@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 & 준수 센터의 Smart reports 및 정보
+title: 보안 & 준수 센터의 Smart reports 및 통찰력
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -15,12 +15,12 @@ ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 보고서 및 insights avialable에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 03b551a05d9e19be000ff9ba53e8afa11d8715f3
-ms.sourcegitcommit: 1c73c2f83703af0a30a5b0633db00d8e0e6b39b5
+ms.openlocfilehash: fff1fac7d35a4e12e66f27ac0069d34eb86f3fe0
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2019
-ms.locfileid: "30242160"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999321"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 Smart reports 및 정보
 

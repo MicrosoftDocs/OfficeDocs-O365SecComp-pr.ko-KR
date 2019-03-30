@@ -12,16 +12,16 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일에 대 한 조직의 노출을 확인 하는 이유를 알 수 있습니다. 항목.
-ms.openlocfilehash: d8fec240964ad84b811221754060af3e342af01f
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.openlocfilehash: d6b1326498780a5d40e49ff22aa1ac7d16bee8e4
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295631"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000891"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
-Office 365 보안 &amp; 및 준수 센터에서 실행 하는 콘텐츠 검색에서는 검색을 실행할 때 예상 되는 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함 됩니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 SharePoint의 문서와 몇 가지 이유로 검색을 위해 완전히 인덱싱되지 않은 비즈니스용 OneDrive 사이트입니다. 대부분의 전자 메일 메시지와 사이트 문서는 [전자 메일 메시지에 대 한 인덱싱 제한](limits-for-content-search.md#indexing-limits-for-email-messages)범위 내에 있으므로 성공적으로 인덱싱됩니다. 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 검색을 위해 항목을 인덱싱할 수 없으며 콘텐츠 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환 되는 기타 이유는 다음과 같습니다.
+보안 & 준수 센터에서 실행 하는 콘텐츠 검색에는 검색을 실행할 때 예상 되는 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함 됩니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 SharePoint의 문서와 몇 가지 이유로 검색을 위해 완전히 인덱싱되지 않은 비즈니스용 OneDrive 사이트입니다. 대부분의 전자 메일 메시지와 사이트 문서는 [전자 메일 메시지에 대 한 인덱싱 제한](limits-for-content-search.md#indexing-limits-for-email-messages)범위 내에 있으므로 성공적으로 인덱싱됩니다. 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 검색을 위해 항목을 인덱싱할 수 없으며 콘텐츠 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환 되는 기타 이유는 다음과 같습니다.
   
 - 전자 메일 메시지에는 인덱싱할 수 없는 파일 형식의 첨부 파일이 있습니다. 대부분의 경우 파일 형식을 [인덱싱할 수 없거나 해당 형식이 지원 되지](partially-indexed-items-in-content-search.md#file-types-not-indexed-for-search) 않습니다.
     
@@ -37,7 +37,7 @@ Office 365 보안 &amp; 및 준수 센터에서 실행 하는 콘텐츠 검색�
   
 ## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>검색에서 부분적으로 인덱싱된 항목 수가 변경 되는 이유는 무엇 인가요?
 
-Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색을 실행 한 후 검색 된 위치에 있는 부분적으로 인덱싱된 항목의 총 수와 크기는 다음에 대 한 자세한 통계에 표시 되는 검색 결과 통계에 나열 됩니다. 검색입니다. 참고 이러한 항목은 검색 통계에서 *인덱싱되지 않은 항목이* 라고도 합니다. 검색 결과에서 반환 되는 부분적으로 인덱싱된 항목의 수에 영향을 주는 몇 가지 사항은 다음과 같습니다. 
+보안 & 준수 센터에서 콘텐츠 검색을 실행 한 후에 검색 된 위치에 있는 부분적으로 인덱싱된 항목의 총 수와 크기는 search에 대 한 자세한 통계에 표시 되는 검색 결과 통계에 나열 됩니다. 참고 이러한 항목은 검색 통계에서 *인덱싱되지 않은 항목이* 라고도 합니다. 검색 결과에서 반환 되는 부분적으로 인덱싱된 항목의 수에 영향을 주는 몇 가지 사항은 다음과 같습니다. 
   
 - 항목이 부분적으로 인덱싱되 고 검색 쿼리와 일치 하는 경우 검색 결과 항목 및 부분적으로 인덱싱된 항목의 개수와 크기 모두에 포함 됩니다. 그러나 같은 검색의 결과를 내보내면 항목은 검색 결과 집합에만 포함 됩니다. 부분적으로 인덱싱된 항목은 포함 되지 않습니다.
     
@@ -122,7 +122,7 @@ error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
 
 ```
   write-host "**************************************************"
-  write-host "     Office 365 Security &amp; Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
+  write-host "     Security & Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
   write-host "   eDiscovery Partially Indexed Item Statistics   " -foregroundColor yellow -backgroundcolor darkgreen
   write-host "**************************************************"
   " " 
@@ -164,9 +164,9 @@ error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ```
    
-2. [Office 365 보안 &amp; 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
+2. [Security & 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
     
-3. 보안 &amp; 및 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
+3. Security & 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
 
     ```
     .\PartiallyIndexedItems.ps1
@@ -176,7 +176,7 @@ error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ![조직에서 부분적으로 인덱싱된 전자 메일 항목에 대 한 보고서를 생성 하는 스크립트의 출력 예](media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
   
-다음에 유의하세요.
+다음 사항을 참고하십시오.
   
 1. 전자 메일 항목의 총 수와 크기 및 조직의 부분적으로 인덱싱된 전자 메일 항목의 비율 (개수 및 크기)
     
