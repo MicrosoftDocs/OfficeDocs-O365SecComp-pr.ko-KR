@@ -8,46 +8,46 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
+description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d98d2a2660c24a77db58215faa0de1a4a18ea1a
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+ms.openlocfilehash: bd62d6d0b42edfd1eedf543d7d8bb68903c7c608
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30722993"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000311"
 ---
-# <a name="fix-sender-domain-insight"></a><span data-ttu-id="ec995-103">보낸 사람 도메인 통찰력 수정</span><span class="sxs-lookup"><span data-stu-id="ec995-103">Fix sender domain insight</span></span>
+# <a name="fix-sender-domain-insight"></a><span data-ttu-id="b1139-103">보낸 사람 도메인 통찰력 수정</span><span class="sxs-lookup"><span data-stu-id="b1139-103">Fix sender domain insight</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ec995-104">이 항목에서 설명 하는 기능은 모든 Office 365 조직에 배포 되지 않으며 변경 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-104">The features described in this topic haven't been deployed to all Office 365 organizations, and are subject to change.</span></span>
+> <span data-ttu-id="b1139-104">이 항목에서 설명 하는 기능은 모든 Office 365 조직에 배포 되지 않으며 변경 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-104">The features described in this topic haven't been deployed to all Office 365 organizations, and are subject to change.</span></span>
 
-<span data-ttu-id="ec995-105">office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프레미스 전자 메일 환경에서 Office 365로 메시지를 전송 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-105">Office 365 requires messages sending from internal on-premises email environments to Office 365 to meet certain security criteria:</span></span>
+<span data-ttu-id="b1139-105">office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프레미스 전자 메일 환경에서 Office 365로 메시지를 전송 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-105">Office 365 requires messages sending from internal on-premises email environments to Office 365 to meet certain security criteria:</span></span>
 
-- <span data-ttu-id="ec995-106">원본 IP 주소 또는 인증서를 사용 하 여 온-프레미스 전자 메일 서버에서 SMTP 연결을 인증 하기 위해 Office 365의 인바운드 커넥터를 만들었습니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-106">You've created an inbound connector in Office 365 to authenticate SMTP connections from your on-premises email server by using the source IP address or a certificate.</span></span>
+- <span data-ttu-id="b1139-106">원본 IP 주소 또는 인증서를 사용 하 여 온-프레미스 전자 메일 서버에서 SMTP 연결을 인증 하기 위해 Office 365의 인바운드 커넥터를 만들었습니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-106">You've created an inbound connector in Office 365 to authenticate SMTP connections from your on-premises email server by using the source IP address or a certificate.</span></span>
 
-- <span data-ttu-id="ec995-107">Office 365을 통해 외부 세계를 통해 전자 메일을 릴레이 하도록 온-프레미스 전자 메일 서버를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-107">You've configured your on-premises email server to relay email via Office 365 to external world.</span></span>
+- <span data-ttu-id="b1139-107">Office 365을 통해 외부 세계를 통해 전자 메일을 릴레이 하도록 온-프레미스 전자 메일 서버를 구성 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-107">You've configured your on-premises email server to relay email via Office 365 to external world.</span></span>
 
-- <span data-ttu-id="ec995-108">구성에서 다음 문 중 하나에 해당 하는 경우:</span><span class="sxs-lookup"><span data-stu-id="ec995-108">In your configuration, one of the following statements is true:</span></span>
+- <span data-ttu-id="b1139-108">구성에서 다음 문 중 하나에 해당 하는 경우:</span><span class="sxs-lookup"><span data-stu-id="b1139-108">In your configuration, one of the following statements is true:</span></span>
 
-  - <span data-ttu-id="ec995-109">보낸 사람의 전자 메일 도메인이 Office 365 조직에 등록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-109">The sender's email domain is registered in your Office 365 organization.</span></span> <span data-ttu-id="ec995-110">자세한 내용은 Office 365에서 도메인 추가를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ec995-110">For more information, see Add Domains in Office 365.</span></span>
+  - <span data-ttu-id="b1139-109">보낸 사람의 전자 메일 도메인이 Office 365 조직에 등록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-109">The sender's email domain is registered in your Office 365 organization.</span></span> <span data-ttu-id="b1139-110">자세한 내용은 Office 365에서 도메인 추가를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b1139-110">For more information, see Add Domains in Office 365.</span></span>
 
-  - <span data-ttu-id="ec995-111">온-프레미스 전자 메일 서버는 인증서를 사용 하 여 office 365에 전자 메일을 보내거나, 인증서에 office 365에 등록 한 도메인 이름과 정확히 일치 하거나, 인증서 기반 커넥터를 만든 사용자가이를 포함 하도록 구성 됩니다. 도메인별.</span><span class="sxs-lookup"><span data-stu-id="ec995-111">Your on-premises email server is configured to use a certificate to send email to Office 365, the certificate contains or exactly matches a domain name that you've registered in Office 365, and you've created a certificate based connector in Office 365 with that domain.</span></span> 
+  - <span data-ttu-id="b1139-111">온-프레미스 전자 메일 서버는 인증서를 사용 하 여 office 365에 전자 메일을 보내거나, 인증서에 office 365에 등록 한 도메인 이름과 정확히 일치 하거나, 인증서 기반 커넥터를 만든 사용자가이를 포함 하도록 구성 됩니다. 도메인별.</span><span class="sxs-lookup"><span data-stu-id="b1139-111">Your on-premises email server is configured to use a certificate to send email to Office 365, the certificate contains or exactly matches a domain name that you've registered in Office 365, and you've created a certificate based connector in Office 365 with that domain.</span></span> 
 
-<span data-ttu-id="ec995-112">조건을 충족 하지 않는 메시지는 조직에 대 한 특성을 사용 하지 않으며 거부할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-112">Messages that don't meet the criteria will not be attributed to the organization and could be rejected.</span></span>
+<span data-ttu-id="b1139-112">조건을 충족 하지 않는 메시지는 조직에 대 한 특성을 사용 하지 않으며 거부할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-112">Messages that don't meet the criteria will not be attributed to the organization and could be rejected.</span></span>
 
-<span data-ttu-id="ec995-113">**Fix sender domain** 통찰력은 온-프레미스 환경에서 조건을 충족 하지 않는 전자 메일을 표시 하 고, 온-프레미스 전자 메일 환경에서 잠재적으로 손상 된 컴퓨터와 사용자 계정을 식별 하 고, 작업을 수행 하는 데 도움이 됩니다. 수정 작업</span><span class="sxs-lookup"><span data-stu-id="ec995-113">The **Fix sender domain** insight shows you email from your on-premises environment that doesn't meet the criteria, helps you to identify potentially compromised machines and user accounts in your on-premises email environment, and helps you to take remediation actions.</span></span>
+<span data-ttu-id="b1139-113">**Fix sender domain** 통찰력은 온-프레미스 환경에서 조건을 충족 하지 않는 전자 메일을 표시 하 고, 온-프레미스 전자 메일 환경에서 잠재적으로 손상 된 컴퓨터와 사용자 계정을 식별 하 고, 작업을 수행 하는 데 도움이 됩니다. 수정 작업</span><span class="sxs-lookup"><span data-stu-id="b1139-113">The **Fix sender domain** insight shows you email from your on-premises environment that doesn't meet the criteria, helps you to identify potentially compromised machines and user accounts in your on-premises email environment, and helps you to take remediation actions.</span></span>
 
-![Office 365 Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보 수정](media/sender-domain-insight-selected.png)
+![Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인 통찰력 수정](media/sender-domain-insight-selected.png)
 
-<span data-ttu-id="ec995-115">**자세히 보기**를 클릭 하면 다음 다이어그램에 나와 있는 것과 같이 다른 widget이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-115">When you click **View details**, you are taken to another widget with more details as shown in the following diagram:</span></span>
+<span data-ttu-id="b1139-115">**자세히 보기**를 클릭 하면 다음 다이어그램에 나와 있는 것과 같이 다른 widget이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-115">When you click **View details**, you are taken to another widget with more details as shown in the following diagram:</span></span>
 
 ![보낸 사람 도메인 문제 해결의 세부 정보 위젯](media/sender-domain-view-details.png)
 
-<span data-ttu-id="ec995-117">메시지를 Office 365로 배달 하는 데 사용 된 인바운드 커넥터가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-117">You'll see the inbound connector that was used to deliver the messages to Office 365.</span></span> <span data-ttu-id="ec995-118">**예제 메시지 id 보기** 를 클릭 하 여 온-프레미스 전자 메일 환경에서 전송 된 메시지에 대 한 세부 정보를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-118">You can also click **view sample message IDs** to see details for the messages that were sent from your on-premises email environment.</span></span> <span data-ttu-id="ec995-119">이러한 메시지는 Office 365에서 거부 되었기 때문에 메시지 추적을 사용할 수는 없지만, 샘플 메시지 id를 사용 하 여 온-프레미스 전자 메일 환경에서 메시지를 추적할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ec995-119">Because these messages were rejected by Office 365, you can't use message trace, but you can use the sample message ids to track the messages in your on-premises email environment.</span></span>
+<span data-ttu-id="b1139-117">메시지를 Office 365로 배달 하는 데 사용 된 인바운드 커넥터가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-117">You'll see the inbound connector that was used to deliver the messages to Office 365.</span></span> <span data-ttu-id="b1139-118">**예제 메시지 id 보기** 를 클릭 하 여 온-프레미스 전자 메일 환경에서 전송 된 메시지에 대 한 세부 정보를 볼 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-118">You can also click **view sample message IDs** to see details for the messages that were sent from your on-premises email environment.</span></span> <span data-ttu-id="b1139-119">이러한 메시지는 Office 365에서 거부 되었기 때문에 메시지 추적을 사용할 수는 없지만, 샘플 메시지 id를 사용 하 여 온-프레미스 전자 메일 환경에서 메시지를 추적할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b1139-119">Because these messages were rejected by Office 365, you can't use message trace, but you can use the sample message ids to track the messages in your on-premises email environment.</span></span>
 
 ![보낸 사람 도메인 정보 수정에서 예제 메시지 id 보기](media/sender-domain-view-sample-message-ids.png)
 
-## <a name="see-also"></a><span data-ttu-id="ec995-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ec995-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b1139-121">참고 항목</span><span class="sxs-lookup"><span data-stu-id="b1139-121">See also</span></span>
 
-<span data-ttu-id="ec995-122">메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ec995-122">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>
+<span data-ttu-id="b1139-122">메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="b1139-122">For more information about other mail flow insights in the mail flow dashboard, see [Mail flow insights in the Security & Compliance Center](mail-flow-insights-v2.md).</span></span>

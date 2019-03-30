@@ -12,7 +12,7 @@ ms.topic: landing-page
 ms.date: 12/27/2018
 ms.author: robmazz
 ---
-# <a name="office-365-security-and-compliance"></a>Office 365 보안 및 준수
+# <a name="office-365-security-and-compliance"></a>Office 365 보안 및 규정 준수
 
 조직에서 데이터를 보호 하거나 법률 또는 규제 표준을 준수 해야 하는 경우에는 적절 한 위치에 있습니다. 아래 영역은 Office 365의 보안 및 규정 준수에 대 한 학습을 처음으로 멈춘 것입니다.
 
@@ -91,7 +91,7 @@ ms.author: robmazz
                         <h3>보안 유지</h3>
                         <p><a href="security-roadmap.md">Office 365 보안 로드맵</a></p>
                         <p><a href="office-365-secure-score.md" target="_blank">Microsoft Secure Score</a></p>
-                        <p><a href="https://protection.office.com" target="_blank">Office 365 보안 및 준수 센터</a></p>
+                        <p><a href="https://protection.office.com" target="_blank">보안 & 준수 센터</a></p>
                     </div>
                 </div>
             </div>

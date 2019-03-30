@@ -11,33 +11,31 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2dcc82dd6eb64567ed944ff8fc876a029d82f74a
-ms.sourcegitcommit: ef27da3ea5340d6e7a2eaa1288e2e005ef8e4788
+ms.openlocfilehash: 40afc6fb999b5bf55262d4020ffc68c815dff3ae
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2019
-ms.locfileid: "30791826"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30998911"
 ---
-# <a name="monitor-and-report-security-status-in-microsoft-365-security-center"></a><span data-ttu-id="c5426-104">Microsoft 365 보안 센터에서 보안 상태 모니터링 및 보고</span><span class="sxs-lookup"><span data-stu-id="c5426-104">Monitor and report security status in Microsoft 365 security center</span></span>
+# <a name="monitor-and-report-security-status-in-microsoft-365-security-center"></a><span data-ttu-id="0b3ff-104">Microsoft 365 보안 센터에서 보안 상태 모니터링 및 보고</span><span class="sxs-lookup"><span data-stu-id="0b3ff-104">Monitor and report security status in Microsoft 365 security center</span></span>
 
-[!include[Prerelease�information](prerelease.md)]
+<span data-ttu-id="0b3ff-105">microsoft 365 보안 센터에서는 microsoft 365 환경 전반의 보호 및 보안 상태에 대 한 요약 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-105">The Microsoft 365 security center provides at a glance summary of protection and security status across your Microsoft 365 environment.</span></span>
 
-<span data-ttu-id="c5426-105">microsoft 365 보안 센터에서는 microsoft 365 환경 전반의 보호 및 보안 상태에 대 한 요약 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-105">The Microsoft 365 security center provides at a glance summary of protection and security status across your Microsoft 365 environment.</span></span>
+<span data-ttu-id="0b3ff-106">보안 센터에는 보안 분석가와 관리자가 일상 작업의 일부로 추적 하는 다양 한 영역을 다루는 카드 호스트를 포함 하는 **모니터링 & reports** 섹션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-106">The security center includes a **Monitoring & reports** section which features a host of cards covering a variety of areas that security analysts and administrators track as part of their day-to-day operations.</span></span> <span data-ttu-id="0b3ff-107">드릴 다운 시 카드는 자세한 보고서와 경우에 따라 관리 옵션을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-107">On drill-down, cards provide detailed reports and, in some cases, management options.</span></span>
 
-<span data-ttu-id="c5426-106">보안 센터에는 보안 분석가와 관리자가 일상 작업의 일부로 추적 하는 다양 한 영역을 다루는 카드 호스트를 포함 하는 **모니터링 & reports** 섹션이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-106">The security center includes a **Monitoring & reports** section which features a host of cards covering a variety of areas that security analysts and administrators track as part of their day-to-day operations.</span></span> <span data-ttu-id="c5426-107">드릴 다운 시 카드는 자세한 보고서와 경우에 따라 관리 옵션을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-107">On drill-down, cards provide detailed reports and, in some cases, management options.</span></span>
+## <a name="customize-views"></a><span data-ttu-id="0b3ff-108">보기 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="0b3ff-108">Customize views</span></span>
 
-## <a name="customize-views"></a><span data-ttu-id="c5426-108">보기 사용자 지정</span><span class="sxs-lookup"><span data-stu-id="c5426-108">Customize views</span></span>
-
-<span data-ttu-id="c5426-109">기본적으로 모니터링 및 보고서 카드는 다음 범주로 분류 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-109">By default, monitoring and report cards are grouped into these categories:</span></span>
+<span data-ttu-id="0b3ff-109">기본적으로 모니터링 및 보고서 카드는 다음 범주로 분류 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-109">By default, monitoring and report cards are grouped into these categories:</span></span>
   
-* <span data-ttu-id="c5426-110">[id](monitor-and-report-identities.md) -사용자 계정 및 자격 증명</span><span class="sxs-lookup"><span data-stu-id="c5426-110">[Identities](monitor-and-report-identities.md) – user accounts and credentials</span></span>
-* <span data-ttu-id="c5426-111">[데이터](monitor-data.md) -전자 메일 및 문서 내용</span><span class="sxs-lookup"><span data-stu-id="c5426-111">[Data](monitor-data.md) – email and document contents</span></span>
-* <span data-ttu-id="c5426-112">[장치](monitor-devices.md) -컴퓨터, 휴대폰 및 기타 장치</span><span class="sxs-lookup"><span data-stu-id="c5426-112">[Devices](monitor-devices.md) – computers, mobile phones, and other devices</span></span>
-* <span data-ttu-id="c5426-113">[앱](monitor-apps.md) -프로그램 및 연결 된 온라인 서비스</span><span class="sxs-lookup"><span data-stu-id="c5426-113">[Apps](monitor-apps.md) – programs and attached online services</span></span>
+* <span data-ttu-id="0b3ff-110">[id](monitor-and-report-identities.md) -사용자 계정 및 자격 증명</span><span class="sxs-lookup"><span data-stu-id="0b3ff-110">[Identities](monitor-and-report-identities.md) – user accounts and credentials</span></span>
+* <span data-ttu-id="0b3ff-111">[데이터](monitor-data.md) -전자 메일 및 문서 내용</span><span class="sxs-lookup"><span data-stu-id="0b3ff-111">[Data](monitor-data.md) – email and document contents</span></span>
+* <span data-ttu-id="0b3ff-112">[장치](monitor-devices.md) -컴퓨터, 휴대폰 및 기타 장치</span><span class="sxs-lookup"><span data-stu-id="0b3ff-112">[Devices](monitor-devices.md) – computers, mobile phones, and other devices</span></span>
+* <span data-ttu-id="0b3ff-113">[앱](monitor-apps.md) -프로그램 및 연결 된 온라인 서비스</span><span class="sxs-lookup"><span data-stu-id="0b3ff-113">[Apps](monitor-apps.md) – programs and attached online services</span></span>
 
-<span data-ttu-id="c5426-114">그룹화 방법 **항목**으로 전환 하 여 카드를 다시 정렬 하 고 다음으로 그룹화 합니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-114">Switch to **Group by topic**, to rearrange the cards and group them into the following:</span></span>
+<span data-ttu-id="0b3ff-114">그룹화 방법 **항목**으로 전환 하 여 카드를 다시 정렬 하 고 다음으로 그룹화 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-114">Switch to **Group by topic**, to rearrange the cards and group them into the following:</span></span>
 
-* <span data-ttu-id="c5426-115">**위험** – 위험에 노출 될 수 있는 계정 및 장치와 같은 엔터티를 강조 표시 하는 카드입니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-115">**Risk** – cards that highlight entities, such as accounts and devices, that might be at risk.</span></span> <span data-ttu-id="c5426-116">이러한 카드는 새 위협 캠페인 및 권한이 부여 된 클라우드 앱과 같은 가능한 위험 출처를 강조 합니다.</span><span class="sxs-lookup"><span data-stu-id="c5426-116">These cards also highlight possible sources of risk, such as new threat campaigns and privileged cloud apps</span></span>  
-* <span data-ttu-id="c5426-117">**검색 경향** -새로운 위협 감지, 예외 및 정책 위반을 강조 표시 하는 카드</span><span class="sxs-lookup"><span data-stu-id="c5426-117">**Detection trends** – cards that highlight new threat detections, anomalies, and policy violations</span></span>
-* <span data-ttu-id="c5426-118">관리 서비스에 대 한 장치 온 보 딩 상태를 포함 하 여 보안 제어의 구성 및 배포를 다루는 **구성 및 상태** 카드</span><span class="sxs-lookup"><span data-stu-id="c5426-118">**Configuration and health** – cards that cover the configuration and deployment of security controls, including device onboarding states to management services</span></span>
-* <span data-ttu-id="c5426-119">**기타** -기타 항목 아래에 분류 되지 않은 다른 모든 카드</span><span class="sxs-lookup"><span data-stu-id="c5426-119">**Other** – all other cards not categorized under other topics</span></span>
+* <span data-ttu-id="0b3ff-115">**위험** – 위험에 노출 될 수 있는 계정 및 장치와 같은 엔터티를 강조 표시 하는 카드입니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-115">**Risk** – cards that highlight entities, such as accounts and devices, that might be at risk.</span></span> <span data-ttu-id="0b3ff-116">이러한 카드는 새 위협 캠페인 및 권한이 부여 된 클라우드 앱과 같은 가능한 위험 출처를 강조 합니다.</span><span class="sxs-lookup"><span data-stu-id="0b3ff-116">These cards also highlight possible sources of risk, such as new threat campaigns and privileged cloud apps</span></span>  
+* <span data-ttu-id="0b3ff-117">**검색 경향** -새로운 위협 감지, 예외 및 정책 위반을 강조 표시 하는 카드</span><span class="sxs-lookup"><span data-stu-id="0b3ff-117">**Detection trends** – cards that highlight new threat detections, anomalies, and policy violations</span></span>
+* <span data-ttu-id="0b3ff-118">관리 서비스에 대 한 장치 온 보 딩 상태를 포함 하 여 보안 제어의 구성 및 배포를 다루는 **구성 및 상태** 카드</span><span class="sxs-lookup"><span data-stu-id="0b3ff-118">**Configuration and health** – cards that cover the configuration and deployment of security controls, including device onboarding states to management services</span></span>
+* <span data-ttu-id="0b3ff-119">**기타** -기타 항목 아래에 분류 되지 않은 다른 모든 카드</span><span class="sxs-lookup"><span data-stu-id="0b3ff-119">**Other** – all other cards not categorized under other topics</span></span>
