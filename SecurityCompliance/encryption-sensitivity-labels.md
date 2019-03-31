@@ -3,7 +3,7 @@ title: 민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 �
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 10/22/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: 6f8100ea0196cd1637bbad69757c9cc6e98f5bac
-ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
+ms.openlocfilehash: 69deeed69a5b2970d387c30b01a062c6c068c567
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737698"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997044"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
 
@@ -36,7 +36,7 @@ ms.locfileid: "30737698"
 - 파일의 이름이 바뀌더라도 조직의 내부 또는 외부에 관계 없이 암호화된 상태로 유지됩니다.
 - 작동 중단 시(예: OneDrive 계정에서) 및 전송 중(예: 보낸 전자 메일)에 모두 암호화됩니다.
 
-암호화 설정은 Office 365 보안 및 준수 센터 > **레이블** 페이지 > **민감도** 탭 > **레이블 만들기**에서 사용할 수 있습니다.
+암호화 설정은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터에서 민감도 레이블을 만들 때 사용할 수 있습니다.
 
 ## <a name="how-encryption-works"></a>암호화가 작동하는 방식
 

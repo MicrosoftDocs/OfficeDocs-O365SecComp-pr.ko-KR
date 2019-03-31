@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 및 준수 센터의 레이블 활동 탐색기를 사용하면 지난 30일 동안 SharePoint 및 비즈니스용 OneDrive에서 수행된 모든 콘텐츠에 대한 레이블 활동을 빠르게 검색하고 확인할 수 있습니다.
-ms.openlocfilehash: 8401e612a117700c0c8338860555c4d52dc4346c
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.openlocfilehash: 55888ff2ef8118389a88955a8f4e047170606524
+ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410473"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30997114"
 ---
 # <a name="view-label-activity-for-documents"></a>문서에 대한 레이블 활동 보기
 
@@ -36,7 +36,7 @@ ms.locfileid: "30410473"
     
 - 개별 문서 뿐만 아니라 폴더에 대한 레이블 활동을 확인합니다. 폴더에 레이블이 지정된 결과로, 해당 폴더 내에서 레이블이 지정된 파일 수를 확인하는 기능도 곧 제공될 예정입니다.
     
-보안 및 준수 센터 \> **데이터 거버넌스** \> **레이블 활동 탐색기**에서 레이블 활동 탐색기를 찾을 수 있습니다.
+보안 &amp; 준수 센터 > **데이터 거버넌스** > **레이블 활동 탐색기**에서 레이블 활동 탐색기를 찾을 수 있습니다.
   
 레이블 활동 탐색기를 사용하려면 Office 365 Enterprise E5 구독이 있어야 합니다.
   
