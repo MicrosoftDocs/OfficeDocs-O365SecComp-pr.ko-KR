@@ -429,7 +429,7 @@
 ### [정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기](create-team-sites-in-a-political-campaign-dev-test-environment.md)
 ## [SharePoint Online 사이트 및 파일 보호](secure-sharepoint-online-sites-and-files.md)
 ### [3단계 보호를 위한 SharePoint Online 사이트 배포](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)
-### [Office 365 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
+### [보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 ### [Azure Information Protection을 사용한 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-azure-information-protection.md)
 ## [격리된 SharePoint Online 팀 사이트](isolated-sharepoint-online-team-sites.md)
 ### [격리된 SharePoint Online 팀 사이트 디자인](design-an-isolated-sharepoint-online-team-site.md)
