@@ -3,7 +3,7 @@ title: 보안 &amp; 및 준수 센터에서 위협 탐색기 사용
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/28/2019
+ms.date: 03/31/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (위협 탐색기 라고도 함)에 대해 알아봅니다.
-ms.openlocfilehash: e6177970edc67c8b9e1c0ae6144f4c37f116012f
-ms.sourcegitcommit: 787a0fef671e5dc6f5e805b580321b2edbfad8e9
+ms.openlocfilehash: c782e5962164b7d35947befe526c20f7dc0943d5
+ms.sourcegitcommit: 691370682825a7601bd4b77d0a8c4b51ed15682f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30989613"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "31014017"
 ---
 # <a name="use-threat-explorer-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 위협 탐색기 사용
 
@@ -47,18 +47,22 @@ Explorer는 보안 운영 팀에서 보안 &amp; 및 준수 센터의 위협에 
 
 ## <a name="view-data-about-phishing-urls-and-click-verdict"></a>피싱 url에 대 한 데이터를 확인 하 고 결과를 클릭 합니다.
 
-허용, 차단 및 재정의 된 url 목록을 비롯 하 여 전자 메일의 url을 통한 피싱 시도를 확인 하려는 경우를 가정해 보겠습니다. 이 작업을 수행 하려면 [전자 메일 > 피싱](threat-explorer-views.md#email--phish) Explorer 보기를 사용 합니다.
+허용, 차단 및 재정의 된 url 목록을 비롯 하 여 전자 메일의 url을 통한 피싱 시도를 확인 하려는 경우를 가정해 보겠습니다.  클릭 한 url을 식별 하려면 [ATP Safe 링크가](atp-safe-links.md)필요 합니다. (atp 안전한 링크를 클릭 하 여 verdicts에 대 한 클릭 시 보호 및 로깅을 위해 사용자에 게 [atp 안전한 링크 정책을](set-up-atp-safe-links-policies.md) 설정 하 고 적용 했는지 확인 합니다.) 메시지에서 피싱 url을 검토 하 고 피싱 메시지의 url을 클릭 하려면 Explorer의 [전자 메일 > 피싱](threat-explorer-views.md#email--phish) 보기를 사용 합니다.
 
 1. [https://protection.office.com](https://protection.office.com)Security & 준수 센터 ()에서 **Threat management** > **Explorer**를 선택 합니다.
 2. **보기** 메뉴에서 **전자 메일** > **피싱**을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewEmailPhishMenu.png)<br/>
 3. **보낸 사람**을 클릭 한 다음 **url** > 을 선택 합니다**결과를 클릭**합니다.
 4. **차단** 됨 및 **무시 된 블록과**같은 옵션을 하나 이상 선택 하 고 **새로 고침** 단추를 클릭 하 여 해당 필터를 적용 합니다.<br/>![url을 선택 하 고 verdicts을 클릭 합니다.](media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
 
-보고서가 새로 고쳐지고 전자 메일 배달 상태와 함께 차단 (또는 경고가 발생 하더라도 방문) 된 전자 메일에 검색 된 피싱 url이 표시 됩니다. 여기서는 추가 분석을 수행할 수 있습니다. 예를 들어 차트 아래에서 조직의 전자 메일에서 차단 된 최상위 url을 볼 수 있습니다. 
+보고서가 새로 고쳐지고 아래 url 탭에 서로 다른 두 개의 URL 테이블이 표시 됩니다.
+1. **상위 url** 은 필터링 된 메시지에 포함 된 url 및 각 URL에 대 한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 일반적으로이 목록에는 합법적인 url이 포함 됩니다. 공격자는 메시지에 효과적이 고 잘못 된 url을 함께 사용 하 여 배달 하려고 할 수 있지만, 사용자가 클릭 하는 데 더 흥미로운 악성 링크를 만들 수 있습니다. url의 테이블은 총 전자 메일 수를 기준으로 정렬 됩니다 (참고:이 열은 보기를 단순하게 하기 위해 표시 되지 않음).
+2. **위쪽** 클릭은 클릭 한 안전한 링크 래핑된 url이 총 클릭 횟수에 따라 정렬 되며 보기를 단순화 하기 위해이 열도 표시 되지 않습니다. 총 개수 열에서 안전한 링크를 나타냅니다. 클릭 한 각 URL에 대해 결과 count를 클릭 합니다. 피싱 전자 메일 보기에서는 이러한 연결이 의심 스 럽 거 나 악성 링크 이지만 피싱 메시지에 있는 깨끗 한 url을 포함할 수 있습니다. 래핑 해제 한 링크의 URL 클릭은 여기에 표시 되지 않습니다.
+
+두 개의 url 테이블에는 배달 상태별 피싱 전자 메일의 상위 url이 표시 되 고, 사용자가 잘못 된 링크를 받아 사용자가 상호 작용 한 잠재적 링크가 무엇 인지 이해할 수 있도록 차단 된 (또는 경고에 따라 방문) url 클릭이 표시 됩니다. 여기서는 추가 분석을 수행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단 된 전자 메일의 상위 url을 볼 수 있습니다. 
 
 ![차단 된 탐색기 url](media/ExplorerPhishClickVerdictURLs.png) 
 
-자세한 정보를 보려면 URL을 선택 합니다.
+자세한 정보를 보려면 URL을 선택 합니다. url 플라이 아웃 대화 상자에서 사용자 환경에 표시 되는 url의 전체 보기를 보여 주기 위해 전자 메일에 대 한 필터링이 제거 됩니다. 이를 통해 탐색기의 전자 메일을 관심 있는 항목으로 필터링 하 고, 잠재적인 위협이 되는 특정 url을 찾은 다음, url 정보 대화 상자를 통해 해당 환경의 url 노출에 대 한 이해를 확장 하 여 url 필터를 탐색기 보기 자체
 
 ## <a name="review-email-messages-reported-by-users"></a>사용자가 보고 한 전자 메일 메시지 검토
 

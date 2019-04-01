@@ -12,13 +12,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Office 365 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: afc5479f08909020d04768c9ca9c20438472b92d
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
+ms.openlocfilehash: de7bbc8ee624fe9468dc64a9811db31d529984bf
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639065"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999091"
 ---
 # <a name="create-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 만들기
 
@@ -42,11 +42,11 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
 
     ![인스턴스 개수 및 일치 정확도 옵션](media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
 
-Office 365 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들려면 다음 옵션이 필요합니다.
+보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들려면 다음 옵션이 필요합니다.
 
 - **UI 사용**: 이 방법은 쉽고 빠르지만 PowerShell보다 구성 옵션이 적습니다. 이 항목의 나머지 부분에서는 이러한 절차에 대해 설명합니다.
 
-- **PowerShell 사용**: 이 방법을 사용하려면 하나 이상의 중요한 정보 유형이 포함된 XML 파일(_규칙 패키지_라고 함)을 만든 다음 PowerShell을 사용하여 규칙 패키지를 가져와야 합니다. 규칙 패키지를 가져오는 것이 규칙 패키지를 만드는 것보다 간단합니다. 이 방법은 UI를 사용하는 것보다 훨씬 복잡하지만 더 많은 구성 옵션이 있습니다. 자세한 지침은 [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 참조하세요.
+- **PowerShell 사용**: 이 방법을 사용하려면 하나 이상의 중요한 정보 유형이 포함된 XML 파일(_규칙 패키지_라고 함)을 만든 다음 PowerShell을 사용하여 규칙 패키지를 가져와야 합니다. 규칙 패키지를 가져오는 것이 규칙 패키지를 만드는 것보다 간단합니다. 이 방법은 UI를 사용하는 것보다 훨씬 복잡하지만 더 많은 구성 옵션이 있습니다. 자세한 지침은 [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 참조하세요.
 
 다음 테이블에 중요한 차이점이 설명되어 있습니다.
 
@@ -60,7 +60,7 @@ Office 365 보안 및 준수 센터에서 사용자 지정 중요한 정보 유�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 보안 및 준수 센터를 열려면 [Office 365 보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)을 참조하세요.
+- 보안 및 준수 센터를 열려면 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)을 참조하세요.
 
 - 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
 

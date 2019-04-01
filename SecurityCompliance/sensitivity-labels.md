@@ -3,7 +3,7 @@ title: 민감도 레이블 개요
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 10/22/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -12,19 +12,19 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Office 365의 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: ceb3373f6de24d52f8e65c322a9e7eca4fe92618
-ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
+description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
+ms.openlocfilehash: f8442bc9fbeb32cb71fb46c4e5a54c9e1f0dce4b
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737688"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999741"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
 작업을 완료하기 위해 조직의 사용자는 조직 내부 및 외부의 다른 사용자와 공동으로 작업해야 합니다. 이것은 콘텐츠가 더 이상 방화벽 뒤에 있지 않으며 장치, 앱 및 서비스를 비롯한 모든 위치에서 로밍됨을 의미합니다. 또한 사용자는 로밍 중에는 조직의 비즈니스 및 준수 정책을 충족하는 제한된 안전한 방식으로 진행되는 것을 원할 것입니다.
 
-Office 365의 민감도 레이블을 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다.
+민감도 레이블을 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다.
 
 ![Excel 리본 및 상태 표시줄의 민감도 레이블](media/Sensitivity_label_in_Excel.png)
 
@@ -44,11 +44,9 @@ Office 365의 민감도 레이블을 사용자의 생산성 및 공동 작업 �
     
 이러한 모든 경우에 Office 365에서 민감도 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 민감도 레이블을 사용하여 조직의 데이터를 분류하고 해당 분류에 따라 보호 설정을 적용할 수 있습니다.
   
-Office 365 보안 및 준수 센터에서 민감도 레이블을 만듭니다. 이제 보안 및 준수 센터는 Azure Information Protection 및 Office 365에서 민감도 레이블 및 정책을 구성하기 위한 단일 위치로 사용됩니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱 및 Office 365 서비스에서 사용될 수 있습니다.
+Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터의 민감도 레이블을 만듭니다. 이러한 민감도 레이블은 Azure 정보 보호, Office 앱 및 Office 365 서비스에서 사용할 수 있습니다.
 
-Azure Information Protection 고객을 위해 보안 및 준수 센터의 Azure Information Protection 레이블을 사용할 수 있습니다. 그러면 추가 또는 고급 구성을 수행하도록 선택할 경우 레이블이 Azure Portal과 동기화됩니다. **Azure Information Protection 레이블 및 Office 365 민감도 레이블은 서로 완전히 호환됩니다.** 즉, 예를 들어 Azure Information Protection로 레이블이 지정된 콘텐츠가 있는 경우 다시 분류하거나 다시 레이블을 지정할 필요가 없습니다.
-
-![보안 및 준수 센터, 레이블 페이지의 민감도 탭](media/Sensitivity_label_tab_on_Labels_page.png)
+Azure Information Protection 고객의 경우 다른 관리 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. **Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다.** 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다. 
 
 ## <a name="what-a-sensitivity-label-is"></a>민감도 레이블이란?
 
@@ -83,13 +81,13 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
     ![필수 레이블 할당 메시지](media/Sensitivity_label_Prompt_for_required_label.png)
 
 
-이 모든 옵션은 보안 및 준수 센터에서 레이블을 만들 때 사용할 수 있습니다.
+이러한 모든 옵션은 민감도 레이블을 만들 때 제공됩니다.
 
 ![민감도 레이블을 만들 때의 옵션](media/Sensitivity_label_create_options.png)
 
 ### <a name="label-priority-order-matters"></a>레이블 우선 순위(순서가 중요함)
 
-보안 및 준수 센터에서 민감도 레이블을 만들 경우 **레이블** 페이지의 **민감도** 탭에 목록으로 표시됩니다. 이 목록에서 레이블의 순서는 우선 순위를 반영하므로 중요합니다. 극비와 같은 가장 제한적인 민감도 레이블을 목록 **맨 아래**에 표시하고, 공용과 같은 가장 덜 제한적인 민감도 레이블을 **맨 위**에 표시할 수 있습니다.
+민감도 레이블을 만들면 **레이블** 페이지의 **민감도** 탭에있는 목록에 나타납니다. 이 목록에서 레이벨의 우선 순위가 반영되기 때문에 레이블의 순서가 중요합니다. 가장 제한적인 민감도 레이블 예에 표시 되도록 기밀로 원하는 **아래쪽** 목록 및 여 덜 제한적인 민감도 레이블에 표시 되도록 공용, 예는 **위쪽**합니다.
 
 문서 또는 전자 메일에는 단일 민감도 레이블만 지정할 수 있습니다. 사용자에게 더 낮은 분류로 변경하려는 근거를 제공하도록 요구할 경우 이 목록의 순서에 따라 더 낮은 분류에 해당하는 항목이 결정됩니다.
 
@@ -107,9 +105,9 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 ### <a name="editing-or-deleting-a-sensitivity-label"></a>민감도 레이블 편집 또는 삭제
 
-보안 및 준수 센터에서 민감도 레이블을 삭제할 경우 콘텐츠에서 레이블이 제거되지 않으며, 보호 설정이 콘텐츠에 계속 적용됩니다.
+민감도 레이블을 삭제할 경우 콘텐츠에서 레이블이 제거되지 않으며, 보호 설정이 콘텐츠에 계속 적용됩니다.
 
-보안 및 준수 센터에서 민감도 레이블을 편집하는 경우 콘텐츠에 적용된 레이블 버전이 해당 콘텐츠에 강제 적용됩니다.
+민감도 레이블을 편집하는 경우 콘텐츠에 적용된 레이블 버전이 해당 콘텐츠에 강제 적용됩니다.
 
 ## <a name="what-label-policies-can-do"></a>레이블 정책이 수행할 수 있는 작업
 
@@ -119,7 +117,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - **레이블을 볼 수 있는 사용자 및 그룹을 선택합니다.** 레이블을 전자 메일 사용이 가능한 보안 그룹, 메일 그룹, Office 365 그룹 또는 동적 메일 그룹에 게시할 수 있습니다.
 
-- 레이블 정책에 포함된 사용자 및 그룹이 새로 만든 모든 문서 및 전자 메일에 **기본 레이블을 적용**합니다. 이 기본 레이블은 모든 콘텐츠에 적용하려는 기본적인 수준의 보호 설정을 지정할 수 있습니다. (다음에 유의합니다.)
+- 레이블 정책에 포함된 사용자 및 그룹이 만든 모든 새 문서 및 전자 메일에 **기본 레이블을 적용합니다**. 이 기본 레이블은 모든 콘텐츠에 적용하려는 기본적인 보호 설정 수준을 설정할 수 있습니다.
 
 - **레이블 변경 근거를 요구합니다.** 콘텐츠가 기밀로 표시되고, 사용자가 해당 레이블을 제거하거나 더 낮은 분류(예: 공용)로 바꾸려고 할 경우 사용자에게 해당 작업을 수행할 때 근거를 제공하도록 요구할 수 있습니다. 관리자는 이러한 근거를 검토할 수 있습니다. 현재, Microsoft는 관리자가 사용자 근거를 볼 수 있는 보고서를 제작하고 있습니다.
 
@@ -196,7 +194,7 @@ Azure Information Protection 사용자는 현재 Azure Information Protection �
 - 문서 및 전자 메일의 기존 Azure Information Protection 레이블을 유지합니다.
 - 기존 Azure Information Protection 레이블 구성을 유지합니다.
 
-Azure Information Protection 레이블을 사용하는 경우, 마이그레이션을 완료한 이후까지 보안 및 준수 센터에서 새 레이블을 만들지 않는 것이 좋습니다. [Azure Information Protection 마이그레이션 항목](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-migrate-labels)에 중요한 정보 및 몇 가지 유의할 사항이 나와 있습니다. 아직 프로덕션 테넌트를 민감도 레이블로 마이그레이션할 준비가 되지 않았더라도 걱정할 필요가 없습니다. 당분간 사용자는 Azure Information Protection 클라이언트를 계속 사용할 수 있으며 관리자는 Azure Portal에서 계속 관리 작업을 수행할 수 있습니다.
+Azure Information Protection 레이블을 사용하는 경우 마이그레이션을 완료할 때까지 다른 관리자 센터에서 새 레이블을 만들지 않는 것이 좋습니다. [Azure Information Protection 마이그레이션 항목](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-migrate-labels)에는 중요한 정보와 몇 가지 특정한 주의 사항이 있습니다. 프로덕션 테넌트를 민감도 레이블로 마이그레이션 할 준비가되지 않았다면 걱정할 필요는 없습니다. 사용자는 Azure Information Protection 클라이언트를 계속 사용할 수 있으며 관리자는 Azure 포털을 계속 사용하여 관리 할 수 있습니다.
 
 ## <a name="protect-content-on-windows-devices-by-using-endpoint-protection-in-microsoft-intune"></a>Microsoft Intune의 엔드포인트 보호 기능을 사용하여 Windows 장치에서 콘텐츠 보호
 
@@ -251,6 +249,6 @@ Microsoft Information Protection SDK에 대한 자세한 내용은 [기술 커�
 
 민감도 레이블을 만드는 규정 준수 팀의 구성원에게는 보안 및 준수 센터에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 준수 관리자 및 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, 보안 및 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이렇게 하기 위해 보안 및 준수 센터의 **권한** 페이지로 이동한 후 **준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가하는 것이 좋습니다.
 
-자세한 내용은 사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여를 참조하세요.
+자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
 
 이러한 정책은 레이블 및 레이블 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.

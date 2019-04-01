@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
+title: 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -12,15 +12,15 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: Office 365 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만드는 방법을 알아보세요.
-ms.openlocfilehash: bf917ac40f98ec19332aac90f2d954d44b9a834d
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
+ms.openlocfilehash: 7a21b62ddaf4d24793d4479d0d6270a18cc50532
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639125"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999841"
 ---
-# <a name="create-a-custom-sensitive-information-type-in-office-365-security--compliance-center-powershell"></a>Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
+# <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 
 Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용할 수 있는 많은 기본 제공 [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)이 포함되어 있습니다. 이러한 기본 제공 유형은 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 될 수 있습니다. 
   
@@ -329,7 +329,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
   
 1. 유니코드 인코딩을 사용하여 .xml 파일로 저장합니다.
     
-2. [Office 365 보안 및 준수 센터 PowerShell에 연결](http://go.microsoft.com/fwlink/p/?LinkID=799771)
+2. [보안 및 준수 센터 PowerShell에 연결하기](http://go.microsoft.com/fwlink/p/?LinkID=799771)
     
 3. 다음 구문을 사용합니다.
 
@@ -419,7 +419,7 @@ Office 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청할 
 
 - **사용자 지정 규칙 패키지 및 여기에 포함된 모든 사용자 지정 중요한 정보 유형 제거**: 이 방법은 이 섹션에 설명되어 있습니다.
 
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](http://go.microsoft.com/fwlink/p/?LinkID=799771)
+1. [보안 및 준수 센터 PowerShell에 연결하기](http://go.microsoft.com/fwlink/p/?LinkID=799771)
 
 2. 사용자 지정 규칙 패키지를 제거하려면 다음 구문을 사용합니다.
 
@@ -469,7 +469,7 @@ Office 365에서 전체 테넌트의 다시 크롤링을 수동으로 요청할 
 
 3. 기존 규칙 패키지에 업데이트된 XML 파일을 다시 가져옵니다.
 
-보안 및 준수 센터 PowerShell에 연결하려면 [Office 365 보안 및 준수 센터 PowerShell에 연결](http://go.microsoft.com/fwlink/p/?LinkID=799771)을 참조하세요.
+보안 및 준수 센터 PowerShell에 연결하려면 [보안 및 준수 센터 PowerShell에 연결](http://go.microsoft.com/fwlink/p/?LinkID=799771)을 참조하세요.
 
 #### <a name="step-1-export-the-existing-rule-package-to-an-xml-file"></a>1단계: XML 파일로 기존 규칙 패키지 내보내기
 
