@@ -387,6 +387,47 @@
 #### [Advanced eDiscovery 유틸리티 사용](use-advanced-ediscovery-utilities.md)
 #### [보고서 실행](run-reports-in-advanced-ediscovery.md)
 
+# [데이터 조사 관리](datainvestigations/overview-data-investigations.md)
+## [릴리스 정보](datainvestigations/data-investigations-release-notes.md)
+## [데이터 유출 사고 관리](datainvestigations/manage-data-spillage-incidents.md)
+## [새 조사 만들기](datainvestigations/create-new-investigation.md)
+ 
+## [조사에서 데이터 검색](datainvestigations/search-for-data.md)
+### [검색 쿼리 작성](datainvestigations/build-search-queries.md)
+### [검색 통계](datainvestigations/search-statistics.md)
+
+## [증거 데이터 검토](datainvestigations/review-data-in-evidence.md)
+### [데이터 쿼리](datainvestigations/evidence-query.md)
+### [문서 태그](datainvestigations/tag-documents.md)
+### [문서 주석 달기 및 수정](datainvestigations/annotate-and-redact-documents.md)
+### [비 Office 365 데이터 로드](datainvestigations/load-non-office365-data.md)
+### [데이터를 처리할 때 오류 수정](datainvestigations/error-remediation.md)
+
+## [신속한 조사를 위한 분석 실행](datainvestigations/run-analytics-to-investigate-faster.md)
+### [이메일 스레드](datainvestigations/email-threading.md)
+### [중복에 가까운 검색](datainvestigations/near-duplicates.md)
+### [테마](datainvestigations/themes.md)
+### [관련성 모듈 사용](datainvestigations/use-relevance-module.md)
+
+## [조사에서 이해 관계가 있는 사용자 관리](datainvestigations/manage-people-of-interest.md)
+### [조사에서 사용자의 데이터 인덱싱하기](datainvestigations/index-data-people-of-interest.md)
+### [조사에서 사용자의 감사 활동 보기](datainvestigations/view-people-of-interest-activity.md)
+
+## [조사에서 데이터 내보내기](datainvestigations/export-data.md)
+### [증거에서 문서 내보내기](datainvestigations/export-documents-from-incident.md)
+### [내보내기 작업 다운로드](datainvestigations/download-export-jobs.md)
+
+## [데이터 조사를 위한 설정 구성](datainvestigations/configure-settings-datainvestigations.md)
+### [조사에서 구성원 추가 또는 제거](datainvestigations/add-remove-members.md)
+### [검색 및 분석 설정 구성](datainvestigations/configure-search-analytics-settings.md)
+### [조사 닫기 또는 조사 삭제](datainvestigations/close-or-delete-investigation.md)
+
+## 데이터 조사 참조
+### [데이터 조사의 제한 사항](datainvestigations/limits-datainvestigations.md)
+### [지원되는 파일 형식](datainvestigations/supported-filetypes-datainvestigations.md)
+### [문서 메타데이터 필드](datainvestigations/document-metadata-fields.md)
+### [작업 관리](datainvestigations/manage-jobs.md)
+
 # [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 ## [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)
 ## [사서함 감사 관리](enable-mailbox-auditing.md)
