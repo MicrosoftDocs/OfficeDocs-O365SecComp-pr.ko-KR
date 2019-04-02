@@ -16,16 +16,15 @@ search.appverid:
 - MET150
 ms.assetid: 9295e396-e53d-49b9-ae9b-0b5828cdedc3
 ms.collection:
-- Strat_O365_IP
 - M365-security-compliance
 - Strat_O365_IP
 description: 권장 되는 모범 사례를 수행 하 여 데이터 위반 이나 손상 된 계정을 최소화 합니다.
-ms.openlocfilehash: 97dffe6e0cf4551c9addc1ba53c4f95c7d88b3f3
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.openlocfilehash: bd4b911cd5972b7d6dc9b55c17e375d326b1d571
+ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357529"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026339"
 ---
 # <a name="security-best-practices-for-office-365"></a>Office 365에 대한 보안 모범 사례
 
@@ -47,7 +46,7 @@ office 365- [office 365 관리자 역할 역할에](https://support.office.com/a
 
 MFA는 사용자가 자신의 암호를 올바르게 입력 한 후 전화 통화, 문자 메시지 또는 스마트 전화에서 앱 알림을 승인 하도록 요구 하 여 강력한 암호 전략에 추가 보호 계층을 추가 합니다. 현재 위치에서 MFA를 사용 하는 경우 Office 365 사용자 계정은 사용자의 암호가 노출 되더라도 무단으로 액세스 하지 못하도록 보호 됩니다. 추가 챌린지를 만족할 때까지 계정에 대 한 액세스가 허용 되지 않으므로 계정이 보호 됩니다. 손상 되었거나 도난당 한 암호가 충분 하지 않습니다.
   
-- [Office 365 배포의 다단계 인증 계획](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
+- [Office 365 배포에 대 한 다단계 인증 계획](https://support.office.com/article/043807b2-21db-4d5c-b430-c8a6dee0e6ba)
 
 - [Office 365에 대한 다단계 인증 설정](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하려면
 
@@ -57,7 +56,7 @@ MFA는 사용자가 자신의 암호를 올바르게 입력 한 후 전화 통�
   
 - [O365 Cloud App Security 개요](office-365-cas-overview.md)
 
-- [Office 365 Cloud App Security 켜기](turn-on-office-365-cas.md)
+- [Office 365 Cloud App Security 사용](turn-on-office-365-cas.md)
 
 ## <a name="secure-mail-flow"></a>보안 메일 흐름
 
@@ -89,11 +88,11 @@ Exchange Online Protection에서 다양 한 기능 집합을 구현 하 고 각 
   
 ## <a name="configure-data-loss-prevention-dlp"></a>DLP (데이터 손실 방지) 구성
 
-DLP를 사용 하면 중요 한 데이터를 식별 하 고 사용자가 실수로 또는 의도적으로 데이터를 공유 하지 못하게 하는 정책을 만들 수 있습니다. DLP는 Exchange online, SharePoint Online 및 OneDrive를 포함 하는 Office 365에서 작동 하 여 사용자가 워크플로를 중단 하지 않고 준수 상태를 유지할 수 있도록 합니다. 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)를 참조 하세요.
+DLP를 사용 하면 중요 한 데이터를 식별 하 고 사용자가 실수로 또는 의도적으로 데이터를 공유 하지 못하게 하는 정책을 만들 수 있습니다. DLP는 Exchange online, SharePoint Online 및 OneDrive를 포함 하는 Office 365에서 작동 하 여 사용자가 워크플로를 중단 하지 않고 준수 상태를 유지할 수 있도록 합니다. 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)를 참조하세요.
   
 ## <a name="use-customer-lockbox"></a>고객 Lockbox 사용
 
-Office 365 관리자는 고객 Lockbox를 사용 하 여 Microsoft 기술 지원 엔지니어가 도움말 세션 중에 데이터에 액세스 하는 방법을 제어할 수 있습니다. 엔지니어가 문제를 해결 하기 위해 데이터에 액세스 해야 하는 경우에는 고객 Lockbox를 사용 하 여 액세스 요청을 승인 하거나 거부할 수 있습니다. 이를 승인 하면 엔지니어가 데이터에 액세스할 수 있습니다. 각 요청에는 만료 시간이 있으며 문제가 해결 되 면 요청이 닫히고 액세스가 해지 됩니다. 고객 Lockbox가 office 365 enterprise E5 계획에 포함 되어 있거나 다른 Office 365 Enterprise 요금제를 사용 하 여 별도의 구독을 구입할 수도 있습니다. 자세한 내용은 [Office 365 고객 Lockbox 요청](https://support.office.com/article/36f9cdd1-e64c-421b-a7e4-4a54d16440a2)을 참조 하세요.
+Office 365 관리자는 Customer Lockbox를 사용하여 Microsoft 기술 지원 엔지니어가 도움말 세션 동안 사용자의 데이터에 액세스하는 방법을 제어할 수 있습니다. 엔지니어가 문제를 해결하기 위해 사용자 데이터에 대한 액세스 권한을 요구하는 경우 Customer Lockbox를 사용하여 액세스 요청을 승인하거나 거부할 수 있습니다. 이를 승인 하면 엔지니어가 데이터에 액세스할 수 있습니다. 각 요청에는 만료 시간이 있으며 문제가 해결되면 요청이 닫히고 액세스 권한이 취소됩니다. 고객 Lockbox가 office 365 enterprise E5 계획에 포함 되어 있거나 다른 Office 365 Enterprise 요금제를 사용 하 여 별도의 구독을 구입할 수도 있습니다. 자세한 내용은 [Office 365 고객 Lockbox 요청](https://support.office.com/article/36f9cdd1-e64c-421b-a7e4-4a54d16440a2)을 참조 하세요.
   
 ## <a name="try-it-yourself"></a>직접 사용해 보기
 <a name="SecureScore"> </a>
