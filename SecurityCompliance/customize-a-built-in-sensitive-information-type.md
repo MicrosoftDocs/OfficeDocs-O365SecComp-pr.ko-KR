@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠에서 중요한 정보를 찾을 때는 소유 말하는 규칙에서 해당 정보를 설명해야 합니다. DLP(데이터 손실 방지)에는 바로 사용할 수 있는 가장 일반적인 중요한 정보 유형에 대한 규칙이 포함되어 있습니다. 이러한 규칙을 사용하려면 정책에 포함해야 합니다. 조직의 특정 요구 사항에 맞게 이러한 기본 제공 규칙을 조정하려고 할 경우 사용자 지정 중요한 정보 유형을 만들면 됩니다. 이 항목에서는 광범위한 잠재적 신용 카드 정보를 검색하도록 기존 규칙 컬렉션을 포함하는 XML 파일을 사용자 지정하는 방법을 보여 줍니다.
-ms.openlocfilehash: c0a3fcb86acf1eaa5df72e385b21e8dba9b0d668
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.openlocfilehash: 0acf10e52707c164c93fe442de287b08b3cf6804
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639075"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999611"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -74,7 +74,7 @@ XML에서 신용 카드 번호 규칙 정의를 찾았으므로 요구에 맞게
   
 ## <a name="modify-the-xml-and-create-a-new-sensitive-information-type"></a>XML 수정 및 중요한 정보 유형 새로 만들기
 
-먼저, 기본 규칙을 직접 수정할 수 없으므로 중요한 정보 유형을 새로 만들어야 합니다. [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)에 요약된 사용자 지정 중요한 정보 유형으로 다양한 작업을 수행할 수 있습니다. 이 예제에서는 신용 카드 번호 규칙에서 증빙을 제거하고 키워드를 추가하는 등, 간단한 작업만 수행합니다.
+먼저, 기본 규칙을 직접 수정할 수 없으므로 중요한 정보 유형을 새로 만들어야 합니다. [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)에 요약된 사용자 지정 중요한 정보 유형으로 다양한 작업을 수행할 수 있습니다. 이 예제에서는 신용 카드 번호 규칙에서 증빙을 제거하고 키워드를 추가하는 등, 간단한 작업만 수행합니다.
   
 모든 XML 규칙 정의는 다음과 같은 일반 템플릿을 토대로 작성됩니다. 신용 카드 번호 정의 XML을 복사한 후 템플릿에 붙여넣고, 일부 값을 수정한 후(다음 예제의 ". . ." 자리 표시자 확인) 수정한 XML을 정책에서 사용할 수 있는 새 규칙으로 업로드해야 합니다.
   

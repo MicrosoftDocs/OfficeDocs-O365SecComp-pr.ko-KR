@@ -18,12 +18,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: 3e41a46d244f88110b87426fe975b3f72e376984
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: cc31d6633b41fe8bcec57794247718c44c0fc555
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955231"
+ms.locfileid: "30999381"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -125,7 +125,7 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 |DLP 정책  <br/> |||레이블이 중요 계층으로 지정된 파일을 조직 외부로 보낼 때 사용자에게 경고합니다.  <br/> 신용 카드 번호 또는 기타 개인 데이터와 같은 중요 데이터 형식의 외부 공유를 차단하기 위해 이러한 데이터 형식(구성한 사용자 지정 데이터 형식 포함)에 대한 추가 DLP 정책을 구성할 수 있습니다.  <br/> |사용자가 극비 계층으로 레이블이 지정된 파일을 외부 조직으로 보내지 못하도록 차단합니다. 사용자(파일을 공유하는 사용자 포함)는 근거를 제공하여 이 설정을 재정의할 수 있습니다.  <br/> |
 |민감도 레이블  <br/> ||||민감도 레이블을 사용하여 파일에 대한 권한을 자동으로 암호화하고 부여합니다. 민감도 레이블을 사용하여 파일을 암호화 파일이 누출되는 경우 이러한 보호는 해당 파일과 함께 이동합니다.  <br/> Office 365는 Azure Information Protection으로 암호화된 파일을 읽을 수 없습니다. 또한 DLP 정책은 메타데이터(레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.  <br/> |
    
-이 솔루션에 나오는 4가지 다른 SharePoint Online 팀 사이트 유형을 배포하는 단계를 보려면 [3계층의 보호를 위해 SharePoint Online 사이트 배포](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)를 참조하세요. 개발/테스트 환경을 만드는 단계를 보려면 [개발/테스트 환경의 보안 SharePoint Online 사이트](secure-sharepoint-online-sites-in-a-dev-test-environment.md)를 참조하세요. 
+네 가지 유형의 SharePoint Online 팀 사이트를 이 솔루션에 배포하는 단계는 [3계층 보호를 위한 SharePoint Online 사이트 배포](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)를 참조하세요. 
   
 ## <a name="office-365-retention-labels"></a>Office 365 보존 레이블
 
@@ -186,7 +186,3 @@ Azure Information Protection으로 보호된 파일에 대한 액세스 권한�
   
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
   
-[개발/테스트 환경의 보안 SharePoint Online 사이트](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
-
-
-

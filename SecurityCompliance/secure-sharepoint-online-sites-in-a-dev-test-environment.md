@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: '요약: 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: eb3b2012a36743e8c34453399b02b91f3595ec6c
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 902582e198cb24ed4cce9b8b1e73dfbf3ae9dd52
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223637"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "30999981"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>개발/테스트 환경의 SharePoint Online 사이트 보호
 
@@ -40,7 +40,7 @@ ms.locfileid: "30223637"
   
 다음으로, EMS 평가판 구독을 등록하고 Office 365 평가판 구독과 동일한 조직에 추가합니다.
   
-1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. **관리** 타일을 클릭합니다.
     
@@ -55,7 +55,7 @@ ms.locfileid: "30223637"
     
 그런 다음 전역 관리자 계정에 대해 Enterprise Mobility + Security E5 라이선스를 사용하도록 설정합니다.
   
-1. 브라우저의 **Office 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자**를 차례로 클릭합니다.
+1. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자**를 차례로 클릭합니다.
     
 2. 전역 관리자 계정을 클릭한 다음, **제품 라이선스**에 대해 **편집**을 클릭합니다.
     
@@ -196,7 +196,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 이 단계에서는 SharePoint Online 팀 사이트에 있는 문서 폴더의 다양한 보안 수준에 대한 레이블을 만듭니다.
   
-1. 필요한 경우 인터넷 브라우저의 개인 인스턴스를 사용하고, Office 365 E5 평가판 구독의 전역 관리자 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 인터넷 브라우저의 개인 인스턴스를 사용하고, Office 365 E5 평가판 구독의 전역 관리자 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
@@ -244,7 +244,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 초기 공용 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -278,7 +278,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 조직 내에서 프로젝트에 대한 초기 개인 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -312,7 +312,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 마케팅 캠페인 리소스에 대해 격리된 중요 수준 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -428,7 +428,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 조직의 최고 경영자(CEO)의 전략적 회사 리소스에 대해 격리된 극비 수준의 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -493,7 +493,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
     
 그런 다음 회사 전략 사이트가 포함된 극비 레이블을 사용하여 SharePoint Online 팀 사이트에서 조직 외부와 문서를 공유할 때 사용자를 차단하는 DLP 정책을 구성합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 브라우저의 **Microsoft Office 홈** 탭에서 **보안 &amp; 준수** 타일을 클릭합니다.
     
@@ -535,11 +535,11 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
     
 20. **설정 검토 창**에서 **만들기**, **닫기**를 차례로 클릭합니다.
     
-그런 다음 [Office 365 관리 센터에서 Azure RMS 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 따릅니다.
+그런 다음 [Microsoft 365 관리 센터에서 Azure RMS 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 따릅니다.
   
 다음으로, 아래 단계에 따라 보호 및 권한을 위해 C-Suite 그룹 범위에 대한 새 정책 및 하위 레이블을 사용하여 Azure Information Protection을 구성합니다.
   
-1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 브라우저의 별도 탭에서 Azure Portal([https://portal.azure.com](https://portal.azure.com))로 이동합니다.
     
@@ -581,7 +581,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 21. **저장**을 클릭한 다음 **확인**을 클릭합니다.
     
-Azure Information Protection 및 이 새 레이블을 사용하여 문서를 보호하려면 테스트 컴퓨터에 [Azure Information Protection 클라이언트를 설치](https://docs.microsoft.com/information-protection/rms-client/install-client-app)하고, Office 365 포털에서 Office를 설치한 다음, Microsoft Word에서 평가판 구독의 **C-Suite** 그룹에 속한 계정으로 로그인합니다.
+Azure Information Protection 및 이 새 레이블을 사용하여 문서를 보호하려면 테스트 컴퓨터에 [Azure Information Protection 클라이언트를 설치](https://docs.microsoft.com/information-protection/rms-client/install-client-app)하고, 관리 센터에서 Office를 설치한 다음, Microsoft Word에서 평가판 구독의 **C-Suite** 그룹에 속한 계정으로 로그인합니다.
   
 구성 결과는 다음과 같습니다.
   

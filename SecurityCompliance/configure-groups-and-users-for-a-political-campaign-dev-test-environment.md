@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
-ms.openlocfilehash: 098ae2c3005e0c6ba7939c52260b1a2c49dc557e
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.openlocfilehash: 0b2bf64a408eeee457dfc6c2ac8565e91c927f72
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223707"
+ms.lasthandoff: 03/29/2019
+ms.locfileid: "31000141"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "30223707"
   
 다음으로, EMS E5 평가판 구독을 등록하고 Office 365 평가판 구독과 동일한 조직에 추가합니다.
   
-1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. **관리** 타일을 클릭합니다.
     
@@ -51,7 +51,7 @@ ms.locfileid: "30223707"
     
 그런 다음 전역 관리자 계정에 대해 EMS E5 라이선스를 사용하도록 설정합니다.
   
-1. 브라우저의 **Office 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자**를 차례로 클릭합니다.
+1. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자**를 차례로 클릭합니다.
     
 2. 전역 관리자 계정을 클릭한 다음, **제품 라이선스**에 대해 **편집**을 클릭합니다.
     

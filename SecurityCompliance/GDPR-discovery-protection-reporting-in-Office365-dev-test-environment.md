@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: Office 365의 GDPR 기능을 설명합니다.
-ms.openlocfilehash: d4d4113f6d78069a150e13c32ab192571671d986
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: aea1fec29da352285a59ac9286fc053ca10ec746
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955281"
+ms.locfileid: "31001261"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>GDPR 검색, 보호 및 Office 365 개발/테스트 환경에서 보고
 
@@ -98,7 +98,7 @@ ms.locfileid: "30955281"
 
 Contoso는 내부 서신, 외부 서신, 문서 및 기타 양식에서 항상 CCN을 사용하여 고객을 참조합니다. Office 365 콘텐츠에서는 사용자 지정 중요한 항목 유형을 만들어 CCN의 사용을 감지할 수 있으므로 이러한 형식의 개인 식별 가능한 정보를 사용할 때 보호 기능을 적용할 수 있습니다.
 
-1. [다단계 인증을 사용한 Office 365 보안 및 준수 센터 PowerShell 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps)의 지침을 사용하여 전역 관리자 계정의 UPN을 사용하여 보안 및 준수 센터에 연결합니다.
+1. [다단계 인증을 사용한 보안 및 준수 센터 PowerShell 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps)의 지침을 사용하여 전역 관리자 계정의 UPN을 사용하여 보안 및 준수 센터에 연결합니다.
 2. 다음 PowerShell 명령을 실행합니다.
 
      ```

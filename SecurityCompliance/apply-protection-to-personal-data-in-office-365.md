@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 DLP 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: af4af4fd8a80b1f1ad34919ed1380f4fed7d9461
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: 97a8c584cd010ae10a0416e47d8184c84f1e1ab9
+ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955251"
+ms.locfileid: "31001001"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 보호 적용
 
