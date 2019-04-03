@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 Configure mail flow using connectors in Office 365을 참조하세요.
-ms.openlocfilehash: 7c5b80ffa103f3ec9b554f69e4bc8ceeccaa6c22
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 496a249f1dc269151dad4b93d2b5cf30fa6ec91b
+ms.sourcegitcommit: 8213c353954b92f5c3979bee4aa049da0fd28a18
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692707"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043239"
 ---
 # <a name="set-up-your-eop-service"></a>EOP 서비스 설정
 
@@ -77,7 +77,7 @@ EOP 및 온-프레미스 메일 서버 간의 메일 흐름을 가능하게 하�
   
 ### <a name="step-6-use-the-microsoft-365-admin-center-to-point-your-mx-record-to-eop"></a>6 단계: Microsoft 365 관리 센터를 사용 하 여 MX 레코드가 EOP를 가리키도록 지정
 
-Office 365 도메인 구성 단계에 따라 도메인의 MX 레코드를 업데이트하여 인바운드 전자 메일이 EOP를 통해 이동하도록 할 수 있습니다. 타사 필터링 서비스가 전자 메일을 EOP로 릴레이할 때와 달리 MX 레코드가 EOP를 직접 가리키도록 해야 합니다. 자세한 내용은 [Office 365용 DNS 레코드 만들기](https://go.microsoft.com/fwlink/p/?LinkId=304219)를 참조하세요.
+Office 365 도메인 구성 단계에 따라 도메인의 MX 레코드를 업데이트하여 인바운드 전자 메일이 EOP를 통해 이동하도록 할 수 있습니다. 타사 필터링 서비스가 전자 메일을 EOP로 릴레이할 때와 달리 MX 레코드가 EOP를 직접 가리키도록 해야 합니다. 자세한 내용은 [Office 365용 DNS 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조하세요.
   
 #### <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 
