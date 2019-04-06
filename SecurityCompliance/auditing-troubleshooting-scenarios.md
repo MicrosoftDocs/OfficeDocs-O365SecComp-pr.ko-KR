@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나 사서함에 대 한 전자 메일 전달을 설정한 사람을 찾는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 506a7c05c8fb88be00e52421341148699d2a74b0
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: bd0483f2b2e209dc0cbd2b03eda928fd8d44d7b0
+ms.sourcegitcommit: e24f70699021c4f4ba56508ad0afb6f65010c357
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999631"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "31479664"
 ---
 # <a name="search-the-office-365-audit-log-to-troubleshoot-common-scenarios"></a>일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
 
@@ -36,17 +36,13 @@ ms.locfileid: "30999631"
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>감사 로그 검색 도구를 사용 하는 데 필요한 사용 권한
 
-Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조 하세요.
+Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. Office 365 및 Microsoft 365의 전역 관리자는 Exchange Online에서 조직 관리 역할 그룹의 구성원으로 자동 추가 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조 하세요.
 
 ### <a name="running-audit-log-searches"></a>감사 로그 검색 실행
 
 이 섹션에서는 감사 로그 검색을 만들고 실행 하는 기본 사항에 대해 설명 합니다. 이러한 지침을이 문서의 각 문제 해결 시나리오를 위한 시작 점으로 사용 합니다. 단계별 지침에 대 한 자세한 내용은 [Search the audit log](search-the-audit-log-in-security-and-compliance.md#step-1-run-an-audit-log-search)을 참조 하십시오.
 
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
-  
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
-
-3. 보안 및 준수 센터의 왼쪽 창에서 **검색** > **감사 로그 검색**을 클릭 합니다.
+1. [https://protection.office.com/unifiedauditlog](https://protection.office.com/unifiedauditlog) 으로 이동 하 여 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
     
     **감사 로그 검색** 페이지가 표시 됩니다. 
     
@@ -115,9 +111,9 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
 위한. **ObjectId** 필드에는 전자 메일 전달이 설정 된 사서함의 별칭이 표시 됩니다. 이 사서함은 검색 결과 페이지의 **항목** 열에도 표시 됩니다.
 
-b. **매개 변수** 필드에서 *ForwardingSmtpAddress* 값은 사서함에 대 한 전자 메일 전달이 설정 되었음을 나타냅니다. 이 예에서는 메일이 alpinehouse.onmicrosoft.com 조직 외부에 있는 전자 메일 주소 mike@contoso.com 전달 됩니다.
+b. **매개 변수** 필드에서 *ForwardingSmtpAddress* 값은 사서함에 대 한 전자 메일 전달이 설정 되었음을 나타냅니다. 이 예에서는 메일이 alpinehouse.onmicrosoft.com 조직 외부에 있는 전자 메일 주소로 mike@contoso.com전달 됩니다.
 
-&. *DeliverToMailboxAndForward* 매개 변수의 값이 *True 이면* sarad@alpinehouse.onmicrosoft.com에 배달 된 메시지의 복사본이 ** *ForwardingSmtpAddress에서 지정한 전자 메일 주소로 전달 됨을 나타냅니다. *이 예제에서는 mike@contoso.com에 해당 하는 매개 변수를 사용할 수 있습니다. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
+&. *DeliverToMailboxAndForward* 매개 변수의 *True* 값은 *ForwardingSmtpAddress* 매개 변수로 지정 된 전자 메일 주소로 배달 sarad@alpinehouse.onmicrosoft.com 되 *고* 전달 되는 메시지의 복사본을 나타내며,이 예입니다 mike@contoso.com. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
 
 &. **UserId** 필드에는 **ObjectId** field 필드에 지정 된 사서함에 대해 전자 메일 전달을 설정한 사용자가 표시 됩니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다. 이 경우 사서함 소유자가 사서함에서 전자 메일을 전달 하는 것으로 보입니다.
 
@@ -191,8 +187,8 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 위한. **ObjectId** 필드에 받은 편지함 규칙의 전체 이름이 표시 됩니다. 이 이름에는 사용자 사서함의 별칭 (예: SaraD)과 받은 편지함 규칙 이름 (예: "관리자 로부터 메시지 이동")이 포함 됩니다.
 
-b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 admin@alpinehouse.onmicrosoft.com에서 보내는 전자 메일을 작동 함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
+b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 보내는 전자 메일에 대해 작동 admin@alpinehouse.onmicrosoft.com함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
-&. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 admin@alpinehouse.onmicrosoft.com에서 받은 메시지가 *adminsearch*라는 폴더로 이동 됩니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
+&. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 받은 admin@alpinehouse.onmicrosoft.com 메시지를 *adminsearch*라는 폴더로 이동 합니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
 &. **UserId** 필드는 **ObjectId** 필드에 지정 된 받은 편지함 규칙을 만든 사용자를 나타냅니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다.
