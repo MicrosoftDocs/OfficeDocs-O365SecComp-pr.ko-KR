@@ -3,7 +3,7 @@ title: 기본 제공 중요한 정보 유형 사용자 지정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/25/2018
+ms.date: 04/03/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠에서 중요한 정보를 찾을 때는 소유 말하는 규칙에서 해당 정보를 설명해야 합니다. DLP(데이터 손실 방지)에는 바로 사용할 수 있는 가장 일반적인 중요한 정보 유형에 대한 규칙이 포함되어 있습니다. 이러한 규칙을 사용하려면 정책에 포함해야 합니다. 조직의 특정 요구 사항에 맞게 이러한 기본 제공 규칙을 조정하려고 할 경우 사용자 지정 중요한 정보 유형을 만들면 됩니다. 이 항목에서는 광범위한 잠재적 신용 카드 정보를 검색하도록 기존 규칙 컬렉션을 포함하는 XML 파일을 사용자 지정하는 방법을 보여 줍니다.
-ms.openlocfilehash: 0acf10e52707c164c93fe442de287b08b3cf6804
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: a4e9a6e981889bd2be19451127fc96b351b4b00f
+ms.sourcegitcommit: 69d0c739a2f3b4a335b42182a2c7267ef554eb76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999611"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31389686"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -29,7 +29,7 @@ ms.locfileid: "30999611"
   
 ## <a name="export-the-xml-file-of-the-current-rules"></a>현재 규칙의 XML 파일 내보내기
 
-XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?linkid=799771)해야 합니다.
+XML을 내보내려면 [원격 PowerShell을 통해 보안 및 준수 센터에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
   
 1. PowerShell에서 다음을 입력하여 화면에 조직의 규칙을 표시합니다. 고유한 규칙을 아직 만들지 않은 경우 “Microsoft 규칙 패키지”라는 기본 제공 규칙만 표시됩니다.
     
@@ -223,7 +223,7 @@ XML에서 신용 카드 번호 규칙 정의를 찾았으므로 요구에 맞게
    
 ## <a name="for-more-information"></a>자세한 내용
 
-- [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+- [중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
     
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
     
