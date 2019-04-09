@@ -1,22 +1,22 @@
 ---
-title: 새로운 새로운 Microsoft 365 준수 센터에 오신 것을 환영 합니다.
+title: 새 Microsoft 365 준수 센터 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/28/2019
+ms.date: 04/09/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 새로운 Microsoft 365 준수 센터에 대해 알아봅니다.
-ms.openlocfilehash: d627174fce26be9f200f9fdc4f48f0946a8caf69
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.openlocfilehash: ae608d1aafb803fabe6ed1eba3804b9921bac7b2
+ms.sourcegitcommit: 48b77ec6fb499175507fc08f11dc9f5efe6c4858
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026319"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518388"
 ---
-# <a name="welcome-to-your-all-new-microsoft-365-compliance-center"></a>새로운 Microsoft 365 준수 센터에 오신 것을 환영 합니다.
+# <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>모든 신규 Microsoft 365 준수 센터 개요
 
 ## <a name="overview"></a>개요
 
@@ -24,7 +24,7 @@ ms.locfileid: "31026319"
 
 Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대답](#frequently-asked-questions)및 [다음 단계](#next-steps)를 숙지 하려면이 문서를 읽어 보세요.
 
-[![Microsoft 365 규정 준수 센터](media/m365-compliance-center.png)](https://compliance.microsoft.com)
+[![Microsoft 365 준수 센터](media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
 ## <a name="welcome-to-microsoft-365-compliance"></a>Microsoft 365 준수에 오신 것을 환영 합니다.
 
@@ -83,11 +83,15 @@ Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대
 
 ### <a name="why-am-i-taken-to-the-office-365-security--compliance-center-to-perform-some-tasks-such-as-defining-certain-policies"></a>특정 정책을 정의 하는 것과 같은 일부 작업을 수행 하기 위해 Office 365 보안 & 준수 센터로 이동 하는 이유는 무엇 인가요?
 
-microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월 동안 기능과 솔루션을 추가로 추가할 예정입니다. 한편 보안 & 준수 센터에서는 몇 가지 작업을 수행 해야 합니다. 이러한 경우에는 사용자가 감독 정책을 만들거나 편집 하는 등의 작업을 수행할 수 있는 위치로 자동으로 리디렉션됩니다.
+microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월 동안 기능과 솔루션을 추가로 추가할 예정입니다. 이 경우에는 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 몇 가지 작업을 수행 해야 합니다. 이러한 경우에는 사용자가 감독 정책을 만들거나 편집 하는 등의 작업을 수행할 수 있는 위치로 자동으로 리디렉션됩니다.
 
 ### <a name="why-dont-i-see-the-new-microsoft-365-compliance-center-yet"></a>아직 새로운 Microsoft 365 준수 센터가 표시 되지 않는 이유는 무엇 인가요?
 
-먼저 적절 한 [라이선스 및 사용 권한이](microsoft-security-and-compliance.md#required-licenses-and-permissions)있는지 확인 합니다. 그런 후에 [https://compliance.microsoft.com](https://compliance.microsoft.com)로그인 합니다. 아직 새 준수 센터가 표시 되지 않으면 곧 제공 될 예정입니다.
+먼저 적절 한 [라이선스 및 사용 권한이](microsoft-security-and-compliance.md#required-licenses-and-permissions)있는지 확인 합니다. 그런 후에 [https://compliance.microsoft.com](https://compliance.microsoft.com)로그인 합니다. 새 준수 센터가 아직 표시 되지 않으면 곧 제공 될 예정입니다.
+
+### <a name="i-cant-find-some-of-my-compliance-settings-what-do-i-do"></a>규정 준수 설정 중 일부를 찾을 수 없습니다. What do I do?
+
+여전히 Microsoft 365 준수 센터에 기능을 추가 하 고 있습니다. 감사 로그 검색과 같은 항목을 찾을 수 없는 경우 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 해 봅니다. 구성은 기존 Office 365 보안 & 준수 센터 및 새 Microsoft 365 준수 센터에 자동으로 저장 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
