@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a5b9975803e0243f873bdd5f538dbc5e62907327
-ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
+ms.openlocfilehash: e5f7c6d0f0932041ef92591afcb59ad836cae0e4
+ms.sourcegitcommit: 19d27ff836ee7fa1f8a4e761e04d928f13f4bfd8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30997054"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31745290"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery-preview"></a>Advanced eDiscovery에서 작업 관리 (미리 보기)
 
@@ -34,7 +34,7 @@ ms.locfileid: "30997054"
 |부하 집합 비교 | 사용자가 작업 집합에 있는 서로 다른 부하 집합 간의 차이점을 조사 합니다. 부하 집합은 작업 집합에 데이터를 추가 하는 인스턴스입니다. 예를 들어 서로 다른 두 검색의 결과를 동일한 작업 집합에 추가 하는 경우 각각은 로드 집합을 나타냅니다. 자세한 내용은 [부하 집합 관리](manage-load-sets.md)를 참조 하세요. |
 |redacted 문서를 PDF로 변환|사용자가 작업 집합에 문서를 annotates 한 부분을 redacts 후에는 redacted 문서를 PDF 파일로 변환 하도록 선택할 수 있습니다. 이렇게 하면 프레젠테이션을 위해 문서를 내보낼 때 redacted 부분이 표시 되지 않습니다. 자세한 내용은 [작업 집합에서 문서 보기](annotating-and-redacting-documents.md)를 참조 하세요. |
 |검색 결과 예측 | 사용자가 새 검색을 만들고 실행 한 후 (또는 기존 검색을 다시 실행) 검색 도구는 검색 쿼리와 일치 하는 항목에 대 한 인덱스를 검색 하 고 검색을 통해 모든 항목의 수와 총 크기를 포함 하는 예상 값과 데이터 원본 sear의 수를 준비 합니다. ched  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오. | 
-|내보내기를 위해 데이터 준비 | 사용자가 작업 집합에서 feom a 문서를 내보냅니다. 내보내기 프로세스가 완료 되 면 내보낸 데이터를 로컬 컴퓨터에 다운로드할 수 있습니다. 자세한 내용은 [수출 사례 데이터](exporting-data-ediscover20.md)를 참조 하십시오. | 
+|내보내기를 위해 데이터 준비 | 사용자가 작업 집합에서 문서를 내보냅니다. 내보내기 프로세스가 완료 되 면 내보낸 데이터를 로컬 컴퓨터에 다운로드할 수 있습니다. 자세한 내용은 [수출 사례 데이터](exporting-data-ediscover20.md)를 참조 하십시오. | 
 |오류 해결 준비 |사용자가 파일을 선택 하 고 사례 **처리** 탭의 오류 보기에 새 오류 수정을 만드는 경우 프로세스의 첫 번째 단계는 처리 오류가 발생 한 파일을 Microsoft 클라우드의 Azure storage 위치에 업로드 하는 것입니다. 이 작업은 업로드 프로세스의 진행 상태를 추적 합니다. 오류 수정 워크플로 작업에 대 한 자세한 내용은 [데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오. | 
 |검색 미리 보기 준비 | 사용자가 새 검색을 만들어 실행 하거나 기존 검색을 다시 실행 하면 검색 도구에서 미리 볼 수 있는 항목의 예제 하위 집합 (검색 쿼리와 일치)을 준비 합니다. 검색 결과 미리 보기는 검색 효율성을 결정 하는 데 도움이 됩니다.  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md#view-search-results-and-statistics)을 참조 하십시오. | 
 |custodian 데이터 다시 인덱싱 | custodian를 사례에 추가 하면 custodian에서 선택한 데이터 원본의 모든 부분적으로 인덱싱된 항목이 *고급 인덱싱*프로세스에 의해 다시 인덱싱됩니다. 이 작업은 서비스 케이스의 **처리** 탭에 있는 인덱스 보기에서 **인덱스 업데이트** 를 클릭 한 경우에도 트리거됩니다. 자세한 내용은 [고급 인덱싱 custodian 데이터](indexing-custodian-data.md)를 참조 하세요.
