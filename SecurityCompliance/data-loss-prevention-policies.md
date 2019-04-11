@@ -3,7 +3,7 @@ title: 데이터 손실 방지 정책 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/29/2019
+ms.date: 04/11/2019
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 4117a99afc804fd397deb45087c5058077f9ff60
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: da8acd8904ac6a9b1945c8f794bad84a0adc64fb
+ms.sourcegitcommit: 94e9eeab8134a9c4d9004cc16de7da227a0e5cc0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000021"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31784109"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -56,13 +56,13 @@ Office 365 보안 &amp; 및 준수 센터의 데이터 손실 방지 페이지�
 
 DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니다.
   
-- Microsoft 팀 채팅 및 채널과 함께 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 사이트와 같은 콘텐츠 **위치** 를 보호할 수 있는 위치입니다. 
+- 콘텐츠를 보호할 위치: Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 사이트, Microsoft 팀 채팅 및 채널과 같은 **위치** 
     
 - 다음을 비롯하여 **규칙**을 적용하여 콘텐츠를 보호하는 경우 및 방법 
     
-  - 규칙을 적용 하기 전에 콘텐츠가 일치 해야 하는 **조건** (예를 들어 조직 외부의 사용자와 공유 하는 사회 보장 번호가 포함 된 콘텐츠만 찾기) 
+  - 규칙이 적용 되기 전에 콘텐츠가 일치 해야 하는 **조건** 입니다. 예를 들어 조직 외부의 사용자와 공유 하는 사회 보장 번호가 포함 된 콘텐츠만 표시 하도록 규칙을 구성할 수 있습니다. 
     
-  - 조건과 일치하는 콘텐츠를 찾을 때 규칙이 자동으로 수행할 **작업**(예를 들어 문서에 대한 액세스를 차단하고 사용자 및 규정 준수 담당자 둘 다에게 전자 메일 알림 전송) 
+  - 조건과 일치 하는 콘텐츠를 찾을 때 규칙이 자동으로 수행 하도록 할 **작업** 입니다. 예를 들어 문서에 대 한 액세스를 차단 하 고 사용자 및 규정 준수 담당자에 게 전자 메일 알림을 보내기 위해 규칙을 구성할 수 있습니다. 
     
 규칙을 사용하여 특정 보호 요구 사항을 충족한 다음, DLP 정책을 사용하여 특정 규정을 준수하는 데 필요한 모든 규칙과 같은 일반적인 보호 요구 사항을 그룹화할 수 있습니다.
   
@@ -212,10 +212,14 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
   
 ## <a name="the-priority-by-which-rules-are-processed"></a>규칙이 처리 되는 우선 순위입니다.
 
-정책에서 규칙을 만들 때 각 규칙의 우선 순위는 생성 되는 순서 대로 지정 되 고, 처음 만든 규칙은 우선 순위가 가장 높습니다. 규칙을 만든 후에는 삭제 하 고 다시 만드는 것을 제외 하 고는 해당 우선 순위를 변경할 수 없습니다.
+정책에서 규칙을 만들 때 각 규칙의 우선 순위는 생성 되는 순서 대로 지정 되 고, 처음 만든 규칙은 우선 순위가 가장 높습니다. 
   
 ![규칙을 우선 순위에 정렬 합니다.](media/f7dc06bf-bc6f-485c-bcdb-606edbcf6565.png)
   
+두 개 이상의 DLP 정책을 설정한 후에는 하나 이상의 정책에 대 한 우선 순위를 변경할 수 있습니다. 이렇게 하려면 정책을 선택 하 고 **정책 편집**을 선택한 다음 **우선 순위** 목록을 사용 하 여 해당 우선 순위를 지정 합니다.
+
+![정책의 우선 순위 설정](media/dlp-set-policy-priority.png)
+
 규칙을 기준으로 콘텐츠를 평가 하는 경우 규칙은 우선 순위에 따라 처리 됩니다. 콘텐츠가 여러 규칙과 일치 하는 경우 규칙은 우선 순위 순으로 처리 되 고 가장 제한적인 작업이 적용 됩니다. 예를 들어 콘텐츠가 다음 규칙과 모두 일치 하는 경우 규칙 3은 우선 순위가 가장 높고 가장 제한적인 규칙입니다.
   
 - 규칙 1: 사용자에 게 알림
@@ -244,7 +248,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
   
 - 중요 한 정보가 **아닌** 콘텐츠가 규칙과 일치 하는 경우 (즉, 가양성이 너무 많음) 
     
-- 중요 한 정보가 규칙과 **** 일치 하는 콘텐츠가 너무 적으면 중요 한 정보에는 보호 작업이 적용 되지 않습니다. 
+- 중요 한 정보가 해당 **** 규칙과 일치 하는 콘텐츠가 너무 적습니다. 즉, 보호 작업이 중요 한 정보에 적용 되지 않습니다. 
     
 이러한 문제를 해결 하기 위해 인스턴스 수와 일치 정확도를 조정 하 여 규칙을 조정 하면 콘텐츠를 규칙과 일치 시킬 수 있습니다. 규칙에 사용 되는 각 중요 한 정보 유형에는 인스턴스 수와 일치 정확도가 모두 있습니다.
   
@@ -403,6 +407,10 @@ DLP 정책을 만든 후에는 완전히 적용하기 전에 서서히 롤아웃
 언제든지 정책의 모든 규칙에 적용되는 DLP 정책을 끌 수 있습니다. 그러나 규칙 편집기에서 상태를 전환 하 여 각 규칙을 개별적으로 끌 수도 있습니다.
   
 ![정책에서 규칙을 해제 하는 것에 대 한 옵션](media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+
+정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이렇게 하려면 편집할 정책을 엽니다. 규칙의 행에서 줄임표 (**...**)를 선택한 다음 **아래로 이동** 또는 **마지막 상태로 가져오기**등의 옵션을 선택 합니다.
+
+![규칙 우선 순위 설정](media/dlp-set-rule-priority.png)
   
 ## <a name="dlp-reports"></a>DLP 보고서
 
@@ -500,7 +508,7 @@ Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Offi
     
 그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 따라서 **DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다**. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
   
-1. [Connect to Exchange Online using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)(원격 PowerShell을 사용하여 Exchange Online에 연결)
+1. [Connect to Exchange Online using remote PowerShell(원격 PowerShell을 사용하여 Exchange Online에 연결)](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
     
 2. DLP 보고서에 대해 다음 cmdlet 중 하나를 사용 합니다.
     
