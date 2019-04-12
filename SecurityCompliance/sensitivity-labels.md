@@ -24,7 +24,7 @@ ms.locfileid: "30999741"
 
 작업을 완료하기 위해 조직의 사용자는 조직 내부 및 외부의 다른 사용자와 공동으로 작업해야 합니다. 이것은 콘텐츠가 더 이상 방화벽 뒤에 있지 않으며 장치, 앱 및 서비스를 비롯한 모든 위치에서 로밍됨을 의미합니다. 또한 사용자는 로밍 중에는 조직의 비즈니스 및 준수 정책을 충족하는 제한된 안전한 방식으로 진행되는 것을 원할 것입니다.
 
-민감도 레이블을 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다.
+민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다.
 
 ![Excel 리본 및 상태 표시줄의 민감도 레이블](media/Sensitivity_label_in_Excel.png)
 
@@ -87,7 +87,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 ### <a name="label-priority-order-matters"></a>레이블 우선 순위(순서가 중요함)
 
-민감도 레이블을 만들면 **레이블** 페이지의 **민감도** 탭에있는 목록에 나타납니다. 이 목록에서 레이벨의 우선 순위가 반영되기 때문에 레이블의 순서가 중요합니다. 가장 제한적인 민감도 레이블 예에 표시 되도록 기밀로 원하는 **아래쪽** 목록 및 여 덜 제한적인 민감도 레이블에 표시 되도록 공용, 예는 **위쪽**합니다.
+민감도 레이블을 만들면 **레이블** 페이지의 **민감도** 탭에 있는 목록에 나타납니다. 이 목록에서는 레이블의 우선 순위가 반영되기 때문에 레이블의 순서가 중요합니다. 극비와 같은 가장 제한적인 민감도 레이블은 목록의 **아래쪽**에 표시되도록 하고, 공용과 같은 가장 덜 제한적인 민감도 레이블은 **위쪽**에 표시되도록 합니다.
 
 문서 또는 전자 메일에는 단일 민감도 레이블만 지정할 수 있습니다. 사용자에게 더 낮은 분류로 변경하려는 근거를 제공하도록 요구할 경우 이 목록의 순서에 따라 더 낮은 분류에 해당하는 항목이 결정됩니다.
 
@@ -194,7 +194,7 @@ Azure Information Protection 사용자는 현재 Azure Information Protection �
 - 문서 및 전자 메일의 기존 Azure Information Protection 레이블을 유지합니다.
 - 기존 Azure Information Protection 레이블 구성을 유지합니다.
 
-Azure Information Protection 레이블을 사용하는 경우 마이그레이션을 완료할 때까지 다른 관리자 센터에서 새 레이블을 만들지 않는 것이 좋습니다. [Azure Information Protection 마이그레이션 항목](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-migrate-labels)에는 중요한 정보와 몇 가지 특정한 주의 사항이 있습니다. 프로덕션 테넌트를 민감도 레이블로 마이그레이션 할 준비가되지 않았다면 걱정할 필요는 없습니다. 사용자는 Azure Information Protection 클라이언트를 계속 사용할 수 있으며 관리자는 Azure 포털을 계속 사용하여 관리 할 수 있습니다.
+Azure Information Protection 레이블을 사용하는 경우 마이그레이션을 완료할 때까지 다른 관리자 센터에서 새 레이블을 만들지 않는 것이 좋습니다. [Azure Information Protection 마이그레이션 항목](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-migrate-labels)에는 중요한 정보와 몇 가지 특정한 주의 사항이 있습니다. 프로덕션 테넌트를 민감도 레이블로 마이그레이션할 준비가 되지 않았더라도 걱정할 필요는 없습니다. 사용자는 Azure Information Protection 클라이언트를 계속 사용할 수 있으며 관리자는 Azure 포털을 계속 사용하여 관리할 수 있습니다.
 
 ## <a name="protect-content-on-windows-devices-by-using-endpoint-protection-in-microsoft-intune"></a>Microsoft Intune의 엔드포인트 보호 기능을 사용하여 Windows 장치에서 콘텐츠 보호
 
