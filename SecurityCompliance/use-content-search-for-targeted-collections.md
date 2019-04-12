@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: 06d1d4d213f0efd5a05badd9a0edef568ae15d75
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 3d9a82926a08b3f7f1f245146e70d79617e7a413
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001241"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813999"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
 
@@ -213,7 +213,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
 
 스크립트를 실행 하 여 특정 사용자에 대 한 폴더 id 또는 documentlinks의 목록을 수집한 후에는 다음 단계를 수행 하 여 Security & 준수 센터로 이동한 다음 새 콘텐츠 검색을 만들어 특정 폴더를 검색 합니다. 콘텐츠 검색 키워드 상자 `folderid:<folderid>` 에서 `documentlink:<path>` 구성 하는 검색 쿼리에 값 쌍을 사용 하거나, **ComplianceSearch** cmdlet을 사용 하는 경우 *contentmatchquery* 매개 변수의 값으로 사용할 수 있습니다. `folderid` 또는 `documentlink` 속성을 다른 검색 매개 변수 또는 검색 조건과 결합할 수 있습니다. 쿼리에 `folderid` 또는 `documentlink` 속성만 포함 하면 지정한 폴더에 있는 모든 항목이 검색에 반환 됩니다. 
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 1 단계에서 스크립트를 실행 하는 데 사용한 계정 및 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
     

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Security & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
-ms.openlocfilehash: f20ad17ba4573485199d72a260598e77bd224ece
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 5d1baa57f466a5ef7657d92b517660e35b0036e8
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000471"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814059"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -80,7 +80,7 @@ ms.locfileid: "31000471"
 
 첫 번째 단계는 검색 결과의 내보내기를 준비하는 것입니다. 결과를 준비할 때 Microsoft 클라우드의 Azure 저장소 위치에 업로드 됩니다. 사서함 및 사이트의 콘텐츠는 시간당 최대 2gb로 업로드 됩니다.
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     

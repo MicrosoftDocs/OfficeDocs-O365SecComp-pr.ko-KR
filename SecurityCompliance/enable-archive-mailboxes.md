@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365의 Security & 준수 센터를 사용 하 여 조직의 메시지 보존, eDiscovery 및 보존 요구 사항을 지원 하기 위해 보관 사서함을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 334af008f6eb8baedff1239ed1692a0ad73acdb6
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: d363943910d970576976d8386196b450dd5694f3
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000261"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813969"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 & 준수 센터에서 보관 사서함을 사용 하도록 설정
   
@@ -37,7 +37,7 @@ Office 365 (원본 위치 보관이 라고도 함)의 보관은 사용자에 게
   
 ## <a name="enable-an-archive-mailbox"></a>보관 사서함 사용
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
@@ -68,7 +68,7 @@ Office 365 (원본 위치 보관이 라고도 함)의 보관은 사용자에 게
   
 보관 사서함을 사용 하지 않도록 설정 하려면
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
@@ -141,6 +141,6 @@ Exchange Online에 연결 하 고 나면 다음 섹션의 명령을 실행 하 �
     
   - [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?LinkId=404424)
     
-  - [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/?linkid=839418)
+  - [Exchange Online의 기본 보존 정책 ](https://go.microsoft.com/fwlink/?linkid=839418)
     
   - [Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정](set-up-an-archive-and-deletion-policy-for-mailboxes.md)

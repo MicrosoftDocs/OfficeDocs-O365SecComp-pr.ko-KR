@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 Office 365 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4d16fd162cb8d00d940df90dcab3c5856e9e59ee
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 62c58d123367fd5ee6778034716bc1deb5afc1e2
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000711"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814099"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Office 365 감사 로그에서 eDiscovery 활동 검색
 
@@ -42,7 +42,7 @@ Office 365 감사 로그 검색, 필요한 권한, 검색 결과 내보내기에
 
 현재는 Office 365 감사 로그에서 eDiscovery 활동을 보기 위해 몇 가지 특정 작업을 수행 해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
@@ -73,7 +73,7 @@ Office 365 감사 로그 검색, 필요한 권한, 검색 결과 내보내기에
 > [!NOTE]
 > 이 섹션에서 설명 하는 ediscovery 작업은 다음 섹션에서 설명 하는 ediscovery cmdlet 작업에 대 한 유사한 정보를 제공 합니다. 이 섹션에서 설명 하는 eDiscovery 작업은 감사 로그 검색 결과에서 30 분 이내에 표시 되므로 사용 하는 것이 좋습니다. eDiscovery cmdlet 작업이 감사 로그 검색 결과에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다. 
   
-|**식별 이름**|**Operation**|**해당 cmdlet**|**설명**|
+|**이름**|**작업**|**해당 cmdlet**|**설명**|
 |:-----|:-----|:-----|:-----|
 |eDiscovery 사례에 구성원이 추가 됨  <br/> |CaseMemberAdded  <br/> |get-compliancecasemember 추가  <br/> |사용자가 eDiscovery 사례의 구성원으로 추가 되었습니다. 사례 구성원으로 서, 사용자는 필요한 권한이 할당 되었는지 여부에 따라 다양 한 사례 관련 작업을 수행할 수 있습니다.  <br/> |
 |변경 된 콘텐츠 검색  <br/> |searchupdated  <br/> |Set-ComplianceSearch  <br/> |기존 콘텐츠 검색이 변경 되었습니다. 변경 사항에는 콘텐츠 위치 추가 또는 제거 또는 검색 쿼리 편집이 포함 될 수 있습니다.  <br/> |
@@ -119,7 +119,7 @@ Office 365 감사 로그 검색, 필요한 권한, 검색 결과 내보내기에
 > [!TIP]
 > 다음 표의 **작업** 열에 있는 cmdlet은 TechNet의 해당 cmdlet 도움말 항목에 연결 됩니다. 각 cmdlet에 대해 사용 가능한 매개 변수에 대 한 설명을 보려면 cmdlet 도움말 항목으로 이동 합니다. cmdlet에 사용 된 매개 변수 및 매개 변수 값은 로깅된 각 eDiscovery cmdlet 작업에 대 한 감사 로그 항목에 포함 됩니다. 
   
-|**식별 이름**|**작업 (cmdlet)**|**설명**|
+|**이름**|**작업 (cmdlet)**|**설명**|
 |:-----|:-----|:-----|
 |eDiscovery 사례에서 생성 되는 보류  <br/> |[new-caseholdpolicy](https://go.microsoft.com/fwlink/p/?LinkId=823813) <br/> |eDiscovery 사례에 대 한 보류를 만들었습니다. 콘텐츠 원본을 지정 하지 않고 또는을 사용 하 여 보류를 만들 수 있습니다. 콘텐츠 원본이 지정 된 경우 감사 로그 항목에서 식별 됩니다.  <br/> |
 |eDiscovery 사례에서 보류 삭제  <br/> |[new-caseholdpolicy을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=823814) <br/> |eDiscovery 사례와 연결 된 보류가 삭제 되었습니다. 보류를 삭제 하면 보류의 모든 콘텐츠 위치가 해제 됩니다. 보류를 삭제 하면 보류와 연결 된 케이스 보류 규칙도 삭제 됩니다 (아래 **new-caseholdrule** 참조).  <br/> |

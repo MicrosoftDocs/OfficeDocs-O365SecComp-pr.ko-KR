@@ -3,7 +3,7 @@ title: 제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 12/05/2018
+ms.date: 04/11/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: 7a357b50a75012408d6958ce528fddf8c203540a
-ms.sourcegitcommit: e24f70699021c4f4ba56508ad0afb6f65010c357
+ms.openlocfilehash: 507cd6af5320a3b925841786136d518c996e4d29
+ms.sourcegitcommit: 86ff2eba1d57b9d5288840788529e69ad9d836b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "31479634"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31818605"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -48,7 +48,7 @@ Office 365에서는 매일 실시간으로 스팸 방지 엔진 및 맬웨어 �
 
 - 새로 검색 된 맬웨어의 경우 ZAP은 전자 메일을 읽은 적이 있는지 여부에 관계 없이 전자 메일 메시지에서 첨부 파일을 제거 합니다.
   
-사서함 사용자에 게는 ZAP 동작이 원활 하 게 수행 됩니다. 전자 메일 메시지를 이동 하는 경우이 사용자에 게 알림이 제공 되지 않습니다.
+사서함 사용자에 게는 ZAP 동작이 원활 하 게 수행 됩니다. 전자 메일 메시지를 이동 하는 경우이 사용자에 게 알림이 제공 되지 않습니다. 메시지가 2 일 보다 오래 된 것은 아니어야 합니다.
   
 허용 목록, [메일 흐름 규칙](https://go.microsoft.com/fwlink/p/?LinkId=722755), 최종 사용자 규칙 또는 추가 필터는 ZAP 보다 우선 합니다.
   
@@ -89,8 +89,11 @@ Office 365 테 넌 트 또는 사용자 집합에 대해 ZAP을 사용 하지 �
 ### <a name="what-if-i-have-a-custom-mail-flow-rule-block-allow-rule"></a>사용자 지정 메일 흐름 규칙 (차단/허용 규칙)이 있는 경우 어떻게 하나요?
   
 관리자가 만든 규칙 (메일 흐름 규칙) 또는 차단 및 허용 규칙을 우선적으로 사용 합니다. 이러한 메시지는 기능 조건에서 제외 되므로 메일 흐름은 규칙 동작 (차단/허용 규칙)을 따릅니다.
-  
-## <a name="related-topics"></a>관련 주제
+
+### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rule"></a>다른 폴더 (예: 받은 편지함 규칙)로 메시지를 이동 하는 경우
+메시지가 삭제 되었거나 정크 상태인 경우가 아니면이 경우에도 ZAP이 작동 합니다.
+
+## <a name="related-topics"></a>관련 항목
 
 [Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)
   

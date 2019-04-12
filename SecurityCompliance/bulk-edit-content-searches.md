@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 대량 검색 편집기를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 쿼리 및 콘텐츠 위치를 신속 하 게 변경 합니다.
-ms.openlocfilehash: d372b6b1969e5b321cdea84981449241f3cec1c6
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 3a484ad689b1c638e0e14ed1643edea0f2f56c09
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001101"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813939"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 
@@ -26,7 +26,7 @@ ms.locfileid: "31001101"
   
 ## <a name="use-the-bulk-search-editor-to-change-queries"></a>대량 검색 편집기를 사용 하 여 쿼리 변경
 
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동 하 고 **콘텐츠 검색** **검색** \> 을 클릭 합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동 하 고 **콘텐츠 검색** **검색** \> 을 클릭 합니다.
     
 2. 검색 목록에서 검색을 하나 이상 선택 하 고 **대량 검색 편집기** ![대량 검색 편집기 단추](media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)를 클릭 합니다.
     

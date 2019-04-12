@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Security & 준수 센터에서 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색 합니다. '
-ms.openlocfilehash: 780a9eacc94985cf1f59993a1d5c2816474b8cb5
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 4c3d9cc024a495ff8464e1117d5f46c13c1b9a08
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000281"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814079"
 ---
 # <a name="run-a-content-search-in-the-security--compliance-center"></a>보안 및 준수 센터에서 콘텐츠 검색 실행
 
@@ -45,9 +45,9 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
   
 [Update search results](run-a-content-search-in-the-security-and-compliance-center.md#restart)
   
-[Edit a search](run-a-content-search-in-the-security-and-compliance-center.md#edit)
+[검색 편집](run-a-content-search-in-the-security-and-compliance-center.md#edit)
   
-[Retry a search](run-a-content-search-in-the-security-and-compliance-center.md#retry)
+[검색 다시 시도](run-a-content-search-in-the-security-and-compliance-center.md#retry)
   
 
   
@@ -69,12 +69,12 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
     
     Office 365 그룹 및 Microsoft 팀에서 콘텐츠를 검색 하는 방법에 대 한 팁을 보려면 섹션을 참조 하세요. 
     
-[Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[맨 위로 이동](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="create-a-search"></a>Create a search
 <a name="create"> </a>
 
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
@@ -209,7 +209,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
     
 - gzip
     
-[Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[맨 위로 이동](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="update-search-results"></a>검색 결과 업데이트
 <a name="restart"> </a>
@@ -222,7 +222,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
     
     결과를 가져오고 있다는 상태 메시지가 표시됩니다. 검색이 완료되면 업데이트된 정보가 세부 정보 창의 **결과** 아래에 표시됩니다. 세부 정보 창의 **검색한 날짜**에 표시되는 날짜가 현재 날짜와 시간으로 업데이트됩니다. 콘텐츠 검색 목록의 정보를 새로 고치려면 새로 ****![고침 새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif)을 클릭 합니다.
     
-[Return to top](run-a-content-search-in-the-security-and-compliance-center.md#top)
+[맨 위로 이동](run-a-content-search-in-the-security-and-compliance-center.md#top)
   
 ## <a name="edit-a-search"></a>검색 편집
 <a name="edit"> </a>
@@ -273,7 +273,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
   
 [없으며](#miscellaneous)
   
-[Return to top](#before-you-begin)
+[맨 위로 이동](#before-you-begin)
   
 ### <a name="limits-and-performance"></a>제한 및 성능
   

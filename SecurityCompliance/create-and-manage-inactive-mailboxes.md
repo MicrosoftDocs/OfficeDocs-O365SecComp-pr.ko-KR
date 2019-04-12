@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: 사서함에 보류 또는 office 365 보존 정책을 적용 한 다음 해당 하는 office 365 사용자 계정을 삭제 하 여 Office 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 상태가 되기 전에 적용 된 보류 또는 보존 정책의 기간 동안 보존 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 보류 또는 보존 정책을 제거 하면 됩니다.
-ms.openlocfilehash: a04447778c8083c96b77776c36984743d618a711
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: ad874d2f21afaa86fa7fa5a18dc827dfa1b90574
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001061"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813979"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Office 365에서 비활성 사서함 만들기 및 관리
 
@@ -71,9 +71,9 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
 
 조직의 비활성 사서함 목록을 보려면 다음을 수행 합니다.
   
-1. 으로 이동 [https://compliance.microsoft.com/](https://compliance.microsoft.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. **데이터 거 버 넌 스** \> **보존**을 클릭 합니다.
+2. **데이터 거 버 넌 스** > **보존**을 클릭 합니다.
     
 3. **보존** 페이지에서 **기타**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)를 클릭 한 다음 **비활성 사서함**을 클릭 합니다.
     
@@ -116,7 +116,7 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
     
 - 활성 사서함과 비활성 사서함을 같은 SMTP 주소로 사용 하지 않는 것이 좋습니다. 비활성 사서함에 현재 할당 되어 있는 SMTP 주소를 다시 사용 해야 하는 경우 비활성 사서함을 복구 하거나 비활성 사서함의 내용을 활성 사서함 (또는 활성 사서함의 보관 함)로 복원 하는 것이 좋습니다. 비활성 사서함
     
-## <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 유지 보존 기간 변경
+## <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 
 사서함을 비활성화 한 후에는 비활성 사서함에 적용 된 보류 또는 Office 365 보존 정책의 기간을 변경할 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함에 대 한 보존 기간 변경을](change-the-hold-duration-for-an-inactive-mailbox.md)참조 하십시오.
   

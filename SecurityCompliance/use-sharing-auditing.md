@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직에서 공유가 사용 되는 방식을 확인할 수 있습니다. '
-ms.openlocfilehash: 919592bff43379b552b83258c7b22b7eddb14e7a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 08b511acdf74edac5b2d595d1b60bdd84d630918
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219888"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813949"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 
@@ -69,17 +69,17 @@ ms.locfileid: "30219888"
   
 ## <a name="how-to-identify-resources-shared-with-external-users"></a>외부 사용자와 공유 된 리소스를 확인 하는 방법
 
-관리자에 대 한 일반적인 요구 사항에는 조직 외부의 사용자와 공유 된 모든 리소스의 목록이 작성 됩니다. 이제 관리자는 Office 365의 공유 감사를 사용 하 여이 목록을 생성할 수 있습니다. 방법은 다음과 같습니다.
+관리자에 대 한 일반적인 요구 사항에는 조직 외부의 사용자와 공유 된 모든 리소스의 목록이 작성 됩니다. 이제 관리자는 Office 365의 공유 감사를 사용 하 여이 목록을 생성할 수 있습니다. 이 작업을 수행하는 방법은 다음과 같습니다.
   
 ### <a name="step-1-search-for-sharing-events-and-export-the-results-to-a-csv-file"></a>1 단계: 공유 이벤트 검색 및 결과를 CSV 파일로 내보내기
 
-첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Office 365 보안 &amp; 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. 보안 &amp; 및 준수 센터의 왼쪽 창에서 **검색 &amp; 조사**를 클릭 하 고 **감사 로그 검색**을 클릭 합니다.
+3. Security & 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭 합니다.
     
     **감사 로그 검색** 페이지가 표시 됩니다. 
     
@@ -105,7 +105,7 @@ ms.locfileid: "30219888"
   
 1. Excel 2016에서 빈 통합 문서를 엽니다.
     
-2. **데이터** 탭을 클릭합니다. 
+2. **데이터** 탭을 클릭 합니다. 
     
 3. \> **CSV에서** **파일에서** **새 쿼리** \> 를 클릭 합니다.
     

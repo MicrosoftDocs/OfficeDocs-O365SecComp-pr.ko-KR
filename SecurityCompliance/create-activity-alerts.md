@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 description: 사용자가 office 365에서 특정 작업을 수행할 때 office 365에서 전자 메일 알림을 보내도록 보안 및 준수 센터에서 작업 알림을 추가 하 고 관리 합니다.
-ms.openlocfilehash: 2bbd5b02ec9497b798c948ac58e5e6ac1501bbc4
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: d71763d4633c3396afdf58400e9cb7b8b8a468e8
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999661"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813989"
 ---
 # <a name="create-activity-alerts-in-the-office-365"></a>Office 365에서 활동 알림 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "30999661"
     
 ## <a name="create-an-activity-alert"></a>활동 알림 만들기
 
-1. [https://compliance.microsoft.com/#/managealerts](https://compliance.microsoft.com/#/managealerts)으로 이동합니다.
+1. [https://protection.office.com/managealerts](https://protection.office.com/managealerts)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
@@ -82,7 +82,7 @@ ms.locfileid: "30999661"
 
 전자 메일 알림이 전송 되지 않도록 활동 알림을 해제할 수 있습니다. 활동 알림을 해제 한 후에도 해당 작업 알림이 조직의 활동 알림 목록에 표시 되며 해당 속성을 볼 수는 있습니다.
   
-1. [https://compliance.microsoft.com/#/managealerts](https://compliance.microsoft.com/#/managealerts)으로 이동합니다.
+1. 이동으로 이동 [https://protection.office.com/managealerts](https://protection.office.com/managealerts)합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     

@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9a00b9ea-33fd-4772-8ea6-9d3c65e829e6
 description: 보안 & 준수 센터를 사용 하 여 조직에서 ediscovery 보류를 만들고 ediscovery 사례에 액세스 하 고 관리를 관리할 수 있습니다.
-ms.openlocfilehash: 84cb7eeab55e157f42146f6a0586d32542584680
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 209f31187ad01ffa3e06cf8a5825c4538715fc7d
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000451"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814139"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery 사례 관리
 
@@ -25,7 +25,7 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
   
 다음 워크플로를 사용 하 여 보안 & 준수 센터 및 고급 eDiscovery에서 eDiscovery 사례를 설정 하 고 사용 합니다.
   
-[Step 1: Assign eDiscovery permissions to potential case members](manage-ediscovery-cases.md#step1_1)
+[1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당](manage-ediscovery-cases.md#step1_1)
   
 [2 단계: 새 사례 만들기](manage-ediscovery-cases.md#step2_1)
   
@@ -73,7 +73,7 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
   
  **eDiscovery 권한을 할당하려면**
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
@@ -94,7 +94,7 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
 
 다음 단계에서는 새 eDiscovery 사례를 만듭니다. eDiscovery 사례를 만들려면 eDiscovery 관리자(Manager) 역할 그룹의 구성원이어야 합니다. 앞에서 설명한 것 처럼 Security & 준수 센터에서 새 사례를 만든 후에는 조직에서 Office 365 E5 구독을 사용 하는 경우에도 고급 eDiscovery에서 동일한 사례에 액세스할 수 있습니다.
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     

@@ -17,12 +17,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 Office 365에서 만듭니다.
-ms.openlocfilehash: 87e155869c6740dd839c09e3e31e0cb819dc5d37
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+ms.openlocfilehash: d1dafb145564e6db7e0df7505cff09d10a72e3af
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935273"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814019"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정
 
@@ -64,7 +64,7 @@ ms.locfileid: "30935273"
 2. Sign in to Office 365 using your global administrator account.
     
     
-3. 보안 &amp; 및 준수 센터에서 **Data 거 버 넌 스** \> **아카이브로**이동 합니다.
+3. 보안 & 준수 센터에서 **Data 거 버 넌 스** \> **아카이브로**이동 합니다.
     
     조직의 사서함 목록과 해당 보관 사서함의 사용 가능 여부가 표시 됩니다. 
     
@@ -85,7 +85,7 @@ ms.locfileid: "30935273"
     
     ![보관 사서함이 사용 하도록 설정 된 사서함 목록](media/61a7cb97-1bed-4808-aa5f-b6b761cfa8de.png)
   
-8. 보안 &amp; 및 준수 센터를 열어 두세요. 다음 단계에서이를 사용 합니다.
+8. 보안 & 준수 센터를 열어 두세요. 다음 단계에서이를 사용 합니다.
     
 ## <a name="step-2-create-new-retention-tags-for-the-archive-and-deletion-policies"></a>2 단계: 보관 및 삭제 정책에 대 한 새 보존 태그 만들기
 
@@ -99,11 +99,11 @@ ms.locfileid: "30935273"
     
 새 보존 태그를 만들려면 exchange Online 조직에서 EAC (exchange 관리 센터)를 사용 합니다.
   
-1. 보안 &amp; 및 준수 센터의 왼쪽 위 모서리에 있는 앱 시작 관리자를 클릭 하 고 **관리** 타일을 클릭 합니다. 
+1. 보안 & 준수 센터의 왼쪽 위 모서리에 있는 앱 시작 관리자를 클릭 하 고 **관리** 타일을 클릭 합니다. 
     
-2. Office 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터**를 클릭 한 다음 **Exchange**를 클릭 합니다.
+2. Microsoft 365 관리 센터의 왼쪽 탐색 창에서 **관리 센터**를 클릭 한 다음 **Exchange**를 클릭 합니다.
     
-    ![Screenshot shows the Office 365 admin center with the Admin centers option expanded and Exchange selected.](media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
+    ![스크린샷에는 관리 센터 옵션이 확장 되 고 Exchange가 선택 된 Microsoft 365 관리 센터가 표시 됩니다.](media/47399df2-0bc4-42e2-b183-07750a46bc68.png)
   
 3. EAC에서 **준수 관리** \> **보존 태그로** 이동 합니다.
     

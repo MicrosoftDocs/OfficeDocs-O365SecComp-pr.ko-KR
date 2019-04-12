@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: gdpr에서는 EU 시민 (데이터 주체 라고 함)에 게 개인 데이터에 대 한 특정 권한을 부여 합니다. 이러한 권한에는 복사본을 가져오고, 변경 내용을 요청 하거나, 해당 파일의 처리를 제한 하거나, 전자 형식으로 메시지를 수신 하는 권한이 포함 됩니다. 개인 데이터에 대 한 작업을 수행 하기 위한 데이터의 공식적인 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. Office 365 및 Microsoft 365의 준수 센터에서 DSR 사례를 사용 하 여 조직의 dsr 조사를 관리할 수 있습니다.
-ms.openlocfilehash: d491a0098bfa27818d8a03ded3b2f86da54c0453
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: a131da86350fc288c1c9af371d28464230b742d6
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000111"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814029"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Security & 준수 센터의 DSR 사례 도구를 사용 하 여 gdpr 데이터 주체 요청 관리
 
@@ -56,7 +56,7 @@ DSR 사례 도구를 사용 하 여 다음을 수행할 수 있습니다.
     
 dsr 사례 도구를 사용 하 여 dsr 조사를 관리 하는 높은 수준의 프로세스는 다음과 같습니다.
   
-[Step 1: Assign eDiscovery permissions to potential case members](#step-1-assign-ediscovery-permissions-to-potential-case-members)
+[1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당](#step-1-assign-ediscovery-permissions-to-potential-case-members)
 
 [2 단계: DSR 사례 만들기 및 구성원 추가](#step-2-create-a-dsr-case-and-add-members)
 
@@ -84,7 +84,7 @@ dsr 사례 도구를 사용 하 여 dsr 조사를 관리 하는 높은 수준의
 
 다음 단계는 DSR 사례를 만드는 것입니다. 사례를 만들 때 기본 제공 검색을 시작 하도록 선택 하거나 검색을 시작 하지 않고 대/소문자를 만들 수 있습니다. 다음 절차에서는 검색을 시작 하지 않고 사례를 만들고 사례에 구성원을 추가 하는 방법을 보여 줍니다.
   
-1. 회사 또는 [https://compliance.microsoft.com](https://compliance.microsoft.com) 학교 계정을 사용 하 여으로 이동 하 고 Office 365에 로그인 합니다. 
+1. 회사 또는 [https://protection.office.com](https://protection.office.com) 학교 계정을 사용 하 여으로 이동 하 고 Office 365에 로그인 합니다. 
     
 2. 보안 & 준수 센터에서 **데이터 개인 정보 보호** \> **데이터 주체 요청**을 클릭 하 고 아이콘 ![](media/ITPro-EAC-AddIcon.gif) 추가 **새 DSR 사례**를 클릭 합니다.
     

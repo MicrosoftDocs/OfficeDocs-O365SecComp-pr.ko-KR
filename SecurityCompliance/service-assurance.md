@@ -13,12 +13,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, finra 및 FedRAMP을 준수 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3c65014246de71e0288874299c591816b1a2ca5c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: d0cb03a7f5cbc34bdce238155372c9e031a95033
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999451"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31813959"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 
@@ -53,7 +53,7 @@ ms.locfileid: "30999451"
   
 보안 & 준수 센터를 사용 하 여 서비스 보증에 액세스할 수 있습니다. 여기에 액세스 하는 방법은 다음과 같습니다.
   
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 
     

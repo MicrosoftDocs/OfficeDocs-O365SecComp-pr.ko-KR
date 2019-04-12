@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: d593c7d5403f658175850a66a55603dab2b60d42
-ms.sourcegitcommit: e24f70699021c4f4ba56508ad0afb6f65010c357
+ms.openlocfilehash: d7dc3849a0a12c52979c46b9ac16cfb0a7cd1f3d
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "31479684"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814179"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -147,7 +147,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 ### <a name="step-1-run-an-audit-log-search"></a>1 단계: 감사 로그 검색 실행
 
-1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
     > [!TIP]
     > 보안 & 준수 센터에 액세스 하려면 개인 검색 세션 (일반 세션이 아님)을 사용 하 여 현재 로그온 한 자격 증명이 사용 되지 않도록 해야 합니다. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL + SHIFT + P를 누르기만 하면 됩니다. Google Chrome (incognito 창 이라고 함)에서 개인 검색 세션을 열려면 CTRL + SHIFT + N을 누릅니다. 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 microsoft 365의 준수 센터에서 콘텐츠 검색 도구를 사용 하 여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리와 검색 조건을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 콘텐츠 검색은 gdpr 데이터 주체 요청과 관련 될 수 있는 콘텐츠를 검색 하기 위한 효과적인 도구 이기도 합니다.
-ms.openlocfilehash: c9cbf135ce44f26322ca3a6972e0d8a7b749fc8c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 67b32dcc6efcc096b9952be41380a8dc3700a668
+ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001021"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31814069"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -44,7 +44,7 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
 
 검색 결과를 미리 보고 내보낼 수 있도록 **콘텐츠 검색** 페이지에 대 한 액세스 권한을 보유 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 Security & 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
-1. 으로 이동 [https://compliance.microsoft.com](https://compliance.microsoft.com) 하 고 Office 365 전자 메일 주소 및 암호를 사용 하 여 로그인 합니다.
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 전자 메일 주소 및 암호를 사용 하 여 로그인 합니다.
     
 2. **콘텐츠 검색** **검색** \> 을 클릭 합니다.
     
