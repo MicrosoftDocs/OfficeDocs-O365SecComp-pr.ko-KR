@@ -1,7 +1,7 @@
 ---
 title: Office 365에서 위협 으로부터 보호
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: laurawi
 ms.audience: Admin
 ms.topic: hub-page
@@ -13,101 +13,148 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-description: Office 365 Enterprise를 통해 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 대 한 무단 액세스를 비롯 한 다양 한 위협 으로부터 조직을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1d6abe6bd9347a625c6e533737ffe4bb3b7cee7a
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+description: 이 문서를 참조 하 여 위협 방지 기능을 즉시 구성 하는 방법을 설명 합니다.
+ms.openlocfilehash: c651c13d5aacf1a7f95a93cacf5030e8ade4b8fd
+ms.sourcegitcommit: 895f67531f2b4afe46c7487ca5b44555ca791bae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693247"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836832"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
-Office 365 Enterprise에서는 스푸핑, 맬웨어, 스팸, 피싱 시도 및 데이터에 대 한 무단 액세스를 비롯 한 다양 한 위협 으로부터 조직을 보호 하는 데 도움을 받을 수 있습니다. 이 페이지의 리소스를 사용 하 여 사용자가 수행할 수 있는 위협 보호 옵션 및 작업에 대해 알아봅니다.
+Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 여기에는 조직에 대해 위협 방지 기능이 설정 되었는지 확인 하기 위한 검사 목록으로 사용할 수 있는 빠른 시작 가이드가 나와 있습니다. Office 365의 위협 방지 기능을 처음 사용 하는 경우 나 시작할 위치를 모르는 경우에는 다음 지침을 출발점으로 사용해 보세요. 
 
-## <a name="malware"></a>맬웨어
+> [!IMPORTANT]
+> **초기 권장 설정은 각 정책 유형에 대해 포함 되지만 대부분의 옵션을 사용할 수 있으며, 특정 조직의 요구에 맞게 설정을 조정할 수**있습니다. 정책이 나 변경 내용이 데이터 센터를 통해 작동 하는 데 약 30 분 정도 걸릴 수 있습니다.
 
-- [스팸 &amp; 방지 맬웨어 방지 보호 기능](anti-spam-and-anti-malware-protection.md)
-    
-- [Office 365 전자 메일 메시지 격리](quarantine-email-messages.md)
-    
-- [분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
+## <a name="prerequisites"></a>필수 구성 요소
 
-## <a name="zero-day-protection"></a>제로 일 보호
+[보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다. 
 
-- [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](zero-hour-auto-purge.md)
+|역할 또는 역할 그룹  |자세한 정보  |
+|---------|---------|
+|Office 365 전역 관리자 |[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/en-us/exchange/permissions-exo/permissions-exo) <br>한<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
-- [Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md)
+자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요.
 
-- [Office 365 ATP 안전한 링크](atp-safe-links.md)
+## <a name="part-1---anti-malware"></a>1 부-맬웨어 방지
 
-## <a name="anti-phishing"></a>피싱 방지
+맬웨어 방지 보호는 EOP ( [Exchange Online protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) )를 포함 하는 구독에서 사용할 수 있습니다. 
 
-피싱 방지 보호는 사용자 가장, 도메인 가장 및 외부 스푸핑 보호를 포함 합니다. 
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **맬웨어 방지**를 선택 합니다.
+2. **기본** 정책을 두 번 클릭 한 다음 **설정을**선택 합니다.
+3. 다음 설정을 지정 합니다.
+    - **맬웨어 검색 응답** 섹션에서 기본 설정인 **아니요**를 그대로 둡니다.
+    - **일반 첨부 파일 형식 필터** 섹션에서 **설정**를 선택 합니다.
+4. **저장**을 클릭합니다.
 
-- [Office 365의 스푸핑 방지 보호 기능](anti-spoofing-protection.md)
+맬웨어 방지 정책 옵션에 대 한 자세한 내용은 [맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하십시오.
 
-- [스푸핑 인텔리전스에 대해 자세히 알아보기](learn-about-spoof-intelligence.md)
+## <a name="part-2---zero-day-protection"></a>2 부-0 일 보호
 
-Office 365에서 사용자 지정 도메인을 사용 하는 경우 조직의 보낸 사람 사기를 중지 하 고, 전자 메일 보안을 강화 하며, 도메인의 신뢰도를 보호 하는 데 도움을 줍니다.
-  
-- [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
-    
-- [dkim을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
-    
-- [DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)
+제로 일 보호는 [Office 365 atp (Advanced Threat protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )를 포함 하는 구독에서 사용할 수 있으며 [atp 안전한 링크](atp-safe-links.md) 및 [atp 안전한 첨부 파일](atp-safe-attachments.md) 정책을 통해 설정 됩니다.
 
-## <a name="anti-spam"></a>스팸 방지
+### <a name="atp-safe-attachments-policies"></a>ATP 안전한 첨부 파일 정책
 
-- [Office 365 스팸 방지 보호](anti-spam-protection.md)
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 첨부 파일**을 선택 합니다.
+2. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 설정**옵션을 선택 합니다.
+3. **전자 메일 첨부 파일 보호** 섹션에서 더하기 기호 (**+**)를 클릭 합니다.
+4. 다음 설정을 지정 합니다.
+    - **이름** 상자에를 입력 `Block malware`합니다.
+    - 응답 섹션에서 **차단을**선택 합니다.
+    - **첨부 파일 리디렉션** 섹션에서 **리디렉션 사용**옵션을 선택 하 고 조직의 보안 관리자 또는 검색 된 파일을 검토할 운영자의 전자 메일 주소를 지정 합니다.
+    - **적용 대상** 섹션에서 **받는 사람 도메인**을 선택 합니다. 그런 다음 도메인을 선택 하 고 **추가**를 선택한 다음 **확인**을 클릭 합니다.
+5. **저장**을 클릭합니다.
+6. (권장 추가 단계) 전역 관리자 또는 SharePoint Online 관리자는 Office 365 환경에 대해 **DisallowInfectedFileDownload** 매개 변수를 *true* 로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. 따라서 사용자가 악성 파일로 검색 된 파일을 열거나 이동 하거나 복사 하거나 공유할 수 없습니다.  
 
-- [Office 365에서 조직 차원의 수신 허용 - 보낸 사람 또는 수신 거부 목록 만들기](create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365.md)
+자세한 내용은 [office 365 atp 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) 및 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 office 365 atp 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요.
 
-- [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)
-  
-    
-## <a name="advanced-threat-protection"></a>고급 위협 방지
+### <a name="atp-safe-links-policies"></a>ATP 안전한 링크 정책
 
-스푸핑을 관리 하 고 피싱 공격 으로부터 보호 하며, ATP (Advanced Threat Protection)를 사용 하는 전자 메일 메시지의 악성 url 또는 파일을 찾기 위한 정책을 구성 합니다.
-  
-- [Office 365 ATP에 대 한 자세한 정보](office-365-atp.md)
+ATP 안전한 링크를 설정 하려면 기본 정책을 검토 하 고 정책을 추가 합니다.
 
-- [Office 365 ATP 계획 2의 개요 보기](office-365-ti.md)
-    
-- [피싱 방지 정책 설정](set-up-anti-phishing-policies.md)
-    
-- [ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
-    
-- [ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)
-    
-## <a name="encryption"></a>암호화
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 링크**를 선택 합니다.
+2. **기본** 정책을 두 번 클릭 합니다.
+3. 다음 **의 안전한 링크 사용** 섹션에서 **office 365 ProPlus, iOS 및 Android 용 office**를 차례로 선택 하 고 **저장**을 클릭 합니다.
+4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 더하기 기호 (**+**)를 클릭 합니다.
+5. 다음 설정을 지정 합니다.
+    - **이름** 상자에 이름을 입력 `Safe Links`합니다.
+    - **작업 선택** 섹션에서 **설정**를 선택 합니다.
+    - 다음 옵션을 선택 합니다.
+        - **다운로드 가능한 콘텐츠를 검색 하기 위해 안전한 첨부 파일 사용** 
+        - **조직 내에서 전송 된 전자 메일 메시지에 안전한 링크 적용**
+        - **사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음**
+    - **적용 대상** 섹션에서 **받는 사람 도메인**을 선택 합니다. 그런 다음 도메인을 선택 하 고 **추가**를 선택한 다음 **확인**을 클릭 합니다.
+6. **저장**을 클릭합니다.
 
-암호화에 대 한 입문, 권한 관리 정책 및 전자 메일 암호화 설정, 추가 암호화 설정 구성에 대해 알아봅니다. 메일 서버에서 사용 하는 루트 인증서에 대 한 자세한 내용은 Office 365를 참조 하세요.
-  
-- [Office 365의 암호화에 대해 자세히 알아보기](encryption.md)
-    
-- [Office 365 Enterprise의 암호화 설정](set-up-encryption.md)
-    
-- [Office 365 메시지 암호화 (OME)](ome.md)
-    
-- [직접 키 가져오기 구현 (byok)](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys#implementing-bring-your-own-key-byok-for-azure-key-vault)
-        
-## <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
+자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](set-up-atp-safe-links-policies.md)참조 하십시오. 
 
-중요 한 데이터에 대 한 액세스 또는 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 관리 계정을 사용할 수 있다는 침해 로부터 조직을 보호 하는 데 도움이 됩니다. 권한이 부여 된 액세스 관리를 사용 하도록 설정한 후에는 사용자가 높은 범위의 액세스 및 시간 범위를 지정 하는 승인 워크플로를 통해 관리자 권한 및 권한 있는 작업을 완료 하기 위한 요청을 수행 해야 합니다.
-  
-- [권한 있는 액세스 관리 개요 보기](privileged-access-management-overview.md)
-    
-- [권한 있는 액세스 관리 시작](privileged-access-management-configuration.md)
+## <a name="part-3---anti-phishing"></a>3 부-피싱 방지 
 
-## <a name="additional-options"></a>추가 옵션
+피싱 방지 보호 기능은 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다. 고급 피싱 방지 보호는 [ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)에서 사용할 수 있습니다. 다음 절차에서는 ATP 피싱 방지 정책을 구성 하는 방법에 대해 설명 합니다. 이 단계는 피싱 방지 정책 (ATP 없이)을 구성 하는 경우에도 비슷합니다.
 
-위협 으로부터 Office 365을 보호 하는 데 도움이 되는 관련 Microsoft 기술 및 프로세스에 대 한 자세한 정보를 확인 하세요.
-  
-- [Azure 권한 관리에 대해 자세히 알아보기](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
-    
-- [Azure 키 자격 증명 모음에 대해 자세히 알아보기](https://docs.microsoft.com/azure/key-vault/)
-    
-- [테 넌 트 격리에 대해 자세히 알아보기](http://download.microsoft.com/download/3/F/0/3F0420A2-657B-44B6-B21E-D7BD98A94390/Tenant%20Isolation%20in%20Office%20365.pdf)
-    
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 피싱 방지**를 선택 합니다.
+2. **기본 정책을**클릭 합니다.
+3. **가장** 섹션에서 **편집**을 클릭 하 고 다음 설정을 지정 합니다.
+    -  **보호할 사용자 추가** 탭에서 보호를 설정 합니다. 그런 다음 조직의 보드 구성원, CEO, CFO 및 기타 선임 리더와 같은 사용자를 추가 합니다. (개별 전자 메일 주소를 입력 하거나를 클릭 하 여 목록을 표시할 수 있습니다.)
+    - **보호할 도메인 추가** 탭에서 **자신이 소유한 도메인을 자동으로 포함**을 설정 합니다. 사용자 지정 도메인이 있는 경우 해당 도메인도 추가 합니다.
+    - **작업** 탭에서 가장 된 사용자 및 가장 한 도메인에 대해 **받는 사람의 정크 메일 폴더로 메시지 이동을** 선택 하 고 보안 팁을 설정 합니다.
+    - **사서함 인텔리전스** 탭에서 사서함 인텔리전스가 설정 되어 있는지 확인 합니다.
+    - **설정 검토** 탭에서 설정을 검토 한 후 **저장**을 클릭 합니다.
+4. **스푸핑** 섹션에서 **편집**을 클릭 하 고 다음 설정을 지정 합니다.
+    - **스푸핑 필터 설정** 탭에서 스푸핑 방지 보호가 설정 되어 있는지 확인 합니다.
+    - **작업** 탭에서 받는 사람의 정크 메일 폴더로 메시지 이동을 선택 합니다.
+    - **설정 검토** 탭에서 설정을 검토 한 후 **저장**을 클릭 합니다. 변경 하지 않은 경우 **취소**를 클릭 합니다.
+5. 기본 정책 설정 페이지를 닫습니다.
 
+피싱 방지 정책 옵션에 대 한 자세한 내용은 [Set up Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
+
+## <a name="part-4---anti-spam"></a>4 부-스팸 방지
+
+스팸 방지 보호 기능은 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다.
+
+1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **스팸 방지**를 선택 합니다.
+2. **사용자 지정** 탭에서 **사용자 지정 설정을** 켭니다.
+3. **기본 스팸 필터 정책을**확장 하 고 **정책 편집**을 클릭 한 후 다음 설정을 지정 합니다.
+    - **스팸 및 대량 작업** 섹션에서 임계값을 5 또는 6으로 설정 합니다.
+    - 허용 **목록** 섹션에서 허용 되는 보낸 사람 및 도메인을 검토 하 고 필요에 따라 편집 합니다.
+4. **저장**을 클릭합니다.
+
+스팸 방지 정책 옵션에 대 한 자세한 내용은 [스팸 방지 정책 구성을](configure-the-anti-spam-policies.md)참조 하세요.
+
+## <a name="part-5---service-wide-settings"></a>5 부-서비스 수준 설정
+
+### <a name="zero-hour-auto-purge"></a>제로 시간 자동 삭제
+
+[EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 0 시간 자동 삭제 (ZAP)를 사용할 수 있습니다. 이 보호 기능은 기본적으로 설정 되어 있습니다. 그러나 보호 기능을 적용 하려면 다음 조건을 충족 해야 합니다.
+- 스팸 방지 정책에서 **정크 메일 폴더로 메시지를 이동** 하도록 스팸 작업을 설정 합니다.
+- 사용자가 기본 정크 메일 설정을 유지 했으며 정크 메일 보호를 해제 하지 않았습니다.
+
+자세한 내용은 스팸 및 맬웨어를 방지 하는 [0 시간 자동 삭제](zero-hour-auto-purge.md)를 참조 하세요.
+
+### <a name="audit-logging"></a>감사 로깅
+
+감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](view-email-security-reports.md)및 [탐색기](use-explorer-in-security-and-compliance.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요.
+
+## <a name="post-setup-tasks"></a>설치 후 작업
+
+### <a name="watch-for-new-features-and-service-updates"></a>새로운 기능 및 서비스 업데이트 조사
+
+- [Microsoft 365 로드맵 방문](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)
+
+- [Office 365 Advanced Threat Protection 서비스 설명 참조](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)
+
+### <a name="see-how-atp-is-working-for-your-organization"></a>조직에서 ATP가 작동 하는 방식 확인
+
+- [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
+
+- [보안 &amp; 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)
+
+### <a name="periodically-review-and-revise-your-atp-policies"></a>ATP 정책 주기적으로 검토 및 수정
+
+- [office 365 사용자에 게 office 365 위협 조사 및 응답을 안전 하 게 유지](keep-users-safe-with-office-365-ti.md) 
+
+- [Office 365 보안 &amp; 및 준수 센터에서 smart reports 및 insights 사용](reports-and-insights-in-security-and-compliance.md) 

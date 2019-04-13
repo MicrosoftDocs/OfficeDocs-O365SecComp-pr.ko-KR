@@ -1,5 +1,5 @@
 ---
-title: Office 365 메시지 암호화 버전 비교
+title: Office 365 메시지 암호화 (OME) 버전 비교
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -9,17 +9,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 서로 다른 버전의 Office 365 메시지 암호화와 함께 제공 되는 기능의 차이점 및 두 가지 작업을 계속 하는 방법을 설명 합니다.
-ms.openlocfilehash: 47632d7e960e2dee2b068baaf46b98716fc8d4d0
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+description: 서로 다른 버전의 Office 365 메시지 암호화와 함께 제공 되는 기능의 차이점과 두 작업이 함께 작동 하는 방식을 설명 합니다.
+ms.openlocfilehash: bb13208e2b630c8a6217b78b48a4cd3bb4b0de79
+ms.sourcegitcommit: 895f67531f2b4afe46c7487ca5b44555ca791bae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341439"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836842"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
-이 문서에서는 레거시 Office 365 메시지 암호화를 새로운 OME 기능과 비교 합니다. 새 기능은 OME 및 IRM (정보 권한 관리) 모두의 합병 및 최신 버전입니다. 또한 Office 365 조직에서 두 가지가 함께 사용할 수 있는 방식에 대해서도 설명 합니다.
+이 문서에서는 레거시 Office 365 메시지 암호화 (OME)를 새로운 OME 기능과 비교 합니다. 새로운 기능은 OME 및 IRM (정보 권한 관리) 모두의 합병 및 최신 버전입니다. GCC 높음으로 배포할 때의 고유한 특징에 대해서도 설명 합니다. 또한 Office 365 조직에서 두 가지가 함께 사용할 수 있는 방식에 대해서도 설명 합니다.
 
 ||
 |:-----|
@@ -40,11 +40,11 @@ ms.locfileid: "30341439"
 |*사용자 키 (byok) 지원*|없음                |없음               |byok 지원 됨          |
 ||
 
-## <a name="advantages-of-using-the-new-ome-capabilities-over-legacy-ome"></a>레거시 OME에서 새 OME 기능을 사용 하는 경우의 장점
+## <a name="advantages-of-the-new-ome-capabilities-over-legacy-ome"></a>레거시 OME에 비해 새로운 OME 기능을 사용할 경우의 이점
 
 새로운 기능은 다음과 같은 이점을 제공 합니다.
 
-- 보안 된 공동 작업을 가능 하 게 하는 암호화 전용을 사용 하는 기능, 즉 사용자 지정 제한도 사용할 수 있습니다.
+- 보안 된 공동 작업을 가능 하 게 하는 암호화 전용을 사용 하는 기능, 전달 금지 및 사용자 지정 제한
 - 보낸 사람은 새 기능으로 암호화 된 메일을 outlook 데스크톱, outlook for Mac 및 웹용 outlook 클라이언트에서 수동으로 보낼 수 있습니다.
 - Office 365 받는 사람은 지원 되는 Outlook 클라이언트에서 인라인 환경을 사용 하는 방법을 알아봅니다. 또는 관리자가 Office 365 받는 사람에 게 브랜드 환경을 표시 하도록 선택할 수 있습니다.
 - Gmail, Yahoo 및 Microsoft 계정과 같은 Office 365 외부의 계정은 이러한 받는 사람에 게 더 나은 사용자 환경을 제공 하는 OME 포털에 페더레이션 됩니다. 다른 모든 id는 암호화 된 메시지에 액세스 하기 위해 1 회 통과 코드를 사용 합니다.
@@ -52,23 +52,39 @@ ms.locfileid: "30341439"
 - 관리자는 새 기능을 사용 하 여 암호화 된 전자 메일을 해지할 수 있습니다.
 - 새 기능은 보안 &amp; 및 준수 센터를 통해 자세한 사용 현황 보고서를 제공 합니다.
 
+## <a name="unique-characteristics-of-office-365-message-encryption-in-a-gcc-high-deployment"></a>GCC High 배포의 Office 365 메시지 암호화에 대 한 고유한 특성
+
+GCC High 환경에서 Office 365 메시지 암호화를 사용 하려는 경우에는 받는 사람 환경에 대 한 몇 가지 고유한 특성이 있습니다.
+
+### <a name="encrypted-email-from-gcc-high-to-gcc-high-recipients"></a>gcc high에서 gcc 높은 받는 사람에 게 암호화 된 전자 메일
+
+보낸 사람은 outlook for PC 및 Mac 및 웹용 outlook에서 전자 메일을 수동으로 암호화할 수 있으며, 조직에서 Exchange 메일 흐름 규칙을 사용 하 여 전자 메일을 암호화 하는 정책을 설정할 수 있습니다.
+
+GCC High 내부의 받는 사람은 다른 모든 Office 365 사용자와 PC 및 Mac 용 outlook 및 웹용 outlook에서 동일한 인라인 읽기 환경을 수신 합니다.
+
+### <a name="encrypted-email-from-gcc-high-to-non-gcc-high-recipients"></a>gcc high에서 gcc의 높은 받는 사람에 게 암호화 된 전자 메일
+
+gcc high 내부의 보낸 사람은 gcc high 경계 외부로 암호화 된 전자 메일을 보낼 수 있습니다.
+
+상업용 Office 365 사용자, Outlook.com 사용자 및 기타 전자 메일 공급자 (예: Gmail 및 Yahoo)의 다른 사용자를 포함 하는 GCC (고급) 외부의 모든 받는 사람은 받는 사람을 읽고, 받는 사람을 읽을 수 있는 OME 포털로 리디렉션하는 래퍼 메일을 받습니다. 메시지에 회신 합니다.
+
 ## <a name="coexistence-of-legacy-ome-and-the-new-capabilities-in-the-same-tenant"></a>같은 테 넌 트의 기존 OME 및 새 기능 동시 사용
 
 같은 테 넌 트에서 레거시 OME 및 새 기능을 모두 사용할 수 있습니다. 관리자는 메일 흐름 규칙을 만들 때 사용할 OME 버전을 선택 하 여이 작업을 수행 합니다.
 
-- OME의 레거시 버전을 지정 하려면 Exchange 메일 흐름 규칙 동작 "이전 버전의 OME 적용"을 사용 합니다.
-- 새 기능을 지정 하려면 Exchange 메일 흐름 규칙 동작 "Office 365 메시지 암호화 및 권한 보호 적용"을 사용 합니다.
+- OME의 레거시 버전을 지정 하려면 Exchange 메일 흐름 규칙 작업을 사용 하 여 **이전 버전의 OME를 적용**합니다.
+- 새 기능을 지정 하려면 Exchange 메일 흐름 규칙 작업을 사용 하 여 **Office 365 메시지 암호화 및 권한 보호를 적용**합니다.
 
-또한 사용자는 outlook 데스크톱, Mac 용 outlook 및 웹용 outlook 클라이언트에서 새 기능으로 암호화 된 메일을 수동으로 보낼 수 있습니다.
+사용자는 outlook 데스크톱, Mac 용 outlook 및 웹용 outlook에서 새로운 기능을 사용 하 여 암호화 된 메일을 수동으로 보낼 수 있습니다.
 
-## <a name="migrating-from-legacy-ome-to-the-new-capabilities"></a>레거시 OME에서 새로운 기능으로 마이그레이션
+## <a name="migrate-from-legacy-ome-to-the-new-capabilities"></a>레거시 OME에서 새로운 기능으로 마이그레이션
 
-OME의 두 버전을 함께 사용 하는 경우에도 "이전 버전의 OME 적용" 규칙 동작을 사용한 이전 메일 흐름 규칙을 편집 하 여 "Office 365 메시지 암호화 적용"을 지정 하 여 새 기능을 사용 하는 것이 좋습니다. 및 권한 보호 "를 차례로 누릅니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요.
+OME의 두 버전을 함께 사용할 수 있는 경우에도 규칙 작업을 사용 하는 이전 메일 흐름 규칙을 편집 하는 것이 새로운 기능을 사용 하기 위해 **이전 버전의 OME를 적용** 하는 것이 좋습니다. 메일 흐름 규칙 동작을 사용 하도록 이러한 규칙 업데이트 **Office 365 메시지 암호화 및 권한 보호를 적용**합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요.
 
-## <a name="getting-started-with-ome"></a>OME 시작
+## <a name="get-started-with-ome"></a>OME 시작
 
-일반적으로 새로운 OME 기능은 Office 365 조직에 자동으로 사용 하도록 설정 됩니다. 조직 내에서 새 OME 기능을 사용할 준비가 되 면 [Set up Office 365 Message Encryption capabilities](set-up-new-message-encryption-capabilities.md)를 참조 하세요.
+일반적으로 새로운 OME 기능은 Office 365 조직에 자동으로 사용 하도록 설정 됩니다. 조직 내의 새로운 OME 기능에 대 한 자세한 내용은 [Set up Office 365 Message Encryption capabilities](set-up-new-message-encryption-capabilities.md)를 참조 하십시오.
 
 Azure Information Protection을 사용 하도록 설정한 경우 OME의 레거시 버전은 Office 365 조직에 자동으로 사용 하도록 설정 됩니다. 이전에는 Azure Information Protection을 사용 하도록 설정 하지 않은 경우에도 레거시 OME 작동 했습니다. 더 이상 이러한 경우는 아닙니다.
 
-레거시 OME 사용을 시작 하려면 Azure Information Protection을 사용 하도록 설정한 경우 "이전 버전의 OME 적용" 규칙 동작을 사용 하는 메일 흐름 규칙을 구성 하기만 하면 됩니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요.
+레거시 OME 사용을 시작 하려면 Azure Information Protection을 사용 하도록 설정한 경우 규칙 작업을 사용 하는 메일 흐름 규칙을 구성 하 여 **이전 버전의 OME를 적용**합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요.
