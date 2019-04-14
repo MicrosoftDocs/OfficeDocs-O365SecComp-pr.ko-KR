@@ -310,11 +310,12 @@
 #### [검색 결과를 작업 집합에 추가](compliance20/add-data-to-working-set.md)
 
 ### [사례 데이터 검토](compliance20/reviewing-data-in-working-set.md)
+#### [작업 집합에서 문서 보기](compliance20/view-documents-in-working-set.md)
+#### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
 #### [작업 집합 관리](compliance20/managing-working-sets.md)
+#### [다른 작업 집합에 데이터 추가](compliance20/add-data-to-working-set-from-another-working-set.md)
 #### [로드 집합 관리](compliance20/manage-load-sets.md)
 #### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
-#### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
-#### [작업 집합에서 문서 태그 지정](compliance20/view-documents-in-working-set.md)
 #### [작업 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
 
 ### [대/소문자 데이터 분석](compliance20/analyzing-data-in-working-set.md)
