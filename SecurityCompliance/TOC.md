@@ -5,14 +5,14 @@
 ### [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)
 ### [Microsoft 365 보안 센터](overview-security-center.md)
 ### [Microsoft Secure Score](microsoft-secure-score.md)
-### [Office 365 보안 점수](office-365-secure-score.md)
+### [Office 365 Secure Score](office-365-secure-score.md)
 ## [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
 ### [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 ### [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
 ## [보안 대시보드 개요](security-dashboard.md)
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
-## [최고 정보 보안 책임자(CISO) 워크샵 교육  ](ciso-workshop.md)
+## [최고 정보 보안 책임자(CISO) 워크샵 교육 ](ciso-workshop.md)
 
 # 데이터 및 서비스에 대한 액세스 보호
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
@@ -43,7 +43,7 @@
 ### [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
 ### [Office 365 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
-### [문서 지문](document-fingerprinting.md)
+### [문서 핑거프린팅](document-fingerprinting.md)
 
 # 레코드 관리
 ## [보존 정책](retention-policies.md)
@@ -53,7 +53,7 @@
 ## [이벤트 구동 보존](event-driven-retention.md)
 ## [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ## [파일 플랜 관리자](file-plan-manager.md)
-## [PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+## [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 
 # 데이터 거버넌스 관리
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
@@ -77,17 +77,17 @@
 ### [이벤트 구동 보존](event-driven-retention.md)
 ### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ### [파일 플랜 관리자](file-plan-manager.md)
-### [PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ## [커뮤니케이션 관리](supervision-policies.md)
 ### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [비활성 사서함 관리](inactive-mailboxes-in-office-365.md)
 ### [비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)
-### [비활성 사서함의 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
+### [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
 ### [비활성 사서함 복구](recover-an-inactive-mailbox.md)
 ### [비활성 사서함 복원](restore-an-inactive-mailbox.md)
 ### [비활성 사서함 삭제](delete-an-inactive-mailbox.md)
 ## 데이터 거버넌스 모니터링
-### [문서에 대한 레이블 활동 보기](view-label-activity-for-documents.md)
+### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
 ### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
 ## 데이터 거버넌스에 관한 자세한 정보
@@ -99,10 +99,7 @@
 
 ## [위협 분석을 통해 최신 공격 캠페인 이해](latest-attack-campaigns.md)
 
-## [Advanced Threat Protection ](office-365-atp.md)
-### [빠른 시작 가이드: Office 365 ATP 설정](checklist-atp-setup.md)
-#### [Office 365 ATP와 Windows Defender Advanced Threat Protection 통합](integrate-office-365-ti-with-wdatp.md)
-#### [Office 365 ATP와 SIEM 통합](siem-integration-with-office-365-ti.md)
+## [고급 위협 방지 ](office-365-atp.md)
 ### [ATP 안전한 링크](atp-safe-links.md)
 #### [ATP 안전한 링크 정책 설정](set-up-atp-safe-links-policies.md)
 #### [사용자 지정 "재작성 금지" URL 목록 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
@@ -124,12 +121,14 @@
 #### [위협 탐색기 보기](threat-explorer-views.md)
 ### [위협 트래커](threat-trackers.md)
 ### [Office 365의 공격 시뮬레이터](attack-simulator.md)
+### [Office 365 ATP와 Windows Defender Advanced Threat Protection 통합](integrate-office-365-ti-with-wdatp.md)
+### [Office 365 ATP와 SIEM 통합](siem-integration-with-office-365-ti.md)
 
 ## [피싱 방지 보호 기능 조정](tuning-anti-phishing.md)
 
 ## [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
 ### [EOP란 무엇입니까?](eop/what-is-eop.md)
-### [Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)
+### [Office 365 스팸 방지 보호](anti-spam-protection.md)
 ### [Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법](prevent-email-from-being-marked-as-spam.md)
 ### [Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)
 ### [Office 365에서 아웃바운드 스팸 제어](outbound-spam-controls.md)
@@ -188,13 +187,13 @@
 #### [S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기](send-and-receive-s-mime-signed-and-encrypted-email.md)
 #### [S/MIME용으로 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md)
 #### [S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
-### [How Exchange Online secures your email secrets](exchange-online-secures-email-secrets.md)
+### [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md)
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
 ### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
 ### [Office 365의 암호화에 대한 기술 관련 세부 정보](technical-reference-details-about-encryption.md)
 ### [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](exchange-online-uses-tls-to-secure-email-connections.md)
 
-### [Microsoft 클라우드의 암호화](office-365-encryption-in-the-microsoft-cloud-overview.md)
+### [Microsoft 클라우드에서 암호화](office-365-encryption-in-the-microsoft-cloud-overview.md)
 #### [Office 365 서비스 암호화](office-365-service-encryption.md)
 #### [전송 중인 데이터 암호화](office-365-encryption-for-data-in-transit.md)
 #### [고객 관리 암호화 기능](office-365-customer-managed-encryption-features.md)
@@ -310,7 +309,7 @@
 #### [검색 결과를 작업 집합에 추가](compliance20/add-data-to-working-set.md)
 
 ### [사례 데이터 검토](compliance20/reviewing-data-in-working-set.md)
-#### [작업 집합에서 문서 보기](compliance20/view-documents-in-working-set.md)
+#### [작업 집합에서 문서 태그 지정](compliance20/view-documents-in-working-set.md)
 #### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
 #### [작업 집합 관리](compliance20/managing-working-sets.md)
 #### [다른 작업 집합에 데이터 추가](compliance20/add-data-to-working-set-from-another-working-set.md)
@@ -320,7 +319,7 @@
 
 ### [대/소문자 데이터 분석](compliance20/analyzing-data-in-working-set.md)
 #### [중복에 가까운 검색](compliance20/near-duplicates.md)
-#### [이메일 스레드](compliance20/email-threading.md)
+#### [전자 메일 스레드](compliance20/email-threading.md)
 #### [테마](compliance20/themes.md)
 #### [관련성 모듈을 사용하여 데이터 분석](compliance20/using-relevance.md)
 
@@ -341,7 +340,7 @@
 #### [문서 메타데이터 필드](compliance20/document-metadata-fields.md)
 #### [AzCopy 문제 해결](compliance20/troubleshooting-azcopy.md)
 
-## [Office 365 고급 eDiscovery](office-365-advanced-ediscovery.md)
+## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
 ### [Advanced eDiscovery에서 시작하기](quick-setup-for-advanced-ediscovery.md)
 
 ### [사례 설정](set-up-users-and-cases-in-advanced-ediscovery.md)
@@ -473,7 +472,7 @@
 ### [3단계 보호를 위한 SharePoint Online 사이트 배포](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)
 ### [보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 ### [Azure Information Protection을 사용한 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-azure-information-protection.md)
-### [개발/테스트 환경의 SharePoint Online 사이트 보호](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
+### [개발/테스트 환경의 보안 SharePoint Online 사이트](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
 ## [격리된 SharePoint Online 팀 사이트](isolated-sharepoint-online-team-sites.md)
 ### [격리된 SharePoint Online 팀 사이트 디자인](design-an-isolated-sharepoint-online-team-site.md)
 ### [격리된 SharePoint Online 팀 사이트 배포](deploy-an-isolated-sharepoint-online-team-site.md)
@@ -483,7 +482,7 @@
 
 # 규정 준수 솔루션
 ## [Microsoft 서비스 보안 포털](get-started-with-service-trust-portal.md)
-## [준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [규정 준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 ## [GDPR 데이터 주체 요청 도구](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)
 ### [개요: GDPR에 대한 Office 365 보호](office-365-info-protection-for-gdpr-overview.md)
@@ -495,10 +494,10 @@
 ### [개인 데이터 누수 모니터링](monitor-for-leaks-of-personal-data.md)
 ### [Office 365 GDPR 개발/테스트 환경](gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md)
 ## [온-프레미스 Office 서버에 대한 GDPR](gdpr-for-office-servers.md)
-### [SharePoint Server의 GDPR](gdpr-for-sharepoint-server.md)
-### [Exchange Server GDPR](gdpr-for-exchange-server.md)
+### [SharePoint Server에 대한 GDPR](gdpr-for-sharepoint-server.md)
+### [Exchange Server에 대한 GDPR](gdpr-for-exchange-server.md)
 ### [비즈니스용 Skype 서버 및 Lync Server GDPR](gdpr-for-skype-for-business-server.md)
-### [Project Server GDPR](gdpr-for-project-server.md)
+### [Project Server에 대한 GDPR](gdpr-for-project-server.md)
 ### [Office Web Apps Server 및 Office Online Server GDPR](gdpr-for-office-online-server.md)
 ### [온-프레미스 Windows Server 파일 공유](gdpr-for-on-premises-file-shares.md)
 
@@ -509,7 +508,7 @@
 ## [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
 # 서비스 보증
-## [Office 365 보안 및 준수 센터의 서비스 보장](service-assurance.md)
+## [Office 365 보안 및 준수 센터의 서비스 보증](service-assurance.md)
 ## [Office 365에서 테넌트 격리](office-365-tenant-isolation-overview.md)
 ### [Azure Active Directory에서 격리 및 액세스 제어](office-365-isolation-in-azure-active-directory.md)
 ### [테넌트 경계 모니터링 및 테스트](office-365-monitoring-and-testing.md)
@@ -558,8 +557,8 @@
 ## [EOP의 메시징 정책 및 준수](eop/messaging-policy-and-compliance-in-eop.md)
 ### [EOP의 감사 보고서](eop/auditing-reports-in-eop.md)
 ### [EOP에서 관리자 역할 그룹 보고서 실행](eop/run-an-administrator-role-group-report-in-eop-eop.md)
-## [EOP에서 받는 사람 및 관리자 역할 그룹 관리](eop/manage-recipients-and-admin-role-groups-in-eop.md)
-### [EOP에서 받는 사람 관리](eop/manage-recipients-in-eop.md)
+## [EOP에서 수신자 및 관리자 역할 그룹 관리](eop/manage-recipients-and-admin-role-groups-in-eop.md)
+### [EOP에서 수신자 관리](eop/manage-recipients-in-eop.md)
 ### [EOP에서 메일 사용자 관리](eop/manage-mail-users-in-eop.md)
 ### [EOP에서 그룹 관리](eop/manage-groups-in-eop.md)
 ### [EOP에서 관리자 역할 그룹 권한 관리](eop/manage-admin-role-group-permissions-in-eop.md)
@@ -581,7 +580,7 @@
 ## [문제 해결 및 지원 정보](troubleshooting-and-support-information.md)
 ### [Office 365로 전송한 문제 해결 메일](troubleshooting-mail-sent-to-office-365.md)
 ### [EOP에 대한 도움말 및 지원](eop/help-and-support-for-eop.md)
-### [EOP 관련 일반 FAQ(질문과 대답)](eop/eop-general-faq.md)
+### [EOP 관련 일반 FAQ](eop/eop-general-faq.md)
 ### [EOP 대기, 지연 및 반송 메시지 FAQ](eop/eop-queued-deferred-and-bounced-messages-faq.md)
 ### [위임된 관리 FAQ](eop/delegated-administration-faq.md)
 ## [참조: 정책, 사례 및 지침](reference-policies-practices-and-guidelines.md)
@@ -589,5 +588,5 @@
 ### [Office 365에 메일 보내기](sending-mail-to-office-365.md)
 ### [비 고객에 대한 서비스](services-for-non-customers.md)
 # [Office 365 Enterprise](https://docs.microsoft.com/Office365/Enterprise)
-# [비즈니스용 Office 365](https://docs.microsoft.com/office365/admin/admin-home)
+# [Office 365 비즈니스 에디션](https://docs.microsoft.com/office365/admin/admin-home)
 # [Microsoft 365](https://docs.microsoft.com/microsoft-365/)
