@@ -12,7 +12,13 @@
 ## [보안 대시보드 개요](security-dashboard.md)
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
-## [최고 정보 보안 책임자(CISO) 워크샵 교육 ](ciso-workshop.md)
+## [최고 정보 보안 책임자(CISO) 워크샵 교육](ciso-workshop.md)
+### [모듈 1 - Microsoft 사이버 보안 브리핑](ciso-workshop-module-1.md)
+### [모듈 2 - 보안 관리](ciso-workshop-module-2.md)
+### [모듈 3 - ID 및 액세스 관리](ciso-workshop-module-3.md)
+### [모듈 4a - 위협 방지 전략, 파트 I](ciso-workshop-module-4a.md)
+### [모듈 4b - 위협 방지 전략, 파트 II](ciso-workshop-module-4b.md)
+### [모듈 5 - 정보 보호](ciso-workshop-module-5.md)
 
 # 데이터 및 서비스에 대한 액세스 보호
 ## [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
