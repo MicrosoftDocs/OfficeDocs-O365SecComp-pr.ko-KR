@@ -12,18 +12,18 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: 검색 결과를 다운로드할 때 데이터 처리량을 높이도록 Windows 레지스트리를 구성 하는 방법과 Office 365의 보안 & 준수 센터 및 고급 eDiscovery에서 데이터를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: 36a4f1766f3ac0108d1829c93cfca63bc5cf09f5
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 10eff929d6b668d5e2bc22d8ee7f223da4943326
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000921"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958628"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results-from-office-365"></a>Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기
 
 office 365 eDiscovery 내보내기 도구를 사용 하 여 Security & 준수 센터에서 콘텐츠 검색 결과를 다운로드 하거나 office 365 Advanced eDiscovery에서 데이터를 다운로드 하면이 도구는 다운로드 하기 위해 특정 개수의 동시 내보내기 작업을 시작 합니다. 로컬 컴퓨터에 데이터를 추가할 수 있습니다. 기본적으로 동시 작업의 수는 데이터를 다운로드 하는 데 사용 하는 컴퓨터의 코어 수의 8 배로 설정 됩니다. 예를 들어 이중 코어 컴퓨터 (칩 하나에 두 개의 중앙 처리 장치)가 있는 경우 기본 동시 내보내기 작업 수는 16 개입니다. 데이터 전송 처리량을 늘리기 위해 다운로드 프로세스의 속도를 높이려면 검색 결과를 다운로드 하는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 동시 작업 수를 늘릴 수 있습니다. 다운로드 프로세스의 속도를 향상 시키려면 24 개의 동시 작업을 설정 하는 것으로 시작 하는 것이 좋습니다.
   
-낮은 대역폭의 네트워크를 통해 검색 결과를 다운로드 하는 경우이 설정을 높이면 부정적인 영향을 줄 수 있습니다. 또는 고대역폭 네트워크에서 24 개 보다 많은 동시 작업을 설정할 수 있습니다 (최대 동시 작업 수는 512). 이 레지스트리 설정을 구성한 후에는 환경에 대 한 최적의 동시 작업 수를 찾기 위해 변경 해야 할 수 있습니다.
+낮은 대역폭의 네트워크를 통해 검색 결과를 다운로드 하는 경우이 설정을 높이면 부정적인 영향을 줄 수 있습니다. 또는 고대역폭 네트워크에서 24 개 보다 많은 동시 작업을 설정할 수 있습니다 (최대 동시 작업 수는 48). 이 레지스트리 설정을 구성한 후에는 환경에 대 한 최적의 동시 작업 수를 찾기 위해 변경 해야 할 수 있습니다.
   
 ## <a name="create-a-registry-setting-to-change-the-number-of-concurrent-operations-when-exporting-data"></a>레지스트리 설정 만들기 데이터를 내보낼 때 동시 작업 수를 변경 하려면
 

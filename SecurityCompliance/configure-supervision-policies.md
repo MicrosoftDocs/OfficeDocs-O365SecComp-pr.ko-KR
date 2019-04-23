@@ -16,13 +16,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
-description: 검토할 직원 정보를 캡처하기 위해 관리 검토 정책을 설정 합니다.
-ms.openlocfilehash: 1e381f5f435c7edb9f59afb07c22905f12d35513
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+description: 관리 검토 정책을 설정 하 여 검토를 위한 직원 정보를 수집 합니다.
+ms.openlocfilehash: 92630b1405af6e297390751d9b00e24a82e03087
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001031"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958624"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -36,31 +36,31 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
   
 - **1 단계 (선택 사항)** - [감독을 위한 그룹 설정 (선택 사항)](#step-1---set-up-groups-for-supervision-optional)
 
-    감독 사용을 시작 하기 전에 의사 소통을 검토 하 고 이러한 검토를 수행할 사용자를 결정 합니다. 소수의 사용자만을 시작 하 여 감독의 작동 방식을 확인 하려는 경우 지금 그룹 설정 건너뛰기를 건너뛸 수 있습니다.
+    감독 사용을 시작 하기 전에 연락이 필요한 사람 및 검토를 수행할 사용자를 결정 합니다. 소수의 사용자만을 시작 하 여 감독의 작동 방식을 확인 하려는 경우 지금 그룹 설정 건너뛰기를 건너뛸 수 있습니다.
 
 - **2 단계 (필수 사항)** - [조직에서 감독을 사용할 수 있도록 설정 (필수)](#step-2---make-supervision-available-in-your-organization-required)
 
-    정책을 설정할 수 있도록 자신을 관리 검토 역할 그룹에 추가 합니다. 이 역할이 할당 된 모든 사용자는 준수 센터의 **감독** 페이지에 액세스할 수 있습니다. 검토할 전자 메일이 exchange online에서 호스트 되는 경우 각 검토자에 [게 exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한도 있어야 합니다.
+    정책을 설정할 수 있도록 자신을 관리 검토 역할 그룹에 추가 합니다. 이 역할이 할당 된 모든 사용자는 준수 센터의 **감독** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 exchange online에서 호스팅되는 경우 각 검토자 [에 게 exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
 
 - **3 단계 (선택 사항)** - [사용자 지정 중요 한 정보 유형 및 사용자 지정 키워드 사전 만들기](#step-3---create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional)
 
-    감독 정책에 대 한 사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전을 사용 해야 하는 경우에는 감독 마법사를 시작 하기 전에 만들어야 합니다.
+    감독 정책에 대 한 사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전이 필요한 경우에는 감독 마법사를 시작 하기 전에 만들어야 합니다.
 
 - **4 단계 (필수)** - [감독 정책 설정](#step-4---set-up-a-supervision-policy-required)
 
-    준수 센터에서 감독 정책을 만듭니다. 이러한 정책은 조직에서 검토할 대상이 되는 통신을 정의 하 고 검토를 수행할 사용자를 지정 합니다. 통신에는 전자 메일 및 Microsoft 팀 통신과 타사 플랫폼 통신 (예: Facebook, Twitter 등)이 포함 됩니다.
+    준수 센터에서 감독 정책을 만듭니다. 이러한 정책은 조직에서 검토할 대상이 되는 통신을 정의 하 고 검토를 수행 하는 사람을 지정 합니다. 통신에는 전자 메일 및 Microsoft 팀 통신과 타사 플랫폼 통신 (예: Facebook, Twitter 등)이 포함 됩니다.
 
 - **5 단계-(선택 사항)** [감독 정책 테스트](#step-5---test-your-supervision-policy-optional)
 
-    규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 한 역할을 하는 경우에는 감독 정책이 필요에 따라 작동 하도록 테스트 합니다.
+    감독 정책을 테스트 하 여 원하는 대로 작동 하는지 확인 합니다. 규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 합니다.
 
 - **6 단계-(선택 사항)** [outlook for Office 365 감독 대시보드 또는 웹용 outlook (이전의 outlook web App)을 사용 하지 않고 감독 된 통신을 검토 합니다](#step-6---configure-outlook-for-reviewers-optional) .
 
-    검토자가 outlook 클라이언트 내의 감독 기능에 액세스 하 여 각 항목을 평가 하 고 분류할 수 있도록 outlook을 구성할 수 있습니다.
+    사용자가 각 항목을 평가 하 고 분류할 수 있도록 outlook 클라이언트 내의 감독 기능에 대 한 액세스 권한을 검토자에 게 보내도록 outlook을 구성 합니다.
 
 ## <a name="step-1---set-up-groups-for-supervision-optional"></a>1 단계-감독에 대 한 그룹 설정 (선택 사항)
 
- 감독 정책을 만들 때 의사 소통을 검토 하 고 이러한 검토를 수행할 사용자를 결정 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 간소화 하기 위해 통신을 검토 하 고 이러한 통신을 검토할 사용자에 대 한 그룹을 담당 하는 사용자에 대 한 그룹을 만들 수 있습니다. 그룹을 사용 하는 경우에는 서로 다른 두 사용자 그룹 간의 통신을 모니터링 하려는 경우 또는 감독 하지 않을 그룹을 지정 하려는 경우에는 여러 가지 사항이 필요할 수도 있습니다.
+ 감독 정책을 만들 때, 의사 소통을 검토 한 사람과 검토를 수행 하는 사람을 정의 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 단순화 하기 위해 통신을 검토 한 사용자에 대 한 그룹을 만들고 해당 통신을 검토할 사용자에 대 한 그룹을 만들 수 있습니다. 그룹을 사용 하는 경우 몇 가지 필요할 수 있습니다. 예를 들어 서로 다른 두 사용자 그룹 간의 통신을 모니터링 하거나 감독 하지 않을 그룹을 지정 하려는 경우
 
 다음 차트를 사용 하 여 조직에서 감독 정책을 위해 그룹을 구성 하는 데 도움이 됩니다.
 
@@ -69,18 +69,18 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 |감독 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
 | 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
   
-대규모 엔터프라이즈 조직에서 감독 된 사용자를 관리 하려면 매우 큰 그룹에서 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하 여 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트 하는 데 도움이 될 수 있습니다.
+대규모 엔터프라이즈 조직에서 감독 사용자를 관리 하려면 대규모 그룹의 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하는 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트할 수 있습니다.
 
-1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) 을 만듭니다. 이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
+1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
 
-    - **MemberDepartRestriction = 닫힘** 이렇게 하면 사용자가 메일 그룹에서 자신을 제거할 수 없습니다.
-    - **memberjoinrestriction = 닫힘** 이렇게 하면 사용자가 메일 그룹에 자신을 추가할 수 없습니다.
-    - **ModerationEnabled = True** 이를 통해이 그룹으로 전송 되는 모든 메시지를 승인 해야 하며, 해당 그룹이 감독 정책 구성 외부에서 통신 하는 데 사용 되지 않도록 합니다.
+    - **MemberDepartRestriction = 닫힘** 사용자가 메일 그룹에서 자신을 제거할 수 없도록 합니다.
+    - **memberjoinrestriction = 닫힘** 사용자가 메일 그룹에 자신을 추가할 수 없도록 합니다.
+    - **ModerationEnabled = True** 이 그룹으로 전송 되는 모든 메시지에 대 한 승인이 가능 하며, 해당 그룹이 감독 정책 구성 외부에서 통신 하는 데 사용 되 고 있지는 않은지 확인 합니다.
 
     ```
     New-DistributionGroup -Name <your group name> -Alias <your group alias> -MemberDepartRestriction 'Closed' -MemberJoinRestriction 'Closed' -ModerationEnabled $true
     ```
-2. 조직의 감독 정책에 추가 된 사용자를 추적 하는 데 사용할 사용 되지 않는 [Exchange 사용자 지정 특성](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes?view=exchserver-2019&viewFallbackFrom=exchonline-ww) 을 선택 합니다.
+2. 조직의 감독 정책에 추가한 사용자를 추적 하려면 사용 되지 않는 [Exchange 사용자 지정 특성](https://docs.microsoft.com/Exchange/recipients/mailbox-custom-attributes?view=exchserver-2019&viewFallbackFrom=exchonline-ww) 을 선택 합니다.
 
 3. 다음 PowerShell 스크립트를 반복 된 일정에 따라 실행 하 여 감독 정책에 사용자를 추가 합니다.
 
@@ -106,7 +106,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 **감독** 을 준수 센터에서 메뉴 옵션으로 사용할 수 있도록 하려면 관리 검토 관리자 역할을 할당 받아야 합니다.
   
-이렇게 하려면 자신을 관리 검토 역할 그룹의 구성원으로 추가 하거나 새 역할 그룹을 만들 수 있습니다.
+이렇게 하려면 자신을 관리 검토 역할 그룹의 구성원으로 추가 하거나 역할 그룹을 만들 수 있습니다.
   
 ### <a name="add-members-to-the-supervisory-review-role-group"></a>관리 검토 역할 그룹에 구성원 추가
 
@@ -153,7 +153,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
     자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md) 및 [키워드 사전 만들기](create-a-keyword-dictionary.md) 를 참조 하세요.
 
-    사용자 지정 사전/어휘를 만든 후에는 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) cmdlet을 사용 하 여 구성 된 키워드를 보거나 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet을 사용 하 여 용어를 추가 및 제거할 수 있습니다.
+    사용자 지정 사전/어휘를 만든 후에는 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpkeyworddictionary) cmdlet을 사용 하 여 구성 된 키워드를 보거나 [DlpKeywordDictionary](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/set-dlpkeyworddictionary) cmdlet에서 용어를 추가 및 제거할 수 있습니다.
 
 ## <a name="step-4---set-up-a-supervision-policy-required"></a>4 단계-감독 정책 설정 (필수)
   
@@ -168,7 +168,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
     - 감독 정책 조건을 정의 합니다.
     - 중요 한 정보 유형을 포함 하 고 싶은 경우 선택 합니다. 여기에서 기본 및 사용자 지정 중요 한 정보 유형을 선택할 수 있습니다.
     - 검토할 통신의 비율을 정의 합니다.
-    - 정책에 대 한 검토자를 선택 합니다. 검토자는 개별 사용자 또는 [메일 사용이 가능한 보안 그룹이](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group)될 수 있습니다.
+    - 정책에 대 한 검토자를 선택 합니다. 검토자는 개별 사용자 또는 [메일 사용이 가능한 보안 그룹이](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group)될 수 있습니다. 모든 검토자에 게 Exchange Online에서 호스트 되는 사서함이 있어야 합니다.
     - 정책 선택을 검토 하 고 정책을 만듭니다.
 
 ## <a name="step-5---test-your-supervision-policy-optional"></a>5 단계-감독 정책 테스트 (선택 사항)
@@ -176,7 +176,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 감독 정책을 만든 후에는 테스트를 통해 정의한 조건이 정책에 의해 적절 하 게 적용 되는지 확인 하는 것이 좋습니다. 또한 감독 정책에 중요 한 정보 유형이 포함 되어 있는 경우 [DLP (데이터 손실 방지) 정책을 테스트할](create-test-tune-dlp-policy.md) 수도 있습니다. 다음 단계에 따라 감독 정책을 테스트 합니다.
 
 1. 테스트할 정책에 정의 된 감독 된 사용자로 로그인 한 전자 메일 클라이언트 또는 Microsoft 팀을 엽니다.
-2. 감독 정책에 정의한 기준을 충족 하는 전자 메일 또는 Microsoft 팀 채팅을 보냅니다. 키워드, 첨부 파일 크기, 도메인 등이 될 수 있습니다. 정책에서 구성 된 조건부 설정이 너무 제한적 이거나 너무 lenient 인지 확인 합니다.
+2. 감독 정책에 정의한 기준을 충족 하는 전자 메일 또는 Microsoft 팀 채팅을 보냅니다. 키워드, 첨부 파일 크기, 도메인 등이 될 수 있습니다. 정책에서 구성 된 조건부 설정이 너무 제한적일 또는 너무 lenient 인지 확인 합니다.
 
     > [!Note]
     > 정의 된 정책이 적용 되는 전자 메일은 거의 실시간으로 처리 되며 정책이 구성 된 직후에 테스트할 수 있습니다. Microsoft 팀의 채팅에는 정책에서 전체 프로세스를 수행 하는 데 최대 24 시간이 걸릴 수 있습니다. 
@@ -185,7 +185,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 ## <a name="step-6---configure-outlook-for-reviewers-optional"></a>6 단계-Outlook for 검토자별로 구성 (선택 사항)
 
-Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 대신 outlook을 사용 하려는 검토자는 자신의 outlook 클라이언트를 구성 해야 합니다.
+통신을 검토 하기 위해 Office 365의 감독 대시보드 대신 outlook을 사용 하려는 검토자는 outlook 클라이언트를 구성 해야 합니다.
 
 ### <a name="step-1-copy-the-address-for-the-supervision-mailbox"></a>1 단계: 감독 사서함의 주소 복사
 
@@ -200,15 +200,15 @@ Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 �
 
 2. **감독**으로 이동 합니다.
 
-3. 검토할 통신을 모으는 감독 정책을 클릭 합니다.
+3. 검토 하려는 통신에 대 한 감독 정책을 선택 합니다.
 
 4. 정책 세부 정보 플라이 아웃의 **감독 사서함**에서 주소를 복사 합니다.<br/>![감독 사서함 주소가 강조 표시 된 감독 정책의 세부 정보 플라이 아웃의 ' 감독 사서함 ' 섹션](media/71779d0e-4f01-4dd3-8234-5f9c30eeb067.jpg)
   
 ### <a name="step-2-configure-the-supervision-mailbox-for-outlook-access"></a>2 단계: Outlook 액세스를 위한 감독 사서함 구성
 
-다음으로, Outlook을 메일 감독 사서함에 연결할 수 있도록 검토자가 몇 개의 Exchange Online PowerShell 명령을 실행 해야 합니다.
+다음으로, Outlook을 감독 사서함에 연결할 수 있도록 검토자가 몇 개의 Exchange Online PowerShell 명령을 실행 해야 합니다.
   
-1. Exchange Online PowerShell에 연결 합니다. [어떻게 해야 합니까?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
+1. Exchange Online PowerShell에 연결합니다. [어떻게 해야 합니까?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
 
 2. 다음 명령을 실행 하면 *SupervisoryReview {GUID} @domain onmicrosoft.com* 는 위의 1 단계에서 복사한 주소이 고 *사용자* 는 3 단계에서 감독 사서함에 연결할 검토자의 이름입니다.
 
@@ -216,7 +216,7 @@ Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 �
 
     ```Set-Mailbox "<SupervisoryReview{GUID}@domain.onmicrosoft.com>" -HiddenFromAddressListsEnabled: $false```
 
-3. 아래 3 단계로 넘어가기 전까지 적어도 1 시간 이상 기다립니다.
+3. 3 단계로 넘어가기 전까지 1 시간 이상 기다립니다.
 
 ### <a name="step-3-create-an-outlook-profile-to-connect-to-the-supervision-mailbox"></a>3 단계: Outlook 프로필을 만들어 감독 사서함에 연결
 
@@ -225,7 +225,7 @@ Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 �
 > [!NOTE]
 > 새 Outlook 프로필을 만들려면 Windows 제어판의 메일 설정을 사용 합니다. 이러한 설정에 액세스 하기 위해 수행 하는 경로는 사용 중인 windows 운영 체제 (windows 7, windows 8 또는 windows 10)와 설치 된 Outlook 버전에 따라 달라질 수 있습니다.
   
-1. 제어판을 열고 창 위쪽의 **검색** 상자에 **Mail**을 입력 합니다.<br/>(제어판을 표시 하는 방법에 대 한 자세한 내용을 확인 하세요. [제어판은 무엇 인가요?](https://support.microsoft.com/help/13764/windows-where-is-control-panel)를 참조 하세요.
+1. 제어판을 엽니다. 창 위쪽의 **검색** 상자에 **Mail**을 입력 합니다.<br/>(제어판을 표시 하는 방법에 대 한 자세한 내용을 확인 하세요. [제어판은 무엇 인가요?](https://support.microsoft.com/help/13764/windows-where-is-control-panel)를 참조 하세요.
   
 2. **메일** 앱을 엽니다.
 
@@ -241,7 +241,7 @@ Office 365에서 감독 대시보드를 사용 하 여 통신을 검토 하는 �
   
 8. 메시지가 나타나면 Office 365 자격 증명을 입력 합니다.
 
-9. 성공 하면 Outlook의 폴더 목록 보기에 **감독 \<정책 이름\> ** 폴더가 표시 됩니다.
+9. 성공 하면 Outlook의 폴더 목록 보기에 **감독 \<(정책\> 이름)** 폴더가 표시 됩니다.
 
 ## <a name="powershell-reference"></a>PowerShell 참조
 

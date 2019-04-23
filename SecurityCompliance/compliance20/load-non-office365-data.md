@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 7a27da4b8932d9bef268de897d9a992d8b87bdef
-ms.sourcegitcommit: cf9d9b545a7c153d314aa9c08c7fb16fcd785b3e
+ms.openlocfilehash: 2ac12cf8c447e3341724d9e853da0f32b7c232fb
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737668"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958699"
 ---
 # <a name="load-non-office-365-data-into-a-working-set"></a>작업 집합에 비 Office 365 데이터 로드
 
@@ -47,13 +47,15 @@ office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
 
    여기서 abraham.mcmahon@contoso.com, jewell.gordon@contoso.com 및 staci.gonzalez@contoso.com는 custodians의 SMTP 주소입니다.
 
+![Office가 아닌 365 데이터 업로드 폴더 구조](../media/3f2dde84-294e-48ea-b44b-7437bd25284c.png)
+
 - 비 Office 365 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 ediscovery 관리자 또는 ediscovery 관리자 Microsoft Azure Storage Tools가 설치 되어 있는 계정입니다.
 
 - 다음에서 수행할 수 있는 AzCopy을 설치 합니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
 
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Office 이외의 365 콘텐츠를 고급 eDiscovery에 업로드
 
-1. ediscovery 관리자 또는 ediscovery 관리자로 서, 고급 eDiscovery를 열고 비 Office 365 데이터가 업로드 되는 사례를 엽니다.  **작업 집합** 탭을 클릭 한 다음 비 Office 365 데이터를 로드할 작업 집합을 선택 합니다.  작업 집합을 아직 만들지 않은 경우 지금 만들 수 있습니다.  마지막으로, 기능 **설정 관리** 를 클릭 한 다음 비 Office 365 데이터 섹션에서 **업로드 보기**
+1. ediscovery 관리자 또는 ediscovery 관리자로 서, 고급 eDiscovery를 열고 비 Office 365 데이터가 업로드 되는 사례를 엽니다.  **작업 집합** 탭을 클릭 한 다음 비 Office 365 데이터를 로드할 작업 집합을 선택 합니다.  작업 집합을 아직 만들지 않은 경우 지금 만들 수 있습니다.  마지막으로, 기능 **집합 관리** 를 클릭 하 고 비 Office 365 데이터 섹션에서 **업로드를 확인** 합니다.
 
 2. **파일 업로드** 단추를 클릭 하 여 비 Office 365 데이터 가져오기 마법사를 시작 합니다.
 

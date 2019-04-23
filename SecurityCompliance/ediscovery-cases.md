@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. 고급 eDiscovery에서 추가 분석을 위해 사례 데이터를 준비할 수도 있습니다.
-ms.openlocfilehash: cd7e7f9dba947ef28b27faf9df7b9e927ca73bd5
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.openlocfilehash: 5f31153e70495dc28ee276c36e9edfc67638956e
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31814109"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958529"
 ---
 # <a name="ediscovery-cases-in-the-security--compliance-center"></a>보안 & 준수 센터의 eDiscovery 사례
 
@@ -30,7 +30,7 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
   
 다음 워크플로를 사용 하 여 보안 & 준수 센터 및 고급 eDiscovery에서 eDiscovery 사례를 설정 하 고 사용 합니다.
 
-[1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당](#step-1-assign-ediscovery-permissions-to-potential-case-members)
+[Step 1: Assign eDiscovery permissions to potential case members](#step-1-assign-ediscovery-permissions-to-potential-case-members)
 
 [2 단계: 새 사례 만들기](#step-2-create-a-new-case)
 
@@ -95,7 +95,7 @@ ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할�
 
 ## <a name="step-2-create-a-new-case"></a>2 단계: 새 사례 만들기
 
-다음 단계에서는 새 eDiscovery 사례를 만듭니다. eDiscovery 사례를 만들려면 eDiscovery 관리자(Manager) 역할 그룹의 구성원이어야 합니다. 앞에서 설명한 것 처럼 Security & 준수 센터에서 새 사례를 만든 후에는 조직에서 Office 365 E5 구독을 사용 하는 경우에도 고급 eDiscovery에서 동일한 사례에 액세스할 수 있습니다.
+다음 단계에서는 새 eDiscovery 사례를 만듭니다. eDiscovery 사례를 만들려면 eDiscovery 관리자(Manager) 역할 그룹의 구성원이어야 합니다. 앞에서 설명한 것 처럼 Security & 준수 센터에서 새 사례를 만든 후에는 조직에서 Office 365 E5 구독을 사용 하는 경우에도 고급 eDiscovery에서 같은 사례에 액세스할 수 있습니다.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     

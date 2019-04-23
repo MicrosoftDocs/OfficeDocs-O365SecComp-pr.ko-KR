@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 description: 'Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용 하 여 실제로 대상 사서함으로 가져오는 항목을 필터링 합니다. 지능형 가져오기를 사용 하면 가져올 데이터와 뒤에 남길 작업을 사전에 결정할 수 있습니다. 또한 지능형 가져오기에서는 Office 365로 가져오는 데이터에 대 한 정보를 제공 합니다. '
-ms.openlocfilehash: 33a29c74e3d57a90ae552f6dee72047943698cab
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 41910fe02b2ffaf95252ca41b0120f76c7619dc0
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999481"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958589"
 ---
 # <a name="filter-data-when-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져올 때 데이터 필터링
 
@@ -59,7 +59,7 @@ Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 
 
 PST 가져오기 작업을 만든 후에는 다음 단계에 따라 데이터를 Office 365로 가져오기 전에 필터링 할 수 있습니다.
   
-1. 으로 이동 [https://compliance.microsoft.com/](https://compliance.microsoft.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
+1. 으로 이동 [https://protection.office.com/](https://protection.office.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
 2. **데이터 거 버 넌 스** \> **가져오기를**클릭 합니다.
     

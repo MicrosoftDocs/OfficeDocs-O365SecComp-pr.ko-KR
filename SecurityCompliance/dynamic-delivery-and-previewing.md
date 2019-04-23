@@ -3,7 +3,7 @@ title: 동적 배달 및 Office 365 ATP 안전한 첨부 파일로 미리 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/12/2019
+ms.date: 04/19/2019
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: f16c9928-8e3d-4219-b994-271dc9a16272
 ms.collection:
 - M365-security-compliance
 description: ATP 안전한 첨부 파일 정책을 설정할 때 메시지 지연을 방지 하 고 사용자가 검색 중인 첨부 파일을 미리 볼 수 있도록 동적 전달을 선택 합니다.
-ms.openlocfilehash: d27fa16f8d1d117aa56a2080eb020ab3638ca6fe
-ms.sourcegitcommit: f86383dcb9c52352661d51b22617f1809445beaa
+ms.openlocfilehash: 567b5f0c5bc75123169073bf5dc33de191187846
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30573512"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958569"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 및 Office 365 ATP 안전한 첨부 파일로 미리 보기
 
@@ -81,4 +81,4 @@ ATP 안전한 첨부 파일 검사는 Office 365 데이터가 있는 동일한 �
 
 - [Secure/다목적 인터넷 메일 확장명 (S/MIME)](s-mime-for-message-signing-and-encryption.md)을 사용 하 여 암호화 된 메시지
 
-동적 배달이 지원 되지 않는 경우 ATP 안전한 첨부 파일은 전자 메일 메시지를 검사 하지 않습니다. 그러나 [ATP 안전한 링크 정책이](set-up-atp-safe-links-policies.md) 구성 되는 방식에 따라 전자 메일 메시지 (및 Office 파일)의 url이 검사 됩니다.
+- 동적 배달이 지원 되지 않는 경우 ATP 안전한 첨부 파일은 전자 메일 메시지를 검사 하지 않습니다. 그러나 [ATP 안전한 링크 정책이](set-up-atp-safe-links-policies.md) 구성 되는 방식에 따라 url이 포함 된 첨부 파일을 사용 하 여 전자 메일 메시지를 배달 하는 방법을 확인 합니다. 이러한 경우 전자 메일 메시지 및 Office 파일의 url을 확인 합니다.

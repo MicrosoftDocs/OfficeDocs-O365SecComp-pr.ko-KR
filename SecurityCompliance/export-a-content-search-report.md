@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365의 Security & 준수 센터에서 콘텐츠 검색의 실제 결과를 내보내는 대신 검색 결과 보고서를 간단히 내보낼 수 있습니다. 이 보고서에는 검색 결과에 대 한 요약과 내보낼 각 항목에 대 한 자세한 정보가 있는 문서가 포함 되어 있습니다.
 ms.openlocfilehash: 57c8a9be5c53998570f6ff15a49df69e27745e26
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31813929"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958729"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 

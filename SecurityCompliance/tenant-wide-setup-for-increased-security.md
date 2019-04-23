@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: 26f7bebd1eab1f43da356786bdef5f3fff860053
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: 91471f5e4b16f6950b1f74d747ebce3f802e4890
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955271"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958539"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 
@@ -65,7 +65,7 @@ Exchange 관리 센터의 보안 및 보호를 위한 대부분의 컨트롤은 
   
 |Area * * * *|기본 정책 포함 * * * * * * * * * *|권장 사항 * * * *|
 |:-----|:-----|:-----|
-|**메일 흐름** (전송 규칙이 라고도 하는 메일 흐름 규칙)|아니요|메일 흐름 규칙을 추가 하 여 랜 섬 웨어 로부터 보호할 수 있습니다. 이 블로그 문서의 "Exchange 전송 규칙을 사용 하 여 랜 섬 웨어에서 사용 하는 파일 확장명을 추적 또는 차단 하 [](https://blogs.technet.microsoft.com/office365security/how-to-deal-with-ransomware/)는 방법"을 참조 하세요.  <br><br/> 메일 흐름 규칙을 만들어 외부 도메인으로 전자 메일을 자동 전달 하지 못하게 합니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요. <br/><br/> 추가 정보: [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://technet.microsoft.com/en-us/library/jj919238%28v=exchg.150%29.aspx)|
+|**메일 흐름** (전송 규칙이 라고도 하는 메일 흐름 규칙)|아니요|메일 흐름 규칙을 추가 하 여 랜 섬 웨어 로부터 보호할 수 있습니다. 이 블로그 문서의 "Exchange 전송 규칙을 사용 하 여 랜 섬 웨어에서 사용 하는 파일 확장명을 추적 또는 차단 하 [](https://blogs.technet.microsoft.com/office365security/how-to-deal-with-ransomware/)는 방법"을 참조 하세요. <br><br/> 다음 항목을 참조 하세요. <br/>•[랜 섬 웨어 로부터 보호](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide#ransomware)<br/>•[Office 365의 맬웨어 및 랜 섬 웨어 보호](office-365-malware-and-ransomware-protection.md)<br/><br/>  메일 흐름 규칙을 만들어 외부 도메인으로 전자 메일을 자동 전달 하지 못하게 합니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요. <br/><br/> 추가 정보: [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://technet.microsoft.com/en-us/library/jj919238%28v=exchg.150%29.aspx)|
 |**최신 인증 사용**|아니요|Office 365의 최신 인증은 MFA (다단계 인증)를 사용 하기 위한 필수 구성 요소입니다. 전자 메일을 비롯 한 클라우드 리소스 액세스를 보호 하려면 MFA를 사용 하는 것이 좋습니다. <br/><br/> 다음 항목을 참조 하세요.  <br/>• [Exchange Online에서 최신 인증을 사용 하거나 사용 하지 않도록](https://support.office.com/article/58018196-f918-49cd-8238-56f57f38d662) 설정 <br/>• [비즈니스용 Skype Online: 최신 인증을 위해 테 넌 트를 사용 하도록 설정](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx) <br/><br/> 최신 인증은 Office 2016 클라이언트, SharePoint Online 및 비즈니스용 OneDrive에 기본적으로 사용 하도록 설정 되어 있습니다. <br/><br/> 추가 정보: office [365 최신 인증을 사용 하 여 office 클라이언트에](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a)|
    
 ## <a name="configure-tenant-wide-sharing-policies-in-sharepoint-admin-center"></a>SharePoint 관리 센터에서 테 넌 트 수준 공유 정책 구성

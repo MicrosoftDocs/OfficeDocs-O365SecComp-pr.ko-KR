@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Security & 준수 센터를 사용 하 여 SharePoint online 및 Exchange Online 조직에 대 한 다양 한 보고서 및 Azure Active Directory 보고서를 확인할 수 있습니다.  '
 ms.openlocfilehash: b902ce8e44e20fdb9e5fc22189ca07b6168be329
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31813919"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958269"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서
 
@@ -55,7 +55,8 @@ Security & 준수 센터의 **보고서 보기** 페이지를 사용 하 여 Sha
 |:-----|:-----|
 |**Office 365 감사 로그 보고서** <br/> |office 365 조직에서 사용자 및 관리자 활동에 대 한 office 365 감사 로그를 검색할 수 있습니다. 이 보고서에는 Office 365의 디렉터리 서비스인 Exchange online, SharePoint online, 비즈니스용 OneDrive 및 Azure Active Directory의 항목 사용자 및 관리자 작업이 포함 되어 있습니다. 자세한 내용은 [Office 365에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하세요.  <br/> |
 |**Azure 광고 보고서** <br/> |Office 365 조직에서 비정상적인 또는 의심 스러운 로그인 활동을 확인 하려면 Microsoft Azure에서 로그인 및 활동 보고서를 사용할 수 있습니다. Azure AD audit 로그에서 이벤트를 볼 수도 있습니다. azure에서 보고서를 보려면 **azure AD 보고서 보기**를 클릭 하면 됩니다. 자세한 내용은 다음을 참조하세요. <br/><br/>[Office 365에서 무료 Azure Active Directory 구독을 사용](use-your-free-azure-ad-subscription-in-office-365.md)합니다. <br/> [액세스 및 사용 현황 보고서를 봅니다](http://go.microsoft.com/fwlink/p/?LinkId=506902).  <br/> |
-|**Exchange 감사 보고서** <br/> | Office 365의 감사 기능을 사용 하 여 조직의 관리자가 Exchange Online 구성에 수행한 변경 내용을 추적할 수 있습니다. Microsoft 데이터 센터 관리자 또는 위임 된 관리자가 Exchange Online 조직에 대해 수행한 변경 내용도 로깅됩니다. Exchange Online의 경우 관리자 감사 로깅은 기본적으로 사용 하도록 설정 되므로 모든 작업을 수행 하지 않아도 됩니다. 또한 Exchange Online은 사서함 소유자가 아닌 다른 사용자가 사서함에 대 한 액세스를 추적할 수 있도록 사서함 감사 로깅을 제공 합니다. 비소유자의 액세스를 추적하려는 각 사서함에 대해 사서함 감사 로깅을 사용하도록 설정해야 합니다.  <br/>  관리자와 사서함 감사 로깅, 감사 로그 항목을 볼 수 있는 감사 보고서를 실행할 수 있습니다. 받은 24 시간 이내에 게 전자 메일 메시지에 첨부 된 XML 파일에 있는 사서함 및 관리자 감사 로그를 내보낼 수 있습니다. <br/><br/>감사 로그에 대한 자세한 내용은 를 참조하십시오.  <br/><br/> [사서함 감사 로그 내보내기](http://go.microsoft.com/fwlink/p/?LinkID=404104) <br/> [데이터 센터 관리자 감사 로그 보기 및 내보내기](http://go.microsoft.com/fwlink/p/?LinkId=404109) <br/> [역할 그룹 변경 또는 관리자 감사 로그 검색](http://go.microsoft.com/fwlink/p/?LinkId=404105) <br/>   [Exchange 감사 보고서](http://go.microsoft.com/fwlink/p/?LinkID=395232)  <br/> |
+|
+            Exchange 감사 보고서 <br/> | Office 365의 감사 기능을 사용 하 여 조직의 관리자가 Exchange Online 구성에 수행한 변경 내용을 추적할 수 있습니다. Microsoft 데이터 센터 관리자 또는 위임 된 관리자가 Exchange Online 조직에 대해 수행한 변경 내용도 로깅됩니다. Exchange Online의 경우 관리자 감사 로깅은 기본적으로 사용 하도록 설정 되므로 모든 작업을 수행 하지 않아도 됩니다. 또한 Exchange Online은 사서함 소유자가 아닌 다른 사용자가 사서함에 대 한 액세스를 추적할 수 있도록 사서함 감사 로깅을 제공 합니다. 비소유자의 액세스를 추적하려는 각 사서함에 대해 사서함 감사 로깅을 사용하도록 설정해야 합니다.  <br/>  관리자와 사서함 감사 로깅, 감사 로그 항목을 볼 수 있는 감사 보고서를 실행할 수 있습니다. 받은 24 시간 이내에 게 전자 메일 메시지에 첨부 된 XML 파일에 있는 사서함 및 관리자 감사 로그를 내보낼 수 있습니다. <br/><br/>감사 로그에 대한 자세한 내용은 를 참조하십시오.  <br/><br/> [사서함 감사 로그 내보내기](http://go.microsoft.com/fwlink/p/?LinkID=404104) <br/> [데이터 센터 관리자 감사 로그 보기 및 내보내기](http://go.microsoft.com/fwlink/p/?LinkId=404109) <br/> [역할 그룹 변경 또는 관리자 감사 로그 검색](http://go.microsoft.com/fwlink/p/?LinkId=404105) <br/>   [Exchange 감사 보고서](http://go.microsoft.com/fwlink/p/?LinkID=395232)  <br/> |
    
 ## <a name="supervisory-review-report"></a>관리 검토 보고서
 

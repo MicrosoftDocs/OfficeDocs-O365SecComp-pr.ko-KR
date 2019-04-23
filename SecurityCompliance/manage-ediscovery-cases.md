@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 9a00b9ea-33fd-4772-8ea6-9d3c65e829e6
 description: 보안 & 준수 센터를 사용 하 여 조직에서 ediscovery 보류를 만들고 ediscovery 사례에 액세스 하 고 관리를 관리할 수 있습니다.
 ms.openlocfilehash: 209f31187ad01ffa3e06cf8a5825c4538715fc7d
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31814139"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31958549"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery 사례 관리
 
@@ -25,7 +25,7 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
   
 다음 워크플로를 사용 하 여 보안 & 준수 센터 및 고급 eDiscovery에서 eDiscovery 사례를 설정 하 고 사용 합니다.
   
-[1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당](manage-ediscovery-cases.md#step1_1)
+[Step 1: Assign eDiscovery permissions to potential case members](manage-ediscovery-cases.md#step1_1)
   
 [2 단계: 새 사례 만들기](manage-ediscovery-cases.md#step2_1)
   
