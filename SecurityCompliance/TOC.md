@@ -254,7 +254,7 @@
 ### [콘텐츠 검색을 사용하여 제3자 데이터 검색](use-content-search-to-search-third-party-data-that-was-imported.md)
 ### [eDiscovery 워크플로에서 콘텐츠 검색 사용](use-content-search-in-ediscovery.md)
 ### [오류에 대한 콘텐츠 검색 쿼리 확인](check-your-content-search-query-for-errors.md)
-### [콘텐츠 검색을 위해 숨은 참조 받는 사람을 바꾸지 않음](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members)
+### [콘텐츠 검색을 위해 숨은 참조 받는 사람을 바꾸지 않음](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 ## 콘텐츠 검색 이해하기
 ### [콘텐츠 검색에 대한 제한 사항](limits-for-content-search.md)
 ### [콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
@@ -286,6 +286,7 @@
 ### [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
 ### [보류된 사물함의 복구 가능한 항목 할당량 증가](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
 ### [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)
+### [숨은 참조 및 확장된 메일 그룹 수신자 보존](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
 ## [Microsoft 365의 Advanced eDiscovery(미리 보기)](compliance20/overview-ediscovery-20.md)
 ### [릴리스 정보](compliance20/release-notes-ediscovery20.md)
@@ -314,13 +315,14 @@
 #### [검색 통계](compliance20/search-statistics.md)
 #### [검색 결과를 작업 집합에 추가](compliance20/add-data-to-working-set.md)
 
+### [작업 집합 관리](compliance20/managing-working-sets.md)
+#### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
+#### [다른 작업 집합에 데이터 추가](compliance20/add-data-to-working-set-from-another-working-set.md)
+#### [로드 집합 관리](compliance20/manage-load-sets.md)
+
 ### [사례 데이터 검토](compliance20/reviewing-data-in-working-set.md)
 #### [작업 집합에서 문서 태그 지정](compliance20/view-documents-in-working-set.md)
 #### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
-#### [작업 집합 관리](compliance20/managing-working-sets.md)
-#### [다른 작업 집합에 데이터 추가](compliance20/add-data-to-working-set-from-another-working-set.md)
-#### [로드 집합 관리](compliance20/manage-load-sets.md)
-#### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
 #### [작업 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
 
 ### [대/소문자 데이터 분석](compliance20/analyzing-data-in-working-set.md)
@@ -579,7 +581,6 @@
 ### [Office 365의 메일 흐름 인텔리전스](mail-flow-intelligence-in-office-365.md)
 ## 사서함 보류
 ### [소송 보존 만들기](create-a-litigation-hold.md)
-### [eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 ### [일시 삭제 사서함에서 원본 위치 유지](put-an-in-place-hold-on-a-soft-deleted-mailbox.md)
 ## [격리](quarantine.md)
 ### [관리자로 격리된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md)
