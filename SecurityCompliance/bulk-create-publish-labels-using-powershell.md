@@ -14,11 +14,11 @@ search.appverid:
 - MET150
 description: Office 365에서 레이블을 사용하여 조직의 보존 일정을 구현할 수 있습니다. 레코드 관리자 또는 준수 담당자는 수백 개의 레이블을 만들고 게시해야 할 수 있습니다. 보안 및 준수 센터에서 UI를 통해 이 작업을 수행할 수 있지만, 한 번에 하나씩 레이블을 만드는 경우 시간이 오래 걸리고 비효율적입니다. 아래에 제공된 스크립트와 .csv 파일을 사용하면 레이블 및 레이블 정책을 대량으로 만들고 게시할 수 있습니다. 먼저 Excel에서 레이블 목록과 레이블 정책 목록을 만든 다음, PowerShell을 사용하여 해당 목록에 레이블과 레이블 정책을 대량으로 만듭니다. 이렇게 하면 보존 일정에 필요한 모든 레이블을 한 번에 더 쉽게 만들고 게시할 수 있습니다.
 ms.openlocfilehash: f787171e0b463b09f99698c37ac0bf5c516fad8f
-ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30997284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244139"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>PowerShell을 사용하여 보존 레이블 대량 생성 및 게시
 

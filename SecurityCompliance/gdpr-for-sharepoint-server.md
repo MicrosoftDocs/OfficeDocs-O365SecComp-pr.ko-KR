@@ -9,11 +9,11 @@ ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 SharePoint Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
 ms.openlocfilehash: 84692799222be595d69f7a33a31b0ec3fe767c3d
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253896"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>SharePoint Server의 GDPR
 

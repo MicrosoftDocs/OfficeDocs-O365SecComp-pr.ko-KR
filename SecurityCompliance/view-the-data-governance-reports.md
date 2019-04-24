@@ -14,11 +14,11 @@ search.appverid:
 - MET150
 description: Office 365 보안 및 준수 센터의 데이터 거버넌스 보고서를 사용하여 레이블이 의도대로 콘텐츠에 적용되는지 빠르게 확인할 수 있습니다.
 ms.openlocfilehash: 5374b54c87aaf79f70be733d626171b196639725
-ms.sourcegitcommit: ed822a776d3419853453583e882f3c61ca26d4b2
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30410883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266993"
 ---
 # <a name="view-the-data-governance-reports"></a>데이터 거버넌스 보고서 보기
 

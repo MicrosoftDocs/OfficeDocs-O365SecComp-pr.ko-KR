@@ -9,11 +9,11 @@ ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 비즈니스용 Skype 서버 및 Lync Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
 ms.openlocfilehash: 3452a6cf6ffdd16f18b7fbc0876d2ae424a6fc76
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254876"
 ---
 # <a name="gdpr-for-skype-for-business-server-and-lync-server"></a>비즈니스용 Skype 서버 및 Lync Server GDPR
 
