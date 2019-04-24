@@ -1,5 +1,5 @@
 ---
-title: 작업 집합에서 문서 태그 지정
+title: 작업 집합에서 문서 보기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: dd708554e9b89c8f1057cffb1bcbaddb302cb253
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242536"
 ---
-# <a name="view-documents-in-a-working-set"></a><span data-ttu-id="46a91-102">작업 집합에서 문서 태그 지정</span><span class="sxs-lookup"><span data-stu-id="46a91-102">View documents in a working set</span></span>
+# <a name="view-documents-in-a-working-set"></a><span data-ttu-id="7a7b6-102">작업 집합에서 문서 보기</span><span class="sxs-lookup"><span data-stu-id="7a7b6-102">View documents in a working set</span></span>
 
-<span data-ttu-id="46a91-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="46a91-103">Content coming soon.</span></span>
+<span data-ttu-id="7a7b6-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="7a7b6-103">Content coming soon.</span></span>

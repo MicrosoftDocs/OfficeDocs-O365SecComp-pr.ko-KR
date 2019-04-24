@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: ee83594b89a3a1f968e5d9506c09b660f9fa4e3d
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240923"
 ---
-# <a name="review-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="f021f-102">Advanced eDiscovery에서 사례 데이터 검토 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="f021f-102">Review case data in Advanced eDiscovery (Preview)</span></span>
+# <a name="review-case-data-in-advanced-ediscovery-preview"></a><span data-ttu-id="f7693-102">Advanced eDiscovery에서 사례 데이터 검토 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="f7693-102">Review case data in Advanced eDiscovery (Preview)</span></span>
 
 
-<span data-ttu-id="f021f-103">준비 중</span><span class="sxs-lookup"><span data-stu-id="f021f-103">Coming soon</span></span>
+<span data-ttu-id="f7693-103">준비 중</span><span class="sxs-lookup"><span data-stu-id="f7693-103">Coming soon</span></span>
