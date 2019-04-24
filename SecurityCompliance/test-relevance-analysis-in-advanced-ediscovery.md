@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: 'Office 365 Advanced eDiscovery의 일괄 계산 후 테스트 탭을 사용 하 여 전체 처리 품질을 테스트 및 비교 하 고 유효성 검사를 수행 하는 방법에 대해 알아봅니다.  '
 ms.openlocfilehash: 735a6d8088b4696e2ebc348db435a11914bd0b10
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259982"
 ---
 # <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 분석 테스트
 

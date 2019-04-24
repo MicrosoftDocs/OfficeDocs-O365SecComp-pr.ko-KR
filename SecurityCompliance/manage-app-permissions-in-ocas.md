@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 2062c312-b1e4-4ce7-8cb2-ea39bc0dfdad
 description: office 365의 OAuth 앱-Cloud App Security는 사용자가 Office 365 데이터와 함께 사용할 수 있도록 다운로드 하는 앱을 관리 하는 데 도움이 됩니다.
 ms.openlocfilehash: 0d9916414d55abb73fd99eaf30c3b6df0648b191
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862590"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260204"
 ---
 # <a name="manage-oauth-apps-using-office-365-cloud-app-security"></a>Office 365 Cloud App Security를 사용하여 OAuth 앱 관리
 
@@ -49,7 +49,7 @@ ms.locfileid: "30862590"
 |앱 쿼리 모음의 고급 아이콘  <br/> ![쿼리에 대 한 고급 쿼리 보기를 나타내는 아이콘](media/9958d832-2c81-45ed-a642-d926310ba6b6.png)|기본 보기로 전환 하려면이를 선택 합니다.  <br/> **고급**을 표시 하는 경우 기본 보기를 사용 하 고 있는 것입니다.  <br/> |
 |앱 목록에서 모든 세부 정보 아이콘 열기 또는 닫기  <br/> ![모든 앱에 대 한 모든 세부 정보를 열거나 닫으려면이 아이콘을 클릭 합니다.](media/018fa996-10e8-48ff-986e-55f2b69a5753.png)|각 앱에 대 한 세부 정보를 자세히 보거나 줄이려면이 아이콘을 선택 합니다.  <br/> |
 |앱 목록의 내보내기 아이콘  <br/> ![모든 앱의 csv 파일을 내보내려면이 아이콘을 클릭 합니다.](media/98446851-fd96-4d09-9bb0-831db33090c1.png)|앱 목록, 각 앱에 대 한 사용자 수, 앱, 사용 권한 수준, 앱 상태 및 커뮤니티 사용 수준에 연결 된 사용 권한을 포함 하는 CSV 파일을 내보내려면이 아이콘을 선택 합니다.  <br/> |
-|Name  <br/> |이를 사용 하 여 앱의 이름을 확인 합니다. 설명, 게시자, 앱 웹 사이트 및 앱 ID와 같은 추가 정보를 보려면 이름을 선택 합니다.  <br/> |
+|이름  <br/> |이를 사용 하 여 앱의 이름을 확인 합니다. 설명, 게시자, 앱 웹 사이트 및 앱 ID와 같은 추가 정보를 보려면 이름을 선택 합니다.  <br/> |
 |권한 부여 기준  <br/> |이 방법을 사용 하 여 Office 365 계정에 액세스 하기 위해 앱이 인증 된 사용자의 수를 확인할 수 있습니다. 사용자 계정 목록과 같은 자세한 정보를 보려면 번호를 선택 합니다.  <br/> |
 |사용 권한 수준  <br/> ![앱에 대 한 permisiions 수준을 나타내는 아이콘](media/aaebdd29-35b6-4c62-aef1-7c7817bd803d.png)|이를 통해 Office 365 데이터에 대 한 앱의 액세스 정도를 확인할 수 있습니다. 사용 권한 수준은 **낮음**, **중간**또는 **높음을**지정 하며, **** 이는 앱이 사용자의 프로필 및 이름에만 액세스 함을 나타낼 수 있습니다. 앱에 부여 된 사용 권한, 커뮤니티 사용 및 [거 버 넌 스 로그](suspend-or-restore-an-account-in-ocas.md)에서 관련 활동 등의 자세한 정보를 보려면 수준을 선택 합니다.  <br/> |
 |마지막 권한 <br/> |이 방법을 사용 하 여 OAuth 앱이 조직의 Office 365 데이터에 액세스 하기 위해 마지막으로 권한이 부여 된 날짜 및 시간을 확인할 수 있습니다. <br/>  |

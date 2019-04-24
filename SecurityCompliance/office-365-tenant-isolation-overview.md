@@ -3,23 +3,22 @@ title: Office 365의 테 넌 트 격리
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Microsoft가 Office 365에 대해 테 넌 트 격리를 적용 하는 방법을 요약해 서 설명 합니다.
-ms.openlocfilehash: dceff3b73ac01d3e0422a190d450ee28f7fdfb27
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 87fd8cddce830ef58bcaa08462d6bcb120d1e05f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262380"
 ---
 # <a name="tenant-isolation-in-office-365"></a>Office 365의 테 넌 트 격리
 

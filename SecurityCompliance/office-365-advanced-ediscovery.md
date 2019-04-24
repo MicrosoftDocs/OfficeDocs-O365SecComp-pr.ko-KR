@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: fd53438a-a760-45f6-9df4-861b50161ae4
 description: office 365 Advanced eDiscovery를 통해 office 365 내의 데이터를 분석 하 고, 문서 검토를 간소화 하 고, 효율적인 eDiscovery를 결정 하는 데 도움이 되는 방법을 알아봅니다.
 ms.openlocfilehash: 203d3bfa627064704b4123a757db94bc3478b7bc
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262960"
 ---
 # <a name="office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery
 

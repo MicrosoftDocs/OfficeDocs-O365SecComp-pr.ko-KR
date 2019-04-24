@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 배치 내역 보기 및 이전 결과 내보내기
+title: Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: '선택한 배치 내보내기 세션에 대 한 자세한 정보를 확인 하는 방법과 Office 365 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
 ms.openlocfilehash: a55f299669c2a404ee176153aa766210a3141199
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243518"
 ---
-# <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 배치 내역 보기 및 이전 결과 내보내기
+# <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

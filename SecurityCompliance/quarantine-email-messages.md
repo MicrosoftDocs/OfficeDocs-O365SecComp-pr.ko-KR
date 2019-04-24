@@ -17,11 +17,11 @@ ms.collection:
 - M365-security-compliance
 description: 스팸, 대량, 피싱 메일 및 맬웨어로 필터링 된 받는 전자 메일 메시지를 나중에 검토할 수 있도록 Office 365에서 받는 전자 메일 메시지에 대 한 격리를 설정할 수 있습니다.
 ms.openlocfilehash: 37d573dda0065ce00b0b838bad56c5d9b1979477
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266832"
 ---
 # <a name="quarantine-email-messages-in-office-365"></a>Office 365 전자 메일 메시지 격리
 

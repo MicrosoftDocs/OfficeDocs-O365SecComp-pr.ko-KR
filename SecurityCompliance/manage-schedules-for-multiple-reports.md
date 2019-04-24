@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: 보안 &amp; 및 준수 센터에서 보고서의 일정을 보고, 편집 하 고, 관리 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 045f539345613774fa38fe921e668e1dce7f2e7a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256334"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 

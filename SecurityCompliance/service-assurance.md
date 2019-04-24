@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, finra 및 FedRAMP을 준수 하는 방법을 알아봅니다.
 ms.openlocfilehash: d0cb03a7f5cbc34bdce238155372c9e031a95033
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261182"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 

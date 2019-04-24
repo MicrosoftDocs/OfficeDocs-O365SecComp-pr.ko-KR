@@ -14,18 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1183264f64a74e50f750ee13618f7532ffe04eb7
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.openlocfilehash: 510a10386ea51c0397408450f9fc700e9ce6db9c
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241134"
 ---
 # <a name="tag-documents-in-a-working-set"></a>작업 집합에서 문서 태그 지정
 
 작업 집합에 콘텐츠를 구성 하는 것은 eDiscovery 프로세스에서 다양 한 워크플로를 완료 하는 것이 중요 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다.
 
--  불필요 한 콘텐츠를 Culling.
+-  Culling 불필요 한 콘텐츠
 
 - 관련 콘텐츠 식별
  

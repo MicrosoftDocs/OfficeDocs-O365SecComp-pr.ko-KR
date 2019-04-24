@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: aef6c88f-7f47-40ef-9503-2b400e3bc6fd
 description: Office 365 활동 정책 및 변칙 검색 정책에 대 한 도움말을 볼 수 있습니다.
 ms.openlocfilehash: db44b6cbf5b8c2783cba9862107120d2c33c1559
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264630"
 ---
 # <a name="security-policy-reference-information-for-office-365-cloud-app-security"></a>Office 365 Cloud App security에 대 한 보안 정책 참조 정보
   

@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
 ms.openlocfilehash: 4a12a1cfe68f8ebcfae640a65d0eca68e36fb04c
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260052"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 

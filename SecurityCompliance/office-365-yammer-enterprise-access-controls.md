@@ -3,23 +3,22 @@ title: Office 365 Yammer Enterprise 액세스 제어
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: 프로덕션 환경의 Yammer Enterprise 액세스 제어에 대 한 간략 한 요약입니다.'
-ms.openlocfilehash: 76b62e7ea026a52d822e5a213461e930b1d595e3
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 61598235a010aaa1c578c449cb054073212a41f9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262350"
 ---
 # <a name="yammer-enterprise-access-controls"></a>Yammer Enterprise 액세스 제어 
 

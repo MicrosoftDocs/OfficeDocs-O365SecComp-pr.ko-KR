@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
 ms.openlocfilehash: fdaeba4f38d2e7676b336519f6d04649ee9d8137
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30900127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256466"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 

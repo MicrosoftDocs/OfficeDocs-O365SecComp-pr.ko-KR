@@ -14,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: backscatter 메시지는 일반적으로 수신 스팸의 결과로 메일 서버에서 전송 되는 자동 바운스 메시지입니다. 후방 분산 DNSBL은 후방 산란 메시지를 보내는 IP 주소의 목록입니다. 스팸 발송자 목록이 아니며 후방 분산 DNSBL에서 서버를 제거 하려고 하지 않습니다.
-ms.openlocfilehash: 7581255ce4e68f6eb661df280ecb0cb94b7515ef
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.openlocfilehash: 62dd86d91e89e4f3c966b2969d0d763595bb5dc3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243899"
 ---
 # <a name="backscatter-messages-and-eop"></a>후방 분산 메시지 및 EOP
 
@@ -28,10 +28,8 @@ backscatter 메시지는 일반적으로 수신 스팸의 결과로 메일 서�
 > [!TIP]
 > 후방 분산 웹 사이트의 지침에 따르면 들어오는 모든 메일에 대해 거부 모드를 사용하는 것은 해당 서비스의 권장 구성 또는 사용 방식이 아닙니다. 대신 안전 모드에서 사용해야 합니다. 올바른 후방 분산 구성을 구현하는 방법에 대한 자세한 내용은 [Backscatterer.org 웹 사이트](http://www.backscatterer.org/?target=usage)를 참조하세요. 
   
-## <a name="for-more-information"></a>자세한 내용
-
-[Backscatterer.org IP 목록](https://blogs.msdn.com/b/tzink/archive/2012/08/22/the-backscatterer-org-ip-list.aspx)
+## <a name="related-topics"></a>관련 항목
   
-[고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md) 의 "NDR 백 분산" 항목을 참조 하세요.
+[고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)
   
 

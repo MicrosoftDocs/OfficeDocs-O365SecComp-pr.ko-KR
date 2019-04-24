@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
-description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 위젯에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b3e92228506267e674f2f428fab1ef54d5aee38e
-ms.sourcegitcommit: fec1010e405f14e792d650aee0312b78fced3343
+description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 위젯에 대 한 정보를 확인할 수 있습니다.
+ms.openlocfilehash: 89408618e7c5b3c921382b3efa0257f263509b6d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252222"
 ---
 # <a name="outbound-and-inbound-mail-flow"></a>아웃바운드 및 인바운드 메일 흐름
 
 **아웃 바운드 및 인바운드 메일 흐름** 위젯은 **커넥터 보고서** 와 이전의 **TLS 개요 보고서** 의 정보를 한 곳에 결합 합니다.
 
-![Office 365 보안 & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 보고서](media/2c591d1c-bad6-4b72-890e-f8fdfd4f447a.png)
+![Security & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 보고서](media/2c591d1c-bad6-4b72-890e-f8fdfd4f447a.png)
 
 위젯의 정보는 커넥터 및 Office 365의 TLS 메시지 보호와 관련이 있습니다. 자세한 내용은 다음 항목을 참조 하십시오.
 
@@ -33,7 +33,7 @@ ms.locfileid: "30720288"
 
 **아웃 바운드 및 인바운드 메일 흐름** 위젯은 Office 365 조직에서 메시지를 배달할 때 연결에 사용 되는 TLS 암호화를 표시 합니다. 두 쪽에서 모두 tls를 제공 하는 경우 다른 전자 메일 서비스와 함께 설정 되는 연결은 tls에 의해 암호화 됩니다. 이 위젯은 메일 흐름의 마지막 주에 대 한 스냅숏을 제공 합니다. **자세히 보기**를 클릭 하면 **전송 (TLS) 플라이 아웃에서 보호 된 메시지가** 조직에 들어오고 나가는 메시지에 대 한 TLS 보호 기능을 표시 합니다.
 
-![Office 365 보안 & 준수 센터의 전송 (TLS에서) 플라이 아웃에서 보호 되는 메시지](media/825aa74c-413d-4141-8e3c-dfe68ae78eed.png)
+![보안 & 준수 센터의 전송 (TLS) 플라이 아웃에서 보호 되는 메시지](media/825aa74c-413d-4141-8e3c-dfe68ae78eed.png)
 
 현재 tls 1.2는 Office 365에서 제공 하는 가장 안전한 버전의 tls입니다. 준수 감사에 사용 되는 TLS 암호화를 알아야 하는 경우가 많습니다. 대부분의 원본 및 대상 전자 메일 서버 (사용자가 소유 하지 않으며 Microsoft는 사용 하지 않음)와 직접 관계가 없을 수도 있으므로 이러한 서버에서 사용한 TLS 암호화를 향상 시킬 수 있는 여러 옵션이 없습니다.
 

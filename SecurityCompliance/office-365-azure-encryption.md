@@ -15,11 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 description: '요약: Azure의 암호화에 대 한 설명입니다.'
 ms.openlocfilehash: b8980b3979ada9ac02232065a27a7891936aa945
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265880"
 ---
 # <a name="office-365-encryption-in-azure"></a>Azure의 Office 365 암호화
 
@@ -49,4 +49,4 @@ azure의 암호화에 대 한 자세한 내용은 [azure 암호화 개요](https
 
 ## <a name="azure-key-vault"></a>Azure Key Vault
 
-보안 키 관리는 암호화 모범 사례를 위한 핵심이 아닙니다. 또한 클라우드에서 데이터를 보호 하는 데도 필수적입니다. [Azure 키 자격 증명 모음](https://docs.microsoft.com/azure/key-vault/key-vault-whatis) 을 통해 hsm (하드웨어 보안 모듈)에 저장 된 키를 사용 하는 암호와 같은 키 및 작은 암호를 암호화할 수 있습니다. Azure 키 자격 증명은 클라우드 서비스에서 사용 되는 암호화 키에 대 한 액세스를 관리 및 제어 하기 위한 Microsoft의 권장 솔루션입니다. 키 액세스 권한은 Azure Active Directory 계정이 있는 서비스 또는 사용자에 게 할당 될 수 있습니다. Azure 키 보관소는 hsm 및 키 관리 소프트웨어를 구성, 패치 및 유지 관리 해야 하는 조직입니다. Azure 키 자격 증명 모음을 사용 하는 경우 Microsoft는 사용자의 키를 볼 수 없으며 응용 프로그램에 직접 액세스 하지 않습니다. 제어를 유지 관리 합니다. hsm에서 키를 가져오거나 생성할 수도 있습니다. azure information protection이 포함 된 구독이 있는 조직은 사용자의 [키](https://docs.microsoft.com/information-protection/plan-design/byok-price-restrictions) 를 사용 하도록 azure information protection 테 넌 트를 구성할 수 있습니다 (byok) 및 log). [ 사용](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage)합니다.
+보안 키 관리는 암호화 모범 사례를 위한 핵심이 아닙니다. 또한 클라우드에서 데이터를 보호 하는 데도 필수적입니다. [Azure 키 자격 증명 모음](https://docs.microsoft.com/azure/key-vault/key-vault-whatis) 을 통해 hsm (하드웨어 보안 모듈)에 저장 된 키를 사용 하는 암호와 같은 키 및 작은 암호를 암호화할 수 있습니다. Azure 키 자격 증명은 클라우드 서비스에서 사용 되는 암호화 키에 대 한 액세스를 관리 및 제어 하기 위한 Microsoft의 권장 솔루션입니다. 키 액세스 권한은 Azure Active Directory 계정이 있는 서비스 또는 사용자에 게 할당 될 수 있습니다. Azure 키 보관소는 hsm 및 키 관리 소프트웨어를 구성, 패치 및 유지 관리 해야 하는 조직입니다. Azure 키 자격 증명 모음을 사용 하는 경우 Microsoft는 사용자의 키를 볼 수 없으며 응용 프로그램에 직접 액세스 하지 않습니다. 제어를 유지 관리 합니다. hsm에서 키를 가져오거나 생성할 수도 있습니다. azure information protection이 포함 된 구독이 있는 조직은 [자신의 키](https://docs.microsoft.com/information-protection/plan-design/byok-price-restrictions) (byok)를 사용 하 여 자신의 Azure information protection 테 넌 트를 구성 하 고 [해당 용도를 기록할](https://docs.microsoft.com/information-protection/deploy-use/log-analyze-usage)수 있습니다.

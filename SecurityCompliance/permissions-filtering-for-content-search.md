@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: 콘텐츠 검색 권한 필터링을 사용 하 여 eDiscovery 관리자가 Office 365 조직에서 사서함 및 사이트의 하위 집합만 검색 하도록 합니다.
 ms.openlocfilehash: 1e12a125390deae60cc8762318b3b6bcf0e6533f
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261256"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>콘텐츠 검색에 대한 권한 필터링 구성
 

@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: '관리자: pst 파일을 하드 드라이브에 복사한 다음 Microsoft로 발송 하 여 조직의 pst 파일을 Office 365 사서함으로 대량 가져오는 방법에 대해 알아봅니다. '
 ms.openlocfilehash: 5f04cc0a29fce7b607920253adb10aefb640c914
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264800"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>드라이브 전달을 사용 하 여 조직 PST 파일을 Office 365로 가져오기
 

@@ -15,11 +15,11 @@ search.appverid: MOE150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 description: 'Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용 하 여 실제로 대상 사서함으로 가져오는 항목을 필터링 합니다. 지능형 가져오기를 사용 하면 가져올 데이터와 뒤에 남길 작업을 사전에 결정할 수 있습니다. 또한 지능형 가져오기에서는 Office 365로 가져오는 데이터에 대 한 정보를 제공 합니다. '
 ms.openlocfilehash: 41910fe02b2ffaf95252ca41b0120f76c7619dc0
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255732"
 ---
 # <a name="filter-data-when-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져올 때 데이터 필터링
 

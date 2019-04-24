@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: aed로 분석할 수 있도록 O365에 저장 되지 않은 콘텐츠를 Azure blob로 가져오는 방법에 대해 설명 하는 방법
 ms.openlocfilehash: 7b7694754b26951aa02930fd101631ba9060bc17
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001171"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256576"
 ---
 # <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>고급 eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
 

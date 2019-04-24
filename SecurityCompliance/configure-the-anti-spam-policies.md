@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 스팸 필터링은 기본 스팸 방지 정책 (연결 필터, 스팸 필터 및 아웃 바운드 스팸)을 통해 회사 차원에서 자동으로 사용 하도록 설정 됩니다. 관리자는 기본 스팸 방지 정책을 보고 편집하여 조직의 요구에 가장 잘 맞게 조정할 수 있지만 삭제할 수는 없습니다. 세분성을 높이기 위해 사용자 지정 정책을 만들어 조직의 지정 된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 기본적으로 사용자 지정 정책은 기본 정책보다 우선하지만 정책의 우선 순위를 변경할 수 있습니다.
 ms.openlocfilehash: 992885a394031e133008f28a455383fc2f3f0616
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30691757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260806"
 ---
 # <a name="configure-the-anti-spam-policies"></a>스팸 방지 정책 구성
 

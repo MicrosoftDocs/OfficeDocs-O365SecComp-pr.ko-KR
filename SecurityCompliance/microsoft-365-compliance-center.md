@@ -10,11 +10,11 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 새로운 Microsoft 365 준수 센터에 대해 알아봅니다.
 ms.openlocfilehash: ae608d1aafb803fabe6ed1eba3804b9921bac7b2
-ms.sourcegitcommit: 48b77ec6fb499175507fc08f11dc9f5efe6c4858
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31518388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265578"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>모든 신규 Microsoft 365 준수 센터 개요
 
@@ -24,7 +24,7 @@ ms.locfileid: "31518388"
 
 Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대답](#frequently-asked-questions)및 [다음 단계](#next-steps)를 숙지 하려면이 문서를 읽어 보세요.
 
-[![Microsoft 365 준수 센터](media/m365-compliance-center.png)](https://compliance.microsoft.com)
+[![Microsoft 365 규정 준수 센터](media/m365-compliance-center.png)](https://compliance.microsoft.com)
 
 ## <a name="welcome-to-microsoft-365-compliance"></a>Microsoft 365 준수에 오신 것을 환영 합니다.
 

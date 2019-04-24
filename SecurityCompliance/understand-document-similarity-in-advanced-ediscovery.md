@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: '문서 유사성 값을 검토 하 고 거의 중복으로 간주 되는 두 파일의 최소 resemblance 수준이 Office 365 Advanced eDiscovery에서 작동 합니다. '
 ms.openlocfilehash: eb8f07ceedb10bd0152693dd1e82a28797d86a5a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220428"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264156"
 ---
 # <a name="understand-document-similarity-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 문서 유사성 이해
 

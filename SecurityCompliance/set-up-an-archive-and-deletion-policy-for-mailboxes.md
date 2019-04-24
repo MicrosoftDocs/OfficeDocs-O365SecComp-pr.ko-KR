@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 Office 365에서 만듭니다.
 ms.openlocfilehash: d1dafb145564e6db7e0df7505cff09d10a72e3af
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264604"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: fa83a90448250a91d6c2ccbf43588ee18e00619c
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241265"
 ---
 # <a name="manage-hold-notifications"></a>보류 알림 관리
 
@@ -62,7 +62,7 @@ ms.locfileid: "30295281"
 2. 사례를 선택한 후 **통신** 탭으로 이동 합니다.
 3. 업데이트할 보존 알림을 선택 하 고 **편집**을 클릭 합니다.
 4. 워크플로 편집에서 **포털 콘텐츠 정의** 및 알림 내용 업데이트를 선택 합니다. 
-5. **저장**을 클릭 합니다. 저장 한 후에는 법적 고 지 사항에 현재 할당 되어 있는 모든 custodians에 게 재발급 알림이 전송 됩니다. 또한 미리 알림/에스컬레이션 알림을 사용 하도록 설정 된 경우 이러한 워크플로도 다시 시작 됩니다. 
+5. **저장**을 클릭합니다. 저장 한 후에는 법적 고 지 사항에 현재 할당 되어 있는 모든 custodians에 게 재발급 알림이 전송 됩니다. 또한 미리 알림/에스컬레이션 알림을 사용 하도록 설정 된 경우 이러한 워크플로도 다시 시작 됩니다. 
 
 
 #### <a name="update-legal-hold-notifications-and-settings"></a>법적 보존 알림 및 설정 업데이트

@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: 전자 메일을 통해 재무 데이터, 법적 계약, 기밀 제품 정보, 매출 보고서 및 매출 예상, 환자 건강 정보 또는 고객 및 직원 정보와 같은 중요한 정보를 교환하는 경우가 많습니다. 따라서 사서함이 잠재적으로 중요한 정보를 대량 포함하는 리포지토리가 될 뿐 아니라 정보 유출이 조직에 심각한 위협이 될 수 있습니다.
 ms.openlocfilehash: aef3acaba6b0efe4550958ce1d98add371069648
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253986"
 ---
 # <a name="information-rights-management-in-exchange-online"></a>Exchange Online의 정보 권한 관리
 

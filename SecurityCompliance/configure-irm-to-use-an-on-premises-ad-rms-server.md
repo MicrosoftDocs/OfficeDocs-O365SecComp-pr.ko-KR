@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다.
 ms.openlocfilehash: 1da66c5afa37c96c061a4bf25c0858e4e71e2313
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259576"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   

@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery 프로세스 모듈 실행
+title: Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'office 365 Advanced eDiscovery를 사용 하 여 분석을 위해 office 365 데이터의 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
 ms.openlocfilehash: 19d50bda21f752ec7c22fe52b6fa7272592de128
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261036"
 ---
-# <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 프로세스 모듈 실행
+# <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
 
 사례 파일은 **준비** \> **프로세스**중에 고급 eDiscovery에 로드 됩니다. 
   
@@ -39,7 +39,7 @@ ms.locfileid: "30216118"
     
 - **파일 형식 및 이름**:
     
-  - 고급 eDiscovery에서는 다양 한 형식의 파일을 처리 하 고 로드 된 원시 파일을와 \*같은 표준 형식으로 추출할 수 있습니다. TXT, HTML 또는입니다. XML. 텍스트 파일을 처리 하는 것이 기본 파일 보다 빠릅니다. 추출 된 텍스트 파일은 사례 폴더에 저장 됩니다.
+  - 고급 eDiscovery에서는 다양 한 형식의 파일을 처리 하 고 로드 된 원시 파일을와 \*같은 표준 형식으로 추출할 수 있습니다. TXT, HTML 또는입니다. l. 텍스트 파일의 처리가 기본 파일 보다 빠릅니다. 추출 된 텍스트 파일은 사례 폴더에 저장 됩니다.
     
   - 시스템 파일이 나 그래픽 이미지와 같이 추출할 수 없는 파일을 로드 하지 않습니다. 이러한 파일은 처리 지연 될 수 있습니다.
     

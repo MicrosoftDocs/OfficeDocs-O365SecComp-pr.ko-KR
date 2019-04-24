@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: 스팸 방지 구성에 잘못 된 문자가 있는 관리자가 보안 &amp; 및 준수 센터를 사용 하려고 할 때 문제를 해결 하는 데 도움이 되는 정보를 제공 합니다.
 ms.openlocfilehash: 797389da26823b6528c2aee0baaa118fbfcf7942
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253956"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지 
 

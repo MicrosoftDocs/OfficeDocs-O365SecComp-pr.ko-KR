@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
 ms.openlocfilehash: 2a6b1c29986020ebd63f6ddb960f0d28ba348b3e
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257596"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 

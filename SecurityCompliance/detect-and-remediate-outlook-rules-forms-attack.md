@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 59d45e50e15e3709c8a041ead59b8cc6e2a38306
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30656064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256866"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -175,11 +175,11 @@ EnableUnsafeClientMailRules 키를 찾습니다. 이 설정이 있고 1로 설�
 
 온-프레미스 Exchange 설치를 사용 하는 고객은 패치가 사용 가능 하지 않은 이전 버전의 Outlook을 차단 하는 것이 좋습니다. 이 프로세스에 대 한 자세한 내용은 [Configure Outlook client 블로킹이](https://technet.microsoft.com/en-us/library/dd335207(v=exchg.150).aspx)문서에 나와 있습니다.
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>cybersecurity pro와 같은 Office 365 보호
-Office 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다.  office 365 보안 로드맵: office 365 테 넌 트를 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하는 데 [처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) 를 사용 합니다.
-- 처음 30 일 이내에 수행 해야 하는 작업입니다.  이러한 설정은 즉시 영향을 미치며 사용자에 게 미치는 영향이 낮습니다.
-- 90 일 이내에 수행할 작업입니다. 이러한 작업은 계획 하 고 구현 하는 데 다소 시간이 걸리고 보안 환경을 크게 향상 시킵니다.
-- 90 일을 초과 합니다. 처음 90 일의 향상 된 기능 빌드는 다음과 같은 작업을 수행 합니다.
+## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
+Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다.  [Office 365 보안 로드맵: 최초 30일, 90일 및 그 이후의 최우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.
+- 처음 30일 이내에 수행 할 작업  이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
+- 90일 이내에 수행해야 할 작업 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
+- 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
 ## <a name="see-also"></a>참고 항목:
 - [악의적인 outlook 규칙](https://silentbreaksecurity.com/malicious-outlook-rules/) SilentBreak 보안 게시물 규칙 벡터에 대 한 자세한 내용은 Outlook 규칙에 대 한 자세한 검토를 제공 합니다. 

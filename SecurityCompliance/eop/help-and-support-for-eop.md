@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
 ms.openlocfilehash: 0df74ea3d517a08578099eb03119b23690de655a
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256246"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 

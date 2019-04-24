@@ -14,21 +14,21 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
-description: 고급 eDiscovery 도구로 추가 분석을 위해 Office 365 보안 &amp; 및 준수 센터에서 콘텐츠 검색의 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: de96e06dcbb5ae9a3cbf80b66f976e6ffdfd5b0e
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+description: Advanced eDiscovery 도구로 추가 분석을 위해 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
+ms.openlocfilehash: 772ef8e24613a0fb872f0c397d7ea80bdad16e4b
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261980"
 ---
 # <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery 검색 결과 준비
 
-office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례와 관련 된 검색을 성공적으로 실행 한 후에는 검색 결과를 준비 하 여 더 많은 분석을 수행할 수 있는 office 365 Advanced eDiscovery를 사용 하 여 구조화 되지 않은 데이터를 설정 하 고 법적 사례와 관련 된 데이터의 양을 줄입니다. 고급 eDiscovery 기능에는 다음이 포함 됩니다.
+보안 & 준수 센터에서 eDiscovery 사례와 관련 된 검색을 성공적으로 실행 한 후에는 Office 365 Advanced eDiscovery를 사용 하 여 추가 분석을 위한 검색 결과를 준비 하 고, 구조화 되지 않은 대규모 데이터 집합을 분석할 수 있습니다. 하 고 법적 사례와 관련 된 데이터의 양을 줄일 수 있습니다. 고급 eDiscovery 기능에는 다음이 포함 됩니다.
   
 - **광학 인식** -고급 eDiscovery에 대 한 검색 결과를 준비할 때 OCR (광학 인식) 기능은 이미지에서 텍스트를 자동으로 추출 하며 여기에 로드 된 검색 결과를 포함 합니다. 고급 eDiscovery for analysis OCR은 느슨한 파일, 전자 메일 첨부 파일 및 포함 된 이미지에 대해 지원 됩니다. 이를 통해 이미지 파일의 텍스트 콘텐츠에 고급 eDiscovery (근거리 복제, 전자 메일 스레딩, 테마 및 예측 코딩)의 텍스트 분석 기능을 적용할 수 있습니다. Advanced eDiscovery OCR은 다음과 같은 이미지 파일 형식을 지원 합니다.
 
-    - GIF
+    - .gif
     - JPEG
     - .jpg
     - PNG
@@ -48,13 +48,13 @@ office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례와 관련 된 
 
 - 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 데이터의 custodian 사용자에 게 Office 365 E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 서비스 케이스에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 분석 하는 관리자 및 규정 준수 직원은 E5 라이선스가 필요 하지 않습니다. 
     
-- 고급 eDiscovery에 대 한 검색 결과를 준비 하려면 ediscovery 관리자 또는 Office 365 보안 &amp; 및 준수 센터의 ediscovery 관리자 여야 합니다. ediscovery 관리자는 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. ediscovery 관리자는 ediscovery 관리자 역할 그룹의 구성원 일 수도 있지만 추가 ediscovery 권한이 할당 되었습니다. ediscovery 관리자 권한을 할당 하는 방법에 대 한 자세한 내용은 [Office 365 Security & 준수 센터의 ediscovery 사례](ediscovery-cases.md#step-1-assign-ediscovery-permissions-to-potential-case-members)에서 1 단계를 참조 하십시오.
+- 고급 eDiscovery에 대 한 검색 결과를 준비 하려면 ediscovery 관리자 또는 보안 & 준수 센터의 ediscovery 관리자 여야 합니다. eDiscovery 관리자(Manager)는 eDiscovery 관리자(Manager) 역할 그룹의 구성원입니다. eDiscovery 관리자(Administrator)는 eDiscovery 관리자(Manager) 역할 그룹의 구성원이지만 추가 eDiscovery 권한이 할당되어 있습니다. ediscovery 관리자 권한을 할당 하는 방법에 대 한 자세한 내용은 [ediscovery 사례](ediscovery-cases.md#step-1-assign-ediscovery-permissions-to-potential-case-members)에서 1 단계를 참조 하십시오.
     
 ## <a name="step-1-prepare-search-results-for-advanced-ediscovery"></a>1 단계: 고급 eDiscovery에 대 한 검색 결과 준비
 
 eDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 고급 eDiscovery에 대 한 검색 결과를 준비 하면 데이터가 업로드 되 고 임시로 Microsoft 클라우드의 고유한 Windows Azure 저장소 영역에 저장 됩니다. 이 시점에서 OCR 기능은 검색 결과의 이미지에서 텍스트를 추출 합니다. [2 단계](#step-2-add-the-search-results-data-to-the-case-in-advanced-ediscovery)에서이 텍스트와 기타 검색 결과 데이터는 고급 eDiscovery의 사례에 로드 됩니다.
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -69,7 +69,7 @@ eDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
     
     - 고급 eDiscovery에서 분석을 위해 인덱싱된 항목, 인덱싱된 및 인덱싱되지 않은 항목 또는 인덱싱되지 않은 항목만 준비 하도록 선택 합니다.
     
-    - SharePoint에서 찾은 검색 조건을 충족 하는 모든 버전의 문서를 포함할지 여부를 선택 합니다. 이 옵션은 검색에 대 한 콘텐츠 원본에 사이트가 포함 되는 경우에만 표시 됩니다.
+    - SharePoint에서 찾은 검색 조건을 충족 하는 모든 버전의 문서를 포함할지 여부를 선택 합니다. 이 옵션은 검색에 대한 콘텐츠 원본에 사이트가 포함되는 경우에만 나타납니다.
     
     - 준비 프로세스가 완료 되 고 데이터를 고급 eDiscovery에서 처리할 준비가 된 경우 사용자에 게 알림 메시지를 전송 (또는 복사) 할 지 여부를 지정 합니다.
     
@@ -82,12 +82,12 @@ eDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
 ## <a name="step-2-add-the-search-results-data-to-the-case-in-advanced-ediscovery"></a>2 단계: Advanced eDiscovery의 사례에 검색 결과 데이터 추가
 <a name="step2"> </a>
 
-준비가 완료 되 면 다음 단계는 advanced ediscovery로 이동한 후 검색 결과 데이터 (Microsoft 클라우드의 Azure storage 영역에 업로드 된)를 advanced ediscovery의 사례에 로드 하는 것입니다. 앞에서 설명한 것 처럼 고급 ediscovery에 액세스 하려면 보안 &amp; 준수 센터의 eDiscovery 관리자 이거나 고급 ediscovery의 관리자 여야 합니다.
+준비가 완료 되 면 다음 단계는 advanced ediscovery로 이동한 후 검색 결과 데이터 (Microsoft 클라우드의 Azure storage 영역에 업로드 된)를 advanced ediscovery의 사례에 로드 하는 것입니다. 앞에서 설명한 것 처럼 고급 ediscovery에 액세스 하려면 보안 & 준수 센터의 eDiscovery 관리자 이거나 고급 ediscovery의 관리자 여야 합니다.
   
 > [!NOTE]
-> 보안 &amp; 준수 센터의 데이터를 고급 eDiscovery의 사례에 추가 하는 데 걸리는 시간은 eDiscovery 검색 결과의 크기에 따라 달라 집니다. 
+> 보안 & 준수 센터의 데이터를 고급 eDiscovery의 사례에 추가 하는 데 걸리는 시간은 eDiscovery 검색 결과의 크기에 따라 달라 집니다. 
   
-1. 보안 및 준수 센터에서 **검색 &amp; 조사** \> **eDiscovery**를 클릭하여 조직의 사례 목록을 표시합니다. 
+1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
 2. 고급 eDiscovery에서 데이터를 로드 하려는 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -99,7 +99,7 @@ eDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
     
     ![이 사례는 Advanced eDiscovery에 표시 됩니다.](media/8036e152-70dc-4bb7-9379-61c1ed8326b4.png)
   
-     이러한 컨테이너는 1 단계에서 고급 eDiscovery를 분석 하기 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 보안 &amp; 및 준수 센터의 사례에 있는 검색과 이름이 같습니다. 이 목록에는 사용자가 준비한 컨테이너 들이 나열 됩니다. 다른 사용자가 고급 eDiscovery를 위해 준비 된 검색 결과를 사용 하는 경우 해당 컨테이너가 목록에 포함 되지 않습니다. 
+     이러한 컨테이너는 1 단계에서 고급 eDiscovery를 분석 하기 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 Security & 준수 센터의 사례에 있는 검색과 이름이 같습니다. 이 목록에는 사용자가 준비한 컨테이너 들이 나열 됩니다. 다른 사용자가 고급 eDiscovery를 위해 준비 된 검색 결과를 사용 하는 경우 해당 컨테이너가 목록에 포함 되지 않습니다. 
     
 4. 컨테이너의 검색 결과 데이터를 Advanced eDiscovery의 사례에 로드 하려면 컨테이너를 선택 하 고 **처리**를 클릭 합니다.
     

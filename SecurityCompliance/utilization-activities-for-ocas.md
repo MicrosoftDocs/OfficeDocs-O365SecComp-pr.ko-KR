@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 86f414ad-81de-4703-b40a-c6615bbe9108
 description: Office 365 Cloud App Security을 설정 하 고 롤아웃 한 후에는 특정 작업을 수행 하 여 구성이 올바르고 일반적인 검토를 위해 준비 되었는지 확인 해야 합니다.
 ms.openlocfilehash: 232de4df1d1eb4debdddcee2c1d8672d1aeb4b21
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242546"
 ---
 # <a name="utilization-activities-after-rolling-out-office-365-cloud-app-security"></a>Office 365 Cloud App Security 적용한 후 사용률 활동
   

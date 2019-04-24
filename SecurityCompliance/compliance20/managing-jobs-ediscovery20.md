@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: e5f7c6d0f0932041ef92591afcb59ad836cae0e4
-ms.sourcegitcommit: 19d27ff836ee7fa1f8a4e761e04d928f13f4bfd8
+ms.openlocfilehash: 9898e3c4861da8dbd90168622395981f34aaa510
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31745290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240903"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery-preview"></a>Advanced eDiscovery에서 작업 관리 (미리 보기)
 
@@ -41,3 +41,17 @@ ms.locfileid: "31745290"
 |분석 실행 | 사용자가 중복 검색, 전자 메일 스레딩 분석 및 테마 분석과 같은 고급 eDiscovery 분석 도구를 실행 하 여 작업 집합의 데이터를 분석 합니다. 자세한 내용은 [작업 집합에서 데이터 분석](analyzing-data-in-working-set.md)을 참조 하십시오. | 
 |문서 태그 지정 | 사용자가 작업 집합의 문서를 검토할 때 **태그 지정 패널** 에서 **태그 지정 작업 시작** 을 클릭 하면이 작업이 트리거됩니다. 사용자는 작업 집합에서 문서에 태그를 지정한 다음 문서 보기 패널에서이를 일괄 선택 하 여이 작업을 시작할 수 있습니다. 자세한 내용은 [작업 집합의 태그 문서](tagging-documents.md)를 참조 하세요. | 
 |||
+
+
+## <a name="job-status"></a>작업 상태
+
+다음 표에서는 작업에 대 한 다양 한 상태 상태에 대해 설명 합니다.
+
+| 상태           | 설명     |
+| :----------------- | :----------     |
+| 양식의 | 새 작업을 만들었습니다.  작업이 제출 된 날짜 및 시간은 **작업** 탭의 **작성** 된 열에 표시 됩니다. |
+| 전송 실패 | 작업을 전송 하지 못했습니다.  작업을 트리거한 작업을 다시 실행 해 보십시오. |
+| 진행 중 | 작업이 진행 중 이므로 작업 탭에서 작업의 진행 상태를 모니터링할 수 있습니다. **** |
+| 성공 | 작업이 성공적으로 완료 되었습니다. 작업이 완료 된 날짜 및 시간이 **작업** 탭의 **완료 됨** 열에 표시 됩니다. |
+| 부분적으로 성공한 | 작업이 부분적으로 완료 되었습니다. |
+| Failed | 작업이 실패 했습니다.  작업을 트리거한 작업을 다시 실행 해 보십시오. 작업을 두 번 실패 하면 Microsoft 지원 서비스에 문의 하 여 작업에 대 한 지원 정보를 제공 하는 것이 좋습니다. |

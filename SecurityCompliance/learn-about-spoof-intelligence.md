@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: 스팸 방지 설정 페이지의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 인텔리전스는 Advanced Threat protection 및 Exchange Online Protection의 일부로 Office 365 Enterprise E5의 일부로 사용할 수 있습니다.
 ms.openlocfilehash: 0d18b5f011597266a3a975d49722e88b411c52d8
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252276"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>스푸핑 인텔리전스에 대해 자세히 알아보기
 

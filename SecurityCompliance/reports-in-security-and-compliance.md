@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: 'Security & 준수 센터를 사용 하 여 SharePoint online 및 Exchange Online 조직에 대 한 다양 한 보고서 및 Azure Active Directory 보고서를 확인할 수 있습니다.  '
 ms.openlocfilehash: b902ce8e44e20fdb9e5fc22189ca07b6168be329
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264900"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서
 

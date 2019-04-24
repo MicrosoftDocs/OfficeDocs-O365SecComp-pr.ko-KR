@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: '이전 직원이 조직에 반환 되는 경우 또는 이거나 퇴직 한 직원의 직무에 따라 새 직원을 고용 하는 경우 Office 365에서 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 비활성 사서함의 내용이 포함 된 새 사서함으로 변환 됩니다. '
 ms.openlocfilehash: c7f942c518dcc74a4bdb37d67e27e8a63879ab46
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261546"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복구
 

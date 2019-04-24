@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자: 보안 & 준수 센터의 가져오기 서비스를 사용 하 여 Exchange Online의 사용자 사서함에 대 한 전자 메일 데이터 (PST 파일)를 대량으로 가져오는 방법에 대해 설명 합니다. 이 항목에서는 faq를 제공 하 고 PST 가져오기 프로세스의 작동 방식에 대해 설명 합니다.'
-ms.openlocfilehash: 3a7dba3db608eb45347609acef396faf73da483f
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: afe19076f2b0cd8dd5dfe3a596d80a7b65e8a891
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254910"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Overview of importing your organization PST files to Office 365
 
@@ -95,6 +95,8 @@ Security & 준수 센터의 가져오기 서비스를 사용 하 여 Office 365 
   - [eDiscovery 사례](ediscovery-cases.md) 를 사용 하 여 조직의 법적 조사 관리 
     
   - 보안 & 준수 센터에서 [보존 정책을](retention-policies.md) 사용 하 여 사서함 콘텐츠가 보존 되는 기간을 제어 하 고 보존 기간이 만료 된 후에 콘텐츠를 삭제 합니다. 
+
+  - [감독 정책을](supervision-policies.md) 사용 하 여 메시지를 검사 하 여 메시지가 메시지 표준과 호환 되는지 확인 하 고 분류 유형을 추가 합니다.
     
 - 데이터를 Office 365로 가져오면 데이터 손실을 방지할 수 있습니다. Office 365로 가져오는 전자 메일 데이터는 Exchange Online의 고가용성 기능을 상속 합니다.
     

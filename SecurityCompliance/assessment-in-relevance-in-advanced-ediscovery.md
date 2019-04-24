@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Office 365 Advanced eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하기 위한 평가 단계 및 해당 역할에 대 한 개요를 확인할 수 있습니다.
 ms.openlocfilehash: 1ddaa7ef37f762d7b63bb6c0c51193ff382b8d6b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30212978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250205"
 ---
 # <a name="understand-assessment-in-relevance-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 평가 이해
 

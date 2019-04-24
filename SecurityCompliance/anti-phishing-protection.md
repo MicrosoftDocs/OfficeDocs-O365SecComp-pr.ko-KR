@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365에서는 기본적으로 피싱 공격을 방지 하는 다양 한 보호 기능을 제공 하며 ATP 피싱 방지와 같은 추가 제품을 사용 합니다. 이 항목에서는 Office 365에서 피싱 방지 옵션 및 전략을 배우고 구현 하는 데 사용할 수 있는 온라인 리소스에 대해 소개 합니다.
 ms.openlocfilehash: cceae7d316d89325fa37688995555c9e449ac422
-ms.sourcegitcommit: f6073deec39a18581ed12abef18728417a52cdf4
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242586"
 ---
 # <a name="anti-phishing-protection-in-office-365"></a>Office 365의 피싱 방지 보호 기능
 

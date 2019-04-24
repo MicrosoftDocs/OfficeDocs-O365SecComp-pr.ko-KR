@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 Advanced eDiscovery (미리 보기)에 대 한 릴리스 정보를 포함 합니다.
 ms.openlocfilehash: 32a02c16fd30e740fcc6e1c99b46775b97590a28
-ms.sourcegitcommit: 15202bba32313534da2478b0cd215f32a10c9ef4
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240943"
 ---
 # <a name="release-notes-for-advanced-ediscovery-preview"></a>Advanced eDiscovery (미리 보기)에 대 한 릴리스 정보
 

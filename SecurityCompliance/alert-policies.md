@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다. 그런 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 4770738dd94aaec3fcc776ff7601d99d8d806ace
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.openlocfilehash: e88c3657a03b3cb0ca27b9ae7489e37e986e8199
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31814129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243095"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -100,7 +100,7 @@ Office 365에서는 Exchange 관리 권한 남용, 맬웨어 작업 및 데이�
 
 또한이 표에는 office 365 Enterprise 및 office 365 US 정부 요금제가 나와 있습니다. 조직에 E1/G1 또는 E3/G3 구독 외에 적절 한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다. 
   
-|**기본 경고 정책**|**설명**|**범주**|**Office 365 Enterprise 구독**|
+|**기본 경고 정책**|**설명**|**종류**|**Office 365 Enterprise 구독**|
 |:-----|:-----|:-----|:-----|
 |**잠재적으로 악의적인 URL 클릭이 검색 되었습니다.** <br/> |조직의 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 에서 보호 되는 사용자가 악의적인 링크를 클릭 하면 경고를 생성 합니다. 이 이벤트는 URL 결과 변경 내용이 office 365 atp에서 식별 되거나 사용자가 조직의 office 365 atp 안전한 링크 페이지를 다시 정의할 때 발생 합니다. 이 경고 정책의 심각도는 **높은** 설정입니다. office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.  이 경고를 트리거하는 이벤트에 대 한 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오.  <br/> |위협 관리 <br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
 |**전달/리디렉션 규칙 만들기** <br/> |조직의 누군가가 사서함에 대해 다른 전자 메일 계정으로 메시지를 전달 하거나 리디렉션하는 받은 편지함 규칙을 만들 때 경고를 생성 합니다. 이 정책은 웹에서 outlook (이전의 outlook web App) 또는 Exchange Online PowerShell을 사용 하 여 만든 받은 편지함 규칙만 추적 합니다. 이 정책의 심각도 설정은 **낮습니다** . 받은 편지함 규칙을 사용 하 여 웹에서 outlook의 전자 메일을 전달 및 리디렉션하는 방법에 대 한 자세한 내용은 [웹에서 outlook의 규칙을 사용 하 여 다른 계정으로 메시지를 자동으로 전달](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)를 참조 하세요.  <br/> |위협 관리 <br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
@@ -113,8 +113,8 @@ Office 365에서는 Exchange 관리 권한 남용, 맬웨어 작업 및 데이�
 |**배달 후 발견 된 맬웨어 캠페인** <br/> |맬웨어를 포함 하는 비정상적으로 많은 메시지가 조직의 사서함으로 배달 될 때 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다.  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
 |**검색 및 차단 된 맬웨어 캠페인** <br/> |사용자가 조직의 사용자에 게 특정 유형의 맬웨어를 포함 하는 비정상적으로 많은 전자 메일 메시지를 보내려고 했을 때 경고를 생성 합니다. 이 이벤트가 발생 하면 감염 된 메시지는 Office 365에서 차단 되며 사서함으로 배달 되지 않습니다. 이 정책의 심각도 설정은 **낮습니다** .  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
 |**SharePoint 및 OneDrive에서 검색 된 맬웨어 캠페인** <br/> |조직의 SharePoint 사이트 또는 OneDrive 계정에 있는 파일에서 비정상적으로 많은 맬웨어 또는 바이러스가 검색 되는 경우 경고를 생성 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다.  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
-|**비정상적인 외부 사용자 파일 활동** <br/> |조직 외부의 사용자가 SharePoint 또는 OneDrive의 파일에 대해 일반적으로 많은 수의 활동이 수행 될 때 경고를 생성 합니다. 여기에는 파일 액세스, 파일 다운로드 및 파일 삭제와 같은 작업이 포함 됩니다. 이 정책에는 **높은** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스<br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
-|**외부 파일 공유의 비정상적인 볼륨** <br/> |SharePoint 또는 OneDrive에 있는 대부분의 파일을 조직 외부의 사용자와 공유할 때 경고를 생성 합니다. 이 정책에는 **보통** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스<br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
+|**비정상적인 외부 사용자 파일 활동** <br/> |조직 외부의 사용자가 SharePoint 또는 OneDrive의 파일에 대해 비정상적으로 많은 수의 활동이 수행 되는 경우 경고를 생성 합니다. 여기에는 파일 액세스, 파일 다운로드 및 파일 삭제와 같은 작업이 포함 됩니다. 이 정책에는 **높은** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스<br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
+|**외부 파일 공유의 비정상적인 볼륨** <br/> |SharePoint 또는 OneDrive에서 비정상적으로 많은 파일이 조직 외부의 사용자와 공유 될 때 경고를 생성 합니다. 이 정책에는 **보통** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스<br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
 |**비정상적인 파일 삭제 량** <br/> |너무 많은 수의 파일이 SharePoint 또는 짧은 시간 내에 OneDrive에서 삭제 되는 경우 경고를 생성 합니다. 이 정책에는 **보통** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스 <br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
 |**피싱으로 보고 된 전자 메일의 비정상적 증가** <br/> |메시지를 피싱 메일로 보고 하기 위해 Outlook의 보고서 메시지 추가 기능을 사용 하 여 조직에 있는 사용자 수가 대폭 증가할 때 경고를 생성 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다. 이 추가 기능에 대 한 자세한 내용은 [사용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
 |**사용자가 전자 메일을 보내지 못하도록 제한 됨** <br/> |조직의 누군가가 아웃 바운드 메일을 보낼 수 없는 경우 경고를 생성 합니다. 이는 일반적으로 계정이 손상 되 고 사용자가 보안 & 준수 센터의 **제한 된 사용자** 페이지에 표시 될 때 발생 합니다. (이 페이지에 액세스 하려면 **Threat management > Review > 제한 된 사용자**)로 이동 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다. 제한 된 사용자에 대 한 자세한 내용은 [스팸 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소 제거](https://docs.microsoft.com/office365/securitycompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email)를 참조 하세요.  <br/> |위협 관리<br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |

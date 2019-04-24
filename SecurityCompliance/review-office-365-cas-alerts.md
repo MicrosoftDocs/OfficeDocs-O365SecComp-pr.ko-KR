@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 97e9c3d9-df89-458e-924b-369becee5532
 description: Office 365 Cloud App Security의 알림 페이지를 사용 하 여 잠재적인 문제를 확인 하 고 조치를 취할 수 있습니다. 알림을 해제 하거나 확인 하 고 필요한 경우 사용자 계정을 일시 중단할 수 있습니다.
 ms.openlocfilehash: ddef10293fca7b722a13babdca5c05bbe2398cb3
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261484"
 ---
 # <a name="review-and-take-action-on-alerts-in-office-365-cloud-app-security"></a>검토 하 고 필요한 작업을 Office 365 Cloud App Security 검토 및 알림 작업 수행
   

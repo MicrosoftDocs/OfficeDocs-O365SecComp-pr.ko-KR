@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
 ms.openlocfilehash: da8acd8904ac6a9b1945c8f794bad84a0adc64fb
-ms.sourcegitcommit: 94e9eeab8134a9c4d9004cc16de7da227a0e5cc0
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31784109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262244"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -508,7 +508,7 @@ Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Offi
     
 그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 따라서 **DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다**. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
   
-1. [Connect to Exchange Online using remote PowerShell(원격 PowerShell을 사용하여 Exchange Online에 연결)](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
+1. [Connect to Exchange Online using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)(원격 PowerShell을 사용하여 Exchange Online에 연결)
     
 2. DLP 보고서에 대해 다음 cmdlet 중 하나를 사용 합니다.
     

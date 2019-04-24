@@ -15,11 +15,11 @@ ms.custom: Ent_Solutions
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: '요약: 격리 된 SharePoint Online 팀 사이트에 대 한 디자인 프로세스를 단계별로 안내 합니다.'
 ms.openlocfilehash: 09748fcc22a4a48efc4346ff75a225db612a0ef4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257184"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 디자인
 
@@ -51,7 +51,7 @@ SharePoint 그룹의 구성원이 사이트에서 수행할 수 있는 작업을
   
 다음은 기본 SharePoint 그룹 및 사용 권한 수준입니다.
   
-![SharePoint Online 사이트에 대한 기본 SharePoint 그룹 및 사용 권한 수준입니다.](media/3f892ab4-6479-42f0-a505-1ba0ef94b9c6.png)
+![sharepoint Online 사이트에 대 한 기본 sharepoint 그룹 및 사용 권한 수준입니다.](media/3f892ab4-6479-42f0-a505-1ba0ef94b9c6.png)
   
 ## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>2 단계: 액세스 그룹을 사용 하 여 사용자에 게 사용 권한 할당
 
@@ -91,7 +91,7 @@ office 365의 Azure AD 그룹은 office 365 그룹과는 다릅니다. Azure AD 
   
 Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoint 그룹은 다음과 같습니다.
   
-![기본 SharePoint Online 사이트 그룹의 구성원으로 액세스 그룹을 사용합니다.](media/50a76328-ae69-483e-9029-ac4e7357b5ef.png)
+![access 그룹을 기본 SharePoint Online 사이트 그룹의 구성원으로 사용 합니다.](media/50a76328-ae69-483e-9029-ac4e7357b5ef.png)
   
 세 개의 액세스 그룹을 디자인할 때는 다음 사항을 염두에 두어야 합니다.
   
@@ -101,7 +101,7 @@ Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoin
     
 다음은 projectx 라는 격리 된 사이트에 대 한 SharePoint 그룹 및 액세스 그룹의 예입니다.
   
-![SharePoint Online 사이트인 ProjectX의 액세스 그룹을 사용한 예입니다.](media/13afe542-9ffd-4671-9f48-210a0e2a502a.png)
+![projectx 라는 SharePoint Online 사이트에 대 한 액세스 그룹을 사용 하는 방법의 예입니다.](media/13afe542-9ffd-4671-9f48-210a0e2a502a.png)
   
 ## <a name="phase-3-use-nested-azure-ad-groups"></a>3 단계: 중첩 된 Azure AD 그룹 사용
 
@@ -124,7 +124,7 @@ Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoin
   
 다음은 projectx 구성원 액세스 그룹에 대 한 중첩 된 Azure AD 그룹의 예입니다.
   
-![ProjectX 사이트의 구성원 액세스 그룹에 대해 중첩 액세스 그룹을 사용한 예입니다.](media/2abca710-bf9e-4ce8-9bcd-a8e128264fb1.png)
+![projectx 사이트의 구성원 액세스 그룹에 대해 중첩 된 액세스 그룹을 사용 하는 방법의 예입니다.](media/2abca710-bf9e-4ce8-9bcd-a8e128264fb1.png)
   
 연구, 엔지니어링 및 프로젝트 리더 팀의 모든 사용자 계정이 사이트 구성원 이므로 Azure AD 그룹을 projectx members access 그룹에 추가 하는 것이 더 쉽습니다.
   

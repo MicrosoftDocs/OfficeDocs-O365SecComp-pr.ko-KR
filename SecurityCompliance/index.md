@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 및 규정 준수
+title: Office 365 보안 및 준수
 description: 조직에서 데이터를 보호 하거나 법률 또는 규제 표준을 준수 해야 하는 경우에는 적절 한 위치에 있습니다. 여기에서 Office 365의 보안 및 규정 준수에 대 한 정보를 확인할 수 있습니다.
 services: office-365-security-compliance
 author: robmazz
@@ -11,8 +11,14 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/27/2018
 ms.author: robmazz
+ms.openlocfilehash: 737d3a1b979b420e7f9bd24f056a4d5abf7a9906
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256506"
 ---
-# <a name="office-365-security-and-compliance"></a>Office 365 보안 및 규정 준수
+# <a name="office-365-security-and-compliance"></a>Office 365 보안 및 준수
 
 조직에서 데이터를 보호 하거나 법률 또는 규제 표준을 준수 해야 하는 경우에는 적절 한 위치에 있습니다. 아래 영역은 Office 365의 보안 및 규정 준수에 대 한 학습을 처음으로 멈춘 것입니다.
 

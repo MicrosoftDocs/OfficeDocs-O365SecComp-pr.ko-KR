@@ -11,11 +11,11 @@ ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 있는 최상위 도메인 메일 흐름 상태 정보에 대해 알아볼 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: baa69c3373623d4742d6d957a5022012fb60f7e7
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267043"
 ---
 # <a name="top-domain-mail-flow-status-insight"></a>상위 도메인 메일 흐름 상태 파악
 

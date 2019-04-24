@@ -13,11 +13,11 @@ search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 Office 365 감사 로그를 검색 하는 방법을 알아봅니다.
 ms.openlocfilehash: 62c58d123367fd5ee6778034716bc1deb5afc1e2
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260966"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Office 365 감사 로그에서 eDiscovery 활동 검색
 

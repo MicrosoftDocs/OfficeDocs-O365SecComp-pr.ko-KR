@@ -1,5 +1,5 @@
 ---
-title: 분석을 실행 하 여 더 빠른 조사
+title: 신속한 조사를 위한 분석 실행
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 9516035fb6c758fdff1852249fff2815f19af559
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257616"
 ---
-# <a name="run-analytics-to-investigate-faster"></a>분석을 실행 하 여 더 빠른 조사
+# <a name="run-analytics-to-investigate-faster"></a>신속한 조사를 위한 분석 실행
 
 증거 수집이 크면 검토 하기가 어려울 수 있습니다. 증명 정보 집합에 동일 하거나 유사한 전자 메일 메시지 또는 문서의 복사본이 여러 개 포함 되는 경우가 많습니다. 데이터 조사 (미리 보기)는 정보 손실 없이 검토 해야 하는 문서 크기를 줄이는 데 도움이 되는 다양 한 분석 도구를 제공 합니다. 이러한 기능에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 

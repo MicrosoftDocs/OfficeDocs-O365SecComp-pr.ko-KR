@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
 ms.openlocfilehash: 50078e3f22ede8a1af2a252a7a6f75710534c062
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258956"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 

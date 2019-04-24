@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: e9e34d112cb84c27fec35e752eb2bfcbfe3136a3
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243442"
 ---
 # <a name="add-data-to-a-working-set-from-another-working-set"></a>다른 작업 집합의 작업 집합에 데이터 추가
 일부 경우에는 한 작업 집합에서 문서 일부를 carve 다른 작업 집합에서 개별적으로 사용 해야 할 수도 있습니다.  이 기능은 작업 집합에 콘텐츠를 culled 데이터 하위 집합에 대 한 분석을 실행 하려는 경우 특히 유용 합니다.

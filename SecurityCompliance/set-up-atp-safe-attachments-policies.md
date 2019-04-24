@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 정책을 정의 하 여 전자 메일의 악의적인 파일 로부터 조직을 보호 합니다.
 ms.openlocfilehash: 47587d9e189a6fcda2cac964130d0b257b4f4166
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266863"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 파일 정책 설정
 

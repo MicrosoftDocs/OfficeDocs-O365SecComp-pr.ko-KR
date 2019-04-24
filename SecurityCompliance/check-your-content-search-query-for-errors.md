@@ -12,11 +12,11 @@ search.appverid: MOE150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 description: 검색을 실행 하기 전에 키워드 쿼리를 검사 하 여 지원 되지 않는 문자나 소문자 부울 연산자와 같은 오류 및 오타에 대 한 콘텐츠 검색을 확인 합니다. 오류가 발견 되 면 수정 된 쿼리를 제안 합니다.
 ms.openlocfilehash: 00612116f345e2a01471d5c83df77f4bc8db9ce5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243669"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
 

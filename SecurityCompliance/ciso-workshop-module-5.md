@@ -11,11 +11,11 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
 ms.openlocfilehash: f68345f4041d4fae9d35f38ea2b80af5dee7c762
-ms.sourcegitcommit: d3e3ce391130f209f4d63c2528e1da8342cd732f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31908291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243339"
 ---
 # <a name="ciso-workshop-module-5-information-protection"></a>ciso 워크숍 모듈 5: 정보 보호
 

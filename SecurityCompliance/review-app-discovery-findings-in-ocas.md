@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: aac65513-e75e-4c82-a668-9a6604dd9f9d
 description: Office online의 앱 검색 보고서 검토 365 cloud app Security에서는 조직의 사용자가 클라우드 앱을 사용 하는 방법에 대해 자세히 알아볼 수 있습니다. 방화벽 및 프록시의 로그 파일을 사용 하 여 앱 검색 보고서를 만든 후에는 앱 검색 대시보드의 결과를 검토 하세요.
 ms.openlocfilehash: f50ad372450b2a1404829eeb6f6964c1d954dccd
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264982"
 ---
 # <a name="review-app-discovery-findings-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 결과 검토
   
@@ -81,7 +81,7 @@ ms.locfileid: "30216258"
     
 4. 사용자 또는 ip 주소를 지정 하 고 **설명** 상자에 해당 사용자 또는 ip 주소를 제외 하는 이유에 대 한 정보를 입력 합니다. 
     
-5. **Add(추가)** 를 선택합니다.
+5. **추가**를 선택합니다.
     
 ## <a name="next-steps"></a>다음 단계
 

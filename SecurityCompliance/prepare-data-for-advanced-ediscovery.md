@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에 대한 데이터 준비
+title: Office 365 Advanced eDiscovery에 대 한 데이터 준비
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,15 +12,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
-description: 'office 365 보안 &amp; 및 준수 센터를 사용 하 여 office 365 Advanced eDiscovery로 analysis for office 365 데이터를 준비 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 8ede0f0cb97e1b49297b66fb2b929b3cb292ed52
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+description: 'Microsoft 365 보안 &amp; 및 준수 센터를 사용 하 여 office 365 Advanced eDiscovery로 analysis for office 365 데이터를 준비 하는 방법을 알아봅니다. '
+ms.openlocfilehash: d9d81c145a86075affd76761eb6dcff0f84a1eac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265510"
 ---
-# <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에 대한 데이터 준비
+# <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에 대 한 데이터 준비
 
 이 항목에서는 Advanced eDiscovery의 사례에 대 한 콘텐츠 검색 결과를 로드 하는 방법에 대해 설명 합니다. 
   
@@ -29,7 +29,7 @@ ms.locfileid: "30218798"
   
 ## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>1 단계: 고급 eDiscovery 용 Office 365 데이터 준비
 
-고급 eDiscovery를 사용 하 여 데이터를 분석 하려면 office 365 보안 &amp; &amp; 준수 센터의 **콘텐츠 검색** 페이지에 나열 된 office 365 보안 및 준수 센터에서 실행 한 콘텐츠 검색의 결과를 사용 하거나 검색을 수행 합니다. ediscovery 사례 (보안 &amp; 준수 센터의 **ediscovery** 페이지에 나열 됨)와 연결 됩니다. 
+고급 eDiscovery를 사용 하 여 데이터를 분석 하기 위해 microsoft 365 보안 <b0></b0> <b2></b2> 및 준수 센터의 <b1>콘텐츠 검색</b1> 페이지에 나열 된 < 365 보안 준수 센터에서 실행 한 콘텐츠 검색의 결과를 사용할 수 있습니다. ediscovery 사례에 연결 된 검색 (보안 <b4></b4> 및 준수 센터의 <b3>ediscovery</b3> 페이지에 나열 됨) 
   
 고급 ediscovery에서 분석에 대 한 검색 결과를 준비 하는 방법에 대 한 자세한 단계는 [Office 365 Advanced eDiscovery에 대 한 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)를 참조 하세요.
   

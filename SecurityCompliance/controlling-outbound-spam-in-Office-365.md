@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 아웃바운드 스팸 제어
+title: Office 365에서 아웃 바운드 스팸 제어
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -15,24 +15,24 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: 조직에서 스팸으로 표시 된 대량의 대량 메일을 보내는 경우 Office 365을 사용 하 여 전자 메일을 보내지 못하도록 차단할 수 있습니다. 이 문서를 읽으면 이러한 상황이 일어나는 이유와 해당 작업에 대해 수행할 수 있는 작업에 대해 자세히 알아보세요.
-ms.openlocfilehash: 476e1ddff73493881708e050fb7834e6bd6b272a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 9261c61d472554ae7d2f3d4134514d23b600ee87
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258216"
 ---
-# <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃바운드 스팸 제어
+# <a name="control-outbound-spam-in-office-365"></a>Office 365에서 아웃 바운드 스팸 제어
 
 우리는 공유 서비스 이기 때문에 아웃 바운드 스팸을 심각 하 게 관리 합니다.  공유 리소스 풀에는 많은 고객이 아웃 바운드 스팸을 전송 하는 경우 서비스의 아웃 바운드 IP 신뢰도를 저하 시키고 다른 고객을 위한 전자 메일의 성공적인 배달 능력에 영향을 줄 수 있습니다. 고객 a가 고객 a에 게 unfair 하는 경우 (customer B spams 및 다양 한 타사 IP 차단 목록에 사용 되는 ip 주소가 나열 되어 있는 경우)
 
 ## <a name="what-admins-can-do-to-control-outbound-spam"></a>아웃 바운드 스팸 제어를 위해 관리자가 수행할 수 있는 작업
 
-- **계정에서 스팸 메일을 보내거나 종료할 때 알림을 사용 하도록 설정**합니다. 관리자는 메시지가 아웃 바운드 스팸으로 표시 되 고 높은 위험 수준으로 전송 될 때마다 bcc'ed를 가져올 수 있습니다. 관리자는이 사서함을 모니터링 하 여 해당 네트워크에 손상 된 계정이 있는지 또는 스팸 필터가 실수로 전자 메일을 스팸으로 표시 하 고 있는지 여부를 검색할 수 있습니다.  아웃 바운드 스팸 정책을 설정 하는 방법에 대 한 자세한 내용은 [여기](configure-the-outbound-spam-policy.md)에서 확인할 수 있습니다.
+- **계정에서 스팸 메일을 보내거나 종료할 때 알림을 사용 하도록 설정**합니다. 관리자는 메시지가 아웃 바운드 스팸으로 표시 되 고 높은 위험 수준으로 전송 될 때마다 bcc'ed를 가져올 수 있습니다. 관리자는이 사서함을 모니터링 하 여 해당 네트워크에 손상 된 계정이 있는지 또는 스팸 필터가 실수로 전자 메일을 스팸으로 표시 하 고 있는지 여부를 검색할 수 있습니다. [여기](configure-the-outbound-spam-policy.md)에서 아웃 바운드 스팸 정책 설정에 대 한 자세한 정보를 확인할 수 있습니다.
  
 - **타사 전자 메일 공급자의 스팸 불만 사항을 수동으로 검토**합니다. 많은 타사 전자 메일 서비스 (예: Outlook.com, Yahoo, AOL)는 사용자가 서비스의 전자 메일을 스팸으로 표시 하는 경우 메시지를 패키지화 하 여 검토를 위해 다시 전송 하는 의견 루프를 제공 합니다. Outlook.com에 대 한 보낸 사람 지원에 대해 자세히 알아보려면 [여기](https://sendersupport.olc.protection.outlook.com/pm/services.aspx)를 클릭 하세요.
 
-## <a name="what-eop-does-to-control-outbound-spam"></a>아웃 바운드 스팸을 제어 하는 EOP 
+## <a name="what-eop-does-to-control-outbound-spam"></a>아웃 바운드 스팸을 제어 하는 EOP
 
 1. **별도의 ip 풀로의 아웃 바운드 트래픽 조각화**. 고객이 서비스를 통해 아웃 바운드를 전송 하는 모든 메시지는 스팸을 검사 합니다. 메시지가 스팸으로 판단 되 면 위험성이 높은 배달 풀을 통해 라우팅됩니다. 이 IP 풀에는 비 결과물 상태 알림 및 스팸이 포함 되어 있습니다. 받는 사람에 게 전달 되는 전자 메일의 품질에 따라 전자 메일을 수락 하지 않을 수 있습니다.<br/><br/>이러한 방식으로 트래픽을 분할 하면 낮은 품질의 전자 메일 (스팸, 백 분산 ndr)에서 일반 아웃 바운드 전자 메일 풀의 신뢰도를 낮출 수 없습니다. 높은 위험 수준 풀은 일반적으로 범용이 아니지만, 인터넷을 통해 많은 수신기의 신뢰도를 낮게 합니다. 
 

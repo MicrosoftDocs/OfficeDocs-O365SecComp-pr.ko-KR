@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: 사용자가 분석을 위해 Microsoft에 전자 메일 메시지를 보내지 못하도록 하 고 자체 보안 프로세스에서 사용 하는 것을 방지 하는 Exchange 메일 흐름 규칙을 만들 수 있습니다.
 ms.openlocfilehash: 3552899c2fb471624234625331492edcd8421da6
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264280"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
 

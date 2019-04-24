@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: '요약: Azure Active Directory 내에서 격리 및 액세스 제어 작업을 수행 하는 방법을 설명 합니다.'
 ms.openlocfilehash: bca7dc11bc3cc76e18972eb03761775da5f5cb41
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262666"
 ---
 # <a name="isolation-and-access-control-in-azure-active-directory"></a>Azure Active Directory에서 격리 및 액세스 제어
 

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 7c9d1a52acef48d96816fefbb1c836032d262b93
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240980"
 ---
 # <a name="themes"></a>테마
 사용자가 문서를 작성 하는 방법은 무엇 인가요? 일반적으로 문서에서 전달 하려는 하나 이상의 아이디어를 시작 하 고 아이디어와 일치 하는 단어를 사용 하 여 작성 합니다. 가장 많이 알려진 개념은 해당 아이디어와 관련 된 단어의 빈도가 가장 많습니다. 사용자가 문서를 사용 하는 방법에 대 한 정보가 들어 있습니다. 문서를 읽을 때 고려해 야 할 중요 한 사항은 문서에서 전달을 시도 하 고 있는 위치 및 아이디어 간의 관계와 관련 된 아이디어입니다.

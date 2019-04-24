@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 2c385dad023febef4ad8b36b8f92f66cbb5b082e
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258722"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 

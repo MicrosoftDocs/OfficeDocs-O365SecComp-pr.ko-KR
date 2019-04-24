@@ -3,23 +3,22 @@ title: Office 365 리소스 제한
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365 내의 다양 한 응용 프로그램에 대 한 리소스 제한에 대해 설명 합니다.'
-ms.openlocfilehash: ee44bde8bd93d3628ed3f31f5bbbce024a3056b5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: d4315923ea1ab09e2e7651fb2fcaddb085871d4d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262410"
 ---
 # <a name="resource-limits"></a>리소스 제한 사항
 

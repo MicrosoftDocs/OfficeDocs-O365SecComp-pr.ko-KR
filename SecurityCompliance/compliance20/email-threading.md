@@ -1,5 +1,5 @@
 ---
-title: 전자 메일 스레드
+title: 이메일 스레드
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,13 +15,13 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: ca4823ecfc06ddc0ef6f6840ad55fec492ac472c
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243809"
 ---
-# <a name="email-threading"></a>전자 메일 스레드
+# <a name="email-threading"></a>이메일 스레드
 
 잠시 동안 진행 되 고 있는 전자 메일 대화를 생각해 볼 수 있습니다. 대부분의 경우 스레드의 마지막 전자 메일에는 위의 모든 전자 메일의 내용이 포함 됩니다. 마지막 전자 메일을 검토 하면 해당 스레드에서 발생 한 대화의 전체 컨텍스트를 확인할 수 있습니다. 전자 메일 스레딩에서는 검토자가 컨텍스트 손실 없이 수집 된 문서를 분수로 검토할 수 있도록 이러한 전자 메일이 식별 됩니다.
 

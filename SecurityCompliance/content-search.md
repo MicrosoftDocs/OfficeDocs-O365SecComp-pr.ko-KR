@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 microsoft 365의 준수 센터에서 콘텐츠 검색 도구를 사용 하 여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리와 검색 조건을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 콘텐츠 검색은 gdpr 데이터 주체 요청과 관련 될 수 있는 콘텐츠를 검색 하기 위한 효과적인 도구 이기도 합니다.
 ms.openlocfilehash: 67b32dcc6efcc096b9952be41380a8dc3700a668
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31814069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264104"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 

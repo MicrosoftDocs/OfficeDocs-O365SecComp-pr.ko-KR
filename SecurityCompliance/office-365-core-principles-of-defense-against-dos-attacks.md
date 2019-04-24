@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Microsoft가 DoS (서비스 거부) 공격에 대 한 방어에서 absorption, 검색 및 완화의 핵심 원칙을 활용 하는 방법
 ms.openlocfilehash: bbfffeaeb66fc83e80c274be9550a95dc8bd3f0d
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262930"
 ---
 # <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>서비스 거부 공격에 대한 보안 핵심 원칙
 

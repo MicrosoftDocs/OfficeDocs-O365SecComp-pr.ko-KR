@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 전자 메일 메시지가 스팸 필터링을 통과 하면 스팸 점수가 할당 됩니다. 이 점수는 개별 SCL (스팸 지 수) 등급에 매핑되며 X-헤더에 스탬프 처리 됩니다. 이 서비스는 SCL 등급의 스팸 신뢰 해석에 따라 메시지에 대 한 작업을 수행 합니다. 다음 표에서는 각 등급에 대 한 인바운드 메시지에 대해 수행 되는 필터 및 각 SCL 등급이 해석 되는 방식을 보여 줍니다.
 ms.openlocfilehash: 48ca02bf3f6549c5acc1147ea477b9d22f1c76e1
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260676"
 ---
 # <a name="spam-confidence-levels"></a>스팸 지수
 
@@ -29,7 +29,7 @@ ms.locfileid: "30692767"
 |:-----|:-----|:-----|
 |-1|수신 허용-보낸 사람, 수신 허용-받는 사람 또는 안전한 것으로 표시 된 IP 주소 (신뢰할 수 있는 파트너)에서 오는 스팸 방지|받는 사람의 받은 편지 함으로 메시지를 배달 합니다.|
 |0, 1|메시지가 검사 되었으며 깨끗 한 것으로 확인 되었기 때문에 스팸 아님|받는 사람의 받은 편지 함으로 메시지를 배달 합니다.|
-|5, 6|스팸일|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
+|5, 6|스팸|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
 |7, 8, 9|높은 정확도 스팸|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
    
 > [!TIP]

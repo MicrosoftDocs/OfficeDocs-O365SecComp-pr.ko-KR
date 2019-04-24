@@ -11,11 +11,11 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Office 365 Cloud app Security 조건부 Access 앱 컨트롤을 사용 하 여 실시간으로 위반 및 누출을 중단 합니다.
 ms.openlocfilehash: d8370b1e02866db8f92ab7f6a46b06ddc3ed1055
-ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30312105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262990"
 ---
 # <a name="protect-apps-with-office-365-cloud-app-security-conditional-access-app-control"></a>Office 365 Cloud App Security 조건부 액세스 앱 컨트롤을 사용하여 앱 보호
 

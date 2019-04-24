@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 Office 365 Advanced eDiscovery의 유틸리티에 대해 알아봅니다.  '
 ms.openlocfilehash: bd100883804b300e77abcc8a2224cf1a59b53475
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265360"
 ---
 # <a name="use-office-365-advanced-ediscovery-utilities"></a>Office 365 Advanced eDiscovery 유틸리티 사용
 

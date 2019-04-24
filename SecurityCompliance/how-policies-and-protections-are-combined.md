@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 ms.openlocfilehash: 73f44e747581664f075608d972ee80c8381ca7fd
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30994888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256316"
 ---
 # <a name="what-policy-applies-when-multiple-protection-methods-and-detection-scans-run-on-your-email"></a>전자 메일에 대해 여러 보호 방법 및 검색 검사가 실행 될 때 적용 되는 정책
 

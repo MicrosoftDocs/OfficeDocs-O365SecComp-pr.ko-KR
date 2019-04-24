@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery (미리 보기) 버전에 대해 설명 합니다.
 ms.openlocfilehash: 2296f4ee1867cacc90eada9e5f12888a8ea0d242
-ms.sourcegitcommit: 13c601ea11ce6a3c71036fdafda059061c6998d0
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30313154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252482"
 ---
 # <a name="overview-of-advanced-ediscovery-preview-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery (미리 보기) 개요
 
@@ -57,7 +57,7 @@ Advanced eDiscovery (Preview)의 종단 간 워크플로에 대 한 자세한 �
 
 ![고급 eDiscovery (미리 보기)의 탭은 edrm 워크플로를 따릅니다.](../media/aedisco-homepage-1.png)
 
-## <a name="managing-custodians"></a>보유자 관리
+## <a name="managing-custodians"></a>custodians 관리
 
 **Custodians** 탭을 사용 하 여 대/소문자에서 원하는 사람으로 식별 된 사용자를 추가 하 고 관리 합니다. custodians를 추가할 때는 사서함 및 OneDrive 계정, custodians과 통신 및 검색 custodian 데이터 원본을 사용 하 여 콘텐츠를 수집 하는 등의 custodian 데이터 원본에 법적 보존을 적용 하는 것과 같은 custodian 관련 작업을 빠르게 수행할 수 있습니다. 사례와 관련 된 것입니다. 사례가 진행 됨에 따라 custodians에서 새 custodians를 추가 하거나 릴리스를 쉽게 추가할 수 있습니다. 자세한 내용은 [custodians with a Advanced eDiscovery (Preview)](managing-custodians.md)을 참조 하십시오.
 
@@ -79,7 +79,7 @@ custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 
 ## <a name="reviewing-and-analyzing-case-data"></a>사례 데이터 검토 및 분석
 
-**작업** 집합 탭을 사용 하 여 라이브 시스템에서 수집 하 고 작업 집합에 추가한 콘텐츠를 검토 하 고 분석 합니다. *작업 집합* 은 eDiscovery 워크플로의 이전 단계에서 수집한 custodial 데이터 (즉, 데이터의 오프 라인 복사본)에 대 한 정적 컬렉션으로, 해당 데이터 (해당 하는 경우에는 custodial 데이터)가 포함 됩니다. 작업 집합에 검색 결과를 추가할 때 컨테이너에서 파일을 추출 하 고 메타 데이터를 추출 하 고 텍스트를 추출 하는 프로세스가 트리거됩니다. 이 프로세스가 완료 되 면 시스템은 custodians에서 수집한 모든 데이터에 대 한 새 인덱스를 작성 하 고 작업 집합에 추가 합니다. 데이터를 작업 집합에 추가한 후에는 추가 쿼리를 실행 하 여 사례 데이터의 범위를 좁히거나, 데이터를 텍스트로 보거나 네이티브 파일 형식으로 표시 하 고, 작업 집합에서 문서에 주석을 달고, 교정 하 고, 태그를 지정할 수 있습니다. 또한 문서 중복, 전자 메일 스레딩 및 테마 식별과 같은 고급 분석을 수행할 수 있습니다. 사례와 관련 된 데이터에만 culled 후에는 문서를 직접 다운로드 하거나 파일 메타 데이터, 주석 및 모든 태그와 함께 내보낼 수 있습니다. 자세한 내용은 다음 항목을 참조 하십시오.
+**작업** 집합 탭을 사용 하 여 라이브 시스템에서 수집 하 고 작업 집합에 추가한 콘텐츠를 검토 하 고 분석 합니다. *작업 집합* 은 eDiscovery 워크플로의 이전 단계에서 수집한 custodial 데이터 (즉, 데이터의 오프 라인 복사본)에 대 한 정적 컬렉션으로, 해당 데이터 (해당 하는 경우에는 custodial 데이터)가 포함 됩니다. 작업 집합에 검색 결과를 추가할 때 컨테이너에서 파일을 추출 하 고 메타 데이터를 추출 하 고 텍스트를 추출 하는 프로세스가 트리거됩니다. 이 프로세스가 완료 되 면 시스템은 custodians에서 수집한 모든 데이터에 대 한 새 인덱스를 작성 하 고 작업 집합에 추가 합니다. 데이터를 작업 집합에 추가한 후에는 추가 쿼리를 실행 하 여 사례 데이터의 범위를 좁히거나, 데이터를 텍스트로 보거나 네이티브 파일 형식으로 표시 하 고, 작업 집합에서 문서에 주석을 달고, 교정 하 고, 태그를 지정할 수 있습니다. 또한 문서 중복, 전자 메일 스레딩 및 테마 식별과 같은 고급 분석을 수행할 수 있습니다. 사례와 관련 된 데이터에만 culled 후에는 문서를 직접 다운로드 하거나 파일 메타 데이터, 주석 및 모든 태그와 함께 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
   - [Advanced eDiscovery에서 사례 데이터 검토 (미리 보기)](reviewing-data-in-working-set.md)
   - [Advanced eDiscovery (Preview)의 작업 집합에서 데이터 분석](analyzing-data-in-working-set.md)

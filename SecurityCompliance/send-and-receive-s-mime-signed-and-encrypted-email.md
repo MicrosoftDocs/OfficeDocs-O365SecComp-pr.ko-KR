@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다.
 ms.openlocfilehash: dabb911cf770ae843d97eb6ac8b0f683f27a78dd
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264470"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Exchange Online에서 S/MIME으로 서명 및 암호화 된 전자 메일 보내기/받기
 

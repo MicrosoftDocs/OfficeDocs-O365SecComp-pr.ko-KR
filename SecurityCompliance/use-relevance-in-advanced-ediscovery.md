@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 포함 하 여 Office 365 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
 ms.openlocfilehash: ad44066c8b00bccacf1f4fe2088aa84096c4db84
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263790"
 ---
 # <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 모듈 사용
 

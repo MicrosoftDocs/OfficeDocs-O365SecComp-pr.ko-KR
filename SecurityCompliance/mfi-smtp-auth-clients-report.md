@@ -11,11 +11,11 @@ ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서에 대해 알아볼 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: b6698345a89edf52e4ee14cea144cb88ff080583
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252574"
 ---
 # <a name="smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서
 

@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: '피싱 방지를 위해 Office 365 및 Outlook.com에는 이제 From: 주소에 대 한 RFC 준수가 필요 합니다.'
 ms.openlocfilehash: e540e56a7a40d13a92719865fccefefa61de47c2
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253936"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 
@@ -121,7 +121,7 @@ From: "Office 365" <sender@contoso.com> (Sent by a process)
 
 보낸 사람: 표시 이름에 대 한 값을 포함 하는 주소에는 다음 규칙이 적용 됩니다.
   
-- 보낸 사람 주소에 표시 이름이 포함 되어 있고 표시 이름에 쉼표가 포함 되어 있으면 표시 이름을 따옴표 안에 넣어야 합니다. 예를 들어:
+- 보낸 사람 주소에 표시 이름이 포함 되어 있고 표시 이름에 쉼표가 포함 되어 있으면 표시 이름을 따옴표 안에 넣어야 합니다. 예를 들면 다음과 같습니다.
     
     다음 예를 사용할 수 있습니다.
     

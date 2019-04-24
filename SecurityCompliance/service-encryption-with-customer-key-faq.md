@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 41ae293a-bd5c-4083-acd8-e1a2b4329da6
 description: office 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도록 설정 되는 초기 볼륨 수준 암호화와 함께 Exchange의 데이터를 포함 하 여 office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에 추가 된 암호화 계층을 제공 합니다. 온라인, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive 이를 서비스 암호화 라고 합니다.
-ms.openlocfilehash: 5e1acca69ccdd8acb986acb4d7a302d4ca3fbe8a
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.openlocfilehash: 8515354d716df22fa124c03e18c36914d27102f4
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266948"
 ---
 # <a name="service-encryption-with-customer-key-for-office-365-faq"></a>Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문
 
@@ -46,7 +46,7 @@ Office 365 메시지 암호화 기능에서는 Exchange Online에 대 한 Azure 
 ## <a name="does-office-365-message-encryption-and-bring-your-own-key-with-azure-information-protection-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>Office 365 메시지 암호화를 수행 하 고 Azure Information Protection을 사용 하 여 사용자의 키 가져오기 subpoenas와 같은 타사 데이터 요청에 대 한 Microsoft의 접근 방식을 변경 합니다.
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
 
-아니요. Office 365 메시지 암호화 및 Azure Information Protection (aip)에 대 한 개인 키 (byok)를 제공 하 고 제어 하는 옵션은 사법 기관에 대응 하도록 설계 되지 않았습니다. Office 365 메시지 암호화 온-aip가 내부 또는 외부 규정 준수 의무를 충족 해야 하는 규정 준수 중심 고객을 위해 설계 되었습니다. Microsoft는 고객 데이터에 대 한 타사 요청을 매우 심각 하 게 수행 합니다. 클라우드 서비스 공급자는 항상 고객 데이터에 대 한 개인 정보를 제공 합니다. 소환장이 발생 하는 경우에는 항상 제 3 자가 고객에 게 리디렉션되어 정보를 얻도록 시도 합니다. (정부 Smith의 블로그에서 [고객 데이터 보호 스누핑](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/))를 읽어 보십시오. [여기](https://www.microsoft.com/en-us/trustcenter/Privacy/govt-requests-for-data)에서 받은 요청의 세부 정보를 주기적으로 게시 합니다.
+아니요. Office 365 메시지 암호화 및 Azure Information Protection에 대 한 개인 키 (byok)를 제공 하는 암호화 키를 사용자 지정 하 고 제어 하는 옵션은 사법 기관에 대응 하도록 설계 되지 않았습니다. Office 365 메시지 암호화 온-aip가 내부 또는 외부 규정 준수 의무를 충족 해야 하는 규정 준수 중심 고객을 위해 설계 되었습니다. Microsoft는 고객 데이터에 대 한 타사 요청을 매우 심각 하 게 수행 합니다. 클라우드 서비스 공급자는 항상 고객 데이터에 대 한 개인 정보를 제공 합니다. 소환장이 발생 하는 경우에는 항상 제 3 자가 고객에 게 리디렉션되어 정보를 얻도록 시도 합니다. (정부 Smith의 블로그에서 [고객 데이터 보호 스누핑](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/))를 읽어 보십시오. [여기](https://www.microsoft.com/en-us/trustcenter/Privacy/govt-requests-for-data)에서 받은 요청의 세부 정보를 주기적으로 게시 합니다.
   
 자세한 내용은 [온라인 서비스 약관 (OST) ](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx)의 "고객 데이터 공개" 및 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/default.aspx) 를 참조 하세요.
   

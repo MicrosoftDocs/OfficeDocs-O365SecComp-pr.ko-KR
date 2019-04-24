@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: 보안 & 준수 센터에서 감사 로그 검색 기능을 설정할 수 있습니다. 생각이 변경 되 면 언제 든 지 설정을 해제할 수 있습니다. 감사 로그 검색이 해제 되 면 관리자가 조직의 사용자 및 관리자 활동에 대 한 Office 365 감사 로그를 검색할 수 없습니다.
 ms.openlocfilehash: 0619b19f9dc6e8bdc21e26275f02a81948b40bf4
-ms.sourcegitcommit: 69d0c739a2f3b4a335b42182a2c7267ef554eb76
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31389712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265386"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Office 365 감사 로그 검색 켜기 또는 끄기
 

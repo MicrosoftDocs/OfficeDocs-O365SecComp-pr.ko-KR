@@ -12,21 +12,21 @@ search.appverid:
 - SPO160
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
-description: Office 365 보안 &amp; 및 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 740f3384e5d4f26e09512cc846ad8779bcbc31ef
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+description: Office 365의 보안 & 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 96d10e274cd83a4785170239302d55e74d40ca84
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258450"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
- 원본으로 사용 하는 데이터에 대 한 정보를 확인 하 고 검색의 다양성 및 품질을 확인할 때 검색 검색을 빠르게 만들고 보고 하는 것은 eDiscovery 및 조사에서 중요 한 단계입니다. 이를 위해 보안 &amp; 준수 센터는 시간이 오래 걸리는 콘텐츠 검색 작업을 자동화 하는 Windows PowerShell cmdlet 집합을 제공 합니다. 이러한 스크립트를 통해 신속 하 고 간편 하 게 다양 한 검색을 만든 다음 해당 데이터의 양을 확인 하는 데 도움이 되는 예상 검색 결과의 보고서를 실행할 수 있습니다. 스크립트를 사용 하 여 각 검색 결과가 생성 되는 결과를 비교할 수도 있습니다. 이러한 스크립트는 데이터를 빠르고 효율적으로 식별 하 고 cull 하는 데 도움이 됩니다. 
+ 원본으로 사용 하는 데이터에 대 한 정보를 확인 하 고 검색의 다양성 및 품질을 확인할 때 검색 검색을 빠르게 만들고 보고 하는 것은 eDiscovery 및 조사에서 중요 한 단계입니다. 이를 위해 보안 & 준수 센터 PowerShell은 시간이 오래 걸리는 콘텐츠 검색 작업을 자동화 하기 위한 일련의 cmdlet을 제공 합니다. 이러한 스크립트를 통해 신속 하 고 간편 하 게 다양 한 검색을 만든 다음 해당 데이터의 양을 확인 하는 데 도움이 되는 예상 검색 결과의 보고서를 실행할 수 있습니다. 스크립트를 사용 하 여 각 검색 결과가 생성 되는 결과를 비교할 수도 있습니다. 이러한 스크립트는 데이터를 빠르고 효율적으로 식별 하 고 cull 하는 데 도움이 됩니다. 
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 이 항목에서 설명 하는 스크립트를 실행 하려면 보안 &amp; 및 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 
+- 이 항목에서 설명 하는 스크립트를 실행 하려면 Security & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 
     
 - 1 단계에서 CSV 파일에 추가할 수 있는 조직 내 비즈니스용 OneDrive 사이트의 url 목록을 수집 하려면 [조직에서 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/Create-a-list-of-all-OneDrive-locations-in-your-organization-8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 
     
@@ -68,7 +68,7 @@ ms.locfileid: "30670663"
   
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2 단계: 보안 & 준수 센터 PowerShell에 연결
 
-다음 단계는 Windows PowerShell을 조직의 보안 &amp; 및 준수 센터에 연결 하는 것입니다.
+다음 단계는 조직의 보안 & 준수 센터 PowerShell에 연결 하는 것입니다.
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `ConnectSCC.ps1`들면입니다. CSV 파일을 저장 한 폴더와 동일한 파일을 1 단계에서 저장 합니다.
     
@@ -77,7 +77,7 @@ ms.locfileid: "30670663"
     $UserCredential = Get-Credential 
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
     Import-PSSession $Session -AllowClobber -DisableNameChecking 
-    $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Office 365 Security &amp; Compliance Center)" 
+    $Host.UI.RawUI.WindowTitle = $UserCredential.UserName + " (Security & Compliance Center)" 
     ```
 
 2. 로컬 컴퓨터에서 Windows PowerShell을 열고, 이전 단계에서 만든 스크립트가 있는 폴더로 이동한 다음 스크립트를 실행 합니다. 예를 들어:

@@ -3,23 +3,22 @@ title: Office 365 비즈니스용 Skype 데이터 삭제
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 비즈니스용 Skype에서 데이터를 삭제 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 77ead8b8c2251ce21f9a0c0db9e29d5d48829760
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: ca48a4bc57cdba7301a51cc6404a7d402166ffb0
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30221148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261306"
 ---
 # <a name="skype-for-business-data-deletion-in-office-365"></a>Office 365에서 비즈니스용 Skype 데이터 삭제
 
@@ -29,14 +28,14 @@ ms.locfileid: "30221148"
 
 비즈니스용 Skype에서는 다음과 같은 유형의 콘텐츠를 보관 하지 않습니다. 
 - 피어 투 피어 파일 전송
-- 피어 투 피어 메신저 메시지 및 전화 회의 오디오/비디오
+- 피어 투 피어 인스턴스 메시지 및 회의에 대한 오디오/비디오
 - 피어 투 피어 메신저 메시지 및 전화 회의 응용 프로그램 공유
 - 회의 주석 
 
 ## <a name="meeting-content-retention"></a>모임 콘텐츠 보존
 비즈니스용 skype를 사용 하는 고객은 PowerPoint 프레젠테이션, OneNote 파일 및 기타 파일 같은 첨부 파일로 비즈니스용 skype 모임에 콘텐츠를 업로드할 수 있습니다. 모임에 업로드 된 콘텐츠의 보존 기간은 다음과 같습니다.
 - **일회성 모임** 콘텐츠는 마지막 사람이 모임에서 나간 시간부터 15 일 동안 보존 됩니다.
-- **되풀이 모임** -지난 사용자가 마지막 모임 세션을 떠나는 15 일 후에 콘텐츠가 보존 됩니다. 사용자가 15 일 내에 같은 모임 세션에 참가 하면 보존 타이머가 다시 설정 됩니다. 예를 들어 비즈니스용 Skype 모임이 1 년 동안 매주 발생 하도록 예약 되 고 첫 번째 인스턴스 중에 파일이 모임에 업로드 된다고 가정 합니다. 한 명 이상의 사용자가 매주 모임 세션에 참가 하는 경우 해당 파일은 매달 비즈니스용 Skype 온라인 서버에 보관 되며 지난 사용자는 15 일 후에 해당 시리즈의 마지막 모임에 참가 하 게 됩니다.
+- **되풀이 모임** -지난 사용자가 마지막 모임 세션을 떠나는 15 일 후에 콘텐츠가 보존 됩니다. 누군가가 15일 이내 동일한 모임 세션에 참여한 경우에는 보존 타이머가 다시 설정됩니다. 예를 들어 비즈니스용 Skype 모임이 1 년 동안 매주 발생 하도록 예약 되 고 첫 번째 인스턴스 중에 파일이 모임에 업로드 된다고 가정 합니다. 한 명 이상의 사용자가 매주 모임 세션에 참가 하는 경우 해당 파일은 매달 비즈니스용 Skype 온라인 서버에 보관 되며 지난 사용자는 15 일 후에 해당 시리즈의 마지막 모임에 참가 하 게 됩니다.
 - 모임 **시작 모임** -콘텐츠가 회의 종료 시간 이후 8 시간 동안 보존 됩니다.
 
 > [!NOTE]
@@ -49,7 +48,7 @@ ms.locfileid: "30221148"
 - **모임 시작 모임이** 8 시간 후에 만료 됩니다.
 
 ## <a name="whiteboard-collaboration"></a>화이트 보드 공동 작업
-화이트 보드에서 만든 주석은 모든 참가자에 게 표시 됩니다. 화이트 보드를 저장할 때 화이트 보드와 모든 주석은 비즈니스용 Skype 서버에 저장 되며 관리자가 설정한 모임 콘텐츠 만료 정책에 따라 서버에 보존 됩니다.
+화이트 보드에 작성된 주석은 모든 참가자에게 표시됩니다. 화이트 보드를 저장할 때 화이트 보드와 모든 주석은 비즈니스용 Skype 서버에 저장 되며 관리자가 설정한 모임 콘텐츠 만료 정책에 따라 서버에 보존 됩니다.
 
 ## <a name="audio-test-service"></a>오디오 테스트 서비스
 음성에 대 한 짧은 (약 5 초) 샘플은 오디오 테스트 서비스 통화 중에 녹음 됩니다. 음성 샘플은 녹음 품질에 따라 비즈니스용 Skype 통화의 사운드 품질을 확인 및/또는 확인 하는 데 사용 됩니다. 오디오 테스트 서비스 호출이 끝나면 음성 샘플이 삭제 됩니다.

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: 스크립트를 실행 하 여 보안 & 준수 센터에서 eDiscovery 사례와 연결 된 새 보류에 사서함 및 비즈니스용 OneDrive 사이트를 빠르게 추가 합니다.
 ms.openlocfilehash: 992fddad3bfbc9f08855bd85d87b0edf92b3cdbe
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263980"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-security--compliance-center"></a>스크립트를 사용 하 여 보안 & 준수 센터에서 eDiscovery 사례의 보류에 사용자 추가
 

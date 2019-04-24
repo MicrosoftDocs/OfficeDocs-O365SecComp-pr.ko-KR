@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
 ms.openlocfilehash: d161435c75149183289cfbfd6abe79d55e371e31
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30639195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266874"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
@@ -2992,7 +2992,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 다음 두 패턴 중 하나가 일치해야 합니다.
 - 13 자리 숫자와 공백 다음 두 자리 숫자<br/>
-또는
+ 선택하거나 
 - 15자리 연속 숫자
 
 ### <a name="checksum"></a>제외

@@ -1,9 +1,8 @@
 ---
-title: Office 365 Advanced eDiscovery 사례 데이터 내보내기
+title: Office 365 Advanced eDiscovery에서 사례 데이터 내보내기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: 'Office 365 Advanced eDiscovery의 내보내기 프로세스를 사용 하 여 eDiscovery 사례 데이터 및 검토 결과를 내보내는 방법에 대 한 지침을 이해 합니다.  '
-ms.openlocfilehash: 01997d3c799eeabc9686e3d747652d54fc963d26
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 8c9f4c31d5c48ab0d9884e14321471d45c927ecd
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255476"
 ---
-# <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 사례 데이터 내보내기
+# <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 데이터 내보내기
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: '안전한 보낸 사람 목록을 사용 하려는 경우에는 EOP (Exchange Online Protection) 및 Outlook 처리가 서로 다르게 처리 된다는 사실을 알아야 합니다. 이 서비스는 rfc 5321 보낸 사람 주소와 rfc 5322.from 주소의을 검사 하 여 수신 허용-보낸 사람 및 도메인을 고려 하 고, Outlook에서는 rfc 5322.from 주소의 주소를 사용자의 수신 허용-발신자 목록에 추가 합니다. (참고: 서비스는 차단 된 보낸 사람 주소 및 도메인에 대 한 5321 주소와 5322.from 주소의 from address)를 모두 검사 합니다.'
 ms.openlocfilehash: 006c2b9520f1e1f71f5ec745baaf84f906f31eb4
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259656"
 ---
 # <a name="manage-safe-sender-lists-for-bulk-mailers"></a>대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
 

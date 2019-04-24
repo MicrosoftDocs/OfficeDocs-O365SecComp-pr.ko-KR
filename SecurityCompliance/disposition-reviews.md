@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
 ms.openlocfilehash: 1828f4055e9048260db7d16df8ad87db36438211
-ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30997264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257352"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 

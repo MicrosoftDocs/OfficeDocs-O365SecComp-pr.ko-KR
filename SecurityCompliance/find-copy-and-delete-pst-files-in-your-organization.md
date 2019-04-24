@@ -12,11 +12,11 @@ search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Microsoft pst 수집 도구를 사용 하 여 조직의 네트워크를 검색 하 여 조직 전체에 분산 된 PST 파일의 인벤토리를 가져옵니다. pst 파일을 찾은 후에는 pst 컬렉션 도구를 사용 하 여이를 중앙 위치에 복사 하 여 Office 365로 가져올 수 있습니다.
 ms.openlocfilehash: 87e13ec8a4c58f848ac2ff7a430a7532942ece74
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30296961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255352"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>pst 컬렉션 도구를 사용 하 여 조직의 pst 파일 찾기, 복사 및 삭제
 
@@ -84,16 +84,16 @@ pst 컬렉션 도구를 사용 하면 사용자가 새 pst 파일을 만들고 �
 
     다음 표에는 DataCollectorMaster 명령을 실행 하 여 PST 파일을 찾기 위한 매개 변수 및 해당 필수 값에 대 한 설명이 나와 있습니다. 
     
-    |매개 변수 * * * *|****Description****|예 * * * *|
+    |매개 변수 * * * *|****설명****|예 * * * *|
     |:-----|:-----|:-----|
     | `DataSource` <br/> |검색할 데이터 유형을 지정 합니다. 현재는 pst 모음 도구를 사용 하 여 pst 파일을 검색할 수 있습니다.  <br/> | `-DataSource Pst` <br/> |
-    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 값 `Find` 을 사용 하 여 지정 된 위치에서 PST 파일을 찾습니다. 이 도구는 outlook 프로필에 연결 된 outlook 및 pst 파일에 열려 있는 pst 파일에 대 한 정보를 찾아서 가져올 수 있습니다.<br/> | `-Mode Find` <br/> |
+    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 값 `Find` 을 사용 하 여 지정 된 위치에서 PST 파일을 찾습니다. 이 도구는 outlook 프로필에 연결 된 outlook 및 pst 파일에 열려 있는 pst 파일에 대 한 정보를 찾아서 가져올 수 있습니다.  <br/> | `-Mode Find` <br/> |
     | `JobName` <br/> |PST 컬렉션 작업의 이름을 지정 합니다. pst 컬렉션 도구를 실행 하 여 pst 파일을 찾기 위해 도구를 실행할 때 찾은 pst 파일을 차단, 수집 및 삭제할 때 동일한 작업 이름을 사용 하 게 됩니다. 작업 이름이 로그 및 구성 파일 이름에도 추가 됩니다.  <br/> | `-JobName PstSearch1` <br/> |
-    | `Locations` <br/> | PST 파일을 검색할 위치를 하나 이상 지정 합니다. 두 개 이상의 위치를 지정 하는 경우 세미콜론 (;))을 사용 합니다. 개별 위치를 구분 합니다. 이 매개 변수의 개별 값을 큰따옴표 ("")로 묶어야 합니다.<br/><br/>   다음은 검색할 수 있는 위치 유형에 대 한 필수 id 값 형식입니다.  <br/><br/>        **ou** -DN (고유 이름)을 사용 하 여 ou를 식별 합니다. 예를 들어:`"OU=NorthAmerica,OU=NWRegion,OU=ITServices,DC=contoso,DC=com"` <br/> > [!IMPORTANT]>는 조직 구성 단위가 아니므로 기본 제공 컴퓨터 컨테이너 (예: CN = Computers, dc = contoso, DC = com ")를 지정할 수 없습니다.<br/> <br/> **컴퓨터** -DN 또는 FQDN (정규화 된 도메인 이름)을 사용 하 여 네트워크에서 클라이언트 및 서버 컴퓨터를 식별 합니다. 예를 들어:  <br/>  d`"CN=FILESERVER01,CN=Computers,DC=contoso,DC=com"` <br/>  또는  <br/>  사용한`"FILESERVER01.contoso.com"` <br/><br/>  **네트워크 파일 공유** -UNC 이름을 사용 하 여 네트워크 파일 공유를 식별 합니다. 예를 들어`"\\FILESERVER02\Users"` <br/> | `-Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com";"CN=FILESERVER02,CN=Computers,DC=contoso,DC=com"` <br/> |
+    | `Locations` <br/> | PST 파일을 검색할 위치를 하나 이상 지정 합니다. 두 개 이상의 위치를 지정 하는 경우 세미콜론 (;))을 사용 합니다. 개별 위치를 구분 합니다. 이 매개 변수의 개별 값을 큰따옴표 ("")로 묶어야 합니다.  <br/><br/>   다음은 검색할 수 있는 위치 유형에 대 한 필수 id 값 형식입니다.  <br/><br/>        **ou** -DN (고유 이름)을 사용 하 여 ou를 식별 합니다. 예를 들어:`"OU=NorthAmerica,OU=NWRegion,OU=ITServices,DC=contoso,DC=com"` <br/> > [!IMPORTANT]>는 조직 구성 단위가 아니므로 기본 제공 컴퓨터 컨테이너 (예: CN = Computers, dc = contoso, DC = com ")를 지정할 수 없습니다.<br/> <br/> **컴퓨터** -DN 또는 FQDN (정규화 된 도메인 이름)을 사용 하 여 네트워크에서 클라이언트 및 서버 컴퓨터를 식별 합니다. 예를 들어:  <br/>  d`"CN=FILESERVER01,CN=Computers,DC=contoso,DC=com"` <br/>  또는  <br/>  사용한`"FILESERVER01.contoso.com"` <br/><br/>  **네트워크 파일 공유** -UNC 이름을 사용 하 여 네트워크 파일 공유를 식별 합니다. 예를 들어`"\\FILESERVER02\Users"` <br/> | `-Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com";"CN=FILESERVER02,CN=Computers,DC=contoso,DC=com"` <br/> |
     | `LogLocation` <br/> |로그 파일을 복사할 폴더를 지정 합니다. 폴더가 없는 경우에는 도구를 실행할 때 만들어집니다.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
     | `ConfigurationLocation` <br/> |.xml 구성 파일이 복사 될 폴더를 지정 합니다. 이 파일에는 도구를 실행할 때 발견 된 각 PST 파일에 대 한 정보가 포함 되어 있습니다. 이 파일은 3 단계에서 도구를 실행 하 여 찾은 PST 파일을 복사 하는 경우에 사용 됩니다.  <br/> | `-ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration"` <br/> |
     | `ExcludedLocations` <br/> |이 선택적 매개 변수는 찾기 작업 중에 건너뛸 위치를 지정 합니다. 특정 ou, 컴퓨터 및 네트워크 파일 공유를 제외할 수 있습니다. 예를 들어 시스템을 SQL server (또는 다른 종류의 응용 프로그램 서버)로 구성 하는 컴퓨터를 해당 사용자가 액세스할 수 없는 컴퓨터를 제외 하면 됩니다. 제외할 위치를 두 개 이상 지정 하는 경우 세미콜론 (;))을 사용 합니다. 개별 위치를 구분 합니다. 이 매개 변수의 개별 값을 큰따옴표 ("")로 묶어야 합니다.  <br/> | `-ExcludedLocations "SQLSERVER01.contoso.com"` <br/> |
-    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하 여 기존 PST 수집 작업에 대 한 찾기 모드에서 도구를 실행할 수 있습니다. `ForceRestart` 스위치를 사용 하는 경우 작업에 대 한 이전 찾기 작업의 결과가 무시 되 고 도구는 지정 된 위치를 다시 검사 하 여 새 로그 및 구성 파일을 만듭니다.<br/> | `-ForceRestart` <br/> |
+    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하 여 기존 PST 수집 작업에 대 한 찾기 모드에서 도구를 실행할 수 있습니다. `ForceRestart` 스위치를 사용 하는 경우 작업에 대 한 이전 찾기 작업의 결과가 무시 되 고 도구는 지정 된 위치를 다시 검사 하 여 새 로그 및 구성 파일을 만듭니다.  <br/> | `-ForceRestart` <br/> |
    
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster 명령 구문의 예입니다.
     
@@ -107,14 +107,14 @@ pst 컬렉션 도구를 사용 하면 사용자가 새 pst 파일을 만들고 �
 
 찾기 모드에서 PST 컬렉션 도구를 성공적으로 실행 하면 다음 파일이 만들어지고 `LogLocation` 및 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 저장 됩니다. 
   
-- **\<JobName\>__ Find\<datetimestamp\>. .log** -로그 파일에는 표시 된 상태 메시지가 포함 됩니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>__ datetimestamp\>. .log-로그 파일에는 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
-- **\<JobName\>__ Find\<\>** datema csv 파일에는 검색 된 각 PST 파일에 대 한 행이 포함 되어 있습니다. 각 pst에는 pst 파일이 있는 컴퓨터, pst 파일의 전체 경로 위치, pst 파일의 소유자, pst 파일의 크기 (킬로바이트, kb)가 포함 되어 있습니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **\<\>JobName\>Find datema csv 파일에는 검색 된 각 PST 파일에 대 한 행이 포함 되어 있습니다.__ \<** 각 pst에는 pst 파일이 있는 컴퓨터, pst 파일의 전체 경로 위치, pst 파일의 소유자, pst 파일의 크기 (킬로바이트, kb)가 포함 되어 있습니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
     > [!TIP]
     > Excel에서 자동 합계 도구를 사용 하 여 CSV 파일에 나열 된 모든 PST 파일의 전체 크기 (mb)를 계산 합니다. 그런 다음 변환 계산기를 사용 하 여 총 크기를 메가바이트 (mb) 나 기가바이트 (gb)로 변환할 수 있습니다. 
   
-- **\<JobName\>__ find\<datetimestamp\>** -xml 파일에는 찾기 모드에서 도구를 실행할 때 사용 되는 매개 변수 값에 대 한 정보가 들어 있습니다. 이 파일에는 찾은 모든 PST 파일에 대 한 정보도 포함 됩니다. 이 파일의 데이터는 동일한 작업에 대해 도구를 다시 실행 하 여 검색 된 PST 파일을 차단, 수집 또는 삭제 하는 데 사용 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **\>__\>JobName find\<datetimestamp-xml 파일에는 찾기 모드에서 도구를 실행할 때 사용 되는 매개 변수 값에 대 한 정보가 들어 \<있습니다.** 이 파일에는 찾은 모든 PST 파일에 대 한 정보도 포함 됩니다. 이 파일의 데이터는 동일한 작업에 대해 도구를 다시 실행 하 여 검색 된 PST 파일을 차단, 수집 또는 삭제 하는 데 사용 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
     > [!IMPORTANT]
     > 이 파일의 이름을 바꾸거나 변경 하거나 이동 하지 않습니다. 이 도구는 동일한 작업에 대 한 차단, 복사 또는 삭제 모드에서 공구를 다시 실행할 때 PST 컬렉션 도구에서 사용 됩니다. 
@@ -144,15 +144,15 @@ PST 파일에 대 한 액세스를 차단 하려면:
 
     다음 표에서는 DataCollectorMaster 명령을 실행 하 여 PST 파일의 생성 및 변경을 차단 하는 경우 매개 변수 및 해당 필수 값에 대해 설명 합니다. 
     
-    |매개 변수 * * * *|****Description****|예 * * * *|
+    |매개 변수 * * * *|****설명****|예 * * * *|
     |:-----|:-----|:-----|
     | `DataSource` <br/> |검색할 데이터 유형을 지정 합니다. 현재는 pst 모음 도구를 사용 하 여 pst 파일을 검색할 수 있습니다.  <br/> | `-DataSource Pst` <br/> |
-    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Block` 을 사용 하 여 사용자가 새 pst 파일을 만들고 기존 pst 파일을 변경 하지 못하도록 할 수 있습니다.<br/> | `-Mode Block` <br/> |
+    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Block` 을 사용 하 여 사용자가 새 pst 파일을 만들고 기존 pst 파일을 변경 하지 못하도록 할 수 있습니다.  <br/> | `-Mode Block` <br/> |
     | `JobName` <br/> |기존 PST 컬렉션 작업의 이름을 지정 합니다. 1 단계의 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 작업 이름을 사용 해야 합니다. 이 작업 이름은 차단 모드에서 도구를 실행할 때 만들어지는 로그 파일의 이름에도 추가 됩니다.  <br/> | `-JobName PstSearch1` <br/> |
     | `ConfigurationLocation` <br/> |찾기 모드에서 도구를 실행할 때 만든 .xml 구성 파일을 포함 하는 폴더를 지정 합니다. 1 단계에서이 매개 변수에 사용한 것과 같은 값을 사용 합니다.  <br/> | `-ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration"` <br/> |
     | `LogLocation` <br/> |Block 작업의 로그 파일이 복사 될 폴더를 지정 합니다. 선택적 매개 변수입니다. 이 파일을 포함 하지 않으면 PST 컬렉션 도구를 다운로드 한 폴더에 로그 파일이 복사 됩니다. 모든 로그 파일이 같은 폴더에 저장 되도록 1 단계의 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 로그 위치를 사용 하는 것이 좋습니다.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `BlockChangesToFiles` <br/> |이 스위치를 사용 하 여 사용자가 PST 파일을 변경 하지 못하도록 합니다. 이 스위치를 사용 하면 다음 레지스트리 항목이 만들어지고 데이터 값은 1 `HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\<version>\Outlook\PST\PstDisableGrow` 로 설정 됩니다. 이 레지스트리 설정은 차단 모드에서 PST 컬렉션 도구를 실행할 때 만들어지는 GPO에 의해 조직의 컴퓨터에서 만들어집니다.<br/> | `-BlockChangesToFiles` <br/> |
-    | `BlockNewFiles` <br/> |이 스위치를 사용 하 여 사용자가 새 pst 파일을 만들거나 outlook으로 pst 파일을 열고 outlook에서 pst 파일을 내보내는 것을 방지할 수 있습니다. 이 스위치를 사용 하면 다음 레지스트리 항목이 만들어지고 데이터 값은 1 `HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\<version>\Outlook\DisablePst` 로 설정 됩니다. 이 레지스트리 설정은 차단 모드에서 PST 컬렉션 도구를 실행할 때 만들어지는 GPO에 의해 조직의 컴퓨터에서 만들어집니다.<br/> | `-BlockNewFiles` <br/> |
+    | `BlockChangesToFiles` <br/> |이 스위치를 사용 하 여 사용자가 PST 파일을 변경 하지 못하도록 합니다. 이 스위치를 사용 하면 다음 레지스트리 항목이 만들어지고 데이터 값은 1 `HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\<version>\Outlook\PST\PstDisableGrow` 로 설정 됩니다. 이 레지스트리 설정은 차단 모드에서 PST 컬렉션 도구를 실행할 때 만들어지는 GPO에 의해 조직의 컴퓨터에서 만들어집니다.  <br/> | `-BlockChangesToFiles` <br/> |
+    | `BlockNewFiles` <br/> |이 스위치를 사용 하 여 사용자가 새 pst 파일을 만들거나 outlook으로 pst 파일을 열고 outlook에서 pst 파일을 내보내는 것을 방지할 수 있습니다. 이 스위치를 사용 하면 다음 레지스트리 항목이 만들어지고 데이터 값은 1 `HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\<version>\Outlook\DisablePst` 로 설정 됩니다. 이 레지스트리 설정은 차단 모드에서 PST 컬렉션 도구를 실행할 때 만들어지는 GPO에 의해 조직의 컴퓨터에서 만들어집니다.  <br/> | `-BlockNewFiles` <br/> |
    
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster 명령 구문의 예입니다.
 
@@ -181,16 +181,16 @@ PST 파일에 대 한 액세스를 차단 하려면:
 
     다음 표에는 DataCollectorMaster 명령을 실행 하 여 PST 파일을 복사할 때의 매개 변수 및 해당 필수 값에 대 한 설명이 나와 있습니다. 
     
-    |매개 변수 * * * *|****Description****|예 * * * *|
+    |매개 변수 * * * *|****설명****|예 * * * *|
     |:-----|:-----|:-----|
     | `DataSource` <br/> |검색할 데이터 유형을 지정 합니다. 현재는 pst 모음 도구를 사용 하 여 pst 파일을 검색할 수 있습니다.  <br/> | `-DataSource Pst` <br/> |
-    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Collect` 을 사용 하 여 찾기 모드에서 도구를 실행할 때 찾은 해당 PST 파일을 복사 합니다. 이 도구는 outlook에 열려 있는 pst 파일을 복사 하 고 outlook 프로필에 연결 된 pst 파일을 복사할 수 있습니다.<br/> | `-Mode Collect` <br/> |
+    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Collect` 을 사용 하 여 찾기 모드에서 도구를 실행할 때 찾은 해당 PST 파일을 복사 합니다. 이 도구는 outlook에 열려 있는 pst 파일을 복사 하 고 outlook 프로필에 연결 된 pst 파일을 복사할 수 있습니다.  <br/> | `-Mode Collect` <br/> |
     | `JobName` <br/> |기존 PST 컬렉션 작업의 이름을 지정 합니다. 1 단계의 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 작업 이름을 사용 해야 합니다. 이 작업 이름은 수집 모드에서 도구를 실행할 때 만들어지는 로그 파일의 이름에도 추가 됩니다.  <br/> | `-JobName PstSearch1` <br/> |
-    | `Locations` <br/> |1 단계에서 `Locations` 매개 변수에 사용한 것과 같은 값을 사용 합니다. 도구를 다시 실행 하 여 5 단계에서 원본 위치에 있는 PST 파일을 삭제 하려면이 도구를 Collect 모드에서 실행할 때이 매개 변수를 포함 해야 합니다.<br/> | `-Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com"; "CN=FILESERVER02,CN=Computers,DC=contoso,DC=com"` <br/> |
+    | `Locations` <br/> |1 단계에서 `Locations` 매개 변수에 사용한 것과 같은 값을 사용 합니다. 도구를 다시 실행 하 여 5 단계에서 원본 위치에 있는 PST 파일을 삭제 하려면이 도구를 Collect 모드에서 실행할 때이 매개 변수를 포함 해야 합니다.  <br/> | `-Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com"; "CN=FILESERVER02,CN=Computers,DC=contoso,DC=com"` <br/> |
     | `ConfigurationLocation` <br/> |찾기 모드에서 도구를 실행할 때 만들어진 .xml 구성 파일을 포함 하는 폴더를 지정 합니다. 1 단계에서이 매개 변수에 사용한 것과 같은 값을 사용 합니다.  <br/> | `-ConfigurationLocation "c:\users\admin\desktop \PSTCollection\Configuration"` <br/> |
     | `CopyLocation` <br/> |PST 파일을 복사해 넣을 컬렉션 위치를 지정 합니다. 파일 서버, 네트워크 파일 공유 또는 하드 드라이브로 파일을 복사할 수 있습니다. 수집 모드에서 도구를 실행 하기 전에 위치가 존재 해야 합니다. 도구에서 위치를 만들지 않으며 해당 위치가 존재 하지 않는다는 오류가 반환 됩니다.  <br/> 또한이 매개 변수로 지정 된 컬렉션 위치에 대 한 사용 권한을 써야 합니다.  <br/> | `-CopyLocation "\\FILESERVER03\PSTs"` <br/> |
     | `LogLocation` <br/> |수집 모드의 로그 파일이 복사 될 폴더를 지정 합니다. 선택적 매개 변수입니다. 이 파일을 포함 하지 않으면 PST 컬렉션 도구를 다운로드 한 폴더에 로그 파일이 복사 됩니다. 모든 로그 파일이 같은 폴더에 저장 되도록 1 단계의 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 로그 위치를 사용 하는 것이 좋습니다.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하면 기존 PST 수집 작업에 대 한 도구를 모음 모드로 다시 실행할 수 있습니다. 이전에 수집 모드에서 도구를 실행 했지만 PST 파일에 대 한 다시 검사 위치를 사용 하 여 찾기 모드 `ForceRestart` 에서 도구를 다시 실행 한 경우에는이 스위치를 사용 하 여 도구를 모음 모드에서 다시 실행할 수 있고, 해당 사용자가 찾은 pst 파일을 다시 복사할 수도 있습니다. 위치를 다시 검사 합니다. 컬렉션 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 수집 작업을 무시 하 고 PST 파일을 처음부터 복사 하려고 시도 합니다.<br/> | `-ForceRestart` <br/> |
+    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하면 기존 PST 수집 작업에 대 한 도구를 모음 모드로 다시 실행할 수 있습니다. 이전에 수집 모드에서 도구를 실행 했지만 PST 파일에 대 한 다시 검사 위치를 사용 하 여 찾기 모드 `ForceRestart` 에서 도구를 다시 실행 한 경우에는이 스위치를 사용 하 여 도구를 모음 모드에서 다시 실행할 수 있고, 해당 사용자가 찾은 pst 파일을 다시 복사할 수도 있습니다. 위치를 다시 검사 합니다. 컬렉션 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 수집 작업을 무시 하 고 PST 파일을 처음부터 복사 하려고 시도 합니다.  <br/> | `-ForceRestart` <br/> |
    
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster의 구문 예입니다.
     
@@ -204,9 +204,9 @@ PST 파일에 대 한 액세스를 차단 하려면:
 
 Collect 모드에서 DataCollectorMaster를 실행 한 후에는 `LogLocation` 및 `ConfigurationLocation` 매개 변수로 지정 된 폴더에 다음 파일이 만들어지고 저장 됩니다. 
   
-- **\<JobName\>__ Collect\<datetimestamp\>. .log** -로그 파일에는 표시 된 상태 메시지가 포함 됩니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>__ datetimestamp\>. .log-로그 파일에는 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
-- **\<JobName\>__ 에서\<datetimestamp\>** .xml-xml 파일에는 도구에서 사용 하는 수집 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 됩니다. DataCollectorMaster 도구를 다시 실행 하 여 PST 파일을 삭제 하면이 파일의 데이터가 사용 됩니다. [5 단계](#step-5-delete-the-pst-files-found-on-your-network)를 참조 하세요.
+- **\>__ JobName에서\<datetimestamp\>.xml-xml 파일에는 도구에서 사용 하는 수집 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 \<** 됩니다. DataCollectorMaster 도구를 다시 실행 하 여 PST 파일을 삭제 하면이 파일의 데이터가 사용 됩니다. [5 단계](#step-5-delete-the-pst-files-found-on-your-network)를 참조 하세요.
     
 
 ## <a name="step-4-import-the-pst-files-to-office-365"></a>4 단계: PST 파일을 Office 365로 가져오기
@@ -236,14 +236,14 @@ PST 파일을 Office 365로 가져오는 단계별 지침은 다음 항목 중 �
 
     다음 표에는 DataCollectorMaster 명령을 실행 하 여 PST 파일을 삭제할 때의 매개 변수 및 해당 필수 값에 대 한 설명이 나와 있습니다. 
     
-    |매개 변수 * * * *|****Description****|예 * * * *|
+    |매개 변수 * * * *|****설명****|예 * * * *|
     |:-----|:-----|:-----|
     | `DataSource` <br/> |검색할 데이터 유형을 지정 합니다. 현재는 pst 모음 도구를 사용 하 여 pst 파일을 검색할 수 있습니다. ![>](media/b078d05c-3aee-4b9f-8805-6a8a9d8970ee.png)           <br/> | `-DataSource Pst` <br/> |
-    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Delete` 을 사용 하 여 찾기 모드에서 도구를 실행할 때 찾은 해당 PST 파일을 삭제 합니다.<br/> | `-Mode Delete` <br/> |
+    | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Delete` 을 사용 하 여 찾기 모드에서 도구를 실행할 때 찾은 해당 PST 파일을 삭제 합니다.  <br/> | `-Mode Delete` <br/> |
     | `JobName` <br/> |기존 PST 컬렉션 작업의 이름을 지정 합니다. 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 작업 이름과 1 단계 및 3 단계의 수집 모드를 사용 해야 합니다. 이 작업 이름은 삭제 모드에서 도구를 실행할 때 만들어지는 로그 파일의 이름에도 추가 됩니다.  <br/> | `-JobName PstSearch1` <br/> |
     | `ConfigurationLocation` <br/> |수집 모드에서 도구를 실행할 때 만든 .xml 구성 파일이 포함 된 폴더를 지정 합니다. 3 단계에서이 매개 변수에 사용한 것과 같은 값을 사용 합니다.  <br/> | `-ConfigurationLocation "c:\users\admin\ desktop\PSTCollection\Configuration"` <br/> |
     | `LogLocation` <br/> |삭제 모드에 대 한 로그 파일이 복사 될 폴더를 지정 합니다. 선택적 매개 변수입니다. 이 파일을 포함 하지 않으면 PST 컬렉션 도구를 다운로드 한 폴더에 로그 파일이 복사 됩니다. 모든 로그 파일이 같은 폴더에 저장 되도록 1 단계와 3 단계의 찾기 및 수집 모드에서 도구를 실행할 때 사용한 것과 동일한 로그 위치를 사용 하는 것이 좋습니다.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하 여 기존 PST 수집 작업에 대 한 삭제 모드에서 도구를 다시 실행할 수 있습니다. 이전에 삭제 모드에서 도구를 실행 했지만 PST 파일의 위치를 다시 검사 하는 `ForceRestart` 스위치를 사용 하 여 찾기 모드에서 도구를 다시 실행 한 경우이 스위치를 사용 하 여 삭제 모드에서 도구를 재실행 하 고 다시 sca에서 찾은 PST 파일을 삭제할 수 있습니다. n 위치를 했습니다. 삭제 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 삭제 작업을 무시 하 고 PST 파일 삭제를 시도 합니다.<br/> | `-ForceRestart` <br/> 
+    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하 여 기존 PST 수집 작업에 대 한 삭제 모드에서 도구를 다시 실행할 수 있습니다. 이전에 삭제 모드에서 도구를 실행 했지만 PST 파일의 위치를 다시 검사 하는 `ForceRestart` 스위치를 사용 하 여 찾기 모드에서 도구를 다시 실행 한 경우이 스위치를 사용 하 여 삭제 모드에서 도구를 재실행 하 고 다시 sca에서 찾은 PST 파일을 삭제할 수 있습니다. n 위치를 했습니다. 삭제 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 삭제 작업을 무시 하 고 PST 파일 삭제를 시도 합니다.  <br/> | `-ForceRestart` <br/> 
 
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster의 구문 예입니다.
     
@@ -257,6 +257,6 @@ PST 파일을 Office 365로 가져오는 단계별 지침은 다음 항목 중 �
 
 삭제 모드에서 DataCollectorMaster를 실행 한 후에는 `LogLocation` 및 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 다음 파일이 만들어지고 저장 됩니다. 
   
-- **\<JobName\>__ Delete\<datetimestamp\>. .log** -로그 파일에 표시 된 상태 메시지가 포함 됩니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>__ datetimestamp\>. .log-로그 파일에 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
-- **\<JobName\>__ delete\<datetimestamp\>** .xml-xml 파일에는 도구에서 사용 하는 삭제 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 됩니다. 또한 삭제 된 각 PST 파일의 이름과 파일 경로가 나열 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **\>__\>JobName delete\<datetimestamp .xml-xml 파일에는 도구에서 사용 하는 삭제 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 \<** 됩니다. 또한 삭제 된 각 PST 파일의 이름과 파일 경로가 나열 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 

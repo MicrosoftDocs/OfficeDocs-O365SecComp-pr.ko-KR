@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자: 사용자에 게 Exchange Online 사서함에 대 한 무제한 저장소를 제공 하는 Office 365에서 자동 확장 보관을 사용 하도록 설정 하는 방법을 알아봅니다. 전체 조직 또는 특정 사용자만 자동 확장 보관을 사용 하도록 설정할 수 있습니다.'
 ms.openlocfilehash: e41ebc0605b7e6ce2178791de27421a82e2b6cf6
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256844"
 ---
 # <a name="enable-unlimited-archiving-in-office-365---admin-help"></a>Office 365에서 무제한 보관을 사용 하도록 설정-관리자 도움말
 

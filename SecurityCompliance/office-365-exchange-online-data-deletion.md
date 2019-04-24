@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: Exchange Online 내에서 소프트 및 하드 데이터 삭제를 처리 하는 방법
 ms.openlocfilehash: 977beb41469e0015e22aea6750cfd657d9ee3b39
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262690"
 ---
 # <a name="exchange-online-data-deletion-in-office-365"></a>Office 365에서 Exchange Online 데이터 삭제
 Exchange Online 내에는 두 가지 유형의 삭제 (소프트 삭제 및 하드 삭제)가 있습니다. 이는 사서함에 있는 모든 사서함과 항목에 적용 됩니다.

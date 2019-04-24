@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는 미국 의료 보험 행동에 대 한 중요 한 정보를 보호 하는 데 도움이 되는 등의 일반적인 준수 요구 사항을 해결 하는 기본 제공 정책 템플릿이 포함 되어 있습니다. ( HIPAA), 미국 금융-gramm-leach-bliley-gramm-leach-bliley act (GLBA) 또는 미국 Patriot Act 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다.
 ms.openlocfilehash: 0031b5415db2f1c4a9497bcfbc5226da250b01b6
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266843"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>DLP 정책 템플릿에 포함되는 내용
 

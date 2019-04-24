@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 고급 스팸 필터링 옵션을 통해 메시지의 다양 한 콘텐츠 특성을 검사할 수 있습니다. 메시지에 이러한 특성이 있으면 메시지의 스팸 점수가 증가해 메시지가 스팸으로 식별될 가능성이 높아지거나, 메시지가 스팸으로 표시됩니다. ASP 옵션은 HTML 태그, URL 리디렉션 등 스팸 메시지에서 흔히 발견되는 특정 메시지 속성을 대상으로 합니다.
 ms.openlocfilehash: 0fad573c29c440d69e27b1e70810bf2fc67be164
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692887"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242486"
 ---
 # <a name="advanced-spam-filtering-options"></a>고급 스팸 필터링 옵션
 

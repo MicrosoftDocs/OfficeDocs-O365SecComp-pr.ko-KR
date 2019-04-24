@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 290b02bf-a988-4fb9-88b2-34e408216ac8
 description: Office 365 Cloud App Security는 광범위 한 공급자의 웹 트래픽 로그에서 작동 합니다. 이 문서를 읽으면 Office 365 Cloud App Security에 대 한 웹 트래픽 로그 및 지원 되는 데이터 원본에 대해 자세히 알아볼 수 있습니다.
 ms.openlocfilehash: 67246ded0e3d39c81b5b906f753b91298309d1d8
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266853"
 ---
 # <a name="web-traffic-logs-and-data-sources-for-office-365-cloud-app-security"></a>Office 365 Cloud App Security에 대한 웹 트래픽 로그 및 데이터 원본
   
@@ -37,7 +37,7 @@ Office 365 Cloud App Security는 웹 트래픽 로그의 데이터를 사용 하
   
 다음 섹션에서는 Office 365 Cloud App Security에서 웹 트래픽 로그가 올바르게 작동 하기 위해 필요한 특성 및 추가 요구 사항에 대해 설명 합니다.
 
-### <a name="attributes"></a>특성
+### <a name="attributes"></a>특성만
 
 Office 365 Cloud App Security에서는 웹 트래픽 로그에 포함 되지 않은 특성을 표시 하거나 분석할 수 없습니다. 예를 들어 Cisco global.asa 방화벽의 표준 로그 형식에는 트랜잭션 당 업로드 된 바이트 수, 사용자 이름 또는 대상 URL (대상 IP만)이 포함 되어 있지 않습니다. 따라서 이러한 특성은 클라우드 검색 데이터에 표시 되지 않으며 클라우드 앱에 대 한 표시는 제한 됩니다. Cisco global.asa 방화벽의 경우 정보 수준을 6으로 설정 해야 합니다. 
 
@@ -138,7 +138,7 @@ Office 365 Cloud App Security에서는 다음과 같은 방화벽과 프록시�
 로그가 손상 되지 않았는지 확인 합니다. 로그 파일 형식을 업로드 페이지에 표시 된 예제 형식으로 비교 하 여 일치 시킵니다. |
 |트랜잭션이 90 일 보다 오래 되었습니다.  <br/> |모든 트랜잭션이 90 일 보다 오래 되었으며, 따라서 무시 됩니다.  <br/> |최근 이벤트로 새 로그를 내보내고 다시 업로드 합니다.  <br/> |
 |카탈로그에 대 한 트랜잭션 없음 클라우드 앱  <br/> |인식 된 클라우드 앱에 대 한 어떠한 트랜잭션도 로그에서 찾을 수 없습니다.  <br/> |로그에 아웃 바운드 트래픽 정보가 포함 되어 있는지 확인 합니다.  <br/> |
-|지원 되지 않는 로그 유형  <br/> |**데이터 원본 = 기타 (지원 되지 않음)** 를 선택 하면 로그가 구문 분석 되지 않습니다. 대신 [Microsoft Cloud App Security](https://aka.ms/whatiscas) 기술 팀에 게 검토를 위해 전송 됩니다.<br/> |[Microsoft Cloud App Security](https://aka.ms/whatiscas) 기술 팀은 각 데이터 원본에 대 한 전용 파서를 작성 합니다. 가장 인기 있는 데이터 원본은 이미 지원 됩니다. 지원 되지 않는 데이터 원본이 업로드 되 면 검토 되 고 잠재적인 새 데이터 원본 파서 목록에 추가 됩니다.<br/> 새 파서가 기능에 추가 되 면 Microsoft Cloud App Security release notes에 알림이 포함 됩니다.  <br/> |
+|지원 되지 않는 로그 유형  <br/> |**데이터 원본 = 기타 (지원 되지 않음)** 를 선택 하면 로그가 구문 분석 되지 않습니다. 대신 [Microsoft Cloud App Security](https://aka.ms/whatiscas) 기술 팀에 게 검토를 위해 전송 됩니다.  <br/> |[Microsoft Cloud App Security](https://aka.ms/whatiscas) 기술 팀은 각 데이터 원본에 대 한 전용 파서를 작성 합니다. 가장 인기 있는 데이터 원본은 이미 지원 됩니다. 지원 되지 않는 데이터 원본이 업로드 되 면 검토 되 고 잠재적인 새 데이터 원본 파서 목록에 추가 됩니다.  <br/> 새 파서가 기능에 추가 되 면 Microsoft Cloud App Security release notes에 알림이 포함 됩니다.  <br/> |
    
 ## <a name="next-steps"></a>다음 단계
 

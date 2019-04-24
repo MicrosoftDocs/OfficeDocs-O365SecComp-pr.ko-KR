@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: sharepoint 목록 및 문서 라이브러리를 보호 하기 위해 Microsoft Azure Active Directory RMS (권한 관리 서비스)를 통해 sharepoint Online IRM을 사용 하는 방법을 알아봅니다.
 ms.openlocfilehash: 6b68135720846a0e74f5b0272dc5f25272381284
-ms.sourcegitcommit: 54a2cbe5d13f448e0c28655bdf88deb9e5434cac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30935133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260774"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 

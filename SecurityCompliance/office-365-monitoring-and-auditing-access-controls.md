@@ -3,23 +3,22 @@ title: Office 365 액세스 제어 모니터링 및 감사
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365 내에서 사용할 수 있는 다양 한 모니터링 및 감사 액세스 제어에 대 한 요약입니다.'
-ms.openlocfilehash: 91d78ba3de41554755a7c19799eb1f7b25933b05
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 753acd1a0bd0d3b4a834263071d431b63836f399
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262540"
 ---
 # <a name="monitoring-and-auditing-access-controls-in-office-365"></a>Office 365의 액세스 제어 모니터링 및 감사
 

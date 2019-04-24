@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
 ms.openlocfilehash: f64b514b777c08048e0f904c17e21c235f8a6f23
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257654"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 

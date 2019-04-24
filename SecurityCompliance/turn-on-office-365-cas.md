@@ -1,5 +1,5 @@
 ---
-title: Office 365 Cloud App Security 켜기
+title: Office 365 Cloud App Security 사용
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -13,19 +13,19 @@ search.appverid:
 ms.assetid: ba919c73-d021-404d-9850-eec57e78678c
 description: 이 문서를 읽으면 Microsoft Azure에서 cloud app security에서 제공 하는 Office 365 Cloud app security를 설정 하는 방법을 확인할 수 있습니다.
 ms.openlocfilehash: 1227545b1e4d1521dc1820342f09aabdf16ec2c6
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264130"
 ---
-# <a name="turn-on-office-365-cloud-app-security"></a>Office 365 Cloud App Security 켜기
+# <a name="turn-on-office-365-cloud-app-security"></a>Office 365 Cloud App Security 사용
   
 |계산 * *\>**|계획 * *\>**|배포 * *\>**|사용률 * * * *|
 |:-----|:-----|:-----|:-----|
 |[평가 시작](office-365-cas-overview.md) <br/> |[계획 시작](get-ready-for-office-365-cas.md) <br/> |사용자가 여기 있어!  <br/> [다음 단계](activity-policies-and-alerts.md) <br/> |[활용 시작](utilization-activities-for-ocas.md) <br/> |
   
-## <a name="turn-on-office-365-cloud-app-security"></a>Office 365 Cloud App Security 켜기
+## <a name="turn-on-office-365-cloud-app-security"></a>Office 365 Cloud App Security 사용
 
 > [!IMPORTANT]
 > 다음 작업을 수행 하려면 전역 관리자 이거나 보안 관리자 여야 합니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요. office 365 Cloud App Security이 올바르게 작동 하려면 office 365 환경에 대해 **감사 로깅을 켜야 합니다** . 자세한 내용은 [Turn Office 365 감사 로그 검색 켜기 또는 끄기를](turn-audit-log-search-on-or-off.md)참조 하세요. 

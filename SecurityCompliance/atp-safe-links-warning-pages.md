@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
 ms.openlocfilehash: e90951a010ff5de4d3b292259e9c4596b6cc8e89
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32251308"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
 

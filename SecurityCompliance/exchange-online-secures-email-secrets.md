@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: office 365의 보안, 개인 정보 및 규정 준수 정보를 제공 하는 office 365 보안 센터 외에 office 365에서 데이터 센터에 제공 하는 비밀을 보호 하는 방법을 알고 싶을 수 있습니다. DKM (Distributed Key Manager) 라는 기술을 사용 합니다.
 ms.openlocfilehash: ba4c661899273f5e07c2468631298f5500d0e32f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218078"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255486"
 ---
 # <a name="how-exchange-online-secures-your-email-secrets"></a>How Exchange Online secures your email secrets
 
@@ -34,7 +34,6 @@ DKM(Distributed Key Manager)은 암호 키 집합을 사용하여 정보를 암�
 디버깅, 문제 해결 또는 감사 목적으로, 데이터 센터 관리자는 보안 그룹에 속하는 임시 자격 증명을 획득하기 위해 승격된 액세스 권한을 요청해야 합니다. 이 프로세스에는 여러 수준의 법적 승인이 필요합니다. 액세스가 허용되면 모든 작업이 기록되고 감사됩니다. 또한 액세스 권한은 설정된 시간 간격 동안만 부여되며 그 이후에는 자동으로 만료됩니다.
   
 추가 보호를 위해 DKM 기술에는 자동화된 키 롤오버 및 보관 기능이 포함됩니다. 따라서 동일한 키를 무제한으로 사용하지는 않으면서 이전 콘텐츠에 계속 액세스할 수 있습니다.
-
   
 ## <a name="where-does-exchange-online-make-use-of-dkm"></a>Exchange Online은 어디에서 DKM을 사용합니까?
 
@@ -42,7 +41,7 @@ Microsoft는 Exchange Online 데이터 센터에서 DKM을 사용하여 암호�
   
 - 연결된 계정에 대한 전자 메일 계정 자격 증명. 연결된 계정은 Hotmail, Gmail 및 yahoo! 메일 계정과 같은 타사 계정입니다.
     
-- RMS (권한 관리 서비스) 루트 키 RMS 또는 Office 365 메시지 암호화 (OME)를 사용 하 여 전자 메일을 암호화 하 고 암호를 해독 하는 데 사용 되는 Azure rms 또는 고객의 온-프레미스 Active Directory 도메인 서비스 RMS 배포에서 가져오는 고객 키입니다.
+- RMS(권한 관리 서비스) 루트 키. RMS 또는 Office 365 메시지 암호화 (OME)를 사용 하 여 전자 메일을 암호화 하 고 암호를 해독 하는 데 사용 되는 Azure rms 또는 고객의 온-프레미스 Active Directory 도메인 서비스 RMS 배포에서 가져오는 고객 키입니다.
     
 ## <a name="related-topics"></a>관련 항목
 

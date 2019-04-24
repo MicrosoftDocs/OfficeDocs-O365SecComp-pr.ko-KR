@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
 description: 관리자가 구성원을 관리자 역할 그룹에 추가하거나 그룹에서 제거하면 Microsoft EOP(Exchange Online Protection)에서 각 작업을 기록합니다.
 ms.openlocfilehash: 752def771d95fcfbb3f7cbe0bc86a33b3967716d
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256186"
 ---
 # <a name="run-an-administrator-role-group-report-in-eop"></a>EOP에서 관리자 역할 그룹 보고서 실행 
 

@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: DoS (서비스 거부) 공격을 처리 하기 위한 Microsoft의 방어 전략에 대 한 개요입니다.
 ms.openlocfilehash: acc0c74ae9ed434d4718d7b8b3bd9429b3245d46
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262550"
 ---
 # <a name="microsofts-denial-of-service-defense-strategy"></a>Microsoft의 서비스 거부 방어 전략
 

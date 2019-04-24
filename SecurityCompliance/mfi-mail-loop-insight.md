@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력에 대해 알아볼 수 있습니다.
 ms.openlocfilehash: 7229f8ebfc9ca1a46d91acc210199a3a6002c01e
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267083"
 ---
 # <a name="mail-loop-insight"></a>메일 루프 파악
 

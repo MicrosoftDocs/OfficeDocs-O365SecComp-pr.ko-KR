@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 데이터 유출 인시던트를 관리 하는 방법을 설명 합니다.
 ms.openlocfilehash: 93a98a4e01df011b789ba2453734f093ad8c19d6
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258826"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 유출 인시던트 관리
 
@@ -111,7 +111,7 @@ ms.locfileid: "31030387"
 
 문서를 그룹화 하 고 검토에 대 한 추가 지원을 받으려면 **증거 관리**를 클릭 합니다. **분석** 타일에서 **분석**을 클릭 합니다. 이렇게 하면 중복 검색, 전자 메일 스레딩 및 테마 분석과 같은 고급 분석이 실행 됩니다. 자세한 내용은 다음을 참조하세요.
 
-- [분석을 실행 하 여 더 빠른 조사](run-analytics-to-investigate-faster.md)
+- [신속한 조사를 위한 분석 실행](run-analytics-to-investigate-faster.md)
 - [중복에 가까운 검색](near-duplicates.md)
 - [전자 메일 스레드](email-threading.md)
 - [테마](themes.md)

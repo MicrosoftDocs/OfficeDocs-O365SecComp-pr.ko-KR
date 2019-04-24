@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 전자 메일 메시지에서 보안 팁을 사용 하거나 사용 하지 않도록 설정 하는 방법을 Office 365 및 EOP 관리자에 게 알립니다.
 ms.openlocfilehash: 9be9c4cd7fc8e94208aac2ad8812c93a3465f58b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256960"
 ---
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Office 365에서 보안 팁 사용 여부 설정
 

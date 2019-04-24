@@ -12,11 +12,11 @@ search.appverid:
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
 ms.openlocfilehash: 58913a01f30b4169470592f5fc271e3ce785ac5d
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30222967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261374"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 

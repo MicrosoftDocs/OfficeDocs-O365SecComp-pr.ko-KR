@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
 ms.openlocfilehash: c8450d5204635788a044538d701e23f4f77d1e0f
-ms.sourcegitcommit: c0d4fe3e43e22353f30034567ade28330266bcf7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256164"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 

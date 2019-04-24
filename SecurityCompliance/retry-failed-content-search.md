@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: ''
 description: 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색 문제를 해결 합니다.
 ms.openlocfilehash: 8334ec053e86e48f99955af2d56e511a2df5c25a
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261504"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 

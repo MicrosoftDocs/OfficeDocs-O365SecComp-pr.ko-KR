@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
 ms.openlocfilehash: 9ed20713cac07631e63b969efea402e8dbeb8f6d
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254062"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>office 365 사용자에 게 office 365 위협 조사 및 응답 기능을 안전 하 게 유지
 

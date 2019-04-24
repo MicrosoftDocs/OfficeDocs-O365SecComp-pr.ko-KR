@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: exchange online Protection 및 exchange online에 대해 IPv6 원본에서 익명 메시지에 대 한 지원을 구성 하는 방법을 알아봅니다.
 ms.openlocfilehash: 5d87dc929d2d67681b21eb46a4aaa52ca32caff9
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260256"
 ---
 # <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
 

@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: '마지막 업데이트 날짜: 5 월 2017'
 ms.openlocfilehash: 5e7927bacb6513f01a276ef6487346f319ffb704
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265270"
 ---
 # <a name="privacy-statement-for-office-365-secure-email-portal"></a>Office 365 보안 전자 메일 포털에 대 한 개인정보 취급 방침
 
@@ -48,10 +48,9 @@ Microsoft Corporation
 One Microsoft Way
   
 Redmond, Washington 98052 USA
-
   
-## <a name="changes"></a>변경
+## <a name="changes"></a>내용은
 
-이 문에 대 한 변경 내용을 게시 하면 해당 문 맨 위에 "마지막으로 업데이트 된" 데이터가 수정 됩니다. 해당 서비스에 대 한 액세스 권한을 제공 하는 조직에 문의 하 여 개인 정보 취급 방침 변경에 대 한 자세한 내용을 알아보세요.
+이 문에 대 한 변경 내용을 게시 하면 해당 문 맨 위에 "마지막으로 업데이트 된" 데이터가 수정 됩니다. 개인 정보 취급 방침의 변경 내용에 대해 자세히 알아보려면 해당 서비스에 대한 액세스를 관리하는 조직에 문의하세요.
   
 

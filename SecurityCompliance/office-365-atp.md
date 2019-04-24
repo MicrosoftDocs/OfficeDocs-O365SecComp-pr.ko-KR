@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 도구, 보고 도구 및 위협 인텔리전스 기능이 포함 되어 있습니다.
 ms.openlocfilehash: 402110fa7b835cd86ffbcf14439304d364cf03dd
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262950"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 

@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. 고급 eDiscovery에서 추가 분석을 위해 사례 데이터를 준비할 수도 있습니다.
 ms.openlocfilehash: 5f31153e70495dc28ee276c36e9edfc67638956e
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257996"
 ---
 # <a name="ediscovery-cases-in-the-security--compliance-center"></a>보안 & 준수 센터의 eDiscovery 사례
 

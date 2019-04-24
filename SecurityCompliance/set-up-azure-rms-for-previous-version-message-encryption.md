@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: 이전 버전의 Office 365 메시지 암호화는 Microsoft azure 권한 관리 (이전에는 Windows azure Active Directory Rights management)에 따라 달라 집니다.
 ms.openlocfilehash: 89b86035f57699457c86fefb49888b8428f4e01c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266890"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
 

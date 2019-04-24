@@ -18,11 +18,11 @@ ms.collection:
 - M365-security-compliance
 description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
 ms.openlocfilehash: 507cd6af5320a3b925841786136d518c996e4d29
-ms.sourcegitcommit: 86ff2eba1d57b9d5288840788529e69ad9d836b6
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31818605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266910"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -95,6 +95,6 @@ Office 365 테 넌 트 또는 사용자 집합에 대해 ZAP을 사용 하지 �
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)
+[Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
   
 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)

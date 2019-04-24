@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 367f25d3-10a0-4a91-bdae-70ebb7a79c98
 description: Office 365 Cloud App Security를 사용 하 여 활동 정책을 정의 하 여 특정 활동이 발생 하거나 너무 자주 발생 하는 경우 트리거에 경고를 설정 합니다. 정책을 설정 하 여 알림을 트리거하도록 하면 특정 작업에 대 한 알림을 받을 수 있습니다.
 ms.openlocfilehash: cfa58182ea35551ca3a3807c23e09c9f87c7be82
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30219768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242728"
 ---
 # <a name="activity-policies-and-alerts-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 활동 정책 및 알림
 

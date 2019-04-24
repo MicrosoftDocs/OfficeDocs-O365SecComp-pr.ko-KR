@@ -13,11 +13,11 @@ search.appverid: MOE150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: 검색 결과를 다운로드할 때 데이터 처리량을 높이도록 Windows 레지스트리를 구성 하는 방법과 Office 365의 보안 & 준수 센터 및 고급 eDiscovery에서 데이터를 검색 하는 방법을 알아봅니다.
 ms.openlocfilehash: 10eff929d6b668d5e2bc22d8ee7f223da4943326
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256516"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results-from-office-365"></a>Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기
 

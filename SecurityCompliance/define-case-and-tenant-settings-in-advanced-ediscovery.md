@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Office 365 Advanced eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
 ms.openlocfilehash: 2e95984651bf4da86bd64cfc3730fae75391410d
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256916"
 ---
 # <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 

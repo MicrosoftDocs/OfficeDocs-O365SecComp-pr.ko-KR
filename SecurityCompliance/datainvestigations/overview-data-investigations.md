@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
 ms.openlocfilehash: 11ba4d0870461695d327577396ccd535ac4340e1
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257724"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
@@ -43,9 +43,9 @@ ms.locfileid: "31030385"
 
 수집한 증거에 대해 고급 분석을 실행할 수도 있습니다. 이를 통해 일반적인 테마를 제공 하 고 전자 메일 스레드, 정확한 중복 및 거의 중복을 통해 증거를 구성 하 여 조사를 용이 하 게 할 수 있습니다. 추출 된 텍스트 보기 또는 네이티브 파일 형식으로 된 문서를 검토 하 고 조사 결과에 태그를 지정할 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-  - [증거의 데이터 검토](review-data-in-evidence.md)
+  - [증거 데이터 검토](review-data-in-evidence.md)
 
-  - [분석을 실행 하 여 더 빠른 조사](run-analytics-to-investigate-faster.md)
+  - [신속한 조사를 위한 분석 실행](run-analytics-to-investigate-faster.md)
 
 
 ## <a name="managing-people-of-interest"></a>관심 있는 사용자 관리

@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: 이 솔루션은 가장 일반적인 사이버 보안 공격이 Office 365에서 어떤 방식으로 표시 될 수 있는지와이에 대처 하는 방법을 알려줍니다.
 ms.openlocfilehash: 13e57d914138edc44d0001781459852fba994f61
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30656024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262360"
 ---
 # <a name="office-365-security-incident-response"></a>Office 365 보안 사고 대응
 
@@ -47,11 +47,11 @@ ms.locfileid: "30656024"
 
 - [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>cybersecurity pro와 같은 Office 365 보호
-Office 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다.  office 365 보안 로드맵: office 365 테 넌 트를 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하는 데 [처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) 를 사용 합니다.
-- 처음 30 일 이내에 수행 해야 하는 작업입니다.  이러한 설정은 즉시 영향을 미치며 사용자에 게 미치는 영향이 낮습니다.
-- 90 일 이내에 수행할 작업입니다. 이를 통해 계획 하 고 구현 하는 데 다소 시간이 걸리고 보안 환경을 크게 향상 시킬 수 있습니다.
-- 90 일을 초과 합니다. 처음 90 일의 향상 된 기능 빌드는 다음과 같은 작업을 수행 합니다.
+## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
+Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다.  [Office 365 보안 로드맵: 최초 30일, 90일 및 그 이후의 최우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.
+- 처음 30일 이내에 수행 할 작업  이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
+- 90일 이내에 수행해야 할 작업 이를 통해 계획 하 고 구현 하는 데 다소 시간이 걸리고 보안 환경을 크게 향상 시킬 수 있습니다.
+- 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
 
 

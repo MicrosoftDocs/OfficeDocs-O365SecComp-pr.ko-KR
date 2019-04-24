@@ -15,11 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 description: Microsoft 클라우드의 암호화 개요
 ms.openlocfilehash: 36bb50cda5f39461401b14ca3e7ada77a6e2cc0d
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262780"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드의 암호화
 

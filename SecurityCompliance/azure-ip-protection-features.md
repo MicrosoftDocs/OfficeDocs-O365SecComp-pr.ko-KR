@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 정보를 보호 하는 초기 단계를 지원 하기 위해 7 월 2018 일부터 모든 azure information protection 적합 한 테 넌 트에는 기본적으로 azure information protection의 보호 기능이 설정 됩니다. Azure Information protection의 보호 기능은 이전에는 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있었습니다. 조직에 Office E3 서비스 계획 또는 서비스 계획이 더 높은 경우에는 이러한 기능을 롤아웃할 때 Azure information Protection을 통해 정보를 보호 하기 시작할 수 있게 됩니다.
 ms.openlocfilehash: 2484f9b335a6698894046aaf429fdad68d82491e
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243985"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Azure Information protection의 보호 기능을 통해 기존 Office 365 테 넌 트에 배포
 
@@ -49,11 +49,11 @@ Office 365 메시지 암호화는 Azure Information protection의 보호 기능�
 
 office 365 조직에서 적격 office 365 라이선스를 구매한 경우이 변경으로 인해 테 넌 트가 영향을 받게 됩니다.
   
- **중요!** 온-프레미스 환경에서 AD RMS (Active Directory Rights Management Services)를 사용 하는 경우에는이 변경 내용을 즉시 옵트아웃 하거나 Azure Information Protection으로 마이그레이션해야 하 여 다음 30 일 이내에이 변경 내용을 롤아웃 해야 합니다. 옵트아웃 하는 방법에 대 한 자세한 내용은이 문서 뒷부분에 나오는 "AD RMS를 사용 하 여 out?를 선택 하는 방법"을 참조 하십시오. 마이그레이션하려는 경우 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조 하세요.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+ **중요 한!** 온-프레미스 환경에서 AD RMS (Active Directory Rights Management Services)를 사용 하는 경우에는이 변경 내용을 즉시 옵트아웃 하거나 Azure Information Protection으로 마이그레이션해야 하 여 다음 30 일 이내에이 변경 내용을 롤아웃 해야 합니다. 옵트아웃 하는 방법에 대 한 자세한 내용은 "use AD RMS, 옵트아웃 (opt out)"을 참조 하십시오. 이 문서의 뒷부분에 나와 있습니다. 마이그레이션하려는 경우 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조 하세요.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
   
 ## <a name="can-i-use-azure-information-protection-with-active-directory-rights-management-services-ad-rms"></a>AD RMS (Active Directory Rights Management Services)와 함께 Azure Information Protection을 사용할 수 있나요?
 
-아니요. 이 배포 시나리오는 지원 되지 않습니다. 추가 옵트아웃 단계를 수행 하지 않고 일부 컴퓨터가 Azure 권한 관리 서비스를 자동으로 시작 하 고 AD RMS 클러스터에 연결할 수도 있습니다. 이 시나리오는 지원 되지 않으며 결과를 신뢰할 수 없으므로 다음 30 일 이내에 이러한 변경 내용을 취소 하는 것이 중요 하므로 이러한 새로운 기능을 롤아웃하기는 것이 좋습니다. 옵트아웃 하는 방법에 대 한 자세한 내용은이 문서 뒷부분에 나오는 "AD RMS를 사용 하 여 out?를 선택 하는 방법"을 참조 하십시오. 마이그레이션하려는 경우 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조 하세요.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
+아니요. 이 배포 시나리오는 지원 되지 않습니다. 추가 옵트아웃 단계를 수행 하지 않고 일부 컴퓨터가 Azure 권한 관리 서비스를 자동으로 시작 하 고 AD RMS 클러스터에 연결할 수도 있습니다. 이 시나리오는 지원 되지 않으며 결과를 신뢰할 수 없으므로 다음 30 일 이내에 이러한 변경 내용을 취소 하는 것이 중요 하므로 이러한 새로운 기능을 롤아웃하기는 것이 좋습니다. 옵트아웃 하는 방법에 대 한 자세한 내용은 "use AD RMS, 옵트아웃 (opt out)"을 참조 하십시오. 이 문서의 뒷부분에 나와 있습니다. 마이그레이션하려는 경우 [AD RMS에서 Azure Information Protection으로 마이그레이션을 참조 하세요.](https://docs.microsoft.com/azure/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms)
   
 ## <a name="how-do-i-know-if-im-using-ad-rms"></a>AD RMS를 사용 하 고 있는지 여부를 어떻게 알 수 있나요?
 

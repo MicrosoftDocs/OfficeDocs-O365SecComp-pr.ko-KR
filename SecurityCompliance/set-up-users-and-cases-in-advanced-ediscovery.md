@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: 'Office 365 Advanced eDiscovery에서 사용자 역할을 구성 하 고 사례를 만들고 사용자를 사례에 할당 하는 방법에 대해 알아봅니다.  '
 ms.openlocfilehash: 5a22e0683e49ebdaf8391e092aeb101386e0636b
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260706"
 ---
 # <a name="set-up-users-and-cases-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사용자 및 사례 설정
 

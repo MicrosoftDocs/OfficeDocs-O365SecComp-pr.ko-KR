@@ -12,11 +12,11 @@ ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
 ms.openlocfilehash: 2b8e4fd6b286f2c1a5c67863957f2b04fbef31b9
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256904"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 

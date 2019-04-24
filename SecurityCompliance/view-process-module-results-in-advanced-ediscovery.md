@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery 프로세스 모듈 결과 보기
+title: Office 365 Advanced eDiscovery의 프로세스 모듈 결과 보기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
 description: '작업 상태 및 프로세스 요약을 포함 하 여 Office 365 Advanced eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.  '
 ms.openlocfilehash: 0393cde78e559036d92b9ac48245afafc974a8b2
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267192"
 ---
-# <a name="view-process-module-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 프로세스 모듈 결과 보기
+# <a name="view-process-module-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 프로세스 모듈 결과 보기
 
 **준비** \> **프로세스가** 시작 되 면 진행률과 결과를 볼 수 있습니다. 
   

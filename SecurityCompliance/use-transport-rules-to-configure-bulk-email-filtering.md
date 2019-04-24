@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 43f0af6fe41bc7f8f4a62d0d87dbd825fb868f7b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267015"
 ---
 # <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성
 
@@ -31,7 +31,7 @@ ms.locfileid: "30693287"
   
 ## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-text-patterns"></a>텍스트 패턴에 따라 대량 전자 메일 메시지를 필터링 하는 메일 흐름 규칙 만들기
 
-1. **메일 흐름** 으로 이동 하는 Exchange 관리 센터 (EAC)에서 \> **규칙** 입니다.
+1. EAC(Exchange 관리 센터)에서 **메일 흐름** \> **규칙**으로 이동합니다.
     
 2. 추가 아이콘](media/ITPro-EAC-AddIcon.gif) 추가를 클릭 한 다음 **새 규칙 만들기**를 선택 합니다. **** ![
     

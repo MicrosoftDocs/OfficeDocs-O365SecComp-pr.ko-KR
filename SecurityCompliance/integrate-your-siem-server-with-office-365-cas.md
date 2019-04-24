@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: dd6d2417-49c4-4de6-9294-67fdabbf8532
 description: siem server를 Office 365 Cloud App Security와 통합할 수 있습니다. 이 문서를 읽으면 작동 방식 및 설정 방법에 대 한 개요를 볼 수 있습니다.
 ms.openlocfilehash: 82b5e0e6467bd42acba3c40d67e4e0363a7e0f72
-ms.sourcegitcommit: 4abcc03497478abf1ae7fc84792f44360d8e59c1
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "30548588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254788"
 ---
 # <a name="integrate-your-siem-server-with-office-365-cloud-app-security"></a>Office 365 Cloud App Security와 SIEM 서버 통합
   

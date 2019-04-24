@@ -13,11 +13,11 @@ search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
 ms.openlocfilehash: db5a462087dd20ed71f87efe2fd83b821654f1b9
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32258774"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.
   

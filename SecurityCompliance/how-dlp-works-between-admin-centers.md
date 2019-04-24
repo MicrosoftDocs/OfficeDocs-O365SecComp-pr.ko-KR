@@ -1,5 +1,5 @@
 ---
-title: 보안 & 준수 센터와 Exchange 관리 센터 간에 DLP가 작동 하는 방식
+title: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
@@ -16,13 +16,13 @@ search.appverid:
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Exchange 관리 센터에서 dlp 및 메일 흐름 규칙 (전송 규칙)을 통해 보안 & 준수 센터의 dlp가 작동 하는 방식을 알아봅니다.
 ms.openlocfilehash: 66dceb447e02eb01810997c23644c76f68795844
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254934"
 ---
-# <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>보안 & 준수 센터와 Exchange 관리 센터 간에 DLP가 작동 하는 방식
+# <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
 
 Office 365에서는 다음과 같은 두 가지 다른 관리 센터에서 DLP (데이터 손실 방지) 정책을 만들 수 있습니다.
   

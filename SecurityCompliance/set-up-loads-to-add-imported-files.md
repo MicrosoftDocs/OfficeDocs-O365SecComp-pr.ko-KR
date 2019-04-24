@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 가져온된 파일을 추가하도록 로드 설정
+title: Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Office 365 Advanced eDiscovery에서 관련성 훈련을 수행 하기 전에 가져온 파일을 마지막으로 정의한 부하 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
 ms.openlocfilehash: 8c5101628b468719f8aa4f81a4c73cbbb226105f
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30215988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260744"
 ---
-# <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 가져온된 파일을 추가하도록 로드 설정
+# <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -96,7 +96,7 @@ ms.locfileid: "30215988"
     
 2. 부하 **management**에서 **+** 아이콘을 클릭 하 여 로드를 추가 합니다. 확인 메시지가 표시 됩니다. 
     
-3. **예** 를 클릭 하 여 계속 합니다. **새 부하 추가** 대화 상자가 표시 됩니다. 
+3. 계속하려면 **예**를 클릭합니다. **새 부하 추가** 대화 상자가 표시 됩니다. 
     
     > [!NOTE]
     > 이전 부하로 작업을 수행한 경우에만 새 부하를 추가할 수 있습니다. 

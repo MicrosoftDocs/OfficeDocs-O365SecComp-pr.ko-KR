@@ -15,18 +15,19 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: a2234d0a0e94e3fbb15f8fac8f6e49cc7b26cfb2
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240970"
 ---
 # <a name="search-statistics"></a>검색 통계
 
 검색 결과의 유효성을 검사할 수 있는 한 가지 방법은 결과를 기준으로 통계를 확인 하 여 예상과 일치 하는지 확인 하는 것입니다. 검색이 완료 되 면 검색 세부 정보 플라이 아웃에 높은 수준의 통계가 표시 됩니다.
 - 검색을 통해 검색 되는 항목의 수 및 볼륨
 - 검색 위치에서 찾은 부분 인덱싱된/인덱싱되지 않은 항목의 수 및 볼륨
-- 검색 된 사서함 및 위치 수입니다. 자세한 통계를 보려면 검색 세부 정보 플라이 아웃에서 "통계"를 클릭 합니다.
+- 검색 된 사서함 및 위치 수입니다.
+자세한 통계를 보려면 검색 세부 정보 플라이 아웃에서 "통계"를 클릭 합니다.
 
 ## <a name="summary"></a>요약
 

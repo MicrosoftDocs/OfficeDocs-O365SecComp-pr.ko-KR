@@ -11,11 +11,11 @@ ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 배달 못 함 보고서에 대해 알아볼 수 있습니다.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 21d9b08330ddb5832600431f0d60179c7a157177
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267158"
 ---
 # <a name="non-delivery-report"></a>배달 못 함 보고서
 

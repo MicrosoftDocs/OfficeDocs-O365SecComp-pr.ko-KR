@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용 하 여 여러 PST 파일을 Office 365의 사용자 사서함으로 대량 가져오는 방법에 대해 알아봅니다.'
 ms.openlocfilehash: 73123d5f36a01b31cfc38e6404bd400bb722fb36
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264252"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>네트워크 업로드를 사용 하 여 조직 PST 파일을 Office 365로 가져오기
 

@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대 한 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xn 채팅 이라고 함).
 ms.openlocfilehash: 0c68023fdd4e1c9e06596937247270861cdbd2b3
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261012"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색
 

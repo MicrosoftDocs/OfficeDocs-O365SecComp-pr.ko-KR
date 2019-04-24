@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정 하 여 Office 365에서 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘립니다. '
 ms.openlocfilehash: f419da5b1b42d52433e9fc288aa5b401a2123c1c
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254402"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 

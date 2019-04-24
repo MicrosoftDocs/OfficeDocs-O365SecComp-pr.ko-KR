@@ -16,11 +16,11 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: gdpr에서는 EU 시민 (데이터 주체 라고 함)에 게 개인 데이터에 대 한 특정 권한을 부여 합니다. 이러한 권한에는 복사본을 가져오고, 변경 내용을 요청 하거나, 해당 파일의 처리를 제한 하거나, 전자 형식으로 메시지를 수신 하는 권한이 포함 됩니다. 개인 데이터에 대 한 작업을 수행 하기 위한 데이터의 공식적인 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. Office 365 및 Microsoft 365의 준수 센터에서 DSR 사례를 사용 하 여 조직의 dsr 조사를 관리할 수 있습니다.
 ms.openlocfilehash: a131da86350fc288c1c9af371d28464230b742d6
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259914"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Security & 준수 센터의 DSR 사례 도구를 사용 하 여 gdpr 데이터 주체 요청 관리
 

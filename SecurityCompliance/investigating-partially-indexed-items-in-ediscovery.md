@@ -13,11 +13,11 @@ search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일에 대 한 조직의 노출을 확인 하는 이유를 알 수 있습니다. 항목.
 ms.openlocfilehash: d6b1326498780a5d40e49ff22aa1ac7d16bee8e4
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254140"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
 

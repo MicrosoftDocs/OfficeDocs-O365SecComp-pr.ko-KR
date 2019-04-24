@@ -13,11 +13,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 메시지 암호화를 사용하면 전자 메일 사용자가 해당 조직 외부에 있는 조직 내 구성원에게 암호화된 메시지를 보낼 수 있습니다. 관리자는 암호화 조건을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 Office 365 메시지 암호화를 사용 하도록 설정할 수 있습니다.
 ms.openlocfilehash: e15a433f7f9dacdec870faff11a43e4699bef822
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256686"
 ---
 # <a name="enable-message-encryption-and-decryption-in-office-365"></a>암호화 및 암호 해독 사용 [EOP]
 

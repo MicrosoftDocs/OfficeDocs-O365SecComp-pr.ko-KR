@@ -14,16 +14,19 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: 조직에서 스팸으로 표시 된 대량의 대량 메일을 보내는 경우 Office 365을 사용 하 여 전자 메일을 보내지 못하도록 차단할 수 있습니다. 이 문서를 읽으면 이러한 상황이 일어나는 이유와 해당 작업에 대해 수행할 수 있는 작업에 대해 자세히 알아보세요.
-ms.openlocfilehash: 2cfcb7016b0c0d11117f6d78af2632229c70aa1d
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.openlocfilehash: 0fcbe0c7b9d1bd340e2ab2feb5edec8283ecaf9a
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262310"
 ---
 # <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃바운드 스팸 제어
 
-우리는 공유 서비스 이기 때문에 아웃 바운드 스팸을 심각 하 게 관리 합니다.  공유 리소스 풀에는 많은 고객이 아웃 바운드 스팸을 전송 하는 경우 서비스의 아웃 바운드 IP 신뢰도를 저하 시키고 다른 고객을 위한 전자 메일의 성공적인 배달 능력에 영향을 줄 수 있습니다. 고객 a가 고객 a에 게 unfair 하는 경우 (customer B spams 및 다양 한 타사 IP 차단 목록에 사용 되는 ip 주소가 나열 되어 있는 경우)
+우리는 공유 서비스 이기 때문에 아웃 바운드 스팸을 심각 하 게 관리 합니다.  공유 리소스 풀에는 많은 고객이 아웃 바운드 스팸을 전송 하는 경우 서비스의 아웃 바운드 IP 신뢰도를 저하 시키고 다른 고객을 위한 전자 메일의 성공적인 배달 능력에 영향을 줄 수 있습니다.
+
+> [!IMPORTANT]
+> 보낸 사람이 제한 되는 시기에 대 한 알림은 이제 SCC (Security & 준수 센터) 경고 플랫폼에 속합니다. 아래에 설명 된 방법을 사용 하 여 알림을 보내는 대신 "전자 메일을 보내는 사용자가 제한 되었습니다." 알림과 함께 알릴 사용자 목록을 찾을 수 있습니다. 이전 방법이 나중에 제거 되기 때문에 Security & 준수 센터의 [경고 정책 페이지](https://sip.protection.office.com/alertpolicies) 를 사용 하 여 경고를 구성 하십시오. 새로운 [제한 된 사용자 환경](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)에 대 한 정보를 확인 하세요. "
 
 ## <a name="what-admins-can-do-to-control-outbound-spam"></a>아웃 바운드 스팸 제어를 위해 관리자가 수행할 수 있는 작업
 
@@ -52,9 +55,9 @@ ms.locfileid: "30275928"
 
 많은 수의 전자 메일을 보내려고 하는 고객 간의 균형을 맞추기 하기 어려우며, 손상 된 계정 및 대량 emailers list 취득 방법을 사용 하 여 서비스를 보호 합니다. 다시 말하지만, 타사 blocklist에 대 한 아웃 바운드 IP 연결 비용은 고객이 아웃 바운드 전자 메일을 보내는 것을 차단 하는 것 보다 높습니다. [Exchange Online 서비스 설명](https://technet.microsoft.com/en-us/library/exchange-online-limits.aspx#Receiving and sending limits)에 설명 된 것 처럼 EOP을 사용 하 여 대량 전자 메일을 보내는 것은 지원 되지 않는 서비스를 사용 하는 것이 아니며 "최고 작업량" 으로만 허용 됩니다. 대량 전자 메일을 보내는 고객의 경우 다음을 수행 하는 것이 좋습니다.
 
-a. **자체 온-프레미스 메일 서버를 통해 대량 전자 메일을 보냅니다**. 즉, 고객은이 전자 메일 유형에 대해 자체 전자 메일 인프라를 유지 관리 해야 합니다.
+위한. **자체 온-프레미스 메일 서버를 통해 대량 전자 메일을 보냅니다**. 즉, 고객은이 전자 메일 유형에 대해 자체 전자 메일 인프라를 유지 관리 해야 합니다.
 
-b. **타사 대량 emailer을 사용 하 여 대량 통신을 전송**합니다. 대량 전자 메일을 보내는 유일한 비즈니스용 타사 bulk emailers가 있습니다. 고객 들과 협력 하 여 전자 메일을 정상적으로 사용할 수 있으며, 리소스를 적용 하는 전용 리소스가 있는지를 확인 합니다. 
+b. **타사 대량 emailer를 사용 하 여 대량 통신을 전송**합니다. 대량 전자 메일을 보내는 유일한 비즈니스용 타사 bulk emailers가 있습니다. 고객 들과 협력 하 여 전자 메일을 정상적으로 사용할 수 있으며, 리소스를 적용 하는 전용 리소스가 있는지를 확인 합니다. 
 
 이 섹션에서는 가입, 모바일, 맬웨어 악성 프로그램 맬웨어 방지 작업 그룹 (maawg)이 [](http://www.maawg.org/about/roster)해당 구성원 명단을 게시 합니다. 여러 대량 전자 메일 공급자가 목록에 있으며 인터넷 시민이 담당 하는 것으로 알려져 있습니다. 
   

@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office 365의 Security & 준수 센터에서 검색 및 제거 기능을 사용 하 여 조직의 모든 사서함에서 전자 메일 메시지를 검색 하 고 삭제 합니다.
 ms.openlocfilehash: c6fa0d09852016b918375dbff5a19468886d86b3
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265350"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Office 365 조 직에서 전자 메일 메시지 검색 및 삭제-관리자 도움말
 

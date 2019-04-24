@@ -18,11 +18,11 @@ ms.collection:
 - M365-security-compliance
 description: 온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다. office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 21vianet에서 운영 하는 office 365에서 관리자 역할 할당을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
 ms.openlocfilehash: 4331bf5574122efb50bb9dda9c7c0386df5683f7
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261556"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Exchange Online Protection을 사용 하 여 온-프레미스 사서함 보호
 

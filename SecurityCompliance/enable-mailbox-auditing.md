@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
 ms.openlocfilehash: 38632798aedfa34ee7568a7038d5ff906888619c
-ms.sourcegitcommit: 19d27ff836ee7fa1f8a4e761e04d928f13f4bfd8
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31745320"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256986"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
   
@@ -268,7 +268,7 @@ Get-MailboxAuditBypassAssociation -Identity <username> | FL AuditByPassEnabled
   
 다음 표에서는 각 사용자 로그온 유형에 대해 감사 되는 작업을 요약 하 여 보여 줍니다. 표에서 별표 ( **\*** )는 동작이 기본적으로 기록 됨을 나타냅니다. **No** 는 해당 로그온 유형에 대해 작업을 로그할 수 없음을 나타냅니다. 사용자 사서함에 대 한 모든 액세스 권한이 할당 된 관리자는 대리인 사용자로 간주 됩니다. 
   
-|**동작은**|**설명**|**관리**|**대리인**|**소유자**|
+|**작업**|**설명**|**Admin**|**대리인**|**소유자**|
 |:-----|:-----|:-----|:-----|:-----|
 |**복사** <br/> |메시지가 다른 폴더에 복사되었습니다.  <br/> |예  <br/> |아니요  <br/> |아니요  <br/> |
 |**만들기** <br/> |사서함의 일정, 연락처, 메모 또는 작업 폴더에 항목이 만들어집니다. 예를 들어 새 모임 요청이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 또한 사서함 폴더를 만드는 것은 감사 되지 않습니다.  <br/> |예\*  <br/> |예\*  <br/> |예  <br/> |

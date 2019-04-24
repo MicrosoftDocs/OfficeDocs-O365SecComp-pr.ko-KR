@@ -16,11 +16,11 @@ search.appverid:
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
 ms.openlocfilehash: 0c6b3bce7b336b08595a432c29601ecb63155589
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259428"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 

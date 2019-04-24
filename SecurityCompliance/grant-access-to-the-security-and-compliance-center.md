@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 &amp; Office 365 보안 및 준수 센터에서 사용 권한을 할당 받아야 합니다.
 ms.openlocfilehash: 08b3781ceb48b9a8d5933a075106d7bd3b9ab17d
-ms.sourcegitcommit: 799a958fcac643f62dfac6fa04020f2f4758635c
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30997240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253974"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여
 

@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Office 365의 dlp 보고서를 사용 하 여 dlp 정책 일치, 재정의 또는 가양성의 수를 빠르게 확인할 수 있습니다. 시간이 경과 함에 따라 작업 시간을 초과 하 고 있는지 여부를 확인할 수 있습니다. 다양 한 방법으로 보고서를 필터링 합니다. 그래프의 선에서 점을 선택 하 여 추가 세부 정보를 확인 합니다.
 ms.openlocfilehash: 447245f945bd777f56cca71320a72a9d9dd8720e
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267305"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 

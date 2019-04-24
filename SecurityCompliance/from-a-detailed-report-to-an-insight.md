@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하 여 자세한 보고서에서 통찰력으로 이동 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 062ae0931e78b01e26fc0d723e6d6d2ad1c04095
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255320"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>연습 - 자세한 보고서에서 통찰력에 이르기까지
 
@@ -32,7 +32,7 @@ ms.locfileid: "30357589"
 
 자세한 보고서에서 파악 및 작업에 대 한 흐름을 단계별로 살펴보겠습니다. 이는 간단한 [스팸 방지 및 맬웨어 방지](anti-spam-and-anti-malware-protection.md) 예제입니다. 
   
-1. 먼저 [ &amp; 보안 및 준수 센터](https://protection.office.com) 보고서부터 시작 합니다. ( **보고서** \> **대시보드로**이동 합니다.)<br/>![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드로 이동 합니다.](media/68f3bb7c-b4f7-4cca-904b-478643a93c94.png)
+1. 먼저 [ &amp; 보안 및 준수 센터](https://protection.office.com) 보고서부터 시작 합니다. ( **보고서** \> **대시보드로**이동 합니다.) <br/>![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드로 이동 합니다.](media/68f3bb7c-b4f7-4cca-904b-478643a93c94.png)
   
 2. 좀 더 자세한 보기를 보려면 보고서를 선택 합니다. ( **위협 보호 상태** 보고서 등의 보고서를 선택 합니다.)<br/>![통찰력을 보여 주는 위협 방지 상태 보고서](media/f47d7dbd-816a-47ba-b8db-53919fbed192.png)
   

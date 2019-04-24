@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 등록 되지 않은 도메인 전자 메일을 대량 전송 하는 경우 전자 메일 차단 위험이 실행 됩니다. 자세한 내용은이 문서를 참조 하세요.
 ms.openlocfilehash: 21c403c8072902565f63048782b06c531cdbceb0
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30670543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263990"
 ---
 # <a name="unregistered-domain-email-what-you-need-to-know"></a>등록 되지 않은 도메인 전자 메일: 알아야 할 사항
 

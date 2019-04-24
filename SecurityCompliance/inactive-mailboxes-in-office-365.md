@@ -3,7 +3,7 @@ title: Office 365의 비활성 사서함에 대 한 개요
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 6/1/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: 사서함을 비활성 사서함으로 설정 하 여 이전 직원의 사서함 콘텐츠를 보존 하는 방법에 대해 알아봅니다. 이 작업을 수행 하려면 사서함을 소송 보존으로 설정 하거나, 사서함에 office 365 유지 정책을 적용 한 다음 해당 하는 office 365 계정을 제거 하면 됩니다.
-ms.openlocfilehash: 12688cb1c0f1d165c21736ce5a6130245db36a06
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 19cd2bafc1f4bf0b6aa3b4c0332a3588ace3e5d8
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256526"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Office 365의 비활성 사서함에 대 한 개요
 
@@ -33,7 +33,8 @@ ms.locfileid: "31000801"
   
 그러나 조직에서 이전 직원의 사서함 콘텐츠를 보존 해야 하는 경우에는 사서함을 소송 보존 상태로 설정 하거나 보안 & 준수 센터의 사서함에 Office 365 보존 정책을 적용 하 여 사서함을 비활성 사서함으로 전환할 수 있습니다. 해당 Office 365 계정을 제거 합니다. The contents of an inactive mailbox are retained for the duration of the Litigation Hold placed on the mailbox or the retention period of the Office 365 retention policy applied to it before the mailbox was deleted. You can still recover the corresponding user account for a 30-day period. 그러나 30 일 후에 비활성 사서함은 보류 또는 보존 정책이 제거 될 때까지 Office 365에 보존 됩니다. 
   
-**중요:** 사서함을 비활성 상태로 만들려면 7 월 1 일, 새로운 원본 위치 유지를 만드는 것이 2017 마감 시간을 연기 했습니다. 하지만 올해 말이나 내년 초에는 Exchange Online에 새 원본 위치 유지를 만들 수 없습니다. 그때는 소송 보존과 Office 365 보존 정책만 사용하여 비활성화 사서함을 만들 수 있습니다. 그러나 원본 위치 유지에 있는 기존 비활성화 사서함은 계속 지원되며 비활성화 사서함에서 원본 위치 유지를 계속 관리할 수 있습니다. 관리 항목으로는 원본 위치 유지 기간 변경 및 원본 위치 유지를 삭제하여 비활성화 사서함을 영구 삭제하는 작업이 포함됩니다. 
+> [!NOTE]
+> 사서함을 비활성화하기 위해 새 원본 위치 유지를 만들 수 있는 2017년 7월 1일 마감 날짜를 연기했습니다. 하지만 올해 말이나 내년 초에는 Exchange Online에 새 원본 위치 유지를 만들 수 없습니다. 그때는 소송 보존과 Office 365 보존 정책만 사용하여 비활성화 사서함을 만들 수 있습니다. 그러나 원본 위치 유지에 있는 기존 비활성화 사서함은 계속 지원되며 비활성화 사서함에서 원본 위치 유지를 계속 관리할 수 있습니다. 관리 항목으로는 원본 위치 유지 기간 변경 및 원본 위치 유지를 삭제하여 비활성화 사서함을 영구 삭제하는 작업이 포함됩니다. 
  
   
 ## <a name="inactive-mailboxes-and-office-365-retention-policies"></a>비활성 사서함 및 Office 365 보존 정책
@@ -42,23 +43,26 @@ ms.locfileid: "31000801"
   
 - Exchange 사서함 또는 비즈니스용 Skype 위치 (때문에 적용할 수 Skype 관련 콘텐츠는 사용자의 사서함에 저장 됨)에 합니다. 
     
-- 콘텐츠를 유지 하거나 유지 하도록 구성 하는 하 고 콘텐츠를 삭제 합니다. 를 방금 콘텐츠를 삭제 하는 보존 정책이 구성 된 경우 사서함 삭제 될 때 정책에 적용 되는 사서함을 비활성화 될 되지 않습니다.
+- 콘텐츠를 보존 하거나 유지 한 다음 콘텐츠를 삭제 하도록 구성 해야 합니다. 를 방금 콘텐츠를 삭제 하는 보존 정책이 구성 된 경우 사서함 삭제 될 때 정책에 적용 되는 사서함을 비활성화 될 되지 않습니다.
     
 - 검색 쿼리와 일치 하는 항목만 활성화 상태를 유지 되도록 쿼리 기반 것이 수 있습니다. 
     
 Office 365 보존 정책을 구성 하는 방법에 대 한 자세한 내용은 [Office 365의 보존 정책 개요](retention-policies.md)를 참조 하십시오.
   
-비활성 사서함을 확인 하는 Office 365 보존 정책을 사용 하는 경우 Office 365 비활성 사서함에 보존 정책을 처리를 계속 됩니다. 즉, 보존 정책을 유지 하 고 콘텐츠를 삭제 하려면 구성 하는 경우 항목은 보존 기간이 만료 되 면 복구 가능한 항목 폴더를 이동 및 다음 비활성 사서함에서 결국 제거 됩니다. 삭제 된 항목을 Office 365 보존 정책이 구성 되지 않은 경우 (되기 전에 사서함 비활성) 사용자가 영구적으로 삭제 하지 않은 항목 복구 가능한 항목 폴더를 이동할 수 없습니다 및 사서함이 비활성화 한 후에 무기한 유지 됩니다. 
+보존 정책을 사용 하 여 비활성 사서함을 만드는 경우 Office 365에서는 비활성 사서함에 대 한 보존 정책을 계속 처리 합니다. 즉, 보존 정책을 유지 하 고 콘텐츠를 삭제 하려면 구성 하는 경우 항목은 보존 기간이 만료 되 면 복구 가능한 항목 폴더를 이동 및 다음 비활성 사서함에서 결국 제거 됩니다. 삭제 된 항목을 Office 365 보존 정책이 구성 되지 않은 경우 (되기 전에 사서함 비활성) 사용자가 영구적으로 삭제 하지 않은 항목 복구 가능한 항목 폴더를 이동할 수 없습니다 및 사서함이 비활성화 한 후에 무기한 유지 됩니다. 
   
 비활성 사서함에 대해 구체적으로 Office 365 보존 정책 만들기 (영문) 하는 것이 좋습니다. 이 작업을 수행 하는 것에 대 한 일부 원인은 다음과 같습니다 및 사항에 유의 해야 합니다.
   
 - 만 이전 직원에 대 한 조직의 요구 사항에 맞게 필요에 따라 긴 사서함 콘텐츠를 유지 하려면 보존 정책을 구성할 수 있습니다.
     
-- 비활성 사서함에 보존 정책이 적용 될만 하기 때문에 비활성 사서함을 식별 하는 간편한 방법입니다.
+- 보존 정책은 비활성 사서함에만 적용 되므로 비활성 사서함을 식별 하는 것이 좋은 방법입니다.
     
-- You'll be able to easily identify the retention policy that's assigned to inactive mailboxes in your organization. This will make it easier to change the retention (or deletion) settings if necessary. 또한 보안 & 준수 센터를 사용 하 여 정책에서 제거할 수 있으므로 비활성 사서함을 영구적으로 삭제 하는 것이 더 쉽습니다. 그렇지 않은 경우 Exchange Online PowerShell을 사용 하 여 비활성 사서함에서 소송 보존을 제거 하거나 Security & 준수 센터 PowerShell을 사용 하 여 조직 전반의 Office 365 보존 정책에서 비활성 사서함을 제외 해야 합니다.
+- 조직의 비활성 사서함에 할당 된 보존 정책을 빠르게 확인할 수 있습니다. This will make it easier to change the retention (or deletion) settings if necessary. 또한 보안 & 준수 센터를 사용 하 여 정책에서 제거할 수 있으므로 비활성 사서함을 영구적으로 삭제 하는 것이 더 쉽습니다. 그렇지 않은 경우 Exchange Online PowerShell을 사용 하 여 비활성 사서함에서 소송 보존을 제거 하거나 Security & 준수 센터 PowerShell을 사용 하 여 조직 전반의 Office 365 보존 정책에서 비활성 사서함을 제외 해야 합니다.
     
 - 비활성 사서함에 대해 구체적으로 Office 365 보존 정책을 만들 경우 최대 1, 000 사서함 정책에 추가할 수 있습니다. 대규모 조직의 경우 비활성 사서함에 대 한 사용 하 여 두개 이상의 Office 365 보존 정책을 만들 해야할 수 있습니다.
+
+> [!CAUTION]
+> 보존 정책을 사용 하 여 사서함을 비활성으로 설정 하는 경우 해당 Office 365 사용자 계정을 삭제 하기 전에 사서함에 대 한 UPN (사용자 계정 이름)을 변경 하거나 제거 하지 마십시오. 또한 UPN에서 파생 된 기본 SMTP 주소를 변경 하거나 사서함을 비활성화 하기 전에 사서함과 연결 된 보조 smtp 주소 목록에서이 전자 메일 주소를 제거 합니다. 사용자가 보존 정책을 적용할 때 사서함에 할당 된 UPN 또는 전자 메일 주소를 변경 하 고 해당 사서함을 사용 하지 않도록 설정 하는 경우에는이를 삭제할 수 없는 경우에는 더 이상 필요 하지 않은 경우에도 비활성 사서함을 삭제 하지 못할 수도 있습니다. /t. 이는 보존 정책이 처음에 사서함에 적용 될 때와 다른 UPN 또는 전자 메일 주소 (비활성 사서함을 식별 하기 위해)를 사용 하 여 보존 정책에서 비활성 사서함을 제거할 수 없기 때문입니다. 비활성 사서함을 삭제 하는 방법에 대 한 자세한 내용은 [Office 365에서 비활성 사서함 삭제](delete-an-inactive-mailbox.md)를 참조 하세요.
   
 ## <a name="inactive-mailboxes-and-ediscovery-case-holds"></a>비활성 사서함 및 eDiscovery 사례 보류
 
@@ -96,6 +100,9 @@ Exchange 보존 정책 ( Exchange Online 의 메시징 레코드 관리 또는 M
 사서함을 비활성 변경한 후에 비활성 사서함에서 다양 한 관리 작업을 수행할 수 있습니다.
   
 - **비활성 사서함에 대 한 보존 기간 변경** 사서함 비활성 이루어진 후 소송 보존으로 설정 또는 Office 365 보존 정책의 비활성 사서함에 적용 된 보존 기간을 변경할 수 있습니다. 단계별 절차에 대 한 자세한 내용은 [Office 365에서 비활성 사서함에 대 한 보존 기간 변경을](change-the-hold-duration-for-an-inactive-mailbox.md)참조 하십시오.
+
+  > [!NOTE]
+  > 비활성 사서함에는 다른 보존 정책을 적용할 수 없습니다. 비활성 사서함에 적용 된 기존 보존 정책의 보존 기간만 변경할 수 있습니다.
     
 - **비활성 사서함 복구** 조직에 이전 직원 (또는 휴가에 직원)를 반환 하는 경우 또는 이전 직원의 직무에 적용할 새 직원 고용 하는 경우 비활성 사서함의 내용을 복구할 수 있습니다. 비활성 사서함을 복구 하는 경우 사서함 새 사서함으로 변환 됩니다 내용과 비활성 사서함의 폴더 구조 유지 되므로 및 사서함을 새 사용자 계정에 연결 됩니다. 복구한 후 비활성 사서함 존재 하지 않습니다. 단계별 절차와 비활성 사서함을 복구할 때 수행 되는 작업에 대 한 정보는 [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)를 참조 하십시오.
     

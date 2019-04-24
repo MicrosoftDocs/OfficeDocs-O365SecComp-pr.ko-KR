@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: '내보내기 일괄 처리에 대 한 매개 변수를 지정 하는 절차를 포함 하 여 Office 365 Advanced eDiscovery에서 결과를 내보내기 위한 옵션을 정의 하는 방법을 알아봅니다. '
 ms.openlocfilehash: a2528c3eab0bc9c06a592b972a3bc602174458d3
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255860"
 ---
 # <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 내보내기
 

@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: 관리 검토 정책을 설정 하 여 검토를 위한 직원 정보를 수집 합니다.
 ms.openlocfilehash: 92630b1405af6e297390751d9b00e24a82e03087
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259546"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 

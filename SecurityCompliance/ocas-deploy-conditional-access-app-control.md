@@ -11,11 +11,11 @@ ms.service: O365-seccomp
 localization_priority: Normal
 description: Office 365 Cloud app Security 조건부 Access 앱 컨트롤에서 제어할 Azure AD Office 365 앱을 구성 하려면 다음 단계를 수행 합니다.
 ms.openlocfilehash: 72be95b3213b90cfe60d851d0852d465cdbe6ef9
-ms.sourcegitcommit: 866d8cab6bcfdd124516a8369e47ec797bc7cf8a
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30312075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263116"
 ---
 # <a name="deploy-conditional-access-app-control-for-office-365-apps"></a>Office 365 앱용 조건부 액세스 앱 컨트롤 배포
 

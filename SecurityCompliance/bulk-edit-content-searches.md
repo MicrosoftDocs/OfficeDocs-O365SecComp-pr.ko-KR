@@ -12,11 +12,11 @@ search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 대량 검색 편집기를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 쿼리 및 콘텐츠 위치를 신속 하 게 변경 합니다.
 ms.openlocfilehash: 3a484ad689b1c638e0e14ed1643edea0f2f56c09
-ms.sourcegitcommit: 6c9340e4eb221bf81472ff3f1ae25ae21aaf5297
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31813939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243861"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 

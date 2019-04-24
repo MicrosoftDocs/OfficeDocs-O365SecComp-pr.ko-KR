@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: DoS (서비스 거부) 공격의 개요
 ms.openlocfilehash: a7e67fcc87867190f345c5dad14e38a473420eab
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262820"
 ---
 # <a name="defending-against-denial-of-service-attacks-in-office-365"></a>Office 365에서 서비스 거부 공격 으로부터 방어
 
@@ -40,7 +40,7 @@ Microsoft는 심층 방어 보안 원칙을 사용 하 여 클라우드 서비�
 - 무선 또는 유선 인터넷 연결 끊기
 - 웹 또는 인터넷 서비스에 대 한 장기간 액세스 권한 손실
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 - [서비스 거부 공격에 대한 보안 핵심 원칙](office-365-core-principles-of-defense-against-dos-attacks.md)
 - [Microsoft의 서비스 거부 방어 전략](office-365-microsoft-dos-defense-strategy.md)
 - [서비스 거부 공격에 대해 Microsoft 클라우드 서비스 방어](office-365-defending-cloud-services-against-dos-attacks.md)

@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 016b87388a17bc5cb01eb1a90d88aedb6e2e133c
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243771"
 ---
 # <a name="close-or-delete-a-case"></a>사례 닫기 또는 삭제
 
@@ -27,7 +27,7 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
 
 - 대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다. 이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.
 
-- 사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다. 다른 보류가 콘텐츠 위치 (예: 소송 보존)에 있는 경우 보존 정책 또는 다른 eDiscovery 사례의 보존 등은 계속 유지 관리 됩니다.
+- 사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다. 다른 보류가 콘텐츠 위치 (예: 소송 보존)에 배치 되는 경우 보존 정책 또는 다른 eDiscovery 사례의 보류는 계속 유지 관리 됩니다.
 
 - 이 사례는 여전히 Security & 준수 센터의 eDiscovery 페이지에 나열 됩니다. 닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다.
 

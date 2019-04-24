@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 description: 관리자는 검색 사서함 cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다.
 ms.openlocfilehash: abf7e7f39fe719ecc6c23565e284c01aed8822ee
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260986"
 ---
 # <a name="search-for-and-delete-messages---admin-help"></a>메시지 검색 및 삭제 - 관리자 도움말
   

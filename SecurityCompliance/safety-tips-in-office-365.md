@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
 ms.openlocfilehash: d85eb0bde24220fbbfc12e7b5f01acec69571dee
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30276288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261458"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365의 전자 메일 메시지에 대 한 보안 팁
 

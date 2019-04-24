@@ -13,11 +13,11 @@ ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Office 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, finra, gdpr 및 FedRAMP를 준수 하는 방법을 확인 하세요.
 ms.openlocfilehash: ff14f1b88dbde06dbfd17a87bb94c3f32ddff81b
-ms.sourcegitcommit: b688d67935edb036658bb5aa1671328498d5ddd3
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30647338"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254324"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 

@@ -1,5 +1,5 @@
 ---
-title: 보안 & 준수 센터의 메일 흐름 정보
+title: 보안 및 준수 센터의 메일 흐름 파악
 ms.author: chrisda
 author: chrisda
 manager: serdars
@@ -10,13 +10,13 @@ localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
 ms.openlocfilehash: 1e18bcb381a6b557d3141c0c17b8433cfcd00049
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32252394"
 ---
-# <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 & 준수 센터의 메일 흐름 정보
+# <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
 관리자는 Security & 준수 센터의 메일 흐름 대시보드를 사용 하 여 경향 및 통찰력을 검색 하 고, Office 365 조직의 메일 흐름과 관련 된 문제를 해결 하는 조치를 취할 수 있습니다.
 

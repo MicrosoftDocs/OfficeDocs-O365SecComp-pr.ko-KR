@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: fe208f4a9f7927d8481d5c6ec8b901baafb98626
-ms.sourcegitcommit: 6aa82374eef09d2c1921f93bda3eabeeb28aadeb
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30455300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243584"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-preview-case"></a>고급 eDiscovery (미리 보기) 사례에 custodians 추가
 

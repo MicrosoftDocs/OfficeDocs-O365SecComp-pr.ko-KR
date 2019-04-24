@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: Exchange 관리자는 조직의 암호화 된 전자 메일 메시지와 암호화 포털의 내용에 조직의 브랜딩을 적용할 수 있습니다.
 ms.openlocfilehash: b15bb058d68d0f1783d2a689fff180a2bf48023e
-ms.sourcegitcommit: 48fa456981b5c52ab8aeace173c8366b9f36723b
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30341709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242660"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>암호화된 메시지에 조직의 브랜드 추가
 
@@ -59,7 +59,7 @@ Windows PowerShell에서 set-omeconfiguration cmdlet을 사용 하 여 조직에
    ```powershell
    New-OMEConfiguration -Identity <OMEConfigurationIdParameter>
    ```
-   예:
+   For example,
 
    ```powershell
    New-OMEConfiguration -Identity <Branding template 1>
@@ -69,7 +69,7 @@ Windows PowerShell에서 set-omeconfiguration cmdlet을 사용 하 여 조직에
 |**암호화 환경에서 사용자 지정하려는 기능**|**사용할 명령**|
 |:-----|:-----|
 |배경색|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -BackgroundColor "<Hexadecimal color code>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -BackgroundColor "#ffffff"`|
-|로고|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀|
+|회사|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <Byte[]>` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -Image (Get-Content "C:\Temp\contosologo.png" -Encoding byte)` <br/> 지원되는 파일 형식: .png, .jpg, .bmp 또는 .tiff  <br/> 로고 파일의 최적 크기: 40KB 미만  <br/> 최적 로그 이미지 크기: 170x70 픽셀|
 |보낸 사람 이름 및 전자 메일 주소 옆에 있는 텍스트|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -IntroductionText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "Branding Template 1" -IntroductionText "has sent you a secure message."`|
 |"메시지 읽기" 단추에 나타나는 텍스트|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -ReadButtonText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -ReadButtonText "Read Secure Message."`|
 |"메시지 읽기" 단추 위에 표시 되는 텍스트|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<String up to 1024 characters>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText "Encrypted message from ContosoPharma secure messaging system."`|
@@ -91,7 +91,7 @@ Windows PowerShell에서 set-omeconfiguration cmdlet을 사용 하 여 조직에
 |암호화된 전자 메일 메시지에 포함되는 기본 텍스트  <br/> 암호화된 메시지를 보기 위한 지침 위에 표시되는 기본 텍스트|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -EmailText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -EmailText ""`|
 |암호화된 메시지를 포함하는 전자 메일의 고지 사항 설명문|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> DisclaimerText "<empty string>"` <br/> **예제:** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -DisclaimerText ""`|
 |암호화된 메일 보기 포털 위쪽에 표시되는 텍스트|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -PortalText "<empty string>"` <br/> **다음은 기본값으로 되돌리는 예제입니다.** <br/>  `Set-OMEConfiguration -Identity "OME Configuration" -PortalText ""`|
-|로고|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **다음은 기본값으로 되돌리는 예제입니다.** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
+|회사|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -Image <"$null">` <br/> **다음은 기본값으로 되돌리는 예제입니다.** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -Image $null`|
 |배경색|`Set-OMEConfiguration -Identity <OMEConfigurationIdParameter> -BackgroundColor <"$null">` <br/> **다음은 기본값으로 되돌리는 예제입니다.** <br/>  `Set-OMEConfiguration -Identity "OME configuration" -BackgroundColor $null`|
 
 ## <a name="create-an-exchange-mail-flow-rule-that-applies-custom-branding-to-encrypted-emails"></a>암호화 된 전자 메일에 사용자 지정 브랜딩을 적용 하는 Exchange 메일 흐름 규칙 만들기
@@ -107,7 +107,7 @@ Windows PowerShell에서 set-omeconfiguration cmdlet을 사용 하 여 조직에
 
 2. **관리** 타일을 선택 합니다.
 
-3. Office 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택합니다.
+3. Office 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
 
 4. EAC **** ![에서](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **메일 흐름** \> **규칙** 으로 이동 하 고 새로 만들기 아이콘을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
 

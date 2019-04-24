@@ -14,11 +14,11 @@ search.appverid:
 ms.collection: Strat_O365_Enterprise
 description: '요약: 중요 한 정보 유형에 대 한 Office 365 메시지 암호화 정책을 지금 사용할 수 있습니다.'
 ms.openlocfilehash: 99cb7a9f94c9cf4036c11b74a5208ddf0e819ceb
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30213982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261266"
 ---
 # <a name="office-365-message-encryption-policy-for-sensitive-information"></a>중요 한 정보에 대 한 Office 365 메시지 암호화 정책
 
@@ -50,7 +50,7 @@ PowerShell에서 다음 명령을 실행 하 여 전자 메일 또는 첨부 파
 - ABA 라우팅 번호
 - 신용 카드 번호
 - DEA (약품 집행 기관) 번호
-- 미국/영국 여권 번호
+- 미국/영국 passport number
 - 미국 은행 계좌 번호
 - 미국 ITIN(개인 납세자 번호)
 - 미국 SSN(사회 보험 번호)

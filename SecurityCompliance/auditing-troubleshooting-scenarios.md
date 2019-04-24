@@ -15,11 +15,11 @@ search.appverid:
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나 사서함에 대 한 전자 메일 전달을 설정한 사람을 찾는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
 ms.openlocfilehash: bd0483f2b2e209dc0cbd2b03eda928fd8d44d7b0
-ms.sourcegitcommit: e24f70699021c4f4ba56508ad0afb6f65010c357
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/05/2019
-ms.locfileid: "31479664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250278"
 ---
 # <a name="search-the-office-365-audit-log-to-troubleshoot-common-scenarios"></a>일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
 
@@ -111,9 +111,9 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
 위한. **ObjectId** 필드에는 전자 메일 전달이 설정 된 사서함의 별칭이 표시 됩니다. 이 사서함은 검색 결과 페이지의 **항목** 열에도 표시 됩니다.
 
-b. **매개 변수** 필드에서 *ForwardingSmtpAddress* 값은 사서함에 대 한 전자 메일 전달이 설정 되었음을 나타냅니다. 이 예에서는 메일이 alpinehouse.onmicrosoft.com 조직 외부에 있는 전자 메일 주소로 mike@contoso.com전달 됩니다.
+b. **매개 변수** 필드에서 *ForwardingSmtpAddress* 값은 사서함에 대 한 전자 메일 전달이 설정 되었음을 나타냅니다. 이 예에서는 메일이 alpinehouse.onmicrosoft.com 조직 외부에 있는 전자 메일 주소 mike@contoso.com 전달 됩니다.
 
-&. *DeliverToMailboxAndForward* 매개 변수의 *True* 값은 *ForwardingSmtpAddress* 매개 변수로 지정 된 전자 메일 주소로 배달 sarad@alpinehouse.onmicrosoft.com 되 *고* 전달 되는 메시지의 복사본을 나타내며,이 예입니다 mike@contoso.com. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
+&. *DeliverToMailboxAndForward* 매개 변수의 값이 *True 이면* sarad@alpinehouse.onmicrosoft.com에 배달 된 메시지의 복사본이 ** *ForwardingSmtpAddress에서 지정한 전자 메일 주소로 전달 됨을 나타냅니다. *이 예제에서는 mike@contoso.com에 해당 하는 매개 변수를 사용할 수 있습니다. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
 
 &. **UserId** 필드에는 **ObjectId** field 필드에 지정 된 사서함에 대해 전자 메일 전달을 설정한 사용자가 표시 됩니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다. 이 경우 사서함 소유자가 사서함에서 전자 메일을 전달 하는 것으로 보입니다.
 
@@ -187,8 +187,8 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 위한. **ObjectId** 필드에 받은 편지함 규칙의 전체 이름이 표시 됩니다. 이 이름에는 사용자 사서함의 별칭 (예: SaraD)과 받은 편지함 규칙 이름 (예: "관리자 로부터 메시지 이동")이 포함 됩니다.
 
-b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 보내는 전자 메일에 대해 작동 admin@alpinehouse.onmicrosoft.com함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
+b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 admin@alpinehouse.onmicrosoft.com에서 보내는 전자 메일을 작동 함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
-&. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 받은 admin@alpinehouse.onmicrosoft.com 메시지를 *adminsearch*라는 폴더로 이동 합니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
+&. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 admin@alpinehouse.onmicrosoft.com에서 받은 메시지가 *adminsearch*라는 폴더로 이동 됩니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
 &. **UserId** 필드는 **ObjectId** 필드에 지정 된 받은 편지함 규칙을 만든 사용자를 나타냅니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다.

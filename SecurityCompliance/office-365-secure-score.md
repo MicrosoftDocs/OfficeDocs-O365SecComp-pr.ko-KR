@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: c9e7160f-2c34-4bd0-a548-5ddcc862eaef
 description: Office 365에서 조직이 어떻게 보호 되는지 궁금 하십니까? 보안 점수가 여기에 해당 합니다. 보안 점수는 Office 365의 일반 활동 및 보안 설정에 따라 조직의 보안을 분석 하 고 점수를 할당 합니다.
 ms.openlocfilehash: dd0dc87910853eba9f2ec3ec6752e857462b46e5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262478"
 ---
 # <a name="office-365-secure-score"></a>Office 365 보안 점수
 

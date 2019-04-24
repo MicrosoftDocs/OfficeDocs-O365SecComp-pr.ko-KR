@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Microsoft EOP(Exchange Online Protection)를 관리하기 위한 작업을 수행하는 데 필요한 사용 권한은 관리 대상 기능에 따라 다릅니다.
 ms.openlocfilehash: 08753d537982e49e735a1f81796f4709882c2be9
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256256"
 ---
 # <a name="feature-permissions-in-eop"></a>EOP의 기능 사용 권한
 

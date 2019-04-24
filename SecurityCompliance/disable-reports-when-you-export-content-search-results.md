@@ -12,11 +12,11 @@ search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: 로컬 컴퓨터에서 Windows 레지스트리를 편집 하 여 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정 합니다. 이러한 보고서를 사용 하지 않도록 설정 하면 다운로드 시간을 단축 하 고 디스크 공간을 절약할 수 있습니다.
 ms.openlocfilehash: 19d97bbc95be5db6540e6822721752ca62adebfc
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256856"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 

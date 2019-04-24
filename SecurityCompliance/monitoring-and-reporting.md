@@ -13,11 +13,11 @@ ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
 ms.openlocfilehash: 0a0bcbde7daa79aabda30013fca2560384545feb
-ms.sourcegitcommit: 8213c353954b92f5c3979bee4aa049da0fd28a18
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263130"
 ---
 # <a name="monitor-and-report-security-status-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 보안 상태 모니터링 및 보고
 

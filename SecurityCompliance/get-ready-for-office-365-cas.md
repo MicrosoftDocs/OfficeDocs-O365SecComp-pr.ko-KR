@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: d9ee4d67-f2b3-42b4-9c9e-c4529904990a
 description: Office 365 Cloud App Security를 사용 하 여 시작 하기
 ms.openlocfilehash: 89718adcbb7c77735db3009937d887e88d4a8bc3
-ms.sourcegitcommit: a80bd8626720fabdf592b84e4424cd3a83d08280
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30223717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254030"
 ---
 # <a name="get-ready-for-office-365-cloud-app-security"></a>Office 365 Cloud App Security 시작
   
@@ -46,7 +46,7 @@ Office 365 Cloud App Security portal로 이동 [https://portal.cloudappsecurity.
 
 Office 365 보안 &amp; 및 준수 센터에서 찾을 수도 있습니다. 이 작업을 수행 하는 좋은 방법은 다음과 같습니다.
 
-1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 로그인 합니다. (보안 &amp; 및 준수 센터로 이동 합니다.)
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. (보안 &amp; 및 준수 센터로 이동 합니다.)
     
 2. **경고** \> 로 이동 하 여 **고급 알림을 관리**합니다.
     
@@ -99,7 +99,8 @@ Office 365 Cloud App Security에는 두 가지 유형의 경고가 있으며, �
   
 ## <a name="step-8-create-a-maintenance-plan"></a>8 단계: 유지 관리 계획 만들기
 
-office 365 Cloud App Security를 설정 하 고 구성한 후에는 특정 사용률 작업을 조직의 Office 365 전역 관리자 또는 보안 관리자로 수행 하는 것이 좋습니다. 이러한 작업을 수행 하 여 office 365 Cloud App Security가 올바르게 구성 되어 있고, 정책이 최신 상태 이며, 조직에서 office 365의 가치를 인식 하도록 하는 데 도움이 됩니다. 이 문서를 참조 하 여 이러한 작업을 계획 하는 데 도움을 받을 수 있습니다. [Office 365 Cloud App Security를 시작한 후 사용률 작업](utilization-activities-for-ocas.md)을 참조 하세요.
+office 365 Cloud App Security를 설정 하 고 구성한 후에는 특정 사용률 작업을 조직의 Office 365 전역 관리자 또는 보안 관리자로 수행 하는 것이 좋습니다.
+이러한 작업을 수행 하 여 office 365 Cloud App Security가 올바르게 구성 되어 있고, 정책이 최신 상태 이며, 조직에서 office 365의 가치를 인식 하도록 하는 데 도움이 됩니다. 이 문서를 참조 하 여 이러한 작업을 계획 하는 데 도움을 받을 수 있습니다. [Office 365 Cloud App Security를 시작한 후 사용률 작업](utilization-activities-for-ocas.md)을 참조 하세요.
 
 ## <a name="optional-step-9-use-your-siem-server-with-office-365-cloud-app-security"></a>반드시 9 단계: Office 365 Cloud App Security에서 siem 서버 사용
 
@@ -107,7 +108,7 @@ office 365 Cloud App Security를 설정 하 고 구성한 후에는 특정 사�
   
 ## <a name="next-steps"></a>다음 단계
 
-- [Office 365 Cloud App Security 켜기](turn-on-office-365-cas.md)
+- [Office 365 Cloud App Security 사용](turn-on-office-365-cas.md)
     
 - Office 365 Cloud App Security의 강력한 기능을 시연 하 고 개념 증명을 만들 수 있는 실무 환경에 대 한 [테스트 랩 가이드](https://docs.microsoft.com/office365/enterprise/cloud-app-security-for-your-office-365-dev-test-environment) 를 사용해 보십시오. 
     

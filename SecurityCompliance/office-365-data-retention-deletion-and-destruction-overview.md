@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 description: 데이터 보존, 삭제 및 폐기와 관련 된 Microsoft의 Office 365 정책에 대 한 개요입니다.
 ms.openlocfilehash: fcae11f10278f1357a68ea3f9a1178da97322775
-ms.sourcegitcommit: 1261a37c414111f869df5791548a768d853fda60
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31004125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262840"
 ---
 # <a name="data-retention-deletion-and-destruction-in-office-365"></a>Office 365에서 데이터 보존, 삭제 및 폐기
 

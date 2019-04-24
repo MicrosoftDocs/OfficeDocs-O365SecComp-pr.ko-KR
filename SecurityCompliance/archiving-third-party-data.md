@@ -3,7 +3,7 @@ title: Office 365에서 타사 데이터 보관
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 9/5/2017
+ms.date: ''
 ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Office 365 조 직의 사서함으로 타사 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 Facebook, Twitter 및 데이터 원본에서 데이터를 보관할 수 있습니다. 그런 다음 Office 365 규정 준수 기능 (예: 법적 보존, 콘텐츠 검색 및 보존 정책)을 타사 데이터에 적용할 수 있습니다.'
-ms.openlocfilehash: 06ac436b1583187e89cb7f1beb26411ba02becec
-ms.sourcegitcommit: 86ff2eba1d57b9d5288840788529e69ad9d836b6
+ms.openlocfilehash: 6e5f40328c54a6f2c97cb6cfe14a1bc5727ae087
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31818615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32249614"
 ---
 # <a name="archiving-third-party-data-in-office-365"></a>Office 365에서 타사 데이터 보관
 
@@ -505,7 +505,7 @@ office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
     
     - 타사 데이터 사서함에 소송 보존을 적용합니다. 보안 및 준수 센터에서 Office 365 보존 정책을 적용할 수도 있습니다. 이 사서함을 보존 상태로 두면 타사 데이터 항목 (무기한 또는 지정 된 기간 동안)이 유지 되 고 사서함에서 해당 항목이 제거 되는 것을 방지할 수 있습니다. 다음 항목 중 하나를 참조 하세요.
     
-      - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
+      - [소송 보존 만들기](create-a-litigation-hold.md)
     
       - [Office 365의 보존 정책 개요](retention-policies.md)
     
@@ -521,7 +521,7 @@ office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
     
 2. 사용자 사서함을 소송 보존으로 설정 하거나 Office 365 보관 정책을 적용 합니다. 다음 항목 중 하나를 참조 하세요. 
     
-    - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
+    - [소송 보존 만들기](create-a-litigation-hold.md)
     
     - [Office 365의 보존 정책 개요](retention-policies.md)
     
@@ -573,7 +573,7 @@ office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
     |**종료일** <br/> |예  <br/> |항목을 처음 만들었거나 고객 데이터 원본에 게시한 날짜입니다. 예로 Twitter 메시지가 트윗된 날짜가 있습니다.  <br/> | `01 NOV 2015` <br/> |
     |**보내기** <br/> |아니요  <br/> |메시지 또는 게시물의 콘텐츠입니다. 일부 데이터 원본의 경우 이 속성의 콘텐츠는 **SUBJECT** 속성의 콘텐츠와 같을 수 있습니다. 가져오기 프로세스 동안 파트너 커넥터는 콘텐츠 원본의 충실도를 최대한 유지하려고 합니다. 가능한 경우 원본 항목의 본문에서 가져온 파일, 그래픽 또는 기타 콘텐츠가 이 속성에 포함됩니다. 그렇지 않은 경우 원본 항목의 콘텐츠가 **ATTACHMENT** 속성에 포함됩니다. 이 속성의 내용은 파트너 커넥터와 원본 플랫폼의 기능에 따라 달라 집니다.  <br/> | `Author: bob@contoso.com` <br/>  `Date: 10 DEC 2014` <br/>  `Tweet: "Mega deals with Contoso coming your way! #ContosoHolidayDeals"` <br/>  `Date: 01 NOV 2015` <br/> |
     |**덧붙인** <br/> |아니요  <br/> |데이터 원본의 항목 (예: Twitter 또는 인스턴트 메시징 대화에 있는 tweet)에 첨부 된 파일이 있거나 이미지를 포함 하는 경우, 파트너 연결에서는 먼저 **BODY** 속성에 첨부 파일을 포함 하 려 합니다. 이것이 가능 하지 않으면 * * ATTACHMENT * * 속성에 추가 됩니다. 첨부 파일의 다른 예로는 Facebook의 좋아요, 콘텐츠 원본의 메타데이터, 메시지 또는 게시물에 대한 응답이 있습니다.  <br/> | `image.gif` <br/> |
-    |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은 `IPM.NOTE.Source.Event`입니다. (이 속성은 다음으로 `IPM.NOTE`시작 해야 합니다 .이 형식은 `IPM.NOTE.X` message 클래스의 형식과 유사 합니다.) 이 속성에는 다음 정보가 포함 됩니다.  <br/><br/>`Source` -타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.  <br/> <br/>  `Event` -항목을 생성 한 타사 데이터 원본에서 수행한 작업 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다. 이벤트는 데이터 원본에 따라 다릅니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
+    |**MESSAGECLASS** <br/> |예  <br/> | 파트너 커넥터가 만들어서 채우는 다중 값 속성입니다. 이 속성의 형식은 `IPM.NOTE.Source.Event`입니다. (이 속성은 다음으로 `IPM.NOTE`시작 해야 합니다 .이 형식은 `IPM.NOTE.X` message 클래스의 형식과 유사 합니다.) 이 속성에는 다음 정보가 포함 됩니다.  <br/><br/>`Source`-타사 데이터 원본을 나타냅니다. 예: Twitter, Facebook 또는 BlackBerry를 예로 들 있습니다.  <br/> <br/>  `Event`-항목을 생성 한 타사 데이터 원본에서 수행한 작업 유형을 나타냅니다. 예를 들어, Twitter에 있는 tweet 또는 Facebook의 게시물입니다. 이벤트는 데이터 원본에 따라 다릅니다.  <br/> <br/>  이 속성의 한 가지 목적은 항목이 시작된 데이터 원본이나 이벤트의 유형에 따라 특정 항목을 필터링하는 것입니다. 예를 들어 eDiscovery 검색에서 특정 사용자가 게시한 모든 트윗을 찾는 검색 쿼리를 만들 수 있습니다.  <br/> | `IPM.NOTE.Twitter.Tweet` <br/> |
    
 - Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다. 이 식별자 `x-IngestionCorrelationID`는 종단 간 항목 추적을 위해 파트너가 제공 하는 후속 문제 해결을 위해 사용 될 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.
 

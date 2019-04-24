@@ -13,11 +13,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 일부로 서 Explorer에서 사용할 수 있는 다양 한 종류의 보기 (위협 탐색기 라고도 함)에 대해 알아봅니다.
 ms.openlocfilehash: bcfa044db6844d9459b3dd62d9ced1cd37a999ec
-ms.sourcegitcommit: a56128c7be5d59e976851c27301031e19fa1997d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30736435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260610"
 ---
 # <a name="threat-explorer-views"></a>위협 탐색기 보기
 

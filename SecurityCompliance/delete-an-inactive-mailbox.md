@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: 더 이상 Office 365 비활성 사서함의 내용을 보존 하지 않아도 되는 경우에는 보류를 제거 하 여 비활성 사서함을 영구적으로 삭제할 수 있습니다. 보류를 제거한 후 비활성 사서함은 삭제 되도록 표시 되 고 처리 된 후 영구적으로 삭제 됩니다.
 ms.openlocfilehash: f1aa29b0e40d02e4b6450202c0b2a34ae3075677
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257114"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 삭제
 
@@ -211,7 +211,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
 - **일시 삭제 된 사서함 보존 기간은 비활성 사서함에 어떤 영향을 줍니까?** 비활성 사서함의 일시 삭제 된 날짜가 보존을 제거한 날짜 보다 30 일 보다 많은 경우에는 사서함이 영구적으로 삭제 되도록 표시 됩니다. 그러나 비활성 사서함의 지난 30 일 이내에 일시 삭제 된 날짜가 있고 보존을 제거 하면 일시 삭제 된 사서함 보존 기간이 만료 될 때까지 사서함을 복구할 수 있습니다. 자세한 내용은 [Exchange Online에서 사용자 사서함 삭제 또는 복원을](https://go.microsoft.com/fwlink/?linkid=856835)참조 하십시오. 일시 삭제 된 사서함 보존 기간이 만료 되 면 비활성 사서함을 복구 하기 위한 절차를 따릅니다. 자세한 내용은 [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)를 참조 하십시오.
     
-- **보류를 제거한 후 비활성 사서함에 대 한 정보를 표시 하는 방법은 무엇 인가요?** 보류를 제거 하 고 비활성 사서함이 일시 삭제 된 사서함으로 다시 되돌아간 후에는 **사서함** cmdlet과 함께 *inactivemailboxonly* 매개 변수를 사용 하 여 반환 되지 않습니다. 그러나 **undo-softdeletedmailbox** 명령을 사용 하 여 사서함에 대 한 정보를 표시할 수 있습니다. 예: 
+- **보류를 제거한 후 비활성 사서함에 대 한 정보를 표시 하는 방법은 무엇 인가요?** 보류를 제거 하 고 비활성 사서함이 일시 삭제 된 사서함으로 다시 되돌아간 후에는 **사서함** cmdlet과 함께 *inactivemailboxonly* 매개 변수를 사용 하 여 반환 되지 않습니다. 그러나 **undo-softdeletedmailbox** 명령을 사용 하 여 사서함에 대 한 정보를 표시할 수 있습니다. 예를 들면 다음과 같습니다. 
     
 ```
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In

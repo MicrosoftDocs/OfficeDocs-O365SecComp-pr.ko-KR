@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고.
 ms.openlocfilehash: b3c0aecd45dd01d407712af2e3945e1cff521710
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32253946"
 ---
 # <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀
 

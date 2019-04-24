@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 15fa4545-28b4-4dd4-bf85-88e0926bd5fc
 description: 'office 365 Cloud App Security를 사용 하 여 office 365 환경에서 활동과 계정을 확인 하 여 어떤 일이 일어나는지 볼 수 있습니다. '
 ms.openlocfilehash: 0cc3860d953b40b0b0c247af6fb2b157d1abb235
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32254842"
 ---
 # <a name="investigate-an-activity-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security에서 활동 조사
   

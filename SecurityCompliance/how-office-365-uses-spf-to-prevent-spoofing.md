@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 Office 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 설명 합니다. 이는 Office 365에서 보내는 아웃 바운드 메일에 적용 됩니다. office 365에서 office 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
 ms.openlocfilehash: 5abe892eae4840b44a606f4004eb3b66a94accdc
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256560"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Office 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법
 

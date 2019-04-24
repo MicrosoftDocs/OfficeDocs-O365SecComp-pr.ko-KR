@@ -17,11 +17,11 @@ search.appverid:
 - MET150
 description: '정책 팁은 다른 사용자가 DLP 정책과 충돌 하는 콘텐츠로 작업할 때 표시 되는 알림 또는 경고입니다. 전자 메일 알림 및 정책 팁을 사용 하 여 인식을 향상 하 고 조직의 정책에 대 한 사용자를 교육 시킬 수 있습니다. 또한 사용자에 게 올바른 비즈니스 요구 사항이 있거나 정책이 가양성을 검색 하는 경우 차단 되지 않도록 정책을 재정의 하는 옵션을 제공할 수도 있습니다. '
 ms.openlocfilehash: b598b665de3d45846e221ea4c1b5c2f49a659c6b
-ms.sourcegitcommit: 8657e003ab1ff49113f222d1ee8400eff174cb54
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30639155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263940"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대 한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -291,6 +291,6 @@ DLP 정책의 정책 팁이 이러한 옵션으로 구성되어 있는 경우 �
     
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
     
-- [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+- [중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
     
 

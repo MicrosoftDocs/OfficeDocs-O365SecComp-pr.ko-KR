@@ -13,11 +13,11 @@ ms.collection:
 - M365-security-compliance
 description: '격리 된 전자 메일에 대 한 관리자 로부터 최종 사용자 스팸 알림 메시지를 보는 사용자는 메시지에 대해 이러한 작업을 수행할 수 있습니다. '
 ms.openlocfilehash: f9a8cdf21dfae631b311651aa2259af2f76d73b8
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30691977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264338"
 ---
 # <a name="use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages"></a>최종 사용자 스팸 알림을 사용하여 스팸으로 격리된 메시지 릴리스 및 보고
 

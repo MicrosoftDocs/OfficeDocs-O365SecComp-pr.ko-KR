@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
 ms.openlocfilehash: 2c140ef476b5fe19ef3655b062a3f197d36222e7
-ms.sourcegitcommit: 8a65a29aa3bfe5dcad0ff152a7cd795e02877dd9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30936788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261296"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 

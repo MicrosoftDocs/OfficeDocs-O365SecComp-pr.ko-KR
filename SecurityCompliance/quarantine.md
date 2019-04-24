@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: exchange online 및 exchange online Protection에 대 한 호스팅된 격리에 대해 알아봅니다.
 ms.openlocfilehash: 7a92704c7a3cf978ed028b094cac9f6c9ed4b47b
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265670"
 ---
 # <a name="quarantine"></a>격리
 

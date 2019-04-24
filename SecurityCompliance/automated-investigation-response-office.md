@@ -14,11 +14,11 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection의 자동화 된 조사 및 응답 기능에 대해 알아봅니다.
 ms.openlocfilehash: 223a28a7f63f101dd5644e433d72a3ddf6e5dc23
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32249914"
 ---
 # <a name="automated-investigation-and-response-air-with-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 

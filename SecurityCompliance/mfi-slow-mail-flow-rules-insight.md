@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 37125cdb-715d-42d0-b669-1a8efa140813
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 느린 메일 흐름 규칙에 대 한 정보를 확인할 수 있습니다.
 ms.openlocfilehash: ede12e14f287599cab0e5f39aaf71c38ed519276
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267230"
 ---
 # <a name="slow-mail-flow-rules-insight"></a>느린 메일 흐름 규칙 파악
 

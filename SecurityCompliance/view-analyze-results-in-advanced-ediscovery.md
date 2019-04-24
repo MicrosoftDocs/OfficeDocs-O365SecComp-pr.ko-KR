@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery 분석 결과 보기
+title: Office 365 Advanced eDiscovery에서 결과 분석 보기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: '표시 된 작업 옵션의 정의를 포함 하 여 Office 365 Advanced eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
 ms.openlocfilehash: 990bcbb3c6626521d40f7ce057c764200d5047b5
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30218828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267114"
 ---
-# <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery 분석 결과 보기
+# <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 분석 보기
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

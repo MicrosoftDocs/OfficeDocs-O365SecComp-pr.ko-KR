@@ -1,5 +1,5 @@
 ---
-title: 작업 집합에서 문서 태그 지정
+title: 작업 집합에서 문서 보기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,25 +13,23 @@ search.appverid:
 - MET150
 description: ''
 ms.openlocfilehash: 1502308fab4f27ed9e93e1dff204bdddf6ae726e
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241591"
 ---
-# <a name="view-documents-in-a-working-set"></a>작업 집합에서 문서 태그 지정
+# <a name="view-documents-in-a-working-set"></a>작업 집합에서 문서 보기
 
 Advanced eDiscovery (Preview)에서는 용도가 서로 다른 여러 뷰어를 통해 콘텐츠를 표시 합니다. 작업 집합 내의 문서를 클릭 하 여 다양 한 뷰어를 사용할 수 있습니다. 현재 제공 되는 뷰어는 다음과 같습니다.
 
-- 파일 메타데이터  
-
+- 파일 메타 데이터
 - 기본 보기
 - 텍스트 보기
 - 주석 달기 보기
 - 변환 된 보기
 
-## <a name="file-metadata"></a>파일 메타데이터  
-
+## <a name="file-metadata"></a>파일 메타 데이터
 
 이 패널을 설정/해제 하 여 문서와 연결 된 다양 한 메타 데이터를 표시할 수 있습니다. 특정 메타 데이터를 표시 하도록 검색 결과 표를 사용자 지정할 수 있지만 데이터를 검토 하는 동안 가로로 스크롤 하기가 어려울 수 있습니다. 사용자는 파일 메타 데이터 패널을 사용 하 여 보기를 전환할 수 있습니다.
 

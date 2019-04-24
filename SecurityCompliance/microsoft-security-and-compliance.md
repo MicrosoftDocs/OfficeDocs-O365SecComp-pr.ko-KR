@@ -3,7 +3,7 @@ title: 이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센�
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 04/09/2019
+ms.date: 04/22/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: 36159872bb42230523fac0a2d006fbb35eac18c6
-ms.sourcegitcommit: 48b77ec6fb499175507fc08f11dc9f5efe6c4858
+ms.openlocfilehash: a64c64756f0c4588efcc6e467316b90aa1aabc3f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31518378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265496"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.
 
@@ -26,7 +26,7 @@ ms.locfileid: "31518378"
 
 새로운 [Microsoft 365 보안 센터](overview-security-center.md) 에는 id, 데이터, 장치, 앱 및 인프라 간의 보안을 관리 하 고 모니터링 하는 데 도움이 되는 대시보드가 포함 되어 있습니다. 또한 새로운 [Microsoft 보안 점수](microsoft-secure-score.md), 새 디바이스 위협 보고서, 새 id 위협 보고서 및 Cloud App Security reports에 쉽게 액세스할 수 있습니다. 
 
-[![Nnew Microsoft 365 보안 센터](media/m365-security-center.png)](overview-security-center.md)
+[![새로운 Microsoft 365 보안 센터](media/m365-security-center.png)](overview-security-center.md)
 
 Microsoft 365 보안 센터를 처음 사용 하는 경우 시작 하는 데 도움이 되도록 화면 위쪽에 정보가 표시 됩니다. 또한 가장 관심이 있는 보안 기능으로 쉽게 이동 하는 방법을 알아봅니다. 자세한 내용은 [Microsoft 365 보안 센터 개요](overview-security-center.md)를 참조 하세요.
 
@@ -41,7 +41,7 @@ Microsoft 365 보안 센터에 액세스할 수 있게 됩니다 [https://securi
 
 민감도 및 보존 레이블과 정책, DLP (데이터 손실 방지), 데이터 거 버 넌 스, eDiscovery, 데이터 주체 요청 (dsrs), 사례 관리 및 Cloud App Security에 쉽게 액세스할 수 있습니다. 또한 실행 가능한 통찰력을 얻고 지능적인 자동화를 활용 하 여 준수 위험을 줄이고 디지털 공간을 보호할 수 있습니다. 
 
-[![Microsoft 365 준수 센터](media/m365-compliance-center.png)](microsoft-365-compliance-center.md)
+[![Microsoft 365 규정 준수 센터](media/m365-compliance-center.png)](microsoft-365-compliance-center.md)
 
 Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도움이 되도록 화면 위쪽에 정보가 표시 됩니다. 가장 관심이 있는 준수 기능으로 쉽게 이동 하는 방법을 볼 수 있습니다. 자세한 내용은 [새로운 Microsoft 365 준수 센터 시작](microsoft-365-compliance-center.md)을 참조 하십시오.
 
@@ -87,14 +87,16 @@ Office 365 보안 & 준수 센터를 포함 하는 독립 실행형 계획과 �
 
 - 보안 관리자, 보안 운영자 및 보안 독자는 보안 센터에 액세스할 수 있습니다.
 
+ 이러한 역할에 대 한 자세한 내용은 [Permissions in the Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
+ 
 다음 표에서는 Azure, Office 365 및 Windows에서 다양 한 포털에 액세스할 수 있는 사람을 요약해 서 보여 줍니다.
 
 |포탈 |전역 관리자 |보안 관리자, 보안 운영자 또는 보안 독자|준수 관리자 또는 준수 데이터 관리자 |
 |---------|---------|---------|---------|
-|[보안 및 준수 센터](https://protection.office.com) |예 |예  |예 |
+|[보안 & 준수 센터](https://protection.office.com) |예 |예  |예 |
 |[Microsoft 365 보안 센터](https://security.microsoft.com) |예  | 예  | 아니요        |
 |[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com) | 예 | 아니요 | 예 |
-|[준수 관리자](https://aka.ms/compliancemanager) |예 | 예 |예  |
+|[규정 준수 관리자](https://aka.ms/compliancemanager) |예 | 예 |예  |
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |예 |예 |아니요 |
 |[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |예 |예 |아니요 |
 |[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |예 |예 |아니요 |
@@ -115,3 +117,5 @@ Office 365 보안 & 준수 센터를 포함 하는 독립 실행형 계획과 �
 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Office 365 Security & 준수 센터 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+
+microsoft 365 보안 센터 및 microsoft 365 준수 센터에 대 한 의견을 제공 하려면 (예: 새 기능에 대 한 아이디어) [microsoft Office에 대 한 고객 의견 365](https://office365.uservoice.com) 을 방문 하세요.

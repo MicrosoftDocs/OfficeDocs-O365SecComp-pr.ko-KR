@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 3aa37a6778947934759eb652a9367559b9ef838b
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257286"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>관련성 모듈을 사용 하 여 증거의 데이터 분석
 

@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 88935b4e-dcb1-47f1-8aca-1bf8fb069db6
 description: '변칙 검색 정책 Office 365 Cloud App Security에서는 잠재적 문제를 파악 하는 데 도움이 되는 기본 제공 알고리즘을 사용 합니다. 필터를 사용 하 여 튜닝할 수 있는 변칙 검색 정책이 하나 이상 있어야 합니다. '
 ms.openlocfilehash: 5308af139a46dad0793ed7eedacab0aee62dcc6c
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242873"
 ---
 # <a name="anomaly-detection-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 변칙 검색 정책
 
@@ -67,7 +67,7 @@ office 365 전역 관리자 또는 보안 관리자는 office 365 Cloud App secu
   
 다음 표에서는 기본 변칙 검색 정책, 사용자가 수행 하는 작업 및 작동 방식에 대해 설명 합니다.
   
-|**변칙 검색 정책 이름**|**작업 방법**|
+|**변칙 검색 정책 이름**|**작동 방법**|
 |:-----|:-----|
 |불가능 한 여행  <br/> |사용자가 첫 번째 위치에서 두 번째 위치로 이동 하는 데 걸리는 시간 보다 짧은 기간 동안 지리적으로 서로 떨어져 있는 위치에서 두 개의 사용자 작업 (하나 또는 여러 개의 세션)을 식별 합니다. 사용자가 동일한 자격 증명을 사용 하 고 있습니다. 이 검색에서는 조직의 다른 사용자가 정기적으로 사용 하는 vpn 및 위치와 같은 불가능 한 이동 조건에 기여 하는 명백 하 게 "가양성"을 무시 하는 컴퓨터 학습 알고리즘을 활용 합니다. 이 검색에는 새 사용자의 활동 패턴을 학습 하는 7 일 동안의 초기 학습 기간이 있습니다.  <br/> |
 |자주 발생 하지 않는 국가의 활동  <br/> |이전의 활동 위치를 고려 하 여 새로 및 자주 발생 하지 않는 위치를 결정 합니다. 변칙 검색 엔진은 조직의 사용자가 사용 하는 이전 위치에 대 한 정보를 저장 합니다. 사용자가 최근 또는 조직 내 사용자가 방문 하지 않은 위치에서 활동이 발생 하는 경우 경고가 트리거됩니다.  <br/> |

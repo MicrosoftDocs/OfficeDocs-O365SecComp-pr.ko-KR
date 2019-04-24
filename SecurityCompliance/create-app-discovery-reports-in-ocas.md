@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 3e68e691-1fc4-4d3e-a2c0-d3134eb64055
 description: office 365 Cloud App Security를 사용 하 여 보고서를 만들면 조직의 사용자가 office 365 및 기타 앱을 사용 하는 방법을 이해할 수 있습니다.
 ms.openlocfilehash: 23165a52a09e5bcde46ee3ab2110dc17d0faf7f4
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259644"
 ---
 # <a name="create-app-discovery-reports-using-office-365-cloud-app-security"></a>Office 365 Cloud App Security을 사용하여 앱 검색 보고서 만들기
 

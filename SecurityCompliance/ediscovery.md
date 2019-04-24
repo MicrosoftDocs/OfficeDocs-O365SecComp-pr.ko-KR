@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: Office 365에서는 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Office 365 그룹, 비즈니스용 Skype 대화 등 다양 한 위치에서 찾은 콘텐츠를 검색 하 고 유지 하는 데 사용할 수 있는 다양 한 eDiscovery 도구를 제공 합니다.
 ms.openlocfilehash: 51ef4e744f2347fe3cdaff757131baf0c5fe83bf
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256806"
 ---
 # <a name="ediscovery-in-office-365"></a>Office 365의 eDiscovery
 

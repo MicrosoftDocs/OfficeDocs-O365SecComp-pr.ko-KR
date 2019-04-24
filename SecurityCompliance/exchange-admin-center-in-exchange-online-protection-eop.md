@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
 ms.openlocfilehash: 983f6fe6b9f1592115e524315c9e52e08fed5101
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255992"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Exchange Online Protection의 Exchange 관리 센터 
 

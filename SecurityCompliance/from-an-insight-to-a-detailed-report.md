@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: 데이터 손실 방지 예제를 통해 보안 &amp; 및 준수 센터에서 자세한 보고서로 이동 하는 방법에 대해 알아봅니다.
 ms.openlocfilehash: 101aeec71e724204018dee8d12d6c74a120578bf
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255406"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>연습 - 통찰력에서 자세한 보고서
 

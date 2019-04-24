@@ -11,11 +11,11 @@ ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
 ms.openlocfilehash: 51d9a9e44c08a7a41fc1a0a1e9d062bef02d9ef5
-ms.sourcegitcommit: d3e3ce391130f209f4d63c2528e1da8342cd732f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31908292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244049"
 ---
 # <a name="ciso-workshop-module-3-identity-and-access-management"></a>ciso 워크숍 모듈 3: id 및 액세스 관리 
 

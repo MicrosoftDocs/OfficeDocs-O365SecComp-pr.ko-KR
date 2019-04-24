@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: e59c92ff488f82f4ea042364d742f7418da50167
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 4cb60cd55f526592cb469d80a061375a4f556afe
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257020"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -83,7 +83,7 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
 6. 추가 그룹에 대해 3-5 단계를 반복 합니다.
     
 > [!NOTE]
-> Office 기능을 사용 하도록 설정 하려면 Azure portal을 사용 하 여 그룹을 만들어야 합니다. SharePoint Online 격리 사이트가 나중에 Azure Information Protection (aip) 레이블을 사용 하 여 파일을 암호화 하 고 특정 그룹에 사용 권한을 할당 하는 고도로 기밀 사이트로 구성 된 경우에는 허용 되는 그룹이 Office 기능을 사용 하 여 만들어진 것 이어야 합니다. 된. Azure AD 그룹을 만든 후에는 Office 기능 설정을 변경할 수 없습니다. 
+> Office 기능을 사용 하도록 설정 하려면 Azure portal을 사용 하 여 그룹을 만들어야 합니다. SharePoint Online 격리 된 사이트가 파일을 암호화 하 고 특정 그룹에 사용 권한을 할당 하기 위해 Azure Information Protection 레이블을 사용 하 여 고도로 기밀 사이트로 구성 된 경우에는 허용 되는 그룹이 Office 기능을 사용 하도록 설정 된 상태로 만들어져 있어야 합니다. Azure AD 그룹을 만든 후에는 Office 기능 설정을 변경할 수 없습니다. 
   
 다음은 세 개의 사이트 액세스 그룹이 포함 된 결과 구성입니다.
   
@@ -105,7 +105,7 @@ office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 office 
   
 Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 적절 한 액세스 그룹에 적절 한 사용자 계정 및 그룹을 추가 합니다.
   
-PowerShell의 경우 먼저 [Azure Active Directory V2 PowerShell 모듈을 사용 하 여 연결](https://go.microsoft.com/fwlink/?linkid=842218)합니다.
+PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
   
 다음으로, 다음 명령 블록을 사용 하 여 액세스 그룹에 개별 사용자 계정을 추가 합니다.
   
@@ -161,7 +161,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 먼저 다음 단계를 사용 하 여 SharePoint Online 팀 사이트를 만듭니다.
   
-1. sharepoint online 팀 사이트 (sharepoint online 관리자)를 관리 하는 데 사용 되는 계정을 사용 하 여 관리 센터에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. SharePoint Online 팀 사이트(SharePoint Online 관리자)를 관리하는 데에도 사용할 계정으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -173,9 +173,9 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 6. **팀 사이트 설명** 에서 사이트의 용도에 대 한 설명을 입력 합니다 (선택 사항).
     
-7. **개인 정보 설정**에서 **비공개 – 구성원만 이 사이트에 액세스할 수 있습니다.** 를 선택하고 **다음**을 클릭합니다.
+7. **개인 정보 설정**에서 **개인 - 구성원만 이 사이트에 액세스할 수 있음**을 선택하고 **다음**을 클릭합니다.
     
-8. **어떤 사람을 추가하시겠습니까?** 창에서 **마침**을 클릭합니다.
+8. **누구를 추가하시겠습니까?** 창에서 **마침**을 클릭합니다.
     
 다음으로, 새 SharePoint Online 팀 사이트에서 사용 권한을 구성 합니다.
   

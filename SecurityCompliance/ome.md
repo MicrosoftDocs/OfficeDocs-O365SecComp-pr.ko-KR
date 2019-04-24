@@ -13,11 +13,11 @@ search.appverid:
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받을 수 있습니다. 전자 메일 메시지 암호화는 의도 된 받는 사람만 메시지 콘텐츠를 볼 수 있도록 합니다.
 ms.openlocfilehash: 06c43bcb3364b83114e2d7b1a2ef0273858cffb0
-ms.sourcegitcommit: 895f67531f2b4afe46c7487ca5b44555ca791bae
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261316"
 ---
 # <a name="office-365-message-encryption"></a>Office 365 메시지 암호화
 

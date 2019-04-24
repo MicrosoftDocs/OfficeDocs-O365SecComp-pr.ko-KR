@@ -3,23 +3,22 @@ title: Office 365 관리 작업 API
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-analytics
 description: Office 365 관리 활동 API에 대 한 간략 한 요약입니다.
-ms.openlocfilehash: df90eba0d019a862d4699f3e2aa0a04e88b0c371
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 3405eaac000111fb5d5f054edcbe6816aa9af9e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262560"
 ---
 # <a name="office-365-management-activity-api"></a>Office 365 관리 작업 API
 Microsoft는 관리자가 Office 365 테 넌 트에 대 한 집계 된 트랜잭션 정보를 가져올 수 있도록 하는 보고 서비스를 제공 합니다. [Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview) 는 인증을 위해 업계 표준 RESTful 디자인 및 OAuth v2를 사용 하므로 데이터 검색 및 시각화 도구 및 응용 프로그램으로 ingesting을 쉽게 시험해 볼 수 있습니다. 이 API는 Office 365의 사용자, 관리자, 작업 및 보안 작업에 대 한 정보를 포함 하는 데이터 피드를 제공 합니다. 데이터는 규정 목적에 따라 유지 되거나, 온-프레미스 인프라 또는 기타 원본에서 확보 한 로그 데이터와 함께 기업 전체의 운영, 보안 및 규정 준수를 위한 모니터링 솔루션을 구축 하는 데 사용 될 수 있습니다.

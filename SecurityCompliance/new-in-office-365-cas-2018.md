@@ -13,11 +13,11 @@ search.appverid:
 - MOE150
 description: Office 365 Cloud App Security에서 2018 중 릴리스된 항목을 참조 하세요.
 ms.openlocfilehash: 986fb64eedf8184e7835d1fec41845fde13b294b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32263172"
 ---
 # <a name="office-365-cloud-app-security-updates-during-2018"></a>2018 중 Office 365 Cloud App Security 업데이트
 

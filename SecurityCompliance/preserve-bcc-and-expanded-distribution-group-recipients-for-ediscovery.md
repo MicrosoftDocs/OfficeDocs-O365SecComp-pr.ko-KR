@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: 원본 위치 유지, 소송 유지 및 Office 365 보존 정책을 사용 하면 규정 준수 및 eDiscovery 요구 사항을 충족 하기 위해 사서함 콘텐츠를 보존할 수 있습니다.
 ms.openlocfilehash: fcf5567bc50f25ce51d8d569d772559a376703d0
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261686"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   

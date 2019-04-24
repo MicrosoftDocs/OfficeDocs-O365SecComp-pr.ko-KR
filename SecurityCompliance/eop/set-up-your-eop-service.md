@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 Configure mail flow using connectors in Office 365을 참조하세요.
 ms.openlocfilehash: 496a249f1dc269151dad4b93d2b5cf30fa6ec91b
-ms.sourcegitcommit: 8213c353954b92f5c3979bee4aa049da0fd28a18
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256596"
 ---
 # <a name="set-up-your-eop-service"></a>EOP 서비스 설정
 

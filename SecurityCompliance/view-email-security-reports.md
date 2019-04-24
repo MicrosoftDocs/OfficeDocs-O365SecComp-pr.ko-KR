@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
 ms.openlocfilehash: 1a885661f5bf020c325ee2d9f084473ecb27c53a
-ms.sourcegitcommit: 1658be51e2c21ed23bc4467a98af74300a45b975
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30862510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267962"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 

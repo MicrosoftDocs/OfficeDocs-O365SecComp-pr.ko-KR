@@ -16,11 +16,11 @@ ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 365에서 클라우드 기반 앱에 의해 생성 된 데이터는 Microsoft 클라우드의 사용자 Exchange Online 사서함에 저장 됩니다.
 ms.openlocfilehash: 6f7a81842df5972a03648a2f93d4bd6fbd738fec
-ms.sourcegitcommit: 7a6c742a81bc8ebd55b5a437e835bcb85485cf99
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32266900"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Exchange Online 사서함에 저장 된 콘텐츠
 

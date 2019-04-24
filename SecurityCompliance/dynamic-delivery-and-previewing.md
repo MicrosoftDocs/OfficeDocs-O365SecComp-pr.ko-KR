@@ -16,11 +16,11 @@ ms.collection:
 - M365-security-compliance
 description: ATP 안전한 첨부 파일 정책을 설정할 때 메시지 지연을 방지 하 고 사용자가 검색 중인 첨부 파일을 미리 볼 수 있도록 동적 전달을 선택 합니다.
 ms.openlocfilehash: 567b5f0c5bc75123169073bf5dc33de191187846
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257226"
 ---
 # <a name="dynamic-delivery-and-previewing-with-office-365-atp-safe-attachments"></a>동적 배달 및 Office 365 ATP 안전한 첨부 파일로 미리 보기
 

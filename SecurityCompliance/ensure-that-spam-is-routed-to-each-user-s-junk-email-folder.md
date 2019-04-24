@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
 ms.openlocfilehash: 30b115b5d7f8f02767e3e380b672341765052a9c
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30692817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256666"
 ---
 # <a name="ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인
 

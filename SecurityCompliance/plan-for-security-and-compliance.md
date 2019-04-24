@@ -15,11 +15,11 @@ ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 계획 보안 및 규정 준수에 대 한 랜딩 페이지
 ms.collection: M365-security-compliance
 ms.openlocfilehash: b0c7af13a78499f3ee8af5b902bc4c8db85aca32
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30998491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265870"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Office 365의 &amp; 보안 준수 계획
 

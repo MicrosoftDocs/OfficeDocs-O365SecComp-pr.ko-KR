@@ -15,11 +15,11 @@ ms.collection:
 - Strat_O365_Enterprise
 description: '요약: 클라우드의 BitLocker 암호화에 대 한 정보입니다.'
 ms.openlocfilehash: 293c7a3cef3ae2c55a0b12df139baf5302dd3b04
-ms.sourcegitcommit: 7adfd8eda038cf25449bdf3df78b5e2fcc1999e7
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262940"
 ---
 # <a name="bitlocker-and-distributed-key-manager-dkm-for-encryption"></a>암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
 

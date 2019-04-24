@@ -1,5 +1,5 @@
 ---
-title: 데이터 조사에서 지원 되는 파일 형식
+title: 데이터 조사에서 지원 되는 파일 형식 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,17 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bec8c01b75d68249a335c4de48909ce50ab3bf97
-ms.sourcegitcommit: 2c5834235c32b2616e1813ce24eeb3419a09629f
+ms.openlocfilehash: ec27b7a8e9dbaf03e9a1d5f987bb9dd9b7513b85
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31030357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32257636"
 ---
-# <a name="supported-file-types-in-data-investigations"></a>데이터 조사에서 지원 되는 파일 형식
+# <a name="supported-file-types-in-data-investigations-preview"></a>데이터 조사에서 지원 되는 파일 형식 (미리 보기)
 
+데이터 조사 (미리 보기)는 다음과 같은 다양 한 방법으로 여러 가지 파일 형식을 지원 합니다. 이 목록은 마무리 되지 않으며 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가 합니다. 또한 증거를 검토할 때 사용할 수 있는 보기에서 파일 형식을 볼 수 있는지 여부도이 표에 나와 있습니다.
 
-| Mime 형식 | File 클래스 (예: Image, Archive, Email, Office Doc 등) | 네이티브 뷰어 | 텍스트 | 주석 달기 보기 | 컨테이너 추출 | 가능한 내선 번호 |
+| Mime 형식 | File 클래스 | 네이티브 뷰어 | 텍스트 뷰어 | 주석 달기 보기 | 컨테이너 추출 | 간격 |
 | :- | :- | :- | :- | :- | :- | :- |
 | application/msword | 오피스 | 예 | 예 | 예 | 아니요 | .doc; .dat |
 | application/pdf | 오피스 | 예 | 예 | 예 | 아니요 | .pdf |
@@ -67,3 +68,4 @@ ms.locfileid: "31030357"
 | 텍스트/html | 오피스 | 예 | 예 | 예 | 아니요 | .html; shtml.dll; .htm |
 | 텍스트/일반 | 오피스 | 예 | 예 | 예 | 아니요 | .txt; .css; con, pl; .csv; .dat |
 | 텍스트/vcard-연락처 | 오피스 | 예 | 예 | 예 | 아니요 | .vcf |
+||||||||

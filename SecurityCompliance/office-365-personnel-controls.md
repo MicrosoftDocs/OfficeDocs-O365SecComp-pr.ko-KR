@@ -3,23 +3,22 @@ title: Office 365 담당자 컨트롤
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365에 대 한 Microsoft의 직원 차단 관행에 대 한 개요입니다.'
-ms.openlocfilehash: e7b7659447217adc2a5b7c001df0994e82180b3b
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: b69c219ef6b405734035d74ce10195ea8cddf401
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262420"
 ---
 # <a name="office-365-personnel-controls"></a>Office 365 담당자 컨트롤 
 
@@ -70,7 +69,8 @@ Microsoft의 클라우드 서비스 환경 내에서는 다음 표에 설명 된
 - 정부 id의 id 확인
 - 신용 검사 (해당 되는 경우)
 
-정기적으로 rescreening 및/또는 추가 백그라운드 확인은 특정 관리, 보안 또는 다른 역할 (예를 들어, 고객 데이터에 액세스 해야 하는 역할의 미국 기반 직원에 게 제한 되지 않음)에 필요할 수 있습니다. 불확정 직원의 경우 타사와의 계약은 타사에서 수행 해야 하는 Microsoft의 차단 요구 사항을 지정 합니다. 배경 확인을 위해 타사 회사는 백그라운드 확인이 수행 되었음을 Microsoft 확인 하는 일을 담당 합니다. 배경 검사의 결과는 대개 타사 인적 자원 부서의 전자 메일을 통해 수신 됩니다. 계약 직원의 해외 직원은 백그라운드 확인을 금지 하는 국가의 법칙으로 인해 백그라운드 차단 프로세스에서 제외 될 수 있습니다.
+정기적으로 rescreening 및/또는 추가 백그라운드 확인은 특정 관리, 보안 또는 다른 역할 (예를 들어, 고객 데이터에 액세스 해야 하는 역할의 미국 기반 직원에 게 제한 되지 않음)에 필요할 수 있습니다.
+불확정 직원의 경우 타사와의 계약은 타사에서 수행 해야 하는 Microsoft의 차단 요구 사항을 지정 합니다. 배경 확인을 위해 타사 회사는 백그라운드 확인이 수행 되었음을 Microsoft 확인 하는 일을 담당 합니다. 배경 검사의 결과는 대개 타사 인적 자원 부서의 전자 메일을 통해 수신 됩니다. 계약 직원의 해외 직원은 백그라운드 확인을 금지 하는 국가의 법칙으로 인해 백그라운드 차단 프로세스에서 제외 될 수 있습니다.
 
 ## <a name="microsoft-employment-screening"></a>Microsoft 고용 심사
 2004 이후로 Microsoft는 felonies 및 misdemeanors에 대해 7 년의 범죄 기록 화면을 전달 하 고 교육 및 고용 기록을 확인 하 여 직원 및 인턴에 대 한 미국 연방 조사를 진행 하 고 있습니다.
@@ -84,7 +84,7 @@ Microsoft의 클라우드 서비스 환경 내에서는 다음 표에 설명 된
 
 다음 표에는 Microsoft 클라우드 백그라운드 검사의 일부로 수행 되는 검사가 나와 있습니다.
 
-| 차단 | Description |
+| 차단 | 설명 |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 주민 등록 번호 검색 | 제공 된 소셜 보안 번호가 올바른지 확인 합니다. |
 | 범죄 기록 확인 | 7 년 범죄자 레코드는 중범죄 및 경 범죄의에 대 한 상태, 관할지 및 지역 수준에서 적절 한 수준으로 확인 합니다. |

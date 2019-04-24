@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 2018 년 8 월 15 일에는 Android 및 Apple 스토어에서 Office 365 메시지 암호화 (OME) 뷰어 모바일 앱을 제거 합니다. Apple 및 Android 휴대폰에서 이전 버전의 OME을 사용 하 여 암호화 된 전자 메일 메시지 및 첨부 파일을 읽으려면 Office 365 메시지 암호화 뷰어 모바일 앱이 필요 합니다. OME Viewer 앱을 제거 하는 것 외에도 이전 버전의 OME는 다른 방법으로 변경 하지 않습니다.
 ms.openlocfilehash: 82f28249e6b9911faea866f5a3574b635e45156c
-ms.sourcegitcommit: d3e3ce391130f209f4d63c2528e1da8342cd732f
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32256976"
 ---
 # <a name="deprecating-office-365-message-encryption-viewer-app"></a>방식 Office 365 메시지 암호화 뷰어 앱
 

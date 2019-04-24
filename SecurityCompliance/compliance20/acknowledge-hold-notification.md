@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 048c85c7b8d77b9c7d3b9527640648b9ebe463d0
-ms.sourcegitcommit: 5d6be2b208dbe28d5d5da057c60cf97729799c1b
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243641"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인 
 규정 요청 또는 조사에 응답할 때 custodians에 게 알려야 하 고, ESI (전자적으로 저장 된 정보)를 보존 하 고, 활성 또는 즉시 법적 관계를 유지 해야 할 수도 있습니다. 합법적인 팀이 전송 된 후에는 각 custodian에 게 제공 되 고, 읽고, 이해 했으며, 지정 된 지침을 준수 하기로 합의 해야 합니다.

@@ -3,23 +3,22 @@ title: Office 365 기술 컨트롤
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: '요약: Office 365에 대 한 Microsoft의 기술 제어 관행에 대 한 개요입니다.'
-ms.openlocfilehash: 77dee44ec648ea2aa1dab61776089bf7d9e2580a
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: a8dcb65880fc729fc067b2f2bcf25c7db76dbca9
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30220378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32262340"
 ---
 # <a name="office-365-technology-controls"></a>Office 365 기술 컨트롤 
 
@@ -34,7 +33,7 @@ Lockbox는 엔지니어에 게 서비스 내에서 운영 및 관리 기능을 �
 
 고객 Lockbox for Office 365는 명시적 데이터 액세스 권한 부여를 위한 절차가 필요한 경우 FedRAMP 및 HIPAA에 나와 있는 준수 의무를 충족 하는 데 도움이 될 수 있습니다. 드문 경우이 든 Microsoft 서비스 엔지니어가 데이터에 액세스 해야 하는 경우에는 문제를 해결 하는 데 필요한 데이터에만 액세스 권한을 부여 하 고 제한 된 시간에만 해당 합니다. 지원 엔지니어가 수행 하는 작업은 감사 목적으로 기록 되며, [Office 365 관리 활동 API](https://msdn.microsoft.com/library/office/dn707383.aspx) 와 [보안 및 준수 센터](http://protection.office.com/)를 통해 액세스할 수 있습니다. 고객 lockbox는 해당 고객을 Lockbox 승인 프로세스에 삽입 하 고 서비스 작업을 위해 Exchange online 또는 SharePoint online 콘텐츠에 대 한 Microsoft 액세스 권한 부여를 제어할 수 있는 기능을 제공 합니다.
 
->**참고**: 고객 Lockbox는 [office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) 및 추가 기능 구매에서 사용할 수 있지만 수동 작업은 office 365 관리 센터 (서비스 설정 |)에서 수행 해야 합니다. 고객 Lockbox)를 사용 하도록 설정 합니다. 자세한 내용은 [Office 365 고객 Lockbox 요청](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2)을 참조 하세요.
+>**참고**: 고객 Lockbox는 [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) 및 추가 기능 구매에서 사용할 수 있지만 수동 작업은 Microsoft 365 관리 센터 (서비스 설정 |)에서 수행 해야 합니다. 고객 Lockbox)를 사용 하도록 설정 합니다. 자세한 내용은 [Office 365 Customer Lockbox 요청](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2)을 참조하세요.
 
 Exchange online 및 SharePoint online에 대 한 모든 서비스 요청은 Lockbox 시스템에서 처리 됩니다. 그리고 고객 Lockbox를 사용 하 여 고객 데이터에 대 한 노출을 통해 이러한 서비스에 액세스 하는 모든 서비스 작업은 Lockbox 승인 프로세스를 통과 한 다음 고객이 해당 요청을 승인 하거나 거부할 수 있습니다.
  

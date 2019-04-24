@@ -15,11 +15,11 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: aaec95ec4bb8e55d1ed1c7d9552ee7215ba5ec14
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30294781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242891"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>사례에서 구성원 추가 또는 제거
 
@@ -29,9 +29,10 @@ ms.locfileid: "30294781"
 
 2. **설정** 으로 이동 하 여 "Access & Permissions"를 선택 합니다.
  
-3. **업데이트**를 클릭 합니다.
+3. **업데이트**를 클릭합니다.
  
-4. **구성원 관리**에서 add Icon 추가를 클릭 하 여 서비스 케이스에 구성원을 추가 합니다. 또한 사례에 역할 그룹을 추가 하도록 선택할 수 있습니다. **역할 그룹 관리**에서 add 아이콘 추가를 클릭 합니다.  역할 그룹은 사례에 액세스 하기 위한 권한을 제어 한다는 점을 염두에 두어야 합니다. 즉, 사례 관리 역할을 사용 하 여 검토자, eDiscovery 관리자 또는 사용자 지정 역할 그룹만 할당할 수 있습니다.
+4. **구성원 관리**에서 add Icon 추가를 클릭 하 여 서비스 케이스에 구성원을 추가 합니다. 또한 사례에 역할 그룹을 추가 하도록 선택할 수 있습니다. **역할 그룹 관리**에서 add 아이콘 추가를 클릭 합니다. 
+    역할 그룹은 사례에 액세스 하기 위한 권한을 제어 한다는 점을 염두에 두어야 합니다. 즉, 사례 관리 역할을 사용 하 여 검토자, eDiscovery 관리자 또는 사용자 지정 역할 그룹만 할당할 수 있습니다.
  
 5. 사례 구성원으로 추가할 수 있는 사용자 또는 역할 그룹의 목록에서 추가할 사용자 또는 역할 그룹의 이름 옆에 있는 확인란을 클릭 합니다.
 

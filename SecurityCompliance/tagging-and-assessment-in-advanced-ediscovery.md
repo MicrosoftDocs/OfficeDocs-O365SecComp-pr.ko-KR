@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Office 365 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
 ms.openlocfilehash: 02dae23b6489b40243272beea1d79e871ca6a911
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30217938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32260376"
 ---
 # <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 태그 지정 및 평가
 

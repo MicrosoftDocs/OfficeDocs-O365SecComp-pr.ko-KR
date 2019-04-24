@@ -15,14 +15,13 @@ search.appverid:
 ms.assetid: ''
 description: ''
 ms.openlocfilehash: 0f5a98a7ba7a62e3b77794b38e444006a340cb49
-ms.sourcegitcommit: baf23be44f1ed5abbf84f140b5ffa64fce605478
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30295371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32243197"
 ---
 # <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
-
 
 ## <a name="near-duplicates-and-email-threading"></a>유사 중복 및 전자 메일 스레딩
 
@@ -34,7 +33,8 @@ ms.locfileid: "30295371"
 
 - 기본적으로 중복 항목 숨기기:이 설정이 설정 되어 있으면 중복 문서를 숨기는 필터가 기본적으로 작업 집합에 적용 됩니다. 필요한 경우 작업 집합에서 필터를 수동으로 제거할 수 있습니다.
 
-- 최소/최대 단어 수: 중복 및 전자 메일 스레딩은 최소 단어 수와 최대 단어 수를 포함 하는 문서에 대해서만 실행 됩니다. 자세한 내용은 [Near 중복 검색](near-duplicates.md) 및 [전자 메일 스레딩](email-threading.md)를 참조 하세요.
+- 최소/최대 단어 수: 중복 및 전자 메일 스레딩은 최소 단어 수와 최대 단어 수를 포함 하는 문서에 대해서만 실행 됩니다.
+자세한 내용은 [Near 중복 검색](near-duplicates.md) 및 [전자 메일 스레딩](email-threading.md)를 참조 하세요.
 
 ## <a name="themes"></a>테마
 

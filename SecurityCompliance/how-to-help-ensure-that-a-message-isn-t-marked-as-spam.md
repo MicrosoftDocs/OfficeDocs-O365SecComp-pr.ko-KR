@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: exchange online 또는 EOP (exchange online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지 하려면 업데이트 된 버전의 팁과 절차를 참조 하세요.
 ms.openlocfilehash: bfd0ea72facbf5675e47177c7757ff5fe168ffe7
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30691787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255216"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>메시지가 스팸으로 표시되지 않도록 하는 방법
 

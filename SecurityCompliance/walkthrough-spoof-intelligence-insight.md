@@ -15,11 +15,11 @@ ms.collection:
 - M365-security-compliance
 description: 새 스푸핑 인텔리전스 통찰력은 어떻게 작동 하는지 확인 하세요.
 ms.openlocfilehash: 4303b8f2524e6722e7febbbd06ab9daa853ed802
-ms.sourcegitcommit: 686bc9a8f7a7b6810a096f07d36751d10d334409
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30275918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32267260"
 ---
 # <a name="walkthrough-spoof-intelligence-insight"></a>연습: 지능 통찰력 스푸핑
 

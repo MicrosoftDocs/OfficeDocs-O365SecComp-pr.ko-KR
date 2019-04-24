@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 206e6311-f96d-4c81-8ef2-171bcad4caa5
 description: Microsoft Exchange Online Protection은 이메일 데이터를 관리하는 데 사용할 수 있는 메시징 정책 및 규정 준수 기능을 제공합니다.
 ms.openlocfilehash: 3e966c03c40cbcce53a92d4052151241759bb85f
-ms.sourcegitcommit: 0f93b37c39d807dec91f118aa671a3430c47a9ac
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "30693457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32255786"
 ---
 # <a name="messaging-policy-and-compliance-in-eop"></a>EOP의 메시징 정책 및 준수
 

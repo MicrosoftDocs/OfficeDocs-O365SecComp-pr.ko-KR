@@ -12,11 +12,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 보안 & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
 ms.openlocfilehash: fc0bea90ce9cbfc27f894985c7d3083756ab108a
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31000971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32261356"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
 

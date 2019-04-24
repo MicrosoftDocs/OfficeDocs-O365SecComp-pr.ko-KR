@@ -11,11 +11,11 @@ search.appverid:
 - MET150
 description: office 365 관리자는 office 365 메시지 암호화로 암호화 된 특정 전자 메일을 해지할 수 있습니다.
 ms.openlocfilehash: 75b5e46e25f447ddac0de5a7911d0df8385da6b9
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30214898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264828"
 ---
 # <a name="office-365-message-encryption-email-revocation"></a>Office 365 메시지 암호화 전자 메일 해지
 
@@ -39,7 +39,7 @@ ms.locfileid: "30214898"
 
 ## <a name="how-to-revoke-an-encrypted-email"></a>암호화 된 전자 메일을 해지 하는 방법
 
-### <a name="step-1-obtain-the-message-id-of-the-email"></a>1 단계 전자 메일의 메시지 ID 가져오기
+### <a name="step-1-obtain-the-message-id-of-the-email"></a>1단계. 전자 메일의 메시지 ID 가져오기
 
 암호화 된 메일을 해지 하려면 먼저 메일의 메시지 ID를 수집 해야 합니다. MessageId는 대개 다음 형식입니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "30214898"
 2. **정보 보기** 테이블을 선택 하 고 해지할 메시지를 식별 합니다.
 3. 메시지를 두 번 클릭 하 여 메시지 ID를 포함 하는 세부 정보를 확인 합니다.
 
-### <a name="step-2-verify-that-the-mail-is-revocable"></a>2 단계 메일이 revocable 확인
+### <a name="step-2-verify-that-the-mail-is-revocable"></a>2단계. 메일이 revocable 확인
 
 특정 전자 메일 메시지를 해지할 수 있는지 여부를 확인 하려면 다음 단계를 완료 합니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "30214898"
      Get-OMEMessageStatus -MessageId "<messagieid>" | ft -a  Subject, IsRevocable
      ```
 
-   메시지의 제목과 메시지의 revocable 여부를 반환 합니다. 예를 들어
+   메시지의 제목과 메시지의 revocable 여부를 반환 합니다. For example,
 
      ```text
      Subject IsRevocable
@@ -77,7 +77,7 @@ ms.locfileid: "30214898"
      “Test message”  True
      ```
 
-### <a name="step-3-revoke-the-mail"></a>3 단계 메일 해지  
+### <a name="step-3-revoke-the-mail"></a>3단계. 메일 해지  
 
 해지할 전자 메일의 메시지 ID를 알고 있고 메시지가 revocable 확인 되 면 OMEMessageRevocation cmdlet을 사용 하 여 전자 메일을 해지할 수 있습니다.
 
