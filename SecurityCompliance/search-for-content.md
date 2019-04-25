@@ -3,7 +3,7 @@ title: Office 365에서 콘텐츠 검색
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/4/2018
+ms.date: ''
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 보안 & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
-ms.openlocfilehash: fc0bea90ce9cbfc27f894985c7d3083756ab108a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3e8e0594cac700fe37ee7a4a6c889dbf862cd0fb
+ms.sourcegitcommit: 3509e324952aee703f3ced5b950dd53cb5f974ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261356"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33248303"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
 
@@ -42,7 +42,10 @@ Security & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니�
     
 - 여러 검색에 대해 쿼리 및 콘텐츠 위치를 [대량으로 편집](bulk-edit-content-searches.md) 
     
+- 콘텐츠 [검색을 다시 시도](retry-failed-content-search.md) 하 여 콘텐츠 위치 오류 해결
+
 - [숨은 참조 받는 사람](https://docs.microsoft.com/exchange/policy-and-compliance/holds/preserve-bcc-recipients-and-group-members) 을 검색할 수 있도록 보존 
+
 
 ## <a name="perform-actions-on-content-you-find"></a>찾은 콘텐츠에 대 한 작업 수행
 

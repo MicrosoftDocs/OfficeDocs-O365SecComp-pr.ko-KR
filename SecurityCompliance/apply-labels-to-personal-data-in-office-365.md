@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 32f94e02dac81abaef46ef5495701e5037ff8c6b
-ms.sourcegitcommit: 54d58da1777eb83adb82826d1bb1adb94903c8e1
+ms.openlocfilehash: a5ffcca94ea98a3d6426dc60fae0f6cb98d0029d
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244173"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 레이블 적용
 
@@ -34,7 +34,7 @@ Office 365에서 개인 데이터를 보호하기 위해 레이블을 사용하�
 
 Cloud App Security에서 현재 보존 레이블을 지원하지 않지만 Office 365 중요한 정보 유형을 Cloud App Security와 함께 사용하여 다른 SaaS 앱에 위치한 개인 데이터를 모니터링할 수 있습니다.
 
-[민감도 레이블](sensitivity-labels.md)은 현재 온 프레미스 및 기타 클라우드 서비스 및 제공업체의 파일에 레이블을 적용할 때 사용하는 것이 좋습니다. 이러한 파일은 영업 비밀 파일과 같은 데이터 보호를 위해 Azure Information Protection(AIP) 암호화가 필요한 Office 365의 파일에도 권장됩니다.
+[민감도 레이블](sensitivity-labels.md)은 현재 온 프레미스 및 기타 클라우드 서비스 및 제공업체의 파일에 레이블을 적용할 때 사용하는 것이 좋습니다. 이러한 파일은 영업 비밀 파일과 같은 데이터 보호를 위해 Azure Information Protection 암호화가 필요한 Office 365의 파일에도 권장됩니다.
 
 이 경우, Azure Information Protection을 사용하여 GDPR의 적용을 받는 Office 365 파일에는 암호화를 적용하지 않는 것이 좋습니다. Office 365 서비스는 현재 AIP 암호화 파일을 읽을 수 없습니다. 따라서 Office 365 서비스는 이러한 파일에서 민감한 데이터를 찾을 수 없습니다.
 

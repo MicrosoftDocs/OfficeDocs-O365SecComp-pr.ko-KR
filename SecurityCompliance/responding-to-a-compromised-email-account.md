@@ -14,12 +14,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f974719e5609645314bf1e8d7b15ae30cda6282e
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: abb9cbae0d1df41f5513e7958aaf1dc04ce66154
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "31001271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32264840"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
 
@@ -132,3 +132,4 @@ Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 �
 - [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 - [인터넷 범죄 불만 센터](http://www.ic3.gov/preventiontips.aspx)
 - [증권 거래 위원회 - “피싱” 사기](http://www.sec.gov/investor/pubs/phishing.htm)
+- Microsoft와 관리자에게 스팸 전자 메일을 직접 보고하려면 [보고서 메시지 추가 기능을 사용하세요](https://support.office.com/ko-KR/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2).

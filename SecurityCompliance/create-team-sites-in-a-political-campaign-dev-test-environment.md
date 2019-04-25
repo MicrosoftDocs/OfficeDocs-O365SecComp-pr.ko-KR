@@ -16,12 +16,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: 7e28034955a54fe7c2013dcaaf606c24c4089e75
-ms.sourcegitcommit: f57b4001ef1327f0ea622e716a4d7d78f1769b49
+ms.openlocfilehash: 29220c83eb207d58586b39d101e7139dc6ddf94a
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/23/2019
-ms.locfileid: "30216268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32259186"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
@@ -37,7 +37,7 @@ ms.locfileid: "30216268"
 
 이 단계에서는 SharePoint Online 팀 사이트에 있는 문서 폴더의 다양한 보안 수준에 대한 레이블을 만듭니다.
   
-1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
@@ -85,7 +85,7 @@ ms.locfileid: "30216268"
 
 초기 공용 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털([https://portal.office.com](https://portal.office.com))에 로그인합니다.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -115,7 +115,7 @@ ms.locfileid: "30216268"
 
 캠페인 내에서 프로젝트에 대한 초기 개인 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털([https://portal.office.com](https://portal.office.com))에 로그인합니다.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -145,7 +145,7 @@ ms.locfileid: "30216268"
 
 캠페인 마케팅 리소스에 대해 격리된 중요 수준 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털([https://portal.office.com](https://portal.office.com))에 로그인합니다.
+1. 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -257,7 +257,7 @@ ms.locfileid: "30216268"
 
 캠페인 전략 리소스에 대해 격리된 극비 수준의 SharePoint Online 팀 사이트를 만들려면 다음을 수행합니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 Office 365 포털([https://portal.office.com](https://portal.office.com))에 로그인합니다.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 전역 관리자 계정으로 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
     
@@ -321,9 +321,9 @@ ms.locfileid: "30216268"
     
 그런 다음, SharePoint Online 팀 사이트의 문서를 조직 외부의 극비 레이블과 공유할 때 사용자를 차단하는 DLP 정책을 구성합니다. 이 DLP 정책은 캠페인 전략 사이트의 리소스에 적용됩니다.
   
-1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 Office 365 포털([https://portal.office.com](https://portal.office.com))에 로그인합니다.
+1. 필요한 경우 로컬 컴퓨터에서 브라우저를 사용하여 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인합니다.
     
-2. 브라우저의 **Microsoft Office 홈** 탭에서 **보안 및 준수** 타일을 클릭합니다.
+2. 브라우저의 **Microsoft Office 홈** 탭에서 **보안 &amp; 준수** 타일을 클릭합니다.
     
 3. 브라우저의 새 **보안 및 준수** 탭에서 **데이터 손실 방지 > 정책**을 차례로 클릭합니다.
     
@@ -363,11 +363,11 @@ ms.locfileid: "30216268"
     
 20. **설정 검토 창**에서 **만들기**, **닫기**를 차례로 클릭합니다.
     
-[Office 365 관리 센터에서 Azure RMS 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 사용합니다.
+[Microsoft 365 관리 센터에서 Azure RMS 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 따릅니다.
   
 다음으로, 아래 단계에 따라 보호 및 권한에 대한 새 범위 지정 정책 및 하위 레이블을 사용하여 Azure Information Protection을 구성합니다.
   
-1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 Office 365 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 브라우저의 별도 탭에서 Azure Portal([https://portal.azure.com](https://portal.azure.com))로 이동합니다.
     
@@ -411,7 +411,7 @@ ms.locfileid: "30216268"
   
 이제 이러한 네 가지 사이트에서 문서를 만들고 다양한 사용자 계정으로 해당 문서에 대한 액세스를 테스트할 준비가 되었습니다. 
   
-Azure Information Protection 및 이 새로운 레이블을 사용하여 문서를 보호하려면 테스트 컴퓨터에 [Azure Information Protection 클라이언트를 설치](https://docs.microsoft.com/information-protection/rms-client/install-client-app)하고, Office 365 포털에서 Office를 설치한 다음, Microsoft Word에서 평가판 구독의 **선임 및 전략적 직원** 그룹에 속한 계정으로 로그인합니다.
+Azure Information Protection 및 이 새로운 레이블을 사용하여 문서를 보호하려면 테스트 컴퓨터에 [Azure Information Protection 클라이언트를 설치](https://docs.microsoft.com/information-protection/rms-client/install-client-app)하고, 관리 센터에서 Office를 설치한 다음, Microsoft Word에서 평가판 구독의 **선임 및 전략적 직원** 그룹에 속한 계정으로 로그인합니다.
   
 ## <a name="see-also"></a>참고 항목
 
