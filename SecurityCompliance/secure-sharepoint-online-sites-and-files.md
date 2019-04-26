@@ -18,12 +18,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: cc31d6633b41fe8bcec57794247718c44c0fc555
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 5dd9866096f4fea4fbb578e39f6b017f5cc898a2
+ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32265426"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -180,6 +180,11 @@ Azure Information Protection으로 보호된 파일에 대한 액세스 권한�
 
 이 솔루션에서 Azure Information Protection을 구성하는 단계는 [Azure Information Protection을 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-azure-information-protection.md)를 참조하세요.
   
+
+## <a name="next-step"></a>다음 단계
+
+[개발/테스트 환경의 Secure SharePoint Online 사이트](secure-sharepoint-online-sites-in-a-dev-test-environment.md)에서 POC(Poc-of-concept)로 이를 빌드하세요.
+
 ## <a name="see-also"></a>참고 항목
 
 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)

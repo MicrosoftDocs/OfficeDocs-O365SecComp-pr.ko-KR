@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 31d89b8bbcad98814ff33764bad24bffbbba4968
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2984231caba574b8fa47b725ab77227f6ab5ae56
+ms.sourcegitcommit: 468a7c72df3206333d7d633dd7ce1f210dc1ef3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263606"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33302742"
 ---
 # <a name="monitor-devices-in-microsoft-365-security"></a>Microsoft 365 보안의 디바이스 모니터링
 
@@ -25,7 +25,7 @@ Microsoft 365 보안 센터에서 장치를 안전 하 고 최신 상태로 유�
 
 ## <a name="view-device-alerts"></a>장치 알림 보기
 
-Windows Defender ATP에서 장치에 대 한 위반 활동 및 기타 위협에 대 한 최신 알림을 받을 수 있습니다 (E5 라이선스 사용 가능). Microsoft 365 보안 센터에는 기본 설정 워크플로에 따라 높은 수준에서 이러한 경고를 효과적으로 모니터링 하는 데 사용할 수 있는 몇 가지 카드가 있습니다.
+Windows Defender ATP에서 장치에 대 한 위반 활동 및 기타 위협에 대 한 최신 알림을 받을 수 있습니다 (E5 라이선스 사용 가능). Microsoft 365 보안 센터는 기본 워크플로를 사용 하 여 높은 수준에서 이러한 경고를 효과적으로 모니터링 합니다.
 
 ### <a name="monitor-high-impact-alerts"></a>높은 영향을 주는 알림 모니터링
 
@@ -183,19 +183,44 @@ Microsoft Intune은 ASR 규칙에 대 한 관리 기능을 제공 합니다. 설
 
 ### <a name="exclude-files-from-asr-rules"></a>ASR 규칙에서 파일 제외
 
-검색에서 파일을 제외 하면 원하지 않는 가양성 검색을 방지 하 고 차단 모드에서 더 안전 하 게 공격 표면 축소 규칙을 배포할 수 있습니다.
+Microsoft 365 보안 센터는 공격 노출 범위 규칙에 따라 검색에서 [제외 하려는 파일](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/troubleshoot-asr#add-exclusions-for-a-false-positive) 의 이름을 수집 합니다. 파일을 제외 하면 가양성 검색을 줄이고 차단 모드에서 더 안전 하 게 공격 표면 축소 규칙을 배포할 수 있습니다.
 
-microsoft Intune에서 attack surface reduction 규칙에 대 한 파일 제외를 관리 하지만 microsoft 365 보안 센터에서는 검색을 트리거하는 파일을 이해 하는 데 도움이 되는 분석 도구를 제공 합니다. 또한 제외 하려는 파일의 이름을 수집할 수 있습니다.
+제외는 microsoft Intune에서 관리 되지만 microsoft 365 보안 센터에서는 파일을 이해 하는 데 도움이 되는 분석 도구를 제공 합니다. 제외할 파일 수집을 시작 하려면 **Attack surface reduction 규칙** 보고서 페이지의 **제외 항목 추가** 탭으로 이동 합니다.
 
-검색 분석을 시작 하 고 제외할 파일을 수집 하려면 **Attack surface reduction 규칙** 보고서 페이지에서 **제외 항목 추가** 탭으로 이동 합니다.
+>[!NOTE]  
+>이 도구는 모든 attack surface reduction 규칙에 따라 검색을 분석 하지만 [일부 규칙만 제외를 지원](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard#attack-surface-reduction-rules)합니다.
 
 ![제외 항목 추가 탭](./media/security-docs/add-exclusions-tab.png)
 
-이 표에서는 공격 노출 범위 규칙에 의해 검색 된 모든 파일 이름을 보여 줍니다. 파일을 하나 이상 선택 하면 예외에 해당 파일을 추가할 때 미치는 영향을 검토할 수 있습니다.
+이 표에서는 공격 노출 범위 규칙에 의해 검색 된 모든 파일 이름을 보여 줍니다. 파일을 선택 하 여 제외로 인 한 영향을 검토할 수 있습니다.
 
-* 총 감지 횟수 감소
-* 검색의 영향을 받는 총 장치 수 감소
+* 검색의 수 감소
+* 검색을 보고 하는 장치 수는 얼마나 적습니다.
 
 제외할 전체 경로를 사용 하 여 선택한 파일 목록을 가져오려면 **제외 경로 가져오기를**선택 합니다.
 
-제외 사항에 대 한 자세한 내용과 이러한 항목을 추가 하는 방법에 대 한 자세한 내용은 [attack surface reduction 관련 문제 해결](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/troubleshoot-asr)을 참조 하십시오.
+**Windows 로컬 보안 기관 하위 시스템 (lsass.exe)에서 ASR 규칙 차단 자격 증명 가로채기** 에 대 한 로그는 검색 된 파일로 일반 시스템 파일을 원본 응용 프로그램 **lsass.exe**에 캡처합니다. 따라서이 파일은 제외 경로의 생성 된 목록에 포함 됩니다. **lsass.exe**대신이 규칙을 트리거한 파일을 제외 하려면 검색 된 파일 대신 원본 앱 경로를 사용 합니다.
+
+원본 앱을 찾으려면이 특정 규칙에 대해 다음 [고급 구하기 쿼리](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection) 를 실행 합니다 (규칙 ID 9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2으로 식별 됨). 
+
+```MiscEvents
+| where EventTime > ago(7d)
+| where ActionType startswith "Asr"
+| where AdditionalFields contains "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2"
+| project InitiatingProcessFolderPath, InitiatingProcessFileName
+```
+
+#### <a name="check-files-for-exclusion"></a>파일 제외 확인
+ASR에서 파일을 제외 하기 전에 해당 파일을 검사 하 여 실제로 악성 프로그램 인지 여부를 확인 하는 것이 좋습니다.
+
+파일을 검토 하려면 Windows Defender 보안 센터의 [파일 정보 페이지](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/investigate-files-windows-defender-advanced-threat-protection) 를 사용 합니다. 이 페이지에서는 VirusTotal 바이러스 검사 비율 뿐만 아니라 전파 정보를 제공 합니다. 페이지를 사용 하 여 심층 분석을 위해 파일을 전송할 수도 있습니다.
+
+Windows Defender 보안 센터에서 검색 된 파일을 찾으려면 다음 고급 검색 쿼리를 사용 하 여 모든 ASR 검색을 찾습니다.
+
+```MiscEvents
+| where EventTime > ago(7d)
+| where ActionType startswith "Asr"
+| project FolderPath, FileName, SHA1, InitiatingProcessFolderPath, InitiatingProcessFileName, InitiatingProcessSHA1
+```
+
+Windows Defender 보안 센터의 유니버설 검색 표시줄을 사용 하 여 파일을 검색 하려면 결과에서 **SHA1** 또는 **InitiatingProcessSHA1** 를 사용 합니다.

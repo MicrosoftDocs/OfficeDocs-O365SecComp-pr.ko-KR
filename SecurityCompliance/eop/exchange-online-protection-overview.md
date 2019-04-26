@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: c8450d5204635788a044538d701e23f4f77d1e0f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a0b736eb9773ace87f32f1272b3f4326532206d2
+ms.sourcegitcommit: eca85431f4e57878a8c160b7620adf5c44ef40e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256164"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33306582"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -25,9 +25,11 @@ Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조�
   
 - **독립 실행형 시나리오에서** EOP에서는 온-프레미스 Microsoft Exchange server 2013 환경, 레거시 Exchange Server 버전 또는 기타 모든 온-프레미스 SMTP 전자 메일 솔루션에 대해 클라우드 기반 전자 메일 보호 기능을 제공 합니다. 
     
-- **Microsoft Exchange Online의 일부로** 기본적으로 EOP는 Microsoft Exchange Online 클라우드 호스팅 사서함을 보호합니다. 
+- **Microsoft Exchange Online의 일부로** 기본적으로 EOP는 Microsoft Exchange Online 클라우드 호스팅 사서함을 보호합니다. 이러한 Exchange Online 기능을 구성 하는 데 도움이 되는 [위협 으로부터 보호](../protect-against-threats.md) 를 참조 하세요. 
     
 - **하이브리드 배포에서** 온-프레미스 사서함과 클라우드 사서함을 함께 사용하는 경우 메시징 환경을 보호하고 메일 라우팅을 제어하도록 EOP를 구성할 수 있습니다. 
+
+이러한 Exchange Online Protection 문서는 하이브리드 및 온-프레미스 환경에 적용 됩니다. 
     
 ## <a name="how-eop-works"></a>EOP의 작동 방식
 
