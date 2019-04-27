@@ -1,0 +1,120 @@
+---
+title: 데이터 손실 방지 및 Microsoft 팀
+ms.author: deniseb
+author: denisebmsft
+manager: laurawi
+ms.date: 04/26/2019
+ms.audience: ITPro
+ms.topic: conceptual
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.collection:
+- M365-security-compliance
+search.appverid:
+- MET150
+description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
+ms.openlocfilehash: 712729972942d98afb5b3898ad357114ce1a6bae
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33367283"
+---
+# <a name="data-loss-prevention-and-microsoft-teams"></a><span data-ttu-id="4d6aa-104">데이터 손실 방지 및 Microsoft 팀</span><span class="sxs-lookup"><span data-stu-id="4d6aa-104">Data loss prevention and Microsoft Teams</span></span>
+
+## <a name="overview-of-dlp-for-microsoft-teams"></a><span data-ttu-id="4d6aa-105">Microsoft 팀의 DLP 개요</span><span class="sxs-lookup"><span data-stu-id="4d6aa-105">Overview of DLP for Microsoft Teams</span></span>
+
+<span data-ttu-id="4d6aa-106">최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능이 Microsoft 팀을 포함 하도록 확장 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-106">Recently, [data loss prevention](data-loss-prevention-policies.md) (DLP) capabilities were extended to include Microsoft Teams.</span></span> <span data-ttu-id="4d6aa-107">조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-107">If your organization has DLP, you can now define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session.</span></span> <span data-ttu-id="4d6aa-108">다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-108">Here are some examples of how this protection works:</span></span>
+
+- <span data-ttu-id="4d6aa-109">**예 1: 메시지의 중요 한 정보 보호**</span><span class="sxs-lookup"><span data-stu-id="4d6aa-109">**Example 1: Protecting sensitive information in messages**.</span></span> <span data-ttu-id="4d6aa-110">다른 사용자가 guests (외부 사용자)를 사용 하 여 팀 채팅 이나 채널에서 중요 한 정보를 공유 하려고 한다고 가정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-110">Suppose that someone attempts to share sensitive information in a Teams chat or channel with guests (external users).</span></span> <span data-ttu-id="4d6aa-111">이를 방지 하기 위해 DLP 정책이 정의 된 경우 외부 사용자에 게 전송 되는 중요 한 정보가 포함 된 메시지가 삭제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-111">If you have a DLP policy defined to prevent this, messages with sensitive information that are sent to external users are deleted.</span></span> <span data-ttu-id="4d6aa-112">이 작업은 DLP 정책이 구성 되는 방식에 따라 자동으로 몇 초 이내에 수행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-112">This happens automatically, and within seconds, according to how your DLP policy is configured.</span></span>
+
+- <span data-ttu-id="4d6aa-113">**예 2: 문서에서 중요 한 정보를 보호**하는 방법을 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-113">**Example 2: Protecting sensitive information in documents**.</span></span> <span data-ttu-id="4d6aa-114">다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-114">Suppose that someone attempts to share a document with guests in a Microsoft Teams channel or chat, and the document contains sensitive information.</span></span> <span data-ttu-id="4d6aa-115">이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-115">If you have a DLP policy defined to prevent this, the document won't open for those users.</span></span> <span data-ttu-id="4d6aa-116">이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-116">Note that in this case, your DLP policy must include SharePoint and OneDrive in order for protection to be in place.</span></span>
+
+## <a name="policy-tips-help-educate-users"></a><span data-ttu-id="4d6aa-117">사용자를 교육 하는 데 도움이 되는 정책 팁</span><span class="sxs-lookup"><span data-stu-id="4d6aa-117">Policy tips help educate users</span></span>
+
+<span data-ttu-id="4d6aa-118">[웹에서의 Exchange, outlook 및 outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), [SharePoint 및 비즈니스용 OneDrive 사이트](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites), [Office 데스크톱 클라이언트](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)에서 dlp가 작동 하는 방식과 마찬가지로, 작업이 DLP 정책과 충돌할 때 정책 팁이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-118">Similar to how DLP works in [Exchange, Outlook, and Outlook on the web](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), [SharePoint and OneDrive for Business sites](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites), and [Office desktop clients](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs), policy tips appear when an action conflicts with a DLP policy.</span></span> <span data-ttu-id="4d6aa-119">정책 팁의 예는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-119">Here's an example of a policy tip:</span></span>
+
+![팀의 차단 된 메시지 알림](media/dlp-teams-blockedmessage-notification.png)
+
+<span data-ttu-id="4d6aa-121">이 경우 보낸 사람은 Microsoft 팀 채널에서 주민 등록 번호를 공유 하려고 했습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-121">In this case, the sender attempted to share a social security number in a Microsoft Teams channel.</span></span> <span data-ttu-id="4d6aa-122">어떤 작업을 **수행할 수 있나요?** link에서는이 문제를 해결 하기 위한 옵션을 제공 하는 대화 상자를 엽니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-122">The **What can I do?** link opens a dialog box that provides options for the sender to resolve the issue.</span></span> <span data-ttu-id="4d6aa-123">이 경우 보낸 사람은 정책을 재정의 하도록 선택 하거나 관리자에 게 문의 하 여 검토 하 고 해결 하도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-123">Notice that in this case, the sender can opt to override the policy, or notify an admin to review and resolve it.</span></span>
+
+![차단 된 메시지 해결 옵션](media/dlp-teams-blockedmessage-possibleactions.png)
+
+<span data-ttu-id="4d6aa-125">조직에서는 사용자가 DLP 정책을 재정의 하도록 허용할지 여부를 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-125">In your organization, you can choose whether to allow users to override a DLP policy, or not.</span></span> <span data-ttu-id="4d6aa-126">그리고 DLP 정책을 구성할 때 기본 정책 팁을 사용 하거나 조직에 대 한 [정책 팁을 사용자 지정할](#to-customize-policy-tips) 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-126">And, when you configure your DLP policies, you can use the default policy tips, or [customize policy tips](#to-customize-policy-tips) for your organization.</span></span> 
+
+<span data-ttu-id="4d6aa-127">예를 들어 보낸 사람이 팀 채널에서 주민 등록 번호를 공유 하는 경우, 받는 사람에 게 표시 되는 결과는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-127">Returning to our example, where a sender shared a social security number in a Teams channel, here's what the recipient saw:</span></span>
+
+![메시지 차단 됨](media/dlp-teams-blockedmessage-notification-to-user.png)
+
+<span data-ttu-id="4d6aa-129">" **설명** 합니다." 링크를 선택 하면 메시지가 차단 된 이유를 설명 하는 DLP 정책에 대 한 [문서](data-loss-prevention-policies.md) 를 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-129">The **What's this?** link opens an [article](data-loss-prevention-policies.md) about DLP policies, which helps explain why the message was blocked.</span></span>
+
+### <a name="to-customize-policy-tips"></a><span data-ttu-id="4d6aa-130">정책 팁을 사용자 지정 하려면</span><span class="sxs-lookup"><span data-stu-id="4d6aa-130">To customize policy tips</span></span>
+
+<span data-ttu-id="4d6aa-131">이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-131">To perform this task, you must be assigned a role that has permissions to edit DLP policies.</span></span> <span data-ttu-id="4d6aa-132">자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-132">To learn more, see [Permissions](data-loss-prevention-policies.md#permissions).</span></span>
+
+1. <span data-ttu-id="4d6aa-133">Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-133">Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in.</span></span>
+
+2. <span data-ttu-id="4d6aa-134">**데이터 손실 방지** > **정책을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-134">Choose **Data loss prevention** > **Policy**.</span></span> 
+
+3. <span data-ttu-id="4d6aa-135">정책을 선택 하 고 **정책 설정**옆에서 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-135">Select a policy, and next to **Policy settings**, choose **Edit**.</span></span>
+
+4. <span data-ttu-id="4d6aa-136">새 규칙을 만들거나 정책에 대 한 기존 규칙을 편집 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-136">Either create a new rule, or edit an existing rule for the policy.</span></span><br/>![정책에 대 한 규칙 편집](media/dlp-teams-editrule.png)<br/>
+
+5. <span data-ttu-id="4d6aa-138">**사용자 알림** 탭에서 **전자 메일 텍스트 사용자 지정** 및/또는 **정책 팁 텍스트 옵션 사용자 지정** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-138">On the **User notifications** tab, select **Customize the email text** and/or **Customize the policy tip text** options.</span></span><br/><span data-ttu-id="4d6aa-139">![사용자 알림 및 정책 팁 사용자 지정](media/dlp-teams-editrule-usernotifications.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-139">![Customize user notifications and policy tips](media/dlp-teams-editrule-usernotifications.png)</span></span><br/>  
+
+6. <span data-ttu-id="4d6aa-140">전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정 하 고 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-140">Specify the text you want to use for email notifications and/or policy tips, and then choose **Save**.</span></span> 
+
+7. <span data-ttu-id="4d6aa-141">**정책 설정** 탭에서 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-141">On the **Policy settings** tab, choose **Save**.</span></span>
+
+<span data-ttu-id="4d6aa-142">변경 내용이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-142">Allow approximately one hour for your changes to work their way through your data center and sync to user accounts.</span></span>
+ 
+## <a name="add-microsoft-teams-as-a-location-to-existing-dlp-policies"></a><span data-ttu-id="4d6aa-143">Microsoft 팀을 기존 DLP 정책에 대 한 위치로 추가</span><span class="sxs-lookup"><span data-stu-id="4d6aa-143">Add Microsoft Teams as a location to existing DLP policies</span></span>
+
+<span data-ttu-id="4d6aa-144">이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-144">To perform this task, you must be assigned a role that has permissions to edit DLP policies.</span></span> <span data-ttu-id="4d6aa-145">자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-145">To learn more, see [Permissions](data-loss-prevention-policies.md#permissions).</span></span>
+
+1. <span data-ttu-id="4d6aa-146">Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-146">Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in.</span></span>
+
+2. <span data-ttu-id="4d6aa-147">**데이터 손실 방지** > **정책을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-147">Choose **Data loss prevention** > **Policy**.</span></span> 
+
+3. <span data-ttu-id="4d6aa-148">정책을 선택 하 고 **위치**아래의 값을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-148">Select a policy, and look at the values under **Locations**.</span></span> <span data-ttu-id="4d6aa-149">**팀 채팅 및 채널 메시지가**표시 되 면 모든 설정이 완료 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-149">If you see **Teams chat and channel messages**, you're all set.</span></span> <span data-ttu-id="4d6aa-150">그렇지 않으면 **편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-150">If you don't, click **Edit**.</span></span><br/><span data-ttu-id="4d6aa-151">![기존 정책에 대 한 위치](media/dlp-teams-editexistingpolicy.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-151">![Locations for existing policy](media/dlp-teams-editexistingpolicy.png)</span></span><br/>
+
+4. <span data-ttu-id="4d6aa-152">**상태** 열에서 **팀 채팅 및 채널 메시지**에 대 한 정책을 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-152">In the **Status** column, turn the policy on for **Teams chat and channel messages**.</span></span><br/><span data-ttu-id="4d6aa-153">![팀 채팅 및 채널에 대 한 DLP](media/dlp-teams-addteamschatschannels.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-153">![DLP for Teams chats and channels](media/dlp-teams-addteamschatschannels.png)</span></span><br/>
+
+5. <span data-ttu-id="4d6aa-154">모든 계정의 기본 설정을 유지 하거나 포함 하거나 제외할 계정을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-154">Keep the default settings of all accounts, or specify which accounts to include or exclude.</span></span>
+
+6. <span data-ttu-id="4d6aa-155">**저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-155">Click **Save**.</span></span>
+
+<span data-ttu-id="4d6aa-156">변경 내용이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-156">Allow approximately one hour for your changes to work their way through your data center and sync to user accounts.</span></span>
+
+## <a name="define-a-new-dlp-policy-for-microsoft-teams"></a><span data-ttu-id="4d6aa-157">Microsoft 팀에 대 한 새 DLP 정책 정의</span><span class="sxs-lookup"><span data-stu-id="4d6aa-157">Define a new DLP policy for Microsoft Teams</span></span>
+
+<span data-ttu-id="4d6aa-158">이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-158">To perform this task, you must be assigned a role that has permissions to edit DLP policies.</span></span> <span data-ttu-id="4d6aa-159">자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-159">To learn more, see [Permissions](data-loss-prevention-policies.md#permissions).</span></span>
+
+1. <span data-ttu-id="4d6aa-160">Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-160">Go to the Office 365 Security & Compliance Center ([https://protection.office.com](https://protection.office.com)) and sign in.</span></span>
+
+2. <span data-ttu-id="4d6aa-161">**데이터 손실 방지** > **정책** > 및**정책 만들기를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-161">Choose **Data loss prevention** > **Policy** > **+ Create a policy**.</span></span> 
+
+3. <span data-ttu-id="4d6aa-162">[서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-162">Choose a [template](data-loss-prevention-policies.md#dlp-policy-templates), and then choose **Next**.</span></span><br/><span data-ttu-id="4d6aa-163">이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-163">In our example, we chose the U.S. Personally Identifiable Information Data template.</span></span><br/><span data-ttu-id="4d6aa-164">![DLP 정책에 대 한 개인 정보 서식 파일](media/dlp-teams-createnewpolicy-template.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-164">![Privacy template for DLP policy](media/dlp-teams-createnewpolicy-template.png)</span></span><br/>
+
+4. <span data-ttu-id="4d6aa-165">**정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-165">On the **Name your policy** tab, specify a name and description for the policy, and then choose **Next**.</span></span> 
+
+5. <span data-ttu-id="4d6aa-166">**위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-166">On the **Choose locations** tab, keep the default setting of all locations, or select **Let me choose specific locations**, and then choose **Next**.</span></span><br/><span data-ttu-id="4d6aa-167">특정 위치를 선택 하도록 선택한 경우 DLP 정책에 대 한 위치를 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-167">If you opted to choose specific locations, select the locations for your DLP policy, and then choose **Next**.</span></span><br/><span data-ttu-id="4d6aa-168">![DLP 정책 위치](media/dlp-teams-selectlocationsnewpolicy.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-168">![DLP policy locations](media/dlp-teams-selectlocationsnewpolicy.png)</span></span><br/>
+    > [!NOTE]
+    > <span data-ttu-id="4d6aa-169">중요 한 정보가 포함 된 문서가 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-169">If you want to make sure documents that contain sensitive information are not shared inappropriately, make sure **SharePoint sites** and **OneDrive accounts** are turned on, along with **Teams chat and channel messages**.</span></span>
+<br/>
+
+6. <span data-ttu-id="4d6aa-170">**정책 설정** 탭의 **보호 하려는 콘텐츠 형식 사용자 지정**에서 기본 설정을 유지 하거나 **고급 설정 사용**을 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-170">On the **Policy settings** tab, under **Customize the type of content you want to protect**, keep the default simple settings, or choose **Use advanced settings**, and then choose **Next**.</span></span> <span data-ttu-id="4d6aa-171">고급 설정을 선택 하는 경우 정책에 대 한 규칙을 만들거나 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-171">If you choose advanced settings, you can create or edit rules for your policy.</span></span> <span data-ttu-id="4d6aa-172">이에 대 한 도움말을 보려면 [단순 설정 및 고급 설정을](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-172">(To get help with this, see [Simple settings vs. advanced settings](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings).)</span></span>
+
+7.  <span data-ttu-id="4d6aa-173">**정책 설정** 탭의 **중요 한 정보를 검색 하는 경우 어떤**작업을 수행 하 시겠습니까?에서 설정을 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-173">On the **Policy settings** tab, under **What do you want to do if we detect sensitive info?**, review the settings.</span></span> <span data-ttu-id="4d6aa-174">(여기에서 기본 [정책 팁과 전자 메일 알림을](use-notifications-and-policy-tips.md)유지 하거나 사용자 지정할 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-174">(Here's where you can choose to keep default [policy tips and email notifications](use-notifications-and-policy-tips.md), or customize them.)</span></span><br/><span data-ttu-id="4d6aa-175">![팁 및 알림이 포함 된 DLP 정책 설정](media/dlp-teams-policysettings-tipsemails.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-175">![DLP policy settings with tips and notifications](media/dlp-teams-policysettings-tipsemails.png)</span></span><br/><span data-ttu-id="4d6aa-176">설정 검토 또는 편집을 마친 후 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-176">When you're finished reviewing or editing settings, choose **Next**.</span></span>
+
+8. <span data-ttu-id="4d6aa-177">**정책 설정** 탭의 정책을 **설정 하거나 먼저 테스트를 수행**하 시겠습니까?에서 정책을 켤 지, [먼저](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)테스트를 시작할지, 지금은 해제를 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-177">On the **Policy settings** tab, under **Do you want to turn on the policy or test things out first?**, choose whether to turn the policy on, [test it first](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode), or keep it turned off for now, and then choose **Next**.</span></span><br/><span data-ttu-id="4d6aa-178">![정책을 켤 지 여부를 지정 합니다.](media/dlp-teams-policysettings-turnonnow.png)</span><span class="sxs-lookup"><span data-stu-id="4d6aa-178">![Specify whether to turn the policy on](media/dlp-teams-policysettings-turnonnow.png)</span></span><br/>
+
+9. <span data-ttu-id="4d6aa-179">**설정 검토** 탭에서 새 정책에 대 한 설정을 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-179">On the **Review your settings** tab, review the settings for your new policy.</span></span> <span data-ttu-id="4d6aa-180">**편집** 을 선택 하 여 변경 내용을 적용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-180">Choose **Edit** to make changes.</span></span> <span data-ttu-id="4d6aa-181">작업이 완료 되 면 **만들기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-181">When you're finished, choose **Create**.</span></span> 
+
+<span data-ttu-id="4d6aa-182">새 정책이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.</span><span class="sxs-lookup"><span data-stu-id="4d6aa-182">Allow approximately one hour for your new policy to work its way through your data center and sync to user accounts.</span></span>
+
+## <a name="related-articles"></a><span data-ttu-id="4d6aa-183">관련 문서</span><span class="sxs-lookup"><span data-stu-id="4d6aa-183">Related articles</span></span>
+
+[<span data-ttu-id="4d6aa-184">DLP 정책 만들기, 테스트 및 조정</span><span class="sxs-lookup"><span data-stu-id="4d6aa-184">Create, test, and tune a DLP policy</span></span>](create-test-tune-dlp-policy.md)
+
+[<span data-ttu-id="4d6aa-185">DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시</span><span class="sxs-lookup"><span data-stu-id="4d6aa-185">Send email notifications and show policy tips for DLP policies</span></span>](use-notifications-and-policy-tips.md)
