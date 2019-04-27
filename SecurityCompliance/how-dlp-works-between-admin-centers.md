@@ -3,7 +3,7 @@ title: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 �
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 8/4/2017
+ms.date: 04/19/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Exchange 관리 센터에서 dlp 및 메일 흐름 규칙 (전송 규칙)을 통해 보안 & 준수 센터의 dlp가 작동 하는 방식을 알아봅니다.
-ms.openlocfilehash: 66dceb447e02eb01810997c23644c76f68795844
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: efe8fb733417275a259a472db3444b8f6cad1f92
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254934"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33362036"
 ---
 # <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
 
 Office 365에서는 다음과 같은 두 가지 다른 관리 센터에서 DLP (데이터 손실 방지) 정책을 만들 수 있습니다.
   
-- **보안 & 준수 센터**에서는 SharePoint, OneDrive 및 Exchange의 콘텐츠를 보호 하는 데 도움이 되는 단일 DLP 정책을 만들 수 있습니다. 가능한 경우 여기에서 DLP 정책을 만드는 것이 좋습니다. 자세한 내용은 [Security & 준수 센터의 DLP](data-loss-prevention-policies.md)를 참조 하세요.
+- **보안 & 준수 센터**에서 SharePoint, OneDrive, Exchange 및 지금 Microsoft 팀의 콘텐츠를 보호 하는 데 도움이 되는 단일 DLP 정책을 만들 수 있습니다. 가능한 경우 여기에서 DLP 정책을 만드는 것이 좋습니다. 자세한 내용은 [Security & 준수 센터의 DLP](data-loss-prevention-policies.md)를 참조 하세요.
     
 - **exchange 관리 센터**에서는 exchange 에서만 콘텐츠를 보호 하는 데 필요한 DLP 정책을 만들 수 있습니다. 이 정책은 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 전자 메일을 처리 하는 데 관련 된 추가 옵션을 사용할 수 있습니다. 자세한 내용은 [Exchange 관리 센터의 DLP](https://go.microsoft.com/fwlink/?linkid=852311)를 참조 하세요.
     

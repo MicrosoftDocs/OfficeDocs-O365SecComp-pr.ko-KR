@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: da8acd8904ac6a9b1945c8f794bad84a0adc64fb
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: fedb48c20720a7eaa66cd0ea7d2184dd3dc4df55
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32262244"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33362056"
 ---
 # <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
 
@@ -122,7 +122,7 @@ DLP 정책이 신용 카드 번호와 같은 중요 한 정보 유형을 찾을 
     
 이렇게 하면 peoples의 작업을 방해할 수 있는 가양성의 수를 줄이면서 DLP 검색에서 높은 수준의 정확성을 얻을 수 있습니다.
   
-#### <a name="actions"></a>동작
+#### <a name="actions"></a>작업
 
 콘텐츠가 규칙의 조건과 일치 하는 경우 작업을 적용 하 여 콘텐츠를 자동으로 보호할 수 있습니다.
   
@@ -478,11 +478,7 @@ Office의 DLP 정책 계산은 프로그램의 성능 또는 콘텐츠 작업을
 
 ### <a name="policy-evaluation-in-microsoft-teams"></a>Microsoft 팀의 정책 평가
  
-Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Office 365 보안 &amp; 준수 센터에서 사용자 계정 및 Microsoft 팀 채널과 채팅에 동기화 됩니다. DLP 정책이 구성 되는 방식에 따라 누군가 Microsoft 팀 채팅 또는 채널에서 중요 한 정보를 공유 하려고 할 때 메시지가 차단 되거나 해지 될 수 있습니다. 또한 중요 한 정보가 들어 있고 게스트 (외부 사용자)와 공유 되는 문서가 해당 사용자에 대해 열리지 않습니다.
-
-예를 들어 사용자가 외부 사용자와 팀 채팅 또는 채널에서 중요 한 정보를 공유 하려고 하는 경우를 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책이 정의 되어 있다고 가정해 보겠습니다. 보호 기능이 있으면 외부 사용자에 게 전송 되는 중요 한 정보가 포함 된 메시지가 삭제 됩니다. 이 작업은 초 내에 수행 되며 DLP 정책이 구성 되는 방식에 따라 자동으로 수행 됩니다.
-
-정책 팁 보낸 사람이 메시지를 차단 하거나 해지 한 이유에 대해 알려 줍니다. 예를 들어 보낸 사람이 메시지에 다른 사람과 공유할 수 없는 pii (개인 식별 정보)가 포함 되어 있거나, pii가 포함 된 문서를 조직 외부의 사용자와 공유할 수 없는 것으로 볼 수 있습니다. 그런 다음 보낸 사람은 메시지를 편집 하 여 DLP 정책을 준수 하도록 할 수 있습니다.
+Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Office 365 보안 &amp; 준수 센터에서 사용자 계정 및 Microsoft 팀 채널과 채팅에 동기화 됩니다. DLP 정책이 구성 되는 방식에 따라 누군가 Microsoft 팀 채팅 또는 채널에서 중요 한 정보를 공유 하려고 할 때 메시지가 차단 되거나 해지 될 수 있습니다. 또한 중요 한 정보가 들어 있고 게스트 (외부 사용자)와 공유 되는 문서가 해당 사용자에 대해 열리지 않습니다. 자세한 내용은 [데이터 손실 방지 및 Microsoft 팀](dlp-microsoft-teams.md)을 참조 하십시오.
  
 ## <a name="permissions"></a>사용 권한
 
