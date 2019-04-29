@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: f64b514b777c08048e0f904c17e21c235f8a6f23
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2c2d878bb79bdec19aef07ed0de35b53a826e9ca
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257654"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402966"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
@@ -86,13 +86,15 @@ ms.locfileid: "32257654"
 |UserID|**작업** 속성에 지정 된 작업을 수행 하 여 레코드가 기록 되는 사용자입니다. 시스템 계정 (예: SHAREPOINT\system 또는 NT 권한 \ 컴퓨터)에서 수행 하는 작업에 대 한 레코드가 감사 로그에도 포함 되어 있습니다.|모두|
 |userkey|**UserID** 속성에서 식별 된 사용자의 대체 ID입니다. 예를 들어이 속성은 SharePoint의 사용자가 수행한 이벤트에 대 한 passport 고유 ID (PUID)로 채워집니다. 또한이 속성은 다른 서비스에서 발생 하는 이벤트에 대 한 **UserID** 속성과 동일한 값과 시스템 계정에서 수행 하는 이벤트를 지정할 수 있습니다.|모두|
 |usersharedwith|리소스를 공유한 사용자입니다. 이 속성은 **Operation** 속성의 값이 **SharingSet**인 경우에 포함 됩니다. 이 사용자는 보고서의 **공유** 됨 열에도 표시 됩니다.|SharePoint|
-|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
+|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>개</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
 |Version|기록 된 작업의 버전 번호 ( **Operation** 속성으로 식별 됨)를 나타냅니다.|모두|
 |작업량|활동이 발생 한 Office 365 서비스입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다.  <br/> <br/>**SharePoint<br/>OneDrive<br/>Exchange<br/>AzureActiveDirectory<br/>datac, 보안<br/>준수<br/>Sway<br/>비즈니스용 Skype<br/>SecurityComplianceCenter<br/>PowerBI CRM<br/><br/>Yammer<br/>MicrosoftTeams<br/>ThreatIntelligence<br/>MicrosoftFlow<br/>MicrosoftStream<br/>DlpSharePointClassificationData<br/>Project<br/>PowerApps<br/>작업 공간 분석**|모두|
 ||||
-   
-특정 이벤트에 대 한 세부 정보를 볼 때 **자세한 정보** 를 클릭 하면 위에서 설명한 속성도 표시 됩니다. 
+
+> [!NOTE]
+> <sup>1</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.
+
+위에서 설명한 속성은 특정 이벤트의 세부 정보를 볼 때 **자세한 정보** 를 클릭 하면 표시 되기도 합니다. 
   
 ![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭 합니다.](media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
   
-

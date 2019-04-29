@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색 합니다. 가져온 모든 항목을 검색 하는 쿼리를 만들거나 특정 타사 데이터 형식을 검색 하기 위한 쿼리를 만들 수 있습니다. 이 문서에서는 키워드 쿼리에서 Office 365로 가져올 수 있는 타사 데이터 형식을 검색 하는 데 사용할 수 있는 값을 보여 줍니다.
-ms.openlocfilehash: 361ead435d397464452c5b58ecf251a7322ced05
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c71472b5e6d9b992196780aba55e3775823447ab
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263780"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402906"
 ---
 # <a name="use-content-search-to-search-third-party-data-that-was-imported-to-office-365"></a>콘텐츠 검색을 사용 하 여 Office 365로 가져온 타사 데이터 검색
 
 보안 & 준수 센터의 [콘텐츠 검색 eDiscovery 도구](content-search.md) 를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있고 특정 타사 데이터 항목만 검색 하는 쿼리를 만들 수도 있습니다. 또한 Office 365에서 타사 데이터를 보존 하기 위해 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보존을 만들 수도 있습니다. 
   
-타사 데이터 및 office 365로 가져올 수 있는 타사 데이터 형식 목록을 가져오는 방법에 대 한 자세한 내용은 [office 365에서 타사 데이터 보관](archiving-third-party-data.md)을 참조 하십시오. 
+타사 데이터 및 office 365로 가져올 수 있는 타사 데이터 형식 목록을 가져오는 방법에 대 한 자세한 내용은 [office 365에서 파트너와 협력 하](work-with-partner-to-archive-third-party-data.md)여 타사 데이터 보관을 참조 하십시오. 
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>모든 타사 데이터를 검색 하기 위한 쿼리 만들기
 
@@ -33,7 +33,7 @@ Office 365로 가져온 모든 타사 데이터 형식을 검색 하거나 보�
 kind:externaldata AND subject:contoso
 ```
 
-이전 keyword 쿼리 예제에는 subject 속성이 포함 되어 있습니다. 키워드 쿼리에 포함할 수 있는 타사 데이터 항목의 기타 속성 목록에 대 한 자세한 내용은 [Office 365에서 타사 데이터 보관](archiving-third-party-data.md#more-information)의 "추가 정보" 섹션을 참조 하십시오.
+이전 keyword 쿼리 예제에는 subject 속성이 포함 되어 있습니다. 키워드 쿼리에 포함할 수 있는 타사 데이터 항목의 기타 속성 목록은 [Office 365에서 타사 데이터를 보관 하기 위한 파트너와 작업](work-with-partner-to-archive-third-party-data.md#more-information)의 "추가 정보" 섹션을 참조 하십시오.
   
 타사 데이터를 검색 하 고 유지 하기 위한 쿼리를 만들 때 조건을 사용 하 여 검색 결과의 범위를 좁힐 수도 있습니다. 콘텐츠 검색 쿼리를 만드는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.
   

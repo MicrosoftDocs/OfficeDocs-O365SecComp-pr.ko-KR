@@ -10,12 +10,12 @@ ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 description: Office 365 Cloud app Security 조건부 Access 앱 컨트롤에서 제어할 Azure AD Office 365 앱을 구성 하려면 다음 단계를 수행 합니다.
-ms.openlocfilehash: 72be95b3213b90cfe60d851d0852d465cdbe6ef9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 74cc415220282491694bf417a6761fd43a6d3521
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263116"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402946"
 ---
 # <a name="deploy-conditional-access-app-control-for-office-365-apps"></a>Office 365 앱용 조건부 액세스 앱 컨트롤 배포
 
@@ -50,7 +50,7 @@ Office 365 Cloud app Security 조건부 Access 앱 컨트롤에서 제어할 Azu
 
 6. 해당 하는 **조건 할당** 을 추가 하거나 **컨트롤** 을 부여 합니다 (선택 사항).
 
-> ![Azure AD 조건부 액세스](media/image1.png)
+> ![Azure AD 조건부 액세스](media/OCASimage1.png)
 
 ## <a name="step-2-sign-in-with-a-user-scoped-to-the-policy-in-the-apps"></a>2 단계: 범위가 지정 된 사용자를 앱에서 정책으로 로그인 
 
@@ -72,7 +72,7 @@ Cloud App Security에서는 로그인 하는 각각의 새 앱에 대해 정책 
 
 3. 인증서를 업로드 한 후에는 **장치 태그** 및 **유효한 클라이언트 인증서**를 기반으로 액세스 정책 및 세션 정책을 만들 수 있습니다.
 
-![조건부 액세스 앱 제어 장치 ID](media/image2.png)
+![조건부 액세스 앱 제어 장치 ID](media/OCASimage2.png)
 
 > [!NOTE]
 > 인증서는 세션이 유효한 클라이언트 인증서 필터를 사용 하는 정책과 일치 하는 경우에만 사용자에 게 요청 됩니다.

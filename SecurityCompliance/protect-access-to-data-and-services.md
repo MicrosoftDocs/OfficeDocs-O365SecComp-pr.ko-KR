@@ -14,11 +14,11 @@ search.appverid:
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: O365 데이터 및 서비스에 대 한 액세스를 보호 하기 위한 랜딩 페이지
 ms.openlocfilehash: e1b529a641d25f82521c40d0df9d091e0ebb5d90
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265230"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33403006"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 

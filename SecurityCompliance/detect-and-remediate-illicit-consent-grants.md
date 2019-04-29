@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 32fa8fedd0cac0ba1a6193b7b107492efb136838
-ms.sourcegitcommit: e7a776a04ef6ed5e287a33cfdc36aa2d72862b55
+ms.openlocfilehash: 658183b3e5a3089425312ee14c6663485e0543ce
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30999941"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402956"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -36,7 +36,11 @@ Office 365 **감사 로그** 를 검색 하 여이 공격의 손상 (IOC) 라고
 3. 검색 (모든 작업 및 모든 사용자)을 만들고, 응용 프로그램에 대 한 승인 결과를 필터링 하 고, OAuth2PermissionGrant를 추가 합니다.
 4. 확장 속성을 검사 하 고 isadmincontent가 True로 설정 되어 있는지 확인 합니다.
 
-
+> [!NOTE]
+>  
+   - 해당 감사 로그 항목이 검색 결과에 표시 될 때까지 이벤트가 발생 한 후 최대 30 분 이나 최대 24 시간이 걸릴 수 있습니다.
+   - 감사 레코드가 보존 되 고 검색 가능 하 게 되는 기간은 Office 365 구독에 따라 다르며, 특히 특정 사용자에 게 할당 된 라이선스의 유형입니다. 자세한 내용은 [감사 로그](search-the-audit-log-in-security-and-compliance.md)를 참조 하세요.
+      
 이 값이 true 이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 광범위 하 게 액세스할 수 있음을 나타냅니다. 예기치 않은 경우 [공격을 확인](detect-and-remediate-illicit-consent-grants.md#confirmattack)하기 위한 단계를 수행 합니다.
 
 <a name="confirmattack"> </a>
@@ -103,11 +107,11 @@ Azure Active Directory Portal 또는 PowerShell을 사용 하 여 사용자에 �
 - 영향을 받는 계정에 대해서도 로그인을 사용 하지 않도록 설정할 수 있으며,이는 해당 계정의 데이터에 대 한 앱 액세스를 사용 하지 않도록 설정 합니다. 이는 최종 사용자의 생산성을 유지 하는 데 이상적이 지 않지만, 영향을 빠르게 하는 작업을 수행 하는 경우에는 장기 관리가 가능한 단기 수정이 될 수 있습니다.
 - 테 넌 시에 통합 된 응용 프로그램을 해제할 수 있습니다. 이 단계는 최종 사용자가 테 넌 트 전반에 대해 동의를 부여할 수 없도록 하는 절차입니다. 이렇게 하면 사용자가 악의적인 응용 프로그램에 실수로 액세스 하는 것을 방지할 수 있습니다. 이는 타사 응용 프로그램의 생산성을 높이기 위해 사용자의 능력을 엄격히 저하 시키기 것이 좋습니다.  [통합 앱을 설정 하거나 해제](https://support.office.com/article/Turning-Integrated-Apps-on-or-off-7e453a40-66df-44ab-92a1-96786cb7fb34)하는 단계를 수행 하 여이 작업을 수행할 수 있습니다.
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>cybersecurity pro와 같은 Office 365 보호
-Office 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다.  office 365 보안 로드맵: office 365 테 넌 트를 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하는 데 [처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/office-365-security-roadmap-top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) 를 사용 합니다.
-- 처음 30 일 이내에 수행 해야 하는 작업입니다.  이러한 설정은 즉시 영향을 미치며 사용자에 게 미치는 영향이 낮습니다.
-- 90 일 이내에 수행할 작업입니다. 이러한 작업은 계획 하 고 구현 하는 데 다소 시간이 걸리고 보안 환경을 크게 향상 시킵니다.
-- 90 일을 초과 합니다. 처음 90 일의 향상 된 기능 빌드는 다음과 같은 작업을 수행 합니다.
+## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
+Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다.  [Office 365 보안 로드맵: 최초 30일, 90일 및 그 이후의 최우선 순위](https://support.office.com/article/office-365-security-roadmap-top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.
+- 처음 30일 이내에 수행 할 작업  이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
+- 90일 이내에 수행해야 할 작업 이러한 작업들은 계획하고 구현하는 데 다소 시간이 걸리지만 보안 태세를 갖추는 데 큰 도움이 됩니다.
+- 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
 ## <a name="see-also"></a>참고 항목:
 - [내 응용 프로그램 목록에서 예기치 않은 응용 프로그램](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application) 은 데이터에 대 한 액세스 권한이 있는 예기치 않은 응용 프로그램이 있다는 것을 모르고 관리자에 게 필요한 다양 한 작업을 안내 합니다.

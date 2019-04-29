@@ -10,12 +10,12 @@ ms.date: 02/27/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 description: office 365 Cloud App Security session policy는 실시간 세션 수준 모니터링을 사용 하도록 설정 하 여, 사용자 세션에 대해 설정한 정책에 따라 Office 365 앱에 대 한 세부적인 가시성을 affording 하 고 다양 한 작업을 수행할 수 있는 기능을 제공 합니다. 세션 컨트롤을 사용 하 여 액세스를 완전히 허용 하거나 차단 하는 대신 세션을 모니터링 하는 동안 액세스를 허용 하거나 조건부 액세스 앱 컨트롤의 역방향 프록시 기능을 사용 하 여 특정 세션 작업을 제한할 수 있습니다.
-ms.openlocfilehash: e0e4b04ee8cc0f7a14adbc26b074a5f2947e44c2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 8abc7753543d5147ce8c48c1784a6795143f9105
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263036"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33403036"
 ---
 # <a name="session-policies-in-office-365-cloud-app-security"></a>Office 365 Cloud App Security 세션 정책
 
@@ -117,7 +117,7 @@ Azure Active Directory 조건부 액세스 정책 및 클라우드 응용 프로
 
 1. cog 설정으로 이동 하 여 **조건부 액세스 앱 컨트롤**을 클릭 합니다.
 
-2. 표 오른쪽에서 내보내기 단추를 클릭 합니다.<br>![내보내기 단추](media/image3.png)<br>
+2. 표 오른쪽에서 내보내기 단추를 클릭 합니다.<br>![내보내기 단추](media/OCASimage3.png)<br>
 
 3. 보고서 범위를 선택 하 고 **내보내기를**클릭 합니다. 이 프로세스는 시간이 다소 걸릴 수 있습니다.
 
@@ -125,7 +125,7 @@ Azure Active Directory 조건부 액세스 정책 및 클라우드 응용 프로
 
 1. 보고서가 준비 되 면 **설정** 으로 이동한 다음 **내보낸 보고서**로 이동 합니다.
 
-2. 표의 **조건부 Access 앱 컨트롤 트래픽 로그** 목록에서 관련 보고서를 선택 하 고 다운로드를 클릭 합니다.<br>![다운로드 단추](media/image4.png)<br>
+2. 표의 **조건부 Access 앱 컨트롤 트래픽 로그** 목록에서 관련 보고서를 선택 하 고 다운로드를 클릭 합니다.<br>![다운로드 단추](media/OCASimage4.png)<br>
 
 ## <a name="block-all-downloads"></a>모든 다운로드 차단
 

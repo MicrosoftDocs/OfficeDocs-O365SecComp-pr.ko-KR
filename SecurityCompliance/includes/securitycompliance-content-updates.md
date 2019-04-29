@@ -41,7 +41,7 @@
 | 3/19/2019 | [Advanced eDiscovery (미리 보기)에 대 한 릴리스 정보](/Office365/SecurityCompliance/compliance20/release-notes-ediscovery20) | 수정한 날짜 |
 | 3/19/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
 | 3/19/2019 | [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](/Office365/SecurityCompliance/view-email-security-reports) | 수정한 날짜 |
-| 3/19/2019 | [빠른 시작: Office 365 Advanced Threat Protection 설정](/Office365/SecurityCompliance/checklist-atp-setup) | 더해집니다 |
+| 3/19/2019 | [빠른 시작: Office 365 Advanced Threat Protection 설정](/Office365/SecurityCompliance/checklist-atp-setup) | 추가됨 |
 | 3/19/2019 | [Office 365의 스푸핑 방지 보호 기능](/Office365/SecurityCompliance/anti-spoofing-protection) | 수정한 날짜 |
 | 3/19/2019 | [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP](/Office365/SecurityCompliance/atp-for-spo-odb-and-teams) | 수정한 날짜 |
 | 3/19/2019 | [Office 365의 공격 시뮬레이터](/Office365/SecurityCompliance/attack-simulator) | 수정한 날짜 |
@@ -161,22 +161,22 @@
 | 3/20/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
 | 3/20/2019 | [키워드 사전 만들기](/Office365/SecurityCompliance/create-a-keyword-dictionary) | 수정한 날짜 |
 | 3/20/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
-| 3/20/2019 | [보안 및 준수 센터의 메일 흐름 파악](/Office365/SecurityCompliance/mail-flow-insights-v2) | 더해집니다 |
+| 3/20/2019 | [보안 및 준수 센터의 메일 흐름 파악](/Office365/SecurityCompliance/mail-flow-insights-v2) | 추가됨 |
 | 3/20/2019 | [자동 전달 메시지 보고서](/Office365/SecurityCompliance/mfi-auto-forwarded-messages-report) | 수정한 날짜 |
-| 3/20/2019 | [상위 도메인 메일 흐름 상태 파악](/Office365/SecurityCompliance/mfi-domain-mail-flow-status-insight) | 더해집니다 |
-| 3/20/2019 | [메일 흐름 맵 보고서](/Office365/SecurityCompliance/mfi-mail-flow-map-report) | 더해집니다 |
+| 3/20/2019 | [상위 도메인 메일 흐름 상태 파악](/Office365/SecurityCompliance/mfi-domain-mail-flow-status-insight) | 추가됨 |
+| 3/20/2019 | [메일 흐름 맵 보고서](/Office365/SecurityCompliance/mfi-mail-flow-map-report) | 추가됨 |
 | 3/20/2019 | [메일 루프 파악](/Office365/SecurityCompliance/mfi-mail-loop-insight) | 수정한 날짜 |
-| 3/20/2019 | [허용 되지 않는 도메인 보고서](/Office365/SecurityCompliance/mfi-non-accepted-domain-report) | 더해집니다 |
-| 3/20/2019 | [배달 못 함 보고서](/Office365/SecurityCompliance/mfi-non-delivery-report) | 더해집니다 |
+| 3/20/2019 | [허용 되지 않는 도메인 보고서](/Office365/SecurityCompliance/mfi-non-accepted-domain-report) | 추가됨 |
+| 3/20/2019 | [배달 못 함 보고서](/Office365/SecurityCompliance/mfi-non-delivery-report) | 추가됨 |
 | 3/20/2019 | [아웃바운드 및 인바운드 메일 흐름](/Office365/SecurityCompliance/mfi-outbound-and-inbound-mail-flow) | 수정한 날짜 |
 | 3/20/2019 | [큐 알림 및 큐](/Office365/SecurityCompliance/mfi-queue-alerts-and-queues) | 수정한 날짜 |
-| 3/20/2019 | [보낸 사람 도메인 통찰력 수정](/Office365/SecurityCompliance/mfi-sender-domain-insight) | 더해집니다 |
+| 3/20/2019 | [보낸 사람 도메인 통찰력 수정](/Office365/SecurityCompliance/mfi-sender-domain-insight) | 추가됨 |
 | 3/20/2019 | [느린 메일 흐름 규칙 파악](/Office365/SecurityCompliance/mfi-slow-mail-flow-rules-insight) | 수정한 날짜 |
-| 3/20/2019 | [SMTP 인증 클라이언트 보고서](/Office365/SecurityCompliance/mfi-smtp-auth-clients-report) | 더해집니다 |
-| 3/21/2019 | [Office 365 위협 인텔리전스를 사용한 자동화 된 조사 및 응답 (AIR)](/Office365/SecurityCompliance/automated-investigation-response-office) | 더해집니다 |
+| 3/20/2019 | [SMTP 인증 클라이언트 보고서](/Office365/SecurityCompliance/mfi-smtp-auth-clients-report) | 추가됨 |
+| 3/21/2019 | [Office 365 위협 인텔리전스를 사용한 자동화 된 조사 및 응답 (AIR)](/Office365/SecurityCompliance/automated-investigation-response-office) | 추가됨 |
 | 3/21/2019 | [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | 수정한 날짜 |
 | 3/21/2019 | [Office 365 위협 조사 및 응답](/Office365/SecurityCompliance/office-365-ti) | 수정한 날짜 |
-| 3/21/2019 | [위협 탐색기 보기](/Office365/SecurityCompliance/threat-explorer-views) | 더해집니다 |
+| 3/21/2019 | [위협 탐색기 보기](/Office365/SecurityCompliance/threat-explorer-views) | 추가됨 |
 | 3/21/2019 | [보안 &amp; 및 준수 센터에서 위협 탐색기 사용](/Office365/SecurityCompliance/use-explorer-in-security-and-compliance) | 수정한 날짜 |
 | 3/21/2019 | [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](/Office365/SecurityCompliance/encryption-sensitivity-labels) | 수정한 날짜 |
 | 3/21/2019 | [민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels) | 수정한 날짜 |
@@ -184,21 +184,21 @@
 | 3/21/2019 | [작업 집합에 비 Office 365 데이터 로드](/Office365/SecurityCompliance/compliance20/load-non-office365-data) | 수정한 날짜 |
 | 3/21/2019 | [Advanced eDiscovery에서 작업 관리 (미리 보기)](/Office365/SecurityCompliance/compliance20/managing-jobs-ediscovery20) | 수정한 날짜 |
 | 3/21/2019 | [Advanced eDiscovery (미리 보기)에서 지원 되는 파일 형식](/Office365/SecurityCompliance/compliance20/supported-filetypes-ediscovery20) | 수정한 날짜 |
-| 3/21/2019 | [Advanced eDiscovery에서 AzCopy 문제 해결 (미리 보기)](/Office365/SecurityCompliance/compliance20/troubleshooting-azcopy) | 더해집니다 |
+| 3/21/2019 | [Advanced eDiscovery에서 AzCopy 문제 해결 (미리 보기)](/Office365/SecurityCompliance/compliance20/troubleshooting-azcopy) | 추가됨 |
 | 3/22/2019 | [Office 365의 피싱 방지 보호 기능](/Office365/SecurityCompliance/anti-phishing-protection) | 수정한 날짜 |
 | 3/22/2019 | [Office 365의 스푸핑 방지 보호 기능](/Office365/SecurityCompliance/anti-spoofing-protection) | 수정한 날짜 |
 | 3/22/2019 | [Office 365의 자동화 된 조사 및 응답 (AIR)](/Office365/SecurityCompliance/automated-investigation-response-office) | 수정한 날짜 |
 | 3/22/2019 | [Office 365에서 손상된 이메일 계정에 응답](/Office365/SecurityCompliance/responding-to-a-compromised-email-account) | 수정한 날짜 |
 | 3/22/2019 | [Office 365 보안 &amp; 및 준수 센터의 경고 정책](/Office365/SecurityCompliance/alert-policies) | 수정한 날짜 |
-| 3/22/2019 | [Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트](/Office365/SecurityCompliance/hunting) | 더해집니다 |
-| 3/22/2019 | [위협 분석을 사용한 최신 공격 캠페인 및 기법 이해](/Office365/SecurityCompliance/latest-attack-campaigns) | 더해집니다 |
-| 3/22/2019 | [Microsoft Secure Score](/Office365/SecurityCompliance/microsoft-secure-score) | 수정한 날짜 |
-| 3/22/2019 | [Microsoft 365 보안의 ID 모니터링 및 보고](/Office365/SecurityCompliance/monitor-and-report-identities) | 더해집니다 |
-| 3/22/2019 | [Microsoft 365 보안에서 앱 상태 모니터링 및 보고](/Office365/SecurityCompliance/monitor-apps) | 더해집니다 |
-| 3/22/2019 | [Microsoft 365 보안에서 데이터 모니터링 및 보고](/Office365/SecurityCompliance/monitor-data) | 더해집니다 |
-| 3/22/2019 | [Microsoft 365 보안의 디바이스 모니터링](/Office365/SecurityCompliance/monitor-devices) | 더해집니다 |
-| 3/22/2019 | [Microsoft 365 보안 센터에서 보안 상태 모니터링 및 보고](/Office365/SecurityCompliance/monitoring-and-reporting) | 더해집니다 |
-| 3/22/2019 | [Microsoft 365 보안 센터 개요](/Office365/SecurityCompliance/overview-security-center) | 더해집니다 |
+| 3/22/2019 | [Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트](/Office365/SecurityCompliance/hunting) | 추가됨 |
+| 3/22/2019 | [위협 분석을 사용한 최신 공격 캠페인 및 기법 이해](/Office365/SecurityCompliance/latest-attack-campaigns) | 추가됨 |
+| 3/22/2019 | [Microsoft 보안 점수](/Office365/SecurityCompliance/microsoft-secure-score) | 수정한 날짜 |
+| 3/22/2019 | [Microsoft 365 보안의 ID 모니터링 및 보고](/Office365/SecurityCompliance/monitor-and-report-identities) | 추가됨 |
+| 3/22/2019 | [Microsoft 365 보안에서 앱 상태 모니터링 및 보고](/Office365/SecurityCompliance/monitor-apps) | 추가됨 |
+| 3/22/2019 | [Microsoft 365 보안에서 데이터 모니터링 및 보고](/Office365/SecurityCompliance/monitor-data) | 추가됨 |
+| 3/22/2019 | [Microsoft 365 보안의 디바이스 모니터링](/Office365/SecurityCompliance/monitor-devices) | 추가됨 |
+| 3/22/2019 | [Microsoft 365 보안 센터에서 보안 상태 모니터링 및 보고](/Office365/SecurityCompliance/monitoring-and-reporting) | 추가됨 |
+| 3/22/2019 | [Microsoft 365 보안 센터 개요](/Office365/SecurityCompliance/overview-security-center) | 추가됨 |
 | 3/22/2019 | [SharePoint Online 사이트 및 파일 보호](/Office365/SecurityCompliance/secure-sharepoint-online-sites-and-files) | 수정한 날짜 |
 | 3/22/2019 | [Office 365의 개인 데이터에 레이블 적용](/Office365/SecurityCompliance/apply-labels-to-personal-data-in-office-365) | 수정한 날짜 |
 | 3/22/2019 | [개인 데이터에 대한 분류 스키마 설계](/Office365/SecurityCompliance/architect-a-classification-schema-for-personal-data) | 수정한 날짜 |
@@ -213,7 +213,7 @@
 | 3/25/2019 | [Permissions in the Office 365 Security &amp; Compliance Center](/Office365/SecurityCompliance/permissions-in-the-security-and-compliance-center) | 수정한 날짜 |
 | 3/25/2019 | [Office 365의 개인 데이터에 레이블 적용](/Office365/SecurityCompliance/apply-labels-to-personal-data-in-office-365) | 수정한 날짜 |
 | 3/25/2019 | [개인 데이터에 대한 분류 스키마 설계](/Office365/SecurityCompliance/architect-a-classification-schema-for-personal-data) | 수정한 날짜 |
-| 3/26/2019 | [새로운 새로운 Microsoft 365 준수 센터에 오신 것을 환영 합니다.](/Office365/SecurityCompliance/microsoft-365-compliance-center) | 더해집니다 |
+| 3/26/2019 | [새로운 새로운 Microsoft 365 준수 센터에 오신 것을 환영 합니다.](/Office365/SecurityCompliance/microsoft-365-compliance-center) | 추가됨 |
 | 3/26/2019 | [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](/Office365/SecurityCompliance/set-up-compliance-boundaries) | 수정한 날짜 |
 | 3/26/2019 | [Office 365 ATP 안전한 링크 경고 페이지](/Office365/SecurityCompliance/atp-safe-links-warning-pages) | 수정한 날짜 |
 | 3/26/2019 | [Office 365 ATP 안전한 링크](/Office365/SecurityCompliance/atp-safe-links) | 수정한 날짜 |
@@ -238,10 +238,10 @@
 | 3/26/2019 | [문서 핑거프린팅](/Office365/SecurityCompliance/document-fingerprinting) | 수정한 날짜 |
 | 3/26/2019 | [이벤트 구동 보존 개요](/Office365/SecurityCompliance/event-driven-retention) | 수정한 날짜 |
 | 3/26/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
-| 3/26/2019 | 메일을 빨간색으로 플래그 지정 했을 때 정책 및 보호 기능 결합 방법 | 더해집니다 |
+| 3/26/2019 | 메일을 빨간색으로 플래그 지정 했을 때 정책 및 보호 기능 결합 방법 | 추가됨 |
 | 3/26/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
 | 3/26/2019 | [대상 모음에 Office 365의 콘텐츠 검색 사용](/Office365/SecurityCompliance/use-content-search-for-targeted-collections) | 수정한 날짜 |
-| 3/26/2019 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 더해집니다 |
+| 3/26/2019 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 추가됨 |
 | 3/26/2019 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 수정한 날짜 |
 | 3/26/2019 | [Office 365의 콘텐츠 검색](/Office365/SecurityCompliance/content-search) | 수정한 날짜 |
 | 3/26/2019 | [Office 365에서 비활성 사서함 삭제](/Office365/SecurityCompliance/delete-an-inactive-mailbox) | 수정한 날짜 |
@@ -287,7 +287,7 @@
 | 3/27/2019 | [Office 365 메시지 암호화 FAQ](/Office365/SecurityCompliance/ome-faq) | 수정한 날짜 |
 | 3/27/2019 | [Office 365에서 가양성을 발생을 방지하는 방법](/Office365/SecurityCompliance/prevent-email-from-being-marked-as-spam) | 수정한 날짜 |
 | 3/27/2019 | [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](/Office365/SecurityCompliance/service-encryption-with-customer-key-faq) | 수정한 날짜 |
-| 3/27/2019 | [Office 365에서 피싱 방지 보호 기능 조정](/Office365/SecurityCompliance/tuning-anti-phishing) | 더해집니다 |
+| 3/27/2019 | [Office 365에서 피싱 방지 보호 기능 조정](/Office365/SecurityCompliance/tuning-anti-phishing) | 추가됨 |
 | 3/28/2019 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 수정한 날짜 |
 | 3/28/2019 | [EOP 란](/Office365/SecurityCompliance/eop/what-is-eop) | 수정한 날짜 |
 | 3/28/2019 | [드라이브 전달을 사용 하 여 조직 PST 파일을 Office 365로 가져오기](/Office365/SecurityCompliance/use-drive-shipping-to-import-pst-files-to-office-365) | 수정한 날짜 |
@@ -299,7 +299,7 @@
 | 3/28/2019 | [Office 365의 개인 데이터에 보호 적용](/Office365/SecurityCompliance/apply-protection-to-personal-data-in-office-365) | 수정한 날짜 |
 | 3/28/2019 | [중요한 정보 유형 사용자 지정 또는 새로 만들기](/Office365/SecurityCompliance/customize-or-create-a-new-sensitive-information-type) | 수정한 날짜 |
 | 3/28/2019 | [메일을 빨간색으로 플래그 지정 했을 때 정책 및 보호 기능 결합 방법](/Office365/SecurityCompliance/how-policies-and-protections-are-combined) | 의 |
-| 3/28/2019 | [레이블 분석을 통한 레이블 사용량 보기](/Office365/SecurityCompliance/label-analytics) | 더해집니다 |
+| 3/28/2019 | [레이블 분석을 통한 레이블 사용량 보기](/Office365/SecurityCompliance/label-analytics) | 추가됨 |
 | 3/28/2019 | [보존 레이블 개요](/Office365/SecurityCompliance/labels) | 수정한 날짜 |
 | 3/28/2019 | [개인 데이터 누수 모니터링](/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data) | 수정한 날짜 |
 | 3/28/2019 | [개인 데이터 검색 및 찾기](/Office365/SecurityCompliance/search-for-and-find-personal-data) | 수정한 날짜 |
@@ -333,7 +333,7 @@
 | 3/29/2019 | [데이터 손실 방지 정책 개요](/Office365/SecurityCompliance/data-loss-prevention-policies) | 수정한 날짜 |
 | 3/29/2019 | [Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트](/Office365/SecurityCompliance/hunting) | 수정한 날짜 |
 | 3/29/2019 | [위협 분석을 사용한 최신 공격 캠페인 및 기법 이해](/Office365/SecurityCompliance/latest-attack-campaigns) | 수정한 날짜 |
-| 3/29/2019 | [Microsoft Secure Score](/Office365/SecurityCompliance/microsoft-secure-score) | 수정한 날짜 |
+| 3/29/2019 | [Microsoft 보안 점수](/Office365/SecurityCompliance/microsoft-secure-score) | 수정한 날짜 |
 | 3/29/2019 | [Microsoft 365 보안의 ID 모니터링 및 보고](/Office365/SecurityCompliance/monitor-and-report-identities) | 수정한 날짜 |
 | 3/29/2019 | [Microsoft 365 보안에서 앱 상태 모니터링 및 보고](/Office365/SecurityCompliance/monitor-apps) | 수정한 날짜 |
 | 3/29/2019 | [Microsoft 365 보안에서 데이터 모니터링 및 보고](/Office365/SecurityCompliance/monitor-data) | 수정한 날짜 |
@@ -484,7 +484,7 @@
 | 3/29/2019 | [Office 365 Cloud App Security 적용한 후 사용률 활동](/Office365/SecurityCompliance/utilization-activities-for-ocas) | 수정한 날짜 |
 | 3/29/2019 | [콘텐츠 검색 결과에 대한 키워드 통계 보기](/Office365/SecurityCompliance/view-keyword-statistics-for-content-search) | 수정한 날짜 |
 | 3/29/2019 | [스팸 방지 메시지 헤더](/Office365/SecurityCompliance/anti-spam-message-headers) | 수정한 날짜 |
-| 3/29/2019 | Office 365 보안 및 준수 | 제거 |
+| 3/29/2019 | Office 365 보안 및 규정 준수 | 제거 |
 | 3/29/2019 | [Office 365 관리 액세스 권한 컨트롤](/Office365/SecurityCompliance/office-365-administrative-access-controls-overview) | 수정한 날짜 |
 | 3/29/2019 | [서비스 거부 공격에 대 한 방어의 Office 365 핵심 원리](/Office365/SecurityCompliance/office-365-core-principles-of-defense-against-dos-attacks) | 수정한 날짜 |
 | 3/29/2019 | [Office 365 데이터 소멸](/Office365/SecurityCompliance/office-365-data-destruction) | 수정한 날짜 |
@@ -530,48 +530,48 @@
 | 4/1/2019 | [네트워크 업로드를 사용 하 여 조직 PST 파일을 Office 365로 가져오기](/Office365/SecurityCompliance/use-network-upload-to-import-pst-files) | 수정한 날짜 |
 | 4/1/2019 | [Office 365에서 손상된 이메일 계정에 응답](/Office365/SecurityCompliance/responding-to-a-compromised-email-account) | 수정한 날짜 |
 | 4/1/2019 | [Office 365 Advanced Threat Protection에 대 한 보고서 보기](/Office365/SecurityCompliance/view-reports-for-atp) | 수정한 날짜 |
-| 4/1/2019 | [데이터 조사에서 구성원 추가 또는 제거](/Office365/SecurityCompliance/datainvestigations/add-remove-members) | 더해집니다 |
-| 4/1/2019 | [증거에서 문서 주석 달기 및 교정](/Office365/SecurityCompliance/datainvestigations/annotate-and-redact-documents) | 더해집니다 |
-| 4/1/2019 | [검색 쿼리 작성](/Office365/SecurityCompliance/datainvestigations/build-search-queries) | 더해집니다 |
-| 4/1/2019 | [데이터 조사 닫기 또는 삭제](/Office365/SecurityCompliance/datainvestigations/close-or-delete-investigation) | 더해집니다 |
-| 4/1/2019 | [검색 및 분석 설정 구성](/Office365/SecurityCompliance/datainvestigations/configure-search-analytics-settings) | 더해집니다 |
-| 4/1/2019 | [데이터 조사의 설정 구성](/Office365/SecurityCompliance/datainvestigations/configure-settings-datainvestigations) | 더해집니다 |
-| 4/1/2019 | [데이터 조사에서 새 조사 만들기 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/create-new-investigation) | 더해집니다 |
+| 4/1/2019 | [데이터 조사에서 구성원 추가 또는 제거](/Office365/SecurityCompliance/datainvestigations/add-remove-members) | 추가됨 |
+| 4/1/2019 | [증거에서 문서 주석 달기 및 교정](/Office365/SecurityCompliance/datainvestigations/annotate-and-redact-documents) | 추가됨 |
+| 4/1/2019 | [검색 쿼리 작성](/Office365/SecurityCompliance/datainvestigations/build-search-queries) | 추가됨 |
+| 4/1/2019 | [데이터 조사 닫기 또는 삭제](/Office365/SecurityCompliance/datainvestigations/close-or-delete-investigation) | 추가됨 |
+| 4/1/2019 | [검색 및 분석 설정 구성](/Office365/SecurityCompliance/datainvestigations/configure-search-analytics-settings) | 추가됨 |
+| 4/1/2019 | [데이터 조사의 설정 구성](/Office365/SecurityCompliance/datainvestigations/configure-settings-datainvestigations) | 추가됨 |
+| 4/1/2019 | [데이터 조사에서 새 조사 만들기 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/create-new-investigation) | 추가됨 |
 | 4/1/2019 | [Microsoft 365의 데이터 조사 (미리 보기)에 대 한 릴리스 정보](/Office365/SecurityCompliance/datainvestigations/data-investigations-release-notes) | 의 |
-| 4/1/2019 | [문서 메타데이터 필드](/Office365/SecurityCompliance/datainvestigations/document-metadata-fields) | 더해집니다 |
-| 4/1/2019 | [데이터 조사에서 내보내기 작업 다운로드](/Office365/SecurityCompliance/datainvestigations/download-export-jobs) | 더해집니다 |
-| 4/1/2019 | [이메일 스레드](/Office365/SecurityCompliance/datainvestigations/email-threading) | 더해집니다 |
-| 4/1/2019 | [조사를 위해 데이터를 처리할 때의 오류 수정](/Office365/SecurityCompliance/datainvestigations/error-remediation) | 더해집니다 |
-| 4/1/2019 | [증거에서 데이터 쿼리](/Office365/SecurityCompliance/datainvestigations/evidence-query) | 더해집니다 |
-| 4/1/2019 | [조사에서 데이터 내보내기](/Office365/SecurityCompliance/datainvestigations/export-data) | 더해집니다 |
-| 4/1/2019 | [인시던트 로부터 문서 내보내기](/Office365/SecurityCompliance/datainvestigations/export-documents-from-incident) | 더해집니다 |
-| 4/1/2019 | [조사를 위한 데이터의 고급 인덱싱](/Office365/SecurityCompliance/datainvestigations/index-data-people-of-interest) | 더해집니다 |
-| 4/1/2019 | [데이터 조사 제한](/Office365/SecurityCompliance/datainvestigations/limits-datainvestigations) | 더해집니다 |
-| 4/1/2019 | [비 Office 365 데이터를 증거에 로드](/Office365/SecurityCompliance/datainvestigations/load-non-office365-data) | 더해집니다 |
+| 4/1/2019 | [문서 메타데이터 필드](/Office365/SecurityCompliance/datainvestigations/document-metadata-fields) | 추가됨 |
+| 4/1/2019 | [데이터 조사에서 내보내기 작업 다운로드](/Office365/SecurityCompliance/datainvestigations/download-export-jobs) | 추가됨 |
+| 4/1/2019 | [이메일 스레드](/Office365/SecurityCompliance/datainvestigations/email-threading) | 추가됨 |
+| 4/1/2019 | [조사를 위해 데이터를 처리할 때의 오류 수정](/Office365/SecurityCompliance/datainvestigations/error-remediation) | 추가됨 |
+| 4/1/2019 | [증거에서 데이터 쿼리](/Office365/SecurityCompliance/datainvestigations/evidence-query) | 추가됨 |
+| 4/1/2019 | [조사에서 데이터 내보내기](/Office365/SecurityCompliance/datainvestigations/export-data) | 추가됨 |
+| 4/1/2019 | [인시던트 로부터 문서 내보내기](/Office365/SecurityCompliance/datainvestigations/export-documents-from-incident) | 추가됨 |
+| 4/1/2019 | [조사를 위한 데이터의 고급 인덱싱](/Office365/SecurityCompliance/datainvestigations/index-data-people-of-interest) | 추가됨 |
+| 4/1/2019 | [데이터 조사 제한](/Office365/SecurityCompliance/datainvestigations/limits-datainvestigations) | 추가됨 |
+| 4/1/2019 | [비 Office 365 데이터를 증거에 로드](/Office365/SecurityCompliance/datainvestigations/load-non-office365-data) | 추가됨 |
 | 4/1/2019 | [Microsoft 365에서 데이터 유출 인시던트 관리](/Office365/SecurityCompliance/datainvestigations/manage-data-spillage-incidents) | 의 |
-| 4/1/2019 | [고급 eDiscovery에서 작업 집합 관리 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/manage-incidents) | 더해집니다 |
-| 4/1/2019 | [데이터 조사에서 작업 관리](/Office365/SecurityCompliance/datainvestigations/manage-jobs) | 더해집니다 |
-| 4/1/2019 | [로드 집합 관리](/Office365/SecurityCompliance/datainvestigations/manage-load-sets) | 더해집니다 |
-| 4/1/2019 | [데이터 조사에 관심이 있는 사용자 관리 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/manage-people-of-interest) | 더해집니다 |
-| 4/1/2019 | [중복에 가까운 검색](/Office365/SecurityCompliance/datainvestigations/near-duplicates) | 더해집니다 |
-| 4/1/2019 | [Microsoft 365의 데이터 조사 개요 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/overview-data-investigations) | 더해집니다 |
-| 4/1/2019 | [조사를 위한 데이터 처리](/Office365/SecurityCompliance/datainvestigations/process-data-for-investigation) | 더해집니다 |
-| 4/1/2019 | [증거 데이터 검토](/Office365/SecurityCompliance/datainvestigations/review-data-in-evidence) | 더해집니다 |
-| 4/1/2019 | [신속한 조사를 위한 분석 실행](/Office365/SecurityCompliance/datainvestigations/run-analytics-to-investigate-faster) | 더해집니다 |
-| 4/1/2019 | [조사에서 데이터 검색](/Office365/SecurityCompliance/datainvestigations/search-for-data) | 더해집니다 |
-| 4/1/2019 | [검색 통계](/Office365/SecurityCompliance/datainvestigations/search-statistics) | 더해집니다 |
-| 4/1/2019 | [데이터 조사에서 지원 되는 파일 형식](/Office365/SecurityCompliance/datainvestigations/supported-filetypes-datainvestigations) | 더해집니다 |
-| 4/1/2019 | [증거의 태그 문서](/Office365/SecurityCompliance/datainvestigations/tag-documents) | 더해집니다 |
-| 4/1/2019 | [테마](/Office365/SecurityCompliance/datainvestigations/themes) | 더해집니다 |
-| 4/1/2019 | [관련성 모듈을 사용 하 여 증거의 데이터 분석](/Office365/SecurityCompliance/datainvestigations/use-relevance-module) | 더해집니다 |
-| 4/1/2019 | [관심 있는 사용자의 감사 작업 보기](/Office365/SecurityCompliance/datainvestigations/view-people-of-interest-activity) | 더해집니다 |
+| 4/1/2019 | [고급 eDiscovery에서 작업 집합 관리 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/manage-incidents) | 추가됨 |
+| 4/1/2019 | [데이터 조사에서 작업 관리](/Office365/SecurityCompliance/datainvestigations/manage-jobs) | 추가됨 |
+| 4/1/2019 | [로드 집합 관리](/Office365/SecurityCompliance/datainvestigations/manage-load-sets) | 추가됨 |
+| 4/1/2019 | [데이터 조사에 관심이 있는 사용자 관리 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/manage-people-of-interest) | 추가됨 |
+| 4/1/2019 | [중복에 가까운 검색](/Office365/SecurityCompliance/datainvestigations/near-duplicates) | 추가됨 |
+| 4/1/2019 | [Microsoft 365의 데이터 조사 개요 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/overview-data-investigations) | 추가됨 |
+| 4/1/2019 | [조사를 위한 데이터 처리](/Office365/SecurityCompliance/datainvestigations/process-data-for-investigation) | 추가됨 |
+| 4/1/2019 | [증거 데이터 검토](/Office365/SecurityCompliance/datainvestigations/review-data-in-evidence) | 추가됨 |
+| 4/1/2019 | [신속한 조사를 위한 분석 실행](/Office365/SecurityCompliance/datainvestigations/run-analytics-to-investigate-faster) | 추가됨 |
+| 4/1/2019 | [조사에서 데이터 검색](/Office365/SecurityCompliance/datainvestigations/search-for-data) | 추가됨 |
+| 4/1/2019 | [검색 통계](/Office365/SecurityCompliance/datainvestigations/search-statistics) | 추가됨 |
+| 4/1/2019 | [데이터 조사에서 지원 되는 파일 형식](/Office365/SecurityCompliance/datainvestigations/supported-filetypes-datainvestigations) | 추가됨 |
+| 4/1/2019 | [증거의 태그 문서](/Office365/SecurityCompliance/datainvestigations/tag-documents) | 추가됨 |
+| 4/1/2019 | [테마](/Office365/SecurityCompliance/datainvestigations/themes) | 추가됨 |
+| 4/1/2019 | [관련성 모듈을 사용 하 여 증거의 데이터 분석](/Office365/SecurityCompliance/datainvestigations/use-relevance-module) | 추가됨 |
+| 4/1/2019 | [관심 있는 사용자의 감사 작업 보기](/Office365/SecurityCompliance/datainvestigations/view-people-of-interest-activity) | 추가됨 |
 | 4/1/2019 | [Office 365의 암호화](/Office365/SecurityCompliance/encryption) | 수정한 날짜 |
 | 4/1/2019 | [새로운 새로운 Microsoft 365 준수 센터에 오신 것을 환영 합니다.](/Office365/SecurityCompliance/microsoft-365-compliance-center) | 수정한 날짜 |
 | 4/1/2019 | [Office 365에 대한 보안 모범 사례](/Office365/SecurityCompliance/security-best-practices) | 수정한 날짜 |
 | 4/2/2019 | [EOP 서비스 설정](/Office365/SecurityCompliance/eop/set-up-your-eop-service) | 수정한 날짜 |
 | 4/2/2019 | [Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트](/Office365/SecurityCompliance/hunting) | 수정한 날짜 |
 | 4/2/2019 | [위협 분석을 사용한 최신 공격 캠페인 및 기법 이해](/Office365/SecurityCompliance/latest-attack-campaigns) | 수정한 날짜 |
-| 4/2/2019 | [Microsoft Secure Score](/Office365/SecurityCompliance/microsoft-secure-score) | 수정한 날짜 |
+| 4/2/2019 | [Microsoft 보안 점수](/Office365/SecurityCompliance/microsoft-secure-score) | 수정한 날짜 |
 | 4/2/2019 | [Microsoft 365 보안의 ID 모니터링 및 보고](/Office365/SecurityCompliance/monitor-and-report-identities) | 수정한 날짜 |
 | 4/2/2019 | [Microsoft 365 보안에서 앱 상태 모니터링 및 보고](/Office365/SecurityCompliance/monitor-apps) | 수정한 날짜 |
 | 4/2/2019 | [Microsoft 365 보안에서 데이터 모니터링 및 보고](/Office365/SecurityCompliance/monitor-data) | 수정한 날짜 |
@@ -587,7 +587,7 @@
 | 4/4/2019 | [새로운 Office 365 메시지 암호화 기능 설정](/Office365/SecurityCompliance/set-up-new-message-encryption-capabilities) | 수정한 날짜 |
 | 4/4/2019 | [제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호](/Office365/SecurityCompliance/zero-hour-auto-purge) | 수정한 날짜 |
 | 4/5/2019 | [후방 분산 메시지 및 EOP](/Office365/SecurityCompliance/backscatter-messages-and-eop) | 수정한 날짜 |
-| 4/5/2019 | [Exchange Online 사서함에 저장 된 콘텐츠](/Office365/SecurityCompliance/what-is-stored-in-exo-mailbox) | 더해집니다 |
+| 4/5/2019 | [Exchange Online 사서함에 저장 된 콘텐츠](/Office365/SecurityCompliance/what-is-stored-in-exo-mailbox) | 추가됨 |
 
 
 ## <a name="week-of-april-08-2019"></a>2019년 4월 8일 주중
@@ -604,7 +604,7 @@
 | 4/9/2019 | [보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](/Office365/SecurityCompliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp) | 수정한 날짜 |
 | 4/9/2019 | [SharePoint Online 사이트 및 파일 보호](/Office365/SecurityCompliance/secure-sharepoint-online-sites-and-files) | 수정한 날짜 |
 | 4/9/2019 | [개발/테스트 환경의 보안 SharePoint Online 사이트](/Office365/SecurityCompliance/secure-sharepoint-online-sites-in-a-dev-test-environment) | 수정한 날짜 |
-| 2019년 4월 10일 | [한 작업 집합의 데이터를 다른 작업 집합에 추가](/Office365/SecurityCompliance/compliance20/add-data-to-working-set-from-another-working-set) | 더해집니다 |
+| 2019년 4월 10일 | [한 작업 집합의 데이터를 다른 작업 집합에 추가](/Office365/SecurityCompliance/compliance20/add-data-to-working-set-from-another-working-set) | 추가됨 |
 | 2019년 4월 10일 | [Advanced eDiscovery (미리 보기)의 문서 메타 데이터 필드](/Office365/SecurityCompliance/compliance20/document-metadata-fields) | 수정한 날짜 |
 | 2019년 4월 10일 | [고급 eDiscovery (미리 보기) 제한](/Office365/SecurityCompliance/compliance20/limits-ediscovery20) | 수정한 날짜 |
 | 2019년 4월 10일 | [Advanced eDiscovery에서 작업 관리 (미리 보기)](/Office365/SecurityCompliance/compliance20/managing-jobs-ediscovery20) | 수정한 날짜 |
@@ -655,7 +655,7 @@
 | 4/12/2019 | [Office 365 메시지 암호화](/Office365/SecurityCompliance/ome) | 수정한 날짜 |
 
 
-## <a name="week-of-april-15-2019"></a>4 월 15 일 주 2019
+## <a name="week-of-april-15-2019"></a>2019년 4월 15일 주중
 
 
 | 게시된 날짜 |항목 제목 | 변경 사항 |
@@ -695,12 +695,12 @@
 | 4/16/2019 | [네트워크 업로드를 사용하여 RMS 암호화 PST 파일을 Office 365로 가져오기](/Office365/SecurityCompliance/use-network-upload-to-import-rms-encrypted-pst-files) | 수정한 날짜 |
 | 4/16/2019 | [외부 사용자와 공유된 리소스를 찾기 위한 감사 공유](/Office365/SecurityCompliance/use-sharing-auditing) | 수정한 날짜 |
 | 4/16/2019 | [보안 및 준수 센터의 경고 정책](/Office365/SecurityCompliance/alert-policies) | 수정한 날짜 |
-| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 1-Microsoft Cybersecurity 브리핑](/Office365/SecurityCompliance/ciso-workshop-module-1) | 더해집니다 |
-| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 2-보안 관리](/Office365/SecurityCompliance/ciso-workshop-module-2) | 더해집니다 |
-| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 3-id 및 액세스 관리](/Office365/SecurityCompliance/ciso-workshop-module-3) | 더해집니다 |
-| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-위협 방지 전략](/Office365/SecurityCompliance/ciso-workshop-module-4a) | 더해집니다 |
-| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-위협 보호 전략](/Office365/SecurityCompliance/ciso-workshop-module-4b) | 더해집니다 |
-| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 5 – 정보 보호](/Office365/SecurityCompliance/ciso-workshop-module-5) | 더해집니다 |
+| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 1-Microsoft Cybersecurity 브리핑](/Office365/SecurityCompliance/ciso-workshop-module-1) | 추가됨 |
+| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 2-보안 관리](/Office365/SecurityCompliance/ciso-workshop-module-2) | 추가됨 |
+| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 3-id 및 액세스 관리](/Office365/SecurityCompliance/ciso-workshop-module-3) | 추가됨 |
+| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-위협 방지 전략](/Office365/SecurityCompliance/ciso-workshop-module-4a) | 추가됨 |
+| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-위협 보호 전략](/Office365/SecurityCompliance/ciso-workshop-module-4b) | 추가됨 |
+| 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 5 – 정보 보호](/Office365/SecurityCompliance/ciso-workshop-module-5) | 추가됨 |
 | 4/16/2019 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 수정한 날짜 |
 | 4/16/2019 | [Advanced eDiscovery에서 사례 데이터 내보내기 (미리 보기)](/Office365/SecurityCompliance/compliance20/exporting-data-ediscover20) | 수정한 날짜 |
 | 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 1-Microsoft Cybersecurity 브리핑](/Office365/SecurityCompliance/ciso-workshop-module-1) | 수정한 날짜 |
@@ -709,17 +709,17 @@
 | 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-위협 방지 전략](/Office365/SecurityCompliance/ciso-workshop-module-4a) | 수정한 날짜 |
 | 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-위협 보호 전략](/Office365/SecurityCompliance/ciso-workshop-module-4b) | 수정한 날짜 |
 | 4/16/2019 | [최고 정보 보안 담당자 (ciso) 워크숍-모듈 5 – 정보 보호](/Office365/SecurityCompliance/ciso-workshop-module-5) | 수정한 날짜 |
-| 4/17/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
-| 4/17/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
-| 4/17/2019 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 1: Microsoft Cybersecurity 브리핑](/Office365/SecurityCompliance/ciso-workshop-module-1) | 수정한 날짜 |
-| 4/17/2019 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 2: 보안 관리](/Office365/SecurityCompliance/ciso-workshop-module-2) | 수정한 날짜 |
-| 4/17/2019 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 3: id 및 액세스 관리](/Office365/SecurityCompliance/ciso-workshop-module-3) | 수정한 날짜 |
-| 4/17/2019 | [최고 정보 보안 담당자 (ciso) 워크숍, 모듈 4a: 위협 방지 전략](/Office365/SecurityCompliance/ciso-workshop-module-4a) | 수정한 날짜 |
-| 4/17/2019 | [최고 정보 보안 담당자 (ciso) 워크숍, 모듈 4b: 위협 보호 전략](/Office365/SecurityCompliance/ciso-workshop-module-4b) | 수정한 날짜 |
-| 4/17/2019 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 5: 정보 보호](/Office365/SecurityCompliance/ciso-workshop-module-5) | 수정한 날짜 |
-| 4/17/2019 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 수정한 날짜 |
-| 4/17/2019 | [Office 365에서 권한이 부여 된 액세스 관리 구성](/Office365/SecurityCompliance/privileged-access-management-configuration) | 수정한 날짜 |
-| 4/17/2019 | [Office 365의 권한이 부여 된 액세스 관리](/Office365/SecurityCompliance/privileged-access-management-overview) | 수정한 날짜 |
+| 2019/4/17 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
+| 2019/4/17 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
+| 2019/4/17 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 1: Microsoft Cybersecurity 브리핑](/Office365/SecurityCompliance/ciso-workshop-module-1) | 수정한 날짜 |
+| 2019/4/17 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 2: 보안 관리](/Office365/SecurityCompliance/ciso-workshop-module-2) | 수정한 날짜 |
+| 2019/4/17 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 3: id 및 액세스 관리](/Office365/SecurityCompliance/ciso-workshop-module-3) | 수정한 날짜 |
+| 2019/4/17 | [최고 정보 보안 담당자 (ciso) 워크숍, 모듈 4a: 위협 방지 전략](/Office365/SecurityCompliance/ciso-workshop-module-4a) | 수정한 날짜 |
+| 2019/4/17 | [최고 정보 보안 담당자 (ciso) 워크숍, 모듈 4b: 위협 보호 전략](/Office365/SecurityCompliance/ciso-workshop-module-4b) | 수정한 날짜 |
+| 2019/4/17 | [주요 정보 보안 담당자 (ciso) 워크숍, 모듈 5: 정보 보호](/Office365/SecurityCompliance/ciso-workshop-module-5) | 수정한 날짜 |
+| 2019/4/17 | [주요 정보 보안 담당자 (ciso) 워크숍](/Office365/SecurityCompliance/ciso-workshop) | 수정한 날짜 |
+| 2019/4/17 | [Office 365에서 권한이 부여 된 액세스 관리 구성](/Office365/SecurityCompliance/privileged-access-management-configuration) | 수정한 날짜 |
+| 2019/4/17 | [Office 365의 권한이 부여 된 액세스 관리](/Office365/SecurityCompliance/privileged-access-management-overview) | 수정한 날짜 |
 | 4/18/2019 | [보안 강화를 위해 Office 365 테넌트 구성](/Office365/SecurityCompliance/tenant-wide-setup-for-increased-security) | 수정한 날짜 |
 | 4/18/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
 | 4/18/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |

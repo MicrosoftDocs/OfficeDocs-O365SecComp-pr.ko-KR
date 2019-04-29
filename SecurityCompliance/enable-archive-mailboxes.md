@@ -8,7 +8,7 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.ArchivingHelp
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365의 Security & 준수 센터를 사용 하 여 조직의 메시지 보존, eDiscovery 및 보존 요구 사항을 지원 하기 위해 보관 사서함을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: d363943910d970576976d8386196b450dd5694f3
-ms.sourcegitcommit: f0e3c9de0b545081a4d264f74559b941f6c71410
+ms.openlocfilehash: f4f02e5107526f2f45b0a46579e0676b791f0dd1
+ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31958309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402926"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 & 준수 센터에서 보관 사서함을 사용 하도록 설정
   
@@ -127,9 +127,11 @@ Exchange Online에 연결 하 고 나면 다음 섹션의 명령을 실행 하 �
 
 ## <a name="more-information"></a>추가 정보
   
+- 보관 사서함을 사용 하도록 설정 하면 사용자가 보관 사서함에 메시지를 저장할 수 있습니다. 사용자는 Microsoft outlook 및 웹용 Outlook을 사용 하 여 보관 사서함에 액세스할 수 있습니다. 이러한 클라이언트 응용 프로그램 중 하나를 사용 하면 사용자가 자신의 보관 사서함에서 메시지를 보고 기본 사서함과 해당 보관 사서함 간에 메시지를 이동 하거나 복사할 수 있습니다. 또한 사용자는 지운 편지함 복구 도구를 사용 하 여 보관 사서함의 복구 가능한 항목 폴더에서 삭제 된 항목을 복구할 수 있습니다.
+
+   원본 위치 보관을 지 원하는 outlook 라이선스 목록은 [Exchange 기능에 대 한 outlook 라이선스 요구 사항을](https://support.office.com/article/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99)참조 하세요.
+
 - 보관 사서함을 통해 조직의 보존, eDiscovery 및 보존 요구 사항을 충족 하는 사용자를 지원할 수 있습니다. 예를 들어 조직의 Exchange 보존 정책을 사용 하 여 사서함 콘텐츠를 사용자의 보관 사서함으로 이동할 수 있습니다. 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 사용자의 사서함에서 특정 콘텐츠를 검색 하는 경우 사용자의 보관 사서함도 검색 됩니다. 또한 소송 보존을 수행 하거나 사용자 사서함에 Office 365 유지 정책을 적용 하는 경우 보관 사서함의 항목도 보존 됩니다.
-  
-- 보관 사서함을 사용 하도록 설정 하면 사용자가 보관 사서함에 메시지를 저장할 수 있습니다. 사용자는 Microsoft outlook 및 웹용 Outlook을 사용 하 여 보관 사서함에 액세스할 수 있습니다. 이러한 클라이언트 응용 프로그램 중 하나를 사용 하면 사용자가 자신의 보관 사서함에서 메시지를 보고 기본 사서함과 해당 보관 사서함 간에 메시지를 이동 하거나 복사할 수 있습니다. 또한 사용자는 지운 편지함 복구 도구를 사용 하 여 보관 사서함의 복구 가능한 항목 폴더에서 삭제 된 항목을 복구할 수 있습니다. 
   
 - 보관 사서함을 사용 하도록 설정한 후에는 조직에서 모든 사서함에 자동으로 할당 되는 기본 Exchange 보존 정책 (메시징 레코드 관리 또는 mrm 정책)을 활용할 수 있습니다. 보관 사서함을 사용 하도록 설정 하면 기본 Exchange 보존 정책이 자동으로 다음 작업을 수행 합니다. 
   
