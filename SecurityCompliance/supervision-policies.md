@@ -15,20 +15,27 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.assetid: d14ae7c3-fcb0-4a03-967b-cbed861bb086
 description: Office 365의 감독 정책 이해
-ms.openlocfilehash: 091f5b1f31fcf59162df6ded6a6b07fb501834c7
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 4399ea298d467a9ab7f395a51d23b2f9f783231b
+ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33403046"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470428"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
-Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 위해 직원 통신을 캡처할 수 있습니다. 조직의 내부 및 외부 전자 메일, Microsoft 팀 또는 타사 통신을 캡처하는 특정 정책을 정의할 수 있습니다. 그러면 검토자가 메시지를 검사 하 여 조직의 메시지 표준과 호환 되는지 확인 하 고 분류 유형으로 문제를 해결할 수 있습니다. 이러한 정책은 통신 채널 유형, 메시지 데이터의 볼륨 증가, 규정 적용 & 벌금과의 위험을 모니터링 하는 등의 다양 한 최신 준수 과제를 해결 하는 데도 도움이 될 수 있습니다.
+Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 위해 직원 통신을 캡처할 수 있습니다. 조직의 내부 및 외부 전자 메일, Microsoft 팀 또는 타사 통신을 캡처하는 특정 정책을 정의할 수 있습니다. 그러면 검토자가 메시지를 검사 하 여 조직의 메시지 표준과 호환 되는지 확인 하 고 분류 유형으로 문제를 해결할 수 있습니다. 
 
-일부 조직에서는 IT 지원 및 준수 관리 그룹 간에 의무를 분리할 수 있습니다. Office 365은 테 넌 트 정책 지원 기능과 정책 구성 및 캡처된 통신 작업을 함께 수행 하는 방법에 대 한 분리를 지원 합니다. 예를 들어 조직의 IT 그룹은 조직의 규정 준수 팀이 구성 하 고 관리 하는 감독 정책을 지원 하기 위해 역할 권한 및 그룹을 설정할 책임이 있을 수 있습니다.
+이러한 정책은 다음을 비롯 한 다양 한 최신 준수 문제를 해결 하는 데도 도움이 됩니다.
+
+- 통신 채널 유형 증가 모니터링
+- 메시지 데이터의 증가 된 볼륨
+- 규정 적용은 벌금과 위험을 & 합니다.
+
+일부 조직에서는 IT 지원 및 준수 관리 그룹 간에 의무를 분리할 수 있습니다. Office 365에서는 감독 된 통신 정책 기능 구성 및 정책 구성 간의 구분을 지원 합니다. 예를 들어 조직의 IT 그룹은 조직의 규정 준수 팀이 구성 하 고 관리 하는 감독 정책을 지원 하기 위해 역할 권한 및 그룹을 설정할 책임이 있을 수 있습니다.
+
+예정 된 감독 기능 개선 사항 및 가용성에 대 한 자세한 내용은 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap)참조 하세요.
 
 ## <a name="scenarios-for-supervision-policies"></a>감독 정책에 대 한 시나리오
 
@@ -86,9 +93,9 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 
 기본적으로 **방향은** 조건 이며 제거할 수 없습니다. 정책의 통신 방향 설정은 개별적으로 또는 함께 선택 합니다.
 
-- **inbound**-이 정책에 포함 되지 않은 사람 **으로부터** 감독할 위해 선택한 사람 **에** 게 보낸 통신을 검토 하도록 **인바운드** 를 선택할 수 있습니다.
-- **아웃 바운드** -선택한 사용자가 정책에 포함 되지 않은 사람 **에** 게 보낸 통신을 검토 하려는 경우 **** **아웃 바운드 (outbound** )를 선택할 수 있습니다.
-- **내부** -정책에서 식별 한 사용자 **간에** 보낸 통신을 검토 하려면 **내부** 를 선택할 수 있습니다.
+- **인바운드**: 정책에 포함 되지 않은 사람 **으로부터** 감독할 위해 선택한 사람 **에** 게 보낸 통신을 검토 하도록 **인바운드** 를 선택할 수 있습니다.
+- **outbound**: 선택한 사용자가 정책에 포함 되지 않은 사람 **에** 게 **** 보낸 통신을 검토 하려는 경우 **아웃 바운드 (outbound** )를 선택할 수 있습니다.
+- **내부**: 정책에서 식별 한 사용자 **간에** 보낸 통신을 검토 하려면 **내부** 를 선택할 수 있습니다.
 
 #### <a name="sensitive-information-types"></a>중요한 정보 유형
 
@@ -103,7 +110,28 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 
 #### <a name="custom-keyword-dictionaries"></a>사용자 지정 키워드 사전
 
-사용자 지정 키워드 사전 (또는 lexicons)을 구성 하면 조직 또는 업계와 관련 된 키워드를 간단 하 게 관리할 수 있으며 사전 당 최대 10만 개의 용어를 지원할 수 있습니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
+사용자 지정 키워드 사전 (또는 lexicons)을 구성 하 여 조직 또는 업계와 관련 된 키워드에 대 한 간단한 관리를 제공 합니다. 키워드 사전은 사전 당 최대 10만 개의 용어를 지원 합니다. 필요한 경우 단일 정책에 여러 사용자 지정 키워드 사전을 적용 하거나 정책 당 하나의 키워드 사전을 사용할 수 있습니다. 이러한 사전은 감독 정책에 할당 되며, 파일 (예: .csv 또는 .txt 목록) 또는 [준수 센터에서 가져올](create-a-keyword-dictionary.md)수 있는 목록에서 원본으로 사용할 수 있습니다.
+
+#### <a name="offensive-language"></a>비속어
+
+비속어를 위해 조직의 전자 메일 메시지를 보내거나 받게 됩니다. 모델에서는 기계 학습, 인공 지능 및 키워드를 함께 사용 하 여 harassment 및 사이버 문서 모니터링 요구 사항의 일부로 적합 하지 않은 전자 메일 메시지를 식별 합니다. 조직에 대 한 통신에서 원하지 않는 언어를 방지 하거나 차단 하려면 공격적인 용어의 [사용자 지정 키워드 사전을](create-a-keyword-dictionary.md) 사용 하는 [데이터 손실 방지 정책을](create-test-tune-dlp-policy.md) 만듭니다.
+
+공격적인 언어 모델은 현재 영어 키워드를 지원 하 고 전자 메일 메시지의 본문을 모니터링 합니다. 공격적인 언어 모델은 다음 유형의 언어와 연결 된 sentiment의 전자 메일을 모니터링 합니다.
+
+|**종류**|**설명**|
+|:-----|:-----|
+| **Profanities** | 적합 하지 않으며 대부분의 사용자가 embarrass 식입니다. |
+| **Slurs** | 문화권 및 ethnicities을 공격 하는 식입니다. |
+| **Taunts** | taunt, condemn 및 ridicule 식입니다. |
+| **handicaps에 대 한 참조** | 실제 또는 mental handicaps를 대상으로 하는 식입니다. |
+| **Squalid 언어** | cleanliness의 실제 상태와 성적 관심사를 대상으로 하는 식입니다. |
+| **Homophobia** | 성적 기본 설정을 지정 하는 식입니다. |
+| **Racism** | 레이스 및 ethnicity를 대상으로 하는 식입니다. |
+| **Extremism** | religion 및 정치 ideologies를 대상으로 하는 식입니다. |
+| **용** | 의미 또는 발음을 더 공격적인 다른 용어와 동일 하 게 나타내는 식입니다. |
+| **Provocative 언어** | 잠재적으로 anger 나 폭력을 유발할 수 있는 식입니다. |
+| **taboo** | 일반적으로 예의 지키고 \ etal communications에 적합 하지 않은 식입니다. |
+| **구체화 되지 않은 언어** | 예의 지키고 manners 부족 하 고 잠재적이 고 적합 한 식입니다. |
 
 #### <a name="conditional-settings"></a>조건부 설정
 
@@ -113,14 +141,14 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
   
 |**조건**|**이 조건을 사용 하는 방법**|
 |:-----|:-----|
-| 다음 도메인에서 메시지를 받음  <br><br> 다음 도메인에서 메시지를 받지 않음 | 받은 메시지에 특정 도메인을 포함 하거나 제외할 때 정책을 적용 하려면 각 도메인을 입력 하 고 여러 도메인을 쉼표로 구분 합니다. 입력 하는 각 도메인은 개별적으로 적용 됩니다 (이러한 도메인 중 하나만 메시지에 적용할 정책에 적용 해야 함). |
-| 다음 도메인으로 메시지 전송  <br><br> 다음 도메인으로 메시지가 전송 되지 않음 | 보낸 메시지에 특정 도메인을 포함 하거나 제외할 때 정책을 적용 하려면 각 도메인을 입력 하 고 여러 도메인을 쉼표로 구분 합니다. 입력 하는 각 도메인은 별도로 적용 됩니다 (이러한 도메인 중 하나만 메시지에 적용할 정책에 적용 해야 함). |
-| 메시지가 다음 레이블로 분류 됨  <br><br> 메시지가 다음 레이블로 분류 되지 않음 | 특정 보존 레이블이 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려는 경우 보존 레이블을 개별적으로 구성 하 고 구성 된 레이블을이 조건의 일부로 선택 해야 합니다. 선택한 각 레이블은 따로 적용 됩니다 (메시지에 적용할 정책에는 이러한 레이블 중 하나만 적용 해야 함). 보존 레이블 구성에 대 한 자세한 내용은 [Overview (보존 레이블](https://docs.microsoft.com/office365/securitycompliance/labels))를 참조 하십시오.|
-| 메시지에 다음 단어 포함  <br><br> 메시지에 다음 단어 포함 안 함 | 특정 단어나 구가 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려면 각 단어나 구를 별도의 줄에 입력 합니다. 입력 하는 각 단어 줄이 따로 적용 됩니다 (메시지에 적용할 정책에 대해 이러한 줄 중 하나만 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
-| 첨부 파일에 다음 단어 포함  <br><br> 첨부 파일에 다음 단어 포함 안 함 | 특정 단어나 구가 메시지 첨부 파일에 포함 되거나 제외 되는 경우 (예: word 문서) 정책을 적용 하려면 각 단어나 구를 별도의 줄에 입력 합니다. 입력 하는 각 단어 줄이 따로 적용 됩니다 (첨부 파일에 적용할 정책에는 한 줄만 적용 되어야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
-| 첨부 파일이 다음 파일 형식 중 하나입니다.  <br><br> 첨부 파일이 다음 파일 형식에 없음 | 특정 유형의 첨부 파일을 포함 하거나 제외 하는 통신을 감독할 파일 확장명 (예: .exe 또는 .pdf)을 입력 합니다. 여러 파일 확장명을 포함 하거나 제외 하려면 별도의 줄에 다음을 입력 합니다. 정책을 적용 하려면 하나의 첨부 파일 확장명만 일치 해야 합니다.|
-| 메시지 크기가 다음 보다 큼  <br><br> 메시지 크기가 다음 보다 크지 않음 | 특정 크기에 따라 메시지를 검토 하려면 다음 조건을 사용 하 여 메시지를 검토 하기 전 까지의 최대 또는 최소 크기를 지정 합니다. 예를 들어 **메시지 크기** \> 를 지정 하는 경우 **1.0**보다 크면 1.01 mb 이상인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
-| 첨부 파일이 다음 보다 큼  <br><br> 첨부 파일이 다음 보다 크지 않음 | 첨부 파일의 크기에 따라 메시지를 검토 하려면 첨부 파일의 최대 또는 최소 크기를 해당 메시지와 해당 첨부 파일을 검토할 수 있을 때까지 지정 합니다. 예를 들어 **첨부 파일** \> 을 지정 하는 경우 **2.0**보다 큰 경우 첨부 파일이 2.01 mb이 하 인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
+| **다음 도메인에서 메시지를 받음**  <br><br> **다음 도메인에서 메시지를 받지 않음** | 받은 메시지에 특정 도메인을 포함 하거나 제외할 때 정책을 적용 하려면 각 도메인을 입력 하 고 여러 도메인을 쉼표로 구분 합니다. 입력 하는 각 도메인은 개별적으로 적용 됩니다 (이러한 도메인 중 하나만 메시지에 적용할 정책에 적용 해야 함). |
+| **다음 도메인으로 메시지 전송**  <br><br> **다음 도메인으로 메시지가 전송 되지 않음** | 보낸 메시지에 특정 도메인을 포함 하거나 제외할 때 정책을 적용 하려면 각 도메인을 입력 하 고 여러 도메인을 쉼표로 구분 합니다. 입력 하는 각 도메인은 별도로 적용 됩니다 (이러한 도메인 중 하나만 메시지에 적용할 정책에 적용 해야 함). |
+| **메시지가 다음 레이블로 분류 됨**  <br><br> **메시지가 다음 레이블로 분류 되지 않음** | 특정 보존 레이블이 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려는 경우 보존 레이블을 개별적으로 구성 하 고 구성 된 레이블을이 조건의 일부로 선택 해야 합니다. 선택한 각 레이블은 따로 적용 됩니다 (메시지에 적용할 정책에는 이러한 레이블 중 하나만 적용 해야 함). 보존 레이블 구성에 대 한 자세한 내용은 [Overview (보존 레이블](https://docs.microsoft.com/office365/securitycompliance/labels))를 참조 하십시오.|
+| **메시지에 다음 단어 포함**  <br><br> **메시지에 다음 단어 포함 안 함** | 특정 단어나 구가 메시지에 포함 되거나 제외 되는 경우 정책을 적용 하려면 각 단어나 구를 별도의 줄에 입력 합니다. 입력 하는 각 단어 줄이 따로 적용 됩니다 (메시지에 적용할 정책에 대해 이러한 줄 중 하나만 적용 해야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
+| **첨부 파일에 다음 단어 포함**  <br><br> **첨부 파일에 다음 단어 포함 안 함** | 특정 단어나 구가 메시지 첨부 파일에 포함 되거나 제외 되는 경우 (예: word 문서) 정책을 적용 하려면 각 단어나 구를 별도의 줄에 입력 합니다. 입력 하는 각 단어 줄이 따로 적용 됩니다 (첨부 파일에 적용할 정책에는 한 줄만 적용 되어야 함). 단어 또는 구를 입력 하는 방법에 대 한 자세한 내용은 [전자 메일 또는 첨부 파일에 단어 및 구를 일치 시키는](supervision-policies.md#Matchwords)다음 섹션을 참조 하십시오.|
+| **첨부 파일이 다음 파일 형식 중 하나입니다.**  <br><br> **첨부 파일이 다음 파일 형식에 없음** | 특정 유형의 첨부 파일을 포함 하거나 제외 하는 통신을 감독할 파일 확장명 (예: .exe 또는 .pdf)을 입력 합니다. 여러 파일 확장명을 포함 하거나 제외 하려면 별도의 줄에 다음을 입력 합니다. 정책을 적용 하려면 하나의 첨부 파일 확장명만 일치 해야 합니다.|
+| **메시지 크기가 다음 보다 큼**  <br><br> **메시지 크기가 다음 보다 크지 않음** | 특정 크기에 따라 메시지를 검토 하려면 다음 조건을 사용 하 여 메시지를 검토 하기 전 까지의 최대 또는 최소 크기를 지정 합니다. 예를 들어 **메시지 크기** \> 를 지정 하는 경우 **1.0**보다 크면 1.01 mb 이상인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
+| **첨부 파일이 다음 보다 큼**  <br><br> **첨부 파일이 다음 보다 크지 않음** | 첨부 파일의 크기에 따라 메시지를 검토 하려면 첨부 파일의 최대 또는 최소 크기를 해당 메시지와 해당 첨부 파일을 검토할 수 있을 때까지 지정 합니다. 예를 들어 **첨부 파일** \> 을 지정 하는 경우 **2.0**보다 큰 경우 첨부 파일이 2.01 mb이 하 인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
    
 ##### <a name="matching-words-and-phrases-to-emails-or-attachments"></a>단어 및 구를 전자 메일 또는 첨부 파일에 일치
 <a name="Matchwords"></a> 입력 하는 각 단어 줄이 따로 적용 됩니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에는 한 줄만 적용 되어야 함). 예를 들어 "banker" 및 "내부 사업" 이라는 키워드를 사용 하 여 **메시지에 다음 단어를 포함**하는 경우를 예로 들어 보겠습니다. 이 정책은 "banker" 또는 "insider 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
@@ -231,14 +259,14 @@ Outlook에서는 검토자가 다음 작업을 수행할 수 있습니다.
   
 |**태그 유형**|**의미**|
 |:-----|:-----|
-| 검토 되지 않음 | 아직 검토 하지 않은 전자 메일 수입니다. 이러한 전자 메일은 Office 365 감독 대시보드의 검토를 기다리고 있거나 outlook 또는 웹용 outlook에 있는 검토자의 감독 폴더에 있습니다.
-| 호환이 | 검토 중 및 준수로 표시 된 전자 메일 수입니다. 이러한 메시지는 계속 해 서 해결 해야 합니다. |
-| 일관 | 검토 중 이며 불확실 한 것으로 표시 된 전자 메일 수입니다. 이는 전자 메일 준수에 대 한 조사가 필요한 지 여부를 확인 하는 데 도움이 되는 다른 검토자의 플래그 역할을 합니다. 이러한 메시지는 계속 해 서 해결 해야 합니다. |
-| 비호환 (활성) | 검토자가 현재 조사 중인 비호환 전자 메일의 수입니다. |
-| 비호환 (해결 됨) | 검토자가 조사 하 여 해결 한 비호환 전자 메일의 수입니다. |
-| 방문 정책 | Exchange, 팀 및 타사 데이터 원본에서 감독 정책에 정의 된 하나 이상의 조건과 일치 하는 총 메시지 수 (일별) |
-| Purview에서 | 감독 정책으로 검색 된 Exchange, 팀 및 타사 데이터 원본에서 보낸 총 메시지 수 (일별) |
-| 주소로 | **해결** 된 것으로 분류 된 Exchange, 팀 및 타사 데이터 원본의 총 메시지 수입니다.|
+| **검토 되지 않음** | 아직 검토 하지 않은 전자 메일 수입니다. 이러한 전자 메일은 Office 365 감독 대시보드의 검토를 기다리고 있거나 outlook 또는 웹용 outlook에 있는 검토자의 감독 폴더에 있습니다.
+| **호환이** | 검토 중 및 준수로 표시 된 전자 메일 수입니다. 이러한 메시지는 계속 해 서 해결 해야 합니다. |
+| **일관** | 검토 중 이며 불확실 한 것으로 표시 된 전자 메일 수입니다. 이는 전자 메일 준수에 대 한 조사가 필요한 지 여부를 확인 하는 데 도움이 되는 다른 검토자의 플래그 역할을 합니다. 이러한 메시지는 계속 해 서 해결 해야 합니다. |
+| **비호환 (활성)** | 검토자가 현재 조사 중인 비호환 전자 메일의 수입니다. |
+| **비호환 (해결 됨)** | 검토자가 조사 하 여 해결 한 비호환 전자 메일의 수입니다. |
+| **방문 정책** | Exchange, 팀 및 타사 데이터 원본에서 감독 정책에 정의 된 하나 이상의 조건과 일치 하는 총 메시지 수 (일별) |
+| **Purview에서** | 감독 정책으로 검색 된 Exchange, 팀 및 타사 데이터 원본에서 보낸 총 메시지 수 (일별) |
+| **주소로** | **해결** 된 것으로 분류 된 Exchange, 팀 및 타사 데이터 원본의 총 메시지 수입니다.|
 
 > [!NOTE]
 > 이 보고서에 표시 되려면 먼저 감독 정책을 구축 해야 합니다. 또한 정책이 삭제 되 면 기록 데이터도 표시 됩니다. 그러나 "존재 하지 않는 정책"으로 표시 되며 **내보내기** 기능을 사용할 수 없습니다.
@@ -251,10 +279,10 @@ Outlook에서는 검토자가 다음 작업을 수행할 수 있습니다.
 
 |**작업**|**연결 된 명령**|
 |:-----|:-----|
-| 정책 만들기 | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
-| 정책 편집 | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
-| 정책 삭제| [remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
-| 정책 보기 | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewpolicyv2) |
+| **정책 만들기** | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
+| **정책 편집** | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
+| **정책 삭제** | [remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2) |
+| **정책 보기** | [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewpolicyv2) |
 
 통합 감사 로그 또는 [search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 확인 합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Exchange Online의 정보 권한 관리
+title: AD RMS를 사용 하는 Exchange Online 메일 암호화
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -11,19 +11,19 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
-description: 전자 메일을 통해 재무 데이터, 법적 계약, 기밀 제품 정보, 매출 보고서 및 매출 예상, 환자 건강 정보 또는 고객 및 직원 정보와 같은 중요한 정보를 교환하는 경우가 많습니다. 따라서 사서함이 잠재적으로 중요한 정보를 대량 포함하는 리포지토리가 될 뿐 아니라 정보 유출이 조직에 심각한 위협이 될 수 있습니다.
-ms.openlocfilehash: aef3acaba6b0efe4550958ce1d98add371069648
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 필요한 경우 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성할 수 있습니다. 이는 일반적인 것이 아닙니다. AD RMS를 사용 해야 하는 요구 사항이 없는 경우에는 Office 메시지 암호화를 대신 사용 합니다.
+ms.openlocfilehash: 423c6008a55539123b76225458a39c4f98e7725d
+ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253986"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470388"
 ---
-# <a name="information-rights-management-in-exchange-online"></a>Exchange Online의 정보 권한 관리
+# <a name="exchange-online-mail-encryption-with-ad-rms"></a>AD RMS를 사용 하는 Exchange Online 메일 암호화
 
-전자 메일을 통해 재무 데이터, 법적 계약, 기밀 제품 정보, 매출 보고서 및 매출 예상, 환자 건강 정보 또는 고객 및 직원 정보와 같은 중요한 정보를 교환하는 경우가 많습니다. 따라서 사서함이 잠재적으로 중요한 정보를 대량 포함하는 리포지토리가 될 뿐 아니라 정보 유출이 조직에 심각한 위협이 될 수 있습니다.
-  
-Exchange Online에는 정보 유출을 방지하기 위해 전자 메일 메시지와 첨부 파일을 온라인과 오프라인에서 보호하는 IRM(정보 권한 관리) 기능이 포함되어 있습니다. IRM 보호는 Microsoft outlook 또는 웹용 outlook 사용자가 적용할 수 있으며, 전송 보호 규칙 또는 outlook 보호 규칙을 사용 하 여 관리자가 적용할 수 있습니다. IRM을 통해 고객과 고객의 사용자는 전자 메일 내의 중요한 데이터를 액세스, 전달, 인쇄 또는 복사할 수 있는 사람을 제어할 수 있습니다.
+Exchange Online에는 정보 유출을 방지하기 위해 전자 메일 메시지와 첨부 파일을 온라인과 오프라인에서 보호하는 IRM(정보 권한 관리) 기능이 포함되어 있습니다. 필요한 경우 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성할 수 있습니다. 이는 일반적인 것이 아닙니다. AD RMS를 사용 해야 하는 요구 사항이 없는 경우에는 [Office 메시지 암호화](ome.md) 를 대신 사용 합니다. 
+
+IRM 보호는 Microsoft outlook 또는 웹용 outlook 사용자가 적용할 수 있으며, 전송 보호 규칙 또는 outlook 보호 규칙을 사용 하 여 관리자가 적용할 수 있습니다. IRM을 통해 고객과 고객의 사용자는 전자 메일 내의 중요한 데이터를 액세스, 전달, 인쇄 또는 복사할 수 있는 사람을 제어할 수 있습니다.
   
 ## <a name="changes-to-how-irm-works-with-office-365-message-encryption-ome-and-azure-active-directory"></a>IRM이 Office 365 메시지 암호화 (OME) 및 Azure Active Directory에서 작동 하는 방식에 대 한 변경 사항
 
