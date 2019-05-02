@@ -15,19 +15,19 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다. 그런 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 보고 관리할 수 있습니다.
-ms.openlocfilehash: e88c3657a03b3cb0ca27b9ae7489e37e986e8199
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7d7ef6f1f9737a0da3787b093d499a0833885eff
+ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243095"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33516506"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
 Office 365 및 Microsoft 365 보안 및 준수 센터의 새 경고 정책 및 알림 대시보드 도구를 사용 하 여 경고 정책을 만든 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 볼 수 있습니다. . 경고 정책은 알림 정책을 분류 하 고, 조직의 모든 사용자에 게 정책을 적용 하 고, 경고가 트리거되는 경우 임계값 수준을 설정 하 고, 전자 메일을 받을지 여부를 결정 하 여 활동 알림 기능을 만들고 확장 합니다. 보내도록. 보안 및 준수 센터에는 경고를 보고 필터링 하 고 알림을 관리 하는 데 도움이 되도록 경고 상태를 설정 하 고 기본 인시던트를 해결 하거나 해결 한 후 알림을 해제할 수 있는 **알림 보기** 페이지도 있습니다. 또한 알림을 만들 수 있는 이벤트 유형이 확장 되었습니다. 예를 들어, 맬웨어 활동 및 데이터 손실 인시던트를 추적 하기 위한 경고 정책을 만들 수 있습니다. 마지막으로 Exchange Online, 맬웨어 공격 및 비정상적으로 파일 삭제 및 외부 공유에 대 한 관리자 권한 할당을 모니터링 하는 데 도움이 되는 몇 가지 기본 알림 정책도 포함 되어 있습니다. 
   
 > [!NOTE]
-> 경고 정책은 office 365 Enterprise 또는 office 365 US 정부 E1/G1, E3/G3 또는 E5/G5 구독이 있는 조직에서 사용할 수 있습니다. 그러나 일부 고급 기능은 E5/G5 구독이 있는 조직이 나 E1/G1 또는 E3/G3 구독 및 office 365 advanced Threat Protection (ATP) P2 또는 office 365 고급 준수 추가 기능이 있는 조직에만 사용할 수 있습니다. 구독은. 이 항목에서는 E5/G5 또는 추가 기능 구독이 필요한 기능을 강조 표시 합니다. 또한 경고 정책은 Office 365 gcc, GCC High 및 DoD US 정부 환경에서 사용할 수 있습니다.
+> 경고 정책은 Office 365 Enterprise 또는 Office 365 US 정부 E1/G1, E3/G3 또는 E5/G5 구독이 있는 조직에서 사용할 수 있습니다. 그러나 일부 고급 기능은 E5/G5 구독이 있는 조직이 나 E1/G1 또는 E3/G3 구독 및 Office 365 Advanced Threat Protection (ATP) P2 또는 Office 365 고급 준수 추가 기능이 있는 조직에만 사용할 수 있습니다. 구독은. 이 항목에서는 E5/G5 또는 추가 기능 구독이 필요한 기능을 강조 표시 합니다. 또한 경고 정책은 Office 365 GCC, GCC High 및 DoD US 정부 환경에서 사용할 수 있습니다.
   
 ## <a name="how-alert-policies-work"></a>경고 정책이 작동 하는 방식
 
@@ -35,7 +35,7 @@ Office 365 및 Microsoft 365 보안 및 준수 센터의 새 경고 정책 및 �
   
 ![경고 정책이 작동 하는 방식에 대 한 개요](media/e02a622d-b429-448b-8107-dd1a4770b4e0.png)
   
-1. 조직의 관리자가 보안 및 준수 센터의 **경고 정책** 페이지를 사용 하 여 경고 정책을 만들고 구성 하 고 켭니다. PowerShell에서 **remove-protectionalert** cmdlet을 사용 하 여 경고 정책을 만들 수도 있습니다. 경고 정책을 만들려면 Security & 준수 센터에서 조직 구성 역할 또는 알림 관리 역할을 할당 받아야 합니다.
+1. 조직의 관리자가 보안 및 준수 센터의 **경고 정책** 페이지를 사용 하 여 경고 정책을 만들고 구성 하 고 켭니다. Security & 준수 센터 PowerShell에서 **remove-protectionalert** cmdlet을 사용 하 여 경고 정책을 만들 수도 있습니다. 경고 정책을 만들려면 보안 및 준수 센터에서 알림 관리 역할 또는 조직 구성 역할을 할당 받아야 합니다.  
     
 2. 사용자가 경고 정책의 조건과 일치 하는 작업을 수행 합니다. 악성 프로그램 공격의 경우 조직의 사용자에 게 전송 되는 감염 된 전자 메일 메시지는 경고를 트리거합니다.
     
@@ -58,7 +58,7 @@ Office 365 및 Microsoft 365 보안 및 준수 센터의 새 경고 정책 및 �
     > [!NOTE]
     > 추적할 수 있는 작업은 조직의 Office 365 Enterprise 또는 Office 365 US 정부 계획에 따라 달라 집니다. 일반적으로 맬웨어 캠페인과 피싱 공격과 관련 된 활동에는 위협 인텔리전스 추가 기능 구독을 포함 하는 E5/G5 구독 또는 E1/G1 또는 E3/G3 구독이 필요 합니다. 
   
-- **활동 조건** -대부분의 활동의 경우 경고가 트리거되기 위해 충족 되어야 하는 추가 조건을 정의할 수 있습니다. 일반적인 조건에는 ip 주소 (사용자가 특정 ip 주소 또는 IP 주소 범위 내의 컴퓨터에서 활동을 수행할 때 경고가 트리거되기), 특정 사용자 또는 사용자가 해당 활동을 수행 하는 경우 경고가 트리거되는지 여부 및 활동은 특정 파일 이름 또는 URL에서 수행 됩니다. 조직의 모든 사용자가 활동을 수행할 때 경고를 트리거하는 조건도 구성할 수 있습니다. 사용 가능한 조건은 선택한 활동에 따라 달라 집니다.
+- **활동 조건** -대부분의 활동의 경우 경고가 트리거되기 위해 충족 되어야 하는 추가 조건을 정의할 수 있습니다. 일반적인 조건에는 IP 주소 (사용자가 특정 IP 주소 또는 IP 주소 범위 내의 컴퓨터에서 활동을 수행할 때 경고가 트리거되기), 특정 사용자 또는 사용자가 해당 활동을 수행 하는 경우 경고가 트리거되는지 여부 및 활동은 특정 파일 이름 또는 URL에서 수행 됩니다. 조직의 모든 사용자가 활동을 수행할 때 경고를 트리거하는 조건도 구성할 수 있습니다. 사용 가능한 조건은 선택한 활동에 따라 달라 집니다.
     
 - **경고가 트리거될 때** -경고가 트리거되기 전에 활동이 발생할 수 있는 빈도를 정의 하는 설정을 구성할 수 있습니다. 이렇게 하면 활동이 정책 조건과 일치 하거나, 특정 임계값을 초과 하거나, 경고가 추적 되는 작업의 발생이 조직에서 비정상적으로 발생할 때마다 알림을 생성 하는 정책을 설정할 수 있습니다. 
     
@@ -98,17 +98,17 @@ Office 365에서는 Exchange 관리 권한 남용, 맬웨어 작업 및 데이�
   
 다음 표에는 사용 가능한 기본 경고 정책 및 각 정책에 할당 된 범주에 대 한 설명이 나와 있습니다. 이 범주는 알림 보기 페이지에서 사용자가 볼 수 있는 알림을 결정 하는 데 사용 됩니다. 자세한 내용은 [경고를 보는 데 필요한 RBAC 사용 권한](#rbac-permissions-required-to-view-alerts) 섹션을 참조 하세요.  
 
-또한이 표에는 office 365 Enterprise 및 office 365 US 정부 요금제가 나와 있습니다. 조직에 E1/G1 또는 E3/G3 구독 외에 적절 한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다. 
+또한이 표에는 Office 365 Enterprise 및 Office 365 US 정부 요금제가 나와 있습니다. 조직에 E1/G1 또는 E3/G3 구독 외에 적절 한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다. 
   
-|**기본 경고 정책**|**설명**|**종류**|**Office 365 Enterprise 구독**|
+|**기본 경고 정책**|**설명**|**범주**|**Office 365 Enterprise 구독**|
 |:-----|:-----|:-----|:-----|
-|**잠재적으로 악의적인 URL 클릭이 검색 되었습니다.** <br/> |조직의 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 에서 보호 되는 사용자가 악의적인 링크를 클릭 하면 경고를 생성 합니다. 이 이벤트는 URL 결과 변경 내용이 office 365 atp에서 식별 되거나 사용자가 조직의 office 365 atp 안전한 링크 페이지를 다시 정의할 때 발생 합니다. 이 경고 정책의 심각도는 **높은** 설정입니다. office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.  이 경고를 트리거하는 이벤트에 대 한 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오.  <br/> |위협 관리 <br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
-|**전달/리디렉션 규칙 만들기** <br/> |조직의 누군가가 사서함에 대해 다른 전자 메일 계정으로 메시지를 전달 하거나 리디렉션하는 받은 편지함 규칙을 만들 때 경고를 생성 합니다. 이 정책은 웹에서 outlook (이전의 outlook web App) 또는 Exchange Online PowerShell을 사용 하 여 만든 받은 편지함 규칙만 추적 합니다. 이 정책의 심각도 설정은 **낮습니다** . 받은 편지함 규칙을 사용 하 여 웹에서 outlook의 전자 메일을 전달 및 리디렉션하는 방법에 대 한 자세한 내용은 [웹에서 outlook의 규칙을 사용 하 여 다른 계정으로 메시지를 자동으로 전달](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)를 참조 하세요.  <br/> |위협 관리 <br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
-|**eDiscovery 검색을 시작 하거나 내보냈습니다.** <br/> |다른 사용자가 ssecurity and 준수 센터에서 콘텐츠 검색 도구를 사용할 때 경고를 생성 합니다. 다음 콘텐츠 검색 활동이 수행 되 면 경고가 트리거됩니다. <br/><br/>• 콘텐츠 검색 시작<br/>• 콘텐츠 검색 결과를 내보냅니다.<br/>• 콘텐츠 검색 보고서 내보내기<br/><br/>경고는 이전 콘텐츠 검색 활동이 eDiscovery 사례와 연결 하 여 수행 되는 경우에도 잘못 된. 이 정책에는 **보통** 심각도 설정이 있습니다. 콘텐츠 검색 활동에 대 한 자세한 내용은 [Office 365 감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)을 참조 하십시오. <br/> |위협 관리<br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
+|**잠재적으로 악의적인 URL 클릭이 검색 되었습니다.** <br/> |조직의 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 에서 보호 되는 사용자가 악의적인 링크를 클릭 하면 경고를 생성 합니다. 이 이벤트는 URL 결과 변경 내용이 office 365 atp에서 식별 되거나 사용자가 조직의 office 365 atp 안전한 링크 페이지를 다시 365 정의할 때 발생 합니다. 이 경고 정책의 심각도는 **높은** 설정입니다. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.  이 경고를 트리거하는 이벤트에 대 한 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오.  <br/> |위협 관리 <br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
+|**전달/리디렉션 규칙 만들기** <br/> |조직의 누군가가 사서함에 대해 다른 전자 메일 계정으로 메시지를 전달 하거나 리디렉션하는 받은 편지함 규칙을 만들 때 경고를 생성 합니다. 이 정책은 웹에서 Outlook (이전의 Outlook Web App) 또는 Exchange Online PowerShell을 사용 하 여 만든 받은 편지함 규칙만 추적 합니다. 이 정책의 심각도 설정은 **낮습니다** . 받은 편지함 규칙을 사용 하 여 웹에서 Outlook의 전자 메일을 전달 및 리디렉션하는 방법에 대 한 자세한 내용은 [웹에서 outlook의 규칙을 사용 하 여 다른 계정으로 메시지를 자동으로 전달](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)를 참조 하세요.  <br/> |위협 관리 <br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
+|**eDiscovery 검색을 시작 하거나 내보냈습니다.** <br/> |다른 사용자가 Ssecurity and 준수 센터에서 콘텐츠 검색 도구를 사용할 때 경고를 생성 합니다. 다음 콘텐츠 검색 활동이 수행 되 면 경고가 트리거됩니다. <br/><br/>• 콘텐츠 검색 시작<br/>• 콘텐츠 검색 결과를 내보냅니다.<br/>• 콘텐츠 검색 보고서 내보내기<br/><br/>경고는 이전 콘텐츠 검색 활동이 eDiscovery 사례와 연결 하 여 수행 되는 경우에도 잘못 된. 이 정책에는 **보통** 심각도 설정이 있습니다. 콘텐츠 검색 활동에 대 한 자세한 내용은 [Office 365 감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)을 참조 하십시오. <br/> |위협 관리<br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
 |**Exchange 관리 권한 상승** <br/> |사용자가 Exchange Online 조직에서 관리 권한을 할당 했을 때 경고를 생성 합니다. 예를 들어 Exchange Online의 조직 관리 역할 그룹에 사용자를 추가 하는 경우를 예로 들 수 있습니다. 이 정책의 심각도 설정은 **낮습니다** .  <br/> |사용 권한 <br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
 |**배달 후 제거 된 맬웨어를 포함 하는 전자 메일 메시지** <br/> |맬웨어를 포함 하는 메시지가 조직의 사서함에 배달 될 때 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책은 **정보** 심각도를 설정 하며 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.<br/> |위협 관리 <br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
-|**배달 후 제거 된 피싱 url을 포함 하는 전자 메일 메시지** <br/> |피싱가 포함 된 메시지가 조직의 사서함에 배달 되는 경우 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책은 **정보** 심각도를 설정 하며 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.<br/> |위협 관리 <br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
-|**사용자가 맬웨어 또는 피싱 보고 한 전자 메일** <br/> |조직의 사용자가 보고서 메시지 추가 기능을 사용 하 여 메시지를 피싱 메일로 보고할 때 경고를 생성 합니다. 이 정책에는 **정보** 심각도 설정이 있습니다. 이 추가 기능에 대 한 자세한 내용은 [사용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오. office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.  <br/> |위협 관리 <br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
+|**배달 후 제거 된 피싱 Url을 포함 하는 전자 메일 메시지** <br/> |피싱가 포함 된 메시지가 조직의 사서함에 배달 되는 경우 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책은 **정보** 심각도를 설정 하며 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.<br/> |위협 관리 <br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
+|**사용자가 맬웨어 또는 피싱 보고 한 전자 메일** <br/> |조직의 사용자가 보고서 메시지 추가 기능을 사용 하 여 메시지를 피싱 메일로 보고할 때 경고를 생성 합니다. 이 정책에는 **정보** 심각도 설정이 있습니다. 이 추가 기능에 대 한 자세한 내용은 [사용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.  <br/> |위협 관리 <br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
 |**메시지가 지연 되었습니다.** <br/> |Office 365에서 커넥터를 사용 하 여 온-프레미스 조직 또는 파트너 서버로 전자 메일 메시지를 배달할 수 없는 경우 경고를 생성 합니다. 이 경우 해당 메시지는 Office 365에서 큐에 대기 됩니다. 이 경고는 1 시간 이상 대기 된 메시지 수가 2000 개 이상 있을 때 트리거됩니다. 이 정책에는 **높은** 심각도 설정이 있습니다.  <br/> |메일 흐름<br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
 |**배달 후 발견 된 맬웨어 캠페인** <br/> |맬웨어를 포함 하는 비정상적으로 많은 메시지가 조직의 사서함으로 배달 될 때 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다.  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
 |**검색 및 차단 된 맬웨어 캠페인** <br/> |사용자가 조직의 사용자에 게 특정 유형의 맬웨어를 포함 하는 비정상적으로 많은 전자 메일 메시지를 보내려고 했을 때 경고를 생성 합니다. 이 이벤트가 발생 하면 감염 된 메시지는 Office 365에서 차단 되며 사서함으로 배달 되지 않습니다. 이 정책의 심각도 설정은 **낮습니다** .  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
@@ -117,14 +117,14 @@ Office 365에서는 Exchange 관리 권한 남용, 맬웨어 작업 및 데이�
 |**외부 파일 공유의 비정상적인 볼륨** <br/> |SharePoint 또는 OneDrive에서 비정상적으로 많은 파일이 조직 외부의 사용자와 공유 될 때 경고를 생성 합니다. 이 정책에는 **보통** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스<br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
 |**비정상적인 파일 삭제 량** <br/> |너무 많은 수의 파일이 SharePoint 또는 짧은 시간 내에 OneDrive에서 삭제 되는 경우 경고를 생성 합니다. 이 정책에는 **보통** 심각도 설정이 있습니다.  <br/> |데이터 거버넌스 <br/> |E5/G5, Office 365 ATP P2 또는 고급 준수 추가 기능 구독  <br/> |
 |**피싱으로 보고 된 전자 메일의 비정상적 증가** <br/> |메시지를 피싱 메일로 보고 하기 위해 Outlook의 보고서 메시지 추가 기능을 사용 하 여 조직에 있는 사용자 수가 대폭 증가할 때 경고를 생성 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다. 이 추가 기능에 대 한 자세한 내용은 [사용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.  <br/> |위협 관리<br/> |E5/G5 또는 Office 365 ATP P2 추가 기능 구독  <br/> |
-|**사용자가 전자 메일을 보내지 못하도록 제한 됨** <br/> |조직의 누군가가 아웃 바운드 메일을 보낼 수 없는 경우 경고를 생성 합니다. 이는 일반적으로 계정이 손상 되 고 사용자가 보안 & 준수 센터의 **제한 된 사용자** 페이지에 표시 될 때 발생 합니다. (이 페이지에 액세스 하려면 **Threat management > Review > 제한 된 사용자**)로 이동 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다. 제한 된 사용자에 대 한 자세한 내용은 [스팸 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소 제거](https://docs.microsoft.com/office365/securitycompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email)를 참조 하세요.  <br/> |위협 관리<br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
+|**사용자가 전자 메일을 보내지 못하도록 제한 됨** <br/> |조직의 누군가가 아웃 바운드 메일을 보낼 수 없는 경우 경고를 생성 합니다. 이는 일반적으로 계정이 손상 되 고 사용자가 보안 & 준수 센터의 **제한 된 사용자** 페이지에 표시 될 때 발생 합니다. (이 페이지에 액세스 하려면 **Threat Management _GT_ Review _GT_ 제한 된 사용자**)로 이동 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다. 제한 된 사용자에 대 한 자세한 내용은 [스팸 메일을 보낸 후 차단 목록에서 사용자, 도메인 또는 IP 주소 제거](https://docs.microsoft.com/office365/securitycompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email)를 참조 하세요.  <br/> |위협 관리<br/> |E1/G1, E3/G3 또는 E5/G5  <br/> |
 |||||
    
 기본 제공 정책 중 일부에 의해 모니터링 되는 비정상적 작업은 이전에 설명한 경고 임계값 설정과 동일한 프로세스를 기반으로 합니다. Office 365은 "일반적인" 활동에 대 한 일반 빈도를 정의 하는 초기 계획 값을 설정 합니다. 이렇게 하면 기본 제공 경고 정책에서 추적 하는 활동의 빈도가 해당 초기 계획 값 보다 큰 경우 경고가 트리거됩니다.
  
 ## <a name="viewing-alerts"></a>알림 보기
 
-조직의 사용자가 수행 하는 작업이 경고 정책의 설정과 일치 하면 경고 정책의 설정에 따라 보안 및 준수 센터의 경고 **보기** 페이지에 경고가 생성 되 고 표시 됩니다. 전자 메일 알림이 트리거될 때 지정 된 사용자의 목록으로 알림도 전송 됩니다. 각 경고에 대해 **경고 표시** 페이지의 대시보드에는 해당 경고 정책 이름, 경고 정책에 정의 된 알림의 심각도 및 범주, 활동이 발생 하 여 경고를 일으킨 횟수 등이 표시 됩니다. 생성할 이 값은 경고 정책의 임계값 설정을 기반으로 합니다. 또한이 대시보드에는 각 경고의 상태도 표시 됩니다. status 속성을 사용 하 여 경고를 관리 하는 방법에 대 한 자세한 내용은 [경고 관리](#managing-alerts) 섹션을 참조 하십시오. 
+조직의 사용자가 수행 하는 작업이 경고 정책의 설정과 일치 하면 경고 정책의 설정에 따라 보안 및 준수 센터의 경고 **보기** 페이지에 경고가 생성 되 고 표시 됩니다. 전자 메일 알림이 트리거될 때 지정 된 사용자의 목록으로 알림도 전송 됩니다. 각 경고에 대해 **경고 표시** 페이지의 대시보드에는 해당 경고 정책 이름, 경고 정책에 정의 된 알림의 심각도 및 범주, 활동이 발생 하 여 경고를 일으킨 횟수 등이 표시 됩니다. 생성할 이 값은 경고 정책의 임계값 설정을 기반으로 합니다. 또한이 대시보드에는 각 경고의 상태도 표시 됩니다. Status 속성을 사용 하 여 경고를 관리 하는 방법에 대 한 자세한 내용은 [경고 관리](#managing-alerts) 섹션을 참조 하십시오. 
   
 경고를 보려면로 이동한 후 [https://protection.office.com](https://protection.office.com) 경고 **** \> **보기**를 클릭 합니다. 
   
@@ -142,12 +142,9 @@ Office 365에서는 Exchange 관리 권한 남용, 맬웨어 작업 및 데이�
     
 - **범주** -이 필터를 사용 하 여 하나 이상의 경고 범주에 해당 하는 알림을 표시 합니다.
 
-- **원본** -이 필터를 사용 하 여 보안 및 준수 센터에서 경고 정책이 트리거된 경고 또는 Office 365 Cloud App security 정책에서 트리거된 경고를 표시 합니다. Office 365 cloud app security 경고에 대 한 자세한 내용은 [cloud app security alerts 보기](#viewing-cloud-app-security-alerts) 섹션을 참조 하십시오.
+- **원본** -이 필터를 사용 하 여 보안 및 준수 센터에서 경고 정책이 트리거된 경고 또는 Office 365 Cloud App security 정책에서 트리거된 경고를 표시 합니다. Office 365 Cloud App Security 경고에 대 한 자세한 내용은 [Cloud App security Alerts 보기](#viewing-cloud-app-security-alerts) 섹션을 참조 하십시오.
 
 ## <a name="rbac-permissions-required-to-view-alerts"></a>경고를 확인 하는 데 필요한 RBAC 사용 권한
-
-> [!NOTE]
-> 이 섹션에서 설명 하는 기능은 2019 년 2 월 20 일에 시작 하는 조직에 롤아웃 되며, 3 월 2019 끝에는 전 세계적으로 완료 됩니다.
 
 조직의 사용자에 게 할당 된 RBAC (역할 기반 액세스 제어) 권한에 따라 사용자가 **알림 보기** 페이지에서 볼 수 있는 알림이 결정 됩니다. 어떻게이 작업을 수행 하나요? 사용자에 게 할당 된 관리 역할 (보안 & 준수 센터의 역할 그룹 구성원에 따라)은 **알림 보기** 페이지에서 사용자가 볼 수 있는 알림 범주를 결정 합니다. 그 예는 다음과 같습니다.
 
@@ -168,7 +165,7 @@ RBAC 사용 권한을 기반으로 하는이 디자인을 사용 하면 조직�
 |감사 로그 <br/> |         ||         |         |         |         |
 |사례 관리 <br/>|         |         |         |         |         |         |
 |준수 관리자<br/>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)| ![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|준수 검색<br/>|         |         |         |         |         |         |
+|규격 검색<br/>|         |         |         |         |         |         |
 |장치 관리<br/>|         |         |         |         |         |         |
 |처리 관리<br/>|         |         |         |         |         |         |
 |DLP 준수 관리<br/>|         |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|         |         |         |         |
@@ -222,7 +219,7 @@ $RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------
     
   - 경고에 의해 추적 된 작업이 수행 된 횟수입니다. 추가 경고가 트리거된 것일 수 있으므로이 값은 경고 보기 페이지에 나열 된 실제 관련 경고 수와 다를 수 있습니다.
     
-  - 경고를 트리거한 각 작업에 대 한 항목을 포함 하는 활동 목록에 대 한 링크입니다. 이 목록의 각 항목은 활동이 발생 한 시기, 실제 작업의 이름 (예: "filedeleted")과 활동을 수행한 사용자, 활동이 수행 된 개체 (예: 파일, eDiscovery 사례 또는 사서함)를 식별 하 고 IP 사용자 컴퓨터의 주소입니다. 맬웨어 관련 경고의 경우 메시지 목록에 연결 되는 링크입니다.
+  - 경고를 트리거한 각 작업에 대 한 항목을 포함 하는 활동 목록에 대 한 링크입니다. 이 목록의 각 항목은 활동이 발생 한 시기, 실제 작업의 이름 (예: "FileDeleted")과 활동을 수행한 사용자, 활동이 수행 된 개체 (예: 파일, eDiscovery 사례 또는 사서함)를 식별 하 고 IP 사용자 컴퓨터의 주소입니다. 맬웨어 관련 경고의 경우 메시지 목록에 연결 되는 링크입니다.
     
   - 해당 하는 경고 정책의 이름 (및 링크 대상)입니다.
     
@@ -232,17 +229,17 @@ $RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------
     
 ## <a name="viewing-cloud-app-security-alerts"></a>Cloud App Security 알림 보기
   
-Office 365 Cloud App security 정책이 트리거하는 경고는 이제 보안 및 준수 센터의 **경고 보기** 페이지에 표시 됩니다. 여기에는 Office 365 Cloud App Security의 변칙 검색 정책에 의해 트리거되는 작업 정책 및 알림에 의해 트리거되는 경고가 포함 됩니다. 즉, 보안 및 준수 센터의 모든 알림을 볼 수 있습니다. office 365 Cloud App Security는 office 365 Enterprise E5 또는 office 365 US 정부 G5 구독이 있는 조직 에서만 사용할 수 있습니다. 자세한 내용은 [Overview For Office 365 Cloud App Security](office-365-cas-overview.md)를 참조 하세요.
+Office 365 Cloud App Security 정책이 트리거하는 경고는 이제 보안 및 준수 센터의 **경고 보기** 페이지에 표시 됩니다. 여기에는 Office 365 Cloud App Security의 변칙 검색 정책에 의해 트리거되는 작업 정책 및 알림에 의해 트리거되는 경고가 포함 됩니다. 즉, 보안 및 준수 센터의 모든 알림을 볼 수 있습니다. Office 365 Cloud App Security는 Office 365 Enterprise E5 또는 Office 365 US 정부 G5 구독이 있는 조직 에서만 사용할 수 있습니다. 자세한 내용은 [Overview For Office 365 Cloud App Security](office-365-cas-overview.md)를 참조 하세요.
 
-또한 Enterprise Mobility + Security E5 구독 또는 독립 실행형 서비스로 Microsoft Cloud app security이 있는 조직은 보안 &의 Office 365 앱 및 서비스와 관련 된 Cloud app security alerts를 볼 수 있습니다. 준수 센터
+또한 Enterprise Mobility + Security E5 구독 또는 독립 실행형 서비스로 Microsoft Cloud App Security이 있는 조직은 보안 &의 Office 365 앱 및 서비스와 관련 된 Cloud App Security alerts를 볼 수 있습니다. 준수 센터
 
-보안 및 준수 센터에서 cloud app security 경고만 표시 하려면 **원본** 필터를 사용 하 고 **cloud app security**를 선택 합니다.
+보안 및 준수 센터에서 Cloud App Security 경고만 표시 하려면 **원본** 필터를 사용 하 고 **cloud app security**를 선택 합니다.
 
 ![원본 필터를 사용 하 여 Cloud App 보안 경고만 표시](media/FilterCASAlerts.png)
 
-보안 및 준수 센터 경고 정책에 따라 트리거되는 알림과 마찬가지로 Cloud App security alert을 클릭 하 여 경고에 대 한 세부 정보가 포함 된 플라이 아웃 페이지를 표시할 수 있습니다. 이 경고에는 클라우드 앱 보안 포털의 세부 정보를 확인 하 고 경고를 트리거한 해당 클라우드 앱 보안 정책에 대 한 링크를 보여 주는 링크가 포함 되어 있습니다. [Office 365 Cloud App Security에서 경고에 대 한 검토 및 작업 수행](review-office-365-cas-alerts.md)을 참조 하세요.
+보안 및 준수 센터 경고 정책에 따라 트리거되는 알림과 마찬가지로 Cloud App Security alert을 클릭 하 여 경고에 대 한 세부 정보가 포함 된 플라이 아웃 페이지를 표시할 수 있습니다. 이 경고에는 클라우드 앱 보안 포털의 세부 정보를 확인 하 고 경고를 트리거한 해당 클라우드 앱 보안 정책에 대 한 링크를 보여 주는 링크가 포함 되어 있습니다. [Office 365 Cloud App Security에서 경고에 대 한 검토 및 작업 수행](review-office-365-cas-alerts.md)을 참조 하세요.
 
 ![클라우드 앱 보안 포털에 대 한 링크를 포함 하는 알림 세부 정보](media/CASAlertDetail.png)
 
 > [!IMPORTANT]
-> 보안 및 준수 센터에서 cloud app security 알림의 상태를 변경 해도 cloud app security 포털에서 동일한 경고에 대 한 해결 상태가 업데이트 되지 않습니다. 예를 들어 보안 및 준수 센터에서 경고의 상태를 **확인** 한 것으로 표시 하는 경우 Cloud App security 포털의 알림 상태는 변경 되지 않습니다. cloud app security 알림을 해결 하거나 해제 하려면 cloud app security 포털에서 경고를 관리 하세요.
+> 보안 및 준수 센터에서 Cloud App Security 알림의 상태를 변경 해도 Cloud App Security 포털에서 동일한 경고에 대 한 해결 상태가 업데이트 되지 않습니다. 예를 들어 보안 및 준수 센터에서 경고의 상태를 **확인** 한 것으로 표시 하는 경우 Cloud App security 포털의 알림 상태는 변경 되지 않습니다. Cloud App Security 알림을 해결 하거나 해제 하려면 Cloud App Security 포털에서 경고를 관리 하세요.

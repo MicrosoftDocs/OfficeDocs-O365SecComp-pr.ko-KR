@@ -14,25 +14,25 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f6db3c178e584c45cf282158c58fb5125dc41f3f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: d54f5ffa5a2dd253a478a758ac0616025a79f118
+ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252654"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33516496"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
-오류 수정을 통해 eDiscovery 관리자는 데이터 문제를 수정 하 여 고급 eDiscovery (미리 보기)가 콘텐츠를 제대로 처리 하지 못하게 할 수 있습니다. 예를 들어 암호로 보호 된 파일은 파일을 잠그거나 암호화 한 후에 처리할 수 없습니다. eDiscovery 관리자는 오류 수정을 사용 하 여 해당 오류와 함께 파일을 다운로드 하 고, 암호 보호를 제거 하 고, 재구성 된 파일을 업로드할 수 있습니다.
+오류 수정을 통해 eDiscovery 관리자는 데이터 문제를 수정 하 여 고급 eDiscovery가 콘텐츠를 제대로 처리 하지 못하게 할 수 있습니다. 예를 들어 암호로 보호 된 파일은 파일을 잠그거나 암호화 한 후에 처리할 수 없습니다. EDiscovery 관리자는 오류 수정을 사용 하 여 해당 오류와 함께 파일을 다운로드 하 고, 암호 보호를 제거 하 고, 재구성 된 파일을 업로드할 수 있습니다.
 
-다음 워크플로를 사용 하 여 고급 eDiscovery (미리 보기) 사례에서 오류가 발생 한 파일을 수정 합니다.
+다음 워크플로를 사용 하 여 고급 eDiscovery 사례에서 오류가 발생 한 파일을 수정 합니다.
 
 ## <a name="creating-an-error-remediation-session-to-remediate-files-with-processing-errors"></a>처리 오류가 발생 한 파일을 수정 하기 위한 오류 업데이트 관리 세션 만들기
 
 >[!NOTE]
 >다음 절차 중에 오류 수정 마법사를 언제 든 지 닫을 경우, **보기** 드롭다운 메뉴에서 **오류 remediations** 를 선택 하 여 **처리** 탭에서 오류 수정 세션으로 돌아갈 수 있습니다.
 
-1. 고급 eDiscovery (미리 보기) 사례의 **처리** 탭에 있는 **보기** 드롭다운 메뉴에서 **오류** 를 선택 합니다.
+1. 고급 eDiscovery 사례의 **처리** 탭에서 **보기** 드롭다운 메뉴의 **오류** 를 선택 합니다.
 
 2. 오류 유형 또는 파일 형식 옆의 라디오 단추를 클릭 하 여 수정할 오류를 선택 합니다.  다음 예제에서는 암호로 보호 된 파일을 수정 합니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "32252654"
 
     ![오류 수정](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
-    errored 파일을 다운로드 하기 위한 안전한 Azure 위치로 이동 하는 준비 단계부터 시작 하 여 오류 업데이트 관리 세션이 시작 됩니다.
+    Errored 파일을 다운로드 하기 위한 안전한 Azure 위치로 이동 하는 준비 단계부터 시작 하 여 오류 업데이트 관리 세션이 시작 됩니다.
 
     ![오류 수정 준비](../media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
 
@@ -56,20 +56,20 @@ ms.locfileid: "32252654"
     > [!NOTE]
     > AzCopy을 설치 하지 않은 경우 여기에서 설치할 수 있습니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
 
-6. **클립보드에 복사를**클릭 하 여 미리 정의 된 명령을 복사 합니다. windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키 **** 를 누릅니다.  
+6. **클립보드에 복사를**클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키 **** 를 누릅니다.  
 
     파일이 다운로드 됩니다.
 
     ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
-    > 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery (Preview)에서 AzCopy 문제 해결](troubleshooting-azcopy.md) 을 참조 하세요.
+    > 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery에서 AzCopy 문제 해결](troubleshooting-azcopy.md) 을 참조 하세요.
 
 7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 다양 한 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
     > [!NOTE]
-    > tact에서 재구성 된 파일의 디렉터리 구조와 파일 이름은 유지 하는 것이 중요 합니다.  다운로드 한 파일 및 폴더에 사용 되는 모든 명명 규칙을 통해 remdiated 파일을 다시 원본에 연결할 수 있습니다.
+    > Tact에서 재구성 된 파일의 디렉터리 구조와 파일 이름은 유지 하는 것이 중요 합니다.  다운로드 한 파일 및 폴더에 사용 되는 모든 명명 규칙을 통해 remdiated 파일을 다시 원본에 연결할 수 있습니다.
 
-8. 이제 고급 eDiscovery (미리 보기)로 돌아가 **다음: 파일 업로드**를 클릭 합니다.  이렇게 하면 이제 파일을 업로드할 수 있는 다음 단계로 이동 합니다.
+8. 이제 고급 eDiscovery로 돌아간 후 **다음: 파일 업로드**를 클릭 합니다.  이렇게 하면 이제 파일을 업로드할 수 있는 다음 단계로 이동 합니다.
 
     ![파일 업로드](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
@@ -79,9 +79,9 @@ ms.locfileid: "32252654"
 
     ![ff2ff691-629f-4065-9b37-5333f937daf6-.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
-11. 마지막으로 Advanced eDiscovery (미리 보기)로 돌아간 후 **다음: 프로세스 파일**을 클릭 합니다.
+11. 마지막으로 Advanced eDiscovery로 돌아간 후 **다음: 프로세스 파일**을 클릭 합니다.
 
-12. 처리가 완료 되 면  작업 집합으로 돌아가 재구성 된 파일을 볼 수 있습니다.
+12. 처리가 완료 되 면  검토 집합으로 돌아가 재구성 된 파일을 볼 수 있습니다.
 
 ## <a name="what-happens-when-files-are-remediated"></a>파일을 수정 하는 경우 수행 되는 작업
 
@@ -100,4 +100,4 @@ ms.locfileid: "32252654"
 - WordCount
 - WorkingsetId
 
-Advanced eDiscovery (미리 보기)의 모든 문서 메타 데이터 필드에 대 한 정의를 보려면 [문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.
+Advanced eDiscovery의 모든 문서 메타 데이터 필드에 대 한 정의는 [문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.
