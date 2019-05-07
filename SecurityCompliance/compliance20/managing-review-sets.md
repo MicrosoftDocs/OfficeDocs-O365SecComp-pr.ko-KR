@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c521ca4485b00963c7d144b3013134fcaa30f298
-ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
+ms.openlocfilehash: e3d1a33d14231fb0f383436c0bee7cb63c21d8af
+ms.sourcegitcommit: 25595bc8fae96bc23b7b6d7102a22f37878987c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33527233"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641598"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합 관리
 
@@ -27,11 +27,11 @@ ms.locfileid: "33527233"
 
 - [검토 집합의 데이터 분석](analyzing-data-in-review-set.md)
 
-- [검토 집합의 데이터 쿼리](review-set-search.md)
+- [검토 집합에서 데이터 쿼리](review-set-search.md)
 
-- [검토 집합의 문서 보기](view-documents-in-review-set.md)
+- [검토 집합에서 문서 보기](view-documents-in-review-set.md)
 
-- [검토 집합의 문서에 태그 설정](tagging-documents.md)
+- [검토 집합에서 문서 태그 지정](tagging-documents.md)
 
 - [사례 데이터 내보내기](exporting-data-ediscover20.md)
 
@@ -41,16 +41,16 @@ ms.locfileid: "33527233"
 
 ![검토 설정 추가](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
 
-플라이 아웃이 표시 됩니다.  검토 집합의 이름을 간단히 하 여 **Save (저장**)를 클릭 합니다.  새 검토 집합이 **검토 집합** 탭에 표시 됩니다.
+**검토 설정** 플라이 아웃 추가 페이지에서 검토 집합의 이름을 입력 하 고 **저장**을 클릭 합니다.  새 검토 집합이 **검토 집합** 탭의 목록에 표시 됩니다.
 
-![검토 설정 플라이 아웃 추가](../media/5e5c99f8-42ca-4c2f-960f-f1a5709569d1.png)
+![검토 설정 탭에 나열 된 새 검토 집합](../media/AeDnewreviewset.png)
 
-다음과 같은 세 가지 방법으로 검토 집합에 콘텐츠를 추가할 수 있습니다.
+고급 eDiscovery 사례에서는 세 가지 방법으로 검토 집합에 데이터를 추가할 수 있습니다.
 
-1. [검토 집합에 검색 결과 추가](add-data-to-review-set.md)
+![검토 집합에 추가 하는 세 가지 방법](../media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
 
-2. [Office 이외 365 데이터를 검토 집합으로 로드](load-non-office365-data.md)
+1. [검색 결과를 검토 집합에 추가](add-data-to-review-set.md)
 
-3. [다른 검토 집합의 검토 집합에 데이터를 추가](add-data-to-review-set-from-another-review-set.md)합니다.
+2. [검토 집합에 비 Office 365 데이터 로드](load-non-office365-data.md)
 
-![집합 검토](../media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
+3. [다른 검토 집합의 검토 집합에 데이터 추가](add-data-to-review-set-from-another-review-set.md)
