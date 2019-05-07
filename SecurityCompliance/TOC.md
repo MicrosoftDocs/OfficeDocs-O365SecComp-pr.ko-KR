@@ -24,7 +24,7 @@
 ## [권한이 부여된 액세스 관리](privileged-access-management-overview.md)
 ## [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)
 
-# 정보 보호
+# [정보를 보호](protect-information.md)
 ## [민감도 레이블](sensitivity-labels.md)
 ### [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)
 ### [민감도 레이블을 콘텐츠에 자동으로 적용](apply_sensitivity_label_automatically.md)
@@ -33,18 +33,19 @@
 ## [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
 ### [DLP 및 Microsoft Teams](dlp-microsoft-teams.md)
 ### [DLP 확장된 개요 보기](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
-## DLP 설정
-### [DLP 정책 권장 시작](get-started-with-dlp-policy-recommendations.md)
-### [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
-### [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
-### [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
-### [DLP 정책에서 알림 및 정책 팁 사용](use-notifications-and-policy-tips.md)
-### [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
-### [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](protect-documents-that-have-fci-or-other-properties.md)
-### [DLP 보고서 보기](view-the-dlp-reports.md)
-### [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](form-a-query-to-find-sensitive-data-stored-on-sites.md)
-### [보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식](how-dlp-works-between-admin-centers.md)
-## 중요한 정보 유형 사용
+### DLP 설정
+#### [DLP 정책 권장 시작](get-started-with-dlp-policy-recommendations.md)
+#### [기본 DLP 정책을 사용하여 시작](get-started-with-the-default-dlp-policy.md)
+#### [템플릿에서 DLP 정책 만들기](create-a-dlp-policy-from-a-template.md)
+#### [DLP 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md)
+#### [DLP 정책에서 알림 및 정책 팁 사용](use-notifications-and-policy-tips.md)
+#### [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
+#### [FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기](protect-documents-that-have-fci-or-other-properties.md)
+#### [DLP 보고서 보기](view-the-dlp-reports.md)
+#### [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](form-a-query-to-find-sensitive-data-stored-on-sites.md)
+#### [보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식](how-dlp-works-between-admin-centers.md)
+
+## 중요한 정보 유형
 ### [중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 ### [DLP 기능이 찾는 항목](what-the-dlp-functions-look-for.md)
 ### [사용자 지정 DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852306)
@@ -54,6 +55,22 @@
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
 ### [문서 핑거프린팅](document-fingerprinting.md)
 
+## [Office 365의 전자 메일 암호화](email-encryption.md)
+### [Office 365 메시지 암호화 (OME)](ome.md)
+### [새로운 Office 365 메시지 암호화 기능 설정](set-up-new-message-encryption-capabilities.md)
+### [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](define-mail-flow-rules-to-encrypt-email.md)
+### [암호화된 메시지에 조직의 브랜드 추가](add-your-organization-brand-to-encrypted-messages.md)
+### [Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기](ome-sensitive-info-types.md)
+### [Office 365 메시지 암호화 관리](manage-office-365-message-encryption.md)
+### [Office 365 고급 메시지 암호화](ome-advanced-message-encryption.md)
+### [Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정](ome-advanced-expiration.md)
+### [Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소](revoke-ome-encrypted-mail.md)
+### [OME 버전 비교](ome-version-comparison.md)
+### [Office 365 메시지 암호화 FAQ](ome-faq.md)
+### 레거시 OME
+#### [Office 365 메시지 암호화 레거시 정보](legacy-information-for-message-encryption.md)
+#### [Office 365 메시지 암호화에 대한 Azure 권한 관리 설정](set-up-azure-rms-for-previous-version-message-encryption.md)
+
 # 레코드 관리
 ## [파일 플랜 관리자](file-plan-manager.md)
 ## [보존 레이블](labels.md)
@@ -62,7 +79,6 @@
 ## [이벤트 기반 보존](event-driven-retention.md)
 ### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ## [처리 검토](disposition-reviews.md)
-## [보존 정책](retention-policies.md)
 ## 레코드 관리 모니터링
 ### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
 ### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
@@ -182,36 +198,6 @@
 #### [스푸핑 인텔리전스에 대해 자세히 알아보기](learn-about-spoof-intelligence.md)
 #### [Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별](unverified-sender-feature.md)
 
-## [Office 365의 암호화](encryption.md)
-### [Office 365 Enterprise의 암호화 설정](set-up-encryption.md)
-### [Office 365의 전자 메일 암호화](email-encryption.md)
-### [Office 365 메시지 암호화 (OME)](ome.md)
-#### [OME 버전 비교](ome-version-comparison.md)
-#### [새로운 Office 365 메시지 암호화 기능 설정](set-up-new-message-encryption-capabilities.md)
-#### [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](define-mail-flow-rules-to-encrypt-email.md)
-#### [Office 365 메시지 암호화 관리](manage-office-365-message-encryption.md)
-#### [Office 365 메시지 암호화 FAQ](ome-faq.md)
-#### [Office 365 메시지 암호화로 암호화된 전자 메일 취소](revoke-ome-encrypted-mail.md)
-#### [암호화된 메시지에 조직의 브랜드 추가](add-your-organization-brand-to-encrypted-messages.md)
-#### [Office 365 메시지 암호화 레거시 정보](legacy-information-for-message-encryption.md)
-#### [Office 365 메시지 암호화에 대한 Azure 권한 관리 설정](set-up-azure-rms-for-previous-version-message-encryption.md)
-#### [Office 365 보호 메시지 뷰어 포털 개인정보 취급방침](protected-message-viewer-portal-privacy-statement.md)
-### [정보 권한 관리](information-rights-management-in-exchange-online.md)
-#### [Exchange Online의 정보 권한 관리](information-rights-management-in-exchange-online.md)
-#### [온-프레미스 AD RMS 서버를 사용하도록 IRM 구성](configure-irm-to-use-an-on-premises-ad-rms-server.md)
-### [S/MIME](s-mime-for-message-signing-and-encryption.md)
-#### [메시지 서명 및 암호화를 위한 S/MIME](s-mime-for-message-signing-and-encryption.md)
-#### [웹용 Outlook용 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
-#### [S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기](send-and-receive-s-mime-signed-and-encrypted-email.md)
-#### [S/MIME용으로 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md)
-#### [S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
-### [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md)
-### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
-### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
-### [Office 365의 암호화에 대한 기술 관련 세부 정보](technical-reference-details-about-encryption.md)
-### [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](exchange-online-uses-tls-to-secure-email-connections.md)
-
-
 ## [Office 365 Cloud App Security로 데이터 액세스 모니터링 및 관리](office-365-cas-overview.md)
 ### [Cloud App Security의 새로운 기능 보기](new-in-office-365-cas.md)
 #### [2018년 동안 업데이트](new-in-office-365-cas-2018.md)
@@ -274,22 +260,8 @@
 ### [콘텐츠 검색 복제](clone-a-content-search.md)
 
 # [법적 조사 관리](manage-legal-investigations.md)
-## [eDiscovery 사례 만들기 및 관리](ediscovery-cases.md)
-## [eDiscovery 권한 할당](assign-ediscovery-permissions.md)
-## [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](set-up-compliance-boundaries.md)
-## [eDiscovery 솔루션 시리즈 - 데이터 유출 시나리오-검색 및 지우기](data-spillage-scenariosearch-and-purge.md)
-## [Advanced eDiscovery 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)
-## [스크립트를 사용하여 보류 eDiscovery 사례에 사용자 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
-## [EDiscovery 사례의 보존 보고서 만들기](create-a-report-on-holds-in-ediscovery-cases.md)
-## 보존 관리
-### [eDiscovery 보존 만들기](ediscovery-cases.md#step-4-place-content-locations-on-hold)
-### [소송 보존 만들기](create-a-litigation-hold.md)
-### [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
-### [보류된 사물함의 복구 가능한 항목 할당량 증가](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
-### [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)
-### [숨은 참조 및 확장된 메일 그룹 수신자 보존](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
-## [Microsoft 365의 Advanced eDiscovery(미리 보기)](compliance20/overview-ediscovery-20.md)
+## [Microsoft 365의 Advanced eDiscovery 솔루션](compliance20/overview-ediscovery-20.md)
 ### [릴리스 정보](compliance20/release-notes-ediscovery20.md)
 ### [새 사례 만들기](compliance20/create-new-ediscovery-case.md)
 
@@ -314,26 +286,26 @@
 #### [검색을 만들어서 데이터 수집](compliance20/create-search-to-collect-data.md)
 #### [검색 쿼리 작성](compliance20/building-search-queries.md)
 #### [검색 통계](compliance20/search-statistics.md)
-#### [검색 결과를 작업 집합에 추가](compliance20/add-data-to-working-set.md)
+#### [검색 결과를 검토 집합에 추가](compliance20/add-data-to-review-set.md)
 
-### [작업 집합 관리](compliance20/managing-working-sets.md)
-#### [작업 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
-#### [다른 작업 집합에 데이터 추가](compliance20/add-data-to-working-set-from-another-working-set.md)
+### [검토 집합 관리](compliance20/managing-review-sets.md)
+#### [검토 집합에 비 Office 365 데이터 로드](compliance20/load-non-office365-data.md)
+#### [다른 검토 집합에 데이터 추가](compliance20/add-data-to-review-set-from-another-review-set.md)
 #### [로드 집합 관리](compliance20/manage-load-sets.md)
 
-### [사례 데이터 검토](compliance20/reviewing-data-in-working-set.md)
-#### [작업 집합에서 문서 태그 지정](compliance20/view-documents-in-working-set.md)
-#### [작업 집합에서 데이터 쿼리](compliance20/working-set-search.md)
-#### [작업 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
+### [사례 데이터 검토](compliance20/reviewing-data-in-review-set.md)
+#### [검토 집합에서 문서 보기](compliance20/view-documents-in-review-set.md)
+#### [검토 집합에서 데이터 쿼리](compliance20/review-set-search.md)
+#### [검토 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
 
-### [대/소문자 데이터 분석](compliance20/analyzing-data-in-working-set.md)
+### [대/소문자 데이터 분석](compliance20/analyzing-data-in-review-set.md)
 #### [중복에 가까운 검색](compliance20/near-duplicates.md)
 #### [전자 메일 스레드](compliance20/email-threading.md)
 #### [테마](compliance20/themes.md)
 #### [관련성 모듈을 사용하여 데이터 분석](compliance20/using-relevance.md)
 
 ### [사례 데이터 내보내기](compliance20/exporting-data-ediscover20.md)
-#### [작업 집합에서 문서 내보내기](compliance20/export-documents-from-working-set.md)
+#### [검토 집합에서 문서 내보내기](compliance20/export-documents-from-review-set.md)
 #### [내보내기 작업 다운로드](compliance20/download-export-jobs.md)
 
 ### [작업 관리](compliance20/managing-jobs-ediscovery20.md)
@@ -343,58 +315,76 @@
 #### [사례에서 구성원 추가 또는 제거](compliance20/add-remove-members.md)
 #### [검색 및 분석 설정 구성](compliance20/configure-search-analytics-settings.md)
 
-### Advanced eDiscovery(미리 보기) 참조
-#### [Advanced eDiscovery 제한 사항(미리 보기)](compliance20/limits-ediscovery20.md)
+### Advanced eDiscovery 참조
+#### [Advanced eDiscovery 제한 사항](compliance20/limits-ediscovery20.md)
 #### [지원되는 파일 형식](compliance20/supported-filetypes-ediscovery20.md)
 #### [문서 메타데이터 필드](compliance20/document-metadata-fields.md)
 #### [AzCopy 문제 해결](compliance20/troubleshooting-azcopy.md)
 
-## [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-### [Advanced eDiscovery에서 시작하기](quick-setup-for-advanced-ediscovery.md)
 
-### [사례 설정](set-up-users-and-cases-in-advanced-ediscovery.md)
-#### [사례에 대한 문제 정의하기](define-issues-and-assign-users.md)
+## [eDiscovery 사례 관리](ediscovery-cases.md)
+### [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+#### [Advanced eDiscovery에서 시작하기](quick-setup-for-advanced-ediscovery.md)
 
-### 사례 데이터 수집하기
-#### [Advanced eDiscovery를 위한 데이터 준비](prepare-data-for-advanced-ediscovery.md)
-#### [비 Office 365 콘텐츠를 사례로 가져오기](import-non-office-365-data-into-advanced-ediscovery.md)
+#### [사례 설정](set-up-users-and-cases-in-advanced-ediscovery.md)
+##### [사례에 대한 문제 정의하기](define-issues-and-assign-users.md)
 
-### [사례 데이터 처리](run-the-process-module-in-advanced-ediscovery.md)
-#### [프로세스 모듈 및 로드 데이터 실행](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
-#### [프로세스 모듈 결과 보기](view-process-module-results-in-advanced-ediscovery.md)
+#### 사례 데이터 수집하기
+##### [Advanced eDiscovery 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)
+##### [Advanced eDiscovery에 데이터 로드](prepare-data-for-advanced-ediscovery.md)
+##### [비 Office 365 콘텐츠를 사례로 가져오기](import-non-office-365-data-into-advanced-ediscovery.md)
 
-### 사례 데이터 검토
-#### [사례 데이터 검색 및 태그](search-and-tagging.md)
-#### [검토 집합에 대한 의사 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
+#### [사례 데이터 처리](run-the-process-module-in-advanced-ediscovery.md)
+##### [프로세스 모듈 및 로드 데이터 실행](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
+##### [프로세스 모듈 결과 보기](view-process-module-results-in-advanced-ediscovery.md)
 
-### [사례 데이터 분석](analyze-case-data-with-advanced-ediscovery.md)
-#### [빠른 분석을 실행](use-express-analysis-in-advanced-ediscovery.md)
-#### [문서 유사성(Duplicates와 유사)의 개요](understand-document-similarity-in-advanced-ediscovery.md)
-#### [분석 결과 보기](view-analyze-results-in-advanced-ediscovery.md)
+#### 사례 데이터 검토
+##### [사례 데이터 검색 및 태그](search-and-tagging.md)
+##### [검토 집합에 대한 의사 결정](decision-based-on-the-results-in-advanced-ediscovery.md)
 
-### [관련성 모듈 사용](use-relevance-in-advanced-ediscovery.md)
-#### [관련성 평가 개요](assessment-in-relevance-in-advanced-ediscovery.md)
-#### [관련성 평가 및 태그 지정 수행](tagging-and-assessment-in-advanced-ediscovery.md)
-#### [관련성 교육 설정](manage-relevance-setup-in-advanced-ediscovery.md)
-#### [관련성 교육 및 태그 지정 수행](tagging-and-relevance-training-in-advanced-ediscovery.md)
-#### [관련성 교육 프로세스 추적](track-relevance-analysis-in-advanced-ediscovery.md)
-#### [관련성 분석의 결과 테스트](test-relevance-analysis-in-advanced-ediscovery.md)
-#### [관련성 교육을 위한 추가 데이터 로드](set-up-loads-to-add-imported-files.md)
+#### [사례 데이터 분석](analyze-case-data-with-advanced-ediscovery.md)
+##### [빠른 분석을 실행](use-express-analysis-in-advanced-ediscovery.md)
+##### [문서 유사성(Duplicates와 유사)의 개요](understand-document-similarity-in-advanced-ediscovery.md)
+##### [분석 결과 보기](view-analyze-results-in-advanced-ediscovery.md)
 
-### [사례 데이터 내보내기](export-case-data-in-advanced-ediscovery.md)
-#### [데이터 내보내기](export-results-in-advanced-ediscovery.md)
-#### [보고서 필드 내보내기](export-report-fields-in-advanced-ediscovery.md)
-#### [일괄 처리 기록 보기 및 이전 결과 내보내기](view-batch-history-and-export-past-results.md)
+#### [관련성 모듈 사용](use-relevance-in-advanced-ediscovery.md)
+##### [관련성 평가 개요](assessment-in-relevance-in-advanced-ediscovery.md)
+##### [관련성 평가 및 태그 지정 수행](tagging-and-assessment-in-advanced-ediscovery.md)
+##### [관련성 교육 설정](manage-relevance-setup-in-advanced-ediscovery.md)
+##### [관련성 교육 및 태그 지정 수행](tagging-and-relevance-training-in-advanced-ediscovery.md)
+##### [관련성 교육 프로세스 추적](track-relevance-analysis-in-advanced-ediscovery.md)
+##### [관련성 분석의 결과 테스트](test-relevance-analysis-in-advanced-ediscovery.md)
+##### [관련성 교육을 위한 추가 데이터 로드](set-up-loads-to-add-imported-files.md)
 
-### Advanced eDiscovery 구성
-#### [사례 및 조직 설정 구성](define-case-and-tenant-settings-in-advanced-ediscovery.md)
-#### [분석 설정 구성](set-analyze-options-in-advanced-ediscovery.md)
-#### [무시 텍스트 설정 구성](set-ignore-text-in-advanced-ediscovery.md)
-#### [강조 표시된 키워드 및 기타 관련성 설정 구성](define-highlighted-keywords-and-advanced-options.md)
+#### [사례 데이터 내보내기](export-case-data-in-advanced-ediscovery.md)
+##### [데이터 내보내기](export-results-in-advanced-ediscovery.md)
+##### [보고서 필드 내보내기](export-report-fields-in-advanced-ediscovery.md)
+##### [일괄 처리 기록 보기 및 이전 결과 내보내기](view-batch-history-and-export-past-results.md)
 
-### Advanced eDiscovery 참조
-#### [Advanced eDiscovery 유틸리티 사용](use-advanced-ediscovery-utilities.md)
-#### [보고서 실행](run-reports-in-advanced-ediscovery.md)
+#### Advanced eDiscovery 구성
+##### [사례 및 조직 설정 구성](define-case-and-tenant-settings-in-advanced-ediscovery.md)
+##### [분석 설정 구성](set-analyze-options-in-advanced-ediscovery.md)
+##### [무시 텍스트 설정 구성](set-ignore-text-in-advanced-ediscovery.md)
+##### [강조 표시된 키워드 및 기타 관련성 설정 구성](define-highlighted-keywords-and-advanced-options.md)
+
+#### Advanced eDiscovery 참조
+##### [Advanced eDiscovery 유틸리티 사용](use-advanced-ediscovery-utilities.md)
+##### [보고서 실행](run-reports-in-advanced-ediscovery.md)
+
+### [스크립트를 사용하여 보류 eDiscovery 사례에 사용자 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md)
+### [EDiscovery 사례의 보존 보고서 만들기](create-a-report-on-holds-in-ediscovery-cases.md)
+
+## [eDiscovery 권한 할당](assign-ediscovery-permissions.md)
+## [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](set-up-compliance-boundaries.md)
+## [eDiscovery 솔루션 시리즈 - 데이터 유출 시나리오-검색 및 지우기](data-spillage-scenariosearch-and-purge.md)
+
+## 보존 관리
+### [eDiscovery 보존 만들기](ediscovery-cases.md#step-4-place-content-locations-on-hold)
+### [소송 보존 만들기](create-a-litigation-hold.md)
+### [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md)
+### [보류된 사물함의 복구 가능한 항목 할당량 증가](increase-the-recoverable-quota-for-mailboxes-on-hold.md)
+### [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)
+### [숨은 참조 및 확장된 메일 그룹 수신자 보존](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
 # [데이터 조사 관리](datainvestigations/overview-data-investigations.md)
 ## [릴리스 정보](datainvestigations/data-investigations-release-notes.md)
@@ -491,7 +481,14 @@
 
 # 규정 준수 솔루션
 ## [Microsoft 서비스 보안 포털](get-started-with-service-trust-portal.md)
-## [규정 준수 관리자](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [규정 준수 관리자(기본)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+## [규정 준수 관리자(미리 보기)](compliance-manager-overview.md)
+### [준수 관리자(미리 보기)의 새로운 기능](compliance-manager-release-notes.md)
+### [준수 관리자(미리 보기)로 작업하기](working-with-compliance-manager.md)
+### [규정 준수 점수 방법론(미리 보기)](compliance-score-methodology.md)
+## 고객 키
+### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
+### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
 ## [GDPR 데이터 주체 요청 도구](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)
 ### [개요: GDPR에 대한 Office 365 보호](office-365-info-protection-for-gdpr-overview.md)
@@ -551,6 +548,9 @@
 ### [고객 관리 암호화 기능](office-365-customer-managed-encryption-features.md)
 ### [암호화 위험 및 보호](office-365-encryption-risks-and-protections.md)
 ### [비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 온라인 및 Exchange 온라인을 위한 암호화](office-365-encryption-for-skype-onedrive-sharepoint-and-exchange.md)
+### [Exchange Online이 전자 메일 암호를 보호하는 방법](exchange-online-secures-email-secrets.md)
+### [Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법](exchange-online-uses-tls-to-secure-email-connections.md)
+### [Office 365의 암호화에 대한 기술 관련 세부 정보](technical-reference-details-about-encryption.md)
 ### [암호화에 대한 BitLocker 및 분산 키 관리자(DKM)](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)
 ### [Microsoft Dynamics 365에서 암호화](office-365-encryption-in-microsoft-dynamics-365.md)
 ### [Azure의 암호화](office-365-azure-encryption.md)
@@ -564,6 +564,9 @@
 ### [Office Graph 및 Delve에서 테넌트 격리](office-365-isolation-in-graph-and-delve.md)
 
 # 하이브리드 보안 기능
+## [AD RMS를 사용하여 Exchange Online 메일 암호화](information-rights-management-in-exchange-online.md)
+### [온-프레미스 AD RMS 서버를 사용하도록 IRM 구성](configure-irm-to-use-an-on-premises-ad-rms-server.md)
+
 ## [Exchange Online Protection](eop/exchange-online-protection-overview.md)
 ### [EOP 기능](eop/eop-features.md)
 ### [EOP의 기능 사용 권한](eop/feature-permissions-in-eop.md)
@@ -606,6 +609,15 @@
 #### [장애인을 위한 내게 필요한 옵션](eop/accessibility-for-people-with-disabilities.md)
 #### [Office 365에 메일 보내기](sending-mail-to-office-365.md)
 #### [비 고객에 대한 서비스](services-for-non-customers.md)
+
+# 레거시 보안 및 규정 준수 기능
+## [S/MIME](s-mime-for-message-signing-and-encryption.md)
+### [메시지 서명 및 암호화를 위한 S/MIME](s-mime-for-message-signing-and-encryption.md)
+### [웹용 Outlook용 S/MIME 설정 구성](configure-s-mime-settings-for-outlook-web-app.md)
+### [S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기](send-and-receive-s-mime-signed-and-encrypted-email.md)
+### [S/MIME용으로 Office 365에 사용자 인증서 동기화](sync-user-certificates-to-office-365-for-s-mime.md)
+### [S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정](set-up-virtual-certificate-collection-to-validate-s-mime.md)
+
 # [Office 365 Enterprise](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 비즈니스 에디션](https://docs.microsoft.com/office365/admin/admin-home)
 # [Microsoft 365](https://docs.microsoft.com/microsoft-365/)
