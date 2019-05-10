@@ -1,5 +1,5 @@
 ---
-title: Outlook.com 및 웹용 Outlook에서 의심 스러운 메시지 식별
+title: 확인 되지 않은 보낸 사람
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -13,14 +13,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: edba30bb2ac0f9dc6ebc12db957a518de0c1b543
-ms.sourcegitcommit: 9907bebc5f225032f681c4952de0b0be2df278ac
+ms.openlocfilehash: 5d4315afb33964e7c466384366b7315287cf6298
+ms.sourcegitcommit: d24f50347c671cf5d2d8afec2f80d37d18af8b5d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33345918"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33867849"
 ---
-# <a name="identify-suspicious-messages-in-outlookcom-and-outlook-on-the-web"></a>Outlook.com 및 웹용 Outlook에서 의심 스러운 메시지 식별
+# <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
 
@@ -31,9 +31,25 @@ ms.locfileid: "33345918"
 
 Outlook.com and Outlook에서 메시지를 보낸 사람이 식별 되지 않거나 id가 보낸 사람 주소에 표시 되는 내용과 다를 때 나타나는 지표를 표시 합니다.
 
+## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법 
+
+Office 365 고객 인 경우 Security & 준수 센터를 통해이 기능을 관리할 수 있습니다. 
+
+- Office 365 Security & 준수 센터에서 테 넌 트 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 켜거나 끌 수 있습니다. 또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다. 자세한 내용은 Office 365 및 AntiPhishPolicy의 피싱 방지 보호를 참조 하세요.
+
+    ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](media/unverified-sender-article-editing-unauthenticated-senders.jpg)
+
+- 관리자가 가양성을 식별 했 고 보낸 사람이 확인 되지 않은 보낸 사람 처리를 수신 하지 않아야 하는 경우 다음 작업 중 하나를 수행 하 여 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가할 수 있습니다.
+        
+    - 스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다. 자세한 내용은 연습: 스푸핑 인텔리전스 이해를 참조 하세요.
+                
+    - Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 Office 365의 Get-phishfilterpolicy 및 스푸핑 방지 보호를 참조 하세요.
+
+또한 ETRs (전자 메일 전송 규칙), 안전한 도메인 목록 (스팸 방지 정책), 수신 허용-보낸 사람 목록 또는 사용자가 해당 사용자를 "안전한 보낸 사람"으로 설정 하 여 관리자 허용 목록을 통해 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리가 적용 되지 않습니다. 받은 편지함.
+
 ### <a name="you-see-a--in-the-sender-image"></a>보낸 사람 이미지에 '? '가 표시 됩니다.
 
-Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다.
+Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다. 
 
 ![메시지가 확인 통과 되지 않음](media/message-did-not-pass-verification.jpg)
 
@@ -49,7 +65,7 @@ Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 �
 
 이 예에서는 보내는 도메인이 `suspicious.com` 인증 되지만 보낸 사람은 보낸 사람 주소에 추가 `unknown@contoso.com` 됩니다.
 
-via 태그를 포함 하는 모든 메시지를 의심 하지 않습니다. 그러나 via 태그가 있는 메시지를 모르는 경우에는 해당 태그와 상호 작용 하는 것이 조심 해야 합니다.
+Via 태그를 포함 하는 모든 메시지를 의심 하지 않습니다. 그러나 via 태그가 있는 메시지를 모르는 경우에는 해당 태그와 상호 작용 하는 것이 조심 해야 합니다.
 
 Outlook.com 및 웹용 새 Outlook에서는 메시지를 열지 않고도 메시지 목록에 있는 보낸 사람의 이름이 나 주소에 커서를 올려 놓아 해당 전자 메일 주소를 볼 수 있습니다.
 
@@ -63,9 +79,9 @@ Outlook.com 및 웹용 새 Outlook에서는 메시지를 열지 않고도 메시
 
 ### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a>Outlook.com 및 웹용 Outlook에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?
 
-보낸 사람 이미지의 '? '에 대해: Outlook.com에서는 메시지가 SPF 또는 dkim 인증을 통과 해야 합니다. 자세한 내용은 office 365에서 [스푸핑 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 및 [dkim을 사용 하 여 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하](use-dkim-to-validate-outbound-email.md)는 데 도움을 주는 방법에 SPF를 설정 합니다.
+보낸 사람 이미지의 '? '에 대해: Outlook.com에서는 메시지가 SPF 또는 DKIM 인증을 통과 해야 합니다. 자세한 내용은 office 365에서 스푸핑 방지 및 dkim을 사용 하 여 사용자 지정 365 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하는 데 도움을 주는 방법에 SPF를 설정 합니다.
 
-via 태그의 경우: 보낸 사람 주소에 있는 도메인이 dkim 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (dkim 서명 우선).
+Via 태그의 경우: 보낸 사람 주소에 있는 도메인이 DKIM 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (DKIM 서명 우선).
 
 ### <a name="can-i-override-these-properties-with-ip-allows-exchange-transport-rule-allows-or-safe-senders"></a>IP 허용, Exchange 전송 규칙 허용 또는 수신 허용-보낸 사람을 사용 하 여 이러한 속성을 다시 정의할 수 있습니까?
 
@@ -73,9 +89,9 @@ via 태그의 경우: 보낸 사람 주소에 있는 도메인이 dkim 서명 �
 
 ### <a name="how-do-i-remove-these-properties"></a>이러한 속성을 제거 하려면 어떻게 해야 합니까?
 
-보낸 사람 이미지의 '? '에 대해 보낸 사람으로 서 SPF 또는 dkim 중 하나를 사용 하 여 메시지를 인증 해야 합니다.
+보낸 사람 이미지의 '? '에 대해 보낸 사람으로 서 SPF 또는 DKIM 중 하나를 사용 하 여 메시지를 인증 해야 합니다.
 
-via 태그: 보낸 사람으로 서, dkim 서명 또는 SMTP 메일의 도메인은 from 주소에 있는 도메인과 같거나 그 하위 도메인 인지 확인 해야 합니다.
+Via 태그: 보낸 사람으로 서, DKIM 서명 또는 SMTP 메일의 도메인은 From 주소에 있는 도메인과 같거나 그 하위 도메인 인지 확인 해야 합니다.
 
 ### <a name="does-outlookcom-and-outlook-on-the-web-show-this-for-every-message-that-doesnt-pass-authentication"></a>Outlook.com 및 웹용 Outlook에서 인증을 통과 하지 않는 모든 메시지를 표시 하나요?
 

@@ -9,18 +9,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 3f3d32eee9c3d706a10731ba7983d3ce8d1f7a75
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a7556dd98e1381fe59a2a911dbfa27132f1aa44d
+ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252353"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868616"
 ---
 # <a name="auto-forwarded-messages-report"></a>자동 전달 메시지 보고서
 
 메일 흐름 대시보드의 **자동 전달 메시지** 보고서에는 Office 365 조직에서 외부 도메인의 받는 사람에 게 자동으로 전달 되는 메시지에 대 한 정보가 표시 됩니다.
 
-![좌표](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![Office 365 Security & 준수 센터에 대 한 자동 전달 메시지 이해](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
 
 ![Office 365 Security & 준수 센터의 메일 흐름 대시보드의 자동 전달 메시지 보고서](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
 
@@ -36,4 +36,4 @@ ms.locfileid: "32252353"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

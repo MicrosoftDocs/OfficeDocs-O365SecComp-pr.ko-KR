@@ -9,18 +9,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 있는 메일 흐름 맵 보고서에 대해 알아볼 수 있습니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bd05ff5cb78adb9dd89dbe3f69c2c3a78d2b1df9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f80bb71434f4091d64318a096b1f55238a1409cc
+ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252446"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868590"
 ---
 # <a name="mail-flow-map-report"></a>메일 흐름 맵 보고서
-
-> [!NOTE]
-> 이 항목에서 설명 하는 기능은 모든 Office 365 조직에 배포 되지 않으며 변경 될 수 있습니다.
 
 이 보고서는 Office 365 조직에서 메일이 흐르는 방식에 대 한 정보를 제공 합니다. 이 정보를 사용 하 여 패턴을 파악 하 고, 상황을 식별 하 고, 문제가 발생할 경우 문제를 해결할 수 있습니다.
 
@@ -54,4 +50,4 @@ ms.locfileid: "32252446"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

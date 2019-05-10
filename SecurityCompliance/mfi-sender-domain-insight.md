@@ -9,20 +9,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bd62d6d0b42edfd1eedf543d7d8bb68903c7c608
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a285a1c744ca540cc58b9408b4ee31e768f89479
+ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252190"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868566"
 ---
 # <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 통찰력 수정
 
-> [!NOTE]
-> 이 항목에서 설명 하는 기능은 모든 Office 365 조직에 배포 되지 않으며 변경 될 수 있습니다.
-
-office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프레미스 전자 메일 환경에서 Office 365로 메시지를 전송 해야 합니다.
+Office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프레미스 전자 메일 환경에서 Office 365로 메시지를 전송 해야 합니다.
 
 - 원본 IP 주소 또는 인증서를 사용 하 여 온-프레미스 전자 메일 서버에서 SMTP 연결을 인증 하기 위해 Office 365의 인바운드 커넥터를 만들었습니다.
 
@@ -32,7 +28,7 @@ office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프�
 
   - 보낸 사람의 전자 메일 도메인이 Office 365 조직에 등록 됩니다. 자세한 내용은 Office 365에서 도메인 추가를 참조 하세요.
 
-  - 온-프레미스 전자 메일 서버는 인증서를 사용 하 여 office 365에 전자 메일을 보내거나, 인증서에 office 365에 등록 한 도메인 이름과 정확히 일치 하거나, 인증서 기반 커넥터를 만든 사용자가이를 포함 하도록 구성 됩니다. 도메인별. 
+  - 온-프레미스 전자 메일 서버는 인증서를 사용 하 여 office 365에 전자 메일을 보내거나, 인증서에 Office 365에 등록 한 도메인 이름과 정확히 일치 하거나, 인증서 기반 365 커넥터를 만든 사용자가이를 포함 하도록 구성 됩니다. 도메인별. 
 
 조건을 충족 하지 않는 메시지는 조직에 대 한 특성을 사용 하지 않으며 거부할 수 있습니다.
 
@@ -50,4 +46,4 @@ office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프�
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

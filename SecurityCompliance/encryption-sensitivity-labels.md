@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: 69deeed69a5b2970d387c30b01a062c6c068c567
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 41e1a9f1c789d555b1b5db3204b13f3279a6b56a
+ms.sourcegitcommit: d17ef25bf2a638c867cd399fff6c961ffeccaba4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257268"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33628333"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
 
@@ -113,6 +113,26 @@ ms.locfileid: "32257268"
 - 권한 관리 발급자는 권한이 해지된 후에도 문서를 열 수 있습니다.
 
 자세한 내용은 [권한 관리 발급자 및 권한 관리 소유자](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)를 참조하세요.
+
+## <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>레이블이 적용되면 기존 암호화는 어떻게 되나요?
+
+민감도 레이블이 콘텐츠에 적용되기 전에, 일부 다른 보호 설정을 적용하여 콘텐츠를 암호화하는 것이 가능합니다. 예를 들어 다음 기능을 적용할 수 있습니다.
+
+- **전달 금지** 옵션.
+- Azure Information Protection 통합된 레이블 지정 클라이언트를 사용하여 사용자 지정 보호합니다.
+- 콘텐츠를 암호화하지만 레이블과 관련이 없는 Azure RMS(Rights Management Service) 서식 파일입니다.
+
+이 테이블에서는 민감도 레이블이 해당 콘텐츠에 적용되는 경우 기존 암호화가 어떻게 되는지에 대해 설명합니다.
+<br/>
+<br/>
+
+| |**암호화가 해제된 민감도 레이블을 적용**|**사용자 설정 되어 암호화로 민감도 레이블을 적용**|**보호 제거를 사용하여 레이블을 적용**<sup>1</sup>|
+|:-----|:-----|:-----|:-----|
+|**전달 금지**|전자 메일 - 보호가 제거됨<br/>문서 - 보호가 유지됨|레이블 보호가 적용됨|**전달 금지**가 제거됨|
+|**사용자 지정 보호**<sup>1</sup>|보호가 유지됨|레이블 보호가 적용됨|사용자 지정 보호가 제거됨|
+|**Azure RMS 서식 파일**|보호가 유지됨|레이블 보호가 적용됨|사용자 지정 보호가 제거됨|
+
+<sup>1</sup>이 기능은 Azure Information Protection 레이블 지정 클라이언트에서만 지원됩니다.
 
 ## <a name="storing-encrypted-content-in-onedrive-and-sharepoint"></a>OneDrive 및 SharePoint에 암호화된 콘텐츠 저장
 

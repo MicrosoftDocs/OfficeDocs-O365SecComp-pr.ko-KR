@@ -9,18 +9,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서에 대 한 정보를 확인할 수 있습니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a69a1e59241ea7b6680afe8608534dbf9460c269
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 11bddc79f81c30726ba653eb432238765a8cee74
+ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252150"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868576"
 ---
 # <a name="non-accepted-domain-report"></a>허용 되지 않는 도메인 보고서
-
-> [!NOTE]
-> 이 항목에서 설명 하는 기능은 모든 Office 365 조직에 배포 되지 않으며 변경 될 수 있습니다.
 
 **보낸 사람 도메인** 통찰력과 마찬가지로, **허용 되지 않는 도메인** 통찰력은 온-프레미스 전자 메일 조직의 메시지를 식별 하지만 보낸 사람의 도메인이 Office 365 조직에서 허용 도메인으로 구성 되지 않습니다.
 
@@ -38,4 +34,4 @@ ms.locfileid: "32252150"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

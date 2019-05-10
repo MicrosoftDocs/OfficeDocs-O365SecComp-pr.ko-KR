@@ -9,18 +9,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 있는 최상위 도메인 메일 흐름 상태 정보에 대해 알아볼 수 있습니다.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: baa69c3373623d4742d6d957a5022012fb60f7e7
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 851ef1438f111a36f69563670bbd0835a9956edc
+ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267043"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868596"
 ---
 # <a name="top-domain-mail-flow-status-insight"></a>상위 도메인 메일 흐름 상태 파악
-
-> [!NOTE]
-> 이 항목에서 설명 하는 기능은 모든 Office 365 조직에 배포 되지 않으며 변경 될 수 있습니다.
 
 **최상위 도메인 메일 흐름 상태** 정보를 통해 메일 흐름 측면에서 조직의 도메인에 대 한 현재 상태를 알 수 있습니다. 이러한 통찰력은 ***메일 흐름에 영향*** 을 주는 (예: 외부 전자 메일을 받을 수 없음), 특히 도메인 만료 또는 잘못 된 MX 레코드가 있는 도메인의 문제를 파악 하 고 문제를 해결 하는 데 도움이 됩니다.
 
@@ -36,4 +32,4 @@ ms.locfileid: "32267043"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
