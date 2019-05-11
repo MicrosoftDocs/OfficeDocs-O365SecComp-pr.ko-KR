@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 데이터 유출 인시던트를 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 93a98a4e01df011b789ba2453734f093ad8c19d6
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: eef273bd1690845be61b6aec5918dcc0870ed6b2
+ms.sourcegitcommit: 09fd88272187f82b6e635af83edabea08c2cc49c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258826"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33884766"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 유출 인시던트 관리
 
@@ -34,7 +34,10 @@ ms.locfileid: "32258826"
 
 ## <a name="scenario"></a>시나리오
 
-직원 들이 전자 메일을 통해 여러 사람과 고도로 기밀 문서를 공유 하는 데이터 유출 문제에 대 한 정보를 제공 하 고 있습니다. 조직 내부 및 외부 모두에서이 문서를 받은 사람을 빠르게 평가 하려는 경우 인시던트를 조사한 후에는 다른 investigators 검토를 위해 결과를 공유 하 고 Office 365에서 분산 된 데이터를 영구적으로 제거 하려는 경우를 들 수 있습니다. 조사가 완료 되 면 모든 증거를 제거 합니다. 
+직원 들이 전자 메일을 통해 여러 사람과 고도로 기밀 문서를 공유 하는 데이터 유출 문제에 대 한 정보를 제공 하 고 있습니다. 조직 내부 및 외부 모두에서이 문서를 받은 사람을 빠르게 평가 하려는 경우 인시던트를 조사한 후에는 다른 investigators 검토를 위해 결과를 공유 하 고 Office 365 조직에서 분산 된 데이터를 영구적으로 제거 합니다. 조사가 완료 되 면 모든 증거를 제거 합니다. 
+
+> [!IMPORTANT]
+> 조직 내에서 분산 된 데이터를 영구적으로 제거할 수 있지만 조직 외부에 분산 된 데이터는 이러한 기능을 사용 하 여 제거할 수 없습니다.
 
 ## <a name="workflow"></a>워크플로
 
@@ -57,9 +60,9 @@ ms.locfileid: "32258826"
 
 - 조사를 만들려면 Security & 준수 센터에서 준수 관리자 역할 그룹의 구성원 이어야 합니다.
 
-- 메시지를 삭제 하려면 검색 및 삭제 역할이 할당 된 보안 & 준수 센터에서 역할 그룹의 구성원 이어야 합니다. 기본적으로이 역할은 조직 관리 역할 그룹에 할당 됩니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터의 사용 권한을](../permissions-in-the-security-and-compliance-center.md)참조 하십시오. 
+- 메시지를 삭제 하려면 검색 및 삭제 역할이 할당 된 보안 & 준수 센터에서 역할 그룹의 구성원 이어야 합니다. 기본적으로이 역할은 조직 관리 역할 그룹에 할당 됩니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 사용 권한을](../permissions-in-the-security-and-compliance-center.md)참조 하십시오. 
 
-- investigator에서 검색할 수 있는 사용자 사서함과 OneDrive 계정을 제어 하기 위해 조직에서 준수 경계를 설정할 수 있습니다. 자세한 내용은 [eDiscovery 조사에 대 한 준수 경계를 설정](../set-up-compliance-boundaries.md)합니다. 
+- Investigator에서 검색할 수 있는 사용자 사서함과 OneDrive 계정을 제어 하기 위해 조직에서 준수 경계를 설정할 수 있습니다. 자세한 내용은 [eDiscovery 조사에 대 한 준수 경계를 설정](../set-up-compliance-boundaries.md)합니다. 
 
 ## <a name="step-1-create-a-data-investigation"></a>1 단계: 데이터 조사 만들기
 
