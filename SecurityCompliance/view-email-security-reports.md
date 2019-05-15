@@ -3,7 +3,7 @@ title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/19/2019
+ms.date: 05/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 1a885661f5bf020c325ee2d9f084473ecb27c53a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 4271f26c0d8a0a9a5bd4085e38daaabcc375512c
+ms.sourcegitcommit: 7ad5618db6004757599d8b7c153fdb6ab3ba3f6e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267962"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970259"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -31,7 +31,7 @@ ms.locfileid: "32267962"
 전자 메일 보안 보고서에는 다음이 포함 됩니다.
 - [암호화 보고서](#encryption-report) (새로운 방법!)
 - [위협 방지 상태 보고서](#threat-protection-status-report) 
-- [맬웨어 감지 보고서](#malware-detections-report)    
+- [맬웨어 감지 보고서](#malware-detections-report) 
 - [주요 맬웨어 보고서](#top-malware-report)
 - [상위 보낸 사람 및 받는 사람 보고서](#top-senders-and-recipients-report)
 - [스푸핑 감지 보고서](#spoof-detections-report)
@@ -41,27 +41,27 @@ ms.locfileid: "32267962"
     
 ## <a name="encryption-report"></a>암호화 보고서
 
-(**새로운 방법!**) **암호화 보고서** 에는 정책 또는 최종 사용자 컨트롤을 통해 암호화 된 전자 메일 메시지에 대 한 정보가 표시 됩니다. 조직의 보안 팀은이 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다.
+(**새로운 방법!**) **암호화 보고서** 에는 조직의 정책 또는 최종 사용자 컨트롤을 통해 암호화 된 전자 메일 메시지에 대 한 정보가 표시 됩니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다.
 
 이 보고서를 보려면 보안 & 준수 센터에서 **보고서** \> **대시보드** \> **암호화 보고서**로 이동 합니다.
 
 ![암호화 보고서](media/encryptionreport-defaultview.png) 
 
-보고서를 처음 열면 전자 메일 메시지에 사용 되는 암호화 방법에 대 한 데이터가 이전의 7 일 (7)로 표시 됩니다. 화면의 오른쪽 위 모서리에 있는 필터를 클릭 하 여 보고서의 날짜 범위와 세부 정보를 변경할 수 있습니다.
+보고서를 처음 열면 전자 메일 메시지에 사용 되는 암호화 방법에 대 한 데이터가 이전의 7 일 (7)로 표시 됩니다. 화면 오른쪽 위 모서리에 있는 **필터** 를 클릭 하 여 보고서에 표시 되는 날짜 범위 및 세부 정보를 변경할 수 있습니다.
 
 ![암호화 보고서 필터](media/encryptionreport-filters.png)   
 
-또한 아래로 나누기 메뉴를 사용 하 여 암호화 서식 파일 (또는 방법)을 통해 데이터를 볼 수도 있습니다.
+또한 **아래로 나누기** 메뉴를 사용 하 여 암호화 서식 파일 (또는 방법)을 통해 데이터를 볼 수도 있습니다.
 
 ![암호화 방법 또는 서식 파일](media/encryptionreport-breakdownby.png)
 
-또한 데이터 보기 기준 메뉴를 사용 하 여 상위 5 개 받는 사람 도메인에 대 한 암호화 된 메시지 수를 확인 하기 위해 보기를 변경할 수 있습니다.
+또한 **데이터 보기 기준** 메뉴를 사용 하 여 상위 5 개 받는 사람 도메인에 대 한 암호화 된 메시지 수를 확인 하기 위해 보기를 변경할 수 있습니다.
 
 ![암호화 보고서 데이터 보기 별 메뉴](media/encryptionreport-viewdataby.png)
 
 새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 도움말을 보려면 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요. 또 다른 예로, 사용할 수 있는 암호화 서식 파일이 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다. 
 
-이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다.
+이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다. 암호화에 대 한 자세한 내용은 [Office 365의 전자 메일 암호화](email-encryption.md)를 참조 하세요.
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
@@ -74,7 +74,7 @@ ms.locfileid: "32267962"
   
 ![위협 방지 상태 보고서](media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
   
-위협 방지 상태 보고서를 처음 열면 보고서에는 기본적으로 이전의 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 클릭 하 고 날짜 범위를 최대 90 일 정도 변경할 수 있습니다. 이 보고서는 조직의 Exchange Online 보호 기능과 장기적인 추세에 대 한 영향을 확인 하는 데 유용 합니다. 
+위협 방지 상태 보고서를 처음 열면 보고서에는 기본적으로 이전의 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 클릭 하 고 날짜 범위를 최대 90 일 정도 변경할 수 있습니다. 이 보고서는 조직의 [Exchange Online 보호 기능과](eop/eop-features.md)장기적인 추세에 대 한 영향을 확인 하는 데 유용 합니다. 
   
 ![위협 보호 상태 보고서 필터](media/ab6b6b8d-e97a-4c3a-8fb1-c4940dcb7a07.png)
   
@@ -90,11 +90,11 @@ ms.locfileid: "32267962"
   
 ![맬웨어 감지 보고서 예](media/a1ba61a3-565a-46d6-b0d5-6a6cff6b31d7.png)
   
-위협 방지 상태 보고서와 같은 다른 보고서와 마찬가지로 보고서에는 최근 7 일간의 데이터가 기본적으로 표시 됩니다. 그러나 **필터** 를 선택 하 여 날짜 범위를 변경할 수는 있습니다. 
+[위협 방지 상태 보고서](#threat-protection-status-report)와 같은 다른 보고서와 마찬가지로 보고서에는 최근 7 일간의 데이터가 기본적으로 표시 됩니다. 그러나 **필터** 를 선택 하 여 날짜 범위를 변경할 수는 있습니다. 
   
 ## <a name="top-malware-report"></a>주요 맬웨어 보고서
 
-**주요 맬웨어** 보고서에는 Exchange Online에서 검색 된 다양 한 유형의 맬웨어가 표시 됩니다. 
+**주요 맬웨어** 보고서에는 [Exchange Online](eop/eop-features.md)에서 검색 된 다양 한 유형의 맬웨어가 표시 됩니다. 
   
 이 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **최상위 맬웨어로**이동 합니다.
   
@@ -120,7 +120,7 @@ ms.locfileid: "32267962"
   
 보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다.
   
-**데이터 표시** 순서 목록을 사용 하 여 상위 보낸 사람, 받는 사람, 스팸 및 맬웨어 받는 사람에 대 한 데이터를 볼 지 여부를 선택 합니다. Advanced Threat Protection에서 검색 된 맬웨어를 받은 사용자도 볼 수 있습니다. 
+**데이터 표시** 순서 목록을 사용 하 여 상위 보낸 사람, 받는 사람, 스팸 및 맬웨어 받는 사람에 대 한 데이터를 볼 지 여부를 선택 합니다. [Exchange Online Protection](eop/exchange-online-protection-overview.md)에서 검색 된 맬웨어를 받은 사용자도 볼 수 있습니다. 
   
 ![데이터 표시 목록을 사용 하 여 특정 정보 보기](media/bd91449f-7d42-4749-8666-7b44044049b8.png)
   
@@ -136,7 +136,7 @@ ms.locfileid: "32267962"
   
 차트에서 특정 날짜를 마우스로 가리키면 위장 메일 메시지의 수를 확인할 수 있습니다.
   
-보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다.
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다. 스푸핑 방지 보호에 대 한 자세한 내용은 [Office 365에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
   
 ## <a name="spam-detections-report"></a>스팸 감지 보고서
 
@@ -152,7 +152,7 @@ ms.locfileid: "32267962"
   
 ![스팸 감지 보고서는 차단 되거나 필터링 된 스팸 메시지의 수를 알려 줍니다.](media/370ec67d-eb30-4863-bfcf-68a41be02295.png)
   
-차트 아래에 검색 된 스팸 항목 목록이 표시 됩니다. 항목을 선택 하 여 스팸 항목이 인바운드 인지, 아웃 바운드 인지, 메시지 ID 및 받는 사람과 같은 추가 정보를 확인 합니다.
+차트 아래에 검색 된 스팸 항목 목록이 표시 됩니다. 항목을 선택 하 여 스팸 항목이 인바운드 인지, 아웃 바운드 인지, 메시지 ID 및 받는 사람과 같은 추가 정보를 확인 합니다. 스팸 방지 보호 기능에 대 한 자세한 내용은 [Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요.
   
 ## <a name="sent-and-received-email-report"></a>보내고 받은 전자 메일 보고서
 
@@ -173,6 +173,8 @@ ms.locfileid: "32267962"
 차트 아래에는 **GoodMail**, **spamcontentfiltered**등의 전자 메일 범주 목록이 표시 됩니다. 맬웨어에 대해 수행 된 작업과 같은 추가 정보와 전자 메일이 들어오거나 나가는 지를 보려면 범주를 선택 합니다.
   
 ![이 보고서는 맬웨어 방지, 스팸 방지 및 기타 메시지 감지에 대해 알려줍니다.](media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
+
+전자 메일 인텔리전스에 대 한 자세한 내용은 [Mail flow intelligence In Office 365](mail-flow-intelligence-in-office-365.md)을 참조 하십시오.
   
 ## <a name="user-reported-messages-report"></a>사용자가 보고 한 메시지 보고서
 
@@ -202,7 +204,7 @@ ms.locfileid: "32267962"
     - 보안 관리자 (Azure Active Directory 관리 센터에서 할당할 수 있음[https://aad.portal.azure.com](https://aad.portal.azure.com))
     - 보안 독자
 
-- exchange online의 경우 exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell cmdlet ( [exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
+- Exchange Online의 경우 Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell Cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
     - 조직 관리
     - 보기 전용 조직 관리
     - 보기 권한만 있는 받는 사람 역할
@@ -217,7 +219,7 @@ ms.locfileid: "32267962"
    
 ## <a name="what-if-the-reports-arent-showing-data"></a>보고서에 데이터가 표시 되지 않으면 어떻게 하나요?
 
-보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 자세한 내용은 [Office 365의 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)를 참조 하세요.
+보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 자세한 내용은 [Office 365에서 위협 으로부터 보호](protect-against-threats.md)를 참조 하세요.
   
 ## <a name="related-topics"></a>관련 항목
 
