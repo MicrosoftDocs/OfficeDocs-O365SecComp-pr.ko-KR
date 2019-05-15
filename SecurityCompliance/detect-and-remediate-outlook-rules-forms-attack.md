@@ -14,26 +14,26 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 59d45e50e15e3709c8a041ead59b8cc6e2a38306
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2189ff7abd640d9c87b97df35ec2b9cd44c74061
+ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256866"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33979494"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
 **요약** Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
 
 ## <a name="what-is-the-outlook-rules-and-custom-forms-injection-attack"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 이란?
-공격자가 테 넌 시의 계정을 위반 하 고를 가져온 후에는이를 검색 하 고 제거 하는 방법을 시도해 야 합니다. 이를 지 속성 메커니즘을 설정 하는 것 이라고 합니다. outlook 규칙을 이용 하거나 outlook에 사용자 지정 양식을 삽입 하면 두 가지 방법으로이 작업을 수행할 수 있습니다.
+공격자가 테 넌 시의 계정을 위반 하 고를 가져온 후에는이를 검색 하 고 제거 하는 방법을 시도해 야 합니다. 이를 지 속성 메커니즘을 설정 하는 것 이라고 합니다. Outlook 규칙을 이용 하거나 Outlook에 사용자 지정 양식을 삽입 하면 두 가지 방법으로이 작업을 수행할 수 있습니다.
 두 경우 모두에서 규칙이 나 양식은 클라우드 서비스에서 데스크톱 클라이언트로 동기화 되므로 클라이언트 소프트웨어의 전체 포맷 및 다시 설치로 인해 주입 메커니즘이 제거 되지 않습니다. 이는 Outlook 클라이언트 소프트웨어가 클라우드의 사서함에 다시 연결 하는 경우 클라우드에서 규칙 및 양식을 다운로드 하기 때문입니다. 규칙 및 양식을 사용 하 고 나면 공격자가 원격 또는 사용자 지정 코드를 실행 하 여 일반적으로 로컬 컴퓨터에 맬웨어를 설치 합니다. 그런 다음 맬웨어가 자격 증명을 다시 도용 하거나 기타 불법 활동을 수행 합니다. 여기서는 클라이언트를 최신 버전으로 패치를 유지 하는 경우 현재 Outlook 클라이언트 기본값이 두 메커니즘을 모두 차단 함에 따라 위협에 취약 하지 않게 된다는 것이 좋습니다. 
 
 공격은 일반적으로 다음 패턴을 따릅니다.
 
 규칙 악용
 1. 공격자가 사용자 사용자의 이름과 암호를 도용 합니다.
-2. 그러면 공격자가 해당 사용자에 게 Exchange 사서함에 로그인 합니다. 사서함은 exchange online에 있거나 exchange 온-프레미스에 있을 수 있습니다.
+2. 그러면 공격자가 해당 사용자에 게 Exchange 사서함에 로그인 합니다. 사서함은 Exchange online에 있거나 Exchange 온-프레미스에 있을 수 있습니다.
 3. 그러면 공격자는 사서함에서 규칙 조건과 일치 하는 전자 메일을 받을 때 트리거되는 전달 규칙을 사서함에 만듭니다. 규칙의 조건 및 트리거 전자 메일의 내용은 서로의 내용에 맞게 구성 됩니다.
 4. 공격자가 자신의 사서함을 정상적으로 사용 하는 사용자에 게 트리거 전자 메일을 보냅니다.
 5. 전자 메일을 받으면 규칙이 트리거됩니다. 규칙의 동작은 일반적으로 원격 (WebDAV) 서버에서 응용 프로그램을 시작 하는 것입니다.
@@ -42,7 +42,7 @@ ms.locfileid: "32256866"
 
 Forms 익스플로잇
 1. 공격자가 사용자 사용자의 이름과 암호를 도용 합니다.
-2. 그러면 공격자가 해당 사용자에 게 Exchange 사서함을 로그인 합니다. 사서함은 exchange online에 있거나 exchange 온-프레미스에 있을 수 있습니다.
+2. 그러면 공격자가 해당 사용자에 게 Exchange 사서함을 로그인 합니다. 사서함은 Exchange online에 있거나 Exchange 온-프레미스에 있을 수 있습니다.
 3. 공격자는 사용자 지정 메일 양식 서식 파일을 만들어 사용자의 사서함에 삽입 합니다.  사용자 지정 양식은 사서함이 사용자 지정 양식을 로드 해야 하는 전자 메일을 받을 때 트리거됩니다. 사용자 지정 양식 및 전자 메일 형식은 각각에 맞게 구성 됩니다.
 4. 공격자가 사용자에 게 자신의 사서함을 정상적으로 사용 하는 트리거 전자 메일을 보냅니다.
 5. 전자 메일을 받으면 양식이 로드 된 것입니다. 폼이 원격 (WebDAV) 서버의 응용 프로그램을 시작 합니다.
@@ -101,7 +101,7 @@ Forms 익스플로잇
 MailboxRulesExport-** yyyy-mm-dd – 응용 프로그램 또는 실행 파일이 포함 된 작업 조건에 대해 행 당 하나씩 규칙을 검사 합니다.
 - ActionType (A 열)-"ID_ACTION_CUSTOM" 값이 표시 되는 경우이 규칙은 악성 것일 수 있습니다.
 - IsPotentiallyMalicious (열 D)-이 값이 "TRUE" 인 경우 규칙은 악성이 될 수 있습니다.
-- actioncommand (column G)-.exe, .zip 확장명을 가진 파일이 나 URL을 참조 하는 항목을 나열 하는 경우 해당 규칙이 악성 인 것 같습니다.
+- ActionCommand (column G)-.exe, .zip 확장명을 가진 파일이 나 URL을 참조 하는 항목을 나열 하는 경우 해당 규칙이 악성 인 것 같습니다.
 
 MailboxFormsExport-** yyyy-mm-dd-.csv-일반적으로 사용자 지정 양식을 사용 하는 것은 드문 일입니다.  이 통합 문서에서 찾을 수 있으면 해당 사용자의 사서함을 열고 양식 자체를 검사 합니다.  조직에서 의도적으로 고의로 추가 하지 않은 경우 악성이 될 수 있습니다.
 
@@ -141,7 +141,7 @@ Exchange Online의 사서함에 대 한 단계
 
 사용자 계정을 보호 하는 가장 좋은 방법은 특히 관리자 계정을 사용 하는 것이 [Office 365 사용자에 대해 multi-factor authentication을 설정](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하는 것입니다.  다음 작업도 수행 해야 합니다.
 <ol>
-    <li>사용자 계정을 <a href="https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports">액세스 하 고 사용</a>하는 방법을 모니터링 합니다. 초기 위반을 막을 수는 없지만 위반의 기간과 영향을 더 일찍 검색 하는 것은 단축 됩니다. 다음을 사용할 수 있습니다. <a href="https://support.office.com/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475">Office 365 Cloud App Security 정책을</a> 사용 하 여 계정을 모니터링 하 고 비정상적인 활동에 대 한 경고를 할 수도 있습니다. 
+    <li>사용자 계정을 <a href="https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports">액세스 하 고 사용</a>하는 방법을 모니터링 합니다. 초기 위반을 막을 수는 없지만 위반의 기간과 영향을 더 일찍 검색 하는 것은 단축 됩니다. 다음을 사용할 수 있습니다. <a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security">Office 365 Cloud App Security 정책을</a> 사용 하 여 계정을 모니터링 하 고 비정상적인 활동에 대 한 경고를 할 수도 있습니다. 
         <ol type="a">
             <li><b>여러 번 실패 한 로그인 시도</b> 이 정책은 사용자의 환경에 프로필을 지정 하 고 알려진 기준에 따라 단일 세션에서 여러 로그인 작업을 수행 하는 경우 경고를 트리거합니다.</li>
             <li><b>불가능 한 여행</b> - 이 정책은 작업 환경에 프로 파일을 만들고, 두 위치 사이의 예상 이동 시간 보다 짧은 기간 동안 서로 다른 위치에 있는 동일한 사용자가 활동을 검색 하는 경우 경고를 트리거합니다. 이는 다른 사용자가 동일한 자격 증명을 사용 하 고 있음을 나타낼 수 있습니다. 이 비정상적인 동작을 검색 하는 경우 초기 학습 기간이 7 일 동안 새 사용자의 작업 패턴을 학습 하는 데 사용 됩니다.</li>
@@ -182,8 +182,8 @@ Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 �
 - 90일 초과 이러한 향상된 기능은 처음 90일간의 작업에서 구축됩니다.
 
 ## <a name="see-also"></a>참고 항목:
-- [악의적인 outlook 규칙](https://silentbreaksecurity.com/malicious-outlook-rules/) SilentBreak 보안 게시물 규칙 벡터에 대 한 자세한 내용은 Outlook 규칙에 대 한 자세한 검토를 제공 합니다. 
-- [MAPI over HTTP 및 mailrule](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/) pwnage 온 mailrule pwnage는 Outlook 규칙을 통해 사서함을 사용할 수 있도록 하는 눈금자 라는 도구에 대해 설명 합니다.
+- [악의적인 Outlook 규칙](https://silentbreaksecurity.com/malicious-outlook-rules/) SilentBreak 보안 게시물 규칙 벡터에 대 한 자세한 내용은 Outlook 규칙에 대 한 자세한 검토를 제공 합니다. 
+- [MAPI OVER HTTP 및 Mailrule](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/) pwnage 온 mailrule Pwnage는 Outlook 규칙을 통해 사서함을 사용할 수 있도록 하는 눈금자 라는 도구에 대해 설명 합니다.
 - 양식 위협 벡터에 대 한 \에 대 한 [Outlook 양식 및 셸](https://sensepost.com/blog/2017/outlook-forms-and-shells/) 
 - [눈금자 코드 베이스](https://github.com/sensepost/ruler)
 - [손상 된 눈금자 표시기](https://github.com/sensepost/notruler/blob/master/iocs.md)

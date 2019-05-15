@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다. 그런 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 7d7ef6f1f9737a0da3787b093d499a0833885eff
-ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
+ms.openlocfilehash: 57b30a3c7202940ebb5422d7ef392e93c5351bfb
+ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33516506"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33979504"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -229,7 +229,8 @@ $RoleGroups | foreach {Write-Output -InputObject `r`n,$_.Name,"-----------------
     
 ## <a name="viewing-cloud-app-security-alerts"></a>Cloud App Security 알림 보기
   
-Office 365 Cloud App Security 정책이 트리거하는 경고는 이제 보안 및 준수 센터의 **경고 보기** 페이지에 표시 됩니다. 여기에는 Office 365 Cloud App Security의 변칙 검색 정책에 의해 트리거되는 작업 정책 및 알림에 의해 트리거되는 경고가 포함 됩니다. 즉, 보안 및 준수 센터의 모든 알림을 볼 수 있습니다. Office 365 Cloud App Security는 Office 365 Enterprise E5 또는 Office 365 US 정부 G5 구독이 있는 조직 에서만 사용할 수 있습니다. 자세한 내용은 [Overview For Office 365 Cloud App Security](office-365-cas-overview.md)를 참조 하세요.
+Office 365 Cloud App Security 정책이 트리거하는 경고는 이제 보안 및 준수 센터의 **경고 보기** 페이지에 표시 됩니다. 여기에는 Office 365 Cloud App Security의 변칙 검색 정책에 의해 트리거되는 작업 정책 및 알림에 의해 트리거되는 경고가 포함 됩니다. 즉, 보안 및 준수 센터의 모든 알림을 볼 수 있습니다. Office 365 Cloud App Security는 Office 365 Enterprise E5 또는 Office 365 US 정부 G5 구독이 있는 조직 에서만 사용할 수 있습니다. 자세한 내용은 [Cloud App Security의 개요](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
+)를 참조 하세요.
 
 또한 Enterprise Mobility + Security E5 구독 또는 독립 실행형 서비스로 Microsoft Cloud App Security이 있는 조직은 보안 &의 Office 365 앱 및 서비스와 관련 된 Cloud App Security alerts를 볼 수 있습니다. 준수 센터
 
@@ -237,7 +238,7 @@ Office 365 Cloud App Security 정책이 트리거하는 경고는 이제 보안 
 
 ![원본 필터를 사용 하 여 Cloud App 보안 경고만 표시](media/FilterCASAlerts.png)
 
-보안 및 준수 센터 경고 정책에 따라 트리거되는 알림과 마찬가지로 Cloud App Security alert을 클릭 하 여 경고에 대 한 세부 정보가 포함 된 플라이 아웃 페이지를 표시할 수 있습니다. 이 경고에는 클라우드 앱 보안 포털의 세부 정보를 확인 하 고 경고를 트리거한 해당 클라우드 앱 보안 정책에 대 한 링크를 보여 주는 링크가 포함 되어 있습니다. [Office 365 Cloud App Security에서 경고에 대 한 검토 및 작업 수행](review-office-365-cas-alerts.md)을 참조 하세요.
+보안 및 준수 센터 경고 정책에 따라 트리거되는 알림과 마찬가지로 Cloud App Security alert을 클릭 하 여 경고에 대 한 세부 정보가 포함 된 플라이 아웃 페이지를 표시할 수 있습니다. 이 경고에는 클라우드 앱 보안 포털의 세부 정보를 확인 하 고 경고를 트리거한 해당 클라우드 앱 보안 정책에 대 한 링크를 보여 주는 링크가 포함 되어 있습니다. [Cloud App Security에서 알림 모니터링을](https://docs.microsoft.com/cloud-app-security/monitor-alerts)참조 하세요.
 
 ![클라우드 앱 보안 포털에 대 한 링크를 포함 하는 알림 세부 정보](media/CASAlertDetail.png)
 

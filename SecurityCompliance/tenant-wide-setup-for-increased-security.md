@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: 91471f5e4b16f6950b1f74d747ebce3f802e4890
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f9d0eb9cec597c44781539fa9231c5bf2b3cfe16
+ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260282"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33979474"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 
@@ -28,7 +28,7 @@ ms.locfileid: "32260282"
   
 ## <a name="check-office-365-secure-score"></a>Office 365 보안 점수 확인
 
-office 365 안전한 점수는 일반 활동 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 일부 테 넌 트 수준 설정을 조정 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 확보 하기 위한 것입니다. [Office 365 보안 점수 소개를](office-365-secure-score.md)참조 하세요.
+Office 365 안전한 점수는 일반 활동 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 일부 테 넌 트 수준 설정을 조정 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 확보 하기 위한 것입니다. [Microsoft 보안 점수](microsoft-secure-score.md)를 참조 하세요.
   
 ## <a name="tune-threat-management-policies-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 위협 관리 정책 조정
 
@@ -38,14 +38,14 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 |:-----|:-----|:-----|
 |**피싱 방지** <br/> |예  <br/> | 사용자 지정 도메인이 있는 경우 CEO와 같은 가장 귀중 한 사용자의 전자 메일 계정을 보호 하 고 도메인을 보호 하기 위한 피싱 방지 정책을 만듭니다. 검토: "예: 사용자와 도메인을 보호 하는 피싱 정책" 예제를 참조 하 여 [피싱 방지 정책을 설정](set-up-anti-phishing-policies.md) 하 고 정책을 만듭니다.|
 |**맬웨어 방지 엔진** <br/> |예  <br/> | 기본 정책을 편집 합니다.  <br/> &ensp;&ensp;• 일반 첨부 파일 형식 필터-선택  <br/><br>  사용자 지정 맬웨어 필터 정책을 만들어 조직의 지정 된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다.  <br/> <br> 추가 정보:  <br/> &ensp;&ensp;• [맬웨어 방지 보호 기능](https://technet.microsoft.com/en-us/library/jj200669%28v=exchg.150%29.aspx) <br/> &ensp;&ensp;• [맬웨어 방지 정책 구성](https://technet.microsoft.com/en-us/library/jj200745%28v=exchg.150%29.aspx) <br/> |
-|**ATP 안전한 첨부 파일** <br/> |아니요  <br/> | 안전한 첨부 파일의 기본 페이지에서 다음 확인란을 선택 하 여 SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호 합니다.  <br/>  &ensp;&ensp;• SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 켜기  <br/> <br> 다음 설정을 사용 하 여 새 안전 첨부 파일 정책을 추가 합니다.  <br/>  &ensp;&ensp;• block-검색 된 맬웨어로부터 현재 및 앞으로의 전자 메일 및 첨부 파일 차단 (이 옵션 선택)  <br/>  &ensp;&ensp;• redirect 설정-(이 상자를 선택 하 고 관리자 또는 격리 계정과 같은 전자 메일 주소를 입력 합니다.)  <br/>  &ensp;&ensp;• 첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택을 적용 합니다 (선택 사항).  <br/>  &ensp;&ensp;• 적용 대상-받는 사람 도메인 (도메인 선택)  <br/>  <br>추가 정보: [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) <br/> |
-|**ATP 안전한 링크** <br/> |예  <br/> | 전체 조직에 대 한 기본 정책에이 설정을 추가 합니다.  <br/> &ensp;&ensp;• office 365 ProPlus, iOS 및 Android 용 office에서 안전한 링크 사용 (이 옵션을 선택 합니다.)  <br/> <br>특정 받는 사람에 대 한 권장 정책:  <br/>  &ensp;&ensp;• 사용자가 링크를 클릭할 때 알려진 악성 링크 목록에 대해 url이 다시 작성 되 고 확인 됩니다 (이 옵션을 선택).  <br/>  &ensp;&ensp;• 다운로드 가능한 콘텐츠를 검색 하기 위해 안전한 첨부 파일을 사용 합니다 (선택 상자).  <br/>  &ensp;&ensp;• 적용 대상-받는 사람 도메인이 도메인을 선택 합니다.  <br/> <br> 자세한 내용은 [Office 365 ATP 안전한 링크](atp-safe-links.md)를 제공 합니다.  <br/> |
+|**ATP 안전한 첨부 파일** <br/> |아니요  <br/> | 안전한 첨부 파일의 기본 페이지에서 다음 확인란을 선택 하 여 SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호 합니다.  <br/>  &ensp;&ensp;• SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 켜기  <br/> <br> 다음 설정을 사용 하 여 새 안전 첨부 파일 정책을 추가 합니다.  <br/>  &ensp;&ensp;• Block-검색 된 맬웨어로부터 현재 및 앞으로의 전자 메일 및 첨부 파일 차단 (이 옵션 선택)  <br/>  &ensp;&ensp;• Redirect 설정-(이 상자를 선택 하 고 관리자 또는 격리 계정과 같은 전자 메일 주소를 입력 합니다.)  <br/>  &ensp;&ensp;• 첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택을 적용 합니다 (선택 사항).  <br/>  &ensp;&ensp;• 적용 대상-받는 사람 도메인 (도메인 선택)  <br/>  <br>추가 정보: [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) <br/> |
+|**ATP 안전한 링크** <br/> |예  <br/> | 전체 조직에 대 한 기본 정책에이 설정을 추가 합니다.  <br/> &ensp;&ensp;• Office 365 ProPlus, iOS 및 Android 용 Office에서 안전한 링크 사용 (이 옵션을 선택 합니다.)  <br/> <br>특정 받는 사람에 대 한 권장 정책:  <br/>  &ensp;&ensp;• 사용자가 링크를 클릭할 때 알려진 악성 링크 목록에 대해 Url이 다시 작성 되 고 확인 됩니다 (이 옵션을 선택).  <br/>  &ensp;&ensp;• 다운로드 가능한 콘텐츠를 검색 하기 위해 안전한 첨부 파일을 사용 합니다 (선택 상자).  <br/>  &ensp;&ensp;• 적용 대상-받는 사람 도메인이 도메인을 선택 합니다.  <br/> <br> 자세한 내용은 [Office 365 ATP 안전한 링크](atp-safe-links.md)를 제공 합니다.  <br/> |
 |**스팸 방지 (메일 필터링)** <br/> |예  <br/> | 시청할 대상:  <br/>  &ensp;&ensp;• 스팸 너무 많은 경우 — 사용자 지정 설정을 선택 하 고 기본 스팸 필터 정책을 편집 합니다.  <br/>  &ensp;&ensp;• 스푸핑 인텔리전스-도메인 스푸핑 중인 보낸 사람을 검토 합니다. 이 보낸 사람을 차단 하거나 허용 합니다.  <br/>  <br>추가 정보: [Office 365 전자 메일 스팸 방지 보호](anti-spam-protection.md)기능  <br/> |
-|***전자 메일 인증*** <br/> |예  <br/> |전자 메일 인증에서는 DNS (Domain Name System)를 사용 하 여 전자 메일을 보낸 사람에 대 한 전자 메일 메시지에 안정형 정보를 추가 합니다. office 365은 기본 도메인 (onmicrosoft.com)에 대해 전자 메일 인증을 설정 하지만 office 365 관리자는 사용자 지정 도메인에 대해 전자 메일 인증을 사용할 수도 있습니다. 다음과 같은 세 가지 인증 방법이 사용 됩니다. <br/> <br> &ensp;&ensp;• 보낸 사람 정책 프레임 워크 (SPF).<br/>&ensp;&ensp;&ensp;&ensp;-설치의 경우 [스푸핑을 방지 하려면 Office 365에서 SPF 설정을](set-up-spf-in-office-365-to-help-prevent-spoofing.md)참조 하세요. <br/> &ensp;&ensp;• domainkeys 식별 된 메일 (dkim) <br/> &ensp;&ensp;&ensp;&ensp;- [Office 365에서 사용자 지정 도메인의 전자 메일에 dkim 사용](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)을 참조 하세요. <br>&ensp;&ensp;&ensp;&ensp;-dkim을 구성한 후 보안 센터에서 사용 하도록 설정 합니다.<br/> &ensp;&ensp;• 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) <br/> &ensp;&ensp;&ensp;&ensp;-DMARC 설치 시 [Office 365에서 DMARC을 사용 하 여 전자 메일의 유효성을 검사](use-dmarc-to-validate-email.md)합니다.<br/>  <br/>
+|***전자 메일 인증*** <br/> |예  <br/> |전자 메일 인증에서는 DNS (Domain Name System)를 사용 하 여 전자 메일을 보낸 사람에 대 한 전자 메일 메시지에 안정형 정보를 추가 합니다. Office 365은 기본 도메인 (onmicrosoft.com)에 대해 전자 메일 인증을 설정 하지만 Office 365 관리자는 사용자 지정 도메인에 대해 전자 메일 인증을 사용할 수도 있습니다. 다음과 같은 세 가지 인증 방법이 사용 됩니다. <br/> <br> &ensp;&ensp;• 보낸 사람 정책 프레임 워크 (SPF).<br/>&ensp;&ensp;&ensp;&ensp;-설치의 경우 [스푸핑을 방지 하려면 Office 365에서 SPF 설정을](set-up-spf-in-office-365-to-help-prevent-spoofing.md)참조 하세요. <br/> &ensp;&ensp;• DomainKeys 식별 된 메일 (DKIM) <br/> &ensp;&ensp;&ensp;&ensp;- [Office 365에서 사용자 지정 도메인의 전자 메일에 DKIM 사용](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)을 참조 하세요. <br>&ensp;&ensp;&ensp;&ensp;-DKIM을 구성한 후 보안 센터에서 사용 하도록 설정 합니다.<br/> &ensp;&ensp;• 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) <br/> &ensp;&ensp;&ensp;&ensp;-DMARC 설치 시 [Office 365에서 DMARC을 사용 하 여 전자 메일의 유효성을 검사](use-dmarc-to-validate-email.md)합니다.<br/>  <br/>
 |
 
 > [!NOTE]
-> spf, 하이브리드 배포 및 문제 해결을 위한 비표준 배포의 경우 [Office 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)입니다.
+> SPF, 하이브리드 배포 및 문제 해결을 위한 비표준 배포의 경우 [Office 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)입니다.
 
 ## <a name="view-dashboards-and-reports-in-the-security-and-compliance-centers"></a>보안 및 준수 센터에서 대시보드 및 보고서 보기
 
@@ -55,7 +55,7 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 |:-----|:-----|
 |위협 관리 대시보드  <br/> |보안 센터의 위협 관리 섹션에서이 대시보드를 사용 하 여 이미 처리 된 위협을 확인 하 고, 위협 조사 및 응답 기능에 대해 이미 수행한 작업을 비즈니스 의사 결정권자에 게 보고 하는 편리한 도구로, 비즈니스 보호  <br/> |
 |위협 탐색기  <br/> |이는 보안 센터의 위협 관리 섹션에도 있습니다. Office 365 테 넌 트에 대 한 공격을 조사 하거나 발생 하는 경우 위협 탐색기를 사용 하 여 위협을 분석 합니다. 위협 탐색기는 시간에 따른 공격 량을 보여 주며 위협 계열, 침입자 인프라 등을 통해이 데이터를 분석할 수 있습니다. 인시던트 목록에 대해 의심 스러운 전자 메일을 표시할 수도 있습니다.  <br/> |
-|보고서-대시보드  <br/> |보안 센터의 Reports (보고서) 섹션에서 SharePoint online 및 Exchange Online 조직에 대 한 감사 보고서를 봅니다. 보고서 보기 페이지에서 azure ad (Active Directory) 사용자 로그인 보고서, 사용자 활동 보고서 및 azure ad audit 로그에 액세스할 수도 있습니다.  <br/> |
+|보고서-대시보드  <br/> |보안 센터의 Reports (보고서) 섹션에서 SharePoint Online 및 Exchange Online 조직에 대 한 감사 보고서를 봅니다. 보고서 보기 페이지에서 azure AD (Active Directory) 사용자 로그인 보고서, 사용자 활동 보고서 및 Azure AD audit 로그에 액세스할 수도 있습니다.  <br/> |
    
 ![보안 센터 대시보드](media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
   
@@ -104,7 +104,7 @@ SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터에는 동일
     
 - "장치 액세스 ' 페이지 (최신 인증을 사용 하지 않는 앱에서의 액세스 제어)의 SharePoint 관리 센터에서이를 구성 합니다. 차단을 선택 합니다. 
     
-## <a name="get-started-with-cloud-app-security-or-office-365-cloud-app-security"></a>cloud app security 또는 Office 365 cloud App security 시작 하기
+## <a name="get-started-with-cloud-app-security-or-office-365-cloud-app-security"></a>Cloud App Security 또는 Office 365 Cloud App Security 시작 하기
 
 Office 365 Cloud App Security를 사용 하 여 위험을 평가 하 고 의심 스러운 활동에 대해 알림을 받아 작업을 자동으로 수행 합니다. Office 365 E5 요금제가 필요 합니다.
   
@@ -116,9 +116,9 @@ Office 365 Cloud App Security를 사용 하 여 위험을 평가 하 고 의심 
   
 - [Cloud App Security 배포](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
     
-- [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/en-us/cloud-platform/cloud-app-security)
+- [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/cloud-platform/cloud-app-security)
     
-- [Overview of Office 365 Cloud App Security](office-365-cas-overview.md)
+- [Cloud App Security 란?](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
     
 ![Cloud App Security 대시보드](media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)
   
@@ -128,6 +128,6 @@ Office 365 Cloud App Security를 사용 하 여 위험을 평가 하 고 의심 
   
 - [정치적 캠페인, 비영리 및 기타 agile 조직에 대 한 Microsoft 보안 지침](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance) (특히 클라우드 전용 환경인 환경에서 이러한 권장 사항을 사용할 수 있습니다.) 
     
-- [id 및 장치에 대 한 권장 보안 정책 및 구성](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations) (이러한 권장 사항에는 AD FS 환경에 대 한 도움말이 포함 됩니다.) 
+- [Id 및 장치에 대 한 권장 보안 정책 및 구성](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations) (이러한 권장 사항에는 AD FS 환경에 대 한 도움말이 포함 됩니다.) 
     
 

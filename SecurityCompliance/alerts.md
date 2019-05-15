@@ -15,16 +15,16 @@ ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
 description: Office 365의 보안을 지원 하기 위해 설정할 수 있는 경고에 대해 알아봅니다.
-ms.openlocfilehash: e02e78b091c7e5e2347c90c14a99cf838b4482b4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 51a53961a5a6e575986c6a5192a6980052d015a4
+ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242566"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33979484"
 ---
 # <a name="alerts-in-the-office-365-security-amp-compliance-center"></a>Alerts in the Office 365 Security &amp; Compliance Center
 
-office 365 보안 &amp; 준수 센터의 알림 기능을 사용 하 여 office [365 Cloud App Security 알림의](office-365-cas-overview.md)일부로 고급 알림 관리를 포함 하 여 office 365 조 직에 대 한 알림을 보고 관리 합니다.
+Office 365 보안 &amp; 준수 센터의 알림 기능을 사용 하 여 Office [365 Cloud App Security 알림의](office-365-cas-overview.md)일부로 고급 알림 관리를 포함 하 여 office 365 조 직에 대 한 알림을 보고 관리 합니다.
   
 ## <a name="how-to-get-to-the-office-365-alerts-features"></a>Office 365 알림 기능에 액세스 하는 방법
 
@@ -55,6 +55,6 @@ Office 365의 경고는 보안 &amp; 및 준수 센터에 있습니다. 페이�
 |**도구**|**설명**|
 |:-----|:-----|
 |[알림 관리](create-activity-alerts.md) <br/> |사용자가 Office 365에서 특정 작업을 수행할 때 활동 알림을 사용 하 여 자신이 나 다른 관리자에 게 전자 메일 알림을 보낼 수 있습니다. 활동 경고는 경고를 만든 이벤트가 발생 하는 경우 전자 메일 메시지를 전송 한다는 점을 제외 하 고는 Office 365 감사 로그에서 이벤트를 검색 하는 것과 비슷합니다.  <br/> |
-|[고급 알림 관리](office-365-cas-overview.md) <br/> |office 365 Cloud App Security의 **고급 알림 관리** 기능을 사용 하 여 office 365에서 의심 스 럽 거 나 비정상적인 활동을 알릴 수 있는 정책을 설정 합니다. 경고가 표시 되 면 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있습니다.  <br/> |
+|[고급 알림 관리](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) <br/> |Office 365 Cloud App Security의 **고급 알림 관리** 기능을 사용 하 여 office 365에서 의심 스 럽 거 나 비정상적인 활동을 알릴 수 있는 정책을 설정 합니다. 경고가 표시 되 면 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있습니다.  <br/> |
    
 
