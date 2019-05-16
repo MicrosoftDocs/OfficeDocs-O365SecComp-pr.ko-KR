@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 04/03/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠에서 중요한 정보를 찾을 때는 소유 말하는 규칙에서 해당 정보를 설명해야 합니다. DLP(데이터 손실 방지)에는 바로 사용할 수 있는 가장 일반적인 중요한 정보 유형에 대한 규칙이 포함되어 있습니다. 이러한 규칙을 사용하려면 정책에 포함해야 합니다. 조직의 특정 요구 사항에 맞게 이러한 기본 제공 규칙을 조정하려고 할 경우 사용자 지정 중요한 정보 유형을 만들면 됩니다. 이 항목에서는 광범위한 잠재적 신용 카드 정보를 검색하도록 기존 규칙 컬렉션을 포함하는 XML 파일을 사용자 지정하는 방법을 보여 줍니다.
-ms.openlocfilehash: a4e9a6e981889bd2be19451127fc96b351b4b00f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: ddfd8bd82164fde6d2121b37d867caaa69355b4b
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258146"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077204"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
