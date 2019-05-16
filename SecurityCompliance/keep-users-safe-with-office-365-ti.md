@@ -1,10 +1,10 @@
 ---
-title: office 365 사용자에 게 office 365 위협 조사 및 응답 기능을 안전 하 게 유지
+title: Office 365 사용자에 게 Office 365 위협 조사 및 응답 기능을 안전 하 게 유지
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 02/13/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,23 +15,23 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 9ed20713cac07631e63b969efea402e8dbeb8f6d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 51d776fe2ed5957016028451c1f7dcd1812973c3
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254062"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077264"
 ---
-# <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>office 365 사용자에 게 office 365 위협 조사 및 응답 기능을 안전 하 게 유지
+# <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Office 365 사용자에 게 Office 365 위협 조사 및 응답 기능을 안전 하 게 유지
 
 ## <a name="overview"></a>개요
 
 어떤 Office 365 사용자가 공격을 받고 있는지, 더 이상 손상 되지 않습니까? 사용자를 대상으로 하는 공격 으로부터 완화 하 고 복구 하는 방법을 확인 하세요. Office 365에서 이미 제공 되는 보안 기능을 사용 하 여이 작업을 정확히 확인할 수 있나요? 
   
-[office 365 위협 조사 및 응답](office-365-ti.md) 은 office 365 E5 구독에 포함 된 기능 집합으로, office 365 Advanced Threat Protection 계획 2의 일부분으로 제공 됩니다. Office 365 위협 조사 및 응답 기능을 통해 Microsoft IT는 사회 공학적 인시던트에 대 한 해결 방법을 80%로 줄이고, 월별 사례 처리량을 지난 2 분기와 비교 하 여 매달 37%까지 줄일 수 있도록 했습니다. 
+[Office 365 위협 조사 및 응답](office-365-ti.md) 은 Office 365 E5 구독에 포함 된 기능 집합으로, Office 365 Advanced Threat Protection 계획 2의 일부분으로 제공 됩니다. Office 365 위협 조사 및 응답 기능을 통해 Microsoft IT는 사회 공학적 인시던트에 대 한 해결 방법을 80%로 줄이고, 월별 사례 처리량을 지난 2 분기와 비교 하 여 매달 37%까지 줄일 수 있도록 했습니다. 
 
 > [!IMPORTANT]
-> 위협 조사 및 응답 기능 (이전의 office 365 위협 인텔리전스)은 이제 추가 위협 방지 기능과 함께 office 365 Advanced Threat protection 계획 2의 일부입니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> 위협 조사 및 응답 기능 (이전의 Office 365 위협 인텔리전스)은 이제 추가 위협 방지 기능과 함께 Office 365 Advanced Threat Protection 계획 2의 일부입니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 최근에는 위협 으로부터 검색 및 복구 하는 방법을 개선 하는 데 도움이 되는 새로운 기능이 추가 되었습니다. 다음은 업데이트 된 위협 조사 및 응답 기능을 통해 보다 효율적으로 수행할 수 있는 방법에 대 한 간략 한 설명입니다.
   
@@ -62,11 +62,11 @@ Office 365 위협 조사 및 응답 기능은 Microsoft 지능형 보안 그래�
    
 ## <a name="why-use-office-365-threat-investigation-and-response-capabilities"></a>Office 365 위협 조사 및 응답 기능을 사용 하는 이유
 
-Gartner에서 $90b를 단독으로 cybersecurity에서 사용한 추정치입니다. Sid를 제거 하는 경우 Gartner의 주요 조사 분석가는 "업계의 교대조가 검색 및 응답으로 이동 하는 것을 말합니다. 검색 및 응답 기능에 연결 되어 있지 않으면 futile 방지 되는 일반 메시지를 보냅니다. " 위협 investigtion 및 응답은 모든 기업의 서비스 포트폴리오에서 중요 한 부분으로, 독립 실행형 서비스로 사용 하거나 Office 365 E5의 일부로 사용할 수 있습니다.
+Gartner에서 $90b를 단독 2017으로 cybersecurity에서 사용한 추정치입니다. Sid를 제거 하는 경우 Gartner의 주요 조사 분석가는 "업계의 교대조가 검색 및 응답으로 이동 하는 것을 말합니다. 검색 및 응답 기능에 연결 되어 있지 않으면 futile 방지 되는 일반 메시지를 보냅니다. " 위협 investigtion 및 응답은 모든 기업의 서비스 포트폴리오에서 중요 한 부분으로, 독립 실행형 서비스로 사용 하거나 Office 365 E5의 일부로 사용할 수 있습니다.
   
 ## <a name="whats-next"></a>다음 작업
 
-- 이 기록 된 세션의 office 365 위협 조사 및 응답 기능에 대 한 자세한 내용은 [office 365을 사용 하 여 고 사이버 공격](https://myignite.microsoft.com/videos/53723) 를 계속 확인 하세요.
+- 이 기록 된 세션의 Office 365 위협 조사 및 응답 기능에 대 한 자세한 내용은 [office 365을 사용 하 여 고 사이버 공격](https://myignite.microsoft.com/videos/53723) 를 계속 확인 하세요.
     
 - [지금 office 365 위협 조사 및 응답 기능을 사용해](https://aka.ms/tryo365threatintel3) 보거나 office E5 평가판을 시작 해 보세요. 
     

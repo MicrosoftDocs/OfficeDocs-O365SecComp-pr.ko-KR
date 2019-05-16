@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 03/19/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 83e75f1a38038f1c95697f4db3e7b1134d03779d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 46f11a4e5693cf243ff72acd6d87406c34af247a
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261102"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077224"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -45,12 +45,12 @@ ms.locfileid: "32261102"
 
 ![보안 대시보드-위협 관리 요약 위젯](media/SecDash-ThreatMgmtSummary.png)
 
-위협 관리 요약에 표시 되는 정보는 구독에 포함 된 항목에 따라 달라 집니다. 다음 표에서는 office 365 enterprise E3 및 office 365 enterprise E5에 포함 된 정보를 설명 합니다.
+위협 관리 요약에 표시 되는 정보는 구독에 포함 된 항목에 따라 달라 집니다. 다음 표에서는 Office 365 Enterprise E3 및 Office 365 Enterprise E5에 포함 된 정보를 설명 합니다.
 
 
 |Office 365 Enterprise E3  |Office 365 Enterprise E5  |
 |---------|---------|
-|차단 된 맬웨어 메시지<br/>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br><br><br><br> |차단 된 맬웨어 메시지<br>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br>제로 일 맬웨어 차단<br>검색 된 고급 피싱 메시지<br>차단 된 악의적인 url |
+|차단 된 맬웨어 메시지<br/>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br><br><br><br> |차단 된 맬웨어 메시지<br>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br>제로 일 맬웨어 차단<br>검색 된 고급 피싱 메시지<br>차단 된 악의적인 Url |
 
 위협 관리 요약 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오. 
 
@@ -60,7 +60,7 @@ ms.locfileid: "32261102"
 
 ![위협 방지 상태 위젯](media/tpswidget.png)
 
-세부 정보는 office 365 구독에 [office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](eop/exchange-online-protection-eop.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
+세부 정보는 Office 365 구독에 [office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](eop/exchange-online-protection-eop.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
 
 
 |구독에 다음이 포함 된 경우 ... |다음 정보가 표시 됩니다. |
@@ -97,11 +97,11 @@ ms.locfileid: "32261102"
 
 ![고급 통찰력](media/smartinsights.png)
 
-예를 들어 일부 사용자가 정크 메일 옵션을 사용 하지 않도록 설정 했으므로 피싱 전자 메일 메시지가 배달 되는 것을 볼 수 있습니다. insights 작동 방식에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 Reports and insights](reports-and-insights-in-security-and-compliance.md)를 참조 하세요.
+예를 들어 일부 사용자가 정크 메일 옵션을 사용 하지 않도록 설정 했으므로 피싱 전자 메일 메시지가 배달 되는 것을 볼 수 있습니다. Insights 작동 방식에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 Reports and insights](reports-and-insights-in-security-and-compliance.md)를 참조 하세요.
   
 ## <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
-조직의 구독에 [Office 365 advanced threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 조직의 보안 팀은이 섹션의 정보를 사용 하 여 최신 캠페인을 이해 하 고 위협을 조사 하 고 인시던트를 관리할 수 있습니다. 
+조직의 구독에 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 조직의 보안 팀은이 섹션의 정보를 사용 하 여 최신 캠페인을 이해 하 고 위협을 조사 하 고 인시던트를 관리할 수 있습니다. 
   
 ![위협 인텔리전스를 통해 조직에서 대상이 되는 공격을 이해 하는 데 도움이 됩니다.](media/threatintelwidget.png)
   
@@ -112,7 +112,7 @@ ms.locfileid: "32261102"
   
 ![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](media/trends.png)
   
-또한 조직의 office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 해당 작업을 보고 수행할 수 있도록 합니다. 우선 순위가 높은 보안 알림 
+또한 조직의 Office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 해당 작업을 보고 수행할 수 있도록 합니다. 우선 순위가 높은 보안 알림 
 
 보내고 받은 전자 메일 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오. 
 

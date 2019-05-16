@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.UnifiedDLPRuleContentPropertyContainsWords
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
-ms.openlocfilehash: ad643c77d477f6b9aaecb122010584510ea9bf7e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 4db84ac4fd0c62dff0834c68827808f832a36d03
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265320"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077284"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -28,7 +28,7 @@ Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 중요한 �
   
 ![Office 365 외부 분류 시스템을 보여 주는 다이어그램](media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
   
-예를 들어 조직에서 Windows Server FCI를 사용하여 주민 등록 번호와 같은 PII(개인 식별이 가능한 정보)를 사용하여 문서를 식별한 다음, 문서에 나오는 PII의 종류 및 횟수에 따라 **개인 식별 정보** 속성을 **높음**, **보통**, **낮음**, **공용** 또는 **PII 아님**으로 설정하여 문서를 분류할 수 있습니다. Office 365에서 해당 속성이 **높음** 및 **보통**과 같은 특정 값으로 설정된 문서를 식별한 다음 해당 파일에 대한 액세스 차단과 같은 작업을 수행하는 DLP 정책을 만들 수 있습니다. 해당 속성이 **낮음**으로 설정된 경우에는 전자 메일 알림 전송 등의 다른 작업을 수행하는 다른 규칙을 동일한 정책에 만들 수도 있습니다. 이러한 방식으로 office 365의 DLP는 windows server fci와 통합 되며, windows server 기반 파일 서버에서 office 365를 업로드 하거나 공유 하는 office 문서를 보호 하는 데 도움이 될 수 있습니다.
+예를 들어 조직에서 Windows Server FCI를 사용하여 주민 등록 번호와 같은 PII(개인 식별이 가능한 정보)를 사용하여 문서를 식별한 다음, 문서에 나오는 PII의 종류 및 횟수에 따라 **개인 식별 정보** 속성을 **높음**, **보통**, **낮음**, **공용** 또는 **PII 아님**으로 설정하여 문서를 분류할 수 있습니다. Office 365에서 해당 속성이 **높음** 및 **보통**과 같은 특정 값으로 설정된 문서를 식별한 다음 해당 파일에 대한 액세스 차단과 같은 작업을 수행하는 DLP 정책을 만들 수 있습니다. 해당 속성이 **낮음**으로 설정된 경우에는 전자 메일 알림 전송 등의 다른 작업을 수행하는 다른 규칙을 동일한 정책에 만들 수도 있습니다. 이러한 방식으로 Office 365의 DLP는 Windows Server FCI와 통합 되며, Windows Server 기반 파일 서버에서 Office 365를 업로드 하거나 공유 하는 Office 문서를 보호 하는 데 도움이 될 수 있습니다.
   
 DLP 정책은 단순히 특정 속성 이름/값 쌍을 찾습니다. 문서 속성에 SharePoint 검색에 대한 해당 관리 속성이 있으면 어떤 속성도 사용할 수 있습니다. 예를 들어 SharePoint 사이트 모음에서 **고객** 필수 필드가 있는 **출장 보고서**라는 콘텐츠 형식을 사용할 수 있습니다. 사용자는 출장 보고서를 만들 때마다 고객 이름을 입력해야 합니다. 이 속성 이름/값 쌍을 DLP 정책에서도 사용할 수 있습니다. 예를 들어 **고객** 필드에 **Contoso**가 포함되어 있을 때 외부 사용자의 문서 액세스를 차단하는 규칙을 원할 수 있습니다.
   
@@ -78,19 +78,19 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
     
 ## <a name="create-a-dlp-policy-that-uses-an-fci-property-or-other-property"></a>FCI 속성 또는 기타 속성을 사용하는 DLP 정책 만들기
 
-이 예에서는 조직에서 Windows Server 기반 파일 서버에 fci를 사용 하 고 있습니다. 특히 **높은**, **중간**, **낮음**, **공용**, **PII가 아닌**사용할 수 있는 **개인 식별** 이 가능한 값이 포함 된 fci 분류 속성을 사용 하 고 있습니다. 이제 Office 365의 DLP 정책에서 기존 fci 분류를 활용 하려고 합니다.
+이 예에서는 조직에서 Windows Server 기반 파일 서버에 FCI를 사용 하 고 있습니다. 특히 **높은**, **중간**, **낮음**, **공용**, **PII가 아닌**사용할 수 있는 **개인 식별** 이 가능한 값이 포함 된 fci 분류 속성을 사용 하 고 있습니다. 이제 Office 365의 DLP 정책에서 기존 FCI 분류를 활용 하려고 합니다.
   
 먼저 위 단계에 따라 SharePoint Online에서 관리 속성을 만듭니다. 이 속성은 FCI 속성에서 자동으로 만들어진 크롤링 속성에 매핑됩니다.
   
 다음으로, 조건 **문서 속성**을 사용 하는 두 개의 규칙을 포함 하는 DLP 정책을 만듭니다.
   
-- **fci PII 콘텐츠-높음, 보통** 첫 번째 규칙은 fci 분류 속성 **개인 식별 정보가** **높은** 또는 **보통** 이 고 문서가 조직 외부의 사용자와 공유 되는 경우 문서에 대 한 액세스를 제한 합니다. 
+- **Fci PII 콘텐츠-높음, 보통** 첫 번째 규칙은 FCI 분류 속성 **개인 식별 정보가** **높은** 또는 **보통** 이 고 문서가 조직 외부의 사용자와 공유 되는 경우 문서에 대 한 액세스를 제한 합니다. 
     
-- **fci PII 콘텐츠-낮음** 두 번째 규칙은 fci 분류 속성 **개인 식별 정보가** **낮은** 정보이 고 문서가 조직 외부의 사용자와 공유 되는 경우 문서 소유자에 게 알림을 보냅니다. 
+- **Fci PII 콘텐츠-낮음** 두 번째 규칙은 FCI 분류 속성 **개인 식별 정보가** **낮은** 정보이 고 문서가 조직 외부의 사용자와 공유 되는 경우 문서 소유자에 게 알림을 보냅니다. 
     
 ### <a name="create-the-dlp-policy-by-using-powershell"></a>PowerShell을 사용 하 여 DLP 정책 만들기
 
-조건 **문서 속성** 에는 보안 &amp; 및 준수 센터의 UI에서 일시적으로 사용할 수 없지만 PowerShell을 사용 하 여이 조건을 계속 사용할 수 있습니다. `New\Set\Get-DlpCompliancePolicy` cmdlet을 사용 하 여 DLP 정책에 대 한 작업을 수행 하 고 `New\Set\Get-DlpComplianceRule` `ContentPropertyContainsWords` 매개 변수와 함께 cmdlet을 사용 하 여 조건을 추가할 수 있습니다 **문서 속성에 이러한 값이 포함 되어**있습니다.
+조건 **문서 속성** 에는 보안 &amp; 및 준수 센터의 UI에서 일시적으로 사용할 수 없지만 PowerShell을 사용 하 여이 조건을 계속 사용할 수 있습니다. `New\Set\Get-DlpCompliancePolicy` Cmdlet을 사용 하 여 DLP 정책에 대 한 작업을 수행 하 고 `New\Set\Get-DlpComplianceRule` `ContentPropertyContainsWords` 매개 변수와 함께 cmdlet을 사용 하 여 조건을 추가할 수 있습니다 **문서 속성에 이러한 값이 포함 되어**있습니다.
   
 이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
@@ -112,7 +112,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
       New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
       ```
 
-    Windows Server fci에는이 예에서 사용 되는 **개인 식별** 이 가능한 정보를 포함 하 여 기본 제공 되는 여러 속성이 포함 되어 있습니다. 각 속성에 사용할 수 있는 값은 조직 마다 다를 수 있습니다. 여기에서 사용 되는 **높은**값, **중간 규모**및 **낮음을** 예로 들 수 있습니다. 조직의 경우 windows server fci 분류 속성을 사용할 수 있는 값을 포함 하는 파일 서버 기반 파일 서버 자세한 내용은 [분류 속성 만들기](http://go.microsoft.com/fwlink/p/?LinkID=627456)항목을 참조 하십시오.
+    Windows Server FCI에는이 예에서 사용 되는 **개인 식별** 이 가능한 정보를 포함 하 여 기본 제공 되는 여러 속성이 포함 되어 있습니다. 각 속성에 사용할 수 있는 값은 조직 마다 다를 수 있습니다. 여기에서 사용 되는 **높은**값, **중간 규모**및 **낮음을** 예로 들 수 있습니다. 조직의 경우 Windows server FCI 분류 속성을 사용할 수 있는 값을 포함 하는 파일 서버 기반 파일 서버 자세한 내용은 [분류 속성 만들기](http://go.microsoft.com/fwlink/p/?LinkID=627456)항목을 참조 하십시오.
     
 완료 되 면 정책에는 문서 속성을 사용 하는 두 가지 새 규칙에 **이러한 값 조건이 포함** 되어 있어야 합니다. 이 조건은 UI에는 표시 되지 않지만 다른 조건, 작업 및 설정은 표시 됩니다. 
   

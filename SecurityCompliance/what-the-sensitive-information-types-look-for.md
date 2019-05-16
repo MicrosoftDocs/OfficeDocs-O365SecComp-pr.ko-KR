@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 ms.topic: reference
 f1_keywords:
@@ -13,17 +13,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: d161435c75149183289cfbfd6abe79d55e371e31
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Office 365 보안 &amp; 및 준수 센터의 Dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
+ms.openlocfilehash: dc2958af5b64f9e9318faab5d55ed340404f1857
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32266874"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077554"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
-Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다.
+Office 365 보안 &amp; 및 준수 센터의 Dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 수 있는 중요 한 정보 유형이 많이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다.
   
 ## <a name="aba-routing-number"></a>ABA 라우팅 번호
 
@@ -72,18 +72,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - aba routing #
 - aba routing number
 - aba
-- abarouting #
+- abarouting#
 - aba number
 - abaroutingnumber
 - american bank association routing #
 - american bank association routing number
-- americanbankassociationrouting #
+- americanbankassociationrouting#
 - americanbankassociationroutingnumber
 - bank routing number
-- bankrouting #
+- bankrouting#
 - bankroutingnumber
 - routing transit number
-- rtn 
+- RTN 
    
 ## <a name="argentina-national-identity-dni-number"></a>아르헨티나 국가 ID(DNI) 번호
 
@@ -126,7 +126,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - Argentina National Identity number 
 - ID 
-- 식별 국가 id 카드 
+- 식별 국가 Id 카드 
 - DNI 
 - 개인의 NIC 국내 레지스트리 
 - Documento Nacional de Identidad 
@@ -251,7 +251,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - international driving permits
 - australian automobile association
 - international driving permit
-- driverlicence
+- DriverLicence
 - DriverLicences
 - Driver Lic
 - Driver Licence
@@ -263,50 +263,50 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Drivers Lics
 - Drivers Licence
 - Drivers Licences
-- driver' Lic
-- driver'lics
-- driver' 라이선스
+- Driver' Lic
+- Driver'Lics
+- Driver' 라이선스
 - Driver'Licences
 - Driver'Lic
 - Driver' Lics
 - Driver' Licence
 - Driver'Licences
 - Driver'sLic
-- drivers (slics)
+- Drivers (Slics)
 - Driver'sLicence
 - Driver'sLicences
 - Driver's Lic
 - Driver's Lics
 - Driver's Licence
 - Driver's Licences
-- driverlic #
-- driverlics #
-- driverlicence #
-- DriverLicences #
+- DriverLic #
+- DriverLics #
+- DriverLicence #
+- DriverLicences#
 - Driver Lic#
 - Driver Lics#
 - Driver Licence#
 - Driver Licences#
-- DriversLic #
-- driverslics #
+- DriversLic#
+- DriversLics #
 - 드라이버 라이선스 #
-- DriversLicences #
+- DriversLicences#
 - Drivers Lic#
 - Drivers Lics#
 - Drivers Licence#
 - Drivers Licences#
-- driver' Lic #
-- driver'lics #
-- driver' 라이선스 #
-- Driver'Licences #
+- Driver' Lic #
+- Driver'Lics #
+- Driver' 라이선스 #
+- Driver'Licences#
 - Driver' Lic#
 - Driver' Lics#
 - Driver' Licence#
 - Driver' Licences#
-- Driver'sLic #
-- drivers (slics #)
-- Driver'sLicence #
-- Driver'sLicences #
+- Driver'sLic#
+- Drivers (Slics #)
+- Driver'sLicence#
+- Driver'sLicences#
 - Driver's Lic#
 - Driver's Lics#
 - Driver's Licence#
@@ -315,36 +315,36 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordaustraliadriverslicensenumberexclusions"></a>Keyword_australia_drivers_license_number_exclusions
 
 - aaa
-- driverlicense
-- driverlicenses
+- DriverLicense
+- DriverLicenses
 - Driver License
 - Driver Licenses
 - 드라이버 라이선스
 - 드라이버 라이선스
 - Drivers License
 - Drivers Licenses
-- driver' 라이선스
-- driver'licenses
+- Driver' 라이선스
+- Driver'Licenses
 - Driver' License
 - Driver' Licenses
-- driver'slicense
-- driver'slicenses
+- Driver'sLicense
+- Driver'sLicenses
 - Driver's License
 - Driver's Licenses
-- driverlicense #
-- driverlicenses #
+- DriverLicense #
+- DriverLicenses #
 - Driver License#
 - Driver Licenses#
 - 드라이버 라이선스 #
 - 드라이버 라이선스 수
 - Drivers License#
 - Drivers Licenses#
-- driver' 라이선스 #
-- driver'licenses #
+- Driver' 라이선스 #
+- Driver'Licenses #
 - Driver' License#
 - Driver' Licenses#
-- driver'slicense #
-- driver'slicenses #
+- Driver'sLicense #
+- Driver'sLicenses #
 - Driver's License#
 - Driver's Licenses#
    
@@ -619,22 +619,22 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - testacs입니다.<!--no-hyperlink-->ccw
 - s-int<!--no-hyperlink-->투자
 
-## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>azure IAAS 데이터베이스 연결 문자열 및 azure SQL 연결 문자열
+## <a name="azure-iaas-database-connection-string-and-azure-sql-connection-string"></a>Azure IAAS 데이터베이스 연결 문자열 및 Azure SQL 연결 문자열
 
 ### <a name="format"></a>형식일
 
-"server", "server" 또는 "data source" 라는 문자열은 "cloudapp. azure"를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다.<!--no-hyperlink-->com "또는" cloudapp.<!--no-hyperlink-->net "또는" 데이터베이스.<!--no-hyperlink-->net "과 문자열" password "또는" password "또는" pwd "가 있습니다.
+"Server", "server" 또는 "data source" 라는 문자열은 "cloudapp. azure"를 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다.<!--no-hyperlink-->com "또는" cloudapp.<!--no-hyperlink-->net "또는" 데이터베이스.<!--no-hyperlink-->net "과 문자열" Password "또는" password "또는" pwd "가 있습니다.
 
 ### <a name="pattern"></a>패턴
 
-- 문자열 "server", "Server" 또는 "data source"
+- 문자열 "Server", "Server" 또는 "data source"
 - 0-2 공백 문자
 - 등호 (=)
 - 0-2 공백 문자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - 문자열 "cloudapp.<!--no-hyperlink-->com "," cloudapp.<!--no-hyperlink-->net "또는" database.<!--no-hyperlink-->투자
 - 1-300에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
-- 문자열 "password", "password" 또는 "pwd"
+- 문자열 "Password", "password" 또는 "pwd"
 - 0-2 공백 문자
 - 등호 (=)
 - 0-2 공백 문자
@@ -683,7 +683,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-문자열 "HostName" 뒤에 "azure-devices" 라는 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열이 표시 됩니다.<!--no-hyperlink-->net "및" sharedaccesskey "
+문자열 "HostName" 뒤에 "azure-devices" 라는 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열이 표시 됩니다.<!--no-hyperlink-->net "및" SharedAccessKey "
 
 ### <a name="pattern"></a>패턴
 
@@ -694,7 +694,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - 문자열 "azure-장치<!--no-hyperlink-->투자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
-- "sharedaccesskey" 문자열
+- "SharedAccessKey" 문자열
 - 0-2 공백 문자
 - 등호 (=)
 - 0-2 공백 문자
@@ -894,7 +894,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - 문자열 "servicebus.<!--no-hyperlink-->투자
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
-- "sharedaccesskey" 문자열
+- "SharedAccessKey" 문자열
 - 0-2 공백 문자
 - 등호 (=)
 - 0-2 공백 문자
@@ -943,11 +943,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-"defaultendpointsprotocol" 문자열은 "AccountKey" 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다.
+"DefaultEndpointsProtocol" 문자열은 "AccountKey" 문자열을 포함 하 여 아래 패턴에 설명 된 문자 및 문자열을 따릅니다.
 
 ### <a name="pattern"></a>패턴
 
-- 문자열 "defaultendpointsprotocol"
+- 문자열 "DefaultEndpointsProtocol"
 - 0-2 공백 문자
 - 등호 (=)
 - 0-2 공백 문자
@@ -1013,7 +1013,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="pattern"></a>패턴
 
-- > (보다 큼 기호), 아포스트로피 ('), 등호 (=), 따옴표 (") 또는 숫자 기호 (#)
+- > (보다 큼 기호), 아포스트로피 ('), 등호 (=), 따옴표 (") 또는 숫자 기호 (#) 0-1
 - 대/소문자, 숫자, 슬래시 (/) 또는 더하기 기호 (+)가 있는 86 문자의 조합
 - 두 개의 등호 (=)
 
@@ -1159,7 +1159,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Imposto 
 - Identificação 
 - Inscrição 
-- 고 eita 
+- 고 Eita 
    
 ## <a name="brazil-legal-entity-number-cnpj"></a>브라질 법인 번호(CNPJ)
 
@@ -1224,7 +1224,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - CNPJ 
 - Cadastro Nacional da Pessoa Jurídica 
 - Cadastro Geral de Contribuintes 
-- cgc 
+- CGC 
 - Pessoa jurídica 
 - Pessoas jurídicas 
 - Situação cadastral 
@@ -1441,7 +1441,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordprovincenamedriverslicensename"></a>Keyword_ [province_name] _drivers_license_name
+#### <a name="keywordprovincenamedriverslicensename"></a>Keyword_[province_name]_drivers_license_name
 
 - 시/도 약어(예: AB)
 - 시/도 이름(예: 앨버타)
@@ -1450,13 +1450,13 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - DL
 - 된다
-- cdl
-- cdls
-- driverlic
-- driverlics
-- driverlicense
-- driverlicenses
-- driverlicence
+- CDL
+- CDLS
+- DriverLic
+- DriverLics
+- DriverLicense
+- DriverLicenses
+- DriverLicence
 - DriverLicences
 - Driver Lic
 - Driver Lics
@@ -1465,7 +1465,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Driver Licence
 - Driver Licences
 - DriversLic
-- driverslics
+- DriversLics
 - 드라이버 라이선스
 - DriversLicences
 - 드라이버 라이선스
@@ -1476,11 +1476,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Drivers Licenses
 - Drivers Licence
 - Drivers Licences
-- driver' Lic
-- driver'lics
-- driver' 라이선스
-- driver'licenses
-- driver' 라이선스
+- Driver' Lic
+- Driver'Lics
+- Driver' 라이선스
+- Driver'Licenses
+- Driver' 라이선스
 - Driver'Licences
 - Driver'Lic
 - Driver' Lics
@@ -1489,9 +1489,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Driver'Licence
 - Driver'Licences
 - Driver'sLic
-- drivers (slics)
-- driver'slicense
-- driver'slicenses
+- Drivers (Slics)
+- Driver'sLicense
+- Driver'sLicenses
 - Driver'sLicence
 - Driver'sLicences
 - Driver's Lic
@@ -1519,50 +1519,50 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 확인과 
 - DL
 - 된다 
-- cdl # 
-- cdls # 
-- driverlic # 
-- driverlics # 
-- driverlicense # 
-- driverlicenses # 
-- driverlicence # 
-- DriverLicences # 
+- CDL # 
+- CDLS # 
+- DriverLic # 
+- DriverLics # 
+- DriverLicense # 
+- DriverLicenses # 
+- DriverLicence # 
+- DriverLicences# 
 - Driver Lic#
 - Driver Lics# 
 - Driver License# 
 - Driver Licenses# 
 - Driver License# 
 - Driver Licences# 
-- DriversLic # 
-- driverslics # 
+- DriversLic# 
+- DriversLics # 
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 수 
 - 드라이버 라이선스 # 
-- DriversLicences # 
+- DriversLicences# 
 - Drivers Lic# 
 - Drivers Lics# 
 - Drivers License# 
 - Drivers Licenses# 
 - Drivers Licence# 
 - Drivers Licences# 
-- driver' Lic # 
-- driver'lics # 
-- driver' 라이선스 # 
-- driver'licenses # 
-- driver' 라이선스 # 
-- Driver'Licences # 
+- Driver' Lic # 
+- Driver'Lics # 
+- Driver' 라이선스 # 
+- Driver'Licenses # 
+- Driver' 라이선스 # 
+- Driver'Licences# 
 - Driver' Lic# 
 - Driver' Lics# 
 - Driver' License# 
 - Driver' Licenses# 
 - Driver' Licence# 
 - Driver' Licences# 
-- Driver'sLic # 
-- drivers (slics #) 
-- driver'slicense # 
-- driver'slicenses # 
-- Driver'sLicence # 
-- Driver'sLicences # 
+- Driver'sLic# 
+- Drivers (Slics #) 
+- Driver'sLicense # 
+- Driver'sLicenses # 
+- Driver'sLicence# 
+- Driver'sLicences# 
 - Driver's Lic# 
 - Driver's Lics# 
 - Driver's License# 
@@ -1683,7 +1683,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - パスポート
 - パスポート番号
 - パスポートのNum
-- パスポート #
+- パスポート＃
 - Numéro de passeport
 - Passeport n °
 - Passeport Non
@@ -1839,7 +1839,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - drivers license 
 - driver's licence 
 - drivers licence 
-- dob 
+- DOB 
 - 생년월일 
 - 생일 
 - Date of Birth 
@@ -2047,9 +2047,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - codigo de seguranca
 - codigo de segurança
 - código de seguranca
-- cód segurança
+- cód. segurança
 - cod. seguranca cod segurança
-- cód seguranca
+- cód. seguranca
 - cód segurança
 - cod seguranca cod segurança
 - cód seguranca
@@ -2074,7 +2074,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 유효한 ade
 - valor
 - vencimento
-- venc 
+- Venc 
 
 #### <a name="keywordccname"></a>Keyword_cc_name
 
@@ -2294,7 +2294,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - OIB 
 
    
-## <a name="czech-personal-identity-number"></a>체코어 개인 id 번호
+## <a name="czech-personal-identity-number"></a>체코어 개인 Id 번호
 
 ### <a name="format"></a>형식일
 
@@ -2342,7 +2342,7 @@ Keyword_czech_id_card에서 키워드가 발견 되었습니다.
 ### <a name="keywords"></a>키워드
 
 - 체코어 개인 id 번호
-- rodné číslo
+- Rodné číslo
    
 ## <a name="denmark-personal-identification-number"></a>덴마크 개인 식별 번호
 
@@ -2686,8 +2686,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - cvv2 
 - cód seguranca 
 - cód segurança 
-- cód seguranca 
-- cód segurança 
+- cód. seguranca 
+- cód. segurança 
 - código 
 - código de seguranca 
 - código de segurança 
@@ -2837,12 +2837,12 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
    
 ## <a name="finland-passport-number"></a>핀란드 여권 번호
 
-9 개의 문자 및 숫자 패턴 조합 형식 조합: 두 문자 (대/소문자 구분 안 함) 7 자리 체크섬 정의 없음 DLP 정책은이 유형의 중요 한 정보를 검색 한 것으로,이에 따라 300 문자의 근사: 정규식 Regex_finland_passport_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+9 개의 문자 및 숫자 패턴 조합 형식 조합: 두 문자 (대/소문자 구분 안 함) 7 자리 체크섬 정의 없음 DLP 75 정책은이 유형의 중요 한 정보를 검색 한 것으로,이에 따라 300 문자의 근사: 정규식 Regex_finland_passport_number 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 Keyword_finland_passport_number에서 키워드가 발견 되었습니다.
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
 </Entity>
-passport Keyword_finland_passport_number 키워드
+Passport Keyword_finland_passport_number 키워드
    
 ## <a name="france-drivers-license-number"></a>프랑스 운전 면허 번호
 
@@ -2992,7 +2992,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 다음 두 패턴 중 하나가 일치해야 합니다.
 - 13 자리 숫자와 공백 다음 두 자리 숫자<br/>
- 선택하거나 
+또는
 - 15자리 연속 숫자
 
 ### <a name="checksum"></a>제외
@@ -3172,18 +3172,18 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordgermandriverslicensecollaborative"></a>Keyword_german_drivers_license_collaborative
 
-- veiligheid-Führerschein 
-- veiligheid-Fuhrerschein 
-- veiligheid-Fuehrerschein 
+- Veiligheid-Führerschein 
+- Veiligheid-Fuhrerschein 
+- Veiligheid-Fuehrerschein 
 - Führerschein 
 - Fuhrerschein 
 - Fuehrerschein 
 - N-Führerschein 
 - N-Fuhrerschein 
 - N-Fuehrerschein
-- veiligheid-Führerschein 
-- veiligheid-Fuhrerschein 
-- veiligheid-Fuehrerschein 
+- Veiligheid-Führerschein 
+- Veiligheid-Fuhrerschein 
+- Veiligheid-Fuehrerschein 
 - Führerschein 
 - Fuhrerschein 
 - Fuehrerschein 
@@ -3273,11 +3273,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordgermanpassportnumber"></a>Keyword_german_passport_number
 
-Reisepass veiligheid-Reisepass
+Reisepass Veiligheid-Reisepass
 
 #### <a name="keywordgermanpassport1"></a>Keyword_german_passport1
 
-Reisepass-veiligheid
+Reisepass-Veiligheid
 
 #### <a name="keywordgermanpassport2"></a>Keyword_german_passport2
 
@@ -3297,7 +3297,7 @@ bnationalit
 - 1개 문자(대/소문자 구분 안 함) 
 - 8자리 숫자
 
-1 년 4 월 1987 일 ~ 10 월 31 일까 지:
+1 년 4 월 1987 일 ~ 10 2010 월 31 일까 지:
 - 10자리 숫자
 
 ### <a name="checksum"></a>제외
@@ -3329,7 +3329,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 확인과
 - Personalausweis
 - Identifizierungsnummer
-- ausweis
+- Ausweis
 - Identifikation
    
 ## <a name="greece-national-id-card"></a>그리스 국가 ID 카드
@@ -3607,7 +3607,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 1-7 개 문자 또는 숫자의 그룹 (공백으로 구분 가능)
 - 1-3 문자 또는 숫자
 
-각 국가의 형식은 약간 다릅니다. iban 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
+각 국가의 형식은 약간 다릅니다. IBAN 중요 한 정보 유형은 다음과 같은 60 국가를 포함 합니다.
 
 ad, ae, al, at, az, ba, be, bg, bh, ch, cr, cy, cz, de, kw, hu,, to,,, fr,,, i,,, ie, il, is,, l,, 5, 60, md, me, mk, e, mt, mu , nl-nl, no, pl, pt, ro, rs, sa, se, si,, sm, tn, tr, vg
 
@@ -3760,7 +3760,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-[Diseases의 국가별 분류, 9 번째 버전의 임상 수정 (icd-9cm)](https://go.microsoft.com/fwlink/?linkid=852605)을 기반으로 하는 Dictionary_icd_9_cm 키워드 사전의 모든 용어입니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
+[Diseases의 국가별 분류, 9 번째 버전의 임상 수정 (icd-9CM)](https://go.microsoft.com/fwlink/?linkid=852605)을 기반으로 하는 Dictionary_icd_9_cm 키워드 사전의 모든 용어입니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
    
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS(개인 공공 서비스) 번호
 
@@ -3825,11 +3825,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - PPS Num 
 - PPS No. 
 - PPS # 
-- .pps 
-- ppsn 
+- .PPS 
+- PPSN 
 - Public Services Card 
 - Uimhir Phearsanta Seirbhíse Poiblí 
-- uimh PSP 
+- Uimh PSP 
 - PSP 
    
 ## <a name="israel-bank-account-number"></a>이스라엘 은행 계좌 번호
@@ -4055,23 +4055,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 口座番号の確認 
 - 銀行口座番号 
 - 銀行口座 
-- 銀行口座 # 
+- 銀行口座＃ 
 - 銀行の勘定番号 
-- 銀行のacct # 
+- 銀行のacct＃ 
 - 銀行の勘定いいえ 
 - 銀行口座番号
 - 普通預金口座番号 
 - 預金口座 
-- 貯蓄口座 # 
+- 貯蓄口座＃ 
 - 貯蓄勘定の数 
-- 貯蓄勘定 # 
+- 貯蓄勘定＃ 
 - 貯蓄勘定番号 
 - 普通預金口座番号 
 - 引き落とし口座番号 
 - 口座番号 
-- 口座番号 # 
+- 口座番号＃ 
 - デビットのacct番号 
-- デビット勘定 # 
+- デビット勘定＃ 
 - デビットACCTの番号 
 - デビット口座番号 
 
@@ -4130,7 +4130,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - state id 
 - state identification 
 - state identification number 
-- 低所得国 # 
+- 低所得国＃ 
 - 免許証 
 - 状態ID
 - 状態の識別 
@@ -4176,7 +4176,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - パスポート 
 - パスポート番号 
 - パスポートのNum 
-- パスポート # 
+- パスポート＃ 
    
 ## <a name="japan-resident-registration-number"></a>일본 주민 등록 번호
 
@@ -4219,8 +4219,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Resident Register No. 
 - Residents Basic Registry No. 
 - Basic Resident Register No. 
-- 住民登録番号 、 登録番号をレジデント 
-- 住民基本登録番号 、 登録番号 
+- 住民登録番号、登録番号をレジデント 
+- 住民基本登録番号、登録番号 
 - 住民基本レジストリ番号を常駐 
 - 登録番号を常駐住民基本台帳登録番号 
 
@@ -4472,7 +4472,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 Keyword_nz_terms
 
-- nhi 
+- NHI 
 - New Zealand 
 - 상태 
 - 처리가 
@@ -4608,7 +4608,7 @@ Keyword_polish_national_id_passport_number의 키워드가 발견되었습니다
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
 - Dowód osobisty
-- u r i dowodu osobistego
+- U r i dowodu osobistego
 - Nazwa i u r i dowodu osobistego
 - Nazwa i veiligheid dowodu osobistego
 - Nazwa i nr dowodu tożsamości
@@ -4691,9 +4691,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordpolishnationalidpassportnumber"></a>Keyword_polish_national_id_passport_number
 
-- u r i (zportu)
-- veiligheid. 고 zportu
-- 고 zport
+- U r i (zportu)
+- Veiligheid. 고 Zportu
+- 고 Zport
 
    
 ## <a name="portugal-citizen-card-number"></a>포르투갈 시민 카드 번호
@@ -4972,11 +4972,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-아래 패턴에 설명 된 문자 및 문자열이 뒤에 오는 "user id", "user id", "uid" 또는 "UserId"입니다.
+아래 패턴에 설명 된 문자 및 문자열이 뒤에 오는 "User Id", "User ID", "uid" 또는 "UserId"입니다.
 
 ### <a name="pattern"></a>패턴
 
-- 문자열 "user id", "User id", "uid" 또는 "UserId"
+- 문자열 "User Id", "User ID", "uid" 또는 "UserId"
 - 1-200에서 대/소문자, 숫자, 기호, 특수 문자 또는 공백 사이의 조합
 - 문자열 "Password" 또는 "pwd" (여기에서 "pwd" 앞에 소문자 문자가 오지 않음)
 - 등호 (=)
@@ -5142,7 +5142,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - パスポート 
 - パスポート番号 
 - パスポートのNum 
-- パスポート # 
+- パスポート＃ 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
@@ -5205,7 +5205,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - bic\# 
 - bank identifier code 
 - 標準化 9362 
-- 迅速 # 
+- 迅速＃ 
 - SWIFTコード 
 - SWIFT番号 
 - 迅速なルーティング番号 
@@ -5218,7 +5218,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - le numéro de swift 
 - swift numéro d'acheminement 
 - le numéro BIC 
-- \#bic 
+- \#BIC 
 - code identificateur de banque 
    
 ## <a name="taiwan-national-id"></a>대만 국가 ID
@@ -5413,7 +5413,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 #### <a name="keywordthaicitizenid"></a>Keyword_Thai_Citizen_Id
 
 - ID Number
-- id 번호
+- Id 번호
 - บัตรประชาชน
 - รหัสบัตรประชาชน
 - บัตรประชาชน
@@ -5504,7 +5504,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordukdriverslicense"></a>Keyword_uk_drivers_license
 
-- dvla 
+- DVLA 
 - light vans 
 - quadbikes 
 - motor cars 
@@ -5623,8 +5623,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keyworduknhsnumberdob"></a>Keyword_uk_nhs_number_dob
 
-- g 
-- dob 
+- G 
+- DOB 
 - D. O. B 
 - Date of Birth 
 - Birth Date 
@@ -5747,7 +5747,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - パスポート 
 - パスポート番号 
 - パスポートのNum 
-- パスポート # 
+- パスポート＃ 
 - Numéro de passeport 
 - Passeport n ° 
 - Passeport Non 
@@ -5827,8 +5827,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 주마다 다릅니다(예: 뉴욕).
-- ddd ddd ddd와 같이 9 자리 숫자는 일치 합니다.
-- ddddddddd와 같은 9 자리 숫자가 일치 하지 않습니다.
+- Ddd ddd ddd와 같이 9 자리 숫자는 일치 합니다.
+- Ddddddddd와 같은 9 자리 숫자가 일치 하지 않습니다.
 
 ### <a name="checksum"></a>제외
 
@@ -5869,15 +5869,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - DL 
 - 된다 
-- cdl 
-- cdls 
+- CDL 
+- CDLS 
 - ID 
 - 번호가 
 - DL 
 - 된다 
-- cdl # 
-- cdls # 
-- i
+- CDL # 
+- CDLS # 
+- I
 - 번호가 
 - ID number 
 - ID numbers 
@@ -5886,34 +5886,34 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 #### <a name="keywordusdriverslicense"></a>Keyword_us_drivers_license
 
-- driverlic 
-- driverlics 
-- driverlicense 
-- driverlicenses 
+- DriverLic 
+- DriverLics 
+- DriverLicense 
+- DriverLicenses 
 - Driver Lic 
 - Driver Lics 
 - Driver License 
 - Driver Licenses 
 - DriversLic 
-- driverslics 
+- DriversLics 
 - 드라이버 라이선스 
 - 드라이버 라이선스 
 - Drivers Lic 
 - Drivers Lics 
 - Drivers License 
 - Drivers Licenses 
-- driver' Lic 
-- driver'lics 
-- driver' 라이선스 
-- driver'licenses 
+- Driver' Lic 
+- Driver'Lics 
+- Driver' 라이선스 
+- Driver'Licenses 
 - Driver' Lic 
 - Driver' Lics 
 - Driver' License 
 - Driver' Licenses
 - Driver'sLic 
-- drivers (slics) 
-- driver'slicense 
-- driver'slicenses 
+- Drivers (Slics) 
+- Driver'sLicense 
+- Driver'sLicenses 
 - Driver's Lic 
 - Driver's Lics 
 - Driver's License 
@@ -5925,34 +5925,34 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - id cards 
 - identification card 
 - identification cards 
-- driverlic # 
-- driverlics # 
-- driverlicense # 
-- driverlicenses # 
+- DriverLic # 
+- DriverLics # 
+- DriverLicense # 
+- DriverLicenses # 
 - Driver Lic# 
 - Driver Lics# 
 - Driver License# 
 - Driver Licenses# 
-- DriversLic # 
-- driverslics # 
+- DriversLic# 
+- DriversLics # 
 - 드라이버 라이선스 # 
 - 드라이버 라이선스 수 
 - Drivers Lic# 
 - Drivers Lics# 
 - Drivers License# 
 - Drivers Licenses# 
-- driver' Lic # 
-- driver'lics # 
-- driver' 라이선스 # 
-- driver'licenses # 
+- Driver' Lic # 
+- Driver'Lics # 
+- Driver' 라이선스 # 
+- Driver'Licenses # 
 - Driver' Lic# 
 - Driver' Lics# 
 - Driver' License# 
 - Driver' Licenses# 
-- Driver'sLic # 
-- drivers (slics #) 
-- driver'slicense # 
-- driver'slicenses # 
+- Driver'sLic# 
+- Drivers (Slics #) 
+- Driver'sLicense # 
+- Driver'sLicenses # 
 - Driver's Lic# 
 - Driver's Lics# 
 - Driver's License# 
@@ -5963,7 +5963,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - identification cards# 
 
 
-#### <a name="keywordstatenamedriverslicensename"></a>Keyword_ [state_name] _drivers_license_name
+#### <a name="keywordstatenamedriverslicensename"></a>Keyword_[state_name]_drivers_license_name
 
 - 주 약어(예: "NY") 
 - 주 이름(예: "New York")    
@@ -6056,7 +6056,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 - License 
 - DL 
-- dob 
+- DOB 
 - 생년월일 
 - 생일 
 - Date of Birth 
@@ -6068,15 +6068,15 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 서식 있는 패턴 또는 서식 없는 패턴으로 표시될 수 있는 9자리 숫자
 
 > [!NOTE]
-> mid가 2011 이전에 실행 된 경우 SSN은 특정 범위 내에서 번호의 특정 부분이 유효한 지 확인 하는 강력한 서식을 사용 해야 하지만 검사 값은 없습니다.
+> Mid가 2011 이전에 실행 된 경우 SSN은 특정 범위 내에서 번호의 특정 부분이 유효한 지 확인 하는 강력한 서식을 사용 해야 하지만 검사 값은 없습니다.
 
 ### <a name="pattern"></a>패턴
 
-다음의 네 가지 패턴에서 ssns를 검색 하는 함수는 다음과 같습니다.
-- Func_ssn는 대시 또는 공백을 사용 하 여 서식이 지정 된 2011 이전의 고급 서식 (ddd-dd-dddd 또는 ddd dd dd)을 사용 하 여 ssns를 찾습니다.
-- Func_unformatted_ssn는 형식이 지정 되지 않은 2011 이전 형식으로 서식이 지정 된 ssns를 찾습니다 (ddddddddd).
-- Func_randomized_formatted_ssn는 대시 또는 공백으로 서식이 지정 된 post-2011 ssns를 찾습니다 (ddd-dd-dddd 또는 ddd dd dddd).
-- Func_randomized_unformatted_ssn는 형식 없는 2011 ssns를 찾고, 서식이 없는 9 자리 숫자 (ddddddddd)를 찾습니다.
+다음의 네 가지 패턴에서 SSNs를 검색 하는 함수는 다음과 같습니다.
+- Func_ssn는 대시 또는 공백을 사용 하 여 서식이 지정 된 2011 이전의 고급 서식 (ddd-dd-dddd 또는 ddd dd dd)을 사용 하 여 SSNs를 찾습니다.
+- Func_unformatted_ssn는 형식이 지정 되지 않은 2011 이전 형식으로 서식이 지정 된 SSNs를 찾습니다 (ddddddddd).
+- Func_randomized_formatted_ssn는 대시 또는 공백으로 서식이 지정 된 post-2011 SSNs를 찾습니다 (ddd-dd-dddd 또는 ddd dd dddd).
+- Func_randomized_unformatted_ssn는 형식 없는 2011 SSNs를 찾고, 서식이 없는 9 자리 숫자 (ddddddddd)를 찾습니다.
 
 ### <a name="checksum"></a>제외
 
@@ -6139,7 +6139,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Social Security# 
 - Soc Sec 
 - SSN 
-- 있는 ssn 
+- 있는 SSN 
 - SSN 
 - 대비 
 - 생길 
