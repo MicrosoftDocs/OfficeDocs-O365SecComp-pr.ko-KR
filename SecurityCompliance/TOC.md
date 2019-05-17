@@ -165,8 +165,7 @@
 ## 파일 플랜
 ### [파일 플랜 관리자](file-plan-manager.md)
 ### [보존 레이블](labels.md)
-### 
-  [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
 ### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
 ### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
@@ -198,8 +197,7 @@
 ### [파일 플랜 관리자](file-plan-manager.md)
 ### [보존 레이블](labels.md)
 ### [SEC 규칙 17 a-4 준수](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### 
-  [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [이벤트 기반 보존](event-driven-retention.md)
 ### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ## [데이터 삭제](disposition-reviews.md)
