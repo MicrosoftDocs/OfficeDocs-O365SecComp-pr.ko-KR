@@ -4,28 +4,27 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Facebook Business 페이지를 가져와 Office 365에 보관 하는 기본 커넥터를 설정할 수 있습니다. 이 데이터를 Office 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Facebook 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: d90714072bdeb609fe4af14208476bfa2f60b6d7
-ms.sourcegitcommit: 63a10dc5ffa9d709fac437d3fc9e554b1bcd826f
+ms.openlocfilehash: b0ec46cea2dd5722633e7fc302cdd0d03cd5d56d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33308201"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150560"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-data-in-office-365"></a>Office 365에서 Facebook 데이터를 보관 하기 위한 커넥터 배포
 
-이 문서에서는 office 365 가져오기 서비스를 사용 하 여 Facebook Business 페이지의 데이터를 office 365로 가져오는 커넥터를 배포 하는 단계별 프로세스를 소개 합니다. 이 프로세스에 대 한 간략 한 개요와 Facebook 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [Office 365에서 샘플 커넥터를 사용 하 여 타사 데이터 보관을](archive-third-party-data-with-sample-connector.md)참조 하십시오. 
-
+이 문서에서는 Office 365 가져오기 서비스를 사용 하 여 Facebook Business 페이지의 데이터를 Office 365로 가져오는 커넥터를 배포 하는 단계별 프로세스를 소개 합니다. 이 프로세스에 대 한 간략 한 개요와 Facebook 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [샘플 커넥터를 사용 하 여 Office 365의 facebook 데이터 보관 (미리 보기)](archive-facebook-data-with-sample-connector.md)을 참조 하십시오. 
 
 ## <a name="step-1-download-the-package"></a>1 단계: 패키지 다운로드
 
-리포지토리에서 출시 섹션에서 미리 작성 된 패키지를 다운로드 <https://github.com/Microsoft/m365-sample-connector-csharp-aspnet/releases>합니다. 최신 버전의 경우 **SampleConnector**라는 zip 파일을 다운로드 합니다. 4 단계에서이 zip 파일을 Azure에 업로드 합니다.
+GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-connector-csharp-aspnet/releases>) 섹션에서 미리 작성 된 패키지를 다운로드 합니다. 최신 버전의 경우 **SampleConnector**라는 zip 파일을 다운로드 합니다. 4 단계에서이 zip 파일을 Azure에 업로드 합니다.
 
 ## <a name="step-2-create-an-app-in-azure-active-directory"></a>2 단계: Azure Active Directory에 앱 만들기
 
@@ -41,11 +40,11 @@ ms.locfileid: "33308201"
 
     ![](media/FBCimage3.png)
 
-4. 응용 프로그램을 등록 합니다. 리디렉션 uri의 응용 프로그램 형식 드롭다운 목록에서 웹을 선택한 다음 URI에 <https://portal.azure.com> 대 한 상자에 입력 합니다.
+4. 응용 프로그램을 등록 합니다. 리디렉션 URI의 응용 프로그램 형식 드롭다운 목록에서 웹을 선택한 다음 URI에 <https://portal.azure.com> 대 한 상자에 입력 합니다.
 
    ![](media/FBCimage4.png)
 
-5. **응용 프로그램 (클라이언트) id** 및 **디렉터리 (테 넌 트) id** 를 복사한 다음 텍스트 파일 또는 기타 안전한 위치에 저장 합니다. 이러한 id는 이후 단계에서 사용 합니다.
+5. **응용 프로그램 (클라이언트) id** 및 **디렉터리 (테 넌 트) id** 를 복사한 다음 텍스트 파일 또는 기타 안전한 위치에 저장 합니다. 이러한 Id는 이후 단계에서 사용 합니다.
 
    ![](media/FBCimage5.png)
 
@@ -65,7 +64,7 @@ ms.locfileid: "33308201"
 
    ![](media/FBCimage9.png)
 
-10. 다음 스크린샷에 표시 된 대로 **매니페스트로** 이동 하 여 identifierUris (AAD 응용 프로그램 Uri 라고도 함)를 복사 합니다. AAD 응용 프로그램 Uri를 텍스트 파일 또는 기타 저장 위치에 복사 합니다. 6 단계에서 사용 합니다.
+10. 다음 스크린샷에 표시 된 대로 **매니페스트로** 이동 하 여 IDENTIFIERURIS (AAD 응용 프로그램 Uri 라고도 함)를 복사 합니다. AAD 응용 프로그램 Uri를 텍스트 파일 또는 기타 저장 위치에 복사 합니다. 6 단계에서 사용 합니다.
 
    ![](media/FBCimage10.png)
 
@@ -121,13 +120,13 @@ ms.locfileid: "33308201"
 
     - **APISecretKey** – 임의의 값을 비밀로 입력할 수 있습니다. 이는 7 단계에서 커넥터 웹 앱에 액세스 하는 데 사용 됩니다.
 
-    - **storageaccountconnectionstring** -3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
+    - **Storageaccountconnectionstring** -3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
 
     - **tenantId** -2 단계에서 Azure Active Directory에 Facebook 커넥터 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
 
     ![](media/FBCimage22.png)
 
-4. **일반 설정**에서 Always ( **** **켜기**) 옆의을 클릭 합니다. 페이지 맨 위에 있는 **저장** 을 클릭 하 여 applicaton 설정을 저장 합니다.
+4. **일반 설정**에서 Always ( **** **켜기**) 옆의을 클릭 합니다. 페이지 맨 위에 있는 **저장** 을 클릭 하 여 응용 프로그램 설정을 저장 합니다.
 
    ![](media/FBCimage23.png)
 
@@ -163,7 +162,7 @@ ms.locfileid: "33308201"
 
    ![](media/FBCimage30.png)
 
-7. **Facebook 로그인**아래의 왼쪽 탐색 창에서 **설정을**클릭 하 고 **유효한 oauth 리디렉션 uri** 상자에 OAuth 리디렉션 URI를 추가 합니다. connectorserviceuri에 대 한 값이 조직의 Azure app 서비스 URL 인 ** \<connectorserviceuri>/Views/FacebookOAuth**형식을 사용 합니다. 예를 https://fbconnector.azurewebsites.net들어
+7. **Facebook 로그인**아래의 왼쪽 탐색 창에서 **설정을**클릭 하 고 **유효한 OAuth 리디렉션 URI** 상자에 OAuth 리디렉션 URI를 추가 합니다. connectorserviceuri에 대 한 값이 조직의 Azure app 서비스 URL 인 ** \<connectorserviceuri>/Views/FacebookOAuth**형식을 사용 합니다. 예를 https://fbconnector.azurewebsites.net들어
 
    ![](media/FBCimage31.png)
 
@@ -171,9 +170,9 @@ ms.locfileid: "33308201"
 
    ![](media/FBCimage32.png)
 
-9. webhooks 콜백 URL을 추가 하 고 verify token을 추가 합니다. 콜백 URL의 형식은 ** <connectorserviceuri>/api/FbPageWebhook**형식을 사용 하며, 여기서 connectorserviceuri의 값은 조직의 Azure 앱 서비스 URL입니다. 예를 https://fbconnector.azurewebsites.net들어 
+9. Webhooks 콜백 URL을 추가 하 고 verify token을 추가 합니다. 콜백 URL의 형식은 ** <connectorserviceuri>/api/FbPageWebhook**형식을 사용 하며, 여기서 connectorserviceuri의 값은 조직의 Azure 앱 서비스 URL입니다. 예를 https://fbconnector.azurewebsites.net들어 
 
-    verify 토큰은 강력한 암호와 비슷해야 합니다. 텍스트 파일 또는 기타 저장소 위치에 verify 토큰을 복사 합니다.
+    Verify 토큰은 강력한 암호와 비슷해야 합니다. 텍스트 파일 또는 기타 저장소 위치에 verify 토큰을 복사 합니다.
 
      ![](media/FBCimage33.png)
 
@@ -207,28 +206,28 @@ ms.locfileid: "33308201"
 
 ## <a name="step-6-configure-the-connector-web-app"></a>6 단계: 커넥터 웹 응용 프로그램 구성
 
-1. https://\<AzureAppResourceName> (여기서 AzureAppResourceName은 4 단계에서 이름이 지정 된 Azure 앱 리소스의 이름)으로 이동 합니다 (예: 이름이 **fbconnector**이면로 https://fbconnector.azurewebsites.net이동). 앱의 홈 페이지는 다음 스크린샷 처럼 표시 됩니다.
+1. Https://\<AzureAppResourceName> (여기서 AzureAppResourceName은 4 단계에서 이름이 지정 된 Azure 앱 리소스의 이름)으로 이동 합니다 (예: 이름이 **fbconnector**이면로 https://fbconnector.azurewebsites.net이동). 앱의 홈 페이지는 다음 스크린샷 처럼 표시 됩니다.
 
 
-  ![](media/FBCimage41.png)
+   ![](media/FBCimage41.png)
 
 2. **구성을** 클릭 하 여 로그인 페이지를 표시 합니다.
  
    ![](media/FBCimage42.png)
 
-3. 테 넌 트 id 상자에 2 단계에서 받은 테 넌 트 id를 입력 하거나 붙여 넣습니다. 암호 상자에 2 단계에서 구한 APISecretKey를 입력 하거나 붙여 넣은 다음 **구성 설정 설정을** 클릭 하 여 **구성 세부 정보** 페이지를 표시 합니다.
+3. 테 넌 트 Id 상자에 2 단계에서 받은 테 넌 트 Id를 입력 하거나 붙여 넣습니다. 암호 상자에 2 단계에서 구한 APISecretKey를 입력 하거나 붙여 넣은 다음 **구성 설정 설정을** 클릭 하 여 **구성 세부 정보** 페이지를 표시 합니다.
 
     ![](media/FBCimage43.png)
 
 
 4. **구성 세부 정보**에서 다음 구성 설정을 입력 합니다. 
 
-   - **facebook 응용 프로그램 id** -5 단계에서 가져온 facebook 응용 프로그램의 앱 ID입니다.
-   - **facebook 응용 프로그램 비밀** -5 단계에서 얻은 facebook 응용 프로그램에 대 한 앱 비밀입니다.
+   - **Facebook 응용 프로그램 id** -5 단계에서 가져온 facebook 응용 프로그램의 앱 ID입니다.
+   - **Facebook 응용 프로그램 비밀** -5 단계에서 얻은 facebook 응용 프로그램에 대 한 앱 비밀입니다.
    - **Facebook webhook 확인 토큰** -5 단계에서 만든 verify 토큰입니다.
-   - **AAD 응용 프로그램 id** -2 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 id
+   - **AAD 응용 프로그램 id** -2 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 id입니다.
    - **AAD 응용 프로그램 비밀** -4 단계에서 만든 APISecretKey 암호의 값입니다.
-   - **aad 응용 프로그램 uri** -2 단계에서 가져온 aad 응용 프로그램 uri 예를 https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213들면입니다.
+   - **Aad 응용 프로그램 uri** -2 단계에서 가져온 aad 응용 프로그램 uri 예를 https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213들면입니다.
    - **App insights instrumentation 키** -이 상자를 비워 둡니다.
 
 5. **저장** 을 클릭 하 여 커넥터 설정을 저장 합니다.
@@ -239,15 +238,17 @@ ms.locfileid: "33308201"
 
    ![](media/FBCimage44.png)
 
-2.  **커넥터 추가** 를 클릭 한 다음 **사용자 지정**을 클릭 합니다.
+2.  **커넥터 추가** 를 클릭 한 다음 **Facebook 페이지**를 클릭 합니다.
 
     ![](media/FBCimage46.png)
 
-3.  **커넥터 앱 추가** 페이지에서 다음 정보를 입력 하 고 **다음**을 클릭 합니다.
+3.  **커넥터 앱 추가** 페이지에서 다음 정보를 입력 하 고 **커넥터 유효성 검사**를 클릭 합니다.
 
     - 첫 번째 상자에 **Facebook**과 같은 커넥터의 이름을 입력 합니다.
     - 두 번째 상자에 4 단계에서 추가한 APISecretKey의 값을 입력 하거나 붙여넣습니다.
-    - 세 번째 상자에서 Azure 앱 서비스 URL에 붙여넣기를 입력 합니다. 예를 **https://fbconnector.azurewebsites.net**들어
+    - 세 번째 상자에 Azure 앱 서비스 URL을 입력 하거나 붙여넣습니다. 예를 **https://fbconnector.azurewebsites.net**들어
+ 
+    커넥터 유효성 검사가 완료 되 면 **다음**을 클릭 합니다.
     
     ![](media/FBCimage47.png)
 
@@ -264,7 +265,7 @@ ms.locfileid: "33308201"
 
    ![](media/FBCimage49.png)
 
-7. **facebook에 로그인** 페이지에서 조직의 Facebook Business 페이지에 대 한 계정의 자격 증명을 사용 하 여 로그인 합니다. 로그인 한 facebook 계정에 조직의 Facebook Business 페이지에 대 한 관리자 역할이 할당 되었는지 확인
+7. **Facebook에 로그인** 페이지에서 조직의 Facebook Business 페이지에 대 한 계정의 자격 증명을 사용 하 여 로그인 합니다. 로그인 한 Facebook 계정에 조직의 Facebook Business 페이지에 대 한 관리자 역할이 할당 되었는지 확인
 
    ![](media/FBCimage50.png)
 
@@ -288,7 +289,7 @@ ms.locfileid: "33308201"
 
     ![](media/FBCimage55.png)
 
-13. 설정을 검토 하 고 **마침을** 클릭 하 여 Security & 준수 센터에서 커넥터 설정을 완료 합니다.
+13. 설정을 검토 하 고 **마침을** 클릭 하 여 Security _AMP_ 준수 센터에서 커넥터 설정을 완료 합니다.
 
     ![](media/FBCimage56.png)
 

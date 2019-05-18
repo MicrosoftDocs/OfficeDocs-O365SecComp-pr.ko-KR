@@ -1,22 +1,22 @@
 ---
-title: 허용 되지 않는 도메인 보고서
+title: 비허용 도메인 보고서
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 11bddc79f81c30726ba653eb432238765a8cee74
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: ce9ffc28fddca6eb27d3d7394c0aea2ac4be9beb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868576"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158580"
 ---
-# <a name="non-accepted-domain-report"></a>허용 되지 않는 도메인 보고서
+# <a name="non-accepted-domain-report"></a>비허용 도메인 보고서
 
 **보낸 사람 도메인** 통찰력과 마찬가지로, **허용 되지 않는 도메인** 통찰력은 온-프레미스 전자 메일 조직의 메시지를 식별 하지만 보낸 사람의 도메인이 Office 365 조직에서 허용 도메인으로 구성 되지 않습니다.
 

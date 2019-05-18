@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 1828f4055e9048260db7d16df8ad87db36438211
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6d4a8993efb3046e7f79f4e76a921921abf6d3e6
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257352"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153430"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "32257352"
     
 - 콘텐츠를 클라이언트에 반환 하거나 다른 조직으로 전송 합니다.
     
-microsoft 365 준수 센터, microsoft 365 보안 센터 또는 Office 365 security & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
+Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 Security & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
   
 - 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 이러한 검토자는 개별 사용자, 메일 그룹 또는 Office 365 그룹이 될 수 있습니다. 알림은 주 단위로 전송 됩니다.
     
@@ -104,7 +104,7 @@ microsoft 365 준수 센터, microsoft 365 보안 센터 또는 Office 365 secur
   
 즉, 다음을 의미 합니다.
   
-- 문서 라이브러리의 콘텐츠는 처리 후 **7 일 이내** 에 1 단계 휴지통으로 이동 되 고 그 후에 영구적으로 삭제 됩니다 **** . 휴지통이 검색을 통해 인덱싱되지 않으므로 eDiscovery 보류에서 해당 콘텐츠를 사용할 수 없습니다.
+- 문서 라이브러리의 콘텐츠는 처리 후 7 일 이내에 1 단계 휴지통으로 이동 되 고 그 후에 영구적으로 93 삭제 됩니다. 휴지통이 검색을 통해 인덱싱되지 않으므로 eDiscovery 보류에서 해당 콘텐츠를 사용할 수 없습니다.
 
 - 보존 보류 라이브러리의 콘텐츠는 처리의 **7 일 이내** 에 영구적으로 삭제 됩니다.
 

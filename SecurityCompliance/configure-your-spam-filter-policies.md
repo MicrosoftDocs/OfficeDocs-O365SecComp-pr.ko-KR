@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/05/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별 되는 메시지에 대해 수행할 작업을 선택 하 고 특정 언어로 작성 되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링 할지 여부를 선택 하는 것이 포함 됩니다.
-ms.openlocfilehash: 5773256e18e1910405bcc04a1869f631734447a4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 740da796d0e2215076bfe38120f98e349099a758
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258816"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151330"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
   
@@ -60,11 +60,11 @@ ms.locfileid: "32258816"
     
       - ** 머리글에 공백이\> \< **\> \<없는 머리글만 형식 헤더에 지정 하는 경우에는 사용자 지정 텍스트에 콜론이 추가 되 고 기본 텍스트가 옵니다.       예를 들어 "이 사용자 지정 헤더"를 지정 하면 "사용자 지정 헤더:이 메시지는 스팸으로 표시 됩니다."로 표시 되는 X-헤더 텍스트 
         
-      - 사용자 지정 머리글 텍스트 내에 공백을 포함 하거나 콜론을 직접 추가 하는 경우 (예: "x이 사용자 지정 헤더" 또는 "x-이-사용자 지정 헤더:") "x-헤더 텍스트는" x-일-스팸:이 메시지가 스팸으로 나타납니다. "라는 기본값으로 돌아갑니다.
+      - 사용자 지정 머리글 텍스트 내에 공백을 포함 하거나 콜론을 직접 추가 하는 경우 (예: "X이 사용자 지정 헤더" 또는 "x-이-사용자 지정 헤더:") "x-헤더 텍스트는" X-일-스팸:이 메시지가 스팸으로 나타납니다. "라는 기본값으로 돌아갑니다.
     
-      - \< *헤더*  \>:\<  *값*  \> 형식으로 헤더 텍스트를 지정할 수는 없습니다. 이렇게 하면 콜론 앞과 뒤의 두 값이 모두 무시 되 고 "x-the 스팸:이 메시지는 스팸으로 표시 됩니다." 라는 기본 X-헤더 텍스트가 대신 표시 됩니다. 
+      - \< *헤더*  \>:\<  *값*  \> 형식으로 헤더 텍스트를 지정할 수는 없습니다. 이렇게 하면 콜론 앞과 뒤의 두 값이 모두 무시 되 고 "X-the 스팸:이 메시지는 스팸으로 표시 됩니다." 라는 기본 X-헤더 텍스트가 대신 표시 됩니다. 
       
-      - 이 X-헤더를 사용 하는 메일은 사서함 정크 메일로 인해 여전히 사서함 정크 메일 폴더로 이동 될 수 있습니다. set-mailboxjunkemailconfiguration에서이 기능을 사용 하지 않도록 설정 하 여이를 변경할 수 있습니다.
+      - 이 X-헤더를 사용 하는 메일은 사서함 정크 메일로 인해 여전히 사서함 정크 메일 폴더로 이동 될 수 있습니다. Set-mailboxjunkemailconfiguration에서이 기능을 사용 하지 않도록 설정 하 여이를 변경할 수 있습니다.
         
       - **제목 줄 앞에 텍스트를** 추가 합니다. 지정한 받는 사람에 게 메시지를 보내며 제목 줄에이 텍스트 입력 상자에 **접두사 제목 줄** 에 지정 된 텍스트를 포함 합니다. 이 텍스트를 식별자로 사용 하 여 필요에 따라 메시지를 필터링 또는 라우팅하는 규칙을 만들 수도 있습니다. 
         
@@ -121,21 +121,21 @@ ms.locfileid: "32258816"
   
 ## <a name="use-remote-powershell-to-configure-spam-filter-policies"></a>원격 PowerShell을 사용 하 여 스팸 필터 정책 구성
 
-또한 PowerShell에서 스팸 필터 정책을 구성 하 고 적용할 수 있습니다. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요. Windows PowerShell을 사용 하 여 exchange online protection에 연결 하는 방법에 대 한 자세한 내용은 [connect to exchange online protection PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조 하십시오.
+또한 PowerShell에서 스팸 필터 정책을 구성 하 고 적용할 수 있습니다. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요. Windows PowerShell을 사용 하 여 Exchange Online Protection에 연결 하는 방법에 대 한 자세한 내용은 [connect To Exchange Online Protection PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조 하십시오.
   
-- [get-hostedcontentfilterpolicy](http://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) 스팸 필터 설정을 확인 합니다. 
+- [Get-hostedcontentfilterpolicy](http://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) 스팸 필터 설정을 확인 합니다. 
     
-- [get-hostedcontentfilterpolicy](http://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) 스팸 필터 설정을 편집 합니다. 
+- [Get-hostedcontentfilterpolicy](http://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) 스팸 필터 설정을 편집 합니다. 
     
-- [get-hostedcontentfilterpolicy](http://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) 새 사용자 지정 스팸 필터 정책을 만듭니다. 
+- [Get-hostedcontentfilterpolicy](http://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) 새 사용자 지정 스팸 필터 정책을 만듭니다. 
     
-- [get-hostedcontentfilterpolicy을 제거](http://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) 합니다. 사용자 지정 스팸 필터 정책을 삭제 합니다. 
+- [Get-hostedcontentfilterpolicy을 제거](http://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) 합니다. 사용자 지정 스팸 필터 정책을 삭제 합니다. 
     
 사용자, 그룹 및/또는 도메인에 사용자 지정 스팸 필터 정책을 적용 하려면 [disable-hostedcontentfilterrule](http://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) cmdlet을 사용 하 여 사용자 지정 정책에 적용할 수 있는 새 필터 규칙을 만들거나 [disable-hostedcontentfilterrule](http://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) cmdlet ( 사용자 지정 정책에 적용할 수 있는 기존 필터 규칙입니다. 정책에 적용되는 규칙을 사용하거나 사용하지 않도록 설정하려면 [Enable-HostedContentFilterRule](http://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) cmdlet 또는 [Disable-HostedContentFilterRule](http://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx) cmdlet을 사용합니다. 
   
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-스팸이 정상적으로 검색되며 적절한 작업이 수행되는지 확인하려면 서비스를 통해 GTUBE 메시지를 보낼 수 있습니다. EICAR 바이러스 백신 테스트 파일과 마찬가지로 GTUBE를 사용하면 서비스에서 들어오는 백신을 검색하는지를 확인할 수 있습니다. gtube 메시지는 항상 스팸 필터에 의해 스팸으로 검색 되어야 하며, 메시지에 대해 수행 되는 작업은 구성 된 설정과 일치 해야 합니다.
+스팸이 정상적으로 검색되며 적절한 작업이 수행되는지 확인하려면 서비스를 통해 GTUBE 메시지를 보낼 수 있습니다. EICAR 바이러스 백신 테스트 파일과 마찬가지로 GTUBE를 사용하면 서비스에서 들어오는 백신을 검색하는지를 확인할 수 있습니다. GTUBE 메시지는 항상 스팸 필터에 의해 스팸으로 검색 되어야 하며, 메시지에 대해 수행 되는 작업은 구성 된 설정과 일치 해야 합니다.
   
 공백이나 줄 바꿈 없이 다음 GTUBE 텍스트를 메일 메시지의 한 줄에 포함합니다.
   

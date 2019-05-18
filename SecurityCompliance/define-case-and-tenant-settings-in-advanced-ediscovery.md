@@ -3,7 +3,7 @@ title: Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Office 365 Advanced eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
-ms.openlocfilehash: 2e95984651bf4da86bd64cfc3730fae75391410d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 69e6e824a7c6a5698e9dc25095d4fab49e369490
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256916"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150600"
 ---
 # <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 
@@ -39,9 +39,9 @@ ms.locfileid: "32256916"
   
 - 로그인 후 기본 페이지 고급 eDiscovery를 시작할 때 기본 페이지가 표시 되도록 설정 합니다.
     
-- 파일 표시 이름: 파일 제목/경로 또는 전자 메일 제목의 고급 ediscovery 표시 이름 대신 파일을 식별 하기 위해 고급 ediscovery 전체에서 표시 되는 파일 식별자입니다.
+- 파일 표시 이름: 파일 제목/경로 또는 전자 메일 제목의 고급 eDiscovery 표시 이름 대신 파일을 식별 하기 위해 고급 eDiscovery 전체에서 표시 되는 파일 식별자입니다.
     
-1. **cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. **설정 및 유틸리티 \> 사례 설정 탭** \> 을 **모듈 간에**엽니다. 
+1. **Cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. **설정 및 유틸리티 \> 사례 설정 탭** \> 을 **모듈 간에**엽니다. 
     
 2. **로그인 옵션 후 기본 페이지** 에서를 선택 합니다. 
     
@@ -61,9 +61,9 @@ ms.locfileid: "32256916"
   
 ### <a name="event-log"></a>이벤트 로그
 
-이벤트 로그는 advanced ediscovery 작업 중에 언제 든 지 advanced ediscovery 처리와 관련 된 메타 데이터를 제공 합니다. 예를 들어 기본 고급 eDiscovery 프로세스 (가져오기, 분석, 관련성 및 내보내기)의 시작 시간 뿐만 아니라 종료 시간 및 상태를 포함 합니다. 이 로그는 데이터 처리 작업을 추적 하 고 문제를 해결 하 고 오류 및 경고를 해결 하는 데 사용할 수 있습니다.
+이벤트 로그는 Advanced eDiscovery 작업 중에 언제 든 지 Advanced eDiscovery 처리와 관련 된 메타 데이터를 제공 합니다. 예를 들어 기본 고급 eDiscovery 프로세스 (가져오기, 분석, 관련성 및 내보내기)의 시작 시간 뿐만 아니라 종료 시간 및 상태를 포함 합니다. 이 로그는 데이터 처리 작업을 추적 하 고 문제를 해결 하 고 오류 및 경고를 해결 하는 데 사용할 수 있습니다.
   
-1. **cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. 
+1. **Cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. 
     
 2. **설정 및 유틸리티 \> 테 넌 트 설정** 탭에서 **이벤트 로그**를 선택 합니다. 이벤트 로그 데이터가 표시 됩니다.
     
@@ -79,7 +79,7 @@ ms.locfileid: "32256916"
 
 Advanced eDiscovery 버전 시스템 정보 및 활성 작업이 테 넌 트 설정 탭에 표시 됩니다.
   
-1. **cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. 
+1. **Cogwheel** 아이콘을 클릭 하 여 **설정 및 유틸리티** 를 엽니다. 
     
 2. **설정 및 유틸리티 \> 테 넌 트 설정** 탭에서 **시스템 정보**를 선택 합니다. 버전 정보가 표시 됩니다.
     

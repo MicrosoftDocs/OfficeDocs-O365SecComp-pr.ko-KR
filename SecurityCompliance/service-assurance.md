@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,13 +12,13 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
-description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, finra 및 FedRAMP을 준수 하는 방법을 알아봅니다.
-ms.openlocfilehash: d0cb03a7f5cbc34bdce238155372c9e031a95033
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP을 준수 하는 방법을 알아봅니다.
+ms.openlocfilehash: e346b84d17c2ca95b6a51ff870b18d5ff408b87c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261182"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158830"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 
@@ -101,8 +101,8 @@ ms.locfileid: "32261182"
   
 |**서비스 보증 페이지**|**사용 가능한 콘텐츠**|**설명**|
 |:-----|:-----|:-----|
-|준수 보고서  <br/> | FedRamp  <br/>  grc 평가  <br/>  ISO  <br/>  SOC/SSAE  <br/> |서비스 준수 보고서를 사용 하 여 Office 365 서비스 배달 작업의 타사 독립 감사자 로부터 수행 된 감사 평가를 검토 합니다.  <br/> |
-|문서 신뢰  <br/> | 질문과 대답 및 백서  <br/>  위험 관리 보고서  <br/> |검토/위험 평가에 대 한 비밀 유지 계약에 따라 사용할 수 있는 백서, faq, 연말 보고서 및 기타 Microsoft 기밀 리소스를 사용 합니다.  <br/> |
+|준수 보고서  <br/> | FedRamp  <br/>  GRC 평가  <br/>  ISO  <br/>  SOC/SSAE  <br/> |서비스 준수 보고서를 사용 하 여 Office 365 서비스 배달 작업의 타사 독립 감사자 로부터 수행 된 감사 평가를 검토 합니다.  <br/> |
+|문서 신뢰  <br/> | 질문과 대답 및 백서  <br/>  위험 관리 보고서  <br/> |검토/위험 평가에 대 한 비밀 유지 계약에 따라 사용할 수 있는 백서, Faq, 연말 보고서 및 기타 Microsoft 기밀 리소스를 사용 합니다.  <br/> |
 |감사 되는 컨트롤  <br/> |Office 365에서 구현한 글로벌 표준 및 규정  <br/> | 위험 평가에 대 한 자세한 내용은 평가, 온 보 딩 또는 Office 365 서비스 사용을 참조 하세요. 알아 봐:  <br/> <br/>-Office 365 컨트롤이 보안, 규정 준수 및 개인 정보 요구 사항을 충족 하는 방식  <br/>-Office 365, 이러한 테스트의 결과 및 완료 시기에 컨트롤을 테스트 하는 방법에 대해 알아봅니다.  <br/> |
    
 특정 설정에 따라 보기에 포함 된 옵션의 일부가 약간 다를 수 있습니다.

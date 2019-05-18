@@ -4,18 +4,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: Microsoft EOP(Exchange Online Protection)에서는 EAC(Exchange 관리 센터)를 통해 사용자를 하나 이상의 역할 그룹 구성원으로 지정하여 해당 그룹에 특정 관리 작업을 수행하기 위한 권한을 할당할 수 있습니다. 또한 EAC를 사용하여 하나 이상의 역할 그룹에서 사용자를 제거할 수도 있습니다.
-ms.openlocfilehash: aed32c8a9224bc60ef3e4a1ac9be9d797e61bda8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 35f248bce26d28c8ab7465ff983629eb01db407b
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256146"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150160"
 ---
 # <a name="manage-admin-role-group-permissions-in-eop"></a>EOP에서 관리자 역할 그룹 권한 관리
   

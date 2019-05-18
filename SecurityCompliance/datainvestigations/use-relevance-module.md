@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3aa37a6778947934759eb652a9367559b9ef838b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2d7c3ae16b573af7351abda19edebde7ad7491b8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257286"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150590"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>관련성 모듈을 사용 하 여 증거의 데이터 분석
 
@@ -55,7 +55,7 @@ ms.locfileid: "32257286"
     
 - **태그 지정 및 교육**: 
     
-  - 파일은 콘텐츠만 사용 하 여 태그를 지정 해야 합니다. custodian, date 또는 file 경로와 같은 메타 데이터를 고려 하지 않습니다. 
+  - 파일은 콘텐츠만 사용 하 여 태그를 지정 해야 합니다. Custodian, date 또는 file 경로와 같은 메타 데이터를 고려 하지 않습니다. 
     
   - 파일에 태그를 지정할 때 텍스트에 날짜 범위 표시를 고려 하지 않습니다.
     
@@ -65,15 +65,15 @@ ms.locfileid: "32257286"
     
   - 필요한 경우에만 **태그 지정 건너뛰기** 옵션을 사용 합니다. 건너뛴 파일에 따라 데이터 조사 (미리 보기)가 성향 습득 되지 않습니다. 평가에서는 파일에 대 한 관련성을 알기 어려운 경우에는 **건너뛰기를**선택 하는 것이 아니라 가능한 경우에도 적절 한 (R) 또는 적절 하지 않은 (veiligheid) 태그를 지정 하는 것이 좋습니다. 데이터 조사 (미리 보기)에서 교육을 평가할 때 이러한 유형의 파일을 처리 하는 방법을 확인할 수 있습니다.
     
-  - 압축을 푼 텍스트가 매우 적은 파일에도 가능 하면 교육에서 "건너뛰기"가 아닌 R/veiligheid로 태그를 지정 해야 합니다. 
+  - 압축을 푼 텍스트가 매우 적은 파일에도 가능 하면 교육에서 "건너뛰기"가 아닌 R/VEILIGHEID로 태그를 지정 해야 합니다. 
     
-  - 태그를 지정 하면 파일을 읽을 수 있고 R/veiligheid 태그로 태그를 지정할 수 있는 한 분류자에 게 영향을 줍니다.
+  - 태그를 지정 하면 파일을 읽을 수 있고 R/VEILIGHEID 태그로 태그를 지정할 수 있는 한 분류자에 게 영향을 줍니다.
     
   - **태그** 탭에 표시 된 샘플 파일 목록의 파일 시퀀스 번호를 사용 하 여 사용자는 표시 된 파일의 원래 순서 대로 돌아갈 수 있습니다. 
     
   - 모든 샘플로 돌아가서 평가 및 학습 집합 파일의 태그를 변경할 수 있습니다. 변경 내용은 다음 샘플을 만들 때 적용 됩니다.
     
-  - 스캔 한 excel 파일을 PDF 형식으로 지정 하는 경우 파일 태그를 지정할 때 기본 excel 파일과 동일 하 게 취급 해야 합니다.
+  - 스캔 한 Excel 파일을 PDF 형식으로 지정 하는 경우 파일 태그를 지정할 때 기본 Excel 파일과 동일 하 게 취급 해야 합니다.
     
   - 파일의 관련성 태그 지정과 관련 하 여 확실 하지 않은 경우 전문가에 게 문의 하십시오. 관련성을 교육 하는 동안 잘못 된 태그를 지정 하면 프로세스의 후반부에서 시간이 더 오래 걸릴 수 있으며 전체 결과의 품질에 부정적인 영향을 줄 수도 있습니다.
     

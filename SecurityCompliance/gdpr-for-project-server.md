@@ -3,17 +3,17 @@ title: Project Server GDPR
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 Project Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: 67097cdab4fdab31537cf4b6dd27ce17234c2bdc
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 8fb29c2d383c03c79d619d2c78df75cffb4eab27
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255286"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154500"
 ---
 # <a name="gdpr-for-project-server"></a>Project Server GDPR
 

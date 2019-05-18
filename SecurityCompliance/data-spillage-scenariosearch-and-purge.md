@@ -3,7 +3,7 @@ title: eDiscovery 솔루션 계열 데이터 유출 시나리오-검색 및 삭�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: 50078e3f22ede8a1af2a252a7a6f75710534c062
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b06dea5449d655cfe66072b3607f40c3bb7362da
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258956"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153800"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -60,21 +60,21 @@ Contoso의 잠재 고객 정보 보안 담당자입니다. 직원 들이 전자 
     
 ## <a name="optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries"></a>반드시 1 단계: 사례에 액세스 하 고 준수 경계를 설정할 수 있는 사용자 관리
 
-조직의 관행에 따라 데이터 유출 인시던트를 조사 하 고 준수 경계를 설정 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 해야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 investigators을 Security & 준수 센터에서 기존 역할 그룹의 구성원으로 추가 하 고 해당 역할 그룹을 eDiscovery 사례의 구성원으로 추가 하는 것입니다. 기본 제공 ediscovery 역할 그룹 및 ediscovery 사례에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+조직의 관행에 따라 데이터 유출 인시던트를 조사 하 고 준수 경계를 설정 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 해야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 investigators을 Security & 준수 센터에서 기존 역할 그룹의 구성원으로 추가 하 고 해당 역할 그룹을 eDiscovery 사례의 구성원으로 추가 하는 것입니다. 기본 제공 eDiscovery 역할 그룹 및 eDiscovery 사례에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
-조직 요구 사항에 맞게 새 역할 그룹을 만들 수도 있습니다. 예를 들어 조직에서 데이터 유출 investigators 그룹을 사용 하 여 모든 데이터 유출 사례에 액세스 하 고 공동 작업을 수행할 수 있습니다. 이 작업을 수행 하려면 "data 유출 Investigator" 역할 그룹을 만들고, 해당 역할 (내보내기, RMS 암호 해독, 검토, 미리 보기, 준수 검색 및 사례 관리)을 할당 하 고, 데이터 유출 investigators를 역할 그룹에 추가한 다음 데이터 유출 eDiscovery 사례에 대 한 구성원으로 서의 역할 그룹 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [Office 365에서 eDiscovery 조사에 대 한 준수 경계 설정을](set-up-compliance-boundaries.md) 참조 하십시오. 
+조직 요구 사항에 맞게 새 역할 그룹을 만들 수도 있습니다. 예를 들어 조직에서 데이터 유출 investigators 그룹을 사용 하 여 모든 데이터 유출 사례에 액세스 하 고 공동 작업을 수행할 수 있습니다. 이 작업을 수행 하려면 "Data 유출 Investigator" 역할 그룹을 만들고, 해당 역할 (내보내기, RMS 암호 해독, 검토, 미리 보기, 준수 검색 및 사례 관리)을 할당 하 고, 데이터 유출 investigators를 역할 그룹에 추가한 다음 데이터 유출 eDiscovery 사례에 대 한 구성원으로 서의 역할 그룹 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [Office 365에서 eDiscovery 조사에 대 한 준수 경계 설정을](set-up-compliance-boundaries.md) 참조 하십시오. 
   
 ## <a name="step-2-create-an-ediscovery-case"></a>2 단계: eDiscovery 사례 만들기
 
-eDiscovery 사례는 데이터 유출 조사를 효과적으로 관리 하는 방법을 제공 합니다. 1 단계에서 만든 역할 그룹에 구성원을 추가 하 고, 역할 그룹을 새로 eDiscovery 사례의 구성원으로 추가 하 고, 반복 검색을 수행 하 여 분산 된 데이터를 찾고, 보고서를 공유로 내보내고, 사례 상태를 추적 하 고, 대/소문자를 추적할 수 있습니다. ase 필요한 경우 데이터 유출 인시던트에 사용 되는 eDiscovery 사례에 대 한 명명 규칙을 설정 하 고, 사례 이름 및 설명에 최대한 많은 정보를 제공 하 여 필요한 경우이를 찾고 참조할 수 있습니다.
+EDiscovery 사례는 데이터 유출 조사를 효과적으로 관리 하는 방법을 제공 합니다. 1 단계에서 만든 역할 그룹에 구성원을 추가 하 고, 역할 그룹을 새로 eDiscovery 사례의 구성원으로 추가 하 고, 반복 검색을 수행 하 여 분산 된 데이터를 찾고, 보고서를 공유로 내보내고, 사례 상태를 추적 하 고, 대/소문자를 추적할 수 있습니다. ase 필요한 경우 데이터 유출 인시던트에 사용 되는 eDiscovery 사례에 대 한 명명 규칙을 설정 하 고, 사례 이름 및 설명에 최대한 많은 정보를 제공 하 여 필요한 경우이를 찾고 참조할 수 있습니다.
   
-새 사례를 만들려면 보안 및 준수 센터에서 eDiscovery를 사용할 수 있습니다. [eDiscovery 사례](ediscovery-cases.md#step-2-create-a-new-case)에서 "새 사례 만들기"를 참조 하세요.
+새 사례를 만들려면 보안 및 준수 센터에서 eDiscovery를 사용할 수 있습니다. [EDiscovery 사례](ediscovery-cases.md#step-2-create-a-new-case)에서 "새 사례 만들기"를 참조 하세요.
   
 ## <a name="step-3-search-for-the-spilled-data"></a>3 단계: 분산 된 데이터 검색
 
 사례 및 관리 되는 액세스 권한을 만들었으므로 이제 사례를 사용 하 여 데이터를 반복적으로 검색 하 고 분산 된 데이터를 포함 하는 사서함을 식별할 수 있습니다. 전자 메일 메시지를 검색 하는 데 사용한 것과 동일한 검색 쿼리를 사용 하 여 [7 단계](#step-7-permanently-delete-the-spilled-data)에서 같은 메시지를 삭제 합니다.
   
-ediscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [ediscovery 사례](ediscovery-cases.md#step-5-create-and-run-a-content-search-associated-with-a-case)에서 "사례와 연결 된 콘텐츠 검색 만들기 및 실행"을 참조 하십시오.
+EDiscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [ediscovery 사례](ediscovery-cases.md#step-5-create-and-run-a-content-search-associated-with-a-case)에서 "사례와 연결 된 콘텐츠 검색 만들기 및 실행"을 참조 하십시오.
   
  **중요:** 검색 쿼리에 사용 하는 키워드에는 검색 중인 실제 데이터 데이터가 포함 될 수 있습니다. 예를 들어 주민 등록 번호를 포함 하는 문서를 검색 하는 경우이를 검색 키워드로 사용 하려면 나중에 쿼리를 삭제 하 여 더 이상 유출을 방지 해야 합니다. 8 단계에서 [검색 쿼리 삭제](#deleting-the-search-query) 를 참조 하세요. 
   
@@ -84,7 +84,7 @@ ediscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [ediscovery 사
   
 사서함이 1000 개 보다 많은 사서함이 있거나 검토 하기 위해 전자 메일 메시지 수가 100 개 보다 많은 경우에는 날짜 범위 또는 보낸 사람/받는 사람과 같은 추가 키워드나 조건을 사용 하 여 초기 검색을 여러 검색으로 나누고 각 검색의 결과를 검토할 수 있습니다. 개별적으로. [7 단계](#step-7-permanently-delete-the-spilled-data)에서 메시지를 삭제할 때 사용할 모든 검색 쿼리를 기록해 두어야 합니다.
 
-custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된 경우 office 365 Advanced eDiscovery를 사용 하 여 한 번에 최대 1만의 검색 결과를 확인할 수 있습니다. 검토 해야 하는 전자 메일 메시지가 1만 개 보다 많으면 검색 쿼리를 날짜별로 나누고 검색 결과가 날짜별로 정렬 되어 개별적으로 각 결과를 검토할 수 있습니다. 고급 eDiscovery에서는 미리 보기 패널에서 **레이블** 표시 기능을 사용 하 여 검색 결과에 태그를 지정 하 고, 해당 태그에 따라 검색 결과를 필터링 할 수 있습니다. 이 기능은 보조 검토자와 공동 작업할 때 유용 합니다. 고급 eDiscovery에서 광학 인식, 전자 메일 스레딩 및 예측 코딩 같은 추가 분석 도구를 사용 하 여 수천 개의 메시지를 빠르게 처리 및 검토 하 고 추가 검토를 위해 태그를 지정할 수 있습니다. [Office 365 Advanced eDiscovery에 대 한 빠른 설치를](quick-setup-for-advanced-ediscovery.md)참조 하세요.
+Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된 경우 Office 365 Advanced eDiscovery를 사용 하 여 한 번에 최대 1만의 검색 결과를 확인할 수 있습니다. 검토 해야 하는 전자 메일 메시지가 1만 개 보다 많으면 검색 쿼리를 날짜별로 나누고 검색 결과가 날짜별로 정렬 되어 개별적으로 각 결과를 검토할 수 있습니다. 고급 eDiscovery에서는 미리 보기 패널에서 **레이블** 표시 기능을 사용 하 여 검색 결과에 태그를 지정 하 고, 해당 태그에 따라 검색 결과를 필터링 할 수 있습니다. 이 기능은 보조 검토자와 공동 작업할 때 유용 합니다. 고급 eDiscovery에서 광학 인식, 전자 메일 스레딩 및 예측 코딩 같은 추가 분석 도구를 사용 하 여 수천 개의 메시지를 빠르게 처리 및 검토 하 고 추가 검토를 위해 태그를 지정할 수 있습니다. [Office 365 Advanced eDiscovery에 대 한 빠른 설치를](quick-setup-for-advanced-ediscovery.md)참조 하세요.
 
 데이터를 포함 하는 전자 메일 메시지를 찾을 때 메시지를 받는 사람에 게 외부 공유 여부를 확인 합니다. 메시지를 추가로 추적 하기 위해 보낸 사람 정보 및 날짜 범위를 수집 하 여 [5 단계](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared)에서 설명 하는 메시지 추적 로그를 사용할 수 있습니다.
 
@@ -92,9 +92,9 @@ custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된
   
  **통계 보고서를 생성 하려면:**
   
-1. eDiscovery 사례의 **검색** 페이지로 이동한 후 보고서를 생성할 검색을 클릭 합니다. 
+1. EDiscovery 사례의 **검색** 페이지로 이동한 후 보고서를 생성할 검색을 클릭 합니다. 
     
-2. 플라이 아웃 페이지에서 **기타 > 내보내기 보고서**를 클릭 합니다.
+2. 플라이 아웃 페이지에서 **기타 _GT_ 내보내기 보고서**를 클릭 합니다.
  
       보고서 내보내기 페이지가 표시 됩니다.
 
@@ -102,7 +102,7 @@ custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된
     
 3. **형식을 인식할 수 없거나 암호화 되었거나 다른 이유로 인덱싱되지 않은 항목을 포함 하 여 모두** 선택 하 고 **보고서 생성**을 클릭 합니다.
 
-4. eDiscovery 사례에서 **내보내기를** 클릭 하 여 내보내기 작업 목록을 표시 합니다. **새로 고침** 을 클릭 하 여 방금 만든 내보내기 작업을 표시 하도록 목록을 업데이트 해야 할 수 있습니다.
+4. EDiscovery 사례에서 **내보내기를** 클릭 하 여 내보내기 작업 목록을 표시 합니다. **새로 고침** 을 클릭 하 여 방금 만든 내보내기 작업을 표시 하도록 목록을 업데이트 해야 할 수 있습니다.
 
 5. 내보내기 작업을 클릭 한 다음 플라이 아웃 페이지에서 보고서 **다운로드** 를 클릭 합니다.
  
@@ -132,7 +132,7 @@ custodian 또는 최종 사용자에 게 office 36 E5 라이선스가 할당 된
 
 **옵션 1: 데이터가 분산 된 사서함의 주소 목록 가져오기**
 
-1. eDiscovery 사례를 열고 **검색** 페이지로 이동한 후 적절 한 콘텐츠 검색을 선택 합니다. 
+1. EDiscovery 사례를 열고 **검색** 페이지로 이동한 후 적절 한 콘텐츠 검색을 선택 합니다. 
     
 2. 플라이 아웃 페이지에서 **결과 보기**를 클릭 합니다.
     

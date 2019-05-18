@@ -1,10 +1,10 @@
 ---
-title: Advanced eDiscovery (미리 보기)의 사례에 대 한 데이터 수집
+title: Advanced eDiscovery에서 사례에 대 한 데이터 수집
 ms.author: esclee
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,18 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fb4b36841394576c44667f9677507c5655179e45
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 8e67c3c8a693e627bade9e581f0f1e246bf6802a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242556"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151890"
 ---
-# <a name="collect-data-for-a-case-in-advanced-ediscovery-preview"></a>Advanced eDiscovery (미리 보기)의 사례에 대 한 데이터 수집
+# <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 대 한 데이터 수집
 
-해당 사례에 관심이 있는 custodians 및 데이터 원본을 파악 한 후에는 delve에 사용할 문서 집합을 식별 해야 합니다. Advanced eDiscovery (Preview)의 검색 도구를 사용 하 여 Office 365에서 custodial 및 비 custodial 위치를 확인할 수 있습니다.
+해당 사례에 관심이 있는 custodians 및 데이터 원본을 파악 한 후에는 delve에 사용할 문서 집합을 식별 해야 합니다. 고급 eDiscovery의 검색 도구를 사용 하 여 Office 365에서 custodial 및 비 custodial 위치를 확인할 수 있습니다.
 
-검색을 실행 한 후 검색 쿼리와 일치 하는 항목이 가장 많은 위치와 같은 검색 된 항목에 대 한 통계를 볼 수 있습니다. 또한 결과의 하위 집합을 미리 볼 수도 있습니다. 추가로 확인할 문서 집합을 식별 한 경우 수집 및 처리할 작업 집합에 검색 결과를 추가할 수 있습니다.
+검색을 실행 한 후 검색 쿼리와 일치 하는 항목이 가장 많은 위치와 같은 검색 된 항목에 대 한 통계를 볼 수 있습니다. 또한 결과의 하위 집합을 미리 볼 수도 있습니다. 추가로 확인할 문서 집합을 식별 한 경우 수집 및 처리할 검토 집합에 검색 결과를 추가할 수 있습니다.
 
 ## <a name="create-a-search"></a>Create a search
 
@@ -46,6 +46,6 @@ ms.locfileid: "32242556"
 
 미리 보기가 완료 되 면 **미리 보기** 단추가 활성화 됩니다. 이 도구를 클릭 하 여 결과의 샘플링할 하위 집합을 미리 봅니다.
 
-## <a name="adding-search-results-to-a-working-set"></a>작업 집합에 검색 결과 추가
+## <a name="adding-search-results-to-a-review-set"></a>검토 집합에 검색 결과 추가
 
-검색의 전체 결과를 수집 하 고 처리할 준비가 되 면 작업 집합에 추가 하 여 검색할 수 있습니다. 자세한 내용은 [작업 집합에 데이터 추가](add-data-to-working-set.md)를 참조 하십시오. 
+검색의 전체 결과를 수집 하 고 처리할 준비가 되 면 검토 집합에 추가 하 여 검색할 수 있습니다. 자세한 내용은 [검토 집합에 데이터 추가](add-data-to-review-set.md)를 참조 하십시오. 

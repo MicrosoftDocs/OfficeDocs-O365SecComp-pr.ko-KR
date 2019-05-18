@@ -1,22 +1,22 @@
 ---
-title: 보낸 사람 도메인 통찰력 수정
+title: 보낸 사람 도메인 정보 문제 해결
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a285a1c744ca540cc58b9408b4ee31e768f89479
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: 181f224064b5f31fd17c348cc4547826fbcd29a9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868566"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158710"
 ---
-# <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 통찰력 수정
+# <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 정보 문제 해결
 
 Office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프레미스 전자 메일 환경에서 Office 365로 메시지를 전송 해야 합니다.
 

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 9/11/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,22 +12,22 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
-ms.openlocfilehash: db5a462087dd20ed71f87efe2fd83b821654f1b9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7118b62dcd42413309e33c45e80516c8822faeff
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258774"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151290"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.
   
-이 문서의 스크립트를 통해 ediscovery 관리자 및 ediscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에 있는 ediscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
+이 문서의 스크립트를 통해 eDiscovery 관리자 및 eDiscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에 있는 eDiscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
 
 보고서에 포함 된 정보에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오. 
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 조직의 모든 ediscovery 사례에 대 한 보고서를 생성 하려면 조직의 ediscovery 관리자 여야 합니다. eDiscovery 관리자 인 경우 보고서에 액세스할 수 있는 사례에 대 한 정보만 포함 됩니다. ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+- 조직의 모든 eDiscovery 사례에 대 한 보고서를 생성 하려면 조직의 eDiscovery 관리자 여야 합니다. EDiscovery 관리자 인 경우 보고서에 액세스할 수 있는 사례에 대 한 정보만 포함 됩니다. EDiscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
     
 - 이 문서의 스크립트에는 최소한의 오류 처리가 있습니다. 기본 목적은 조직의 eDiscovery 사례와 연결 된 보류에 대 한 보고서를 빠르게 만드는 것입니다.
     
@@ -168,7 +168,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
   
     스크립트에서 조직의 모든 eDiscovery 사례에 대 한 정보를 수집 하기 시작 합니다. 스크립트가 실행 되는 동안에는 보고서 파일에 액세스 하지 마세요. 스크립트가 완료 되 면 Windows PowerShell 세션에 확인 메시지가 표시 됩니다. 이 메시지가 표시 되 면 4 단계에서 지정한 폴더의 보고서에 액세스할 수 있습니다. 보고서의 파일 이름은 `CaseHoldsReport<DateTimeStamp>.csv`입니다.
 
-    addtionally을 사용 하는 경우 스크립트는 보류 된 것이 없는 사례 목록을 포함 하는 보고서도 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv`입니다.
+    Addtionally을 사용 하는 경우 스크립트는 보류 된 것이 없는 사례 목록을 포함 하는 보고서도 만듭니다. 이 보고서의 파일 이름은 `CaseswithNoHolds<DateTimeStamp>.csv`입니다.
     
     다음은 CaseHoldsReport 스크립트를 실행 하는 예제입니다. 
     
@@ -180,7 +180,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
   
   - 보류의 이름과 보류가 연결 된 eDiscovery 사례의 이름입니다.
     
-  - eDiscovery 사례가 활성 상태 인지 닫혀 있는지 여부
+  - EDiscovery 사례가 활성 상태 인지 닫혀 있는지 여부
     
   - 보류를 사용 하거나 사용 하지 않도록 설정할지 여부를 지정 합니다.
     

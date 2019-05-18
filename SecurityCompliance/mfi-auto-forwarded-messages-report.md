@@ -3,18 +3,18 @@ title: 자동 전달 메시지 보고서
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
 description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a7556dd98e1381fe59a2a911dbfa27132f1aa44d
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: 81d6235e549b6eed792d069e66c69da1d40103ff
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868616"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158660"
 ---
 # <a name="auto-forwarded-messages-report"></a>자동 전달 메시지 보고서
 

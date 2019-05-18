@@ -1,10 +1,10 @@
 ---
-title: Advanced eDiscovery에서 AzCopy 문제 해결 (미리 보기)
+title: Advanced eDiscovery에서 AzCopy 문제 해결
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 9711bee4ec9a61510b47568df37dfd3135e1e00c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2c8378cf7b9bd21f901b1babbebdcb0b69a8ed73
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241082"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151520"
 ---
-# <a name="troubleshoot-azcopy-in-advanced-ediscovery-preview"></a>Advanced eDiscovery에서 AzCopy 문제 해결 (미리 보기)
+# <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Advanced eDiscovery에서 AzCopy 문제 해결
 
-고급 eDiscovery (미리 보기)에서 오류 수정을 위해 Office가 아닌 365 데이터 또는 문서를 로드할 때 사용자 인터페이스는 업로드 하려는 파일이 저장 되는 위치 및 azure에 있는 매개 변수가 포함 된 azure AzCopy 명령을 제공 합니다. 파일이 업로드 될 저장소 위치입니다. 문서를 업로드 하려면 로컬 컴퓨터의 명령 프롬프트에서이 명령을 복사한 다음 실행 합니다.  다음 스크린샷에는 AzCopy 명령의 예가 나와 있습니다.
+고급 eDiscovery에서 오류 수정을 위해 Office가 아닌 365 데이터 또는 문서를 로드할 때 사용자 인터페이스는 업로드 하려는 파일이 저장 되는 위치 및 Azure 저장소에 있는 매개 변수를 포함 하는 Azure AzCopy 명령을 제공 합니다. 파일이 업로드 될 위치입니다. 문서를 업로드 하려면 로컬 컴퓨터의 명령 프롬프트에서이 명령을 복사한 다음 실행 합니다.  다음 스크린샷에는 AzCopy 명령의 예가 나와 있습니다.
 
 ![Office 이외의 365 파일 업로드](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 

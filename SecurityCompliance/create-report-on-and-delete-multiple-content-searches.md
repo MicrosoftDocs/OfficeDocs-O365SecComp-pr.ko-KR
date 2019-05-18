@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/26/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Office 365의 보안 & 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 96d10e274cd83a4785170239302d55e74d40ca84
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 75caf75d576ac4a24779de15f5b05cb7fe8fa724
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258450"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151180"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -28,7 +28,7 @@ ms.locfileid: "32258450"
 
 - 이 항목에서 설명 하는 스크립트를 실행 하려면 Security & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 
     
-- 1 단계에서 CSV 파일에 추가할 수 있는 조직 내 비즈니스용 OneDrive 사이트의 url 목록을 수집 하려면 [조직에서 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/Create-a-list-of-all-OneDrive-locations-in-your-organization-8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 
+- 1 단계에서 CSV 파일에 추가할 수 있는 조직 내 비즈니스용 OneDrive 사이트의 Url 목록을 수집 하려면 [조직에서 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/Create-a-list-of-all-OneDrive-locations-in-your-organization-8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 
     
 - 이 항목에서 만드는 모든 파일을 동일한 폴더에 저장 해야 합니다. 이를 통해 스크립트를 보다 쉽게 실행할 수 있습니다.
     
@@ -59,7 +59,7 @@ ms.locfileid: "32258450"
     |**매개 변수**|**설명**|
     |:-----|:-----|
     | `ExchangeLocation` <br/> |사용자 사서함의 SMTP 주소입니다.  <br/> |
-    | `SharePointLocation` <br/> |사용자의 비즈니스용 OneDrive 사이트 url 또는 조직의 모든 사이트에 대 한 url입니다. 비즈니스용 OneDrive 사이트의 URL에 대해 다음 ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `형식을 사용 합니다. 예:  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |
+    | `SharePointLocation` <br/> |사용자의 비즈니스용 OneDrive 사이트 URL 또는 조직의 모든 사이트에 대 한 URL입니다. 비즈니스용 OneDrive 사이트의 URL에 대해 다음 ` https://<your organization>-my.sharepoint.com/personal/<user alias>_<your organization>_onmicrosoft_com `형식을 사용 합니다. 예:  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft_com`.  <br/> |
     | `ContentMatchQuery` <br/> |검색에 대 한 검색 쿼리 검색 쿼리를 만드는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.  <br/> |
     | `StartDate` <br/> |전자 메일의 경우 받는 사람이 또는 메시지를 받은 날짜나 보낸 사람이 보낸 날짜입니다. SharePoint 또는 비즈니스용 OneDrive 사이트에 대 한 문서에는 문서를 마지막으로 수정한 날짜 또는 그 이후의 날짜가 수정 되었습니다.  <br/> |
     | `EndDate` <br/> |전자 메일의 경우 사용자가 보낸 메시지를 보내거나 받은 날짜입니다. SharePoint 또는 비즈니스용 OneDrive 사이트에 대 한 문서는 마지막으로 문서를 수정한 날짜 또는 그 전에 발생 합니다.  <br/> |
@@ -183,7 +183,7 @@ ms.locfileid: "32258450"
     
 4. **원본 csv 파일** 프롬프트에 .csv 파일 확장명을 포함 하 여 csv 파일의 이름을 입력 합니다. 예를 `ContosoCase.csv`들면입니다.
     
-5. enter **** 키를 눌러 스크립트를 계속 실행 합니다. 
+5. Enter **** 키를 눌러 스크립트를 계속 실행 합니다. 
     
     이 스크립트는 검색 만들기 및 실행 진행률을 표시 합니다. 스크립트가 완료 되 면 프롬프트로 돌아옵니다. 
     
@@ -191,7 +191,7 @@ ms.locfileid: "32258450"
   
 ## <a name="step-4-run-the-script-to-report-the-search-estimates"></a>4 단계: 스크립트를 실행 하 여 검색 예측 보고
 
-검색을 만든 후에는 3 단계에서 만든 각 검색의 검색 적중 횟수에 대 한 간단한 보고서를 표시 하는 스크립트를 실행 합니다. 보고서에는 각 검색의 결과 크기와 모든 검색의 총 방문 횟수 및 전체 크기가 포함 됩니다. 보고 스크립트를 실행 하면 검색 그룹 ID와 csv 파일에 보고서를 저장 하려는 경우 csv 파일 이름을 입력 하 라는 메시지가 표시 됩니다.
+검색을 만든 후에는 3 단계에서 만든 각 검색의 검색 적중 횟수에 대 한 간단한 보고서를 표시 하는 스크립트를 실행 합니다. 보고서에는 각 검색의 결과 크기와 모든 검색의 총 방문 횟수 및 전체 크기가 포함 됩니다. 보고 스크립트를 실행 하면 검색 그룹 ID와 csv 파일에 보고서를 저장 하려는 경우 CSV 파일 이름을 입력 하 라는 메시지가 표시 됩니다.
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `SearchReport.ps1`들면입니다. 다른 파일을 저장 한 동일한 폴더에 파일을 저장 합니다.
     
@@ -256,7 +256,7 @@ ms.locfileid: "32258450"
 
 3. **검색 그룹 ID** 프롬프트에 검색 그룹 이름을 입력 하 고 enter 키를 누릅니다. **** 예를 `ContosoCase`들어 이 이름은 대/소문자를 구분 하므로 3 단계에서 스크립트를 실행할 때와 동일한 방식으로 입력 해야 합니다.
     
-4. 보고서를 **csv 파일에 저장 하는 파일 경로 (보고서를 표시 하는 경우에는 비워 둠)** 를 선택 하 고 보고서를 csv 파일에 저장 하려면 전체 파일 이름 경로 (.csv 파일 확장명 포함)의 파일 이름을 입력 합니다. .csv 파일 확장명을 포함 한 csv 파일의 이름입니다. 예를 `ContosoCaseReport.csv` 들어 현재 디렉터리에 파일을 저장 하거나 다른 폴더에 저장 하도록 입력할 수 `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` 있습니다. 또한 메시지를 비워 두면 보고서를 표시 하지만 파일에 저장 하지는 않습니다. 
+4. 보고서를 **csv 파일에 저장 하는 파일 경로 (보고서를 표시 하는 경우에는 비워 둠)** 를 선택 하 고 보고서를 csv 파일에 저장 하려면 전체 파일 이름 경로 (.csv 파일 확장명 포함)의 파일 이름을 입력 합니다. .csv 파일 확장명을 포함 한 CSV 파일의 이름입니다. 예를 `ContosoCaseReport.csv` 들어 현재 디렉터리에 파일을 저장 하거나 다른 폴더에 저장 하도록 입력할 수 `C:\Users\admin\OneDrive for Business\ContosoCase\ContosoCaseReport.csv` 있습니다. 또한 메시지를 비워 두면 보고서를 표시 하지만 파일에 저장 하지는 않습니다. 
     
 5. **Enter** 키를 누릅니다.
     

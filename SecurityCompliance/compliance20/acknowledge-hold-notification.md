@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,17 +14,17 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 048c85c7b8d77b9c7d3b9527640648b9ebe463d0
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: eb29ff34d663cf43af4a9a4b1e966a282d16eaf2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243641"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151950"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인 
 규정 요청 또는 조사에 응답할 때 custodians에 게 알려야 하 고, ESI (전자적으로 저장 된 정보)를 보존 하 고, 활성 또는 즉시 법적 관계를 유지 해야 할 수도 있습니다. 합법적인 팀이 전송 된 후에는 각 custodian에 게 제공 되 고, 읽고, 이해 했으며, 지정 된 지침을 준수 하기로 합의 해야 합니다.
 
-custodians와 관련 된 시간, 비용 및 노력을 줄이기 위해 고급 eDiscovery (미리 보기)를 사용 하면 전자 메일을 통해 법적 보존 알림을 보내고 추가 작업을 수행할 수 있습니다. 전자 메일 알림 외에도 각 custodian에는 개별화 준수 포털에 대 한 액세스 권한이 있으며,이를 통해 custodians가 의무 상태 변경 사항에 대 한 알림을 받을 수 있습니다.
+Custodians와 관련 된 시간, 비용 및 노력을 줄이기 위해 고급 eDiscovery를 사용 하면 전자 메일을 통해 법적 보존 알림을 보내고 추가 작업을 수행할 수 있습니다. 전자 메일 알림 외에도 각 custodian에는 개별화 준수 포털에 대 한 액세스 권한이 있으며,이를 통해 custodians가 의무 상태 변경 사항에 대 한 알림을 받을 수 있습니다.
 
 ## <a name="email-notifications"></a>전자 메일 알림
 법적 보존 알림이 실행 되 면 각 custodian는 정의 된 법적 보존 통지를 포함 하는 고유한 개인 설정 전자 메일을 수신 하 고 지침을 추가 합니다. 
@@ -47,4 +47,4 @@ custodians와 관련 된 시간, 비용 및 노력을 줄이기 위해 고급 eD
 ## <a name="compliance-portal"></a>준수 포털
 각 custodian에는 전자 메일 알림 외에 고유한 준수 포털에 대 한 액세스 권한이 있습니다. 포털을 통해 각 custodian에서 활성 보류 알림을 보고, 액세스 하 고, 승인할 수 있습니다.
 
-![custodian에 대 한 준수 포털](../media/CustodianPortal.jpg)
+![Custodian에 대 한 준수 포털](../media/CustodianPortal.jpg)

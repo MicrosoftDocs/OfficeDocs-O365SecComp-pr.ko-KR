@@ -1,9 +1,9 @@
 ---
-title: Microsoft 준수 관리자 및 gdpr
+title: Microsoft 준수 관리자 및 GDPR
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: None
@@ -12,17 +12,17 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: microsoft 준수 관리자는 microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 10579edea5a36686b8b19cafd9d3d6e148cfdcd3
-ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
+description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
+ms.openlocfilehash: a082d069aced13aa9260a1a856d942c4feb7dd4b
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33473170"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152100"
 ---
-# <a name="microsoft-compliance-manager-and-the-gdpr"></a>Microsoft 준수 관리자 및 gdpr
+# <a name="microsoft-compliance-manager-and-the-gdpr"></a>Microsoft 준수 관리자 및 GDPR
 
-유럽 연합의 gdpr (일반 데이터 보호 규정) 위임 기능은 준수 전략에 영향을 줄 수 있으며 준수 관리자에 사용 되는 사용자 및 고객 정보를 관리 하는 데 필요한 요구 사항을 충족 합니다.
+유럽 연합의 GDPR (일반 데이터 보호 규정) 위임 기능은 준수 전략에 영향을 줄 수 있으며 준수 관리자에 사용 되는 사용자 및 고객 정보를 관리 하는 데 필요한 요구 사항을 충족 합니다.
 
 ## <a name="user-privacy-settings"></a>사용자 개인 정보 설정
 

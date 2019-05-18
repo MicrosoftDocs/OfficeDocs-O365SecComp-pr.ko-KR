@@ -4,23 +4,23 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 보안 & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
-ms.openlocfilehash: 3e8e0594cac700fe37ee7a4a6c889dbf862cd0fb
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 9978262223de059511a011358764069ef23d4340
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33403016"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158750"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
 
-Security & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 office 365 그룹과 같은 office 365 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
+Security & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 Office 365 그룹과 같은 Office 365 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
   
 ## <a name="search-for-content"></a>콘텐츠 검색
 
@@ -30,7 +30,7 @@ Security & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니�
     
 - 검색 [쿼리를 작성 하 고 조건을 사용](keyword-queries-and-search-conditions.md) 하 여 검색 범위 좁히기 
     
-- eDiscovery 관리자가 조직에 있는 사서함 또는 사이트의 하위 집합만 검색할 수 있도록 [검색 권한 필터링을 구성](permissions-filtering-for-content-search.md) 합니다. 
+- EDiscovery 관리자가 조직에 있는 사서함 또는 사이트의 하위 집합만 검색할 수 있도록 [검색 권한 필터링을 구성](permissions-filtering-for-content-search.md) 합니다. 
     
 - [ID 목록 검색을 실행](csv-file-for-an-id-list-content-search.md) 하 여 특정 전자 메일 메시지 검색 
     

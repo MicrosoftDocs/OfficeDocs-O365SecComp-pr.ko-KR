@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/13/2017
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,18 +14,18 @@ ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다.
-ms.openlocfilehash: 1da66c5afa37c96c061a4bf25c0858e4e71e2313
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 44a313425a68a6de2e37e3fea34dbe53525723b1
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259576"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153870"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   
-온-프레미스 배포와 함께 사용 하는 경우 Exchange Online의 IRM (정보 권한 관리)은 Windows Server 2008 이상에서 정보 보호 기술인 AD RMS (Active Directory Rights management Services)를 사용 합니다. AD RMS 권한 정책 템플릿을 전자 메일 메시지에 적용하여 전자 메일에 IRM 보호를 적용합니다. 권한은 메시지 자체에 첨부 되므로 보호가 온라인 및 오프 라인 상태이 고 조직의 방화벽 내부 및 외부에서 보호 됩니다.
+온-프레미스 배포와 함께 사용 하는 경우 Exchange Online의 IRM (정보 권한 관리)은 Windows Server 2008 이상에서 정보 보호 기술인 AD RMS (Active Directory Rights Management Services)를 사용 합니다. AD RMS 권한 정책 템플릿을 전자 메일 메시지에 적용하여 전자 메일에 IRM 보호를 적용합니다. 권한은 메시지 자체에 첨부 되므로 보호가 온라인 및 오프 라인 상태이 고 조직의 방화벽 내부 및 외부에서 보호 됩니다.
   
-이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다. azure Active Directory 및 azure 권한 관리에서 office 365 메시지 암호화에 대 한 새로운 기능을 사용 하는 방법에 대 한 자세한 내용은 [office 365 메시지 암호화 FAQ](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e)를 참조 하세요.
+이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다. Azure Active Directory 및 Azure 권한 관리에서 Office 365 메시지 암호화에 대 한 새로운 기능을 사용 하는 방법에 대 한 자세한 내용은 [office 365 메시지 암호화 FAQ](https://support.office.com/article/0432dce9-d9b6-4e73-8a13-4a932eb0081e)를 참조 하세요.
   
 Exchange Online의 IRM에 대한 자세한 내용은 [Information Rights Management in Exchange Online](information-rights-management-in-exchange-online.md)를 참조하십시오.
   
@@ -36,7 +36,7 @@ Exchange Online의 IRM에 대한 자세한 내용은 [Information Rights Managem
     
 - 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [메시징 정책 및 규정 준수 권한](http://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) 항목의 "정보 권한 관리" 항목을 참조 하십시오. 
     
-- AD RMS 서버에서 Windows Server 2008 이상이 실행되고 있어야 합니다. ad rms를 배포 하는 방법에 대 한 자세한 내용은 [ad rms 클러스터 설치](https://go.microsoft.com/fwlink/?LinkId=210873)를 참조 하십시오.
+- AD RMS 서버에서 Windows Server 2008 이상이 실행되고 있어야 합니다. AD RMS를 배포 하는 방법에 대 한 자세한 내용은 [AD Rms 클러스터 설치](https://go.microsoft.com/fwlink/?LinkId=210873)를 참조 하십시오.
     
 - Windows PowerShell을 설치 및 구성하고 서비스에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](http://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx)을 참조하십시오.
     
@@ -72,7 +72,7 @@ TPD를 가져올 때 Exchange Online에서 저장 및 보호 됩니다.
     
 6. **암호** 및 **암호 확인** 상자에 트러스트된 게시 도메인 파일을 암호화하는 데 사용할 강력한 암호를 입력합니다. TPD를 클라우드 기반 전자 메일 조직으로 가져올 때 이 암호를 지정해야 합니다. 
     
-### <a name="step-2-use-the-exchange-management-shell-to-import-the-tpd-to-exchange-online"></a>2 단계: exchange 관리 셸을 사용 하 여 TPD를 exchange Online으로 가져오기
+### <a name="step-2-use-the-exchange-management-shell-to-import-the-tpd-to-exchange-online"></a>2 단계: Exchange 관리 셸을 사용 하 여 TPD를 Exchange Online으로 가져오기
 
 TPD를 XML 파일로 내보낸 후에는 Exchange Online으로 가져와야 합니다. TPD를 가져오면 조직의 AD RMS 템플릿도 가져오게 됩니다. 첫 번째 TPD를 가져오면 해당 TPD가 클라우드 기반 조직에 대한 기본 TPD가 됩니다. 다른 TPD를 가져오는 경우 **Default** 스위치를 사용하여 TPD를 사용자가 사용할 수 있는 기본 TPD로 만들 수 있습니다. 
   
@@ -100,7 +100,7 @@ TPD를 성공적으로 가져왔는지 확인 하려면 **import-rmstrustedpubli
   
 ### <a name="step-3-use-the-exchange-management-shell-to-distribute-an-ad-rms-rights-policy-template"></a>3 단계: Exchange 관리 셸을 사용 하 여 AD RMS 권한 정책 템플릿을 배포 합니다.
 
-TPD를 가져온 후에는 AD RMS 권한 정책 템플릿이 배포 되었는지 확인 해야 합니다. 배포 된 서식 파일은 웹 (이전의 outlook web App) 사용자에 게 표시 되므로 전자 메일 메시지에 서식 파일을 적용할 수 있습니다.
+TPD를 가져온 후에는 AD RMS 권한 정책 템플릿이 배포 되었는지 확인 해야 합니다. 배포 된 서식 파일은 웹 (이전의 Outlook Web App) 사용자에 게 표시 되므로 전자 메일 메시지에 서식 파일을 적용할 수 있습니다.
   
 기본 TPD에 포함된 모든 템플릿 목록을 반환하려면 다음 명령을 실행합니다.
   
@@ -157,14 +157,14 @@ Set-IRMConfiguration -InternalLicensingEnabled $true
   
 #### <a name="how-do-you-know-this-step-worked"></a>이 단계의 작동 여부는 어떻게 확인합니까?
 
-irm을 사용 하도록 성공적으로 설정 되었는지 확인 하려면 [Get-irmconfiguration](http://technet.microsoft.com/library/e1821219-fe18-4642-a9c2-58eb0aadd61a.aspx) cmdlet을 실행 하 여 Exchange Online 조직에서 IRM 구성을 확인 합니다. 
+IRM을 사용 하도록 성공적으로 설정 되었는지 확인 하려면 [Get-IRMConfiguration](http://technet.microsoft.com/library/e1821219-fe18-4642-a9c2-58eb0aadd61a.aspx) cmdlet을 실행 하 여 Exchange Online 조직에서 IRM 구성을 확인 합니다. 
   
 ## <a name="how-do-you-know-this-task-worked"></a>이 작업의 작동 여부는 어떻게 확인하나요?
 <a name="sectionSection2"> </a>
 
 TPD를 가져오고 IRM을 사용하도록 설정했는지 확인하려면 다음을 수행합니다.
   
-- **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [테스트-irmconfiguration](http://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx)의 "예제 1"을 참조 하십시오.
+- **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [테스트-IRMConfiguration](http://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx)의 "예제 1"을 참조 하십시오.
     
 - 웹의 Outlook에서 새 메시지를 작성 하 고 확장 된 메뉴 ( ![기타 옵션 아이콘](media/ITPro-EAC-MoreOptionsIcon.gif))에서 **사용 권한 설정** 옵션을 선택 하 여 IRM을 보호 합니다.
     

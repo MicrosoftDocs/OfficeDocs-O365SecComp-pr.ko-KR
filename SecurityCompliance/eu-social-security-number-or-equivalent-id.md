@@ -4,18 +4,18 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/17/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 주민 등록 번호 또는 동등한 ID 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: c0c808eafa52209c79f3b4e8a2113f587fd8a771
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b42a8d927e18f813eb6ef6d1d55b2de15ea9dcd5
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255556"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154490"
 ---
 # <a name="eu-social-security-number-or-equivalent-id"></a>EU 주민 등록 번호 또는 동등한 ID
 
@@ -35,7 +35,7 @@ ms.locfileid: "32255556"
     
 - 검사 숫자 1 개
     
-- 생년월일에 해당 하는 6 자리 숫자 (ddmmyy)
+- 생년월일에 해당 하는 6 자리 숫자 (DDMMYY)
     
 ### <a name="checksum"></a>제외
 
@@ -47,7 +47,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_austria_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_austria_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_austria_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -116,7 +116,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_belgium_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_belgium_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_belgium_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -145,7 +145,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 social security number
   
-nationalnumber #
+nationalnumber#
   
 ssn
   
@@ -159,7 +159,7 @@ bnn
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 numéro 국가
   
@@ -169,9 +169,9 @@ numéro d'assuré
   
 identifiant 국가
   
-identifiantnational #
+identifiantnational#
   
-numéronational #
+numéronational#
   
 ## <a name="croatia"></a>크로아티아
 
@@ -197,7 +197,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_croatia_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_croatia_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_croatia_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -228,7 +228,7 @@ national identification number
   
 social security number
   
-nationalnumber #
+nationalnumber#
   
 ssn
   
@@ -242,7 +242,7 @@ bnn
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 oib
   
@@ -276,7 +276,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_czech_republic_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_czech_republic_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_czech_republic_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -307,7 +307,7 @@ national identification number
   
 social security number
   
-nationalnumber #
+nationalnumber#
   
 ssn
   
@@ -317,7 +317,7 @@ ssn
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 rč
   
@@ -335,7 +335,7 @@ rodne cislo
 
 10 자리 숫자와 하이픈:
   
-- 생년월일에 해당 하는 6 자리 숫자 (ddmmyy) 
+- 생년월일에 해당 하는 6 자리 숫자 (DDMMYY) 
     
 - 하이픈
     
@@ -351,7 +351,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_denmark_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_denmark_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_denmark_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -380,7 +380,7 @@ national identification number
   
 social security number
   
-nationalnumber #
+nationalnumber#
   
 ssn
   
@@ -390,7 +390,7 @@ ssn
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 cpr-nummer
   
@@ -430,7 +430,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_finland_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_finland_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_finland_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -461,7 +461,7 @@ id 번호
   
 핀란드어 국가 id 번호
   
-personalidnumber #
+personalidnumber#
   
 national identification number
   
@@ -485,7 +485,7 @@ identiteetti numero
   
 suomen kansallinen henkilötunnus
   
-henkilötunnusnumero #
+henkilötunnusnumero#
   
 kansallisen tunnistenumero
   
@@ -501,7 +501,7 @@ hetu
   
 ## <a name="germany"></a>독일
 
-자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"독일 id 카드 번호" 섹션을 참조 하십시오.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"독일 Id 카드 번호" 섹션을 참조 하십시오.
   
 ## <a name="greece"></a>그리스
 
@@ -527,7 +527,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_hungary_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_hungary_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_hungary_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -608,7 +608,7 @@ magyar áfa szám
     
   - 일련 번호의 마지막 숫자는 남성에 홀수를 할당 하는 성별과 암의 짝수를 나타냅니다.
     
-  - 최대 1990의 일련 번호를 사용 하 여 전화를 corresponded 하는 국가, 즉 세금 레코드에 따라 (1947 이전에 태어난 경우)에는에 대 한 작업을 수행 하는 경우 (예를 들어 세금이 기록 됨) immigrants 
+  - 최대 1990의 일련 번호를 사용 하 여 전화를 corresponded 하는 국가, 즉 세금 레코드에 따라 (1947 이전에 태어난 경우)에는에 대 한 작업을 수행 하는 경우 (예를 들어 세금이 1947 기록 됨) immigrants 
     
 - 검사 숫자 1 개
     
@@ -622,7 +622,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_sweden_eu_ssn_or_equivalent` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_sweden_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
+- From `Keywords_sweden_eu_ssn_or_equivalent` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -667,9 +667,9 @@ personnummer
   
 identifikationsnumret
   
-personnummer #
+personnummer#
   
-identifikationsnumret #
+identifikationsnumret#
   
 ## <a name="see-also"></a>참고 항목
 

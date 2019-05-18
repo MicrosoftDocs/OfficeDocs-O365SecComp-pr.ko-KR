@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365에서 데이터 조사를 사용할 때 데이터를 검색할 때 키워드와 조건을 사용 하 여 검색 범위를 좁힐 수 있습니다.
-ms.openlocfilehash: eeca1bf7ff89d1b7f79ceeed3334668e354f035a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6d6c7e99257d071595365ec9a9557892fe3fe8db
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32262896"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151060"
 ---
 # <a name="build-search-queries"></a>검색 쿼리 작성
 
@@ -29,7 +29,7 @@ ms.locfileid: "32262896"
 
 ## <a name="keyword-searches"></a>키워드 검색
 
-검색 쿼리의 **키워드** 상자에 키워드 쿼리를 입력 합니다. 키워드, 전자 메일 메시지 속성 (예: 보낸 날짜 및 받은 날짜가 동일) 또는 문서 속성 (예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **and**, **OR**, **NOT**및 **NEAR**과 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 전자 메일 메시지에 포함 되지 않은 SharePoint 및 OneDrive의 문서에서 중요 한 정보 (예: 사회 보장 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. **키워드** 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다.
+검색 쿼리의 **키워드** 상자에 키워드 쿼리를 입력 합니다. 키워드, 전자 메일 메시지 속성 (예: 보낸 날짜 및 받은 날짜가 동일) 또는 문서 속성 (예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **And**, **OR**, **NOT**및 **NEAR**과 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 전자 메일 메시지에 포함 되지 않은 SharePoint 및 OneDrive의 문서에서 중요 한 정보 (예: 사회 보장 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. **키워드** 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다.
     
 또는 **키워드 목록 표시** 확인란을 클릭 하 고 각 행에 키워드나 키워드 구를 입력할 수 있습니다. 이 작업을 수행 하는 경우 각 행의 키워드는 생성 되는 검색 쿼리의 **OR** 연산자와 유사한 기능을 하는 논리 연산자 ( *c:s*로 표시 됨)에 의해 연결 됩니다. 즉, 모든 행에 키워드가 포함 된 항목이 검색 결과에 포함 됩니다.
 

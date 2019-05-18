@@ -1,22 +1,22 @@
 ---
-title: 배달 못 함 보고서
+title: 미실행 보고서
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 배달 못 함 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d4b34b5801f663a1028a23cf3a1f897d56a2239b
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: 9f9cc2865174344a2d411add4032ddf6ced8c740
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868606"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158630"
 ---
-# <a name="non-delivery-report"></a>배달 못 함 보고서
+# <a name="non-delivery-report"></a>미실행 보고서
 
 **배달 못 함 보고서** 에는 조직 내 사용자에 대 한 ndr 또는 바운스 메시지 라고도 하는 배달 못함 보고서의 가장 많이 발생 한 오류 코드가 표시 됩니다. 이 보고서는 Ndr의 세부 정보를 표시 하기 위한 것 이므로 문제를 해결할 수 있습니다.
 

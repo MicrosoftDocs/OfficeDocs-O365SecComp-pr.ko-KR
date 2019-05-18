@@ -3,7 +3,7 @@ title: Office 365 Advanced eDiscovery에서 결과 내보내기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: '내보내기 일괄 처리에 대 한 매개 변수를 지정 하는 절차를 포함 하 여 Office 365 Advanced eDiscovery에서 결과를 내보내기 위한 옵션을 정의 하는 방법을 알아봅니다. '
-ms.openlocfilehash: a2528c3eab0bc9c06a592b972a3bc602174458d3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: ad11ac742f3157811523164c7e4d063e1d101343
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255860"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152930"
 ---
 # <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 내보내기
 
@@ -57,7 +57,7 @@ ms.locfileid: "32255860"
 ## <a name="set-up-batch-export-parameters"></a>일괄 내보내기 매개 변수 설정
 <a name="BK_SetUpExport"> </a>
 
-eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 컴퓨터로 내보내는 데 사용 됩니다. 데이터 전송 처리량을 늘려 내보내기 프로세스의 속도를 높이려면 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하면 됩니다. 다운로드 속도를 높이려면 내보내기 매개 변수를 설정 하기 전에 레지스트리 설정을 구성 합니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
+EDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 컴퓨터로 내보내는 데 사용 됩니다. 데이터 전송 처리량을 늘려 내보내기 프로세스의 속도를 높이려면 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하면 됩니다. 다운로드 속도를 높이려면 내보내기 매개 변수를 설정 하기 전에 레지스트리 설정을 구성 합니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
   
 1. 고급 eDiscovery에서 사례를 선택 하 고 설정 **내보내기를** \> **** 클릭 합니다.
     
@@ -88,7 +88,7 @@ eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
     
     - **표준**: 데이터 항목, 메타 데이터 및 속성의 기본 집합입니다. 고급 eDiscovery에서 데이터 가져오기가 이미 처리 된 경우이 옵션을 사용 하면 파일이 이미 들어 있는 시스템에 내보내기 데이터를 업로드할 수 있습니다. 기본적으로 내보내기 템플릿 열은 만들어지고 채워집니다.
     
-    - **all**: 모든 처리 데이터를 포함 하는 표준 메타 데이터의 전체 집합 및 분석 및 관련성 점수 이 서식 파일은 고급 eDiscovery에서 처리를 수행 하 고 파일 데이터를 처음으로 외부 시스템에 업로드 하는 경우에 필요 합니다.
+    - **All**: 모든 처리 데이터를 포함 하는 표준 메타 데이터의 전체 집합 및 분석 및 관련성 점수 이 서식 파일은 고급 eDiscovery에서 처리를 수행 하 고 파일 데이터를 처음으로 외부 시스템에 업로드 하는 경우에 필요 합니다.
     
     - **문제**: **모든 문제** 를 선택 하거나 만든 특정 문제를 선택 합니다. 
     
@@ -101,7 +101,7 @@ eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
       > [!NOTE]
       > 내보내기 패키지가 사용자 정의 Azure blob에 저장 되 면 데이터는 더 이상 고급 eDiscovery로 관리 되지 않습니다. Azure blob에서 관리 됩니다. 즉, 사례를 삭제 하는 경우 내보낸 파일은 여전히 Azure blob에 남아 있게 됩니다. 
   
-    - **향후 내보내기 세션을 위해 sas 토큰 저장**:이 옵션을 선택 하면 나중에 사용할 수 있도록 sas 토큰이 고급 eDiscovery의 내부 데이터베이스에 암호화 됩니다.
+    - **향후 내보내기 세션을 위해 sas 토큰 저장**:이 옵션을 선택 하면 나중에 사용할 수 있도록 Sas 토큰이 고급 eDiscovery의 내부 데이터베이스에 암호화 됩니다.
     
       > [!NOTE]
       > 현재 SAS 토큰은 매달 만료 됩니다. 1 개월 이상 후에 다운로드 하려고 하면 마지막 세션을 실행 취소 한 다음 다시 내보내십시오. 
@@ -160,17 +160,17 @@ eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
   
 10. **닫기**를 클릭합니다. 
     
-    eDiscovery 내보내기 도구가 시작 됩니다.
+    EDiscovery 내보내기 도구가 시작 됩니다.
     
     ![eDiscovery 내보내기](media/705756ca-ee97-4d24-b70f-8b23513f6d11.gif)
   
-11. **eDiscovery 내보내기 도구**에서 다음을 수행 합니다.
+11. **EDiscovery 내보내기 도구**에서 다음을 수행 합니다.
     
     -  **원본에 연결 하는 데 사용할 공유 액세스 서명 붙여넣기**에서 7 단계에서 클립보드에 복사 했던 내보내기 키를 붙여 넣습니다.
     
     - **찾아보기를** 클릭 하 여 다운로드 한 내보내기 파일을 로컬 컴퓨터에 저장할 대상 위치를 선택 합니다. 
     
-    - **시작**을 클릭 합니다. 내보내기 파일이 로컬 컴퓨터로 다운로드 됩니다. 4 단계에서 **사용자 정의 Azure blob로 내보내기를** 선택한 경우 세션을 선택한 blob 저장소 URL 대상으로 내보냅니다.
+    - **시작**을 클릭 합니다. 내보내기 파일이 로컬 컴퓨터로 다운로드 됩니다. 4 단계에서 **사용자 정의 Azure blob로 내보내기를** 선택한 경우 세션을 선택한 BLOB 저장소 URL 대상으로 내보냅니다.
     
 내보내기 보고서의 필드에 대 한 자세한 설명은 [보고서 필드 내보내기를](export-report-fields-in-advanced-ediscovery.md)참조 하십시오.
   
@@ -181,11 +181,11 @@ eDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
   
 |**파일 이름**|**파일 형식**|**설명**|
 |:-----|:-----|:-----|
-|내보내기 요약  <br/> |cs  <br/> |eDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
-|추적은  <br/> |라는  <br/> |eDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
+|내보내기 요약  <br/> |cs  <br/> |EDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
+|추적은  <br/> |라는  <br/> |EDiscovery 내보내기 도구에서 생성 하는 로그 파일입니다.  <br/> |
 |추출 된 텍스트 파일  <br/> |파일 폴더  <br/> |내보낸 파일의 추출 된 텍스트 파일이 들어 있는 폴더입니다.  <br/> |
 |입력 또는 네이티브 파일  <br/> |파일 폴더  <br/> |내보낸 파일의 네이티브 파일 및 입력 파일이 들어 있는 폴더입니다.  <br/> |
-|목록 내보내기  <br/> |.xlsx  <br/> |파일 메타 데이터를 .xlsx 형식으로 내보냈습니다. 파일의 필드는 사용자가 선택 하는 서식 파일에 따라 결정 됩니다. 필요한 경우 여러 파일이 생성 되 고 각 파일에는 150k 행이 포함 됩니다. Excel 셀에 포함할 수 있는 것 보다 많은 문자를 특정 값에 포함 하는 경우 (현재 제한은 32767 자)이 값은 허용 되는 최대 길이에 맞게 잘립니다. 값을 트리밍한 경우 셀의 배경색은 사용자에 게 표시 되는 빨간색입니다. " 전자 메일 참가자 "는 전자 메일이 대규모 배포로 전송 된 경우 길이 제한을 초과할 수 있는 필드의 예입니다. 출력 필드에 대 한 자세한 내용은 [보고서 필드 내보내기를](export-report-fields-in-advanced-ediscovery.md) 참조 하십시오.  <br/> |
+|목록 내보내기  <br/> |.xlsx  <br/> |파일 메타 데이터를 .xlsx 형식으로 내보냈습니다. 파일의 필드는 사용자가 선택 하는 서식 파일에 따라 결정 됩니다. 필요한 경우 여러 파일이 생성 되 고 각 파일에는 150K 행이 포함 됩니다. Excel 셀에 포함할 수 있는 것 보다 많은 문자를 특정 값에 포함 하는 경우 (현재 제한은 32767 자)이 값은 허용 되는 최대 길이에 맞게 잘립니다. 값을 트리밍한 경우 셀의 배경색은 사용자에 게 표시 되는 빨간색입니다. " 전자 메일 참가자 "는 전자 메일이 대규모 배포로 전송 된 경우 길이 제한을 초과할 수 있는 필드의 예입니다. 출력 필드에 대 한 자세한 내용은 [보고서 필드 내보내기를](export-report-fields-in-advanced-ediscovery.md) 참조 하십시오.  <br/> |
 |파일 로드  <br/> |cs  <br/> |다른 응용 프로그램에 로드 하기 위해 내보낸 파일 메타 데이터가 csv 형식으로 내보내집니다. 파일의 필드는 사용자가 선택 하는 서식 파일에 따라 결정 됩니다.  <br/> |
 |성공 지표  <br/> |라는  <br/> |타사 Azure blob로 내보낼 때만 만들어집니다. 내보내기가 완전히 완료 되 면 파일이 만들어집니다. 실패의 경우 또는 부분적으로 성공 하는 경우 파일을 만들지 않습니다. 파일은 루트 폴더에 만들어지므로 서로 다른 내보내기 일괄 처리/세션 상태에 대 한 자동화 된 추적을 허용 합니다. 빈 파일입니다. 이름은 TenantId_CaseId_ExternalCaseId_CaseName_ExportBatchId_SessionId_DateTime입니다.  <br/> |
    

@@ -3,7 +3,7 @@ title: EOP에서 최종 사용자 스팸 알림 구성
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
 ms.collection:
 - M365-security-compliance
 description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: 09ddd7fd2800e4038e354e53da53320184da3e77
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 07bca81f06a347bbce5e997e570553f85deb5c1d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259626"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151460"
 ---
 # <a name="configure-end-user-spam-notifications-in-eop"></a>EOP에서 최종 사용자 스팸 알림 구성
   
 > [!IMPORTANT]
-> 이 항목은 온-프레미스 사서함을 보호 하는 EOP (Exchange Online Protection) 독립 실행형 고객을 위한 것입니다. 클라우드 호스트 사서함을 보호 하는 exchange online 고객은 다음 항목을 대신 사용 하 여 [exchange online에서 최종 사용자 스팸 알림을 구성](configure-end-user-spam-notifications-in-exchange-online.md)해야 합니다. 
+> 이 항목은 온-프레미스 사서함을 보호 하는 EOP (Exchange Online Protection) 독립 실행형 고객을 위한 것입니다. 클라우드 호스트 사서함을 보호 하는 exchange Online 고객은 다음 항목을 대신 사용 하 여 [Exchange online에서 최종 사용자 스팸 알림을 구성](configure-end-user-spam-notifications-in-exchange-online.md)해야 합니다. 
   
 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다. 최종 사용자 스팸 알림 메시지를 사용하도록 설정하면 최종 사용자가 스팸으로 격리된 메시지를 자체 관리할 수 있습니다. 예외를 포함하여 사용자나 그룹 또는 정책에 적용된 정책과 함께 최종 사용자 스팸 알림을 사용할 수는 없습니다.
   
@@ -39,7 +39,7 @@ ms.locfileid: "32259626"
 
 **Release &** 메시지가 스팸으로 아니면 Office 365에서 다음 전자 메일에 대 한 수신 허용-보낸 사람 및 받는 사람 목록에 보낸 사람을 추가 하도록 하려면 보낸 사람을 선택 합니다. 관리자에 게는 수신 허용-보낸 사람 목록을 다시 정의 하는 다른 조직 전체의 allow/block 구성이 있을 수 있습니다.
 
-**Release & Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
+**Release _AMP_ Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
 
 Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하려면 **차단** 합니다.
   

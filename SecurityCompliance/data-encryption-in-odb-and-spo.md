@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 7/2/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 6501b5ef-6bf7-43df-b60d-f65781847d6c
 ms.collection:
 - M365-security-compliance
 description: 비즈니스용 OneDrive 및 SharePoint Online에서 데이터 보안을 위한 암호화의 기본 요소를 이해합니다.
-ms.openlocfilehash: 84d44ceec96545388d0e4f77f0a84e95ff07db59
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c8ac6f0a4364117c475637e0288d7a1a790d57c2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258156"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151100"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화
 
@@ -30,7 +30,7 @@ ms.locfileid: "32258156"
 
 Office 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보안, 응용 프로그램 보안 및 데이터 보안과 같은 다중 계층의 광범위한 보호 기능을 제공하는 높은 보안 환경을 제공합니다. 이 문서에서는 특히 비즈니스용 OneDrive 및 SharePoint Online에 대한 전송 중 및 보관된 데이터 보안의 암호화 측면을 중점적으로 설명합니다.
   
-전체 office 365 보안에 대 한 자세한 내용은 [office 365의 보안 백서](https://go.microsoft.com/fwlink/p/?LinkId=270895)를 참조 하세요.
+전체 Office 365 보안에 대 한 자세한 내용은 [office 365의 보안 백서](https://go.microsoft.com/fwlink/p/?LinkId=270895)를 참조 하세요.
   
 다음 비디오에서 데이터 암호화 방법을 알아보세요.
   
@@ -52,7 +52,7 @@ BitLocker는 서비스 전반에서 비즈니스용 OneDrive 및 SharePoint Onli
   
 BitLocker는 디스크에서 모든 데이터를 암호화하는 동안 각 파일에 대해 고유한 암호화 키를 포함하여 파일 단위 암호화를 추가로 수행합니다. 또한 모든 파일에 대한 모든 업데이트는 자체 암호화 키를 사용하여 암호화됩니다. 저장되기 전에 암호화된 콘텐츠에 대한 키는 콘텐츠에서 물리적으로 분리된 위치에 저장됩니다. 이 암호화의 모든 단계는 AES(Advanced Encryption Standard) 256비트 키를 사용하며 FIPS(Federal Information Processing Standard) 140-2 규정을 준수합니다. 암호화된 콘텐츠는 데이터 센터 전반에 걸쳐 여러 컨테이너에 분산되며 각 컨테이너에는 고유한 자격 증명이 있습니다. 이러한 자격 증명은 콘텐츠 또는 콘텐츠 키에서 물리적으로 분리된 위치에 저장됩니다.
   
-fips 140-2 준수에 대 한 자세한 내용은 [fips 140-2 준수](https://go.microsoft.com/fwlink/?LinkId=517625)를 참조 하세요.
+FIPS 140-2 준수에 대 한 자세한 내용은 [fips 140-2 준수](https://go.microsoft.com/fwlink/?LinkId=517625)를 참조 하세요.
   
 보관된 파일 수준 암호화는 Blob Storage를 활용하여 거의 무제한의 저장 용량을 제공하며 비교할 수 없는 보호 기능을 사용합니다. 비즈니스용 OneDrive 및 SharePoint Online의 모든 고객 콘텐츠는 Blob Storage로 마이그레이션됩니다. 이러한 데이터를 보호하는 방법은 다음과 같습니다.
   

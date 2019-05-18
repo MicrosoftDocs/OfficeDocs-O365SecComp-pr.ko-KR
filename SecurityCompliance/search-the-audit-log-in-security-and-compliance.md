@@ -3,7 +3,7 @@ title: 보안 & 준수 센터에서 감사 로그 검색
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 9bf288618d91d4084580c45d96d13e345af32ea9
-ms.sourcegitcommit: 7ad5618db6004757599d8b7c153fdb6ab3ba3f6e
+ms.openlocfilehash: 4760d36a587dd1aad0463dcddc19400e8138135c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970311"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158790"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -274,7 +274,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 #### <a name="more-information-about-exporting-audit-log-search-results"></a>감사 로그 검색 결과 내보내기에 대 한 자세한 정보
 
-- **모든 결과 다운로드** 옵션은 Office 365 감사 로그의 원시 데이터를 CSV 파일로 다운로드 합니다. 이 파일에는 **로드 된 결과 저장** 옵션을 선택한 경우에 다운로드 되는 파일의 열 이름 (CreationDate, UserIds, 작업, Auditdata)이 서로 다릅니다. 동일한 활동에 대해 서로 다른 두 개의 CSV 파일 값이 다를 수도 있습니다. 예를 들어 CSV 파일의 **작업** 열에 있는 작업 및 **감사 로그 검색** 페이지의 **활동** 열에 표시 되는 "사용자에 게 친숙 한" 버전과는 다른 값을 사용할 수 있습니다. 예를 들어 사서함에 로그인 한 MailboxLogin 및 사용자입니다.
+- **모든 결과 다운로드** 옵션은 Office 365 감사 로그의 원시 데이터를 CSV 파일로 다운로드 합니다. 이 파일에는 **로드 된 결과 저장** 옵션을 선택한 경우에 다운로드 되는 파일의 열 이름 (CreationDate, UserIds, 작업, auditdata)이 서로 다릅니다. 동일한 활동에 대해 서로 다른 두 개의 CSV 파일 값이 다를 수도 있습니다. 예를 들어 CSV 파일의 **작업** 열에 있는 작업 및 **감사 로그 검색** 페이지의 **활동** 열에 표시 되는 "사용자에 게 친숙 한" 버전과는 다른 값을 사용할 수 있습니다. 예를 들어 사서함에 로그인 한 MailboxLogin 및 사용자입니다.
     
 - 모든 결과를 다운로드 하는 경우 CSV 파일에는 각 이벤트에 대 한 추가 정보를 포함 하는 **Auditdata**라는 열이 포함 됩니다. 앞에서 설명한 것 처럼이 열에는 감사 로그 레코드의 여러 속성에 대 한 다중 값 속성이 포함 되어 있습니다. 이 다중 값 속성의 각 **속성: 값** 쌍은 쉼표로 구분 됩니다. Excel에서 파워 쿼리를 사용 하 여이 열을 여러 열로 분할 하 여 각 속성에 자체 열을 표시할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬 및 필터링 할 수 있습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [split a text 열 (Power Query)](https://support.office.com/article/5282d425-6dd0-46ca-95bf-8e0da9539662)에서 "구분 기호로 열 분할" 섹션을 참조 하십시오.
     

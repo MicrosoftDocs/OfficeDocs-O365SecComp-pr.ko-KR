@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Office 365 Advanced eDiscovery에서 관련성 훈련을 수행 하기 전에 가져온 파일을 마지막으로 정의한 부하 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 8c5101628b468719f8aa4f81a4c73cbbb226105f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 65e022680cc0bd39bbca3e05a4e3b6d24da1b2ad
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260744"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158610"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
 
@@ -107,7 +107,7 @@ ms.locfileid: "32260744"
     
 6. 대화 상자 아래쪽의 **보완** 을 클릭 하 여 시나리오를 실행 합니다. 
     
-    동시 파일 태깅을 허용 하기 위해 모든 문제에 대해 새 부하의 200 파일을 포함 하는 단일 찾기 집합을 만듭니다.
+    동시 파일 태깅을 허용 하기 위해 모든 문제에 대해 새 부하의 200 파일 2000을 포함 하는 단일 찾기 집합을 만듭니다.
     
     자세한 내용은 부하가 비슷하거나 비슷한지, Advanced eDiscovery가 자동으로 로드 되는지 여부 및 다음 단계의 처리와 관련 된 정보를 제공 합니다.
     

@@ -1,38 +1,38 @@
 ---
-title: '주요 정보 보안 담당자 (ciso) 워크숍, 모듈 3: id 및 액세스 관리'
+title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 3: Id 및 액세스 관리'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 51d9a9e44c08a7a41fc1a0a1e9d062bef02d9ef5
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a12ab000e3a8d9d36bcb114e7ad6822b4e085940
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244049"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152120"
 ---
-# <a name="ciso-workshop-module-3-identity-and-access-management"></a>ciso 워크숍 모듈 3: id 및 액세스 관리 
+# <a name="ciso-workshop-module-3-identity-and-access-management"></a>CISO 워크숍 모듈 3: Id 및 액세스 관리 
 
 대부분의 최신 공격은 사용자 id를 손상 시 키도 기 때문에, 새 id 보안 경계를 구축 하 여 회사 네트워크 외부의 자산을 보호 하는 방법을 알아보세요.
 
 - PDF 요약 다운로드: [모듈 3: id 및 액세스 관리](media/ciso-workshop-3-identity-protection.pdf)
 - PowerPoint 요약 다운로드: [모듈 3: id 및 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-3-identity-protection.pptx)
 
-## <a name="introduction-identity-and-access-management-232"></a>소개: id 및 액세스 관리 (2:32)
+## <a name="introduction-identity-and-access-management-232"></a>소개: Id 및 액세스 관리 (2:32)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtGm3]
 
-## <a name="part-1-history-and-trends-of-identity-security-745"></a>1 부: id 보안 기록 및 추세 (7:45)
+## <a name="part-1-history-and-trends-of-identity-security-745"></a>1 부: Id 보안 기록 및 추세 (7:45)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQL7]
 
-## <a name="part-2-identity-system-security-337"></a>2 부: id 시스템 보안 (3:37)
+## <a name="part-2-identity-system-security-337"></a>2 부: Id 시스템 보안 (3:37)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMf]
 
@@ -40,7 +40,7 @@ ms.locfileid: "32244049"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtGm5]
 
-## <a name="part-4-building-an-identity-perimeter-1357"></a>4 부: id 경계 만들기 (13:57)
+## <a name="part-4-building-an-identity-perimeter-1357"></a>4 부: Id 경계 만들기 (13:57)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMg]
 

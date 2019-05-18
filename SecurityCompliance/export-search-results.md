@@ -3,7 +3,7 @@ title: 콘텐츠 검색 결과 내보내기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.CustomizeExport
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: 'Security & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
-ms.openlocfilehash: 5d1baa57f466a5ef7657d92b517660e35b0036e8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: deb777125f75f30a3d98d090c4427de8c5388800
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255512"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154550"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -41,7 +41,7 @@ ms.locfileid: "32255512"
     
   - 32비트 및 64비트 버전의 Windows 7 이상 버전
     
-  - Microsoft .net Framework 4.7
+  - Microsoft .NET Framework 4.7
     
   - 지원되는 브라우저:
     
@@ -55,7 +55,7 @@ ms.locfileid: "32255512"
     
 - 2 단계에 설명 된 대로 검색 결과를 다운로드할 때 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 다운로드 속도를 높일 수 있습니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
     
-- 검색 결과를 내보낼 때 데이터가 로컬 컴퓨터로 다운로드 되기 전에 microsoft 클라우드의 고유한 microsoft Azure 저장소 위치에 임시로 저장 됩니다. 조직이 Azure의 끝점에 연결할 수 있는지 (와일드 카드는 내보내기에 대 한 고유 식별자를 나타냄) ** \*blob.core.windows.net 합니다** . 검색 결과 데이터는 만들어진 후 2 주 후 Azure 저장소 위치에서 삭제 됩니다. 
+- 검색 결과를 내보낼 때 데이터가 로컬 컴퓨터로 다운로드 되기 전에 Microsoft 클라우드의 고유한 Microsoft Azure 저장소 위치에 임시로 저장 됩니다. 조직이 Azure의 끝점에 연결할 수 있는지 (와일드 카드는 내보내기에 대 한 고유 식별자를 나타냄) ** \*blob.core.windows.net 합니다** . 검색 결과 데이터는 만들어진 후 2 주 후 Azure 저장소 위치에서 삭제 됩니다. 
     
 - 조직에서 프록시 서버를 사용 하 여 인터넷에 통신 하는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 프록시 서버 설정을 정의 해야 합니다 (따라서 내보내기 도구를 프록시 서버에서 인증할 수 있음). 이렇게 하려면 해당 버전의 Windows ** 와 일치 하는 위치에서 machine.config 파일을 엽니다. 
     
@@ -107,7 +107,7 @@ ms.locfileid: "32255512"
     
     - **각 사서함에 대 한 pst 파일 하나씩** 검색 결과를 포함 하는 각 사용자 사서함에 대해 pst 파일 하나를 내보냅니다. 사용자의 보관 사서함에 포함 된 모든 결과는 동일한 PST 파일에 들어 있습니다. 이 옵션은 원본 사서함에서 사서함 폴더 구조를 reproduces 합니다. 
     
-    - **모든 메시지를 포함 하는 하나의 pst 파일** -검색에 포함 된 모든 원본 사서함의 검색 결과를 포함 하는 단일 pst 파일 (이름이 있는 *Exchange .pst* )을 내보냅니다. 이 옵션은 각 메시지에 대 한 사서함 폴더 구조를 reproduces 합니다. 
+    - **모든 메시지를 포함 하는 하나의 pst 파일** -검색에 포함 된 모든 원본 사서함의 검색 결과를 포함 하는 단일 pst 파일 (이름이 있는 *Exchange .Pst* )을 내보냅니다. 이 옵션은 각 메시지에 대 한 사서함 폴더 구조를 reproduces 합니다. 
     
     - **단일 폴더에 있는 모든 메시지를 포함 하는 하나의 pst 파일** 을 사용 하 여 모든 메시지가 하나의 최상위 폴더에 있는 단일 pst 파일로 검색 결과를 내보냅니다. 이 옵션을 사용 하면 검토자가 각 항목의 원래 사서함 폴더 구조를 탐색할 필요 없이 시간순으로 항목을 검토할 수 있습니다 (보낸 날짜별로 항목이 정렬 됨). 
     
@@ -118,9 +118,9 @@ ms.locfileid: "32255512"
   
 8. 중복 메시지를 제외 하려면 **중복 제거 사용** 확인란을 클릭 합니다. 이 옵션은 검색의 콘텐츠 원본에 Exchange 사서함 또는 공용 폴더가 포함 되어 있는 경우에만 표시 됩니다. 
     
-    이 옵션을 선택 하면 검색 된 사서함에서 같은 메시지의 복사본을 여러 개 찾은 경우에도 하나의 메시지 복사본만 내보내집니다. 중복 메시지의 복사본을 포함 하는 사서함 이나 공용 폴더를 식별할 수 있도록 내보내기 결과 보고서 (results)에는 중복 메시지의 모든 복사본에 대 한 행이 포함 됩니다. 복제 제거 및 중복 항목이 식별 되는 방식에 대 한 자세한 내용은 [eDiscovery 검색 결과의 중복](de-duplication-in-ediscovery-search-results.md)제거를 참조 하십시오.
+    이 옵션을 선택 하면 검색 된 사서함에서 같은 메시지의 복사본을 여러 개 찾은 경우에도 하나의 메시지 복사본만 내보내집니다. 중복 메시지의 복사본을 포함 하는 사서함 이나 공용 폴더를 식별할 수 있도록 내보내기 결과 보고서 (Results)에는 중복 메시지의 모든 복사본에 대 한 행이 포함 됩니다. 복제 제거 및 중복 항목이 식별 되는 방식에 대 한 자세한 내용은 [eDiscovery 검색 결과의 중복](de-duplication-in-ediscovery-search-results.md)제거를 참조 하십시오.
     
-9. **sharepoint 문서 버전 포함** 확인란을 클릭 하 여 모든 sharepoint 문서 버전을 내보냅니다. 이 옵션은 검색의 콘텐츠 원본에 SharePoint 또는 비즈니스용 OneDrive 사이트를 포함 하는 경우에만 표시 됩니다. 
+9. **Sharepoint 문서 버전 포함** 확인란을 클릭 하 여 모든 sharepoint 문서 버전을 내보냅니다. 이 옵션은 검색의 콘텐츠 원본에 SharePoint 또는 비즈니스용 OneDrive 사이트를 포함 하는 경우에만 표시 됩니다. 
     
 10. **압축 (zip) 폴더에서 파일 내보내기** 확인란을 클릭 하 여 검색 결과를 압축 된 폴더로 내보냅니다. 이 옵션은 Exchange 항목을 개별 메시지로 내보내도록 선택 하 고 검색 결과에 SharePoint 또는 OneDrive 문서가 포함 되어 있는 경우에만 사용할 수 있습니다. 이 옵션은 항목을 내보낼 때 Windows 파일 경로 이름의 260 문자 제한을 해결 하는 데 주로 사용 됩니다. [추가 정보](#more-information) 섹션에서 "내보낸 항목의 파일 이름"을 참조 하세요. 
     
@@ -155,7 +155,7 @@ ms.locfileid: "32255512"
   
 3. **결과 다운로드**를 클릭합니다.
     
-4. **MicrosoftOffice 365 eDiscovery 내보내기 도구**를 설치 하 라는 메시지가 표시 되 면 **설치**를 클릭 합니다.
+4. **MicrosoftOffice 365 EDiscovery 내보내기 도구**를 설치 하 라는 메시지가 표시 되 면 **설치**를 클릭 합니다.
     
 5. **eDiscovery 내보내기 도구**에서 5단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다. 
     
@@ -192,7 +192,7 @@ ms.locfileid: "32255512"
   
 - 보안 & 준수 센터에서 검색 결과를 내보낼 경우 다음과 같은 제한이 있습니다.
     
-  - 단일 콘텐츠 검색에서 최대 2tb 데이터를 내보낼 수 있습니다. 검색 결과가 2tb 보다 크면 날짜 범위 또는 기타 필터를 사용 하 여 검색 결과의 총 크기를 줄이는 것이 좋습니다.
+  - 단일 콘텐츠 검색에서 최대 2tb 데이터를 내보낼 수 있습니다. 검색 결과가 2TB 보다 크면 날짜 범위 또는 기타 필터를 사용 하 여 검색 결과의 총 크기를 줄이는 것이 좋습니다.
     
   - 조직은 하루 중 최대 2tb의 데이터를 내보낼 수 있습니다.
     
@@ -205,7 +205,7 @@ ms.locfileid: "32255512"
     
 - 앞에서 설명한 것 처럼 사서함 및 사이트의 검색 결과는 [1 단계: 내보내기에 대 한 검색 결과 준비](#step-1-prepare-search-results-for-export)에 설명 된 대로 Azure 저장소 위치로 업로드 되며, 한 시간에 최대 2gb에 해당 합니다.
     
-- 내보낼 수 있는 최대 PST 파일 크기는 기본적으로 10gb입니다. 즉, 사용자 사서함의 검색 결과가 10gb 보다 크면 사서함에 대 한 검색 결과를 두 개 이상의 개별 PST 파일로 내보냅니다. 또한 모든 검색 결과를 단일 PST 파일에 내보내도록 선택한 경우 총 검색 결과 크기가 10gb 보다 크면 pst 파일이 추가 pst 파일로 spilt 됩니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. [eDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경을](change-the-size-of-pst-files-when-exporting-results.md)참조 하세요.
+- 내보낼 수 있는 최대 PST 파일 크기는 기본적으로 10gb입니다. 즉, 사용자 사서함의 검색 결과가 10gb 보다 크면 사서함에 대 한 검색 결과를 두 개 이상의 개별 PST 파일로 내보냅니다. 또한 모든 검색 결과를 단일 PST 파일에 내보내도록 선택한 경우 총 검색 결과 크기가 10gb 보다 크면 PST 파일이 추가 PST 파일로 spilt 됩니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. [EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경을](change-the-size-of-pst-files-when-exporting-results.md)참조 하세요.
     
     또한 단일 사서함의 콘텐츠가 10gb 보다 많은 경우 특정 사서함의 검색 결과는 여러 PST 파일로 분할 되지 않습니다. 단일 폴더에 있는 모든 메시지를 포함 하는 하나의 PST 파일로 검색 결과를 내보내고 검색 결과가 10gb 보다 크면 해당 항목은 계속 해 서 시간순으로 구성 되어 있으므로 전송 된 d에 따라 추가 PST 파일에 spilt 됩니다. 쇠.
      
@@ -285,7 +285,7 @@ ms.locfileid: "32255512"
     
 - 앞에서 설명한 것 처럼 전자 메일 검색 결과는 파일 시스템의 폴더로 내보내집니다. 개별 메시지의 폴더 경로는 사용자 사서함의 폴더 경로를 복제 합니다. 예를 들어 사용자의 받은 편지함에 있는 "ContosoCase101" 라는 검색 메시지는 폴더 경로 `~ContosoCase101\\<date of export\Exchange\user@contoso.com (Primary)\Top of Information Store\Inbox`에 있습니다. 
     
-- 단일 폴더에 있는 모든 메시지를 포함 하는 하나의 pst 파일에 전자 메일 메시지를 내보내도록 선택한 경우 **지운** 편지함 폴더와 **검색 폴더** 폴더는 최상위 pst 폴더에 포함 됩니다. 이 폴더는 비어 있습니다. 
+- 단일 폴더에 있는 모든 메시지를 포함 하는 하나의 PST 파일에 전자 메일 메시지를 내보내도록 선택한 경우 **지운** 편지함 폴더와 **검색 폴더** 폴더는 최상위 pst 폴더에 포함 됩니다. 이 폴더는 비어 있습니다. 
   
  ### <a name="decrypting-rms-encrypted-messages"></a>RMS 암호화 메시지 암호 해독
   

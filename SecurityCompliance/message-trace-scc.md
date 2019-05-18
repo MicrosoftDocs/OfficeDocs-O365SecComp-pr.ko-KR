@@ -3,18 +3,18 @@ title: 보안 및 준수 센터의 메시지 추적
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 Security & 준수 센터의 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: ebfc8d5e19bbc45c32ad65451f3f850662f358b4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 0db1780057172fe1a6a6c1f7a334fbbd2220df30
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265648"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158680"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -32,7 +32,7 @@ ms.locfileid: "32265648"
 
 3. 왼쪽 아래 탐색 창에서 **관리 센터** 를 확장 하 고 **보안 & 준수**를 선택 합니다.
 
-4. **보안 & 준수** 페이지에서 **메일 흐름**을 확장 하 고 **메시지 추적**을 선택 합니다.
+4. **보안 _AMP_ 준수** 페이지에서 **메일 흐름**을 확장 하 고 **메시지 추적**을 선택 합니다.
 
 ## <a name="message-trace-page"></a>메시지 추적 페이지
 
@@ -103,7 +103,7 @@ ms.locfileid: "32265648"
 
 #### <a name="message-id"></a>메시지 ID
 
-메시지 헤더의 **메시지 id:** 헤더 필드에 있는 인터넷 메시지 id (클라이언트 ID 라고도 함)입니다. 사용자는 특정 메시지를 조사 하기 위해이 값을 제공할 수 있습니다.
+메시지 헤더의 **메시지 id:** 헤더 필드에 있는 인터넷 메시지 Id (클라이언트 ID 라고도 함)입니다. 사용자는 특정 메시지를 조사 하기 위해이 값을 제공할 수 있습니다.
 
 이 값은 메시지 수명을 나타내는 상수입니다. Office 365 또는 Exchange에서 만든 메시지의 경우이 값은 꺾쇠 괄호 ( `<GUID@ServerFQDN>`\< \>)를 포함 하는 형식으로 되어 있습니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다. 다른 메시징 시스템에서는 다른 구문이 나 값을 사용할 수 있습니다. 이 값은 고유 해야 하지만 일부 전자 메일 시스템에서는이 요구 사항을 엄격 하 게 따르지 않습니다. **메시지 ID:** 헤더 필드가 존재 하지 않거나 외부 원본의 받는 메시지에 대해 비어 있는 경우 임의의 값이 할당 됩니다.
 
@@ -173,7 +173,7 @@ ms.locfileid: "32265648"
 
 행의 확인란을 선택한 후에는 **관련** 된 레코드 찾기 단추를 클릭 하거나](media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **이 메시지에 대 한 관련 레코드**보다 더 많은 추가 **옵션** ![을 선택 하 여 해당 메시지에 대 한 관련 기록을 찾을 수 있습니다.
 
-메시지 id에 대 한 자세한 내용은이 항목 앞부분의 메시지 id 섹션을 참조 하십시오.
+메시지 ID에 대 한 자세한 내용은이 항목 앞부분의 메시지 ID 섹션을 참조 하십시오.
 
 #### <a name="message-trace-details"></a>메시지 추적 정보
 
@@ -289,7 +289,7 @@ ms.locfileid: "32265648"
 
 - **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예를 들면 다음과 같습니다.
 
-   - **dsn**:이 이벤트 다음에 dsn이 생성 되는 경우 관련 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크가 포함 되어 있습니다. dsn 메시지의 경우이 필드에는 dsn이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
+   - **Dsn**:이 이벤트 다음에 dsn이 생성 되는 경우 관련 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크가 포함 되어 있습니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
 
    - **EXPAND**: 관련 메시지의 **related_recipient_address** 값을 포함 합니다.
 
@@ -379,7 +379,7 @@ ms.locfileid: "32265648"
 |:-----|:-----|
 |`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생 한 날짜 및 시간 (UTC)입니다.|
-|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions in Exchange Online](https://technet.microsoft.com/library/jj919237.aspx)을 참조 하십시오.|
+|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions In Exchange Online](https://technet.microsoft.com/library/jj919237.aspx)을 참조 하십시오.|
 |`Mode=<Mode>`|규칙의 모드입니다. 사용할 수 있는 값은 다음과 같습니다. <br/>• **적용**: 규칙에 대 한 모든 작업이 적용 됩니다. <br/>• **정책 팁으로 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다. <br/>• **정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.|
 
 메일 흐름 규칙의 조건과 일치 하는 메시지에 대 한 **custom_data** 값 예는 다음과 같습니다.

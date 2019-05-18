@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d06dde60ae75cfea1bf1d79f445b613d20a76363
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: e374509dccd235ef689609acc1c4f99db6594d4c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257676"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150710"
 ---
 # <a name="manage-people-of-interest-in-data-investigations-preview"></a>데이터 조사에 관심이 있는 사용자 관리 (미리 보기)
 
@@ -54,7 +54,7 @@ ms.locfileid: "32257676"
         > 사용자, 그룹 또는 팀 선택을 클릭 하 여 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다.
      
      - **SharePoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 사용자에 게 추가 하려는 SharePoint 및 비즈니스용 OneDrive 사이트를 추가로 지정 합니다. 또한 Office 365 그룹 또는 Microsoft 팀에 대 한 SharePoint 사이트의 URL을 추가할 수 있습니다. 할당 하려는 각 사이트의 URL을 입력 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
-     - **microsoft 팀** - **팀 선택을** 클릭 한 다음 **팀 선택을** 다시 클릭 하 여 해당 사용자가 현재 구성원 인 Microsoft 팀 그룹의 목록을 확인 합니다. 사용자에 게 추가 하려는 팀을 선택 합니다. 선택한 후에는 시스템에서 자동으로 &를 확인 하 여 해당 Microsoft 팀과 연결 된 SharePoint 사이트 및 그룹 사서함을 선택 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
+     - **Microsoft 팀** - **팀 선택을** 클릭 한 다음 **팀 선택을** 다시 클릭 하 여 해당 사용자가 현재 구성원 인 Microsoft 팀 그룹의 목록을 확인 합니다. 사용자에 게 추가 하려는 팀을 선택 합니다. 선택한 후에는 시스템에서 자동으로 &를 확인 하 여 해당 Microsoft 팀과 연결 된 SharePoint 사이트 및 그룹 사서함을 선택 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
         
       > [!NOTE]
       > Microsoft 팀을 더 추가 하려면 위에 표시 된 대로 사서함 및 SharePoint 사이트를 별도로 추가 해야 합니다.
@@ -78,7 +78,7 @@ ms.locfileid: "32257676"
   - **구/군/** 시: 사용자가 거주 하는 구/군/시입니다.
   - **상태**: 개인이 거주 하는 시/도입니다.
   - **국가/지역**: 개인이 거주 하는 국가/지역입니다. 예를 들어 "US" 또는 "영국"을 예로 들 있습니다.
-  - **office**: 사용자의 사무실 위치입니다.
+  - **Office**: 사용자의 사무실 위치입니다.
 
 - 처리 상태
 

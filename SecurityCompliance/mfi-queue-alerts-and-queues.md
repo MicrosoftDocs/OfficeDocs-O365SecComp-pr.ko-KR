@@ -3,30 +3,30 @@ title: 큐 알림 및 큐
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드의 큐 경고 및 큐에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 490665bb6b062c5a0b93c988adea9eeb9827cb86
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 149a1d82b3627037db2ab5c6e1427c79a49535bd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267704"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158760"
 ---
 # <a name="queue-alerts-and-queues"></a>큐 알림 및 큐
 
 ## <a name="queue-alerts"></a>큐 알림
 
-커넥터를 사용 하 여 office 365 조직에서 온-프레미스 또는 파트너 전자 메일 서버로 메시지를 보낼 수 없는 경우 해당 메시지는 Office 365에 대기 됩니다. 이러한 상황을 일으키는 일반적인 예는 다음과 같습니다.
+커넥터를 사용 하 여 Office 365 조직에서 온-프레미스 또는 파트너 전자 메일 서버로 메시지를 보낼 수 없는 경우 해당 메시지는 Office 365에 대기 됩니다. 이러한 상황을 일으키는 일반적인 예는 다음과 같습니다.
 
 - 커넥터가 올바르게 구성 되지 않았습니다.
 
 - 온-프레미스 환경에 네트워킹이 나 방화벽이 변경 되었습니다.
 
-Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시간이 지난 후에는 메시지가 만료 되어 배달 못 함 보고서 (ndr 또는 바운스 메시지로도 알려짐)의 보낸 사람에 게 반환 됩니다.
+Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시간이 지난 후에는 메시지가 만료 되어 배달 못 함 보고서 (Ndr 또는 바운스 메시지로도 알려짐)의 보낸 사람에 게 반환 됩니다.
 
 큐에 대기 중인 전자 메일 볼륨이 미리 정의 된 임계값을 초과 하는 경우 (기본값은 2000 메시지), 해당 경고는 **최근 경고**의 메일 흐름 대시보드에서 사용할 수 있으며 관리자는 전자 메일 알림 (대체 전자 메일 주소에 대 한)을 받게 됩니다. . 경고 임계값, 일별 알림 제한 및/또는 받는 사람을 구성 하려면 아래의 **큐 경고 사용자 지정** 섹션을 참조 하십시오.
 
@@ -72,4 +72,4 @@ Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시�
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

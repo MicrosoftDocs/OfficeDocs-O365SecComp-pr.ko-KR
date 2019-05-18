@@ -4,23 +4,23 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 11/17/2014
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365_Hybrid
 ms.assetid: e94f1244-acb8-4ddd-b54e-5cc37f903bbf
 description: 다양 한 Microsoft 제품에 대 한 타사 저작권 표시
-ms.openlocfilehash: b270f50e72e63f19ed8780ae50a7647d5d3bdc19
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 24f44b160197dac4df0e39db1f115b0de6a6c135
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255666"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152990"
 ---
 # <a name="third-party-copyright-notices"></a>타사 저작권 표시
 
-HTML 내보내기 © 1991, 2011 Oracle의 외부
+HTML 내보내기 © 1991, 2011 Oracle
   
 지원 되는 플랫폼-HTML 내보내기 외부:
   
@@ -40,7 +40,7 @@ Windows 7
   
 Windows Itanium (64 비트):
   
-Itanium 용 Windows .net Server 2003 Enterprise Edition
+Itanium 용 Windows .NET Server 2003 Enterprise Edition
   
 Windows (64 비트):
   
@@ -48,7 +48,7 @@ Windows 2003 x 64 데이터 센터
   
 Windows 2003 x 64 Enterprise
   
-windows 2003 x 64 Standard windows Server
+Windows 2003 x 64 Standard Windows Server
   
 Windows Server 2008
   

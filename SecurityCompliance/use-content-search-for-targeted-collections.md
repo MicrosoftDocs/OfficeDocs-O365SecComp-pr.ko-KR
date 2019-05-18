@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -12,19 +12,19 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: 3d9a82926a08b3f7f1f245146e70d79617e7a413
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 476478f3f4d5c2d1992989eac790068f28ba747f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264024"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156310"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
 
-Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사서함 이나 SharePoint 및 비즈니스용 OneDrive 사이트의 특정 폴더를 검색 하는 UI에서 직접 방법을 제공 하지 않습니다. 그러나 실제 검색 쿼리 구문의 사이트에 대 한 전자 메일 또는 경로 (documentlink) 속성을 지정 하 여 특정 폴더 (대상 지정 된 *컬렉션*이라고 함)를 검색할 수 있습니다. 콘텐츠 검색을 사용 하 여 대상 모음을 수행 하는 것은 특정 사서함 이나 사이트 폴더에 있는 항목에 대 한 응답 항목이 있는 경우에 유용 합니다. 이 문서의 스크립트를 사용 하 여 SharePoint 및 비즈니스용 OneDrive 사이트의 폴더 ID 또는 사서함 폴더에 대 한 경로 (documentlink)를 가져올 수 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용 하 여 폴더에 있는 항목을 반환할 수 있습니다.
+Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사서함 이나 SharePoint 및 비즈니스용 OneDrive 사이트의 특정 폴더를 검색 하는 UI에서 직접 방법을 제공 하지 않습니다. 그러나 실제 검색 쿼리 구문의 사이트에 대 한 전자 메일 또는 경로 (DocumentLink) 속성을 지정 하 여 특정 폴더 (대상 지정 된 *컬렉션*이라고 함)를 검색할 수 있습니다. 콘텐츠 검색을 사용 하 여 대상 모음을 수행 하는 것은 특정 사서함 이나 사이트 폴더에 있는 항목에 대 한 응답 항목이 있는 경우에 유용 합니다. 이 문서의 스크립트를 사용 하 여 SharePoint 및 비즈니스용 OneDrive 사이트의 폴더 ID 또는 사서함 폴더에 대 한 경로 (DocumentLink)를 가져올 수 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용 하 여 폴더에 있는 항목을 반환할 수 있습니다.
 
 > [!NOTE]
-> SharePoint 또는 비즈니스용 OneDrive 사이트의 폴더에 있는 콘텐츠를 반환 하려면이 항목의 스크립트에서 Path 속성 대신 documentlink 관리 속성을 사용 합니다. documentlink 속성은 폴더의 모든 콘텐츠를 반환 하지만 path 속성은 일부 미디어 파일을 반환 하지 않기 때문에 경로 속성 보다 더 강력 합니다.
+> SharePoint 또는 비즈니스용 OneDrive 사이트의 폴더에 있는 콘텐츠를 반환 하려면이 항목의 스크립트에서 Path 속성 대신 DocumentLink 관리 속성을 사용 합니다. DocumentLink 속성은 폴더의 모든 콘텐츠를 반환 하지만 path 속성은 일부 미디어 파일을 반환 하지 않기 때문에 경로 속성 보다 더 강력 합니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -40,7 +40,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
 
     자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
     
-- 스크립트에 최소 오류 처리가 포함 되어 있습니다. 이 스크립트의 기본 목적은 콘텐츠 검색의 검색 쿼리 구문에서 대상 모음을 수행 하는 데 사용할 수 있는 사서함 폴더 id 또는 사이트 경로 목록을 빠르게 표시 하는 것입니다.
+- 스크립트에 최소 오류 처리가 포함 되어 있습니다. 이 스크립트의 기본 목적은 콘텐츠 검색의 검색 쿼리 구문에서 대상 모음을 수행 하는 데 사용할 수 있는 사서함 폴더 Id 또는 사이트 경로 목록을 빠르게 표시 하는 것입니다.
     
 - 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. Microsoft, 작성자 또는 스크립트를 작성, 프로덕션 또는 전달 하는 것과 관련 된 다른 모든 손해에 대 한 책임 (예를 들어, 비즈니스 이익 손실에 대 한 손해, 비즈니스 중단 Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 예제 스크립트나 설명서를 사용 하거나 사용 하지 못하는 등의 비즈니스 정보 또는 기타 pecuniary 손실입니다.
   
@@ -48,7 +48,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
 
 이 첫 단계에서 실행 하는 스크립트는 사서함 폴더 또는 SharePoint 및 비즈니스용 OneDrive 폴더 목록과 각 폴더의 해당 하는 폴더 ID 또는 경로를 반환 합니다. 이 스크립트를 실행 하면 다음 정보를 입력 하 라는 메시지가 표시 됩니다.
   
-- **전자 메일 주소 또는 사이트 URL** Exchange 사서함 폴더 및 폴더 id 목록을 반환할 custodian의 전자 메일 주소를 입력 합니다. 또는 SharePoint 사이트의 URL 또는 비즈니스용 OneDrive 사이트를 입력 하 여 지정 된 사이트에 대 한 경로 목록을 반환 합니다. 그 예는 다음과 같습니다. 
+- **전자 메일 주소 또는 사이트 URL** Exchange 사서함 폴더 및 폴더 Id 목록을 반환할 custodian의 전자 메일 주소를 입력 합니다. 또는 SharePoint 사이트의 URL 또는 비즈니스용 OneDrive 사이트를 입력 하 여 지정 된 사이트에 대 한 경로 목록을 반환 합니다. 그 예는 다음과 같습니다. 
     
   - **Exchange** -stacig@contoso.onmicrosoft.com 
     
@@ -56,7 +56,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
     
   - **비즈니스용 OneDrive** - https://contoso-my.sharepoint.com/personal/stacig_contoso_onmicrosoft_com 
     
-- **사용자 자격 증명** -스크립트는 자격 증명을 사용 하 여 Exchange Online 및 원격 PowerShell을 통해 보안 & 준수 센터에 연결 합니다. 앞에서 설명한 것 처럼이 스크립트를 성공적으로 실행 하려면 적절 한 사용 권한을 할당 받아야 합니다.
+- **사용자 자격 증명** -스크립트는 자격 증명을 사용 하 여 Exchange Online 및 원격 PowerShell을 통해 보안 _AMP_ 준수 센터에 연결 합니다. 앞에서 설명한 것 처럼이 스크립트를 성공적으로 실행 하려면 적절 한 사용 권한을 할당 받아야 합니다.
     
 사서함 폴더 또는 사이트 documentlink (경로) 이름 목록을 표시 하려면 다음을 수행 합니다.
   
@@ -190,20 +190,20 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
   
 ### <a name="script-output-for-mailbox-folders"></a>사서함 폴더에 대 한 스크립트 출력
 
-사서함 폴더 id를 가져오는 경우 스크립트는 원격 PowerShell을 사용 하 여 Exchange Online에 연결 하 고 **MailboxFolderStatisics** cmdlet을 실행 한 다음 지정 된 사서함의 폴더 목록을 표시 합니다. 사서함의 모든 폴더에 대해 스크립트는 **FolderPath** 열에 폴더 이름을 표시 하 고 **folderquery** 열에는 폴더 ID를 나타냅니다. 또한이 스크립트는 사서함 속성의 이름인 **folderId** 접두사를 폴더 ID에 추가 합니다. **folderid** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리를 `folderid:<folderid>` 사용 하 여 해당 폴더를 검색 합니다. 
+사서함 폴더 Id를 가져오는 경우 스크립트는 원격 PowerShell을 사용 하 여 Exchange Online에 연결 하 고 **MailboxFolderStatisics** cmdlet을 실행 한 다음 지정 된 사서함의 폴더 목록을 표시 합니다. 사서함의 모든 폴더에 대해 스크립트는 **FolderPath** 열에 폴더 이름을 표시 하 고 **folderquery** 열에는 폴더 ID를 나타냅니다. 또한이 스크립트는 사서함 속성의 이름인 **folderId** 접두사를 폴더 ID에 추가 합니다. **Folderid** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리를 `folderid:<folderid>` 사용 하 여 해당 폴더를 검색 합니다. 
 
 > [!IMPORTANT]
-> 이 문서의 스크립트에는 **get-mailboxfolderstatistics** 에서 반환 하는 64 문자 폴더 Id 값을 검색을 위해 인덱싱되는 동일한 48 문자로 변환 하는 인코딩 논리가 포함 되어 있습니다. 이 문서의 스크립트를 실행 하는 대신 PowerShell에서 **get-mailboxfolderstatistics** cmdlet을 실행 하 여 폴더 id를 가져오는 경우 해당 폴더 id 값을 사용 하는 검색 쿼리가 실패 합니다. 콘텐츠 검색에 사용할 수 있는 올바르게 포맷 된 폴더 id를 가져오려면 스크립트를 실행 해야 합니다.
+> 이 문서의 스크립트에는 **get-mailboxfolderstatistics** 에서 반환 하는 64 문자 폴더 Id 값을 검색을 위해 인덱싱되는 동일한 48 문자로 변환 하는 인코딩 논리가 포함 되어 있습니다. 이 문서의 스크립트를 실행 하는 대신 PowerShell에서 **get-mailboxfolderstatistics** cmdlet을 실행 하 여 폴더 id를 가져오는 경우 해당 폴더 id 값을 사용 하는 검색 쿼리가 실패 합니다. 콘텐츠 검색에 사용할 수 있는 올바르게 포맷 된 폴더 Id를 가져오려면 스크립트를 실행 해야 합니다.
   
 다음은 사서함 폴더에 대 한 스크립트에서 반환 하는 출력의 예입니다.
   
-![스크립트에서 반환 된 사서함 폴더 및 폴더 id 목록의 예](media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
+![스크립트에서 반환 된 사서함 폴더 및 폴더 Id 목록의 예](media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
   
 2 단계의 예제에서는 사용자의 복구 가능한 항목 폴더에서 제거 하위 폴더를 검색 하는 데 사용 되는 쿼리를 보여 줍니다.
   
 ### <a name="script-output-for-site-folders"></a>사이트 폴더의 스크립트 출력
 
-SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속성의 경로를 가져오는 경우 스크립트는 원격 PowerShell을 사용 하 여 보안 & 준수 센터에 연결 하 고 사이트에서 폴더를 검색 하는 새 콘텐츠 검색을 만듭니다. 지정한 다음 지정 된 사이트에 있는 폴더의 목록을 표시 합니다. 스크립트는 각 폴더의 이름을 표시 하 고 폴더 URL에 **documentlink** 의 접두사를 추가 합니다. **documentlink** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리에서 property `documentlink:<path>` : value 쌍을 사용 하 여 해당 폴더를 검색 합니다. 
+SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속성의 경로를 가져오는 경우 스크립트는 원격 PowerShell을 사용 하 여 보안 _AMP_ 준수 센터에 연결 하 고 사이트에서 폴더를 검색 하는 새 콘텐츠 검색을 만듭니다. 지정한 다음 지정 된 사이트에 있는 폴더의 목록을 표시 합니다. 스크립트는 각 폴더의 이름을 표시 하 고 폴더 URL에 **documentlink** 의 접두사를 추가 합니다. **Documentlink** 속성은 검색 가능한 속성 이므로 2 단계의 검색 쿼리에서 property `documentlink:<path>` : value 쌍을 사용 하 여 해당 폴더를 검색 합니다. 
   
 다음은 사이트 폴더 스크립트에서 반환 하는 출력의 예입니다.
   
@@ -211,7 +211,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
   
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>2 단계: 폴더 ID 또는 documentlink를 사용 하 여 대상 모음을 수행 합니다.
 
-스크립트를 실행 하 여 특정 사용자에 대 한 폴더 id 또는 documentlinks의 목록을 수집한 후에는 다음 단계를 수행 하 여 Security & 준수 센터로 이동한 다음 새 콘텐츠 검색을 만들어 특정 폴더를 검색 합니다. 콘텐츠 검색 키워드 상자 `folderid:<folderid>` 에서 `documentlink:<path>` 구성 하는 검색 쿼리에 값 쌍을 사용 하거나, **ComplianceSearch** cmdlet을 사용 하는 경우 *contentmatchquery* 매개 변수의 값으로 사용할 수 있습니다. `folderid` 또는 `documentlink` 속성을 다른 검색 매개 변수 또는 검색 조건과 결합할 수 있습니다. 쿼리에 `folderid` 또는 `documentlink` 속성만 포함 하면 지정한 폴더에 있는 모든 항목이 검색에 반환 됩니다. 
+스크립트를 실행 하 여 특정 사용자에 대 한 폴더 Id 또는 documentlinks의 목록을 수집한 후에는 다음 단계를 수행 하 여 Security & 준수 센터로 이동한 다음 새 콘텐츠 검색을 만들어 특정 폴더를 검색 합니다. 콘텐츠 검색 키워드 상자 `folderid:<folderid>` 에서 `documentlink:<path>` 구성 하는 검색 쿼리에 값 쌍을 사용 하거나, **ComplianceSearch** Cmdlet을 사용 하는 경우 *contentmatchquery* 매개 변수의 값으로 사용할 수 있습니다. `folderid` 또는 `documentlink` 속성을 다른 검색 매개 변수 또는 검색 조건과 결합할 수 있습니다. 쿼리에 `folderid` 또는 `documentlink` 속성만 포함 하면 지정한 폴더에 있는 모든 항목이 검색에 반환 됩니다. 
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     

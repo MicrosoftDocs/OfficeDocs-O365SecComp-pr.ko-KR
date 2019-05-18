@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: e84f05fa1a7356952b62f2f4adc3b7d0f1ddc94e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 781b0b749390b36ecdf391bff1089d6180e7c3d2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258046"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150670"
 ---
 # <a name="review-the-data-in-evidence"></a>증거 데이터 검토
 
@@ -50,7 +50,7 @@ ms.locfileid: "32258046"
 
 ## <a name="native-view"></a>기본 보기
 
-기본 뷰어에는 문서의 기본 형식으로 가장 정확한 보기가 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft office 파일의 경우 네이티브 뷰어는 office Online을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
+기본 뷰어에는 문서의 기본 형식으로 가장 정확한 보기가 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft Office 파일의 경우 네이티브 뷰어는 Office Online을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
 
 ![기본 보기
 ](../media/Reviewimage3.png)
@@ -63,14 +63,14 @@ ms.locfileid: "32258046"
 
   - 문서에 있는 용어 뿐 아니라 스크롤 막대에 표시 되는 검색 결과 강조 표시
 
-  - diff 보기는 **Near 복제** 패널을 사용 하 여 문서를 볼 때 텍스트 차이를 강조 하는 비교 보기를 제공 합니다.
+  - Diff 보기는 **Near 복제** 패널을 사용 하 여 문서를 볼 때 텍스트 차이를 강조 하는 비교 보기를 제공 합니다.
 
 **텍스트 및 스크롤 막대의 선 카운터 및 검색 결과 강조 표시 예제**
 
 ![텍스트 보기
 ](../media/Reviewimage4.png)
 
-**diff 보기의 예**
+**Diff 보기의 예**
 
 ![Diff 보기
 ](../media/Reviewimage5.png)

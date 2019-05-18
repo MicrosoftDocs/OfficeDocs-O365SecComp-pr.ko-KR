@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: 3b8cf41be41e199017dcff7fd3762711402d8ca2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c60e3d62cc758a75f85d6cb149c8e13492cad35c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256646"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150290"
 ---
 # <a name="best-practices-for-configuring-eop"></a>EOP 구성을 위한 모범 사례
   
@@ -31,7 +31,7 @@ ms.locfileid: "32256646"
   
 ## <a name="spf-record-customization-to-help-prevent-spoofing"></a>스푸핑을 방지하기 위한 SPF 레코드 사용자 지정
 
-EOP를 설정할 때 EOP용 SPF(보낸 사람 정책 프레임워크) 레코드를 DNS 레코드에 추가했을 것입니다. SPF 레코드는 스푸핑을 방지하는 데 도움이 됩니다. spf 레코드에서 스푸핑을 방지 하는 방법과 온-프레미스 IP 주소를 SPF 레코드에 추가 하는 방법에 대 한 자세한 내용은 [스푸핑 방지를 위해 Office 365에서 spf를 설정](../set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요. 
+EOP를 설정할 때 EOP용 SPF(보낸 사람 정책 프레임워크) 레코드를 DNS 레코드에 추가했을 것입니다. SPF 레코드는 스푸핑을 방지하는 데 도움이 됩니다. SPF 레코드에서 스푸핑을 방지 하는 방법과 온-프레미스 IP 주소를 SPF 레코드에 추가 하는 방법에 대 한 자세한 내용은 [스푸핑 방지를 위해 Office 365에서 spf를 설정](../set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요. 
   
 ## <a name="set-anti-spam-options"></a>스팸 방지 옵션 설정
 
@@ -50,7 +50,7 @@ IP 허용 및 IP 차단 목록에 IP 주소를 추가하고 **수신 허용 목�
 
 EAC(Exchange 관리 센터)에서 맬웨어 필터 설정을 검토하고 세부 조정합니다. 자세한 내용은 [맬웨어 방지 정책 구성](../configure-anti-malware-policies.md)를 참고 하십시오. [맬웨어 방지 보호 관련 FAQ ](../anti-malware-protection-faq-eop.md)에서 맬웨어 방지 보호 기능에 대 한 질문과 대답을 읽어 보는 것도 좋습니다.
   
-맬웨어가 포함된 실행 파일이 우려되는 경우 실행 파일이 있는 모든 전자 메일 첨부 파일을 차단하는 Exchange 메일 흐름 규칙을 만들 수 있습니다. exchange online Protection에서 [첨부 파일 차단을](https://support.microsoft.com/kb/2959596) 사용 하 여 exchange online의 [메시지 첨부 파일을 검사 하](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)는 방법에 나열 되지 않도록 차단 하기 위해이 문서의 단계를 수행 합니다.
+맬웨어가 포함된 실행 파일이 우려되는 경우 실행 파일이 있는 모든 전자 메일 첨부 파일을 차단하는 Exchange 메일 흐름 규칙을 만들 수 있습니다. Exchange online Protection에서 [첨부 파일 차단을](https://support.microsoft.com/kb/2959596) 사용 하 여 exchange online의 [메시지 첨부 파일을 검사 하](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)는 방법에 나열 되지 않도록 차단 하기 위해이 문서의 단계를 수행 합니다.
   
 EAC의 일반 첨부 파일 유형 필터를 사용할 수 있습니다. **보호** \> **맬웨어 필터**를 선택하세요. 실행 가능한 콘텐츠가 포함 된 모든 전자 메일 첨부 파일을 차단 하는 메일 흐름 규칙을 만들 수 있습니다. 
   

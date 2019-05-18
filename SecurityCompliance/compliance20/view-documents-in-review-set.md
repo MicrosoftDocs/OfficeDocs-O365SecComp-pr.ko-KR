@@ -1,9 +1,9 @@
 ---
-title: 검토 집합의 문서 보기
+title: 검토 집합에서 문서 보기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 - MET150
 description: ''
-ms.openlocfilehash: 65b55f60e1b57b34dbdc7dd62f0a4b373f73a96b
-ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
+ms.openlocfilehash: 0e986510ca49cfbfd77ab6f4d43220df1ebf35c5
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33527231"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151550"
 ---
-# <a name="view-documents-in-a-review-set"></a>검토 집합의 문서 보기
+# <a name="view-documents-in-a-review-set"></a>검토 집합에서 문서 보기
 
 고급 eDiscovery는 용도가 서로 다른 여러 viewer를 통해 콘텐츠를 표시 합니다. 검토 집합 내의 문서를 클릭 하 여 다양 한 뷰어를 사용할 수 있습니다. 현재 제공 되는 뷰어는 다음과 같습니다.
 

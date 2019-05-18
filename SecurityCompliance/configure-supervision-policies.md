@@ -3,7 +3,7 @@ title: 조직의 감독 정책 구성
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
@@ -16,46 +16,46 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리 검토 정책을 설정 하 여 검토를 위한 직원 정보를 수집 합니다.
-ms.openlocfilehash: c99936a9a33446ce13e5d0a719ef7447be619bf4
-ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
+ms.openlocfilehash: 4cf8c47f761f13165898cbc719f94e9bf9fd66f2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33470398"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151540"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
 감독 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 감독 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Office 365의 감독 정책을](supervision-policies.md)참조 하세요.
 
 > [!NOTE]
-> 감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 office 365 enterprise E3 라이선스 또는 office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
-기존 Enterprise e5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+> 감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
+기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
   
 Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 수행 합니다.
   
-- **1 단계 (옵션)**: [감독에 대 한 그룹 설정 (선택 사항)](#step-1---set-up-groups-for-supervision-optional)
+- **1 단계 (옵션)**: [감독을 위한 그룹 설정](#step-1-set-up-groups-for-supervision-optional) 
 
     감독 사용을 시작 하기 전에 의사 소통을 검토 하 고 검토를 수행 해야 하는 사람을 결정 합니다. 소수의 사용자만을 시작 하 여 감독의 작동 방식을 확인 하려는 경우 지금 그룹 설정 건너뛰기를 건너뛸 수 있습니다.
 
-- **2 단계 (필수 사항)**: [조직에서 감독을 사용할 수 있도록 설정 (필수)](#step-2---make-supervision-available-in-your-organization-required)
+- **2 단계 (필수 사항)**: [조직에서 감독을 사용할 수 있도록 설정](#step-2-make-supervision-available-in-your-organization-required)
 
-    정책을 설정할 수 있도록 자신을 관리 검토 역할 그룹에 추가 합니다. 이 역할이 할당 된 모든 사용자는 준수 센터의 **감독** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 exchange online에서 호스팅되는 경우 각 검토자 [에 게 exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
+    정책을 설정할 수 있도록 자신을 관리 검토 역할 그룹에 추가 합니다. 이 역할이 할당 된 모든 사용자는 준수 센터의 **감독** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 Exchange Online에서 호스팅되는 경우 각 검토자 [에 게 Exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
 
-- **3 단계 (선택 사항)**: [사용자 지정 중요 한 정보 유형 및 사용자 지정 키워드 사전 만들기](#step-3---create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional)
+- **3 단계 (선택 사항)**: [사용자 지정 중요 한 정보 유형 및 사용자 지정 키워드 사전 만들기](#step-3-create-custom-sensitive-information-types-and-custom-keyword-dictionaries-optional)
 
     감독 정책에 대 한 사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전이 필요한 경우에는 감독 마법사를 시작 하기 전에 만들어야 합니다.
 
-- **4 단계 (필수 사항)**: [감독 정책 설정](#step-4---set-up-a-supervision-policy-required)
+- **4 단계 (필수 사항)**: [감독 정책 설정](#step-4-set-up-a-supervision-policy-required)
 
     준수 센터에서 감독 정책을 만듭니다. 이러한 정책은 조직에서 검토할 대상이 되는 통신을 정의 하 고 검토를 수행 하는 사람을 지정 합니다. 통신에는 전자 메일 및 Microsoft 팀 통신과 타사 플랫폼 통신 (예: Facebook, Twitter 등)이 포함 됩니다.
 
-- **5 단계 (선택 사항)**: [감독 정책 테스트](#step-5---test-your-supervision-policy-optional)
+- **5 단계 (선택 사항)**: [감독 정책 테스트](#step-5-test-your-supervision-policy-optional)
 
     감독 정책을 테스트 하 여 원하는 대로 작동 하는지 확인 합니다. 규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 합니다.
 
-- **6 단계 (선택 사항)**: [Office 365 감독 대시보드 또는 웹용 outlook (이전의 outlook web App)을 사용 하지 않고 감독 된 통신을 검토 하는 검토자를 위해 Outlook을 구성](#step-6---configure-outlook-for-reviewers-optional) 합니다.
+- **6 단계 (선택 사항)**: [Office 365 감독 대시보드 또는 웹용 Outlook (이전의 outlook web App)을 사용 하지 않고 감독 된 통신을 검토 하는 검토자를 위해 Outlook을 구성](#step-6-configure-outlook-for-reviewers-optional) 합니다.
 
-    사용자가 각 항목을 평가 하 고 분류할 수 있도록 outlook 클라이언트 내의 감독 기능에 대 한 액세스 권한을 검토자에 게 보내도록 outlook을 구성 합니다.
+    사용자가 각 항목을 평가 하 고 분류할 수 있도록 Outlook 클라이언트 내의 감독 기능에 대 한 액세스 권한을 검토자에 게 보내도록 Outlook을 구성 합니다.
 
 ## <a name="step-1-set-up-groups-for-supervision-optional"></a>1 단계: 감독에 대 한 그룹 설정 (선택 사항)
 
@@ -65,7 +65,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 | **정책 구성원** | **지원 되는 그룹** | **지원 되지 않는 그룹** |
 |:-----|:-----|:-----|
-|감독 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
+|감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
 | 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
   
 대규모 엔터프라이즈 조직에서 감독 사용자를 관리 하려면 대규모 그룹의 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하는 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트할 수 있습니다.
@@ -73,7 +73,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
 
     - **MemberDepartRestriction = 닫힘** 사용자가 메일 그룹에서 자신을 제거할 수 없도록 합니다.
-    - **memberjoinrestriction = 닫힘** 사용자가 메일 그룹에 자신을 추가할 수 없도록 합니다.
+    - **Memberjoinrestriction = 닫힘** 사용자가 메일 그룹에 자신을 추가할 수 없도록 합니다.
     - **ModerationEnabled = True** 이 그룹으로 전송 되는 모든 메시지에 대 한 승인이 가능 하며, 해당 그룹이 감독 정책 구성 외부에서 통신 하는 데 사용 되 고 있지는 않은지 확인 합니다.
 
     ```
@@ -185,11 +185,11 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 ## <a name="step-6-configure-outlook-for-reviewers-optional"></a>6 단계: Outlook for 검토자별로 구성 (선택 사항)
 
-통신을 검토 하기 위해 Office 365의 감독 대시보드 대신 outlook을 사용 하려는 검토자는 outlook 클라이언트를 구성 해야 합니다.
+통신을 검토 하기 위해 Office 365의 감독 대시보드 대신 Outlook을 사용 하려는 검토자는 Outlook 클라이언트를 구성 해야 합니다.
 
 ### <a name="step-1-copy-the-address-for-the-supervision-mailbox"></a>1 단계: 감독 사서함의 주소 복사
 
-웹용 outlook 데스크톱 또는 outlook에 대 한 검토를 구성 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
+웹용 outlook 데스크톱 또는 Outlook에 대 한 검토를 구성 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
   
 > [!NOTE]
 > 다른 사용자가 정책을 만든 경우이 주소에서 추가 기능을 설치 하도록 요청 받아야 합니다.
@@ -223,7 +223,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 마지막 단계에서 검토자는 Outlook 프로필을 만들어 감독 사서함에 연결 해야 합니다.
 
 > [!NOTE]
-> 새 Outlook 프로필을 만들려면 Windows 제어판의 메일 설정을 사용 합니다. 이러한 설정에 액세스 하기 위해 수행 하는 경로는 사용 중인 windows 운영 체제 (windows 7, windows 8 또는 windows 10)와 설치 된 Outlook 버전에 따라 달라질 수 있습니다.
+> 새 Outlook 프로필을 만들려면 Windows 제어판의 메일 설정을 사용 합니다. 이러한 설정에 액세스 하기 위해 수행 하는 경로는 사용 중인 Windows 운영 체제 (Windows 7, Windows 8 또는 Windows 10)와 설치 된 Outlook 버전에 따라 달라질 수 있습니다.
   
 1. 제어판을 엽니다. 창 위쪽의 **검색** 상자에 **Mail**을 입력 합니다.<br/>(제어판을 표시 하는 방법에 대 한 자세한 내용을 확인 하세요. [제어판은 무엇 인가요?](https://support.microsoft.com/help/13764/windows-where-is-control-panel)를 참조 하세요.
   
@@ -247,12 +247,12 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 필요한 경우 다음 PowerShell cmdlet을 사용 하 여 감독 정책을 만들고 관리할 수 있습니다.
 
-- [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2?view=exchange-ps)
-- [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewpolicyv2?view=exchange-ps)
-- [remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2?view=exchange-ps)
-- [remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2?view=exchange-ps)
-- [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule?view=exchange-ps)
-- [set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule?view=exchange-ps)
+- [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2?view=exchange-ps)
+- [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-supervisoryreviewpolicyv2?view=exchange-ps)
+- [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2?view=exchange-ps)
+- [Remove-supervisoryreviewpolicyv2을 제거 합니다.](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/remove-supervisoryreviewpolicyv2?view=exchange-ps)
+- [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule?view=exchange-ps)
+- [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule?view=exchange-ps)
 - [SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity)
 - [SupervisoryReviewOverallProgressReport](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewoverallprogressreport)
 - [SupervisoryReviewTopCasesReport](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewtopcasesreport)

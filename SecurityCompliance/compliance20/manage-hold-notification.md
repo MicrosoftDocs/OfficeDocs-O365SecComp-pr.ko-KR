@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fa83a90448250a91d6c2ccbf43588ee18e00619c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 0b1b20a8b41803a945bc9f5c39cd0618c420b0c0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241265"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151740"
 ---
 # <a name="manage-hold-notifications"></a>보류 알림 관리
 
-법적 보존 알림 워크플로를 시작한 후에는 고급 eDiscovery (미리 보기)를 활용 하 여 통신 상태를 추적할 수 있습니다. Communications 탭에는 고급 eDiscovery (미리 보기) 사례 내의 모든 보존 알림이 포함 됩니다. 여기에서 세부 정보 (예: 지정 된 custodians 수 또는 통지를 승인 받은 개수)를 볼 수 있습니다.
+법적 보존 알림 워크플로를 시작한 후에는 고급 eDiscovery를 활용 하 여 통신 상태를 추적할 수 있습니다. 통신 탭에는 고급 eDiscovery 사례 내의 모든 보존 알림이 포함 됩니다. 여기에서 세부 정보 (예: 지정 된 custodians 수 또는 통지를 승인 받은 개수)를 볼 수 있습니다.
 
 ## <a name="view-communication-details"></a>통신 세부 정보 보기
 
@@ -42,10 +42,10 @@ ms.locfileid: "32241265"
 경우에 따라 custodians에서 일상 업무로 인 한 전자 메일을 추적 하지 못하게 됩니다. 또는 오랫동안 실행 되는 소송에 대 한 custodian에 연락 하 여 알림을 다시 보낼 수 있습니다. 법적 보존 알림을 사용 하 여 워크플로를 관리할 때는 알림을 다시 보내 사용자 사서함의 "맨 위로" 이동 해야 할 수 있습니다.
 
 다음을 수행 하 여 custodian에 보류 알림을 다시 보낼 수 있습니다.
-1. **보안 및 준수 > Advanced eDiscovery (Preview)** 내의 사례를 탐색 합니다.
+1. **보안 및 준수 _GT_ Advanced eDiscovery**내의 사례를 탐색 합니다.
 2. 사례를 선택한 후 **통신** 탭으로 이동 합니다.
 3. 법적 보존 알림을 custodian에 다시 보내려면 통신을 선택 하 고 **다시 보내기** 옵션을 클릭 합니다.
-4. custodian에서 해당 보존 알림을 아직 승인 하지 않은 경우 미리 알림 및 에스컬레이션 흐름이 다시 시작 됩니다. custodian에서 이미 보존 알림을 승인 했다면 custodian는 초기 보존 알림의 복사본만 받게 됩니다.
+4. Custodian에서 해당 보존 알림을 아직 승인 하지 않은 경우 미리 알림 및 에스컬레이션 흐름이 다시 시작 됩니다. Custodian에서 이미 보존 알림을 승인 했다면 custodian는 초기 보존 알림의 복사본만 받게 됩니다.
 
 > [!NOTE]
 > 통신에 할당 된 custodians에만 법적 보존 알림을 다시 보낼 수 있습니다. 
@@ -54,11 +54,11 @@ ms.locfileid: "32241265"
 
 #### <a name="update-preservation-requirements"></a>업데이트 보존 요구 사항
   
-사례가 진행 됨에 따라 custodians는 이전에 지시 된 것 보다 더 많은 데이터를 보존 해야 할 수 있습니다. eDiscovery 용어를 사용 하는 경우 업데이트 된 콘텐츠로 보존 알림을 다시 발행 해야 합니다.
+사례가 진행 됨에 따라 custodians는 이전에 지시 된 것 보다 더 많은 데이터를 보존 해야 할 수 있습니다. EDiscovery 용어를 사용 하는 경우 업데이트 된 콘텐츠로 보존 알림을 다시 발행 해야 합니다.
 
 초기 보존 알림의 내용을 업데이트 하려면 다음을 수행 합니다.
 
-1. **보안 및 준수 > Advanced eDiscovery (Preview)** 내의 사례를 탐색 합니다.
+1. **보안 및 준수 _GT_ Advanced eDiscovery**내의 사례를 탐색 합니다.
 2. 사례를 선택한 후 **통신** 탭으로 이동 합니다.
 3. 업데이트할 보존 알림을 선택 하 고 **편집**을 클릭 합니다.
 4. 워크플로 편집에서 **포털 콘텐츠 정의** 및 알림 내용 업데이트를 선택 합니다. 

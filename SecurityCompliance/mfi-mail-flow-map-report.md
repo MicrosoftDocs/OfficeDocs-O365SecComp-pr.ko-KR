@@ -3,18 +3,18 @@ title: 메일 흐름 맵 보고서
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 있는 메일 흐름 맵 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: f80bb71434f4091d64318a096b1f55238a1409cc
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: 6b8c63f25e143c7b27202141362a4dada82b7a4d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868590"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158690"
 ---
 # <a name="mail-flow-map-report"></a>메일 흐름 맵 보고서
 

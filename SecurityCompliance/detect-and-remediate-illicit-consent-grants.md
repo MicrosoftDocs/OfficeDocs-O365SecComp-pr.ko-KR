@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 4/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.collection:
 - o365_security_incident_response
@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 658183b3e5a3089425312ee14c6663485e0543ce
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 5e89e6cb39c04b708ffe0a49a2cd41d6a775e4a4
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402956"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150281"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -34,7 +34,7 @@ Office 365 **감사 로그** 를 검색 하 여이 공격의 손상 (IOC) 라고
 1. Office 365 테 넌 트에서 **보안 및 준수 센터** 를 엽니다.
 2. **검색 & 조사** 노드로 이동 하 고 **감사 로그** 검색을 선택 합니다.
 3. 검색 (모든 작업 및 모든 사용자)을 만들고, 응용 프로그램에 대 한 승인 결과를 필터링 하 고, OAuth2PermissionGrant를 추가 합니다.
-4. 확장 속성을 검사 하 고 isadmincontent가 True로 설정 되어 있는지 확인 합니다.
+4. 확장 속성을 검사 하 고 IsAdminContent가 True로 설정 되어 있는지 확인 합니다.
 
 > [!NOTE]
 >  
@@ -45,7 +45,7 @@ Office 365 **감사 로그** 를 검색 하 여이 공격의 손상 (IOC) 라고
 
 <a name="confirmattack"> </a>
 ## <a name="how-to-confirm-an-attack"></a>공격을 확인 하는 방법
-위에 나열 된 iocs의 인스턴스가 하나 이상 있으면 공격이 발생 한 것을 확실 하 게 확인 하려면 추가 조사를 수행 해야 합니다. 이러한 세 가지 방법 중 하나를 사용 하 여 공격을 확인할 수 있습니다.
+위에 나열 된 IOCs의 인스턴스가 하나 이상 있으면 공격이 발생 한 것을 확실 하 게 확인 하려면 추가 조사를 수행 해야 합니다. 이러한 세 가지 방법 중 하나를 사용 하 여 공격을 확인할 수 있습니다.
 - Azure Active Directory 포털을 사용 하는 인벤토리 응용 프로그램 및 사용 권한 이 방법은 완벽 하지만 확인할 사용자가 많은 경우에는 한 번에 한 명의 사용자만 확인할 수 있습니다.
 - PowerShell을 사용 하는 인벤토리 응용 프로그램 및 권한 오버 헤드가 가장 빠르고 대부분의 완벽 한 방법입니다.
 - 사용자가 자신의 앱 및 사용 권한을 개별적으로 확인 하 고 재구성을 위해 관리자에 게 결과를 다시 보고 하도록 합니다.
@@ -67,7 +67,7 @@ Azure Active Directory Portal 또는 PowerShell을 사용 하 여 사용자에 �
 사용자가으로 이동 하 https://myapps.microsoft.com 여 해당 응용 프로그램에 대 한 액세스를 검토 하도록 합니다. 액세스 권한이 있는 모든 앱을 볼 수 있고, 액세스 범위를 포함 하 여이에 대 한 세부 정보를 보고, 의심 스러운 앱 또는 불법 응용 프로그램에 대 한 권한을 해지할 수 있어야 합니다.
 
 ### <a name="steps-for-doing-this-with-powershell"></a>PowerShell에서이 작업을 수행 하기 위한 단계
-불법도를 확인 하는 가장 간단한 방법은 테 넌 트의 모든 사용자에 대 한 모든 oauth 승인 권한 부여 및 oauth 앱을 하나의 .csv 파일로 덤프 하는 Get-AzureADPSPermissions를 실행 하는 것입니다 [.](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 
+불법도를 확인 하는 가장 간단한 방법은 테 넌 트의 모든 사용자에 대 한 모든 OAuth 승인 권한 부여 및 OAuth 앱을 하나의 .csv 파일로 덤프 하는 Get-AzureADPSPermissions를 실행 하는 것입니다 [.](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 
 
 #### <a name="pre-requisites"></a>필수 구성 요소
 - Azure AD PowerShell 라이브러리가 설치 되었습니다.
@@ -84,10 +84,10 @@ Azure Active Directory Portal 또는 PowerShell을 사용 하 여 사용자에 �
 5. 이 PowerShell 명령줄을 다음과 같이 실행 합니다.`Get-AzureADPSPermissions.ps1 | Export-csv -path "Permissions.csv" -NoTypeInformation`
 
 이 스크립트는 사용 권한 .csv 라는 파일 하나를 생성 합니다. 다음 단계에 따라 불법 응용 프로그램 권한 부여를 확인 합니다. 
-1. ConsentType 열 (G 열)에서 "allprinciples" 값을 검색 합니다. allprincipals 사용 권한을 사용 하면 클라이언트 응용 프로그램에서 테 넌 시의 모든 사용자 콘텐츠에 액세스할 수 있습니다. 네이티브 Office 365 응용 프로그램은 올바르게 작동 하려면이 권한이 필요 합니다. 이 권한이 있는 Microsoft가 아닌 모든 응용 프로그램은 신중 하 게 검토 해야 합니다.
+1. ConsentType 열 (G 열)에서 "AllPrinciples" 값을 검색 합니다. AllPrincipals 사용 권한을 사용 하면 클라이언트 응용 프로그램에서 테 넌 시의 모든 사용자 콘텐츠에 액세스할 수 있습니다. 네이티브 Office 365 응용 프로그램은 올바르게 작동 하려면이 권한이 필요 합니다. 이 권한이 있는 Microsoft가 아닌 모든 응용 프로그램은 신중 하 게 검토 해야 합니다.
 2.  사용 권한 열 (F 열)에서 각 위임 된 응용 프로그램의 콘텐츠에 적용 되는 사용 권한을 검토 합니다. "읽기" 및 "쓰기" 사용 권한 또는 "*"를 찾습니다. All "사용 권한 및 적절 하지 않을 수 있으므로 신중 하 게 검토 합니다.
-3.  consents이 부여 된 특정 사용자를 검토 합니다. 높은 프로필 또는 높은 영향을 가진 사용자에 게 부적절 한 consents 부여 된 경우 더 자세히 조사 해야 합니다.
-4.  clientdisplayname 열 (C 열)에서 의심 스러운 것으로 보이는 앱을 찾습니다. 이름이 철자가 잘못 된 앱, super bland name 또는 해커의 소리가 나 게 되는 이름은 신중 하 게 검토 해야 합니다.
+3.  Consents이 부여 된 특정 사용자를 검토 합니다. 높은 프로필 또는 높은 영향을 가진 사용자에 게 부적절 한 consents 부여 된 경우 더 자세히 조사 해야 합니다.
+4.  ClientDisplayName 열 (C 열)에서 의심 스러운 것으로 보이는 앱을 찾습니다. 이름이 철자가 잘못 된 앱, super bland name 또는 해커의 소리가 나 게 되는 이름은 신중 하 게 검토 해야 합니다.
 
 ## <a name="determine-the-scope-of-the-attack"></a>공격 범위 결정
 응용 프로그램 액세스 인벤토리를 완료 한 후에는 Office 365 **감사 로그** 를 검토 하 여 위반의 전체 범위를 확인 합니다.  영향을 받는 사용자, 불법 응용 프로그램에서 조직에 액세스 하는 데 사용 하는 기간 및 앱에 대 한 권한을 검색 합니다. [Microsoft 365 보안 및 준수 센터](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)에서 **감사 로그** 를 검색할 수 있습니다. 
@@ -117,5 +117,5 @@ Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 �
 - [내 응용 프로그램 목록에서 예기치 않은 응용 프로그램](https://docs.microsoft.com/azure/active-directory/application-access-unexpected-application) 은 데이터에 대 한 액세스 권한이 있는 예기치 않은 응용 프로그램이 있다는 것을 모르고 관리자에 게 필요한 다양 한 작업을 안내 합니다.
 - [Azure Active Directory를 사용 하 여 응용 프로그램 통합]  (https://docs.microsoft.com/azure/active-directory/active-directory-apps-permissions-consent) 승인 및 사용 권한에 대 한 간략 한 개요입니다.)  [승인 프레임 워크 섹션의 개요](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#overview-of-the-consent-framework) 에 특히 주의 합니다.
 - [문제 내 응용 프로그램을 개발](https://docs.microsoft.com/azure/active-directory/active-directory-application-dev-development-content-map) 하는 경우 다양 한 승인 관련 문서의 링크를 제공 합니다.
-- azure [Active Directory의 응용 프로그램 및 서비스 보안 주체 개체 (azure AD)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects) 에서는 응용 프로그램 모델의 핵심 응용 프로그램 및 서비스 보안 주체 개체에 대 한 개요를 제공 합니다.
+- Azure [Active Directory의 응용 프로그램 및 서비스 보안 주체 개체 (AZURE AD)](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects) 에서는 응용 프로그램 모델의 핵심 응용 프로그램 및 서비스 보안 주체 개체에 대 한 개요를 제공 합니다.
 - [앱에 대 한 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-managing-access-to-apps) 는 관리자가 앱에 대 한 사용자 액세스를 관리 하기 위해 사용 해야 하는 기능에 대 한 개요입니다.

@@ -4,18 +4,18 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/16/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU (유럽 여권 번호) 중요 한 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 3ab92e87607f41cffa8c15f1179a4eef5369cb29
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: fa3be04dec0f71a2568e046abd6b0af3e20181c5
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256826"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152970"
 ---
 # <a name="eu-passport-number"></a>EU 여권 번호
 
@@ -39,7 +39,7 @@ ms.locfileid: "32256826"
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -47,7 +47,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_austria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_austria_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_austria_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -78,7 +78,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -86,7 +86,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_belgium_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_belgium_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_belgium_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -125,7 +125,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_bulgaria_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_bulgaria_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_bulgaria_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -164,7 +164,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_croatia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_croatia_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_croatia_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -203,7 +203,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_cyprus_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_cyprus_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_cyprus_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -242,7 +242,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_czech_republic_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_czech_republic_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_czech_republic_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -281,7 +281,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_denmark_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_denmark_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_denmark_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -320,7 +320,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_estonia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_estonia_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_estonia_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -371,7 +371,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_greece_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_greece_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_greece_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -410,7 +410,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_hungary_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_hungary_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_hungary_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -453,7 +453,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_ireland_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_ireland_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_ireland_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -488,7 +488,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -496,7 +496,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_italy_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_italy_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_italy_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -539,7 +539,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_latvia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_latvia_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_latvia_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -570,7 +570,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -578,7 +578,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_lithuania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_lithuania_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_lithuania_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -617,7 +617,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_nation_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_nation_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_nation_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -656,7 +656,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_malta_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_malta_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_malta_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -687,7 +687,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -695,7 +695,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_netherlands_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_netherlands_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_netherlands_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -742,7 +742,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_portugal_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_portugal_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_portugal_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -781,7 +781,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_romania_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_romania_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_romania_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -820,7 +820,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_slovakia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_slovakia_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_slovakia_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -865,7 +865,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_slovenia_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_slovenia_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_slovenia_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->
@@ -902,7 +902,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -910,7 +910,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_spain_eu_passport_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_spain_eu_passport_number` 키워드를 찾았습니다. 
+- From `Keywords_spain_eu_passport_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Passport Number -->

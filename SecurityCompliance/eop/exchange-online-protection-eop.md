@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
-ms.openlocfilehash: fdaeba4f38d2e7676b336519f6d04649ee9d8137
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3bf4874e3ab445813ee03de4def23ed12f66f537
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256466"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154670"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection 
 
@@ -53,7 +53,7 @@ EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성
     
 - [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md) 사용할 수 있는 보고서 및 문제 해결 도구에 대해 설명합니다. 
     
-- exchange [Online Protection의 exchange 관리 센터](../exchange-admin-center-in-exchange-online-protection-eop.md) EAC (Exchange 관리 센터) 관리 인터페이스를 액세스 하 고 탐색 하 여 EOP 서비스를 관리 하는 방법에 대해 설명 합니다. 
+- Exchange [Online Protection의 exchange 관리 센터](../exchange-admin-center-in-exchange-online-protection-eop.md) EAC (Exchange 관리 센터) 관리 인터페이스를 액세스 하 고 탐색 하 여 EOP 서비스를 관리 하는 방법에 대해 설명 합니다. 
     
 - [PowerShell in Exchange Online Protection](http://technet.microsoft.com/library/f7918a88-774a-405e-945b-bc2f5ee9f748.aspx) 명령줄에서 EOP 서비스를 관리하는 데 사용할 수 있는 원격 PowerShell에 대한 정보를 제공합니다. 
     
@@ -66,11 +66,11 @@ The EOP 최종 사용자가 스팸을 관리하도록 지원하기 위한 도움
   
 - [Find and Release Quarantined Messages as an End User](http://technet.microsoft.com/library/e439b560-827a-4807-abd3-6b861c1ff786.aspx) 최종 사용자가 스팸 격리 사용자 인터페이스에서 자신의 스팸 격리 메시지를 찾아서 릴리스하고 이를 정크 메일 아님으로 Microsoft에 보고하는 방법에 대해 설명합니다. 
         
-- [분석을 위해 Microsoft에 스팸, 스팸이 아닌 피싱 사기 메시지 제출](../submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 최종 사용자가 스팸 (정크) 및 스팸이 아닌 (정크 메일 아님) 메시지를 Microsoft에 제출할 수 있는 다양 한 방법을 설명 합니다. 이 항목에는 Microsoft outlook 및 웹용 outlook (이전의 outlook web App)에서 사용할 수 있는 보고 도구로 연결 되는 링크가 포함 되어 있습니다. 
+- [분석을 위해 Microsoft에 스팸, 스팸이 아닌 피싱 사기 메시지 제출](../submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 최종 사용자가 스팸 (정크) 및 스팸이 아닌 (정크 메일 아님) 메시지를 Microsoft에 제출할 수 있는 다양 한 방법을 설명 합니다. 이 항목에는 Microsoft Outlook 및 웹용 Outlook (이전의 Outlook Web App)에서 사용할 수 있는 보고 도구로 연결 되는 링크가 포함 되어 있습니다. 
     
 - [Submitting malware and non-malware to Microsoft for analysis](../submitting-malware-and-non-malware-to-microsoft-for-analysis.md) 최종 사용자가 필터를 통과하게 만든 맬웨어를 제출하거나 맬웨어로 잘못 식별된 파일을 제출할 수 있는 방법을 설명합니다. 
     
-- 최종 사용자는 outlook 또는 웹용 outlook에서 정크 메일 설정을 구성 하 여 수신 허용-보낸 사람 목록 또는 수신 거부 목록에 특정 사용자 또는 도메인을 추가할 수 있습니다. 차단 된 보낸 사람 으로부터 보낸 메시지는 거부 되지 않고 스팸으로 표시 되며, 관리자가 스팸을 보내도록 서비스를 구성한 위치에 따라 정크 메일 폴더 또는 격리에서 해당 메시지가 검색 될 수 있다는 것을 의미 합니다. 자세한 내용은 [보고서 메시지 추가 기능 사용](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.
+- 최종 사용자는 Outlook 또는 웹용 Outlook에서 정크 메일 설정을 구성 하 여 수신 허용-보낸 사람 목록 또는 수신 거부 목록에 특정 사용자 또는 도메인을 추가할 수 있습니다. 차단 된 보낸 사람 으로부터 보낸 메시지는 거부 되지 않고 스팸으로 표시 되며, 관리자가 스팸을 보내도록 서비스를 구성한 위치에 따라 정크 메일 폴더 또는 격리에서 해당 메시지가 검색 될 수 있다는 것을 의미 합니다. 자세한 내용은 [보고서 메시지 추가 기능 사용](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.
     
 - [EOP에 대한 도움말 및 지원](help-and-support-for-eop.md) 도움말 및 기술 지원 서비스를 구하는 내용에 대해 설명합니다. 
     

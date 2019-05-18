@@ -4,18 +4,18 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/17/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 드라이버의 라이선스 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: be9497c325866a670dff8d82b5170f4ca947c4ad
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f1a95ecbaf6b6d1ac189290dd6d076cfd91ab30f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255776"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152980"
 ---
 # <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
@@ -41,7 +41,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_austria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_austria_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_austria_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
 <!-- EU Driver's License Number -->
@@ -81,7 +81,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_belgium_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_belgium_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_belgium_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -99,7 +99,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords__belgium_eu_driver's_license_number**|
 |:-----|
-|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> fuehrerschein-veiligheid  <br/> |
+|dl  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein-veiligheid  <br/> fuehrerschein-Veiligheid  <br/> fuehrerschein-veiligheid  <br/> |
    
 ## <a name="bulgaria"></a>불가리아
 
@@ -121,7 +121,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_bulgaria_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_bulgaria_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_bulgaria_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -161,7 +161,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_croatia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_croatia_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_croatia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -201,7 +201,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_cyprus_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_cyprus_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_cyprus_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -246,7 +246,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_czech_republic_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_czech_republic_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_czech_republic_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -286,7 +286,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_denmark_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_denmark_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_denmark_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -330,7 +330,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_estonia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_estonia_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_estonia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -375,7 +375,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_finland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_finland_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_finland_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -422,7 +422,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_greece_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_greece_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_greece_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -439,7 +439,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 | |
 |**Keywords_greece_eu_driver's_license_number**|
 |:-----|
-|dlL  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
+|DlL  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
    
 ## <a name="hungary"></a>헝가리
 
@@ -465,7 +465,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_hungary_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_hungary_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_hungary_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -508,7 +508,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_ireland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_ireland_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_ireland_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -555,7 +555,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_latvia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_latvia_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_latvia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -594,7 +594,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_lithuania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_lithuania_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_lithuania_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -633,7 +633,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_luxemburg_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_luxemburg_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_luxemburg_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -682,7 +682,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_malta_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_malta_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_malta_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
 <!-- EU Driver's License Number -->
@@ -721,7 +721,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_netherlands_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_netherlands_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_netherlands_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -770,7 +770,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_poland_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_poland_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_poland_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -819,7 +819,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_portugal_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_portugal_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_portugal_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -862,7 +862,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_romania_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_romania_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_romania_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -905,7 +905,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_slovakia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_slovakia_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_slovakia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -944,7 +944,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_slovenia_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_slovenia_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_slovenia_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -987,7 +987,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_spain_eu_driver's_license_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_spain_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_spain_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->
@@ -1032,7 +1032,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_sweden_eu_driver's_license_number` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_sweden_eu_driver's_license_number` 키워드를 찾았습니다. 
+- From `Keywords_sweden_eu_driver's_license_number` 키워드를 찾았습니다. 
     
 ```
  <!-- EU Driver's License Number -->

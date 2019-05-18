@@ -1,10 +1,10 @@
 ---
-title: iOS 장치용 APNs 인증서 만들기
+title: IOS 장치용 APNs 인증서 만들기
 ms.author: brendonb
 author: brendonb
 manager: laurawi
 ms.date: 8/5/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - O365M_APNCertMDM
@@ -17,17 +17,17 @@ search.appverid:
 - MBS150
 - MET150
 ms.assetid: 522b43f4-a2ff-46f6-962a-dd4f47e546a7
-description: Office 365에 대 한 모바일 장치 관리에서 iPad 및 iphone와 같은 iOS 장치를 관리 하려면 다음 단계에 따라 APNs 인증서를 먼저 만듭니다.
-ms.openlocfilehash: 5f82690f0add5f1aae95a089d9cdfc0b320ae596
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Office 365에 대 한 모바일 장치 관리에서 iPad 및 Iphone와 같은 iOS 장치를 관리 하려면 다음 단계에 따라 APNs 인증서를 먼저 만듭니다.
+ms.openlocfilehash: 17dae3e02520cdac2b1381039844d1657b12c4eb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258638"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153760"
 ---
-# <a name="create-an-apns-certificate-for-ios-devices"></a>iOS 장치용 APNs 인증서 만들기
+# <a name="create-an-apns-certificate-for-ios-devices"></a>IOS 장치용 APNs 인증서 만들기
 
- Office 365의 모바일 장치 관리에서 iPad 및 iphone와 같은 iOS 장치를 관리 하려면 APNs 인증서를 만들어야 합니다. 
+ Office 365의 모바일 장치 관리에서 iPad 및 Iphone와 같은 iOS 장치를 관리 하려면 APNs 인증서를 만들어야 합니다. 
   
 이렇게 하려면 포털의 **설정** 링크에 있는 단계를 수행 합니다. ( **보안 &amp; 및 준수 센터** \> **보안 정책** \> 으로 이동 **장치 관리** \> **설정을 관리**합니다.)
   

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c4a7c479d730d5256efabe9120960b1590094779
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 41e551850b47bec88f6dd8353c6db02048255e74
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258126"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150910"
 ---
 # <a name="document-metadata-fields-in-data-investigations-preview"></a>데이터 조사의 문서 메타 데이터 필드 (미리 보기)
 
@@ -40,7 +40,7 @@ ms.locfileid: "32258126"
 |날짜                       | 예 (날짜)                                      |   예 (날짜 UTC)        | 예         |
 |Deduped 컴파운드 경로      |                                                 |                         | 예         |
 |Deduped custodians         |                                                 |                         | 예         |
-|Deduped 파일 id           |                                                 |                         | 예         |
+|Deduped 파일 Id           |                                                 |                         | 예         |
 |문서 작성자                | 예 (만든이) *                                   |    예 (만든이)         | 예         |
 |문서 주석               | 예 (메모)                                  |                         | 예         |
 |문서 회사                |                                                 |                         | 예         |
@@ -74,7 +74,7 @@ ms.locfileid: "32258126"
 |전자 메일 보낸 사람               | 예 (보낸 사람)                                    |   예 (보낸 사람)          | 예         |
 |전자 메일 보낸 사람 도메인        | 예 (senderDomain)                              |                         | 예         |
 |전자 메일 민감도          |                                                 |                         | 예         |
-|전자 메일 설정                  | 예 (emailsetid)                                |   예 (emailsetid)      | 예         |
+|전자 메일 설정                  | 예 (emailSetId)                                |   예 (EmailSetID)      | 예         |
 |전자 메일 제목              | 예 (제목)                                   |   예 (제목/제목)   | 예         |
 |전자 메일 스레드               |                                                 |                         | 예         |
 |전자 메일을                   | 예 (to)                                        |                         | 예         |
@@ -84,7 +84,7 @@ ms.locfileid: "32258126"
 |추출 된 텍스트 경로        |                                                 |                         | 예         |
 |가족 번호                  | 예 (familyId)                                  |   예 (FamilyId)        | 예         |
 |패밀리 크기                |                                                 |                         | 예         |
-|File 클래스                 | 예 (fileclass)                                 |   예 (파일 클래스)      | 예         |
+|File 클래스                 | 예 (fileClass)                                 |   예 (파일 클래스)      | 예         |
 |파일 ID                    | 예 (fileId)                                    |   예 (Id)              | 예         |
 |텍스트 포함                   |                                                 |                         | 예         |
 |포함 유형             | 예 (inclusiveType)                             |   예 (포함 유형)  | 예         |
@@ -96,8 +96,8 @@ ms.locfileid: "32258126"
 |Item 클래스                 |                                                 |                         | 예         |
 |부하 ID                    | 예 (loadId)                                    |                         | 예         |
 |위치 이름              |                                                 |                         | 예         |
-|pivot로 표시            | 예 (markAsPivot)                               |   예 (Pivot로 표시 됨) | 예         |
-|메시지 종류               | 예 (messagekind)                               |                         | 예         |
+|Pivot로 표시            | 예 (markAsPivot)                               |   예 (Pivot로 표시 됨) | 예         |
+|메시지 종류               | 예 (messageKind)                               |                         | 예         |
 |기본 확장           |                                                 |                         | 예         |
 |기본 파일 이름           |                                                 |    예 (파일 이름)      | 예         |
 |기본 MD5                 |                                                 |                         | 예         |

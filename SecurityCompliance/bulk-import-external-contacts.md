@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: End User
+audience: End User
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,18 +13,18 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 Exchange Online PowerShell 및 CSV 파일을 사용 하 여 전체 주소 목록에 외부 연락처를 대량으로 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 2948332d7cdf2d1364b2b563f94efdb3e8d0672d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 08fe7666f03c7fe60555133292be9e27a9ffa413
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244509"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152210"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Exchange Online으로 외부 연락처 대량 가져오기
 
 **이 문서는 관리자를 위한 것입니다. 연락처를 사용자의 사서함으로 가져오시겠습니까? [Outlook으로 연락처 가져오기를](https://support.office.com/article/bb796340-b58a-46c1-90c7-b549b8f3c5f8) 참조 하세요.**
    
-회사에서 Exchange Online의 공유 주소록 (전체 주소 목록)에 포함 하려는 기존 고객사 연락처가 많이 있습니까? 외부 연락처를 메일 그룹의 구성원으로 추가 하 시겠습니까? 회사 내부 사용자와 마찬가지로 사용 하는 것이 좋습니다. 그렇다면 exchange online PowerShell 및 CSV (쉼표로 구분 된 값) 파일을 사용 하 여 외부 연락처를 exchange online으로 대량으로 가져올 수 있습니다. 이 프로세스는 다음 세 단계로 진행 됩니다.
+회사에서 Exchange Online의 공유 주소록 (전체 주소 목록)에 포함 하려는 기존 고객사 연락처가 많이 있습니까? 외부 연락처를 메일 그룹의 구성원으로 추가 하 시겠습니까? 회사 내부 사용자와 마찬가지로 사용 하는 것이 좋습니다. 그렇다면 Exchange Online PowerShell 및 CSV (쉼표로 구분 된 값) 파일을 사용 하 여 외부 연락처를 Exchange Online으로 대량으로 가져올 수 있습니다. 이 프로세스는 다음 세 단계로 진행 됩니다.
   
 [1 단계: 외부 연락처에 대 한 정보가 포함 된 CSV 파일 만들기](#step-1-create-a-csv-file-that-contains-information-about-the-external-contacts)
 
@@ -42,7 +42,7 @@ ms.locfileid: "32244509"
 
 첫 번째 단계는 Exchange Online으로 가져오려는 각 외부 연락처에 대 한 정보가 포함 된 CSV 파일을 만드는 것입니다. 
   
-1. 다음 텍스트를 메모장에서 텍스트 파일로 복사 하 고 파일 이름 접미사를 사용 하 여 데스크톱에 csv 파일로 저장 합니다. 예: externalcontacts.
+1. 다음 텍스트를 메모장에서 텍스트 파일로 복사 하 고 파일 이름 접미사를 사용 하 여 데스크톱에 CSV 파일로 저장 합니다. 예: ExternalContacts.
     
     > [!TIP]
     > 언어에 특수 문자 (예: **å**, **ä**및 **ö** )가 포함 되어 있는 경우 메모장에 파일을 저장할 때 CSV 파일을 utf-8 또는 기타 유니코드 인코딩으로 저장 합니다. 
@@ -58,7 +58,7 @@ ms.locfileid: "32244509"
     > [!NOTE]
     > 이 텍스트에는 예제 데이터가 있으며 여기에 삭제할 수 있습니다. 하지만 첫 번째 (머리글) 행을 삭제 하거나 변경 하지 않습니다. 외부 연락처에 대 한 모든 속성이 포함 되어 있습니다. 
   
-2. Excel을 사용 하 여 csv 파일을 편집 하는 것이 훨씬 더 쉬우므로 csv 파일을 편집 하기 위해 Microsoft excel에서 csv 파일을 엽니다.
+2. Excel을 사용 하 여 csv 파일을 편집 하는 것이 훨씬 더 쉬우므로 csv 파일을 편집 하기 위해 Microsoft Excel에서 CSV 파일을 엽니다.
     
 3. Exchange Online으로 가져오려는 각 연락처에 대해 행을 만듭니다. 가능한 한 많은 셀을 채웁니다. 이 정보는 각 연락처에 대 한 공유 주소록에 표시 됩니다. 
     
@@ -67,7 +67,7 @@ ms.locfileid: "32244509"
 
 ## <a name="step-2-create-the-external-contacts-with-powershell"></a>2 단계: PowerShell을 사용 하 여 외부 연락처 만들기
 
-다음 단계에서는 1 단계 및 PowerShell에서 만든 csv 파일을 사용 하 여 csv 파일에 나열 된 외부 연락처를 Exchange Online으로 대량으로 가져옵니다. 
+다음 단계에서는 1 단계 및 PowerShell에서 만든 CSV 파일을 사용 하 여 CSV 파일에 나열 된 외부 연락처를 Exchange Online으로 대량으로 가져옵니다. 
   
 1.  Exchange Online 조직에 PowerShell을 연결 합니다. 단계별 지침은 [Exchange Online PowerShell에 연결을](https://go.microsoft.com/fwlink/p/?LinkId=396554)참조 하십시오. Exchange Online PowerShell에 연결 하는 경우에는 Office 365 전역 관리자 계정의 사용자 이름과 암호를 사용 해야 합니다. 
     
@@ -88,7 +88,7 @@ ms.locfileid: "32244509"
   
 5. 필요한 경우 새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침** ![을 클릭 하 여 목록을 업데이트 하 고 가져온 외부 연락처를 확인 합니다. 
     
-    가져온 연락처가 outlook 및 웹용 outlook의 공유 주소록에 나타납니다.
+    가져온 연락처가 Outlook 및 웹용 Outlook의 공유 주소록에 나타납니다.
     
     > [!NOTE]
     > **사용자** \> **연락처로**이동 하 여 Microsoft 365 관리 센터에서 연락처를 볼 수도 있습니다. 
@@ -123,7 +123,7 @@ ms.locfileid: "32244509"
     
 2. 연락처를 클릭 한 다음 편집 **** ![아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 편집을 클릭 하 여 연락처의 속성을 표시 합니다. 
     
-모두 완료되었습니다. 사용자는 주소록 Outlook 및 웹용 outlook에서 연락처 및 추가 정보를 볼 수 있습니다.
+모두 완료되었습니다. 사용자는 주소록 Outlook 및 웹용 Outlook에서 연락처 및 추가 정보를 볼 수 있습니다.
   
 ## <a name="add-more-external-contacts"></a>외부 연락처 추가
 

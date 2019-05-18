@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: 11ba4d0870461695d327577396ccd535ac4340e1
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 1e7621d577d8d08fd27dc7e20e6b8e7a3491236f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257724"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150680"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
@@ -66,4 +66,4 @@ ms.locfileid: "32257724"
 
 ## <a name="configuring-investigation-settings"></a>조사 설정 구성
 
-**설정** 탭을 사용 하 여 조사 수준 설정을 구성 합니다. 여기에는 조사에 구성원 추가, 조사 닫기 또는 삭제, 검색 및 분석 동작 구성 등이 포함 됩니다. 자세한 내용은 [Configure settings in Data 조사의 (Preview)](configure-settings-datainvestigations.md)을 참조 하십시오.
+**설정** 탭을 사용 하 여 조사 수준 설정을 구성 합니다. 여기에는 조사에 구성원 추가, 조사 닫기 또는 삭제, 검색 및 분석 동작 구성 등이 포함 됩니다. 자세한 내용은 [Configure settings In Data 조사의 (Preview)](configure-settings-datainvestigations.md)을 참조 하십시오.

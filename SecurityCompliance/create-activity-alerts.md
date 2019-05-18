@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 11/7/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,13 +14,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
-description: 사용자가 office 365에서 특정 작업을 수행할 때 office 365에서 전자 메일 알림을 보내도록 보안 및 준수 센터에서 작업 알림을 추가 하 고 관리 합니다.
-ms.openlocfilehash: d71763d4633c3396afdf58400e9cb7b8b8a468e8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 사용자가 Office 365에서 특정 작업을 수행할 때 Office 365에서 전자 메일 알림을 보내도록 보안 및 준수 센터에서 작업 알림을 추가 하 고 관리 합니다.
+ms.openlocfilehash: 1b09b191f82d8dd589fe2e5f650f42f67a846da2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258688"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34151310"
 ---
 # <a name="create-activity-alerts-in-the-office-365"></a>Office 365에서 활동 알림 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "32258688"
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 작업 알림을 관리 하려면 Security & 준수 센터에서 조직 구성 역할을 할당 받아야 합니다. 기본적으로이 역할은 준수 관리자 및 조직 관리 역할 그룹에 할당 됩니다. 역할 그룹에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [사용자에 게 보안 & 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
+- 작업 알림을 관리 하려면 Security & 준수 센터에서 조직 구성 역할을 할당 받아야 합니다. 기본적으로이 역할은 준수 관리자 및 조직 관리 역할 그룹에 할당 됩니다. 역할 그룹에 구성원을 추가 하는 방법에 대 한 자세한 내용은 [사용자에 게 보안 _AMP_ 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
     
 - 사용자 (또는 다른 관리자)가 먼저 조직에 대해 감사 로깅을 켠 후에 작업 알림 사용을 시작 해야 합니다. 이렇게 하려면 **활동 알림** 페이지에서 **사용자 및 관리 활동 기록을 시작** 합니다 .를 클릭 합니다. (이 링크가 표시 되지 않는 경우 조직에 대 한 감사가 이미 설정 된 경우) 보안 & 준수 센터의 **감사 로그 검색** 페이지에서 감사 기능을 설정할 수도 있습니다 ( **검색** \> **감사 로그 검색**으로 이동). 조직에서이 작업을 한 번만 수행 하면 됩니다.
   
@@ -124,6 +124,6 @@ ms.locfileid: "32258688"
    
 - 보안 & 준수 센터 PowerShell에서 **새 activityalert** 및 **Set-activityalert** cmdlet을 사용 하 여 활동 알림을 만들고 편집할 수도 있습니다. 이러한 cmdlet을 사용 하 여 활동 알림을 만들거나 편집할 경우 다음 사항을 염두에 두어야 합니다. 
     
-  - cmdlet을 사용 하 여 **활동** 드롭다운 목록에 나열 되지 않은 알림에 활동을 추가 하는 경우 속성 페이지에 "이 경고에 사용자 지정 작업이 선택기에서 표시 되지 않습니다." 라는 경고가 표시 됩니다. 
+  - Cmdlet을 사용 하 여 **활동** 드롭다운 목록에 나열 되지 않은 알림에 활동을 추가 하는 경우 속성 페이지에 "이 경고에 사용자 지정 작업이 선택기에서 표시 되지 않습니다." 라는 경고가 표시 됩니다. 
     
-  - cmdlet을 사용 하 여 활동 알림을 만들거나 편집 하려면 조직 외부의 사용자에 게 전자 메일 알림을 보내는 것이 좋습니다. 이 외부 사용자는 경고의 받는 사람 목록에 표시 됩니다. 그러나 경고에서이 외부 사용자를 제거 하는 경우에는 **알림 편집** 페이지를 사용 하 여 해당 사용자를 알림에 다시 추가할 수 없습니다. 이 경우에는 **Set-activityalert** cmdlet을 사용 하 여 외부 사용자를 다시 추가 하거나, **새** 경고에 동일 하거나 다른 외부 사용자를 추가 해야 합니다. 
+  - Cmdlet을 사용 하 여 활동 알림을 만들거나 편집 하려면 조직 외부의 사용자에 게 전자 메일 알림을 보내는 것이 좋습니다. 이 외부 사용자는 경고의 받는 사람 목록에 표시 됩니다. 그러나 경고에서이 외부 사용자를 제거 하는 경우에는 **알림 편집** 페이지를 사용 하 여 해당 사용자를 알림에 다시 추가할 수 없습니다. 이 경우에는 **Set-activityalert** cmdlet을 사용 하 여 외부 사용자를 다시 추가 하거나, **새** 경고에 동일 하거나 다른 외부 사용자를 추가 해야 합니다. 

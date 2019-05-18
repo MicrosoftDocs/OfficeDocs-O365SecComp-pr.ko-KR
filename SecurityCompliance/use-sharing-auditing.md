@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 2/13/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직에서 공유가 사용 되는 방식을 확인할 수 있습니다. '
-ms.openlocfilehash: 08b511acdf74edac5b2d595d1b60bdd84d630918
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a363ebe2e8b1697521ab5f84df0b3fc221a2abcd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263418"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157900"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 
@@ -28,11 +28,11 @@ ms.locfileid: "32263418"
   
 ## <a name="the-sharepoint-sharing-schema"></a>SharePoint 공유 스키마
 
-공유 정책 및 공유 링크 이벤트를 제외 하 고 이벤트 공유가 파일 및 폴더 관련 이벤트와는 다른 사용자에 게 영향을 주는 한 가지 기본 방법으로 사용 됩니다. 예를 들어 user a는 사용자 B에 게 파일에 대 한 액세스 권한을 제공 합니다. 이 예에서는 사용자 A가 작업 중인 *사용자* 이 고 사용자 B가 *대상 사용자*입니다. SharePoint 파일 스키마에서 작동 중인 사용자의 작업은 파일 자체에만 영향을 줍니다. 사용자 a가 파일을 여는 경우, **fileaccessed** 한 이벤트에서 필요한 정보는 작업 중인 사용자입니다. 이러한 차이를 해결 하기 위해 *SharePoint 공유 스키마*라고 하는 별도의 스키마를 통해 공유 이벤트에 대 한 추가 정보를 캡처할 수 있습니다. 이렇게 하면 관리자가 리소스를 공유 하는 사람 및 리소스를 공유한 사용자에 대 한 자세한 정보를 파악할 수 있습니다. 
+공유 정책 및 공유 링크 이벤트를 제외 하 고 이벤트 공유가 파일 및 폴더 관련 이벤트와는 다른 사용자에 게 영향을 주는 한 가지 기본 방법으로 사용 됩니다. 예를 들어 User A는 사용자 B에 게 파일에 대 한 액세스 권한을 제공 합니다. 이 예에서는 사용자 A가 작업 중인 *사용자* 이 고 사용자 B가 *대상 사용자*입니다. SharePoint 파일 스키마에서 작동 중인 사용자의 작업은 파일 자체에만 영향을 줍니다. 사용자 A가 파일을 여는 경우, **Fileaccessed** 한 이벤트에서 필요한 정보는 작업 중인 사용자입니다. 이러한 차이를 해결 하기 위해 *SharePoint 공유 스키마*라고 하는 별도의 스키마를 통해 공유 이벤트에 대 한 추가 정보를 캡처할 수 있습니다. 이렇게 하면 관리자가 리소스를 공유 하는 사람 및 리소스를 공유한 사용자에 대 한 자세한 정보를 파악할 수 있습니다. 
   
 공유 스키마는 감사 로그에서 공유 이벤트와 관련 된 두 가지 추가 필드를 제공 합니다. 
   
-- **targetuserorgroupname** -리소스를 공유 하는 대상 사용자 또는 그룹의 UPN 이나 이름을 저장 합니다 (이전 예제에서는 user B). 
+- **Targetuserorgroupname** -리소스를 공유 하는 대상 사용자 또는 그룹의 UPN 이나 이름을 저장 합니다 (이전 예제에서는 user B). 
     
 - **TargetUserOrGroupType** -대상 사용자 또는 그룹이 구성원, 게스트, 그룹 또는 파트너 인지를 식별 합니다. 
     
@@ -73,7 +73,7 @@ ms.locfileid: "32263418"
   
 ### <a name="step-1-search-for-sharing-events-and-export-the-results-to-a-csv-file"></a>1 단계: 공유 이벤트 검색 및 결과를 CSV 파일로 내보내기
 
-첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security _AMP_ 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
@@ -127,7 +127,7 @@ ms.locfileid: "32263418"
     
 7. **확인**을 클릭합니다.
     
-    **세부 정보** 열이 여러 열로 분할 됩니다. 각각의 새 열에는 detail 이라는 이름이 지정 됩니다. **1**, **detail. 2**, **세부 정보 3**등. **자세한 내용은 Detail** 의 각 셀에 있는 값에 속성 이름을 접두사로 사용 합니다. 예 **: SharingSet**, **Operation: SharingInvitationAccepted**및 **Operation: SharingInvitationCreated**
+    **세부 정보** 열이 여러 열로 분할 됩니다. 각각의 새 열에는 Detail 이라는 이름이 지정 됩니다. **1**, **detail. 2**, **세부 정보 3**등. **자세한 내용은 Detail** 의 각 셀에 있는 값에 속성 이름을 접두사로 사용 합니다. 예 **: SharingSet**, **Operation: SharingInvitationAccepted**및 **Operation: SharingInvitationCreated**
     
     ![세부 정보 열은 각 속성에 하나씩 여러 열로 분할 됩니다.](media/4b104ead-0313-4bd4-b2a9-f143ccb378ac.png)
   

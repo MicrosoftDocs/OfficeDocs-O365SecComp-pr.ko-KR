@@ -4,18 +4,18 @@ ms.author: tracyp
 author: MSFTTracyp
 manager: laurawi
 ms.date: 01/31/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: a0b736eb9773ace87f32f1272b3f4326532206d2
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: b9fb5591834292fba4a58cfd024a667edce3c7ca
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402886"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150250"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -23,7 +23,7 @@ Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조�
   
 기본적으로 다음과 같은 방식을 통해 메시징 보호에 EOP를 사용할 수 있습니다.
   
-- **독립 실행형 시나리오에서** EOP에서는 온-프레미스 Microsoft Exchange server 2013 환경, 레거시 Exchange Server 버전 또는 기타 모든 온-프레미스 SMTP 전자 메일 솔루션에 대해 클라우드 기반 전자 메일 보호 기능을 제공 합니다. 
+- **독립 실행형 시나리오에서** EOP에서는 온-프레미스 Microsoft Exchange Server 2013 환경, 레거시 Exchange Server 버전 또는 기타 모든 온-프레미스 SMTP 전자 메일 솔루션에 대해 클라우드 기반 전자 메일 보호 기능을 제공 합니다. 
     
 - **Microsoft Exchange Online의 일부로** 기본적으로 EOP는 Microsoft Exchange Online 클라우드 호스팅 사서함을 보호합니다. 이러한 Exchange Online 기능을 구성 하는 데 도움이 되는 [위협 으로부터 보호](../protect-against-threats.md) 를 참조 하세요. 
     
@@ -48,13 +48,13 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
     
 - EMEA(유럽, 중동 및 아프리카)에서는 모든 Exchange Online 사서함이 EMEA 데이터 센터에 있으며 모든 메시지가 EOP 필터링용으로 EMEA 데이터 센터를 통해 라우팅됩니다.
     
-- apac (아시아 태평양)에서는 모든 Exchange Online 사서함이 apac 데이터 센터에 있지만 현재 메시지는 EOP 필터링을 위해 apac 데이터 센터를 통해 라우팅됩니다.
+- APAC (아시아 태평양)에서는 모든 Exchange Online 사서함이 APAC 데이터 센터에 있지만 현재 메시지는 EOP 필터링을 위해 APAC 데이터 센터를 통해 라우팅됩니다.
 
 - 미주에서 모든 Exchange Online 사서함은 미국 데이터 센터에 있으며, 브라질 및 칠레 데이터 센터가 사용 되 고 캐나다의 데이터 센터가 사용 되는 경우에는 남부 아메리카를 제외 합니다. 남미 및 캐나다의 고객에 대 한 메시지를 비롯 하 여 모든 전자 메일 메시지는 EOP 필터링에 대 한 로컬 데이터 센터를 통해 라우팅됩니다. quaratined 전자 메일은 테 넌 트가 있는 데이터 센터에 저장 됩니다.
     
 - EMEA(유럽, 중동 및 아프리카)에서는 모든 Exchange Online 사서함이 EMEA 데이터 센터에 있으며 모든 메시지가 EOP 필터링용으로 EMEA 데이터 센터를 통해 라우팅됩니다.
     
-- apac (아시아 태평양)에서는 모든 Exchange Online 사서함이 apac 데이터 센터에 있고 메시지는 현재 EOP 필터링을 위해 apac 데이터 센터를 통해 라우팅됩니다.
+- APAC (아시아 태평양)에서는 모든 Exchange Online 사서함이 APAC 데이터 센터에 있고 메시지는 현재 EOP 필터링을 위해 APAC 데이터 센터를 통해 라우팅됩니다.
     
 - GCC(정부 커뮤니티 클라우드)의 경우에는 모든 Exchange Online 사서함이 미국 데이터 센터에 있으며 모든 메시지는 EOP 필터링용으로 미국 데이터 센터를 통해 라우팅됩니다.
     

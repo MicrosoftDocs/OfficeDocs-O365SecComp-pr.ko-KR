@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/4/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -14,21 +14,21 @@ search.appverid:
 - MST160
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
-description: 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대 한 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xn 채팅 이라고 함).
-ms.openlocfilehash: 0c68023fdd4e1c9e06596937247270861cdbd2b3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대 한 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xN 채팅 이라고 함).
+ms.openlocfilehash: eb53daa381b89d8ded4f2400ed7781e2306eb263
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261012"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158740"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색
 
-조직에 Exchange 하이브리드 배포가 있고 Microsoft 팀을 사용 하도록 설정 하면 사용자는 인스턴트 메시징을 위해 팀 채팅 응용 프로그램을 사용할 수 있습니다. 클라우드 기반 사용자의 경우 팀 채팅 데이터 (1xn 채팅이 라고도 함)가 기본 클라우드 기반 사서함에 저장 됩니다. 온-프레미스 사용자가 팀 채팅 응용 프로그램을 사용 하는 경우 기본 사서함은 온-프레미스에 있습니다. 이러한 제한을 해결 하기 위해 Microsoft는 온-프레미스 사용자를 위한 팀 채팅 데이터를 저장 하기 위해 클라우드 기반 저장소 영역 (온-프레미스 사용자를 위한 클라우드 기반 사서함)을 만들기 위한 새로운 기능을 출시 했습니다. 이를 통해 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색 하 고 내보낼 수 있습니다. 
+조직에 Exchange 하이브리드 배포가 있고 Microsoft 팀을 사용 하도록 설정 하면 사용자는 인스턴트 메시징을 위해 팀 채팅 응용 프로그램을 사용할 수 있습니다. 클라우드 기반 사용자의 경우 팀 채팅 데이터 (1xN 채팅이 라고도 함)가 기본 클라우드 기반 사서함에 저장 됩니다. 온-프레미스 사용자가 팀 채팅 응용 프로그램을 사용 하는 경우 기본 사서함은 온-프레미스에 있습니다. 이러한 제한을 해결 하기 위해 Microsoft는 온-프레미스 사용자를 위한 팀 채팅 데이터를 저장 하기 위해 클라우드 기반 저장소 영역 (온-프레미스 사용자를 위한 클라우드 기반 사서함)을 만들기 위한 새로운 기능을 출시 했습니다. 이를 통해 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색 하 고 내보낼 수 있습니다. 
   
 온-프레미스 사용자에 대해 클라우드 기반 사서함을 설정 및 검색 하기 위한 요구 사항 및 제한 사항은 다음과 같습니다.
   
-- 온-프레미스 디렉터리 서비스의 사용자 계정 (예: Active directory)은 Office 365의 디렉터리 서비스인 Azure Active directory와 동기화 되어야 합니다. 즉, 메일 사용자 계정이 Office 365에 만들어지고 기본 사서함이 온-프레미스 조직에 있는 사용자와 연결 됩니다.
+- 온-프레미스 디렉터리 서비스의 사용자 계정 (예: Active Directory)은 Office 365의 디렉터리 서비스인 Azure Active Directory와 동기화 되어야 합니다. 즉, 메일 사용자 계정이 Office 365에 만들어지고 기본 사서함이 온-프레미스 조직에 있는 사용자와 연결 됩니다.
     
 - 온-프레미스 사용자를 위한 클라우드 기반 사서함은 팀 채팅 데이터를 저장 하는 경우에만 사용 됩니다. 온-프레미스 사용자가 클라우드 기반 사서함에 로그인 하거나 어떤 방식으로든 액세스를 수행할 수 없습니다. 전자 메일 메시지를 보내거나 받는 데 사용할 수 없습니다. 
     
@@ -38,13 +38,13 @@ ms.locfileid: "32261012"
   
 ## <a name="how-it-works"></a>작업 방법
 
-microsoft 팀 사용 가능 사용자에 게 온-프레미스 사서함이 있고 해당 사용자 계정/id가 클라우드와 동기화 된 경우 microsoft는 클라우드 기반 사서함을 만들어 1xn 팀 채팅 데이터를 저장 합니다. 팀 채팅 데이터가 클라우드 기반 사서함에 저장 된 후에는 검색을 위해 인덱싱됩니다. 이를 통해 콘텐츠 검색 (및 eDiscovery 사례와 연결 된 검색)을 사용 하 여 온-프레미스 사용자에 대 한 팀 채팅 데이터를 검색, 미리 보기 및 내보낼 수 있습니다. 또한 Security & 준수 센터 PowerShell에서 ** \*ComplianceSearch** cmdlet을 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색할 수 있습니다. 
+Microsoft 팀 사용 가능 사용자에 게 온-프레미스 사서함이 있고 해당 사용자 계정/id가 클라우드와 동기화 된 경우 Microsoft는 클라우드 기반 사서함을 만들어 1xN 팀 채팅 데이터를 저장 합니다. 팀 채팅 데이터가 클라우드 기반 사서함에 저장 된 후에는 검색을 위해 인덱싱됩니다. 이를 통해 콘텐츠 검색 (및 eDiscovery 사례와 연결 된 검색)을 사용 하 여 온-프레미스 사용자에 대 한 팀 채팅 데이터를 검색, 미리 보기 및 내보낼 수 있습니다. 또한 Security & 준수 센터 PowerShell에서 ** \*ComplianceSearch** cmdlet을 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색할 수 있습니다. 
   
 다음 그림에서는 온-프레미스 사용자의 팀 채팅 데이터를 검색, 미리 보기 및 내보낼 수 있는 방식에 대 한 워크플로를 보여 줍니다.
   
 ![Microsoft 팀의 온-프레미스 사용자를 위한 클라우드 기반 저장소](media/895845f8-2ceb-47ed-96c9-5ab7f1aea916.png)
   
-이 새로운 기능 외에도, 콘텐츠 검색을 사용 하 여 클라우드 기반 SharePoint 사이트에서 팀 콘텐츠를 검색, 미리 보기 및 내보낼 수 있으며, 각 Microsoft 팀에 연결 된 exchange 사서함 및 exchange Online 사서함의 1xn 팀 채팅 데이터를 사용할 수도 있습니다. 클라우드 기반 사용자
+이 새로운 기능 외에도, 콘텐츠 검색을 사용 하 여 클라우드 기반 SharePoint 사이트에서 팀 콘텐츠를 검색, 미리 보기 및 내보낼 수 있으며, 각 Microsoft 팀에 연결 된 Exchange 사서함 및 exchange Online 사서함의 1xN 팀 채팅 데이터를 사용할 수도 있습니다. 클라우드 기반 사용자
 
 ## <a name="filing-a-request-with-microsoft-support-to-enable-this-feature"></a>이 기능을 사용 하도록 설정 하기 위해 Microsoft 지원 서비스에 요청
 
@@ -106,7 +106,7 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
 
 Security & 준수 센터 PowerShell에서 **ComplianceSearch** 및 **ComplianceSearch** cmdlet을 사용 하 여 온-프레미스 사용자의 클라우드 기반 사서함을 검색할 수 있습니다. 앞에서 설명한 것 처럼 PowerShell을 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색 하기 위해 지원 요청을 제출할 필요가 없습니다. 
   
-1. [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
+1. [Security _AMP_ 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
     
 2. 새 콘텐츠를 만들려면 다음 PowerShell 명령을 실행 하 여 온-프레미스 사용자의 클라우드 기반 사서함을 검색 합니다.
     
@@ -114,7 +114,7 @@ Security & 준수 센터 PowerShell에서 **ComplianceSearch** 및 **ComplianceS
     New-ComplianceSearch <name of new search> -ContentMatchQuery <search query> -ExchangeLocation <on-premises user> -IncludeUserAppContent $true -AllowNotFoundExchangeLocationsEnabled $true  
     ```
    
-    *includeuserappcontent* 매개 변수는 *ExchangeLocation* 매개 변수에 지정 된 사용자 또는 사용자에 대 한 클라우드 기반 사서함을 지정 하는 데 사용 됩니다. *AllowNotFoundExchangeLocationsEnabled* 에서는 온-프레미스 사용자에 대해 클라우드 기반 사서함을 사용할 수 있습니다. 이 매개 변수의 `$true` 값을 사용 하는 경우 검색을 실행 하기 전에 사서함의 존재 여부를 확인 하지 않습니다. 이는 사서함 유형이 일반 사서함으로 확인 되지 않으므로 온-프레미스 사용자의 클라우드 기반 사서함을 검색 하는 데 필요 합니다. 
+    *Includeuserappcontent* 매개 변수는 *ExchangeLocation* 매개 변수에 지정 된 사용자 또는 사용자에 대 한 클라우드 기반 사서함을 지정 하는 데 사용 됩니다. *AllowNotFoundExchangeLocationsEnabled* 에서는 온-프레미스 사용자에 대해 클라우드 기반 사서함을 사용할 수 있습니다. 이 매개 변수의 `$true` 값을 사용 하는 경우 검색을 실행 하기 전에 사서함의 존재 여부를 확인 하지 않습니다. 이는 사서함 유형이 일반 사서함으로 확인 되지 않으므로 온-프레미스 사용자의 클라우드 기반 사서함을 검색 하는 데 필요 합니다. 
     
     다음은 Contoso 조직의 온-프레미스 사용자 인 Sara Davis의 클라우드 기반 사서함에 "redstone" 키워드를 포함 하는 팀 대화방 (인스턴트 메시지)을 검색 하는 예제입니다.
   
@@ -137,7 +137,7 @@ Security & 준수 센터 PowerShell에서 **ComplianceSearch** 및 **ComplianceS
 
 - 현재 온-프레미스 사용자의 경우 클라우드 기반 사서함에서 콘텐츠를 검색, 미리 보기 및 내보낼 수만 있습니다. 온-프레미스 사용자에 대해 클라우드 기반 사서함을 eDiscovery 사례와 관련 된 보류에 배치 하거나 Office 365 보존 정책에 할당 하는 것은 지원 되지 않습니다. 
     
-- eDiscovery 보류에 대 한 콘텐츠 위치 선택에서는 온-프레미스 사용자를 표시 하 고이를 선택할 수 있습니다. 하지만 앞에서 설명한 보류가 온-프레미스 사용자에 게 적용 되지 않습니다.
+- EDiscovery 보류에 대 한 콘텐츠 위치 선택에서는 온-프레미스 사용자를 표시 하 고이를 선택할 수 있습니다. 하지만 앞에서 설명한 보류가 온-프레미스 사용자에 게 적용 되지 않습니다.
     
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -147,7 +147,7 @@ Security & 준수 센터 PowerShell에서 **ComplianceSearch** 및 **ComplianceS
   
  **지원 요청을 제출 하는 것 외에 다른 요구 사항이 있습니까?**
   
- 앞에서 설명한 것 처럼, 프레미스 사서함을 사용 하는 사용자의 id는 Office 365에서 각 온-프레미스 사용자 계정에 대해 해당 메일 사용자 계정을 만들 수 있도록 클라우드 기반 조직과 동기화 해야 합니다. 또한 조직에 office 365 enterprise E1, E3 또는 E5 구독과 같은 office 365 enterprise 구독이 있어야 합니다. 
+ 앞에서 설명한 것 처럼, 프레미스 사서함을 사용 하는 사용자의 id는 Office 365에서 각 온-프레미스 사용자 계정에 대해 해당 메일 사용자 계정을 만들 수 있도록 클라우드 기반 조직과 동기화 해야 합니다. 또한 조직에 Office 365 Enterprise E1, E3 또는 E5 구독과 같은 Office 365 enterprise 구독이 있어야 합니다. 
   
  **사용자의 온-프레미스 사서함이 클라우드로 마이그레이션될 경우 팀 채팅 데이터가 손실 될 위험이 있습니까?**
   
@@ -159,4 +159,4 @@ Security & 준수 센터 PowerShell에서 **ComplianceSearch** 및 **ComplianceS
   
  **조직에서이 기능을 사용 하도록 요청을 제출한 시간 이전에 온-프레미스 사용자의 이전 팀 대화방을 찾을 수 있습니까?**
   
-Microsoft가 2018 년 1 월 31 일에 온-프레미스 사용자에 대 한 팀 채팅 데이터 저장을 시작 했습니다. 따라서이 날짜 이후에 active directory 및 Azure active directory 간에 온-프레미스 팀 사용자의 id가 동기화 된 경우 팀 채팅 데이터가 클라우드 기반 사서함에 저장 되 고 콘텐츠 검색을 통해 검색 가능 하 게 됩니다. 또한 Microsoft는 온-프레미스 사용자의 클라우드 기반 사서함에서 2018 년 1 월 31 일 이전에 팀 채팅 데이터를 저장 하는 작업을 수행 하 고 있습니다. 이에 대 한 자세한 내용은 곧 제공 될 예정입니다.
+Microsoft가 2018 년 1 월 31 일에 온-프레미스 사용자에 대 한 팀 채팅 데이터 저장을 시작 했습니다. 따라서이 날짜 이후에 Active Directory 및 Azure Active Directory 간에 온-프레미스 팀 사용자의 id가 동기화 된 경우 팀 채팅 데이터가 클라우드 기반 사서함에 저장 되 고 콘텐츠 검색을 통해 검색 가능 하 게 됩니다. 또한 Microsoft는 온-프레미스 사용자의 클라우드 기반 사서함에서 2018 년 1 월 31 일 이전에 팀 채팅 데이터를 저장 하는 작업을 수행 하 고 있습니다. 이에 대 한 자세한 내용은 곧 제공 될 예정입니다.

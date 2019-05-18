@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 9/24/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 구성에 잘못 된 문자가 있는 관리자가 보안 &amp; 및 준수 센터를 사용 하려고 할 때 문제를 해결 하는 데 도움이 되는 정보를 제공 합니다.
-ms.openlocfilehash: 797389da26823b6528c2aee0baaa118fbfcf7942
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 0e7dcb40d8e54045caa55083e2cbf0585a80869d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253956"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154167"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지 
 
@@ -39,13 +39,13 @@ ms.locfileid: "32253956"
 
 1. [원격 PowerShell을 사용 하 여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
     
-2. 스팸 필터 정책의 이름을 변경 하려면 다음과 같이 get-hostedcontentfilterpolicy cmdlet을 실행 합니다.
+2. 스팸 필터 정책의 이름을 변경 하려면 다음과 같이 Get-hostedcontentfilterpolicy cmdlet을 실행 합니다.
     
     ```
     Set-HostedContentFilterPolicy -Identity "Old policy name" -Name "New policy name"
     ```  
 
-3. 스팸 필터 규칙의 이름을 변경 하려면 다음과 같이 disable-hostedcontentfilterrule cmdlet을 실행 합니다.
+3. 스팸 필터 규칙의 이름을 변경 하려면 다음과 같이 Disable-hostedcontentfilterrule cmdlet을 실행 합니다.
     
     ```
     Set-HostedContentFilterRule -Identity "Old rule name" -Name "New rule name"
@@ -56,6 +56,6 @@ ms.locfileid: "32253956"
 
 [보안 &amp; 및 준수 센터의 위협 관리](threat-management.md)
   
-[get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy?view=exchange-ps)
+[Get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy?view=exchange-ps)
 
-[disable-hostedcontentfilterrule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule?view=exchange-ps)
+[Disable-hostedcontentfilterrule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule?view=exchange-ps)

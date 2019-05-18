@@ -3,7 +3,7 @@ title: Office 365의 콘텐츠 검색
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,17 +15,17 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
-description: Office 365 또는 microsoft 365의 준수 센터에서 콘텐츠 검색 도구를 사용 하 여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리와 검색 조건을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 콘텐츠 검색은 gdpr 데이터 주체 요청과 관련 될 수 있는 콘텐츠를 검색 하기 위한 효과적인 도구 이기도 합니다.
-ms.openlocfilehash: 67b32dcc6efcc096b9952be41380a8dc3700a668
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 도구를 사용 하 여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft 팀, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색 합니다. 키워드 검색 쿼리와 검색 조건을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련 될 수 있는 콘텐츠를 검색 하기 위한 효과적인 도구 이기도 합니다.
+ms.openlocfilehash: 4661f724a646eaaf522485726b2cb0475483e56b
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264104"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153930"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
-office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscovery 도구를 사용 하 여 office 365 조 직에서 전자 메일, 문서 및 인스턴트 메시징 대화와 같은 원본 위치 항목을 검색할 수 있습니다. 이 도구를 사용 하 여 다음 Office 365 서비스에서 항목을 검색 합니다.
+Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscovery 도구를 사용 하 여 Office 365 조 직에서 전자 메일, 문서 및 인스턴트 메시징 대화와 같은 원본 위치 항목을 검색할 수 있습니다. 이 도구를 사용 하 여 다음 Office 365 서비스에서 항목을 검색 합니다.
   
 - Exchange Online 사서함 및 공용 폴더
     
@@ -42,7 +42,7 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
 
 ## <a name="create-a-new-search"></a>새 검색 만들기
 
-검색 결과를 미리 보고 내보낼 수 있도록 **콘텐츠 검색** 페이지에 대 한 액세스 권한을 보유 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 Security & 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+검색 결과를 미리 보고 내보낼 수 있도록 **콘텐츠 검색** 페이지에 대 한 액세스 권한을 보유 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 Security _AMP_ 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 전자 메일 주소 및 암호를 사용 하 여 로그인 합니다.
     
@@ -68,7 +68,7 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
     
     ![검색할 키워드, 조건 및 위치 지정](media/1e6de9dd-eac9-4e2a-819d-9740cf6c9106.png)
   
-   - **검색할 키워드** 상자에 검색 쿼리를 입력 합니다. **** 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **and**, **OR**, **NOT**및 **NEAR**과 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서에서 중요 한 정보 (예: 주민 등록 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. 키워드 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다.
+   - **검색할 키워드** 상자에 검색 쿼리를 입력 합니다. **** 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **And**, **OR**, **NOT**및 **NEAR**과 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서에서 중요 한 정보 (예: 주민 등록 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. 키워드 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다.
     
       또는 **키워드 목록 표시** 확인란을 클릭 하 고 각 행에 키워드를 입력할 수 있습니다. 이 작업을 수행 하는 경우 각 행의 키워드는 생성 되는 검색 쿼리의 **OR** 연산자와 유사한 기능을 하는 논리 연산자 ( **c:s**)에 의해 연결 됩니다. 
     
@@ -89,7 +89,7 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
   
          검색할 Exchange 사서함 목록에 메일 그룹을 추가할 수도 있습니다. 메일 그룹의 경우 그룹 구성원의 사서함이 검색 됩니다. 동적 메일 그룹은 지원 되지 않습니다.
     
-       **중요:** 모든 사서함 위치나 특정 사서함을 검색 하면 콘텐츠 검색 결과를 내보낼 때 사용자 사서함에 저장 된 myanalytics 및 기타 Office 365 응용 프로그램의 데이터가 포함 됩니다. 이 데이터는 예상 검색 결과에 포함 되지 않으며 미리 보기에 사용할 수 없습니다. 검색 결과를 내보내고 다운로드 하는 경우에만 포함 됩니다. "콘텐츠 검색에 대 한 자세한 정보" 섹션에서 [myanalytics 및 기타 Office 365 응용 프로그램에서 데이터 내보내기를](#exporting-data-from-myanalytics-and-other-office-365-applications) 참조 하세요. 
+       **중요:** 모든 사서함 위치나 특정 사서함을 검색 하면 콘텐츠 검색 결과를 내보낼 때 사용자 사서함에 저장 된 MyAnalytics 및 기타 Office 365 응용 프로그램의 데이터가 포함 됩니다. 이 데이터는 예상 검색 결과에 포함 되지 않으며 미리 보기에 사용할 수 없습니다. 검색 결과를 내보내고 다운로드 하는 경우에만 포함 됩니다. "콘텐츠 검색에 대 한 자세한 정보" 섹션에서 [MyAnalytics 및 기타 Office 365 응용 프로그램에서 데이터 내보내기를](#exporting-data-from-myanalytics-and-other-office-365-applications) 참조 하세요. 
     
 6. 검색 쿼리를 설정한 후에는 **저장 &amp; 실행**을 클릭 합니다.
     
@@ -116,7 +116,7 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
     
 미리 볼 수 있는 항목 수에 대 한 제한이 있습니다. 자세한 내용은 [콘텐츠 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 
   
-미리 볼 수 있는 지원 되는 파일 형식 목록은 "콘텐츠 검색에 대 한 자세한 정보" 섹션에서 [검색 결과 미리 보기](#previewing-search-results) 를 참조 하십시오. 파일 형식이 미리 보기에 지원 되지 않거나 문서 복사본을 다운로드 하는 경우에는 **원본 파일 다운로드** 를 클릭 하 여 로컬 컴퓨터에 다운로드할 수 있습니다. .aspx 웹 페이지의 경우 페이지에 대 한 액세스 권한이 없을 수 있지만 페이지의 URL이 포함 됩니다. 
+미리 볼 수 있는 지원 되는 파일 형식 목록은 "콘텐츠 검색에 대 한 자세한 정보" 섹션에서 [검색 결과 미리 보기](#previewing-search-results) 를 참조 하십시오. 파일 형식이 미리 보기에 지원 되지 않거나 문서 복사본을 다운로드 하는 경우에는 **원본 파일 다운로드** 를 클릭 하 여 로컬 컴퓨터에 다운로드할 수 있습니다. .Aspx 웹 페이지의 경우 페이지에 대 한 액세스 권한이 없을 수 있지만 페이지의 URL이 포함 됩니다. 
   
 또한 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
   
@@ -182,11 +182,11 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
   
 [부분적으로 인덱싱된 항목](#partially-indexed-items)
   
-[myanalytics 및 기타 Office 365 응용 프로그램에서 데이터 내보내기](#exporting-data-from-myanalytics-and-other-office-365-applications)
+[MyAnalytics 및 기타 Office 365 응용 프로그램에서 데이터 내보내기](#exporting-data-from-myanalytics-and-other-office-365-applications)
   
 ### <a name="content-search-limits"></a>콘텐츠 검색 제한
 
-- 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [limits for content search](limits-for-content-search.md)를 참조 하십시오.
+- 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [limits For Content search](limits-for-content-search.md)를 참조 하십시오.
     
 - Microsoft는 모든 Office 365 조직에서 실행 하는 콘텐츠 검색에 대 한 성능 정보를 수집 합니다. 검색 쿼리의 복잡도에 따라 검색 시간에 영향을 줄 수 있지만 검색에 걸리는 시간에 영향을 주는 가장 큰 요인은 검색 되는 사서함 수입니다. Microsoft는 검색 시간에 대 한 서비스 수준 계약을 제공 하지 않지만 다음 표에는 검색에 포함 된 사서함 수에 따른 콘텐츠 검색에 대 한 평균 검색 시간이 나와 있습니다.
     
@@ -227,9 +227,9 @@ office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색 eDiscove
   
 ### <a name="searching-onedrive-accounts"></a>OneDrive 계정 검색
 
-- 조직의 onedrive 사이트에 대 한 url 목록을 수집 하려면 [조직의 모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하세요. 이 문서에 나와 있는 스크립트는 모든 OneDrive 사이트의 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 조직의 내 사이트 도메인에 대 한 URL을 검색 하려는 각 OneDrive 사이트로 추가 해야 합니다. 모든 OneDrive를 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
+- 조직의 OneDrive 사이트에 대 한 Url 목록을 수집 하려면 [조직의 모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하세요. 이 문서에 나와 있는 스크립트는 모든 OneDrive 사이트의 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 조직의 내 사이트 도메인에 대 한 URL을 검색 하려는 각 OneDrive 사이트로 추가 해야 합니다. 모든 OneDrive를 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
     
-    드문 경우 이지만 사용자의 upn (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 위치에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 콘텐츠 검색을 수정 해야 합니다.
+    드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 위치에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 콘텐츠 검색을 수정 해야 합니다.
   
 ### <a name="searching-microsoft-teams-and-office-365-groups"></a>Microsoft 팀 및 Office 365 그룹 검색
 
@@ -251,20 +251,20 @@ Microsoft 팀 및 Office 365 그룹에서 콘텐츠를 검색할 때는 다음 �
   ```
 
     > [!NOTE]
-    > **remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
   
 - 사용자의 사서함을 검색할 때 사용자가 구성원으로 속해 있는 Microsoft Team 또는 Office 365 그룹은 검색 되지 않습니다. 마찬가지로 Microsoft 팀 이나 Office 365 그룹을 검색할 때 지정한 그룹 사서함 및 그룹 사이트만 검색 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 계정은 검색에 명시적으로 추가 하지 않으면 검색 되지 않습니다.
     
-- microsoft 팀 또는 Office 365 그룹의 구성원 목록을 가져오려면 microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
+- Microsoft 팀 또는 Office 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
     
   ```
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
   ```
 
     > [!NOTE]
-    > **add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
   
-- microsoft 팀 채널의 일부인 대화는 microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 채널에서 파일을 검색 하려면 콘텐츠 위치로 Microsoft 팀 사서함 및 SharePoint 사이트를 추가 해야 합니다.
+- Microsoft 팀 채널의 일부인 대화는 Microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 채널에서 파일을 검색 하려면 콘텐츠 위치로 Microsoft 팀 사서함 및 SharePoint 사이트를 추가 해야 합니다.
     
 - 또는 Microsoft 팀의 채팅 목록에 포함 된 대화는 채팅에 참가 하는 사용자의 Exchange Online 사서함에 저장 됩니다. 사용자가 채팅 대화에서 공유 하는 파일은 파일을 공유 하는 사용자의 비즈니스용 OneDrive 계정에 저장 됩니다. 따라서 채팅 목록에서 대화 및 파일을 검색 하려면 개별 사용자 사서함과 비즈니스용 OneDrive 계정을 콘텐츠 위치로 추가 해야 합니다.
     
@@ -274,7 +274,7 @@ Microsoft 팀 및 Office 365 그룹에서 콘텐츠를 검색할 때는 다음 �
 - 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠가 .mht 형식의 파일에 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 팀 위 키 데이터 문서 라이브러리에 저장 됩니다. 콘텐츠 검색 도구를 사용 하 여 팀의 SharePoint 사이트를 검색할 콘텐츠 위치로 지정 하 여 Wiki를 검색할 수 있습니다. 
     
     > [!NOTE]
-    > Microsoft team 또는 Channel (팀의 SharePoint 사이트 검색 시)에 대 한 Wiki를 검색 하는 기능은 2017 년 6 월 22 일에 릴리스 되었습니다. 해당 날짜에 저장 되거나 업데이트 된 Wiki 페이지를 검색할 수 있습니다. 해당 날짜를 검색에 사용할 수 없도록 마지막으로 저장 하거나 업데이트 한 Wiki 페이지 
+    > Microsoft Team 또는 Channel (팀의 SharePoint 사이트 검색 시)에 대 한 Wiki를 검색 하는 기능은 2017 년 6 월 22 일에 릴리스 되었습니다. 해당 날짜에 저장 되거나 업데이트 된 Wiki 페이지를 검색할 수 있습니다. 해당 날짜를 검색에 사용할 수 없도록 마지막으로 저장 하거나 업데이트 한 Wiki 페이지 
  
 - Microsoft 팀 채널의 모임 및 통화에 대 한 요약 정보도 모임 또는 통화에 전화를 거는 사용자의 사서함에 저장 됩니다. 즉, 콘텐츠 검색을 사용 하 여 이러한 요약 레코드를 검색할 수 있습니다. 요약 정보는 다음과 같습니다. 
   - 모임 또는 통화의 날짜, 시작 시간, 종료 시간 및 기간
@@ -289,9 +289,9 @@ Microsoft 팀 및 Office 365 그룹에서 콘텐츠를 검색할 때는 다음 �
 
   모임 및 통화 요약 레코드를 검색할 수 있도록 하려면 최대 8 시간이 걸릴 수 있습니다.
 
-  검색 결과에서 모임 요약은 **유형 필드**에서 **모임** 으로 식별 됩니다. 통화 요약은 **통화**로 식별 됩니다. 또한 팀 채널 및 1xn 채팅에 포함 된 대화는 **유형** 필드에서 **메신저로** 식별 됩니다.
+  검색 결과에서 모임 요약은 **유형 필드**에서 **모임** 으로 식별 됩니다. 통화 요약은 **통화**로 식별 됩니다. 또한 팀 채널 및 1xN 채팅에 포함 된 대화는 **유형** 필드에서 **메신저로** 식별 됩니다.
   
-  ![팀 회의, 통화 및 1xn 채팅은 유형 필드에서 식별 됩니다.](media/O365-ContentSearch-Teams-MessageKind.png)
+  ![팀 회의, 통화 및 1xN 채팅은 유형 필드에서 식별 됩니다.](media/O365-ContentSearch-Teams-MessageKind.png)
 
 - **Kind** email 속성 또는 **메시지 종류** 검색 조건을 사용 하 여 Microsoft 팀의 콘텐츠를 구체적으로 검색할 수 있습니다. 
   - 키워드 검색 쿼리의 일부로 **Kind** 속성을 사용 하려면 검색 쿼리의 **키워드** 상자에를 입력 `kind:microsoftteams`합니다.
@@ -300,7 +300,7 @@ Microsoft 팀 및 Office 365 그룹에서 콘텐츠를 검색할 때는 다음 �
   
   - 검색 조건을 사용 하려면 **메시지 종류** 조건을 추가 하 고 값 `microsoftteams`을 사용 합니다. 
 
-    ![microsoftteams 값과 함께 메시지 종류 조건을 사용 합니다.](media/O365-ContentSearch-Teams-MessageKindCondition.png)
+    ![Microsoftteams 값과 함께 메시지 종류 조건을 사용 합니다.](media/O365-ContentSearch-Teams-MessageKindCondition.png)
 
 조건은 **and** 연산자에 의해 키워드 쿼리에 논리적으로 연결 됩니다. 즉, 항목은 검색 결과에 반환 될 키워드 쿼리와 검색 조건과 모두 일치 해야 합니다. 자세한 내용은 [키워드 쿼리 및 콘텐츠 검색에 대 한 검색 조건](keyword-queries-and-search-conditions.md#guidelines-for-using-conditions) 에서 "조건을 사용 하기 위한 지침" 섹션을 참조 하십시오.
 
@@ -350,9 +350,9 @@ Microsoft 팀 및 Office 365 그룹에서 콘텐츠를 검색할 때는 다음 �
     
 - 일부 항목이 검색 쿼리와 일치 하는 경우 (다른 메시지 또는 문서 속성이 검색 조건을 충족 함) 해당 항목은 초과 된 인덱싱되지 않은 항목 수에 포함 되지 않습니다. 검색 기준으로 부분적으로 제외 된 항목은 해당 항목이 부분적으로 인덱싱된 항목의 예상 수에도 포함 되지 않습니다. 자세한 내용은 [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)을 참조 하세요.
     
-### <a name="exporting-data-from-myanalytics-and-other-office-365-applications"></a>myanalytics 및 기타 Office 365 응용 프로그램에서 데이터 내보내기
+### <a name="exporting-data-from-myanalytics-and-other-office-365-applications"></a>MyAnalytics 및 기타 Office 365 응용 프로그램에서 데이터 내보내기
 
-- myanalytics의 데이터 (예: 사용자의 사서함에 있는 메일 및 일정 데이터를 기반으로 시간을 보내는 방법에 대 한 정보) 및 다른 Office 365 응용 프로그램의 데이터가 사용자의 클라우드 기반 사서함에 있는 숨겨진 위치 (IPM이 아닌 하위 트리의)에 저장 됩니다. 콘텐츠 검색을 실행 한 후에는이 데이터가 예상 검색 결과, 쿼리 통계에 포함 되지 않으며 미리 볼 수 없습니다. 그러나 검색 결과를 내보낼 때이 데이터를 내보냅니다.
+- MyAnalytics의 데이터 (예: 사용자의 사서함에 있는 메일 및 일정 데이터를 기반으로 시간을 보내는 방법에 대 한 정보) 및 다른 Office 365 응용 프로그램의 데이터가 사용자의 클라우드 기반 사서함에 있는 숨겨진 위치 (IPM이 아닌 하위 트리의)에 저장 됩니다. 콘텐츠 검색을 실행 한 후에는이 데이터가 예상 검색 결과, 쿼리 통계에 포함 되지 않으며 미리 볼 수 없습니다. 그러나 검색 결과를 내보낼 때이 데이터를 내보냅니다.
     
-- myanalytics 데이터와 다른 office 365 응용 프로그램의 데이터를 "기타 office 365 data" 라는 폴더로 내보냅니다. 이 폴더에는 각 사용자의 하위 폴더가 포함 됩니다.
+- MyAnalytics 데이터와 다른 Office 365 응용 프로그램의 데이터를 "기타 Office 365 data" 라는 폴더로 내보냅니다. 이 폴더에는 각 사용자의 하위 폴더가 포함 됩니다.
   
