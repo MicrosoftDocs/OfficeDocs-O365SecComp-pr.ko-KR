@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,13 +14,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ef56c881acd05855517f61f2e92ec42efb6e8578
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7498d4f48cd559d950a0b4ea0049463b11ee06bb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258415"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34150990"
 ---
-# <a name="configure-settings-in-data-investigations"></a><span data-ttu-id="c239b-102">데이터 조사의 설정 구성</span><span class="sxs-lookup"><span data-stu-id="c239b-102">Configure settings in Data Investigations</span></span>
+# <a name="configure-settings-in-data-investigations"></a><span data-ttu-id="e6b43-102">데이터 조사의 설정 구성</span><span class="sxs-lookup"><span data-stu-id="e6b43-102">Configure settings in Data Investigations</span></span>
 
-<span data-ttu-id="c239b-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="c239b-103">Content coming soon.</span></span>
+<span data-ttu-id="e6b43-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="e6b43-103">Content coming soon.</span></span>
