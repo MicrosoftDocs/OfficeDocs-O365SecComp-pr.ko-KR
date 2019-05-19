@@ -3,7 +3,7 @@ title: Office 365 고객 Lockbox 요청
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 3a86f3333114f3015b85d8066298f9834737f127
-ms.sourcegitcommit: 000548aa269ad775f20af5acd6aa726ac340c793
+ms.openlocfilehash: 2f15201cb4c49a22d7789ffafcdd94b5266bcdd4
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33661424"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153840"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 

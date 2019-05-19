@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 description: 'Office 365 Advanced eDiscovery에서 사례 문제에 대 한 관련성 교육 상태 및 결과를 확인 하 고 해석 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 8bdfd2ddb88215b7217d1cc4cdacf2e775a0d977
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 1018b414d0192491feebfbec25d865d4463fa26a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264428"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158330"
 ---
 # <a name="track-relevance-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 분석 추적
 
@@ -144,10 +144,10 @@ ms.locfileid: "32264428"
     
 - 너무 크게 인해 **무시**됨:
     
-- **ne문서 ou**: 의미 없는 텍스트 또는 문제와 관련 된 기능을 포함 하지 않음
+- **Ne문서 ou**: 의미 없는 텍스트 또는 문제와 관련 된 기능을 포함 하지 않음
     
 > [!NOTE]
-> 비어 있음, 실패, 무시 또는 ne, ou는 관련성 점수가-1로 표시 됩니다. 
+> 비어 있음, 실패, 무시 또는 Ne, Ou는 관련성 점수가-1로 표시 됩니다. 
   
 ### <a name="training-statistics"></a>교육 통계
 

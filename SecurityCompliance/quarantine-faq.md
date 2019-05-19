@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 6/16/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,18 +14,18 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 9a9673b3360a9a8b6bf837e09b49aca7a38e2172
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a8e4c8ba67e94c5c61da6c88f8086d780081d1a6
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265040"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157220"
 ---
 # <a name="quarantine-faq"></a>격리 FAQ
 
 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 Exchange Online Protection 고객에게 해당됩니다.
   
- **q. 격리에서 맬웨어 격리 메시지를 관리 하려면 어떻게 해야 하나요?**
+ **Q. 격리에서 맬웨어 격리 메시지를 관리 하려면 어떻게 해야 하나요?**
   
 격리로 전송 된 메시지를 &amp; 보고 작업 하려면 보안 준수 센터를 사용 해야 합니다 (맬웨어 포함). 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)를 참조 하세요.
   

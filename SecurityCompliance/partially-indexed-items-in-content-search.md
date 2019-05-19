@@ -3,8 +3,8 @@ title: Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 5/11/2018
-ms.audience: Admin
+ms.date: ''
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.UnindexedItemsLearnMore
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: '보안 & 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다. '
-ms.openlocfilehash: 22eca4e56c21783db348f6569b73257a9cc53dab
-ms.sourcegitcommit: 0baa79a6e6fb72be488556607bc8c441642981a7
+ms.openlocfilehash: 7a5baa37abbade64ac77ed288afbb5389ac2295f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "33527656"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157450"
 ---
 # <a name="partially-indexed-items-in-content-search-in-office-365"></a>Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목
 

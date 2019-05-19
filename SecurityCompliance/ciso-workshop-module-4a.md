@@ -1,23 +1,23 @@
 ---
-title: '최고 정보 보안 담당자 (ciso) 워크숍, 모듈 4a: 위협 방지 전략'
+title: '최고 정보 보안 담당자 (CISO) 워크숍, 모듈 4a: 위협 방지 전략'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: e9d3d650517e590100f4e812f46e91ccb265dcaa
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c9d418254db4a11716b4d1e58ecd683b92fdfd18
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243329"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155490"
 ---
-# <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>ciso 워크숍 모듈 4a: 위협 방지 전략
+# <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>CISO 워크숍 모듈 4a: 위협 방지 전략
 
 주요 learnings 위협 보호, 보안 진행, 전략 및 보안 로드맵에 대해 알아봅니다.
 

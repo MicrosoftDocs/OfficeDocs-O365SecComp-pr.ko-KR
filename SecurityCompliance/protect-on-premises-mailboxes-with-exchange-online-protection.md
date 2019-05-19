@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 6/1/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -16,29 +16,29 @@ search.appverid:
 ms.assetid: c5e95951-da67-4ec7-92c5-982abd477e69
 ms.collection:
 - M365-security-compliance
-description: 온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다. office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 21vianet에서 운영 하는 office 365에서 관리자 역할 할당을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
-ms.openlocfilehash: 4331bf5574122efb50bb9dda9c7c0386df5683f7
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다. Office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 21Vianet에서 운영 하는 Office 365에서 관리자 역할 할당을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다.
+ms.openlocfilehash: 20fa94a356823e624fcb42dc493d555cec3fe523
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261556"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156940"
 ---
 # <a name="protect-on-premises-mailboxes-with-exchange-online-protection"></a>Exchange Online Protection을 사용 하 여 온-프레미스 사서함 보호
 
 > [!NOTE]
-> 이 문서는 중국의 21vianet에서 운영 하는 Office 365에만 적용 됩니다. 
+> 이 문서는 중국의 21Vianet에서 운영 하는 Office 365에만 적용 됩니다. 
   
-온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다. office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 [21vianet에서 운영 하는 office 365에서 관리자 역할 할당](https://support.office.com/article/d58b8089-cbfd-41ec-b64c-9cfcbef495ac)을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다. 
+온-프레미스에서 사서함의 일부 또는 전체를 호스트 하는 경우에도 EOP (Exchange Online Protection)를 사용 하 여 사서함을 보호할 수 있습니다. 커넥터를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다. Office 365 권한이 Exchange 권한과 관련 된 방식에 대 한 자세한 내용은 [21vianet에서 운영 하는 office 365에서 관리자 역할 할당](https://support.office.com/article/d58b8089-cbfd-41ec-b64c-9cfcbef495ac)을 참조 하세요. 모든 Exchange 사서함이 온-프레미스에 있는 경우 다음 단계를 수행 하 여 EOP 서비스를 설정 합니다. 
   
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>1 단계: Microsoft 365 관리 센터를 사용 하 여 도메인 추가 및 확인
 
 1. Microsoft 365 관리 센터에서 설정으로 이동 하 여 서비스에 도메인을 추가 합니다.
     
-2.  도메인 소유권을 확인 하기 위해 포털의 단계에 따라 dns 호스팅 공급자에 게 해당 dns 레코드를 추가 합니다. 
+2.  도메인 소유권을 확인 하기 위해 포털의 단계에 따라 DNS 호스팅 공급자에 게 해당 DNS 레코드를 추가 합니다. 
     
 > [!TIP]
-> 도메인 [및 사용자를 21vianet에서 운영 하는 office 365에 추가](https://support.office.com/article/1cd4839b-d051-46b8-ab9b-bc7752024e78) 하 고, [dns 레코드를 관리할 때 office 365에 대 한 dns 레코드를 만들려면](https://support.office.com/article/0669bf14-414d-4f51-8231-6b710ce7980b) 도메인을 서비스에 추가 하 고 dns를 구성할 때 참조 하면 도움이 되는 리소스입니다. 
+> 도메인 [및 사용자를 21vianet에서 운영 하는 office 365에 추가](https://support.office.com/article/1cd4839b-d051-46b8-ab9b-bc7752024e78) 하 고, [dns 레코드를 관리할 때 office 365에 대 한 Dns 레코드를 만들려면](https://support.office.com/article/0669bf14-414d-4f51-8231-6b710ce7980b) 도메인을 서비스에 추가 하 고 dns를 구성할 때 참조 하면 도움이 되는 리소스입니다. 
   
 ### <a name="step-2-add-recipients-and-configure-the-domain-type"></a>2 단계: 받는 사람 추가 및 도메인 유형 구성
 
@@ -81,10 +81,10 @@ Office 365 도메인 구성 단계에 따라 도메인의 MX 레코드를 업데
     
 ## <a name="less-common-a-hybrid-setup-with-mailboxes-on-premises-and-in-the-cloud"></a>덜 일반적인 경우: 온-프레미스 및 클라우드에서 사서함이 포함 된 하이브리드 설정
 
-exchange Online에서 exchange 사서함 온-프레미스와 클라우드에서 하나 이상의 사서함을 사용 하는 경우 *하이브리드* 설치가 진행 됩니다. 하이브리드 설정에서 약속 있음/없음 일정 공유 및 메일 라우팅과 같은 기능은 온-프레미스 및 클라우드 환경에서 함께 작동 합니다. 사서함을 Exchange Online으로 전환 하는 동안 하이브리드 설치가 진행 되 고 있을 수 있습니다. 하이브리드 환경은 EOP 독립 실행형 보호와는 다른 방식으로 설정 됩니다. 
+Exchange Online에서 Exchange 사서함 온-프레미스와 클라우드에서 하나 이상의 사서함을 사용 하는 경우 *하이브리드* 설치가 진행 됩니다. 하이브리드 설정에서 약속 있음/없음 일정 공유 및 메일 라우팅과 같은 기능은 온-프레미스 및 클라우드 환경에서 함께 작동 합니다. 사서함을 Exchange Online으로 전환 하는 동안 하이브리드 설치가 진행 되 고 있을 수 있습니다. 하이브리드 환경은 EOP 독립 실행형 보호와는 다른 방식으로 설정 됩니다. 
   
 대부분의 직원에 대해 클라우드 기반 전자 메일을 활용 하려면 하이브리드 시나리오를 선택할 수 있습니다. 이 작업은 온-프레미스의 일부 사서함을 호스트 하는 동안에도 가능 합니다. 예를 들어 법률 부서에 적합 합니다. 
   
-하이브리드 설치는 복잡할 수 있지만 다양 한 이점이 있습니다. exchange에서 하이브리드 시나리오를 설정 하는 방법에 대 한 자세한 내용은 [21vianet에서 운영 하는 Office 365을 사용 하 여 exchange 하이브리드 배포 기능 구성을](https://support.office.com/article/26e7cc26-c980-4cc5-a082-c333de544b6d)참조 하세요.
+하이브리드 설치는 복잡할 수 있지만 다양 한 이점이 있습니다. Exchange에서 하이브리드 시나리오를 설정 하는 방법에 대 한 자세한 내용은 [21vianet에서 운영 하는 Office 365을 사용 하 여 exchange 하이브리드 배포 기능 구성을](https://support.office.com/article/26e7cc26-c980-4cc5-a082-c333de544b6d)참조 하세요.
   
 

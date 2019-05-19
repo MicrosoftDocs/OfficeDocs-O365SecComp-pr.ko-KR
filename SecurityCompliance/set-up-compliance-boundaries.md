@@ -3,7 +3,7 @@ title: Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: b23c6d0c96874fb7e6205de6bf8a7f4eb00e4254
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: ab9fae4dcae04bc79c94f5a5138dfd56cc551414
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264666"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156580"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -30,11 +30,11 @@ ms.locfileid: "32264666"
   
 ![준수 경계는 eDisocovery 사례에 대 한 액세스를 제어 하는 기관 및 관리 역할 그룹에 대 한 액세스를 제어 하는 검색 권한 필터로 구성 됩니다.](media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
   
-이 예에서 Contoso b 2는 두 개의 자회사, 커피 및 Coho Winery으로 구성 되는 Office 365 조직입니다. 비즈니스에서는 eDiscovery mangers 및 investigators가 해당 에이전시에서 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있어야 합니다. 또한 ediscovery 관리자 및 investigators는 자신의 에이전시에 있는 ediscovery 사례만 볼 수 있을 뿐 이며 구성원 인 경우에만 액세스할 수 있습니다. 준수 경계가 이러한 요구 사항을 충족 하는 방식은 다음과 같습니다.
+이 예에서 Contoso b 2는 두 개의 자회사, 커피 및 Coho Winery으로 구성 되는 Office 365 조직입니다. 비즈니스에서는 eDiscovery mangers 및 investigators가 해당 에이전시에서 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있어야 합니다. 또한 eDiscovery 관리자 및 investigators는 자신의 에이전시에 있는 eDiscovery 사례만 볼 수 있을 뿐 이며 구성원 인 경우에만 액세스할 수 있습니다. 준수 경계가 이러한 요구 사항을 충족 하는 방식은 다음과 같습니다.
   
 - 콘텐츠 검색의 검색 권한 필터링 기능은 eDiscovery 관리자 및 investigators에서 검색할 수 있는 콘텐츠 위치를 제어 합니다. 즉, eDiscovery 관리자 및 네 번째 커피 기관에 있는 investigators는 네 번째 커피 자회사의 콘텐츠 위치만 검색할 수 있음을 의미 합니다. Coho Winery 자회사에도 동일한 제한이 적용 됩니다.
     
-    역할 그룹은 보안 & 준수 센터에서 eDiscovery 사례를 볼 수 있는 사용자를 제어 합니다. 즉, ediscovery 관리자 및 investigators는 해당 에이전시에서 ediscovery 사례만 볼 수 있습니다.
+    역할 그룹은 보안 & 준수 센터에서 eDiscovery 사례를 볼 수 있는 사용자를 제어 합니다. 즉, eDiscovery 관리자 및 investigators는 해당 에이전시에서 eDiscovery 사례만 볼 수 있습니다.
     
 - 또한 역할 그룹은 구성원을 eDiscovery 사례에 할당할 수 있는 사용자를 제어 합니다. 즉, eDiscovery 관리자 및 investigators는 자신이 자신을 구성원 인 사례에만 구성원을 할당할 수 있음을 의미 합니다.
     
@@ -86,7 +86,7 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>3 단계: 각 에이전시에 대 한 역할 그룹 만들기
 
-다음 단계는 사용자의 조직과 부합 되는 보안 & 준수 센터에서 역할 그룹을 만드는 것입니다. 기본 제공 eDiscovery 관리자 그룹을 복사 하 고, 적절 한 구성원을 추가 하 고, 필요에 따라 적용 되지 않을 수 있는 역할을 제거 하 여 새 역할 그룹을 만드는 것이 좋습니다. ediscovery 관련 역할에 대 한 자세한 내용은 [Office 365 Security & 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+다음 단계는 사용자의 조직과 부합 되는 보안 & 준수 센터에서 역할 그룹을 만드는 것입니다. 기본 제공 eDiscovery 관리자 그룹을 복사 하 고, 적절 한 구성원을 추가 하 고, 필요에 따라 적용 되지 않을 수 있는 역할을 제거 하 여 새 역할 그룹을 만드는 것이 좋습니다. EDiscovery 관련 역할에 대 한 자세한 내용은 [Office 365 Security _AMP_ 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
 역할 그룹을 만들려면 Security & 준수 센터의 **사용 권한** 페이지로 이동한 후 준수 경계 및 eDiscovery 사례를 사용 하 여 조사를 관리할 각 에이전시의 각 팀에 대해 역할 그룹을 만듭니다. 
   
@@ -157,11 +157,11 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     
 1. Security & 준수 센터의 **eDiscovery** 페이지로 이동 하 여 새 사례를 만듭니다. 
     
-2. eDiscovery 사례 목록에서 방금 만든 사례 이름을 클릭 합니다.
+2. EDiscovery 사례 목록에서 방금 만든 사례 이름을 클릭 합니다.
     
 3. **이 사례** 플라이 아웃 관리 페이지의 **역할 그룹**관리자에서 add 아이콘 ![](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **추가**를 클릭 합니다.
     
-    ![eDiscovery 사례의 구성원으로 역할 그룹 추가](media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
+    ![EDiscovery 사례의 구성원으로 역할 그룹 추가](media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
 4. 역할 그룹 목록에서 3 단계에서 만든 역할 그룹 중 하나를 선택 하 고 **추가**를 클릭 합니다.
     
@@ -169,7 +169,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="compliance-boundary-limitations"></a>준수 경계 제한
 
-eDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관리할 때는 다음과 같은 제한 사항을 염두에 두어야 합니다.
+EDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관리할 때는 다음과 같은 제한 사항을 염두에 두어야 합니다.
   
 - 콘텐츠 검색을 만들고 실행 하는 경우에는 에이전시 외부에 있는 콘텐츠 위치를 선택할 수 있습니다. 그러나 검색 권한 필터 때문에 해당 위치의 콘텐츠가 검색 결과에 포함 되지 않습니다.
     
@@ -185,7 +185,7 @@ eDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관
   
 - **검색 결과 내보내기** -Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 특정 데이터 센터의 검색 결과를 내보낼 수 있습니다. 즉, 검색 결과를 내보낼 데이터 센터 위치를 지정할 수 있습니다.
 
-    **new-compliancesecurityfilter** 또는 **new-compliancesecurityfilter** cmdlet에 **Region** 매개 변수를 사용 하 여 내보내기가 라우팅되는 데이터 센터를 만들거나 변경 합니다.
+    **New-compliancesecurityfilter** 또는 **New-compliancesecurityfilter** cmdlet에 **Region** 매개 변수를 사용 하 여 내보내기가 라우팅되는 데이터 센터를 만들거나 변경 합니다.
   
     |**매개 변수 값**|**데이터 센터 위치**|
     |:-----|:-----|
@@ -228,9 +228,9 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
   
 - **Region** 매개 변수는 Exchange 사서함의 검색을 제어 하지 않습니다. 사서함을 검색할 때 모든 데이터 센터가 검색 됩니다. Exchange 사서함을 검색할 수 있는 범위를 제한 하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용 합니다. 
     
-- ediscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우에는 검색 권한 필터에 사용할 수 있는 다른 사용자 계정을 해당 ediscovery 관리자에 게 만들어야 합니다. SharePoint 사이트 또는 OneDrive 계정이 있습니다.
+- EDiscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우에는 검색 권한 필터에 사용할 수 있는 다른 사용자 계정을 해당 eDiscovery 관리자에 게 만들어야 합니다. SharePoint 사이트 또는 OneDrive 계정이 있습니다.
     
-- SharePoint 및 OneDrive에서 콘텐츠를 검색할 때 **Region** 매개 변수는 ediscovery 관리자가 ediscovery 조사를 수행 하는 기본 또는 위성 위치를 검색 하도록 지시 합니다. eDiscovery 관리자가 SharePoint 및 OneDrive 사이트 검색 사용 권한 필터에 지정 된 지역 외부를 검색 하는 경우 검색 결과가 반환 되지 않습니다. 
+- SharePoint 및 OneDrive에서 콘텐츠를 검색할 때 **Region** 매개 변수는 ediscovery 관리자가 ediscovery 조사를 수행 하는 기본 또는 위성 위치를 검색 하도록 지시 합니다. EDiscovery 관리자가 SharePoint 및 OneDrive 사이트 검색 사용 권한 필터에 지정 된 지역 외부를 검색 하는 경우 검색 결과가 반환 되지 않습니다. 
     
 - 검색 결과를 내보낼 때 모든 콘텐츠 위치의 콘텐츠 (예를 들어 Exchange, 비즈니스용 Skype, SharePoint, OneDrive 및 기타 Office 365 서비스는 콘텐츠 검색 도구를 사용 하 여 검색할 수 있음)의 Azure 저장소 위치에 업로드 됩니다. **Region** 매개 변수에 의해 지정 된 데이터 센터입니다. 이렇게 하면 조직이 제어 테두리에 걸쳐 콘텐츠를 내보낼 수 없도록 하 여 규정 준수를 유지 하는 데 도움이 됩니다. 검색 권한 필터에 지역이 지정 되어 있지 않으면 콘텐츠가 조직의 기본 영역에 업로드 됩니다. 
     
@@ -242,19 +242,19 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
  
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
- **new-compliancesecurityfilter 및 new-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
+ **New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
   
 검색 사용 권한 필터를 만들고 보고 수정 하려면 Security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다.
   
  **여러 기관에 걸쳐 있는 둘 이상의 역할 그룹에 eDiscovery 관리자를 할당 하는 경우, 한 에이전시에서 콘텐츠를 검색 하려면 어떻게 해야 합니까?**
   
-eDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 매개 변수를 추가할 수 있습니다. 예를 들어 조직에서 **CustomAttribute10** 속성을 지정 하 여 기관을 차별화 하는 경우 다음을 검색 쿼리에 추가 하 여 특정 에이전시에서 사서함 및 OneDrive 계정을 검색할 수 있습니다 `CustomAttribute10:<value> AND Site_ComplianceAttribute:<value>`.
+EDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 매개 변수를 추가할 수 있습니다. 예를 들어 조직에서 **CustomAttribute10** 속성을 지정 하 여 기관을 차별화 하는 경우 다음을 검색 쿼리에 추가 하 여 특정 에이전시에서 사서함 및 OneDrive 계정을 검색할 수 있습니다 `CustomAttribute10:<value> AND Site_ComplianceAttribute:<value>`.
   
  **검색 권한 필터에서 준수 특성으로 사용 되는 특성의 값이 변경 된 경우 어떻게 되나요?**
   
 필터에 사용 된 특성의 값이 변경 되는 경우 검색 권한 필터에 대해 최대 3 일이 소요 됩니다. 예를 들어 Contoso 시나리오에서, 네 번째 커피 에이전시의 사용자가 Coho Winery 에이전시로 전송 된다는 것을 가정해 보겠습니다. 따라서 사용자 개체의 **부서** 특성 값은 *FourthCoffee* 에서 *CohoWinery* 로 변경 됩니다. 이 상황에서 네 번째 커피 eDiscovery 및 투자자는 해당 사용자에 대 한 검색 결과를 3 일 동안 (특성이 변경 된 후)로 가져옵니다. 마찬가지로, Coho Winery eDiscovery 관리자 및 investigators에서 사용자에 대 한 검색 결과를 가져올 때까지 최대 3 일이 걸립니다. 
   
- **eDiscovery 관리자가 두 개의 별도 준수 경계의 콘텐츠를 볼 수 있습니까?**
+ **EDiscovery 관리자가 두 개의 별도 준수 경계의 콘텐츠를 볼 수 있습니까?**
   
 예. 이 작업은 두 기관에 모두 표시 되는 역할 그룹에 사용자를 추가 하 여 수행할 수 있습니다.
   
@@ -262,7 +262,7 @@ eDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 �
   
 아니요, 지금은 아님
   
- **콘텐츠를 내보내는 위치를 제어 하는 영역을 지정 했지만 해당 지역에 sharepoint 조직이 없는 경우에도 sharepoint를 검색할 수 있나요?**
+ **콘텐츠를 내보내는 위치를 제어 하는 영역을 지정 했지만 해당 지역에 SharePoint 조직이 없는 경우에도 SharePoint를 검색할 수 있나요?**
   
 검색 권한 필터에 지정 된 지역이 조직에 없는 경우에는 기본 지역이 검색 됩니다.
   

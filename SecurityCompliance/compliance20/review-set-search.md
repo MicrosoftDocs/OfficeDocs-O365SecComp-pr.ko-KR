@@ -1,10 +1,10 @@
 ---
-title: 검토 집합의 데이터 쿼리
+title: 검토 집합에서 데이터 쿼리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 395cc01238f4dbc91de5dd652e10121f5e0cc926
-ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
+ms.openlocfilehash: 446f3f2588a79cb328476db490f1f555448b5ce7
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33527237"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154010"
 ---
-# <a name="query-the-data-in-a-review-set"></a>검토 집합의 데이터 쿼리
+# <a name="query-the-data-in-a-review-set"></a>검토 집합에서 데이터 쿼리
 
 대부분의 경우 검토 집합에 있는 항목을 보다 자세히 살펴보고 보다 효율적으로 검토 하도록 구성 하는 것이 도움이 됩니다. 검토 집합 내의 쿼리를 사용 하면 사용자가 한 번에 정의한 기준을 충족 하는 문서 하위 집합에 집중할 수 있으므로 작업을 수행할 수 있습니다.
 

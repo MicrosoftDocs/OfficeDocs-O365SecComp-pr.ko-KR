@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ca4823ecfc06ddc0ef6f6840ad55fec492ac472c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7bfae202886d4c1af5914f4b49d0e4d528b8975d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243809"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155050"
 ---
 # <a name="email-threading"></a>이메일 스레드
 
@@ -27,7 +27,7 @@ ms.locfileid: "32243809"
 
 ## <a name="what-does-email-threading-do"></a>전자 메일 스레딩의 기능
 
-전자 메일 스레딩은 각 전자 메일을 분석 하 고 개별 메시지에 desconstructs 합니다. 각 전자 메일은 개별 메시지의 연쇄입니다. 그런 다음 작업 집합의 모든 전자 메일을 분석 하 여 전자 메일이 고유한 콘텐츠를 포함 하는지 또는 체인이 다른 전자 메일에 완전히 포함 되어 있는지를 확인 합니다. 최종 전자 메일은 다음 네 가지 범주로 나뉩니다.
+전자 메일 스레딩은 각 전자 메일을 분석 하 고 개별 메시지에 desconstructs 합니다. 각 전자 메일은 개별 메시지의 연쇄입니다. 그런 다음 검토 집합의 모든 전자 메일을 분석 하 여 전자 메일이 고유한 콘텐츠를 포함 하는지 또는 체인이 다른 전자 메일에 완전히 포함 되어 있는지를 확인 합니다. 최종 전자 메일은 다음 네 가지 범주로 나뉩니다.
 
 - **포함**: 전자 메일의 마지막 메시지에는 고유한 콘텐츠가 있으며 전자 메일에는 해당 콘텐츠가 완전히이 전자 메일에 포함 된 다른 전자 메일에 포함 된 첨부 파일이 모두 있습니다.
 

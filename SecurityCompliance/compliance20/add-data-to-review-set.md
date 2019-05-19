@@ -1,10 +1,10 @@
 ---
-title: 검토 집합에 검색 결과 추가
+title: 검색 결과를 검토 집합에 추가
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fc32836026d1a2c449e73a28eafc2f5a631a1705
-ms.sourcegitcommit: 4ce350f8f3eb597587945a8ac9b33e9793440c64
+ms.openlocfilehash: 4de390972672509422e055cd3fd6a9f65d54a7ba
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33527250"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155240"
 ---
-# <a name="add-search-results-to-a-review-set"></a>검토 집합에 검색 결과 추가
+# <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
 검색 결과가 만족 스 러 우면 해당 검색 결과를 검토 하 고 분석할 준비가 되 면 대/소문자에서 검토 집합에 해당 결과를 추가할 수 있습니다. 원본 데이터를 검토 집합에 복사 하면 테마 검색, 거의 중복 검색 및 전자 메일 스레드 식별과 같은 고급 분석 도구를 제공 하 여 검토 및 분석 프로세스를 쉽게 수행할 수 있습니다. Office 365에서 수집한 데이터 외에도 해당 데이터를 검토할 수 있도록 부재 외 365 데이터 원본의 데이터를 검토 집합에 추가할 수도 있습니다.
 

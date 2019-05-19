@@ -1,9 +1,9 @@
 ---
-title: Microsoft 준수 관리자를 사용 하 여 작업
+title: Microsoft 준수 관리자 사용 (미리 보기)
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -11,15 +11,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: microsoft 준수 관리자는 microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: ec01bc8cbf1a1b59353d2f0840baa539e1331ef4
-ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
+description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
+ms.openlocfilehash: 6a6cc7cc51b911feddf21cfc107bc5c85bb959ba
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33473192"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157870"
 ---
-# <a name="work-with-microsoft-compliance-manager"></a>Microsoft 준수 관리자를 사용 하 여 작업
+# <a name="work-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
 > [!IMPORTANT]
 > Microsoft 준수 관리자는 데이터 보호 및 규정 준수를 개선 하기 위한 준수 기간 및 권장 사항에 대 한 요약을 제공 하는 대시보드 및 관리 도구입니다. 준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 해당 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것이 조직에 게 있습니다. 준수 관리자에 게 제공 되는 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다.
@@ -30,7 +30,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
   
 1. [https://servicetrust.microsoft.com](https://servicetrust.microsoft.com/)으로 이동합니다.
 
-2. Microsoft 서비스 계정으로 로그인 합니다. Office 365, Microsoft 365 또는 azure Active Directory (azure AD) 사용자 계정입니다.
+2. Microsoft 서비스 계정으로 로그인 합니다. Office 365, Microsoft 365 또는 Azure Active Directory (Azure AD) 사용자 계정입니다.
 
 3. 서비스 신뢰 포털에서 **준수 관리자**를 선택 합니다. 다음은 준수 관리자의 미리 보기 버전입니다. **준수 관리자 (클래식)** 는 준수 관리자의 이전 버전에 대 한 링크입니다.
 
@@ -72,9 +72,9 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 그룹을 사용 하면 평가를 논리적으로 구성 하 고, 동일 하거나 관련 된 고객 관리 컨트롤이 있는 평가 간에 일반 정보 및 워크플로 작업을 공유할 수 있습니다. 조직 내의 연, 표준, 서비스, 팀, 부서 또는 기관 별로 평가를 그룹화 하 여 고객 관리 작업을 최소화할 수 있습니다.
   
-- **ffiec는 평가 2019**
-  - Office 365 + ffiec가
-  - Intune + ffiec가
+- **FFIEC는 평가 2019**
+  - Office 365 + FFIEC가
+  - Intune + FFIEC가
 - **데이터 보안 및 개인 정보 보호 평가**
   - Office 365 + ISO 27001:2013
   - Office 365 + ISO 27018:2014
@@ -220,7 +220,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 ### <a name="copying-information-from-existing-assessments"></a>기존 평가의 정보 복사
 
-평가를 만들 때 기존 그룹에서 정보를 복사할 수 있는 옵션이 있습니다. 이렇게 하면 복사 된 평가에 입력 한 정보를 새 평가의 동일한 컨트롤에 적용할 수 있습니다. 예를 들어 조직에서 모든 ffiec 관련 평가에 대 한 그룹을 사용 하는 경우 기존 평가에서 다음 정보를 복사할 수 있습니다.
+평가를 만들 때 기존 그룹에서 정보를 복사할 수 있는 옵션이 있습니다. 이렇게 하면 복사 된 평가에 입력 한 정보를 새 평가의 동일한 컨트롤에 적용할 수 있습니다. 예를 들어 조직에서 모든 FFIEC 관련 평가에 대 한 그룹을 사용 하는 경우 기존 평가에서 다음 정보를 복사할 수 있습니다.
 
 - 구현 세부 정보
 - 테스트 계획 & 추가 정보
@@ -268,7 +268,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 준수 관리자 (미리 보기)에서 워크플로 프로세스는 컨트롤 수준에서 작업 수준으로 이동 되었습니다. 작업을 검토할 때 작업 워크플로를 관리 하는 데 사용할 수 있는 필드는 다음과 같습니다.
 
 - **사용자 할당:** 이 필드를 선택 하 여이 동작을 할당할 사용자를 선택 하거나 입력 합니다. 목록을 스크롤하거나 이름을 입력 하 여 찾은 다음 선택 합니다.
-- **문서 관리:** 구현 증거를 Office 문서, 이미지 파일 및 스크린샷, PowerShell 출력을 CSV 또는 TXT로 업로드 하 고 pdf로 업로드할 수 있습니다.
+- **문서 관리:** 구현 증거를 Office 문서, 이미지 파일 및 스크린샷, PowerShell 출력을 CSV 또는 TXT로 업로드 하 고 Pdf로 업로드할 수 있습니다.
 - **구현 상태:** 작업의 현재 구현 상태를 나타내는 데 사용 됩니다. 가능한 값은 범위에서 구현, 구현, 대체 구현, 계획 됨 및 그렇지 않을 수 있습니다.
 - **구현 날짜:** 작업을 수행한 날짜입니다.
 - **테스트 결과:** 구현 유효성 검사의 결과를 표시 하는 데 사용 됩니다. 가능한 값은 평가, 성공, 실패-낮은 위험, 실패-보통 위험, 실패-높은 위험, 장애 되지 않음 및 범위에 속하지 않습니다.
@@ -292,8 +292,8 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     - 평가의 현재 **상태** 및 마지막으로 **수정한** 날짜입니다.
 - 평가에 대 한 **범위 서비스의** 목록입니다.
 - 고객 작업에 대 한 링크 및 Microsoft 구현 세부 정보를 포함 하는 컨트롤에 대 한 세부 정보 (컨트롤 패밀리가 그룹화 됨)
-    - 이 **작업** 을 수행 하면 일부 또는 모든 컨트롤의 요구 사항을 충족 하기 위해 수행할 수 있는 고객 작업이 표시 됩니다. 대부분의 컨트롤에는 여러 개의 동작이 연결 되어 있으며, 컨트롤에 연결 된 모든 동작이 여기에 표시 됩니다. 여기에 나와 있는 작업은 actions 대시보드에 나열 된 것과 같은 UI를 포함 합니다.
-    - **microsoft Actions** 는 선택한 인증 컨트롤에 적용 되는 microsoft 내부 프레임 워크의 컨트롤 목록을 표시 합니다. 각 내부 컨트롤에 대해 아래와 같이 테스트 결과 및 테스트 날짜와 함께 Microsoft의 구현 및 테스트 세부 정보를 보려면 **구현** 됨을 선택 합니다.
+    - 이 **작업** 을 수행 하면 일부 또는 모든 컨트롤의 요구 사항을 충족 하기 위해 수행할 수 있는 고객 작업이 표시 됩니다. 대부분의 컨트롤에는 여러 개의 동작이 연결 되어 있으며, 컨트롤에 연결 된 모든 동작이 여기에 표시 됩니다. 여기에 나와 있는 작업은 Actions 대시보드에 나열 된 것과 같은 UI를 포함 합니다.
+    - **Microsoft Actions** 는 선택한 인증 컨트롤에 적용 되는 microsoft 내부 프레임 워크의 컨트롤 목록을 표시 합니다. 각 내부 컨트롤에 대해 아래와 같이 테스트 결과 및 테스트 날짜와 함께 Microsoft의 구현 및 테스트 세부 정보를 보려면 **구현** 됨을 선택 합니다.
 
 ![준수 관리자 Microsoft 작업 보기](media/compliance-manager-microsoft-action.png)
 
@@ -346,17 +346,17 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 ## <a name="controls-and-actions"></a>컨트롤 및 작업
 
-컨트롤 및 작업은 준수 관리자 (미리 보기)에서 사용 되는 기본 데이터 피벗입니다. 이전 버전의 준수 관리자에 있던 컨트롤 피벗은 동일한 제어 패밀리에서 Microsoft 및 고객 컨트롤을 표시 하도록 향상 되었습니다. 이 통합 보기를 사용 하면 전체 공유 책임 모델을 각 컨트롤 별로 쉽게 볼 수 있습니다. pivot Action은 준수 관리자의 새로운 기능 (미리 보기) 이며 Microsoft에서 권장 하는 모든 작업을 효율적으로 확인할 수 있도록 디자인 되었습니다.
+컨트롤 및 작업은 준수 관리자 (미리 보기)에서 사용 되는 기본 데이터 피벗입니다. 이전 버전의 준수 관리자에 있던 컨트롤 피벗은 동일한 제어 패밀리에서 Microsoft 및 고객 컨트롤을 표시 하도록 향상 되었습니다. 이 통합 보기를 사용 하면 전체 공유 책임 모델을 각 컨트롤 별로 쉽게 볼 수 있습니다. Pivot Action은 준수 관리자의 새로운 기능 (미리 보기) 이며 Microsoft에서 권장 하는 모든 작업을 효율적으로 확인할 수 있도록 디자인 되었습니다.
 
 ### <a name="controls"></a>컨트롤
 
-컨트롤은 controls Info 대시보드에서 볼 수 있습니다. 컨트롤은 표준, 인증, 규정 또는 프레임 워크의 요구 사항을 나타냅니다. 이러한 요구 사항을 여러 표준, 규정 등으로 매핑하고,이를 작업에 연결 하려면 모든 항목이 컨트롤 프레임 워크 처럼 취급 됩니다. 예를 들어 제어 프레임 워크와 같이 HIPAA와 같은 규정은 다음과 같이 섹션 별로 구분 되며 준수 관리자의 HIPAA 컨트롤은 아래와 같은 번호 매기기 체계를 사용 합니다.
+컨트롤은 Controls Info 대시보드에서 볼 수 있습니다. 컨트롤은 표준, 인증, 규정 또는 프레임 워크의 요구 사항을 나타냅니다. 이러한 요구 사항을 여러 표준, 규정 등으로 매핑하고,이를 작업에 연결 하려면 모든 항목이 컨트롤 프레임 워크 처럼 취급 됩니다. 예를 들어 제어 프레임 워크와 같이 HIPAA와 같은 규정은 다음과 같이 섹션 별로 구분 되며 준수 관리자의 HIPAA 컨트롤은 아래와 같은 번호 매기기 체계를 사용 합니다.
 
 ![규정 준수 관리자 Microsoft 컨트롤 세부 정보](media/compliance-manager-control-details.png)
 
 컨트롤에는 다음과 같은 세 가지 유형이 있습니다. 기본적으로 제공 되는 서식 파일은 Microsoft에서 두 가지 기능을 제공 하며, 세 번째는 사용자 지정 서식 파일의 고객이 만들고 관리 합니다. 다음과 같은 세 가지 유형이 있습니다.
 
-1. **microsoft 관리 되는 컨트롤 (MM):** microsoft만 책임 지는 컨트롤입니다. 이러한 사용자는 box 서식 파일에 나타나며 Microsoft의 준수 관리자에 게 추가 됩니다.
+1. **Microsoft 관리 되는 컨트롤 (MM):** microsoft만 책임 지는 컨트롤입니다. 이러한 사용자는 box 서식 파일에 나타나며 Microsoft의 준수 관리자에 게 추가 됩니다.
 2. **CM (고객 관리 컨트롤):** 고객 에게만 책임을 지는 컨트롤입니다. 이러한 사용자는 원본으로 사용 되는 서식 파일에 나타나며 Microsoft 또는 고객이 준수 관리자에 게 추가 됩니다. 고객은 Microsoft에서 제공 하는 고객 관리 컨트롤을 편집 하거나 사용 하지 않도록 설정할 수도 있습니다.
 3. **공유 컨트롤 (SM):** Microsoft와 고객 간에 책임이 공유 되는 컨트롤입니다. 이러한 파일은 in box 템플릿에 나타나며 Microsoft의 준수 관리자에 게 추가 됩니다.
 
@@ -400,7 +400,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 각 사용자 지정 서식 파일은 다섯 개의 탭이 포함 된 별도의 Excel 통합 문서 (.xls 또는 .xlsx 형식)에 있어야 합니다.
 
 1. 서식 파일-평가
-2. controlfamily
+2. ControlFamily
 3. 작업
 4. 소유권
 5. 높이
@@ -413,31 +413,31 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 - **inScopeServices**: 서식 파일의 범위 내에 있는 제품 또는 서비스의 쉼표로 구분 된 목록입니다.
 
-#### <a name="controlfamily-tab"></a>controlfamily 탭
+#### <a name="controlfamily-tab"></a>ControlFamily 탭
 
 이 탭에는 동작 탭에 나열 된 작업에 매핑되는 컨트롤을 정의 하는 열 및 컨트롤 이름, 패밀리, 제목 및 설명과 같은 세부 정보가 포함 되어 있습니다.  아래 나열 된 순서 대로 Excel 내에서 주문 해야 하는이 탭의 열은 다음과 같습니다. 
 
-- **controlname:** 인증/표준/규정의 제어 이름 등
-- **controlfamily:** 인증/표준, 규정 등의 제어 패밀리
+- **Controlname:** 인증/표준/규정의 제어 이름 등
+- **Controlfamily:** 인증/표준, 규정 등의 제어 패밀리
 - **컨트롤 제목:** 인증/표준/규제의 제어 제목 등
-- **controldescription:** 인증/표준/규정 등의 제어 설명
-- **controlversion:** 선택적 컨트롤 버전 정보입니다.  예: NIST 800-53의 경우 현재 값은 Rev 4 이므로 controlversion은 4입니다.  CSA CCM의 경우에는 3.0.1입니다.
-- **isdisabled:** 컨트롤이 사용 하지 않도록 설정 되었는지 여부를 나타내려면 TRUE 또는 FALSE를 사용 합니다.
+- **Controldescription:** 인증/표준/규정 등의 제어 설명
+- **Controlversion:** 선택적 컨트롤 버전 정보입니다.  예: NIST 800-53의 경우 현재 값은 Rev 4 이므로 controlVersion은 4입니다.  CSA CCM의 경우에는 3.0.1입니다.
+- **Isdisabled:** 컨트롤이 사용 하지 않도록 설정 되었는지 여부를 나타내려면 TRUE 또는 FALSE를 사용 합니다.
 - **controlType:** 이는 고객 관리 컨트롤인 경우 CM를 사용 하 여 표시 합니다.
 - **controlComplianceScore:** 컨트롤에 할당 된 모든 작업의 점수를 합한 값입니다.
-- **controlactiontitle:** 작업 탭에 나열 된이 컨트롤에 대 한 모든 actiontitles 더블 세미콜론으로 구분 된 목록입니다. 
+- **Controlactiontitle:** 작업 탭에 나열 된이 컨트롤에 대 한 모든 actionTitles 더블 세미콜론으로 구분 된 목록입니다. 
 
 #### <a name="actions-tab"></a>동작 탭
 
 이 탭에는 개별 작업을 정의 하는 열과 작업 제목, 소유권 및 차원과 같은 세부 내용이 포함 되어 있습니다. 아래 나열 된 순서 대로 Excel 내에서 주문 해야 하는이 탭의 열은 다음과 같습니다. 
 
-- **actiontitle:** 작업의 제목입니다. 각 제목은 고유 해야 하며 파스칼식 대/소문자를 사용 하는 것이 좋습니다.
-- **actionRelatedODVs:** actiontitles 열에 나열 된 자식의 부모에 해당 하는 두 개의 actiontitles 목록입니다. 부모/자식 관계에서 상위 항목은 상위 워터 마크를 나타냅니다. 따라서 부모 작업을 완료 하면 모든 하위 작업도 완료 됩니다. 예를 들어 암호 길이와 같이 요구 사항이 유사 하지만 표준/규정에 따라 최소 15 자가 필요 하며, 하나는 최소 12 또는 10이 필요한 경우 15는이 예제의 상위이 고, 최소 15 자를 구성 하는 경우 다른 평가에서 12 자 또는 10 자의 권장 작업도 충족 합니다.
+- **Actiontitle:** 작업의 제목입니다. 각 제목은 고유 해야 하며 파스칼식 대/소문자를 사용 하는 것이 좋습니다.
+- **actionRelatedODVs:** Actiontitles 열에 나열 된 자식의 부모에 해당 하는 두 개의 actionTitles 목록입니다. 부모/자식 관계에서 상위 항목은 상위 워터 마크를 나타냅니다. 따라서 부모 작업을 완료 하면 모든 하위 작업도 완료 됩니다. 예를 들어 암호 길이와 같이 요구 사항이 유사 하지만 표준/규정에 따라 최소 15 자가 필요 하며, 하나는 최소 12 또는 10이 필요한 경우 15는이 예제의 상위이 고, 최소 15 자를 구성 하는 경우 다른 평가에서 12 자 또는 10 자의 권장 작업도 충족 합니다.
 
     > [!NOTE]
-    > actionRelatedODVs 열은 스키마에 대 한 필수 열입니다. 그러나 준수 관리자 (미리 보기)에서는 기능 (관련 작업)을 사용할 수 없습니다.  이후 릴리스에서 추가 될 예정입니다.
+    > ActionRelatedODVs 열은 스키마에 대 한 필수 열입니다. 그러나 준수 관리자 (미리 보기)에서는 기능 (관련 작업)을 사용할 수 없습니다.  이후 릴리스에서 추가 될 예정입니다.
 
-- **actiondimensionvalues:** 다음 형식을 사용 하 여 차원 탭에서 적용 가능한 차원에 대 한 두 개의 세미콜론으로 구분 된 목록입니다.
+- **Actiondimensionvalues:** 다음 형식을 사용 하 여 차원 탭에서 적용 가능한 차원에 대 한 두 개의 세미콜론으로 구분 된 목록입니다.
 
     ```
     Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
@@ -450,9 +450,9 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     ```
 
     사용자 지정 서식 파일에 사용 되는 모든 차원은 차원 대시보드에 이미 나열 되어 있더라도 가져오기 파일의 차원 탭에 나열 되어야 합니다. 새 차원 키 또는 값을 추가 하는 경우 차원 대시보드를 먼저 추가 해야 합니다.
-- **actionscore:** 각 작업의 점수를 나타내는 숫자 값입니다. 각 작업의 목적과 적용을 기반으로 하는 기본 제공 평가에서 사용 하는 점수 매기기 모델을 따르는 것이 좋습니다.
-- **actionownership 다음과 같이 나타납니다.** 세미콜론으로 구분 된 소유자 목록입니다. 나열 된 모든 소유자는 소유권 탭에 포함 되어야 합니다.
-- **actiondescription:** 각각 고유 해야 하는 각 작업의 텍스트입니다. 이 필드는 아래 설명 된 Markdown 언어를 지원 합니다.
+- **Actionscore:** 각 작업의 점수를 나타내는 숫자 값입니다. 각 작업의 목적과 적용을 기반으로 하는 기본 제공 평가에서 사용 하는 점수 매기기 모델을 따르는 것이 좋습니다.
+- **Actionownership 다음과 같이 나타납니다.** 세미콜론으로 구분 된 소유자 목록입니다. 나열 된 모든 소유자는 소유권 탭에 포함 되어야 합니다.
+- **Actiondescription:** 각각 고유 해야 하는 각 작업의 텍스트입니다. 이 필드는 아래 설명 된 Markdown 언어를 지원 합니다.
 
 #### <a name="ownership-tab"></a>소유권 탭
 
@@ -465,9 +465,9 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 이 탭에는 작업과 연결할 수 있는 차원을 정의 하는 열이 포함 되어 있습니다.  아래 나열 된 순서 대로 Excel 내에서 주문 해야 하는이 탭의 열은 다음과 같습니다.
 
-- **dimensionkey:** 차원에 사용 되는 키 목록입니다. 예를 들면 제품, 인증 등이 있습니다.
-- **dimensionvalue:** 각 차원 키에 대 한 고유 값입니다. 예를 들면 Office 365, Intune, Azure, 사용자 지정 제품 등이 있습니다.
-- **allowmultiselect:** 단일 차원 키에 대해 여러 차원 값을 선택할 수 있음을 나타내려면 TRUE 또는 FALSE를 사용 합니다.
+- **Dimensionkey:** 차원에 사용 되는 키 목록입니다. 예를 들면 제품, 인증 등이 있습니다.
+- **Dimensionvalue:** 각 차원 키에 대 한 고유 값입니다. 예를 들면 Office 365, Intune, Azure, 사용자 지정 제품 등이 있습니다.
+- **Allowmultiselect:** 단일 차원 키에 대해 여러 차원 값을 선택할 수 있음을 나타내려면 TRUE 또는 FALSE를 사용 합니다.
 
 #### <a name="using-markdown-language-in-description-fields"></a>설명 필드에 Markdown 언어 사용
 
@@ -502,7 +502,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 ```
 이 텍스트는 다음과 같이 렌더링 됩니다. [여기](https://www.microsoft.com) 를 클릭 하 여 Microsoft의 홈 페이지로 이동 합니다.
-위의 예제에 나와 있는 것 처럼 준수 관리자는 밑줄을 사용 하 여 url을 렌더링 하지 않습니다.
+위의 예제에 나와 있는 것 처럼 준수 관리자는 밑줄을 사용 하 여 Url을 렌더링 하지 않습니다.
 
 굵은 텍스트는 텍스트의 양쪽에 모두 굵게 표시 되는 두 개의 별표가 됩니다.  예를 들면 다음과 같습니다.
 

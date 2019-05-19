@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 description: 관리자는 검색 사서함 cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다.
-ms.openlocfilehash: abf7e7f39fe719ecc6c23565e284c01aed8822ee
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a097b39aa179ed18c3d5426eeeacff204d48ee9b
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260986"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158490"
 ---
 # <a name="search-for-and-delete-messages---admin-help"></a>메시지 검색 및 삭제 - 관리자 도움말
   
@@ -46,7 +46,7 @@ ms.locfileid: "32260986"
     
 - **검색 사서함** cmdlet을 사용 하 여 최대 1만 개의 사서함을 검색할 수 있습니다. Exchange Online 조직이 고 사서함이 1만 개 보다 많은 경우 준수 검색 기능 (또는 해당 **ComplianceSearch** cmdlet)을 사용 하 여 사서함 수를 무제한으로 검색할 수 있습니다. 그런 다음 **new-compliancesearchaction** cmdlet을 사용 하 여 준수 검색에서 반환 된 메시지를 삭제할 수 있습니다. 자세한 내용은 [Office 365 조 직에서 전자 메일 메시지 검색 및 삭제](https://go.microsoft.com/fwlink/p/?LinkId=786856)를 참조 하세요.
     
-- *searchquery* 매개 변수를 사용 하 여 검색 쿼리를 포함 하는 경우 검색 **사서함** cmdlet은 최대 1만 개의 항목을 검색 결과에 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우 1만 개 보다 많은 항목을 삭제 하려면 **검색 사서함** 명령을 여러 번 실행 해야 할 수 있습니다. 
+- *Searchquery* 매개 변수를 사용 하 여 검색 쿼리를 포함 하는 경우 검색 **사서함** cmdlet은 최대 1만 개의 항목을 검색 결과에 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우 1만 개 보다 많은 항목을 삭제 하려면 **검색 사서함** 명령을 여러 번 실행 해야 할 수 있습니다. 
     
 - 또한 **검색 사서함** cmdlet을 실행 하면 사용자의 보관 사서함도 검색 됩니다. 마찬가지로, _DeleteContent_ 스위치와 함께 **검색 사서함** cmdlet을 사용 하면 기본 보관 사서함의 항목이 삭제 됩니다. 이를 방지 하기 위해 *만드는 경우 donotincludearchive* 스위치를 포함할 수 있습니다. 또한 예기치 않은 데이터 손실이 발생할 수 있으므로 _DeleteContent_ 스위치를 사용 하 여 자동 확장 기능을 사용 하는 Exchange Online 사서함의 메시지를 삭제 하지 않는 것이 좋습니다. 
     
@@ -94,4 +94,4 @@ Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Downlo
 
 ## <a name="using-the--loglevel-full-parameter"></a>-LogLevel Full 매개 변수 사용
 
-위 예제 중 일부는이 `Full` 값을 포함 하는 _LogLevel_ 매개 변수를 사용 하 여 **검색 사서함** cmdlet에서 반환 되는 결과에 대 한 자세한 정보를 기록 합니다. 이 매개 변수를 포함 하면 전자 메일 메시지가 만들어지고 _targetmailbox_ 매개 변수로 지정 된 사서함으로 전송 됩니다. 이 전자 메일 메시지에는 로그 파일 (검색 결과인 .csv 이라는 csv 파일)이 첨부 되며 _targetfolder_ 매개 변수에 지정 된 폴더에 배치 됩니다. 로그 파일에는 **검색 사서함** cmdlet을 실행할 때 검색 결과에 포함 된 각 메시지에 대 한 행이 포함 됩니다. 
+위 예제 중 일부는이 `Full` 값을 포함 하는 _LogLevel_ 매개 변수를 사용 하 여 **검색 사서함** cmdlet에서 반환 되는 결과에 대 한 자세한 정보를 기록 합니다. 이 매개 변수를 포함 하면 전자 메일 메시지가 만들어지고 _targetmailbox_ 매개 변수로 지정 된 사서함으로 전송 됩니다. 이 전자 메일 메시지에는 로그 파일 (검색 결과인 .csv 이라는 CSV 파일)이 첨부 되며 _Targetfolder_ 매개 변수에 지정 된 폴더에 배치 됩니다. 로그 파일에는 **검색 사서함** cmdlet을 실행할 때 검색 결과에 포함 된 각 메시지에 대 한 행이 포함 됩니다. 

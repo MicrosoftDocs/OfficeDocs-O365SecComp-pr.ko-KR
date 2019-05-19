@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: fa2709c995ff9ef83213b86e079a778c61bef3a2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 9ea57d34e14697a0dec9005a7377f320ac53ed81
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242496"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152380"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 기능 FAQ
 
@@ -37,7 +37,7 @@ ms.locfileid: "32242496"
   
  **아웃바운드 메시지의 경우:** 메시지는 위험성이 높은 배달 풀을 통해 라우팅되거나 반송되어 배달되지 않습니다. 후자의 경우 보낸 사람은 메시지를 배달할 수 없음을 알리는 DSN(배달 상태 알림) 메시지를 받게 됩니다. 
   
- **q. 제로 하루 스팸 변종, 서비스에서 처리 하는 방법**
+ **Q. 제로 하루 스팸 변종, 서비스에서 처리 하는 방법**
   
 대답. 0 일의 스팸 변형은 첫 번째 세대 이며, 이전에는 캡처되지 않거나 분석 되지 않은 스팸의 변종 이며, 스팸 콘텐츠 필터에는 아직 정보를 검색할 수 있는 정보가 없습니다. 스팸 분석가에 의해 하루 (제로) 스팸 샘플이 캡처 및 분석 된 후 스팸 분류 기준을 충족 하는 경우 스팸 콘텐츠 필터가 업데이트 되어 더 이상 "0 일"로 간주 되지 않습니다. ( **참고:** 서비스를 개선 하는 데 도움이 되도록 0 일 동안의 스팸 변종 인 메시지를 받은 경우 microsoft에 [스팸, 스팸 아님 및 피싱 사기 메시지에 설명 된 방법 중 하나를 통해 microsoft에 메시지를 제출 하세요. 분석](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md))
   
@@ -73,9 +73,9 @@ ms.locfileid: "32242496"
   
 대답. 예를 들어 Microsoft 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서는 스팸 볼륨을 고유한 메시지의 수로 표시 합니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
   
-exchange online 고객: [exchange online의 모니터링, 보고 및 메시지 추적](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
+Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 추적](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
   
-exchange online protection 고객: [Reporting and message trace in exchange online protection](eop/reporting-and-message-trace-in-exchange-online-protection.md)
+Exchange Online Protection 고객: [Reporting and message trace In Exchange Online protection](eop/reporting-and-message-trace-in-exchange-online-protection.md)
   
  **질문: 전송된 메시지를 찾을 수 없습니다. 해당 메시지가 스팸으로 검색된 것 같습니다. 이를 확인하는 데 사용할 수 있는 도구가 있습니까?**
   

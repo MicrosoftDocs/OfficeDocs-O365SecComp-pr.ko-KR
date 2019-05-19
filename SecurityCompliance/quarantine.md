@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 6/16/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,13 +13,13 @@ search.appverid:
 ms.assetid: e9eecdde-dcc2-4283-a820-98d1e740e4f
 ms.collection:
 - M365-security-compliance
-description: exchange online 및 exchange online Protection에 대 한 호스팅된 격리에 대해 알아봅니다.
-ms.openlocfilehash: 7a92704c7a3cf978ed028b094cac9f6c9ed4b47b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Exchange Online 및 Exchange Online Protection에 대 한 호스팅된 격리에 대해 알아봅니다.
+ms.openlocfilehash: b27cf5a6ef6e9dc7140763e1970804e501e720e6
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265670"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156820"
 ---
 # <a name="quarantine"></a>격리
 

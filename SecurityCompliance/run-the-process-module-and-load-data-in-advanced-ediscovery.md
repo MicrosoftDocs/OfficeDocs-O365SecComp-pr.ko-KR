@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,13 +12,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: 'office 365 보안 &amp; 및 준수 센터를 사용 하 여 office 365 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 95c73c034ed2ffa1c45f9aacd8463c497a842859
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 'Office 365 보안 &amp; 및 준수 센터를 사용 하 여 Office 365 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법에 대해 알아봅니다.  '
+ms.openlocfilehash: 89a4be9bf56f35d9d9cbd88494bcae5a5a10fe7a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261412"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157020"
 ---
 # <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행 및 데이터 로드
 
@@ -58,7 +58,7 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
   
   - **Seed** 섹션에서 다음을 수행 합니다. 
     
-    **seed 파일로 표시** 를 선택 하 여 컨테이너를 시드 파일로 표시 합니다. 또한 **문제점** 드롭다운을 통해 문제점 당 해당 사용자를 할당 하도록 선택 해야 합니다. **태그** 드롭다운을 사용 하 여 **관련성** 또는 관련성을 선택 **하지 않습니다** . 
+    **Seed 파일로 표시** 를 선택 하 여 컨테이너를 시드 파일로 표시 합니다. 또한 **문제점** 드롭다운을 통해 문제점 당 해당 사용자를 할당 하도록 선택 해야 합니다. **태그** 드롭다운을 사용 하 여 **관련성** 또는 관련성을 선택 **하지 않습니다** . 
     
     > [!NOTE]
     > 파일을 **시드로**설정한 후에는 **미리 태그가 지정**된 것으로 표시할 수 없습니다. 

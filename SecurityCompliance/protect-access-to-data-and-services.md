@@ -4,7 +4,7 @@ ms.author: bcarter
 author: brendacarter
 manager: laurawi
 ms.date: 4/17/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: O365 데이터 및 서비스에 대 한 액세스를 보호 하기 위한 랜딩 페이지
-ms.openlocfilehash: e1b529a641d25f82521c40d0df9d091e0ebb5d90
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 0b693d9b259a671f0e2a3e45747f81e1020d7487
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33403006"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156870"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 
@@ -35,7 +35,7 @@ Office 365 환경을 관리 하는 데 사용 하는 관리 계정에 상승 된
 
 먼저 관리용 관리자 계정만 사용 합니다. 관리자에 게는 관리 작업과 관련 된 일반 사용을 위한 별도의 사용자 계정이 있어야 하며, 해당 작업 기능과 연결 되는 작업을 완료 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다.
 
-multi-factor authentication 및 조건부 액세스를 사용 하 여 관리자 계정을 보호 합니다. 자세한 내용은 [관리자 계정 보호](https://docs.microsoft.com/en-us/microsoft-365/enterprise/identity-access-prerequisites#protecting-administrator-accounts)를 참조 하세요. 
+Multi-factor authentication 및 조건부 액세스를 사용 하 여 관리자 계정을 보호 합니다. 자세한 내용은 [관리자 계정 보호](https://docs.microsoft.com/en-us/microsoft-365/enterprise/identity-access-prerequisites#protecting-administrator-accounts)를 참조 하세요. 
 
 다음으로, Office 365에서 권한이 부여 된 액세스 관리를 구성 합니다. 권한이 부여 된 액세스 관리를 통해 Office 365의 권한 있는 관리 작업을 세부적으로 제어할 수 있습니다. 중요 한 데이터에 대 한 액세스 권한이 나 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 관리 계정을 사용 하는 보안 침해 로부터 조직을 보호 하는 데 도움이 될 수 있습니다.
 
@@ -44,7 +44,7 @@ multi-factor authentication 및 조건부 액세스를 사용 하 여 관리자 
 
 또 다른 주요 권장 사항은 관리 작업을 위해 특별히 구성 된 워크스테이션을 사용 하는 것입니다. 관리 작업에만 사용 되는 전용 장치입니다. [권한 있는 액세스 보호](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/securing-privileged-access)를 참조 하세요.
 
-마지막으로, 테 넌 트에서 두 개 이상의 응급 액세스 계정을 만들어 실수로 관리 액세스가 부족 하다는 영향을 완화할 수 있습니다. [Azure AD에서 긴급 액세스 계정 관리를](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-emergency-access)참조 하세요. 
+마지막으로, 테 넌 트에서 두 개 이상의 응급 액세스 계정을 만들어 실수로 관리 액세스가 부족 하다는 영향을 완화할 수 있습니다. [AZURE AD에서 긴급 액세스 계정 관리를](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-emergency-access)참조 하세요. 
 
 ## <a name="step-3-configure-recommended-identity-and-device-access-policies"></a>3 단계: 권장 되는 id 및 장치 액세스 정책 구성
 MFA (multi-factor authentication) 및 조건부 액세스 정책은 손상 된 계정 및 무단 액세스를 완화 하기 위한 강력한 도구입니다. 함께 테스트 된 정책 집합을 구현 하는 것이 좋습니다. 배포 단계를 비롯 한 자세한 내용은 [id 및 장치 액세스 구성](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations)를 참조 하세요.

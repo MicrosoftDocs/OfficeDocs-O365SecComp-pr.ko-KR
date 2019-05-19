@@ -4,19 +4,19 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/29/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 대량 검색 편집기를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 쿼리 및 콘텐츠 위치를 신속 하 게 변경 합니다.
-ms.openlocfilehash: 3a484ad689b1c638e0e14ed1643edea0f2f56c09
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: d4f79cc323b752d020606e22ff72a47bc03e9ae9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243861"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152220"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 
@@ -60,7 +60,7 @@ ms.locfileid: "32243861"
   
 - **Ctrl C** 를 사용 하 여 기존 쿼리를 텍스트 파일에 복사 합니다. 텍스트 파일에서 쿼리를 편집한 다음 수정한 쿼리를 복사 하 여 **쿼리** 페이지의 셀에 다시 붙여 넣습니다 ( **Ctrl V** ). 
     
-- microsoft Word 또는 microsoft Excel 등의 다른 응용 프로그램에서 쿼리를 복사할 수도 있습니다. 그러나 대량 검색 편집기를 사용 하 여 쿼리에 지원 되지 않는 문자를 실수로 추가할 수 있다는 점을 염두에 두어야 합니다. 지원 되지 않는 문자를 차단 하는 가장 좋은 방법은 쿼리 페이지의 셀에 쿼리를 **** 입력 하는 것입니다. 또는 Word 또는 Excel에서 쿼리를 복사한 다음이를 Microsoft 메모장과 같은 일반 텍스트 편집기의 파일에 붙여 넣을 수도 있습니다. 그런 다음 텍스트 파일을 저장 하 고 **인코딩** 드롭다운 목록에서 **ANSI** 를 선택 합니다. 이렇게 하면 지원 되지 않는 문자나 서식이 모두 제거 됩니다. 그런 다음 텍스트 파일의 쿼리를 복사 하 여 **쿼리** 페이지에 붙여 넣을 수 있습니다. 
+- Microsoft Word 또는 Microsoft Excel 등의 다른 응용 프로그램에서 쿼리를 복사할 수도 있습니다. 그러나 대량 검색 편집기를 사용 하 여 쿼리에 지원 되지 않는 문자를 실수로 추가할 수 있다는 점을 염두에 두어야 합니다. 지원 되지 않는 문자를 차단 하는 가장 좋은 방법은 쿼리 페이지의 셀에 쿼리를 **** 입력 하는 것입니다. 또는 Word 또는 Excel에서 쿼리를 복사한 다음이를 Microsoft 메모장과 같은 일반 텍스트 편집기의 파일에 붙여 넣을 수도 있습니다. 그런 다음 텍스트 파일을 저장 하 고 **인코딩** 드롭다운 목록에서 **ANSI** 를 선택 합니다. 이렇게 하면 지원 되지 않는 문자나 서식이 모두 제거 됩니다. 그런 다음 텍스트 파일의 쿼리를 복사 하 여 **쿼리** 페이지에 붙여 넣을 수 있습니다. 
     
   
 ## <a name="use-the-bulk-search-editor-to-change-content-locations"></a>대량 검색 편집기를 사용 하 여 콘텐츠 위치 변경
@@ -94,6 +94,6 @@ ms.locfileid: "32243861"
     > [!TIP]
     > 조직의 모든 사용자에 대 한 전자 메일 주소 목록을 생성 하려면 콘텐츠 검색 사용의 2 단계에서 PowerShell 명령을 실행 [하 여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step2)합니다. 또는 조직의 [모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a) 에서 스크립트를 사용 하 여 조직의 모든 비즈니스용 onedrive 사이트 목록을 생성 합니다. 예를 https://contoso-my.sharepoint.com) 들어 스크립트를 통해 만든 비즈니스용 OneDrive 사이트의 경우에는 해당 organization's의 사이트 도메인에 대 한 URL을 추가 해야 합니다. 전자 메일 주소 또는 비즈니스용 OneDrive 사이트 목록을 만든 후 대량 검색 편집기의 **위치** 페이지에 복사 하 여 붙여 넣을 수 있습니다. 
   
-- 대량 검색 편집기에서 **저장** 을 클릭 하 여 변경 내용을 저장 한 후에는 검색에 추가한 사서함의 전자 메일 주소에 대 한 유효성이 검사 됩니다. 전자 메일 주소가 없으면 사서함을 찾을 수 없다는 오류 메시지가 표시 됩니다. 사이트의 url은 유효성이 검사 되지 않습니다. 
+- 대량 검색 편집기에서 **저장** 을 클릭 하 여 변경 내용을 저장 한 후에는 검색에 추가한 사서함의 전자 메일 주소에 대 한 유효성이 검사 됩니다. 전자 메일 주소가 없으면 사서함을 찾을 수 없다는 오류 메시지가 표시 됩니다. 사이트의 Url은 유효성이 검사 되지 않습니다. 
   
 

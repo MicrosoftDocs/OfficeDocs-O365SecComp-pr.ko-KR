@@ -3,7 +3,7 @@ title: Office 365에서 법적 조사 관리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,55 +13,55 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: 조직의 법적 조사를 관리 하려면 Office 365의 Security & 준수 센터에서 eDiscovery 사례를 사용 합니다. E5 구독이 있는 경우에는 고급 eDiscovery의 텍스트 분석, 기계 학습 및 예측 코딩 기능을 사용 하 여 사례 데이터를 보다 자세히 분석할 수 있습니다.
-ms.openlocfilehash: 5bfa4719f2bb065a7064e7dc9d02778a4d032da8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6f5b7bc7b1c8d672efe60629b1ccf1315c8b74dd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252096"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155730"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Office 365에서 법적 조사 관리
 
 조직에는 조직의 특정 임원 또는 다른 직원과 관련 된 법적 사례에 대응 해야 하는 여러 가지 이유가 있습니다. 이 작업을 수행 하는 동안에는 해당 일상 업무 작업에 사람들이 사용 하는 전자 메일, 문서, 인스턴트 메시징 대화 및 기타 콘텐츠 위치에서 특정 정보를 빠르게 찾고 보존 하는 작업이 포함 될 수 있습니다. 보안 & 준수 센터의 eDiscovery 사례 도구를 사용 하 여 이러한 작업과 비슷한 여러 가지 작업을 수행할 수 있습니다.
   
-[eDiscovery 사례를 사용 하 여 법적 조사 관리](#manage-legal-investigations-with-ediscovery-cases)
+[EDiscovery 사례를 사용 하 여 법적 조사 관리](#manage-legal-investigations-with-ediscovery-cases)
   
 [Office 365 Advanced eDiscovery를 사용 하 여 사례 데이터 분석](#analyze-case-data-using-office-365-advanced-ediscovery)
   
 **Microsoft에서 eDiscovery 조사를 관리 하는 방법을 알고 싶으십니까?** 이 문서에서는 내부 eDiscovery 워크플로를 관리 하기 위해 동일한 Office 365 검색 및 조사 도구를 사용 하는 방법에 대해 설명 하는 [기술 백서](https://go.microsoft.com/fwlink/?linkid=852161) 를 다운로드할 수 있습니다.
    
-## <a name="manage-legal-investigations-with-ediscovery-cases"></a>eDiscovery 사례를 사용 하 여 법적 조사 관리
+## <a name="manage-legal-investigations-with-ediscovery-cases"></a>EDiscovery 사례를 사용 하 여 법적 조사 관리
 
-ediscovery 사례를 사용 하면 조직에서 ediscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사용자를 제어할 수도 있습니다. 사례를 사용 하 여 구성원을 추가 하 고 수행할 수 있는 작업 유형을 제어 하 고, 법적 사례와 관련 된 콘텐츠 위치를 유지 하 고, 콘텐츠 검색 도구를 사용 하 여 해당 사례에 응답할 수 있는 콘텐츠에 대해 보류 중인 위치를 검색 합니다. 그런 다음 외부 검토자의 추가 조사를 위해 해당 결과를 내보내고 다운로드할 수도 있습니다. Office 365 조직에 E5 구독이 있는 경우 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비할 수도 있습니다.
+eDiscovery 사례를 사용 하면 조직에서 eDiscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사용자를 제어할 수도 있습니다. 사례를 사용 하 여 구성원을 추가 하 고 수행할 수 있는 작업 유형을 제어 하 고, 법적 사례와 관련 된 콘텐츠 위치를 유지 하 고, 콘텐츠 검색 도구를 사용 하 여 해당 사례에 응답할 수 있는 콘텐츠에 대해 보류 중인 위치를 검색 합니다. 그런 다음 외부 검토자의 추가 조사를 위해 해당 결과를 내보내고 다운로드할 수도 있습니다. Office 365 조직에 E5 구독이 있는 경우 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비할 수도 있습니다.
   
-- 조직이 수행 해야 하는 모든 법률 조사에 대해 ediscovery 사례를 만들고 사용 하 여 [ediscovery 워크플로를 관리 합니다](ediscovery-cases.md) . 
+- 조직이 수행 해야 하는 모든 법률 조사에 대해 eDiscovery 사례를 만들고 사용 하 여 [ediscovery 워크플로를 관리 합니다](ediscovery-cases.md) . 
     
-- 조직에서 ediscovery 사례를 만들고 관리할 수 있는 사용자를 제어 하기 위해 [ediscovery 권한 할당](assign-ediscovery-permissions.md) 
+- 조직에서 eDiscovery 사례를 만들고 관리할 수 있는 사용자를 제어 하기 위해 [ediscovery 권한 할당](assign-ediscovery-permissions.md) 
     
-- eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 [준수 경계를 설정](set-up-compliance-boundaries.md) 합니다. 
+- EDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 [준수 경계를 설정](set-up-compliance-boundaries.md) 합니다. 
     
 - 조직의 [콘텐츠 검색](search-for-content.md) 
     
-- advanced [ediscovery에 대 한 사례 콘텐츠 준비](prepare-search-results-for-advanced-ediscovery.md) 고급 ediscovery의 강력한 분석 도구 (예: 광학 인식, 전자 메일 스레딩 및 예측 코딩)를 사용 하 여 분석을 수행할 수 있도록 합니다. 
+- Advanced [ediscovery에 대 한 사례 콘텐츠 준비](prepare-search-results-for-advanced-ediscovery.md) 고급 ediscovery의 강력한 분석 도구 (예: 광학 인식, 전자 메일 스레딩 및 예측 코딩)를 사용 하 여 분석을 수행할 수 있도록 합니다. 
     
 ### <a name="use-scripts-for-advanced-scenarios"></a>고급 시나리오에 스크립트 사용
 
 콘텐츠 검색 시나리오에 대 한 스크립트를 나열 하는 이전 섹션에서와 마찬가지로 eDiscovery 사례를 관리 하는 데 도움이 되는 몇 가지 보안 & 준수 센터 PowerShell 스크립트도 만들었습니다.
   
-- 조직의 ediscovery 사례와 관련 된 모든 보류에 대 한 정보가 포함 된 [eDiscovery 보류 보고서를 만듭니다](create-a-report-on-holds-in-ediscovery-cases.md) . 
+- 조직의 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보가 포함 된 [eDiscovery 보류 보고서를 만듭니다](create-a-report-on-holds-in-ediscovery-cases.md) . 
     
-- eDiscovery 보류에 사용자 목록에 대 한 [사서함 및 OneDrive 위치 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) 
+- EDiscovery 보류에 사용자 목록에 대 한 [사서함 및 OneDrive 위치 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) 
   
 ## <a name="analyze-case-data-using-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery를 사용 하 여 사례 데이터 분석
 
-Office 365 Advanced eDiscovery는 이전 섹션에서 설명한 콘텐츠 검색 및 eDiscovery 기능을 기반으로 합니다. eDiscovery 사례를 만들고 custodian 위치를 보류 한 후 사례에 응답할 수 있는 데이터를 수집 하 고 나면 텍스트 분석, 기계 학습 및 고급의 예측 코딩 기능을 사용 하 여 데이터를 상세히 분석할 수 있습니다. eDiscovery. 이를 통해 조직에서 수천 개의 전자 메일 메시지, 문서 및 기타 종류의 데이터를 빠르게 처리 하 여 특정 사례와 관련성이 가장 높은 항목을 찾을 수 있습니다. 또한 보안 & 준수 센터에서 동일한 대/소문자를 완벽 하 게 관리할 수 있도록 통합 사례 관리 및 고급 eDiscovery가 제공 됩니다.
+Office 365 Advanced eDiscovery는 이전 섹션에서 설명한 콘텐츠 검색 및 eDiscovery 기능을 기반으로 합니다. EDiscovery 사례를 만들고 custodian 위치를 보류 한 후 사례에 응답할 수 있는 데이터를 수집 하 고 나면 텍스트 분석, 기계 학습 및 고급의 예측 코딩 기능을 사용 하 여 데이터를 상세히 분석할 수 있습니다. eDiscovery. 이를 통해 조직에서 수천 개의 전자 메일 메시지, 문서 및 기타 종류의 데이터를 빠르게 처리 하 여 특정 사례와 관련성이 가장 높은 항목을 찾을 수 있습니다. 또한 보안 & 준수 센터에서 동일한 대/소문자를 완벽 하 게 관리할 수 있도록 통합 사례 관리 및 고급 eDiscovery가 제공 됩니다.
   
 > [!NOTE]
 > 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 데이터의 custodian 사용자에 게 Office 365 E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 고급 eDiscovery 독립 실행형 라이선스를 할당할 수 있습니다. 서비스 케이스에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 분석 하는 관리자 및 규정 준수 직원은 E5 라이선스가 필요 하지 않습니다. 
   
 ### <a name="get-started"></a>시작
 
-고급 ediscovery를 시작 하는 가장 빠른 방법은 사례를 만들고 보안 & 준수 센터에서 검색 결과를 준비한 후 advanced ediscovery에서 결과를 로드 한 다음, 빠른 분석을 실행 하 여 사례 데이터를 분석 하 고 결과를 내보내는 것입니다. 외부 리뷰에 해당 합니다.
+고급 eDiscovery를 시작 하는 가장 빠른 방법은 사례를 만들고 보안 & 준수 센터에서 검색 결과를 준비한 후 Advanced eDiscovery에서 결과를 로드 한 다음, 빠른 분석을 실행 하 여 사례 데이터를 분석 하 고 결과를 내보내는 것입니다. 외부 리뷰에 해당 합니다.
   
 - 고급 eDiscovery 워크플로에 대 한 [간략 한 개요 보기](quick-setup-for-advanced-ediscovery.md) 
     

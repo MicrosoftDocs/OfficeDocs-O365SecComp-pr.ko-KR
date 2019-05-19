@@ -4,7 +4,7 @@ ms.author: chrisda
 author: chrisda
 manager: chrisda
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.AdminRoleGroups
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Office 365 Security & 준수 센터에서 제공 되는 사용 권한에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 81b9020260f11700038f7cc266179355dd1a7896
-ms.sourcegitcommit: 09fd88272187f82b6e635af83edabea08c2cc49c
+ms.openlocfilehash: 9305800ed19f6a3748b667ed04fb90dedafb624c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884776"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156980"
 ---
 # <a name="permissions-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터의 사용 권한
 

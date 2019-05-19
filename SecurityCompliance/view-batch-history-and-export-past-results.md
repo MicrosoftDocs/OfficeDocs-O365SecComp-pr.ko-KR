@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: '선택한 배치 내보내기 세션에 대 한 자세한 정보를 확인 하는 방법과 Office 365 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: a55f299669c2a404ee176153aa766210a3141199
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: e4e84dc4115c7ec718112c8c38e20b306427c5c0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243518"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157890"
 ---
 # <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
 
@@ -49,7 +49,7 @@ ms.locfileid: "32243518"
     
     ![EDiscovery 대화 내보내기](media/01f79d2d-6da0-45e6-9c6f-ab12347572cb.gif)
   
-6. **eDiscovery 내보내기 도구** 대화 상자에서 다음을 수행 합니다. 
+6. **EDiscovery 내보내기 도구** 대화 상자에서 다음을 수행 합니다. 
     
 1. **원본에 연결 하는 데 사용할 공유 액세스 서명 붙여넣기**에서 이전에 클립보드에 복사 된 **공유 액세스** 서명 값을 붙여 넣습니다. 
     

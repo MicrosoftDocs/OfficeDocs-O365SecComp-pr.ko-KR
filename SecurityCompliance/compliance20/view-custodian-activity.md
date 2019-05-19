@@ -1,10 +1,10 @@
 ---
-title: custodian 감사 작업 보기
+title: Custodian 감사 작업 보기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,39 +14,43 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: defc89f1d54238e62f947fd197e7a866380ee601
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f4bac6ae7a51b01ff6f9b303bb5c2f4911bdb53d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241044"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153910"
 ---
-# <a name="view-custodian-audit-activity"></a>custodian 감사 작업 보기
+# <a name="view-custodian-audit-activity"></a>Custodian 감사 작업 보기
 
-사용자가 특정 문서를 보거나 사서함에서 항목을 삭제 한 경우를 확인 해야 하나요? 이제 Advanced eDiscovery (Preview)가 보안 & 준수 센터의 기존 감사 로그 검색 도구와 통합 되었습니다. 이러한 임베디드 환경을 사용 하는 경우 Advanced eDiscovery (Preview) Custodian 관리 도구를 사용 하 여 사례 내에서 custodians에 대 한 작업을 쉽게 액세스 하 고 검색할 수 있습니다.
+사용자가 특정 문서를 보거나 사서함에서 항목을 삭제 한 경우를 확인 해야 하나요? 고급 eDiscovery는 이제 보안 & 준수 센터의 기존 감사 로그 검색 도구와 통합 되어 있습니다. 이 포함 된 환경을 사용 하 여 고급 eDiscovery Custodian 관리 도구를 사용 하 여 사례 내에서 custodians의 활동을 쉽게 액세스 하 고 검색할 수 있습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. 사용자에 게 최소 수준의 권한으로 Advanced eDiscovery (미리 보기) 감사 로그를 검색할 수 있는 기능을 제공 하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 사용자를 새 역할 gr의 구성원으로 추가 하면 됩니다. oup 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조 하세요.
+Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. 사용자에 게 고급 eDiscovery 감사 로그에서 최소 권한 수준을 검색할 수 있는 기능을 제공 하기 위해 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 사용자를 새 역할 그룹의 구성원으로 추가할 수 있습니다. 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조 하세요.
 
 > [!IMPORTANT]
 > 보안 & 준수 센터의 사용 권한 페이지에서 사용자에 게 보기 전용 감사 로그 또는 감사 로그 역할을 할당 하면 Office 365 감사 로그를 검색할 수 없게 됩니다. Exchange Online에서 사용 권한을 할당 해야 합니다. 이는 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet이 Exchange Online cmdlet 이기 때문입니다.
 
-## <a name="step-1-create-an-advanced-ediscovery-preview-audit-log-search"></a>1 단계: 고급 eDiscovery (미리 보기) 감사 로그 검색 만들기
+## <a name="step-1-search-the-audit-log-for-activities-performed-by-a-custodian"></a>1 단계: custodian에서 수행 하는 작업에 대 한 감사 로그 검색
 
-   1. **Security & 준수 센터 > Advanced eDiscovery (Preview)** 에서 기존 사례를 선택 합니다.
+1. **EDiscovery _GT_ Advanced ediscovery** 로 이동 하 여 사례를 엽니다.
+  
+2. **Custodians** 탭을 클릭 합니다.
+  
+3. 목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **custodian 활동 보기** 를 클릭 합니다.
+
+    Custodian 작업 검색 페이지가 표시 됩니다. 참고 이전 단계에서 선택한 custodian이 **custodian** 드롭다운 상자에 표시 됩니다. 드롭다운 상자에서 다른 custodians을 선택할 수 있지만 한 번에 한 custodian에 대 한 활동만 검색할 수 있습니다.
+
+    ![Custodian 작업 검색 페이지](../media/AeDCustodianActivities1.png)
    
-   2. **Custodians** 탭으로 이동 하 여 custodian을 선택 합니다.
-   
-   3. custodian을 선택한 후  ![Custodian 활동 보기](../media/ViewCustodianActivity.PNG)  세부 정보 패널
-   
-   4. 다음 검색 조건을 구성 합니다.
+4. 다음 검색 조건을 구성 합니다.
       
-      위한. **활동** -드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 다른 검색 조건을 충족 하는 모든 작업에 대 한 결과가 표시 됩니다.
+   위한. **활동** -드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 custodian에서 수행 하는 모든 작업에 대해 다른 검색 조건과 일치 하는 결과가 표시 됩니다.
 
       ![활동 목록](../media/CustodianActivityAudit.PNG)
       
-      b. **시작 날짜 및 종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜와 시간은 utc (협정 세계시) 형식으로 표시 됩니다. 지정할 수 있는 최대 날짜 범위는 1 년입니다.
+      b. **시작 날짜 및 종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜와 시간은 UTC (협정 세계시) 형식으로 표시 됩니다. 지정할 수 있는 최대 날짜 범위는 1 년입니다.
       
       &. 이 상자를 **Custodians** 클릭 한 다음 특정 custodian을 선택 하 여 검색 결과를 표시 합니다. 이 상자에서 선택한 사용자가 수행한 선택한 작업에 대 한 감사 레코드가 결과 목록에 표시 됩니다.
       
@@ -57,13 +61,13 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 감사 로그 검색의 결과는 Custodian 감사 로그 페이지의 결과 아래에 표시 됩니다. 최대 5000 (최신) 이벤트는 150 이벤트 단위로 표시 됩니다. 더 많은 이벤트를 표시 하려면 결과 창에서 스크롤 막대를 사용 하거나 Shift + End를 눌러 다음 150 이벤트를 표시할 수 있습니다.
 
 결과에는 검색에서 반환 된 각 이벤트에 대 한 다음과 같은 정보가 포함 됩니다.
-- **date**: 이벤트가 발생 한 날짜 및 시간 (UTC 형식)입니다.
+- **Date**: 이벤트가 발생 한 날짜 및 시간 (UTC 형식)입니다.
 
 - **IP 주소**: 활동을 로깅할 때 사용 된 장치의 ip 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시 됩니다.
 
 - **사용자**: 이벤트를 트리거한 작업을 수행한 사용자 또는 서비스 계정입니다.
 
-- **활동**: 사용자가 수행 하는 작업입니다. 이 값은 활동 드롭다운 목록에서 선택한 활동에 해당 합니다. exchange 관리자 감사 로그의 이벤트에 대해이 열의 값은 exchange cmdlet입니다.
+- **활동**: 사용자가 수행 하는 작업입니다. 이 값은 활동 드롭다운 목록에서 선택한 활동에 해당 합니다. Exchange 관리자 감사 로그의 이벤트에 대해이 열의 값은 Exchange cmdlet입니다.
 
 - **Item**: 해당 활동의 결과로 만들어지거나 수정 된 개체입니다. 예를 들어, 보거나 수정한 파일 또는 업데이트 된 사용자 계정입니다. 모든 활동에이 열에 대 한 값이 있는 것은 아닙니다.
 
@@ -95,7 +99,7 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
     - **로드 된 결과 저장:** **Custodian 감사 로그 검색** 페이지의 **결과** 에 표시 되는 항목만 내보내려면이 옵션을 선택 합니다. 다운로드 되는 CSV 파일에는 페이지 (날짜, 사용자, 작업, 항목 및 세부 정보)에 표시 되는 것과 동일한 열 (및 데이터)이 포함 되어 있습니다. CSV 파일에는 감사 로그 항목에서 더 많은 정보가 포함 된 추가 열 ( **더 자세히**)이 포함 되어 있습니다. 감사 로그 검색 페이지에서 로드 되 고 볼 수 있는 것과 동일한 결과를 내보내기 때문에 최대 5000 개의 항목을 내보냅니다.
         
-    - **모든 결과를 다운로드 합니다.** 검색 조건을 충족 하는 Office 365 감사 로그의 모든 항목을 내보내려면이 옵션을 선택 합니다. 많은 검색 결과 집합의 경우 **Custodian 감사 로그** 검색 페이지에 표시할 수 있는 5000 결과 외에도 감사 로그의 모든 항목을 다운로드 하려면이 옵션을 선택 합니다. 이 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드 하 고 감사 로그 항목에서 auditdata 라는 열에 대 한 추가 정보를 포함 합니다. 다른 옵션을 선택 하는 경우이 내보내기 옵션을 선택 하면 다운로드 한 파일 보다 훨씬 커질 수 있으므로 파일을 다운로드 하는 데 시간이 오래 걸릴 수도 있습니다.
+    - **모든 결과를 다운로드 합니다.** 검색 조건을 충족 하는 Office 365 감사 로그의 모든 항목을 내보내려면이 옵션을 선택 합니다. 많은 검색 결과 집합의 경우 **Custodian 감사 로그** 검색 페이지에 표시할 수 있는 5000 결과 외에도 감사 로그의 모든 항목을 다운로드 하려면이 옵션을 선택 합니다. 이 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드 하 고 감사 로그 항목에서 AuditData 라는 열에 대 한 추가 정보를 포함 합니다. 다른 옵션을 선택 하는 경우이 내보내기 옵션을 선택 하면 다운로드 한 파일 보다 훨씬 커질 수 있으므로 파일을 다운로드 하는 데 시간이 오래 걸릴 수도 있습니다.
     
       > [!IMPORTANT]
       > 단일 감사 로그 검색에서 최대 5만 개의 항목을 CSV 파일에 다운로드할 수 있습니다. 5만 항목이 CSV 파일에 다운로드 되는 경우 검색 조건을 충족 하는 이벤트가 5만 개 보다 많은 것으로 간주할 수 있습니다. 이 제한 보다 많은 시간을 내보내려면 날짜 범위를 사용 하 여 감사 로그 항목 수를 줄이십시오. 5만 개 보다 많은 항목을 내보내려면 날짜 범위가 더 작은 검색을 여러 개 실행 해야 할 수 있습니다.
@@ -103,4 +107,4 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
 3. 내보내기 옵션을 선택한 후에는 CSV 파일을 열거나 다운로드 폴더에 저장 하거나 특정 폴더에 저장 하 라는 메시지를 창 아래쪽에 표시 합니다.
 
-감사 로그 검색 결과를 보거나 필터링 하거나 내보내는 방법에 대 한 자세한 내용은 [search the audit log in the Office 365 Security & 준수 센터](../search-the-audit-log-in-security-and-compliance.md)를 참조 하십시오.
+감사 로그 검색 결과를 보거나 필터링 하거나 내보내는 방법에 대 한 자세한 내용은 [Security _AMP_ 준수 센터에서 감사 로그 검색](../search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.

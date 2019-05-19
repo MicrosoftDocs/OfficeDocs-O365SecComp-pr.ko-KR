@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 05/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: 4cb60cd55f526592cb469d80a061375a4f556afe
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 488f834f568e65d35a7186b85cc393f5a66b2900
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257020"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153400"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -42,13 +42,13 @@ Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Windows
 
 사이트 내에 저장 된 리소스에 대해 공동으로 작업할 격리 된 팀 사이트의 구성원에 해당 하는 사용자 계정 집합을 확인 합니다.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 PowerShell을 사용 하려면 upn 목록을 만듭니다. 사이트 구성원이 많은 경우에는 upn 목록을 텍스트 파일에 저장 하 고 모두 단일 PowerShell 명령을 사용 하 여 추가할 수 있습니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 PowerShell을 사용 하려면 Upn 목록을 만듭니다. 사이트 구성원이 많은 경우에는 Upn 목록을 텍스트 파일에 저장 하 고 모두 단일 PowerShell 명령을 사용 하 여 추가할 수 있습니다.
   
 ### <a name="step-3-list-the-viewers-for-the-site"></a>3 단계: 사이트에 대 한 보는 사람 나열
 
 격리 된 팀 사이트의 보는 사람에 해당 하는 사용자 계정 집합 (사이트에 저장 된 리소스를 볼 수는 있지만 수정 하거나 콘텐츠를 직접 공동으로 작업 하지는 않는 경우)을 결정 합니다.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 PowerShell을 사용 하려면 upn 목록을 만듭니다. 사이트 구성원이 많은 경우에는 upn 목록을 텍스트 파일에 저장 하 고 모두 단일 PowerShell 명령을 사용 하 여 추가할 수 있습니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 PowerShell을 사용 하려면 Upn 목록을 만듭니다. 사이트 구성원이 많은 경우에는 Upn 목록을 텍스트 파일에 저장 하 고 모두 단일 PowerShell 명령을 사용 하 여 추가할 수 있습니다.
   
 사이트 보기에는 임원 관리, 법률 자문 위원 또는 부서별 부서 간 이해 관계자가 포함 될 수 있습니다.
   
@@ -99,9 +99,9 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
     
 3. 3 단계의 사용자 목록을 사이트 뷰어 액세스 그룹에 추가 합니다.
     
-Windows server ad를 통해 사용자 계정 및 그룹을 관리 하는 경우에는 일반 Windows server ad 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에 사용자를 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
+Windows Server AD를 통해 사용자 계정 및 그룹을 관리 하는 경우에는 일반 Windows Server AD 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에 사용자를 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
   
-office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 office 관리 센터 또는 PowerShell을 사용할 수 있습니다. 액세스 그룹의 그룹 이름이 중복 된 경우 Office 관리 센터를 사용 해야 합니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Office 관리 센터 또는 PowerShell을 사용할 수 있습니다. 액세스 그룹의 그룹 이름이 중복 된 경우 Office 관리 센터를 사용 해야 합니다.
   
 Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 적절 한 액세스 그룹에 적절 한 사용자 계정 및 그룹을 추가 합니다.
   
@@ -116,9 +116,9 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalN
 ```
 
 > [!TIP]
-> 모든 powershell 명령 및 그룹 및 사용자 계정 이름에 따라 powershell 명령을 생성 하는 Excel 구성 워크시트가 포함 된 텍스트 파일의 경우 [격리 된 SharePoint Online 팀 사이트 배포 키트](https://gallery.technet.microsoft.com/Isolated-SharePoint-Online-0b364907)를 다운로드 합니다. 
+> 모든 PowerShell 명령 및 그룹 및 사용자 계정 이름에 따라 PowerShell 명령을 생성 하는 Excel 구성 워크시트가 포함 된 텍스트 파일의 경우 [격리 된 SharePoint Online 팀 사이트 배포 키트](https://gallery.technet.microsoft.com/Isolated-SharePoint-Online-0b364907)를 다운로드 합니다. 
   
-텍스트 파일의 액세스 그룹에 대 한 사용자 계정의 upn을 저장 한 경우 다음 PowerShell 명령 블록을 사용 하 여 모든 항목을 한 번에 추가할 수 있습니다.
+텍스트 파일의 액세스 그룹에 대 한 사용자 계정의 Upn을 저장 한 경우 다음 PowerShell 명령 블록을 사용 하 여 모든 항목을 한 번에 추가할 수 있습니다.
   
 ```
 $grpName="<display name of the access group>"
@@ -138,7 +138,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
 
 결과는 다음과 같아야 합니다.
   
-- site admins Azure AD 그룹에는 사이트 관리자 사용자 계정 또는 그룹이 포함 되어 있습니다.
+- Site admins Azure AD 그룹에는 사이트 관리자 사용자 계정 또는 그룹이 포함 되어 있습니다.
     
 - 사이트 구성원 Azure AD 그룹에는 사이트 구성원 사용자 계정 또는 그룹이 포함 됩니다.
     
@@ -157,7 +157,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 ## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>2 단계: 격리 된 팀 사이트 만들기 및 구성
 
-이 단계에서는 격리 된 sharepoint online 사이트를 만들고 기본 sharepoint online 권한 수준에 대 한 사용 권한을 구성 하 여 새 Azure AD 기반 액세스 그룹을 사용 합니다.
+이 단계에서는 격리 된 SharePoint Online 사이트를 만들고 기본 SharePoint Online 권한 수준에 대 한 사용 권한을 구성 하 여 새 Azure AD 기반 액세스 그룹을 사용 합니다.
   
 먼저 다음 단계를 사용 하 여 SharePoint Online 팀 사이트를 만듭니다.
   
@@ -173,9 +173,9 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 6. **팀 사이트 설명** 에서 사이트의 용도에 대 한 설명을 입력 합니다 (선택 사항).
     
-7. **개인 정보 설정**에서 **개인 - 구성원만 이 사이트에 액세스할 수 있음**을 선택하고 **다음**을 클릭합니다.
+7. **개인 정보 설정**에서 **비공개 – 구성원만 이 사이트에 액세스할 수 있습니다.** 를 선택하고 **다음**을 클릭합니다.
     
-8. **누구를 추가하시겠습니까?** 창에서 **마침**을 클릭합니다.
+8. **어떤 사람을 추가하시겠습니까?** 창에서 **마침**을 클릭합니다.
     
 다음으로, 새 SharePoint Online 팀 사이트에서 사용 권한을 구성 합니다.
   
@@ -213,11 +213,11 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 이러한 권한 설정의 결과는 다음과 같습니다.
   
-- site name> owner SharePoint 그룹에는 모든 구성원이 모든 권한 수준을 갖는 사이트 관리자 액세스 그룹이 포함 되어 있습니다 **** . ** \<**
+- Site name> owner SharePoint 그룹에는 모든 구성원이 모든 권한 수준을 갖는 사이트 관리자 액세스 그룹이 포함 되어 있습니다 **** . ** \<**
     
-- site name> Members SharePoint 그룹에는 모든 구성원이 **편집** 권한 수준을 갖는 사이트 구성원 액세스 그룹이 포함 되어 있습니다. ** \<**
+- Site name> Members SharePoint 그룹에는 모든 구성원이 **편집** 권한 수준을 갖는 사이트 구성원 액세스 그룹이 포함 되어 있습니다. ** \<**
     
-- site name> 방문자 SharePoint 그룹에는 모든 구성원이 **읽기** 권한 수준을 갖는 사이트 뷰어 액세스 그룹이 포함 되어 있습니다. ** \<**
+- Site name> 방문자 SharePoint 그룹에는 모든 구성원이 **읽기** 권한 수준을 갖는 사이트 뷰어 액세스 그룹이 포함 되어 있습니다. ** \<**
     
 - 구성원이 다른 구성원을 초대 하거나 구성원이 아닌 사람에 게 액세스를 요청 하는 기능은 사용 하지 않도록 설정 됩니다.
     

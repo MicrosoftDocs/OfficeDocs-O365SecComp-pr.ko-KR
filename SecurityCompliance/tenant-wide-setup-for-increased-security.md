@@ -4,7 +4,7 @@ ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
 ms.date: 10/11/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: f9d0eb9cec597c44781539fa9231c5bf2b3cfe16
-ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
+ms.openlocfilehash: d5e84bfe5994d1f17ddc75bcb1141fb4f4beace3
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33979474"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158260"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 

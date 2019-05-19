@@ -4,7 +4,7 @@ ms.author: chrisda
 author: chrisda
 manager: serdars
 ms.date: ''
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,16 +12,16 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 7c7225efce247928e19946e695c19931f198ae32
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 570e306ea1c781344bed120f1dd467d31a4a4fe6
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261386"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157000"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
-S/MIME (Secure/expressioninternet Mail Extensions)는 디지털 서명 및 암호화 된 메시지를 보내기 위한 광범위 하 게 사용할 수 있는 방법 (보다 정확한 프로토콜)입니다. S/MIME을 사용 하면 전자 메일을 암호화 하 고 디지털 서명을 할 수 있습니다. 전자 메일 메시지와 함께 S/MIME을 사용 하는 경우 해당 메시지를 받는 사용자에 게 받은 편지함에 표시 되는 내용이 보낸 사람과 정확히 일치 하는 메시지 인지 확인 하는 데 도움이 됩니다. 또한 메시지를 수신 하는 사용자가 보낸 사람을 가장 하는 사람이 아닌 특정 보낸 사람 으로부터 온 것을 확인할 수 있습니다. 이를 위해 S/MIME는 인증, 메시지 무결성 및 원본 비 부인 (디지털 서명 사용)와 같은 암호화 보안 서비스를 제공 합니다. 또한 전자 메시징에 대 한 개인 정보 보호 및 데이터 보안 (암호화 사용)을 향상 시킬 수 있습니다. 전자 메일 컨텍스트에서 s/mime의 기록 및 아키텍처에 대 한 자세한 내용은 [s/mime 이해](https://go.microsoft.com/fwlink/?LinkID=393948)(영문)를 참조 하십시오.
+S/MIME (Secure/Expressioninternet Mail Extensions)는 디지털 서명 및 암호화 된 메시지를 보내기 위한 광범위 하 게 사용할 수 있는 방법 (보다 정확한 프로토콜)입니다. S/MIME을 사용 하면 전자 메일을 암호화 하 고 디지털 서명을 할 수 있습니다. 전자 메일 메시지와 함께 S/MIME을 사용 하는 경우 해당 메시지를 받는 사용자에 게 받은 편지함에 표시 되는 내용이 보낸 사람과 정확히 일치 하는 메시지 인지 확인 하는 데 도움이 됩니다. 또한 메시지를 수신 하는 사용자가 보낸 사람을 가장 하는 사람이 아닌 특정 보낸 사람 으로부터 온 것을 확인할 수 있습니다. 이를 위해 S/MIME는 인증, 메시지 무결성 및 원본 비 부인 (디지털 서명 사용)와 같은 암호화 보안 서비스를 제공 합니다. 또한 전자 메시징에 대 한 개인 정보 보호 및 데이터 보안 (암호화 사용)을 향상 시킬 수 있습니다. 전자 메일 컨텍스트에서 S/MIME의 기록 및 아키텍처에 대 한 자세한 내용은 [s/Mime 이해](https://go.microsoft.com/fwlink/?LinkID=393948)(영문)를 참조 하십시오.
 
 Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보안을 사용 하도록 설정할 수 있습니다. 여기에 연결 된 항목의 지침을 Exchange Online PowerShell과 함께 사용 하 여 S/MIME을 설정 합니다. 지원 되는 전자 메일 클라이언트에서 S/MIME을 사용 하려면 조직의 사용자에 게 서명 및 암호화를 위해 발급 된 인증서와 온-프레미스 AD DS (Active Directory 도메인 서비스)에 게시 되는 데이터를 포함 해야 합니다. AD DS는 인터넷의 클라우드 서비스 또는 원격 시설이 아닌 관리자가 제어할 수 있는 물리적 위치의 컴퓨터에 있어야 합니다. AD DS에 대한 자세한 내용은 [Active Directory 도메인 서비스](https://go.microsoft.com/fwlink/?LinkID=394064)를 참조하세요.
 

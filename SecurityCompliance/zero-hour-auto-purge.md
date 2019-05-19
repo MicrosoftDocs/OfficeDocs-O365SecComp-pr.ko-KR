@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 04/11/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -17,20 +17,20 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: 507cd6af5320a3b925841786136d518c996e4d29
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 80a6631079a68fd2a7fa3ac6d256e1e36556e642
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32266910"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155960"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
 ## <a name="overview"></a>개요
 
-ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 피싱, 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악성 콘텐츠 무해 함을 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다. 메일은 mail content, url 또는 attachments로 인해 zapped 될 수 있습니다.
+ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 피싱, 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악성 콘텐츠 무해 함을 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다. 메일은 mail content, Url 또는 attachments로 인해 zapped 될 수 있습니다.
   
-ZAP은 exchange online 사서함이 포함 된 모든 Office 365 구독에 포함 된 기본 exchange online Protection에서 사용할 수 있습니다.
+ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독에 포함 된 기본 Exchange Online Protection에서 사용할 수 있습니다.
 
 ZAP은 기본적으로 설정 되어 있지만 다음 조건을 충족 해야 합니다.
   
@@ -93,7 +93,7 @@ Office 365 테 넌 트 또는 사용자 집합에 대해 ZAP을 사용 하지 �
 ### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rule"></a>다른 폴더 (예: 받은 편지함 규칙)로 메시지를 이동 하는 경우
 메시지가 삭제 되었거나 정크 상태인 경우가 아니면이 경우에도 ZAP이 작동 합니다.
 
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
   

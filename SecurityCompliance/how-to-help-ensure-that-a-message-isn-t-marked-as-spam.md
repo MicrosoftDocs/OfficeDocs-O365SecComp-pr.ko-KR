@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,17 +13,17 @@ search.appverid:
 ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
-description: exchange online 또는 EOP (exchange online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지 하려면 업데이트 된 버전의 팁과 절차를 참조 하세요.
-ms.openlocfilehash: bfd0ea72facbf5675e47177c7757ff5fe168ffe7
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지 하려면 업데이트 된 버전의 팁과 절차를 참조 하세요.
+ms.openlocfilehash: fc441242a9c90be8733cebf49bc5d6f5ccae1aaa
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255216"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154250"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>메시지가 스팸으로 표시되지 않도록 하는 방법
 
-exchange online 또는 EOP (exchange online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. [수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지](https://go.microsoft.com/fwlink/p/?LinkID=534224)하려면 업데이트 된 버전의 팁과 절차를 참조 하세요. 
+Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. [수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지](https://go.microsoft.com/fwlink/p/?LinkID=534224)하려면 업데이트 된 버전의 팁과 절차를 참조 하세요. 
   
 ## <a name="see-also"></a>참고 항목
 

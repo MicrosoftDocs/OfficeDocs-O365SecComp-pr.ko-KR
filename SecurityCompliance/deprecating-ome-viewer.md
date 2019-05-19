@@ -3,7 +3,7 @@ title: 방식 Office 365 메시지 암호화 뷰어 앱
 ms.author: krowley
 author: kccross
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 6336cabb-b06e-402f-9e85-8bb9eb4ce68f
 ms.collection:
 - M365-security-compliance
 description: 2018 년 8 월 15 일에는 Android 및 Apple 스토어에서 Office 365 메시지 암호화 (OME) 뷰어 모바일 앱을 제거 합니다. Apple 및 Android 휴대폰에서 이전 버전의 OME을 사용 하 여 암호화 된 전자 메일 메시지 및 첨부 파일을 읽으려면 Office 365 메시지 암호화 뷰어 모바일 앱이 필요 합니다. OME Viewer 앱을 제거 하는 것 외에도 이전 버전의 OME는 다른 방법으로 변경 하지 않습니다.
-ms.openlocfilehash: 82f28249e6b9911faea866f5a3574b635e45156c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3b5c92d4fa700a1ae8d7b104e33100301cf43506
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256976"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153350"
 ---
 # <a name="deprecating-office-365-message-encryption-viewer-app"></a>방식 Office 365 메시지 암호화 뷰어 앱
 
@@ -37,13 +37,13 @@ ms.locfileid: "32256976"
   
 ## <a name="why-this-change-was-made"></a>변경이 수행 된 이유
 
-새 버전의 OME에서는 보호 된 전자 메일 메시지 및 첨부 파일을 읽기 위해 모바일 앱이 더 이상 필요 하지 않습니다. office 365 새 OME 기능을 사용 하는 고객은 Outlook mobile 및 비 Office 365 고객의 보호 된 메시지를 볼 수 있습니다 브라우저에서 보호 된 메시지를 볼 수 있습니다.
+새 버전의 OME에서는 보호 된 전자 메일 메시지 및 첨부 파일을 읽기 위해 모바일 앱이 더 이상 필요 하지 않습니다. Office 365 새 OME 기능을 사용 하는 고객은 Outlook mobile 및 비 Office 365 고객의 보호 된 메시지를 볼 수 있습니다 브라우저에서 보호 된 메시지를 볼 수 있습니다.
   
 사용자가 모바일 앱을 다운로드 하도록 요구 하는 것은 고객이 보호 된 메시지를 볼 수 있는 또 다른 hurdle입니다. 새로운 Office 365 메시지 암호화 기능은 모바일 환경을 향상 시킵니다.
   
 ## <a name="can-i-still-use-the-previous-version-of-office-365-message-encryption"></a>이전 버전의 Office 365 메시지 암호화를 계속 사용할 수 있나요?
 
-이전 버전의 office 365 메시지 암호화는 더 이상 사용 되지 않을 예정 이지만, 새 버전의 office 365 메시지 암호화를 크게 개선 하 여 중요 한 데이터를 더 쉽게 암호화 하 고 권한을 보호할 수 있도록 합니다. 그리고 Office 365 사용자가 Outlook에서 직접 보호 된 메시지를 읽을 수 있는 기능을 포함 하는 모든 장치 (데스크톱, 모바일 및 웹) 
+이전 버전의 Office 365 메시지 암호화는 더 이상 사용 되지 않을 예정 이지만, 새 버전의 Office 365 메시지 암호화를 크게 개선 하 여 중요 한 데이터를 더 쉽게 암호화 하 고 권한을 보호할 수 있도록 합니다. 그리고 Office 365 사용자가 Outlook에서 직접 보호 된 메시지를 읽을 수 있는 기능을 포함 하는 모든 장치 (데스크톱, 모바일 및 웹) 
   
 ## <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>이 변경 사항을 준비 하기 위해 수행 해야 하는 작업
 

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 6838203a500a4fe600d8186a4b848beed0730665
-ms.sourcegitcommit: 865b3dc071150b20bf3967e1263fc54e75898284
+ms.openlocfilehash: ee5f2257e73467c50a0ecc296d8d3b70b7c3d0f8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835068"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155190"
 ---
 # <a name="set-up-attorney-client-privilege-detection-preview-in-advanced-ediscovery"></a>고급 eDiscovery에서 변호사 설정-클라이언트 권한 검색 (미리 보기)
 
@@ -65,7 +65,7 @@ ms.locfileid: "33835068"
 
 ### <a name="step-2-create-a-smart-tag-group-with-attorney-client-privilege-detection-model"></a>2 단계: 변호사 클라이언트 권한 검색 모델을 사용 하 여 스마트 태그 그룹 만들기
 
-검토 프로세스에서 변호사 클라이언트 권한 검색 결과를 사용할 수 있는 주요 방법 중 하나는 스마트 태그 그룹을 사용 하는 것입니다. 스마트 태그 그룹은 ML 모델의 결과를 작성 하 고 태그 옆에 있는 인라인 모델의 결과를 표시 하 여 관련 된 모델의 결과를 쉽게 사용할 수 있도록 하 고, 태그 패널의 다른 태그와 마찬가지로 검토 프로세스의 태그를 사용 합니다.
+검토 프로세스에서 변호사 클라이언트 권한 검색 결과를 사용할 수 있는 주요 방법 중 하나는 스마트 태그 그룹을 사용 하는 것입니다. 스마트 태그 그룹은 ML 모델의 결과를 작성 하 고 태그 옆에 있는 인라인 모델의 결과를 표시 하 여 관련 된 모델의 결과를 쉽게 사용할 수 있도록 하 고, 태그 패널의 다른 태그와 마찬가지로 검토 프로세스의 태그를 사용 합니다. 자세한 내용은 [Advanced eDiscovery에서 ML 지원 검토에 대 한 스마트 태그 설정](smart-tags.md) 를 참조 하세요.
 
 - "태그 관리"에서 "스마트 태그 섹션 추가"를 클릭 합니다.
 

@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: 7e50143acd6efeb3d47ad0fa04d6d9b57a5ca161
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 46dec07830218022dcc9a44a41b93a87fdcc70bf
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265024"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157340"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
 

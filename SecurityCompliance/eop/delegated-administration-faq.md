@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: 이 항목에서는 다른 테넌트(회사)에 대한 EOP(Exchange Online Protection)를 관리하는 능력을 비롯하여 위임 받은 Office 365 관리 작업을 수행하려는 Microsoft 파트너 및 리셀러를 위한 질문과 답변이 제공됩니다.
-ms.openlocfilehash: 41f2e8f0ed48273ff1934ca4f2306f29f92b1ff1
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 15433a9ac0bb8b165dd8ee97767fca4a3e29f01a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256196"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153230"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 
@@ -23,7 +23,7 @@ ms.locfileid: "32256196"
   
  **Q. 저는 재판매인이고 고객의 테넌트를 관리해야 합니다. 이 작업은 어떻게 수행해야 합니까?**
   
-대답. microsoft 파트너 또는 대리점이 고 microsoft advisor에 등록 한 경우 관리 센터에서 테 넌 트를 관리 하는 권한을 요청할 수 있습니다. 이를 위임된 관리하고 하며, 이를 통해 조직의 관리자처럼 Office 365 테넌트(EOP 설정 포함)를 관리할 수 있습니다. 위임된 관리를 수행하는 단계는 다음과 같습니다.
+대답. Microsoft 파트너 또는 대리점이 고 Microsoft advisor에 등록 한 경우 관리 센터에서 테 넌 트를 관리 하는 권한을 요청할 수 있습니다. 이를 위임된 관리하고 하며, 이를 통해 조직의 관리자처럼 Office 365 테넌트(EOP 설정 포함)를 관리할 수 있습니다. 위임된 관리를 수행하는 단계는 다음과 같습니다.
   
 1. [Microsoft Office 365 관리자](https://aka.ms/cloudbenefits)로 등록합니다.
     

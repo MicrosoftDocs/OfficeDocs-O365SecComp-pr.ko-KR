@@ -1,23 +1,23 @@
 ---
-title: '주요 정보 보안 담당자 (ciso) 워크숍, 모듈 1: Microsoft Cybersecurity 브리핑'
+title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 1: Microsoft Cybersecurity 브리핑'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 08a0a3fc93745ec32459746fce737ac9e9e164ef
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 35f3feca7597eb3e80076eccc36e00debd754d01
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243999"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152160"
 ---
-# <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>ciso 워크숍 모듈 1: Microsoft Cybersecurity 브리핑
+# <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>CISO 워크숍 모듈 1: Microsoft Cybersecurity 브리핑
 
 이 모듈에서는 중요 보안 바이러스, Microsoft cybersecurity 참조 아키텍처, cybersecurity 복구, IoT (인터넷 관련 사항) 및 운영 기술에 대 한 개요를 설명 합니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "32243999"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQL2]
 
-## <a name="part-6-reference-architecture-for-identity-and-access-725"></a>6 부: id 및 액세스용 참조 아키텍처 (7:25)
+## <a name="part-6-reference-architecture-for-identity-and-access-725"></a>6 부: Id 및 액세스용 참조 아키텍처 (7:25)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtITd]
 

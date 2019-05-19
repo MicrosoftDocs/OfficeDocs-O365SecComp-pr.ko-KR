@@ -3,8 +3,8 @@ title: 새로운 Office 365 메시지 암호화 기능 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/12/2019
-ms.audience: ITPro
+ms.date: 4/30/2019
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 새로운 Office 365 메시지 암호화 기능이 Azure Information Protection을 기반으로 구축 되 면 조직에서 조직 내부 및 외부 사용자와 보호 된 전자 메일 통신을 사용할 수 있습니다. 새로운 OME 기능은 다른 Office 365 조 직, Outlook.com, Gmail 및 기타 전자 메일 서비스와 함께 작동 합니다.
-ms.openlocfilehash: ea8756d08b1c172c433d6cd8ad1752c4c7ad64e9
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 415e598a28033271b115aff639fb1ddd7a6345af
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260756"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156510"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
-새 Office 365 메시지 암호화 (OME) 기능을 사용 하면 조직에서 모든 장치에 있는 모든 사용자와 보호 된 전자 메일을 공유할 수 있습니다. 사용자는 Outlook.com, Gmail 및 기타 전자 메일 서비스를 사용 하는 office 365 고객 뿐만 아니라 다른 office 365 조직과 보호 된 메시지를 교환할 수 있습니다.
+새 Office 365 메시지 암호화 (OME) 기능을 사용 하면 조직에서 모든 장치에 있는 모든 사용자와 보호 된 전자 메일을 공유할 수 있습니다. 사용자는 Outlook.com, Gmail 및 기타 전자 메일 서비스를 사용 하는 Office 365 고객 뿐만 아니라 다른 Office 365 조직과 보호 된 메시지를 교환할 수 있습니다.
 
 ||
 |:-----|
@@ -46,21 +46,21 @@ Office 365 조직에서 새로운 OME 기능을 사용할 수 있도록 하려�
 
 자세한 내용은 다음을 참조하세요.
 
-- [새 OME 기능을 사용 하는 데 필요한 구독은 무엇입니까?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities) 구독 계획에 azure RMS 기능을 포함 하는 azure Information Protection이 포함 되어 있는지 여부를 확인할 수 있습니다.
-- [Azure information Protection](https://azure.microsoft.com/en-us/services/information-protection/) 적격 구독 구입에 대 한 정보입니다.  
+- [새 OME 기능을 사용 하는 데 필요한 구독은 무엇입니까?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities) 구독 계획에 azure RMS 기능을 포함 하는 Azure Information Protection이 포함 되어 있는지 여부를 확인할 수 있습니다.
+- [Azure Information Protection](https://azure.microsoft.com/en-us/services/information-protection/) 적격 구독 구입에 대 한 정보입니다.  
 
 ### <a name="manually-activating-azure-rights-management"></a>Azure 권한 관리 수동 활성화
 
 Azure RMS를 사용 하지 않도록 설정 했거나 어떤 이유로 자동으로 활성화 되지 않은 경우에서 다음에서 수동으로 활성화할 수 있습니다.
 
-- **office 365 관리 센터**: 지침을 보려면 [office 365 관리 센터에서 Azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-us/azure/information-protection/activate-office365) 참조 하세요.
-- **azure portal**: 지침을 보려면 [azure portal에서 azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure) 참조 하세요.
+- **Office 365 관리 센터**: 지침을 보려면 [office 365 관리 센터에서 Azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-us/azure/information-protection/activate-office365) 참조 하세요.
+- **Azure portal**: 지침을 보려면 [Azure Portal에서 azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure) 참조 하세요.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Azure Information Protection 테 넌 트 키 관리 구성
 
 이 단계는 선택 사항입니다. Microsoft가 Azure Information Protection의 루트 키를 관리 하도록 허용 하는 것은 대부분의 Office 365 테 넌 트에 대 한 기본 설정 및 권장 되는 모범 사례입니다. 이 경우에는 작업을 수행 하지 않아도 됩니다.
 
-규정 준수 요구 사항 예를 들면, 고유한 루트 키를 생성 하 고 관리 하는 데 필요할 수 있는 몇 가지 이유가 있습니다 (사용자가 직접 키를 가져옵니다 (byok). 이 경우 새 OME 기능을 설정 하기 전에 필요한 단계를 완료 하는 것이 좋습니다. 자세한 내용은 [Azure Information Protection 테 넌 트 키 계획 및 구현](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key) 를 참조 하세요.
+규정 준수 요구 사항 예를 들면, 고유한 루트 키를 생성 하 고 관리 하는 데 필요할 수 있는 몇 가지 이유가 있습니다 (사용자가 직접 키를 가져옵니다 (BYOK). 이 경우 새 OME 기능을 설정 하기 전에 필요한 단계를 완료 하는 것이 좋습니다. 자세한 내용은 [Azure Information Protection 테 넌 트 키 계획 및 구현](https://docs.microsoft.com/information-protection/plan-design/plan-implement-tenant-key) 를 참조 하세요.
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 새 OME 구성 확인
 
@@ -68,11 +68,11 @@ Office 365 테 넌 트가 [Exchange Online PowerShell](https://docs.microsoft.co
   
 1. Office 365 테 넌 트에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
 
-2. irmconfiguration cmdlet을 실행 합니다.
+2. IRMConfiguration cmdlet을 실행 합니다.
 
-     OME가 테 넌 트에 구성 되었음을 나타내는 AzureRMSEnabled 매개 변수에 대 한 $True 값이 표시 되어야 합니다. 그렇지 않으면 set-irmconfiguration을 사용 하 여 OME를 사용 하도록 AzureRMSEnabled의 값을 $True 설정 합니다.
+     OME가 테 넌 트에 구성 되었음을 나타내는 AzureRMSLicensingEnabled 매개 변수에 대 한 $True 값이 표시 되어야 합니다. 그렇지 않으면 Set-IRMConfiguration을 사용 하 여 OME를 사용 하도록 AzureRMSLicensingEnabled의 값을 $True 설정 합니다.
 
-3. 다음 구문을 사용 하 여 irmconfiguration cmdlet을 실행 합니다.
+3. 다음 구문을 사용 하 여 IRMConfiguration cmdlet을 실행 합니다.
 
      ```powershell
      Test-IRMConfiguration [-Sender <email address >]
@@ -125,8 +125,8 @@ OME에 대 한 메일 흐름 규칙을 만드는 단계는 [Office 365에서 전
 
 새 OME 기능을 사용 하도록 기존 규칙을 업데이트 하려면 다음을 수행 합니다.
 
-1. Office 365 관리 센터에서 **관리 센터 > Exchange**로 이동 합니다.
-2. Exchange 관리 센터에서 **메일 흐름 > 규칙**으로 이동 합니다.
+1. Office 365 관리 센터에서 **관리 센터 _GT_ Exchange**로 이동 합니다.
+2. Exchange 관리 센터에서 **메일 흐름 _GT_ 규칙**으로 이동 합니다.
 3. 각 규칙에 대해 **다음을 수행 합니다**.
     - **메시지 보안 수정을**선택 합니다.
     - **Office 365 메시지 암호화 및 권한 보호 적용을**선택 합니다.

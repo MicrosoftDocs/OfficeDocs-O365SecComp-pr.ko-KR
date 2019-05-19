@@ -3,10 +3,11 @@ title: Office 365에서 위협 으로부터 보호
 ms.author: tracyp
 author: msfttracyp
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
+ms.date: 4/30/2019
 search.appverid:
 - MOE150
 - MET150
@@ -14,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: 646ec220bf4649472d4ab885824010bc32ea862c
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 1697904dac69e3b634c0f853fbd48c5a5b5257d8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402986"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157300"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
@@ -37,7 +38,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 |보호 유형  |구독 요구 사항  |
 |---------|---------|
 |맬웨어 방지 보호 기능    | [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) EOP        |
-|전자 메일 및 Office 문서의 악성 url 및 파일 로부터 보호    | [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)        |
+|전자 메일 및 Office 문서의 악성 Url 및 파일 로부터 보호    | [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)        |
 |피싱 방지 보호 기능    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)      |
 |고급 피싱 방지 보호    | [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)   |
 |스팸 방지 보호 기능     | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)       |
@@ -46,7 +47,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
 
-[보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다. 
+[보안 _AMP_ 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다. 
 
 |역할 또는 역할 그룹  |자세한 정보  |
 |---------|---------|
@@ -65,22 +66,22 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 2. **기본** 정책을 두 번 클릭 한 다음 **설정을**선택 합니다.
 
 3. 다음 설정을 지정 합니다.
-    
+
     - **맬웨어 검색 응답** 섹션에서 기본 설정인 **아니요**를 그대로 둡니다.
-   
+
     - **일반 첨부 파일 형식 필터** 섹션에서 **설정**를 선택 합니다.
 
 4. **저장**을 클릭합니다.
 
 맬웨어 방지 정책 옵션에 대 한 자세한 내용은 [맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하십시오.
 
-## <a name="part-2---protection-from-malicious-urls-and-files"></a>2 부-악성 url 및 파일의 보호 기능
+## <a name="part-2---protection-from-malicious-urls-and-files"></a>2 부-악성 Url 및 파일의 보호 기능
 
-악성 url 및 파일 로부터의 클릭 시간 보호는 atp ( [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )를 포함 하는 구독에서 사용할 수 있으며 [atp safe Attachments](atp-safe-attachments.md) 및 [atp 안전한 링크](atp-safe-links.md) 정책을 통해 설정 됩니다.
+악성 Url 및 파일 로부터의 클릭 시간 보호는 atp ( [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) )를 포함 하는 구독에서 사용할 수 있으며 [atp Safe Attachments](atp-safe-attachments.md) 및 [atp 안전한 링크](atp-safe-links.md) 정책을 통해 설정 됩니다.
 
 ### <a name="atp-safe-attachments-policies"></a>ATP 안전한 첨부 파일 정책
 
-[atp 안전한 첨부 파일](atp-safe-attachments.md)을 설정 하려면 atp 안전 첨부 파일 정책을 하나 이상 정의 해야 합니다. 
+[Atp 안전한 첨부 파일](atp-safe-attachments.md)을 설정 하려면 Atp 안전 첨부 파일 정책을 하나 이상 정의 해야 합니다. 
 
 1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **ATP 안전한 첨부 파일**을 선택 합니다.
 
@@ -102,7 +103,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 6. (**권장 추가 단계**) 전역 관리자 또는 SharePoint Online 관리자는 Office 365 환경에 대해 **DisallowInfectedFileDownload** 매개 변수를 *true* 로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant?view=sharepoint-ps)** cmdlet을 실행 합니다. 따라서 사용자가 악성 파일로 검색 된 파일을 열거나 이동 하거나 복사 하거나 공유할 수 없습니다.  
 
-자세한 내용은 [office 365 atp 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) 및 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 office 365 atp 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요.
+자세한 내용은 [office 365 Atp 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) 및 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 atp 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요.
 
 ### <a name="atp-safe-links-policies"></a>ATP 안전한 링크 정책
 
@@ -146,7 +147,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 3. **가장** 섹션에서 **편집**을 클릭 하 고 다음 설정을 지정 합니다.
 
-    -  **보호할 사용자 추가** 탭에서 보호를 설정 합니다. 그런 다음 조직의 보드 구성원, CEO, CFO 및 기타 선임 리더와 같은 사용자를 추가 합니다. (개별 전자 메일 주소를 입력 하거나를 클릭 하 여 목록을 표시할 수 있습니다.)
+    - **보호할 사용자 추가** 탭에서 보호를 설정 합니다. 그런 다음 조직의 보드 구성원, CEO, CFO 및 기타 선임 리더와 같은 사용자를 추가 합니다. (개별 전자 메일 주소를 입력 하거나를 클릭 하 여 목록을 표시할 수 있습니다.)
 
     - **보호할 도메인 추가** 탭에서 **자신이 소유한 도메인을 자동으로 포함**을 설정 합니다. 사용자 지정 도메인이 있는 경우 해당 도메인도 추가 합니다.
 
@@ -188,7 +189,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ## <a name="part-5---additional-settings-to-configure"></a>5 부-구성할 추가 설정
 
-맬웨어, 악성 url, 파일, 피싱 및 스팸 으로부터 보호를 구성 하는 것 외에도 0 시간 자동 삭제 및 감사 로깅 설정을 구성 하는 것이 좋습니다.
+맬웨어, 악성 Url, 파일, 피싱 및 스팸 으로부터 보호를 구성 하는 것 외에도 0 시간 자동 삭제 및 감사 로깅 설정을 구성 하는 것이 좋습니다.
 
 ### <a name="zero-hour-auto-purge-for-email"></a>전자 메일에 대 한 제로 시간 자동 삭제
 
@@ -213,5 +214,3 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 |보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기    |[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](use-explorer-in-security-and-compliance.md)    |
 |필요에 따라 위협 보호 정책 주기적으로 검토 및 수정    |[보안 점수](microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Office 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)          |
 |새로운 기능 및 서비스 업데이트 조사     |[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[메시지 센터](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)         |
-
-

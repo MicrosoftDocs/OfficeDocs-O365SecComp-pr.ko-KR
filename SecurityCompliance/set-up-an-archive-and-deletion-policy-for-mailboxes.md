@@ -3,7 +3,7 @@ title: Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -17,12 +17,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 Office 365에서 만듭니다.
-ms.openlocfilehash: d1dafb145564e6db7e0df7505cff09d10a72e3af
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: ca43498d785f1a5525a8159e7e553bd36257a7c2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264604"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156710"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정
 
@@ -48,7 +48,7 @@ ms.locfileid: "32264604"
 
 - 이 항목의 단계를 수행 하려면 Office 365 조 직의 전역 관리자 여야 합니다. 
     
--  Office 365에서 새 사용자 계정을 만들고 사용자에 게 Exchange Online 라이선스를 할당 하면 사용자에 대해 사서함이 자동으로 만들어집니다. 사서함을 만들 때 기본 mrm 정책 이라는 기본 보존 정책이 자동으로 할당 됩니다. 이 문서에서는 새 보존 정책을 만들고이를 사용자 사서함에 할당 하 여 기본 mrm 정책을 대체 합니다. 사서함에는 한 번에 하나의 보존 정책만 할당할 수 있습니다.
+-  Office 365에서 새 사용자 계정을 만들고 사용자에 게 Exchange Online 라이선스를 할당 하면 사용자에 대해 사서함이 자동으로 만들어집니다. 사서함을 만들 때 기본 MRM 정책 이라는 기본 보존 정책이 자동으로 할당 됩니다. 이 문서에서는 새 보존 정책을 만들고이를 사용자 사서함에 할당 하 여 기본 MRM 정책을 대체 합니다. 사서함에는 한 번에 하나의 보존 정책만 할당할 수 있습니다.
     
 - 보존 태그 및 보존 정책에 대 한 자세한 내용은 Exchange Online의 보존 [태그 및 보존 정책을](https://go.microsoft.com/fwlink/p/?LinkId=404424)참조 하십시오.
     
@@ -97,7 +97,7 @@ ms.locfileid: "32264604"
     
 - 알파인 집 삭제 된 항목 5 년 후 복구 허용 (지운 편지함 폴더에 대 한 사용자 지정 태그)
     
-새 보존 태그를 만들려면 exchange Online 조직에서 EAC (exchange 관리 센터)를 사용 합니다.
+새 보존 태그를 만들려면 Exchange Online 조직에서 EAC (Exchange 관리 센터)를 사용 합니다.
   
 1. 보안 & 준수 센터의 왼쪽 위 모서리에 있는 앱 시작 관리자를 클릭 하 고 **관리** 타일을 클릭 합니다. 
     
@@ -208,7 +208,7 @@ ms.locfileid: "32264604"
   
 ## <a name="step-4-assign-the-new-retention-policy-to-user-mailboxes"></a>4 단계: 사용자 사서함에 새 보존 정책 할당
 
-새 사서함을 만들 때 기본 mrm 정책 이라는 보존 정책이 기본적으로 할당 됩니다. 이 단계에서는 3 단계에서 만든 새 보존 정책을 조직의 사용자 사서함에 할당 하 여 사서함에 보존 정책이 하나만 있을 수 있으므로이 보존 정책을 대체 합니다. 이 단계에서는 조직의 모든 사서함에 새 정책을 할당 한다고 가정 합니다.
+새 사서함을 만들 때 기본 MRM 정책 이라는 보존 정책이 기본적으로 할당 됩니다. 이 단계에서는 3 단계에서 만든 새 보존 정책을 조직의 사용자 사서함에 할당 하 여 사서함에 보존 정책이 하나만 있을 수 있으므로이 보존 정책을 대체 합니다. 이 단계에서는 조직의 모든 사서함에 새 정책을 할당 한다고 가정 합니다.
   
 1. EAC에서 **받는 사람** \> **사서함**으로 이동합니다.
     
@@ -234,7 +234,7 @@ ms.locfileid: "32264604"
 
 ## <a name="optional-step-5-run-the-managed-folder-assistant-to-apply-the-new-settings"></a>반드시 5 단계: 관리 되는 폴더 도우미를 실행 하 여 새 설정 적용
 
-4 단계의 사서함에 새 보존 정책을 적용 하 고 나면 Exchange Online에서 새 보존 설정을 사서함에 적용 하는 데 최대 7 일이 걸릴 수 있습니다. 이는 관리 되는 폴더 도우미 라는 프로세스가 사서함을 7 일 마다 한 번씩 처리 하기 때문입니다. 관리 되는 폴더 도우미가 실행 될 때까지 기다리지 않고 Exchange Online PowerShell에서 **시작 관리자 (managedfolderassistant cmdlet)** 를 실행 하 여이 작업이 강제로 수행 되도록 할 수 있습니다. 
+4 단계의 사서함에 새 보존 정책을 적용 하 고 나면 Exchange Online에서 새 보존 설정을 사서함에 적용 하는 데 최대 7 일이 걸릴 수 있습니다. 이는 관리 되는 폴더 도우미 라는 프로세스가 사서함을 7 일 마다 한 번씩 처리 하기 때문입니다. 관리 되는 폴더 도우미가 실행 될 때까지 기다리지 않고 Exchange Online PowerShell에서 **시작 관리자 (ManagedFolderAssistant cmdlet)** 를 실행 하 여이 작업이 강제로 수행 되도록 할 수 있습니다. 
   
  **관리 되는 폴더 도우미를 실행할 때 어떤 일이 발생 합니까?** 사서함의 항목을 조사 하 고 보존이 적용 되는지 여부를 결정 하 여 보존 정책의 설정을 적용 합니다. 그런 다음 해당 보존 태그를 사용 하 여 보존이 적용 되는 항목을 스탬프 처리 하 고 보존 기간이 지난 항목에 대해 지정 된 보존 작업을 수행 합니다. 
   
@@ -267,7 +267,7 @@ ms.locfileid: "32264604"
     ```
 
     > [!NOTE]
-    > 자세한 내용을 보거나 exchange online 조직에 연결 하는 데 문제가 있는 경우 [exchange online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283)을 참조 하세요. 
+    > 자세한 내용을 보거나 Exchange Online 조직에 연결 하는 데 문제가 있는 경우 [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283)을 참조 하세요. 
   
 5. 조직의 모든 사용자 사서함에 대해 관리 되는 폴더 도우미를 시작 하려면 다음 두 명령을 실행 합니다.
     
@@ -283,7 +283,7 @@ ms.locfileid: "32264604"
   
 ## <a name="optional-step-6-make-the-new-retention-policy-the-default-for-your-organization"></a>반드시 6 단계: 새 보존 정책을 조직의 기본값으로 설정
 
-4 단계에서는 기존 사서함에 새 보존 정책을 할당 해야 합니다. 하지만 새 보존 정책이 앞으로 만들어질 새 사서함에 할당 되도록 Exchange Online을 구성할 수 있습니다. 이 작업은 Exchange Online PowerShell을 사용 하 여 조직의 기본 사서함 계획을 업데이트 하는 방식으로 수행 합니다. *사서함 계획* 은 새 사서함에 대 한 속성을 자동으로 구성 하는 서식 파일입니다.  이 선택적 단계에서는 사서함 계획에 할당 된 현재 보존 정책 (기본적으로 기본 mrm 정책)을 3 단계에서 만든 보존 정책으로 바꿀 수 있습니다. 사서함 요금제를 업데이트 하면 새 보존 정책이 새 사서함에 할당 됩니다.
+4 단계에서는 기존 사서함에 새 보존 정책을 할당 해야 합니다. 하지만 새 보존 정책이 앞으로 만들어질 새 사서함에 할당 되도록 Exchange Online을 구성할 수 있습니다. 이 작업은 Exchange Online PowerShell을 사용 하 여 조직의 기본 사서함 계획을 업데이트 하는 방식으로 수행 합니다. *사서함 계획* 은 새 사서함에 대 한 속성을 자동으로 구성 하는 서식 파일입니다.  이 선택적 단계에서는 사서함 계획에 할당 된 현재 보존 정책 (기본적으로 기본 MRM 정책)을 3 단계에서 만든 보존 정책으로 바꿀 수 있습니다. 사서함 요금제를 업데이트 하면 새 보존 정책이 새 사서함에 할당 됩니다.
 
 1. [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283) 하거나 5 단계를 참조 하세요.
 
@@ -319,6 +319,6 @@ ms.locfileid: "32264604"
     |삭제 안 함  <br/> |이 태그는 보존 정책에 따라 항목이 삭제 되는 것을 방지 합니다.  <br/> |기본 제공  <br/> |비공개 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
     |개인 1년 후 보관함으로 이동  <br/> |1 년 후에 항목을 보관 사서함으로 이동 합니다.  <br/> |기본 제공  <br/> |비공개 이 태그는 사용자가 적용할 수 있습니다.  <br/> |
    
-    > <sup>\*</sup>사용자는 outlook 및 웹용 outlook (이전의 outlook web App)에서 지운 편지함 복구 도구를 사용 하 여 삭제 된 항목 보존 기간 내에 삭제 된 항목을 복구할 수 있습니다 (기본적으로 Exchange Online에서 14 일). 관리자는 Windows PowerShell을 사용 하 여 삭제 된 항목 보존 기간을 최대 30 일로 늘릴 수 있습니다. 자세한 내용은 [Windows 용 Outlook에서 지운 편지함 복구](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) 및 [Exchange Online의 사서함에 대 한 삭제 된 항목 보존 기간 변경](https://go.microsoft.com/fwlink/p/?LinkId=286940) 를 참조 하세요.
+    > <sup>\*</sup>사용자는 Outlook 및 웹용 Outlook (이전의 Outlook Web App)에서 지운 편지함 복구 도구를 사용 하 여 삭제 된 항목 보존 기간 내에 삭제 된 항목을 복구할 수 있습니다 (기본적으로 Exchange Online에서 14 일). 관리자는 Windows PowerShell을 사용 하 여 삭제 된 항목 보존 기간을 최대 30 일로 늘릴 수 있습니다. 자세한 내용은 [Windows 용 Outlook에서 지운 편지함 복구](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) 및 [Exchange Online의 사서함에 대 한 삭제 된 항목 보존 기간 변경](https://go.microsoft.com/fwlink/p/?LinkId=286940) 를 참조 하세요.
   
 - **복구 가능한 항목 14 일 후 보관** 보존 태그를 사용 하면 사용자의 기본 사서함에 있는 복구할 수 있는 항목 폴더에 저장 공간을 확보 하는 데 도움이 됩니다. 이 기능은 사용자의 사서함이 유지 되는 경우에 유용 하며,이는 사용자의 사서함을 영구적으로 삭제 하지 않은 것을 의미 합니다. 보관 사서함으로 항목을 이동 하지 않으면 기본 사서함의 복구할 수 있는 항목 폴더에 대 한 저장소 할당량에 도달 하 게 됩니다. 이에 대 한 자세한 내용과이를 방지 하는 방법에 대 한 자세한 내용은 [보류 중인 사서함에 대 한 복구 가능한 항목 할당량 증가](https://go.microsoft.com/fwlink/p/?LinkId=786479)를 참조 하세요.

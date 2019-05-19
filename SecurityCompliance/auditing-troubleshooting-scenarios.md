@@ -3,7 +3,7 @@ title: 일반적인 시나리오 문제를 해결 하기 위해 Office 365 감�
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나 사서함에 대 한 전자 메일 전달을 설정한 사람을 찾는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: bd0483f2b2e209dc0cbd2b03eda928fd8d44d7b0
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: e5c043668d73bdff30dfce962962a015a6748949
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250278"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155680"
 ---
 # <a name="search-the-office-365-audit-log-to-troubleshoot-common-scenarios"></a>일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
 
@@ -52,11 +52,11 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
     
     위한. **활동** -드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 다른 검색 조건을 충족 하는 모든 작업에 대 한 결과가 표시 됩니다. 일부 문제 해결 시나리오에서는이 필드를 비워 두어야 합니다.
     
-    b. **시작 날짜** 및 **종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜와 시간은 utc (협정 세계시) 형식으로 표시 됩니다. 지정할 수 있는 최대 날짜 범위는 90 일입니다.
+    b. **시작 날짜** 및 **종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜와 시간은 UTC (협정 세계시) 형식으로 표시 됩니다. 지정할 수 있는 최대 날짜 범위는 90 일입니다.
 
     &. **사용자** -이 상자를 클릭 하 고 검색 결과를 표시할 사용자를 한 명 이상 선택 합니다. 이 상자에서 선택한 사용자가 수행한 선택한 작업에 대 한 감사 레코드가 결과 목록에 표시 됩니다. 조직의 모든 사용자 및 서비스 계정에 대 한 항목을 반환 하려면이 상자를 비워 둡니다.
     
-    &. **파일, 폴더 또는 사이트** -지정한 키워드를 포함 하는 폴더의 파일에 관련 된 활동을 검색할 파일 또는 폴더 이름의 일부 또는 전체를 입력 합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. url을 사용 하는 경우에는 전체 url 경로를 입력 하거나 url의 일부만 입력 해야 하며 특수 문자나 공백은 포함 하지 않습니다. 조직의 모든 파일 및 폴더에 대 한 항목을 반환 하려면이 상자를 비워 둡니다. 이 문서의 모든 문제 해결 시나리오에서는이 필드를 비워 둡니다.
+    &. **파일, 폴더 또는 사이트** -지정한 키워드를 포함 하는 폴더의 파일에 관련 된 활동을 검색할 파일 또는 폴더 이름의 일부 또는 전체를 입력 합니다. 파일 또는 폴더의 URL을 지정할 수도 있습니다. URL을 사용 하는 경우에는 전체 URL 경로를 입력 하거나 URL의 일부만 입력 해야 하며 특수 문자나 공백은 포함 하지 않습니다. 조직의 모든 파일 및 폴더에 대 한 항목을 반환 하려면이 상자를 비워 둡니다. 이 문서의 모든 문제 해결 시나리오에서는이 필드를 비워 둡니다.
     
 5. 검색 **** 을 클릭 하 여 검색 조건을 사용 하 여 검색을 실행 합니다. 
     
@@ -85,7 +85,7 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
 **파일, 폴더 또는 사이트** -이 필드를 비워 둡니다.
 
-검색을 실행 하 고 나면 각 활동의 ip 주소가 검색 결과의 **ip 주소** 열에 표시 됩니다. 검색 결과의 레코드를 클릭 하 여 플라이 아웃 페이지에서 자세한 정보를 볼 수 있습니다.
+검색을 실행 하 고 나면 각 활동의 IP 주소가 검색 결과의 **ip 주소** 열에 표시 됩니다. 검색 결과의 레코드를 클릭 하 여 플라이 아웃 페이지에서 자세한 정보를 볼 수 있습니다.
 
 ## <a name="determining-who-set-up-email-forwarding-for-a-mailbox"></a>사서함에 대 한 전자 메일 전달을 설정한 사용자 결정
 
@@ -127,7 +127,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 ## <a name="determining-if-a-user-deleted-email-items"></a>사용자가 전자 메일 항목을 삭제 했는지 확인
 
-1 월 2019 부터는 microsoft에서 모든 Office 365 및 Microsoft 조직에 대해 기본적으로 사서함 감사 로깅을 설정 하 고 있습니다. 즉, 사서함 소유자가 수행 하는 특정 작업이 자동으로 기록 되며 사서함 감사 로그에서 해당 사서함을 검색 하면 해당 레코드 감사 레코드도 사용할 수 있게 됩니다. 사서함 감사를 기본적으로 설정 하기 전에 조직의 모든 사용자 사서함에 대해이 기능을 수동으로 사용 하도록 설정 해야 했습니다. 
+1 월 2019 부터는 Microsoft에서 모든 Office 365 및 Microsoft 조직에 대해 기본적으로 사서함 감사 로깅을 설정 하 고 있습니다. 즉, 사서함 소유자가 수행 하는 특정 작업이 자동으로 기록 되며 사서함 감사 로그에서 해당 사서함을 검색 하면 해당 레코드 감사 레코드도 사용할 수 있게 됩니다. 사서함 감사를 기본적으로 설정 하기 전에 조직의 모든 사용자 사서함에 대해이 기능을 수동으로 사용 하도록 설정 해야 했습니다. 
 
 기본적으로 기록 되는 사서함 작업에는 사서함 소유자가 수행한 소프트 삭제 및 하드 삭제 사서함 작업이 포함 됩니다. 즉, 다음 단계를 사용 하 여 삭제 된 전자 메일 항목에 대 한 감사 로그를 검색할 수 있습니다. 기본적으로 사서함 감사에 대 한 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조 하십시오.
 
@@ -189,6 +189,6 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 admin@alpinehouse.onmicrosoft.com에서 보내는 전자 메일을 작동 함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
-&. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 admin@alpinehouse.onmicrosoft.com에서 받은 메시지가 *adminsearch*라는 폴더로 이동 됩니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
+&. *MoveToFolder* 매개 변수는 받은 편지함 규칙에 대 한 동작을 지정 합니다. 이 예에서는 admin@alpinehouse.onmicrosoft.com에서 받은 메시지가 *Adminsearch*라는 폴더로 이동 됩니다. 또한 받은 편지함 규칙의 동작을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
 &. **UserId** 필드는 **ObjectId** 필드에 지정 된 받은 편지함 규칙을 만든 사용자를 나타냅니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다.

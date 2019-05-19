@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: '유사 복제, 전자 메일 스레드 및 테마를 포함 하 여 Office 365 Advanced eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 4689638f5cebe2ef17fcea5a13ff06edc29e5930
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6d853d701613fcbe61c6e98b3bf55ae99eefd901
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260902"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156670"
 ---
 # <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 옵션 설정
 

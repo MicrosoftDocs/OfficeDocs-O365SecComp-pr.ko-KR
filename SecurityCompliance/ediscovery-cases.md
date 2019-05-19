@@ -3,7 +3,7 @@ title: 보안 & 준수 센터의 eDiscovery 사례
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,16 +15,16 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. 고급 eDiscovery에서 추가 분석을 위해 사례 데이터를 준비할 수도 있습니다.
-ms.openlocfilehash: 5f31153e70495dc28ee276c36e9edfc67638956e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f0487a7657b1d6cc4374bfc7308092285aebc979
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257996"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155020"
 ---
 # <a name="ediscovery-cases-in-the-security--compliance-center"></a>보안 & 준수 센터의 eDiscovery 사례
 
-Office 365 및 Microsoft 365의 준수 센터에서 ediscovery 사례를 사용 하 여 조직에서 ediscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사람을 제어할 수 있습니다. 조직에 office 365 E5 구독이 있는 경우 eDiscovery 사례를 사용 하 여 office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 분석할 수도 있습니다.
+Office 365 및 Microsoft 365의 준수 센터에서 eDiscovery 사례를 사용 하 여 조직에서 eDiscovery 사례를 만들고, 액세스 하 고, 관리할 수 있는 사람을 제어할 수 있습니다. 조직에 Office 365 E5 구독이 있는 경우 eDiscovery 사례를 사용 하 여 Office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 분석할 수도 있습니다.
   
 eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 사례 구성원이 수행할 수 있는 작업 유형을 제어하고, 법률 사례와 관련된 콘텐츠 위치를 보류 상태로 지정하고, 여러 콘텐츠 검색을 단일 사례에 연결할 수 있습니다. 사례와 연결 된 콘텐츠 검색의 결과를 내보내거나 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 수도 있습니다. eDiscovery 사례는 조직의 특정 법률 소송에 대한 콘텐츠 검색 및 검색 결과에 액세스할 수 있는 사용자를 제한하는 좋은 방법입니다.
   
@@ -54,15 +54,15 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당
 
-첫 번째 단계는 사용자에 게 적절 한 ediscovery 관련 사용 권한을 할당 하 여 2 단계에서 ediscovery 사례에 추가할 수 있도록 하는 것입니다. eDiscovery 권한을 할당 하려면 Security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다. 다음 목록에서는 보안 & 준수 센터의 eDiscovery 관련 역할 그룹에 대해 설명 합니다. 
+첫 번째 단계는 사용자에 게 적절 한 eDiscovery 관련 사용 권한을 할당 하 여 2 단계에서 eDiscovery 사례에 추가할 수 있도록 하는 것입니다. EDiscovery 권한을 할당 하려면 Security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다. 다음 목록에서는 보안 & 준수 센터의 eDiscovery 관련 역할 그룹에 대해 설명 합니다. 
   
-- **검토자** -이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 가집니다. 이 역할 그룹의 기본 목적은 구성원이 Office 365 Advanced eDiscovery에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. 이 그룹의 구성원은 보안 & 준수 센터에서 해당 구성원 인 **eDiscovery** 페이지의 사례 목록만 보고 열 수 있습니다. 사용자는 보안 및 준수 센터의 사례에 액세스 한 후 **advanced ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 사례를 만들고, 사례에 구성원을 추가 하 고, 보류를 만들거나, 검색 결과를 미리 보거나, 검색 결과를 내보내거나, 고급 eDiscovery를 위한 준비 결과를 만들 수 없습니다. 
+- **검토자** -이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 가집니다. 이 역할 그룹의 기본 목적은 구성원이 Office 365 Advanced eDiscovery에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. 이 그룹의 구성원은 보안 & 준수 센터에서 해당 구성원 인 **eDiscovery** 페이지의 사례 목록만 보고 열 수 있습니다. 사용자는 보안 및 준수 센터의 사례에 액세스 한 후 **Advanced ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 사례를 만들고, 사례에 구성원을 추가 하 고, 보류를 만들거나, 검색 결과를 미리 보거나, 검색 결과를 내보내거나, 고급 eDiscovery를 위한 준비 결과를 만들 수 없습니다. 
     
-- **ediscovery 관리자** -이 역할 그룹의 구성원은 ediscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, 콘텐츠 위치를 보류 상태로 설정 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, 콘텐츠 검색 결과를 내보내고, 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 수 있습니다. 이 역할 그룹에 두 개의 하위 그룹이 있습니다. 이러한 하위 그룹 간의 차이는 범위를 기준으로 합니다.
+- **Ediscovery 관리자** -이 역할 그룹의 구성원은 ediscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, 콘텐츠 위치를 보류 상태로 설정 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, 콘텐츠 검색 결과를 내보내고, 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 수 있습니다. 이 역할 그룹에 두 개의 하위 그룹이 있습니다. 이러한 하위 그룹 간의 차이는 범위를 기준으로 합니다.
     
-  - **ediscovery 관리자** -자신이 만들거나 구성원 인 ediscovery 사례를 보고 관리할 수 있습니다. 다른 ediscovery 관리자가 사례를 만들었지만 두 번째 ediscovery 관리자를 해당 사례 구성원으로 추가 하지 않는 경우 두 번째 ediscovery 관리자가 Security & 준수 센터의 **ediscovery** 페이지에서 사례를 보거나 열 수 없습니다. eDiscovery 관리자는 고급 eDiscovery의 사례에 액세스 하 여 분석 작업을 수행할 수도 있습니다. 
+  - **Ediscovery 관리자** -자신이 만들거나 구성원 인 ediscovery 사례를 보고 관리할 수 있습니다. 다른 eDiscovery 관리자가 사례를 만들었지만 두 번째 eDiscovery 관리자를 해당 사례 구성원으로 추가 하지 않는 경우 두 번째 eDiscovery 관리자가 Security & 준수 센터의 **ediscovery** 페이지에서 사례를 보거나 열 수 없습니다. eDiscovery 관리자는 고급 eDiscovery의 사례에 액세스 하 여 분석 작업을 수행할 수도 있습니다. 
     
-  - **ediscovery 관리자** -ediscovery 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
+  - **Ediscovery 관리자** -ediscovery 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
     
     - **eDiscovery** 페이지에 나열된 모든 사례를 봅니다. 
     
@@ -73,9 +73,9 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
     사용자가 조직에서 eDiscovery 관리자가 되려고 하는 이유에 자세한 내용은 [More information](#more-information)를 참조하세요. 
     
 > [!IMPORTANT]
-> 사용자가 이러한 ediscovery 관련 역할 그룹 중 하나의 구성원이 아니거나 검토자 역할이 할당 된 역할 그룹의 구성원이 아닌 경우 ediscovery 사례의 구성원으로 추가할 수 없습니다. 
+> 사용자가 이러한 eDiscovery 관련 역할 그룹 중 하나의 구성원이 아니거나 검토자 역할이 할당 된 역할 그룹의 구성원이 아닌 경우 eDiscovery 사례의 구성원으로 추가할 수 없습니다. 
 
-ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+EDiscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
  **eDiscovery 권한을 할당하려면**
   
@@ -87,9 +87,9 @@ ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할�
     
     - 검토자 권한을 할당 하려면 **검토자** 역할 그룹을 선택 하 고 **구성원**옆의 **편집**을 클릭 합니다. **구성원 선택을**클릭 하 고 **편집**을 클릭 ![한 다음](media/ITPro-EAC-AddIcon.gif) 아이콘 **추가**를 클릭 하 고 검토자 역할 그룹에 추가할 사용자를 선택한 다음 **추가**를 클릭 합니다.
     
-    - ediscovery 관리자 권한을 할당 하려면 **ediscovery 관리자** 역할 그룹을 선택한 다음 **ediscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **ediscovery 관리자 선택을**클릭 하 고 **편집**을 클릭 ![한 다음](media/ITPro-EAC-AddIcon.gif) add Icon * * add * *를 클릭 하 고 eDiscovery 관리자로 추가할 사용자를 선택한 다음 **추가**를 클릭 합니다.
+    - EDiscovery 관리자 권한을 할당 하려면 **Ediscovery 관리자** 역할 그룹을 선택한 다음 **ediscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **Ediscovery 관리자 선택을**클릭 하 고 **편집**을 클릭 ![한 다음](media/ITPro-EAC-AddIcon.gif) add Icon * * Add * *를 클릭 하 고 eDiscovery 관리자로 추가할 사용자를 선택한 다음 **추가**를 클릭 합니다.
     
-    - ediscovery 관리자 권한을 할당 하려면 **ediscovery 관리자** 역할 그룹을 선택한 다음 **ediscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **ediscovery 관리자 선택을**클릭 하 고 **편집**, 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **** 추가를 차례로 클릭 한 다음 eDiscovery 관리자로 추가할 사용자를 선택 하 고 **추가**를 클릭 합니다.
+    - EDiscovery 관리자 권한을 할당 하려면 **Ediscovery 관리자** 역할 그룹을 선택한 다음 **ediscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **Ediscovery 관리자 선택을**클릭 하 고 **편집**, 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **** 추가를 차례로 클릭 한 다음 eDiscovery 관리자로 추가할 사용자를 선택 하 고 **추가**를 클릭 합니다.
     
 4. 모든 사용자를 추가한 후에는 **완료**를 클릭 하 고 **저장** 을 클릭 하 여 역할 그룹에 대 한 변경 내용을 저장 한 다음 **닫기를**클릭 합니다.
 
@@ -110,7 +110,7 @@ ediscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할�
     새 사례가 **eDiscovery** 페이지의 사례 목록에 표시 됩니다. 케이스의 상태 ( **활성** 또는 **닫힘**), 사례에 대 한 설명 (이전 단계에서 만들어짐), 사례를 마지막으로 변경 하는 시기 등을 포함 하 여 케이스에 대 한 정보를 표시 하려면 커서를 사례 이름 위에 가리킵니다. 누가 변경 했습니다.
     
     > [!TIP]
-    > 새 사례를 만든 후에는 언제 든 지 이름을 바꿀 수 있습니다. **eDiscovery** 페이지에서 사례 이름을 클릭 하면 됩니다. **이 사례** 플라이 아웃 관리 페이지에서 **이름**아래의 상자에 표시 되는 이름을 변경 하 고 변경 내용을 저장 합니다. 
+    > 새 사례를 만든 후에는 언제 든 지 이름을 바꿀 수 있습니다. **EDiscovery** 페이지에서 사례 이름을 클릭 하면 됩니다. **이 사례** 플라이 아웃 관리 페이지에서 **이름**아래의 상자에 표시 되는 이름을 변경 하 고 변경 내용을 저장 합니다. 
   
 ## <a name="step-3-add-members-to-a-case"></a>3 단계: 사례에 구성원 추가
 
@@ -158,7 +158,7 @@ eDiscovery 사례를 사용하여 보류를 만든 후에 사례와 관련된 �
 > [!NOTE]
 > 조직의 모든 eDiscovery 사례에 대해 최대 1만 개의 보존 정책을 사용할 수 있습니다. 
   
-eDiscovery 사례에 대 한 보류를 만들려면
+EDiscovery 사례에 대 한 보류를 만들려면
   
 1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
     
@@ -187,14 +187,14 @@ eDiscovery 사례에 대 한 보류를 만들려면
     > [!NOTE]
     > **사용자, 그룹 또는 팀 선택을** 클릭 하 여 보류 중인 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다. 
   
-   b. **sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 비즈니스용 OneDrive 사이트를 보류로 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. 또한 Office 365 그룹 또는 Microsoft 팀에 대 한 SharePoint 사이트의 URL을 추가할 수 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
+   b. **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 비즈니스용 OneDrive 사이트를 보류로 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. 또한 Office 365 그룹 또는 Microsoft 팀에 대 한 SharePoint 사이트의 URL을 추가할 수 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
     
     Office 365 그룹 및 Microsoft 팀을 보류 하는 방법에 대 한 팁을 보려면 [추가 정보](#more-information) 섹션을 참조 하세요. 
     
     > [!NOTE]
-    > 드문 경우 이지만 사용자의 upn (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다. 
+    > 드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다. 
   
-   &. **exchange 공용 폴더** -exchange Online 조직의 모든 ![공용 폴더](media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 를 보류 상태로 전환 하려면 toggle switch toggle control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
+   &. **Exchange 공용 폴더** -exchange Online 조직의 모든 ![공용 폴더](media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 를 보류 상태로 전환 하려면 toggle switch toggle control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
     
 9. 보류에 콘텐츠 위치를 모두 추가한 후에 **다음**을 클릭 합니다.
     
@@ -268,7 +268,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
     ![위치, 보류 중인 위치](media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
   
-    - **모든 위치** -조직의 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하면 모든 office 365 그룹 및 microsoft 팀의 사서함을 포함 하는 모든 Exchange 사서함, 모든 SharePoint 및 비즈니스용 OneDrive 사이트 (모든 office 365 그룹 및 Microsoft의 사이트 포함)를 검색 하도록 선택할 수 있습니다. 팀) 및 모든 공용 폴더
+    - **모든 위치** -조직의 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하면 모든 Office 365 그룹 및 Microsoft 팀의 사서함을 포함 하는 모든 Exchange 사서함, 모든 SharePoint 및 비즈니스용 OneDrive 사이트 (모든 Office 365 그룹 및 Microsoft의 사이트 포함)를 검색 하도록 선택할 수 있습니다. 팀) 및 모든 공용 폴더
     
     - **보류의 모든 위치** -사례에서 보류 된 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 사례에 여러 보류가 포함 되어 있는 경우이 옵션을 선택 하면 모든 보류의 콘텐츠 위치가 검색 됩니다. 또한 콘텐츠 위치가 쿼리 기반 유지로 설정 된 경우에는이 단계에서 만드는 콘텐츠 검색을 실행할 때 보류 중인 항목만 검색 됩니다. 예를 들어 특정 날짜 이전에 보내거나 만든 항목을 보존 하는 쿼리 기반 사례 보류에 사용자를 추가한 경우 콘텐츠 검색의 검색 조건을 사용 하 여 해당 항목만 검색 됩니다. 이 작업은 사례 보류 쿼리와 콘텐츠 검색 쿼리를 **and** 연산자로 연결 하 여 수행 됩니다. 사례 콘텐츠를 검색 하는 방법에 대 한 자세한 내용은이 문서 끝부분의 [추가 정보](#more-information) 섹션을 참조 하십시오. 
     
@@ -351,7 +351,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
 4. 사례에 대 한 검색 목록에서 검색 결과를 내보내려는 검색을 두 개 이상 선택 합니다.
     
     > [!NOTE]
-    > 여러 검색을 선택 하려면 ctrl 키를 누른 상태로 각 검색을 클릭 합니다. 또는 첫 번째 검색을 클릭 하 고 Shift 키를 누른 채 마지막 검색을 클릭 하 여 인접 검색을 여러 개 선택할 수 있습니다. 
+    > 여러 검색을 선택 하려면 Ctrl 키를 누른 상태로 각 검색을 클릭 합니다. 또는 첫 번째 검색을 클릭 하 고 Shift 키를 누른 채 마지막 검색을 클릭 하 여 인접 검색을 여러 개 선택할 수 있습니다. 
   
 5. 검색을 선택한 후 **대량 작업** 페이지가 표시 됩니다. 
     
@@ -383,7 +383,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
 - 내보낼 모든 검색에 대 한 검색 쿼리의 최대 키워드 수는 500입니다. 이 값은 단일 콘텐츠 검색의 경우와 동일 합니다. 내보내기 작업은 **OR** 연산자를 사용 하 여 모든 검색 쿼리를 결합 하기 때문입니다. 이 제한을 초과 하면 오류가 반환 됩니다. 이 경우에는 검색 결과를 줄이고 내보내려는 검색의 검색 쿼리를 단순화 해야 합니다. 
     
-- 내보낸 검색 결과는 항목을 찾은 콘텐츠 원본에 따라 구성 됩니다. 즉, 내보내기 결과의 콘텐츠 원본에 여러 검색에서 반환 되는 항목이 있을 수 있습니다. 예를 들어 각 사서함에 대해 한 pst 파일에 전자 메일 메시지를 내보내도록 선택한 경우 pst 파일에 여러 검색 결과가 있을 수 있습니다.
+- 내보낸 검색 결과는 항목을 찾은 콘텐츠 원본에 따라 구성 됩니다. 즉, 내보내기 결과의 콘텐츠 원본에 여러 검색에서 반환 되는 항목이 있을 수 있습니다. 예를 들어 각 사서함에 대해 한 PST 파일에 전자 메일 메시지를 내보내도록 선택한 경우 PST 파일에 여러 검색 결과가 있을 수 있습니다.
     
 - 내보낸 검색 중 둘 이상에서 동일한 콘텐츠 위치에 있는 동일한 전자 메일 항목 또는 문서를 반환 하는 경우에는 항목의 복사본을 하나만 내보냅니다.
     
@@ -391,7 +391,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
 - 내보내기를 다시 시작 하면 내보내기 작업을 구성 하는 검색 쿼리에 대 한 모든 변경 내용이 검색 결과에 영향을 주지 않습니다. 내보내기를 다시 시작 하면 내보내기 작업을 만들 때 실행 된 것과 동일한 결합 된 검색 쿼리 작업이 다시 실행 됩니다.
     
-- eDiscovery 사례의 내보내기 페이지에서 내보내기를 다시 **** 시작 하면 Azure 저장소 영역으로 전송 되는 검색 결과가 이전 결과를 덮어쓰게 됩니다. 이전에 전송 된 결과는 다운로드할 수 없습니다. 
+- EDiscovery 사례의 내보내기 페이지에서 내보내기를 다시 **** 시작 하면 Azure 저장소 영역으로 전송 되는 검색 결과가 이전 결과를 덮어쓰게 됩니다. 이전에 전송 된 결과는 다운로드할 수 없습니다. 
     
 - 고급 eDiscovery에서 분석에 대 한 여러 검색의 결과를 준비 하는 것은 사용할 수 없습니다. 고급 eDiscovery에서 분석에 대 한 단일 검색 결과만 준비할 수 있습니다.
 
@@ -414,7 +414,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
     ![고급 eDiscovery에 대 한 결과 준비](media/b6548ff0-a6e9-42b1-9ae4-5c15146f5690.png)
   
-5. **Advanced eDiscovery 준비** 페이지에서 다음 중 하나를 준비 하도록 선택 합니다. 
+5. **Advanced EDiscovery 준비** 페이지에서 다음 중 하나를 준비 하도록 선택 합니다. 
     
     - 형식이 인식 되지 않거나 인식할 수 없는 형식을 제외한 모든 항목은 암호화 되거나 다른 이유로 인덱싱되지 않습니다.
     
@@ -459,7 +459,7 @@ Advanced eDiscovery에서 사례로 이동하려면
   
 ## <a name="optional-step-9-close-a-case"></a>반드시 9 단계: 사례 닫기
 
-eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다. 사례를 닫을 때 수행 되는 작업은 다음과 같습니다.
+EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다. 사례를 닫을 때 수행 되는 작업은 다음과 같습니다.
   
 - 대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다. 이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.
     
@@ -487,7 +487,7 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
     
 5. **이 사례 관리** 페이지를 닫습니다. 
     
-6. **eDiscovery** 페이지에서 새로고침 아이콘 ![](media/O365-MDM-Policy-RefreshIcon.gif) **** 새로 고침을 클릭 하 여 종료 된 사례의 상태를 업데이트 합니다. 닫기 프로세스를 완료 하는 데 최대 60 분이 걸릴 수 있습니다. 
+6. **EDiscovery** 페이지에서 새로고침 아이콘 ![](media/O365-MDM-Policy-RefreshIcon.gif) **** 새로 고침을 클릭 하 여 종료 된 사례의 상태를 업데이트 합니다. 닫기 프로세스를 완료 하는 데 최대 60 분이 걸릴 수 있습니다. 
     
     프로세스가 완료 되 면 **eDiscovery** 페이지에서 사례의 상태가 **닫힘으로** 변경 됩니다. 케이스의 이름을 다시 클릭 하 여 사례를 닫은 사람과 닫은 사람에 대 한 정보가 포함 된 **이 사례** 플라이 아웃 관리 페이지를 표시 합니다. 
      
@@ -511,13 +511,13 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
     
 5. **이 사례 관리** 페이지를 닫습니다. 
     
-6. **eDiscovery** 페이지에서 새로고침 아이콘 ![](media/O365-MDM-Policy-RefreshIcon.gif) **** 새로 고침을 클릭 하 여 다시 연 사례의 상태를 업데이트 합니다. 다시 여는 프로세스를 완료 하는 데 최대 60 분이 걸릴 수 있습니다. 
+6. **EDiscovery** 페이지에서 새로고침 아이콘 ![](media/O365-MDM-Policy-RefreshIcon.gif) **** 새로 고침을 클릭 하 여 다시 연 사례의 상태를 업데이트 합니다. 다시 여는 프로세스를 완료 하는 데 최대 60 분이 걸릴 수 있습니다. 
     
     프로세스가 완료 되 면 **eDiscovery** 페이지에서 사례 상태가 **활성** 으로 변경 됩니다. 
   
 ## <a name="more-information"></a>추가 정보
 
-- **ediscovery 사례와 연관 된 ediscovery 사례 또는 보류에 대 한 제한이 있습니까?** 다음 표에는 eDiscovery 사례 및 사례 보존에 대 한 한계가 나와 있습니다.
+- **Ediscovery 사례와 연관 된 eDiscovery 사례 또는 보류에 대 한 제한이 있습니까?** 다음 표에는 eDiscovery 사례 및 사례 보존에 대 한 한계가 나와 있습니다.
     
   |**제한 설명**|**제한 유형**|
   |:-----|:-----|
@@ -530,9 +530,9 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
     
 - **eDiscovery 관리자를 만드는 이유** 앞에서 설명한 것처럼 eDiscovery 관리자는 조직의 모든 eDiscovery 사례를 보고 액세스할 수 있는 eDiscovery 관리자 역할 그룹의 구성원입니다. 모든 eDiscovery 사례에 액세스하는 이 기능에는 다음과 같은 두 가지 중요한 목적이 있습니다.
     
-  - eDiscovery 사례의 유일한 구성원이 조직을 떠나면 조직 관리 역할 그룹의 구성원이나 eDiscovery 관리자 역할 그룹의 다른 구성원을 비롯한 어느 누구도 해당 eDiscovery 사례의 구성원이 아니므로 사례에 액세스할 수 없습니다. 이 상황에서는 해당 사례의 데이터에 액세스할 수 없습니다. 그러나 ediscovery 관리자가 조직의 모든 eDiscovery 사례에 액세스할 수 있으므로 해당 사용자는 보안 & 준수 센터에서 사례를 보고 사례 또는 다른 eDiscovery 관리자를 사례의 구성원으로 추가할 수 있습니다.
+  - eDiscovery 사례의 유일한 구성원이 조직을 떠나면 조직 관리 역할 그룹의 구성원이나 eDiscovery 관리자 역할 그룹의 다른 구성원을 비롯한 어느 누구도 해당 eDiscovery 사례의 구성원이 아니므로 사례에 액세스할 수 없습니다. 이 상황에서는 해당 사례의 데이터에 액세스할 수 없습니다. 그러나 eDiscovery 관리자가 조직의 모든 eDiscovery 사례에 액세스할 수 있으므로 해당 사용자는 보안 & 준수 센터에서 사례를 보고 사례 또는 다른 eDiscovery 관리자를 사례의 구성원으로 추가할 수 있습니다.
     
-  - ediscovery 관리자는 모든 ediscovery 사례를 보고 액세스할 수 있으므로 모든 사례 및 관련 콘텐츠 검색을 감사 하 고 감독 할 수 있습니다. 이를 통해 콘텐츠 검색 또는 eDiscovery 사례를 잘못 사용하는 경우를 방지할 수 있습니다. 또한 eDiscovery 관리자는 콘텐츠 검색 결과에서 잠재적으로 중요한 정보에 액세스할 수 있으므로 eDiscovery 관리자인 사용자의 수를 제한해야 합니다.
+  - EDiscovery 관리자는 모든 eDiscovery 사례를 보고 액세스할 수 있으므로 모든 사례 및 관련 콘텐츠 검색을 감사 하 고 감독 할 수 있습니다. 이를 통해 콘텐츠 검색 또는 eDiscovery 사례를 잘못 사용하는 경우를 방지할 수 있습니다. 또한 eDiscovery 관리자는 콘텐츠 검색 결과에서 잠재적으로 중요한 정보에 액세스할 수 있으므로 eDiscovery 관리자인 사용자의 수를 제한해야 합니다.
     
     마지막으로 앞서 설명한 것 처럼 보안 & 준수 센터의 eDiscovery 관리자는 고급 eDiscovery의 관리자에 게 자동으로 추가 됩니다. 즉, eDiscovery 관리자 인 사람은 사용자 설정, 사례 만들기 및 사례에 데이터 추가와 같은 고급 eDiscovery에서 관리 작업을 수행할 수 있습니다.
     
@@ -570,20 +570,20 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
     ```
 
     > [!NOTE]
-    > **remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
   
   - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트를 보류에 명시적으로 추가 하지 않으면 해당 사이트가 보류 되지 않습니다. 따라서 법적 이유로 Office 365 그룹 또는 Microsoft 팀을 유지 해야 하는 경우 그룹 및 팀 구성원에 대 한 비즈니스용 OneDrive 사이트를 동일한 보류에 추가 하는 것이 좋습니다.
     
-  - Office 365 그룹 또는 microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
+  - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
     
       ```
       Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
       ```
 
     > [!NOTE]
-    > **add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
   
-  - microsoft 팀 채널의 일부인 대화는 microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 파일을 채널에 유지 하려면 Microsoft 팀 사서함 및 SharePoint 사이트를 보류 상태로 설정 해야 합니다.
+  - Microsoft 팀 채널의 일부인 대화는 Microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 파일을 채널에 유지 하려면 Microsoft 팀 사서함 및 SharePoint 사이트를 보류 상태로 설정 해야 합니다.
     
     또는 Microsoft 팀의 채팅 목록에 포함 된 대화는 채팅에 참가 하는 사용자의 사서함에 저장 됩니다. 사용자가 채팅 대화에서 공유 하는 파일은 해당 파일을 공유 하는 사용자의 비즈니스용 OneDrive 사이트에 저장 됩니다. 따라서 채팅 목록에 있는 대화 및 파일을 유지 하려면 개별 사용자 사서함과 비즈니스용 OneDrive 사이트를 보존 해야 합니다. 이 때문에 팀 사서함 (및 사이트)을 유지 하는 것 외에도 Microsoft 팀 구성원의 사서함을 유지 하는 것이 좋습니다.
     
@@ -593,6 +593,6 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
   - 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠가 .mht 형식의 파일에 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 팀 위 키 데이터 문서 라이브러리에 저장 됩니다. 팀의 SharePoint 사이트를 보류 하 여 해당 콘텐츠를 Wiki에 배치할 수 있습니다.
     
     > [!NOTE]
-    > Microsoft 팀 또는 팀 채널에 대 한 Wiki 콘텐츠를 보존 하는 기능 (팀의 SharePoint 사이트를 보류할 때)은 6 월 22 일에 릴리스 되었습니다. 팀 사이트를 보류 중인 경우에는 해당 날짜에 대해 Wiki 콘텐츠가 유지 됩니다. 그러나 팀 사이트가 유지 되 고 wiki 콘텐츠가 6 월 22 일 이전에 삭제 된 경우에는 wiki 콘텐츠가 보존 되지 않습니다. 
+    > Microsoft 팀 또는 팀 채널에 대 한 Wiki 콘텐츠를 보존 하는 기능 (팀의 SharePoint 사이트를 보류할 때)은 6 월 22 2017 일에 릴리스 되었습니다. 팀 사이트를 보류 중인 경우에는 해당 날짜에 대해 Wiki 콘텐츠가 유지 됩니다. 그러나 팀 사이트가 유지 되 고 wiki 콘텐츠가 6 월 22 2017 일 이전에 삭제 된 경우에는 wiki 콘텐츠가 보존 되지 않습니다. 
   
-- **비즈니스용 OneDrive 사이트의 URL을 찾는 방법은 무엇 인가요?** eDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 onedrive 사이트에 대 한 url 목록을 수집 하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 이 문서에 나와 있는 스크립트는 모든 OneDrive 사이트의 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 조직의 내 사이트 도메인에 대 한 URL을 검색 하려는 각 OneDrive 사이트로 추가 해야 합니다. 모든 OneDrive를 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
+- **비즈니스용 OneDrive 사이트의 URL을 찾는 방법은 무엇 인가요?** EDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 OneDrive 사이트에 대 한 Url 목록을 수집 하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 이 문서에 나와 있는 스크립트는 모든 OneDrive 사이트의 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 조직의 내 사이트 도메인에 대 한 URL을 검색 하려는 각 OneDrive 사이트로 추가 해야 합니다. 모든 OneDrive를 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.

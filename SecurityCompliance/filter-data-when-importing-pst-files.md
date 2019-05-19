@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 10/24/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,20 +14,20 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 26af16df-34cd-4f4a-b893-bc1d2e74039e
 description: 'Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용 하 여 실제로 대상 사서함으로 가져오는 항목을 필터링 합니다. 지능형 가져오기를 사용 하면 가져올 데이터와 뒤에 남길 작업을 사전에 결정할 수 있습니다. 또한 지능형 가져오기에서는 Office 365로 가져오는 데이터에 대 한 정보를 제공 합니다. '
-ms.openlocfilehash: 41910fe02b2ffaf95252ca41b0120f76c7619dc0
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2e012159f7f278dc10db14b07531686b5d130fd9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255732"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154600"
 ---
 # <a name="filter-data-when-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져올 때 데이터 필터링
 
 Office 365 가져오기 서비스의 새로운 지능형 가져오기 기능을 사용 하면 실제로 대상 사서함으로 가져온 PST 파일의 항목을 필터링 할 수 있습니다. 작동 방식은 다음과 같습니다.
   
-- pst 가져오기 작업을 만들고 전송 하 고 나면 pst 파일이 Microsoft 클라우드의 Azure storage 영역에 업로드 됩니다.
+- PST 가져오기 작업을 만들고 전송 하 고 나면 PST 파일이 Microsoft 클라우드의 Azure storage 영역에 업로드 됩니다.
     
-- Office 365에서는 사서함 항목의 보존 기간 및 pst 파일에 포함 된 다양 한 메시지 유형을 식별 하 여 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 합니다.
+- Office 365에서는 사서함 항목의 보존 기간 및 PST 파일에 포함 된 다양 한 메시지 유형을 식별 하 여 PST 파일의 데이터를 안전 하 고 안전한 방식으로 분석 합니다.
     
 - 분석이 완료 되 고 데이터를 가져올 준비가 되 면 PST 파일의 모든 데이터를 그대로 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 지울 수 있는 옵션이 있습니다. 예를 들어 다음을 선택할 수 있습니다.
     
@@ -81,7 +81,7 @@ PST 가져오기 작업을 만든 후에는 다음 단계에 따라 데이터를
     
     위한. **예, 가져오기를 수행 하기 전에 필터링 하** 여 가져온 데이터를 트리밍하고 **다음**을 클릭 합니다.
     
-    office * **로 데이터 가져오기 365 페이지** 에는 office 365에서 수행한 분석의 자세한 데이터 정보가 표시 됩니다. 
+    Office * **로 데이터 가져오기 365 페이지** 에는 office 365에서 수행한 분석의 자세한 데이터 정보가 표시 됩니다. 
     
     ![Office 365는 PST 파일 분석을 통해 자세한 데이터 정보를 표시 합니다.](media/4881205f-0288-4c32-a440-37e2160295f2.png)
   
@@ -93,7 +93,7 @@ PST 가져오기 작업을 만든 후에는 다음 단계에 따라 데이터를
   
     다음 필터를 구성할 수 있습니다.
     
-      - **age** -지정 된 기간 보다 더 최신인 항목만 가져오게 되도록 기간을 선택 합니다. Office 365에서 **연령** 필터에 대 한 연령별 버킷을 결정 하는 방법에 대 한 자세한 [내용은 More information](#more-information) 섹션을 참조 하십시오. 
+      - **Age** -지정 된 기간 보다 더 최신인 항목만 가져오게 되도록 기간을 선택 합니다. Office 365에서 **연령** 필터에 대 한 연령별 버킷을 결정 하는 방법에 대 한 자세한 [내용은 More information](#more-information) 섹션을 참조 하십시오. 
     
       - **Type** -이 섹션에는 가져오기 작업에 대 한 PST 파일에서 찾은 모든 메시지 유형이 표시 됩니다. 제외 하려는 메시지 유형 옆의 상자를 선택 취소할 수 있습니다. 다른 메시지 유형은 제외할 수 없습니다. 다른 범주에 포함 된 사서함 항목의 목록에 대해서는 [추가 정보](#more-information) 섹션을 참조 하십시오. 
     
@@ -129,18 +129,18 @@ PST 가져오기 작업을 만든 후에는 다음 단계에 따라 데이터를
 
 - Office 365이 보존 기간 필터의 증가를 어떻게 결정 하나요? PST 파일을 분석 하면 Office 365에서 각 항목의 보내거나 받은 시간 스탬프를 조사 합니다 (항목에 보낸 시간과 받은 타임 스탬프가 모두 있는 경우 가장 오래 된 날짜가 선택 됨). 그런 다음 Office 365는 해당 타임 스탬프에 대 한 연도 값을 확인 하 고이를 현재 날짜와 비교 하 여 항목의 보존 기간을 결정 합니다. 이러한 연령는 **보존 기간** 필터의 드롭다운 목록에 있는 값으로 사용 됩니다. 예를 들어 PST 파일에 2016, 2015 및 2014의 메시지가 있는 경우 **Age** 필터의 값은 **1 년**, **2 년**, **3 년**이 됩니다.
     
-- 다음 표에는 기타 **옵션** 페이지의 기타 범주에 있는 **다른** 종류의 항목에 **** 포함 된 메시지 유형이 표시 됩니다 (이전 절차의 5b 단계 참조). 현재는 pst를 Office 365로 가져올 때 "기타" 범주의 항목을 제외할 수 없습니다. 
+- 다음 표에는 기타 **옵션** 페이지의 기타 범주에 있는 **다른** 종류의 항목에 **** 포함 된 메시지 유형이 표시 됩니다 (이전 절차의 5b 단계 참조). 현재는 Pst를 Office 365로 가져올 때 "기타" 범주의 항목을 제외할 수 없습니다. 
     
     |**메시지 클래스 ID**|**이 메시지 클래스를 사용 하는 사서함 항목**|
     |:-----|:-----|
-    |ipm.note. 내용  <br/> |업무 일지 항목  <br/> |
-    |ipm.note. 오피스  <br/> |문서 및 파일 (전자 메일 메시지에 첨부 되지 않음)  <br/> |
-    |ipm.note. 파일  <br/> |(IPM과 동일 합니다. 오피스  <br/> |
-    |ipm.note. Note. IMC. 알림  <br/> |인터넷 메일 Connect에서 전송 되는 보고서 (인터넷에 대 한 Exchange Server 게이트웨이)  <br/> |
-    |ipm.note. Note. Microsoft 팩스  <br/> |팩스 메시지  <br/> |
-    |ipm.note. 주의 합니다.  <br/> |부재 중 자동 회신 메시지  <br/> |
-    |ipm.note. ReplyTemplate. Microsoft  <br/> |받은 편지함 규칙에 의해 전송 된 회신  <br/> |
-    |ipm.note. OLE. 클래스인  <br/> |되풀이 항목에 대 한 예외  <br/> |
-    |ipm.note. 회수 보고서  <br/> |메시지 회수 보고서  <br/> |
-    |ipm.note. Remote  <br/> |원격 메일 메시지  <br/> |
-    |ipm.note. Report  <br/> |항목 상태 보고서  <br/> |
+    |IPM.NOTE. 내용  <br/> |업무 일지 항목  <br/> |
+    |IPM.NOTE. 오피스  <br/> |문서 및 파일 (전자 메일 메시지에 첨부 되지 않음)  <br/> |
+    |IPM.NOTE. 파일  <br/> |(IPM과 동일 합니다. 오피스  <br/> |
+    |IPM.NOTE. Note. IMC. 알림  <br/> |인터넷 메일 Connect에서 전송 되는 보고서 (인터넷에 대 한 Exchange Server 게이트웨이)  <br/> |
+    |IPM.NOTE. Note. Microsoft 팩스  <br/> |팩스 메시지  <br/> |
+    |IPM.NOTE. 주의 합니다.  <br/> |부재 중 자동 회신 메시지  <br/> |
+    |IPM.NOTE. ReplyTemplate. Microsoft  <br/> |받은 편지함 규칙에 의해 전송 된 회신  <br/> |
+    |IPM.NOTE. OLE. 클래스인  <br/> |되풀이 항목에 대 한 예외  <br/> |
+    |IPM.NOTE. 회수 보고서  <br/> |메시지 회수 보고서  <br/> |
+    |IPM.NOTE. Remote  <br/> |원격 메일 메시지  <br/> |
+    |IPM.NOTE. Report  <br/> |항목 상태 보고서  <br/> |

@@ -4,18 +4,18 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/17/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: afae2c3fa54fe5fcd93990cdf5797f5517c46202
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 205019d040648f0600f3dbf4403063edf9f31c41
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255646"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154463"
 ---
 # <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
@@ -37,7 +37,7 @@ ms.locfileid: "32255646"
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -45,7 +45,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_austria_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_austria_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_austria_eu_national_id_card` 키워드를 찾았습니다. 
     
 ```
  
@@ -103,7 +103,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_bulgaria_national_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_bulgaria_national_number` 키워드를 찾았습니다. 
+- From `Keywords_bulgaria_national_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -127,7 +127,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 egn
   
-egn #
+egn#
   
 불가리아어 국가 번호
   
@@ -135,7 +135,7 @@ egn #
   
 social security number
   
-nationalnumber #
+nationalnumber#
   
 ssn
   
@@ -149,7 +149,7 @@ bnn
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 единен граждански номер
   
@@ -157,7 +157,7 @@ edinen grazhdanski nomer
   
 егн
   
-егн #
+егн#
   
 ## <a name="croatia"></a>크로아티아
 
@@ -175,7 +175,7 @@ edinen grazhdanski nomer
   
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -183,7 +183,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_cyprus_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_cyprus_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_cyprus_eu_national_id_card` 키워드를 찾았습니다. 
     
 ```
  
@@ -227,7 +227,7 @@ id 카드 번호
 
 11자리 숫자:
   
-- 출생의 성별 및 세기에 해당 하는 1 자리 숫자 (예: 암, 수, 19th 세기, 3-4:20th 세기, 5-6 = 21 세기)
+- 출생의 성별 및 세기에 해당 하는 1 자리 숫자 (예: 1-2 암, 수, 19th 세기, 3-4:20th 세기, 5-6 = 21 세기)
     
 - 출생 날짜에 해당 하는 6 자리 숫자 (YYMMDD)
     
@@ -245,7 +245,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_estonia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_estonia_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_estonia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -278,7 +278,7 @@ national identification number
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 ik
   
@@ -296,7 +296,7 @@ id-kaart
   
 ## <a name="germany"></a>독일
 
-자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"독일 id 카드 번호" 섹션을 참조 하십시오.
+자세한 내용은 [중요 한 정보 유형이 찾는](what-the-sensitive-information-types-look-for.md)"독일 Id 카드 번호" 섹션을 참조 하십시오.
   
 ## <a name="greece"></a>그리스
 
@@ -312,7 +312,7 @@ id-kaart
 
 11자리 숫자:
   
--  성별에 해당 하는 1 자리 숫자 (1gb, 2 암, 기타 번호는 두 개를 포함 하는 경우에만 발생 합니다. 
+-  성별에 해당 하는 1 자리 숫자 (1gb, 2 암, 기타 번호는 두 개를 포함 하는 경우 1900에만 발생 합니다. 
     
 - 생년월일에 해당 하는 6 자리 숫자 (YYMMDD)
     
@@ -330,7 +330,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_hungary_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_hungary_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_hungary_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -396,7 +396,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수는 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
     
-- from 키워드를 찾았습니다.
+- From 키워드를 찾았습니다.
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -453,9 +453,9 @@ uimh psp
     
 - 출생 연도의 마지막 자리에 해당 하는 2 자리 숫자
     
-- 출생 월의 문자에 해당 하는 한 문자는 알파벳 순서로 사용 되지만 1 ~ E, H, L, M, P, r에 해당 하는 문자를 사용 하는 경우에만 사용할 수 있습니다.
+- 출생 월의 문자에 해당 하는 한 문자는 알파벳 순서로 사용 되지만 1 ~ E, H, L, M, P, R에 해당 하는 문자를 사용 하는 경우에만 사용할 수 있습니다.
     
-- genders를 구분 하기 위해 출생 달의 날짜에 해당 하는 2 자리 숫자 (40)가 여성 생년월일에 추가 되었습니다.
+- Genders를 구분 하기 위해 출생 달의 날짜에 해당 하는 2 자리 숫자 (40)가 여성 생년월일에 추가 되었습니다.
     
 - 사용자가 태어난 municipality 관련 지역 번호에 해당 하는 4 자리 숫자 (국가 전체 코드는 외국 국가에 사용 됨)
     
@@ -471,7 +471,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_italy_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_italy_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_italy_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -501,7 +501,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 회계 코드
   
-personalcodeno #
+personalcodeno#
   
 개인 id 번호
   
@@ -529,7 +529,7 @@ codice
 
 11 자리 숫자와 하이픈:
   
--  생년월일에 해당 하는 6 자리 숫자 (ddmmyy) 
+-  생년월일에 해당 하는 6 자리 숫자 (DDMMYY) 
     
 - 하이픈
     
@@ -547,7 +547,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_latvia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_latvia_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_latvia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -575,7 +575,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 개인 인증서 번호
   
-personalcodeno #
+personalcodeno#
   
 개인 id 번호
   
@@ -611,7 +611,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_lithuania_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_lithuania_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_lithuania_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -642,7 +642,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno #
+uniqueidentityno#
   
 개인 코드
   
@@ -654,7 +654,7 @@ piliečio paslaugos numeris
   
 unikalus identifikavimo kodas
   
-asmens kodas
+asmens kodas.
   
 ## <a name="luxemburg"></a>셈
 
@@ -676,7 +676,7 @@ asmens kodas
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -684,7 +684,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_luxemburg_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_luxemburg_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_luxemburg_eu_national_id_card` 키워드를 찾았습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
@@ -703,17 +703,17 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 개인 id 번호
   
-personalidno #
+personalidno#
   
 고유 id 번호
   
-personalidnumber #
+personalidnumber#
   
 고유 id 키
   
 개인 id 코드
   
-uniqueidkey #
+uniqueidkey#
   
 개별 코드
   
@@ -727,11 +727,11 @@ id personnelle
   
 numéro d'identification 담당자
   
-idpersonnelle #
+idpersonnelle#
   
 persönliche identifikationsnummer
   
-eindeutigeid #
+eindeutigeid#
   
 ## <a name="malta"></a>몰타
 
@@ -749,7 +749,7 @@ eindeutigeid #
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -757,7 +757,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_malta_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_malta_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_malta_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 65% 신뢰합니다.
   
@@ -788,7 +788,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno #
+uniqueidentityno#
   
 kodiċi numerali personali
   
@@ -818,7 +818,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_netherlands_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from 키워드를 찾았습니다.
+- From 키워드를 찾았습니다.
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -849,7 +849,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno #
+uniqueidentityno#
   
 bsn
   
@@ -891,7 +891,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_romania_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_romania_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_romania_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -928,11 +928,11 @@ pin
   
 보험 번호
   
-insurancenumber #
+insurancenumber#
   
 고유 id 번호
   
-uniqueidentityno #
+uniqueidentityno#
   
 cod 숫자 개인
   
@@ -946,11 +946,11 @@ număr identitate
   
 număr identificare personal
   
-număridentitate #
+număridentitate#
   
-codnumericpersonal #
+codnumericpersonal#
   
-numărpersonalunic #
+numărpersonalunic#
   
 ## <a name="slovakia"></a>슬로바키아
 
@@ -972,7 +972,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_slovakia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_slovakia_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_slovakia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -1003,7 +1003,7 @@ national identification number
   
 social security number
   
-nationalnumber #
+nationalnumber#
   
 ssn
   
@@ -1013,7 +1013,7 @@ ssn
   
 개인 id 번호
   
-personalidnumber #
+personalidnumber#
   
 rč
   
@@ -1031,7 +1031,7 @@ rodne cislo
 
 지정 된 패턴의 13 자리 숫자:
   
--  생년월일 (ddmmlll)에 해당 하는 7 자리 숫자 이며 "lll"은 출생 연도의 마지막 세 자리에 해당 합니다. 
+-  생년월일 (DDMMLLL)에 해당 하는 7 자리 숫자 이며 "LLL"은 출생 연도의 마지막 세 자리에 해당 합니다. 
     
 - 출생 면적에 해당 하는 2 자리 숫자
     
@@ -1049,7 +1049,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 이 함수 `Func_slovenia_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_slovenia_eu_national_id_card` 키워드를 찾았습니다. 
+- From `Keywords_slovenia_eu_national_id_card` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
@@ -1080,7 +1080,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno #
+uniqueidentityno#
   
 고유 마스터 시민 번호
   
@@ -1108,7 +1108,7 @@ emšo
     
 ### <a name="checksum"></a>제외
 
-해당 없음
+해당 사항 없음
   
 ### <a name="definition"></a>정의
 
@@ -1116,7 +1116,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 - 정규식이 해당 `Regex_spain_eu_national_id_card` 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
-- from `Keywords_spain_eu_national_id_card"` 키워드를 찾았습니다. 
+- From `Keywords_spain_eu_national_id_card"` 키워드를 찾았습니다. 
     
 ```
  
@@ -1148,19 +1148,19 @@ national identification number
   
 고유 id 번호
   
-nationalidno #
+nationalidno#
   
 uniqueid
   
 dni
   
-nationalid #
+nationalid#
   
 nie #
   
 nie
   
-nienúmero #
+nienúmero#
   
 nie número
   
@@ -1172,9 +1172,9 @@ número nacional identidad
   
 dni número
   
-dninúmero #
+dninúmero#
   
-identidadúnico #
+identidadúnico#
   
 ## <a name="sweden"></a>스웨덴
 

@@ -4,18 +4,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 3/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-ms.openlocfilehash: e4cb614167f89cb6e99d96aa94027ba90d86543e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: e6201fc938f7481a524a8d3c4171d4c1b67997e9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258374"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153750"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보존 만들기
 
@@ -33,7 +33,7 @@ ms.locfileid: "32258374"
     
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- exchange online 사서함에 소송 보존을 적용 하려면 exchange online 계획 2 라이선스를 할당 받아야 합니다. 사서함에 Exchange online 계획 1 라이선스가 할당 되는 경우이를 보류 상태로 설정 하려면 별도의 exchange online 보관 라이선스를 할당 해야 합니다.
+- Exchange Online 사서함에 소송 보존을 적용 하려면 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. 사서함에 Exchange Online 계획 1 라이선스가 할당 되는 경우이를 보류 상태로 설정 하려면 별도의 Exchange Online 보관 라이선스를 할당 해야 합니다.
     
 
 ## <a name="place-a-mailbox-on-litigation-hold"></a>사서함을 소송 자료 보존으로 설정
@@ -42,7 +42,7 @@ ms.locfileid: "32258374"
 
 1. 로 이동 [https://outlook.office.com/ecp](https://outlook.office.com/ecp) 하 고 전역 관리자 계정을 사용 하 여 로그인 합니다.
 
-2. 왼쪽 탐색 창에서 **받는 사람 > 사서함** 을 클릭 합니다.
+2. 왼쪽 탐색 창에서 **받는 사람 _GT_ 사서함** 을 클릭 합니다.
 
 3. 소송 보존에 적용할 사서함을 선택 하 고 **편집**을 클릭 합니다.
 
@@ -87,5 +87,5 @@ Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <num
 ![소송 보존 수명 주기](media/LitigationHoldLifeCycle.png)
 
 > [!NOTE]
-> eDiscovery 사례와 관련 된 보류를 사서함에 저장 하면 제거 된 항목은 삭제 하위 폴더에서 discoveryholds 하위 폴더로 이동 되 고 사서함이 eDiscovery 보류에서 릴리스될 때까지 보존 됩니다.
+> EDiscovery 사례와 관련 된 보류를 사서함에 저장 하면 제거 된 항목은 삭제 하위 폴더에서 DiscoveryHolds 하위 폴더로 이동 되 고 사서함이 eDiscovery 보류에서 릴리스될 때까지 보존 됩니다.
   

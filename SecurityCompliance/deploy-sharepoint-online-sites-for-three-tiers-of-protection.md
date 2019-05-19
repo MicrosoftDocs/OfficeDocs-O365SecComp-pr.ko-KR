@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 03/29/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: '요약: 다양한 정보 보호 수준에 맞게 SharePoint Online 팀 사이트를 만들고 구성합니다.'
-ms.openlocfilehash: 69da99c29d3527285547ed824e45fb7aa31e1910
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 77bf7b67d4ec1b93e5a470e69a014ee608a1465a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257208"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153380"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>3단계 보호를 위한 SharePoint Online 사이트 배포
 

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 5f52f26c4443addd0e108794e1d3635a9b8efb98
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3e9e1cb6a434a0b8e5f7b723630812e9cdeda36d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258056"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153640"
 ---
 # <a name="search-for-data-in-an-investigation"></a>조사에서 데이터 검색
 
@@ -76,9 +76,9 @@ Azure의 증명 정보 집합에 라이브 데이터를 복사할 때의 한 가
 
 원본 데이터를 증명 정보 집합에 복사 하면 테마 검색, 거의 중복 검색 및 전자 메일 스레드 식별과 같은 고급 분석 도구를 제공 하 여 조사를 쉽게 수행할 수 있습니다.
 
-또한 필요한 경우 office 365에서 수집한 데이터와 함께 저장 되도록 부재 외 365 데이터 원본의 데이터를 증명 정보 집합에 추가할 수 있습니다.
+또한 필요한 경우 Office 365에서 수집한 데이터와 함께 저장 되도록 부재 외 365 데이터 원본의 데이터를 증명 정보 집합에 추가할 수 있습니다.
 
-evidenced 집합에 데이터를 추가 하려면 검색 탭에서 검색을 선택 하 **** 고 플라이 아웃 페이지에서 **증명 정보에 결과 추가** 를 클릭 합니다. 기존 증명 정보 집합에 데이터를 추가 하거나 새 증거 집합을 즉시 만들 수 있습니다.
+Evidenced 집합에 데이터를 추가 하려면 검색 탭에서 검색을 선택 하 **** 고 플라이 아웃 페이지에서 **증명 정보에 결과 추가** 를 클릭 합니다. 기존 증명 정보 집합에 데이터를 추가 하거나 새 증거 집합을 즉시 만들 수 있습니다.
 
 ### <a name="tracking-the-progress-of-adding-search-results-to-evidence"></a>증거에 검색 결과 추가 진행 상황 추적
 

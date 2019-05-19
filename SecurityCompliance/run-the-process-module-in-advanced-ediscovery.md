@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,13 +12,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
-description: 'office 365 Advanced eDiscovery를 사용 하 여 분석을 위해 office 365 데이터의 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
-ms.openlocfilehash: 19d50bda21f752ec7c22fe52b6fa7272592de128
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 'Office 365 Advanced eDiscovery를 사용 하 여 분석을 위해 Office 365 데이터의 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
+ms.openlocfilehash: 75b6b23a913a6aa8b732501b1c52afb55b47e51e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261036"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156740"
 ---
 # <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
 
@@ -39,7 +39,7 @@ ms.locfileid: "32261036"
     
 - **파일 형식 및 이름**:
     
-  - 고급 eDiscovery에서는 다양 한 형식의 파일을 처리 하 고 로드 된 원시 파일을와 \*같은 표준 형식으로 추출할 수 있습니다. TXT, HTML 또는입니다. l. 텍스트 파일의 처리가 기본 파일 보다 빠릅니다. 추출 된 텍스트 파일은 사례 폴더에 저장 됩니다.
+  - 고급 eDiscovery에서는 다양 한 형식의 파일을 처리 하 고 로드 된 원시 파일을와 \*같은 표준 형식으로 추출할 수 있습니다. TXT, HTML 또는입니다. L. 텍스트 파일의 처리가 기본 파일 보다 빠릅니다. 추출 된 텍스트 파일은 사례 폴더에 저장 됩니다.
     
   - 시스템 파일이 나 그래픽 이미지와 같이 추출할 수 없는 파일을 로드 하지 않습니다. 이러한 파일은 처리 지연 될 수 있습니다.
     
@@ -47,7 +47,7 @@ ms.locfileid: "32261036"
     
 - **파일 경로**: 고급 eDiscovery에서는 경로 길이가 최대 400 자인 파일을 로드할 수 있습니다.
     
-- **텍스트 추출**: 기본 파일에서 텍스트를 추출할 때 일반 텍스트 외에도 다음과 같은 추출 된 텍스트 (excel 및 .doc), 숨겨진 열 (excel), 변경 내용 (.doc), 발표자 노트 (.ppt), 포함 된 개체 (예: .ppt의 Excel 개체) 텍스트 편집기에서 볼 수 있습니다.
+- **텍스트 추출**: 기본 파일에서 텍스트를 추출할 때 일반 텍스트 외에도 다음과 같은 추출 된 텍스트 (excel 및 .doc), 숨겨진 열 (excel), 변경 내용 (.doc), 발표자 노트 (.ppt), 포함 된 개체 (예: .Ppt의 Excel 개체) 텍스트 편집기에서 볼 수 있습니다.
     
 - **텍스트 무시**:이 선택적 기능은 프로세스를 실행 한 후 분석 하기 전에 정의 됩니다. Ignore 텍스트 사용은 파일 분석의 성능을 저하 시킬 수 있으므로 주의 해 서 사용 해야 합니다.
     
@@ -57,7 +57,7 @@ ms.locfileid: "32261036"
     
   - 파일을 원래 경로로 로드 한 경우 나중에 메타 데이터를 가져올 때 path 열을 매핑합니다. ID로 파일을 참조 하 고 다른 경로를 매핑할 수 있습니다. 이는 파일 경로가 변경 되는 경우에 유용한 시나리오입니다.
     
-  - 파일 id로 파일을 처음으로 로드 한 경우 메타 데이터를 로드할 때 ID 열을 매핑하십시오. 경로를 기준으로 파일을 참조 하면 다른 id로 파일을 다시 로드할 수 있습니다. 고급 eDiscovery에서는 기존 파일의 메타 데이터를 로드 하는 대신 파일의 복사본을 만듭니다.
+  - 파일 ID로 파일을 처음으로 로드 한 경우 메타 데이터를 로드할 때 ID 열을 매핑하십시오. 경로를 기준으로 파일을 참조 하면 다른 ID로 파일을 다시 로드할 수 있습니다. 고급 eDiscovery에서는 기존 파일의 메타 데이터를 로드 하는 대신 파일의 복사본을 만듭니다.
     
 - **제품군**: 상위 (패밀리 머리) 없이 패밀리를 로드할 수 없습니다. 
     

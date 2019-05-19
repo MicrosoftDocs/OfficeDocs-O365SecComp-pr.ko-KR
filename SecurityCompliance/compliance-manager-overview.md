@@ -3,7 +3,7 @@ title: Microsoft 준수 관리자 개요
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -11,24 +11,24 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: microsoft 준수 관리자는 microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: a2f59eac63f8bbef98da09c2149e49ec32e56b77
-ms.sourcegitcommit: 696c1ed6b270be3f9da7395b49a7d8fec98e6db0
+description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
+ms.openlocfilehash: e7c8afd3a9b2e0514e0df7df0f10871b0a7ca329
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33473180"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155290"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
 > [!IMPORTANT]
 > 준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.
 
-[microsoft 준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/ComplianceManager) 는 microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인 하는 데 사용할 수 있는 무료 워크플로 기반 위험 평가 도구입니다. microsoft 클라우드 서비스에 대 한 공유 책임 모델 내에서 규정 준수를 관리 하는 데 도움이 관리자를 제공 합니다. 준수 관리자는 Microsoft 서비스 평가에 대 한 표준, 규정 및 제어 구현 세부 정보 및 테스트 결과를 보기 위한 중앙 집중식 대시보드를 제공 합니다. 또한 조직과 관련 된 사용자 지정 컨트롤 구현 및 규정 준수 추적을 관리할 수 있는 도구도 포함 되어 있습니다.
+[Microsoft 준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/ComplianceManager) 는 microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인 하는 데 사용할 수 있는 무료 워크플로 기반 위험 평가 도구입니다. 365 365 microsoft 클라우드 서비스에 대 한 공유 책임 모델 내에서 규정 준수를 관리 하는 데 도움이 관리자를 제공 합니다. 준수 관리자는 Microsoft 서비스 평가에 대 한 표준, 규정 및 제어 구현 세부 정보 및 테스트 결과를 보기 위한 중앙 집중식 대시보드를 제공 합니다. 또한 조직과 관련 된 사용자 지정 컨트롤 구현 및 규정 준수 추적을 관리할 수 있는 도구도 포함 되어 있습니다.
 
 준수 관리자를 사용 하는 경우 조직에서 다음을 수행할 수 있습니다.
   
-- 조직에 적합 한 표준 및 규정에 대 한 준수 자가 평가를 통해 클라우드 서비스에 대 한 감사자 및 조정기에 제공 되는 자세한 준수 정보를 통합 합니다. 여기에는 ISO (국제 표준화 기구), NIST (표준 및 기술 협회), 건강 보험 이식성 및 책임 Act (HIPAA), 일반 데이터 gdpr (보호 규정) 및 기타 다양 한 기능
+- 조직에 적합 한 표준 및 규정에 대 한 준수 자가 평가를 통해 클라우드 서비스에 대 한 감사자 및 조정기에 제공 되는 자세한 준수 정보를 통합 합니다. 여기에는 ISO (국제 표준화 기구), NIST (표준 및 기술 협회), 건강 보험 이식성 및 책임 Act (HIPAA), 일반 데이터 GDPR (보호 규정) 및 기타 다양 한 기능
 - 규정 준수 및 평가 관련 활동을 할당, 추적 및 기록 하 여 조직에서 팀 장벽에 따라 규정 준수 목표를 달성할 수 있도록 도와줍니다.
 - 규정 준수 점수를 제공 하 여 진행 상황을 추적 하 고 조직의 위험에 대 한 노출을 줄이는 데 도움이 되는 감사 컨트롤의 우선 순위를 지정 합니다.
 - 준수 활동과 관련 된 증거 및 기타 아티팩트를 업로드 하 고 관리 하기 위한 보안 리포지토리를 제공 합니다.
@@ -57,12 +57,12 @@ ms.locfileid: "33473180"
 
 - Office 365 ISO 27001
 - Office 365 NIST 800-53
-- Office 365 gdpr
+- Office 365 GDPR
 
 평가에는 다음과 같은 몇 가지 구성 요소가 포함 됩니다.
   
 - **범위 내 서비스**: 각 평가는 특정 Microsoft 서비스 집합에 적용 됩니다.
-- **microsoft 관리 컨트롤**: 각 클라우드 서비스에 대해 microsoft는 적용 가능한 표준과 규정에 대 한 준수 제어 집합을 구현 하 고 관리 합니다.
+- **Microsoft 관리 컨트롤**: 각 클라우드 서비스에 대해 microsoft는 적용 가능한 표준과 규정에 대 한 준수 제어 집합을 구현 하 고 관리 합니다.
 - **고객 관리 컨트롤**: 각 컨트롤에 대해 작업을 수행할 때 조직에서 구현 하는 컨트롤의 컬렉션입니다.
 - **평가 점수**: 평가에서 고객 관리 컨트롤에 대 한 가능한 총 점수 비율입니다. 이를 통해 각 컨트롤에 할당 된 작업의 구현을 추적할 수 있습니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "33473180"
 
 ### <a name="microsoft-managed-controls"></a>Microsoft 관리 컨트롤
 
-각 클라우드 서비스에 대해 microsoft는 다양 한 표준 및 규정을 준수 하는 microsoft의 기능으로 컨트롤 집합을 구현 하 고 관리 합니다. 각 컨트롤은 microsoft 및/또는 독립 타사 감사자에 의해 제어가 어떻게 구현 되 고 해당 구현이 어떻게 테스트 되 고 유효성이 검사 되었는지에 대 한 세부 정보를 제공 합니다.
+각 클라우드 서비스에 대해 Microsoft는 다양 한 표준 및 규정을 준수 하는 Microsoft의 기능으로 컨트롤 집합을 구현 하 고 관리 합니다. 각 컨트롤은 Microsoft 및/또는 독립 타사 감사자에 의해 제어가 어떻게 구현 되 고 해당 구현이 어떻게 테스트 되 고 유효성이 검사 되었는지에 대 한 세부 정보를 제공 합니다.
 
 ### <a name="customer-managed-controls"></a>고객 관리 컨트롤
 
@@ -111,7 +111,7 @@ ms.locfileid: "33473180"
 
 ## <a name="permissions"></a>사용 권한
 
-준수 관리자가 역할 기반 액세스 제어 [권한 모델](https://docs.microsoft.com/office365/securitycompliance/working-with-compliance-manager#permissions)을 사용 합니다. 기본적으로 azure Active Directory (azure AD) 계정을 사용 하는 조직의 모든 사용자에 게는 모든 권한이 있으며 준수 관리자에서 모든 작업을 수행할 수 있습니다. 조직에서 역할 기반 액세스 제어를 구현한 후에는 정의 된 준수 관리자 역할에 할당 되지 않은 모든 사용자에 게 게스트 액세스 권한을 할당 합니다. Microsoft 서비스 담당자는 입력 하거나 업로드 하는 모든 데이터에 대 한 액세스 권한이 없습니다.
+준수 관리자가 역할 기반 액세스 제어 [권한 모델](https://docs.microsoft.com/office365/securitycompliance/working-with-compliance-manager#permissions)을 사용 합니다. 기본적으로 Azure Active Directory (Azure AD) 계정을 사용 하는 조직의 모든 사용자에 게는 모든 권한이 있으며 준수 관리자에서 모든 작업을 수행할 수 있습니다. 조직에서 역할 기반 액세스 제어를 구현한 후에는 정의 된 준수 관리자 역할에 할당 되지 않은 모든 사용자에 게 게스트 액세스 권한을 할당 합니다. Microsoft 서비스 담당자는 입력 하거나 업로드 하는 모든 데이터에 대 한 액세스 권한이 없습니다.
 
 기본 사용 권한을 변경 하 고 전체 역할 기반 액세스 제어 모델을 구현 하려면 각 준수 관리자 역할에 하나 이상의 사용자를 추가 해야 합니다. 사용자가 역할에 추가 되 면 해당 역할에 할당 된 작업을 수행 하는 권한이 모든 사용자가 사용할 수 있는 기본 사용 권한 집합에서 제거 됩니다. 이 역할을 사용 하 여 프로 비전 된 사용자만 준수 관리자에 액세스 하 고 해당 역할에서 허용 하는 작업을 수행할 수 있습니다.
 
@@ -133,10 +133,10 @@ ms.locfileid: "33473180"
 - [NIST 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)
 - [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)
 - [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://cloudsecurityalliance.org/working-groups/cloud-controls-matrix/#_overview)
-- [연방 금융 기관 검사 Council (ffiec) 정보 보안 소책자](https://ithandbook.ffiec.gov/it-booklets/information-security.aspx) 
+- [연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자](https://ithandbook.ffiec.gov/it-booklets/information-security.aspx) 
 - [HIPAA](https://www.hhs.gov/hipaa/for-professionals/index.html) / [HITECH](https://www.hhs.gov/hipaa/for-professionals/special-topics/hitech-act-enforcement-interim-final-rule/index.html)
 - [FedRAMP 보통](https://www.fedramp.gov/documents/)
-- [유럽 연합 gdpr](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN)
+- [유럽 연합 GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN)
 
 ## <a name="compliance-score"></a>준수 점수
 

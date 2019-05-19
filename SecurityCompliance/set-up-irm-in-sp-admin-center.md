@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,19 +12,19 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
-description: sharepoint 목록 및 문서 라이브러리를 보호 하기 위해 Microsoft Azure Active Directory RMS (권한 관리 서비스)를 통해 sharepoint Online IRM을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6b68135720846a0e74f5b0272dc5f25272381284
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Sharepoint 목록 및 문서 라이브러리를 보호 하기 위해 Microsoft Azure Active Directory RMS (권한 관리 서비스)를 통해 SharePoint Online IRM을 사용 하는 방법을 알아봅니다.
+ms.openlocfilehash: 0df2639a12472ab6452afb7d9b66bc48beb9ba1f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260774"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156560"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
 ## <a name="introduction"></a>소개
 
-SharePoint Online 내에서 IRM 보호는 목록 및 라이브러리 수준의 파일에 적용 됩니다. 조직에서 IRM 보호를 사용 하려면 먼저 권한 관리를 설정 해야 합니다. IRM은 azure Information Protection의 azure 권한 관리 서비스에 의존 하 여 사용 제한을 암호화 및 할당 합니다. 일부 Office 365 계획에는 Azure 권한 관리 등이 포함 됩니다. 자세한 내용은 [Office 응용 프로그램 및 서비스에서 Azure 권한 관리를 지 원하는 방법을](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support)읽어 보세요.
+SharePoint Online 내에서 IRM 보호는 목록 및 라이브러리 수준의 파일에 적용 됩니다. 조직에서 IRM 보호를 사용 하려면 먼저 권한 관리를 설정 해야 합니다. IRM은 azure Information Protection의 Azure 권한 관리 서비스에 의존 하 여 사용 제한을 암호화 및 할당 합니다. 일부 Office 365 계획에는 Azure 권한 관리 등이 포함 됩니다. 자세한 내용은 [Office 응용 프로그램 및 서비스에서 Azure 권한 관리를 지 원하는 방법을](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support)읽어 보세요.
   
 ## <a name="turn-on-irm-service-using-sharepoint-admin-center"></a>SharePoint 관리 센터를 사용 하 여 IRM 서비스 설정
 
@@ -40,12 +40,12 @@ SharePoint Online 내에서 IRM 보호는 목록 및 라이브러리 수준의 �
     
 4. 왼쪽 창에서 **설정을**선택 합니다.
     
-5. **irm (정보 권한 관리** ) 섹션에서 **구성에 지정 된 IRM 서비스 사용**을 선택 하 고 **IRM 설정 새로 고침**을 선택 합니다. irm 설정을 새로 고치면 조직의 사용자가 SharePoint 목록 및 문서 라이브러리에서 IRM 사용을 시작할 수 있습니다. 그러나 라이브러리 설정 및 목록 설정에 표시 되는 데 최대 1 시간이 걸릴 수 있습니다.
+5. **Irm (정보 권한 관리** ) 섹션에서 **구성에 지정 된 IRM 서비스 사용**을 선택 하 고 **IRM 설정 새로 고침**을 선택 합니다. IRM 설정을 새로 고치면 조직의 사용자가 SharePoint 목록 및 문서 라이브러리에서 IRM 사용을 시작할 수 있습니다. 그러나 라이브러리 설정 및 목록 설정에 표시 되는 데 최대 1 시간이 걸릴 수 있습니다.
     
 ## <a name="irm-enable-sharepoint-document-libraries-and-lists"></a>IRM 사용 SharePoint 문서 라이브러리 및 목록
 <a name="__toc220831191"> </a>
 
-irm 설정을 새로 고치면 사이트 소유자가 SharePoint 목록 및 문서 라이브러리를 irm으로 보호할 수 있습니다. 자세한 내용은 [목록 또는 라이브러리에 정보 권한 관리 적용](apply-irm-to-a-list-or-library.md)을 참조 하십시오.
+IRM 설정을 새로 고치면 사이트 소유자가 SharePoint 목록 및 문서 라이브러리를 IRM으로 보호할 수 있습니다. 자세한 내용은 [목록 또는 라이브러리에 정보 권한 관리 적용](apply-irm-to-a-list-or-library.md)을 참조 하십시오.
   
 사이트 소유자가 목록 또는 라이브러리에 대해 IRM을 사용 하도록 설정 하면 해당 목록이 나 라이브러리에서 지원 되는 파일 형식을 보호할 수 있습니다. 라이브러리에 대해 IRM을 사용 하도록 설정 된 경우 권한 관리는 해당 라이브러리의 모든 파일에 적용 됩니다. 목록에 대해 IRM을 사용 하도록 설정 하는 경우, 권한 관리는 실제 목록 항목이 아니라 목록 항목에 첨부 된 파일에만 적용 됩니다.
   
@@ -53,7 +53,7 @@ irm 설정을 새로 고치면 사이트 소유자가 SharePoint 목록 및 문�
   
 Office Online을 사용 하 여 IRM 사용 라이브러리에서는 문서를 만들거나 편집할 수 없습니다. 대신 한 번에 한 명의 사용자가 IRM으로 암호화 된 파일을 다운로드 하 고 편집할 수 있습니다. 체크 인 및 체크 아웃을 사용 하 여 *공동 작성* 을 관리 하거나 여러 사용자에 대해 제작 합니다. 
   
-IRM으로 보호 된 라이브러리에서 PDF 파일을 다운로드 하면 Office 365에서 보호 된 pdf 파일을 만듭니다. 파일 확장명은 변경 되지 않지만 파일은 보호 됩니다. 이 파일을 보려면 azure information protection 뷰어, 전체 Azure Information protection 클라이언트 또는 보호 된 PDF 파일 보기를 지 원하는 다른 응용 프로그램이 필요 합니다. 
+IRM으로 보호 된 라이브러리에서 PDF 파일을 다운로드 하면 Office 365에서 보호 된 PDF 파일을 만듭니다. 파일 확장명은 변경 되지 않지만 파일은 보호 됩니다. 이 파일을 보려면 Azure Information Protection 뷰어, 전체 Azure Information Protection 클라이언트 또는 보호 된 PDF 파일 보기를 지 원하는 다른 응용 프로그램이 필요 합니다. 
   
 SharePoint Online에서는 다음과 같은 파일 형식에 대 한 암호화를 지원 합니다.
   
@@ -61,7 +61,7 @@ SharePoint Online에서는 다음과 같은 파일 형식에 대 한 암호화�
     
 - 다음 Microsoft Office 프로그램에 대 한 97-2003 파일 형식: Word, Excel 및 PowerPoint
     
-- 다음 Microsoft Office 프로그램의 office Open XML 형식: Word, Excel 및 PowerPoint
+- 다음 Microsoft Office 프로그램의 Office Open XML 형식: Word, Excel 및 PowerPoint
     
 - XPS (XML Paper Specification) 형식
     
@@ -70,7 +70,7 @@ SharePoint Online에서는 다음과 같은 파일 형식에 대 한 암호화�
 
 SharePoint Online에 대해 IRM을 사용 하도록 설정한 후에는 목록 및 라이브러리에 대 한 권한 관리 적용을 시작할 수 있습니다. 자세한 내용은 [목록 또는 라이브러리에 정보 권한 관리 적용](apply-irm-to-a-list-or-library.md)을 참조 하십시오.
   
-이제 Windows 용 새 OneDrive 동기화 클라이언트는 irm으로 보호 된 SharePoint 문서 라이브러리 및 OneDrive 위치 동기화를 지원 합니다 (라이브러리의 IRM 설정이 만료 문서 액세스 권한으로 설정 되어 있지 않은 경우). 자세한 내용을 보거나 새 동기화 클라이언트 배포를 시작 하려면 [Windows 용 새 OneDrive 동기화 클라이언트 배포](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668)를 참조 하세요.
+이제 Windows 용 새 OneDrive 동기화 클라이언트는 IRM으로 보호 된 SharePoint 문서 라이브러리 및 OneDrive 위치 동기화를 지원 합니다 (라이브러리의 IRM 설정이 만료 문서 액세스 권한으로 설정 되어 있지 않은 경우). 자세한 내용을 보거나 새 동기화 클라이언트 배포를 시작 하려면 [Windows 용 새 OneDrive 동기화 클라이언트 배포](https://support.office.com/article/3f3a511c-30c6-404a-98bf-76f95c519668)를 참조 하세요.
   
 [Top of page](#introduction)  
 

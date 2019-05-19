@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: scotv
 ms.date: 10/6/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,16 +15,16 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: d85eb0bde24220fbbfc12e7b5f01acec69571dee
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b5501459a56dcff322dfdfa05d019d7fb626f369
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261458"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156990"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365의 전자 메일 메시지에 대 한 보안 팁
 
-EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제 outlook 또는 웹용 outlook에서 전자 메일을 확인 하면 EOP에서 보낸 사람을 자동으로 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다. 
+EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제 Outlook 또는 웹용 Outlook에서 전자 메일을 확인 하면 EOP에서 보낸 사람을 자동으로 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다. 
   
 보안 팁-색으로 구분 된 메시지를 통해 잠재적으로 유해한 메시지에 대해 경고 합니다. 대부분의 받은 편지함의 메시지에는 보안 팁이 없습니다. 스팸, 피싱 및 맬웨어 공격을 방지 하는 데 도움이 필요한 정보가 EOP 및 Office 365에만 표시 됩니다. 받은 편지함에 보안 팁이 표시 되 면 다음 예제를 사용 하 여 각 유형의 안전 팁에 대해 자세히 알아볼 수 있습니다.
   

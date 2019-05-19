@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화 관리
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: 1afaaea3cd744878630598acd3f02dc7dc70e9cb
-ms.sourcegitcommit: 865b3dc071150b20bf3967e1263fc54e75898284
+ms.openlocfilehash: 5c498c648fb28e6538bfc2fde8bdf50e8e02cbfc
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33834927"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155750"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 

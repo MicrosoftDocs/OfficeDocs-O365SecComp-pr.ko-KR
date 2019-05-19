@@ -3,7 +3,7 @@ title: Office 365 Advanced eDiscovery에서 보고서 필드 내보내기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: 고급 eDiscovery에 대 한 내보내기 보고서에 포함 되는 모든 필드에 대해 설명 합니다.
-ms.openlocfilehash: 36443f6aac70392603acfe6702bcc4fe7a4f4bf3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 3e73cc1c106dfa98bd35f84c352fc89d0e45b74d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255466"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154477"
 ---
 # <a name="export-report-fields-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 보고서 필드 내보내기
 
@@ -49,7 +49,7 @@ ms.locfileid: "32255466"
 |Themes_list  <br/> |테마  <br/> |테마 이름 목록  <br/> |예  <br/> |예  <br/> |
 |ND_set  <br/> |EquiSet  <br/> |Nearduplicate 집합의 고유 숫자 식별자입니다.  <br/> |예  <br/> |예  <br/> |
 |Email_set  <br/> |메일  <br/> |전자 메일 집합의 고유 숫자 식별자입니다.  <br/> |예  <br/> |예  <br/> |
-|Email_thread  <br/> |메일  <br/> |전자 메일 집합 내의 전자 메일 위치는 루트에서 현재 전자 메일로의 모든 노드 id로 구성 되며 마침표로 구분 됩니다.  <br/> |예  <br/> |예  <br/> |
+|Email_thread  <br/> |메일  <br/> |전자 메일 집합 내의 전자 메일 위치는 루트에서 현재 전자 메일로의 모든 노드 Id로 구성 되며 마침표로 구분 됩니다.  <br/> |예  <br/> |예  <br/> |
 |Email_subject  <br/> |메일  <br/> |전자 메일의 제목입니다.  <br/> |예  <br/> |예  <br/> |
 |Email_date_sent  <br/> |메일  <br/> |전자 메일이 전송 된 날짜입니다.  <br/> |예  <br/> |예  <br/> |
 |Email_participants  <br/> |메일  <br/> |누락 된 링크를 포함 하 여 전자 메일 스레드에 있는 모든 참가자의 전자 메일 주소입니다.  <br/> |예  <br/> |예  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "32255466"
 |Email_bcc  <br/> |메일  <br/> |전자 메일의 숨은 참조 받는 사람입니다.  <br/> |예  <br/> |예  <br/> |
 |Email_recipient_domains  <br/> |메일  <br/> |전자 메일 받는 사람, 참조 및 숨은 참조 도메인입니다.  <br/> |예  <br/> |예  <br/> |
 |Email_date_received  <br/> |메일  <br/> |전자 메일을 받은 날짜입니다.  <br/> |예  <br/> |예  <br/> |
-|Email_action  <br/> |메일  <br/> |값: 전자 메일 제목에 따라 "Forward" ("FW:"), "Reply" ("RE:") 또는 "other" (기타 제목 텍스트)로 이동 합니다.  <br/> |예  <br/> |예  <br/> |
+|Email_action  <br/> |메일  <br/> |값: 전자 메일 제목에 따라 "Forward" ("FW:"), "Reply" ("RE:") 또는 "Other" (기타 제목 텍스트)로 이동 합니다.  <br/> |예  <br/> |예  <br/> |
 |Meeting_Start_Date/Time  <br/> ||모임 항목이 시작 된 날짜 및 시간입니다.  <br/> |예  <br/> |예  <br/> |
 |Meeting_End_Date/Time  <br/> ||모임 항목이 종료 된 날짜 및 시간입니다.  <br/> |예  <br/> |예  <br/> |
 |File_relevance_score  <br/> |적합성  <br/> |관련성 점수 (0-100)입니다. 문제 당  <br/> |예  <br/> |예  <br/> |
@@ -89,11 +89,11 @@ ms.locfileid: "32255466"
 |Compound_path  <br/> |처리  <br/> |복합 원본을 포함 하는 네이티브 파일 경로입니다.  <br/> |예  <br/> |예  <br/> |
 |Input_path  <br/> |처리  <br/> |입력 파일의 경로입니다.  <br/> |예  <br/> |예  <br/> |
 |Input_date_modified  <br/> |처리  <br/> |입력 파일을 마지막으로 수정한 날짜입니다.  <br/> |예  <br/> |예  <br/> |
-|ND_ET_sort_excl_attach  <br/> |분석  <br/> |검토용 전자 메일 설정 및 ND 집합 연결 ' m '은 ND 집합에 접두사로 추가 되 고 ' E '는 전자 메일 ssets에 추가 됩니다.  <br/> |예  <br/> |예  <br/> |
-|ND_ET_sort_incl_attach  <br/> |분석  <br/> |전자 메일 설정 및 검토용으로 설정 된 nd ' m '은 nd 집합에 접두사로 추가 되 고 ' E '는 전자 메일 집합에 추가 됩니다. 또한 Email_set 내의 각 전자 메일에 해당 하는 첨부 파일이 포함 됩니다.  <br/> |예  <br/> |예  <br/> |
-|Deduped_custodians  <br/> |일반  <br/> |duped 파일의 Custodians  <br/> |예  <br/> |예  <br/> |
-|Deduped_file_IDs  <br/> |일반  <br/> |duped 파일의 id  <br/> |예  <br/> |예  <br/> |
-|Deduped_paths  <br/> |일반  <br/> |duped 파일의 경로  <br/> |예  <br/> |예  <br/> |
+|ND_ET_sort_excl_attach  <br/> |분석  <br/> |검토용 전자 메일 설정 및 ND 집합 연결 ' M '은 ND 집합에 접두사로 추가 되 고 ' E '는 전자 메일 ssets에 추가 됩니다.  <br/> |예  <br/> |예  <br/> |
+|ND_ET_sort_incl_attach  <br/> |분석  <br/> |전자 메일 설정 및 검토용으로 설정 된 ND ' m '은 ND 집합에 접두사로 추가 되 고 ' E '는 전자 메일 집합에 추가 됩니다. 또한 Email_set 내의 각 전자 메일에 해당 하는 첨부 파일이 포함 됩니다.  <br/> |예  <br/> |예  <br/> |
+|Deduped_custodians  <br/> |일반  <br/> |Duped 파일의 Custodians  <br/> |예  <br/> |예  <br/> |
+|Deduped_file_IDs  <br/> |일반  <br/> |Duped 파일의 Id  <br/> |예  <br/> |예  <br/> |
+|Deduped_paths  <br/> |일반  <br/> |Duped 파일의 경로  <br/> |예  <br/> |예  <br/> |
 |File_key  <br/> |일반  <br/> |나중에 사용할 내부 식별자입니다.  <br/> |예  <br/> |예  <br/> |
 |Export_native_path  <br/> |처리  <br/> |내보내기 패키지에 있는 네이티브 파일의 경로입니다.  <br/> |예  <br/> |예  <br/> |
 |Extracted_text_path  <br/> |처리  <br/> |압축을 푼 파일의 경로입니다.  <br/> |예  <br/> |예  <br/> |
@@ -134,7 +134,7 @@ ms.locfileid: "32255466"
 ||||||
 ||||||
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
   

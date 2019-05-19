@@ -3,7 +3,7 @@ title: 웹용 Outlook에서 정크 메일 보고 해제
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -11,16 +11,16 @@ ms.assetid: 8d57fe9e-57b8-4884-9317-80b380804b4a
 ms.collection:
 - M365-security-compliance
 description: Office 365 관리자는 사용자가 전자 메일을 정크 메일로 보고 하는 기능을 해제할 수 있습니다.
-ms.openlocfilehash: f3e8a8cf837e7923d3c7241852ab2acd375492b8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: a33e43444225cd3c23bc5d40cbf8581d19df2489
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264170"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156290"
 ---
 # <a name="turn-off-junk-email-reporting-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 보고 해제
 
-웹용 outlook [의 정크 메일 및 피싱 사기 보고 ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로, 웹용 outlook (이전의 outlook web App이 라고도 함) 정크 메일 보고 옵션을 사용 하 여 정크, 피싱 및 정크 메시지를 분석을 위해 Microsoft에 보낼 수 있습니다. 이러한 옵션을 사용 하지 않으려는 경우 관리자는 [set-owamailboxpolicy](http://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx) cmdlet을 통해이를 해제할 수 있습니다. 
+웹용 outlook [의 정크 메일 및 피싱 사기 보고 ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로, 웹용 outlook (이전의 Outlook web App이 라고도 함) 정크 메일 보고 옵션을 사용 하 여 정크, 피싱 및 정크 메시지를 분석을 위해 Microsoft에 보낼 수 있습니다. 이러한 옵션을 사용 하지 않으려는 경우 관리자는 [set-owamailboxpolicy](http://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx) cmdlet을 통해이를 해제할 수 있습니다. 
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>
@@ -57,4 +57,4 @@ Set-OwaMailboxPolicy -Identity "OwaMailboxPolicy-Default" -ReportJunkEmailEnable
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 <a name="sectionSection2"> </a>
 
-**set-owamailboxpolicy** 를 실행 하 여 매개 변수 값을 확인 한 다음 웹에서 outlook을 열어 해당 사용자에 게 적용 되는 웹 사서함 정책을 사용 하는 outlook을 연 다음 정크, 피싱 및 정크 메일을 보고 하는 옵션을 사용할 수 없는지 확인 합니다. 메시지를 정크 메일 이나 피싱이 아닌 메시지로 표시할 수는 있지만 보고할 수는 없습니다. 
+**Set-owamailboxpolicy** 를 실행 하 여 매개 변수 값을 확인 한 다음 웹에서 outlook을 열어 해당 사용자에 게 적용 되는 웹 사서함 정책을 사용 하는 outlook을 연 다음 정크, 피싱 및 정크 메일을 보고 하는 옵션을 사용할 수 없는지 확인 합니다. 메시지를 정크 메일 이나 피싱이 아닌 메시지로 표시할 수는 있지만 보고할 수는 없습니다. 

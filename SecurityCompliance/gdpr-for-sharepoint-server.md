@@ -3,17 +3,17 @@ title: SharePoint Server의 GDPR
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 SharePoint Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: 84692799222be595d69f7a33a31b0ec3fe767c3d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6da9d635506eafc2b976cf6a87f68370f40e327a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253896"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152740"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>SharePoint Server의 GDPR
 
@@ -35,7 +35,9 @@ SharePoint Server 사이트 및 라이브러리에 포함된 사용자 생성 �
 
 파일 공유와 SharePoint 사이트 및 라이브러리에 대한 권장 접근법에는 다음 단계가 포함됩니다.
 
-1.  **[Azure Information Protection 스캐너를 설치하고 구성합니다.](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  
+  **
+  [Azure Information Protection 스캐너를 설치하고 구성합니다.](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   사용할 중요한 데이터 형식을 결정합니다.
 

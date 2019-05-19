@@ -3,7 +3,7 @@ title: 콘텐츠 검색 보고서 내보내기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.CustomizeExportReport
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365의 Security & 준수 센터에서 콘텐츠 검색의 실제 결과를 내보내는 대신 검색 결과 보고서를 간단히 내보낼 수 있습니다. 이 보고서에는 검색 결과에 대 한 요약과 내보낼 각 항목에 대 한 자세한 정보가 있는 문서가 포함 되어 있습니다.
-ms.openlocfilehash: 57c8a9be5c53998570f6ff15a49df69e27745e26
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 8e33a7ba236e0890fc5985aa9a00cba904a40793
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255656"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154610"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -42,13 +42,13 @@ ms.locfileid: "32255656"
     
   - 32비트 및 64비트 버전의 Windows 7 이상 버전
     
-  - Microsoft .net Framework 4.7
+  - Microsoft .NET Framework 4.7
     
   - 지원되는 브라우저:
     
     - Microsoft Edge
     
-       선택하거나 
+      또는
     
     - Microsoft Internet Explorer 10 이상 버전
     
@@ -56,7 +56,7 @@ ms.locfileid: "32255656"
 
 - 콘텐츠 검색에서 반환 되는 결과의 예상 전체 크기가 20tb&nbsp;를 초과 하면 보고서를 내보낼 수 없습니다. 보고서를 성공적으로 내보내려면 범위를 좁히고 검색을 다시 실행 하 여 예상 결과 크기를 20tb&nbsp;보다 작게 합니다.
 
-- 콘텐츠 검색 보고서 내보내기 동시에 실행 되는 내보내기의 최대 수와 단일 사용자가 실행할 수 있는 최대 내보내기 수에 대해 계산 합니다. 내보내기 제한에 대 한 자세한 내용은 [export Content Search results](export-search-results.md#export-limits)를 참조 하십시오.
+- 콘텐츠 검색 보고서 내보내기 동시에 실행 되는 내보내기의 최대 수와 단일 사용자가 실행할 수 있는 최대 내보내기 수에 대해 계산 합니다. 내보내기 제한에 대 한 자세한 내용은 [Export Content Search results](export-search-results.md#export-limits)를 참조 하십시오.
 
 ## <a name="generate-and-download-a-content-search-report"></a>콘텐츠 검색 보고서 생성 및 다운로드
 
@@ -96,7 +96,7 @@ ms.locfileid: "32255656"
     검색 결과 보고서를 다운로드 준비 중 이며,이는 보고서 문서가 Microsoft 클라우드의 Azure storage 영역에 업로드 됨을 의미 합니다. 보고서를 다운로드할 준비가 되 면 세부 정보 창의 **컴퓨터로 보고서 내보내기** 아래에 보고서 **다운로드** 링크가 표시 됩니다. 
     
 > [!NOTE]
-> eDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 내보낼 수도 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. 검색 페이지 **** 에서 검색을 선택 하 고 내보내기 검색 결과 아이콘 **** ![](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> 내보내기를 클릭 하 **여 보고서를 내보냅니다**. 
+> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 내보낼 수도 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. 검색 페이지 **** 에서 검색을 선택 하 고 내보내기 검색 결과 아이콘 **** ![](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> 내보내기를 클릭 하 **여 보고서를 내보냅니다**. 
   
 ## <a name="step-2-download-the-report"></a>2 단계: 보고서 다운로드
 
@@ -123,7 +123,7 @@ ms.locfileid: "32255656"
   
 3. **보고서 다운로드**를 클릭 합니다.
     
-4. **MicrosoftOffice 365 eDiscovery 내보내기 도구**를 설치 하 라는 메시지가 표시 되 면 **설치**를 클릭 합니다.
+4. **MicrosoftOffice 365 EDiscovery 내보내기 도구**를 설치 하 라는 메시지가 표시 되 면 **설치**를 클릭 합니다.
     
 5. **eDiscovery 내보내기 도구**에서 5단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다. 
     
@@ -134,7 +134,7 @@ ms.locfileid: "32255656"
     **eDiscovery 내보내기 도구**는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료 되 면 다운로드 한 위치에서 파일에 액세스할 수 있습니다. 
     
 > [!NOTE]
-> eDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 다운로드할 수 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **내보내기** 페이지에서 보고서 내보내기를 선택 하 고 세부 정보 창에서 **보고서 다운로드** 를 클릭 합니다. 
+> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 다운로드할 수 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **내보내기** 페이지에서 보고서 내보내기를 선택 하 고 세부 정보 창에서 **보고서 다운로드** 를 클릭 합니다. 
   
 ## <a name="whats-included-in-the-report"></a>보고서에 포함 된 내용
 
@@ -145,7 +145,7 @@ ms.locfileid: "32255656"
     > [!NOTE]
     > 보고서를 내보낼 때 인덱싱되지 않은 항목을 포함 하면 총 예상 검색 결과 수에 포함 되 고, 검색 결과를 내보낼 때 다운로드 한 검색 결과의 총 수는 다음과 같습니다. 요약 보고서 내보내기 즉, 다운로드 되는 항목의 총 수는 총 예상 결과 수 및 인덱싱되지 않은 항목의 총 수와 같습니다. 
   
-- **manifest** -검색 결과에 포함 된 각 항목에 대 한 정보를 포함 하는 매니페스트 파일 (XML 형식)입니다. 
+- **Manifest** -검색 결과에 포함 된 각 항목에 대 한 정보를 포함 하는 매니페스트 파일 (XML 형식)입니다. 
     
 - **Results** -검색 결과와 함께 내보낼 각 인덱싱된 항목에 대 한 정보가 있는 행이 포함 된 Excel 문서입니다. 전자 메일의 경우 결과 로그에 다음을 비롯 한 각 메시지에 대 한 정보가 포함 됩니다. 
     

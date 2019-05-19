@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 11/17/2014
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 description: 다음 샘플 스크립트를 사용하여 여러 테넌트(회사)를 관리하는 Microsoft EOP(Exchange Online Protection) 관리자는 Windows PowerShell을 사용하여 해당 테넌트에 구성 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 61b2b203493581185abeee69cf2bd6e8f0f7567a
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f064a44722d165711543e5a15ec6a19d70af4b25
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256632"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154560"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 
@@ -44,7 +44,7 @@ ms.locfileid: "32256632"
 
 4. 각 테넌트에 로그온되며 해당 cmdlet이 실행됩니다.
     
-## <a name="runcmdletonmultipletenantsps1"></a>runcmdletonmultipletenants.ps1. ps1
+## <a name="runcmdletonmultipletenantsps1"></a>Runcmdletonmultipletenants.ps1. ps1
 <a name="RunCmdletOnMultipleTenants.ps1"> </a>
 
 ```Powershell

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
-description: '관리자: pst 파일을 하드 드라이브에 복사한 다음 Microsoft로 발송 하 여 조직의 pst 파일을 Office 365 사서함으로 대량 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 5f04cc0a29fce7b607920253adb10aefb640c914
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: '관리자: PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 발송 하 여 조직의 PST 파일을 Office 365 사서함으로 대량 가져오는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: 4e386dc94928b674565a1d096cdb75aad9a3e22e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264800"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158040"
 ---
 # <a name="use-drive-shipping-to-import-your-organization-pst-files-to-office-365"></a>드라이브 전달을 사용 하 여 조직 PST 파일을 Office 365로 가져오기
 
@@ -46,7 +46,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
 > [!IMPORTANT]
 > 보안 저장소 키 및 가져오기 도구를 로드 하기 위해 1 단계를 한 번 수행 해야 합니다. 이러한 단계를 수행한 후에는 Microsoft에 하드 드라이브를 출시할 때마다 2 단계부터 6 단계까지 수행 합니다. 
   
-드라이브 발송을 사용 하 여 pst 파일을 Office 365로 가져오는 방법에 대 한 질문과 대답은 [faq for drive 발송을 사용 하 여 pst 파일 가져오기](faqimporting-pst-files-to-office-365.md#using-drive-shipping-to-import-pst-files)를 참조 하세요. 
+드라이브 발송을 사용 하 여 PST 파일을 Office 365로 가져오는 방법에 대 한 질문과 대답은 [faq for drive 발송을 사용 하 여 pst 파일 가져오기](faqimporting-pst-files-to-office-365.md#using-drive-shipping-to-import-pst-files)를 참조 하세요. 
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -63,16 +63,16 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
     > [!TIP]
     > Exchange Online에서 PST 파일을 Office 365로 가져오는 데 특별히 만들어진 새 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한으로는 사서함 가져오기 내보내기 및 메일 받는 사람 역할을 새 역할 그룹에 할당 하 고 구성원을 추가 합니다. 
   
-- 조직의 파일 서버의 하드 드라이브 또는 공유 폴더에 복사하려면 PST 파일을 저장해야 합니다. 2 단계에서는이 파일 서버 또는 공유 폴더에 저장 된 PST 파일을 하드 드라이브에 복사 하는, Azure 가져오기 내보내기 도구 (waimportexport)를 실행 합니다.
+- 조직의 파일 서버의 하드 드라이브 또는 공유 폴더에 복사하려면 PST 파일을 저장해야 합니다. 2 단계에서는이 파일 서버 또는 공유 폴더에 저장 된 PST 파일을 하드 드라이브에 복사 하는, Azure 가져오기 내보내기 도구 (WAImportExport)를 실행 합니다.
     
-- Office 365 가져오기 서비스와 함께 사용할 경우에는 2.5 인치 ssd (고체 드라이브) 또는 2.5 또는 3.5 인치 SATA II/III 내부 하드 드라이브만 지원 됩니다. You can use hard drives up to 10 TB. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리 됩니다. The data volume must be formatted with NTFS. 데이터를 하드 드라이브에 복사 하는 경우, 2.5 인치 ssd 또는 2.5 또는 3.5 인치 sata ii/iii 커넥터를 사용 하 여 직접 연결 하거나 외부 2.5 cm SSD 또는 2.5 또는 3.5 인치 sata ii/iii USB 어댑터를 사용 하 여 외부에서 연결할 수 있습니다.
+- Office 365 가져오기 서비스와 함께 사용할 경우에는 2.5 인치 Ssd (고체 드라이브) 또는 2.5 또는 3.5 인치 SATA II/III 내부 하드 드라이브만 지원 됩니다. You can use hard drives up to 10 TB. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리 됩니다. The data volume must be formatted with NTFS. 데이터를 하드 드라이브에 복사 하는 경우, 2.5 인치 SSD 또는 2.5 또는 3.5 인치 SATA II/III 커넥터를 사용 하 여 직접 연결 하거나 외부 2.5 cm SSD 또는 2.5 또는 3.5 인치 SATA II/III USB 어댑터를 사용 하 여 외부에서 연결할 수 있습니다.
     
     > [!IMPORTANT]
     > 기본 제공 USB 어댑터와 함께 제공 되는 외부 하드 드라이브는 Office 365 가져오기 서비스에서 지원 되지 않습니다. Additionally, the disk inside the casing of an external hard drive can't be used. Please don't ship external hard drives. 
   
-- PST 파일을 복사하는 하드 드라이브는 BitLocker로 암호화되어야 합니다. 2단계에서 실행하는 WAImportExport.exe 도구는 BitLocker를 설정하는 데 도움이 됩니다. 또한 microsoft data center 직원이 microsoft 클라우드의 Azure storage 영역에 PST 파일을 업로드 하기 위해 드라이브에 액세스 하는 데 사용 하는 BitLocker 암호화 키도 생성 됩니다.
+- PST 파일을 복사하는 하드 드라이브는 BitLocker로 암호화되어야 합니다. 2단계에서 실행하는 WAImportExport.exe 도구는 BitLocker를 설정하는 데 도움이 됩니다. 또한 Microsoft data center 직원이 Microsoft 클라우드의 Azure storage 영역에 PST 파일을 업로드 하기 위해 드라이브에 액세스 하는 데 사용 하는 BitLocker 암호화 키도 생성 됩니다.
     
-- Microsoft 엔터프라이즈 계약 (EA)을 통해 드라이브 전달을 사용할 수 있습니다. Microsoft 제품 및 서비스 계약 (mpsa)을 통해서는 드라이브 전달을 사용할 수 없습니다.
+- Microsoft 엔터프라이즈 계약 (EA)을 통해 드라이브 전달을 사용할 수 있습니다. Microsoft 제품 및 서비스 계약 (MPSA)을 통해서는 드라이브 전달을 사용할 수 없습니다.
     
 - 드라이브 전달을 사용 하 여 PST 파일을 Office 365 사서함으로 가져오는 비용은 데이터의 GB 당 $2 USD입니다. 예를 들어, 1000의 PST 파일을 포함 하는 하드 드라이브를 제공 하는 경우 비용은 $2000 USD입니다. You can work with a partner to pay the import fee. 파트너를 찾는 방법에 대 한 자세한 내용은 [Office 365 파트너 또는 대리점 찾기를](https://go.microsoft.com/fwlink/p/?LinkId=785197)참조 하세요.
     
@@ -110,7 +110,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
 첫 번째 단계는 2 단계에서 하드 드라이브에 PST 파일을 복사 하는 데 사용할 보안 저장소 키와 도구를 다운로드 하는 것입니다.
   
 > [!IMPORTANT]
-> drive 배송료 메서드를 사용 하 여 PST 파일을 가져오려면 Azure 가져오기/내보내기 도구 버전 1 (WAimportExportV1)을 사용 해야 합니다. Azure 가져오기/내보내기 도구 버전 2는 지원 되지 않으며이를 사용 하면 가져오기 작업에 대 한 하드 드라이브를 잘못 준비 하 게 됩니다. 이 단계의 절차에 따라 Security & 준수 센터에서 Azure 가져오기/내보내기 도구를 다운로드 해야 합니다. 
+> Drive 배송료 메서드를 사용 하 여 PST 파일을 가져오려면 Azure 가져오기/내보내기 도구 버전 1 (WAimportExportV1)을 사용 해야 합니다. Azure 가져오기/내보내기 도구 버전 2는 지원 되지 않으며이를 사용 하면 가져오기 작업에 대 한 하드 드라이브를 잘못 준비 하 게 됩니다. 이 단계의 절차에 따라 Security & 준수 센터에서 Azure 가져오기/내보내기 도구를 다운로드 해야 합니다. 
   
 1. 으로 이동 [https://protection.office.com/](https://protection.office.com/) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
@@ -133,7 +133,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
   
     위한. 2 단계에서 **보안 저장소 키 복사**를 클릭 합니다. 저장소 키가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 붙여 넣은 다음 나중에 액세스할 수 있도록 파일에 저장 합니다.
     
-    b. 3 단계에서 **azure 가져오기/내보내기 도구를 다운로드** 하 여 azure 가져오기/내보내기 (버전 1) 도구를 다운로드 하 고 설치 합니다.
+    b. 3 단계에서 **Azure 가져오기/내보내기 도구를 다운로드** 하 여 azure 가져오기/내보내기 (버전 1) 도구를 다운로드 하 고 설치 합니다.
     
     - 팝업 창에서 다른 **** \> **이름으로 저장** 을 클릭 하 여 로컬 컴퓨터의 폴더에 WaImportExportV1 파일을 저장 합니다. 
     
@@ -167,11 +167,11 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
     
     |**매개 변수**|**설명**|**예제**|
     |:-----|:-----|:-----|
-    | `/j:` <br/> |저널 파일의 이름을 지정합니다. 이 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다. Microsoft로 발송하는 각 하드 드라이브에는 하나의 저널 파일이 있어야 합니다. WAImportTool.exe를 실행하여 PST 파일을 하드 드라이브에 복사할 때마다 해당 드라이브에 대한 저널 파일에 정보가 추가됩니다.  <br/> microsoft 데이터 센터 직원은 저널 파일의 정보를 사용 하 여 하드 드라이브를 4 단계에서 만든 가져오기 작업에 연결 하 고 PST 파일을 Microsoft 클라우드의 Azure storage 영역에 업로드 합니다.  <br/> | `/j:PSTHDD1.jrn` <br/> |
+    | `/j:` <br/> |저널 파일의 이름을 지정합니다. 이 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다. Microsoft로 발송하는 각 하드 드라이브에는 하나의 저널 파일이 있어야 합니다. WAImportTool.exe를 실행하여 PST 파일을 하드 드라이브에 복사할 때마다 해당 드라이브에 대한 저널 파일에 정보가 추가됩니다.  <br/> Microsoft 데이터 센터 직원은 저널 파일의 정보를 사용 하 여 하드 드라이브를 4 단계에서 만든 가져오기 작업에 연결 하 고 PST 파일을 Microsoft 클라우드의 Azure storage 영역에 업로드 합니다.  <br/> | `/j:PSTHDD1.jrn` <br/> |
     | `/t:` <br/> |로컬 컴퓨터에 연결될 때 하드 드라이브의 드라이브 문자를 지정합니다.  <br/> | `/t:h` <br/> |
     | `/id:` <br/> |복사 세션의 이름을 지정합니다. 세션은 WAImportExport.exe 도구를 실행하여 하드 드라이브에 파일을 복사할 때마다 정의됩니다. PST 파일이 이 매개 변수로 지정된 세션 이름의 폴더에 복사됩니다.   <br/> | `/id:driveship1` <br/> |
     | `/srcdir:` <br/> |조직에서 세션 중에 복사될 PST 파일이 들어 있는 원본 디렉터리를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/srcdir:"\\FILESERVER01\PSTs"` <br/> |
-    | `/dstdir:` <br/> |pst가 업로드 될 Microsoft 클라우드의 Azure storage 영역에 있는 대상 디렉터리를 지정 합니다. 이 값 `ingestiondata/`을 사용 해야 합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> 필요에 따라 추가 파일 경로를 이 매개 변수의 값에 추가할 수도 있습니다. 예를 들어 `/srcdir:` 매개 변수에 지정 된 하드 드라이브 (URL 형식으로 변환)에서 원본 디렉터리의 파일 경로를 사용할 수 있습니다. 예를 `\\FILESERVER01\PSTs` 들어로로 `FILESERVER01/PSTs`변경 됩니다. 이 경우에도 파일 경로를 포함 `ingestiondata` 해야 합니다. 따라서이 예제에서 `/dstdir:` 매개 변수의 값은 `"ingestiondata/FILESERVER01/PSTs"`입니다.  <br/> 다른 파일 경로를 추가하는 한 가지 이유는 파일 이름이 같은 PST 파일이 있는 경우입니다.  <br/> > [!NOTE]> (선택 사항) 경로 이름을 포함 하는 경우 Azure 저장소 영역에 업로드 된 pst 파일의 네임 스페이스에는 pst 파일의 경로 이름과 이름이 포함 됩니다. 예를 `FILESERVER01/PSTs/annb.pst`들면입니다. pathname을 포함 하지 않으면 네임 스페이스는 PST 파일 이름 뿐입니다. 예를 `annb.pst`들어           | `/dstdir:"ingestiondata/"` <br/> 또는  <br/>  `/dstdir:"ingestiondata/FILESERVER01/PSTs"` <br/> |
+    | `/dstdir:` <br/> |Pst가 업로드 될 Microsoft 클라우드의 Azure storage 영역에 있는 대상 디렉터리를 지정 합니다. 이 값 `ingestiondata/`을 사용 해야 합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> 필요에 따라 추가 파일 경로를 이 매개 변수의 값에 추가할 수도 있습니다. 예를 들어 `/srcdir:` 매개 변수에 지정 된 하드 드라이브 (URL 형식으로 변환)에서 원본 디렉터리의 파일 경로를 사용할 수 있습니다. 예를 `\\FILESERVER01\PSTs` 들어로로 `FILESERVER01/PSTs`변경 됩니다. 이 경우에도 파일 경로를 포함 `ingestiondata` 해야 합니다. 따라서이 예제에서 `/dstdir:` 매개 변수의 값은 `"ingestiondata/FILESERVER01/PSTs"`입니다.  <br/> 다른 파일 경로를 추가하는 한 가지 이유는 파일 이름이 같은 PST 파일이 있는 경우입니다.  <br/> > [!NOTE]> (선택 사항) 경로 이름을 포함 하는 경우 Azure 저장소 영역에 업로드 된 PST 파일의 네임 스페이스에는 PST 파일의 경로 이름과 이름이 포함 됩니다. 예를 `FILESERVER01/PSTs/annb.pst`들면입니다. Pathname을 포함 하지 않으면 네임 스페이스는 PST 파일 이름 뿐입니다. 예를 `annb.pst`들어           | `/dstdir:"ingestiondata/"` <br/> 또는  <br/>  `/dstdir:"ingestiondata/FILESERVER01/PSTs"` <br/> |
     | `/sk:` <br/> |1단계에서 구한 저장소 계정 키를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `"yaNIIs9Uy5g25Yoak+LlSHfqVBGOeNwjqtBEBGqRMoidq6/e5k/VPkjOXdDIXJHxHvNoNoFH5NcVUJXHwu9ZxQ=="` <br/> |
     | `/encrypt` <br/> |이 스위치는 하드 드라이브에 대해 BitLocker를 켭니다. 이 매개 변수는 WAImportExport.exe 도구를 처음 실행할 때 필요합니다.  <br/> BitLocker 암호화 키는 저널 파일 및 `/logfile:` 매개 변수를 사용 하는 경우 생성 되는 로그 파일에 복사 됩니다. 앞서 설명한 것처럼 저널 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다.  <br/> | `/encrypt` <br/> |
     | `/logdir:` <br/> |이 선택적 매개 변수는 로그 파일을 저장할 폴더를 지정합니다. 지정하지 않으면 로그 파일은 WAImportExport.exe 도구가 있는 동일한 폴더에 저장됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/logdir:"c:\users\admin\desktop\PstImportLogs"` <br/> |
@@ -198,7 +198,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
 
 ## <a name="step-3-create-the-pst-import-mapping-file"></a>3 단계: PST 가져오기 매핑 파일 만들기
 
-Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역으로 pst 파일을 업로드 한 후에는 가져오기 서비스가 pst 가져오기 매핑 파일 (쉼표로 구분 된 값) 파일의 정보를 사용 하 여 사용자 사서함 파일을로 가져옵니다. PST 가져오기 작업을 만드는 다음 단계에서 이 CSV 파일을 제출합니다.
+Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역으로 PST 파일을 업로드 한 후에는 가져오기 서비스가 pst 가져오기 매핑 파일 (쉼표로 구분 된 값) 파일의 정보를 사용 하 여 사용자 사서함 파일을로 가져옵니다. PST 가져오기 작업을 만드는 다음 단계에서 이 CSV 파일을 제출합니다.
   
 1. [PST 가져오기 매핑 파일의 복사본을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717)합니다.
     
@@ -229,7 +229,7 @@ Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역�
     |:-----|:-----|:-----|
     | `Workload` <br/> |데이터를 가져올 Office 365 서비스를 지정 합니다. PST 파일을 사용자 사서함으로 가져오려면을 사용 `Exchange`합니다.  <br/> | `Exchange` <br/> |
     | `FilePath` <br/> | 하드 드라이브를 Microsoft로 배송 했을 때 PST 파일이 복사 될 Azure storage 영역의 폴더 위치를 지정 합니다.  <br/>  CSV 파일에서이 열에 추가 하는 `/dstdir:` 작업은 이전 단계의 매개 변수에 대해 지정한 사항에 따라 달라 집니다. 원본 위치에 하위 폴더가 있는 경우 `FilePath` 매개 변수의 값은 하위 폴더의 상대 경로를 포함 해야 합니다. 예를 들면/folder1/user1/. 있습니다.  <br/>  를 사용한 `/dstdir:"ingestiondata/"`경우 CSV 파일에서이 매개 변수를 비워 둡니다.  <br/>  예 `/dstdir:` `/dstdir:"ingestiondata/FILESERVER01/PSTs"`를 들어, 매개 변수 값으로 선택적 경로 이름을 포함 한 경우 CSV 파일에서이 매개 변수에 대해이 경로를 사용 합니다 ("ingestiondata" 포함 안 됨). 이 매개 변수의 값은 대/소문자를 구분 합니다.  <br/>  두 방법 중 어느 것이 든 `FilePath` 매개 변수의 값에 "ingestiondata"를 포함 *하지 마십시오* . 이 매개 변수를 비워 두거나 optional pathname만 지정 합니다.  <br/> > [!IMPORTANT]> 파일 경로 이름의 대/소문자를 이전 단계의 `/dstdir:` 매개 변수에 지정한 것과 동일 하 게 지정 해야 합니다. 예를 들어 이전 단계에서 `"ingestiondata/FILESERVER01/PSTs"` 하위 폴더 이름을 사용 했지만 CSV 파일의 `fileserver01/psts` `FilePath` 매개 변수에서 사용 하는 경우 PST 파일에 대 한 가져오기가 실패 합니다. 두 인스턴스에서 같은 대/소문자를 사용 해야 합니다.           |(공백으로 둠)  <br/> 또는  <br/>  `FILESERVER01/PSTs` <br/> |
-    | `Name` <br/> |사용자 사서함으로 가져올 PST 파일의 이름을 지정합니다. 이 매개 변수의 값은 대/소문자를 구분 합니다.  <br/> > [!IMPORTANT]> CSV 파일의 pst 파일 이름에 대 한 사례는 2 단계에서 Azure 저장소 위치로 업로드 된 pst 파일과 동일 해야 합니다. 예를 들어 CSV 파일의 `annb.pst` `Name` 매개 변수에서 사용 하는 경우 실제 PST 파일 `AnnB.pst`의 이름은 해당 pst 파일에 대 한 가져오기가 실패 합니다. CSV 파일의 PST 이름에 실제 PST 파일과 동일한 대/소문자가 사용 되는지 확인해 보십시오.           | `annb.pst` <br/> |
+    | `Name` <br/> |사용자 사서함으로 가져올 PST 파일의 이름을 지정합니다. 이 매개 변수의 값은 대/소문자를 구분 합니다.  <br/> > [!IMPORTANT]> CSV 파일의 PST 파일 이름에 대 한 사례는 2 단계에서 Azure 저장소 위치로 업로드 된 PST 파일과 동일 해야 합니다. 예를 들어 CSV 파일의 `annb.pst` `Name` 매개 변수에서 사용 하는 경우 실제 PST 파일 `AnnB.pst`의 이름은 해당 pst 파일에 대 한 가져오기가 실패 합니다. CSV 파일의 PST 이름에 실제 PST 파일과 동일한 대/소문자가 사용 되는지 확인해 보십시오.           | `annb.pst` <br/> |
     | `Mailbox` <br/> |PST 파일을 가져올 사서함의 전자 메일 주소를 지정합니다.  PST 가져오기 서비스는 공용 폴더에 PST 파일 가져오기를 지원하지 않으므로 공용 폴더를 지정할 수 없습니다.  <br/> PST 파일을 비활성 사서함으로 가져오려면이 매개 변수의 사서함 GUID를 지정 해야 합니다. 이 GUID를 얻으려면 Exchange Online에서 다음 PowerShell 명령을 실행 합니다.`Get-Mailbox <identity of inactive mailbox> -InactiveMailboxOnly | FL Guid` <br/> > [!NOTE]> 경우에 따라 동일한 전자 메일 주소를 사용 하는 여러 개의 사서함이 있고, 하나의 사서함이 활성 사서함이 고, 다른 사서함이 일시 삭제 (또는 비활성 상태) 상태인 경우를 예로 들 수 있습니다. 이러한 상황에서는 PST 파일을 가져올 사서함을 고유 하 게 식별 하는 사서함 GUID를 지정 해야 합니다. 활성 사서함에 대해이 GUID를 가져오려면 다음 PowerShell 명령을 실행 `Get-Mailbox <identity of active mailbox> | FL Guid`합니다. 일시 삭제 된 (또는 비활성) 사서함의 GUID를 가져오려면 다음 `Get-Mailbox <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`명령을 실행 합니다.           | `annb@contoso.onmicrosoft.com` <br/> 또는  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
     | `IsArchive` <br/> | PST 파일을 사용자의 보관 사서함으로 가져올 것인지 여부를 지정합니다. 다음 두 가지 옵션이 있습니다.  <br/> **FALSE** PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> **TRUE** PST 파일을 사용자의 보관 사서함으로 가져옵니다. This assumes that the [user's archive mailbox is enabled](enable-archive-mailboxes.md). 이 매개 변수를로 `TRUE` 설정 하 고 사용자의 보관 사서함을 사용할 수 없는 경우 해당 사용자에 대 한 가져오기가 실패 합니다. 해당 보관이 설정 되지 않고이 속성이로 `TRUE`설정 되어 있기 때문에 한 사용자에 대 한 가져오기가 실패 하면 가져오기 작업의 다른 사용자에 게 영향을 주지 않습니다.  <br/>  If you leave this parameter blank, the PST file is imported to the user's primary mailbox.  <br/> **참고:** 기본 사서함이 온-프레미스에 있는 사용자의 클라우드 기반 보관 사서함으로 PST 파일을 가져오려면이 매개 변수를 지정 `TRUE` 하 고 `Mailbox` 매개 변수의 사용자 온-프레미스 사서함에 대 한 전자 메일 주소를 지정 하면 됩니다.  <br/> | `FALSE` <br/> 또는  <br/>  `TRUE` <br/> |
     | `TargetRootFolder` <br/> | PST 파일을 가져올 사서함 폴더를 지정 합니다.  <br/>  이 매개 변수를 비워 두면 PST를 사서함의 루트 수준 (받은 편지함 폴더 및 **** 다른 기본 사서함 폴더와 같은 수준)에 있는 새 폴더로 가져오게 됩니다.  <br/>  지정 `/`하는 경우 PST 파일의 항목을 사용자의 받은 편지함 폴더로 직접 가져옵니다.  <br/>  지정 `/<foldername>`하는 경우 PST 파일의 항목을 * \<foldername\> * 이라는 폴더로 가져옵니다. 예를 들어를 사용 `/ImportedPst`하는 경우에는 항목을 **importedpst**라는 폴더로 가져옵니다. 이 폴더는 받은 편지함 폴더와 같은 수준에 있는 사용자의 사서함에 배치 됩니다.  <br/> |(공백으로 둠)  <br/> 또는  <br/>  `/` <br/> 또는  <br/>  `/ImportedPst` <br/> |
@@ -240,7 +240,7 @@ Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역�
 
 ## <a name="step-4-create-a-pst-import-job-in-office-365"></a>4단계: Office 365에서 PST 가져오기 작업 만들기
 
-다음 단계에서는 Office 365의 가져오기 서비스에 PST 가져오기 작업을 만듭니다. 앞서 설명한 것처럼 3단계에서 만든 PST 가져오기 매핑 파일을 전송합니다. 새 작업을 만든 후에는 가져오기 서비스가 매핑 파일의 정보를 사용 하 여 pst 파일이 하드 드라이브에서 Azure 저장소 영역으로 복사 된 후에 지정한 사용자 사서함으로 pst 파일을 가져오고 가져오기 작업을 만들고 시작 합니다.
+다음 단계에서는 Office 365의 가져오기 서비스에 PST 가져오기 작업을 만듭니다. 앞서 설명한 것처럼 3단계에서 만든 PST 가져오기 매핑 파일을 전송합니다. 새 작업을 만든 후에는 가져오기 서비스가 매핑 파일의 정보를 사용 하 여 pst 파일이 하드 드라이브에서 Azure 저장소 영역으로 복사 된 후에 지정한 사용자 사서함으로 PST 파일을 가져오고 가져오기 작업을 만들고 시작 합니다.
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
@@ -263,12 +263,12 @@ Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역�
   
 7. **드라이브 파일 선택** 페이지에서 **드라이브 파일 선택을**클릭 한 다음 waimportexport .exe 도구가 있는 동일한 폴더로 이동 합니다. 2단계에서 만든 저널 파일이 이 폴더에 복사되었습니다.
     
-    ![waimportexport 도구를 실행할 때 만든 저널 파일을 전송 하려면 드라이브 파일 선택을 클릭 합니다.](media/1ea35c04-bd88-4d7e-b7d9-dc390149d94f.png)
+    ![WAImportExport 도구를 실행할 때 만든 저널 파일을 전송 하려면 드라이브 파일 선택을 클릭 합니다.](media/1ea35c04-bd88-4d7e-b7d9-dc390149d94f.png)
   
 8. 저널 파일을 선택 합니다. 예를 `PSTHDD1.jrn`들면입니다.
     
     > [!TIP]
-    > 2 단계에서 waimportexport .exe 도구를 실행 하면 저널 파일의 이름이 `/j:` 매개 변수에 의해 지정 됩니다. 
+    > 2 단계에서 WAImportExport .exe 도구를 실행 하면 저널 파일의 이름이 `/j:` 매개 변수에 의해 지정 됩니다. 
   
 9. 드라이브 파일 이름 아래의 드라이브 파일 이름을 확인 한 **** 후에는 **확인** 을 클릭 하 여 드라이브 파일에서 오류를 검사 합니다. 
     
@@ -285,7 +285,7 @@ Microsoft data center 직원이 하드 드라이브에서 Azure storage 영역�
     
     ![매핑 파일 선택을 클릭 하 여 가져오기 작업을 위해 만든 CSV 파일을 제출 합니다.](media/d30b1d73-80bb-491e-a642-a21673d06889.png)
   
-12. csv 파일 이름이 **매핑 파일 이름**아래에 표시 되 면 **유효성 검사** 를 클릭 하 여 csv 파일에 오류가 있는지 확인 합니다. 
+12. CSV 파일 이름이 **매핑 파일 이름**아래에 표시 되 면 **유효성 검사** 를 클릭 하 여 csv 파일에 오류가 있는지 확인 합니다. 
     
     ![유효성 검사를 클릭 하 여 CSV 파일에서 오류를 확인 합니다.](media/4680999d-5538-4059-b878-2736a5445037.png)
   
@@ -352,7 +352,7 @@ Microsoft에 하드 드라이브를 발송한 후 가져오기 서비스 페이�
 
 Microsoft에서 하드 드라이브를 받은 후에는 **가져오기** 페이지에서 가져오기 작업의 상태가 **수신 된 드라이브로**변경 됩니다. 데이터 센터 직원은 저널 파일의 정보를 사용 하 여 PST 파일을 조직의 Azure storage 영역에 업로드 합니다. 이제 상태는 **가져오기 진행 중**으로 바뀝니다. 앞에서 설명한 것 처럼, PST 파일을 업로드 하기 위해 하드 드라이브를 받으면 7 일에서 영업일까지 소요 됩니다.
   
-PST 파일이 Azure에 업로드 되 면 상태가 **분석 중**으로 변경 됩니다. 이는 Office 365이 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 하 여 항목의 보존 기간 및 pst 파일에 포함 된 다양 한 메시지 유형을 식별 하는 것을 의미 합니다. 분석이 완료 되 고 데이터를 가져올 준비가 되 면 가져오기 작업의 상태가 **분석 완료**로 변경 됩니다. 이때 PST 파일에 포함 된 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 잘라낼 수 있습니다.
+PST 파일이 Azure에 업로드 되 면 상태가 **분석 중**으로 변경 됩니다. 이는 Office 365이 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 하 여 항목의 보존 기간 및 PST 파일에 포함 된 다양 한 메시지 유형을 식별 하는 것을 의미 합니다. 분석이 완료 되 고 데이터를 가져올 준비가 되 면 가져오기 작업의 상태가 **분석 완료**로 변경 됩니다. 이때 PST 파일에 포함 된 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 잘라낼 수 있습니다.
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
@@ -374,7 +374,7 @@ PST 파일이 Azure에 업로드 되 면 상태가 **분석 중**으로 변경 �
     
     위한. 가져오는 데이터를 트리밍하려면 **예, 가져오기 전에 필터링**합니다 .를 클릭 합니다.
     
-    pst 파일의 데이터를 필터링 한 다음 가져오기 작업을 시작 하는 방법에 대 한 자세한 단계별 지침은 [pst 파일을 Office 365로 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)을 참조 하십시오.
+    PST 파일의 데이터를 필터링 한 다음 가져오기 작업을 시작 하는 방법에 대 한 자세한 단계별 지침은 [pst 파일을 Office 365로 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)을 참조 하십시오.
     
     또는
     
@@ -386,13 +386,13 @@ PST 파일이 Azure에 업로드 되 면 상태가 **분석 중**으로 변경 �
 
 ## <a name="view-a-list-of-the-pst-files-uploaded-to-office-365"></a>Office 365에 업로드 된 PST 파일 목록 보기
 
-microsoft azure storage Explorer (무료, 오픈 소스 도구)를 설치 및 사용 하 여 microsoft 데이터 센터 직원이 업로드 한 PST 파일 목록을 조직의 Azure Storage 영역에 볼 수 있습니다. 이 작업을 수행 하 여 Microsoft로 보낸 하드 드라이브의 PST 파일이 Azure storage 영역에 성공적으로 업로드 되었는지 확인할 수 있습니다.
+Microsoft Azure Storage Explorer (무료, 오픈 소스 도구)를 설치 및 사용 하 여 Microsoft 데이터 센터 직원이 업로드 한 PST 파일 목록을 조직의 Azure Storage 영역에 볼 수 있습니다. 이 작업을 수행 하 여 Microsoft로 보낸 하드 드라이브의 PST 파일이 Azure storage 영역에 성공적으로 업로드 되었는지 확인할 수 있습니다.
   
 Microsoft Azure Storage Explorer가 미리 보기에 있습니다.
   
  **중요:** Azure 저장소 탐색기를 사용 하 여 PST 파일을 업로드 하거나 수정할 수 없습니다. PST 파일을 Office 365로 가져오는 유일한 방법은 AzCopy을 사용 하는 것입니다. 또한 Azure blob에 업로드 한 PST 파일은 삭제할 수 없습니다. PST 파일을 삭제 하려고 하면 필요한 사용 권한이 없다는 오류 메시지가 표시 됩니다. 모든 PST 파일이 Azure 저장소 영역에서 자동으로 삭제 됩니다. 진행 중인 가져오기 작업이 없는 경우 * * ingestiondata * * 컨테이너의 모든 PST 파일은 가장 최근 가져오기 작업을 만든 후 30 일이 지나면 삭제 됩니다. 
   
-azure 저장소 탐색기를 설치 하 고 azure storage 영역에 연결 하려면 다음을 수행 합니다.
+Azure 저장소 탐색기를 설치 하 고 Azure storage 영역에 연결 하려면 다음을 수행 합니다.
   
 1. 조직의 SAS (공유 액세스 서명) URL을 가져오려면 다음 단계를 수행 합니다. 이 URL은 조직에 대 한 Microsoft 클라우드의 Azure 저장소 위치 및 SAS 키에 대 한 네트워크 URL의 조합입니다. 이 키는 조직의 Azure 저장소 위치에 액세스 하는 데 필요한 사용 권한을 제공 합니다.
     
@@ -423,11 +423,11 @@ azure 저장소 탐색기를 설치 하 고 azure storage 영역에 연결 하�
   
 4. **SAS (공유 액세스 서명) URI 또는 연결 문자열 사용** 을 클릭 하 고 **다음**을 클릭 합니다.
     
-5. **SAS uri 사용**을 클릭 하 고 1 단계에서 가져온 sas URL을 **URI**아래의 상자에 붙여넣은 후 **다음**을 클릭 합니다.
+5. **SAS Uri 사용**을 클릭 하 고 1 단계에서 가져온 sas URL을 **URI**아래의 상자에 붙여넣은 후 **다음**을 클릭 합니다.
     
 6. **연결 요약** 페이지에서 연결 정보를 검토 하 고 **연결**을 클릭할 수 있습니다.
     
-    **ingestiondata** 컨테이너가 열려 있습니다. 하드 드라이브의 PST 파일이 들어 있습니다. **ingestiondata** 컨테이너는 **저장소 계정** \> **(SAS 연결 서비스)** \> **Blob 컨테이너**에 있습니다.
+    **Ingestiondata** 컨테이너가 열려 있습니다. 하드 드라이브의 PST 파일이 들어 있습니다. **Ingestiondata** 컨테이너는 **저장소 계정** \> **(SAS 연결 서비스)** \> **Blob 컨테이너**에 있습니다.
     
     ![Azure 저장소 탐색기는 사용자가 업로드한 PST 파일 목록이 표시됩니다.](media/12376fed-13a5-4a09-8fe6-e819e011b334.png)
   
@@ -440,10 +440,10 @@ azure 저장소 탐색기를 설치 하 고 azure storage 영역에 연결 하�
 ## <a name="troubleshooting-tips"></a>문제 해결 팁
 <a name="troubleshootingtips"> </a>
 
-- **PST 가져오기 CSV 매핑 파일의 오류로 인해 가져오기 작업이 실패 하는 경우 어떻게 되나요?** 매핑 파일의 오류로 인해 가져오기 작업이 실패 하는 경우 새 가져오기 작업을 만들기 위해 하드 드라이브를 Microsoft에 다시 제공 하지 않아도 됩니다. 드라이브 배달 가져오기 작업을 위해 제출한 하드 드라이브의 PST 파일이 조직의 Azure storage 영역에 이미 업로드 되었기 때문입니다. 이 경우 PST 가져오기 CSV 매핑 파일의 오류를 수정한 다음 새 "네트워크 업로드" 가져오기 작업을 만들고 수정한 CSV 매핑 파일을 전송 하기만 하면 됩니다. 새 네트워크 업로드 가져오기 작업을 만들고 시작 하려면 [5 단계: office 365에서 pst 가져오기 작업 만들기](use-network-upload-to-import-pst-files.md#step-5-create-a-pst-import-job-in-office-365) 및 6 단계: "네트워크 업로드를 사용 하 여 Office 365로 pst 파일 가져오기" 항목에서 [pst 가져오기 작업을 시작](use-network-upload-to-import-pst-files.md#step-6-filter-data-and-start-the-pst-import-job) 합니다. 
+- **PST 가져오기 CSV 매핑 파일의 오류로 인해 가져오기 작업이 실패 하는 경우 어떻게 되나요?** 매핑 파일의 오류로 인해 가져오기 작업이 실패 하는 경우 새 가져오기 작업을 만들기 위해 하드 드라이브를 Microsoft에 다시 제공 하지 않아도 됩니다. 드라이브 배달 가져오기 작업을 위해 제출한 하드 드라이브의 PST 파일이 조직의 Azure storage 영역에 이미 업로드 되었기 때문입니다. 이 경우 PST 가져오기 CSV 매핑 파일의 오류를 수정한 다음 새 "네트워크 업로드" 가져오기 작업을 만들고 수정한 CSV 매핑 파일을 전송 하기만 하면 됩니다. 새 네트워크 업로드 가져오기 작업을 만들고 시작 하려면 [5 단계: office 365에서 Pst 가져오기 작업 만들기](use-network-upload-to-import-pst-files.md#step-5-create-a-pst-import-job-in-office-365) 및 6 단계: "네트워크 업로드를 사용 하 여 Office 365로 pst 파일 가져오기" 항목에서 [pst 가져오기 작업을 시작](use-network-upload-to-import-pst-files.md#step-6-filter-data-and-start-the-pst-import-job) 합니다. 
     
     > [!NOTE]
-    > pst 가져오기 CSV 매핑 파일 문제를 해결 하는 데 도움이 되도록 [azure storage Explorer](#view-a-list-of-the-pst-files-uploaded-to-office-365) 도구를 사용 하 여 azure 저장소 영역으로 업로드 된 하드 드라이브의 PST 파일에 대 한 **ingestiondata** 컨테이너의 폴더 구조를 확인 합니다. 매핑 파일 오류는 일반적으로 FilePath 매개 변수에 잘못 된 값으로 인해 발생 합니다. 이 매개 변수는 Azure 저장소 영역에서 PST 파일의 위치를 지정 합니다. [3 단계의](#step-3-create-the-pst-import-mapping-file)표에서 FilePath 매개 변수에 대 한 설명을 참조 하십시오. 앞에서 설명한 것 처럼, [2 단계](#step-2-copy-the-pst-files-to-the-hard-drive)에서 waimportexport .exe 도구를 실행할 때 Azure `/dstdir:` 저장소 영역에 있는 PST 파일의 위치는 매개 변수로 지정 했습니다. 
+    > PST 가져오기 CSV 매핑 파일 문제를 해결 하는 데 도움이 되도록 [Azure Storage Explorer](#view-a-list-of-the-pst-files-uploaded-to-office-365) 도구를 사용 하 여 azure 저장소 영역으로 업로드 된 하드 드라이브의 PST 파일에 대 한 **ingestiondata** 컨테이너의 폴더 구조를 확인 합니다. 매핑 파일 오류는 일반적으로 FilePath 매개 변수에 잘못 된 값으로 인해 발생 합니다. 이 매개 변수는 Azure 저장소 영역에서 PST 파일의 위치를 지정 합니다. [3 단계의](#step-3-create-the-pst-import-mapping-file)표에서 FilePath 매개 변수에 대 한 설명을 참조 하십시오. 앞에서 설명한 것 처럼, [2 단계](#step-2-copy-the-pst-files-to-the-hard-drive)에서 WAImportExport .exe 도구를 실행할 때 Azure `/dstdir:` 저장소 영역에 있는 PST 파일의 위치는 매개 변수로 지정 했습니다. 
   
 
   
@@ -502,7 +502,7 @@ azure 저장소 탐색기를 설치 하 고 azure storage 영역에 연결 하�
     
   - 일정 기간이 지난 후에는 `Set-Mailbox -RetentionHoldEnabled $false` 명령을 실행 하 여 보존 상태를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://go.microsoft.com/fwlink/p/?LinkId=544749)를 참조 하십시오.
     
-  - 나중에 특정 날짜에 해제 되도록 보존 기능을 구성할 수 있습니다. `Set-Mailbox -EndDateForRetentionHold <date>` 명령을 실행 하 여이 작업을 수행 합니다. 예를 들어 오늘 날짜가 6 월 1 일, 30 일 이내에 보존을 해제 하려는 경우에는 다음 명령을 실행 합니다 `Set-Mailbox -EndDateForRetentionHold 7/1/2016`. 이 시나리오에서는 *RentionHoldEnabled* 속성을 *True*로 설정 합니다. 자세한 내용은 [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317)를 참조 하십시오.
+  - 나중에 특정 날짜에 해제 되도록 보존 기능을 구성할 수 있습니다. `Set-Mailbox -EndDateForRetentionHold <date>` 명령을 실행 하 여이 작업을 수행 합니다. 예를 들어 오늘 날짜가 6 월 1 일 2016, 30 일 이내에 보존을 해제 하려는 경우에는 다음 명령을 실행 합니다. 이 시나리오에서는 *RentionHoldEnabled* 속성을 *True*로 설정 합니다. 자세한 내용은 [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317)를 참조 하십시오.
     
   - 사서함에 할당 된 보존 정책의 설정을 변경 하 여 가져온 이전 항목을 즉시 삭제 하거나 사용자의 보관 사서함으로 이동할 수는 없습니다. 예를 들어 사서함에 할당 된 삭제 또는 보관 정책의 보존 기간을 늘릴 수 있습니다. 이 시나리오에서는 보존 정책 설정을 변경한 후 사서함에 대 한 보존을 해제 합니다. 자세한 내용은 [Office 365 조 직에서 사서함에 대 한 보관 및 삭제 정책 설정을](set-up-an-archive-and-deletion-policy-for-mailboxes.md)참조 하십시오.
     

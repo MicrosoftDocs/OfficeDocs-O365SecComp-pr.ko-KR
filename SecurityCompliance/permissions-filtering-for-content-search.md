@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 5/14/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 1adffc35-38e5-4f7d-8495-8e0e8721f377
 description: 콘텐츠 검색 권한 필터링을 사용 하 여 eDiscovery 관리자가 Office 365 조직에서 사서함 및 사이트의 하위 집합만 검색 하도록 합니다.
-ms.openlocfilehash: 1e12a125390deae60cc8762318b3b6bcf0e6533f
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2260d2ddd18508a85e76f8fcdac8eb4a394f1468
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261256"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157440"
 ---
 # <a name="configure-permissions-filtering-for-content-search"></a>콘텐츠 검색에 대한 권한 필터링 구성
 
@@ -31,17 +31,17 @@ ms.locfileid: "32261256"
   
 검색 권한 필터링은 보안 & 준수 센터의 콘텐츠 검색 기능을 통해 지원 됩니다. 이러한 4 개의 cmdlet을 사용 하면 검색 permisisons 필터를 구성 하 고 관리할 수 있습니다.
   
-[new-compliancesecurityfilter](#new-compliancesecurityfilter)
+[New-compliancesecurityfilter](#new-compliancesecurityfilter)
 
-[new-compliancesecurityfilter](#get-compliancesecurityfilter)
+[New-compliancesecurityfilter](#get-compliancesecurityfilter)
 
-[new-compliancesecurityfilter](#set-compliancesecurityfilter)
+[New-compliancesecurityfilter](#set-compliancesecurityfilter)
 
-[new-compliancesecurityfilter을 제거 합니다.](#remove-compliancesecurityfilter)
+[New-compliancesecurityfilter을 제거 합니다.](#remove-compliancesecurityfilter)
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 준수 보안 필터 cmdlet을 실행 하려면 security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Security & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 준수 보안 필터 cmdlet을 실행 하려면 Security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Security _AMP_ 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
     
 - 준수 보안 필터 cmdlet을 사용 하려면 보안 & 준수 센터와 Exchange Online 조직 모두에 Windows PowerShell을 연결 해야 합니다. 이러한 cmdlet은 사서함 속성에 액세스 해야 하므로 Exchange Online에 연결 해야 하는 경우에 필요 합니다. 다음 섹션의 단계를 참조하세요. 
     
@@ -78,9 +78,9 @@ ms.locfileid: "32261256"
   
 - 가장 흔한 문제는 암호를 잘못 입력한 경우입니다. 두 가지 단계를 다시 실행하고 1단계에서 사용자 이름과 암호를 입력할 때 신중하게 확인합니다.
     
-- 계정에 Security & 준수 센터에 대 한 액세스 권한이 있는지 확인 합니다. 자세한 내용은 [사용자에 게 Security & 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
+- 계정에 Security & 준수 센터에 대 한 액세스 권한이 있는지 확인 합니다. 자세한 내용은 [사용자에 게 Security _AMP_ 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
     
-- dos (서비스 거부) 공격을 방지 하려면 보안 & 준수 센터에 세 개의 개방형 원격 PowerShell 연결만을 사용 해야 합니다.
+- DoS (서비스 거부) 공격을 방지 하려면 보안 & 준수 센터에 세 개의 개방형 원격 PowerShell 연결만을 사용 해야 합니다.
     
 - Windows PowerShell은 스크립트를 실행하도록 구성해야 합니다. 이 설정은 연결할 때마다 구성하는 것이 아니라 컴퓨터에서 한 번만 구성하면 됩니다. Windows PowerShell이 서명된 스크립트를 실행하도록 하려면 상승된 Windows PowerShell 창( **관리자 권한으로 실행**을 선택하여 열린 Windows PowerShell 창)에서 다음 명령을 실행합니다.
 
@@ -91,17 +91,17 @@ ms.locfileid: "32261256"
     
 
   
-## <a name="new-compliancesecurityfilter"></a>new-compliancesecurityfilter
+## <a name="new-compliancesecurityfilter"></a>New-compliancesecurityfilter
 <a name="New"> </a>
 
-**new-compliancesecurityfilter** 는 새 검색 권한 필터를 만드는 데 사용 됩니다. 다음 표에서는이 cmdlet의 매개 변수를 설명 합니다. 준수 보안 필터를 만들려면 모든 매개 변수가 필요합니다. 
+**New-compliancesecurityfilter** 는 새 검색 권한 필터를 만드는 데 사용 됩니다. 다음 표에서는이 cmdlet의 매개 변수를 설명 합니다. 준수 보안 필터를 만들려면 모든 매개 변수가 필요합니다. 
   
 |**매개 변수**|**설명**|
 |:-----|:-----|
-| _Action_ <br/> | _Action_ 매개 변수는 필터가 적용 되는 검색 작업 유형을 지정 합니다. 가능한 콘텐츠 검색 작업은 다음과 같습니다.  <br/><br/> **Export** -검색 결과를 내보낼 때 필터를 적용 합니다.  <br/> **미리 보기** -검색 결과를 미리 볼 때 필터가 적용 됩니다.  <br/> **Purge** -검색 결과를 지울 때 필터가 적용 됩니다.  <br/> **검색** -검색을 실행할 때 필터가 적용 됩니다.  <br/> **all** -필터가 모든 검색 작업에 적용 됩니다.  <br/> |
+| _Action_ <br/> | _Action_ 매개 변수는 필터가 적용 되는 검색 작업 유형을 지정 합니다. 가능한 콘텐츠 검색 작업은 다음과 같습니다.  <br/><br/> **Export** -검색 결과를 내보낼 때 필터를 적용 합니다.  <br/> **미리 보기** -검색 결과를 미리 볼 때 필터가 적용 됩니다.  <br/> **Purge** -검색 결과를 지울 때 필터가 적용 됩니다.  <br/> **검색** -검색을 실행할 때 필터가 적용 됩니다.  <br/> **All** -필터가 모든 검색 작업에 적용 됩니다.  <br/> |
 | _FilterName_ <br/> |_FilterName_ 매개 변수는 권한 필터의 이름을 지정 합니다. 이 이름은 **Get-ComplianceSecurityFilter**, **Set-ComplianceSecurityFilter** 및 **Remove-ComplianceSecurityFilter** cmdlet을 사용할 때 필터를 식별하는 데 사용됩니다.  <br/> |
-| _필터_ <br/> | _Filters_ 매개 변수는 준수 보안 필터에 대 한 검색 조건을 지정 합니다. 다음과 같은 세 가지 서로 다른 종류의 필터를 만들 수 있습니다.  <br/><br/> **사서함 필터링** -이 필터 유형은 할당 된 사용자 ( _users_ 매개 변수로 지정)가 검색할 수 있는 사서함을 지정 합니다. 이 필터 유형의 구문은 검색할 수 있는 사서함의 범위를 지정 __ 하는 데 사용 되는 사서함 속성을 **Mailbox_** _MailboxPropertyName_입니다. 예를 들어 사서함 필터 `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` 를 사용 하 여이 필터를 할당 받은 사용자는 CustomAttribute10 속성의 "ottawausers" 값이 있는 검색 사서함에만 허용 됩니다.  <br/>  _MailboxPropertyName_ 속성에는 지원 되는 모든 필터링 가능한 받는 사람 속성을 사용할 수 있습니다. 지원 되는 속성 목록을 보려면 [-RecipientFilter 매개 변수의 필터링 할 수 있는 속성](https://go.microsoft.com/fwlink/p/?LinkId=784903)을 참조 하십시오.  <br/><br/> **사서함 콘텐츠 필터링** -이 유형의 필터가 검색할 수 있는 콘텐츠에 적용 됩니다. 할당 된 사용자가 검색할 수 있는 사서함 콘텐츠를 지정 합니다. 이러한 유형의 필터에 대 한 구문은 **MailboxContent_** _searchablepropertyname: value_이며, _searchablepropertyname_ 은 콘텐츠 검색에 지정할 수 있는 KQL (Keyword Query Language) 속성을 지정 합니다. 예를 들어 사서함 콘텐츠 필터 `MailboxContent_recipients:contoso.com` 를 사용 하 여이 필터를 할당 받은 사용자는 contoso.com 도메인의 받는 사람에 게 전송 된 메시지만 검색할 수 있습니다.  <br/>  검색 가능한 메시지 속성 목록은 [Keyword queries and search 조건문 for Content search](keyword-queries-and-search-conditions.md)을 참조 하십시오.  <br/><br/> **사이트 및 사이트 콘텐츠 필터링** -할당 된 사용자가 검색할 수 있는 사이트 또는 사이트 콘텐츠를 지정 하는 데 사용할 수 있는 두 가지 SharePoint 및 비즈니스용 OneDrive 사이트 관련 필터가 있습니다.  <br/><br/> - **Site_** _SearchableSiteProperty_ <br/> - **SiteContent_** _SearchableSiteProperty_ <br/><br/>  이러한 두 필터는 상호 호환이 가능 합니다. 예를 `"Site_Path -like 'https://contoso.sharepoint.com/sites/doctors*'"` 들어 `"SiteContent_Path -like 'https://contoso.sharepoint.com/sites/doctors*'"` 와 같은 결과가 반환 됩니다. 그러나 필터에서 수행 하는 작업을 식별 하는 데 도움이 `Site_` 되도록 사이트 관련 속성 (예: site URL)을 지정 하 고 `SiteContent_` 콘텐츠 관련 속성 (예: 문서 유형)을 지정 하는 데 사용할 수 있습니다. 예를 들어 필터 `"Site_Path -like 'https://contoso.sharepoint.com/sites/doctors*'"` 를 사용 하 여이 필터를 할당 받은 사용자가 https://contoso.sharepoint.com/sites/doctors 사이트 모음의 콘텐츠만 검색할 수 있도록 허용 합니다. 필터 `"SiteContent_FileExtension -eq 'docx'"` 를 사용 하면이 필터를 할당 한 사용자가 word 문서 (word 2007 이상)만 검색할 수 있습니다.  <br/><br/>  검색 가능한 사이트 속성 목록은 [SharePoint의 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. * * 쿼리 가능 * * 열에서 **예** 로 표시 된 속성을 사용 하 여 사이트 또는 사이트 콘텐츠 필터를 만들 수 있습니다.  <br/> <br/> **중요:**  단일 검색 필터에는 한 가지 유형의 필터만 있을 수 있습니다. 사서함 필터 및 사이트 필터를 포함할 수 없습니다. 마찬가지로 사서함 필터와 사서함 콘텐츠 필터를 포함할 수 없습니다. 그러나 필터는 같은 유형의 보다 복잡 한 쿼리를 포함할 수 있습니다. 예를 들어`"Mailbox_CustomAttribute10 -eq 'FTE' -and Mailbox_MemberOfGroup -eq '$($DG.DistinguishedName)'"` <br/><br/> **중요:** 사용자가 특정 Office 365 서비스에서 콘텐츠 위치를 검색 하지 못하도록 명시적으로 허용 하려면 검색 권한 필터를 만들어야 합니다 (예: Exchange 사서함 또는 SharePoint 사이트를 검색 하지 못하게 함). 즉, 사용자가 조직의 모든 SharePoint 사이트를 검색할 수 있도록 하는 검색 권한 필터를 만들면 해당 사용자가 사서함을 검색할 수 없습니다. 예를 들어 sharepoint 관리자가 sharepoint 사이트만 검색 하도록 허용 하려면 사서함을 검색할 수 없도록 하는 필터를 만들어야 합니다. 마찬가지로 Exchange 관리자만 검색 사서함을 허용 하려면 사이트 검색을 차단 하는 필터를 만들어야 합니다.           |
-| _사용자_ <br/> |_users_ 매개 변수는이 필터가 콘텐츠 검색에 적용 되는 사용자를 지정 합니다. 별칭 또는 기본 SMTP 주소로 사용자를 식별합니다. 여러 값을 쉼표로 구분하여 지정하거나 **All** 값을 사용하여 모든 사용자에게 필터를 할당할 수 있습니다.  <br/> _Users_ 매개 변수를 사용 하 여 보안 & 준수 센터 역할 그룹을 지정할 수도 있습니다. 이렇게 하면 사용자 지정 역할 그룹을 만든 다음 해당 역할 그룹에 검색 권한 필터를 할당할 수 있습니다. 예를 들어 국내 회사의 미국 자회사에 대해 eDiscovery 관리자에 대 한 사용자 지정 역할 그룹을 사용 한다고 가정해 보겠습니다. _Users_ 매개 변수를 사용 하 여 역할 그룹의 Name 속성을 사용 하 여이 역할 그룹을 지정 하 고 _Filter_ 매개 변수를 사용 하 여 미국에 있는 사서함만 검색할 수 있습니다.  <br/> 이 매개 변수로 메일 그룹을 지정할 수는 없습니다.  <br/> |
+| _필터_ <br/> | _Filters_ 매개 변수는 준수 보안 필터에 대 한 검색 조건을 지정 합니다. 다음과 같은 세 가지 서로 다른 종류의 필터를 만들 수 있습니다.  <br/><br/> **사서함 필터링** -이 필터 유형은 할당 된 사용자 ( _users_ 매개 변수로 지정)가 검색할 수 있는 사서함을 지정 합니다. 이 필터 유형의 구문은 검색할 수 있는 사서함의 범위를 지정 __ 하는 데 사용 되는 사서함 속성을 **Mailbox_** _MailboxPropertyName_입니다. 예를 들어 사서함 필터 `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` 를 사용 하 여이 필터를 할당 받은 사용자는 CustomAttribute10 속성의 "OttawaUsers" 값이 있는 검색 사서함에만 허용 됩니다.  <br/>  _MailboxPropertyName_ 속성에는 지원 되는 모든 필터링 가능한 받는 사람 속성을 사용할 수 있습니다. 지원 되는 속성 목록을 보려면 [-RecipientFilter 매개 변수의 필터링 할 수 있는 속성](https://go.microsoft.com/fwlink/p/?LinkId=784903)을 참조 하십시오.  <br/><br/> **사서함 콘텐츠 필터링** -이 유형의 필터가 검색할 수 있는 콘텐츠에 적용 됩니다. 할당 된 사용자가 검색할 수 있는 사서함 콘텐츠를 지정 합니다. 이러한 유형의 필터에 대 한 구문은 **MailboxContent_** _searchablepropertyname: Value_이며, _Searchablepropertyname_ 은 콘텐츠 검색에 지정할 수 있는 KQL (Keyword Query Language) 속성을 지정 합니다. 예를 들어 사서함 콘텐츠 필터 `MailboxContent_recipients:contoso.com` 를 사용 하 여이 필터를 할당 받은 사용자는 contoso.com 도메인의 받는 사람에 게 전송 된 메시지만 검색할 수 있습니다.  <br/>  검색 가능한 메시지 속성 목록은 [Keyword queries and search 조건문 For Content search](keyword-queries-and-search-conditions.md)을 참조 하십시오.  <br/><br/> **사이트 및 사이트 콘텐츠 필터링** -할당 된 사용자가 검색할 수 있는 사이트 또는 사이트 콘텐츠를 지정 하는 데 사용할 수 있는 두 가지 SharePoint 및 비즈니스용 OneDrive 사이트 관련 필터가 있습니다.  <br/><br/> - **Site_** _SearchableSiteProperty_ <br/> - **SiteContent_** _SearchableSiteProperty_ <br/><br/>  이러한 두 필터는 상호 호환이 가능 합니다. 예를 `"Site_Path -like 'https://contoso.sharepoint.com/sites/doctors*'"` 들어 `"SiteContent_Path -like 'https://contoso.sharepoint.com/sites/doctors*'"` 와 같은 결과가 반환 됩니다. 그러나 필터에서 수행 하는 작업을 식별 하는 데 도움이 `Site_` 되도록 사이트 관련 속성 (예: site URL)을 지정 하 고 `SiteContent_` 콘텐츠 관련 속성 (예: 문서 유형)을 지정 하는 데 사용할 수 있습니다. 예를 들어 필터 `"Site_Path -like 'https://contoso.sharepoint.com/sites/doctors*'"` 를 사용 하 여이 필터를 할당 받은 사용자가 https://contoso.sharepoint.com/sites/doctors 사이트 모음의 콘텐츠만 검색할 수 있도록 허용 합니다. 필터 `"SiteContent_FileExtension -eq 'docx'"` 를 사용 하면이 필터를 할당 한 사용자가 word 문서 (word 2007 이상)만 검색할 수 있습니다.  <br/><br/>  검색 가능한 사이트 속성 목록은 [SharePoint의 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. * * 쿼리 가능 * * 열에서 **예** 로 표시 된 속성을 사용 하 여 사이트 또는 사이트 콘텐츠 필터를 만들 수 있습니다.  <br/> <br/> **중요:**  단일 검색 필터에는 한 가지 유형의 필터만 있을 수 있습니다. 사서함 필터 및 사이트 필터를 포함할 수 없습니다. 마찬가지로 사서함 필터와 사서함 콘텐츠 필터를 포함할 수 없습니다. 그러나 필터는 같은 유형의 보다 복잡 한 쿼리를 포함할 수 있습니다. 예를 들어`"Mailbox_CustomAttribute10 -eq 'FTE' -and Mailbox_MemberOfGroup -eq '$($DG.DistinguishedName)'"` <br/><br/> **중요:** 사용자가 특정 Office 365 서비스에서 콘텐츠 위치를 검색 하지 못하도록 명시적으로 허용 하려면 검색 권한 필터를 만들어야 합니다 (예: Exchange 사서함 또는 SharePoint 사이트를 검색 하지 못하게 함). 즉, 사용자가 조직의 모든 SharePoint 사이트를 검색할 수 있도록 하는 검색 권한 필터를 만들면 해당 사용자가 사서함을 검색할 수 없습니다. 예를 들어 SharePoint 관리자가 SharePoint 사이트만 검색 하도록 허용 하려면 사서함을 검색할 수 없도록 하는 필터를 만들어야 합니다. 마찬가지로 Exchange 관리자만 검색 사서함을 허용 하려면 사이트 검색을 차단 하는 필터를 만들어야 합니다.           |
+| _사용자_ <br/> |_Users_ 매개 변수는이 필터가 콘텐츠 검색에 적용 되는 사용자를 지정 합니다. 별칭 또는 기본 SMTP 주소로 사용자를 식별합니다. 여러 값을 쉼표로 구분하여 지정하거나 **All** 값을 사용하여 모든 사용자에게 필터를 할당할 수 있습니다.  <br/> _Users_ 매개 변수를 사용 하 여 보안 _AMP_ 준수 센터 역할 그룹을 지정할 수도 있습니다. 이렇게 하면 사용자 지정 역할 그룹을 만든 다음 해당 역할 그룹에 검색 권한 필터를 할당할 수 있습니다. 예를 들어 국내 회사의 미국 자회사에 대해 eDiscovery 관리자에 대 한 사용자 지정 역할 그룹을 사용 한다고 가정해 보겠습니다. _Users_ 매개 변수를 사용 하 여 역할 그룹의 Name 속성을 사용 하 여이 역할 그룹을 지정 하 고 _Filter_ 매개 변수를 사용 하 여 미국에 있는 사서함만 검색할 수 있습니다.  <br/> 이 매개 변수로 메일 그룹을 지정할 수는 없습니다.  <br/> |
    
 
 ## <a name="examples-of-creating-search-permissions-filters"></a>검색 권한 필터를 만드는 예
@@ -145,7 +145,7 @@ $DG = Get-DistributionGroup "Executive Team"
 New-ComplianceSecurityFilter -FilterName NoExecutivesPreview  -Users all -Filters "Mailbox_MemberOfGroup -ne '$($DG.DistinguishedName)'" -Action Purge
 ```
    
-이 예에서는 onedrive eDiscovery 관리자 사용자 지정 역할 그룹의 구성원이 조직의 비즈니스용 OneDrive 위치에 있는 콘텐츠만 검색할 수 있도록 허용 합니다.
+이 예에서는 OneDrive eDiscovery 관리자 사용자 지정 역할 그룹의 구성원이 조직의 비즈니스용 OneDrive 위치에 있는 콘텐츠만 검색할 수 있도록 허용 합니다.
 
 ```
 New-ComplianceSecurityFilter -FilterName OneDriveOnly  -Users "OneDrive eDiscovery Managers" -Filters "Site_Path -like 'https://contoso-my.sharepoint.com/personal*'" -Action Search
@@ -172,20 +172,20 @@ New-ComplianceSecurityFilter -FilterName DocumentDateRestrictionFilter -Users do
 New-ComplianceSecurityFilter -FilterName NoEXO -Users "OneDrive Discovery Managers" -Filters "Mailbox_Alias -notlike '*'"  -Action All
 ```
   
-## <a name="get-compliancesecurityfilter"></a>new-compliancesecurityfilter
+## <a name="get-compliancesecurityfilter"></a>New-compliancesecurityfilter
 
-**new-compliancesecurityfilter** 는 검색 권한 필터 목록을 반환 하는 데 사용 됩니다. 특정 검색 필터에 대 한 정보를 반환 하려면 _FilterName_ 매개 변수를 사용 합니다. 
+**New-compliancesecurityfilter** 는 검색 권한 필터 목록을 반환 하는 데 사용 됩니다. 특정 검색 필터에 대 한 정보를 반환 하려면 _FilterName_ 매개 변수를 사용 합니다. 
   
-## <a name="set-compliancesecurityfilter"></a>new-compliancesecurityfilter
+## <a name="set-compliancesecurityfilter"></a>New-compliancesecurityfilter
 
-**new-compliancesecurityfilter** 는 기존 검색 권한 필터를 수정 하는 데 사용 됩니다. 필수 매개 변수는 _FilterName_뿐입니다. 
+**New-compliancesecurityfilter** 는 기존 검색 권한 필터를 수정 하는 데 사용 됩니다. 필수 매개 변수는 _FilterName_뿐입니다. 
   
 |**매개 변수**|**설명**|
 |:-----|:-----|
-| _Action_| _Action_ 매개 변수는 필터가 적용 되는 검색 작업 유형을 지정 합니다. 가능한 콘텐츠 검색 작업은 다음과 같습니다. <br/><br/> **Export** -검색 결과를 내보낼 때 필터를 적용 합니다.  <br/> **미리 보기** -검색 결과를 미리 볼 때 필터가 적용 됩니다.  <br/> **Purge** -검색 결과를 지울 때 필터가 적용 됩니다.  <br/> **검색** -검색을 실행할 때 필터가 적용 됩니다.  <br/> **all** -필터가 모든 검색 작업에 적용 됩니다.  <br/> |
+| _Action_| _Action_ 매개 변수는 필터가 적용 되는 검색 작업 유형을 지정 합니다. 가능한 콘텐츠 검색 작업은 다음과 같습니다. <br/><br/> **Export** -검색 결과를 내보낼 때 필터를 적용 합니다.  <br/> **미리 보기** -검색 결과를 미리 볼 때 필터가 적용 됩니다.  <br/> **Purge** -검색 결과를 지울 때 필터가 적용 됩니다.  <br/> **검색** -검색을 실행할 때 필터가 적용 됩니다.  <br/> **All** -필터가 모든 검색 작업에 적용 됩니다.  <br/> |
 | _FilterName_|_FilterName_ 매개 변수는 권한 필터의 이름을 지정 합니다. |
-| _필터_| _Filters_ 매개 변수는 준수 보안 필터에 대 한 검색 조건을 지정 합니다. 다음과 같은 두 가지 서로 다른 종류의 필터를 만들 수 있습니다. <br/><br/>**사서함 필터링** -이 필터 유형은 할당 된 사용자 ( _users_ 매개 변수로 지정)가 검색할 수 있는 사서함을 지정 합니다. 이 필터 유형의 구문은 검색할 수 있는 사서함의 범위를 지정 __ 하는 데 사용 되는 사서함 속성을 **Mailbox_** _MailboxPropertyName_입니다. 예를 들어 사서함 필터 `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` 를 사용 하 여이 필터를 할당 받은 사용자는 CustomAttribute10 속성의 "ottawausers" 값이 있는 검색 사서함에만 허용 됩니다.  _MailboxPropertyName_ 속성에는 지원 되는 모든 필터링 가능한 받는 사람 속성을 사용할 수 있습니다. 지원 되는 속성 목록을 보려면 [-RecipientFilter 매개 변수의 필터링 할 수 있는 속성](https://go.microsoft.com/fwlink/p/?LinkId=784903)을 참조 하십시오. <br/><br/>**사서함 콘텐츠 필터링**-이 유형의 필터가 검색할 수 있는 콘텐츠에 적용 됩니다. 할당 된 사용자가 검색할 수 있는 사서함 콘텐츠를 지정 합니다. 이러한 유형의 필터에 대 한 구문은 **MailboxContent_** _searchablepropertyname: value_이며, _searchablepropertyname_ 은 콘텐츠 검색에 지정할 수 있는 KQL (Keyword Query Language) 속성을 지정 합니다. 예를 들어 사서함 콘텐츠 필터 `MailboxContent_recipients:contoso.com` 를 사용 하 여이 필터를 할당 받은 사용자는 contoso.com 도메인의 받는 사람에 게 전송 된 메시지만 검색할 수 있습니다.  검색 가능한 메시지 속성 목록은 [Keyword queries for Content Search](keyword-queries-and-search-conditions.md)을 참조 하십시오. <br/><br/>**사이트 및 사이트 콘텐츠 필터링** 할당 된 사용자가 검색할 수 있는 사이트 또는 사이트 콘텐츠를 지정 하는 데 사용할 수 있는 두 가지 SharePoint 및 비즈니스용 OneDrive 사이트 관련 필터가 있습니다. <br/><br/>- **Site_** *SearchableSiteProperty* <br/>- **SiteContent**_*SearchableSiteProperty*<br/><br/>이러한 두 필터는 상호 호환이 가능 합니다. 예를 `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` 들어 `"SiteContent_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` 와 같은 결과가 반환 됩니다. 그러나 필터에서 수행 하는 작업을 식별 하는 데 도움이 `Site_` 되도록 사이트 관련 속성 (예: site URL)을 지정 하 고 `SiteContent_` 콘텐츠 관련 속성 (예: 문서 유형)을 지정 하는 데 사용할 수 있습니다. 예를 들어 필터 `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` 를 사용 하 여이 필터를 할당 받은 사용자가 https://contoso.spoppe.com/sites/doctors 사이트 모음의 콘텐츠만 검색할 수 있도록 허용 합니다. 필터 `"SiteContent_FileExtension -eq 'docx'"` 를 사용 하면이 필터를 할당 한 사용자가 word 문서 (word 2007 이상)만 검색할 수 있습니다.  <br/><br/>검색 가능한 사이트 속성 목록은 [SharePoint의 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. **쿼리** 가능 열에서 **예** 로 표시 된 속성을 사용 하 여 사이트 또는 사이트 콘텐츠 필터를 만들 수 있습니다. <br/><br/> **중요:** 단일 검색 필터에는 한 가지 유형의 필터만 있을 수 있습니다. 사서함 필터 및 사이트 필터를 포함할 수 없습니다. 마찬가지로 사서함 필터와 사서함 콘텐츠 필터를 포함할 수 없습니다. 그러나 필터는 같은 유형의 보다 복잡 한 쿼리를 포함할 수 있습니다. 예를 들어`"Mailbox_CustomAttribute10 -eq 'FTE' -and Mailbox_MemberOfGroup -eq '$($DG.DistinguishedName)'"`          |
-| _사용자_|_users_ 매개 변수는이 필터가 콘텐츠 검색에 적용 되는 사용자를 지정 합니다. 이 매개 변수는 다중 값 속성이므로 이 매개 변수로 사용자 또는 사용자 그룹을 지정하면 기존 사용자를 덮어쓰게 됩니다. 선택한 사용자 추가 및 제거에 대한 구문은 다음 예를 참조하세요. <br/><br/>_Users_ 매개 변수를 사용 하 여 보안 & 준수 센터 역할 그룹을 지정할 수도 있습니다. 이렇게 하면 사용자 지정 역할 그룹을 만든 다음 해당 역할 그룹에 검색 권한 필터를 할당할 수 있습니다. 예를 들어 국내 회사의 미국 자회사에 대해 eDiscovery 관리자에 대 한 사용자 지정 역할 그룹을 사용 한다고 가정해 보겠습니다. _Users_ 매개 변수를 사용 하 여 역할 그룹의 Name 속성을 사용 하 여이 역할 그룹을 지정 하 고 _Filter_ 매개 변수를 사용 하 여 미국에 있는 사서함만 검색할 수 있습니다. <br/><br/>이 매개 변수로 메일 그룹을 지정할 수는 없습니다. |
+| _필터_| _Filters_ 매개 변수는 준수 보안 필터에 대 한 검색 조건을 지정 합니다. 다음과 같은 두 가지 서로 다른 종류의 필터를 만들 수 있습니다. <br/><br/>**사서함 필터링** -이 필터 유형은 할당 된 사용자 ( _users_ 매개 변수로 지정)가 검색할 수 있는 사서함을 지정 합니다. 이 필터 유형의 구문은 검색할 수 있는 사서함의 범위를 지정 __ 하는 데 사용 되는 사서함 속성을 **Mailbox_** _MailboxPropertyName_입니다. 예를 들어 사서함 필터 `"Mailbox_CustomAttribute10 -eq 'OttawaUsers'"` 를 사용 하 여이 필터를 할당 받은 사용자는 CustomAttribute10 속성의 "OttawaUsers" 값이 있는 검색 사서함에만 허용 됩니다.  _MailboxPropertyName_ 속성에는 지원 되는 모든 필터링 가능한 받는 사람 속성을 사용할 수 있습니다. 지원 되는 속성 목록을 보려면 [-RecipientFilter 매개 변수의 필터링 할 수 있는 속성](https://go.microsoft.com/fwlink/p/?LinkId=784903)을 참조 하십시오. <br/><br/>**사서함 콘텐츠 필터링**-이 유형의 필터가 검색할 수 있는 콘텐츠에 적용 됩니다. 할당 된 사용자가 검색할 수 있는 사서함 콘텐츠를 지정 합니다. 이러한 유형의 필터에 대 한 구문은 **MailboxContent_** _searchablepropertyname: Value_이며, _Searchablepropertyname_ 은 콘텐츠 검색에 지정할 수 있는 KQL (Keyword Query Language) 속성을 지정 합니다. 예를 들어 사서함 콘텐츠 필터 `MailboxContent_recipients:contoso.com` 를 사용 하 여이 필터를 할당 받은 사용자는 contoso.com 도메인의 받는 사람에 게 전송 된 메시지만 검색할 수 있습니다.  검색 가능한 메시지 속성 목록은 [Keyword queries For Content Search](keyword-queries-and-search-conditions.md)을 참조 하십시오. <br/><br/>**사이트 및 사이트 콘텐츠 필터링** 할당 된 사용자가 검색할 수 있는 사이트 또는 사이트 콘텐츠를 지정 하는 데 사용할 수 있는 두 가지 SharePoint 및 비즈니스용 OneDrive 사이트 관련 필터가 있습니다. <br/><br/>- **Site_** *SearchableSiteProperty* <br/>- **SiteContent**_*SearchableSiteProperty*<br/><br/>이러한 두 필터는 상호 호환이 가능 합니다. 예를 `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` 들어 `"SiteContent_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` 와 같은 결과가 반환 됩니다. 그러나 필터에서 수행 하는 작업을 식별 하는 데 도움이 `Site_` 되도록 사이트 관련 속성 (예: site URL)을 지정 하 고 `SiteContent_` 콘텐츠 관련 속성 (예: 문서 유형)을 지정 하는 데 사용할 수 있습니다. 예를 들어 필터 `"Site_Path -like 'https://contoso.spoppe.com/sites/doctors*'"` 를 사용 하 여이 필터를 할당 받은 사용자가 https://contoso.spoppe.com/sites/doctors 사이트 모음의 콘텐츠만 검색할 수 있도록 허용 합니다. 필터 `"SiteContent_FileExtension -eq 'docx'"` 를 사용 하면이 필터를 할당 한 사용자가 word 문서 (word 2007 이상)만 검색할 수 있습니다.  <br/><br/>검색 가능한 사이트 속성 목록은 [SharePoint의 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. **쿼리** 가능 열에서 **예** 로 표시 된 속성을 사용 하 여 사이트 또는 사이트 콘텐츠 필터를 만들 수 있습니다. <br/><br/> **중요:** 단일 검색 필터에는 한 가지 유형의 필터만 있을 수 있습니다. 사서함 필터 및 사이트 필터를 포함할 수 없습니다. 마찬가지로 사서함 필터와 사서함 콘텐츠 필터를 포함할 수 없습니다. 그러나 필터는 같은 유형의 보다 복잡 한 쿼리를 포함할 수 있습니다. 예를 들어`"Mailbox_CustomAttribute10 -eq 'FTE' -and Mailbox_MemberOfGroup -eq '$($DG.DistinguishedName)'"`          |
+| _사용자_|_Users_ 매개 변수는이 필터가 콘텐츠 검색에 적용 되는 사용자를 지정 합니다. 이 매개 변수는 다중 값 속성이므로 이 매개 변수로 사용자 또는 사용자 그룹을 지정하면 기존 사용자를 덮어쓰게 됩니다. 선택한 사용자 추가 및 제거에 대한 구문은 다음 예를 참조하세요. <br/><br/>_Users_ 매개 변수를 사용 하 여 보안 _AMP_ 준수 센터 역할 그룹을 지정할 수도 있습니다. 이렇게 하면 사용자 지정 역할 그룹을 만든 다음 해당 역할 그룹에 검색 권한 필터를 할당할 수 있습니다. 예를 들어 국내 회사의 미국 자회사에 대해 eDiscovery 관리자에 대 한 사용자 지정 역할 그룹을 사용 한다고 가정해 보겠습니다. _Users_ 매개 변수를 사용 하 여 역할 그룹의 Name 속성을 사용 하 여이 역할 그룹을 지정 하 고 _Filter_ 매개 변수를 사용 하 여 미국에 있는 사서함만 검색할 수 있습니다. <br/><br/>이 매개 변수로 메일 그룹을 지정할 수는 없습니다. |
 
 ## <a name="examples-of-changing-search-permissions-filters"></a>검색 권한 필터 변경의 예
 
@@ -218,18 +218,18 @@ $filterusers.users.remove("annb@contoso.com")
 Set-ComplianceSecurityFilter -FilterName OttawaUsersFilter -Users $filterusers.users
 ```
   
-## <a name="remove-compliancesecurityfilter"></a>new-compliancesecurityfilter을 제거 합니다.
+## <a name="remove-compliancesecurityfilter"></a>New-compliancesecurityfilter을 제거 합니다.
 
-**new-compliancesecurityfilter** 는 검색 필터를 삭제 하는 데 사용 됩니다. 삭제할 필터를 지정 하려면 _FilterName_ 매개 변수를 사용 합니다. 
+**New-compliancesecurityfilter** 는 검색 필터를 삭제 하는 데 사용 됩니다. 삭제할 필터를 지정 하려면 _FilterName_ 매개 변수를 사용 합니다. 
   
 ## <a name="more-information"></a>추가 정보
 
 - **검색 권한 필터링이 작동 하는 방식** 콘텐츠 검색을 실행할 때 검색 쿼리에 사용 권한 필터가 추가 됩니다. 사용 권한 필터는 기본적으로 **AND** Boolean 연산자에 의해 검색 쿼리에 조인 됩니다. 예를 들어 Bob이 작업자 메일 그룹 구성원의 사서함에 대 한 모든 검색 작업을 수행할 수 있도록 하는 사용 권한 필터가 있다고 가정해 보겠습니다. 그러면 Bob이 검색 쿼리 `sender:jerry@adatum.com`를 사용 하 여 조직의 모든 사서함에 대해 콘텐츠 검색을 실행 합니다. 권한 필터와 검색 쿼리는 **and** 연산자로 논리적으로 결합 되므로 jerry@adatum.com에서 보낸 모든 메시지는 작업자 메일 그룹의 구성원에 게 반환 됩니다. 
     
-- **여러 검색 권한 필터가 있는 경우 발생하는 결과** 콘텐츠 검색 쿼리에서 여러 권한 필터는 **OR** 부울 연산자로 결합됩니다. 따라서 필터 중 하나가 참이면 결과가 반환됩니다. 콘텐츠 검색에서 모든 필터(**OR** 연산자로 결합)는 **AND** 연산자를 사용하여 검색 쿼리와 결합됩니다. 앞의 예에서 검색 필터는 Bob이 작업자 메일 그룹 구성원의 사서함만 검색하도록 허용합니다. 그런 후에 이제 Bob이 Phil의 사서함("Mailbox_Alias -ne 'Phil'")을 검색하지 못하도록 하는 다른 필터를 만듭니다. 이번에는 Phil을 작업자 그룹의 구성원으로 가정합니다. bob이 조직의 모든 사서함에 대 한 콘텐츠 검색 (이전 예에서)을 실행 하면 bob이 Phil의 사서함을 검색 하지 못하도록 필터를 적용 했더라도 Phil의 사서함에 대 한 검색 결과가 반환 됩니다. 이것은 Bob이 작업자 그룹을 검색할 수 있도록 하는 첫 번째 필터가 올바르기 때문입니다. Phil이 작업자 그룹의 구성원이더라도 Bob은 Phil의 사서함을 검색할 수 있습니다. 
+- **여러 검색 권한 필터가 있는 경우 발생하는 결과** 콘텐츠 검색 쿼리에서 여러 권한 필터는 **OR** 부울 연산자로 결합됩니다. 따라서 필터 중 하나가 참이면 결과가 반환됩니다. 콘텐츠 검색에서 모든 필터(**OR** 연산자로 결합)는 **AND** 연산자를 사용하여 검색 쿼리와 결합됩니다. 앞의 예에서 검색 필터는 Bob이 작업자 메일 그룹 구성원의 사서함만 검색하도록 허용합니다. 그런 후에 이제 Bob이 Phil의 사서함("Mailbox_Alias -ne 'Phil'")을 검색하지 못하도록 하는 다른 필터를 만듭니다. 이번에는 Phil을 작업자 그룹의 구성원으로 가정합니다. Bob이 조직의 모든 사서함에 대 한 콘텐츠 검색 (이전 예에서)을 실행 하면 Bob이 Phil의 사서함을 검색 하지 못하도록 필터를 적용 했더라도 Phil의 사서함에 대 한 검색 결과가 반환 됩니다. 이것은 Bob이 작업자 그룹을 검색할 수 있도록 하는 첫 번째 필터가 올바르기 때문입니다. Phil이 작업자 그룹의 구성원이더라도 Bob은 Phil의 사서함을 검색할 수 있습니다. 
     
-- **검색 권한 필터링이 비활성 사서함에 대해 작동 하나요?** 예, 사서함 및 사서함 콘텐츠 필터를 사용 하 여 조직에서 비활성 사서함을 검색할 수 있는 사용자를 제한할 수 있습니다. 일반 사서함 처럼 사용 권한 필터를 만드는 데 사용 되는 받는 사람 속성을 사용 하 여 비활성 사서함을 구성 해야 합니다. 필요한 경우 **Mailbox-inactivemailboxonly** 명령을 사용 하 여 비활성 사서함의 속성을 표시할 수 있습니다. 자세한 내용은 [Office 365에서 비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)를 참조 하세요.
+- **검색 권한 필터링이 비활성 사서함에 대해 작동 하나요?** 예, 사서함 및 사서함 콘텐츠 필터를 사용 하 여 조직에서 비활성 사서함을 검색할 수 있는 사용자를 제한할 수 있습니다. 일반 사서함 처럼 사용 권한 필터를 만드는 데 사용 되는 받는 사람 속성을 사용 하 여 비활성 사서함을 구성 해야 합니다. 필요한 경우 **Mailbox-InactiveMailboxOnly** 명령을 사용 하 여 비활성 사서함의 속성을 표시할 수 있습니다. 자세한 내용은 [Office 365에서 비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)를 참조 하세요.
     
 - **검색 권한 필터링이 공용 폴더에 대해 작동 하나요?** 아니요. 앞에서 설명한 것 처럼 검색 권한 필터링은 Exchange에서 공용 폴더를 검색할 수 있는 사용자를 제한 하는 데 사용할 수 없습니다. 예를 들어 공용 폴더 위치에 있는 항목은 사용 권한 필터로 검색 결과에서 제외할 수 없습니다. 
     
-- **사용자가 특정 서비스의 모든 콘텐츠 위치를 검색 하도록 허용 하 여 다른 서비스의 콘텐츠 위치를 검색 하지 못하게 할 수도 있습니까?** 아니요. 앞에서 설명한 대로 검색 권한 필터를 만들어 사용자가 특정 Office 365 서비스에서 콘텐츠 위치를 검색 하지 못하도록 명시적으로 설정 해야 합니다 (예: Exchange 사서함 또는 SharePoint 사이트를 검색 하지 못하게 함). 즉, 사용자가 조직의 모든 SharePoint 사이트를 검색할 수 있도록 하는 검색 권한 필터를 만들면 해당 사용자가 사서함을 검색할 수 없습니다. 예를 들어 sharepoint 관리자가 sharepoint 사이트만 검색 하도록 허용 하려면 사서함을 검색할 수 없도록 하는 필터를 만들어야 합니다. 마찬가지로 Exchange 관리자만 검색 사서함을 허용 하려면 사이트 검색을 차단 하는 필터를 만들어야 합니다.
+- **사용자가 특정 서비스의 모든 콘텐츠 위치를 검색 하도록 허용 하 여 다른 서비스의 콘텐츠 위치를 검색 하지 못하게 할 수도 있습니까?** 아니요. 앞에서 설명한 대로 검색 권한 필터를 만들어 사용자가 특정 Office 365 서비스에서 콘텐츠 위치를 검색 하지 못하도록 명시적으로 설정 해야 합니다 (예: Exchange 사서함 또는 SharePoint 사이트를 검색 하지 못하게 함). 즉, 사용자가 조직의 모든 SharePoint 사이트를 검색할 수 있도록 하는 검색 권한 필터를 만들면 해당 사용자가 사서함을 검색할 수 없습니다. 예를 들어 SharePoint 관리자가 SharePoint 사이트만 검색 하도록 허용 하려면 사서함을 검색할 수 없도록 하는 필터를 만들어야 합니다. 마찬가지로 Exchange 관리자만 검색 사서함을 허용 하려면 사이트 검색을 차단 하는 필터를 만들어야 합니다.

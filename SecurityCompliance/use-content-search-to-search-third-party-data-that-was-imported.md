@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 10/27/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색 합니다. 가져온 모든 항목을 검색 하는 쿼리를 만들거나 특정 타사 데이터 형식을 검색 하기 위한 쿼리를 만들 수 있습니다. 이 문서에서는 키워드 쿼리에서 Office 365로 가져올 수 있는 타사 데이터 형식을 검색 하는 데 사용할 수 있는 값을 보여 줍니다.
-ms.openlocfilehash: c71472b5e6d9b992196780aba55e3775823447ab
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 4a611ed04cc102aad4d978a379efbf46a0bd70e2
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402906"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156210"
 ---
 # <a name="use-content-search-to-search-third-party-data-that-was-imported-to-office-365"></a>콘텐츠 검색을 사용 하 여 Office 365로 가져온 타사 데이터 검색
 
 보안 & 준수 센터의 [콘텐츠 검색 eDiscovery 도구](content-search.md) 를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 가져온 모든 타사 데이터 항목을 검색 하는 쿼리를 만들 수도 있고 특정 타사 데이터 항목만 검색 하는 쿼리를 만들 수도 있습니다. 또한 Office 365에서 타사 데이터를 보존 하기 위해 쿼리 기반 보존 정책 또는 쿼리 기반 eDiscovery 보존을 만들 수도 있습니다. 
   
-타사 데이터 및 office 365로 가져올 수 있는 타사 데이터 형식 목록을 가져오는 방법에 대 한 자세한 내용은 [office 365에서 파트너와 협력 하](work-with-partner-to-archive-third-party-data.md)여 타사 데이터 보관을 참조 하십시오. 
+타사 데이터 및 Office 365로 가져올 수 있는 타사 데이터 형식 목록을 가져오는 방법에 대 한 자세한 내용은 [office 365에서 파트너와 협력 하](work-with-partner-to-archive-third-party-data.md)여 타사 데이터 보관을 참조 하십시오. 
   
 ## <a name="creating-a-query-to-search-all-third-party-data"></a>모든 타사 데이터를 검색 하기 위한 쿼리 만들기
 
@@ -63,11 +63,11 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Axs Encrypted  <br/> | `ipm.externaldata.AxsEncrypted*` <br/> |
 |Axs Exchange  <br/> | `ipm.externaldata.AxsExchange*` <br/> |
 |Axs Local Archive  <br/> | `ipm.externaldata.AxsLocalArchive*` <br/> |
-|axs 자리 표시자  <br/> | `ipm.externaldata.AxsPlaceHolder*` <br/> |
+|Axs 자리 표시자  <br/> | `ipm.externaldata.AxsPlaceHolder*` <br/> |
 |Axs Signed  <br/> | `ipm.externaldata.AxsSigned*` <br/> |
 |Bazaarvoice  <br/> | `ipm.externaldata.Bazaarvoice*` <br/> |
 |Bearshare  <br/> | `ipm.externaldata.Bearshare*` <br/> |
-|bittorrent  <br/> | `ipm.externaldata.BitTorrent*` <br/> |
+|BitTorrent  <br/> | `ipm.externaldata.BitTorrent*` <br/> |
 |Blackberry  <br/> | `ipm.externaldata.Blackberry*` <br/> |
 |BlackBerry 통화 로그  <br/> | `ipm.externaldata.BlackBerryCall*` <br/> |
 |BlackBerry Messenger  <br/> | `ipm.externaldata.BlackBerryMessenger*` <br/> |
@@ -101,20 +101,20 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |InvestEdge  <br/> | `ipm.externaldata.InvestEdge*` <br/> |
 |IRC  <br/> | `ipm.externaldata.IRC*` <br/> |
 |Jive  <br/> | `ipm.externaldata.Jive*` <br/> |
-|jiveapiretention  <br/> | `ipm.externaldata.JiveApiRetention*` <br/> |
-|jxta  <br/> | `ipm.externaldata.JXTA*` <br/> |
+|JiveApiRetention  <br/> | `ipm.externaldata.JiveApiRetention*` <br/> |
+|JXTA  <br/> | `ipm.externaldata.JXTA*` <br/> |
 |LinkedIn  <br/> | `ipm.externaldata.LinkedIn*` <br/> |
-|mftp  <br/> | `ipm.externaldata.MFTP*` <br/> |
+|MFTP  <br/> | `ipm.externaldata.MFTP*` <br/> |
 |Microsoft UC  <br/> | `ipm.externaldata.MicrosoftUC*` <br/> |
 |마인드 맞춤  <br/> | `ipm.externaldata.MindAlign*` <br/> |
 |Mobile Guard  <br/> | `ipm.externaldata.MobileGuard*` <br/> |
 |수신  <br/> | `ipm.externaldata.MSN*` <br/> |
-|myspace  <br/> | `ipm.externaldata.MySpace*` <br/> |
+|MySpace  <br/> | `ipm.externaldata.MySpace*` <br/> |
 |NEONetwork  <br/> | `ipm.externaldata.NEONetwork*` <br/> |
-|opennap  <br/> | `ipm.externaldata.OpenNap*` <br/> |
+|OpenNap  <br/> | `ipm.externaldata.OpenNap*` <br/> |
 |유 이율  <br/> | `ipm.externaldata.Pinterest*` <br/> |
 |Pivot  <br/> | `ipm.externaldata.Pivot*` <br/> |
-|qq  <br/> | `ipm.externaldata.QQ*` <br/> |
+|QQ  <br/> | `ipm.externaldata.QQ*` <br/> |
 |Microsoft SharePoint  <br/> | `ipm.externaldata.SharePoint*` <br/> |
 |Salesforce Chatter  <br/> | `ipm.externaldata.Chatter*` <br/> |
 |비즈니스용 Skype  <br/> | `ipm.externaldata.Skype*` <br/> |
@@ -129,8 +129,8 @@ itemclass:ipm.externaldata.Facebook* AND subject:contoso
 |Twitter  <br/> | `ipm.externaldata.Twitter*` <br/> |
 |UBS Chat  <br/> | `ipm.externaldata.UBS*` <br/> |
 |Vimeo  <br/> | `ipm.externaldata.Vimeo*` <br/> |
-|winmx  <br/> | `ipm.externaldata.WinMX*` <br/> |
-|winny  <br/> | `ipm.externaldata.Winny*` <br/> |
+|WinMX  <br/> | `ipm.externaldata.WinMX*` <br/> |
+|Winny  <br/> | `ipm.externaldata.Winny*` <br/> |
 |!  <br/> | `ipm.externaldata.Yahoo!*` <br/> |
 |Yammer  <br/> | `ipm.externaldata.Yammer*` <br/> |
 |YellowJacket  <br/> | `ipm.externaldata.YellowJacket*` <br/> |

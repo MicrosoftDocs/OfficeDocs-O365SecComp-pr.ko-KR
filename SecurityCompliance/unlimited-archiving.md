@@ -3,7 +3,7 @@ title: Office 365의 무제한 보관 개요
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Exchange Online 사서함에 대 한 무제한 보관 저장소를 제공 하는 Office 365의 자동 확장 보관에 대해 알아봅니다.
-ms.openlocfilehash: 38fab68ee8e5c2bdd38bc60b08929bd6f6025e1b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 9b63bcd7cbf8c1cef8df336553debdbf7af2ba12
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265944"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158070"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Office 365의 무제한 보관 개요
 
@@ -70,22 +70,22 @@ Office 365에서 보관 사서함은 사용자에 게 사서함 저장소 공간
 
 자동 확장 보관 사서함에 저장 된 메시지에 액세스 하려면 사용자는 다음 Outlook 클라이언트 중 하나를 사용 해야 합니다.
   
-- Windows 용 outlook 2016 또는 outlook 2019
+- Windows 용 outlook 2016 또는 Outlook 2019
     
 - 웹용 Outlook 
     
-- Mac 용 outlook 2016 또는 outlook 2019 
+- Mac 용 outlook 2016 또는 Outlook 2019 
     
 > [!NOTE]
 > Outlook 2013 사용자는 원래 보관 사서함에 저장 된 항목에만 액세스할 수 있습니다. 추가 보관 저장소로 이동 되는 항목에는 액세스할 수 없습니다. 
   
-다음은 outlook 또는 웹용 outlook을 사용 하 여 자동 확장 보관 함에 저장 된 메시지에 액세스 하는 경우 고려해 야 할 몇 가지 사항입니다.
+다음은 Outlook 또는 웹용 Outlook을 사용 하 여 자동 확장 보관 함에 저장 된 메시지에 액세스 하는 경우 고려해 야 할 몇 가지 사항입니다.
   
 - 자동 확장 된 저장 영역으로 이동 된 폴더를 포함 하 여 보관 사서함의 모든 편지함에 액세스할 수 있습니다.
     
 - 폴더 자체를 검색 해야만 추가 저장소 영역으로 이동한 항목을 검색할 수 있습니다. 즉, 검색 범위로 **현재 폴더** 옵션을 선택 하려면 폴더 목록에서 보관 폴더를 선택 해야 합니다. 마찬가지로 자동 확장 된 저장소 영역의 폴더에 하위 폴더가 있는 경우 각 하위 폴더를 개별적으로 검색 해야 합니다. 
     
-- 자동 확장 보관 함에서 outlook 및 웹용 outlook의 항목 수가 정확 하지 않을 수 있습니다.
+- 자동 확장 보관 함에서 Outlook 및 웹용 Outlook의 항목 수가 정확 하지 않을 수 있습니다.
     
 - 자동 확장 된 저장 영역을 가리키는 하위 폴더의 항목을 삭제할 수는 있지만 해당 폴더 자체를 삭제할 수는 없습니다.
     
@@ -99,7 +99,7 @@ Office 365에서 보관 사서함은 사용자에 게 사서함 저장소 공간
     
 - **보존** -Exchange Online의 소송 보존, 보안 및 준수 센터의 보존 정책 등의 도구를 사용 하 여 사서함을 보류할 때 자동 확장 된 보관 함에 있는 콘텐츠도 보존 됩니다.
     
-- **mrm (메시징 레코드 관리)** -Exchange Online에서 mrm 삭제 정책을 사용 하 여 만료 된 사서함 항목을 영구적으로 삭제 하는 경우에는 자동 확장 보관 함에 있는 만료 됨 항목도 삭제 됩니다.
+- **Mrm (메시징 레코드 관리)** -Exchange Online에서 mrm 삭제 정책을 사용 하 여 만료 된 사서함 항목을 영구적으로 삭제 하는 경우에는 자동 확장 보관 함에 있는 만료 됨 항목도 삭제 됩니다.
     
 - **서비스 가져오기** -Office 365 가져오기 서비스를 사용 하 여 PST 파일을 사용자의 자동 확장 보관으로 가져올 수 있습니다. PST 파일에서 사용자의 보관 사서함으로의 데이터를 최대 100 GB까지 가져올 수 있습니다. 
 

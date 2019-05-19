@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 03/14/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
 description: 관리자가 사용자에 게 알림을 사용 하도록 설정 하는 경우 사서함에 전송 된 메시지를 스팸, 대량 또는 피싱 메시지로 식별 하는 알림 메시지가 표시 됩니다. 알림을 받은 후에는 메시지를 해제 하거나 보고할 수 있습니다.
-ms.openlocfilehash: de67987b0028102bdf61889ce54ca4215182e279
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: eb16e6a24bb4a2f30b7bcb33051b62afdeb9e250
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263440"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156040"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a>Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
 
@@ -38,7 +38,7 @@ ms.locfileid: "32263440"
     
 - **날짜** 메시지가 격리된 날짜와 시간(UTC)입니다. 
     
-- **크기** kb (kb) 단위의 메시지 크기입니다. 
+- **크기** Kb (Kb) 단위의 메시지 크기입니다. 
     
 격리 된 메시지를 사용 하 여 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "32263440"
 
 - **Release &** 메시지가 스팸으로 아니면 Office 365에서 다음 전자 메일에 대 한 수신 허용-보낸 사람 및 받는 사람 목록에 보낸 사람을 추가 하도록 하려면 보낸 사람을 선택 합니다. 관리자에 게는 수신 허용-보낸 사람 목록을 다시 정의 하는 다른 조직 전체의 allow/block 구성이 있을 수 있습니다.
 
-- **Release & Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
+- **Release _AMP_ Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
 
 - Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하려면 **차단** 합니다.
 

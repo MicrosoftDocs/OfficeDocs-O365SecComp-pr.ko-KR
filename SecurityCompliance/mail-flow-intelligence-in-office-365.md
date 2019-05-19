@@ -3,7 +3,7 @@ title: Office 365의 메일 흐름 인텔리전스
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -11,16 +11,16 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 메일 흐름 인텔리전스 라고도 하는 Office 365의 커넥터를 사용 하 여 메시지 배달과 관련 된 오류 코드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d9ddfdf7c54c8dc709c3d5ae03d9fbd76a153f7e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 224940b84480b694188bd3047829d4896cc2584e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252504"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155870"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Office 365의 메일 흐름 인텔리전스
 
-일반적으로는 커넥터를 사용 하 여 Office 365 조직에서 온-프레미스 전자 메일 환경으로 전자 메일 메시지를 라우팅합니다. 또한 커넥터를 사용 하 여 Office 365에서 파트너 조직으로 메시지를 라우팅할 수 있습니다. office 365에서 커넥터를 통해 이러한 메시지를 배달할 수 없으면 office 365에서 큐에 대기 됩니다. Office 365에서는 각 메시지에 대해 48 시간 동안 계속 해 서 배달을 다시 시도 합니다. 48 시간이 지난 후에 대기 된 메시지는 만료 되며 메시지는 배달 못 함 보고서 (NDR 또는 바운스 메시지로도 알려짐)의 원래 보낸 사람에 게 반환 됩니다.
+일반적으로는 커넥터를 사용 하 여 Office 365 조직에서 온-프레미스 전자 메일 환경으로 전자 메일 메시지를 라우팅합니다. 또한 커넥터를 사용 하 여 Office 365에서 파트너 조직으로 메시지를 라우팅할 수 있습니다. Office 365에서 커넥터를 통해 이러한 메시지를 배달할 수 없으면 Office 365에서 큐에 대기 됩니다. Office 365에서는 각 메시지에 대해 48 시간 동안 계속 해 서 배달을 다시 시도 합니다. 48 시간이 지난 후에 대기 된 메시지는 만료 되며 메시지는 배달 못 함 보고서 (NDR 또는 바운스 메시지로도 알려짐)의 원래 보낸 사람에 게 반환 됩니다.
 
 커넥터를 사용 하 여 메시지를 배달할 수 없으면 Office 365에서 오류가 발생 합니다. 이 항목에서는 가장 일반적인 오류와 해결 방법에 대해 설명 합니다. 커넥터를 통해 전송 되는 배달할 수 없는 메시지에 대 한 큐 및 알림 오류를 집합적으로 _메일 흐름 인텔리전스_라고 합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "32252504"
 
 - 최근에 도메인 만료로 인해 MX 레코드를 검색할 수 없습니다.
 
-- 도메인의 MX 레코드가 최근에 변경 되었으며 Office 365 dns 서버에 도메인에 대 한 이전에 캐시 된 dns 정보가 여전히 있습니다.
+- 도메인의 MX 레코드가 최근에 변경 되었으며 Office 365 DNS 서버에 도메인에 대 한 이전에 캐시 된 DNS 정보가 여전히 있습니다.
 
 ### <a name="how-do-i-fix-error-code-450-44312"></a>오류 코드 450 4.4.312를 수정 하려면 어떻게 해야 하나요?
 
@@ -60,11 +60,11 @@ ms.locfileid: "32252504"
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>오류 코드 450 4.4.316를 수정 하려면 어떻게 해야 하나요?
 
-- 온-프레미스 환경에 사서함이 있는 경우 TCP 포트 25의 Office 365 IP 주소에서 온-프레미스 전자 메일 서버에 연결할 수 있도록 방화벽 설정을 수정 해야 합니다. office 365 ip 주소 목록은 [office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.aspx)를 참조 하세요.
+- 온-프레미스 환경에 사서함이 있는 경우 TCP 포트 25의 Office 365 IP 주소에서 온-프레미스 전자 메일 서버에 연결할 수 있도록 방화벽 설정을 수정 해야 합니다. Office 365 IP 주소 목록은 [office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.aspx)를 참조 하세요.
 
 - 온-프레미스 환경으로 더 이상 메시지를 배달 하지 않을 경우에는 알림에서 **지금 해결** 을 클릭 하 여 Office 365에서 잘못 된 받는 사람이 있는 메시지를 즉시 거부할 수 있도록 합니다. 이렇게 하면 정상적인 메시지 배달에 영향을 줄 수 있는 잘못 된 받는 사람에 대 한 조직의 할당량을 초과할 위험이 줄어듭니다. 또는 다음 지침을 사용 하 여 문제를 수동으로 해결할 수도 있습니다.
 
-  - office 365의 [EAC (Exchange 관리 센터)](https://docs.microsoft.com/Exchange/exchange-admin-center) 에서 office 365에서 온-프레미스 전자 메일 환경으로 전자 메일을 배달 하는 커넥터를 사용 하지 않도록 설정 하거나 삭제 합니다.
+  - Office 365의 [EAC (Exchange 관리 센터)](https://docs.microsoft.com/Exchange/exchange-admin-center) 에서 office 365에서 온-프레미스 전자 메일 환경으로 전자 메일을 배달 하는 커넥터를 사용 하지 않도록 설정 하거나 삭제 합니다.
 
     1. EAC에서 **메일 흐름** \> **커넥터로**이동 합니다.
 
@@ -86,11 +86,11 @@ ms.locfileid: "32252504"
 
 - 대상 전자 메일 서버가 "서비스를 사용할 수 없습니다." 라는 오류와 함께 응답 하 여 서버가 Office 365과의 통신을 유지할 수 없음을 나타냅니다.
 
-- 커넥터가 tls를 요구 하도록 구성 되었지만 대상 전자 메일 서버에서 tls를 지원 하지 않습니다.
+- 커넥터가 TLS를 요구 하도록 구성 되었지만 대상 전자 메일 서버에서 TLS를 지원 하지 않습니다.
 
 ### <a name="how-do-i-fix-error-code-450-44317"></a>오류 코드 450 4.4.317를 수정 하려면 어떻게 해야 하나요?
 
-- 온-프레미스 전자 메일 서버 및 커넥터의 tls 설정에 대 한 tls 설정 및 인증서를 확인 합니다.
+- 온-프레미스 전자 메일 서버 및 커넥터의 TLS 설정에 대 한 TLS 설정 및 인증서를 확인 합니다.
 
 - 타사 클라우드 서비스 공급자와 같은 파트너 조직에서 오류가 발생 한 경우에는 파트너에 문의 하 여 문제를 해결 해야 합니다.
 

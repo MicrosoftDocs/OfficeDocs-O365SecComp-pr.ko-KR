@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyp
 manager: laurawi
 ms.date: 09/05/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: '관리자는 Office 365에서 허위 격리 된 메시지를 보고, 해제 하 고, 보고할 수 있습니다. Office 365에서 메시지를 필터링 하 여 격리에 전송 하는 경우 (예: 스팸, 대량, 피싱, 맬웨어 또는 메일 흐름 규칙과 일치 하는 경우)에는 정책을 설정할 수 있습니다. '
-ms.openlocfilehash: c2a6fff9f6b4d93900174426e2230284695ff3bf
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: aa469a1f0efa2265014593134d2b7865a59dd89f
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251992"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155700"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "32251992"
   
 ## <a name="view-your-organizations-quarantined-messages"></a>조직의 격리 된 메시지 보기
 
-1. office 365 조 직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
+1. Office 365 조 직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
     
 2. 왼쪽의 목록에서 **위협 관리**를 확장 하 고 **검토**를 선택한 다음 **격리**를 선택 합니다.
     
@@ -65,7 +65,7 @@ ms.locfileid: "32251992"
   
 ## <a name="view-your-organizations-quarantined-files"></a>조직의 격리 된 파일 보기
 
-1. office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
     
 2. 왼쪽에서 **위협 관리**를 확장 하 고 **검토**를 선택한 다음 **격리**를 선택 합니다. <br/>
     > [!TIP]
@@ -141,13 +141,13 @@ ms.locfileid: "32251992"
     
 - **문서 ID** 문서에 대 한 고유 식별자입니다. 
     
-- **파일 크기** 파일 크기 (mb)입니다. 
+- **파일 크기** 파일 크기 (MB)입니다. 
     
 - **조직** Office 365에서 조직의 고유한 ID입니다. 
     
 - **수정한 사람** 파일을 마지막으로 수정한 사용자의 회사 또는 학교 계정입니다. 
     
-- **파일 크기** 파일 크기 (mb)입니다. 
+- **파일 크기** 파일 크기 (MB)입니다. 
     
 - **SHA256 해시** 파일의 해시입니다. 이를 사용 하 여 다른 신뢰도 저장소를 조회 하거나 사용자 환경에서 파일을 사용할 수 있는 위치를 조사할 수 있습니다. 
     
@@ -189,7 +189,7 @@ ms.locfileid: "32251992"
   
 ### <a name="to-modify-the-quarantine-retention-period-for-the-default-spam-filter-policy-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 기본 스팸 필터 정책에 대 한 격리 보존 기간을 수정 하려면
 
-1. office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
     
 2. 왼쪽에서 **위협 관리**를 확장 하 고 **정책을**선택한 다음 **스팸 방지**를 선택 합니다. <br/>
     > [!TIP]
@@ -197,7 +197,7 @@ ms.locfileid: "32251992"
   
 3. **사용자** 지정을 선택 하 여 **사용자 지정 설정** 탭을 표시 합니다. 
     
-4. **기본 스팸 필터 정책 (always ON)** 행을 확장 합니다. 
+4. **기본 스팸 필터 정책 (ALWAYS ON)** 행을 확장 합니다. 
     
 5. **정책 편집**을 선택 합니다. 기본 스팸 필터 정책에 대 한 설정이 새 페이지에 표시 됩니다.
     

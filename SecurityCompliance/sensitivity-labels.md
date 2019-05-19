@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: f8442bc9fbeb32cb71fb46c4e5a54c9e1f0dce4b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 21b325454c659d72e27349ede9015a0f4bde6dcb
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265808"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155980"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -74,7 +74,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
     ![문서에 적용된 워터마크 및 머리글](media/Sensitivity_label_watermark_header.png)
 
-- Intune의 엔드포인트 보호를 켜서 **데이터 손실을 방지**합니다. 중요한 콘텐츠가 다운로드되면 Windows 장치에서 데이터가 손실되지 않도록 할 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블은 WIP(Windows Information Protection)를 사용하려면 먼저 Azure Portal에서 앱 보호 정책을 만들어야 합니다. 자세한 내용은 [Windows Information Protection로 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/en-us/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하세요.
+- Intune의 엔드포인트 보호를 켜서 **데이터 손실을 방지**합니다. 중요한 콘텐츠가 다운로드되면 Windows 장치에서 데이터가 손실되지 않도록 할 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블은 WIP(Windows Information Protection)를 사용하려면 먼저 Azure Portal에서 앱 보호 정책을 만들어야 합니다. 자세한 내용은 [Windows Information Protection로 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하세요.
 
 - **중요한 정보를 포함하고 있는 콘텐츠에 레이블을 자동으로 적용합니다.** 레이블을 지정할 중요한 정보의 유형을 선택할 수 있으며, 레이블을 자동으로 적용하거나 사용자가 추천 레이블을 적용할 수 있도록 메시지를 표시할 수 있습니다. 레이블을 추천하는 경우 어떤 텍스트를 선택해도 메시지가 표시됩니다. 자세한 내용은 [Apply a sensitivity label to content automatically](apply_sensitivity_label_automatically.md)(콘텐츠에 민감도 레이블을 자동으로 적용)를 참조하세요.
 
@@ -184,8 +184,10 @@ Android 장치의 Office 앱에서 민감도 레이블은 리본의 **홈** 탭�
 
 ### <a name="more-information-on-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블에 대한 자세한 내용
 
-- [Office 내의 문서 및 전자 메일에 민감도 레이블 적용](https://support.office.com/ko-KR/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-- [Office 파일에 민감도 레이블을 적용할 때의 알려진 문제](https://support.office.com/ko-KR/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
+- 
+  [Office 내의 문서 및 전자 메일에 민감도 레이블 적용](https://support.office.com/ko-KR/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+- 
+  [Office 파일에 민감도 레이블을 적용할 때의 알려진 문제](https://support.office.com/ko-KR/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 ## <a name="how-sensitivity-labels-work-with-existing-azure-information-protection-labels"></a>민감도 레이블이 기존 Azure Information Protection 레이블에 작동하는 방식
 
@@ -194,7 +196,8 @@ Azure Information Protection 사용자는 현재 Azure Information Protection �
 - 문서 및 전자 메일의 기존 Azure Information Protection 레이블을 유지합니다.
 - 기존 Azure Information Protection 레이블 구성을 유지합니다.
 
-Azure Information Protection 레이블을 사용하는 경우 마이그레이션을 완료할 때까지 다른 관리자 센터에서 새 레이블을 만들지 않는 것이 좋습니다. [Azure Information Protection 마이그레이션 항목](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-migrate-labels)에는 중요한 정보와 몇 가지 특정한 주의 사항이 있습니다. 프로덕션 테넌트를 민감도 레이블로 마이그레이션할 준비가 되지 않았더라도 걱정할 필요는 없습니다. 사용자는 Azure Information Protection 클라이언트를 계속 사용할 수 있으며 관리자는 Azure 포털을 계속 사용하여 관리할 수 있습니다.
+Azure Information Protection 레이블을 사용하는 경우 마이그레이션을 완료할 때까지 다른 관리자 센터에서 새 레이블을 만들지 않는 것이 좋습니다. 
+  [Azure Information Protection 마이그레이션 항목](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-migrate-labels)에는 중요한 정보와 몇 가지 특정한 주의 사항이 있습니다. 프로덕션 테넌트를 민감도 레이블로 마이그레이션할 준비가 되지 않았더라도 걱정할 필요는 없습니다. 사용자는 Azure Information Protection 클라이언트를 계속 사용할 수 있으며 관리자는 Azure 포털을 계속 사용하여 관리할 수 있습니다.
 
 ## <a name="protect-content-on-windows-devices-by-using-endpoint-protection-in-microsoft-intune"></a>Microsoft Intune의 엔드포인트 보호 기능을 사용하여 Windows 장치에서 콘텐츠 보호
 
@@ -214,13 +217,16 @@ Azure Information Protection 레이블을 사용하는 경우 마이그레이션
 
 ### <a name="important-prerequisites"></a>중요한 필수 구성 요소
 
-민감도 레이블이 WIP를 사용하려면, [Windows Information Protection이 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/en-us/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)에 설명된 필수 구성 요소를 수행해야 합니다. 이 항목에서는 다음과 같은 필수 구성 요소에 대해 설명합니다.
+민감도 레이블이 WIP를 사용하려면, [Windows Information Protection이 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)에 설명된 필수 구성 요소를 수행해야 합니다. 이 항목에서는 다음과 같은 필수 구성 요소에 대해 설명합니다.
 
 - Windows 10, 버전 1809 이상을 실행 중인지 확인합니다.
-- [WDATP(Windows Defender Advanced Threat Protection)를 설정](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-atp/get-started)합니다. 이 기능은 콘텐츠에서 레이블을 검색하고 해당 WIP 보호를 적용합니다. ATP는 변칙 보고와 같은 일부 작업을 WIP와는 별도로 수행합니다.
+- 
+  [WDATP(Windows Defender Advanced Threat Protection)를 설정](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-atp/get-started)합니다. 이 기능은 콘텐츠에서 레이블을 검색하고 해당 WIP 보호를 적용합니다. ATP는 변칙 보고와 같은 일부 작업을 WIP와는 별도로 수행합니다.
 - 엔드포인트 장치에 적용되는 WIP(Windows Information Protection) 정책을 만듭니다. 다음 중 하나의 위치에서 이를 수행할 수 있습니다.
-    - [Microsoft Intune용 Azure Portal을 사용하여 MDM으로 WIP(Windows Information Protection) 정책 만들기](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
-    - [System Center Configuration Manager를 사용하여 WIP(Windows Information Protection) 정책 만들기 및 배포](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
+    - 
+  [Microsoft Intune용 Azure Portal을 사용하여 MDM으로 WIP(Windows Information Protection) 정책 만들기](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
+    - 
+  [System Center Configuration Manager를 사용하여 WIP(Windows Information Protection) 정책 만들기 및 배포](https://docs.microsoft.com/ko-KR/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
 
 ## <a name="protect-content-in-third-party-apps-and-services-by-using-microsoft-cloud-app-security"></a>Microsoft Cloud App Security를 사용하여 타사 앱 및 서비스의 콘텐츠 보호
 
@@ -239,7 +245,8 @@ CAS(Cloud App Security)를 사용하여 타사 앱 및 서비스의 콘텐츠 �
 
 민감도 레이블은 문서의 메타데이터에 일반 텍스트 형식으로 유지되므로 타사 앱 및 서비스에서 이러한 레이블이 포함된 콘텐츠의 식별 및 보호를 지원하도록 선택할 수 있습니다. 다른 앱 및 서비스의 지원도 항상 활장되고 있습니다.
 
-[Microsoft Information Protection SDK](https://docs.microsoft.com/ko-KR/information-protection/develop/)를 사용하여 타사 앱 및 서비스는 민감도 레이블 및 보호를 읽고 문서에 적용할 수 있습니다. 이 SDK는 Windows, Mac 및 Linux의 앱을 지원합니다. IOS 및 Android 앱도 곧 지원될 예정입니다.
+
+  [Microsoft Information Protection SDK](https://docs.microsoft.com/ko-KR/information-protection/develop/)를 사용하여 타사 앱 및 서비스는 민감도 레이블 및 보호를 읽고 문서에 적용할 수 있습니다. 이 SDK는 Windows, Mac 및 Linux의 앱을 지원합니다. IOS 및 Android 앱도 곧 지원될 예정입니다.
 
 이 SDK를 사용하여 Office 앱, Office 365 서비스, Azure Information Protection 검사 기능, Microsoft Cloud App Security 및 일부 기타 파트너 솔루션 등의 다른 Microsoft Information Protection 앱 및 서비스를 사용하는 방식으로 콘텐츠에 레이블을 지정하고 콘텐츠를 보호할 수 있습니다. 예를 들어, [Adobe Acrobat의 민감도 레이블 지원](https://techcommunity.microsoft.com/t5/Azure-Information-Protection/Starting-October-use-Adobe-Acrobat-Reader-for-PDFs-protected-by/ba-p/262738)에 대해 알아보세요.
 

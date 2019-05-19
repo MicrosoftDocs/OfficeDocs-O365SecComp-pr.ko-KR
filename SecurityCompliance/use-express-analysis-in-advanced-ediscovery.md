@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Office 365 Advanced eDiscovery의 빠른 분석 모드를 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d8457587c9c1a1237ddc076ce803a46382a04ed8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 04b48db445f114fd6138b099703e826c6b4ce7c0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264496"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156160"
 ---
 # <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 빠른 분석 사용
 
@@ -50,7 +50,7 @@ ms.locfileid: "32264496"
     > [!NOTE]
     > 내보내기 패키지가 사용자 정의 Azure blob에 저장 되 면 더 이상 고급 eDiscovery를 통해 데이터가 관리 되지 않습니다. Azure blob에서 관리 됩니다. 즉, 사례를 삭제 하는 경우 내보낸 파일은 여전히 Azure blob에 남아 있게 됩니다. 
   
-  - **향후 내보내기 세션을 위해 sas 토큰 저장**:이 옵션을 선택 하면 나중에 사용할 수 있도록 sas 토큰이 고급 eDiscovery의 내부 데이터베이스에 암호화 됩니다.
+  - **향후 내보내기 세션을 위해 sas 토큰 저장**:이 옵션을 선택 하면 나중에 사용할 수 있도록 Sas 토큰이 고급 eDiscovery의 내부 데이터베이스에 암호화 됩니다.
     
     > [!NOTE]
     > 현재 SAS 토큰은 매달 만료 됩니다. 1 개월 이상 후에 다운로드 하려고 하면 마지막 세션을 실행 취소 한 다음 다시 내보내십시오. 
@@ -63,7 +63,7 @@ ms.locfileid: "32264496"
   
 5. 실행에 대 한 자세한 정보를 나열 하려면 **빠른 분석 요약** 페이지를 선택 합니다. 
     
-    **빠른 분석 요약** 페이지 아래쪽에서 **마지막 세션 다운로드** 를 선택 하 여 로컬 컴퓨터에 분석 파일 tp를 다운로드 합니다. 먼저 ediscovery 내보내기 도구를 다운로드 하 고 내보내기 키를 ediscovery 내보내기 도구에 붙여 넣어야 합니다. 
+    **빠른 분석 요약** 페이지 아래쪽에서 **마지막 세션 다운로드** 를 선택 하 여 로컬 컴퓨터에 분석 파일 tp를 다운로드 합니다. 먼저 eDiscovery 내보내기 도구를 다운로드 하 고 내보내기 키를 eDiscovery 내보내기 도구에 붙여 넣어야 합니다. 
     
 ## <a name="advanced-settings-for-express-analysis"></a>빠른 분석에 대 한 고급 설정
 <a name="BK_AdvancedSettings"> </a>
@@ -120,7 +120,7 @@ ms.locfileid: "32264496"
     
   - **표준**: 데이터 항목, 메타 데이터 및 속성의 기본 집합입니다. 고급 eDiscovery에서 데이터 가져오기가 이미 처리 된 경우이 옵션을 사용 하면 파일이 이미 들어 있는 시스템에 내보내기 데이터를 업로드할 수 있습니다. 기본적으로 내보내기 템플릿 열은 만들어지고 채워집니다.
     
-  - **all**: 모든 처리 데이터를 포함 하는 표준 메타 데이터의 전체 집합 및 분석 및 관련성 점수 이 서식 파일은 고급 eDiscovery에서 처리를 수행 하 고 파일 데이터를 처음으로 외부 시스템에 업로드 하는 경우에 필요 합니다.
+  - **All**: 모든 처리 데이터를 포함 하는 표준 메타 데이터의 전체 집합 및 분석 및 관련성 점수 이 서식 파일은 고급 eDiscovery에서 처리를 수행 하 고 파일 데이터를 처음으로 외부 시스템에 업로드 하는 경우에 필요 합니다.
     
   - **문제**: **모든 문제** 를 선택 하거나 만든 특정 문제를 선택 합니다. 
     

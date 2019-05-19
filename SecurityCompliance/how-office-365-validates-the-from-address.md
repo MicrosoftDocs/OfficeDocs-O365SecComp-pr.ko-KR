@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyp
 manager: laurawi
 ms.date: 10/11/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,19 +15,19 @@ ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
 description: '피싱 방지를 위해 Office 365 및 Outlook.com에는 이제 From: 주소에 대 한 RFC 준수가 필요 합니다.'
-ms.openlocfilehash: e540e56a7a40d13a92719865fccefefa61de47c2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2721b66b18016269c8e4cc3684814faa402cec58
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253936"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154290"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 
-Office 365 및 Outlook.com 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩니다. phishers을 사용 하는 한 가지 방법은 [RFC 5322](https://tools.ietf.org/html/rfc5322)을 준수 하지 않는 보낸 사람: 주소에 대 한 값이 포함 된 메시지를 보내는 것입니다. 보낸 사람: 주소는 5322.from 주소의 주소 라고도 합니다. 이러한 유형의 피싱를 방지 하기 위해 Office 365 및 Outlook.com에서는이 문서에 설명 된 대로 서비스에서 받은 메시지에 RFC 호환 From: address를 포함 해야 합니다.
+Office 365 및 Outlook.com 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩니다. Phishers을 사용 하는 한 가지 방법은 [RFC 5322](https://tools.ietf.org/html/rfc5322)을 준수 하지 않는 보낸 사람: 주소에 대 한 값이 포함 된 메시지를 보내는 것입니다. 보낸 사람: 주소는 5322.from 주소의 주소 라고도 합니다. 이러한 유형의 피싱를 방지 하기 위해 Office 365 및 Outlook.com에서는이 문서에 설명 된 대로 서비스에서 받은 메시지에 RFC 호환 From: address를 포함 해야 합니다.
   
 > [!NOTE]
-> 이 문서의 정보를 사용 하려면 전자 메일 주소의 일반적인 형식을 기본적으로 이해 해야 합니다. 자세한 내용은 [rfc 5322](https://tools.ietf.org/html/rfc5322) (특히 3.2.3, 3.4 및 3.4.1), [rfc 5321](https://tools.ietf.org/html/rfc5321)및 [rfc 3696](https://tools.ietf.org/html/rfc3696)을 참조 하십시오. 이 문서에서는 5322.from 주소의 주소에 대 한 정책 적용 정보를 소개 합니다. 이 문서는 5321 보낸 사람 주소에는 해당 되지 않습니다. 
+> 이 문서의 정보를 사용 하려면 전자 메일 주소의 일반적인 형식을 기본적으로 이해 해야 합니다. 자세한 내용은 [rfc 5322](https://tools.ietf.org/html/rfc5322) (특히 3.2.3, 3.4 및 3.4.1), [Rfc 5321](https://tools.ietf.org/html/rfc5321)및 [rfc 3696](https://tools.ietf.org/html/rfc3696)을 참조 하십시오. 이 문서에서는 5322.from 주소의 주소에 대 한 정책 적용 정보를 소개 합니다. 이 문서는 5321 보낸 사람 주소에는 해당 되지 않습니다. 
   
 아쉽게도 인터넷에는 여전히 일부 레거시 전자 메일 서버가 있는데,이는 주소가 누락 되었거나 형식이 잘못 된 "합법적인" 전자 메일 메시지를 계속 전송 합니다. 이러한 레거시 시스템을 사용 하는 조직에서 정기적으로 전자 메일을 수신 하는 경우 해당 조직이 최신 보안 표준을 준수 하도록 메일 서버를 업데이트 하도록 권장 합니다.
   
@@ -51,7 +51,7 @@ Office 365은 피싱 공격 으로부터 사용자를 보호 하기 위해 받�
     
 - [Office 365에서 cybercrimes을 방지 하 고 보호 하는 기타 방법](how-office-365-validates-the-from-address.md#OtherProtection)
     
-다른 사용자 대신 보내기는이 변경 내용에 영향을 주지 않습니다. 자세한 내용은 Terry zink의 블로그 "[전자 메일의 ' 보낸 사람 '을 참조 하는 경우 무슨 의미 입니까?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)"를 읽습니다.
+다른 사용자 대신 보내기는이 변경 내용에 영향을 주지 않습니다. 자세한 내용은 Terry Zink의 블로그 "[전자 메일의 ' 보낸 사람 '을 참조 하는 경우 무슨 의미 입니까?](https://blogs.msdn.microsoft.com/tzink/2017/06/22/what-do-we-mean-when-we-refer-to-the-sender-of-an-email/)"를 읽습니다.
   
 ### <a name="all-messages-must-include-a-valid-from-address"></a>모든 메시지에는 다음의 유효한 보낸 사람: 주소가 포함 되어야 합니다.
 <a name="MustIncludeFromAddress"> </a>
@@ -62,12 +62,12 @@ Office 365은 피싱 공격 으로부터 사용자를 보호 하기 위해 받�
 From: <>
 ```
 
-2017 년 11 월 9 일부터 office 365은 데이터 센터 및 메일 서버에 대 한 변경 내용을 롤아웃하기 때문에 보낸 사람: 주소 없이 메시지가 office 365 또는 Outlook.com에서 더 이상 수락 되지 않습니다. 대신, Office 365에서 수신 되는 모든 메시지에는 올바른 보낸 사람: 주소가 포함 되어 있어야 합니다. 그렇지 않으면 메시지가 Outlook.com 및 Office 365의 정크 메일 또는 지운 편지함 폴더에 전송 됩니다. 
+2017 년 11 월 9 일부터 Office 365은 데이터 센터 및 메일 서버에 대 한 변경 내용을 롤아웃하기 때문에 보낸 사람: 주소 없이 메시지가 Office 365 또는 Outlook.com에서 더 이상 수락 되지 않습니다. 대신, Office 365에서 수신 되는 모든 메시지에는 올바른 보낸 사람: 주소가 포함 되어 있어야 합니다. 그렇지 않으면 메시지가 Outlook.com 및 Office 365의 정크 메일 또는 지운 편지함 폴더에 전송 됩니다. 
   
 ### <a name="syntax-overview-valid-format-for-the-from-address-for-office-365"></a>구문 개요: From: address for Office 365의 유효한 형식
 <a name="SyntaxOverviewFromAddress"> </a>
 
-From: 주소 값의 형식은 여러 rfc에서 세부 정보로 정의 됩니다. 주소 지정에는 많은 변화가 있으며 유효한 지 또는 잘못 된 것으로 간주 될 수 있습니다. 이를 단순하게 유지 하기 위해 다음 형식과 정의를 사용 하는 것이 좋습니다.
+From: 주소 값의 형식은 여러 Rfc에서 세부 정보로 정의 됩니다. 주소 지정에는 많은 변화가 있으며 유효한 지 또는 잘못 된 것으로 간주 될 수 있습니다. 이를 단순하게 유지 하기 위해 다음 형식과 정의를 사용 하는 것이 좋습니다.
   
 ```
 From: "displayname " <emailaddress >
@@ -199,13 +199,13 @@ MX (메일 교환기) 레코드는 도메인에 대 한 메일을 수신 하는 
   
 - 전자 메일을 수락 (수신) 하지 않는 메시지를 보낼 도메인을 선택 합니다. 예를 들어 주 도메인이 contoso.com 인 경우 noreply.contoso.com을 선택할 수 있습니다.
     
-- 도메인에 대해 null MX 레코드를 설정 합니다. null MX 레코드는 다음과 같은 단일 점으로 구성 됩니다.
+- 도메인에 대해 null MX 레코드를 설정 합니다. Null MX 레코드는 다음과 같은 단일 점으로 구성 됩니다.
     
   ```
   noreply.contoso.com IN MX .
   ```
 
-null MX를 게시 하는 방법에 대 한 자세한 내용은 [RFC 7505](https://tools.ietf.org/html/rfc7505)을 참조 하십시오.
+Null MX를 게시 하는 방법에 대 한 자세한 내용은 [RFC 7505](https://tools.ietf.org/html/rfc7505)을 참조 하십시오.
   
 ### <a name="overriding-the-office-365-from-address-enforcement-policy"></a>Office 365 From: address 강요 policy 재정의
 <a name="Override"> </a>
@@ -225,7 +225,7 @@ Office 365에서 보내는 아웃 바운드 메일에 대해서는이 정책을 
 
 피싱, spamming, 데이터 위반 및 기타 위협과 같은 cybercrimes 로부터 조직을 강화 하는 방법에 대 한 자세한 내용은 [Office 365의 보안 모범 사례](https://support.office.com/article/9295e396-e53d-49b9-ae9b-0b5828cdedc3)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [후방 분산 메시지 및 EOP](https://technet.microsoft.com/en-us/library/dn499795%28v=exchg.150%29.aspx)
   

@@ -3,7 +3,7 @@ title: Exchange Online의 수신 허용-보낸 사람 및 수신 거부 목록
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,17 +12,17 @@ search.appverid:
 ms.assetid: 111ab6b0-2dd2-4a87-a928-4931df6b3c4d
 ms.collection:
 - M365-security-compliance
-description: exchange online 또는 EOP (exchange online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직의 사용자에 대해 수신 허용-보낸 사람 및 수신 거부 목록을 만드는 것입니다.
-ms.openlocfilehash: 11ae38733418bb0842732978512698ca6a6274fd
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직의 사용자에 대해 수신 허용-보낸 사람 및 수신 거부 목록을 만드는 것입니다.
+ms.openlocfilehash: a6e8f98d6cb5930f7eb6f2059c957112026dd5d8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261026"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156700"
 ---
 # <a name="safe-sender-and-blocked-sender-lists-in-exchange-online"></a>Exchange Online의 수신 허용-보낸 사람 및 수신 거부 목록
 
-exchange online 또는 EOP (exchange online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직의 사용자에 대해 수신 허용-보낸 사람 및 수신 거부 목록을 만드는 것입니다. 
+Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직의 사용자에 대해 수신 허용-보낸 사람 및 수신 거부 목록을 만드는 것입니다. 
   
  *에서이 목록을 사용 하 여 작업 하는 방법에 대 한 업데이트 된 버전의 팁 및 절차를 참조 하세요* . [수신 허용 목록 또는 기타 방법으로 스팸으로 표시 된 허위 긍정 전자 메일을 방지](https://go.microsoft.com/fwlink/p/?LinkID=534224)합니다. 
   

@@ -3,18 +3,18 @@ title: 보안 및 준수 센터의 메일 흐름 파악
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 80aa6b773d63b6c98293fa2787d38ad393e67b37
-ms.sourcegitcommit: e05e83212e7ca4e84f2ddb0de0297895b995338d
+ms.openlocfilehash: c7c1a6a16c908f42098500c1015b3c3994175818
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868626"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155880"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -30,9 +30,9 @@ ms.locfileid: "33868626"
 
 - [보낸 사람 도메인 통찰력](mfi-sender-domain-insight.md)
 
-- [배달 못 함 보고서](mfi-non-delivery-report.md)
+- [미실행 보고서](mfi-non-delivery-report.md)
 
-- [허용 되지 않는 도메인 보고서](mfi-non-accepted-domain-report.md)
+- [비허용 도메인 보고서](mfi-non-accepted-domain-report.md)
 
 - [아웃바운드 및 인바운드 메일 흐름](mfi-outbound-and-inbound-mail-flow.md)
 

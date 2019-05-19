@@ -3,7 +3,7 @@ title: DKIM으로 서명된 메시지의 유효성 검사 지원
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,13 +12,13 @@ search.appverid:
 ms.assetid: a4c95148-a00c-4d12-85ed-88520b547d97
 ms.collection:
 - M365-security-compliance
-description: exchange online Protection 및 exchange online에서 dkim 서명 된 메시지의 유효성 검사에 대해 자세히 알아보기
-ms.openlocfilehash: b1e2af0511c3aa9eb819206aa859ad96e834e3ec
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: Exchange Online Protection 및 Exchange Online에서 DKIM 서명 된 메시지의 유효성 검사에 대해 자세히 알아보기
+ms.openlocfilehash: 0538158d052afb632dc0adbb14a88aa9766e6322
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260246"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156450"
 ---
 # <a name="support-for-validation-of-dkim-signed-messages"></a>DKIM으로 서명된 메시지의 유효성 검사 지원
 
@@ -28,6 +28,6 @@ DKIM은 메시지 헤더의 DKIM 서명 헤더에 표시되는 디지털 서명�
   
  `Authentication-Results: <contoso.com>; dkim=pass (signature was verified) header.d=example.com;`
   
-관리자는 dkim 유효성 검사의 결과에 Exchange [메일 흐름 규칙](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) (전송 규칙이 라고도 함)을 만들어 필요에 따라 메시지를 필터링 하거나 라우팅할 수 있습니다. 
+관리자는 DKIM 유효성 검사의 결과에 Exchange [메일 흐름 규칙](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) (전송 규칙이 라고도 함)을 만들어 필요에 따라 메시지를 필터링 하거나 라우팅할 수 있습니다. 
   
 

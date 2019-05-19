@@ -3,7 +3,7 @@ title: 보안 및 준수 센터의 경고 정책
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다. 그런 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 57b30a3c7202940ebb5422d7ef392e93c5351bfb
-ms.sourcegitcommit: c7989a8ead235aaebb2503abbde598f2c26c0056
+ms.openlocfilehash: d4d163a483f47f7b4d785d43a0554e5d7670d24a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33979504"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152510"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 

@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Office 365 Advanced eDiscovery의 관련성 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 후 작업을 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: e8c9c02d72a756565f6fe59011a6788f592463eb
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 82380acc2ea90a600a3dd14f58c6d9bf0a06a1a6
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260420"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158350"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 태그 지정 및 관련성 교육
 
@@ -47,7 +47,7 @@ ms.locfileid: "32260420"
 |**태그 지정 옵션**|**설명**|**바로 가기 키**|**다중 문제-대량 태그 바로 가기 키**|
 |:-----|:-----|:-----|:-----|
 |이력서  <br/> |유용  <br/> |Z  <br/> |Shift + Z  <br/> |
-|veiligheid  <br/> |관련 없음  <br/> |X  <br/> |Shift + X  <br/> |
+|VEILIGHEID  <br/> |관련 없음  <br/> |X  <br/> |Shift + X  <br/> |
 |갑니다  <br/> |갑니다  <br/> |C  <br/> |Shift + A  <br/> |
    
   - 파일에 여러 문제가 있는 경우 한 가지 문제에 태그를 지정 하면 선택 항목이 다음 문제 (있는 경우)로 이동 합니다. 

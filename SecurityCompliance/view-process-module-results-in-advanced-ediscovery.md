@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
 description: '작업 상태 및 프로세스 요약을 포함 하 여 Office 365 Advanced eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 0393cde78e559036d92b9ac48245afafc974a8b2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 4bbdbf68f71e3459ff2ddcd8ba3fb33e52f16825
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267192"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157800"
 ---
 # <a name="view-process-module-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 프로세스 모듈 결과 보기
 
@@ -45,7 +45,7 @@ ms.locfileid: "32267192"
     
 - **파일 복사**: 프로세스 파일을 복사 합니다. 이 작업은 파일 복사 고급 옵션을 선택한 경우에도 항상 표시 됩니다.
     
-- **텍스트 추출**: 네이티브 파일이 있는 경우 Advanced eDiscovery는 dtsearch를 사용 하 여 이러한 파일에서 텍스트를 추출 합니다. 이러한 파일의 추출 된 텍스트는 case 폴더에 텍스트 파일로 저장 됩니다.
+- **텍스트 추출**: 네이티브 파일이 있는 경우 Advanced EDiscovery는 dtsearch를 사용 하 여 이러한 파일에서 텍스트를 추출 합니다. 이러한 파일의 추출 된 텍스트는 case 폴더에 텍스트 파일로 저장 됩니다.
     
 - **메타 데이터 업데이트**: 로드 된 메타 데이터를 처리 합니다. 
     

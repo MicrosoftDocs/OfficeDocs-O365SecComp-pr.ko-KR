@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 8/28/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 새 직원 또는 다른 사용자가 Office 365에서 비활성 사서함의 콘텐츠에 액세스 해야 하는 경우 비활성 사서함의 내용을 기존 사서함으로 복원 하거나 병합할 수 있습니다.
-ms.openlocfilehash: 1b80cf5bf9361959f1622b7b42f5c7598609539c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6bd147296e4324c5f75ff808768f8899cf9b59fd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264926"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157310"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복원
 
@@ -47,7 +47,7 @@ ms.locfileid: "32264926"
     
 ## <a name="restore-an-inactive-mailbox"></a>비활성 사서함 복원
 
-**get-mailboxrestorerequest** cmdlet을 _sourcemailbox_ 및 _targetmailbox_ 매개 변수와 함께 사용 하 여 비활성 사서함의 내용을 기존 사서함으로 복원할 수 있습니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 내용은 [get-mailboxrestorerequest](https://go.microsoft.com/fwlink/?linkid=856298)를 참조 하십시오.
+**Get-mailboxrestorerequest** Cmdlet을 _sourcemailbox_ 및 _targetmailbox_ 매개 변수와 함께 사용 하 여 비활성 사서함의 내용을 기존 사서함으로 복원할 수 있습니다. 이 cmdlet을 사용 하는 방법에 대 한 자세한 내용은 [get-mailboxrestorerequest](https://go.microsoft.com/fwlink/?linkid=856298)를 참조 하십시오.
   
 1. 비활성 사서함의 속성을 포함 하는 변수를 만듭니다. 
     
@@ -74,7 +74,7 @@ ms.locfileid: "32264926"
   
 ## <a name="restore-the-archive-from-an-inactive-mailbox"></a>비활성 사서함에서 보관 파일 복원
 
-비활성 사서함에 보관 사서함이 있는 경우 기존 사서함의 보관 사서함으로 복원할 수도 있습니다. 비활성 사서함에서 보관 함을 복원 하려면 비활성 사서함을 복원 하는 데 사용 되는 명령에 _sourceisarchive_ 및 _TargetIsAchive_ 스위치를 추가 해야 합니다. 
+비활성 사서함에 보관 사서함이 있는 경우 기존 사서함의 보관 사서함으로 복원할 수도 있습니다. 비활성 사서함에서 보관 함을 복원 하려면 비활성 사서함을 복원 하는 데 사용 되는 명령에 _Sourceisarchive_ 및 _TargetIsAchive_ 스위치를 추가 해야 합니다. 
   
 1. 비활성 사서함의 속성을 포함 하는 변수를 만듭니다. 
     
@@ -108,7 +108,7 @@ ms.locfileid: "32264926"
     
 - **AllowLegacyDNMismatch 스위치는 어떤 작업을 수행 하나요?** 이전 예제에서 비활성 사서함을 복원 하는 경우 **AllowLegacyDNMismatch** 스위치를 사용 하 여 비활성 사서함을 다른 대상 사서함으로 복원할 수 있습니다. 일반적인 복원 시나리오에서는 원본 및 대상 사서함이 같은 사서함 인 콘텐츠를 복원 하는 것이 목표입니다. 따라서 기본적으로 **get-mailboxrestorerequest** cmdlet은 원본 및 대상 사서함에서 **LegacyExchangeDN** 속성 값이 동일한 지 확인 합니다. 따라서 실수로 원본 사서함을 잘못 된 대상 사서함으로 복원 하는 것을 방지할 수 있습니다. **AllowLegacyDNMismatch** 스위치를 사용 하지 않고 비활성 사서함을 복원 하려고 하면 원본 및 대상 사서함의 **LegacyExchangeDN** 속성 값이 서로 다른 경우 명령이 실패할 수 있습니다. 
     
-- **get-mailboxrestorerequest cmdlet의 다른 매개 변수를 사용 하 여 비활성 사서함에 대해 서로 다른 복원 시나리오를 구현할 수 있습니다.** 예를 들어이 명령을 실행 하 여 비활성 사서함의 보관 함을 대상 사서함의 기본 사서함으로 복원할 수 있습니다. 
+- **Get-mailboxrestorerequest cmdlet의 다른 매개 변수를 사용 하 여 비활성 사서함에 대해 서로 다른 복원 시나리오를 구현할 수 있습니다.** 예를 들어이 명령을 실행 하 여 비활성 사서함의 보관 함을 대상 사서함의 기본 사서함으로 복원할 수 있습니다. 
     
   ```
   New-MailboxRestoreRequest -SourceMailbox <inactive mailbox> -SourceIsArchive -TargetMailbox <target mailbox> -TargetRootFolder "Inactive Mailbox Archive" -AllowLegacyDNMismatch
@@ -120,13 +120,13 @@ ms.locfileid: "32264926"
   New-MailboxRestoreRequest -SourceMailbox <inactive mailbox> -TargetMailbox <target mailbox> -TargetIsArchive -TargetRootFolder "Inactive Mailbox" -AllowLegacyDNMismatch
   ```
 
-- **targetrootfolder 매개 변수는 어떤 역할을 합니까?** 앞에서 설명한 것 처럼 **targetrootfolder** 매개 변수를 사용 하 여 비활성 사서함의 콘텐츠를 복원할 대상 사서함에서 폴더 구조 (루트 라고도 함)의 맨 위에 폴더를 지정할 수 있습니다. 이 매개 변수를 사용 하지 않으면 비활성 사서함의 사서함 항목이 대상 사서함의 해당 하는 기본 폴더에 병합 되 고 사용자 지정 폴더가 대상 사서함의 루트에 다시 만들어집니다. 다음 그림에서는 **targetrootfolder** 매개 변수를 사용 하는 것과 사용할 때의 차이점을 강조 표시 합니다. 
+- **TargetRootFolder 매개 변수는 어떤 역할을 합니까?** 앞에서 설명한 것 처럼 **Targetrootfolder** 매개 변수를 사용 하 여 비활성 사서함의 콘텐츠를 복원할 대상 사서함에서 폴더 구조 (루트 라고도 함)의 맨 위에 폴더를 지정할 수 있습니다. 이 매개 변수를 사용 하지 않으면 비활성 사서함의 사서함 항목이 대상 사서함의 해당 하는 기본 폴더에 병합 되 고 사용자 지정 폴더가 대상 사서함의 루트에 다시 만들어집니다. 다음 그림에서는 **Targetrootfolder** 매개 변수를 사용 하는 것과 사용할 때의 차이점을 강조 표시 합니다. 
     
-    **targetrootfolder 매개 변수가 사용 되지 않는 경우 대상 사서함의 폴더 계층 구조**
+    **TargetRootFolder 매개 변수가 사용 되지 않는 경우 대상 사서함의 폴더 계층 구조**
     
     ![TargetRootFolder 매개 변수가 사용되지 않는 경우의 스크린샷](media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
   
-    **targetrootfolder 매개 변수를 사용 하는 경우 대상 사서함의 폴더 계층 구조**
+    **TargetRootFolder 매개 변수를 사용 하는 경우 대상 사서함의 폴더 계층 구조**
     
     ![TargetRootFolder 매개 변수가 사용된 경우의 스크린샷](media/300da592-7323-48db-b8a4-07012259d113.png)
 

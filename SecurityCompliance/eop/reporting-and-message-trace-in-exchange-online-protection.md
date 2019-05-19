@@ -4,18 +4,18 @@ ms.author: chrisda
 author: chrisda
 manager: serdars
 ms.date: 12/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 확인할 수 있는 다양한 보고서를 제공합니다. 받는 사람에게 메시지가 도착하지 않는 등 특정 이벤트에 대한 문제를 해결할 수 있는 도구와 규정 준수 요구 사항을 지원하는 감사 보고서도 있습니다. 다음 표에서는 EOP 관리자가 사용할 수 있는 보고서 및 문제 해결 도구를 설명합니다.
-ms.openlocfilehash: fcefa14991d074f1f4459007c16dd7f4df1cedd1
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 0dcacec586408bf98ad4c67c11ae3bde3a8e9315
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256276"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154620"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Exchange Online Protection의 보고 및 메시지 추적
 
@@ -33,7 +33,7 @@ Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 �
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
-- [관리 센터의 office 365 보고서-office 365 그룹](https://go.microsoft.com/fwlink/p/?linkid=861610) 
+- [관리 센터의 office 365 보고서-Office 365 그룹](https://go.microsoft.com/fwlink/p/?linkid=861610) 
 - [관리 센터의 Office 365 보고서-전자 메일 활동](https://go.microsoft.com/fwlink/p/?linkid=859706) 
 - [관리 센터의 Office 365 보고서-전자 메일 앱 사용](https://go.microsoft.com/fwlink/p/?linkid=859707)
 - [관리 센터의 Office 365 보고서-사서함 사용량](https://go.microsoft.com/fwlink/p/?linkid=859708)
@@ -46,11 +46,11 @@ Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 �
 
 **EOP** 조직에서 보내고 보낸 맬웨어 감지, 스푸핑된 메일, 스팸 감지 및 메일 흐름에 대 한 정보를 확인 합니다.  
 
-[Advanced Threat protection 및 Exchange Online Protection에 대 한 보고서 보기](https://go.microsoft.com/fwlink/p/?linkid=852409) 
+[Advanced Threat Protection 및 Exchange Online Protection에 대 한 보고서 보기](https://go.microsoft.com/fwlink/p/?linkid=852409) 
 
 ##<a name="custom-reports-using-microsoft-graph"></a>Microsoft Graph를 사용한 사용자 지정 보고서
 
-microsoft graph를 사용 하 여 microsoft 365 관리 센터에서 사용할 수 있는 보고서를 프로그래밍 방식으로 만들기 microsoft [graph에서 Office 365 사용 현황 보고서 작업](https://go.microsoft.com/fwlink/p/?linkid=865135) 을 참조 하세요. 
+Microsoft Graph를 사용 하 여 Microsoft 365 관리 센터에서 사용할 수 있는 보고서를 프로그래밍 방식으로 만들기 microsoft [graph에서 Office 365 사용 현황 보고서 작업](https://go.microsoft.com/fwlink/p/?linkid=865135) 을 참조 하세요. 
 
 ##<a name="custom-reports-using-reporting-web-services"></a>보고 웹 서비스를 사용한 사용자 지정 보고서
 

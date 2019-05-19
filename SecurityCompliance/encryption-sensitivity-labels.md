@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: 41e1a9f1c789d555b1b5db3204b13f3279a6b56a
-ms.sourcegitcommit: d17ef25bf2a638c867cd399fff6c961ffeccaba4
+ms.openlocfilehash: 20d547a66309382c3ae3229540a23cd47e18460c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33628333"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153270"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
 

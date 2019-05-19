@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,17 +12,17 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
-ms.openlocfilehash: 7fb0c546fb65bf2cc2e67fe7e047593892cea58d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: e8f85f4cc9ae541d8a962dfb270e5216c912ac7d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259780"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153920"
 ---
 # <a name="create-a-document-deletion-policy"></a>문서 삭제 정책 만들기
 
 > [!IMPORTANT]
-> 앞으로는 문서 삭제 정책 대신 microsoft 365 준수 센터, microsoft 365 보안 센터 또는 Office 365 보안 &amp; 준수 센터에서 만든 보존 정책 또는 보존 레이블을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오. 
+> 앞으로는 문서 삭제 정책 대신 Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 &amp; 준수 센터에서 만든 보존 정책 또는 보존 레이블을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오. 
   
 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
   

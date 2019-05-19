@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,17 +12,17 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
-ms.openlocfilehash: 2a6b1c29986020ebd63f6ddb960f0d28ba348b3e
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 59bc100a19f3597aa1bf16506bf6c7049a35af3b
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257596"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154860"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 
 > [!IMPORTANT]
-> 앞으로는 문서 삭제 정책 대신 microsoft 365 준수 센터, microsoft 365 보안 센터 또는 Office 365 보안 &amp; 준수 센터에서 만든 보존 정책을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오.
+> 앞으로는 문서 삭제 정책 대신 Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 &amp; 준수 센터에서 만든 보존 정책을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오.
   
 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
   
@@ -76,7 +76,7 @@ ms.locfileid: "32257596"
   
 ## <a name="policies-and-assignments"></a>정책 및 할당
 
-문서 삭제 정책을 만든 후에는이를 사이트 모음 서식 파일에 할당할 수 있습니다 (예를 들어, 모든 사용자의 onedrive 사이트가 포함 되도록 비즈니스용 onedrive 서식 파일에 정책을 할당할 수 있습니다. 사이트 모음 서식 파일에 정책을 할당 하면 나중에 해당 서식 파일에서 만든 사이트 모음 외에도 해당 서식 파일에서 이미 만든 모든 사이트 모음에 적용 됩니다.
+문서 삭제 정책을 만든 후에는이를 사이트 모음 서식 파일에 할당할 수 있습니다 (예를 들어, 모든 사용자의 OneDrive 사이트가 포함 되도록 비즈니스용 OneDrive 서식 파일에 정책을 할당할 수 있습니다. 사이트 모음 서식 파일에 정책을 할당 하면 나중에 해당 서식 파일에서 만든 사이트 모음 외에도 해당 서식 파일에서 이미 만든 모든 사이트 모음에 적용 됩니다.
   
 ![OneDrive 옵션을 표시하는 서식 파일 페이지 선택](media/IP-Choose-a-template.png)
   

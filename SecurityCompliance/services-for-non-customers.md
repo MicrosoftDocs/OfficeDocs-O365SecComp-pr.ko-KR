@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 5/2/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: 540610fc3d1b53692688c729b714c839bf436e24
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 836beea966e4c944876d418fa88e8c4f6baaf770
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260876"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156640"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>비 고객을 위한 Office 365 메일을 보내는 서비스
   
@@ -62,6 +62,6 @@ Microsoft에서는 Office 365 받은 편지함에 메일을 보내는 데 문제
 ## <a name="abuse-and-spam-reporting-for-junk-email-originating-from-exchange-online"></a>Exchange Online에서 보내는 정크 메일에 대 한 불건전 및 스팸 보고
 <a name="ReportOurJunk"> </a>
 
-타사에서 Office 365을 사용 하 여 정크 메일을 보내는 경우에는 사용 약관 및 정책을 위반 하 게 됩니다. Office 365에서 정크 메일을 받은 경우 이러한 메시지를 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com)에 보고할 수 있습니다. RFC 5322 또는 arf 형식으로 전체 메시지 헤더를 포함 하 여 잘못 된 메시지를 첨부 하세요. 웹 사용자의 Outlook은 기본 제공 도구를 사용 하 여 정크 메일을 보고할 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고 ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.
+타사에서 Office 365을 사용 하 여 정크 메일을 보내는 경우에는 사용 약관 및 정책을 위반 하 게 됩니다. Office 365에서 정크 메일을 받은 경우 이러한 메시지를 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com)에 보고할 수 있습니다. RFC 5322 또는 ARF 형식으로 전체 메시지 헤더를 포함 하 여 잘못 된 메시지를 첨부 하세요. 웹 사용자의 Outlook은 기본 제공 도구를 사용 하 여 정크 메일을 보고할 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고 ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.
   
 

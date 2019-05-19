@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 3/15/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 계획 보안 및 규정 준수에 대 한 랜딩 페이지
 ms.collection: M365-security-compliance
-ms.openlocfilehash: b0c7af13a78499f3ee8af5b902bc4c8db85aca32
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c125bd36494e26d9603b565dc5154b975604f2b3
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265870"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157510"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Office 365의 &amp; 보안 준수 계획
 
@@ -35,7 +35,7 @@ Office 365 포스터에 대 한 정보 보호의 정보 보호 기능을 직접 
 
 Office 365 구독을 설정한 후에는 시작 점수를 기록해 둡니다. 보안 점수는 점수를 높이는 데 사용할 수 있는 Office 365 구성 추천 단어를 제공 합니다. 목표는 사용자의 생산성에 부정적인 영향을 주지 않도록 환경을 보호 하기 위해 수행할 수 있는 기회에 대해 알고 있어야 합니다.
   
-- [Office 365 보안 점수 소개](office-365-secure-score.md)
+- [Office 365 보안 점수 소개](microsoft-secure-score.md)
     
 ## <a name="step-3-plan-access-protection-for-identity-and-devices"></a>3 단계: id 및 장치에 대 한 액세스 보호 계획
 

@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 ms.collection:
 - M365-security-compliance
 description: Microsoft의 전자 메일 보안 로드맵에는 일치 하지 않는 제품 간 방법이 포함 됩니다. EOP (Exchange Online Protection) 스팸 방지 및 피싱 방지 필터링 기술은 Microsoft의 전자 메일 플랫폼에 적용 되어 사용자에 게 최신 스팸 방지 및 피싱 방지 도구와 네트워크 전체의 혁신을 제공 합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협 (피싱) 및 맬웨어로부터 사용자를 감지 하 고 보호 하는 데 도움이 되는 포괄적이 고 사용 가능한 전자 메일 서비스를 제공 하는 것입니다.
-ms.openlocfilehash: 510b04d3f111c269d5f8579abcc809ddc283636b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 9ef8433279137a91a52f6a149844eff9c567150c
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255446"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154520"
 ---
 # <a name="fighting-junk-email-sent-to-office-365"></a>Office 365에 전송 되는 정크 메일 보내기
 
@@ -64,11 +64,11 @@ Microsoft는 스푸핑된 전자 메일 및 웹 사이트에서 deceived 되는 
 
 도메인 스푸핑은 사기성 전자 메일을 합법적으로 확인 하기 위해 합법적인 전자 메일 주소를 imitating 하는 방법입니다. 스푸핑은 피싱 사기의 악의적인 개인 또는 조직에서 사용자를 divulging 중요 한 개인 정보로 유인 하는 데 사용 됩니다. 이러한 정보 공개로 인해 도난 및 기타 유형의 사기를 파악할 수 있습니다.
   
-EOP는 SPF (보낸 사람 보호 프레임 워크), domainkeys 식별 된 메일 (dkim) 및 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) 및 기타 암시적 인증을 사용 하 여 해당 메시지가 주장 하는 도메인에서 온 메시지를 확인 합니다. . 모든 보낸 사람은 SPF 및 dkim을 사용 하 여 정크 메일 및 피싱 사기 로부터 받는 사람을 보호 하는 것이 좋습니다. 보낸 사람에 게 DMARC를 게시 하 여 권한이 없는 보낸 사람이 보낸 메일을 거부 하거나 격리 하는 것이 좋습니다.
+EOP는 SPF (보낸 사람 보호 프레임 워크), DomainKeys 식별 된 메일 (DKIM) 및 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) 및 기타 암시적 인증을 사용 하 여 해당 메시지가 주장 하는 도메인에서 온 메시지를 확인 합니다. . 모든 보낸 사람은 SPF 및 DKIM을 사용 하 여 정크 메일 및 피싱 사기 로부터 받는 사람을 보호 하는 것이 좋습니다. 보낸 사람에 게 DMARC를 게시 하 여 권한이 없는 보낸 사람이 보낸 메일을 거부 하거나 격리 하는 것이 좋습니다.
   
 - SPF에 대 한 자세한 내용은 [RFC 7208](https://tools.ietf.org/html/rfc7208) 및 [보낸 사람 정책 프레임 워크](http://www.openspf.org/)를 참조 하세요.
     
-- dkim에 대 한 자세한 내용은 [RFC 6376](https://tools.ietf.org/html/rfc6376) 및 [DKIM.org](http://dkim.org/)를 참조 하세요.
+- DKIM에 대 한 자세한 내용은 [RFC 6376](https://tools.ietf.org/html/rfc6376) 및 [DKIM.org](http://dkim.org/)를 참조 하세요.
     
 - DMARC에 대 한 자세한 내용은 [DMARC.org](https://dmarc.org/)를 참조 하십시오.
     

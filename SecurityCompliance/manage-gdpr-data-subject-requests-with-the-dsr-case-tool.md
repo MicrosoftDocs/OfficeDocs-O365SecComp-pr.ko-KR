@@ -1,10 +1,10 @@
 ---
-title: Security & 준수 센터의 DSR 사례 도구를 사용 하 여 gdpr 데이터 주체 요청 관리
+title: Security & 준수 센터의 DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 5/25/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,19 +14,19 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
-description: gdpr에서는 EU 시민 (데이터 주체 라고 함)에 게 개인 데이터에 대 한 특정 권한을 부여 합니다. 이러한 권한에는 복사본을 가져오고, 변경 내용을 요청 하거나, 해당 파일의 처리를 제한 하거나, 전자 형식으로 메시지를 수신 하는 권한이 포함 됩니다. 개인 데이터에 대 한 작업을 수행 하기 위한 데이터의 공식적인 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. Office 365 및 Microsoft 365의 준수 센터에서 DSR 사례를 사용 하 여 조직의 dsr 조사를 관리할 수 있습니다.
-ms.openlocfilehash: a131da86350fc288c1c9af371d28464230b742d6
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: GDPR에서는 EU 시민 (데이터 주체 라고 함)에 게 개인 데이터에 대 한 특정 권한을 부여 합니다. 이러한 권한에는 복사본을 가져오고, 변경 내용을 요청 하거나, 해당 파일의 처리를 제한 하거나, 전자 형식으로 메시지를 수신 하는 권한이 포함 됩니다. 개인 데이터에 대 한 작업을 수행 하기 위한 데이터의 공식적인 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. Office 365 및 Microsoft 365의 준수 센터에서 DSR 사례를 사용 하 여 조직의 DSR 조사를 관리할 수 있습니다.
+ms.openlocfilehash: 644a604959d4063e5e7bd994bc9dfb57f8642081
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259914"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155810"
 ---
-# <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Security & 준수 센터의 DSR 사례 도구를 사용 하 여 gdpr 데이터 주체 요청 관리
+# <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Security & 준수 센터의 DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리
 
-gdpr (일반 데이터 보호 규정)은 eu (유럽 연합) 내에서 개인의 개인 정보 권한을 보호 하 고 사용 하도록 설정 하는 방법입니다. gdpr은 개인 데이터의 처리를 액세스, 검색, 수정, 삭제 및 제한할 수 있는 권한을 유럽 연합의 (데이터 주체)에 게 제공 합니다. gdpr에서 개인 데이터는 식별 되거나 식별 가능한 자연 사용자와 관련 된 정보를 의미 합니다. 개인 데이터에 대 한 작업을 수행할 수 있는 조직 사용자의 공식 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. office 365의 데이터에 대 한 dsrs에 응답 하는 방법에 대 한 자세한 내용은 [office 365 데이터 주체 요청 가이드](https://go.microsoft.com/fwlink/?linkid=871169 )를 참조 하세요.
+GDPR (일반 데이터 보호 규정)은 EU (유럽 연합) 내에서 개인의 개인 정보 권한을 보호 하 고 사용 하도록 설정 하는 방법입니다. GDPR은 개인 데이터의 처리를 액세스, 검색, 수정, 삭제 및 제한할 수 있는 권한을 유럽 연합의 (데이터 주체)에 게 제공 합니다. GDPR에서 개인 데이터는 식별 되거나 식별 가능한 자연 사용자와 관련 된 정보를 의미 합니다. 개인 데이터에 대 한 작업을 수행할 수 있는 조직 사용자의 공식 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. Office 365의 데이터에 대 한 DSRs에 응답 하는 방법에 대 한 자세한 내용은 [office 365 데이터 주체 요청 가이드](https://go.microsoft.com/fwlink/?linkid=871169 )를 참조 하세요.
   
-조직의 사용자가 제출한 dsr에 대 한 응답으로 조사를 관리 하기 위해 Security & 준수 센터의 dsr 사례 도구를 사용 하 여 다음에 저장 된 콘텐츠를 찾을 수 있습니다.
+조직의 사용자가 제출한 DSR에 대 한 응답으로 조사를 관리 하기 위해 Security & 준수 센터의 DSR 사례 도구를 사용 하 여 다음에 저장 된 콘텐츠를 찾을 수 있습니다.
   
 - 조직의 모든 사용자 사서함 여기에는 비즈니스용 Skype 대화와 일대일 채팅 (Microsoft 팀)이 포함 됩니다.
     
@@ -54,7 +54,7 @@ DSR 사례 도구를 사용 하 여 다음을 수행할 수 있습니다.
     
 - DSR 조사 프로세스가 완료 되 면 사례를 삭제 하 고 이렇게 하면 모든 검색을 제거 하 고 사례와 연결 된 작업을 내보냅니다.
     
-dsr 사례 도구를 사용 하 여 dsr 조사를 관리 하는 높은 수준의 프로세스는 다음과 같습니다.
+Dsr 사례 도구를 사용 하 여 DSR 조사를 관리 하는 높은 수준의 프로세스는 다음과 같습니다.
   
 [Step 1: Assign eDiscovery permissions to potential case members](#step-1-assign-ediscovery-permissions-to-potential-case-members)
 
@@ -69,13 +69,13 @@ dsr 사례 도구를 사용 하 여 dsr 조사를 관리 하는 높은 수준의
 [DSR 사례 도구 사용에 대 한 자세한 정보](#more-information-about-using-the-dsr-case-tool)
   
 > [!IMPORTANT]
-> 이 도구는 dsr 사례 도구에 있는 기본 제공 검색 및 내보내기 기능을 사용 하도록 설정 하 여 관리자가 dsr 액세스 또는 내보내기 요청을 수행 하는 데 도움이 될 수 있습니다. 이 도구를 사용 하면 데이터 주체에 의해 전송 된 DSR 요청과 관련 된 데이터를 최상의 방법으로 내보낼 수 있습니다. 그러나 내보내기 목적으로 항목을 "개인 데이터"로 간주 해야 하는지 여부에 영향을 줄 수 있는 데이터 주체 또는 관리 작업에 따라 검색 결과가 다를 수 있다는 점에 유의 해야 합니다. 예를 들어 데이터 주체가 만들지 않은 파일을 마지막으로 수정한 사용자 인 경우 해당 파일은 검색 결과에 반환 되지 않을 수 있습니다. 마찬가지로, 관리자는 부분적으로 인덱싱된 항목 또는 모든 SharePoint 문서 버전을 포함 하지 않고 데이터를 내보낼 수 있습니다. 따라서 제공 되는 도구를 통해 데이터 요청을 쉽게 액세스 하 고 내보낼 수 있습니다. 그러나 결과는 특정 관리 및 데이터 주체 사용 시나리오에 따라 달라 집니다. 
+> 이 도구는 DSR 사례 도구에 있는 기본 제공 검색 및 내보내기 기능을 사용 하도록 설정 하 여 관리자가 DSR 액세스 또는 내보내기 요청을 수행 하는 데 도움이 될 수 있습니다. 이 도구를 사용 하면 데이터 주체에 의해 전송 된 DSR 요청과 관련 된 데이터를 최상의 방법으로 내보낼 수 있습니다. 그러나 내보내기 목적으로 항목을 "개인 데이터"로 간주 해야 하는지 여부에 영향을 줄 수 있는 데이터 주체 또는 관리 작업에 따라 검색 결과가 다를 수 있다는 점에 유의 해야 합니다. 예를 들어 데이터 주체가 만들지 않은 파일을 마지막으로 수정한 사용자 인 경우 해당 파일은 검색 결과에 반환 되지 않을 수 있습니다. 마찬가지로, 관리자는 부분적으로 인덱싱된 항목 또는 모든 SharePoint 문서 버전을 포함 하지 않고 데이터를 내보낼 수 있습니다. 따라서 제공 되는 도구를 통해 데이터 요청을 쉽게 액세스 하 고 내보낼 수 있습니다. 그러나 결과는 특정 관리 및 데이터 주체 사용 시나리오에 따라 달라 집니다. 
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당
 
-기본적으로 Office 365 전역 관리자는 Security & 준수 센터에서 DSR 사례 도구에 액세스할 수 있습니다. 기본적으로 데이터 개인 정보 취급 방침, 인적 자원 관리자 또는 dsr 조사에 관련 된 다른 사용자가 dsr 사례 도구에 액세스할 수 없으며 도구에 액세스 하기 위한 적절 한 권한을 할당 받아야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 Security & 준수 센터의 **사용 권한** 페이지로 이동 하 여 eDiscovery 관리자 역할 그룹에 사용자를 추가 하는 것입니다. 또한 이러한 사용 권한을 할당 하 여 2 단계에서 만든 DSR 사례의 구성원으로 추가할 수 있도록 해야 합니다. 
+기본적으로 Office 365 전역 관리자는 Security & 준수 센터에서 DSR 사례 도구에 액세스할 수 있습니다. 기본적으로 데이터 개인 정보 취급 방침, 인적 자원 관리자 또는 DSR 조사에 관련 된 다른 사용자가 dsr 사례 도구에 액세스할 수 없으며 도구에 액세스 하기 위한 적절 한 권한을 할당 받아야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 Security & 준수 센터의 **사용 권한** 페이지로 이동 하 여 eDiscovery 관리자 역할 그룹에 사용자를 추가 하는 것입니다. 또한 이러한 사용 권한을 할당 하 여 2 단계에서 만든 DSR 사례의 구성원으로 추가할 수 있도록 해야 합니다. 
   
-단계별 지침은 [Office 365 Security & 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+단계별 지침은 [Office 365 Security _AMP_ 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
 > [!NOTE]
 > 기본적으로 Office 365 전역 관리자 또는 보안 & 준수 센터에 있는 조직 관리 역할 그룹의 기타 구성원에 게는 콘텐츠 검색 결과를 내보내는 데 필요한 권한이 없습니다 (이 문서의 4 단계 참조). 이를 처리 하기 위해 관리자는 자신을 eDiscovery 관리자 역할 그룹의 구성원으로 추가할 수 있습니다. 
@@ -127,9 +127,9 @@ DSR 사례를 만들고 구성원을 추가한 후에는 사례와 연결 된 �
     
 - 조직의 모든 사이트에서 데이터 주체가 만들거나 업로드 한 문서 및 항목을 검색 합니다. 이 작업은 다음 사이트 속성을 사용 하 여 수행 됩니다.
     
-  - *author* 속성은 Office 문서의 author 필드에 데이터 제목이 나열 되는 항목을 반환 합니다. 이 값은 다른 사용자가 문서를 복사 하 고 업로드 하는 경우에도 지속 됩니다. 
+  - *Author* 속성은 Office 문서의 author 필드에 데이터 제목이 나열 되는 항목을 반환 합니다. 이 값은 다른 사용자가 문서를 복사 하 고 업로드 하는 경우에도 지속 됩니다. 
     
-  - *x-createdby* 속성은 데이터 제목별로 만들어지거나 업로드 된 항목을 반환 합니다. 
+  - *X-createdby* 속성은 데이터 제목별로 만들어지거나 업로드 된 항목을 반환 합니다. 
     
 기본 제공 검색에서 DSR 사례를 만들 때 자동으로 만들어지는 키워드 쿼리는 다음과 같습니다.
   
@@ -137,7 +137,7 @@ DSR 사례를 만들고 구성원을 추가한 후에는 사례와 연결 된 �
 participants:"<email address>" OR author:"<display name>" OR createdby:"<display name>"
 ```
 
-예를 들어 데이터 주체의 이름이 Ina leonte 인 경우 keyword 쿼리는 다음과 같이 표시 됩니다.
+예를 들어 데이터 주체의 이름이 Ina Leonte 인 경우 keyword 쿼리는 다음과 같이 표시 됩니다.
   
 ```
 participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
@@ -173,7 +173,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
   
 - 32비트 및 64비트 버전의 Windows 7 이상 버전
     
-- Microsoft .net Framework 4.7
+- Microsoft .NET Framework 4.7
     
 - 지원되는 브라우저:
     
@@ -204,7 +204,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
     
     &. 중복 된 전자 메일 메시지를 제외 하려면 중복 제거 옵션 **사용** 을 선택 합니다. 기본 제공 검색이 조직의 모든 사서함을 검색 하기 때문에이 옵션을 사용 하는 것이 좋습니다. 따라서 검색 된 사서함에서 같은 메시지의 복사본을 여러 개 찾은 경우이 옵션을 사용 하면 하나의 메시지 복사본만 내보내집니다. 이 옵션을 사용 하면 단일 폴더에 있는 하나의 PST 파일에 있는 메시지를 내보낼 때 DSR 내보내기 요청에 대 한 최상의 사용자 환경이 제공 됩니다. 결과 .csv 내보내기 보고서에는 중복 메시지가 발견 된 모든 위치가 나열 됩니다.
     
-    필요한 경우 sharepoint **문서 버전 포함** 옵션을 선택 하 여 모든 sharepoint 및 OneDrive 문서 버전을 내보낼 수 있습니다. 이렇게 하려면 문서 라이브러리에 대해 버전 관리를 설정 해야 합니다. 이 옵션을 사용 하면 모든 관련 데이터를 내보낼 수 있습니다.
+    필요한 경우 sharepoint **문서 버전 포함** 옵션을 선택 하 여 모든 Sharepoint 및 OneDrive 문서 버전을 내보낼 수 있습니다. 이렇게 하려면 문서 라이브러리에 대해 버전 관리를 설정 해야 합니다. 이 옵션을 사용 하면 모든 관련 데이터를 내보낼 수 있습니다.
     
 5. 내보내기 설정을 선택한 후 **내보내기를**클릭 합니다.
     
@@ -218,9 +218,9 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
     
 9. 내보내기 ![플라이 아웃 페이지 위쪽](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) 에서 검색 결과 아이콘 **다운로드 결과** 내보내기를 클릭 합니다. 
     
-10. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **Microsoft Office 365 eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **eDiscovery 내보내기 도구** 를 설치 합니다. 
+10. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **Microsoft Office 365 eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **EDiscovery 내보내기 도구** 를 설치 합니다. 
     
-11. **eDiscovery 내보내기 도구**에서 8 단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
+11. **EDiscovery 내보내기 도구**에서 8 단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
     
 12. **찾아보기**를 클릭하여 검색 결과 파일을 다운로드하려는 위치를 지정합니다. 
     
@@ -267,15 +267,15 @@ DSR 사례에 대 한 기본 제공 검색을 수정 하는 것 외에도 검색
     
     b. 플라이 아웃 페이지 가운데의 사이트에서 **모두 선택** 섹션을 선택 하 여 모든 사이트를 검색 함을 나타내는 설정으로 전환 합니다. 검색 범위를 선택한 사이트로 좁히려면 설정의 선택을 취소 한 다음 **사이트 선택을**클릭 합니다. 데이터 주체의 OneDrive 계정을 포함 하 여 검색 하려는 각 특정 사이트를 추가 해야 합니다.
     
-    &. exchange 공용 폴더에서 설정/해제 섹션이 선택 되어 있으며,이는 모든 exchange 공용 폴더를 검색 한다는 것을 의미 합니다. 모든 Exchange 공용 폴더만 검색 하거나 모두 검색할 수는 없습니다. 검색할 특정 항목을 선택할 수는 없습니다.
+    &. Exchange 공용 폴더에서 설정/해제 섹션이 선택 되어 있으며,이는 모든 Exchange 공용 폴더를 검색 한다는 것을 의미 합니다. 모든 Exchange 공용 폴더만 검색 하거나 모두 검색할 수는 없습니다. 검색할 특정 항목을 선택할 수는 없습니다.
     
 3. 기본 제공 검색에서 콘텐츠 위치를 수정 하는 경우에는 **저장 &amp; 실행** 을 클릭 하 여 검색을 다시 시작 합니다. 
   
 ## <a name="more-information-about-using-the-dsr-case-tool"></a>DSR 사례 도구 사용에 대 한 자세한 정보
 
-다음 섹션에서는 dsr 사례 도구를 사용 하 여 dsr 내보내기 요청에 응답 하는 방법에 대 한 자세한 정보를 포함 합니다.
+다음 섹션에서는 DSR 사례 도구를 사용 하 여 DSR 내보내기 요청에 응답 하는 방법에 대 한 자세한 정보를 포함 합니다.
   
-[myanalytics 및 Office 로밍 서비스에서 데이터 내보내기](#exporting-data-from-myanalytics-and-the-office-roaming-service)
+[MyAnalytics 및 Office 로밍 서비스에서 데이터 내보내기](#exporting-data-from-myanalytics-and-the-office-roaming-service)
 
 [부분적으로 인덱싱된 항목 내보내기](#exporting-partially-indexed-items)
 
@@ -283,26 +283,26 @@ DSR 사례에 대 한 기본 제공 검색을 수정 하는 것 외에도 검색
 
 [Exchange 공용 폴더 검색](#searching-exchange-public-folders)
   
-### <a name="exporting-data-from-myanalytics-and-the-office-roaming-service"></a>myanalytics 및 Office 로밍 서비스에서 데이터 내보내기
+### <a name="exporting-data-from-myanalytics-and-the-office-roaming-service"></a>MyAnalytics 및 Office 로밍 서비스에서 데이터 내보내기
 
-DSR 사례 도구를 사용 하 여 myanalytics 및 Office 로밍 서비스에서 생성 된 사용 현황 데이터를 검색 하 고 내보낼 수 있습니다. 다음은 이러한 서비스가 수행 하는 작업에 대 한 설명입니다.
+DSR 사례 도구를 사용 하 여 MyAnalytics 및 Office 로밍 서비스에서 생성 된 사용 현황 데이터를 검색 하 고 내보낼 수 있습니다. 다음은 이러한 서비스가 수행 하는 작업에 대 한 설명입니다.
   
-- **myanalytics** -사용자가 사서함의 메일 및 일정 데이터를 기반으로 시간을 보내는 방법을 설명 합니다. 모든 myanalytics insights는 사용자 사서함의 전자 메일 및 모임 헤더에서 파생 됩니다. myanalytics 라이선스가 할당 된 사용자는 Office 365에 로그인 하 고 myanalytics 대시보드로 이동 하 여 시간을 사용 하는 방법에 대 한 정보를 확인할 수 있습니다. (사용자가 DSR 액세스 요청에 대 한 응답으로 이러한 정보를 스크린샷을 볼 수 있습니다.) DSR 사례에서 기본 제공 되는 검색은 myanalytics insights를 생성 하는 데 사용 되는 데이터를 내보냅니다. 
+- **Myanalytics** -사용자가 사서함의 메일 및 일정 데이터를 기반으로 시간을 보내는 방법을 설명 합니다. 모든 MyAnalytics insights는 사용자 사서함의 전자 메일 및 모임 헤더에서 파생 됩니다. MyAnalytics 라이선스가 할당 된 사용자는 Office 365에 로그인 하 고 MyAnalytics 대시보드로 이동 하 여 시간을 사용 하는 방법에 대 한 정보를 확인할 수 있습니다. (사용자가 DSR 액세스 요청에 대 한 응답으로 이러한 정보를 스크린샷을 볼 수 있습니다.) DSR 사례에서 기본 제공 되는 검색은 MyAnalytics insights를 생성 하는 데 사용 되는 데이터를 내보냅니다. 
     
-- **office 로밍 서비스** -로밍은 office 테마, 사용자 지정 사전, 언어 설정, 개발자 모드, 자동 고침 등의 office 관련 설정을 저장 하는 서비스입니다. 
+- **Office 로밍 서비스** -로밍은 office 테마, 사용자 지정 사전, 언어 설정, 개발자 모드, 자동 고침 등의 office 관련 설정을 저장 하는 서비스입니다. 
     
-myanalytics 및 Office 로밍 서비스의 데이터는 Exchange Online 사서함의 비 상호 간 메시지 (IPM이 아닌) 하위 트리에 있는 숨겨진 폴더의 데이터 주체 사서함에 저장 됩니다. 즉, 사용자가 Outlook 또는 다른 메일 클라이언트를 사용 하 여 자신의 사서함에 액세스 하는 경우 해당 데이터는 해당 보기에서 숨겨집니다. 숨겨진 폴더에 대 한 자세한 내용은 [MAPI 숨김 폴더](https://go.microsoft.com/fwlink/?linkid=872758)를 참조 하십시오.
+MyAnalytics 및 Office 로밍 서비스의 데이터는 Exchange Online 사서함의 비 상호 간 메시지 (IPM이 아닌) 하위 트리에 있는 숨겨진 폴더의 데이터 주체 사서함에 저장 됩니다. 즉, 사용자가 Outlook 또는 다른 메일 클라이언트를 사용 하 여 자신의 사서함에 액세스 하는 경우 해당 데이터는 해당 보기에서 숨겨집니다. 숨겨진 폴더에 대 한 자세한 내용은 [MAPI 숨김 폴더](https://go.microsoft.com/fwlink/?linkid=872758)를 참조 하십시오.
   
-데이터의 주체 사서함에 myanalytics 및 Office 로밍 서비스 사용 현황 데이터를 반환 하는 별도의 콘텐츠 검색 (및 DSR 사례와 연결)을 만들 수 있습니다. 이 데이터는 검색 통계에 포함 되지 않으며 미리 보기에 사용할 수 없습니다. 그러나이 파일을 내보낸 후 DSR 내보내기 요청에 대 한 응답으로 데이터 주체에 게 제공할 수 있습니다.
+데이터의 주체 사서함에 MyAnalytics 및 Office 로밍 서비스 사용 현황 데이터를 반환 하는 별도의 콘텐츠 검색 (및 DSR 사례와 연결)을 만들 수 있습니다. 이 데이터는 검색 통계에 포함 되지 않으며 미리 보기에 사용할 수 없습니다. 그러나이 파일을 내보낸 후 DSR 내보내기 요청에 대 한 응답으로 데이터 주체에 게 제공할 수 있습니다.
   
-myanalytics 및 Office 로밍 서비스에서 데이터를 내보내는 경우 데이터가 데이터 주체의 전자 메일 주소가 포함 된 폴더에 있는 **ApplicationDataRoot** 폴더에 있는 각 응용 프로그램에 대해 별도의 폴더에 저장 됩니다. 이 데이터는 전자 메일 메시지에 첨부 되는 XML 또는 TXT 파일과 유사한 사람이 읽을 수 있는 텍스트 파일인 JSON 파일로 내보내집니다. 현재 이러한 폴더는 다음 표에 나열 된 myanalytics 및 Office 로밍 서비스에 할당 된 guid (globally unique identifier)로 이름이 지정 됩니다. 이후 버전의 DSR 사례 도구에서는 GUID가 실제 응용 프로그램의 이름으로 대체 됩니다. 
+MyAnalytics 및 Office 로밍 서비스에서 데이터를 내보내는 경우 데이터가 데이터 주체의 전자 메일 주소가 포함 된 폴더에 있는 **ApplicationDataRoot** 폴더에 있는 각 응용 프로그램에 대해 별도의 폴더에 저장 됩니다. 이 데이터는 전자 메일 메시지에 첨부 되는 XML 또는 TXT 파일과 유사한 사람이 읽을 수 있는 텍스트 파일인 JSON 파일로 내보내집니다. 현재 이러한 폴더는 다음 표에 나열 된 MyAnalytics 및 Office 로밍 서비스에 할당 된 GUID (globally unique identifier)로 이름이 지정 됩니다. 이후 버전의 DSR 사례 도구에서는 GUID가 실제 응용 프로그램의 이름으로 대체 됩니다. 
   
 |**응용 프로그램**|**GUID/폴더 이름**|
 |:-----|:-----|
 |MyAnalytics  <br/> |3c896ded-22c5-450f-91f6-3d1ef0848f6e  <br/> |
 |Office 로밍 서비스  <br/> |1caee58f-eb14-4a6b-9339-1fe2ddf6692b  <br/> |
    
- **myanalytics 및 Office 로밍 서비스 데이터를 검색 하 고 내보내려면 다음을 수행 합니다.**
+ **MyAnalytics 및 Office 로밍 서비스 데이터를 검색 하 고 내보내려면 다음을 수행 합니다.**
   
 1. 보안 & 준수 센터에서 **데이터 개인 정보** \> **데이터 주체 요청**을 클릭 하 고 사용 현황 데이터를 내보내려는 데이터 주체의 DSR 사례 옆에 있는 **열기** 를 클릭 합니다. 
     
@@ -310,9 +310,9 @@ myanalytics 및 Office 로밍 서비스에서 데이터를 내보내는 경우 �
     
 3. **검색 페이지 이름** 으로 **취소** 를 클릭 합니다. 
     
-4. **검색 쿼리의** **유형** 조건에서 **myanalytics** 및 **Office 로밍 서비스**옆에 있는 확인란을 선택 합니다. 
+4. **검색 쿼리의** **유형** 조건에서 **Myanalytics** 및 **Office 로밍 서비스**옆에 있는 확인란을 선택 합니다. 
     
-    ![myanalytics 및 Office 로밍 서비스 확인란을 선택 하 여 사용 현황 데이터 내보내기](media/3dacbc7a-c314-492c-828c-6757fda84963.png)
+    ![MyAnalytics 및 Office 로밍 서비스 확인란을 선택 하 여 사용 현황 데이터 내보내기](media/3dacbc7a-c314-492c-828c-6757fda84963.png)
   
     전자 메일 메시지 클래스에 해당 하는 **유형** 조건은 검색 쿼리의 유일한 항목 이어야 합니다. **키워드** 상자를 삭제 하거나 비워 둘 수 있습니다. 
     
@@ -326,7 +326,7 @@ myanalytics 및 Office 로밍 서비스에서 데이터를 내보내는 경우 �
     
     검색이 시작됩니다.
     
- **myanalytics 및 Office 로밍 서비스 데이터를 내보내려면 다음을 수행 합니다.**
+ **MyAnalytics 및 Office 로밍 서비스 데이터를 내보내려면 다음을 수행 합니다.**
   
 1. 이전 단계에서 만든 검색이 완료 되 면 페이지 위쪽의 **검색** 탭을 클릭 하 고 검색 옆에 있는 확인란을 클릭 합니다. 검색을 표시 하려면 ![](media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **새로** 고침 새로 고침을 클릭 해야 할 수 있습니다. 
     
@@ -334,7 +334,7 @@ myanalytics 및 Office 로밍 서비스에서 데이터를 내보내는 경우 �
     
 3. **내보내기 결과** 페이지에서 다음 옵션을 선택 하 여 사용 현황 데이터를 내보냅니다. 
     
-    ![myanalytics 및 Office 로밍 서비스 사용 현황 데이터를 내보낼 때의 내보내기 옵션](media/470a7d1e-eeae-4b42-95aa-15cb82ce2f68.png)
+    ![MyAnalytics 및 Office 로밍 서비스 사용 현황 데이터를 내보낼 때의 내보내기 옵션](media/470a7d1e-eeae-4b42-95aa-15cb82ce2f68.png)
   
     위한. **출력 옵션**에서 인덱싱된 항목만 내보내려면 첫 번째 옵션 (인식할 수 없는 형식을 포함 하 고, **암호화 되어 있거나 인덱싱되지 않은 항목 제외**)을 선택 합니다.
     
@@ -354,7 +354,7 @@ myanalytics 및 Office 로밍 서비스에서 데이터를 내보내는 경우 �
     
 8. 내보내기 ![플라이 아웃 페이지 위쪽](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) 에서 검색 결과 아이콘 **다운로드 결과** 내보내기를 클릭 합니다. 
     
-9. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **Microsoft Office 365 eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **eDiscovery 내보내기 도구** 를 설치 합니다. 
+9. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **Microsoft Office 365 eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **EDiscovery 내보내기 도구** 를 설치 합니다. 
     
 10. **eDiscovery 내보내기 도구**에서 7단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
     
@@ -405,7 +405,7 @@ Microsoft 팀의 채팅 목록에 속하는 대화 (팀 대화방 또는 일대�
   
 마찬가지로 Office 365 그룹에 해당 하는 사서함 및 SharePoint 사이트도 기본 제공 검색에 포함 됩니다. 즉, 데이터 주체에서 만들거나 업로드 한 데이터 제목 및 파일에 의해 전송 되거나 수신 되는 전자 메일 메시지가 반환 됩니다. 
   
-콘텐츠 검색을 사용 하 여 Microsoft 팀 및 office 365 그룹의 항목을 검색 하거나 구성원 목록을 가져오는 방법을 확인 하는 방법에 대 한 자세한 내용은 [Office의 콘텐츠 검색 365](content-search.md#searching-microsoft-teams-and-office-365-groups)에서 "Microsoft 팀 및 Office 365 그룹 검색" 섹션을 참조 하십시오. 
+콘텐츠 검색을 사용 하 여 Microsoft 팀 및 Office 365 그룹의 항목을 검색 하거나 구성원 목록을 가져오는 방법을 확인 하는 방법에 대 한 자세한 내용은 [Office의 콘텐츠 검색 365](content-search.md#searching-microsoft-teams-and-office-365-groups)에서 "Microsoft 팀 및 Office 365 그룹 검색" 섹션을 참조 하십시오. 
   
 ### <a name="searching-exchange-public-folders"></a>Exchange 공용 폴더 검색
 

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 f1_keywords:
 - ms.o365.cc.IngestionHelp
@@ -15,13 +15,13 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
-description: '관리자: 보안 & 준수 센터의 가져오기 서비스를 사용 하 여 Exchange Online의 사용자 사서함에 대 한 전자 메일 데이터 (PST 파일)를 대량으로 가져오는 방법에 대해 설명 합니다. 이 항목에서는 faq를 제공 하 고 PST 가져오기 프로세스의 작동 방식에 대해 설명 합니다.'
-ms.openlocfilehash: afe19076f2b0cd8dd5dfe3a596d80a7b65e8a891
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+description: '관리자: 보안 & 준수 센터의 가져오기 서비스를 사용 하 여 Exchange Online의 사용자 사서함에 대 한 전자 메일 데이터 (PST 파일)를 대량으로 가져오는 방법에 대해 설명 합니다. 이 항목에서는 Faq를 제공 하 고 PST 가져오기 프로세스의 작동 방식에 대해 설명 합니다.'
+ms.openlocfilehash: ab623c531f5e322a99aef5c8c33f110fc140a6f7
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33403026"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154227"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>Overview of importing your organization PST files to Office 365
 
@@ -30,9 +30,9 @@ ms.locfileid: "33403026"
 
 Security & 준수 센터의 가져오기 서비스를 사용 하 여 Office 365 조직의 Exchange Online 사서함으로 PST 파일을 빠르게 대량으로 가져올 수 있습니다. PST 파일을 Office 365로 가져오는 방법에는 두 가지가 있습니다.
    
-- **네트워크 업로드** ![클라우드 업로드](media/54ab16ee-3822-4551-abef-3d926f4e1c01.png) -네트워크를 통해 PST 파일을 Microsoft 클라우드의 임시 Azure 저장소 위치로 업로드 합니다. 그런 다음 office 365 가져오기 서비스를 사용 하 여 office 365 조직의 사서함으로 PST 데이터를 가져옵니다. 
+- **네트워크 업로드** ![클라우드 업로드](media/54ab16ee-3822-4551-abef-3d926f4e1c01.png) -네트워크를 통해 PST 파일을 Microsoft 클라우드의 임시 Azure 저장소 위치로 업로드 합니다. 그런 다음 Office 365 가져오기 서비스를 사용 하 여 Office 365 조직의 사서함으로 PST 데이터를 가져옵니다. 
 
-- **드라이브 전달** ![하드 디스크](media/e72b76f3-1f73-4296-b749-c325d95d9ef6.png) -PST 파일을 BitLocker로 암호화 된 하드 드라이브에 복사한 다음 물리적으로 Microsoft에 드라이브를 배송 합니다. microsoft는 하드 드라이브를 수신 하는 경우 데이터 센터 직원은 microsoft 클라우드의 임시 Azure 저장소 위치에 데이터를 업로드 합니다. 그런 다음 office 365 가져오기 서비스를 사용 하 여 office 365 조직의 사서함으로 데이터를 가져옵니다.
+- **드라이브 전달** ![하드 디스크](media/e72b76f3-1f73-4296-b749-c325d95d9ef6.png) -PST 파일을 BitLocker로 암호화 된 하드 드라이브에 복사한 다음 물리적으로 Microsoft에 드라이브를 배송 합니다. Microsoft는 하드 드라이브를 수신 하는 경우 데이터 센터 직원은 Microsoft 클라우드의 임시 Azure 저장소 위치에 데이터를 업로드 합니다. 그런 다음 Office 365 가져오기 서비스를 사용 하 여 Office 365 조직의 사서함으로 데이터를 가져옵니다.
 
 ## <a name="step-by-step-instructions"></a>단계별 지침
   
@@ -47,36 +47,36 @@ Security & 준수 센터의 가져오기 서비스를 사용 하 여 Office 365 
   
 ![PST 가져오기 프로세스 워크플로](media/76997b69-67d7-433a-a0ca-9389f85a36a1.png)
   
-1. **pst 가져오기 도구 및 키를 사설 Azure 저장소 위치로 다운로드** -pst 파일을 업로드 하거나 하드 드라이브에 복사 하는 데 사용 되는 도구 및 액세스 키를 다운로드 하는 첫 번째 단계입니다. 보안 & 준수 센터의 **가져오기** 페이지에서이를 가져옵니다. 키를 사용 하면 개인 및 안전한 Azure storage 위치에 PST 파일을 업로드 하는 데 필요한 사용 권한 (또는 드라이브 전달의 경우 Microsoft data center 직원)이 제공 됩니다. 이 선택 키는 조직에서 고유 하며, Microsoft 클라우드로 업로드 된 후에 해당 PST 파일에 대 한 무단 액세스를 방지 하는 데 도움이 됩니다. PST 파일을 Office 365로 가져오는 경우 조직에서 별도의 Azure 구독을 사용할 필요가 없습니다. 
+1. **Pst 가져오기 도구 및 키를 사설 Azure 저장소 위치로 다운로드** -pst 파일을 업로드 하거나 하드 드라이브에 복사 하는 데 사용 되는 도구 및 액세스 키를 다운로드 하는 첫 번째 단계입니다. 보안 & 준수 센터의 **가져오기** 페이지에서이를 가져옵니다. 키를 사용 하면 개인 및 안전한 Azure storage 위치에 PST 파일을 업로드 하는 데 필요한 사용 권한 (또는 드라이브 전달의 경우 Microsoft data center 직원)이 제공 됩니다. 이 선택 키는 조직에서 고유 하며, Microsoft 클라우드로 업로드 된 후에 해당 PST 파일에 대 한 무단 액세스를 방지 하는 데 도움이 됩니다. PST 파일을 Office 365로 가져오는 경우 조직에서 별도의 Azure 구독을 사용할 필요가 없습니다. 
     
-2. **pst 파일 업로드 또는 복사** -다음 단계는 네트워크 업로드 또는 드라이브 전달을 사용 하 여 pst 파일을 가져올지 여부에 따라 달라 집니다. 두 경우 모두 이전 단계에서 얻은 도구 및 보안 저장소 키를 사용 합니다.
+2. **Pst 파일 업로드 또는 복사** -다음 단계는 네트워크 업로드 또는 드라이브 전달을 사용 하 여 pst 파일을 가져올지 여부에 따라 달라 집니다. 두 경우 모두 이전 단계에서 얻은 도구 및 보안 저장소 키를 사용 합니다.
     
     - **네트워크 업로드** 1 단계에서 다운로드 한 AzCopy 도구는 Microsoft 클라우드의 Azure 저장소 위치에 PST 파일을 업로드 하 고 저장 하는 데 사용 됩니다. PST 파일을 업로드 하는 Azure 저장소 위치는 Office 365 조직이 있는 동일한 지역 Microsoft 데이터 센터에 저장 됩니다. 
     
       이를 업로드 하려면 Office 365로 가져올 PST 파일이 조직의 파일 공유 또는 파일 서버에 있어야 합니다.
     
-    - **드라이브 전달** 1 단계에서 다운로드 한 waimportexport 도구는 PST 파일을 하드 드라이브에 복사 하는 데 사용 됩니다. 이 도구는 BitLocker로 하드 드라이브를 암호화 한 다음 pst를 하드 드라이브에 복사 합니다. 네트워크 업로드와 마찬가지로 하드 드라이브에 복사할 PST 파일을 조직의 파일 공유 또는 파일 서버에 배치 해야 합니다.
+    - **드라이브 전달** 1 단계에서 다운로드 한 WAImportExport 도구는 PST 파일을 하드 드라이브에 복사 하는 데 사용 됩니다. 이 도구는 BitLocker로 하드 드라이브를 암호화 한 다음 Pst를 하드 드라이브에 복사 합니다. 네트워크 업로드와 마찬가지로 하드 드라이브에 복사할 PST 파일을 조직의 파일 공유 또는 파일 서버에 배치 해야 합니다.
     
-3. **pst 가져오기 매핑 파일 만들기** -pst 파일이 Azure 저장 위치로 업로드 되거나 하드 드라이브에 복사 된 후에는 pst 파일을 가져올 사용자 사서함을 지정 하는 CSV (쉼표로 구분 된 값) 파일을 만듭니다 ( nd PST 파일을 사용자의 기본 사서함 이나 보관 사서함으로 가져올 수 있습니다. Office 365 가져오기 서비스는이 정보를 사용 하 여 PST 파일을 가져옵니다. 
+3. **Pst 가져오기 매핑 파일 만들기** -Pst 파일이 Azure 저장 위치로 업로드 되거나 하드 드라이브에 복사 된 후에는 pst 파일을 가져올 사용자 사서함을 지정 하는 CSV (쉼표로 구분 된 값) 파일을 만듭니다 ( nd PST 파일을 사용자의 기본 사서함 이나 보관 사서함으로 가져올 수 있습니다. Office 365 가져오기 서비스는이 정보를 사용 하 여 PST 파일을 가져옵니다. 
     
-4. **pst 가져오기 작업 만들기** -다음 단계는 Security & 준수 센터의 **가져오기** 페이지에서 pst 가져오기 작업을 만들고 이전 단계에서 만든 pst 가져오기 매핑 파일을 제출 하는 것입니다. 네트워크 업로드의 경우 (pst 파일이 Azure에 업로드 되었기 때문에) Office 365에서 pst 파일의 데이터를 분석 한 다음, 실제로 pst 가져오기 매핑 파일에 지정 된 사서함으로 가져오는 데이터를 제어 하는 필터를 설정할 수 있는 방법을 제공 합니다. 
+4. **Pst 가져오기 작업 만들기** -다음 단계는 Security _AMP_ 준수 센터의 **가져오기** 페이지에서 pst 가져오기 작업을 만들고 이전 단계에서 만든 pst 가져오기 매핑 파일을 제출 하는 것입니다. 네트워크 업로드의 경우 (PST 파일이 Azure에 업로드 되었기 때문에) Office 365에서 PST 파일의 데이터를 분석 한 다음, 실제로 PST 가져오기 매핑 파일에 지정 된 사서함으로 가져오는 데이터를 제어 하는 필터를 설정할 수 있는 방법을 제공 합니다. 
     
     드라이브 전달 시에는 프로세스의이 시점에서 몇 가지 추가 작업을 수행 합니다.
     
-    - microsoft 데이터 센터에 실제로 하드 드라이브를 배송 하는 경우 (가져오기 작업을 만들 때 microsoft 데이터 센터의 배송 주소가 표시 됨)
+    - Microsoft 데이터 센터에 실제로 하드 드라이브를 배송 하는 경우 (가져오기 작업을 만들 때 Microsoft 데이터 센터의 배송 주소가 표시 됨)
     
-    - Microsoft에서 하드 드라이브를 받으면 데이터 센터 직원은 하드 드라이브에 있는 pst 파일을 조직의 Azure storage 위치에 업로드 합니다. 앞에서 설명한 것 처럼 PST 파일은 Office 365 조직이 있는 동일한 지역 Microsoft 데이터 센터에 있는 Azure 저장소 위치로 업로드 됩니다.
+    - Microsoft에서 하드 드라이브를 받으면 데이터 센터 직원은 하드 드라이브에 있는 Pst 파일을 조직의 Azure storage 위치에 업로드 합니다. 앞에서 설명한 것 처럼 PST 파일은 Office 365 조직이 있는 동일한 지역 Microsoft 데이터 센터에 있는 Azure 저장소 위치로 업로드 됩니다.
     
       > [!NOTE]
       > 하드 드라이브에 있는 PST 파일은 Microsoft가 하드 드라이브를 수신 하는 동안 7 일에서 영업일까지 Azure에 업로드 됩니다. 
   
-      네트워크 업로드 프로세스와 마찬가지로, Office 365은 pst 파일의 데이터를 분석 하 고, 실제로 pst 가져오기 매핑 파일에 지정 된 사서함으로 가져오는 데이터를 제어 하는 필터를 설정할 수 있는 기회를 제공 합니다.
+      네트워크 업로드 프로세스와 마찬가지로, Office 365은 PST 파일의 데이터를 분석 하 고, 실제로 PST 가져오기 매핑 파일에 지정 된 사서함으로 가져오는 데이터를 제어 하는 필터를 설정할 수 있는 기회를 제공 합니다.
     
     - Microsoft는 하드 드라이브를 사용자에 게 다시 제공 합니다. 
     
 5. **사서함으로 가져올 pst 데이터** -가져오기 작업을 만든 후에, 즉 드라이브 전달 작업에서 pst 파일을 Azure 저장 위치로 업로드 한 후에는 Office 365에서 pst 파일의 데이터를 안전 하 고 안전 하 게 분석 합니다. 항목의 보존 기간 및 PST 파일에 포함 된 다양 한 메시지 유형을 식별 합니다. 분석이 완료 되 고 데이터를 가져올 준비가 되 면 PST 파일에 포함 된 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하 여 가져온 데이터를 트리밍하는 옵션을 사용할 수 있습니다. 
     
-6. **pst 가져오기 작업 시작** -가져오기 작업을 시작한 후에 Office 365은 pst 가져오기 매핑 파일의 정보를 사용 하 여 Azure 저장소 위치에서 사용자 사서함으로 pst 파일을 가져옵니다. 가져오기 작업에 대 한 상태 정보 (가져올 각 PST 파일에 대 한 정보 포함)가 Security & 준수 센터의 **가져오기** 페이지에 표시 됩니다. 가져오기 작업이 완료 되 면 작업 상태가 **완료**로 설정 됩니다.
+6. **Pst 가져오기 작업 시작** -가져오기 작업을 시작한 후에 Office 365은 pst 가져오기 매핑 파일의 정보를 사용 하 여 Azure 저장소 위치에서 사용자 사서함으로 pst 파일을 가져옵니다. 가져오기 작업에 대 한 상태 정보 (가져올 각 PST 파일에 대 한 정보 포함)가 Security & 준수 센터의 **가져오기** 페이지에 표시 됩니다. 가져오기 작업이 완료 되 면 작업 상태가 **완료**로 설정 됩니다.
   
 ## <a name="why-import-email-data-to-office-365"></a>전자 메일 데이터를 Office 365로 가져오는 이유는 무엇 인가요?
 
@@ -92,7 +92,7 @@ Security & 준수 센터의 가져오기 서비스를 사용 하 여 Office 365 
     
   - [콘텐츠 검색 도구](content-search.md) 를 사용 하 여 사서함 콘텐츠를 검색 합니다. 
     
-  - [eDiscovery 사례](ediscovery-cases.md) 를 사용 하 여 조직의 법적 조사 관리 
+  - [EDiscovery 사례](ediscovery-cases.md) 를 사용 하 여 조직의 법적 조사 관리 
     
   - 보안 & 준수 센터에서 [보존 정책을](retention-policies.md) 사용 하 여 사서함 콘텐츠가 보존 되는 기간을 제어 하 고 보존 기간이 만료 된 후에 콘텐츠를 삭제 합니다. 
 
@@ -117,7 +117,7 @@ Office 365 조 직에서 SharePoint 사이트 및 OneDrive 계정으로 파일 �
 
 ## <a name="frequently-asked-questions-about-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져오는 방법에 대 한 질문과 대답
   
-다음은 office 365 가져오기 서비스를 사용 하 여 PST 파일을 office 365 사서함으로 대량으로 가져오는 방법에 대 한 몇 가지 질문과 대답입니다. 
+다음은 Office 365 가져오기 서비스를 사용 하 여 PST 파일을 Office 365 사서함으로 대량으로 가져오는 방법에 대 한 몇 가지 질문과 대답입니다. 
   
 - [네트워크 업로드를 사용 하 여 PST 파일 가져오기](#using-network-upload-to-import-pst-files)
   
@@ -127,7 +127,7 @@ Office 365 조 직에서 SharePoint 사이트 및 OneDrive 계정으로 파일 �
 
  **Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 사용 권한은 무엇입니까?**
   
-PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself or other users as a member. 자세한 내용은 [Manage role groups in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하세요.
+PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself or other users as a member. 자세한 내용은 [Manage role groups In Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하세요.
   
 또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
   
@@ -156,7 +156,7 @@ There are two versions of the PST file format: ANSI and Unicode. We recommend im
   
 Additionally, PST files from Outlook 2007 and later versions can be imported to Office 365.
   
- **azure storage 영역에 내 PST 파일을 업로드 한 후 삭제 하기 전에 azure에 보관 되는 기간**
+ **Azure storage 영역에 내 PST 파일을 업로드 한 후 삭제 하기 전에 Azure에 보관 되는 기간**
   
 네트워크 업로드 방법을 사용 하 여 PST 파일을 가져올 때는 **ingestiondata**이라는 Azure blob 컨테이너에 업로드 합니다. 보안 & 준수 센터의 **가져오기** 페이지에서 진행 중인 가져오기 작업이 없는 경우 Azure의 **ingestiondata** 컨테이너에 있는 모든 PST 파일은 보안 &에서 가장 최근 가져온 작업을 만든 후 30 일이 지나면 삭제 됩니다. 준수 센터 또한 PST 파일을 Azure에 업로드 하는 30 일 이내에 보안 & 준수 센터 (네트워크 업로드 지침의 5 단계에 설명 됨)에서 새 가져오기 작업을 만들어야 한다는 것을 의미 합니다. 
   
@@ -164,7 +164,7 @@ Additionally, PST files from Outlook 2007 and later versions can be imported to 
   
  **PST 파일을 사서함에 가져오는 데 소요 되는 시간**
   
-It depends on the capacity of your network, but it typically takes several hours for each terabyte (TB) of data to be uploaded to the Azure storage area for your organization. pst 파일이 Azure storage 영역에 복사 된 후에는 pst 파일을 하루 중 24gb 이상으로 Office 365 사서함으로 가져옵니다. 이 속도가 사용자의 요구를 충족 하지 않는 경우 전자 메일 데이터를 Office 365로 마이그레이션하는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [여러 전자 메일 계정을 Office 365로 마이그레이션하는 방법을](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842)참조 하세요.
+It depends on the capacity of your network, but it typically takes several hours for each terabyte (TB) of data to be uploaded to the Azure storage area for your organization. PST 파일이 Azure storage 영역에 복사 된 후에는 PST 파일을 하루 중 24gb 이상으로 Office 365 사서함으로 가져옵니다. 이 속도가 사용자의 요구를 충족 하지 않는 경우 전자 메일 데이터를 Office 365로 마이그레이션하는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [여러 전자 메일 계정을 Office 365로 마이그레이션하는 방법을](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842)참조 하세요.
   
 If different PST files are imported to different target mailboxes, the import process occurs in parallel; in other words, each PST/mailbox pair is imported simultaneously. 마찬가지로 여러 PST 파일을 같은 사서함으로 가져오는 경우 동시에 가져오게 됩니다.
   
@@ -196,7 +196,7 @@ Yes, this capability is now available.
 
  **Office 365 가져오기 서비스에서 가져오기 작업을 만드는 데 필요한 사용 권한은 무엇입니까?**
   
-PST 파일을 Office 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself or other users as a member. 자세한 내용은 [Manage role groups in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하세요.
+PST 파일을 Office 365 사서함으로 가져오려면 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself or other users as a member. 자세한 내용은 [Manage role groups In Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하세요.
   
 또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
   
@@ -215,7 +215,7 @@ PST 파일을 Office 365 사서함으로 가져오려면 사서함 가져오기 
   
  **What commercial licensing agreements support drive shipping?**
   
-Office 365로 PST 파일을 가져오기 위한 드라이브 전달은 EA (Microsoft 엔터프라이즈 계약)를 통해 제공 됩니다. Microsoft 제품 및 서비스 계약 (mpsa)을 통해서는 드라이브 전달을 사용할 수 없습니다.
+Office 365로 PST 파일을 가져오기 위한 드라이브 전달은 EA (Microsoft 엔터프라이즈 계약)를 통해 제공 됩니다. Microsoft 제품 및 서비스 계약 (MPSA)을 통해서는 드라이브 전달을 사용할 수 없습니다.
   
  **드라이브 전달을 사용 하 여 PST 파일을 Office 365로 가져올 때의 가격은 얼마 인가요?**
   
@@ -223,7 +223,7 @@ The cost to use drive shipping to import PST files to Office 365 mailboxes is $2
   
  **What kind of hard drives are supported for drive shipping?**
   
-Office 365 가져오기 서비스와 함께 사용할 경우에는 2.5 인치 ssd (고체 드라이브) 또는 2.5 또는 3.5 인치 SATA II/III 내부 하드 드라이브만 지원 됩니다. You can use hard drives up to 10 TB. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리 됩니다. The data volume must be formatted with NTFS. 데이터를 하드 드라이브에 복사 하는 경우, 2.5 인치 ssd 또는 2.5 또는 3.5 인치 sata ii/iii 커넥터를 사용 하 여 직접 연결 하거나 외부 2.5 cm SSD 또는 2.5 또는 3.5 인치 sata ii/iii USB 어댑터를 사용 하 여 외부에서 연결할 수 있습니다.
+Office 365 가져오기 서비스와 함께 사용할 경우에는 2.5 인치 Ssd (고체 드라이브) 또는 2.5 또는 3.5 인치 SATA II/III 내부 하드 드라이브만 지원 됩니다. You can use hard drives up to 10 TB. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리 됩니다. The data volume must be formatted with NTFS. 데이터를 하드 드라이브에 복사 하는 경우, 2.5 인치 SSD 또는 2.5 또는 3.5 인치 SATA II/III 커넥터를 사용 하 여 직접 연결 하거나 외부 2.5 cm SSD 또는 2.5 또는 3.5 인치 SATA II/III USB 어댑터를 사용 하 여 외부에서 연결할 수 있습니다.
   
 > [!IMPORTANT]
 > 기본 제공 USB 어댑터와 함께 제공 되는 외부 하드 드라이브는 Office 365 가져오기 서비스에서 지원 되지 않습니다. Additionally, the disk inside the casing of an external hard drive can't be used. Please don't ship external hard drives. 
@@ -238,17 +238,17 @@ That depends on a few things, such as your proximity to the Microsoft data cente
   
  **Microsoft 데이터 센터에 하드 드라이브가 도착 한 후 Azure에 내 PST 파일을 업로드 하는 데 얼마나 걸립니까?**
   
-microsoft 데이터 센터에서 하드 드라이브를 받은 후에는 해당 조직의 microsoft Azure storage 영역에 PST 파일을 업로드 하기 위해 7 일에서 10 일까 지를 담당 합니다. PST 파일이 라는 `ingestiondata`Azure blob 컨테이너에 업로드 됩니다. 
+Microsoft 데이터 센터에서 하드 드라이브를 받은 후에는 해당 조직의 Microsoft Azure storage 영역에 PST 파일을 업로드 하기 위해 7 일에서 10 일까 지를 담당 합니다. PST 파일이 라는 `ingestiondata`Azure blob 컨테이너에 업로드 됩니다. 
   
  **PST 파일을 사서함에 가져오는 데 소요 되는 시간**
   
-pst 파일이 Azure storage 영역에 업로드 된 후에 Office 365는 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 하 여 항목의 보존 기간 및 pst 파일에 포함 된 다양 한 메시지 유형을 식별 합니다. 이 분석이 완료 되 면 PST 파일의 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하는 옵션을 사용할 수 있습니다. 가져오기 작업을 시작한 후에는 PST 파일을 하루 중 24gb 이상으로 Office 365 사서함으로 가져옵니다. 이 속도가 사용자의 요구를 충족 하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [여러 전자 메일 계정을 Office 365로 마이그레이션하는 방법을](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842)참조 하세요.
+PST 파일이 Azure storage 영역에 업로드 된 후에 Office 365는 pst 파일의 데이터를 안전 하 고 안전한 방식으로 분석 하 여 항목의 보존 기간 및 PST 파일에 포함 된 다양 한 메시지 유형을 식별 합니다. 이 분석이 완료 되 면 PST 파일의 모든 데이터를 가져오거나 가져올 데이터를 제어 하는 필터를 설정 하는 옵션을 사용할 수 있습니다. 가져오기 작업을 시작한 후에는 PST 파일을 하루 중 24gb 이상으로 Office 365 사서함으로 가져옵니다. 이 속도가 사용자의 요구를 충족 하지 않는 경우 전자 메일 데이터를 Office 365로 가져오는 다른 방법을 고려할 수 있습니다. 자세한 내용은 [여러 전자 메일 계정을 Office 365로 마이그레이션하는 방법을](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842)참조 하세요.
   
 If different PST files are imported to different target mailboxes, the import process occurs in parallel; in other words, each PST/mailbox pair is imported simultaneously. 마찬가지로 여러 PST 파일을 같은 사서함으로 가져오는 경우 동시에 가져오게 됩니다.
   
- **Microsoft에서 내 PST 파일을 azure로 업로드 한 후 삭제 하기 전에 azure에 보관 되는 기간**
+ **Microsoft에서 내 PST 파일을 Azure로 업로드 한 후 삭제 하기 전에 Azure에 보관 되는 기간**
   
-조직의 Azure 저장소 위치에 있는 모든 PST 파일 (blob 컨테이너에서 `ingestiondata`)은 보안 & 준수 센터의 **가져오기** 페이지에서 최근 가져오기 작업을 만든 후 30 일이 지나면 삭제 됩니다. 
+조직의 Azure 저장소 위치에 있는 모든 PST 파일 (blob 컨테이너에서 `ingestiondata`)은 보안 _AMP_ 준수 센터의 **가져오기** 페이지에서 최근 가져오기 작업을 만든 후 30 일이 지나면 삭제 됩니다. 
   
 또한 PST 파일이 Azure storage 영역에서 삭제 된 후에는 보안 & 준수 센터의 완료 된 가져오기 작업에 대 한 파일 목록에 더 이상 표시 되지 않습니다. 가져오기 작업은 여전히 Security & 준수 센터의 **가져오기** 페이지에 나열 되지만 이전 가져오기 작업의 세부 정보를 볼 때 PST 파일 목록이 비어 있을 수 있습니다. 
   

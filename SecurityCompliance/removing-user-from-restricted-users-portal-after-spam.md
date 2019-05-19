@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 03/12/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.exch.eac.ActionCenter.Restricted.Users.RestrictedUsers
@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 사용자가 스팸으로 분류 된 Office 365에서 전자 메일을 계속 보내면 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: a4f22b4d5192df202c1caa19714e8b5476dd8205
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7a44ff7f2bcf88f2132ee4c372cc11b9657dd16a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264940"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157250"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
 
@@ -40,9 +40,9 @@ ms.locfileid: "32264940"
 
 ## <a name="remove-restrictions-for-a-blocked-office-365-email-account"></a>차단 된 Office 365 전자 메일 계정에 대 한 제한 제거
 
-SCC (Security & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 한 자세한 내용은 [Security & 준수 센터를](go-to-the-securitycompliance-center.md) 참조 하세요. 이러한 기능을 수행 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹에 있어야 합니다. SCC 역할 그룹에 대 한 자세한 내용은 [Security & 준수 센터의 사용 권한으로 이동](permissions-in-the-security-and-compliance-center.md) 하십시오.
+SCC (Security & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 한 자세한 내용은 [Security _AMP_ 준수 센터를](go-to-the-securitycompliance-center.md) 참조 하세요. 이러한 기능을 수행 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹에 있어야 합니다. SCC 역할 그룹에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 사용 권한으로 이동](permissions-in-the-security-and-compliance-center.md) 하십시오.
 
-1. office 365 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 office 365 보안 및 준수 센터에 로그인 하 고 왼쪽에 있는 목록에서 **위협 관리**를 확장 한 다음 **검토**를 선택 하 고 제한 됨을 선택 합니다. ** 사용자**입니다.
+1. Office 365 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Office 365 보안 및 준수 센터에 로그인 하 고 왼쪽에 있는 목록에서 **위협 관리**를 확장 한 다음 **검토**를 선택 하 고 제한 됨을 선택 합니다. ** 사용자**입니다.
     
     > [!TIP]
     > 보안 &amp; 및 준수 센터에서 **제한 된 사용자** 페이지 (이전에는 알림 센터로 알려짐)로 바로 이동 하려면 다음 URL을 사용 합니다. >[https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
@@ -60,7 +60,7 @@ SCC (Security & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 �
 
 ## <a name="making-sure-admins-are-alerted-when-this-happens"></a>이 경우 관리자에 게 경고 합니다.
 
-또한 테 넌 트 관리자는 사용자가 더 이상 아웃 바운드 메시지를 보내지 못하도록 제한 되었다는 경고도 수신 됩니다. 이 알림은 모든 테 넌 트에 대해 제공 되며, "전자 메일을 보내는 사용자 제한" 이라는 SCC 경고 정책 페이지에 나열 됩니다. 경고에 대 한 자세한 내용은 [Security & 준수 센터의 경고 정책](https://docs.microsoft.com/en-us/office365/securitycompliance/alert-policies) 으로 이동 하세요.
+또한 테 넌 트 관리자는 사용자가 더 이상 아웃 바운드 메시지를 보내지 못하도록 제한 되었다는 경고도 수신 됩니다. 이 알림은 모든 테 넌 트에 대해 제공 되며, "전자 메일을 보내는 사용자 제한" 이라는 SCC 경고 정책 페이지에 나열 됩니다. 경고에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 경고 정책](https://docs.microsoft.com/en-us/office365/securitycompliance/alert-policies) 으로 이동 하세요.
 
 ## <a name="for-more-information"></a>자세한 내용
 

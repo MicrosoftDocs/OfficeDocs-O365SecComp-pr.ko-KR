@@ -4,7 +4,7 @@ ms.author: bcarter
 author: brendacarter
 manager: laurawi
 ms.date: ''
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.collection:
 - Strat_O365_Enterprise
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 조직이 GDPR 계획의 일부로 레이블을 구현하는지 여부를 확인합니다.
-ms.openlocfilehash: 6886adaa09599b32eb2f3084efdea06fd5794af0
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2987fbda1f1590bf41981447bfe850c5c331483d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243476"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155503"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>개인 데이터에 대한 분류 스키마 설계
 

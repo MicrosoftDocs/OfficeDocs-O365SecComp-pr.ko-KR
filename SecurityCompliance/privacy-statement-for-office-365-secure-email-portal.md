@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 10/12/2018
-ms.audience: End User
+audience: End User
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 278917cd-a930-46cc-9580-6b9d2361a5f9
 ms.collection:
 - M365-security-compliance
 description: '마지막 업데이트 날짜: 5 월 2017'
-ms.openlocfilehash: 5e7927bacb6513f01a276ef6487346f319ffb704
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 869d4a7bbc809d72e048b6e1d0af24fa603b0a9d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265270"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157430"
 ---
 # <a name="privacy-statement-for-office-365-secure-email-portal"></a>Office 365 보안 전자 메일 포털에 대 한 개인정보 취급 방침
 
@@ -29,7 +29,7 @@ ms.locfileid: "32265270"
   
 ## <a name="collection-processing-and-use-of-your-information"></a>정보 수집, 처리 및 사용
 
-새 OME 기능 포털을 사용 하면 데스크톱 컴퓨터 또는 모바일 장치 등의 다양 한 끝점에서 Office 365로 암호화 된 전자 메일을 볼 수 있습니다. 암호화 된 전자 메일은 일반 메일의 HTML 첨부 파일로 사서함에 도착 합니다. Microsoft 계정, 회사 또는 학교 계정 또는 Gmail 계정으로 메일이 전송 되 면 이러한 계정을 사용 하 여 웹 기반 새 OME capabilities 포털에 로그인 하 라는 메시지가 표시 됩니다. 암호화 된 메일을 microsoft 계정, 회사 또는 학교 계정 또는 Gmail 계정 이외의 계정으로 보낸 경우 microsoft 계정을 만들고 암호화 된 메시지가 전송 된 계정과 연결 하 라는 메시지가 표시 됩니다. 또는 암호화 된 메시지가 전송 된 것과 동일한 전자 메일 주소로 전송 되는 인증에 대해 일회용 암호를 요청 하도록 선택할 수 있습니다. 인증에 성공 하면 메시지가 해독 되어 새 OME capabilities Portal을 통해 표시 됩니다.
+새 OME 기능 포털을 사용 하면 데스크톱 컴퓨터 또는 모바일 장치 등의 다양 한 끝점에서 Office 365로 암호화 된 전자 메일을 볼 수 있습니다. 암호화 된 전자 메일은 일반 메일의 HTML 첨부 파일로 사서함에 도착 합니다. Microsoft 계정, 회사 또는 학교 계정 또는 Gmail 계정으로 메일이 전송 되 면 이러한 계정을 사용 하 여 웹 기반 새 OME capabilities 포털에 로그인 하 라는 메시지가 표시 됩니다. 암호화 된 메일을 Microsoft 계정, 회사 또는 학교 계정 또는 Gmail 계정 이외의 계정으로 보낸 경우 Microsoft 계정을 만들고 암호화 된 메시지가 전송 된 계정과 연결 하 라는 메시지가 표시 됩니다. 또는 암호화 된 메시지가 전송 된 것과 동일한 전자 메일 주소로 전송 되는 인증에 대해 일회용 암호를 요청 하도록 선택할 수 있습니다. 인증에 성공 하면 메시지가 해독 되어 새 OME capabilities Portal을 통해 표시 됩니다.
   
 Microsoft 계정, 회사 또는 학교 계정, Gmail 계정 및 일회용 암호에 대 한 자격 증명 정보는 인증 목적 으로만 사용 됩니다. 새 OME 기능 포털에 저장 되지 않거나 다른 목적으로 새 OME 기능에서 사용 되지 않습니다.
   

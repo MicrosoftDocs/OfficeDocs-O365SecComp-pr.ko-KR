@@ -4,18 +4,18 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: 이 항목의 목표는 온-프레미스 전자 메일 방역 어플라이언스나 클라우드 기반 보호 서비스에서 EOP(Exchange Online Protection)로 전환하는 프로세스를 이해하고 EOP를 시작하는 데 필요한 도움말 리소스를 제공하는 것입니다.
-ms.openlocfilehash: 0c33d89be5cb4ebf7719e6742532ebfc7a2e5c20
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 7e91c8b4d93d6d7aee55283e52bef92748fc49e1
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256206"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154580"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환
 
@@ -56,7 +56,7 @@ EOP로 전환하도록 결정한 경우 다음 영역을 특별히 고려해야 
   
 - **사용자 지정 필터링 규칙** 특정 스팸을 포착하기 위한 사용자 지정 필터링이나 비즈니스 정책 규칙이 있는 경우 규칙을 마이그레이션하기 전에 일정 기간 동안 기본 설정으로 EOP를 사용하는 것이 좋습니다. EOP는 기본 설정에서 엔터프라이즈 수준의 스팸 보호를 제공하므로 규칙 일부를 EOP로 마이그레이션하지 않아도 됩니다. 물론 특정한 사용자 지정 비즈니스 정책을 적용하는 규칙이 있는 경우 해당 규칙을 만들면 됩니다. [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md) EOP에서 메일 흐름 규칙을 만드는 방법에 대 한 자세한 지침을 제공 합니다. 
     
-- **IP 허용 목록 및 IP 차단 목록** 사용자별 허용/차단 목록이 있는 경우 설치 프로세스 일부로 이러한 목록을 EOP로 복사하도록 시간을 허용합니다. ip 허용 목록 및 ip 차단 목록에 대 한 자세한 내용은 [Configure the connection filter policy](../configure-the-connection-filter-policy.md)을 참조 하십시오.
+- **IP 허용 목록 및 IP 차단 목록** 사용자별 허용/차단 목록이 있는 경우 설치 프로세스 일부로 이러한 목록을 EOP로 복사하도록 시간을 허용합니다. IP 허용 목록 및 IP 차단 목록에 대 한 자세한 내용은 [Configure the connection filter policy](../configure-the-connection-filter-policy.md)을 참조 하십시오.
     
 - **보안 통신** 암호화된 메시징을 필요로 하는 파트너가 있는 경우 Exchange 관리 센터에서 보안 통신을 설정하는 것이 좋습니다. 이 시나리오를 구성하려면 [Create connectors for a secure mail channel using transport layer security (TLS)](http://technet.microsoft.com/library/1ce4d6a4-41ba-4d1e-9ca9-e826252c1041.aspx)를 참조하세요.
     

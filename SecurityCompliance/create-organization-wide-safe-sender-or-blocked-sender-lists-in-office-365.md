@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 8/8/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 Exchange 관리 센터의 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: 765660ba8c0c9ab384368a0f0c4cd194e4ff2bc6
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 4731fe4a72a3c331725b82e09240e6af91bb6afd
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258176"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153730"
 ---
 # <a name="create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365"></a>Office 365에서 조직 차원의 수신 허용 - 보낸 사람 또는 수신 거부 목록 만들기
   
@@ -26,7 +26,7 @@ ms.locfileid: "32258176"
 메시지 헤더 또는 첨부 파일 이름을 확인 하거나, 메시지에 고 지 사항을 추가 하는 등의 복잡 한 작업을 추가 하거나 rul이 있는 기간을 적용 해야 하는 경우 메일 흐름 규칙이이 상황에서 유용 합니다. e가 활성 상태입니다. 그러나 특정 보낸 사람이 나 도메인의 전자 메일이 스팸 필터 정책에 추가 되도록 하는 것이 기본 방법입니다. EAC에서는 **보호** \> **스팸 필터로**이동 하 여이 작업을 시작 합니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참고 하세요.
   
 > [!TIP]
-> 도메인이 위장 될 수 있으므로 메일 흐름 규칙의 도메인 기반 목록은 IP 주소 기반 목록의 보안으로 안전 하지 않습니다. 또한 보내는 IP 주소가 차단 목록에 있으면 도메인 또는 사용자에 대한 필터링이 무시되더라도 해당 주소는 계속 차단됩니다. 그 이유는 도메인 또는 사용자에 대 한 메일 흐름 규칙이 전역 IP 차단 목록을 재정의 하지 않기 때문입니다. 따라서 대부분의 경우 IP 주소 기반 목록을 사용하는 것이 좋습니다. IP 주소 기반 목록을 만들려면 연결 필터의 IP 허용 목록 또는 IP 차단 목록을 사용하면 됩니다. 그러면 콘텐츠 필터가 이러한 IP 주소에서 보내는 메시지를 확인하지 않습니다. ip 주소를 i p i 허용 목록 또는 ip 차단 목록에 추가 하 여 연결 필터 정책을 구성 하는 방법에 대 한 자세한 내용은 [configure the connection filter policy](configure-the-connection-filter-policy.md)을 참조 하십시오. 
+> 도메인이 위장 될 수 있으므로 메일 흐름 규칙의 도메인 기반 목록은 IP 주소 기반 목록의 보안으로 안전 하지 않습니다. 또한 보내는 IP 주소가 차단 목록에 있으면 도메인 또는 사용자에 대한 필터링이 무시되더라도 해당 주소는 계속 차단됩니다. 그 이유는 도메인 또는 사용자에 대 한 메일 흐름 규칙이 전역 IP 차단 목록을 재정의 하지 않기 때문입니다. 따라서 대부분의 경우 IP 주소 기반 목록을 사용하는 것이 좋습니다. IP 주소 기반 목록을 만들려면 연결 필터의 IP 허용 목록 또는 IP 차단 목록을 사용하면 됩니다. 그러면 콘텐츠 필터가 이러한 IP 주소에서 보내는 메시지를 확인하지 않습니다. Ip 주소를 i p i 허용 목록 또는 IP 차단 목록에 추가 하 여 연결 필터 정책을 구성 하는 방법에 대 한 자세한 내용은 [configure the connection filter policy](configure-the-connection-filter-policy.md)을 참조 하십시오. 
   
 메일 흐름 규칙과 관련 된 추가 관리 작업에 대 한 자세한 내용은 [Exchange Online의 메일 흐름 규칙 (전송 규칙)](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx)을 참조 하십시오.
   
@@ -67,7 +67,7 @@ ms.locfileid: "32258176"
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
     
 > [!TIP]
-> 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. [exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [exchange online](https://go.microsoft.com/fwlink/p/?linkId=267542)또는 [exchange online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351)에서 포럼을 방문 하세요. 
+> 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. [Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542)또는 [exchange online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351)에서 포럼을 방문 하세요. 
   
 ## <a name="use-the-eac-to-create-a-mail-flow-rule-to-bypass-spam-filtering-for-a-domain-or-user"></a>EAC를 사용 하 여 도메인 또는 사용자에 대 한 스팸 필터링을 무시 하는 메일 흐름 규칙 만들기
 

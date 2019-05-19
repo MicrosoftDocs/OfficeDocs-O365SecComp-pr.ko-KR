@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 5/9/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 및 준수 센터의 레이블 활동 탐색기를 사용하면 지난 30일 동안 SharePoint 및 비즈니스용 OneDrive에서 수행된 모든 콘텐츠에 대한 레이블 활동을 빠르게 검색하고 확인할 수 있습니다.
-ms.openlocfilehash: 55888ff2ef8118389a88955a8f4e047170606524
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6b68c82e364432107d616c5184959cd879cdcb9a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267345"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157810"
 ---
 # <a name="view-label-activity-for-documents"></a>문서에 대한 레이블 활동 보기
 

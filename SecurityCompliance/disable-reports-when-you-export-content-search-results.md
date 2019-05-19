@@ -4,23 +4,23 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/30/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: 로컬 컴퓨터에서 Windows 레지스트리를 편집 하 여 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정 합니다. 이러한 보고서를 사용 하지 않도록 설정 하면 다운로드 시간을 단축 하 고 디스크 공간을 절약할 수 있습니다.
-ms.openlocfilehash: 19d97bbc95be5db6540e6822721752ca62adebfc
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f6abcf8afe70bc6ce04f0f9343e28879f7fed885
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256856"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154830"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 
-Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때이 도구는 내보낸 콘텐츠에 대 한 추가 정보가 포함 된 두 개의 보고서를 자동으로 만들고 내보냅니다. 이러한 보고서는 결과. .csv 파일 및 manifest.xml 파일 (이러한 보고서에 대 한 자세한 설명을 보려면이 항목의 [보고서 내보내기 비활성화에 대 한 질문과 대답](#frequently-asked-questions-about-disabling-export-reports) 섹션 참조)이 있습니다. 이러한 파일은 매우 커질 수 있으므로 다운로드 시간을 단축 하 고 이러한 파일을 내보내지 못하게 하 여 디스크 공간을 절약할 수 있습니다. 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 변경 하 여이 작업을 수행할 수 있습니다. 나중에 보고서를 포함 하려면 레지스트리 설정을 편집할 수 있습니다. 
+Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때이 도구는 내보낸 콘텐츠에 대 한 추가 정보가 포함 된 두 개의 보고서를 자동으로 만들고 내보냅니다. 이러한 보고서는 결과. .csv 파일 및 Manifest.xml 파일 (이러한 보고서에 대 한 자세한 설명을 보려면이 항목의 [보고서 내보내기 비활성화에 대 한 질문과 대답](#frequently-asked-questions-about-disabling-export-reports) 섹션 참조)이 있습니다. 이러한 파일은 매우 커질 수 있으므로 다운로드 시간을 단축 하 고 이러한 파일을 내보내지 못하게 하 여 디스크 공간을 절약할 수 있습니다. 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 변경 하 여이 작업을 수행할 수 있습니다. 나중에 보고서를 포함 하려면 레지스트리 설정을 편집할 수 있습니다. 
   
 ## <a name="create-registry-settings-to-disable-the-export-reports"></a>레지스트리 설정을 만들어 내보내기 보고서를 사용 하지 않도록 설정
 
@@ -39,7 +39,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d False 
       ```
 
-    - **manifest.xml**
+    - **Manifest.xml**
     
       파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: DisableManifestXml.
     
@@ -58,7 +58,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
   
 ## <a name="edit-registry-settings-to-re-enable-the-export-reports"></a>레지스트리 설정을 편집 하 여 내보내기 보고서를 다시 사용 하도록 설정
 
-이전 절차에서 .reg 파일을 만들어 결과 .csv 및 manifest.xml 보고서를 사용 하지 않도록 설정한 경우에는 해당 파일을 편집 하 여 검색 결과와 함께 내보낼 수 있도록 보고서를 다시 활성화 합니다. 결과를 콘텐츠 검색으로 내보내기 위해 사용 하는 컴퓨터에서 다음 절차를 다시 수행 합니다.
+이전 절차에서 .reg 파일을 만들어 결과 .csv 및 Manifest.xml 보고서를 사용 하지 않도록 설정한 경우에는 해당 파일을 편집 하 여 검색 결과와 함께 내보낼 수 있도록 보고서를 다시 활성화 합니다. 결과를 콘텐츠 검색으로 내보내기 위해 사용 하는 컴퓨터에서 다음 절차를 다시 수행 합니다.
   
 1. Office 365 eDiscovery 내보내기 도구가 열려 있는 경우 해당 도구를 닫습니다.
     
@@ -73,7 +73,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d True
         ```
 
-    - **manifest.xml**
+    - **Manifest.xml**
     
         메모장에서 DisableManifestXml 파일을 열고 값 `False` 을로 `True`변경한 다음 파일을 저장 합니다. 예를 들어 파일을 편집한 후에는 다음과 같이 표시 됩니다.
     
@@ -93,9 +93,9 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
 ## <a name="frequently-asked-questions-about-disabling-export-reports"></a>보고서 내보내기를 사용 하지 않도록 설정 하는 방법에 대 한 질문과 대답
 <a name="faqs"> </a>
 
- **결과는 무엇입니까? .csv 및 manifest.xml 보고서?**
+ **결과는 무엇입니까? .csv 및 Manifest.xml 보고서?**
   
-결과 .csv 및 manifest.xml 파일에는 내보낸 콘텐츠에 대 한 추가 정보가 포함 되어 있습니다.
+결과 .csv 및 Manifest.xml 파일에는 내보낸 콘텐츠에 대 한 추가 정보가 포함 되어 있습니다.
   
 - **Results** -검색 결과로 다운로드 되는 각 항목에 대 한 정보가 포함 된 Excel 문서입니다. 전자 메일의 경우 결과 로그에 다음을 비롯 한 각 메시지에 대 한 정보가 포함 됩니다. 
     
@@ -119,7 +119,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     
   - 이름 (에 있는 제목 열 결과 로그에서) 문서입니다.
     
-- **manifest.xml** -검색 결과에 포함 된 각 항목에 대 한 정보를 포함 하는 매니페스트 파일 (xml 형식)입니다. 이 보고서의 정보는 결과 .csv 보고서와 동일 하지만 edrm (전자식 Discovery Reference Model)에 지정 된 형식으로 되어 있습니다. edrm에 대 한 자세한 내용은로 [https://www.edrm.net](https://www.edrm.net)이동 합니다.
+- **Manifest.xml** -검색 결과에 포함 된 각 항목에 대 한 정보를 포함 하는 매니페스트 파일 (xml 형식)입니다. 이 보고서의 정보는 결과 .csv 보고서와 동일 하지만 EDRM (전자식 Discovery Reference Model)에 지정 된 형식으로 되어 있습니다. EDRM에 대 한 자세한 내용은로 [https://www.edrm.net](https://www.edrm.net)이동 합니다.
     
  **이러한 보고서 내보내기를 사용 하지 않도록 설정 해야 하는 경우**
   

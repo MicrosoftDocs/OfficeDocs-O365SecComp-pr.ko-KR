@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 경우를 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: d03abdc43a62d703fdebdb4cf9571dfbab9d744b
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 6d4d9a1af20e16453343dd2b68b87b033c46e324
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256426"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154630"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 

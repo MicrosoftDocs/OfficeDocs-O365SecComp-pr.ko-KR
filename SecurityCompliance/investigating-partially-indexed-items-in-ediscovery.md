@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 1/26/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일에 대 한 조직의 노출을 확인 하는 이유를 알 수 있습니다. 항목.
-ms.openlocfilehash: d6b1326498780a5d40e49ff22aa1ac7d16bee8e4
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 78ce6fc9816707e4d8bb18da71ca2ee89386b9b8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254140"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154228"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -47,7 +47,7 @@ ms.locfileid: "32254140"
   
 ## <a name="calculating-the-ratio-of-partially-indexed-items-in-your-organization"></a>조직에서 부분적으로 인덱싱된 항목의 비율 계산
 
-부분적으로 인덱싱된 항목에 대 한 조직의 노출을 이해 하려면 빈 키워드 쿼리를 사용 하 여 모든 사서함의 모든 콘텐츠에 대해 검색을 실행할 수 있습니다. 아래 아래의 예제에는 56208 (4830 mb) 완전히 인덱싱된 항목 및 470 (5mb) 부분 인덱싱된 항목이 있습니다.
+부분적으로 인덱싱된 항목에 대 한 조직의 노출을 이해 하려면 빈 키워드 쿼리를 사용 하 여 모든 사서함의 모든 콘텐츠에 대해 검색을 실행할 수 있습니다. 아래 아래의 예제에는 56208 (4830 mb) 완전히 인덱싱된 항목 및 470 316 (5mb) 부분 인덱싱된 항목이 있습니다.
   
 ![부분적으로 인덱싱된 항목을 보여 주는 검색 통계 예제](media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
   
@@ -82,7 +82,7 @@ ms.locfileid: "32254140"
   
 ## <a name="errors-related-to-partially-indexed-items"></a>부분적으로 인덱싱된 항목과 관련 된 오류
 
-error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니다. 예를 들어 다음 오류/filetype 쌍에서 다음을 수행 합니다.
+Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니다. 예를 들어 다음 오류/filetype 쌍에서 다음을 수행 합니다.
 
 ```
  parseroutputsize_xls
@@ -164,7 +164,7 @@ error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ```
    
-2. [Security & 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
+2. [Security _AMP_ 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
     
 3. Security & 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
 

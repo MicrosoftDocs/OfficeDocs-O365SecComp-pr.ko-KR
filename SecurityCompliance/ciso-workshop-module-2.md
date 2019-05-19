@@ -1,23 +1,23 @@
 ---
-title: '주요 정보 보안 담당자 (ciso) 워크숍, 모듈 2: 보안 관리'
+title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 2: 보안 관리'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: d802f6ad1af1cd818dffeba32c5b8c101636da61
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 356c485c3a58f917c3e607ee68fbaa0a5c3c1eff
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244089"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155530"
 ---
-# <a name="ciso-workshop-module-2-security-management"></a>ciso 워크숍 모듈 2: 보안 관리 
+# <a name="ciso-workshop-module-2-security-management"></a>CISO 워크숍 모듈 2: 보안 관리 
 
 통합 지침, 자동 정책 적용 및 모니터링을 통해 하이브리드 엔터프라이즈 공간에 대 한 가시성을 높이 거 나 제어 하는 방법을 알아봅니다.
 

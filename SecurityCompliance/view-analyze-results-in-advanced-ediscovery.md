@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: '표시 된 작업 옵션의 정의를 포함 하 여 Office 365 Advanced eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
-ms.openlocfilehash: 990bcbb3c6626521d40f7ce057c764200d5047b5
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 092daa506316b5eb1ef1f5c466055b29e350dc18
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32267114"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157860"
 ---
 # <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 분석 보기
 
@@ -37,7 +37,7 @@ Advanced eDiscovery에서는 아래에 설명 된 것 처럼 다양 한 표시�
   
 - **ND/ET: setup**: 실행을 위한 준비 예를 들면 run 및 case 매개 변수를 설정 합니다.
     
-- **nd/ET: nd 계산**: 거의 중복 된 파일 분석을 처리 합니다.
+- **Nd/ET: nd 계산**: 거의 중복 된 파일 분석을 처리 합니다.
     
 - **ND/ET: et 계산**: 전체 전자 메일 집합에 대해 전자 메일 스레드 분석을 수행 합니다.
     
@@ -66,7 +66,7 @@ Advanced eDiscovery에서는 아래에 설명 된 것 처럼 다양 한 표시�
     
 - **포함 복사본**: 포함 전자 메일이 포함 또는 포함으로 표시 된 다른 메시지의 복사본 인 경우 포괄 복사본으로 지정 됩니다. 즉,이 메시지는 다른 포괄 메시지와 같은 제목 및 본문을 가지 며 같은 노드에 동시에 상주 합니다. 포함 복사본 메시지에는 동일한 콘텐츠가 포함 되므로 일반적으로 검토 프로세스에서이를 생략할 수 있습니다. 
     
-- **rest**: 고유한 콘텐츠가 포함 되지 않은 전자 메일을 나타내며, 따라서 이전의 세 범주에 속하지 않습니다. 이러한 전자 메일 메시지는 검토할 필요가 없습니다. 나중에 포함 되는 전자 메일에 없는 첨부 파일이 메시지에 포함 되어 있는 경우에는 첨부 파일을 검토 해야 할 수 있습니다. 이는 스레드 내에 포함 마이너스 전자 메일이 있다는 것을 나타냅니다.
+- **Rest**: 고유한 콘텐츠가 포함 되지 않은 전자 메일을 나타내며, 따라서 이전의 세 범주에 속하지 않습니다. 이러한 전자 메일 메시지는 검토할 필요가 없습니다. 나중에 포함 되는 전자 메일에 없는 첨부 파일이 메시지에 포함 되어 있는 경우에는 첨부 파일을 검토 해야 할 수 있습니다. 이는 스레드 내에 포함 마이너스 전자 메일이 있다는 것을 나타냅니다.
     
 **첨부 파일** 결과에는 고유 하거나 중복 된 형식에 따라 첨부 파일 수가 표시 됩니다. 
   

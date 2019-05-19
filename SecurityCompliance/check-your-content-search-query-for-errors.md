@@ -4,19 +4,19 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 11/30/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 description: 검색을 실행 하기 전에 키워드 쿼리를 검사 하 여 지원 되지 않는 문자나 소문자 부울 연산자와 같은 오류 및 오타에 대 한 콘텐츠 검색을 확인 합니다. 오류가 발견 되 면 수정 된 쿼리를 제안 합니다.
-ms.openlocfilehash: 00612116f345e2a01471d5c83df77f4bc8db9ce5
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 9f9f59c4466102d678bc3a599aa208869bbd9d64
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243669"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155580"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
 
@@ -32,7 +32,7 @@ ms.locfileid: "32243669"
     
 - **왼쪽에서 오른쪽 및 오른쪽에서 왼쪽 표시** -왼쪽에서 오른쪽으로 쓰기 언어의 텍스트 방향 (예: 영어 및 스페인어) 및 오른쪽에서 왼쪽으로 쓰기 언어 (아랍어, 히브리어)를 나타내는 데 사용 되는 제어 문자입니다.
     
-- **소문자 부울 연산자** -검색 쿼리에 **NOT** **and**, **OR**등의 부울 연산자를 사용 하는 경우에는 대문자 여야 합니다. 쿼리에 오타가 있는지 여부를 확인 하는 경우 쿼리 구문에는 소문자 연산자를 사용할 수 있지만 부울 연산자가 사용 되는 것으로 표시 되는 경우가 많습니다. 예를 `(WordA or WordB) and (WordC or WordD)`들면입니다.
+- **소문자 부울 연산자** -검색 쿼리에 **NOT** **And**, **OR**등의 부울 연산자를 사용 하는 경우에는 대문자 여야 합니다. 쿼리에 오타가 있는지 여부를 확인 하는 경우 쿼리 구문에는 소문자 연산자를 사용할 수 있지만 부울 연산자가 사용 되는 것으로 표시 되는 경우가 많습니다. 예를 `(WordA or WordB) and (WordC or WordD)`들면입니다.
     
 ## <a name="what-happens-if-a-query-has-an-unsupported-character"></a>쿼리에 지원 되지 않는 문자가 있으면 어떻게 되나요?
 
@@ -42,4 +42,4 @@ ms.locfileid: "32243669"
   
 ## <a name="how-to-prevent-unsupported-characters-in-your-search-queries"></a>검색 쿼리에서 지원 되지 않는 문자를 차단 하는 방법
 
-지원 되지 않는 문자는 대개 쿼리 또는 쿼리 일부를 microsoft Word 또는 microsoft Excel 등의 다른 응용 프로그램에서 복사 하 고 콘텐츠 검색의 쿼리 페이지에 있는 키워드 상자에 복사할 때 쿼리에 추가 됩니다. 지원 되지 않는 문자를 차단 하는 가장 좋은 방법은 키워드 상자에 쿼리를 입력 하는 것입니다. 또는 Word 또는 Excel에서 쿼리를 복사한 다음이를 Microsoft 메모장과 같은 일반 텍스트 편집기의 파일에 붙여 넣을 수도 있습니다. 그런 다음 텍스트 파일을 저장 하 고 **인코딩** 드롭다운 목록에서 **ANSI** 를 선택 합니다. 이렇게 하면 지원 되지 않는 문자나 서식이 모두 제거 됩니다. 그런 다음 텍스트 파일의 쿼리를 키워드 쿼리 상자에 복사 하 여 붙여 넣을 수 있습니다. 
+지원 되지 않는 문자는 대개 쿼리 또는 쿼리 일부를 Microsoft Word 또는 Microsoft Excel 등의 다른 응용 프로그램에서 복사 하 고 콘텐츠 검색의 쿼리 페이지에 있는 키워드 상자에 복사할 때 쿼리에 추가 됩니다. 지원 되지 않는 문자를 차단 하는 가장 좋은 방법은 키워드 상자에 쿼리를 입력 하는 것입니다. 또는 Word 또는 Excel에서 쿼리를 복사한 다음이를 Microsoft 메모장과 같은 일반 텍스트 편집기의 파일에 붙여 넣을 수도 있습니다. 그런 다음 텍스트 파일을 저장 하 고 **인코딩** 드롭다운 목록에서 **ANSI** 를 선택 합니다. 이렇게 하면 지원 되지 않는 문자나 서식이 모두 제거 됩니다. 그런 다음 텍스트 파일의 쿼리를 키워드 쿼리 상자에 복사 하 여 붙여 넣을 수 있습니다. 

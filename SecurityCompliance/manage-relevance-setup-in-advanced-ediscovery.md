@@ -3,7 +3,7 @@ title: Office 365 Advanced eDiscovery에서 관련성 설정 관리
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
 description: 관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Office 365 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어봅니다.
-ms.openlocfilehash: 7e06be032cc653681c19ee2d17547ca22421e0ae
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 5efcaca0d62cec6ccf61f20eea72ed9c538e436e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259666"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155690"
 ---
 # <a name="manage-relevance-setup-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 설정 관리
 

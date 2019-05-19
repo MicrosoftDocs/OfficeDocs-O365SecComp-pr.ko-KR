@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: 6/7/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 가양성을 방지하고 Office 365에서 실제 전자 메일을 쓸모없는 상태로 유지하는 방법에 대해 알아보십시오.
-ms.openlocfilehash: ecce497269030945457344122a9a218105369be2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: c49bd519adf6c66f7f8c6c97fb7a24a0c7f85a99
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261242"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157480"
 ---
 # <a name="how-to-prevent-real-email-from-being-marked-as-spam-in-office-365"></a>Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법
 
@@ -45,7 +45,8 @@ Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https:
     
 - **SFV:SKB** 스팸 필터 정책의 차단 목록과 일치하므로 메시지가 스팸으로 표시되었음을 나타냅니다. 
     
-- **SFV:BULK** x-microsoft-antispam 헤더에 있는 BCL(대량 불만 수준) 값이 콘텐츠 필터에 대해 설정된 대량 임계값보다 높음을 나타냅니다. 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://docs.microsoft.com/ko-KR/office365/SecurityCompliance/bulk-complaint-level-values)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다.
+- 
+  **SFV:BULK** x-microsoft-antispam 헤더에 있는 BCL(대량 불만 수준) 값이 콘텐츠 필터에 대해 설정된 대량 임계값보다 높음을 나타냅니다. 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://docs.microsoft.com/ko-KR/office365/SecurityCompliance/bulk-complaint-level-values)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다.
     
 - **CAT:SPOOF** 또는 **CAT: PHISH** 메시지가 스푸핑된 것을 나타냅니다. 즉, 메시지 원본이 유효한지 검사할 수 없으며 의심스러운 경우를 의미합니다. 유효한 경우 보낸 사람은 SPF 및 DKIM 구성이 올바른지 확인해야 합니다. 자세한 내용은 Authentication-Results 헤더를 확인합니다. 모든 보낸 사람이 적절한 전자 메일 인증 방법을 사용하도록 하는 것은 쉽지 않을 수 있지만 이러한 검사를 우회하는 것은 매우 위험할 수 있으며 보안 위반의 가장 큰 원인이 됩니다. 
     
@@ -63,7 +64,8 @@ Office 365의 스팸 문제는 [전자 메일 메시지 머리글 보기](https:
     
 - **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자가 보고서 메시지 추가 기능을 사용할 수 있도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
 
-- [여기](https://docs.microsoft.com/ko-KR/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)에 표시된 대로 **사용자가 전자 메일을 송수신하기 위한 허용 한계 내에 있는지 확인하십시오**.
+- 
+  [여기](https://docs.microsoft.com/ko-KR/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)에 표시된 대로 **사용자가 전자 메일을 송수신하기 위한 허용 한계 내에 있는지 확인하십시오**.
 
  - [여기](bulk-complaint-level-values.md)에 명시된 대로 **대량 레벨을 다시 확인하십시오**
     
@@ -82,7 +84,7 @@ EOP는 사용자의 수신 허용 - 보낸 사람 및 받는 사람을 존중하
 
 사용자가 Outlook에서 "수신 허용 목록만 허용 : 수신 허용 - 보낸 사람 목록 또는 수신 허용 - 받는 사람 목록의 사람 또는 도메인에게서 온 메일만 받은 편지함으로 배달됩니다" 옵션을 사용하는 경우 모든 전자 메일은 보낸 사람의 정크 메일 폴더로 이동합니다. 보낸 사람이 받는 사람의 수신 허용 목록에 있지 않은 경우 이것은 EOP가 메시지를 스팸이 아닌 것으로 표시했는지 여부와 관계없이 또는 EOP에서 메시지를 스팸이 아닌 것으로 표시하도록 설정한 경우에도 발생합니다.
   
-[ Outlook : 정크 메일 UI를 비활성화하는 정책 설정 및 필터링 메커니즘](https://support.microsoft.com/ko-KR/kb/2180568)의 지침에 따라 Outlook 사용자의 수신 허용 목록 전용 옵션을 비활성화할 수 있습니다.
+[ Outlook : 정크 메일 UI를 비활성화하는 정책 설정 및 필터링 메커니즘](https://support.microsoft.com/en-us/kb/2180568)의 지침에 따라 Outlook 사용자의 수신 허용 목록 전용 옵션을 비활성화할 수 있습니다.
   
 웹용 Outlook에서 메시지를 보면 보낸 사람이 수신자의 보낸 사람 목록에 없기 때문에 메시지가 정크 폴더에 있음을 나타내는 노란색 안전 팁이 표시됩니다.
   

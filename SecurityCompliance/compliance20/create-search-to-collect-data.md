@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 14f90b29cbff9c1a588b816563178039c7af7da6
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 360ba6a67d43a0b78b1104ae64885697009bb222
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243416"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155110"
 ---
 # <a name="create-a-search-to-collect-data"></a>검색을 만들어서 데이터 수집
 
@@ -35,7 +35,7 @@ ms.locfileid: "32243416"
 
 ## <a name="choose-the-custodians-to-search-from"></a>검색할 custodians 선택
 
-조건을 정의한 후에는 검색 하려는 위치를 선택 해야 합니다. 이 작업을 수행 하는 한 가지 방법은 검색 하려는 사례에 이미 추가한 custodians를 지정 하는 것입니다. custodian를 선택 하 여 custodian에 매핑된 모든 데이터 원본에 대해 검색을 실행 합니다. 사례에 custodians을 추가 하 고 해당 데이터 원본을 관리 하는 방법에 대 한 자세한 내용은 [custodians with Work](managing-custodians.md) 를 참조 하십시오.
+조건을 정의한 후에는 검색 하려는 위치를 선택 해야 합니다. 이 작업을 수행 하는 한 가지 방법은 검색 하려는 사례에 이미 추가한 custodians를 지정 하는 것입니다. Custodian를 선택 하 여 custodian에 매핑된 모든 데이터 원본에 대해 검색을 실행 합니다. 사례에 custodians을 추가 하 고 해당 데이터 원본을 관리 하는 방법에 대 한 자세한 내용은 [custodians With Work](managing-custodians.md) 를 참조 하십시오.
 
 ## <a name="choose-non-custodial-locations"></a>비 custodial 위치 선택
 

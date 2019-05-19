@@ -4,18 +4,18 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 Facebook Business 페이지, LinkedIn 회사 페이지 및 인스턴트 Bloomberg 같은 데이터 원본에서 타사 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: e38194265fe8a511fe71b252b7d2c02904c09e89
-ms.sourcegitcommit: 5bd7a97aeab1c89e0a3660ba7bdb3200224107a1
+ms.openlocfilehash: 7a71eac07d3d3260809f90cd2e470c32c44e9dda
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34104096"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34152190"
 ---
 # <a name="use-a-sample-connector-to-archive-facebook-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Facebook 데이터 보관 (미리 보기)
 

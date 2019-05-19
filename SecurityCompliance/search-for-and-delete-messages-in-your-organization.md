@@ -3,7 +3,7 @@ title: Office 365 조 직에서 전자 메일 메시지 검색 및 삭제-관리
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office 365의 Security & 준수 센터에서 검색 및 제거 기능을 사용 하 여 조직의 모든 사서함에서 전자 메일 메시지를 검색 하 고 삭제 합니다.
-ms.openlocfilehash: c6fa0d09852016b918375dbff5a19468886d86b3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f654b643a5f1e4feac6e32a67843b2a6a9563bd0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265350"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158480"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Office 365 조 직에서 전자 메일 메시지 검색 및 삭제-관리자 도움말
 
@@ -39,7 +39,7 @@ Office 365의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서�
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 콘텐츠 검색을 만들고 실행 하려면 **eDiscovery 관리자** 역할 그룹의 구성원 이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제 하려면 **조직 관리** 역할 그룹의 구성원 이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [사용자에 게 보안 및 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
+- 콘텐츠 검색을 만들고 실행 하려면 **EDiscovery 관리자** 역할 그룹의 구성원 이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제 하려면 **조직 관리** 역할 그룹의 구성원 이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [사용자에 게 보안 및 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)를 참조 하십시오.
     
 - 메시지를 삭제 하려면 Security & 준수 센터 PowerShell을 사용 해야 합니다. 연결 방법에 대 한 지침은 [2 단계](#step-2-connect-to-security--compliance-center-powershell) 를 참조 하십시오.
     
@@ -94,9 +94,9 @@ Office 365의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서�
 
 ## <a name="step-2-connect-to-security--compliance-center-powershell"></a>2 단계: 보안 & 준수 센터 PowerShell에 연결
 
-다음 단계는 조직의 보안 & 준수 센터 PowerShell에 연결 하는 것입니다. 단계별 지침은 [Security & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
+다음 단계는 조직의 보안 & 준수 센터 PowerShell에 연결 하는 것입니다. 단계별 지침은 [Security _AMP_ 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
   
-Office 365 계정에서 MFA (multi-factor authentication) 또는 페더레이션 인증을 사용 하는 경우에는 Security & 준수 센터 PowerShell에 연결 하는 경우 이전 항목의 지침을 사용할 수 없습니다. 대신 [다단계 인증을 사용 하 여 Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell)항목의 지침을 참조 하십시오.
+Office 365 계정에서 MFA (multi-factor authentication) 또는 페더레이션 인증을 사용 하는 경우에는 Security & 준수 센터 PowerShell에 연결 하는 경우 이전 항목의 지침을 사용할 수 없습니다. 대신 [다단계 인증을 사용 하 여 Security _AMP_ 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell)항목의 지침을 참조 하십시오.
   
 ## <a name="step-3-delete-the-message"></a>3 단계: 메시지 삭제
 
@@ -114,7 +114,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
 ```
 
-이전 명령을 실행 하 여 메시지를 일시 또는 영구적으로 삭제 하는 경우 *searchname* 매개 변수로 지정 된 검색은 1 단계에서 만든 콘텐츠 검색입니다. 
+이전 명령을 실행 하 여 메시지를 일시 또는 영구적으로 삭제 하는 경우 *Searchname* 매개 변수로 지정 된 검색은 1 단계에서 만든 콘텐츠 검색입니다. 
   
 자세한 내용은 [new-compliancesearchaction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/New-ComplianceSearchAction)를 참조 하십시오.
 
@@ -122,7 +122,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
 - **검색 및 제거 작업의 상태를 확인 하려면 어떻게 해야 합니까?**
 
-    **New-ComplianceSearchAction** cmdlet을 실행할 때 만들어진 개체 이름은 다음 형식을 사용하여 지정됩니다. **new-compliancesearchaction** cmdlet을 실행할 때 만들어지는 개체는 다음 `<name of Content Search>_Purge`형식을 사용 하 여 이름이 지정 됩니다. 
+    **New-ComplianceSearchAction** cmdlet을 실행할 때 만들어진 개체 이름은 다음 형식을 사용하여 지정됩니다. **New-compliancesearchaction** cmdlet을 실행할 때 만들어지는 개체는 다음 `<name of Content Search>_Purge`형식을 사용 하 여 이름이 지정 됩니다. 
     
 - **메시지를 삭제 한 후에 수행 되는 작업**
 
@@ -136,7 +136,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
     
 - **인덱싱되지 않은 항목이 검색 결과에 포함 되도록 삭제 됩니까?**
 
-    아니요, ' new-compliancesearchaction-Purge 명령에서는 인덱싱되지 않은 항목을 삭제 하지 않습니다. 
+    아니요, ' New-compliancesearchaction-Purge 명령에서는 인덱싱되지 않은 항목을 삭제 하지 않습니다. 
     
 - **원본 위치 유지 또는 소송 보존 상태에 있는 사서함에서 메시지를 삭제 했거나 Office 365 보관 정책에 할당 된 경우는 어떻게 되나요?**
 

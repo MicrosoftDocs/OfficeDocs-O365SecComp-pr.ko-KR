@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 986c3f3cbb19cd0f66b18db274e68a3bf8414952
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 99310723ed0c157c45363c45c4cca56200d263a7
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258112"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153600"
 ---
 # <a name="search-statistics"></a>검색 통계
 
@@ -73,7 +73,7 @@ ms.locfileid: "32258112"
 
   다음은 **쿼리** 열에 표시 되는 통계에 대해 알아야 할 몇 가지 사항입니다.
   
-  - 모든 키워드를 지정 하지 않고 사서함에서 모든 콘텐츠를 검색 하는 경우 실제 쿼리는 **(size > = 0)** 로, 모든 항목이 반환 됩니다.
+  - 모든 키워드를 지정 하지 않고 사서함에서 모든 콘텐츠를 검색 하는 경우 실제 쿼리는 **(Size > = 0)** 로, 모든 항목이 반환 됩니다.
   
   - SharePoint 및 OneDrive 사이트를 검색 하면 다음의 두 구성 요소가 검색 쿼리에 추가 됩니다.
     

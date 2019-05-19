@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 Office 365 Advanced eDiscovery의 유틸리티에 대해 알아봅니다.  '
-ms.openlocfilehash: bd100883804b300e77abcc8a2224cf1a59b53475
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: df769ddddd37284da50bc715444f2bf928307706
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265360"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157960"
 ---
 # <a name="use-office-365-advanced-ediscovery-utilities"></a>Office 365 Advanced eDiscovery 유틸리티 사용
 
@@ -33,7 +33,7 @@ ms.locfileid: "32265360"
   
 또한 클라이언트 컴퓨터로 로그 파일을 다운로드할 수 있습니다. 구성 및 사용자 역할에 따라 클라이언트 다운로드 옵션을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
   
-1. 메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다. 
+1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
 2. **설정 및 유틸리티 \> 유틸리티** 탭에서 ** \> 사례 로그 설치**를 선택 합니다.
     
@@ -52,7 +52,7 @@ ms.locfileid: "32265360"
 > [!IMPORTANT]
 > 이 작업은 되돌릴 수 없으며, 전문가가 수행 하는 모든 관련성 태그 지정 및 분석의 선택을 취소 합니다. 필요한 경우 데이터 백업을 저장 합니다. 이 옵션은 매우 주의 해 서 사용 하십시오. 태그가 지정 되 고 순위 파일을 삭제 하면 관련성 결과에 영향을 줄 수 있습니다. 
   
-1. 메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다. 
+1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
 2. **설정 및 유틸리티 \> 유틸리티** 탭에서 ** \> 데이터 설치 지우기**를 선택 합니다.
     
@@ -62,7 +62,7 @@ ms.locfileid: "32265360"
     
   - **거의 중복 및 전자 메일 스레드**: 거의 모든 복제 및 전자 메일 스레드의 모든 분석 정보를 삭제 합니다.
     
-  - **themes**: 테마 관련 데이터를 삭제 합니다.
+  - **Themes**: 테마 관련 데이터를 삭제 합니다.
     
   - **기록 내보내기**: 내보내기 일괄 처리의 기록 정보를 삭제 합니다.
     
@@ -72,7 +72,7 @@ ms.locfileid: "32265360"
 
 이 섹션에서는 관련성 샘플을 건너뛰거나 롤백하는 방법에 대해 설명 합니다.
   
-1. 메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다. 
+1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
 2. **설정 및 유틸리티 \> 유틸리티** 탭에서 **관련성 수정을**선택 합니다.
     
@@ -94,11 +94,11 @@ ms.locfileid: "32265360"
   
 여러 문제를 해결 하는 시나리오에서는 각 문제에 대해 투명 한 분석 보고서가 생성 될 수 있습니다.
   
-1. 메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다. 
+1. 메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다. 
     
 2. **설정 및 유틸리티 \> 유틸리티** 탭에서 ** \> 투명 분석 설정을**선택 합니다.
     
-3. * * 파일 id * *에서 처리할 파일의 파일 id를 입력 합니다.
+3. * * 파일 ID * *에서 처리할 파일의 파일 ID를 입력 합니다.
     
 4. **문제점** 목록에서 관련 문제를 선택 합니다. 
     

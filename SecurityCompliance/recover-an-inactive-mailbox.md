@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: '이전 직원이 조직에 반환 되는 경우 또는 이거나 퇴직 한 직원의 직무에 따라 새 직원을 고용 하는 경우 Office 365에서 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 비활성 사서함의 내용이 포함 된 새 사서함으로 변환 됩니다. '
-ms.openlocfilehash: c7f942c518dcc74a4bdb37d67e27e8a63879ab46
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: be7935472363e406a978c09f926776e69c3024fe
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261546"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156920"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복구
 
@@ -50,7 +50,7 @@ ms.locfileid: "32261546"
     
 ## <a name="recover-an-inactive-mailbox"></a>비활성 사서함 복구
 
-비활성 사서함을 복구 하려면 *inactivemailbox* 매개 변수와 함께 **새 사서함** cmdlet을 사용 합니다. 
+비활성 사서함을 복구 하려면 *Inactivemailbox* 매개 변수와 함께 **새 사서함** cmdlet을 사용 합니다. 
   
 1. 비활성 사서함의 속성을 포함 하는 변수를 만듭니다. 
     
@@ -85,13 +85,13 @@ ms.locfileid: "32261546"
     
   - **RetainDeletedItemsFor** mailbox 속성으로 정의 되는 단일 항목 복구 기간은 30 일로 설정 됩니다. 일반적으로 Exchange Online에서 새 사서함을 만들면이 보존 기간은 14 일로 설정 됩니다. 이 값을 최대 30 일로 설정 하면 비활성 사서함에서 영구적으로 삭제 (또는 제거 된) 데이터를 복구할 수 있는 시간이 더 많이 제공 됩니다. 단일 항목 복구를 사용 하지 않도록 설정 하거나 단일 항목 복구 기간을 기본값인 14 일로 다시 설정할 수도 있습니다. 자세한 내용은 [사서함에 대한 단일 항목을 사용하거나 사용하지 않도록 설정](https://go.microsoft.com/fwlink/?linkid=856769)을 참조하세요.
     
-  - 보존 설정이 사용 하도록 설정 되어 있고 보존 기간이 30 일로 설정 됩니다. 즉, 기본 Exchange 보존 정책 및 새 사서함에 할당 된 조직 전체 또는 Exchange 전체 Office 365 보존 정책은 30 일 동안 처리 되지 않습니다. 이렇게 하면 반환 되는 직원 또는 복구 된 비활성 사서함 시간의 새 소유자가 이전 메시지를 관리할 수 있습니다. 그렇지 않으면 exchange 또는 office 365 보존 정책에서 exchange 또는 office 365 보존 정책에 대해 구성 된 설정을 기반으로 만료 된 이전 사서함 항목을 삭제 하거나 (사용 하도록 설정 된 경우 보관 사서함으로 항목을 이동할 수 있음) 30 일 후에 보존 기간이 만료 되 면 **RetentionHoldEnabled** mailbox 속성은 **False**로 설정 되 고 관리 되는 폴더 도우미는 사서함에 할당 된 정책을 처리 하기 시작 합니다. 이 추가 시간이 필요 하지 않으면 보존 유지를 제거 하면 됩니다. 또는, **설정 된 사서함-enddatefor소송** 명령을 사용 하 여 보존 기간을 늘릴 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://go.microsoft.com/fwlink/?linkid=856300)를 참조 하십시오.
+  - 보존 설정이 사용 하도록 설정 되어 있고 보존 기간이 30 일로 설정 됩니다. 즉, 기본 Exchange 보존 정책 및 새 사서함에 할당 된 조직 전체 또는 Exchange 전체 Office 365 보존 정책은 30 일 동안 처리 되지 않습니다. 이렇게 하면 반환 되는 직원 또는 복구 된 비활성 사서함 시간의 새 소유자가 이전 메시지를 관리할 수 있습니다. 그렇지 않으면 Exchange 또는 office 365 보존 정책에서 Exchange 또는 Office 365 보존 정책에 대해 구성 된 설정을 기반으로 만료 된 이전 사서함 항목을 삭제 하거나 (사용 하도록 설정 된 경우 보관 사서함으로 항목을 이동할 수 있음) 30 일 후에 보존 기간이 만료 되 면 **RetentionHoldEnabled** mailbox 속성은 **False**로 설정 되 고 관리 되는 폴더 도우미는 사서함에 할당 된 정책을 처리 하기 시작 합니다. 이 추가 시간이 필요 하지 않으면 보존 유지를 제거 하면 됩니다. 또는, **설정 된 사서함-Enddatefor소송** 명령을 사용 하 여 보존 기간을 늘릴 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://go.microsoft.com/fwlink/?linkid=856300)를 참조 하십시오.
     
 - **비활성 사서함의 원래 상태를 보존 해야 하는 경우 복구 된 사서함을 유지 합니다.** 새 사서함 소유자 또는 보존 정책이 복구 된 비활성 사서함에서 메시지를 영구적으로 삭제 하지 못하게 하려면 사서함에 소송 보존을 설정할 수 있습니다. 자세한 내용은 [사서함을 소송 보존으로 설정](https://go.microsoft.com/fwlink/?linkid=856286)를 참조 하십시오.
     
 - **비활성 사서함을 복구할 때 사용할 수 있는 사용자 ID는 무엇입니까?** 비활성 사서함을 복구 하는 경우 *MicrosoftOnlineServicesID* 매개 변수에 대해 지정 하는 값은 비활성 사서함과 연결 된 것과 다를 수 있습니다. 원래 사용자 ID를 사용할 수도 있습니다. 하지만 앞에서 설명한 것 처럼, 비활성 사서함을 복구 하는 경우 *Name* 및 *MicrosoftOnlineServicesID* 에 사용 되는 값이 조직 내에서 고유한 지 확인 합니다. 
     
-- **비활성 사서함의 사서함 보존 기간이 만료 되지 않은 경우 어떻게 하나요?** 비활성 사서함이 30 일 보다 적게 일시 삭제 된 경우에는 **새 사서함 inactivemailbox** 명령을 사용 하 여 복구할 수 없습니다. 해당 하는 Office 365 사용자 계정을 복원 하 여 복구 해야 합니다. 자세한 내용은 [사용자 삭제 또는 복원을](https://go.microsoft.com/fwlink/p/?LinkId=279162)참조 하세요.
+- **비활성 사서함의 사서함 보존 기간이 만료 되지 않은 경우 어떻게 하나요?** 비활성 사서함이 30 일 보다 적게 일시 삭제 된 경우에는 **새 사서함 InactiveMailbox** 명령을 사용 하 여 복구할 수 없습니다. 해당 하는 Office 365 사용자 계정을 복원 하 여 복구 해야 합니다. 자세한 내용은 [사용자 삭제 또는 복원을](https://go.microsoft.com/fwlink/p/?LinkId=279162)참조 하세요.
     
 - **비활성 사서함의 일시 삭제 된 사서함 보존 기간이 만료 되었는지 어떻게 알 수 있나요?** 다음 명령을 실행합니다. 
     
@@ -99,7 +99,7 @@ ms.locfileid: "32261546"
     Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL ExternalDirectoryObjectId
   ```
 
-    **externaldirectoryobjectid** 속성에 대 한 값이 없으면 사서함 보존 기간이 만료 된 것 이며, **새 사서함-inactivemailbox** 명령을 실행 하 여 비활성 사서함을 복구할 수 있습니다. **externaldirectoryobjectid** 속성에 대 한 값이 있는 경우 일시 삭제 된 사서함 보존 기간은 만료 되지 않으며 Office 365 사용자 계정을 복원 하 여 사서함을 복구 해야 합니다. [사용자 삭제 또는 복원을](https://go.microsoft.com/fwlink/p/?LinkId=279162) 참조 하세요.
+    **Externaldirectoryobjectid** 속성에 대 한 값이 없으면 사서함 보존 기간이 만료 된 것 이며, **새 사서함-InactiveMailbox** 명령을 실행 하 여 비활성 사서함을 복구할 수 있습니다. **Externaldirectoryobjectid** 속성에 대 한 값이 있는 경우 일시 삭제 된 사서함 보존 기간은 만료 되지 않으며 Office 365 사용자 계정을 복원 하 여 사서함을 복구 해야 합니다. [사용자 삭제 또는 복원을](https://go.microsoft.com/fwlink/p/?LinkId=279162) 참조 하세요.
     
-- **비활성 사서함을 복구한 후 보관 사서함을 사용 하도록 설정 하는 것이 좋습니다.** 이렇게 하면 반환 되는 사용자 또는 새 직원은 이전 메시지를 보관 사서함으로 이동할 수 있습니다. 보존 기간이 만료 되 면 Exchange Online 사서함에 할당 된 기본 exchange 보존 정책의 일부인 보관 정책이 보관 사서함으로 2 년 이상 된 항목을 이동 합니다. 보관 사서함을 사용 하도록 설정 하지 않으면 2 년 보다 오래 된 항목이 사용자의 기본 사서함에 남아 있게 됩니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 보관 사서함 사용](enable-archive-mailboxes.md)을 참조 하십시오.
+- **비활성 사서함을 복구한 후 보관 사서함을 사용 하도록 설정 하는 것이 좋습니다.** 이렇게 하면 반환 되는 사용자 또는 새 직원은 이전 메시지를 보관 사서함으로 이동할 수 있습니다. 보존 기간이 만료 되 면 Exchange Online 사서함에 할당 된 기본 Exchange 보존 정책의 일부인 보관 정책이 보관 사서함으로 2 년 이상 된 항목을 이동 합니다. 보관 사서함을 사용 하도록 설정 하지 않으면 2 년 보다 오래 된 항목이 사용자의 기본 사서함에 남아 있게 됩니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 보관 사서함 사용](enable-archive-mailboxes.md)을 참조 하십시오.
  

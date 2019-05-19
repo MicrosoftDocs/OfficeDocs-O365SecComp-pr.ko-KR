@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,14 +14,15 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0f5a98a7ba7a62e3b77794b38e444006a340cb49
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 5aa83f4f736c239b1cdfe940f27cfaa4b981ff64
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243197"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155120"
 ---
 # <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
+
 
 ## <a name="near-duplicates-and-email-threading"></a>유사 중복 및 전자 메일 스레딩
 
@@ -31,7 +32,7 @@ ms.locfileid: "32243197"
 
 - 임계값: 두 문서의 유사성 수준이 임계값을 초과 하는 경우 동일한 비슷한 중복 집합에 배치 됩니다.
 
-- 기본적으로 중복 항목 숨기기:이 설정이 설정 되어 있으면 중복 문서를 숨기는 필터가 기본적으로 작업 집합에 적용 됩니다. 필요한 경우 작업 집합에서 필터를 수동으로 제거할 수 있습니다.
+- 기본적으로 중복 항목 숨기기:이 설정이 설정 되어 있으면 중복 문서를 숨기는 필터가 기본적으로 검토 설정에 적용 됩니다. 필요한 경우 검토 설정에서 필터를 수동으로 제거할 수 있습니다.
 
 - 최소/최대 단어 수: 중복 및 전자 메일 스레딩은 최소 단어 수와 최대 단어 수를 포함 하는 문서에 대해서만 실행 됩니다.
 자세한 내용은 [Near 중복 검색](near-duplicates.md) 및 [전자 메일 스레딩](email-threading.md)를 참조 하세요.
@@ -47,7 +48,7 @@ ms.locfileid: "32243197"
 
 ## <a name="optical-character-recognition-ocr"></a>OCR (광학 문자 인식)
 
-이 설정을 사용 하도록 설정 하면 작업 집합으로 ingested는 이미지에서 OCR이 실행 되어 검색이 가능 하 게 할 수 있습니다.
+이 설정을 사용 하도록 설정 하면 검토 집합으로 ingested 이미지에서 OCR이 실행 되어 검색이 가능 하 게 됩니다.
 
 ## <a name="ignore-text"></a>텍스트 무시
 

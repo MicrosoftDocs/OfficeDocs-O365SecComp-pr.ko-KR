@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 6/16/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,17 +13,17 @@ search.appverid:
 ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
-description: 이 항목에서는 exchange online 및 exchange online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: a973d3a3b1875ed1ba691f91c1c23373ac8d6694
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 7ac65ae5b4225e56861dacacdd61bf5a237f7ca8
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255272"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154570"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
-이 항목에서는 exchange online 및 exchange online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다. Office 365에서는 메시지가 스팸으로 식별 되었거나 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하기 때문에 메시지를 격리로 보냅니다. 
+이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다. Office 365에서는 메시지가 스팸으로 식별 되었거나 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하기 때문에 메시지를 격리로 보냅니다. 
   
 EAC 대신 보안 &amp; 및 준수 센터를 사용 하 여 이러한 작업을 완료 하 고, 맬웨어가 포함 되어 있어 격리로 전송 된 메시지를 보고 작업 합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)를 참조 하세요.
   
@@ -38,7 +38,7 @@ EAC 대신 보안 &amp; 및 준수 센터를 사용 하 여 이러한 작업을 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>
 
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions in Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 "격리" 항목을 참조 하십시오. 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 "격리" 항목을 참조 하십시오. 
     
 - **격리** 페이지에서 한 번에 여러 메시지를 릴리스 하거나 보고할 수 있습니다. 또는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다. 
     

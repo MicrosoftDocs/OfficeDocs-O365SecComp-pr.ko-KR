@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 12/9/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.assetid: 4b250bc9-0056-4426-8397-7b4398f1b026
 ms.collection:
 - M365-security-compliance
 description: '격리 된 전자 메일에 대 한 관리자 로부터 최종 사용자 스팸 알림 메시지를 보는 사용자는 메시지에 대해 이러한 작업을 수행할 수 있습니다. '
-ms.openlocfilehash: f9a8cdf21dfae631b311651aa2259af2f76d73b8
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 666640e15da8bc980ebcf4cc0733c1947eae26b9
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32264338"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156240"
 ---
 # <a name="use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages"></a>최종 사용자 스팸 알림을 사용하여 스팸으로 격리된 메시지 릴리스 및 보고
 

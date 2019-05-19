@@ -1,23 +1,23 @@
 ---
-title: '주요 정보 보안 담당자 (ciso) 워크숍, 모듈 5: 정보 보호'
+title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 5: 정보 보호'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: f68345f4041d4fae9d35f38ea2b80af5dee7c762
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: dccd34a6bed27ec3dbbca6c2affdc56234b1a21a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243339"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155510"
 ---
-# <a name="ciso-workshop-module-5-information-protection"></a>ciso 워크숍 모듈 5: 정보 보호
+# <a name="ciso-workshop-module-5-information-protection"></a>CISO 워크숍 모듈 5: 정보 보호
 
 자동 분류, 장치 간의 영구 암호화 및 모바일 장치, 클라우드 서비스 및 기타 회사 간의 데이터에 대 한 지속적인 모니터링을 함께 사용 하 여 중요 한 정보를 보호 하는 방법에 대해 알아봅니다.
 

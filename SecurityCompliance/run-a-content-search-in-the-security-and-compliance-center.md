@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/26/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.ComplianceSearch
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 61852fd9-fe8a-4880-a339-cb19ed3bff4a
 description: 'Security & 준수 센터에서 콘텐츠 검색을 사용 하 여 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치를 검색 합니다. '
-ms.openlocfilehash: 4c3d9cc024a495ff8464e1117d5f46c13c1b9a08
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: cebdbf7808534b82085affa16c06ac1929b3fd8d
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261768"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157100"
 ---
 # <a name="run-a-content-search-in-the-security--compliance-center"></a>보안 및 준수 센터에서 콘텐츠 검색 실행
 
@@ -55,9 +55,9 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
 
 - 검색 쿼리를 작성 하 고 부울 검색 연산자를 사용 하는 방법에 대 한 자세한 내용과 지침은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오. 또한 중요 한 정보 유형을 검색 하 고 조직 내부 및 외부의 사용자와 공유 되는 콘텐츠를 검색 하는 방법에 대 한 정보도 포함 합니다.
     
-- 검색을 수행 하 고 검색 결과를 내보내기 위해 **콘텐츠 검색** 페이지에 액세스할 수 있도록 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 Security & 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. Exchange online, SharePoint online 또는 비즈니스용 OneDrive 사이트에서는 추가 검색 권한을 할당할 필요가 없습니다. 자세한 내용은 [Office 365 Security & 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+- 검색을 수행 하 고 검색 결과를 내보내기 위해 **콘텐츠 검색** 페이지에 액세스할 수 있도록 하려면 관리자, 규정 준수 책임자 또는 ediscovery 관리자가 Security _AMP_ 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. Exchange Online, SharePoint Online 또는 비즈니스용 OneDrive 사이트에서는 추가 검색 권한을 할당할 필요가 없습니다. 자세한 내용은 [Office 365 Security _AMP_ 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
     
-- Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 하기 위해 콘텐츠 검색에 적용 되는 제한이 있습니다. 대부분의 경우 이러한 제한을 수정할 수 없지만 검색을 계획하고 실행하고 관련 문제를 해결할 때 이러한 제한을 고려할 수 있도록 잘 알고 있어야 합니다. 자세한 내용은 [Security & 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
+- Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 하기 위해 콘텐츠 검색에 적용 되는 제한이 있습니다. 대부분의 경우 이러한 제한을 수정할 수 없지만 검색을 계획하고 실행하고 관련 문제를 해결할 때 이러한 제한을 고려할 수 있도록 잘 알고 있어야 합니다. 자세한 내용은 [Security _AMP_ 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요.
     
 - 단일 콘텐츠 검색에서 검색 되는 사서함 수를 기준으로 예상 검색 시간에 대 한 섹션을 참조 하세요. 
     
@@ -88,7 +88,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
     
     ![검색할 콘텐츠 위치 선택](media/da32e3f9-6cd6-4a26-8217-e97a5a7071e4.png)
   
-1. **모든 범위에서 검색** 조직의 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하면 모든 사서함 (비활성 사서함 및 모든 office 365 그룹 및 Microsoft 팀의 사서함), 모든 SharePoint 및 비즈니스용 OneDrive 사이트 (모든 office 365 그룹에 대 한 사이트 포함), 모든 사용자를 검색 하도록 선택할 수 있습니다. Microsoft 팀) 및 모든 공용 폴더
+1. **모든 범위에서 검색** 조직의 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하면 모든 사서함 (비활성 사서함 및 모든 Office 365 그룹 및 Microsoft 팀의 사서함), 모든 SharePoint 및 비즈니스용 OneDrive 사이트 (모든 Office 365 그룹에 대 한 사이트 포함), 모든 사용자를 검색 하도록 선택할 수 있습니다. Microsoft 팀) 및 모든 공용 폴더
     
     ![모든 콘텐츠 위치를 검색 하려면 모든 범위 검색 옵션을 클릭 합니다.](media/86f132f1-0a2a-4048-900c-9f219d909ef2.png)
   
@@ -167,12 +167,12 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
 ## <a name="export-search-results"></a>검색 결과 내보내기
 <a name="export"> </a>
 
-검색이 성공적으로 실행 된 후에는 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과 내보내면 컴퓨터에 PST 파일로 다운로드됩니다. SharePoint 및 비즈니스용 OneDrive 사이트에서 콘텐츠를 내보낼 때 기본 Office 문서의 복사본을 내보냅니다. 내보낸 검색 결과에 추가 문서 및 보고서도 포함되어 있습니다. 자세한 내용은 [Security & 준수 센터에서 검색 결과 내보내기를](export-search-results.md)참조 하십시오.
+검색이 성공적으로 실행 된 후에는 검색 결과를 로컬 컴퓨터로 내보낼 수 있습니다. 전자 메일 결과 내보내면 컴퓨터에 PST 파일로 다운로드됩니다. SharePoint 및 비즈니스용 OneDrive 사이트에서 콘텐츠를 내보낼 때 기본 Office 문서의 복사본을 내보냅니다. 내보낸 검색 결과에 추가 문서 및 보고서도 포함되어 있습니다. 자세한 내용은 [Security _AMP_ 준수 센터에서 검색 결과 내보내기를](export-search-results.md)참조 하십시오.
   
 ## <a name="preview-search-results"></a>검색 결과 미리 보기
 <a name="preview"> </a>
 
-검색이 완료된 후에 검색 결과를 미리 볼 수 있습니다. 콘텐츠 검색 결과를 미리 볼 때 여러 가지 제한이 발생합니다. 자세한 내용은 [Security & 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
+검색이 완료된 후에 검색 결과를 미리 볼 수 있습니다. 콘텐츠 검색 결과를 미리 볼 때 여러 가지 제한이 발생합니다. 자세한 내용은 [Security _AMP_ 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하세요. 인덱싱되지 않은 항목은 미리 보기에서 사용할 수 없습니다.
   
 1. **콘텐츠 검색** 페이지에서 검색을 선택 합니다. 
     
@@ -184,7 +184,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
     
     미리 보기 창에서 항목을 엽니다.
     
-4. 파일 형식이 미리 보기에 지원 되지 않거나 문서 복사본을 다운로드 하는 경우에는 **원본 파일 다운로드** 를 클릭 하 여 로컬 컴퓨터에 다운로드할 수 있습니다. .aspx 웹 페이지의 경우 페이지에 대 한 액세스 권한이 없을 수 있지만 페이지의 URL이 포함 됩니다. 
+4. 파일 형식이 미리 보기에 지원 되지 않거나 문서 복사본을 다운로드 하는 경우에는 **원본 파일 다운로드** 를 클릭 하 여 로컬 컴퓨터에 다운로드할 수 있습니다. .Aspx 웹 페이지의 경우 페이지에 대 한 액세스 권한이 없을 수 있지만 페이지의 URL이 포함 됩니다. 
     
 > [!NOTE]
 > 7일보다 더 전에 마지막으로 실행된 검색의 검색 결과를 미리 보는 경우 검색 결과를 업데이트하라는 메시지가 표시됩니다. 검색을 다시 실행 하 여 검색 쿼리를 충족 하는 최신 결과를 가져옵니다. 
@@ -265,8 +265,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
  
 [Microsoft 팀 및 Office 365 그룹](#microsoft-teams-and-office-365-groups)
   
-
-  [비즈니스용 OneDrive](#onedrive-for-business)
+[비즈니스용 OneDrive](#onedrive-for-business)
   
 [검색 쿼리](#search-queries)
   
@@ -278,7 +277,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
   
 ### <a name="limits-and-performance"></a>제한 및 성능
   
-- 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [Security & 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하십시오.
+- 콘텐츠 검색 기능에 적용 되는 제한에 대 한 자세한 내용은 [Security _AMP_ 준수 센터에서 검색에 대 한 제한을](limits-for-content-search.md)참조 하십시오.
     
 - Microsoft는 모든 Office 365 조직에서 실행 하는 콘텐츠 검색에 대 한 성능 정보를 수집 합니다. 검색 쿼리의 복잡도에 따라 검색 시간에 영향을 줄 수 있지만 검색에 걸리는 시간에 영향을 주는 가장 큰 요인은 검색 되는 사서함 수입니다. Microsoft는 검색 시간에 대 한 서비스 수준 계약을 제공 하지 않지만 다음 표에는 검색에 포함 된 사서함 수에 따른 콘텐츠 검색에 대 한 평균 검색 시간이 나와 있습니다.
     
@@ -316,20 +315,20 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
   ```
 
     > [!NOTE]
-    > **remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
   
   - 사용자의 사서함을 검색할 때 사용자가 구성원으로 속해 있는 Microsoft Team 또는 Office 365 그룹은 검색 되지 않습니다. 마찬가지로 Microsoft 팀 이나 Office 365 그룹을 검색할 때 지정한 그룹 사서함 및 그룹 사이트만 검색 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 계정은 검색에 명시적으로 추가 하지 않으면 검색 되지 않습니다.
     
-  - microsoft 팀 또는 Office 365 그룹의 구성원 목록을 가져오려면 microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
+  - Microsoft 팀 또는 Office 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
     
   ```
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
   ```
 
     > [!NOTE]
-    > **add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
   
-  - microsoft 팀 채널의 일부인 대화는 microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 채널에서 파일을 검색 하려면 콘텐츠 위치로 Microsoft 팀 사서함 및 SharePoint 사이트를 추가 해야 합니다.
+  - Microsoft 팀 채널의 일부인 대화는 Microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 채널에서 파일을 검색 하려면 콘텐츠 위치로 Microsoft 팀 사서함 및 SharePoint 사이트를 추가 해야 합니다.
     
   - 
     
@@ -341,11 +340,11 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
   - 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠가 .mht 형식의 파일에 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 팀 위 키 데이터 문서 라이브러리에 저장 됩니다. 콘텐츠 검색 도구를 사용 하 여 팀의 SharePoint 사이트를 검색할 콘텐츠 위치로 지정 하 여 Wiki를 검색할 수 있습니다. 
     
     > [!NOTE]
-    > Microsoft team 또는 Channel (팀의 SharePoint 사이트 검색 시)에 대 한 Wiki를 검색 하는 기능은 2017 년 6 월 22 일에 릴리스 되었습니다. 해당 날짜에 저장 되거나 업데이트 된 Wiki 페이지를 검색할 수 있습니다. 해당 날짜를 검색에 사용할 수 없도록 마지막으로 저장 하거나 업데이트 한 Wiki 페이지 
+    > Microsoft Team 또는 Channel (팀의 SharePoint 사이트 검색 시)에 대 한 Wiki를 검색 하는 기능은 2017 년 6 월 22 일에 릴리스 되었습니다. 해당 날짜에 저장 되거나 업데이트 된 Wiki 페이지를 검색할 수 있습니다. 해당 날짜를 검색에 사용할 수 없도록 마지막으로 저장 하거나 업데이트 한 Wiki 페이지 
   
 ### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
   
-- 조직의 비즈니스용 onedrive 사이트에 대 한 url 목록을 수집 하려면 [조직의 모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하세요. 이 문서의 스크립트는 모든 비즈니스용 OneDrive 사이트 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 검색할 각 비즈니스용 OneDrive 사이트에 조직의 내 사이트 도메인의 URL을 추가 해야 합니다. 비즈니스용 OneDrive를 모두 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
+- 조직의 비즈니스용 OneDrive 사이트에 대 한 Url 목록을 수집 하려면 [조직의 모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하세요. 이 문서의 스크립트는 모든 비즈니스용 OneDrive 사이트 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 검색할 각 비즈니스용 OneDrive 사이트에 조직의 내 사이트 도메인의 URL을 추가 해야 합니다. 비즈니스용 OneDrive를 모두 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
     
 
 ### <a name="search-queries"></a>검색 쿼리
@@ -401,7 +400,7 @@ Security & 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용 하 여
   
 - 보안 & 준수 센터의 **콘텐츠 검색** 페이지에서 만든 콘텐츠 검색은 Exchange 관리 센터의 원본 **위치 eDiscovery &amp; 보류** 페이지에 표시 되지 않습니다. 이는 보안 & 준수 센터에서 만든 검색 개체와 콘텐츠 검색 아키텍처가 Exchange Online의 원본 위치 eDiscovery 기능과 완전히 다르기 때문입니다. 
     
-    같은 이유로, **콘텐츠 검색** 페이지에서 만든 검색은 보안 & 준수 센터에서 eDiscovery 사례의 **검색** 페이지에 표시 되지 않습니다. 
+    같은 이유로, **콘텐츠 검색** 페이지에서 만든 검색은 보안 _AMP_ 준수 센터에서 EDiscovery 사례의 **검색** 페이지에 표시 되지 않습니다. 
     
 - 검색을 다시 시작하는 것과 다시 시도하는 것은 어떤 차이가 있나요? 검색을 다시 시작 하면 검색에 지정 된 모든 콘텐츠 위치가 새 미리 보기 검색에서 다시 검색 됩니다. 그러나 검색을 다시 시도 하면 검색을 마지막으로 실행 했을 때 실패 한 콘텐츠 위치만 다시 검색 됩니다.
    

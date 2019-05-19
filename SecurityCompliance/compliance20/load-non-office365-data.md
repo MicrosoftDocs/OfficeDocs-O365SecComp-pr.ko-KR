@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 60775002d5ebec83aacbec350a044b9d6ffeb461
-ms.sourcegitcommit: 865b3dc071150b20bf3967e1263fc54e75898284
+ms.openlocfilehash: 86d858994f95176ea4d415405c4043f7e7c5308e
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33834965"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155010"
 ---
 # <a name="load-non-office-365-data-into-a-review-set"></a>검토 집합에 비 Office 365 데이터 로드
 
@@ -40,7 +40,7 @@ Office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
 
 - Custodians에 연결 된 비 Office 365 데이터를 업로드 하기 전에 케이스에 추가 해야 합니다.
 
-- 업로드 될 모든 파일은 각 폴더가 특정 custodian 연결 된 폴더에 있어야 합니다. 이러한 폴더의 이름은 *alias @ domainname*을 사용 해야 합니다. *Alias @ Domainname* 은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 모든 *alias @ domainname* 폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는 *alias @ domainname* 폴더만 포함할 수 있습니다. 루트 폴더에는 느슨한 파일을 사용할 수 없습니다.
+- 업로드 될 모든 파일은 각 폴더가 특정 custodian 연결 된 폴더에 있어야 합니다. 이러한 폴더의 이름은 *alias @ domainname*을 사용 해야 합니다. *Alias @ domainname* 은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 모든 *alias @ domainname* 폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는 *alias @ domainname* 폴더만 포함할 수 있습니다. 루트 폴더에는 느슨한 파일을 사용할 수 없습니다.
 
    예를 들어 업로드 하려는 비 Office 365 데이터의 폴더 구조는 다음과 유사 합니다.
 

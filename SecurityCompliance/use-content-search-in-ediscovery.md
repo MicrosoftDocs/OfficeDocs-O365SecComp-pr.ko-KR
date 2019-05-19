@@ -4,22 +4,22 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 12/30/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 55f31488-288a-473a-9b9e-831a11e3711a
 description: 'PowerShell 스크립트를 사용 하 여 보안 & 준수 센터에서 만든 검색을 기반으로 Exchange Online의 원본 위치 eDiscovery 검색을 만듭니다. '
-ms.openlocfilehash: 2e4f1b3570ce2400472a0b2a9ddee886ffc4bab3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: d021836a735d5c5dd12124e16e348729d88e6022
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32263800"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157980"
 ---
 # <a name="use-content-search-in-your-ediscovery-workflow"></a>eDiscovery 워크플로에서 콘텐츠 검색 사용
 
-Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서함을 검색할 수 있습니다. Exchange Online의 원본 위치 eDiscovery (최대 1만 개의 사서함을 검색할 수 있음)와 달리 단일 검색의 대상 사서함 수에는 제한이 없습니다. 조직 전체 검색을 수행 해야 하는 시나리오의 경우 콘텐츠 검색을 사용 하 여 모든 사서함을 검색할 수 있습니다. 그런 다음 원본 위치 eDiscovery의 워크플로 기능을 사용 하 여 사서함을 보류 상태로 설정 하 고 검색 결과를 내보내는 등의 기타 ediscovery 관련 작업을 수행할 수 있습니다. 예를 들어 법적 사례에 대응 하는 특정 custodians을 식별 하기 위해 모든 사서함을 검색 해야 한다고 가정해 보겠습니다. 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 조직의 모든 사서함을 검색 하 여 사례에 대응 되는 사용자를 식별할 수 있습니다. 그런 다음 custodian 사서함 목록을 Exchange Online의 원본 위치 eDiscovery 검색에 대 한 소스 사서함으로 사용할 수 있습니다. 원본 위치 eDiscovery를 사용 하는 경우에도 해당 소스 사서함에 보류를 적용 하 고 검색 결과를 검색 사서함으로 복사 하 고 검색 결과를 내보낼 수 있습니다.
+Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 모든 사서함을 검색할 수 있습니다. Exchange Online의 원본 위치 eDiscovery (최대 1만 개의 사서함을 검색할 수 있음)와 달리 단일 검색의 대상 사서함 수에는 제한이 없습니다. 조직 전체 검색을 수행 해야 하는 시나리오의 경우 콘텐츠 검색을 사용 하 여 모든 사서함을 검색할 수 있습니다. 그런 다음 원본 위치 eDiscovery의 워크플로 기능을 사용 하 여 사서함을 보류 상태로 설정 하 고 검색 결과를 내보내는 등의 기타 eDiscovery 관련 작업을 수행할 수 있습니다. 예를 들어 법적 사례에 대응 하는 특정 custodians을 식별 하기 위해 모든 사서함을 검색 해야 한다고 가정해 보겠습니다. 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 조직의 모든 사서함을 검색 하 여 사례에 대응 되는 사용자를 식별할 수 있습니다. 그런 다음 custodian 사서함 목록을 Exchange Online의 원본 위치 eDiscovery 검색에 대 한 소스 사서함으로 사용할 수 있습니다. 원본 위치 eDiscovery를 사용 하는 경우에도 해당 소스 사서함에 보류를 적용 하 고 검색 결과를 검색 사서함으로 복사 하 고 검색 결과를 내보낼 수 있습니다.
   
 이 항목에는 Security & 준수 센터에서 만든 검색의 원본 사서함 및 검색 쿼리 목록을 사용 하 여 Exchange Online에서 현재 위치 eDiscovery 검색을 만들기 위해 실행할 수 있는 스크립트를 포함 합니다. 프로세스에 대 한 개요는 다음과 같습니다.
   
@@ -33,14 +33,14 @@ Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 
 
 ## <a name="step-1-create-a-content-search-to-search-all-mailboxes-in-your-organization"></a>1 단계: 조직의 모든 사서함을 검색 하는 콘텐츠 검색 만들기
 
-첫 번째 단계는 security & 준수 센터 (또는 security & 준수 센터 PowerShell)를 사용 하 여 조직의 모든 사서함을 검색 하는 콘텐츠 검색을 만드는 것입니다. 단일 콘텐츠 검색의 사서함 수에는 제한이 없습니다. 검색에서 조사와 관련 된 원본 사서함만 반환 되도록 적절 한 키워드 쿼리 (또는 중요 한 정보 유형에 대 한 쿼리)를 지정 합니다. 필요한 경우 검색 쿼리를 구체화 하 여 반환 되는 검색 결과 및 원본 사서함의 범위를 좁힙니다.
+첫 번째 단계는 Security & 준수 센터 (또는 Security & 준수 센터 PowerShell)를 사용 하 여 조직의 모든 사서함을 검색 하는 콘텐츠 검색을 만드는 것입니다. 단일 콘텐츠 검색의 사서함 수에는 제한이 없습니다. 검색에서 조사와 관련 된 원본 사서함만 반환 되도록 적절 한 키워드 쿼리 (또는 중요 한 정보 유형에 대 한 쿼리)를 지정 합니다. 필요한 경우 검색 쿼리를 구체화 하 여 반환 되는 검색 결과 및 원본 사서함의 범위를 좁힙니다.
   
 > [!NOTE]
 > 원본 콘텐츠 검색 결과 아무 결과도 반환 되지 않으면 3 단계에서 스크립트를 실행할 때 전체 위치 eDiscovery가 만들어지지 않습니다. 검색 쿼리를 수정한 다음 콘텐츠 검색을 다시 실행 하 여 검색 결과를 반환 해야 할 수 있습니다. 
   
 ### <a name="use-the-security--compliance-center-to-search-all-mailboxes"></a>보안 & 준수 센터를 사용 하 여 모든 사서함 검색
 
-1. [Security & 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다. 
+1. [Security _AMP_ 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다. 
     
 2.  > **콘텐츠 검색**검색을 클릭 한 다음 **새 검색** ![추가 아이콘](media/O365-MDM-CreatePolicy-AddIcon.gif)을 클릭 합니다. ****
     
@@ -48,7 +48,7 @@ Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 
     
 4. 어떤 **위치를 확인**하 시겠습니까?에서 **모든 사서함 검색**을 클릭 하 고 **다음**을 클릭 합니다.
     
-5. **무엇을 검색하시겠습니까?** 아래의 상자에 검색 쿼리를 입력합니다. 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. AND, OR, NOT 또는 NEAR과 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용 하거나 메시지에서 주민 등록 번호와 같은 중요 한 정보를 검색할 수도 있습니다. 검색 쿼리를 만드는 방법에 대 한 자세한 내용은 [Keyword queries for Content search](keyword-queries-and-search-conditions.md)를 참조 하십시오.
+5. **무엇을 검색하시겠습니까?** 아래의 상자에 검색 쿼리를 입력합니다. 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. AND, OR, NOT 또는 NEAR과 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용 하거나 메시지에서 주민 등록 번호와 같은 중요 한 정보를 검색할 수도 있습니다. 검색 쿼리를 만드는 방법에 대 한 자세한 내용은 [Keyword queries For Content search](keyword-queries-and-search-conditions.md)를 참조 하십시오.
     
 6. **검색**을 클릭하여 검색 설정을 저장하고 검색을 시작합니다. 
     
@@ -58,7 +58,7 @@ Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 조직의 
     
 ### <a name="use-security--compliance-center-powershell-to-search-all-mailboxes"></a>Security & 준수 센터 PowerShell을 사용 하 여 모든 사서함 검색
 
-**ComplianceSearch** cmdlet을 사용 하 여 조직의 모든 사서함을 검색할 수도 있습니다. 첫 번째 단계는 [Security & 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkID=627084)하는 것입니다.
+**ComplianceSearch** cmdlet을 사용 하 여 조직의 모든 사서함을 검색할 수도 있습니다. 첫 번째 단계는 [Security _AMP_ 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?LinkID=627084)하는 것입니다.
   
 다음은 PowerShell을 사용 하 여 조직의 모든 사서함을 검색 하는 예입니다. 검색 쿼리는 제목 줄에 "재무 보고서" 라는 구가 포함 되어 있고 2015 년 1 월 1 일부 터 2015 년 6 월 30 일 사이에 전송 된 모든 메시지를 반환 합니다. 첫 번째 명령은 검색을 만들고 두 번째 명령은 검색을 실행 합니다. 
   
@@ -78,7 +78,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 원본 사서함이 1000 개 보다 많은 콘텐츠 검색을 만들려면 다음 단계를 수행 하 여 1 단계에서 만든 콘텐츠 검색에서 반환한 원본 사서함 수 (검색 결과 포함)를 표시 하는 스크립트를 실행 합니다. 
   
-1. filename 접미사. p s c 1을 사용 하 여 PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `SourceMailboxes.ps1`파일에 저장할 수 있습니다.
+1. Filename 접미사. p s c 1을 사용 하 여 PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `SourceMailboxes.ps1`파일에 저장할 수 있습니다.
     
   ```
   [CmdletBinding()]
@@ -165,7 +165,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
     
   - **검색만 예측** -새 검색이 예측 전용 검색으로 표시 됩니다. 검색 결과를 시작한 후 발견 사서함에 복사 하지 않습니다. 
     
-1. ps1의 filename 접미사를 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `CreateMBSearchFromComplianceSearch.ps1`파일에 저장할 수 있습니다.
+1. Ps1의 filename 접미사를 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `CreateMBSearchFromComplianceSearch.ps1`파일에 저장할 수 있습니다.
     
   ```
   [CmdletBinding()]
@@ -260,7 +260,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 ## <a name="next-steps-after-creating-and-running-the-in-place-ediscovery-search"></a>원본 위치 eDiscovery 검색을 만들고 실행 한 후의 다음 단계
 
-3 단계에서 스크립트로 만든 원본 위치 ediscovery 검색을 만들고 시작한 후 일반적인 원본 위치 ediscovery 워크플로를 사용 하 여 검색 결과에 대해 서로 다른 eDiscovery 작업을 수행할 수 있습니다.
+3 단계에서 스크립트로 만든 원본 위치 eDiscovery 검색을 만들고 시작한 후 일반적인 원본 위치 eDiscovery 워크플로를 사용 하 여 검색 결과에 대해 서로 다른 eDiscovery 작업을 수행할 수 있습니다.
   
 ### <a name="create-an-in-place-hold"></a>원본 위치 유지 만들기
 

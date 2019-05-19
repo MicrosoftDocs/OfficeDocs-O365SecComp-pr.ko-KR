@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 11/17/2014
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 최종 사용자 및 관리자를 위한 문제 해결 단계 및 기술 지원 서비스에 문의하는 방법에 대해 설명합니다.
-ms.openlocfilehash: bea2ad502f24d63874bfa954e6d67c73dc44d98d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: baf8761ca4ce55695c2def74a39d3ca9a6de79ff
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32259846"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156340"
 ---
 # <a name="troubleshooting-and-support-information"></a>문제 해결 및 지원 정보
 

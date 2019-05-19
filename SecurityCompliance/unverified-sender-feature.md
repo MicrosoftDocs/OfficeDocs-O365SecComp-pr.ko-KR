@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 04/25/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: 5d4315afb33964e7c466384366b7315287cf6298
-ms.sourcegitcommit: d24f50347c671cf5d2d8afec2f80d37d18af8b5d
+ms.openlocfilehash: ad94a2953b6fd53612b2fc15038a7157e97f3b39
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33867849"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157990"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 

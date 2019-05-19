@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Office 365 Advanced eDiscovery에서 Analyze 및 Process 모듈을 사용할 때 특정 텍스트를 무시 하는 규칙을 정의 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: 3a4c1d17a9a56d3018509a8dcfd6b49abb951676
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 70d9879f1cb6b3def06ff978fc2f7fa8f20a92f0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260832"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156680"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석에 대 한 텍스트 무시 옵션 설정
 
@@ -41,7 +41,7 @@ ms.locfileid: "32260832"
 |"ALICE", "BOB의가을"  <br/> |==\>  <br/> |"DAVE 전날"  <br/> |
 |"ALICE", "BOB ALICE 고 대"  <br/> |==\>  <br/> |"DAVE BOB 고 전날"  <br/> |
    
-첫 번째 무시 텍스트가 적용 된 후에 문자열이 검색 되지 않으므로 두 번째 ignore 텍스트 항목은 구현 되지 않습니다.
+첫 번째 무시 텍스트가 적용 된 후에 문자열이 검색 되지 않으므로 두 번째 Ignore 텍스트 항목은 구현 되지 않습니다.
   
 ## <a name="use-regular-expressions-when-defining-ignore-text"></a>텍스트 무시를 정의할 때 정규식 사용
 
@@ -93,7 +93,7 @@ ms.locfileid: "32260832"
     
   - 공백을 제외 하 고 알파벳의 일부가 아닌 모든 문자, "_" 및 "-"은 앞에 "가와 야 합니다\".
     
-  - 일반 eexpression 필드의 길이에는 제한이 없습니다.
+  - 일반 eExpression 필드의 길이에는 제한이 없습니다.
     
 > [!TIP]
 > 정규식의 자세한 설명과 자세한 내용은 [정규식 언어-빠른 참조](https://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx)를 참조 하십시오. 
@@ -102,7 +102,7 @@ ms.locfileid: "32260832"
 
 1. 분석 ** \> 분석 옵션 \> 관리** 탭의 **텍스트 무시** 섹션에서 **+** 아이콘을 클릭 하 여 규칙을 추가 합니다. 
     
-2. **ignore 텍스트 추가** 대화 상자의 **이름** 필드에 무시 텍스트 규칙의 이름을 입력 합니다. 
+2. **Ignore 텍스트 추가** 대화 상자의 **이름** 필드에 무시 텍스트 규칙의 이름을 입력 합니다. 
     
     ![무시 하는 텍스트 추가](media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
   

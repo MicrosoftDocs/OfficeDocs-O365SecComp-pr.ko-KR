@@ -1,9 +1,9 @@
 ---
-title: Office 365 advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
+title: Office 365 Advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,14 +12,14 @@ search.appverid:
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
 description: 'Office 365 Advanced eDiscovery에서 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법에 대해 알아보고 비용 매개 변수  '
-ms.openlocfilehash: aec9efac91cc3fb48068fca9b6b7313f829f4fe2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 4542e80e5324a35df2e7dc8e7e0cf09f37ae1ef4
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32257090"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34153390"
 ---
-# <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Office 365 advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
+# <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

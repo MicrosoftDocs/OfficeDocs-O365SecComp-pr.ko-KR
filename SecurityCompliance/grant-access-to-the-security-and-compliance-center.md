@@ -4,7 +4,7 @@ ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - ms.o365.cc.PermissionsHelp
@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 &amp; Office 365 보안 및 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: 08b3781ceb48b9a8d5933a075106d7bd3b9ab17d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: aa0d1e9af6eb547bbb145d06cabfc431028ec4f0
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32253974"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34154300"
 ---
 # <a name="give-users-access-to-the-office-365-security-amp-compliance-center"></a>사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여
 
@@ -63,7 +63,7 @@ ms.locfileid: "32253974"
     
 ## <a name="use-powershell-to-give-another-user-access-to-the-security-amp-compliance-center"></a>PowerShell을 사용 하 여 다른 사용자에 게 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여
 
-1. [Office 365 Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)합니다.
+1. [Office 365 Security _AMP_ 준수 센터 PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)합니다.
     
 2. 다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다. 
     
@@ -78,7 +78,7 @@ ms.locfileid: "32253974"
     
 - _구성원_ 은 역할 그룹에 추가할 사서함, USG (유니버설 보안 그룹) 또는 컴퓨터입니다. 구성원은 한 번에 하나만 지정할 수 있습니다. 
     
-구문 및 매개 변수에 대 한 자세한 내용은 [추가-rolegroupmember](https://go.microsoft.com/fwlink/p/?LinkId=510859)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [추가-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510859)를 참조 하십시오.
   
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -89,6 +89,6 @@ Get-RoleGroupMember -Identity "OrganizationManagement"
 
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [Get-rolegroupmember](https://go.microsoft.com/fwlink/p/?LinkId=510860)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [Get-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510860)를 참조 하십시오.
   
 

@@ -3,7 +3,7 @@ title: 검색 및 태그 지정
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -11,12 +11,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
-ms.openlocfilehash: 58913a01f30b4169470592f5fc271e3ce785ac5d
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: b3e660e6dca014323cfd06f10c14747751aeb386
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32261374"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158540"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 
@@ -27,7 +27,7 @@ ms.locfileid: "32261374"
   
 ## <a name="search-the-documents-in-your-case"></a>사례에서 문서 검색
 
-고급 eDiscovery 사례에서 문서를 처리 하 고 (필요한 경우 분석 또는 관련성 모듈을 실행) 검색 및 태그 지정 기능을 사용 하 여 문서를 검색 한 다음 대/소문자 별 태그 (레이블 라고도 함)를 적용 하 여이를 구성할 수 있습니다. 제공 된 조건 카드를 사용 하거나 키워드 조건 카드에서 KQL와 같은 형식의 쿼리 언어를 사용 하 여 검색 쿼리를 정의할 수 있습니다. and, OR, NOT 및 NEAR (n)과 같은 일반 KQL 구문은 지원 되 고 후행 여러 문자 와일드 카드 (*)와 유사 합니다. 
+고급 eDiscovery 사례에서 문서를 처리 하 고 (필요한 경우 분석 또는 관련성 모듈을 실행) 검색 및 태그 지정 기능을 사용 하 여 문서를 검색 한 다음 대/소문자 별 태그 (레이블 라고도 함)를 적용 하 여이를 구성할 수 있습니다. 제공 된 조건 카드를 사용 하거나 키워드 조건 카드에서 KQL와 같은 형식의 쿼리 언어를 사용 하 여 검색 쿼리를 정의할 수 있습니다. AND, OR, NOT 및 NEAR (n)과 같은 일반 KQL 구문은 지원 되 고 후행 여러 문자 와일드 카드 (*)와 유사 합니다. 
 
 다음 표에는 KQL keyword 쿼리를 사용 하 여 검색할 수 있는 속성이 나와 있습니다. 또는 고급 eDiscovery 검색 도구에서 조건 카드를 사용 하 여 검색 쿼리에 조건 (선택한 속성)을 추가할 수 있습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "32261374"
 |**filetype** <br/> | 네이티브 파일 확장명입니다. <br/> |
 |**fileclass** <br/> | 전자 메일, 문서 또는 첨부 파일 <br/> |
 |**senderauthor** <br/> | 전자 메일 보낸 사람 사이트 문서에 대 한 작성자입니다. <br/> |
-|**크기** <br/> | 파일 크기 (mb)입니다. <br/> |
+|**크기** <br/> | 파일 크기 (MB)입니다. <br/> |
 |**호칭 제목** <br/> | 전자 메일의 제목입니다. 사이트 문서의 제목입니다. <br/> |
 |**숨은 참조** <br/> | 전자 메일의 숨은 참조 필드입니다. <br/> |
 |**참조** <br/> | 전자 메일의 참조 필드입니다. <br/> |
@@ -55,8 +55,8 @@ ms.locfileid: "32261374"
 |**직책** <br/> | 사이트 문서의 제목입니다. <br/> |
 |**dominanttheme**\* <br/> | 항목의 기준 테마입니다. <br/> |
 |**기타 eslist**\* <br/> | 항목과 연결 된 테마입니다. <br/> |
-|**readpercentile_ [issuenum]**\*\* <br/> | [issuenum]로 정의 된 문제에 대해 항목의 읽기 백분위 수를 지정 합니다. <br/> |
-|**relevancescore_ [issuenum]**\*\* <br/> | [issuenum]에 의해 정의 된 문제에 대 한 항목의 관련성 점수입니다. <br/> |
+|**readpercentile_[issuenum]**\*\* <br/> | [Issuenum]로 정의 된 문제에 대해 항목의 읽기 백분위 수를 지정 합니다. <br/> |
+|**relevancescore_[issuenum]**\*\* <br/> | [Issuenum]에 의해 정의 된 문제에 대 한 항목의 관련성 점수입니다. <br/> |
 |**relevancetag_ [tagname]**\*\* <br/> | 항목에 관련성을 수동으로 태그가 지정 된 경우 [tagname]에 정의 된 태그입니다. <br/> |
 |||
 

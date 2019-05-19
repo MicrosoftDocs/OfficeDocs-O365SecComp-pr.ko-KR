@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Office 365 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
-ms.openlocfilehash: 02dae23b6489b40243272beea1d79e871ca6a911
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 15463ac841e2fbbafe1fe502657a659f4a9e1883
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260376"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34156410"
 ---
 # <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 태그 지정 및 평가
 

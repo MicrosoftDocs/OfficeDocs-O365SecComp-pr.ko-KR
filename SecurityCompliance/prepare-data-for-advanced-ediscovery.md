@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,13 +12,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
-description: 'Microsoft 365 보안 &amp; 및 준수 센터를 사용 하 여 office 365 Advanced eDiscovery로 analysis for office 365 데이터를 준비 하는 방법을 알아봅니다. '
-ms.openlocfilehash: d9d81c145a86075affd76761eb6dcff0f84a1eac
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 'Microsoft 365 보안 &amp; 및 준수 센터를 사용 하 여 Office 365 Advanced eDiscovery로 Analysis for office 365 데이터를 준비 하는 방법을 알아봅니다. '
+ms.openlocfilehash: be778acb3356071e9575ed708623a0b94e2b3c7a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265510"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157460"
 ---
 # <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에 대 한 데이터 준비
 
@@ -29,12 +29,12 @@ ms.locfileid: "32265510"
   
 ## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>1 단계: 고급 eDiscovery 용 Office 365 데이터 준비
 
-고급 eDiscovery를 사용 하 여 데이터를 분석 하기 위해 microsoft 365 보안 <b0></b0> <b2></b2> 및 준수 센터의 <b1>콘텐츠 검색</b1> 페이지에 나열 된 < 365 보안 준수 센터에서 실행 한 콘텐츠 검색의 결과를 사용할 수 있습니다. ediscovery 사례에 연결 된 검색 (보안 <b4></b4> 및 준수 센터의 <b3>ediscovery</b3> 페이지에 나열 됨) 
+고급 eDiscovery를 사용 하 여 데이터를 분석 하기 위해 microsoft 365 보안 <b0></b0> <b2></b2> 및 준수 센터의 <b1>콘텐츠 검색</b1> 페이지에 나열 된 < 365 보안 준수 센터에서 실행 한 콘텐츠 검색의 결과를 사용할 수 있습니다. eDiscovery 사례에 연결 된 검색 (보안 <b4></b4> 및 준수 센터의 <b3>ediscovery</b3> 페이지에 나열 됨) 
   
-고급 ediscovery에서 분석에 대 한 검색 결과를 준비 하는 방법에 대 한 자세한 단계는 [Office 365 Advanced eDiscovery에 대 한 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)를 참조 하세요.
+고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하는 방법에 대 한 자세한 단계는 [Office 365 Advanced eDiscovery에 대 한 검색 결과 준비](prepare-search-results-for-advanced-ediscovery.md)를 참조 하세요.
   
 > [!NOTE]
-> office 365 외부에 데이터가 있고이를 office 365로 가져와서 고급 eDiscovery에서이를 준비 하 고 분석할 수 있도록 하려면 office 365에서 [PST 파일을 office로 가져오기 개요](https://support.office.com/article/ba688e0a-0fcb-4bd7-8e57-2b669564ea84) 및 [타사 데이터 보관](https://go.microsoft.com/fwlink/p/?linkid=716918)을 참조 하세요. 
+> Office 365 외부에 데이터가 있고이를 office 365로 가져와서 고급 eDiscovery에서이를 준비 하 고 분석할 수 있도록 하려면 office 365에서 PST 파일을 365 office로 가져오기 개요 및 타사 데이터 보관을 참조 하세요. 
   
 ## <a name="step-2-load-search-result-data-in-to-a-case-in-advanced-ediscovery"></a>2 단계: Advanced eDiscovery에서 사례에 검색 결과 데이터 로드
 
@@ -50,7 +50,7 @@ ms.locfileid: "32265510"
     
 5. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery**를 클릭합니다. 
     
-    ![advanced ediscovery로 전환을 클릭 하 여 advanced ediscovery의 케이스 열기](media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
+    ![Advanced eDiscovery로 전환을 클릭 하 여 Advanced eDiscovery의 케이스 열기](media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   
     **고급 eDiscovery 진행률 표시줄에 연결 하** 는 중입니다. 고급 eDiscovery에 연결 되어 있는 경우 서비스 케이스의 설정 페이지에 컨테이너 목록이 표시 됩니다. 
     

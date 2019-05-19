@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 016b87388a17bc5cb01eb1a90d88aedb6e2e133c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 30697bfafdd7db69444b97345733f3d8ec5be92a
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243771"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34155170"
 ---
 # <a name="close-or-delete-a-case"></a>사례 닫기 또는 삭제
 
-eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다. 사례를 닫을 때 수행 되는 작업은 다음과 같습니다.
+EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다. 사례를 닫을 때 수행 되는 작업은 다음과 같습니다.
 
 - 대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다. 이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.
 
@@ -35,7 +35,7 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
 
 사례를 닫으려면:
 
-1. **고급 eDiscovery (미리 보기)** 페이지에서 해당 사례로 이동 합니다.
+1. **고급 eDiscovery** 페이지에서 해당 사례로 이동 합니다.
 
 2. **설정** 으로 이동 하 여 **사례 정보**를 선택 합니다. 
 
@@ -43,7 +43,7 @@ eDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
 
 사례를 삭제 하려면 다음을 수행 합니다.
 
-1. **고급 eDiscovery (미리 보기)** 페이지에서 해당 사례로 이동 합니다.
+1. **고급 eDiscovery** 페이지에서 해당 사례로 이동 합니다.
 
 2. **설정** 으로 이동 하 여 **사례 정보**를 선택 합니다. 
 
