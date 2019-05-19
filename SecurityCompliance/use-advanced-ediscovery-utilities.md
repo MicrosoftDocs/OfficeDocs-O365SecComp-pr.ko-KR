@@ -4,7 +4,7 @@ ms.author: chrfox
 author: chrfox
 manager: laurawi
 ms.date: 9/14/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,100 +13,100 @@ search.appverid:
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 Office 365 Advanced eDiscovery의 유틸리티에 대해 알아봅니다.  '
-ms.openlocfilehash: bd100883804b300e77abcc8a2224cf1a59b53475
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: df769ddddd37284da50bc715444f2bf928307706
+ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265360"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34157960"
 ---
-# <a name="use-office-365-advanced-ediscovery-utilities"></a><span data-ttu-id="bb174-103">Office 365 Advanced eDiscovery 유틸리티 사용</span><span class="sxs-lookup"><span data-stu-id="bb174-103">Use Office 365 Advanced eDiscovery utilities</span></span>
+# <a name="use-office-365-advanced-ediscovery-utilities"></a><span data-ttu-id="0d59a-103">Office 365 Advanced eDiscovery 유틸리티 사용</span><span class="sxs-lookup"><span data-stu-id="0d59a-103">Use Office 365 Advanced eDiscovery utilities</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="bb174-p101">Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
+> <span data-ttu-id="0d59a-p101">Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-p101">Advanced eDiscovery requires an Office 365 E3 with the Advanced Compliance add-on or an E5 subscription for your organization. If you don't have that plan and want to try Advanced eDiscovery, you can [sign up for a trial of Office 365 Enterprise E5](https://go.microsoft.com/fwlink/p/?LinkID=698279).</span></span> 
   
-<span data-ttu-id="bb174-106">고급 eDiscovery에서 표시 되 고 사용할 수 있는 유틸리티는 컨텍스트 및 사용자 역할에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-106">The utilities that are displayed and available in Advanced eDiscovery depend on context and user roles.</span></span>
+<span data-ttu-id="0d59a-106">고급 eDiscovery에서 표시 되 고 사용할 수 있는 유틸리티는 컨텍스트 및 사용자 역할에 따라 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-106">The utilities that are displayed and available in Advanced eDiscovery depend on context and user roles.</span></span>
   
-## <a name="case-log"></a><span data-ttu-id="bb174-107">사례 로그</span><span class="sxs-lookup"><span data-stu-id="bb174-107">Case log</span></span>
+## <a name="case-log"></a><span data-ttu-id="0d59a-107">사례 로그</span><span class="sxs-lookup"><span data-stu-id="0d59a-107">Case log</span></span>
 
-<span data-ttu-id="bb174-108">사례 로그에는 응용 프로그램 처리 작업의 세부 목록이 제공 되며,이 목록은 추적, 문제 해결 및 오류 및 경고 해결에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-108">The Case log provides a detailed list of application processing activities, which can be used for tracking, troubleshooting, and for addressing errors and warnings.</span></span> <span data-ttu-id="bb174-109">로그를 호스트 또는 서버에 로컬로 생성 및 저장 하거나 전자 메일 주소로 직접 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-109">The log can be generated and stored locally on the host or server, or sent directly to an email address.</span></span>
+<span data-ttu-id="0d59a-108">사례 로그에는 응용 프로그램 처리 작업의 세부 목록이 제공 되며,이 목록은 추적, 문제 해결 및 오류 및 경고 해결에 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-108">The Case log provides a detailed list of application processing activities, which can be used for tracking, troubleshooting, and for addressing errors and warnings.</span></span> <span data-ttu-id="0d59a-109">로그를 호스트 또는 서버에 로컬로 생성 및 저장 하거나 전자 메일 주소로 직접 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-109">The log can be generated and stored locally on the host or server, or sent directly to an email address.</span></span>
   
-<span data-ttu-id="bb174-110">또한 클라이언트 컴퓨터로 로그 파일을 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-110">The log file can also be downloaded to the client's computer.</span></span> <span data-ttu-id="bb174-111">구성 및 사용자 역할에 따라 클라이언트 다운로드 옵션을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-111">The client download option may be enabled or disabled according to configuration and user role.</span></span>
+<span data-ttu-id="0d59a-110">또한 클라이언트 컴퓨터로 로그 파일을 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-110">The log file can also be downloaded to the client's computer.</span></span> <span data-ttu-id="0d59a-111">구성 및 사용자 역할에 따라 클라이언트 다운로드 옵션을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-111">The client download option may be enabled or disabled according to configuration and user role.</span></span>
   
-1. <span data-ttu-id="bb174-112">메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-112">In the menu bar, click the **Cogwheel** icon.</span></span> 
+1. <span data-ttu-id="0d59a-112">메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-112">In the menu bar, click the **Cogwheel** icon.</span></span> 
     
-2. <span data-ttu-id="bb174-113">**설정 및 유틸리티 \> 유틸리티** 탭에서 \*\* \> 사례 로그 설치\*\*를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-113">In the **Settings and utilities \> Utilities** tab, select **Case log \> Setup**.</span></span>
+2. <span data-ttu-id="0d59a-113">**설정 및 유틸리티 \> 유틸리티** 탭에서 \*\* \> 사례 로그 설치\*\*를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-113">In the **Settings and utilities \> Utilities** tab, select **Case log \> Setup**.</span></span>
     
-3. <span data-ttu-id="bb174-114">**로그 수준을** 다음과 같이 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-114">Select the **Log level** as follows:</span></span> 
+3. <span data-ttu-id="0d59a-114">**로그 수준을** 다음과 같이 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-114">Select the **Log level** as follows:</span></span> 
     
-  - <span data-ttu-id="bb174-115">**Standard**: 기본 로그 데이터를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-115">**Standard**: Includes the basic log data.</span></span> <span data-ttu-id="bb174-116">이 옵션은 일반적으로 모니터링에 필요 하며 권장 하지 않으면 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-116">This option is usually necessary for monitoring, and should be used unless recommended otherwise.</span></span>
+  - <span data-ttu-id="0d59a-115">**Standard**: 기본 로그 데이터를 포함 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-115">**Standard**: Includes the basic log data.</span></span> <span data-ttu-id="0d59a-116">이 옵션은 일반적으로 모니터링에 필요 하며 권장 하지 않으면 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-116">This option is usually necessary for monitoring, and should be used unless recommended otherwise.</span></span>
     
-  - <span data-ttu-id="bb174-117">**최소**: 매우 큰 경우에 사용 하 고 최신 데이터만 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-117">**Minimal**: Used for very large cases, and returns only the latest data.</span></span>
+  - <span data-ttu-id="0d59a-117">**최소**: 매우 큰 경우에 사용 하 고 최신 데이터만 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-117">**Minimal**: Used for very large cases, and returns only the latest data.</span></span>
     
-4. <span data-ttu-id="bb174-118">**실행 사례 로그**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-118">Click **Run Case log**.</span></span> <span data-ttu-id="bb174-119">로그가 생성 되 고 경로가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-119">The log is generated and path is displayed.</span></span> <span data-ttu-id="bb174-120">작업 상태 창에 현재 작업과 마지막 작업에 대 한 작업 진행 정보를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-120">The task progress information for the current and last task is displayed in the Task status pane.</span></span>
+4. <span data-ttu-id="0d59a-118">**실행 사례 로그**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-118">Click **Run Case log**.</span></span> <span data-ttu-id="0d59a-119">로그가 생성 되 고 경로가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-119">The log is generated and path is displayed.</span></span> <span data-ttu-id="0d59a-120">작업 상태 창에 현재 작업과 마지막 작업에 대 한 작업 진행 정보를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-120">The task progress information for the current and last task is displayed in the Task status pane.</span></span>
     
-## <a name="clear-data"></a><span data-ttu-id="bb174-121">데이터 지우기</span><span class="sxs-lookup"><span data-stu-id="bb174-121">Clear data</span></span>
+## <a name="clear-data"></a><span data-ttu-id="0d59a-121">데이터 지우기</span><span class="sxs-lookup"><span data-stu-id="0d59a-121">Clear data</span></span>
 
-<span data-ttu-id="bb174-122">대/소문자 데이터를 삭제 하거나 다시 초기화 해야 하는 경우에는 데이터베이스 인스턴스가 초기화 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-122">If it is necessary to delete or reinitialize case data, the database instance must be initialized.</span></span> <span data-ttu-id="bb174-123">데이터 지우기 유틸리티가 사례 데이터베이스, 텍스트 파일, 사례 폴더 및 누적 결과에서 지정 된 모든 항목을 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-123">The Clear data utility deletes all specified entries from the case database, text files, case folder, and accumulated results.</span></span> <span data-ttu-id="bb174-124">이 함수는 관리자만 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-124">The function can only be performed by an administrator.</span></span>
+<span data-ttu-id="0d59a-122">대/소문자 데이터를 삭제 하거나 다시 초기화 해야 하는 경우에는 데이터베이스 인스턴스가 초기화 되어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-122">If it is necessary to delete or reinitialize case data, the database instance must be initialized.</span></span> <span data-ttu-id="0d59a-123">데이터 지우기 유틸리티가 사례 데이터베이스, 텍스트 파일, 사례 폴더 및 누적 결과에서 지정 된 모든 항목을 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-123">The Clear data utility deletes all specified entries from the case database, text files, case folder, and accumulated results.</span></span> <span data-ttu-id="0d59a-124">이 함수는 관리자만 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-124">The function can only be performed by an administrator.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="bb174-125">이 작업은 되돌릴 수 없으며, 전문가가 수행 하는 모든 관련성 태그 지정 및 분석의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-125">This action is not reversible and will clear all Relevance tagging and analysis performed by the expert.</span></span> <span data-ttu-id="bb174-126">필요한 경우 데이터 백업을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-126">Save a backup of data, if necessary.</span></span> <span data-ttu-id="bb174-127">이 옵션은 매우 주의 해 서 사용 하십시오.</span><span class="sxs-lookup"><span data-stu-id="bb174-127">Use this option with extreme care.</span></span> <span data-ttu-id="bb174-128">태그가 지정 되 고 순위 파일을 삭제 하면 관련성 결과에 영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-128">Deleting tagged and ranked files can impact the Relevance results.</span></span> 
+> <span data-ttu-id="0d59a-125">이 작업은 되돌릴 수 없으며, 전문가가 수행 하는 모든 관련성 태그 지정 및 분석의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-125">This action is not reversible and will clear all Relevance tagging and analysis performed by the expert.</span></span> <span data-ttu-id="0d59a-126">필요한 경우 데이터 백업을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-126">Save a backup of data, if necessary.</span></span> <span data-ttu-id="0d59a-127">이 옵션은 매우 주의 해 서 사용 하십시오.</span><span class="sxs-lookup"><span data-stu-id="0d59a-127">Use this option with extreme care.</span></span> <span data-ttu-id="0d59a-128">태그가 지정 되 고 순위 파일을 삭제 하면 관련성 결과에 영향을 줄 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-128">Deleting tagged and ranked files can impact the Relevance results.</span></span> 
   
-1. <span data-ttu-id="bb174-129">메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-129">In the menu bar, click the **Cogwheel** icon.</span></span> 
+1. <span data-ttu-id="0d59a-129">메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-129">In the menu bar, click the **Cogwheel** icon.</span></span> 
     
-2. <span data-ttu-id="bb174-130">**설정 및 유틸리티 \> 유틸리티** 탭에서 \*\* \> 데이터 설치 지우기\*\*를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-130">In the **Settings and utilities \> Utilities** tab, select **Clear data \> Setup**.</span></span>
+2. <span data-ttu-id="0d59a-130">**설정 및 유틸리티 \> 유틸리티** 탭에서 \*\* \> 데이터 설치 지우기\*\*를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-130">In the **Settings and utilities \> Utilities** tab, select **Clear data \> Setup**.</span></span>
     
-3. <span data-ttu-id="bb174-131">초기화할 정보에 대 한 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-131">Select an option for the information to initialize:</span></span>
+3. <span data-ttu-id="0d59a-131">초기화할 정보에 대 한 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-131">Select an option for the information to initialize:</span></span>
     
-  - <span data-ttu-id="bb174-132">**관련성**: 로드할 파일의 부하 및 연결에 대 한 정의를 포함 하 여 관련성에 대해 수행 된 모든 작업을 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-132">**Relevance**: Deletes all work done in Relevance, including definition of loads and association of files to loads.</span></span> <span data-ttu-id="bb174-133">모든 샘플과 태그를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-133">It deletes all samples and tagging.</span></span>
+  - <span data-ttu-id="0d59a-132">**관련성**: 로드할 파일의 부하 및 연결에 대 한 정의를 포함 하 여 관련성에 대해 수행 된 모든 작업을 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-132">**Relevance**: Deletes all work done in Relevance, including definition of loads and association of files to loads.</span></span> <span data-ttu-id="0d59a-133">모든 샘플과 태그를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-133">It deletes all samples and tagging.</span></span>
     
-  - <span data-ttu-id="bb174-134">**거의 중복 및 전자 메일 스레드**: 거의 모든 복제 및 전자 메일 스레드의 모든 분석 정보를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-134">**Near-duplicates and email threads**: Deletes all analysis information of near-duplicates and email threads.</span></span>
+  - <span data-ttu-id="0d59a-134">**거의 중복 및 전자 메일 스레드**: 거의 모든 복제 및 전자 메일 스레드의 모든 분석 정보를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-134">**Near-duplicates and email threads**: Deletes all analysis information of near-duplicates and email threads.</span></span>
     
-  - <span data-ttu-id="bb174-135">**themes**: 테마 관련 데이터를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-135">**Themes**: Deletes themes-related data.</span></span>
+  - <span data-ttu-id="0d59a-135">**Themes**: 테마 관련 데이터를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-135">**Themes**: Deletes themes-related data.</span></span>
     
-  - <span data-ttu-id="bb174-136">**기록 내보내기**: 내보내기 일괄 처리의 기록 정보를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-136">**Export history**: Deletes history information of Export batches.</span></span>
+  - <span data-ttu-id="0d59a-136">**기록 내보내기**: 내보내기 일괄 처리의 기록 정보를 삭제 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-136">**Export history**: Deletes history information of Export batches.</span></span>
     
-4. <span data-ttu-id="bb174-137">**데이터 지우기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-137">Click **Clear data**.</span></span> <span data-ttu-id="bb174-138">사례 데이터는 삭제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-138">The case data is cleared.</span></span> <span data-ttu-id="bb174-139">**작업 상태** 창에 현재 작업과 마지막 작업에 대 한 작업 진행 정보를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-139">The task progress information for the current and last task is displayed in the **Task status** pane.</span></span> 
+4. <span data-ttu-id="0d59a-137">**데이터 지우기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-137">Click **Clear data**.</span></span> <span data-ttu-id="0d59a-138">사례 데이터는 삭제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-138">The case data is cleared.</span></span> <span data-ttu-id="0d59a-139">**작업 상태** 창에 현재 작업과 마지막 작업에 대 한 작업 진행 정보를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-139">The task progress information for the current and last task is displayed in the **Task status** pane.</span></span> 
     
-## <a name="modify-relevance"></a><span data-ttu-id="bb174-140">관련성 수정</span><span class="sxs-lookup"><span data-stu-id="bb174-140">Modify Relevance</span></span>
+## <a name="modify-relevance"></a><span data-ttu-id="0d59a-140">관련성 수정</span><span class="sxs-lookup"><span data-stu-id="0d59a-140">Modify Relevance</span></span>
 
-<span data-ttu-id="bb174-141">이 섹션에서는 관련성 샘플을 건너뛰거나 롤백하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-141">This section describes how to skip or roll back a Relevance sample.</span></span>
+<span data-ttu-id="0d59a-141">이 섹션에서는 관련성 샘플을 건너뛰거나 롤백하는 방법에 대해 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-141">This section describes how to skip or roll back a Relevance sample.</span></span>
   
-1. <span data-ttu-id="bb174-142">메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-142">In the menu bar, click the **Cogwheel** icon.</span></span> 
+1. <span data-ttu-id="0d59a-142">메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-142">In the menu bar, click the **Cogwheel** icon.</span></span> 
     
-2. <span data-ttu-id="bb174-143">**설정 및 유틸리티 \> 유틸리티** 탭에서 **관련성 수정을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-143">In the **Settings and utilities \> Utilities** tab, select **Modify relevance**.</span></span>
+2. <span data-ttu-id="0d59a-143">**설정 및 유틸리티 \> 유틸리티** 탭에서 **관련성 수정을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-143">In the **Settings and utilities \> Utilities** tab, select **Modify relevance**.</span></span>
     
-3. <span data-ttu-id="bb174-144">다음 옵션 중에서 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-144">Select from the options:</span></span> 
+3. <span data-ttu-id="0d59a-144">다음 옵션 중에서 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-144">Select from the options:</span></span> 
     
-  - <span data-ttu-id="bb174-145">현재 **사용자에 대 한 현재 샘플 건너뛰기**: 유틸리티를 실행 하는 사용자의 open case 샘플에 있는 태그 없는 모든 파일을 **건너뛰기**와 같이 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-145">**Skip current sample - for current user**: This will tag, as **Skip**, all untagged files in the open case sample of the user running the utility.</span></span> <span data-ttu-id="bb174-146">**건너뛰기**로 태그가 지정 된 파일에 대해서는 관련성 처리가 수행 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-146">Relevance processing will not be performed on files tagged as **Skip**.</span></span>
+  - <span data-ttu-id="0d59a-145">현재 **사용자에 대 한 현재 샘플 건너뛰기**: 유틸리티를 실행 하는 사용자의 open case 샘플에 있는 태그 없는 모든 파일을 **건너뛰기**와 같이 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-145">**Skip current sample - for current user**: This will tag, as **Skip**, all untagged files in the open case sample of the user running the utility.</span></span> <span data-ttu-id="0d59a-146">**건너뛰기**로 태그가 지정 된 파일에 대해서는 관련성 처리가 수행 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-146">Relevance processing will not be performed on files tagged as **Skip**.</span></span>
     
-  - <span data-ttu-id="bb174-147">**현재 샘플 건너뛰기-모든 열린 샘플**:이 작업을 수행 하면 모든 사용자에 대해 열려 있는 모든 샘플에서 태그를 **제외**하 고 모든 태그가 태그로 바뀝니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-147">**Skip current sample - all open samples**: This will tag, as **Skip**, all untagged files in all open samples for all users.</span></span> <span data-ttu-id="bb174-148">사용자가 현재 샘플에 태그를 지정 하는 경우에는이 옵션을 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-148">This option is not recommended if users are currently tagging samples.</span></span>
+  - <span data-ttu-id="0d59a-147">**현재 샘플 건너뛰기-모든 열린 샘플**:이 작업을 수행 하면 모든 사용자에 대해 열려 있는 모든 샘플에서 태그를 **제외**하 고 모든 태그가 태그로 바뀝니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-147">**Skip current sample - all open samples**: This will tag, as **Skip**, all untagged files in all open samples for all users.</span></span> <span data-ttu-id="0d59a-148">사용자가 현재 샘플에 태그를 지정 하는 경우에는이 옵션을 사용할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-148">This option is not recommended if users are currently tagging samples.</span></span>
     
-  - <span data-ttu-id="bb174-149">**마지막으로 롤백하는 예제**: 마지막으로 완료 된 관련성 교육 샘플이 "Calculate" 프로세스 전후 인지 여부에 관계 없이 롤백됩니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-149">**Roll back last sample**: The last completed Relevance training sample will be rolled back, regardless of whether it is before or after the "Calculate" process.</span></span> <span data-ttu-id="bb174-150">보완 샘플의 롤백은 허용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-150">Rollback of a catch-up sample is not allowed.</span></span>
+  - <span data-ttu-id="0d59a-149">**마지막으로 롤백하는 예제**: 마지막으로 완료 된 관련성 교육 샘플이 "Calculate" 프로세스 전후 인지 여부에 관계 없이 롤백됩니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-149">**Roll back last sample**: The last completed Relevance training sample will be rolled back, regardless of whether it is before or after the "Calculate" process.</span></span> <span data-ttu-id="0d59a-150">보완 샘플의 롤백은 허용 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-150">Rollback of a catch-up sample is not allowed.</span></span>
     
-4. <span data-ttu-id="bb174-151">실행 하려면 **실행** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-151">Click **Execute** to run.</span></span> 
+4. <span data-ttu-id="0d59a-151">실행 하려면 **실행** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-151">Click **Execute** to run.</span></span> 
     
-## <a name="transparency-analysis"></a><span data-ttu-id="bb174-152">투명 한 분석</span><span class="sxs-lookup"><span data-stu-id="bb174-152">Transparency analysis</span></span>
+## <a name="transparency-analysis"></a><span data-ttu-id="0d59a-152">투명 한 분석</span><span class="sxs-lookup"><span data-stu-id="0d59a-152">Transparency analysis</span></span>
 
-<span data-ttu-id="bb174-153">투명 분석 유틸리티를 사용 하면 파일 및 할당 된 관련성 점수를 자세히 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-153">The Transparency analysis utility enables a detailed view of files and their assigned Relevance score.</span></span> <span data-ttu-id="bb174-154">보고서는 온전성 검사로 사용 하거나, 고급 eDiscovery에서 할당 된 관련성에 비해 인적 검토자가 정의한 파일의 관련성을 비교 하는 데 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-154">The report can be used as a sanity check or to compare the relevance of a file defined by a human reviewer as compared to the relevance assigned by Advanced eDiscovery.</span></span> 
+<span data-ttu-id="0d59a-153">투명 분석 유틸리티를 사용 하면 파일 및 할당 된 관련성 점수를 자세히 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-153">The Transparency analysis utility enables a detailed view of files and their assigned Relevance score.</span></span> <span data-ttu-id="0d59a-154">보고서는 온전성 검사로 사용 하거나, 고급 eDiscovery에서 할당 된 관련성에 비해 인적 검토자가 정의한 파일의 관련성을 비교 하는 데 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-154">The report can be used as a sanity check or to compare the relevance of a file defined by a human reviewer as compared to the relevance assigned by Advanced eDiscovery.</span></span> 
   
-<span data-ttu-id="bb174-155">관련성 점수 외에도 고급 eDiscovery는 키워드 컨텍스트를 고려 하는 키워드 가중치를 계산 하 고 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-155">In addition to Relevance scores, Advanced eDiscovery calculates and assigns keyword weights that consider the keyword context.</span></span> <span data-ttu-id="bb174-156">컨텍스트 및 위치에 따라 파일에서 같은 단어에 서로 다른 가중치를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-156">The same word in a file can be assigned different weights, depending on context and location.</span></span> <span data-ttu-id="bb174-157">각 키워드는 노란색에서 진한 주황 사이의 다양 한 색 농도를 사용 하 여 표시 되며 회색 음영에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-157">Each keyword is marked using an increasing scale of color intensity ranging from yellow to dark orange and varying shades of gray.</span></span> <span data-ttu-id="bb174-158">색 구분을 사용 하 여 관련성 점수에 대 한 단어의 상대 긍정 또는 부정적 기여도를 시각적으로 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-158">Color coding is used to visually indicate the word's relative positive or negative contribution to the Relevance score.</span></span> 
+<span data-ttu-id="0d59a-155">관련성 점수 외에도 고급 eDiscovery는 키워드 컨텍스트를 고려 하는 키워드 가중치를 계산 하 고 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-155">In addition to Relevance scores, Advanced eDiscovery calculates and assigns keyword weights that consider the keyword context.</span></span> <span data-ttu-id="0d59a-156">컨텍스트 및 위치에 따라 파일에서 같은 단어에 서로 다른 가중치를 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-156">The same word in a file can be assigned different weights, depending on context and location.</span></span> <span data-ttu-id="0d59a-157">각 키워드는 노란색에서 진한 주황 사이의 다양 한 색 농도를 사용 하 여 표시 되며 회색 음영에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-157">Each keyword is marked using an increasing scale of color intensity ranging from yellow to dark orange and varying shades of gray.</span></span> <span data-ttu-id="0d59a-158">색 구분을 사용 하 여 관련성 점수에 대 한 단어의 상대 긍정 또는 부정적 기여도를 시각적으로 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-158">Color coding is used to visually indicate the word's relative positive or negative contribution to the Relevance score.</span></span> 
   
-<span data-ttu-id="bb174-159">여러 문제를 해결 하는 시나리오에서는 각 문제에 대해 투명 한 분석 보고서가 생성 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-159">In a multiple-issue case scenario, a Transparency analysis report can be generated for each issue.</span></span>
+<span data-ttu-id="0d59a-159">여러 문제를 해결 하는 시나리오에서는 각 문제에 대해 투명 한 분석 보고서가 생성 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-159">In a multiple-issue case scenario, a Transparency analysis report can be generated for each issue.</span></span>
   
-1. <span data-ttu-id="bb174-160">메뉴 모음에서 **cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-160">In the menu bar, click the **Cogwheel** icon.</span></span> 
+1. <span data-ttu-id="0d59a-160">메뉴 모음에서 **Cogwheel** 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-160">In the menu bar, click the **Cogwheel** icon.</span></span> 
     
-2. <span data-ttu-id="bb174-161">**설정 및 유틸리티 \> 유틸리티** 탭에서 \*\* \> 투명 분석 설정을\*\*선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-161">In the **Settings and utilities \> Utilities** tab, select **Transparency analysis \> Setup**.</span></span>
+2. <span data-ttu-id="0d59a-161">**설정 및 유틸리티 \> 유틸리티** 탭에서 \*\* \> 투명 분석 설정을\*\*선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-161">In the **Settings and utilities \> Utilities** tab, select **Transparency analysis \> Setup**.</span></span>
     
-3. <span data-ttu-id="bb174-162">\* \* 파일 id \* \*에서 처리할 파일의 파일 id를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-162">In \*\* File ID \*\*, enter the file ID of the file to process.</span></span>
+3. <span data-ttu-id="0d59a-162">\* \* 파일 ID \* \*에서 처리할 파일의 파일 ID를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-162">In \*\* File ID \*\*, enter the file ID of the file to process.</span></span>
     
-4. <span data-ttu-id="bb174-163">**문제점** 목록에서 관련 문제를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-163">In the **Issue** list, select the pertinent issue.</span></span> 
+4. <span data-ttu-id="0d59a-163">**문제점** 목록에서 관련 문제를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-163">In the **Issue** list, select the pertinent issue.</span></span> 
     
-5. <span data-ttu-id="bb174-164">**투명도 분석**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-164">Click **Transparency analysis**.</span></span> <span data-ttu-id="bb174-165">완료 되 면 파일에 대 한 투명도 분석 보고서가 표시 되어 표시 된 키워드 색상이 전체 관련성 점수와 어떻게 상호 연관 되는지 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="bb174-165">Upon completion, the Transparency analysis report for the file is displayed, which shows how the marked keyword colors correlate to the overall Relevance score.</span></span>
+5. <span data-ttu-id="0d59a-164">**투명도 분석**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-164">Click **Transparency analysis**.</span></span> <span data-ttu-id="0d59a-165">완료 되 면 파일에 대 한 투명도 분석 보고서가 표시 되어 표시 된 키워드 색상이 전체 관련성 점수와 어떻게 상호 연관 되는지 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="0d59a-165">Upon completion, the Transparency analysis report for the file is displayed, which shows how the marked keyword colors correlate to the overall Relevance score.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="bb174-166">참고 항목</span><span class="sxs-lookup"><span data-stu-id="bb174-166">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d59a-166">참고 항목</span><span class="sxs-lookup"><span data-stu-id="0d59a-166">See also</span></span>
 
-[<span data-ttu-id="bb174-167">Office 365 Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="bb174-167">Office 365 Advanced eDiscovery</span></span>](office-365-advanced-ediscovery.md)
+[<span data-ttu-id="0d59a-167">Office 365 Advanced eDiscovery</span><span class="sxs-lookup"><span data-stu-id="0d59a-167">Office 365 Advanced eDiscovery</span></span>](office-365-advanced-ediscovery.md)
   
-[<span data-ttu-id="bb174-168">사례 및 테 넌 트 설정 정의</span><span class="sxs-lookup"><span data-stu-id="bb174-168">Defining case and tenant settings</span></span>](define-case-and-tenant-settings-in-advanced-ediscovery.md)
+[<span data-ttu-id="0d59a-168">사례 및 테 넌 트 설정 정의</span><span class="sxs-lookup"><span data-stu-id="0d59a-168">Defining case and tenant settings</span></span>](define-case-and-tenant-settings-in-advanced-ediscovery.md)
 
