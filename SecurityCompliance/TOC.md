@@ -1,3 +1,5 @@
+# [보안 및 규정 준수](index.md)
+
 # 시작
 ## [Office 365 보안 로드맵](security-roadmap.md)
 ## [보안 강화를 위해 Office 365 테넌트 구성](tenant-wide-setup-for-increased-security.md)
@@ -185,7 +187,8 @@
 ### [네트워크 업로드를 사용하여 RMS 암호화 PST 파일 가져오기](use-network-upload-to-import-rms-encrypted-pst-files.md)
 ### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
 ### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
-#### [타사 데이터 보관에 샘플 커넥터 사용](archive-third-party-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Twitter 데이터 보관 ](archive-twitter-data-with-sample-connector.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
@@ -201,7 +204,8 @@
 ### [이벤트 기반 보존](event-driven-retention.md)
 ### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ## [데이터 삭제](disposition-reviews.md)
-## [커뮤니케이션 관리](supervision-policies.md)
+## 커뮤니케이션 관리
+### [정책 감독](supervision-policies.md)
 ### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [비활성 사서함 관리](inactive-mailboxes-in-office-365.md)
 ### [비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)
