@@ -9,19 +9,22 @@ ms.author: ellevin
 author: levinec
 manager: dansimp
 audience: ITPro
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
 ms.topic: article
-search.appverid: met150
-ms.openlocfilehash: fa76e2edd3f66595a47fb511881f15c07b441c77
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+search.appverid:
+- MOE150
+- MET150
+ms.openlocfilehash: 1c47ec8e75fb712900fd1e459b7cfd73bb071ac4
+ms.sourcegitcommit: 1021ab534b3bc3c8684e42f67d11711f6765567e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32252322"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34334546"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
-microsoft 365 보안 센터에서 microsoft 보안 점수를 사용 하 여 조직의 보안 상태에 대 한 가시성과 제어를 향상 시킬 수 있습니다. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다.
+Microsoft 365 보안 센터에서 Microsoft 보안 점수를 사용 하 여 조직의 보안 상태에 대 한 가시성과 제어를 향상 시킬 수 있습니다. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다.
 
 Microsoft 보안 점수는 강력한 시각화, 다른 Microsoft 제품과의 통합, 다른 회사와의 점수 비교, 범주별 필터링 등을 제공 합니다. 이 도구를 사용 하 여 조직 내에서 보안 개선 작업을 완료 하 고 점수 기록을 추적할 수 있습니다. 또한이 점수는 타사 솔루션에서 권장 되는 개선 작업을 해결 한 경우에도 반영 될 수 있습니다.  
 
@@ -39,11 +42,11 @@ Microsoft 보안 점수는 강력한 시각화, 다른 Microsoft 제품과의 �
 
 ## <a name="rich-experiences--additional-security-recommendations"></a>추가 보안 권장 사항을 & 하는 다양 한 환경
 
-Microsoft 보안 점수가 azure AD, Intune 및 Cloud App Security에서 권장 사항이 추가 되었으며 azure 보안 센터 및 Windows Defender ATP의 권장 사항이 제공 됩니다. 또한 Office 365 보안 권장 사항도 추가 되었습니다. 보다 광범위 한 Microsoft 제품 및 서비스 집합에 대 한 추가 통찰력과 가시성을 통해 조직의 보안 상태에 대 한 관리를 확실 하 게 보고할 수 있습니다. [Microsoft Graph API](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)를 사용 하 여 점수를 얻을 수도 있습니다.
+Microsoft 보안 점수가 azure AD, Intune 및 Cloud App Security에서 권장 사항이 추가 되었으며 Azure 보안 센터 및 Windows Defender ATP의 권장 사항이 제공 됩니다. 또한 Office 365 보안 권장 사항도 추가 되었습니다. 보다 광범위 한 Microsoft 제품 및 서비스 집합에 대 한 추가 통찰력과 가시성을 통해 조직의 보안 상태에 대 한 관리를 확실 하 게 보고할 수 있습니다. [Microsoft GRAPH API](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)를 사용 하 여 점수를 얻을 수도 있습니다.
 
 필요한 정보를 보다 신속 하 게 지원 하기 위해 Microsoft 추천은 그룹으로 구성 됩니다.
 
-* id (Azure AD 계정 및 역할의 보호 상태)
+* Id (Azure AD 계정 및 역할의 보호 상태)
 * 데이터 (Office 365 문서의 보호 상태)
 * 장치 (장치의 보호 상태) 곧 출시 될 Windows Defender ATP 향상 작업
 * 앱 (전자 메일 및 클라우드 앱의 보호 상태)
@@ -80,10 +83,14 @@ Microsoft 보안 점수에 의해 [점수 없음] 레이블이 지정 된 작업
 
 점수는 하루에 한 번 계산 됩니다 (1:00 AM PST 기준). 측정 된 작업을 변경 하면 점수가 다음 날에 자동으로 업데이트 됩니다. 또한 일부 다른 포털에는 Microsoft 보안 점수 (예: Windows Defender 보안 센터)의 일부가 표시 된다는 점에 유의 해야 합니다. 개선 작업을 완료 하 고 해당 포털에서 점수가 증가 하는 경우 업데이트 된 점수가 Microsoft 365 보안 센터에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다.  
 
+## <a name="how-controls-are-scored"></a>컨트롤 점수 조절 방법
+
+컨트롤의 점수를 두 가지 방식으로 지정할 수 있습니다. 일부는 이진 방식으로 점수가 매겨집니다. 권장 사항에 따라 기능이 나 설정을 구성한 경우에는 점수가 100% 인 점수를 얻게 됩니다. 다른 점수는 전체 구성에 대 한 백분율로 계산 됩니다. 예를 들어, 모든 사용자가 MFA를 사용 하 여 보호 하 고 5 중 100 명의 전체 사용자를 보호 하는 경우, 개선 권장 사항이 30 포인트에 해당 하는 경우 부분적인 점수가 두 점 (5 개의 protected/100 total * 30 최대 포인트 = 2 포인트)로 지정 됩니다. . 
+
 ## <a name="risk-awareness"></a>위험 인식
 
 Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 한 보안 환경을 나타내는 수치 요약입니다. 시스템 또는 데이터를 얼마나 많이 침해 해야 하는지 절대 측정 한 것은 아닙니다. 대신 Microsoft 환경에서 보안 제어를 채택 하는 범위를 나타내므로 위반 위험을 상쇄 하는 데 도움이 될 수 있습니다. 보안 침해에의 한 온라인 서비스에는 전혀 문제가 되지 않으며 보안 점수가 보안상 침해에 대 한 보장으로 해석 되어서는 안 됩니다.
 
 ## <a name="we-want-to-hear-from-you"></a>사용자의 의견을 듣고 싶습니다.
 
-문제가 있는 경우 [Security, 개인정보 보호 정책 & 준수](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티에 게시를 통해 의견을 보내 주시기 바랍니다. 당사는 커뮤니티를 모니터링 하 고 도움이 될 것입니다.
+문제가 있는 경우 [Security, 개인정보 보호 정책 _AMP_ 준수](https://techcommunity.microsoft.com/t5/Security-Privacy-Compliance/bd-p/security_privacy) 커뮤니티에 게시를 통해 의견을 보내 주시기 바랍니다. 당사는 커뮤니티를 모니터링 하 고 도움이 될 것입니다.
