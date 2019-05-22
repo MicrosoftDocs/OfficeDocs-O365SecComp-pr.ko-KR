@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: ad94a2953b6fd53612b2fc15038a7157e97f3b39
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 92458a93a4da3e449061e4d2a4ba312d635c42cc
+ms.sourcegitcommit: 7f00f765e8fa674ce1c8c66f5b89b6bea45e13ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157990"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34341626"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -55,26 +55,6 @@ Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 �
 
 인증에 실패 한 모든 메시지는 악성이 아닙니다. 그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다. 또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.
 
-### <a name="the-senders-address-is-different-than-what-appears-in-the-from-address"></a>보낸 사람의 주소가 보낸 사람 주소에 표시 되는 주소와 다릅니다.
-
-메시지에 표시 되는 전자 메일 주소가 보낸 사람 주소에 표시 되는 것과 다른 경우가 많습니다. 때로는 보낸 사람이 실제 사용자가 아닌 다른 사람 이라고 생각 하는 것을 phishers 합니다.
-
-웹에서 Outlook.com 및 Outlook이 보낸 사람의 실제 주소와 주소 간의 차이를 감지 하면 받는 사람 태그를 사용 하 여 해당 사용자에 게 밑줄이 그어져 있는 실제 보낸 사람이 표시 됩니다.
-
-![확인 되지 않은 보낸 사람 대체 텍스트](media/unverified-sender-feature1.png)
-
-이 예에서는 보내는 도메인이 `suspicious.com` 인증 되지만 보낸 사람은 보낸 사람 주소에 추가 `unknown@contoso.com` 됩니다.
-
-Via 태그를 포함 하는 모든 메시지를 의심 하지 않습니다. 그러나 via 태그가 있는 메시지를 모르는 경우에는 해당 태그와 상호 작용 하는 것이 조심 해야 합니다.
-
-Outlook.com 및 웹용 새 Outlook에서는 메시지를 열지 않고도 메시지 목록에 있는 보낸 사람의 이름이 나 주소에 커서를 올려 놓아 해당 전자 메일 주소를 볼 수 있습니다.
-
-![OneDrive 시작](media/get-started-with-onedrive-message.png)
-
-웹에서 새 Outlook을 사용 하 고 있는지 어떻게 알 수 있나요? 다음 예제를 참조 하세요.
-
-![Outlook vs Office 365](media/outlook-vs-outlook365.png)
-
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a>Outlook.com 및 웹용 Outlook에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?
@@ -83,11 +63,7 @@ Outlook.com 및 웹용 새 Outlook에서는 메시지를 열지 않고도 메시
 
 Via 태그의 경우: 보낸 사람 주소에 있는 도메인이 DKIM 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (DKIM 서명 우선).
 
-### <a name="can-i-override-these-properties-with-ip-allows-exchange-transport-rule-allows-or-safe-senders"></a>IP 허용, Exchange 전송 규칙 허용 또는 수신 허용-보낸 사람을 사용 하 여 이러한 속성을 다시 정의할 수 있습니까?
-
-이러한 속성은 재정의할 수 없습니다.
-
-### <a name="how-do-i-remove-these-properties"></a>이러한 속성을 제거 하려면 어떻게 해야 합니까?
+### <a name="how-do-i-remove-the-"></a>'? '를 제거 하려면 어떻게 해야 합니까?
 
 보낸 사람 이미지의 '? '에 대해 보낸 사람으로 서 SPF 또는 DKIM 중 하나를 사용 하 여 메시지를 인증 해야 합니다.
 

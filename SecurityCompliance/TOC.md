@@ -164,6 +164,7 @@
 ## [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
 # 레코드 관리
+## [레코드 관리](records-management.md)
 ## 파일 플랜
 ### [파일 플랜 관리자](file-plan-manager.md)
 ### [보존 레이블](labels.md)
