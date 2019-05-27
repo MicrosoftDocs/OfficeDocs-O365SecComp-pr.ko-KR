@@ -100,7 +100,7 @@
 #### [위협 조사 및 응답을 활용하여 사용자 안전 보장](keep-users-safe-with-office-365-ti.md)
 #### [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
 ### [자동화된 조사 및 응답](automated-investigation-response-office.md)
-### [위협 탐색기](use-explorer-in-security-and-compliance.md)
+### [위협 탐색기 및 실시간 검출](threat-explorer.md)
 #### [위협 탐색기 보기](threat-explorer-views.md)
 ### [위협 트래커](threat-trackers.md)
 ### [Office 365의 공격 시뮬레이터](attack-simulator.md)
