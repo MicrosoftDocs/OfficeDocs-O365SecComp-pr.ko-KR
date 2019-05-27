@@ -17,12 +17,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: 80a6631079a68fd2a7fa3ac6d256e1e36556e642
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e6faef4c123ea2db38a27b49ff0ee49b237ec75c
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155960"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408353"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -64,7 +64,7 @@ Office 365에서는 매일 실시간으로 스팸 방지 엔진 및 맬웨어 �
 
 ## <a name="to-see-if-zap-moved-your-message"></a>메시지가 ZAP에서 이동 된 것을 확인 하려면
 
-ZAP에서 메시지를 이동 했는지 확인 하려면 [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report) ( [위협 탐색기](use-explorer-in-security-and-compliance.md))를 사용 합니다.
+ZAP에서 메시지를 이동 했는지 확인 하려면 [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report) 또는 [위협 탐색기 (및 실시간 검색)](threat-explorer.md)를 사용할 수 있습니다.
 
 ## <a name="to-disable-zap"></a>ZAP을 사용 하지 않도록 설정 하려면
   

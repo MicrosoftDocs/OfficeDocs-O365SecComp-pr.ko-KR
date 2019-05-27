@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 04/01/2019
+ms.date: 05/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3525c71f8a627d930afbf94f5f0d12e55f19a0b6
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 6bf8c3222b0ce4cecd1b14f407f7e9ee42783a75
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077324"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408403"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -28,11 +28,20 @@ ms.locfileid: "34077324"
   
 ![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
-ATP 보고서에는 [위협 보호 상태 보고서](#threat-protection-status-report), [atp 파일 형식 보고서](#atp-file-types-report)및 [ATP 메시지 처리 보고서](#atp-message-disposition-report)가 포함 됩니다. 이 문서에서는 ATP 보고서에 대해 설명 하 고 [확인할 추가 보고서](#additional-reports-to-view)에 대 한 링크를 제공 합니다.
+ATP 보고서에는 다음이 포함 됩니다.
+- [위협 방지 상태 보고서](#threat-protection-status-report)
+- [ATP 파일 형식 보고서](#atp-file-types-report)
+- [ATP 메시지 처리 보고서](#atp-message-disposition-report)
+- [실시간 검색 또는 탐색기](threat-explorer.md) (OFFICE 365 ATP 계획 1 또는 2 중 어떤 것이 있는지에 따라 다름)
+- ... [등](#additional-reports-to-view)이 있습니다. 
+
+이 문서를 읽으면 ATP 보고서에 대 한 개요를 확인 하 고 사용 하는 방법을 확인할 수 있습니다.
   
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지 상태** 보고서는 EOP ( [Exchange Online Protection](eop/exchange-online-protection-overview.md) ) 및 [Office 365 ATP](office-365-atp.md)에 의해 감지 되어 차단 된 악의적인 콘텐츠와 악성 전자 메일에 대 한 정보를 함께 가져오는 단일 보기입니다. 이 보고서는 맬웨어 방지 엔진, [0 시간 자동 제거 (ZAP)](zero-hour-auto-purge.md)및 atp (전송 안전한 [링크](atp-safe-links.md), [atp 안전)에 의해 차단 되는 악의적인 콘텐츠 (파일 또는 웹 사이트 주소 (url))의 집계 된 고유 전자 메일 메시지 수를 제공 합니다. 첨부 파일](atp-safe-attachments.md)및 [ATP 피싱 방지 기능](atp-anti-phishing.md)
+**위협 방지 상태** 보고서는 EOP ( [Exchange Online Protection](eop/exchange-online-protection-overview.md) ) 및 [Office 365 ATP](office-365-atp.md)에 의해 감지 되어 차단 된 악의적인 콘텐츠와 악성 전자 메일에 대 한 정보를 함께 가져오는 단일 보기입니다. 이 보고서는 시간에 따른 검색 (최대 90 일)을 확인 하는 데 유용 하며, 보안 관리자는 경향을 식별 하거나 정책 조정이 필요한 지 여부를 결정할 수 있습니다. 
+
+위협 방지 상태 보고서는 맬웨어 방지 엔진에 의해 차단 된 파일 또는 웹 사이트 주소 (Url), 예: [제로 시간 자동 제거 (ZAP)](zero-hour-auto-purge.md)및 ATP 기능을 통해 고유한 전자 메일 메시지의 집계 개수를 제공 합니다. [Atp 안전한 링크](atp-safe-links.md), [Atp 안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지 기능](atp-anti-phishing.md) 
 
 > [!NOTE]
 > [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP)이 있는 고객은 위협 보호 상태 보고서를 사용할 수 있습니다. 그러나 ATP 고객에 대 한 위협 방지 상태 보고서에 표시 되는 정보에는 고객에 게 표시 될 수 있는 것과 다른 데이터가 포함 될 가능성이 EOP. 예를 들어 ATP 고객에 대 한 위협 방지 상태 보고서에는 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보가 포함 됩니다. 이러한 정보는 ATP와 관련 된 것 이므로, EOP가 아닌 고객은 위협 보호 상태 보고서에 해당 세부 정보를 볼 수 없습니다.
@@ -45,7 +54,7 @@ ATP 보고서에는 [위협 보호 상태 보고서](#threat-protection-status-r
   
 ![ATP 위협 방지 상태 데이터 (일)](media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
   
-기본적으로 위협 방지 상태 보고서에는 최근 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 선택 하 고 날짜 범위를 변경 하 여 데이터를 최대 90 일까 지 확인할 수 있습니다. 
+기본적으로 위협 방지 상태 보고서에는 최근 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 선택 하 고 날짜 범위를 변경 하 여 데이터를 최대 90 일까 지 확인할 수 있습니다. 평가판 구독을 사용 하는 경우에는 30 일간의 데이터를 제한할 수 있습니다.
   
 ![ATP 위협 방지 상태 필터](media/4f703369-642b-402b-9758-b9c828283410.png)
   
@@ -83,9 +92,9 @@ ATP 보고서에는 [위협 보호 상태 보고서](#threat-protection-status-r
 
 |보고서  |세부 정보  |
 |---------|---------|
-|**ATP 안전한 링크 URL 추적** (PowerShell을 사용 하 여 생성 하는 보고서입니다.) 이 보고서는 지난 7 일 동안 ATP 안전한 링크 작업의 결과를 보여 줍니다. |[Get-UrlTrace cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace?view=exchange-ps) |
+|**탐색기** 또는 **실시간** 검색 (Office 365 ATP 계획 2 고객에 게 탐색기가 있습니다. Office 365 ATP 계획 1 고객은 실시간 검색을 합니다.| [위협 탐색기 (및 실시간 검색)](threat-explorer.md)       |
 |상위 보낸 사람 및 받는 사람 보고서, 스푸핑 메일 보고서, 스팸 감지 보고서 등의 **전자 메일 보안 보고서** | [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)        |
-|**탐색기** (위협 탐색기 라고도 하며,이는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에 포함 되어 있습니다.)     | [보안 &amp; 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)        |
+|**ATP 안전한 링크 URL 추적** (PowerShell을 사용 하 여 생성 하는 보고서입니다.) 이 보고서는 지난 7 일 동안 ATP 안전한 링크 작업의 결과를 보여 줍니다. |[Get-UrlTrace cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-urltrace?view=exchange-ps) |
 |**EOP 및 ATP 결과** (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서입니다.) 이 보고서에는 도메인, 날짜, 이벤트 유형, 방향, 동작 및 메시지 수와 같은 정보가 포함 됩니다.  | [MailTrafficATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-mailtrafficatpreport?view=exchange-ps) |
 |**EOP 및 ATP** 검색 (PowerShell을 사용 하 여 생성 하는 사용자 지정 보고서입니다.) 이 보고서에는 악성 파일 또는 Url, 피싱 시도, 가장 및 기타 잠재적 위협 (전자 메일 또는 파일)에 대 한 자세한 정보가 포함 되어 있습니다.   | [MailDetailATPReport cmdlet 참조](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-maildetailatpreport?view=exchange-ps)        |
 

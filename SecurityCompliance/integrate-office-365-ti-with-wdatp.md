@@ -15,12 +15,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Windows Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: f6ea4309d3eb7a4ccd4987d221398d0f15994388
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 8fbbc8beeeba6cfee0e87ee44f99819094d5569e
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077254"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408273"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-windows-defender-advanced-threat-protection"></a>Windows Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합
 
@@ -38,7 +38,7 @@ ms.locfileid: "34077254"
     
 - 보안 및 [ &amp; 준수 센터](https://protection.office.com)에서 Office 365 전역 관리자 이거나 보안 관리자 역할 (예: 보안 관리자)을 할당 받아야 합니다. ( [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)참조)
     
-- 보안 & 준수 센터 및 Windows Defender Advanced Threat Protection 포털에서 Office 365 위협 탐색기에 모두 액세스할 수 있어야 합니다.
+- 보안 & 준수 센터 및 Windows Defender Advanced Threat Protection 포털에서 두 [탐색기 (또는 실시간 검색)](threat-explorer.md) 에 액세스할 수 있어야 합니다.
     
 ## <a name="to-integrate-office-365-advanced-threat-protection-with-windows-defender-atp"></a>Windows Defender ATP를 사용 하 여 Office 365 Advanced Threat Protection을 통합 하려면
 

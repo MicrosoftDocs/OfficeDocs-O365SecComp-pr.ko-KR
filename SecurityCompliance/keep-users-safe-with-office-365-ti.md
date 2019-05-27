@@ -15,12 +15,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 51d776fe2ed5957016028451c1f7dcd1812973c3
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 6cd1a2add3300dad6d869de82d1a1616298fc635
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077264"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408283"
 ---
 # <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Office 365 사용자에 게 Office 365 위협 조사 및 응답 기능을 안전 하 게 유지
 
@@ -37,7 +37,7 @@ ms.locfileid: "34077264"
   
 ## <a name="detect-intrusions-and-threats"></a>침입 및 위협 감지
 
-[탐색기](use-explorer-in-security-and-compliance.md) (위협 탐색기 라고도 함) 보안 관리자 및 분석가가 가장 복잡 한 보안 설정을 안전한 것 처럼 겉보기에 걸어도 워크플로가 바이패스 수 있으므로 엔터프라이즈에서 활성 상태인 위협을 식별 하 고 이해 하는 데 도움이 됩니다. 보낸 사람 whitelists Explorer에서는 Office 365 글로벌 또는 보안 관리자가 사용자가 맬웨어 또는 피싱 같은 위협에 의해 손상 되었는지 여부를 빠르게 확인할 수 있도록 지원 합니다. 이를 통해 위협 및 필수 응답에 대 한 위험성이 가장 많은 사용자를 우선 순위를 지정할 수 있습니다. 
+[위협 탐색기 (또는 실시간 검색)](threat-explorer.md) (위협 탐색기 라고도 함) 보안 관리자 및 분석가가 가장 복잡 한 보안 설정을 안전한 것 처럼 겉보기에 걸어도 워크플로가 바이패스 수 있으므로 엔터프라이즈에서 활성 상태인 위협을 식별 하 고 이해 하는 데 도움이 됩니다. 보낸 사람 whitelists Explorer에서는 Office 365 글로벌 또는 보안 관리자가 사용자가 맬웨어 또는 피싱 같은 위협에 의해 손상 되었는지 여부를 빠르게 확인할 수 있도록 지원 합니다. 이를 통해 위협 및 필수 응답에 대 한 위험성이 가장 많은 사용자를 우선 순위를 지정할 수 있습니다. 
   
 또한 Explorer는 관리자가 사용자와 메일 간의 관계를 탐색 하도록 도와줍니다. 손상 된 특정 메일 확인 이를 검색 하 여 사용자가 메일을 받은 사람을 확인 한 다음 이벤트 시리즈를 따르고 해당 사용자가 수행 하는 작업을 확인 합니다.
 

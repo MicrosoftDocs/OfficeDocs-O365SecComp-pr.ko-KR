@@ -12,12 +12,12 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: 피싱 방지 보호 (Office 365 Advanced Threat Protection의 일부로, 포괄적인 보호 기능이 있는 Office 365 Exchange Online Protection의 기본 보호 기능)은 악의적인 가장 기반 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. 기타 피싱 공격이 있습니다.
-ms.openlocfilehash: cabcc4ab6401f2ebfdbf0c849df4da6a7691b6b8
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: ebe1d4322151c1828f662ca0bf1bd495e808093d
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077214"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408373"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -142,8 +142,8 @@ Contoso의 보안 관리자는 이러한 요구를 충족 하는 피싱 방지 �
 
 피싱 방지 정책이 마련 되 면 보고서를 확인 하 여 위협 방지 기능이 조직에 어떻게 작동 하는지 확인할 수 있습니다. 자세히 알아보려면 다음 리소스를 참조 하세요.
 
-- [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md) 또는 [전자 메일 보안 보고서 보기](view-email-security-reports.md)
+- [Office 365 ATP에 대 한 보고서 보기](view-reports-for-atp.md) 또는 [전자 메일 보안 보고서 보기](view-email-security-reports.md)
 
-- [Explorer (위협 탐색기 라고도 함) 사용](use-explorer-in-security-and-compliance.md)
+- [위협 탐색기 (또는 실시간 검색) 사용](threat-explorer.md)
 
 ATP에 게 제공 되는 새로운 기능에 대해서는 계속 제공 합니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 방문 하 여 [ATP에 추가 되는 새로운 기능](office-365-atp.md#new-features-in-office-365-atp)에 대해 알아보세요.

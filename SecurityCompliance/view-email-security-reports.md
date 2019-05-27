@@ -3,8 +3,8 @@ title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 05/13/2019
-ms.audience: ITPro
+ms.date: 05/21/2019
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
-description: Office 365 Enterprise를 사용 하 여 조직에 대 한 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 4271f26c0d8a0a9a5bd4085e38daaabcc375512c
-ms.sourcegitcommit: 7ad5618db6004757599d8b7c153fdb6ab3ba3f6e
+description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
+ms.openlocfilehash: 1dc009260e80c2aca1c5107d1c5f116ec63dd94f
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970259"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408413"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -65,7 +65,7 @@ ms.locfileid: "33970259"
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
-**위협 방지 상태** 보고서는 Exchange Online Protection에서 검색 하 여 차단한 악성 전자 메일을 보여 주는 스마트 보고서입니다. 이 보고서에는 맬웨어가 나 피싱 시도로 식별 된 전자 메일에 대 한 정보가 표시 됩니다. 
+**위협 방지 상태** 보고서는 Exchange Online Protection에서 검색 하 여 차단한 악성 전자 메일을 보여 주는 스마트 보고서입니다. 이 보고서는 맬웨어 또는 시간에 따른 피싱 시도 (최대 90 일)로 식별 된 전자 메일을 확인 하는 데 유용 하며, 보안 관리자가 경향을 식별 하거나 정책 조정이 필요한 지 여부를 결정할 수 있습니다.
 
 > [!NOTE]
 > [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](eop/exchange-online-protection-eop.md) (EOP)이 있는 고객은 위협 보호 상태 보고서를 사용할 수 있습니다. 그러나 ATP 고객에 대 한 위협 방지 상태 보고서에 표시 되는 정보에는 고객에 게 표시 될 수 있는 것과 다른 데이터가 포함 될 가능성이 EOP. 예를 들어 EOP 고객은 전자 메일로 검색 된 맬웨어에 대 한 정보를 볼 수 있지만, [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보는 ATP 관련 기능입니다. [ATP 보고서에 대해 자세히 알아보세요](view-reports-for-atp.md).
@@ -74,7 +74,9 @@ ms.locfileid: "33970259"
   
 ![위협 방지 상태 보고서](media/0ff86e12-c2b2-4d89-92a5-cefb054dc070.png)
   
-위협 방지 상태 보고서를 처음 열면 보고서에는 기본적으로 이전의 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 클릭 하 고 날짜 범위를 최대 90 일 정도 변경할 수 있습니다. 이 보고서는 조직의 [Exchange Online 보호 기능과](eop/eop-features.md)장기적인 추세에 대 한 영향을 확인 하는 데 유용 합니다. 
+위협 방지 상태 보고서를 처음 열면 보고서에는 기본적으로 이전의 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 클릭 하 고 날짜 범위를 최대 90 일 정도 변경할 수 있습니다. 평가판 구독을 사용 하는 경우에는 30 일간의 데이터를 제한할 수 있습니다.
+
+이 보고서는 조직의 [Exchange Online 보호 기능과](eop/eop-features.md)장기적인 추세에 대 한 영향을 확인 하는 데 유용 합니다. 
   
 ![위협 보호 상태 보고서 필터](media/ab6b6b8d-e97a-4c3a-8fb1-c4940dcb7a07.png)
   

@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/4/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
 ms.collection:
 - M365-security-compliance
 description: 데이터 손실 방지 예제를 통해 보안 &amp; 및 준수 센터에서 자세한 보고서로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 101aeec71e724204018dee8d12d6c74a120578bf
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: f87902551aa75e761cb297e127a14aab047d748e
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255406"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408293"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>연습 - 통찰력에서 자세한 보고서
 
@@ -38,7 +38,7 @@ ms.locfileid: "32255406"
   
 3. 목록에서 항목을 선택 하면 해당 항목에 대 한 자세한 정보를 볼 수 있는 창이 열립니다. (항목을 클릭 합니다.)<br/>![선택한 통찰력에 대 한 세부 정보](media/dcbb389f-23b0-4031-b789-4a49068af85a.png)<br/>정책 검토와 같이 권장 조치를 고려해 야 합니다. ([데이터 손실 방지 정책에 대해 자세히 알아보세요](data-loss-prevention-policies.md).)
     
-4. 자세한 정보를 볼 수 있는 링크도 제공 됩니다. ( **탐색기에서 관련 활동 보기**를 클릭 합니다.)<br/>이렇게 하면 [explorer](use-explorer-in-security-and-compliance.md) (위협 탐색기 라고도 함) 라는 보고서 유형을 사용 하 여 필터를 적용 하 고 특정 세부 정보로 드릴 수 있습니다.<br/>![선택한 통찰력에 대 한 보다 자세한 정보가 있는 탐색기 보기](media/3ad15b15-7158-44b7-beda-013351bd868e.png)
+4. 자세한 정보를 볼 수 있는 링크도 제공 됩니다. ( **탐색기에서 관련 활동 보기**를 클릭 합니다.)<br/>이 경우에는 [위협 탐색기 (및 실시간 검색)](threat-explorer.md)라는 보고서 유형을 사용 하 여 필터를 적용 하 고 특정 세부 정보로 드릴 수 있습니다.<br/>![선택한 통찰력에 대 한 보다 자세한 정보가 있는 탐색기 보기](media/3ad15b15-7158-44b7-beda-013351bd868e.png)
   
 이러한 방식으로는 정보를 기반으로 쉽게 이동할 수 있으며 조직에 대 한 데이터 손실 방지에 대 한 결정 사항에 대 한 보다 자세한 정보를 제공 합니다.
   

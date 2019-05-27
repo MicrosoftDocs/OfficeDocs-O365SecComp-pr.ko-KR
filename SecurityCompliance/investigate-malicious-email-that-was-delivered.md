@@ -15,40 +15,37 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6eec99f5b2872a63efab619e9814ab0fa625ca49
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 7e2cef742339e54c094cfb0c3b32fbf596896a3d
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077274"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408303"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>배달 된 악성 전자 메일 찾기 및 조사 (Office 365 Advanced Threat Protection 요금제 2)
 
-[Office 365 Advanced Threat Protection 계획 2](office-365-ti.md) 에서는 사용자에 게 위험을 주는 작업을 조사 하 여 조직을 보호 하기 위한 조치를 취할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 사용자에 게 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기](get-started-with-ti.md#threat-explorer)를 사용 하 여이 작업을 수행할 수 있습니다.
-  
-> [!IMPORTANT]
-> Office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 Office 365 Advanced Threat Protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+[Office 365 Advanced Threat Protection](office-365-atp.md) 을 사용 하면 사용자에 게 위험을 주는 작업을 조사 하 고 조직을 보호 하기 위한 조치를 취할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 사용자에 게 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기 (또는 실시간 검색)](threat-explorer.md)를 사용 하 여이 작업을 수행할 수 있습니다.
   
 ## <a name="before-you-begin"></a>시작 하기 전에
 
 다음 조건이 충족되었는지 확인하세요.
   
-- 조직에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md) 가 있고 [비즈니스용 office 365에서 사용자에 게 라이선스를 할당](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)합니다.
+- 조직에 [Office 365 Advanced Threat Protection](office-365-atp.md) (계획 1 또는 계획 2)이 있고 [사용자에 게 라이선스가 할당 되어](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users)있습니다.
     
 - [Office 365](turn-audit-log-search-on-or-off.md) 조직에 대해 감사 로깅이 설정 됩니다. 
     
-- 조직에 스팸 방지, 맬웨어 방지, 피싱 방지 등을 위한 정책이 정의 되어 있습니다. [Office 365 Advanced Threat Protection](office-365-atp.md)를 참조 하세요.
+- 조직에 스팸 방지, 맬웨어 방지, 피싱 방지 등을 위한 정책이 정의 되어 있습니다. [Office 365에서 위협 으로부터 보호를](protect-against-threats.md)참조 하세요.
     
 - Office 365 전역 관리자 이거나 보안 관리자 또는 보안 &amp; 및 준수 센터에서 할당 된 검색 및 제거 역할 중 하나를 사용할 수 있습니다. [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
     
 ## <a name="dealing-with-suspicious-emails"></a>의심 스러운 전자 메일 처리
 
-악의적인 공격자가 사용자에 게 메일을 보내 자격 증명을 피싱 회사 비밀에 대 한 액세스를 시도할 수 있습니다. 이를 방지 하기 위해 Exchange Online Protection 및 Advanced Threat Protection을 포함 하 여 Office 365에서 제공 하는 위협 방지 서비스를 사용 해야 합니다. 그러나 공격자가 URL을 포함 하는 사용자에 게 메일을 보낼 수 있으며 나중에 해당 URL이 악성 콘텐츠를 가리키도록 설정 합니다 (맬웨어 등). 또는 조직에 있는 사용자가 손상 된 경우, 해당 사용자가 손상 된 경우 공격자가 해당 계정을 사용 하 여 회사의 다른 사용자에 게 전자 메일을 보낼 수 있습니다. 이러한 두 시나리오를 정리 하는 과정에서 사용자의 받은 편지함에서 전자 메일 메시지를 제거할 수 있습니다. 이와 같은 경우에는 위협 탐색기를 통해 이러한 전자 메일 메시지를 찾아서 제거할 수 있습니다.
+악의적인 공격자가 사용자에 게 메일을 보내 자격 증명을 피싱 회사 비밀에 대 한 액세스를 시도할 수 있습니다. 이를 방지 하기 위해 [Exchange Online protection](eop/exchange-online-protection-overview.md) 및 [Advanced threat protection](office-365-atp.md)을 포함 하 여 Office 365에서 제공 하는 위협 방지 서비스를 사용 해야 합니다. 그러나 공격자가 URL을 포함 하는 사용자에 게 메일을 보낼 수 있으며 나중에 해당 URL이 악성 콘텐츠를 가리키도록 설정 합니다 (맬웨어 등). 또는 조직에 있는 사용자가 손상 된 경우, 해당 사용자가 손상 된 경우 공격자가 해당 계정을 사용 하 여 회사의 다른 사용자에 게 전자 메일을 보낼 수 있습니다. 이러한 두 시나리오를 정리 하는 과정에서 사용자의 받은 편지함에서 전자 메일 메시지를 제거할 수 있습니다. 이러한 경우 이러한 전자 메일 메시지를 검색 하 고 제거 하려면 [위협 탐색기 (또는 실시간 검색)](threat-explorer.md) 를 활용할 수 있습니다.
   
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>배달 된 의심 스러운 전자 메일 찾기 및 삭제
 
 > [!TIP]
-> [위협 탐색기](get-started-with-ti.md#threat-explorer) (탐색기 라고도 함)은 메시지 찾기 및 삭제, 악의적인 전자 메일 보낸 사람에 대 한 IP 주소 식별, 추가 조사를 위해 인시던트 시작 등의 다양 한 용도로 사용할 수 있는 강력한 보고서입니다. 다음 절차에서는 Explorer를 사용 하 여 받는 사람 사서함에서 악성 전자 메일을 찾아서 삭제 하는 방법에 대해 중점적으로 설명 합니다 
+> Explorer 라고도 하는 위협 탐색기는 메시지 찾기 및 삭제, 악의적인 전자 메일 보낸 사람에 대 한 IP 주소 식별, 추가 조사를 위해 인시던트 시작 등의 다양 한 용도로 사용할 수 있는 강력한 보고서입니다. 다음 절차에서는 Explorer를 사용 하 여 받는 사람 사서함에서 악성 전자 메일을 찾아서 삭제 하는 방법에 대해 중점적으로 설명 합니다 
   
 1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 Office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다. 
     

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: d5e84bfe5994d1f17ddc75bcb1141fb4f4beace3
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: bac2592fcfefaeb150497cddf134679f9429c656
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158260"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408253"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 
@@ -53,9 +53,9 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
   
 |대시보드 * * * *|****설명****|
 |:-----|:-----|
-|위협 관리 대시보드  <br/> |보안 센터의 위협 관리 섹션에서이 대시보드를 사용 하 여 이미 처리 된 위협을 확인 하 고, 위협 조사 및 응답 기능에 대해 이미 수행한 작업을 비즈니스 의사 결정권자에 게 보고 하는 편리한 도구로, 비즈니스 보호  <br/> |
-|위협 탐색기  <br/> |이는 보안 센터의 위협 관리 섹션에도 있습니다. Office 365 테 넌 트에 대 한 공격을 조사 하거나 발생 하는 경우 위협 탐색기를 사용 하 여 위협을 분석 합니다. 위협 탐색기는 시간에 따른 공격 량을 보여 주며 위협 계열, 침입자 인프라 등을 통해이 데이터를 분석할 수 있습니다. 인시던트 목록에 대해 의심 스러운 전자 메일을 표시할 수도 있습니다.  <br/> |
-|보고서-대시보드  <br/> |보안 센터의 Reports (보고서) 섹션에서 SharePoint Online 및 Exchange Online 조직에 대 한 감사 보고서를 봅니다. 보고서 보기 페이지에서 azure AD (Active Directory) 사용자 로그인 보고서, 사용자 활동 보고서 및 Azure AD audit 로그에 액세스할 수도 있습니다.  <br/> |
+|[위협 관리 대시보드](security-dashboard.md)  <br/> |보안 센터의 **위협 관리** 섹션에서이 대시보드를 사용 하 여 이미 처리 된 위협을 확인 하 고 위협 조사 및 응답 기능이 이미 존재 하는 비즈니스 의사 결정권자에 게 유용한 도구를 제공 합니다. 비즈니스 보안을 위해 완료 되었습니다.  <br/> |
+|[위협 탐색기 (또는 실시간 검색)](threat-explorer.md)  <br/> |이는 보안 센터의 **위협 관리** 섹션에도 있습니다. Office 365 테 넌 트에 대 한 공격을 조사 하거나 발생 하는 경우 Explorer (또는 실시간 검색)를 사용 하 여 위협을 분석 합니다. Explorer 및 실시간 검색 보고서에는 시간에 따른 공격 량이 표시 되며 위협 계열, 침입자 인프라 등을 통해이 데이터를 분석할 수 있습니다. 인시던트 목록에 대해 의심 스러운 전자 메일을 표시할 수도 있습니다.  <br/> |
+|보고서-대시보드  <br/> |보안 센터의 **Reports (보고서** ) 섹션에서 SharePoint Online 및 Exchange Online 조직에 대 한 감사 보고서를 봅니다. **보고서 보기** 페이지에서 azure Ad (Active Directory) 사용자 로그인 보고서, 사용자 활동 보고서 및 azure ad audit 로그에 액세스할 수도 있습니다.  <br/> |
    
 ![보안 센터 대시보드](media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
   

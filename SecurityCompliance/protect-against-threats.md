@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 4/30/2019
+ms.date: 05/09/2019
 search.appverid:
 - MOE150
 - MET150
@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: 1697904dac69e3b634c0f853fbd48c5a5b5257d8
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: a9a2baccb4709b3e8d77f620281458d51ed0583a
+ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157300"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34408393"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
@@ -38,9 +38,9 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 |보호 유형  |구독 요구 사항  |
 |---------|---------|
 |맬웨어 방지 보호 기능    | [Exchange Online Protection](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) EOP        |
-|전자 메일 및 Office 문서의 악성 Url 및 파일 로부터 보호    | [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)        |
+|전자 메일 및 Office 문서의 악성 Url 및 파일 로부터 보호    | [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) ATP       |
 |피싱 방지 보호 기능    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)      |
-|고급 피싱 방지 보호    | [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)   |
+|고급 피싱 방지 보호    | [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)   |
 |스팸 방지 보호 기능     | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)       |
 |0 시간 자동 삭제 (전자 메일의 경우)    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) EOP        |
 |감사 로깅 (보고 목적으로 사용 됨)    | [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)        |
@@ -59,7 +59,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ## <a name="part-1---anti-malware-protection"></a>1 부-맬웨어 방지 보호 기능
 
-[맬웨어 방지 보호](anti-malware-protection.md) 는 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) (EOP)을 포함 하는 구독에서 사용할 수 있습니다. 
+[맬웨어 방지 보호](anti-malware-protection.md) 는 [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)을 포함 하는 구독에서 사용할 수 있습니다. 
 
 1. [보안 & 준수 센터](https://protection.office.com)에서 **위협 관리** > **정책** > **맬웨어 방지**를 선택 합니다.
 
