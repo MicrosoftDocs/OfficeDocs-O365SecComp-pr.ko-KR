@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: d8a674785c982b19b04b5bd14cd941dde7a86f61
-ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
+ms.openlocfilehash: cb44dd3d7c87928b325a72e783feea85e252dc49
+ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34490494"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34547993"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -179,8 +179,13 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
     
     조직의 모든 파일 및 폴더에 대 한 항목을 반환 하려면이 상자를 비워 둡니다.
     
-    > [!TIP]
-    > **사이트**와 관련 된 모든 활동을 찾으려는 경우 URL 뒤에 와일드 카드 기호 (\*)를 추가 하 여 해당 사이트에 대 한 모든 항목을 반환 합니다. 예를 들면 **"https://contoso-my.sharepoint.com/personal/*"** 입니다.
+   **정보**
+
+   - **사이트**와 관련 된 모든 활동을 찾으려는 경우 URL 뒤에 와일드 카드 기호 (\*)를 추가 하 여 해당 사이트에 대 한 모든 항목을 반환 합니다. 예를 들면 **"https://contoso-my.sharepoint.com/personal/*"** 입니다.
+
+   - **파일**에 관련 된 모든 활동을 찾으려는 경우 파일 이름 앞에 와일드 카드 기호 (\*)를 추가 하 여 해당 파일에 대 한 모든 항목을 반환 합니다. 예를 들면 **"* Customer_Profitability_Sample"** 입니다.
+    
+
     
 5. 검색 **** 을 클릭 하 여 검색 조건을 사용 하 여 검색을 실행 합니다. 
     
@@ -295,15 +300,15 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 ||||
 |:-----|:-----|:-----|
-|[파일 및 페이지 활동](#file-and-page-activities)<br/> |[폴더 활동](#folder-activities)<br/> |[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)<br/> |
-|[동기화 작업](#synchronization-activities)<br/> |[사이트 관리 작업](#site-administration-activities)<br/> |[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |
-|[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> |[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> 
-|[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/>| 
-|[eDiscovery 활동](#ediscovery-activities) <br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|
-|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow 활동](#microsoft-flow-activities) <br/>|
-|[Microsoft PowerApps 활동](#microsoft-powerapps)<br/>|[Microsoft Stream 작업](#microsoft-stream-activities) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
+|[파일 및 페이지 활동](#file-and-page-activities)<br/> |[폴더 활동](#folder-activities)<br/> |[SharePoint 목록 활동](#sharepoint-list-activities)<br/>|
+|[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)<br/> |[동기화 작업](#synchronization-activities)<br/> |[사이트 관리 작업](#site-administration-activities)<br/> |
+|[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> |
+|[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |
+|[디렉터리 관리 작업](#directory-administration-activities) <br/>|[eDiscovery 활동](#ediscovery-activities) <br/> |[고급 eDiscovery 활동](#advanced-ediscovery-activities)<br/> |
+|[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |
+|[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow 활동](#microsoft-flow-activities) <br/>|[Microsoft PowerApps 활동](#microsoft-powerapps)<br/>|
+|[Microsoft Stream 작업](#microsoft-stream-activities) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
 ||||
-   
   
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
   
@@ -319,6 +324,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |삭제 된 파일  <br/> |FileDeleted  <br/> |사용자가 사이트에서 문서를 삭제 합니다.  <br/> |
 |휴지통에서 삭제 된 파일  <br/> |FileDeletedFirstStageRecycleBin  <br/> |사용자가 사이트의 휴지통에서 파일을 삭제 합니다.  <br/> |
 |2 단계 휴지통에서 삭제 된 파일  <br/> |FileDeletedSecondStageRecycleBin  <br/> |사용자가 사이트의 2 단계 휴지통에서 파일을 삭제 합니다.  <br/> |
+|문서 민감도 불일치가 감지 됨 <br/>|DocumentSensitivityMismatchDetected<br/>|사용자가 문서를 업로드 한 사이트에 적용 된 민감도 레이블 보다 우선 순위가 높은 민감도 레이블로 분류 된 문서를 업로드 합니다. Note 사이트에 적용 된 민감도 레이블이 사이트에 업로드 되는 문서에 적용 된 민감도 레이블에 비해 우선 순위가 높은 경우에이 이벤트가 트리거되지 않습니다. 민감도 레이블 우선 순위에 대 한 자세한 내용은 [민감도 레이블 개요](sensitivity-labels.md#label-priority-order-matters)의 "레이블 우선 순위" 섹션을 참조 하십시오.<br/>|
 |파일에서 맬웨어가 검색 되었습니다.  <br/> |FileMalwareDetected  <br/> |SharePoint 바이러스 백신 엔진이 파일에서 맬웨어를 감지 합니다.  <br/> |
 |삭제 한 파일 체크 아웃  <br/> |FileCheckOutDiscarded  <br/> |사용자가 체크 아웃된 파일을 삭제(또는 실행 취소)합니다. 즉, 체크 아웃한 파일의 변경 내용은 취소되고, 문서 라이브러리에 있는 문서 버전에 저장되지 않습니다.  <br/> |
 |다운로드 한 파일  <br/> |파일 다운로드 됨  <br/> |사용자가 사이트에서 문서를 다운로드 합니다.  <br/> |
@@ -333,6 +339,8 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |업로드 된 파일  <br/> |FileUploaded 됨  <br/> |사용자가 사이트의 폴더에 문서를 업로드 합니다.  <br/> |
 |본 페이지  <br/> |PageViewed  <br/> |사용자가 사이트의 페이지를 볼 수 있습니다. 여기에는 웹 브라우저를 사용 하 여 문서 라이브러리에 있는 파일을 보는 것이 포함 되지 않습니다.  <br/> |
 |none  <br/> |PageViewedExtended  <br/> |이 작업은 "본 페이지" (PageViewed) 작업과 관련이 있습니다. PageViewedExtended 이벤트는 같은 사용자가 계속 해 서 오랜 시간 동안 웹 페이지를 볼 때 기록 됩니다 (최대 3 시간). PageViewedExtended 이벤트를 로깅하는 목적은 페이지를 계속 볼 때 기록 되는 페이지로 표시 되는 이벤트의 수를 줄이기 위한 것입니다. 이렇게 하면 기본적으로 동일한 사용자 활동에 대 한 여러 PageViewed 레코드의 노이즈를 줄일 수 있으며, 초기 (및 더 중요 한) PageViewed 이벤트에 집중할 수 있습니다.  <br/> |
+|클라이언트에서 신호를 받은 보기 <br/>|ClientViewSignaled 받음<br/>|사용자가 웹 사이트 또는 모바일 앱 등의 클라이언트에서 표시 된 페이지를 본 것으로 표시 합니다. 이 활동은 종종 페이지에 대 한 PagePrefetched 이벤트에 따라 기록 됩니다. <br/><br/>**참고**: ClientViewSignaled를 받은 이벤트는 서버가 아닌 클라이언트에서 신호를 받으므로 해당 이벤트가 서버에서 기록 되지 않을 수 있으므로 감사 로그에 나타나지 않을 수 있습니다. 감사 레코드의 정보가 신뢰할 수 없는 경우도 있을 수 있습니다. 그러나 사용자의 id가 신호를 만드는 데 사용 된 토큰에 의해 유효성이 검사 되기 때문에 해당 감사 레코드에 나열 된 사용자 id가 정확 합니다. |
+|none <br/>|PagePrefetched<br/>|사용자가 웹 사이트 또는 모바일 앱 등의 클라이언트에서 사용자가 탐색 하는 경우 성능을 향상 시키는 데 도움이 되도록 지정 된 페이지를 요청 했습니다. 이 이벤트는 페이지 콘텐츠가 사용자의 클라이언트에 제공 되었음을 나타내기 위해 기록 됩니다. 이 이벤트는 사용자가 실제로 페이지를 탐색 했음을 나타내는 결정적인 표시가 아닙니다. 클라이언트에서 페이지 콘텐츠가 렌더링 되는 경우 (사용자의 요청에 따라) ClientViewSignaled 표시 된 이벤트가 생성 되어야 합니다. 모든 클라이언트에서 사전 페치를 나타내는 것은 지원 되지 않으며, 따라서 일부 미리 페치 된 작업은 대신 PageViewed 이벤트로 기록 될 수 있습니다.<br/>|
 ||||
   
 ### <a name="folder-activities"></a>폴더 활동
@@ -352,6 +360,35 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |복원 된 폴더  <br/> |FolderRestored  <br/> |사용자가 사이트의 휴지통에서 삭제 된 폴더를 복원 합니다.  <br/> |
 ||||
   
+### <a name="sharepoint-list-activities"></a>SharePoint 목록 활동
+  
+다음 표에서는 사용자가 SharePoint Online에서 목록 및 목록 항목과 상호 작용 하는 경우와 관련 된 작업에 대해 설명 합니다.
+
+|**식별 이름**|**Operation**|**설명**|
+|:-----|:-----|:-----|
+| 만든 목록              | ListCreated              | 사용자가 새 SharePoint 목록을 만든 경우|
+| 만든 목록 열       | ListColumnCreated        | 사용자가 새 SharePoint 목록 열을 만든 경우 목록 열은 하나 이상의 SharePoint 목록에 첨부 되는 열입니다. |
+| 만든 목록 콘텐츠 형식 | ListContentTypeCreated   | 사용자가 새 목록 콘텐츠 형식을 만든 경우 목록 콘텐츠 형식은 하나 이상의 SharePoint 목록에 연결 된 콘텐츠 형식입니다.|
+| 만든 목록 항목         | ListItemCreated          | 사용자가 기존 SharePoint 목록에 새 항목을 만들었습니다.|
+| 만든 사이트 열       | SiteColumnCreated        | 사용자가 새 SharePoint 사이트 열을 만든 경우 사이트 열은 목록에 연결 되지 않은 열입니다. 사이트 열은 지정 된 웹의 모든 목록에서 사용할 수 있는 메타 데이터 구조 이기도 합니다.|
+| 만든 사이트 콘텐츠 형식 | 사이트 ContentType이 만들어짐 | 사용자가 새 사이트 콘텐츠 형식을 만든 경우 사이트 콘텐츠 형식은 상위 사이트에 연결 된 콘텐츠 형식입니다.|
+| 삭제 된 목록              | ListDeleted              | 사용자가 SharePoint 목록을 삭제 했습니다.|
+| 삭제 된 목록 열       | 목록 열 삭제 됨      | 사용자가 SharePoint 목록 열을 삭제 했습니다.|
+| 삭제 된 목록 콘텐츠 형식 | ListContentTypeDeleted   | 사용자가 목록 콘텐츠 형식을 삭제 했습니다. |
+| 삭제 된 목록 항목         | 목록 항목 삭제 됨        | 사용자가 SharePoint 목록 항목을 삭제 했습니다.|
+| 삭제 된 사이트 열       | SiteColumnDeleted        | 사용자가 SharePoint 사이트 열을 삭제 한 경우 |
+| 삭제 된 사이트 콘텐츠 형식 | SiteContentTypeDeleted   | 사용자가 사이트 콘텐츠 형식을 삭제 한 경우|
+| 재생 목록 항목        | ListItemRecycled         | 사용자가 SharePoint 목록 항목을 휴지통으로 이동 했습니다.|
+| 복원 된 목록             | ListRestored 됨             | 사용자가 휴지통에서 SharePoint 목록을 복원 했습니다.|
+| 복원 된 목록 항목        | ListItemRestored         | 사용자가 휴지통에서 SharePoint 목록 항목을 복원 했습니다.|
+| 업데이트 된 목록              | ListUpdated              | 사용자가 하나 이상의 속성을 수정 하 여 SharePoint 목록을 업데이트 했습니다.|
+| 업데이트 된 목록 열       | ListColumnUpdated        | 사용자가 하나 이상의 속성을 수정 하 여 SharePoint 목록 열을 업데이트 했습니다.|
+| 업데이트 된 목록 콘텐츠 형식 | ListContentTypeUpdated   | 사용자가 하나 이상의 속성을 수정 하 여 목록 콘텐츠 형식을 업데이트 했습니다.|
+| 업데이트 된 목록 항목         | ListItemUpdated          | 사용자가 하나 이상의 속성을 수정 하 여 SharePoint 목록 항목을 업데이트 했습니다.|  
+| 업데이트 된 사이트 열       | SiteColumnUpdated        | 사용자가 하나 이상의 속성을 수정 하 여 SharePoint 사이트 열을 업데이트 했습니다.|
+| 업데이트 된 사이트 콘텐츠 형식 | SiteContentTypeUpdated   | 사용자가 하나 이상의 속성을 수정 하 여 사이트 콘텐츠 형식을 업데이트 했습니다.|
+||||
+
 ### <a name="sharing-and-access-request-activities"></a>공유 및 액세스 요청 활동
   
 다음 표에서는 SharePoint Online 및 비즈니스용 OneDrive의 사용자 공유 및 액세스 요청 작업에 대해 설명 합니다. 공유 이벤트의 경우 **결과** 아래의 **세부 정보** 열에는 해당 항목이 공유 된 사용자 또는 그룹의 이름과 해당 사용자 또는 그룹이 조직의 구성원 또는 게스트 인지 여부가 식별 됩니다. 자세한 내용은 [Office 365 감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조 하십시오.
@@ -364,10 +401,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |수락 된 액세스 요청  <br/> |AccessRequestAccepted 됨  <br/> |사이트, 폴더 또는 문서에 대 한 액세스 요청이 수락 되었으며 요청 하는 사용자에 게 액세스 권한이 부여 되었습니다.  <br/> |
 |수락 된 공유 초대  <br/> |SharingInvitationAccepted  <br/> |사용자 (구성원 또는 게스트)가 공유 초대를 수락 했으며 리소스에 대 한 액세스 권한을 부여 받았습니다. 이 이벤트에는 초대 된 사용자에 대 한 정보와 초대를 수락 하는 데 사용 된 전자 메일 주소가 포함 됩니다 (다른 것은 해당 됨). 이 작업은 대개 사용자에 게 리소스에 대 한 액세스 권한을 부여 받은 방법, 즉 리소스에 액세스할 수 있는 그룹에 사용자를 추가 하는 방법을 설명 하는 두 번째 이벤트가 수반 됩니다.  <br/> |
 |사이트 모음에 대 한 권한 수준을 추가 했습니다.  <br/> |강화 Level추가 됨  <br/> |사용 권한 수준이 사이트 모음에 추가 되었습니다.  <br/> |
-|보안 링크에 사용자 추가  <br/> |Ad이상 Tosecurelink  <br/> |이 보안 공유 링크를 사용할 수 있는 엔터티 목록에 사용자가 추가 되었습니다.  <br/> |
 |차단 된 공유 초대  <br/> |SharingInvitationBlocked  <br/> | 조직의 사용자가 보낸 공유 초대는 대상 사용자의 도메인에 따라 외부 공유를 허용 하거나 거부 하는 외부 공유 정책으로 인해 차단 됩니다. 이 경우에는 다음과 같은 이유로 공유 초대가 차단 되었습니다.  <br/>  대상 사용자의 도메인은 허용 된 도메인 목록에 포함 되지 않습니다.  <br/>  또는  <br/>  대상 사용자의 도메인이 차단 된 도메인 목록에 포함 됩니다.  <br/>  도메인을 기반으로 외부 공유를 허용 하거나 차단 하는 방법에 대 한 자세한 내용은 [SharePoint Online의 제한 된 도메인 공유 및 비즈니스용 OneDrive](https://support.office.com/article/5d7589cd-0997-4a00-a2ba-2320ec49c4e9)를 참조 하세요.  <br/> |
-|중단 권한 수준 상속  <br/> |PermissionLevelsInheritanceBroken  <br/> |부모 로부터 더 이상 사용 권한 수준을 상속 하지 않도록 항목을 변경 했습니다.  <br/> |
-|공유 상속 중단  <br/> |SharingInheritanceBroken  <br/> |상위 항목에서 더 이상 공유 사용 권한을 상속 하지 않도록 항목이 변경 되었습니다.  <br/> |
 |회사 공유 가능 링크를 만들었습니다.  <br/> |CompanyLinkCreated  <br/> |사용자가 자원에 대 한 회사 차원 링크를 만들었습니다. 회사 전체의 링크는 조직의 구성원만 사용할 수 있습니다. 게스트에는 사용할 수 없습니다.  <br/> |
 |만든 액세스 요청  <br/> |AccessRequestCreated  <br/> |사용자가 액세스할 수 있는 권한이 없는 사이트, 폴더 또는 문서에 대 한 액세스를 요청 합니다.  <br/> |
 |익명 링크를 만들었습니다.  <br/> |AnonymousLinkCreated  <br/> |사용자가 리소스에 대 한 익명 링크를 만들었습니다. 이 링크를 사용 하는 모든 사용자는 인증 없이 리소스에 액세스할 수 있습니다.  <br/> |
@@ -375,11 +409,8 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |만든 공유 초대  <br/> |SharingInvitationCreated  <br/> |사용자가 조직의 디렉터리에 없는 사용자를 사용 하 여 SharePoint Online 또는 비즈니스용 OneDrive의 리소스를 공유 했습니다.  <br/> |
 |삭제 된 보안 링크  <br/> |SecureLinkDeleted  <br/> |보안 공유 링크가 삭제 되었습니다.  <br/> |
 |거부 된 액세스 요청  <br/> |AccessRequestDenied 됨  <br/> |사이트, 폴더 또는 문서에 대 한 액세스 요청이 거부 되었습니다.  <br/> |
-|사이트 모음에 대 한 수정 된 사용 권한 수준  <br/> |권한 Levelmodified  <br/> |사이트 모음에서 사용 권한 수준이 변경 되었습니다.  <br/> |
 |회사 공유 가능 링크가 제거 됨  <br/> |CompanyLinkRemoved  <br/> |사용자가 자원에 대 한 회사 차원 링크를 제거 했습니다. 링크를 더 이상 사용 하 여 리소스에 액세스할 수 없습니다.  <br/> |
 |익명 링크 제거  <br/> |AnonymousLinkRemoved  <br/> |사용자가 리소스에 대 한 익명 링크를 제거 했습니다. 링크를 더 이상 사용 하 여 리소스에 액세스할 수 없습니다.  <br/> |
-|사이트 모음에서 사용 권한 수준을 제거 했습니다.  <br/> |권한 Level제거 됨  <br/> |사이트 모음에서 사용 권한 수준이 제거 되었습니다.  <br/> |
-|복원 된 공유 상속  <br/> |SharingInheritanceReset  <br/> |항목이 상위 항목에서 공유 사용 권한을 상속 하도록 변경 내용이 적용 되었습니다.  <br/> |
 |공유 파일, 폴더 또는 사이트  <br/> |SharingSet  <br/> |사용자 (구성원 또는 게스트) SharePoint 또는 비즈니스용 OneDrive의 파일, 폴더 또는 사이트를 조직의 디렉터리에 있는 사용자와 공유 합니다. 이 활동에 대 한 **세부 정보** 열의 값은 리소스가 공유 된 사용자의 이름과이 사용자가 구성원 또는 게스트 인지를 식별 합니다. 이 작업은 대개 사용자에 게 리소스에 대 한 액세스 권한을 부여 하는 방법을 설명 하는 두 번째 이벤트가 수반 됩니다. 예를 들어, 리소스에 대 한 액세스 권한이 있는 그룹에 사용자를 추가 합니다.  <br/> |
 |업데이트 된 액세스 요청  <br/> |AccessRequestUpdated 됨  <br/> |항목에 대 한 액세스 요청이 업데이트 되었습니다.  <br/> |
 |익명 링크가 업데이트 되었습니다.  <br/> |AnonymousLinkUpdated  <br/> |사용자가 리소스에 대 한 익명 링크를 업데이트 했습니다. 업데이트 된 필드는 검색 결과를 내보낼 때 EventData 속성에 포함 됩니다.  <br/> |
@@ -406,6 +437,31 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |문서 라이브러리에 업로드 된 파일  <br/> |FileSyncUploadedFull  <br/> |사용자가 자신의 컴퓨터에서 문서 라이브러리로 처음으로 동기화 관계를 설정 하 고 파일을 성공적으로 업로드 합니다.  <br/> |
 |문서 라이브러리에 업로드 된 파일 변경 내용  <br/> |FileSyncUploadedPartial  <br/> |사용자가 문서 라이브러리의 파일에 대 한 변경 내용을 업로드 했습니다. 이 이벤트는 문서 라이브러리의 파일 로컬 버전에 대해 변경한 내용이 문서 라이브러리에 성공적으로 업로드되었음을 나타냅니다. 변경 내용은 파일 **을 문서 라이브러리** 작업으로 표시 하 여 사용자가 이전에 업로드 한 것 이므로 업로드 됩니다.  <br/> |
 ||||
+
+### <a name="site-permissions-activities"></a>사이트 사용 권한 작업
+
+다음 표에는 SharePoint에서 사용 권한을 할당 하 고 그룹을 사용 하 여 사이트에 대 한 액세스 권한을 부여 하는 작업과 관련 된 이벤트가 나와 있습니다.
+
+|**식별 이름**|**Operation**|**설명**|
+|:-----|:-----|:-----|
+|사이트 모음 관리자 추가  <br/> |SiteCollectionAdminAdded  <br/> |사이트 모음 관리자 또는 소유자가 사이트의 사이트 모음 관리자로 사용자를 추가 합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대해 모든 권한을 갖습니다. 관리자가 SharePoint 관리 센터에서 사용자 프로필을 편집 하거나 [Microsoft 365 관리 센터를 사용](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data#part-1---get-access-to-the-former-employees-onedrive-for-business-documents)하 여 사용자의 OneDrive 계정에 대 한 액세스를 제공 하는 경우에도이 작업이 기록 됩니다. <br/> |
+|SharePoint 그룹에 사용자 또는 그룹을 추가 했습니다.  <br/> |AddedToGroup  <br/> |사용자가 SharePoint 그룹에 구성원 또는 게스트를 추가 했습니다. 의도적인 동작이 나 공유 이벤트와 같은 다른 작업의 결과가 있을 수 있습니다.  <br/> |
+|중단 권한 수준 상속  <br/> |PermissionLevelsInheritanceBroken  <br/> |부모 로부터 더 이상 사용 권한 수준을 상속 하지 않도록 항목을 변경 했습니다.  <br/> |
+|공유 상속 중단  <br/> |SharingInheritanceBroken  <br/> |상위 항목에서 더 이상 공유 사용 권한을 상속 하지 않도록 항목이 변경 되었습니다.  <br/> |
+|만든 그룹  <br/> |GroupAdded 됨  <br/> |사이트 관리자 또는 소유자가 사이트에 대 한 그룹을 만들거나 그룹을 만드는 작업을 수행 합니다. 예를 들어 사용자가 파일을 공유 하기 위한 링크를 처음 만들 때 사용자의 비즈니스용 OneDrive 사이트에 시스템 그룹이 추가 됩니다. 사용자가 공유 파일에 대한 편집 권한이 있는 링크를 만들어도 이 이벤트가 발생할 수 있습니다.  <br/> |
+|삭제 된 그룹  <br/> |그룹 제거 됨  <br/> |사용자가 사이트에서 그룹을 삭제 합니다.  <br/> |
+|수정 된 액세스 요청 설정  <br/> |WebRequestAccessModified  <br/> |사이트에서 액세스 요청 설정이 수정 되었습니다.  <br/> |
+|수정 된 ' 구성원 공유 가능 ' 설정  <br/> |WebMembersCanShareModified  <br/> |**구성원 공유 가능** 설정이 사이트에서 수정 되었습니다.  <br/> |
+|사이트 모음에 대 한 수정 된 사용 권한 수준  <br/> |권한 Levelmodified  <br/> |사이트 모음에서 사용 권한 수준이 변경 되었습니다.  <br/> |
+|수정 된 사이트 사용 권한  <br/> |SitePermissionsModified  <br/> |사이트 관리자나 소유자 (또는 시스템 계정)는 사이트의 그룹에 할당 된 사용 권한 수준을 변경 합니다. 이 작업은 모든 사용 권한이 그룹에서 제거 된 경우에도 기록 됩니다.  <br/><br/> **참고**:이 작업은 SharePoint Online에서 더 이상 사용 되지 않습니다. 관련 이벤트를 찾으려면 **추가 된 사이트 모음 관리자**, **사용자 또는 그룹을 SharePoint 그룹에 추가 하거나** **그룹을 만들고** **만든 그룹**및 삭제할 수 있는 다른 사용 권한 관련 작업을 검색 하면 됩니다. ** 그룹입니다.**|
+|사이트 모음에서 사용 권한 수준을 제거 했습니다.  <br/> |권한 Level제거 됨  <br/> |사이트 모음에서 사용 권한 수준이 제거 되었습니다.  <br/> |
+|제거 된 사이트 모음 관리자  <br/> |SiteCollectionAdminRemoved <br/> |사이트 모음 관리자 또는 소유자가 사이트의 사이트 모음 관리자로 사용자를 제거 합니다. 이 작업은 또한 관리자가 SharePoint 관리 센터에서 사용자 프로필을 편집 하 여 사용자의 OneDrive 계정에 대 한 사이트 모음 관리자 목록에서 자신을 제거할 때에도 기록 됩니다.  감사 로그 검색 결과에서이 활동을 반환 하려면 모든 작업을 검색 해야 합니다. <br/> |
+|SharePoint 그룹에서 사용자 또는 그룹 제거  <br/> |RemovedFromGroup  <br/> |사용자가 SharePoint 그룹에서 구성원 또는 게스트를 제거 했습니다. 이 작업은 의도적인 동작이 나 다른 작업의 결과 (예: 공유가 해제 이벤트) 일 수 있습니다.  <br/> |
+|요청 된 사이트 관리자 권한  <br/> |SiteAdminChangeRequest  <br/> |사용자 요청을 사이트 모음에 대 한 사이트 모음 관리자로 추가 합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대해 모든 권한을 갖습니다.  <br/> |
+|복원 된 공유 상속  <br/> |SharingInheritanceReset  <br/> |항목이 상위 항목에서 공유 사용 권한을 상속 하도록 변경 내용이 적용 되었습니다.  <br/> |
+|업데이트 된 그룹  <br/> |GroupUpdated  <br/> |사이트 관리자 또는 소유자가 사이트에 대 한 그룹의 설정을 변경 합니다. 여기에는 그룹의 이름, 그룹 구성원 자격을 보거나 편집할 수 있는 사람 및 구성원 요청이 처리되는 방법을 변경하는 경우가 포함될 수 있습니다.  <br/> |
+||||
+
   
 ### <a name="site-administration-activities"></a>사이트 관리 작업
   
@@ -413,10 +469,9 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 |**식별 이름**|**Operation**|**설명**|
 |:-----|:-----|:-----|
-|예외 사용자 에이전트 추가  <br/> |ExemptUserAgentSet  <br/> |SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록에 사용자 에이전트를 추가 합니다.  <br/> |
-|사이트 모음 관리자 추가  <br/> |SiteCollectionAdminAdded  <br/> |사이트 모음 관리자 또는 소유자가 사이트의 사이트 모음 관리자로 사용자를 추가 합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대해 모든 권한을 갖습니다. 관리자가 SharePoint 관리 센터에서 사용자 프로필을 편집 하거나 [Microsoft 365 관리 센터를 사용](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data#part-1---get-access-to-the-former-employees-onedrive-for-business-documents)하 여 사용자의 OneDrive 계정에 대 한 액세스를 제공 하는 경우에도이 작업이 기록 됩니다. <br/> |
-|none  <br/> |SiteCollectionAdminRemoved <br/> |사이트 모음 관리자 또는 소유자가 사이트의 사이트 모음 관리자로 사용자를 제거 합니다. 이 작업은 또한 관리자가 SharePoint 관리 센터에서 사용자 프로필을 편집 하 여 사용자의 OneDrive 계정에 대 한 사이트 모음 관리자 목록에서 자신을 제거할 때에도 기록 됩니다.  감사 로그 검색 결과에서이 활동을 반환 하려면 모든 작업을 검색 해야 합니다. <br/> |
-|SharePoint 그룹에 사용자 또는 그룹을 추가 했습니다.  <br/> |AddedToGroup  <br/> |사용자가 SharePoint 그룹에 구성원 또는 게스트를 추가 했습니다. 의도적인 동작이 나 공유 이벤트와 같은 다른 작업의 결과가 있을 수 있습니다.  <br/> |
+|허용 된 데이터 위치 추가 됨<br/>|AllowedDataLocationAdded|SharePoint 또는 전역 관리자가 다중 위치 환경에서 허용 되는 데이터를 추가 했습니다. <br/>|
+|예외 사용자 에이전트 추가  <br/> |ExemptUserAgentSet  <br/> |SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록에 사용자 에이전트를 추가 했습니다.  <br/> |
+|지리적 위치 관리 추가 됨<br/>|GeoAdminAdded 됨<br/>|SharePoint 또는 전역 관리자가 위치에 대 한 geo 관리자로 사용자를 추가 했습니다. <br/>|
 |그룹을 만들 수 있는 사용자  <br/> |AllowGroupCreationSet  <br/> |사이트 관리자 또는 소유자는 해당 권한이 할당 된 사용자가 해당 사이트에 대 한 그룹을 만들 수 있도록 허용 하는 사용 권한 수준을 사이트에 추가 합니다.  <br/> |
 |사이트 지리적 이동 취소  <br/> |SiteGeoMoveCancelled  <br/> |SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소 합니다. 다중 위치 기능을 사용 하면 Office 365 조직에서 여러 Office 365 데이터 센터 지역 (예를 들어, geos)을 사용할 수 있습니다. 자세한 내용은 [OneDrive 및 Office 365에서 SharePoint Online의 다중 지리적 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하세요.  <br/> |
 |공유 정책 변경  <br/> |SharingPolicyChanged  <br/> |SharePoint 또는 전역 관리자가 Office 365 관리 포털, SharePoint 관리 포털 또는 SharePoint Online 관리 셸을 사용 하 여 SharePoint 공유 정책을 변경 했습니다. 조직의 공유 정책 설정에 대 한 모든 변경 내용이 기록 됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에 있는 **ModifiedProperties** 필드에서 식별 됩니다.  <br/> |
@@ -424,25 +479,26 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |변경 된 예외 사용자 에이전트  <br/> |CustomizeExemptUsers  <br/> |Sharepoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록을 사용자 지정 했습니다. 인덱싱할 전체 웹 페이지를 받지 못하도록 제외되는 사용자 에이전트를 지정할 수 있습니다. 즉, 제외로 지정한 사용자 에이전트가 InfoPath 양식을 만나면 전체 웹 페이지가 아닌 XML 파일로 반환 됩니다 (해당 양식이 있는 경우). 따라서 InfoPath 양식 인덱싱 속도가 빨라집니다.  <br/> |
 |네트워크 액세스 정책 변경  <br/> |NetworkAccessPolicyChanged  <br/> |Sharepoint 또는 전역 관리자가 sharepoint 관리 센터에서 또는 SharePoint Online PowerShell을 사용 하 여 위치 기반 액세스 정책 (신뢰할 수 있는 네트워크 경계 라고도 함)을 변경 했습니다. 이 정책 유형은 사용자가 지정한 승인 된 IP 주소 범위에 따라 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사람을 제어 합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대 한 제어 액세스](https://support.office.com/article/b5a5f1f1-1174-4c6b-91d0-9273a6b6971f)를 참조 하세요.  <br/> |
 |완료 된 사이트 지리적 이동  <br/> |SiteGeoMoveCompleted  <br/> |조직의 전역 관리자가 예약한 사이트 지리적 이동이 성공적으로 완료 되었습니다. 다중 위치 기능을 사용 하면 Office 365 조직에서 여러 Office 365 데이터 센터 지역 (예를 들어, geos)을 사용할 수 있습니다. 자세한 내용은 [OneDrive 및 Office 365에서 SharePoint Online의 다중 지리적 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하세요.  <br/> |
-|만든 그룹  <br/> |GroupAdded 됨  <br/> |사이트 관리자 또는 소유자가 사이트에 대 한 그룹을 만들거나 그룹을 만드는 작업을 수행 합니다. 예를 들어 사용자가 파일을 공유 하기 위한 링크를 처음 만들 때 사용자의 비즈니스용 OneDrive 사이트에 시스템 그룹이 추가 됩니다. 사용자가 공유 파일에 대한 편집 권한이 있는 링크를 만들어도 이 이벤트가 발생할 수 있습니다.  <br/> |
 |만든 사람에 게 연결 되었습니다.  <br/> |SendToConnectionAdded 됨  <br/> |SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 레코드 관리 페이지에서 새 보내기 연결을 만듭니다. 보내기 연결은 문서 리포지토리 또는 레코드 센터에 대한 설정을 지정합니다. 보내기 연결을 만들면 콘텐츠 구성 도우미가 지정된 위치로 문서를 전송할 수 있습니다.  <br/> |
 |만든 사이트 모음  <br/> |SiteCollectionCreated  <br/> |SharePoint 또는 전역 관리자가 SharePoint Online 조직에 새 사이트 모음을 만들거나 사용자가 비즈니스용 OneDrive 사이트를 프로 비전 합니다.  <br/> |
-|삭제 된 그룹  <br/> |그룹 제거 됨  <br/> |사용자가 사이트에서 그룹을 삭제 합니다.  <br/> |
+|삭제 된 고아 허브 사이트<br/>|HubSiteOrphanHubDeleted<br/>|SharePoint 또는 전역 관리자가 연결 된 사이트가 없는 허브 사이트인 고아 허브 사이트를 삭제 했습니다. 원본 허브 사이트를 삭제 하 여 고아 허브가 원인일 수 있습니다. <br/>|
 |삭제 된 메시지를 연결로 보냄  <br/> |SendToConnectionRemoved 됨  <br/> |SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 레코드 관리 페이지에서 보내기 연결을 삭제 합니다.  <br/> |
 |삭제 된 사이트  <br/> |SiteDeleted 됨  <br/> |사이트 관리자가 사이트를 삭제 합니다.  <br/> |
 |문서 미리 보기 사용  <br/> |PreviewModeEnabledSet  <br/> |사이트 관리자가 사이트에 대해 문서 미리 보기를 사용 하도록 설정 합니다.  <br/> |
 |레거시 워크플로 사용  <br/> |LegacyWorkflowEnabledSet  <br/> |사이트 관리자 또는 소유자가 사이트에 SharePoint 2013 워크플로 작업 콘텐츠 형식을 추가합니다. 또한 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대한 워크플로를 사용하도록 설정할 수 있습니다.  <br/> |
 |Office on Demand 설정  <br/> |OfficeOnDemandSet  <br/> |사이트 관리자가 최신 버전의 Office 데스크톱 응용 프로그램에 액세스할 수 있도록 하는 Office on Demand를 사용하도록 설정합니다. Office on Demand는 SharePoint 관리 센터에서 사용 하도록 설정 되며, 설치 된 모든 Office 응용 프로그램을 포함 하는 Office 365 구독이 필요 합니다.  <br/> |
+|사용자 검색에 대해 사용 되는 결과 원본<br/>|PeopleResultsScopeSet<br/>|사이트 관리자가 사이트 검색에 대 한 결과 원본을 만듭니다.<br/>|
 |RSS 피드 사용  <br/> |NewsFeedEnabledSet  <br/> |사이트 관리자 또는 소유자는 사이트에 대해 RSS 피드를 사용 하도록 설정 합니다. 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대한 RSS 피드를 사용하도록 설정할 수 있습니다.  <br/> |
-|수정 된 액세스 요청 설정  <br/> |WebRequestAccessModified  <br/> |사이트에서 액세스 요청 설정이 수정 되었습니다.  <br/> |
-|수정 된 구성원의 공유 가능 설정  <br/> |WebMembersCanShareModified  <br/> |**구성원 공유 가능** 설정이 사이트에서 수정 되었습니다.  <br/> |
-|수정 된 사이트 사용 권한  <br/> |SitePermissionsModified  <br/> |사이트 관리자나 소유자 (또는 시스템 계정)는 사이트의 그룹에 할당 된 사용 권한 수준을 변경 합니다. 이 작업은 모든 사용 권한이 그룹에서 제거 된 경우에도 기록 됩니다.  <br/> > [!NOTE]>이 작업은 SharePoint Online에서 더 이상 사용 되지 않습니다. 관련 이벤트를 찾으려면 **추가 된 사이트 모음 관리자**, **사용자 또는 그룹을 SharePoint 그룹에 추가 하거나** **그룹을 만들고** **만든 그룹**및 삭제할 수 있는 다른 사용 권한 관련 작업을 검색 하면 됩니다. ** 그룹입니다.**         |
-|SharePoint 그룹에서 사용자 또는 그룹 제거  <br/> |RemovedFromGroup  <br/> |사용자가 SharePoint 그룹에서 구성원 또는 게스트를 제거 했습니다. 이 작업은 의도적인 동작이 나 다른 작업의 결과 (예: 공유가 해제 이벤트) 일 수 있습니다.  <br/> |
+|허브 사이트에 가입 된 사이트<br/>|HubSiteJoined<br/>|사이트 소유자가 사이트를 허브 사이트와 연결 합니다.<br/>|
+|등록 된 허브 사이트<br/>|HubSiteRegistered<br/>|SharePoint 또는 전역 관리자가 허브 사이트를 만듭니다. 이렇게 하면 사이트가 허브 사이트로 등록 됩니다. <br/>|
+|허용 되는 데이터 위치 제거<br/>|AllowedDataLocationDeleted<br/>|SharePoint 또는 전역 관리자가 다중 지리적 환경에서 허용 되는 데이터 위치를 제거 했습니다.<br/>|
+|제거 된 지리적 위치 관리<br/>|GeoAdminDeleted<br/>|SharePoint 또는 전역 관리자가 위치에 대 한 geo 관리자로 사용자를 제거 했습니다.<br/>|
 |이름이 바뀐 사이트  <br/> |SiteRenamed  <br/> |사이트 관리자 또는 소유자가 사이트의 이름을 바꿉니다.  <br/> |
-|요청 된 사이트 관리자 권한  <br/> |SiteAdminChangeRequest  <br/> |사용자 요청을 사이트 모음에 대 한 사이트 모음 관리자로 추가 합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대해 모든 권한을 갖습니다.  <br/> |
 |예약 된 사이트 지리적 이동  <br/> |SiteGeoMoveScheduled  <br/> |SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 예약 합니다. 다중 위치 기능을 사용 하면 Office 365 조직에서 여러 Office 365 데이터 센터 지역 (예를 들어, geos)을 사용할 수 있습니다. 자세한 내용은 [OneDrive 및 Office 365에서 SharePoint Online의 다중 지리적 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조 하세요.  <br/> |
 |호스트 사이트 설정  <br/> |HostSiteSet  <br/> |SharePoint 또는 전역 관리자가 개인 또는 비즈니스용 OneDrive 사이트를 호스팅하도록 지정 된 사이트를 변경 합니다.  <br/> |
-|업데이트 된 그룹  <br/> |GroupUpdated  <br/> |사이트 관리자 또는 소유자가 사이트에 대 한 그룹의 설정을 변경 합니다. 여기에는 그룹의 이름, 그룹 구성원 자격을 보거나 편집할 수 있는 사람 및 구성원 요청이 처리되는 방법을 변경하는 경우가 포함될 수 있습니다.  <br/> |
+|지리적 위치에 대 한 저장소 할당량 설정  <br/> |GeoQuotaAllocated<br/> |SharePoint 또는 전역 관리자가 다중 지리적 환경에서 지리적 위치에 대 한 저장소 할당량을 구성 했습니다.<br/> |
+|허브 사이트의 Unjoined 사이트<br/>|HubSiteUnjoined<br/>|사이트 소유자는 허브 사이트에서 사이트의 관계를 끊습니다.<br/>|
+|등록 되지 않은 허브 사이트<br/>|HubSiteUnregistered<br/>|SharePoint 또는 전역 관리자가 사이트의 허브 사이트 등록을 취소 합니다. 허브 사이트가 등록 해제 되 면 더 이상 허브 사이트로 작동 하지 않습니다. <br/>|
 ||||
   
 ### <a name="exchange-mailbox-activities"></a>Exchange 사서함 활동
@@ -455,7 +511,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |레코드로 분류 된 메시지  <br/> |ApplyRecordLabel<br/> |메시지가 레코드로 분류 되었습니다. 콘텐츠를 레코드로 분류 하는 보존 레이블이 수동으로 또는 메시지에 자동으로 적용 되는 경우이 이벤트가 발생 합니다.<br/> |
 |다른 폴더로 복사한 메시지  <br/> |복사  <br/> |메시지가 다른 폴더에 복사되었습니다.  <br/> |
 |만든 사서함 항목  <br/> |만들기  <br/> |사서함의 일정, 연락처, 메모 또는 작업 폴더에 항목이 만들어집니다. 예를 들어 새 모임 요청이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 또한 사서함 폴더를 만드는 것은 감사 되지 않습니다.  <br/> |
-|Outlook web app에서 새 받은 편지함 규칙을 만들었습니다.  <br/> |NewInboxRule<br/> |<br/> |
+|Outlook web app에서 새 받은 편지함 규칙을 만들었습니다.  <br/> |NewInboxRule<br/> |사용자가 OWA (Outlook web app)에서 받은 편지함 규칙을 새로 만들었습니다.<br/> |
 |지운 편지함 폴더에서 삭제 된 메시지  <br/> |SoftDelete  <br/> |메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 이러한 항목은 복구 가능한 항목 폴더로 이동 됩니다. 또한 메시지는 사용자가 선택 하 고 **Shift + Delete**를 누를 때 복구 가능한 항목 폴더로 이동 됩니다.  <br/> |
 |메시지를 다른 폴더로 이동  <br/> |이동  <br/> |메시지가 다른 폴더로 이동했습니다.  <br/> |
 |지운 편지함 폴더로 메시지 이동  <br/> |MoveToDeletedItems  <br/> |메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.  <br/> |
@@ -587,6 +643,37 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 > [!NOTE]
 > **활동** 드롭다운 목록의 **eDiscovery 활동** 에 나열 된 작업에서 검색 결과에 표시 되는 이벤트가 발생 하는 데 최대 30 분이 걸릴 수 있습니다. 반대로 eDiscovery cmdlet 작업의 해당 이벤트가 검색 결과에 표시 되는 데 최대 24 시간이 걸립니다. 
   
+### <a name="advanced-ediscovery-activities"></a>고급 eDiscovery 활동
+
+다음 표에는 Microsoft 365의 고급 eDiscovery에서 작업을 수행 하는 IT 및 법적 전문가의 활동이 나와 있습니다. 자세한 내용은 [Microsoft 365의 고급 eDiscovery 솔루션 개요](compliance20/overview-ediscovery-20.md)를 참조 하세요.
+
+|**식별 이름**|**Operation**|**설명**|
+|:-----|:-----|:-----|
+| 다른 검토 집합에 데이터 추가<br/>         | AddWorkingSetQueryToWorkingSet<br/>  |  사용자가 한 검토 집합의 문서를 다른 검토 집합으로 추가 했습니다.<br/>|
+| 검토 집합에 데이터가 추가 됨 <br/>                | AddQueryToWorkingSet<br/>            |  사용자가 고급 eDiscovery 사례와 연결 된 콘텐츠 검색의 검색 결과를 검토 집합에 추가 했습니다.<br/>|
+| 검토 대상에 Office 이외의 365 데이터 추가<br/>  | AddNonOffice365DataToWorkingSet<br/> |  사용자가 Office 이외의 365 데이터를 검토 집합에 추가 했습니다.<br/>|
+| 재구성 한 문서를 검토 집합에 추가 했습니다.<br/> | AddRemediatedData<br/>               |  사용자가 인덱싱 오류가 검토 세트로 수정 된 문서를 업로드 합니다.<br/>|
+| 검토 집합의 분석 데이터 <br/>             | RunAlgo<br/>                         |  사용자가 검토 집합에서 문서에 대 한 분석을 실행 했습니다. <br/>|
+| 검토 설정의 주석 처리 문서 <br/>        | AnnotateDocument<br/>                |  사용자가 검토 집합의 문서에 주석을 추가 했습니다. 주석에는 문서의 redacting 콘텐츠가 포함 됩니다. <br/>|
+| 비교 되는 부하 집합 <br/>                      | LoadComparisonJob<br/>               |사용자가 검토 집합에서 서로 다른 두 개의 부하 집합을 비교 했습니다. 부하 집합은 사례와 연결 된 콘텐츠 검색의 데이터가 검토 집합에 추가 되는 경우입니다.  <br/>|
+| Redacted 문서를 PDF로 변환 됨<br/>      | BurnJob<br/>                         |사용자가 검토 집합의 모든 redacted 문서를 PDF 파일로 변환 했습니다.<br/>|
+| 만든 검토 설정<br/>                       | CreateWorkingSet<br/>                |사용자가 검토 집합을 만들었습니다.<br/>|
+| 검토 설정 검색 만들기<br/>                | CreateWorkingSetSearch<br/>          |사용자가 검토 집합에서 문서를 검색 하는 검색 쿼리를 만들었습니다. <br/>|
+| 만든 태그<br/>                              | CreateTag<br/>                       |사용자가 검토 집합에 태그 그룹을 만들었습니다. 태그 그룹에는 하나 이상의 하위 태그가 포함 될 수 있습니다. 그런 다음 이러한 태그를 사용 하 여 검토 집합의 문서에 태그를 추가할 수 있습니다.<br/>|
+| 삭제 된 검토 설정 검색 <br/>               | DeleteWorkingSetSearch<br/>          |사용자가 검토 집합에서 검색 쿼리를 삭제 했습니다.<br/>|
+| Deleted 태그<br/>                              | DeleteTag<br/>                       |사용자가 검토 집합에서 태그 또는 태그 그룹을 삭제 했습니다.<br/>|
+| 다운로드 한 문서<br/>                      | DownloadDocument<br/>                |사용자가 검토 집합에서 문서를 다운로드 했습니다.<br/>|
+| 편집 된 태그 <br/>                              | DownloadDocument<br/>                |사용자가 검토 집합에서 태그를 변경 했습니다.<br/>|
+| 검토 설정에서 내보낸 문서 <br/>      | ExportJob<br/>                       |사용자가 검토 집합에서 문서를 내보냈습니다.<br/>|
+| 수정 된 사례 설정 <br/>                   | UpdateCaseSettings<br/>              | 사용자가 사례에 대 한 설정을 수정 했습니다. 사례 설정에는 대/소문자 정보, 액세스 권한, 검색 및 분석 동작을 제어 하는 설정이 포함 됩니다.<br/>|
+| 수정 된 검토 설정 검색<br/>               | UpdateWorkingSetSearch<br/>          |  사용자가 검토 집합에서 검색 쿼리를 편집 했습니다.<br/>|
+| 미리 본 검토 집합 검색 <br/>             | PreviewWorkingSetSearch<br/>         |  사용자가 검토 집합에 검색 쿼리 결과를 미리 봅니다.<br/>|
+| 재구성 한 오류 문서 <br/>              | ErrorRemediationJob<br/>             |  사용자가 인덱싱 오류가 있는 파일을 수정 합니다. <br/>|
+| 태그가 지정 된 문서<br/>                          | TagFiles<br/>                        |  사용자 태그 검토 집합의 문서입니다.<br/>|
+| 태그가 지정 된 쿼리 결과<br/>                | TagJob<br/>                          |  사용자 태그 검토 집합의 검색 쿼리 조건과 일치 하는 모든 문서를 표시 합니다.<br/>|
+| 검토 설정에서 문서 보기<br/>            | ViewDocument<br/>                    |  사용자가 검토 집합에서 문서를 봤습니다.<br/>|
+|||
+
 ### <a name="power-bi-activities"></a>Power BI 활동
   
 Power BI에서 활동에 대 한 감사 로그를 검색할 수 있습니다. Power BI 활동에 대 한 자세한 내용은 [조직 내에서 감사 사용](https://docs.microsoft.com/power-bi/service-admin-auditing#activities-audited-by-power-bi)의 "POWER power bi로 감사 된 작업" 섹션을 참조 하십시오.
