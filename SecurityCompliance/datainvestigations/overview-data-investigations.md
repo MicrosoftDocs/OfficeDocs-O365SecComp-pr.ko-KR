@@ -14,18 +14,22 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: 1e7621d577d8d08fd27dc7e20e6b8e7a3491236f
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 2b125d8f1dc24337804ea0461039aba824c42b8a
+ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150680"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34547913"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
 데이터 분산은 기밀, 중요 또는 악성 콘텐츠가 포함 된 문서가 신뢰할 수 없는 환경으로 릴리스될 때 발생 합니다. 데이터 분산을 검색 하는 경우 환경을 빠르게 포함 하 고, 유출의 크기와 위치를 평가 하 고, 해당 사용자의 활동을 조사 하 고, 서비스에서 분산 된 데이터를 삭제 하는 것이 중요 합니다. 새 데이터 조사 (미리 보기) 도구를 사용 하 여 Office 365에서 중요, 악성 또는 잘못 된 데이터를 검색 하 고, 발생 한 상황을 조사 하 고, 적절 한 작업을 수행 하 여 유출를 수정할 수 있습니다.  
 
 이 문서에서는 새 데이터 조사 (미리 보기) 도구에서 제공 하는 기능을 사용 하 여 데이터 유출 시나리오를 처리 하는 방법을 설명 합니다.
+
+## <a name="permissions"></a>사용 권한
+
+데이터 조사에 액세스 하 고이를 수행 하려면 Data investigator 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [데이터 조사에 대 한 사용 권한 할당](permissions.md)을 참조 하세요.
 
 ## <a name="data-investigations-preview-workflow"></a>데이터 조사 (미리 보기) 워크플로 
 

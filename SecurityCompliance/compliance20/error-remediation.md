@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 5a6c545b15ee07fc0200104b8408e7adb7301c79
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 8653ebd82e9c045c4fc49b00fcb82bf22ab3f906
+ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151790"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34547943"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -40,7 +40,7 @@ ms.locfileid: "34151790"
 
     ![오류 수정](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
-    Errored 파일을 다운로드 하기 위한 안전한 Azure 위치로 이동 하는 준비 단계부터 시작 하 여 오류 업데이트 관리 세션이 시작 됩니다.
+    오류가 발생 한 파일을 다운로드할 수 있도록 안전한 Azure 위치에 복사 되는 준비 단계부터 시작 하 여 오류 관리 세션이 시작 됩니다.
 
     ![오류 수정 준비](../media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
 
@@ -63,7 +63,7 @@ ms.locfileid: "34151790"
     ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
-    > 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery에서 AzCopy 문제 해결](troubleshooting-azcopy.md) 을 참조 하세요.
+    > 제공 된 AzCopy 명령이 실패 하면 [Advanced EDiscovery AzCopy에서 문제 해결](troubleshooting-azcopy.md)을 참조 하세요.
 
 7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 다양 한 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
     > [!NOTE]
@@ -73,7 +73,7 @@ ms.locfileid: "34151790"
 
     ![파일 업로드](../media/af3d8617-1bab-4ecd-8de0-22e53acba240.png)
 
-9. **파일 위치 경로** 텍스트 상자에 재구성 된 파일의 위치를 지정한 다음 **clibpboard에 복사를**클릭 합니다.
+9. **파일 위치 경로** 텍스트 상자에 재구성 된 파일의 위치를 지정 하 고 **클립보드에 복사를**클릭 합니다.
 
 10. Windows 명령 프롬프트에 명령을 붙여 넣고 enter 키를 **** 눌러 파일을 업로드 합니다.
 
@@ -87,12 +87,9 @@ ms.locfileid: "34151790"
 
 재구성 한 파일을 업로드 하면 다음 필드를 제외 하 고 원래 메타 데이터가 보존 됩니다. 
 
-- DocumentExtractedUrl
 - ExtractedTextSize
 - HasText
 - IsErrorRemediate
-- IsParentExtractedUrl
-- ItemExtractedUrl
 - LoadId
 - ProcessingErrorMessage
 - ProcessingStatus

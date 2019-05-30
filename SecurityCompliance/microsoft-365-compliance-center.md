@@ -3,18 +3,18 @@ title: 새 Microsoft 365 준수 센터 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 04/09/2019
-ms.audience: ITPro
+ms.date: 05/29/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 새로운 Microsoft 365 준수 센터에 대해 알아봅니다.
-ms.openlocfilehash: ae608d1aafb803fabe6ed1eba3804b9921bac7b2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 149058d6204b7ad9d33fe656a8176609cfda5991
+ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32265578"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34547930"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>모든 신규 Microsoft 365 준수 센터 개요
 
@@ -68,7 +68,7 @@ Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대
 
 |  |  |
 |---------|---------|
-|![Microsoft 365 준수 센터의 탐색](media/m365-compliance-center-leftnav.png)  |<br/><br/> 경고를 보고 확인 하는 **알림** 으로 이동 [](alerts.md)<br/><br/>**& 보고서 모니터링** 을 방문 하 여 [레이블 사용 및 보존](sensitivity-labels.md), [DLP 정책 일치 및 재정의](view-the-dlp-reports.md), [공유 파일](https://docs.microsoft.com/cloud-app-security/file-filters), [타사 앱](https://docs.microsoft.com/cloud-app-security/discovered-apps)및 기타 정보에 대 한 데이터를 볼 수 있습니다.<br/><br/>**분류** 섹션을 확장 하 여 [레이블](labels.md), [레이블 정책](sensitivity-labels.md#what-label-policies-can-do), 중요 한 [정보 유형](what-the-sensitive-information-types-look-for.md)및 [레이블 분석](view-label-activity-for-documents.md)에 액세스 합니다.<br/><br/>**정책** 으로 이동 하 여 [알림을](alerts.md) 보고 [DLP](data-loss-prevention-policies.md) 및 [보존](retention-policies.md) 정책에 액세스 합니다.<br/><br/> 조직의 규정 준수 솔루션에 액세스 하려면 **솔루션** 섹션의 링크를 사용 합니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다. <br/>[데이터 거 버 넌 스 > Dispositions](disposition-reviews.md)<br/>[eDiscovery (미리 보기)](compliance20/overview-ediscovery-20.md)<br/>[감독](supervision-policies.md)<br/>[데이터 조사](datainvestigations/overview-data-investigations.md)<br/>[데이터 주체 요청](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
+|![Microsoft 365 준수 센터의 탐색](media/m365-compliance-center-leftnav.png)  |<br/><br/> 경고를 보고 확인 하는 **알림** 으로 이동 [](alerts.md)<br/><br/>**_AMP_ 보고서 모니터링** 을 방문 하 여 [레이블 사용 및 보존](sensitivity-labels.md), [DLP 정책 일치 및 재정의](view-the-dlp-reports.md), [공유 파일](https://docs.microsoft.com/cloud-app-security/file-filters), [타사 앱](https://docs.microsoft.com/cloud-app-security/discovered-apps)및 기타 정보에 대 한 데이터를 볼 수 있습니다.<br/><br/>**분류** 섹션을 확장 하 여 [레이블](labels.md), [레이블 정책](sensitivity-labels.md#what-label-policies-can-do), 중요 한 [정보 유형](what-the-sensitive-information-types-look-for.md)및 [레이블 분석](view-label-activity-for-documents.md)에 액세스 합니다.<br/><br/>**정책** 으로 이동 하 여 [알림을](alerts.md) 보고 [DLP](data-loss-prevention-policies.md) 및 [보존](retention-policies.md) 정책에 액세스 합니다.<br/><br/> 조직의 규정 준수 솔루션에 액세스 하려면 **솔루션** 섹션의 링크를 사용 합니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다. <br/>[데이터 거 버 넌 스 > Dispositions](disposition-reviews.md)<br/>[eDiscovery (미리 보기)](compliance20/overview-ediscovery-20.md)<br/>[감독](supervision-policies.md)<br/>[데이터 조사](datainvestigations/overview-data-investigations.md)<br/>[데이터 주체 요청](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
 
 
 ## <a name="how-do-i-get-this"></a>이를 어떻게 얻을 수 있나요?
@@ -83,15 +83,20 @@ Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대
 
 ### <a name="why-am-i-taken-to-the-office-365-security--compliance-center-to-perform-some-tasks-such-as-defining-certain-policies"></a>특정 정책을 정의 하는 것과 같은 일부 작업을 수행 하기 위해 Office 365 보안 & 준수 센터로 이동 하는 이유는 무엇 인가요?
 
-microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월 동안 기능과 솔루션을 추가로 추가할 예정입니다. 이 경우에는 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 몇 가지 작업을 수행 해야 합니다. 이러한 경우에는 사용자가 감독 정책을 만들거나 편집 하는 등의 작업을 수행할 수 있는 위치로 자동으로 리디렉션됩니다.
+Microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월 동안 기능과 솔루션을 추가로 추가할 예정입니다. 이 경우에는 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 몇 가지 작업을 수행 해야 합니다. 이러한 경우에는 사용자가 감독 정책을 만들거나 편집 하는 등의 작업을 수행할 수 있는 위치로 자동으로 리디렉션됩니다.
 
 ### <a name="why-dont-i-see-the-new-microsoft-365-compliance-center-yet"></a>아직 새로운 Microsoft 365 준수 센터가 표시 되지 않는 이유는 무엇 인가요?
 
 먼저 적절 한 [라이선스 및 사용 권한이](microsoft-security-and-compliance.md#required-licenses-and-permissions)있는지 확인 합니다. 그런 후에 [https://compliance.microsoft.com](https://compliance.microsoft.com)로그인 합니다. 새 준수 센터가 아직 표시 되지 않으면 곧 제공 될 예정입니다.
 
-### <a name="i-cant-find-some-of-my-compliance-settings-what-do-i-do"></a>규정 준수 설정 중 일부를 찾을 수 없습니다. What do I do?
+### <a name="some-of-my-compliance-features-are-not-available-in-the-microsoft-365-compliance-center-what-do-i-do"></a>Microsoft 365 준수 센터에서는 일부 준수 기능을 사용할 수 없습니다. What do I do?
 
-여전히 Microsoft 365 준수 센터에 기능을 추가 하 고 있습니다. 감사 로그 검색과 같은 항목을 찾을 수 없는 경우 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 해 봅니다. 구성은 기존 Office 365 보안 & 준수 센터 및 새 Microsoft 365 준수 센터에 자동으로 저장 됩니다.
+여전히 Microsoft 365 준수 센터에 기능을 추가 하 고 있습니다. 감사 로그 검색과 같은 항목을 찾을 수 없는 경우에는 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))를 사용 합니다. 구성은 기존 Office 365 보안 & 준수 센터 및 새 Microsoft 365 준수 센터에 자동으로 저장 됩니다.
+
+이 위치로 이동 하려면 Microsoft 365 준수 센터에서 화면 왼쪽의 탐색 창에 있는 **기타 리소스**를 선택 하 고 **Office 365 security & 준수 센터**에서 **열기**를 선택 합니다.
+
+![추가 리소스](media/MoreResourcesShowAll.png)
+
 
 ## <a name="next-steps"></a>다음 단계
 

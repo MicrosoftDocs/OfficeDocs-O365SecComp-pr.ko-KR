@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Twitter 데이터를 가져와 Office 365에 보관 하는 기본 커넥터를 설정할 수 있습니다. 이 데이터를 Office 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Twitter 데이터에 대 한 관리를 관리할 수 있습니다.
-ms.openlocfilehash: 01c77436fc346a30a3d2cafeac731bf091296632
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 4d3bce8418ef2fa62c40d221549e6e089dee9647
+ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150540"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34490551"
 ---
 # <a name="deploy-a-connector-to-archive-twitter-data-in-office-365"></a>Office 365에서 Twitter 데이터를 보관 하기 위한 커넥터 배포
 
@@ -193,14 +193,14 @@ GitHub 리포지토리의 릴리스 섹션에서 미리 작성 된 패키지를 
 
 4. **구성 세부 정보**에서 다음 구성 설정을 입력 합니다. 
 
-   - **Twitter 응용 프로그램 id** -5 단계에서 만든 Twitter 응용 프로그램의 앱 ID입니다.
-   - **Twitter 응용 프로그램 비밀** -5 단계에서 만든 Twitter 응용 프로그램에 대 한 API 비밀 키입니다.
-   - **Twitter 클라이언트 토큰** -5 단계에서 만든 액세스 토큰입니다.
-   - **Twitter 클라이언트 토큰 암호** -5 단계에서 만든 액세스 토큰 비밀입니다.
+   - **Twitter Api 키** -5 단계에서 만든 Twitter 응용 프로그램의 앱 ID입니다.
+   - **Twitter Api 비밀 키** -5 단계에서 만든 Twitter 응용 프로그램에 대 한 Api 비밀 키입니다.
+   - **Twitter 액세스 토큰** -5 단계에서 만든 액세스 토큰입니다.
+   - **Twitter 액세스 토큰 비밀** -5 단계에서 만든 액세스 토큰 비밀입니다.
    - **AAD 응용 프로그램 id** -2 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 id
    - **AAD 응용 프로그램 비밀** -4 단계에서 만든 APISecretKey 암호의 값입니다.
    - **Aad 응용 프로그램 uri** -2 단계에서 가져온 aad 응용 프로그램 uri 예를 https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213들면입니다.
-   - **App insights instrumentation 키** -이 상자를 비워 둡니다.
+   - **App Insights Instrumentation 키** -이 상자를 비워 둡니다.
 
 5. **저장** 을 클릭 하 여 커넥터 설정을 저장 합니다.
 

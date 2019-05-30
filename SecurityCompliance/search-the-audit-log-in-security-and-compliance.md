@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 4760d36a587dd1aad0463dcddc19400e8138135c
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: d8a674785c982b19b04b5bd14cd941dde7a86f61
+ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158790"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34490494"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -115,7 +115,6 @@ Office 365 감사 로그 검색을 시작 하기 전에 다음 항목을 읽어 
     |eDiscovery  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Exchange Online  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
     |Microsoft Flow  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
-    |Microsoft Forms  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Microsoft Project  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Microsoft Stream  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/>| |
     |Microsoft Teams  <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> ||
@@ -405,7 +404,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |컴퓨터에 다운로드 한 파일  <br/> |FileSyncDownloadedFull  <br/> |사용자가 동기화 관계를 설정 하 고 파일을 처음으로 문서 라이브러리에서 컴퓨터로 다운로드 합니다.  <br/> |
 |컴퓨터에 다운로드 한 파일 변경 내용  <br/> |FileSyncDownloadedPartial  <br/> |사용자가 문서 라이브러리의 파일에 대 한 변경 내용을 성공적으로 다운로드 합니다. 이 작업은 문서 라이브러리의 파일에 대 한 변경 내용이 사용자 컴퓨터로 다운로드 되었음을 나타냅니다. 사용자가 문서 라이브러리를 이전에 다운로드 했기 때문에 ( **다운로드 한 파일에서 컴퓨터** 작업으로 표시) 변경 내용만 다운로드 되었습니다.  <br/> |
 |문서 라이브러리에 업로드 된 파일  <br/> |FileSyncUploadedFull  <br/> |사용자가 자신의 컴퓨터에서 문서 라이브러리로 처음으로 동기화 관계를 설정 하 고 파일을 성공적으로 업로드 합니다.  <br/> |
-|문서 라이브러리에 업로드 된 파일 변경 내용  <br/> |FileSyncUploadedPartial  <br/> |사용자가 문서 라이브러리의 파일에 대 한 변경 내용을 업로드 했습니다. 이 이벤트는 문서 라이브러리의 파일 로컬 버전에 대해 변경한 내용이 문서 라이브러리에 성공적으로 업로드되었음을 나타냅니다. 변경 내용은 이전에 사용자가 업로드 한 것 이며 (* * 파일을 문서 라이브러리에 업로드 한 파일로 표시 됨) 해당 파일이 언로드된 작업입니다.  <br/> |
+|문서 라이브러리에 업로드 된 파일 변경 내용  <br/> |FileSyncUploadedPartial  <br/> |사용자가 문서 라이브러리의 파일에 대 한 변경 내용을 업로드 했습니다. 이 이벤트는 문서 라이브러리의 파일 로컬 버전에 대해 변경한 내용이 문서 라이브러리에 성공적으로 업로드되었음을 나타냅니다. 변경 내용은 파일 **을 문서 라이브러리** 작업으로 표시 하 여 사용자가 이전에 업로드 한 것 이므로 업로드 됩니다.  <br/> |
 ||||
   
 ### <a name="site-administration-activities"></a>사이트 관리 작업

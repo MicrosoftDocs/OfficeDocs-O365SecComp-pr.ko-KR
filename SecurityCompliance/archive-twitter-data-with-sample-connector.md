@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 Office 365로 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: b53d882a66ba30a0c4c90389253689a9fe1fb457
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: ad64a982340013fbc5ef9acb612982ccc846ad3a
+ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155620"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34490504"
 ---
 # <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)
 
@@ -101,10 +101,10 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 텍스트 파일에 저장 합니다. 이러한 값은 6 단계에서 Twitter 커넥터 응용 프로그램을 구성 하는 데 사용 됩니다.
 
-- Twitter 응용 프로그램 ID
-- Twitter 응용 프로그램 비밀 (API 비밀 키)
-- Twitter 클라이언트 토큰
-- Twitter 클라이언트 토큰 암호
+- Twitter API 키
+- Twitter API 비밀 키
+- Twitter 액세스 토큰
+- Twitter 액세스 토큰 암호
 
 ## <a name="step-6-configure-the-twitter-connector-app"></a>6 단계: Twitter 커넥터 응용 프로그램 구성
 
@@ -114,10 +114,10 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 단계별 지침에 따라이 단계를 완료 하는 동안 이전 단계를 완료 한 후에 텍스트 파일로 복사한 다음 정보를 제공 합니다.
 
-- Twitter 응용 프로그램 ID (5 단계에서 가져옴)
-- Twitter 응용 프로그램 비밀 (5 단계에서 가져옴)
-- Twitter 클라이언트 토큰 (5 단계에서 가져옴)
-- Twitter 클라이언트 토큰 암호 (5 단계에서 가져옴)
+- Twitter API 키 (5 단계에서 가져옴)
+- Twitter API 비밀 키 (5 단계에서 가져옴)
+- Twitter 액세스 토큰 (5 단계에서 가져옴)
+- Twitter 액세스 토큰 암호 (5 단계에서 가져옴)
 - Azure Active Directory 응용 프로그램 ID (2 단계에서 가져온 AAD 응용 프로그램 ID)
 - Azure Active Directory 응용 프로그램 비밀 (2 단계에서 얻은 AAD 응용 프로그램 암호)
 - Azure Active Directory 응용 프로그램 Uri (2 단계에서 가져온 AAD 응용 프로그램 Uri (예:https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)

@@ -15,16 +15,16 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (및 실시간 검색)에 대해 알아봅니다.
-ms.openlocfilehash: 62ba70cb62b0c92cf65d77dfaf3eb7306e93fa98
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 030f866c5e86daa3dc543bddae7152e19f377d3b
+ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34415733"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34490534"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 (및 실시간 검색)
 
-조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전의 실시간 보고서)에서 [새로운 기능을 참조 하세요. ](#new-features-in-real-time-detections)!). 보안 & 준수 센터에서 **위협 관리**로 이동한 다음 **Explorer** 또는 **실시간**검색을 선택 합니다. 
+조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 *실시간 보고서* )을 통해 다음을 [참조 하십시오. 새로운 기능](#new-features-in-real-time-detections)! 보안 & 준수 센터에서 **위협 관리**로 이동한 다음 **Explorer** 또는 **실시간**검색을 선택 합니다. 
 
 |ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다.  |ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다.  |
 |---------|---------|
