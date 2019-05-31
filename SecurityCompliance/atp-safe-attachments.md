@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 audience: Admin
-ms.date: 04/04/2019
+ms.date: 05/17/2019
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 클릭 하 여 확인할 시간을 제공 합니다. 안전한 첨부 파일을 사용 하 여 사용자가 전자 메일로 보내거나 받는 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: fd3fc7f790870330f0f69fc4cca59e1b8c58ce00
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: d2e83b602df6195d2b0e5a2762b8076d0b2bef75
+ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077534"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590571"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP 안전한 첨부 파일
 
@@ -29,22 +29,6 @@ ms.locfileid: "34077534"
 Atp 안전한 첨부 파일 ( [Atp 안전한 링크](atp-safe-links.md)포함)은 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )의 일부입니다. ATP 안전한 첨부 파일 기능은 전자 메일 첨부 파일이 악성 인지 확인 한 다음 조직을 보호 하기 위해 조치를 취합니다. ATP 안전한 첨부 파일 기능은 Office 365 전역 또는 보안 관리자가 설정한 [Atp 안전한 첨부 파일 정책](set-up-atp-safe-attachments-policies.md) 에 따라 조직을 보호 합니다. 
   
 ATP 보호는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일로도 확장할 수 있습니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 Advanced Threat Protection](atp-for-spo-odb-and-teams.md)를 참조 하세요.
-
-## <a name="how-it-works"></a>작업 방법
-
-ATP 안전한 첨부 파일 기능은 조직의 사용자에 대해 전자 메일 첨부 파일을 확인 합니다. ATP 안전한 첨부 파일 정책이 적용 되 고 해당 정책에서 다루는 누군가가 Office 365의 전자 메일을 볼 때, 해당 전자 메일 첨부 파일을 확인 하 고 ATP 안전한 첨부 파일 정책에 따라 적절 한 조치를 취할 수 있습니다. 정책이 정의 된 방식에 따라 사용자가 악성 파일을 보낸 것을 알지 못하면 작업을 계속할 수 있습니다.
-  
-다음은 직장의 ATP 안전 첨부 파일에 대 한 두 가지 예입니다.
-  
-- **예 1: 전자 메일 첨부 파일** Lee에서 첨부 파일이 있는 전자 메일 메시지를 수신 한다고 가정 합니다. 해당 첨부 파일이 안전한 지 아니면 실제로 Lee의 사용자 자격 증명을 도용 하도록 설계 된 맬웨어가 있는지를 Lee는 것은 분명 하지 않습니다. Lee의 조직에서는 보안 관리자가 ATP 안전한 첨부 파일 정책을 며칠 전에 정의 했습니다. ATP 안전한 첨부 파일 기능을 사용 하 여 Lee가 수신 되기 전에 전자 메일 첨부 파일을 가상 환경에서 열고 테스트 합니다. 첨부 파일이 악성 인 것으로 확인 되 면 자동으로 제거 됩니다. 안전 하지 않은 첨부 파일은 Lee 클릭 하면 예상 대로 열립니다.
-
-- **예 2: SharePoint Online의 파일** Jean에서 파일을 받아 SharePoint Online의 라이브러리에 업로드 했다고 가정 합니다. Jean는 파일에 대 한 링크를 나머지 팀과 공유 하 여 실제로 악성 프로그램 인지를 알지 못합니다. 다행 스럽게도 [SharePoint, OneDrive 및 Microsoft 팀](atp-for-spo-odb-and-teams.md) 은 악성 파일을 검색 하 고 차단 합니다. 며칠 후에 Chris가 문서를 엽니다. Chris가 파일을 볼 수는 있지만, chris의 컴퓨터와 악의 있는 파일을 보호 하는 공유를 열거나 공유할 수 없습니다.
-
-ATP 안전한 첨부 파일 정책은 조직의 특정 사용자 또는 그룹이 나 전체 도메인에 적용할 수 있습니다. 또한 ATP 안전한 첨부 파일 정책은 실제 첨부 파일을 검색 하는 동안 자리 표시자 첨부 파일을 사용 하도록 구성할 수 있습니다. 자세한 내용은 **[Office 365에서 ATP 안전한 첨부 파일 정책 설정을](set-up-atp-safe-attachments-policies.md)** 참조 하십시오.
-
-> [!NOTE]
-> ATP 안전한 첨부 파일 검사는 Office 365 데이터가 있는 동일한 지역에서 발생 합니다. 데이터 센터 지역에 대 한 자세한 내용은 [어디에 있습니까?](https://products.office.com/where-is-your-data-located?geo=All) 를 참조 하세요. 
-
   
 ## <a name="how-to-get-atp-safe-attachments"></a>ATP 안전한 첨부 파일을 가져오는 방법
 

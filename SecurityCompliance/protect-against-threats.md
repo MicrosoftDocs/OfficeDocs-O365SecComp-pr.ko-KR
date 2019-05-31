@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: a9a2baccb4709b3e8d77f620281458d51ed0583a
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 6700e2714ea607f675b487204404d53c1d51db93
+ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408393"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34590581"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
@@ -42,7 +42,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 |피싱 방지 보호 기능    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)      |
 |고급 피싱 방지 보호    | [Office 365 ATP](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)   |
 |스팸 방지 보호 기능     | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)       |
-|0 시간 자동 삭제 (전자 메일의 경우)    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description) EOP        |
+|0 시간 자동 삭제 (전자 메일의 경우)    | [EOP](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description)        |
 |감사 로깅 (보고 목적으로 사용 됨)    | [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)        |
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
