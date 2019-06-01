@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: 9af224f72fc55e6981cf75c6c5596bde6645f75a
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: 0bb30ef3cd6f7d35e0f5a86842a8638e87e89773
+ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547903"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652491"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.
 
@@ -56,28 +56,28 @@ Microsoft 365 준수 센터를 처음 사용 하는 경우 시작 하는 데 도
 
 새 Microsoft 365 보안 센터 및 새로운 Microsoft 365 준수 센터는 이제 3 월 2019이 되는 Microsoft 365 고객 에게도 제공 됩니다. 
 
-Office 365 보안 & 준수 센터를 포함 하는 독립 실행형 계획과 같은 다른 구독을 사용 하는 경우에는 곧 새로운 Microsoft 365 보안 센터 및 Microsoft 365 준수 센터에 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)를 참조 하세요.
+Office 365 보안 & 준수 센터를 포함 하는 독립 실행형 요금제와 같은 다른 구독을 사용 하는 경우에는 곧 새로운 Microsoft 365 보안 센터 및 Microsoft 365 준수 센터에 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)를 참조 하세요.
 
 ### <a name="easy-access"></a>간편 하 게 액세스할 수 있습니다.
 
-향상 된 탐색, 통합 솔루션 및 능률적인 환경을 통해 가장 관심 있는 정보를 보고 액세스할 수 있으며 Microsoft 365의 강력한 보안 및 규정 준수 솔루션을 활용 하는 데 도움이 됩니다. 또한 향후 몇 개월에 더 많은 기능과 솔루션을 추가 하는 동안에는 Office 365 Security & 준수 센터 ([https://protection.microsoft.com](https://protection.microsoft.com))를 계속 사용할 수 있습니다.
+향상 된 탐색, 통합 솔루션 및 능률적인 환경을 통해 가장 관심 있는 정보를 보고 액세스할 수 있으며 Microsoft 365의 강력한 보안 및 규정 준수 솔루션을 활용 하는 데 도움이 됩니다. 또한 향후 몇 개월에 더 많은 기능과 솔루션을 추가 하지만 Office 365 보안 & 준수 센터 ([https://protection.microsoft.com](https://protection.microsoft.com))는 계속 사용할 수 있습니다.
 
 Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색 창에서 **기타 리소스**를 선택 합니다. 그런 다음 **Office 365 보안 & 준수 센터**에서 **열기**를 선택 합니다.
 
 ### <a name="smooth-transition"></a>부드러운 전환!
 
-새 센터로 원활 하 게 전환할 수 있습니다. 결국에는 이전 Microsoft 365 Security & 준수 센터 ([https://protection.microsoft.com](https://protection.microsoft.com))가 중지 됩니다. 관리자 환경이 변경 되더라도 현재 보안 및 준수 구성에는 영향을 주지 않습니다. 조직에 Microsoft 365 Enterprise E3 또는 E5가 있는 경우 보안 및 준수 관리자는 다음을 수행할 수 있습니다.
+새 센터로 원활 하 게 전환할 수 있습니다. 결국에는 이전 Microsoft 365 Security & 준수 센터 ([https://protection.microsoft.com](https://protection.microsoft.com))가 폐기 됩니다. 관리자 환경이 변경 되더라도 현재 보안 및 준수 구성에는 영향을 주지 않습니다. 조직에 Microsoft 365 Enterprise E3 또는 E5가 있는 경우 보안 및 준수 관리자는 다음을 수행할 수 있습니다.
 
 - 및 [https://compliance.microsoft.com](https://compliance.microsoft.com)로 직접 [https://security.microsoft.com](https://security.microsoft.com) 이동 합니다. <br>또는  
 - Microsoft 365 관리[https://admin.microsoft.com](https://admin.microsoft.com)센터 ()로 이동 하 고 탐색 창에서 **모두 표시**를 클릭 한 다음 **보안** 또는 **규정 준수**를 선택 합니다.
 
-또한 기존 Office 365 Security & 준수 센터 ([https://protection.office.com](http://protection.office.com)) 에서도 설정을 구성 및 관리할 수 있습니다. 구성은 기존 Office 365 보안 센터 및 Microsoft 365 준수 센터의 새로운 Microsoft 365 보안 센터가 준수 센터에서 유지 됩니다.  
+또한 기존 Office 365 보안 & 준수 센터 ([https://protection.office.com](http://protection.office.com)) 에서도 설정을 구성 및 관리할 수 있습니다. 구성은 기존 Office 365 & 보안 센터 및 microsoft 365 준수 센터와 새로운 microsoft 365 보안 센터가 함께 유지 됩니다.  
 
 ## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
 
 ### <a name="licenses"></a>라이선스
 
-새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 받으려면 조직에 Microsoft 365 E3 또는 E5에 대 한 구독이 있거나, Office 365 Enterprise E3 또는 E5, Enterprise Mobility + Security로 구성 된 볼륨 라이선스와 동등한 볼륨이 있어야 합니다. E3, E5 및 Windows 10 Enterprise E3/E5) 이러한 계획에 대 한 자세한 내용은 [사용자에 게 적합 한 Microsoft 365 Enterprise 솔루션 검색](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)을 참조 하십시오.
+새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 받으려면 조직에 Microsoft 365 E3 또는 E5에 대 한 구독 또는 Office 365 E3 또는 E5, Enterprise Mobility + Security E3/E5로 구성 된 볼륨 라이선스 (해당 하는 경우)이 포함 되어 있어야 합니다. Windows 10 Enterprise E3/E5 이러한 계획에 대 한 자세한 내용은 [사용자에 게 적합 한 Microsoft 365 솔루션 검색](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)을 참조 하십시오.
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
 
@@ -89,7 +89,7 @@ Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색
 
 - 보안 관리자, 보안 운영자 및 보안 독자는 보안 센터에 액세스할 수 있습니다.
 
- 이러한 역할에 대 한 자세한 내용은 [Permissions in The Office 365 Security _AMP_ 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
+ 이러한 역할에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
  
 다음 표에서는 Azure, Office 365 및 Windows에서 다양 한 포털에 액세스할 수 있는 사람을 요약해 서 보여 줍니다.
 
@@ -118,6 +118,6 @@ Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색
 
 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)
 
-[Office 365 Security & 준수 센터 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+[Office 365 보안 & 준수 센터 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
 
 Microsoft 365 보안 센터 및 Microsoft 365 준수 센터에 대 한 의견을 제공 하려면 (예: 새 기능에 대 한 아이디어) [Microsoft Office에 대 한 고객 의견 365](https://office365.uservoice.com) 을 방문 하세요.
