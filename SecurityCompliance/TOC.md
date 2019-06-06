@@ -77,19 +77,20 @@
 #### [Office 365 메시지 암호화에 대한 Azure 권한 관리 설정](set-up-azure-rms-for-previous-version-message-encryption.md)
 
 # 레코드 관리
-## [파일 플랜 관리자](file-plan-manager.md)
-## [보존 레이블](labels.md)
-### [SEC 규칙 17 a-4 준수](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
+## [레코드 관리](records-management.md)
+## 파일 플랜
+### [파일 플랜 관리자](file-plan-manager.md)
+### [보존 레이블](labels.md)
 ### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-## [이벤트 기반 보존](event-driven-retention.md)
-### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
-## [처리 검토](disposition-reviews.md)
-## 레코드 관리 모니터링
-### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
-### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
-## 레코드 관리에 대한 자세한 내용
-### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
+### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
+### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
+## 이벤트
+### [이벤트 기반 보존](event-driven-retention.md)
+### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
+## [폐기](disposition-reviews.md)
+## 레코드 관리에 대한 자세한 정보
+### [레코드 관리에 대 한 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # 데이터 거버넌스 관리
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
@@ -223,21 +224,6 @@
 ## [Office 365에서 불법 동의 권한 부여 검색 및 교정](detect-and-remediate-illicit-consent-grants.md)
 ## [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 ## [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
-# 레코드 관리
-## [레코드 관리](records-management.md)
-## 파일 플랜
-### [파일 플랜 관리자](file-plan-manager.md)
-### [보존 레이블](labels.md)
-### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
-### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
-### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
-## 이벤트
-### [이벤트 기반 보존](event-driven-retention.md)
-### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
-## [폐기](disposition-reviews.md)
-## 레코드 관리에 대한 자세한 정보
-### [레코드 관리에 대 한 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
 
 # 데이터 거버넌스 관리
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
