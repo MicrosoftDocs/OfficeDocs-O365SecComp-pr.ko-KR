@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 경우를 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 6d4d9a1af20e16453343dd2b68b87b033c46e324
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0b8b82038ef00e135b759b4b818a1bb4bd559cf7
+ms.sourcegitcommit: 34b37d83944dce0a05aa1aacc0d4f7bec55e959f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154630"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "34728625"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -103,7 +103,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
   
 ### <a name="step-3-publish-or-auto-apply-the-label"></a>3단계: 레이블 게시 또는 자동 적용
 
-다른 레이블과 마찬가지로, 콘텐츠에 수동이나 자동으로 적용되도록 이벤트 기반 레이블을 게시하거나 자동으로 적용해야 합니다. 이 작업은 **레이블** 또는 **레이블 정책** 페이지에서 수행할 수 있습니다. 콘텐츠를 기록으로 분류하는 레이블은 게시한 후 콘텐츠에 수동으로 적용할 수만 있습니다. 
+다른 레이블과 마찬가지로 이벤트 기반 레이블을 게시하거나 자동 적용해야만 콘텐츠에 수동 또는 자동으로 적용됩니다. 이는 **레이블** 혹은 **레이블 방침** 페이지에서 적용할 수 있습니다. 
   
 ![레이블 게시 또는 자동 적용 옵션](media/c9232c54-bbc0-40d2-abc2-122d5d1e70af.png)
   
