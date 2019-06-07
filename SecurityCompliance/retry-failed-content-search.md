@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색 문제를 해결 합니다.
-ms.openlocfilehash: ab6f33e00a057ccd9ee7b80e0499b2838855ac83
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 91c656a05111391ad93e03946cf367133f2c25a2
+ms.sourcegitcommit: ff1d18aaddde2048f1cf88338c916295cf8c354e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157070"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748571"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 
@@ -34,7 +34,7 @@ User1@contoso.com: Problem in processing the request. Please try again later. If
 User2@contoso.com: Application error occurred. Please try again later. (CS012-002)
 ```
 
-이러한 오류 (CS008와 CS012-009의 오류 코드 포함)는 콘텐츠 검색에서 특정 콘텐츠 위치를 검색 하지 못했음을 나타냅니다. 이 예에서는 두 사서함이 검색 되지 않습니다. 이러한 오류는 콘텐츠 검색의 상태 세부 정보 플라이 아웃 페이지에 표시 됩니다.
+이러한 오류 (CS001-002, CS003-002, CS008-009, CS012-002 및 기타 오류 코드)는 콘텐츠 검색에서 특정 콘텐츠 위치를 검색 하지 못했음을 나타냅니다. 이 예에서는 두 사서함이 검색 되지 않습니다. 이러한 오류는 콘텐츠 검색의 상태 세부 정보 플라이 아웃 페이지에 표시 됩니다.
 
 ## <a name="cause-of-content-location-errors"></a>콘텐츠 위치 오류 원인
 

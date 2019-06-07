@@ -22,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 합니다.
-ms.openlocfilehash: 1be7db8ad96a5fd0b46500288e674946e763385a
-ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
+ms.openlocfilehash: 4f1449fb97ad8d8f263073c917eed2c399bf4f22
+ms.sourcegitcommit: ff1d18aaddde2048f1cf88338c916295cf8c354e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652531"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748581"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
@@ -40,7 +40,7 @@ Office 365 ATP 안전한 링크 ( [Advanced Threat Protection](office-365-atp.md
   
 ATP 안전한 링크 정책이 마련 되 면 Office 365 전역 관리자, 보안 관리자 및 보안 독자는 [Advanced Threat Protection에 대 한 보고서를 볼](view-reports-for-atp.md)수 있습니다. 이러한 보고서의 정보는 보안 팀이 조직을 보호 하거나 보안 인시던트를 연구 하기 위해 추가 단계를 수행 하는 데 도움이 될 수 있습니다.
 
-[ATP에 새로운 기능을 추가](office-365-atp.md#new-features-in-office-365-atp)하면 Office 365 보안 팀에서 조직의 [ATP 안전한 링크 정책을](set-up-atp-safe-links-policies.md)추가 하거나 편집할 수 있습니다. 또한 새로 수정한 [경고 페이지](atp-safe-links-warning-pages.md) 및 Outlook의 기본 링크 렌더링과 같은 변경 내용과 개선 사항이 있을 수 있습니다.
+[ATP에 새로운 기능을 추가](office-365-atp.md#new-features-in-office-365-atp)하면 Office 365 보안 팀에서 조직의 [ATP 안전한 링크 정책을](set-up-atp-safe-links-policies.md)추가 하거나 편집할 수 있습니다. 또한 새로 수정한 [경고 페이지](atp-safe-links-warning-pages.md) 와 Outlook의 기본 링크 렌더링 (예: Office 365 ProPlus 버전 1809에 도입 됨)과 같은 변경 내용과 개선 사항이 있을 수 있습니다.
          
 ## <a name="how-to-get-atp-safe-links-protection"></a>ATP 안전한 링크 보호를 가져오는 방법
 
