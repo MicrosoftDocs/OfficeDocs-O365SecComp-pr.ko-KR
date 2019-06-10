@@ -100,8 +100,8 @@
 ### [네트워크 업로드를 사용하여 RMS 암호화 PST 파일 가져오기](use-network-upload-to-import-rms-encrypted-pst-files.md)
 ### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
 ### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
-#### [샘플 커넥터를 사용하여 Facebook 데이터를 Office 365에 보관 (미리 보기)](archive-facebook-data-with-sample-connector.md)
-#### [샘플 커넥터를 사용하여 Twitter 데이터 보관 ](archive-twitter-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Facebook 데이터 Office 365에 보관(미리 보기)](archive-facebook-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
