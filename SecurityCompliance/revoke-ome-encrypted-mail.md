@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Office 365 관리자는 Office 365 고급 메시지 암호화로 암호화 된 특정 전자 메일을 해지할 수 있습니다.
-ms.openlocfilehash: 098ce50791152c8bbb4e4692d6fb85e4c2c7cb58
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e55129f68c7add589bd973b36f069d7cdbf631cf
+ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156790"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857618"
 ---
 # <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
 
@@ -27,7 +27,7 @@ ms.locfileid: "34156790"
 
 이 문서는 [Office 365 메시지 암호화](ome.md)에 대 한 보다 광범위 한 문서에 포함 되어 있습니다.
 
-이미 전송 된 전자 메일을 해지 해야 할 수 있습니다. Office 365 고급 메시지 암호화를 사용 하 여 전자 메일을 암호화 했으며 Office 365 관리자 인 경우 특정 조건에 따라 전자 메일에 대해이 작업을 수행할 수 있습니다. 이 문서에서는 가능한 상황 및이를 수행 하는 방법에 대해 설명 합니다.
+Office 365 고급 메시지 암호화를 사용 하 여 메시지를 암호화 했으며 Office 365 관리자 인 경우 특정 조건에서 메시지를 해지할 수 있습니다. 이 문서에서는 해지가 가능한 상황 및 수행 방법에 대해 설명 합니다.
   
 ## <a name="encrypted-emails-that-you-can-revoke"></a>해지할 수 있는 암호화 된 전자 메일
 
@@ -37,7 +37,7 @@ ms.locfileid: "34156790"
 
 ## <a name="recipient-experience-for-revoked-encrypted-emails"></a>해지 된 암호화 전자 메일에 대 한 받는 사람 환경
 
-전자 메일이 해지 되 면 받는 사람이 Office 365 메시지 암호화 포털: "보낸 사람이 메시지를 철회 했습니다."를 통해 암호화 된 전자 메일에 액세스 하려고 할 때 오류가 발생 합니다.
+전자 메일이 해지 되 면 Office 365 메시지 암호화 포털: "보낸 사람이 메시지를 철회 했습니다." 라는 오류가 수신 됩니다.
 
 ![암호화 된 전자 메일을 해지 한 것을 보여 주는 스크린샷](media/revoked-encrypted-email.png)
 
@@ -53,13 +53,13 @@ ms.locfileid: "34156790"
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-message-trace-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 메시지 추적을 사용 하 여 해지할 전자 메일의 메시지 ID를 식별 하려면
 
-1. [Office 365 Security _AMP_ 준수 센터의 새 메시지 추적을](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)사용 하 여 보낸 사람 또는 받는 사람에 대 한 전자 메일을 검색 합니다.
+1. [Office 365 보안 & 준수 센터의 새 메시지 추적을](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)사용 하 여 보낸 사람 또는 받는 사람에 대 한 전자 메일을 검색 합니다.
 
 2. 전자 메일을 찾은 후에는이를 선택 하 여 **메시지 추적 세부 정보** 창을 표시 합니다. **자세한 정보** 를 확장 하 여 메시지 ID를 찾습니다.
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 Office 메시지 암호화 보고서를 사용 하 여 해지할 전자 메일의 메시지 ID를 식별 하려면
 
-1. 보안 &amp; 및 준수 센터에서 **메시지 암호화 보고서**로 이동 합니다.
+1. 보안 &amp; 및 준수 센터에서 **메시지 암호화 보고서**로 이동 합니다. 이 보고서에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)를 참조 하세요.
 
 2. **정보 보기** 테이블을 선택 하 고 해지할 메시지를 식별 합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "34156790"
 
 ### <a name="step-2-verify-that-the-mail-is-revocable"></a>2단계. 메일이 revocable 확인
 
-특정 전자 메일 메시지를 해지할 수 있는지 여부를 확인 하려면 보안 &amp; 및 준수 센터의 **세부 정보** 테이블에 해지 상태 필드가 표시 되는지 여부를 확인 합니다.
+메시지를 취소할 수 있는지 여부를 확인 하려면 보안 &amp; 및 준수 센터의 Details ( **정보** ) 테이블에서 암호화 보고서에 해지 상태 필드를 표시할지 여부를 확인 합니다.
 
 Windows Powershell을 사용 하 여 특정 전자 메일 메시지를 해지할 수 있는지 여부를 확인 하려면 다음 단계를 완료 합니다.
 
@@ -87,11 +87,13 @@ Windows Powershell을 사용 하 여 특정 전자 메일 메시지를 해지할
      “Test message”  True
      ```
 
-### <a name="step-3-revoke-the-mail"></a>3단계. 메일 해지  
+### <a name="step-3-revoke-the-mail"></a>3단계. 메일 해지
 
-해지할 전자 메일의 메시지 ID를 알고 있고 메시지가 revocable 확인 되 면 전자 메일을 해지할 수 있습니다.
+해지할 전자 메일의 메시지 ID를 알고 있고 메시지가 revocable 확인 되 면 보안 &amp; 준수 센터 또는 Windows Powershell을 사용 하 여 전자 메일을 해지할 수 있습니다.
 
-보안 &amp; 및 준수 센터의 전자 메일을 해지 하려면 **세부 정보** 표에서 **해지**를 선택 합니다.
+보안 &amp; 및 준수 센터를 사용 하 여 메시지를 해지 하려면
+
+보안 &amp; 및 준수 센터에서 전자 메일을 해지 하려면 암호화 보고서의 메시지에 대 한 **세부 정보** 테이블에서 **메시지 해지**를 선택 합니다.
 
 OMEMessageRevocation cmdlet을 사용 하 여 Windows Powershell을 사용 하 여 전자 메일을 해지할 수 있습니다.
 

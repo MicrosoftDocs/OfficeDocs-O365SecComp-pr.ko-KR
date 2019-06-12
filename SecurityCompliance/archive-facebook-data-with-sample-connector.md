@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: 관리자는 기본 커넥터를 설정 하 여 Facebook Business 페이지, LinkedIn 회사 페이지 및 인스턴트 Bloomberg 같은 데이터 원본에서 타사 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: 7a71eac07d3d3260809f90cd2e470c32c44e9dda
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 기본 커넥터를 설정 하 여 Facebook Business 페이지, Twitter, LinkedIn 회사 페이지 및 인스턴트 Bloomberg 같은 데이터 원본에서 타사 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
+ms.openlocfilehash: 33972d6d3124841a4cd2636c3d7756ec55f5cfa9
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152190"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852612"
 ---
 # <a name="use-a-sample-connector-to-archive-facebook-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Facebook 데이터 보관 (미리 보기)
 
-Office 365의 Facebook 데이터를 보관 하는 샘플 커넥터 기능은 미리 보기에 있습니다.
+Office 365에서 Facebook 데이터를 보관 하는 샘플 커넥터 기능은 미리 보기에 있습니다.
 
-Office 365의 Security & 준수 센터에 있는 예제 커넥터를 사용 하 여 Facebook Business pages, LinkedIn, Twitter, Bloomberg 등의 타사 데이터 원본에서 데이터를 가져오고 보관 합니다. 샘플 커넥터를 설정 하 고 구성한 후에는 예약 된 방식으로 타사 데이터 원본에 연결 하 고, 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Office 365의 사서함으로 가져옵니다.
+Office 365의 보안 & 준수 센터에 있는 예제 커넥터를 사용 하 여 Facebook Business pages, LinkedIn, Twitter, 인스턴트 Bloomberg 등의 타사 데이터 원본에서 데이터를 가져오고 보관 합니다. 샘플 커넥터를 설정 하 고 구성한 후에는 예약 된 방식으로 타사 데이터 원본에 연결 하 고, 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Office 365의 사서함으로 가져옵니다.
 
 타사 데이터를 가져온 후에는 타사 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 감독 및 Office 365 고정 정책과 같은 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어, 사서함이 소송 보존으로 설정 되거나 할당 되 면 타사 데이터는 유지 됩니다. 콘텐츠 검색을 사용 하 여 타사 데이터를 검색 하거나, 고급 eDiscovery 사례에서 custodian과 연결할 수 있습니다. 샘플 커넥터를 사용 하 여 Office 365에서 타사 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
@@ -39,10 +39,10 @@ Office 365의 Security & 준수 센터에 있는 예제 커넥터를 사용 하 
 
     - [무료 1 년 Azure 구독 등록](https://azure.microsoft.com/free) 
 
-    - [방문 비용 청구 Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
+    - [온-유료 Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > Office 365 구독에 포함 된 [무료 Azure Active Directory 구독은](use-your-free-azure-ad-subscription-in-office-365.md) 보안 _AMP_ 준수 센터의 예제 커넥터를 지원 하지 않습니다.
+    > Office 365 구독에 포함 된 [무료 Azure Active Directory 구독은](use-your-free-azure-ad-subscription-in-office-365.md) 보안 & 준수 센터의 예제 커넥터를 지원 하지 않습니다.
 
 - 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
@@ -85,7 +85,7 @@ Office 365의 Security & 준수 센터에 있는 예제 커넥터를 사용 하 
 
 이 단계를 완료 하는 동안 단계별 지침을 따라 웹 앱 리소스를 만들 때 다음 정보 (이전 단계를 완료 한 후에 텍스트 파일로 복사)를 제공 합니다.
 
-- APISecretKey –이 단계를 완료 하는 동안이 비밀을 만듭니다. 7 단계에서 사용 됩니다.
+- APISecretKey-이 단계를 완료 하는 동안이 비밀을 만듭니다. 7 단계에서 사용 됩니다.
 - StorageAccountConnectionString-3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
 - tenantId-2 단계에서 Azure Active Directory에 Facebook 커넥터 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
 
@@ -95,11 +95,11 @@ Office 365의 Security & 준수 센터에 있는 예제 커넥터를 사용 하 
 
 ## <a name="step-5-register-the-web-app-on-facebook"></a>5 단계: Facebook에서 웹 앱 등록
 
-다음 단계는 Facebook에서 새 앱을 만들고 구성 하는 것입니다. 7 단계에서 만든 사용자 지정 커넥터는 facebook 웹 앱을 사용 하 여 facebook API와 상호 작용 하 여 조직의 Facebook 비즈니스 페이지에서 데이터를 가져옵니다.
+다음 단계는 Facebook에서 새 앱을 만들고 구성 하는 것입니다. 7 단계에서 만든 사용자 지정 커넥터는 facebook 웹 앱을 사용 하 여 Facebook API와 상호 작용 하 여 조직의 Facebook 비즈니스 페이지에서 데이터를 가져옵니다.
 
 단계별 지침은 [Facebook 앱 등록](deploy-facebook-connector.md#step-5-register-the-facebook-app)을 참조 하십시오.
 
-단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 텍스트 파일에 저장 합니다. 이러한 값은 6 단계에서 Facebook 커넥터 앱을 구성 하는 데 사용 됩니다.
+단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 텍스트 파일에 저장 합니다. 이 값은 6 단계에서 Facebook 커넥터 응용 프로그램을 구성 하는 데 사용 됩니다.
 
 - Facebook 응용 프로그램 ID
 - Facebook 응용 프로그램 비밀
@@ -111,7 +111,7 @@ Office 365의 Security & 준수 센터에 있는 예제 커넥터를 사용 하 
 
 단계별 지침은 [6 단계: 커넥터 웹 앱 구성을](deploy-facebook-connector.md#step-6-configure-the-connector-web-app)참조 하십시오.
 
-단계별 지침에 따라이 단계를 완료 하는 동안 이전 단계를 완료 한 후에 텍스트 파일로 복사한 다음 정보를 제공 합니다.
+단계별 지침에 따라이 단계를 완료 하는 동안 이전 단계를 완료 한 후 텍스트 파일에 복사한 다음 정보를 제공 합니다.
 
 - Facebook 응용 프로그램 ID (5 단계에서 가져옴)
 - Facebook 응용 프로그램 비밀 (5 단계에서 가져옴)
@@ -122,11 +122,11 @@ Office 365의 Security & 준수 센터에 있는 예제 커넥터를 사용 하 
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>7 단계: 보안 & 준수 센터에서 사용자 지정 커넥터 설정
 
-마지막 단계에서는 Facebook Business 페이지의 데이터를 Office 365의 지정 된 사서함으로 가져올 보안 & 준수 센터에서 사용자 지정 커넥터를 설정 합니다. 이 단계를 성공적으로 완료 하면 Office 365 가져오기 서비스가 Facebook Business 페이지에서 Office 365로 데이터를 가져오는 프로세스를 시작 합니다. 
+마지막 단계에서는 Facebook Business 페이지의 데이터를 Office 365의 지정 된 사서함으로 가져올 보안 & 준수 센터에서 사용자 지정 커넥터를 설정 합니다. 이 단계를 완료 하면 Office 365 가져오기 서비스가 Facebook Business 페이지에서 Office 365로 데이터를 가져오는 프로세스를 시작 합니다. 
 
-단계별 지침은 [Security _AMP_ 준수 센터에서 사용자 지정 커넥터 설정을](deploy-facebook-connector.md#step-7-set-up-a-custom-connector-in-the-security--compliance-center)참조 하십시오. 
+단계별 지침은 [Security & 준수 센터에서 사용자 지정 커넥터 설정을](deploy-facebook-connector.md#step-7-set-up-a-custom-connector-in-the-security--compliance-center)참조 하십시오. 
 
-단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 제공 합니다 (단계 완료 후 텍스트 파일로 복사).
+이 단계를 완료 하는 동안 단계별 지침에 따라 다음 정보를 입력 합니다 (단계 완료 후에 텍스트 파일로 복사한 내용).
 
 - 4 단계에서 얻은 Azure app service URL (예:https://fbconnector.azurewebsites.net)
 - APISecretKey (4 단계에서 만든 것)

@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: 7c2ea48c4244d2b86f01c89decd4add006f21a5c
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 6603b5a3efdfb6ffde0743d3b674ca69ca39eaa0
+ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157350"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857598"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
@@ -48,14 +48,14 @@ ms.locfileid: "34157350"
 - 
   **모든 사서함에서 정크 메일 규칙 사용** 기본적으로 스팸 필터링 작업은 **정크 메일 폴더로 메시지 이동**으로 설정되어 있습니다. 이것이 기본 설정 및 현재 스팸 정책 작업인 경우 각 사서함에서 [정크 메일 규칙도 사용되도록 설정](https://support.office.com/ko-KR/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)되어야 합니다. 이를 확인하려면 하나 이상의 사서함에 대해 Get-MailboxJunkEmailConfiguration cmdlet을 실행할 수 있습니다. 예를 들어, Get-MailboxJunkEmailConfiguration -Identity \* | Where {$_.Enabled -eq $false}를 실행하여 모든 사서함에 대해 이러한 설정을 확인할 수 있습니다.
     
-    결과에서 Enable 속성이 True로 설정되어야 합니다. False로 설정된 경우 Set-MailboxJunkEmailConfiguration을 실행하여 True로 변경할 수 있습니다.
+    결과에서 Enable 속성이 True로 설정되어야 합니다. False로 설정된 경우 다음과 같이 Set-MailboxJunkEmailConfiguration을 실행하여 True로 변경할 수 있습니다. Set-MailboxJunkEmailConfiguration -Identity $values.UserPrincipalName -Enabled $true.
     
 - **온-프레미스 Exchange Server에서 메일 흐름 규칙 만들기** Exchange Online Protection을 사용하지만 사서함 이 온-프레미스 Exchange 서버에 있는 경우 온-프레미스 Exchange Server에서 몇 가지 메일 흐름 규칙을 만들어야 합니다. [EOP 전용 지침](https://docs.microsoft.com/previous-versions/exchange-server/exchange-150/jj900470(v=exchg.150))을 참조하세요.
     
 - 
   **대량 전자 메일을 스팸으로 표시** 대량 전자 메일은 사용자가 등록했을 수 있지만 여전히 원치 않을 수 있는 전자 메일입니다. 메시지 헤더에서 X-Microsoft-Antispam 헤더의 BCL(대량 불만 수준) 속성을 찾으세요. BCL 값이 스팸 필터에 설정된 임계값보다 낮으면 이러한 유형의 대량 메시지를 스팸으로 대신 표시하도록 임계값을 조정할 수 있습니다. 사용자마다 [대량 전자 메일을 처리하는 방법](https://docs.microsoft.com/ko-KR/office365/SecurityCompliance/bulk-complaint-level-values)에 대해 다른 임계값 및 기본 설정을 사용할 수 있습니다. 사용자 기본 설정마다 다른 정책 또는 규칙을 만들 수 있습니다. 
     
-- **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우 전자 메일 주소, 도메인 또는 IP 주소를 차단할 수 있습니다. [EAC를 사용하여 도메인 또는 사용자가 전송하는 메시지를 차단하는 메일 흐름 규칙 생성](create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365.md#use-the-eac-to-create-a-mail-flow-rule-that-blocks-messages-sent-from-a-domain-or-user)을 참조하세요. 최종 사용자 허용 목록의 항목이 관리자가 설정한 차단 목록을 재정의할 수 있습니다.
+- **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우, 전자 메일 주소, 도메인 또는 IP 주소에 따라 차단할 수 있습니다. [Office 365에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요. 최종 사용자의 허용 목록에 있는 항목은 관리자가 설정한 차단에 따라 재정의될 수 있습니다.
     
 - **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자에 대한 보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
 - **[DKIM](use-dkim-to-validate-outbound-email.md)** 을 사용해 모든 아웃 바운드 메시지에 서명하여 도메인 및 테넌트의 보안을 강화하십시오.

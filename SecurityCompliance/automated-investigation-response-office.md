@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection의 자동화 된 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: af567fc7bf532fde5854e3e2ee3785ca69c3c7ed
-ms.sourcegitcommit: b7c17e1079da4e60404d704864ccbc08f8e4dbb8
+ms.openlocfilehash: bb992a4ebd9bf10f2659929bab4357117ea1c254
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34250321"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852622"
 ---
 # <a name="automated-investigation-and-response-air-with-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -37,11 +37,11 @@ AIR 기능을 사용할 수 있는 경우에 대 한 자세한 내용은 [Micros
 3. 배달 후 제거 된 맬웨어를 포함 하는 전자 메일 메시지 *
 4. 배달 후 제거 된 피싱 Url을 포함 하는 전자 메일 메시지 *
 
-***참고**:이 경고에는 전자 메일 알림이 해제 된 보안 _AMP_ 준수 센터 내의 각 경고 정책에 "정보" 심각도가 할당 되어 있습니다. 이러한 구성은 경고 정책 구성을 통해 설정할 수 있습니다.
+***참고**:이 경고에는 전자 메일 알림이 해제 된 보안 & 준수 센터 내의 각 경고 정책에 "정보" 심각도가 할당 되어 있습니다. 이러한 구성은 경고 정책 구성을 통해 설정할 수 있습니다.
 
 알림을 보려면 보안 & 준수 센터에서 경고 **** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 정보 알림은 기본적으로 경고 보기에 표시 되지 않습니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림을 포함 해야 합니다.
 
-조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 다음을 통해 [해당 시스템에 Office 365 알림 메시지를 보낼 수 있습니다. Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 빠르게 이동할 수 있도록 하는 링크가 포함 됩니다.
+조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 다음을 통해 [해당 시스템에 Office 365 알림 메시지를 보낼 수 있습니다. Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사를 빠르게 탐색할 수 있도록 하는 링크가 포함 됩니다.
 
 ![조사로 연결 되는 경고](media/air-alerts-page-details.png) 
 
@@ -96,7 +96,7 @@ AIR의 일환으로 보안 playbook가 단계별로 배포 됨
 다음으로 몇 가지 위협 조사 및 사냥 단계가 실행 됩니다.
 
 - 다른 전자 메일 클러스터의 유사한 전자 메일 메시지가 검색 됩니다.
-- 신호가 [Windows DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)와 같은 다른 플랫폼과 공유 됩니다.
+- 신호가 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)와 같은 다른 플랫폼과 공유 됩니다.
 - 의심 스러운 전자 메일 메시지에서 모든 사용자가 악의적인 링크를 클릭 했는지 여부가 결정 됩니다.
 - 확인은 Office 365 Exchange Online Protection ([EOP](eop/exchange-online-protection-eop.md)) 및 Office 365 Advanced Threat Protection ([ATP](office-365-atp.md))을 통해 사용자가 보고 하는 다른 유사한 메시지가 있는지를 확인 합니다.
 - 사용자가 손상 되었는지 확인 하는 검사를 수행 합니다. 이 검사는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) 및 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory)간의 신호를 활용 하 여 관련 된 사용자 활동에 대 한 예외를 모두 연관 시킵니다. 
@@ -242,11 +242,12 @@ Office 365 전역 관리자, 보안 관리자 또는 보안 읽기 권한자로 
 
 ![AIR 조사 컴퓨터 페이지](media/air-investigationmachinepage.png)
 
-조사 과정에서 AIR은 전자 메일 위협의 상관 관계를 장치에 맞게 합니다. 예를 들어 조사를 통해 [Windows DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 에 게 조사를 통해 조사할 악성 파일 해시를 전달할 수 있습니다. 이렇게 하면 사용자에 대 한 관련 시스템을 자동으로 조사 하 여 위협이 클라우드 및 끝점에서 모두 해결 되도록 할 수 있습니다. 
+조사 과정에서 AIR은 전자 메일 위협의 상관 관계를 장치에 맞게 합니다. 예를 들어 조사를 통해 조사를 위해 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+) 에 게 악성 파일 해시를 전달 합니다. 이렇게 하면 사용자에 대 한 관련 시스템을 자동으로 조사 하 여 위협이 클라우드 및 끝점에서 모두 해결 되도록 할 수 있습니다. 
 
 예를 들어 다음을 수행할 수 있습니다.
 - 발견 된 현재 컴퓨터 및 위협에 대 한 시각적 개요를 볼 수 있습니다.
-- 컴퓨터를 선택 하 여 Windows Defender ATP 보안 센터에서 관련 [Windows DEFENDER atp 조사](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/automated-investigations-windows-defender-advanced-threat-protection) 로 연결 되는 보기를 엽니다.
+- 컴퓨터를 선택 하 여 Microsoft Defender 보안 센터에서 관련 [Microsoft DEFENDER ATP 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 로 연결 되는 보기를 엽니다.
 
 ### <a name="entity-investigation"></a>엔터티 조사
 

@@ -3,7 +3,6 @@ title: 보안 대시보드 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/19/2019
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +14,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 46f11a4e5693cf243ff72acd6d87406c34af247a
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 78e6a67ace757cca9d25086c601ab4b4437c7bf8
+ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077224"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857668"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -30,7 +29,7 @@ ms.locfileid: "34077224"
   
 비디오를 시청 하 여 개요를 확인 한 다음이 문서를 참조 하 여 자세한 내용을 확인 하세요.
   
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/3540b1f8-62d2-47fa-a07d-d7ad76f55b0f?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1VV3o]
   
 조직의 Office 365 구독에 포함 된 내용에 따라 보안 대시보드에는 위협 관리 요약, 위협 방지 상태, 전역 주간 위협 감지, 맬웨어 등의 여러 widget이 포함 되어 있습니다. 다음과 같은 섹션이 있습니다.
   
@@ -45,10 +44,10 @@ ms.locfileid: "34077224"
 
 ![보안 대시보드-위협 관리 요약 위젯](media/SecDash-ThreatMgmtSummary.png)
 
-위협 관리 요약에 표시 되는 정보는 구독에 포함 된 항목에 따라 달라 집니다. 다음 표에서는 Office 365 Enterprise E3 및 Office 365 Enterprise E5에 포함 된 정보를 설명 합니다.
+위협 관리 요약에 표시 되는 정보는 구독에 포함 된 항목에 따라 달라 집니다. 다음 표에는 Office 365 E3 및 Office 365 E5에 포함 된 정보에 대 한 설명이 나와 있습니다.
 
 
-|Office 365 Enterprise E3  |Office 365 Enterprise E5  |
+|Office 365 E3  |Office 365 E5  |
 |---------|---------|
 |차단 된 맬웨어 메시지<br/>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br><br><br><br> |차단 된 맬웨어 메시지<br>차단 된 피싱 메시지<br>사용자가 보고 한 메시지<br>제로 일 맬웨어 차단<br>검색 된 고급 피싱 메시지<br>차단 된 악의적인 Url |
 

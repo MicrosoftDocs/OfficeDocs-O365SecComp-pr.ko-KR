@@ -16,18 +16,18 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 사용자가 스팸으로 분류 된 Office 365에서 전자 메일을 계속 보내면 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: 7a44ff7f2bcf88f2132ee4c372cc11b9657dd16a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 3e05b250d5a3cdca79c7cf494b84be02ce3ecdc9
+ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157250"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857628"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
 
-사용자가 스팸으로 분류 된 Office 365에서 전자 메일을 계속 보내는 경우 아웃 바운드 메시지를 더 이상 보낼 수 없게 됩니다. 사용자는 잘못 된 아웃 바운드 보낸 사람으로 서비스에 나열 되며 다음과 같은 경우 배달 못 함 보고서 (NDR)를 받게 됩니다.
+사용자가 계속 해 서 Office 365의 스팸으로 분류 된 전자 메일을 보내는 경우 전자 메일을 보낼 수는 없으며 여전히 해당 메시지를 받을 수도 있습니다. 사용자는 잘못 된 아웃 바운드 보낸 사람으로 서비스에 나열 되며 다음과 같은 경우 배달 못 함 보고서 (NDR)를 받게 됩니다.
 
-- 유효한 보낸 사람으로 인식 되지 않아 메시지를 배달할 수 없습니다. 가장 일반적인 이유는 전자 메일 주소가 스팸을 보낼 때 의심 되며, 더 이상 조직 외부에서 메시지를 보낼 수 없게 되기 때문입니다. 도움이 필요 하면 전자 메일 관리자에 게 문의 하세요. 원격 서버에서 ' 550 5.1.8 액세스 거부, 잘못 된 아웃 바운드 보낸 사람 '을 반환 했습니다.
+> "유효한 보낸 사람으로 인식 하지 못했으므로 메시지를 배달할 수 없습니다. 가장 일반적인 이유는 전자 메일 주소가 스팸을 보낼 때 의심 되며 더 이상 전자 메일을 보낼 수 없게 되기 때문입니다.  도움이 필요 하면 전자 메일 관리자에 게 문의 하세요. 원격 서버에서 ' 550 5.1.8 액세스 거부, 잘못 된 아웃 바운드 보낸 사람 "을 반환 했습니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>
@@ -40,14 +40,14 @@ ms.locfileid: "34157250"
 
 ## <a name="remove-restrictions-for-a-blocked-office-365-email-account"></a>차단 된 Office 365 전자 메일 계정에 대 한 제한 제거
 
-SCC (Security & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 한 자세한 내용은 [Security _AMP_ 준수 센터를](go-to-the-securitycompliance-center.md) 참조 하세요. 이러한 기능을 수행 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹에 있어야 합니다. SCC 역할 그룹에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 사용 권한으로 이동](permissions-in-the-security-and-compliance-center.md) 하십시오.
+SCC (보안 & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 한 자세한 내용은 [Security & 준수 센터를](go-to-the-securitycompliance-center.md) 참조 하세요. 이러한 기능을 수행 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹에 있어야 합니다. SCC 역할 그룹에 대 한 자세한 내용은 [Security & 준수 센터의 사용 권한으로 이동](permissions-in-the-security-and-compliance-center.md) 하십시오.
 
 1. Office 365 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Office 365 보안 및 준수 센터에 로그인 하 고 왼쪽에 있는 목록에서 **위협 관리**를 확장 한 다음 **검토**를 선택 하 고 제한 됨을 선택 합니다. ** 사용자**입니다.
     
     > [!TIP]
     > 보안 &amp; 및 준수 센터에서 **제한 된 사용자** 페이지 (이전에는 알림 센터로 알려짐)로 바로 이동 하려면 다음 URL을 사용 합니다. >[https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
 
-2. 이 페이지에는 조직 외부로 메일을 보낼 수 없도록 차단 된 사용자 목록이 포함 됩니다.  제한을 제거할 사용자를 찾은 다음 **차단을 해제**를 클릭 합니다.
+2. 이 페이지에는 전자 메일을 보낼 수 없도록 차단 된 사용자의 목록이 포함 됩니다.  제한을 제거할 사용자를 찾고 **차단 해제**를 선택 합니다.
 
 3. 플라이 아웃은 송신이 제한 된 계정에 대 한 세부 정보로 이동 합니다. 이 권장 사항을 확인 하 여 계정이 실제로 손상 되는 경우 적절 한 조치를 취해야 합니다. 완료 되 면 **다음** 을 클릭 합니다.
 
@@ -56,11 +56,21 @@ SCC (Security & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 �
 5. **예** 를 클릭 하 여 변경 내용을 확인 합니다.
 
     > [!NOTE]
-    > 제한이 제거 될 때까지 최대 30 분이 소요 될 수 있습니다. 
+    > 제한이 제거 되기 전에 30 분 이상 소요 될 수 있습니다. 
 
 ## <a name="making-sure-admins-are-alerted-when-this-happens"></a>이 경우 관리자에 게 경고 합니다.
 
-또한 테 넌 트 관리자는 사용자가 더 이상 아웃 바운드 메시지를 보내지 못하도록 제한 되었다는 경고도 수신 됩니다. 이 알림은 모든 테 넌 트에 대해 제공 되며, "전자 메일을 보내는 사용자 제한" 이라는 SCC 경고 정책 페이지에 나열 됩니다. 경고에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 경고 정책](https://docs.microsoft.com/en-us/office365/securitycompliance/alert-policies) 으로 이동 하세요.
+"전자 메일을 보내는 사용자가 제한 되었습니다." 알림을 Office 365 보안 & 준수 경고 정책 페이지의 정책으로 사용할 수 있습니다. 이전에는 아웃 바운드 스팸 정책 였으 며 이제는 Office 365 경고 플랫폼의 기본이 되었습니다. 경고에 대 한 자세한 내용은 [Security & 준수 센터의 경고 정책](alert-policies.md) 으로 이동 하십시오.
+
+> [!IMPORTANT]
+> 알림이 작동 하려면 감사 로그 검색을 설정 해야 합니다. 자세한 내용은 [Office 365 감사 로그 검색을 설정 또는 해제](turn-audit-log-search-on-or-off.md) 하는 방법을 참조 하세요.
+
+이 경고에 대 한 정책은 기본값 이며 모든 Office 365 테 넌 트와 함께 제공 되며 설정할 필요가 없습니다. 심각도가 높은 경고로 간주 되며, 사용자가 메일을 보낼 수 없을 때마다 경고가 발생 하는 경우 구성 된 TenantAdmins 그룹을 전자 메일로 보냅니다. 관리자는 SCC 포털 > 경고로 이동 하 여 전자 메일을 보낼 수 없도록 하 > 사용자에 게 알림 > 경고를 표시 하 여이 경고가 발생할 경우 알림을 받게 됩니다.
+
+알림을 편집 하 여 다음을 수행할 수 있습니다.
+- 전자 메일 알림 설정/해제
+- 필요한 받는 사람에 게 전자 메일 보내기
+- 하루에 받는 알림 제한
 
 ## <a name="for-more-information"></a>자세한 내용
 
@@ -71,3 +81,5 @@ SCC (Security & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 �
 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)
 
 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
+
+[보안 & 준수 센터의 경고 정책](https://docs.microsoft.com/en-us/office365/securitycompliance/alert-policies)

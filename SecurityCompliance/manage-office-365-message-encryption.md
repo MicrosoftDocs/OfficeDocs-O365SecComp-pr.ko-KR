@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: 5c498c648fb28e6538bfc2fde8bdf50e8e02cbfc
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: f19556f88783eed86bd33a7fdcbd1efae18c3ef3
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155750"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852532"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
-Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, **보호** 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
+Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, **암호화** 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
 
 ## <a name="manage-whether-google-yahoo-and-microsoft-account-recipients-can-use-these-accounts-to-sign-in-to-the-office-365-message-encryption-portal"></a>Google, Yahoo 및 Microsoft 계정 받는 사람이 이러한 계정을 사용 하 여 Office 365 메시지 암호화 포털에 로그인 할 수 있는지 여부를 관리 합니다.
 
@@ -78,11 +78,11 @@ Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가�
    Set-OMEConfiguration -Identity "OME Configuration" -OTPEnabled $true
    ```
 
-## <a name="manage-the-display-of-the-protect-button-in-outlook-on-the-web"></a>웹용 Outlook에서 보호 단추 표시 관리
+## <a name="manage-the-display-of-the-encrypt-button-in-outlook-on-the-web"></a>웹용 Outlook에서 암호화 단추 표시 관리
 
-OME를 설정 하면 웹용 Outlook의 **보호** 단추가 비활성화 됩니다. 관리자는이 단추를 최종 사용자에 게 표시할지 여부를 관리할 수 있습니다.
+관리자는이 단추를 최종 사용자에 게 표시할지 여부를 관리할 수 있습니다.
   
-### <a name="to-manage-whether-the-protect-button-appears-in-outlook-on-the-web"></a>웹에서 Outlook에 보호 단추가 나타나는지 여부를 관리 하려면
+### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>웹에서 Outlook에 암호화 단추를 표시할지 여부를 관리 하려면
   
 1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
 
@@ -92,13 +92,13 @@ OME를 설정 하면 웹용 Outlook의 **보호** 단추가 비활성화 됩니�
    Set-IRMConfiguration -SimplifiedClientAccessEnabled <$true|$false>
    ```
 
-   예를 들어 **보호** 단추를 사용 하지 않으려면 다음을 수행 합니다.
+   예를 들어 **암호화** 단추를 사용 하지 않도록 설정 하려면 다음을 수행 합니다.
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $false
    ```
 
-   **보호** 단추를 사용 하도록 설정 하려면:
+   **암호화** 단추를 사용 하도록 설정 하려면:
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $true
@@ -226,7 +226,7 @@ OME에 대 한 새로운 기능을 사용 하지 않도록 설정 하는 것은 
   
 1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
 
-2. 웹용 Outlook에서 **보호** 단추를 사용 하도록 설정한 경우 SimplifiedClientAccessEnabled 매개 변수를 사용 하 여 Set-IRMConfiguration cmdlet을 실행 하 여 사용 하지 않도록 설정 합니다. 그렇지 않으면이 단계를 건너뜁니다.
+2. 웹용 Outlook에서 **암호화** 단추를 사용 하도록 설정한 경우에는 SimplifiedClientAccessEnabled 매개 변수를 사용 하 여 Set-IRMConfiguration cmdlet을 실행 하 여 사용 하지 않도록 설정 합니다. 그렇지 않으면이 단계를 건너뜁니다.
 
    ```powershell
    Set-IRMConfiguration -SimplifiedClientAccessEnabled $false

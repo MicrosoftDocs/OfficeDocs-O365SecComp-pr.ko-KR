@@ -15,12 +15,12 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 및 시작 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b003805b5732710df88d45662c2a71d6014640e0
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 9be8e33be6445dc960c12c308c56bf9afc7fdd12
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408343"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852582"
 ---
 # <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>위협 조사 및 응답 시작 (Office 365 Advanced Threat Protection 계획 2)
 
@@ -37,7 +37,7 @@ ms.locfileid: "34408343"
   
 ## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>위협 대시보드, 탐색기 및 인시던트 숙지
 
-보안 &amp; 및 준수 센터의 위협 조사 및 응답 기능 화면 [위협 대시보드](#threat-dashboard), [위협 탐색기](#threat-explorer), [인시던트](get-started-with-ti.md#incidents), 공격 등을 비롯 한 도구 및 응답 워크플로 집합 [ 시뮬레이터](attack-simulator.md)및 자동화 된 조사 _AMP_ 응답
+보안 &amp; 및 준수 센터의 위협 조사 및 응답 기능 화면 [위협 대시보드](#threat-dashboard), [위협 탐색기](#threat-explorer), [인시던트](get-started-with-ti.md#incidents), 공격 등을 비롯 한 도구 및 응답 워크플로 집합 [ 시뮬레이터](attack-simulator.md)및 자동화 된 조사 & 응답
   
 ### <a name="threat-dashboard"></a>위협 대시보드
 
@@ -96,7 +96,7 @@ Office 365 위협 Invesigation 및 응답 기능은 Office 365 Advanced Threat P
   |[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
   |인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
   |인시던트에서 전자 메일 작업 트리거  <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제  <br/> |Office 365 전역 관리자 또는 보안 관리자  <br/> 위 역할과 검색 및 제거 (보안 &amp; 및 준수 센터에서 할당 됨) 중 하나  <br/> |
-  |Windows Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합  <br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: Windows Defender Advanced Threat Protection portal 또는 SIEM server)  <br/> |
+  |Microsoft Defender ATP에 Office 365 Advanced Threat Protection 계획 2 통합  <br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: Microsoft Defender 보안 센터 또는 SIEM server)  <br/> |
    
 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
     
@@ -106,7 +106,7 @@ Office 365 위협 Invesigation 및 응답 기능은 Office 365 Advanced Threat P
     
 - [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](investigate-malicious-email-that-was-delivered.md)
     
-- [Windows Defender Advanced Threat Protection을 사용 하 여 Office 365 위협 조사 및 응답 통합](integrate-office-365-ti-with-wdatp.md)
+- [Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 위협 조사 및 응답 통합](integrate-office-365-ti-with-wdatp.md)
     
 - [공격 시뮬레이터에 대 한 자세한 정보](attack-simulator.md)
   

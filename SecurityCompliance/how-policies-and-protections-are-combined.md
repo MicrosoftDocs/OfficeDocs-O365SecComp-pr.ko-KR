@@ -1,7 +1,7 @@
 ---
 title: 메일을 빨간색으로 플래그 지정 했을 때 정책 및 보호 기능 결합 방법
 description: 전자 메일이 맬웨어, 스팸, 높은 신뢰도 스팸, 피싱, EOP 및/또는 ATP에 의해 대량으로 표시 될 때 적용 되는 정책 및 수행 해야 하는 작업을 설명 합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, Windows Defender ATP, Office 365 ATP, Azure ATP
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
 ms.author: tracyp
 author: MSFTTracyp
 manager: laurawi
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 1c2e575a57e1c1118154a912199d9e74cb4ceb4a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e467910e577df46788763dd15f821c09a741e037
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152710"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852502"
 ---
 # <a name="what-policy-applies-when-multiple-protection-methods-and-detection-scans-run-on-your-email"></a>전자 메일에 대해 여러 보호 방법 및 검색 검사가 실행 될 때 적용 되는 정책
 
@@ -29,26 +29,26 @@ ms.locfileid: "34152710"
 
 |우선 순위 |정책  |범주  |관리 되는 위치 |
 |---------|---------|---------|---------|
-|개     | 맬웨어      | MALW      | 맬웨어 정책   |
-|2     | 피싱     | PHSH     | 스팸 필터 정책 구성     |
-|3(sp3)     | 높은 정확도 스팸      | HSPM        | 스팸 필터 정책 구성        |
-|1-4     | 스푸핑        | 스푸핑        | 피싱 방지 정책, 스푸핑 인텔리전스        |
-|2-5     | 스팸         | SPM         | 스팸 필터 정책 구성         |
-|번     | 대량         | 대량        | 스팸 필터 정책 구성         |
+|1      | 맬웨어      | MALW      | 맬웨어 정책   |
+|2      | 피싱     | PHSH     | 스팸 필터 정책 구성     |
+|3      | 높은 정확도 스팸      | HSPM        | 스팸 필터 정책 구성        |
+|4      | 스푸핑        | 스푸핑        | 피싱 방지 정책, 스푸핑 인텔리전스        |
+|5      | 스팸         | SPM         | 스팸 필터 정책 구성         |
+|6      | 대량         | 대량        | 스팸 필터 정책 구성         |
 
 또한 이러한 정책은 _ATP가 있는 조직_에 적용 됩니다.
 
 |우선 순위 |정책  |범주  |관리 되는 위치 |
 |---------|---------|---------|---------|
-|연중     | 도메인 가장         | DIMP         | Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정        |
+|7      | 도메인 가장         | DIMP         | Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정        |
 |8      | 사용자 가장        | UIMP         | Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정         |
 
 예를 들어 각각의 우선 순위를 갖는 두 개의 정책이 있는 경우 다음을 수행 합니다.
 
 |정책  |우선 순위  |사용자/도메인 가장  |스푸핑 방지  |
 |---------|---------|---------|---------|
-|A     | 개        | 켜짐        |해제         |
-|B     | 2        | 해제        | 켜짐        |
+|A     | 1         | 켜짐        |해제         |
+|B     | 2         | 해제        | 켜짐        |
 
 메시지가 _사용자 가장_ 및 _스푸핑_ 으로 식별 되는 경우 (위 표의 스푸핑 방지 참조) 정책 a로 범위가 지정 된 동일한 사용자 집합은 정책 B로 범위가 설정 되 고, 메시지는 해당 메시지로 플래그 처리 되 고 _스푸핑_으로 취급 됩니다. 그러나 스푸핑이 보다 높은 우선 순위 (8)에서 실행 되지만 스푸핑 방지가 해제 되므로 아무 작업도 적용 되지 않습니다.
 
