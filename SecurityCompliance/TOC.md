@@ -100,8 +100,8 @@
 ### [네트워크 업로드를 사용하여 RMS 암호화 PST 파일 가져오기](use-network-upload-to-import-rms-encrypted-pst-files.md)
 ### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
 ### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
-#### [샘플 커넥터를 사용하여 Facebook 데이터 Office 365에 보관(미리 보기)](archive-facebook-data-with-sample-connector.md)
-#### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Twitter 데이터 보관 ](archive-twitter-data-with-sample-connector.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
@@ -153,6 +153,7 @@
 ### [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
 ### [스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)
 ### [스팸 지수](spam-confidence-levels.md)
+### [Exchange Online의 오류 코드 5.7.7xx 수정](fix-error-code-5-7-7xx-in-exchange-online.md)
 #### [메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 #### [분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
 #### [분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
@@ -204,7 +205,7 @@
 #### [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)
 ## 보안 관리 - ATP 사후 설정
 ## [위협 분석을 통해 최신 공격 캠페인 이해하기](latest-attack-campaigns.md)
-## [Microsoft 365 ATP에서 찾기](hunting.md)
+## [Microsoft 365에서 찾기](hunting.md)
 ## [ATP 보고서 보기 및 읽기](view-reports-for-atp.md)
 ## [ATP 안전한 링크 경고 페이지의 의미](atp-safe-links-warning-pages.md)
 ## [위협 트래커 사용](threat-trackers.md)
@@ -214,7 +215,7 @@
 ## [위협 탐색기 (실시간 검출)](threat-explorer.md)
 ### [위협 탐색기 보기](threat-explorer-views.md)
 ## 보안 강화를 위한 통합
-### [Office 365 ATP와 Windows Defender Advanced Threat Protection 통합](integrate-office-365-ti-with-wdatp.md)
+### [Office 365 ATP와 Microsoft Defender ATP 통합](integrate-office-365-ti-with-wdatp.md)
 ### [Office 365 ATP와 SIEM 통합](siem-integration-with-office-365-ti.md)
 ## ATP의 작동 방식
 ### [ATP 안전한 링크가 작동하는 방식](how-atp-safe-links-works.md)
@@ -484,11 +485,12 @@
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
 
 # 보안 및 규정 준수 모니터링
-## [Microsoft 365 보안 센터 모니터링 및 보고](monitoring-and-reporting.md)
-### [Microsoft 365 보안의 ID 모니터링 및 보고](monitor-and-report-identities.md)
-### [Microsoft 365 보안의 데이터 모니터링](monitor-data.md)
-### [Microsoft 365 보안의 디바이스 모니터링](monitor-devices.md)
-### [Microsoft 365 보안의 앱 모니터링](monitor-apps.md)
+## Microsoft 365 보안 센터
+### [보고서 모니터링 및 보기](monitoring-and-reporting.md)
+### [ID 모니터링 및 보고](monitor-and-report-identities.md)
+### [데이터 모니터링 및 보고](monitor-data.md)
+### [디바이스 모니터링 및 보고](monitor-devices.md)
+### [앱 모니터링 및 보고](monitor-apps.md)
 ## [알림 정책](alert-policies.md)
 
 # 메일 흐름
