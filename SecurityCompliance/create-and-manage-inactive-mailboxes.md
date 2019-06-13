@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: 사서함에 보류 또는 Office 365 보존 정책을 적용 한 다음 해당 하는 Office 365 사용자 계정을 삭제 하 여 Office 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 상태가 되기 전에 적용 된 보류 또는 보존 정책의 기간 동안 보존 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 보류 또는 보존 정책을 제거 하면 됩니다.
-ms.openlocfilehash: e07b062f6b77f18589334b141e38edddc5ea18c5
-ms.sourcegitcommit: f88f14999aeb70ecf265cd98eb09a3304b150be8
+ms.openlocfilehash: ca6fc5b579b6974ce89db14d318a6dc5a50f3f5c
+ms.sourcegitcommit: eed9fb363c939168e4bc49698bb34038a54433db
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34768953"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913079"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Office 365에서 비활성 사서함 만들기 및 관리
 
@@ -32,9 +32,9 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 사서함을 비활성 상태로 만들려면 소송 보존 또는 Office 365 보관 정책을 삭제 하기 전에 사서함에 적용할 수 있도록 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. Exchange Online 계획 2 라이선스는 Office 365 Enterprise E3 및 E5 구독의 일부입니다. 사서함에 Office 365 Enterprise E1 구독에 포함 된 Exchange Online 계획 1 라이선스가 할당 된 경우 사서함을 삭제 하기 전에 해당 보존을 적용할 수 있도록 별도의 Exchange Online 보관 라이선스를 할당 해야 합니다. 자세한 내용은 [Exchange Online 아카이빙](https://go.microsoft.com/fwlink/p/?LinkId=286153)를 참조 하세요.
+- 사서함을 비활성 상태로 만들려면 소송 보존 또는 Office 365 보관 정책을 삭제 하기 전에 사서함에 적용할 수 있도록 Exchange Online 계획 2 라이선스를 할당 받아야 합니다. Exchange Online 계획 2 라이선스는 Office 365 Enterprise E3 및 E5 구독의 일부입니다. 사서함에 Office 365 E1 및 F1 구독에 각각 포함 된 Exchange Online 계획 1 또는 Exchange Online Kiosk 라이선스가 할당 되 면 사서함 b에 보존을 적용할 수 있도록 별도의 Exchange Online 보관 라이선스를 할당 해야 합니다. efore it가 삭제 되었습니다. 자세한 내용은 [Exchange Online 아카이빙](https://go.microsoft.com/fwlink/p/?LinkId=286153)를 참조 하세요.
     
-- 해당 하는 Office 365 사용자 계정을 삭제 한 후에는 삭제 된 Exchange Online 사서함과 연결 된 라이선스를 사용할 수 있습니다. 그런 다음 [비즈니스용 Office 365의 사용자에](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 게 다른 사용자에 게 라이선스를 할당할 수 있습니다. 
+- 해당 하는 Office 365 사용자 계정을 삭제 한 후에는 삭제 된 Exchange Online 사서함과 연결 된 라이선스를 사용할 수 있습니다. 그런 다음 [해당 라이선스를 다른 사용자에 게 할당할](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)수 있습니다. 
     
 - 보존 하거나 보존 하 여 콘텐츠를 삭제 하도록 구성 된 소송 보류 또는 Office 365 보존 정책이 삭제 되기 전에 사서함에 적용 되지 않은 경우에는 사서함의 내용이 보존 되거나 검색 되지 않습니다. 그러나 삭제 된 사서함은 삭제 후 30 일 이내에 복구할 수 있지만 사서함과 해당 콘텐츠는 복구 되지 않은 경우 30 일 후 영구적으로 삭제 됩니다.
     
