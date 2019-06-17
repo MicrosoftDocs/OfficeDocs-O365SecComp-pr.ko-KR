@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 2f15201cb4c49a22d7789ffafcdd94b5266bcdd4
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: f3cfdec6521cd5fe0bcb7007b27ce128ae3b2a1d
+ms.sourcegitcommit: 62447503300376aa95dd05fb5276f93a9f6a20b6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153840"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34927581"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
@@ -78,7 +78,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
 1. [https://admin.microsoft.com](https://admin.microsoft.com) 으로 이동 하 여 회사 또는 학교 계정으로 로그인 합니다.
 
-2. **설정 _GT_ Security & 개인 정보**를 클릭 합니다.
+2. **설정 > 보안 & 개인 정보**를 클릭 합니다.
 
     ![관리 센터에서 고객 Lockbox 설정 편집](media/CustomerLockbox2.png)
 
@@ -93,7 +93,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
 1. [https://admin.microsoft.com](https://admin.microsoft.com) 으로 이동 하 여 회사 또는 학교 계정으로 로그인 합니다.
 
-2. **지원 _GT_ 고객 Lockbox 요청**을 클릭 합니다.
+2. **고객 Lockbox 요청 > 지원을**클릭 합니다.
 
     ![지원을 클릭 하 고 고객 Lockbox 요청을 클릭 합니다.](media/CustomerLockbox5.png)
 
@@ -114,7 +114,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 고객 Lockbox 요청에 해당 하는 감사 기록은 Office 365 감사 로그에 기록 되며, Office 365 Security & 준수 센터에서 [감사 로그 검색 도구](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) 를 사용 하 여 액세스할 수 있습니다. 고객 Lockbox 요청을 수락 하거나 거부 하는 사용자와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 Office 365 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
 
 > [!NOTE]
-> Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 자세한 내용은 [Office 365 Security _AMP_ 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하십시오.
+> Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하세요.
 
 ### <a name="search-the-audit-log-for-activity-related-to-customer-lockbox-requests"></a>고객 Lockbox 요청과 관련 된 작업에 대 한 감사 로그 검색
 
@@ -124,7 +124,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
   
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
 
-3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 검토** > **감사 로그 검색**을 클릭 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 조사** > **감사 로그 검색**을 클릭 합니다.
 
     **감사 로그 검색** 페이지가 표시 됩니다.
 
@@ -232,7 +232,7 @@ Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안
 
 #### <a name="if-i-approve-a-customer-lockbox-request-what-can-the-engineer-do-and-how-will-i-know-what-the-microsoft-engineer-did"></a>고객 Lockbox 요청을 승인 하는 경우 엔지니어가 수행할 수 있는 작업과 Microsoft 엔지니어가 수행한 작업을 확인 하는 방법
 
-고객 Lockbox 요청을 승인 하면 Microsoft 엔지니어가 사용자에 게 사전 승인 된 cmdlet을 사용 하 여 고객 콘텐츠에 액세스 하는 데 필요한 권한이 부여 됩니다. 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어가 수행한 작업은 Office 365 보안 & 준수 센터의 감사 로그에서 기록 되 고 액세스할 수 있습니다.
+고객 Lockbox 요청을 승인 하면 Microsoft 엔지니어가 사용자에 게 사전 승인 된 cmdlet을 사용 하 여 고객 콘텐츠에 액세스 하는 데 필요한 권한이 부여 됩니다. 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어가 수행 하는 작업은 Office 365 보안 & 준수 센터의 감사 로그에서 기록 되 고 액세스할 수 있습니다.
 
 #### <a name="how-do-i-know-that-microsoft-follows-the-approval-process"></a>Microsoft가 승인 프로세스를 팔 로우 하는지 어떻게 알 수 있나요?
 
@@ -264,7 +264,7 @@ Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안
 
 고객 Lockbox 요청의 기본 기간은 12 시간입니다. 12 시간 내에 요청에 응답 하지 않으면 요청이 만료 됩니다.
 
-#### <a name="what-does-microsoft-when-a-customer-rejects-a-customer-lockbox-request"></a>고객이 고객 Lockbox 요청을 거부할 경우 Microsoft에서 수행 하는 작업은 무엇입니까?
+#### <a name="what-does-microsoft-do-when-a-customer-rejects-a-customer-lockbox-request"></a>고객이 고객 Lockbox 요청을 거부 한 경우 Microsoft에서 수행 하는 작업은 무엇입니까?
 
 고객이 고객 Lockbox 요청을 거부 하면 고객 콘텐츠에 대 한 액세스 권한이 발생 하지 않습니다. 조직의 사용자가 Microsoft에 문제를 해결 하기 위해 고객 콘텐츠에 액세스 하는 데 필요한 서비스 문제가 계속 발생 하면 서비스 문제가 지속 될 수 있으며 Microsoft는이에 대해 사용자에 게이를 알립니다.
 

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 description: 관리자는 검색 사서함 cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다.
-ms.openlocfilehash: a097b39aa179ed18c3d5426eeeacff204d48ee9b
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1288679c7abb643c020d5b1a2a08ae64b7cb403f
+ms.sourcegitcommit: d20defdcf2ac643f0c8c1f2761b0b7f4f4090e5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158490"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957420"
 ---
 # <a name="search-for-and-delete-messages---admin-help"></a>메시지 검색 및 삭제 - 관리자 도움말
   
@@ -48,7 +48,7 @@ ms.locfileid: "34158490"
     
 - *Searchquery* 매개 변수를 사용 하 여 검색 쿼리를 포함 하는 경우 검색 **사서함** cmdlet은 최대 1만 개의 항목을 검색 결과에 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우 1만 개 보다 많은 항목을 삭제 하려면 **검색 사서함** 명령을 여러 번 실행 해야 할 수 있습니다. 
     
-- 또한 **검색 사서함** cmdlet을 실행 하면 사용자의 보관 사서함도 검색 됩니다. 마찬가지로, _DeleteContent_ 스위치와 함께 **검색 사서함** cmdlet을 사용 하면 기본 보관 사서함의 항목이 삭제 됩니다. 이를 방지 하기 위해 *만드는 경우 donotincludearchive* 스위치를 포함할 수 있습니다. 또한 예기치 않은 데이터 손실이 발생할 수 있으므로 _DeleteContent_ 스위치를 사용 하 여 자동 확장 기능을 사용 하는 Exchange Online 사서함의 메시지를 삭제 하지 않는 것이 좋습니다. 
+- 또한 **검색 사서함** cmdlet을 실행 하면 사용자의 보관 사서함도 검색 됩니다. 마찬가지로, _DeleteContent_ 스위치와 함께 **검색 사서함** cmdlet을 사용 하면 기본 보관 사서함의 항목이 삭제 됩니다. 이를 방지 하기 위해 *만드는 경우 donotincludearchive* 스위치를 포함할 수 있습니다.
     
 ## <a name="search-messages-and-log-the-search-results"></a>메시지 검색 및 검색 결과 기록
 
