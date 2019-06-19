@@ -3,7 +3,7 @@ title: 개발/테스트 환경의 SharePoint Online 사이트 보호
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/09/2019
+ms.date: 06/18/2019
 audience: ITPro
 ms.topic: article
 ms.collection:
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: '요약: 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: 743a008a1d445d63054888499a0a805e546a1a4c
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 148db19c8902735829a5849901723b5f2f200b74
+ms.sourcegitcommit: 3ffd188a7fd547ae343ccf14361c1e4300f88de0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158820"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "35059546"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>개발/테스트 환경의 SharePoint Online 사이트 보호
 
@@ -513,8 +513,8 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
     
 16. **확인**을 클릭합니다.
     
-17. **중요한 정보를 발견 시 어떠한 작업을 수행하시겠습니까?** 창에서 **다음**을 클릭합니다.
-    
+17. **정책을 켤까요 아니면 먼저 테스트를 수행할까요?** 창에서 **예, 지금 켜겠습니다.** 를 클릭하고 **다음**을 클릭합니다.
+
 18. **정책을 켤까요 아니면 먼저 테스트를 수행할까요?** 창에서 **예, 지금 켜겠습니다.** 를 클릭하고 **다음**을 클릭합니다.
     
 19. **설정 검토 창**에서 **만들기**, **닫기**를 차례로 클릭합니다.
