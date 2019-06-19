@@ -3,20 +3,20 @@ title: 정보 장벽 정책 정의
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/13/2019
-ms.audience: ITPro
+ms.date: 06/18/2019
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8d575d0cde4bfec7109cc302f68beaf1040cd894
-ms.sourcegitcommit: eeb51470d8996e93fac28d7f12c6117e2aeb0cf0
+ms.openlocfilehash: 89faf404233f5862df6c95660b38f2886d84462a
+ms.sourcegitcommit: 3ffd188a7fd547ae343ccf14361c1e4300f88de0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34935950"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "35059536"
 ---
 # <a name="define-policies-for-information-barriers-preview"></a>정보 장벽에 대 한 정책 정의 (미리 보기)
 
@@ -48,7 +48,7 @@ ms.locfileid: "34935950"
 |단계    |관련 기능  |
 |---------|---------|
 |[필수 구성 요소를 충족 하는지 확인](#prerequisites)     |- [필요한 라이선스 및 사용 권한이](information-barriers.md#required-licenses-and-permissions) 있는지 확인<br/>-조직의 디렉터리에 조직의 구조를 반영 하는 데이터가 포함 되어 있는지 확인 합니다.<br/>-Microsoft 팀에 대해 범위 디렉터리 검색 사용<br/>-감사 로깅이 설정 되어 있는지 확인<br/>-PowerShell 사용 (예제가 제공 됨)<br/>-Microsoft 팀에 관리자 동의를 제공 합니다 (단계 포함).          |
-|[1 부: 조직의 모든 사용자 분할](#part-1-segment-users)     |-필요한 정책을 결정 합니다.<br/>-정의할 세그먼트 목록을 만듭니다.<br/>-사용할 특성 식별<br/>-정책 필터 용어로 세그먼트를 정의 합니다.        |
+|[1 부: 조직의 사용자 분류](#part-1-segment-users)     |-필요한 정책을 결정 합니다.<br/>-정의할 세그먼트 목록을 만듭니다.<br/>-사용할 특성 식별<br/>-정책 필터 용어로 세그먼트를 정의 합니다.        |
 |[2 부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies)     |-정책 정의 (아직 적용 되지 않음)<br/>-두 종류 (차단 또는 허용)를 선택 합니다. |
 |[3 부: 정보 장벽 정책 적용](#part-3-apply-information-barrier-policies)     |-정책을 활성 상태로 설정<br/>-정책 응용 프로그램 실행<br/>-정책 상태 보기         |
 |(필요한 경우) [세그먼트 또는 정책 편집](#edit-a-segment-or-a-policy)     |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 실행<br/>-정책 상태 보기         |
@@ -104,12 +104,12 @@ ms.locfileid: "34935950"
 
 ### <a name="identify-segments"></a>세그먼트 식별
 
-초기 정책 목록 외에, 조직의 세그먼트 목록을 만듭니다. 조직의 모든 사용자는 세그먼트에 속해야 하며, 사용자는 두 개 이상의 세그먼트에 속해야 합니다. 각 세그먼트에는 하나의 정보 장벽 정책만 적용 될 수 있습니다. 
+초기 정책 목록 외에, 조직의 세그먼트 목록을 만듭니다. 정보 장벽 정책에 포함 될 사용자는 세그먼트에 속해야 하며, 사용자는 둘 이상의 세그먼트에 속해야 합니다. 각 세그먼트에는 하나의 정보 장벽 정책만 적용 될 수 있습니다. 
 
-세그먼트를 정의 하는 데 사용할 조직의 디렉터리 데이터 특성을 결정 합니다. *부서*, *MemberOf*또는 지원 되는 특성을 사용할 수 있습니다. 모든 사용자에 대해 선택한 특성 값이 있는지 확인 합니다. [정보 장벽 (미리 보기)에 대해 지원 되는 특성 목록을 참조 하세요](information-barriers-attributes.md).
+세그먼트를 정의 하는 데 사용할 조직의 디렉터리 데이터 특성을 결정 합니다. *부서*, *MemberOf*또는 지원 되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성에 값이 있는지 확인 합니다. [정보 장벽 (미리 보기)에 대해 지원 되는 특성 목록을 참조 하세요](information-barriers-attributes.md).
 
 > [!IMPORTANT]
-> **다음 섹션을 진행 하기 전에 디렉터리 데이터에 세그먼트를 정의 하는 데 사용할 수 있는 특성 값이 있는지 확인**합니다. 디렉터리 데이터에 사용 하려는 특성의 값이 없는 경우에는 정보 장애물을 계속 하기 전에 해당 정보를 포함 하도록 모든 사용자 계정을 업데이트 해야 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.<br/>- [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)<br/>- [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
+> **다음 섹션을 진행 하기 전에 디렉터리 데이터에 세그먼트를 정의 하는 데 사용할 수 있는 특성 값이 있는지 확인**합니다. 사용할 특성 값이 디렉터리 데이터에 없는 경우에는 정보 장애물을 계속 하기 전에 해당 정보를 포함 하도록 사용자 계정을 업데이트 해야 합니다. 이에 대 한 도움말을 보려면 다음 리소스를 참조 하세요.<br/>- [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)<br/>- [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용 하 여 세그먼트 정의
 
@@ -128,7 +128,7 @@ ms.locfileid: "34935950"
     각 cmdlet을 실행 하면 새 세그먼트에 대 한 세부 정보 목록이 표시 됩니다. 세부 정보에는 세그먼트의 유형, 작성자가 작성 하거나 마지막으로 수정한 사람 등이 포함 됩니다. 
 
 > [!IMPORTANT]
-> **세그먼트가 겹치지 않는지 확인**합니다. 조직의 각 사용자는 하나의 세그먼트에만 속해야 합니다. 두 개 이상의 세그먼트에 속해야 하는 사용자가 없습니다. 세그먼트는 조직의 모든 사용자에 대해 정의 해야 합니다. (예제:이 문서에 나와 있는 [Contoso의 정의 된 세그먼트](#contosos-defined-segments) 참조)
+> **세그먼트가 겹치지 않는지 확인**합니다. 정보 장벽에 영향을 받게 되는 각 사용자는 하나의 세그먼트에만 속해야 합니다. 두 개 이상의 세그먼트에 속해야 하는 사용자가 없습니다. (예제:이 문서에 나와 있는 [Contoso의 정의 된 세그먼트](#contosos-defined-segments) 참조)
 
 세그먼트를 정의한 후에는 정보 장벽 정책 정의로 이동 합니다.
 
