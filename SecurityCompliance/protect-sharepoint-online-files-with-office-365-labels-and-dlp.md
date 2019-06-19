@@ -3,7 +3,7 @@ title: 보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/29/2019
+ms.date: 06/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: '요약: 다양한 정보 보호 수준을 통해 SharePoint Online 팀 사이트에 보존 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.'
-ms.openlocfilehash: 118911f6430c9ae79dec1fa4a32cd0ba8fa536da
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 72912cce6c6856b048df420a8d449d3d710ed40e
+ms.sourcegitcommit: 3ffd188a7fd547ae343ccf14361c1e4300f88de0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156900"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "35059556"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 
@@ -116,7 +116,7 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
     
 구성 결과는 다음과 같습니다.
   
-![SharePoint Online 팀 사이트의 네 가지 유형에 대한 보존 레이블입니다.](media/e0a4fdd2-1c30-4d93-8af4-a6f0c6c29966.png)
+![SharePoint Online 팀 사이트의 4가지 유형에 대한 보존 레이블입니다.](media/e0a4fdd2-1c30-4d93-8af4-a6f0c6c29966.png)
   
 ## <a name="dlp-policies-for-your-sharepoint-online-sites"></a>SharePoint Online 사이트에 대한 DLP 정책
 
@@ -167,7 +167,7 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
     
 결과적으로 중요 SharePoint Online 팀 사이트에 대한 구성은 다음과 같습니다.
   
-![중요한 보존 레이블을 사용하는 격리된 SharePoint Online 팀 사이트의 DLP 정책입니다.](media/2ff4cc53-87a8-43e3-b637-3068d88409f3.png)
+![중요 보존 레이블을 사용하는 격리된 SharePoint Online 팀 사이트의 DLP 정책](media/2ff4cc53-87a8-43e3-b637-3068d88409f3.png)
   
 그리고 나서 다음 단계를 사용하여 사용자가 조직 외부의 극비 SharePoint Online 팀 사이트에서 문서를 공유할 때 다른 사용자를 차단하는 DLP 정책을 구성합니다.
   
@@ -205,7 +205,7 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
     
 16. **확인**을 클릭합니다.
     
-17. **중요한 정보를 발견 시 어떠한 작업을 수행하시겠습니까?** 창에서 **다음**을 클릭합니다.
+17. **중요한 정보를 발견 시 어떠한 작업을 수행하시겠습니까?** 창의 **한 번에 특정 양의 중요한 정보가 공유되는 경우 감지** 아래에서, **액세스 제한 또는 콘텐츠 암호화**를 클릭하고 **다음**을 클릭합니다.
     
 18. **정책을 켤까요 아니면 먼저 테스트를 수행할까요?** 창에서 **예, 지금 켜겠습니다.** 를 클릭하고 **다음**을 클릭합니다.
     
@@ -213,7 +213,7 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
     
 결과적으로 극비 SharePoint Online 팀 사이트에 대한 구성은 다음과 같습니다.
   
-![높은 수준의 기밀 보존 레이블을 사용하는 격리된 SharePoint Online 팀 사이트의 DLP 정책입니다.](media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
+![높은 수준의 기밀 보존 레이블을 사용하는 격리된 SharePoint Online 팀 사이트의 DLP 정책](media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
   
 ## <a name="next-step"></a>다음 단계
 
