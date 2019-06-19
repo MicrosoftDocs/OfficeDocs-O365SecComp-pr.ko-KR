@@ -101,7 +101,8 @@
 ### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
 ### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
 #### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
-#### [샘플 커넥터를 사용하여 Twitter 데이터 보관 ](archive-twitter-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
+#### [LinkedIn 데이터를 보관할 커넥터 설정](archive-linkedin-data.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
@@ -242,7 +243,8 @@
 ### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
 ### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
 #### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
-#### [샘플 커넥터를 사용하여 Twitter 데이터 보관 ](archive-twitter-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
+#### [LinkedIn 데이터를 보관할 커넥터 설정](archive-linkedin-data.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
