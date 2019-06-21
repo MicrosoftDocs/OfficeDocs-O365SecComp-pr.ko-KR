@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fb162e380fa467cf3e832bd7bbdafcde136b1db6
-ms.sourcegitcommit: 087cf1a022b13c46e207270d6837f09a9752c972
+ms.openlocfilehash: fd091ce213159363a11d9dce378e38f55e132c89
+ms.sourcegitcommit: b00c8fe1827d24f055a3076c10f284ff9ee3e04b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 06/20/2019
-ms.locfileid: "35083866"
+ms.locfileid: "35113252"
 ---
 # <a name="define-policies-for-information-barriers-preview"></a>정보 장벽에 대 한 정책 정의 (미리 보기)
 
@@ -134,7 +134,7 @@ ms.locfileid: "35083866"
 
 ### <a name="using-equals-and-not-equals-in-segment-definitions"></a>세그먼트 정의에서 "같음" 및 "같지 않음" 사용
 
-위에 표시 된 첫 번째 예에서는 논리를 포함 하는 세그먼트를 정의 했으며 *부서는 HR과 같습니다*. 다음 예제와 같이 "같지 않음" 매개 변수를 사용 하 여 세그먼트를 정의할 수도 있습니다.
+위에 표시 된 첫 번째 예에서는 "부서가 HR과 일치" 라는 세그먼트를 정의 했습니다. 이 세그먼트에는 "equals" 매개 변수가 포함 되어 있습니다. 다음 예제와 같이 "같지 않음" 매개 변수를 사용 하 여 세그먼트를 정의할 수도 있습니다.
 
 구문과`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`
 
