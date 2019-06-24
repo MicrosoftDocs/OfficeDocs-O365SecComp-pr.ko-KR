@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게만 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에만 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 43948106c69f2a49ce36631acc9d14365d8a2eb9
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 8abb14550df526d702854e43ae1e25496bf390d4
+ms.sourcegitcommit: c603a07d24c4c764bdcf13f9354b3b4b7a76f656
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156970"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131400"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -78,11 +78,14 @@ Sharepoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 정책이 적용되는 라이브러리, 목록, 폴더 또는 사이트를 삭제하려고하면 오류가 발생합니다. 사용자는 정책의 대상인 폴더에서 파일을 처음으로 이동하거나 삭제하면 폴더를 삭제할 수 있습니다. 또한 보존 라이브러리는 보존 정책을 만들 때가 아니라 라이브러리에 첫 번째 항목을 복사해야하는 경우에만 만들어집니다. 따라서 정책을 테스트하려면 먼저 정책이 적용되는 사이트에서 문서를 편집하거나 삭제한 다음 보존 라이브러리로 이동하여 보존된 복사본을 확인해야합니다.
   
-![SharePoint 및 OneDrive의 보존 흐름 다이어그램](media/858702f8-5a09-4464-86d0-3b16fed800f3.png)
+![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램](Retention_Diagram_of_retention_flow_in_sites.png)
   
 보존 정책이 OneDrive 계정 또는 SharePoint 사이트에 할당되면 콘텐츠는 다음 두 가지 경로 중 하나를 따를 수 있습니다.
   
-1. **보존 기간 동안 콘텐츠가 수정되거나 삭제되는 경우** 보존 정책이 할당되었을 때 존재하던 원본 콘텐츠의 사본이 자료 보존 라이브러리에 만들어집니다. 여기에서 타이머 작업이 주기적으로 실행되고 해당 보존 기간이 만료된 항목을 식별되며, 이러한 항목은 보존 기간이 종료되고 7일 이내에 영구적으로 삭제됩니다. 
+1. 보존 기간 내에 **콘텐츠가 수정되거나 삭제되면** 보존 정책이 적용된 시점과 동일한 원본 콘텐츠의 사본이 자료 보존 라이브러리에 생성됩니다. 여기에서 타이머 작업이 주기적으로 실행되며 보존 기간이 만료된 항목을 식별합니다. 식별된 항목은 93일 만료 시 영구적으로 삭제되는 2단계 휴지통으로 이동합니다. 2단계 휴지통은 최종 사용자에게 표시되지 않습니다(1단계 휴지통에만 해당). 하지만 사이트 모음 관리자는 해당 사이트에서 콘텐츠를 보고 복원할 수 있습니다.
+
+    > [!NOTE]
+    > 최근 보존 라이브러리에서 콘텐츠를 삭제하는 방법을 변경했습니다. 실수로 데이터가 손실되는 것을 방지하기 위해 더 이상 보존 라이브러리의 콘텐츠를 영구적으로 삭제하지 않습니다. 대신 휴지통에서 콘텐츠를 영구적으로 삭제 합니다. 이제는 보존 라이브러리의 모든 콘텐츠가 2단계 휴지통을 거칩니다.
     
 2. **보존 기간 동안 콘텐츠 수정되거나 삭제되지 않는 경우** 보존 기간이 끝나면 1단계 휴지통으로 이동됩니다. 사용자가 여기에서 해당 콘텐츠를 삭제하거나 이 휴지통을 비우면(제거라고도 함) 문서는 2단계 휴지통으로 이동됩니다. 93일의 보존 기간은 1단계 및 2단계 휴지통 둘 다에 걸쳐 적용됩니다. 93일이 끝나면 문서는 해당 위치(1단계 또는 2단계 휴지통)에서 영구적으로 삭제됩니다. 휴지통은 인덱싱되지 않으므로 검색 시 해당 위치에서 콘텐츠가 검색되지 않습니다. 즉, eDiscovery 보존 기능은 휴지통에 있는 콘텐츠를 보류하기 찾을 수 없습니다. 
     
@@ -102,7 +105,7 @@ Sharepoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 정책이 사서함 또는 공용 폴더에 할당되면 콘텐츠는 다음 두 가지 경로 중 하나를 따를 수 있습니다.
   
-1. **보존 기간 동안 사용자가 항목을 수정하거나 영구적으로 삭제하는 경우**(Shift + Delete 사용 또는 지운 편지함에서 삭제) 항목은 복구 가능한 항목 폴더로 이동(또는 편집의 경우 복사)됩니다. 여기에서 프로세스가 주기적으로 실행되고 보존 기간이 만료된 항목이 식별되며, 이러한 항목은 보존 기간이 끝나고 14일 이내에 영구적으로 삭제됩니다. 14일은 기본 설정이지만 최대 30일로 구성할 수 있습니다. 
+1. **보존 기간 동안 사용자가 항목을 수정하거나 영구적으로 삭제하는 경우**(Shift + Delete 사용 또는 지운 편지함에서 삭제) 항목은 복구 가능한 항목 폴더로 이동(또는 편집의 경우 복사)됩니다. 여기에서 프로세스가 주기적으로 실행되고 보존 기간이 만료된 항목이 식별되며, 이러한 항목은 보존 기간이 끝나고 14일 이내에 영구적으로 삭제됩니다. 14일은 기본 설정이지만 최대 30일로 구성할 수 있습니다.
     
 2. **보존 기간 동안 항목이 수정되거나 삭제되지 않는 경우** 동일한 프로세스가 사서함의 모든 폴더에 대해 주기적으로 실행되고 보존 기간이 만료된 항목이 식별되며, 이러한 항목은 보존 기간이 끝나고 14일 이내에 영구적으로 삭제됩니다. 14일은 기본 설정이지만 최대 30일로 구성할 수 있습니다. 
     
@@ -260,7 +263,8 @@ Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-poli
 PowerShell을 사용하여 특정 유형의 Exchange 항목을 보존 정책에서 제외할 수 있습니다. 예를 들어, 사서함의 음성 메일 메시지, 메신저 대화 및 기타 비즈니스용 Skype Online 콘텐츠를 제외할 수 있습니다. 또한 일정, 메모 및 작업 항목도 제외할 수 있습니다. 이 기능은 PowerShell을 통해서만 사용할 수 있으며 보존 정책을 만들 때 UI에서 사용할 수 없습니다.
   
 이를 수행하려면 `New-RetentionComplianceRule` 및 `Set-RetentionComplianceRule` cmdlet의 `ExcludedItemClasses` 매개 변수를 사용합니다. PowerShell에 대한 자세한 내용은 아래의 [보존 정책에 대한 PowerShell cmdlet 찾기](#find-the-powershell-cmdlets-for-retention-policies) 섹션을 참조하세요.
-  
+
+
 ## <a name="locking-a-retention-policy"></a>보존 정책 잠그기
 일부 조직에서는 SEC(Securities and Exchange Commission) 규칙 17a-4와 같은 규제 기구에서 정의한 규칙을 준수해야 합니다. 따라서 예약 정책을 켠 후에는 끄거나 덜 제한적인 정책으로 변경할 수 없습니다. 보존 잠금을 사용하면 정책을 잠가 관리자를 비롯한 어느 누구도 정책을 해제하거나 덜 제한적으로 만들지 못하게 할 수 있습니다.
   
@@ -294,6 +298,24 @@ cmdlet을 실행하면 확인 메시지가 표시됩니다. **모두 예**를 �
 
 ![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](media/retention-policy-preservation-lock-locked-policy.PNG)
   
+## <a name="releasing-a-retention-policy"></a>보존 정책 해제
+
+언제든지 보존 정책을 끄거나 삭제할 수 있습니다. 이렇게 하면 보존되는 모든 SharePoint 또는 OneDrive 콘텐츠가 바로 영구적으로 삭제되지 않습니다. 실수로 데이터가 손실되는 것을 방지하기 위해 30일간의 유예 기간이 있습니다. 이 기간에는 보존 Hold 라이브러리에서 해당 정책에 대한 콘텐츠 만료가 발생하지 않으므로 필요한 경우 콘텐츠를 복원할 수 있습니다. 또한 유예 기간 동안 보존 정책을 다시 켜면 해당 정책에 대한 콘텐츠가 삭제되지 않습니다. 이 유예 기간은 PowerShell을 사용하여 구성할 수 있습니다.
+
+우선 [Office 365 보안 및 준수 센터 PowerShell에 연결](http://go.microsoft.com/fwlink/p/?LinkID=799771)합니다.
+
+그런 다음 이 PowerShell 스크립트를 실행 합니다. 테넌트 구독 설정의 `ip_tenantGracePeriodInDays` 속성을 0-100일 사이의 값으로 설정할 수 있습니다. 이를 0으로 설정하면 유예 기간이 없으며 보존 정책이 즉시 해제됩니다. 
+
+`
+$siteSubscription = Get-SPSiteSubscription -Identity 
+$siteSubScriptionId 
+$siteSubSettingsMgr = [Microsoft.SharePoint.SPSiteSubscriptionSettingsManager]::Local
+$properties = $siteSubSettingsMgr.GetProperties($siteSubscription)
+$properties.SetValue("ip_tenantGracePeriodInDays",  30)
+`
+
+SharePoint와 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연 기간에 해당합니다. 자세한 내용은 [지연되는 사서함 관리](https://docs.microsoft.com/ko-KR/office365/securitycompliance/identify-a-hold-on-an-exchange-online-mailbox#managing-mailboxes-on-delay-hold)를 참조하세요.
+
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>보존 원칙 또는 우선 순위
 
 콘텐츠에 각기 다른 작업(보존, 삭제 또는 둘 다) 및 보존 기간을 지정하는 여러 보존 정책이 적용될 수 있습니다. 우선 순위는 어떨까요? 분명한 것은 가장 높은 수준에서 한 정책을 통해 보존되는 콘텐츠가 다른 정책에 의해 영구적으로 삭제될 수 없다는 것입니다.

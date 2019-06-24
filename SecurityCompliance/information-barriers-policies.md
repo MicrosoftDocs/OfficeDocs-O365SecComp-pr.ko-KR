@@ -3,7 +3,7 @@ title: 정보 장벽 정책 정의
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/19/2019
+ms.date: 06/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fd091ce213159363a11d9dce378e38f55e132c89
-ms.sourcegitcommit: b00c8fe1827d24f055a3076c10f284ff9ee3e04b
+ms.openlocfilehash: 4f63d79f59741f74d2ac8167a8cd86717c6f9ec4
+ms.sourcegitcommit: c603a07d24c4c764bdcf13f9354b3b4b7a76f656
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35113252"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131382"
 ---
 # <a name="define-policies-for-information-barriers-preview"></a>정보 장벽에 대 한 정책 정의 (미리 보기)
 
@@ -264,7 +264,9 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 
     구문과`Stop-InformationBarrierPoliciesApplication -Identity GUID`
 
-    예제: `InformationBarrierPoliciesApplication -Identity 46237888-12ca-42e3-a541-3fcb7b5231d1`
+    예제: `Stop-InformationBarrierPoliciesApplication -Identity 46237888-12ca-42e3-a541-3fcb7b5231d1`
+
+    이 예에서는 정보 장벽 정책이 적용 되지 않도록 중지 합니다.
 
 ## <a name="edit-a-segment-or-a-policy"></a>세그먼트 또는 정책 편집
 
