@@ -27,7 +27,7 @@
 # [정보를 보호](protect-information.md)
 ## [민감도 레이블](sensitivity-labels.md)
 ### [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)
-### [민감도 레이블을 콘텐츠에 자동으로 적용](apply_sensitivity_label_automatically.md)
+### [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
 
 ## [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
@@ -537,7 +537,9 @@
 ## [정보 장벽 (미리 보기)](information-barriers.md)
 ### [정보 장벽 정책 정의 (미리 보기)](information-barriers-policies.md)
 ### [정보 장벽 정책의 속성 (미리 보기)](information-barriers-attributes.md)
-### [정보 장벽 문제 해결 (미리 보기)](information-barriers-troubleshooting.md)
+### [정보 장벽 문제 해결(미리 보기)](information-barriers-troubleshooting.md)
+### [정보 장벽 정책 편집 또는 제거(미리 보기)](information-barriers-edit-segments-policies.md.md)
+
 
 ## 고객 키
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
