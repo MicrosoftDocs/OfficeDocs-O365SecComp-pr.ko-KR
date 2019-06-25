@@ -3,7 +3,7 @@ title: 정보 장벽 정책 정의
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/21/2019
+ms.date: 06/24/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4f63d79f59741f74d2ac8167a8cd86717c6f9ec4
-ms.sourcegitcommit: c603a07d24c4c764bdcf13f9354b3b4b7a76f656
+ms.openlocfilehash: f6a570675130410acc702ef9f8ca99bf87b7501b
+ms.sourcegitcommit: 7c48ce016fa9f45a3813467f7c5a2fd72f9b8f49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131382"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203737"
 ---
 # <a name="define-policies-for-information-barriers-preview"></a>정보 장벽에 대 한 정책 정의 (미리 보기)
 
@@ -29,20 +29,6 @@ ms.locfileid: "35131382"
 > [!TIP]
 > 이 문서에는 정보 장벽 정책을 계획 하 고 정의 하는 데 도움이 되는 [예제 시나리오](#example-contosos-departments-segments-and-policies) 및 [다운로드 가능한 Excel 통합 문서가](https://github.com/MicrosoftDocs/OfficeDocs-O365SecComp/raw/public/SecurityCompliance/media/InfoBarriers-PowerShellGenerator.xlsx) 포함 되어 있습니다.
 
-## <a name="concepts-of-information-barrier-policies"></a>정보 장벽 정책의 개념
-
-정보 장벽 정책의 기본 개념을 이해 하는 데 도움이 됩니다.
-
-- **사용자 계정 특성** 은 Azure Active Directory (또는 Exchange Online)에서 정의 됩니다. 이러한 특성에는 부서, 직함, 위치, 팀 이름 및 기타 작업 프로필 정보가 포함 될 수 있습니다. 
-
-- **세그먼트** 는 선택한 **사용자 계정 특성**을 사용 하 여 Office 365 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
-
-- **정보 장벽 정책** 에 따라 통신 제한 또는 제한이 결정 됩니다. 정보 장벽 정책을 정의할 때는 두 가지 정책 유형 중에서 선택 합니다.
-    - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신 하지 못하도록 합니다.
-    - "허용" 정책은 한 세그먼트가 다른 특정 세그먼트와도 통신할 수 있도록 허용 합니다.
-
-- **정책 응용 프로그램** 은 모든 정보 장벽 정책이 정의 된 후에 수행 되며, 조직에 적용할 준비가 된 것입니다.
-
 ## <a name="the-work-flow-at-a-glance"></a>작업 흐름 살펴보기
 
 |단계    |관련 기능  |
@@ -51,7 +37,7 @@ ms.locfileid: "35131382"
 |[1 부: 조직의 사용자 분류](#part-1-segment-users)     |-필요한 정책을 결정 합니다.<br/>-정의할 세그먼트 목록을 만듭니다.<br/>-사용할 특성 식별<br/>-정책 필터 용어로 세그먼트를 정의 합니다.        |
 |[2 부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies)     |-정책 정의 (아직 적용 되지 않음)<br/>-두 종류 (차단 또는 허용)를 선택 합니다. |
 |[3 부: 정보 장벽 정책 적용](#part-3-apply-information-barrier-policies)     |-정책을 활성 상태로 설정<br/>-정책 응용 프로그램 실행<br/>-정책 상태 보기         |
-|(필요한 경우) [세그먼트 또는 정책 편집](#edit-a-segment-or-a-policy)     |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 실행<br/>-정책 상태 보기         |
+|(필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md.md)    |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 다시 실행<br/>-정책 상태 보기         |
 |(필요한 경우) [문제 해결](information-barriers-troubleshooting.md)|-항목이 정상적으로 작동 하지 않을 때 작업 수행|
 
 ## <a name="prerequisites"></a>필수 구성 요소
@@ -113,38 +99,44 @@ ms.locfileid: "35131382"
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용 하 여 세그먼트 정의
 
-세그먼트를 정의 해도 사용자에 게 영향을 주지 않습니다. 정보 장벽 정책을 정의 하 고 적용 하기 위한 단계를 설정 하기만 하면 됩니다.
-
-조직 세그먼트를 정의 하려면 사용 하려는 [특성](information-barriers-attributes.md) 에 해당 하는 **usergroupfilter** 매개 변수와 함께 **OrganizationSegment** cmdlet을 사용 합니다.
-
-구문과`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`
-
-예제: `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`
-
-이 예제에서는 hr을 사용 하 ** 여 인사부 라는 세그먼트 ** 를 정의 하 고 *부서* 특성에 값을 지정 합니다. Cmdlet의 "-eq" 부분은 "같음"을 참조 합니다.
-
-정의 하려는 각 세그먼트에 대해이 프로세스를 반복 합니다.
-
-각 cmdlet을 실행 하면 새 세그먼트에 대 한 세부 정보 목록이 표시 됩니다. 세부 정보에는 세그먼트의 유형, 작성자가 작성 하거나 마지막으로 수정한 사람 등이 포함 됩니다. 
-
 > [!IMPORTANT]
 > **세그먼트가 겹치지 않는지 확인**합니다. 정보 장벽에 영향을 받게 되는 각 사용자는 하나의 세그먼트에만 속해야 합니다. 두 개 이상의 세그먼트에 속해야 하는 사용자가 없습니다. (예제:이 문서에 나와 있는 [Contoso의 정의 된 세그먼트](#contosos-defined-segments) 참조)
 
-세그먼트를 정의한 후에는 정보 장벽 정책 정의로 이동 합니다.
+세그먼트를 정의 해도 사용자에 게 영향을 주지 않습니다. 정보 장벽 정책을 정의 하 고 적용 하기 위한 단계를 설정 하기만 하면 됩니다.
+
+1. 사용 하려는 [특성](information-barriers-attributes.md) 에 해당 하는 **usergroupfilter** 매개 변수와 함께 **OrganizationSegment** cmdlet을 사용 합니다.
+    
+    구문과`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"`
+    
+    예제: `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`
+    
+    이 예제에서는 hr을 사용 하 ** 여 인사부 라는 세그먼트 ** 를 정의 하 고 *부서* 특성에 값을 지정 합니다. Cmdlet의 **-eq** 부분은 "equals"를 참조 합니다. 또는 **-ne** 를 사용 하 여 "같지 않음"을 계산할 수도 있습니다. [세그먼트 정의에서 "같음" 및 "같지 않음" 사용](#using-equals-and-not-equals-in-segment-definitions)을 참조 하십시오.
+
+    각 cmdlet을 실행 하면 새 세그먼트에 대 한 세부 정보 목록이 표시 됩니다. 세부 정보에는 세그먼트의 유형, 작성자가 작성 하거나 마지막으로 수정한 사람 등이 포함 됩니다. 
+
+2. 정의 하려는 각 세그먼트에 대해이 프로세스를 반복 합니다.
+
+세그먼트를 정의한 후에는 [정보 장벽 정책 정의](#part-2-define-information-barrier-policies)로 이동 합니다.
 
 ### <a name="using-equals-and-not-equals-in-segment-definitions"></a>세그먼트 정의에서 "같음" 및 "같지 않음" 사용
 
-위에 표시 된 첫 번째 예에서는 "부서가 HR과 일치" 라는 세그먼트를 정의 했습니다. 이 세그먼트에는 "equals" 매개 변수가 포함 되어 있습니다. 다음 예제와 같이 "같지 않음" 매개 변수를 사용 하 여 세그먼트를 정의할 수도 있습니다.
+다음 예제에서는 "부서가 HR과 같음"을 나타내는 세그먼트를 정의 합니다. 
 
-구문과`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`
+**예**:`New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"`
 
-예제: `New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`
+세그먼트 정의에 **-eq**로 표시 된 "equals" 매개 변수가 포함 되어 있습니다. 
 
-이 예에서는 Sales에 없는 모든 사용자를 포함 하는 NotSales 라는 세그먼트를 정의 했습니다. Cmdlet의 "-ne" 부분은 "같지 않음"을 참조 합니다.
+다음 예제와 같이 "같지 않음" 매개 변수를 사용 하 여 세그먼트 **** 를 정의할 수도 있습니다.
 
-또한 "같음" 및 "같지 않음" 매개 변수를 모두 사용 하 여 세그먼트를 정의할 수 있습니다.
+**구문**:`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`
 
-예제: `New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" and "Position -ne 'Temporary'"`
+**예**:`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`
+
+이 예에서는 *sales*에 없는 모든 사용자를 포함 하는 *notsales* 라는 세그먼트를 정의 했습니다. Cmdlet의 **-ne** 부분은 "같지 않음"을 참조 합니다.
+
+"같음" 또는 "같지 않음"을 사용 하 여 세그먼트를 정의 하는 것 외에도 "같음" 및 "같지 않음" 매개 변수를 모두 사용 하 여 세그먼트를 정의할 수 있습니다.
+
+**예**:`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" and "Position -ne 'Temporary'"`
 
 이 예에서는 로컬로 위치 하 고 위치가 *임시*로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.
 
@@ -250,117 +242,6 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 |가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
 |모든 정보 장벽 정책 응용 프로그램|하십시오`Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
 
-## <a name="stop-a-policy-application"></a>정책 응용 프로그램 중지
-
-정보 장벽 정책 적용을 시작 하 고 나면 해당 정책을 적용 하지 않으려면 다음 절차를 사용 합니다. 프로세스를 시작 하는 데 약 30-35 분이 소요 됨을 염두에 두어야 합니다.
-
-1. 가장 최근 정보 장벽 정책 응용 프로그램의 상태를 확인 하려면 **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다.
-
-    구문과`Get-InformationBarrierPoliciesApplicationStatus`
-
-    응용 프로그램의 GUID를 확인 합니다.
-
-2. **InformationBarrierPoliciesApplication** Cmdlet을 Identity 매개 변수와 함께 사용 합니다.
-
-    구문과`Stop-InformationBarrierPoliciesApplication -Identity GUID`
-
-    예제: `Stop-InformationBarrierPoliciesApplication -Identity 46237888-12ca-42e3-a541-3fcb7b5231d1`
-
-    이 예에서는 정보 장벽 정책이 적용 되지 않도록 중지 합니다.
-
-## <a name="edit-a-segment-or-a-policy"></a>세그먼트 또는 정책 편집
-
-### <a name="edit-a-segment"></a>세그먼트 편집
-
-1. 모든 기존 세그먼트를 보려면 **OrganizationSegment** cmdlet을 사용 합니다.
-    
-    구문과`Get-OrganizationSegment`
-
-    세그먼트 유형, UserGroupFilter 값, 해당 개체를 만들거나 마지막으로 수정한 사람, GUID 등의 각 세그먼트와 세부 정보에 대 한 목록이 표시 됩니다.
-
-    > [!TIP]
-    > 나중에 참조 하기 위해 세그먼트 목록을 인쇄 하거나 저장 합니다. 예를 들어 세그먼트를 편집 하려면 해당 이름을 확인 하거나 값을 식별 해야 합니다 (이는 Identity 매개 변수와 함께 사용 됨).
-
-2. 세그먼트를 편집 하려면 **Identity** 매개 변수와 관련 세부 정보와 함께 **OrganizationSegment** cmdlet을 사용 합니다. 
-
-    구문과`Set-OrganizationSegment -Identity GUID -UserGroupFilter "attribute -eq 'attributevalue'"`
-
-    예제: `Set-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd -UserGroupFilter "Department -eq 'HRDept'"`
-
-    이 예에서는 GUID가 *c96e0837-c232-4a8a-841e-ef45787d8fcd*인 세그먼트에 대해 부서 이름을 "hrdept"로 업데이트 했습니다.
-
-조직의 세그먼트 편집을 마친 후에는 정보 장벽 정책 [정의](#part-2-define-information-barrier-policies) 또는 [편집](#edit-a-policy) 을 진행할 수 있습니다.
-
-### <a name="edit-a-policy"></a>정책 편집
-
-1. 현재 정보 장벽 정책 목록을 보려면 **InformationBarrierPolicy** cmdlet을 사용 합니다.
-
-    구문과`Get-InformationBarrierPolicy`
-
-    결과 목록에서 변경 하려는 정책을 식별 합니다. 정책의 GUID 및 이름을 적어둡니다.
-
-2. **InformationBarrierPolicy** Cmdlet에서 **Identity** 매개 변수를 사용 하 여 변경할 내용을 지정 합니다.
-
-    예: *연구* 세그먼트가 *영업* 및 *마케팅* 세그먼트와 통신 하지 못하도록 차단 하도록 정책이 정의 되어 있다고 가정 합니다. 이 cmdlet을 사용 하 여 정책이 정의 되었습니다.`New-InformationBarrierPolicy -Name "Research-SalesMarketing" -AssignedSegment "Research" -SegmentsBlocked "Sales","Marketing"`
-    
-    *리서치* 세그먼트의 사람들이 *HR* 세그먼트의 사용자와만 통신할 수 있도록이를 변경 하려는 경우를 가정해 보겠습니다. 이 변경 작업을 수행 하려면 다음 cmdlet을 사용 합니다.`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -SegmentsAllowed "HR"`
-
-    이 예에서는 "SegmentsBlocked"를 "SegmentsAllowed"로 변경 하 고 *HR* 세그먼트를 지정 했습니다.
-
-3. 정책 편집을 마친 후에는 변경 내용을 적용 해야 합니다. ( [정보 장벽 정책 적용](#part-3-apply-information-barrier-policies)참조)
-
-### <a name="remove-a-policy"></a>정책 제거
-
-1. 현재 정보 장벽 정책 목록을 보려면 **InformationBarrierPolicy** cmdlet을 사용 합니다.
-
-    구문과`Get-InformationBarrierPolicy`
-
-    결과 목록에서 제거할 정책을 식별 합니다. 정책의 GUID 및 이름을 적어둡니다. 정책이 비활성 상태로 설정 되어 있는지 확인 합니다.
-
-2. **InformationBarrierPolicy** Cmdlet을 Identity 매개 변수와 함께 사용 합니다.
-
-    구문과`Remove-InformationBarrierPolicy -Identity GUID`
-
-    예: GUID *43c37853-ea10-4b90-a23d-ab8c93772471*가 있는 정책을 제거 하려고 한다고 가정 합시다. 이렇게 하려면 다음과 같은 cmdlet을 사용 합니다.
-    
-    `Remove-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471`
-
-    메시지가 표시 되 면 변경 내용을 확인 합니다.
-
-3. 제거할 각 정책에 대해 1-2 단계를 반복 합니다.
-
-4. 정책을 제거한 후에는 변경 내용을 적용 합니다. 이 작업을 수행 하려면 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
-
-    구문과`Start-InformationBarrierPoliciesApplication`
-
-    사용자가 조직에 대해 변경 내용을 적용 합니다. 대규모 조직에서는이 프로세스를 완료 하는 데 24 시간 이상 소요 될 수 있습니다.
-
-### <a name="set-a-policy-to-inactive-status"></a>정책을 비활성 상태로 설정
-
-1. 현재 정보 장벽 정책 목록을 보려면 **InformationBarrierPolicy** cmdlet을 사용 합니다.
-
-    구문과`Get-InformationBarrierPolicy`
-
-    결과 목록에서 변경 하거나 제거할 정책을 식별 합니다. 정책의 GUID 및 이름을 적어둡니다.
-
-2. 정책의 상태를 비활성으로 설정 하려면 Identity 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 고 State 매개 변수는 비활성으로 설정 합니다.
-
-    구문과`Set-InformationBarrierPolicy -Identity GUID -State Inactive`
-
-    `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c9377247 -State Inactive`
-
-    이 예에서는 GUID *43c37853-ea10-4b90-a23d-ab8c9377247을 사용* 하는 정보 장벽 정책을 비활성 상태로 설정 합니다.
-
-3. 변경 내용을 적용 하려면 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
-
-    구문과`Start-InformationBarrierPoliciesApplication`
-
-    사용자가 조직에 대해 변경 내용을 적용 합니다. 대규모 조직에서는이 프로세스를 완료 하는 데 24 시간 이상 소요 될 수 있습니다. 일반적으로 5000 사용자 계정을 처리 하는 데 한 시간 정도 소요 됩니다.
-
-이때 하나 이상의 정보 장벽 정책이 비활성 상태로 설정 됩니다. 여기서는 다음 작업을 수행할 수 있습니다.
-- 그대로 유지 (비활성 상태로 설정 된 정책이 사용자에 게 영향을 주지 않음)
-- [정책 편집](#edit-a-policy) 
-- [정책 제거](#remove-a-policy)
 
 ## <a name="example-contosos-departments-segments-and-policies"></a>예: Contoso의 부서, 세그먼트 및 정책
 
@@ -414,6 +295,8 @@ Contoso는 다음 표에 설명 된 세 가지 정책을 정의 합니다.
 이 작업이 완료 되 면 Contoso는 법적 및 업계 요구 사항을 준수 합니다.
 
 ## <a name="related-articles"></a>관련 문서
+
+[정보 장벽 정책 편집 또는 제거 (미리 보기)](information-barriers-edit-segments-policies.md.md)
 
 [정보 장벽에 대 한 개요 보기](information-barriers.md)
 
