@@ -12,12 +12,12 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: 피싱 방지 보호 (Office 365 Advanced Threat Protection의 일부로, 포괄적인 보호 기능이 있는 Office 365 Exchange Online Protection의 기본 보호 기능)은 악의적인 가장 기반 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. 기타 피싱 공격이 있습니다.
-ms.openlocfilehash: ebe1d4322151c1828f662ca0bf1bd495e808093d
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: f73c4404c2ff2f347bc770176e5b6b25e03af88c
+ms.sourcegitcommit: 1c254108c522d0cb44023565268b5041d07748aa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408373"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "35279456"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -37,6 +37,9 @@ ms.locfileid: "34408373"
 2. 피싱 방지 및 ATP 피싱 방지 정책 옵션에 대해 알아봅니다.
 
 3. 피싱 방지 정책 또는 ATP 피싱 방지 정책을 설정 합니다.
+
+>[!IMPORTANT]
+> 여러 기술이 적용 되는 방식을 알아보려면 [정책 및 보호를 결합 하는 방법을](https://docs.microsoft.com/office365/securitycompliance/how-policies-and-protections-are-combined)참조 하세요.
 
 ## <a name="review-the-prerequisites"></a>필수 구성 요소 검토
 
