@@ -331,7 +331,7 @@
 #### [데이터를 처리할 때 오류 수정](compliance20/error-remediation.md)
 
 ### [사례 데이터 수집](compliance20/collecting-data-for-ediscovery.md)
-#### [검색을 만들어서 데이터 수집](compliance20/create-search-to-collect-data.md)
+#### [검색 만들기](compliance20/create-search-to-collect-data.md)
 #### [검색 쿼리 작성](compliance20/building-search-queries.md)
 #### [검색 통계](compliance20/search-statistics.md)
 #### [검색 결과를 검토 집합에 추가](compliance20/add-data-to-review-set.md)
@@ -538,7 +538,7 @@
 ### [정보 장벽 정책 정의 (미리 보기)](information-barriers-policies.md)
 ### [정보 장벽 정책의 속성 (미리 보기)](information-barriers-attributes.md)
 ### [정보 장벽 문제 해결(미리 보기)](information-barriers-troubleshooting.md)
-### [정보 장벽 정책 편집 또는 제거(미리 보기)](information-barriers-edit-segments-policies.md.md)
+### [정보 장벽 정책 편집(미리 보기)](information-barriers-edit-segments-policies.md.md)
 
 
 ## 고객 키
