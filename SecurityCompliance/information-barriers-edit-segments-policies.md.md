@@ -1,9 +1,9 @@
 ---
-title: 정보 장벽 정책 편집 또는 제거
+title: 정보 장벽 정책 편집
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/24/2019
+ms.date: 06/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,18 +11,29 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장벽에 대 한 정책을 편집 하거나 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: e6bed4df2329d426f86bd4cde07bdc7d1a2792cd
-ms.sourcegitcommit: 7c48ce016fa9f45a3813467f7c5a2fd72f9b8f49
+ms.openlocfilehash: c3dca18ad217b89d9f9ae78b590cfb07f4631f37
+ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35215651"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394333"
 ---
-# <a name="edit-or-remove-information-barrier-policies-preview"></a>정보 장벽 정책 편집 또는 제거 (미리 보기)
-
-## <a name="overview"></a>개요
+# <a name="edit-or-remove-information-barrier-policies-preview"></a>정보 장벽 정책 편집 (또는 제거) (미리 보기)
 
 [정보 장벽 정책을 정의한](information-barriers-policies.md)후에는 [문제 해결](information-barriers-troubleshooting.md) 또는 일반 유지 관리의 일환으로 이러한 정책 또는 사용자 세그먼트를 변경 해야 할 수 있습니다. 이 문서를 참조 하십시오.
+
+## <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
+
+|동작은  |설명 |
+|---------|---------|
+|[사용자 계정 특성 편집](#edit-user-account-attributes)     |세그먼트를 정의 하는 데 사용할 수 있는 특성을 Azure Active Directory에 입력 합니다.<br/>사용자 계정 특성을 편집 해야 하는 세그먼트에 사용자가 포함 되어 있지 않거나, 사용자가 속한 세그먼트를 변경 하거나, 다른 특성을 사용 하 여 세그먼트를 정의할 수 있습니다.         |
+|[세그먼트 편집](#edit-a-segment)     |세그먼트 정의 방법을 변경 하려면 세그먼트를 편집 합니다. <br/>예를 들어 처음에 *부서* 를 사용 하 여 세그먼트를 정의 했을 때, 이제 *MemberOf*와 같은 다른 특성을 사용 하려고 할 수 있습니다.         |
+|[정책 편집](#edit-a-policy)     |정책 작동 방식을 변경 하려면 정보 장벽 정책 편집을 클릭 합니다.<br/>예를 들어 두 세그먼트 간의 통신을 차단 하는 대신 특정 세그먼트 간에만 통신을 수행 하도록 할지 결정할 수 있습니다.         |
+|[정책을 비활성 상태로 설정](#set-a-policy-to-inactive-status)     |정책을 변경 하려는 경우 또는 정책을 적용 하지 않으려는 경우에는 정책을 비활성 상태로 설정 합니다.         |
+|[정책 제거](#remove-a-policy)     |특정 정책이 더 이상 필요 하지 않은 경우 정보 장벽 정책을 제거 합니다.         |
+|[정책 응용 프로그램 중지](#stop-a-policy-application)     |정보 장벽 정책을 적용 하는 프로세스를 중지 하려면이 작업을 수행 합니다.<br/>정책 응용 프로그램을 중지 하는 것은 즉각적이 아니며 사용자에 게 이미 적용 된 정책을 실행 취소 하지 않습니다.         |
+|[정보 장벽에 대 한 정책 정의 (미리 보기)](information-barriers-policies.md)     |해당 정책이 아직 위치에 없는 경우 정보 장벽 정책을 정의 하 고, 특정 사용자 그룹 간의 통신을 제한 하거나 제한 해야 합니다.         |
+|[정보 장벽 문제 해결 (미리 보기)](information-barriers-troubleshooting.md)     |정보 장벽에서 예기치 않은 문제가 발생 하는 경우이 문서를 참조 하세요.         |
 
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-Office 365 전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[Office 365 Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)되어 있는지 확인 합니다.
@@ -37,16 +48,10 @@ ms.locfileid: "35215651"
 
 1. 특성 값 및 할당 된 세그먼트와 같은 특정 사용자 계정에 대 한 세부 정보를 보려면 **InformationBarrierRecipientStatus** Cmdlet을 Identity 매개 변수와 함께 사용 합니다. 
 
-   구문과`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` 
-    
-   이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. 
-    
-   예제: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` 
-    
-   이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. 
-    
-   (단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`) 
-    
+    |구문과  |예제  |
+    |---------|---------|
+    |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>   (단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`)      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다.         |
+
 2. 사용자 계정 프로필에 대해 편집 하려는 특성을 결정 합니다. 자세한 [내용은 정보 장벽 정책 (미리 보기)에 대 한 특성](information-barriers-attributes.md) 을 참조 하십시오. 
 
 3. 이전 단계에서 선택한 특성에 대 한 값을 포함 하도록 하나 이상의 사용자 계정을 편집 합니다. 이렇게 하려면 다음 절차 중 하나를 사용 합니다.
@@ -70,11 +75,9 @@ ms.locfileid: "35215651"
 
 2. 세그먼트를 편집 하려면 **Identity** 매개 변수와 관련 세부 정보와 함께 **OrganizationSegment** cmdlet을 사용 합니다. 
 
-    구문과`Set-OrganizationSegment -Identity GUID -UserGroupFilter "attribute -eq 'attributevalue'"`
-
-    예제: `Set-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd -UserGroupFilter "Department -eq 'HRDept'"`
-
-    이 예에서는 GUID가 *c96e0837-c232-4a8a-841e-ef45787d8fcd*인 세그먼트에 대해 부서 이름을 "hrdept"로 업데이트 했습니다.
+    |구문과  |예제  |
+    |---------|---------|
+    |`Set-OrganizationSegment -Identity GUID -UserGroupFilter "attribute -eq 'attributevalue'"`     |`Set-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd -UserGroupFilter "Department -eq 'HRDept'"` <p>이 예에서는 GUID가 *c96e0837-c232-4a8a-841e-ef45787d8fcd*인 세그먼트에 대해 부서 이름을 "hrdept"로 업데이트 했습니다.         |
 
 조직의 세그먼트 편집을 마친 후에는 정보 장벽 정책을 [정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [편집할](#edit-a-policy) 수 있습니다.
 
@@ -106,11 +109,9 @@ ms.locfileid: "35215651"
 
 2. 정책의 상태를 비활성으로 설정 하려면 Identity 매개 변수와 함께 **InformationBarrierPolicy** cmdlet을 사용 하 고 State 매개 변수는 비활성으로 설정 합니다.
 
-    구문과`Set-InformationBarrierPolicy -Identity GUID -State Inactive`
-
-    `Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c9377247 -State Inactive`
-
-    이 예에서는 GUID *43c37853-ea10-4b90-a23d-ab8c9377247을 사용* 하는 정보 장벽 정책을 비활성 상태로 설정 합니다.
+    |구문과  |예제  |
+    |---------|---------|
+    |`Set-InformationBarrierPolicy -Identity GUID -State Inactive`     |`Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c9377247 -State Inactive` <p>이 예에서는 GUID *43c37853-ea10-4b90-a23d-ab8c9377247을 사용* 하는 정보 장벽 정책을 비활성 상태로 설정 합니다.         |
 
 3. 변경 내용을 적용 하려면 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
 
@@ -133,11 +134,9 @@ ms.locfileid: "35215651"
 
 2. **InformationBarrierPolicy** Cmdlet을 Identity 매개 변수와 함께 사용 합니다.
 
-    구문과`Remove-InformationBarrierPolicy -Identity GUID`
-
-    예: GUID *43c37853-ea10-4b90-a23d-ab8c93772471*가 있는 정책을 제거 하려고 한다고 가정 합시다. 이렇게 하려면 다음과 같은 cmdlet을 사용 합니다.
-    
-    `Remove-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471`
+    |구문과  |예제  |
+    |---------|---------|
+    |`Remove-InformationBarrierPolicy -Identity GUID`     |`Remove-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471` <p>이 예에서는 GUID가 *43c37853-ea10-4b90-a23d-ab8c93772471*인 정책을 제거 합니다.          |
 
     메시지가 표시 되 면 변경 내용을 확인 합니다.
 
@@ -161,11 +160,9 @@ ms.locfileid: "35215651"
 
 2. **InformationBarrierPoliciesApplication** Cmdlet을 Identity 매개 변수와 함께 사용 합니다.
 
-    구문과`Stop-InformationBarrierPoliciesApplication -Identity GUID`
-
-    예제: `Stop-InformationBarrierPoliciesApplication -Identity 46237888-12ca-42e3-a541-3fcb7b5231d1`
-
-    이 예에서는 정보 장벽 정책이 적용 되지 않도록 중지 합니다.
+    |구문과  |예제  |
+    |---------|---------|
+    |`Stop-InformationBarrierPoliciesApplication -Identity GUID`     |`Stop-InformationBarrierPoliciesApplication -Identity 46237888-12ca-42e3-a541-3fcb7b5231d1` <p>이 예에서는 정보 장벽 정책이 적용 되지 않도록 중지 합니다.         |
 
 ## <a name="related-articles"></a>관련 문서
 

@@ -3,7 +3,7 @@ title: 위협 탐색기 (및 실시간 검색)
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 05/22/2019
+ms.date: 06/20/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (및 실시간 검색)에 대해 알아봅니다.
-ms.openlocfilehash: 030f866c5e86daa3dc543bddae7152e19f377d3b
-ms.sourcegitcommit: 6c0fcb82178a4ac26375545f328389a6852a81be
+ms.openlocfilehash: 3d2eab30b97655b692ed1bfe089b6a79834fd110
+ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34490534"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394353"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 (및 실시간 검색)
 
@@ -42,26 +42,41 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 ## <a name="new-features-in-real-time-detections"></a>실시간 검색의 새로운 기능
 
-Office 365 ATP 계획 1 고객의 경우 이전에는 *실시간* 검색 보고서를 *실시간 보고서*라고 했습니다. 이름 변경 외에도 다음과 같은 몇 가지 새로운 기능과 향상 된 기능을 제공 합니다.
+Explorer/실시간 검색에서는 전자 메일이 있는 위치를 보다 완전 하 게 보여 주도록 디자인 된 새 필드를 새로 추가 합니다. 이러한 변경 목표의 일환으로는 보안 Ops 사용자에 게 더 쉽게 사냥을 사용할 수 있지만,이는 네트워크 결과에서 문제 전자 메일의 위치를 한눈에 파악 하는 것입니다.
 
-- 피싱 보기에서는 [ATP 안전한 링크](atp-safe-links.md)를 통해 검색 된 url에 대 한 자세한 정보를 볼 수 있습니다. 새로운 세부 정보 및 기능은 다음과 같습니다.
-  - 전자 메일 메시지의 Url
-  - URL 정보를 기반으로 필터링
-  - 데이터 그래프로 표시 되는 URL 정보
-  - 메시지의 클릭에 대 한 시간 클릭 데이터
+어떤 작업을 수행 하나요? 배달 상태는 이제 다음과 같은 두 개의 열로 나뉩니다.
 
-- URL이 변경 될 때마다 결과를 클릭 하면 경고가 표시 됩니다. URL URL 신뢰도가 샌드 박싱 verdicts 변경 될 수도 있고, ATP 안전한 링크를 통해 보호 되는 사용자가 [Atp 안전한 링크 경고](atp-safe-links-warning-pages.md)를 재정의 하는 경우에는이 기능을 사용할 수 있습니다.  
- 
-이러한 향상 된 기능을 통해 조직의 보안 관리자는 이전 보다 더 많은 세부 정보를 볼 수 있습니다. 보안 관리자는 URL 도메인, 누락 된 Url에 대 한 정보를 보고, verdicts를 클릭 한 다음 Office 365 ATP 정책을 적절 하 게 조정 합니다.
+- 배달 작업-이 전자 메일의 상태는 무엇입니까?
+- 배달 위치-이 전자 메일의 경로가 어떻게 설정 되었습니까?
 
-> [!NOTE]
-> 이러한 기능이 미리 보기에 있는 동안에는 제한 된 일 수 동안 URL 데이터를 사용할 수 있습니다. 
+배달 작업은 기존 정책 또는 검색으로 인해 전자 메일에 대해 수행 되는 작업입니다. 다음은 전자 메일에 사용할 수 있는 작업입니다.
+
+|배달  |Junked  |수준  |바뀌면  |
+|---------|---------|---------|---------|
+|전자 메일이 사용자의 받은 편지함 또는 폴더에 배달 되었으며 사용자가 직접 액세스할 수 있습니다.    | 사용자의 정크 폴더 또는 삭제 된 폴더에 전자 메일이 전송 되 고 해당 폴더의 전자 메일에 대 한 액세스 권한이 사용자에 게 있습니다.       | 격리 되거나, 실패 했거나, 삭제 된 전자 메일입니다. 사용자가이를 완전히 액세스할 수 없습니다.     | 첨부 파일이 악성 인 .txt 파일로 악의적 첨부 파일이 교체 되는 모든 전자 메일     |
+
+다음은 사용자가 볼 수 있는 것과 그렇지 않은 항목입니다.
+
+|최종 사용자가 액세스할 수 있음  |최종 사용자가 액세스할 수 없음  |
+|---------|---------|
+|배달     | 수준        |
+|Junked     | 바뀌면        |
+
+배달 위치는 배달 후 실행 되는 정책 및 검색의 결과를 표시 합니다. 배달 작업에 연결 됩니다. 이 필드는 문제 메일을 찾은 경우 수행 되는 작업에 대 한 통찰력을 제공 하기 위해 추가 되었습니다. 다음은 배달 위치의 possilbe 값입니다.
+
+1. 받은 편지함 또는 폴더-전자 메일이 받은 편지함 또는 폴더 (전자 메일 규칙에 따라 다름)에 있습니다.
+2. 온-프레미스 또는 external-사서함이 클라우드에는 없지만 온-프레미스에 있는 경우
+3. 정크 폴더-사용자의 정크 폴더에 있는 전자 메일입니다.
+4. 지운 편지함 폴더-사용자의 지운 편지함 폴더에 있는 전자 메일입니다.
+5. 격리-전자 메일을 격리 하 고 사용자의 사서함에 있지 않습니다.
+6. Failed – 전자 메일이 사서함에 연결 하지 못했습니다.
+7. 삭제 됨-전자 메일이 메일 흐름의 어딘가에 손실 됩니다.
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
 
-Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하려는 경우를 가정해 보겠습니다. 이 작업을 수행 하려면 [전자 메일 _GT_ 맬웨어](threat-explorer-views.md#email--malware) 보기 Explorer (또는 실시간 검색)를 사용 합니다.
+Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하려는 경우를 가정해 보겠습니다. 이 작업을 수행 하려면 [전자 메일 > 맬웨어](threat-explorer-views.md#email--malware) 보기 Explorer (또는 실시간 검색)를 사용 합니다.
 
-1. Security &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
+1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
 2. **보기** 메뉴에서 **전자 메일** > **맬웨어**를 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewEmailMalwareMenu.png)<br/>
 
@@ -75,9 +90,9 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 허용, 차단 및 재정의 된 Url 목록을 비롯 하 여 전자 메일의 Url을 통한 피싱 시도를 확인 하려는 경우를 가정해 봅니다. 클릭 한 Url을 식별 하려면 [ATP 안전한 링크](atp-safe-links.md) 를 구성 해야 합니다. 클릭 verdicts 보호 및 로깅에 대 한 [Atp Safe links 정책이](set-up-atp-safe-links-policies.md) 설정 되었는지 확인 합니다. Atp safe 링크를 클릭 합니다. 
 
-메시지에서 피싱 Url을 검토 하 고 피싱 메시지의 Url을 클릭 하려면 Explorer의 [전자 메일 _GT_ 피싱](threat-explorer-views.md#email--phish) 보기 (실시간 검색)를 사용 합니다.
+메시지에서 피싱 Url을 검토 하 고 피싱 메시지의 Url을 클릭 하려면 [전자 메일 > 피싱](threat-explorer-views.md#email--phish) Explorer 보기 (실시간 검색)를 사용 합니다.
 
-1. Security &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
+1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
 2. **보기** 메뉴에서 **전자 메일** > **피싱**을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewEmailPhishMenu.png)<br/>
 
@@ -99,9 +114,9 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 ## <a name="review-email-messages-reported-by-users"></a>사용자가 보고 한 전자 메일 메시지 검토
 
-조직의 사용자가 [outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 정크 메일 또는 피싱이 아닌 메시지를 보고 한다고 가정 합니다. 이렇게 하려면 [전자 메일 _GT_ 사용자가 보고](threat-explorer-views.md#email--user-reported) 하는 Explorer (또는 실시간 검색)를 사용 합니다.
+조직의 사용자가 [outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 정크 메일 또는 피싱이 아닌 메시지를 보고 한다고 가정 합니다. 이 작업을 수행 하려면 [전자 메일 > 사용자가 보고](threat-explorer-views.md#email--user-reported) 한 탐색기 보기 (실시간 검색)를 사용 합니다.
 
-1. Security &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
+1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
 2. **보기** 메뉴에서**사용자가 보고 한** **전자 메일** > 을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewMenuEmailUserReported.png)<br/>
 
@@ -132,6 +147,7 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md) 가 있어야 합니다.
 - Explorer는 Office 365 ATP 계획 2에 포함 되어 있습니다. 
 - 실시간 검색 보고서는 Office 365 ATP 계획 1에 포함 되어 있습니다.
+- ATP가 보호 해야 하는 모든 사용자에 대해 라이선스를 할당 하도록 계획 합니다. (Explorer 또는 실시간 검색은 사용이 허가 된 사용자에 대 한 검사 데이터를 표시 합니다.)
 
 탐색기 또는 실시간 검색을 보고 사용 하려면 보안 관리자 또는 보안 판독기에 부여 된 것과 같은 적절 한 사용 권한이 있어야 합니다. 
 

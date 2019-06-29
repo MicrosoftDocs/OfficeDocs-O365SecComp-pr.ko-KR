@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/26/2019
+ms.date: 06/26/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 505508771ae1e630d7d34fde9ee1525d19bd5039
-ms.sourcegitcommit: b00c8fe1827d24f055a3076c10f284ff9ee3e04b
+ms.openlocfilehash: 8fd49eddc402400acafe0f9d702d19c7a3f63949
+ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35113262"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394343"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -132,7 +132,8 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 |---------|---------|
 |**해제** <br/> |전자 메일 메시지의 Url을 검사 하지 않습니다.  <br/> 특정 받는 사람 그룹에 대 한 전자 메일 메시지의 Url을 검색 하지 않는 규칙과 같은 예외 규칙을 정의할 수 있습니다.  <br/> |
 |**켜짐** <br/> |사용자가 전자 메일 메시지의 Url을 클릭할 때 ATP 안전한 링크 보호를 통해 사용자를 라우팅하기 위해 Url을 다시 작성 합니다.  <br/> 차단 되거나 악성 Url 목록에서 URL을 클릭 하 여 확인 합니다.  <br/> |
-|**다운로드 가능한 콘텐츠를 검색 하기 위해 안전한 첨부 파일 사용** <br/> |이 옵션을 선택 하면 다운로드 가능한 콘텐츠를 가리키는 Url이 검색 됩니다.  <br/> |
+|**의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.** <br/> |이 옵션을 선택 하면 다운로드 가능한 콘텐츠를 가리키는 의심 스러운 Url 및 링크가 검색 됩니다.  <br/> |
+|**메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.** <br/> |이 옵션을 선택 하면 검색할 Url이 포함 된 메시지는 해당 Url의 검색이 완료 되 고 메시지가 배달 되기 전에 안전한 것으로 확인 될 때까지 유지 됩니다.  <br/> |
 |**조직 내에서 전송 된 메시지에 안전한 링크 적용** <br/> | 이 옵션을 사용할 수 있고 선택 하면 전자 메일 계정이 Office 365에서 호스팅되는 경우 ATP 안전한 링크 보호가 조직의 사용자 간에 전송 된 전자 메일 메시지에 적용 됩니다.  <br/> |
 |**사용자 클릭 추적 안 함** <br/> |이 옵션을 선택 하면 외부 보낸 사람 으로부터 온 전자 메일의 Url에 대 한 데이터가 저장 되지 않습니다 .를 클릭 합니다. URL이 조직 내에서 전송 된 전자 메일 메시지 내의 링크에 대 한 추적을 클릭 하는 것은 현재 지원 되지 않습니다.  <br/> |
 |**사용자가 원래 URL로 클릭 하도록 허용 안 함** <br/> |이 옵션을 선택 하면 사용자가 [경고 페이지](atp-safe-links-warning-pages.md) 를 지 나 악의적인 것으로 확인 된 URL로 계속할 수 없습니다.  <br/> |
@@ -146,4 +147,4 @@ ATP 안전한 링크 정책이 마련 되 면 보고서를 확인 하 여 ATP가
 
 - [보안 &amp; 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)
 
-ATP에 게 제공 되는 새로운 기능에 대해서는 계속 제공 합니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 방문 하 여 [ATP에 추가 되는 새로운 기능](office-365-atp.md#new-features-in-office-365-atp)에 대해 알아보세요.
+ATP에 게 제공 되는 새로운 기능에 대해서는 계속 제공 합니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)방문 합니다.
