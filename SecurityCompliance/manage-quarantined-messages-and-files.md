@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: '관리자는 Office 365에서 허위 격리 된 메시지를 보고, 해제 하 고, 보고할 수 있습니다. Office 365에서 메시지를 필터링 하 여 격리에 전송 하는 경우 (예: 스팸, 대량, 피싱, 맬웨어 또는 메일 흐름 규칙과 일치 하는 경우)에는 정책을 설정할 수 있습니다. '
-ms.openlocfilehash: aa469a1f0efa2265014593134d2b7865a59dd89f
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: abe9aa1a8c7d78af4d82d9a06284e12745d24dee
+ms.sourcegitcommit: dde3dc1dd419b97daa1da9827787c27935a2c757
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155700"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115929"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 
@@ -29,7 +29,7 @@ ms.locfileid: "34155700"
   
 기본적으로 Office 365은 피싱 메시지와 맬웨어가 있는 메시지를 격리에 직접 보냅니다. 필터링 된 기타 메시지는 격리를 보내도록 정책을 설정 하지 않은 경우 사용자의 정크 메일 폴더로 전송 됩니다.
   
-다른 사용자에 게 전송 되어 격리 된 파일을 사용 하 여 작업 하려면 격리 된 메시지를 사용 하 여 작업 하려면 Office 365에 GA (전역 관리자) 권한이 있어야 합니다.
+다른 사용자에 게 전송 되 고 격리 된 파일로 작업 하려면 격리 된 메시지를 사용 하 여 Office 365의 보안 관리자 또는 보안 및 준수 센터의 Security administrator에 게 해당 하는 GA (전역 관리자) 권한이 있어야 합니다.
   
 > [!IMPORTANT]
 >기본적으로 스팸, 대량 및 피싱 메시지는 30 일 동안 격리 된 상태로 유지 됩니다. 메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 7 일 동안 격리 된 상태로 유지 됩니다. 맬웨어 메시지는 15 일 동안 격리 된 상태로 유지 됩니다. 보안 &amp; 및 준수 센터의 스팸 방지 설정에서 스팸 격리 시간을 사용자 지정할 수 있습니다. Office 365이 격리에서 메시지를 삭제 하는 경우에는 다시 가져올 수 없습니다. 원하는 경우 스팸 방지 필터 정책에서 격리 된 메시지의 보존 기간을 변경할 수 있습니다. 자세한 내용은이 문서의 [격리 보존 기간 설정을](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) 참조 하십시오. 

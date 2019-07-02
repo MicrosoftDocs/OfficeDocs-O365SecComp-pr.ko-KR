@@ -3,7 +3,7 @@ title: 메시지 검색 및 삭제 - 관리자 도움말
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 12/20/2017
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8c36bb03-e716-4fdd-9958-4aa7a2a1db42
 description: 관리자는 검색 사서함 cmdlet을 사용 하 여 사용자 사서함을 검색 한 다음 사서함에서 메시지를 삭제할 수 있습니다.
-ms.openlocfilehash: 1288679c7abb643c020d5b1a2a08ae64b7cb403f
-ms.sourcegitcommit: d20defdcf2ac643f0c8c1f2761b0b7f4f4090e5c
+ms.openlocfilehash: bb375bc7a3273e78acb44807e51a1cee0261e7af
+ms.sourcegitcommit: f2798d46acfbd56314e809cd3fe0350be807e420
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957420"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35014756"
 ---
 # <a name="search-for-and-delete-messages---admin-help"></a>메시지 검색 및 삭제 - 관리자 도움말
   

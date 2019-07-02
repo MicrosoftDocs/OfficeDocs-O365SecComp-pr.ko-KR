@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 781b0b749390b36ecdf391bff1089d6180e7c3d2
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: a5c1c578f8d45cf7b95629e8053911d93b5b8583
+ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150670"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767339"
 ---
 # <a name="review-the-data-in-evidence"></a>증거 데이터 검토
 
@@ -50,7 +50,7 @@ ms.locfileid: "34150670"
 
 ## <a name="native-view"></a>기본 보기
 
-기본 뷰어에는 문서의 기본 형식으로 가장 정확한 보기가 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft Office 파일의 경우 네이티브 뷰어는 Office Online을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
+기본 뷰어에는 문서의 기본 형식으로 가장 정확한 보기가 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft Office 파일의 경우 네이티브 뷰어는 웹 버전의 Office 앱을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
 
 ![기본 보기
 ](../media/Reviewimage3.png)

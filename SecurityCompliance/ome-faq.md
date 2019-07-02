@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: fa23e92952ecb5cd5a2cfc2ace5234324d48a1cc
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1625ecd3f2c7991e2726539bcfa0c772d1ffea59
+ms.sourcegitcommit: 803baca9f99a6691fb41a3308e799752e4d8f20c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157570"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222262"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -102,7 +102,7 @@ Outlook 2016, outlook 2013 for PC 및 Mac 및 웹용 Outlook에서 보호 된 �
   
 ## <a name="what-email-clients-are-supported-to-read-and-reply-to-protected-emails"></a>보호 된 전자 메일을 읽고 회신할 수 있도록 지원 되는 전자 메일 클라이언트는 무엇입니까?
 
-PC 및 2016 2013 Mac 용 outlook, 웹용 outlook 및 Office 365 사용자 인 경우 outlook mobile (Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. 365 Office가 아닌 경우에는 사용자가 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
+PC 및 2016 2013 Mac 용 Outlook, 웹용 Outlook 및 Office 365 사용자 인 경우 Outlook mobile (Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. 365 Office가 아닌 경우에는 사용자가 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
   
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>보호 된 전자 메일에서 첨부 파일로 지원 되는 파일 형식은 무엇입니까? 첨부 파일에서 보호 된 전자 메일과 연결 된 보호 정책을 상속 하나요?
 
@@ -136,7 +136,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
   
 ## <a name="are-there-any-reporting-capabilities-or-insights-for-encrypted-emails"></a>암호화 된 전자 메일에 대 한 보고 기능 또는 정보가 있습니까?
 
-현재는 아니지만 곧 제공 될 예정입니다.
+보안 및 준수 센터에 암호화 보고서가 있습니다. [보안 & 준수 센터의 전자 메일 보안 보고서 보기를](view-email-security-reports.md) 참조 하세요.
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>EDiscovery와 같은 규정 준수 기능을 사용 하 여 메시지 암호화를 사용할 수 있나요?
 

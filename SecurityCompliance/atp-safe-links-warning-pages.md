@@ -3,7 +3,7 @@ title: Office 365 ATP 안전한 링크 경고 페이지
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: IT Pro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,19 +14,19 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: e90951a010ff5de4d3b292259e9c4596b6cc8e89
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 70bd93aead82a867936031f754d172fdeb22f421
+ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251308"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017630"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
 
 > [!IMPORTANT]
-> 이 문서는 Office 365 Enterprise 고객을 위한 것입니다. Outlook.com, office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
-[Office 365 Advanced Threat Protection](office-365-atp.md) (atp)는 [atp 안전한 링크](atp-safe-links.md), [atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 합니다. 보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (url)가 확인 됩니다. 의심 스러운 또는 악성으로 식별 된 url은 클릭 하면 url을 열 수 없습니다. 대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다. 
+[Office 365 Advanced Threat Protection](office-365-atp.md) (ATP)는 [Atp 안전한 링크](atp-safe-links.md), [Atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 합니다. 보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (Url)가 확인 됩니다. 의심 스러운 또는 악성으로 식별 된 URL은 클릭 하면 URL을 열 수 없습니다. 대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다. 
   
 이 문서를 읽으면 경고 페이지에 대 한 최신 업데이트와 함께 표시 되는 경고 페이지의 예를 볼 수 있습니다.
   
@@ -46,7 +46,7 @@ URL이 의심 스러운 것으로 간주 되는 다른 전자 메일 메시지�
 
 ### <a name="a-url-is-in-a-message-identified-as-a-phishing-attempt"></a>URL이 피싱 시도로 식별 된 메시지에 있습니다.
 
-URL이 피싱 공격으로 식별 된 전자 메일 메시지에 있습니다. 따라서 전자 메일 메시지의 모든 url이 차단 됩니다. 해당 사이트로 이동 하지 않는 것이 좋습니다.
+URL이 피싱 공격으로 식별 된 전자 메일 메시지에 있습니다. 따라서 전자 메일 메시지의 모든 Url이 차단 됩니다. 해당 사이트로 이동 하지 않는 것이 좋습니다.
 
 ![이 URL은 피싱 시도로 식별 된 메시지에 있습니다.](media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
 

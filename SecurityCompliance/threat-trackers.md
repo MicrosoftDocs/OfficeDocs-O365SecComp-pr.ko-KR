@@ -3,7 +3,7 @@ title: 위협 추적기-신규 및 주목할 만한
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,19 +14,19 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 4a12a1cfe68f8ebcfae640a65d0eca68e36fb04c
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: d86eb53c1dc407fc109b39fc0f9f1809b43b8d7a
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32260052"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077804"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
 [Office 365 위협 조사 및 응답](office-365-ti.md) 기능을 통해 조직의 보안 팀이 cybersecurity 위협에 대 한 조치를 검색 하 고 작업을 수행할 수 있습니다. Office 365 위협 조사 및 응답 기능은 중요 한 추적기를 비롯 한 위협 추적 기능을 포함 합니다. 이 문서를 읽으면 이러한 새로운 기능과 다음 단계의 개요를 확인할 수 있습니다. 
 
 > [!IMPORTANT]
-> office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 office 365 Advanced Threat protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 advanced threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [office 365 advanced threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+> Office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 Office 365 Advanced Threat Protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
   
 ## <a name="what-are-threat-trackers"></a>위협 추적기 란?
 
@@ -83,7 +83,7 @@ ms.locfileid: "32260052"
   
 ## <a name="trackers-and-office-365-advanced-threat-protection"></a>추적기 및 Office 365 Advanced Threat Protection
 
-inaugural 주목할 않은 위협을 통해 [Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md)에서 검색 하는 고급 맬웨어 위협을 강조 합니다. office 365 Enterprise E5 customer이 고 [office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하 고 있지 않은 경우 구독에 포함 해야 합니다. ATP는 Office 365 서비스와 전자 메일 흐름을 필터링 하는 다른 보안 도구가 있는 경우에도 값을 제공 합니다. 그러나 스팸 방지 및 [office 365 ATP 안전한 링크](atp-safe-links.md) 기능은 주요 전자 메일 보안 솔루션이 Office 365를 통해 수행 하는 경우에 가장 적합 합니다. 
+Inaugural 주목할 않은 위협을 통해 [Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md)에서 검색 하는 고급 맬웨어 위협을 강조 합니다. Office 365 Enterprise E5 customer이 고 [office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하 고 있지 않은 경우 구독에 포함 해야 합니다. ATP는 Office 365 서비스와 전자 메일 흐름을 필터링 하는 다른 보안 도구가 있는 경우에도 값을 제공 합니다. 그러나 스팸 방지 및 [office 365 ATP 안전한 링크](atp-safe-links.md) 기능은 주요 전자 메일 보안 솔루션이 Office 365를 통해 수행 하는 경우에 가장 적합 합니다. 
   
 ![보안 &amp; 및 준수 센터의 ATP](media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
   
@@ -99,6 +99,6 @@ inaugural 주목할 않은 위협을 통해 [Office 365 ATP 안전한 첨부 파
     
 - 새 추적기가 Office 365 환경에 표시 되는지 확인 합니다. 사용 가능한 경우 [여기](https://protection.office.com/)에서 추적기를 찾을 수 있습니다. **위협 관리** \> **위협 추적기**로 이동 합니다.
     
-- 아직 수행 하지 않은 경우 [office 365 atp 안전한 링크](atp-safe-links.md) 및 [office 365 atp 안전한 첨부 파일](atp-safe-attachments.md)을 포함 하 여 조직에 대 한 [office 365 Advanced Threat Protection](office-365-atp.md) 에 대해 자세히 알아보고 구성 합니다.
+- 아직 수행 하지 않은 경우 [office 365 atp 안전한 링크](atp-safe-links.md) 및 [Office 365 Atp 안전한 첨부 파일](atp-safe-attachments.md)을 포함 하 여 조직에 대 한 [office 365 Advanced Threat Protection](office-365-atp.md) 에 대해 자세히 알아보고 구성 합니다.
   
 

@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 LinkedIn 회사 페이지에서 Office 365로 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터에 대 한 준수를 관리할 수도 있습니다.
-ms.openlocfilehash: 2b89f990f18ae13ad15015f240ea4c4b0ec434b0
-ms.sourcegitcommit: f2798d46acfbd56314e809cd3fe0350be807e420
+ms.openlocfilehash: 618cef7c0208378179d41a94f4a274a0bddadee9
+ms.sourcegitcommit: ecc823c2a4f1465114cf1d3a4630e31c47779ddc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017949"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35079382"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data-in-office-365-preview"></a>Office 365에서 LinkedIn 데이터를 보관 하는 커넥터 설정 (미리 보기)
 
@@ -27,9 +27,11 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존
 
 ## <a name="before-you--begin"></a>시작 하기 전에
 
-- 보관 하려는 LinkedIn 회사 페이지의 관리자 인 LinkedIn 사용자 계정의 로그인 자격 증명 (전자 메일 주소 또는 전화 번호와 암호)이 있어야 합니다. 커넥터를 설정할 때 이러한 자격 증명을 사용 하 여 LinkedIn에 로그인 합니다.
+- 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
 - LinkedIn 회사 페이지 커넥터를 만드는 사용자에 게 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어야 합니다. 이는 보안 & 준수 센터에서 **타사 데이터 보관** 페이지에 액세스 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
+
+- 보관 하려는 LinkedIn 회사 페이지의 관리자 인 LinkedIn 사용자 계정의 로그인 자격 증명 (전자 메일 주소 또는 전화 번호와 암호)이 있어야 합니다. 커넥터를 설정할 때 이러한 자격 증명을 사용 하 여 LinkedIn에 로그인 합니다.
 
 ## <a name="create-a-linkedin-connector"></a>LinkedIn 커넥터 만들기
 
@@ -50,7 +52,6 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존
    로그인 한 계정에 연결 된 모든 LinkedIn 회사 페이지 목록과 함께 마법사 페이지가 표시 됩니다. 커넥터는 한 회사 페이지에 대해서만 구성할 수 있습니다. 조직에 LinkedIn 회사 페이지가 여러 개 있는 경우 각 페이지에 대 한 커넥터를 만들어야 합니다.
 
    ![LinkedIn 회사 페이지 목록이 있는 페이지가 표시 됨](media/LinkedInSelectCompanyPage.png)
-
 
 6. 항목을 보관 하려는 회사 페이지를 선택 하 고 **다음**을 클릭 합니다.
 
@@ -80,4 +81,4 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존
    subject:"Contoso Company Page"
    ```
 
-- Office 365로 가져온 LinkedIn 항목을 쉽게 찾거나 관리 하기 위해 저장소 사서함의 소유자 (또는 FullAccess 권한이 할당 된 사용자)가 특정 LinkedIn 회사 페이지에서 특정 폴더로 항목을 이동 하는 받은 편지함 규칙을 설정할 수 있습니다. 이 기능은 저장소 사서함을 사용 하 여 다른 타사 데이터 원본에서 가져온 항목을 보관 하는 경우에 유용 합니다. 예를 들어 제목 필드에 있는 특정 LinkedIn 회사 페이지의 이름을 포함 하는 모든 항목을 특정 폴더로 이동 하는 받은 편지함 규칙을 만들 수 있습니다.
+- Office 365로 가져온 LinkedIn 항목을 쉽게 찾거나 관리 하기 위해 저장소 사서함 (또는 FullAccess 권한이 할당 된 사용자)의 소유자가 항목을 LinkedIn 회사 페이지에서 특정 폴더로 이동 하는 받은 편지함 규칙을 설정할 수 있습니다. 이 기능은 저장소 사서함을 사용 하 여 다른 타사 데이터 원본에서 가져온 항목을 보관 하는 경우에 유용 합니다. 예를 들어 제목 필드에 있는 특정 LinkedIn 회사 페이지의 이름을 포함 하는 모든 항목을 특정 폴더로 이동 하는 받은 편지함 규칙을 만들 수 있습니다.

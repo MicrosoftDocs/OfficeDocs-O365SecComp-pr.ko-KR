@@ -15,12 +15,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 클릭 하 여 확인할 시간을 제공 합니다. 안전한 첨부 파일을 사용 하 여 사용자가 전자 메일로 보내거나 받는 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: d2e83b602df6195d2b0e5a2762b8076d0b2bef75
-ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
+ms.openlocfilehash: 2980349eaec22f1e67206f96b8ed22df539cdba7
+ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590571"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652621"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP 안전한 첨부 파일
 
@@ -32,7 +32,7 @@ ATP 보호는 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 �
   
 ## <a name="how-to-get-atp-safe-attachments"></a>ATP 안전한 첨부 파일을 가져오는 방법
 
-먼저 구독에 [Advanced Threat Protection](office-365-atp.md)이 포함 되어 있는지 확인 합니다. ATP는 [microsoft 365 enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육용 A5 등 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Office 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요. 
+먼저 구독에 [Advanced Threat Protection](office-365-atp.md)이 포함 되어 있는지 확인 합니다. ATP는 [microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), Office 365 E5, office 365 A5 등 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Office 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요. 
 
 다음으로 ATP의 안전한 첨부 파일 정책이 정의 되어 있는지 확인 합니다. ( [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)참조) ATP 안전한 첨부 파일 기능은 다음과 같은 경우에 활성화 됩니다.
   
@@ -56,10 +56,10 @@ ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되�
   
 |**시나리오 예**|**이 경우 ATP에서 안전한 첨부 파일 보호가 적용 됩니까?**|
 |:-----|:-----|
-|Pat 조직에 Office 365 Enterprise E5가 있지만, ATP 안전한 첨부 파일에 대 한 정책을 아직 정의 하지 않은 경우  <br/> |아니요. 이 기능을 사용할 수는 있지만 ATP 안전한 첨부 파일 보호를 적용 하려면 atp 안전 첨부 파일 정책을 하나 이상 정의 해야 합니다.  <br/> |
+|Pat 조직에 Office 365 E5가 있지만이 경우 ATP 안전한 첨부 파일에 대 한 정책을 정의 하지 않은 것은 아닙니다.  <br/> |아니요. 이 기능을 사용할 수는 있지만 ATP 안전한 첨부 파일 보호를 적용 하려면 atp 안전 첨부 파일 정책을 하나 이상 정의 해야 합니다.  <br/> |
 |Lee은 Contoso의 판매 부서에 있는 직원입니다. Lee의 조직에는 재무 직원 에게만 적용 되는 ATP 안전 첨부 파일 정책이 포함 됩니다.  <br/> |아니요. 이 경우 금융 직원은 안전한 첨부 파일 보호를 제공 하지만 영업부를 비롯 한 다른 직원은 이러한 그룹을 포함 하는 정책을 정의할 때까지 하지 않습니다.  <br/> |
 |어제 Jean 조직의 Office 365 관리자가 모든 직원에 게 적용 되는 ATP 안전 첨부 파일 정책을 설정 합니다. 이전 버전 Jean에는 첨부 파일이 포함 된 전자 메일 메시지가 수신 되었습니다.  <br/> |예. 이 예에서는 Jean에 Advanced Threat Protection 라이선스가 있고 Jean을 포함 하는 ATP 안전 첨부 파일 정책이 정의 되어 있습니다. 일반적으로 새 정책이 데이터 센터 전체에 적용 되는 데 약 30 분이 걸립니다. 이 경우에는 요일이 전달 된 것 이므로 정책이 적용 되어야 합니다.  <br/> |
-|Chris의 조직에는 조직의 모든 사용자에 대해 ATP 안전한 첨부 파일 정책이 있는 Office 365 Enterprise E5가 있습니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 조직 외부에 있는 다른 사람에 게 메시지를 전달 합니다.  <br/> |ATP에서 안전한 첨부 파일 보호는 Chris가 받는 메시지에 적용 됩니다. 받는 사람의 조직에서 ATP 안전한 첨부 파일 정책도 현재 위치에 저장 되어 있는 경우 Chris가 전달 하는 메시지는 전달 메시지가 도착할 때 해당 정책의 적용을 받습니다.  <br/> |
+|Chris의 조직에는 조직의 모든 사용자에 게 ATP 안전한 첨부 파일 정책이 있는 Office 365 E5가 있습니다. Chris는 첨부 파일이 있는 전자 메일을 받은 다음 조직 외부에 있는 다른 사람에 게 메시지를 전달 합니다.  <br/> |ATP에서 안전한 첨부 파일 보호는 Chris가 받는 메시지에 적용 됩니다. 받는 사람의 조직에서 ATP 안전한 첨부 파일 정책도 현재 위치에 저장 되어 있는 경우 Chris가 전달 하는 메시지는 전달 메시지가 도착할 때 해당 정책의 적용을 받습니다.  <br/> |
 |자원의 조직에 안전한 첨부 파일 정책이 마련 되어 있고 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 atp](atp-for-spo-odb-and-teams.md) 가 설정 되었습니다. 자원 SharePoint Online의 모든 파일을 검색 하 여 열거나 다운로드 해도 안전한 것으로 가정 합니다.  <br/> |ATP 안전한 첨부 파일 보호는 정의 된 정책에 따라 적절 하 게 적용 됩니다. 그러나 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 모든 파일을 검색 하는 것은 아닙니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md)를 참조 하세요.  <br/> |
 
 ## <a name="submitting-files-for-malware-analysis"></a>맬웨어 분석용 파일 제출

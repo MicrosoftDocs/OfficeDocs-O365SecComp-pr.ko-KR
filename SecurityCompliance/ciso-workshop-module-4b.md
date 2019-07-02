@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: f5b296351ed0fe076f22c148487ed1044da3ae4f
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 640fb15a6e28ee00bc383f6502c06d80db287135
+ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152140"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767299"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>CISO 워크숍 모듈 4b: 위협 방지 전략 
 
@@ -36,9 +36,9 @@ ms.locfileid: "34152140"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtDxA]
 
-## <a name="part-3-learnings-from-microsofts-corporate-it-soc-806"></a>3 부: Microsoft의 회사 IT SOC (8:06)에서 Learnings
+## <a name="part-3-learnings-from-microsofts-corporate-it-soc-2207"></a>3 부: Microsoft의 회사 IT SOC (22:07)에서 Learnings
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtNO5]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE368fZ]
 
 ## <a name="part-4-intelligence-604"></a>4 부: Intelligence (6:04)
 
@@ -56,14 +56,18 @@ ms.locfileid: "34152140"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMz]
 
-## <a name="part-8-dark-markets-and-criminal-forums-919"></a>8 부: 암흑 시장 및 범죄 포럼 (9:19)
+## <a name="part-8-behavior-analytics"></a>8 부: 동작 분석
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36iuc]
+
+## <a name="part-9-dark-markets-and-criminal-forums-919"></a>9 부: 암흑 시장 및 범죄 포럼 (9:19)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMn]
 
-## <a name="part-9-graph-security-api-350"></a>9 부: 그래프 보안 API (3:50)
+## <a name="part-10-siem-integration-1422"></a>10 부: SIEM 통합 (14:22)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMj]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3685k]
 
-## <a name="part-10-summary-of-integrated-technology-and-automation-933"></a>10 부: 통합 기술 및 자동화 요약 (9:33)
+## <a name="part-11-summary-of-integrated-technology-and-automation-933"></a>11 부: 통합 기술 및 자동화 요약 (9:33)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtLoU]

@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: ''
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 데이터 조사 도구를 사용 하는 데 필요한 사용 권한을 설정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: c2627bcb1f226018221969c069607a9b60c7b173
-ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
+ms.openlocfilehash: bff6b976667f3793cf1973f9ab684ae14d590d97
+ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652571"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017660"
 ---
 # <a name="assign-permissions-for-data-investigations-preview"></a>데이터 조사에 대 한 사용 권한 할당 (미리 보기)
 

@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/4/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하는 대시보드에서 대시보드를 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 732c78b35a60c1686bc382931688dec08080f8c2
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 40f927ff394bc5a79e62eea7048bf2a48617cd90
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255606"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34078024"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>연습 - 대시보드에서 통찰력에 이르기까지
 
@@ -40,7 +40,7 @@ ms.locfileid: "32255606"
     
 4. 목록에서 항목을 선택 하면 검색 된 비슷한 전자 메일 메시지를 포함 하 여 추가 정보를 볼 수 있는 세부 정보 창이 열립니다. (목록에서 항목을 클릭 하 고 정보 및 권장 사항을 검토 하세요.)<br>![항목을 선택 하면 세부 정보 창이 열림](media/7ad1faa5-6ca2-474e-a609-eb275e0a8e59.png)<br>
   
-5. 창의 맨 위에 보낸 사람을 조직의 허용 된 보낸 사람 목록에 추가 하는 옵션이 제공 됩니다. (이 작업을 수행 하려는 경우에는 사용자가 **' allowedtospoof ' 보낸 사람 허용 목록에 추가를** 선택 하지 마십시오. [스푸핑 인텔리전스에 대해 자세히 알아보세요](learn-about-spoof-intelligence.md).)<br>![보낸 사람에 게 권한을 부여할 수 있습니다.](media/caf0c20a-6047-486d-8060-5a229a3de49f.png)
+5. 창의 맨 위에 보낸 사람을 조직의 허용 된 보낸 사람 목록에 추가 하는 옵션이 제공 됩니다. (이 작업을 수행 하려는 경우에는 사용자가 **' AllowedtoSpoof ' 보낸 사람 허용 목록에 추가를** 선택 하지 마십시오. [스푸핑 인텔리전스에 대해 자세히 알아보세요](learn-about-spoof-intelligence.md).)<br>![보낸 사람에 게 권한을 부여할 수 있습니다.](media/caf0c20a-6047-486d-8060-5a229a3de49f.png)
   
 이러한 방식으로 대시보드에서 insights 및 권장 작업으로 이동할 수 있습니다.
   

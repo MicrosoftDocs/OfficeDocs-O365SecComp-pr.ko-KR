@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8e67c3c8a693e627bade9e581f0f1e246bf6802a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 091d6f8835ae1aae2f075f0b510954255c3a6a5c
+ms.sourcegitcommit: e323610df2df71c84f536e8a38650d33d8069e41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151890"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34703841"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 대 한 데이터 수집
 
@@ -34,6 +34,7 @@ ms.locfileid: "34151890"
 검색을 만든 후에는 세부 정보가 포함 된 플라이 아웃 페이지가 표시 됩니다. 검색이 아직 완료 되지 않았으므로 **통계** 및 **미리 보기** 단추가 초기에 회색으로 표시 됩니다. 검색의 진행 상태를 추적할 수 있습니다 (검색 탭) **** .
 
 ## <a name="view-search-results-and-statistics"></a>검색 결과 및 통계 보기
+
 콘텐츠 검색에는 통계 (예측) 및 미리 보기의 두 가지 구성 요소가 있습니다. 이러한 각 구성 요소가 완료 되 면 **검색** 탭의 해당 열에 **제출** 됨에서 **진행 중** 에서 **완료**됨으로 변경 된 상태가 표시 됩니다.
 
 검색 예측이 완료 되 면 검색을 클릭 하 여 플라이 아웃 페이지를 표시 하 고 검색 결과에 대 한 일부 높은 수준의 통계를 표시 합니다. 이 시점에서 **통계** 단추가 활성화 됩니다. 이 도구를 클릭 하 여 다음과 같은 검색 통계를 볼 수 있습니다.

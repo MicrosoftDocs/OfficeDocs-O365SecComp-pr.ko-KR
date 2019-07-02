@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: 0bb30ef3cd6f7d35e0f5a86842a8638e87e89773
-ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
+ms.openlocfilehash: 435030c9ab5d9b62c54483dd2ca072999d539712
+ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652491"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34852772"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.
 
@@ -71,7 +71,7 @@ Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색
 - 및 [https://compliance.microsoft.com](https://compliance.microsoft.com)로 직접 [https://security.microsoft.com](https://security.microsoft.com) 이동 합니다. <br>또는  
 - Microsoft 365 관리[https://admin.microsoft.com](https://admin.microsoft.com)센터 ()로 이동 하 고 탐색 창에서 **모두 표시**를 클릭 한 다음 **보안** 또는 **규정 준수**를 선택 합니다.
 
-또한 기존 Office 365 보안 & 준수 센터 ([https://protection.office.com](http://protection.office.com)) 에서도 설정을 구성 및 관리할 수 있습니다. 구성은 기존 Office 365 & 보안 센터 및 microsoft 365 준수 센터와 새로운 microsoft 365 보안 센터가 함께 유지 됩니다.  
+또한 기존 Office 365 보안 & 준수 센터 ([https://protection.office.com](http://protection.office.com)) 에서도 설정을 구성 및 관리할 수 있습니다. 구성은 기존 Office 365 & 보안 센터 및 Microsoft 365 준수 센터와 새로운 Microsoft 365 보안 센터가 함께 유지 됩니다.  
 
 ## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
 
@@ -102,7 +102,7 @@ Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색
 |[Azure Information Protection](https://docs.microsoft.com/azure/information-protection) |예 |예 |아니요 |
 |[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |예 |예 |아니요 |
 |[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |예 |예 |아니요 |
-|[Windows Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection?ocid=tia-260153000#windows-defender-atp) |예 |예 |아니요 |
+|[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) |예 |예 |아니요 |
 |[Id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection)     |예 |예 |아니요 |
 |[권한 있는 Id 관리](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |예 |예 |아니요 |
 |[Intune](https://docs.microsoft.com/intune)     |예 |예 |예 |

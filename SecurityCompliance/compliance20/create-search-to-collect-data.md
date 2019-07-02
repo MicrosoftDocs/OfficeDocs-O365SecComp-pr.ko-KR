@@ -1,5 +1,5 @@
 ---
-title: 검색을 만들어서 데이터 수집
+title: Create a search
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,24 +14,24 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 360ba6a67d43a0b78b1104ae64885697009bb222
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1aa4ce6e406e4b3a3b72b9d93f651416b1fc65f9
+ms.sourcegitcommit: 803baca9f99a6691fb41a3308e799752e4d8f20c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155110"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222252"
 ---
-# <a name="create-a-search-to-collect-data"></a>검색을 만들어서 데이터 수집
+# <a name="create-a-search"></a>Create a search
 
 사례에 있는 **검색** 탭에서 **새 검색** 을 클릭 하 고 마법사를 수행 하 여 새 검색을 만들 수 있습니다.
 
-## <a name="name-your-search-and-give-description"></a>검색 이름 지정 및 설명 입력
+## <a name="name-your-search-and-give-it-a-description"></a>검색의 이름을 지정 하 고 설명을 입력 합니다.
 
 케이스가 포함 된 각 검색의 이름은 고유 해야 합니다. 선택적으로 검색에 대 한 설명을 제공할 수 있습니다. 
 
-## <a name="define-your-conditions"></a>조건 정의
+## <a name="define-your-search-query-and-conditions"></a>검색 쿼리 및 조건 정의
 
-미리 작성 된 조건 카드를 사용 하거나 KQL (키워드 쿼리 언어)를 사용 하 여 검색 조건을 정의할 수 있습니다. 자세한 내용은 [빌드 검색 쿼리](building-search-queries.md)를 참조 하십시오.
+미리 작성 된 조건 카드를 사용 하거나 KQL (키워드 쿼리 언어)를 사용 하 여 검색에 대 한 키워드 쿼리 및 조건을 정의할 수 있습니다. 자세한 내용은 [빌드 검색 쿼리](building-search-queries.md)를 참조 하십시오.
 
 ## <a name="choose-the-custodians-to-search-from"></a>검색할 custodians 선택
 

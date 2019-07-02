@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 6d4a8993efb3046e7f79f4e76a921921abf6d3e6
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 06b85d1ac4c8ed0527a8018129e146fee074d942
+ms.sourcegitcommit: 044003455eb36071806c9f008ac631d54c64dde6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153430"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35199703"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "34153430"
     
 - 콘텐츠를 클라이언트에 반환 하거나 다른 조직으로 전송 합니다.
     
-Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 Security & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
+Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
   
 - 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 이러한 검토자는 개별 사용자, 메일 그룹 또는 Office 365 그룹이 될 수 있습니다. 알림은 주 단위로 전송 됩니다.
     
@@ -54,7 +54,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 Secur
   
 처리 검토에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정 및 Office 365 그룹의 콘텐츠가 포함 될 수 있습니다. 해당 위치에서 처리 검토를 대기 중인 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다.
   
-![보안 및 준수 센터의 Dispositions 페이지](media/Retention_Dispositions_v2_page.png)
+![보안 및 준수 센터의 Dispositions 페이지](media/Retention-Dispositions-v2-page.png)
 
 ## <a name="setting-up-the-disposition-review-by-creating-a-retention-label"></a>보존 레이블을 만들어 처리 검토 설정
 
@@ -74,7 +74,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 Secur
 
 보존 레이블을 선택한 후에는 다음 페이지에 해당 레이블에 대 한 모든 보류 중인 dispositions 표시 됩니다.
 
-![처리 옵션](media/Retention_Disposition_options_v2.png)
+![처리 옵션](media/Retention-Disposition-options-v2.png)
 
 검토자는 다음과 같은 작업을 수행할 수 있습니다. 
   
@@ -104,7 +104,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 Secur
   
 즉, 다음을 의미 합니다.
   
-- 문서 라이브러리의 콘텐츠는 처리 후 7 일 이내에 1 단계 휴지통으로 이동 되 고 그 후에 영구적으로 93 삭제 됩니다. 휴지통이 검색을 통해 인덱싱되지 않으므로 eDiscovery 보류에서 해당 콘텐츠를 사용할 수 없습니다.
+- 문서 라이브러리의 콘텐츠는 처리 후 **7 일 이내** 에 1 단계 휴지통으로 이동 되 고 그 후에 영구적으로 **93** 삭제 됩니다. 휴지통이 검색을 통해 인덱싱되지 않으므로 eDiscovery 보류에서 해당 콘텐츠를 사용할 수 없습니다.
 
 - 보존 보류 라이브러리의 콘텐츠는 처리의 **7 일 이내** 에 영구적으로 삭제 됩니다.
 
@@ -118,13 +118,13 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 Secur
     
 - **삭제 된 항목** 탭에는 처리 검토 중에 삭제를 승인 하 고, 이제 영구적으로 삭제 되는 프로세스에 dispositions 표시 됩니다. 다른 보존 레이블이 적용 된 항목이 나 검토 중에 확장 한 보존 기간은 여기에 표시 되지 않습니다.
 
-![처리 탭](media/Retention_Disposition_tabs.png)
+![처리 탭](media/Retention-Disposition-tabs.png)
     
 ### <a name="filter-the-disposition-views"></a>처리 보기 필터링
 
 보존 레이블 또는 시간 범위로 이러한 보기를 필터링 할 수 있습니다. 보류 중인 dispositions의 경우 시간 범위는 만료 날짜를 기준으로 합니다. 삭제 된 항목의 경우에는 시간 범위가 삭제 날짜를 기준으로 합니다.
   
-![처리 필터 옵션](media/Retention_filter_options.png)
+![처리 필터 옵션](media/Retention-filter-options.png)
 
 ### <a name="export-the-disposition-items"></a>처리 항목 내보내기
 

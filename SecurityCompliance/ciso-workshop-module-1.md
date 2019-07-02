@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 35f3feca7597eb3e80076eccc36e00debd754d01
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 90844018e12a165e57b41153cb2042967ffee641
+ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152160"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767319"
 ---
 # <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>CISO 워크숍 모듈 1: Microsoft Cybersecurity 브리핑
 
@@ -40,17 +40,17 @@ ms.locfileid: "34152160"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtVXF]
 
-## <a name="part-5-microsoft-cybersecurity-reference-architecture-2430"></a>5 부: Microsoft Cybersecurity 참조 아키텍처 (24:30)
+## <a name="part-5-microsoft-cybersecurity-reference-architecture-2114"></a>5 부: Microsoft Cybersecurity 참조 아키텍처 (21:14)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQL2]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36ldf]
 
 ## <a name="part-6-reference-architecture-for-identity-and-access-725"></a>6 부: Id 및 액세스용 참조 아키텍처 (7:25)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtITd]
 
-## <a name="part-7-reference-architecture-for-security-operations-center-739"></a>7 부: 보안 작업 센터에 대 한 참조 아키텍처 (7:39)
+## <a name="part-7-reference-architecture-for-security-operations-center-937"></a>7 부: 보안 작업 센터에 대 한 참조 아키텍처 (9:37)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYM6]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36dlc]
 
 ## <a name="part-8-reference-architecture-for-pc-and-mobile-devices-452"></a>8 부: PC 및 모바일 장치에 대 한 참조 아키텍처 (4:52)
 

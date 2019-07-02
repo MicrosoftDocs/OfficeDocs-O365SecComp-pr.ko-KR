@@ -1,10 +1,10 @@
 ---
-title: 데이터 손실 방지 정책 개요
+title: 데이터 손실 방지 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 04/11/2019
-ms.audience: ITPro
+ms.date: 05/03/2019
+audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
@@ -14,37 +14,40 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: fedb48c20720a7eaa66cd0ea7d2184dd3dc4df55
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+description: 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 Office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
+ms.openlocfilehash: 0199d43a7232b41dbbf1a5c67ab77ebe69d47a84
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33362056"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077854"
 ---
-# <a name="overview-of-data-loss-prevention-policies"></a>데이터 손실 방지 정책 개요
+# <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 
-비즈니스 표준 및 산업 규정을 준수하려면 조직에서는 중요한 정보를 보호하고 실수로 공개되지 않도록 해야 합니다. 조직 외부에 누출되지 않도록 하려는 중요한 정보의 예로는 금융 데이터나 신용 카드 번호, 주민 등록 번호, 의료 기록과 같은 PII(개인 식별 정보)가 있습니다. office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
+> [!NOTE]
+> 데이터 손실 방지 기능은 최근 Office 365 E5 및 Office 365 고급 규정 준수의 Microsoft 팀에 추가 되었습니다. 기능 가용성에 대 한 자세한 내용은 [office 365 서비스 설명: office 365 보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)를 참조 하세요.
+
+비즈니스 표준 및 산업 규정을 준수 하기 위해 조직은 중요 한 정보를 보호 하 고 의도 하지 않은 노출을 방지 해야 합니다. 중요 한 정보에는 재무 데이터 또는 PII (개인 식별이 가능한 정보) (예: 신용 카드 번호, 주민 등록 번호 또는 건강 기록)가 포함 될 수 있습니다. Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
   
 DLP 정책을 사용하여 다음 작업을 수행할 수 있습니다.
   
-- **Exchange online, SharePoint online, 비즈니스용 OneDrive 및 Microsoft 팀과 같은 다양 한 위치에서 중요 한 정보를 식별 합니다.**
+- **Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams와 같은 다양한 위치에서 중요한 정보를 식별합니다.**
     
-    예를 들어 비즈니스용 onedrive 사이트에 저장 된 신용 카드 번호가 포함 된 모든 문서를 식별 하거나 특정 사용자의 onedrive 사이트만 모니터링할 수 있습니다.
+    예를 들어 비즈니스용 OneDrive 사이트에 저장 된 신용 카드 번호가 포함 된 모든 문서를 식별 하거나 특정 사용자의 OneDrive 사이트만 모니터링할 수 있습니다.
     
 - **중요한 정보가 실수로 공유되지 않도록 합니다**. 
     
     예를 들어 조직 외부의 사용자와 공유 하는 상태 레코드가 포함 된 모든 문서 또는 전자 메일을 식별 한 다음 해당 문서에 대 한 액세스를 자동으로 차단 하거나 전자 메일이 전송 되지 않도록 차단할 수 있습니다.
     
-- **Excel, PowerPoint 및 Word의 데스크톱 버전에서 중요 한 정보를 모니터링 하 고 보호 합니다.**
+- **데스크톱 버전의 Excel, PowerPoint 및 Word에서 중요한 정보를 모니터링하고 보호합니다.**
     
-    Exchange online, SharePoint online 및 비즈니스용 OneDrive와 마찬가지로 이러한 Office 데스크톱 프로그램은 중요 한 정보를 식별 하 고 DLP 정책을 적용 하는 것과 같은 기능을 포함 합니다. DLP는 사용자가 이러한 Office 프로그램에서 콘텐츠를 공유 하는 경우 지속적인 모니터링을 제공 합니다.
+    Exchange Online, SharePoint Online 및 비즈니스용 OneDrive와 마찬가지로 이러한 Office 데스크톱 프로그램은 중요 한 정보를 식별 하 고 DLP 정책을 적용 하는 것과 같은 기능을 포함 합니다. DLP는 사용자가 이러한 Office 프로그램에서 콘텐츠를 공유 하는 경우 지속적인 모니터링을 제공 합니다.
     
 - **사용자가 자신의 워크플로를 중단하지 않고 규정 준수 상태를 유지하도록 하는 방법을 알도록 도와줄 수 있습니다.**
     
-    사용자에게 DLP 정책에 대해 교육하고 자신의 작업을 중단하지 않고 규정 준수 상태를 유지하도록 할 수 있습니다. 예를 들어 사용자가 중요한 정보를 포함하는 문서를 공유하려고 하면 DLP 정책은 전자 메일 알림을 보내고, 업무 정당성이 있을 경우 이 정책을 재정의할 수 있는 문서 라이브러리의 컨텍스트에서 정책 팁을 표시합니다. 웹, outlook, Excel, PowerPoint 및 Word의 outlook에도 동일한 정책 팁이 표시 됩니다.
+    사용자에게 DLP 정책에 대해 교육하고 자신의 작업을 중단하지 않고 규정 준수 상태를 유지하도록 할 수 있습니다. 예를 들어 사용자가 중요한 정보를 포함하는 문서를 공유하려고 하면 DLP 정책은 전자 메일 알림을 보내고, 업무 정당성이 있을 경우 이 정책을 재정의할 수 있는 문서 라이브러리의 컨텍스트에서 정책 팁을 표시합니다. 웹, Outlook, Excel, PowerPoint 및 Word의 Outlook에도 동일한 정책 팁이 표시 됩니다.
     
-- **조직의 dlp 정책과 일치 하는 콘텐츠를 표시 하는 DLP 보고서를 확인 합니다.**
+- **조직의 DLP 정책과 일치하는 내용을 표시하는 DLP 보고서를 확인합니다.**
     
     조직이 DLP 정책을 어떻게 준수하고 있는지를 평가하기 위해 시간에 따른 각 정책 및 규칙의 일치 횟수를 확인할 수 있습니다. DLP 정책을 사용 하 여 사용자가 정책 팁을 무시 하 고 가양성을 보고할 수 있는 경우 사용자가 보고 한 내용도 볼 수 있습니다.
     
@@ -68,15 +71,15 @@ DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니
   
 예를 들어 HIPAA(Health Insurance Portability and Accountability Act)가 적용되는 정보의 현재 상태를 확인하는 데 도움이 되는 DLP 정책이 있을 수 있습니다. 이 DLP 정책은 모든 SharePoint Online 사이트 및 모든 비즈니스용 OneDrive 사이트 (where)에서 조직 외부의 사용자와 공유 하는 모든 문서를 검색 하 여 해당 정보를 보호 하는 데 도움이 될 수 있습니다 ( 조건)을 선택한 다음 문서에 대 한 액세스를 차단 하 고 알림 (작업)을 보냅니다. 이러한 요구 사항은 개별 규칙으로 저장되고, 관리 및 보고를 단순화하기 위해 DLP 정책으로 함께 그룹화됩니다.
   
-![DLP 정책에 규칙 및 위치를 보여 주는 다이어그램](media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
+![DLP 정책에 위치 및 규칙이 포함 되어 있음을 보여 주는 다이어그램](media/c006860c-2d00-42cb-aaa4-5b5638d139f7.png)
   
 ### <a name="locations"></a>위치
 
-DLP 정책은 해당 정보가 Exchange Online, SharePoint online, 비즈니스용 OneDrive 또는 Microsoft 팀에 있든 관계 없이 Office 365에서 중요 한 정보를 찾고 보호할 수 있습니다. Exchange 전자 메일, Microsoft 팀 채팅 및 채널, 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호 하거나 정책의 특정 위치를 선택 하도록 선택할 수 있습니다.
+DLP 정책은 해당 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀에 있든 관계 없이 Office 365에서 중요 한 정보를 찾고 보호할 수 있습니다. Exchange 전자 메일, Microsoft 팀 채팅 및 채널, 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호 하거나 정책의 특정 위치를 선택 하도록 선택할 수 있습니다.
   
 ![DLP 정책을 적용할 수 있는 위치에 대 한 옵션](media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
   
-특정 SharePoint 사이트 또는 OneDrive 계정을 포함 하거나 제외 하는 경우 DLP 정책에는 포함 및 제외와 같은 100을 초과 하지 않을 수 있습니다. 이 제한이 있는 경우에도 조직 전체 정책이 나 전체 위치에 적용 되는 정책을 적용 하 여이 제한을 초과할 수 있다는 점을 이해 하는 것이 좋습니다.
+특정 SharePoint 사이트 또는 OneDrive 계정을 포함 하거나 제외 하는 경우 DLP 정책에는 포함 및 제외와 같은 100을 초과 하지 않을 수 있습니다. 이 제한이 있으므로 전체 위치에 적용 되는 조직 전체 정책이 나 정책을 적용 하 여이 제한을 초과할 수 있습니다.
   
 ### <a name="rules"></a>규칙
 
@@ -90,9 +93,9 @@ DLP 정책은 해당 정보가 Exchange Online, SharePoint online, 비즈니스�
   
 #### <a name="conditions"></a>조건
 
-조건은 찾으려는 정보의 유형과 작업을 수행 해야 하는 경우를 결정 하는 것 이므로 중요 합니다. 예를 들어 콘텐츠에 숫자가 10 개 이상 있고 조직 외부의 사용자와 공유 되는 경우가 아니면 passport 번호가 포함 된 콘텐츠를 무시 하도록 선택할 수 있습니다.
+조건은 찾으려는 정보의 유형과 작업을 수행 해야 하는 경우를 결정 하는 것 이므로 중요 합니다. 예를 들어 콘텐츠에 포함 된 해당 숫자가 10 개를 초과 하 고 조직 외부의 사용자와 공유 되는 경우가 아니면 passport 번호가 있는 콘텐츠를 무시 하도록 선택할 수 있습니다.
   
-사용 중인 중요 한 정보 유형, 문서와 공유 하는 사용자 등의 **상황**에 따라 **콘텐츠에**초점을 맞춥니다. 조건을 사용 하 여 다른 위험 수준에 서로 다른 작업을 할당할 수 있습니다. 예를 들어, 내부적으로 공유 되는 중요 한 콘텐츠는 위험 하 고, 조직 외부의 사용자와 공유 되는 중요 한 콘텐츠 보다 더 적은 작업이 필요 합니다. 
+사용 중인 중요 한 정보 유형, 문서와 공유 하는 사용자 등의 **상황**에 따라 **콘텐츠에**초점을 맞춥니다. 조건을 사용 하 여 각기 다른 위험 수준에 서로 다른 작업을 할당할 수 있습니다. 예를 들어 중요 한 콘텐츠는 내부적으로 공유 되는 위험을 줄일 수 있으며, 조직 외부의 사용자와 공유 된 중요 한 콘텐츠 보다 더 적은 작업이 필요 합니다. 
   
 ![사용 가능한 DLP 조건을 표시 하는 목록](media/0fa43f90-d007-4506-ae93-43e8424fe103.png)
   
@@ -130,11 +133,11 @@ DLP 정책이 신용 카드 번호와 같은 중요 한 정보 유형을 찾을 
   
 이제 사용 가능한 작업을 통해 다음을 수행할 수 있습니다.
   
-- **콘텐츠에 대 한 액세스 제한** 사이트 콘텐츠의 경우 기본 사이트 모음 관리자, 문서 소유자 및 문서를 마지막으로 수정한 사람을 제외한 모든 사용자에 대해 문서에 대 한 사용 권한이 제한 됩니다. 이러한 사람은 문서에서 중요한 정보를 제거하거나 기타 작업을 수행할 수 있습니다. 문서가 규정을 준수하는 경우 원래 권한은 자동으로 복원됩니다. 문서 액세스가 차단되면 사이트의 라이브러리에서 해당 문서에는 특수한 정책 팁 아이콘이 표시됩니다. 
+- **콘텐츠에 대 한 액세스 제한** 사이트 콘텐츠의 경우 기본 사이트 모음 관리자, 문서 소유자 및 문서를 마지막으로 수정한 사람을 제외한 모든 사용자에 대해 문서에 대 한 사용 권한이 제한 됩니다. 이러한 사람은 문서에서 중요한 정보를 제거하거나 기타 작업을 수행할 수 있습니다. 문서가 규정을 준수 하는 경우 원래 사용 권한은 자동으로 복원 됩니다. 문서 액세스가 차단되면 사이트의 라이브러리에서 해당 문서에는 특수한 정책 팁 아이콘이 표시됩니다. 
     
     ![정책 설명 표시 문서에 대 한 액세스 차단](media/b6cefed3-d212-43d7-8534-4b92b26ebd50.png)
   
-    전자 메일 콘텐츠의 경우이 동작은 메시지가 전송 되지 않도록 차단 합니다. DLP 규칙이 구성 된 방법에 따라 보낸 사람은 NDR을 보거나 규칙에서 알림을 사용 하는 경우 정책 팁 및/또는 전자 메일 알림을 볼 수 있습니다.
+    전자 메일 콘텐츠의 경우이 동작은 메시지가 전송 되지 않도록 차단 합니다. DLP 규칙이 구성 된 방식에 따라 보낸 사람은 NDR을 보거나 규칙에서 알림을 사용 하는 경우 정책 팁 및/또는 전자 메일 알림을 볼 수 있습니다.
     
     ![인증 되지 않은 받는 사람을 메시지에서 제거 해야 하는 경고](media/302f9994-912d-41e7-861f-8a4539b3c285.png)
   
@@ -148,7 +151,7 @@ DLP 정책이 신용 카드 번호와 같은 중요 한 정보 유형을 찾을 
   
 전자 메일 알림을 보내는 것 외에도 사용자 알림은 정책 팁을 표시 합니다.
   
-- outlook 및 웹용 outlook
+- Outlook 및 웹용 Outlook
     
 - SharePoint Online 또는 비즈니스용 OneDrive 사이트의 문서
     
@@ -178,7 +181,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
     
 - 제공 되는 의료 서비스에 대 한 환자 관리 또는 설명에 대 한 통신과 같이 식별 하기 어려운 콘텐츠입니다. 이 콘텐츠를 식별 하려면 Diseases의 국제 분류 (ICD-9cm 또는 ICD-10cm)와 같은 매우 큰 키워드 목록의 일치 키워드를 사용 해야 합니다.
     
-그룹화 및 논리 연산자 (and, OR)를 사용 하 여 느슨하게 정의 된 데이터를 쉽게 식별할 수 있습니다. DLP 정책을 만들 때 다음을 수행할 수 있습니다.
+그룹화 및 논리 연산자 (AND, OR)를 사용 하 여 느슨하게 정의 된 데이터를 쉽게 식별할 수 있습니다. DLP 정책을 만들 때 다음을 수행할 수 있습니다.
   
 - 중요 한 정보 유형을 그룹화 합니다.
     
@@ -212,7 +215,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
   
 ## <a name="the-priority-by-which-rules-are-processed"></a>규칙이 처리 되는 우선 순위입니다.
 
-정책에서 규칙을 만들 때 각 규칙의 우선 순위는 생성 되는 순서 대로 지정 되 고, 처음 만든 규칙은 우선 순위가 가장 높습니다. 
+정책에서 규칙을 만들 때 각 규칙의 우선 순위는 생성 되는 순서, 즉 처음 만든 규칙에 우선 순위가 지정 되 고, 두 번째로 만든 규칙은 두 번째 우선 순위가 부여 됩니다. 
   
 ![규칙을 우선 순위에 정렬 합니다.](media/f7dc06bf-bc6f-485c-bcdb-606edbcf6565.png)
   
@@ -236,7 +239,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
     
 이 예에서는 모든 규칙에 대 한 일치가 감사 로그에 기록 되며 가장 제한적인 규칙만 적용 되더라도 DLP 보고서에 표시 됩니다.
   
-정책 팁과 관련 하 여 다음 사항을 확인 합니다.
+정책 팁에 대 한 자세한 내용은 다음을 참조 하십시오.
   
 - 가장 높은 우선 순위의 정책 팁만 표시 됩니다. 예를 들어 알림을 콘텐츠 액세스를 차단하는 규칙의 정책 팁은 단순히 알림을 보내는 규칙의 정책 팁보다 우선적으로 표시됩니다. 따라서 정책 팁이 단계별로 표시되지는 않습니다.
     
@@ -254,7 +257,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
   
 ### <a name="instance-count"></a>인스턴스 수
 
-인스턴스 수는 해당 규칙과 일치 하는 콘텐츠에 대해 제공 해야 하는 특정 유형의 중요 한 정보 발생 수를 의미 합니다. 예를 들어, 1 ~ 9 고유 미국 또는 영국 사이에 있는 경우 콘텐츠는 아래와 같이 표시 된 규칙과 일치 합니다. passport 번호가 식별 됩니다.
+인스턴스 수는 해당 규칙과 일치 하는 콘텐츠에 대해 제공 해야 하는 특정 유형의 중요 한 정보 발생 수를 의미 합니다. 예를 들어, 1 ~ 9 고유 미국 또는 영국에 해당 하는 경우 콘텐츠가 아래에 표시 된 규칙과 일치 합니다. passport 번호가 식별 됩니다.
   
 인스턴스 수에는 중요 한 정보 유형 및 키워드에 대 한 **고유** 일치만 포함 됩니다. 예를 들어 전자 메일에 동일한 신용 카드 번호가 10 번 포함 되어 있는 경우 10 개 항목이 신용 카드 번호의 단일 인스턴스로 계산 됩니다. 
   
@@ -294,7 +297,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
   
 - 모든 일치 항목이 단일 패턴에 대 한 것 이면 해당 패턴의 신뢰 수준이 반환 됩니다.
     
-- 두 개 이상의 패턴에 대해 일치 하는 것이 있는 경우 (즉 서로 다른 신뢰 수준과 일치 하는 일치가 있는 경우) 단일 패턴에 비해 신뢰도 수준이 높은 것이 반환 됩니다. 이는 까다로운 부분입니다. 예를 들어 신용 카드에서 65%와 85% 패턴이 모두 일치 하는 경우, 더 많은 증거가 있다는 것을 의미 하기 때문에 해당 중요 한 정보 유형에 대해 반환 되는 신뢰 수준은 90% 보다 큽니다.
+- 둘 이상의 패턴에 대해 일치 하는 경우, 즉 서로 다른 두 신뢰 수준과 일치 하는 경우에는 단일 패턴에 비해 신뢰도 수준이 높은 것이 반환 됩니다. 이는 까다로운 부분입니다. 예를 들어 신용 카드에서 65%와 85% 패턴이 모두 일치 하는 경우, 더 많은 증거가 있다는 것을 의미 하기 때문에 해당 중요 한 정보 유형에 대해 반환 되는 신뢰 수준은 90% 보다 큽니다.
     
 따라서 신용 카드에 대해 두 개의 상호 배타적인 규칙을 만들고, 65% 일치 정확성을 확인 하 고, 85% 일치 정확성을 사용할 경우 일치 하는 항목의 범위는 다음과 같습니다. 첫 번째 규칙은 65% 패턴과 일치 하는 항목만 선택 합니다. 두 번째 규칙은 **하나 이상의** 85% 일치 항목과 일치 하 고 더 낮은 신뢰도 일치를 **가질 수 있습니다** . 
   
@@ -324,7 +327,7 @@ OneDrive for Business 계정의 정책 팁은 다음과 같습니다.
     
 - 해당 이름의 프로젝트에 대해 **알파인 house** 라는 레이블을 만든 다음 해당 레이블을 "알파인 집" 이라는 키워드가 포함 된 콘텐츠에 자동으로 적용 합니다. 이 레이블을 DLP 정책의 조건으로 사용 하 여이 콘텐츠를 조직 외부의 사용자와 공유 하려고 할 때 최종 사용자에 게 정책 팁을 표시할 수 있습니다. 
     
-- 레코드 관리자가 레코드를 분류 해야 하는 콘텐츠에 레이블을 수동으로 적용할 수 있도록 **세금 레코드**라는 레이블을 게시 했습니다. 이 레이블을 DLP 정책의 조건으로 사용 하 여 itins 또는 ssns와 같은 기타 유형의 중요 한 정보와 함께이 레이블로 콘텐츠를 찾을 수 있습니다. **세금 기록**이라는 콘텐츠에 보호 작업을 적용 합니다. 그리고 dlp 보고서 및 감사 로그 데이터에서 dlp 정책에 대 한 자세한 활동 보고서를 확인 하세요. 
+- 레코드 관리자가 레코드를 분류 해야 하는 콘텐츠에 레이블을 수동으로 적용할 수 있도록 **세금 레코드**라는 레이블을 게시 했습니다. 이 레이블을 DLP 정책의 조건으로 사용 하 여 ITINs 또는 SSNs와 같은 기타 유형의 중요 한 정보와 함께이 레이블의 콘텐츠를 찾을 수 있습니다. **세금 기록**이라는 콘텐츠에 보호 작업을 적용 합니다. 그리고 DLP 보고서 및 감사 로그 데이터에서 DLP 정책에 대 한 자세한 활동 보고서를 확인 하세요. 
     
 - **Executive 리더십 팀 구분** 이라는 레이블을 Exchange 사서함 및 임원 그룹의 OneDrive 계정에 게시 했습니다. 이 레이블을 DLP 정책의 조건으로 사용 하 여 동일한 콘텐츠 및 사용자 하위 집합에 대해 보존 및 보호 작업을 둘 다 적용할 수 있습니다. 
     
@@ -384,7 +387,7 @@ DLP 정책을 만들 때 simple 또는 advanced 설정 중에서 선택 합니�
 
 DLP 정책을 만드는 첫 번째 단계는 보호할 정보를 선택 하는 것입니다. DLP 서식 파일로 시작 하 여 새 규칙 집합을 처음부터 새로 작성 하 고, 기본적으로 포함 될 정보 유형을 파악 합니다. 그런 다음 이러한 요구 사항을 추가 하거나 수정 하 여 조직의 특정 요구 사항에 맞게 규칙을 미세 조정할 수 있습니다.
   
-미리 구성 된 DLP 정책 템플릿을 사용 하면 HIPAA 데이터, 금융-gramm-leach-bliley-gramm-leach-bliley Act 데이터, 심지어 로캘별 개인 식별 정보 (P.I.)와 같은 특정 유형의 중요 한 정보를 쉽게 검색할 수 있습니다. 일반적인 유형의 중요한 정보를 쉽게 찾아 보호할 수 있도록 하기 위해 Office 365에 포함된 정책 템플릿에는 이미 시작하는 데 필요한 가장 일반적인 중요한 정보 유형이 포함되어 있습니다.
+미리 구성 된 DLP 정책 템플릿을 사용 하면 HIPAA 데이터, 금융-Gramm-leach-bliley-Gramm-leach-bliley Act 데이터, 심지어 로캘별 개인 식별 정보 (P.I.)와 같은 특정 유형의 중요 한 정보를 쉽게 검색할 수 있습니다. 일반적인 유형의 중요한 정보를 쉽게 찾아 보호할 수 있도록 하기 위해 Office 365에 포함된 정책 템플릿에는 이미 시작하는 데 필요한 가장 일반적인 중요한 정보 유형이 포함되어 있습니다.
   
 ![미국용 템플릿이 포커스가 있는 데이터 손실 방지 정책에 대한 템플릿 목록 애국법](media/791b2403-430b-4987-8643-cc20abbd8148.png)
   
@@ -436,7 +439,7 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
 
 보안 &amp; 및 준수 센터에서 DLP 정책을 만든 후에는 중앙 정책 저장소에 저장 된 후 다음을 비롯 한 다양 한 콘텐츠 원본과 동기화 합니다.
   
-- Exchange Online, 웹에서 outlook 및 outlook으로
+- Exchange Online, 웹에서 Outlook 및 Outlook으로
     
 - 비즈니스용 OneDrive 사이트
     
@@ -464,15 +467,15 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
   
 DLP는 인덱싱할 수 있는 모든 콘텐츠를 평가합니다. 기본적으로 크롤링되는 파일 형식에 대 한 자세한 내용은 [기본 크롤링 파일 이름 확장명 및 구문 분석 된 파일 형식 (SharePoint Server](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types))을 참조 하세요.
   
-### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange Online, outlook 및 웹용 outlook의 정책 평가
+### <a name="policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web"></a>Exchange Online, Outlook 및 웹용 Outlook의 정책 평가
 
-exchange online을 위치로 포함 하는 DLP 정책을 만드는 경우에는 해당 정책이 Office 365 보안 &amp; 준수 센터에서 exchange online으로 동기화 된 다음 exchange online에서 웹 및 outlook의 outlook에 제공 됩니다.
+Exchange Online을 위치로 포함 하는 DLP 정책을 만드는 경우에는 해당 정책이 Office 365 보안 &amp; 준수 센터에서 exchange online으로 동기화 된 다음 exchange online에서 웹 및 Outlook의 outlook에 제공 됩니다.
   
-Outlook에서 메시지를 작성할 때 만들어지는 콘텐츠가 DLP 정책에 대해 평가 되는 동안 사용자는 정책 팁을 볼 수 있습니다. 그리고 메시지가 전송 된 후에는 exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 exchange 관리 센터에서 만든 dlp 정책을 함께 사용 하 여 dlp 정책에 대 한 메일 흐름의 일반적인 부분으로 평가 됩니다. DLP 정책은 메시지와 첨부 파일을 모두 검색 합니다.
+Outlook에서 메시지를 작성할 때 만들어지는 콘텐츠가 DLP 정책에 대해 평가 되는 동안 사용자는 정책 팁을 볼 수 있습니다. 그리고 메시지가 전송 된 후에는 exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 Exchange 관리 센터에서 만든 DLP 정책을 함께 사용 하 여 DLP 정책에 대 한 메일 흐름의 일반적인 부분으로 평가 됩니다. DLP 정책은 메시지와 첨부 파일을 모두 검색 합니다.
   
 ### <a name="policy-evaluation-in-the-office-desktop-programs"></a>Office 데스크톱 프로그램의 정책 평가
 
-Excel, PowerPoint 및 Word에는 중요 한 정보를 식별 하 고 DLP 정책을 SharePoint Online 및 비즈니스용 OneDrive로 적용 하는 것과 동일한 기능이 포함 되어 있습니다. 이러한 Office 프로그램은 중앙 정책 저장소에서 dlp 정책을 직접 동기화 한 다음 사용자가 dlp 정책에 포함 된 사이트에서 연 문서를 사용할 때 dlp 정책에 대해 콘텐츠를 지속적으로 평가 합니다.
+Excel, PowerPoint 및 Word에는 중요 한 정보를 식별 하 고 DLP 정책을 SharePoint Online 및 비즈니스용 OneDrive로 적용 하는 것과 동일한 기능이 포함 되어 있습니다. 이러한 Office 프로그램은 중앙 정책 저장소에서 DLP 정책을 직접 동기화 한 다음 사용자가 DLP 정책에 포함 된 사이트에서 연 문서를 사용할 때 DLP 정책에 대해 콘텐츠를 지속적으로 평가 합니다.
   
 Office의 DLP 정책 계산은 프로그램의 성능 또는 콘텐츠 작업을 수행 하는 사용자의 생산성에 영향을 주지 않도록 설계 되었습니다. 대규모 문서에서 작업 중이거나 사용자의 컴퓨터가 사용 중인 경우 정책 팁이 표시 되는 데 몇 초 정도 걸릴 수 있습니다.
 
@@ -502,15 +505,15 @@ Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Offi
     
 2. 이러한 [정책 및 준수-dlp cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/export-dlppolicycollection?view=exchange-ps) 중 하나를 사용 합니다.
     
-그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 따라서 **DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다**. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
+그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 따라서 **DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 Powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다**. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
   
 1. [Connect to Exchange Online using remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)(원격 PowerShell을 사용하여 Exchange Online에 연결)
     
 2. DLP 보고서에 대해 다음 cmdlet 중 하나를 사용 합니다.
     
-  - [get-dlpdetectionsreport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
+  - [Get-dlpdetectionsreport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
     
-  - [get-dlpdetailreport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
+  - [Get-dlpdetailreport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
     
 ## <a name="more-information"></a>추가 정보
 

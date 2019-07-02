@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: c9d418254db4a11716b4d1e58ecd683b92fdfd18
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 75cdd5ff4d65c7d7cbe90e8516f9027a496c4e36
+ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155490"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767309"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>CISO 워크숍 모듈 4a: 위협 방지 전략
 
@@ -68,9 +68,9 @@ ms.locfileid: "34155490"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQLS]
 
-## <a name="part-11-roadmap-for-securing-privileged-access-1229"></a>11 부: 권한 있는 액세스를 보호 하기 위한 로드맵 (12:29)
+## <a name="part-11-roadmap-for-securing-privileged-access-2226"></a>11 부: 권한 있는 액세스를 보호 하기 위한 로드맵 (22:26)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtLpa]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36aLB]
 
 ## <a name="part-12-roadmap-for-not-petya-and-critical-security-hygiene-1028"></a>12 부: Petya 및 중요 보안 바이러스에 대 한 로드맵 (10:28)
 

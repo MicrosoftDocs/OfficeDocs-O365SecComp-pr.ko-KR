@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4bf85fb8294ce7d95f31574112b9719b2b633c3e
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 9e8e85d92543c4d49ad7841f8b2592a539a13977
+ms.sourcegitcommit: e323610df2df71c84f536e8a38650d33d8069e41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154040"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34703753"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "34154040"
 
 ![검토 설정 추가](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
 
-**검토 설정** 플라이 아웃 추가 페이지에서 검토 집합의 이름을 입력 하 고 **저장**을 클릭 합니다.  새 검토 집합이 **검토 집합** 탭의 목록에 표시 됩니다.
+**검토 설정** 플라이 아웃 추가 페이지에서 검토 집합의 이름을 입력 하 고 **저장**을 클릭 합니다. 새 검토 집합이 **검토 집합** 탭의 목록에 표시 됩니다.
 
 ![검토 설정 탭에 나열 된 새 검토 집합](../media/AeDnewreviewset.png)
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Facebook Business 페이지를 가져와 Office 365에 보관 하는 기본 커넥터를 설정할 수 있습니다. 이 데이터를 Office 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Facebook 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: b0ec46cea2dd5722633e7fc302cdd0d03cd5d56d
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1f5b0f241616cc95e79e80d054a8782f97c5887b
+ms.sourcegitcommit: 3699da2cad6e6a2002083e2884e32393dacab0ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150560"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694740"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-data-in-office-365"></a>Office 365에서 Facebook 데이터를 보관 하기 위한 커넥터 배포
 
@@ -24,7 +24,7 @@ ms.locfileid: "34150560"
 
 ## <a name="step-1-download-the-package"></a>1 단계: 패키지 다운로드
 
-GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-connector-csharp-aspnet/releases>) 섹션에서 미리 작성 된 패키지를 다운로드 합니다. 최신 버전의 경우 **SampleConnector**라는 zip 파일을 다운로드 합니다. 4 단계에서이 zip 파일을 Azure에 업로드 합니다.
+GitHub 리포지토리의 릴리스 섹션에서 미리 작성 된 패키지를 다운로드 <https://github.com/Microsoft/m365-sample-connector-csharp-aspnet/releases>합니다. 최신 버전의 경우 **SampleConnector**라는 zip 파일을 다운로드 합니다. 4 단계에서이 zip 파일을 Azure에 업로드 합니다.
 
 ## <a name="step-2-create-an-app-in-azure-active-directory"></a>2 단계: Azure Active Directory에 앱 만들기
 
@@ -44,7 +44,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
    ![](media/FBCimage4.png)
 
-5. **응용 프로그램 (클라이언트) id** 및 **디렉터리 (테 넌 트) id** 를 복사한 다음 텍스트 파일 또는 기타 안전한 위치에 저장 합니다. 이러한 Id는 이후 단계에서 사용 합니다.
+5. **응용 프로그램 (클라이언트) id** 및 **디렉터리 (테 넌 트) id** 를 복사한 다음 텍스트 파일 또는 기타 안전한 위치에 저장 합니다. 이후 단계에서 이러한 Id를 사용 합니다.
 
    ![](media/FBCimage5.png)
 
@@ -60,7 +60,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
     ![](media/FBCimage8.png)
 
-9. 비밀 값을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다. 이는 이후 단계에서 사용할 AAD 응용 프로그램 비밀입니다.
+9. 비밀 값을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다. 이는 이후 단계에서 사용 하는 AAD 응용 프로그램 비밀입니다.
 
    ![](media/FBCimage9.png)
 
@@ -102,7 +102,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
     ![](media/FBCimage18.png)
 
-9. **연결 문자열** 을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다. 이를 사용 하 여 웹 앱 리소스를 만들 수 있습니다.
+9. **연결 문자열** 을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다. 이는 웹 앱 리소스를 만들 때 사용 합니다.
 
     ![](media/FBCimage19.png)
 
@@ -112,17 +112,17 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
    ![](media/FBCimage20.png)
 
-2. 아래와 같이 세부 정보를 입력 하 고 웹 앱을 만듭니다. **앱 이름** 상자에 입력 하는 이름은 Azure 앱 서비스 URL을 만드는 데 사용 됩니다. 예: fbconnector.azurewebsites.net.
+2. 아래와 같이 세부 정보를 입력 하 고 웹 앱을 만듭니다. **앱 이름** 상자에 입력 한 이름은 Azure 앱 서비스 URL을 만드는 데 사용 됩니다. 예: fbconnector.azurewebsites.net.
 
    ![](media/FBCimage21.png)
 
-3. 새로 만든 웹 앱 리소스로 이동 하 여 왼쪽 탐색 창에서 **응용 프로그램 설정을** 클릭 합니다. 응용 프로그램 설정에서 새 설정 추가를 클릭 하 고 다음 세 가지 설정을 추가 합니다. 이전 단계의 텍스트 파일에 복사한 값을 사용 합니다. 
+3. 새로 만든 웹 앱 리소스로 이동 하 여 왼쪽 탐색 창에서 **응용 프로그램 설정을** 클릭 합니다. 응용 프로그램 설정에서 새 설정 추가를 클릭 하 고 다음의 세 가지 설정을 추가 합니다. (이전 단계의 텍스트 파일에 복사한 값)를 사용 합니다. 
 
-    - **APISecretKey** – 임의의 값을 비밀로 입력할 수 있습니다. 이는 7 단계에서 커넥터 웹 앱에 액세스 하는 데 사용 됩니다.
+    – **APISecretKey** -모든 값을 암호로 입력할 수 있습니다. 이는 7 단계에서 커넥터 웹 앱에 액세스 하는 데 사용 됩니다.
 
-    - **Storageaccountconnectionstring** -3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
+    -* * StorageAccountConnectionString-3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
 
-    - **tenantId** -2 단계에서 Azure Active Directory에 Facebook 커넥터 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
+    - **tenantId** -2 단계에서 Azure Active Directory에 Facebook connector 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
 
     ![](media/FBCimage22.png)
 
@@ -132,13 +132,13 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
 5. 마지막 단계에서는 1 단계에서 다운로드 한 Azure에 커넥터 응용 프로그램 소스 코드를 업로드 합니다. 웹 브라우저에서 scm.azurewebsites.net/ZipDeployUi로 이동 합니다.<AzureAppResourceName>https://. 예를 들어이 섹션의 2 단계에서 이름이 지정 된 Azure 앱 리소스의 이름이 **fbconnector**인 경우로 https://fbconnector.scm.azurewebsites.net/ZipDeployUi이동 합니다. 
 
-6. 1 단계에서 다운로드 한 SampleConnector을이 페이지로 끌어서 놓습니다. 파일이 업로드 되 고 배포가 성공 하면 페이지는 다음 스크린샷과 유사 하 게 표시 됩니다.
+6. 1 단계에서 다운로드 한 SampleConnector을이 페이지로 끌어서 놓습니다. 파일이 업로드 되 고 배포가 성공적으로 수행 되 면 페이지는 다음 스크린샷과 유사 하 게 표시 됩니다.
 
    ![](media/FBCimage24.png)
 
 ## <a name="step-5-register-the-facebook-app"></a>5 단계: Facebook 앱 등록
 
-1. <https://developers.facebook.com> 으로 이동 하 고 조직의 Facebook Business 페이지의 계정에 대 한 자격 증명을 사용 하 여 로그인 한 다음 **새 앱 추가**를 클릭 합니다.
+1. <https://developers.facebook.com>으로 이동 하 고 조직의 Facebook Business 페이지의 계정에 대 한 자격 증명을 사용 하 여 로그인 한 다음 **새 앱 추가**를 클릭 합니다.
 
    ![](media/FBCimage25.png)
 
@@ -162,7 +162,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
    ![](media/FBCimage30.png)
 
-7. **Facebook 로그인**아래의 왼쪽 탐색 창에서 **설정을**클릭 하 고 **유효한 OAuth 리디렉션 URI** 상자에 OAuth 리디렉션 URI를 추가 합니다. connectorserviceuri에 대 한 값이 조직의 Azure app 서비스 URL 인 ** \<connectorserviceuri>/Views/FacebookOAuth**형식을 사용 합니다. 예를 https://fbconnector.azurewebsites.net들어
+7. **Facebook 로그인**아래의 왼쪽 탐색 창에서 **설정을**클릭 하 고 **유효한 OAuth 리디렉션 URI** 상자에 OAuth 리디렉션 URI를 추가 합니다. Connectorserviceuri의 값은 조직의 Azure app 서비스 URL 인 ** \<connectorserviceuri>/views/facebookoauth**형식을 사용 합니다. 예를 https://fbconnector.azurewebsites.net들면입니다.
 
    ![](media/FBCimage31.png)
 
@@ -206,7 +206,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
 ## <a name="step-6-configure-the-connector-web-app"></a>6 단계: 커넥터 웹 응용 프로그램 구성
 
-1. Https://\<AzureAppResourceName> (여기서 AzureAppResourceName은 4 단계에서 이름이 지정 된 Azure 앱 리소스의 이름)으로 이동 합니다 (예: 이름이 **fbconnector**이면로 https://fbconnector.azurewebsites.net이동). 앱의 홈 페이지는 다음 스크린샷 처럼 표시 됩니다.
+1. Https://\<AzureAppResourceName> (여기에서 AzureAppResourceName는 4 단계에서 명명 한 Azure 앱 리소스의 이름)으로 이동 합니다 (예: 이름이 **fbconnector**이면로 https://fbconnector.azurewebsites.net이동). 앱의 홈 페이지는 다음 스크린샷 처럼 표시 됩니다.
 
 
    ![](media/FBCimage41.png)
@@ -222,12 +222,12 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
 4. **구성 세부 정보**에서 다음 구성 설정을 입력 합니다. 
 
-   - **Facebook 응용 프로그램 id** -5 단계에서 가져온 facebook 응용 프로그램의 앱 ID입니다.
-   - **Facebook 응용 프로그램 비밀** -5 단계에서 얻은 facebook 응용 프로그램에 대 한 앱 비밀입니다.
-   - **Facebook webhook 확인 토큰** -5 단계에서 만든 verify 토큰입니다.
-   - **AAD 응용 프로그램 id** -2 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 id입니다.
-   - **AAD 응용 프로그램 비밀** -4 단계에서 만든 APISecretKey 암호의 값입니다.
-   - **Aad 응용 프로그램 uri** -2 단계에서 가져온 aad 응용 프로그램 uri 예를 https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213들면입니다.
+   – **Facebook 응용 프로그램 id** -5 단계에서 가져온 facebook 응용 프로그램의 앱 ID입니다.
+   – **Facebook 응용 프로그램 비밀** – 5 단계에서 얻은 facebook 응용 프로그램에 대 한 앱 비밀입니다.
+   – **Facebook webhook 확인 토큰** – 5 단계에서 만든 verify 토큰입니다.
+   – **AAD 응용 프로그램 id** -2 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 id입니다.
+   – **AAD 응용 프로그램 비밀** -4 단계에서 만든 APISecretKey 암호의 값입니다.
+   – **Aad 응용 프로그램 uri** -2 단계에서 가져온 aad 응용 프로그램 uri 예를 https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213들면입니다.
    - **App insights instrumentation 키** -이 상자를 비워 둡니다.
 
 5. **저장** 을 클릭 하 여 커넥터 설정을 저장 합니다.
@@ -244,9 +244,9 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
 3.  **커넥터 앱 추가** 페이지에서 다음 정보를 입력 하 고 **커넥터 유효성 검사**를 클릭 합니다.
 
-    - 첫 번째 상자에 **Facebook**과 같은 커넥터의 이름을 입력 합니다.
-    - 두 번째 상자에 4 단계에서 추가한 APISecretKey의 값을 입력 하거나 붙여넣습니다.
-    - 세 번째 상자에 Azure 앱 서비스 URL을 입력 하거나 붙여넣습니다. 예를 **https://fbconnector.azurewebsites.net**들어
+    -첫 번째 상자에 **Facebook**과 같은 커넥터의 이름을 입력 합니다.
+    -두 번째 상자에서 4 단계에서 추가한 APISecretKey의 값을 입력 하거나 붙여넣습니다.
+    -세 번째 상자에 Azure 앱 서비스 URL을 입력 하거나 붙여넣습니다. 예를 **https://fbconnector.azurewebsites.net**들어
  
     커넥터 유효성 검사가 완료 되 면 **다음**을 클릭 합니다.
     
@@ -265,7 +265,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
    ![](media/FBCimage49.png)
 
-7. **Facebook에 로그인** 페이지에서 조직의 Facebook Business 페이지에 대 한 계정의 자격 증명을 사용 하 여 로그인 합니다. 로그인 한 Facebook 계정에 조직의 Facebook Business 페이지에 대 한 관리자 역할이 할당 되었는지 확인
+7. **Facebook에 로그인** 페이지에서 조직의 Facebook Business 페이지에 대 한 계정의 자격 증명을 사용 하 여 로그인 합니다. 로그인 한 Facebook 계정에 조직의 Facebook Business 페이지에 대 한 관리자 역할이 할당 되었는지 확인 합니다.
 
    ![](media/FBCimage50.png)
 
@@ -277,7 +277,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
     ![](media/FBCimage52.png)
 
-10. **마침** 을 클릭 하 여 커넥터 서비스 앱의 설정을 종료 합니다.
+10. **준비** 를 클릭 하 여 커넥터 서비스 앱의 설정을 종료 합니다.
 
     ![](media/FBCimage53.png)
 
@@ -289,7 +289,7 @@ GitHub 리포지토리의 Release (at <https://github.com/Microsoft/m365-sample-
 
     ![](media/FBCimage55.png)
 
-13. 설정을 검토 하 고 **마침을** 클릭 하 여 Security _AMP_ 준수 센터에서 커넥터 설정을 완료 합니다.
+13. 설정을 검토 하 고 **마침을** 클릭 하 여 보안 & 준수 센터에서 커넥터 설정을 완료 합니다.
 
     ![](media/FBCimage56.png)
 

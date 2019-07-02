@@ -4,19 +4,19 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 5/6/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
 description: 보낸 사람 목록 옵션에는 Outlook 수신 거부, 스팸 방지 보낸 사람/도메인 차단 목록, IP 차단 목록 및 ETRs (Exchange 전송 규칙)가 메일 흐름 규칙이 라고도 합니다.
-ms.openlocfilehash: dae5ffb7d4f2a8f8f3b675719e4f61f5c970dcaf
-ms.sourcegitcommit: e834d4168f584f2efb22479aec108497eea267f6
+ms.openlocfilehash: 9933cb79b7dce949384815a7b2ed8a9ac8a7824b
+ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34709126"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017690"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Office 365에서 수신 거부 목록 만들기
 

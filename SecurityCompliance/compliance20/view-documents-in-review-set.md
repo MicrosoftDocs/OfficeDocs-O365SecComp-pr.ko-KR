@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: ''
-ms.openlocfilehash: 0e986510ca49cfbfd77ab6f4d43220df1ebf35c5
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: d1a51e2496bd57d83e1baf78d82611c406a10e26
+ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151550"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34767369"
 ---
 # <a name="view-documents-in-a-review-set"></a>검토 집합에서 문서 보기
 
@@ -38,14 +38,14 @@ ms.locfileid: "34151550"
 
 ## <a name="native-view"></a>기본 보기
 
-기본 뷰어에 문서의 가장 다양 한 보기가 표시 됩니다. 이 형식은 수백 개의 파일 형식을 지원 하며, truest을 기본적으로 사용할 수 있는 환경에 표시 하기 위한 것입니다. 예를 들어 Microsoft Office 파일용으로 보는 사용자는 문서 설명, Excel 수식, 숨겨진 행/열, PowerPoint 메모 등의 콘텐츠를 표시 하기 위해 Office Online을 활용 합니다. Office Online 뷰어에 대 한 자세한 내용은 여기 \[를 참조 하세요.\]
+기본 뷰어에 문서의 가장 다양 한 보기가 표시 됩니다. 이 형식은 수백 개의 파일 형식을 지원 하며, truest을 기본적으로 사용할 수 있는 환경에 표시 하기 위한 것입니다. Microsoft Office 파일용으로 보는 사용자는 Office 앱의 웹 버전을 사용 하 여 문서 설명, Excel 수식, 숨겨진 행/열, PowerPoint 메모 등의 콘텐츠를 표시 합니다.
 
 ![기본 보기
 ](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>텍스트 보기
 
-텍스트 뷰어는 파일의 추출 된 텍스트 보기를 제공 합니다. 이 메서드는 포함 된 이미지 및 서식을 무시 하지만 사용자가 콘텐츠를 빠르게 이해 하려는 경우에는이 보기가 매우 유용 합니다. 텍스트 보기에도 다른 기능이 포함 되어 있습니다.
+텍스트 뷰어는 파일의 추출 된 텍스트 보기를 제공 합니다. 포함 된 이미지 및 서식은 무시 하지만 콘텐츠를 빠르게 이해 하려는 경우에는 매우 효과적입니다. 텍스트 보기에도 다음 기능이 포함 됩니다.
 
   - 선 카운터를 사용 하 여 문서의 특정 부분을 보다 쉽게 참조할 수 있습니다.
 

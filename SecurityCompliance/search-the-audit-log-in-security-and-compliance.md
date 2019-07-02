@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: cb44dd3d7c87928b325a72e783feea85e252dc49
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: 6f27929da0a802e99c2b6373ba7ae9791776c67e
+ms.sourcegitcommit: b00c8fe1827d24f055a3076c10f284ff9ee3e04b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547993"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35113292"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -31,9 +31,6 @@ ms.locfileid: "34547993"
 - SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
     
 - Exchange Online의 사용자 활동 (Exchange 사서함 감사 로깅)
-    
-    > [!IMPORTANT]
-    > Exchange Online의 사용자 작업이 기록 되기 전에 각 사용자 사서함에 대해 사서함 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Office 365에서 사서함 감사 사용](enable-mailbox-auditing.md)을 참조 하십시오.
   
 - SharePoint Online의 관리 활동
     
@@ -66,7 +63,7 @@ ms.locfileid: "34547993"
 
 Office 365 감사 로그 검색을 시작 하기 전에 다음 항목을 읽어 보아야 합니다.
   
-- Office 365 감사 로그 검색을 시작 하기 전에 사용자 또는 다른 관리자가 먼저 감사 로깅을 켜야 합니다. 이 기능을 설정 하려면 Security & 준수 센터의 **감사 로그 검색** 페이지에서 **사용자 및 관리자 활동 기록을** 클릭 하면 됩니다. (이 링크가 표시 되지 않는 경우 조직에 대 한 감사가 이미 설정 된 경우) 이 기능을 켜면 감사 로그가 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 
+- Office 365 감사 로그 검색을 시작 하기 전에 사용자 또는 다른 관리자가 먼저 감사 로깅을 켜야 합니다. 이 기능을 켜려면 보안 & 준수 센터의 **감사 로그 검색** 페이지에서 **사용자 및 관리자 작업 기록을** 클릭 하면 됩니다. (이 링크가 표시 되지 않는 경우 조직에 대 한 감사가 이미 설정 된 경우) 이 기능을 켜면 감사 로그가 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 
     
     > [!NOTE]
     > 여기서는 기본적으로 감사를 설정 하는 프로세스를 진행 하 고 있습니다. 그때 까지는 이전에 설명한 것 처럼 켤 수 있습니다. 
@@ -99,9 +96,9 @@ Office 365 감사 로그 검색을 시작 하기 전에 다음 항목을 읽어 
 
     자세한 내용은 [Office 365에서 감사 로그 검색](turn-audit-log-search-on-or-off.md)해제를 참조 하세요.
     
-- 앞에서 설명한 것 처럼, 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet은 Exchange Online cmdlet ( **search-unifiedauditlog)** 입니다. 즉, 보안 & 준수 센터의 **감사 로그 검색** 페이지를 사용 하는 대신이 cmdlet을 사용 하 여 Office 365 감사 로그를 검색할 수 있습니다. 이 cmdlet은 Exchange Online 조직에 연결 된 원격 PowerShell에서 실행 해야 합니다. 자세한 내용은 [검색-search-unifiedauditlog](https://go.microsoft.com/fwlink/p/?linkid=834776)를 참조 하세요.
+- 앞에서 설명한 것 처럼, 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet은 Exchange Online cmdlet ( **search-unifiedauditlog)** 입니다. 즉, 보안 & 준수 센터에서 **감사 로그 검색** 페이지를 사용 하는 대신이 cmdlet을 사용 하 여 Office 365 감사 로그를 검색할 수 있습니다. 이 cmdlet은 Exchange Online 조직에 연결 된 원격 PowerShell에서 실행 해야 합니다. 자세한 내용은 [검색-search-unifiedauditlog](https://go.microsoft.com/fwlink/p/?linkid=834776)를 참조 하세요.
     
-- Office 365 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드 하려는 경우 PowerShell 스크립트를 사용 하는 대신 Office 365 관리 작업 API를 사용 하는 것이 좋습니다. Office 365 관리 활동 API는 조직에 대 한 운영, 보안 및 규정 준수 모니터링 솔루션을 개발 하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 활동 API 참조](https://go.microsoft.com/fwlink/?linkid=852309)를 참조 하세요.
+- Office 365 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드 하려는 경우 PowerShell 스크립트를 사용 하는 대신 Office 365 관리 작업 API를 사용 하는 것이 좋습니다. Office 365 관리 활동 API는 조직에 대 한 운영, 보안 및 규정 준수 모니터링 솔루션을 개발 하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 활동 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 참조 하세요.
     
 - 해당 감사 로그 항목이 검색 결과에 표시 될 때까지 이벤트가 발생 한 후 최대 30 분 이나 최대 24 시간이 걸릴 수 있습니다. 다음 표에서는 Office 365의 서로 다른 서비스에 소요 되는 시간을 보여 줍니다.
     
@@ -149,11 +146,11 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
     > [!TIP]
-    > 보안 & 준수 센터에 액세스 하려면 개인 검색 세션 (일반 세션이 아님)을 사용 하 여 현재 로그온 한 자격 증명이 사용 되지 않도록 해야 합니다. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL + SHIFT + P를 누르기만 하면 됩니다. Google Chrome (incognito 창 이라고 함)에서 개인 검색 세션을 열려면 CTRL + SHIFT + N을 누릅니다. 
+    > 보안 & 준수 센터에 액세스 하려면 개인 검색 세션 (일반 세션이 아님)을 사용 하 여 현재 로그온 한 자격 증명이 사용 되지 않도록 합니다. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL + SHIFT + P를 누르기만 하면 됩니다. Google Chrome (incognito 창 이라고 함)에서 개인 검색 세션을 열려면 CTRL + SHIFT + N을 누릅니다. 
   
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. Security & 준수 센터의 왼쪽 창에서 **검색**을 클릭 하 고 **감사 로그 검색**을 클릭 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **검색**을 클릭 하 고 **감사 로그 검색**을 클릭 합니다.
     
     **감사 로그 검색** 페이지가 표시 됩니다. 
     
@@ -266,12 +263,12 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
     
 2. **결과 내보내기를** 클릭 하 고 다음 옵션 중 하나를 선택 합니다. 
     
-  - **로드 된 결과 저장** * * 감사 로그 검색 * * 페이지의 **결과** 에 표시 되는 항목만 내보내려면이 옵션을 선택 합니다. 다운로드 되는 CSV 파일에는 페이지 (날짜, 사용자, 작업, 항목 및 세부 정보)에 표시 되는 것과 동일한 열 (및 데이터)이 포함 되어 있습니다. 감사 로그 항목에서 더 **** 많은 정보를 포함 하는 추가 열 (추가)이 CSV 파일에 포함 됩니다. **감사 로그 검색** 페이지에서 로드 되 고 볼 수 있는 것과 동일한 결과를 내보내기 때문에 최대 5000 개의 항목을 내보냅니다. 
+     - **로드 된 결과 저장** - **감사 로그 검색** 페이지에서 **결과** 아래에 표시 되는 항목만 내보내려면이 옵션을 선택 합니다. 다운로드 되는 CSV 파일에는 페이지 (날짜, 사용자, 작업, 항목 및 세부 정보)에 표시 되는 것과 동일한 열 (및 데이터)이 포함 되어 있습니다. 감사 로그 항목에서 더 **** 많은 정보를 포함 하는 추가 열 (추가)이 CSV 파일에 포함 됩니다. **감사 로그 검색** 페이지에서 로드 되 고 볼 수 있는 것과 동일한 결과를 내보내기 때문에 최대 5000 개의 항목을 내보냅니다. 
     
-  - **모든 결과 다운로드** 검색 조건을 충족 하는 Office 365 감사 로그의 모든 항목을 내보내려면이 옵션을 선택 합니다. 다양 한 검색 결과 집합의 경우 감사 로그 **검색** 페이지에 표시할 수 있는 5000 결과 외에도 모든 항목을 audit log에서 다운로드 하려면이 옵션을 선택 합니다. 이 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드 하 고 감사 로그 항목에서 **auditdata**라는 열에 대 한 추가 정보를 포함 합니다. 다른 옵션을 선택 하는 경우이 내보내기 옵션을 선택 하면 다운로드 한 파일 보다 훨씬 커질 수 있으므로 파일을 다운로드 하는 데 시간이 오래 걸릴 수도 있습니다.
+     - **모든 결과 다운로드** -검색 조건을 충족 하는 Office 365 감사 로그의 모든 항목을 내보내려면이 옵션을 선택 합니다. 다양 한 검색 결과 집합의 경우 감사 로그 **검색** 페이지에 표시할 수 있는 5000 결과 외에도 모든 항목을 audit log에서 다운로드 하려면이 옵션을 선택 합니다. 이 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드 하 고 감사 로그 항목에서 **auditdata**라는 열에 대 한 추가 정보를 포함 합니다. 다른 옵션을 선택 하는 경우이 내보내기 옵션을 선택 하면 다운로드 한 파일 보다 훨씬 커질 수 있으므로 파일을 다운로드 하는 데 시간이 오래 걸릴 수도 있습니다.
     
-    > [!IMPORTANT]
-    > 단일 감사 로그 검색에서 최대 5만 개의 항목을 CSV 파일에 다운로드할 수 있습니다. 5만 항목이 CSV 파일에 다운로드 되는 경우 검색 조건을 충족 하는 이벤트가 5만 개 보다 많은 것으로 간주할 수 있습니다. 이 제한 보다 많은 시간을 내보내려면 날짜 범위를 사용 하 여 감사 로그 항목 수를 줄이십시오. 5만 개 보다 많은 항목을 내보내려면 날짜 범위가 더 작은 검색을 여러 개 실행 해야 할 수 있습니다. 
+       > [!IMPORTANT]
+       > 단일 감사 로그 검색에서 최대 5만 개의 항목을 CSV 파일에 다운로드할 수 있습니다. 5만 항목이 CSV 파일에 다운로드 되는 경우 검색 조건을 충족 하는 이벤트가 5만 개 보다 많은 것으로 간주할 수 있습니다. 이 제한 보다 많은 시간을 내보내려면 날짜 범위를 사용 하 여 감사 로그 항목 수를 줄이십시오. 5만 개 보다 많은 항목을 내보내려면 날짜 범위가 더 작은 검색을 여러 개 실행 해야 할 수 있습니다. 
   
 3. 내보내기 옵션을 선택한 후에는 CSV 파일을 열도록 요청 하는 메시지가 창 아래쪽에 표시 되며 다운로드 폴더에 저장 하거나 특정 폴더에 저장 합니다.
 
@@ -301,13 +298,13 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 ||||
 |:-----|:-----|:-----|
 |[파일 및 페이지 활동](#file-and-page-activities)<br/> |[폴더 활동](#folder-activities)<br/> |[SharePoint 목록 활동](#sharepoint-list-activities)<br/>|
-|[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)<br/> |[동기화 작업](#synchronization-activities)<br/> |[사이트 관리 작업](#site-administration-activities)<br/> |
-|[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |[Sway 활동](#sway-activities) <br/> |[사용자 관리 활동](#user-administration-activities) <br/> |
-|[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |[역할 관리 작업](#role-administration-activities) <br/> |
-|[디렉터리 관리 작업](#directory-administration-activities) <br/>|[eDiscovery 활동](#ediscovery-activities) <br/> |[고급 eDiscovery 활동](#advanced-ediscovery-activities)<br/> |
-|[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |
-|[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow 활동](#microsoft-flow-activities) <br/>|[Microsoft PowerApps 활동](#microsoft-powerapps)<br/>|
-|[Microsoft Stream 작업](#microsoft-stream-activities) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
+|[공유 및 액세스 요청 활동](#sharing-and-access-request-activities)<br/> |[동기화 작업](#synchronization-activities)<br/> |[사이트 사용 권한 작업](#site-permissions-activities)<br/> |
+|[사이트 관리 작업](#site-administration-activities)<br/> |[Exchange 사서함 활동](#exchange-mailbox-activities)<br/> |[Sway 활동](#sway-activities) <br/> |
+|[사용자 관리 활동](#user-administration-activities) <br/> |[Azure AD 그룹 관리 작업](#azure-ad-group-administration-activities) <br/> |[응용 프로그램 관리 작업](#application-administration-activities) <br/> |
+|[역할 관리 작업](#role-administration-activities) <br/> |[디렉터리 관리 작업](#directory-administration-activities) <br/>|[eDiscovery 활동](#ediscovery-activities) <br/> |
+|[고급 eDiscovery 활동](#advanced-ediscovery-activities)<br/> |[Power BI 활동](#power-bi-activities) <br/> |[Microsoft 작업 공간 분석](#microsoft-workplace-analytics-activities)<br/>|
+|[Microsoft 팀원 활동](#microsoft-teams-activities) <br/> |[Yammer 활동](#yammer-activities) <br/> |[Microsoft Flow 활동](#microsoft-flow-activities) <br/>|
+|[Microsoft PowerApps 활동](#microsoft-powerapps)<br/>|[Microsoft Stream 작업](#microsoft-stream-activities) <br/>|[Exchange 관리 활동](#exchange-admin-audit-log)<br/>|
 ||||
   
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -318,12 +315,16 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |:-----|:-----|:-----|
 |액세스 한 파일  <br/> |액세스 한 파일  <br/> |사용자 또는 시스템 계정이 파일에 액세스합니다.  <br/> |
 |none  <br/> |FileAccessedExtended  <br/> |이는 "액세스 한 파일" (FileAccessed) 작업과 관련이 있습니다. FileAccessedExtended 이벤트는 동일한 사용자가 계속 해 서 오랜 시간 동안 파일에 액세스할 때 기록 됩니다 (최대 3 시간). FileAccessedExtended 이벤트를 로깅하는 목적은 파일에 계속 액세스 하는 경우 기록 되는 FileAccessed 한 이벤트의 수를 줄이기 위한 것입니다. 이렇게 하면 기본적으로 동일한 사용자 작업에 대 한 여러 FileAccessed 한 레코드의 노이즈를 줄일 수 있으며, 초기 (및 보다 중요 한)에 액세스 한 이벤트에 초점을 둘 있습니다.  <br/> |
+|변경 된 준수 정책 레이블<br/> |ComplianceSettingChanged<br/> |문서에서 보존 레이블을 적용 하거나 제거 했습니다. 이 이벤트는 보존 레이블이 수동으로 또는 메시지에 자동으로 적용 될 때 트리거됩니다.<br/> |
+|레코드 상태를 잠김으로 변경 했습니다.<br/> |LockRecord<br/> |문서를 레코드로 분류 하는 보존 레이블의 레코드 상태는 잠겼습니다. 즉, 문서를 수정 하거나 삭제할 수 없습니다. 적어도 사이트에 대 한 참가자 권한이 할당 된 사용자만 문서의 레코드 상태를 변경할 수 있습니다.<br/> |
+|레코드 상태를 잠금 해제로 변경<br/> |UnlockRecord<br/> |문서를 레코드로 분류 하는 보존 레이블의 레코드 상태가 잠금 해제 되었습니다. 즉, 문서를 수정 하거나 삭제할 수 있습니다. 적어도 사이트에 대 한 참가자 권한이 할당 된 사용자만 문서의 레코드 상태를 변경할 수 있습니다.<br/><br/> |
 |체크 인 된 파일  <br/> |FileCheckedIn  <br/> |사용자가 문서 라이브러리에서 체크 아웃 한 문서를 체크 인 합니다.  <br/> |
 |체크 아웃 된 파일  <br/> |FileCheckedOut  <br/> |사용자가 문서 라이브러리에 있는 문서를 체크 아웃 합니다. 사용자는 공유 된 문서를 체크 아웃 하 고 변경할 수 있습니다.  <br/> |
 |복사 되는 파일  <br/> |FileCopied  <br/> |사용자가 사이트에서 문서를 복사 합니다. 복사된 파일은 사이트의 다른 폴더에 저장할 수 있습니다.  <br/> |
 |삭제 된 파일  <br/> |FileDeleted  <br/> |사용자가 사이트에서 문서를 삭제 합니다.  <br/> |
 |휴지통에서 삭제 된 파일  <br/> |FileDeletedFirstStageRecycleBin  <br/> |사용자가 사이트의 휴지통에서 파일을 삭제 합니다.  <br/> |
 |2 단계 휴지통에서 삭제 된 파일  <br/> |FileDeletedSecondStageRecycleBin  <br/> |사용자가 사이트의 2 단계 휴지통에서 파일을 삭제 합니다.  <br/> |
+|삭제 된 레코드 준수 정책 레이블<br/> |ComplianceRecordDelete<br/> |레코드로 분류 된 문서를 삭제 했습니다. 문서에 콘텐츠를 분류 하는 보존 레이블이 문서에 적용 되 면 문서가 레코드로 간주 됩니다. <br/> |
 |문서 민감도 불일치가 감지 됨 <br/>|DocumentSensitivityMismatchDetected<br/>|사용자가 문서를 업로드 한 사이트에 적용 된 민감도 레이블 보다 우선 순위가 높은 민감도 레이블로 분류 된 문서를 업로드 합니다. Note 사이트에 적용 된 민감도 레이블이 사이트에 업로드 되는 문서에 적용 된 민감도 레이블에 비해 우선 순위가 높은 경우에이 이벤트가 트리거되지 않습니다. 민감도 레이블 우선 순위에 대 한 자세한 내용은 [민감도 레이블 개요](sensitivity-labels.md#label-priority-order-matters)의 "레이블 우선 순위" 섹션을 참조 하십시오.<br/>|
 |파일에서 맬웨어가 검색 되었습니다.  <br/> |FileMalwareDetected  <br/> |SharePoint 바이러스 백신 엔진이 파일에서 맬웨어를 감지 합니다.  <br/> |
 |삭제 한 파일 체크 아웃  <br/> |FileCheckOutDiscarded  <br/> |사용자가 체크 아웃된 파일을 삭제(또는 실행 취소)합니다. 즉, 체크 아웃한 파일의 변경 내용은 취소되고, 문서 라이브러리에 있는 문서 버전에 저장되지 않습니다.  <br/> |
@@ -398,12 +399,12 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 |**식별 이름**|**Operation**|**설명**|
 |:-----|:-----|:-----|
+|사이트 모음에 대 한 권한 수준을 추가 했습니다.  <br/> |강화 Level추가 됨  <br/> |사용 권한 수준이 사이트 모음에 추가 되었습니다.  <br/> |
 |수락 된 액세스 요청  <br/> |AccessRequestAccepted 됨  <br/> |사이트, 폴더 또는 문서에 대 한 액세스 요청이 수락 되었으며 요청 하는 사용자에 게 액세스 권한이 부여 되었습니다.  <br/> |
 |수락 된 공유 초대  <br/> |SharingInvitationAccepted  <br/> |사용자 (구성원 또는 게스트)가 공유 초대를 수락 했으며 리소스에 대 한 액세스 권한을 부여 받았습니다. 이 이벤트에는 초대 된 사용자에 대 한 정보와 초대를 수락 하는 데 사용 된 전자 메일 주소가 포함 됩니다 (다른 것은 해당 됨). 이 작업은 대개 사용자에 게 리소스에 대 한 액세스 권한을 부여 받은 방법, 즉 리소스에 액세스할 수 있는 그룹에 사용자를 추가 하는 방법을 설명 하는 두 번째 이벤트가 수반 됩니다.  <br/> |
-|사이트 모음에 대 한 권한 수준을 추가 했습니다.  <br/> |강화 Level추가 됨  <br/> |사용 권한 수준이 사이트 모음에 추가 되었습니다.  <br/> |
 |차단 된 공유 초대  <br/> |SharingInvitationBlocked  <br/> | 조직의 사용자가 보낸 공유 초대는 대상 사용자의 도메인에 따라 외부 공유를 허용 하거나 거부 하는 외부 공유 정책으로 인해 차단 됩니다. 이 경우에는 다음과 같은 이유로 공유 초대가 차단 되었습니다.  <br/>  대상 사용자의 도메인은 허용 된 도메인 목록에 포함 되지 않습니다.  <br/>  또는  <br/>  대상 사용자의 도메인이 차단 된 도메인 목록에 포함 됩니다.  <br/>  도메인을 기반으로 외부 공유를 허용 하거나 차단 하는 방법에 대 한 자세한 내용은 [SharePoint Online의 제한 된 도메인 공유 및 비즈니스용 OneDrive](https://support.office.com/article/5d7589cd-0997-4a00-a2ba-2320ec49c4e9)를 참조 하세요.  <br/> |
-|회사 공유 가능 링크를 만들었습니다.  <br/> |CompanyLinkCreated  <br/> |사용자가 자원에 대 한 회사 차원 링크를 만들었습니다. 회사 전체의 링크는 조직의 구성원만 사용할 수 있습니다. 게스트에는 사용할 수 없습니다.  <br/> |
 |만든 액세스 요청  <br/> |AccessRequestCreated  <br/> |사용자가 액세스할 수 있는 권한이 없는 사이트, 폴더 또는 문서에 대 한 액세스를 요청 합니다.  <br/> |
+|회사 공유 가능 링크를 만들었습니다.  <br/> |CompanyLinkCreated  <br/> |사용자가 자원에 대 한 회사 차원 링크를 만들었습니다. 회사 전체의 링크는 조직의 구성원만 사용할 수 있습니다. 게스트에는 사용할 수 없습니다.  <br/> |
 |익명 링크를 만들었습니다.  <br/> |AnonymousLinkCreated  <br/> |사용자가 리소스에 대 한 익명 링크를 만들었습니다. 이 링크를 사용 하는 모든 사용자는 인증 없이 리소스에 액세스할 수 있습니다.  <br/> |
 |만든 보안 링크  <br/> |SecureLinkCreated  <br/> |이 항목에 대 한 보안 공유 링크를 만들었습니다.  <br/> |
 |만든 공유 초대  <br/> |SharingInvitationCreated  <br/> |사용자가 조직의 디렉터리에 없는 사용자를 사용 하 여 SharePoint Online 또는 비즈니스용 OneDrive의 리소스를 공유 했습니다.  <br/> |
@@ -503,27 +504,32 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
   
 ### <a name="exchange-mailbox-activities"></a>Exchange 사서함 활동
   
-다음 표에는 사서함 감사 로깅에서 로깅할 수 있는 작업이 나와 있습니다. 사서함 소유자, 위임 된 사용자 또는 관리자가 수행한 사서함 활동을 기록 합니다. 기본적으로 Office 365의 사서함 감사는 설정 되어 있지 않습니다. 사서함 작업을 기록 하기 전에 각 사서함에 대해 사서함 감사 로깅을 켜야 합니다. 자세한 내용은 [Office 365에서 사서함 감사 사용](https://go.microsoft.com/fwlink/p/?LinkID=626109)을 참조 하십시오.
+다음 표에는 사서함 감사 로깅에서 로깅할 수 있는 작업이 나와 있습니다. 사서함 소유자, 위임 된 사용자 또는 관리자가 수행 하는 사서함 활동은 최대 90 일 동안 Office 365 감사 로그에 자동으로 기록 됩니다. 관리자가 organizatin의 모든 사용자에 대 한 사서함 감사 로깅을 해제할 수 있습니다. 이 경우 사용자에 대 한 사서함 작업은 기록 되지 않습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조 하십시오.
+
+ Exchange Online PowerShell에서 [search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) cmdlet을 사용 하 여 사서함 활동을 검색할 수도 있습니다. 
   
 |**식별 이름**|**Operation**|**설명**|
 |:-----|:-----|:-----|
-|대리인 사서함 사용 권한 추가  <br/> |Add-mailboxpermission 추가  <br/> |관리자가 다른 사람의 사서함에 대 한 사용자 (대리인)에 게 FullAccess 사서함 권한을 할당 했습니다. FullAccess 사용 권한을 사용 하면 대리인이 다른 사용자의 사서함을 열고 사서함의 내용을 읽고 관리할 수 있습니다.  <br/> |
-|레코드로 분류 된 메시지  <br/> |ApplyRecordLabel<br/> |메시지가 레코드로 분류 되었습니다. 콘텐츠를 레코드로 분류 하는 보존 레이블이 수동으로 또는 메시지에 자동으로 적용 되는 경우이 이벤트가 발생 합니다.<br/> |
+|대리인 사서함 사용 권한 추가  <br/> |AddMailboxPermissions  <br/> |관리자가 다른 사람의 사서함에 대 한 사용자 (대리인)에 게 FullAccess 사서함 권한을 할당 했습니다. FullAccess 사용 권한을 사용 하면 대리인이 다른 사용자의 사서함을 열고 사서함의 내용을 읽고 관리할 수 있습니다.  <br/> |
+|일정 폴더에 대 한 대리인 액세스 권한이 있는 사용자 추가 또는 제거<br/> |UpdateCalendarDelegation<br/> |사용자가 다른 사용자 사서함의 일정에 대 한 대리인으로 추가 또는 제거 되었습니다. 일정 위임 같은 조직에서 사서함 소유자의 일정을 관리 하는 다른 사람에 게 제공 합니다. <br/> |
+|폴더에 대 한 사용 권한 추가<br/> |AddFolderPermissions<br/> |폴더 사용 권한이 추가 되었습니다. 폴더 사용 권한은 조직에서 사서함의 폴더에 액세스할 수 있는 사용자와 해당 폴더에 있는 메시지를 제어 합니다.<br/> |
 |다른 폴더로 복사한 메시지  <br/> |복사  <br/> |메시지가 다른 폴더에 복사되었습니다.  <br/> |
 |만든 사서함 항목  <br/> |만들기  <br/> |사서함의 일정, 연락처, 메모 또는 작업 폴더에 항목이 만들어집니다. 예를 들어 새 모임 요청이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 또한 사서함 폴더를 만드는 것은 감사 되지 않습니다.  <br/> |
-|Outlook web app에서 새 받은 편지함 규칙을 만들었습니다.  <br/> |NewInboxRule<br/> |사용자가 OWA (Outlook web app)에서 받은 편지함 규칙을 새로 만들었습니다.<br/> |
+|Outlook web app에서 새 받은 편지함 규칙을 만들었습니다.  <br/> |NewInboxRule<br/> |사서함 소유자 또는 사서함에 대 한 액세스 권한이 있는 다른 사용자가 Outlook web app에서 받은 편지함 규칙을 새로 만들었습니다.<br/> |
 |지운 편지함 폴더에서 삭제 된 메시지  <br/> |SoftDelete  <br/> |메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 이러한 항목은 복구 가능한 항목 폴더로 이동 됩니다. 또한 메시지는 사용자가 선택 하 고 **Shift + Delete**를 누를 때 복구 가능한 항목 폴더로 이동 됩니다.  <br/> |
+|레코드로 지정 된 메시지  <br/> |ApplyRecordLabel<br/> |메시지가 레코드로 분류 되었습니다. 콘텐츠를 레코드로 분류 하는 보존 레이블이 수동으로 또는 메시지에 자동으로 적용 되는 경우이 이벤트가 발생 합니다.<br/> |
 |메시지를 다른 폴더로 이동  <br/> |이동  <br/> |메시지가 다른 폴더로 이동했습니다.  <br/> |
 |지운 편지함 폴더로 메시지 이동  <br/> |MoveToDeletedItems  <br/> |메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.  <br/> |
 |수정 된 폴더 권한  <br/> |Updatefolderpermissions 작업이 로깅됩니다  <br/> |폴더 사용 권한이 변경 되었습니다. 폴더 사용 권한은 조직에서 사서함 폴더 및 폴더의 메시지에 액세스할 수 있는 사용자를 제어 합니다.  <br/> |
+|Outlook web app에서 받은 편지함 규칙 수정<br/> |SetInboxRule<br/> |사서함 소유자 또는 사서함에 대 한 액세스 권한이 있는 다른 사용자가 Outlook web app을 사용 하 여 받은 편지함 규칙을 수정 했습니다.<br/> |
 |사서함에서 메시지 제거  <br/> |HardDelete  <br/> |메시지가 복구 가능한 항목 폴더 (사서함에서 영구적으로 삭제 됨)에서 제거 되었습니다.  <br/> |
 |대리인 사서함 사용 권한 제거  <br/> |Add-mailboxpermission을 제거 합니다.  <br/> |관리자가 사용자의 사서함에서 대리인에 게 할당 된 FullAccess 사용 권한을 제거 했습니다. FullAccess 사용 권한이 제거 되 면 대리인은 다른 사람의 사서함을 열거나 해당 사용자의 모든 콘텐츠에 액세스할 수 없습니다.  <br/> |
+|폴더에서 사용 권한을 제거 했습니다.<br/> |RemoveFolderPermissions<br/> |폴더 사용 권한이 제거 되었습니다. 폴더 사용 권한은 조직에서 사서함의 폴더에 액세스할 수 있는 사용자와 해당 폴더에 있는 메시지를 제어 합니다.<br/> |
 |메시지를 다른 사람 이름으로 보내기 권한을 사용 하 여 보냄  <br/> |SendAs  <br/> |메시지가 SendAs 권한을 사용하여 전송되었습니다. 즉 사서함 소유자가 보낸 것처럼 보이도록 하여 다른 사용자가 메시지를 보냈습니다.  <br/> |
 |"대신 보내기" 권한을 사용 하 여 보낸 메시지  <br/> |SendOnBehalf  <br/> |메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.  <br/> |
-|일정 폴더에 대 한 대리인 액세스 업데이트  <br/> |UpdateCalendarDelegation  <br/> |일정 위임이 사서함에 할당 되었습니다. 일정 위임 같은 조직에서 사서함 소유자의 일정을 관리 하는 다른 사람에 게 제공 합니다.  <br/> |
+|Outlook 클라이언트에서 받은 편지함 규칙 업데이트<br/> |UpdateInboxRules<br/> |사서함 소유자 또는 사서함에 대 한 액세스 권한이 있는 다른 사용자가 Outlook 클라이언트에서 받은 편지함 규칙을 수정 했습니다.<br/> |
 |업데이트 된 메시지  <br/> |업데이트  <br/> |메시지 또는 해당 속성이 변경되었습니다.  <br/> |
 |사용자가 사서함에 로그인 되어 있음  <br/> |MailboxLogin  <br/> |사용자가 자신의 사서함에 로그인했습니다.  <br/> |
-|none  <br/> |UpdateInboxRules  <br/> |받은 편지함 규칙이 추가, 제거 또는 변경 된 경우 받은 편지함 규칙은 지정 된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리 하 고, 메시지를 지정 된 폴더로 이동 하거나 메시지를 삭제 하는 것과 같이 규칙의 조건이 충족 될 때 작업을 수행 하는 데 사용 됩니다.  <br/> 받은 편지함 규칙 활동의 항목을 반환 하려면 **활동** 목록에서 **모든 활동에 대 한 결과 표시** 를 선택 해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용 하 여 검색 결과의 범위를 좁힐 수 있습니다.  <br/> |
 ||||
 
 ### <a name="sway-activities"></a>Sway 활동
@@ -756,7 +762,7 @@ Power BI에 대 한 감사 로깅은 기본적으로 사용 하지 않도록 설
    
 ### <a name="microsoft-flow-activities"></a>Microsoft Flow 활동
 
-Microsoft Flow에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 작업에는 흐름 만들기, 편집 및 삭제, 흐름 권한 변경 등이 있습니다. 유동 활동을 감사 하는 방법에 대 한 자세한 내용은 [Security _AMP_ 준수 센터에서 제공 되는 블로그 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 참조 하십시오.
+Microsoft Flow에서 활동에 대 한 감사 로그를 검색할 수 있습니다. 이러한 작업에는 흐름 만들기, 편집 및 삭제, 흐름 권한 변경 등이 있습니다. 유동 활동을 감사 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터에서 제공 되는 블로그 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 참조 하십시오.
 
 ### <a name="microsoft-powerapps"></a>Microsoft PowerApps
 

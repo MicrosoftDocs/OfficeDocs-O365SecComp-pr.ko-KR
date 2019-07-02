@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: cfed07d473f2af367de4cb2e9fe924a29e4123cd
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: b331bba76f45a11a4d1c8c0552b27759cf49608a
+ms.sourcegitcommit: e323610df2df71c84f536e8a38650d33d8069e41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155210"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34703811"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합의 데이터 분석
 
@@ -39,7 +39,7 @@ ms.locfileid: "34155210"
 
 3. **검토 설정 관리**를 클릭 합니다.
 
-4. **분석**을 클릭 합니다.
+4. **검토 집합에 대 한 분석 실행을**클릭 합니다.
 
 사례에 대 한 **작업** 탭에서 분석 진행률을 확인할 수 있습니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "34155210"
 
 2. **검토 설정 관리**를 클릭 합니다.
 
-3. **보고서**를 클릭 합니다.
+3. **보고서 보기**를 클릭 합니다.
 
 보고서에는 분석을 통해 다음과 같은 4 가지 구성 요소가 포함 됩니다.
 

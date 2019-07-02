@@ -5,7 +5,7 @@ author: denisebmsft
 manager: laurawi
 audience: ITPro
 ms.topic: article
-ms.date: 10/29/2018
+ms.date: 06/17/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 description: 요약:이 문서를 읽으면 Microsoft 365과의 SIEM server 통합에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: cfa9c6c3ae501515f61799fdd480fc569918935f
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 9138cbc395b90f50fa60bf545066c17cf26d7edf
+ms.sourcegitcommit: f2798d46acfbd56314e809cd3fe0350be807e420
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852692"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35014767"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM 서버 통합
 
@@ -33,13 +33,13 @@ SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 
 
 | Microsoft 365 서비스 또는 응용 프로그램 | SIEM 서버 입력 | 자세한 정보를 볼 수 있는 리소스 |
 | --- | --- | --- |
-| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>   또는   <br/>[Office 365 Threat Intelligence](office-365-ti.md) | 감사 로그 | [SIEM과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md) |
+| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>또는<br/>[Office 365 Threat Intelligence](office-365-ti.md) | 감사 로그 | [SIEM과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그 통합 | [Microsoft Cloud App Security와의 SIEM 통합](https://docs.microsoft.com/cloud-app-security/siem) |
-| [Office 365 Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그 통합 | [SIEM server를 Cloud App Security와 통합](https://docs.microsoft.com/cloud-app-security/siem) |
 | [Microsoft Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | 로그 통합 | [SIEM 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem) |
 | [Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-intro) (위협 방지 및 위협 검색) | 경고 | [Azure 보안 데이터를 SIEM 파이프라인 구성으로 내보내기-미리 보기](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) |
-| [Azure Active Directory Id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) | 감사 로그 | [Azure Active Directory 감사 로그 통합](https://docs.microsoft.com/azure/security/security-azure-log-integration-ad) |
-| [Azure Advanced Threat Analytics](https://docs.microsoft.com/azure/security/azure-threat-detection) | 로그 통합 | [ATA SIEM 로그 참조](https://docs.microsoft.com/advanced-threat-analytics/cef-format-sa) |
+|[Azure Advanced Threat Analytics](https://docs.microsoft.com/azure/security/azure-threat-detection) | Azure 모니터 | [블로그로 Azure Monitor를 사용 하 여 SIEM 도구와 통합](https://azure.microsoft.com/blog/use-azure-monitor-to-integrate-with-siem-tools) |
+|[Azure Active Directory Id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) |로그 통합 |[SIEM을 사용 하 여 Microsoft Graph 보안 API 알림 통합](https://docs.microsoft.com/graph/security-siemintegration) |
+
 
 ## <a name="audit-logging-must-be-turned-on"></a>감사 로깅을 설정 해야 합니다.
 

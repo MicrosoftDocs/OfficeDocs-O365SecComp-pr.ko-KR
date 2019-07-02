@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint Online의 DLP (데이터 손실 방지)를 사용 하 여 테 넌 트 전체에서 중요 한 데이터가 포함 된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 8ecce920810d52fadb311c6c4925c9fa4b6fb2b1
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 2e76be22ce97a90b86a2ea089464f9b526ae4b70
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32255544"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34078014"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 
@@ -65,8 +65,8 @@ DLP 관련 속성만 사용 하 여 쿼리를 만들 수 있을 뿐 아니라 �
 |:-----|:-----|
 | `SensitiveType:"International Banking Account Number (IBAN)"` <br/> |이는 길이가 긴 하지만 해당 중요 형식에 대 한 올바른 이름이 며 이름이 이상 하 게 보일 수 있습니다. [중요 한 정보 유형 인벤토리에서](https://go.microsoft.com/fwlink/?LinkID=509999)정확한 이름을 사용 해야 합니다. 조직에 대해 만든 [사용자 지정 중요 한 정보 유형의](create-a-custom-sensitive-information-type.md) 이름을 사용할 수도 있습니다.  <br/> |
 | `SensitiveType:"Credit Card Number|1..4294967295|1..100"` <br/> |중요 한 유형 "신용 카드 번호"에 대 한 일치 하는 항목이 하나 이상 포함 된 문서를 반환 합니다. 각 범위의 값은 해당 최소값 및 최대값입니다. 이 쿼리를 좀 더 간단 하 게 `SensitiveType:"Credit Card Number"`작성할 수는 있지만,이를 위한 흥미로운 방법은 무엇 인가요?  <br/> |
-| `SensitiveType:"Credit Card Number| 5..25" AND LastSensitiveContentScan:"8/11/2018..8/13/2018"` <br/> |이 값은 5-25 년 8 월 11 일에서 검색 된 2018 신용 카드 번호를 포함 하는 문서를 반환 합니다.  <br/> |
-| `SensitiveType:"Credit Card Number| 5..25" AND LastSensitiveContentScan:"8/11/2018..8/13/2018" NOT FileExtension:XLSX` <br/> |이 값은 5-25 년 8 월 11 일에서 검색 된 2018 신용 카드 번호를 포함 하는 문서를 반환 합니다. .xlsx 확장명을 가진 파일은 쿼리 결과에 포함 되지 않습니다.  `FileExtension`는 쿼리에 포함할 수 있는 여러 속성 중 하나입니다. 자세한 내용은 [eDiscovery에 검색 속성 및 연산자 사용](https://go.microsoft.com/fwlink/?LinkId=510093)을 참조 하십시오.  <br/> |
+| `SensitiveType:"Credit Card Number| 5..25" AND LastSensitiveContentScan:"8/11/2018..8/13/2018"` <br/> |이 값은 5-25 년 8 월 11 일에서 검색 된 2018 2018 신용 카드 번호를 포함 하는 문서를 반환 합니다.  <br/> |
+| `SensitiveType:"Credit Card Number| 5..25" AND LastSensitiveContentScan:"8/11/2018..8/13/2018" NOT FileExtension:XLSX` <br/> |이 값은 5-25 년 8 월 11 일에서 검색 된 2018 2018 신용 카드 번호를 포함 하는 문서를 반환 합니다. .XLSX 확장명을 가진 파일은 쿼리 결과에 포함 되지 않습니다.  `FileExtension`는 쿼리에 포함할 수 있는 여러 속성 중 하나입니다. 자세한 내용은 [eDiscovery에 검색 속성 및 연산자 사용](https://go.microsoft.com/fwlink/?LinkId=510093)을 참조 하십시오.  <br/> |
 | `SensitiveType:"Credit Card Number" OR SensitiveType:"U.S. Social Security Number (SSN)"` <br/> |이 쿼리는 신용 카드 번호 또는 사회 보장 번호가 포함된 문서를 반환합니다.  <br/> |
    
 ## <a name="examples-of-queries-to-avoid"></a>예제

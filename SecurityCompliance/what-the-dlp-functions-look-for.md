@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 6/18/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 중요 한 정보 유형은 특정 패턴을 확인 하 고 적절 한 서식을 유지 하 고 체크섬을 적용 하며 관련 키워드 또는 기타 정보를 찾는 방법으로 corroborate 합니다. 이 기능 중 일부는 내부 함수에 의해 수행됩니다. 이 항목에는 이러한 함수가 찾는 대상이 설명되어 있어 미리 정의된 중요한 정보 유형이 작동하는 방식을 이해할 수 있습니다.
-ms.openlocfilehash: d0aeb38001f42d9db2b124466b02746ee106b078
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 044920a7ff28ffc1c4338a642bc130ee07ef7264
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32266920"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34078004"
 ---
 # <a name="what-the-dlp-functions-look-for"></a>DLP 기능이 찾는 항목
 
@@ -93,19 +93,19 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
   - janvier, février, mars, avril, mai, juin juillet, août, septembre, octobre, novembre, décembre
     
-  - janv févr mars avril mai juin juil août 9 월 일. 수정일. déc
+  - janv. févr. mars avril mai juin juil août 9 월 일. 수정일. déc.
     
 - 독일어
     
   - jänuar, februar, märz, 4 월, mai, juni juli, 8 월, 09, oktober, 11 월, dezember
     
-  - 1 월/Jän. März Apr. Mai Juni Juli 8 ~ 9. okt 11 월.
+  - 1 월/Jän. März Apr. Mai Juni Juli 8 ~ 9. Okt 11 월.
     
 - 이탈리아어
     
   - gennaio, febbraio, marzo, aprile, maggio, giugno, luglio, agosto, settembre, novembre
     
-  - genn febbr mar. 년. magg giugno luglio ag sett ott. 수정일. home.dic.
+  - genn febbr mar. 년. magg. giugno luglio ag sett ott. 수정일. home.dic.
     
 - 포르투갈어
     
@@ -203,7 +203,7 @@ DLP(데이터 손실 방지)에는 DLP 정책에 사용할 수 있는 신용 카
     
 - MonthYYYY -- 예를 들어 'january2010', 'Jan2010', 'january10' 또는 'Jan10'
     
-- Month/YYYY--예를 들어 ' 1 월/2010 ' 또는 ' jan/2010 ' 또는 ' 1 월/10 '
+- Month/YYYY--예를 들어 ' 1 월/2010 ' 또는 ' Jan/2010 ' 또는 ' 1 월/10 '
     
 허용되는 월 이름:
   

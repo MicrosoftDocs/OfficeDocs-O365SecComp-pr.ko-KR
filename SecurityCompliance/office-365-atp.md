@@ -15,17 +15,17 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 도구, 보고 도구 및 위협 인텔리전스 기능이 포함 되어 있습니다.
-ms.openlocfilehash: 903e089af172d8eac414aea69af75fcd696d5f20
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: ca70aeadb8fdde76fa5d7041fe1f0cf624496c24
+ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408383"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652661"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
-> 이 문서는 Office 365 엔터프라이즈 및 Microsoft 365 Enterprise 고객을 위한 것입니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
+> 이 문서는 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
 ## <a name="overview"></a>개요
 
@@ -47,7 +47,7 @@ ATP는 Office 365 E5에 포함 되어 있습니다. 그러나 ATP 요금제 및 
 
 Office 365 ATP는 조직에 적합 한 보호 수준을 설정 하기 위한 다양 한 도구를 제공 합니다. 
 
-조직의 보안 팀은 Office 365 Security & 준수 센터에서 각 ATP 도구에 대 한 정책을 정의 해야 합니다. **위협 관리** > **정책** 으로 이동 하 여 정책 옵션에 액세스 합니다. 이에 대 한 도움말을 보려면 [Quick Start Guide: Set Up Office 365 Advanced Threat Protection](checklist-atp-setup.md)를 참조 하세요.
+조직의 보안 팀은 Office 365 보안 & 준수 센터에서 각 ATP 도구에 대 한 정책을 정의 해야 합니다. **위협 관리** > **정책** 으로 이동 하 여 정책 옵션에 액세스 합니다. 이에 대 한 도움말을 보려면 [Quick Start Guide: Set Up Office 365 Advanced Threat Protection](checklist-atp-setup.md)를 참조 하세요.
 
 조직에 대해 정의 된 정책에 따라 미리 정의 된 위협에 대 한 동작 및 보호 수준이 결정 됩니다. 정책 옵션은 매우 유연 합니다. 예를 들어 조직의 보안 팀은 사용자, 조직, 받는 사람 및 도메인 수준에서 세분화 된 위협 보호를 설정할 수 있습니다. 매일 새로운 위협과 과제가 발생 하기 때문에 정책을 정기적으로 검토 하는 것이 중요 합니다.  
 
@@ -61,7 +61,7 @@ Office 365 ATP는 조직에 적합 한 보호 수준을 설정 하기 위한 다
 
 ## <a name="view-atp-reports"></a>ATP 보고서 보기
 
-Office 365 ATP에는 ATP 성능을 모니터링 하기 위한 고급 [보고 대시보드가](view-reports-for-atp.md) 포함 되어 있습니다. Security & 준수 센터의 **Reports _GT_ 대시보드에서** 해당 위치에 액세스할 수 있습니다. 
+Office 365 ATP에는 ATP 성능을 모니터링 하기 위한 고급 [보고 대시보드가](view-reports-for-atp.md) 포함 되어 있습니다. 보안 & 준수 센터의 **보고서 > 대시보드에서** 액세스할 수 있습니다. 
 
 최신 정보를 제공 하는 실시간으로 업데이트를 보고 합니다. 이러한 보고서는 권장 사항을 제공 하 고 곧 위협을 임박한 것을 알립니다. 미리 정의 된 보고서에는 다음이 포함 됩니다. 
 
@@ -93,7 +93,7 @@ AIR에는 경고가 트리거될 때 또는 탐색기의 보기와 같이 수동
 
 ## <a name="permissions-required-to-use-atp-features"></a>ATP 기능을 사용 하는 데 필요한 사용 권한
 
-보안 & 준수 센터의 ATP 기능에 액세스 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다.
+보안 & 준수 센터에서 ATP 기능에 액세스 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다.
 
 |역할 또는 역할 그룹  |자세한 정보를 볼 수 있는 리소스  |
 |---------|---------|

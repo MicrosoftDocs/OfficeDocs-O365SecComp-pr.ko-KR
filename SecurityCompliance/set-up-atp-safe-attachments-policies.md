@@ -3,7 +3,7 @@ title: Office 365 ATP 안전한 첨부 파일 정책 설정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.date: 02/06/2019
 ms.service: O365-seccomp
@@ -15,14 +15,17 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 정책을 정의 하 여 전자 메일의 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 47587d9e189a6fcda2cac964130d0b257b4f4166
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 532a4b6ab2d26506f10adb621a29718a32d52ff6
+ms.sourcegitcommit: 4fedeb06a6e7796096fc6279cfb091c7b89d484d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32266863"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652701"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 파일 정책 설정
+
+> [!IMPORTANT]
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook에서 안전한 첨부 파일에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
 사용자가 문서, 프레젠테이션, 스프레드시트 등의 첨부 파일을 정기적으로 보내고 받고 공유 합니다. 전자 메일 메시지를 확인 하기만 하면 첨부 파일이 안전한 지 또는 악의적 임을 쉽게 알 수 있습니다. 그리고 마지막으로는 조직에 대 한 wreaking havoc에 액세스할 수 있는 악의적인 첨부 파일이 됩니다. 다행히도 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )가 도움이 될 수 있습니다. [ATP 안전한 첨부 파일](atp-safe-attachments.md) 정책을 설정 하 여 조직이 안전 하지 않은 전자 메일 첨부 파일을 통해 공격 으로부터 보호 되도록 할 수 있습니다. 
   
@@ -44,7 +47,7 @@ ms.locfileid: "32266863"
     |---------|---------|
     |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
     |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-    |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> 선택하거나  <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+    |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
     
     역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
@@ -58,7 +61,7 @@ ms.locfileid: "32266863"
     
 2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **안전한 첨부 파일**을 선택 합니다.
     
-3. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 끄기를**참조 하는 경우이 옵션을 선택 하는 것이 좋습니다. 이를 통해 office 365 환경에 대 한 [SharePoint, OneDrive 및 Microsoft 팀에 office 365 Advanced Threat Protection](atp-for-spo-odb-and-teams.md) 을 사용 하도록 설정 합니다. 
+3. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 끄기를**참조 하는 경우이 옵션을 선택 하는 것이 좋습니다. 이를 통해 Office 365 환경에 대 한 [SharePoint, OneDrive 및 Microsoft 팀에 office 365 Advanced Threat Protection](atp-for-spo-odb-and-teams.md) 을 사용 하도록 설정 합니다. 
     
 4. 정책 만들기를 시작 하려면 **새로 만들기** (더하기 기호 ( **+**)와 유사)를 선택 합니다.
     
@@ -86,14 +89,14 @@ ATP 안전한 첨부 파일 정책을 설정 하는 경우 모니터, 차단, �
 |:-----|:-----|:-----|
 |**해제** <br/> |맬웨어 용 첨부 파일을 검색 하지 않음  <br/> 메시지 배달을 연기 하지 않음  <br/> |알려진 양호한 첨부 파일만 전송 하는 내부 보낸 사람, 스캐너, 팩스 또는 스마트 호스트에 대 한 검사 해제  <br/> 내부 메일 라우팅의 불필요 한 지연 방지  <br/> **이 옵션은 대부분의 사용자에 게 권장 되지 않습니다. 이를 통해 소수의 내부 보낸 사람 그룹에 대해 ATP 안전 첨부 파일 검색 기능을 해제할 수 있습니다.**           |
 |**모니터링** <br/> |첨부 파일이 있는 메시지를 배달 하 고 검색 된 맬웨어로부터 발생 하는 결과를 추적 합니다.  <br/> |조직에서 검색 된 맬웨어가 이동 하는 위치 확인  <br/> |
-|**정책의** <br/> |검색 된 맬웨어 첨부 파일이 있는 메시지를 계속 진행 하지 않음  <br/> 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)가 검색 된 맬웨어가 있는 메시지를 [격리](manage-quarantined-messages-and-files.md) 로 전송 합니다.  <br/> 나중에 메시지와 첨부 파일을 자동으로 차단 합니다.  <br/> |동일한 맬웨어 첨부 파일을 사용 하 여 조직에서 반복 되는 공격 으로부터 보호  <br/> |
-|**바꾸기** <br/> |검색 된 맬웨어 첨부 파일을 제거 합니다.  <br/> 첨부 파일이 제거 되었음을 받는 사람에 게 알립니다.  <br/> 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)가 검색 된 맬웨어가 있는 메시지를 [격리](manage-quarantined-messages-and-files.md) 로 전송 합니다.  <br/> |검색 된 맬웨어로 인해 첨부 파일이 제거 된 받는 사람에 대 한 가시성을 높입니다.  <br/> |
-|**동적 배달** <br/> |메시지를 즉시 배달  <br/> 검색이 완료 될 때까지 첨부 파일을 자리 표시자 파일로 바꾼 다음, 맬웨어가 감지 되지 않으면 첨부 파일을가.  <br/> 검색 중 대부분의 pdf 및 Office 파일에 대 한 첨부 파일 미리 보기 기능을 포함 합니다.  <br/> 검색 된 맬웨어가 있는 메시지를 격리로 전송 하 여 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)  <br/> [동적 배달 및 ATP 안전한 첨부 파일로 미리 보는 방법 알아보기](dynamic-delivery-and-previewing.md) <br/> |악성 파일에서 받는 사람을 보호 하는 동안 메시지 지연 방지  <br/> 검색을 수행 하는 동안 받는 사람이 안전 모드에서 첨부 파일을 미리 볼 수 있도록 허용  <br/> |
+|**정책의** <br/> |검색 된 맬웨어 첨부 파일이 있는 메시지를 계속 진행 하지 않음  <br/> 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)가 검색 된 맬웨어가 있는 메시지를 [365 격리](manage-quarantined-messages-and-files.md) 로 전송 합니다.  <br/> 나중에 메시지와 첨부 파일을 자동으로 차단 합니다.  <br/> |동일한 맬웨어 첨부 파일을 사용 하 여 조직에서 반복 되는 공격 으로부터 보호  <br/> |
+|**바꾸기** <br/> |검색 된 맬웨어 첨부 파일을 제거 합니다.  <br/> 첨부 파일이 제거 되었음을 받는 사람에 게 알립니다.  <br/> 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)가 검색 된 맬웨어가 있는 메시지를 [365 격리](manage-quarantined-messages-and-files.md) 로 전송 합니다.  <br/> |검색 된 맬웨어로 인해 첨부 파일이 제거 된 받는 사람에 대 한 가시성을 높입니다.  <br/> |
+|**동적 배달** <br/> |메시지를 즉시 배달  <br/> 검색이 완료 될 때까지 첨부 파일을 자리 표시자 파일로 바꾼 다음, 맬웨어가 감지 되지 않으면 첨부 파일을가.  <br/> 검색 중 대부분의 Pdf 및 Office 파일에 대 한 첨부 파일 미리 보기 기능을 포함 합니다.  <br/> 검색 된 맬웨어가 있는 메시지를 격리로 전송 하 여 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)  <br/> [동적 배달 및 ATP 안전한 첨부 파일로 미리 보는 방법 알아보기](dynamic-delivery-and-previewing.md) <br/> |악성 파일에서 받는 사람을 보호 하는 동안 메시지 지연 방지  <br/> 검색을 수행 하는 동안 받는 사람이 안전 모드에서 첨부 파일을 미리 볼 수 있도록 허용  <br/> |
 |**리디렉션 사용** <br/> |모니터, 차단 또는 바꾸기 옵션을 선택한 경우에 적용 됩니다.  <br/> 보안 관리자 또는 분석가가 조사를 수행할 수 있는 지정 된 전자 메일 주소로 첨부 파일을 보냅니다.  <br/> |보안 관리자 및 분석가가 의심 스러운 첨부 파일을 연구할 수 있도록 설정  <br/> |
    
 ## <a name="next-steps"></a>다음 단계
 
-atp 안전한 첨부 파일 정책이 마련 되 면 보고서를 확인 하 여 atp가 조직에 어떻게 작동 하는지 확인할 수 있습니다. 자세히 알아보려면 다음 리소스를 참조 하세요.
+ATP 안전한 첨부 파일 정책이 마련 되 면 보고서를 확인 하 여 ATP가 조직에 어떻게 작동 하는지 확인할 수 있습니다. 자세히 알아보려면 다음 리소스를 참조 하세요.
 - [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
 - [보안 &amp; 및 준수 센터에서 탐색기 사용](use-explorer-in-security-and-compliance.md)
 

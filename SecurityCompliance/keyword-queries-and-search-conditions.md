@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 01cc40f983ddae6db090f531bc33fc5cc7a638ed
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 2d9cc41b4e0f8139db385a9614d3022230cda50d
+ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152500"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017650"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -38,11 +38,14 @@ ms.locfileid: "34152500"
 
   
 > [!NOTE]
-> Security & 준수 센터의 콘텐츠 검색 및 security & 준수 센터 PowerShell의 해당 ** \*ComplianceSearch** cmdlet은 KQL (키워드 쿼리 언어)를 사용 합니다. 자세한 내용은 [키워드 쿼리 언어 구문 참조](https://go.microsoft.com/fwlink/?LinkId=269603)를 참조 하십시오. 
+> 보안 & 준수 센터의 콘텐츠 검색 및 ** \*** security & 준수 센터 PowerShell에서 ComplianceSearch cmdlet은 키워드 쿼리 언어 (KQL)를 사용 합니다. 자세한 내용은 [키워드 쿼리 언어 구문 참조](https://go.microsoft.com/fwlink/?LinkId=269603)를 참조 하십시오. 
   
 ## <a name="searchable-email-properties"></a>검색 가능한 전자 메일 속성
 
-다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 **ComplianceSearch** cmdlet을 사용 하 여 검색할 수 있는 전자 메일 메시지 속성이 나와 있습니다. 이 표에는 각 속성에 대 한 _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. 키워드 상자에 콘텐츠 `property:value` 검색에 대 한 이러한 쌍을 입력할 수 있습니다. 
+다음 표에는 보안 & 준수 센터에서 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 **ComplianceSearch** cmdlet을 사용 하 여 검색할 수 있는 전자 메일 메시지 속성이 나와 있습니다. 이 표에는 각 속성에 대 한 _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. 키워드 상자에 콘텐츠 `property:value` 검색에 대 한 이러한 쌍을 입력할 수 있습니다. 
+
+> [!NOTE]
+> 전자 메일 속성을 검색할 때 지정 된 속성이 비어 있거나 비어 있는 항목은 검색할 수 없습니다. 예를 들어 제목 줄이 비어 있는 전자 메일 메시지를 검색 하려면 *속성: 값* 쌍 **subject: ""** 를 사용 하는 경우 0 결과가 반환 됩니다. 이는 사이트 및 연락처 속성을 검색할 때에도 적용 됩니다.
   
 |**속성**|**속성 설명**|**예제**|**예제에서 반환된 검색 결과**|
 |:-----|:-----|:-----|:-----|
@@ -62,15 +65,16 @@ ms.locfileid: "34152500"
 |받는 사람|전자 메일 메시지의 모든 받는 사람 필드, 이러한 필드는 받는 사람, 참조 및 숨은 참조입니다. <sup>1</sup>|`recipients:garthf@contoso.com`  <br/> `recipients:contoso.com`|garthf@contoso.com으로 보낸 메시지입니다. 두 번째 예제에서는 contoso.com 도메인에 있는 모든 받는 사람에게 전송된 메시지를 반환합니다.|
 |전송할|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다.|`sent:07/01/2016`  <br/> `sent>=06/01/2016 AND sent<=07/01/2016`|지정된 날짜 또는 지정된 날짜 범위 내에서 전송된 메시지입니다.|
 |크기|항목의 크기(바이트)입니다.|`size>26214400`  <br/> `size:1..1048567`|25 보다 큰 메시지 정도의. 두 번째 예제에서는 1 ~ 1,048,567바이트(1MB) 크기의 메시지를 반환합니다.|
-|제목|전자 메일 메시지 제목 줄의 텍스트입니다.  <br/> **참고:** 쿼리에서 Subject 속성을 사용 하면 ???the 검색에서 제목 줄에 검색 중인 텍스트가 포함 된 모든 메시지가 반환 됩니다. 즉, 쿼리는 정확 하 게 일치 하는 메시지만 반환 하지는 않습니다. 예를 들어를 검색 `subject:"Quarterly Financials"`하는 경우 결과에는 제목이 "분기별 Financials 2018" 인 메시지가 포함 됩니다.|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|제목 줄의 텍스트에 "분기별 Financials" 이라는 구가 포함 된 메시지 두 번째 예제에서는 제목 줄에 단어 northwind가 포함된 모든 메시지를 반환합니다.|
+|제목|전자 메일 메시지 제목 줄의 텍스트입니다.  <br/> **참고:** 쿼리에서 Subject 속성을 사용 하는 경우??? 이 검색에서는 제목 줄에 검색 중인 텍스트가 포함 된 모든 메시지가 반환 됩니다. 즉, 쿼리는 정확 하 게 일치 하는 메시지만 반환 하지는 않습니다. 예를 들어를 검색 `subject:"Quarterly Financials"`하는 경우 결과에는 제목이 "분기별 Financials 2018" 인 메시지가 포함 됩니다.|`subject:"Quarterly Financials"`  <br/> `subject:northwind`|제목 줄의 텍스트에 "분기별 Financials" 이라는 구가 포함 된 메시지 두 번째 예제에서는 제목 줄에 단어 northwind가 포함된 모든 메시지를 반환합니다.|
 |받는 사람|전자 메일 메시지의 대상 필드 <sup>1</sup>|`to:annb@contoso.com`  <br/> `to:annb ` <br/> `to:"Ann Beebe"`|모든 예제에서 받는 사람: 줄에 Ann Beebe가 지정된 메시지를 반환합니다.|
+|||||
    
 > [!NOTE]
 > <sup>1</sup> recipient 속성 값의 경우 전자 메일 주소 ( *사용자 계정 이름이* 나 UPN이 라고도 함), 표시 이름 또는 별칭을 사용 하 여 사용자를 지정할 수 있습니다. 예를 들어 annb@contoso.com, annb 또는 "Ann Beebe"를 사용하여 사용자 Ann Beebe를 지정할 수 있습니다.<br/><br/>받는 사람 속성 (From, To, Cc, Bcc, 참가자 및 받는 사람)을 검색할 때 Office 365은 Azure Active Directory에서 각 사용자의 id를 확장 하려고 시도 합니다.  사용자가 Azure Active Directory에 있는 경우에는 쿼리가 사용자의 전자 메일 주소 (UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함 하도록 확장 됩니다.<br/><br/>예를 들어를로 `participants:ronnie@contoso.com` 확장 하는 등 `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"`의 쿼리를 예로 들 수 있습니다.
 
 ## <a name="searchable-site-properties"></a>검색 가능한 사이트 속성
 
-다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 ComplianceSearch을 사용 하 여 검색할 수 있는 몇 가지 SharePoint 및 비즈니스용 OneDrive 속성이 나와 있습니다. ** **cmdlet 이 표에는 각 속성에 대 한 _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. 
+다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 ComplianceSearch을 사용 하 여 검색할 수 있는 SharePoint 및 비즈니스용 OneDrive 속성이 나와 있습니다. ** **cmdlet 이 표에는 각 속성에 대 한 _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. 
   
 검색할 수 있는 SharePoint 속성의 전체 목록을 보려면 [sharepoint에서 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. **쿼리** 가능 열에 **예** 로 표시 된 속성을 검색할 수 있습니다. 
   
@@ -91,6 +95,7 @@ ms.locfileid: "34152500"
 |사이트|조직의 사이트 또는 사이트 그룹의 URL입니다.|`site:"https://contoso-my.sharepoint.com"`  <br/> `site:"https://contoso.sharepoint.com/sites/teams"`|첫 번째 예에서는 조직 내 모든 사용자의 비즈니스용 OneDrive 사이트에서 항목을 반환 합니다. 두 번째 예제에서는 모든 팀 사이트의 항목을 반환합니다.|
 |크기|항목의 크기(바이트)입니다.|`size>=1`  <br/> `size:1..10000`|첫 번째 예제에서는 1바이트 보다 큰 항목을 반환합니다. 두 번째 예제에서는 1부터 10,000바이트 크기의 항목을 반환합니다.|
 |제목|문서의 제목입니다. Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 문서의 파일 이름과 다릅니다.|`title:"communication plan"`|Office 문서의 Title 메타데이터 속성에 "communication plan"이 포함된 문서입니다.|
+|||||
    
 ## <a name="searchable-contact-properties"></a>검색 가능한 연락처 속성
 
@@ -119,13 +124,13 @@ ms.locfileid: "34152500"
 |OtherAddress|**기타** address 속성의 값입니다.|
 |성|**Last** name 속성의 이름입니다.|
 |제목|직위 속성의 제목 **** 입니다.|
-   
+|||||
 
 ## <a name="searchable-sensitive-data-types"></a>검색 가능한 중요한 데이터 형식
 
-보안 및 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint의 문서 및 비즈니스용 OneDrive 사이트에 저장 되어 있는 중요 한 데이터 (예: 신용 카드 번호 또는 사회 보장 번호)를 검색할 수 있습니다. 이 작업은 키워드 쿼리에 중요 한 `SensitiveType` 정보 유형의 속성 및 이름을 사용 하 여 수행할 수 있습니다. 예를 들어 쿼리 `SensitiveType:"Credit Card Number"` 는 신용 카드 번호가 포함 된 문서를 반환 합니다. 이 쿼리 `SensitiveType:"U.S. Social Security Number (SSN)"` 는 미국 사회 보장 번호가 포함 된 문서를 반환 합니다. 검색할 수 있는 중요 한 데이터 형식 목록을 보려면 Security & 준수 센터에서 **중요 한 정보 유형** **분류** \> 로 이동 하십시오. 또는 Security & 준수 센터 PowerShell에서 **DlpSensitiveInformationType** cmdlet을 사용 하 여 중요 한 정보 유형 목록을 표시할 수 있습니다. 
+보안 및 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint의 문서 및 비즈니스용 OneDrive 사이트에 저장 되어 있는 중요 한 데이터 (예: 신용 카드 번호 또는 사회 보장 번호)를 검색할 수 있습니다. 이 작업은 키워드 쿼리에 중요 한 `SensitiveType` 정보 유형의 속성 및 이름을 사용 하 여 수행할 수 있습니다. 예를 들어 쿼리 `SensitiveType:"Credit Card Number"` 는 신용 카드 번호가 포함 된 문서를 반환 합니다. 이 쿼리 `SensitiveType:"U.S. Social Security Number (SSN)"` 는 미국 사회 보장 번호가 포함 된 문서를 반환 합니다. 검색할 수 있는 중요 한 데이터 형식 목록을 보려면 보안 & 준수 센터에서 **중요 한 정보 유형** **분류** \> 로 이동 합니다. 또는 Security & 준수 센터 PowerShell에서 **DlpSensitiveInformationType** cmdlet을 사용 하 여 중요 한 정보 유형 목록을 표시할 수 있습니다. 
   
-또한이 `SensitiveType` 속성을 사용 하 여 조직에 대해 자신이 만들었거나 다른 관리자가 만든 사용자 지정 중요 한 정보 유형의 이름을 검색할 수 있습니다. 기본 제공 및 사용자 지정 중요 한 정보를 구별 하기 위해 Security & 준수 센터의 **중요 한 정보 유형** 페이지 (또는 PowerShell의 **publisher** 속성)에서 **게시자** 열을 사용할 수 있습니다. 유형을. 자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조 하십시오.
+또한이 `SensitiveType` 속성을 사용 하 여 조직에 대해 자신이 만들었거나 다른 관리자가 만든 사용자 지정 중요 한 정보 유형의 이름을 검색할 수 있습니다. 보안 & 준수 센터의 **중요 한 정보 유형** 페이지 (또는 PowerShell의 **publisher** 속성)에서 **게시자** 열을 사용 하 여 기본 제공 및 사용자 지정 중요 정보를 구분할 수 있습니다. 유형을. 자세한 내용은 [사용자 지정 중요 한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조 하십시오.
   
 이 `SensitiveType` 속성을 사용 하 여 쿼리를 만드는 방법에 대 한 자세한 내용은 [Form a query to a sites에 저장 된 중요 한 데이터 찾기를](form-a-query-to-find-sensitive-data-stored-on-sites.md)참조 하십시오.
 
@@ -155,6 +160,7 @@ ms.locfileid: "34152500"
 |"  "|"fair value"  <br/> subject:"Quarterly Financials"|키워드 및 `property:value` 검색 쿼리에서 정확한 어구 또는 용어를 검색 하려면 큰따옴표 ("")를 사용 합니다.|
 |\*|cat\*  <br/> 제목: 설정\*|접두사 와일드 카드 검색 (단어 끝에 별표가 있는 위치)은 키워드나 `property:value` 쿼리에서 0 개 이상의 문자와 일치 합니다. 예를 들어 `title:set*` 문서 제목에는 word 설정, 설정 및 설정 (및 "set"으로 시작 하는 기타 단어)이 포함 된 문서를 반환 합니다.  <br/><br/> **참고:** 접두사 와일드 카드 검색만 사용할 수 있습니다. 예를 들면 **cat\* ** 또는 **set\*** 입니다. ** \*Cat** (접미사 검색), 중 위 검색 **(\*c t** ) 및 ** \*cat\* ** (하위 문자열 검색)은 지원 되지 않습니다.|
 |(  )| (fair OR free) AND (from:contoso.com)  <br/>  (IPO OR initial) AND (stock OR shares)  <br/>  (quarterly financials)|괄호는 부울 구, `property:value` 항목 및 키워드를 함께 그룹화 합니다. 예를 들어 `(quarterly financials)` 분기 및 financials 이라는 단어가 포함 된 항목을 반환 합니다.|
+|||||
    
 > [!NOTE]
 > <sup>1</sup> 날짜 또는 숫자 값이 있는 속성에는이 연산자를 사용 합니다.<br/> <sup>2</sup> 부울 검색 연산자는 대문자 여야 합니다. 예를 들면 **AND**입니다. **And**와 같은 소문자 연산자를 사용 하는 경우 검색 쿼리에서 키워드로 취급 됩니다. 
@@ -186,6 +192,7 @@ ms.locfileid: "34152500"
 |크기 (바이트)|전자 메일 및 문서의 경우 항목의 크기(바이트)입니다.|
 |제목/제목|전자 메일의 경우 메시지 제목 줄의 텍스트입니다. 문서의 경우 문서 제목입니다. 앞에서 설명한 것 처럼 Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 두 개 이상의 제목/제목 이름을 쉼표로 구분 하 여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
 |준수 태그|전자 메일 및 문서에 대해 사용자가 수동으로 할당 한 레이블 정책이 나 레이블에서 자동으로 메시지와 문서에 할당 된 레이블입니다. 레이블은 데이터 거 버 넌 스와 전자 메일 및 문서를 분류 하 고 레이블에 의해 정의 된 분류에 따라 보존 규칙을 적용 하는 데 사용 됩니다. 레이블 이름의 일부를 입력 하 고 와일드 카드를 사용 하거나 전체 레이블 이름을 입력할 수 있습니다. 자세한 내용은 [Office 365의 레이블 개요](labels.md)를 참조 하세요.|
+|||
   
 ### <a name="conditions-for-mail-properties"></a>메일 속성에 대한 조건
 
@@ -202,6 +209,7 @@ ms.locfileid: "34152500"
 |전송할|보낸 사람이 전자 메일 메시지를 보낸 날짜입니다. Sent 전자 메일 속성과 같은 속성입니다.|
 |제목|전자 메일 메시지 제목 줄의 텍스트입니다.|
 |받는 사람|전자 메일 메시지의 받는 사람입니다.|
+|||
   
 ### <a name="conditions-for-document-properties"></a>문서 속성에 대한 조건
 
@@ -214,6 +222,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
 |만든 날짜|문서를 만든 날짜입니다.|
 |마지막으로 수정한 날짜|문서를 마지막으로 변경한 날짜입니다.|
 |파일 형식|파일의 확장명입니다. 예를 들면 .docx, one, .pptx 또는 .xlsx가 있습니다. FileExtension 사이트 속성과 같은 속성입니다.|
+|||
   
 ### <a name="operators-used-with-conditions"></a>조건과 함께 사용되는 연산자
 
@@ -234,6 +243,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
 |줄일|`size<value`|특정 값 보다 크거나 같은 항목을 반환 합니다. <sup>1</sup>|
 |Less or equal|`size<=value`|특정 값 보다 크거나 같은 항목을 반환 합니다. <sup>1</sup>|
 |Not equal|`size<>value`|지정 된 크기와 다른 항목을 반환 합니다. <sup>1</sup>|
+|||
    
 > [!NOTE]
 > <sup>1</sup> 이 연산자는 Size 속성을 사용 하는 조건에만 사용할 수 있습니다. 
@@ -320,7 +330,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
 ## <a name="searching-for-site-content-shared-with-external-users"></a>외부 사용자와 공유되는 사이트 콘텐츠 검색
 
-또한 Security & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint에 저장 된 문서와 조직 외부의 사용자와 공유 된 비즈니스용 OneDrive 사이트를 검색할 수 있습니다. 이렇게 하면 조직 외부에서 공유되는 중요한 정보나 비공개 정보를 확인할 수 있습니다. 키워드 쿼리에 속성을 `ViewableByExternalUsers` 사용 하 여이 작업을 수행할 수 있습니다. 이 속성은 다음 공유 방법 중 하나를 사용 하 여 외부 사용자와 공유 된 문서 또는 사이트를 반환 합니다. 
+또한 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint에 저장 된 문서와 조직 외부의 사용자와 공유 된 비즈니스용 OneDrive 사이트를 검색할 수 있습니다. 이렇게 하면 조직 외부에서 공유되는 중요한 정보나 비공개 정보를 확인할 수 있습니다. 키워드 쿼리에 속성을 `ViewableByExternalUsers` 사용 하 여이 작업을 수행할 수 있습니다. 이 속성은 다음 공유 방법 중 하나를 사용 하 여 외부 사용자와 공유 된 문서 또는 사이트를 반환 합니다. 
   
 - 사용자가 인증 된 사용자로 조직에 로그인 하는 데 필요한 공유 초대입니다.
     

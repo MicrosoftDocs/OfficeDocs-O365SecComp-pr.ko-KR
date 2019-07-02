@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 8/10/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,17 +14,17 @@ search.appverid:
 ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
-description: 첫 번째 dlp (데이터 손실 방지) 정책을 만들기 전에 dlp는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다.
-ms.openlocfilehash: fa48025a7b979ad69c600b21a10fbb62567234c3
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+description: 첫 번째 DLP (데이터 손실 방지) 정책을 만들기 전에 DLP는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다.
+ms.openlocfilehash: a14e2c9c1f833552c11e55ec76f6f804e0311479
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32256730"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077924"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>기본 DLP 정책을 사용하여 시작
 
-첫 번째 dlp (데이터 손실 방지) 정책을 만들기 전에 dlp는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다. 보안 &amp; 및 준수 센터의 **홈** 페이지에이 권장 사항이 표시 됩니다. 
+첫 번째 DLP (데이터 손실 방지) 정책을 만들기 전에 DLP는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다. 보안 &amp; 및 준수 센터의 **홈** 페이지에이 권장 사항이 표시 됩니다. 
   
 이 위젯을 사용 하 여 공유 된 중요 한 정보를 신속 하 게 확인 한 다음 한 번만을 클릭 하 여 기본 DLP 정책을 구체화할 수 있습니다. 또한 기본 DLP 정책은 완전히 사용자 지정 가능 하므로 언제 든 지 편집할 수 있습니다. 처음에는 권장 사항이 표시 되지 않으면 **권장** 섹션의 아래쪽에서 **+ 자세히** 를 클릭 해 보세요. 
   
@@ -42,7 +42,7 @@ ms.locfileid: "32256730"
     
 - 정책 팁을 표시 하 고이 중요 한 정보를 조직 외부의 사용자와 공유 하려고 할 때 사용자에 게 전자 메일 알림을 보냅니다. 이러한 옵션에 대 한 자세한 내용은 [DLP 정책에 대 한 전자 메일 알림 보내기 및 정책 팁 보기](use-notifications-and-policy-tips.md)를 참조 하세요.
     
-- 조직 외부의 사용자와 콘텐츠를 공유한 사용자를 추적할 수 있도록 자세한 활동 보고서를 생성 합니다. [dlp 보고서](view-the-dlp-reports.md) 및 [감사 로그 데이터](search-the-audit-log-in-security-and-compliance.md) (여기서 **활동** = **DLP**)를 사용 하 여이 정보를 볼 수 있습니다.
+- 조직 외부의 사용자와 콘텐츠를 공유한 사용자를 추적할 수 있도록 자세한 활동 보고서를 생성 합니다. [Dlp 보고서](view-the-dlp-reports.md) 및 [감사 로그 데이터](search-the-audit-log-in-security-and-compliance.md) (여기서 **활동** = **DLP**)를 사용 하 여이 정보를 볼 수 있습니다.
     
 기본 DLP 정책을 신속 하 게 구체화 하기 위해 다음을 선택할 수 있습니다.
   
@@ -64,7 +64,7 @@ ms.locfileid: "32256730"
   
 이 정책은 처음부터 직접 만든 DLP 정책과 동일한 방법으로 완전히 사용자 지정할 수 있습니다. 또한 정책을 해제 하거나 삭제 하 여 사용자가 더 이상 정책 팁 이나 전자 메일 알림을 받지 않도록 설정할 수 있습니다.
   
-![기본 Office 365 dlp 정책 이라는 dlp 정책](media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
+![기본 Office 365 DLP 정책 이라는 DLP 정책](media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>위젯이 수행 되 고 표시 되지 않는 경우
 
@@ -72,7 +72,7 @@ ms.locfileid: "32256730"
   
 이 위젯은 다음과 같은 경우에만 표시 됩니다.
   
-- 보안 &amp; 및 준수 센터 또는 Exchange 관리 센터에 데이터 손실 방지 정책이 없습니다. 이 위젯은 dlp를 시작 하는 데 도움이 되도록 하기 위한 것으로, 이미 dlp 정책이 있는 경우에는 나타나지 않습니다.
+- 보안 &amp; 및 준수 센터 또는 Exchange 관리 센터에 데이터 손실 방지 정책이 없습니다. 이 위젯은 dlp를 시작 하는 데 도움이 되도록 하기 위한 것으로, 이미 DLP 정책이 있는 경우에는 나타나지 않습니다.
     
 - 1 개 이상의 신용 카드를 포함 하는 콘텐츠가 최근 30 일 동안 조직 외부의 사용자와 공유 되었습니다.
     

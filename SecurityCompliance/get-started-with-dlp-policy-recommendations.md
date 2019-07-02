@@ -4,25 +4,25 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 8/7/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Office 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 주요 정보가 포함 되어 있지만 &amp; DLP 정책에 의해 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에서이 권장 사항을 확인할 수 있습니다.
-ms.openlocfilehash: 6edb6a28182cb72e66a649ac5eb0c1561c596091
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 326efb7591ba75ada9eec6a5e61e39e2a1fc09f9
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32254100"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077974"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>DLP 정책 권장 시작
 
 이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Office 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 **** 주요 정보가 포함 되어 있지만 &amp; DLP (데이터 손실 방지) 정책으로 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에이 권장 사항이 표시 됩니다. 
   
-이 위젯을 사용 하 여 한 번에 사용자 지정 된 dlp 정책을 빠르게 만들 수 있으며,이 dlp 정책을 만든 후에는 완전히 사용자 지정이 가능 합니다. 처음에는 권장 사항이 표시 되지 않으면 **권장** 섹션의 아래쪽에서 **+ 자세히** 를 클릭 해 보세요. 
+이 위젯을 사용 하 여 한 번에 사용자 지정 된 DLP 정책을 빠르게 만들 수 있으며,이 DLP 정책을 만든 후에는 완전히 사용자 지정이 가능 합니다. 처음에는 권장 사항이 표시 되지 않으면 **권장** 섹션의 아래쪽에서 **+ 자세히** 를 클릭 해 보세요. 
   
 ![보호 되지 않는 중요 한 정보 라는 위젯](media/91bc04d2-6eff-4294-8b73-b2d56d26ffc4.png)
   
@@ -34,7 +34,7 @@ ms.locfileid: "32254100"
   
 - 보호 되지 않는 중요 한 정보 유형 중 하나를 포함 하는 Exchange, SharePoint 및 OneDrive의 콘텐츠가 조직 외부의 사용자와 공유 되는 경우를 감지 합니다.
     
-- 조직 외부의 사용자와 콘텐츠를 공유한 사용자를 추적할 수 있도록 자세한 활동 보고서를 생성 합니다. [dlp 보고서](view-the-dlp-reports.md) 및 [감사 로그 데이터](search-the-audit-log-in-security-and-compliance.md) (여기서 **활동** = **DLP**)를 사용 하 여이 정보를 볼 수 있습니다.
+- 조직 외부의 사용자와 콘텐츠를 공유한 사용자를 추적할 수 있도록 자세한 활동 보고서를 생성 합니다. [Dlp 보고서](view-the-dlp-reports.md) 및 [감사 로그 데이터](search-the-audit-log-in-security-and-compliance.md) (여기서 **활동** = **DLP**)를 사용 하 여이 정보를 볼 수 있습니다.
     
 또한 다음과 같이 DLP 정책을 사용할 수도 있습니다.
   
@@ -66,7 +66,7 @@ ms.locfileid: "32254100"
     
 - 중요 한 정보는 기존 DLP 정책에 의해 보호 되지 않습니다.
     
-지속적으로 데이터를 검색 하는 dlp 정책과 달리이 권장 사항은 새 콘텐츠가 업로드 된 후 2 일까지 완료 되어 추천이 표시 될 수 있습니다.
+지속적으로 데이터를 검색 하는 DLP 정책과 달리이 권장 48 사항은 새 콘텐츠가 업로드 된 후 2 일까지 완료 되어 추천이 표시 될 수 있습니다.
   
 마지막으로, 위젯을 사용 하 여 권장 DLP 정책을 만든 후에는 **홈** 페이지에서 위젯이 사라집니다. 
   
