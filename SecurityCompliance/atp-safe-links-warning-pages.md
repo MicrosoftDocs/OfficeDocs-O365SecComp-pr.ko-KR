@@ -3,7 +3,7 @@ title: Office 365 ATP 안전한 링크 경고 페이지
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: IT Pro
+audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -14,101 +14,101 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: e90951a010ff5de4d3b292259e9c4596b6cc8e89
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 70bd93aead82a867936031f754d172fdeb22f421
+ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32251308"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017630"
 ---
-# <a name="office-365-atp-safe-links-warning-pages"></a><span data-ttu-id="8bd7d-103">Office 365 ATP 안전한 링크 경고 페이지</span><span class="sxs-lookup"><span data-stu-id="8bd7d-103">Office 365 ATP Safe Links warning pages</span></span>
+# <a name="office-365-atp-safe-links-warning-pages"></a><span data-ttu-id="22434-103">Office 365 ATP 안전한 링크 경고 페이지</span><span class="sxs-lookup"><span data-stu-id="22434-103">Office 365 ATP Safe Links warning pages</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8bd7d-104">이 문서는 Office 365 Enterprise 고객을 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-104">This article is intended for Office 365 Enterprise customers.</span></span> <span data-ttu-id="8bd7d-105">Outlook.com, office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-105">If you are using Outlook.com, Office 365 Home, or Office 365 Personal, and you're looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).</span></span>
+> <span data-ttu-id="22434-104">이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="22434-104">This article is intended for business customers who have [Office 365 Advanced Threat Protection](office-365-atp.md).</span></span> <span data-ttu-id="22434-105">Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="22434-105">If you are using Outlook.com, Office 365 Home, or Office 365 Personal, and you're looking for information about Safe Links in Outlook, see [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2).</span></span>
 
-<span data-ttu-id="8bd7d-106">[Office 365 Advanced Threat Protection](office-365-atp.md) (atp)는 [atp 안전한 링크](atp-safe-links.md), [atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 합니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-106">[Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helps protect your organization from phishing attempts and malware through features, such as [ATP Safe Links](atp-safe-links.md), [ATP Safe Attachments](atp-safe-attachments.md), and [anti-phishing protection](anti-phishing-protection.md).</span></span> <span data-ttu-id="8bd7d-107">보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (url)가 확인 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-107">When protection is in place, links (URLs) in email messages and Office documents are checked.</span></span> <span data-ttu-id="8bd7d-108">의심 스러운 또는 악성으로 식별 된 url은 클릭 하면 url을 열 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-108">If a URL is identified as suspicious or malicious, you might be blocked from opening the URL when you click it.</span></span> <span data-ttu-id="8bd7d-109">대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-109">Instead of going directly to the site, you might see a warning page instead.</span></span> 
+<span data-ttu-id="22434-106">[Office 365 Advanced Threat Protection](office-365-atp.md) (ATP)는 [Atp 안전한 링크](atp-safe-links.md), [Atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 합니다.</span><span class="sxs-lookup"><span data-stu-id="22434-106">[Office 365 Advanced Threat Protection](office-365-atp.md) (ATP) helps protect your organization from phishing attempts and malware through features, such as [ATP Safe Links](atp-safe-links.md), [ATP Safe Attachments](atp-safe-attachments.md), and [anti-phishing protection](anti-phishing-protection.md).</span></span> <span data-ttu-id="22434-107">보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (Url)가 확인 됩니다.</span><span class="sxs-lookup"><span data-stu-id="22434-107">When protection is in place, links (URLs) in email messages and Office documents are checked.</span></span> <span data-ttu-id="22434-108">의심 스러운 또는 악성으로 식별 된 URL은 클릭 하면 URL을 열 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-108">If a URL is identified as suspicious or malicious, you might be blocked from opening the URL when you click it.</span></span> <span data-ttu-id="22434-109">대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-109">Instead of going directly to the site, you might see a warning page instead.</span></span> 
   
-<span data-ttu-id="8bd7d-110">이 문서를 읽으면 경고 페이지에 대 한 최신 업데이트와 함께 표시 되는 경고 페이지의 예를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-110">Read this article to see examples of warning pages that might appear, along with recent updates to warning pages.</span></span>
+<span data-ttu-id="22434-110">이 문서를 읽으면 경고 페이지에 대 한 최신 업데이트와 함께 표시 되는 경고 페이지의 예를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-110">Read this article to see examples of warning pages that might appear, along with recent updates to warning pages.</span></span>
   
-## <a name="examples-of-warning-pages"></a><span data-ttu-id="8bd7d-111">경고 페이지의 예</span><span class="sxs-lookup"><span data-stu-id="8bd7d-111">Examples of warning pages</span></span>
+## <a name="examples-of-warning-pages"></a><span data-ttu-id="22434-111">경고 페이지의 예</span><span class="sxs-lookup"><span data-stu-id="22434-111">Examples of warning pages</span></span>
 
-### <a name="atp-is-scanning-the-link"></a><span data-ttu-id="8bd7d-112">ATP에서 링크를 검색 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-112">ATP is scanning the link</span></span>
+### <a name="atp-is-scanning-the-link"></a><span data-ttu-id="22434-112">ATP에서 링크를 검색 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-112">ATP is scanning the link</span></span>
 
-<span data-ttu-id="8bd7d-113">ATP 안전한 링크에서 URL을 검색 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-113">A URL is being scanned by ATP Safe Links.</span></span> <span data-ttu-id="8bd7d-114">잠시 기다린 후에 링크를 다시 시도해 야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-114">You might have to wait a few moments to try the link again.</span></span>
+<span data-ttu-id="22434-113">ATP 안전한 링크에서 URL을 검색 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-113">A URL is being scanned by ATP Safe Links.</span></span> <span data-ttu-id="22434-114">잠시 기다린 후에 링크를 다시 시도해 야 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-114">You might have to wait a few moments to try the link again.</span></span>
 
 ![ATP에서 링크를 검색 하 고 있습니다.](media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
-### <a name="a-url-is-in-a-suspicious-email-message"></a><span data-ttu-id="8bd7d-116">URL이 의심 스러운 전자 메일 메시지에 있는 경우</span><span class="sxs-lookup"><span data-stu-id="8bd7d-116">A URL is in a suspicious email message</span></span>
+### <a name="a-url-is-in-a-suspicious-email-message"></a><span data-ttu-id="22434-116">URL이 의심 스러운 전자 메일 메시지에 있는 경우</span><span class="sxs-lookup"><span data-stu-id="22434-116">A URL is in a suspicious email message</span></span>
 
-<span data-ttu-id="8bd7d-117">URL이 의심 스러운 것으로 간주 되는 다른 전자 메일 메시지와 비슷한 전자 메일 메시지에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-117">The URL is in an email message that seems similar to other email messages that are considered suspicious.</span></span> <span data-ttu-id="8bd7d-118">사이트를 진행 하기 전에 전자 메일 메시지를 두 번 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-118">We recommend that you double-check the email message before proceeding to the site.</span></span>
+<span data-ttu-id="22434-117">URL이 의심 스러운 것으로 간주 되는 다른 전자 메일 메시지와 비슷한 전자 메일 메시지에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-117">The URL is in an email message that seems similar to other email messages that are considered suspicious.</span></span> <span data-ttu-id="22434-118">사이트를 진행 하기 전에 전자 메일 메시지를 두 번 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-118">We recommend that you double-check the email message before proceeding to the site.</span></span>
 
 ![이 URL은 의심 스러운 전자 메일 메시지에 있습니다.](media/33f57923-23e3-4b0f-838b-6ad589ba897b.png)
 
-### <a name="a-url-is-in-a-message-identified-as-a-phishing-attempt"></a><span data-ttu-id="8bd7d-120">URL이 피싱 시도로 식별 된 메시지에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-120">A URL is in a message identified as a phishing attempt</span></span>
+### <a name="a-url-is-in-a-message-identified-as-a-phishing-attempt"></a><span data-ttu-id="22434-120">URL이 피싱 시도로 식별 된 메시지에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-120">A URL is in a message identified as a phishing attempt</span></span>
 
-<span data-ttu-id="8bd7d-121">URL이 피싱 공격으로 식별 된 전자 메일 메시지에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-121">The URL is in an email message that has been identified as a phishing attack.</span></span> <span data-ttu-id="8bd7d-122">따라서 전자 메일 메시지의 모든 url이 차단 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-122">As a result, all URLs in the email message are blocked.</span></span> <span data-ttu-id="8bd7d-123">해당 사이트로 이동 하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-123">We recommend that you do not proceed to the site.</span></span>
+<span data-ttu-id="22434-121">URL이 피싱 공격으로 식별 된 전자 메일 메시지에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-121">The URL is in an email message that has been identified as a phishing attack.</span></span> <span data-ttu-id="22434-122">따라서 전자 메일 메시지의 모든 Url이 차단 됩니다.</span><span class="sxs-lookup"><span data-stu-id="22434-122">As a result, all URLs in the email message are blocked.</span></span> <span data-ttu-id="22434-123">해당 사이트로 이동 하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-123">We recommend that you do not proceed to the site.</span></span>
 
 ![이 URL은 피싱 시도로 식별 된 메시지에 있습니다.](media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
 
-### <a name="a-site-has-been-identified-as-malicious"></a><span data-ttu-id="8bd7d-125">사이트가 악성으로 식별 됨</span><span class="sxs-lookup"><span data-stu-id="8bd7d-125">A site has been identified as malicious</span></span>
+### <a name="a-site-has-been-identified-as-malicious"></a><span data-ttu-id="22434-125">사이트가 악성으로 식별 됨</span><span class="sxs-lookup"><span data-stu-id="22434-125">A site has been identified as malicious</span></span>
 
-<span data-ttu-id="8bd7d-126">URL이 악성으로 식별 된 사이트를 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-126">The URL points to a site that has been identified as malicious.</span></span>  <br/> <span data-ttu-id="8bd7d-127">해당 사이트로 이동 하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-127">We recommend that you do not proceed to the site.</span></span>
+<span data-ttu-id="22434-126">URL이 악성으로 식별 된 사이트를 가리킵니다.</span><span class="sxs-lookup"><span data-stu-id="22434-126">The URL points to a site that has been identified as malicious.</span></span>  <br/> <span data-ttu-id="22434-127">해당 사이트로 이동 하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-127">We recommend that you do not proceed to the site.</span></span>
 
 ![이 사이트는 악의적인 것으로 확인 되었습니다.](media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
-### <a name="a-site-is-blocked"></a><span data-ttu-id="8bd7d-129">사이트가 차단 됨</span><span class="sxs-lookup"><span data-stu-id="8bd7d-129">A site is blocked</span></span>
+### <a name="a-site-is-blocked"></a><span data-ttu-id="22434-129">사이트가 차단 됨</span><span class="sxs-lookup"><span data-stu-id="22434-129">A site is blocked</span></span>
 
-<span data-ttu-id="8bd7d-130">조직에 대 한 URL이 차단 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-130">The URL is blocked for your organization.</span></span> <span data-ttu-id="8bd7d-131">URL이 차단 되는 이유에는 여러 가지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-131">There are several reasons why a URL might be blocked.</span></span> <span data-ttu-id="8bd7d-132">조직의 Office 365 관리자에 게 문의 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-132">We recommend that you contact your organization's Office 365 administrator.</span></span>
+<span data-ttu-id="22434-130">조직에 대 한 URL이 차단 됩니다.</span><span class="sxs-lookup"><span data-stu-id="22434-130">The URL is blocked for your organization.</span></span> <span data-ttu-id="22434-131">URL이 차단 되는 이유에는 여러 가지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-131">There are several reasons why a URL might be blocked.</span></span> <span data-ttu-id="22434-132">조직의 Office 365 관리자에 게 문의 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-132">We recommend that you contact your organization's Office 365 administrator.</span></span>
 
 ![이 사이트는 차단 됨](media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
-### <a name="an-error-has-occurred"></a><span data-ttu-id="8bd7d-134">오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-134">An error has occurred</span></span>
+### <a name="an-error-has-occurred"></a><span data-ttu-id="22434-134">오류가 발생 했습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-134">An error has occurred</span></span>
 
-<span data-ttu-id="8bd7d-135">오류가 발생 하 여 URL을 열 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-135">Some kind of error has occurred, and the URL cannot be opened.</span></span>
+<span data-ttu-id="22434-135">오류가 발생 하 여 URL을 열 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-135">Some kind of error has occurred, and the URL cannot be opened.</span></span>
 
 ![오류가 발생 했습니다.](media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
 
-## <a name="recent-updates-to-warning-pages"></a><span data-ttu-id="8bd7d-137">경고 페이지에 대 한 최신 업데이트</span><span class="sxs-lookup"><span data-stu-id="8bd7d-137">Recent updates to warning pages</span></span>
+## <a name="recent-updates-to-warning-pages"></a><span data-ttu-id="22434-137">경고 페이지에 대 한 최신 업데이트</span><span class="sxs-lookup"><span data-stu-id="22434-137">Recent updates to warning pages</span></span>
 
-<span data-ttu-id="8bd7d-138">최근에 Office 365 ATP에 대해 몇 가지 경고 페이지가 업데이트 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-138">Several warning pages were recently updated for Office 365 ATP.</span></span> <span data-ttu-id="8bd7d-139">업데이트 된 페이지가 표시 되지 않으면 곧 제공 될 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-139">If you're not already seeing the updated pages, you will soon.</span></span> <span data-ttu-id="8bd7d-140">이 업데이트에는 지정 된 경고 및 권장 사항에도 불구 하 고 새로운 색 구성표, 자세한 내용 및 사이트로 이동 하는 기능이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8bd7d-140">The updates include a new color scheme, more details, and the ability to proceed to a site despite the given warning and recommendations.</span></span>
+<span data-ttu-id="22434-138">최근에 Office 365 ATP에 대해 몇 가지 경고 페이지가 업데이트 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-138">Several warning pages were recently updated for Office 365 ATP.</span></span> <span data-ttu-id="22434-139">업데이트 된 페이지가 표시 되지 않으면 곧 제공 될 예정입니다.</span><span class="sxs-lookup"><span data-stu-id="22434-139">If you're not already seeing the updated pages, you will soon.</span></span> <span data-ttu-id="22434-140">이 업데이트에는 지정 된 경고 및 권장 사항에도 불구 하 고 새로운 색 구성표, 자세한 내용 및 사이트로 이동 하는 기능이 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="22434-140">The updates include a new color scheme, more details, and the ability to proceed to a site despite the given warning and recommendations.</span></span>
 
-### <a name="url-scan-in-progress"></a><span data-ttu-id="8bd7d-141">URL 검색 진행 중</span><span class="sxs-lookup"><span data-stu-id="8bd7d-141">URL scan in progress</span></span>
+### <a name="url-scan-in-progress"></a><span data-ttu-id="22434-141">URL 검색 진행 중</span><span class="sxs-lookup"><span data-stu-id="22434-141">URL scan in progress</span></span>
 
-<span data-ttu-id="8bd7d-142">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-142">Original warning page:</span></span>
+<span data-ttu-id="22434-142">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-142">Original warning page:</span></span>
 
 ![진행 중인 URL 검사에 대 한 원래 경고 페이지](media/04368763-763f-43d6-94a4-a48291d36893.png)
 
-<span data-ttu-id="8bd7d-144">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-144">Updated warning page:</span></span>
+<span data-ttu-id="22434-144">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-144">Updated warning page:</span></span>
 
 ![ATP에서 링크를 검색 하 고 있습니다.](media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
-### <a name="malicious-site-warning"></a><span data-ttu-id="8bd7d-146">악의적인 사이트 경고</span><span class="sxs-lookup"><span data-stu-id="8bd7d-146">Malicious site warning</span></span>
+### <a name="malicious-site-warning"></a><span data-ttu-id="22434-146">악의적인 사이트 경고</span><span class="sxs-lookup"><span data-stu-id="22434-146">Malicious site warning</span></span>
 
-<span data-ttu-id="8bd7d-147">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-147">Original warning page:</span></span>
+<span data-ttu-id="22434-147">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-147">Original warning page:</span></span>
 
 ![악의적인 사이트에 대 한 원래 경고 페이지](media/b9efda09-6dd8-46ef-82cb-56e4d538b8f5.png)
 
-<span data-ttu-id="8bd7d-149">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-149">Updated warning page:</span></span>
+<span data-ttu-id="22434-149">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-149">Updated warning page:</span></span>
 
 ![이 사이트는 악의적인 것으로 확인 되었습니다.](media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
-### <a name="blocked-url-warning"></a><span data-ttu-id="8bd7d-151">차단 된 URL 경고</span><span class="sxs-lookup"><span data-stu-id="8bd7d-151">Blocked URL warning</span></span>
+### <a name="blocked-url-warning"></a><span data-ttu-id="22434-151">차단 된 URL 경고</span><span class="sxs-lookup"><span data-stu-id="22434-151">Blocked URL warning</span></span>
 
-<span data-ttu-id="8bd7d-152">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-152">Original warning page:</span></span>
+<span data-ttu-id="22434-152">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-152">Original warning page:</span></span>
 
 ![차단 된 URL에 대 한 원래 경고 페이지](media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
 
-<span data-ttu-id="8bd7d-154">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-154">Updated warning page:</span></span>
+<span data-ttu-id="22434-154">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-154">Updated warning page:</span></span>
 
 ![이 사이트는 차단 됨](media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
-### <a name="error-occurred-warning-page"></a><span data-ttu-id="8bd7d-156">"오류 발생" 경고 페이지</span><span class="sxs-lookup"><span data-stu-id="8bd7d-156">"Error occurred" warning page</span></span>
+### <a name="error-occurred-warning-page"></a><span data-ttu-id="22434-156">"오류 발생" 경고 페이지</span><span class="sxs-lookup"><span data-stu-id="22434-156">"Error occurred" warning page</span></span>
 
-<span data-ttu-id="8bd7d-157">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-157">Original warning page:</span></span>
+<span data-ttu-id="22434-157">원래 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-157">Original warning page:</span></span>
 
 !["오류가 발생 했습니다." 경고 페이지](media/9aaa4383-2f23-48be-bdaa-8efbcb2acc70.png)
 
-<span data-ttu-id="8bd7d-159">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="8bd7d-159">Updated warning page:</span></span>
+<span data-ttu-id="22434-159">업데이트 된 경고 페이지:</span><span class="sxs-lookup"><span data-stu-id="22434-159">Updated warning page:</span></span>
 
 ![오류가 발생 했습니다.](media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
    
