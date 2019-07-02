@@ -3,8 +3,8 @@ title: 데이터 손실 방지 및 Microsoft 팀
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 04/26/2019
-ms.audience: ITPro
+ms.date: 07/01/2019
+audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -13,14 +13,17 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 712729972942d98afb5b3898ad357114ce1a6bae
-ms.sourcegitcommit: e23b84ef4eee9cccec7205826b71ddfe9aaac2f8
+ms.openlocfilehash: 3792fd6919749510ea20d4ff84b0249b16165a9f
+ms.sourcegitcommit: cc1b0281fa594cbb7c09f3e419df21aec9557831
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33367283"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417400"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
+
+> [!NOTE]
+> 데이터 손실 방지 기능은 최근 Office 365 E5 및 Office 365 고급 규정 준수의 Microsoft 팀에 추가 되었습니다. 기능 가용성에 대 한 자세한 내용은 [office 365 서비스 설명: office 365 보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)를 참조 하세요.
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
@@ -28,7 +31,10 @@ ms.locfileid: "33367283"
 
 - **예 1: 메시지의 중요 한 정보 보호** 다른 사용자가 guests (외부 사용자)를 사용 하 여 팀 채팅 이나 채널에서 중요 한 정보를 공유 하려고 한다고 가정 합니다. 이를 방지 하기 위해 DLP 정책이 정의 된 경우 외부 사용자에 게 전송 되는 중요 한 정보가 포함 된 메시지가 삭제 됩니다. 이 작업은 DLP 정책이 구성 되는 방식에 따라 자동으로 몇 초 이내에 수행 됩니다.
 
-- **예 2: 문서에서 중요 한 정보를 보호**하는 방법을 설명 합니다. 다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다. 이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다.
+    > [!NOTE]
+    > Microsoft 팀의 DLP는 팀 및 채널에서 [게스트 액세스](https://docs.microsoft.com/MicrosoftTeams/guest-access) 권한이 있는 사용자와 모임 및 채팅 세션에서 [외부 액세스](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) 권한이 있는 사용자와 공유 하는 경우 중요 한 콘텐츠를 차단 합니다. [Microsoft 팀과 비즈니스용 Skype를 함께](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)사용 하는 경우에는 팀의 DLP가 interop 또는 페더레이션 채팅 세션에서 메시지를 차단 하지 않는다는 점을 염두에 두어야 합니다.
+
+- **예 2: 문서에서 중요 한 정보를 보호**하는 방법을 설명 합니다. 다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다. 이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다. 이는 Microsoft 팀에 표시 되는 SharePoint 용 DLP의 예입니다.
 
 ## <a name="policy-tips-help-educate-users"></a>사용자를 교육 하는 데 도움이 되는 정책 팁
 
