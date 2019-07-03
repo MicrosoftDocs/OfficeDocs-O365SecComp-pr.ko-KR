@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 대량 검색 편집기를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 쿼리 및 콘텐츠 위치를 신속 하 게 변경 합니다.
-ms.openlocfilehash: d4f79cc323b752d020606e22ff72a47bc03e9ae9
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 69d2a40a28fd435873eae9b19ad2c8ad1e25d27c
+ms.sourcegitcommit: b262d40f6daf06be26e7586f37b736e09f8a4511
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152220"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35435118"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 
@@ -92,7 +92,7 @@ ms.locfileid: "34152220"
 - 텍스트 파일 또는 Excel 파일에서 여러 행을 복사한 다음 **위치** 페이지의 섹션에 붙여 넣어 하나 이상의 검색에 여러 콘텐츠 위치를 추가할 수 있습니다. 새 위치를 추가한 후에는 위치를 추가할 각 검색에 대 한 확인란을 선택 해야 합니다. 
     
     > [!TIP]
-    > 조직의 모든 사용자에 대 한 전자 메일 주소 목록을 생성 하려면 콘텐츠 검색 사용의 2 단계에서 PowerShell 명령을 실행 [하 여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step2)합니다. 또는 조직의 [모든 onedrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a) 에서 스크립트를 사용 하 여 조직의 모든 비즈니스용 onedrive 사이트 목록을 생성 합니다. 예를 https://contoso-my.sharepoint.com) 들어 스크립트를 통해 만든 비즈니스용 OneDrive 사이트의 경우에는 해당 organization's의 사이트 도메인에 대 한 URL을 추가 해야 합니다. 전자 메일 주소 또는 비즈니스용 OneDrive 사이트 목록을 만든 후 대량 검색 편집기의 **위치** 페이지에 복사 하 여 붙여 넣을 수 있습니다. 
+    > 조직의 모든 사용자에 대 한 전자 메일 주소 목록을 생성 하려면 [2 단계: 사용자 목록 생성](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md#step-2-generate-a-list-of-users)의 2 단계에서 PowerShell 명령을 실행 합니다. 또는 조직 내 [모든 사용자 Onedrive url 목록 가져오기](https://docs.microsoft.com/onedrive/list-onedrive-urls) 의 단계에 따라 조직의 모든 비즈니스용 onedrive 사이트 목록을 생성 합니다. 조직의 내 사이트 도메인에 대 한 URL (예: https://contoso-my.sharepoint.com) 스크립트에 의해 작성 된 비즈니스용 OneDrive)을 추가 해야 합니다. 전자 메일 주소 또는 비즈니스용 OneDrive 사이트 목록을 만든 후 대량 검색 편집기의 **위치** 페이지에 복사 하 여 붙여 넣을 수 있습니다. 
   
 - 대량 검색 편집기에서 **저장** 을 클릭 하 여 변경 내용을 저장 한 후에는 검색에 추가한 사서함의 전자 메일 주소에 대 한 유효성이 검사 됩니다. 전자 메일 주소가 없으면 사서함을 찾을 수 없다는 오류 메시지가 표시 됩니다. 사이트의 Url은 유효성이 검사 되지 않습니다. 
   

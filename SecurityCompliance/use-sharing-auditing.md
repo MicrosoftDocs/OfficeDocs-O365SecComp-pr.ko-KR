@@ -3,7 +3,7 @@ title: 외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 2/13/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직에서 공유가 사용 되는 방식을 확인할 수 있습니다. '
-ms.openlocfilehash: a363ebe2e8b1697521ab5f84df0b3fc221a2abcd
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e2865d35e988d8c0e42a6c51f78507db8b170d4c
+ms.sourcegitcommit: b262d40f6daf06be26e7586f37b736e09f8a4511
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157900"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35435245"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 
@@ -32,9 +32,9 @@ ms.locfileid: "34157900"
   
 공유 스키마는 감사 로그에서 공유 이벤트와 관련 된 두 가지 추가 필드를 제공 합니다. 
   
-- **Targetuserorgroupname** -리소스를 공유 하는 대상 사용자 또는 그룹의 UPN 이나 이름을 저장 합니다 (이전 예제에서는 user B). 
+- **Targetuserorgroupname** – 리소스가 공유 된 대상 사용자 또는 그룹의 UPN 이나 이름을 저장 합니다 (이전 예제에서는 user B). 
     
-- **TargetUserOrGroupType** -대상 사용자 또는 그룹이 구성원, 게스트, 그룹 또는 파트너 인지를 식별 합니다. 
+- **TargetUserOrGroupType** – 대상 사용자 또는 그룹이 구성원, 게스트, 그룹 또는 파트너 인지 여부를 식별 합니다. 
     
 이러한 두 필드는 사용자, 작업 및 날짜와 같은 Office 365 감사 로그 스키마의 다른 속성 외에, *누가 누구* 에 게 *어떤* 리소스를 공유 ** 하는지를 알려 줄 수 있습니다. ** 
   
@@ -42,7 +42,7 @@ ms.locfileid: "34157900"
 
 ## <a name="the-sharepoint-sharing-model-and-sharing-events"></a>SharePoint 공유 모델 및 공유 이벤트
 
-공유는 실제로 세 가지 개별 이벤트 인 **SharingSet**, **SharingInvitationCreated**및 **SharingInvitaitonAccepted**에 의해 정의 됩니다. 다음은 공유 이벤트가 Office 365 감사 로그에 기록 되는 방식에 대 한 워크플로입니다. 
+공유는 세 가지 별도 이벤트 인 **SharingSet**, **SharingInvitationCreated**및 **SharingInvitaitonAccepted**로 정의 됩니다. 다음은 공유 이벤트가 Office 365 감사 로그에 기록 되는 방식에 대 한 워크플로입니다. 
   
 ![공유 감사가 작동 하는 방식에 대 한 순서도](media/d83dd40f-919b-484f-bfd6-5dc8de31bff6.png)
   
@@ -73,19 +73,19 @@ ms.locfileid: "34157900"
   
 ### <a name="step-1-search-for-sharing-events-and-export-the-results-to-a-csv-file"></a>1 단계: 공유 이벤트 검색 및 결과를 CSV 파일로 내보내기
 
-첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security _AMP_ 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. Security & 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭 합니다.
     
     **감사 로그 검색** 페이지가 표시 됩니다. 
     
-4. **작업**아래에서 **공유 작업** 을 클릭 하 여 공유 이벤트만 검색 합니다. 
+4. **활동**아래에서 **공유 및 액세스 요청 활동** 을 클릭 하 여 공유 관련 이벤트를 검색 합니다. 
     
-    ![활동 아래에서 공유 작업을 선택 합니다.](media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
+    ![활동 아래에서 공유 및 액세스 요청 작업을 선택 합니다.](media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
   
 5.  날짜 및 시간 범위를 선택 하 여 해당 기간 내에 발생 한 공유 이벤트를 찾습니다. 
     
@@ -96,54 +96,24 @@ ms.locfileid: "34157900"
     내보내기 옵션을 선택한 후에는 CSV 파일을 열거나 저장 하 라는 메시지가 창 맨 아래에 표시 됩니다.
     
 8. 다른 **** \> **이름으로 저장** 저장을 클릭 하 고 로컬 컴퓨터의 폴더에 CSV 파일을 저장 합니다. 
-    
 
-  
 ### <a name="step-2-filter-the-csv-file-for-resources-shared-with-external-users"></a>2 단계: 외부 사용자와 공유 되는 리소스에 대 한 CSV 파일 필터링
 
-다음 단계는 **SharingSet** 및 **SharingInvitationCreated** 이벤트에 대 한 CSV를 필터링 하 고 **TargetUserOrGroupType** 속성이 **Guest**인 이벤트를 표시 하는 것입니다. Excel에서 파워 쿼리 기능을 사용 하 여이 작업을 수행 합니다. 다음은 Excel 2016에서 수행 하는 절차입니다. 
-  
-1. Excel 2016에서 빈 통합 문서를 엽니다.
+다음 단계는 **SharingSet** 및 **SharingInvitationCreated** 이벤트에 대 한 CSV를 필터링 하 고 **TargetUserOrGroupType** 속성이 **Guest**인 이벤트를 표시 하는 것입니다. Excel에서 파워 쿼리 편집기 도구를 사용 하 여이 작업을 수행 합니다. 단계별 지침은 [Export, configure 및 view audit log records](export-view-audit-log-records.md)를 참조 하십시오. 
+
+이전 항목의 지침에 따라 CSV 파일을 준비한 후에는 다음을 수행 합니다.
     
-2. **데이터** 탭을 클릭 합니다. 
+1. 파워 쿼리 편집기로 준비한 CSV 파일을 엽니다. 
+
+2. **홈** 탭에서 **정렬 & 필터**를 클릭 하 고 **필터**를 클릭 합니다.
     
-3. \> **CSV에서** **파일에서** **새 쿼리** \> 를 클릭 합니다.
-    
-    ![데이터 탭에서 새 쿼리를 선택 하 고 파일을 선택한 다음 CSV를 선택 합니다.](media/5170ab34-b449-40ea-bd3f-f1432c1c5973.png)
-  
-4. 1 단계에서 다운로드 한 CSV 파일을 엽니다.
-    
-    CSV 파일이 쿼리 편집기에서 열립니다. 여기에는 **Time**, **User**, **Action**및 **Detail**이라는 네 가지 열이 있습니다. **세부 정보** 열은 다중 속성 필드입니다. 다음 단계에서는 **세부** 정보 열의 각 속성에 대해 새 열을 만듭니다. 
-    
-5. **세부 정보** 열을 선택한 다음 **홈** 탭에서 **구분 기호로** **분할 열** \> 을 클릭 합니다.
-    
-    ![홈 탭에서 열 분할을 클릭 한 다음 구분 기호를 클릭 합니다.](media/aeb503e8-565b-42ea-91e2-9f127a74c00c.png)
-  
-6. **구분 기호 단위로 열 분할** 창에서 다음을 수행 합니다. 
-    
-      - **구분 기호 선택 또는 입력**에서 **쉼표**를 선택 합니다.
-    
-      - **분할**에서 **구분 기호의 각 항목**을 선택 합니다.
-    
-7. **확인**을 클릭합니다.
-    
-    **세부 정보** 열이 여러 열로 분할 됩니다. 각각의 새 열에는 Detail 이라는 이름이 지정 됩니다. **1**, **detail. 2**, **세부 정보 3**등. **자세한 내용은 Detail** 의 각 셀에 있는 값에 속성 이름을 접두사로 사용 합니다. 예 **: SharingSet**, **Operation: SharingInvitationAccepted**및 **Operation: SharingInvitationCreated**
-    
-    ![세부 정보 열은 각 속성에 하나씩 여러 열로 분할 됩니다.](media/4b104ead-0313-4bd4-b2a9-f143ccb378ac.png)
-  
-8. **파일** 탭에서 **로드 닫기를 &amp; ** 클릭 하 여 쿼리 편집기를 닫고 Excel 통합 문서에서 파일을 엽니다. 
-    
-    다음 단계는 **SharingSet** 및 **SharingInvitationCreated** 이벤트만 표시 하도록 파일을 필터링 하는 것입니다. 
-    
-9. **홈** 탭으로 이동한 다음 **작업** 열을 선택 합니다. 
-    
-10. **정렬 &amp; 필터** 드롭다운 목록에서 모든 선택을 취소 하 고 **SharingSet** 및 **SharingInvitationCreated**을 선택한 다음 **확인**을 클릭 합니다.
+3. **작업** 열의 **정렬 & 필터** 드롭다운 목록에서 모든 선택을 취소 하 고 **SharingSet** 및 **SharingInvitationCreated**을 선택한 후 **확인**을 클릭 합니다.
     
     Excel에 **SharingSet** 및 **SharingInvitationCreated** 이벤트에 대 한 행이 표시 됩니다. 
     
-11. **Detail. 17** (또는 **TargetUserOrGroupType** 속성을 포함 하는 열)로 이동 하 여 선택 합니다. 
+4. **TargetUserOrGroupType** 라는 열로 이동 하 여 선택 합니다. 
     
-12. **정렬 &amp; 필터** 드롭다운 목록에서 모든 선택을 취소 하 고 **TargetUserOrGroupType: Guest**를 선택한 다음 **확인**을 클릭 합니다.
+5. **정렬 & 필터** 드롭다운 목록에서 모든 선택을 취소 하 고 **TargetUserOrGroupType: Guest**를 선택한 다음 **확인**을 클릭 합니다.
     
     이제 외부 사용자는 **TargetUserOrGroupType: Guest**값으로 식별 되므로 **SharingInvitationCreated** 및 **SharingSet** 이벤트와 대상 사용자가 조직 외부에 있는 위치에 대 한 행이 표시 됩니다. 
     
@@ -151,7 +121,7 @@ ms.locfileid: "34157900"
   
 ![Office 365 감사 로그에서 이벤트 공유](media/0e0ecbe3-c794-4ca6-a2ca-63478fb3bb34.png)
   
-이 속성은 이전 표에는 포함 되어 있지 않지만, **자세히. 10 개** 열 또는 **ObjectId** 속성이 포함 된 모든 열에는 대상 사용자와 공유 된 리소스를 식별 합니다. 예를 `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx`들어
+**ObjectId** 속성은 이전 표에 포함 되어 있지 않지만 대상 사용자와 공유 된 리소스를 식별 합니다. 예를 `ObjectId:https:\/\/contoso-my.sharepoint.com\/personal\/sarad_contoso_com\/Documents\/Southwater Proposal.docx`들어
   
 > [!TIP]
-> 게스트 사용자에 게 실제로 리소스에 액세스 하기 위한 사용 권한이 할당 된 시간을 확인 하려면 (이러한 리소스와 공유 하는 리소스만 해당) 10, 11 및 12 단계를 반복 하 고 **SharingInvitationAccepted** 및 SharingSet의 필터를 적용 합니다. ** **10 단계의 이벤트 
+> 게스트 사용자에 게 실제로 리소스에 액세스 하기 위한 사용 권한이 할당 된 시간을 확인 하려면 (이러한 리소스와 공유 하는 리소스만 해당) 2, 3, 4 단계를 반복 하 고 **SharingInvitationAccepted** 및 **SharingSet** 의 필터를 적용 합니다. 5 단계의 이벤트 

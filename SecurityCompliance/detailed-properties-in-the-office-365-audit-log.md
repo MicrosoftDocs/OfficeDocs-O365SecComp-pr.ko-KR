@@ -16,20 +16,20 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: 8ce85ea452389b0d8239de88730acd6039cc02be
-ms.sourcegitcommit: a6968df6e47ab5733a995f1efdc6e3676c5b5d7b
+ms.openlocfilehash: 00f2eb2a9259247085973642b317ffbca8ba064a
+ms.sourcegitcommit: b262d40f6daf06be26e7586f37b736e09f8a4511
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253937"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35435158"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
 보안 & 준수 센터에서 감사 로그 검색 결과를 내보낼 때 검색 조건을 충족 하는 모든 결과를 다운로드할 수 있는 옵션이 있습니다. **감사 로그 검색** 페이지에서 **** \> **모든 결과 다운로드** 를 선택 하 여이 작업을 수행 합니다. 자세한 내용은 [Office 365에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하세요.
   
- 감사 로그 검색에 대 한 모든 결과를 내보낼 때 Office 365 통합 감사 로그의 원시 데이터는 로컬 컴퓨터로 다운로드 되는 CSV (쉼표로 구분 된 값) 파일로 복사 됩니다. 이 파일에는 **Auditdata**라는 열에 있는 각 감사 레코드의 추가 정보가 포함 됩니다. 이 열에는 감사 로그 레코드의 여러 속성에 대 한 다중 값 속성이 포함 되어 있습니다. 이 다중 값 속성의 각 **속성: 값** 쌍은 쉼표로 구분 됩니다. 
+ 감사 로그 검색에 대 한 모든 결과를 내보낼 때 Office 365 통합 감사 로그의 원시 데이터는 로컬 컴퓨터에 다운로드 되는 CSV (쉼표로 구분 된 값) 파일로 복사 됩니다. 이 파일에는 **Auditdata**라는 열에 있는 각 감사 레코드의 추가 정보가 포함 됩니다. 이 열에는 감사 로그 레코드의 여러 속성에 대 한 다중 값 속성이 포함 되어 있습니다. 이 다중 값 속성의 각 **속성: 값** 쌍은 쉼표로 구분 됩니다. 
   
-다음 표에서는 여러 속성 **Auditdata** 열에서 이벤트가 발생 하는 Office 365 서비스에 따라 포함 되는 속성에 대해 설명 합니다. 이 속성 열이 있는 **Office 365 서비스** 는 해당 속성을 포함 하는 서비스 및 작업 유형 (사용자 또는 관리자)을 나타냅니다. 이러한 속성에 대 한 자세한 내용 또는이 항목에 나열 되지 않을 수 있는 속성에 대 한 자세한 내용은 [Office 365 Management ACTIVITY API Schema](https://go.microsoft.com/fwlink/p/?LinkId=717993)를 참조 하십시오.
+다음 표에서는 다중 속성 **Auditdata** 열에서 이벤트가 발생 하는 Office 365 서비스에 따라 포함 된 속성에 대해 설명 합니다. 이 속성 열이 있는 **Office 365 서비스** 는 해당 속성을 포함 하는 서비스 및 작업 유형 (사용자 또는 관리자)을 나타냅니다. 이러한 속성에 대 한 자세한 내용 또는이 항목에 나열 되지 않을 수 있는 속성에 대 한 자세한 내용은 [Office 365 Management ACTIVITY API Schema](https://go.microsoft.com/fwlink/p/?LinkId=717993)를 참조 하십시오.
   
 > [!TIP]
 > Excel에서 파워 쿼리를 사용 하 여이 열을 여러 열로 분할 하 여 각 속성에 자체 열을 표시할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬 및 필터링 할 수 있습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [split a text 열 (Power Query)](https://support.office.com/article/5282d425-6dd0-46ca-95bf-8e0da9539662)에서 "구분 기호로 열 분할" 섹션을 참조 하십시오. 
@@ -49,7 +49,7 @@ ms.locfileid: "35253937"
 |CreationTime|사용자가 활동을 수행 했을 때 UTC (협정 세계시)로 표시 되는 날짜와 시간입니다.|모두|
 |DestinationFileExtension|복사 하거나 이동할 파일의 파일 확장명입니다. 이 속성은 FileCopied 및 FileMoved 사용자 작업에만 표시 됩니다.|SharePoint|
 |DestinationFileName|파일 이름이 복사 되거나 이동 됩니다. 이 속성은 FileCopied 및 FileMoved 작업에만 표시 됩니다.|SharePoint|
-|DestinationRelativeUrl|파일을 복사 하거나 이동할 대상 폴더의 URL입니다. **SiteURL**, **DestinationRelativeURL**및 **destinationfilename** 속성의 값을 조합 하면 **ObjectID** 속성의 값 (복사 된 파일의 전체 경로 이름)과 같습니다. 이 속성은 FileCopied 및 FileMoved 사용자 작업에만 표시 됩니다.|SharePoint|
+|DestinationRelativeUrl|파일을 복사 하거나 이동할 대상 폴더의 URL입니다. **SiteURL**, **DestinationRelativeURL**및 **destinationfilename** 속성에 대 한 값의 조합이 복사 된 파일의 전체 경로 이름인 **ObjectID** 속성의 값과 같습니다. 이 속성은 FileCopied 및 FileMoved 사용자 작업에만 표시 됩니다.|SharePoint|
 |EventSource|SharePoint에서 이벤트가 발생 한 것을 식별 합니다. 사용할 수 있는 값은 **SharePoint** 및 **objectmodel**입니다.|SharePoint|
 |ExternalAccess|Exchange 관리 활동의 경우, cmdlet이 조직의 사용자에 의해 실행 되었는지, Microsoft 데이터 센터 담당자나 데이터 센터 서비스 계정 또는 위임 된 관리자가 실행할지를 지정 합니다. 값이 **False** 이면 조직의 다른 사용자가 cmdlet을 실행 한 것입니다. **True** 값은 데이터 센터 직원, 데이터 센터 서비스 계정 또는 위임 된 관리자에 의해 cmdlet이 실행 되었음을 나타냅니다.  <br/> Exchange 사서함 활동의 경우 조직 외부의 사용자가 사서함에 액세스 했는지 여부를 지정 합니다.|Exchange|
 |ExtendedProperties|Azure Active Directory 이벤트에 대 한 확장 된 속성입니다.|Azure Active Directory|
@@ -77,7 +77,7 @@ ms.locfileid: "35253937"
 |SourceFileName|사용자가 액세스 하는 파일 또는 폴더의 이름입니다.|SharePoint|
 |SourceRelativeUrl|사용자가 액세스 한 파일이 들어 있는 폴더의 URL입니다. **SiteURL**, **SourceRelativeURL**및 **sourcefilename** 속성의 값 조합은 사용자가 액세스 하는 파일의 전체 경로 이름인 **ObjectID** 속성의 값과 같습니다.|SharePoint|
 |제목|액세스 한 메시지의 제목 줄입니다.|Exchange (사서함 활동)|
-|TabType| 팀에서 추가, 제거 또는 업데이트 된 탭의 유형입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다.  <br/><br/> **** Excel 탭  <br/> **내선** -모든 자사 및 타사 앱 (예: Planner, VSTS 및 양식)  <br/> **Notes** -OneNote 탭  <br/> **Pdfpin** -PDF 탭  <br/> **Powerbi** -Powerbi 탭  <br/> **Powerpointpin** -PowerPoint 탭  <br/> **Sharepointfiles** -SharePoint 탭  <br/> **웹 페이지** -고정 된 웹 사이트 탭  <br/> **위 키-탭** -위 키 탭  <br/> **Wordpin** -Word 탭입니다.|Microsoft Teams|
+|TabType| 팀에서 추가, 제거 또는 업데이트 된 탭의 유형입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다.  <br/><br/> Excel **pin** -excel 탭입니다.  <br/> **내선** -모든 자사 및 타사 앱 예를 들면 클래스 일정, VSTS 및 양식 등이 있습니다.  <br/> **Notes** -OneNote 탭  <br/> **Pdfpin** -PDF 탭  <br/> **Powerbi** -Powerbi 탭  <br/> **Powerpointpin** -PowerPoint 탭  <br/> **Sharepointfiles** -SharePoint 탭  <br/> **웹 페이지** -고정 된 웹 사이트 탭  <br/> **위 키-탭** -위 키 탭  <br/> **Wordpin** -Word 탭입니다.|Microsoft Teams|
 |대상|작업 ( **Operation** ) 속성에서 식별 된 작업을 수행 하는 사용자입니다. 예를 들어 게스트 사용자가 SharePoint 또는 Microsoft 팀에 추가 된 경우에는 해당 사용자가이 속성에 나열 됩니다.|Azure Active Directory|
 |TeamGuid|Microsoft 팀의 팀 ID입니다.|Microsoft Teams|
 |TeamName|Microsoft 팀의 팀 이름입니다.|Microsoft Teams|
