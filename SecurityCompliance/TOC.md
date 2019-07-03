@@ -30,7 +30,7 @@
 ### [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
 
-## [데이터 손실 방지(DLP)](data-loss-prevention-policies.md)
+## [DLP(데이터 손실 방지)](data-loss-prevention-policies.md)
 ### [DLP 및 Microsoft Teams](dlp-microsoft-teams.md)
 ### [DLP 확장된 개요 보기](https://channel9.msdn.com/events/ignite/microsoft-ignite-orlando-2017/brk3111)
 ### DLP 설정

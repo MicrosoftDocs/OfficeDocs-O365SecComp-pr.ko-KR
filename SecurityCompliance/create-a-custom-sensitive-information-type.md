@@ -1,11 +1,12 @@
 ---
-title: 사용자 지정 중요한 정보 유형 만들기
+title: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.date: 04/17/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -13,54 +14,26 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: de7bbc8ee624fe9468dc64a9811db31d529984bf
-ms.sourcegitcommit: 0017dc6a5f81c165d9dfd88be39a6bb17856582e
+ms.openlocfilehash: 55e54bf8b49ec21bb5ed4f161efc4e5924ee52fb
+ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32258322"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34077744"
 ---
-# <a name="create-a-custom-sensitive-information-type"></a>사용자 지정 중요한 정보 유형 만들기
+# <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
 
-Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용할 수 있는 많은 기본 제공 [중요한 정보 유형](what-the-sensitive-information-types-look-for.md)이 포함되어 있습니다. 이러한 기본 제공 유형은 신용 카드 번호, 은행 계좌 번호, 여권 번호 등을 식별하고 보호하는 데 도움이 될 수 있습니다. 
+## <a name="summary"></a>요약
 
-그렇지만 다른 유형의 중요한 정보(예: 조직 고유의 형식을 사용하는 직원 ID 또는 프로젝트 번호)를 식별하고 보호해야 할 경우 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
+이 문서를 읽고 보안 및 준수 센터([https://protection.office.com](https://protection.office.com))에서 [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)을 만들어 보세요. 이 방법으로 만드는 사용자 지정 중요한 정보 유형은 이름이 `Microsoft.SCCManaged.CustomRulePack`인 규칙 패키지에 추가됩니다.
 
-다음은 사용자 지정 중요한 정보 유형의 기본 구성 요소입니다.
+PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지정 중요한 정보 유형을 만들 수도 있습니다. 해당 방법에 대한 자세한 내용은 다음을 참조하세요.
+- [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
+- [정확한 데이터 매치(EDM)를 사용하여 DLP를 위한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-info-type-edm.md)
 
-- **기본 패턴**: 직원 ID 번호, 프로젝트 번호 등으로, 일반적으로 정규식(RegEx)으로 식별되지만, 해당 패턴이 키워드 목록일 수도 있습니다.
+## <a name="before-you-begin"></a>시작하기 전에...
 
-- **추가 증거**: 9자리 직원 ID 번호를 찾고 있다고 가정해 보세요. 모든 9자리 숫자가 직원 ID 번호는 아니므로 "직원", "배지", "ID"또는 추가 정규식을 기반으로 하는 기타 텍스트 패턴과 같은 키워드를 추가로 찾아볼 수 있습니다. 이 뒷받침하는 증거(_뒷받침하는_ 또는 _확증적인_ 증거라고도 함)는 콘텐츠에 있는 9자리 숫자가 실제로 직원 ID 번호일 가능성을 높입니다.
-
-- **문자 근접**: 기본 패턴과 뒷받침하는 증거가 서로 가까울수록 검색된 콘텐츠가 원하는 것일 확률이 높습니다. 다음 다이어그램과 같이 기본 패턴과 뒷받침하는 증거(_근접 범위_라고도 함) 사이의 문자 거리를 지정할 수 있습니다.
-
-    ![증거 및 근접 범위 다이어그램](media/dc68e38e-dfa1-45b8-b204-89c8ba121f96.png)
-
-- **신뢰 수준**: 가지고 있는 증거를 뒷받침할수록, 찾고 있는 중요한 정보가 일치하는 확률이 높아집니다. 더 많은 증거를 사용하여 검색된 일치 항목에 대해 높은 수준의 신뢰도를 지정할 수 있습니다.
-
-  결과가 충족되면 패턴은 해당 개수 및 신뢰도를 반환합니다. 이 결과를 DLP 정책의 조건에서 사용할 수 있습니다. 중요한 정보 유형을 검색하는 조건을 DLP 정책에 추가하면 다음 다이어그램에 표시된 것처럼 개수 및 신뢰도를 편집할 수 있습니다.
-
-    ![인스턴스 개수 및 일치 정확도 옵션](media/11d0b51e-7c3f-4cc6-96d8-b29bcdae1aeb.png)
-
-보안 및 준수 센터에서 사용자 지정 중요한 정보 유형을 만들려면 다음 옵션이 필요합니다.
-
-- **UI 사용**: 이 방법은 쉽고 빠르지만 PowerShell보다 구성 옵션이 적습니다. 이 항목의 나머지 부분에서는 이러한 절차에 대해 설명합니다.
-
-- **PowerShell 사용**: 이 방법을 사용하려면 하나 이상의 중요한 정보 유형이 포함된 XML 파일(_규칙 패키지_라고 함)을 만든 다음 PowerShell을 사용하여 규칙 패키지를 가져와야 합니다. 규칙 패키지를 가져오는 것이 규칙 패키지를 만드는 것보다 간단합니다. 이 방법은 UI를 사용하는 것보다 훨씬 복잡하지만 더 많은 구성 옵션이 있습니다. 자세한 지침은 [보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 참조하세요.
-
-다음 테이블에 중요한 차이점이 설명되어 있습니다.
-
-|**UI에서 사용자 지정 중요한 정보 유형**|**PowerShell에서 사용자 지정 중요한 정보 유형**|
-|:-----|:-----|
-|이름과 설명이 하나의 언어로 되어 있습니다.|이름 및 설명을 위한 여러 언어를 지원합니다.|
-|한 개의 패턴을 지원합니다.|여러 개의 패턴을 지원합니다.|
-|뒷받침하는 증거는 다음이 될 수 있습니다. <br/>• 정규식 <br/>• 키워드 <br/>• 키워드 사전|뒷받침하는 증거는 다음이 될 수 있습니다. <br/>• 정규식 <br/>• 키워드 <br/>• 키워드 사전 <br/>• [기본 제공 DLP 함수](what-the-dlp-functions-look-for.md)|
-|사용자 지정 중요한 정보 유형이 이름이 Microsoft.SCCManaged.CustomRulePack인 규칙 패키지에 추가됩니다.|사용자 지정 중요한 정보 유형을 포함하는 최대 10개의 규칙 패키지를 만들 수 있습니다.|
-|패턴 일치는 기본 패턴 및 모든 뒷받침하는 증거를 검색해야 합니다(암시적 AND 연산자가 사용됨).|패턴 일치는 기본 패턴 및 구성 가능한 뒷받침하는 증거의 양을 검색해야 합니다(암시적 AND 및 OR 연산자를 사용할 수 있음).|
-
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
-
-- 보안 및 준수 센터를 열려면 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)을 참조하세요.
+- 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
 
 - 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
 
