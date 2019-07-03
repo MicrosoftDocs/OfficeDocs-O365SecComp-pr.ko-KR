@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게만 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에만 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 8abb14550df526d702854e43ae1e25496bf390d4
-ms.sourcegitcommit: c603a07d24c4c764bdcf13f9354b3b4b7a76f656
+ms.openlocfilehash: 84470098cdbe1893a0e85dd52857bee428e58cbb
+ms.sourcegitcommit: b262d40f6daf06be26e7586f37b736e09f8a4511
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131400"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35435258"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -99,7 +99,7 @@ Sharepoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 사용자가 메시지의 제목, 본문, 첨부 파일, 보낸 사람 및 받는 사람, 보낸 날짜 또는 받은 날짜와 같은 사서함 항목의 특정 속성을 변경하려고 하면 변경이 커밋되기 전에 원본 항목의 복사본이 복구 가능한 항목 폴더에 저장됩니다. 이 작업은 후속 변경이 있을 때마다 진행됩니다. 보존 기간이 끝나면 복구 가능한 항목 폴더의 사본이 영구적으로 삭제됩니다.
   
-사용자가 조직을 떠나며 해당 사서함이 보존 정책에 포함된 경우 사용자의 Office 365 계정이 삭제되면 사서함은 비활성 사서함이 됩니다. 비활성 사서함의 콘텐츠는 해당 사서함이 비활성 상태가 되기 전에 지정된 보존 정책이 계속 적용되며, eDiscovery 검색에서 해당 콘텐츠를 사용할 수 있습니다. 자세한 내용은 [Exchange Online의 비활성 사서함](https://go.microsoft.com/fwlink/?linkid=846909)을 참조하세요.
+사용자가 조직을 떠나며 해당 사서함이 보존 정책에 포함된 경우 사용자의 Office 365 계정이 삭제되면 사서함은 비활성 사서함이 됩니다. 비활성 사서함의 콘텐츠는 해당 사서함이 비활성 상태가 되기 전에 지정된 보존 정책이 계속 적용되며, eDiscovery 검색에서 해당 콘텐츠를 사용할 수 있습니다. 자세한 내용은 [Exchange Online의 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요.
   
 ![전자 메일 및 공용 폴더의 보존 흐름 다이어그램](media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
   
