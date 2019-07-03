@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 정책에서 사용할 수 있는 다양 한 특성에 대 한 참조로 사용 합니다.
-ms.openlocfilehash: 896b87a3ccc696d3a8193e37237fe555d326ca52
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: 1537dae2c99555a9257bbe5c3f9754a1f975fbbe
+ms.sourcegitcommit: 8f399f260687d17a497a15bcc644187c277ea8fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394313"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35462409"
 ---
 # <a name="attributes-for-information-barrier-policies-preview"></a>정보 장벽 정책의 특성 (미리 보기)
 
@@ -35,9 +35,9 @@ Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할
 
 2. 사용자 계정에 1 단계에서 선택한 특성에 대 한 값이 입력 되어 있는지 확인 합니다. 사용자 계정 정보를 확인 하 고 필요한 경우 특성 값을 포함 하도록 사용자 계정을 편집 합니다. 
 
-    PowerShell을 사용 하 여이 작업을 수행 하려면 [Configure user account properties With Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)를 참조 하세요.
+    - 여러 계정을 편집 하거나 PowerShell을 사용 하 여 단일 계정을 편집 하려면 [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성을](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)참조 하십시오.
 
-    Azure Active Directory에서이 작업을 수행 하려면 [Azure Active directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)를 참조 하세요.
+    - 단일 계정을 편집 하려면 [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)를 참조 하세요.
 
 3. 다음 예와 같이 [PowerShell을 사용 하 여 세그먼트를 정의](information-barriers-policies.md#define-segments-using-powershell)합니다.
 
@@ -54,7 +54,7 @@ Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할
 
 다음 표에는 정보 장벽에 사용할 수 있는 특성이 나와 있습니다.
 
-|Azure Active Directory 속성 이름 (LDAP 표시 이름)  |Exchange 속성 이름  |
+|Azure Active Directory 속성 이름<br/>(LDAP 표시 이름)  |Exchange 속성 이름  |
 |---------|---------|
 |Co       | Co        |
 |Company     |Company         |
