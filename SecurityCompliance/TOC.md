@@ -103,6 +103,7 @@
 #### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
 #### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
 #### [LinkedIn 데이터를 보관할 커넥터 설정](archive-linkedin-data.md)
+#### [즉석 Bloomberg 데이터를 보관할 커넥터 설정](archive-instant-bloomberg-data.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
@@ -245,6 +246,7 @@
 #### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
 #### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
 #### [LinkedIn 데이터를 보관할 커넥터 설정](archive-linkedin-data.md)
+#### [즉석 Bloomberg 데이터를 보관할 커넥터 설정](archive-instant-bloomberg-data.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
@@ -482,6 +484,7 @@
 ## [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)
 ## [사서함 감사 관리](enable-mailbox-auditing.md)
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
+## [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md)
 ## [일반적인 시나리오 문제를 해결하기 위해 감사 로그 사용](auditing-troubleshooting-scenarios.md)
 ## [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
