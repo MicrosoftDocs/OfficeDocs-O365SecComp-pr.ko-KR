@@ -3,48 +3,6 @@
 
 
 
-## <a name="week-of-may-27-2019"></a>5 월 27 일 주 2019
-
-
-| 게시된 날짜 |항목 제목 | 변경 사항 |
-|------|------------|--------|
-| 5/28/2019 | [샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)](/Office365/SecurityCompliance/archive-twitter-data-with-sample-connector) | 수정한 날짜 |
-| 5/28/2019 | [스팸 필터 정책 구성](/Office365/SecurityCompliance/configure-your-spam-filter-policies) | 수정한 날짜 |
-| 5/28/2019 | [Office 365에서 Twitter 데이터를 보관 하기 위한 커넥터 배포](/Office365/SecurityCompliance/deploy-twitter-connector) | 수정한 날짜 |
-| 5/28/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
-| 5/28/2019 | [위협 탐색기 (및 실시간 검색)](/Office365/SecurityCompliance/threat-explorer) | 수정한 날짜 |
-| 5/29/2019 | [보안 및 준수 센터의 경고 정책](/Office365/SecurityCompliance/alert-policies) | 수정한 날짜 |
-| 5/29/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
-| 5/29/2019 | [데이터를 처리할 때 오류 수정](/Office365/SecurityCompliance/compliance20/error-remediation) | 수정한 날짜 |
-| 5/29/2019 | [조사를 위해 데이터를 처리할 때의 오류 수정](/Office365/SecurityCompliance/datainvestigations/error-remediation) | 수정한 날짜 |
-| 5/29/2019 | [Microsoft 365의 데이터 조사 개요 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/overview-data-investigations) | 수정한 날짜 |
-| 5/29/2019 | [파일 계획 관리자 개요](/Office365/SecurityCompliance/file-plan-manager) | 수정한 날짜 |
-| 5/29/2019 | [새 Microsoft 365 준수 센터 개요](/Office365/SecurityCompliance/microsoft-365-compliance-center) | 수정한 날짜 |
-| 5/29/2019 | [이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.](/Office365/SecurityCompliance/microsoft-security-and-compliance) | 수정한 날짜 |
-| 5/29/2019 | [Microsoft 365의 레코드 관리](/Office365/SecurityCompliance/records-management) | 수정한 날짜 |
-| 5/29/2019 | [보존 레이블 개요](/Office365/SecurityCompliance/labels) | 수정한 날짜 |
-| 5/30/2019 | [Office 365 ATP 안전한 첨부 파일](/Office365/SecurityCompliance/atp-safe-attachments) | 수정한 날짜 |
-| 5/30/2019 | [Office 365 ATP 안전한 링크](/Office365/SecurityCompliance/atp-safe-links) | 수정한 날짜 |
-| 5/30/2019 | [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](/Office365/SecurityCompliance/bulk-create-publish-labels-using-powershell) | 수정한 날짜 |
-| 5/30/2019 | [Office 365에서 위협 으로부터 보호](/Office365/SecurityCompliance/protect-against-threats) | 수정한 날짜 |
-| 5/31/2019 | [데이터 조사에 대 한 사용 권한 할당 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/permissions) | 수정한 날짜 |
-| 5/31/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 첨부 파일](/Office365/SecurityCompliance/atp-safe-attachments) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 링크 경고 페이지](/Office365/SecurityCompliance/atp-safe-links-warning-pages) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 링크](/Office365/SecurityCompliance/atp-safe-links) | 수정한 날짜 |
-| 5/31/2019 | [Windows Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합](/Office365/SecurityCompliance/integrate-office-365-ti-with-wdatp) | 수정한 날짜 |
-| 5/31/2019 | [이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.](/Office365/SecurityCompliance/microsoft-security-and-compliance) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 Advanced Threat Protection](/Office365/SecurityCompliance/office-365-atp) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 위협 조사 및 응답](/Office365/SecurityCompliance/office-365-ti) | 수정한 날짜 |
-| 5/31/2019 | [보안 대시보드 개요](/Office365/SecurityCompliance/security-dashboard) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정](/Office365/SecurityCompliance/set-up-a-custom-blocked-urls-list-wtih-atp) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 하 여 재작성 되지 않는 Url 목록 설정](/Office365/SecurityCompliance/set-up-a-custom-do-not-rewrite-urls-list-with-atp) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 첨부 파일 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-attachments-policies) | 수정한 날짜 |
-| 5/31/2019 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
-| 5/31/2019 | [Microsoft 365과의 SIEM 서버 통합](/Office365/SecurityCompliance/siem-server-integration) | 수정한 날짜 |
-| 5/31/2019 | [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](/Office365/SecurityCompliance/turn-on-atp-for-spo-odb-and-teams) | 수정한 날짜 |
-
-
 ## <a name="week-of-june-03-2019"></a>2019 년 6 월 03 일 주
 
 
@@ -218,3 +176,27 @@
 | 6/28/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
 | 6/28/2019 | [정보 장벽 문제 해결](/Office365/SecurityCompliance/information-barriers-troubleshooting) | 수정한 날짜 |
 | 6/28/2019 | [정보 장벽 개요](/Office365/SecurityCompliance/information-barriers) | 수정한 날짜 |
+
+
+## <a name="week-of-july-01-2019"></a>01 년 7 월 1 일 주 2019
+
+
+| 게시된 날짜 |항목 제목 | 변경 사항 |
+|------|------------|--------|
+| 7/1/2019 | [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | 수정한 날짜 |
+| 7/1/2019 | [Office 365 보안 & 준수 센터의 사용 권한](/Office365/SecurityCompliance/permissions-in-the-security-and-compliance-center) | 수정한 날짜 |
+| 7/1/2019 | [보안 & 준수 센터 PowerShell에서 사용자 지정 중요 한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | 수정한 날짜 |
+| 7/1/2019 | [데이터 손실 방지 및 Microsoft 팀](/Office365/SecurityCompliance/dlp-microsoft-teams) | 수정한 날짜 |
+| 7/2/2019 | [Office 365에서 타사 데이터 보관](/Office365/SecurityCompliance/archiving-third-party-data) | 수정한 날짜 |
+| 7/2/2019 | [Exchange Online이 전자 메일 암호를 보호하는 방법](/Office365/SecurityCompliance/exchange-online-secures-email-secrets) | 수정한 날짜 |
+| 7/2/2019 | [콘텐츠 검색을 사용 하 여 Office 365로 가져온 타사 데이터 검색](/Office365/SecurityCompliance/use-content-search-to-search-third-party-data-that-was-imported) | 수정한 날짜 |
+| 7/2/2019 | [데이터 손실 방지 및 Microsoft 팀](/Office365/SecurityCompliance/dlp-microsoft-teams) | 수정한 날짜 |
+| 7/2/2019 | [콘텐츠 검색 일괄 편집](/Office365/SecurityCompliance/bulk-edit-content-searches) | 수정한 날짜 |
+| 7/2/2019 | [Office 365 감사 로그의 자세한 속성](/Office365/SecurityCompliance/detailed-properties-in-the-office-365-audit-log) | 수정한 날짜 |
+| 7/2/2019 | [Office 365의 eDiscovery](/Office365/SecurityCompliance/ediscovery) | 수정한 날짜 |
+| 7/2/2019 | [보존 정책 개요](/Office365/SecurityCompliance/retention-policies) | 수정한 날짜 |
+| 7/2/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
+| 7/2/2019 | [콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색](/Office365/SecurityCompliance/search-the-mailbox-and-onedrive-for-business-for-a-list-of-users) | 수정한 날짜 |
+| 7/2/2019 | [외부 사용자와 공유된 리소스를 찾기 위한 감사 공유](/Office365/SecurityCompliance/use-sharing-auditing) | 수정한 날짜 |
+| 7/2/2019 | [정보 장벽 정책의 특성](/Office365/SecurityCompliance/information-barriers-attributes) | 수정한 날짜 |
+| 7/3/2019 | [보안 및 준수 센터의 경고 정책](/Office365/SecurityCompliance/alert-policies) | 수정한 날짜 |

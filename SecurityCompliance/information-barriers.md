@@ -3,7 +3,7 @@ title: 정보 장벽 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,20 +11,20 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
-ms.openlocfilehash: 9750eab3c91b40cc96e16a386dbf59ba767ae877
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: e37c97ae8a5e3777e2a30432e8289abadae8f14c
+ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394283"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35587047"
 ---
-# <a name="information-barriers-preview"></a>정보 장벽 (미리 보기)
+# <a name="information-barriers"></a>정보 장벽
 
 ## <a name="overview"></a>개요
 
 Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능이 포함 되어 있습니다. 하지만 조직에서 발생할 수 있는 충돌을 방지 하기 위해 두 그룹 간의 통신을 제한 하려는 경우를 가정해 보겠습니다. 아니면 내부 정보를 보호 하기 위해 조직 내부의 특정 사용자 간의 통신을 제한 하려는 경우도 있습니다. Microsoft 365을 사용 하면 그룹 및 조직에서 통신 및 공동 작업을 수행할 수 있으므로 필요한 경우 특정 사용자 그룹 간에 통신을 제한할 수 있는 방법이 있나요? 정보 장벽에서는 다음을 수행할 수 있습니다. 
 
-정보 장애물은 지금 미리 볼 수 있습니다 (Microsoft 팀부터 시작). 조직에서 이러한 기능을 사용할 수 있는 경우 준수 관리자 또는 정보 장벽 관리자는 Microsoft 팀의 사용자 그룹 간 통신을 허용 하거나 차단 하는 정책을 정의할 수 있습니다. 정보 장벽 정책은 다음과 같은 경우에 사용할 수 있습니다.
+Microsoft 팀부터 정보 장애물을 즉시 롤아웃할 수 있습니다. [구독](#required-licenses-and-permissions) 에 정보 장애가 포함 된 경우 규정 준수 관리자 또는 정보 장벽 관리자는 Microsoft 팀의 사용자 그룹 간 통신을 허용 하거나 차단 하는 정책을 정의할 수 있습니다. 정보 장벽 정책은 다음과 같은 경우에 사용할 수 있습니다.
 
 - 하루 상인은 마케팅 팀에서 다른 사람에 게 전화를 걸 수 없습니다.
 - 기밀 회사 정보에 대 한 작업을 수행 하는 금융 직원은 조직 내의 특정 그룹에서 전화를 받을 수 없습니다.
@@ -34,7 +34,7 @@ Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능
 이러한 모든 시나리오 (및 이상)에서 정보 장벽 정책은 Microsoft 팀의 통신을 방지 하거나 허용 하도록 정의할 수 있습니다. 이러한 정책을 사용 하면 사용자가 전화를 걸 수도 있고 채팅을 할 수 없거나, 사용자가 Microsoft 팀의 특정 그룹과 통신 하는 것을 허용 합니다. 정보 장벽 정책을 적용 하면 해당 정책에 포함 된 사용자가 Microsoft 팀의 다른 사람들과 통신을 시도할 때마다 정보 장벽 정책에 정의 된 대로 통신을 방지 하거나 허용 하기 위해 검사가 수행 됩니다. 정보 장벽에 대 한 사용자 환경에 대 한 자세한 내용은 [Microsoft 팀의 정보 장벽](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)를 참조 하세요.
 
 > [!IMPORTANT]
-> 현재 정보 장애물은 SharePoint Online 또는 OneDrive를 통한 전자 메일 통신 또는 파일 공유에는 적용 되지 않습니다. 또한 정보 장애물은 [준수 경계](set-up-compliance-boundaries.md)와는 별개입니다.<p>정보 장벽 정책을 정의 하 고 적용 하기 전에 조직에 [Exchange 주소록 정책이](https://docs.microsoft.com/en-us/exchange/address-books/address-book-policies/address-book-policies) 적용 되지 않았는지 확인 합니다.  
+> 현재 정보 장애물은 SharePoint Online 또는 OneDrive를 통한 전자 메일 통신 또는 파일 공유에는 적용 되지 않습니다. 또한 정보 장애물은 [준수 경계](set-up-compliance-boundaries.md)와는 별개입니다.<p>정보 장벽 정책을 정의 하 고 적용 하기 전에 조직에 [Exchange 주소록 정책이](https://docs.microsoft.com/en-us/exchange/address-books/address-book-policies/address-book-policies) 적용 되지 않았는지 확인 합니다. 정보 장애물은 주소록 정책에 따라 달라 집니다. 
 
 ## <a name="what-happens-with-information-barriers"></a>정보 장벽에 따라 수행 되는 작업
 
@@ -55,7 +55,7 @@ Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능
 
 ## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
 
-**현재 정보 장애물은 미리 보기에**있습니다. 일반적으로 이러한 기능을 사용할 수 있는 경우 다음과 같은 구독에 포함 됩니다.
+정보 장애물은 지금 롤아웃 되며 다음과 같은 구독에 포함 됩니다.
 
 - Microsoft 365 E5
 - Office 365 E5
@@ -83,5 +83,5 @@ Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능
 
 - [정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
 
-- [정보 장벽 정책 편집 (또는 제거) (미리 보기)](information-barriers-edit-segments-policies.md.md) 
+- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md.md) 
 

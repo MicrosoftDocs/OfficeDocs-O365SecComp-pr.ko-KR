@@ -3,7 +3,7 @@ title: 정보 장벽 문제 해결
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,16 +11,16 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
-ms.openlocfilehash: 20937fa4ee050dfa1e3bb4fcfcd582b1c78ccead
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: 251fc1775318e2ed7cbda9a56e2c82db527082f6
+ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394303"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35587057"
 ---
-# <a name="troubleshooting-information-barriers-preview"></a>정보 장벽 문제 해결 (미리 보기)
+# <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
-[정보 장벽 (미리 보기)](information-barriers.md) 을 사용 하면 조직이 법적 요구 사항 및 업계 규정을 준수 하는 데 도움이 됩니다. 예를 들어 정보 장벽에서는 특정 사용자 그룹 간의 통신을 제한 하 여 관심 있는 문제나 다른 문제가 발생 하지 않도록 할 수 있습니다. 정보 장애물을 설정 하는 방법에 대 한 자세한 내용은 [Define information for about about (Preview)](information-barriers-policies.md)을 참조 하십시오.
+[정보 장애물](information-barriers.md) 은 조직이 법적 요구 사항 및 업계 규정을 준수 하는 데 도움이 될 수 있습니다. 예를 들어 정보 장벽에서는 특정 사용자 그룹 간의 통신을 제한 하 여 관심 있는 문제나 다른 문제가 발생 하지 않도록 할 수 있습니다. 정보 장애물을 설정 하는 방법에 대 한 자세한 내용은 [정보 장벽에 대 한 정책 정의](information-barriers-policies.md)를 참조 하십시오.
 
 정보 장벽에 따라 예기치 않은 문제가 발생 하는 경우 이러한 문제를 해결 하기 위해 몇 가지 단계를 수행할 수 있습니다. 이 문서를 참조 하십시오.
 
@@ -171,9 +171,9 @@ ms.locfileid: "35394303"
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 팀의 정보 장벽에 대 한 정책 정의 (미리 보기)](information-barriers-policies.md)
+[Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
 
-[정보 장벽 (미리 보기)](information-barriers.md)
+[정보 장벽](information-barriers.md)
 
 
 

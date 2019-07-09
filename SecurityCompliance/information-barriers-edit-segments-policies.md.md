@@ -3,7 +3,7 @@ title: 정보 장벽 정책 편집
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,14 +11,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장벽에 대 한 정책을 편집 하거나 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: c3dca18ad217b89d9f9ae78b590cfb07f4631f37
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: c55ffac0984fe83fec1ef7b995d1589ea770bfef
+ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394333"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35587077"
 ---
-# <a name="edit-or-remove-information-barrier-policies-preview"></a>정보 장벽 정책 편집 (또는 제거) (미리 보기)
+# <a name="edit-or-remove-information-barrier-policies"></a>정보 장벽 정책 편집 또는 제거
 
 [정보 장벽 정책을 정의한](information-barriers-policies.md)후에는 [문제 해결](information-barriers-troubleshooting.md) 또는 일반 유지 관리의 일환으로 이러한 정책 또는 사용자 세그먼트를 변경 해야 할 수 있습니다. 이 문서를 참조 하십시오.
 
@@ -32,8 +32,8 @@ ms.locfileid: "35394333"
 |[정책을 비활성 상태로 설정](#set-a-policy-to-inactive-status)     |정책을 변경 하려는 경우 또는 정책을 적용 하지 않으려는 경우에는 정책을 비활성 상태로 설정 합니다.         |
 |[정책 제거](#remove-a-policy)     |특정 정책이 더 이상 필요 하지 않은 경우 정보 장벽 정책을 제거 합니다.         |
 |[정책 응용 프로그램 중지](#stop-a-policy-application)     |정보 장벽 정책을 적용 하는 프로세스를 중지 하려면이 작업을 수행 합니다.<br/>정책 응용 프로그램을 중지 하는 것은 즉각적이 아니며 사용자에 게 이미 적용 된 정책을 실행 취소 하지 않습니다.         |
-|[정보 장벽에 대 한 정책 정의 (미리 보기)](information-barriers-policies.md)     |해당 정책이 아직 위치에 없는 경우 정보 장벽 정책을 정의 하 고, 특정 사용자 그룹 간의 통신을 제한 하거나 제한 해야 합니다.         |
-|[정보 장벽 문제 해결 (미리 보기)](information-barriers-troubleshooting.md)     |정보 장벽에서 예기치 않은 문제가 발생 하는 경우이 문서를 참조 하세요.         |
+|[정보 장벽에 대 한 정책 정의](information-barriers-policies.md)     |해당 정책이 아직 위치에 없는 경우 정보 장벽 정책을 정의 하 고, 특정 사용자 그룹 간의 통신을 제한 하거나 제한 해야 합니다.         |
+|[정보 장벽 문제 해결](information-barriers-troubleshooting.md)     |정보 장벽에서 예기치 않은 문제가 발생 하는 경우이 문서를 참조 하세요.         |
 
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-Office 365 전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[Office 365 Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)되어 있는지 확인 합니다.
@@ -52,7 +52,7 @@ ms.locfileid: "35394333"
     |---------|---------|
     |`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>   이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>   (단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`)      |`Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw`  <p>   이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다.         |
 
-2. 사용자 계정 프로필에 대해 편집 하려는 특성을 결정 합니다. 자세한 [내용은 정보 장벽 정책 (미리 보기)에 대 한 특성](information-barriers-attributes.md) 을 참조 하십시오. 
+2. 사용자 계정 프로필에 대해 편집 하려는 특성을 결정 합니다. 자세한 [내용은 Attributes 장벽 정책의 특성](information-barriers-attributes.md) 을 참조 하세요. 
 
 3. 이전 단계에서 선택한 특성에 대 한 값을 포함 하도록 하나 이상의 사용자 계정을 편집 합니다. 이렇게 하려면 다음 절차 중 하나를 사용 합니다.
 
@@ -168,10 +168,10 @@ ms.locfileid: "35394333"
 
 [정보 장벽에 대 한 개요 보기](information-barriers.md)
 
-[정보 장벽에 대 한 정책 정의 (미리 보기)](information-barriers-policies.md)
+[정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
 
 [Microsoft 팀의 정보 장벽에 대해 자세히 알아보기](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)
 
-[정보 장벽 정책의 특성 (미리 보기)](information-barriers-attributes.md)
+[정보 장벽 정책의 특성](information-barriers-attributes.md)
 
-[정보 장벽 문제 해결 (미리 보기)](information-barriers-troubleshooting.md)
+[정보 장벽 문제 해결](information-barriers-troubleshooting.md)

@@ -3,7 +3,7 @@ title: 정보 장벽 정책의 특성
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,21 +11,21 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 정책에서 사용할 수 있는 다양 한 특성에 대 한 참조로 사용 합니다.
-ms.openlocfilehash: 1537dae2c99555a9257bbe5c3f9754a1f975fbbe
-ms.sourcegitcommit: 8f399f260687d17a497a15bcc644187c277ea8fe
+ms.openlocfilehash: 1e2e183da350308a57fa5d627b4867b9b3d30cee
+ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35462409"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35587067"
 ---
-# <a name="attributes-for-information-barrier-policies-preview"></a>정보 장벽 정책의 특성 (미리 보기)
+# <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 특성
 
 Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할 수 있습니다. 세그먼트를 정의한 후에는 이러한 세그먼트를 정보 장벽 정책의 필터로 사용할 수 있습니다. 예를 들어 **부서** 를 사용 하 여 조직 내 부서별로 사용자 세그먼트를 정의할 수 있습니다 (두 부서가 동시에 단일 직원이 작동 하지 않는다고 가정). 
 
 이 문서에서는 정보 장벽에서 특성을 사용 하는 방법에 대해 설명 하 고 사용할 수 있는 특성 목록을 제공 합니다. 정보 장벽에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.
-- [정보 장벽 (미리 보기)](information-barriers.md)
-- [Microsoft 팀의 정보 장벽에 대 한 정책 정의 (미리 보기)](information-barriers-policies.md)
-- [정보 장벽 정책 편집 (또는 제거) (미리 보기)](information-barriers-edit-segments-policies.md.md)
+- [정보 장벽](information-barriers.md)
+- [Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
+- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>정보 장벽 정책에서 특성을 사용 하는 방법
 
@@ -93,11 +93,11 @@ Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할
 
 ## <a name="related-topics"></a>관련 항목
 
-[Microsoft 팀의 정보 장벽에 대 한 정책 정의 (미리 보기)](information-barriers-policies.md)
+[Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
 
-[정보 장벽 문제 해결 (미리 보기)](information-barriers-troubleshooting.md)
+[정보 장벽 문제 해결](information-barriers-troubleshooting.md)
 
-[정보 장벽 (미리 보기)](information-barriers.md)
+[정보 장벽](information-barriers.md)
 
 
 
