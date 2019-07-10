@@ -1,8 +1,8 @@
 ---
 title: EOP 대기, 지연 및 반송 메시지 FAQ
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 11/17/2014
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 7d584d8356cfca805427c5dd41dc3dee2ee57e85
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: d62153f8240d56dd1e6781546f7ef9132c39fe3f
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150270"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599754"
 ---
 # <a name="eop-queued-deferred-and-bounced-messages-faq"></a>EOP 대기, 지연 및 반송 메시지 FAQ
 
@@ -31,7 +31,7 @@ A. 받는 사람 서버에 연결할 수 없고 받는 사람의 서버에서 �
   
  **Q. 메시지가 지연 상태로 유지되는 기간 및 다시 시도 간격은 어떻게 되나요?**
   
-A. 지연 메시지는 대기열에 2일 동안 유지됩니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 처음 몇 개의 deferrals은 15 분 이내 이며 이후 다시 시도 (앞으로 1 ~ 6 일 이상 경과 함)가 경과 하는 간격을 최대 60 분까지 증가 시킵니다. 간격 기간 확장은 동적으로 큐 크기 및 내부 메시지 우선 순위와 같은 여러 가지 변수를 고려 하 여 수행 됩니다. 기본적으로 시작 하는 데 15 분 (이 하)이 소요 되며, 다음 몇 시간 동안 간격으로 확장 하 여 최대 60 분까지 진행 합니다.
+A. 지연 상태의 메시지는 큐의 1 일 동안 유지 됩니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 처음 몇 개의 deferrals은 15 분 이내 이며 이후 다시 시도 (앞으로 1 ~ 6 일 이상 경과 함)가 경과 하는 간격을 최대 60 분까지 증가 시킵니다. 간격 기간 확장은 동적으로 큐 크기 및 내부 메시지 우선 순위와 같은 여러 가지 변수를 고려 하 여 수행 됩니다. 기본적으로 시작 하는 데 15 분 (이 하)이 소요 되며, 다음 몇 시간 동안 간격으로 확장 하 여 최대 60 분까지 진행 합니다.
   
  **Q. 전자 메일 서버가 복원된 경우 큐에 있는 메시지는 어떻게 배포되나요?**
   

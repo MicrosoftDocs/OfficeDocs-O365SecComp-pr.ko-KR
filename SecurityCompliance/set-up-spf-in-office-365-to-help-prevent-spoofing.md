@@ -2,7 +2,7 @@
 title: 스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 2/19/2018
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 Office 365의 사용자 지정 도메인과 함께 SPF (보낸 사람 정책 프레임 워크)를 사용할 수 있도록 DNS (도메인 이름 서비스) 레코드를 업데이트 하는 방법을 설명 합니다. SPF를 사용 하면 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성을 검사할 수 있습니다.
-ms.openlocfilehash: 5194a9a8a8b694bc2dbac0eaf9b50517e46a9064
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 8023f481ac998a04b6864f84c457a3f4c9608c1b
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158200"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600394"
 ---
 # <a name="set-up-spf-in-office-365-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정
 
@@ -59,13 +59,13 @@ DNS에서 TXT 레코드를 업데이트 하기 전에 몇 가지 정보를 수�
     
 ||**사용 중인 경우 ...**|**Office 365 고객에 대 한 일반적인 사항**|**추가할 추가 ...**|
 |:-----|:-----|:-----|:-----|
-|개  <br/> |모든 전자 메일 시스템 (필수)  <br/> |대개. 이 값으로 시작 하는 모든 SPF TXT 레코드  <br/> |v=spf1  <br/> |
-|2  <br/> |Exchange Online  <br/> |대개  <br/> |포함:spf.protection.outlook.com  <br/> |
-|3(sp3)  <br/> |Exchange Online 전용  <br/> |공통 아님  <br/> |ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include.  <br/> |
-|1-4  <br/> |Office 365 독일, Microsoft 클라우드 독일에만 해당  <br/> |공통 아님  <br/> |다음을 포함 합니다.  <br/> |
-|2-5  <br/> |타사 전자 메일 시스템  <br/> |공통 아님  <br/> |포함:\<도메인 이름\>  <br/> 여기서 도메인 이름은 타사 전자 메일 시스템의 도메인 이름입니다.  <br/> |
-|번  <br/> |온-프레미스 메일 시스템 예를 들어 Exchange Online Protection과 다른 메일 시스템  <br/> |공통 아님  <br/> | 각각의 추가 메일 시스템에 대해 다음 중 하나를 사용 합니다.  <br/>  ip4:\<  _IP 주소_\>  <br/>  ip6:\<  _IP 주소_\>  <br/>  포함:\<  _도메인 이름_\>  <br/>  여기서 \< _ip 주소_ \> 값은 다른 메일 시스템의 ip 주소이 고 \< 도메인 _이름은_ \> 도메인을 대신 하 여 메일을 전송 하는 다른 메일 시스템의 도메인 이름입니다.    <br/> |
-|연중  <br/> |모든 전자 메일 시스템 (필수)  <br/> |대개. 모든 SPF TXT 레코드가이 값으로 끝납니다.  <br/> |\<_적용 규칙_\>  <br/> 여러 값 중 하나일 수 있습니다. **-All**을 사용 하는 것이 좋습니다.  <br/> |
+|1   <br/> |모든 전자 메일 시스템 (필수)  <br/> |대개. 이 값으로 시작 하는 모든 SPF TXT 레코드  <br/> |v=spf1  <br/> |
+|2   <br/> |Exchange Online  <br/> |대개  <br/> |포함:spf.protection.outlook.com  <br/> |
+|3   <br/> |Exchange Online 전용  <br/> |공통 아님  <br/> |ip4:23.103.224.0/19 ip4:206.191.224.0/19 ip4:40.103.0.0/16 include.  <br/> |
+|4   <br/> |Office 365 독일, Microsoft 클라우드 독일에만 해당  <br/> |공통 아님  <br/> |다음을 포함 합니다.  <br/> |
+|5   <br/> |타사 전자 메일 시스템  <br/> |공통 아님  <br/> |포함:\<도메인 이름\>  <br/> 여기서 도메인 이름은 타사 전자 메일 시스템의 도메인 이름입니다.  <br/> |
+|6   <br/> |온-프레미스 메일 시스템 예를 들어 Exchange Online Protection과 다른 메일 시스템  <br/> |공통 아님  <br/> | 각각의 추가 메일 시스템에 대해 다음 중 하나를 사용 합니다.  <br/>  ip4:\<  _IP 주소_\>  <br/>  ip6:\<  _IP 주소_\>  <br/>  포함:\<  _도메인 이름_\>  <br/>  여기서 \< _ip 주소_ \> 값은 다른 메일 시스템의 ip 주소이 고 \< 도메인 _이름은_ \> 도메인을 대신 하 여 메일을 전송 하는 다른 메일 시스템의 도메인 이름입니다.    <br/> |
+|7   <br/> |모든 전자 메일 시스템 (필수)  <br/> |대개. 모든 SPF TXT 레코드가이 값으로 끝납니다.  <br/> |\<_적용 규칙_\>  <br/> 여러 값 중 하나일 수 있습니다. **-All**을 사용 하는 것이 좋습니다.  <br/> |
    
 1.1 예를 들어, Office 365에서 완전히 호스트 되는 경우, 즉 온-프레미스 메일 서버가 없는 경우 SPF TXT 레코드에는 1, 2, 7 행이 포함 되며 다음과 같이 표시 됩니다.
     

@@ -2,7 +2,7 @@
 title: 아웃바운드 스팸 정책 구성
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 11/10/2016
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: 517a78338f9a9e1c3611f78daf6f57e37c67f165
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: c3eb663d569e717597ff926896ed3daefb48186e
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153830"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600064"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>아웃바운드 스팸 정책 구성
 

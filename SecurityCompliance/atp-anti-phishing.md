@@ -2,7 +2,7 @@
 title: Office 365의 ATP 피싱 방지 기능
 ms.author: tracyp
 author: MSFTTracyp
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ ms.assetid: 5076d0f6-7a59-4d6c-bd07-ba95033f0682
 ms.collection:
 - M365-security-compliance
 description: ATP 피싱 방지는 Office 365 Advanced Threat Protection의 일부입니다. ATP 바이러스 방지는 상품 및 스피어 피싱 공격에 대 한 보호를 제공 하기 위해 들어오는 메시지에 대 한 가장 검색 알고리즘과 함께 기계 학습 모델 집합을 적용 합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격을 방지 하는 데 사용 되는 고급 알고리즘 집합과 함께 피싱 메시지를 검색 하기 위해 교육 된 다양 한 기계 학습 모델 집합의 영향을 받습니다.
-ms.openlocfilehash: 0c17273d935dbdaec6d78a62a4edfa015b6b8efa
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: b2ce20d64952ecf489c2ccdbd5b4cafd16b8f64f
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155550"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598624"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Office 365의 ATP 피싱 방지 기능
 

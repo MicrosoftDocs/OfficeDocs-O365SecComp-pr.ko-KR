@@ -1,8 +1,8 @@
 ---
 title: EOP 관련 일반 FAQ(질문과 대답)
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 1/2/2018
 audience: ITPro
 ms.topic: reference
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 다음은 Microsoft EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 그에 대한 대답입니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
-ms.openlocfilehash: 9960f21e13be7eee059f68a40282ed73ff934d02
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e8f10cfea19cf27fcb6c676c1eff301a87486679
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153160"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599764"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
@@ -33,9 +33,7 @@ ms.locfileid: "34153160"
     
 - [맬웨어 방지 보호 FAQ](../anti-malware-protection-faq-eop.md)
     
-- [Message Trace FAQ](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
-    
-- [FOPE to EOP Transition FAQ](http://technet.microsoft.com/library/e0e76b89-b0d3-4c0a-bfc8-137b579e983b.aspx)
+- [메시지 추적 FAQ](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
     
  **질문. EOP란 무엇입니까?**
   

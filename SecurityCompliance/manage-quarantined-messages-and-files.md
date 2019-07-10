@@ -2,7 +2,7 @@
 title: Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 ms.author: tracyp
 author: MSFTTracyp
-manager: laurawi
+manager: dansimp
 ms.date: 09/05/2018
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: '관리자는 Office 365에서 허위 격리 된 메시지를 보고, 해제 하 고, 보고할 수 있습니다. Office 365에서 메시지를 필터링 하 여 격리에 전송 하는 경우 (예: 스팸, 대량, 피싱, 맬웨어 또는 메일 흐름 규칙과 일치 하는 경우)에는 정책을 설정할 수 있습니다. '
-ms.openlocfilehash: abe9aa1a8c7d78af4d82d9a06284e12745d24dee
-ms.sourcegitcommit: dde3dc1dd419b97daa1da9827787c27935a2c757
+ms.openlocfilehash: 245068b7d3ec51cbca887883f791b19ea116731a
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115929"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598804"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 

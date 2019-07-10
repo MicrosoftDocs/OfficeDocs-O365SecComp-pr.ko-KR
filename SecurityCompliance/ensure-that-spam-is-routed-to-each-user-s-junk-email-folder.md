@@ -2,7 +2,7 @@
 title: 스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 7/16/2016
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
-ms.openlocfilehash: 390ba26167521ccea7b69e7fac21924c0b9ec7de
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: dc37f2428e009f00a2d6d9dd15d5d2cd505f267a
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153217"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599854"
 ---
 # <a name="ensure-that-spam-is-routed-to-each-users-junk-email-folder"></a>스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인
 

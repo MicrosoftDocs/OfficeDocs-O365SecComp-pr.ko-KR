@@ -2,19 +2,19 @@
 title: 큐 알림 및 큐
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
-description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드의 큐 경고 및 큐에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 149a1d82b3627037db2ab5c6e1427c79a49535bd
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드의 큐 경고 및 큐에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 9ab84c3c1840b3212e67f3a276784284c64e8d2e
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158760"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598144"
 ---
 # <a name="queue-alerts-and-queues"></a>큐 알림 및 큐
 
@@ -30,7 +30,7 @@ Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시�
 
 큐에 대기 중인 전자 메일 볼륨이 미리 정의 된 임계값을 초과 하는 경우 (기본값은 2000 메시지), 해당 경고는 **최근 경고**의 메일 흐름 대시보드에서 사용할 수 있으며 관리자는 전자 메일 알림 (대체 전자 메일 주소에 대 한)을 받게 됩니다. . 경고 임계값, 일별 알림 제한 및/또는 받는 사람을 구성 하려면 아래의 **큐 경고 사용자 지정** 섹션을 참조 하십시오.
 
-![Security & 준수 센터에서 메일 흐름 대시보드의 최근 경고 영역에 있는 큐 알림](media/5fc4a51c-6118-4270-960b-c6b176ef94ae.png)
+![보안 & 준수 센터에서 메일 흐름 대시보드의 최근 경고 영역에 있는 큐 알림](media/5fc4a51c-6118-4270-960b-c6b176ef94ae.png)
 
 ## <a name="customize-queue-alerts"></a>큐 알림 사용자 지정
 
@@ -50,7 +50,7 @@ Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시�
 
 알림을 클릭 하면 알림 세부 정보가 플라이 아웃 창에 표시 됩니다.
 
-![보안 & 준수 센터의 메일 흐름 대시보드의 최근 경고 영역에서 큐 알림 선택](media/1f6b0e96-5b2c-41ef-9684-9d813b3fabe6.png)
+![보안 & 준수 센터에서 메일 흐름 대시보드의 최근 경고 영역에 있는 큐 알림 선택](media/1f6b0e96-5b2c-41ef-9684-9d813b3fabe6.png)
 
 ![보안 & 준수 센터의 큐 알림 세부 정보 플라이 아웃](media/105c8fff-912f-4763-8806-2740ebdecd4b.png)
 
@@ -64,7 +64,7 @@ Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시�
 
 대기 중인 메시지 볼륨이 임계값을 초과 하지 않은 경우에도 메일 흐름 대시보드의 **queue (큐** ) 영역을 사용 하 여 1 시간 이상 대기 된 메시지를 볼 수 있습니다. **큐** 영역을 사용 하 여 대기 중인 메시지 수를 모니터링 하 고 (값은 메일 흐름이 양호 함을 나타냄) 대기 중인 메시지 수가 너무 커지지 않도록 조치를 취할 수 있습니다.
 
-![Security & 준수 센터의 메일 흐름 대시보드의 큐](media/0ef6e2ef-dd22-4363-9d4a-b20a00babc9f.png)
+![보안 & 준수 센터의 메일 흐름 대시보드의 큐](media/0ef6e2ef-dd22-4363-9d4a-b20a00babc9f.png)
 
 **큐**에서 대기 중인 메시지 수를 클릭 하면 문제를 해결 하는 방법에 대 한 큐 세부 정보 및 지침이 플라이 아웃 창 (큐 경고의 세부 정보에서 **큐 보기** 를 클릭 하면 표시 되는 동일한 플라이 아웃)에 표시 됩니다.
 
@@ -72,4 +72,4 @@ Office 365는 48 시간 동안 배달 다시 시도를 계속 합니다. 48 시�
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

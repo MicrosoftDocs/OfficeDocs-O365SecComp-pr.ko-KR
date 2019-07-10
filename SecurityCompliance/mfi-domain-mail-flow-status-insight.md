@@ -2,19 +2,19 @@
 title: 최상위 도메인 메일 흐름 상태 정보
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에 있는 최상위 도메인 메일 흐름 상태 정보에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: c339769c65b2b1cec3d187873e71e5f1e283ccc7
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 최상위 도메인 메일 흐름 상태에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: d6a3345a614bcde42193eb9c78d93c56637ccac7
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158650"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600841"
 ---
 # <a name="top-domain-mail-flow-status-insight"></a>최상위 도메인 메일 흐름 상태 정보
 
@@ -32,4 +32,4 @@ ms.locfileid: "34158650"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

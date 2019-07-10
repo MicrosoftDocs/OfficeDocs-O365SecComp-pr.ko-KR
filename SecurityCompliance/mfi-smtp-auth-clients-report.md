@@ -2,19 +2,19 @@
 title: SMTP 인증 클라이언트 보고서
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: fde5be59e2b8a86b2bac6fc793293d8887670746
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 21d2446bd7441f17c2371186d098118c6403de0c
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158600"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598134"
 ---
 # <a name="smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서
 
@@ -22,7 +22,7 @@ ms.locfileid: "34158600"
 
 메일 흐름 대시보드에 표시 되는 위젯은 지난 7 일 이내에 SMTP 인증 프로토콜을 사용한 사용자 또는 서비스 계정 수를 나타냅니다.
 
-![Security & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서](media/smtp-auth-clients-report-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트가 보고 됩니다.](media/smtp-auth-clients-report-selected.png)
 
 위젯을 클릭 하면 지난 주에 대 한 TLS 사용 및 볼륨의 집계 된 보기를 제공 하는 플라이 아웃이 열립니다.
 
@@ -50,4 +50,4 @@ ms.locfileid: "34158600"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

@@ -2,8 +2,8 @@
 title: Office 365에서 사용자로 격리 된 메시지 찾기 및 릴리스
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 5/19/2018
+manager: dansimp
+ms.date: 05/19/2018
 audience: Consumer/IW
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Office 365 사용자는 본인에 게 직접 전송 되는 스팸 알림에 응답 하거나 (관리자가이 기능을 설정한 경우) 보안 &amp; 규정 준수에 스팸 격리 기능을 사용 하 여 두 가지 방법 중 하나로 스팸 격리 된 메시지를 관리할 수 있습니다. 정렬.
-ms.openlocfilehash: ec4ebff4de0d1de44d7838bbf5baee46227ffe4d
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 47c17e59f6f54d973eeaf761ecee6a1ac5a3dbba
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152820"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599354"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Office 365에서 사용자로 격리 된 메시지 찾기 및 릴리스
 

@@ -2,33 +2,33 @@
 title: 자동 전달 메시지 보고서
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: b5543faa-44fa-44c5-8180-fb835e7e452d
-description: 관리자는 Office 365 Security & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 81d6235e549b6eed792d069e66c69da1d40103ff
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 Office 365 보안 & 준수 센터의 메일 흐름 대시보드에 있는 자동 전달 메시지 보고서에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 8260b2144d1973d7dca80b0021f13243dd75bcb9
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158660"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600861"
 ---
 # <a name="auto-forwarded-messages-report"></a>자동 전달 메시지 보고서
 
 메일 흐름 대시보드의 **자동 전달 메시지** 보고서에는 Office 365 조직에서 외부 도메인의 받는 사람에 게 자동으로 전달 되는 메시지에 대 한 정보가 표시 됩니다.
 
-![Office 365 Security & 준수 센터에 대 한 자동 전달 메시지 이해](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![Office 365 보안 & 준수 센터에 대 한 자동 전달 메시지 이해](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
 
-![Office 365 Security & 준수 센터의 메일 흐름 대시보드의 자동 전달 메시지 보고서](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
+![Office 365 보안 & 준수 센터의 메일 흐름 대시보드의 자동 전달 메시지 보고서](media/8bc2600b-71c3-4b37-b4d0-9435fe0cfc8d.png)
 
 ## <a name="auto-forwarded-messages-details"></a>자동 전달 메시지 세부 정보
 
 위젯의 메시지 수를 클릭 하면 자동 전달 메시지 상태를 보여주는 플라이 아웃 창이 표시 됩니다. **전달 보고서** 링크를 클릭 하 여 세부 정보를 볼 수 있습니다.
 
-![Office 365 Security & 준수 센터의 자동 전달 메시지 보고서에 대 한 세부 정보 플라이 아웃](media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
+![Office 365 보안 & 준수 센터의 자동 전달 메시지 보고서에 대 한 세부 정보 플라이 아웃](media/87d0fb1e-d2ef-4901-b17c-ec32d23a539e.png)
 
 ## <a name="insights"></a>인사이트
 
@@ -36,4 +36,4 @@ ms.locfileid: "34158660"
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

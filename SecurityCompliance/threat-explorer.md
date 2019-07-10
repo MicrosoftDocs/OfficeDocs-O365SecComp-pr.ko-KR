@@ -2,7 +2,7 @@
 title: 위협 탐색기 (및 실시간 검색)
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 06/20/2019
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (및 실시간 검색)에 대해 알아봅니다.
-ms.openlocfilehash: 3d2eab30b97655b692ed1bfe089b6a79834fd110
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: 127652ccb1c32ce84d8c80213d737b095913db40
+ms.sourcegitcommit: 5abe4c11bf3c0659180c7812dd26be9689ab01ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394353"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35605477"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 (및 실시간 검색)
 
@@ -71,6 +71,9 @@ Explorer/실시간 검색에서는 전자 메일이 있는 위치를 보다 완�
 5. 격리-전자 메일을 격리 하 고 사용자의 사서함에 있지 않습니다.
 6. Failed – 전자 메일이 사서함에 연결 하지 못했습니다.
 7. 삭제 됨-전자 메일이 메일 흐름의 어딘가에 손실 됩니다.
+
+전자 메일 시간 표시 막대는 관리자에 게 더 적합 한 사냥 환경을 구현 하기 위한 또 다른 새로운 탐색기 기능입니다. 다른 위치를 확인 하는 데 소요 되는 시간이 감소 하 여 이벤트를 이해 하기 위해 임의 시간에 대해 자세히 설명 합니다. 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 해당 이벤트가 시간 표시 막대 보기에 표시 됩니다. 실제로 메일에 대해 배달이 발생 하는 일부 이벤트는 ' 특수 동작 ' 열에 캡처됩니다. 해당 메일의 시간 표시줄에 있는 정보를 메일 발송에 대해 수행 된 특수 작업과 함께 사용 하면 관리자가 정책이 작동 하는 방식, 메일을 최종적으로 라우팅된 위치, 그리고 경우에 따라 최종 평가가 수행 된 방식을 파악할 수 있습니다.
+
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
 

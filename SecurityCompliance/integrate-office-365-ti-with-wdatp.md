@@ -2,7 +2,7 @@
 title: Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 01/22/2019
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: 2d1c88f9911a9940589cdafcc7b12980f2e61a7e
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 640c073e9ef5b32ffaa8d38a426d86b60d80d2aa
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852562"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599054"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합
 

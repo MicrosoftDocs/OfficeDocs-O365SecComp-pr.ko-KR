@@ -2,8 +2,8 @@
 title: Office 365 위협 조사 및 응답을 시작 합니다.
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 03/19/2019
+manager: dansimp
+ms.date: 07/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,16 +15,16 @@ ms.assetid: 38e9b67f-d188-490f-bc91-a1ae4b270441
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 및 시작 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9be8e33be6445dc960c12c308c56bf9afc7fdd12
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 8bd5e68abfa036d1257fb08fb1dd2b730f7de821
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852582"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599254"
 ---
-# <a name="get-started-with-threat-investigation-and-response-office-365-advanced-threat-protection-plan-2"></a>위협 조사 및 응답 시작 (Office 365 Advanced Threat Protection 계획 2)
+# <a name="get-started-with-threat-investigation-and-response-in-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에서 위협 조사 및 응답 시작
 
-조직의 보안 팀에 속해 있는 경우 Office 365 위협 조사 및 응답 기능을 사용 하 여 공격 으로부터 사용자를 보호할 수 있습니다. Office 365 Advanced Threat Protection 계획 2 (이전의 Office 365 위협 인텔리전스)에서는 보안 분석가와 관리자가 사용자에 게 정보를 버블링 하 고 Office 365 환경에서 발생 하는 작업을 식별 하는 방법을 제공 하는 방법을 제공 합니다. 이러한 정보는 위협 인텔리전스 데이터 및 시스템에 대 한 포괄적인 리포지토리를 기반으로 공격 동작과 의심 스러운 활동에 해당 하는 패턴을 강조 하는 데 사용 됩니다.
+조직의 보안 팀에 속해 있는 경우 Office 365 위협 조사 및 응답 기능을 사용 하 여 공격 으로부터 사용자를 보호할 수 있습니다. Office 365 Advanced Threat Protection 계획 2 (이전의 Office 365 위협 인텔리전스)에서는 보안 분석가와 관리자가 사용자에 게 정보를 버블링 하 고 Office 365에서 수행 하는 작업을 식별 하는 조치를 수행 하 여 안전 하 게 보호할 수 있도록 지원 합니다. 환경. 이러한 정보는 위협 인텔리전스 데이터 및 시스템에 대 한 포괄적인 리포지토리를 기반으로 공격 동작과 의심 스러운 활동에 해당 하는 패턴을 강조 하는 데 사용 됩니다.
   
 이 문서를 읽으면 위협 조사 및 대응에 대해 자세히 알아보고, 시작 하는 방법을 알아보세요.
   
@@ -32,9 +32,6 @@ ms.locfileid: "34852582"
 
 위협 조사 및 응답 기능은 Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 위협 및 관련 된 응답 작업에 대 한 정보를 제공 하는 데 도움이 됩니다. 이러한 통찰력은 조직의 보안 팀이 전자 메일 또는 파일 기반 공격 으로부터 Office 365 사용자를 보호 하는 데 도움이 될 수 있습니다. 이 기능은 신호를 모니터링 하 고 사용자 활동, 인증, 전자 메일, 손상 된 Pc 및 보안 인시던트와 같은 여러 원본의 데이터를 수집 하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 Office 365 전역 관리자, 보안 관리자 및 보안 분석가는이 정보를 사용 하 여 Office 365 사용자에 대 한 위협을 파악 하 고 대응 하 고 지적 재산을 보호할 수 있습니다.
 
-> [!IMPORTANT]
-> Office 365 위협 인텔리전스는 이제 추가 위협 방지 기능과 함께 Office 365 Advanced Threat Protection 계획 2를 제공 합니다. 자세한 내용은 [office 365 Advanced Threat protection 요금제 및 가격](https://products.office.com/exchange/advance-threat-protection) 및 [Office 365 Advanced Threat protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
-  
 ## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>위협 대시보드, 탐색기 및 인시던트 숙지
 
 보안 &amp; 및 준수 센터의 위협 조사 및 응답 기능 화면 [위협 대시보드](#threat-dashboard), [위협 탐색기](#threat-explorer), [인시던트](get-started-with-ti.md#incidents), 공격 등을 비롯 한 도구 및 응답 워크플로 집합 [ 시뮬레이터](attack-simulator.md)및 자동화 된 조사 & 응답
@@ -110,4 +107,8 @@ Office 365 위협 Invesigation 및 응답 기능은 Office 365 Advanced Threat P
     
 - [공격 시뮬레이터에 대 한 자세한 정보](attack-simulator.md)
   
+## <a name="additional-information"></a>추가 정보
 
+- [Office 365 Advanced Threat Protection 계획 및 가격 책정](https://products.office.com/exchange/advance-threat-protection) 
+
+- [Office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)

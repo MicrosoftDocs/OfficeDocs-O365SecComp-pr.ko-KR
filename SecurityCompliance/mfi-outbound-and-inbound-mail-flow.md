@@ -2,26 +2,26 @@
 title: 아웃바운드 및 인바운드 메일 흐름
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 ms.date: 8/7/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f2738dec-41b0-43c4-b814-84c0a4e45c6d
-description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 위젯에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 629599f6a71c1b871abb819ae4cdd339ffa5e56b
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 위젯에 대 한 정보를 확인할 수 있습니다.
+ms.openlocfilehash: 349fdcba3bd8dc2e8be55cf94f9c1e526a78c37c
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158730"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598044"
 ---
 # <a name="outbound-and-inbound-mail-flow"></a>아웃바운드 및 인바운드 메일 흐름
 
 **아웃 바운드 및 인바운드 메일 흐름** 위젯은 **커넥터 보고서** 와 이전의 **TLS 개요 보고서** 의 정보를 한 곳에 결합 합니다.
 
-![Security & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 보고서](media/2c591d1c-bad6-4b72-890e-f8fdfd4f447a.png)
+![보안 & 준수 센터의 메일 흐름 대시보드의 아웃 바운드 및 인바운드 메일 흐름 보고서](media/2c591d1c-bad6-4b72-890e-f8fdfd4f447a.png)
 
 위젯의 정보는 커넥터 및 Office 365의 TLS 메시지 보호와 관련이 있습니다. 자세한 내용은 다음 항목을 참조 하십시오.
 
@@ -51,4 +51,4 @@ Insights 커넥터에 대 한 잠재적 TLS 암호화 문제를 강조할 수 �
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights.md)를 참조 하십시오.

@@ -2,7 +2,7 @@
 title: Office 365 ATP 안전한 링크가 작동 하는 방식
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.date: 05/19/2019
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: eb4c9f9eea18990df190185a78b5a8c333e53659
-ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
+ms.openlocfilehash: 7570fd65a9831a6436eec8c402a2bc0c2ae09b40
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34592272"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599184"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Office 365 ATP 안전한 링크가 작동 하는 방식
          
 ## <a name="how-atp-safe-links-works-with-urls-in-email"></a>ATP 안전한 링크가 전자 메일의 Url과 함께 작동 하는 방식
 
-높은 수준에서 ATP 안전한 링크 보호는 전자 메일의 url 365 (온-프레미스 아님)에 따라 어떻게 작동 하는지 설명 합니다.
+높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 전자 메일의 url 365 (온-프레미스 아님)에 따라 어떻게 작동 하는지 설명 합니다.
   
 1. 사용자가 전자 메일 메시지를 받고, 그 중 일부는 Url을 포함 합니다.
     

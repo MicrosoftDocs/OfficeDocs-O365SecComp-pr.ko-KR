@@ -1,8 +1,8 @@
 ---
 title: Exchange Online에서 최종 사용자 스팸 알림 구성
 ms.author: tracyp
-author: MSFTTracyP
-manager: laurawi
+author: MSFTTracyp
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: 회사 전체의 기본 스팸 필터 정책 또는 도메인에 적용 되는 사용자 지정 스팸 필터 정책에 대 한 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: c56aa3d5bbc771641f9082095c930c66dc8cee96
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: ce63fae7749f716b7fdd00c72b207ba5b57a8d65
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153890"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600194"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Exchange Online에서 최종 사용자 스팸 알림 구성
 
@@ -37,9 +37,9 @@ ms.locfileid: "34153890"
 
 메시지가 스팸으로 아니면 Office 365에서 사서함으로 메시지를 보내도록 하려면 **릴리스** 를 선택 합니다.
 
-**Release &** 메시지가 스팸으로 아니면 Office 365에서 다음 전자 메일에 대 한 수신 허용-보낸 사람 및 받는 사람 목록에 보낸 사람을 추가 하도록 하려면 보낸 사람을 선택 합니다. 관리자에 게는 수신 허용-보낸 사람 목록을 다시 정의 하는 다른 조직 전체의 allow/block 구성이 있을 수 있습니다.
+**Release &** 메시지가 스팸으로 아니면 Office 365에서 다음 전자 메일에 대 한 수신 허용-보낸 사람 및 받는 사람 목록에 보낸 사람을 추가 하려는 경우 보낸 사람에 게 보낼 수 있습니다. 관리자에 게는 수신 허용-보낸 사람 목록을 다시 정의 하는 다른 조직 전체의 allow/block 구성이 있을 수 있습니다.
 
-**Release _AMP_ Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
+**Release & Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
 
 Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하려면 **차단** 합니다.
   

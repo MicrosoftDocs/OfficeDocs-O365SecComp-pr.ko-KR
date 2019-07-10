@@ -2,7 +2,7 @@
 title: Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 ms.author: tracyp
 author: MSFTTracyp
-manager: laurawi
+manager: dansimp
 ms.date: 10/11/2017
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
 description: '피싱 방지를 위해 Office 365 및 Outlook.com에는 이제 From: 주소에 대 한 RFC 준수가 필요 합니다.'
-ms.openlocfilehash: 2721b66b18016269c8e4cc3684814faa402cec58
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 39c9898a31c715487f3bc934ad0986e9a7b3679d
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154290"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599134"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 

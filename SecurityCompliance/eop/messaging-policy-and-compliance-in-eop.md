@@ -1,8 +1,8 @@
 ---
 title: EOP의 메시징 정책 및 준수
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 206e6311-f96d-4c81-8ef2-171bcad4caa5
 description: Microsoft Exchange Online Protection은 이메일 데이터를 관리하는 데 사용할 수 있는 메시징 정책 및 규정 준수 기능을 제공합니다.
-ms.openlocfilehash: fd3221117cb3113f975b4ad512cee72a36c4a307
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: f94403ae9b4f76cf1d314ce2415786bcf3b6f8e2
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153080"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599534"
 ---
 # <a name="messaging-policy-and-compliance-in-eop"></a>EOP의 메시징 정책 및 준수
 

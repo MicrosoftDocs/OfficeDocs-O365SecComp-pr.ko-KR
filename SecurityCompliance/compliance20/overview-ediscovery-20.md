@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: 44bbc871295cb6b621ed6ee286c8dcd2c1cc1716
-ms.sourcegitcommit: ecc823c2a4f1465114cf1d3a4630e31c47779ddc
+ms.openlocfilehash: 45c7a35a27fea3891270ee72b1fd528a357ad825
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35079392"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598734"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -81,7 +81,8 @@ Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 
 **검토 집합** 탭을 사용 하 여 라이브 시스템에서 수집한 콘텐츠를 검토 하 고 분석 한 후 검토 집합에 추가 했습니다. *검토 집합* 은 해당 데이터의 정적 컬렉션 (즉, 데이터의 오프 라인 복사본)은 eDiscovery 워크플로의 이전 단계에서 수집한 custodial 데이터 (해당 하는 경우에는 custodial 데이터)를 모아 놓은 것입니다. 검색 결과를 검토 집합에 추가 하면 컨테이너에서 파일을 추출 하 고 메타 데이터를 추출 하 고 텍스트를 추출 하는 프로세스가 트리거됩니다. 이 프로세스가 완료 되 면 시스템은 custodians에서 수집한 모든 데이터의 새 인덱스를 작성 하 고이를 검토 집합에 추가 합니다. 데이터를 검토 집합에 추가한 후 쿼리를 더 많이 실행 하 여 사례 데이터의 범위를 좁히거나, 데이터를 텍스트로 보거나 네이티브 파일 형식으로 표시 하 고, 검토 집합에서 문서에 주석을 달고, 교정 하 고, 태그를 지정할 수 있습니다. 문서 중복, 전자 메일 스레딩 및 테마 식별과 같은 고급 분석을 수행할 수도 있습니다. 사례와 관련 된 데이터에만 culled 후에는 문서를 직접 다운로드 하거나 파일 메타 데이터, 주석 및 모든 태그와 함께 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
- -Advanced[ediscovery에서 사례 데이터 검토](reviewing-data-in-review-set.md) -[advanced ediscovery에서 검토 집합의 데이터 분석](analyzing-data-in-review-set.md)
+- [Advanced eDiscovery에서 사례 데이터 검토](reviewing-data-in-review-set.md)
+- [고급 eDiscovery에서 검토 집합의 데이터 분석](analyzing-data-in-review-set.md)
 
 ## <a name="exporting-data-for-review-and-presentation"></a>검토 및 프레젠테이션으로 데이터 내보내기
 

@@ -2,7 +2,7 @@
 title: SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.date: 03/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 26261670-db33-4c53-b125-af0662c34607
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: a73f978ca40571e33864061cfe9538033579b3c7
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 1a9fbf54b1393f250bc259ecb2e8bb9fd36f2ae0
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408263"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598644"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 

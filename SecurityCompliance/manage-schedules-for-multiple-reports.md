@@ -2,8 +2,7 @@
 title: 보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 6/1/2018
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +12,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: 보안 &amp; 및 준수 센터에서 보고서의 일정을 보고, 편집 하 고, 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a8f230ddf9442ba0a29d5fdaeba40bc8524405b5
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 7ea5815d058e4e8d9b0cecb5d06888e695bb526d
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077594"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598814"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 

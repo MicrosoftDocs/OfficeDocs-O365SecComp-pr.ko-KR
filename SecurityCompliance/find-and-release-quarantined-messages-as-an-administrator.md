@@ -2,8 +2,8 @@
 title: 관리자로 격리된 메시지 찾기 및 릴리스
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 6/16/2017
+manager: dansimp
+ms.date: 06/16/2017
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 7ac65ae5b4225e56861dacacdd61bf5a237f7ca8
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 1f2b3733cbba3c09e1ec7ca25377ac96d5c89147
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154570"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599384"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 

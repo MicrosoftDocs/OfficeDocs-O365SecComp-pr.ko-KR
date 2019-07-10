@@ -2,7 +2,7 @@
 title: Office 365에 전송 되는 정크 메일 보내기
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: reference
@@ -14,12 +14,12 @@ ms.assetid: 5fd7d05b-96db-456f-81d6-1ac0e5bff530
 ms.collection:
 - M365-security-compliance
 description: Microsoft의 전자 메일 보안 로드맵에는 일치 하지 않는 제품 간 방법이 포함 됩니다. EOP (Exchange Online Protection) 스팸 방지 및 피싱 방지 필터링 기술은 Microsoft의 전자 메일 플랫폼에 적용 되어 사용자에 게 최신 스팸 방지 및 피싱 방지 도구와 네트워크 전체의 혁신을 제공 합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협 (피싱) 및 맬웨어로부터 사용자를 감지 하 고 보호 하는 데 도움이 되는 포괄적이 고 사용 가능한 전자 메일 서비스를 제공 하는 것입니다.
-ms.openlocfilehash: 9ef8433279137a91a52f6a149844eff9c567150c
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0a73d428e952c0c0cb340d91a52768a42ae204a1
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154520"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599394"
 ---
 # <a name="fighting-junk-email-sent-to-office-365"></a>Office 365에 전송 되는 정크 메일 보내기
 

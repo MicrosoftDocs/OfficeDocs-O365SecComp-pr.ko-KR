@@ -2,7 +2,7 @@
 title: 스푸핑 인텔리전스에 대해 자세히 알아보기
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 10/22/2018
 audience: Admin
 ms.topic: article
@@ -15,16 +15,16 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 설정 페이지의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 인텔리전스는 Advanced Threat Protection 및 Exchange Online Protection의 일부로 Office 365 Enterprise E5의 일부로 사용할 수 있습니다.
-ms.openlocfilehash: d75c2efc2314b3227c65ec31ef1e0a0d6f931c13
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 878e67cdee72d5d1f6596827be3da1dece67b947
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155940"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598954"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>스푸핑 인텔리전스에 대해 자세히 알아보기
 
-**스팸 방지 설정 페이지** 의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 지능은 Office 365 Enterprise e 5의 일부로, 각 ATP (Advanced Threat protection)의 일부로 또는 별도로 제공 되며 2018, 10 월 EOP (Exchange Online Protection)로 구분 됩니다. 
+**스팸 방지 설정 페이지** 의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 지능은 Office 365 Enterprise e 5의 일부로, 각 ATP (Advanced Threat Protection)의 일부로 또는 별도로 제공 되며 2018, 10 월 EOP (Exchange Online Protection)로 구분 됩니다. 
   
 ## <a name="what-types-of-email-spoofing-can-i-review-and-which-should-i-protect-against-with-spoof-intelligence"></a>검토할 수 있는 전자 메일 스푸핑 유형 및 스푸핑 인텔리전스를 통해 보호할 사항
 

@@ -1,8 +1,8 @@
 ---
 title: EOP 구성을 위한 모범 사례
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: c60e3d62cc758a75f85d6cb149c8e13492cad35c
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 991059b6823059b0e5eae784e21bfc0128cbd2d1
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150290"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599814"
 ---
 # <a name="best-practices-for-configuring-eop"></a>EOP 구성을 위한 모범 사례
   

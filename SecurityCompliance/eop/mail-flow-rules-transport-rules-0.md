@@ -1,21 +1,21 @@
 ---
 title: Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.date: 4/29/2017
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
+ms.date: 04/29/2017
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙 (전송 규칙)을 사용 하 여 Office 365 조직을 통해 전송 되는 메시지를 식별 하 고 작업을 수행할 수 있습니다.
-ms.openlocfilehash: a08d3ff0d976def1d104c99a9532fe5c826f0523
-ms.sourcegitcommit: 90e514177a1ee6b7485334b15c588b0ac906aa26
+ms.openlocfilehash: b64e31490c557a1a13728d5ece67294c68856cdd
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34726059"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599614"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
 

@@ -2,19 +2,19 @@
 title: 보안 및 준수 센터의 메시지 추적
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
-description: 관리자는 Security & 준수 센터의 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 0db1780057172fe1a6a6c1f7a334fbbd2220df30
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
+ms.openlocfilehash: fb173dd09adf02c1b2eb7d0dbf9d5736483f231b
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158680"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601015"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -32,7 +32,7 @@ ms.locfileid: "34158680"
 
 3. 왼쪽 아래 탐색 창에서 **관리 센터** 를 확장 하 고 **보안 & 준수**를 선택 합니다.
 
-4. **보안 _AMP_ 준수** 페이지에서 **메일 흐름**을 확장 하 고 **메시지 추적**을 선택 합니다.
+4. 열리는 **보안 & 준수** 페이지에서 **메일 흐름**을 확장 하 고 **메시지 추적**을 선택 합니다.
 
 ## <a name="message-trace-page"></a>메시지 추적 페이지
 
@@ -69,7 +69,7 @@ ms.locfileid: "34158680"
 
    그러나 **시작 날짜** 및 **끝 날짜** 값 (시간 포함)을 지정할 수 있는 **사용자 지정** 보기로 전환한 다음 날짜/시간 범위의 **표준 시간대** 를 선택할 수도 있습니다. **표준 시간대** 설정은 쿼리 입력과 쿼리 결과에 모두 적용 됩니다.
 
-   ![보안 & 준수 센터의 새 메시지 추적에 있는 사용자 지정 시간 범위](media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
+   ![보안 & 준수 센터의 새 메시지 추적에 사용자 지정 시간 범위](media/ed4c8d50-9ea5-4694-93f9-ee3ab6660b4f.png)
 
    10 일 이하인 경우 결과를 **요약** 보고서로 즉시 사용할 수 있습니다. 10 일 보다 약간 큰 시간 범위를 지정 하면 다운로드 가능한 CSV 파일 ( **고급 요약** 또는 **확장** 보고서)로만 사용할 수 있으므로 결과가 지연 됩니다.
 
@@ -183,7 +183,7 @@ ms.locfileid: "34158680"
 
 - 행의 확인란을 선택 하 고 **기타 옵션** ![기타](media/1ea52bbf-9d00-48ce-9362-307f7f6fb7fe.png) \> **메시지 보기**를 클릭 합니다.
 
-   ![요약 보고서 메시지 추적에서 행을 두 번 클릭 하면 보안 & 준수 센터의 결과에 대 한 자세한 정보](media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
+   ![요약 보고서 메시지 추적에서 행을 두 번 클릭 하면 보안 & 준수 센터의 결과가 반환 됩니다.](media/e50ee7cd-810a-4c06-8b58-e56ffd7028d1.png)
 
 메시지 추적 세부 정보에는 요약 보고서에 표시 되지 않는 다음과 같은 추가 정보가 포함 됩니다.
 

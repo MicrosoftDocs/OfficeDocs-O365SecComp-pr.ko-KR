@@ -1,8 +1,8 @@
 ---
 title: EOP에 대한 도움말 및 지원
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 4343643d7c1c69d21b45d3a46ac8ac6dba42c3d1
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: b1153149897efaeecec2f5003e7dfb10e28dc5ba
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150330"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599664"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 

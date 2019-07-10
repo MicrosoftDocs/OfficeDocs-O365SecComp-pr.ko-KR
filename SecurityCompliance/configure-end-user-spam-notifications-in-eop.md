@@ -1,8 +1,8 @@
 ---
 title: EOP에서 최종 사용자 스팸 알림 구성
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyp
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
 ms.collection:
 - M365-security-compliance
 description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: 66d5cd5fe9456c57c62a3c15710ce84d2e2d6631
-ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
+ms.openlocfilehash: 761f8660dc19f2626ecb5331370f87e0f4c3963a
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857648"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600204"
 ---
 # <a name="configure-end-user-spam-notifications-in-eop"></a>EOP에서 최종 사용자 스팸 알림 구성
   

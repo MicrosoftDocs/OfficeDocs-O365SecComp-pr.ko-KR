@@ -2,7 +2,7 @@
 title: 확인 되지 않은 보낸 사람
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 04/25/2019
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: 92458a93a4da3e449061e4d2a4ba312d635c42cc
-ms.sourcegitcommit: 7f00f765e8fa674ce1c8c66f5b89b6bea45e13ac
+ms.openlocfilehash: a69af1efb634e1805f055d49ec5515f4b4252c3b
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34341626"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600264"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -33,9 +33,9 @@ Outlook.com and Outlook에서 메시지를 보낸 사람이 식별 되지 않거
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법 
 
-Office 365 고객 인 경우 Security & 준수 센터를 통해이 기능을 관리할 수 있습니다. 
+Office 365 고객 인 경우 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다. 
 
-- Office 365 Security & 준수 센터에서 테 넌 트 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 켜거나 끌 수 있습니다. 또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다. 자세한 내용은 Office 365 및 AntiPhishPolicy의 피싱 방지 보호를 참조 하세요.
+- Office 365 보안 & 준수 센터에서 테 넌 트 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다. 자세한 내용은 Office 365 및 AntiPhishPolicy의 피싱 방지 보호를 참조 하세요.
 
     ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
@@ -59,7 +59,7 @@ Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 �
 
 ### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a>Outlook.com 및 웹용 Outlook에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?
 
-보낸 사람 이미지의 '? '에 대해: Outlook.com에서는 메시지가 SPF 또는 DKIM 인증을 통과 해야 합니다. 자세한 내용은 office 365에서 스푸핑 방지 및 dkim을 사용 하 여 사용자 지정 365 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하는 데 도움을 주는 방법에 SPF를 설정 합니다.
+보낸 사람 이미지의 '? '에 대해: Outlook.com에서는 메시지가 SPF 또는 DKIM 인증을 통과 해야 합니다. 자세한 내용은 office 365에서 [스푸핑 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 및 [Dkim을 사용 하 여 사용자 지정 365 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하](use-dkim-to-validate-outbound-email.md)는 데 도움을 주는 방법에 SPF를 설정 합니다.
 
 Via 태그의 경우: 보낸 사람 주소에 있는 도메인이 DKIM 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (DKIM 서명 우선).
 

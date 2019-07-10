@@ -2,7 +2,7 @@
 title: 사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint Online의 DLP (데이터 손실 방지)를 사용 하 여 테 넌 트 전체에서 중요 한 데이터가 포함 된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 2e76be22ce97a90b86a2ea089464f9b526ae4b70
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: a200cbd802922a694510e82bb8d394fed6bb2a32
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34078014"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599324"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 

@@ -2,8 +2,7 @@
 title: Office 365에서 피싱 방지 보호 기능 조정
 ms.author: chrisda
 author: chrisda
-manager: serdars
-ms.date: ''
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b17cdc6ec6cfc07642a6a40657009b46b83f1559
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 2f58cea6dee7681322ecfe392801d4ad2d9af2eb
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156350"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600344"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
 

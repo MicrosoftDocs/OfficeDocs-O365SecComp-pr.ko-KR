@@ -2,7 +2,7 @@
 title: Office 365의 전자 메일 메시지에 대 한 보안 팁
 ms.author: tracyp
 author: MSFTTracyP
-manager: scotv
+manager: dansimp
 ms.date: 10/6/2016
 audience: Admin
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: b5501459a56dcff322dfdfa05d019d7fb626f369
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e3edf439a24339bb13cc8c884827a6e5d95edef9
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156990"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601085"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365의 전자 메일 메시지에 대 한 보안 팁
 

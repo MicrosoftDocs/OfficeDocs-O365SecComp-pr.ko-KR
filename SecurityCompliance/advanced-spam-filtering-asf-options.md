@@ -2,8 +2,8 @@
 title: 고급 스팸 필터링 옵션
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 6/26/2015
+manager: dansimp
+ms.date: 07/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
 description: 관리자는 고급 스팸 필터링 옵션을 통해 메시지의 다양 한 콘텐츠 특성을 검사할 수 있습니다. 메시지에 이러한 특성이 있으면 메시지의 스팸 점수가 증가해 메시지가 스팸으로 식별될 가능성이 높아지거나, 메시지가 스팸으로 표시됩니다. ASP 옵션은 HTML 태그, URL 리디렉션 등 스팸 메시지에서 흔히 발견되는 특정 메시지 속성을 대상으로 합니다.
-ms.openlocfilehash: 84807b102967dc5d4a3812e97681a1c8fc7fa318
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0f1fb22a0500df5e9ff261bd60b0430dd4fad4d0
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152450"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598674"
 ---
 # <a name="advanced-spam-filtering-options"></a>고급 스팸 필터링 옵션
 
@@ -54,5 +54,5 @@ ASF 옵션은 설정/해제하거나 콘텐츠 필터 정책 편집 시에는 �
 |SPF 레코드: 영구 실패|이 설정이 사용되도록 설정되면 SPF 검사에 실패한 메시지(SPF 레코드에 지정되지 않은 IP 주소에서 보낸 메시지)는 스팸으로 표시됩니다. 피싱 메시지 수신이 우려되는 조직에서는 이 설정을 사용하는 것이 좋습니다.  <br/> <br/> 이 옵션에는 테스트 모드를 사용할 수 없습니다.  <br/> |X-CustomSpam: SPF 레코드 실패  <br/> |
 |조건부 보낸 사람 ID 필터링: 영구 실패  <br/> |이 설정을 사용하는 경우 조건부 보낸 사람 ID 검사에서 영구 실패가 발생한 메시지가 스팸으로 표시됩니다. 이 옵션은 SPF 검사와 보낸 사람 ID 검사가 결합된  형태로, 보낸 사람이 위조된 메시지 헤더를 차단합니다.  <br/> <br/> 이 옵션에는 테스트 모드를 사용할 수 없습니다.  <br/> |X-CustomSpam: SPF 원본 레코드 실패  <br/> |
 |NDR 후방 분산  <br/> |EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우이 설정을 사용 하도록 설정 하면 모든 합법적인 배달 못 함 보고서 (ndr) 메시지가 원래 보낸 사람에 게 배달 되 고 모든 후방 산란 (illegitimate NDR) 메시지가 스팸으로 표시 됩니다. 이 설정을 사용 하지 않으면 모든 Ndr이 스팸 필터링을 계속 진행 합니다. 이 경우 대부분의 합법적인 메시지는 원래 보낸 사람에 게 배달 되지만 모든 후방 산란 메시지는 스팸으로 표시 됩니다. 그러나 스팸으로 표시 되지 않은 전송 메시지는 스푸핑된 보낸 사람에 게 전송 되므로 원래 보낸 사람에 게 전달 되지 않습니다. <br/> <br/> 서비스를 사용 하 여 Exchange Online 클라우드 호스팅 사서함을 보호 하는 경우에는이 설정을 구성할 필요가 없습니다.  <br/><br/> 두 시나리오 (온-프레미스 및 클라우드 호스트 된 사서함)의 경우에는 합법적인 바운스 메시지를 받은 Ndr이 자동으로 검색 되어 원래 보낸 사람에 게 배달 되므로 서비스를 통해 전송 되는 아웃 바운드 메일에 대해이 설정을 사용 하지 않아도 됩니다. . 이 옵션에는 > 테스트 모드를 사용할 수 없습니다.           <br/><br/>팁: 후방 산란 메시지 및 EOP에 대 한 자세한 내용은 [후방 산란 메시지 및 EOP](backscatter-messages-and-eop.md)를 참조 하십시오.           |X-CustomSpam: Backscatter NDR  <br/> |
-|대량 메일|대량 전자 메일에 대 한 고급 스팸 필터링이 만료 되어 대량 및 전자 메일 임계값 설정으로 바뀌었습니다. [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 을 확인 하 고, 자세한 내용 및 설정을 구성 하는 방법에 대 한 [스팸 필터 정책을 구성](configure-your-spam-filter-policies.md) 합니다.||
+|대량 메일|대량 전자 메일에 대 한 고급 스팸 필터링이 만료 되어 대량 및 전자 메일 임계값 설정으로 바뀌었습니다. [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 을 확인 하 고, 자세한 내용 및 설정을 구성 하는 방법에 대 한 [스팸 필터 정책을 구성](configure-your-spam-filter-policies.md) 합니다.|X-CustomSpam: 대량 메일 | 대량 메일  <br/> |
 |

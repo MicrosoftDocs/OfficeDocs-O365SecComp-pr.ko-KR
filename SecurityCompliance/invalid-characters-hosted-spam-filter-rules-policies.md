@@ -2,8 +2,8 @@
 title: 스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 9/24/2018
+manager: dansimp
+ms.date: 09/24/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 구성에 잘못 된 문자가 있는 관리자가 보안 &amp; 및 준수 센터를 사용 하려고 할 때 문제를 해결 하는 데 도움이 되는 정보를 제공 합니다.
-ms.openlocfilehash: 0e7dcb40d8e54045caa55083e2cbf0585a80869d
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: c5ac6a262c80bc54a970dbef43684755e6d61e6a
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154167"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598964"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지 
 

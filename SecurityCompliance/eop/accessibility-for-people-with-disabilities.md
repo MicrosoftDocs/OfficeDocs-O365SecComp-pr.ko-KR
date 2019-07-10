@@ -1,8 +1,8 @@
 ---
 title: 장애가 있는 사용자를 위한 내게 필요한 옵션
-ms.author: scotv
-author: scotvidican
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 12/15/2016
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: Ent_O365_Hybrid
 ms.assetid: a7203ebd-ffac-4a8d-a2d0-6c8a61c8eeb8
 description: Microsoft에서는 모든 사용자가 더 쉽게 사용할 수 있는 제품 및 서비스를 만들기 위해 노력하고 있습니다.
-ms.openlocfilehash: 8cf86f2ce4aa176baa0a151edea93a247a2113c7
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: fbde1f4bf089557ce879bd5ef4eca1d8bfae463c
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154710"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599844"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a>장애인을 위한 내게 필요한 옵션
 

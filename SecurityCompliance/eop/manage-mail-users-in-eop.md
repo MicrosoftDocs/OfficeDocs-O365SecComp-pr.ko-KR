@@ -1,8 +1,8 @@
 ---
 title: EOP에서 메일 사용자 관리
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 769ab13f99d7faae42bbdbed5b2b95bd37cfd55e
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 520ca0fb48a131026d9a46138605892203bf6e93
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34150240"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599604"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -47,7 +47,7 @@ ms.locfileid: "34150240"
 > 디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory의 받는 사람만 클라우드로 동기화 하기 때문입니다. 
   
 > [!TIP]
->  _GT_ **Outlook 수신 허용-보낸 사람 및 수신 거부 목록** -서비스와 동기화 된 경우이 목록에는 서비스의 스팸 필터링 보다 우선 순위가 더 높은 디렉터리 동기화 기능을 사용 하는 것이 좋습니다. 이를 통해 사용자는 사용자 또는 도메인 기준으로 수신 허용 및 수신 거부 보낸 사람 목록을 자체적으로 관리할 수 있습니다. > **Dbeb (디렉터리 기반 Edge 차단)** -dbeb에 대 한 자세한 내용은 [Use Directory Based Edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)합니다 .를 참조 하세요. > **최종 사용자 스팸 격리** -최종 사용자 스팸 격리에 액세스 하기 위해 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다. > **메일 흐름 규칙** -디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고 특정 사용자를 대상으로 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. EAC 또는 Exchange Online Protection PowerShell을 통해 그룹을 수동으로 추가 하지 않아도 됩니다. [동적 메일 그룹](https://go.microsoft.com/fwlink/?LinkId=507569) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다. 
+>  **Outlook 수신 허용-보낸 사람 및 수신 거부 목록** 에 > 서비스와 동기화 될 때 디렉터리 동기화를 사용 하는 것이 권장 되며, 이러한 목록은 서비스의 스팸 필터링 보다 우선 합니다. 이를 통해 사용자는 사용자 또는 도메인 기준으로 수신 허용 및 수신 거부 보낸 사람 목록을 자체적으로 관리할 수 있습니다. > **Dbeb (디렉터리 기반 Edge 차단)** -dbeb에 대 한 자세한 내용은 [Use Directory Based Edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)합니다 .를 참조 하세요. > **최종 사용자 스팸 격리** -최종 사용자 스팸 격리에 액세스 하기 위해 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다. > **메일 흐름 규칙** -디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고 특정 사용자를 대상으로 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. EAC 또는 Exchange Online Protection PowerShell을 통해 그룹을 수동으로 추가 하지 않아도 됩니다. [동적 메일 그룹](https://go.microsoft.com/fwlink/?LinkId=507569) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다. 
   
  **시작하기 전에**
   

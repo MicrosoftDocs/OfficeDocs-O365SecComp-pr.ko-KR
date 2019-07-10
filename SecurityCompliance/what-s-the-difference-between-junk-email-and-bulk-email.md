@@ -2,7 +2,7 @@
 title: 정크 메일과 대량 전자 메일의 차이점
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 1/7/2015
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: 고객의 경우에 따라 정크 메일과 대량 전자 메일 메시지의 차이점은 무엇 인가요? 이 항목의 목적은 차이점을 설명 하 고 Exchange Online 및 Exchange Online Protection (EOP)에서 모두 사용할 수 있는 다양 한 옵션에 대 한 정보를 제공 하기 위한 것입니다.
-ms.openlocfilehash: f0e80b460af2ff5b51f5380063780ee653e00b3d
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: ee684fb079b11fd345eae6e2c8f5980fcbca5cb0
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155990"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598294"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>정크 메일과 대량 전자 메일의 차이점
 

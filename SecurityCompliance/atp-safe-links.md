@@ -2,7 +2,7 @@
 title: Office 365 ATP 안전한 링크
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.date: 05/17/2019
 ms.topic: overview
@@ -22,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 합니다.
-ms.openlocfilehash: 4f1449fb97ad8d8f263073c917eed2c399bf4f22
-ms.sourcegitcommit: ff1d18aaddde2048f1cf88338c916295cf8c354e
+ms.openlocfilehash: 34d1ebbc5e0434de55f9e5f74a000bc8978e603e
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748581"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598544"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 

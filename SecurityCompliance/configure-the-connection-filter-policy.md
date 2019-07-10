@@ -2,7 +2,7 @@
 title: 연결 필터 정책 구성
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 10/24/2018
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만듭니다. 수신 거부 목록도 만들 수 있습니다.
-ms.openlocfilehash: 5d19898b6baf01c7348b434f3caced202507c4d8
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 8589f7d714199414e7c5177ff227859da50e3e06
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151300"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600094"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
  
@@ -60,7 +60,7 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
     Nnn은 0에서 255 사이의 숫자로 IPV4 IP 주소를 지정 합니다. nnn 또한 a r t. nnn/rr 형식으로 클래스 간 라우팅 (CIDR) 범위를 지정할 수 있습니다 (여기서 rr은 24에서 32 사이의 숫자). 24 ~ 32 범위를 벗어나는 범위를 지정 하려면 [IP 허용 목록을 구성할 때 추가 고려 사항을](configure-the-connection-filter-policy.md#bkmk_addtionalconsiderationswhenconfiguringipallowlists)참조 하십시오. 
 
-    최대 1273 개의 항목을 지정할 수 있는데,이 항목은 단일 IP 주소 이거나 IP 주소의 CIDR 범위/24 ~/32입니다. > TLS 암호화 메시지를 보내는 경우 IPv6 주소 및 주소 범위는 지원 되지 않습니다. 
+    최대 1273 개의 항목을 지정할 수 있는데,이 항목은 단일 IP 주소 이거나 IP 주소의 CIDR 범위/24 ~/32입니다. > TLS 암호화 된 메시지를 보내는 경우 IPv6 주소 및 주소 범위는 지원 되지 않습니다. 
   
 3. 원하는 경우 수신 허용 **목록 사용** 확인란을 선택 하 여 잘 알려진 특정 보낸 사람의 전자 메일이 손실 되지 않도록 합니다. 미치는? Microsoft는 신뢰할 수 있는 보낸 사람에 대 한 타사 소스를 구독 합니다. 이 수신 허용 목록을 사용 하는 것은 해당 신뢰할 수 있는 보낸 사람이 실수로 스팸으로 표시 되지 않았음을 의미 합니다. 이 옵션을 선택 하는 것이 좋습니다 (스팸으로 분류 되는 가짜 메일) 수를 줄여야 하기 때문입니다. 
     

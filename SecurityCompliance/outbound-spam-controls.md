@@ -2,7 +2,7 @@
 title: Office 365에서 아웃바운드 스팸 제어
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,19 +14,19 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: 조직에서 스팸으로 표시 된 대량의 대량 메일을 보내는 경우 Office 365을 사용 하 여 전자 메일을 보내지 못하도록 차단할 수 있습니다. 이 문서를 읽으면 이러한 상황이 일어나는 이유와 해당 작업에 대해 수행할 수 있는 작업에 대해 자세히 알아보세요.
-ms.openlocfilehash: 742006374b76156ffc2ffe6b158ef5e0ac890ebe
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 09aa71cd8b273a3235bc2673d3d17c3decf71da5
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157600"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601135"
 ---
 # <a name="controlling-outbound-spam-in-office-365"></a>Office 365에서 아웃바운드 스팸 제어
 
 우리는 공유 서비스 이기 때문에 아웃 바운드 스팸을 심각 하 게 관리 합니다.  공유 리소스 풀에는 많은 고객이 아웃 바운드 스팸을 전송 하는 경우 서비스의 아웃 바운드 IP 신뢰도를 저하 시키고 다른 고객을 위한 전자 메일의 성공적인 배달 능력에 영향을 줄 수 있습니다.
 
 > [!IMPORTANT]
-> 보낸 사람이 제한 되는 시기에 대 한 알림은 이제 SCC (Security & 준수 센터) 경고 플랫폼에 속합니다. 아래에 설명 된 방법을 사용 하 여 알림을 보내는 대신 "전자 메일을 보내는 사용자가 제한 되었습니다." 알림과 함께 알릴 사용자 목록을 찾을 수 있습니다. 이전 방법이 나중에 제거 되기 때문에 Security & 준수 센터의 [경고 정책 페이지](https://sip.protection.office.com/alertpolicies) 를 사용 하 여 경고를 구성 하십시오. 새로운 [제한 된 사용자 환경](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)에 대 한 정보를 확인 하세요. "
+> 보낸 사람이 제한 되는 시기에 대 한 알림은 이제 SCC (보안 & 준수 센터) 경고 플랫폼에 속합니다. 아래에 설명 된 방법을 사용 하 여 알림을 보내는 대신 "전자 메일을 보내는 사용자가 제한 되었습니다." 알림과 함께 알릴 사용자 목록을 찾을 수 있습니다. 이전 방법이 나중에 제거 되기 때문에 Security & 준수 센터의 [경고 정책 페이지](https://sip.protection.office.com/alertpolicies) 를 사용 하 여 경고를 구성 하십시오. 새로운 [제한 된 사용자 환경](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)에 대 한 정보를 확인 하세요. "
 
 ## <a name="what-admins-can-do-to-control-outbound-spam"></a>아웃 바운드 스팸 제어를 위해 관리자가 수행할 수 있는 작업
 

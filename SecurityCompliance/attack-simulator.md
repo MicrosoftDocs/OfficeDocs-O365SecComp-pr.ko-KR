@@ -2,7 +2,7 @@
 title: Office 365의 공격 시뮬레이터
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 06/13/2019
 audience: ITPro
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Office 365 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
-ms.openlocfilehash: 938a8f944fee22fb16b87923d7608b3bfcfee0fb
-ms.sourcegitcommit: 62447503300376aa95dd05fb5276f93a9f6a20b6
+ms.openlocfilehash: bb8088a1e05c191d686634dd4ce7c44cdc61275e
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34927571"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598534"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 

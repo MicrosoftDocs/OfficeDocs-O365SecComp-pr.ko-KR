@@ -2,7 +2,7 @@
 title: Office 365에서 수신 거부 목록 만들기
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 5/6/2019
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: 보낸 사람 목록 옵션에는 Outlook 수신 거부, 스팸 방지 보낸 사람/도메인 차단 목록, IP 차단 목록 및 ETRs (Exchange 전송 규칙)가 메일 흐름 규칙이 라고도 합니다.
-ms.openlocfilehash: 9933cb79b7dce949384815a7b2ed8a9ac8a7824b
-ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
+ms.openlocfilehash: 861fa0e47980a6bc295672cf1e8e35954c6f1dfb
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017690"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599994"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Office 365에서 수신 거부 목록 만들기
 
@@ -48,6 +48,8 @@ ms.locfileid: "35017690"
 ## <a name="use-anti-spam-policy-senderdomain-block-lists"></a>스팸 방지 정책 보낸 사람/도메인 차단 목록 사용
 
 여러 사용자에 게 영향을 주는 경우 범위가 더 넓고 회사 전체의 보낸 사람/도메인 차단 목록 스팸 방지 정책을 사용 해야 합니다. 자세한 단계는 [스팸 필터 정책 문서 구성](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) 에서 찾을 수 있습니다. 이 방법을 통해 차단 된 모든 메시지는 정책에 구성 된 대로 스팸 작업을 따릅니다.
+
+이러한 목록의 최대 제한은 약 1000 엔트리입니다.
 
 ## <a name="use-exchange-transport-rules-etrs-to-block-specific-senders"></a>ETRs (Exchange 전송 규칙)를 사용 하 여 특정 보낸 사람 차단
 

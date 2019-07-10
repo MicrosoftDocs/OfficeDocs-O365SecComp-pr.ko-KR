@@ -2,8 +2,8 @@
 title: Microsoft Outlook 용 추가 기능에 보고 하는 정크 메일
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 1/14/2016
+manager: dansimp
+ms.date: 01/14/2016
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +12,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Microsoft Outlook용 정크 메일 보고 추가 기능을 통해 Exchange Online 및 Exchange Online Protection 사용자는 분석을 위해 Microsoft에 정크(스팸) 메일을 간편하게 보고함으로써 서비스에 의해 필터링되는 향후 정크 메일 메시지의 개수 및 이 정크 메일 메시지가 미치는 영향을 줄일 수 있습니다. Windows 7, Windows 8 또는 Windows 10에서 Microsoft Outlook 2007, Outlook 2010 또는 Outlook 2013과 호환되는 보고 추가 기능은 다음과 같은 이점을 제공합니다.
-ms.openlocfilehash: 2304aa96d90629b95348ad59e8a6b45ad5ab1eae
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: f92f4308b14d8512eeef534124e4d5dde518c603
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152550"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598944"
 ---
 # <a name="junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook 용 추가 기능에 보고 하는 정크 메일
 

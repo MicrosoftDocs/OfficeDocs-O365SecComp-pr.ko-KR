@@ -2,7 +2,7 @@
 title: 배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 03/19/2019
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: febcf6704b1ba9dc23bf4e698715fb4b929b998b
-ms.sourcegitcommit: d3b2bffa8af5f19d97fe9771068c80705b890e85
+ms.openlocfilehash: d96083f0f48136b1c789fa83f9e9069d0dfccf4d
+ms.sourcegitcommit: 5abe4c11bf3c0659180c7812dd26be9689ab01ca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414808"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35605453"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-office-365-advanced-threat-protection-plan-2"></a>배달 된 악성 전자 메일 찾기 및 조사 (Office 365 Advanced Threat Protection 요금제 2)
 
@@ -78,10 +78,21 @@ ms.locfileid: "35414808"
 1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 Office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다. 
     
 2. 왼쪽 탐색 영역에서 **Threat management** \> **Explorer**를 선택 합니다.
-<!--Comment>
-![Threat Explorer with Delivery Action and Delivery Location fields.](media/ThreatExFields.PNG)
 
-    
+
+![배달 작업 및 배달 위치 필드가 있는 위협 탐색기](media/ThreatExFields.PNG)
+
+이 그래픽에는 새로운 ' 특수 작업 ' 열이 표시 될 수 있습니다. 이 기능은 관리자에 게 전자 메일 처리 결과를 알려 주는 것을 목표로 합니다. 위협 탐색기의 *전자 메일 시간 표시 막대*끝에서 특수 작업을 업데이트할 수 있으며,이는 관리자에 게 더 적합 한 사냥 환경을 구현 하기 위한 새로운 기능입니다.
+
+전자 메일이 도착 한 이후 발생 한 이벤트를 이해 하기 위해 다른 위치를 확인 하는 데 소요 되는 시간이 더 낮기 때문에 전자 메일 시간 표시 막대는 임의 변경에 따라 하향 합니다 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 해당 이벤트가 시간 표시 막대 보기에 표시 됩니다. 메일에 대 한 배달이 후 발생 하는 일부 이벤트는 ' 특수 작업 ' 열에 캡처됩니다. 해당 메일의 *전자 메일 일정* 의 정보를 메일 발송에 대해 수행 된 *특수 작업과* 함께 사용 하면 관리자에 게 정책이 작동 하는 방식, 메일을 최종적으로 라우팅된 위치 및 경우에 따라 최종 평가는입니다. 특수 작업 열은 배달 작업 및 배달 위치와 같은 위치에서 액세스할 수 있지만 전자 메일 일정을 보려면 다음과 같이 합니다.
+
+1. 전자 메일의 제목을 클릭 합니다.
+2. 패널이 나타나면 *전자 메일 시간 표시 막대*를 클릭 합니다. ' 요약 ' 또는 ' 세부 정보 ', et cetera와 같은 패널의 다른 제목 사이에 표시 됩니다.
+
+전자 메일 시간 표시 막대를 연 후에는 해당 메일에 대 한 배달 후 이벤트를 알려 주는 테이블이 표시 되거나, 전자 메일에 대 한 추가 이벤트가 없는 경우 원래 배달에 대해 *차단* 된 것과 같은 결과를 나타내는 단일 이벤트가 표시 됩니다. 결과 like *피싱*을 사용 합니다. 또한이 탭에는 전체 전자 메일 시간 표시 막대를 내보낼 수 있는 옵션도 있으며,이를 통해 탭의 모든 세부 정보와 전자 메일에 대 한 세부 정보 (제목, 보낸 사람, 받는 사람, 네트워크 및 메시지 ID 등)가 모두 내보냅니다.
+
+
+<!--Comment>    
 3. In the View menu, choose **All email**.<br/>![Use the View menu to choose between Email and Content reports](media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
   
 4. Notice the labels that appear in the report, such as **Delivered**, **Unknown**, or **Delivered to junk**.<br/>![Threat Explorer showing data for all email](media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)<br/>(Depending on the actions that were taken on email messages for your organization, you might see additional labels, such as **Blocked** or **Replaced**.)

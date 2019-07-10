@@ -2,19 +2,19 @@
 title: 보낸 사람 도메인 정보 문제 해결
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
-description: 관리자는 Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 181f224064b5f31fd17c348cc4547826fbcd29a9
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 89c94616d612fa02c067e0bc2a89f5a3be704ed5
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158710"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598064"
 ---
 # <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 정보 문제 해결
 
@@ -34,7 +34,7 @@ Office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프�
 
 **Fix sender domain** 통찰력은 온-프레미스 환경에서 조건을 충족 하지 않는 전자 메일을 표시 하 고, 온-프레미스 전자 메일 환경에서 잠재적으로 손상 된 컴퓨터와 사용자 계정을 식별 하 고, 작업을 수행 하는 데 도움이 됩니다. 수정 작업
 
-![Security & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인 통찰력 수정](media/sender-domain-insight-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인 통찰력 수정](media/sender-domain-insight-selected.png)
 
 **자세히 보기**를 클릭 하면 다음 다이어그램에 나와 있는 것과 같이 다른 widget이 표시 됩니다.
 
@@ -46,4 +46,4 @@ Office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프�
 
 ## <a name="see-also"></a>참고 항목
 
-메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security _AMP_ 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.
+메일 흐름 대시보드의 다른 메일 흐름 정보에 대 한 자세한 내용은 [Security & 준수 센터의 메일 흐름 정보](mail-flow-insights-v2.md)를 참조 하십시오.

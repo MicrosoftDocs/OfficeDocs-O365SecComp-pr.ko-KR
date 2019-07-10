@@ -2,7 +2,7 @@
 title: 보고서 메시지 추가 기능을 사용하도록 설정
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 03/26/2019
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: d74772502f5ffd7e274574075604c2fc0c235f30
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 2c1fe3afd52afed17327a4ad2a5a493721b541fd
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077954"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599974"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 

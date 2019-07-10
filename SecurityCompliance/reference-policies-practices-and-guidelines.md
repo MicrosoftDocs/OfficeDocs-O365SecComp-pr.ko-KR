@@ -2,8 +2,8 @@
 title: 참조 정책, 사례 및 지침
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
-ms.date: 12/9/2016
+manager: dansimp
+ms.date: 12/09/2016
 audience: ITPro
 ms.topic: reference
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: 78b78f58ea2d96775361fe1761221e6c6e993688
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 4a9c38822c4d0f3e06e209acf021618864540c83
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156850"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601186"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
   

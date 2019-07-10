@@ -2,7 +2,7 @@
 title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 05/21/2019
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 1dc009260e80c2aca1c5107d1c5f116ec63dd94f
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 17a8114ec1d4af9a665c235e38461f281f4fe83f
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408413"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598554"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 

@@ -2,7 +2,7 @@
 title: Office 365 ATP 안전 첨부 파일의 작동 방식
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.date: 05/17/2019
 ms.topic: overview
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 클릭 하 여 확인할 시간을 제공 합니다. 안전한 첨부 파일을 사용 하 여 사용자가 전자 메일로 보내거나 받는 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 99d31e327343971f6a7630e2a43ffd3044fbf976
-ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
+ms.openlocfilehash: f0f117388957a14e3765b963a0e390ffb8fd7943
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34592271"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599174"
 ---
 # <a name="how-ffice-365-atp-safe-attachments-works"></a>Ffice> 365 ATP에서 안전한 첨부 파일의 작동 방식
 

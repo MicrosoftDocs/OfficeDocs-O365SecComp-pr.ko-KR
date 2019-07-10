@@ -2,7 +2,7 @@
 title: 사서함 감사 관리
 ms.author: chrisda
 author: chrisda
-manager: serdars
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Microsoft 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: f100fa1eb8244aeaea463440025ee489ec019406
-ms.sourcegitcommit: ef2657e4221296be7032191f2d91e8ff727523c6
+ms.openlocfilehash: 7b50885379b7843ea1c602f08dc2976d5007d8ca
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35117693"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599924"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 

@@ -1,8 +1,8 @@
 ---
 title: 위임된 관리 FAQ
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: 이 항목에서는 다른 테넌트(회사)에 대한 EOP(Exchange Online Protection)를 관리하는 능력을 비롯하여 위임 받은 Office 365 관리 작업을 수행하려는 Microsoft 파트너 및 리셀러를 위한 질문과 답변이 제공됩니다.
-ms.openlocfilehash: 15433a9ac0bb8b165dd8ee97767fca4a3e29f01a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 8d28c8b6e0e85e9cfbe71e5b4b787159cc88ce08
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153230"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599804"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 

@@ -1,8 +1,8 @@
 ---
 title: EOP에서 받는 사람 및 관리자 역할 그룹 관리
-ms.author: krowley
-author: kccross
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyP
+manager: dansimp
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2041a048-8d78-4b76-a91f-43ea43a858bd
 description: Microsoft EOP(Exchange Online Protection)에서는 메일 받는 사람을 관리하는 다양한 방법이 제공됩니다. 다음 항목 및 관련 하위 항목에서는 받는 사람을 관리하고 관리자 역할 그룹 권한을 할당하기 위한 구성 절차와 관련 정보가 제공됩니다.
-ms.openlocfilehash: 3abc23190a4ad8fdacf0ce8a67afd6dba2c2b197
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 3b16f35b88e6ab46022f52877e591dcf6580db77
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153100"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599574"
 ---
 # <a name="manage-recipients-and-admin-role-groups-in-eop"></a>EOP에서 받는 사람 및 관리자 역할 그룹 관리
 

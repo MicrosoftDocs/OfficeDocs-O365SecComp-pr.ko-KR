@@ -3,7 +3,7 @@ title: Office 365 Advanced eDiscovery에서 관련성 평가 이해
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
+ms.date: 09/14/2017
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Office 365 Advanced eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하기 위한 평가 단계 및 해당 역할에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 229df3f51c6a71ddb644fcd45a6de0e30f9775b9
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 77d9449ad15fd3a53709f2a28a96b06ab54556eb
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155540"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598664"
 ---
 # <a name="understand-assessment-in-relevance-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 평가 이해
 
@@ -48,7 +48,7 @@ ms.locfileid: "34155540"
 관련성 권장 사항을 그대로 사용 하거나 필요에 따라 현재 오류 여백을 조정할 수 있습니다. 기본값 현재 오류 여백이 75% 이상 인지 여부에 따라 결정 됩니다.
   
 > [!NOTE]
-> 평가 단계를 무시할 수 있으며, 문제에 대 한 확장 된 보기의 ** \> 관련성 트랙** 탭에서 문제 마다 **평가** 확인란을 선택 취소 하 고 "모든 문제"에 대해 확인 합니다. 그러나 따라서이 문제에 대 한 통계가 제공 되지 않습니다. **평가** 를 수행 하기 전에 > 확인 확인란을 선택 해야 합니다. 사례에 여러 문제가 있는 경우 각 문제에 대해 확인란이 선택 취소 되어 있는 경우에만 평가를 무시 합니다. 
+> 평가 단계를 무시할 수 있으며, 문제에 대 한 확장 된 보기의 ** \> 관련성 트랙** 탭에서 문제 마다 **평가** 확인란을 선택 취소 하 고 "모든 문제"에 대해 확인 합니다. 그러나 따라서이 문제에 대 한 통계가 제공 되지 않습니다. **평가** 를 수행 하기 전에만 확인 확인란을 선택 취소할 수 있습니다. > 사례에 여러 문제가 있는 경우 각 문제에 대해 확인란이 선택 취소 되어 있는 경우에만 평가를 무시 합니다. 
   
 ## <a name="see-also"></a>참고 항목
 

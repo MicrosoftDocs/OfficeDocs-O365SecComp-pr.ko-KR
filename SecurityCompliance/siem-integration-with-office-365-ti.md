@@ -2,7 +2,7 @@
 title: SIEM과 Office 365 Advanced Threat Protection의 통합
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.date: 03/11/2019
 ms.collection:
 - M365-security-compliance
 description: Office 365 활동 관리 API에서 조직의 SIEM server를 Office 365 Advanced Threat Protection 및 관련 위협 이벤트와 통합 합니다.
-ms.openlocfilehash: da34073669d50cadcc01b5dd885d209a329c645f
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 4bfc82be273bb4581aa49bbbbdab613bd87b1b89
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077194"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600905"
 ---
 # <a name="siem-integration-with-office-365-advanced-threat-protection"></a>SIEM과 Office 365 Advanced Threat Protection의 통합
 

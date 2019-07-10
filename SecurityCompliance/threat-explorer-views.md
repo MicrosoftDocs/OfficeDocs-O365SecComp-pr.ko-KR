@@ -2,7 +2,7 @@
 title: 위협 탐색기 및 실시간 검색의 보기
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 03/18/2019
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 description: 위협 탐색기 및 실시간 검색에서 사용할 수 있는 다양 한 종류의 보기에 대해 알아봅니다.
-ms.openlocfilehash: 14cdbbd602e53615abec12bedbac2f16be40111f
-ms.sourcegitcommit: 2b46fba650df8d252b1dd2b3c3f080a383183a06
+ms.openlocfilehash: 71ec20daae45bee8385f24091850ea6223399eae
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408323"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600821"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
@@ -90,7 +90,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 목록에서 항목을 선택 하 여 추가 세부 정보를 확인 합니다.
 
-## <a name="email--all-email"></a>전자 메일 > 모든 전자 메일
+## <a name="email--all-email"></a>모든 전자 메일 > 전자 메일
 
 이 보고서를 보려면 탐색기에서**전자** > 메일**모든 메일** **보기** > 를 선택 합니다. 이 보기에는 모든 비 악성 메일 (일반 전자 메일, 스팸 및 대량 메일)과 마찬가지로 피싱 또는 맬웨어로 인 한 악성 전자 메일을 비롯 한 전자 메일 활동의 모든 보기가 표시 됩니다. 
 
@@ -103,7 +103,7 @@ Explorer (또는 실시간 검색 보고서)를 처음으로 열면 기본 보�
 
 차트 아래에 제목 줄, 받는 사람, 보낸 사람, 상태 등의 특정 전자 메일 메시지에 대 한 세부 정보를 확인 합니다. 
 
-## <a name="content--malware"></a>콘텐츠 > 맬웨어
+## <a name="content--malware"></a>맬웨어 > 콘텐츠
 
 이 보고서를 보려면 Explorer (또는 실시간 검색)에서**콘텐츠** > **맬웨어** **보기** > 를 선택 합니다. 이 보기는 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection에서](atp-for-spo-odb-and-teams.md)악의적으로 식별 된 파일을 보여 줍니다.
 

@@ -2,7 +2,7 @@
 title: 후방 분산 메시지 및 EOP
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 12/9/2016
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: Backscatter 메시지는 일반적으로 수신 스팸의 결과로 메일 서버에서 전송 되는 자동 바운스 메시지입니다. 후방 분산 DNSBL은 후방 산란 메시지를 보내는 IP 주소의 목록입니다. 스팸 발송자 목록이 아니며 후방 분산 DNSBL에서 서버를 제거 하려고 하지 않습니다.
-ms.openlocfilehash: 11e8909e5cb72eb4e46b392d13f0f11483555aeb
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e8a8f98045d111976078b09797a1078d0fbb6a6b
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155610"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598454"
 ---
 # <a name="backscatter-messages-and-eop"></a>후방 분산 메시지 및 EOP
 

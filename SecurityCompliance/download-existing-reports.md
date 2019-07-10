@@ -2,8 +2,8 @@
 title: 보안 &amp; 및 준수 센터에서 기존 보고서 다운로드
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
-ms.date: 6/1/2018
+manager: dansimp
+ms.date: 06/01/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: 보안 &amp; 및 준수 센터에서 하나 이상의 기존 보고서를 다운로드 하는 방법을 알아봅니다.
-ms.openlocfilehash: 19bae24fd72cb6414f015218db1e2737d1fcd0d6
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: f6d6bf607a93a05807ec34f5330158740fa38541
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077844"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599944"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 기존 보고서 다운로드
 

@@ -2,7 +2,7 @@
 title: Office 365에서 수신 허용-보낸 사람 목록 만들기
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 4/29/2019
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 Exchange 관리 센터의 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: 4526441c68d187e644a06228c5b1be820968524a
-ms.sourcegitcommit: 044003455eb36071806c9f008ac631d54c64dde6
+ms.openlocfilehash: f0397ce3d26f6c539b3d7d663298c468e1155161
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35199579"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35599984"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
@@ -86,6 +86,8 @@ ETRs를 사용 하 여 보낸 사람 인증의 유효성을 검사 하는 동안
 ## <a name="use-anti-spam-policy-senderdomain-allow-lists"></a>스팸 방지 정책 보낸 사람/도메인 허용 목록 사용
 
 가장 바람직한 방법은 보낸 사람/도메인을 통해 권한을 부여 하는 것입니다. 이 옵션은 스팸/스푸핑/피싱 보호를 완전히 건너뛰고, 보낸 사람 인증을 평가 하지 않는 *경우에* 는 피해 야 합니다. 이 방법을 사용할 경우 잘못 된 행위자가 메일을 수신 하는 위험성이 높아지고 테스트할 때에만 일시적으로 권장 됩니다. 자세한 단계는 [스팸 필터 정책 문서 구성](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) 에서 찾을 수 있습니다.
+
+이러한 목록의 최대 제한은 약 1000 엔트리입니다.
 
 > [!CAUTION]
 > *보낸 사람/허용 도메인을 허용* 하도록 스팸 방지 정책을 구성 하면 허용 목록의 보낸 사람 또는 b)가 허용 된 도메인의 보낸 사람 으로부터 메시지를 건너뛰는 메시지가 생성 됩니다. 이 방법을 통해 스팸 발송자가 보내는 도메인을 스푸핑할 수 있는 위험을 크게 증가 시키며, 모든 스팸 필터링, 보낸 사람 인증 검사를 건너뛰고 메시지를 사용자의 받은 편지 함으로 직접 전송 하는 전체 전자 메일 주소를 가장 합니다.

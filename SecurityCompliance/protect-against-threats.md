@@ -2,7 +2,7 @@
 title: Office 365에서 위협 으로부터 보호
 ms.author: tracyp
 author: msfttracyp
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: 6700e2714ea607f675b487204404d53c1d51db93
-ms.sourcegitcommit: 424a614141c1f19a1c84a67ec2d71dd3d7ef6694
+ms.openlocfilehash: 950259bb11446c3b7f27606b69a44f07ad478e79
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34590581"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600524"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
@@ -47,7 +47,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
 
-[보안 _AMP_ 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다. 
+[보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에는 몇 가지 예가 나와 있습니다. 
 
 |역할 또는 역할 그룹  |자세한 정보  |
 |---------|---------|

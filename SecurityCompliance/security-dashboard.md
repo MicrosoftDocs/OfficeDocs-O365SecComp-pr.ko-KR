@@ -2,7 +2,7 @@
 title: 보안 대시보드 개요
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 78e6a67ace757cca9d25086c601ab4b4437c7bf8
-ms.sourcegitcommit: 5a93c2f3df35d06a59a7fbaff5c91f7afde11781
+ms.openlocfilehash: ee2357546de55d687787523cab9fdc7930691bd5
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857668"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600671"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 

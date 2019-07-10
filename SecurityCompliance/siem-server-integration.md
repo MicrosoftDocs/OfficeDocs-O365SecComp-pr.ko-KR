@@ -2,7 +2,7 @@
 title: Microsoft 365과의 SIEM 서버 통합
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.date: 06/17/2019
@@ -14,12 +14,12 @@ ms.custom:
 - Ent_Solutions
 - SIEM
 description: 요약:이 문서를 읽으면 Microsoft 365과의 SIEM server 통합에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 9138cbc395b90f50fa60bf545066c17cf26d7edf
-ms.sourcegitcommit: f2798d46acfbd56314e809cd3fe0350be807e420
+ms.openlocfilehash: 97f1c1d1f1862d140e014b4460ac9f40cb1934bb
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35014767"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600895"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM 서버 통합
 

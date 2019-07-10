@@ -1,9 +1,9 @@
 ---
 title: Office 365 메시지 암호화 레거시 정보
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: krowley
+author: kccross
 manager: laurawi
-ms.date: 1/4/2018
+ms.date: 01/04/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
 ms.collection:
 - M365-security-compliance
 description: 아직 Office 365 조 직을 새 OME 기능으로 이동 하지 않았지만 이미 OME을 배포한 경우이 문서의 정보가 조직에 적용 됩니다. 조직에 적합 한 시기에 새 OME 기능으로 바로 이동 하는 계획을 수립 하는 것이 좋습니다. 자세한 내용은 Azure Information Protection 기반으로 구축 된 새 Office 365 메시지 암호화 기능 설치를 참조 하세요. 새 기능이 먼저 작동 하는 방식에 대해 자세히 알아보려면 Office 365 메시지 암호화를 참조 하세요. 이 문서의 나머지 부분에서는 새 OME 기능이 출시 되기 전에 발생 하는 OME 동작을 나타냅니다.
-ms.openlocfilehash: aaba63364cf469f66a213ba791fc48ba29a69384
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 89d3adfa2672e86dd6f247ad408ccc95ebaf2b7f
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155920"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598924"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
