@@ -537,11 +537,11 @@
 ### [준수 관리자(미리 보기)의 새로운 기능](compliance-manager-release-notes.md)
 ### [준수 관리자(미리 보기)로 작업하기](working-with-compliance-manager.md)
 ### [규정 준수 점수 방법론(미리 보기)](compliance-score-methodology.md)
-## [정보 장벽 (미리 보기)](information-barriers.md)
-### [정보 장벽 정책 정의 (미리 보기)](information-barriers-policies.md)
-### [정보 장벽 정책의 속성 (미리 보기)](information-barriers-attributes.md)
-### [정보 장벽 문제 해결(미리 보기)](information-barriers-troubleshooting.md)
-### [정보 장벽 정책 편집(미리 보기)](information-barriers-edit-segments-policies.md.md)
+## [정보 장벽](information-barriers.md)
+### [정보 장벽 정책 정의](information-barriers-policies.md)
+### [정보 장벽 정책의 속성](information-barriers-attributes.md)
+### [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
+### [정보 장벽 정책 편집](information-barriers-edit-segments-policies.md.md)
 
 
 ## 고객 키
