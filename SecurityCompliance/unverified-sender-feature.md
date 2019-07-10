@@ -2,7 +2,7 @@
 title: 확인 되지 않은 보낸 사람
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 04/25/2019
 audience: ITPro
 ms.topic: article
@@ -13,70 +13,70 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: 92458a93a4da3e449061e4d2a4ba312d635c42cc
-ms.sourcegitcommit: 7f00f765e8fa674ce1c8c66f5b89b6bea45e13ac
+ms.openlocfilehash: a69af1efb634e1805f055d49ec5515f4b4252c3b
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34341626"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35600264"
 ---
-# <a name="unverified-sender"></a><span data-ttu-id="ceb7d-103">확인 되지 않은 보낸 사람</span><span class="sxs-lookup"><span data-stu-id="ceb7d-103">Unverified Sender</span></span>
+# <a name="unverified-sender"></a><span data-ttu-id="2bc8e-103">확인 되지 않은 보낸 사람</span><span class="sxs-lookup"><span data-stu-id="2bc8e-103">Unverified Sender</span></span>
 
-<span data-ttu-id="ceb7d-104">피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-104">To prevent phishing messages from reaching your mailbox, Outlook.com and Outlook on the web verify that the sender is who they say they are and mark suspicious messages as junk email.</span></span>
+<span data-ttu-id="2bc8e-104">피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-104">To prevent phishing messages from reaching your mailbox, Outlook.com and Outlook on the web verify that the sender is who they say they are and mark suspicious messages as junk email.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ceb7d-105">메시지가 피싱 사기로 표시 되 면 Outlook.com 및 웹용 Outlook의 페이지 맨 위에 경고가 표시 되지만 메시지의 모든 링크는 계속 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-105">When a message is marked as a phishing scam, Outlook.com and Outlook on the web display a warning at the top of the page, but any links in the message can still be opened.</span></span>
+> <span data-ttu-id="2bc8e-105">메시지가 피싱 사기로 표시 되 면 Outlook.com 및 웹용 Outlook의 페이지 맨 위에 경고가 표시 되지만 메시지의 모든 링크는 계속 열 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-105">When a message is marked as a phishing scam, Outlook.com and Outlook on the web display a warning at the top of the page, but any links in the message can still be opened.</span></span>
 
-## <a name="how-can-i-identify-a-suspicious-message-in-my-inbox"></a><span data-ttu-id="ceb7d-106">받은 편지함에서 의심 스러운 메시지를 어떻게 확인할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="ceb7d-106">How can I identify a suspicious message in my inbox?</span></span>
+## <a name="how-can-i-identify-a-suspicious-message-in-my-inbox"></a><span data-ttu-id="2bc8e-106">받은 편지함에서 의심 스러운 메시지를 어떻게 확인할 수 있나요?</span><span class="sxs-lookup"><span data-stu-id="2bc8e-106">How can I identify a suspicious message in my inbox?</span></span>
 
-<span data-ttu-id="ceb7d-107">Outlook.com and Outlook에서 메시지를 보낸 사람이 식별 되지 않거나 id가 보낸 사람 주소에 표시 되는 내용과 다를 때 나타나는 지표를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-107">Outlook.com and Outlook on the web show indicators when the sender of a message either can't be identified or their identity is different from what you see in the From address.</span></span>
+<span data-ttu-id="2bc8e-107">Outlook.com and Outlook에서 메시지를 보낸 사람이 식별 되지 않거나 id가 보낸 사람 주소에 표시 되는 내용과 다를 때 나타나는 지표를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-107">Outlook.com and Outlook on the web show indicators when the sender of a message either can't be identified or their identity is different from what you see in the From address.</span></span>
 
-## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a><span data-ttu-id="ceb7d-108">확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법</span><span class="sxs-lookup"><span data-stu-id="ceb7d-108">How to manage which messages receive the unverified sender treatment</span></span> 
+## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a><span data-ttu-id="2bc8e-108">확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법</span><span class="sxs-lookup"><span data-stu-id="2bc8e-108">How to manage which messages receive the unverified sender treatment</span></span> 
 
-<span data-ttu-id="ceb7d-109">Office 365 고객 인 경우 Security & 준수 센터를 통해이 기능을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-109">If you are an Office 365 customer you can manage this feature through the Security & Compliance Center.</span></span> 
+<span data-ttu-id="2bc8e-109">Office 365 고객 인 경우 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-109">If you are an Office 365 customer you can manage this feature through the Security & Compliance Center.</span></span> 
 
-- <span data-ttu-id="ceb7d-110">Office 365 Security & 준수 센터에서 테 넌 트 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 켜거나 끌 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-110">In the Office 365 Security & Compliance Center, tenant admins can turn the feature on, or off, through the Anti-spoofing protection under the Anti-Phish policy.</span></span> <span data-ttu-id="ceb7d-111">또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-111">Additionally, it can be managed through the ‘Set-AntiPhishPolicy’ cmdlet.</span></span> <span data-ttu-id="ceb7d-112">자세한 내용은 Office 365 및 AntiPhishPolicy의 피싱 방지 보호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-112">For more details, see Anti-phishing protection in Office 365 and Set-AntiPhishPolicy.</span></span>
+- <span data-ttu-id="2bc8e-110">Office 365 보안 & 준수 센터에서 테 넌 트 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 설정 하거나 해제할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-110">In the Office 365 Security & Compliance Center, tenant admins can turn the feature on, or off, through the Anti-spoofing protection under the Anti-Phish policy.</span></span> <span data-ttu-id="2bc8e-111">또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-111">Additionally, it can be managed through the ‘Set-AntiPhishPolicy’ cmdlet.</span></span> <span data-ttu-id="2bc8e-112">자세한 내용은 Office 365 및 AntiPhishPolicy의 피싱 방지 보호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-112">For more details, see Anti-phishing protection in Office 365 and Set-AntiPhishPolicy.</span></span>
 
     ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
-- <span data-ttu-id="ceb7d-114">관리자가 가양성을 식별 했 고 보낸 사람이 확인 되지 않은 보낸 사람 처리를 수신 하지 않아야 하는 경우 다음 작업 중 하나를 수행 하 여 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-114">If an admin has identified a false positive, and a sender should not be receiving the unverified sender treatment they can take one of the following actions to add the sender to the Spoof Intelligence spoof allow list:</span></span>
+- <span data-ttu-id="2bc8e-114">관리자가 가양성을 식별 했 고 보낸 사람이 확인 되지 않은 보낸 사람 처리를 수신 하지 않아야 하는 경우 다음 작업 중 하나를 수행 하 여 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-114">If an admin has identified a false positive, and a sender should not be receiving the unverified sender treatment they can take one of the following actions to add the sender to the Spoof Intelligence spoof allow list:</span></span>
         
-    - <span data-ttu-id="ceb7d-115">스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-115">Add the domain pair through the Spoof Intelligence Insight.</span></span> <span data-ttu-id="ceb7d-116">자세한 내용은 연습: 스푸핑 인텔리전스 이해를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-116">For more details, see Walkthrough: spoof intelligence insight</span></span>
+    - <span data-ttu-id="2bc8e-115">스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-115">Add the domain pair through the Spoof Intelligence Insight.</span></span> <span data-ttu-id="2bc8e-116">자세한 내용은 연습: 스푸핑 인텔리전스 이해를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-116">For more details, see Walkthrough: spoof intelligence insight</span></span>
                 
-    - <span data-ttu-id="ceb7d-117">Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-117">Add the domain pair through the PhishFilterPolicy cmdlet.</span></span> <span data-ttu-id="ceb7d-118">자세한 내용은 Office 365의 Get-phishfilterpolicy 및 스푸핑 방지 보호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-118">For more details, see Set-PhishFilterPolicy and Anti-spoofing protection in Office 365</span></span>
+    - <span data-ttu-id="2bc8e-117">Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-117">Add the domain pair through the PhishFilterPolicy cmdlet.</span></span> <span data-ttu-id="2bc8e-118">자세한 내용은 Office 365의 Get-phishfilterpolicy 및 스푸핑 방지 보호를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-118">For more details, see Set-PhishFilterPolicy and Anti-spoofing protection in Office 365</span></span>
 
-<span data-ttu-id="ceb7d-119">또한 ETRs (전자 메일 전송 규칙), 안전한 도메인 목록 (스팸 방지 정책), 수신 허용-보낸 사람 목록 또는 사용자가 해당 사용자를 "안전한 보낸 사람"으로 설정 하 여 관리자 허용 목록을 통해 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리가 적용 되지 않습니다. 받은 편지함.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-119">Additionally, we do not apply the unverified sender treatment if it was delivered to the inbox via an admin allow list, including Email Transport Rules (ETRs), Safe Domain List (Anti-Spam Policy), Safe Sender List or a user has set this user as a “Safe Sender” in their inbox.</span></span>
+<span data-ttu-id="2bc8e-119">또한 ETRs (전자 메일 전송 규칙), 안전한 도메인 목록 (스팸 방지 정책), 수신 허용-보낸 사람 목록 또는 사용자가 해당 사용자를 "안전한 보낸 사람"으로 설정 하 여 관리자 허용 목록을 통해 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리가 적용 되지 않습니다. 받은 편지함.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-119">Additionally, we do not apply the unverified sender treatment if it was delivered to the inbox via an admin allow list, including Email Transport Rules (ETRs), Safe Domain List (Anti-Spam Policy), Safe Sender List or a user has set this user as a “Safe Sender” in their inbox.</span></span>
 
-### <a name="you-see-a--in-the-sender-image"></a><span data-ttu-id="ceb7d-120">보낸 사람 이미지에 '? '가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-120">You see a '?' in the sender image</span></span>
+### <a name="you-see-a--in-the-sender-image"></a><span data-ttu-id="2bc8e-120">보낸 사람 이미지에 '? '가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-120">You see a '?' in the sender image</span></span>
 
-<span data-ttu-id="ceb7d-121">Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-121">When Outlook.com and Outlook on the web can't verify the identity of the sender using email authentication techniques, they display a '?' in the sender photo.</span></span> 
+<span data-ttu-id="2bc8e-121">Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-121">When Outlook.com and Outlook on the web can't verify the identity of the sender using email authentication techniques, they display a '?' in the sender photo.</span></span> 
 
 ![메시지가 확인 통과 되지 않음](media/message-did-not-pass-verification.jpg)
 
-<span data-ttu-id="ceb7d-123">인증에 실패 한 모든 메시지는 악성이 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-123">Not every message that fails to authenticate is malicious.</span></span> <span data-ttu-id="ceb7d-124">그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-124">However, you should be careful about interacting with messages that don't authenticate if you don't recognize the sender.</span></span> <span data-ttu-id="ceb7d-125">또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-125">Or, if you recognize a sender that normally doesn't have a '?' in the sender image, but you suddenly start seeing it, that could be a sign the sender is being spoofed.</span></span>
+<span data-ttu-id="2bc8e-123">인증에 실패 한 모든 메시지는 악성이 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-123">Not every message that fails to authenticate is malicious.</span></span> <span data-ttu-id="2bc8e-124">그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-124">However, you should be careful about interacting with messages that don't authenticate if you don't recognize the sender.</span></span> <span data-ttu-id="2bc8e-125">또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-125">Or, if you recognize a sender that normally doesn't have a '?' in the sender image, but you suddenly start seeing it, that could be a sign the sender is being spoofed.</span></span>
 
-## <a name="frequently-asked-questions"></a><span data-ttu-id="ceb7d-126">자주하는 질문</span><span class="sxs-lookup"><span data-stu-id="ceb7d-126">Frequently asked questions</span></span>
+## <a name="frequently-asked-questions"></a><span data-ttu-id="2bc8e-126">자주하는 질문</span><span class="sxs-lookup"><span data-stu-id="2bc8e-126">Frequently asked questions</span></span>
 
-### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a><span data-ttu-id="ceb7d-127">Outlook.com 및 웹용 Outlook에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?</span><span class="sxs-lookup"><span data-stu-id="ceb7d-127">What criteria does Outlook.com and Outlook on the web use to add the '?' and the 'via' properties?</span></span>
+### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a><span data-ttu-id="2bc8e-127">Outlook.com 및 웹용 Outlook에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?</span><span class="sxs-lookup"><span data-stu-id="2bc8e-127">What criteria does Outlook.com and Outlook on the web use to add the '?' and the 'via' properties?</span></span>
 
-<span data-ttu-id="ceb7d-128">보낸 사람 이미지의 '? '에 대해: Outlook.com에서는 메시지가 SPF 또는 DKIM 인증을 통과 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-128">For the '?' in the sender image:  Outlook.com requires that the message pass either SPF or DKIM authentication.</span></span> <span data-ttu-id="ceb7d-129">자세한 내용은 office 365에서 스푸핑 방지 및 dkim을 사용 하 여 사용자 지정 365 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하는 데 도움을 주는 방법에 SPF를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-129">For more details, see [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md) and [Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md).</span></span>
+<span data-ttu-id="2bc8e-128">보낸 사람 이미지의 '? '에 대해: Outlook.com에서는 메시지가 SPF 또는 DKIM 인증을 통과 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-128">For the '?' in the sender image:  Outlook.com requires that the message pass either SPF or DKIM authentication.</span></span> <span data-ttu-id="2bc8e-129">자세한 내용은 office 365에서 [스푸핑 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 및 [Dkim을 사용 하 여 사용자 지정 365 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하](use-dkim-to-validate-outbound-email.md)는 데 도움을 주는 방법에 SPF를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-129">For more details, see [Set up SPF in Office 365 to help prevent spoofing](set-up-spf-in-office-365-to-help-prevent-spoofing.md) and [Use DKIM to validate outbound email sent from your custom domain in Office 365](use-dkim-to-validate-outbound-email.md).</span></span>
 
-<span data-ttu-id="ceb7d-130">Via 태그의 경우: 보낸 사람 주소에 있는 도메인이 DKIM 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (DKIM 서명 우선).</span><span class="sxs-lookup"><span data-stu-id="ceb7d-130">For the via tag: If the domain in the From address is different from the domain in the DKIM signature or the SMTP MAIL FROM, Outlook.com displays the domain in one of those two fields (preferring the DKIM signature).</span></span>
+<span data-ttu-id="2bc8e-130">Via 태그의 경우: 보낸 사람 주소에 있는 도메인이 DKIM 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (DKIM 서명 우선).</span><span class="sxs-lookup"><span data-stu-id="2bc8e-130">For the via tag: If the domain in the From address is different from the domain in the DKIM signature or the SMTP MAIL FROM, Outlook.com displays the domain in one of those two fields (preferring the DKIM signature).</span></span>
 
-### <a name="how-do-i-remove-the-"></a><span data-ttu-id="ceb7d-131">'? '를 제거 하려면 어떻게 해야 합니까?</span><span class="sxs-lookup"><span data-stu-id="ceb7d-131">How do I remove the '?'</span></span>
+### <a name="how-do-i-remove-the-"></a><span data-ttu-id="2bc8e-131">'? '를 제거 하려면 어떻게 해야 합니까?</span><span class="sxs-lookup"><span data-stu-id="2bc8e-131">How do I remove the '?'</span></span>
 
-<span data-ttu-id="ceb7d-132">보낸 사람 이미지의 '? '에 대해 보낸 사람으로 서 SPF 또는 DKIM 중 하나를 사용 하 여 메시지를 인증 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-132">For the '?' in the sender image: As a sender, you should authenticate your message with either SPF or DKIM.</span></span>
+<span data-ttu-id="2bc8e-132">보낸 사람 이미지의 '? '에 대해 보낸 사람으로 서 SPF 또는 DKIM 중 하나를 사용 하 여 메시지를 인증 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-132">For the '?' in the sender image: As a sender, you should authenticate your message with either SPF or DKIM.</span></span>
 
-<span data-ttu-id="ceb7d-133">Via 태그: 보낸 사람으로 서, DKIM 서명 또는 SMTP 메일의 도메인은 From 주소에 있는 도메인과 같거나 그 하위 도메인 인지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-133">For the via tag: As a sender, you should ensure that either the domain in the DKIM signature or the SMTP MAIL FROM is the same as, or is a subdomain of, the domain in the From address.</span></span>
+<span data-ttu-id="2bc8e-133">Via 태그: 보낸 사람으로 서, DKIM 서명 또는 SMTP 메일의 도메인은 From 주소에 있는 도메인과 같거나 그 하위 도메인 인지 확인 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-133">For the via tag: As a sender, you should ensure that either the domain in the DKIM signature or the SMTP MAIL FROM is the same as, or is a subdomain of, the domain in the From address.</span></span>
 
-### <a name="does-outlookcom-and-outlook-on-the-web-show-this-for-every-message-that-doesnt-pass-authentication"></a><span data-ttu-id="ceb7d-134">Outlook.com 및 웹용 Outlook에서 인증을 통과 하지 않는 모든 메시지를 표시 하나요?</span><span class="sxs-lookup"><span data-stu-id="ceb7d-134">Does Outlook.com and Outlook on the web show this for every message that doesn’t pass authentication?</span></span>
+### <a name="does-outlookcom-and-outlook-on-the-web-show-this-for-every-message-that-doesnt-pass-authentication"></a><span data-ttu-id="2bc8e-134">Outlook.com 및 웹용 Outlook에서 인증을 통과 하지 않는 모든 메시지를 표시 하나요?</span><span class="sxs-lookup"><span data-stu-id="2bc8e-134">Does Outlook.com and Outlook on the web show this for every message that doesn’t pass authentication?</span></span>
 
-<span data-ttu-id="ceb7d-135">꼭 필요 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-135">Not necessarily.</span></span> <span data-ttu-id="ceb7d-136">Outlook.com 및 웹용 Outlook의 메시지에는 보낸 사람을 인증 하기 위한 다른 속성이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ceb7d-136">Outlook.com and Outlook on the web may have other properties within the message to authenticate the sender.</span></span>
+<span data-ttu-id="2bc8e-135">꼭 필요 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-135">Not necessarily.</span></span> <span data-ttu-id="2bc8e-136">Outlook.com 및 웹용 Outlook의 메시지에는 보낸 사람을 인증 하기 위한 다른 속성이 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2bc8e-136">Outlook.com and Outlook on the web may have other properties within the message to authenticate the sender.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="ceb7d-137">관련 항목</span><span class="sxs-lookup"><span data-stu-id="ceb7d-137">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2bc8e-137">관련 항목</span><span class="sxs-lookup"><span data-stu-id="2bc8e-137">Related topics</span></span>
 
-[<span data-ttu-id="ceb7d-138">Outlook.com 전자 메일 계정 보호</span><span class="sxs-lookup"><span data-stu-id="ceb7d-138">Help protect your Outlook.com email account</span></span>](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
+[<span data-ttu-id="2bc8e-138">Outlook.com 전자 메일 계정 보호</span><span class="sxs-lookup"><span data-stu-id="2bc8e-138">Help protect your Outlook.com email account</span></span>](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
-[<span data-ttu-id="ceb7d-139">Outlook.com에서 불건전, 피싱 또는 스푸핑 처리</span><span class="sxs-lookup"><span data-stu-id="ceb7d-139">Deal with abuse, phishing, or spoofing in Outlook.com</span></span>](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
+[<span data-ttu-id="2bc8e-139">Outlook.com에서 불건전, 피싱 또는 스푸핑 처리</span><span class="sxs-lookup"><span data-stu-id="2bc8e-139">Deal with abuse, phishing, or spoofing in Outlook.com</span></span>](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
-[<span data-ttu-id="ceb7d-140">웹용 Outlook에서 정크 메일 및 스팸 필터링</span><span class="sxs-lookup"><span data-stu-id="ceb7d-140">Filter junk email and spam in Outlook on the web</span></span>](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)
+[<span data-ttu-id="2bc8e-140">웹용 Outlook에서 정크 메일 및 스팸 필터링</span><span class="sxs-lookup"><span data-stu-id="2bc8e-140">Filter junk email and spam in Outlook on the web</span></span>](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)
