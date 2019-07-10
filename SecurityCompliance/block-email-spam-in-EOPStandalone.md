@@ -3,7 +3,7 @@ title: EOP 독립 실행형에서 전자 메일 스팸 차단
 ms.author: tracyp
 author: msfttracyp
 ms.reviewer: andypunt
-manager: laurawi
+manager: dansimp
 ms.date: 2/25/2019
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: 스팸 거짓 부정을 방지하는 데 도움이 되는 EOP 독립 실행형 관리자를 위한 문서
-ms.openlocfilehash: a79fb94a233cd101caac96312b05a4c0d24ea645
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 20533f12ccc71fc97d82590efdaf551ab036b17d
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152200"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598494"
 ---
 ## <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>다음 설정을 사용하여 Office 365 스팸 방지 필터 사용자 지정
 
@@ -35,8 +35,7 @@ ms.locfileid: "34152200"
     
 2. [메시지 헤더 분석기](https://testconnectivity.microsoft.com/?tabid=mha)를 사용하거나 수동으로 X-Forefront-Antispam-Report 헤더에서 CIP 태그 다음에 나오는 IP 주소를 검색합니다. 
     
-3. 
-  [연결 필터 정책 구성](https://technet.microsoft.com/ko-KR/library/jj200718%28v=exchg.150%29.aspx)의 "EAC를 사용하여 기본 연결 필터 정책 편집"에 나와 있는 단계에 따라 IP 차단 목록에 IP 주소를 추가합니다.
+3. [연결 필터 정책 구성](https://technet.microsoft.com/en-us/library/jj200718%28v=exchg.150%29.aspx)의 "EAC를 사용하여 기본 연결 필터 정책 편집"에 나와 있는 단계에 따라 IP 차단 목록에 IP 주소를 추가합니다.
     
 ### <a name="block-bulk-mail-with-mail-flow-rules-transport-rules-or-the-spam-filter"></a>메일 흐름 규칙(전송 규칙) 또는 스팸 필터를 사용하여 대량 메일 차단
 
@@ -46,8 +45,7 @@ ms.locfileid: "34152200"
   
 ### <a name="block-email-spam-using-spam-filter-block-lists"></a>스팸 필터 차단 목록을 사용하여 전자 메일 스팸 차단
 
-
-  [스팸 필터 정책을 구성](https://technet.microsoft.com/ko-KR/library/jj200684%28v=exchg.150%29.aspx)하여 스팸 필터의 보낸 사람 차단 목록에 보낸 사람 주소를 추가하거나 도메인 차단 목록에 도메인을 추가합니다. 스팸 필터 차단 목록에 있는 보낸 사람 또는 도메인에서 보낸 전자 메일은 스팸으로 표시됩니다. 
+[스팸 필터 정책을 구성](https://technet.microsoft.com/en-us/library/jj200684%28v=exchg.150%29.aspx)하여 스팸 필터의 보낸 사람 차단 목록에 보낸 사람 주소를 추가하거나 도메인 차단 목록에 도메인을 추가합니다. 스팸 필터 차단 목록에 있는 보낸 사람 또는 도메인에서 보낸 전자 메일은 스팸으로 표시됩니다. 
   
 ## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>전자 메일 사용자도 Office 365 스팸 필터로 거짓 부정 및 전자 메일 스팸이 차단되도록 할 수 있습니다.
 
@@ -56,7 +54,7 @@ ms.locfileid: "34152200"
 ![웹용 Outlook에서 보낸 사람 차단](media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
   
 > [!NOTE]
-> 수신 허용 - 보낸 사람 목록에 대한 자세한 내용은 [수신 허용 - 보낸 사람 및 수신 거부 목록 FAQ](https://technet.microsoft.com/ko-KR/library/dn133608%28v=exchg.150%29.aspx)를 참조하세요. 
+> 수신 허용 - 보낸 사람 목록에 대한 자세한 내용은 [수신 허용 - 보낸 사람 및 수신 거부 목록 FAQ](https://technet.microsoft.com/en-us/library/dn133608%28v=exchg.150%29.aspx)를 참조하세요. 
   
 ## <a name="eop-only-customers-set-up-directory-synchronization"></a>EOP 전용 고객: 디렉터리 동기화 설정
 

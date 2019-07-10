@@ -3,7 +3,7 @@ title: 개인 데이터 누수 모니터링
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/7/2018
+ms.date: 02/07/2018
 audience: ITPro
 ms.topic: overview
 ms.collection:
@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: d5dbf2841b165e46ef40125056f142cbd316e9ee
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: d8e3854ad5d08517aae0bf0790561758478e87a2
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158640"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35597954"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -93,8 +93,7 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 -   
   [감사 로그 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   
-  [Search-UnifiedAuditLog](https://technet.microsoft.com/ko-KR/library/mt238501(v=exchg.160).aspx)(cmdlet) 
+-   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
 
 -   
   [Office 365 감사 로그의 자세한 속성](https://support.office.com/ko-KR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)

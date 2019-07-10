@@ -3,7 +3,6 @@ title: Office 365의 개인 데이터에 레이블 적용
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: ''
 audience: ITPro
 ms.topic: overview
 ms.collection:
@@ -16,12 +15,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: fe54ebe88ea3474df2c2c94cda2c3023a788af31
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 518e5352861242bfbf9220f876edcb4b616493df
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155590"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35598254"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 레이블 적용
 

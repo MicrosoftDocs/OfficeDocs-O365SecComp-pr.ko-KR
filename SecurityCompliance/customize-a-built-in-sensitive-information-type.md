@@ -3,7 +3,7 @@ title: 기본 제공 중요한 정보 유형 사용자 지정
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 04/03/2019
+ms.date: 07/08/2019
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠에서 중요한 정보를 찾을 때는 소유 말하는 규칙에서 해당 정보를 설명해야 합니다. DLP(데이터 손실 방지)에는 바로 사용할 수 있는 가장 일반적인 중요한 정보 유형에 대한 규칙이 포함되어 있습니다. 이러한 규칙을 사용하려면 정책에 포함해야 합니다. 조직의 특정 요구 사항에 맞게 이러한 기본 제공 규칙을 조정하려고 할 경우 사용자 지정 중요한 정보 유형을 만들면 됩니다. 이 항목에서는 광범위한 잠재적 신용 카드 정보를 검색하도록 기존 규칙 컬렉션을 포함하는 XML 파일을 사용자 지정하는 방법을 보여 줍니다.
-ms.openlocfilehash: ddfd8bd82164fde6d2121b37d867caaa69355b4b
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 8a621e3f1b24a8cea9cd263e44dc2def8a8b95b7
+ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077204"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35587107"
 ---
 # <a name="customize-a-built-in-sensitive-information-type"></a>기본 제공 중요한 정보 유형 사용자 지정
 
@@ -214,7 +214,7 @@ XML에서 신용 카드 번호 규칙 정의를 찾았으므로 요구에 맞게
 |:-----|:-----|
 |엔터티|엔터티는 소유 말해서 신용 카드 번호와 같은 중요한 정보 유형입니다. 각 엔터티는 고유한 GUID를 ID로 갖습니다. GUID를 복사한 후 XML에서 검색하면 XML 규칙 정의와 해당 XML 규칙의 모든 지역화된 번역을 찾을 수 있습니다. 또한 번역에 대한 GUID를 찾은 후 해당 GUID를 검색하여 이 정의를 찾을 수도 있습니다.|
 |함수|XML 파일은 컴파일된 코드의 함수에 해당하는 `Func_credit_card`를 참조합니다. 함수는 복잡한 regex를 실행하는 데 사용되며 체크섬이 기본 제공 규칙과 일치하는지 확인합니다. 이러한 작업이 코드에서 진행되므로 일부 변수는 XML 파일에 나타나지 않습니다.|
-|IdMatch|패턴이 일치하려고 시도하는 식별자입니다(예: 신용 카드 번호). [엔터티 규칙](https://support.office.com/article/c4ab8707-0839-4855-9390-3dbcb43475a7.aspx#dlp-entity)에서 이 내용 및 `Match` 태그에 대해 자세히 알아볼 수 있습니다.|
+|IdMatch|이는 패턴과 일치하는 ID(예: 신용 카드 번호)입니다.|
 |키워드 목록|XML 파일은 엔터티에 대한 `patternsProximity` 내에서 일치하는지 확인하는 키워드 목록에 해당하는 `keyword_cc_verification` 및 `keyword_cc_name`도 참조합니다.|
 |패턴|패턴은 중요한 유형이 검색할 항목 목록을 포함합니다. 여기에는 키워드, regex 및 내부 함수(체크섬 확인 등의 작업 수행)가 포함됩니다. 중요한 정보 유형에는 고유한 신뢰도를 갖는 여러 패턴이 있을 수 있습니다. 증빙이 발견되면 높은 신뢰도를 반환하고, 증빙이 거의 없거나 전혀 없으면 낮은 신뢰도를 반환하는 중요한 정보 유형을 만들면 유용합니다.|
 |패턴 confidenceLevel|DLP 엔진이 일치 항목을 발견한 신뢰도입니다. 이 수준의 신뢰도는 패턴 요구 사항이 충족될 경우 패턴의 일치와 연관됩니다. 이는 Exchange 메일 흐름 규칙(전송 규칙이라고도 함)을 사용할 때 고려해야 할 신뢰도 측정값입니다.|
