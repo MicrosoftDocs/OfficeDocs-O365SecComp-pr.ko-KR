@@ -13,12 +13,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하도록 하기 위해 Office 365에서 DomainKeys 식별 메일 (DKIM)을 사용 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: e29a6e5d92c169c29e7562d9fb563e9ddc6c5d03
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 25427060140caee242944d56b24eaab362c2f36a
+ms.sourcegitcommit: 986f40a00ab454093b21e724d58594b8b8b4a9ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600424"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35613686"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사
 
@@ -234,7 +234,7 @@ CNAME 레코드를 DNS에 게시 한 후에는 Office 365을 통해 DKIM 서명�
 ## <a name="default-behavior-for-dkim-and-office-365"></a>DKIM 및 Office 365에 대 한 기본 동작
 <a name="DefaultDKIMbehavior"> </a>
 
-DKIM을 사용 하도록 설정 하지 않으면 Office 365에서 사용자 지정 도메인에 대 한 1024 비트 DKIM 공개 키와 내부 데이터 센터에 저장 되는 연결 된 개인 키를 자동으로 만듭니다. 기본적으로 Office 365에서는 정책이 적용 되지 않은 도메인에 대해 기본 서명 구성을 사용 합니다. 즉, DKIM을 직접 설정 하지 않으면 Office 365에서 도메인에 대해 DKIM을 사용 하기 위해 만든 기본 정책과 키를 사용 합니다.
+DKIM을 사용 하도록 설정 하지 않으면 Office 365에서 기본 도메인에 대해 1024 비트 DKIM 공개 키와 내부에 데이터 센터에 저장 한 연결 된 개인 키를 자동으로 만듭니다. 기본적으로 Office 365에서는 정책이 적용 되지 않은 도메인에 대해 기본 서명 구성을 사용 합니다. 즉, DKIM을 직접 설정 하지 않으면 Office 365에서 도메인에 대해 DKIM을 사용 하기 위해 만든 기본 정책과 키를 사용 합니다.
   
 또한 DKIM 서명을 사용 하지 않도록 설정한 후에는 일정 기간 후 Office 365에서 도메인에 대 한 Office 365 기본 정책을 자동으로 적용 합니다.
   

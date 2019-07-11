@@ -3,7 +3,7 @@ title: 스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 �
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 03/12/2019
+ms.date: 07/10/2019
 audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 사용자가 스팸으로 분류 된 Office 365에서 전자 메일을 계속 보내면 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: 80eb03ccb96f2178f168139234de8700b9b97e29
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 40d63bb452392041401fd1af6d0d6d4af67e5d2b
+ms.sourcegitcommit: 986f40a00ab454093b21e724d58594b8b8b4a9ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35601155"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35613656"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
 
@@ -71,6 +71,11 @@ SCC (보안 & 준수 센터)에서이 작업을 완료 합니다. SCC에 대 한
 - 전자 메일 알림 설정/해제
 - 필요한 받는 사람에 게 전자 메일 보내기
 - 하루에 받는 알림 제한
+
+## <a name="checking-for-and-removing-restrictions-using-powershell"></a>PowerShell을 사용 하 여 제한 확인 및 제거
+제한 된 사용자에 대 한 PowerShell 명령은 다음과 같습니다.
+- `Get-BlockedSenderAddress`: 실행 하 여 전자 메일을 보낼 수 없는 사용자 목록을 검색 합니다.
+- `Remove-BlockedSenderAddress`: 실행 제한에서 사용자를 제거 합니다.
 
 ## <a name="for-more-information"></a>자세한 내용
 

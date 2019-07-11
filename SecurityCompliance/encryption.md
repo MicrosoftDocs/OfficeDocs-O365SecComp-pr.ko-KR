@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서는 콘텐츠를 보관 하 고 전송 중에 사용 가능한 가장 강력한 암호화, 프로토콜 및 기술을 사용 하 여 암호화 합니다. Office 365의 암호화에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: 3cd72b3caf26c18ca6836490bc3cd48c2977863b
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 4e41528aed3461cc15fef1bc2ab970d1823129fb
+ms.sourcegitcommit: 986f40a00ab454093b21e724d58594b8b8b4a9ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154720"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35613646"
 ---
 # <a name="encryption-in-office-365"></a>Office 365의 암호화
 
@@ -77,6 +77,6 @@ Office 365의 볼륨 암호화, 파일 암호화 및 사서함 암호화에 대 
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 보안 및 정보 보호 기능 계획](https://support.office.com/article/3d4ac4a1-3920-4ff9-918f-011f3ce60408)
+[Office 365 보안 및 정보 보호 기능 계획](plan-for-security-and-compliance.md)
   
-[Office 365의 보안 및 규정 준수-관리자 도움말](https://support.office.com/article/7fe448f7-49bd-4d3e-919d-0a6d1cf675bb)
+[중소 기업 보호](https://docs.microsoft.com/en-us/Office365/Admin/security-and-compliance/secure-your-business-data)
