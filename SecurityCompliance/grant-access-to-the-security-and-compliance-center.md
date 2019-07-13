@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 Office 365 보안 & 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: f11114ede37269f9b89c4d2b34c69f2d6db8a3f7
-ms.sourcegitcommit: 044003455eb36071806c9f008ac631d54c64dde6
+ms.openlocfilehash: 7963a8c3db64e83566960abe9298b9a2d636ae53
+ms.sourcegitcommit: 6302a43d947a908dd10a8e40550b806f491692fc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35199743"
+ms.lasthandoff: 07/13/2019
+ms.locfileid: "35645123"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여
 
@@ -70,7 +70,7 @@ ms.locfileid: "35199743"
 2. 다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다.
 
    ```
-   Add-RoleGroupMember -Identity "OrganizationManagement" -Member MatildaS
+   Add-RoleGroupMember -Identity "Organization Management" -Member MatildaS
    ```
 
    **매개 변수**:
@@ -86,7 +86,7 @@ ms.locfileid: "35199743"
 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한이 있는지 확인 하려면 다음 예제와 같이 **Get-RoleGroupMember** cmdlet을 사용 하 여 조직 관리 역할 그룹의 구성원을 확인 합니다.
   
 ```
-Get-RoleGroupMember -Identity "OrganizationManagement"
+Get-RoleGroupMember -Identity "Organization Management"
 ```
 
 구문 및 매개 변수에 대 한 자세한 내용은 [Get-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510860)를 참조 하십시오.
