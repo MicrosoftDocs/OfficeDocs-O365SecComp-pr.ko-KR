@@ -3,7 +3,7 @@ title: 데이터 손실 방지 및 Microsoft 팀
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 07/01/2019
+ms.date: 07/12/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -13,28 +13,28 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 3792fd6919749510ea20d4ff84b0249b16165a9f
-ms.sourcegitcommit: cc1b0281fa594cbb7c09f3e419df21aec9557831
+ms.openlocfilehash: 96ba26a4e155a976c2123cc44c3a8632092740ac
+ms.sourcegitcommit: ea630cf1cbaa98ede5ee320c71a0fad7d7def6fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417400"
+ms.lasthandoff: 07/13/2019
+ms.locfileid: "35672917"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
 > [!NOTE]
-> 데이터 손실 방지 기능은 최근 Office 365 E5 및 Office 365 고급 규정 준수의 Microsoft 팀에 추가 되었습니다. 기능 가용성에 대 한 자세한 내용은 [office 365 서비스 설명: office 365 보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)를 참조 하세요.
+> 데이터 손실 방지 기능은 최근에 Microsoft 팀 채팅에 추가 되었으며, 독립 실행형 옵션으로 제공 되 고 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함 된 Office 365 고급 규정 준수를 위해 사용이 허가 된 사용자에 대 한 채널 메시지입니다. 라이선스 요구 사항에 대 한 자세한 내용은 [Microsoft 365 테 넌 트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
-최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능이 Microsoft 팀을 포함 하도록 확장 되었습니다. 조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다. 다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.
+최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다. 조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다. 다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.
 
 - **예 1: 메시지의 중요 한 정보 보호** 다른 사용자가 guests (외부 사용자)를 사용 하 여 팀 채팅 이나 채널에서 중요 한 정보를 공유 하려고 한다고 가정 합니다. 이를 방지 하기 위해 DLP 정책이 정의 된 경우 외부 사용자에 게 전송 되는 중요 한 정보가 포함 된 메시지가 삭제 됩니다. 이 작업은 DLP 정책이 구성 되는 방식에 따라 자동으로 몇 초 이내에 수행 됩니다.
 
     > [!NOTE]
-    > Microsoft 팀의 DLP는 팀 및 채널에서 [게스트 액세스](https://docs.microsoft.com/MicrosoftTeams/guest-access) 권한이 있는 사용자와 모임 및 채팅 세션에서 [외부 액세스](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) 권한이 있는 사용자와 공유 하는 경우 중요 한 콘텐츠를 차단 합니다. [Microsoft 팀과 비즈니스용 Skype를 함께](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)사용 하는 경우에는 팀의 DLP가 interop 또는 페더레이션 채팅 세션에서 메시지를 차단 하지 않는다는 점을 염두에 두어야 합니다.
+    > Microsoft 팀의 DLP는 다음을 포함 하는 Microsoft 팀 사용자와 공유할 때 중요 한 콘텐츠를 차단 합니다.<br/>- 팀 및 채널에서의 [게스트 액세스](https://docs.microsoft.com/MicrosoftTeams/guest-access) 사용자나<br/>- 모임 및 채팅 세션의 [외부 액세스](https://docs.microsoft.com/MicrosoftTeams/manage-external-access) <p>외부 채팅 세션에 대 한 DLP는 보낸 사람과 받는 사람이 모두 팀 전용 모드이 고 [Microsoft 팀 전용 페더레이션을](https://docs.microsoft.com/microsoftteams/manage-external-access)사용 하는 경우에만 작동 합니다. 팀에 대 한 DLP는 비즈니스용 Skype 또는 비기본 페더레이션 채팅 세션을 사용한 [interop](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability#interoperability-of-teams-and-skype-for-business) 의 메시지를 차단 하지 않습니다.
 
-- **예 2: 문서에서 중요 한 정보를 보호**하는 방법을 설명 합니다. 다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다. 이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다. 이는 Microsoft 팀에 표시 되는 SharePoint 용 DLP의 예입니다.
+- **예 2: 문서에서 중요 한 정보를 보호**하는 방법을 설명 합니다. 다른 사용자가 Microsoft 팀 채널 또는 채팅에서 게스트와 문서를 공유 하려고 하지만 문서에 중요 한 정보가 포함 되어 있다고 가정해 보겠습니다. 이를 방지 하기 위해 DLP 정책을 정의 하는 경우 해당 사용자에 대 한 문서가 열리지 않습니다. 이 경우에는 보호 기능을 적용 하기 위해 DLP 정책에 SharePoint 및 OneDrive가 포함 되어야 합니다. (이는 Microsoft 팀에 표시 되는 SharePoint 용 DLP의 예 이며, 사용자가 office 365 DLP (Office 365 E3에 포함)에 대 한 사용이 허가 되어야 하지만, 사용자에 게 Office 365 고급 규정 준수를 허가할 필요가 없습니다.)
 
 ## <a name="policy-tips-help-educate-users"></a>사용자를 교육 하는 데 도움이 되는 정책 팁
 

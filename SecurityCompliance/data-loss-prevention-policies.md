@@ -3,7 +3,7 @@ title: 데이터 손실 방지 개요
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 05/03/2019
+ms.date: 07/12/2019
 audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -15,17 +15,17 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 Office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 0199d43a7232b41dbbf1a5c67ab77ebe69d47a84
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 2f20b3e3ec7ec3178156ca76c82ec323022f1979
+ms.sourcegitcommit: ea630cf1cbaa98ede5ee320c71a0fad7d7def6fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077854"
+ms.lasthandoff: 07/13/2019
+ms.locfileid: "35672927"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 
 > [!NOTE]
-> 데이터 손실 방지 기능은 최근 Office 365 E5 및 Office 365 고급 규정 준수의 Microsoft 팀에 추가 되었습니다. 기능 가용성에 대 한 자세한 내용은 [office 365 서비스 설명: office 365 보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)를 참조 하세요.
+> 데이터 손실 방지 기능은 최근에 Microsoft 팀 채팅에 추가 되었으며, 독립 실행형 옵션으로 제공 되 고 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함 된 Office 365 고급 규정 준수를 위해 사용이 허가 된 사용자에 대 한 채널 메시지입니다. 라이선스 요구 사항에 대 한 자세한 내용은 [Microsoft 365 테 넌 트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
 
 비즈니스 표준 및 산업 규정을 준수 하기 위해 조직은 중요 한 정보를 보호 하 고 의도 하지 않은 노출을 방지 해야 합니다. 중요 한 정보에는 재무 데이터 또는 PII (개인 식별이 가능한 정보) (예: 신용 카드 번호, 주민 등록 번호 또는 건강 기록)가 포함 될 수 있습니다. Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
   
@@ -59,7 +59,7 @@ Office 365 보안 &amp; 및 준수 센터의 데이터 손실 방지 페이지�
 
 DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니다.
   
-- 콘텐츠를 보호할 위치: Exchange Online, SharePoint Online 및 비즈니스용 OneDrive 사이트, Microsoft 팀 채팅 및 채널과 같은 **위치** 
+- 콘텐츠를 보호할 위치: Exchange Online, SharePoint Online, 비즈니스용 OneDrive 사이트, Microsoft 팀 채팅 및 채널 메시지와 같은 **위치** 
     
 - 다음을 비롯하여 **규칙**을 적용하여 콘텐츠를 보호하는 경우 및 방법 
     
@@ -75,7 +75,7 @@ DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니
   
 ### <a name="locations"></a>위치
 
-DLP 정책은 해당 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀에 있든 관계 없이 Office 365에서 중요 한 정보를 찾고 보호할 수 있습니다. Exchange 전자 메일, Microsoft 팀 채팅 및 채널, 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호 하거나 정책의 특정 위치를 선택 하도록 선택할 수 있습니다.
+DLP 정책은 해당 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀에 있든 관계 없이 Office 365에서 중요 한 정보를 찾고 보호할 수 있습니다. Exchange 전자 메일, Microsoft 팀 채팅 및 채널 메시지, 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호 하거나 정책에 대해 특정 위치를 선택 하도록 선택할 수 있습니다.
   
 ![DLP 정책을 적용할 수 있는 위치에 대 한 옵션](media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
   
@@ -447,7 +447,7 @@ DLP는 심도 깊은 콘텐츠 분석(단순 텍스트 검색 아님)을 사용�
     
 - Office 데스크톱 프로그램 (Excel, PowerPoint 및 Word)
 
-- Microsoft 팀 채널 및 채팅
+- Microsoft 팀 채널 및 채팅 메시지
     
 정책이 올바른 위치와 동기화 되 면 콘텐츠를 평가 하 고 작업을 적용 하기 시작 합니다.
   
@@ -481,7 +481,7 @@ Office의 DLP 정책 계산은 프로그램의 성능 또는 콘텐츠 작업을
 
 ### <a name="policy-evaluation-in-microsoft-teams"></a>Microsoft 팀의 정책 평가
  
-Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Office 365 보안 &amp; 준수 센터에서 사용자 계정 및 Microsoft 팀 채널과 채팅에 동기화 됩니다. DLP 정책이 구성 되는 방식에 따라 누군가 Microsoft 팀 채팅 또는 채널에서 중요 한 정보를 공유 하려고 할 때 메시지가 차단 되거나 해지 될 수 있습니다. 또한 중요 한 정보가 들어 있고 게스트 (외부 사용자)와 공유 되는 문서가 해당 사용자에 대해 열리지 않습니다. 자세한 내용은 [데이터 손실 방지 및 Microsoft 팀](dlp-microsoft-teams.md)을 참조 하십시오.
+Microsoft 팀을 위치를 포함 하는 DLP 정책을 만들 때 정책이 Office 365 보안 &amp; 준수 센터에서 사용자 계정 및 Microsoft 팀 채널과 채팅 메시지와 동기화 됩니다. DLP 정책이 구성 되는 방식에 따라 누군가 Microsoft 팀 채팅 또는 채널 메시지에서 중요 한 정보를 공유 하려고 할 때 메시지가 차단 되거나 해지 될 수 있습니다. 또한 중요 한 정보가 들어 있고 게스트 (외부 사용자)와 공유 되는 문서가 해당 사용자에 대해 열리지 않습니다. 자세한 내용은 [데이터 손실 방지 및 Microsoft 팀](dlp-microsoft-teams.md)을 참조 하십시오.
  
 ## <a name="permissions"></a>사용 권한
 
