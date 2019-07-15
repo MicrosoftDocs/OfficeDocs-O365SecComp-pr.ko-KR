@@ -158,7 +158,7 @@
 ### [Exchange Online의 오류 코드 5.7.7xx 수정](fix-error-code-5-7-7xx-in-exchange-online.md)
 ### [메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)
 ### [분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)
-### [Office 365 ATP에서 관리자 제출](atp-admin-submission.md)
+### [Office 365에서 관리자 제출](admin-submission.md)
 ### [분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)
 ### [목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거](use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md)
 ### [스팸 방지 메시지 헤더](anti-spam-message-headers.md)
@@ -372,6 +372,7 @@
 #### [Advanced eDiscovery 제한 사항](compliance20/limits-ediscovery20.md)
 #### [지원되는 파일 형식](compliance20/supported-filetypes-ediscovery20.md)
 #### [문서 메타데이터 필드](compliance20/document-metadata-fields.md)
+#### [대화 검토 집합](compliance20/conversation-review-sets.md)
 #### [AzCopy 문제 해결](compliance20/troubleshooting-azcopy.md)
 
 
