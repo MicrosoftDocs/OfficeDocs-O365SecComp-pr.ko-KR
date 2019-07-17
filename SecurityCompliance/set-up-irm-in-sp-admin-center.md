@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Sharepoint 목록 및 문서 라이브러리를 보호 하기 위해 Microsoft Azure Active Directory RMS (권한 관리 서비스)를 통해 SharePoint Online IRM을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0df2639a12472ab6452afb7d9b66bc48beb9ba1f
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 16a76ecda37bd5480285dd70670843a88198bdb7
+ms.sourcegitcommit: a97e7da9a1f870540f0bdcba7be5fb6f8bd12f74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156560"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756850"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
@@ -38,7 +38,7 @@ SharePoint Online 내에서 IRM 보호는 목록 및 라이브러리 수준의 �
     
 3. 왼쪽 창에서 **관리 센터** \> **SharePoint**를 선택 합니다.
     
-4. 왼쪽 창에서 **설정을**선택 합니다.
+4. 왼쪽 창에서 **설정을**선택 하 고 **클래식 설정 페이지**를 선택 합니다.
     
 5. **Irm (정보 권한 관리** ) 섹션에서 **구성에 지정 된 IRM 서비스 사용**을 선택 하 고 **IRM 설정 새로 고침**을 선택 합니다. IRM 설정을 새로 고치면 조직의 사용자가 SharePoint 목록 및 문서 라이브러리에서 IRM 사용을 시작할 수 있습니다. 그러나 라이브러리 설정 및 목록 설정에 표시 되는 데 최대 1 시간이 걸릴 수 있습니다.
     
