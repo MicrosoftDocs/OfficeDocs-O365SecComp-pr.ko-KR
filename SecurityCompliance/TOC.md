@@ -587,7 +587,6 @@
 ### [Exchange Online 데이터 복원](office-365-exchange-data-resiliency.md)
 ### [맬웨어 및 랜섬웨어 보호](office-365-malware-and-ransomware-protection.md)
 ### [모니터링 및 자동 복구](office-365-monitoring-and-self-healing.md)
-### [SharePoint Online 데이터 복원](office-365-sharepoint-data-resiliency.md)
 ## [Office 365에서 데이터 보존, 삭제 및 폐기](office-365-data-retention-deletion-and-destruction-overview.md)
 ### [데이터 폐기](office-365-data-destruction.md)
 ### [Office 365의 불변성](office-365-data-immutability.md)
