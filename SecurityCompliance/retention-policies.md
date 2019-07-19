@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게만 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에만 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 87abb5bde49204a465e820afd522d6757a10e97c
-ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
+ms.openlocfilehash: e4690c9c68bd2ead17daa2f717dd751e14338131
+ms.sourcegitcommit: 007af78a01461023bd434768154b5d96503f7e4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35587117"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35772175"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -62,7 +62,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 참고:
   
-- Skype 콘텐츠는 Exchange에 저장되며 이때 정책은 메시지 유형(전자 메일 또는 대화)에 따라 적용됩니다.
+- Teams(채팅) 콘텐츠는 Exchange에 저장되며 이때 정책은 메시지 유형(전자 메일 또는 대화)에 따라 적용됩니다.
     
 - Office 365 그룹에 적용되는 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다.
     

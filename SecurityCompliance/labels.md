@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: 9f9f1ead57d7082e227e229f2204e5af627a7b9c
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: b3637470e0de1413589fc8e1ba35dc48e6823c4b
+ms.sourcegitcommit: 007af78a01461023bd434768154b5d96503f7e4b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547983"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35772165"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -72,7 +72,8 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
   
 ![레이블, 레이블 정책 및 위치 다이어그램](media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
   
-1. 보존 레이블을 게시하면 보존 레이블 정책에 포함됩니다. 
+1. 보존 레이블을 게시하면 보존 레이블 정책에 포함됩니다. 보존 레이블 이름은 변경 불가능하므로 만든 후에는 편집할 수 없습니다.
+
 
 2. 하나의 보존 레이블이 여러 보존 레이블 정책에 포함될 수 있습니다.
 
