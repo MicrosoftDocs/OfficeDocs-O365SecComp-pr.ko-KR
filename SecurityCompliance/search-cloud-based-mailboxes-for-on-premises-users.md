@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대해 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xN 채팅 이라고 함).
-ms.openlocfilehash: 4bc63c4a908aba61b0f289d347d1434222ec2ed8
-ms.sourcegitcommit: a97e7da9a1f870540f0bdcba7be5fb6f8bd12f74
+ms.openlocfilehash: 38aff6116bd3cd8e4ba9f0f46d6fd81f790803f3
+ms.sourcegitcommit: eda5fdbefdd1d9188375f83868c07bc075841c41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35756860"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820491"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색
 
@@ -163,6 +163,6 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
   
 Microsoft가 2018 년 1 월 31 일에 온-프레미스 사용자에 대 한 팀 채팅 데이터 저장을 시작 했습니다. 따라서이 날짜 이후에 Active Directory 및 Azure Active Directory 간에 온-프레미스 팀 사용자의 id가 동기화 된 경우 팀 채팅 데이터가 클라우드 기반 사서함에 저장 되며 콘텐츠 검색을 통해 검색 가능 합니다. 또한 Microsoft는 온-프레미스 사용자의 클라우드 기반 사서함에서 2018 년 1 월 31 일 이전에 팀 채팅 데이터를 저장 하는 작업을 수행 하 고 있습니다. 이에 대 한 자세한 내용은 곧 제공 될 예정입니다.
 
- * * 온-프레미스 사용자가 클라우드 기반 사서함에 팀 채팅 데이터를 저장 하는 데 필요한 라이선스가 필요 한가요? 
+ **온-프레미스 사용자에 게 클라우드 기반 사서함에 팀 채팅 데이터를 저장 하기 위한 라이선스가 필요 한가요?**
   
 예. 온-프레미스 사용자에 대 한 팀 채팅 데이터를 클라우드 기반 사서함에 저장 하려면 사용자에 게 Office 365 (또는 Microsoft 365)의 Microsoft 팀 라이선스 및 Exchange Online 계획 라이선스를 할당 받아야 합니다.

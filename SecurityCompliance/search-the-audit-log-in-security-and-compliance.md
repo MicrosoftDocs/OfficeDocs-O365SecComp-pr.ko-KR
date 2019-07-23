@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: 62fdd26ec4da38610324347e189878f2fb4ad584
-ms.sourcegitcommit: a97e7da9a1f870540f0bdcba7be5fb6f8bd12f74
+ms.openlocfilehash: f2ac7e39f4bb94b516ff64323179e8107a179906
+ms.sourcegitcommit: eda5fdbefdd1d9188375f83868c07bc075841c41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35756880"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820501"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -329,6 +329,7 @@ Office 365에서 감사 로그를 검색 하는 프로세스는 다음과 같습
 |수정 된 파일  <br/> |FileModified  <br/> |사용자 또는 시스템 계정이 사이트에 있는 문서의 내용이 나 속성을 수정 합니다.  <br/> |
 |none  <br/> |FileModifiedExtended  <br/> |이는 "수정 된 파일" (FileModified) 작업과 관련이 있습니다. FileModifiedExtended 이벤트는 동일한 사용자가 계속 해 서 연장 기간 (최대 3 시간) 동안 파일을 수정할 때 기록 됩니다. FileModifiedExtended 이벤트를 로깅하는 목적은 파일을 계속 수정할 때 기록 되는 FileModified 이벤트의 수를 줄이는 것입니다. 이렇게 하면 기본적으로 동일한 사용자 활동에 대 한 여러 FileModified 레코드의 노이즈가 줄어들지만 초기 (및 더 중요 한) FileModified 이벤트에 집중할 수 있습니다.  <br/> |
 |이동 된 파일  <br/> |FileMoved  <br/> |사용자가 사이트의 현재 위치에서 새 위치로 문서를 이동 합니다.  <br/> |
+|none  <br/> |파일 미리 보기  <br/> |사용자가 SharePoint 또는 비즈니스용 OneDrive 사이트의 파일을 미리 볼 수 있습니다. 이러한 이벤트는 일반적으로 이미지 갤러리 보기와 같은 단일 작업을 기반으로 하는 고용량 볼륨에서 발생 합니다.  <br/> |
 |파일의 모든 부 버전 재생  <br/> |FileVersionsAllMinorsRecycled  <br/> |사용자가 파일의 버전 기록에서 모든 부 버전을 삭제 합니다. 삭제 된 버전은 사이트의 휴지통으로 이동 됩니다.  <br/> |
 |모든 파일 버전 재생  <br/> |FileVersionsAllRecycled  <br/> |사용자가 파일의 버전 기록에서 모든 버전을 삭제 합니다. 삭제 된 버전은 사이트의 휴지통으로 이동 됩니다.  <br/> |
 |파일의 재활용 버전  <br/> |FileVersionRecycled  <br/> |사용자가 파일의 버전 기록에서 버전을 삭제 합니다. 삭제 된 버전은 사이트의 휴지통으로 이동 됩니다.  <br/> |
