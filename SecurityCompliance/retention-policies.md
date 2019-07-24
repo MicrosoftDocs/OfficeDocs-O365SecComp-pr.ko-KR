@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게만 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에만 정책을 적용할 수 있습니다.
-ms.openlocfilehash: e4690c9c68bd2ead17daa2f717dd751e14338131
-ms.sourcegitcommit: 007af78a01461023bd434768154b5d96503f7e4b
+ms.openlocfilehash: ca68d2ecb7757435b8af6b63505b5acb2688daf6
+ms.sourcegitcommit: 82ee560bf3ac84079764cbb4a2d858c321f65145
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35772175"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35840908"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -78,7 +78,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 정책이 적용되는 라이브러리, 목록, 폴더 또는 사이트를 삭제하려고하면 오류가 발생합니다. 사용자는 정책의 대상인 폴더에서 파일을 처음으로 이동하거나 삭제하면 폴더를 삭제할 수 있습니다. 또한 보존 라이브러리는 보존 정책을 만들 때가 아니라 라이브러리에 첫 번째 항목을 복사해야하는 경우에만 만들어집니다. 따라서 정책을 테스트하려면 먼저 정책이 적용되는 사이트에서 문서를 편집하거나 삭제한 다음 보존 라이브러리로 이동하여 보존된 복사본을 확인해야합니다.
   
-![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램](Retention_Diagram_of_retention_flow_in_sites.png)
+![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램](media/Retention_Diagram_of_retention_flow_in_sites.png)
   
 보존 정책이 OneDrive 계정 또는 SharePoint 사이트에 할당되면 콘텐츠는 다음 두 가지 경로 중 하나를 따를 수 있습니다.
   
