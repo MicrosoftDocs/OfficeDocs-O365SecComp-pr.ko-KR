@@ -7,7 +7,7 @@ ms.date: 4/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 ms.assetid: 7ff0c040-b25c-4378-9904-b1b50210d00e
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 새로운 Office 365 메시지 암호화 기능이 Azure Information Protection을 기반으로 구축 되 면 조직에서 조직 내부 및 외부 사용자와 보호 된 전자 메일 통신을 사용할 수 있습니다. 새로운 OME 기능은 다른 Office 365 조 직, Outlook.com, Gmail 및 기타 전자 메일 서비스와 함께 작동 합니다.
-ms.openlocfilehash: 415e598a28033271b115aff639fb1ddd7a6345af
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 835b1d6f40868684536dbea8f75dab0665950210
+ms.sourcegitcommit: 33c8e9c16143650ca443d73e91631f9180a9268e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156510"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35854802"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
@@ -53,7 +53,7 @@ Office 365 조직에서 새로운 OME 기능을 사용할 수 있도록 하려�
 
 Azure RMS를 사용 하지 않도록 설정 했거나 어떤 이유로 자동으로 활성화 되지 않은 경우에서 다음에서 수동으로 활성화할 수 있습니다.
 
-- **Office 365 관리 센터**: 지침을 보려면 [office 365 관리 센터에서 Azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-us/azure/information-protection/activate-office365) 참조 하세요.
+- **Microsoft 365 관리 센터**: 지침은 [관리 센터에서 Azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-us/azure/information-protection/activate-office365) 참조 하세요.
 - **Azure portal**: 지침을 보려면 [Azure Portal에서 azure Rights Management를 활성화 하는 방법을](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure) 참조 하세요.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Azure Information Protection 테 넌 트 키 관리 구성
@@ -125,8 +125,8 @@ OME에 대 한 메일 흐름 규칙을 만드는 단계는 [Office 365에서 전
 
 새 OME 기능을 사용 하도록 기존 규칙을 업데이트 하려면 다음을 수행 합니다.
 
-1. Office 365 관리 센터에서 **관리 센터 _GT_ Exchange**로 이동 합니다.
-2. Exchange 관리 센터에서 **메일 흐름 _GT_ 규칙**으로 이동 합니다.
+1. Microsoft 365 관리 센터에서 **관리 센터 > Exchange**로 이동 합니다.
+2. Exchange 관리 센터에서 **메일 흐름 > 규칙**으로 이동 합니다.
 3. 각 규칙에 대해 **다음을 수행 합니다**.
     - **메시지 보안 수정을**선택 합니다.
     - **Office 365 메시지 암호화 및 권한 보호 적용을**선택 합니다.

@@ -7,7 +7,7 @@ ms.date: 03/28/2019
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 - MOE150
@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 도구, 보고 도구 및 위협 인텔리전스 기능이 포함 되어 있습니다.
-ms.openlocfilehash: 0793036f10444064f5f049a6a6ea7254de179967
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 96e79a8aabe0788388473da9fcd514b9285e1c00
+ms.sourcegitcommit: 33c8e9c16143650ca443d73e91631f9180a9268e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600965"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35854782"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -53,7 +53,7 @@ Office 365 ATP는 조직에 적합 한 보호 수준을 설정 하기 위한 다
 
 - [ATP 안전한 첨부 파일](atp-safe-attachments.md): 악성 콘텐츠에 대 한 전자 메일 첨부 파일을 확인 하 여 메시징 시스템을 보호 하는 제로 일 보호를 제공 합니다. 바이러스/맬웨어 서명이 없는 모든 메시지와 첨부 파일을 특수 한 환경으로 라우팅합니다. 그런 다음 컴퓨터 학습 및 분석 기법을 사용 하 여 악의적인 의도를 검색 합니다. 의심 스러운 활동이 발견 되지 않으면 메시지가 사서함으로 전달 됩니다. 자세한 내용은 [Office 365 ATP 안전 첨부 파일 정책 설정을](set-up-atp-safe-attachments-policies.md)참조 하십시오.
 
-- [ATP 안전한 링크](atp-safe-links.md): 전자 메일 메시지 및 Office 파일에서 url을 클릭 하 여 확인할 시간을 제공 합니다. 보호는 진행 중 이며 메시징 및 Office 환경 전체에 적용 됩니다. 각 클릭에 대해 링크가 검색 됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/en-us/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오. 
+- [ATP 안전한 링크](atp-safe-links.md): 전자 메일 메시지 및 Office 파일 등의 url을 클릭 하는 데 걸리는 시간을 확인 합니다. 보호는 진행 중 이며 메시징 및 Office 환경 전체에 적용 됩니다. 각 클릭에 대해 링크가 검색 됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/en-us/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오. 
 
 - [SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP](atp-for-spo-odb-and-teams.md): 사용자가 팀 사이트 및 문서 라이브러리에서 악의적인 파일을 식별 하 고 차단 하 여 파일을 공동 작업 하 고 공유할 때 조직을 보호 합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요. 
 

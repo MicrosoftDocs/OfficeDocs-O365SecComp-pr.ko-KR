@@ -9,18 +9,18 @@ ms.topic: conceptual
 f1_keywords:
 - ms.o365.cc.DLPLandingPage
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
 description: 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지) 정책을 사용 하 여 Office 365에서 중요 한 정보를 식별, 모니터링 및 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 2f20b3e3ec7ec3178156ca76c82ec323022f1979
-ms.sourcegitcommit: ea630cf1cbaa98ede5ee320c71a0fad7d7def6fb
+ms.openlocfilehash: 35dbaf11685298f2db07c5c516f8d20237eaaf20
+ms.sourcegitcommit: 33c8e9c16143650ca443d73e91631f9180a9268e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2019
-ms.locfileid: "35672927"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35854772"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 
