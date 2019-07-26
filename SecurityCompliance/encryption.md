@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서는 콘텐츠를 보관 하 고 전송 중에 사용 가능한 가장 강력한 암호화, 프로토콜 및 기술을 사용 하 여 암호화 합니다. Office 365의 암호화에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: 4e41528aed3461cc15fef1bc2ab970d1823129fb
-ms.sourcegitcommit: 986f40a00ab454093b21e724d58594b8b8b4a9ba
+ms.openlocfilehash: 66b428abd67d86ba257e4f4336c6b12ee1c3d97b
+ms.sourcegitcommit: a550519ca8f2a54712bf0a43be7f954e55675dac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35613646"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35902480"
 ---
 # <a name="encryption-in-office-365"></a>Office 365의 암호화
 
@@ -61,7 +61,7 @@ Office 365의 볼륨 암호화, 파일 암호화 및 사서함 암호화에 대 
   
 - [Azure 권한 관리 란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
-- [Office 365 관리 센터에서 Azure 권한 관리 활성화](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
+- [관리 센터에서 권한 관리 활성화](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
 
 - [Set up Information Rights Management (IRM) in SharePoint admin center](set-up-irm-in-sp-admin-center.md)
 
@@ -72,7 +72,7 @@ Office 365의 볼륨 암호화, 파일 암호화 및 사서함 암호화에 대 
 |조직에 대 한 암호화 설정  <br/> |[Office 365 Enterprise의 암호화 설정](set-up-encryption.md) <br/> |
 |Office 365의 인증서, 기술 및 TLS 암호 도구에 대 한 세부 정보 보기  <br/> |[Office 365의 암호화에 대 한 기술 세부 정보](technical-reference-details-about-encryption.md) <br/> |
 |모바일 장치에서 암호화 된 메시지 작업  <br/> |[Android 장치에서 암호화 된 메시지 보기](https://support.office.com/article/83d60f17-2305-407a-a762-7d518401fdeb) <br/> [IPhone 또는 iPad에서 암호화 된 메시지 보기](https://support.office.com/article/4d631321-0d26-4bcc-a483-d294dd0b1caf) <br/> |
-|암호 보호를 사용 하 여 문서 암호화  <br/><br/>  현재 Office Online에서는 암호 보호가 지원 되지 않습니다. 데스크톱 버전의 Word, Excel 및 PowerPoint를 암호 보호에 사용 합니다.           |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) ( **보호 추가** 섹션을 선택한 다음 **암호를 사용 하 여 암호화** 참조)  <br/> |
+|암호 보호를 사용 하 여 문서 암호화  <br/><br/>  현재 브라우저에서는 Office에서 암호 보호가 지원 되지 않습니다. 데스크톱 버전의 Word, Excel 및 PowerPoint를 암호 보호에 사용 합니다.           |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) ( **보호 추가** 섹션을 선택한 다음 **암호를 사용 하 여 암호화** 참조)  <br/> |
 |문서에서 암호화 제거  <br/> |[문서, 통합 문서 또는 프레젠테이션에서 보호 기능 추가 또는 제거](https://support.office.com/article/05084cc3-300d-4c1a-8416-38d3e37d6826) ( **보호 제거** 섹션을 선택 하 고 **암호 암호화 제거** 참조)  <br/> |
 
 ## <a name="related-topics"></a>관련 항목
