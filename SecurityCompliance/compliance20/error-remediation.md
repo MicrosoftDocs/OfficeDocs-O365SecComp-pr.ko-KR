@@ -14,20 +14,20 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8653ebd82e9c045c4fc49b00fcb82bf22ab3f906
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: 5168196dcac8a2cb3809f43fabb470c0f64cd0f7
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547943"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048167"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
-오류 수정을 통해 eDiscovery 관리자는 데이터 문제를 수정 하 여 고급 eDiscovery가 콘텐츠를 제대로 처리 하지 못하게 할 수 있습니다. 예를 들어 암호로 보호 된 파일은 파일을 잠그거나 암호화 한 후에 처리할 수 없습니다. EDiscovery 관리자는 오류 수정을 사용 하 여 해당 오류와 함께 파일을 다운로드 하 고, 암호 보호를 제거 하 고, 재구성 된 파일을 업로드할 수 있습니다.
+오류 수정을 통해 eDiscovery 관리자는 고급 eDiscovery가 콘텐츠를 제대로 처리 하지 못하게 하는 데이터 문제를 해결할 수 있습니다. 예를 들어 암호로 보호 된 파일은 파일을 잠그거나 암호화 한 후에 처리할 수 없습니다. 오류 수정을 사용 하는 경우 eDiscovery 관리자는 이러한 오류와 함께 파일을 다운로드 하 고 암호 보호를 제거한 다음 재구성 된 파일을 업로드할 수 있습니다.
 
 다음 워크플로를 사용 하 여 고급 eDiscovery 사례에서 오류가 발생 한 파일을 수정 합니다.
 
-## <a name="creating-an-error-remediation-session-to-remediate-files-with-processing-errors"></a>처리 오류가 발생 한 파일을 수정 하기 위한 오류 업데이트 관리 세션 만들기
+## <a name="create-an-error-remediation-session-to-remediate-files-with-processing-errors"></a>처리 오류가 있는 파일을 수정 하는 오류 업데이트 관리 세션 만들기
 
 >[!NOTE]
 >다음 절차 중에 오류 수정 마법사를 언제 든 지 닫을 경우, **보기** 드롭다운 메뉴에서 **오류 remediations** 를 선택 하 여 **처리** 탭에서 오류 수정 세션으로 돌아갈 수 있습니다.
@@ -36,11 +36,11 @@ ms.locfileid: "34547943"
 
 2. 오류 유형 또는 파일 형식 옆의 라디오 단추를 클릭 하 여 수정할 오류를 선택 합니다.  다음 예제에서는 암호로 보호 된 파일을 수정 합니다.
 
-3. **+ 새 오류 수정을**클릭 합니다.
+3. **새 오류 수정을**클릭 합니다.
 
     ![오류 수정](../media/8c2faf1a-834b-44fc-b418-6a18aed8b81a.png)
 
-    오류가 발생 한 파일을 다운로드할 수 있도록 안전한 Azure 위치에 복사 되는 준비 단계부터 시작 하 여 오류 관리 세션이 시작 됩니다.
+    오류 업데이트 관리 세션은 오류가 발생 한 파일을 Microsoft에서 제공한 Azure 저장소 위치로 복사 하 여 로컬 컴퓨터에 다운로드 하 여 수정 하는 준비 단계에서 시작 됩니다.
 
     ![오류 수정 준비](../media/390572ec-7012-47c4-a6b6-4cbb5649e8a8.png)
 
@@ -48,13 +48,7 @@ ms.locfileid: "34547943"
 
     ![파일 다운로드](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
-5. 파일을 다운로드 하려면 **다운로드할 대상 경로**를 지정 합니다. 로컬 컴퓨터에서 파일을 다운로드 해야 하는 경로입니다.  기본 경로인%USERPROFILE%\Downloads\errors은 로그인 한 사용자의 다운로드 폴더를 가리킵니다. 이는 필요에 따라 변경할 수 있습니다.
-
-    >[!NOTE]
-    >최적의 성능을 위해 원격 네트워크 경로 대신 로컬 파일 경로를 사용 하는 것이 좋습니다.
-
-    > [!NOTE]
-    > AzCopy을 설치 하지 않은 경우 여기에서 설치할 수 있습니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
+5. 파일을 다운로드 하려면 **다운로드 대상 경로**를 지정 합니다. 파일을 다운로드 하는 로컬 컴퓨터의 경로입니다.  기본 경로인%USERPROFILE%\Downloads\errors는 로그인 한 사용자의 다운로드 폴더를 가리킵니다. 필요한 경우이 경로를 변경할 수 있습니다. 이 작업을 변경 하는 경우에는 원격 네트워크 경로 대신 로컬 파일 경로를 사용 하 여 성능을 최적화 하는 것이 좋습니다.
 
 6. **클립보드에 복사를**클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키 **** 를 누릅니다.  
 
@@ -63,9 +57,9 @@ ms.locfileid: "34547943"
     ![오류 수정 준비](../media/f364ab4d-31c5-4375-b69f-650f694a2f69.png)
 
     > [!NOTE]
-    > 제공 된 AzCopy 명령이 실패 하면 [Advanced EDiscovery AzCopy에서 문제 해결](troubleshooting-azcopy.md)을 참조 하세요.
+    > **파일 다운로드** 페이지에 제공 된 명령을 정상적으로 사용 하려면 AzCopy v 8.1을 사용 해야 합니다. 또한 아래의 10 단계에서 AzCopy v 8.1을 사용 하 여 파일을 업로드 해야 합니다. 이 버전의 AzCopy을 설치 하려면 [Windows의 AzCopy v 8.1을 사용 하 여 데이터 전송을](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)참조 하세요. 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery에서 AzCopy 문제 해결](troubleshooting-azcopy.md)을 참조 하세요.
 
-7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 다양 한 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
+7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 여러 가지 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
     > [!NOTE]
     > Tact에서 재구성 된 파일의 디렉터리 구조와 파일 이름은 유지 하는 것이 중요 합니다.  다운로드 한 파일 및 폴더에 사용 되는 모든 명명 규칙을 통해 remdiated 파일을 다시 원본에 연결할 수 있습니다.
 
@@ -79,7 +73,7 @@ ms.locfileid: "34547943"
 
     ![ff2ff691-629f-4065-9b37-5333f937daf6-.png](../media/ff2ff691-629f-4065-9b37-5333f937daf6.png)
 
-11. 마지막으로 Advanced eDiscovery로 돌아간 후 **다음: 프로세스 파일**을 클릭 합니다.
+11. Advanced eDiscovery로 돌아간 후 **다음: 프로세스 파일**을 클릭 합니다.
 
 12. 처리가 완료 되 면  검토 집합으로 돌아가 재구성 된 파일을 볼 수 있습니다.
 

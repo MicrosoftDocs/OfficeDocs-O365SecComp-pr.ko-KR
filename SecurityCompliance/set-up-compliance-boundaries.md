@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: ab9fae4dcae04bc79c94f5a5138dfd56cc551414
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 902006039ec949d84c020d8e85f998bde41ad97d
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156580"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048070"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -86,9 +86,9 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
   
 ## <a name="step-3-create-a-role-group-for-each-agency"></a>3 단계: 각 에이전시에 대 한 역할 그룹 만들기
 
-다음 단계는 사용자의 조직과 부합 되는 보안 & 준수 센터에서 역할 그룹을 만드는 것입니다. 기본 제공 eDiscovery 관리자 그룹을 복사 하 고, 적절 한 구성원을 추가 하 고, 필요에 따라 적용 되지 않을 수 있는 역할을 제거 하 여 새 역할 그룹을 만드는 것이 좋습니다. EDiscovery 관련 역할에 대 한 자세한 내용은 [Office 365 Security _AMP_ 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+다음 단계에서는 보안 & 준수 센터에서 조직과 부합 하는 역할 그룹을 만듭니다. 기본 제공 eDiscovery 관리자 그룹을 복사 하 고, 적절 한 구성원을 추가 하 고, 필요에 따라 적용 되지 않을 수 있는 역할을 제거 하 여 새 역할 그룹을 만드는 것이 좋습니다. EDiscovery 관련 역할에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
-역할 그룹을 만들려면 Security & 준수 센터의 **사용 권한** 페이지로 이동한 후 준수 경계 및 eDiscovery 사례를 사용 하 여 조사를 관리할 각 에이전시의 각 팀에 대해 역할 그룹을 만듭니다. 
+역할 그룹을 만들려면 보안 & 준수 센터의 **사용 권한** 페이지로 이동한 후 준수 경계 및 eDiscovery 사례를 사용 하 여 조사를 관리할 각 에이전시의 각 팀에 대해 역할 그룹을 만듭니다. 
   
 Contoso 준수 경계 시나리오를 사용 하 여 네 개의 역할 그룹을 만들고 해당 구성원을 각각에 추가 해야 합니다.
   
@@ -146,16 +146,16 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
 ## <a name="step-5-create-an-ediscovery-case-for-an-intra-agency-investigations"></a>5 단계: 에이전시 내 조사에 대 한 eDiscovery 사례 만들기
 
-마지막 단계는 Security & 준수 센터에서 새 eDiscovery 사례를 만든 다음 3 단계에서 만든 역할 그룹을 사례 구성원으로 추가 하는 것입니다. 이로 인해 준수 경계를 사용 하는 경우의 두 가지 중요 한 특징이 있습니다.
+마지막 단계에서는 보안 & 준수 센터에서 새 eDiscovery 사례를 만든 다음 3 단계에서 만든 역할 그룹 (사례 구성원)을 추가 합니다. 이로 인해 준수 경계를 사용 하는 경우의 두 가지 중요 한 특징이 있습니다.
   
-- 사례에 추가 된 역할 그룹의 구성원만이 보안 & 준수 센터의 사례를 보고 액세스할 수 있습니다. 예를 들어, 네 번째 커피 Investigators 역할 그룹이 사례 유일한 구성원 인 경우에는 네 번째 커피 eDiscovery 관리자 역할 그룹의 구성원 또는 다른 역할 그룹의 구성원도 해당 사례를 보거나 액세스할 수 없습니다.
+- 사례에 추가 된 역할 그룹의 구성원만이 보안 & 준수 센터에서 사례를 보고 액세스할 수 있습니다. 예를 들어, 네 번째 커피 Investigators 역할 그룹이 사례 유일한 구성원 인 경우에는 네 번째 커피 eDiscovery 관리자 역할 그룹의 구성원 또는 다른 역할 그룹의 구성원도 해당 사례를 보거나 액세스할 수 없습니다.
     
 - 사례에 할당 된 역할 그룹의 구성원이 사례와 연결 된 검색을 실행 하는 경우, 해당 사용자는 해당 에이전시 (4 단계에서 만든 검색 권한 필터에 의해 정의 됨) 내의 콘텐츠 위치만 검색할 수 있습니다.
 
 
 새 사례를 만들고 구성원을 할당 하려면 다음을 수행 합니다.
     
-1. Security & 준수 센터의 **eDiscovery** 페이지로 이동 하 여 새 사례를 만듭니다. 
+1. 보안 & 준수 센터의 **eDiscovery** 페이지로 이동 하 여 새 사례를 만듭니다. 
     
 2. EDiscovery 사례 목록에서 방금 만든 사례 이름을 클릭 합니다.
     
@@ -189,7 +189,7 @@ EDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관
   
     |**매개 변수 값**|**데이터 센터 위치**|
     |:-----|:-----|
-    |NAM  <br/> |북미 (실제 데이터 센터는 미국)  <br/> |
+    |NAM  <br/> |북미 (데이터 센터는 미국)  <br/> |
     |EUR  <br/> |유럽  <br/> |
     |APC  <br/> |아시아 태평양  <br/> |
     |CAN <br/> |캐나다
@@ -244,7 +244,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 
  **New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
   
-검색 사용 권한 필터를 만들고 보고 수정 하려면 Security & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다.
+검색 권한 필터를 만들고 보고 수정 하려면 보안 & 준수 센터에서 조직 관리 역할 그룹의 구성원 이어야 합니다.
   
  **여러 기관에 걸쳐 있는 둘 이상의 역할 그룹에 eDiscovery 관리자를 할당 하는 경우, 한 에이전시에서 콘텐츠를 검색 하려면 어떻게 해야 합니까?**
   

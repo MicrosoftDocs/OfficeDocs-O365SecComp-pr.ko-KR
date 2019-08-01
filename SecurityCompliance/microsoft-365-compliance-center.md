@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 새로운 Microsoft 365 준수 센터에 대해 알아봅니다.
-ms.openlocfilehash: fc6ab6893e142b3beb5289c8430477727b3844ac
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: ec7dff8d230bc3b9e7ab1fd4a9348a1b8eb0ca9b
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852792"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048230"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>모든 신규 Microsoft 365 준수 센터 개요
 
@@ -68,7 +68,7 @@ Microsoft 365 준수 센터, 제공 [방법](#how-do-i-get-this), 질문과 [대
 
 |  |  |
 |---------|---------|
-|![Microsoft 365 준수 센터의 탐색](media/m365-compliance-center-leftnav.png)  |<br/><br/> 경고를 보고 확인 하는 **알림** 으로 이동 [](alerts.md)<br/><br/>**보고서** 를 방문 하 여 [레이블 사용 및 보존](sensitivity-labels.md), [DLP 정책 일치 및 재정의](view-the-dlp-reports.md), [공유 파일](https://docs.microsoft.com/cloud-app-security/file-filters), [타사 앱](https://docs.microsoft.com/cloud-app-security/discovered-apps)및 기타 정보에 대 한 데이터를 확인 합니다.<br/><br/>**분류** 섹션을 확장 하 여 [레이블](labels.md), [레이블 정책](sensitivity-labels.md#what-label-policies-can-do), 중요 한 [정보 유형](what-the-sensitive-information-types-look-for.md)및 [레이블 분석](view-label-activity-for-documents.md)에 액세스 합니다.<br/><br/>**정책** 으로 이동 하 여 [알림을](alerts.md) 보고 [DLP](data-loss-prevention-policies.md) 및 [보존](retention-policies.md) 정책에 액세스 합니다.<br/><br/> 조직의 규정 준수 솔루션에 액세스 하려면 **솔루션** 섹션의 링크를 사용 합니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다. <br/>[데이터 거 버 넌 스 > Dispositions](disposition-reviews.md)<br/>[eDiscovery (미리 보기)](compliance20/overview-ediscovery-20.md)<br/>[감독](supervision-policies.md)<br/>[데이터 조사](datainvestigations/overview-data-investigations.md)<br/>[데이터 주체 요청](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
+|![Microsoft 365 준수 센터의 탐색](media/m365-compliance-center-leftnav.png)  |<br/><br/> 경고를 보고 확인 하는 **알림** 으로 이동 [](alerts.md)<br/><br/>**보고서** 를 방문 하 여 [레이블 사용 및 보존](sensitivity-labels.md), [DLP 정책 일치 및 재정의](view-the-dlp-reports.md), [공유 파일](https://docs.microsoft.com/cloud-app-security/file-filters), [타사 앱](https://docs.microsoft.com/cloud-app-security/discovered-apps)및 기타 정보에 대 한 데이터를 확인 합니다.<br/><br/>**분류** 섹션을 확장 하 여 [레이블](labels.md), [레이블 정책](sensitivity-labels.md#what-label-policies-can-do), 중요 한 [정보 유형](what-the-sensitive-information-types-look-for.md)및 [레이블 분석](view-label-activity-for-documents.md)에 액세스 합니다.<br/><br/>**정책** 으로 이동 하 여 [알림을](alerts.md) 보고 [DLP](data-loss-prevention-policies.md) 및 [보존](retention-policies.md) 정책에 액세스 합니다.<br/><br/> 조직의 규정 준수 솔루션에 액세스 하려면 **솔루션** 섹션의 링크를 사용 합니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다. <br/>[데이터 거 버 넌 스 > Dispositions](disposition-reviews.md)<br/>[eDiscovery](compliance20/overview-ediscovery-20.md)<br/>[감독](supervision-policies.md)<br/>[데이터 조사](datainvestigations/overview-data-investigations.md)<br/>[데이터 주체 요청](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)        |
 
 
 ## <a name="how-do-i-get-this"></a>이를 어떻게 얻을 수 있나요?

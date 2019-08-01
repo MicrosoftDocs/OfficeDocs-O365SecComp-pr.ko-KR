@@ -2,7 +2,7 @@
 title: Office 365 ATP 안전한 링크 정책 설정
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.date: 06/26/2019
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 8fd49eddc402400acafe0f9d702d19c7a3f63949
-ms.sourcegitcommit: 011bfa60cafdf47900aadf96a17eb275efa877c4
+ms.openlocfilehash: 0acee8ee333c8a8f81ed624c52287c412a25ccbb
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394343"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048080"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -97,9 +97,9 @@ ms.locfileid: "35394343"
     
   - **작업 선택** 섹션에서 **설정**를 선택 합니다.
     
-  - **다운로드 가능한 콘텐츠를 검색 하려면 안전한 첨부 파일 사용을**선택 합니다.
+  - 의심 스 럽 거 나 파일 포인팅 url에 대해 URL 샌드 박싱을 사용 하도록 설정 하려면 (권장), **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검사 적용** 을 선택 합니다. Url을 완전히 검색 한 후 사용자에 게 메시지를 수신 하도록 하려면 **메시지를 배달 하기 전에 url 검색이 완료 될 때까지 기다립니다** .를 선택 합니다.
     
-  - 이 옵션을 사용할 수 있는 경우 **조직 내에서 보낸 메시지에 안전한 링크 적용**을 선택 합니다.
+  - 조직 내 사용자 간에 전송 된 메시지에 대 한 안전한 링크를 사용 하도록 설정 하려면 **조직 내에서 보낸 메시지에 안전한 링크 적용** 을 선택 합니다 (권장).
     
   - **사용자가 원래 URL을 클릭 하도록 허용 안 함을**선택 합니다.
     

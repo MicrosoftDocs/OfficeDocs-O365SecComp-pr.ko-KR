@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 Office 이외 365 데이터를 검토 집합으로 가져옵니다.
-ms.openlocfilehash: 37f8c2a5c97452845152e2a12578b9d243ab6711
-ms.sourcegitcommit: 82ee560bf3ac84079764cbb4a2d858c321f65145
+ms.openlocfilehash: d7609c774e7c8a42e24b22a87fbed271a12a97f5
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35840870"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048110"
 ---
 # <a name="load-non-office-365-data-into-a-review-set"></a>검토 집합에 비 Office 365 데이터 로드
 
@@ -40,7 +40,7 @@ ms.locfileid: "35840870"
 
 - Office가 아닌 365 데이터는 고급 eDiscovery에서 지 원하는 파일 형식 이어야 합니다. 자세한 내용은 [Advanced eDiscovery에서 지원 되는 파일 형식을](supported-filetypes-ediscovery20.md)참조 하세요.
 
-- 검토 집합에 업로드 되는 모든 파일은 각 폴더가 특정 custodian 연결 되는 폴더에 있어야 합니다. 이러한 폴더의 이름은 *alias @ domainname*을 사용 해야 합니다. *Alias @ domainname* 은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 루트 폴더에 있는 모든 *alias @ domainname* 폴더를 수집할 수 있습니다. 루트 폴더에는 *alias @ domainname* 폴더만 포함 될 수 있습니다. 루트 폴더의 느슨한 파일은 지원 되지 않습니다.
+- 검토 집합에 업로드 되는 모든 파일은 각 폴더가 특정 custodian 연결 되는 폴더에 있어야 합니다. 이러한 폴더의 이름은 *alias @ domainname*을 사용 해야 합니다. Alias @ domainname은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 루트 폴더에 있는 모든 alias @ domainname 폴더를 수집할 수 있습니다. 루트 폴더에는 alias @ domainname 폴더만 포함 될 수 있습니다. 루트 폴더의 느슨한 파일은 지원 되지 않습니다.
 
    업로드할 비 Office 365 데이터에 대 한 폴더 구조는 다음 예와 비슷합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "35840870"
 
 - EDiscovery 관리자 역할 그룹에 할당 되 고 eDiscovery 관리자로 추가 된 계정입니다.
 
-- Office가 아닌 365 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 설치 된 Microsoft Azure Storage Tools입니다. AzCopy을 설치 하려면 [AzCopy 시작](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy)하기를 참조 하세요. 기본 위치인 **% ProgramFiles (x86)% \ Microsoft SDKs\Azure\AzCopy**에 AzCopy을 (를) 설치 해야 합니다.
+- Office가 아닌 365 콘텐츠 폴더 구조에 대 한 액세스 권한이 있는 컴퓨터에 설치 된 AzCopy v 8.1 도구입니다. AzCopy을 설치 하려면 [Windows의 AzCopy v 8.1을 사용 하 여 데이터 전송을](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)참조 하세요. 기본 위치인 **% ProgramFiles (x86)% \ Microsoft SDKs\Azure\AzCopy**에 AzCopy을 (를) 설치 해야 합니다. AzCopy v 8.1을 사용 해야 합니다. 고급 eDiscovery에서 비 Office 365 데이터를 로드할 때 다른 버전의 AzCopy 작동 하지 않을 수 있습니다.
 
 
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Office 이외의 365 콘텐츠를 고급 eDiscovery에 업로드
@@ -81,14 +81,14 @@ ms.locfileid: "35840870"
 
    위한. **파일 위치 경로** 상자에서 업로드 하려는 비 Office 365 데이터를 저장 한 루트 폴더의 위치를 확인 하거나 입력 합니다. 예를 들어 **시작 하기 전에 구역**에 표시 된 예제 파일의 위치에는 **%USERPROFILE\Downloads\nonO365**를 입력 합니다. 올바른 위치를 제공 하면 경로 아래의 상자에 표시 되는 AzCopy 명령이 제대로 업데이트 됩니다.
 
-   b. 상자에 표시 된 명령을 복사 하려면 **클립보드에 복사** 를 클릭 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키를 누릅니다.  파일이 보안 Azure blob 저장소에 업로드 되 고 다음 단계를 진행 합니다.
+   b. 상자에 표시 된 명령을 복사 하려면 **클립보드에 복사** 를 클릭 합니다.
 
 7. Windows 명령 프롬프트를 시작 하 고 이전 단계에서 복사한 명령을 붙여 넣은 다음 enter 키를 눌러 AzCopy **** 명령을 시작 합니다.  명령을 시작한 후에는 Office가 아닌 365 파일이 4 단계에서 준비 된 Azure 저장소 위치로 업로드 됩니다.
 
    ![비 Office 365 가져오기: AzCopy](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
    > [!NOTE]
-   > 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery에서 AzCopy 문제 해결](troubleshooting-azcopy.md) 을 참조 하세요.
+   > 앞에서 설명한 것 처럼 AzCopy v 8.1을 사용 하 여 **파일 업로드** 페이지에 제공 된 명령을 성공적으로 사용 해야 합니다. 제공 된 AzCopy 명령이 실패 하면 [Advanced eDiscovery에서 AzCopy 문제 해결](troubleshooting-azcopy.md)을 참조 하세요.
 
 8. 보안 & 준수 센터로 돌아간 후 **다음: 마법사에서 프로세스 파일** 을 클릭 합니다.  이렇게 하면 Azure 저장소 위치로 업로드 된 비 Office 365 파일의 처리, 텍스트 추출 및 인덱싱이 시작 됩니다.  
 

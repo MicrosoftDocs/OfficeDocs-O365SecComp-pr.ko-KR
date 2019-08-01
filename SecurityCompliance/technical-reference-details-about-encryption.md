@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
 description: Office 365의 encyption에 대 한 기술 세부 정보를 확인 합니다.
-ms.openlocfilehash: 84416c67eb646c757da93fc9e4029c08efaa70a2
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0ae26aa6a534f0de0923f869acb94d7ee8529f31
+ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158230"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36048240"
 ---
 # <a name="technical-reference-details-about-encryption-in-office-365"></a>Office 365의 암호화에 대한 기술 관련 세부 정보
 
@@ -57,7 +57,11 @@ TLS(전송 계층 보안) 및 TLS 이전의 SSL은 보안 인증서를 사용하
 
 2018는 Office 365에서 더 이상 TLS 1.0 및 1.1을 지원 하지 않으므로 10 월 31 일 이후로 발생 합니다. 즉, Microsoft는 TLS 1.0 및 1.1을 사용 하 여 Office 365에 연결 되는 클라이언트, 장치 또는 서비스에서 발견 된 새로운 문제를 해결 하지 않습니다.
 
-참고이는 Office 365에서 TLS 1.0 및 1.1 연결을 차단 한다는 의미는 아닙니다. TLS 서비스에서 고객 연결을 위해 TLS 1.0 및 1.1을 사용 하지 않도록 설정 하거나 제거 하는 공식 날짜는 제공 되지 않습니다. 최종 작동 중단 날짜는 고객 원격 분석에 따라 결정 되며 아직 알려진 것은 아닙니다. 결정이 완료 된 후에 알려진 손상에 대해 알고 있는 경우를 제외 하 고는 6 개월 이내에 알림을 받을 수 있으며,이 경우 서비스를 사용 하는 고객을 보호 하기 위해 6 개월 이내로 작업을 수행 해야 할 수 있습니다.
+참고이는 Office 365에서 TLS 1.0 및 1.1 연결을 차단 한다는 의미는 아닙니다. 
+
+TLS 1.0 및 TLS 1.1은 아래 날짜에 공식적으로 사용 되지 않습니다.
+- 전 세계 및 GCC 환경의 고객을 위한 2020 년 6 월 1 일
+- GCC High 및 DoD sovereign 클라우드에 환경에 있는 고객의 경우 2020 년 1 월 15 일 
 
 모든 클라이언트 서버와 브라우저 서버 조합에서 TLS 1.2 (이상 버전)를 사용 하 여 Office 365 서비스에 대 한 연결을 유지 하도록 해야 합니다. 특정 클라이언트-서버 및 브라우저 서버 조합을 업데이트 해야 할 수 있습니다. 이를 통해 영향을 주는 방법에 대 한 자세한 내용은 [Office 365에서 TLS 1.2의 필수 사용 준비](https://support.microsoft.com/en-us/help/4057306/preparing-for-tls-1-2-in-office-365)를 참조 하세요.
   
