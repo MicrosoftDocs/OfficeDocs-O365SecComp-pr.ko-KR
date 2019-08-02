@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: f19556f88783eed86bd33a7fdcbd1efae18c3ef3
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 9b59e352131121978ae6a523cc07ea40196e8038
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852532"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054700"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
@@ -133,6 +133,9 @@ IOS 메일 앱은 Office 365 메시지 암호화로 보호 된 메시지의 암�
    ```powershell
    Set-ActiveSyncOrganizationSettings -AllowRMSSupportForUnenlightenedApps $false
    ```
+> [!NOTE]
+
+> 개별 사서함 정책 (OWA/ActiveSync)은 이러한 설정 (예: 해당 하는 OWA 사서함 정책 또는 ActiveSync 사서함 정책 내에서 IRMEnabled이 False로 설정 됨)을 재정의 합니다.
 
 ## <a name="enable-service-side-decryption-of-email-attachments-for-web-browser-mail-clients"></a>웹 브라우저 메일 클라이언트에 대 한 전자 메일 첨부 파일의 서비스 쪽 암호 해독을 사용 하도록 설정
 

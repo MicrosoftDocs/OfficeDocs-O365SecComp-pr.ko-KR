@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 520ca0fb48a131026d9a46138605892203bf6e93
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 6d982b635513050d931397bbc517ae3d76ee3752
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599604"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054730"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -64,11 +64,9 @@ ms.locfileid: "35599604"
     > [!IMPORTANT]
     > Azure Active Directory 동기화 도구 구성 마법사를 완료하면 Active Directory 포리스트에 **MSOL_AD_SYNC** 계정이 만들어집니다. 이 계정을 사용하여 온-프레미스 Active Directory 정보를 읽고 동기화합니다. 디렉터리 동기화가 정상적으로 작동하도록 하려면 로컬 디렉터리 동기화 서버의 TCP 443이 열려 있는지 확인합니다. 
   
-4. [동기화된 사용자 활성화](http://go.microsoft.com/fwlink/p/?LinkId=308913)의 설명에 따라 동기화된 사용자를 활성화합니다.
+  4. [디렉터리 동기화 관리](http://go.microsoft.com/fwlink/p/?LinkId=308915)의 설명에 따라 디렉터리 동기화를 관리합니다.
     
-5. [디렉터리 동기화 관리](http://go.microsoft.com/fwlink/p/?LinkId=308915)의 설명에 따라 디렉터리 동기화를 관리합니다.
-    
-6. EOP가 올바르게 동기화되는지 확인합니다. 이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다. 
+  5. EOP가 올바르게 동기화되는지 확인합니다. 이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다. 
     
 ## <a name="use-the-eac-to-manage-mail-users"></a>EAC를 사용하여 메일 사용자 관리
 

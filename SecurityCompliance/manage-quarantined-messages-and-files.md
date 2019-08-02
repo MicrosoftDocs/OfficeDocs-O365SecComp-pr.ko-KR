@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: '관리자는 Office 365에서 허위 격리 된 메시지를 보고, 해제 하 고, 보고할 수 있습니다. Office 365에서 메시지를 필터링 하 여 격리에 전송 하는 경우 (예: 스팸, 대량, 피싱, 맬웨어 또는 메일 흐름 규칙과 일치 하는 경우)에는 정책을 설정할 수 있습니다. '
-ms.openlocfilehash: 245068b7d3ec51cbca887883f791b19ea116731a
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: dda6766ec5fa7858abef0037f0a67ec8869abd59
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35598804"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054720"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 
@@ -29,14 +29,14 @@ ms.locfileid: "35598804"
   
 기본적으로 Office 365은 피싱 메시지와 맬웨어가 있는 메시지를 격리에 직접 보냅니다. 필터링 된 기타 메시지는 격리를 보내도록 정책을 설정 하지 않은 경우 사용자의 정크 메일 폴더로 전송 됩니다.
   
-다른 사용자에 게 전송 되 고 격리 된 파일로 작업 하려면 격리 된 메시지를 사용 하 여 Office 365의 보안 관리자 또는 보안 및 준수 센터의 Security administrator에 게 해당 하는 GA (전역 관리자) 권한이 있어야 합니다.
+격리 된 메시지 또는 격리 한 파일을 사용 하려면 Office 365에는 GA (전역 관리자) 권한이 있거나 하나 이상의 보안 & 준수 센터 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center) 참조 하세요.
   
 > [!IMPORTANT]
 >기본적으로 스팸, 대량 및 피싱 메시지는 30 일 동안 격리 된 상태로 유지 됩니다. 메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 7 일 동안 격리 된 상태로 유지 됩니다. 맬웨어 메시지는 15 일 동안 격리 된 상태로 유지 됩니다. 보안 &amp; 및 준수 센터의 스팸 방지 설정에서 스팸 격리 시간을 사용자 지정할 수 있습니다. Office 365이 격리에서 메시지를 삭제 하는 경우에는 다시 가져올 수 없습니다. 원하는 경우 스팸 방지 필터 정책에서 격리 된 메시지의 보존 기간을 변경할 수 있습니다. 자세한 내용은이 문서의 [격리 보존 기간 설정을](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime) 참조 하십시오. 
   
 ## <a name="view-your-organizations-quarantined-messages"></a>조직의 격리 된 메시지 보기
 
-1. Office 365 조 직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
+1. Office 365 조직에서 전역 관리자 권한 (또는 적절 한 보안 & 준수 센터 역할)이 포함 된 회사 또는 학교 계정을 사용 하 여 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
     
 2. 왼쪽의 목록에서 **위협 관리**를 확장 하 고 **검토**를 선택한 다음 **격리**를 선택 합니다.
     
@@ -189,7 +189,7 @@ ms.locfileid: "35598804"
   
 ### <a name="to-modify-the-quarantine-retention-period-for-the-default-spam-filter-policy-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 기본 스팸 필터 정책에 대 한 격리 보존 기간을 수정 하려면
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정 (또는 적절 한 보안 & 준수 센터 역할)을 사용 하 여 Office 365에 로그인 하 고 [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)합니다.
     
 2. 왼쪽에서 **위협 관리**를 확장 하 고 **정책을**선택한 다음 **스팸 방지**를 선택 합니다. <br/>
     > [!TIP]

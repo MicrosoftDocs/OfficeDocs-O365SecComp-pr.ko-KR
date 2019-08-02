@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer (및 실시간 검색)에 대해 알아봅니다.
-ms.openlocfilehash: 127652ccb1c32ce84d8c80213d737b095913db40
-ms.sourcegitcommit: 5abe4c11bf3c0659180c7812dd26be9689ab01ca
+ms.openlocfilehash: dff1fae01aa525135226d88b305de7c7c3aefb7c
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35605477"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054760"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 (및 실시간 검색)
 
@@ -170,3 +170,8 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
+## <a name="some-differences-between-real-time-detection-and-threat-exporter"></a>실시간 검색 및 위협 내보내기와 같은 약간의 차이가 있습니다.
+
+ - **Threat Explorer** 는 atp P2와 함께 제공 되는 동안 atp P1 구독과 함께 **실시간 검색 보고서** 가 제공 됩니다.
+ - **실시간** 검색 보고서를 사용 하면 위협 탐색기 보고서를 통해 실시간으로 검색을 표시할 수 있으며 지정 된 공격에서 더 많은 세부 정보를 볼 수 있습니다.
+ - **위협 탐색기** 보고서는 **실시간 탐지기** 보고서를 통해 경험을 향상 시키는 다양 한 보고서 집합을 제공 합니다.

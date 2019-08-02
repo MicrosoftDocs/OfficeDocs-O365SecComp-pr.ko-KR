@@ -13,12 +13,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하도록 하기 위해 Office 365에서 DomainKeys 식별 메일 (DKIM)을 사용 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 98446410ff51e95be23f07bb84de3654cd84f091
-ms.sourcegitcommit: a8049055a48375bee7e6ed81fafcb27a7b2fcdff
+ms.openlocfilehash: ec0013415059bb4d640f8952a8b730b95b8c37b8
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35854762"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054740"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사
 
@@ -117,19 +117,19 @@ TTL:                3600
   
 ```
 Host name:          selector1._domainkey
-Points to address or value: **selector1-cohovineyard-com**._domainkey.cohovineyardandwinery.onmicrosoft.com
+Points to address or value: selector1-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
 
 Host name:          selector2._domainkey
-Points to address or value: **selector2-cohovineyard-com**._domainkey.cohovineyardandwinery.onmicrosoft.com
+Points to address or value: selector2-cohovineyard-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
 
 Host name:          selector1._domainkey
-Points to address or value: **selector1-cohowinery-com**._domainkey.cohovineyardandwinery.onmicrosoft.com 
+Points to address or value: selector1-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:                3600
  
 Host name:          selector2._domainkey
-Points to address or value: **selector2-cohowinery-com**._domainkey.cohovineyardandwinery.onmicrosoft.com 
+Points to address or value: selector2-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com 
 TTL:                3600
 ```
 

@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: c3eb663d569e717597ff926896ed3daefb48186e
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 2bf2f8c7292bee4d1e89249bcec5c74a4b5d38c9
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600064"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054656"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>아웃바운드 스팸 정책 구성
 
@@ -29,6 +29,9 @@ ms.locfileid: "35600064"
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/1f20d655-0d3d-4141-9cae-e57f5a6cffe8?autoplay=false]
   
+> [!NOTE]
+> 가장 적합 한 필터링 결과를 보려면 위 비디오의 콘텐츠를 적절 한 설정에 사용 하 고 [Office 365의 아웃 바운드 스팸 제어](https://docs.microsoft.com/office365/securitycompliance/outbound-spam-controls)에 친숙 해야 합니다.
+
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 <a name="sectionSection0"> </a>
 
