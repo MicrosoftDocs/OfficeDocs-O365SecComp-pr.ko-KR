@@ -17,18 +17,18 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: 3dca1aeb404bd121cec3a363eb9413f3fe79b36b
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: d99b5e1452c60be713f0f4cfbab965d30eeeb8ef
+ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35601235"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054710"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
  **Office 365에서 스팸이 너무 많이 늘어나나요? 그렇다면 다음을 수행하세요.**
   
-[보고 메시지 추가 기능을 통해](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) 거짓 부정 메시지를 보고하여 필터 개선에 도움을 주시기 바랍니다. 또한 메시지를 *첨부 파일로* junk@office365.microsoft.com 또는 phish@office365.microsoft.com(피싱인 경우)으로 전달할 수 있습니다.
+필터 개선을 위해서 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하여 거짓 부정 메시지를 보고하는 것을 강력히 권장합니다. 또한, [제출 탐색기](admin-submission.md)를 사용하여 메시지를 제출할 수도 있습니다.
 
 > [!TIP]
 > 이 메시지가 정크 메일이며 정크 메일 폴더에 있으면 문제가 아닙니다. 어떤 사서함에도 들어 있지 않으면 메시지를 격리하도록 스팸 방지 정책을 변경해야 합니다. 메시지 격리에 대한 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](quarantine-email-messages.md)에서 찾을 수 있습니다.
@@ -57,7 +57,10 @@ ms.locfileid: "35601235"
     
 - **보낸 사람 즉시 차단** 보낸 사람을 즉시 차단해야 하는 경우, 전자 메일 주소, 도메인 또는 IP 주소에 따라 차단할 수 있습니다. [Office 365에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요. 최종 사용자의 허용 목록에 있는 항목은 관리자가 설정한 차단에 따라 재정의될 수 있습니다.
     
-- **사용자에 대한 보고서 메시지 추가 기능 켜기** [사용자에 대한 보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)하는 것이 좋습니다. 관리자는 사용자가 보내는 의견을 보고, 패턴을 사용하여 문제를 유발할 수 있는 설정을 조정할 수 있습니다.
+- **사용자용 보고서 메시지 추가 기능 설정** [사용자용 보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)하는 것을 강력히 권장합니다.
+
+- **[제출 탐색기](admin-submission.md)사용** 관리자는 파일이나 네트워크 메시지 ID, URL, Office 365에서 Microsoft가 검색한 파일을 사용하여 전자 메일을 보낼 수 있습니다.  관리자는 사용자가 보내는 피드백을 보고, 패턴을 사용하여 문제를 발생시킬 수 있는 설정을 조정할 수도 있습니다.
+
 - **[DKIM](use-dkim-to-validate-outbound-email.md)** 을 사용해 모든 아웃 바운드 메시지에 서명하여 도메인 및 테넌트의 보안을 강화하십시오.
  > [!TIP]
 > DKIM을 활성화한 후에는 DKIM 및 SPF가 올바르게 작동할 경우 이 레코드가 유효성을 검사하므로 [DMARC](use-dkim-to-validate-outbound-email.md)를 활성화해야 하고, O365가 개인 및 공개 대칭 키를 관리하므로 일반적으로 스푸핑 전자 메일에 서명이 없습니다.
@@ -66,8 +69,6 @@ ms.locfileid: "35601235"
 
 - **정크 메일 규칙 사용 및 허용 목록 확인** 정크 메일 작업 규칙이 사용되도록 설정되어 있는지와 보낸 사람 또는 보낸 사람 도메인이 개인 허용 목록에서 우회되도록 설정되어 있지 않은지 확인합니다. 이러한 설정에 액세스하는 가장 좋은 방법은 [차단 또는 허용(정크 전자 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)을 사용하는 것입니다. 여기에서 보낸 사람의 전자 메일 주소 또는 도메인을 차단 하도록 선택할 수도 있습니다.
     
-- **Microsoft에 스팸 보고** [보고서 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하여 Microsoft에 스팸 메시지를 보고합니다. 또한 junk@office365.microsoft.com으로 메시지를 보내고 보고서에 하나 이상의 메시지를 첨부할 수 있습니다.
-    
-    **중요** 메시지를 첨부 파일로 전달하지 않는 경우 헤더가 누락되며 Office 365에서 스팸 메일 필터링을 개선할 수 없습니다. 
-    
+- **Microsoft에 스팸 신고** [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하여 Microsoft에 스팸 메시지를 보고합니다.
+       
 - **대량 전자 메일에서 구독 취소** 사용자가 등록한 메시지이지만(뉴스레터, 제품 알림 등) 신뢰할 수 있는 원본에서 구독 취소 링크가 포함된 경우 구독을 간단히 취소할 수 있습니다. Office 365는 일반적으로 메시지를 스팸으로 처리하지 않습니다. 보낸 사람을 차단하도록 선택할 수도 있고, 관리자에게 모든 대량 메일을 스팸으로 처리하도록 설정 변경을 요청할 수도 있습니다.
