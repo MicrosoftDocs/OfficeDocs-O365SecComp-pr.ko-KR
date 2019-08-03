@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 2d9cc41b4e0f8139db385a9614d3022230cda50d
-ms.sourcegitcommit: f96029928a6cdd141783026d57bc2179d7963af6
+ms.openlocfilehash: 70f005d6875735dfe95e10bf4487c8e1373431ea
+ms.sourcegitcommit: 97b9f88b9beee23de13ecf6d0759ac0fad5cf08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35017650"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36168186"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -70,7 +70,7 @@ ms.locfileid: "35017650"
 |||||
    
 > [!NOTE]
-> <sup>1</sup> recipient 속성 값의 경우 전자 메일 주소 ( *사용자 계정 이름이* 나 UPN이 라고도 함), 표시 이름 또는 별칭을 사용 하 여 사용자를 지정할 수 있습니다. 예를 들어 annb@contoso.com, annb 또는 "Ann Beebe"를 사용하여 사용자 Ann Beebe를 지정할 수 있습니다.<br/><br/>받는 사람 속성 (From, To, Cc, Bcc, 참가자 및 받는 사람)을 검색할 때 Office 365은 Azure Active Directory에서 각 사용자의 id를 확장 하려고 시도 합니다.  사용자가 Azure Active Directory에 있는 경우에는 쿼리가 사용자의 전자 메일 주소 (UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함 하도록 확장 됩니다.<br/><br/>예를 들어를로 `participants:ronnie@contoso.com` 확장 하는 등 `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"`의 쿼리를 예로 들 수 있습니다.
+> <sup>1</sup> recipient 속성 값의 경우 전자 메일 주소 ( *사용자 계정 이름이* 나 UPN이 라고도 함), 표시 이름 또는 별칭을 사용 하 여 사용자를 지정할 수 있습니다. 예를 들어 annb@contoso.com, annb 또는 "Ann Beebe"를 사용하여 사용자 Ann Beebe를 지정할 수 있습니다.<br/><br/>받는 사람 속성 (From, To, Cc, Bcc, 참가자 및 받는 사람)을 검색할 때 Office 365은 Azure Active Directory에서 각 사용자의 id를 확장 하려고 시도 합니다.  사용자가 Azure Active Directory에 있는 경우에는 쿼리가 사용자의 전자 메일 주소 (UPN), 별칭, 표시 이름 및 LegacyExchangeDN을 포함 하도록 확장 됩니다.<br/><br/>예를 들어를로 `participants:ronnie@contoso.com` 확장 하는 등 `participants:ronnie@contoso.com OR participants:ronnie OR participants:"Ronald Nelson" OR participants:"<LegacyExchangeDN>"`의 쿼리를 예로 들 수 있습니다.<br/><br/>받는 사람 확장을 방지 하기 위해 검색 쿼리의 전자 메일 주소 끝에 와일드 카드 문자 (별표)를 추가할 수 있습니다. 예를 `participants:ronnie@contoso.com*`들면입니다.
 
 ## <a name="searchable-site-properties"></a>검색 가능한 사이트 속성
 

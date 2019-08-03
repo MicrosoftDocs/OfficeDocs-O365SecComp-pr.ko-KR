@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리 검토 정책을 설정 하 여 검토를 위한 직원 정보를 수집 합니다.
-ms.openlocfilehash: 4cf8c47f761f13165898cbc719f94e9bf9fd66f2
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 9cc13cb953d8166ceac04856fa8b54d0a4629bd6
+ms.sourcegitcommit: 97b9f88b9beee23de13ecf6d0759ac0fad5cf08d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151540"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36168176"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -53,7 +53,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
     감독 정책을 테스트 하 여 원하는 대로 작동 하는지 확인 합니다. 규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 합니다.
 
-- **6 단계 (선택 사항)**: [Office 365 감독 대시보드 또는 웹용 Outlook (이전의 outlook web App)을 사용 하지 않고 감독 된 통신을 검토 하는 검토자를 위해 Outlook을 구성](#step-6-configure-outlook-for-reviewers-optional) 합니다.
+- **6 단계 (선택 사항)**: [Office 365 감독 대시보드를 사용 하지 않고 감독 되는 통신을 검토 하는 검토자를 위해 Outlook을 구성](#step-6-configure-outlook-for-reviewers-optional) 합니다.
 
     사용자가 각 항목을 평가 하 고 분류할 수 있도록 Outlook 클라이언트 내의 감독 기능에 대 한 액세스 권한을 검토자에 게 보내도록 Outlook을 구성 합니다.
 
@@ -68,6 +68,8 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 |감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
 | 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
   
+감독 되는 사용자에 대 한 Office 365 그룹을 선택 하면 정책이 공유 Office 365 사서함의 콘텐츠 및 해당 그룹과 연결 된 Microsoft 팀 채널을 모니터링 합니다. 메일 그룹을 선택 하는 경우 정책은 개별 사용자 사서함을 모니터링 합니다.
+
 대규모 엔터프라이즈 조직에서 감독 사용자를 관리 하려면 대규모 그룹의 모든 사용자를 모니터링 해야 할 수 있습니다. PowerShell을 사용 하 여 할당 된 그룹에 대 한 전역 감독 정책에 대 한 메일 그룹을 구성할 수 있습니다. 이를 통해 단일 정책을 사용 하는 수천 명의 사용자를 모니터링 하 고 조직에 새 직원이 참가할 때 감독 정책을 업데이트할 수 있습니다.
 
 1. 다음 속성을 사용 하 여 전역 감독 정책에 대 한 전용 [메일 그룹](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-distributiongroup?view=exchange-ps) 을 만듭니다 .이 메일 그룹이 다른 목적이 나 기타 Office 365 서비스에 사용 되지 않는지 확인 합니다.
@@ -143,7 +145,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 ### <a name="create-custom-sensitive-information-types"></a>사용자 지정 중요 한 정보 유형 만들기
 
-1. 새 중요 한 정보 유형을 만들고 Office 365 Security & 준수 센터에서 사용자 지정 사전을 추가 합니다. **중요 한 정보** 유형 **분류** \> 로 이동 하 여 **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
+1. 새로운 중요 한 정보 유형을 만들고 Office 365 보안 & 준수 센터에 사용자 지정 사전을 추가 합니다. **중요 한 정보** 유형 **분류** \> 로 이동 하 여 **새 중요 한 정보 유형 마법사**의 단계를 따릅니다. 여기에서 다음을 수행 합니다.
 
     - 중요 한 정보 유형에 대 한 이름 및 설명 정의
     - 근접성, 신뢰 수준 및 주 패턴 요소 정의
@@ -189,7 +191,7 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 
 ### <a name="step-1-copy-the-address-for-the-supervision-mailbox"></a>1 단계: 감독 사서함의 주소 복사
 
-웹용 outlook 데스크톱 또는 Outlook에 대 한 검토를 구성 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
+Outlook 데스크톱에 대해 검토를 구성 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
   
 > [!NOTE]
 > 다른 사용자가 정책을 만든 경우이 주소에서 추가 기능을 설치 하도록 요청 받아야 합니다.
