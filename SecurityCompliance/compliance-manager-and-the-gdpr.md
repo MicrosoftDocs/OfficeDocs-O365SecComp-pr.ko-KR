@@ -13,16 +13,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: a082d069aced13aa9260a1a856d942c4feb7dd4b
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: af0efa2711215946930c091fc7c38cc1b9f575fd
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152100"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786653"
 ---
 # <a name="microsoft-compliance-manager-and-the-gdpr"></a>Microsoft 준수 관리자 및 GDPR
 
-유럽 연합의 GDPR (일반 데이터 보호 규정) 위임 기능은 준수 전략에 영향을 줄 수 있으며 준수 관리자에 사용 되는 사용자 및 고객 정보를 관리 하는 데 필요한 요구 사항을 충족 합니다.
+유럽 연합의 GDPR (일반 데이터 보호 규정) 위임 기능은 준수 전략에 영향을 줄 수 있으며 규정 준수 관리자에 사용 되는 사용자 및 고객 정보를 관리 하기 위한 특정 작업을 수행 합니다.
 
 ## <a name="user-privacy-settings"></a>사용자 개인 정보 설정
 
@@ -59,7 +59,7 @@ ms.locfileid: "34152100"
 3. 문서를 열어 보고서 데이터를 검토합니다.
 
 > [!IMPORTANT]
-> 이 보고서는 작업 항목 할당 기록에 대 한 상태 변경 내용을 유지 하 고 표시 하는 기록 보고가 아닙니다. 생성 되는 보고서는 보고서가 실행 될 때 할당 된 제어 작업 항목의 스냅숏입니다 (보고서에 날짜 및 시간 스탬프 기록)입니다. 예를 들어 이후에 작업 항목을 다시 할당 하는 경우에는이 보고서가 같은 사용자에 대해 새로 생성 되는 경우 다른 스냅숏 보고서 데이터가 반환 됩니다.
+> 보고서 데이터는 작업 항목 할당 기록에 대 한 상태 변경 내용을 유지 하 고 표시 하는 기록 목록이 아닙니다. 생성 되는 보고서는 보고서가 실행 될 때 할당 된 제어 작업 항목의 스냅숏입니다 (보고서에 날짜 및 시간 스탬프 기록)입니다. 예를 들어 이후에 작업 항목을 다시 할당 하는 경우 동일한 사용자에 대해 보고서가 새로 생성 되는 경우 서로 다른 스냅샷 보고서 데이터가 반환 됩니다.
   
 ## <a name="delete-user-data-history"></a>사용자 데이터 기록 삭제
 

@@ -3,7 +3,7 @@ title: Office 365 Advanced eDiscovery의 태그 지정 및 관련성 교육
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 9/14/2017
+ms.date: 09/14/2017
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Office 365 Advanced eDiscovery의 관련성 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 후 작업을 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 82380acc2ea90a600a3dd14f58c6d9bf0a06a1a6
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 569fdfd6e5369459d55bb3ecfa2ebc32f0a10005
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158350"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601385"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 태그 지정 및 관련성 교육
 

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 항목에서는 Microsoft 365 REST API를 사용하여 이벤트를 통한 보존을 자동화하는 비즈니스 프로세스 흐름을 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: c89abc373a6c0a1de6b6528c638dbd34e586b6d7
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 180c98c57986ef7523548978bd1709cc79205e86
+ms.sourcegitcommit: 28484eb103bc7f3694f10e010228472049adbe9b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152280"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35594356"
 ---
 # <a name="automate-event-based-retention"></a>이벤트 기반 보존 자동화
 
@@ -170,7 +170,7 @@ REST API를 호출하는 샘플 코드
 <tbody>
 <tr class="odd">
 <td>URL</td>
-<td>https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent)</td>
+<td>https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent</td>
 <td></td>
 </tr>
 <tr class="even">

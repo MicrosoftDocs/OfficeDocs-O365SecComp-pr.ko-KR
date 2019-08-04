@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 Office 365 보안 & 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: 7963a8c3db64e83566960abe9298b9a2d636ae53
-ms.sourcegitcommit: 6302a43d947a908dd10a8e40550b806f491692fc
+ms.openlocfilehash: ea774648efcfe80461eae937f80856acaf1db224
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2019
-ms.locfileid: "35645123"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792014"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여
 
@@ -39,11 +39,11 @@ ms.locfileid: "35645123"
 
 - (AOBO) 권한이 있는 DAP (위임 된 액세스 권한) 사용 권한을 사용 하는 경우에는 보안 & 준수 센터에 액세스할 수 없습니다.
 
-## <a name="use-the-office-365-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>Office 365 관리 센터를 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
+## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>관리 센터를 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
 
 1. [Office 365에 로그인 하 고 관리 센터로 이동](https://go.microsoft.com/fwlink/p/?LinkId=525275)합니다.
 
-2. Office 365 관리 센터에서 **관리 센터** 를 열고 **보안 & 준수**를 클릭 합니다.
+2. Microsoft 365 관리 센터에서 **관리 센터** 를 열고 **보안 & 준수**를 클릭 합니다.
 
 3. 보안 & 준수 센터에서 **사용 권한**으로 이동 합니다.
 

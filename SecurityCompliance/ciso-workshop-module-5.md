@@ -10,16 +10,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: dccd34a6bed27ec3dbbca6c2affdc56234b1a21a
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 94602055ca42e0af154b5e33d3140baa8af0c446
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155510"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786603"
 ---
 # <a name="ciso-workshop-module-5-information-protection"></a>CISO 워크숍 모듈 5: 정보 보호
 
-자동 분류, 장치 간의 영구 암호화 및 모바일 장치, 클라우드 서비스 및 기타 회사 간의 데이터에 대 한 지속적인 모니터링을 함께 사용 하 여 중요 한 정보를 보호 하는 방법에 대해 알아봅니다.
+장치 간의 자동 분류 및 영구 암호화와 함께 이동 하는 경우 중요 한 정보를 보호 하는 방법을 알아봅니다. 모바일 장치, 클라우드 서비스 및 기타 회사 자산에서 데이터를 지속적으로 모니터링 하는 방법에 대 한 정보가 포함 되어 있습니다.
 
 - PDF 요약 다운로드: [모듈 5: 정보 보호](media/ciso-workshop-5-information-protection-strategy.pdf)
 - PowerPoint 요약 다운로드: [모듈 5: 정보 보호](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-5-information-protection-strategy.pptx)

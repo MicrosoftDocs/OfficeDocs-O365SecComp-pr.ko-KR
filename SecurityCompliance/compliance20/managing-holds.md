@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: e8ec5114983d64e7d717d4b7ab866bfee9d8d488
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 4e46eba010cd51ab0722fb43196230ba44f4e9a4
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154900"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35791994"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -31,7 +31,7 @@ ms.locfileid: "34154900"
 
 Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
-1. **보안 _AMP_ 준수 센터**에서 **eDiscovery > Advanced ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
+1. **보안 & 준수 센터**에서 **eDiscovery > Advanced eDiscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
    
 2. **Custodians** 탭으로 이동 하 여 사례 내의 Custodians을 추가 합니다. 고급 eDiscovery 사례 내에서 custodians을 보류에 추가 하 고 배치 하는 방법에 대 한 자세한 내용은 [Add custodians to a Advanced Ediscovery case](add-custodians-to-case.md)를 참조 하십시오. Custodians를 이미 추가 했 고 대기 상태로 둔 경우 3 단계로 이동 합니다.
    
@@ -48,7 +48,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
 고급 eDiscovery 사례에 대 한 보류를 만들려면:
 
-1. **보안 _AMP_ 준수 센터**에서 **eDiscovery > Advanced ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
+1. **보안 & 준수 센터**에서 **eDiscovery > Advanced eDiscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
   
 2. 보류를 만들려는 사례 옆에 있는 **열기** 를 클릭 합니다.
   
@@ -132,7 +132,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
  - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 custodians로 추가 하거나 데이터 원본을 유지 하는 경우가 아니면 보류 되지 않습니다. 따라서 특정 custodian으로 Office 365 그룹이 나 Microsoft Team을 보류할 필요가 있는 경우 그룹 사이트 및 그룹 사서함을 custodian에 매핑하는 것이 좋습니다 (Advanced eDiscovery에서 Custodians 관리 참조). Office 365 그룹 또는 Microsoft 팀이 단일 custodian으로 인 한 경우에는 custodial 되지 않은 보류에 원본을 추가 하는 것이 좋습니다. 
  
- - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 보려면 Office 365 관리 센터의 Home > Groups 페이지에서 해당 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다.
+ - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 홈 > 그룹 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다.
 
    ``` 
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
@@ -148,4 +148,4 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 - 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠가 .mht 형식의 파일에 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 팀 위 키 데이터 문서 라이브러리에 저장 됩니다. 팀의 SharePoint 사이트를 보류 하 여 해당 콘텐츠를 Wiki에 배치할 수 있습니다.
 
   > [!NOTE]
-  > Microsoft 팀 또는 팀 채널에 대 한 Wiki 콘텐츠를 보존 하는 기능 (팀의 SharePoint 사이트를 보류할 때)은 6 월 22 2017 일에 릴리스 되었습니다. 팀 사이트를 보류 중인 경우에는 해당 날짜에 대해 Wiki 콘텐츠가 유지 됩니다. 그러나 팀 사이트가 유지 되 고 wiki 콘텐츠가 6 월 22 2017 일 이전에 삭제 된 경우에는 wiki 콘텐츠가 보존 되지 않습니다.
+  > Microsoft 팀 또는 팀 채널에 대 한 Wiki 콘텐츠를 보존 하는 기능 (팀의 SharePoint 사이트를 보류할 때)은 6 월 22 2017 일에 릴리스 되었습니다. 팀 사이트를 보류 중인 경우에는 해당 날짜에 대해 Wiki 콘텐츠가 유지 됩니다. 그러나 팀 사이트가 유지 되 고 Wiki 콘텐츠가 6 월 22 2017 일 이전에 삭제 된 경우에는 Wiki 콘텐츠가 보존 되지 않습니다.

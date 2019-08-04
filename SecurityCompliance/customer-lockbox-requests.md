@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: f3cfdec6521cd5fe0bcb7007b27ce128ae3b2a1d
-ms.sourcegitcommit: 62447503300376aa95dd05fb5276f93a9f6a20b6
+ms.openlocfilehash: 2cbf19ad3c648373704c379794e24590fcb6d290
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34927581"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786623"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
@@ -29,7 +29,7 @@ ms.locfileid: "34927581"
 
 고객 Lockbox는 명시적인 승인 없이 서비스 작업을 수행 하기 위해 Microsoft가 콘텐츠에 액세스할 수 없도록 합니다. 고객 Lockbox는 콘텐츠에 액세스 하기 위한 요청에 대 한 승인 워크플로를 사용자에 게 제공 합니다.
 
-경우에 따라 Microsoft 엔지니어가 지원 프로세스에서 고객이 보고 한 문제를 해결 하 고 문제를 해결 하는 데 도움이 됩니다. 일반적으로 문제는 Microsoft가 서비스를 위해 마련 된 광범위 한 원격 분석 및 디버깅 도구를 통해 수정 됩니다. 그러나 근본적인 원인을 확인 하 고 문제를 해결 하기 위해 고객 콘텐츠에 액세스 하기 위해 Microsoft 엔지니어가 필요한 경우도 있습니다. 고객 Lockbox에 게는 승인 워크플로의 최종 단계로 고객의 액세스를 요청 하는 엔지니어가 필요 합니다. 이를 통해 조직에서는 이러한 요청을 승인 하거나 거부 하 고 고객에 게 직접 액세스 제어를 제공 하는 옵션을 제공 합니다.
+경우에 따라 Microsoft 엔지니어가 지원 프로세스에서 고객이 보고 한 문제를 해결 하 고 문제를 해결 하는 데 도움이 됩니다. 일반적으로 문제는 Microsoft가 서비스를 위해 마련 된 광범위 한 원격 분석 및 디버깅 도구를 통해 수정 됩니다. 그러나 근본적인 원인을 확인 하 고 문제를 해결 하기 위해 고객 콘텐츠에 액세스 하기 위해 Microsoft 엔지니어가 필요한 경우도 있습니다. 고객 Lockbox에 게는 승인 워크플로의 최종 단계로 고객의 액세스를 요청 하는 엔지니어가 필요 합니다. 조직에서는 이러한 요청을 승인 하거나 거부할 수 있는 옵션을 제공 하 고 고객에 게 직접 액세스 제어 기능을 제공 합니다.
 
 ### <a name="customer-lockbox-overview-video"></a>고객 Lockbox 개요 비디오
 

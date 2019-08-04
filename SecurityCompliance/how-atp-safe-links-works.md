@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: 7570fd65a9831a6436eec8c402a2bc0c2ae09b40
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 67779560e279028c158179c265196199b5d37d1c
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599184"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792044"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Office 365 ATP 안전한 링크가 작동 하는 방식
          
@@ -49,9 +49,9 @@ ms.locfileid: "35599184"
     
 ## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>ATP 안전한 링크가 Office 문서의 Url과 작동 하는 방식
 
-높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 응용 프로그램 (Windows 또는 Mac의 최신 버전의 Word, Excel 및 PowerPoint, IOS 또는 Android 장치의 office 앱, Windows의 Visio, OneNote Online 및 office)의 url에 대해 작동 합니다. 온라인):
+높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 응용 프로그램 (windows 또는 office의 최신 버전의 Word, Excel 및 PowerPoint, IOS 또는 Android 장치에 있는 사무용 앱, Windows의 Visio, OneNote, 브라우저에 있는 경우)의 url에 대해 작동 합니다. 브라우저의 Office):
   
-1. 사용자가 컴퓨터, 스마트폰 또는 태블릿에서 Office 365 ProPlus를 설치 했습니다. 브라우저에서 Office Online을 사용 하 고 있습니다.
+1. 사용자가 컴퓨터, 스마트폰 또는 태블릿에서 Office 365 ProPlus를 설치 했습니다. (또는 브라우저에서 Office를 사용 중인 경우)
     
 2. 사용자가 회사 또는 학교 계정을 사용 하 여 Word, Excel, PowerPoint 또는 Visio를 열고 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
     

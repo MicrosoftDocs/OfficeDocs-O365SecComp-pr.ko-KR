@@ -2,7 +2,7 @@
 title: 분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 ms.author: tracyp
 author: MSFTTracyP
-manager: laurawi
+manager: dansimp
 ms.date: 04/19/2019
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 8949e3422b62a5bca0b72be8168054d8c1b96a70
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 4ca0cf08a2c24ce077756a4c481afd7af59b20a7
+ms.sourcegitcommit: 73d4cbcf7389935a04d2e451903ef14ebb38e096
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34156460"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638477"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
@@ -27,6 +27,8 @@ ms.locfileid: "34156460"
   
 > [!NOTE]
 > 수신 되는 전송 양이 많기 때문에 분석을 위해 모든 요청에 응답 하지 못할 수 있습니다. 
+
+관리자는 검토를 위해 전자 메일, url 및 첨부 파일을 Microsoft에 보낼 수 있습니다. [Office 365 ATP의 관리자 제출을](admin-submission.md)참조 하세요.
   
 ## <a name="submit-junk-or-phishing-messages-that-passed-through-the-spam-filters"></a>스팸 필터를 통과 하는 정크 메일 또는 피싱 메시지 전송
 <a name="sectionSection0"> </a>

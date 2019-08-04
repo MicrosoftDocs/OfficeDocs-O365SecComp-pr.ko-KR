@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 75cdd5ff4d65c7d7cbe90e8516f9027a496c4e36
-ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
+ms.openlocfilehash: 4de220df8ab3d175ae5fc86d64f2f2bea7163937
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767309"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786583"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>CISO 워크숍 모듈 4a: 위협 방지 전략
 
@@ -52,7 +52,7 @@ ms.locfileid: "34767309"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtQLJ]
 
-## <a name="part-7-roadmap-for-shadow-it-risk-from-third-party-software-as-a-service-505"></a>7 부: 타사 소프트웨어의 섀도 IT 위험에 대 한 서비스 (5:05)에 대 한 로드맵
+## <a name="part-7-roadmap-for-shadow-it-risk-from-third-party-software-as-a-service-505"></a>7 부: 타사 소프트웨어에서 서비스로의 섀도 IT 위험에 대 한 로드맵 (5:05)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMC]
 

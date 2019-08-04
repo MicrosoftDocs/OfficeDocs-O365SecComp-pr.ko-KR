@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 전역 관리자는 조직의 암호화 된 전자 메일 메시지와 암호화 포털의 콘텐츠에 조직의 브랜딩을 적용할 수 있습니다.
-ms.openlocfilehash: 19f227971c522f9d92aec343f1865ab7f23c13aa
-ms.sourcegitcommit: b0ea2d66bc4c7f2fc0a8abab28d2ae652b1c4b73
+ms.openlocfilehash: dd08ffad4a50cafd90f2306645e93e623b8076cd
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "34721375"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792064"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>암호화된 메시지에 조직의 브랜드 추가
 
@@ -122,7 +122,7 @@ Windows PowerShell에서 Set-omeconfiguration cmdlet을 사용 하 여 조직에
 
 2. **관리** 타일을 선택 합니다.
 
-3. Office 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
+3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
 
 4. EAC **** ![에서](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> **메일 흐름** \> **규칙** 으로 이동 하 고 새로 만들기 아이콘을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
 

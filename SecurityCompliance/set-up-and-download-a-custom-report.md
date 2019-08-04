@@ -2,7 +2,7 @@
 title: 보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 사용자 지정 날짜 범위 및 필터를 사용 하 여 보고서를 설정 하 고 다운로드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5e0d6e06be4589f7da837d5e0c2a6f883643ffdb
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 0cd787b33ce86ad7a31093107c257d0fe3dbb381
+ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077794"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35601355"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드
 

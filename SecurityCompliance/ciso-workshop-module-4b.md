@@ -10,16 +10,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 640fb15a6e28ee00bc383f6502c06d80db287135
-ms.sourcegitcommit: 6bb40cf53374eaaae8da0a469f0248b1163184a4
+ms.openlocfilehash: f4f2eb8c98575a03635ec69274396cdf8769e498
+ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34767299"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35786593"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>CISO 워크숍 모듈 4b: 위협 방지 전략 
 
-이 모듈은 microsoft 지능형 보안 그래프에서 trillions의 신호에 따라 구동 되는 Microsoft SOC (보안 작업 센터)의 진화 및 궤적을 검토 합니다.
+이 모듈에서는 microsoft 지능형 보안 그래프의 신호를 trillions 하 여 Microsoft SOC (Security Operations Center)의 진화 및 궤적을 검토 합니다.
 
 - PDF 요약 다운로드: [모듈 4b: 위협 보호 전략](media/ciso-workshop-4b-threat-protection-strategy.pdf)
 - PowerPoint 요약 다운로드: [Module 4b: 위협 보호 전략](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-4b-threat-protection-strategy.pptx)
@@ -36,7 +36,7 @@ ms.locfileid: "34767299"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtDxA]
 
-## <a name="part-3-learnings-from-microsofts-corporate-it-soc-2207"></a>3 부: Microsoft의 회사 IT SOC (22:07)에서 Learnings
+## <a name="part-3-learnings-from-microsoft-corporate-it-soc-2207"></a>3 부: Microsoft 회사 IT SOC (22:07)에서 Learnings
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE368fZ]
 
