@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 Exchange Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: 96caf2793f11772aafd80124b03fd0cb32599442
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 9b15934f598adcd692d8c47358db357bcea58814
+ms.sourcegitcommit: 7c1cb9e8adb1c3e9c667f4cf02ca3cec3ec1e171
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152760"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792054"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>Office Web Apps Server 및 Office Online Server GDPR
 
@@ -63,7 +63,7 @@ Office Online Server 및 Office Web Apps Server 원격 분석 데이터는 ULS �
 
 ## <a name="types-of-data"></a>데이터 형식
 
-Office Online 로그는 다양한 형식의 데이터를 포함합니다. 다음은 ULS 로그에 포함될 수 있는 데이터의 예입니다.
+Office 로그는 다양한 형식의 데이터를 포함합니다. 다음은 ULS 로그에 포함될 수 있는 데이터의 예입니다.
 
 -   제품을 사용하는 동안 발생한 문제의 오류 코드
 
