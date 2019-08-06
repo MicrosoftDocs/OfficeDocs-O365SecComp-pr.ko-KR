@@ -3,89 +3,6 @@
 
 
 
-## <a name="week-of-june-17-2019"></a>2019 년 6 월 17 일 주
-
-
-| 게시된 날짜 |항목 제목 | 변경 사항 |
-|------|------------|--------|
-| 6/17/2019 | [Office 365 Security & 준수 센터로 이동 합니다.](/Office365/SecurityCompliance/go-to-the-securitycompliance-center) | 수정한 날짜 |
-| 6/17/2019 | [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한 부여](/Office365/SecurityCompliance/grant-access-to-the-security-and-compliance-center) | 수정한 날짜 |
-| 6/17/2019 | [메시지 검색 및 삭제 - 관리자 도움말](/Office365/SecurityCompliance/search-for-and-delete-messagesadmin-help) | 수정한 날짜 |
-| 6/17/2019 | [Microsoft 365과의 SIEM 서버 통합](/Office365/SecurityCompliance/siem-server-integration) | 수정한 날짜 |
-| 6/17/2019 | [샘플 커넥터를 사용 하 여 Office 365에서 Facebook 데이터 보관 (미리 보기)](/Office365/SecurityCompliance/archive-facebook-data-with-sample-connector) | 수정한 날짜 |
-| 6/17/2019 | [샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)](/Office365/SecurityCompliance/archive-twitter-data-with-sample-connector) | 수정한 날짜 |
-| 6/17/2019 | [Office 365에서 타사 데이터 보관](/Office365/SecurityCompliance/archiving-third-party-data) | 수정한 날짜 |
-| 6/17/2019 | [Office 365에서 Twitter 데이터를 보관 하기 위한 커넥터 배포](/Office365/SecurityCompliance/deploy-twitter-connector) | 수정한 날짜 |
-| 6/17/2019 | [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](/Office365/SecurityCompliance/keyword-queries-and-search-conditions) | 수정한 날짜 |
-| 6/17/2019 | [콘텐츠 검색을 사용 하 여 Office 365로 가져온 타사 데이터 검색](/Office365/SecurityCompliance/use-content-search-to-search-third-party-data-that-was-imported) | 수정한 날짜 |
-| 6/17/2019 | [Office 365 ATP 안전한 링크 경고 페이지](/Office365/SecurityCompliance/atp-safe-links-warning-pages) | 수정한 날짜 |
-| 6/17/2019 | [Office 365에서 수신 거부 목록 만들기](/Office365/SecurityCompliance/create-block-sender-lists-in-office-365) | 수정한 날짜 |
-| 6/17/2019 | [Office 365에서 수신 허용-보낸 사람 목록 만들기](/Office365/SecurityCompliance/create-safe-sender-lists-in-office-365) | 수정한 날짜 |
-| 6/17/2019 | [데이터 조사에 대 한 사용 권한 할당 (미리 보기)](/Office365/SecurityCompliance/datainvestigations/permissions) | 수정한 날짜 |
-| 6/17/2019 | [정보 장벽 정책의 특성](/Office365/SecurityCompliance/information-barriers-attributes) | 수정한 날짜 |
-| 6/17/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/17/2019 | [정보 장벽 문제 해결](/Office365/SecurityCompliance/information-barriers-troubleshooting) | 수정한 날짜 |
-| 6/17/2019 | [정보 장벽 개요](/Office365/SecurityCompliance/information-barriers) | 수정한 날짜 |
-| 6/18/2019 | [Office 365의 eDiscovery](/Office365/SecurityCompliance/ediscovery) | 수정한 날짜 |
-| 6/18/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/18/2019 | [보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](/Office365/SecurityCompliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp) | 수정한 날짜 |
-| 6/18/2019 | [개발/테스트 환경의 보안 SharePoint Online 사이트](/Office365/SecurityCompliance/secure-sharepoint-online-sites-in-a-dev-test-environment) | 수정한 날짜 |
-| 6/19/2019 | [Office 365에서 LinkedIn 데이터를 보관 하는 커넥터 설정 (미리 보기)](/Office365/SecurityCompliance/archive-linkedin-data) | 수정한 날짜 |
-| 6/19/2019 | [Microsoft 365의 고급 eDiscovery 솔루션 개요](/Office365/SecurityCompliance/compliance20/overview-ediscovery-20) | 수정한 날짜 |
-| 6/19/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/19/2019 | [Exchange Online 사서함에 저장 된 콘텐츠](/Office365/SecurityCompliance/what-is-stored-in-exo-mailbox) | 수정한 날짜 |
-| 6/20/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
-| 6/20/2019 | [위협 탐색기 (및 실시간 검색)](/Office365/SecurityCompliance/threat-explorer) | 수정한 날짜 |
-| 6/20/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/20/2019 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
-| 6/20/2019 | [보안 및 준수 센터의 경고 정책](/Office365/SecurityCompliance/alert-policies) | 수정한 날짜 |
-| 6/20/2019 | [Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](/Office365/SecurityCompliance/manage-quarantined-messages-and-files) | 수정한 날짜 |
-| 6/20/2019 | [사서함 감사 관리](/Office365/SecurityCompliance/enable-mailbox-auditing) | 수정한 날짜 |
-| 6/21/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/21/2019 | [정보 장벽 문제 해결](/Office365/SecurityCompliance/information-barriers-troubleshooting) | 수정한 날짜 |
-| 6/21/2019 | [보존 정책 개요](/Office365/SecurityCompliance/retention-policies) | 수정한 날짜 |
-
-
-## <a name="week-of-june-24-2019"></a>6 월 24 일 주 2019
-
-
-| 게시된 날짜 |항목 제목 | 변경 사항 |
-|------|------------|--------|
-| 6/24/2019 | [Office 365에서 수신 허용-보낸 사람 목록 만들기](/Office365/SecurityCompliance/create-safe-sender-lists-in-office-365) | 수정한 날짜 |
-| 6/24/2019 | [처리 검토 개요](/Office365/SecurityCompliance/disposition-reviews) | 수정한 날짜 |
-| 6/24/2019 | [문서 핑거프린팅](/Office365/SecurityCompliance/document-fingerprinting) | 수정한 날짜 |
-| 6/24/2019 | [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](/Office365/SecurityCompliance/encryption-sensitivity-labels) | 수정한 날짜 |
-| 6/24/2019 | [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한 부여](/Office365/SecurityCompliance/grant-access-to-the-security-and-compliance-center) | 수정한 날짜 |
-| 6/24/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/24/2019 | [정보 장벽 문제 해결](/Office365/SecurityCompliance/information-barriers-troubleshooting) | 수정한 날짜 |
-| 6/24/2019 | [정보 장벽 개요](/Office365/SecurityCompliance/information-barriers) | 수정한 날짜 |
-| 6/24/2019 | [민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels) | 수정한 날짜 |
-| 6/24/2019 | [eDiscovery 워크플로에서 콘텐츠 검색 사용](/Office365/SecurityCompliance/use-content-search-in-ediscovery) | 수정한 날짜 |
-| 6/24/2019 | [Office 365에서 파트너와 협력 하 여 타사 데이터 보관](/Office365/SecurityCompliance/work-with-partner-to-archive-third-party-data) | 수정한 날짜 |
-| 6/25/2019 | [Create a search](/Office365/SecurityCompliance/compliance20/create-search-to-collect-data) | 수정한 날짜 |
-| 6/25/2019 | [고급 eDiscovery 제한](/Office365/SecurityCompliance/compliance20/limits-ediscovery20) | 수정한 날짜 |
-| 6/25/2019 | [정보 장벽 정책 편집](/Office365/SecurityCompliance/information-barriers-edit-segments-policies.md) | 수정한 날짜 |
-| 6/25/2019 | [콘텐츠 검색에 대한 권한 필터링 구성](/Office365/SecurityCompliance/permissions-filtering-for-content-search) | 수정한 날짜 |
-| 6/25/2019 | [Office 365 메시지 암호화 FAQ](/Office365/SecurityCompliance/ome-faq) | 수정한 날짜 |
-| 6/25/2019 | [검색 결과를 검토 집합에 추가](/Office365/SecurityCompliance/compliance20/add-data-to-review-set) | 수정한 날짜 |
-| 6/25/2019 | [Office 365의 자동화 된 조사 및 응답 (AIR)](/Office365/SecurityCompliance/automated-investigation-response-office) | 수정한 날짜 |
-| 6/26/2019 | [정보 장벽 정책의 특성](/Office365/SecurityCompliance/information-barriers-attributes) | 수정한 날짜 |
-| 6/26/2019 | [Office 365 감사 로그의 자세한 속성](/Office365/SecurityCompliance/detailed-properties-in-the-office-365-audit-log) | 수정한 날짜 |
-| 6/26/2019 | [콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색](/Office365/SecurityCompliance/search-the-mailbox-and-onedrive-for-business-for-a-list-of-users) | 수정한 날짜 |
-| 6/26/2019 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
-| 6/26/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/26/2019 | [정보 장벽 개요](/Office365/SecurityCompliance/information-barriers) | 수정한 날짜 |
-| 6/26/2019 | [Office 365 ATP 피싱 방지 정책 설정](/Office365/SecurityCompliance/set-up-anti-phishing-policies) | 수정한 날짜 |
-| 6/28/2019 | [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | 수정한 날짜 |
-| 6/28/2019 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
-| 6/28/2019 | [위협 탐색기 (및 실시간 검색)](/Office365/SecurityCompliance/threat-explorer) | 수정한 날짜 |
-| 6/28/2019 | [정보 장벽 정책의 특성](/Office365/SecurityCompliance/information-barriers-attributes) | 수정한 날짜 |
-| 6/28/2019 | [정보 장벽 정책 편집](/Office365/SecurityCompliance/information-barriers-edit-segments-policies.md) | 수정한 날짜 |
-| 6/28/2019 | [정보 장벽 정책 정의](/Office365/SecurityCompliance/information-barriers-policies) | 수정한 날짜 |
-| 6/28/2019 | [정보 장벽 문제 해결](/Office365/SecurityCompliance/information-barriers-troubleshooting) | 수정한 날짜 |
-| 6/28/2019 | [정보 장벽 개요](/Office365/SecurityCompliance/information-barriers) | 수정한 날짜 |
-
-
 ## <a name="week-of-july-01-2019"></a>01 년 7 월 1 일 주 2019
 
 
@@ -360,3 +277,87 @@
 | 7/18/2019 | [Set up Information Rights Management (IRM) in SharePoint admin center](/Office365/SecurityCompliance/set-up-irm-in-sp-admin-center) | 수정한 날짜 |
 | 7/18/2019 | [새로운 Office 365 메시지 암호화 기능 설정](/Office365/SecurityCompliance/set-up-new-message-encryption-capabilities) | 수정한 날짜 |
 | 7/18/2019 | [Advanced eDiscovery에서 대화 검토](/Office365/SecurityCompliance/compliance20/conversation-review-sets) | 수정한 날짜 |
+
+
+## <a name="week-of-july-22-2019"></a>7 월 22 일 주 2019
+
+
+| 게시된 날짜 |항목 제목 | 변경 사항 |
+|------|------------|--------|
+| 7/22/2019 | [Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색](/Office365/SecurityCompliance/search-cloud-based-mailboxes-for-on-premises-users) | 수정한 날짜 |
+| 7/22/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
+| 7/23/2019 | [검토 집합에 비 Office 365 데이터 로드](/Office365/SecurityCompliance/compliance20/load-non-office365-data) | 수정한 날짜 |
+| 7/23/2019 | [보존 정책 개요](/Office365/SecurityCompliance/retention-policies) | 수정한 날짜 |
+| 7/23/2019 | [민감도 레이블 개요](/Office365/SecurityCompliance/sensitivity-labels) | 수정한 날짜 |
+| 7/24/2019 | [스팸 방지 메시지 헤더](/Office365/SecurityCompliance/anti-spam-message-headers) | 수정한 날짜 |
+| 7/24/2019 | [스팸 필터 정책 구성](/Office365/SecurityCompliance/configure-your-spam-filter-policies) | 수정한 날짜 |
+| 7/24/2019 | [Office 365의 콘텐츠 검색](/Office365/SecurityCompliance/content-search) | 수정한 날짜 |
+| 7/24/2019 | [데이터 손실 방지 개요](/Office365/SecurityCompliance/data-loss-prevention-policies) | 수정한 날짜 |
+| 7/24/2019 | [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | 수정한 날짜 |
+| 7/24/2019 | [Office 365의 전자 메일 암호화](/Office365/SecurityCompliance/email-encryption) | 수정한 날짜 |
+| 7/24/2019 | [콘텐츠 검색 결과 내보내기](/Office365/SecurityCompliance/export-search-results) | 수정한 날짜 |
+| 7/24/2019 | [Office 365에서 사용자로 격리 된 메시지 찾기 및 릴리스](/Office365/SecurityCompliance/find-and-release-quarantined-messages-as-a-user) | 수정한 날짜 |
+| 7/24/2019 | [Overview of importing your organization PST files to Office 365](/Office365/SecurityCompliance/importing-pst-files-to-office-365) | 수정한 날짜 |
+| 7/24/2019 | [Office 365 Advanced Threat Protection](/Office365/SecurityCompliance/office-365-atp) | 수정한 날짜 |
+| 7/24/2019 | [스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거](/Office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam) | 수정한 날짜 |
+| 7/24/2019 | [Office 365 조 직에서 전자 메일 메시지 검색 및 삭제-관리자 도움말](/Office365/SecurityCompliance/search-for-and-delete-messages-in-your-organization) | 수정한 날짜 |
+| 7/24/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
+| 7/24/2019 | [새로운 Office 365 메시지 암호화 기능 설정](/Office365/SecurityCompliance/set-up-new-message-encryption-capabilities) | 수정한 날짜 |
+| 7/24/2019 | [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](/Office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing) | 수정한 날짜 |
+| 7/24/2019 | [Office 365의 사용자 지정 도메인에서 DKIM을 사용 하 여 전자 메일 보내기](/Office365/SecurityCompliance/use-dkim-to-validate-outbound-email) | 수정한 날짜 |
+| 7/24/2019 | [DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사](/Office365/SecurityCompliance/use-dmarc-to-validate-email) | 수정한 날짜 |
+| 7/24/2019 | [네트워크 업로드를 사용 하 여 조직 PST 파일을 Office 365로 가져오기](/Office365/SecurityCompliance/use-network-upload-to-import-pst-files) | 수정한 날짜 |
+| 7/25/2019 | [Office 365에서 인스턴트 Bloomberg 데이터를 보관 하는 커넥터 설정](/Office365/SecurityCompliance/archive-instant-bloomberg-data) | 수정한 날짜 |
+| 7/25/2019 | [Office 365에서 타사 데이터 보관](/Office365/SecurityCompliance/archiving-third-party-data) | 수정한 날짜 |
+| 7/25/2019 | [Office 365의 암호화](/Office365/SecurityCompliance/encryption) | 수정한 날짜 |
+| 7/26/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
+| 7/26/2019 | [외부 사용자와 공유된 리소스를 찾기 위한 감사 공유](/Office365/SecurityCompliance/use-sharing-auditing) | 수정한 날짜 |
+
+
+## <a name="week-of-july-29-2019"></a>7 월 29 일 주 2019
+
+
+| 게시된 날짜 |항목 제목 | 변경 사항 |
+|------|------------|--------|
+| 7/31/2019 | [Advanced eDiscovery에서 AzCopy 문제 해결](/Office365/SecurityCompliance/compliance20/troubleshooting-azcopy) | 수정한 날짜 |
+| 7/31/2019 | [Office 365의 콘텐츠 검색](/Office365/SecurityCompliance/content-search) | 수정한 날짜 |
+| 7/31/2019 | [보안 및 준수 센터의 메시지 추적](/Office365/SecurityCompliance/message-trace-scc) | 수정한 날짜 |
+| 7/31/2019 | [새 Microsoft 365 준수 센터 개요](/Office365/SecurityCompliance/microsoft-365-compliance-center) | 수정한 날짜 |
+| 7/31/2019 | [Office 365 맬웨어 및 랜 섬 웨어 보호](/Office365/SecurityCompliance/office-365-malware-and-ransomware-protection) | 수정한 날짜 |
+| 7/31/2019 | [Office 365 ATP 안전한 링크 정책 설정](/Office365/SecurityCompliance/set-up-atp-safe-links-policies) | 수정한 날짜 |
+| 7/31/2019 | [Office 365의 암호화에 대한 기술 관련 세부 정보](/Office365/SecurityCompliance/technical-reference-details-about-encryption) | 수정한 날짜 |
+| 7/31/2019 | [데이터를 처리할 때 오류 수정](/Office365/SecurityCompliance/compliance20/error-remediation) | 수정한 날짜 |
+| 7/31/2019 | Advanced eDiscovery의 인덱싱 제한 | 제거 |
+| 7/31/2019 | [검토 집합에 비 Office 365 데이터 로드](/Office365/SecurityCompliance/compliance20/load-non-office365-data) | 수정한 날짜 |
+| 7/31/2019 | Advanced eDiscovery의 검색 제한 | 제거 |
+| 7/31/2019 | [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](/Office365/SecurityCompliance/set-up-compliance-boundaries) | 수정한 날짜 |
+| 8/1/2019 | [정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성](/Office365/SecurityCompliance/configure-groups-and-users-for-a-political-campaign-dev-test-environment) | 수정한 날짜 |
+| 8/1/2019 | [정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기](/Office365/SecurityCompliance/create-team-sites-in-a-political-campaign-dev-test-environment) | 수정한 날짜 |
+| 8/1/2019 | [격리된 SharePoint Online 팀 사이트 배포](/Office365/SecurityCompliance/deploy-an-isolated-sharepoint-online-team-site) | 수정한 날짜 |
+| 8/1/2019 | [격리된 SharePoint Online 팀 사이트 디자인](/Office365/SecurityCompliance/design-an-isolated-sharepoint-online-team-site) | 수정한 날짜 |
+| 8/1/2019 | [격리된 SharePoint Online 팀 사이트 개발/테스트 환경](/Office365/SecurityCompliance/isolated-sharepoint-online-team-site-dev-test-environment) | 수정한 날짜 |
+| 8/1/2019 | [격리된 SharePoint Online 팀 사이트 관리](/Office365/SecurityCompliance/manage-an-isolated-sharepoint-online-team-site) | 수정한 날짜 |
+| 8/1/2019 | [개발/테스트 환경의 보안 SharePoint Online 사이트](/Office365/SecurityCompliance/secure-sharepoint-online-sites-in-a-dev-test-environment) | 수정한 날짜 |
+| 8/1/2019 | [보존 정책 개요](/Office365/SecurityCompliance/retention-policies) | 수정한 날짜 |
+| 8/1/2019 | [고급 스팸 필터링 옵션](/Office365/SecurityCompliance/advanced-spam-filtering-asf-options) | 수정한 날짜 |
+| 8/1/2019 | [Office 365 메시지 암호화 레거시 정보](/Office365/SecurityCompliance/legacy-information-for-message-encryption) | 수정한 날짜 |
+| 8/1/2019 | [Office 365에서 가양성을 발생을 방지하는 방법](/Office365/SecurityCompliance/prevent-email-from-being-marked-as-spam) | 수정한 날짜 |
+| 8/1/2019 | [아웃바운드 스팸 정책 구성](/Office365/SecurityCompliance/configure-the-outbound-spam-policy) | 수정한 날짜 |
+| 8/1/2019 | [EOP에서 메일 사용자 관리](/Office365/SecurityCompliance/eop/manage-mail-users-in-eop) | 수정한 날짜 |
+| 8/1/2019 | [Office 365 메시지 암호화 관리](/Office365/SecurityCompliance/manage-office-365-message-encryption) | 수정한 날짜 |
+| 8/1/2019 | [Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](/Office365/SecurityCompliance/manage-quarantined-messages-and-files) | 수정한 날짜 |
+| 8/1/2019 | [Office 365에서 스팸 메일을 줄이는 방법](/Office365/SecurityCompliance/reduce-spam-email) | 수정한 날짜 |
+| 8/1/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
+| 8/1/2019 | [위협 탐색기 (및 실시간 검색)](/Office365/SecurityCompliance/threat-explorer) | 수정한 날짜 |
+| 8/1/2019 | [Office 365의 사용자 지정 도메인에서 DKIM을 사용 하 여 전자 메일 보내기](/Office365/SecurityCompliance/use-dkim-to-validate-outbound-email) | 수정한 날짜 |
+| 8/2/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
+| 8/2/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
+| 8/2/2019 | [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](/Office365/SecurityCompliance/set-up-compliance-boundaries) | 수정한 날짜 |
+| 8/2/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
+| 8/2/2019 | [위임된 관리 FAQ](/Office365/SecurityCompliance/eop/delegated-administration-faq) | 수정한 날짜 |
+| 8/2/2019 | [배달 된 악성 전자 메일 찾기 및 조사 (Office 365 위협 조사 및 응답)](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | 수정한 날짜 |
+| 8/2/2019 | [GDPR에 대한 Office 365 정보 보호 개요](/Office365/SecurityCompliance/office-365-info-protection-for-gdpr-overview) | 수정한 날짜 |
+| 8/2/2019 | [위협 탐색기 (및 실시간 검색)](/Office365/SecurityCompliance/threat-explorer) | 수정한 날짜 |
+| 8/2/2019 | [데이터를 처리할 때 오류 수정](/Office365/SecurityCompliance/compliance20/error-remediation) | 수정한 날짜 |
+| 8/2/2019 | [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](/Office365/SecurityCompliance/keyword-queries-and-search-conditions) | 수정한 날짜 |
+| 8/2/2019 | [Office 365 Advanced Threat Protection](/Office365/SecurityCompliance/office-365-atp) | 수정한 날짜 |
