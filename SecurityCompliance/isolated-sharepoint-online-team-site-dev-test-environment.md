@@ -14,12 +14,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Office 365 개발/테스트 환경에서 조직의 나머지 부분과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 23b734e55e8c68cdc42f41b4e61bdfe152fb01e0
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e4d4d4462efa91247954501c51a71120a7d341e0
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152590"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053093"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
@@ -59,7 +59,7 @@ Office 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사이
 시뮬레이트된 엔터프라이즈 구성에서 격리 된 SharePoint Online 팀 사이트를 만들려면 [Office 365 개발/테스트 환경용 DirSync](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment)의 지침을 따릅니다.
   
 > [!NOTE]
-> 격리 된 SharePoint Online 사이트를 만드는 경우에는 Windows Server AD 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 개발/테스트 환경이 필요 하지 않습니다. 격리 된 SharePoint Online 사이트를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에서 옵션으로 제공 됩니다. 
+> 격리 된 SharePoint Online 사이트를 만드는 경우에는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 개발/테스트 환경이 필요 하지 않습니다. 격리 된 SharePoint Online 사이트를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에서 옵션으로 제공 됩니다. 
   
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>2 단계: 사용자 계정 및 액세스 그룹 만들기
 
@@ -233,9 +233,9 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
     
 10. ProjectX documents 폴더의 URL을 복사 하 여 메모장 이나 텍스트 편집기에서 새 줄에 붙여 넣습니다.
     
-11. 브라우저의 새 **Projectx-문서** 탭에서 **새 > Word 문서**를 클릭 합니다.
+11. 브라우저의 새 **Projectx-문서** 탭에서 **Word 문서 > 새로 만들기**를 클릭 합니다.
     
-12. **Word Online** 페이지에서 텍스트를 입력 하 고 상태를 **저장할**때까지 기다렸다가 브라우저에서 뒤로 단추를 클릭 한 다음 페이지를 새로 고칩니다. **문서** 폴더에 새 **문서 .docx** 가 표시 됩니다.
+12. 페이지에 텍스트를 몇 개 입력 하 고 상태를 **저장할**때까지 기다렸다가 브라우저에서 뒤로 단추를 클릭 한 다음 페이지를 새로 고칩니다. **문서** 폴더에 새 **문서 .docx** 가 표시 됩니다.
     
 13. **문서 .docx** 문서의 줄임표를 클릭 한 다음 **링크 가져오기를**클릭 합니다.
     

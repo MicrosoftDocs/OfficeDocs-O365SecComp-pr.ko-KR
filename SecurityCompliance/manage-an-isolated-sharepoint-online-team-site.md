@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: '요약: 이러한 절차를 사용 하 여 격리 된 SharePoint Online 팀 사이트를 관리 합니다.'
-ms.openlocfilehash: 1670c806c799cdbd9ffa6d3c45568a3342b88815
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: e6ed86421ec199ce785e2daff5e9c5447939e69b
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34155820"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053083"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
 
@@ -35,11 +35,11 @@ ms.locfileid: "34155820"
     
 - 보기: 사이트 뷰어 액세스 그룹에 사용자 계정 추가
     
-Windows Server ad (Active Directory)를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 Windows Server AD 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 사용자를 해당 액세스 그룹에 추가 하 고 사용자와의 동기화를 기다립니다. Office 365 구독
+AD DS (Active Directory 도메인 서비스)를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 사용자를 해당 액세스 그룹에 추가 하 고 Office 365와의 동기화를 기다립니다. 구독은.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Office 관리 센터 또는 Microsoft PowerShell을 사용할 수 있습니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 Microsoft PowerShell을 사용할 수 있습니다.
   
-- Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에 적절 한 사용자를 추가 합니다.
+- Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에 적절 한 사용자를 추가 합니다.
     
 - PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다. UPN (사용자 계정 이름)을 사용 하 여 액세스 그룹에 사용자 계정을 추가 하려면 다음 PowerShell 명령 블록을 사용 합니다.
     
@@ -70,11 +70,11 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
     
 - 보기: 사이트 뷰어 액세스 그룹에 그룹 추가
     
-Windows Server AD를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 Windows Server AD 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 그룹을 적절 한 그룹에 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
+AD DS를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 해당 그룹에 적절 한 그룹을 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Office 관리 센터 또는 PowerShell을 사용할 수 있습니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다.
   
-- Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 적절 한 액세스 그룹에 적절 한 그룹을 추가 합니다.
+- Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 적절 한 액세스 그룹에 적절 한 그룹을 추가 합니다.
     
 - PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
  그런 후 다음 PowerShell 명령을 사용 합니다.
@@ -95,11 +95,11 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
     
 - 보기: 사이트 뷰어 액세스 그룹에서 사용자 계정 제거
     
-Windows Server AD를 통해 사용자 계정 및 그룹을 관리 하는 경우에는 일반적인 Windows Server AD 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 해당 사용자를 제거 하 고 Office 365와의 동기화를 기다립니다. 구독은.
+AD DS를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 해당 사용자를 제거 하 고 Office 365 구독과 동기화를 기다립니다.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Office 관리 센터 또는 PowerShell을 사용할 수 있습니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다.
   
-- Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에서 해당 사용자를 제거 합니다.
+- Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에서 해당 사용자를 제거 합니다.
     
 - PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
 UPN을 사용 하 여 액세스 그룹에서 사용자 계정을 제거 하려면 다음 PowerShell 명령 블록을 사용 합니다.
@@ -128,11 +128,11 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
     
 - 보기: 사이트 뷰어 액세스 그룹에서 그룹 제거
     
-Windows Server Active Directory를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 Windows Server AD 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 적절 한 그룹을 제거 하 고 사용자와의 동기화를 기다립니다. Office 365 구독
+Windows Server Active Directory를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 적절 한 그룹을 제거 하 고 Office 365와의 동기화를 기다립니다. 구독은.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Office 관리 센터 또는 PowerShell을 사용할 수 있습니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다.
   
-- Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에서 적절 한 그룹을 제거 합니다.
+- Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에서 적절 한 그룹을 제거 합니다.
     
 - PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.    
 표시 이름을 사용 하 여 액세스 그룹에서 그룹을 제거 하려면 다음 PowerShell 명령 블록을 사용 합니다.
@@ -157,19 +157,19 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
     
 4. **공유**를 클릭합니다.
     
-5. **_GT_ 고급을 사용 하 여 공유를**클릭 합니다.
+5. **고급 > 사용 하 여 공유를**클릭 합니다.
     
 6. **사용 권한 상속 중지**를 클릭 하 고 **확인**을 클릭 합니다.
     
 7. **공유**를 클릭합니다.
     
-8. **_GT_ 고급을 사용 하 여 공유를**클릭 합니다.
+8. **고급 > 사용 하 여 공유를**클릭 합니다.
     
-9. **_GT_ Advanced와 공유 _GT_ 사용 권한 부여를**클릭 합니다.
+9. **> Advanced와 공유 > 사용 권한 부여를**클릭 합니다.
     
-10. 사용 권한 페이지의 ** \<목록에서 사이트 name> 구성원**을 클릭 합니다.
+10. 사용 권한 페이지의 ** \<목록에서 사이트 이름> 구성원**을 클릭 합니다.
     
-11. 사이트 name> 구성원 페이지에서 사이트 구성원 액세스 그룹 옆에 있는 확인 표시를 선택 하 고 **작업**을 클릭 한 다음 **그룹에서 사용자 제거**를 클릭 하 고 **확인**을 클릭 합니다. ** \<**
+11. 사이트 이름> 구성원 페이지에서 사이트 구성원 액세스 그룹 옆에 있는 확인 표시를 선택 하 고 **작업**을 클릭 한 다음 **그룹에서 사용자 제거**를 클릭 하 고 **확인**을 클릭 합니다. ** \<**
     
 12. 이 하위 폴더에 특정 구성원을 추가 하려면 **새로 만들기 > 사용자 추가**를 클릭 합니다.
     
@@ -177,9 +177,9 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
     
 14. 웹 페이지를 새로 고쳐 새 결과를 확인 합니다.
     
-15. 왼쪽 탐색 창의 **그룹** 에서 ** \<site name> 방문자** 그룹을 클릭 하 고, 11-14 단계를 사용 하 여 하위 폴더의 파일을 볼 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
+15. 왼쪽 탐색 창의 **그룹** 에서 ** \<방문자 그룹> 사이트 이름을** 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 파일을 볼 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
     
-16. 왼쪽 탐색 창의 **그룹** 에서 ** \<site name>** owner 그룹을 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 사용 권한을 관리할 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
+16. 왼쪽 탐색 창의 **그룹** 에서 ** \<사이트 이름> 소유자** 그룹을 클릭 하 고 11-14 단계를 사용 하 여 하위 폴더의 사용 권한을 관리할 수 있는 사용자 계정 집합 (필요한 경우)을 지정 합니다.
     
 17. 브라우저에서 **사용자 및 그룹** 탭을 닫습니다.
     

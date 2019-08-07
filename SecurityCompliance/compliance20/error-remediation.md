@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 5168196dcac8a2cb3809f43fabb470c0f64cd0f7
-ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
+ms.openlocfilehash: efcee812b6082a7f7ee36e6aea0ecb7ed0243077
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36048167"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36168140"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -48,7 +48,7 @@ ms.locfileid: "36048167"
 
     ![파일 다운로드](../media/6ac04b09-8e13-414a-9e24-7c75ba586363.png)
 
-5. 파일을 다운로드 하려면 **다운로드 대상 경로**를 지정 합니다. 파일을 다운로드 하는 로컬 컴퓨터의 경로입니다.  기본 경로인%USERPROFILE%\Downloads\errors는 로그인 한 사용자의 다운로드 폴더를 가리킵니다. 필요한 경우이 경로를 변경할 수 있습니다. 이 작업을 변경 하는 경우에는 원격 네트워크 경로 대신 로컬 파일 경로를 사용 하 여 성능을 최적화 하는 것이 좋습니다.
+5. 파일을 다운로드 하려면 **다운로드 대상 경로**를 지정 합니다. 파일을 다운로드 하는 로컬 컴퓨터의 경로입니다.  기본 경로인%USERPROFILE%\Downloads\errors는 로그인 한 사용자의 다운로드 폴더를 가리킵니다. 필요한 경우이 경로를 변경할 수 있습니다. 이를 변경 하는 경우 최상의 성능을 위해 로컬 파일 경로를 사용 하는 것이 좋습니다. 원격 네트워크 경로를 사용 하지 마십시오.
 
 6. **클립보드에 복사를**클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키 **** 를 누릅니다.  
 
@@ -75,7 +75,7 @@ ms.locfileid: "36048167"
 
 11. Advanced eDiscovery로 돌아간 후 **다음: 프로세스 파일**을 클릭 합니다.
 
-12. 처리가 완료 되 면  검토 집합으로 돌아가 재구성 된 파일을 볼 수 있습니다.
+12. 처리가 완료 되 면 검토 집합으로 돌아가 재구성 된 파일을 볼 수 있습니다.
 
 ## <a name="what-happens-when-files-are-remediated"></a>파일을 수정 하는 경우 수행 되는 작업
 
@@ -91,4 +91,4 @@ ms.locfileid: "36048167"
 - WordCount
 - WorkingsetId
 
-Advanced eDiscovery의 모든 문서 메타 데이터 필드에 대 한 정의는 [문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.
+Advanced eDiscovery의 모든 메타 데이터 필드에 대 한 정의는 [문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.

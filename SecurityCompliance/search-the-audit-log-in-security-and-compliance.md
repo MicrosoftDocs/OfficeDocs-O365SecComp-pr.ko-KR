@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 & 준수 센터를 사용 하 여 Office 365 조직에서 사용자 및 관리자 활동을 볼 수 있는 통합 된 감사 로그를 검색 합니다. '
-ms.openlocfilehash: d2e099343581c8842551491eb885534cbcbc961b
-ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
+ms.openlocfilehash: 79309a2145db53f38d5d3c3c29777571d56910ae
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054780"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36165694"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 & 준수 센터에서 감사 로그 검색
 
@@ -789,18 +789,12 @@ Exchange 관리자 감사 로깅 (Office 365에서 기본적으로 사용 하도
     ![작업 상자에 대시를 입력 하 여 Exchange 관리 이벤트를 필터링 합니다.](media/7628e7aa-6263-474a-a28b-2dcf5694bb27.png)
   
 - 실행 된 cmdlet, 사용 된 매개 변수 및 매개 변수 값, 영향을 받은 개체에 대 한 정보를 얻으려면 **모든 결과 다운로드** 옵션을 선택 하 여 검색 결과를 내보낼 수 있습니다. 자세한 내용은 [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요. 
-    
-
-- Exchange 관리 센터를 사용 하 여 Exchange 관리자 감사 로그에서 이벤트를 볼 수도 있습니다. 자세한 내용은 [관리자 감사 로그 보기](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx)를 참조 하십시오.
-
-> [!IMPORTANT]
->  Exchange online 관리자의 사용을 검색 하 고 추적 하려면 *검색-search-unifiedauditlog*에 대해 Cmdlet *검색-search-adminauditlog* privilegies을 사용 합니다.
-
 
 - Exchange Online PowerShell의 `Search-UnifiedAuditLog -RecordType ExchangeAdmin` 명령을 사용 하 여 exchange 관리자 감사 로그의 감사 레코드만 반환할 수도 있습니다. 검색 결과에서 반환 되는 해당 감사 로그 항목에 대해 Exchange cmdlet이 실행 된 후 최대 30 분이 걸릴 수 있습니다. 자세한 내용은 [검색-search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog)를 참조 하세요. **Search-unifiedauditlog** cmdlet에서 반환 된 검색 결과를 CSV 파일로 내보내는 방법에 대 한 자세한 내용은 [Export, configure 및 view audit log records](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기에 대 한 팁" 섹션을 참조 하십시오.
 
-- Exchange 관리 센터를 사용 하거나 Exchange Online PowerShell에서 **search-adminauditlog** 를 실행 하 여 exchange 관리자 감사 로그에서 이벤트를 볼 수도 있습니다. 해당 지침은 다음 항목을 참조하세요.
-   - [관리자 감사 로그를 확인](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx)합니다. 
+- Exchange 관리 센터를 사용 하거나 Exchange Online PowerShell에서 **search-adminauditlog** 를 실행 하 여 exchange 관리자 감사 로그에서 이벤트를 볼 수도 있습니다. 이 방법은 Exchange Online 관리자가 수행한 활동을 특별히 검색할 수 있는 좋은 방법입니다. 해당 지침은 다음 항목을 참조하세요.
+   
+   - [관리자 감사 로그 보기](https://technet.microsoft.com/library/dn342832%28v=exchg.150%29.aspx) 
    
    -  [검색-Search-adminauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog)
    

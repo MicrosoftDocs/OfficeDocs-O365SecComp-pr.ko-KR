@@ -3,7 +3,7 @@ title: 격리된 SharePoint Online 팀 사이트 배포
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/14/2018
+ms.date: 07/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: 488f834f568e65d35a7186b85cc393f5a66b2900
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 06b7fdbc0e387ee2181a850e950537f3fed5ae50
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34153400"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053105"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -68,9 +68,9 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
     
 3. **그룹 - 모든 그룹** 블레이드에서 **+ 새 그룹**을 클릭합니다.
     
-4. **그룹** 블레이드에서:
+4. **새 그룹** 블레이드에서 다음과 같이 합니다.
     
-  - **그룹 유형**에서 **Office 365**를 선택합니다.
+  - **그룹 유형에**서 **보안** 을 선택 합니다.
     
   - **이름**에 그룹 이름을 입력 합니다.
     
@@ -99,11 +99,11 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
     
 3. 3 단계의 사용자 목록을 사이트 뷰어 액세스 그룹에 추가 합니다.
     
-Windows Server AD를 통해 사용자 계정 및 그룹을 관리 하는 경우에는 일반 Windows Server AD 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에 사용자를 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
+AD DS (Active Directory 도메인 서비스)를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 해당 액세스 그룹에 사용자를 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Office 관리 센터 또는 PowerShell을 사용할 수 있습니다. 액세스 그룹의 그룹 이름이 중복 된 경우 Office 관리 센터를 사용 해야 합니다.
+Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다. 액세스 그룹의 그룹 이름이 중복 된 경우 Microsoft 365 관리 센터를 사용 해야 합니다.
   
-Office 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 적절 한 액세스 그룹에 적절 한 사용자 계정 및 그룹을 추가 합니다.
+Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 적절 한 액세스 그룹에 적절 한 사용자 계정 및 그룹을 추가 합니다.
   
 PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory PowerShell을 사용 하 여 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)합니다.
   
@@ -144,7 +144,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
     
 - 사이트 뷰어 Azure AD 그룹에는 사이트 콘텐츠만 볼 수 있는 사용자 계정 또는 그룹이 포함 됩니다.
     
-Office 관리 센터를 사용 하거나 다음 PowerShell 명령 블록을 사용 하 여 각 액세스 그룹의 그룹 구성원 목록을 확인 합니다.
+다음 PowerShell 명령 블록을 사용 하거나 Microsoft 365 관리 센터를 사용 하 여 각 액세스 그룹의 그룹 구성원 목록을 확인 합니다.
   
 ```
 $grpName="<display name of the access group>"
@@ -187,7 +187,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 4. **액세스 요청 설정** 대화 상자에서 **구성원이 사이트 및 개별 파일 및 폴더를 공유 하도록 허용** 을 선택 취소 하 고 세 확인란이 모두 선택 취소 되도록 **액세스 요청을 허용한** 다음 **확인**을 클릭 합니다.
     
-5. 브라우저의 **사용 권한** 탭에 있는 목록에서 ** \<사이트 name> 구성원** 을 클릭 합니다.
+5. 브라우저의 **사용 권한** 탭에 있는 목록에서 ** \<사이트 이름> 구성원** 을 클릭 합니다.
     
 6. **사용자 및 그룹**에서 **새로 만들기**를 클릭합니다.
     
@@ -195,7 +195,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 8. 브라우저에서 뒤로 단추를 클릭합니다.
     
-9. 목록에서 ** \<사이트 name> 소유자** 를 클릭 합니다.
+9. 목록에서 ** \<사이트 이름> 소유자** 를 클릭 합니다.
     
 10. **사용자 및 그룹**에서 **새로 만들기**를 클릭합니다.
     
@@ -203,7 +203,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 12. 브라우저에서 뒤로 단추를 클릭합니다.
     
-13. 목록에서 ** \<사이트 name> 방문자** 를 클릭 합니다.
+13. 목록에서 ** \<방문자> 사이트 이름을** 클릭 합니다.
     
 14. **사용자 및 그룹**에서 **새로 만들기**를 클릭합니다.
     
@@ -213,11 +213,11 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 이러한 권한 설정의 결과는 다음과 같습니다.
   
-- Site name> owner SharePoint 그룹에는 모든 구성원이 모든 권한 수준을 갖는 사이트 관리자 액세스 그룹이 포함 되어 있습니다 **** . ** \<**
+- 사이트 이름 **** **> 소유자 SharePoint 그룹에는 모든 구성원이 모든 권한 수준을 갖는 사이트 관리자 액세스 그룹이 포함 되어 \<** 있습니다.
     
-- Site name> Members SharePoint 그룹에는 모든 구성원이 **편집** 권한 수준을 갖는 사이트 구성원 액세스 그룹이 포함 되어 있습니다. ** \<**
+- Site name> members SharePoint 그룹에는 모든 구성원이 **편집** 권한 수준을 갖는 사이트 구성원 액세스 그룹이 포함 되어 있습니다. ** \<**
     
-- Site name> 방문자 SharePoint 그룹에는 모든 구성원이 **읽기** 권한 수준을 갖는 사이트 뷰어 액세스 그룹이 포함 되어 있습니다. ** \<**
+- 사이트 이름> 방문자 SharePoint 그룹에는 모든 구성원이 **읽기** 권한 수준을 갖는 사이트 뷰어 액세스 그룹이 포함 되어 있습니다. ** \<**
     
 - 구성원이 다른 구성원을 초대 하거나 구성원이 아닌 사람에 게 액세스를 요청 하는 기능은 사용 하지 않도록 설정 됩니다.
     
