@@ -1,7 +1,7 @@
 ---
 title: 보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: b036d308a55dbd557c6b3dd5e0d5315d0d26bc83
-ms.sourcegitcommit: cc1b0281fa594cbb7c09f3e419df21aec9557831
+ms.openlocfilehash: f038a37d2f049b49710c7f50e030bfe189be82b6
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417410"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230932"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 

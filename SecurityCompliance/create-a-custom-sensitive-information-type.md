@@ -1,7 +1,7 @@
 ---
 title: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: 55e54bf8b49ec21bb5ed4f161efc4e5924ee52fb
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 62a08b4978e7e962f46a1de43c3d3160a44dd46e
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077744"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230902"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
 
