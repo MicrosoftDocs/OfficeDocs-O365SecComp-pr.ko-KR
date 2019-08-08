@@ -1,7 +1,7 @@
 ---
 title: 템플릿에서 DLP 정책 만들기
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 6/29/2018
 audience: Admin
@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: 0f1cd4fdf08edcd747dc3d1bc92625dda49e50de
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: db32748b25296ef82c56160e95535ac488eb65a5
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077714"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230892"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 

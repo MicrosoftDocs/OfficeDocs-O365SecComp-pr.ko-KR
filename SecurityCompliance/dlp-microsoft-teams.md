@@ -1,7 +1,7 @@
 ---
 title: 데이터 손실 방지 및 Microsoft 팀
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 07/12/2019
 audience: ITPro
@@ -13,12 +13,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 96ba26a4e155a976c2123cc44c3a8632092740ac
-ms.sourcegitcommit: ea630cf1cbaa98ede5ee320c71a0fad7d7def6fb
+ms.openlocfilehash: 8ac8f4e2a4189ca83772775a96067d0b5fc3a24b
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/13/2019
-ms.locfileid: "35672917"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230742"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 

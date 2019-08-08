@@ -1,7 +1,7 @@
 ---
 title: 데이터 손실 방지에 대한 보고서 보기
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 6/7/2018
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365의 DLP 보고서를 사용 하 여 DLP 정책 일치, 재정의 또는 가양성의 수를 빠르게 확인할 수 있습니다. 시간이 경과 함에 따라 작업 시간을 초과 하 고 있는지 여부를 확인할 수 있습니다. 다양 한 방법으로 보고서를 필터링 합니다. 그래프의 선에서 점을 선택 하 여 추가 세부 정보를 확인 합니다.
-ms.openlocfilehash: edca8ad8ae970453e6baf9c1910e17cc62568af5
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: f3161854a19f9f9a04390eec508ae43e92119f96
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077304"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230372"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
@@ -73,7 +73,7 @@ DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도
   
 ## <a name="permissions-for-dlp-reports"></a>DLP 보고서에 대 한 사용 권한
 
-Security & 준수 센터에서 DLP 보고서를 보려면 다음을 할당 해야 합니다.
+보안 & 준수 센터에서 DLP 보고서를 보려면 다음을 할당 해야 합니다.
 
 - Exchange 관리 센터의 **보안 독자** 역할입니다. 기본적으로이 역할은 Exchange 관리 센터의 조직 관리 및 보안 독자 역할 그룹에 할당 됩니다.
 

@@ -1,7 +1,7 @@
 ---
 title: 정보 장벽 정책의 특성
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 07/08/2019
 audience: ITPro
@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 정책에서 사용할 수 있는 다양 한 특성에 대 한 참조로 사용 합니다.
-ms.openlocfilehash: 1e2e183da350308a57fa5d627b4867b9b3d30cee
-ms.sourcegitcommit: a6f046f1529b0515f4f0e918a19ec83f4138b871
+ms.openlocfilehash: 4198728d412062edced6238604b2b891da22aeac
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35587067"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230442"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 특성
 

@@ -1,7 +1,7 @@
 ---
 title: 새 Microsoft 365 준수 센터 개요
-ms.author: deniseb
-author: denisebmsft
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 ms.date: 05/29/2019
 audience: ITPro
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 새로운 Microsoft 365 준수 센터에 대해 알아봅니다.
-ms.openlocfilehash: ec7dff8d230bc3b9e7ab1fd4a9348a1b8eb0ca9b
-ms.sourcegitcommit: 73dcdafb15b462223d1a670c781db260eb73c2f5
+ms.openlocfilehash: 13caad70328322505557ea2e8deac902ae1fc9a6
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36048230"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36231132"
 ---
 # <a name="overview-of-the-all-new-microsoft-365-compliance-center"></a>모든 신규 Microsoft 365 준수 센터 개요
 

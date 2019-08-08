@@ -15,16 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Exchange Online 사서함에 대 한 무제한 보관 저장소를 제공 하는 Office 365의 자동 확장 보관에 대해 알아봅니다.
-ms.openlocfilehash: 9b63bcd7cbf8c1cef8df336553debdbf7af2ba12
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 21489683bbb9f3e2addb5e95a38d8f8a418639de
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34158070"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36231082"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Office 365의 무제한 보관 개요
 
-Office 365에서 보관 사서함은 사용자에 게 사서함 저장소 공간을 추가로 제공 합니다. 사용자의 보관 사서함을 사용 하도록 설정한 후에는 최대 100의 추가 저장소를 사용할 수 있습니다. 100 GB 저장소 할당량에 도달 하면 조직에서 Microsoft에 문의 하 여 보관 사서함에 대 한 추가 저장소 공간을 요청 해야 했습니다. 더 이상 이러한 경우는 아닙니다. Office 365의 새로운 무제한 보관 기능 ( *자동 확장 보관*이라고 함)은 보관 사서함에 무제한의 저장소를 제공 합니다. 이제 보관 사서함의 저장소 할당량에 도달 하면 Office 365에서 자동으로 보관 함의 크기를 증가 시키며, 따라서 사용자에 게 사서함 저장소 공간이 부족 하지 않고 관리자가 보관 사서함에 대해 추가 저장소를 요청할 필요가 없습니다. .
+Office 365에서 보관 사서함은 사용자에 게 사서함 저장소 공간을 추가로 제공 합니다. 사용자의 보관 사서함을 사용 하도록 설정한 후에는 최대 100의 추가 저장소를 사용할 수 있습니다. 이전에는 100 GB 저장소 할당량에 도달 했을 때 조직에서 Microsoft에 연락 하 여 보관 사서함에 대 한 추가 저장소 공간을 요청 해야 했습니다. 더 이상 이러한 경우는 아닙니다.
+
+Office 365의 무제한 보관 기능(*자동 확장 보관 기능*이라고도 함)은 보관 사서함의 무제한 저장소 용량을 제공합니다. 이제 보관 사서함의 저장소 할당량에 도달 하면 Office 365에서 자동으로 보관 함의 크기를 증가 시키며, 따라서 사용자에 게 사서함 저장소 공간이 부족 하지 않고 관리자가 보관 사서함에 대해 추가 저장소를 요청할 필요가 없습니다. .
   
 자동 확장 보관을 설정 하는 단계별 지침은 [Office 365에서 무제한 보관을 사용 하도록 설정을](enable-unlimited-archiving.md)참조 하십시오.
   

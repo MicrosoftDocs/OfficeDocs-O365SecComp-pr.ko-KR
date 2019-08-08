@@ -1,7 +1,7 @@
 ---
 title: 키워드 사전 만들기
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '경우에 따라 중요한 정보를 식별하기 위해 키워드를 검색해야 할 수 있습니다. 이러한 작업은 일반 콘텐츠(예: 의료 관련 커뮤니케이션) 또는 부적절하거나 명시적인 언어를 식별할 때 특히 필요합니다. 중요한 정보 유형에 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되며 생성하거나 편집하기 위해 XML을 수정해야 합니다. 키워드 사전은 키워드를 보다 간편하게 관리할 수 있도록 하며 사전당 최대 100,000개 용어를 지원합니다.'
-ms.openlocfilehash: 9fcd1504104f367d177d0cc835736d728f36c277
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 5e99cad328115ad6b49982ea4c5749cdea6e43ed
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077574"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230792"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
@@ -29,13 +29,13 @@ Office 365의 DLP (데이터 손실 방지)를 통해 중요 한 정보를 식�
 
 사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
   
-1. **Security & 준수 센터** ([https://protection.office.com](https://protection.office.com))를 사용 하거나 **Office 365 보안 &amp; 및 준수 센터 PowerShell**에 연결 합니다.
+1. **보안 & 준수 센터** ([https://protection.office.com](https://protection.office.com))를 사용 하거나 **Office 365 보안 &amp; 및 준수 센터 PowerShell**에 연결 합니다.
     
 2. **원하는 원본에서 키워드를 정의 하거나 로드**합니다. 마법사와 cmdlet은 모두 쉼표로 구분 된 키워드 목록을 사용 하 여 사용자 지정 키워드 사전을 만들기 때문에이 단계는 키워드의 출처에 따라 약간씩 다릅니다. 일단 로드되고 나면 가져오기 전에 인코딩되어 바이트 배열로 변환됩니다.
     
 3. **사전을 만듭니다**. 이름 및 설명을 선택 하 고 사전을 만듭니다.
 
-## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a>Security & 준수 센터를 사용 하 여 키워드 사전 만들기
+## <a name="create-a-keyword-dictionary-using-the-security--compliance-center"></a>보안 & 준수 센터를 사용 하 여 키워드 사전 만들기
 
 다음 단계를 따라 사용자 지정 사전에 대한 키워드를 만들고 가져오세요.
 

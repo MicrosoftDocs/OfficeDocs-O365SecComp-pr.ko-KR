@@ -1,9 +1,9 @@
 ---
-title: 위협 탐색기 (및 실시간 검색)
+title: 위협 탐색기 및 실시간 검색
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 06/20/2019
+ms.date: 08/07/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,15 +14,15 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
-description: 보안 &amp; 및 준수 센터의 Explorer (및 실시간 검색)에 대해 알아봅니다.
-ms.openlocfilehash: dff1fae01aa525135226d88b305de7c7c3aefb7c
-ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
+description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
+ms.openlocfilehash: 2e3e60c2b197c30f01efcfcba5e118091b29a22b
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054760"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230412"
 ---
-# <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 (및 실시간 검색)
+# <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
 조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 *실시간 보고서* )을 통해 다음을 [참조 하십시오. 새로운 기능](#new-features-in-real-time-detections)! 보안 & 준수 센터에서 **위협 관리**로 이동한 다음 **Explorer** 또는 **실시간**검색을 선택 합니다. 
 
@@ -42,7 +42,7 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 ## <a name="new-features-in-real-time-detections"></a>실시간 검색의 새로운 기능
 
-Explorer/실시간 검색에서는 전자 메일이 있는 위치를 보다 완전 하 게 보여 주도록 디자인 된 새 필드를 새로 추가 합니다. 이러한 변경 목표의 일환으로는 보안 Ops 사용자에 게 더 쉽게 사냥을 사용할 수 있지만,이는 네트워크 결과에서 문제 전자 메일의 위치를 한눈에 파악 하는 것입니다.
+Explorer (및 실시간 검색)에서는 전자 메일이 발생 하는 위치를 보다 완벽 하 게 파악할 수 있도록 디자인 된 새 필드를 새로 추가 합니다. 이러한 변경 목표의 일환으로는 보안 Ops 사용자에 게 더 쉽게 사냥을 사용할 수 있지만,이는 네트워크 결과에서 문제 전자 메일의 위치를 한눈에 파악 하는 것입니다.
 
 어떤 작업을 수행 하나요? 배달 상태는 이제 다음과 같은 두 개의 열로 나뉩니다.
 
@@ -105,9 +105,9 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
     보고서를 새로 고치면 보고서 아래의 URL 탭에 서로 다른 두 개의 URL 테이블이 표시 됩니다.
 
-   1. **상위 url** 은 필터링 된 메시지에 포함 된 url 및 각 URL에 대 한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 일반적으로이 목록에는 합법적인 Url이 포함 됩니다. 공격자는 메시지에 효과적이 고 잘못 된 Url을 함께 사용 하 여 배달 하려고 할 수 있지만, 사용자가 클릭 하는 데 더 흥미로운 악성 링크를 만들 수 있습니다. Url의 테이블은 총 전자 메일 수를 기준으로 정렬 됩니다 (참고:이 열은 보기를 단순하게 하기 위해 표시 되지 않음).
+   - **상위 url** 은 필터링 된 메시지에 포함 된 url 및 각 URL에 대 한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 일반적으로이 목록에는 합법적인 Url이 포함 됩니다. 공격자는 메시지에 효과적이 고 잘못 된 Url을 함께 사용 하 여 배달 하려고 할 수 있지만, 사용자가 클릭 하는 데 더 흥미로운 악성 링크를 만들 수 있습니다. Url의 테이블은 총 전자 메일 수를 기준으로 정렬 됩니다 (참고:이 열은 보기를 단순하게 하기 위해 표시 되지 않음).
 
-   2. **위쪽** 클릭은 클릭 한 안전한 링크 래핑된 url이 총 클릭 횟수에 따라 정렬 되며 보기를 단순화 하기 위해이 열도 표시 되지 않습니다. 총 개수 열에서 안전한 링크를 나타냅니다. 클릭 한 각 URL에 대해 결과 count를 클릭 합니다. 피싱 email (전자 메일 보기)에서 이러한 메시지는 일반적으로 의심 되거나 악성 Url 이지만 피싱 메시지가 있는 깨끗 한 Url을 포함할 수 있습니다. 래핑 해제 한 링크의 URL 클릭은 여기에 표시 되지 않습니다.
+   - **위쪽** 클릭은 클릭 한 안전한 링크 래핑된 url이 총 클릭 횟수에 따라 정렬 되며 보기를 단순화 하기 위해이 열도 표시 되지 않습니다. 총 개수 열에서 안전한 링크를 나타냅니다. 클릭 한 각 URL에 대해 결과 count를 클릭 합니다. 피싱 email (전자 메일 보기)에서 이러한 메시지는 일반적으로 의심 되거나 악성 Url 이지만 피싱 메시지가 있는 깨끗 한 Url을 포함할 수 있습니다. 래핑 해제 한 링크의 URL 클릭은 여기에 표시 되지 않습니다.
    
    두 개의 Url 테이블에는 배달 작업 및 위치로 피싱 전자 메일의 상위 Url이 표시 되며, 사용자가 잘못 된 링크를 받아 사용자가 상호 작용 한 잠재적 문제를 파악할 수 있는 URL 클릭이 표시 됩니다 (또는 경고와 상관 없이 방문 됨). 여기서는 추가 분석을 수행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단 된 전자 메일의 상위 Url을 볼 수 있습니다.
    
@@ -117,11 +117,11 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 ## <a name="review-email-messages-reported-by-users"></a>사용자가 보고 한 전자 메일 메시지 검토
 
-조직의 사용자가 [outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 정크 메일 또는 피싱이 아닌 메시지를 보고 한다고 가정 합니다. 이 작업을 수행 하려면 [전자 메일 > 사용자가 보고](threat-explorer-views.md#email--user-reported) 한 탐색기 보기 (실시간 검색)를 사용 합니다.
+조직의 사용자가 [outlook 및 웹용 outlook에 대 한 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 정크 메일 또는 피싱이 아닌 메시지를 보고 한다고 가정 합니다. 이 작업을 수행 하려면 [전자 메일 > 전송](threat-explorer-views.md#email--submissions) Explorer (또는 실시간 검색)를 사용 합니다.
 
 1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
-2. **보기** 메뉴에서**사용자가 보고 한** **전자 메일** > 을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewMenuEmailUserReported.png)<br/>
+2. **보기** 메뉴에서 **전자 메일** > **제출을**선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](media/ExplorerViewMenuEmailUserReported.png)<br/>
 
 3. **보낸 사람**을 클릭 한 다음 **기본** > **보고서 유형을**선택 합니다.
 
@@ -170,8 +170,7 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
-## <a name="some-differences-between-real-time-detection-and-threat-exporter"></a>실시간 검색 및 위협 내보내기와 같은 약간의 차이가 있습니다.
+## <a name="some-differences-between-threat-exporter-and-real-time-detections"></a>위협 내보내기와 실시간 감지 간의 약간의 차이점
 
- - **Threat Explorer** 는 atp P2와 함께 제공 되는 동안 atp P1 구독과 함께 **실시간 검색 보고서** 가 제공 됩니다.
- - **실시간** 검색 보고서를 사용 하면 위협 탐색기 보고서를 통해 실시간으로 검색을 표시할 수 있으며 지정 된 공격에서 더 많은 세부 정보를 볼 수 있습니다.
- - **위협 탐색기** 보고서는 **실시간 탐지기** 보고서를 통해 경험을 향상 시키는 다양 한 보고서 집합을 제공 합니다.
+ - **실시간** 검색 보고서는 OFFICE 365 atp 계획 1에서 사용할 수 있지만, **Threat Explorer** 는 office 365 atp 계획 2에서 사용할 수 있습니다.
+ - **실시간** 검색 보고서를 사용 하면 실시간으로 검색을 볼 수 있습니다. **위협 탐색기** 도이를 수행 하지만 지정 된 공격에 대 한 추가 세부 정보를 볼 수도 있습니다.

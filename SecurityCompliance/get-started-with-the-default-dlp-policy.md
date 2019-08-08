@@ -1,7 +1,7 @@
 ---
 title: 기본 DLP 정책을 사용하여 시작
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 8/10/2017
 audience: Admin
@@ -15,12 +15,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: 첫 번째 DLP (데이터 손실 방지) 정책을 만들기 전에 DLP는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다.
-ms.openlocfilehash: a14e2c9c1f833552c11e55ec76f6f804e0311479
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 32e5fef1cbfb8fe13928100dbfdae0d620e79762
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077924"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230502"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>기본 DLP 정책을 사용하여 시작
 
