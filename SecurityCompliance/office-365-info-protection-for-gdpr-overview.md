@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR에 대한 Office 365 정보 보호 개요를 확인합니다. 개인 데이터를 검색, 분류, 보호 및 모니터링하는 방법을 알아봅니다.
-ms.openlocfilehash: 0231951aa4fde3075dc525707fc7cac98e8f7a45
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 0c1c43bdbe16b82a1fe85222b2faf9c76dfc6fe0
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34152490"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36165664"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호 개요
 
@@ -35,7 +35,7 @@ GDPR은 개인 데이터의 수집, 저장, 처리 및 공유를 규제합니다
 
 이 솔루션은 조직에서 GDPR이 적용될 수 있는 Office 365dml 개인 데이터를 검색하고 보호하는 데 도움을 주기 위해 작성되었습니다. 이 솔루션은 GDPR 규정 준수에 대한 증거로 제공되지 않습니다. 조직에서는 자체 GDPR 규정 준수를 보장하고, 법률 및 규정 준수 팀의 자문을 구하거나 규정 준수에 특하된 제3자의 자문을 구하는 것이 좋습니다.
 
-[GDPR 평가](https://assessment.microsoft.com/gdpr-compliance)는 조직이 전반적인 준비 수준이 GDPR에 부합되는지 검토하는 데 도움을 주기 위해 무료로 사용할 수 있는 빠른 온라인 자체 평가 도구입니다(<http://aka.ms/gdprassessment>).
+[GDPR 평가](https://www.microsoft.com/cyberassessment/en/gdpr/uso365?ls=Email&mkt_tok=eyJpIjoiTTJFeE5USXlOR1EwTWpJMiIsInQiOiJQTmdCYWR5NTlOd3JLWHZlb2NzNldKclQ4ZVBzVmhGeUhoUlFcL1pvSDIyXC9Ka05iTUR1aGpxT0YxQ0FUeGNDOUlkbWZLM1U4SUZWZmEyaGF6XC9ueUxkTHJzZnB3VDRMZlhPdkR4MzRLWkF5ckRNdWwxUkgzXC9yRU8yNkttSHhTb3VpZjNyVlJrNm9TTVZRYU5HR240a0FRPT0ifQ%3D%3D)는 무료로 사용할 수 있는 빠른 온라인 자체 평가 도구로, 조직이 전반적인 준비 수준이 GDPR에 부합되는지 검토하는 데 도움을 줍니다.
 
 ## <a name="assess-and-manage-your-compliance-risk"></a>규정 준수 위험 평가 및 관리
 
@@ -47,7 +47,7 @@ GDPR 규정을 준수하는 첫 번째 단계는 GDPR이 조직에 적용되는�
 
 ![규정 준수 관리자를 사용하여 요구 사항 확인 및 진행 상황 추적](Media/Overview-image1.png)
 
-자세한 내용은 [서비스 보안 포털에서 규정 준수 관리자 사용](https://support.office.com/ko-KR/article/Use-Compliance-Manager-in-the-Service-Trust-Portal-Preview-5756d342-5af9-4496-82e8-4dd50fa39942)을 참조하세요. 
+자세한 내용은 [서비스 보안 포털에서 규정 준수 관리자 사용](https://servicetrust.microsoft.com/ComplianceManager)을 참조하세요. 
 
 ### <a name="step-2--use-content-search-and-sensitive-information-types-to-find-personal-data"></a>2단계 - 콘텐츠 검색 및 중요한 정보 유형을 사용하여 및 개인 데이터 찾기 
 
