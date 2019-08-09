@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: 45c7a35a27fea3891270ee72b1fd528a357ad825
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: d3abd49d3ba336f5896887732ea0c37b59265bc9
+ms.sourcegitcommit: c8ea7c0900e69e69bd5c735960df70aae27690a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35598734"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36258561"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -94,4 +94,4 @@ Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 
 ## <a name="configuring-case-settings"></a>사례 설정 구성
 
-**설정** 탭을 사용 하 여 대/소문자 전체의 설정을 구성 합니다. 여기에는 사례에 구성원 추가, 사례 닫기 또는 삭제, 검색 및 분석 설정 구성 등이 포함 됩니다. 자세한 내용은 [Advanced eDiscovery에서 사례 설정 구성을](configuring-case-settings-ediscovery20.md)참조 하십시오.
+**설정** 탭을 사용 하 여 대/소문자 전체의 설정을 구성 합니다. 여기에는 사례에 구성원 추가, 사례 닫기 또는 삭제, 검색 및 분석 설정 구성 등이 포함 됩니다.
