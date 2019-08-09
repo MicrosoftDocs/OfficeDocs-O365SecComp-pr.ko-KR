@@ -1,7 +1,7 @@
 ---
 title: 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.author: deniseb
-author: denisebmsft
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: 3b15bf0197918d6bbc3897f9fa578c40b70d3f4e
-ms.sourcegitcommit: 4eb4ca899adcf4d86501530f875eb49af8cdaeb7
+ms.openlocfilehash: be86f22ec20d36aaf12ae253028d0896f885267e
+ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34083191"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36230842"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification-preview"></a>정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기(미리 보기)
 
@@ -83,9 +83,11 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
     
     (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
     
-    ```<?xml version="1.0" encoding="utf-8"?> <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
-        <DataStore name="PatientRecords" description="환자 레코드의 스키마" version="1">
-            <Field name="PatientID" unique="false" searchable="true" /> <Field name="MRN" unique="false" searchable="true" />
+    ```<?xml version="1.0" encoding="utf-8"?>
+    <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
+        <DataStore name="PatientRecords" description="Schema for patient records" version="1">
+            <Field name="PatientID" unique="false" searchable="true" />
+            <Field name="MRN" unique="false" searchable="true" />
             <Field name="FirstName" unique="false" searchable="false" />
             <Field name="LastName" unique="false" searchable="false" />
             <Field name="SSN" unique="false" searchable="true" />
@@ -97,15 +99,15 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
     </EdmSchema>
     ```
 
-4. [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+4. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
-5. To upload the database schema, run the following cmdlets, one at a time:
+5. 데이터베이스 스키마를 업로드 하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
 
     `$edmSchemaXml=Get-Content .\edm.xml -Encoding Byte -ReadCount 0`
 
     `New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true`
 
-    You will be prompted to confirm, as follows:
+    다음과 같이 확인하라는 메시지가 표시됩니다:
 
        Confirm
        Are you sure you want to perform this action?
@@ -113,25 +115,25 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"):
 
     > [!TIP]
-    > If you want your changes to occur without confirmation, in Step 5, use this cmdlet instead: `New-DlpEdmSchema -FileData $edmSchemaXml`
+    > 5 단계에서 확인하지 않고 변경 사항을 적용하려면 다음의 사항 대신 해당 cmdlet을 사용하십시오: `New-DlpEdmSchema -FileData $edmSchemaXml`
     
-Now that the schema for your database of sensitive information is defined, the next step is to set up a rule package. Proceed to the section [Set up a rule package](#set-up-a-rule-package).
+중요한 정보 데이터베이스에 대한 스키마가 정의되었으므로 다음 단계는 규칙 패키지를 설정하는 것입니다. [규칙 패키지 설정하기](#set-up-a-rule-package) 섹션으로 이동하십시오.
 
-#### Editing the schema for EDM-based classification 
+#### <a name="editing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 편집 
 
-(As needed) If you want to make changes to your edm.xml file, such as changing which fields are used for EDM-based classification, follow these steps:
+(필요한 경우) Edm 기반 분류에 사용되는 필드를 변경하는 것과 같이 edm.xml 파일을 변경하려면 다음 단계를 수행하십시오:
 
-1. Edit your edm.mxl file (this is the file discussed in the [Define the schema](#define-the-schema-for-your-database-of-sensitive-information) section of this article).
+1. edm.xml 파일을 편집하십시오.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
 
-2. [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+2. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
-3. To update your database schema, run the following cmdlets, one at a time:
+3. 데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
 
     `$edmSchemaXml=Get-Content .\edm.xml -Encoding Byte -ReadCount 0`
 
     `Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true`
 
-    You will be prompted to confirm, as follows:
+    다음과 같이 확인하라는 메시지가 표시됩니다:
 
        Confirm
        Are you sure you want to perform this action?
@@ -139,19 +141,19 @@ Now that the schema for your database of sensitive information is defined, the n
        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"):
 
     > [!TIP]
-    > If you want your changes to occur without confirmation, in Step 3, use this cmdlet instead: `Set-DlpEdmSchema -FileData $edmSchemaXml`
+    > 3 단계에서 확인하지 않고 변경 사항을 적용하려면 다음의 사항 대신 해당 cmdlet을 사용하십시오: `Set-DlpEdmSchema -FileData $edmSchemaXml`
 
-#### Removing the schema for EDM-based classification
+#### <a name="removing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 제거
 
-(As needed) If you want to remove the schema you're using for EDM-based classification, follow these steps:
+(필요한 경우) EDM 기반 분류에 사용 중인 스키마를 제거하려면 다음 단계를 따르십시오:
 
-1. [Connect to Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps).
+1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
-2. Run the following PowerShell cmdlet, substituting the data store name of "patientrecords" with the one you want to remove:
+2. 다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하고자 하는 것으로 대체하십시오:
 
     `Remove-DlpEdmSchema -Identity patientrecords`
 
-     You will be prompted to confirm, as follows:
+     다음과 같이 확인하라는 메시지가 표시됩니다:
     
        Confirm
        Are you sure you want to perform this action?
@@ -159,25 +161,29 @@ Now that the schema for your database of sensitive information is defined, the n
        [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [?] Help (default is "Y"):
     
     > [!TIP]
-    > If you want your changes to occur without confirmation, in Step 2, use this cmdlet instead: `Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false`
+    > 2 단계에서 확인하지 않고 변경 사항을 적용하려면 다음의 사항 대신 해당 cmdlet을 사용하십시오: `Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false`
 
-### Set up a rule package
+### <a name="set-up-a-rule-package"></a>규칙 패키지 설정
 
-1. Create a rule package in .xml format (with Unicode encoding), similar to the following example. (You can copy, modify, and use our example.) 
+1. 다음 예제와 같이 in .xml 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 
 
-   Recall from the previous procedure that our PatientRecords schema defines five fields as searchable: *PatientID*, *MRN*, *SSN*, *Phone*, and *DOB*. Our example rule package includes those fields and references the database schema file (edm.xml), with one *ExactMatch* items per searchable field. Consider the following ExactMatch item:
+   PatientRecords 스키마가 검색 가능한 것으로 5 개의 필드를 정의한 이전 절차에서 다음을 불러오십시오: *PatientID*, *MRN*, *SSN*, *Phone*, 및 *DOB* 예제 규칙 패키지에는 해당 필드가 포함되어 있으며 검색 가능한 필드 당 하나의 *ExactMatch* 항목과 함께 데이터베이스 스키마 파일(edm.xml)을 참조합니다. 다음의 ExactMatch 항목을 고려하십시오:
 
    ```
-    <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" > <Pattern confidenceLevel="65"> <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" /> </Pattern> </ExactMatch>
+    <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
+      <Pattern confidenceLevel="65">
+        <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
+      </Pattern>
+    </ExactMatch>
    ```
 
-    In this example, note the following:
+    해당 예제에서 다음과 같은 사항을 참고하십시오:
 
-    - The dataStore name references the .csv file we created earlier: **dataStore = "PatientRecords"**.
-    - The idMatch value references a searchable field that is listed in the database schema file: **idMatch matches = "SSN"**.
-    - The classification value references an existing or custom sensitive information type: **classification = "U.S. Social Security Number (SSN)"**. (In this case, we use the existing sensitive information type of U.S. Social Security Number.)
+    - 데이터 저장소 이름은 이전에 생성한 .csv 파일(**데이터 저장소 = "PatientRecords"**)을 참조합니다.
+    - idmatch 값은 데이터베이스 스키마 파일(**idMatch matches = "SSN"**)에 나열된 검색 가능한 필드를 참조합니다.
+    - 분류 값이 기존 또는 사용자 지정 중요한 정보 유형(**분류 = "미국 주민 등록 번호 (SSN)"**)을 참조합니다. (이 경우 미국 주민 등록 번호의 기존의 중요한 정보 유형을 사용합니다.)
 
-    When you set up your rule package, make sure to correctly reference your .csv file and edm.xml file. (You can copy, modify, and use our example.) 
+    규칙 패키지를 설정하는 경우 .csv 파일과 edm.xml 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 
 
     ```<?xml version="1.0" encoding="utf-8"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2018/edm">
@@ -219,7 +225,7 @@ Now that the schema for your database of sensitive information is defined, the n
     </RulePackage>
     ```
     
-2. 다음 Windows PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드합니다.
+2. 다음의 PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드하십시오:
 
     `$rulepack=Get-Content .\rulepack.xml -Encoding Byte -ReadCount 0`
 
