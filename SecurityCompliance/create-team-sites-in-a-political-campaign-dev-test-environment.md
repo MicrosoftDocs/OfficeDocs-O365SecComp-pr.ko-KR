@@ -16,12 +16,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: 3e0a79a0e521ab193685511cef59bcfa3fa68896
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: bade24bbe0ebcf56007a7b5650ee5a55fc3697b6
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151160"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053115"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
@@ -41,7 +41,7 @@ ms.locfileid: "34151160"
     
 2. **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
-3. 브라우저의 새 **Office 관리 센터** 탭에서 **관리 센터 > 보안 및 준수**를 차례로 클릭합니다.
+3. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **관리 센터 > 보안 &amp; 준수**를 차례로 클릭합니다.
     
 4. 브라우저의 새 **홈 - 보안 및 준수** 탭에서 **분류 > 레이블**을 차례로 클릭합니다.
     

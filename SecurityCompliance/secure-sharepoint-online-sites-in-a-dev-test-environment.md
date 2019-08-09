@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: '요약: 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: 148db19c8902735829a5849901723b5f2f200b74
-ms.sourcegitcommit: 3ffd188a7fd547ae343ccf14361c1e4300f88de0
+ms.openlocfilehash: bc17f5a4009b7a967a395084e8a058c45bbad82e
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "35059546"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053135"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>개발/테스트 환경의 SharePoint Online 사이트 보호
 
@@ -184,7 +184,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
   
 1. 브라우저의 **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
-2. 브라우저의 새 **Office 관리 센터** 탭에서 **사용자**를 클릭합니다.
+2. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **사용자**를 클릭합니다.
     
 3. 사용자 목록에서 **CEO**를 클릭합니다.
     
