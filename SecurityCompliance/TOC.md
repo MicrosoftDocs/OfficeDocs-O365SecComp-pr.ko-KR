@@ -52,7 +52,7 @@
 ### [사용자 지정 DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852306)
 ### [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 ### [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)
-### [정확한 데이터 매치(미리 보기)를 사용한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-info-type-edm.md)
+### [분류에 기반한 정확한 데이터 매치로 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 ### [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
 ### [PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
@@ -345,7 +345,7 @@
 #### [다른 검토 집합에 데이터 추가](compliance20/add-data-to-review-set-from-another-review-set.md)
 #### [로드 집합 관리](compliance20/manage-load-sets.md)
 
-### [사례 데이터 검토](compliance20/reviewing-data-in-review-set.md)
+### 사례 데이터 검토
 #### [검토 집합에서 문서 보기](compliance20/view-documents-in-review-set.md)
 #### [검토 집합에서 데이터 쿼리](compliance20/review-set-search.md)
 #### [검토 집합에서 문서 태그 지정](compliance20/tagging-documents.md)
@@ -363,7 +363,7 @@
 
 ### [작업 관리](compliance20/managing-jobs-ediscovery20.md)
 
-### [사례 설정 구성](compliance20/configuring-case-settings-ediscovery20.md)
+### 사례 설정 구성
 #### [사례 닫기 또는 삭제](compliance20/close-or-delete-case.md)
 #### [사례에서 구성원 추가 또는 제거](compliance20/add-remove-members.md)
 #### [검색 및 분석 설정 구성](compliance20/configure-search-analytics-settings.md)
