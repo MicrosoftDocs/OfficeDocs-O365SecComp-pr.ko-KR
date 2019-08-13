@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: d94835c457884b98e84f68db6536e8f3774af669
-ms.sourcegitcommit: c8ea7c0900e69e69bd5c735960df70aae27690a5
+ms.openlocfilehash: 44c157b8f155755c6a48830231074643a830f498
+ms.sourcegitcommit: 226adb6d05015da16138b315dd2f5b937bf4354d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36258601"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36302427"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -107,7 +107,7 @@ Contoso 준수 경계 시나리오를 사용 하 여 네 개의 역할 그룹을
 준수 경계에 사용 되는 검색 권한 필터를 만드는 데 사용 되는 구문은 다음과 같습니다.
 
 ```
-New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -Filters "Mailbox_<Compliance attribute from Step 1>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL> *'" -Action <Action >
+New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_<ComplianceAttribute>  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'" -Action <Action >
 ```
   
 다음은 명령의 각 매개 변수에 대 한 설명입니다.
@@ -116,19 +116,22 @@ New-ComplianceSecurityFilter -FilterName <name of filter> -Users <role groups> -
     
 -  `Users`: 수행 하는 콘텐츠 검색 작업에이 필터를 적용할 사용자 또는 그룹을 지정 합니다. 준수 경계의 경우이 매개 변수는 필터를 만드는 데 사용할 에이전시에서 3 단계에서 만든 역할 그룹을 지정 합니다. 참고 이것은 다중 값 매개 변수 이므로 쉼표로 구분 하 여 하나 이상의 역할 그룹을 포함할 수 있습니다. 
     
--  `Filters`: 필터에 대 한 검색 조건을 지정 합니다. 준수 경계에 대해 각 항목은 콘텐츠 위치에 적용 되는 다음 필터를 정의 합니다. 
+-  `Filters`: 필터에 대 한 검색 조건을 지정 합니다. 준수 경계에 대해 다음 필터를 정의 합니다. 각 항목은 콘텐츠 위치에 적용 됩니다. 
     
-  -  `Mailbox`: `Users` 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 사서함을 지정 합니다. 준수 경계의 경우 *ComplianceAttribute* 는 1 단계에서 식별 한 특성 및 *AttributeValue* 에서 해당 에이전시를 지정 합니다. 이 필터는 역할 그룹의 구성원이 특정 에이전시의 사서함만 검색할 수 있도록 허용 합니다. 예를 `"Mailbox_Department -eq 'FourthCoffee'"`들면입니다. 
+    -  `Mailbox`: `Users` 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 사서함을 지정 합니다. 준수 경계의 경우 *ComplianceAttribute* 는 1 단계에서 식별 한 특성 및 *AttributeValue* 에서 해당 에이전시를 지정 합니다. 이 필터는 역할 그룹의 구성원이 특정 에이전시의 사서함만 검색할 수 있도록 허용 합니다. 예를 `"Mailbox_Department -eq 'FourthCoffee'"`들면입니다. 
     
-  -  `Site`: `Users` 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 OneDrive 계정을 지정 합니다. OneDrive 필터의 경우 실제 문자열 `ComplianceAttribute`을 사용 합니다. 이는 1 단계에서 확인 하 고 2 단계에서 제출한 지원 요청의 결과로 OneDrive 계정에 동기화 되는 것과 동일한 특성에 매핑됩니다.  *AttributeValue* 는 에이전시를 지정 합니다. 이 필터는 역할 그룹의 구성원이 특정 에이전시에서 OneDrive 계정만 검색할 수 있도록 허용 합니다. 예를 `"Site_ComplianceAttribute -eq 'FourthCoffee'"`들면입니다.
+    -  `Site`: `Users` 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 OneDrive 계정을 지정 합니다. OneDrive 필터의 경우 실제 문자열 `ComplianceAttribute`을 사용 합니다. 이는 1 단계에서 확인 하 고 2 단계에서 제출한 지원 요청의 결과로 OneDrive 계정에 동기화 되는 것과 동일한 특성에 매핑됩니다.  *AttributeValue* 는 에이전시를 지정 합니다. 이 필터는 역할 그룹의 구성원이 특정 에이전시에서 OneDrive 계정만 검색할 수 있도록 허용 합니다. 예를 `"Site_ComplianceAttribute -eq 'FourthCoffee'"`들면입니다.
     
-  -  `Site_Path`: `Users` 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 SharePoint 사이트를 지정 합니다. *SharePointURL* 은 역할 그룹의 구성원이 검색할 수 있는 에이전시의 사이트를 지정 합니다. 예를 들어`"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"`
+    -  `Site_Path`: `Users` 매개 변수에 정의 된 역할 그룹이 검색할 수 있는 SharePoint 사이트를 지정 합니다. *SharePointURL* 은 역할 그룹의 구성원이 검색할 수 있는 에이전시의 사이트를 지정 합니다. 예를 `"Site_Path -like 'https://contoso.sharepoint.com/sites/FourthCoffee*'"` 들어 `Site` 및 `Site_Path` 필터는 **or** 연산자로 연결 됩니다.
     
+     > [!NOTE]
+     > `Filters` 매개 변수에 대 한 구문에 *필터 목록이*포함 되어 있습니다. 필터 목록은 사서함 필터와 쉼표로 구분 된 사이트 필터를 포함 하는 필터입니다. 앞의 예제에서 쉼표는 **Mailbox_ComplianceAttribute** 와 **Site_ComplianceAttribute**를 구분 `-Filters "Mailbox_<ComplianceAttribute>  -eq '<AttributeVale> '", "Site_ComplianceAttribute  -eq '<AttributeValue>' -or Site_Path -like '<SharePointURL>*'"`합니다. 콘텐츠 검색을 실행 하는 동안이 필터를 처리 하면 필터 목록 (하나의 사서함 필터 및 사이트 필터)에서 두 개의 검색 권한 필터가 만들어집니다. 필터 목록을 사용 하는 대신 각 에이전시에 대해 두 개의 검색 권한 필터, 즉 사서함 특성에 대 한 검색 권한 필터와 사이트 특성에 대 한 하나의 필터를 만들 수 있습니다. 두 경우 모두 결과는 동일 하 게 됩니다. 필터 목록을 사용 하거나 별도의 검색 권한 만들기 필터를 만드는 것은 기본 설정의 중요 한 사항입니다.
+
 -  `Action`: 필터가 적용 되는 준수 검색 작업의 유형을 지정 합니다. 예를 `-Action Search` 들어 `Users` 매개 변수에 정의 된 역할 그룹의 구성원이 콘텐츠 검색을 실행 하는 경우에만 필터를 적용 합니다. 이 경우 검색 결과를 내보낼 때 필터가 적용 되지 않습니다. 준수 경계의 경우 필터를 `-Action All` 모든 검색 작업에 적용 하도록 사용 합니다. 
     
     콘텐츠 검색 작업 목록은 [콘텐츠 검색에 대 한 권한 필터링 구성](permissions-filtering-for-content-search.md#new-compliancesecurityfilter)의 "new-compliancesecurityfilter" 섹션을 참조 하십시오.
-    
-다음은 Contoso 준수 경계 시나리오를 지원 하기 위해 만드는 두 가지 검색 권한 필터의 예입니다.
+
+다음은 Contoso 준수 경계 시나리오를 지원 하기 위해 만드는 두 가지 검색 권한 필터의 예입니다. 이 두 예에는 모두 쉼표로 구분 된 필터 목록이 있으며,이 목록에는 사서함과 사이트 필터가 같은 검색 권한 필터에 포함 되 고 쉼표로 구분 됩니다.
   
  **커피 4**
 
