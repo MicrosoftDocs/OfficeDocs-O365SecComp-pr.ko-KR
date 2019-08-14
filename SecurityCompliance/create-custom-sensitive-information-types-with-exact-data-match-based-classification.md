@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: 2e353eb078df335d80f669a8cef64a19bd7d9584
-ms.sourcegitcommit: 0a0d9c1325b4b0581018c31037dcc707d3d679b4
+ms.openlocfilehash: 77a30f7db24e903e7d6859d10edb0cc186441494
+ms.sourcegitcommit: 28c104fb6a72d624fab5ac6178b5b0df9fa81484
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36279237"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297766"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -123,14 +123,13 @@ New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
 > [!NOTE]
 > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
-중요한 정보 데이터베이스에 대한 스키마가 정의되었으므로 다음 단계는 규칙 패키지를 설정하는 것입니다. 
-   [규칙 패키지 설정하기](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#set-up-a-rule-package) 섹션으로 이동하십시오.
+중요한 정보 데이터베이스에 대한 스키마가 정의되었으므로 다음 단계는 규칙 패키지를 설정하는 것입니다.  [규칙 패키지 설정하기](#set-up-a-rule-package) 섹션으로 이동하십시오.
 
 #### <a name="editing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 편집
 
 EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 edm.xml 파일을 변경하려면 다음 단계를 수행하십시오.
 
-1. edm.xml 파일을 편집하십시오.(해당 문서의 [스키마 정의](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
+1. edm.xml 파일을 편집하십시오.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
 
 2. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
@@ -301,7 +300,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 >[!NOTE]
 > 이 절차를 시작하기 전에 *EDM\_DataUploaders* 보안 그룹의 구성원이며 컴퓨터의 로컬 관리자인지 확인합니다.
 
-1.  [https://go.microsoft.com/fwlink/?linkid=2088639](https://go.microsoft.com/fwlink/?linkid=2088639)에서 EDM 업로드 에이전트를 다운로드하고 설치합니다. 기본적으로 설치 위치는 C:\\Program Files\\Microsoft\\EdmUploadAgent여야 합니다.
+1. [EDM 업로드 에이전트](https://go.microsoft.com/fwlink/?linkid=2088639)를 다운로드하고 설치합니다. 기본적으로 설치 위치는 C:\\Program Files\\Microsoft\\EdmUploadAgent여야 합니다.
 
 2. EDM 업로드 에이전트에 권한을 부여하려면 Windows 명령 프롬프트를 열고(관리자로) 다음 명령을 실행합니다.
 
@@ -341,9 +340,9 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 데이터 저장소 목록 및 마지막 업데이트 날짜가 다음과 비슷하게 표시됩니다.
 
-계속하여 [중요한 정보 데이터베이스 새로 고침](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
+계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
 
-이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다. 예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#to-create-a-dlp-policy-with-edm)할 수 있습니다.
+이제 Microsoft 클라우드 서비스로 EDM 기반 분류를 사용할 준비가 되었습니다. 예를 들어 [EDM 기반 분류를 사용하여 DLP 정책을 설정](#to-create-a-dlp-policy-with-edm)할 수 있습니다.
 
 #### <a name="refreshing-your-sensitive-information-database"></a>중요한 정보 데이터베이스 새로 고침
 
@@ -351,19 +350,16 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 1. 중요한 정보 데이터베이스를 새로 고치는 빈도(매일 또는 매주)와 프로세스를 판별합니다.
 
-2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다. 
-   [중요한 데이터 색인화 및 업로드](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#index-and-upload-the-sensitive-data)에 설명된 단계를 수행할 때 사용한 파일 이름과 위치를 동일하게 유지합니다.
+2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [중요한 데이터 색인화 및 업로드](#index-and-upload-the-sensitive-data)에 설명된 단계를 수행할 때 사용한 파일 이름과 위치를 동일하게 유지합니다.
 
 > [!NOTE]
 > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
-3. 
-   [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 색인화 및 업로드](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#index-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
+3.  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 색인화 및 업로드](#index-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
 | **방법**             | **수행할 작업**                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows PowerShell     | 
-   [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-custom-sensitive-info-type-edm?branch=chrfox-o365seccomp-pr-working#example-powershell-script-for-task-scheduler)를  참고하세요. |
+| Windows PowerShell     |  [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요. |
 | 작업 스케줄러 API     |  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.                                                                                                                                                                                                                                                                                |
 | Windows 사용자 인터페이스 | Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다. 그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.                                                                                                                                                                                                                                                                           |
 
@@ -498,7 +494,7 @@ Exchange Online용 Office 365 DLP(전자 메일), Business용 OneDrive(파일), 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
 
-  [New-DlpEdmSchema](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmsschema?view=exchange-ps)
+  [New-DlpEdmSchema](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
 
 ## <a name="feedback"></a>피드백
 GitHub 피드백을 사용할 수 있지만, 공개 사이트에서만 문제를 추가할 수 있습니다.
