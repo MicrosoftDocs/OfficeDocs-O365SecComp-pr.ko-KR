@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
-ms.openlocfilehash: b81674723f1da5b4282a331207caad2fc6d3d0a0
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 53d6bc8a4cdba6dab33b963344a3bfabdb1e6a26
+ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151484"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36053145"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -40,7 +40,7 @@ ms.locfileid: "34151484"
     
 2. **관리** 타일을 클릭합니다.
     
-3. 브라우저의 **Office 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
+3. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
     
 4. 
             **구매 서비스** 페이지에서 **Enterprise Mobility + Security E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.
@@ -171,7 +171,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
   
 1. 브라우저의 **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
-2. 브라우저의 새 **Office 관리 센터** 탭에서 **사용자**를 클릭합니다.
+2. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **사용자**를 클릭합니다.
     
 3. 사용자 목록에서 **후보**를 클릭합니다.
     
