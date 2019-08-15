@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
+title: Office 365, TIMailData-인라인, 보안 인시던트, 인시던트, ATP Powershell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어 등으로 제공 된 악성 전자 메일을 찾고 조사 합니다.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1f558614d77577408a824b3c6181aae22753ab0f
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: aefadeba265ddc4fc6188f857f94c78fae4aa8e9
+ms.sourcegitcommit: d4acce11a26536b9d6ca71ba4933fc95136198a4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230562"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407947"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
 
