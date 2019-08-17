@@ -14,19 +14,19 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: 77a30f7db24e903e7d6859d10edb0cc186441494
-ms.sourcegitcommit: 28c104fb6a72d624fab5ac6178b5b0df9fa81484
+ms.openlocfilehash: a937d5ccc947ee9322c5796cf49e9a8ff3eead16
+ms.sourcegitcommit: d4acce11a26536b9d6ca71ba4933fc95136198a4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297766"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407910"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
 ## <a name="overview"></a>개요
 
 
-  [사용자 지정 중요한 정보 유형](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다. 관리자로서 [보안 및 준수 센터](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type) 또는 [PowerShell](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type-in-scc-powershell)을 사용하여 패턴, 증명( *직원*, *배지*, *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다. 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
+  [사용자 지정 중요한 정보 유형](https://docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다. 관리자로서 [보안 및 준수 센터](https://docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type) 또는 [PowerShell](https://docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type-in-scc-powershell)을 사용하여 패턴, 증명( *직원*, *배지*, *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다. 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
 
 일반적인 패턴과만 일치하는 것이 아니라 정확한 데이터 값을 사용하는 사용자 지정 중요한 정보 유형의 경우에는 어떻게 할까요? 정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
 
@@ -39,11 +39,11 @@ ms.locfileid: "36297766"
 
 ![EDM 기반 분류](media/EDMClassification.png)
 
-EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1000만 개의 데이터 행을 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
+EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확한 값을 참조하는 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 데이터베이스는 매일 또는 매주 새로 고칠 수 있으며 최대 1000만 개의 데이터 행을 포함할 수 있습니다. 직원, 환자 또는 고객이 계속 이동하고 기록이 변경됨에 따라 사용자 지정 중요한 정보 유형을 적절하고 최신인 상태로 유지합니다. 또한 EDM 기반 분류를 [데이터 손실 방지 정책(DLP)](https://docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies) 또는 [Microsoft Cloud App Security 파일 정책](https://docs.microsoft.com/cloud-app-security/data-protection-policies) 등의 정책과 사용할 수 있습니다.
 
 ## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
-이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다. DLP 권한에 관한 자세한 내용은  [사용 권한](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies#permissions)을 참조하세요.
+이 문서에 설명된 작업을 수행하려면 전역 관리자, 준수 관리자 또는 Exchange Online 관리자여야 합니다. DLP 권한에 관한 자세한 내용은  [사용 권한](https://docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies#permissions)을 참조하세요.
 
 일반적으로 사용 가능하게 되면 EDM 기반 분류가 다음 구독에 포함됩니다.
 
@@ -58,7 +58,7 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 |---------|---------|
 |[1단계: EDM 기반 분류 설정](#part-1-set-up-edm-based-classification)<br/><br/>(필요한 대로 수행)<br/>- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification) <br/>- [스키마 제거](#removing-the-schema-for-edm-based-classification) |- 중요한 데이터에 대한 읽기 액세스 권한<br/>- .xml 형식의 데이터베이스 스키마(예제 제공)<br/>- .xml 형식의 규칙 패키지(예제 제공)<br/>- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용) |
 |[2단계: 중요한 데이터 색인화 및 업로드](#part-2-index-and-upload-the-sensitive-data)<br/><br/>(필요한 대로 수행)<br/>[데이터 새로 고침](#refreshing-your-sensitive-information-database) |- 사용자 지정 보안 그룹 및 사용자 계정<br/>- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한<br/>- 중요한 데이터에 대한 읽기 액세스 권한<br/>- 데이터를 새로 고치는 프로세스 및 일정|
-|[3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- DLP 포함 Office 365 구독<br/>- EDM 기반 분류 기능 사용(미리 보기) |
+|[3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- DLP 포함 Office 365 구독<br/>- EDM 기반 분류 기능 사용 |
 
 ### <a name="part-1-set-up-edm-based-classification"></a>1단계: EDM 기반 분류 설정
 
@@ -483,13 +483,13 @@ Exchange Online용 Office 365 DLP(전자 메일), Business용 OneDrive(파일), 
 ## <a name="related-articles"></a>관련 문서
 
 
-  [기본 제공 중요 정보 유형 및 해당 유형이 찾는 항목](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/what-the-sensitive-information-types-look-for)
+  [기본 제공 중요 정보 유형 및 해당 유형이 찾는 항목](https://docs.microsoft.com/ko-KR/office365/securitycompliance/what-the-sensitive-information-types-look-for)
 
 
-  [사용자 지정 중요한 정보 유형](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)
+  [사용자 지정 중요한 정보 유형](https://docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)
 
 
-  [DLP 정책 개요](https://review.docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies)
+  [DLP 정책 개요](https://docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies)
 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
