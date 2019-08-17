@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
-ms.openlocfilehash: 54fa32ec9ed16a65354eb845421c56f6d58559e4
-ms.sourcegitcommit: c8ea7c0900e69e69bd5c735960df70aae27690a5
+ms.openlocfilehash: 48fc1a67f501c807e76ba2333170df83a1248428
+ms.sourcegitcommit: 60c701e9808d505cf96990d0643be10b8fbc0180
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36258571"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447365"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 
@@ -53,9 +53,9 @@ ms.locfileid: "36258571"
 
 - **AnonymousLinkUsed:** 이름에서 알 수 있듯이이 이벤트는 익명 링크를 사용 하 여 리소스에 액세스할 때 기록 됩니다. 
 
-- **Securelinkcreated:** 사용자가 특정 사람과 리소스를 공유 하기 위한 "특정 사용자 링크"를 만든 경우 이 대상 사용자는 조직 외부에 있는 사람도 될 수 있습니다.
+- **Securelinkcreated:** 사용자가 특정 사람과 리소스를 공유 하기 위한 "특정 사용자 링크"를 만든 경우 이 대상 사용자는 조직 외부에 있는 사람도 될 수 있습니다. 리소스가 공유 되는 사람은 **Ad이상 Tosecurelink** 이벤트에 대 한 감사 레코드에서 식별 됩니다. 이러한 두 이벤트의 타임 스탬프는 거의 동일 합니다.
 
-- **Ad이상 Tosecurelink:** 사용자가 특정 사람 링크에 추가 되었습니다. 이 대상 사용자는 조직 외부에 있는 사람도 될 수 있습니다.
+- **Ad이상 Tosecurelink:** 사용자가 특정 사람 링크에 추가 되었습니다. 해당 하는 특정 사용자 링크에 추가 된 사용자를 식별 하려면이 이벤트의 **Targetuserorgroupname** 필드를 사용 합니다. 이 대상 사용자는 조직 외부에 있는 사람도 될 수 있습니다.
 
 ## <a name="sharing-auditing-work-flow"></a>감사 작업 흐름 공유
   
@@ -81,7 +81,7 @@ ms.locfileid: "36258571"
     
    - 대상 사용자가 초대의 링크를 클릭 하 여 전송 된 공유 초대를 수락 하면 SharePoint에서 **SharingInvitationAccepted** 이벤트를 기록 하 고 리소스에 액세스 하기 위한 대상 사용자 권한을 할당 합니다. 대상 사용자에 게 익명 링크가 전송 되는 경우 대상 사용자가 링크를 사용 하 여 해당 리소스에 액세스 한 후 **AnonymousLinkUsed** 이벤트가 기록 됩니다. 보안 링크의 경우에 **** 는 외부 사용자가 링크를 사용 하 여 리소스에 액세스할 때 파일에 액세스 한 이벤트가 기록 됩니다.
 
-초대 하는 사용자의 id 및 초대를 실제로 수락 하는 사용자와 같은 대상 사용자에 대 한 추가 정보도 로깅됩니다. 경우에 따라 이러한 사용자 또는 전자 메일 주소는 다를 수 있습니다. 
+또한 초대를 수락한 사용자의 id와 같은 대상 사용자에 대 한 추가 정보도 로깅됩니다. 경우에 따라 이러한 사용자 또는 전자 메일 주소는 다를 수 있습니다. 
 
 ## <a name="how-to-identify-resources-shared-with-external-users"></a>외부 사용자와 공유 된 리소스를 확인 하는 방법
 
@@ -109,7 +109,7 @@ ms.locfileid: "36258571"
     
 7. 검색 실행이 완료 되 고 결과가 표시 되 면 결과 **내보내기** \> **모든 결과 다운로드**를 클릭 합니다.
     
-    내보내기 옵션을 선택한 후에는 CSV 파일을 열거나 저장 하 라는 메시지가 창 맨 아래에 표시 됩니다.
+    내보내기 옵션을 선택한 후 창 아래쪽에 CSV 파일을 열거나 저장 하 라는 메시지가 표시 됩니다.
     
 8. 다른 **** \> **이름으로 저장** 저장을 클릭 하 고 로컬 컴퓨터의 폴더에 CSV 파일을 저장 합니다. 
 
