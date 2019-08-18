@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획 관리자는 보존 레이블 및 보존 레이블 정책에 대한 고급 관리 기능을 제공하고, 생성부터 공동 작업, 레코드 선언, 보존 및 최종 처리에 이르는 전체 콘텐츠 수명 주기 동안 레이블 및 레이블-콘텐츠 간 활동을 트래버스하는 통합 방법을 제공합니다.
-ms.openlocfilehash: b7d80ff6a7f78e592462fe2723a87383e046015f
-ms.sourcegitcommit: 6eb51931242d07abde2e37f1bd57d13bc724f0de
+ms.openlocfilehash: 38bfb1e6a6cde931804e518660ddf6c2b45205b0
+ms.sourcegitcommit: f443de08971da2fe200a159b8efbed40effba125
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34547973"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36430015"
 ---
 # <a name="overview-of-file-plan-manager"></a>파일 계획 관리자 개요
 
@@ -123,7 +123,29 @@ ms.locfileid: "34547973"
 
 ![Excel에서 빈 파일 계획 서식 파일 열기](media/file-plan-blank-template.png)
 
-서식 파일을 작성합니다(제공 예정: 단일 보존 레이블의 유효한 값 조합에 대한 참조 정보).
+서식 파일 채우기 이 표에서는 유효한 값을 제공합니다.
+
+|**속성**|**유형**|**유효한 값**|
+|:-----|:-----|:-----|
+|LabelName|문자열|값에 공백이 포함되어 있으면 값을 큰따옴표(")로 묶습니다.|
+|설명|문자열|값에 공백이 포함되어 있으면 값을 큰따옴표(")로 묶습니다. |
+|참고|문자열|사용자 지정|
+|IsRecordLabel|문자열|$true: 레이블이 레코드 레이블입니다.</br>$false: 레이블이 레코드 레이블이 아닙니다. 이 값은 기본값입니다.|
+|RetentionAction|문자열|삭제</br>유지</br>KeepAndDelete |
+|RetentionDuration|문자열|이 속성은 콘텐츠를 보관할 일 수를 지정합니다. 사용할 수 있는 값은 다음과 같습니다.</br>양의 정수</br>값은 제한이 없습니다.|
+|RetentionType|문자열|이 속성은 콘텐츠 작성 날짜, 레이블이(태그가) 지정된 날짜 또는 마지막으로 수정한 날짜에서 보존 기간을 계산하는지 여부를 지정합니다. 유효한 값은 다음과 같습니다.</br>CreationAgeInDays</br>EventAgeInDays</br>ModificationAgeInDays</br>TaggedAgeInDays |
+|ReviewerEmail|SmtpAddress[]|이 속성은 삭제와 KeepAndDelete 보존 작업에 대한 검토자의 전자 메일 주소를 지정합니다. 전자 메일 주소가 여러 개인 경우 각 주소를 쉼표로 구분하여 지정할 수 있습니다.|
+|ReferenceId|문자열|사용자 지정|
+|Departmentname|문자열|사용자 지정|
+|범주|문자열|사용자 지정|
+|하위 범주|문자열|사용자 지정|
+|AuthorityType|문자열|사용자 지정|
+|CitationName|문자열|사용자 지정|
+|CitationUrl|문자열|사용자 지정|
+|CitationJurisdiction|문자열|사용자 지정|
+|규정|문자열|사용자 지정|
+|EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>이름</br>DN(고유 이름)</br>GUID </br>
+  [Get-RetentionComplianceRule](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다.|
 
 ![정보가 채워진 파일 계획 서식 파일](media/file-plan-filled-out-template.png)
 
