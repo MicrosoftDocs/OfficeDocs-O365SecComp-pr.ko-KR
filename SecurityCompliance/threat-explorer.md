@@ -1,5 +1,5 @@
 ---
-title: 위협 탐색기 및 실시간 검색, 위협 탐색기의 새로운 기능, Office 365, 보안, 클라우드 보안에 대 한 새로운 기능, 신규의 ATP 보안
+title: 위협 탐색기 및 실시간 검색, 위협 탐색기에 대 한 새로운 기능, Office 365, 보안, 클라우드 보안, 새로운 기능의 신규 보안, 새로운 ATP 기능의 변경 사항
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 4e2a11162d3b67dd92cdcc1a7c0342ec861543ab
-ms.sourcegitcommit: d4acce11a26536b9d6ca71ba4933fc95136198a4
+ms.openlocfilehash: 049d26a328074be5e209ddecd959cd888a34b650
+ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407957"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36444888"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
