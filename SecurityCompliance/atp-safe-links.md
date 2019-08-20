@@ -22,12 +22,12 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 합니다.
-ms.openlocfilehash: bb6a4c94f72e24ff4cf3baee337bc7c14953a399
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: 725d5c331b330b2edca030b74a26eaa692f36465
+ms.sourcegitcommit: 72ee6feaa0e0fd6bf01bfb855ad6e3bef370bf89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36231102"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393327"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
@@ -44,7 +44,7 @@ ATP 안전한 링크 정책이 마련 되 면 Office 365 전역 관리자, 보�
          
 ## <a name="how-to-get-atp-safe-links-protection"></a>ATP 안전한 링크 보호를 가져오는 방법
 
-**먼저 구독에 [Advanced Threat Protection](office-365-atp.md)이 포함 되어 있는지 확인**합니다. ATP는 [microsoft 365 enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육용 A5 등 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Office 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하십시오. 
+**먼저 구독에 [Advanced Threat Protection](office-365-atp.md)이 포함 되어 있는지 확인**합니다. ATP는 [microsoft 365 enterprise](https://www.microsoft.com/microsoft-365/enterprise/home), [microsoft 365 Business](https://www.microsoft.com/microsoft-365/business), office 365 Enterprise E5, office 365 교육용 A5 등의 구독에 포함 되어 있습니다. 조직에서 Office 365 ATP를 포함 하지 않는 Office 365 구독을 사용 하는 경우 ATP를 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하십시오. 
 
 - [Office 365 Advanced Threat Protection 계획 및 가격 책정](https://products.office.com/exchange/advance-threat-protection)
 

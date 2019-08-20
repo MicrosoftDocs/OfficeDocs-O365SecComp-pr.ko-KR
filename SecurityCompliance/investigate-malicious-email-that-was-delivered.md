@@ -1,5 +1,5 @@
 ---
-title: Office 365, TIMailData-인라인, 보안 인시던트, 인시던트, ATP Powershell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어 등으로 제공 된 악성 전자 메일을 찾고 조사 합니다.
+title: Office 365, TIMailData-Inline, Security 인시던트, 인시던트, ATP Powershell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 읽기 전자 메일 머리글, 읽기 헤더, 공개 전자 메일 헤더에 제공 되는 악성 전자 메일을 찾고 조사 합니다.
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: aefadeba265ddc4fc6188f857f94c78fae4aa8e9
-ms.sourcegitcommit: d4acce11a26536b9d6ca71ba4933fc95136198a4
+ms.openlocfilehash: 2049b3b8e0d7b9173639af3c48f75a072744fb7f
+ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407947"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36444875"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
 
@@ -40,9 +40,56 @@ ms.locfileid: "36407947"
     
 ## <a name="dealing-with-suspicious-emails"></a>의심 스러운 전자 메일 처리
 
-악의적인 공격자가 사용자에 게 메일을 보내 자격 증명을 피싱 회사 비밀에 대 한 액세스를 시도할 수 있습니다. 이를 방지 하려면 [Exchange Online protection](eop/exchange-online-protection-overview.md) 및 [Advanced threat protection](office-365-atp.md)을 포함 하 여 Office 365의 위협 보호 서비스를 사용 해야 합니다. 그러나 공격자가 URL을 포함 하는 사용자에 게 메일을 보낼 수 있으며 나중에 해당 URL이 악성 콘텐츠를 가리키도록 설정 합니다 (맬웨어 등). 또는 조직의 사용자가 손상 된 경우, 해당 사용자가 손상 된 경우 공격자가 해당 계정을 사용 하 여 회사의 다른 사용자에 게 전자 메일을 보내는 것을 너무 늦 었을 수 있습니다. 이러한 두 시나리오를 정리 하는 과정에서 사용자의 받은 편지함에서 전자 메일 메시지를 제거할 수 있습니다. 이러한 경우 이러한 전자 메일 메시지를 검색 하 고 제거 하려면 [위협 탐색기 (또는 실시간 검색)](threat-explorer.md) 를 활용할 수 있습니다.
+악의적인 공격자가 사용자에 게 메일을 보내 자격 증명을 피싱 회사 비밀에 대 한 액세스를 시도할 수 있습니다. 이를 방지 하려면 [Exchange Online protection](eop/exchange-online-protection-overview.md) 및 [Advanced threat protection](office-365-atp.md)을 포함 하 여 Office 365의 위협 보호 서비스를 사용 해야 합니다. 그러나 공격자가 URL을 포함 하는 사용자에 게 메일을 보낼 수 있으며 나중에 해당 URL이 악성 콘텐츠를 가리키도록 설정 합니다 (맬웨어 등). 
+
+또는 조직의 사용자가 손상 된 경우, 해당 사용자가 손상 된 경우 공격자가 해당 계정을 사용 하 여 회사의 다른 사용자에 게 전자 메일을 보내는 것을 너무 늦 었을 수 있습니다. 이러한 두 시나리오를 정리 하는 과정에서 사용자의 받은 편지함에서 전자 메일 메시지를 제거할 수 있습니다. 이러한 경우 이러한 전자 메일 메시지를 검색 하 고 제거 하려면 [위협 탐색기 (또는 실시간 검색)](threat-explorer.md) 를 활용할 수 있습니다.
 
 ## <a name="where-re-routed-emails-are-located-after-actions-are-taken"></a>다시 라우팅된 전자 메일은 작업을 수행한 후의 위치
+
+그렇다면 문제에 대 한 전자 메일이 이동 하 고 어떤 도구에서 어떤 작업을 investigators에 대해 이해 하 고 있는지 알아봅니다. 위협 탐색기 필드는 관리자가 문제 전자 메일 이벤트를 디코딩하는 데 도움이 되는 정보를 보고 합니다.
+
+### <a name="view-the-email-headers-and-download-the-email-body"></a>전자 메일 머리글 보기 및 전자 메일 본문 다운로드
+
+전자 메일 **머리글 미리 보기 및 전자 메일 본문 다운로드** 는 위협 탐색기에서 사용할 수 있는 유용한 전자 메일 위협 관리 기능입니다. 관리자는 위협을 위해 머리글과 전자 메일을 분석 하 고 다운로드할 수 있습니다. 액세스 권한 사용이 기능은 사용자 전자 메일 콘텐츠가 노출 될 위험을 줄이기 위해 RBAC (역할 기반 액세스 제어)를 통해 제어 됩니다.
+
+' Preview ' 라는 새 *역할*을 다른 Office 365 역할 그룹 (예: sec 작업 또는 sec 관리자)에 추가 하 여 모든 전자 메일 보기에서 메일을 다운로드 하 고 머리글을 미리 볼 수 있는 기능을 부여 합니다.
+
+전자 메일 다운로드 및 전자 메일 머리글 미리 보기 옵션을 사용 하 여 플라이 아웃을 보려면 다음을 수행 합니다. 
+
+1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 Office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다. 
+    
+2. 왼쪽 탐색 영역에서 **Threat management** \> **Explorer**를 선택 합니다.
+
+3. 위협 탐색기 테이블에서 제목을 클릭 합니다.
+
+이렇게 하면 플라이 아웃이 열리며 여기에서 헤더 미리 보기 및 전자 메일 다운로드 링크가 모두 배치 됩니다.
+
+> [!IMPORTANT]
+> 함께 나오는 두 테이블을 함께 사용 합니다. 하나는 RBAC 필요, 기타, 권한이 부여 되어야 하는 위치를 알려 줍니다.
+<p>
+
+|활동  |Access와 함께 RBAC new-rolegroup |' Preview ' 역할이 필요 하신가요?  |
+|---------|---------|---------|
+|위협 탐색기 (및 실시간 검색)를 사용 하 여 위협 분석     |  Office 365 전역 관리자<br> 보안 관리자를 <br> 보안 독자      | 아니요   |
+|위협 탐색기 (및 실시간 검색)를 사용 하 여 전자 메일의 헤더 및 격리 된 전자 메일의 미리 보기 및 다운로드    |     Office 365 전역 관리자 <br> 보안 관리자를 <br>보안 독자    |       아니요  |
+|위협 탐색기를 사용 하 여 머리글 보기 및 사서함에 제공 되는 전자 메일 다운로드     |      Office 365 전역 관리자 <br>보안 관리자를<br> 보안 읽기 권한자, <br> 미리 보기    |   예      |
+
+<br>
+
+|RBAC new-rolegroup  |사용자에 게 할당 되는 위치  |
+|---------|---------|
+| 전역 관리자   | Office 365 관리 센터        |
+| 보안 관리자      |    보안 및 준수 센터     |
+| 보안 독자   |    보안 및 준수 센터     |
+|      |    보안 및 준수 센터     |
+
+
+> [!CAUTION]
+> ' Preview '는 new-rolegroup이 아닌 역할 이므로 나중에이 역할을 New-rolegroup에 추가 해야 합니다.
+
+![페이지의 링크 다운로드 및 미리 보기를 포함 하는 위협 탐색기 플라이 아웃](media/ThreatExplorerDownloadandPreview.PNG)
+
+### <a name="check-the-delivery-action-and-location"></a>배달 작업 및 위치 확인
 
 위협 탐색기 실시간 검색이 배달 상태 대신 배달 작업 및 배달 위치 필드를 추가 했습니다. 이로 인해 전자 메일이 위치 하는 위치가 더 완벽 하 게 향상 됩니다. 이러한 변경 목표의 일환으로는 보안 Ops 사용자에 게 더 쉽게 사냥을 사용할 수 있지만,이는 네트워크 결과에서 문제 전자 메일의 위치를 한눈에 파악 하는 것입니다.
 
@@ -67,7 +114,11 @@ ms.locfileid: "36407947"
 - **격리** -전자 메일을 격리 하 고 사용자의 사서함에 있지 않습니다.
 - **Failed** – 전자 메일이 사서함에 연결 하지 못했습니다.
 - **삭제** 됨-전자 메일이 메일 흐름의 어딘가에 손실 됩니다.
+
+### <a name="view-the-timeline-of-your-email"></a>전자 메일의 시간 표시 막대 보기
   
+ **전자 메일 시간 표시 막대** 위협 탐색기의 다른 필드도 관리자에 게 더 ake 사냥 합니다. 전자 메일에서 이벤트를 조사 하는 동안 여러 이벤트가 발생 하거나 거의 비슷한 시간에 이벤트가 발생할 수 있는 시간을 중요 하 게 확인 하는 대신 해당 이벤트가 시간 표시 막대 보기에 표시 됩니다. 메일에 대 한 배달이 후 발생 하는 일부 이벤트는 '*특수 동작*' 열에 캡처됩니다. 메일을 배달 하는 동안 수행 된 특수 작업을 사용 하 여 메일의 시간 표시 막대와 정보를 결합 하면 관리자가 정책 및 위협 처리 (예: 메일을 라우팅된 위치, 일부 경우에는 최종 평가가 수행 됨)를 파악할 수 있습니다.
+
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>배달 된 의심 스러운 전자 메일 찾기 및 삭제
 
 > [!TIP]
