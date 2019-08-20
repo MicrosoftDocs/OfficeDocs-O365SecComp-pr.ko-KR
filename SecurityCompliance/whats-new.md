@@ -3,7 +3,7 @@ title: Microsoft 365 준수 센터의 새로운 기능
 ms.author: brendonb
 author: brendonb
 manager: laurawi
-ms.date: 01/14/2019
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 22c3253f3c529ff361fc1984f6bc82de8d72b094
-ms.sourcegitcommit: 28c104fb6a72d624fab5ac6178b5b0df9fa81484
+ms.openlocfilehash: 06c1292138ef7ca4c8421c169555454686ef8858
+ms.sourcegitcommit: 72ee6feaa0e0fd6bf01bfb855ad6e3bef370bf89
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297808"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393337"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
