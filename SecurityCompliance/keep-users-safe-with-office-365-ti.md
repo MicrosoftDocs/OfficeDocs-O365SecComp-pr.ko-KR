@@ -1,5 +1,5 @@
 ---
-title: Office 365 사용자에 게 Office 365 위협 조사 및 응답 기능을 안전 하 게 유지
+title: Office 365 위협 조사 및 응답 기능을 사용 하 여 조직을 안전 하 게 유지
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -15,14 +15,14 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 2170bf53247412ecf0ae1b9ca13286a6df8a6336
-ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
+ms.openlocfilehash: baedfb1ff74117bd2ed36cdf4551f898d377a971
+ms.sourcegitcommit: 4fd64e1811ae96633035cbc9cab1dbef3cbba34d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36478177"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484401"
 ---
-# <a name="keep-your-office-365-users-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Office 365 사용자에 게 Office 365 위협 조사 및 응답 기능을 안전 하 게 유지
+# <a name="keep-your-organization-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Office 365 위협 조사 및 응답 기능을 사용 하 여 조직을 안전 하 게 유지
 
 ## <a name="overview"></a>개요
 
