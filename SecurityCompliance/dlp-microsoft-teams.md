@@ -13,17 +13,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 8ac8f4e2a4189ca83772775a96067d0b5fc3a24b
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: 4edc05a2e0759884570239a038d0869e15240d17
+ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230742"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36478227"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
+<!-- the note duplicates the first sentence of the overview, delete one or the other- -->
 
 > [!NOTE]
-> 데이터 손실 방지 기능은 최근에 Microsoft 팀 채팅에 추가 되었으며, 독립 실행형 옵션으로 제공 되 고 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함 된 Office 365 고급 규정 준수를 위해 사용이 허가 된 사용자에 대 한 채널 메시지입니다. 라이선스 요구 사항에 대 한 자세한 내용은 [Microsoft 365 테 넌 트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
+> 데이터 손실 방지 기능은 최근 Microsoft 팀 채팅 및 채널 메시지에 추가 되었으며, 독립 실행형 옵션으로 제공 되 고 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함 된 Office 365 고급 규정 준수에 대 한 사용자에 게 적합 합니다. 라이선스 요구 사항에 대 한 자세한 내용은 [Microsoft 365 테 넌 트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
@@ -38,7 +39,7 @@ ms.locfileid: "36230742"
 
 ## <a name="policy-tips-help-educate-users"></a>사용자를 교육 하는 데 도움이 되는 정책 팁
 
-[웹에서의 Exchange, outlook 및 outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), [SharePoint 및 비즈니스용 OneDrive 사이트](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites), [Office 데스크톱 클라이언트](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)에서 dlp가 작동 하는 방식과 마찬가지로, 작업이 DLP 정책과 충돌할 때 정책 팁이 표시 됩니다. 정책 팁의 예는 다음과 같습니다.
+[Exchange, outlook, 웹용 outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), [SharePoint Online, 비즈니스용 OneDrive 사이트](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)및 [Office 데스크톱 클라이언트](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)에서 dlp가 작동 하는 방식과 마찬가지로, 작업이 DLP 정책과 충돌할 때 정책 팁이 표시 됩니다. 정책 팁의 예는 다음과 같습니다.
 
 ![팀의 차단 된 메시지 알림](media/dlp-teams-blockedmessage-notification.png)
 
@@ -46,7 +47,7 @@ ms.locfileid: "36230742"
 
 ![차단 된 메시지 해결 옵션](media/dlp-teams-blockedmessage-possibleactions.png)
 
-조직에서는 사용자가 DLP 정책을 재정의 하도록 허용할지 여부를 선택할 수 있습니다. 그리고 DLP 정책을 구성할 때 기본 정책 팁을 사용 하거나 조직에 대 한 [정책 팁을 사용자 지정할](#to-customize-policy-tips) 수 있습니다. 
+조직에서는 사용자가 DLP 정책을 재정의할 수 있도록 선택할 수 있습니다. 그리고 DLP 정책을 구성할 때 기본 정책 팁을 사용 하거나 조직에 대 한 [정책 팁을 사용자 지정할](#to-customize-policy-tips) 수 있습니다. 
 
 예를 들어 보낸 사람이 팀 채널에서 주민 등록 번호를 공유 하는 경우, 받는 사람에 게 표시 되는 결과는 다음과 같습니다.
 
@@ -73,7 +74,7 @@ ms.locfileid: "36230742"
 7. **정책 설정** 탭에서 **저장**을 선택 합니다.
 
 변경 내용이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.
- 
+ <!-- why are these syncing to user accounts? -->
 ## <a name="add-microsoft-teams-as-a-location-to-existing-dlp-policies"></a>Microsoft 팀을 기존 DLP 정책에 대 한 위치로 추가
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
@@ -91,7 +92,7 @@ ms.locfileid: "36230742"
 6. **저장**을 클릭합니다.
 
 변경 내용이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.
-
+<!-- again, why user accounts? -->
 ## <a name="define-a-new-dlp-policy-for-microsoft-teams"></a>Microsoft 팀에 대 한 새 DLP 정책 정의
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
@@ -104,7 +105,7 @@ ms.locfileid: "36230742"
 
 4. **정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음**을 선택 합니다. 
 
-5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하도록 선택한 경우 DLP 정책에 대 한 위치를 선택 하 고 **다음**을 선택 합니다.<br/>![DLP 정책 위치](media/dlp-teams-selectlocationsnewpolicy.png)<br/>
+5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
     > 중요 한 정보가 포함 된 문서가 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
 <br/>
