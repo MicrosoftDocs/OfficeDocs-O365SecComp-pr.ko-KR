@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 조직에서 Microsoft 파트너와 협력 하 여 Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본의 타사 데이터를 가져올 사용자 지정 커넥터를 설정할 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 Office 365 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 방법을 관리할 수도 있습니다.
-ms.openlocfilehash: 99596953ce0f18c0cd7220f0955d251dbccb0e37
-ms.sourcegitcommit: 372691a3a886e5cc299961032ee334aef26fb904
+ms.openlocfilehash: a22b4226efb582969072bbd92149080cca9b749c
+ms.sourcegitcommit: 59039d3bf479c4b2c1d2e2556a0adc755f431a1f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464701"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473428"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Office 365에서 파트너와 협력 하 여 타사 데이터 보관
 
@@ -71,7 +71,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
   
 ### <a name="17a-4-llc"></a>17a-4 LLC
 
-17a-4 LLC에서는 다음의 타사 데이터 원본을 지원합니다.
+[17a-4 LLC](https://www.17a-4.com) 에서는 다음 타사 데이터 원본을 지원 합니다.
   
 - BlackBerry
     
