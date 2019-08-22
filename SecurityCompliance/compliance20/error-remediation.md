@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: efcee812b6082a7f7ee36e6aea0ecb7ed0243077
-ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
+ms.openlocfilehash: c9c2660929037430535c9b612218563c51b1f056
+ms.sourcegitcommit: 3f3f3ecb28ef65d023f3573f9a4e09a0586d8f53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36168140"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36490795"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -61,7 +61,7 @@ ms.locfileid: "36168140"
 
 7. 파일을 다운로드 한 후에는 적절 한 도구를 사용 하 여 수정할 수 있습니다. 암호로 보호 된 파일의 경우에는 여러 가지 암호 해독 도구를 사용할 수 있습니다. 파일에 대 한 암호를 알고 있으면 열고 암호 보호 기능을 제거할 수 있습니다.
     > [!NOTE]
-    > Tact에서 재구성 된 파일의 디렉터리 구조와 파일 이름은 유지 하는 것이 중요 합니다.  다운로드 한 파일 및 폴더에 사용 되는 모든 명명 규칙을 통해 remdiated 파일을 다시 원본에 연결할 수 있습니다.
+    > 재구성 된 파일의 파일 이름 및 디렉터리 구조를 유지 하는 것이 중요 합니다. 다운로드 한 파일 및 폴더의 경로 이름을 사용 하면 재구성 한 파일을 원본 파일과 연결할 수 있습니다.  디렉터리 구조 또는 파일 이름이 변경 되 면 다음 오류가 `Cannot apply Error Remediation to the current Workingset`표시 됩니다.
 
 8. 이제 고급 eDiscovery로 돌아간 후 **다음: 파일 업로드**를 클릭 합니다.  이렇게 하면 이제 파일을 업로드할 수 있는 다음 단계로 이동 합니다.
 

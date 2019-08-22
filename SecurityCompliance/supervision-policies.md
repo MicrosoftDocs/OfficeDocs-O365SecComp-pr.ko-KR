@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365의 감독 정책에 대해 자세히 알아보기
-ms.openlocfilehash: 6480c3ccb069e5e16618739303d71df115074baf
-ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
+ms.openlocfilehash: 3259620e16b626c81c9c0f71f7be1f627e9c6bc9
+ms.sourcegitcommit: 3f3f3ecb28ef65d023f3573f9a4e09a0586d8f53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36165654"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36490765"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365의 감독 정책
 
@@ -144,6 +144,7 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 | **가짜 식** | 의미 또는 발음을 더 공격적인 다른 용어와 동일 하 게 나타내는 식입니다. |
 
 #### <a name="conditional-settings"></a>조건부 설정
+<a name="ConditionalSettings"> </a>
 
 정책에 대해 선택 하는 조건은 Facebook 또는 DropBox와 같이 조직의 전자 메일 및 타사 소스를 통한 통신에 적용 됩니다.
 

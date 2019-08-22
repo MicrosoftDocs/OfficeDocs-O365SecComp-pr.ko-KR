@@ -3,19 +3,19 @@ title: EU 국가 식별 번호
 ms.author: stephow
 author: stephow-MSFT
 manager: laurawi
-ms.date: 8/17/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 205019d040648f0600f3dbf4403063edf9f31c41
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: cbcacb3f85877f5a84238468fb52d612d90f5f0b
+ms.sourcegitcommit: 3f3f3ecb28ef65d023f3573f9a4e09a0586d8f53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34154463"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36490775"
 ---
 # <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
@@ -59,7 +59,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsaustriaeunationalidcard"></a>Keywords_austria_eu_national_id_card
+#### <a name="keywords_austria_eu_national_id_card"></a>Keywords_austria_eu_national_id_card
 
 오스트리아 id 번호
   
@@ -123,11 +123,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsbulgarianationalnumber"></a>Keywords_bulgaria_national_number
+#### <a name="keywords_bulgaria_national_number"></a>Keywords_bulgaria_national_number
 
 egn
   
-egn#
+egn #
   
 불가리아어 국가 번호
   
@@ -135,9 +135,9 @@ egn#
   
 social security number
   
-nationalnumber#
+nationalnumber #
   
-ssn
+ssn #
   
 ssn
   
@@ -149,7 +149,7 @@ bnn
   
 개인 id 번호
   
-personalidnumber#
+personalidnumber #
   
 единен граждански номер
   
@@ -157,7 +157,7 @@ edinen grazhdanski nomer
   
 егн
   
-егн#
+егн #
   
 ## <a name="croatia"></a>크로아티아
 
@@ -197,7 +197,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordscypruseunationalidcard"></a>Keywords_cyprus_eu_national_id_card
+#### <a name="keywords_cyprus_eu_national_id_card"></a>Keywords_cyprus_eu_national_id_card
 
 id 카드 번호
   
@@ -266,7 +266,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsestoniaeunationalidcard"></a>Keywords_estonia_eu_national_id_card
+#### <a name="keywords_estonia_eu_national_id_card"></a>Keywords_estonia_eu_national_id_card
 
 개인 식별 코드
   
@@ -278,7 +278,7 @@ national identification number
   
 개인 id 번호
   
-personalidnumber#
+personalidnumber #
   
 ik
   
@@ -350,7 +350,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordshungaryeunationalidcard"></a>Keywords_hungary_eu_national_id_card
+#### <a name="keywords_hungary_eu_national_id_card"></a>Keywords_hungary_eu_national_id_card
 
 개인 식별 번호
   
@@ -417,7 +417,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsirelandeunationalidcard"></a>Keywords_ireland_eu_national_id_card
+#### <a name="keywords_ireland_eu_national_id_card"></a>Keywords_ireland_eu_national_id_card
 
 개인 공용 서비스 번호
   
@@ -491,7 +491,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsitalyeunationalidcard"></a>Keywords_italy_eu_national_id_card
+#### <a name="keywords_italy_eu_national_id_card"></a>Keywords_italy_eu_national_id_card
 
 개인 코드
   
@@ -501,7 +501,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 회계 코드
   
-personalcodeno#
+personalcodeno #
   
 개인 id 번호
   
@@ -519,7 +519,7 @@ codice id personale
   
 codice
   
-## <a name="italy"></a>이탈리아
+## <a name="latvia"></a>라트비아
 
 ### <a name="format"></a>형식일
 
@@ -567,7 +567,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordslatviaeunationalidcard"></a>Keywords_latvia_eu_national_id_card
+#### <a name="keywords_latvia_eu_national_id_card"></a>Keywords_latvia_eu_national_id_card
 
 개인 코드
   
@@ -575,7 +575,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 개인 인증서 번호
   
-personalcodeno#
+personalcodeno #
   
 개인 id 번호
   
@@ -632,7 +632,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordslithuaniaeunationalidcard"></a>Keywords_lithuania_eu_national_id_card
+#### <a name="keywords_lithuania_eu_national_id_card"></a>Keywords_lithuania_eu_national_id_card
 
 개인 숫자 코드
   
@@ -642,7 +642,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno#
+uniqueidentityno #
   
 개인 코드
   
@@ -697,23 +697,23 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsluxemburgeunationalidcard"></a>Keywords_luxemburg_eu_national_id_card
+#### <a name="keywords_luxemburg_eu_national_id_card"></a>Keywords_luxemburg_eu_national_id_card
 
 개인 id
   
 개인 id 번호
   
-personalidno#
+personalidno #
   
 고유 id 번호
   
-personalidnumber#
+personalidnumber #
   
 고유 id 키
   
 개인 id 코드
   
-uniqueidkey#
+uniqueidkey #
   
 개별 코드
   
@@ -727,11 +727,11 @@ id personnelle
   
 numéro d'identification 담당자
   
-idpersonnelle#
+idpersonnelle #
   
 persönliche identifikationsnummer
   
-eindeutigeid#
+eindeutigeid #
   
 ## <a name="malta"></a>몰타
 
@@ -778,7 +778,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsmaltaeunationalidcard"></a>Keywords_malta_eu_national_id_card
+#### <a name="keywords_malta_eu_national_id_card"></a>Keywords_malta_eu_national_id_card
 
 개인 숫자 코드
   
@@ -788,7 +788,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno#
+uniqueidentityno #
   
 kodiċi numerali personali
   
@@ -839,7 +839,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsnetherlandseunationalidcard"></a>Keywords_netherlands_eu_national_id_card
+#### <a name="keywords_netherlands_eu_national_id_card"></a>Keywords_netherlands_eu_national_id_card
 
 개인 숫자 코드
   
@@ -849,11 +849,11 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno#
+uniqueidentityno #
   
 bsn
   
-bsn
+bsn #
   
 persoonlijke 코드
   
@@ -912,7 +912,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsromaniaeunationalidcard"></a>Keywords_romania_eu_national_id_card
+#### <a name="keywords_romania_eu_national_id_card"></a>Keywords_romania_eu_national_id_card
 
 개인 숫자 코드
   
@@ -924,15 +924,15 @@ cnp #
   
 pin
   
-pin
+pin #
   
 보험 번호
   
-insurancenumber#
+insurancenumber #
   
 고유 id 번호
   
-uniqueidentityno#
+uniqueidentityno #
   
 cod 숫자 개인
   
@@ -946,11 +946,11 @@ număr identitate
   
 număr identificare personal
   
-număridentitate#
+număridentitate #
   
-codnumericpersonal#
+codnumericpersonal #
   
-numărpersonalunic#
+numărpersonalunic #
   
 ## <a name="slovakia"></a>슬로바키아
 
@@ -993,7 +993,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsslovakiaeunationalidcard"></a>Keywords_slovakia_eu_national_id_card
+#### <a name="keywords_slovakia_eu_national_id_card"></a>Keywords_slovakia_eu_national_id_card
 
 돌 번호
   
@@ -1003,9 +1003,9 @@ national identification number
   
 social security number
   
-nationalnumber#
+nationalnumber #
   
-ssn
+ssn #
   
 ssn
   
@@ -1013,7 +1013,7 @@ ssn
   
 개인 id 번호
   
-personalidnumber#
+personalidnumber #
   
 rč
   
@@ -1070,7 +1070,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordssloveniaeunationalidcard"></a>Keywords_slovenia_eu_national_id_card
+#### <a name="keywords_slovenia_eu_national_id_card"></a>Keywords_slovenia_eu_national_id_card
 
 개인 숫자 코드
   
@@ -1080,7 +1080,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 고유 id 번호
   
-uniqueidentityno#
+uniqueidentityno #
   
 고유 마스터 시민 번호
   
@@ -1130,7 +1130,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keywordsspaineunationalidcard"></a>Keywords_spain_eu_national_id_card
+#### <a name="keywords_spain_eu_national_id_card"></a>Keywords_spain_eu_national_id_card
 
 dni
   
@@ -1148,19 +1148,19 @@ national identification number
   
 고유 id 번호
   
-nationalidno#
+nationalidno #
   
-uniqueid
+uniqueid #
   
-dni
+dni #
   
-nationalid#
+nationalid #
   
 nie #
   
 nie
   
-nienúmero#
+nienúmero #
   
 nie número
   
@@ -1172,9 +1172,9 @@ número nacional identidad
   
 dni número
   
-dninúmero#
+dninúmero #
   
-identidadúnico#
+identidadúnico #
   
 ## <a name="sweden"></a>스웨덴
 
