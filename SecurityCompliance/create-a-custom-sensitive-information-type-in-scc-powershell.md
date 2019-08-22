@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: f038a37d2f049b49710c7f50e030bfe189be82b6
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: baf715b6bb3a09495d6b5efa47eee6ea0ec3160a
+ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230932"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36478237"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 
@@ -34,8 +34,7 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
 > 또한 보안 및 준수 센터 UI에서 덜 복잡한 사용자 지정 중요한 정보 유형을 만들 수 있습니다. 자세한 내용은 [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)를 참조하세요.
 
 ## <a name="important-disclaimer"></a>중요 고지 사항
-
-고객 환경 및 콘텐츠 일치 요구의 차이 때문에 Microsoft 지원 서비스는 고객 콘텐츠 일치 정의(예: 사용자 지정 분류 또는 정규식 패턴(RegEx라고 함) 정의)를 제공하도록 지원할 수 없습니다. 고객 콘텐츠 일치 개발, 테스트 및 디버그를 위해 Office 365 고객은 내부 IT 리소스에 의존하거나 MCS(Microsoft 컨설팅 서비스)와 같은 외부 컨설팅 리소스에 의존해야 합니다. 지원 엔지니어는 이 기능에 대해 제한된 지원을 제공할 수 있지만 사용자 지정 콘텐츠 일치 개발이 고객의 요구나 의무를 이행할 것이라는 보장을 제공할 수 없습니다. 제공될 수 있는 지원 유형의 예로, 테스트 목적으로 샘플 정규식 패턴이 제공될 수 있습니다. 또는 지원 서비스는 단일 특정 콘텐츠 예제에서 예상대로 트리거되지 않는 기존 RegEx 패턴 문제를 해결하는 데 도움을 줄 수 있습니다.
+<!-- this is worded much better than the previous one is --> 고객 환경 및 콘텐츠 일치 요구의 차이 때문에 Microsoft 지원 서비스는 고객 콘텐츠 일치 정의(예: 사용자 지정 분류 또는 정규식 패턴(RegEx라고 함) 정의)를 제공하도록 지원할 수 없습니다. 고객 콘텐츠 일치 개발, 테스트 및 디버그를 위해 Office 365 고객은 내부 IT 리소스에 의존하거나 MCS(Microsoft 컨설팅 서비스)와 같은 외부 컨설팅 리소스에 의존해야 합니다. 지원 엔지니어는 이 기능에 대해 제한된 지원을 제공할 수 있지만 사용자 지정 콘텐츠 일치 개발이 고객의 요구나 의무를 이행할 것이라는 보장을 제공할 수 없습니다. 제공될 수 있는 지원 유형의 예로, 테스트 목적으로 샘플 정규식 패턴이 제공될 수 있습니다. 또는 지원 서비스는 단일 특정 콘텐츠 예제에서 예상대로 트리거되지 않는 기존 RegEx 패턴 문제를 해결하는 데 도움을 줄 수 있습니다.
 
  텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
     
@@ -43,7 +42,7 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
 
 다음은 이 항목에서 만들 규칙 패키지의 샘플 XML입니다. 요소와 특성은 다음 섹션에 설명됩니다.
   
-```
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
 <RulePack id="DAD86A92-AB18-43BB-AB35-96F7C594ADAA">
@@ -129,9 +128,7 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
 
 시작하기 전에 규칙에 대한 XML 스키마의 기본 구조와 이 구조를 사용하여 올바른 콘텐츠를 식별하도록 사용자 지정 중요한 정보 유형을 정의하는 방법을 이해하면 도움이 됩니다.
   
-규칙은 하나 이상의 엔터티(중요 한 정보 유형)를 정의하고, 각 엔터티는 하나 이상의 패턴을 정의합니다. 패턴은 전자 메일이나 문서와 같은 콘텐츠를 평가할 때 DLP가 검색하는 항목을 나타냅니다.
-  
-(용어에 대한 참고 사항: DLP 정책에 익숙한 경우 정책에 조건 및 작업으로 구성되는 하나 이상의 규칙이 포함되어 있다는 사실을 알고 있을 것입니다. 그렇지만 이 항목에서 XML 태그는 규칙을 사용하여 중요한 정보 유형이라고도 하는 엔터티를 정의하는 패턴을 나타냅니다. 따라서 이 항목에서는 규칙이 나올 경우 조건 및 작업이 아닌 중요한 정보 유형으로 간주합니다.)
+규칙은 하나 이상의 엔터티(중요한 정보 유형)를 정의하고, 각 엔터티는 하나 이상의 패턴을 정의합니다. 패턴은 전자 메일이나 문서와 같은 콘텐츠를 평가할 때 DLP가 검색하는 항목을 나타냅니다.   <!-- ok then this is going to be really confusing since the terminology changes.... --> (용어에 대한 참고 사항: DLP 정책에 익숙한 경우 정책에 조건 및 작업으로 구성되는 하나 이상의 규칙이 포함되어 있다는 사실을 알고 있을 것입니다. 그렇지만 이 항목에서 XML 태그는 규칙을 사용하여 중요한 정보 유형이라고도 하는 엔터티를 정의하는 패턴을 나타냅니다. 따라서 이 항목에서는 규칙이 나올 경우 조건 및 작업이 아닌 중요한 정보 유형으로 간주합니다.)
   
 ### <a name="simplest-scenario-entity-with-one-pattern"></a>가장 간단한 시나리오: 하나의 패턴을 갖는 엔터티
 
@@ -160,8 +157,7 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
 엔터티는 잘 정의된 패턴을 갖는 신용 카드 번호와 같은 중요한 정보 유형입니다. 각 엔터티는 고유한 GUID를 해당 ID로 사용합니다.
   
 ### <a name="name-the-entity-and-generate-its-guid"></a>엔터티에 이름 지정 및 해당 GUID 생성
-
-Rules 및 Entity 요소를 추가합니다. 그런 후 사용자 지정 엔터티의 이름(이 예제에서는 직원 ID)을 포함하는 주석을 추가합니다. 나중에 이 엔터티 이름을 지역화된 문자열 섹션에 추가합니다. 그러면 해당 이름이 DLP 정책을 만들 때 UI에 표시됩니다.
+<!-- why isn't the following in procedure format? --> Rules 및 Entity 요소를 추가합니다. 그런 후 사용자 지정 엔터티의 이름(이 예제에서는 직원 ID)을 포함하는 주석을 추가합니다. 나중에 이 엔터티 이름을 지역화된 문자열 섹션에 추가합니다. 그러면 해당 이름이 DLP 정책을 만들 때 UI에 표시됩니다.
   
 다음으로, 엔터티의 GUID를 생성합니다. GUID를 생성하는 방법에는 여러 가지가 있지만 PowerShell에서 [guid]::NewGuid()를 입력하여 쉽게 만들 수 있습니다. 나중에 엔터티 GUID 지역화된 문자열 섹션을 추가합니다.
   
@@ -321,7 +317,7 @@ Rules 요소는 사용자 지정 엔터티의 GUID를 참조하는 Resource 요�
   
 Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하면, Office 365에서 버전 번호를 표시합니다. 나중에 규칙 패키지를 업데이트하고 새 버전을 업로드하는 경우 해당 버전 번호를 업데이트해야 합니다. 그렇지 않으면 Office 365에서 규칙 패키지를 배포하지 않습니다.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-16"?>
 <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
   <RulePack id=". . .">
@@ -363,13 +359,13 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
     
 3. 다음 구문을 사용합니다.
 
-    ```
+    ```powershell
     New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "PathToUnicodeXMLFile" -Encoding Byte)
     ```
 
     이 예제에서는 C:\My Documents에서 MyNewRulePack.xml이라는 유니코드 XML 파일을 업로드합니다.
 
-    ```
+    ```powershell
     New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\My Documents\MyNewRulePack.xml" -Encoding Byte)
     ```
 
@@ -393,7 +389,7 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 
   - \<이름\>을 중요한 정보 유형의 이름 값(예: 직원 ID)으로 바꾸고 [Get-DlpSensitiveInformationType](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtype?view=exchange-ps) cmdlet을 실행합니다.
 
-    ```
+    ```powershell
     Get-DlpSensitiveInformationType -Identity "<Name>"
     ```
     
@@ -557,7 +553,7 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
 
 이 태그를 복사하고, XSD 파일로 저장한 후 규칙 패키지 XML 파일의 유효성을 검사하는 데 사용할 수 있습니다.
   
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:mce="http://schemas.microsoft.com/office/2011/mce"
            targetNamespace="http://schemas.microsoft.com/office/2011/mce" 

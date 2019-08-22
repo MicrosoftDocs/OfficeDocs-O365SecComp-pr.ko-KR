@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: a937d5ccc947ee9322c5796cf49e9a8ff3eead16
-ms.sourcegitcommit: d4acce11a26536b9d6ca71ba4933fc95136198a4
+ms.openlocfilehash: 3c2b7cbabc77328f7d907927008e93606d40eded
+ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407910"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36478197"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -338,7 +338,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 `EdmUploadAgent.exe /GetDataStore`
 
-데이터 저장소 목록 및 마지막 업데이트 날짜가 다음과 비슷하게 표시됩니다.
+데이터 저장소 목록 및 마지막 업데이트 날짜를 볼 수 있습니다.
 
 계속하여 [중요한 정보 데이터베이스 새로 고침](#refreshing-your-sensitive-information-database)의 프로세스 및 일정을 설정합니다.
 

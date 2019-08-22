@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: e7b2d07c64d97eafee5b269bbc0e395855c2ab44
-ms.sourcegitcommit: 0a0d9c1325b4b0581018c31037dcc707d3d679b4
+ms.openlocfilehash: c291d7265df460113769b997aae49b5295d8727f
+ms.sourcegitcommit: a5a7e43822336ed18d8f5879167766686cf6b2a3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36279160"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36478217"
 ---
+<!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
 
 ## <a name="summary"></a>요약
@@ -37,9 +38,9 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 
 - 사용자 지정 중요한 정보 유형을 위해서는 정규식(RegEx)을 잘 알고 있어야 합니다. 텍스트 처리에 사용되는 Boost.RegEx(이전에는 RegEx++라고 함) 엔진에 대한 자세한 내용은 [Boost.Regex 5.1.3](https://www.boost.org/doc/libs/1_68_0/libs/regex/doc/html/)을 참조하세요.
 
-  Microsoft 고객 서비스 및 지원에서는 사용자 지정 콘텐츠 일치 정의(사용자 지정 분류 또는 정규식 패턴 만들기)를 제공하는 것을 지원할 수 없습니다. 지원 엔지니어는 기능을 제한적으로 지원할 수 있습니다(예: 테스트 목적으로 샘플 정규식 패턴 제공 또는 예상대로 트리거되지 않는 기존 정규식 패턴 문제 해결 지원). 그러나 사용자 지정 콘텐츠 일치 개발이 귀하의 요구 사항이나 의무를 충족할 것이라고 확신할 수는 없습니다.
+  Microsoft 고객 서비스 및 지원은 사용자 지정 분류 또는 정규식 패턴 만들기를 지원할 수 없습니다. 지원 엔지니어는 테스트 목적으로 샘플 정규식 패턴 제공 또는 예상대로 트리거되지 않는 기존 정규식 패턴 문제 해결 지원과 같은 기능을 제한적으로 지원할 수 있습니다. 그러나 사용자 지정 콘텐츠 일치 개발이 귀하의 요구 사항이나 의무를 충족할 것이라고 확신할 수는 없습니다.
 
-- DLP는 검색 크롤러를 사용하여 SharePoint Online 및 비즈니스용 OneDrive 사이트의 중요한 정보를 식별하고 분류합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 콘텐츠를 다시 크롤링해야 합니다. 일정을 기반으로 콘텐츠가 다시 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록의 크롤링 및 다시 인덱싱을 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
+- DLP는 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 중요한 정보를 식별하고 분류하기 위해 검색 크롤러를 사용합니다. 기존 콘텐츠에서 새로운 사용자 지정 중요한 정보 유형을 식별하려면 해당 콘텐츠에 대한 크롤링을 다시 수행해야 합니다. 콘텐츠는 일정을 기반으로 크롤링되지만 사이트 모음, 목록 또는 라이브러리의 콘텐츠를 수동으로 다시 크롤링할 수 있습니다. 자세한 내용은 [사이트, 라이브러리 또는 목록을 크롤링 및 다시 인덱싱하도록 수동으로 요청](https://docs.microsoft.com/sharepoint/crawl-site-content)을 참조하세요.
 
 ## <a name="create-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
 
@@ -118,7 +119,7 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 ## <a name="modify-custom-sensitive-information-types-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 수정
 
 **참고:**
-
+<!-- check to see if this note contradicts the guidance in "customize a built in sensitive information type https://docs.microsoft.com/en-us/office365/securitycompliance/customize-a-built-in-sensitive-information-type it sure seems like it does-->
 - 사용자 지정 중요한 정보 유형만 수정할 수 있습니다. 기본 제공 중요한 정보 유형은 수정할 수 없습니다. 그러나 PowerShell을 사용하여 기본 제공 사용자 지정 중요한 정보 유형을 내보낸 후 사용자 지정하고 사용자 지정 중요한 정보 유형으로 가져올 수 있습니다. 자세한 내용은 [기본 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)을 참조하세요.
 
 - UI에서 만든 사용자 지정 중요한 정보 유형만 수정할 수 있습니다. [PowerShell 프로시저](create-a-custom-sensitive-information-type-in-scc-powershell.md)를 사용하여 사용자 지정 중요한 정보 유형 규칙 패키지를 가져오면 오류가 발생합니다.
