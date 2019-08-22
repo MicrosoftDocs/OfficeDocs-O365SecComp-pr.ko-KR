@@ -206,8 +206,6 @@
 #### [차단된 사용자 지정 URL 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)
 ### 역할 관리자 설정 작업
 #### [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기](turn-on-atp-for-spo-odb-and-teams.md)
-#### [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)
-## 보안 관리 - ATP 사후 설정
 ## [위협 분석을 통해 최신 공격 캠페인 이해하기](latest-attack-campaigns.md)
 ## [Microsoft 365에서 찾기](hunting.md)
 ## [ATP 보고서 보기 및 읽기](view-reports-for-atp.md)
@@ -218,17 +216,18 @@
 ## [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
 ## [위협 탐색기 (실시간 검출)](threat-explorer.md)
 ### [위협 탐색기 보기](threat-explorer-views.md)
+### [Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별](unverified-sender-feature.md)
 ## 보안 강화를 위한 통합
 ### [Office 365 ATP와 Microsoft Defender ATP 통합](integrate-office-365-ti-with-wdatp.md)
 ### [Office 365 ATP와 SIEM 통합](siem-integration-with-office-365-ti.md)
 ## ATP의 작동 방식
 ### [ATP 안전한 링크가 작동하는 방식](how-atp-safe-links-works.md)
 ### [ATP 안전한 첨부 정책의 작동 방식](how-atp-safe-attachments-works.md)
-#### [동적 배달 및 미리 보기 세부 정보](dynamic-delivery-and-previewing.md)
-### [위협 조사 및 응답이 작동하는 방식](get-started-with-ti.md)
-#### [위협 조사 및 응답에 관한 정보](office-365-ti.md)
+### [동적 배달 및 미리 보기 세부 정보](dynamic-delivery-and-previewing.md)
+### [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)
+### [위협 조사 및 응답이 작동하는 방식](office-365-ti.md)
 ### [자동화된 조사 및 응답이 작동하는 방식](automated-investigation-response-office.md)
-### [Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별](unverified-sender-feature.md)
+
 
 # 보안 사고 관리
 ## [Office 365 보안 사고 대응](office365-security-incident-response-overview.md)
