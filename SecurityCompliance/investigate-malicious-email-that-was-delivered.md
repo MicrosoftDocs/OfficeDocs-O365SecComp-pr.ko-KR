@@ -15,12 +15,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2049b3b8e0d7b9173639af3c48f75a072744fb7f
-ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
+ms.openlocfilehash: 25eb1f4a13ad698d7b6817ea7917ccabea7210ae
+ms.sourcegitcommit: f473bf7f215ba4eb2f49e0dd23a9d2e39fa512c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36444875"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36566226"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
 
@@ -88,6 +88,9 @@ ms.locfileid: "36444875"
 > ' Preview '는 new-rolegroup이 아닌 역할 이므로 나중에이 역할을 New-rolegroup에 추가 해야 합니다.
 
 ![페이지의 링크 다운로드 및 미리 보기를 포함 하는 위협 탐색기 플라이 아웃](media/ThreatExplorerDownloadandPreview.PNG)
+
+> [!IMPORTANT]
+> 이 기능은 사용자 사서함에서 발견 되지 않은 전자 메일에 대해서는 표시 되지 않으며, 메일이 삭제 되거나 배달이 실패 한 경우에 발생할 수 있습니다. 전자 메일이 사용자 사서함에서 삭제 된 경우 관리자는 ' 메일을 찾을 수 없습니다. ' 라는 오류 메시지가 표시 됩니다.
 
 ### <a name="check-the-delivery-action-and-location"></a>배달 작업 및 위치 확인
 

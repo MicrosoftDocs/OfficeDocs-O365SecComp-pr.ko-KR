@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: 652932403a4a63b280437a609e4bec46da39387e
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 4035a676bf815642735699a106e6430cf8245a05
+ms.sourcegitcommit: f473bf7f215ba4eb2f49e0dd23a9d2e39fa512c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599704"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36566203"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -34,8 +34,8 @@ Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조�
 ## <a name="how-eop-works"></a>EOP의 작동 방식
 
 EOP가 받는 전자 메일을 처리하는 방법을 확인하면 EOP의 작동 방식을 이해하는 데 도움이 됩니다.
-  
-![EOP-전자 메일 처리](../media/EOP-email-processing.png)
+
+![EOP의 전자 메일 프로세스입니다.](../media/GitHubBugs/emailprocessingineop.png)
   
 처음에 들어오는 메시지는 보낸 사람의 신뢰도를 확인 하 고 맬웨어가 있는지 메시지를 검사 하는 연결 필터링을 통해 전달 됩니다. 대부분의 스팸이이 지점에서 중지 되 고 EOP에서 삭제 됩니다. 메시지는 서식 파일에서 만들거나 적용 하는 사용자 지정 메일 흐름 규칙 (전송 규칙이 라고도 함)에 대해 메시지를 평가 하는 정책 필터링을 계속 합니다. 예를 들어 메일이 특정 보낸 사람에 게 서 도착 하면 관리자에 게 알림을 보내는 규칙을 만들 수 있습니다. (데이터 손실 방지 확인은이 시점에도 발생 하며, 해당 기능이 있는 경우 [Exchange Online Protection 서비스 설명을](https://go.microsoft.com/fwlink/p/?LinkId=320619)참조 하세요.) 다음으로, 메시지는 스팸에 공통 되는 용어 또는 속성에 대해 콘텐츠를 확인 하는 콘텐츠 필터링을 통과 합니다. 콘텐츠 필터에 의해 스팸으로 확인 되는 메시지는 사용자의 정크 메일 폴더로 전송 하거나 설정에 따라 다른 옵션 중 하나를 사용 하 여 격리로 보낼 수 있습니다. 메시지는 이러한 모든 보호 계층을 성공적으로 통과 하면 받는 사람에 게 배달 됩니다.
   
