@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 6d982b635513050d931397bbc517ae3d76ee3752
-ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
+ms.openlocfilehash: 69ed6460966a399ac5b1e3cf71bd985917bec82c
+ms.sourcegitcommit: f57d411e06c955d648dfa1a2a473aa45416e1377
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054730"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "36620492"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -53,20 +53,20 @@ ms.locfileid: "36054730"
   
 [디렉터리 동기화 준비](https://go.microsoft.com/fwlink/p/?LinkId=308908)의 설명에 따라 필요한 사용 권한을 얻고 디렉터리 동기화를 준비합니다.
   
-### <a name="to-synchronize-user-directories"></a>사용자 디렉터리를 동기화하려면
+### <a name="to-synchronize-user-directories-with-azure-active-directory-connect-aad-connect"></a>사용자 디렉터리를 Azure Active Directory Connect (AAD 연결)와 동기화 하려면
 
-1. [디렉터리 동기화 활성화](https://go.microsoft.com/fwlink/p/?LinkId=308909)의 설명에 따라 디렉터리 동기화를 활성화합니다.
-    
-2. [디렉터리 동기화 컴퓨터 설정](http://go.microsoft.com/fwlink/p/?LinkId=308911)의 설명에 따라 디렉터리 동기화 컴퓨터를 설정합니다.
-    
-3. [구성 마법사를 사용하여 디렉터리 동기화](http://go.microsoft.com/fwlink/?LinkId=308912)의 설명에 따라 디렉터리를 동기화합니다.
-    
-    > [!IMPORTANT]
-    > Azure Active Directory 동기화 도구 구성 마법사를 완료하면 Active Directory 포리스트에 **MSOL_AD_SYNC** 계정이 만들어집니다. 이 계정을 사용하여 온-프레미스 Active Directory 정보를 읽고 동기화합니다. 디렉터리 동기화가 정상적으로 작동하도록 하려면 로컬 디렉터리 동기화 서버의 TCP 443이 열려 있는지 확인합니다. 
-  
-  4. [디렉터리 동기화 관리](http://go.microsoft.com/fwlink/p/?LinkId=308915)의 설명에 따라 디렉터리 동기화를 관리합니다.
-    
-  5. EOP가 올바르게 동기화되는지 확인합니다. 이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다. 
+사용자를 Azure Active Directory (AAD)로 동기화 하려면 먼저 [디렉터리 동기화 활성화](https://go.microsoft.com/fwlink/p/?LinkId=308909)에 설명 된 대로 **디렉터리 동기화를 활성화**해야 합니다.
+
+다음은 AAD 연결을 실행 하는 온-프레미스 컴퓨터를 설치 및 구성 하는 것입니다 (아직 한 번 확인 해야 할 사항이 없는 경우). 아래 문서에서는 AAD Connect를 사용 하 여 온-프레미스에서 Azure AD로 계정을 설정 하 고 동기화 하는 방법을 설명 합니다.
+
+[AAD 연결 설정 (express 방식)](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express)
+
+그러나 작업을 수행 하기 전에 [필수 구성 요소] (https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-prerequisites를 입력 해야 함)를 확인 하 고 [설치 유형을 선택](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-select-installation)합니다. 위에 게시 된 링크는 빠른 설치를 위한 짧은 문서를 참조 하십시오. 또한 [사용자 지정 설치](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom)또는 필요한 경우 [통과 인증](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta-quick-start) 에 대 한 문서를 찾을 수 있습니다.
+
+> [!IMPORTANT]
+> Azure Active Directory 동기화 도구 구성 마법사를 완료하면 Active Directory 포리스트에 **MSOL_AD_SYNC** 계정이 만들어집니다. 이 계정을 사용하여 온-프레미스 Active Directory 정보를 읽고 동기화합니다. 디렉터리 동기화가 올바르게 작동 하려면 로컬 디렉터리 동기화 서버의 TCP 443이 열려 있는지 확인 합니다. 
+
+동기화를 구성한 후에는 EOP가 올바르게 동기화 되는지 확인 해야 합니다. 이렇게 하려면 EAC에서 **받는 사람** \> **연락처**로 이동한 다음 온-프레미스 환경에서 사용자 목록이 올바르게 동기화되었는지 확인합니다.
     
 ## <a name="use-the-eac-to-manage-mail-users"></a>EAC를 사용하여 메일 사용자 관리
 
