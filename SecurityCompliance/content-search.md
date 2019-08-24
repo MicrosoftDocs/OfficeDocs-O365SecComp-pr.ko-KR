@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: cf1935b8ab4df80182739497f60adf5a2bc6a6d7
-ms.sourcegitcommit: 59039d3bf479c4b2c1d2e2556a0adc755f431a1f
+ms.openlocfilehash: 2fff94899dabca85338ba1ca924ec37afa1dccf3
+ms.sourcegitcommit: 873c5bc0e6cd1ca3dfdb3a99a5371353b419311f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473418"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493169"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -335,13 +335,13 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
 
 Exchange Online 라이선스(또는 전체 Office 365 라이선스)가 Office 365 또는 Azure Active Directory의 사용자 계정에서 제거된 경우, 사용자의 사서함은 *연결이 끊어진* 사서함이 됩니다. 즉, 사서함과 사용자 계정이 더 이상 연결되지 않습니다. 다음은 연결이 끊어진 사서함을 검색할 때 발생하는 사항입니다.
 
-- 사서함에서 라이선스가 제거되는 경우, 사서함이 30일 유예 기간으로 변경됩니다. 이 유예 기간 동안에도 콘텐츠 검색을 사용하여 사서함을 검색할 수 있습니다.
+- 사서함에서 라이선스가 제거되는 경우, 해당 사서함은 더 이상 검색할 수 없습니다. 
 
-- 30일 이내에 사서함에 라이선스가 다시 부여되지 않는 경우, 영구 삭제 대상으로 표시되고 다음에 사서함이 처리될 때 Office 365에서 제거됩니다. 사서함이 처리되는 시점에 따라, 30일 유예 기간이 만료된 후에 사서함을 검색할 수 있습니다. 사서함은 보통 7일마다 한 번씩 처리됩니다. 사서함이 처리되면 사서함이 제거되고 더 이상 검색할 수 없게 됩니다.
+- 기존 콘텐츠 검색에 라이선스가 제거된 사서함이 포함되어 있는 경우, 콘텐츠 검색을 다시 실행하면 연결이 끊어진 사서함의 검색 결과가 반환되지 않습니다.
 
-- 기존 콘텐츠 검색에 라이선스가 제거된 사용자 사서함이 포함되어 있는 경우, 30일 유예 기간이 만료될 때까지 검색을 다시 실행하면 연결이 끊어진 사서함이 포함됩니다. 유예 기간이 만료되고 사서함이 제거된 후에는 검색을 다시 실행할 때 더 이상 포함되지 않습니다.
+- **New-ComplianceSearch** cmdlet을 사용하여 콘텐츠 검색을 만들고 연결이 끊어진 사서함을 Exchange 콘텐츠 위치로 지정하여 검색한 경우 콘텐츠 검색에서 연결이 끊어진 사서함의 검색 결과를 반환하지 않습니다.
 
-- [Office 365의 다양한 유지 기능](identify-a-hold-on-an-exchange-online-mailbox.md)을 통해 보류 상태인 사서함에서 라이선스가 제거된 경우, 사서함이 무기한 보존되며 30일 유예 기간 이후에도 검색할 수 있습니다.
+검색이 가능할 수 있도록 연결이 끊어진 사서함에서 데이터를 보존해야 하는 경우 라이선스를 제거하기 전에 사서함을 보류 설정해야 합니다. 이렇게 하면 데이터가 보존되고 보류 설정이 해제될 때까지 연결이 끊어진 사서함이 검색 가능한 상태로 유지됩니다. 보류에 대한 자세한 내용은 [Exchange Online 사서함의 보류 유형을 식별하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md)을 참조하세요.
 
 ### <a name="previewing-search-results"></a>검색 결과 미리 보기
 
