@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-july-15-2019"></a>7 월 15 일 주 2019
-
-
-| 게시된 날짜 |항목 제목 | 변경 사항 |
-|------|------------|--------|
-| 7/16/2019 | [Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색](/Office365/SecurityCompliance/search-cloud-based-mailboxes-for-on-premises-users) | 수정한 날짜 |
-| 7/16/2019 | [보안 & 준수 센터에서 감사 로그 검색](/Office365/SecurityCompliance/search-the-audit-log-in-security-and-compliance) | 수정한 날짜 |
-| 7/16/2019 | [Set up Information Rights Management (IRM) in SharePoint admin center](/Office365/SecurityCompliance/set-up-irm-in-sp-admin-center) | 수정한 날짜 |
-| 7/16/2019 | [대상 모음에 Office 365의 콘텐츠 검색 사용](/Office365/SecurityCompliance/use-content-search-for-targeted-collections) | 수정한 날짜 |
-| 7/17/2019 | [보존 레이블 개요](/Office365/SecurityCompliance/labels) | 수정한 날짜 |
-| 7/17/2019 | [Office 365 SharePoint 데이터 복구](/Office365/SecurityCompliance/office-365-sharepoint-data-resiliency) | 수정한 날짜 |
-| 7/17/2019 | [보존 정책 개요](/Office365/SecurityCompliance/retention-policies) | 수정한 날짜 |
-| 7/17/2019 | Office 365 SharePoint 데이터 복구 | 제거 |
-| 7/18/2019 | [주요 정보 보안 담당자 (CISO) 워크숍, 모듈 3: Id 및 액세스 관리](/Office365/SecurityCompliance/ciso-workshop-module-3) | 수정한 날짜 |
-| 7/18/2019 | [최고 정보 보안 담당자 (CISO) 워크숍, 모듈 4a: 위협 방지 전략](/Office365/SecurityCompliance/ciso-workshop-module-4a) | 수정한 날짜 |
-| 7/18/2019 | [최고 정보 보안 담당자 (CISO) 워크숍, 모듈 4b: 위협 보호 전략](/Office365/SecurityCompliance/ciso-workshop-module-4b) | 수정한 날짜 |
-| 7/18/2019 | [주요 정보 보안 담당자 (CISO) 워크숍, 모듈 5: 정보 보호](/Office365/SecurityCompliance/ciso-workshop-module-5) | 수정한 날짜 |
-| 7/18/2019 | [Microsoft 준수 관리자 및 GDPR](/Office365/SecurityCompliance/compliance-manager-and-the-gdpr) | 수정한 날짜 |
-| 7/18/2019 | [Microsoft 준수 관리자 개요](/Office365/SecurityCompliance/compliance-manager-overview) | 수정한 날짜 |
-| 7/18/2019 | [규정 준수 점수 방법론](/Office365/SecurityCompliance/compliance-score-methodology) | 수정한 날짜 |
-| 7/18/2019 | [Office 365 고객 Lockbox 요청](/Office365/SecurityCompliance/customer-lockbox-requests) | 수정한 날짜 |
-| 7/18/2019 | [Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족](/Office365/SecurityCompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud) | 수정한 날짜 |
-| 7/18/2019 | [Office 365의 데이터 복구](/Office365/SecurityCompliance/office-365-data-resiliency-overview) | 수정한 날짜 |
-| 7/18/2019 | [데이터 손상을 다루는 Office 365](/Office365/SecurityCompliance/office-365-dealing-with-data-corruption) | 수정한 날짜 |
-| 7/18/2019 | [서비스 거부 공격에 대해 클라우드 서비스를 방어 하는 Office 365](/Office365/SecurityCompliance/office-365-defending-cloud-services-against-dos-attacks) | 수정한 날짜 |
-| 7/18/2019 | [Office 365 Exchange 데이터 복구](/Office365/SecurityCompliance/office-365-exchange-data-resiliency) | 수정한 날짜 |
-| 7/18/2019 | [Office 365 Exchange Online 데이터 삭제](/Office365/SecurityCompliance/office-365-exchange-online-data-deletion) | 수정한 날짜 |
-| 7/18/2019 | [암호화 된 메시지에 조직 브랜드 추가](/Office365/SecurityCompliance/add-your-organization-brand-to-encrypted-messages) | 수정한 날짜 |
-| 7/18/2019 | [Advanced eDiscovery에서 보류 관리](/Office365/SecurityCompliance/compliance20/managing-holds) | 수정한 날짜 |
-| 7/18/2019 | [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](/Office365/SecurityCompliance/define-mail-flow-rules-to-encrypt-email) | 수정한 날짜 |
-| 7/18/2019 | [Office 365의 암호화](/Office365/SecurityCompliance/encryption) | 수정한 날짜 |
-| 7/18/2019 | [Office Online Server 및 Office Web Apps Server GDPR](/Office365/SecurityCompliance/gdpr-for-office-online-server) | 수정한 날짜 |
-| 7/18/2019 | [사용자에 게 Office 365 보안 & 준수 센터에 대 한 액세스 권한 부여](/Office365/SecurityCompliance/grant-access-to-the-security-and-compliance-center) | 수정한 날짜 |
-| 7/18/2019 | [Office 365 ATP 안전한 링크가 작동 하는 방식](/Office365/SecurityCompliance/how-atp-safe-links-works) | 수정한 날짜 |
-| 7/18/2019 | [격리된 SharePoint Online 팀 사이트 개발/테스트 환경](/Office365/SecurityCompliance/isolated-sharepoint-online-team-site-dev-test-environment) | 수정한 날짜 |
-| 7/18/2019 | [Set up Information Rights Management (IRM) in SharePoint admin center](/Office365/SecurityCompliance/set-up-irm-in-sp-admin-center) | 수정한 날짜 |
-| 7/18/2019 | [새로운 Office 365 메시지 암호화 기능 설정](/Office365/SecurityCompliance/set-up-new-message-encryption-capabilities) | 수정한 날짜 |
-| 7/18/2019 | [Advanced eDiscovery에서 대화 검토](/Office365/SecurityCompliance/compliance20/conversation-review-sets) | 수정한 날짜 |
-
-
 ## <a name="week-of-july-22-2019"></a>7 월 22 일 주 2019
 
 
@@ -218,3 +178,41 @@
 | 8/16/2019 | [위협 탐색기 및 실시간 검색, 위협 탐색기에 대 한 새로운 기능, Office 365, 보안, 클라우드 보안, 새로운 기능의 신규 보안, 새로운 ATP 기능의 변경 사항](/Office365/SecurityCompliance/threat-explorer) | 수정한 날짜 |
 | 8/16/2019 | [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](/Office365/SecurityCompliance/keyword-queries-and-search-conditions) | 수정한 날짜 |
 | 8/16/2019 | [외부 사용자와 공유된 리소스를 찾기 위한 감사 공유](/Office365/SecurityCompliance/use-sharing-auditing) | 수정한 날짜 |
+
+
+## <a name="week-of-august-19-2019"></a>8 월 19 일 주 2019
+
+
+| 게시된 날짜 |항목 제목 | 변경 사항 |
+|------|------------|--------|
+| 8/19/2019 | [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](/Office365/SecurityCompliance/keyword-queries-and-search-conditions) | 수정한 날짜 |
+| 8/19/2019 | [Office 365에서 파트너와 협력 하 여 타사 데이터 보관](/Office365/SecurityCompliance/work-with-partner-to-archive-third-party-data) | 수정한 날짜 |
+| 8/20/2019 | [Office 365의 콘텐츠 검색](/Office365/SecurityCompliance/content-search) | 수정한 날짜 |
+| 8/20/2019 | [Office 365에서 파트너와 협력 하 여 타사 데이터 보관](/Office365/SecurityCompliance/work-with-partner-to-archive-third-party-data) | 수정한 날짜 |
+| 8/20/2019 | Office 365 위협 조사 및 응답을 시작 합니다. | 제거 |
+| 8/20/2019 | [Office 365 위협 조사 및 응답](/Office365/SecurityCompliance/office-365-ti) | 수정한 날짜 |
+| 8/20/2019 | [콘텐츠 검색에 대한 권한 필터링 구성](/Office365/SecurityCompliance/permissions-filtering-for-content-search) | 수정한 날짜 |
+| 8/20/2019 | [Office 365 사용자에 게 Office 365 위협 조사 및 응답 기능을 안전 하 게 유지](/Office365/SecurityCompliance/keep-users-safe-with-office-365-ti) | 수정한 날짜 |
+| 8/20/2019 | [보안 & 준수 센터 PowerShell에서 사용자 지정 중요 한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type-in-scc-powershell) | 수정한 날짜 |
+| 8/20/2019 | [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](/Office365/SecurityCompliance/create-a-custom-sensitive-information-type) | 수정한 날짜 |
+| 8/20/2019 | [정확히 일치 하는 데이터를 사용 하 여 사용자 지정 중요 한 정보 유형 만들기](/Office365/SecurityCompliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification) | 수정한 날짜 |
+| 8/20/2019 | [기본 제공 중요한 정보 유형 사용자 지정](/Office365/SecurityCompliance/customize-a-built-in-sensitive-information-type) | 수정한 날짜 |
+| 8/20/2019 | [데이터 손실 방지 개요](/Office365/SecurityCompliance/data-loss-prevention-policies) | 수정한 날짜 |
+| 8/20/2019 | [데이터 손실 방지 및 Microsoft 팀](/Office365/SecurityCompliance/dlp-microsoft-teams) | 수정한 날짜 |
+| 8/20/2019 | [중요한 정보 형식이 찾는 항목](/Office365/SecurityCompliance/what-the-sensitive-information-types-look-for) | 수정한 날짜 |
+| 8/20/2019 | [Office 365 위협 조사 및 응답 기능을 사용 하 여 조직을 안전 하 게 유지](/Office365/SecurityCompliance/keep-users-safe-with-office-365-ti) | 수정한 날짜 |
+| 8/21/2019 | [Office 365의 데이터 복구](/Office365/SecurityCompliance/office-365-data-resiliency-overview) | 수정한 날짜 |
+| 8/21/2019 | [데이터를 처리할 때 오류 수정](/Office365/SecurityCompliance/compliance20/error-remediation) | 수정한 날짜 |
+| 8/21/2019 | [조사를 위해 데이터를 처리할 때의 오류 수정](/Office365/SecurityCompliance/datainvestigations/error-remediation) | 수정한 날짜 |
+| 8/21/2019 | [EU 국가 식별 번호](/Office365/SecurityCompliance/eu-national-identification-number) | 수정한 날짜 |
+| 8/21/2019 | [조직의 감독 정책 구성](/Office365/SecurityCompliance/configure-supervision-policies) | 수정한 날짜 |
+| 8/21/2019 | [Office 365의 감독 정책](/Office365/SecurityCompliance/supervision-policies) | 수정한 날짜 |
+| 8/21/2019 | [Office 365의 콘텐츠 검색](/Office365/SecurityCompliance/content-search) | 수정한 날짜 |
+| 8/21/2019 | [Exchange Online 사서함의 보류 유형을 식별하는 방법](/Office365/SecurityCompliance/identify-a-hold-on-an-exchange-online-mailbox) | 수정한 날짜 |
+| 8/22/2019 | [Office 365, TIMailData-Inline, Security 인시던트, 인시던트, ATP Powershell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 읽기 전자 메일 머리글, 읽기 헤더, 공개 전자 메일 헤더에 제공 되는 악성 전자 메일을 찾고 조사 합니다.](/Office365/SecurityCompliance/investigate-malicious-email-that-was-delivered) | 수정한 날짜 |
+| 8/22/2019 | [Office 365 위협 조사 및 응답](/Office365/SecurityCompliance/office-365-ti) | 수정한 날짜 |
+| 8/22/2019 | [Exchange Online Protection 개요](/Office365/SecurityCompliance/eop/exchange-online-protection-overview) | 수정한 날짜 |
+| 8/23/2019 | [대량 불만 수준 값, 대량 메일, BCL 수준, BCL works, BCL 등급, 스팸 방지, 스팸 방지 헤더, 대량 메일 필터링, 대량 메일 중지](/Office365/SecurityCompliance/bulk-complaint-level-values) | 수정한 날짜 |
+| 8/23/2019 | [EOP에서 메일 사용자 관리](/Office365/SecurityCompliance/eop/manage-mail-users-in-eop) | 수정한 날짜 |
+| 8/23/2019 | [Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고](/Office365/SecurityCompliance/use-spam-notifications-to-release-and-report-quarantined-messages) | 수정한 날짜 |
+| 8/23/2019 | [Exchange Online Protection 개요](/Office365/SecurityCompliance/eop/exchange-online-protection-overview) | 수정한 날짜 |
