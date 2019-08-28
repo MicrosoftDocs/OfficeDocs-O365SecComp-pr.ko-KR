@@ -1,7 +1,7 @@
 ---
 title: Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족
-ms.author: robmazz
-author: robmazz
+ms.author: chvukosw
+author: chvukosw
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
-ms.openlocfilehash: 1c3bf4db5c2e1eabd431bc4d799c46ba8f41e97e
-ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
+ms.openlocfilehash: 6a06d69456ed1d42497f1d9f377252b079c6daba
+ms.sourcegitcommit: 1947ad3c0dde9163ba9b6834d8b38bd04b4264a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35786713"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36643320"
 ---
 # <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족
 
