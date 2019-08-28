@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: fb173dd09adf02c1b2eb7d0dbf9d5736483f231b
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 3c5efb1d832a52c6b6b5eb9cfb81ece216c64513
+ms.sourcegitcommit: 1947ad3c0dde9163ba9b6834d8b38bd04b4264a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35601015"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36643260"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -23,6 +23,9 @@ ms.locfileid: "35601015"
 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직에서 이동 하는 전자 메일 메시지를 따릅니다. 서비스가 메시지를 수신, 거부, 지연 또는 배달 했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달 하기 전에 메시지에 대해 수행 된 작업을 보여 줍니다.
 
 보안 & 준수 센터의 메시지 추적은 EAC (Exchange 관리 센터)에서 사용 가능 했던 메시지 추적에 대 한 개선 사항입니다. 메시지 추적의 정보를 사용 하 여 메시지에 발생 한 상황에 대 한 사용자 질문을 효율적으로 응답 하 고, 메일 흐름 문제를 해결 하 고, 정책 변경을 확인할 수 있습니다.
+
+> [!NOTE]
+>  메시지 수가 50 000에서 중지 되 고 보고서에는 콘솔의이 크기 까지만 반영 됩니다. PowerShell cmdlet Get-historicalsearch cmdlet은 true 메시지 수를 표시 합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 
@@ -317,7 +320,7 @@ ms.locfileid: "35601015"
 
 - **custom_data**: 특정 이벤트 유형과 관련 된 데이터를 포함 합니다. 자세한 내용은 다음 섹션을 참조 하십시오.
 
-#### <a name="customdata-values"></a>custom_data 값
+#### <a name="custom_data-values"></a>custom_data 값
 
 이벤트의 custom_data 필드는 다양 한 Exchange Online 에이전트에서 메시지 처리 정보를 기록 하는 데 사용 됩니다. **** `AGENTINFO` 다음 섹션에서는 보다 흥미로운 에이전트 중 일부에 대해 설명 합니다.
 

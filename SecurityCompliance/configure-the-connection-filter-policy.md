@@ -1,9 +1,9 @@
 ---
-title: 연결 필터 정책 구성
+title: 연결 필터 정책, 허용 목록, 차단 목록 구성
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 10/24/2018
+ms.date: 8/27/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,18 +14,25 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만듭니다. 수신 거부 목록도 만들 수 있습니다.
-ms.openlocfilehash: 8589f7d714199414e7c5177ff227859da50e3e06
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: a3d9703bc90c0bc1000c2aa755451ffc2cb7d060
+ms.sourcegitcommit: 1947ad3c0dde9163ba9b6834d8b38bd04b4264a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600094"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "36643220"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
  
 누구에게나 대부분 신뢰할 수 있는 친구와 비즈니스 파트너가 있습니다. 그리고 이러한 사용자들로부터 받은 전자 메일이 스팸 메일 폴더로 가거나 스팸 필터를 통해 완전히 차단되는 난처한 경우가 생길 수 있습니다. 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만들 수 있습니다. 그리고 앞으로는 전자 메일 메시지를 받지 않을 IP 주소 목록(대개 알려진 스패머의 주소로 구성)인 수신 거부 목록도 만들 수 있습니다.
   
+- *[허용 목록](create-safe-sender-lists-in-office-365.md)* 에 대해 생각 하는 경우 연결 필터 정책에 따라 필터에서 허용 하는 *신뢰할 수 있는 계정을* 사용 하는 것이 중요 합니다. 이 작업은 신뢰할 수 없거나 신뢰할 수 없는 우편물을 보다 정확 하 게 필터링 하기 위해 필요 합니다. 연결 필터 정책 허용 목록은 훨씬 더 큰 계정 및 Ip 풀에서 몇 가지 신뢰할 수 있는 Ip로 필터링 하 고 신뢰할 수 있는 메일 사용이 쉬운 액세스를 보장 하는 것입니다.
+
+- 차단 목록을 만드는 연결 필터 정책에는 대신, 필터에서 더 적은 수의 계정 또는 신뢰 되지 않는 계정이 표시 됩니다.
+
  [전체 조직에 적용되는 추가 스팸 설정은 메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224) 또는 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](https://go.microsoft.com/fwlink/p/?LinkId=534225)를 참조하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
+
+> [!TIP]
+> [허용-(또는 안전한 보낸 사람)](create-safe-sender-lists-in-office-365.md) 및 [차단 목록을](create-block-sender-lists-in-office-365.md)만드는 방법을 일시 중지 하 고 확인할 수 있습니다.
   
 다음 비디오에서는 연결 필터 정책의 구성 단계를 보여 줍니다.
   
