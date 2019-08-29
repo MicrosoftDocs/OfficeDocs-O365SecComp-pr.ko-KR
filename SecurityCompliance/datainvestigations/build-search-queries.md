@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365에서 데이터 조사를 사용할 때 데이터를 검색할 때 키워드와 조건을 사용 하 여 검색 범위를 좁힐 수 있습니다.
-ms.openlocfilehash: 6d6c7e99257d071595365ec9a9557892fe3fe8db
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 913306ff488d9cf2ba715c26eaa49f6f8e1473aa
+ms.sourcegitcommit: 3962de88a143f0eb416b5cfdfd777d731f560ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34151060"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36649943"
 ---
 # <a name="build-search-queries"></a>검색 쿼리 작성
 

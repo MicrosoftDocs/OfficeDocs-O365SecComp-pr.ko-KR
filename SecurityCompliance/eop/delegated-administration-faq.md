@@ -3,19 +3,19 @@ title: 위임된 관리 FAQ
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 12/9/2016
+ms.date: 8/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: 이 항목에서는 다른 테넌트(회사)에 대한 EOP(Exchange Online Protection)를 관리하는 능력을 비롯하여 위임 받은 Office 365 관리 작업을 수행하려는 Microsoft 파트너 및 리셀러를 위한 질문과 답변이 제공됩니다.
-ms.openlocfilehash: 0121c0a50e7f3ef7e5ab918a69efbd9ed609413e
-ms.sourcegitcommit: 6122eb026c558a5126c40845e656fbb0c40cb32a
+ms.openlocfilehash: 6de70859c7bcb5e735be8f29684c7fcd731f6ed5
+ms.sourcegitcommit: 73f1db241c0686020167d43442e7b07a2199ea3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36165644"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36658114"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 
@@ -26,12 +26,12 @@ ms.locfileid: "36165644"
 대답. Microsoft 파트너 또는 대리점이 고 Microsoft advisor에 등록 한 경우 관리 센터에서 테 넌 트를 관리 하는 권한을 요청할 수 있습니다. 이를 위임된 관리하고 하며, 이를 통해 조직의 관리자처럼 Office 365 테넌트(EOP 설정 포함)를 관리할 수 있습니다. 위임된 관리를 수행하는 단계는 다음과 같습니다.
   
 1. [Microsoft Office 365 관리자](https://aka.ms/cloudbenefits)로 등록합니다.
-    
-2. Office 365 위임된 관리에 등록합니다. 고객의 계정을 관리할 수 있으려면 위임된 관리자로서 승인을 받아야 합니다. 승인을 받으려면 먼저 [위임된 관리를 위한 제안을 고객에게 보냅니다](https://go.microsoft.com/fwlink/?LinkId=396829). 나중에 고객에게 위임된 관리를 제안할 수도 있습니다. 
-    
-3. 위임 된 관리자 계정을 만듭니다.
-    
-Office 365 위임된 관리 설정 방법에 대한 자세한 내용은 [파트너: 비즈니스 창출 및 Office 365 파트너 계정 관리](https://go.microsoft.com/fwlink/?LinkId=301485) 를 참조하세요. 
+
+2. Office 365 위임된 관리에 등록합니다. 고객의 계정을 관리할 수 있으려면 위임된 관리자로서 승인을 받아야 합니다. 승인을 받으려면 먼저 [위임된 관리를 위한 제안을 고객에게 보냅니다](https://go.microsoft.com/fwlink/?LinkId=396829). 나중에 고객에게 위임된 관리를 제안할 수도 있습니다.
+
+3. 위임 된 [관리 추가 또는 삭제](https://go.microsoft.com/fwlink/?LinkId=396831)의 단계를 사용 하 여 위임 된 관리자 계정을 만듭니다.
+
+Office 365 위임된 관리 설정 방법에 대한 자세한 내용은 [파트너: 비즈니스 창출 및 Office 365 파트너 계정 관리](https://go.microsoft.com/fwlink/?LinkId=301485) 를 참조하세요.
   
  **Q. 저는 재판매인이 아니라 고객입니다. 하위 테넌트를 위해 위임된 관리를 설정하려면 어떻게 합니까?**
   
@@ -43,6 +43,4 @@ A. Office 365는 현재 이 기능을 지원하지 않습니다.
   
  **Q. 모든 하위 테넌트의 보고를 통합하려면 어떻게 합니까?**
   
-A. 관리 하는 회사 전체의 통합 보고 기능은 현재 Micrsoft 365 관리 센터 보고서에서 사용할 수 없습니다. 그렇지만 원격 Windows PowerShell 또는 [보고 웹 서비스](https://go.microsoft.com/fwlink/?LinkId=279926)를 통해서는 이 작업을 수행할 수 있습니다. 
-  
-
+A. 지금 Microsoft 365 관리 센터 보고서에 대해 관리 하는 회사 전체의 통합 보고 기능을 사용할 수 없습니다. 그러나 원격 Windows PowerShell 또는 [보고 웹 서비스](https://go.microsoft.com/fwlink/?LinkId=279926)를 사용 하 여이 작업을 수행할 수 있습니다.

@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화를 사용하여 조직에 대한 중요한
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/30/2019
+ms.date: 8/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: '요약: 중요 한 정보 유형에 대 한 Office 365 메시지 암호화 정책'
-ms.openlocfilehash: 44966303ec7c58fdd82f733e1922073de848cf73
-ms.sourcegitcommit: 865b3dc071150b20bf3967e1263fc54e75898284
+ms.openlocfilehash: d74712798ba9d46614b5fc916e4b1ce111582304
+ms.sourcegitcommit: 73f1db241c0686020167d43442e7b07a2199ea3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33834837"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36658124"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-office-365-message-encryption"></a>Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
 
@@ -47,9 +47,11 @@ PowerShell에서 다음 명령을 실행 하 여 전자 메일 또는 첨부 파
 - 미국 SSN(사회 보험 번호)
 
 ```powershell
-Set-IRMConfiguration -DecryptAttachmentsForEncryptOnly $true
+Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
 New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -SentToScope  NotInOrganization  -ApplyRightsProtectionTemplate "Encrypt" -MessageContainsDataClassifications @(@{Name="ABA Routing Number"; minCount="1"},@{Name="Credit Card Number"; minCount="1"},@{Name="Drug Enforcement Agency (DEA) Number"; minCount="1"},@{Name="U.S. / U.K. Passport Number"; minCount="1"},@{Name="U.S. Bank Account Number"; minCount="1"},@{Name="U.S. Individual Taxpayer Identification Number (ITIN)"; minCount="1"},@{Name="U.S. Social Security Number (SSN)"; minCount="1"}) -SenderNotificationType "NotifyOnly"
 ```
+
+자세한 내용은 [설정-IRMConfiguration](https://docs.microsoft.com/en-us/powershell/module/exchange/encryption-and-certificates/set-irmconfiguration?view=exchange-ps) 및 [new-transportrule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance/New-TransportRule?view=exchange-ps)를 참조 하세요.
 
 ## <a name="how-recipients-access-attachments"></a>받는 사람이 첨부 파일에 액세스 하는 방법
 
@@ -64,7 +66,7 @@ Office 365에서 메시지를 암호화 한 후에는 받는 사람이 암호화
 
 ## <a name="view-these-changes-in-the-audit-log"></a>감사 로그에서 이러한 변경 내용을 확인 합니다.
 
-Office 365에서이 활동을 감사 하 고 Office 365 관리자가 사용할 수 있도록 합니다. 이 작업은 ' New-New-transportrule ' 이며, 보안 & 준수 센터의 감사 로그 검색의 예제 감사 항목의 코드 조각이 아래에 있습니다.
+Office 365에서이 활동을 감사 하 고 Office 365 관리자가 사용할 수 있도록 합니다. 이 작업은 ' New-New-transportrule ' 이며 보안 & 준수 센터의 감사 로그 검색에서 사용 하는 예제 감사 항목의 코드 조각이 아래에 있습니다.
 
 ```text
 *{"CreationTime":"2018-11-28T23:35:01","Id":"a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c","Operation":"New-TransportRule","OrganizationId":"123456-221d-12345 ","RecordType":1,"ResultStatus":"True","UserKey":"Microsoft Operator","UserType":3,"Version":1,"Workload":"Exchange","ClientIP":"123.456.147.68:17584","ObjectId":"","UserId":"Microsoft Operator","ExternalAccess":true,"OrganizationName":"contoso.onmicrosoft.com","OriginatingServer":"CY4PR13MBXXXX (15.20.1382.008)","Parameters": {"Name":"Organization","Value":"123456-221d-12346"{"Name":"ApplyRightsProtectionTemplate","Value":"Encrypt"},{"Name":"Name","Value":"Encrypt outbound sensitive emails (out of box rule)"},{"Name":"MessageContainsDataClassifications”…etc.*

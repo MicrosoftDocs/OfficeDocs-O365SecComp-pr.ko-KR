@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: af0efa2711215946930c091fc7c38cc1b9f575fd
-ms.sourcegitcommit: f0d23e57b00f07cef5b1b2d366eaeeeacda37e3e
+ms.openlocfilehash: e41b28972dc2ada5c0591de0e73c04ea3306e039
+ms.sourcegitcommit: 3962de88a143f0eb416b5cfdfd777d731f560ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35786653"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36649963"
 ---
 # <a name="microsoft-compliance-manager-and-the-gdpr"></a>Microsoft 준수 관리자 및 GDPR
 
@@ -40,7 +40,7 @@ ms.locfileid: "35786653"
 
 2. 사용자 이름을 올바르게 입력 한 경우 **검색**을 선택 합니다.
 
-3. 사용자 계정이 반환 되지 않은 경우 페이지에 ' 사용자를 찾을 수 없습니다. '가 표시 됩니다. 사용자의 전자 메일 주소 정보를 확인 하 고 필요에 따라 수정 합니다. 다시 시도 하려면 **검색**을 선택 합니다.
+3. 사용자 계정이 반환 되지 않은 경우 페이지에 **사용자가 없는 것**으로 표시 됩니다. 사용자의 전자 메일 주소 정보를 확인 하 고 필요에 따라 수정 합니다. 다시 시도 하려면 **검색**을 선택 합니다.
 
 4. 사용자 계정이 반환 되 면 단추의 텍스트가 **검색** 에서 **지우기**로 변경 됩니다. 이는 반환 된 사용자 계정이 추가 기능의 운영 컨텍스트가 고 해당 함수가이 사용자 계정에 적용 됨을 나타냅니다.
 

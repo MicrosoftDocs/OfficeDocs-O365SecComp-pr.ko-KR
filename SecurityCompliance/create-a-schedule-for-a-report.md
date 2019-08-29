@@ -3,7 +3,7 @@ title: 보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/1/2018
+ms.date: 08/28/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: cd7856a55f6d3442d96941012d5d06bf93c3d9d7
-ms.sourcegitcommit: 0d5a863f48914eeaaf29f7d2a2022618de186247
+ms.openlocfilehash: 41831116d98ef7ea430387f1402f572ab6b35443
+ms.sourcegitcommit: 73f1db241c0686020167d43442e7b07a2199ea3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34077604"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36658091"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 
@@ -33,11 +33,29 @@ ms.locfileid: "34077604"
   
 1. [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드로**이동 합니다.
     
-2. 보고서를 선택 합니다. 이 예에서는 위협 방지 상태 보고서를 선택 합니다.
+2. 다음 보고서 중 하나를 선택 합니다. 
+
+    - DLP 정책 일치 항목
+    - Exchange 전송 규칙
+    - DLP 가양성 및 재정의
+    - Office 365 ATP 파일 형식
+    - Office 365 ATP 메시지 처리
+    - 전자 메일에서 발견 된 맬웨어
+    - 주요 맬웨어
+    - 상위 보낸 사람 및 받는 사람
+    - 스푸핑 감지
+    - 스팸 감지
+    - 보내고 받은 전자 메일
+    - DLP 인시던트
+    - 암호화 보고서
+
+    이 예에서는 Advanced Threat Protection 파일 형식 보고서를 선택 합니다.
     
-3. 보고서의 왼쪽 위 모서리에서 **+ 일정 만들기**를 선택 합니다.
+3. 보고서의 왼쪽 위 모서리에서 **+ 일정 만들기**를 선택 합니다. 
     
-    ![보안 &amp; 및 준수 센터에서 보고서 일정을 만들 수 있습니다.](media/2311327c-14f6-4a17-b604-0c9ff2d485d1.png)
+    ![일정 만들기](media/atpfiletypes-createschedule.png)
+
+    (참고: 모든 보고서에 **+ 일정 만들기** 단추가 있는 것은 아닙니다.)
   
     **일정 만들기** 대화 상자가 열립니다. 
     

@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
-description: 사서함 감사 로깅은 기본적으로 Microsoft 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 7b50885379b7843ea1c602f08dc2976d5007d8ca
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
+ms.openlocfilehash: 049b9fe79ae3389e09fb07017fd2deb810640f35
+ms.sourcegitcommit: 3962de88a143f0eb416b5cfdfd777d731f560ec8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599924"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36649913"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
-2019 년 1 월부터 Microsoft가 모든 Microsoft 365 조 직에 대해 기본적으로 사서함 감사 로깅을 설정 하 고 있습니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 자동으로 기록 되며, 사서함 감사 로그에서 해당 사서함을 검색할 때 이러한 레코드를 사용할 수 있게 됩니다. 사서함 감사를 기본적으로 설정 하기 전에 조직의 모든 사용자 사서함에 대해이 기능을 수동으로 사용 하도록 설정 해야 했습니다.
+1 월 2019 부터는 Microsoft에서 모든 Office 365 조직에 대해 기본적으로 사서함 감사 로깅을 설정 하 고 있습니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 자동으로 기록 되며, 사서함 감사 로그에서 해당 사서함을 검색할 때 이러한 레코드를 사용할 수 있게 됩니다. 사서함 감사를 기본적으로 설정 하기 전에 조직의 모든 사용자 사서함에 대해이 기능을 수동으로 사용 하도록 설정 해야 했습니다.
 
 아래에는 기본적으로 사서함을 감사 하는 몇 가지 이점이 있습니다.
 
@@ -36,8 +36,8 @@ ms.locfileid: "35599924"
 
 - 모든 사서함에 대해 동일한 작업을 감사 하 고 있으므로 조직 전체에 일관 된 사서함 감사 정책이 있습니다.
 
-> [!TIP]
-> 기본적으로 사서함 감사 릴리스를 고려해 야 할 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오.
+> [!NOTE]
+>• 기본적으로 사서함 감사 릴리스를 고려해 야 하는 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리 하기 위해 별도의 작업을 수행할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>• 기본적으로 사서함 감사가 설정 된 경우에도 일부 사용자에 대 한 사서함 감사 이벤트가 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 검색 되지 않는 것을 확인할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>기본적으로 사서함 감사가 설정 되어 있는지 확인
 
@@ -334,7 +334,23 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
 ## <a name="more-information"></a>추가 정보
 
-- 기본적으로 사서함 감사 로그 레코드는 삭제 되기 전에 90 일 동안 보존 됩니다. Exchange Online PowerShell에서 **설정 된 사서함** Cmdlet의 *Auditlogagelimit* 매개 변수를 사용 하 여 감사 로그 레코드의 보존 기간을 변경할 수 있습니다. 그러나이 값을 높이면 Microsoft 365 감사 로그에서 90 일 보다 오래 된 이벤트를 검색할 수 없습니다.
+- E5 라이선스가 있는 사용자 또는 사서함 감사 로깅이 관리자가 수동으로 사용 하도록 설정한 사서함은 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색에 사서함 감사 로그 이벤트를 반환 합니다.
+
+  E5 라이선스를 사용 하지 않고 사용자에 대 한 사서함 감사 로그 항목을 검색 하려면 다음을 수행할 수 있습니다.
+
+  - Exchange Online PowerShell에서 다음 cmdlet을 사용 합니다.
+
+    - [검색-search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) 에서 특정 사용자에 대 한 사서함 감사 로그를 검색 합니다.
+
+    - [New-mailboxauditlogsearch를 사용](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/new-mailboxauditlogsearch) 하 여 특정 사용자에 대 한 사서함 감사 로그를 검색 하 고 지정 된 받는 사람에 게 전자 메일을 통해 전송 되는 결과를 포함 합니다.
+
+  - Exchange Online의 EAC (Exchange 관리 센터)를 사용 하 여 다음을 수행 합니다.
+
+    - [사서함 감사 로그 내보내기](https://docs.microsoft.com/Exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
+
+    - [비 소유자 사서함 액세스 보고서 실행](https://docs.microsoft.com/Exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
+
+- 기본적으로 사서함 감사 로그 레코드는 삭제 되기 전에 90 일 동안 보존 됩니다. Exchange Online PowerShell에서 **설정 된 사서함** Cmdlet의 *Auditlogagelimit* 매개 변수를 사용 하 여 감사 로그 레코드의 보존 기간을 변경할 수 있습니다. 그러나이 값을 높이면 Office 365 감사 로그에서 90 일 보다 오래 된 이벤트를 검색할 수 없습니다.
 
   보존 기간을 늘릴 경우 Exchange Online PowerShell에서 [search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) cmdlet을 사용 하 여 사용자의 사서함 감사 로그에서 90 일 보다 오래 된 레코드를 검색 해야 합니다.
 
@@ -361,6 +377,6 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
       Get-MailboxFolderStatistics -Identity <MailboxIdentity> -FolderScope RecoverableItems | Where-Object {$_.Name -eq 'Audits'} | Format-List FolderPath,FolderSize,ItemsInFolder
       ```
 
-    - 복구 가능한 항목 폴더의 감사 로그 레코드에 직접 액세스할 수는 없습니다. 대신 **search-mailboxauditlog** cmdlet을 사용 하거나 Microsoft 365 감사 로그를 검색 하 여 사서함 감사 레코드를 찾아서 확인 합니다.
+    - 복구 가능한 항목 폴더의 감사 로그 레코드에 직접 액세스할 수는 없습니다. 대신 **search-mailboxauditlog** cmdlet을 사용 하거나 Office 365 감사 로그를 검색 하 여 사서함 감사 레코드를 찾아서 확인 합니다.
 
 - 사서함이 보류 중이거나 준수 센터의 보존 정책에 할당 된 경우에는 사서함의 *Auditlogagelimit* 속성에 정의 된 기간 동안 감사 로그 레코드가 여전히 보존 됩니다 (기본적으로 90 days). 보류 중인 사서함에 대해 감사 로그 레코드를 더 오랫동안 보존 하려면 사서함의 *Auditlogagelimit* 값을 늘려야 합니다.
