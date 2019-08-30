@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: 44c157b8f155755c6a48830231074643a830f498
-ms.sourcegitcommit: 226adb6d05015da16138b315dd2f5b937bf4354d
+ms.openlocfilehash: abca7624cb5aa97c85686fc570a653c88b6b8b6b
+ms.sourcegitcommit: d55dab629ce1f8431b8370afde4131498dfc7471
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36302427"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675449"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -233,7 +233,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
   
 - **Region** 매개 변수는 Exchange 사서함의 검색을 제어 하지 않습니다. 사서함을 검색할 때 모든 데이터 센터가 검색 됩니다. Exchange 사서함을 검색할 수 있는 범위를 제한 하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용 합니다. 
     
-- EDiscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우 검색 권한 필터에 사용할 수 있는 다른 사용자 계정을 사용 하 여 SharePoint가 있는 대체 지역을 지정 해야 합니다. 사이트 또는 OneDrive 계정이 있습니다.
+- EDiscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우에는 검색 권한 필터에 사용할 수 있는 다른 사용자 계정을 만들어 SharePoint 사이트가 있는 지역을 지정 해야 합니다. OneDrive 계정이 있습니다. 이를 설정 하는 방법에 대 한 자세한 내용은 [Office 365의 콘텐츠 검색](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment)에서 "SharePoint 다중 지리적 환경에서 콘텐츠 검색" 섹션을 참조 하세요.
     
 - SharePoint 및 OneDrive에서 콘텐츠를 검색할 때 **Region** 매개 변수는 ediscovery 관리자가 ediscovery 조사를 수행 하는 기본 또는 위성 위치를 검색 하도록 지시 합니다. EDiscovery 관리자가 SharePoint 및 OneDrive 사이트 검색 사용 권한 필터에 지정 된 지역 외부를 검색 하는 경우 검색 결과가 반환 되지 않습니다. 
     
