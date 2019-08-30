@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 049b9fe79ae3389e09fb07017fd2deb810640f35
-ms.sourcegitcommit: 3962de88a143f0eb416b5cfdfd777d731f560ec8
+ms.openlocfilehash: 50be60e3ca863c6625693c1b4debce1217571002
+ms.sourcegitcommit: 361aab46b1bb295ed2dcc1a417ac81f699b8ff78
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36649913"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "36676868"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -88,7 +88,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 
     - Exchange Online의 원본 위치 eDiscovery
 
-  - [Microsoft Exchange SERVER MAPI 편집기](https://go.microsoft.com/fwlink/p/?linkId=204086)를 사용 하 여 사서함에 액세스 합니다.
+  - Microsoft Exchange Server MAPI 편집기를 사용 하 여 사서함에 액세스 합니다.
 
 ### <a name="mailbox-actions-for-user-mailboxes-and-shared-mailboxes"></a>사용자 사서함 및 공유 사서함에 대 한 사서함 작업
 

@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 5e6ece4358362a3b32ad3b8b0b30f923e6d872cb
-ms.sourcegitcommit: 82ee560bf3ac84079764cbb4a2d858c321f65145
+ms.openlocfilehash: 7ec9b2d171e4ddbe8a923161e503bb813dfc6813
+ms.sourcegitcommit: d55dab629ce1f8431b8370afde4131498dfc7471
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35840890"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675459"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -237,7 +237,7 @@ Azure Information Protection 레이블을 사용하는 경우 마이그레이션
 민감도 레이블이 WIP를 사용하려면, [Windows Information Protection이 민감도 레이블이 지정된 파일을 보호하는 방법](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)에 설명된 필수 구성 요소를 수행해야 합니다. 이 항목에서는 다음과 같은 필수 구성 요소에 대해 설명합니다.
 
 - Windows 10, 버전 1809 이상을 실행 중인지 확인합니다.
-- [Microsoft Defender ATP(Microsoft Defender Advanced Threat Protection) 설정](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/get-started)는 콘텐츠에서 레이블을 검색하고 해당 WIP 보호를 적용합니다. ATP는 WIP와 독립적으로 이상 보고와 같은 일부 작업을 수행합니다.
+- [Microsoft Defender ATP(Microsoft Defender Advanced Threat Protection) 설정](https://docs.microsoft.com/windows/security/threat-protection/)는 콘텐츠에서 레이블을 검색하고 해당 WIP 보호를 적용합니다. ATP는 WIP와 독립적으로 이상 보고와 같은 일부 작업을 수행합니다.
 - 엔드포인트 장치에 적용되는 WIP(Windows Information Protection) 정책을 만듭니다. 다음 중 하나의 위치에서 이를 수행할 수 있습니다.
     - [Microsoft Intune용 Azure Portal을 사용하여 MDM으로 WIP(Windows Information Protection) 정책 만들기](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure)
     - [System Center Configuration Manager를 사용하여 WIP(Windows Information Protection) 정책 만들기 및 배포](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-sccm)
