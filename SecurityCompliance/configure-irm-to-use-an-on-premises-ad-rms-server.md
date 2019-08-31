@@ -14,12 +14,12 @@ ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다.
-ms.openlocfilehash: 6f764ddf3604dcf0d6b28a37b56a498489c0769f
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 1bfdde516b8c807e4805f8a827a26dda3d60d043
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600174"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699253"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   
@@ -40,7 +40,7 @@ Exchange Online의 IRM에 대한 자세한 내용은 [Information Rights Managem
     
 - Windows PowerShell을 설치 및 구성하고 서비스에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](http://technet.microsoft.com/library/c8bea338-6c1a-4bdf-8de0-7895d427ee5b.aspx)을 참조하십시오.
     
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
+- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
     
 > [!TIP]
 > 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. 포럼 주소는 다음과 같습니다.[Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), 또는 [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 

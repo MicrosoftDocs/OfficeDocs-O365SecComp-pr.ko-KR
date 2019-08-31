@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 description: 다음 샘플 스크립트를 사용하여 여러 테넌트(회사)를 관리하는 Microsoft EOP(Exchange Online Protection) 관리자는 Windows PowerShell을 사용하여 해당 테넌트에 구성 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 7ef2ea5b93835a37683f73fa43549af4bab5d47e
-ms.sourcegitcommit: 361aab46b1bb295ed2dcc1a417ac81f699b8ff78
+ms.openlocfilehash: 2886d2c1dd4dc2f324e8cc21babc3a9f4bf51e5f
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "36676638"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699206"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 
@@ -29,7 +29,7 @@ ms.locfileid: "36676638"
 
 3. .csv 파일의 각 행에서 UserName 열에는 테넌트의 관리자 이름을 추가하고 cmdlet 열에는 해당 테넌트에 대해 실행할 cmdlet을 추가합니다. 예를 들어 admin@contoso.com 및 Get-AcceptedDomain을 사용합니다.
 
-4. [RunCmdletOnMultipleTenants.ps1](sample-script-for-applying-eop-settings-to-multiple-tenants.md#RunCmdletOnMultipleTenants.ps1) 스크립트를 메모장과 같은 편집기에 복사하고 .ps1 파일을 쉽게 찾을 수 있는 위치(예: c:\scripts)에 파일을 저장합니다.
+4. [RunCmdletOnMultipleTenants.ps1](#runcmdletonmultipletenantsps1) 스크립트를 메모장과 같은 편집기에 복사하고 .ps1 파일을 쉽게 찾을 수 있는 위치(예: c:\scripts)에 파일을 저장합니다.
 
 5. 다음 구문을 사용하여 스크립트를 실행합니다.
 

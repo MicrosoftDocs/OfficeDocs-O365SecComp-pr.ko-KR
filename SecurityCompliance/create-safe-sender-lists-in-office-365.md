@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 Exchange 관리 센터의 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: f0397ce3d26f6c539b3d7d663298c468e1155161
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 49803dee186a0f89e3caa42f8c7559bb6ce0c7c9
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599984"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699216"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
@@ -51,7 +51,7 @@ ms.locfileid: "35599984"
 > [!IMPORTANT]
 > NATted IP 주소를 허용 하는 경우 허용 범위를 파악 하기 위해 해당 NAT 풀에 포함 된 컴퓨터를 알고 있어야 합니다. IP 주소도 변경 될 수 있으며, NAT 참석자도 바뀔 수 있습니다. 표준 유지 관리의 일부로 IP가 허용 되는 모든 목록을 다시 검사 해야 합니다.
 
-- *필요*에 따라 메시지가 조직 외부에서 발생 하는 조건을 추가 합니다 (이는 암시적 이지만 올바르게 구성 되지 않았을 수 있는 온-프레미스 서버를 고려 하는 조건으로 추가 하는 것은 적절 함).
+- *필요*에 따라 메시지가 조직 외부에서 발생 하는 조건을 추가 합니다 (이는 암시적 이지만 올바르게 구성 되지 않았을 수 있는 온-프레미스 서버를 고려 하는 조건으로 추가 하는 것은 괜찮습니다.).
 
 - *필요한*경우 전자 메일 제목 또는 본문에서 고유한 키워드나 구를 확인할 수 있는 경우이 정보를 추가 조건으로 사용 하 여 메일 흐름 규칙에서 허용 하는 전자 메일 메시지를 추가로 제한 합니다.
 

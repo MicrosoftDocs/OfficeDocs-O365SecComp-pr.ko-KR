@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 3c5efb1d832a52c6b6b5eb9cfb81ece216c64513
-ms.sourcegitcommit: 1947ad3c0dde9163ba9b6834d8b38bd04b4264a5
+ms.openlocfilehash: ad5e6e1f5e95b97cf9601890c11129f498fe95b9
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "36643260"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699226"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -25,7 +25,7 @@ ms.locfileid: "36643260"
 보안 & 준수 센터의 메시지 추적은 EAC (Exchange 관리 센터)에서 사용 가능 했던 메시지 추적에 대 한 개선 사항입니다. 메시지 추적의 정보를 사용 하 여 메시지에 발생 한 상황에 대 한 사용자 질문을 효율적으로 응답 하 고, 메일 흐름 문제를 해결 하 고, 정책 변경을 확인할 수 있습니다.
 
 > [!NOTE]
->  메시지 수가 50 000에서 중지 되 고 보고서에는 콘솔의이 크기 까지만 반영 됩니다. PowerShell cmdlet Get-historicalsearch cmdlet은 true 메시지 수를 표시 합니다.
+> 처음 5만 개의 메시지만 결과에 표시 됩니다. Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-historicalsearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) cmdlet은 결과의 모든 메시지를 반환 합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 
@@ -190,35 +190,39 @@ ms.locfileid: "36643260"
 
 메시지 추적 세부 정보에는 요약 보고서에 표시 되지 않는 다음과 같은 추가 정보가 포함 됩니다.
 
-- **메시지 이벤트**:이 섹션에는 서비스에서 메시지에 대해 수행 하는 작업을 분류 하는 데 도움이 되는 분류가 포함 되어 있습니다. 발생할 수 있는 몇 가지 흥미로운 이벤트는 다음과 같습니다.
+- **메시지 이벤트**:이 섹션에는 서비스에서 메시지에 대해 수행 하는 작업을 분류 하는 데 도움이 되는 분류가 포함 되어 있습니다. 발생할 수 있는 **몇 가지 흥미로운 이벤트** 는 다음과 같습니다.
 
-   - **Receive**: 서비스가 메시지를 받았습니다.
+  - **Receive**: 서비스가 메시지를 받았습니다.
 
-   - **Send**: 메시지가 서비스에 의해 전송 되었습니다.
+  - **Send**: 메시지가 서비스에 의해 전송 되었습니다.
 
-   - **Fail**: 메시지를 배달 하지 못했습니다.
+  - **Fail**: 메시지를 배달 하지 못했습니다.
 
-   - **배달**: 메시지가 사서함에 배달 되었습니다.
+  - **배달**: 메시지가 사서함에 배달 되었습니다.
 
-   - **Expand**: 확장 된 메일 그룹으로 메시지를 보냈습니다.
+  - **Expand**: 확장 된 메일 그룹으로 메시지를 보냈습니다.
 
-   - **전송**: 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트로 인해 받는 사람이 분기 메시지로 메시지로 이동 되었습니다.
+  - **전송**: 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트로 인해 받는 사람이 분기 메시지로 메시지로 이동 되었습니다.
 
-   - **지연**: 메시지 배달이 연기 되었으며 나중에 다시 시도 될 수 있습니다.
+  - **지연**: 메시지 배달이 연기 되었으며 나중에 다시 시도 될 수 있습니다.
 
-   - **해결 됨**: 메시지가 Active Directory 조회를 기반으로 하는 새 받는 사람 주소로 리디렉션 되었습니다. 이 경우 원본 받는 사람 주소가 메시지 추적에 별도의 행으로 표시되고 메시지의 최종 배달 상태가 표시됩니다.
+  - **해결 됨**: 메시지가 Active Directory 조회를 기반으로 하는 새 받는 사람 주소로 리디렉션 되었습니다. 이 경우 원본 받는 사람 주소가 메시지 추적에 별도의 행으로 표시되고 메시지의 최종 배달 상태가 표시됩니다.
 
-   성공적으로 전달 되는 이벤트가 없는는 메시지 추적에 여러 **이벤트** 항목을 생성 합니다.
+  참고:
+
+  - 성공적으로 배달 되는 이벤트가 없는는 메시지 추적에 여러 **이벤트** 항목을 생성 합니다.
+
+  - 이 목록은 포괄적이 아닙니다. 자세한 이벤트에 대 한 설명은 [메시지 추적 로그의 이벤트 유형을](https://docs.microsoft.com/Exchange/mail-flow/transport-logs/message-tracking#event-types-in-the-message-tracking-log)참조 하십시오. 이 링크는 Exchange Server (온-프레미스 Exchange) 항목입니다.
 
 - **추가 정보**:이 섹션에는 다음과 같은 세부 정보가 포함 되어 있습니다.
 
-   - **메시지 id**:이 값은이 항목 앞부분의 [메시지 id](#message-id) 섹션에 설명 되어 있습니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다.
+  - **메시지 id**:이 값은이 항목 앞부분의 [메시지 id](#message-id) 섹션에 설명 되어 있습니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다.
 
-   - **메시지 크기**   첨부 파일 등을 비롯한 메시지 크기(KB)입니다.
+  - **메시지 크기**   첨부 파일 등을 비롯한 메시지 크기(KB)입니다.
 
-   - **보낸 사람 IP**: 메시지를 보낸 컴퓨터의 IP 주소입니다. Exchange Online에서 전송되는 아웃바운드 메시지의 경우 이 값은 비어 있습니다.
+  - **보낸 사람 IP**: 메시지를 보낸 컴퓨터의 IP 주소입니다. Exchange Online에서 전송되는 아웃바운드 메시지의 경우 이 값은 비어 있습니다.
 
-   - **받는 사람 ip**: 서비스에서 메시지 배달을 시도한 IP 주소 또는 주소입니다. 받는 사람이 여러 명일 경우 메시지가 표시 됩니다. Exchange Online으로 전송되는 인바운드 메시지의 경우 이 값은 비어 있습니다.
+  - **받는 사람 ip**: 서비스에서 메시지 배달을 시도한 IP 주소 또는 주소입니다. 받는 사람이 여러 명일 경우 메시지가 표시 됩니다. Exchange Online으로 전송되는 인바운드 메시지의 경우 이 값은 비어 있습니다.
 
 ### <a name="enhanced-summary-reports"></a>향상 된 요약 보고서
 
@@ -230,11 +234,11 @@ ms.locfileid: "36643260"
 
 - **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예를 들면 다음과 같습니다.
 
-   - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
+  - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
 
-   - **# #Receive, Fail** 은 서비스에서 메시지를 받았지만 의도 한 대상에 배달 하지 못했음을 의미 합니다.
+  - **# #Receive, Fail** 은 서비스에서 메시지를 받았지만 의도 한 대상에 배달 하지 못했음을 의미 합니다.
 
-   - **# #Receive, 배달** 이란 서비스가 메시지를 받았으며 받는 사람의 사서함으로 배달 되었음을 의미 합니다.
+  - **# #Receive, 배달** 이란 서비스가 메시지를 받았으며 받는 사람의 사서함으로 배달 되었음을 의미 합니다.
 
 - **message_subject**: 메시지의 **제목** 필드에서 처음 256 자입니다.
 
@@ -268,17 +272,17 @@ ms.locfileid: "36643260"
 
 - **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예를 들면 다음과 같습니다.
 
-   - `Protocol Filter Agent`
+  - `Protocol Filter Agent`
 
-   - `3489061114359050000`
+  - `3489061114359050000`
 
 - **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예를 들면 다음과 같습니다.
 
-   - `AGENT`
+  - `AGENT`
 
-   - `MAILBOXRULE`
+  - `MAILBOXRULE`
 
-   - `SMTP`
+  - `SMTP`
 
 - **event_id**: [이 메시지의 관련 레코드 찾기](#find-related-records-for-this-message) 섹션에서 설명 하는 **메시지 이벤트** 값에 해당 합니다.
 
@@ -292,27 +296,27 @@ ms.locfileid: "36643260"
 
 - **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예를 들면 다음과 같습니다.
 
-   - **Dsn**:이 이벤트 다음에 dsn이 생성 되는 경우 관련 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크가 포함 되어 있습니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
+  - **Dsn**:이 이벤트 다음에 dsn이 생성 되는 경우 관련 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크가 포함 되어 있습니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
 
-   - **EXPAND**: 관련 메시지의 **related_recipient_address** 값을 포함 합니다.
+  - **EXPAND**: 관련 메시지의 **related_recipient_address** 값을 포함 합니다.
 
-   - **RECEIVE**: 다른 프로세스에서 메시지를 생성 한 경우 (예를 들어, 받은 편지함 규칙) 관련 메시지의 **message_id** 값을 포함할 수 있습니다.
+  - **RECEIVE**: 다른 프로세스에서 메시지를 생성 한 경우 (예를 들어, 받은 편지함 규칙) 관련 메시지의 **message_id** 값을 포함할 수 있습니다.
 
-   - **SEND**: DSN 메시지의 **internal_message_id** 값을 포함 합니다.
+  - **SEND**: DSN 메시지의 **internal_message_id** 값을 포함 합니다.
 
-   - **TRANSFER**: 분기 중인 메시지의 **internal_message_id** 값을 포함 합니다 (예를 들어 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트).
+  - **TRANSFER**: 분기 중인 메시지의 **internal_message_id** 값을 포함 합니다 (예를 들어 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트).
 
-   - **MAILBOXRULE**: 받은 편지함 규칙에서 아웃 바운드 메시지를 생성 하도록 만든 인바운드 메시지의 **internal_message_id** 값을 포함 합니다.
+  - **MAILBOXRULE**: 받은 편지함 규칙에서 아웃 바운드 메시지를 생성 하도록 만든 인바운드 메시지의 **internal_message_id** 값을 포함 합니다.
 
-   다른 이벤트 유형의 경우에는이 필드는 대개 비어 있습니다.
+    다른 이벤트 유형의 경우에는이 필드는 대개 비어 있습니다.
 
 - **return_path**: 메시지를 보낸 **메일** 보낸 사람 명령에 지정 된 반송 전자 메일 주소입니다. 이 필드는 비어 있지 않지만로 `<>`표시 되는 null 보낸 사람 주소 값을 가질 수 있습니다.
 
 - **message_info**: 메시지에 대 한 추가 정보입니다. 예를 들면 다음과 같습니다.
 
-   - 이벤트에 대 한 `DELIVER` UTC의 메시지 시작 날짜 및 `SEND` 시간입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC 날짜 `yyyy-mm-ddThh:mm:ss.fffZ`-시간은 ISO 8601 날짜/시간 형식으로 표시 되며, 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 시간 구성 요소의 `T` 시작을 `hh` 나타내고 = hour, `mm` = minute, `ss` = second, `fff` =를 나타냅니다. 초의 소수 부분을 나타내고 UTC `Z` 를 `Zulu`표시 하는 또 다른 방법인 의미입니다.
+  - 이벤트에 대 한 `DELIVER` UTC의 메시지 시작 날짜 및 `SEND` 시간입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC 날짜 `yyyy-mm-ddThh:mm:ss.fffZ`-시간은 ISO 8601 날짜/시간 형식으로 표시 되며, 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 시간 구성 요소의 `T` 시작을 `hh` 나타내고 = hour, `mm` = minute, `ss` = second, `fff` =를 나타냅니다. 초의 소수 부분을 나타내고 UTC `Z` 를 `Zulu`표시 하는 또 다른 방법인 의미입니다.
 
-   - 인증 오류입니다. 예를 들어, 인증 오류가 발생 했 `11a` 을 때 사용 된 인증의 유형 및 값을 확인할 수 있습니다.
+  - 인증 오류입니다. 예를 들어, 인증 오류가 발생 했 `11a` 을 때 사용 된 인증의 유형 및 값을 확인할 수 있습니다.
 
 - **tenant_id**: Exchange Online 조직 (예를 `39238e87-b5ab-4ef6-a559-af54c6b07b42`들어)을 나타내는 GUID 값입니다.
 

@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 1f2b3733cbba3c09e1ec7ca25377ac96d5c89147
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 9bf821885ad8d4ec89aa3c349a6c072f78f6c57a
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599384"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699353"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
@@ -42,7 +42,7 @@ EAC 대신 보안 &amp; 및 준수 센터를 사용 하 여 이러한 작업을 
     
 - **격리** 페이지에서 한 번에 여러 메시지를 릴리스 하거나 보고할 수 있습니다. 또는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다. 
     
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
+- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
     
 > [!TIP]
 > 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. 포럼 주소는 다음과 같습니다.[Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), 또는 [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 

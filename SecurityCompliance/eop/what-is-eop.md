@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
 description: 이 소개 문서는 EOP (Exchange Online Protection) 및 몇 가지 중요 한 용어를 이해 하는 데 도움이 됩니다. 이 기능은 exchange Online 클라우드 호스팅 사서함을 보호 하는 Office 365 고객 및 Exchange Server 2016와 같은 온-프레미스 사서함을 보호 하는 EOP 독립 실행형 고객에 게 적용 됩니다.
-ms.openlocfilehash: 87dba47a7a942dcb8eb103cee1a171dca6e53805
-ms.sourcegitcommit: 361aab46b1bb295ed2dcc1a417ac81f699b8ff78
+ms.openlocfilehash: c2dba2cbb16126e2169e0fb3907ceabe8185e82a
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "36676648"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699196"
 ---
 ## <a name="what-is-exchange-online-protection-eop"></a>EOP (Exchange Online Protection)
 

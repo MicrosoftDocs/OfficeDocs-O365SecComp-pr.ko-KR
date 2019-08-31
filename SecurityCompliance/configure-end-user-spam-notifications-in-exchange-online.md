@@ -13,12 +13,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: 회사 전체의 기본 스팸 필터 정책 또는 도메인에 적용 되는 사용자 지정 스팸 필터 정책에 대 한 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: ce63fae7749f716b7fdd00c72b207ba5b57a8d65
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 00ce151ab355efb419d483a17aaeeb26dfc71c0d
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35600194"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699283"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Exchange Online에서 최종 사용자 스팸 알림 구성
 
@@ -49,7 +49,7 @@ Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하�
   
 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Exchange Online의 기능 사용 권한](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목에서 "스팸 방지" 항목을 참조 하세요. 
   
-이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Exchange 관리 센터의 바로 가기 키**을 참조하세요.
+이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
   
 ## <a name="use-the-eac-to-configure-end-user-spam-notifications"></a>EAC를 통해 최종 사용자 스팸 알림 구성
 

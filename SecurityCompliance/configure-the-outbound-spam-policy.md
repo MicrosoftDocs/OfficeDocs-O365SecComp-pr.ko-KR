@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: 2bf2f8c7292bee4d1e89249bcec5c74a4b5d38c9
-ms.sourcegitcommit: bc25ea19c0b6d318751eadc4f27902b0054d5e2b
+ms.openlocfilehash: 9c8c2f7e9ff0be02f11fa66409690cbb854d8c56
+ms.sourcegitcommit: 769b506c828c475c713dbb337e115714dcc7f17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054656"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699243"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>아웃바운드 스팸 정책 구성
 
@@ -39,7 +39,7 @@ ms.locfileid: "36054656"
   
 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Exchange Online의 기능 사용 권한](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 에서 "스팸 방지 항목" 항목을 참조 하십시오. 
   
-이 항목의 절차에 적용할 수 있는 바로 가기 키에 대한 자세한 내용은 **Keyboard shortcuts in Exchange 2013**을 참조하세요.
+이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
   
 또한 원격 PowerShell을 통해 다음 절차를 수행할 수 있습니다. [Get-HostedOutboundSpamFilterPolicy](http://technet.microsoft.com/library/8f15c83c-c10a-4d9d-b135-35321430bdc2.aspx) cmdlet을 사용하여 설정을 검토하고 [Set-HostedOutboundSpamFilterPolicy](http://technet.microsoft.com/library/665d1b04-d4b5-4a0e-811a-4e37096ccbfd.aspx) cmdlet을 사용하여 아웃바운드 스팸 정책 설정을 편집할 수 있습니다. Windows PowerShell을 사용 하 여 Exchange Online Protection에 연결 하는 방법에 대 한 자세한 내용은 [connect To Exchange Online Protection PowerShell](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조 하십시오. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
   
