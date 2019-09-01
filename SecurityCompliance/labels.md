@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: b3637470e0de1413589fc8e1ba35dc48e6823c4b
-ms.sourcegitcommit: 007af78a01461023bd434768154b5d96503f7e4b
+ms.openlocfilehash: e4028fa9526afbb33cb184adb7b3cd301feae837
+ms.sourcegitcommit: 361aab46b1bb295ed2dcc1a417ac81f699b8ff78
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35772165"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "36676658"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -163,7 +163,7 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
   
 - SharePoint 및 OneDrive 문서가 삭제되기 전에 검토될 수 있도록 보존 기간이 끝나면 처리 검토를 트리거합니다. 자세한 내용은 [처리 검토 개요](disposition-reviews.md)를 참조하세요.
     
-- 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다.
+- 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다. 해당 옵션은 SharePoint 사이트 및 OneDrive 계정의 콘텐츠에만 적용됨을 유의하세요. Exchange 전자 메일의 경우 보존 기간은 사용자가 선택한 옵션에 상관없이 항상 메시지를 보냈거나 받은 날짜를 기준으로 합니다.
     
 ![레이블 관련 옵션이 있는 보존 설정](media/c49118c9-6279-4661-94db-deffa76e27ac.png)
   
@@ -283,14 +283,12 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 쿼리 구문에 대한 자세한 내용은 다음을 참조하세요.
 
-- 
-  [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
 쿼리 기반 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다. 유효한 검색 가능 속성에 대한 자세한 내용은 다음을 참조하세요.
 
 - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
-- 
-  [SharePoint Server에서 크롤링 및 관리 속성의 개요](https://docs.microsoft.com/ko-KR/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+- [SharePoint Server에서 크롤링 및 관리 속성의 개요](https://docs.microsoft.com/ko-KR/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
 예제 쿼리:
 
