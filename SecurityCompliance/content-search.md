@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: 2fff94899dabca85338ba1ca924ec37afa1dccf3
-ms.sourcegitcommit: 873c5bc0e6cd1ca3dfdb3a99a5371353b419311f
+ms.openlocfilehash: cc6a385ec639f6df787c2de23fece8cb53a4d25e
+ms.sourcegitcommit: d55dab629ce1f8431b8370afde4131498dfc7471
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493169"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675469"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -184,6 +184,8 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
 [검색 결과 미리 보기](#previewing-search-results)
   
 [부분적으로 인덱싱된 항목](#partially-indexed-items)
+
+[SharePoint 다중 지역 환경에서 콘텐츠 검색](#searching-for-content-in-a-sharepoint-multi-geo-environment)
   
 ### <a name="content-search-limits"></a>콘텐츠 검색 제한
 
@@ -368,3 +370,40 @@ Exchange Online 라이선스(또는 전체 Office 365 라이선스)가 Office 36
 - 앞서 설명한 것처럼 사서함의 부부분적으로 인덱싱된 항목은 예상 검색 결과에 포함됩니다. SharePoint 및 OneDrive의 부분적으로 인덱싱된 항목은 예상 검색 결과에 포함되지 않습니다. 
     
 - 부분적으로 인덱싱된 항목이 검색 쿼리와 일치하는 경우(다른 메시지 또는 문서 속성이 검색 조건에 부합되기 때문) 이 항목은 예상되는 인덱싱되지 않은 항목 수에 포함되지 않습니다. 부분적으로 인덱싱된 항목이 검색 조건에 의해 제외되는 경우 인덱싱되지 않은 항목의 예상 수에 포함되지 않습니다. 자세한 내용은 [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)을 참조하세요.
+
+### <a name="searching-for-content-in-a-sharepoint-multi-geo-environment"></a>SharePoint 다중 지역 환경에서 콘텐츠 검색
+
+eDiscovery 관리자가 [SharePoint 다중 지역 환경](https://go.microsoft.com/fwlink/?linkid=860840)의 여러 지역에서 SharePoint 및 OneDrive의 콘텐츠를 검색해야 하는 경우 다음과 같은 작업을 수행해야 합니다.
+   
+1. eDiscovery 관리자가 검색해야 하는 각 위성 지리적 위치에 대한 별도의 사용자 계정을 만듭니다. 해당 지리적 위치에 있는 사이트의 콘텐츠를 검색하려면 eDiscovery 관리자가 해당 위치에 대해 만든 계정에 로그인한 다음 콘텐츠 검색을 실행해야 합니다.
+
+2. eDiscovery 관리자가 검색해야 하는 각 위성 지리적 위치 (및 해당 사용자 계정)에 대한 검색 권한 필터를 만듭니다. 이러한 각 검색 권한 필터는 eDiscovery 관리자가 해당 위치와 연결된 사용자 계정에 로그인한 경우 콘텐츠 검색의 범위를 특정 지리적 위치로 제한합니다.
+ 
+> [!TIP]
+> [고급 eDiscovery](compliance20/overview-ediscovery-20.md)에서 검색 도구를 사용하는 경우에는 이 전략을 사용할 필요가 없습니다. 이는 고급 eDiscovery에서 SharePoint 사이트 및 OneDrive 계정을 검색하는 경우 모든 데이터 센터가 검색되기 때문입니다. 콘텐츠 검색 도구를 사용하고 [eDiscovery 사례](ediscovery-cases.md)와 연결된 검색을 실행하는 경우에만 지역별 사용자 계정 및 검색 권한 필터를 사용해야 합니다. 
+
+
+예를 들어 eDiscovery 관리자가 시카고, 런던 및 도쿄에서 위성 위치에 SharePoint 및 OneDrive 콘텐츠를 검색해야 한다고 가정해 보겠습니다. 첫 번째 단계는 각 위치마다 하나씩 세 개의 사용자 계정을 만드는 것입니다. 다음 단계는 각 위치와 해당 사용자 계정에 하나씩 세 개의 검색 권한 필터를 만드는 것입니다. 다음은 이 시나리오에 대한 세 가지 검색 권한 필터의 예입니다. 각 예제에서 **지역**은 해당 지역에 대한 SharePoint 데이터 센터 위치를 지정하고 **사용자** 매개 변수는 해당 사용자 계정을 지정합니다. 
+
+**북미**
+```
+New-ComplianceSecurityFilter -FilterName "SPMultiGeo-Chicago" -Users ediscovery-chicago@contoso.com -Region NAM -Action ALL
+```
+
+**유럽**
+```
+New-ComplianceSecurityFilter -FilterName "SPMultiGeo-London" -Users ediscovery-london@contoso.com -Region GBR -Action ALL
+```
+
+**아시아 태평양**
+```
+New-ComplianceSecurityFilter -FilterName "SPMultiGeo-Toyko" -Users ediscovery-tokyo@contoso.com -Region JPN -Action ALL
+```
+
+검색 권한 필터를 사용하여 다중 지역 환경에서 콘텐츠를 검색하는 경우 다음 사항에 유의하세요.
+
+- **지역** 매개 변수는 검색을 지정된 위성 위치로 보냅니다. eDiscovery 관리자가 검색 권한 필터에 지정된 지역 외부에 있는 SharePoint 및 OneDrive 사이트만 검색하는 경우 검색 결과가 반환되지 않습니다. 
+
+- **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색하는 경우 모든 데이터 센터가 검색됩니다. 
+    
+다중 지역 환경에서 검색 권한 필터를 사용하는 방법에 대한 자세한 내용은 [Office 365에서 eDiscovery 검사에 대한 규정 준수 경계 설정](set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments)의 "다중 지역 환경에서 콘텐츠 검색 및 내보내기" 섹션을 참조하세요.
