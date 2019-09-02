@@ -235,50 +235,6 @@
 ## [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 ## [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
-# 데이터 거버넌스 관리
-## [데이터 가져오기](importing-pst-files-to-office-365.md)
-### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
-### [드라이브 발송을 사용하여 PST 파일 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md)
-### [PST 수집 도구를 사용하여 PST 파일 찾기, 복사 및 삭제](find-copy-and-delete-pst-files-in-your-organization.md)
-### [PST 파일을 가져올 때 데이터 필터링](filter-data-when-importing-pst-files.md)
-### [네트워크 업로드를 사용하여 RMS 암호화 PST 파일 가져오기](use-network-upload-to-import-rms-encrypted-pst-files.md)
-### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
-### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
-#### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
-#### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
-#### [LinkedIn 데이터를 보관할 커넥터 설정](archive-linkedin-data.md)
-#### [즉석 Bloomberg 데이터를 보관할 커넥터 설정](archive-instant-bloomberg-data.md)
-#### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
-## 데이터 저장
-### [보관 사서함 사용](enable-archive-mailboxes.md)
-### [무제한 보관 개요](unlimited-archiving.md)
-### [무제한 보관 사용](enable-unlimited-archiving.md)
-### [사서함에 대한 보관 및 삭제 정책 설정](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
-## 데이터 보존
-### [보존 정책](retention-policies.md)
-### [파일 플랜 관리자](file-plan-manager.md)
-### [보존 레이블](labels.md)
-### [SEC 규칙 17 a-4 준수](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
-### [이벤트 기반 보존](event-driven-retention.md)
-### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
-## [데이터 삭제](disposition-reviews.md)
-## 커뮤니케이션 관리
-### [정책 감독](supervision-policies.md)
-### [조직의 감독 정책 구성](configure-supervision-policies.md)
-## [비활성 사서함 관리](inactive-mailboxes-in-office-365.md)
-### [비활성 사서함 만들기 및 관리](create-and-manage-inactive-mailboxes.md)
-### [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
-### [비활성 사서함 복구](recover-an-inactive-mailbox.md)
-### [비활성 사서함 복원](restore-an-inactive-mailbox.md)
-### [비활성 사서함 삭제](delete-an-inactive-mailbox.md)
-## 데이터 거버넌스 모니터링
-### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
-### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
-### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
-## 데이터 거버넌스에 관한 자세한 정보
-### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
-
 # [콘텐츠 검색](search-for-content.md)
 ## [콘텐츠 검색 사용](content-search.md)
 ### [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
@@ -441,7 +397,6 @@
 ### [숨은 참조 및 확장된 메일 그룹 수신자 보존](preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md)
 
 # [데이터 조사 관리](datainvestigations/overview-data-investigations.md)
-## [릴리스 정보](datainvestigations/data-investigations-release-notes.md)
 ## [데이터 유출 사고 관리](datainvestigations/manage-data-spillage-incidents.md)
 ## [새 조사 만들기](datainvestigations/create-new-investigation.md)
 ## [데이터 조사를 위한 권한 지정](datainvestigations/permissions.md)
@@ -456,6 +411,7 @@
 ### [문서 주석 달기 및 수정](datainvestigations/annotate-and-redact-documents.md)
 ### [비 Office 365 데이터 로드](datainvestigations/load-non-office365-data.md)
 ### [데이터를 처리할 때 오류 수정](datainvestigations/error-remediation.md)
+### [Delete items from their original location](datainvestigations/delete-items-from-original-locations.md)
 
 ## [신속한 조사를 위한 분석 실행](datainvestigations/run-analytics-to-investigate-faster.md)
 ### [이메일 스레드](datainvestigations/email-threading.md)
@@ -477,6 +433,7 @@
 ### [조사 닫기 또는 조사 삭제](datainvestigations/close-or-delete-investigation.md)
 
 ## 데이터 조사 참조
+### [릴리스 정보](datainvestigations/data-investigations-release-notes.md)
 ### [데이터 조사의 제한 사항](datainvestigations/limits-datainvestigations.md)
 ### [지원되는 파일 형식](datainvestigations/supported-filetypes-datainvestigations.md)
 ### [문서 메타데이터 필드](datainvestigations/document-metadata-fields.md)
