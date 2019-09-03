@@ -81,12 +81,10 @@ SCC(보안 및 준수 센터)에서 이 작업을 완료합니다. SCC에 대한
 
 [손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
-
-  [전자 메일 전송 제한 사용자 경고 이해](https://docs.microsoft.com/ko-KR/office365/securitycompliance/alert-policies)
+[전자 메일 전송 제한 사용자 경고 이해](https://docs.microsoft.com/ko-KR/office365/securitycompliance/alert-policies)
 
 [아웃바운드 메시지용 높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)
 
 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 
-
-  [보안 및 준수 센터의 경고 정책](https://docs.microsoft.com/ko-KR/office365/securitycompliance/alert-policies)
+[보안 및 준수 센터의 경고 정책](https://docs.microsoft.com/ko-KR/office365/securitycompliance/alert-policies)

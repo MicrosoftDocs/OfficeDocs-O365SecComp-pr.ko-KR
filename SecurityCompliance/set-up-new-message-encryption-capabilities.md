@@ -47,14 +47,13 @@ Office 365 조직에서 새 OME 기능을 사용할 수 있는지 여부는 아�
 자세한 내용은 다음을 참조하세요.
 
 - 현재의 구독에 Azure Information Protection이 포함되었는지 여부를 확인하려면 [새 OME 기능을 사용하기 위해서는 어떤 구독이 필요한가요?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities)를 참조하세요.
-- 적절한 구독을 구입하기 위해서는 [Azure Information Protection](https://azure.microsoft.com/en-us/services/information-protection/)에서 자세한 내용을 참조하세요.  
+- 적절한 구독을 구입하기 위해서는 [Azure Information Protection](https://azure.microsoft.com/ko-KR/services/information-protection/)에서 자세한 내용을 참조하세요.  
 
 ### <a name="manually-activating-azure-rights-management"></a>Azure AD Rights Management 수동 활성화
 
 Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으로 활성화되지 못한 경우에는 수동으로 활성화할 수 있습니다.
 
-- 
-  **Microsoft 365 관리 센터**: [관리 센터에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/ko-KR/azure/information-protection/activate-office365)을 확인하세요.
+- **Microsoft 365 관리 센터**: [관리 센터에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/ko-KR/azure/information-protection/activate-office365)을 확인하세요.
 - **Azure Portal**: [Azure Portal에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure)을 확인하세요.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Azure Information Protection 테넌트 키 관리 구성
@@ -65,8 +64,7 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 새 OME 구성 확인
 
-
-  [Exchange Online PowerShell](https://docs.microsoft.com/ko-KR/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)에서 새 OME 기능을 사용할 수 있도록 Office 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
+[Exchange Online PowerShell](https://docs.microsoft.com/ko-KR/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)에서 새 OME 기능을 사용할 수 있도록 Office 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
   
 1. Office 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell 연결](https://docs.microsoft.com/ko-KR/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 합니다.
 

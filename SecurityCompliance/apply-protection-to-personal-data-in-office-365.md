@@ -248,11 +248,9 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 
 추가 정보:
 
--   
-  [SharePoint의 권한 수준 이해](https://support.office.com/ko-KR/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
+-   [SharePoint의 권한 수준 이해](https://support.office.com/ko-KR/article/Understanding-permission-levels-in-SharePoint-87ecbb0e-6550-491a-8826-c075e4859848)
 
--   
-  [SharePoint 그룹 이해](https://support.office.com/ko-KR/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
+-   [SharePoint 그룹 이해](https://support.office.com/ko-KR/article/Understanding-SharePoint-groups-94d9b261-161e-4ace-829e-eca1c8cd2eb8)
 
 ### <a name="external-sharing-policies-for-sharepoint-and-onedrive-for-business-libraries"></a>SharePoint 및 비즈니스용 OneDrive 라이브러리에 대한 외부 공유 정책
 
@@ -302,11 +300,9 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 
 추가 정보:
 
--   
-  [SharePoint Online 환경에 대해 외부 공유 관리](https://support.office.com/ko-KR/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [SharePoint Online 환경에 대해 외부 공유 관리](https://support.office.com/ko-KR/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
--   
-  [조직 외부의 사용자와 사이트 또는 문서 공유](https://support.office.com/ko-KR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
+-   [조직 외부의 사용자와 사이트 또는 문서 공유](https://support.office.com/ko-KR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
 ### <a name="site-level-device-access-policies"></a>사이트 수준 장치 액세스 제어
 

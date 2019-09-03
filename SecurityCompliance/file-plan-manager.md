@@ -144,8 +144,7 @@ ms.locfileid: "36430015"
 |CitationUrl|문자열|사용자 지정|
 |CitationJurisdiction|문자열|사용자 지정|
 |규정|문자열|사용자 지정|
-|EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>이름</br>DN(고유 이름)</br>GUID </br>
-  [Get-RetentionComplianceRule](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다.|
+|EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>이름</br>DN(고유 이름)</br>GUID </br>[Get-RetentionComplianceRule](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다.|
 
 ![정보가 채워진 파일 계획 서식 파일](media/file-plan-filled-out-template.png)
 

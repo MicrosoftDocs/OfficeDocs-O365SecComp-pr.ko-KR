@@ -25,8 +25,7 @@ ms.locfileid: "36478197"
 
 ## <a name="overview"></a>개요
 
-
-  [사용자 지정 중요한 정보 유형](https://docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다. 관리자로서 [보안 및 준수 센터](https://docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type) 또는 [PowerShell](https://docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type-in-scc-powershell)을 사용하여 패턴, 증명( *직원*, *배지*, *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다. 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
+[사용자 지정 중요한 정보 유형](https://docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)을 사용하면 중요한 정보를 의도하지 않거나 부적절하게 공유하는 것을 방지합니다. 관리자로서 [보안 및 준수 센터](https://docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type) 또는 [PowerShell](https://docs.microsoft.com/ko-KR/office365/securitycompliance/create-a-custom-sensitive-information-type-in-scc-powershell)을 사용하여 패턴, 증명( *직원*, *배지*, *ID* 등의 키워드), 문자 근접도(특정 패턴에서 증명과 문자가 근접한 정도) 및 신뢰 수준을 기반으로 사용자 지정 정보 유형을 정의할 수 있습니다. 이러한 사용자 지정 중요한 정보 유형은 대부분의 조직에 필요한 비즈니스 요구 사항을 충족합니다.
 
 일반적인 패턴과만 일치하는 것이 아니라 정확한 데이터 값을 사용하는 사용자 지정 중요한 정보 유형의 경우에는 어떻게 할까요? 정확한 데이터 매치(EDM) 기반 분류를 사용하여 다음과 같이 설계된 사용자 지정 중요한 정보 유형을 만들 수 있습니다.
 
@@ -187,8 +186,7 @@ Remove-DlpEdmSchema -Identity patientrecords
 
 규칙 패키지를 설정하는 경우 .csv 파일과 edm.xml 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
-- 
-  **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/ko-KR/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
+- **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/ko-KR/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
 
 - **Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다. 구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.
 
@@ -482,19 +480,15 @@ Exchange Online용 Office 365 DLP(전자 메일), Business용 OneDrive(파일), 
 
 ## <a name="related-articles"></a>관련 문서
 
+[기본 제공 중요 정보 유형 및 해당 유형이 찾는 항목](https://docs.microsoft.com/ko-KR/office365/securitycompliance/what-the-sensitive-information-types-look-for)
 
-  [기본 제공 중요 정보 유형 및 해당 유형이 찾는 항목](https://docs.microsoft.com/ko-KR/office365/securitycompliance/what-the-sensitive-information-types-look-for)
+[사용자 지정 중요한 정보 유형](https://docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)
 
-
-  [사용자 지정 중요한 정보 유형](https://docs.microsoft.com/ko-KR/office365/securitycompliance/custom-sensitive-info-types)
-
-
-  [DLP 정책 개요](https://docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies)
+[DLP 정책 개요](https://docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies)
 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
-
-  [New-DlpEdmSchema](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
+[New-DlpEdmSchema](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
 
 ## <a name="feedback"></a>피드백
 GitHub 피드백을 사용할 수 있지만, 공개 사이트에서만 문제를 추가할 수 있습니다.

@@ -81,22 +81,17 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
--   
-  [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/ko-KR/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+-   [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/ko-KR/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
--   
-  [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
+-   [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
 
--   
-  [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/ko-KR/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+-   [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/ko-KR/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   
-  [감사 로그 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [감사 로그 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
 -   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
 
--   
-  [Office 365 감사 로그의 자세한 속성](https://support.office.com/ko-KR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+-   [Office 365 감사 로그의 자세한 속성](https://support.office.com/ko-KR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -130,13 +125,11 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 추가 정보:
 
--   
-  [Cloud App Security 배포](https://docs.microsoft.com/ko-KR/cloud-app-security/getting-started-with-cloud-app-security)
+-   [Cloud App Security 배포](https://docs.microsoft.com/ko-KR/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/en-us/cloud-platform/cloud-app-security)
+-   [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/ko-KR/cloud-platform/cloud-app-security)
 
--   
-  [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/ko-KR/cloud-app-security/use-case-proxy-block-session-aad)
+-   [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/ko-KR/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>개인 데이터의 공유를 감지하는 예제 파일 및 활동 정책
 

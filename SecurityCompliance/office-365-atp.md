@@ -98,10 +98,8 @@ AIR에는 알림이 트리거되는 경우와 같이 자동으로 시작되거�
 |역할 또는 역할 그룹  |자세한 정보를 알아볼 수 있는 리소스  |
 |---------|---------|
 |Office 365 전역 관리자 |[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
-|보안 관리자 |
-  [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/ko-KR/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Exchange Online 조직 관리 |
-  [Exchange Online의 사용 권한](https://docs.microsoft.com/ko-KR/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
+|보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/ko-KR/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/ko-KR/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
 자세한 내용은 다음을 참조하세요.
 
@@ -125,5 +123,4 @@ Office 365 ATP 플랜 2는 Office 365 Enterprise E5, Office 365 Education A5 및
 
 - [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)은 개발 및 출시에 대한 새로운 기능 목록을 제공합니다.
 
-- 
-  [Office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/ko-KR/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)에서는 ATP 플랜에 대한 기능 및 제공 여부에 대해 설명합니다.
+- [Office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/ko-KR/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)에서는 ATP 플랜에 대한 기능 및 제공 여부에 대해 설명합니다.
