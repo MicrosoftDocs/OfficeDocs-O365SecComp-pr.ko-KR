@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: d84c57d1f21ea835d5a29e59a4efe4a11ff876c0
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: f33f351d9a4875a52854a239cf9f875be8e076d6
+ms.sourcegitcommit: fd3db13cd4fc71cd2cb164fd702007acba3e7399
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230342"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "36717638"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -101,7 +101,7 @@ ms.locfileid: "36230342"
     
   - 조직 내 사용자 간에 전송 된 메시지에 대 한 안전한 링크를 사용 하도록 설정 하려면 **조직 내에서 보낸 메시지에 안전한 링크 적용** 을 선택 합니다 (권장).
     
-  - **사용자가 원래 URL을 클릭 하도록 허용 안 함을**선택 합니다.
+  - 개별 사용자가 *진행 중인 검사* 또는 *URL 차단* 된 알림 페이지를 재정의 하지 못하도록 하려면 **사용자가 원래 URL로 클릭 하도록 허용 안 함을** 선택 합니다.
     
   - (선택 사항) **다음 url을 다시 쓰지** 않음 섹션에서 조직에 안전한 것으로 간주 되는 하나 이상의 url을 지정 합니다. ( [ATP 안전한 링크를 사용 하 여 사용자 지정 "재작성 금지" url 목록 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)참조)
     

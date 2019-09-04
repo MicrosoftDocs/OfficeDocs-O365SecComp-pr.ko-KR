@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 Office 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 설명 합니다. 이는 Office 365에서 보내는 아웃 바운드 메일에 적용 됩니다. Office 365에서 Office 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
-ms.openlocfilehash: f872159280968227e88f8014117db28b88097075
-ms.sourcegitcommit: 32ecff689ae32c59a39b7633ca0f36a304e7516e
+ms.openlocfilehash: 41055f5eb2f3fe3e4e54f7b863b3739ec51c198a
+ms.sourcegitcommit: 8be0297950840e33dc693d139b69ee142edbed81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35599224"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36714017"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Office 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법
 
@@ -107,7 +107,7 @@ IP 주소 외에 도메인을 보낸 사람으로 포함 하도록 SPF TXT 레�
 IN TXT "v=spf1 include:contoso.net include:contoso.org -all"
 ```
 
-받는 서버가 DNS에서이 레코드를 볼 때 contoso.net의 SPF TXT 레코드에 대 한 DNS 조회를 수행한 다음 contoso.org 용으로도이를 수행 합니다. Contoso.net 또는 contoso.org에 대 한 레코드 내에 추가 포함 문을 찾으면이를 팔 로우 합니다. 서비스 거부 공격을 방지 하기 위해 단일 전자 메일 메시지에 대 한 최대 DNS 조회 수는 10 개입니다. 각 포함 문은 추가 DNS 조회를 나타냅니다. 메시지가 10 개 제한을 초과 하면 메시지가 SPF에 실패 합니다. 메시지가이 제한에 도달 하면 받는 서버가 구성 된 방식에 따라 보낸 사람에 게 "너무 많은 조회"가 생성 되었거나 메시지의 "최대 홉 수가 초과 되었습니다." 라는 메시지가 표시 될 수 있습니다. 이를 방지 하는 방법에 대 한 팁은 [문제 해결: Office 365에서 SPF에 대 한 모범 사례](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot)를 참조 하세요.
+받는 서버가 DNS에서이 레코드를 볼 때 contoso.net의 SPF TXT 레코드에 대 한 DNS 조회를 수행한 다음 contoso.org 용으로도이를 수행 합니다. Contoso.net 또는 contoso.org에 대 한 레코드 내에 추가 포함 문을 찾으면이를 팔 로우 합니다. 서비스 거부 공격을 방지 하기 위해 단일 전자 메일 메시지에 대 한 최대 DNS 조회 수는 10 개입니다. 각 포함 문은 추가 DNS 조회를 나타냅니다. 메시지가 10 개 제한을 초과 하면 메시지가 SPF에 실패 합니다. 메시지가이 제한에 도달 하면 받는 서버가 구성 된 방식에 따라 보낸 사람에 게 "너무 많은 조회"가 생성 되었거나 "메시지의 최대 홉 수가 초과 되었습니다." 라는 메시지가 표시 될 수 있습니다. 조회 루프 및 surpass DNS 시간 제한) 이를 방지 하는 방법에 대 한 팁은 [문제 해결: Office 365에서 SPF에 대 한 모범 사례](how-office-365-uses-spf-to-prevent-spoofing.md#SPFTroubleshoot)를 참조 하세요.
   
 ## <a name="requirements-for-your-spf-txt-record-and-office-365"></a>SPF TXT 레코드 및 Office 365에 대 한 요구 사항
 <a name="SPFReqsinO365"> </a>
