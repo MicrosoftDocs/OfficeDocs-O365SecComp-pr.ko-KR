@@ -3,7 +3,7 @@ title: Office 365 위협 조사 및 응답
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/22/2019
+ms.date: 08/23/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,34 +15,30 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 774d3d5c6a1ff71c105c3778458cf2a0d0cbed94
-ms.sourcegitcommit: f473bf7f215ba4eb2f49e0dd23a9d2e39fa512c9
+ms.openlocfilehash: 1d31f3a464060f5b72730e15895d918e61aa09a1
+ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36566216"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36761654"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
 위협 조사 및 [Office 365 Advanced Threat Protection](office-365-atp.md) 의 응답 기능은 보안 분석가와 관리자가 조직의 Office 365 사용자를 보호 하는 데 도움이 됩니다.
   
-- 공격을 쉽게 식별 하 고 모니터링 하 고 이해할 수 있도록 설정
+- 고 사이버 공격를 쉽게 식별, 모니터링 및 이해할 수 있도록 설정
     
 - Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 위협에 빠르게 문제를 해결 하는 데 도움을 줍니다.
     
-- 조직에서 공격을 방지 하는 데 도움이 되는 정보를 제공 합니다.
+- 보안 작업에 도움이 되는 통찰력 및 지식을 제공 하 여 조직에 대 한 고 사이버 공격 방지
 
 - 중요 전자 메일 기반 위협에 대 한 [자동화 된 조사 및 응답](automated-investigation-response-office.md) 채택
     
-이 문서를 읽으면 위협 조사 및 대응에 대해 자세히 알아보고, 시작 하는 방법을 알아보세요.
-  
-## <a name="threat-investigation-and-response-in-office-365"></a>Office 365의 위협 조사 및 응답
+위협 조사 및 응답 기능은 Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 위협 및 관련 된 응답 작업에 대 한 정보를 제공 합니다. 이러한 정보를 활용 하면 조직의 보안 팀이 전자 메일 이나 파일 기반 공격 으로부터 Office 365 사용자를 보호 하는 데 도움이 될 수 있습니다. 이 기능은 신호를 모니터링 하 고 사용자 활동, 인증, 전자 메일, 손상 된 Pc 및 보안 인시던트와 같은 여러 원본의 데이터를 수집 하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 Office 365 전역 관리자, 보안 관리자 및 보안 분석가는이 정보를 사용 하 여 Office 365 사용자에 대 한 위협에 대 한 이해를 받고 지적 재산을 보호할 수 있습니다.
 
-위협 조사 및 응답 기능은 Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 위협 및 관련 된 응답 작업에 대 한 정보를 제공 하는 데 도움이 됩니다. 이러한 정보를 활용 하면 조직의 보안 팀이 전자 메일 이나 파일 기반 공격 으로부터 Office 365 사용자를 보호 하는 데 도움이 될 수 있습니다. 이 기능은 신호를 모니터링 하 고 사용자 활동, 인증, 전자 메일, 손상 된 Pc 및 보안 인시던트와 같은 여러 원본의 데이터를 수집 하는 데 도움이 됩니다. 비즈니스 의사 결정권자 및 Office 365 전역 관리자, 보안 관리자 및 보안 분석가는이 정보를 사용 하 여 Office 365 사용자에 대 한 위협을 파악 하 고 대응 하 고 지적 재산을 보호할 수 있습니다.
+## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>위협 조사 및 응답 도구 익히기
 
-## <a name="get-acquainted-with-the-threat-dashboard-explorer-and-incidents"></a>위협 대시보드, 탐색기 및 인시던트 숙지
-
-&amp; [위협 대시보드](#threat-dashboard), [탐색기](#threat-explorer), [인시던트](#incidents), [공격 시뮬레이터](attack-simulator.md)를 비롯 한 도구 및 응답 워크플로 집합으로, 보안 및 준수 센터의 위협 조사 및 응답 기능 [자동화 된 조사 & 응답](automated-investigation-response-office.md)입니다.
+&amp; [위협 대시보드](#threat-dashboard), [탐색기](#threat-explorer), [인시던트](#incidents), [공격 시뮬레이터](#attack-simulator)를 비롯 한 도구 및 응답 워크플로 집합으로, 보안 및 준수 센터의 위협 조사 및 응답 기능 [자동화 된 조사 & 응답](automated-investigation-response-office.md)입니다.
   
 ### <a name="threat-dashboard"></a>위협 대시보드
 
@@ -51,6 +47,8 @@ ms.locfileid: "36566216"
 ![위협 대시보드](media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
 이 대시보드 &amp; 를 보고 사용 하려면 보안 및 준수 센터에서 **위협 관리** \> **대시보드로**이동 합니다.
+
+자세한 내용은 
   
 ### <a name="threat-explorer"></a>위협 탐색기
 
@@ -69,8 +67,16 @@ ms.locfileid: "36566216"
 조직의 현재 인시던트 &amp; 목록을 보려면 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **인시던트**로 이동 합니다.
   
 ![보안 &amp; 및 준수 센터에서 위협 관리 \> 검토를 선택 합니다.](media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+
+### <a name="attack-simulator"></a>공격 시뮬레이터
+
+공격 시뮬레이터를 사용 하 여 조직에서 현실적인 고 사이버 공격를 설정 및 실행 하 고, 실제에서는 사이버 공격과 비즈니스에 영향을 주기 전에 취약 한 사용자를 식별 합니다. 자세한 내용은 [Office 365의 Attack 시뮬레이터](attack-simulator.md)를 참조 하세요.
+
+### <a name="automated-investigation-and-response"></a>자동화된 조사 및 응답
+
+자동화 된 조사 및 응답 (AIR) 기능을 사용 하 여 조직의 위협 으로부터 발생 하는 콘텐츠, 장치 및 사용자와 관련 된 시간과 노력을 절감할 수 있습니다. AIR 프로세스는 특정 알림이 트리거될 때 또는 보안 운영 팀이 시작 될 때 시작 될 수 있습니다. 자세한 내용은 [Office 365의 자동화 된 조사 및 응답 (AIR)](automated-investigation-response-office.md)을 참조 하세요. 
   
-## <a name="learn-more-about-malware-and-threats"></a>맬웨어 및 위협에 대해 자세히 알아보기
+## <a name="threat-intelligence-widgets"></a>위협 인텔리전스 위젯
 
 보안 분석가는 Office 365 Advanced Threat Protection 계획 2 제공의 일부로 알려진 위협에 대 한 세부 정보를 검토할 수 있습니다. 이 기능은 사용자가 안전 하 게 유지 하기 위해 수행할 수 있는 추가 예방 조치/단계가 있는지 여부를 확인 하는 데 유용 합니다.
   

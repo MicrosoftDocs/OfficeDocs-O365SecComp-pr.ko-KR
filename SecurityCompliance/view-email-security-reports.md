@@ -1,9 +1,9 @@
 ---
 title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
-ms.author: chrfox
-author: chrfox
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
-ms.date: 05/21/2019
+ms.date: 08/29/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 1e9d51c76b6df02c9d70626392a58c307ee214db
-ms.sourcegitcommit: 7a0cb7e1da39fc485fc29e7325b843d16b9808af
+ms.openlocfilehash: 90b4ab2c9fafc5c882791a5471e7e5a24f5ae4bd
+ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36230422"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36761714"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -142,7 +142,7 @@ ms.locfileid: "36230422"
   
 ## <a name="spam-detections-report"></a>스팸 감지 보고서
 
-**스팸 감지** 보고서에는 Exchange Online에서 차단 된 모든 스팸 콘텐츠가 표시 됩니다. 
+**스팸 감지** 보고서에는 Exchange Online에서 차단 된 모든 스팸 콘텐츠가 표시 됩니다. 메시지는 받는 사람이 아닌 메시지당 계산 됩니다. 예를 들어 조직에서 100 받는 사람에 게 전자 메일 메시지를 보낸 경우에는 하나의 메시지로 계산 됩니다.
   
 이 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **스팸 감지**로 이동 합니다.
   

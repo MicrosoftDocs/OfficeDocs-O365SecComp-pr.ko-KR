@@ -13,20 +13,20 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 이 솔루션은 가장 일반적인 사이버 보안 공격이 Office 365에서 어떤 방식으로 표시 될 수 있는지와이에 대처 하는 방법을 알려줍니다.
-ms.openlocfilehash: 900022d97c974bdf84d3077c1127e715c06fa5de
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+description: 이 솔루션은 Office 365에서 가장 일반적인 cybersecurity 공격과 그에 대응 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: f756141b9edfdef2769f18979dcab5ba731ee3fe
+ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157680"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36761674"
 ---
 # <a name="office-365-security-incident-response"></a>Office 365 보안 사고 대응
 
- **요약:** 이 솔루션은 Office 365에서 가장 일반적인 사이버 보안 공격에 대 한 지표, 지정 된 공격을 확실 하 게 확인 하는 방법 및 응답 하는 방법을 알려줍니다.
+ **요약:** 이 솔루션은 Office 365에서 가장 일반적인 cybersecurity 공격에 대 한 지표, 지정 된 공격을 확실 하 게 확인 하는 방법 및 응답 하는 방법을 알려줍니다.
   
 ## <a name="overview"></a>개요
-모든 사이버 공격이 thwarted 수 있는 것은 아닙니다. 공격자가 방어 전략의 새로운 약점을 지속적으로 찾고 있거나 이전 버전을 이용 하 고 있습니다. 공격을 인식 하는 방법을 알면 보다 신속 하 게 응답 하 여 보안 인시던트 기간을 단축할 수 있습니다.
+모든 고 사이버 공격이 thwarted 수 있는 것은 아닙니다. 공격자가 방어 전략의 새로운 약점을 지속적으로 찾고 있거나 이전 버전을 이용 하 고 있습니다. 공격을 인식 하는 방법을 알면 보다 신속 하 게 응답 하 여 보안 인시던트 기간을 단축할 수 있습니다.
 
 이 문서 시리즈는 Office 365에서 특정 유형의 공격을 이해 하 고이를 처리할 수 있는 단계를 제공 하는 데 도움이 됩니다. 다음은 이해를 위한 빠른 입력 사항입니다.
  

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: DoS (서비스 거부) 공격의 개요
-ms.openlocfilehash: df3ab233271f02b91f16f8954972a61000bf4d3b
-ms.sourcegitcommit: aa60a6cdf83c67576e858668d1182cd4fffeb5e0
+ms.openlocfilehash: 94f87a11f396cb8ef09fd6d670d73ba8d1e88eda
+ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33622478"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36761664"
 ---
 # <a name="defend-against-denial-of-service-attacks-in-office-365"></a>Office 365에서 서비스 거부 공격 으로부터 보호
 
@@ -34,7 +34,7 @@ Microsoft는 100 데이터 센터 보다 많은 글로벌 클라우드 인프라
 - 시간이
 - Xbox LIVE
 
-인터넷 현재 상태와 클라우드 서비스를 제공 하는 다양 한 인터넷 속성을 가진 전역 조직으로, Microsoft는 해커 및 기타 악의적인 개인이 사용할 수 있는 광범위 한 일반 목표입니다. 클라이언트와 Microsoft 클라우드 간의 네트워크 통신 계층은 악의적인 공격의 가장 큰 목표 중 하나입니다. 실제로 Microsoft는 일종의 네트워크 기반 사이버 공격 하 여 지속적이 고 지속적으로 영구적으로 사용 됩니다. 이 줄에서 Microsoft는 심층 방어 보안 원칙을 사용 하 여 클라우드 서비스 및 네트워크를 보호 합니다. 이러한 공격 으로부터 보호 하는 안정적이 고 지속적인 완화 시스템이 없는 경우 Microsoft의 클라우드 서비스는 오프 라인 상태 이며 고객이 사용할 수 없습니다.
+인터넷 현재 상태와 클라우드 서비스를 제공 하는 다양 한 인터넷 속성을 가진 전역 조직으로, Microsoft는 해커 및 기타 악의적인 개인이 사용할 수 있는 광범위 한 일반 목표입니다. 클라이언트와 Microsoft 클라우드 간의 네트워크 통신 계층은 악의적인 공격의 가장 큰 목표 중 하나입니다. 실제로 Microsoft는 특정 형태의 네트워크 기반에서는 사이버 공격과 계속 해 서 지속적으로 영구적으로 사용 됩니다. 이 줄에서 Microsoft는 심층 방어 보안 원칙을 사용 하 여 클라우드 서비스 및 네트워크를 보호 합니다. 이러한 공격 으로부터 보호 하는 안정적이 고 지속적인 완화 시스템이 없는 경우 Microsoft의 클라우드 서비스는 오프 라인 상태 이며 고객이 사용할 수 없습니다.
 
 ## <a name="definition-and-symptoms-of-denial-of-service-attacks"></a>서비스 거부 공격의 정의 및 증상
 

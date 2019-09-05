@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 계획 보안 및 규정 준수에 대 한 랜딩 페이지
 ms.collection: M365-security-compliance
-ms.openlocfilehash: c125bd36494e26d9603b565dc5154b975604f2b3
-ms.sourcegitcommit: 9d67cb52544321a430343d39eb336112c1a11d35
+ms.openlocfilehash: 80e6215f1f4f5c04202f15e05622dfddae65d59b
+ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34157510"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36761624"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Office 365의 &amp; 보안 준수 계획
 
@@ -39,7 +39,7 @@ Office 365 구독을 설정한 후에는 시작 점수를 기록해 둡니다. �
     
 ## <a name="step-3-plan-access-protection-for-identity-and-devices"></a>3 단계: id 및 장치에 대 한 액세스 보호 계획
 
-Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 사이버 공격을 방지 하 고 데이터 손실 로부터 보호 하는 데 매우 중요 합니다.
+Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 고 사이버 공격을 방어 하 고 데이터 손실 으로부터 보호 하는 데 매우 중요 합니다.
   
 - [Office 365에서 데이터 및 서비스에 대한 액세스 보호](protect-access-to-data-and-services.md)
     

@@ -13,16 +13,16 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: O365 데이터 및 서비스에 대 한 액세스를 보호 하기 위한 랜딩 페이지
-ms.openlocfilehash: 7cddedfbb5b0b7789f370f0445be167b6d4e187d
-ms.sourcegitcommit: b9d8a43cb3afcdc8820bc9470c5707eff8fc6616
+ms.openlocfilehash: 9fc1691e7e36f994b5d0b8a6a9735fe8ccd8735a
+ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34852742"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36761614"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 
-Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 사이버 공격을 방지 하 고 데이터 손실 로부터 보호 하는 데 매우 중요 합니다. 해당 환경의 다른 SaaS 응용 프로그램 및 Azure Active Directory 응용 프로그램 프록시를 사용 하 여 게시 된 온-프레미스 응용 프로그램에도 동일한 보호를 적용할 수 있습니다.
+Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 고 사이버 공격을 방어 하 고 데이터 손실 으로부터 보호 하는 데 매우 중요 합니다. 해당 환경의 다른 SaaS 응용 프로그램 및 Azure Active Directory 응용 프로그램 프록시를 사용 하 여 게시 된 온-프레미스 응용 프로그램에도 동일한 보호를 적용할 수 있습니다.
   
 ## <a name="step-1-review-recommendations"></a>1 단계: 권장 사항 검토
 
@@ -31,7 +31,7 @@ Azure AD 애플리케이션 프록시를 사용하여 게시한 온-프레미스
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
   
 ## <a name="step-2-protect-administrator-accounts-and-access"></a>2 단계: 관리자 계정 보호 및 액세스
-Office 365 환경을 관리 하는 데 사용 하는 관리 계정에 상승 된 권한이 포함 되어 있습니다. 해커 및 사이버 범죄자에 게 유용한 목표입니다. 
+Office 365 환경을 관리 하는 데 사용 하는 관리 계정에 상승 된 권한이 포함 되어 있습니다. 다음은 해커 및 cyberattackers에 대 한 귀중 한 목표입니다. 
 
 먼저 관리용 관리자 계정만 사용 합니다. 관리자에 게는 관리 작업과 관련 된 일반 사용을 위한 별도의 사용자 계정이 있어야 하며, 해당 작업 기능과 연결 되는 작업을 완료 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다.
 
@@ -56,7 +56,7 @@ MFA (multi-factor authentication) 및 조건부 액세스 정책은 손상 된 �
 - Intune 장치 준수
 - Azure AD ID 보호
 
-Implemetning Intune 장치 준수에는 장치 등록이 필요 합니다. 장치를 관리 하면 해당 환경의 리소스에 대 한 액세스를 허용 하기 전에 정상 및 호환이 가능 하도록 할 수 있습니다. [Intune에서 관리용 장치 등록](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) 을 참조 하세요.
+Intune 장치 준수를 구현 하려면 장치 등록이 필요 합니다. 장치를 관리 하면 해당 환경의 리소스에 대 한 액세스를 허용 하기 전에 정상 및 호환이 가능 하도록 할 수 있습니다. [Intune에서 관리용 장치 등록](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) 을 참조 하세요.
 
 ## <a name="step-4-configure-sharepoint-device-access-policies"></a>4 단계: SharePoint 장치 액세스 정책 구성
 
