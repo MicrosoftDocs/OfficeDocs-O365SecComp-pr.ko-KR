@@ -4,7 +4,7 @@ keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/04/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.openlocfilehash: 2c64ea936170524811839db7c593d67bfe11a928
-ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
+ms.openlocfilehash: c2c2b9a0409c472c99b07293a002f9bdbf6c5090
+ms.sourcegitcommit: e6c0d9aea3172a5ccc6c7943625d69144ba20aca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36762029"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790932"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365에서 위협에 대 한 자동 조사 및 응답
 
@@ -89,6 +89,12 @@ Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장
 5. 목록에서 항목을 선택 합니다. 플라이 아웃이 열리고 경고에 대 한 세부 정보와 추가 정보 및 작업에 대 한 링크가 제공 됩니다.
 
 6. 플라이 아웃에 대 한 정보를 검토 하 고, 특정 경고에 따라 사용자에 대 한 **해결**, **억제**또는 **알림**등의 작업을 수행 합니다. 
+
+    - **확인** 은 경고를 닫는 것과 동일 합니다.
+    
+    - 정책이 지정 된 기간에 대해 알림을 트리거하지 **않도록 설정 합니다** .
+    
+    - **사용자에** 게 사용자의 전자 메일 주소가 이미 입력 된 전자 메일을 시작 하 고, 보안 운영 팀에서 해당 사용자에 게 메시지를 입력할 수 있도록 합니다. 이는 [위협 탐색기](threat-explorer.md)를 사용 하 여 받는 사람에 게 메시지를 보내는 것과 비슷합니다.  
 
 ## <a name="use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>사용자 지정 또는 타사 보고 솔루션에 Office 365 관리 활동 API 사용
 
