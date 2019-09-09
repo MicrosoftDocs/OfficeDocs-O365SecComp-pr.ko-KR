@@ -213,6 +213,7 @@
 ## [위협 트래커 사용](threat-trackers.md)
 ## [Office 365에서의 공격 시뮬레이터 사용](attack-simulator.md)
 ## [위협 조사 및 응답을 활용하여 사용자 안전 보장](keep-users-safe-with-office-365-ti.md)
+## [Office 365의 위협에 대한 자동 조사 및 응답](office-365-air.md)
 ## [배달된 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
 ## [위협 탐색기 (실시간 검출)](threat-explorer.md)
 ### [위협 탐색기 보기](threat-explorer-views.md)
