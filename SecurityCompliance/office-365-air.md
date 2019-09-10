@@ -4,7 +4,7 @@ keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/06/2019
+ms.date: 09/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,18 +14,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.openlocfilehash: c2c2b9a0409c472c99b07293a002f9bdbf6c5090
-ms.sourcegitcommit: e6c0d9aea3172a5ccc6c7943625d69144ba20aca
+ms.openlocfilehash: 45fea46a591aac88a8d92c7a67d024d1446e9124
+ms.sourcegitcommit: 81b3bff27bc60235a38004c5b0297ac454331b25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790932"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "36822498"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365에서 위협에 대 한 자동 조사 및 응답
 
 ## <a name="overview"></a>개요
 
-[Office 365 Advanced Threat Protection](office-365-atp.md) 요금제 2에는 경고 및 위협을 처리할 때 보안 작업 팀의 시간과 노력을 절감할 수 있는 자동화 된 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 이 문서를 읽으면 Office 365의 AIR 기능 사용을 시작할 수 있습니다. AIR의 작동 방식에 대 한 자세한 내용은 [자동화 된 조사 및 응답 (air)과 Office 365](automated-investigation-response-office.md)을 참조 하세요.
+[Office 365 Advanced Threat Protection](office-365-atp.md) 요금제 2에는 경고 및 위협 처리에 대 한 보안 작업 팀의 시간과 노력을 줄일 수 있는 자동 인시던트 응답 (AIR) 기능이 포함 되어 있습니다. 이 문서를 읽으면 Office 365의 AIR 기능 사용을 시작할 수 있습니다. AIR의 작동 방식에 대 한 자세한 내용은 [Office 365에서 자동 인시던트 응답 (AIR)](automated-investigation-response-office.md)을 참조 하세요.
 
 AIR을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 playbook가 시작 되 고 자동 조사가 시작 됩니다. 자동화 된 조사 프로세스 중 및 후에 관리자와 보안 운영 팀은 다음을 수행할 수 있습니다.
 
@@ -98,7 +98,7 @@ Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장
 
 ## <a name="use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions"></a>사용자 지정 또는 타사 보고 솔루션에 Office 365 관리 활동 API 사용
 
-조직에서 사용자 지정 보고 솔루션 또는 타사 보고 솔루션을 사용 하는 경우에는 Office 365 관리 활동 API를 사용 하 여 해당 솔루션의 자동화 된 조사에 대 한 정보를 볼 수 있습니다.
+조직에서 사용자 지정 또는 타사 보고 솔루션을 사용 하는 경우에는 Office 365 관리 활동 API를 사용 하 여 해당 솔루션의 자동화 된 조사에 대 한 정보를 볼 수 있습니다.
 
 다음 리소스를 사용 하 여이를 설정할 수 있습니다.
 

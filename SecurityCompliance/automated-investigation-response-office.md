@@ -1,9 +1,9 @@
 ---
-title: Office 365의 자동화 된 조사 및 응답 (AIR)
+title: Office 365의 AIR (자동 사고 응답)
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/04/2019
+ms.date: 09/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,17 +12,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Office 365 Advanced Threat Protection의 자동화 된 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: a62714adb0682d3faf27e25fff365bb1ba6d4fc5
-ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
+description: Office 365 Advanced Threat Protection의 자동화 된 문제 대응 기능에 대해 알아봅니다.
+ms.openlocfilehash: 84b68efe35ebefddf4770f491cc3be453a81f577
+ms.sourcegitcommit: 81b3bff27bc60235a38004c5b0297ac454331b25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36761704"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "36822488"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
+# <a name="automated-incident-response-air-in-office-365"></a>Office 365의 AIR (자동 사고 응답)
 
-자동 조사 및 응답 (AIR) 기능 ( [Office 365 Advanced Threat Protection](office-365-atp.md) Plan 2에 포함)은 오늘 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있도록 합니다. 이 문서를 읽으면 AIR의 개요를 확인 하 고 조직 및 보안 운영 팀이 위협을 보다 효율적이 고 효율적으로 완화 하는 데 도움을 주는 방법을 확인할 수 있습니다. AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
+자동 인시던트 대응 (AIR) 기능 ( [Office 365 Advanced Threat Protection](office-365-atp.md) Plan 2에 포함)은 현재 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있도록 합니다. 이 문서를 읽으면 AIR의 개요를 확인 하 고 조직 및 보안 운영 팀이 위협을 보다 효율적이 고 효율적으로 완화 하는 데 도움을 주는 방법을 확인할 수 있습니다. AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
 
 > [!NOTE]
 > 이 문서에서 설명 하는 작업을 수행 하려면 전역 관리자, 보안 관리자, 보안 운영자 또는 보안 독자 여야 합니다. 자세한 내용은 [Microsoft 365 보안 센터: 역할 및 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)참조 하세요.
@@ -102,19 +102,22 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 - 필터를 적용 합니다. **조사 유형**, **시간 범위**, **상태**또는 이들의 조합 중에서 선택 합니다.
 - 데이터를 .csv 파일로 내보냅니다.
 
-조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 상태가 변경 되어 위협이 발견 되었는지 여부와 작업이 승인 되었는지 여부를 나타냅니다. 
-- **시작**: 조사가 곧 시작 되기 위해 대기 중입니다.
-- **실행**중: 조사가 시작 되었으며 분석을 수행 하 고 있습니다.
-- **발견 된 위협이 없는**경우: 조사가 분석을 완료 했으며 위협이 발견 되지 않음
-- **시스템 종료**: 7 일 후에 조사가 종료 및 만료 되지 않았습니다.
-- **보류 중인 작업**: 조사에서 권장 되는 작업을 발견 했습니다.
-- **발견 된 위협**: 조사에서 위협이 발견 되었지만 해당 위협이 AIR 내에서 사용할 수 있는 작업을 포함 하지 않음
-- **재구성**됨: 조사가 완료 되어 완전히 재구성 되었습니다 (모든 작업이 승인 됨).
-- **부분적으로 재구성**됨: 조사가 완료 되었으며 일부 권장 작업을 승인 했습니다.
-- **종료**됨: 관리자가 조사를 종료 했습니다.
-- **실패**: 조사 중에 위협의 결론에 도달 하지 못하도록 차단 하는 동안 오류가 발생 했습니다.
-- **제한 대기**: 시스템 처리 제한 (서비스 성능 보호)을 통해 조사가 분석을 기다리는 중입니다.
-- **종료 된 제한**: 조사 볼륨 및 시스템 처리 제한으로 인해 조사를 충분 한 시간 내에 완료할 수 없습니다. 탐색기에서 전자 메일을 선택 하 고 조사 작업을 선택 하 여 조사를 다시 트리거할 수 있습니다.
+조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 다음 표에 설명 된 대로 상태가 변경 되어 위협이 발견 되었는지 여부를 표시 하 고 작업이 승인 되었는지 여부를 나타냅니다.
+
+|상태 | 설명  |
+|----|----| 
+|**시작 중**|조사가 곧 시작 되기 위해 대기 중입니다. |
+|**부족** |조사가 시작 되었으며 분석을 수행 하 고 있습니다. |
+|**발견 된 위협 없음** |조사가 분석을 완료 했으며 위협이 발견 되지 않음 |
+|**시스템 종료** |7 일 후에 조사가 종료 되지 않고 만료 되었습니다. |
+|**보류 중인 작업** |조사에서 권장 되는 작업의 위협을 발견 했습니다. |
+|**발견 된 위협** |조사에서 위협이 발견 되었지만 해당 위협이 AIR 내에서 사용할 수 있는 작업을 포함 하지 않음 |
+|**수정** |조사가 완료 되어 완전히 재구성 되었습니다 (모든 작업이 승인 됨). |
+|**부분 재구성** |조사가 완료 되었으며 일부 권장 작업을 승인 했습니다. |
+|**사용자가 종료** |관리자가 조사를 종료 했습니다. |
+|**실패**|조사 중에 위협의 결론에 도달 하지 못하도록 차단 하는 동안 오류가 발생 했습니다. |
+|**제한에 의해 대기**|조사에서 시스템 처리 제한 (서비스 성능 보호)으로 인해 분석을 기다리는 중입니다. |
+|**제한에 의해 종료 됨**|조사 볼륨 및 시스템 처리 제한으로 인해 조사를 충분 한 시간 내에 완료할 수 없습니다. 탐색기에서 전자 메일을 선택 하 고 조사 작업을 선택 하 여 조사를 다시 트리거할 수 있습니다. |
 
 ### <a name="investigation-graph"></a>조사 그래프
 
@@ -270,7 +273,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ## <a name="example-a-security-administrator-triggers-an-investigation-from-threat-explorer"></a>예: 보안 관리자가 위협 탐색기에서 조사를 트리거합니다.
 
-알림을 통해 트리거되는 자동 조사 외에 조직의 보안 운영 팀은 [위협 탐색기](use-explorer-in-security-and-compliance.md)의 보기에서 자동 조사를 트리거할 수 있습니다.
+알림을 통해 트리거되는 자동화 된 조사 외에 조직의 보안 운영 팀은 [위협 탐색기](use-explorer-in-security-and-compliance.md)의 보기에서 자동화 된 조사를 트리거할 수 있습니다.
 
 예를 들어 Explorer에서 사용자가 보고 한 메시지에 대 한 데이터를 보고 있다고 가정 합니다. 결과 목록에서 항목을 선택한 다음 **조사**를 클릭할 수 있습니다.
 
@@ -280,7 +283,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![탐색기에서 맬웨어 조사 시작](media/Explorer-Malware-Email-ActionsInvestigate.png)
 
-경고로 트리거되는 playbook와 마찬가지로, 탐색기의 보기에서 트리거되는 자동 조사에는 루트 조사, 위협의 식별 및 상관 지정, 위협 완화를 위한 권장 작업 등이 포함 됩니다.
+경고로 트리거되는 playbook와 마찬가지로, 탐색기의 보기에서 트리거되는 자동화 된 조사에는 루트 조사, 위협의 식별 및 연결 단계, 그리고 이러한 위협을 완화 하기 위한 권장 작업이 포함 됩니다.
 
 ## <a name="how-to-get-air"></a>공기를 얻는 방법
 
