@@ -227,7 +227,7 @@
 ### [동적 배달 및 미리 보기 세부 정보](dynamic-delivery-and-previewing.md)
 ### [SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP](atp-for-spo-odb-and-teams.md)
 ### [위협 조사 및 응답이 작동하는 방식](office-365-ti.md)
-### [자동화된 조사 및 응답이 작동하는 방식](automated-investigation-response-office.md)
+### [자동화된 사고 대응이 작동하는 방식](automated-investigation-response-office.md)
 
 
 # 보안 사고 관리

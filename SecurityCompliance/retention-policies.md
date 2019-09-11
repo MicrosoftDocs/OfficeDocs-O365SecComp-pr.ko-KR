@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게만 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에만 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 71c7fbf06709dd9d7e6ba3f084e0377f821ca171
-ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
+ms.openlocfilehash: bb5c9a8c3c2443ff6913b3de1b88807d7530384e
+ms.sourcegitcommit: 81b3bff27bc60235a38004c5b0297ac454331b25
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36444898"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "36822508"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -51,8 +51,8 @@ ms.locfileid: "36444898"
   
 다음에서 보존 정책을 만들고 관리합니다.
 
-- Microsoft 365 규정 준수 센터의 **정책** 페이지
-- Office 365 보안 &amp; 준수 센터의 **데이터 관리** 아래에 있는 **보존** 페이지
+- [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)의 **정책** 페이지
+- [Office 365 보안 &amp; 규정 준수 센터](https://protection.office.com/)의 **데이터 관리** 아래에 있는 **보존** 페이지.
   
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>보존 정책이 원본 위치의 콘텐츠에 작동하는 방식
 
@@ -187,7 +187,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
     
 - OneDrive 계정
     
-- Office 365 그룹(그룹의 사서함, 사이트 및 문서에 있는 콘텐츠에 적용됩니다. Planner, Yammer 및 CRM 콘텐츠에 대한 지원도 곧 제공될 예정입니다.)
+- Office 365 그룹(그룹의 사서함, 사이트 및 문서의 콘텐츠에 적용됩니다.)
     
 - Exchange 공용 폴더
     
@@ -198,6 +198,8 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
 - 정책이 포함할 수 있는 사서함 또는 사이트 개수에 제한이 없습니다.
     
 - Exchange의 경우 정책이 적용된 후에 만들어진 모든 새 사서함은 해당 정책을 자동으로 상속합니다.
+
+
   
 ### <a name="a-policy-that-applies-to-entire-locations"></a>전체 위치에 적용되는 정책
 
@@ -231,7 +233,7 @@ Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 �
 
 ### <a name="office-365-groups-locations"></a>Office 365 그룹 위치
 
-Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사용해야 합니다. Office 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Office 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. Office 365 그룹에 적용된 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다.
+Office 365 그룹의 콘텐츠를 보존하려면 Office 365 그룹 위치를 사용해야 합니다. Office 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Office 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. Office 365 그룹에 적용되는 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다. Office 365 그룹에 적용된 보존 정책은 Microsoft Teams를 포함하는 Office 365 그룹에서 만든 리소스를 보호합니다.
 
 또한 Exchange 위치를 사용하여 특정 그룹 사서함을 포함하거나 제외할 수 없습니다. 초기에 Exchange 위치가 선택될 그룹 사서함을 허용하더라도 보존 정책을 저장하려고 시도할 때 “RemoteGroupMailbox”가 Exchange 위치에 유효하지 않은 선택이라는 오류가 나타나게 됩니다. 
   
@@ -253,7 +255,7 @@ Teams의 보존 기능에 대한 작업이 진행 중이며 추가 기능이 제
     
 - **Teams에서 보존된 콘텐츠를 정리하는 데 최대 30일이 소요될 수 있음** Teams에 적용되는 보존 정책은 모든 관련 저장소 위치에서 콘텐츠를 삭제합니다. 그러나 시작된 후 즉시, Teams 클라이언트가 보존 정책에 따라 콘텐츠를 정리하는 데 최대 30일이 걸릴 수 있습니다. 하지만 보존 기간이 끝난 후에는 콘텐츠가 Teams 클라이언트에 계속 표시되더라도 콘텐츠 검색 또는 eDiscovery에는 나타나지 않습니다. 
     
-팀에서 채팅 시 공유된 파일이 파일을 공유한 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 팀용 SharePoint 사이트에 저장됩니다. 따라서 Teams에서 파일을 보존하거나 삭제하려면 SharePoint 및 OneDrive 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 팀의 파일에만 정책을 적용하려는 경우 팀용 SharePoint 사이트와 팀에 포함된 사용자의 OneDrive 계정을 선택할 수 있습니다.
+팀의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 따라서 팀의 파일을 보존하거나 삭제하려면 구첵적으로 SharePoint 및 OneDrive 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 팀의 파일에 정책을 적용하려면 해당 팀의 SharePoint 사이트 및 해당 팀 사용자의 OneDrive 계정을 선택할 수 있습니다.
   
 Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-policy)을 사용할 수 있습니다.
   
@@ -339,6 +341,8 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
 - [Office 365 보안 및 준수 센터에서 eDiscovery 사례 관리](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)(eDiscovery 보류) 
     
 - [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)(eDiscovery 보류) 
+
+- [Exchange Online 사서함의 보류 유형을 식별하는 방법](https://docs.microsoft.com/office365/securitycompliance/identify-a-hold-on-an-exchange-online-mailbox)
     
 - [보존 태그 및 보존 정책](https://go.microsoft.com/fwlink/?linkid=846125)([[MRM(메시징 레코드 관리)라고도 함]](https://go.microsoft.com/fwlink/?linkid=846126)(삭제만 해당) 
     
@@ -364,11 +368,11 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
   
 ## <a name="what-happened-to-preservation-policies"></a>보류 정책은 어떻게 되었나요?
 
-기존에 유지 정책을 사용한 경우, 해당 정책은 보존 작업만 수행하는 보존 정책으로 자동 변환되었습니다. 즉, 콘텐츠 삭제 작업은 수행하지 않습니다. 앞으로도 유지 정책이 계속해서 작동하며 사용자가 변경하지 않아도 콘텐츠를 계속 유지합니다. 이러한 정책은 Microsoft 365 규정 준수 센터의 **정책** 페이지 또는 보안 &amp; 준수 센터의 **데이터 관리** 아래에 있는 **보존** 페이지에서 찾을 수 있습니다. 유지 정책의 보존 기간을 변경할 수는 있지만, 위치를 추가하거나 제거하는 등의 다른 변경은 수행할 수 없습니다. 
+기존에 유지 정책을 사용한 경우, 해당 정책은 보존 작업만 수행하는 보존 정책으로 자동 변환되었습니다. 즉, 콘텐츠 삭제 작업은 수행하지 않습니다. 앞으로도 유지 정책이 계속해서 작동하며 사용자가 변경하지 않아도 콘텐츠를 계속 유지합니다. 이러한 정책은 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)의 **정책** 페이지 또는 [보안 &amp; 규정 준수 센터](https://protection.office.com/)의 **데이터 관리** 아래에 있는 **보존** 페이지에서 찾을 수 있습니다. 유지 정책의 보존 기간을 변경할 수는 있지만, 위치를 추가하거나 제거하는 등의 다른 변경은 수행할 수 없습니다. 
   
 ## <a name="permissions"></a>권한
 
-보존 정책을 만드는 규정 준수 팀의 구성원에게는 보안 및 준수 센터에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 준수 관리자 및 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, 보안 및 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이렇게 하기 위해 보안 및 준수 센터의 **권한** 페이지로 이동한 후 **준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
+보존 정책을 만드는 규정준수 팀의 구성원은 [보안 &amp; 규정 준수 센터](https://protection.office.com/)에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 준수 관리자 및 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, [보안 &amp; 규정 준수 센터](https://protection.office.com/)에 대한 액세스 권한을 부여할 수 있습니다. 이렇게 하기 위해 [보안 &amp; 준수 센터](https://protection.office.com/)의 **권한** 페이지로 이동한 후 **준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
   
 자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
   
@@ -385,5 +389,7 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 ## <a name="more-information"></a>추가 정보
 
 - [레이블 개요](labels.md)
+- [SharePoint Online 제한 사항](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
+- [Microsoft Teams의 제한 사항 및 사양](https://docs.microsoft.com/ko-KR/microsoftteams/limits-specifications-teams) 
     
 
