@@ -1,7 +1,7 @@
 ---
 title: Office 365 위협 조사 및 응답
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 ms.date: 08/23/2019
 audience: Admin
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 1d31f3a464060f5b72730e15895d918e61aa09a1
-ms.sourcegitcommit: 4a2bde56178609e75c1ad7ecad2db5e049fc0c45
+ms.openlocfilehash: 0edf68f3383759a4cffd9cb7c25260a51913beb0
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36761654"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852770"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -74,7 +74,7 @@ ms.locfileid: "36761654"
 
 ### <a name="automated-investigation-and-response"></a>자동화된 조사 및 응답
 
-자동화 된 조사 및 응답 (AIR) 기능을 사용 하 여 조직의 위협 으로부터 발생 하는 콘텐츠, 장치 및 사용자와 관련 된 시간과 노력을 절감할 수 있습니다. AIR 프로세스는 특정 알림이 트리거될 때 또는 보안 운영 팀이 시작 될 때 시작 될 수 있습니다. 자세한 내용은 [Office 365의 자동화 된 조사 및 응답 (AIR)](automated-investigation-response-office.md)을 참조 하세요. 
+자동화 된 조사 및 응답 (AIR) 기능을 사용 하 여 조직의 위협 으로부터 발생 하는 콘텐츠, 장치 및 사용자와 관련 된 시간과 노력을 절감할 수 있습니다. AIR 프로세스는 특정 알림이 트리거될 때 또는 보안 운영 팀이 시작 될 때 시작 될 수 있습니다. 자세한 내용은 [Office 365에 대 한 자동 인시던트 응답 (AIR)](automated-investigation-response-office.md)을 참조 하세요. 
   
 ## <a name="threat-intelligence-widgets"></a>위협 인텔리전스 위젯
 

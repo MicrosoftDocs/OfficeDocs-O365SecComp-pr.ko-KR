@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: cbcacb3f85877f5a84238468fb52d612d90f5f0b
-ms.sourcegitcommit: 3f3f3ecb28ef65d023f3573f9a4e09a0586d8f53
+ms.openlocfilehash: b784b7509eed899f9f03db96ee5e827b9bf70d2e
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36490775"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852750"
 ---
 # <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
@@ -1096,13 +1096,13 @@ emšo
 
 ### <a name="format"></a>형식일
 
-7 자리 숫자와 문자 1 개
+8 자리 숫자와 문자 1 개
   
 ### <a name="pattern"></a>패턴
 
-7 자리 숫자와 문자 1 개
+8 자리 숫자와 문자 1 개
   
-- 7자리 숫자
+- 8자리 숫자
     
 - 1 자리 숫자 또는 문자 (대/소문자 구분 안 함)
     

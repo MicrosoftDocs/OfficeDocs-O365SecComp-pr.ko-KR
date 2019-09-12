@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 049d26a328074be5e209ddecd959cd888a34b650
-ms.sourcegitcommit: dbcb3df3b313f7a9ea6669425e0a0498be844ae9
+ms.openlocfilehash: b404fdf5abaf0031313b211c2ef2d415045de4d1
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36444888"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852800"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -137,9 +137,9 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 ## <a name="start-automated-investigation-and-response"></a>자동 조사 및 응답 시작
 
 > [!NOTE]
-> 자동화 된 조사 및 응답 기능은 **office 365 ATP 계획 2** 및 **Office 365 E5**에서 사용할 수 있습니다.
+> 자동 인시던트 응답 기능은 **office 365 ATP 계획 2** 및 **Office 365 E5**에서 사용할 수 있습니다.
 
-(새로운 방법!) [자동화 된 조사 및 응답](automated-investigation-response-office.md) 은 사이버 공격을 조사 하 고 완화 하는 과정에서 보안 운영 팀을 훨씬 더 많은 시간과 노력으로 절감할 수 있습니다. 보안 playbook 트리거될 수 있는 알림을 구성 하는 것 외에도 탐색기의 보기에서 자동화 된 조사 및 응답 프로세스를 시작할 수 있습니다. 
+(새로운 방법!) [자동 인시던트 대응](automated-investigation-response-office.md) 을 통해 보안 운영 팀이 고 사이버 공격을 조사 및 완화할 때 필요한 시간과 노력을 많이 절감할 수 있습니다. 보안 playbook 트리거될 수 있는 알림을 구성 하는 것 외에도 탐색기의 보기에서 자동화 된 조사 및 응답 프로세스를 시작할 수 있습니다. 
 
 이에 대 한 자세한 내용은 [예제: 보안 관리자가 탐색기에서 조사를 트리거하는 예](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)를 참조 하십시오.
 

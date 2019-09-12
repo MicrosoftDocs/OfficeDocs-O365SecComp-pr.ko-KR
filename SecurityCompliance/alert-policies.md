@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다. 그런 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 688c33438c94467915ff0ed14c8ab4c28fed566b
-ms.sourcegitcommit: 81b3bff27bc60235a38004c5b0297ac454331b25
+ms.openlocfilehash: 02ac10dfb7b98f939e1020b953d8c88ebd71459f
+ms.sourcegitcommit: ff370e93b792204547694139ef99bc0848304570
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "36822468"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852740"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -56,7 +56,7 @@ Office 365 및 Microsoft 365 보안 및 준수 센터의 새 경고 정책 및 �
 - **활동 추적이 진행 중 이며** , 작업을 추적 하는 정책을 만들거나, 공유 하 여 외부 사용자와 파일을 공유 하거나, 액세스 권한을 할당 하거나, 익명 링크를 만드는 등 몇 가지 관련 작업을 수행할 수 있습니다. 사용자가 정책에 정의 된 작업을 수행 하면 경고 임계값 설정에 따라 경고가 트리거됩니다.
 
     > [!NOTE]
-    > 추적할 수 있는 작업은 조직의 Office 365 Enterprise 또는 Office 365 US 정부 계획에 따라 달라 집니다. 일반적으로 맬웨어 캠페인과 피싱 공격과 관련 된 활동에는 위협 인텔리전스 추가 기능 구독을 포함 하는 E5/G5 구독 또는 E1/G1 또는 E3/G3 구독이 필요 합니다.
+    > 추적할 수 있는 작업은 조직의 Office 365 Enterprise 또는 Office 365 US 정부 계획에 따라 달라 집니다. 일반적으로 맬웨어 캠페인과 피싱 공격과 관련 된 활동을 수행 하려면 [Office 365 Advanced Threat Protection](office-365-atp.md) 요금제 2 추가 기능 구독이 있는 E5/G5 구독 또는 E1/G1 또는 E3/G3 구독이 필요 합니다.
 
 - **활동 조건** -대부분의 활동에서는 경고를 트리거하기 위해 충족 해야 하는 추가 조건을 정의할 수 있습니다. 일반적인 조건에는 IP 주소 (사용자가 특정 IP 주소 또는 IP 주소 범위 내의 컴퓨터에서 활동을 수행할 때 경고가 트리거되기), 특정 사용자 또는 사용자가 해당 활동을 수행 하는 경우 경고가 트리거되는지 여부 및 활동은 특정 파일 이름 또는 URL에서 수행 됩니다. 조직의 모든 사용자가 활동을 수행할 때 경고를 트리거하는 조건도 구성할 수 있습니다. 사용 가능한 조건은 선택한 활동에 따라 달라 집니다.
 
@@ -102,13 +102,13 @@ Office 365에서는 Exchange 관리 권한 남용, 맬웨어 작업 및 데이�
 
 |**기본 경고 정책**|**설명**|**종류**|**Office 365 Enterprise 구독**|
 |:-----|:-----|:-----|:-----|
-|**잠재적으로 악의적인 URL 클릭이 검색 되었습니다.**|조직의 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 에서 보호 된 사용자가 악의적인 링크를 클릭 하면 경고를 생성 합니다. 이 이벤트는 URL 결과 변경 내용이 Office 365 ATP에서 식별 되거나 사용자가 조직의 Office 365 ATP 안전한 링크 페이지를 다시 365 정의할 때 발생 합니다. 이 경고 정책의 심각도는 **높은** 설정입니다. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다. 이 경고를 트리거하는 이벤트에 대 한 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
+|**잠재적으로 악의적인 URL 클릭이 검색 되었습니다.**|조직의 [Office 365 ATP 안전 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 에서 보호 된 사용자가 악의적인 링크를 클릭 하면 경고를 생성 합니다. 이 이벤트는 URL 결과 변경 내용이 Office 365 ATP에서 식별 되거나 사용자가 조직의 Office 365 ATP 안전한 링크 페이지를 다시 365 정의할 때 발생 합니다. 이 경고 정책의 심각도는 **높은** 설정입니다. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 인시던트 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다. 이 경고를 트리거하는 이벤트에 대 한 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](https://docs.microsoft.com/office365/securitycompliance/set-up-atp-safe-links-policies)참조 하십시오.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
 |**전달/리디렉션 규칙 만들기**|조직의 누군가가 사서함에 대해 다른 전자 메일 계정으로 메시지를 전달 하거나 리디렉션하는 받은 편지함 규칙을 만들 때 경고를 생성 합니다. 이 정책은 웹에서 Outlook (이전의 Outlook Web App) 또는 Exchange Online PowerShell을 사용 하 여 만든 받은 편지함 규칙만 추적 합니다. 이 정책의 심각도 설정은 **낮습니다** . 받은 편지함 규칙을 사용 하 여 웹에서 Outlook의 전자 메일을 전달 및 리디렉션하는 방법에 대 한 자세한 내용은 [웹에서 outlook의 규칙을 사용 하 여 다른 계정으로 메시지를 자동으로 전달](https://support.office.com/article/1433e3a0-7fb0-4999-b536-50e05cb67fed)를 참조 하세요.|위협 관리|E1/G1, E3/G3 또는 E5/G5|
 |**eDiscovery 검색을 시작 하거나 내보냈습니다.**|사용자가 보안 및 준수 센터에서 콘텐츠 검색 도구를 사용할 때 경고를 생성 합니다. 다음 콘텐츠 검색 활동이 수행 되 면 경고가 트리거됩니다. <br/><br/>• 콘텐츠 검색 시작<br/>• 콘텐츠 검색 결과를 내보냅니다.<br/>• 콘텐츠 검색 보고서 내보내기<br/><br/>경고는 이전 콘텐츠 검색 활동이 eDiscovery 사례와 연결 하 여 수행 되는 경우에도 트리거됩니다. 이 정책에는 **보통** 심각도 설정이 있습니다. 콘텐츠 검색 활동에 대 한 자세한 내용은 [Office 365 감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md#ediscovery-activities)을 참조 하십시오.|위협 관리|E1/G1, E3/G3 또는 E5/G5|
 |**Exchange 관리 권한 상승**|사용자가 Exchange Online 조직에서 관리 권한을 할당 했을 때 경고를 생성 합니다. 예를 들어 Exchange Online의 조직 관리 역할 그룹에 사용자를 추가 하는 경우를 예로 들 수 있습니다. 이 정책의 심각도 설정은 **낮습니다** .|사용 권한|E1/G1, E3/G3 또는 E5/G5|
-|**배달 후 제거 된 맬웨어를 포함 하는 전자 메일 메시지**|맬웨어를 포함 하는 메시지가 조직의 사서함에 배달 될 때 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책은 **정보** 심각도를 설정 하며 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
-|**배달 후 제거 된 피싱 Url을 포함 하는 전자 메일 메시지**|피싱가 포함 된 메시지가 조직의 사서함에 배달 되는 경우 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책은 **정보** 심각도를 설정 하며 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
-|**사용자가 맬웨어 또는 피싱 보고 한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용 하 여 메시지를 피싱 메일로 보고할 때 경고를 생성 합니다. 이 정책에는 **정보** 심각도 설정이 있습니다. 이 추가 기능에 대 한 자세한 내용은 [사용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.|위협 관리|E1/G1, E3/G3 또는 E5/G5|
+|**배달 후 제거 된 맬웨어를 포함 하는 전자 메일 메시지**|맬웨어를 포함 하는 메시지가 조직의 사서함에 배달 될 때 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책에는 **정보** 심각도 설정이 있으며 [Office 365 자동 인시던트 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 자동으로 트리거합니다.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
+|**배달 후 제거 된 피싱 Url을 포함 하는 전자 메일 메시지**|피싱가 포함 된 메시지가 조직의 사서함에 배달 되는 경우 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서는 [자동 삭제](https://docs.microsoft.com/en-us/office365/securitycompliance/zero-hour-auto-purge)를 사용 하 여 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책에는 **정보** 심각도 설정이 있으며 [Office 365 자동 인시던트 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 자동으로 트리거합니다.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
+|**사용자가 맬웨어 또는 피싱 보고 한 전자 메일**|조직의 사용자가 보고서 메시지 추가 기능을 사용 하 여 메시지를 피싱 메일로 보고할 때 경고를 생성 합니다. 이 정책에는 **정보** 심각도 설정이 있습니다. 이 추가 기능에 대 한 자세한 내용은 [사용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 자동으로 [Office 365 자동 인시던트 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 트리거합니다.|위협 관리|E1/G1, E3/G3 또는 E5/G5|
 |**메시지가 지연 되었습니다.**|Office 365에서 커넥터를 사용 하 여 온-프레미스 조직 또는 파트너 서버로 전자 메일 메시지를 배달할 수 없는 경우 경고를 생성 합니다. 이 경우 해당 메시지는 Office 365에서 큐에 대기 됩니다. 이 경고는 1 시간 이상 대기 된 메시지 수가 2000 개 이상 있을 때 트리거됩니다. 이 정책에는 **높은** 심각도 설정이 있습니다.|메일 흐름|E1/G1, E3/G3 또는 E5/G5|
 |**배달 후 발견 된 맬웨어 캠페인**|맬웨어를 포함 하는 비정상적으로 많은 메시지가 조직의 사서함으로 배달 될 때 경고를 생성 합니다. 이 이벤트가 발생 하면 Office 365에서 Exchange Online 사서함에서 감염 된 메시지를 제거 합니다. 이 정책에는 **높은** 심각도 설정이 있습니다.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
 |**검색 및 차단 된 맬웨어 캠페인**|사용자가 조직의 사용자에 게 특정 유형의 맬웨어를 포함 하는 비정상적으로 많은 전자 메일 메시지를 보내려고 했을 때 경고를 생성 합니다. 이 이벤트가 발생 하면 감염 된 메시지는 Office 365에서 차단 되며 사서함으로 배달 되지 않습니다. 이 정책의 심각도 설정은 **낮습니다** .|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
