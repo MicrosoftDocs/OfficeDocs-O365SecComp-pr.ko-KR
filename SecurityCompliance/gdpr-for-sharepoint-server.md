@@ -35,9 +35,7 @@ SharePoint Server 사이트 및 라이브러리에 포함된 사용자 생성 �
 
 파일 공유와 SharePoint 사이트 및 라이브러리에 대한 권장 접근법에는 다음 단계가 포함됩니다.
 
-1.  
-  **
-  [Azure Information Protection 스캐너를 설치하고 구성합니다.](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  **[Azure Information Protection 스캐너를 설치하고 구성합니다.](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   사용할 중요한 데이터 형식을 결정합니다.
 

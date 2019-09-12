@@ -97,8 +97,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <tbody>
 <tr class="odd"><td align="left"><p>보안 및 준수 센터에서 콘텐츠 검색으로 이동</p></td>
 <td align="left"><p>보안 및 준수 센터의 왼쪽 창에서 **검색 및 조사** &gt; **콘텐츠 검색**을 클릭합니다.</p>
-<p>
-  <a href="https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행</a>을 참조하세요.</p></td>
+<p><a href="https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행</a>을 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>각 중요한 정보 유형에 대해 새 검색 항목 만들기</p></td>
@@ -111,16 +110,14 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <p>SensitiveType:&quot;France Passport Number&quot;</p>
 </blockquote>
 <p>검색 범위를 SharePoint(비즈니스용 OneDrive 포함)으로 지정합니다. 구문이 정확한지와 불필요한 공백이나 입력 오류가 없는지 확인합니다.</p>
-<p>
-  <a href="https://support.office.com/ko-KR/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성</a>을 참조하세요.</p></td>
+<p><a href="https://support.office.com/ko-KR/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성</a>을 참조하세요.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>각 검색에 대한 결과 검토</p></td>
 <td align="left"><p>다음 유형의 문제를 찾아 쿼리 정확도가 원하는 수준인지 확인합니다.</p>
 <p><li>많은 가양성</li></p>
 <p><li>누락된 데이터의 알려진 인스턴스</li></p>
-<p>
-  <a href="https://support.office.com/ko-KR/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Office 365 보안 및 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
+<p><a href="https://support.office.com/ko-KR/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Office 365 보안 및 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
 <p>참고: Mozilla Firefox 또는 Chrome을 사용하는 경우 필요한 추가 기능을 설치하기 위해 먼저 Internet Explorer 또는 Edge를 사용하여 보고서를 다운로드해야 할 수 있습니다.</p></td>
 </tr>
 </tbody>
