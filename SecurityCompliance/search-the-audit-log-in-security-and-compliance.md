@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: f10c6b488683201a2980702cc83efe97bf54f046
-ms.sourcegitcommit: 50a2654d6d56249c3f836607f436446049be7833
+ms.openlocfilehash: 9fa2d1b2d047638ade395a2602ba6f6c8bf2ea79
+ms.sourcegitcommit: 6cc11f46f27a8c4f460100ba4da20c23bfd96f7e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838168"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36877317"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
 ## <a name="introduction"></a>소개
 
-사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 이 경우 Office 365 보안 &amp; 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 사용자 및 관리자 활동을 검색할 수 있기 때문입니다.
+사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 이 경우 Office 365 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 사용자 및 관리자 활동을 검색할 수 있기 때문입니다.
 
 - SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
 
@@ -75,6 +75,9 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
 - 사용자 또는 관리자가 감사되는 활동을 수행하면 감사 레코드가 생성되어 조직의 Office 365 감사 로그에 저장됩니다. 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다.
 
   - **Office 365 E3:** 감사 레코드는 90일간 보존됩니다. 즉, 감사 로그에서 최근 90일 내에 수행된 활동을 검색할 수 있습니다.  
+
+    > [!NOTE]
+    > 기본적으로 사서함 감사가 설정되어 있더라도 일부 사용자에 대한 사서함 감사 이벤트는 보안 및 준수 센터의 감사 로그 검색에서 발견되지 않거나 Office 365 관리 작업 API를 통해 찾지 못할 수 있습니다. 자세한 내용은 [사서함 감사 로깅에 대한 자세한 정보](enable-mailbox-auditing.md#more-information)를 참조하세요.
 
   - **Office 365 E5:** 감사 레코드는 90일간 보존됩니다. 결국에는 E5 사용자, E3 라이선스, Office 365 Advanced Compliance 애드온 라이선스를 보유한 사용자는 1년 동안 감사 레코드를 보유할 수 있을 것입니다.
 
