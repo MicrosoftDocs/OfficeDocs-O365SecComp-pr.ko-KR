@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 06c1292138ef7ca4c8421c169555454686ef8858
-ms.sourcegitcommit: 72ee6feaa0e0fd6bf01bfb855ad6e3bef370bf89
+ms.openlocfilehash: b3adf13fe662640c2dbc21eea6a48e2629a1113c
+ms.sourcegitcommit: 9fd606e8d912f4507fbcd9f1fcb9dfcfd20de08b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393337"
+ms.lasthandoff: 09/13/2019
+ms.locfileid: "36980434"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -29,6 +29,12 @@ ms.locfileid: "36393337"
 
 > [!TIP]
 > 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+
+## <a name="august-2019"></a>8 월 2019
+
+### <a name="data-investigations"></a>데이터 조사
+
+데이터 조사를 수행할 때 이제 원래 위치에서 항목을 삭제할 수 있습니다. 즉, 조직 전체에서 Exchange 사서함, SharePoint 사이트 및 OneDrive 계정에서 항목을 삭제할 수 있습니다. 항목을 증거로 수집 했기 때문에 세부 정보 집합에 보관 된 복사본을 추가 하거나 참조로 유지 하는 것을 조사할 수 있습니다. [자세한 정보](datainvestigations/delete-items-from-original-locations.md)
 
 ## <a name="july-2019"></a>7 월 2019 일
 
