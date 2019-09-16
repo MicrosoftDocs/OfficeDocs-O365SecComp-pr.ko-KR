@@ -1,6 +1,7 @@
 # [보안 및 규정 준수](index.md)
 
 # 시작
+## [준수 센터의 새로운 기능](whats-new.md)
 ## [Office 365 보안 로드맵](security-roadmap.md)
 ## [보안 강화를 위해 Office 365 테넌트 구성](tenant-wide-setup-for-increased-security.md)
 ## [새 Microsoft 365 보안 센터 및 Microsoft 365 규정 준수 센터](microsoft-security-and-compliance.md)
